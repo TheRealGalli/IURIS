@@ -1,0 +1,2756 @@
+{
+  "voci": [
+    {
+      "id": "legis-actio-per-sacramentum-in-rem",
+      "oltre": "La descrizione più completa è in [[gaio|Gaio]] (*Institutiones* IV 16), che usa come esempio la rivendica di uno schiavo. L'attore, tenendo la **festuca** (bacchetta che simboleggia la lancia, cioè il dominio conquistato), dice *hunc ego hominem ex iure Quiritium meum esse aio* e impone la bacchetta sullo schiavo; il convenuto ripete parole e gesti. Il magistrato ordina *mittite ambo hominem* («lasciate entrambi l'uomo»). Segue la sfida: *quando tu iniuria vindicavisti, quingentis assibus sacramento te provoco*. Il magistrato assegna poi le *vindiciae*, il possesso interinale, a una parte, assistita dai [[praedes]] *litis et vindiciarum* a garanzia della cosa e dei frutti. La somma era di **500 assi** per le liti di valore pari o superiore a mille assi, di **50** per quelle minori e, per [[favor-libertatis]], per le cause sulla libertà. Il giudice stabilisce quale *sacramentum* sia *iustum*; chi perde versa la somma all'erario (in origine destinata a scopi sacri). In età classica la rivendica si fa con la formula petitoria del [[processo-formulare]].",
+      "daSapere": [
+        "Fonte: Gaio, *Institutiones* IV 16",
+        "*Hunc ego hominem ex iure Quiritium meum esse aio*: «affermo che quest'uomo è mio secondo il diritto dei Quiriti»",
+        "*Sacramentum*: 500 assi (liti da 1000 assi in su) o 50 assi (liti minori e cause di libertà)",
+        "*Vindiciae*: possesso interinale, garantito dai *praedes litis et vindiciarum*"
+      ],
+      "collegamenti": [
+        {
+          "da": "praedes",
+          "a": "legis-actio-per-sacramentum-in-rem",
+          "tipo": "parte-di",
+          "etichetta": "garantiscono la cosa e i frutti nella"
+        },
+        {
+          "da": "legis-actio-per-sacramentum-in-rem",
+          "a": "in-iure-cessio",
+          "tipo": "evolve-in",
+          "etichetta": "presta il suo schema rituale alla"
+        },
+        {
+          "da": "legis-actio-per-sacramentum-in-rem",
+          "a": "manumissio-vindicta",
+          "tipo": "evolve-in",
+          "etichetta": "è adattata a scopo manumissorio nella"
+        },
+        {
+          "da": "legis-actio-per-sacramentum-in-rem",
+          "a": "dominium",
+          "tipo": "collegato",
+          "etichetta": "serve a far valere in giudizio il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro IV (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai4_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "nexum",
+      "oltre": "È uno degli istituti più discussi del diritto arcaico, perché le fonti sono poche e tarde. Varrone (*De lingua Latina*) riferisce due definizioni: per [[manio-manilio|Manio Manilio]] è *nexum* tutto ciò che si compie *per aes et libram*, compresa la [[mancipatio]]; per [[quinto-mucio-scevola|Quinto Mucio]] solo ciò che si fa per aes et libram per obbligarsi, esclusa la mancipatio. Le [[xii-tavole]] lo nominano accanto al *mancipium*: *cum nexum faciet mancipiumque, uti lingua nuncupassit, ita ius esto* («quando si compie un nexum o una mancipatio, ciò che la lingua ha pronunciato sia diritto»). Il debitore vincolato (*nexus*) finiva in una condizione di semi-schiavitù presso il creditore, per il quale lavorava finché il debito non fosse estinto. Secondo [[livio|Livio]] l'abuso di un creditore su un giovane *nexus* provocò la [[lex-poetelia-papiria]] (tradizionalmente 326 a.C.): da allora rispondono dei debiti i beni, non il corpo del debitore. Il ricordo dell'istituto sopravvive nella *solutio per aes et libram*, il rito di liberazione dal debito descritto da [[gaio|Gaio]].",
+      "daSapere": [
+        "XII Tavole: *cum nexum faciet mancipiumque, uti lingua nuncupassit, ita ius esto*",
+        "*Nexus*: il debitore asservito al creditore",
+        "Lex Poetelia Papiria (326 a.C. secondo Livio): rispondono i beni, non il corpo",
+        "Definizioni di Manio Manilio e Quinto Mucio riferite da Varrone"
+      ],
+      "collegamenti": [
+        {
+          "da": "lex-poetelia-papiria",
+          "a": "nexum",
+          "tipo": "supera",
+          "etichetta": "abolisce l'asservimento del debitore nel"
+        },
+        {
+          "da": "manio-manilio",
+          "a": "nexum",
+          "tipo": "interpreta",
+          "etichetta": "definisce in senso ampio il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Varrone, De lingua Latina 7.105 (testo e discussione nelle lezioni di storia giuridica di Harvard)",
+          "url": "https://amesfoundation.law.harvard.edu/RL/lectures/c15.out.rev.pdf"
+        }
+      ]
+    },
+    {
+      "id": "res-mancipi",
+      "oltre": "La distinzione tra *res mancipi* e [[res-nec-mancipi]] è la più antica classificazione romana delle cose; la conosciamo soprattutto da [[gaio|Gaio]] e dall'[[epitome-ulpiani|Epitome Ulpiani]]. Sono *mancipi* i **fondi su suolo italico** (con gli edifici), gli **schiavi**, gli **animali che si domano per il dorso o per il collo** (buoi, cavalli, muli, asini) e le **servitù prediali rustiche** più antiche (*iter*, *actus*, *via*, *aquaeductus*). I fondi provinciali ne restano fuori; elefanti e cammelli, pur essendo bestie da soma, sono *nec mancipi* perché ignoti alla Roma arcaica. Sugli animali le scuole discutevano: per i [[sabiniani]] sono *mancipi* dalla nascita, per i [[proculiani]] solo quando sono domati. Il loro trasferimento o, per le servitù, la costituzione richiede [[mancipatio]] o [[in-iure-cessio]]; se una cosa corporale mancipi è soltanto consegnata (*traditio*), l'acquirente non diventa *dominus ex iure Quiritium* ma ha la cosa [[in-bonis-habere|in bonis]] finché non la usucapisce. La distinzione, ormai priva di senso, fu abolita da [[giustiniano|Giustiniano]] nel 531.",
+      "daSapere": [
+        "Fondi italici, schiavi, animali da tiro e da soma, servitù rustiche",
+        "Si trasferiscono con *mancipatio* o *in iure cessio*; con la sola *traditio* si ha l'*in bonis habere*",
+        "Sabiniani: animali *mancipi* dalla nascita; proculiani: dalla doma",
+        "Distinzione abolita da Giustiniano (531 d.C.)"
+      ],
+      "collegamenti": [
+        {
+          "da": "mancipatio",
+          "a": "res-mancipi",
+          "tipo": "collegato",
+          "etichetta": "è il modo civile di trasferire le"
+        },
+        {
+          "da": "res-mancipi",
+          "a": "res-nec-mancipi",
+          "tipo": "contrasta",
+          "etichetta": "si contrappongono a tutte le altre cose, le"
+        },
+        {
+          "da": "res-mancipi",
+          "a": "in-bonis-habere",
+          "tipo": "causa",
+          "etichetta": "se solo consegnate danno luogo all'"
+        },
+        {
+          "da": "giustiniano",
+          "a": "res-mancipi",
+          "tipo": "supera",
+          "etichetta": "abolisce la distinzione delle"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro II (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai2_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "usucapione",
+      "oltre": "Il nome viene da *usu capere*, «acquistare con l'uso». Il precetto decemvirale suonava *usus auctoritas fundi biennium est, ceterarum rerum annus*: due anni per i fondi, uno per le altre cose. In età classica la giurisprudenza ne precisa i requisiti, che i medievali riassumeranno nel verso *res habilis, titulus, fides, possessio, tempus*. Non si usucapiscono le cose rubate (già per le XII Tavole e poi per la *lex Atinia*) né quelle possedute con violenza; l'istituto appartiene al diritto civile romano e non vale per i fondi provinciali, per i quali si sviluppa la *longi temporis praescriptio* (10 o 20 anni). Ha due funzioni: trasformare in [[dominium]] il possesso di chi ha ricevuto una [[res-mancipi]] senza mancipatio ([[in-bonis-habere]]) e sanare l'acquisto da chi non era proprietario. [[giustiniano|Giustiniano]] fonde usucapione e *praescriptio*: **3 anni** per i mobili, **10 anni** tra presenti e **20** tra assenti per gli immobili. La stessa logica del possesso annuale spiega l'[[usus]] che fa acquistare la *manus* sulla moglie.",
+      "daSapere": [
+        "XII Tavole: *usus auctoritas fundi biennium est, ceterarum rerum annus*",
+        "Requisiti: *res habilis, titulus, fides, possessio, tempus*",
+        "Escluse le *res furtivae* (XII Tavole, *lex Atinia*)",
+        "Giustiniano: 3 anni i mobili, 10 o 20 anni gli immobili"
+      ],
+      "collegamenti": [
+        {
+          "da": "usucapione",
+          "a": "codice-di-contadini",
+          "tipo": "esempio-di",
+          "etichetta": "con il biennio per i fondi rivela il"
+        },
+        {
+          "da": "possesso",
+          "a": "usucapione",
+          "tipo": "evolve-in",
+          "etichetta": "se qualificato e protratto conduce all'"
+        },
+        {
+          "da": "in-bonis-habere",
+          "a": "usucapione",
+          "tipo": "evolve-in",
+          "etichetta": "si consolida in proprietà civile con l'"
+        },
+        {
+          "da": "bona-fides",
+          "a": "usucapione",
+          "tipo": "parte-di",
+          "etichetta": "in senso soggettivo è requisito dell'"
+        },
+        {
+          "da": "usucapione",
+          "a": "usus",
+          "tipo": "collegato",
+          "etichetta": "ha la stessa logica temporale dell'"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro II (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai2_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "adrogatio",
+      "oltre": "È una forma antica di adozione e riguarda un *pater familias*: con l'arrogato passano sotto la [[patria-potestas]] dell'arrogante anche i suoi discendenti e tutto il suo patrimonio, e si estingue il culto della sua famiglia (*detestatio sacrorum*). Poiché poteva far scomparire una famiglia, era preceduta da un'indagine dei [[pontefici]] (età dell'arrogante, mancanza di figli, vantaggio per l'arrogato) e si compiva con una *rogatio* ai [[comizi-curiati]], che nella tarda Repubblica erano rappresentati da trenta littori. La formula, tramandata da [[aulo-gellio|Aulo Gellio]], chiede al popolo di volere che l'arrogato sia figlio dell'arrogante come se fosse nato da lui, con potere di vita e di morte. Va distinta dall'*adoptio* in senso stretto, che riguarda un *alieni iuris* e si compie con le vendite fittizie dell'[[emancipatio]] seguite da una rivendica davanti al pretore. Esempio celebre: nel 59 a.C. il patrizio Clodio si fece arrogare da un plebeo per poter diventare tribuno della plebe. Donne e impuberi non potevano essere arrogati; [[antonino-pio|Antonino Pio]] ammise gli impuberi con particolari cautele, e nel tardo impero l'adrogatio si faceva per rescritto del principe.",
+      "daSapere": [
+        "Arrogato: un *sui iuris* che diventa *alieni iuris* (*capitis deminutio minima*)",
+        "Procedura: indagine dei pontefici e *rogatio* ai comizi curiati",
+        "*Detestatio sacrorum*: abbandono del culto della famiglia d'origine",
+        "59 a.C.: Clodio arrogato da un plebeo per diventare tribuno"
+      ],
+      "collegamenti": [
+        {
+          "da": "adrogatio",
+          "a": "pater-familias",
+          "tipo": "collegato",
+          "etichetta": "sottopone un sui iuris a un altro"
+        },
+        {
+          "da": "noctes-atticae",
+          "a": "adrogatio",
+          "tipo": "testimonia",
+          "etichetta": "tramanda la formula rituale dell'"
+        },
+        {
+          "da": "adrogatio",
+          "a": "formalismo-interpretativo",
+          "tipo": "esempio-di",
+          "etichetta": "è un congegno pontificale del"
+        },
+        {
+          "da": "adrogatio",
+          "a": "patria-potestas",
+          "tipo": "crea",
+          "etichetta": "sottopone l'arrogato e i suoi discendenti alla"
+        },
+        {
+          "da": "adrogatio",
+          "a": "emancipatio",
+          "tipo": "collegato",
+          "etichetta": "si distingue dall'adozione costruita sull'"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro I (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai1_Poste.htm"
+        },
+        {
+          "titolo": "Aulo Gellio, Noctes Atticae V 19 (Università di Chicago)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/5%2A.html"
+        }
+      ]
+    },
+    {
+      "id": "dominium",
+      "oltre": "Il termine *dominium* (da *dominus*, padrone) si afferma nel linguaggio tecnico tra tarda Repubblica e Principato; prima la proprietà si esprimeva con la formula *meum esse aio ex iure Quiritium*. È riservato ai cittadini romani (e a chi ha lo [[ius-commercium]]), su cose in commercio e, per i fondi, solo su suolo italico: i fondi provinciali appartengono al popolo romano o al principe e i privati ne hanno solo possesso e godimento. È tutelato dalla [[vindicatio|rei vindicatio]], che nel processo formulare si esercita con la formula petitoria, e dall'*actio negatoria* contro chi pretende una servitù. Accanto a esso il pretore protegge la proprietà «pretoria» ([[in-bonis-habere]]), sicché [[gaio|Gaio]] parla di un *duplex dominium*. [[giustiniano|Giustiniano]] elimina il *nudum ius Quiritium* e riunifica la proprietà. Le qualità di pienezza, assolutezza ed elasticità sono una sistemazione dogmatica moderna, elaborata soprattutto dalla [[pandettistica]].",
+      "daSapere": [
+        "*Ex iure Quiritium*: «secondo il diritto dei Quiriti», cioè dei cittadini",
+        "Tutela: *rei vindicatio* (formula petitoria) e *actio negatoria*",
+        "Gaio: *duplex dominium* (civile e *in bonis*)",
+        "Giustiniano abolisce il *nudum ius Quiritium*"
+      ],
+      "collegamenti": [
+        {
+          "da": "mancipatio",
+          "a": "dominium",
+          "tipo": "crea",
+          "etichetta": "trasferisce, per le res mancipi, il"
+        },
+        {
+          "da": "in-bonis-habere",
+          "a": "dominium",
+          "tipo": "contrasta",
+          "etichetta": "è la proprietà pretoria, distinta dal"
+        },
+        {
+          "da": "vindicatio",
+          "a": "dominium",
+          "tipo": "collegato",
+          "etichetta": "afferma in giudizio il"
+        },
+        {
+          "da": "in-iure-cessio",
+          "a": "dominium",
+          "tipo": "crea",
+          "etichetta": "trasferisce anch'essa il"
+        },
+        {
+          "da": "dominium",
+          "a": "ius-civile",
+          "tipo": "parte-di",
+          "etichetta": "è la proprietà riconosciuta dal"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro II (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai2_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "fase-apud-iudicem",
+      "oltre": "La divisione del processo privato in due fasi, una davanti al magistrato e una davanti a un giudice privato, accomuna le [[legis-actiones]] e il [[processo-formulare]]; scompare solo con la [[cognitio-extra-ordinem]], in cui il funzionario imperiale segue la causa dall'inizio alla sentenza. Il giudice poteva essere un *iudex unus*, scelto dalle parti o tratto dall'albo dei giudici (formato, secondo le epoche, da senatori e cavalieri), un *arbiter* per le questioni che richiedevano una valutazione tecnica, un collegio di *recuperatores* (usato soprattutto nelle liti con stranieri) o, per le eredità, il tribunale dei *centumviri*. La procedura era orale e pubblica: gli avvocati discutevano, le prove erano libere e il giudice poteva farsi assistere da un consiglio di esperti. Se non riusciva a formarsi un'opinione poteva giurare *sibi non liquere* («la cosa non mi è chiara») ed essere sostituito. Nel processo formulare la **condanna** è di regola pecuniaria, mentre una sentenza può anche assolvere; nei giudizi divisori opera inoltre l'aggiudicazione. Non esiste l'appello gerarchico proprio della *cognitio*, pur essendovi rimedi eccezionali contro alcuni vizi del giudizio.",
+      "daSapere": [
+        "*Iudex unus*, *arbiter*, *recuperatores*, *centumviri*",
+        "*Sibi non liquere*: «la cosa non mi è chiara», il giudice si libera dal giudizio",
+        "Nel processo formulare la condanna è sempre pecuniaria",
+        "Nessun appello: compare solo con la *cognitio extra ordinem*"
+      ],
+      "collegamenti": [
+        {
+          "da": "fase-in-iure",
+          "a": "fase-apud-iudicem",
+          "tipo": "collegato",
+          "etichetta": "precede e prepara la"
+        },
+        {
+          "da": "fase-apud-iudicem",
+          "a": "legis-actiones",
+          "tipo": "parte-di",
+          "etichetta": "è la seconda fase già nelle"
+        },
+        {
+          "da": "cognitio-extra-ordinem",
+          "a": "fase-apud-iudicem",
+          "tipo": "supera",
+          "etichetta": "abolisce la divisione in due fasi e la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro IV (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai4_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "in-iure-cessio",
+      "oltre": "La descrive [[gaio|Gaio]] (II 24): davanti al pretore a Roma o al governatore in provincia, l'acquirente afferma che la cosa è sua *ex iure Quiritium*; il magistrato chiede all'alienante se intenda contraddire e, al suo silenzio o al suo diniego, *addicit*, assegna la cosa al primo. Gli appunti la collegano alle [[res-nec-mancipi]], ma il suo impiego non è limitato a questa categoria: trasferisce anche le [[res-mancipi]] giuridicamente disponibili; per queste però si preferiva la [[mancipatio]], che non richiedeva di presentarsi al magistrato. Per le *res nec mancipi* bastava ormai la semplice consegna (*traditio*), sicché la *cessio* era usata soprattutto per ciò che non si poteva consegnare: costituire un [[usufructus|usufrutto]] o una servitù, cedere un'eredità o la tutela legittima; inoltre chiude la procedura dell'adozione. Era riservata ai cittadini. Scompare nell'età postclassica e [[giustiniano|Giustiniano]] ne cancella le tracce nei testi della compilazione.",
+      "daSapere": [
+        "Fonte: Gaio, *Institutiones* II 24",
+        "*Cessio*: l'alienante «si ritira» e tace; *addictio* del magistrato",
+        "Vale per *res mancipi* e *nec mancipi*; serve anche per usufrutto, servitù, eredità, tutela",
+        "Riservata ai cittadini; scompare nell'età postclassica"
+      ],
+      "collegamenti": [
+        {
+          "da": "in-iure-cessio",
+          "a": "res-nec-mancipi",
+          "tipo": "collegato",
+          "etichetta": "trasferisce, come le res mancipi, anche le"
+        },
+        {
+          "da": "in-iure-cessio",
+          "a": "formalismo-interpretativo",
+          "tipo": "esempio-di",
+          "etichetta": "è un finto processo nato dal"
+        },
+        {
+          "da": "in-iure-cessio",
+          "a": "interpretatio-pontificale",
+          "tipo": "esempio-di",
+          "etichetta": "è un congegno creato dall'"
+        },
+        {
+          "da": "in-iure-cessio",
+          "a": "res-mancipi",
+          "tipo": "collegato",
+          "etichetta": "trasferisce, in alternativa alla mancipatio, le"
+        },
+        {
+          "da": "in-iure-cessio",
+          "a": "usufructus",
+          "tipo": "crea",
+          "etichetta": "serve anche a costituire l'"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro II (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai2_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "legis-actio-per-manus-iniectionem",
+      "oltre": "[[gaio|Gaio]] (IV 21–25) ne conserva il formulario: il creditore dichiarava la somma per cui il debitore era stato condannato e, dicendo *manum inicio*, gli metteva la mano addosso. Il debitore non poteva difendersi da solo: poteva intervenire solo un garante, il *vindex*, che contestando la pretesa rischiava, se soccombeva, di pagare il doppio. In mancanza di un vindex il magistrato pronunciava l'*addictio* e il debitore veniva condotto via. I termini descritti negli appunti risalgono alle [[xii-tavole]]: trenta giorni per pagare, sessanta di prigionia con tre esposizioni nei giorni di mercato (*nundinae*), infine la vendita *trans Tiberim* o la morte; il precetto *tertiis nundinis partis secanto* permetteva a più creditori di dividersi il corpo. Leggi successive introdussero forme *pro iudicato* e *pura*: in quest’ultima il debitore poteva difendersi da sé. La [[lex-poetelia-papiria]] è legata dalla tradizione alla liberazione dei debitori asserviti, ma la sua incidenza sulla manus iniectio è discussa: non va presentata come abolizione certa di ogni esecuzione personale. Con il processo formulare si sviluppa l'esecuzione patrimoniale, attraverso l'*actio iudicati* e la vendita dei beni (*bonorum venditio*).",
+      "daSapere": [
+        "Fonte: Gaio, *Institutiones* IV 21–25",
+        "*Manum inicio*: «ti metto la mano addosso»",
+        "*Vindex*: garante che contesta e rischia il doppio",
+        "XII Tavole: 30 giorni, 60 di prigionia, tre mercati; *tertiis nundinis partis secanto*"
+      ],
+      "collegamenti": [
+        {
+          "da": "legis-actio-per-manus-iniectionem",
+          "a": "legis-actiones",
+          "tipo": "parte-di",
+          "etichetta": "è l'azione esecutiva sulla persona tra le"
+        },
+        {
+          "da": "lex-poetelia-papiria",
+          "a": "legis-actio-per-manus-iniectionem",
+          "tipo": "collegato",
+          "etichetta": "si collega alla revisione dell'esecuzione personale della"
+        },
+        {
+          "da": "xii-tavole",
+          "a": "legis-actio-per-manus-iniectionem",
+          "tipo": "collegato",
+          "etichetta": "fissano termini e sanzioni della"
+        },
+        {
+          "da": "legis-actio-per-manus-iniectionem",
+          "a": "legis-actio-per-pignoris-capionem",
+          "tipo": "collegato",
+          "etichetta": "è azione esecutiva accanto alla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro IV (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai4_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "lex-valeria-de-provocatione",
+      "oltre": "La tradizione annalistica ricorda **tre leggi Valerie** sulla [[provocatio-ad-populum]]: del 509 a.C. (attribuita a Publio Valerio Publicola, console nel primo anno della Repubblica), del 449 ([[lex-valeria-horatia]], dopo la caduta dei decemviri) e del 300 a.C. Gli appunti, che in un punto parlano del 509 e in un altro del 300, si riferiscono quindi a leggi diverse con lo stesso nome. Molti studiosi ritengono storica solo l'ultima e considerano le prime due anticipazioni della tradizione, che proietta all'origine della Repubblica una garanzia affermatasi più tardi. Secondo [[livio|Livio]] la legge del 300 non prevedeva una vera sanzione: qualificava soltanto come *improbe factum*, «azione riprovevole», la condotta del magistrato che l'avesse violata; è perciò l'esempio tipico di [[leges-imperfectae|lex imperfecta]]. La garanzia si sviluppò anzitutto nell'ambito cittadino (*domi*); la sua estensione e i limiti, soprattutto rispetto al [[dittatore]], mutarono nel tempo; le [[leges-porciae]] del II secolo la rafforzarono e la munirono di sanzioni, e la *lex Sempronia* di Gaio Gracco (123 a.C.) ribadì che solo il popolo poteva decidere della vita di un cittadino. Sulle condanne capitali giudicavano i [[comizi-centuriati]].",
+      "daSapere": [
+        "Tre leggi Valerie: 509, 449 (Valeria Horatia), 300 a.C.",
+        "Legge del 300: violazione solo *improbe factum*, esempio di *lex imperfecta*",
+        "Rafforzata dalle *leges Porciae* (II sec. a.C.) e dalla *lex Sempronia* (123 a.C.)"
+      ],
+      "collegamenti": [
+        {
+          "da": "lex-valeria-de-provocatione",
+          "a": "imperium-domi",
+          "tipo": "contrasta",
+          "etichetta": "pone un limite all'"
+        },
+        {
+          "da": "lex-valeria-de-provocatione",
+          "a": "plebe",
+          "tipo": "collegato",
+          "etichetta": "protegge soprattutto i cittadini della"
+        },
+        {
+          "da": "lex-valeria-de-provocatione",
+          "a": "leges-imperfectae",
+          "tipo": "esempio-di",
+          "etichetta": "nella versione del 300 è esempio di"
+        },
+        {
+          "da": "lex-valeria-de-provocatione",
+          "a": "leges-porciae",
+          "tipo": "evolve-in",
+          "etichetta": "è rafforzata e munita di sanzioni dalle"
+        },
+        {
+          "da": "lex-valeria-de-provocatione",
+          "a": "lex-valeria-horatia",
+          "tipo": "collegato",
+          "etichetta": "è riaffermata, nel 449, dalla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Livio, Ab urbe condita, libro X (testo latino)",
+          "url": "https://thelatinlibrary.com/livy/liv.10.shtml"
+        }
+      ]
+    },
+    {
+      "id": "litis-contestatio",
+      "oltre": "Il nome viene da *contestari*, «chiamare a testimoni»: secondo Festo le parti dicevano ai presenti *testes estote*, «siate testimoni». Nel [[processo-formulare]] i testimoni non servono più, ma la *litis contestatio* resta il momento decisivo: è l'atto con cui le parti accettano la [[formula]] concessa dal pretore. Ha tre effetti principali. **Fissa** l'oggetto della lite, che il giudice valuta com'era in quel momento. **Consuma** l'azione: per la stessa questione non si può agire una seconda volta (*bis de eadem re ne sit actio*); nei giudizi «legittimi» con azione personale *in ius* l'effetto è automatico, negli altri si fa valere con un'[[exceptio]] *rei iudicatae vel in iudicium deductae*. **Trasforma** il rapporto: [[gaio|Gaio]] (III 180) spiega che prima il debitore deve dare, dopo la *litis contestatio* deve essere condannato, dopo la condanna deve eseguire il giudicato. Nella [[cognitio-extra-ordinem]], che non conosce la formula, perde gran parte di queste funzioni.",
+      "daSapere": [
+        "*Contestari*: chiamare a testimoni (*testes estote*)",
+        "Effetto preclusivo: *bis de eadem re ne sit actio*",
+        "Gaio III 180: *dare oportere* → *condemnari oportere* → *iudicatum facere oportere*"
+      ],
+      "collegamenti": [
+        {
+          "da": "litis-contestatio",
+          "a": "fase-in-iure",
+          "tipo": "parte-di",
+          "etichetta": "chiude e suggella la"
+        },
+        {
+          "da": "litis-contestatio",
+          "a": "formula",
+          "tipo": "collegato",
+          "etichetta": "rende definitiva e immodificabile la"
+        },
+        {
+          "da": "litis-contestatio",
+          "a": "fase-apud-iudicem",
+          "tipo": "collegato",
+          "etichetta": "apre la"
+        },
+        {
+          "da": "in-integrum-restitutio",
+          "a": "litis-contestatio",
+          "tipo": "contrasta",
+          "etichetta": "può cancellare in casi eccezionali gli effetti della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro IV (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai4_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "formalismo-interpretativo",
+      "oltre": "Per «formalismo» si intende in generale l'attribuzione di effetti giuridici a forme determinate (parole, gesti, scrittura) senza che la sola volontà basti a sostituirle. Il formalismo interpretativo è la tecnica con cui i [[pontefici]] usarono quelle stesse forme, rispettandone la lettera, per raggiungere scopi che la legge non prevedeva. L'esempio da manuale è l'[[emancipatio]]: le [[xii-tavole]] punivano il padre che avesse venduto tre volte il figlio (*si pater filium ter venum duit, filius a patre liber esto*), e i pontefici trasformarono la sanzione in uno strumento per liberare volontariamente il figlio con tre vendite fittizie; per figlie e nipoti, poiché la legge parlava solo di *filius*, ne bastava una. Il rovescio è il rigore letterale delle [[legis-actiones]]: [[gaio|Gaio]] (IV 11) racconta che chi agiva per viti tagliate perdeva la causa se diceva *vites* invece di *arbores*, la parola usata dalle XII Tavole. La definizione citata negli appunti è di [[rudolf-von-jhering|Jhering]], che nello *Spirito del diritto romano* dedica al formalismo un'analisi celebre.",
+      "daSapere": [
+        "XII Tavole: *si pater filium ter venum duit, filius a patre liber esto*",
+        "Emancipatio: tre vendite fittizie per il figlio, una per figlie e nipoti",
+        "Gaio IV 11: *vites* invece di *arbores*, causa persa"
+      ],
+      "collegamenti": [
+        {
+          "da": "formalismo-interpretativo",
+          "a": "formalismo",
+          "tipo": "parte-di",
+          "etichetta": "è l'altra faccia, creativa, del"
+        },
+        {
+          "da": "emancipatio",
+          "a": "formalismo-interpretativo",
+          "tipo": "esempio-di",
+          "etichetta": "è il caso emblematico del"
+        },
+        {
+          "da": "coemptio",
+          "a": "formalismo-interpretativo",
+          "tipo": "esempio-di",
+          "etichetta": "è una mancipatio fittizia, esempio di"
+        },
+        {
+          "da": "formalismo-interpretativo",
+          "a": "xii-tavole",
+          "tipo": "interpreta",
+          "etichetta": "adatta, senza tradirne la lettera, le"
+        }
+      ],
+      "togli": [
+        {
+          "da": "manus",
+          "a": "formalismo-interpretativo"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro IV (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai4_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "rudolf-von-jhering",
+      "oltre": "Rudolf von Jhering (Aurich 1818 – Gottinga 1892) è uno dei maggiori giuristi tedeschi dell'Ottocento. Insegnò tra l'altro a Basilea, Rostock, Kiel, Giessen, Vienna e infine Gottinga. Formatosi nel solco della [[scuola-storica]] e della [[pandettistica]], ne divenne poi il critico più brillante.\n\n- *Lo spirito del diritto romano nei diversi gradi del suo sviluppo* (1852–1865, incompiuto): legge il diritto romano come prodotto di una mentalità e di una tecnica; qui si trovano le pagine sul formalismo citate negli appunti.\n- *La lotta per il diritto* (1872): il diritto non nasce pacificamente ma si conquista, e difenderlo è un dovere verso se stessi e verso la società.\n- *Lo scopo nel diritto* (1877–1883): ogni norma nasce da uno scopo pratico, la tutela di interessi.\n- *Serio e faceto nella giurisprudenza* (1884): satira del «cielo dei concetti» dei pandettisti.\n\nDa queste idee viene la definizione del [[diritto-soggettivo]] come **interesse giuridicamente protetto**, contrapposta alla teoria della volontà di [[savigny|Savigny]] e Windscheid; a Jhering si devono anche la teoria della *culpa in contrahendo* e una teoria del possesso opposta a quella savignyana. Ha ispirato la «giurisprudenza degli interessi».",
+      "daSapere": [
+        "1818–1892; insegna tra l'altro a Vienna e Gottinga",
+        "*Geist des römischen Rechts* (1852–1865); *Der Kampf ums Recht* (1872); *Der Zweck im Recht* (1877–1883)",
+        "Diritto soggettivo = interesse giuridicamente protetto",
+        "Dalla giurisprudenza dei concetti alla giurisprudenza degli interessi"
+      ],
+      "collegamenti": [
+        {
+          "da": "rudolf-von-jhering",
+          "a": "formalismo",
+          "tipo": "interpreta",
+          "etichetta": "vi vede lo sforzo di rendere visibile l'invisibile"
+        },
+        {
+          "da": "rudolf-von-jhering",
+          "a": "formalismo-interpretativo",
+          "tipo": "interpreta",
+          "etichetta": "lo definisce creazione cosciente e calcolata"
+        },
+        {
+          "da": "rudolf-von-jhering",
+          "a": "pandettistica",
+          "tipo": "contrasta",
+          "etichetta": "critica, dopo esservisi formato, la"
+        },
+        {
+          "da": "rudolf-von-jhering",
+          "a": "diritto-soggettivo",
+          "tipo": "interpreta",
+          "etichetta": "definisce come interesse protetto il"
+        },
+        {
+          "da": "rudolf-von-jhering",
+          "a": "savigny",
+          "tipo": "contrasta",
+          "etichetta": "critica la teoria del possesso di"
+        }
+      ]
+    },
+    {
+      "id": "codice-di-hammurabi",
+      "oltre": "Hammurabi regnò su Babilonia nella prima metà del XVIII secolo a.C. (circa 1792–1750 secondo la cronologia più usata) e unificò la Mesopotamia. La stele di basalto, alta oltre due metri, fu trovata a Susa nel 1901–1902 da una missione archeologica francese (vi era stata portata come bottino da un re elamita) ed è oggi al Louvre. In alto il re riceve le insegne del potere dal dio del sole e della giustizia Šamaš; sotto, tra un **prologo** e un **epilogo** celebrativi, si leggono circa **282 paragrafi** in forma casistica («se un uomo…, allora…») su processo, proprietà, commercio, famiglia, lesioni. Vi compare la legge del taglione, ma le pene variano secondo la condizione sociale di vittima e colpevole. Non è un codice in senso moderno: gli studiosi discutono se fosse davvero applicato o fosse soprattutto una raccolta esemplare di decisioni a gloria del sovrano. Per il corso conta il confronto con le [[xii-tavole]]: entrambe sono leggi scritte ed esposte, ma la stele vuole fissare il diritto per sempre.",
+      "daSapere": [
+        "Hammurabi, re di Babilonia: circa 1792–1750 a.C.",
+        "Stele di basalto trovata a Susa (1901–1902), oggi al Louvre",
+        "Prologo, circa 282 paragrafi casistici, epilogo",
+        "Taglione e pene differenziate per ceto"
+      ],
+      "collegamenti": [
+        {
+          "da": "codice-di-hammurabi",
+          "a": "immutabilita-della-legge",
+          "tipo": "esempio-di",
+          "etichetta": "vuole leggi valide «per sempre»: esempio di"
+        },
+        {
+          "da": "codice-di-hammurabi",
+          "a": "xii-tavole",
+          "tipo": "collegato",
+          "etichetta": "offre un confronto storico con le"
+        },
+        {
+          "da": "codice-di-hammurabi",
+          "a": "codice-moderno",
+          "tipo": "contrasta",
+          "etichetta": "non è un codice nel senso del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Museo del Louvre, Le Code de Hammurabi",
+          "url": "https://www.louvre.fr/le-code-de-hammurabi"
+        }
+      ]
+    },
+    {
+      "id": "ermodoro-di-efeso",
+      "oltre": "Ermodoro era un aristocratico di Efeso, in Asia Minore, esiliato dai concittadini: Eraclito, in un celebre frammento, condanna gli Efesini per aver cacciato «il migliore» di loro. La notizia che, rifugiatosi in Italia, abbia assistito i [[decemviri-legibus-scribundis|decemviri]] si legge nell'[[enchiridion]] di [[pomponio|Pomponio]], che la presenta come voce riferita da alcuni (*quidam rettulerunt*), e in Plinio il Vecchio, secondo cui nel Comizio c'era una statua di Ermodoro, interprete delle leggi scritte dai decemviri. Gli storici moderni la considerano poco attendibile, anche per ragioni cronologiche, ma è un indizio dei contatti tra la Roma arcaica e il mondo greco, come la tradizione dell'[[ambasceria-in-grecia]]. All’esame va distinta l’esistenza di una tradizione antica dalla verità dell’episodio: il racconto non prova da solo che Ermodoro sia stato un redattore delle XII Tavole.",
+      "daSapere": [
+        "Contemporaneo e amico di Eraclito (VI–V sec. a.C.), esule da Efeso",
+        "Fonti: Pomponio (D. 1.2.2.4) e Plinio il Vecchio (statua nel Comizio)",
+        "Notizia giudicata poco attendibile"
+      ],
+      "collegamenti": [
+        {
+          "da": "ermodoro-di-efeso",
+          "a": "decemviri-legibus-scribundis",
+          "tipo": "influenza",
+          "etichetta": "avrebbe ispirato, per una tradizione incerta, i"
+        },
+        {
+          "da": "enchiridion",
+          "a": "ermodoro-di-efeso",
+          "tipo": "testimonia",
+          "etichetta": "riferisce la notizia su"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "gentes",
+      "oltre": "La *gens* riuniva più famiglie che portavano lo stesso nome gentilizio (*Cornelii*, *Claudii*, *Fabii*…) e si ritenevano discendenti da un antenato comune, spesso leggendario; da qui il sistema dei *tria nomina* (prenome, nome gentilizio, cognome). Aveva culti propri e, in età arcaica, un forte peso politico: il loro rilievo emerge soprattutto nelle tradizioni sulle famiglie patrizie e sui gruppi di [[clientela|clienti]], ma esistono anche gentes plebee. Il loro ruolo nella città arcaica è discusso: per alcuni (Bonfante) erano organismi politici più antichi della *civitas*, per altri semplici gruppi parentali. Le [[xii-tavole]] davano ai gentili non solo l'eredità in mancanza di agnati, ma anche la tutela e la cura del pazzo. [[cicerone|Cicerone]] (*Topica*) definisce gentili coloro che hanno lo stesso nome, discendono da nati liberi, non hanno antenati schiavi e non hanno subito *capitis deminutio*. Ai tempi di [[gaio|Gaio]] (III 17) l'intero diritto gentilizio era ormai caduto in disuso.",
+      "daSapere": [
+        "XII Tavole: *si adgnatus nec escit, gentiles familiam habento*",
+        "*Tria nomina*: prenome, nome gentilizio, cognome",
+        "Cicerone, *Topica*: definizione dei gentili",
+        "Gaio III 17: diritto gentilizio caduto in disuso"
+      ],
+      "collegamenti": [
+        {
+          "da": "gentes",
+          "a": "adgnatio",
+          "tipo": "collegato",
+          "etichetta": "vengono dopo, nella successione legittima, l'"
+        },
+        {
+          "da": "gentes",
+          "a": "patrizi",
+          "tipo": "collegato",
+          "etichetta": "sono la struttura tipica dei"
+        },
+        {
+          "da": "clientela",
+          "a": "gentes",
+          "tipo": "collegato",
+          "etichetta": "lega i clienti alle famiglie delle"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro III (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai3_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "lipit-istar",
+      "oltre": "Lipit-Ištar regnò a Isin, nella Mesopotamia meridionale, intorno al 1934–1924 a.C. (cronologia media). La sua raccolta, in lingua **sumerica**, ci è nota da varie tavolette d'argilla e ne conserviamo solo una parte; la struttura, con prologo, norme in forma casistica ed epilogo, anticipa quella del [[codice-di-hammurabi|Codice di Hammurabi]], composto meno di due secoli dopo. È tra le più antiche raccolte di leggi conosciute, preceduta da quella di Ur-Nammu di Ur (fine del III millennio). Le benedizioni per chi rispetterà la stele e le maledizioni per chi la distruggerà, comuni a queste raccolte, esprimono una legge pensata come immutabile. A Roma vale il principio opposto: secondo [[livio|Livio]] le [[xii-tavole]] stabilivano che fosse diritto valido ciò che il popolo aveva deliberato per ultimo.",
+      "daSapere": [
+        "Re di Isin, circa 1934–1924 a.C.",
+        "Raccolta in sumerico: prologo, norme casistiche, epilogo",
+        "Precede di meno di due secoli il Codice di Hammurabi"
+      ],
+      "collegamenti": [
+        {
+          "da": "lipit-istar",
+          "a": "immutabilita-della-legge",
+          "tipo": "esempio-di",
+          "etichetta": "con benedizioni e maledizioni difende l'"
+        },
+        {
+          "da": "lipit-istar",
+          "a": "codice-di-hammurabi",
+          "tipo": "collegato",
+          "etichetta": "anticipa la struttura del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Walters Art Museum, iscrizione di Lipit-Ishtar e traduzione",
+          "url": "https://art.thewalters.org/object/48.1455/"
+        }
+      ]
+    },
+    {
+      "id": "paul-frederic-girard",
+      "oltre": "Paul Frédéric Girard (1852–1926) fu professore di diritto romano alla Facoltà di diritto di Parigi e tra i romanisti francesi più influenti del suo tempo. Le sue opere principali sono il *Manuel élémentaire de droit romain* (1896), manuale istituzionale più volte riedito e tradotto, e i *Textes de droit romain*, antologia delle fonti a lungo usata nell'insegnamento. Contribuì a far conoscere in Francia la scienza romanistica tedesca, curando tra l'altro la traduzione francese del *Diritto pubblico romano* di Theodor Mommsen. Sulle [[xii-tavole]] difese la datazione tradizionale (metà del V secolo a.C.) contro gli studiosi che, come Ettore Pais ed Édouard Lambert, le ritenevano molto più tarde. La formula del «codice di contadini» sottolinea che la legislazione decemvirale riflette una società di piccoli proprietari agricoli: lo mostrano le norme sui fondi, sui confini, sugli alberi e sui danni ai raccolti.",
+      "daSapere": [
+        "1852–1926, professore a Parigi",
+        "*Manuel élémentaire de droit romain* (1896); *Textes de droit romain*",
+        "Difende la datazione tradizionale delle XII Tavole contro Pais e Lambert"
+      ],
+      "collegamenti": [
+        {
+          "da": "paul-frederic-girard",
+          "a": "codice-di-contadini",
+          "tipo": "crea",
+          "etichetta": "conia la formula del"
+        },
+        {
+          "da": "paul-frederic-girard",
+          "a": "xii-tavole",
+          "tipo": "interpreta",
+          "etichetta": "difende la datazione tradizionale delle"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Bibliothèque nationale de France, bibliografia storica delle opere giuridiche",
+          "url": "https://www.bnf.fr/sites/default/files/2019-07/biblio_kerbrat.pdf"
+        }
+      ]
+    },
+    {
+      "id": "solone",
+      "oltre": "Solone (circa 640 – 560 a.C.) fu poeta, legislatore e uomo politico ateniese, annoverato tra i Sette Savi. Arconte nel 594/593 a.C., in un momento di grave crisi sociale, varò la **seisáchtheia** («scuotimento dei pesi»): cancellò i debiti che gravavano sui contadini, liberò chi era stato asservito per debiti e vietò per il futuro i prestiti garantiti dalla persona del debitore. Divise poi i cittadini in **quattro classi di censo**, a cui commisurò diritti politici e oneri ([[timocrazia]]), e istituì un tribunale popolare. Le sue leggi furono esposte in pubblico su tavole di legno girevoli (*áxones*). Il legame con Roma è tramandato da più fonti: [[livio|Livio]] racconta l'[[ambasceria-in-grecia]] inviata a studiarne le leggi prima dei decemviri; [[cicerone|Cicerone]] (*De legibus*) riconduce a Solone le norme decemvirali sul lusso funerario; [[gaio|Gaio]], nel suo commento alle XII Tavole, avvicina a leggi soloniane le norme sui confini tra i fondi e sulle associazioni. Il confronto vale soprattutto per la differenza: a Roma la servitù per debiti cade solo con la [[lex-poetelia-papiria]].",
+      "daSapere": [
+        "Arconte ad Atene nel 594/593 a.C.",
+        "*Seisáchtheia*: cancellazione dei debiti e divieto della servitù per debiti",
+        "Quattro classi di censo: ordinamento timocratico",
+        "Cicerone e Gaio collegano a Solone norme delle XII Tavole"
+      ],
+      "collegamenti": [
+        {
+          "da": "solone",
+          "a": "xii-tavole",
+          "tipo": "influenza",
+          "etichetta": "è indicato dalla tradizione come modello delle"
+        },
+        {
+          "da": "solone",
+          "a": "timocrazia",
+          "tipo": "crea",
+          "etichetta": "ordina Atene come una"
+        },
+        {
+          "da": "solone",
+          "a": "ambasceria-in-grecia",
+          "tipo": "collegato",
+          "etichetta": "è il legislatore studiato, per tradizione, dall'"
+        },
+        {
+          "da": "solone",
+          "a": "lex-poetelia-papiria",
+          "tipo": "collegato",
+          "etichetta": "abolisce la servitù per debiti secoli prima della"
+        }
+      ]
+    },
+    {
+      "id": "testamento",
+      "oltre": "Le fonti romane ne danno due definizioni celebri: per l'[[epitome-ulpiani|Epitome Ulpiani]] è *mentis nostrae iusta contestatio*, per [[modestino|Modestino]] *voluntatis nostrae iusta sententia de eo quod quis post mortem suam fieri velit*. [[gaio|Gaio]] (II 101–104) dice che in origine le forme erano due: il [[testamentum-calatis-comitiis|testamento davanti ai comizi calati]] (convocati due volte l'anno) e quello *in procinctu*, davanti all'esercito schierato; poi si aggiunse quello *per aes et libram*, nato dalla [[mancipatio-familiae]], l'unico sopravvissuto. Gli appunti chiamano la mancipatio familiae «prima forma» nel senso di primo testamento librale. Cuore del testamento è l'**istituzione d'erede** (*caput et fundamentum totius testamenti*, Gaio II 229); accanto a essa trovano posto [[legato|legati]], manomissioni, nomine di tutori e, dal Principato, [[fedecommesso|fedecommessi]] e [[codicilli]]. Il pretore protegge anche il testamento munito di sette sigilli con la [[bonorum-possessio]] *secundum tabulas*. Vale la regola *nemo pro parte testatus pro parte intestatus decedere potest*.",
+      "daSapere": [
+        "Gaio II 101–104: *calatis comitiis*, *in procinctu*, *per aes et libram*",
+        "*Heredis institutio*: *caput et fundamentum totius testamenti*",
+        "*Nemo pro parte testatus pro parte intestatus decedere potest*",
+        "Testamento pretorio: sette sigilli, *bonorum possessio secundum tabulas*"
+      ],
+      "collegamenti": [
+        {
+          "da": "mancipatio-familiae",
+          "a": "testamento",
+          "tipo": "esempio-di",
+          "etichetta": "è l'antecedente librale del"
+        },
+        {
+          "da": "testamentum-per-aes-et-libram",
+          "a": "testamento",
+          "tipo": "esempio-di",
+          "etichetta": "è la forma classica del"
+        },
+        {
+          "da": "testamentum-calatis-comitiis",
+          "a": "testamento",
+          "tipo": "esempio-di",
+          "etichetta": "è una delle due forme più antiche di"
+        },
+        {
+          "da": "testamento",
+          "a": "legato",
+          "tipo": "collegato",
+          "etichetta": "contiene, accanto all'istituzione d'erede, i"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro II (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai2_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "respondere-cavere-agere",
+      "oltre": "La triade è nota soprattutto da [[cicerone|Cicerone]]: nel [[de-oratore|De oratore]] (I 212) il vero *iuris consultus* è chi conosce leggi e consuetudini ed è esperto *ad respondendum et ad agendum et ad cavendum*. Talvolta si aggiunge *scribere*, la redazione di documenti. In età repubblicana il giurista non è un avvocato: *agere* significa suggerire le formule e le mosse processuali, non perorare in giudizio, compito dell'oratore. *Cavere* significa «stare in guardia»: il giurista mette al riparo il cliente dai rischi redigendo stipulazioni, clausole e testamenti. Con il Principato le attività processuali e negoziali passano in secondo piano e cresce il peso del *respondere*, soprattutto dopo l'introduzione dello [[ius-respondendi]]. Nella *Pro Murena* Cicerone, per ragioni polemiche, mette in ridicolo proprio queste attività, riducendole a formule e cavilli.",
+      "daSapere": [
+        "Cicerone, *De oratore* I 212: *ad respondendum et ad agendum et ad cavendum peritus*",
+        "*Respondere*: dare pareri; *cavere*: schemi negoziali; *agere*: schemi processuali",
+        "Talvolta si aggiunge *scribere* (redigere atti)"
+      ],
+      "collegamenti": [
+        {
+          "da": "respondere-cavere-agere",
+          "a": "responso",
+          "tipo": "collegato",
+          "etichetta": "comprendono il respondere, che produce il"
+        },
+        {
+          "da": "respondere-cavere-agere",
+          "a": "giuristi",
+          "tipo": "parte-di",
+          "etichetta": "sono le attività tipiche dei"
+        },
+        {
+          "da": "de-oratore",
+          "a": "respondere-cavere-agere",
+          "tipo": "testimonia",
+          "etichetta": "dà la definizione classica di"
+        },
+        {
+          "da": "respondere-cavere-agere",
+          "a": "pontefici",
+          "tipo": "parte-di",
+          "etichetta": "nascono come prerogative dei"
+        },
+        {
+          "da": "respondere-cavere-agere",
+          "a": "iuris-consultus",
+          "tipo": "collegato",
+          "etichetta": "definiscono il mestiere del"
+        }
+      ]
+    },
+    {
+      "id": "collegio-dei-pontefici",
+      "oltre": "Secondo la tradizione il collegio fu istituito da Numa. Era formato in origine da pochi membri patrizi, scelti per cooptazione e a vita; il [[plebiscito-ogulnio]] del 300 a.C. ne ampliò il numero ammettendo quattro pontefici plebei. Il conteggio dei membri più antichi e del pontefice massimo non è uniforme nelle ricostruzioni; in età tardorepubblicana il collegio venne ulteriormente ampliato. Dal III secolo a.C. il pontefice massimo fu eletto da un'assemblea speciale di diciassette tribù su trentacinque, e la *lex Domitia* (104 a.C.) estese questa elezione agli altri membri. Il primo pontefice massimo plebeo fu [[tiberio-coruncanio|Tiberio Coruncanio]], verso la metà del III secolo. Il collegio custodiva il *ius sacrum* e il calendario ([[giorni-fasti-e-nefasti]]), teneva gli annali della città e i *commentarii pontificum* e presiedeva atti come l'[[adrogatio]], il testamento comiziale e la [[confarreatio]]. Dal 12 a.C. [[augusto|Augusto]] fu pontefice massimo e la carica restò agli imperatori fino al IV secolo d.C.",
+      "daSapere": [
+        "300 a.C.: il plebiscito Ogulnio ammette quattro pontefici plebei",
+        "104 a.C.: *lex Domitia*, elezione popolare dei pontefici",
+        "Primo pontefice massimo plebeo: Tiberio Coruncanio (metà del III sec. a.C.)",
+        "Dal 12 a.C. il pontificato massimo passa agli imperatori"
+      ],
+      "collegamenti": [
+        {
+          "da": "plebiscito-ogulnio",
+          "a": "collegio-dei-pontefici",
+          "tipo": "influenza",
+          "etichetta": "apre ai plebei e amplia il"
+        },
+        {
+          "da": "collegio-dei-pontefici",
+          "a": "monopolio-pontificale",
+          "tipo": "crea",
+          "etichetta": "detiene il"
+        },
+        {
+          "da": "collegio-dei-pontefici",
+          "a": "giorni-fasti-e-nefasti",
+          "tipo": "crea",
+          "etichetta": "fissa e custodisce il calendario dei"
+        },
+        {
+          "da": "collegio-dei-pontefici",
+          "a": "ordini-sacerdotali",
+          "tipo": "parte-di",
+          "etichetta": "è uno dei collegi compresi tra gli"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Livio, Ab urbe condita, libro X (testo latino)",
+          "url": "https://thelatinlibrary.com/livy/liv.10.shtml"
+        }
+      ]
+    },
+    {
+      "id": "conventio-in-manum",
+      "oltre": "Con la *conventio in manum* la moglie entra nella famiglia del marito *loco filiae*, «al posto di una figlia»: diventa agnata dei suoi figli (come una sorella), subisce una *capitis deminutio minima*, se era sui iuris, il suo patrimonio è assorbito nella nuova famiglia; se la manus è del marito, gli succede come una figlia. La posizione concreta varia quando il marito è ancora sottoposto a un pater familias. La [[confarreatio]] era un rito religioso, con l'offerta di un pane di farro alla presenza del [[pontefice-massimo]], del flamine di Giove e di dieci testimoni, riservato ai patrizi e richiesto per i flamini maggiori. La [[coemptio]] era una vendita fittizia della donna (*mancipatio*) davanti a cinque testimoni e al *libripens*. L'[[usus]] si compiva con un anno di convivenza ininterrotta, a meno che la moglie non trascorresse ogni anno tre notti fuori casa (*trinoctium*), come prevedevano le [[xii-tavole]]. Già alla fine della Repubblica prevale il [[matrimonio-sine-manu]]; ai tempi di [[gaio|Gaio]] l'usus è scomparso e la confarreatio sopravvive quasi solo per i sacerdoti. La manus si scioglieva con riti inversi (*diffarreatio*, *remancipatio*).",
+      "daSapere": [
+        "Moglie *loco filiae*: agnata dei figli, *capitis deminutio minima*",
+        "Tre modi: *confarreatio*, *coemptio*, *usus*",
+        "*Trinoctium*: tre notti di assenza l'anno impediscono l'usus (XII Tavole)",
+        "Scioglimento: *diffarreatio*, *remancipatio*"
+      ],
+      "collegamenti": [
+        {
+          "da": "conventio-in-manum",
+          "a": "manus",
+          "tipo": "crea",
+          "etichetta": "fa entrare la moglie nella"
+        },
+        {
+          "da": "coemptio",
+          "a": "conventio-in-manum",
+          "tipo": "parte-di",
+          "etichetta": "è la vendita fittizia che realizza la"
+        },
+        {
+          "da": "usus",
+          "a": "conventio-in-manum",
+          "tipo": "parte-di",
+          "etichetta": "produce, dopo un anno di convivenza, la"
+        },
+        {
+          "da": "confarreatio",
+          "a": "conventio-in-manum",
+          "tipo": "parte-di",
+          "etichetta": "è il rito religioso che realizza la"
+        },
+        {
+          "da": "conventio-in-manum",
+          "a": "matrimonio-sine-manu",
+          "tipo": "contrasta",
+          "etichetta": "manca nel"
+        },
+        {
+          "da": "conventio-in-manum",
+          "a": "adgnatio",
+          "tipo": "crea",
+          "etichetta": "inserisce la moglie, come figlia, nell'"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro I (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai1_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "interpretatio-pontificale",
+      "oltre": "*Interpretari* deriva da *interpres*, il mediatore che fa da tramite tra due parti (nel linguaggio religioso, tra dèi e uomini). Secondo [[pomponio|Pomponio]], dopo le [[xii-tavole]] la scienza dell'interpretazione e le formule delle azioni restarono presso il collegio dei pontefici, che designava ogni anno uno dei suoi membri per rispondere ai privati. L'interpretatio pontificale opera tra il V e il III secolo a.C. e produce sia gli schemi negoziali (gli *actus legitimi* come [[emancipatio]], [[in-iure-cessio]], [[coemptio]]) sia i formulari delle [[legis-actiones]]. Il suo prestigio viene dall'autorità religiosa e dalla segretezza: il sapere giuridico è un [[monopolio-pontificale]]. Perde progressivamente l'esclusiva con la [[laicizzazione-della-giurisprudenza]], simboleggiata dalla pubblicazione delle formule da parte di [[gneo-flavio|Gneo Flavio]] (fine IV secolo a.C.) e dai responsi pubblici di [[tiberio-coruncanio|Tiberio Coruncanio]]; l'*interpretatio* diventa anche opera dei giuristi laici ([[interpretatio-prudentium]]).",
+      "daSapere": [
+        "*Interpres*: mediatore, tramite",
+        "Pomponio: un pontefice designato ogni anno a rispondere ai privati",
+        "V–III sec. a.C.: centralità pontificale, poi graduale apertura ai giuristi laici"
+      ],
+      "collegamenti": [
+        {
+          "da": "interpretatio-pontificale",
+          "a": "formalismo",
+          "tipo": "collegato",
+          "etichetta": "è l'altra faccia, creativa, del"
+        },
+        {
+          "da": "interpretatio-pontificale",
+          "a": "xii-tavole",
+          "tipo": "interpreta",
+          "etichetta": "adatta, senza tradirne la lettera, le"
+        },
+        {
+          "da": "interpretatio-pontificale",
+          "a": "legis-actiones",
+          "tipo": "crea",
+          "etichetta": "elabora i formulari delle"
+        },
+        {
+          "da": "laicizzazione-della-giurisprudenza",
+          "a": "interpretatio-pontificale",
+          "tipo": "supera",
+          "etichetta": "pone fine al monopolio dell'"
+        },
+        {
+          "da": "interpretatio-pontificale",
+          "a": "interpretatio-prudentium",
+          "tipo": "evolve-in",
+          "etichetta": "lascia il posto all'"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "ulpiano",
+      "oltre": "Domizio Ulpiano, originario di Tiro in Fenicia (lo dice lui stesso), è il giurista più rappresentato nel [[digesto|Digesto]]: dalle sue opere viene oltre un terzo del testo. Fece carriera nella burocrazia imperiale: fu probabilmente *a libellis* sotto [[settimio-severo|Settimio Severo]], poi, sotto Severo Alessandro, prefetto dell'annona e dal 222 [[prefetto-del-pretorio]]. Fu ucciso dai pretoriani nel 223 (secondo altri nel 228). Scrisse soprattutto negli anni di [[caracalla|Caracalla]], con un'ampiezza che fa delle sue opere una sintesi della giurisprudenza precedente: 81 libri *ad edictum*, 51 *ad Sabinum*, *Disputationes*, *Institutiones*, *Regulae*, 10 libri *De officio proconsulis*. Vengono da lui alcune formule fondamentali: la definizione della giustizia (*constans et perpetua voluntas ius suum cuique tribuendi*), i tre precetti del diritto, la distinzione tra diritto pubblico e privato, la [[tripartizione-ulpianea]], i principi *princeps [[legibus-solutus|legibus solutus]] est* e *quod principi placuit legis habet vigorem*; riprende da [[celso|Celso]] la definizione del diritto come [[ars-boni-et-aequi]]. È tra i cinque giuristi della [[legge-delle-citazioni]] (426 d.C.).",
+      "daSapere": [
+        "Originario di Tiro; prefetto del pretorio dal 222, ucciso nel 223 (o 228)",
+        "81 libri *ad edictum*, 51 *ad Sabinum*; oltre un terzo del Digesto",
+        "*Iustitia est constans et perpetua voluntas ius suum cuique tribuendi*",
+        "*Princeps legibus solutus est*; *quod principi placuit legis habet vigorem*"
+      ],
+      "collegamenti": [
+        {
+          "da": "ulpiano",
+          "a": "masurio-sabino",
+          "tipo": "interpreta",
+          "etichetta": "commenta in 51 libri ad Sabinum"
+        },
+        {
+          "da": "ulpiano",
+          "a": "pomponio",
+          "tipo": "collegato",
+          "etichetta": "nel commento all'editto attinge spesso a"
+        },
+        {
+          "da": "ulpiano",
+          "a": "iuris-praecepta",
+          "tipo": "crea",
+          "etichetta": "formula i tre"
+        },
+        {
+          "da": "ulpiano",
+          "a": "legibus-solutus",
+          "tipo": "crea",
+          "etichetta": "formula per il principe il principio"
+        },
+        {
+          "da": "ulpiano",
+          "a": "ars-boni-et-aequi",
+          "tipo": "interpreta",
+          "etichetta": "riprende da Celso la definizione del diritto come"
+        },
+        {
+          "da": "legge-delle-citazioni",
+          "a": "ulpiano",
+          "tipo": "collegato",
+          "etichetta": "include tra i cinque giuristi citabili"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ],
+      "togli": [
+        {
+          "da": "cicerone",
+          "a": "ulpiano"
+        }
+      ]
+    },
+    {
+      "id": "paolo",
+      "oltre": "Giulio Paolo è, con [[ulpiano|Ulpiano]], il più prolifico dei giuristi severiani: gli si attribuiscono oltre settanta opere e, dopo Ulpiano, è l'autore più presente nel [[digesto|Digesto]] (circa un sesto del testo). Fu assessore di [[papiniano|Papiniano]] quando questi era prefetto del pretorio, partecipò al [[consilium-principis|consiglio]] di [[settimio-severo|Settimio Severo]] e di [[caracalla|Caracalla]] e, secondo fonti non del tutto sicure, divenne prefetto del pretorio sotto Severo Alessandro. Oltre alle opere citate negli appunti scrisse circa 80 libri *ad edictum*, 26 libri di [[quaestiones]] e 23 di [[responsa]]; nei *Decreta* e nelle *Imperiales sententiae* raccolse le decisioni giudiziarie dell'imperatore a cui aveva assistito, fonte preziosa per conoscere la giurisdizione del principe. Celebre la sua definizione della [[regula-iuris]]: la regola descrive brevemente il diritto che esiste, non è il diritto a nascere dalla regola. Le [[pauli-sententiae|Pauli Sententiae]], che circolarono sotto il suo nome, non sono opera sua ma un'antologia postclassica; [[costantino|Costantino]] ne confermò l'autorità.",
+      "daSapere": [
+        "Giurista severiano; assessore di Papiniano, membro del consiglio imperiale",
+        "Circa 80 libri *ad edictum*, 16 *ad Sabinum*, *Quaestiones*, *Responsa*, *Decreta*",
+        "*Non ex regula ius sumatur, sed ex iure quod est regula fiat*",
+        "Uno dei cinque giuristi della Legge delle citazioni (426 d.C.)"
+      ],
+      "collegamenti": [
+        {
+          "da": "paolo",
+          "a": "masurio-sabino",
+          "tipo": "interpreta",
+          "etichetta": "commenta in 16 libri ad Sabinum"
+        },
+        {
+          "da": "paolo",
+          "a": "labeone",
+          "tipo": "interpreta",
+          "etichetta": "commenta in forma selettiva i Pithana di"
+        },
+        {
+          "da": "paolo",
+          "a": "alfeno-varo",
+          "tipo": "interpreta",
+          "etichetta": "commenta selettivamente i Digesta di"
+        },
+        {
+          "da": "paolo",
+          "a": "lex-cincia",
+          "tipo": "interpreta",
+          "etichetta": "dedica un breve commento alla"
+        },
+        {
+          "da": "legge-delle-citazioni",
+          "a": "paolo",
+          "tipo": "collegato",
+          "etichetta": "include tra i cinque giuristi citabili"
+        },
+        {
+          "da": "paolo",
+          "a": "consilium-principis",
+          "tipo": "parte-di",
+          "etichetta": "siede sotto i Severi nel"
+        },
+        {
+          "da": "paolo",
+          "a": "digesto",
+          "tipo": "collegato",
+          "etichetta": "è, dopo Ulpiano, il più presente nel"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "adriano",
+      "oltre": "Publio Elio Adriano (76–138 d.C.), di famiglia originaria di Italica in Spagna, fu adottato da [[traiano|Traiano]] e regnò dal 117 al 138. Abbandonò la politica di conquista per consolidare i confini (il vallo in Britannia), viaggiò a lungo nelle province e coltivò un'intensa passione per la cultura greca. Per la storia del diritto il suo principato è una svolta:\n\n- fa redigere da [[salvio-giuliano|Salvio Giuliano]] il testo definitivo dell'[[edictum-perpetuum|editto]] (circa 130 d.C.), sottraendo di fatto ai magistrati l'innovazione edittale;\n- rende stabile il [[consilium-principis]], chiamandovi giuristi come Giuliano, Celso e Nerazio;\n- affida a funzionari di rango equestre, al posto dei liberti, gli uffici della [[cancelleria-imperiale]];\n- secondo [[gaio|Gaio]] I 7, il [[rescritto-di-adriano|rescritto sui responsi]] conferma che, se i giuristi autorizzati concordano, la loro opinione ha forza di legge; nel dissenso il giudice può scegliere. Gaio non usa qui espressamente la formula *ius respondendi*: il raccordo fra questo testo e la concessione imperiale è oggetto di ricostruzione storica.\n\nNon avendo figli adottò [[antonino-pio|Antonino Pio]], a condizione che questi adottasse a sua volta Marco Aurelio e Lucio Vero. Con lui l'attività normativa del principe, soprattutto attraverso i rescritti, diventa la fonte più viva del diritto.",
+      "daSapere": [
+        "Imperatore dal 117 al 138 d.C., successore di Traiano",
+        "Circa 130 d.C.: *edictum perpetuum* redatto da Salvio Giuliano",
+        "Rescritto sui responsi (Gaio I 7): pareri concordi con forza di legge",
+        "Consilium principis stabile; uffici di cancelleria affidati ai cavalieri"
+      ],
+      "collegamenti": [
+        {
+          "da": "adriano",
+          "a": "salvio-giuliano",
+          "tipo": "influenza",
+          "etichetta": "incarica della redazione dell'editto"
+        },
+        {
+          "da": "adriano",
+          "a": "rescripta",
+          "tipo": "collegato",
+          "etichetta": "dà grande impulso ai"
+        },
+        {
+          "da": "adriano",
+          "a": "consilium-principis",
+          "tipo": "influenza",
+          "etichetta": "rende stabile, con giuristi di rango, il"
+        },
+        {
+          "da": "adriano",
+          "a": "cancelleria-imperiale",
+          "tipo": "influenza",
+          "etichetta": "affida ai cavalieri gli uffici della"
+        },
+        {
+          "da": "traiano",
+          "a": "adriano",
+          "tipo": "collegato",
+          "etichetta": "adotta e designa come successore"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro I (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai1_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "ius-gentium",
+      "oltre": "L'espressione ha nelle fonti due significati, da tenere distinti. Il primo, quello degli appunti, è **privatistico**: l'insieme degli istituti accessibili anche agli stranieri perché privi delle forme riservate ai cittadini, come i [[contratti-consensuali]], la *traditio* o la stipulazione con parole diverse da *spondeo*. Si sviluppa dal III–II secolo a.C. con l'espansione mediterranea e l'attività del [[pretore-peregrino]] (istituito nel 242 a.C.) e interagisce con il [[ius-civile]]: le due categorie descrivono criteri di appartenenza diversi, non necessariamente sistemi separati. Il secondo è quello di **diritto comune ai popoli** nei loro rapporti: inviolabilità degli ambasciatori, guerra, prigionia, schiavitù. In questo senso [[ermogeniano|Ermogeniano]] vi riconduce guerre e regni, e i giuristi definiscono la [[servitus|schiavitù]] istituto *iuris gentium* ma contrario alla natura. Il fondamento teorico, per [[gaio|Gaio]], è la [[naturalis-ratio]]; [[ulpiano|Ulpiano]] lo distingue invece dal diritto naturale comune anche agli animali. Il lessico sarà rielaborato in età moderna per il diritto tra gli Stati, ma lo ius gentium romano non coincide con il **diritto internazionale** odierno.",
+      "daSapere": [
+        "Gaio I 1: *quod naturalis ratio inter omnes homines constituit… vocatur ius gentium*",
+        "242 a.C.: istituzione del pretore peregrino",
+        "Due sensi: diritto privato comune a cittadini e stranieri; diritto dei rapporti tra popoli",
+        "Da esso nasce, in età moderna, il diritto internazionale"
+      ],
+      "collegamenti": [
+        {
+          "da": "ius-gentium",
+          "a": "diritto-commerciale-romano",
+          "tipo": "collegato",
+          "etichetta": "comprende istituti usati nel"
+        },
+        {
+          "da": "ius-gentium",
+          "a": "ius-civile",
+          "tipo": "contrasta",
+          "etichetta": "vale per tutti i popoli, a differenza dello"
+        },
+        {
+          "da": "ius-gentium",
+          "a": "ius-naturale",
+          "tipo": "collegato",
+          "etichetta": "ha un rapporto variabile, secondo gli autori, con"
+        },
+        {
+          "da": "tripartizione-ulpianea",
+          "a": "ius-gentium",
+          "tipo": "collegato",
+          "etichetta": "comprende, tra i suoi tre membri, lo"
+        },
+        {
+          "da": "naturalis-ratio",
+          "a": "ius-gentium",
+          "tipo": "crea",
+          "etichetta": "è, per Gaio, il fondamento dello"
+        },
+        {
+          "da": "pretore-peregrino",
+          "a": "ius-gentium",
+          "tipo": "collegato",
+          "etichetta": "favorisce la tutela di rapporti riconducibili allo"
+        },
+        {
+          "da": "ius-gentium",
+          "a": "peregrini",
+          "tipo": "collegato",
+          "etichetta": "si applica anche ai"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro I (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai1_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "edictum-perpetuum",
+      "oltre": "In origine *edictum perpetuum* indicava semplicemente l'editto che il magistrato pubblicava all'inizio dell'anno e che valeva per tutta la durata della carica, in contrapposizione agli editti emanati per singoli casi (*edicta repentina*); la [[lex-cornelia-de-edictis|lex Cornelia]] del 67 a.C. obbligò i pretori a rispettarlo. Con la redazione di [[salvio-giuliano|Salvio Giuliano]], databile intorno al 130 d.C. e approvata da un senatoconsulto voluto da [[adriano|Adriano]], il termine assume il senso di editto «definitivo». Il testo comprendeva l'editto del pretore urbano e, in appendice, l'[[editto-edilizio]]; i magistrati continuarono a pubblicarlo, ma le eventuali novità spettavano ormai al principe, come ricorda [[giustiniano|Giustiniano]] nella [[constitutio-tanta]]. La ricostruzione di [[otto-lenel|Lenel]] (*Das Edictum perpetuum*, 1883) si basa soprattutto sui frammenti dei [[commentari-edittali]] conservati nel [[digesto|Digesto]]: l'ordine dei commenti di Ulpiano e Paolo riflette quello dell'editto.",
+      "daSapere": [
+        "Circa 130 d.C.: redazione di Salvio Giuliano su incarico di Adriano",
+        "Approvato da un senatoconsulto; le modifiche spettano al principe",
+        "*Edicta repentina*: editti per casi singoli, opposti al *perpetuum*",
+        "Ricostruzione di O. Lenel, *Das Edictum perpetuum* (1883)"
+      ],
+      "collegamenti": [
+        {
+          "da": "edictum-perpetuum",
+          "a": "digesto",
+          "tipo": "influenza",
+          "etichetta": "offre l'ordine sistematico seguito dal"
+        },
+        {
+          "da": "editto-del-pretore",
+          "a": "edictum-perpetuum",
+          "tipo": "evolve-in",
+          "etichetta": "si cristallizza nell'"
+        },
+        {
+          "da": "editto-edilizio",
+          "a": "edictum-perpetuum",
+          "tipo": "parte-di",
+          "etichetta": "è accolto in appendice nell'"
+        },
+        {
+          "da": "constitutio-tanta",
+          "a": "edictum-perpetuum",
+          "tipo": "testimonia",
+          "etichetta": "ricorda la redazione giulianea dell'"
+        },
+        {
+          "da": "commentari-edittali",
+          "a": "edictum-perpetuum",
+          "tipo": "interpreta",
+          "etichetta": "commentano e tramandano il testo dell'"
+        }
+      ],
+      "togli": [
+        {
+          "da": "edictum-perpetuum",
+          "a": "scuole-giuridiche"
+        }
+      ]
+    },
+    {
+      "id": "ius-honorarium",
+      "oltre": "Il nome viene da *honor*, la carica magistratuale: comprende gli editti dei pretori (urbano e peregrino), degli edili curuli e, in provincia, dei governatori. La definizione più nota è di [[papiniano|Papiniano]] (D. 1.1.7.1): il diritto pretorio è quello introdotto dai pretori *adiuvandi vel supplendi vel corrigendi iuris civilis gratia propter utilitatem publicam*, cioè per aiutare, integrare o correggere il diritto civile nell'interesse pubblico. Il pretore non può creare diritto civile (*praetor heredes facere non potest*, osserva Gaio), ma agisce con i mezzi della sua giurisdizione: nega azioni ([[denegatio-actionis]]), concede [[actio-in-factum|azioni in factum]] e azioni fittizie ([[fictio]]), [[exceptio|eccezioni]], [[in-integrum-restitutio]], [[interdicta]], [[stipulationes-praetoriae]], immissioni nel possesso. Si forma così un sistema parallelo, con istituti propri come la [[bonorum-possessio]] accanto all'eredità civile e l'[[in-bonis-habere]] accanto al dominium. [[elio-marciano|Marciano]] lo chiama *viva vox iuris civilis*. L'[[edictum-perpetuum]] fissa il testo edittale, senza esaurire la successiva interpretazione dei giuristi; con la [[cognitio-extra-ordinem]] il dualismo si attenua fino a scomparire nel diritto giustinianeo.",
+      "daSapere": [
+        "Papiniano: *adiuvandi vel supplendi vel corrigendi iuris civilis gratia*",
+        "Marciano: *ius honorarium viva vox est iuris civilis*",
+        "Gaio III 32: *praetor heredes facere non potest*",
+        "Mezzi: azioni in factum e fittizie, eccezioni, interdetti, *restitutiones in integrum*"
+      ],
+      "collegamenti": [
+        {
+          "da": "ius-honorarium",
+          "a": "ius-civile",
+          "tipo": "influenza",
+          "etichetta": "aiuta, integra e corregge lo"
+        },
+        {
+          "da": "iniuria",
+          "a": "ius-honorarium",
+          "tipo": "esempio-di",
+          "etichetta": "riceve una tutela più elastica dallo"
+        },
+        {
+          "da": "papiniano",
+          "a": "ius-honorarium",
+          "tipo": "interpreta",
+          "etichetta": "dà la definizione classica dello"
+        },
+        {
+          "da": "exceptio",
+          "a": "ius-honorarium",
+          "tipo": "esempio-di",
+          "etichetta": "è uno strumento tipico dello"
+        },
+        {
+          "da": "fictio",
+          "a": "ius-honorarium",
+          "tipo": "esempio-di",
+          "etichetta": "è uno strumento tipico dello"
+        },
+        {
+          "da": "ius-honorarium",
+          "a": "edictum-perpetuum",
+          "tipo": "evolve-in",
+          "etichetta": "si cristallizza nell'"
+        },
+        {
+          "da": "elio-marciano",
+          "a": "ius-honorarium",
+          "tipo": "interpreta",
+          "etichetta": "chiama «viva voce del diritto civile» lo"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "emptio-venditio",
+      "oltre": "Gli elementi sono il **consenso**, la **cosa** (*merx*) e il **prezzo** (*pretium*), che deve essere certo, reale e in denaro: su questo punto i [[proculiani]] prevalsero sui [[sabiniani]], che consideravano la [[permuta]] una specie di vendita. Il venditore non si obbliga a trasferire la proprietà, ma a consegnare la cosa e a garantire al compratore il pacifico godimento (*habere licere*): risponde perciò dell'**evizione**, cioè se un terzo toglie la cosa al compratore, e, grazie all'[[editto-edilizio]], dei **vizi occulti** degli schiavi e degli animali venduti al mercato (*actio redhibitoria* e *quanti minoris*). Nella vendita perfezionata il rischio del perimento fortuito grava di regola sul compratore (*periculum est emptoris*), con condizioni ed eccezioni: non è una regola assoluta per ogni evento successivo all'accordo. Le parti sono tutelate dall'*actio empti* e dall'*actio venditi*, azioni di buona fede ([[iudicia-bonae-fidei]]). [[catone-il-censore|Catone]] ne documenta l’uso nel II secolo a.C. Nel Codice di Giustiniano compare la rescissione per **lesione enorme**, se il prezzo è inferiore alla metà del valore. A Roma il consenso genera l'obbligo di consegnare, senza trasferire da solo la proprietà.",
+      "daSapere": [
+        "Elementi: *consensus*, *merx*, *pretium* (certo, vero, in denaro)",
+        "Azioni: *actio empti* e *actio venditi*, di buona fede",
+        "*Periculum est emptoris*",
+        "Editto edilizio: *actio redhibitoria* e *quanti minoris*"
+      ],
+      "collegamenti": [
+        {
+          "da": "mancipatio",
+          "a": "emptio-venditio",
+          "tipo": "contrasta",
+          "etichetta": "ha effetto reale, a differenza della"
+        },
+        {
+          "da": "compravendita-greca",
+          "a": "emptio-venditio",
+          "tipo": "collegato",
+          "etichetta": "è termine di confronto storico per la"
+        },
+        {
+          "da": "permuta",
+          "a": "emptio-venditio",
+          "tipo": "collegato",
+          "etichetta": "è affine, ma per i proculiani distinta, alla"
+        },
+        {
+          "da": "emptio-venditio",
+          "a": "possesso",
+          "tipo": "collegato",
+          "etichetta": "obbliga il venditore a procurare il"
+        },
+        {
+          "da": "editto-edilizio",
+          "a": "emptio-venditio",
+          "tipo": "collegato",
+          "etichetta": "disciplina i vizi della cosa nella"
+        },
+        {
+          "da": "emptio-venditio",
+          "a": "iudicia-bonae-fidei",
+          "tipo": "esempio-di",
+          "etichetta": "è tutelata con azioni rientranti nei"
+        },
+        {
+          "da": "emptio-venditio",
+          "a": "contratti-consensuali",
+          "tipo": "esempio-di",
+          "etichetta": "è il più importante dei"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro III (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai3_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "exceptio",
+      "oltre": "Il termine significa «esclusione»: la clausola esclude la condanna anche se la pretesa dell'attore è fondata, perché esiste una circostanza che renderebbe iniquo condannare. Il modello è l'*exceptio doli*: *si in ea re nihil dolo malo Auli Agerii factum sit neque fiat* («se in questa faccenda non vi è stato né vi è dolo dell'attore»). Altre eccezioni frequenti: *pacti conventi* (patto di non chiedere), *metus*, *rei iudicatae vel in iudicium deductae*, *legis Cinciae*, *senatus consulti Macedoniani*. [[gaio|Gaio]] (IV 115–137) le distingue in **perentorie**, che paralizzano sempre l'azione, e **dilatorie**, che la escludono solo per un certo tempo o verso certe persone. Chi eccepisce deve provare, secondo il brocardo *reus in excipiendo fit actor*. All'eccezione l'attore può rispondere con una *replicatio*, il convenuto con una *duplicatio*, e così via. È uno degli strumenti con cui il pretore corregge il diritto civile ([[ius-honorarium]]); nei giudizi di buona fede l'eccezione di dolo è implicita. Ne deriva l'eccezione del processo civile moderno.",
+      "daSapere": [
+        "Clausola inserita, su richiesta del convenuto, prima della *condemnatio*",
+        "*Exceptio doli*: *si in ea re nihil dolo malo Auli Agerii factum sit neque fiat*",
+        "Perentorie e dilatorie (Gaio IV 120–125)",
+        "*Reus in excipiendo fit actor*: chi eccepisce deve provare"
+      ],
+      "collegamenti": [
+        {
+          "da": "exceptio",
+          "a": "formula",
+          "tipo": "parte-di",
+          "etichetta": "è la clausola difensiva del convenuto nella"
+        },
+        {
+          "da": "exceptio",
+          "a": "dolus-malus",
+          "tipo": "contrasta",
+          "etichetta": "con l'exceptio doli neutralizza il"
+        },
+        {
+          "da": "exceptio",
+          "a": "lex-cincia",
+          "tipo": "collegato",
+          "etichetta": "protegge il donante della"
+        },
+        {
+          "da": "exceptio",
+          "a": "condemnatio",
+          "tipo": "collegato",
+          "etichetta": "esclude, se fondata, la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro IV (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai4_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "aristotele",
+      "oltre": "Aristotele (Stagira 384 – Calcide 322 a.C.) fu allievo di Platone all'Accademia, precettore di Alessandro Magno e fondatore ad Atene del Liceo, la scuola peripatetica. Per il diritto romano conta per più vie.\n\n- L'*Etica Nicomachea*: oltre alla dottrina dell'amicizia (libri VIII–IX), che gli appunti collegano alla [[bona-fides]], il libro V distingue la giustizia distributiva da quella correttiva e il giusto per natura da quello per legge, e presenta l'*epieikeia* come correttivo della legge generale, idea vicina all'[[aequitas]] romana. Qui compare anche la parola *synállagma*, che [[labeone|Labeone]] userà per definire il contratto come obbligazione reciproca.\n- I *Topici* e la *Retorica* forniscono gli strumenti argomentativi che arrivano ai giuristi attraverso la retorica ellenistica e la [[topica|Topica]] di [[cicerone|Cicerone]].\n- La *Politica* classifica le costituzioni e loda quelle che mescolano elementi diversi, preparando la teoria della [[costituzione-mista]] che [[polibio|Polibio]] applicherà a Roma.\n\nGli appunti presentano la *pístis* aristotelica come radice della *fides*: non va trasformata in una derivazione storica certa, ma la *fides* è anche un valore romano antichissimo, con un proprio culto.",
+      "daSapere": [
+        "384–322 a.C.; allievo di Platone, fondatore del Liceo",
+        "*Etica Nicomachea*: libro V (giustizia, *epieikeia*), libri VIII–IX (amicizia, *pístis*)",
+        "*Synállagma*: termine ripreso da Labeone per il contratto",
+        "*Politica*: costituzioni e mescolanza, premessa della costituzione mista"
+      ],
+      "collegamenti": [
+        {
+          "da": "aristotele",
+          "a": "bona-fides",
+          "tipo": "collegato",
+          "etichetta": "è accostato negli appunti, attraverso la pistis, alla"
+        },
+        {
+          "da": "aristotele",
+          "a": "ius-naturale",
+          "tipo": "influenza",
+          "etichetta": "distinguendo giusto naturale e legale prefigura lo"
+        },
+        {
+          "da": "aristotele",
+          "a": "aequitas",
+          "tipo": "influenza",
+          "etichetta": "con l'epieikeia anticipa l'"
+        },
+        {
+          "da": "aristotele",
+          "a": "costituzione-mista",
+          "tipo": "influenza",
+          "etichetta": "pone le premesse teoriche della"
+        },
+        {
+          "da": "aristotele",
+          "a": "topica",
+          "tipo": "influenza",
+          "etichetta": "ispira con i suoi Topici la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Aristotele, Etica Nicomachea, in particolare libri V, VIII–IX (testo in traduzione storica)",
+          "url": "https://www.gutenberg.org/files/8438/8438-h/8438-h"
+        }
+      ]
+    },
+    {
+      "id": "contratti-consensuali",
+      "oltre": "La classificazione è esposta da [[gaio|Gaio]], che divide le obbligazioni da contratto secondo il modo in cui sorgono: *re*, con la consegna di una cosa ([[contratti-reali]] come mutuo, [[comodato]], [[deposito]], pegno); *verbis*, con parole solenni ([[stipulatio]]); *litteris*, con una registrazione scritta; *consensu*. Per i contratti consensuali, spiega Gaio (III 135–137), non servono né parole né scrittura: basta che le parti siano d'accordo, anche se assenti, per lettera o per messaggero. Sono quattro, [[emptio-venditio]], [[locatio-conductio]], [[societas]] e [[mandatum]], tutti tutelati da azioni di buona fede ([[iudicia-bonae-fidei]]); il mandato è essenzialmente gratuito, ma può far sorgere obblighi anche a carico del mandante, come rimborso e indennizzo. Per l'esame conta distinguere accordo obbligatorio e trasferimento: la vendita romana fa sorgere obbligazioni, mentre l'acquisto della proprietà richiede un ulteriore atto idoneo. Non tutti i sistemi giuridici moderni adottano le stesse soluzioni.",
+      "daSapere": [
+        "Gaio III 89: obbligazioni *re, verbis, litteris, consensu*",
+        "Quattro contratti: compravendita, locazione, società, mandato",
+        "Validi anche tra assenti, per lettera o messaggero (Gaio III 136)",
+        "Consenso obbligatorio: il trasferimento della proprietà richiede un atto ulteriore"
+      ],
+      "collegamenti": [
+        {
+          "da": "contratti-consensuali",
+          "a": "formalismo",
+          "tipo": "supera",
+          "etichetta": "superano, fondando il vincolo sulla volontà, il"
+        },
+        {
+          "da": "contratti-consensuali",
+          "a": "contratti-reali",
+          "tipo": "contrasta",
+          "etichetta": "si distinguono, per la fonte del vincolo, dai"
+        },
+        {
+          "da": "gaio",
+          "a": "contratti-consensuali",
+          "tipo": "interpreta",
+          "etichetta": "classifica come obbligazioni consensu i"
+        },
+        {
+          "da": "contratti-consensuali",
+          "a": "iudicia-bonae-fidei",
+          "tipo": "collegato",
+          "etichetta": "sono tutelati con i"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro III (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai3_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "bona-fides",
+      "oltre": "*Fides* è uno dei valori fondanti della società romana: indica la lealtà alla parola data e la fiducia che ne deriva, e aveva un culto pubblico sul Campidoglio. [[cicerone|Cicerone]] (*De officiis*) la chiama fondamento della giustizia, cioè coerenza e veridicità di ciò che si dice e si pattuisce. Gli appunti seguono una tesi che ne cerca la radice nella *pístis* greca; è un'interpretazione, perché la *fides* ha anche radici romane antichissime (la *fides* del patrono verso il cliente, quella del popolo romano verso i vinti). In diritto se ne distinguono due accezioni. In senso **oggettivo** è il criterio di correttezza che regola i rapporti contrattuali: [[quinto-mucio-scevola|Quinto Mucio]], ricorda Cicerone, attribuiva la massima forza ai giudizi con la clausola *ex fide bona*, tra cui tutela, società, fiducia, mandato, compravendita e locazione. In senso **soggettivo** è la convinzione di non ledere il diritto altrui, requisito dell'[[usucapione]] e del possesso di buona fede. Questa distinzione aiuta a non confondere la correttezza dovuta nei rapporti con gli altri con l'ignoranza di una circostanza lesiva: sono significati diversi, entrambi importanti nella tradizione giuridica.",
+      "daSapere": [
+        "*Fides*: lealtà alla parola data; culto della dea Fides sul Campidoglio",
+        "Oggettiva: regola di condotta nei contratti (*ex fide bona*)",
+        "Soggettiva: requisito dell'usucapione",
+        "Correttezza del comportamento e convinzione soggettiva: due significati da distinguere"
+      ],
+      "collegamenti": [
+        {
+          "da": "bona-fides",
+          "a": "contratti-consensuali",
+          "tipo": "collegato",
+          "etichetta": "è il criterio che regge i"
+        },
+        {
+          "da": "bona-fides",
+          "a": "iudicia-bonae-fidei",
+          "tipo": "causa",
+          "etichetta": "dà al giudice ampia discrezionalità nei"
+        },
+        {
+          "da": "quinto-mucio-scevola",
+          "a": "bona-fides",
+          "tipo": "interpreta",
+          "etichetta": "esalta la forza dei giudizi fondati sulla"
+        },
+        {
+          "da": "cicerone",
+          "a": "bona-fides",
+          "tipo": "interpreta",
+          "etichetta": "considera fondamento della giustizia la"
+        }
+      ]
+    },
+    {
+      "id": "formula",
+      "oltre": "Una ricostruzione scolastica, sulla base degli schemi di [[gaio|Gaio]], per un credito di denaro è: *Titius iudex esto. Si paret Numerium Negidium Aulo Agerio sestertium X milia dare oportere, iudex Numerium Negidium Aulo Agerio sestertium X milia condemnato; si non paret, absolvito*. Aulo Agerio e Numerio Negidio sono i nomi convenzionali dell'attore e del convenuto (da *agere* e *negare*). La formula era redatta in iure sulla base dei modelli dell'[[editto-del-pretore|editto]], scelti e adattati dalle parti con l'aiuto dei giuristi; poteva contenere anche *praescriptiones* (clausole preliminari) e una [[fictio]]. Rispetto alle [[legis-actiones]] il processo per formule è più flessibile: è scritto, si adatta ai casi nuovi e vale anche per gli stranieri. Riconosciuto o esteso dalla [[lex-aebutia]] (datazione discussa nel II secolo a.C.) e generalizzato dalle *leges Iuliae* di Augusto, fu abolito formalmente da una costituzione del 342 d.C., quando la [[cognitio-extra-ordinem]] era ormai la regola: l'imperatore vi condanna le formule come trappole tese con le sillabe.",
+      "daSapere": [
+        "*Si paret… condemnato; si non paret, absolvito*: «se risulta… condanna; se non risulta, assolvi»",
+        "Aulo Agerio (attore) e Numerio Negidio (convenuto)",
+        "Lex Aebutia (II sec. a.C.) e leges Iuliae (17 a.C.)",
+        "Abolizione delle formule: costituzione del 342 d.C."
+      ],
+      "collegamenti": [
+        {
+          "da": "adiudicatio",
+          "a": "formula",
+          "tipo": "parte-di",
+          "etichetta": "è parte eventuale, nei giudizi divisori, della"
+        },
+        {
+          "da": "editto-del-pretore",
+          "a": "formula",
+          "tipo": "collegato",
+          "etichetta": "propone i modelli della"
+        },
+        {
+          "da": "formula",
+          "a": "legis-actiones",
+          "tipo": "supera",
+          "etichetta": "sostituisce i formulari orali delle"
+        },
+        {
+          "da": "formula",
+          "a": "fictio",
+          "tipo": "collegato",
+          "etichetta": "può contenere una"
+        },
+        {
+          "da": "lex-aebutia",
+          "a": "formula",
+          "tipo": "collegato",
+          "etichetta": "contribuisce al riconoscimento del processo per"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro IV (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai4_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "iudicia-bonae-fidei",
+      "oltre": "Nella formula di questi giudizi l'*intentio* contiene la clausola *ex fide bona*: il giudice deve condannare il convenuto a tutto ciò che deve dare o fare secondo buona fede (*quidquid ob eam rem dare facere oportet ex fide bona*). [[gaio|Gaio]] (IV 62) ne elenca i principali: compravendita, locazione, gestione d'affari, mandato, deposito, fiducia, società, tutela; l'elenco cresce col tempo, e già [[quinto-mucio-scevola|Quinto Mucio]] ne aveva indicati alcuni. Si contrappongono ai giudizi di stretto diritto (*stricti iuris*), come quelli sulla [[stipulatio]] o sul mutuo, in cui i poteri del giudice sono più strettamente delimitati dalla formula. Conseguenze pratiche: l'eccezione di dolo e quella di patto si considerano implicite, e il giudice può tener conto di patti aggiunti, compensare crediti reciproci nati dallo stesso rapporto e considerare gli usi. Proprio questa elasticità ha permesso ai giuristi di costruire gran parte del diritto dei contratti.",
+      "daSapere": [
+        "Clausola *ex fide bona* nell'*intentio*",
+        "Gaio IV 62: compravendita, locazione, mandato, società, deposito, tutela…",
+        "Opposti ai giudizi *stricti iuris* (stipulatio, mutuo)",
+        "Eccezioni di dolo e di patto implicite"
+      ],
+      "collegamenti": [
+        {
+          "da": "deposito",
+          "a": "iudicia-bonae-fidei",
+          "tipo": "esempio-di",
+          "etichetta": "è tutelato, con formula ex fide bona, dai"
+        },
+        {
+          "da": "iudicia-bonae-fidei",
+          "a": "intentio",
+          "tipo": "collegato",
+          "etichetta": "inseriscono la clausola ex fide bona nell'"
+        },
+        {
+          "da": "iudicia-bonae-fidei",
+          "a": "stipulatio",
+          "tipo": "contrasta",
+          "etichetta": "si contrappongono ai giudizi di stretto diritto sulla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro IV (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai4_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "nova-negotia",
+      "oltre": "L'espressione indica i negozi «nuovi» rispetto a quelli formali del [[ius-civile]] più antico ([[mancipatio]], [[in-iure-cessio]], *sponsio*). Nascono tra il III e il II secolo a.C., quando dopo le [[guerre-puniche]] Roma diventa una potenza commerciale mediterranea e i traffici con gli stranieri richiedono strumenti rapidi, senza forme e accessibili a tutti. La loro tutela fu probabilmente elaborata prima nella giurisdizione del [[pretore-peregrino]] e poi accolta anche tra cittadini con formule di buona fede. I formulari di vendita e di appalto raccolti da [[catone-il-censore|Catone]] nel *De agri cultura* (metà del II secolo a.C.) ne documentano l'uso nella gestione delle grandi proprietà agricole. La sistemazione dei quattro contratti come obbligazioni *consensu* è attestata nelle Istituzioni di [[gaio|Gaio]], senza che questo implichi che sia stato lui a inventarla. Accanto a essi la giurisprudenza riconoscerà altri accordi atipici con prestazioni corrispettive (i cosiddetti contratti innominati, come la [[permuta]]).",
+      "daSapere": [
+        "Compravendita, locazione-conduzione, società, mandato",
+        "Sorgono tra III e II sec. a.C., con l'espansione commerciale",
+        "Catone, *De agri cultura*: formulari di vendita e appalto",
+        "Obbligazioni *consensu*: sistemazione di Gaio (III 135)"
+      ],
+      "collegamenti": [
+        {
+          "da": "nova-negotia",
+          "a": "ius-gentium",
+          "tipo": "parte-di",
+          "etichetta": "appartengono, nel senso privatistico, allo"
+        },
+        {
+          "da": "nova-negotia",
+          "a": "contratti-consensuali",
+          "tipo": "esempio-di",
+          "etichetta": "sono i quattro"
+        },
+        {
+          "da": "processo-formulare",
+          "a": "nova-negotia",
+          "tipo": "collegato",
+          "etichetta": "offre tutela giudiziaria ai"
+        },
+        {
+          "da": "guerre-puniche",
+          "a": "nova-negotia",
+          "tipo": "causa",
+          "etichetta": "con l'espansione commerciale favoriscono i"
+        },
+        {
+          "da": "pretore-peregrino",
+          "a": "nova-negotia",
+          "tipo": "collegato",
+          "etichetta": "tutela probabilmente per primo i"
+        },
+        {
+          "da": "catone-il-censore",
+          "a": "nova-negotia",
+          "tipo": "testimonia",
+          "etichetta": "documenta nel De agri cultura i"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro III (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai3_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "societas",
+      "oltre": "Il [[consortium-ercto-non-cito|consortium]] arcaico nasceva alla morte del *pater familias* tra i figli che lasciavano indiviso il patrimonio ereditario (*ercto non cito*, «a dominio non diviso»); [[gaio|Gaio]] (III 154a–b, in un passo restituito da una scoperta papiracea novecentesca) spiega che poteva essere costituito anche tra estranei con una *legis actio*. La *societas* consensuale classica ha più forme: di tutti i beni (*omnium bonorum*), di un singolo affare o di un'attività lucrativa (*quaestus*). Si scioglie per morte, recesso (*renuntiatio*), *capitis deminutio* o fallimento di un socio, o per esaurimento dello scopo. È nulla la società «leonina», in cui uno solo partecipa ai guadagni e l'altro solo alle perdite, come rispose [[cassio-longino|Cassio]]. La tutela è l'*actio pro socio*, di buona fede, la cui condanna comporta l'[[infamia]] perché il socio ha tradito un rapporto quasi fraterno. La società romana non è una persona giuridica distinta dai soci: alcune società di pubblicani, legate agli appalti pubblici, godono di uno statuto peculiare e non vanno assunte come modello di ogni società privata.",
+      "daSapere": [
+        "*Consortium ercto non cito*: comunione ereditaria arcaica tra i *sui heredes*",
+        "Forme: *omnium bonorum*, *unius negotii*, *quaestus*",
+        "Società leonina nulla (Cassio)",
+        "*Actio pro socio*: di buona fede e infamante"
+      ],
+      "collegamenti": [
+        {
+          "da": "consortium-ercto-non-cito",
+          "a": "societas",
+          "tipo": "collegato",
+          "etichetta": "è un precedente storico da distinguere dalla"
+        },
+        {
+          "da": "gaio",
+          "a": "societas",
+          "tipo": "interpreta",
+          "etichetta": "descrive diverse forme di"
+        },
+        {
+          "da": "cassio-longino",
+          "a": "societas",
+          "tipo": "interpreta",
+          "etichetta": "dichiara nulla la forma «leonina» di"
+        },
+        {
+          "da": "societas",
+          "a": "infamia",
+          "tipo": "causa",
+          "etichetta": "con l'actio pro socio può comportare l'"
+        },
+        {
+          "da": "societas",
+          "a": "iudicia-bonae-fidei",
+          "tipo": "esempio-di",
+          "etichetta": "è tutelata con l'actio pro socio tra i"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro III (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai3_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "louis-gernet",
+      "oltre": "Louis Gernet (1882–1962) fu un grecista e storico del diritto francese, formatosi nella scuola sociologica di Émile Durkheim. Insegnò a lungo all'Università di Algeri e poi all'École pratique des hautes études di Parigi. Studiò il diritto greco non come sistema tecnico ma come espressione di una società e di una mentalità, collegando norme, riti religiosi e pensiero morale. Opere principali: *Recherches sur le développement de la pensée juridique et morale en Grèce* (1917), *Droit et société dans la Grèce ancienne* (1955) e la raccolta postuma *Anthropologie de la Grèce antique* (1968). Influenzò profondamente studiosi come Jean-Pierre Vernant e Pierre Vidal-Naquet. Per il corso è citato come voce autorevole che, contro l'idea di una Grecia ferma alla vendita a contanti, intravede forme di vendita obbligatoria: un termine di paragone utile per misurare l'originalità della [[emptio-venditio]] romana.",
+      "daSapere": [
+        "1882–1962, grecista della scuola durkheimiana",
+        "*Droit et société dans la Grèce ancienne* (1955)",
+        "*Anthropologie de la Grèce antique* (postuma, 1968)"
+      ],
+      "collegamenti": [
+        {
+          "da": "louis-gernet",
+          "a": "compravendita-greca",
+          "tipo": "interpreta",
+          "etichetta": "intravede una vendita obbligatoria nella"
+        },
+        {
+          "da": "louis-gernet",
+          "a": "emptio-venditio",
+          "tipo": "collegato",
+          "etichetta": "offre un termine di confronto per la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Jean-Pierre Vernant, In memoriam Louis Gernet, 1962 (Persée)",
+          "url": "https://www.persee.fr/doc/assr_0003-9659_1962_num_13_1_2735"
+        }
+      ]
+    },
+    {
+      "id": "lucio-verazio",
+      "oltre": "L'aneddoto è riportato da [[aulo-gellio|Aulo Gellio]] nelle [[noctes-atticae|Noctes Atticae]] (XX 1), dove il giurista Sesto Cecilio lo attribuisce ai libri di [[labeone|Labeone]] sulle XII Tavole: Lucio Verazio, uomo ricco e arrogante, schiaffeggiava per divertimento i passanti liberi e si faceva seguire da uno schiavo con una borsa di monete, che pagava subito i 25 assi stabiliti dalla legge. La svalutazione della moneta aveva reso irrisoria una pena che nel V secolo a.C. era seria. Per questo, racconta Gellio, i pretori abbandonarono la pena fissa e promisero di nominare *recuperatores* per stimare le offese: è l'origine dell'*actio iniuriarum aestimatoria* del [[ius-honorarium|diritto pretorio]]. Il racconto ha valore esemplare: mostra il contrasto tra una pena rimasta immutata e le condizioni economiche mutate, senza fornire una biografia documentata del protagonista.",
+      "daSapere": [
+        "Fonte: Aulo Gellio, *Noctes Atticae* XX 1, che cita Labeone",
+        "XII Tavole: 25 assi di pena per l'*iniuria*",
+        "Rimedio pretorio: *actio iniuriarum aestimatoria*, stima dei *recuperatores*"
+      ],
+      "collegamenti": [
+        {
+          "da": "lucio-verazio",
+          "a": "iniuria",
+          "tipo": "testimonia",
+          "etichetta": "mostra l'inadeguatezza della pena fissa per l'"
+        },
+        {
+          "da": "noctes-atticae",
+          "a": "lucio-verazio",
+          "tipo": "testimonia",
+          "etichetta": "racconta, citando Labeone, la storia di"
+        },
+        {
+          "da": "labeone",
+          "a": "lucio-verazio",
+          "tipo": "testimonia",
+          "etichetta": "tramanda l'aneddoto di"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Aulo Gellio, Noctes Atticae XX 1 (testo latino; Università di Chicago)",
+          "url": "https://penelope.uchicago.edu/Thayer/l/roman/texts/Gellius/20%2A.html"
+        }
+      ]
+    },
+    {
+      "id": "magistrature-repubblicane",
+      "oltre": "Le magistrature romane condividono alcuni caratteri: sono normalmente **elettive** (i [[comizi-centuriati]] eleggono consoli, pretori e censori; i [[comizi-tributi]] questori ed edili curuli; i [[concilia-plebis]] tribuni ed edili della plebe), **temporanee** (di regola annuali; i censori restano in carica diciotto mesi ogni cinque anni, il dittatore al massimo sei mesi), **collegiali** (tranne la dittatura), **gratuite** (sono un *honor*), e i loro titolari rispondono degli atti compiuti alla scadenza della carica. Le fonti distinguono magistrature **maggiori** e **minori** (secondo il tipo di auspici), **curuli** (con la sedia curule) e non curuli, **ordinarie** e **straordinarie**. Tribuni ed edili della plebe sono in origine magistrati della [[plebe]], non dell'intero popolo. Il dittatore, tuttavia, è nominato secondo una procedura straordinaria e non eletto ordinariamente dal popolo. L'ordine di accesso alle cariche ([[cursus-honorum]]) fu regolato dalla *lex Villia annalis* (180 a.C.), che fissò età minime, e poi da Silla. Nel Principato le magistrature sopravvivono, ma perdono progressivamente potere a favore del principe e dei suoi funzionari.",
+      "daSapere": [
+        "Caratteri: elettività, annualità, collegialità, gratuità, responsabilità",
+        "*Cum imperio*: consoli, pretori, dittatore; *sine imperio*: censori, questori, edili, tribuni",
+        "*Lex Villia annalis* (180 a.C.): età minime per il cursus honorum"
+      ],
+      "collegamenti": [
+        {
+          "da": "console",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "è la magistratura suprema, cum imperio, tra le"
+        },
+        {
+          "da": "pretore",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "è magistratura cum imperio, giurisdizionale, tra le"
+        },
+        {
+          "da": "dittatore",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "è la magistratura straordinaria per eccellenza tra le"
+        },
+        {
+          "da": "censore",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "è una carica senza imperium tra le"
+        },
+        {
+          "da": "questore",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "è una carica senza imperium tra le"
+        },
+        {
+          "da": "edile-curule",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "è una carica senza imperium tra le"
+        },
+        {
+          "da": "collegialita",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "è un limite strutturale al potere delle"
+        },
+        {
+          "da": "magistrature-repubblicane",
+          "a": "cursus-honorum",
+          "tipo": "collegato",
+          "etichetta": "sono percorse secondo le regole del"
+        },
+        {
+          "da": "comizi-centuriati",
+          "a": "magistrature-repubblicane",
+          "tipo": "collegato",
+          "etichetta": "eleggono le maggiori tra le"
+        },
+        {
+          "da": "tribuno-della-plebe",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "è carica plebea, senza imperium, accanto alle"
+        },
+        {
+          "da": "annualita",
+          "a": "magistrature-repubblicane",
+          "tipo": "parte-di",
+          "etichetta": "limita nel tempo il potere delle"
+        }
+      ]
+    },
+    {
+      "id": "otto-lenel",
+      "oltre": "Otto Lenel (Mannheim 1849 – Friburgo in Brisgovia 1935) fu uno dei maggiori romanisti tedeschi; insegnò a lungo a Strasburgo e poi a Friburgo. Le sue due opere fondamentali sono strumenti di lavoro ancora oggi indispensabili.\n\n- *Das Edictum perpetuum. Ein Versuch zu seiner Wiederherstellung* (1883; terza edizione 1927): ricostruisce l'ordine e, dove possibile, il testo delle clausole e delle formule dell'[[edictum-perpetuum]], sfruttando l'ordine dei libri dei [[commentari-edittali]] di Ulpiano, Paolo e Gaio conservati nel [[digesto|Digesto]].\n- *Palingenesia iuris civilis* (1889): ricompone i frammenti del Digesto e delle altre fonti secondo l'opera e il libro di provenienza, permettendo di leggere i giuristi classici nel loro contesto originario.\n\nFu anche tra i protagonisti della critica delle interpolazioni, che cerca nei testi le alterazioni dei compilatori giustinianei. Di origine ebraica, negli ultimi anni di vita subì le discriminazioni del regime nazista. Dalla sua ricostruzione deriva l'espressione «sistema leneliano» per la divisione dell'editto in parti e titoli.",
+      "daSapere": [
+        "1849–1935; insegna a Strasburgo e Friburgo",
+        "*Das Edictum perpetuum* (1883; 3ª ed. 1927)",
+        "*Palingenesia iuris civilis* (1889)"
+      ],
+      "collegamenti": [
+        {
+          "da": "otto-lenel",
+          "a": "edictum-perpetuum",
+          "tipo": "interpreta",
+          "etichetta": "ricostruisce in modo ancora valido l'"
+        },
+        {
+          "da": "otto-lenel",
+          "a": "digesto",
+          "tipo": "interpreta",
+          "etichetta": "ricompone per autori e opere i frammenti del"
+        },
+        {
+          "da": "otto-lenel",
+          "a": "commentari-edittali",
+          "tipo": "collegato",
+          "etichetta": "usa per la ricostruzione l'ordine dei"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Neue Deutsche Biographie, Otto Lenel",
+          "url": "https://www.deutsche-biographie.de/pnd116899611.html"
+        }
+      ]
+    },
+    {
+      "id": "verre",
+      "oltre": "Gaio Verre (morto nel 43 a.C.) è il simbolo del malgoverno provinciale della tarda Repubblica. Fu pretore urbano nel 74 a.C. e governò la Sicilia come propretore dal 73 al 71, depredandola di denaro e opere d'arte. Nel 70 i Siciliani lo accusarono davanti alla *quaestio de repetundis* ([[quaestiones-perpetuae]]), con [[cicerone|Cicerone]] come accusatore e Ortensio come difensore. Dopo la prima udienza (*actio prima*) Verre andò in esilio volontario a Marsiglia; Cicerone pubblicò comunque l'*actio secunda* in cinque libri: sono le **Verrine**. Morì nelle proscrizioni di Antonio. Per la storia dell'editto è importante il primo libro dell'*actio secunda*: Cicerone vi denuncia come Verre, già da pretore urbano a Roma, giudicasse in contrasto con il proprio editto e lo modificasse a favore degli amici; gli abusi si ripeterono in Sicilia, dove disattese il proprio [[editto-provinciale]]. Episodi come questi spiegano la [[lex-cornelia-de-edictis|lex Cornelia]] del 67 a.C., che obbligò i pretori a giudicare secondo il proprio editto perpetuo.",
+      "daSapere": [
+        "Pretore urbano nel 74 a.C., propretore in Sicilia dal 73 al 71 a.C.",
+        "70 a.C.: processo *de repetundis*, accusatore Cicerone (*Verrine*)",
+        "Esilio volontario a Marsiglia; muore nelle proscrizioni del 43 a.C.",
+        "Lex Cornelia (67 a.C.): i pretori devono attenersi al proprio editto"
+      ],
+      "collegamenti": [
+        {
+          "da": "verre",
+          "a": "lex-cornelia-de-edictis",
+          "tipo": "causa",
+          "etichetta": "con i suoi abusi rende necessaria la"
+        },
+        {
+          "da": "cicerone",
+          "a": "verre",
+          "tipo": "contrasta",
+          "etichetta": "accusa nelle Verrine"
+        },
+        {
+          "da": "verre",
+          "a": "quaestiones-perpetuae",
+          "tipo": "collegato",
+          "etichetta": "è processato da una delle"
+        },
+        {
+          "da": "verre",
+          "a": "editto-provinciale",
+          "tipo": "contrasta",
+          "etichetta": "viola in Sicilia il proprio"
+        }
+      ]
+    },
+    {
+      "id": "papiniano",
+      "oltre": "Emilio Papiniano (circa 140/150 – 212 d.C.) è considerato già dagli antichi il più grande dei giuristi romani. Fece carriera nell'amministrazione imperiale: fu *advocatus fisci*, poi *a libellis* di [[settimio-severo|Settimio Severo]] e dal 205 [[prefetto-del-pretorio]]. Alla morte di Severo fu rimosso da [[caracalla|Caracalla]] e, dopo l'assassinio di Geta (fine 211), fu ucciso nel 212; secondo la tradizione si era rifiutato di giustificare il fratricidio. Le sue opere principali sono 37 libri di [[quaestiones]] e 19 di [[responsa]], oltre alle *Definitiones* e a scritti sull'adulterio: testi densi e concisi, molto attenti all'equità del caso concreto. La sua autorità fu enorme: nella [[legge-delle-citazioni]] del 426 la sua opinione prevale in caso di parità, e nelle scuole giustinianee gli studenti del terzo anno, che studiavano le sue opere, si chiamavano *papinianistae*. La [[constitutio-antoniniana]] è un atto di Caracalla: attribuirne la redazione a Papiniano senza documentazione sicura è fuorviante. Anche il racconto del rifiuto di giustificare Geta appartiene alla tradizione biografica e non va confuso con un fatto integralmente accertato.",
+      "daSapere": [
+        "Prefetto del pretorio di Settimio Severo; ucciso per ordine di Caracalla (212 d.C.)",
+        "37 libri di *Quaestiones*, 19 di *Responsa*, 2 di *Definitiones*",
+        "Legge delle citazioni: prevale a parità di voti",
+        "*Papinianistae*: studenti del terzo anno nelle scuole giustinianee"
+      ],
+      "collegamenti": [
+        {
+          "da": "papiniano",
+          "a": "paolo",
+          "tipo": "influenza",
+          "etichetta": "è considerato il maestro di"
+        },
+        {
+          "da": "papiniano",
+          "a": "ulpiano",
+          "tipo": "influenza",
+          "etichetta": "è considerato il maestro di"
+        },
+        {
+          "da": "notae",
+          "a": "papiniano",
+          "tipo": "interpreta",
+          "etichetta": "di Paolo e Ulpiano annotano le opere di"
+        },
+        {
+          "da": "caracalla",
+          "a": "papiniano",
+          "tipo": "contrasta",
+          "etichetta": "fa uccidere nel 212"
+        },
+        {
+          "da": "legge-delle-citazioni",
+          "a": "papiniano",
+          "tipo": "collegato",
+          "etichetta": "fa prevalere in parità l’opinione di"
+        },
+        {
+          "da": "papiniano",
+          "a": "quaestiones",
+          "tipo": "crea",
+          "etichetta": "scrive in 37 libri le sue"
+        }
+      ],
+      "togli": [
+        {
+          "da": "papiniano",
+          "a": "constitutio-antoniniana"
+        }
+      ]
+    },
+    {
+      "id": "masurio-sabino",
+      "oltre": "Masurio Sabino, giurista dell'età di Tiberio, è il primo di rango equestre a ricevere lo [[ius-respondendi|ius publice respondendi]]: [[pomponio|Pomponio]] scrive che *publice primus respondit* per concessione di Tiberio e che, non essendo ricco, fu sostenuto in gran parte dai suoi allievi. Oltre ai [[libri-tres-iuris-civilis|Libri tres iuris civilis]] compose un commento all'editto del pretore urbano, raccolte di *responsa*, i *Memorialia* (opera di varia erudizione) e uno scritto sul furto. [[gaio|Gaio]] lo annovera tra i *nostri praeceptores*, i maestri della sua scuola; tra le tesi sabiniane ricordate dalle fonti ci sono quella che assegna al proprietario della materia la cosa nuova ([[specificatio]]) e quella che considera la [[permuta]] una specie di compravendita. La fortuna dei *Libri tres* fu tale che Pomponio, Ulpiano e Paolo li commentarono, e dai commenti *ad Sabinum* prende il nome la «massa sabiniana» in cui, secondo la [[masse-bluhmiane|teoria di Bluhme]], i compilatori del [[digesto|Digesto]] divisero il lavoro. Pur senza alcuna opera giunta direttamente, è tra i giuristi del Principato che hanno lasciato l'impronta più profonda sul diritto giustinianeo.",
+      "daSapere": [
+        "Età di Tiberio: primo equestre con lo *ius publice respondendi*",
+        "*Libri tres iuris civilis*; commenti *ad Sabinum* di Pomponio (36 libri), Ulpiano (51), Paolo (16)",
+        "Caposcuola dei sabiniani con Cassio Longino",
+        "Dà il nome alla «massa sabiniana» del Digesto (Bluhme)"
+      ],
+      "collegamenti": [
+        {
+          "da": "masurio-sabino",
+          "a": "sabiniani",
+          "tipo": "collegato",
+          "etichetta": "è caposcuola e dà il nome ai"
+        },
+        {
+          "da": "masurio-sabino",
+          "a": "ius-respondendi",
+          "tipo": "collegato",
+          "etichetta": "è il primo equestre ricordato con lo"
+        },
+        {
+          "da": "masurio-sabino",
+          "a": "trebazio-testa",
+          "tipo": "collegato",
+          "etichetta": "conobbe di persona"
+        },
+        {
+          "da": "masurio-sabino",
+          "a": "masse-bluhmiane",
+          "tipo": "collegato",
+          "etichetta": "dà il nome alla massa sabiniana delle"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "enchiridion",
+      "oltre": "Il titolo greco *enchirídion* significa «manuale», libro da tenere in mano. [[pomponio|Pomponio]], giurista dell'età di Adriano e degli Antonini, scrisse un *Enchiridion* in due libri e un *liber singularis enchiridii*; il lungo frammento conservato nel titolo *De origine iuris* del primo libro del [[digesto|Digesto]] (D. 1.2.2) viene da quest'ultimo. Il testo ha tre parti: l'origine e lo sviluppo del diritto (dalle leggi regie alle [[xii-tavole]], alle legis actiones, ai plebisciti, ai senatoconsulti, agli editti e alle costituzioni del principe), le magistrature e la *successio* dei giuristi, dalle origini a Salvio Giuliano. È la principale narrazione complessiva superstite della storia del diritto romano dovuta a un giurista antico. Va però letta con cautela: è un compendio, probabilmente abbreviato dai compilatori, con imprecisioni e anacronismi. Ne vengono, tra le altre, la storia di [[gneo-flavio|Gneo Flavio]], la notizia su Ermodoro e la genealogia delle due scuole del Principato.",
+      "daSapere": [
+        "*Enchirídion*: «manuale»",
+        "Conservato in D. 1.2.2 (*De origine iuris*)",
+        "Tre parti: fonti del diritto, magistrature, *successio auctorum*",
+        "Principale narrazione giuridica antica superstite sulle origini del diritto romano"
+      ],
+      "collegamenti": [
+        {
+          "da": "digesto",
+          "a": "enchiridion",
+          "tipo": "testimonia",
+          "etichetta": "conserva nel primo libro l’"
+        },
+        {
+          "da": "enchiridion",
+          "a": "gneo-flavio",
+          "tipo": "testimonia",
+          "etichetta": "racconta la divulgazione delle formule di"
+        },
+        {
+          "da": "enchiridion",
+          "a": "xii-tavole",
+          "tipo": "testimonia",
+          "etichetta": "ricostruisce origine e redazione delle"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "sabiniani",
+      "oltre": "Le due scuole (*sectae*) del Principato, sabiniana e [[proculiani|proculiana]], erano probabilmente gruppi di giuristi riuniti attorno a maestri e testi comuni, forse con proprie sedi di insegnamento. Le fonti, soprattutto [[gaio|Gaio]], ne ricordano molte controversie: oltre al legato per vindicationem, l'età della pubertà (per i sabiniani si accertava dallo sviluppo fisico, per i proculiani si fissava a quattordici anni), la proprietà della cosa nuova ([[specificatio]]: al proprietario della materia per i sabiniani, a chi l'ha fatta per i proculiani), il prezzo della vendita ([[permuta]]) e gli animali come [[res-mancipi]]. Le spiegazioni del contrasto sono diverse: politica (Pomponio collega i sabiniani al conservatore [[capitone|Capitone]] e i proculiani al repubblicano [[labeone|Labeone]]), filosofica o di metodo ([[tradizionalismo]] contro innovazione), ma nessuna è del tutto convincente. L'ultimo caposcuola sabiniano ricordato da Pomponio è [[salvio-giuliano|Salvio Giuliano]]; dopo di lui la contrapposizione si spegne. [[giustiniano|Giustiniano]] spesso sceglie una *media sententia*.",
+      "daSapere": [
+        "Capiscuola: Sabino e Cassio (I sec. d.C.); ultimo noto: Salvio Giuliano",
+        "Gaio: *nostri praeceptores* contro *diversae scholae auctores*",
+        "Controversie: specificatio, pubertà, permuta, legato vindicatorio",
+        "Pomponio fa risalire la scuola ad Ateio Capitone"
+      ],
+      "collegamenti": [
+        {
+          "da": "sabiniani",
+          "a": "proculiani",
+          "tipo": "contrasta",
+          "etichetta": "si contrappone, per esempio sul legato vindicatorio, ai"
+        },
+        {
+          "da": "sabiniani",
+          "a": "permuta",
+          "tipo": "interpreta",
+          "etichetta": "considera una specie di compravendita la"
+        },
+        {
+          "da": "specificatio",
+          "a": "sabiniani",
+          "tipo": "collegato",
+          "etichetta": "spetta al proprietario della materia per la"
+        },
+        {
+          "da": "tradizionalismo",
+          "a": "sabiniani",
+          "tipo": "collegato",
+          "etichetta": "non esaurisce la varietà delle tesi dei"
+        },
+        {
+          "da": "capitone",
+          "a": "sabiniani",
+          "tipo": "influenza",
+          "etichetta": "è, per Pomponio, un antecedente dei"
+        },
+        {
+          "da": "gaio",
+          "a": "sabiniani",
+          "tipo": "parte-di",
+          "etichetta": "si dichiara seguace della"
+        },
+        {
+          "da": "quinto-mucio-scevola",
+          "a": "sabiniani",
+          "tipo": "influenza",
+          "etichetta": "è il modello civilistico della"
+        },
+        {
+          "da": "salvio-giuliano",
+          "a": "sabiniani",
+          "tipo": "parte-di",
+          "etichetta": "è l'ultimo caposcuola noto della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Istituzioni, libro II (testo e traduzione storica Poste; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/gai2_Poste.htm"
+        }
+      ]
+    },
+    {
+      "id": "cancelleria-imperiale",
+      "oltre": "Gli uffici di cancelleria (*officia*, più tardi *scrinia*) si formano nel I secolo d.C. all'interno della casa del principe e sono affidati dapprima a liberti imperiali, potentissimi sotto Claudio; da [[adriano|Adriano]] li dirigono funzionari di rango equestre. I principali sono l'ufficio *ab epistulis* (corrispondenza con funzionari e città, con una sezione latina e una greca), quello *a libellis* (suppliche dei privati, a cui si risponde con [[subscriptiones]] apposte in calce e affisse pubblicamente), *a rationibus* (finanze), *a cognitionibus* (processi davanti al principe) e *a memoria*. Alla guida dell'ufficio *a libellis* troviamo grandi giuristi: [[papiniano|Papiniano]], probabilmente [[ulpiano|Ulpiano]] e, sotto Diocleziano, forse [[ermogeniano|Ermogeniano]], al quale si deve il [[codex-hermogenianus|Codex Hermogenianus]]. Nel tardo impero gli *scrinia* dipendono dal [[magister-officiorum]], mentre la redazione delle leggi spetta al [[quaestor-sacri-palatii]].",
+      "daSapere": [
+        "*Ab epistulis*: epistulae a funzionari e città; *a libellis*: subscriptiones ai privati",
+        "Prima liberti imperiali, da Adriano cavalieri",
+        "Giuristi *a libellis*: Papiniano, probabilmente Ulpiano, forse Ermogeniano",
+        "Tardo impero: *scrinia* sotto il *magister officiorum*"
+      ],
+      "collegamenti": [
+        {
+          "da": "cancelleria-imperiale",
+          "a": "rescripta",
+          "tipo": "crea",
+          "etichetta": "redige, a nome del principe, i"
+        },
+        {
+          "da": "cancelleria-imperiale",
+          "a": "subscriptiones",
+          "tipo": "crea",
+          "etichetta": "redige con l'ufficio a libellis le"
+        },
+        {
+          "da": "cancelleria-imperiale",
+          "a": "epistulae",
+          "tipo": "crea",
+          "etichetta": "redige con l'ufficio ab epistulis le"
+        },
+        {
+          "da": "cancelleria-imperiale",
+          "a": "magister-officiorum",
+          "tipo": "collegato",
+          "etichetta": "nel tardo impero dipende dal"
+        }
+      ]
+    },
+    {
+      "id": "diocleziano",
+      "oltre": "Gaio Aurelio Valerio Diocleziano (circa 243 – circa 312), di umili origini dalmate, fu acclamato imperatore dall'esercito nel 284 e abdicò il 1° maggio 305, ritirandosi nel suo palazzo presso Salona (l'attuale Spalato). Per uscire dalla crisi del III secolo divise il potere: dal 286 con Massimiano come secondo Augusto, dal 293 anche con due Cesari, Galerio e Costanzo Cloro. Le sue riforme ridisegnano lo Stato: province più piccole (circa cento), raggruppate in dodici diocesi rette da *vicarii*; separazione tra comandi militari e amministrazione civile; nuovo sistema fiscale (*capitatio-iugatio*); editto sui prezzi massimi (301). La corte adotta un cerimoniale di tipo orientale (*adoratio*). Le prefetture del pretorio come circoscrizioni territoriali, che gli appunti gli attribuiscono, si affermano in realtà più tardi, con [[costantino|Costantino]] e i suoi successori. Sul piano giuridico la sua cancelleria produce moltissimi [[rescripta|rescritti]] di impronta classica, conservati in gran parte nel [[codice-giustinianeo|Codice di Giustiniano]]; nella sua età nascono il [[codex-gregorianus|Codex Gregorianus]] e il Codex Hermogenianus. Avviò l'ultima grande persecuzione dei cristiani (303–304).",
+      "daSapere": [
+        "284–305 d.C.; abdica e si ritira a Spalato",
+        "293: Tetrarchia (due Augusti, due Cesari)",
+        "Province ridotte e raggruppate in 12 diocesi; editto dei prezzi (301)",
+        "Codex Gregorianus e Hermogenianus; rescritti di stile classico"
+      ],
+      "collegamenti": [
+        {
+          "da": "costantino",
+          "a": "diocleziano",
+          "tipo": "collegato",
+          "etichetta": "prosegue, con differenze, le riforme di"
+        },
+        {
+          "da": "diocleziano",
+          "a": "anarchia-militare",
+          "tipo": "supera",
+          "etichetta": "pone convenzionalmente fine all’"
+        },
+        {
+          "da": "diocleziano",
+          "a": "codex-gregorianus",
+          "tipo": "collegato",
+          "etichetta": "vede nascere nella sua età il"
+        },
+        {
+          "da": "diocleziano",
+          "a": "codex-hermogenianus",
+          "tipo": "collegato",
+          "etichetta": "vede raccolti i suoi rescritti nel"
+        },
+        {
+          "da": "diocleziano",
+          "a": "rescripta",
+          "tipo": "crea",
+          "etichetta": "emana in gran numero, di stile classico, i"
+        }
+      ]
+    },
+    {
+      "id": "atteggiamento-oracolare",
+      "oltre": "L'aggettivo richiama gli oracoli, che davano risposte autorevoli ma senza spiegazioni; è una qualifica moderna, non antica. Il responso dei [[pontefici]] arcaici aveva questa forma perché la sua forza veniva dall'autorità religiosa di chi lo dava, non dalla persuasività degli argomenti. Nell'aneddoto di [[pomponio|Pomponio]], [[servio-sulpicio-rufo|Servio]], allora oratore, consultò più volte [[quinto-mucio-scevola|Quinto Mucio]] per un amico senza capirne la risposta, finché Mucio lo rimproverò: era vergognoso per un patrizio, un nobile e un avvocato ignorare il diritto di cui si occupava. Punto sul vivo, Servio si mise a studiare con Lucilio Balbo e [[gaio-aquilio-gallo|Aquilio Gallo]] e divenne il grande giurista che introdusse un metodo argomentativo e dialettico. Lo stile laconico non scompare però del tutto: anche alcuni giuristi classici, come [[cervidio-scevola|Cervidio Scevola]], danno responsi brevissimi, limitati alla soluzione.",
+      "daSapere": [
+        "Fonte: Pomponio, *Enchiridion* (D. 1.2.2.43)",
+        "Servio, rimproverato da Quinto Mucio, studia con Lucilio Balbo e Aquilio Gallo",
+        "Responso oracolare: solo la soluzione, nessuna motivazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "pontefici",
+          "a": "atteggiamento-oracolare",
+          "tipo": "causa",
+          "etichetta": "rispondono in forma oracolare, da cui nasce l'"
+        },
+        {
+          "da": "quinto-mucio-scevola",
+          "a": "atteggiamento-oracolare",
+          "tipo": "esempio-di",
+          "etichetta": "conserva, nella lettura degli appunti, l'"
+        },
+        {
+          "da": "servio-sulpicio-rufo",
+          "a": "atteggiamento-oracolare",
+          "tipo": "contrasta",
+          "etichetta": "oppone un responso dialettico all'"
+        },
+        {
+          "da": "atteggiamento-oracolare",
+          "a": "laconicita-oracolare",
+          "tipo": "collegato",
+          "etichetta": "si esprime nella"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "cassio-longino",
+      "oltre": "Gaio Cassio Longino, di illustre famiglia senatoria, discendeva per via materna da [[servio-sulpicio-rufo|Servio Sulpicio Rufo]] e apparteneva alla stessa famiglia del cesaricida Cassio. Fu console nel 30 d.C. e governatore della Siria sotto Claudio. Nel 65 Nerone lo esiliò in Sardegna, anche perché conservava tra le immagini degli antenati quella del cesaricida; fu richiamato da Vespasiano. Il suo prestigio fu tale che i sabiniani furono chiamati anche *Cassiani*, e [[pomponio|Pomponio]] lo indica come successore di Sabino alla guida della scuola. Delle sue opere conosciamo soprattutto i *libri iuris civilis*, commentati da [[giavoleno|Giavoleno]] in 15 libri (*ex Cassio*), attraverso i quali molte sue soluzioni sono arrivate al Digesto; tra le più note, la nullità della società in cui un socio partecipa solo agli utili e l'altro solo alle perdite, che chiamava «leonina». L'interesse per il metodo di [[labeone|Labeone]], ricordato negli appunti, mostra che le scuole non erano compartimenti stagni.",
+      "daSapere": [
+        "Console nel 30 d.C.; esiliato da Nerone nel 65, richiamato da Vespasiano",
+        "Caposcuola dei sabiniani (detti anche *Cassiani*)",
+        "*Libri iuris civilis*, commentati da Giavoleno in 15 libri"
+      ],
+      "collegamenti": [
+        {
+          "da": "cassio-longino",
+          "a": "sabiniani",
+          "tipo": "crea",
+          "etichetta": "guida, dopo Sabino, la"
+        },
+        {
+          "da": "giavoleno",
+          "a": "cassio-longino",
+          "tipo": "interpreta",
+          "etichetta": "commenta in 15 libri le opere di"
+        },
+        {
+          "da": "cassio-longino",
+          "a": "masurio-sabino",
+          "tipo": "collegato",
+          "etichetta": "riconosce come proprio maestro"
+        },
+        {
+          "da": "cassio-longino",
+          "a": "servio-sulpicio-rufo",
+          "tipo": "collegato",
+          "etichetta": "discende per via materna da"
+        },
+        {
+          "da": "labeone",
+          "a": "cassio-longino",
+          "tipo": "influenza",
+          "etichetta": "affascina con il suo metodo"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "libri-tres-iuris-civilis",
+      "oltre": "Composti probabilmente sotto Tiberio, i tre libri di diritto civile di [[masurio-sabino|Sabino]] erano, per la brevità, più un'esposizione d'insieme che un trattato: tre libri contro i diciotto di Quinto Mucio. Non ci sono giunti direttamente: li conosciamo attraverso i commenti *ad Sabinum* di [[pomponio|Pomponio]], [[ulpiano|Ulpiano]] e [[paolo|Paolo]], il cui ordine è stato ricostruito da [[otto-lenel|Lenel]] nella *Palingenesia*. L'esposizione partiva dai testamenti e dai legati e procedeva per associazioni di idee verso la famiglia, le obbligazioni e i delitti; come quella muciana, non coincide con lo schema gaiano persone-cose-azioni. Divenne il testo base della [[sabiniani|scuola sabiniana]] e uno dei libri su cui si studiò il diritto civile per tutto il Principato. I commenti *ad Sabinum* formano, secondo [[bluhme|Bluhme]], la «massa sabiniana» del [[digesto|Digesto]].",
+      "daSapere": [
+        "Età di Tiberio; tre libri sul diritto civile",
+        "Commenti *ad Sabinum*: Pomponio 36 libri, Ulpiano 51, Paolo 16",
+        "Testo base della scuola sabiniana",
+        "Origine della «massa sabiniana» del Digesto"
+      ],
+      "collegamenti": [
+        {
+          "da": "libri-tres-iuris-civilis",
+          "a": "diairesis",
+          "tipo": "collegato",
+          "etichetta": "mostrano la sistemazione per materie accostata alla"
+        },
+        {
+          "da": "quinto-mucio-scevola",
+          "a": "libri-tres-iuris-civilis",
+          "tipo": "influenza",
+          "etichetta": "offre il modello civilistico ai"
+        },
+        {
+          "da": "commentari-civilistici",
+          "a": "libri-tres-iuris-civilis",
+          "tipo": "interpreta",
+          "etichetta": "comprendono i commenti ad Sabinum ai"
+        },
+        {
+          "da": "libri-tres-iuris-civilis",
+          "a": "sabiniani",
+          "tipo": "parte-di",
+          "etichetta": "è il testo base della"
+        },
+        {
+          "da": "paolo",
+          "a": "libri-tres-iuris-civilis",
+          "tipo": "interpreta",
+          "etichetta": "commenta in 16 libri i"
+        }
+      ]
+    },
+    {
+      "id": "diairesis",
+      "oltre": "La *diaíresis* è il procedimento della dialettica platonica (descritto nel *Sofista* e nel *Politico*) che definisce un concetto dividendo un genere nelle sue specie fino a isolarlo; [[aristotele|Aristotele]] e gli Stoici ne fanno uno strumento della logica. A Roma arriva con la cultura ellenistica del II–I secolo a.C.: [[cicerone|Cicerone]] distingue la *partitio* (divisione del tutto nelle parti) dalla *divisio* (divisione del genere nelle specie) e auspica che il diritto civile sia ridotto ad *ars*, ordinato per generi. Pomponio scrive che [[quinto-mucio-scevola|Quinto Mucio]] *ius civile primus constituit generatim*, ordinandolo per generi in diciotto libri; Cicerone attribuisce a [[servio-sulpicio-rufo|Servio]] il merito di aver applicato al diritto la dialettica. Un importante esempio di sistemazione didattica è lo schema gaiano *personae, res, actiones*, da cui discendono, attraverso le Istituzioni di Giustiniano, i codici civili moderni. Il metodo convive però con la diffidenza dei giuristi romani verso le definizioni ([[omnis-definitio-periculosa]]).",
+      "daSapere": [
+        "Divisione del *genus* nelle *species* (in latino *divisio*)",
+        "Pomponio: Quinto Mucio *ius civile primus constituit generatim*",
+        "Cicerone: *partitio* e *divisio*; il diritto ridotto ad *ars*",
+        "Gaio: *personae, res, actiones*"
+      ],
+      "collegamenti": [
+        {
+          "da": "institutiones-di-gaio",
+          "a": "diairesis",
+          "tipo": "collegato",
+          "etichetta": "offrono un esempio di sistemazione tramite"
+        },
+        {
+          "da": "servio-sulpicio-rufo",
+          "a": "diairesis",
+          "tipo": "esempio-di",
+          "etichetta": "applica al diritto, secondo Cicerone, la"
+        },
+        {
+          "da": "diairesis",
+          "a": "scientia-iuris",
+          "tipo": "causa",
+          "etichetta": "contribuisce a fondare la"
+        },
+        {
+          "da": "diairesis",
+          "a": "omnis-definitio-periculosa",
+          "tipo": "contrasta",
+          "etichetta": "convive con la diffidenza espressa nell'"
+        },
+        {
+          "da": "quinto-mucio-scevola",
+          "a": "diairesis",
+          "tipo": "collegato",
+          "etichetta": "è accostato alla divisione per generi della"
+        }
+      ],
+      "togli": [
+        {
+          "da": "manio-manilio",
+          "a": "diairesis"
+        },
+        {
+          "da": "diairesis",
+          "a": "manio-manilio"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "tiberio-coruncanio",
+      "oltre": "Tiberio Coruncanio (morto intorno al 243 a.C.), *homo novus*, fu console nel 280 a.C., durante la guerra contro Pirro, e celebrò un trionfo sugli Etruschi. Intorno al 254–253 a.C. divenne il primo pontefice massimo plebeo, possibilità aperta dal [[plebiscito-ogulnio]] del 300 a.C. [[pomponio|Pomponio]] lo ricorda come il primo che *publice professus est*, cioè che diede consultazioni e insegnamento in pubblico, permettendo a chiunque di ascoltare, e aggiunge che non lasciò scritti, ma molti responsi memorabili. Gli storici moderni ridimensionano la portata della svolta: probabilmente Coruncanio rese ufficiale una pratica di apertura già in corso, iniziata con la pubblicazione delle formule da parte di [[gneo-flavio|Gneo Flavio]]. Resta il simbolo del passaggio dal sapere riservato dei [[pontefici]] a una giurisprudenza laica e aperta, che si compie con [[sesto-elio-peto-cato|Sesto Elio]] e i giuristi del II secolo a.C. [[cicerone|Cicerone]] lo ricorda più volte come modello di saggezza e di consiglio.",
+      "daSapere": [
+        "Console nel 280 a.C.; primo pontefice massimo plebeo (circa 254/253 a.C.)",
+        "Pomponio: *primus publice professus est*",
+        "Nessuno scritto, molti *responsa* memorabili"
+      ],
+      "collegamenti": [
+        {
+          "da": "tiberio-coruncanio",
+          "a": "laicizzazione-della-giurisprudenza",
+          "tipo": "esempio-di",
+          "etichetta": "dà impulso, con i responsi pubblici, alla"
+        },
+        {
+          "da": "tiberio-coruncanio",
+          "a": "responso",
+          "tipo": "collegato",
+          "etichetta": "lascia, senza scritti, celebri esempi di"
+        },
+        {
+          "da": "tiberio-coruncanio",
+          "a": "pontefice-massimo",
+          "tipo": "collegato",
+          "etichetta": "è il primo plebeo a diventare"
+        },
+        {
+          "da": "plebiscito-ogulnio",
+          "a": "tiberio-coruncanio",
+          "tipo": "causa",
+          "etichetta": "rende possibile l'ascesa al pontificato di"
+        },
+        {
+          "da": "de-oratore",
+          "a": "tiberio-coruncanio",
+          "tipo": "testimonia",
+          "etichetta": "ricorda come pontefice prodigo di consigli"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "ermagora-di-temno",
+      "oltre": "Ermagora di Temno, città dell'Eolide in Asia Minore, fu il retore greco più influente del II secolo a.C. Le sue opere sono perdute, ma ne conosciamo il pensiero attraverso il *De inventione* di [[cicerone|Cicerone]], la *Rhetorica ad Herennium* e Quintiliano. Il suo contributo principale è la dottrina degli **stati della causa** (*stáseis*, in latino *status* o *constitutiones*): ogni controversia si riduce a una questione di fatto (è avvenuto?), di definizione (che cos'è?), di qualità (è giusto?) o di competenza. Accanto a queste individuò le **questioni legali**, che nascono dal testo delle norme: contrasto tra lettera e intenzione, leggi in conflitto, ambiguità, ragionamento per analogia. Il contrasto tra lettera e intenzione è lo schema retorico della [[causa-curiana]] e del tema [[verba-e-voluntas]]. Distinse anche le questioni generali (*thésis*) da quelle concrete (*hypóthesis*). Per questo la sua precettistica entrò nella formazione di oratori e giuristi romani.",
+      "daSapere": [
+        "Retore greco, metà del II sec. a.C.",
+        "Stati della causa: congettura, definizione, qualità, competenza",
+        "Questioni legali: lettera e intenzione, antinomia, ambiguità, analogia",
+        "Noto tramite Cicerone (*De inventione*) e Quintiliano"
+      ],
+      "collegamenti": [
+        {
+          "da": "ermagora-di-temno",
+          "a": "arti-liberali",
+          "tipo": "collegato",
+          "etichetta": "dà forma sistematica alla retorica, una delle"
+        },
+        {
+          "da": "ermagora-di-temno",
+          "a": "verba-e-voluntas",
+          "tipo": "influenza",
+          "etichetta": "classifica tra le questioni legali il contrasto tra"
+        },
+        {
+          "da": "ermagora-di-temno",
+          "a": "causa-curiana",
+          "tipo": "influenza",
+          "etichetta": "offre lo schema retorico discusso nella"
+        }
+      ]
+    },
+    {
+      "id": "fritz-schulz",
+      "oltre": "Fritz Schulz (Bunzlau 1879 – Oxford 1957) fu uno dei maggiori romanisti del Novecento. Insegnò in varie università tedesche, fino a Berlino (1931); allontanato dalla cattedra dal regime nazista, nel 1939 emigrò, prima nei Paesi Bassi e poi in Inghilterra, dove lavorò a Oxford. Le sue opere principali sono tre.\n\n- *Prinzipien des römischen Rechts* (1934; trad. it. *I principii del diritto romano*): descrive il diritto romano attraverso alcuni principi di fondo, come tradizione, isolamento del diritto, astrazione, semplicità, autorità, libertà, umanità, fedeltà, sicurezza.\n- *History of Roman Legal Science* (1946; trad. it. *Storia della giurisprudenza romana*): storia della scienza giuridica romana divisa per età, da cui gli appunti traggono la formula della [[professione-aristocratica]].\n- *Classical Roman Law* (1951): esposizione del diritto classico depurato delle interpolazioni.\n\nFu un convinto sostenitore della critica interpolazionistica e diede un giudizio severo della [[eta-postclassica|giurisprudenza postclassica]]. Sui [[libri-tres-iuris-civilis]] di Sabino propose una ricostruzione in quattro settori che va trattata come un'ipotesi storiografica, non come l'indice certo dell'opera antica.",
+      "daSapere": [
+        "1879–1957; emigra in Inghilterra (Oxford) nel 1939",
+        "*Prinzipien des römischen Rechts* (1934)",
+        "*History of Roman Legal Science* (1946)",
+        "*Classical Roman Law* (1951)"
+      ],
+      "collegamenti": [
+        {
+          "da": "fritz-schulz",
+          "a": "professione-aristocratica",
+          "tipo": "crea",
+          "etichetta": "conia la formula della"
+        },
+        {
+          "da": "fritz-schulz",
+          "a": "libri-tres-iuris-civilis",
+          "tipo": "interpreta",
+          "etichetta": "divide in quattro settori, con lettura modernizzante, i"
+        },
+        {
+          "da": "fritz-schulz",
+          "a": "eta-postclassica",
+          "tipo": "interpreta",
+          "etichetta": "dà un giudizio severo dell'"
+        },
+        {
+          "da": "fritz-schulz",
+          "a": "romanistica",
+          "tipo": "parte-di",
+          "etichetta": "è tra i maestri novecenteschi della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Wolfgang Ernst, Fritz Schulz (1879–1957), Oxford University Press",
+          "url": "https://doi.org/10.1093/acprof:oso/9780199270583.003.0003"
+        }
+      ]
+    },
+    {
+      "id": "gneo-flavio",
+      "oltre": "Gneo Flavio, figlio di un liberto, era scriba (segretario) di [[appio-claudio-cieco|Appio Claudio Cieco]], il censore del 312 a.C. Secondo [[livio|Livio]], da edile curule nel 304 a.C. rese pubblico il diritto civile custodito negli archivi dei pontefici ed espose nel Foro, su una tavola bianca, il calendario dei [[giorni-fasti-e-nefasti]], così che tutti sapessero quando si poteva agire in giudizio. [[pomponio|Pomponio]] racconta invece che Appio Claudio aveva composto un libro di formule processuali e che Flavio lo sottrasse e lo divulgò: il popolo ne fu così grato da farlo tribuno, senatore ed edile curule. La raccolta prese il nome di *ius Flavianum*; un secolo più tardi [[sesto-elio-peto-cato|Sesto Elio]] ne preparò una più ampia, lo *ius Aelianum* (i [[tripertita|Tripertita]]). L'episodio si inserisce nelle lotte politiche di fine IV secolo, in cui Appio Claudio favoriva i ceti emergenti, e segna l'inizio della fine del [[monopolio-pontificale]], anche se le formule servivano a poco senza la competenza per usarle.",
+      "daSapere": [
+        "Scriba di Appio Claudio Cieco; edile curule nel 304 a.C.",
+        "*Ius Flavianum*: formulari delle azioni resi pubblici",
+        "Calendario dei giorni fasti esposto nel Foro",
+        "Un secolo dopo: *ius Aelianum* di Sesto Elio"
+      ],
+      "collegamenti": [
+        {
+          "da": "gneo-flavio",
+          "a": "laicizzazione-della-giurisprudenza",
+          "tipo": "esempio-di",
+          "etichetta": "diventa, divulgando le formule, il simbolo della"
+        },
+        {
+          "da": "appio-claudio-cieco",
+          "a": "gneo-flavio",
+          "tipo": "collegato",
+          "etichetta": "ha come scriba e protetto"
+        },
+        {
+          "da": "gneo-flavio",
+          "a": "giorni-fasti-e-nefasti",
+          "tipo": "collegato",
+          "etichetta": "espone pubblicamente il calendario dei"
+        },
+        {
+          "da": "gneo-flavio",
+          "a": "legis-actiones",
+          "tipo": "collegato",
+          "etichetta": "divulga i formulari delle"
+        },
+        {
+          "da": "gneo-flavio",
+          "a": "monopolio-pontificale",
+          "tipo": "contrasta",
+          "etichetta": "incrina il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "libri-iuris-civilis-di-quinto-mucio",
+      "oltre": "[[quinto-mucio-scevola|Quinto Mucio Scevola]] il pontefice (console nel 95, ucciso nell'82 a.C.) scrisse quest'opera nei primi decenni del I secolo a.C. [[pomponio|Pomponio]] dice che fu il primo a ordinare il diritto civile *generatim*, «per generi», in diciotto libri. Non ci è pervenuta: la conosciamo attraverso le citazioni dei giuristi successivi e soprattutto il commento di Pomponio *ad Quintum Mucium* in 39 libri, che ne seguiva la sequenza. L'ordine, che a quanto si ricostruisce partiva dalla successione ereditaria per passare alle persone, alle cose, alle obbligazioni e ai delitti, fu ripreso con varianti dai *libri iuris civilis* di Sabino e di Cassio, senza coincidere con la sistematica edittale su cui si basa soprattutto il Digesto. Accanto a quest'opera Quinto Mucio scrisse un libro di definizioni, gli [[horoi|Horoi]]. Con essa la giurisprudenza passa dalla raccolta di responsi alla costruzione di un sistema.",
+      "daSapere": [
+        "Quinto Mucio Scevola pontefice: console nel 95, ucciso nell'82 a.C.",
+        "18 libri; Pomponio: *ius civile primus constituit generatim*",
+        "Commento di Pomponio *ad Quintum Mucium* (39 libri)",
+        "Affiancata dal *liber singularis* degli *Horoi*"
+      ],
+      "collegamenti": [
+        {
+          "da": "libri-iuris-civilis-di-quinto-mucio",
+          "a": "diairesis",
+          "tipo": "esempio-di",
+          "etichetta": "ordinano il diritto civile per generi con la"
+        },
+        {
+          "da": "pomponio",
+          "a": "libri-iuris-civilis-di-quinto-mucio",
+          "tipo": "interpreta",
+          "etichetta": "commenta in 39 libri i"
+        },
+        {
+          "da": "libri-iuris-civilis-di-quinto-mucio",
+          "a": "libri-tres-iuris-civilis",
+          "tipo": "influenza",
+          "etichetta": "fanno da modello ai"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "max-weber",
+      "oltre": "Max Weber (Erfurt 1864 – Monaco 1920) fu sociologo, economista e storico, tra i fondatori della sociologia moderna. Si formò come giurista e pubblicò la *Storia agraria romana* nel 1891, utilizzata nell'abilitazione conclusa nel 1892, nel suo rapporto con il diritto pubblico e privato. Opere principali: *L'etica protestante e lo spirito del capitalismo* (1904–1905), le conferenze *La scienza come professione* e *La politica come professione* (1917–1919) e il grande trattato postumo *Economia e società* (1922), che contiene una sociologia del diritto. Idee chiave: il metodo dei **tipi ideali**; i tre tipi di potere legittimo (tradizionale, carismatico, legale-razionale); la **razionalizzazione** come tendenza della civiltà occidentale, che nel diritto si manifesta nella crescita della razionalità formale. Nella *Politica come professione* distingue chi vive «per» la politica da chi vive «della» politica: i [[notabili]] (*Honoratioren*) possono permettersi la prima condizione grazie al proprio patrimonio. Nella sociologia del diritto dedica pagine alla giurisprudenza romana come esempio di diritto elaborato da notabili.",
+      "daSapere": [
+        "1864–1920; *Storia agraria romana* (1891), abilitazione conclusa nel 1892",
+        "*L'etica protestante* (1904–1905); *Economia e società* (postumo, 1922)",
+        "*La politica come professione* (1919): vivere «per» o «della» politica",
+        "Tre tipi di potere: tradizionale, carismatico, legale-razionale"
+      ],
+      "collegamenti": [
+        {
+          "da": "max-weber",
+          "a": "notabili",
+          "tipo": "crea",
+          "etichetta": "elabora la categoria sociologica dei"
+        },
+        {
+          "da": "max-weber",
+          "a": "professione-aristocratica",
+          "tipo": "influenza",
+          "etichetta": "offre una chiave sociologica per la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Accademia bavarese delle scienze, edizione digitale della Storia agraria romana",
+          "url": "https://mwg-digital.badw.de/de/band-i-2/zur-digitalen-edition/"
+        }
+      ]
+    },
+    {
+      "id": "alfeno-varo",
+      "oltre": "Publio Alfeno Varo, giurista della seconda metà del I secolo a.C., fu console suffetto nel 39 a.C. Secondo un antico commentatore di Orazio era di umili origini, un calzolaio di Cremona arrivato a Roma, dove studiò con [[servio-sulpicio-rufo|Servio]]: un caso notevole di ascesa sociale grazie al diritto. Lo si identifica spesso con il Varo delle *Bucoliche* di Virgilio, legato alle confische di terre del 41 a.C., ma l'identificazione non è sicura. I suoi *Digesta*, in quaranta libri, raccoglievano responsi di Servio e suoi; ci sono arrivati soprattutto attraverso due epitomi, una di [[paolo|Paolo]] e una anonima, poi confluite nel [[digesto|Digesto]]. Ne restano casi celebri: la nave di Saufeio, in cui il grano di più mercanti caricato alla rinfusa pone il problema della proprietà e del rischio, e il ragionamento sul tribunale che resta lo stesso anche se cambiano i giudici, come una nave rifatta pezzo per pezzo, di chiara ispirazione filosofica. È il primo autore noto di *digesta*, genere poi praticato da Celso, Giuliano e Marcello.",
+      "daSapere": [
+        "Allievo di Servio; console suffetto nel 39 a.C.",
+        "*Digesta* in 40 libri, noti tramite epitomi (una di Paolo)",
+        "Casi celebri: la nave di Saufeio; il tribunale che resta lo stesso"
+      ],
+      "collegamenti": [
+        {
+          "da": "alfeno-varo",
+          "a": "digesta",
+          "tipo": "influenza",
+          "etichetta": "fa da modello al genere dei"
+        },
+        {
+          "da": "digesto",
+          "a": "alfeno-varo",
+          "tipo": "testimonia",
+          "etichetta": "conserva frammenti attribuiti ad"
+        },
+        {
+          "da": "servio-sulpicio-rufo",
+          "a": "alfeno-varo",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "auditores",
+      "oltre": "*Auditor* significa «ascoltatore»: il termine, usato anche nelle scuole di retorica e di filosofia, indica chi impara assistendo all'attività di un maestro. Nella Roma repubblicana non esistevano scuole di diritto in senso istituzionale: i giovani si formavano frequentando un giurista, ascoltandone i responsi ai clienti e discutendo con lui i casi. Così [[cicerone|Cicerone]] da ragazzo frequentò Quinto Mucio l'Augure e poi Quinto Mucio il pontefice. Con [[servio-sulpicio-rufo|Servio]] si forma una cerchia di discepoli: [[pomponio|Pomponio]] ricorda che ebbe moltissimi allievi, dieci dei quali sono elencati per nome e otto scrissero opere (tra gli altri Alfeno Varo, Aulo Ofilio, Aufidio Namusa e Pacuvio Antistio Labeone, padre di Labeone), e che [[aufidio-namusa|Aufidio Namusa]] ne raccolse gli scritti in 140 libri. Nel Principato l'insegnamento si organizza nelle [[scuole-giuridiche|sectae]] e compaiono giuristi dediti soprattutto all'insegnamento, come [[gaio|Gaio]]; in età tardoantica si arriva a scuole ufficiali come quelle di [[scuola-di-berito|Berito]] e di Costantinopoli.",
+      "daSapere": [
+        "*Auditores*: «ascoltatori», allievi che imparano assistendo ai responsi",
+        "Pomponio (D. 1.2.2.44): dieci allievi nominati, otto autori di opere",
+        "Aufidio Namusa raccoglie i loro scritti in 140 libri"
+      ],
+      "collegamenti": [
+        {
+          "da": "servio-sulpicio-rufo",
+          "a": "auditores",
+          "tipo": "influenza",
+          "etichetta": "forma, discutendo i casi, i propri"
+        },
+        {
+          "da": "enchiridion",
+          "a": "auditores",
+          "tipo": "testimonia",
+          "etichetta": "elenca gli scrittori tra gli"
+        },
+        {
+          "da": "auditores",
+          "a": "digesta",
+          "tipo": "crea",
+          "etichetta": "raccolgono i responsi del maestro nei"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto, libro I: definizioni e storia dei giuristi (testo latino; Università di Grenoble)",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "consilium-principis",
+      "oltre": "L'abitudine di consultare un consiglio prima delle decisioni importanti è antica: la praticavano il *pater familias* (consiglio domestico) e i magistrati. [[augusto|Augusto]] istituì un consiglio semestrale di senatori estratti a sorte, con i consoli e altri magistrati, per preparare i lavori del [[senato|Senato]]; accanto a esso, come i suoi successori, si avvaleva di una cerchia informale di «amici». Con [[adriano|Adriano]] il consilium diventa più stabile e vi entrano regolarmente giuristi (Giuliano, Celso, Nerazio); dal II–III secolo compaiono *consiliarii* stipendiati di rango equestre. Il consiglio assiste il principe soprattutto nelle cause giudiziarie: le sentenze imperiali raccolte da [[paolo|Paolo]] nei [[decreta|Decreta]] mostrano i giuristi che discutono e il principe che decide. Con i Severi vi siedono Papiniano, Paolo e Ulpiano. Nel tardo impero, quando il principe è ormai un sovrano assoluto, il consilium si trasforma nel [[consistorium]], dove i membri stanno in piedi davanti all'imperatore.",
+      "daSapere": [
+        "Augusto: consiglio semestrale di senatori estratti a sorte",
+        "Adriano: giuristi stabili nel consilium (Giuliano, Celso, Nerazio)",
+        "*Consiliarii* stipendiati dal II–III sec. d.C.",
+        "Tardo impero: diventa il *consistorium*"
+      ],
+      "collegamenti": [
+        {
+          "da": "consilium-principis",
+          "a": "consistorium",
+          "tipo": "evolve-in",
+          "etichetta": "si trasforma, nel tardo impero, nel"
+        },
+        {
+          "da": "consilium-principis",
+          "a": "decreta",
+          "tipo": "collegato",
+          "etichetta": "prepara le sentenze imperiali raccolte nei"
+        },
+        {
+          "da": "augusto",
+          "a": "consilium-principis",
+          "tipo": "crea",
+          "etichetta": "istituisce la prima forma stabile del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Svetonio, Vita di Augusto 35 (testo e traduzione; Università di Chicago)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/suetonius/12Caesars/Augustus%2A.html"
+        }
+      ]
+    }
+  ],
+  "nuovi": []
+}

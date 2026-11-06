@@ -1,0 +1,2166 @@
+{
+  "voci": [
+    {
+      "id": "aequitas",
+      "oltre": "L’*aequitas* («equità») non è un potere generale di decidere secondo la propria coscienza: nel diritto romano opera attraverso l’argomentazione dei [[giuristi]], gli strumenti del [[pretore]] e gli interventi del principe. Può sostenere una soluzione che tenga conto della posizione concreta delle parti, evitando risultati prodotti dall’applicazione troppo rigida di una regola.\n\nIl significato cambia secondo autori ed epoche. Negli appunti, il catalogo dei *[[topica|Topica]]* di Cicerone mette in evidenza la razionalità della soluzione giuridica; in altri contesti emergono anche ideali di proporzione e umanità. Non bisogna trasformare questa particolare lettura in una definizione valida per tutta la storia romana. La distinzione fra [[aequitas-civilis]] e [[aequitas-naturalis]] serve proprio a riconoscere differenti modi di giustificare una soluzione.",
+      "daSapere": [
+        "Aequitas: equità, con significati storicamente diversi",
+        "Opera tramite interpretazione e rimedi giuridici",
+        "Distinguere aequitas civilis e naturalis"
+      ],
+      "collegamenti": [
+        {
+          "da": "aequitas",
+          "a": "ius-civile",
+          "tipo": "collegato",
+          "etichetta": "concorre a interpretare lo"
+        },
+        {
+          "da": "aequitas",
+          "a": "in-integrum-restitutio",
+          "tipo": "causa",
+          "etichetta": "può giustificare la"
+        },
+        {
+          "da": "summum-ius-summa-iniuria",
+          "a": "aequitas",
+          "tipo": "collegato",
+          "etichetta": "esprime il bisogno di"
+        },
+        {
+          "da": "aequitas",
+          "a": "ius-honorarium",
+          "tipo": "influenza",
+          "etichetta": "orienta anche lo"
+        },
+        {
+          "da": "aequitas-civilis",
+          "a": "aequitas",
+          "tipo": "parte-di",
+          "etichetta": "rientra in"
+        }
+      ]
+    },
+    {
+      "id": "ius-respondendi",
+      "oltre": "Lo *ius respondendi ex auctoritate principis* («facoltà di dare responsi con l’autorità del principe») esprime il nuovo rapporto fra sapere giuridico e potere imperiale. Il riconoscimento personale del [[princeps]] accresce il prestigio di determinati giuristi; non equivale però alla loro trasformazione in funzionari né alla proibizione per gli altri di formulare pareri.\n\n[[pomponio|Pomponio]] ne riconduce l’introduzione ad [[augusto|Augusto]]. Restano discussi estensione e funzionamento concreto del privilegio. I *responsa signata* sono responsi autenticati o sigillati: **non bisogna dedurne automaticamente un sigillo imperiale su ogni risposta**, come suggeriscono gli appunti. Anche il rapporto con il [[rescritto-di-adriano]] riferito da Gaio richiede cautela: Gaio parla dei giuristi autorizzati a produrre diritto, senza nominare espressamente questo privilegio. Per l’esame conta distinguere l’autorità personale, il riconoscimento imperiale e l’efficacia processuale del singolo [[responso]].",
+      "daSapere": [
+        "Riconoscimento imperiale dell’autorità di alcuni giuristi",
+        "Pomponio ne attribuisce l’introduzione ad Augusto",
+        "Responsa signata: autenticazione, non necessariamente sigillo imperiale"
+      ],
+      "collegamenti": [
+        {
+          "da": "ius-respondendi",
+          "a": "responso",
+          "tipo": "influenza",
+          "etichetta": "rafforza l’autorità del"
+        },
+        {
+          "da": "ius-respondendi",
+          "a": "consilium-principis",
+          "tipo": "collegato",
+          "etichetta": "è distinto dalla partecipazione al"
+        },
+        {
+          "da": "ius-respondendi",
+          "a": "equites",
+          "tipo": "collegato",
+          "etichetta": "fu concesso anche a giuristi degli"
+        },
+        {
+          "da": "ius-respondendi",
+          "a": "constitutio-deo-auctore",
+          "tipo": "collegato",
+          "etichetta": "è richiamato come criterio dalla"
+        },
+        {
+          "da": "enchiridion",
+          "a": "ius-respondendi",
+          "tipo": "testimonia",
+          "etichetta": "documenta"
+        }
+      ],
+      "togli": [
+        {
+          "da": "ius-respondendi",
+          "a": "auctoritas"
+        },
+        {
+          "da": "auctoritas",
+          "a": "ius-respondendi"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Falcone, I responsa prudentium in Gai 1.7 e Inst.1.2.8",
+          "url": "https://iris.unipa.it/handle/10447/636414"
+        },
+        {
+          "titolo": "Gaio, Institutiones 1.7",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Responsa/gai1.htm"
+        }
+      ]
+    },
+    {
+      "id": "bonorum-possessio",
+      "oltre": "La *bonorum possessio* («possesso dei beni ereditari») è la concessione pretoria che mette un soggetto nella posizione di ottenere e difendere un patrimonio ereditario. Il beneficiario non diventa per questo *heres* secondo lo [[ius-civile]]: dispone di una protezione fondata sullo [[ius-honorarium]].\n\nPuò essere accordata seguendo il testamento, in mancanza di un testamento efficace oppure contro certe disposizioni testamentarie. Perciò inizialmente sostiene o integra la successione civile, ma può anche correggerla, dando rilievo a legami familiari trascurati dal diritto più antico. La distinzione fra concessione *cum re* e *sine re* riguarda la possibilità di prevalere anche contro l’erede civile. È un buon esempio di mutamento realizzato attraverso la tutela processuale: il pretore non riscrive formalmente il diritto civile, ma modifica chi riesce concretamente a conseguire i beni.",
+      "daSapere": [
+        "Possesso pretorio del patrimonio ereditario",
+        "Beneficiario pretorio e heres civile non coincidono necessariamente",
+        "Secundum tabulas, sine tabulis, contra tabulas"
+      ],
+      "collegamenti": [
+        {
+          "da": "pretore",
+          "a": "bonorum-possessio",
+          "tipo": "crea",
+          "etichetta": "concede la"
+        },
+        {
+          "da": "bonorum-possessio",
+          "a": "testamento",
+          "tipo": "collegato",
+          "etichetta": "integra o corregge la successione disposta nel"
+        },
+        {
+          "da": "bonorum-possessio",
+          "a": "ius-civile",
+          "tipo": "influenza",
+          "etichetta": "integra o corregge lo"
+        },
+        {
+          "da": "bonorum-possessio",
+          "a": "ius-honorarium",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        },
+        {
+          "da": "salvio-giuliano",
+          "a": "bonorum-possessio",
+          "tipo": "interpreta",
+          "etichetta": "discute"
+        }
+      ]
+    },
+    {
+      "id": "cataloghi-normativi",
+      "oltre": "«Cataloghi normativi» è una denominazione didattica per passi che descrivono da quali atti e pratiche scaturisca il diritto. Non indica un codice romano né un elenco unico rimasto invariato nei secoli. Il confronto fra i cataloghi permette di seguire i cambiamenti delle [[fonti-di-produzione]] e del posto riconosciuto ai [[giuristi]].\n\nNei *[[topica|Topica]]* Cicerone usa un elenco anche per mostrare un modo di definire; [[gaio|Gaio]], invece, introduce ordinatamente un manuale per studenti. [[pomponio|Pomponio]] costruisce una storia delle istituzioni e della giurisprudenza. Il loro diverso scopo spiega inclusioni, omissioni e formulazioni: l’assenza di una fonte non prova da sola che essa non operasse. Il metodo corretto è chiedere chi scrive, quando e per quale pubblico, poi confrontare l’elenco con la pratica giuridica dell’epoca.",
+      "daSapere": [
+        "Categoria di studio, non codice antico",
+        "Confrontare autore, epoca e scopo dell’elenco",
+        "Servono a ricostruire la pluralità delle fonti"
+      ],
+      "collegamenti": [
+        {
+          "da": "topica",
+          "a": "cataloghi-normativi",
+          "tipo": "testimonia",
+          "etichetta": "contengono un esempio di"
+        },
+        {
+          "da": "institutiones-di-gaio",
+          "a": "cataloghi-normativi",
+          "tipo": "testimonia",
+          "etichetta": "si aprono con uno dei"
+        },
+        {
+          "da": "enchiridion",
+          "a": "cataloghi-normativi",
+          "tipo": "testimonia",
+          "etichetta": "offre il quadro storico dei"
+        },
+        {
+          "da": "cataloghi-normativi",
+          "a": "interpretatio-prudentium",
+          "tipo": "testimonia",
+          "etichetta": "documentano il ruolo della"
+        }
+      ]
+    },
+    {
+      "id": "ius-controversum",
+      "oltre": "Il *ius controversum* («diritto controverso») nasce dalla possibilità che giuristi autorevoli sostengano soluzioni diverse di un medesimo problema. È una caratteristica del [[diritto-giurisprudenziale]], nel quale l’autorevolezza di una soluzione dipende anche dalla qualità degli argomenti e dal confronto con i precedenti.\n\nNon significa che qualunque risposta sia equivalente: gli orientamenti possono consolidarsi, essere abbandonati oppure essere scelti dall’intervento imperiale. La controversia non coincide con la lite concreta fra due parti, anche se può influire sull’esito del giudizio. [[gaio|Gaio]] riferisce che il [[rescritto-di-adriano]] distingue il consenso dei giuristi dal dissenso e, nel secondo caso, lascia al giudice la scelta fra i pareri. Il passo dimostra la persistenza del dissenso: è quindi scorretto presentare Adriano come colui che lo avrebbe eliminato una volta per tutte.",
+      "daSapere": [
+        "Dissenso giuridico qualificato, non semplice lite",
+        "Gaio 1.7: consenso e dissenso producono effetti diversi",
+        "Adriano disciplina il fenomeno, non lo cancella"
+      ],
+      "collegamenti": [
+        {
+          "da": "ius-controversum",
+          "a": "scuole-giuridiche",
+          "tipo": "collegato",
+          "etichetta": "si manifesta anche fra le"
+        },
+        {
+          "da": "ius-controversum",
+          "a": "metodo-casistico",
+          "tipo": "collegato",
+          "etichetta": "si sviluppa attraverso il"
+        },
+        {
+          "da": "rescritto-di-adriano",
+          "a": "ius-controversum",
+          "tipo": "influenza",
+          "etichetta": "disciplina gli effetti dello"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Institutiones 1.7",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Responsa/gai1.htm"
+        }
+      ]
+    },
+    {
+      "id": "caracalla",
+      "oltre": "Marco Aurelio Antonino, detto **Caracalla**, nacque nel 188 e regnò fino al 217; dopo la morte di [[settimio-severo|Settimio Severo]] condivise inizialmente il potere con il fratello Geta, fatto poi uccidere. Il nome ufficiale Antonino spiega perché nelle fonti giuridiche compaiano costituzioni di «Severo e Antonino»: occorre identificare gli imperatori dal contesto, senza confonderli con [[antonino-pio|Antonino Pio]] o [[marco-aurelio|Marco Aurelio]].\n\nNel **212** emanò la [[constitutio-antoniniana]], che estese largamente la cittadinanza romana agli abitanti liberi dell’impero; il significato dell’eccezione relativa ai *dediticii* è discusso. Non liberò gli schiavi e non cancellò immediatamente tutti i diritti locali. Nello stesso anno [[papiniano|Papiniano]] fu ucciso nel contesto della repressione seguita alla morte di Geta. La notizia che il giurista avrebbe scritto la costituzione non va presentata come un fatto accertato: la sua importanza per la storia del diritto non dipende da questa attribuzione.",
+      "daSapere": [
+        "188–217; figlio di Settimio Severo",
+        "212: estensione della cittadinanza con la constitutio Antoniniana",
+        "Papiniano fu ucciso sotto il suo governo"
+      ],
+      "collegamenti": [
+        {
+          "da": "caracalla",
+          "a": "constitutio-antoniniana",
+          "tipo": "crea",
+          "etichetta": "emana la"
+        },
+        {
+          "da": "settimio-severo",
+          "a": "caracalla",
+          "tipo": "collegato",
+          "etichetta": "è padre di"
+        },
+        {
+          "da": "caracalla",
+          "a": "peregrini",
+          "tipo": "influenza",
+          "etichetta": "estende la cittadinanza a molti"
+        }
+      ]
+    },
+    {
+      "id": "digesta-di-alfeno-varo",
+      "oltre": "I *Digesta* di [[alfeno-varo|Alfeno Varo]], giurista della tarda Repubblica, raccolgono materiale casistico legato alla cerchia di [[servio-sulpicio-rufo|Servio Sulpicio Rufo]]. Il titolo richiama l’ordinamento dei materiali, non una codificazione statale. L’opera è perduta come insieme autonomo: la conosciamo soprattutto attraverso estratti e rielaborazioni confluiti nel [[digesto]] giustinianeo.\n\nI racconti di casi conservano particolari utili a costruire il problema giuridico: chi ha causato materialmente un danno, chi ha impartito un ordine, che cosa è stato consegnato e a quale titolo. Il passaggio dal fatto alla soluzione richiede dunque selezione e qualificazione, non la semplice applicazione meccanica di una formula. Il materiale serviano non va attribuito indistintamente al maestro: nella trasmissione intervengono il raccoglitore e gli autori che lo citano. La [[letteratura-problematica]] nasce anche da questo lavoro di conservazione e discussione.",
+      "daSapere": [
+        "Opera casistica di Alfeno, legata alla scuola serviana",
+        "Non coincide con il Digesto di Giustiniano",
+        "Conosciuta attraverso estratti e rielaborazioni"
+      ],
+      "collegamenti": [
+        {
+          "da": "digesta-di-alfeno-varo",
+          "a": "metodo-casistico",
+          "tipo": "testimonia",
+          "etichetta": "documentano il"
+        },
+        {
+          "da": "digesta-di-alfeno-varo",
+          "a": "digesto",
+          "tipo": "parte-di",
+          "etichetta": "sono conservati per estratti nel"
+        },
+        {
+          "da": "digesta-di-alfeno-varo",
+          "a": "servio-sulpicio-rufo",
+          "tipo": "testimonia",
+          "etichetta": "tramandano anche responsi di"
+        },
+        {
+          "da": "digesta-di-alfeno-varo",
+          "a": "letteratura-problematica",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        }
+      ]
+    },
+    {
+      "id": "lex-aquilia",
+      "oltre": "La *lex Aquilia*, tradizionalmente collocata nel III secolo a.C., è un plebiscito fondamentale per il risarcimento del danno ingiusto a cose altrui. La data esatta non è sicura: il riferimento al 287 a.C., frequente nei manuali, va usato con prudenza.\n\nIl primo capo riguarda l’uccisione di schiavi e di determinati animali da allevamento; il terzo disciplina altri danneggiamenti. La valutazione può guardare al maggior valore del bene in un periodo precedente e la condanna può aumentare quando il convenuto nega ingiustamente. Attraverso l’interpretazione dei [[giuristi]] e azioni adattate dal [[pretore]] si amplia la tutela oltre le ipotesi letterali. Non è ancora una clausola generale identica alla responsabilità civile moderna: contano l’azione disponibile, il tipo di lesione e il nesso fra condotta ed evento. La sua storia mostra il ruolo creativo dell’[[interpretatio-prudentium]].",
+      "daSapere": [
+        "Plebiscito del III secolo a.C.; data precisa discussa",
+        "Danno ingiusto a beni altrui",
+        "Interpretazione e azioni utili ne ampliano la tutela"
+      ],
+      "collegamenti": [
+        {
+          "da": "lex-aquilia",
+          "a": "iniuria",
+          "tipo": "collegato",
+          "etichetta": "si distingue dal delitto di"
+        },
+        {
+          "da": "lex-aquilia",
+          "a": "plebiscito",
+          "tipo": "esempio-di",
+          "etichetta": "è un"
+        },
+        {
+          "da": "interpretatio-prudentium",
+          "a": "lex-aquilia",
+          "tipo": "interpreta",
+          "etichetta": "estende l’applicazione della"
+        },
+        {
+          "da": "lex-aquilia",
+          "a": "dominium",
+          "tipo": "collegato",
+          "etichetta": "protegge il patrimonio del titolare del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto 9.2, Ad legem Aquiliam",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-09.htm"
+        }
+      ]
+    },
+    {
+      "id": "rescritto-di-adriano",
+      "oltre": "La disposizione di [[adriano|Adriano]] sui responsi ci è nota attraverso [[gaio|Gaio]], non attraverso il testo originale autonomamente conservato. In *Institutiones* 1.7 Gaio afferma che il parere concorde dei giuristi richiamati ha forza di legge, mentre, se le opinioni divergono, il giudice può seguirne una a sua scelta.\n\nLa distinzione non equivale a una votazione a maggioranza e non anticipa direttamente il conteggio previsto secoli dopo dalla [[legge-delle-citazioni]]. Restano problemi interpretativi: quali giuristi siano compresi e come si accerti nella pratica il loro consenso. È quindi preferibile spiegare la regola attestata e segnalare i limiti della ricostruzione. L’effetto del provvedimento è regolare il rapporto fra autorità del sapere giuridico e decisione giudiziaria, mantenendo spazio allo [[ius-controversum]].",
+      "daSapere": [
+        "Fonte: Gaio, Institutiones 1.7",
+        "Consenso: forza di legge; dissenso: scelta del giudice",
+        "Non è una regola di maggioranza"
+      ],
+      "collegamenti": [
+        {
+          "da": "rescritto-di-adriano",
+          "a": "ius-respondendi",
+          "tipo": "collegato",
+          "etichetta": "è discusso in rapporto allo"
+        },
+        {
+          "da": "rescritto-di-adriano",
+          "a": "legge-delle-citazioni",
+          "tipo": "collegato",
+          "etichetta": "precede la disciplina distinta della"
+        },
+        {
+          "da": "rescritto-di-adriano",
+          "a": "iudex",
+          "tipo": "influenza",
+          "etichetta": "disciplina la scelta interpretativa dello"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaio, Institutiones 1.7",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Responsa/gai1.htm"
+        },
+        {
+          "titolo": "Falcone, sui responsa prudentium",
+          "url": "https://iris.unipa.it/handle/10447/636414"
+        }
+      ]
+    },
+    {
+      "id": "topica",
+      "oltre": "I *Topica* furono scritti da [[cicerone|Cicerone]] nel **44 a.C.**, su richiesta del giurista [[trebazio-testa|Trebazio Testa]]. La «topica» riguarda i luoghi dai quali ricavare argomenti: definizione, genere, differenza, analogia, conseguenze e altri rapporti utili a sostenere una conclusione.\n\nL’opera mostra il dialogo fra retorica e sapere giuridico: il giurista deve riconoscere quali argomenti siano pertinenti, mentre l’oratore ha bisogno di comprendere il diritto di cui discute. Il catalogo dello [[ius-civile]] è un esempio di definizione per enumerazione, non una legge sulle fonti. I criteri argomentativi permettono di affrontare questioni per le quali non basta citare un testo. Non per questo la giurisprudenza romana sarebbe mera persuasione retorica: l’argomento deve restare compatibile con gli strumenti e le distinzioni del diritto.",
+      "daSapere": [
+        "Cicerone, 44 a.C.; dedicati a Trebazio Testa",
+        "Topoi: luoghi dell’argomentazione",
+        "Il catalogo del diritto civile è un esempio definitorio"
+      ],
+      "collegamenti": [
+        {
+          "da": "topica",
+          "a": "trebazio-testa",
+          "tipo": "collegato",
+          "etichetta": "sono dedicati a"
+        },
+        {
+          "da": "topica",
+          "a": "pensiero-problematico",
+          "tipo": "influenza",
+          "etichetta": "offrono strumenti per il"
+        }
+      ]
+    },
+    {
+      "id": "letteratura-problematica",
+      "oltre": "La letteratura problematica organizza casi, domande e soluzioni, reali o costruiti per la discussione. Non è una raccolta di sentenze vincolanti nel senso del precedente giudiziario moderno: spesso il testo è il parere di un giurista e non il provvedimento del giudice.\n\nLo stesso caso può essere abbreviato, confrontato con un’ipotesi simile o modificato per individuare quale circostanza cambi la soluzione. Da qui l’importanza delle *[[quaestiones|Quaestiones]]*, dei *[[responsa|Responsa]]* e dei *[[digesta|Digesta]]*. Le [[epistulae-dei-giuristi]] sono lettere di discussione scientifica e vanno distinte dalle [[epistulae]] imperiali, che sono atti della cancelleria. Il valore storico di questi generi sta nel mostrare il ragionamento in movimento: dissenso, confronto fra autori e passaggio dal particolare a una formulazione più generale.",
+      "daSapere": [
+        "Casi e problemi, non soltanto raccolte di regole",
+        "Parere giuridico e sentenza non coincidono",
+        "Lettere dei giuristi e lettere imperiali sono generi distinti"
+      ],
+      "collegamenti": [
+        {
+          "da": "responso",
+          "a": "letteratura-problematica",
+          "tipo": "collegato",
+          "etichetta": "fornisce casi rielaborati nella"
+        },
+        {
+          "da": "letteratura-problematica",
+          "a": "metodo-casistico",
+          "tipo": "testimonia",
+          "etichetta": "mette per iscritto il"
+        },
+        {
+          "da": "epistulae-dei-giuristi",
+          "a": "letteratura-problematica",
+          "tipo": "parte-di",
+          "etichetta": "costituiscono un genere della"
+        },
+        {
+          "da": "letteratura-problematica",
+          "a": "forme-letterarie",
+          "tipo": "parte-di",
+          "etichetta": "rientra in"
+        },
+        {
+          "da": "responsa",
+          "a": "letteratura-problematica",
+          "tipo": "parte-di",
+          "etichetta": "rientrano nella"
+        },
+        {
+          "da": "quaestiones",
+          "a": "letteratura-problematica",
+          "tipo": "parte-di",
+          "etichetta": "rientrano nella"
+        },
+        {
+          "da": "digesta",
+          "a": "letteratura-problematica",
+          "tipo": "parte-di",
+          "etichetta": "rientrano nella"
+        },
+        {
+          "da": "disputationes",
+          "a": "letteratura-problematica",
+          "tipo": "parte-di",
+          "etichetta": "rientrano nella"
+        }
+      ],
+      "togli": [
+        {
+          "da": "epistulae",
+          "a": "letteratura-problematica"
+        }
+      ]
+    },
+    {
+      "id": "lucio-licinio-crasso",
+      "oltre": "Lucio Licinio Crasso (**140–91 a.C.**) fu uno dei maggiori oratori romani della tarda Repubblica, console nel 95 e censore nel 92 a.C. Non va confuso con il più tardo Marco Licinio Crasso, triumviro con Cesare e Pompeo. [[cicerone|Cicerone]] lo assume come protagonista ideale del *De oratore*, per rappresentare un’eloquenza sostenuta da una formazione ampia.\n\nIl suo nome è legato alla **causa Curiana**, nella quale difese una lettura del testamento fondata sull’intenzione del disponente contro una lettura più aderente alle parole, sostenuta da [[quinto-mucio-scevola|Quinto Mucio Scevola]]. La vicenda non dimostra che l’oratore potesse ignorare il diritto: Crasso mobilitava argomenti giuridici e autorevoli pareri. Il Quinto Mucio ricordato come suo suocero è lo **Scevola augure**, distinto dal pontefice omonimo presente nel glossario. Questa omonimia rende importante specificare di quale Scevola si stia parlando.",
+      "daSapere": [
+        "140–91 a.C.; console nel 95",
+        "Non è il Crasso del primo triumvirato",
+        "Causa Curiana: parole e intenzione del testatore",
+        "Scevola augure e Scevola pontefice sono distinti"
+      ],
+      "collegamenti": [
+        {
+          "da": "lucio-licinio-crasso",
+          "a": "cicerone",
+          "tipo": "influenza",
+          "etichetta": "è modello di oratore per"
+        },
+        {
+          "da": "lucio-licinio-crasso",
+          "a": "testamento",
+          "tipo": "interpreta",
+          "etichetta": "discute l’interpretazione del"
+        },
+        {
+          "da": "lucio-licinio-crasso",
+          "a": "verba-e-voluntas",
+          "tipo": "testimonia",
+          "etichetta": "esemplifica il problema di"
+        }
+      ]
+    },
+    {
+      "id": "aufidio-namusa",
+      "oltre": "Aufidio Namusa fu un giurista della tarda Repubblica, appartenente alla cerchia degli [[auditores]] di [[servio-sulpicio-rufo|Servio Sulpicio Rufo]]. Le informazioni sulla sua vita sono scarse: per studiarlo è più utile ricordare la funzione del suo lavoro che attribuirgli date o cariche non documentate.\n\n[[pomponio|Pomponio]], nella storia della giurisprudenza conservata nel [[digesto]], gli attribuisce una vasta raccolta dei libri prodotti da più allievi di Servio. Il dato mette in luce una forma di elaborazione collettiva: insegnamento orale, discussione fra discepoli, scrittura e riordinamento dei materiali si succedono senza coincidere. La sua opera non ci è giunta integra e non consente di separare sempre con sicurezza la voce del raccoglitore da quella degli autori raccolti. Namusa conta dunque come tramite della scuola serviana, accanto alla più riconoscibile testimonianza dei [[digesta-di-alfeno-varo|Digesta di Alfeno Varo]], non come autore di un codice ufficiale.",
+      "daSapere": [
+        "Allievo di Servio nella tarda Repubblica",
+        "Pomponio ne ricorda la raccolta dei lavori serviani",
+        "Opera perduta come insieme autonomo"
+      ],
+      "collegamenti": [
+        {
+          "da": "aufidio-namusa",
+          "a": "servio-sulpicio-rufo",
+          "tipo": "collegato",
+          "etichetta": "è allievo di"
+        },
+        {
+          "da": "aufidio-namusa",
+          "a": "letteratura-problematica",
+          "tipo": "influenza",
+          "etichetta": "trasmette materiali della"
+        },
+        {
+          "da": "enchiridion",
+          "a": "aufidio-namusa",
+          "tipo": "testimonia",
+          "etichetta": "ricorda l’attività di"
+        },
+        {
+          "da": "aufidio-namusa",
+          "a": "auditores",
+          "tipo": "parte-di",
+          "etichetta": "è uno degli"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Pomponio, Digesto 1.2.2.44",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "aulo-ofilio",
+      "oltre": "Aulo Ofilio fu un giurista della tarda Repubblica, discepolo di [[servio-sulpicio-rufo|Servio Sulpicio Rufo]] e vicino a Cesare. [[pomponio|Pomponio]] lo colloca fra gli studiosi che contribuirono a organizzare più ampiamente il sapere giuridico: non soltanto rispondere a singoli quesiti, ma dare ordine a materie e strumenti.\n\nIl suo contributo riguarda tanto il diritto civile quanto l’[[editto-del-pretore]]. Per quest’ultimo interessa la tendenza a studiare insieme le clausole e le azioni del programma pretorio, preparando il terreno ai commentari dell’età classica. Non possediamo l’opera completa: la ricostruzione dipende da citazioni e notizie successive, perciò non bisogna immaginare un testo identico all’[[edictum-perpetuum]] di età adrianea. La sua figura mostra anche che un giurista della cerchia serviana poteva avere legami politici diversi da quelli del maestro. Appartenenza intellettuale e schieramento personale non si sovrappongono automaticamente.",
+      "daSapere": [
+        "Giurista tardo-repubblicano della cerchia serviana",
+        "Studia diritto civile ed editto pretorio",
+        "Non va identificato con il riordino adrianeo dell’editto"
+      ],
+      "collegamenti": [
+        {
+          "da": "aulo-ofilio",
+          "a": "servio-sulpicio-rufo",
+          "tipo": "collegato",
+          "etichetta": "è allievo di"
+        },
+        {
+          "da": "aulo-ofilio",
+          "a": "editto-del-pretore",
+          "tipo": "interpreta",
+          "etichetta": "studia sistematicamente lo"
+        },
+        {
+          "da": "aulo-ofilio",
+          "a": "commentari-edittali",
+          "tipo": "influenza",
+          "etichetta": "prepara lo sviluppo dei"
+        },
+        {
+          "da": "aulo-ofilio",
+          "a": "auditores",
+          "tipo": "parte-di",
+          "etichetta": "è uno degli"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Pomponio, Digesto 1.2.2.44",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "gaio-aquilio-gallo",
+      "oltre": "Gaio Aquilio Gallo fu un giurista della prima metà del I secolo a.C., pretore nel **66 a.C.**, nello stesso anno di [[cicerone|Cicerone]]. È ricordato per l’elaborazione di strumenti negoziali e processuali capaci di risolvere difficoltà pratiche senza richiedere una nuova legge per ogni situazione.\n\nAl suo nome si lega la **stipulazione aquiliana**, con cui una pluralità di rapporti poteva essere ricondotta a un’unica [[stipulatio]], facilitandone poi l’estinzione formale. È inoltre tradizionalmente associato alla tutela contro il [[dolus-malus]], cioè il comportamento fraudolento. Non si deve confondere il suo nome con quello della [[lex-aquilia]], legge molto più antica sul danneggiamento. Il rilievo della sua figura sta nella tecnica del *[[respondere-cavere-agere|cavere]]*: il sapere del giurista non produce soltanto spiegazioni teoriche, ma predispone forme e rimedi per raggiungere risultati giuridici sicuri. I responsi possono inoltre circolare senza diventare subito un’opera letteraria autonoma.",
+      "daSapere": [
+        "Pretore nel 66 a.C.",
+        "Stipulazione aquiliana e rimedi contro il dolo",
+        "Non è l’autore della lex Aquilia"
+      ],
+      "collegamenti": [
+        {
+          "da": "gaio-aquilio-gallo",
+          "a": "stipulatio",
+          "tipo": "interpreta",
+          "etichetta": "elabora la stipulazione aquiliana come"
+        },
+        {
+          "da": "gaio-aquilio-gallo",
+          "a": "dolus-malus",
+          "tipo": "influenza",
+          "etichetta": "contribuisce alla tutela contro il"
+        },
+        {
+          "da": "gaio-aquilio-gallo",
+          "a": "respondere-cavere-agere",
+          "tipo": "esempio-di",
+          "etichetta": "esemplifica la tecnica del"
+        }
+      ]
+    },
+    {
+      "id": "pro-caecina",
+      "oltre": "La *Pro Caecina* è un’orazione pronunciata da [[cicerone|Cicerone]] nel **69 a.C.** in una controversia riguardante il controllo di un fondo e l’impedimento violento all’accesso. Il problema nasce dal tentativo di eludere una tutela pretoria sostenendo che chi era stato tenuto lontano dal fondo non ne fosse stato propriamente scacciato.\n\nL’orazione permette di distinguere parole del rimedio, finalità della protezione e qualificazione dei fatti. È quindi una fonte preziosa per il rapporto fra retorica e diritto, ma resta una difesa di parte: l’argomento va letto come tale, non come un manuale neutrale. Cicerone richiama l’autorità dei giuristi per sostenere che il risultato processuale non dovrebbe contraddire il diritto riconosciuto dagli esperti. La vicenda collega [[possesso]], coercizione privata e poteri del [[pretore]].",
+      "daSapere": [
+        "Cicerone, 69 a.C.",
+        "Controversia fondiaria e impedimento violento all’accesso",
+        "Fonte giudiziaria di parte, non esposizione neutrale"
+      ],
+      "collegamenti": [
+        {
+          "da": "pro-caecina",
+          "a": "possesso",
+          "tipo": "testimonia",
+          "etichetta": "riguarda la tutela del"
+        },
+        {
+          "da": "pro-caecina",
+          "a": "interdicta",
+          "tipo": "testimonia",
+          "etichetta": "discute l’interpretazione degli"
+        },
+        {
+          "da": "pro-caecina",
+          "a": "verba-e-voluntas",
+          "tipo": "testimonia",
+          "etichetta": "mette in gioco il rapporto fra"
+        }
+      ]
+    },
+    {
+      "id": "celso",
+      "oltre": "Publio Giuvenzio Celso, detto **Celso figlio** per distinguerlo dal padre anch’egli giurista, operò fra la fine del I e la prima metà del II secolo d.C. Fu console e partecipò alla vita pubblica sotto gli imperatori Traiano e Adriano. È un esponente dei [[proculiani]], ma le appartenenze di scuola non spiegano da sole ogni sua scelta interpretativa.\n\nLa sua opera maggiore furono i *[[digesta|Digesta]]*, dei quali conosciamo numerosi estratti. Il suo ragionamento è spesso netto: individua una distinzione decisiva, critica una soluzione inadatta al caso e ne propone una più coerente. [[ulpiano|Ulpiano]] conserva la celebre definizione del diritto come *[[ars-boni-et-aequi|ars boni et aequi]]*, «arte del buono e dell’equo». Non è un invito a ignorare le regole: presenta il diritto come attività tecnica orientata a una soluzione giustificabile. Per l’esame conviene ricordare insieme autore, opera casistica e definizione, evitando di ridurre Celso a una sola massima.",
+      "daSapere": [
+        "Celso figlio, fra I e II secolo d.C.",
+        "Esponente proculiano e autore di Digesta",
+        "Ars boni et aequi: arte del buono e dell’equo"
+      ],
+      "collegamenti": [
+        {
+          "da": "celso",
+          "a": "digesta",
+          "tipo": "crea",
+          "etichetta": "scrive un’opera del genere dei"
+        },
+        {
+          "da": "celso",
+          "a": "metodo-casistico",
+          "tipo": "influenza",
+          "etichetta": "sviluppa il"
+        },
+        {
+          "da": "ulpiano",
+          "a": "celso",
+          "tipo": "testimonia",
+          "etichetta": "tramanda la definizione del diritto di"
+        },
+        {
+          "da": "celso",
+          "a": "proculiani",
+          "tipo": "parte-di",
+          "etichetta": "è esponente dei"
+        }
+      ]
+    },
+    {
+      "id": "proculo",
+      "oltre": "Proculo fu un giurista del **I secolo d.C.**, attivo nel primo Principato. Le notizie biografiche sono limitate; il suo nome rimane soprattutto legato ai [[proculiani]], l’indirizzo giurisprudenziale al quale diede una duratura identificazione. Non bisogna attribuirgli tutte le tesi della scuola come se fossero state fissate in un programma scritto.\n\nI pareri tramandati mostrano questioni di successione, acquisto dei diritti e rapporti patrimoniali. Nella discussione sul legato con effetti reali, la volontà del beneficiario costituisce una differenza importante rispetto all’acquisto automatico sostenuto da altri giuristi. Questo consente di spiegare il dissenso mediante un problema concreto, anziché attraverso etichette generiche come «progressisti» e «conservatori». L’autorità di Proculo non impedì ai successori o al principe di scegliere soluzioni diverse. La vicenda della [[bonorum-possessio]] dei discendenti del patrono ricordata negli appunti mostra appunto il confronto fra tradizione del parere e decisione imperiale.",
+      "daSapere": [
+        "Giurista del I secolo d.C.",
+        "Dà il nome ai proculiani",
+        "Le controversie di scuola vanno spiegate caso per caso"
+      ],
+      "collegamenti": [
+        {
+          "da": "proculo",
+          "a": "proculiani",
+          "tipo": "influenza",
+          "etichetta": "dà il nome ai"
+        },
+        {
+          "da": "proculo",
+          "a": "legato",
+          "tipo": "interpreta",
+          "etichetta": "discute l’acquisto del"
+        },
+        {
+          "da": "proculo",
+          "a": "ius-controversum",
+          "tipo": "influenza",
+          "etichetta": "partecipa alla formazione dello"
+        }
+      ]
+    },
+    {
+      "id": "ulpio-marcello",
+      "oltre": "Ulpio Marcello fu un giurista del **II secolo d.C.**, attivo sotto Antonino Pio e Marco Aurelio e coinvolto nell’attività di consiglio del principe. I suoi *[[digesta|Digesta]]* appartengono alla grande letteratura casistica: vi si incontrano pareri, discussioni e notizie su decisioni imperiali.\n\nLa sua importanza non dipende soltanto dal riferire un provvedimento. Il giurista confronta casi, chiarisce la ragione della decisione e valuta se il rimedio possa essere esteso a una situazione ulteriore. L’episodio dell’[[in-integrum-restitutio]] ricordato negli appunti rende visibile questo lavoro: un precedente imperiale diventa oggetto di elaborazione tecnica. Occorre però distinguere ciò che Marcello dice di aver visto o sentito da ciò che ricava per interpretazione. È inoltre autore di scritti sugli uffici pubblici, segno che il sapere giuridico classico non si limita ai rapporti privati. Il collegamento con [[marco-aurelio|Marco Aurelio]] mostra la collaborazione, ma non la completa fusione, fra giurista e sovrano.",
+      "daSapere": [
+        "Giurista del II secolo, consigliere imperiale",
+        "Autore di Digesta",
+        "Elabora tecnicamente i precedenti imperiali"
+      ],
+      "collegamenti": [
+        {
+          "da": "ulpio-marcello",
+          "a": "digesta",
+          "tipo": "crea",
+          "etichetta": "scrive un’opera del genere dei"
+        },
+        {
+          "da": "ulpio-marcello",
+          "a": "consilium-principis",
+          "tipo": "parte-di",
+          "etichetta": "opera nel"
+        },
+        {
+          "da": "ulpio-marcello",
+          "a": "in-integrum-restitutio",
+          "tipo": "interpreta",
+          "etichetta": "discute l’estensione della"
+        },
+        {
+          "da": "ulpio-marcello",
+          "a": "letteratura-giuspubblicistica",
+          "tipo": "influenza",
+          "etichetta": "scrive un precedente della"
+        }
+      ]
+    },
+    {
+      "id": "marco-aurelio",
+      "oltre": "Marco Aurelio (**121–180 d.C.**) regnò dal 161 al 180, inizialmente insieme al fratello adottivo Lucio Vero. Appartiene alla dinastia degli Antonini e fu adottato da [[antonino-pio|Antonino Pio]]. I suoi *Pensieri*, scritti in greco, testimoniano una riflessione personale ispirata allo stoicismo; non sono un codice di leggi né un trattato ufficiale di governo.\n\nPer la storia giuridica interessano le decisioni maturate con il [[consilium-principis]], l’attenzione alla tutela e gli interventi che valorizzano l’[[humanitas]]. Il richiamo a criteri più umani può orientare una specifica interpretazione senza cancellare gerarchie sociali, schiavitù o durezza della giustizia penale. È dunque fuorviante ricavare da una massima filosofica un quadro uniforme di tutte le sue costituzioni. Nei casi riferiti da [[ulpio-marcello|Marcello]] si vede il principe ascoltare consiglieri e parti prima di decidere: un esempio concreto del rapporto fra riflessione giuridica, autorità politica e soluzione del caso.",
+      "daSapere": [
+        "121–180; imperatore dal 161",
+        "Pensieri: opera filosofica in greco",
+        "Consiglio imperiale, tutela e humanitas"
+      ],
+      "collegamenti": [
+        {
+          "da": "antonino-pio",
+          "a": "marco-aurelio",
+          "tipo": "collegato",
+          "etichetta": "adotta come successore"
+        },
+        {
+          "da": "marco-aurelio",
+          "a": "consilium-principis",
+          "tipo": "collegato",
+          "etichetta": "decide con l’assistenza del"
+        },
+        {
+          "da": "marco-aurelio",
+          "a": "cognitio-extra-ordinem",
+          "tipo": "collegato",
+          "etichetta": "esercita giurisdizione nella"
+        }
+      ]
+    },
+    {
+      "id": "proculiani",
+      "oltre": "I proculiani sono uno dei due principali indirizzi giurisprudenziali del primo Principato, insieme ai [[sabiniani]]. Il nome deriva da [[proculo|Proculo]], mentre [[labeone|Labeone]] rappresenta un antecedente intellettuale e [[cocceio-nerva|Nerva padre]] una figura iniziale importante. Non furono un’università pubblica né un partito politico con disciplina obbligatoria.\n\nLe divergenze riguardano casi specifici: per esempio se la [[permuta]] sia una forma di compravendita o un rapporto distinto, e a chi spetti la cosa nuova prodotta trasformando materia altrui ([[specificatio]]). Queste controversie non si lasciano spiegare sempre con un’unica opposizione filosofica. I giuristi potevano accogliere soluzioni dell’altro indirizzo e la legislazione imperiale poteva selezionare o combinare le tesi. Nel II secolo la rigida contrapposizione perde rilievo. Studiare i proculiani significa quindi ricostruire una tradizione di maestri e discussioni, non un sistema chiuso.",
+      "daSapere": [
+        "Indirizzo del primo Principato, distinto dai sabiniani",
+        "Proculo dà il nome; Labeone è un antecedente",
+        "Permuta e specificatio sono controversie esemplari"
+      ],
+      "collegamenti": [
+        {
+          "da": "proculiani",
+          "a": "permuta",
+          "tipo": "interpreta",
+          "etichetta": "distinguono dalla compravendita la"
+        },
+        {
+          "da": "proculiani",
+          "a": "specificatio",
+          "tipo": "interpreta",
+          "etichetta": "attribuiscono rilievo alla trasformazione nella"
+        },
+        {
+          "da": "proculiani",
+          "a": "scuole-giuridiche",
+          "tipo": "parte-di",
+          "etichetta": "sono una delle"
+        },
+        {
+          "da": "labeone",
+          "a": "proculiani",
+          "tipo": "influenza",
+          "etichetta": "è antecedente intellettuale dei"
+        },
+        {
+          "da": "nerazio",
+          "a": "proculiani",
+          "tipo": "parte-di",
+          "etichetta": "è esponente dei"
+        }
+      ]
+    },
+    {
+      "id": "institutiones-di-giustiniano",
+      "oltre": "Le *Institutiones* di [[giustiniano|Giustiniano]] furono promulgate nel **533** come manuale elementare e, contemporaneamente, testo dotato di forza normativa. Questa doppia funzione le distingue da un semplice libro scolastico: lo studente apprendeva una presentazione del diritto autorizzata dall’imperatore.\n\nL’opera riprende soprattutto le [[institutiones-di-gaio]], aggiornandone il contenuto e attingendo anche ad altri manuali. Si articola in quattro libri e organizza le materie secondo persone, cose e azioni, senza coincidere con la divisione moderna fra codice civile e codice di procedura. [[triboniano|Triboniano]], [[teofilo|Teofilo]] e [[doroteo|Doroteo]] parteciparono alla preparazione. Il raccordo con il [[digesto]] inserisce l’insegnamento iniziale in un percorso più ampio: dalle nozioni di base alla lettura dei grandi testi. Il nome *Corpus iuris civilis* per l’insieme della compilazione è una denominazione successiva, non il titolo originario di questo manuale.",
+      "daSapere": [
+        "533; quattro libri",
+        "Manuale iniziale e testo con forza di legge",
+        "Modello principale: Gaio",
+        "Triboniano, Teofilo e Doroteo"
+      ],
+      "collegamenti": [
+        {
+          "da": "institutiones-di-giustiniano",
+          "a": "digesto",
+          "tipo": "collegato",
+          "etichetta": "introducono allo studio del"
+        },
+        {
+          "da": "institutiones-di-gaio",
+          "a": "institutiones-di-giustiniano",
+          "tipo": "influenza",
+          "etichetta": "sono il modello principale delle"
+        },
+        {
+          "da": "institutiones-di-giustiniano",
+          "a": "corpus-iuris-civilis",
+          "tipo": "parte-di",
+          "etichetta": "fanno parte del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Institutiones di Giustiniano: testo latino",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/iust_institut.html"
+        }
+      ]
+    },
+    {
+      "id": "rescripta",
+      "oltre": "Il rescritto è la risposta scritta dell’imperatore a una richiesta: può essere inviata a un funzionario oppure apposta a una petizione di un privato. Il testo è elaborato con l’assistenza della [[cancelleria-imperiale]]; per questo la crescita del suo impiego segnala anche la professionalizzazione dell’amministrazione.\n\nIn origine il quesito riguarda un caso determinato. La risposta, tuttavia, può essere richiamata in controversie analoghe e fornire materiale alla giurisprudenza o alle raccolte di costituzioni. Occorre distinguere la regola enunciata dalla verità dei fatti allegati: la risposta può valere a condizione che essi risultino provati. Il rescritto non è perciò sempre una sentenza che chiude una lite. Nel passaggio verso le [[lex-generalis|leges generales]] mutano le tecniche normative e l’ambito di efficacia; i rescritti non scompaiono però di colpo né diventano tutti automaticamente norme generali.",
+      "daSapere": [
+        "Risposta imperiale scritta a un quesito",
+        "Subscriptiones ed epistulae",
+        "Il principio può circolare oltre il caso originario"
+      ],
+      "collegamenti": [
+        {
+          "da": "rescripta",
+          "a": "responso",
+          "tipo": "supera",
+          "etichetta": "assumono parte della funzione del"
+        },
+        {
+          "da": "rescripta",
+          "a": "lex-generalis",
+          "tipo": "collegato",
+          "etichetta": "si distinguono per destinatari dalla"
+        },
+        {
+          "da": "rescripta",
+          "a": "cognitio-extra-ordinem",
+          "tipo": "collegato",
+          "etichetta": "possono orientare decisioni nella"
+        },
+        {
+          "da": "rescripta",
+          "a": "costituzioni-imperiali",
+          "tipo": "parte-di",
+          "etichetta": "rientrano tra le"
+        },
+        {
+          "da": "subscriptiones",
+          "a": "rescripta",
+          "tipo": "parte-di",
+          "etichetta": "sono una forma dei"
+        },
+        {
+          "da": "epistulae",
+          "a": "rescripta",
+          "tipo": "parte-di",
+          "etichetta": "sono una forma dei"
+        }
+      ]
+    },
+    {
+      "id": "fedecommesso",
+      "oltre": "Il *fideicommissum* («affidamento alla lealtà») è una richiesta con cui il disponente invita chi riceve un vantaggio ereditario a compiere una prestazione a favore di un altro soggetto. **L’onerato** deve eseguire; **il fedecommissario** è il beneficiario. Negli appunti la parentetica che identifica il fedecommissario con l’onerato va quindi corretta.\n\nInizialmente la richiesta si affida alla *fides*, senza le forme e la tutela proprie del [[legato]]. Il riconoscimento imperiale, avviato sotto [[augusto|Augusto]], conduce a una tutela mediante [[cognitio-extra-ordinem]]. Il contenuto può riguardare beni singoli, una quota o l’intera eredità, e anche la liberazione di uno schiavo. La flessibilità spiega il successo dell’istituto; l’avvicinamento ai legati è graduale. I [[codicilli]] possono ospitare tali richieste, ma non sono per questo sinonimo di fedecommesso.",
+      "daSapere": [
+        "Onerato: deve eseguire; fedecommissario: riceve il beneficio",
+        "Dalla fides alla tutela imperiale",
+        "Può riguardare beni, eredità o libertà"
+      ],
+      "collegamenti": [
+        {
+          "da": "fedecommesso",
+          "a": "manumissio",
+          "tipo": "collegato",
+          "etichetta": "può richiedere la"
+        },
+        {
+          "da": "fedecommesso",
+          "a": "codicilli",
+          "tipo": "collegato",
+          "etichetta": "può essere contenuto nei"
+        },
+        {
+          "da": "fedecommesso-di-emancipazione",
+          "a": "fedecommesso",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        }
+      ]
+    },
+    {
+      "id": "savigny",
+      "oltre": "Friedrich Carl von Savigny (**1779–1861**) fu un giurista tedesco, professore e studioso del diritto romano. È una figura centrale della [[scuola-storica]], secondo la quale il diritto si forma storicamente nella vita di una comunità e viene elaborato scientificamente dai giuristi: non può essere ricavato soltanto da principi razionali astratti.\n\nNel **1814**, con *Vom Beruf unserer Zeit für Gesetzgebung und Rechtswissenschaft* («Della vocazione del nostro tempo per la legislazione e la scienza giuridica»), intervenne contro il progetto di una codificazione tedesca immediata. La sua posizione non è il rifiuto di ogni legislazione possibile: contesta l’idea che un codice risolva da solo insufficienze della cultura giuridica. Fra le opere maggiori vi sono *Il diritto del possesso*, la *Storia del diritto romano nel Medioevo* e il *Sistema del diritto romano attuale*. Per il corso conta il doppio lavoro sul passato: ricostruirne lo sviluppo e usarne criticamente le categorie nel diritto del proprio tempo.",
+      "daSapere": [
+        "1779–1861; figura centrale della Scuola storica",
+        "1814: scritto sulla vocazione per legislazione e scienza giuridica",
+        "Storia del diritto romano nel Medioevo; Sistema del diritto romano attuale"
+      ],
+      "collegamenti": [
+        {
+          "da": "savigny",
+          "a": "tradizione-romanistica",
+          "tipo": "interpreta",
+          "etichetta": "studia storicamente la"
+        },
+        {
+          "da": "savigny",
+          "a": "pandettistica",
+          "tipo": "influenza",
+          "etichetta": "influenza lo sviluppo della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Savigny, biografia e opere, Università di Marburgo",
+          "url": "https://www.uni-marburg.de/de/ub/forschen/historische-bestaende-1/historische-bestaende/friedrich-carl-von-savigny/biographie"
+        },
+        {
+          "titolo": "Scuola storica, Max Planck Institute",
+          "url": "https://hwb-eup2009.mpipriv.de/index.php/Historische_Rechtsschule"
+        }
+      ]
+    },
+    {
+      "id": "trebazio-testa",
+      "oltre": "Gaio Trebazio Testa fu un giurista del **I secolo a.C.**, attivo fra la tarda Repubblica e l’età augustea. Fu amico e corrispondente di [[cicerone|Cicerone]], che gli dedicò i *[[topica|Topica]]*, e maestro di [[labeone|Labeone]]. Le lettere ciceroniane aiutano a riconoscere il giurista anche come persona inserita in reti sociali e politiche, non soltanto come nome citato in un frammento.\n\nLa tradizione gli attribuisce competenze di diritto civile e sacro; delle sue opere non possediamo un corpus autonomo completo. Per la storia dei [[codicilli]] interessa il parere favorevole alla loro utilità, che la tradizione giustinianea collega all’iniziativa di Augusto. Il caso esemplifica il rapporto fra un’esigenza pratica nuova e il consiglio tecnico del giurista. Non bisogna però trasformare ogni parere discusso alla presenza del principe in una norma generale: occorre distinguere il consiglio, l’atto imperiale e la successiva sistemazione dell’istituto.",
+      "daSapere": [
+        "Giurista fra tarda Repubblica e Augusto",
+        "Amico di Cicerone e maestro di Labeone",
+        "Destinatario dei Topica; parere sull’utilità dei codicilli"
+      ],
+      "collegamenti": [
+        {
+          "da": "trebazio-testa",
+          "a": "labeone",
+          "tipo": "influenza",
+          "etichetta": "è maestro di"
+        },
+        {
+          "da": "trebazio-testa",
+          "a": "codicilli",
+          "tipo": "interpreta",
+          "etichetta": "sostiene l’utilità dei"
+        },
+        {
+          "da": "trebazio-testa",
+          "a": "consilium-principis",
+          "tipo": "parte-di",
+          "etichetta": "rientra in"
+        }
+      ]
+    },
+    {
+      "id": "cognitio-extra-ordinem",
+      "oltre": "La *cognitio extra ordinem* («cognizione fuori dal procedimento ordinario») indica modalità di giudizio che si sviluppano nel Principato accanto al [[processo-formulare]]. Non nasce subito come un sistema unico: diverse materie vengono affidate a organi pubblici o a funzionari investiti di competenza specifica.\n\nIl giudice tende a seguire la controversia dall’inizio alla decisione, senza l’ordinaria separazione fra fase davanti al magistrato e fase davanti al giudice privato. Assumono rilievo la convocazione ufficiale, il giudizio in assenza e l’[[decreta|intervento del principe]] anche in appello. Cambiano inoltre il ruolo della scrittura e i mezzi di esecuzione. L’espressione «straordinario» è storica: quando queste forme diventano prevalenti, non significa più eccezionalità statistica. In campo penale la discrezionalità nella pena e la gerarchia dei giudicanti vanno distinte dall’idea moderna di processo amministrativo.",
+      "daSapere": [
+        "Sviluppo graduale da procedure per materie specifiche",
+        "Giudice pubblico e superamento della struttura bifasica",
+        "Appello e contumacia acquistano rilievo"
+      ],
+      "collegamenti": [
+        {
+          "da": "cognitio-extra-ordinem",
+          "a": "fedecommesso",
+          "tipo": "collegato",
+          "etichetta": "offre tutela al"
+        },
+        {
+          "da": "cognitio-extra-ordinem",
+          "a": "processo-formulare",
+          "tipo": "supera",
+          "etichetta": "sostituisce gradualmente il"
+        },
+        {
+          "da": "cognitio-extra-ordinem",
+          "a": "cancelleria-imperiale",
+          "tipo": "collegato",
+          "etichetta": "si sviluppa con l’amministrazione della"
+        }
+      ]
+    },
+    {
+      "id": "decreta",
+      "oltre": "I *decreta* del principe sono decisioni giudiziarie, rese quando l’imperatore conosce direttamente una controversia o interviene come giudice di appello. Sono una delle forme delle [[costituzioni-imperiali]], ma non vanno confusi con tutti i provvedimenti oggi chiamati «decreti».\n\nLa decisione riguarda anzitutto le parti e i fatti del giudizio. Il ragionamento che la sostiene può però essere conservato, discusso e applicato a controversie simili: in tal modo il giudizio imperiale contribuisce all’elaborazione del diritto. La sua circolazione dipende da registrazione, pubblicazione e uso da parte dei giuristi. I *Libri decretorum* di [[paolo|Paolo]] mostrano proprio il passaggio dalla pratica della [[cognitio-extra-ordinem]] alla letteratura. Per comprendere l’efficacia di un decreto bisogna quindi separare il risultato concreto del processo dalla regola più generale che gli interpreti ne ricavano.",
+      "daSapere": [
+        "Sentenze del principe, anche in appello",
+        "Decidono casi concreti ma possono orientare casi analoghi",
+        "Paolo: Libri decretorum"
+      ],
+      "collegamenti": [
+        {
+          "da": "decreta",
+          "a": "rescripta",
+          "tipo": "collegato",
+          "etichetta": "si distinguono dalle risposte dei"
+        },
+        {
+          "da": "decreta",
+          "a": "diritto-giurisprudenziale",
+          "tipo": "collegato",
+          "etichetta": "sono discussi nel"
+        },
+        {
+          "da": "paolo",
+          "a": "decreta",
+          "tipo": "testimonia",
+          "etichetta": "raccoglie decisioni nei Libri decretorum"
+        },
+        {
+          "da": "decreta",
+          "a": "costituzioni-imperiali",
+          "tipo": "parte-di",
+          "etichetta": "rientrano tra le"
+        }
+      ]
+    },
+    {
+      "id": "prefetto-del-pretorio",
+      "oltre": "Il *praefectus praetorio* nasce nel Principato come comandante della guardia pretoriana e diventa progressivamente un collaboratore di vertice dell’imperatore. Alla funzione militare si aggiungono compiti amministrativi e giudiziari. La carica non coincide con la magistratura repubblicana del [[pretore]], nonostante la somiglianza del nome.\n\nIn età severiana il suo prestigio è mostrato dai giuristi che la ricoprono, fra i quali [[papiniano|Papiniano]] e [[ulpiano|Ulpiano]]. La competenza giudiziaria si colloca nella [[cognitio-extra-ordinem]] e riflette l’autorità delegata dal sovrano. Nel tardo impero la prefettura assume un’organizzazione territoriale e prevalentemente civile, dopo importanti trasformazioni delle funzioni militari. È improprio proiettare già sulla [[tetrarchia]] una struttura immutabile di quattro prefetture territoriali identiche a quelle successive. La stessa denominazione può dunque indicare un ufficio notevolmente cambiato nel tempo.",
+      "daSapere": [
+        "Origine: comando della guardia pretoriana",
+        "Non è il pretore repubblicano",
+        "Compiti giudiziari crescenti; trasformazione territoriale tardoantica"
+      ],
+      "collegamenti": [
+        {
+          "da": "papiniano",
+          "a": "prefetto-del-pretorio",
+          "tipo": "parte-di",
+          "etichetta": "ricopre la carica di"
+        },
+        {
+          "da": "ulpiano",
+          "a": "prefetto-del-pretorio",
+          "tipo": "parte-di",
+          "etichetta": "ricopre la carica di"
+        },
+        {
+          "da": "prefetto-del-pretorio",
+          "a": "cognitio-extra-ordinem",
+          "tipo": "collegato",
+          "etichetta": "esercita giurisdizione nella"
+        }
+      ],
+      "togli": [
+        {
+          "da": "prefetto-del-pretorio",
+          "a": "tetrarchia"
+        }
+      ]
+    },
+    {
+      "id": "antonino-pio",
+      "oltre": "Antonino Pio (**86–161 d.C.**) fu imperatore dal **138 al 161**, successore di [[adriano|Adriano]]. Attraverso l’adozione fu il padre di [[marco-aurelio|Marco Aurelio]] e Lucio Vero. Il soprannome *Pius* richiama il riconoscimento della sua lealtà religiosa e familiare; non va trasformato in una descrizione esaustiva della sua politica.\n\nIl suo lungo regno interessa la storia del diritto per i rescritti e per gli interventi su libertà, tutela e rapporti patrimoniali. Diverse disposizioni sono note attraverso opere dei giuristi e raccolte posteriori: il testo arriva quindi mediato dalla scelta e dalla discussione degli autori che lo conservano. Negli appunti Antonino mostra come il principe possa scegliere fra orientamenti di scuola oppure favorire un rimedio equitativo, senza sostituire in ogni questione il lavoro dei tecnici. Per l’esame è utile collegarlo ai [[proculiani]], all’[[aequitas]] e al rapporto fra precedente imperiale e [[interpretatio-prudentium|interpretazione giurisprudenziale]].",
+      "daSapere": [
+        "86–161; imperatore dal 138",
+        "Successore di Adriano; padre adottivo di Marco Aurelio",
+        "Interventi su libertà, tutela e diritto patrimoniale"
+      ],
+      "collegamenti": [
+        {
+          "da": "adriano",
+          "a": "antonino-pio",
+          "tipo": "collegato",
+          "etichetta": "adotta come successore"
+        },
+        {
+          "da": "antonino-pio",
+          "a": "rescripta",
+          "tipo": "crea",
+          "etichetta": "interviene anche attraverso i"
+        },
+        {
+          "da": "antonino-pio",
+          "a": "in-integrum-restitutio",
+          "tipo": "collegato",
+          "etichetta": "favorisce in un caso la"
+        }
+      ]
+    },
+    {
+      "id": "settimio-severo",
+      "oltre": "Lucio Settimio Severo (**145–211 d.C.**) nacque a Leptis Magna, nell’Africa romana, e conquistò il potere nel **193**, durante la crisi seguita alla morte di Commodo e Pertinace. Fondò la dinastia dei Severi; [[caracalla|Caracalla]] e Geta furono suoi figli e successori. La sua affermazione mette in evidenza l’importanza dell’esercito nella scelta del principe.\n\nPer il corso conta soprattutto il rapporto con la grande giurisprudenza dell’età severiana e con l’amministrazione della giustizia. [[papiniano|Papiniano]], [[paolo|Paolo]] e [[ulpiano|Ulpiano]] appartengono al contesto nel quale si consolidano ampi commentari e opere sugli uffici pubblici. I [[decreta]] di Severo vengono analizzati e tramandati dai giuristi, mostrando che la decisione imperiale può diventare materiale scientifico. Il caso del [[fedecommesso-di-emancipazione]] ricordato negli appunti consente di seguire questa collaborazione sul terreno concreto dei rapporti familiari e successori. Non si tratta ancora di un unico codice che assorba tutta l’attività giurisprudenziale.",
+      "daSapere": [
+        "145–211; imperatore dal 193",
+        "Nato a Leptis Magna; padre di Caracalla",
+        "Contesto della grande giurisprudenza severiana"
+      ],
+      "collegamenti": [
+        {
+          "da": "settimio-severo",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "collegato",
+          "etichetta": "governa nel contesto della"
+        },
+        {
+          "da": "paolo",
+          "a": "settimio-severo",
+          "tipo": "testimonia",
+          "etichetta": "tramanda decisioni di"
+        }
+      ]
+    },
+    {
+      "id": "commento-all-editto",
+      "oltre": "Il commento all’editto prende come punto di riferimento il programma giurisdizionale del [[pretore]] e ne spiega azioni, eccezioni e altri mezzi di tutela. Non è soltanto una parafrasi: il giurista chiarisce i presupposti del rimedio e ne discute l’applicazione a casi problematici.\n\nGli appunti presentano [[labeone|Labeone]] come una figura iniziale importante. Le sue opere non sono però giunte integre: sono ricostruibili attraverso citazioni ed estratti, e non possediamo un suo commentario completo da leggere nella forma originale. Dopo il riordino adrianeo, il testo dell’[[edictum-perpetuum]] offre una base relativamente stabile alla tradizione dei [[commentari-edittali]]. L’ordine del commento non coincide necessariamente con l’ordine di un trattato moderno di diritto privato: segue strumenti processuali e rubrichi dell’editto. È perciò decisivo studiare insieme diritto sostanziale e tutela giudiziaria.",
+      "daSapere": [
+        "Spiega azioni e rimedi dell’editto",
+        "Labeone: opera nota per testimonianze, non integralmente conservata",
+        "Ordine edittale diverso da un codice civile moderno"
+      ],
+      "collegamenti": [
+        {
+          "da": "commento-all-editto",
+          "a": "commentari-edittali",
+          "tipo": "parte-di",
+          "etichetta": "appartiene alla tradizione dei"
+        },
+        {
+          "da": "commento-all-editto",
+          "a": "processo-formulare",
+          "tipo": "collegato",
+          "etichetta": "studia gli strumenti del"
+        },
+        {
+          "da": "commento-all-editto",
+          "a": "edictum-perpetuum",
+          "tipo": "collegato",
+          "etichetta": "trova una base stabile nello"
+        }
+      ]
+    },
+    {
+      "id": "dieter-norr",
+      "oltre": "Dieter Nörr (**1931–2017**) fu uno studioso tedesco del diritto antico e del diritto romano, a lungo professore a Monaco di Baviera. Le sue ricerche comprendono il ragionamento dei giuristi, i rapporti fra diritto e retorica, il governo imperiale e i documenti della pratica.\n\nFra le opere da ricordare vi sono *Rechtskritik in der römischen Antike* («Critica del diritto nell’antichità romana»), *Aspekte des römischen Völkerrechts* («Aspetti del diritto internazionale romano») e uno studio sulla formazione filosofica di [[savigny|Savigny]]. La varietà dei temi aiuta a capire il suo metodo: mettere i testi giuridici in rapporto con il loro contesto culturale e istituzionale. Nel corso il suo nome ricorre soprattutto a proposito dei [[rescripta]] e della tensione fra regola generale e soluzione esemplare. **Non è una fonte romana**, ma un interprete moderno: le sue ricostruzioni vanno distinte dai testi antichi che analizza e possono essere discusse da altri studiosi.",
+      "daSapere": [
+        "1931–2017; romanista e storico del diritto antico",
+        "Rescritti: rapporto fra regola e caso esemplare",
+        "Studioso moderno, non autore di una fonte romana"
+      ],
+      "collegamenti": [
+        {
+          "da": "dieter-norr",
+          "a": "savigny",
+          "tipo": "interpreta",
+          "etichetta": "studia la formazione intellettuale di"
+        },
+        {
+          "da": "dieter-norr",
+          "a": "rescripta",
+          "tipo": "interpreta",
+          "etichetta": "analizza il valore dei"
+        },
+        {
+          "da": "dieter-norr",
+          "a": "romanistica",
+          "tipo": "parte-di",
+          "etichetta": "è studioso della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Dieter Nörr, profilo e pubblicazioni, Wissenschaftskolleg",
+          "url": "https://www.wiko-berlin.de/fellows/akademisches-jahr/1986/noerr-dieter"
+        }
+      ]
+    },
+    {
+      "id": "res-gestae-divi-augusti",
+      "oltre": "Le *Res gestae divi Augusti* («Imprese del divino Augusto») sono il resoconto pubblico con cui [[augusto|Augusto]] presenta cariche, spese, vittorie e benefici arrecati alla comunità. Il testo fu destinato alla diffusione dopo la sua morte; è conservato soprattutto da copie epigrafiche, alcune con traduzione greca.\n\nÈ una fonte di prima importanza per comprendere l’immagine ufficiale del [[principato]], ma la prima persona e la selezione dei fatti ne mostrano il carattere politico. Presentare il ritorno della *res publica* o il primato dell’autorità non equivale a descrivere neutralmente l’effettiva distribuzione del potere. Lo storico deve confrontare queste affermazioni con altri documenti e con la successione degli eventi. Perciò le *Res gestae* sono insieme testimonianza di dati istituzionali e costruzione di legittimità: la loro utilità non scompare riconoscendone la finalità celebrativa.",
+      "daSapere": [
+        "Bilancio pubblico delle imprese di Augusto",
+        "Conservazione epigrafica, anche in greco",
+        "Fonte politica da leggere criticamente"
+      ],
+      "collegamenti": [
+        {
+          "da": "res-gestae-divi-augusti",
+          "a": "principato",
+          "tipo": "testimonia",
+          "etichetta": "presentano la legittimazione del"
+        },
+        {
+          "da": "res-gestae-divi-augusti",
+          "a": "fonti-atecniche",
+          "tipo": "esempio-di",
+          "etichetta": "sono una delle"
+        },
+        {
+          "da": "res-gestae-divi-augusti",
+          "a": "tribunicia-potestas",
+          "tipo": "testimonia",
+          "etichetta": "documentano l’esercizio della"
+        }
+      ]
+    },
+    {
+      "id": "traiano",
+      "oltre": "Marco Ulpio Traiano (**53–117 d.C.**) regnò dal **98 al 117**, dopo essere stato adottato da Nerva, e fu ricordato come *optimus princeps* («ottimo principe»). Durante il suo governo l’impero raggiunse una delle massime estensioni territoriali. La buona reputazione antica non elimina la necessità di distinguere celebrazione politica e scelte concrete.\n\nPer lo studio delle istituzioni è preziosa la corrispondenza con Plinio il Giovane, governatore in Bitinia: domande su amministrazione, finanze e giustizia ricevono risposte imperiali che fanno vedere il governo all’opera. Il carteggio non costituisce un codice sistematico e le risposte vanno comprese nelle circostanze del quesito. La nota decisione sui cristiani distingue la ricerca d’ufficio dalla repressione in seguito ad accuse regolari; non equivale a libertà religiosa. Traiano aiuta dunque a capire i [[rescripta]], le [[epistulae]] imperiali e la collaborazione fra centro e amministrazione provinciale.",
+      "daSapere": [
+        "53–117; imperatore dal 98",
+        "Optimus princeps",
+        "Carteggio con Plinio sulla Bitinia",
+        "Risposta sui cristiani: nessuna ricerca d’ufficio, ma possibilità di repressione"
+      ],
+      "collegamenti": [
+        {
+          "da": "traiano",
+          "a": "epistulae",
+          "tipo": "crea",
+          "etichetta": "risponde a Plinio attraverso"
+        },
+        {
+          "da": "traiano",
+          "a": "rescripta",
+          "tipo": "collegato",
+          "etichetta": "mostra l’uso amministrativo dei"
+        },
+        {
+          "da": "traiano",
+          "a": "principato",
+          "tipo": "parte-di",
+          "etichetta": "governa durante il"
+        }
+      ]
+    },
+    {
+      "id": "volusio-meciano",
+      "oltre": "Lucio Volusio Meciano fu un giurista del **II secolo d.C.**, legato alla corte degli Antonini e ricordato fra i maestri di [[marco-aurelio|Marco Aurelio]]. Ricoprì incarichi amministrativi di rilievo, fra cui il governo dell’Egitto; la sua carriera mostra l’incontro fra competenza tecnica e servizio imperiale.\n\nLa sua produzione non si limita al diritto privato: scrisse su materie successorie e giudizi pubblici ed è noto anche per un testo sulle frazioni monetarie. Le opere ci sono conservate in modo diseguale, spesso tramite frammenti. Negli appunti interviene nella discussione sulla [[bonorum-possessio]] del nipote del patrono: il valore dell’episodio è mostrare il confronto di argomenti all’interno del [[consilium-principis]], non una semplice obbedienza del tecnico al sovrano. Le opinioni possono essere riconsiderate durante la discussione. Per l’esame conviene dunque collegare Meciano alla consulenza imperiale e alla pluralità dei saperi richiesti dall’amministrazione.",
+      "daSapere": [
+        "Giurista del II secolo, maestro di Marco Aurelio",
+        "Carriera amministrativa e consulenza imperiale",
+        "Scritti su successioni, giudizi pubblici e frazioni monetarie"
+      ],
+      "collegamenti": [
+        {
+          "da": "volusio-meciano",
+          "a": "marco-aurelio",
+          "tipo": "influenza",
+          "etichetta": "è maestro e consigliere di"
+        },
+        {
+          "da": "volusio-meciano",
+          "a": "bonorum-possessio",
+          "tipo": "interpreta",
+          "etichetta": "discute la concessione della"
+        },
+        {
+          "da": "volusio-meciano",
+          "a": "consilium-principis",
+          "tipo": "parte-di",
+          "etichetta": "partecipa al"
+        }
+      ]
+    },
+    {
+      "id": "giavoleno",
+      "oltre": "Giavoleno Prisco fu un giurista e senatore attivo fra la fine del **I e l’inizio del II secolo d.C.**. Ricoprì cariche pubbliche e fu una figura importante dei [[sabiniani]], oltre che maestro di [[salvio-giuliano|Salvio Giuliano]]. La sua attività non può quindi essere ridotta alla sola appartenenza a una scuola.\n\nScrisse lettere di discussione giuridica, le *[[epistulae-dei-giuristi|Epistulae]]*, e lavorò su opere precedenti, fra cui quelle di [[cassio-longino|Cassio Longino]] e di [[labeone|Labeone]]. Il confronto con un autore collegato all’altro indirizzo mostra che le tradizioni giurisprudenziali comunicavano fra loro. È ricordato anche per l’avvertimento *[[omnis-definitio-periculosa|omnis definitio in iure civili periculosa est]]*: una definizione troppo rigida rischia di non reggere davanti a casi nuovi. Non è un rifiuto di ragionare per concetti, ma un invito a verificarli continuamente sulla varietà delle situazioni. Le sue lettere non vanno confuse con gli atti imperiali chiamati anch’essi *epistulae*.",
+      "daSapere": [
+        "Giurista fra I e II secolo; maestro di Giuliano",
+        "Epistulae: lettere scientifiche, non atti imperiali",
+        "Le definizioni richiedono cautela davanti ai casi"
+      ],
+      "collegamenti": [
+        {
+          "da": "giavoleno",
+          "a": "sabiniani",
+          "tipo": "parte-di",
+          "etichetta": "è tra i maestri dei"
+        },
+        {
+          "da": "giavoleno",
+          "a": "salvio-giuliano",
+          "tipo": "influenza",
+          "etichetta": "è maestro di"
+        },
+        {
+          "da": "giavoleno",
+          "a": "epistulae-dei-giuristi",
+          "tipo": "crea",
+          "etichetta": "scrive un’opera del genere delle"
+        }
+      ],
+      "togli": [
+        {
+          "da": "giavoleno",
+          "a": "epistulae"
+        }
+      ]
+    },
+    {
+      "id": "nerazio",
+      "oltre": "Lucio Nerazio Prisco fu un giurista e senatore attivo fra la fine del **I e la prima metà del II secolo d.C.**, nell’età di Traiano e Adriano. Appartenne ai [[proculiani]] e partecipò alla vita pubblica: la giurisprudenza del Principato non separa sempre insegnamento, consulenza e carriera amministrativa.\n\nFra gli scritti a lui attribuiti figurano *Regulae*, *Responsa*, *Epistulae* e *Membranae*. I titoli segnalano modi diversi di organizzare il sapere: formulazioni sintetiche, casi discussi, corrispondenza e raccolte di materiali. Non possediamo l’insieme delle opere e le conosciamo soprattutto attraverso i frammenti conservati nella compilazione giustinianea. Perciò è prudente non ricavare dal titolo una forma letteraria troppo rigida. Nel corso Nerazio permette di vedere che anche un autore proculiano può scrivere [[libri-regularum|regole]] e che il contrasto con i [[sabiniani]] non coincide con l’opposizione fra pensiero astratto e studio dei casi.",
+      "daSapere": [
+        "Giurista dell’età di Traiano e Adriano",
+        "Proculiano; autore di Regulae e opere casistiche",
+        "Testi noti soprattutto per frammenti"
+      ],
+      "collegamenti": [
+        {
+          "da": "nerazio",
+          "a": "libri-regularum",
+          "tipo": "crea",
+          "etichetta": "scrive un’opera del genere dei"
+        },
+        {
+          "da": "nerazio",
+          "a": "responsa",
+          "tipo": "crea",
+          "etichetta": "scrive una raccolta di"
+        },
+        {
+          "da": "nerazio",
+          "a": "epistulae-dei-giuristi",
+          "tipo": "crea",
+          "etichetta": "scrive un’opera del genere delle"
+        }
+      ]
+    },
+    {
+      "id": "aristone",
+      "oltre": "Tizio Aristone fu un giurista attivo fra la fine del **I e l’inizio del II secolo d.C.** È noto anche attraverso Plinio il Giovane, che ne apprezza il sapere e il rigore personale. Non va confuso con filosofi greci omonimi: il personaggio del corso è un interprete del diritto romano dell’età imperiale.\n\nI materiali a lui riferiti comprendono discussioni di casi e osservazioni su opere di altri giuristi. Commentare [[masurio-sabino|Sabino]] o [[cassio-longino|Cassio]] non comporta necessariamente aderire a ogni tesi dei [[sabiniani]]: gli autori antichi vengono utilizzati anche criticamente. La questione della [[permuta]], ricordata negli appunti, dimostra come la soluzione possa avvicinarsi a un indirizzo senza esaurirsi nell’etichetta di scuola. Aristone interessa inoltre per l’attenzione alla struttura dei rapporti di scambio non immediatamente riconducibili ai contratti tipici. La sua figura aiuta a leggere la giurisprudenza come discussione fra persone e testi, oltre le divisioni scolastiche schematiche.",
+      "daSapere": [
+        "Tizio Aristone, giurista fra I e II secolo",
+        "Noto anche attraverso Plinio il Giovane",
+        "Discussione della permuta e dei rapporti di scambio"
+      ],
+      "collegamenti": [
+        {
+          "da": "aristone",
+          "a": "permuta",
+          "tipo": "interpreta",
+          "etichetta": "discute la qualificazione giuridica della"
+        },
+        {
+          "da": "aristone",
+          "a": "cassio-longino",
+          "tipo": "interpreta",
+          "etichetta": "annota opere di"
+        },
+        {
+          "da": "aristone",
+          "a": "ius-controversum",
+          "tipo": "influenza",
+          "etichetta": "partecipa allo sviluppo dello"
+        }
+      ]
+    },
+    {
+      "id": "cocceio-nerva",
+      "oltre": "Marco Cocceio Nerva, detto **Nerva padre**, fu un giurista del primo Principato, legato all’età di Tiberio e morto nel **33 d.C.** Va distinto sia dal figlio, anch’egli giurista, sia dall’imperatore Nerva che regnò alla fine del secolo. L’omonimia è una fonte frequente di confusioni negli appunti e nelle sintesi.\n\nLa storia della giurisprudenza lo colloca nella linea che da [[labeone|Labeone]] conduce ai [[proculiani]], prima che il nome di Proculo diventi quello più noto dell’indirizzo. I suoi pareri sono ricostruibili attraverso testimonianze e citazioni, non da un’opera completa conservata. Nel corso i problemi dell’*usus* (diritto di uso) e del [[modus]] mostrano un lavoro su differenze concrete: ampiezza di una facoltà d’uso, effetti di un onere, interpretazione della volontà del disponente. Non è opportuno trasformare questi risultati particolari in una filosofia generale di scuola non attestata dalle fonti.",
+      "daSapere": [
+        "Nerva padre: giurista morto nel 33 d.C.",
+        "Distinto dal figlio giurista e dall’imperatore Nerva",
+        "Linea intellettuale legata a Labeone e ai proculiani"
+      ],
+      "collegamenti": [
+        {
+          "da": "cocceio-nerva",
+          "a": "proculiani",
+          "tipo": "influenza",
+          "etichetta": "è fra i primi maestri dei"
+        },
+        {
+          "da": "cocceio-nerva",
+          "a": "modus",
+          "tipo": "interpreta",
+          "etichetta": "discute gli effetti del"
+        }
+      ]
+    },
+    {
+      "id": "giurista-filosofo",
+      "oltre": "L’immagine del giurista «filosofo» esprime una concezione del lavoro giuridico come sapere razionale orientato a distinguere il giusto dall’ingiusto. Il passo delle [[institutiones-di-ulpiano]] posto all’inizio del [[digesto]] non descrive una nuova carica pubblica: formula il modo in cui la professione presenta la propria dignità e la propria funzione.\n\nIl richiamo alla filosofia non significa che il giurista abbandoni azioni, contratti e casi. La competenza tecnica viene giustificata mediante valori e fini più ampi, come il buono e l’equo. È quindi una rappresentazione programmatica da confrontare con l’effettiva pratica giuridica. La sequenza didattica che dagli aristocratici repubblicani arriva a [[ulpiano|Ulpiano]] non va letta come sostituzione inevitabile di un tipo umano con un altro: insegnamento, consulenza, scrittura e servizio del principe possono convivere nello stesso autore.",
+      "daSapere": [
+        "Immagine programmatica, non ufficio pubblico",
+        "Filosofia e tecnica giuridica restano collegate",
+        "Ulpiano: giuristi come cultori del buono e dell’equo"
+      ],
+      "collegamenti": [
+        {
+          "da": "giurista-filosofo",
+          "a": "ars-boni-et-aequi",
+          "tipo": "collegato",
+          "etichetta": "legittima il proprio lavoro come"
+        },
+        {
+          "da": "giurista-insegnante",
+          "a": "giurista-filosofo",
+          "tipo": "collegato",
+          "etichetta": "può condividere il modello del"
+        },
+        {
+          "da": "institutiones-di-ulpiano",
+          "a": "giurista-filosofo",
+          "tipo": "testimonia",
+          "etichetta": "espongono il modello del"
+        },
+        {
+          "da": "ulpiano",
+          "a": "giurista-filosofo",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        }
+      ]
+    },
+    {
+      "id": "scuola-di-berito",
+      "oltre": "La scuola giuridica di Berito, l’odierna **Beirut**, fu uno dei maggiori centri d’insegnamento del diritto romano nell’impero orientale. La sua storia appartiene al periodo imperiale e soprattutto tardoantico: non è una delle due *sectae* dei [[sabiniani]] e dei [[proculiani]].\n\nLa formazione dei giuristi vi si collegava alla trasmissione e allo studio dei testi classici. Con la riforma del 533 [[giustiniano|Giustiniano]] la confermò fra le sedi autorizzate all’insegnamento giuridico, insieme a Roma e Costantinopoli. [[doroteo|Doroteo]], coinvolto nella compilazione, ne fu professore. Il confronto con le [[scuole-giuridiche]] del Principato riguarda dunque differenti strutture e condizioni istituzionali, non l’assenza assoluta di ogni continuità culturale. Parlare genericamente di «università» può aiutare a intuire una scuola stabile, ma rischia di proiettare sull’antichità l’organizzazione degli atenei moderni.",
+      "daSapere": [
+        "Berito = Beirut",
+        "Centro tardoantico di studi giuridici",
+        "Omnem, 533: sede autorizzata; Doroteo vi insegna"
+      ],
+      "collegamenti": [
+        {
+          "da": "scuole-giuridiche",
+          "a": "scuola-di-berito",
+          "tipo": "collegato",
+          "etichetta": "sono diverse per struttura dalla"
+        },
+        {
+          "da": "constitutio-omnem",
+          "a": "scuola-di-berito",
+          "tipo": "influenza",
+          "etichetta": "riconosce l’insegnamento giuridico della"
+        },
+        {
+          "da": "scuola-di-berito",
+          "a": "scuola-di-costantinopoli",
+          "tipo": "collegato",
+          "etichetta": "affianca nell’insegnamento la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Giustiniano, constitutio Omnem",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/omnem.htm"
+        }
+      ]
+    },
+    {
+      "id": "scuola-di-costantinopoli",
+      "oltre": "A Costantinopoli l’insegnamento del diritto si sviluppò nel contesto della capitale imperiale orientale. Le scuole tardoantiche operavano accanto alla corte e all’amministrazione, con forme di riconoscimento pubblico diverse dalle cerchie private di maestri del primo Principato.\n\n[[teofilo|Teofilo]] fu uno dei professori coinvolti nella preparazione delle [[institutiones-di-giustiniano]]. La [[constitutio-omnem]] del 533 riorganizzò il percorso degli studi e riservò l’insegnamento autorizzato a sedi determinate, fra le quali Costantinopoli e [[scuola-di-berito|Berito]]. La compilazione doveva quindi essere insieme diritto vigente e oggetto di formazione dei nuovi operatori. La lingua greca dell’ambiente orientale rende importante anche il lavoro di spiegazione dei testi latini. Non bisogna però identificare automaticamente la scuola con la [[cancelleria-imperiale]]: professori, compilatori e funzionari possono collaborare, ma svolgono funzioni differenti.",
+      "daSapere": [
+        "Scuola della capitale orientale",
+        "Teofilo partecipa alla preparazione delle Institutiones",
+        "Riforma didattica giustinianea del 533"
+      ],
+      "collegamenti": [
+        {
+          "da": "scuole-giuridiche",
+          "a": "scuola-di-costantinopoli",
+          "tipo": "collegato",
+          "etichetta": "sono diverse per struttura dalla"
+        },
+        {
+          "da": "constitutio-omnem",
+          "a": "scuola-di-costantinopoli",
+          "tipo": "influenza",
+          "etichetta": "riconosce l’insegnamento giuridico della"
+        },
+        {
+          "da": "scuola-di-costantinopoli",
+          "a": "institutiones-di-giustiniano",
+          "tipo": "influenza",
+          "etichetta": "contribuisce alla preparazione delle"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Giustiniano, constitutio Omnem",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/omnem.htm"
+        }
+      ]
+    },
+    {
+      "id": "giurista-insegnante",
+      "oltre": "Il giurista-insegnante trasmette criteri, distinzioni e modi di ragionare, oltre alle singole soluzioni. Nel Principato la crescita di testi introduttivi e cerchie di allievi rende più riconoscibile questa funzione, ma non ne fa una professione sempre separata dalla consulenza o dalla vita pubblica.\n\nLe [[institutiones-di-gaio]] mostrano quanto sia importante ordinare il sapere per chi incontra il diritto per la prima volta. Un manuale seleziona il materiale e lo dispone secondo un percorso di apprendimento: ciò non lo rende necessariamente meno scientifico di una raccolta di casi. La figura di [[gaio|Gaio]] si presta a questo confronto, pur fra molte incertezze biografiche. Non si deve dedurre dall’assenza di notizie su cariche pubbliche una scelta personale certa di estraneità al potere. Insegnamento, [[responso]] e scrittura sono funzioni che possono intrecciarsi nello stesso giurista.",
+      "daSapere": [
+        "Trasmette metodo, distinzioni e conoscenze",
+        "Manuale introduttivo non significa sapere poco scientifico",
+        "Insegnamento e consulenza possono convivere"
+      ],
+      "collegamenti": [
+        {
+          "da": "giurista-insegnante",
+          "a": "institutiones-di-gaio",
+          "tipo": "collegato",
+          "etichetta": "trova un esempio didattico nelle"
+        },
+        {
+          "da": "gaio",
+          "a": "giurista-insegnante",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio del"
+        },
+        {
+          "da": "giurista-insegnante",
+          "a": "consilium-principis",
+          "tipo": "collegato",
+          "etichetta": "non coincide necessariamente con un membro del"
+        },
+        {
+          "da": "masurio-sabino",
+          "a": "giurista-insegnante",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        }
+      ]
+    },
+    {
+      "id": "scuole-giuridiche",
+      "oltre": "Le *sectae* del primo Principato sono tradizioni di insegnamento e discussione che la ricostruzione storica identifica soprattutto con [[sabiniani]] e [[proculiani]]. La testimonianza di [[pomponio|Pomponio]] nell’[[enchiridion]] ricorda successioni di maestri e orientamenti, ma non descrive statuti universitari o corsi pubblici moderni.\n\nL’appartenenza a una scuola non comportava il rifiuto di leggere gli avversari: [[giavoleno|Giavoleno]], per esempio, lavorò anche su Labeone. Le controversie concrete possono mostrare divergenze di metodo, ma non confermano sempre un’unica contrapposizione fra conservazione e innovazione. Anche la lettura mediante [[analogisti-e-anomalisti|analogia e anomalia]] resta una chiave interpretativa moderna da verificare caso per caso. Nel II secolo il dualismo perde progressivamente centralità; non è dimostrabile che una sola decisione o l’[[edictum-perpetuum]] lo abbiano abolito improvvisamente. Il confronto con le scuole tardoantiche deve rispettare queste differenze istituzionali.",
+      "daSapere": [
+        "Sectae: tradizioni di maestri e discussioni",
+        "Sabiniani e proculiani, non università pubbliche",
+        "Il dualismo perde rilievo gradualmente"
+      ],
+      "collegamenti": [
+        {
+          "da": "auditores",
+          "a": "scuole-giuridiche",
+          "tipo": "collegato",
+          "etichetta": "precedono le tradizioni delle"
+        },
+        {
+          "da": "salvio-giuliano",
+          "a": "scuole-giuridiche",
+          "tipo": "influenza",
+          "etichetta": "attenua il dualismo fra le"
+        },
+        {
+          "da": "analogisti-e-anomalisti",
+          "a": "scuole-giuridiche",
+          "tipo": "interpreta",
+          "etichetta": "offrono una lettura discussa delle"
+        },
+        {
+          "da": "sabiniani",
+          "a": "scuole-giuridiche",
+          "tipo": "parte-di",
+          "etichetta": "sono una delle"
+        }
+      ],
+      "togli": [
+        {
+          "da": "edictum-perpetuum",
+          "a": "scuole-giuridiche"
+        }
+      ]
+    },
+    {
+      "id": "institutiones-di-ulpiano",
+      "oltre": "Le *Institutiones* di [[ulpiano|Ulpiano]] erano un’opera introduttiva in due libri, oggi conosciuta attraverso i frammenti conservati nel [[digesto]]. Non coincidono con l’insieme dei suoi numerosi commentari e non vanno confuse con le più tarde [[institutiones-di-giustiniano]].\n\nIl passo iniziale presenta il diritto come *[[ars-boni-et-aequi|arte del buono e dell’equo]]*, riprendendo Celso, e attribuisce ai giuristi un compito vicino a quello di cultori della giustizia. L’apertura offre quindi un programma professionale oltre alle prime definizioni. La scelta dei compilatori di collocarla in testa al Digesto ne ha accresciuto enormemente la fortuna. Non possediamo però il manuale intero: dall’importanza del proemio non possiamo ricostruire senza prove ogni parte del percorso didattico. La funzione elementare dell’opera non esclude l’impegno teorico dell’autore.",
+      "daSapere": [
+        "Manuale di Ulpiano in due libri",
+        "Conservato per frammenti, non integralmente",
+        "Il Digesto si apre con un suo passo"
+      ],
+      "collegamenti": [
+        {
+          "da": "institutiones-di-ulpiano",
+          "a": "ars-boni-et-aequi",
+          "tipo": "testimonia",
+          "etichetta": "tramandano la definizione di"
+        },
+        {
+          "da": "institutiones-di-ulpiano",
+          "a": "digesto",
+          "tipo": "parte-di",
+          "etichetta": "forniscono il passo iniziale del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto 1.1: apertura dalle Institutiones di Ulpiano",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ]
+    },
+    {
+      "id": "res-cotidianae",
+      "oltre": "Le *Res cotidianae*, dette anche *Aurea*, sono un’opera attribuita dalla tradizione a [[gaio|Gaio]], ma la cui autenticità e forma originaria sono discusse. Il testo non ci è giunto come un libro completo autonomamente conservato: ne conosciamo soprattutto frammenti nella compilazione di Giustiniano.\n\nIl confronto con le [[institutiones-di-gaio]] interessa in particolare le fonti delle obbligazioni. Accanto al contratto e al delitto compaiono altre figure causali, le *variae causarum figurae*, che permettono di trattare situazioni non riconducibili agevolmente alla bipartizione iniziale. Questa categoria non è ancora identica alla successiva quadripartizione fra contratto, quasi contratto, delitto e quasi delitto. L’opera mostra quindi il lavoro di ampliamento delle classificazioni didattiche. Quando se ne usa un passo, è opportuno dire «opera attribuita a Gaio», anziché presentare come certa la paternità personale di ogni formulazione.",
+      "daSapere": [
+        "Opera attribuita a Gaio; autenticità discussa",
+        "Altre figure causali oltre a contratto e delitto",
+        "Non coincide già con la quadripartizione giustinianea"
+      ],
+      "collegamenti": [
+        {
+          "da": "gaio",
+          "a": "res-cotidianae",
+          "tipo": "collegato",
+          "etichetta": "è tradizionalmente associato alle"
+        },
+        {
+          "da": "res-cotidianae",
+          "a": "institutiones-di-gaio",
+          "tipo": "collegato",
+          "etichetta": "ampliano la classificazione delle"
+        },
+        {
+          "da": "res-cotidianae",
+          "a": "institutiones-di-giustiniano",
+          "tipo": "influenza",
+          "etichetta": "influenzano le classificazioni delle"
+        }
+      ]
+    },
+    {
+      "id": "modestino",
+      "oltre": "Erennio Modestino fu un giurista della **prima metà del III secolo d.C.**, considerato uno degli ultimi grandi rappresentanti della giurisprudenza classica. [[ulpiano|Ulpiano]] lo ricorda come proprio allievo. La sua attività appartiene a un mondo giuridico nel quale aumenta il peso dell’amministrazione imperiale e delle esigenze provinciali.\n\nScrisse raccolte di *[[responsa|Responsa]]*, regole e distinzioni, oltre a trattazioni specialistiche. Il *De excusationibus*, dedicato alle cause che consentivano di sottrarsi a tutela e curatela, è notevole perché scritto in greco: testimonia l’uso del diritto romano in un ambiente plurilingue. **Non è una monografia sulla sola carica del pretore tutelare**, come il collegamento degli appunti potrebbe suggerire. La [[legge-delle-citazioni]] del 426 lo incluse, insieme a Papiniano, Paolo, Ulpiano e Gaio, fra gli autori dotati di particolare autorità. Questa fortuna successiva va distinta dalla funzione originaria delle sue opere.",
+      "daSapere": [
+        "Giurista della prima metà del III secolo; allievo di Ulpiano",
+        "De excusationibus: opera greca su tutela e curatela",
+        "Uno dei cinque autori della legge delle citazioni"
+      ],
+      "collegamenti": [
+        {
+          "da": "ulpiano",
+          "a": "modestino",
+          "tipo": "influenza",
+          "etichetta": "è maestro di"
+        },
+        {
+          "da": "modestino",
+          "a": "legge-delle-citazioni",
+          "tipo": "collegato",
+          "etichetta": "è fra gli autori riconosciuti dalla"
+        },
+        {
+          "da": "modestino",
+          "a": "responsa",
+          "tipo": "crea",
+          "etichetta": "scrive una raccolta di"
+        },
+        {
+          "da": "modestino",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "parte-di",
+          "etichetta": "rientra in"
+        }
+      ],
+      "togli": [
+        {
+          "da": "modestino",
+          "a": "pretore-tutelare"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Digesto 26: estratti greci di Modestino",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-26.htm"
+        }
+      ]
+    },
+    {
+      "id": "giustiniano",
+      "oltre": "Giustiniano I (**circa 482–565**) regnò a Costantinopoli dal **527 al 565**. Il suo progetto politico univa consolidamento dell’autorità imperiale, unità religiosa e recupero di territori occidentali. Per la storia del diritto il risultato più duraturo è la [[compilazione-giustinianea]], realizzata con commissioni di giuristi e funzionari sotto un forte controllo imperiale.\n\nOccorre distinguere il primo Codice del 529, il [[digesto]] e le [[institutiones-di-giustiniano]] del 533, il Codice riveduto del 534 e le costituzioni successive, le [[novellae]]. Non sono parti pubblicate nello stesso momento né opere tutte composte con lo stesso metodo: il Digesto seleziona e adatta testi giurisprudenziali, il Codice raccoglie costituzioni, le Institutiones insegnano i fondamenti. Il rispetto dichiarato per gli antichi convive con interventi di aggiornamento. La compilazione non conserva quindi il passato senza modificarlo: lo rende diritto autorizzato dell’impero del VI secolo, aprendo insieme una nuova fase della sua trasmissione.",
+      "daSapere": [
+        "Imperatore dal 527 al 565",
+        "529: primo Codice; 533: Digesto e Institutiones; 534: Codice riveduto",
+        "La compilazione seleziona, aggiorna e autorizza i testi"
+      ],
+      "collegamenti": [
+        {
+          "da": "giustiniano",
+          "a": "digesto",
+          "tipo": "crea",
+          "etichetta": "promulga il"
+        },
+        {
+          "da": "giustiniano",
+          "a": "institutiones-di-giustiniano",
+          "tipo": "crea",
+          "etichetta": "promulga le"
+        }
+      ]
+    },
+    {
+      "id": "cervidio-scevola",
+      "oltre": "Quinto Cervidio Scevola fu un giurista della **seconda metà del II secolo d.C.**, attivo nell’età degli Antonini e legato al contesto di Marco Aurelio. Va distinto dai due Quinti Muci Scevola della tarda Repubblica: l’omonimia non indica identità di persona o di periodo.\n\nLe sue opere comprendono raccolte di *[[responsa|Responsa]]*, *[[quaestiones|Quaestiones]]* e *Digesta*. La casistica mostra questioni patrimoniali e familiari provenienti anche da ambienti provinciali, con documenti e formulazioni non sempre riducibili ai modelli più antichi della città di Roma. Il giurista deve selezionare i dati rilevanti senza cancellare il significato concreto della richiesta. Gli appunti lo collocano nella sequenza della letteratura che conduce all’età severiana: ciò non deve spostare tutta la sua attività all’inizio del III secolo. Il suo contributo permette di studiare insieme continuità della tecnica casistica e ampliamento geografico e sociale degli interroganti.",
+      "daSapere": [
+        "Seconda metà del II secolo; contesto antonino",
+        "Distinto dai Quinti Muci della Repubblica",
+        "Responsa e Quaestiones con ampia casistica provinciale"
+      ],
+      "collegamenti": [
+        {
+          "da": "cervidio-scevola",
+          "a": "quaestiones",
+          "tipo": "crea",
+          "etichetta": "scrive una raccolta di"
+        },
+        {
+          "da": "cervidio-scevola",
+          "a": "digesta",
+          "tipo": "crea",
+          "etichetta": "scrive un’opera del genere dei"
+        },
+        {
+          "da": "cervidio-scevola",
+          "a": "metodo-casistico",
+          "tipo": "influenza",
+          "etichetta": "sviluppa il"
+        }
+      ]
+    },
+    {
+      "id": "elio-marciano",
+      "oltre": "Elio Marciano fu un giurista attivo nella **prima metà del III secolo d.C.**, nel contesto della [[giurisprudenza-tardo-classica]]. Della sua vita sappiamo poco: le opere e i frammenti conservati costituiscono una base più solida delle ricostruzioni di una carriera personale non documentata.\n\nLa sua produzione comprende un’ampia opera di *Institutiones* e trattazioni specialistiche, fra cui il diritto delle garanzie reali e i giudizi pubblici. L’accostamento mostra che il manuale introduttivo non impedisce allo stesso autore di affrontare questioni tecniche o amministrative. I frammenti relativi ai [[senatus-consulta|senatoconsulti]] Tertulliano e Orfiziano interessano il mutamento dei rapporti successori fra madre e figli. L’uso di autori greci nel discorso sulla legge segnala inoltre la cultura letteraria del giurista, senza trasformare ogni citazione filosofica in una regola applicabile ai processi. Per l’esame Marciano è un esempio della varietà di interessi coltivati nell’ultima grande stagione della giurisprudenza classica.",
+      "daSapere": [
+        "Giurista della prima metà del III secolo",
+        "Institutiones e opere specialistiche",
+        "Senatoconsulti Tertulliano e Orfiziano: successione fra madre e figli"
+      ],
+      "collegamenti": [
+        {
+          "da": "elio-marciano",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "parte-di",
+          "etichetta": "appartiene alla"
+        },
+        {
+          "da": "elio-marciano",
+          "a": "institutiones-di-giustiniano",
+          "tipo": "influenza",
+          "etichetta": "fornisce materiale didattico alle"
+        },
+        {
+          "da": "elio-marciano",
+          "a": "letteratura-giuspubblicistica",
+          "tipo": "influenza",
+          "etichetta": "contribuisce alla"
+        }
+      ]
+    },
+    {
+      "id": "callistrato",
+      "oltre": "Callistrato fu un giurista attivo fra la fine del **II e l’inizio del III secolo d.C.**, nell’ambiente della giurisprudenza severiana. Le notizie personali sono poche e non permettono di assegnargli con sicurezza ogni carica talvolta proposta nelle ricostruzioni moderne.\n\nLe sue opere trattano sia problemi tradizionali sia materie legate al funzionamento dell’impero. Il *De cognitionibus* riguarda la giurisdizione cognitoria; il *De iure fisci et populi* affronta rapporti che coinvolgono interessi patrimoniali pubblici. I *Libri edicti monitorii* si collocano nella tradizione del commento edittale, ma la precisa identificazione dell’editto commentato resta discussa: il collegamento con l’[[editto-provinciale]] va perciò mantenuto come ipotesi, non come certezza. I frammenti conservati nel [[digesto]] consentono di osservare l’allargamento dei compiti del giurista: diritto privato, processo e amministrazione non formano compartimenti separati. Questo è il tratto essenziale da ricordare per il corso.",
+      "daSapere": [
+        "Giurista fra II e III secolo",
+        "De cognitionibus; De iure fisci et populi",
+        "Editto monitorio: identificazione precisa discussa"
+      ],
+      "collegamenti": [
+        {
+          "da": "callistrato",
+          "a": "editto-provinciale",
+          "tipo": "interpreta",
+          "etichetta": "forse commenta lo"
+        },
+        {
+          "da": "callistrato",
+          "a": "cognitio-extra-ordinem",
+          "tipo": "interpreta",
+          "etichetta": "studia la"
+        },
+        {
+          "da": "callistrato",
+          "a": "letteratura-giuspubblicistica",
+          "tipo": "influenza",
+          "etichetta": "contribuisce alla"
+        },
+        {
+          "da": "callistrato",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "parte-di",
+          "etichetta": "rientra in"
+        }
+      ]
+    },
+    {
+      "id": "digesta",
+      "oltre": "*Digesta* è un titolo usato da diversi giuristi per opere che ordinano una vasta materia giuridica. Non designa un unico libro antico né garantisce che tutte le opere così intitolate abbiano identica struttura. In età classica un esempio importante è costituito dai *Digesta* di [[salvio-giuliano|Salvio Giuliano]].\n\nQueste opere possono raccogliere e rielaborare casi, pareri e discussioni, disponendoli secondo un ordine ampio che dialoga con quello dell’editto. Il titolo va distinto dal [[digesto]] di [[giustiniano|Giustiniano]]: quest’ultimo è una compilazione ufficiale del VI secolo, composta selezionando materiali di numerosi autori, fra cui anche opere chiamate *Digesta*. Per riconoscere una citazione occorre dunque specificare l’autore e l’opera. La distinzione permette di separare il tempo della produzione scientifica classica dal tempo della selezione e dell’attribuzione di forza normativa da parte dei compilatori.",
+      "daSapere": [
+        "Titolo di opere di più giuristi classici",
+        "Giuliano: esempio centrale del genere",
+        "Da distinguere dal Digesto ufficiale di Giustiniano"
+      ],
+      "collegamenti": [
+        {
+          "da": "digesta",
+          "a": "digesto",
+          "tipo": "parte-di",
+          "etichetta": "forniscono materiale al"
+        },
+        {
+          "da": "salvio-giuliano",
+          "a": "digesta",
+          "tipo": "crea",
+          "etichetta": "è autore di"
+        }
+      ]
+    },
+    {
+      "id": "definitiones-di-papiniano",
+      "oltre": "Le *Definitiones* di [[papiniano|Papiniano]] sono una breve opera nella quale la tradizione individua formulazioni generali e definitorie del diritto. Non vanno confuse con le sue più ampie raccolte di [[quaestiones]] o di [[responsa]]. La diversità dei titoli segnala diversi modi di presentare e condensare il sapere.\n\nIl rapporto con gli *[[horoi|Horoi]]* di Quinto Mucio riguarda anzitutto la vicinanza del significato del titolo: *definitiones* e *horoi* richiamano delimitazioni o definizioni. Da questa somiglianza non segue automaticamente una dipendenza diretta documentata, né una riproduzione del contenuto dell’opera repubblicana. Il lettore deve verificare ogni affermazione sui frammenti conservati. Nel corso l’opera aiuta a distinguere il momento della discussione casistica dalla formulazione sintetica che ne presenta un risultato, senza trattare quest’ultima come una proposizione sottratta a ogni interpretazione.",
+      "daSapere": [
+        "Opera definitoria distinta da Responsa e Quaestiones",
+        "Horoi e Definitiones: vicinanza di significato del titolo",
+        "Non basta il titolo a provare una dipendenza diretta"
+      ],
+      "collegamenti": [
+        {
+          "da": "horoi",
+          "a": "definitiones-di-papiniano",
+          "tipo": "collegato",
+          "etichetta": "condividono il significato del titolo delle"
+        },
+        {
+          "da": "definitiones-di-papiniano",
+          "a": "libri-regularum",
+          "tipo": "collegato",
+          "etichetta": "sono vicine per funzione ai"
+        },
+        {
+          "da": "definitiones-di-papiniano",
+          "a": "regula-iuris",
+          "tipo": "collegato",
+          "etichetta": "presentano formulazioni affini alla"
+        }
+      ]
+    },
+    {
+      "id": "forme-letterarie",
+      "oltre": "Studiare le forme letterarie significa chiedere **come** i giuristi trasmettono il proprio sapere. Un manuale iniziale, un commentario, una raccolta di responsi e una monografia non offrono lo stesso percorso di lettura, anche quando affrontano lo stesso istituto.\n\nI [[commentari-edittali]] seguono il testo o l’ordine dell’editto; i [[commentari-civilistici]] discutono una tradizione di opere sul diritto civile. [[responsa]], [[quaestiones]] e [[disputationes]] rendono visibile la discussione dei problemi; [[libri-regularum]] e [[monografie]] selezionano un diverso taglio espositivo. I confini non sono rigidi: un commentario può includere casi e una raccolta casistica può formulare regole generali. Inoltre possediamo molti testi solo attraverso estratti nel [[digesto]], che possono interrompere l’argomentazione originaria. Il titolo e l’attribuzione del frammento diventano quindi informazioni essenziali per ricostruire il contesto, non semplici dettagli bibliografici.",
+      "daSapere": [
+        "Il genere orienta scopo e struttura dell’opera",
+        "Confini mobili fra commento, casi, regole e manuali",
+        "I frammenti del Digesto non restituiscono sempre il contesto intero"
+      ],
+      "collegamenti": [
+        {
+          "da": "commentari-civilistici",
+          "a": "forme-letterarie",
+          "tipo": "parte-di",
+          "etichetta": "costituiscono una delle"
+        },
+        {
+          "da": "epistulae-dei-giuristi",
+          "a": "forme-letterarie",
+          "tipo": "parte-di",
+          "etichetta": "costituiscono una delle"
+        },
+        {
+          "da": "disputationes",
+          "a": "forme-letterarie",
+          "tipo": "parte-di",
+          "etichetta": "costituiscono una delle"
+        },
+        {
+          "da": "monografie",
+          "a": "forme-letterarie",
+          "tipo": "parte-di",
+          "etichetta": "rientrano tra le"
+        },
+        {
+          "da": "libri-regularum",
+          "a": "forme-letterarie",
+          "tipo": "parte-di",
+          "etichetta": "rientrano tra le"
+        }
+      ]
+    },
+    {
+      "id": "horoi",
+      "oltre": "*Horoi* è un titolo greco traducibile con «definizioni» o «delimitazioni», attribuito a [[quinto-mucio-scevola|Quinto Mucio Scevola]]. L’opera appartiene al contesto tardo-repubblicano nel quale i giuristi cercano di ordinare concetti e categorie, oltre a risolvere singoli casi.\n\nLa scelta di un titolo greco testimonia il contatto con strumenti intellettuali diffusi nella cultura ellenistica. Non prova però che l’autore abbia applicato senza modifiche una determinata filosofia al diritto romano. Il contenuto è ricostruibile in modo frammentario e non consente di immaginare un sistema assiomatico completo. Il confronto con le [[definitiones-di-papiniano]] riguarda un’analoga aspirazione a formulazioni sintetiche, ma la continuità del significato del titolo non documenta da sola la dipendenza dell’opera imperiale da quella repubblicana. All’esame è utile collegare definizione, classificazione e verifica della regola sui casi.",
+      "daSapere": [
+        "Horoi: definizioni o delimitazioni",
+        "Opera attribuita a Quinto Mucio Scevola",
+        "Titolo greco e organizzazione concettuale del sapere"
+      ],
+      "collegamenti": [
+        {
+          "da": "horoi",
+          "a": "regula-iuris",
+          "tipo": "influenza",
+          "etichetta": "contribuiscono alla ricerca di"
+        },
+        {
+          "da": "horoi",
+          "a": "libri-iuris-civilis-di-quinto-mucio",
+          "tipo": "collegato",
+          "etichetta": "affiancano nell’attività dell’autore i"
+        }
+      ]
+    },
+    {
+      "id": "responsa",
+      "oltre": "I *Responsa* come genere letterario sono raccolte di risposte giuridiche: il titolo non coincide con ogni singolo [[responso]] dato nella pratica. La scrittura seleziona il materiale, può abbreviare i fatti e può riorganizzare le domande secondo criteri diversi da quelli della consultazione originaria.\n\nLa presenza di nomi, documenti o quesiti provenienti dalle province aiuta a riconoscere gli ambienti nei quali il diritto viene usato; non trasforma però ogni caso tramandato in una registrazione letterale dell’accaduto. Il lettore deve distinguere il fatto raccontato, la domanda e la soluzione. Le [[epistulae-dei-giuristi]] possono condividere questa funzione scientifica; le [[epistulae]] imperiali appartengono invece a un’altra categoria. In autori come [[cervidio-scevola|Cervidio Scevola]] o [[papiniano|Papiniano]] la raccolta dei responsi permette di studiare insieme esperienza pratica, tecnica argomentativa e costruzione di un’autorità scientifica.",
+      "daSapere": [
+        "Raccolte letterarie, distinte dal singolo parere",
+        "Fatti, quesito e soluzione vanno riconosciuti separatamente",
+        "Non ogni caso è una trascrizione integrale della pratica"
+      ],
+      "collegamenti": [
+        {
+          "da": "responsa",
+          "a": "responso",
+          "tipo": "collegato",
+          "etichetta": "raccolgono e rielaborano il"
+        },
+        {
+          "da": "epistulae-dei-giuristi",
+          "a": "responsa",
+          "tipo": "collegato",
+          "etichetta": "condividono temi e metodi con i"
+        },
+        {
+          "da": "papiniano",
+          "a": "responsa",
+          "tipo": "crea",
+          "etichetta": "scrive una raccolta di"
+        },
+        {
+          "da": "labeone",
+          "a": "responsa",
+          "tipo": "crea",
+          "etichetta": "è autore di"
+        }
+      ],
+      "togli": [
+        {
+          "da": "epistulae",
+          "a": "responsa"
+        }
+      ]
+    },
+    {
+      "id": "venuleio",
+      "oltre": "Venuleio Saturnino fu un giurista del **II secolo d.C.**, attivo nell’età degli Antonini. Le notizie sulla sua persona sono limitate, mentre i titoli e i frammenti delle opere mostrano un interesse sia per il diritto privato sia per le funzioni pubbliche.\n\nLa sua trattazione *De stipulationibus*, articolata in numerosi libri, indica quanto fosse complesso uno strumento apparentemente semplice come la [[stipulatio]]: occorre precisare contenuto della promessa, condizioni, soggetti ed effetti. Gli scritti sui giudizi pubblici e sull’ufficio proconsolare anticipano interessi che saranno ampiamente sviluppati nella [[letteratura-giuspubblicistica]] severiana. Questa continuità impedisce di presentare l’età dei Severi come una nascita improvvisa di ogni riflessione amministrativa. Le opere di Venuleio non ci sono giunte integralmente e la loro ricostruzione dipende dalla selezione dei compilatori. È dunque più sicuro ricordare materie e funzione storica che costruire una biografia dettagliata non attestata.",
+      "daSapere": [
+        "Giurista del II secolo, età antonina",
+        "De stipulationibus: trattazione della stipulazione",
+        "Precedenti degli scritti sugli uffici pubblici"
+      ],
+      "collegamenti": [
+        {
+          "da": "venuleio",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "influenza",
+          "etichetta": "anticipa interessi della"
+        },
+        {
+          "da": "venuleio",
+          "a": "de-officio-proconsulis",
+          "tipo": "influenza",
+          "etichetta": "precede la trattazione ulpianea del"
+        },
+        {
+          "da": "venuleio",
+          "a": "stipulatio",
+          "tipo": "interpreta",
+          "etichetta": "dedica una trattazione alla"
+        }
+      ]
+    },
+    {
+      "id": "de-officio-proconsulis",
+      "oltre": "Il *De officio proconsulis* («Sui compiti del proconsole») di [[ulpiano|Ulpiano]] studia l’attività del governatore provinciale. Non riguarda soltanto una carica onorifica: comprende l’esercizio della giustizia, i rapporti con le comunità e l’uso corretto dei poteri assegnati al magistrato.\n\nL’autore utilizza costituzioni e precedenti relativi a situazioni particolari per ricostruire criteri applicabili all’amministrazione provinciale. Questo passaggio dal documento alla formulazione di un indirizzo generale è un lavoro giuridico, non la semplice copia di ordini imperiali. L’opera appartiene alla [[letteratura-giuspubblicistica]] e mostra la vicinanza fra sapere dei giuristi e governo dell’impero. «Diritto amministrativo» è qui una categoria moderna utile al confronto, non il nome di un ramo autonomo perfettamente equivalente a quello odierno. Il testo non è conservato integro: ne conosciamo contenuti attraverso frammenti e citazioni.",
+      "daSapere": [
+        "Ulpiano: compiti del governatore provinciale",
+        "Dai precedenti ai criteri di governo",
+        "Opera nota attraverso frammenti e citazioni"
+      ],
+      "collegamenti": [
+        {
+          "da": "de-officio-proconsulis",
+          "a": "rescripta",
+          "tipo": "collegato",
+          "etichetta": "utilizza decisioni conservate nei"
+        },
+        {
+          "da": "de-officio-proconsulis",
+          "a": "mandata",
+          "tipo": "collegato",
+          "etichetta": "elabora istruzioni contenute nei"
+        },
+        {
+          "da": "de-officio-proconsulis",
+          "a": "cognitio-extra-ordinem",
+          "tipo": "collegato",
+          "etichetta": "studia anche compiti giudiziari nella"
+        },
+        {
+          "da": "de-officio-proconsulis",
+          "a": "letteratura-giuspubblicistica",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        }
+      ]
+    },
+    {
+      "id": "giurisprudenza-tardo-classica",
+      "oltre": "La giurisprudenza tardo-classica indica convenzionalmente l’ultima grande stagione della produzione scientifica romana, soprattutto fra la fine del II e la prima metà del III secolo. Non coincide con l’intero diritto tardoantico: le raccolte postclassiche e la compilazione di Giustiniano appartengono a fasi successive.\n\nAutori come [[papiniano|Papiniano]], [[paolo|Paolo]] e [[ulpiano|Ulpiano]] conservano e discutono la tradizione precedente attraverso grandi opere, ma trattano anche giustizia penale, fisco, uffici e processo cognitorio. Il servizio presso il principe può avvicinare elaborazione scientifica e amministrazione senza rendere ogni loro scritto un atto ufficiale. La fortuna posteriore è enorme perché il [[digesto]] attinge largamente a queste opere. Occorre però distinguere il testo scritto dal giurista, il suo uso nelle raccolte successive e la forza normativa attribuita nel VI secolo: sono tre momenti diversi della storia del diritto.",
+      "daSapere": [
+        "Fine II–prima metà III secolo: grande stagione conclusiva classica",
+        "Grandi commentari e nuove materie pubbliche",
+        "Distinguere opera originale, trasmissione e uso giustinianeo"
+      ],
+      "collegamenti": [
+        {
+          "da": "macro",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "parte-di",
+          "etichetta": "appartiene alla"
+        },
+        {
+          "da": "giurisprudenza-tardo-classica",
+          "a": "digesto",
+          "tipo": "influenza",
+          "etichetta": "fornisce larga parte dei materiali del"
+        },
+        {
+          "da": "ulpiano",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "parte-di",
+          "etichetta": "rientra in"
+        },
+        {
+          "da": "paolo",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "parte-di",
+          "etichetta": "rientra in"
+        },
+        {
+          "da": "papiniano",
+          "a": "giurisprudenza-tardo-classica",
+          "tipo": "parte-di",
+          "etichetta": "rientra in"
+        }
+      ]
+    },
+    {
+      "id": "macro",
+      "oltre": "Emilio Macro fu un giurista attivo nella **prima metà del III secolo d.C.**, appartenente al contesto severiano. Non va confuso con altri personaggi romani chiamati Macro: per identificarlo nel corso contano soprattutto i titoli delle opere giuridiche citate dai compilatori.\n\nScrisse sui giudizi pubblici, sul diritto militare e sugli appelli. Il *De appellationibus* affronta un istituto la cui importanza cresce nell’amministrazione gerarchica della giustizia; il *De re militari* appartiene a un settore nel quale disciplina, condizione personale e poteri pubblici si intrecciano. Questi interessi mostrano il contributo dei giuristi alla vita dell’impero oltre il tradizionale diritto civile. Le opere sopravvivono per frammenti, sicché non è corretto attribuire a Macro una sistemazione completa e moderna del processo sulla sola base dei titoli. Per l’esame è sufficiente situarlo nella [[giurisprudenza-tardo-classica]] e ricordare il collegamento con appelli, crimini e amministrazione militare.",
+      "daSapere": [
+        "Emilio Macro, giurista severiano",
+        "Scritti su appelli, giudizi pubblici e diritto militare",
+        "Opere note soprattutto per frammenti"
+      ],
+      "collegamenti": [
+        {
+          "da": "macro",
+          "a": "cognitio-extra-ordinem",
+          "tipo": "interpreta",
+          "etichetta": "studia il sistema degli appelli nella"
+        },
+        {
+          "da": "macro",
+          "a": "letteratura-giuspubblicistica",
+          "tipo": "parte-di",
+          "etichetta": "contribuisce alla"
+        }
+      ]
+    },
+    {
+      "id": "costantino",
+      "oltre": "Costantino I (**circa 272–337 d.C.**) fu proclamato imperatore nel **306** e rimase unico sovrano dal 324 fino alla morte. La fondazione di Costantinopoli, inaugurata nel 330, e il favore accordato al cristianesimo segnarono profondamente il governo imperiale. Non fu però lui a stabilire il cristianesimo niceno come religione ufficiale dell’impero nel senso della successiva legislazione teodosiana.\n\nPer la storia giuridica interessa la crescente importanza delle [[lex-generalis|leges generales]], l’organizzazione della corte e il controllo dell’uso degli scritti giurisprudenziali. Il [[codex-theodosianus]] raccoglierà costituzioni a partire dalla sua età, senza essere un codice da lui promulgato. Le sue norme sui testi di Paolo e sulle [[notae]] attestano problemi di autorità e affidabilità delle opere. Gli appunti indicano talvolta una fine del regno nel 336: **la data corretta è 337**. Anche il *[[de-rebus-bellicis|De rebus bellicis]]* non va presentato come una petizione certamente indirizzata a Costantino: è un testo anonimo posteriore, dalla datazione discussa.",
+      "daSapere": [
+        "306–337; unico imperatore dal 324",
+        "330: inaugurazione di Costantinopoli",
+        "Il Codice Teodosiano raccoglie anche sue costituzioni",
+        "Non è certo destinatario del De rebus bellicis"
+      ],
+      "collegamenti": [
+        {
+          "da": "costantino",
+          "a": "codex-theodosianus",
+          "tipo": "collegato",
+          "etichetta": "è fra gli imperatori raccolti nel"
+        },
+        {
+          "da": "costantino",
+          "a": "lex-generalis",
+          "tipo": "influenza",
+          "etichetta": "rafforza il ricorso alla"
+        },
+        {
+          "da": "costantino",
+          "a": "notae",
+          "tipo": "supera",
+          "etichetta": "limita l’autorità di alcune"
+        }
+      ]
+    },
+    {
+      "id": "commentatori",
+      "oltre": "I commentatori sviluppano tra XIII e XV secolo un metodo che usa il diritto romano e canonico per risolvere i problemi della società contemporanea. La scuola francese di Orléans prepara importanti innovazioni; in Italia spiccano [[bartolo-da-sassoferrato|Bartolo da Sassoferrato]] e i suoi continuatori.\n\nRispetto ai [[glossatori]], il commento tende a ricostruire ragioni e principi, mettendo in relazione passi anche lontani e coordinandoli con statuti e consuetudini. I [[consilia]] rispondono a richieste concrete e mostrano il rapporto fra dottrina e pratica forense. Non è però corretto contrapporre una glossa del tutto passiva a un commento finalmente creativo: già i glossatori avevano costruito interpretazioni e distinzioni. La novità consiste nella diversa organizzazione del lavoro e nella più ampia integrazione degli ordinamenti. La critica umanistica al «bartolismo» va letta come un successivo conflitto di metodi, non come la prova che ogni soluzione dei commentatori fosse storicamente ingenua.",
+      "daSapere": [
+        "Dal XIII–XIV secolo: metodo del commento",
+        "Coordinamento fra diritto comune, statuti e consuetudini",
+        "Bartolo e i consilia: dottrina al servizio della pratica"
+      ],
+      "collegamenti": [
+        {
+          "da": "commentatori",
+          "a": "ius-commune",
+          "tipo": "influenza",
+          "etichetta": "elaborano scientificamente lo"
+        },
+        {
+          "da": "commentatori",
+          "a": "corpus-iuris-civilis",
+          "tipo": "interpreta",
+          "etichetta": "interpretano per la pratica il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Storia della cultura giuridica, Università di Torino",
+          "url": "https://iris.unito.it/bitstream/2318/120235/1/CULTURA%20GIURIDICA%2C%20Vi.%20pdf.pdf"
+        }
+      ]
+    },
+    {
+      "id": "glossatori",
+      "oltre": "I glossatori studiano il diritto giustinianeo fra la fine dell’XI e il XIII secolo, soprattutto a Bologna. La *glossa* è un’annotazione interlineare o marginale che spiega parole e passi, ma il metodo non si limita a sostituire un termine difficile con un sinonimo.\n\nI maestri confrontano testi, distinguono casi e cercano di conciliare contraddizioni apparenti, costruendo strumenti che rendono il [[corpus-iuris-civilis]] utilizzabile nell’insegnamento e nella pratica. [[irnerio|Irnerio]] è una figura iniziale fondamentale; [[accursio|Accursio]] raccoglie e seleziona una larga tradizione di glosse nella [[magna-glossa]]. Il rispetto per l’autorità del testo romano convive dunque con un’attività interpretativa creativa. Rispetto alla filologia moderna, l’interesse principale non è ricostruire ogni strato storico antico, ma comprendere e coordinare un diritto autorevole. Questa lettura contribuisce alla formazione dello [[ius-commune]], non alla semplice conservazione archeologica di libri antichi.",
+      "daSapere": [
+        "Fine XI–XIII secolo; centro principale Bologna",
+        "Glossa: annotazione, confronto e conciliazione dei testi",
+        "Irnerio e Accursio; Magna Glossa",
+        "Contribuiscono alla formazione dello ius commune"
+      ],
+      "collegamenti": [
+        {
+          "da": "glossatori",
+          "a": "ius-commune",
+          "tipo": "influenza",
+          "etichetta": "contribuiscono alla formazione dello"
+        },
+        {
+          "da": "glossatori",
+          "a": "commentatori",
+          "tipo": "influenza",
+          "etichetta": "precedono e preparano i"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Storia della cultura giuridica, Università di Torino",
+          "url": "https://iris.unito.it/bitstream/2318/120235/1/CULTURA%20GIURIDICA%2C%20Vi.%20pdf.pdf"
+        }
+      ]
+    }
+  ],
+  "nuovi": [
+    {
+      "id": "epistulae-dei-giuristi",
+      "nome": "Epistulae dei giuristi",
+      "tipo": "fonte",
+      "breve": "Lettere di discussione giuridica, distinte dalle epistulae che sono atti dell’imperatore.",
+      "definizione": "Le *Epistulae* sono un genere della letteratura giurisprudenziale: lettere nelle quali autori come Giavoleno discutono quesiti, casi e soluzioni. La forma epistolare consente dialogo scientifico e consulenza a distanza. Non coincidono con le *epistulae* imperiali, emanate dalla cancelleria del principe e appartenenti alle costituzioni imperiali."
+    }
+  ]
+}

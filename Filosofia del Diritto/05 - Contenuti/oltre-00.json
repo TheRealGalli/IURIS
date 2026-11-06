@@ -1,0 +1,69 @@
+{
+  "voci": [
+    {
+      "id": "aristotele",
+      "oltre": "Aristotele (Stagira, 384 – Calcide, 322 a.C.) fu per circa vent'anni allievo di [[platone|Platone]] all'Accademia, poi precettore di Alessandro Magno e fondatore ad Atene del Liceo (la scuola detta «peripatetica»). A differenza di Platone, che pone le idee in un mondo separato, cerca la forma nelle cose stesse: ogni sostanza è unione di materia e forma, il divenire è passaggio dalla **potenza** all'**atto**, e ogni cosa si spiega con quattro cause (materiale, formale, efficiente, finale).\n\nPer il diritto contano soprattutto tre opere.\n- Nell'*Etica Nicomachea* (libro V) distingue la **giustizia distributiva**, che divide onori e beni secondo il criterio di merito adottato dalla comunità (uguaglianza proporzionale), dalla **giustizia correttiva**, che negli scambi e nei torti ristabilisce l'uguaglianza aritmetica (la Scolastica la chiamerà *commutativa*). Distingue poi il giusto **per natura**, valido ovunque, dal giusto **per legge**, stabilito da ogni città, e presenta l'**equità** (*epieikeia*) come correttivo della legge, che è generale e non può prevedere ogni caso.\n- Nella *Politica* definisce l'uomo [[zoon-politikon|«animale politico»]]: solo nella *polis* realizza la propria natura, perché ha la parola (*lógos*) e il senso del giusto e dell'ingiusto. Classifica le costituzioni in tre forme rette (monarchia, aristocrazia, *politeia*) e tre degenerate (tirannide, oligarchia, democrazia): «democrazia» ha qui il significato tecnico della classificazione antica, diverso dall'uso politico odierno.\n- Negli scritti di logica, raccolti nell'*Organon*, fonda il sillogismo, modello del [[sillogismo-giudiziale|sillogismo giudiziale]].\n\nAttraverso [[tommaso-d-aquino|Tommaso d'Aquino]] il suo pensiero diventa la base del [[giusnaturalismo]] classico.",
+      "daSapere": [
+        "384–322 a.C.: allievo di Platone, precettore di Alessandro Magno, fondatore del Liceo",
+        "*Etica Nicomachea*, libro V: giustizia distributiva (proporzionale) e correttiva (aritmetica); giusto per natura e per legge; *epieikeia*",
+        "*Politica*: l'uomo è *zôon politikón*; tre costituzioni rette e tre degenerate",
+        "*Metafisica*: scienza dell'essere in quanto essere; atto e potenza; quattro cause",
+        "*Organon*: la logica e il sillogismo"
+      ],
+      "collegamenti": [
+        {
+          "da": "aristotele",
+          "a": "metafisica",
+          "tipo": "interpreta",
+          "etichetta": "la studia come scienza dell'essere in quanto essere"
+        },
+        {
+          "da": "aristotele",
+          "a": "zoon-politikon",
+          "tipo": "crea",
+          "etichetta": "definisce l'uomo"
+        },
+        {
+          "da": "aristotele",
+          "a": "diritto-naturale",
+          "tipo": "influenza",
+          "etichetta": "offre un antecedente teorico al"
+        }
+      ],
+      "togli": [
+        {
+          "da": "aristotele",
+          "a": "politica"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Aristotele, Etica Nicomachea, libro V (traduzione storica)",
+          "url": "https://www.gutenberg.org/files/8438/8438-h/8438-h"
+        },
+        {
+          "titolo": "Aristotele, Politica I.2 (MIT, testo in traduzione)",
+          "url": "http://classics.mit.edu/Aristotle/politics.1.one.html"
+        },
+        {
+          "titolo": "Aristotele, Metafisica IV.1 (MIT, testo in traduzione)",
+          "url": "http://classics.mit.edu/Aristotle/metaphysics.4.iv.html"
+        }
+      ]
+    }
+  ],
+  "nuovi": [
+    {
+      "id": "zoon-politikon",
+      "nome": "Zôon politikón (animale politico)",
+      "tipo": "concetto",
+      "latino": "ζῷον πολιτικόν",
+      "alias": [
+        "animale politico",
+        "animale sociale"
+      ],
+      "breve": "Per Aristotele l'uomo è per natura un animale politico: realizza se stesso solo nella comunità della polis.",
+      "definizione": "Formula della *Politica* di [[aristotele|Aristotele]]: l'uomo è per natura destinato a vivere nella *polis*, perché solo tra gli animali possiede la parola (*lógos*) e il senso del bene e del male, del giusto e dell'ingiusto. Chi vive fuori dalla comunità è «o una bestia o un dio». L'idea, ripresa da Tommaso d'Aquino come *animal sociale et politicum*, sta alla base della concezione naturale della società."
+    }
+  ]
+}

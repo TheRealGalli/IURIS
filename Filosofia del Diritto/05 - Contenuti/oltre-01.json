@@ -1,0 +1,2275 @@
+{
+  "voci": [
+    {
+      "id": "kelsen",
+      "oltre": "Hans Kelsen (Praga 1881 – California 1973), giurista austriaco, è uno dei maggiori teorici del [[giuspositivismo|positivismo giuridico]] del Novecento e il fondatore del [[normativismo]]. Professore a Vienna, contribuì in modo decisivo alla Costituzione austriaca del 1920 e giudice della Corte costituzionale da essa creata; insegnò poi a Colonia, da dove i nazisti lo allontanarono nel 1933, a Ginevra e a Praga, e dal 1940 negli Stati Uniti (Harvard, poi Berkeley).\n\nOpere principali: *Problemi fondamentali della dottrina del diritto pubblico* (1911), la [[dottrina-pura-del-diritto|*Dottrina pura del diritto*]] (1934; 2ª ed. molto ampliata 1960), *Teoria generale del diritto e dello Stato* (1945) e la postuma *Teoria generale delle norme* (1979).\n\nIdee chiave:\n- **purezza del metodo**: la scienza giuridica studia solo norme, separate dalla morale, dalla sociologia e dalla politica;\n- netta distinzione tra [[sein|*Sein*]] e [[sollen|*Sollen*]]: la natura è retta dalla causalità, il diritto dall'**imputazione** («se A, deve essere B»);\n- l'ordinamento è una costruzione a gradi ([[stufenbau|*Stufenbau*]]) che culmina nella [[grundnorm|norma fondamentale]] presupposta;\n- il diritto è un ordinamento coattivo, e Stato e diritto coincidono;\n- relativismo dei valori: la giustizia assoluta non è oggetto di scienza.\n\nNel 1931 polemizzò con [[carl-schmitt|Carl Schmitt]] su chi debba essere il «custode della Costituzione». Nel corso è un interlocutore critico centrale di Incampo, di [[sergio-cotta|Cotta]] e di [[aldo-moro|Moro]].",
+      "daSapere": [
+        "1881–1973: Vienna, Colonia, Ginevra, Stati Uniti; autore della Costituzione austriaca del 1920",
+        "*Reine Rechtslehre* (1934; 2ª ed. 1960); *General Theory of Law and State* (1945)",
+        "Causalità (*Sein*) e imputazione (*Sollen*): «se A, deve essere B»",
+        "Grundnorm presupposta al vertice dello *Stufenbau*; diritto come ordinamento coattivo"
+      ],
+      "collegamenti": [
+        {
+          "da": "kelsen",
+          "a": "grundnorm",
+          "tipo": "crea",
+          "etichetta": "teorizza come presupposto la"
+        },
+        {
+          "da": "kelsen",
+          "a": "norma-primaria",
+          "tipo": "interpreta",
+          "etichetta": "chiama sanzionatoria, nel 1945, la"
+        },
+        {
+          "da": "kelsen",
+          "a": "norma-retroattiva",
+          "tipo": "collegato",
+          "etichetta": "ammette la validità della"
+        },
+        {
+          "da": "kelsen",
+          "a": "validita",
+          "tipo": "interpreta",
+          "etichetta": "definisce esistenza specifica della norma la"
+        },
+        {
+          "da": "kelsen",
+          "a": "normativismo",
+          "tipo": "esempio-di",
+          "etichetta": "è un esponente del"
+        },
+        {
+          "da": "kelsen",
+          "a": "nesso-di-imputazione",
+          "tipo": "crea",
+          "etichetta": "formula, distinto dalla causalità, il"
+        },
+        {
+          "da": "kelsen",
+          "a": "volontarismo",
+          "tipo": "collegato",
+          "etichetta": "è discusso da Incampo in rapporto al"
+        },
+        {
+          "da": "kelsen",
+          "a": "sollen",
+          "tipo": "interpreta",
+          "etichetta": "fonda la scienza giuridica sul"
+        },
+        {
+          "da": "kelsen",
+          "a": "dottrina-pura-del-diritto",
+          "tipo": "crea",
+          "etichetta": "scrive"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Vienna, ricerche biografiche su Kelsen",
+          "url": "https://rechtsgeschichte.univie.ac.at/team/thomas-olechowski/forschungsfelder/hans-kelsen/"
+        }
+      ]
+    },
+    {
+      "id": "grundnorm",
+      "oltre": "La norma fondamentale (*Grundnorm*) è il concetto con cui [[kelsen|Kelsen]] risolve il problema del fondamento dell'ordinamento. Ogni norma è valida perché prodotta secondo una norma superiore; risalendo la catena dello [[stufenbau|*Stufenbau*]] si arriva alla prima Costituzione storica, la cui validità non può derivare da un'altra norma posta, pena il [[regresso-all-infinito|regresso all'infinito]]. Kelsen ferma la catena con una norma **presupposta** (*vorausgesetzt*), non posta da nessuno: ci si deve comportare come prescrive la Costituzione storicamente prima ed effettiva. È ipotetica e formale: non dà contenuti, ma permette di leggere come norme valide gli atti di volontà. Vale solo per un ordinamento nel complesso efficace: con una rivoluzione riuscita cambia anche la norma fondamentale. Nella *Dottrina pura* è una condizione logico-trascendentale, di ascendenza neokantiana; nella tarda *Teoria generale delle norme* (1979) Kelsen la definisce una **finzione**.\n\n[[hart|Hart]] le contrappone la [[regola-di-riconoscimento|regola di riconoscimento]], che non è presupposta ma esiste come fatto sociale nella prassi dei funzionari. Incampo, diversamente da Kelsen, la considera un prodotto della ragione ([[vernunftsakt|*Vernunftsakt*]]) e non della volontà.",
+      "daSapere": [
+        "*Grundnorm*: norma presupposta, non posta; ipotetica e formale",
+        "Chiude lo *Stufenbau* ed evita il regresso all'infinito",
+        "Rivoluzione riuscita = nuova norma fondamentale (principio di effettività)",
+        "*Teoria generale delle norme* (1979): la Grundnorm come finzione",
+        "Hart: al suo posto la *rule of recognition*, che è un fatto sociale"
+      ],
+      "collegamenti": [
+        {
+          "da": "grundnorm",
+          "a": "norma-necessaria",
+          "tipo": "esempio-di",
+          "etichetta": "è, per Incampo, un esempio di"
+        },
+        {
+          "da": "grundnorm",
+          "a": "crittotipo",
+          "tipo": "esempio-di",
+          "etichetta": "è trattata da Incampo come"
+        },
+        {
+          "da": "grundnorm",
+          "a": "diritto-praeter-legem",
+          "tipo": "esempio-di",
+          "etichetta": "è presentata nel corso come"
+        },
+        {
+          "da": "willensakt",
+          "a": "grundnorm",
+          "tipo": "contrasta",
+          "etichetta": "non basta, per Incampo, a spiegare la"
+        },
+        {
+          "da": "grundnorm",
+          "a": "metaregole",
+          "tipo": "esempio-di",
+          "etichetta": "è per Incampo una delle"
+        },
+        {
+          "da": "grundnorm",
+          "a": "regresso-all-infinito",
+          "tipo": "contrasta",
+          "etichetta": "interrompe il"
+        },
+        {
+          "da": "sillogismo-di-accertamento",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "rinvia, nella ricostruzione kelseniana, alla"
+        },
+        {
+          "da": "teoria-dei-tipi",
+          "a": "grundnorm",
+          "tipo": "interpreta",
+          "etichetta": "è usata nel corso per analizzare la"
+        },
+        {
+          "da": "metro-campione",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "illustra per analogia la"
+        },
+        {
+          "da": "simpliciter-e-secundum-quid",
+          "a": "grundnorm",
+          "tipo": "interpreta",
+          "etichetta": "è una distinzione critica applicata alla"
+        },
+        {
+          "da": "effettivita",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "è collegata, nel corso, a una lettura della"
+        },
+        {
+          "da": "teoreticita",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "è collegata, nel corso, a una lettura della"
+        },
+        {
+          "da": "decreto-luogotenenziale-1944",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "illustra il problema del mutamento della"
+        },
+        {
+          "da": "grundnorm",
+          "a": "eidos-costitutivo-di-regole",
+          "tipo": "esempio-di",
+          "etichetta": "è discussa nel corso come"
+        },
+        {
+          "da": "norma-generale-esclusiva",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "reinterpretata da Conte, si riduce alla"
+        },
+        {
+          "da": "normativismo",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "ha come idea centrale la"
+        },
+        {
+          "da": "grundnorm",
+          "a": "grundwerte",
+          "tipo": "collegato",
+          "etichetta": "è confrontata da Incampo con i"
+        },
+        {
+          "da": "regola-di-riconoscimento",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "offre una diversa risposta rispetto alla"
+        },
+        {
+          "da": "grundnorm",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "fonda la validità, per Kelsen, dell’"
+        },
+        {
+          "da": "grundnorm",
+          "a": "fenomeni-giuridici",
+          "tipo": "collegato",
+          "etichetta": "consente la lettura normativa dei"
+        }
+      ]
+    },
+    {
+      "id": "validita",
+      "oltre": "La validità riguarda l'appartenenza di una norma a un ordinamento secondo i criteri riconosciuti. Va distinta dalla sua [[giustizia]] e dalla sua [[efficacia]]: una norma può essere giuridicamente valida e venire criticata come ingiusta o essere poco osservata. Questa separazione analitica non obbliga a obbedire moralmente a ogni legge.\n\nNon tutti i positivisti riducono i criteri a meri requisiti formali: anche il contenuto può rilevare quando l'ordinamento lo richiede, per esempio attraverso norme costituzionali. [[kelsen|Kelsen]] ricostruisce la catena della validità fino alla [[grundnorm]], [[hart|Hart]] usa i criteri della [[regola-di-riconoscimento]]. Validità formale, conformità sostanziale ed entrata in vigore sono problemi distinti. La tesi di Incampo, secondo cui la validità implica [[giustificazione]], aggiunge un problema filosofico di fondamento; non va presentata come una definizione condivisa da ogni teoria.",
+      "daSapere": [
+        "Validità, giustizia ed efficacia sono problemi distinti",
+        "Criteri di validità anche sostanziali, se previsti dall’ordinamento",
+        "Non confondere validità con entrata in vigore o applicazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "validita",
+          "a": "verita-ontica",
+          "tipo": "collegato",
+          "etichetta": "è correlata da Incampo alla"
+        },
+        {
+          "da": "validita",
+          "a": "dovere-giuridico",
+          "tipo": "collegato",
+          "etichetta": "contribuisce a identificare il"
+        },
+        {
+          "da": "principio-di-giustificazione",
+          "a": "validita",
+          "tipo": "collegato",
+          "etichetta": "interroga, in Cotta, il fondamento oltre la"
+        },
+        {
+          "da": "validita",
+          "a": "efficacia",
+          "tipo": "contrasta",
+          "etichetta": "va distinta, come piano autonomo, dall'"
+        },
+        {
+          "da": "ingiustizia-legale",
+          "a": "validita",
+          "tipo": "contrasta",
+          "etichetta": "se estrema, per Radbruch, toglie la"
+        },
+        {
+          "da": "validita",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "presuppone"
+        }
+      ]
+    },
+    {
+      "id": "kant",
+      "oltre": "Immanuel Kant (Königsberg 1724–1804) è il filosofo dell'illuminismo tedesco che con il criticismo indaga le condizioni e i limiti della conoscenza e dell'azione. Opere principali: *Critica della ragion pura* (1781), [[fondazione-della-metafisica-dei-costumi|*Fondazione della metafisica dei costumi*]] (1785), *Critica della ragion pratica* (1788), *Critica del giudizio* (1790), [[zum-ewigen-frieden|*Per la pace perpetua*]] (1795) e [[metafisica-dei-costumi|*Metafisica dei costumi*]] (1797), divisa in dottrina del diritto e dottrina della virtù.\n\nIdee chiave per il corso:\n- l'[[imperativo-categorico|imperativo categorico]] comanda senza condizioni, gli [[imperativo-ipotetico|imperativi ipotetici]] comandano un mezzo in vista di un fine;\n- l'[[autonomia-morale|autonomia]] della volontà e la persona come fine, mai solo come mezzo;\n- **legalità e moralità**: il diritto riguarda la conformità esterna dell'azione ed è legato alla coazione, la morale anche il movente (agire per dovere);\n- il diritto è l'insieme delle condizioni che permettono all'arbitrio di ciascuno di coesistere con quello degli altri secondo una legge universale della libertà;\n- la distinzione tra la domanda [[quid-ius|*quid ius?*]] (che cos'è il diritto) e [[quid-iuris|*quid iuris?*]] (che cosa dicono le leggi di un luogo e di un tempo).\n\nNel caso del naufragio (la «tavola di Carneade») Kant conclude che chi si salva a spese dell'altro compie un atto non incolpevole ma impunibile: nessuna minaccia di pena potrebbe distoglierlo da una morte certa.",
+      "daSapere": [
+        "1724–1804, Königsberg",
+        "*Critica della ragion pura* (1781); *Fondazione* (1785); *Critica della ragion pratica* (1788)",
+        "*Per la pace perpetua* (1795); *Metafisica dei costumi* (1797): *Rechtslehre* e *Tugendlehre*",
+        "Legalità (conformità esterna) e moralità (agire per dovere)",
+        "*Notrecht*: il naufrago che si salva compie un atto non incolpevole ma impunibile"
+      ],
+      "collegamenti": [
+        {
+          "da": "kant",
+          "a": "regola-tecnica",
+          "tipo": "interpreta",
+          "etichetta": "analizza l’imperativo dell’abilità nella"
+        },
+        {
+          "da": "kant",
+          "a": "norma-inesigibile",
+          "tipo": "interpreta",
+          "etichetta": "discute l’esempio del naufragio per la"
+        },
+        {
+          "da": "kant",
+          "a": "imperativo-ipotetico",
+          "tipo": "crea",
+          "etichetta": "distingue dall'imperativo categorico l'"
+        },
+        {
+          "da": "kant",
+          "a": "quid-ius",
+          "tipo": "crea",
+          "etichetta": "pone la domanda"
+        }
+      ]
+    },
+    {
+      "id": "ordinamento-giuridico",
+      "oltre": "L'ordinamento giuridico è un insieme organizzato di norme, competenze e istituzioni, non una semplice lista di comandi. Le regole stabiliscono anche chi può produrre diritto, come modificarlo e come risolvere le controversie. La relazione tra questi elementi spiega perché due prescrizioni simili possano avere una diversa rilevanza giuridica.\n\nPer [[kelsen|Kelsen]] l'unità è normativa e dinamica, per [[hart|Hart]] dipende dall'unione di regole primarie e secondarie, per [[santi-romano|Santi Romano]] è anzitutto istituzionale. [[norberto-bobbio|Bobbio]] analizza unità, coerenza e completezza come problemi: non sono fatti automaticamente garantiti in ogni ordinamento. La chiusura logica discussa da Incampo riguarda i criteri di appartenenza; non significa che il sistema non cambi o non recepisca materiali esterni mediante proprie regole.",
+      "daSapere": [
+        "Sistema di norme, competenze e istituzioni",
+        "Kelsen: unità normativa; Hart: unione di regole; Romano: istituzione",
+        "Unità, coerenza e completezza sono problemi da analizzare"
+      ],
+      "collegamenti": [
+        {
+          "da": "norma-giuridica",
+          "a": "ordinamento-giuridico",
+          "tipo": "parte-di",
+          "etichetta": "esiste solo come parte di un"
+        },
+        {
+          "da": "santi-romano",
+          "a": "ordinamento-giuridico",
+          "tipo": "interpreta",
+          "etichetta": "concepisce come istituzione l'"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "ordinamento-giuridico",
+          "tipo": "interpreta",
+          "etichetta": "studia unità, coerenza e completezza dell'"
+        },
+        {
+          "da": "legge-impossibile",
+          "a": "ordinamento-giuridico",
+          "tipo": "contrasta",
+          "etichetta": "neutralizza"
+        },
+        {
+          "da": "legislazione",
+          "a": "ordinamento-giuridico",
+          "tipo": "parte-di",
+          "etichetta": "è un’attività di produzione nell’"
+        },
+        {
+          "da": "giurisdizione",
+          "a": "ordinamento-giuridico",
+          "tipo": "parte-di",
+          "etichetta": "svolge una funzione nell’"
+        },
+        {
+          "da": "ordinamento-a-norma-unica",
+          "a": "ordinamento-giuridico",
+          "tipo": "contrasta",
+          "etichetta": "presuppone già un"
+        },
+        {
+          "da": "regola-di-chiusura",
+          "a": "ordinamento-giuridico",
+          "tipo": "parte-di",
+          "etichetta": "chiude"
+        },
+        {
+          "da": "decodificazione",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "precede la crisi di"
+        },
+        {
+          "da": "governance",
+          "a": "ordinamento-giuridico",
+          "tipo": "contrasta",
+          "etichetta": "erode"
+        },
+        {
+          "da": "principio-di-sussidiarieta",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "interroga il modello centralistico dell’"
+        }
+      ]
+    },
+    {
+      "id": "giustizia",
+      "oltre": "La giustizia riguarda come trattare gli altri e distribuire beni, oneri, diritti e responsabilità. La formula classica del «dare a ciascuno il suo» richiede di spiegare che cosa spetti a ciascuno e secondo quale criterio: non risolve da sola la controversia. [[aristotele|Aristotele]] distingue la distribuzione proporzionale dalla correzione degli squilibri negli scambi e nei torti.\n\nIl giudizio sulla giustizia può riguardare una singola decisione oppure l'assetto complessivo delle istituzioni. Va distinto dalla sola [[validita]] giuridica e dalla mera obbedienza di fatto. Nel corso assume significati specifici: Incampo collega norma e [[giustificazione]], mentre [[sergio-cotta|Cotta]] distingue dimensioni individuali, societarie e universali della giustizia. Occorre ricostruire gli argomenti di ciascun autore, senza trasformare le loro definizioni in equivalenze neutrali valide per ogni filosofia.",
+      "daSapere": [
+        "Attribuire il suo richiede un criterio di ciò che spetta",
+        "Distinguere giustizia della decisione e delle istituzioni",
+        "Il corso propone definizioni d’autore, da attribuire esplicitamente"
+      ],
+      "collegamenti": [
+        {
+          "da": "giustizia",
+          "a": "efficacia",
+          "tipo": "collegato",
+          "etichetta": "sostiene, secondo Incampo, l’"
+        },
+        {
+          "da": "giustizia",
+          "a": "forza-giusta",
+          "tipo": "parte-di",
+          "etichetta": "è, insieme alla forza, elemento della"
+        },
+        {
+          "da": "giustizia-individuale",
+          "a": "giustizia",
+          "tipo": "parte-di",
+          "etichetta": "è per Cotta una forma della"
+        },
+        {
+          "da": "giustizia-societaria",
+          "a": "giustizia",
+          "tipo": "parte-di",
+          "etichetta": "è per Cotta una forma della"
+        },
+        {
+          "da": "giustizia-universale",
+          "a": "giustizia",
+          "tipo": "parte-di",
+          "etichetta": "è per Cotta una forma della"
+        },
+        {
+          "da": "giustizia",
+          "a": "regola-giuridica",
+          "tipo": "collegato",
+          "etichetta": "distingue dalla regola delinquenziale la"
+        },
+        {
+          "da": "legalita",
+          "a": "giustizia",
+          "tipo": "collegato",
+          "etichetta": "è autentica solo se fondata sulla"
+        },
+        {
+          "da": "kelsen",
+          "a": "giustizia",
+          "tipo": "collegato",
+          "etichetta": "esclude conoscenza scientifica assoluta della"
+        },
+        {
+          "da": "aristotele",
+          "a": "giustizia",
+          "tipo": "interpreta",
+          "etichetta": "la distingue in distributiva e correttiva"
+        }
+      ]
+    },
+    {
+      "id": "obbligo",
+      "oltre": "Un obbligo prescrive un comportamento e si distingue sia dalla possibilità materiale di agire sia dalla semplice previsione di una conseguenza. Nella logica deontica il [[divieto]] può essere rappresentato come obbligo di non compiere un'azione, mentre il [[permesso]] esprime una diversa modalità normativa.\n\n[[hart|Hart]] distingue l'essere costretti da una minaccia dall'avere un obbligo nell'ambito di regole sociali. L'accettazione rilevante non implica che ogni destinatario condivida personalmente la regola o la ritenga moralmente giusta. Nel linguaggio giuridico «obbligo» può indicare una specifica posizione correlata alla pretesa altrui; l'[[dovere-giuridico|espressione dovere giuridico]] ha talvolta portata più generale. Incampo e Cotta interrogano anche il fondamento razionale dell'obbligare, che non coincide con la sola capacità di imporre una condotta.",
+      "daSapere": [
+        "Obbligo, divieto e permesso sono modalità distinte",
+        "Minaccia efficace e obbligo giuridico non coincidono",
+        "Accettazione delle regole non significa consenso morale unanime"
+      ],
+      "collegamenti": [
+        {
+          "da": "obbligo",
+          "a": "dovere-giuridico",
+          "tipo": "parte-di",
+          "etichetta": "è uno dei due sensi del"
+        },
+        {
+          "da": "diritto-soggettivo",
+          "a": "obbligo",
+          "tipo": "collegato",
+          "etichetta": "è il lato attivo correlativo all'"
+        },
+        {
+          "da": "costrizione",
+          "a": "obbligo",
+          "tipo": "contrasta",
+          "etichetta": "si oppone, mancando di giustificazione, all'"
+        },
+        {
+          "da": "principio-di-giustificazione",
+          "a": "obbligo",
+          "tipo": "causa",
+          "etichetta": "fonda, per Cotta, l'"
+        },
+        {
+          "da": "georg-h-von-wright",
+          "a": "obbligo",
+          "tipo": "interpreta",
+          "etichetta": "formalizza nella logica deontica l'"
+        },
+        {
+          "da": "hart",
+          "a": "obbligo",
+          "tipo": "interpreta",
+          "etichetta": "distingue dall'essere costretti l'"
+        }
+      ]
+    },
+    {
+      "id": "diritto",
+      "oltre": "«Diritto» può indicare un ordinamento di norme e istituzioni, oppure la posizione attribuita a un soggetto: si distinguono così diritto oggettivo e [[diritto-soggettivo]]. La parola può inoltre essere usata in senso valutativo, per esprimere ciò che si ritiene giusto pretendere anche contro le regole esistenti.\n\nLe teorie discutono quali caratteri rendano giuridico un ordine sociale. Il [[giuspositivismo]] valorizza criteri di identificazione fondati sulle pratiche e fonti dell'ordinamento; il [[giusnaturalismo]] ricerca legami necessari con la ragione pratica o la giustizia; l'istituzionalismo considera centrale l'organizzazione sociale. Non sono versioni intercambiabili della stessa definizione. Negli appunti Incampo, Moro e Cotta sviluppano risposte specifiche attraverso [[dovere-giuridico]], [[bilateralita]] e [[coesistenza]]: vanno confrontati sul problema che intendono risolvere, distinguendo descrizione del diritto e giustificazione della sua obbligatorietà.",
+      "daSapere": [
+        "Diritto oggettivo e soggettivo",
+        "Identificare il diritto e giustificarlo sono problemi differenti",
+        "Le definizioni di Incampo, Moro e Cotta vanno attribuite"
+      ],
+      "collegamenti": [
+        {
+          "da": "politica",
+          "a": "diritto",
+          "tipo": "parte-di",
+          "etichetta": "è per Incampo una componente del"
+        },
+        {
+          "da": "filosofia-del-diritto",
+          "a": "diritto",
+          "tipo": "parte-di",
+          "etichetta": "è per Incampo elemento necessario del"
+        },
+        {
+          "da": "problema-della-vita",
+          "a": "diritto",
+          "tipo": "causa",
+          "etichetta": "è per Moro la genesi ideale del"
+        },
+        {
+          "da": "forza-giusta",
+          "a": "diritto",
+          "tipo": "collegato",
+          "etichetta": "è per Moro l'essenza del"
+        },
+        {
+          "da": "diritto",
+          "a": "crisi-del-diritto",
+          "tipo": "evolve-in",
+          "etichetta": "per la sua istanza alla negazione apre alla"
+        },
+        {
+          "da": "diritto",
+          "a": "morale",
+          "tipo": "contrasta",
+          "etichetta": "si distingue per esteriorità e bilateralità dalla"
+        },
+        {
+          "da": "diritto",
+          "a": "giustizia",
+          "tipo": "collegato",
+          "etichetta": "trova il suo fondamento nella"
+        },
+        {
+          "da": "legge-etico-giuridica",
+          "a": "diritto",
+          "tipo": "collegato",
+          "etichetta": "è identificata da Moro con il"
+        }
+      ]
+    },
+    {
+      "id": "efficacia",
+      "oltre": "Nella teoria generale l'efficacia può indicare l'osservanza delle norme e la loro applicazione da parte degli organi. Non coincide con la [[validita]]: una prescrizione può appartenere all'ordinamento e tuttavia essere violata spesso. L'efficacia di una singola norma va inoltre distinta da quella complessiva di un sistema.\n\nPer [[kelsen|Kelsen]] l'efficacia generale è una condizione della validità dell'ordinamento, senza diventarne il fondamento normativo. Altre teorie valorizzano diversamente la pratica dei giudici. Nel linguaggio degli atti, invece, «efficacia» può significare capacità di produrre effetti giuridici, non obbedienza statistica. Incampo usa il termine anche nella riflessione sul nesso tra ragione, giustificazione e forza del dovere: questo significato filosofico va segnalato per evitare equivoci con l'uso sociologico o dogmatico.",
+      "daSapere": [
+        "Osservanza e applicazione non coincidono con validità",
+        "Norma singola e ordinamento complessivo sono piani distinti",
+        "Efficacia come effetti dell’atto è un altro significato"
+      ],
+      "collegamenti": [
+        {
+          "da": "norma-inesigibile",
+          "a": "efficacia",
+          "tipo": "contrasta",
+          "etichetta": "è per definizione priva di"
+        },
+        {
+          "da": "alf-ross",
+          "a": "efficacia",
+          "tipo": "interpreta",
+          "etichetta": "riduce la validità all'"
+        },
+        {
+          "da": "giustificazione",
+          "a": "efficacia",
+          "tipo": "collegato",
+          "etichetta": "sostiene, nel corso, la riflessione sull’"
+        },
+        {
+          "da": "effettivita",
+          "a": "efficacia",
+          "tipo": "collegato",
+          "etichetta": "è talvolta usata come sinonimo di"
+        },
+        {
+          "da": "riconoscimento",
+          "a": "efficacia",
+          "tipo": "collegato",
+          "etichetta": "sostiene, secondo il corso, l’"
+        }
+      ]
+    },
+    {
+      "id": "morale",
+      "oltre": "La morale comprende criteri e ragioni con cui si valutano azioni, intenzioni e forme di vita in termini di bene e male. Può essere studiata come insieme di convinzioni sociali oppure discussa criticamente per stabilire quali siano giustificate: morale praticata e morale giustificata non coincidono automaticamente.\n\nIl rapporto con il diritto non si riduce alla coppia interiorità/esteriorità: anche la morale valuta azioni e il diritto può considerare intenzioni e colpa. [[kant|Kant]] distingue legalità, conformità dell'azione, e moralità, che richiede il movente del dovere. Il [[giuspositivismo]] distingue identificazione giuridica e valutazione morale, senza necessariamente negare rapporti storici fra le due. [[hegel|Hegel]] usa inoltre *Moralität* e [[eticita|Sittlichkeit]] in un senso tecnico: coscienza soggettiva e vita etica delle istituzioni.",
+      "daSapere": [
+        "Morale sociale e giustificazione morale sono piani diversi",
+        "Interiorità/esteriorità è un criterio insufficiente da solo",
+        "Kant: legalità e movente; Hegel: moralità ed eticità"
+      ],
+      "collegamenti": [
+        {
+          "da": "morale",
+          "a": "norma-giuridica",
+          "tipo": "contrasta",
+          "etichetta": "si distingue per interiorità e unilateralità dalla"
+        },
+        {
+          "da": "dovere-giuridico",
+          "a": "morale",
+          "tipo": "contrasta",
+          "etichetta": "riguarda l'azione esterna, a differenza della"
+        },
+        {
+          "da": "etica",
+          "a": "morale",
+          "tipo": "contrasta",
+          "etichetta": "riguarda il rapporto con l'altro, a differenza della"
+        },
+        {
+          "da": "kant",
+          "a": "morale",
+          "tipo": "interpreta",
+          "etichetta": "distingue dalla semplice legalità la"
+        },
+        {
+          "da": "minimo-etico",
+          "a": "morale",
+          "tipo": "collegato",
+          "etichetta": "fa del diritto una parte della"
+        }
+      ]
+    },
+    {
+      "id": "giuspositivismo",
+      "oltre": "Il positivismo giuridico sostiene che l'esistenza e il contenuto del diritto dipendano da fatti e criteri socialmente riconosciuti, non necessariamente dal suo merito morale. Non significa che ogni diritto sia giusto, che si debba obbedire a ogni ordine o che una costituzione non possa richiamare principi morali.\n\nEsistono versioni differenti: la teoria del comando di John Austin, il normativismo di [[kelsen|Kelsen]] e l'analisi delle regole di [[hart|Hart]] non coincidono. Il giurista Austin va distinto dal filosofo del linguaggio [[john-l-austin]]. [[norberto-bobbio|Bobbio]] separa metodo, teoria e ideologia del positivismo, consentendo di valutarli distintamente. La critica di [[gustav-radbruch|Radbruch]] dopo il nazismo riguarda il rapporto fra legalità e ingiustizia estrema; la sua diagnosi storica è oggetto di discussione, non una spiegazione incontestata della responsabilità dei giuristi.",
+      "daSapere": [
+        "Identificazione del diritto distinta dal suo merito morale",
+        "Pluralità di teorie: Austin, Kelsen e Hart",
+        "Bobbio: metodo, teoria e ideologia non coincidono"
+      ],
+      "collegamenti": [
+        {
+          "da": "giuspositivismo",
+          "a": "norma-secondaria",
+          "tipo": "collegato",
+          "etichetta": "è classificata nel corso come"
+        },
+        {
+          "da": "giuspositivismo",
+          "a": "giusnaturalismo",
+          "tipo": "contrasta",
+          "etichetta": "si contrappone al"
+        },
+        {
+          "da": "scetticismo",
+          "a": "giuspositivismo",
+          "tipo": "collegato",
+          "etichetta": "è collegato, nelle dispense, a forme di"
+        },
+        {
+          "da": "giuspositivismo",
+          "a": "senso-comune",
+          "tipo": "contrasta",
+          "etichetta": "separando diritto e giustizia contraddice il"
+        },
+        {
+          "da": "giuspositivismo",
+          "a": "atto-di-posizione",
+          "tipo": "collegato",
+          "etichetta": "fonda la validità su"
+        }
+      ]
+    },
+    {
+      "id": "dottrina-pura-del-diritto",
+      "oltre": "La *Reine Rechtslehre* è l'opera principale di [[kelsen|Kelsen]]: prima edizione 1934, seconda edizione molto ampliata 1960 (in italiano *Lineamenti di dottrina pura del diritto*, trad. di Renato Treves, e *La dottrina pura del diritto*, trad. di Mario G. Losano). Si chiama «pura» perché vuole liberare la scienza giuridica da elementi estranei: la psicologia, la sociologia, la politica e soprattutto la morale e l'ideologia della giustizia. La scienza del diritto descrive norme valide, non giudica se siano giuste.\n\nTesi principali:\n- distinzione tra [[sein|*Sein*]] e [[sollen|*Sollen*]] e tra causalità e [[nesso-di-imputazione|imputazione]];\n- la norma come senso oggettivo di un atto di volontà ([[willensakt|*Willensakt*]]);\n- il diritto come ordinamento coattivo, che collega sanzioni agli illeciti;\n- la costruzione a gradi ([[stufenbau|*Stufenbau*]]) chiusa dalla [[grundnorm|norma fondamentale]] presupposta;\n- la validità come esistenza specifica della norma, con l'efficacia come condizione;\n- l'identità di Stato e diritto e l'unità di diritto interno e internazionale (monismo).",
+      "daSapere": [
+        "*Reine Rechtslehre*: 1ª ed. 1934, 2ª ed. 1960",
+        "«Pura»: senza morale, sociologia, politica",
+        "Norma = senso oggettivo di un atto di volontà; diritto = ordinamento coattivo",
+        "*Stufenbau* e Grundnorm; monismo tra diritto interno e internazionale"
+      ],
+      "collegamenti": [
+        {
+          "da": "dottrina-pura-del-diritto",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "espone la teoria della"
+        },
+        {
+          "da": "dottrina-pura-del-diritto",
+          "a": "normativismo",
+          "tipo": "collegato",
+          "etichetta": "è il testo fondativo del"
+        },
+        {
+          "da": "dottrina-pura-del-diritto",
+          "a": "giuspositivismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il vertice teorico del"
+        }
+      ]
+    },
+    {
+      "id": "wittgenstein",
+      "oltre": "Ludwig Wittgenstein (Vienna 1889 – Cambridge 1951) è uno dei filosofi più influenti del Novecento. Allievo di Bertrand Russell a Cambridge, nel [[tractatus-logico-philosophicus|*Tractatus logico-philosophicus*]] (1921) sostiene che il linguaggio è un'immagine logica del mondo: le proposizioni dotate di senso raffigurano stati di cose, e di ciò di cui non si può parlare si deve tacere. L'opera ispirò il neopositivismo del Circolo di Vienna.\n\nDopo anni lontano dalla filosofia tornò a Cambridge (1929), dove elaborò un pensiero molto diverso, raccolto nelle postume [[ricerche-filosofiche|*Ricerche filosofiche*]] (1953): il significato di una parola è il suo **uso**; il linguaggio è un insieme di **giochi linguistici** legati a «forme di vita»; seguire una regola è una prassi condivisa, non un'interpretazione privata ([[paradosso-di-wittgenstein|paradosso della regola]]).\n\nIl «secondo» Wittgenstein ha influenzato la filosofia del linguaggio ordinario di Oxford ([[john-l-austin|Austin]]), la teoria del diritto di [[hart|Hart]] e la teoria delle regole costitutive. Incampo usa il *Tractatus* (2.05) per la chiusura dell'ordinamento e le *Ricerche* per il [[metro-campione|metro campione]], gli scacchi e il rapporto tra ordine ed esecuzione.",
+      "daSapere": [
+        "1889–1951; Vienna e Cambridge",
+        "*Tractatus logico-philosophicus* (1921): il linguaggio raffigura il mondo",
+        "*Ricerche filosofiche* (postume, 1953): significato come uso, giochi linguistici",
+        "*Der Befehl befiehlt seine Befolgung*: «l'ordine comanda la sua esecuzione»"
+      ],
+      "collegamenti": [
+        {
+          "da": "wittgenstein",
+          "a": "ordinamento-giuridico",
+          "tipo": "interpreta",
+          "etichetta": "con il Tractatus 2.05 spiega la chiusura dell'"
+        },
+        {
+          "da": "wittgenstein",
+          "a": "segno-e-significato",
+          "tipo": "influenza",
+          "etichetta": "riconduce all'uso il rapporto tra"
+        },
+        {
+          "da": "wittgenstein",
+          "a": "metro-campione",
+          "tipo": "interpreta",
+          "etichetta": "usa nel gioco del misurare l'esempio del"
+        },
+        {
+          "da": "wittgenstein",
+          "a": "tractatus-logico-philosophicus",
+          "tipo": "crea",
+          "etichetta": "scrive nel 1921 il"
+        },
+        {
+          "da": "wittgenstein",
+          "a": "paradosso-di-wittgenstein",
+          "tipo": "crea",
+          "etichetta": "formula nelle Ricerche il"
+        },
+        {
+          "da": "wittgenstein",
+          "a": "hart",
+          "tipo": "influenza",
+          "etichetta": "influenza la teoria delle regole di"
+        }
+      ]
+    },
+    {
+      "id": "liberta",
+      "oltre": "La libertà può indicare assenza di impedimenti, capacità di autodeterminarsi o partecipazione alla decisione collettiva. La distinzione tra libertà negativa e positiva, resa celebre da Isaiah Berlin, aiuta a separare questi problemi senza supporre che una sola definizione esaurisca gli usi della parola.\n\nNel diritto una libertà deve essere distinta da una competenza e da una pretesa a una prestazione. Le garanzie delle libertà richiedono spesso anche interventi pubblici, come tribunali e protezione da aggressioni: non si risolvono sempre nella semplice astensione dello Stato. Per [[kant|Kant]] la libertà si lega all'autonomia razionale; per [[aldo-moro|Moro]] il problema è il passaggio dalla [[liberta-fisica]] alla [[liberta-etica]]. La tutela reciproca delle libertà richiede criteri per coordinarle, non l'assenza di qualunque limite.",
+      "daSapere": [
+        "Assenza di interferenza e autodeterminazione sono aspetti diversi",
+        "Libertà, potere e pretesa non sono sinonimi",
+        "Anche le libertà possono richiedere tutela pubblica positiva"
+      ],
+      "collegamenti": [
+        {
+          "da": "liberta",
+          "a": "permesso",
+          "tipo": "esempio-di",
+          "etichetta": "è per Incampo una specie di"
+        },
+        {
+          "da": "potere-come-permesso",
+          "a": "liberta",
+          "tipo": "contrasta",
+          "etichetta": "tende a condizionare la"
+        },
+        {
+          "da": "autorita-e-liberta",
+          "a": "liberta",
+          "tipo": "collegato",
+          "etichetta": "pone in rapporto con l'autorità la"
+        },
+        {
+          "da": "kant",
+          "a": "liberta",
+          "tipo": "interpreta",
+          "etichetta": "intende come autonomia la"
+        },
+        {
+          "da": "liberta",
+          "a": "divieto",
+          "tipo": "collegato",
+          "etichetta": "è protetta, contro gli impedimenti, dal"
+        }
+      ]
+    },
+    {
+      "id": "norma-giuridica",
+      "oltre": "La norma è il significato giuridico ricavato da una fonte, da distinguere dalla disposizione, cioè dal testo che si interpreta. Una disposizione può esprimere più norme; una norma può risultare dal coordinamento di più testi. Il suo contenuto non consiste sempre in un ordine rivolto ai cittadini.\n\nEsistono norme che impongono doveri, attribuiscono [[permesso|permessi]], conferiscono poteri o costituiscono status e istituzioni. Generalità, astrattezza e presenza di una [[sanzione]] descrivono molti casi, ma non sono requisiti necessari di ogni singola norma: anche decisioni individuali possono avere significato normativo. [[hart|Hart]] distingue regole primarie e secondarie; [[kelsen|Kelsen]] ricostruisce il sistema coattivo. Il problema di Incampo è anche se la norma sia razionalmente giustificabile, non soltanto come riconoscerne la produzione valida.",
+      "daSapere": [
+        "Disposizione: testo; norma: significato giuridico",
+        "Non tutte le norme sono comandi generali e astratti",
+        "Doveri, permessi, poteri e regole costitutive hanno funzioni diverse"
+      ],
+      "collegamenti": [
+        {
+          "da": "dovere-giuridico",
+          "a": "norma-giuridica",
+          "tipo": "collegato",
+          "etichetta": "è il tema centrale della"
+        },
+        {
+          "da": "bilateralita-attributiva",
+          "a": "norma-giuridica",
+          "tipo": "parte-di",
+          "etichetta": "è la differenza specifica della"
+        },
+        {
+          "da": "relazione-anancastica",
+          "a": "norma-giuridica",
+          "tipo": "collegato",
+          "etichetta": "lega necessariamente alla parola la"
+        },
+        {
+          "da": "norma-giuridica",
+          "a": "sanzione",
+          "tipo": "collegato",
+          "etichetta": "è garantita, di regola, da una"
+        },
+        {
+          "da": "norma-giuridica",
+          "a": "comando",
+          "tipo": "collegato",
+          "etichetta": "non coincide sempre con un"
+        },
+        {
+          "da": "norma-giuridica",
+          "a": "vernunftsakt",
+          "tipo": "collegato",
+          "etichetta": "è per Incampo anche senso di un"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "oltre": "La politica riguarda la determinazione di fini collettivi, l'organizzazione del potere e i conflitti sulla distribuzione di risorse e autorità. Comprende decisione, confronto e costruzione delle istituzioni: non coincide necessariamente con l'arbitrio o con una scelta priva di ragioni.\n\nIl diritto è prodotto anche da decisioni politiche e, nello stesso tempo, ne stabilisce competenze e limiti. I confini fra le due attività variano secondo le teorie. Negli appunti Incampo chiama «politica» la dimensione di scelta fra possibilità, presente anche nella [[giurisdizione]]; Moro insiste sull'azione sociale per [[scopi-superindividuali]]; Cotta analizza una forma di coesistenza rivolta al [[bene-comune]] del gruppo. Il confronto richiede di distinguere scelta discrezionale, giustificazione pubblica e appartenenza comunitaria, senza confonderli in un'unica definizione.",
+      "daSapere": [
+        "Fini collettivi, potere e conflitto",
+        "Scelta politica non significa necessariamente arbitrio",
+        "Incampo, Moro e Cotta usano il termine in sensi specifici"
+      ],
+      "collegamenti": [
+        {
+          "da": "plurivocita-del-linguaggio-giuridico",
+          "a": "politica",
+          "tipo": "causa",
+          "etichetta": "rende inevitabile nel giudice la"
+        },
+        {
+          "da": "motivazione-della-sentenza",
+          "a": "politica",
+          "tipo": "contrasta",
+          "etichetta": "contiene entro limiti razionali la"
+        },
+        {
+          "da": "scopi-superindividuali",
+          "a": "politica",
+          "tipo": "collegato",
+          "etichetta": "sono per Moro i fini della"
+        },
+        {
+          "da": "politica",
+          "a": "forme-integrativo-escludenti",
+          "tipo": "parte-di",
+          "etichetta": "è per Cotta una delle"
+        },
+        {
+          "da": "identita-sovraindividuale",
+          "a": "politica",
+          "tipo": "parte-di",
+          "etichetta": "è per Cotta l'ambito della"
+        },
+        {
+          "da": "simbolo-e-mito",
+          "a": "politica",
+          "tipo": "parte-di",
+          "etichetta": "fanno parte del linguaggio della"
+        },
+        {
+          "da": "ambivalenza-della-politica",
+          "a": "politica",
+          "tipo": "parte-di",
+          "etichetta": "è un carattere essenziale della"
+        },
+        {
+          "da": "famiglia",
+          "a": "politica",
+          "tipo": "collegato",
+          "etichetta": "è affine, per la pluralità, alla"
+        }
+      ]
+    },
+    {
+      "id": "autorita",
+      "oltre": "L'autorità implica una pretesa riconosciuta o giustificata a dirigere la condotta altrui, distinta dalla sola capacità materiale di ottenere obbedienza. «Legittima» può però significare cose diverse: conforme alle regole dell'ordinamento, accettata socialmente oppure moralmente giustificabile. Le tre valutazioni possono divergere.\n\nLa classificazione di Max Weber in potere tradizionale, carismatico e legale-razionale riguarda le basi sociali della legittimazione, non una graduatoria morale. Nel corso Incampo e Moro interrogano le ragioni dell'obbedienza e il rapporto tra autorità e [[liberta]]. Il bandito può riuscire a costringere senza acquisire per questo un'autorità giuridica. Una spiegazione adeguata deve chiarire chi possa comandare, entro quali competenze e perché la sua pretesa debba essere riconosciuta.",
+      "daSapere": [
+        "Distinguere potere di fatto e autorità",
+        "Legalità, accettazione sociale e giustificazione morale sono piani diversi",
+        "Weber: tre tipi di legittimazione sociale"
+      ],
+      "collegamenti": [
+        {
+          "da": "autorita",
+          "a": "giustificazione",
+          "tipo": "collegato",
+          "etichetta": "riposa sulla ragione, cioè sulla"
+        },
+        {
+          "da": "personalita-della-societa",
+          "a": "autorita",
+          "tipo": "collegato",
+          "etichetta": "fonda, per Moro, l'"
+        },
+        {
+          "da": "autorita-e-liberta",
+          "a": "autorita",
+          "tipo": "collegato",
+          "etichetta": "pone in rapporto con la libertà l'"
+        },
+        {
+          "da": "thomas-hobbes",
+          "a": "autorita",
+          "tipo": "interpreta",
+          "etichetta": "fonda la legge, non sulla verità, sull'"
+        },
+        {
+          "da": "norma-delinquenziale",
+          "a": "autorita",
+          "tipo": "contrasta",
+          "etichetta": "è potere senza"
+        }
+      ]
+    },
+    {
+      "id": "hart",
+      "oltre": "Herbert L. A. Hart (Harrogate 1907 – Oxford 1992), giurista e filosofo inglese, fu avvocato e poi, negli anni Cinquanta e Sessanta, professore di Jurisprudence a Oxford. È il maggiore esponente del positivismo giuridico analitico di lingua inglese. Nel suo capolavoro, [[the-concept-of-law|*The Concept of Law*]] (1961), applica al diritto la filosofia del linguaggio ordinario di [[john-l-austin|J. L. Austin]] e del secondo [[wittgenstein|Wittgenstein]].\n\nIdee chiave:\n- critica la teoria di John Austin del diritto come comando del sovrano sostenuto da minacce: il bandito armato costringe, ma non crea obblighi;\n- il diritto è unione di [[norma-primaria|norme primarie]], che impongono doveri, e [[norma-secondaria|norme secondarie]] (di riconoscimento, di mutamento, di giudizio), che rimediano a incertezza, staticità e inefficienza di un ordine fatto solo di obblighi;\n- al vertice sta la [[regola-di-riconoscimento|regola di riconoscimento]], che esiste come prassi dei funzionari;\n- il **punto di vista interno** di chi accetta la regola come guida, distinto da quello esterno dell'osservatore;\n- la «trama aperta» (*open texture*) del linguaggio lascia al giudice discrezionalità nei casi difficili;\n- un «contenuto minimo di diritto naturale», legato a fatti come la vulnerabilità umana.\n\nDiscusse con [[lon-l-fuller|Fuller]] (1958) sulla separazione tra diritto e morale e, più tardi, con Ronald Dworkin.",
+      "daSapere": [
+        "1907–1992; professore di Jurisprudence a Oxford",
+        "*The Concept of Law* (1961)",
+        "Norme primarie (doveri) e secondarie (riconoscimento, mutamento, giudizio)",
+        "Punto di vista interno; *open texture*; contenuto minimo di diritto naturale",
+        "Dibattito Hart–Fuller (1958)"
+      ],
+      "collegamenti": [
+        {
+          "da": "hart",
+          "a": "norma-primaria",
+          "tipo": "interpreta",
+          "etichetta": "chiama regola che impone doveri la"
+        },
+        {
+          "da": "hart",
+          "a": "norma-secondaria",
+          "tipo": "interpreta",
+          "etichetta": "distingue tre funzioni della"
+        },
+        {
+          "da": "hart",
+          "a": "regola-di-riconoscimento",
+          "tipo": "crea",
+          "etichetta": "pone al vertice dell'ordinamento la"
+        },
+        {
+          "da": "hart",
+          "a": "giuspositivismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il maggiore esponente analitico del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Facoltà di diritto di Oxford, H.L.A. Hart",
+          "url": "https://www.law.ox.ac.uk/research-and-subject-groups/jurisprudence-oxford/hla-hart"
+        }
+      ]
+    },
+    {
+      "id": "norma-secondaria",
+      "oltre": "Il termine «norme secondarie» ha due significati quasi opposti, da non confondere all'esame. Per [[hart|Hart]] (*The Concept of Law*, 1961) le *secondary rules* sono norme che riguardano altre norme: la [[regola-di-riconoscimento|regola di riconoscimento]] (stabilisce i criteri per identificare le norme valide), le **regole di mutamento** (attribuiscono il potere di creare, modificare e abrogare norme) e le **regole di giudizio** (attribuiscono il potere di accertare le violazioni). Esse curano i difetti di un ordine primitivo fatto di soli obblighi: incertezza, staticità, inefficienza della pressione sociale. Per [[kelsen|Kelsen]] invece (*Teoria generale del diritto e dello Stato*, 1945) secondaria è la norma che prescrive la condotta da tenere per evitare la sanzione, derivata dalla norma primaria che la commina.\n\nGli appunti seguono Hart: sono le norme di struttura o di competenza, come le chiama [[norberto-bobbio|Bobbio]]. Esempi nel diritto italiano: l'art. 70 Cost. (funzione legislativa delle Camere), l'art. 138 Cost. ([[revisione-costituzionale|revisione costituzionale]]), l'art. 15 delle Preleggi (abrogazione).",
+      "daSapere": [
+        "Hart: regole di riconoscimento, di mutamento, di giudizio",
+        "Rimediano a incertezza, staticità, inefficienza",
+        "Kelsen (1945): secondaria = norma di condotta derivata; primaria = norma sanzionatoria",
+        "Esempi: artt. 70 e 138 Cost.; art. 15 Preleggi"
+      ],
+      "collegamenti": [
+        {
+          "da": "norma-secondaria",
+          "a": "norma-primaria",
+          "tipo": "collegato",
+          "etichetta": "in Hart completa il sistema della"
+        },
+        {
+          "da": "lex-posterior-derogat-priori",
+          "a": "norma-secondaria",
+          "tipo": "esempio-di",
+          "etichetta": "è classificata nel corso come"
+        },
+        {
+          "da": "norma-secondaria",
+          "a": "validita-sintasseonomica",
+          "tipo": "causa",
+          "etichetta": "fonda la"
+        },
+        {
+          "da": "norma-secondaria",
+          "a": "norme-di-struttura",
+          "tipo": "parte-di",
+          "etichetta": "rientra nel genere delle"
+        },
+        {
+          "da": "norme-iterate",
+          "a": "norma-secondaria",
+          "tipo": "parte-di",
+          "etichetta": "è classificata nel corso come"
+        },
+        {
+          "da": "revisione-costituzionale",
+          "a": "norma-secondaria",
+          "tipo": "esempio-di",
+          "etichetta": "è classificata nel corso come"
+        },
+        {
+          "da": "regola-di-riconoscimento",
+          "a": "norma-secondaria",
+          "tipo": "esempio-di",
+          "etichetta": "è, per Hart, un tipo di"
+        }
+      ]
+    },
+    {
+      "id": "permesso",
+      "oltre": "In generale il **permesso** è la modalità deontica di ciò che è lecito fare (o non fare). Nella logica deontica di [[georg-h-von-wright|von Wright]] si definisce a partire dall'obbligo: è permesso *p* ciò che non è obbligatorio omettere (P*p* = ¬O¬*p*). La teoria distingue il **permesso debole** (un comportamento è permesso perché nessuna norma lo vieta) e il **permesso forte** (una norma lo autorizza espressamente). Su questa base si discute la [[norma-generale-esclusiva|norma generale esclusiva]], per cui ciò che non è vietato è permesso, regola tipica del diritto penale liberale ([[principio-di-tassativita|principio di tassatività]]).\n\nUna norma permissiva ha senso soprattutto come eccezione a un divieto o a un obbligo: si pensi alle cause di giustificazione del diritto penale, che rendono lecito un fatto altrimenti vietato. La tesi di Incampo, che il permesso implichi il divieto di impedirlo, riguarda il permesso giuridicamente protetto: altri autori (Hohfeld) distinguono la semplice libertà, che non obbliga nessuno, dal diritto in senso stretto, a cui corrisponde un dovere altrui.",
+      "daSapere": [
+        "P*p* = ¬O¬*p*: è permesso ciò che non è obbligatorio omettere",
+        "Permesso debole (assenza di divieto) e forte (autorizzazione espressa)",
+        "Norma generale esclusiva: ciò che non è vietato è permesso"
+      ],
+      "collegamenti": [
+        {
+          "da": "permesso",
+          "a": "dovere-giuridico",
+          "tipo": "parte-di",
+          "etichetta": "è il secondo senso del"
+        },
+        {
+          "da": "permesso",
+          "a": "obbligo",
+          "tipo": "collegato",
+          "etichetta": "si riduce, per Incampo, all'"
+        },
+        {
+          "da": "permesso",
+          "a": "divieto",
+          "tipo": "collegato",
+          "etichetta": "è distinto logicamente dal"
+        },
+        {
+          "da": "potere-come-permesso",
+          "a": "permesso",
+          "tipo": "esempio-di",
+          "etichetta": "è una specie di"
+        },
+        {
+          "da": "principio-di-tassativita",
+          "a": "permesso",
+          "tipo": "collegato",
+          "etichetta": "rende ogni fatto non previsto oggetto di"
+        },
+        {
+          "da": "norma-generale-esclusiva",
+          "a": "permesso",
+          "tipo": "collegato",
+          "etichetta": "qualifica il non vietato come"
+        },
+        {
+          "da": "georg-h-von-wright",
+          "a": "permesso",
+          "tipo": "interpreta",
+          "etichetta": "definisce dall'obbligo, nella logica deontica, il"
+        }
+      ]
+    },
+    {
+      "id": "tommaso-d-aquino",
+      "oltre": "Tommaso d'Aquino (Roccasecca, circa 1225 – Fossanova 1274), frate domenicano, insegnò teologia a Parigi e in Italia ed è il massimo esponente della Scolastica. Realizzò la sintesi tra la filosofia di [[aristotele|Aristotele]] e la fede cristiana; fu proclamato santo e dottore della Chiesa. Opere principali: la *Summa contra Gentiles* e la [[summa-theologiae|*Summa Theologiae*]] (circa 1265–1273, incompiuta).\n\nNel «trattato sulle leggi» della *Summa* (I-II, qq. 90–97) definisce la legge come ordinamento della ragione al [[bene-comune|bene comune]], promulgato da chi ha cura della comunità, e distingue quattro leggi: **eterna** (il piano divino del mondo), **naturale** (partecipazione della creatura razionale alla legge eterna, il cui primo precetto è fare il bene ed evitare il male), **umana** o positiva (derivata da quella naturale per conclusione o per determinazione) e **divina** (rivelata). La legge ingiusta è una corruzione della legge; gli effetti sull’obbedienza richiedono ulteriori distinzioni, non una licenza generale di disobbedire. È il fondamento del [[giusnaturalismo]] classico, ripreso nel Novecento da [[jacques-maritain|Maritain]].\n\nNegli appunti compaiono anche la sua definizione della verità come *adaequatio rei et intellectus* e l'argomento della causa prima contro il regresso all'infinito.",
+      "daSapere": [
+        "Circa 1225–1274; domenicano, Scolastica",
+        "*Summa Theologiae*, I-II, qq. 90–97: il trattato sulle leggi",
+        "Legge = *ordinatio rationis ad bonum commune*",
+        "*Lex aeterna*, *naturalis*, *humana*, *divina*",
+        "Legge ingiusta: *non lex sed legis corruptio*"
+      ],
+      "collegamenti": [
+        {
+          "da": "tommaso-d-aquino",
+          "a": "giusnaturalismo",
+          "tipo": "influenza",
+          "etichetta": "è il massimo esponente medievale del"
+        },
+        {
+          "da": "tommaso-d-aquino",
+          "a": "verita-semantica",
+          "tipo": "interpreta",
+          "etichetta": "definisce come adaequatio rei et intellectus la"
+        },
+        {
+          "da": "tommaso-d-aquino",
+          "a": "regresso-all-infinito",
+          "tipo": "contrasta",
+          "etichetta": "arresta con la causa prima il"
+        },
+        {
+          "da": "tommaso-d-aquino",
+          "a": "summa-theologiae",
+          "tipo": "crea",
+          "etichetta": "scrive tra il 1265 e il 1273 la"
+        },
+        {
+          "da": "tommaso-d-aquino",
+          "a": "relazione-essenziale",
+          "tipo": "collegato",
+          "etichetta": "il contraddittorio non è fattibile"
+        },
+        {
+          "da": "aristotele",
+          "a": "tommaso-d-aquino",
+          "tipo": "influenza",
+          "etichetta": "è ripreso e cristianizzato da"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Tommaso, Summa Theologiae I-II, qq. 90–92",
+          "url": "https://www.corpusthomisticum.org/sth2090.html"
+        }
+      ]
+    },
+    {
+      "id": "divieto",
+      "oltre": "Il divieto proibisce un comportamento e può essere rappresentato come obbligo di astenersi: vietato compiere un'azione equivale, nella logica deontica standard, a essere obbligati a non compierla. Questa equivalenza riguarda la struttura normativa, non il mezzo con cui la regola è fatta rispettare.\n\nUna norma proibitiva può essere violata e continuare a essere valida; la conseguenza della violazione dipende dall'ordinamento e dal tipo di norma. Il divieto non coincide quindi con l'impossibilità fisica dell'azione. Nel corso protegge [[permesso|permessi]] e [[liberta|libertà]] e interviene nella discussione sui doveri necessari. Non ogni assenza di obbligo comporta automaticamente un divieto: vanno distinti obbligatorio, vietato, permesso e facoltativo, evitando di trasformare relazioni logiche in generalizzazioni sul diritto positivo.",
+      "daSapere": [
+        "Divieto di p: obbligo di non-p",
+        "Violabilità normativa distinta dall’impossibilità materiale",
+        "Non obbligatorio non significa automaticamente vietato"
+      ],
+      "collegamenti": [
+        {
+          "da": "divieto",
+          "a": "obbligo",
+          "tipo": "esempio-di",
+          "etichetta": "è la forma negativa (non fare) dell'"
+        },
+        {
+          "da": "divieto",
+          "a": "potesta-maritale",
+          "tipo": "collegato",
+          "etichetta": "necessario, nasce dal superamento della"
+        }
+      ]
+    },
+    {
+      "id": "dovere-giuridico",
+      "oltre": "Il dovere giuridico è una posizione normativa definita nell'ambito del diritto, non semplicemente la previsione che qualcuno userà la forza. Le teorie discutono come identificarlo e che cosa lo distingua da un dovere morale o da una pressione sociale.\n\nPer [[kelsen|Kelsen]] è centrale il collegamento fra comportamento contrario e sanzione; [[hart|Hart]] valorizza il ruolo delle regole nella pratica sociale. Altri autori ricercano una [[giustificazione]] che spieghi perché il diritto possa obbligare. Nel linguaggio tecnico si distingue spesso dall'onere: quest'ultimo richiede un comportamento per ottenere un vantaggio, senza renderlo per ciò solo dovuto verso altri. Per Incampo il dovere giuridico è l'oggetto della [[filosofia-del-diritto]], articolato secondo forza e oggetto, non soltanto secondo la materia disciplinata.",
+      "daSapere": [
+        "Posizione normativa distinta dalla minaccia di forza",
+        "Dovere e onere svolgono funzioni differenti",
+        "Identificazione giuridica e fondamento dell’obbligare sono problemi diversi"
+      ],
+      "collegamenti": [
+        {
+          "da": "filosofia-del-diritto",
+          "a": "dovere-giuridico",
+          "tipo": "collegato",
+          "etichetta": "studia in quanto tale il"
+        },
+        {
+          "da": "bilateralita-attributiva",
+          "a": "dovere-giuridico",
+          "tipo": "parte-di",
+          "etichetta": "è un carattere essenziale del"
+        },
+        {
+          "da": "dovere-giuridico",
+          "a": "dovere-morale",
+          "tipo": "contrasta",
+          "etichetta": "si distingue, per esteriorità e coercibilità, dal"
+        },
+        {
+          "da": "dovere-giuridico",
+          "a": "sollen",
+          "tipo": "collegato",
+          "etichetta": "esprime nel diritto il"
+        }
+      ]
+    },
+    {
+      "id": "giusnaturalismo",
+      "oltre": "Il giusnaturalismo raccoglie teorie che collegano il diritto a criteri di giustizia o ragione pratica non riducibili alla semplice decisione dell'autorità. Non è una dottrina unica: cambiano l'idea di natura, il modo di conoscere i principi e le conseguenze attribuite alla legge ingiusta.\n\nLa tradizione antica, la sintesi di [[tommaso-d-aquino|Tommaso]] e le teorie moderne del contratto sociale vanno quindi distinte. In Tommaso la ragione umana partecipa alla legge eterna; autori moderni discutono diritti e limiti del potere politico a partire dalla condizione degli individui. Anche la rinascita novecentesca assume forme differenti. Il confronto con il [[giuspositivismo]] riguarda sia l'identificazione sia la giustificazione del diritto. Affermare criteri razionali superiori non elimina automaticamente il bisogno di legislazione e interpretazione nei casi concreti.",
+      "daSapere": [
+        "Famiglia di teorie, non sistema unico",
+        "Varianti antiche, medievali, moderne e contemporanee",
+        "Principi superiori e determinazioni positive possono convivere"
+      ],
+      "collegamenti": [
+        {
+          "da": "regola-tecnica",
+          "a": "giusnaturalismo",
+          "tipo": "contrasta",
+          "etichetta": "mostra il limite del"
+        },
+        {
+          "da": "giusnaturalismo",
+          "a": "volontarismo",
+          "tipo": "contrasta",
+          "etichetta": "fonda la legge sulla ragione, contro il"
+        }
+      ]
+    },
+    {
+      "id": "norma-primaria",
+      "oltre": "«Primaria» è un termine relativo alla teoria adottata. In [[hart|Hart]] indica le regole che impongono doveri: vietano o prescrivono comportamenti. Le regole secondarie intervengono invece sul riconoscimento, sul mutamento e sull'applicazione del diritto. La distinzione riguarda la funzione delle regole nel sistema.\n\nNella terminologia usata da [[kelsen|Kelsen]] nella *Teoria generale del diritto e dello Stato*, è primaria la norma che collega all'illecito una [[sanzione]], mentre la prescrizione di condotta ne è una formulazione derivata. Non bisogna sovrapporre i due lessici né confonderli con la gerarchia tra fonti primarie e secondarie. Una medesima disposizione sanzionatoria può far ricostruire anche il comportamento dovuto: distinguere testo, norma e funzione evita apparenti contraddizioni fra gli autori.",
+      "daSapere": [
+        "Hart: regole che impongono doveri",
+        "Kelsen: norma che collega illecito e sanzione",
+        "Non confondere questa classificazione con la gerarchia delle fonti"
+      ],
+      "collegamenti": [
+        {
+          "da": "norma-primaria",
+          "a": "dovere-giuridico",
+          "tipo": "collegato",
+          "etichetta": "in Hart prescrive un"
+        },
+        {
+          "da": "norma-primaria",
+          "a": "stato-di-natura",
+          "tipo": "collegato",
+          "etichetta": "giustifica l'uscita dallo"
+        }
+      ]
+    },
+    {
+      "id": "regola-tecnica",
+      "oltre": "La regola tecnica collega un comportamento a un fine: se si vuole ottenere un certo risultato, occorre seguire una procedura o impiegare un mezzo appropriato. La necessità può dipendere da rapporti causali oppure da regole che costituiscono una pratica. Non è quindi sempre una semplice legge di natura.\n\n[[kant|Kant]] distingue gli imperativi dell'abilità dall'[[imperativo-categorico]]: i primi valgono in relazione a un fine presupposto, il secondo pretende validità incondizionata. Nel diritto la forma di un atto può essere condizione della sua validità; non seguire la procedura può impedirne l'effetto, senza equivalere a una pena. Le classificazioni di [[georg-h-von-wright|von Wright]] e [[amedeo-g-conte|Conte]] richiedono inoltre di distinguere la proposizione sul rapporto necessario dalla regola che orienta l'azione.",
+      "daSapere": [
+        "Se vuoi il fine, devi usare il mezzo appropriato",
+        "Necessità causale e necessità istituzionale sono diverse",
+        "Mancanza dell’effetto giuridico non equivale sempre a pena"
+      ],
+      "collegamenti": [
+        {
+          "da": "regola-tecnica",
+          "a": "imperativo-ipotetico",
+          "tipo": "esempio-di",
+          "etichetta": "è una specie di"
+        },
+        {
+          "da": "testamento-olografo",
+          "a": "regola-tecnica",
+          "tipo": "esempio-di",
+          "etichetta": "esemplifica, con le sue forme, la"
+        },
+        {
+          "da": "natura-della-cosa",
+          "a": "regola-tecnica",
+          "tipo": "collegato",
+          "etichetta": "collegato"
+        }
+      ]
+    },
+    {
+      "id": "norma-di-chiusura",
+      "oltre": "La chiusura di un ordinamento può riguardare due problemi differenti: quali norme vi appartengano e come qualificare i casi non espressamente regolati. La tesi di Incampo qui discussa riguarda soprattutto il primo: la validità giuridica si accerta entro criteri dell'ordinamento, anche quando esso recepisce consuetudini o altre fonti.\n\nNon ne segue che il sistema sia immobile, privo di [[lacuna|lacune]] o necessariamente coerente. La [[norma-generale-esclusiva]], che qualifica come permesso ciò che non è vietato, è una specifica soluzione al problema della completezza e non un sinonimo automatico di ogni norma di chiusura. Il confronto con la [[regola-di-riconoscimento]] chiarisce la differenza fra criteri sociali di identificazione e fondamento logico-filosofico della validità.",
+      "daSapere": [
+        "Appartenenza delle norme e completezza dei casi sono problemi distinti",
+        "Chiusura non significa immobilità o assenza di contraddizioni",
+        "Non identificare automaticamente chiusura e norma generale esclusiva"
+      ],
+      "collegamenti": [
+        {
+          "da": "norma-di-chiusura",
+          "a": "norma-secondaria",
+          "tipo": "esempio-di",
+          "etichetta": "è classificata nel corso come"
+        },
+        {
+          "da": "norma-di-chiusura",
+          "a": "norma-generale-esclusiva",
+          "tipo": "collegato",
+          "etichetta": "va distinta dalla"
+        },
+        {
+          "da": "norma-di-chiusura",
+          "a": "regola-di-riconoscimento",
+          "tipo": "collegato",
+          "etichetta": "si confronta con la"
+        },
+        {
+          "da": "norma-di-chiusura",
+          "a": "metaregole",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        },
+        {
+          "da": "teoreticita",
+          "a": "norma-di-chiusura",
+          "tipo": "collegato",
+          "etichetta": "è associata da Incampo alla"
+        }
+      ]
+    },
+    {
+      "id": "gustav-radbruch",
+      "oltre": "Gustav Radbruch (**1878–1949**) fu un filosofo del diritto e penalista tedesco, professore e ministro della giustizia nella Repubblica di Weimar. Allontanato dall'insegnamento durante il nazismo, tornò all'università dopo la guerra. La sua opera affronta il rapporto tra giustizia, certezza giuridica e finalità del diritto.\n\nNel saggio *Ingiustizia legale e diritto sovralegale* del **1946** formulò il problema della legge intollerabilmente ingiusta: di regola la certezza sostiene il diritto positivo anche quando è criticabile, ma l'ingiustizia estrema può far prevalere criteri sovralegali. La deliberata negazione dell'eguaglianza assume un rilievo decisivo.\n\nNon è una licenza a disapplicare qualsiasi norma moralmente sgradita. La soglia estrema distingue la formula da una generica preferenza personale del giudice. La questione continua a influenzare il dibattito fra [[giuspositivismo]] e [[giusnaturalismo]] e la riflessione di [[robert-alexy|Alexy]] sulla dimensione morale del diritto.",
+      "daSapere": [
+        "1878–1949; giurista e ministro a Weimar",
+        "1946: Ingiustizia legale e diritto sovralegale",
+        "Certezza come regola, ingiustizia estrema come limite"
+      ],
+      "collegamenti": [
+        {
+          "da": "gustav-radbruch",
+          "a": "diritto-sovralegale",
+          "tipo": "interpreta",
+          "etichetta": "discute il ricorso al"
+        },
+        {
+          "da": "gustav-radbruch",
+          "a": "ingiustizia-legale",
+          "tipo": "interpreta",
+          "etichetta": "formula il problema dell’"
+        },
+        {
+          "da": "gustav-radbruch",
+          "a": "robert-alexy",
+          "tipo": "influenza",
+          "etichetta": "influenza la teoria di"
+        },
+        {
+          "da": "gustav-radbruch",
+          "a": "certezza-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "bilancia giustizia e"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Heidelberg, la formula di Radbruch",
+          "url": "https://www.ub.uni-heidelberg.de/Englisch/ausstellungen/625jahre2011/exponate/sektion2/09_03.html"
+        }
+      ]
+    },
+    {
+      "id": "theodor-geiger",
+      "oltre": "Theodor Geiger (**1891–1952**) fu un giurista e sociologo tedesco che proseguì la propria attività in Danimarca dopo l'allontanamento dalla Germania nazista. Fu uno dei protagonisti della sociologia del diritto del Novecento e insegnò all'Università di Aarhus. Le sue ricerche riguardano anche stratificazione sociale e metodi delle scienze sociali.\n\nNei *Vorstudien zu einer Soziologie des Rechts* del **1947** studia l'ordine normativo attraverso comportamenti, aspettative e reazioni sociali. Il problema è comprendere come una regola operi nella vita collettiva, distinguendo l'analisi empirica dalle affermazioni metafisiche sui valori.\n\nIncampo richiama Geiger sia per esempi di norme contingenti sia per il linguaggio normativo dichiarativo. Il divieto pitagorico delle fave serve come esempio teorico: la sua menzione non prova una necessità universale del precetto. Il confronto con la [[validita]] mostra inoltre che efficacia sociale e fondamento dell'obbligo sono domande differenti.",
+      "daSapere": [
+        "1891–1952; sociologo del diritto attivo ad Aarhus",
+        "Vorstudien zu einer Soziologie des Rechts, 1947",
+        "Analisi empirica di regole, aspettative e reazioni sociali"
+      ],
+      "collegamenti": [
+        {
+          "da": "theodor-geiger",
+          "a": "norma-solo-possibile",
+          "tipo": "testimonia",
+          "etichetta": "offre un esempio discusso come"
+        },
+        {
+          "da": "theodor-geiger",
+          "a": "efficacia",
+          "tipo": "interpreta",
+          "etichetta": "studia socialmente l’"
+        },
+        {
+          "da": "theodor-geiger",
+          "a": "realite-deontique",
+          "tipo": "collegato",
+          "etichetta": "entra nel confronto sulla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Aarhus, Theodor Geiger",
+          "url": "https://auhist.au.dk/showroom/galleri/personer/theodorgeiger"
+        }
+      ]
+    },
+    {
+      "id": "filosofia-del-diritto",
+      "oltre": "La filosofia del diritto interroga il significato, i fondamenti e i criteri di valutazione dell'esperienza giuridica. Domanda che cosa renda giuridica una regola, perché possa obbligare, quale rapporto abbia con [[giustizia]], [[morale]] e [[potere]], e come si giustifichino interpretazione e decisione.\n\nNon è soltanto una storia delle opinioni dei filosofi né un settore specialistico accanto al diritto civile. Può analizzare concetti generali, discutere ragioni normative e confrontarsi con pratiche istituzionali. La teoria generale e la sociologia condividono alcuni problemi ma adottano finalità e metodi differenti. Incampo concentra la ricerca sul [[dovere-giuridico]] in quanto tale; Moro e Cotta elaborano prospettive proprie. Conoscere queste differenze permette di argomentare, anziché ripetere una definizione come se chiudesse ogni discussione.",
+      "daSapere": [
+        "Concetti, fondamenti e giustificazione del diritto",
+        "Identificazione del diritto e valutazione critica",
+        "Distinguere prospettive e argomenti degli autori"
+      ],
+      "collegamenti": [
+        {
+          "da": "filosofia-del-diritto",
+          "a": "giustificazione",
+          "tipo": "collegato",
+          "etichetta": "indaga la"
+        },
+        {
+          "da": "filosofia-del-diritto",
+          "a": "giustizia",
+          "tipo": "collegato",
+          "etichetta": "discute il rapporto con la"
+        },
+        {
+          "da": "filosofia-del-diritto",
+          "a": "metafisica",
+          "tipo": "collegato",
+          "etichetta": "è analoga a"
+        },
+        {
+          "da": "universale",
+          "a": "filosofia-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "rende il diritto"
+        },
+        {
+          "da": "filosofia-e-scienza",
+          "a": "filosofia-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "offre una premessa metodologica alla"
+        }
+      ]
+    },
+    {
+      "id": "lon-l-fuller",
+      "oltre": "Lon Luvois Fuller (**1902–1978**) fu un giurista statunitense e professore a Harvard, attivo nella teoria del diritto e nello studio dei contratti. Tra le opere principali figurano *The Law in Quest of Itself* e *The Morality of Law*, pubblicata nel **1964**.\n\nLa sua «moralità interna del diritto» riguarda le condizioni con cui si può guidare la condotta attraverso regole: generalità, pubblicità, comprensibilità, coerenza, possibilità di adempimento, relativa stabilità, orientamento normalmente prospettico e congruenza fra regole dichiarate e azione ufficiale. Il fallimento radicale di queste condizioni compromette la stessa impresa giuridica.\n\nIl dibattito con [[hart|Hart]] verte anche sul carattere morale di tali requisiti. Non equivalgono da soli alla giustizia di ogni contenuto normativo: un sistema può essere relativamente regolare e tuttavia gravemente ingiusto. Negli appunti la [[legge-impossibile]] permette di discutere il limite di una prescrizione incapace di orientare concretamente l'azione.",
+      "daSapere": [
+        "1902–1978; Harvard",
+        "The Morality of Law, 1964",
+        "Moralità interna: condizioni per guidare mediante regole",
+        "Legalità procedurale e giustizia dei contenuti non coincidono"
+      ],
+      "collegamenti": [
+        {
+          "da": "lon-l-fuller",
+          "a": "legge-impossibile",
+          "tipo": "interpreta",
+          "etichetta": "discute l’esempio della"
+        },
+        {
+          "da": "lon-l-fuller",
+          "a": "hart",
+          "tipo": "contrasta",
+          "etichetta": "dibatte il rapporto diritto-morale con"
+        },
+        {
+          "da": "lon-l-fuller",
+          "a": "legalita",
+          "tipo": "interpreta",
+          "etichetta": "analizza i requisiti della"
+        },
+        {
+          "da": "lon-l-fuller",
+          "a": "moralita-del-diritto",
+          "tipo": "interpreta",
+          "etichetta": "propone una concezione della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Harvard Law School, Lon Luvois Fuller",
+          "url": "https://hls.harvard.edu/historical-faculty/lon-luvois-fuller-1902-1978/"
+        }
+      ]
+    },
+    {
+      "id": "robert-alexy",
+      "oltre": "Robert Alexy (**1945–2026**) fu un filosofo del diritto e costituzionalista tedesco, professore all'Università di Kiel. Le sue opere principali comprendono la *Teoria dell'argomentazione giuridica* e la *Teoria dei diritti fondamentali*. Il problema comune è mostrare come le decisioni giuridiche possano essere giustificate razionalmente senza ridurle a un calcolo meccanico.\n\nDistingue regole e principi: i secondi richiedono realizzazione nella misura possibile, entro possibilità giuridiche e fattuali. La ponderazione non dovrebbe essere un'intuizione incontrollabile, ma un procedimento argomentato. La sua teoria del diritto unisce una dimensione istituzionale e una pretesa di correttezza, riprendendo [[gustav-radbruch|Radbruch]] sul limite dell'ingiustizia estrema.\n\nIl caso tedesco del 1968 richiamato da Incampo riguarda il rifiuto di riconoscere validità a una norma nazista razzialmente discriminatoria. È una decisione del tribunale costituzionale, non una sentenza pronunciata da Alexy, che la usa nella riflessione teorica.",
+      "daSapere": [
+        "1945–2026; Università di Kiel",
+        "Argomentazione giuridica e teoria dei diritti fondamentali",
+        "Principi come esigenze di ottimizzazione; ponderazione motivata",
+        "Dimensione istituzionale e pretesa di correttezza"
+      ],
+      "collegamenti": [
+        {
+          "da": "robert-alexy",
+          "a": "ingiustizia-legale",
+          "tipo": "interpreta",
+          "etichetta": "analizza il limite dell’"
+        },
+        {
+          "da": "robert-alexy",
+          "a": "giustificazione",
+          "tipo": "interpreta",
+          "etichetta": "studia la razionalità della"
+        },
+        {
+          "da": "robert-alexy",
+          "a": "motivazione-della-sentenza",
+          "tipo": "influenza",
+          "etichetta": "contribuisce alla teoria della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Kiel, necrologio ufficiale di Robert Alexy",
+          "url": "https://www.uni-kiel.de/de/detailansicht/news/156-alexy-nachruf"
+        },
+        {
+          "titolo": "BVerfG, decisione 14 febbraio 1968, 2 BvR 557/62",
+          "url": "https://ruessmann.jura.uni-saarland.de/bvr2006/Entscheidungen/2_BvR_557_62.htm"
+        }
+      ]
+    },
+    {
+      "id": "sollen",
+      "oltre": "*Sollen* indica il dover essere, distinto dall'affermazione che qualcosa accade. Una prescrizione può essere violata: il mancato adempimento non è una confutazione della norma nello stesso senso in cui un fatto contrario può smentire una descrizione. In [[kelsen|Kelsen]] l'imputazione collega una conseguenza dovuta a una condizione.\n\nLa distinzione dallo [[sein|Sein]] non impedisce di discutere le condizioni fattuali del diritto; vieta però di ricavare una conclusione normativa soltanto da premesse descrittive senza esplicitare ulteriori ragioni. Incampo distingue inoltre Sollen e [[mussen|Müssen]], mettendo a tema obbligatorietà e necessità. I fondamenti ontologici proposti da altri autori, come Cotta, sono tesi filosofiche da argomentare, non un'automatica deduzione logica del dovere dal fatto.",
+      "daSapere": [
+        "Dover essere distinto dall’accadere",
+        "Violazione della norma diversa dalla falsificazione di una descrizione",
+        "Passaggio dai fatti ai doveri richiede premesse ulteriori"
+      ],
+      "collegamenti": [
+        {
+          "da": "sollen",
+          "a": "mussen",
+          "tipo": "collegato",
+          "etichetta": "è distinto, in Incampo, dal"
+        },
+        {
+          "da": "sollen",
+          "a": "legge-di-hume",
+          "tipo": "collegato",
+          "etichetta": "richiede attenzione alla"
+        },
+        {
+          "da": "divieto-di-denegare-giustizia",
+          "a": "sollen",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        }
+      ]
+    },
+    {
+      "id": "enunciato-performativo",
+      "oltre": "Un enunciato performativo serve a compiere un atto nel dire qualcosa: promettere, dichiarare aperta una seduta o assumere una funzione secondo una procedura. La riuscita dipende da contesto, competenza e [[condizioni-di-felicita]], non dalla sola presenza di un verbo al presente.\n\nLa formula esplicita «io prometto» è un caso importante, ma non l'unica forma possibile: si può promettere anche senza usare quel verbo, e lo stesso enunciato può svolgere funzioni diverse in contesti differenti. [[john-l-austin|Austin]] parte dalla distinzione con il constatativo e poi elabora una teoria più generale degli atti linguistici. Incampo e Conte discutono ulteriormente verità e autoriferimento: le loro tesi non vanno confuse con l'idea che qualunque dichiarazione produca sempre l'effetto nominato.",
+      "daSapere": [
+        "Fare qualcosa nel dire, entro condizioni contestuali",
+        "Prima persona e presente non bastano né esauriscono i casi",
+        "Austin supera la semplice opposizione performativo/constatativo"
+      ],
+      "collegamenti": [
+        {
+          "da": "condizioni-di-felicita",
+          "a": "enunciato-performativo",
+          "tipo": "collegato",
+          "etichetta": "condizionano la riuscita dell’"
+        },
+        {
+          "da": "promessa",
+          "a": "enunciato-performativo",
+          "tipo": "esempio-di",
+          "etichetta": "può essere compiuta mediante un"
+        },
+        {
+          "da": "controperformativita",
+          "a": "enunciato-performativo",
+          "tipo": "collegato",
+          "etichetta": "mette in crisi la riuscita dell’"
+        },
+        {
+          "da": "amedeo-g-conte",
+          "a": "enunciato-performativo",
+          "tipo": "interpreta",
+          "etichetta": "ne analizza lo statuto di verità"
+        },
+        {
+          "da": "autoreferenzialita",
+          "a": "enunciato-performativo",
+          "tipo": "collegato",
+          "etichetta": "è discussa per lo statuto dell’"
+        },
+        {
+          "da": "falso-performativo",
+          "a": "enunciato-performativo",
+          "tipo": "esempio-di",
+          "etichetta": "è un caso di insuccesso dell’"
+        },
+        {
+          "da": "enunciato-performativo",
+          "a": "discorso-apofantico",
+          "tipo": "collegato",
+          "etichetta": "è confrontato da Incampo con il"
+        }
+      ]
+    },
+    {
+      "id": "costituzione-italiana",
+      "oltre": "La Costituzione repubblicana fu approvata dall'Assemblea costituente nel dicembre 1947 ed entrò in vigore il **1º gennaio 1948**. È una costituzione rigida: la sua modifica richiede un procedimento speciale e le leggi ordinarie sono subordinate alle sue norme e ai suoi principi.\n\nNel corso contano soprattutto persona, formazioni sociali, solidarietà ed eguaglianza. Gli [[articolo-2-costituzione|articoli 2]] e [[articolo-3-costituzione|3]] collegano garanzia dei diritti, doveri e rimozione degli ostacoli alla partecipazione. La carta contiene anche norme che attribuiscono competenze e disciplinano la produzione del diritto: non soltanto prescrizioni rivolte ai cittadini. [[aldo-moro|Moro]] contribuì ai lavori costituenti; il suo pensiero aiuta a interpretarli, senza esaurire le diverse culture politiche confluite nel testo.",
+      "daSapere": [
+        "1º gennaio 1948: entrata in vigore",
+        "Costituzione rigida e sovraordinata alla legge ordinaria",
+        "Articoli 2 e 3: persona, solidarietà, eguaglianza e partecipazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione-italiana",
+          "a": "revisione-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "prevede un procedimento di"
+        },
+        {
+          "da": "costituzione-italiana",
+          "a": "norma-secondaria",
+          "tipo": "esempio-di",
+          "etichetta": "è classificata nel corso come"
+        },
+        {
+          "da": "articolo-2-costituzione",
+          "a": "costituzione-italiana",
+          "tipo": "parte-di",
+          "etichetta": "è parte della"
+        },
+        {
+          "da": "articolo-3-costituzione",
+          "a": "costituzione-italiana",
+          "tipo": "parte-di",
+          "etichetta": "è parte della"
+        },
+        {
+          "da": "costituzione-italiana",
+          "a": "regola-costitutiva",
+          "tipo": "collegato",
+          "etichetta": "contiene norme con funzione di"
+        },
+        {
+          "da": "sussidiarieta",
+          "a": "costituzione-italiana",
+          "tipo": "collegato",
+          "etichetta": "è prevista all’articolo 118 della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Presidenza della Repubblica, testo della Costituzione",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ]
+    },
+    {
+      "id": "analogia",
+      "oltre": "L'analogia estende una disciplina a un caso non direttamente regolato quando una somiglianza giuridicamente rilevante giustifica la medesima soluzione. Non basta che due casi condividano qualche proprietà: occorre spiegare perché l'elemento comune conti rispetto alla ragione della norma, il [[tertium-comparationis]].\n\nSi distingue l'analogia fondata su una disposizione da quella che ricorre ai principi dell'ordinamento. La sua ammissibilità e i suoi limiti dipendono dal sistema giuridico: non è una libertà generale di correggere ogni risultato sgradito. Il [[caso-dell-orso]] mostra la scelta dell'aspetto rilevante; l'[[argomento-a-contrario]] segue una diversa direzione. Incampo evidenzia la componente valutativa di questa scelta, che deve comunque essere motivata e non equivale automaticamente ad arbitrio.",
+      "daSapere": [
+        "Somiglianza rilevante rispetto alla ragione della norma",
+        "Analogia legis e ricorso ai principi dell’ordinamento",
+        "Limiti giuridici e onere di giustificare l’estensione"
+      ],
+      "collegamenti": [
+        {
+          "da": "analogia",
+          "a": "interpretazione-teleologica",
+          "tipo": "collegato",
+          "etichetta": "può servirsi dell’"
+        },
+        {
+          "da": "analogia",
+          "a": "lacuna-locale",
+          "tipo": "collegato",
+          "etichetta": "può colmare una"
+        },
+        {
+          "da": "art-12-preleggi",
+          "a": "analogia",
+          "tipo": "crea",
+          "etichetta": "prevede"
+        },
+        {
+          "da": "tertium-comparationis",
+          "a": "analogia",
+          "tipo": "collegato",
+          "etichetta": "è un presupposto argomentativo dell’"
+        },
+        {
+          "da": "giustizia-formale",
+          "a": "analogia",
+          "tipo": "causa",
+          "etichetta": "fonda"
+        }
+      ]
+    },
+    {
+      "id": "argomento-a-contrario",
+      "oltre": "L'argomento a contrario trae una conseguenza dalla delimitazione di una regola: se un effetto è previsto soltanto per una classe di casi, si sostiene che non valga per i casi esclusi. Il passaggio richiede però una premessa sulla chiusura della disciplina, che non è sempre ricavabile dalla sola forma linguistica.\n\nNon basta quindi osservare che due casi sono diversi: bisogna spiegare perché la differenza sia decisiva e perché non prevalga l'[[analogia]]. Un elenco può essere tassativo oppure esemplificativo, con esiti opposti. Inoltre una deroga motivata alla regola generale non è automaticamente un argomento a contrario. Gli esempi dei cani nelle dispense vanno ricostruiti attraverso ragione della norma, inclusioni ed eccezioni, senza trasformare ogni esclusione in un medesimo schema.",
+      "daSapere": [
+        "Dal confine della regola a una conseguenza per gli esclusi",
+        "Serve una ragione per considerare chiusa la disciplina",
+        "Differenza, eccezione e argomento a contrario non coincidono"
+      ],
+      "collegamenti": [
+        {
+          "da": "argomento-a-contrario",
+          "a": "analogia",
+          "tipo": "collegato",
+          "etichetta": "si confronta come alternativa con l’"
+        },
+        {
+          "da": "argomento-a-contrario",
+          "a": "interpretazione-letterale",
+          "tipo": "collegato",
+          "etichetta": "non deriva automaticamente dalla sola"
+        },
+        {
+          "da": "argomento-a-contrario",
+          "a": "interpretazione-teleologica",
+          "tipo": "collegato",
+          "etichetta": "richiede spesso confronto con l’"
+        }
+      ]
+    },
+    {
+      "id": "enunciato-descrittivo",
+      "oltre": "Un enunciato descrittivo presenta qualcosa come accaduto o sussistente e può essere valutato rispetto alla sua corrispondenza ai fatti. Dire che una seduta è terminata può riferire un evento già avvenuto; pronunciare una formula autorizzata per terminarla può invece avere funzione costitutiva.\n\nLa differenza dipende dall'uso, non soltanto dalle parole. Anche nel linguaggio giuridico bisogna distinguere la norma, la sua formulazione e l'affermazione che una certa norma appartenga all'ordinamento. Quest'ultima può essere vera o falsa senza perciò creare la norma descritta. Nella teoria degli [[atto-linguistico|atti linguistici]] un'affermazione è comunque un'azione comunicativa: «descrittivo» non significa privo di effetti sociali, ma individua la funzione rappresentativa e la relativa direzione di valutazione.",
+      "daSapere": [
+        "Descrive un fatto e si valuta rispetto alla verità",
+        "La medesima frase può avere usi differenti",
+        "Descrivere una norma non equivale a porla"
+      ],
+      "collegamenti": [
+        {
+          "da": "enunciato-descrittivo",
+          "a": "enunciato-performativo",
+          "tipo": "collegato",
+          "etichetta": "si distingue nell’uso dall’"
+        },
+        {
+          "da": "enunciato-descrittivo",
+          "a": "verita-semantica",
+          "tipo": "collegato",
+          "etichetta": "è valutabile secondo la"
+        },
+        {
+          "da": "enunciazione-rhetica",
+          "a": "enunciato-descrittivo",
+          "tipo": "esempio-di",
+          "etichetta": "può svolgere la funzione di"
+        }
+      ]
+    },
+    {
+      "id": "giurisdizione",
+      "oltre": "La giurisdizione è l'attività istituzionale di accertare e decidere controversie mediante il diritto, entro competenze e garanzie procedurali. La decisione richiede ricostruzione dei fatti, individuazione delle norme e giustificazione del loro collegamento al caso: non è soltanto applicazione automatica di parole già chiare.\n\nIl [[sillogismo-giudiziale]] rappresenta la struttura di una parte del ragionamento, ma non spiega da solo la scelta delle premesse. La [[motivazione-della-sentenza]] rende controllabili interpretazioni, prove e passaggi decisivi. La discrezionalità non autorizza a ignorare fonti, competenze o diritti delle parti. Quando Incampo definisce la giurisdizione anche [[politica]], evidenzia la scelta fra alternative: va distinta dall'attività legislativa generale e dalla preferenza politica personale del giudice.",
+      "daSapere": [
+        "Decisione istituzionale entro regole e garanzie",
+        "Fatti, interpretazione e giustificazione delle premesse",
+        "Discrezionalità distinta da arbitrio e preferenza personale"
+      ],
+      "collegamenti": [
+        {
+          "da": "giurisdizione",
+          "a": "politica",
+          "tipo": "collegato",
+          "etichetta": "include scelte, nel senso di Incampo, di"
+        },
+        {
+          "da": "giurisdizione",
+          "a": "certezza-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "contribuisce alla"
+        },
+        {
+          "da": "refere-legislatif",
+          "a": "giurisdizione",
+          "tipo": "contrasta",
+          "etichetta": "tentò di sostituire"
+        },
+        {
+          "da": "lacuna-locale",
+          "a": "giurisdizione",
+          "tipo": "collegato",
+          "etichetta": "può essere affrontata mediante la"
+        },
+        {
+          "da": "motivazione-della-sentenza",
+          "a": "giurisdizione",
+          "tipo": "collegato",
+          "etichetta": "rende controllabile la"
+        }
+      ]
+    },
+    {
+      "id": "sillogismo-giudiziale",
+      "oltre": "Il modello sillogistico presenta una premessa normativa generale, una premessa che qualifica il fatto e una conclusione sul caso. Se la norma e la qualificazione sono accolte, la conclusione deve seguirne coerentemente. Questo controllo è utile, ma non basta a mostrare che le premesse siano corrette.\n\nOccorre giustificare quale disposizione interpretare, quale significato attribuirle, quali fatti ritenere provati e come classificarli. Si distingue così la giustificazione interna, relativa al passaggio inferenziale, da quella esterna delle premesse. La critica al meccanicismo non elimina l'esigenza di coerenza logica. Incampo usa il modello per discutere la dimensione di scelta della [[giurisdizione]]; il richiamo ad [[aristotele|Aristotele]] riguarda la tradizione logica, non l'invenzione antica del processo contemporaneo.",
+      "daSapere": [
+        "Premessa normativa, qualificazione del fatto e conclusione",
+        "Giustificazione interna ed esterna",
+        "Criticare il meccanicismo non significa rinunciare alla logica"
+      ],
+      "collegamenti": [
+        {
+          "da": "sillogismo-giudiziale",
+          "a": "giurisdizione",
+          "tipo": "collegato",
+          "etichetta": "rappresenta una parte della"
+        },
+        {
+          "da": "sillogismo-giudiziale",
+          "a": "giustificazione",
+          "tipo": "collegato",
+          "etichetta": "richiede controllo delle premesse nella"
+        },
+        {
+          "da": "aristotele",
+          "a": "sillogismo-giudiziale",
+          "tipo": "influenza",
+          "etichetta": "influenza la tradizione logica del"
+        },
+        {
+          "da": "sillogismo-giudiziale",
+          "a": "autonomia-logica-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "è discusso nel problema dell’"
+        }
+      ]
+    },
+    {
+      "id": "legislazione",
+      "oltre": "La legislazione produce norme attraverso procedimenti e competenze riconosciuti. Non è necessariamente una decisione senza vincoli: costituzioni, procedure, riparti di competenza e garanzie dei diritti limitano ciò che il legislatore può validamente stabilire.\n\nLa differenza dalla [[giurisdizione]] riguarda soprattutto funzione e forma dell'intervento, non l'opposizione assoluta fra creazione e applicazione. Il giudice interpreta e concretizza, mentre il legislatore opera comunque entro un diritto già esistente. Le leggi possono modificare istituti, introdurre discipline e anche generare [[antinomia|antinomie]]. La tesi di Incampo sulla dimensione politica valorizza la scelta fra possibilità, senza esaurirne la giustificazione. Anche quando non è richiesta una motivazione nello stesso senso della sentenza, restano rilevanti ragioni pubbliche, dibattito e controllo di legittimità.",
+      "daSapere": [
+        "Produzione normativa entro competenze e procedure",
+        "Legislatore e giudice non sono opposti come puro creatore e automa",
+        "Scelte politiche sottoposte a limiti e ragioni pubbliche"
+      ],
+      "collegamenti": [
+        {
+          "da": "legislazione",
+          "a": "giurisdizione",
+          "tipo": "collegato",
+          "etichetta": "si distingue per funzione dalla"
+        },
+        {
+          "da": "legislazione",
+          "a": "norma-secondaria",
+          "tipo": "collegato",
+          "etichetta": "è classificata nel corso come"
+        },
+        {
+          "da": "legislazione",
+          "a": "antinomia",
+          "tipo": "causa",
+          "etichetta": "può produrre un’"
+        },
+        {
+          "da": "legislazione",
+          "a": "costituzione-italiana",
+          "tipo": "collegato",
+          "etichetta": "è vincolata, in Italia, dalla"
+        },
+        {
+          "da": "numerus-motus",
+          "a": "legislazione",
+          "tipo": "collegato",
+          "etichetta": "descrive, nel corso, l’apertura della"
+        },
+        {
+          "da": "lacuna-ordinamentale",
+          "a": "legislazione",
+          "tipo": "collegato",
+          "etichetta": "può richiedere un intervento della"
+        },
+        {
+          "da": "rivoluzione-permanente",
+          "a": "legislazione",
+          "tipo": "collegato",
+          "etichetta": "si manifesta nella"
+        },
+        {
+          "da": "legislazione",
+          "a": "evoluzione-pacifica",
+          "tipo": "collegato",
+          "etichetta": "è descritta da Moro come"
+        }
+      ]
+    },
+    {
+      "id": "codice-napoleone",
+      "oltre": "Il *Code civil* francese del **1804**, poi denominato *Code Napoléon*, organizzò in un testo unitario un'ampia parte del diritto civile. Divenne un modello influente per altre codificazioni, ma non fu una trascrizione identica in ogni Paese: ricezioni e adattamenti dipendono dalle storie nazionali.\n\nLa codificazione promuove conoscibilità e sistematicità senza eliminare l'interpretazione. L'articolo 4 impedisce al giudice di rifiutare la decisione adducendo silenzio, oscurità o insufficienza della legge; l'articolo 5 vieta decisioni giudiziarie formulate come regolamenti generali. Il rapporto tra le due disposizioni evidenzia la tensione fra obbligo di decidere e distinzione dei ruoli. Per Incampo è un riferimento nel problema delle [[lacuna|lacune]] e del [[divieto-di-denegare-giustizia]].",
+      "daSapere": [
+        "1804: Code civil francese",
+        "Art. 4: divieto di rifiutare la decisione per lacune",
+        "Codificazione e interpretazione continuano a coesistere"
+      ],
+      "collegamenti": [
+        {
+          "da": "codice-napoleone",
+          "a": "divieto-di-denegare-giustizia",
+          "tipo": "collegato",
+          "etichetta": "prevede all’articolo 4 il"
+        },
+        {
+          "da": "codice-napoleone",
+          "a": "lacuna",
+          "tipo": "collegato",
+          "etichetta": "affronta il problema della"
+        },
+        {
+          "da": "codice-napoleone",
+          "a": "certezza-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "persegue la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Légifrance, Code civil, articolo 4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006419283"
+        }
+      ]
+    },
+    {
+      "id": "rudolf-von-jhering",
+      "oltre": "Rudolf von Jhering, scritto anche Ihering, (**1818–1892**) fu un giurista tedesco, studioso del diritto romano e del diritto privato. Insegnò in varie università, fra cui Vienna e Göttingen. La sua riflessione contribuì alla critica di una scienza giuridica ridotta alla combinazione astratta di concetti.\n\nTra le opere più note figurano *La lotta per il diritto* del **1872** e *Lo scopo nel diritto*. Il diritto è legato a fini, interessi e pratiche sociali; la difesa di una posizione giuridica può assumere valore per la tutela dell'ordine comune, non soltanto del vantaggio individuale.\n\nNel corso compare attraverso il [[caso-dell-orso]], che mette alla prova l'applicazione di un divieto e la scelta delle somiglianze rilevanti. L'esempio serve a discutere [[analogia]] e interpretazione teleologica: non dimostra che ogni richiamo allo scopo autorizzi il giudice a creare liberamente qualsiasi regola.",
+      "daSapere": [
+        "1818–1892; giurista e romanista",
+        "La lotta per il diritto, 1872; Lo scopo nel diritto",
+        "Attenzione a scopi e interessi oltre il formalismo concettuale"
+      ],
+      "collegamenti": [
+        {
+          "da": "rudolf-von-jhering",
+          "a": "caso-dell-orso",
+          "tipo": "testimonia",
+          "etichetta": "è richiamato per il"
+        },
+        {
+          "da": "rudolf-von-jhering",
+          "a": "interpretazione-teleologica",
+          "tipo": "influenza",
+          "etichetta": "contribuisce allo sviluppo dell’"
+        },
+        {
+          "da": "rudolf-von-jhering",
+          "a": "giurisprudenza-degli-interessi",
+          "tipo": "influenza",
+          "etichetta": "è un antecedente della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Gießen, profilo di Rudolf von Jhering",
+          "url": "https://www.uni-giessen.de/de/fbz/fb01/fakultaet-institutionen/rji/wer-war-rudolf-von-jhering/index"
+        }
+      ]
+    },
+    {
+      "id": "socrate",
+      "oltre": "Socrate visse ad Atene nel **V secolo a.C.** e morì nel **399 a.C.**, dopo una condanna capitale. Non lasciò opere scritte: il suo pensiero è conosciuto attraverso testimonianze, soprattutto di [[platone|Platone]] e Senofonte, che non coincidono in ogni dettaglio.\n\nIl dialogo socratico interroga le definizioni e mette alla prova la coerenza delle risposte: che cosa sono giustizia, virtù e buona vita? L'ammissione dei limiti del proprio sapere sostiene la ricerca, non una rinuncia a distinguere ragioni migliori e peggiori. Nell'*Apologia* e nel *Critone* platonici emergono problemi di coscienza, obbedienza e rapporto con le leggi della città.\n\nNel corso il nome appare nell'esempio «tutti gli uomini sono mortali»: è una rappresentazione logica della deduzione, non la sintesi dell'intera filosofia socratica. Il suo rapporto con il diritto invita invece a domandare come una decisione istituzionale possa essere criticata e quali ragioni sostengano l'obbedienza.",
+      "daSapere": [
+        "Atene, V secolo a.C.; morte nel 399 a.C.",
+        "Nessuna opera scritta; testimonianze soprattutto di Platone e Senofonte",
+        "Dialogo critico, definizioni e coerenza delle ragioni"
+      ],
+      "collegamenti": [
+        {
+          "da": "socrate",
+          "a": "platone",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        },
+        {
+          "da": "socrate",
+          "a": "sillogismo-giudiziale",
+          "tipo": "collegato",
+          "etichetta": "compare come esempio didattico nel"
+        },
+        {
+          "da": "socrate",
+          "a": "giustizia",
+          "tipo": "interpreta",
+          "etichetta": "interroga criticamente la"
+        }
+      ]
+    },
+    {
+      "id": "promessa",
+      "oltre": "Promettere significa assumere un impegno verso qualcuno, non soltanto prevedere una propria azione futura. L'atto modifica le aspettative e le posizioni normative dei partecipanti: la mancata esecuzione può essere valutata come violazione di un impegno, non semplice errore di previsione.\n\nLa formula «io prometto» rende esplicito l'atto ma non ne esaurisce le forme possibili. Contano contesto, comprensione e condizioni della pratica; una battuta teatrale non vincola necessariamente come una promessa seria. [[john-searle|Searle]] e [[adolf-reinach|Reinach]] ne analizzano aspetti differenti. Inoltre un impegno morale non è automaticamente un contratto valido o una promessa giuridicamente azionabile. Il passaggio al diritto richiede ulteriori regole su competenza, oggetto, forma ed effetti.",
+      "daSapere": [
+        "Impegno assunto verso qualcuno, distinto da una previsione",
+        "Possibile anche senza la formula esplicita “prometto”",
+        "Vincolo morale e azionabilità giuridica non coincidono"
+      ],
+      "collegamenti": [
+        {
+          "da": "promessa",
+          "a": "obbligo",
+          "tipo": "collegato",
+          "etichetta": "può generare un"
+        }
+      ]
+    },
+    {
+      "id": "regola-costitutiva",
+      "oltre": "Una regola costitutiva contribuisce a rendere possibile o a definire un'attività, uno status o un fatto istituzionale. Il voto valido, il contratto e una mossa di scacchi presuppongono regole che determinano che cosa conti come quel tipo di atto, non soltanto come si debba agire in un'attività già indipendentemente data.\n\nLa formula di [[john-searle|Searle]] «X conta come Y nel contesto C» chiarisce un modello importante, ma le classificazioni di [[amedeo-g-conte|Conte]] sono più articolate. L'inosservanza può impedire un effetto istituzionale senza rendere fisicamente impossibile il gesto; non ogni regola detta costitutiva è perciò automaticamente inviolabile. Negli appunti Incampo discute il rapporto con prescrizioni e sanzioni: distinguere funzione costitutiva, invalidità e obblighi derivati evita di confonderle.",
+      "daSapere": [
+        "Definisce attività, status o fatti istituzionali",
+        "X conta come Y nel contesto C: modello searleano",
+        "Invalidità dell’atto e impossibilità materiale sono diverse"
+      ],
+      "collegamenti": [
+        {
+          "da": "regola-costitutiva",
+          "a": "fatto-istituzionale",
+          "tipo": "crea",
+          "etichetta": "contribuisce a definire un"
+        },
+        {
+          "da": "regola-costitutiva",
+          "a": "norma-prescrittiva",
+          "tipo": "collegato",
+          "etichetta": "si distingue per funzione dalla"
+        },
+        {
+          "da": "norma-abrogativa",
+          "a": "regola-costitutiva",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        },
+        {
+          "da": "sanzione-privativa",
+          "a": "regola-costitutiva",
+          "tipo": "collegato",
+          "etichetta": "è discussa nel rapporto prescrittivo della"
+        },
+        {
+          "da": "regola-costitutiva",
+          "a": "giudizio-analitico-a-posteriori",
+          "tipo": "collegato",
+          "etichetta": "è discussa nel corso attraverso il"
+        },
+        {
+          "da": "intenzionalita-collettiva",
+          "a": "regola-costitutiva",
+          "tipo": "collegato",
+          "etichetta": "sostiene il contesto istituzionale della"
+        }
+      ]
+    },
+    {
+      "id": "platone",
+      "oltre": "Platone visse fra il V e il IV secolo a.C., tradizionalmente **427–347 a.C.** Fu allievo di [[socrate|Socrate]] e fondò ad Atene l'Accademia, dove studiò [[aristotele|Aristotele]]. Scrisse dialoghi che discutono conoscenza, realtà, educazione, giustizia e organizzazione politica, senza affidare ogni posizione alla voce diretta dell'autore.\n\nNella *Repubblica* la giustizia è esaminata attraverso il rapporto tra anima e città; nel *Politico* e nelle *Leggi* cambiano prospettiva e attenzione al governo delle comunità. Il confronto fra sapere del governante e vincolo della legge è decisivo per la filosofia politica e giuridica.\n\nIl *Cratilo*, richiamato da Incampo, interroga il rapporto fra nomi e cose: non basta imporre una parola per conoscere ciò che designa. Gli esempi sul fine e sulla funzione servono a discutere criteri di adeguatezza. Il richiamo non va isolato fino a trasformarlo in una teoria moderna già compiuta del diritto.",
+      "daSapere": [
+        "Tradizionalmente 427–347 a.C.; Accademia di Atene",
+        "Maestro di Aristotele e allievo di Socrate",
+        "Repubblica, Politico, Leggi; Cratilo sui nomi"
+      ],
+      "collegamenti": [
+        {
+          "da": "platone",
+          "a": "aristotele",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        },
+        {
+          "da": "platone",
+          "a": "giustizia",
+          "tipo": "interpreta",
+          "etichetta": "analizza nella Repubblica la"
+        },
+        {
+          "da": "platone",
+          "a": "gioco",
+          "tipo": "collegato",
+          "etichetta": "distrae dalla morte"
+        }
+      ]
+    },
+    {
+      "id": "agostino",
+      "oltre": "Agostino d'Ippona (**354–430**) nacque a Tagaste, nell'Africa romana, e fu maestro di retorica prima della conversione al cristianesimo. Divenne vescovo di Ippona e uno dei maggiori autori cristiani di lingua latina. Tra le opere principali figurano *Confessioni*, *De libero arbitrio* e *De civitate Dei*.\n\nLa riflessione su volontà, male e interiorità si accompagna al problema delle comunità politiche. Le due città non coincidono semplicemente con Stato e Chiesa: sono definite da orientamenti fondamentali dell'amore. Il governo terreno risponde anche alla fragilità e al conflitto della condizione umana.\n\nIl rapporto tra legge e [[giustizia]], ripreso da [[tommaso-d-aquino|Tommaso]], non va ridotto a una formula isolata. Nel corso Incampo e Cotta richiamano aspetti diversi della sua opera. Contrapporlo a Kelsen è un confronto teorico retrospettivo, non un dibattito storico fra contemporanei né una prova che ogni regola ingiusta sia giuridicamente inesistente.",
+      "daSapere": [
+        "354–430; Tagaste e Ippona",
+        "Confessioni, De libero arbitrio, De civitate Dei",
+        "Due città definite da orientamenti dell’amore, non Stato/Chiesa"
+      ],
+      "collegamenti": [
+        {
+          "da": "agostino",
+          "a": "tommaso-d-aquino",
+          "tipo": "influenza",
+          "etichetta": "influenza la riflessione di"
+        },
+        {
+          "da": "agostino",
+          "a": "sergio-cotta",
+          "tipo": "influenza",
+          "etichetta": "è ripreso nella prospettiva di"
+        },
+        {
+          "da": "agostino",
+          "a": "giustizia",
+          "tipo": "interpreta",
+          "etichetta": "interroga il fondamento della"
+        },
+        {
+          "da": "agostino",
+          "a": "kelsen",
+          "tipo": "collegato",
+          "etichetta": "è confrontato retrospettivamente con"
+        }
+      ]
+    },
+    {
+      "id": "riconoscimento",
+      "oltre": "Il riconoscimento può indicare l'identificazione di una situazione, il riconoscere una qualità giuridica o il rapporto in cui un soggetto considera l'altro portatore di pretese. Sono usi distinti: l'*Anerkennung* filosofica non coincide con la [[regola-di-riconoscimento]] di Hart.\n\nNella tradizione hegeliana e nelle elaborazioni successive il rapporto con altri è decisivo per la costituzione dell'identità e della libertà. Nel corso Incampo insiste sul fatto che il pari valore dell'altro non dipenda semplicemente da un atto arbitrario che lo concede. Questo è un argomento sul fondamento della [[giuridicita]], non una descrizione di ogni ordinamento storico, che può aver negato uguaglianza e diritti. Distinguere il criterio critico dalla realtà permette di spiegare perché un sistema discriminatorio possa essere contestato.",
+      "daSapere": [
+        "Riconoscimento intersoggettivo distinto da identificazione di una norma",
+        "Pari dignità come criterio critico, non dato storico universale",
+        "Anerkennung distinta dalla rule of recognition"
+      ],
+      "collegamenti": [
+        {
+          "da": "riconoscimento",
+          "a": "regola-di-riconoscimento",
+          "tipo": "collegato",
+          "etichetta": "ha significato diverso dalla"
+        },
+        {
+          "da": "riconoscimento",
+          "a": "alterita",
+          "tipo": "collegato",
+          "etichetta": "presuppone il rapporto con l’"
+        },
+        {
+          "da": "riconoscimento",
+          "a": "giuridicita",
+          "tipo": "collegato",
+          "etichetta": "contribuisce, nel corso, al fondamento della"
+        },
+        {
+          "da": "riconoscimento",
+          "a": "compossibilita-delle-pretese",
+          "tipo": "collegato",
+          "etichetta": "rende pensabile la"
+        },
+        {
+          "da": "pubblicizzabilita",
+          "a": "riconoscimento",
+          "tipo": "collegato",
+          "etichetta": "favorisce, secondo Incampo, il"
+        },
+        {
+          "da": "resistenza-di-azione-ad-azione",
+          "a": "riconoscimento",
+          "tipo": "collegato",
+          "etichetta": "implica"
+        }
+      ]
+    },
+    {
+      "id": "sanzione",
+      "oltre": "In senso stretto la sanzione è una conseguenza sfavorevole collegata a una violazione; in usi più ampi il termine comprende anche incentivi e premi. Bisogna quindi precisare la classificazione adottata. Pena, risarcimento, esecuzione e invalidità non producono effetti identici e non sono sempre ricondotti allo stesso concetto dalle teorie.\n\n[[kelsen|Kelsen]] valorizza l'atto coattivo organizzato; altre prospettive ritengono che la giuridicità non dipenda da una sanzione per ogni singola regola. Le norme che conferiscono poteri possono subordinare un risultato a condizioni, senza punire chi non desidera conseguirlo. Incampo discute la [[sanzione-privativa]] per interrogare il rapporto fra costituzione e prescrizione: il mancato effetto giuridico non va automaticamente equiparato a una pena.",
+      "daSapere": [
+        "Conseguenze punitive, riparatorie e invalidanti da distinguere",
+        "Non ogni singola norma ha una pena propria",
+        "Mancato effetto istituzionale e punizione non coincidono"
+      ],
+      "collegamenti": [
+        {
+          "da": "sanzione",
+          "a": "norma-primaria",
+          "tipo": "collegato",
+          "etichetta": "è collegata, nel lessico kelseniano, alla"
+        },
+        {
+          "da": "sanzione-privativa",
+          "a": "sanzione",
+          "tipo": "parte-di",
+          "etichetta": "è una categoria discussa di"
+        },
+        {
+          "da": "sanzione",
+          "a": "costrizione",
+          "tipo": "collegato",
+          "etichetta": "può essere attuata attraverso la"
+        },
+        {
+          "da": "sanzione",
+          "a": "regola-costitutiva",
+          "tipo": "collegato",
+          "etichetta": "pone problemi di rapporto con la"
+        },
+        {
+          "da": "sanzione",
+          "a": "resistenza-di-azione-ad-azione",
+          "tipo": "influenza",
+          "etichetta": "rafforza"
+        },
+        {
+          "da": "sanzione",
+          "a": "forza-giusta",
+          "tipo": "collegato",
+          "etichetta": "è collegata, nel corso, alla"
+        }
+      ]
+    },
+    {
+      "id": "amedeo-g-conte",
+      "oltre": "Amedeo Giovanni Conte (**1934–2019**) fu un filosofo del diritto italiano, professore all'Università di Pavia e studioso di logica deontica e linguaggio normativo. La sua formazione intrecciò filosofia, diritto e logica; tradusse in italiano il *[[tractatus-logico-philosophicus|Tractatus]]* di Wittgenstein.\n\nTra le opere si ricordano il *Saggio sulla completezza degli ordinamenti giuridici* e i volumi di *Filosofia del linguaggio normativo*. Analizzò validità, regole costitutive, atti linguistici e comportamento orientato a norme, contribuendo a distinguere fenomeni spesso confusi dal linguaggio ordinario.\n\nNel corso sono rilevanti le enunciazioni [[enunciazione-thetica|thetiche]], che pongono uno status deontico, e [[enunciazione-rhetica|rhetiche]], che ne affermano l'esistenza. La distinzione evita di identificare l'atto del legislatore con il discorso dello studioso. Le sue categorie richiedono attenzione alla funzione dell'enunciazione e al tipo di validità considerato, non soltanto alla forma grammaticale. Il dialogo con Wittgenstein e con la tradizione analitica sostiene una filosofia del diritto insieme concettuale e attenta ai problemi normativi.",
+      "daSapere": [
+        "1934–2019; Università di Pavia",
+        "Logica deontica, validità e linguaggio normativo",
+        "Enunciazioni thetiche e rhetiche svolgono funzioni diverse"
+      ],
+      "collegamenti": [
+        {
+          "da": "amedeo-g-conte",
+          "a": "enunciazione-rhetica",
+          "tipo": "interpreta",
+          "etichetta": "distingue la funzione dell’"
+        },
+        {
+          "da": "amedeo-g-conte",
+          "a": "regola-costitutiva",
+          "tipo": "interpreta",
+          "etichetta": "studia le categorie di"
+        },
+        {
+          "da": "amedeo-g-conte",
+          "a": "wittgenstein",
+          "tipo": "collegato",
+          "etichetta": "dialoga filosoficamente con"
+        },
+        {
+          "da": "amedeo-g-conte",
+          "a": "validita-pragmatica",
+          "tipo": "interpreta",
+          "etichetta": "ne definisce le specie"
+        },
+        {
+          "da": "amedeo-g-conte",
+          "a": "norma-generale-esclusiva",
+          "tipo": "interpreta",
+          "etichetta": "propone una rilettura della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Collegio Ghislieri, Amedeo Giovanni Conte",
+          "url": "https://www.ghislieri.it/alunni-scomparsi/amedeo-giovanni-conte-1934-2019/"
+        }
+      ]
+    }
+  ],
+  "nuovi": [
+    {
+      "id": "regola-di-riconoscimento",
+      "nome": "Regola di riconoscimento",
+      "tipo": "concetto",
+      "breve": "In Hart, pratica degli organi che identifica i criteri ultimi di validità delle norme di un ordinamento.",
+      "definizione": "Per [[hart|Hart]] la regola di riconoscimento identifica le fonti e i criteri da usare per accertare quali norme appartengano al sistema. Esiste attraverso una pratica convergente degli organi, accompagnata da un atteggiamento interno di accettazione. Non è una norma semplicemente presupposta come la [[grundnorm]] kelseniana, né richiede l’approvazione morale di ogni cittadino."
+    },
+    {
+      "id": "imperativo-ipotetico",
+      "nome": "Imperativo ipotetico",
+      "tipo": "concetto",
+      "breve": "In Kant, prescrizione condizionata all’assunzione di un fine, distinta dall’imperativo categorico.",
+      "definizione": "L’imperativo ipotetico comanda un’azione in vista di un fine presupposto: se si vuole un risultato, si deve seguire il mezzo necessario o appropriato. [[kant|Kant]] vi distingue gli imperativi dell’abilità e i consigli della prudenza. Si differenzia dall’[[imperativo-categorico]], che pretende validità indipendente da fini contingenti."
+    },
+    {
+      "id": "tractatus-logico-philosophicus",
+      "nome": "Tractatus logico-philosophicus",
+      "tipo": "opera",
+      "breve": "Opera del primo Wittgenstein sulla relazione fra linguaggio, logica e mondo, pubblicata nel 1921.",
+      "definizione": "Opera di [[wittgenstein|Ludwig Wittgenstein]], pubblicata in tedesco nel 1921 e in edizione bilingue nel 1922. Attraverso proposizioni numerate indaga la raffigurazione logica dei fatti e i limiti di ciò che può essere detto con senso. La riflessione successiva delle [[ricerche-filosofiche]] modifica profondamente il quadro, valorizzando usi e giochi linguistici."
+    },
+    {
+      "id": "summa-theologiae",
+      "nome": "Summa Theologiae",
+      "tipo": "opera",
+      "breve": "Opera teologica incompiuta di Tommaso d’Aquino, con trattazioni fondamentali su legge, giustizia e azione.",
+      "definizione": "Opera sistematica di [[tommaso-d-aquino|Tommaso d’Aquino]], composta nel XIII secolo e rimasta incompiuta. È articolata in questioni e articoli che presentano obiezioni, risposta e soluzioni. Il trattato sulla legge della prima sezione della seconda parte collega ragione, [[bene-comune]] e autorità; la discussione della giustizia prosegue nella seconda sezione della seconda parte."
+    }
+  ]
+}

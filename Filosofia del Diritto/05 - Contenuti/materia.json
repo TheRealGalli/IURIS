@@ -1,0 +1,12 @@
+{
+  "nome": "Filosofia del diritto",
+  "breve": "Filosofia del diritto",
+  "manuale": "A. Incampo · A. Moro, Il diritto e lo Stato · S. Cotta, Il diritto nell'esistenza",
+  "fonti": [
+    { "id": "incampo", "nome": "Incampo", "file": "Incampo.pdf", "descrizione": "Dispense a cura di Nicla Bianco, A.A. 2025-26, sul libro di A. Incampo", "pagine": 100 },
+    { "id": "moro", "nome": "Moro", "file": "Moro, il diritto e lo stato..pdf", "descrizione": "Dispensa a cura di Nicla Bianco, A.A. 2025-26, su A. Moro, Il diritto e lo Stato", "pagine": 31 },
+    { "id": "cotta", "nome": "Cotta", "file": "sergio-cotta-il-diritto-nell-esistenza.pdf", "descrizione": "Riassunto di S. Cotta, Il diritto nell'esistenza. Linee di ontofenomenologia giuridica", "pagine": 30 }
+  ],
+  "fonte": { "file": "tre testi", "descrizione": "Incampo, Moro, Cotta", "pagine": 161 },
+  "colore": "#2f5d8a"
+}

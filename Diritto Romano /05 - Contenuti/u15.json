@@ -1,0 +1,2159 @@
+{
+  "id": "u15",
+  "ordine": 12,
+  "titolo": "Le idee giusnaturalistiche",
+  "capitolo": "Capitolo dodicesimo",
+  "ricostruita": true,
+  "manuale": [
+    323,
+    352
+  ],
+  "abstract": "Il capitolo dodicesimo del Bretone segue le idee con cui i giuristi romani guardano oltre il diritto positivo: la natura, la ragione, l'equità, la giustizia. Dal consenso dei popoli (ius gentium) all'aequitas naturalis, dalla «legge giusta» di Cicerone allo ius naturale che Ulpiano estende agli animali, fino al contrasto con la schiavitù. Gli appunti non trattano il capitolo: l'unità è ricostruita dall'indice del manuale e dai testi classici.",
+  "note": "Unità ricostruita. Gli appunti non contengono il capitolo dodicesimo, nemmeno i titoli. Il testo segue l'indice del manuale (Laterza, ed. 1992, pp. 323–352; con un'altra edizione le pagine possono cambiare) e i passi che le fonti dedicano a questi temi: D. 1.1 (Ulpiano, Paolo, Ermogeniano), Gaio 1.1 e 1.158, Cicerone (De re publica, De legibus, Topica, Tusculanae), Florentino e Ulpiano sulla schiavitù. Il paragrafo «Verità e apparenza» è il più incerto: il contenuto è ricostruito dal titolo. Non viene dagli appunti e non riproduce le tesi personali di Bretone: verifica sul libro prima dell'esame.",
+  "lezioni": [
+    {
+      "id": "u15-l1",
+      "titolo": "I grandi simboli",
+      "manuale": [
+        323,
+        324
+      ],
+      "minuti": 15,
+      "sintesi": "### Oltre il diritto positivo\nAccanto al lavoro tecnico sui casi, i giuristi romani usano alcune **grandi idee** per rappresentare il fondamento e il fine del diritto: la **natura** (*natura*), la **ragione** (*ratio*), l'**equità** (*[[aequitas]]*), la **giustizia** (*[[iustitia]]*), il **buono e giusto** (*bonum et aequum*). Sono i «grandi simboli» del diritto: concetti carichi di valore, che vengono dalla filosofia greca ma che i giuristi adattano al proprio lavoro.\n\n### Le radici greche\n- [[aristotele|Aristotele]] distingue il giusto **per natura** (valido ovunque) dal giusto **per legge** (stabilito da ogni città).\n- Lo **stoicismo** pensa a una ragione universale (*logos*) che governa il mondo e di cui partecipano tutti gli uomini; a Roma lo diffondono [[panezio|Panezio]] e poi [[cicerone|Cicerone]].\n\n### Le formule di Ulpiano\nI simboli trovano la loro forma più celebre nelle *Institutiones* di [[ulpiano|Ulpiano]], che i compilatori mettono **all'apertura del Digesto** (D. 1.1):\n- il diritto (*ius*) prende nome dalla giustizia (*iustitia*), e [[celso|Celso]] lo definisce *«ars boni et aequi»* («l'arte del buono e dell'equo», [[ars-boni-et-aequi|ars boni et aequi]]);\n- i giuristi possono essere chiamati **sacerdoti**: coltivano la giustizia, separano l'equo dall'iniquo, il lecito dall'illecito, e perseguono *«veram nisi fallor philosophiam, non simulatam»* («una filosofia vera, se non sbaglio, non apparente»): è l'immagine del [[giurista-filosofo|giurista filosofo]];\n- *«Iustitia est constans et perpetua voluntas ius suum cuique tribuendi»* (D. 1.1.10 pr.): la giustizia è la volontà costante e perpetua di dare a ciascuno il suo;\n- i **[[iuris-praecepta|precetti del diritto]]** sono tre: *honeste vivere, alterum non laedere, suum cuique tribuere* (vivere onestamente, non danneggiare gli altri, dare a ciascuno il suo);\n- la *iuris prudentia* è *«divinarum atque humanarum rerum notitia, iusti atque iniusti scientia»*: conoscenza delle cose divine e umane, scienza del giusto e dell'ingiusto.\n\n### Simboli, non regole\nQueste formule non servono a risolvere un caso: nessun giurista decide una lite partendo dal *suum cuique tribuere*. Funzionano come **simboli**: dicono che cosa il diritto pretende di essere e danno dignità a chi lo pratica. Proprio per questo i compilatori le mettono in apertura, come una facciata, e le *Institutiones* di Giustiniano le ripetono. La romanistica discute quanto pesassero nel lavoro quotidiano; di certo hanno avuto un peso enorme nella **fortuna** del diritto romano, fino al [[giusnaturalismo]] moderno.",
+      "puntiChiave": [
+        "Natura, ratio, aequitas, iustitia, bonum et aequum sono i «grandi simboli» del diritto.",
+        "Vengono dalla filosofia greca: Aristotele (giusto per natura e per legge) e lo stoicismo (ragione universale).",
+        "Celso: ius est ars boni et aequi; per Ulpiano i giuristi sono sacerdoti della giustizia.",
+        "Ulpiano: iustitia est constans et perpetua voluntas ius suum cuique tribuendi.",
+        "Tre precetti: honeste vivere, alterum non laedere, suum cuique tribuere.",
+        "Sono simboli più che regole operative: aprono il Digesto come una facciata."
+      ],
+      "memoria": [
+        {
+          "voce": "Ius est ars boni et aequi",
+          "dettaglio": "Celso, riferito da Ulpiano in D. 1.1.1 pr."
+        },
+        {
+          "voce": "D. 1.1.10 pr. (Ulpiano)",
+          "dettaglio": "Iustitia est constans et perpetua voluntas ius suum cuique tribuendi"
+        },
+        {
+          "voce": "Iuris praecepta",
+          "dettaglio": "honeste vivere · alterum non laedere · suum cuique tribuere"
+        },
+        {
+          "voce": "Iuris prudentia",
+          "dettaglio": "divinarum atque humanarum rerum notitia, iusti atque iniusti scientia"
+        },
+        {
+          "voce": "Veram philosophiam, non simulatam",
+          "dettaglio": "Ulpiano sui giuristi sacerdoti della giustizia"
+        }
+      ],
+      "concetti": [
+        "aequitas",
+        "iustitia",
+        "aristotele",
+        "panezio",
+        "cicerone",
+        "ulpiano",
+        "celso",
+        "ars-boni-et-aequi",
+        "giurista-filosofo",
+        "iuris-praecepta",
+        "giusnaturalismo"
+      ]
+    },
+    {
+      "id": "u15-l2",
+      "titolo": "Il consenso dei sapienti e il «consenso dei popoli»",
+      "manuale": [
+        325,
+        329
+      ],
+      "minuti": 18,
+      "sintesi": "### Il consenso come criterio di verità\nUn'idea antica, già in [[aristotele|Aristotele]], è che sia attendibile ciò che sembra vero **a tutti, ai più o ai sapienti**. Nel pensiero giuridico romano questa idea prende due forme: il **consenso dei popoli**, che fonda lo *[[ius-gentium|ius gentium]]*, e il **consenso dei sapienti**, cioè dei giuristi, che fonda l'autorità dei loro pareri.\n\n### Il consenso dei popoli\n[[cicerone|Cicerone]] scrive nelle *Tusculanae* che *«omni autem in re consensio omnium gentium lex naturae putanda est»*: in ogni materia il **consenso di tutti i popoli** va considerato **legge di natura** ([[consensus-omnium-gentium|consensus omnium gentium]]).\n\n[[gaio|Gaio]] apre le sue [[institutiones-di-gaio|Institutiones]] (1.1) con la stessa idea:\n\n> tutti i popoli retti da leggi e costumi usano in parte un diritto **proprio**, in parte un diritto **comune a tutti gli uomini**. Il diritto che ogni popolo si dà è lo *[[ius-civile|ius civile]]*, *quasi ius proprium ipsius civitatis*; quello che la **[[naturalis-ratio|naturalis ratio]]** (la ragione naturale) ha stabilito tra tutti gli uomini è osservato ugualmente presso tutti i popoli e si chiama *ius gentium*, *quasi quo iure omnes gentes utuntur* («il diritto che usano tutte le genti»).\n\nPer Gaio dunque lo *ius gentium* ha **due fondamenti** insieme: il **consenso** di fatto dei popoli e la **ragione naturale**. Diritto delle genti e diritto naturale, in questa visione, sostanzialmente coincidono.\n\n### Che cosa appartiene allo ius gentium\n[[ermogeniano|Ermogeniano]] (D. 1.1.5) elenca ciò che è stato introdotto dal diritto delle genti: le guerre, la separazione dei popoli, i regni, la distinzione delle proprietà, i confini dei campi, gli edifici, il commercio, la **compravendita**, la **locazione**, le obbligazioni, salvo quelle introdotte dallo *ius civile*. Sono gli istituti **senza formalismo**, aperti anche agli stranieri, che il [[pretore-peregrino|pretore peregrino]] e i giuristi hanno sviluppato dal III sec. a.C. (i [[contratti-consensuali|contratti consensuali]], la *[[stipulatio]]* in parole non latine).\n\n### Il consenso dei sapienti\nAnche l'autorità dei giuristi si fonda sul consenso. Gaio (1.7) riferisce il [[rescritto-di-adriano|rescritto di Adriano]]: i *responsa prudentium* sono i pareri di coloro ai quali è stato permesso di creare diritto; **se concordano**, la loro opinione ha forza di legge (*legis vicem optinet*); **se discordano**, il giudice può seguire quella che vuole. Il consenso dei sapienti diventa così una **fonte del diritto**.\n\n### Due consensi, una stessa logica\nIn entrambi i casi la verità giuridica non viene da un comando, ma dall'**accordo**: di tutti i popoli, che rivela ciò che la natura insegna; dei giuristi, che rivela ciò che il diritto richiede. Nel tardo antico, quando il consenso dei sapienti non basta più, la [[legge-delle-citazioni|legge delle citazioni]] lo trasformerà in un **conteggio** dei pareri.",
+      "puntiChiave": [
+        "Il consenso è criterio di verità: ciò che sembra vero a tutti, ai più o ai sapienti.",
+        "Cicerone: consensio omnium gentium lex naturae putanda est.",
+        "Gaio 1.1: ius civile è il diritto proprio di ogni città; ius gentium quello che la naturalis ratio ha stabilito tra tutti gli uomini.",
+        "Per Gaio lo ius gentium si fonda sul consenso dei popoli e sulla ragione naturale, e coincide con il diritto naturale.",
+        "Ermogeniano (D. 1.1.5) elenca gli istituti dello ius gentium: guerre, proprietà, commercio, compravendita, locazione.",
+        "Consenso dei sapienti: per il rescritto di Adriano i pareri concordi dei giuristi hanno forza di legge."
+      ],
+      "memoria": [
+        {
+          "voce": "Cicerone, Tusculanae 1.30",
+          "dettaglio": "omni autem in re consensio omnium gentium lex naturae putanda est"
+        },
+        {
+          "voce": "Gaio 1.1 · ius civile",
+          "dettaglio": "quasi ius proprium ipsius civitatis"
+        },
+        {
+          "voce": "Gaio 1.1 · ius gentium",
+          "dettaglio": "quod naturalis ratio inter omnes homines constituit … quasi quo iure omnes gentes utuntur"
+        },
+        {
+          "voce": "D. 1.1.5 (Ermogeniano)",
+          "dettaglio": "dallo ius gentium: guerre, regni, proprietà, confini, commercio, compravendita, locazione, obbligazioni"
+        },
+        {
+          "voce": "Gaio 1.7",
+          "dettaglio": "pareri concordi = legis vicem optinet; discordi = il giudice sceglie (rescritto di Adriano)"
+        }
+      ],
+      "concetti": [
+        "aristotele",
+        "ius-gentium",
+        "cicerone",
+        "consensus-omnium-gentium",
+        "gaio",
+        "institutiones-di-gaio",
+        "ius-civile",
+        "naturalis-ratio",
+        "ermogeniano",
+        "pretore-peregrino",
+        "contratti-consensuali",
+        "stipulatio",
+        "rescritto-di-adriano",
+        "legge-delle-citazioni"
+      ]
+    },
+    {
+      "id": "u15-l3",
+      "titolo": "Verità e apparenza",
+      "manuale": [
+        330,
+        332
+      ],
+      "minuti": 15,
+      "sintesi": "### Filosofia vera e filosofia apparente\nIl tema compare già nelle parole di [[ulpiano|Ulpiano]] sui giuristi: essi perseguono *«veram nisi fallor philosophiam, non simulatam»*. La filosofia **vera** è quella che si misura con la giustizia nei casi concreti; quella **apparente** è la speculazione che non incide sulla vita. È la rivendicazione del [[giurista-filosofo|giurista filosofo]]: il sapere giuridico non è inferiore alla filosofia, ne è la forma più autentica.\n\n### Ciò che la natura fa e ciò che il diritto costruisce\nIl diritto civile costruisce figure che non sempre coincidono con la realtà naturale. I giuristi ne sono consapevoli e segnano il confine:\n- **parentela**. L'*[[adgnatio|adgnatio]]* (la parentela civile per linea maschile, legata alla *potestas*) si estingue con la *capitis deminutio*; la *[[cognatio|cognatio]]* (la parentela di sangue) no, *«quia civilis ratio civilia quidem iura corrumpere potest, naturalia vero non potest»* (Gaio 1.158): la ragione civile può distruggere i diritti civili, non quelli naturali;\n- **adozione**. L'adozione **imita la natura** (*adoptio naturam imitatur*): non si può adottare chi è più vecchio di sé, perché sarebbe «mostruoso» un figlio più anziano del padre.\n\n### La finzione: un'apparenza dichiarata\nTalvolta il diritto crea **consapevolmente un'apparenza**: è la *[[fictio|fictio]]*, cioè trattare una cosa come se fosse un'altra.\n- Per la *fictio legis Corneliae* il cittadino morto prigioniero del nemico si considera morto **nel momento della cattura**, quando era ancora libero, così il suo testamento resta valido.\n- Con il *postliminium* chi torna dalla prigionia recupera i suoi diritti **come se non fosse mai stato catturato**.\n- Nel [[processo-formulare|processo formulare]] le **formule fittizie** estendono un'azione a chi non ne avrebbe titolo: lo straniero è trattato *come se fosse cittadino romano*, il *bonorum possessor* *come se fosse erede*.\n\nLa finzione non inganna nessuno: è una **tecnica** per ottenere un risultato giusto senza cambiare la regola.\n\n### Contro la simulazione\nDiverso è il caso in cui siano **i privati** a creare un'apparenza per nascondere ciò che vogliono davvero. Qui il diritto guarda alla **realtà**: un titolo del Codice giustinianeo enuncia *«plus valere quod agitur quam quod simulate concipitur»* (vale di più ciò che si fa realmente di ciò che si finge di fare).\n\n### Il filo comune\nNatura e verità sono un **limite** e un **criterio**: il diritto civile può costruire, fingere e qualificare, ma non può cancellare i legami naturali e non deve lasciarsi ingannare dalle apparenze create per eludere le sue regole.",
+      "puntiChiave": [
+        "Ulpiano: i giuristi perseguono una filosofia vera, non apparente.",
+        "Il diritto civile costruisce figure che non sempre coincidono con la natura.",
+        "Gaio 1.158: la civilis ratio può distruggere i diritti civili (adgnatio), non quelli naturali (cognatio).",
+        "L'adozione imita la natura: non si adotta chi è più vecchio.",
+        "La fictio crea un'apparenza dichiarata e utile: fictio legis Corneliae, postliminium, formule fittizie.",
+        "Contro la simulazione dei privati prevale la realtà: plus valere quod agitur quam quod simulate concipitur."
+      ],
+      "memoria": [
+        {
+          "voce": "Gaio 1.158",
+          "dettaglio": "civilis ratio civilia quidem iura corrumpere potest, naturalia vero non potest"
+        },
+        {
+          "voce": "Adoptio naturam imitatur",
+          "dettaglio": "non si adotta chi è più vecchio di sé"
+        },
+        {
+          "voce": "Fictio legis Corneliae",
+          "dettaglio": "chi muore prigioniero si considera morto al momento della cattura"
+        },
+        {
+          "voce": "Postliminium",
+          "dettaglio": "chi torna dalla prigionia recupera i diritti come se non fosse stato catturato"
+        },
+        {
+          "voce": "Plus valere quod agitur …",
+          "dettaglio": "… quam quod simulate concipitur: contro la simulazione"
+        }
+      ],
+      "concetti": [
+        "ulpiano",
+        "giurista-filosofo",
+        "adgnatio",
+        "cognatio",
+        "fictio",
+        "processo-formulare"
+      ]
+    },
+    {
+      "id": "u15-l4",
+      "titolo": "Aequitas civilis ed aequitas naturalis",
+      "manuale": [
+        333,
+        340
+      ],
+      "minuti": 22,
+      "sintesi": "### Due equità\nL'*[[aequitas]]* è l'idea di ciò che è **equo**, di una giusta misura tra le parti. Le fonti ne mostrano due volti:\n- l'**[[aequitas-civilis|aequitas civilis]]**, l'equità **incorporata nel diritto di una comunità**. [[cicerone|Cicerone]] nei [[topica|Topica]] definisce lo *ius civile* come *«aequitas constituta eis qui eiusdem civitatis sunt ad res suas obtinendas»*: un'equità stabilita per i membri della stessa città, perché ottengano ciò che è loro;\n- l'**[[aequitas-naturalis|aequitas naturalis]]**, l'equità fondata sulla **natura** e sulla ragione comune a tutti gli uomini, che può andare oltre la regola civile e correggerla.\n\n### La doppia definizione di ius in Paolo\n[[paolo|Paolo]] (D. 1.1.11) dice che *ius* si usa in più sensi: in un senso è *«id quod semper aequum ac bonum est»* (ciò che è sempre equo e buono), cioè lo **ius naturale**; in un altro è *«quod omnibus aut pluribus in quaque civitate utile est»* (ciò che è utile a tutti o ai più in ciascuna città), cioè lo **ius civile**. L'equità naturale è **permanente**, l'utilità civile **cambia** da città a città.\n\n### Dove lavora l'aequitas naturalis\n- **Arricchimento senza causa.** [[pomponio|Pomponio]]: *«iure naturae aequum est neminem cum alterius detrimento et iniuria fieri locupletiorem»* (D. 50.17.206): per natura è equo che nessuno si arricchisca a danno altrui ([[arricchimento-senza-causa|divieto di arricchimento senza causa]]). Su questa base chi ha pagato ciò che non doveva può ripeterlo (*condictio indebiti*).\n- **Obbligazioni naturali.** Lo schiavo non si obbliga secondo lo *ius civile*, ma *naturaliter et obligantur et obligant* (Ulpiano, D. 44.7.14): è un'**[[obligatio-naturalis|obligatio naturalis]]**, che non dà azione ma impedisce di ripetere quanto è stato pagato.\n- **Correzioni pretorie.** Il pretore corregge le *iniquitates* dello *ius civile*: con la [[bonorum-possessio|bonorum possessio]] chiama all'eredità anche i parenti di sangue che lo *ius civile* escludeva; con l'*[[exceptio|exceptio]] doli* paralizza chi agisce secondo il diritto stretto ma contro buona fede.\n\n### Diritto stretto ed equità\nCicerone ricorda il proverbio *«summum ius summa iniuria»* (De officiis 1.33): il diritto applicato fino in fondo può diventare la massima ingiustizia ([[summum-ius-summa-iniuria|summum ius summa iniuria]]). Paolo: *«in omnibus quidem, maxime tamen in iure aequitas spectanda est»* (D. 50.17.90): in tutto, ma soprattutto nel diritto, bisogna guardare all'equità.\n\nPer i classici l'equità non è un sentimento: è una **ragione tecnica**, il criterio che il giurista usa per trovare la soluzione giusta del caso e che lo porta, se serve, a estendere o a limitare la regola.\n\n### L'equità nelle mani dell'imperatore\nNel tardo antico l'equità diventa un attributo del **potere imperiale**. [[costantino|Costantino]] (C. 3.1.8, 314 d.C.) stabilisce che *in omnibus rebus* prevalga la ragione della giustizia e dell'equità su quella del diritto stretto; ma riserva all'imperatore soltanto il compito di interpretare tra equità e diritto (C. 1.14.1). L'equità, che i giuristi avevano usato come strumento del loro lavoro, passa al legislatore.",
+      "puntiChiave": [
+        "Aequitas civilis: l'equità incorporata nel diritto della città (Cicerone, Topica: ius civile est aequitas constituta…).",
+        "Aequitas naturalis: l'equità fondata sulla natura, che può correggere la regola civile.",
+        "Paolo (D. 1.1.11): ius naturale = quod semper aequum ac bonum est; ius civile = quod … utile est.",
+        "Pomponio: nessuno si arricchisca a danno altrui (D. 50.17.206), base della condictio indebiti.",
+        "Obligatio naturalis dello schiavo: niente azione, ma ciò che è pagato non si ripete.",
+        "Costantino (314) fa prevalere l'equità sul diritto stretto e riserva all'imperatore l'interpretazione tra i due."
+      ],
+      "memoria": [
+        {
+          "voce": "Cicerone, Topica 9",
+          "dettaglio": "ius civile est aequitas constituta eis qui eiusdem civitatis sunt ad res suas obtinendas"
+        },
+        {
+          "voce": "D. 1.1.11 (Paolo)",
+          "dettaglio": "ius naturale: quod semper aequum ac bonum est · ius civile: quod omnibus aut pluribus in quaque civitate utile est"
+        },
+        {
+          "voce": "D. 50.17.206 (Pomponio)",
+          "dettaglio": "neminem cum alterius detrimento et iniuria fieri locupletiorem"
+        },
+        {
+          "voce": "D. 44.7.14 (Ulpiano)",
+          "dettaglio": "servi … naturaliter et obligantur et obligant"
+        },
+        {
+          "voce": "Summum ius summa iniuria",
+          "dettaglio": "Cicerone, De officiis 1.33"
+        },
+        {
+          "voce": "C. 3.1.8 (314 d.C.)",
+          "dettaglio": "Costantino: prevale la ratio iustitiae aequitatisque su quella stricti iuris"
+        }
+      ],
+      "concetti": [
+        "aequitas",
+        "aequitas-civilis",
+        "aequitas-naturalis",
+        "cicerone",
+        "topica",
+        "paolo",
+        "pomponio",
+        "arricchimento-senza-causa",
+        "obligatio-naturalis",
+        "bonorum-possessio",
+        "exceptio",
+        "summum-ius-summa-iniuria",
+        "costantino"
+      ]
+    },
+    {
+      "id": "u15-l5",
+      "titolo": "La «legge giusta»",
+      "manuale": [
+        341,
+        342
+      ],
+      "minuti": 14,
+      "sintesi": "### La vera legge di Cicerone\nIl testo più famoso sulla **legge giusta** è di [[cicerone|Cicerone]], nel terzo libro del [[de-re-publica|De re publica]] (ci è arrivato tramite il cristiano Lattanzio):\n\n> *«Est quidem vera lex recta ratio naturae congruens, diffusa in omnes, constans, sempiterna»*\n\n«La vera legge è la retta ragione conforme alla natura, diffusa in tutti, costante, eterna». Non sarà diversa a Roma e ad Atene, oggi e domani: un'unica legge, eterna e immutabile, governerà tutti i popoli in ogni tempo, e unico comune maestro e signore di tutti sarà il dio ([[vera-lex|vera lex]]).\n\nNel [[de-legibus|De legibus]] (1.18) Cicerone riprende l'idea stoica: la legge è *«ratio summa, insita in natura»*, la ragione suprema insita nella natura, che comanda ciò che va fatto e vieta il contrario. Ne segue che **non ogni deliberazione è legge**: le norme dannose votate dai popoli non meritano il nome di legge più di quanto lo meriterebbero gli accordi fra **briganti** (De legibus 2.13).\n\n### La legge nelle definizioni dei giuristi\nI giuristi sono più sobri. [[papiniano|Papiniano]] (D. 1.3.1) definisce la legge come *«commune praeceptum, virorum prudentium consultum, delictorum … coercitio, communis rei publicae sponsio»*: precetto comune, deliberazione di uomini saggi, repressione dei delitti, impegno comune della comunità.\n\n[[elio-marciano|Marciano]] (D. 1.3.2) cita invece l'oratore Demostene, per cui la legge è invenzione e dono degli dèi, e il filosofo stoico [[crisippo|Crisippo]], per cui *la legge è regina di tutte le cose divine e umane*. Nel cuore del Digesto entra così un frammento di filosofia greca.\n\n### Legge giusta e volontà del principe\nL'idea di una legge **giusta per natura** convive, nel Principato e nel tardo antico, con un'altra idea: *«quod principi placuit, legis habet vigorem»* (Ulpiano, D. 1.4.1: ciò che piace al principe ha forza di legge) e il principe è *[[legibus-solutus|legibus solutus]]*, sciolto dalle leggi. La tensione tra le due idee resta aperta. Una costituzione di Teodosio II e Valentiniano III, detta **[[digna-vox|digna vox]]** (C. 1.14.4, 429 d.C.), afferma che è «voce degna della maestà di chi regna» che il principe si dichiari **vincolato alle leggi**, perché dall'autorità del diritto dipende la sua stessa autorità.",
+      "puntiChiave": [
+        "Cicerone, De re publica: vera lex recta ratio naturae congruens, diffusa in omnes, constans, sempiterna.",
+        "La vera legge è unica per tutti i popoli e in ogni tempo: non diversa a Roma e ad Atene.",
+        "De legibus: la legge è ratio summa insita in natura; le norme dannose non sono vere leggi.",
+        "Papiniano (D. 1.3.1): lex est commune praeceptum, virorum prudentium consultum…",
+        "Marciano (D. 1.3.2) cita Demostene e Crisippo: la legge regina delle cose divine e umane.",
+        "Tensione con il principe legibus solutus; la digna vox (429) lo dichiara vincolato alle leggi."
+      ],
+      "memoria": [
+        {
+          "voce": "De re publica 3",
+          "dettaglio": "Est quidem vera lex recta ratio naturae congruens, diffusa in omnes, constans, sempiterna"
+        },
+        {
+          "voce": "De legibus 1.18",
+          "dettaglio": "lex est ratio summa, insita in natura"
+        },
+        {
+          "voce": "D. 1.3.1 (Papiniano)",
+          "dettaglio": "Lex est commune praeceptum, virorum prudentium consultum…"
+        },
+        {
+          "voce": "D. 1.3.2 (Marciano)",
+          "dettaglio": "Crisippo: la legge è regina di tutte le cose divine e umane"
+        },
+        {
+          "voce": "D. 1.4.1 (Ulpiano)",
+          "dettaglio": "Quod principi placuit, legis habet vigorem"
+        },
+        {
+          "voce": "Digna vox (C. 1.14.4, 429 d.C.)",
+          "dettaglio": "il principe si dichiara vincolato alle leggi"
+        }
+      ],
+      "concetti": [
+        "cicerone",
+        "de-re-publica",
+        "vera-lex",
+        "de-legibus",
+        "papiniano",
+        "elio-marciano",
+        "crisippo",
+        "legibus-solutus",
+        "digna-vox"
+      ]
+    },
+    {
+      "id": "u15-l6",
+      "titolo": "Il diritto oltre la comunità degli uomini",
+      "manuale": [
+        343,
+        352
+      ],
+      "minuti": 24,
+      "sintesi": "### Lo ius naturale degli animali\nLa definizione più sorprendente è quella di [[ulpiano|Ulpiano]] (D. 1.1.1.3), che i compilatori mettono all'inizio del Digesto e delle *Institutiones* di Giustiniano:\n\n> *«Ius naturale est, quod natura omnia animalia docuit»*\n\nIl diritto naturale è ciò che la natura ha insegnato **a tutti gli animali**: non è proprio del genere umano, ma comune a tutti gli esseri che nascono in terra, in mare e agli uccelli. Ne derivano l'**unione del maschio e della femmina**, che noi chiamiamo matrimonio, la **procreazione** e l'**educazione dei figli**: vediamo infatti che anche gli altri animali, perfino le fiere, conoscono questo diritto.\n\nLo *[[ius-gentium|ius gentium]]* invece è quello che usano **le genti umane**: si distingue dal naturale perché questo è comune a tutti gli animali, quello solo agli uomini tra loro (D. 1.1.1.4).\n\n### Tripartizione e bipartizione\n| | [[gaio|Gaio]] (Inst. 1.1) | [[ulpiano|Ulpiano]] (D. 1.1.1.2–4) |\n|---|---|---|\n| Schema | **bipartizione**: *ius civile* / *ius gentium* | **[[tripartizione-ulpianea|tripartizione]]**: *ius naturale* / *ius gentium* / *ius civile* |\n| Fondamento dello *ius gentium* | la *naturalis ratio* tra tutti gli uomini | l'uso delle genti umane |\n| Rapporto con la natura | *ius gentium* ≈ diritto naturale | il diritto naturale riguarda tutti gli animali |\n\nL'idea di un diritto comune agli animali è **isolata** nel pensiero antico: lo stoicismo la rifiutava, perché solo gli esseri razionali possono avere rapporti di giustizia. La sua origine, probabilmente greca, è molto discussa. Nel lavoro concreto i giuristi tengono fermo che l'animale **non è un soggetto**: per i danni causati da un quadrupede si dà l'*[[actio-de-pauperie|actio de pauperie]]*, perché *«nec enim potest animal iniuria fecisse, quod sensu caret»* (Ulpiano, D. 9.1.1.3: l'animale non può aver commesso un torto, poiché è privo di ragione).\n\n### La comunità di dèi e uomini\nOltre gli uomini si può guardare anche **verso l'alto**. Per [[cicerone|Cicerone]] (De legibus 1.23), poiché la ragione è comune agli dèi e agli uomini, *l'intero universo va considerato un'unica città comune di dèi e di uomini*: è la **[[cosmopolis|cosmopoli]]** stoica, in cui la legge naturale vale per tutti gli esseri razionali.\n\n### La schiavitù contro natura\nIl confronto con la natura mette in crisi l'istituto più radicato del mondo antico, la **[[servitus|schiavitù]]**:\n- [[florentino|Florentino]] (D. 1.5.4.1): *«Servitus est constitutio iuris gentium, qua quis dominio alieno contra naturam subicitur»*: la schiavitù è un istituto dello *ius gentium* con cui qualcuno è sottoposto al dominio altrui **contro natura**;\n- Ulpiano (D. 50.17.32): per lo *ius civile* gli schiavi non contano nulla, ma non per lo *ius naturale*, perché **per diritto naturale tutti gli uomini sono uguali** (*omnes homines aequales sunt*);\n- Ulpiano (D. 1.1.4): le [[manumissio|manomissioni]] vengono dallo *ius gentium*, perché per diritto naturale **tutti nascevano liberi**.\n\nI giuristi romani non seguono dunque [[aristotele|Aristotele]], per cui alcuni uomini sono schiavi **per natura**. Ma riconoscere che la schiavitù è contro natura **non porta ad abolirla**: lo *ius naturale* resta un criterio di giudizio, che opera semmai nel [[favor-libertatis|favor libertatis]] e nella tutela crescente degli schiavi.\n\n### L'eredità\nQueste pagine, poste all'apertura del Digesto, saranno lette per secoli. Dalla tripartizione di Ulpiano e dall'uguaglianza naturale degli uomini partiranno i teologi e i giuristi medievali e, più tardi, il [[giusnaturalismo]] moderno.",
+      "puntiChiave": [
+        "Ulpiano: ius naturale est, quod natura omnia animalia docuit (unione dei sessi, procreazione, educazione).",
+        "Lo ius gentium per Ulpiano riguarda solo le genti umane: è distinto dal naturale.",
+        "Gaio ha una bipartizione (civile/gentium), Ulpiano una tripartizione (naturale/gentium/civile).",
+        "Gli animali non sono soggetti: actio de pauperie, perché l'animale «sensu caret».",
+        "Cicerone: l'universo è una città comune di dèi e uomini (cosmopoli stoica).",
+        "Florentino: la schiavitù è istituto dello ius gentium contra naturam; per Ulpiano per natura tutti sono uguali, ma la schiavitù non viene abolita."
+      ],
+      "memoria": [
+        {
+          "voce": "D. 1.1.1.3 (Ulpiano)",
+          "dettaglio": "Ius naturale est, quod natura omnia animalia docuit"
+        },
+        {
+          "voce": "D. 1.1.1.4 (Ulpiano)",
+          "dettaglio": "ius gentium: quo gentes humanae utuntur"
+        },
+        {
+          "voce": "D. 9.1.1.3 (Ulpiano)",
+          "dettaglio": "nec enim potest animal iniuria fecisse, quod sensu caret"
+        },
+        {
+          "voce": "D. 1.5.4.1 (Florentino)",
+          "dettaglio": "Servitus est constitutio iuris gentium, qua quis dominio alieno contra naturam subicitur"
+        },
+        {
+          "voce": "D. 50.17.32 (Ulpiano)",
+          "dettaglio": "quod ad ius naturale attinet, omnes homines aequales sunt"
+        },
+        {
+          "voce": "D. 1.1.4 (Ulpiano)",
+          "dettaglio": "manomissioni dallo ius gentium: iure naturali omnes liberi nascerentur"
+        }
+      ],
+      "concetti": [
+        "ius-naturale",
+        "ulpiano",
+        "ius-gentium",
+        "gaio",
+        "tripartizione-ulpianea",
+        "actio-de-pauperie",
+        "cicerone",
+        "cosmopolis",
+        "servitus",
+        "florentino",
+        "manumissio",
+        "aristotele",
+        "favor-libertatis",
+        "giusnaturalismo"
+      ]
+    }
+  ],
+  "concetti": [
+    {
+      "id": "ius-naturale",
+      "nome": "Ius naturale",
+      "tipo": "concetto",
+      "latino": "ius naturale",
+      "alias": [
+        "diritto naturale"
+      ],
+      "breve": "Il diritto fondato sulla natura: per Paolo ciò che è sempre equo e buono, per Ulpiano ciò che la natura insegna a tutti gli animali.",
+      "definizione": "Idea di origine greca (Aristotele, lo stoicismo) diffusa a Roma da [[cicerone|Cicerone]]. Nei giuristi ha più volti: per [[gaio|Gaio]] coincide in sostanza con lo [[ius-gentium]], fondato sulla [[naturalis-ratio]]; per [[paolo|Paolo]] è *quod semper aequum ac bonum est*; per [[ulpiano|Ulpiano]] è *quod natura omnia animalia docuit*, distinto dallo *ius gentium* ([[tripartizione-ulpianea]]). In nome dello *ius naturale* i giuristi dicono la schiavitù contraria a natura e tutti gli uomini uguali."
+    },
+    {
+      "id": "ius-gentium",
+      "nome": "Ius gentium",
+      "tipo": "concetto",
+      "latino": "ius gentium",
+      "alias": [
+        "diritto delle genti"
+      ],
+      "breve": "Per Gaio il diritto che la ragione naturale ha stabilito tra tutti gli uomini e che usano tutti i popoli.",
+      "definizione": "[[gaio|Gaio]] (1.1): *quod naturalis ratio inter omnes homines constituit, id apud omnes populos peraeque custoditur vocaturque ius gentium*. Si fonda sul **consenso** dei popoli e sulla **ragione naturale**. [[ermogeniano|Ermogeniano]] (D. 1.1.5) vi riconduce guerre, regni, proprietà, commercio, compravendita, locazione. Per [[ulpiano|Ulpiano]] è il diritto delle sole genti umane, distinto dallo [[ius-naturale]]; vi appartiene anche la [[servitus|schiavitù]], che però è *contra naturam*."
+    },
+    {
+      "id": "iustitia",
+      "nome": "Iustitia",
+      "tipo": "concetto",
+      "latino": "iustitia",
+      "alias": [
+        "giustizia"
+      ],
+      "breve": "Per Ulpiano «constans et perpetua voluntas ius suum cuique tribuendi»: la volontà costante di dare a ciascuno il suo.",
+      "definizione": "Uno dei «grandi simboli» del diritto. [[ulpiano|Ulpiano]] fa derivare *ius* da *iustitia* e la definisce come la volontà costante e perpetua di dare a ciascuno il suo (D. 1.1.10 pr.). I giuristi, che la coltivano, possono essere detti suoi sacerdoti ([[giurista-filosofo]]). La formula, di origine filosofica, apre il Digesto e le *Institutiones* di Giustiniano."
+    },
+    {
+      "id": "ars-boni-et-aequi",
+      "nome": "Ars boni et aequi",
+      "tipo": "concetto",
+      "latino": "ius est ars boni et aequi",
+      "breve": "Definizione del diritto data da Celso e riferita da Ulpiano: «l'arte del buono e dell'equo».",
+      "definizione": "Con questa formula [[celso|Celso]] presenta il diritto come un'**arte**, cioè una tecnica guidata da valori (il buono e l'equo). [[ulpiano|Ulpiano]] la riporta all'inizio delle sue *Institutiones* e i compilatori la mettono in apertura del Digesto (D. 1.1.1 pr.)."
+    },
+    {
+      "id": "iuris-praecepta",
+      "nome": "Iuris praecepta",
+      "tipo": "concetto",
+      "latino": "iuris praecepta",
+      "alias": [
+        "tre precetti del diritto"
+      ],
+      "breve": "I tre precetti di Ulpiano: honeste vivere, alterum non laedere, suum cuique tribuere.",
+      "definizione": "Secondo [[ulpiano|Ulpiano]] (D. 1.1.10.1) i precetti del diritto sono tre: **vivere onestamente**, **non danneggiare gli altri**, **dare a ciascuno il suo**. Sono formule simboliche più che regole operative: nessun caso si decide partendo da esse."
+    },
+    {
+      "id": "consensus-omnium-gentium",
+      "nome": "Consensus omnium gentium",
+      "tipo": "concetto",
+      "latino": "consensio omnium gentium",
+      "alias": [
+        "consenso dei popoli"
+      ],
+      "breve": "Il consenso di tutti i popoli come prova della legge di natura (Cicerone, Tusculanae 1.30).",
+      "definizione": "Per [[cicerone|Cicerone]] *omni in re consensio omnium gentium lex naturae putanda est*. L'idea, che risale alla filosofia greca, fonda per [[gaio|Gaio]] lo [[ius-gentium]]: ciò che tutti i popoli osservano rivela ciò che la [[naturalis-ratio]] ha stabilito."
+    },
+    {
+      "id": "naturalis-ratio",
+      "nome": "Naturalis ratio",
+      "tipo": "concetto",
+      "latino": "naturalis ratio",
+      "alias": [
+        "ragione naturale"
+      ],
+      "breve": "La ragione naturale che, per Gaio, ha stabilito tra tutti gli uomini il diritto comune ai popoli (ius gentium).",
+      "definizione": "Nelle [[institutiones-di-gaio|Institutiones di Gaio]] (1.1) è il fondamento dello [[ius-gentium]]: *quod naturalis ratio inter omnes homines constituit*. I giuristi la richiamano anche per spiegare istituti come l'acquisto della proprietà con la consegna o l'occupazione delle cose senza padrone."
+    },
+    {
+      "id": "fictio",
+      "nome": "Fictio",
+      "tipo": "concetto",
+      "latino": "fictio",
+      "alias": [
+        "finzione giuridica"
+      ],
+      "breve": "Tecnica con cui il diritto tratta una cosa come se fosse un'altra: fictio legis Corneliae, postliminium, formule fittizie.",
+      "definizione": "Apparenza **dichiarata** e utile, non un inganno: per la *fictio legis Corneliae* chi muore prigioniero si considera morto al momento della cattura (così il testamento vale); con il *postliminium* chi torna recupera i diritti come se non fosse stato catturato; nel [[processo-formulare]] le formule fittizie trattano lo straniero come cittadino o il *bonorum possessor* come erede. Si distingue dalla simulazione dei privati, contro la quale prevale la realtà."
+    },
+    {
+      "id": "aequitas-civilis",
+      "nome": "Aequitas civilis",
+      "tipo": "concetto",
+      "latino": "aequitas civilis",
+      "breve": "L'equità incorporata nel diritto della città: per Cicerone lo ius civile è «aequitas constituta» per i concittadini.",
+      "definizione": "Nei [[topica|Topica]] [[cicerone|Cicerone]] definisce lo [[ius-civile]] come *aequitas constituta eis qui eiusdem civitatis sunt ad res suas obtinendas*. È l'equità già tradotta in regole di una comunità, che cambia da città a città (Paolo: *quod … in quaque civitate utile est*). Si contrappone all'[[aequitas-naturalis]]."
+    },
+    {
+      "id": "aequitas-naturalis",
+      "nome": "Aequitas naturalis",
+      "tipo": "concetto",
+      "latino": "aequitas naturalis",
+      "breve": "L'equità fondata sulla natura, comune a tutti gli uomini, che può andare oltre la regola civile e correggerla.",
+      "definizione": "È ciò che è *semper aequum ac bonum* ([[paolo|Paolo]], D. 1.1.11). Fonda il divieto di [[arricchimento-senza-causa]] (Pomponio), l'[[obligatio-naturalis]] e molte correzioni pretorie (bonorum possessio dei cognati, *exceptio doli*). Per i classici è una ragione tecnica del giurista; nel tardo antico diventa una prerogativa dell'imperatore ([[costantino|Costantino]])."
+    },
+    {
+      "id": "arricchimento-senza-causa",
+      "nome": "Divieto di arricchimento senza causa",
+      "tipo": "concetto",
+      "latino": "neminem cum alterius detrimento fieri locupletiorem",
+      "breve": "Pomponio: per natura è equo che nessuno si arricchisca a danno altrui (D. 50.17.206). Base della condictio indebiti.",
+      "definizione": "Principio di [[aequitas-naturalis]] formulato da [[pomponio|Pomponio]]: *iure naturae aequum est neminem cum alterius detrimento et iniuria fieri locupletiorem*. Spiega perché chi ha pagato ciò che non doveva può ripeterlo con la *condictio indebiti*."
+    },
+    {
+      "id": "obligatio-naturalis",
+      "nome": "Obligatio naturalis",
+      "tipo": "istituto",
+      "latino": "obligatio naturalis",
+      "alias": [
+        "obbligazione naturale"
+      ],
+      "breve": "Obbligazione riconosciuta per natura ma non dallo ius civile: non dà azione, ma ciò che è pagato non si ripete.",
+      "definizione": "Tipico il caso dello schiavo: *servi ex contractibus civiliter quidem non obligantur, sed naturaliter et obligantur et obligant* ([[ulpiano|Ulpiano]], D. 44.7.14). Il creditore non può agire in giudizio, ma se il debito viene pagato il pagamento è valido (*soluti retentio*). È un esempio di [[aequitas-naturalis]]."
+    },
+    {
+      "id": "summum-ius-summa-iniuria",
+      "nome": "Summum ius summa iniuria",
+      "tipo": "concetto",
+      "latino": "summum ius summa iniuria",
+      "breve": "Proverbio riferito da Cicerone (De officiis 1.33): il diritto applicato fino in fondo diventa la massima ingiustizia.",
+      "definizione": "Esprime il rischio del diritto stretto, applicato alla lettera senza guardare all'equità. [[cicerone|Cicerone]] lo cita come proverbio già diffuso. È il rovescio dell'idea di Paolo: *in omnibus, maxime tamen in iure aequitas spectanda est* (D. 50.17.90)."
+    },
+    {
+      "id": "vera-lex",
+      "nome": "Vera lex",
+      "tipo": "concetto",
+      "latino": "vera lex recta ratio naturae congruens",
+      "alias": [
+        "legge giusta",
+        "legge naturale"
+      ],
+      "breve": "Per Cicerone la vera legge è la retta ragione conforme alla natura: unica, eterna, uguale per tutti i popoli.",
+      "definizione": "Nel [[de-re-publica|De re publica]] (libro III, tramandato da Lattanzio) [[cicerone|Cicerone]] scrive: *est quidem vera lex recta ratio naturae congruens, diffusa in omnes, constans, sempiterna*; non sarà diversa a Roma e ad Atene. Nel [[de-legibus|De legibus]] la legge è *ratio summa insita in natura*, e le norme dannose non meritano il nome di legge. È la versione romana dell'idea stoica di legge naturale."
+    },
+    {
+      "id": "crisippo",
+      "nome": "Crisippo",
+      "tipo": "persona",
+      "breve": "Filosofo stoico (III sec. a.C.) citato da Marciano nel Digesto: la legge è regina di tutte le cose divine e umane.",
+      "definizione": "Uno dei maestri dello stoicismo antico. [[elio-marciano|Marciano]] (D. 1.3.2) cita in greco l'inizio della sua opera sulla legge: la legge è *regina di tutte le cose divine e umane*. È uno dei rari passi di filosofia greca entrati nel [[digesto|Digesto]]."
+    },
+    {
+      "id": "digna-vox",
+      "nome": "Digna vox",
+      "tipo": "norma",
+      "latino": "digna vox maiestate regnantis",
+      "breve": "Costituzione di Teodosio II e Valentiniano III (C. 1.14.4, 429 d.C.): il principe si dichiara vincolato alle leggi.",
+      "definizione": "Afferma che è «voce degna della maestà di chi regna» che il principe si professi **vincolato alle leggi**, perché dall'autorità del diritto dipende la sua stessa autorità. Bilancia l'idea del principe [[legibus-solutus]] e di *quod principi placuit, legis habet vigorem*."
+    },
+    {
+      "id": "tripartizione-ulpianea",
+      "nome": "Tripartizione di Ulpiano",
+      "tipo": "concetto",
+      "alias": [
+        "ius naturale, gentium, civile"
+      ],
+      "breve": "Divisione del diritto in ius naturale (comune agli animali), ius gentium (delle genti umane) e ius civile.",
+      "definizione": "[[ulpiano|Ulpiano]] (D. 1.1.1.2–4) distingue tre diritti: lo [[ius-naturale]], che la natura insegna a tutti gli animali; lo [[ius-gentium]], che usano solo le genti umane; lo [[ius-civile]], proprio di ciascuna città. Si contrappone alla **bipartizione** di [[gaio|Gaio]] (civile / gentium). Le *Institutiones* di Giustiniano adottano lo schema di Ulpiano."
+    },
+    {
+      "id": "actio-de-pauperie",
+      "nome": "Actio de pauperie",
+      "tipo": "procedura",
+      "latino": "actio de pauperie",
+      "breve": "Azione per i danni causati da un quadrupede: l'animale non può commettere iniuria perché «sensu caret».",
+      "definizione": "Già prevista dalle [[xii-tavole|XII Tavole]], è data contro il proprietario dell'animale, che può pagare il danno o consegnare l'animale. [[ulpiano|Ulpiano]] precisa che si parla di *pauperies* (danno senza torto) perché *nec enim potest animal iniuria fecisse, quod sensu caret* (D. 9.1.1.3): nel lavoro concreto l'animale non è un soggetto di diritto."
+    },
+    {
+      "id": "cosmopolis",
+      "nome": "Cosmopoli",
+      "tipo": "concetto",
+      "alias": [
+        "città comune di dèi e uomini"
+      ],
+      "breve": "Idea stoica ripresa da Cicerone: l'universo è un'unica città comune di dèi e uomini, uniti dalla ragione.",
+      "definizione": "Nel [[de-legibus|De legibus]] (1.23) [[cicerone|Cicerone]] scrive che, poiché dèi e uomini hanno in comune la ragione e quindi la legge, l'intero universo va considerato *una civitas communis deorum atque hominum*. È il diritto pensato **oltre** la comunità politica degli uomini."
+    },
+    {
+      "id": "servitus",
+      "nome": "Servitus (schiavitù)",
+      "tipo": "istituto",
+      "latino": "servitus",
+      "alias": [
+        "schiavitù",
+        "servi"
+      ],
+      "breve": "Per Florentino istituto dello ius gentium con cui qualcuno è sottoposto al dominio altrui contro natura.",
+      "definizione": "*Servitus est constitutio iuris gentium, qua quis dominio alieno contra naturam subicitur* ([[florentino|Florentino]], D. 1.5.4.1). Per [[ulpiano|Ulpiano]] gli schiavi non contano per lo *ius civile*, ma per lo [[ius-naturale]] tutti gli uomini sono uguali (D. 50.17.32) e nascevano liberi (D. 1.1.4). Riconoscerla contro natura non porta ad abolirla, ma alimenta il [[favor-libertatis]]."
+    },
+    {
+      "id": "florentino",
+      "nome": "Florentino",
+      "tipo": "persona",
+      "breve": "Giurista del II sec. d.C., autore di Institutiones; definisce la schiavitù istituto dello ius gentium contra naturam.",
+      "definizione": "Giurista dell'età degli Antonini, noto quasi solo per le sue *Institutiones* in dodici libri, usate dai compilatori giustinianei. È sua la definizione della [[servitus|schiavitù]] come istituto dello [[ius-gentium]] *contra naturam* (D. 1.5.4.1)."
+    }
+  ],
+  "relazioni": [
+    {
+      "da": "iustitia",
+      "a": "ius-naturale",
+      "tipo": "collegato"
+    },
+    {
+      "da": "celso",
+      "a": "ars-boni-et-aequi",
+      "tipo": "crea",
+      "etichetta": "definisce"
+    },
+    {
+      "da": "ulpiano",
+      "a": "iustitia",
+      "tipo": "interpreta",
+      "etichetta": "definisce"
+    },
+    {
+      "da": "ulpiano",
+      "a": "iuris-praecepta",
+      "tipo": "crea"
+    },
+    {
+      "da": "iuris-praecepta",
+      "a": "iustitia",
+      "tipo": "parte-di"
+    },
+    {
+      "da": "aristotele",
+      "a": "ius-naturale",
+      "tipo": "influenza",
+      "etichetta": "giusto per natura"
+    },
+    {
+      "da": "panezio",
+      "a": "cicerone",
+      "tipo": "influenza"
+    },
+    {
+      "da": "consensus-omnium-gentium",
+      "a": "ius-gentium",
+      "tipo": "causa",
+      "etichetta": "fonda"
+    },
+    {
+      "da": "naturalis-ratio",
+      "a": "ius-gentium",
+      "tipo": "crea",
+      "etichetta": "stabilisce (Gaio)"
+    },
+    {
+      "da": "ius-gentium",
+      "a": "ius-civile",
+      "tipo": "contrasta",
+      "etichetta": "comune / proprio"
+    },
+    {
+      "da": "gaio",
+      "a": "naturalis-ratio",
+      "tipo": "interpreta"
+    },
+    {
+      "da": "ermogeniano",
+      "a": "ius-gentium",
+      "tipo": "interpreta",
+      "etichetta": "elenca gli istituti"
+    },
+    {
+      "da": "rescritto-di-adriano",
+      "a": "legge-delle-citazioni",
+      "tipo": "evolve-in",
+      "etichetta": "dal consenso al conteggio"
+    },
+    {
+      "da": "cognatio",
+      "a": "adgnatio",
+      "tipo": "contrasta",
+      "etichetta": "natura / ius civile"
+    },
+    {
+      "da": "fictio",
+      "a": "processo-formulare",
+      "tipo": "parte-di",
+      "etichetta": "formule fittizie"
+    },
+    {
+      "da": "aequitas-civilis",
+      "a": "aequitas",
+      "tipo": "parte-di"
+    },
+    {
+      "da": "aequitas-naturalis",
+      "a": "aequitas",
+      "tipo": "parte-di"
+    },
+    {
+      "da": "aequitas-civilis",
+      "a": "aequitas-naturalis",
+      "tipo": "contrasta"
+    },
+    {
+      "da": "aequitas-naturalis",
+      "a": "arricchimento-senza-causa",
+      "tipo": "causa",
+      "etichetta": "fonda"
+    },
+    {
+      "da": "aequitas-naturalis",
+      "a": "obligatio-naturalis",
+      "tipo": "causa",
+      "etichetta": "fonda"
+    },
+    {
+      "da": "aequitas-naturalis",
+      "a": "bonorum-possessio",
+      "tipo": "influenza",
+      "etichetta": "corregge lo ius civile"
+    },
+    {
+      "da": "pomponio",
+      "a": "arricchimento-senza-causa",
+      "tipo": "crea",
+      "etichetta": "formula"
+    },
+    {
+      "da": "summum-ius-summa-iniuria",
+      "a": "aequitas",
+      "tipo": "collegato"
+    },
+    {
+      "da": "costantino",
+      "a": "aequitas-naturalis",
+      "tipo": "interpreta",
+      "etichetta": "riserva all'imperatore"
+    },
+    {
+      "da": "cicerone",
+      "a": "vera-lex",
+      "tipo": "crea"
+    },
+    {
+      "da": "de-re-publica",
+      "a": "vera-lex",
+      "tipo": "testimonia"
+    },
+    {
+      "da": "de-legibus",
+      "a": "vera-lex",
+      "tipo": "testimonia"
+    },
+    {
+      "da": "crisippo",
+      "a": "elio-marciano",
+      "tipo": "influenza",
+      "etichetta": "citato da"
+    },
+    {
+      "da": "digna-vox",
+      "a": "legibus-solutus",
+      "tipo": "contrasta"
+    },
+    {
+      "da": "ulpiano",
+      "a": "tripartizione-ulpianea",
+      "tipo": "crea"
+    },
+    {
+      "da": "tripartizione-ulpianea",
+      "a": "ius-naturale",
+      "tipo": "parte-di"
+    },
+    {
+      "da": "tripartizione-ulpianea",
+      "a": "ius-gentium",
+      "tipo": "parte-di"
+    },
+    {
+      "da": "actio-de-pauperie",
+      "a": "tripartizione-ulpianea",
+      "tipo": "contrasta",
+      "etichetta": "l'animale non è soggetto"
+    },
+    {
+      "da": "de-legibus",
+      "a": "cosmopolis",
+      "tipo": "testimonia"
+    },
+    {
+      "da": "florentino",
+      "a": "servitus",
+      "tipo": "interpreta",
+      "etichetta": "contra naturam"
+    },
+    {
+      "da": "servitus",
+      "a": "ius-gentium",
+      "tipo": "parte-di"
+    },
+    {
+      "da": "ius-naturale",
+      "a": "servitus",
+      "tipo": "contrasta",
+      "etichetta": "omnes homines aequales"
+    },
+    {
+      "da": "ius-naturale",
+      "a": "favor-libertatis",
+      "tipo": "influenza"
+    },
+    {
+      "da": "ius-naturale",
+      "a": "giusnaturalismo",
+      "tipo": "influenza",
+      "etichetta": "eredità"
+    }
+  ],
+  "eventi": [
+    {
+      "id": "ev-de-re-publica",
+      "anno": -54,
+      "annoFine": -51,
+      "data": "54–51 a.C.",
+      "titolo": "De re publica di Cicerone",
+      "descrizione": "Nel terzo libro la definizione della vera lex: retta ragione conforme alla natura, uguale per tutti i popoli.",
+      "tipo": "opera",
+      "concetti": [
+        "de-re-publica",
+        "vera-lex",
+        "cicerone"
+      ]
+    },
+    {
+      "id": "ev-de-legibus",
+      "anno": -52,
+      "approssimato": true,
+      "data": "dal 52 a.C. circa",
+      "titolo": "De legibus di Cicerone",
+      "descrizione": "La legge come ratio summa insita in natura; l'universo come città comune di dèi e uomini.",
+      "tipo": "opera",
+      "concetti": [
+        "de-legibus",
+        "vera-lex",
+        "cosmopolis"
+      ]
+    },
+    {
+      "id": "ev-florentino",
+      "anno": 170,
+      "approssimato": true,
+      "data": "seconda metà II sec. d.C.",
+      "titolo": "Institutiones di Florentino",
+      "descrizione": "Vi si definisce la schiavitù istituto dello ius gentium contra naturam.",
+      "tipo": "opera",
+      "concetti": [
+        "florentino",
+        "servitus"
+      ]
+    },
+    {
+      "id": "ev-costantino-aequitas",
+      "anno": 314,
+      "data": "314 d.C.",
+      "titolo": "Costantino: l'equità prevale sul diritto stretto",
+      "descrizione": "C. 3.1.8: in tutte le cose prevale la ragione della giustizia e dell'equità su quella dello stretto diritto.",
+      "tipo": "codificazione",
+      "concetti": [
+        "costantino",
+        "aequitas-naturalis"
+      ]
+    },
+    {
+      "id": "ev-digna-vox",
+      "anno": 429,
+      "data": "429 d.C.",
+      "titolo": "Digna vox",
+      "descrizione": "Teodosio II e Valentiniano III: è degno della maestà del principe dichiararsi vincolato alle leggi (C. 1.14.4).",
+      "tipo": "codificazione",
+      "concetti": [
+        "digna-vox",
+        "legibus-solutus",
+        "teodosio-ii"
+      ]
+    }
+  ],
+  "mappa": {
+    "testo": "Le idee giusnaturalistiche (cap. XII)",
+    "figli": [
+      {
+        "testo": "I grandi simboli",
+        "figli": [
+          {
+            "testo": "radici greche",
+            "concetto": "aristotele",
+            "nota": "giusto per natura / per legge; stoicismo"
+          },
+          {
+            "testo": "ars boni et aequi",
+            "concetto": "ars-boni-et-aequi",
+            "nota": "Celso"
+          },
+          {
+            "testo": "iustitia",
+            "concetto": "iustitia",
+            "nota": "suum cuique tribuere"
+          },
+          {
+            "testo": "tre precetti",
+            "concetto": "iuris-praecepta"
+          },
+          {
+            "testo": "giuristi sacerdoti",
+            "concetto": "giurista-filosofo",
+            "nota": "veram philosophiam, non simulatam"
+          }
+        ]
+      },
+      {
+        "testo": "Il consenso",
+        "figli": [
+          {
+            "testo": "dei popoli",
+            "concetto": "consensus-omnium-gentium",
+            "figli": [
+              {
+                "testo": "Gaio 1.1: ius gentium",
+                "concetto": "ius-gentium",
+                "nota": "quod naturalis ratio … constituit"
+              },
+              {
+                "testo": "istituti dello ius gentium",
+                "concetto": "ermogeniano",
+                "nota": "D. 1.1.5"
+              }
+            ]
+          },
+          {
+            "testo": "dei sapienti",
+            "concetto": "rescritto-di-adriano",
+            "nota": "pareri concordi = forza di legge"
+          }
+        ]
+      },
+      {
+        "testo": "Verità e apparenza",
+        "figli": [
+          {
+            "testo": "natura come limite",
+            "concetto": "cognatio",
+            "nota": "Gaio 1.158"
+          },
+          {
+            "testo": "adoptio naturam imitatur"
+          },
+          {
+            "testo": "fictio",
+            "concetto": "fictio",
+            "nota": "legis Corneliae, postliminium, formule fittizie"
+          },
+          {
+            "testo": "contro la simulazione",
+            "nota": "plus valere quod agitur"
+          }
+        ]
+      },
+      {
+        "testo": "Le due aequitas",
+        "concetto": "aequitas",
+        "figli": [
+          {
+            "testo": "aequitas civilis",
+            "concetto": "aequitas-civilis",
+            "nota": "Cicerone, Topica"
+          },
+          {
+            "testo": "aequitas naturalis",
+            "concetto": "aequitas-naturalis",
+            "figli": [
+              {
+                "testo": "arricchimento senza causa",
+                "concetto": "arricchimento-senza-causa"
+              },
+              {
+                "testo": "obligatio naturalis",
+                "concetto": "obligatio-naturalis"
+              },
+              {
+                "testo": "correzioni pretorie",
+                "concetto": "bonorum-possessio"
+              }
+            ]
+          },
+          {
+            "testo": "summum ius summa iniuria",
+            "concetto": "summum-ius-summa-iniuria"
+          },
+          {
+            "testo": "all'imperatore",
+            "concetto": "costantino",
+            "nota": "C. 3.1.8 (314)"
+          }
+        ]
+      },
+      {
+        "testo": "La legge giusta",
+        "concetto": "vera-lex",
+        "figli": [
+          {
+            "testo": "Cicerone: recta ratio",
+            "concetto": "de-re-publica"
+          },
+          {
+            "testo": "norme ingiuste non sono leggi",
+            "concetto": "de-legibus"
+          },
+          {
+            "testo": "Papiniano e Marciano",
+            "concetto": "crisippo",
+            "nota": "D. 1.3.1–2"
+          },
+          {
+            "testo": "principe e leggi",
+            "concetto": "digna-vox",
+            "nota": "legibus solutus / digna vox"
+          }
+        ]
+      },
+      {
+        "testo": "Oltre gli uomini",
+        "figli": [
+          {
+            "testo": "ius naturale degli animali",
+            "concetto": "ius-naturale",
+            "nota": "Ulpiano, D. 1.1.1.3"
+          },
+          {
+            "testo": "tripartizione / bipartizione",
+            "concetto": "tripartizione-ulpianea"
+          },
+          {
+            "testo": "l'animale non è soggetto",
+            "concetto": "actio-de-pauperie"
+          },
+          {
+            "testo": "città di dèi e uomini",
+            "concetto": "cosmopolis"
+          },
+          {
+            "testo": "schiavitù contra naturam",
+            "concetto": "servitus",
+            "nota": "Florentino, Ulpiano"
+          }
+        ]
+      }
+    ]
+  },
+  "domande": [
+    {
+      "id": "u15-q001",
+      "tipo": "flashcard",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "domanda": "Quali sono i «grandi simboli» del diritto e da dove vengono?",
+      "risposta": "Natura, ratio, aequitas, iustitia, bonum et aequum: idee cariche di valore con cui i giuristi rappresentano fondamento e fine del diritto. Vengono dalla filosofia greca (Aristotele, lo stoicismo), diffusa a Roma da Panezio e Cicerone.",
+      "concetti": [
+        "iustitia",
+        "aequitas",
+        "aristotele"
+      ]
+    },
+    {
+      "id": "u15-q002",
+      "tipo": "flashcard",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "domanda": "Come definisce Ulpiano la giustizia?",
+      "risposta": "«Iustitia est constans et perpetua voluntas ius suum cuique tribuendi» (D. 1.1.10 pr.): la volontà costante e perpetua di dare a ciascuno il suo.",
+      "concetti": [
+        "iustitia",
+        "ulpiano"
+      ]
+    },
+    {
+      "id": "u15-q003",
+      "tipo": "flashcard",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "domanda": "Quali sono i tre precetti del diritto secondo Ulpiano?",
+      "risposta": "Honeste vivere (vivere onestamente), alterum non laedere (non danneggiare gli altri), suum cuique tribuere (dare a ciascuno il suo). D. 1.1.10.1.",
+      "concetti": [
+        "iuris-praecepta",
+        "ulpiano"
+      ]
+    },
+    {
+      "id": "u15-q004",
+      "tipo": "flashcard",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "domanda": "Perché si dice che queste formule sono «simboli» più che regole?",
+      "risposta": "Perché nessun caso si decide partendo dal suum cuique tribuere: dicono che cosa il diritto pretende di essere e danno dignità a chi lo pratica. I compilatori le mettono all'apertura del Digesto come una facciata; hanno pesato soprattutto nella fortuna successiva del diritto romano.",
+      "concetti": [
+        "iuris-praecepta",
+        "iustitia"
+      ]
+    },
+    {
+      "id": "u15-q005",
+      "tipo": "multipla",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "domanda": "A quale giurista si deve la definizione «ius est ars boni et aequi»?",
+      "opzioni": [
+        "Ulpiano",
+        "Celso",
+        "Gaio",
+        "Paolo"
+      ],
+      "corretta": 1,
+      "spiegazione": "È di Celso; Ulpiano la riferisce all'inizio delle sue Institutiones (D. 1.1.1 pr.).",
+      "concetti": [
+        "ars-boni-et-aequi",
+        "celso"
+      ]
+    },
+    {
+      "id": "u15-q006",
+      "tipo": "multipla",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "domanda": "Che cosa intende Ulpiano quando dice che i giuristi perseguono «veram nisi fallor philosophiam, non simulatam»?",
+      "opzioni": [
+        "Che i giuristi devono studiare la filosofia greca prima del diritto",
+        "Che la filosofia è inutile per il diritto",
+        "Che i filosofi devono dare i responsi al posto dei giuristi",
+        "Che il sapere giuridico, misurandosi con la giustizia nei casi, è la filosofia autentica"
+      ],
+      "corretta": 3,
+      "spiegazione": "È la rivendicazione del giurista filosofo: chi coltiva la giustizia e separa l'equo dall'iniquo pratica la filosofia vera, non quella apparente.",
+      "concetti": [
+        "giurista-filosofo",
+        "ulpiano"
+      ]
+    },
+    {
+      "id": "u15-q007",
+      "tipo": "verofalso",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "affermazione": "Aristotele distingue il giusto per natura, valido ovunque, dal giusto per legge, stabilito da ogni città.",
+      "vero": true,
+      "spiegazione": "Vero: è una delle radici greche delle idee giusnaturalistiche romane.",
+      "concetti": [
+        "aristotele",
+        "ius-naturale"
+      ]
+    },
+    {
+      "id": "u15-q008",
+      "tipo": "verofalso",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "affermazione": "I tre precetti di Ulpiano erano il criterio con cui i giuristi decidevano concretamente i casi.",
+      "vero": false,
+      "spiegazione": "Falso: sono formule simboliche; il lavoro sui casi seguiva il metodo casistico, non la deduzione da questi precetti.",
+      "concetti": [
+        "iuris-praecepta"
+      ]
+    },
+    {
+      "id": "u15-q009",
+      "tipo": "completa",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "testo": "I tre precetti del diritto: honeste vivere, alterum non {{laedere}}, suum cuique {{tribuere}}.",
+      "concetti": [
+        "iuris-praecepta"
+      ]
+    },
+    {
+      "id": "u15-q010",
+      "tipo": "aperta",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "domanda": "Quali sono i «grandi simboli» del diritto romano e come li formula Ulpiano all'inizio del Digesto?",
+      "traccia": "Accanto al lavoro sui casi, i giuristi usano **grandi idee**: natura, ratio, **aequitas**, **iustitia**, *bonum et aequum*. Vengono dalla **filosofia greca**: Aristotele (giusto per natura e per legge), lo **stoicismo** (ragione universale), diffuso a Roma da Panezio e Cicerone.\n\n**Ulpiano**, all'inizio del Digesto: *ius* viene da *iustitia*; **Celso** lo definisce *ars boni et aequi*; i giuristi sono **sacerdoti** della giustizia e perseguono una filosofia **vera, non apparente**. La giustizia è *constans et perpetua voluntas ius suum cuique tribuendi*; i **tre precetti**: *honeste vivere, alterum non laedere, suum cuique tribuere*; la *iuris prudentia* è conoscenza delle cose divine e umane.\n\nSono **simboli** più che regole operative: aprono il Digesto come una facciata e peseranno nella fortuna del diritto romano, fino al giusnaturalismo moderno.",
+      "punti": [
+        {
+          "testo": "Natura, ratio, aequitas, iustitia come simboli",
+          "chiavi": [
+            "natura",
+            "aequitas",
+            "iustitia",
+            "simbol"
+          ]
+        },
+        {
+          "testo": "Radici greche: Aristotele e stoicismo",
+          "chiavi": [
+            "aristotele",
+            "stoic",
+            "grec"
+          ]
+        },
+        {
+          "testo": "Ars boni et aequi (Celso) e giuristi sacerdoti",
+          "chiavi": [
+            "ars",
+            "celso",
+            "sacerdot"
+          ]
+        },
+        {
+          "testo": "Definizione della giustizia e tre precetti",
+          "chiavi": [
+            "suum cuique",
+            "precett",
+            "honeste",
+            "laedere"
+          ]
+        },
+        {
+          "testo": "Simboli più che regole operative",
+          "chiavi": [
+            "simbol",
+            "facciata",
+            "operativ"
+          ]
+        }
+      ],
+      "concetti": [
+        "iustitia",
+        "iuris-praecepta",
+        "ars-boni-et-aequi"
+      ]
+    },
+    {
+      "id": "u15-q011",
+      "tipo": "flashcard",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "domanda": "Come distingue Gaio (Inst. 1.1) lo ius civile dallo ius gentium?",
+      "risposta": "Lo ius civile è il diritto che ogni popolo si dà, quasi ius proprium ipsius civitatis; lo ius gentium è quello che la naturalis ratio ha stabilito tra tutti gli uomini ed è osservato ugualmente da tutti i popoli, quasi quo iure omnes gentes utuntur.",
+      "concetti": [
+        "ius-civile",
+        "ius-gentium",
+        "gaio"
+      ]
+    },
+    {
+      "id": "u15-q012",
+      "tipo": "flashcard",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "domanda": "Su quali due fondamenti poggia lo ius gentium per Gaio?",
+      "risposta": "Sul consenso di fatto di tutti i popoli e sulla ragione naturale (naturalis ratio). Per questo, nella visione di Gaio, diritto delle genti e diritto naturale sostanzialmente coincidono.",
+      "concetti": [
+        "ius-gentium",
+        "naturalis-ratio",
+        "consensus-omnium-gentium"
+      ]
+    },
+    {
+      "id": "u15-q013",
+      "tipo": "flashcard",
+      "lezione": "u15-l2",
+      "livello": "avanzato",
+      "domanda": "Che cosa elenca Ermogeniano in D. 1.1.5?",
+      "risposta": "Ciò che è stato introdotto dallo ius gentium: le guerre, la separazione dei popoli, i regni, la distinzione delle proprietà, i confini dei campi, gli edifici, il commercio, la compravendita, la locazione e le obbligazioni, salvo quelle introdotte dallo ius civile.",
+      "concetti": [
+        "ermogeniano",
+        "ius-gentium"
+      ]
+    },
+    {
+      "id": "u15-q014",
+      "tipo": "flashcard",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "domanda": "In che senso anche l'autorità dei giuristi si fonda sul consenso?",
+      "risposta": "Per il rescritto di Adriano (Gaio 1.7) i pareri di coloro ai quali è permesso creare diritto, se concordano, hanno forza di legge (legis vicem optinet); se discordano il giudice sceglie. Il consenso dei sapienti diventa fonte del diritto.",
+      "concetti": [
+        "rescritto-di-adriano"
+      ]
+    },
+    {
+      "id": "u15-q015",
+      "tipo": "multipla",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "domanda": "Chi scrive che «omni in re consensio omnium gentium lex naturae putanda est»?",
+      "opzioni": [
+        "Gaio",
+        "Ulpiano",
+        "Cicerone",
+        "Seneca"
+      ],
+      "corretta": 2,
+      "spiegazione": "È Cicerone, nelle Tusculanae (1.30): il consenso di tutti i popoli va considerato legge di natura.",
+      "concetti": [
+        "consensus-omnium-gentium",
+        "cicerone"
+      ]
+    },
+    {
+      "id": "u15-q016",
+      "tipo": "multipla",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "domanda": "Quale di questi istituti NON appartiene allo ius gentium secondo le fonti?",
+      "opzioni": [
+        "La mancipatio",
+        "La compravendita",
+        "La locazione",
+        "Il commercio"
+      ],
+      "corretta": 0,
+      "spiegazione": "La mancipatio è un negozio formale dello ius civile, riservato ai cittadini; compravendita, locazione e commercio sono dello ius gentium.",
+      "concetti": [
+        "ius-gentium",
+        "mancipatio"
+      ]
+    },
+    {
+      "id": "u15-q017",
+      "tipo": "verofalso",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "affermazione": "Per Gaio lo ius gentium è il diritto proprio della città di Roma, applicato anche agli stranieri.",
+      "vero": false,
+      "spiegazione": "Falso: il diritto proprio della città è lo ius civile. Lo ius gentium è quello comune a tutti gli uomini, stabilito dalla naturalis ratio.",
+      "concetti": [
+        "ius-gentium",
+        "ius-civile"
+      ]
+    },
+    {
+      "id": "u15-q018",
+      "tipo": "verofalso",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "affermazione": "L'idea che sia attendibile ciò che sembra vero a tutti, ai più o ai sapienti risale già ad Aristotele.",
+      "vero": true,
+      "spiegazione": "Vero: è la nozione aristotelica delle opinioni autorevoli, che a Roma diventa consenso dei popoli e consenso dei sapienti.",
+      "concetti": [
+        "aristotele"
+      ]
+    },
+    {
+      "id": "u15-q019",
+      "tipo": "completa",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "testo": "Gaio 1.1: «quod vero {{naturalis ratio}} inter omnes homines constituit … vocaturque ius {{gentium}}».",
+      "concetti": [
+        "naturalis-ratio",
+        "ius-gentium"
+      ]
+    },
+    {
+      "id": "u15-q020",
+      "tipo": "aperta",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "domanda": "Il consenso dei popoli e il consenso dei sapienti: spiega come fondano lo ius gentium e l'autorità dei giuristi.",
+      "traccia": "Il **consenso** è un criterio di verità già in **Aristotele** (ciò che sembra vero a tutti, ai più o ai sapienti).\n\n**Consenso dei popoli.** **Cicerone** (Tusculanae): *consensio omnium gentium lex naturae putanda est*. **Gaio** (1.1): i popoli usano in parte un diritto **proprio** (*ius civile*), in parte un diritto **comune** stabilito dalla **naturalis ratio** (*ius gentium*). Lo *ius gentium* poggia sul consenso e sulla ragione naturale e coincide con il diritto naturale. **Ermogeniano** (D. 1.1.5) ne elenca gli istituti: guerre, proprietà, commercio, compravendita, locazione.\n\n**Consenso dei sapienti.** Per il **rescritto di Adriano** (Gaio 1.7) i pareri concordi dei giuristi *legis vicem optinent*; se discordano il giudice sceglie. Nel tardo antico la **legge delle citazioni** trasformerà il consenso in conteggio.",
+      "punti": [
+        {
+          "testo": "Consenso come criterio di verità",
+          "chiavi": [
+            "consenso",
+            "aristotele",
+            "sapienti"
+          ]
+        },
+        {
+          "testo": "Cicerone: consensio omnium gentium",
+          "chiavi": [
+            "cicerone",
+            "consensio",
+            "gentium"
+          ]
+        },
+        {
+          "testo": "Gaio: ius civile proprio, ius gentium comune per naturalis ratio",
+          "chiavi": [
+            "gaio",
+            "naturalis",
+            "proprio",
+            "comune"
+          ]
+        },
+        {
+          "testo": "Istituti dello ius gentium (Ermogeniano)",
+          "chiavi": [
+            "ermogeniano",
+            "compravendita",
+            "commercio"
+          ]
+        },
+        {
+          "testo": "Rescritto di Adriano: pareri concordi hanno forza di legge",
+          "chiavi": [
+            "adriano",
+            "concord",
+            "legis vicem"
+          ]
+        }
+      ],
+      "concetti": [
+        "consensus-omnium-gentium",
+        "ius-gentium",
+        "rescritto-di-adriano"
+      ]
+    },
+    {
+      "id": "u15-q021",
+      "tipo": "flashcard",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "domanda": "Che cosa significa Gaio 1.158: «civilis ratio civilia quidem iura corrumpere potest, naturalia vero non potest»?",
+      "risposta": "Che la ragione civile può distruggere i diritti civili ma non quelli naturali: la capitis deminutio estingue l'adgnatio (parentela civile), ma non la cognatio (parentela di sangue).",
+      "concetti": [
+        "adgnatio",
+        "cognatio"
+      ]
+    },
+    {
+      "id": "u15-q022",
+      "tipo": "flashcard",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "domanda": "Che cos'è la fictio? Fai un esempio.",
+      "risposta": "È la tecnica con cui il diritto tratta consapevolmente una cosa come se fosse un'altra per ottenere un risultato giusto. Esempio: per la fictio legis Corneliae chi muore prigioniero si considera morto al momento della cattura, così il suo testamento resta valido.",
+      "concetti": [
+        "fictio"
+      ]
+    },
+    {
+      "id": "u15-q023",
+      "tipo": "flashcard",
+      "lezione": "u15-l3",
+      "livello": "avanzato",
+      "domanda": "Che cosa sono le formule fittizie del processo formulare?",
+      "risposta": "Formule che estendono un'azione a chi non ne avrebbe titolo, chiedendo al giudice di giudicare come se: lo straniero è trattato come se fosse cittadino romano, il bonorum possessor come se fosse erede.",
+      "concetti": [
+        "fictio",
+        "processo-formulare"
+      ]
+    },
+    {
+      "id": "u15-q024",
+      "tipo": "flashcard",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "domanda": "Qual è la differenza tra fictio e simulazione?",
+      "risposta": "La fictio è un'apparenza dichiarata, creata dal diritto stesso come tecnica, e non inganna nessuno. La simulazione è un'apparenza creata dai privati per nascondere ciò che vogliono davvero: qui prevale la realtà, plus valere quod agitur quam quod simulate concipitur.",
+      "concetti": [
+        "fictio"
+      ]
+    },
+    {
+      "id": "u15-q025",
+      "tipo": "multipla",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "domanda": "Perché non si può adottare una persona più anziana di sé?",
+      "opzioni": [
+        "Perché lo vietano le XII Tavole",
+        "Perché l'adozione imita la natura",
+        "Perché il pretore non lo permette",
+        "Perché l'adottato perderebbe la cittadinanza"
+      ],
+      "corretta": 1,
+      "spiegazione": "Adoptio naturam imitatur: sarebbe innaturale un figlio più anziano del padre.",
+      "concetti": [
+        "fictio"
+      ]
+    },
+    {
+      "id": "u15-q026",
+      "tipo": "multipla",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "domanda": "Che cosa accade con il postliminium?",
+      "opzioni": [
+        "Il prigioniero liberato perde tutti i diritti",
+        "Il testamento del prigioniero diventa nullo",
+        "Il prigioniero diventa schiavo del pretore",
+        "Chi torna dalla prigionia recupera i diritti come se non fosse stato catturato"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il postliminium è una finzione: chi torna è trattato come se non fosse mai stato prigioniero.",
+      "concetti": [
+        "fictio"
+      ]
+    },
+    {
+      "id": "u15-q027",
+      "tipo": "verofalso",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "affermazione": "La capitis deminutio estingue sia l'adgnatio sia la cognatio.",
+      "vero": false,
+      "spiegazione": "Falso: estingue solo l'adgnatio, che è civile. La cognatio, parentela naturale, resta (Gaio 1.158).",
+      "concetti": [
+        "adgnatio",
+        "cognatio"
+      ]
+    },
+    {
+      "id": "u15-q028",
+      "tipo": "verofalso",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "affermazione": "Per la fictio legis Corneliae il cittadino morto in prigionia si considera morto nel momento della cattura.",
+      "vero": true,
+      "spiegazione": "Vero: così muore quando era ancora libero e cittadino, e il suo testamento resta valido.",
+      "concetti": [
+        "fictio"
+      ]
+    },
+    {
+      "id": "u15-q029",
+      "tipo": "completa",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "testo": "«Plus valere quod {{agitur}} quam quod {{simulate}} concipitur».",
+      "concetti": [
+        "fictio"
+      ]
+    },
+    {
+      "id": "u15-q030",
+      "tipo": "aperta",
+      "lezione": "u15-l3",
+      "livello": "avanzato",
+      "domanda": "Verità e apparenza nel diritto romano: come si rapportano il diritto civile e la natura? Che cosa sono la finzione e la simulazione?",
+      "traccia": "**Ulpiano** rivendica per i giuristi una filosofia **vera, non apparente**: il sapere che si misura con la giustizia nei casi.\n\nIl diritto civile **costruisce** figure che non sempre coincidono con la natura, ma la natura resta un **limite**: per **Gaio 1.158** la *civilis ratio* può distruggere i diritti civili (l'*adgnatio* si estingue con la *capitis deminutio*) ma non quelli naturali (la *cognatio* resta). L'**adozione imita la natura**.\n\nLa **fictio** è un'apparenza **dichiarata** e utile: *fictio legis Corneliae*, *postliminium*, **formule fittizie** del processo formulare (straniero come cittadino, *bonorum possessor* come erede).\n\nLa **simulazione** dei privati è invece un'apparenza che nasconde la realtà: qui prevale ciò che si fa davvero, *plus valere quod agitur quam quod simulate concipitur*.",
+      "punti": [
+        {
+          "testo": "Filosofia vera, non apparente (Ulpiano)",
+          "chiavi": [
+            "ulpiano",
+            "vera",
+            "simulat"
+          ]
+        },
+        {
+          "testo": "Gaio 1.158: adgnatio e cognatio",
+          "chiavi": [
+            "adgnatio",
+            "cognatio",
+            "158"
+          ]
+        },
+        {
+          "testo": "Adozione imita la natura",
+          "chiavi": [
+            "adozion",
+            "imita"
+          ]
+        },
+        {
+          "testo": "Fictio: legis Corneliae, postliminium, formule fittizie",
+          "chiavi": [
+            "fictio",
+            "finzion",
+            "postliminium",
+            "cornelia"
+          ]
+        },
+        {
+          "testo": "Contro la simulazione prevale la realtà",
+          "chiavi": [
+            "simulazion",
+            "agitur",
+            "realtà"
+          ]
+        }
+      ],
+      "concetti": [
+        "fictio",
+        "adgnatio",
+        "cognatio"
+      ]
+    },
+    {
+      "id": "u15-q031",
+      "tipo": "flashcard",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "domanda": "Qual è la differenza tra aequitas civilis e aequitas naturalis?",
+      "risposta": "L'aequitas civilis è l'equità incorporata nel diritto di una comunità (per Cicerone lo ius civile è aequitas constituta per i concittadini); l'aequitas naturalis è l'equità fondata sulla natura e sulla ragione comune a tutti gli uomini, che può andare oltre la regola civile e correggerla.",
+      "concetti": [
+        "aequitas-civilis",
+        "aequitas-naturalis"
+      ]
+    },
+    {
+      "id": "u15-q032",
+      "tipo": "flashcard",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "domanda": "In quali due sensi Paolo (D. 1.1.11) dice che si usa la parola ius?",
+      "risposta": "Come ciò che è sempre equo e buono (quod semper aequum ac bonum est), cioè lo ius naturale; e come ciò che è utile a tutti o ai più in ciascuna città (quod omnibus aut pluribus in quaque civitate utile est), cioè lo ius civile.",
+      "concetti": [
+        "paolo",
+        "aequitas-naturalis"
+      ]
+    },
+    {
+      "id": "u15-q033",
+      "tipo": "flashcard",
+      "lezione": "u15-l4",
+      "livello": "avanzato",
+      "domanda": "Che cos'è un'obligatio naturalis? Fai l'esempio dello schiavo.",
+      "risposta": "È un'obbligazione riconosciuta per natura ma non dallo ius civile: non dà azione, ma ciò che è pagato non si può ripetere. Lo schiavo non si obbliga civilmente con i contratti, ma naturaliter et obligatur et obligat (Ulpiano, D. 44.7.14).",
+      "concetti": [
+        "obligatio-naturalis"
+      ]
+    },
+    {
+      "id": "u15-q034",
+      "tipo": "flashcard",
+      "lezione": "u15-l4",
+      "livello": "avanzato",
+      "domanda": "Come cambia il ruolo dell'equità con Costantino?",
+      "risposta": "Costantino (C. 3.1.8, 314) stabilisce che in tutte le cose prevalga la ragione della giustizia e dell'equità su quella del diritto stretto, ma riserva all'imperatore soltanto l'interpretazione tra equità e diritto (C. 1.14.1). L'equità, strumento dei giuristi, passa al legislatore.",
+      "concetti": [
+        "costantino",
+        "aequitas-naturalis"
+      ]
+    },
+    {
+      "id": "u15-q035",
+      "tipo": "multipla",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "domanda": "Chi formula il principio per cui è equo per natura che nessuno si arricchisca a danno altrui?",
+      "opzioni": [
+        "Pomponio",
+        "Labeone",
+        "Modestino",
+        "Gaio"
+      ],
+      "corretta": 0,
+      "spiegazione": "È Pomponio: iure naturae aequum est neminem cum alterius detrimento et iniuria fieri locupletiorem (D. 50.17.206).",
+      "concetti": [
+        "arricchimento-senza-causa",
+        "pomponio"
+      ]
+    },
+    {
+      "id": "u15-q036",
+      "tipo": "multipla",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "domanda": "Quale strumento pretorio corregge l'esclusione dei parenti di sangue dall'eredità civile?",
+      "opzioni": [
+        "L'exceptio doli",
+        "La stipulatio praetoria",
+        "La bonorum possessio",
+        "La missio in possessionem"
+      ],
+      "corretta": 2,
+      "spiegazione": "Con la bonorum possessio il pretore chiama all'eredità anche i cognati che lo ius civile escludeva. L'exceptio doli serve invece a paralizzare chi agisce contro buona fede.",
+      "concetti": [
+        "bonorum-possessio",
+        "aequitas-naturalis"
+      ]
+    },
+    {
+      "id": "u15-q037",
+      "tipo": "verofalso",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "affermazione": "«Summum ius summa iniuria» significa che il diritto applicato fino in fondo può diventare la massima ingiustizia.",
+      "vero": true,
+      "spiegazione": "Vero: è il proverbio riferito da Cicerone nel De officiis (1.33).",
+      "concetti": [
+        "summum-ius-summa-iniuria"
+      ]
+    },
+    {
+      "id": "u15-q038",
+      "tipo": "verofalso",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "affermazione": "Per i giuristi classici l'aequitas è un sentimento personale del giudice, estraneo alla tecnica giuridica.",
+      "vero": false,
+      "spiegazione": "Falso: è una ragione tecnica, il criterio con cui il giurista trova la soluzione giusta del caso ed estende o limita la regola.",
+      "concetti": [
+        "aequitas"
+      ]
+    },
+    {
+      "id": "u15-q039",
+      "tipo": "completa",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "testo": "Cicerone, Topica: «ius civile est {{aequitas}} constituta eis qui eiusdem {{civitatis}} sunt ad res suas obtinendas».",
+      "concetti": [
+        "aequitas-civilis",
+        "topica"
+      ]
+    },
+    {
+      "id": "u15-q040",
+      "tipo": "aperta",
+      "lezione": "u15-l4",
+      "livello": "avanzato",
+      "domanda": "Aequitas civilis e aequitas naturalis: definiscile e mostra dove lavora l'equità naturale.",
+      "traccia": "L'**aequitas** è l'idea di una giusta misura tra le parti. L'**aequitas civilis** è l'equità **incorporata nel diritto della città**: per **Cicerone** (Topica) lo *ius civile est aequitas constituta* per i concittadini. L'**aequitas naturalis** è fondata sulla **natura** e può andare oltre la regola. **Paolo** (D. 1.1.11): *ius* è *quod semper aequum ac bonum est* (naturale) e *quod … in quaque civitate utile est* (civile).\n\nDove lavora: il divieto di **arricchimento senza causa** (Pomponio, base della *condictio indebiti*); l'**obligatio naturalis** dello schiavo; le **correzioni pretorie** (*bonorum possessio* dei cognati, *exceptio doli*). *Summum ius summa iniuria*; Paolo: *in iure aequitas spectanda est*. Per i classici è una **ragione tecnica**.\n\nCon **Costantino** (314) l'equità prevale sul diritto stretto, ma la sua interpretazione è riservata all'**imperatore**.",
+      "punti": [
+        {
+          "testo": "Aequitas civilis: Cicerone, Topica",
+          "chiavi": [
+            "civilis",
+            "topica",
+            "constituta"
+          ]
+        },
+        {
+          "testo": "Aequitas naturalis e definizione di Paolo",
+          "chiavi": [
+            "naturalis",
+            "paolo",
+            "aequum ac bonum"
+          ]
+        },
+        {
+          "testo": "Arricchimento senza causa e obligatio naturalis",
+          "chiavi": [
+            "arricch",
+            "locupletior",
+            "obligatio",
+            "naturale"
+          ]
+        },
+        {
+          "testo": "Correzioni del pretore",
+          "chiavi": [
+            "pretore",
+            "bonorum possessio",
+            "exceptio"
+          ]
+        },
+        {
+          "testo": "Costantino riserva l'equità all'imperatore",
+          "chiavi": [
+            "costantino",
+            "imperator",
+            "314"
+          ]
+        }
+      ],
+      "concetti": [
+        "aequitas-civilis",
+        "aequitas-naturalis",
+        "obligatio-naturalis"
+      ]
+    },
+    {
+      "id": "u15-q041",
+      "tipo": "flashcard",
+      "lezione": "u15-l5",
+      "livello": "base",
+      "domanda": "Come definisce Cicerone la vera legge nel De re publica?",
+      "risposta": "«Est quidem vera lex recta ratio naturae congruens, diffusa in omnes, constans, sempiterna»: la retta ragione conforme alla natura, diffusa in tutti, costante ed eterna. Non sarà diversa a Roma e ad Atene, oggi e domani.",
+      "concetti": [
+        "vera-lex",
+        "de-re-publica",
+        "cicerone"
+      ]
+    },
+    {
+      "id": "u15-q042",
+      "tipo": "flashcard",
+      "lezione": "u15-l5",
+      "livello": "medio",
+      "domanda": "Che cosa dice Cicerone nel De legibus delle norme dannose votate dai popoli?",
+      "risposta": "Che non meritano il nome di legge più di quanto lo meriterebbero gli accordi fra briganti: la legge è ratio summa insita in natura, e non ogni deliberazione è legge.",
+      "concetti": [
+        "de-legibus",
+        "vera-lex"
+      ]
+    },
+    {
+      "id": "u15-q043",
+      "tipo": "flashcard",
+      "lezione": "u15-l5",
+      "livello": "medio",
+      "domanda": "Come definisce la legge Papiniano (D. 1.3.1)?",
+      "risposta": "«Lex est commune praeceptum, virorum prudentium consultum, delictorum coercitio, communis rei publicae sponsio»: precetto comune, deliberazione di uomini saggi, repressione dei delitti, impegno comune della comunità.",
+      "concetti": [
+        "papiniano"
+      ]
+    },
+    {
+      "id": "u15-q044",
+      "tipo": "flashcard",
+      "lezione": "u15-l5",
+      "livello": "avanzato",
+      "domanda": "Che cosa afferma la costituzione detta digna vox (429 d.C.)?",
+      "risposta": "Teodosio II e Valentiniano III dichiarano voce degna della maestà di chi regna che il principe si professi vincolato alle leggi, perché dalla loro autorità dipende la sua. Bilancia l'idea del principe legibus solutus.",
+      "concetti": [
+        "digna-vox",
+        "legibus-solutus"
+      ]
+    },
+    {
+      "id": "u15-q045",
+      "tipo": "multipla",
+      "lezione": "u15-l5",
+      "livello": "medio",
+      "domanda": "Quale filosofo stoico cita Marciano nel Digesto (D. 1.3.2) per dire che la legge è regina delle cose divine e umane?",
+      "opzioni": [
+        "Panezio",
+        "Zenone",
+        "Crisippo",
+        "Posidonio"
+      ],
+      "corretta": 2,
+      "spiegazione": "È Crisippo; Marciano cita anche l'oratore Demostene, per cui la legge è invenzione e dono degli dèi.",
+      "concetti": [
+        "crisippo",
+        "elio-marciano"
+      ]
+    },
+    {
+      "id": "u15-q046",
+      "tipo": "multipla",
+      "lezione": "u15-l5",
+      "livello": "base",
+      "domanda": "Attraverso chi ci è arrivato il passo del De re publica sulla vera lex?",
+      "opzioni": [
+        "Attraverso Lattanzio",
+        "Attraverso Gaio",
+        "Attraverso il Codice Teodosiano",
+        "Attraverso Aulo Gellio"
+      ],
+      "corretta": 0,
+      "spiegazione": "Lo conserva lo scrittore cristiano Lattanzio.",
+      "concetti": [
+        "de-re-publica"
+      ]
+    },
+    {
+      "id": "u15-q047",
+      "tipo": "verofalso",
+      "lezione": "u15-l5",
+      "livello": "base",
+      "affermazione": "Per Cicerone la vera legge cambia da città a città: una a Roma, un'altra ad Atene.",
+      "vero": false,
+      "spiegazione": "Falso: è proprio il contrario. La vera legge è unica, eterna e immutabile per tutti i popoli.",
+      "concetti": [
+        "vera-lex"
+      ]
+    },
+    {
+      "id": "u15-q048",
+      "tipo": "verofalso",
+      "lezione": "u15-l5",
+      "livello": "medio",
+      "affermazione": "«Quod principi placuit, legis habet vigorem» è un passo di Ulpiano raccolto nel Digesto.",
+      "vero": true,
+      "spiegazione": "Vero: D. 1.4.1. Esprime la tensione con l'idea di una legge giusta per natura.",
+      "concetti": [
+        "ulpiano",
+        "legibus-solutus"
+      ]
+    },
+    {
+      "id": "u15-q049",
+      "tipo": "completa",
+      "lezione": "u15-l5",
+      "livello": "medio",
+      "testo": "«Est quidem vera lex {{recta ratio}} naturae congruens, diffusa in omnes, constans, {{sempiterna}}».",
+      "concetti": [
+        "vera-lex"
+      ]
+    },
+    {
+      "id": "u15-q050",
+      "tipo": "aperta",
+      "lezione": "u15-l5",
+      "livello": "medio",
+      "domanda": "Che cos'è la «legge giusta»? Confronta Cicerone con le definizioni dei giuristi e con l'idea del principe sciolto dalle leggi.",
+      "traccia": "**Cicerone**, *De re publica*: *est quidem vera lex recta ratio naturae congruens, diffusa in omnes, constans, sempiterna*; unica a Roma e ad Atene, oggi e domani. Nel *De legibus* la legge è *ratio summa insita in natura*; le norme dannose non sono leggi, come gli accordi fra **briganti**. È l'idea **stoica** di legge naturale.\n\nI **giuristi** sono più sobri: **Papiniano** (D. 1.3.1) *lex est commune praeceptum, virorum prudentium consultum*…; **Marciano** (D. 1.3.2) cita Demostene e **Crisippo** (la legge regina delle cose divine e umane).\n\nTensione con il potere: *quod principi placuit, legis habet vigorem* (Ulpiano) e il principe **legibus solutus**. La **digna vox** (429) dichiara degno del principe professarsi **vincolato alle leggi**.",
+      "punti": [
+        {
+          "testo": "Cicerone: vera lex recta ratio, unica ed eterna",
+          "chiavi": [
+            "recta ratio",
+            "vera lex",
+            "sempiterna",
+            "atene"
+          ]
+        },
+        {
+          "testo": "Le norme dannose non sono leggi",
+          "chiavi": [
+            "briganti",
+            "dannos",
+            "non sono leggi"
+          ]
+        },
+        {
+          "testo": "Papiniano e Marciano (Crisippo)",
+          "chiavi": [
+            "papiniano",
+            "marciano",
+            "crisippo"
+          ]
+        },
+        {
+          "testo": "Quod principi placuit, legibus solutus",
+          "chiavi": [
+            "principi placuit",
+            "solutus"
+          ]
+        },
+        {
+          "testo": "Digna vox",
+          "chiavi": [
+            "digna vox",
+            "vincolat",
+            "429"
+          ]
+        }
+      ],
+      "concetti": [
+        "vera-lex",
+        "digna-vox"
+      ]
+    },
+    {
+      "id": "u15-q051",
+      "tipo": "flashcard",
+      "lezione": "u15-l6",
+      "livello": "base",
+      "domanda": "Come definisce Ulpiano lo ius naturale (D. 1.1.1.3)?",
+      "risposta": "«Ius naturale est, quod natura omnia animalia docuit»: ciò che la natura ha insegnato a tutti gli animali, di terra, di mare e agli uccelli. Ne derivano l'unione del maschio e della femmina (il matrimonio), la procreazione e l'educazione dei figli.",
+      "concetti": [
+        "ius-naturale",
+        "ulpiano"
+      ]
+    },
+    {
+      "id": "u15-q052",
+      "tipo": "flashcard",
+      "lezione": "u15-l6",
+      "livello": "medio",
+      "domanda": "Qual è la differenza tra la bipartizione di Gaio e la tripartizione di Ulpiano?",
+      "risposta": "Gaio distingue ius civile e ius gentium, che coincide con il diritto naturale (naturalis ratio). Ulpiano distingue tre diritti: naturale (comune a tutti gli animali), gentium (solo delle genti umane) e civile.",
+      "concetti": [
+        "tripartizione-ulpianea",
+        "gaio",
+        "ulpiano"
+      ]
+    },
+    {
+      "id": "u15-q053",
+      "tipo": "flashcard",
+      "lezione": "u15-l6",
+      "livello": "medio",
+      "domanda": "Come definisce Florentino la schiavitù?",
+      "risposta": "«Servitus est constitutio iuris gentium, qua quis dominio alieno contra naturam subicitur» (D. 1.5.4.1): un istituto dello ius gentium con cui qualcuno è sottoposto al dominio altrui contro natura.",
+      "concetti": [
+        "servitus",
+        "florentino"
+      ]
+    },
+    {
+      "id": "u15-q054",
+      "tipo": "flashcard",
+      "lezione": "u15-l6",
+      "livello": "avanzato",
+      "domanda": "Perché l'actio de pauperie mostra che per i giuristi l'animale non è un soggetto?",
+      "risposta": "Perché il danno causato da un quadrupede si chiama pauperies, danno senza torto: «nec enim potest animal iniuria fecisse, quod sensu caret» (Ulpiano, D. 9.1.1.3). Lo ius naturale degli animali resta un'idea, non una regola operativa.",
+      "concetti": [
+        "actio-de-pauperie"
+      ]
+    },
+    {
+      "id": "u15-q055",
+      "tipo": "multipla",
+      "lezione": "u15-l6",
+      "livello": "base",
+      "domanda": "Secondo Ulpiano (D. 50.17.32), che cosa vale per lo ius naturale riguardo agli schiavi?",
+      "opzioni": [
+        "Che gli schiavi sono cose",
+        "Che tutti gli uomini sono uguali",
+        "Che gli schiavi sono tali per natura",
+        "Che solo i cittadini sono uomini"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per lo ius civile gli schiavi non contano nulla, ma per lo ius naturale omnes homines aequales sunt.",
+      "concetti": [
+        "servitus",
+        "ius-naturale"
+      ]
+    },
+    {
+      "id": "u15-q056",
+      "tipo": "multipla",
+      "lezione": "u15-l6",
+      "livello": "medio",
+      "domanda": "Dove si trova l'idea dell'universo come città comune di dèi e uomini?",
+      "opzioni": [
+        "Nelle Institutiones di Gaio",
+        "Nell'Enchiridion di Pomponio",
+        "Nelle Pauli Sententiae",
+        "Nel De legibus di Cicerone"
+      ],
+      "corretta": 3,
+      "spiegazione": "È nel De legibus (1.23): poiché dèi e uomini hanno in comune la ragione, l'universo è una civitas communis. È la cosmopoli stoica.",
+      "concetti": [
+        "cosmopolis",
+        "de-legibus"
+      ]
+    },
+    {
+      "id": "u15-q057",
+      "tipo": "verofalso",
+      "lezione": "u15-l6",
+      "livello": "medio",
+      "affermazione": "I giuristi romani, come Aristotele, ritenevano che alcuni uomini fossero schiavi per natura.",
+      "vero": false,
+      "spiegazione": "Falso: per Florentino la schiavitù è contra naturam e per Ulpiano per natura tutti nascevano liberi. Ma questo non portò ad abolirla.",
+      "concetti": [
+        "servitus",
+        "aristotele"
+      ]
+    },
+    {
+      "id": "u15-q058",
+      "tipo": "verofalso",
+      "lezione": "u15-l6",
+      "livello": "avanzato",
+      "affermazione": "L'idea di un diritto comune agli animali era condivisa dagli stoici.",
+      "vero": false,
+      "spiegazione": "Falso: gli stoici la rifiutavano, perché solo gli esseri razionali possono avere rapporti di giustizia. L'idea di Ulpiano è isolata e di origine discussa.",
+      "concetti": [
+        "ius-naturale",
+        "tripartizione-ulpianea"
+      ]
+    },
+    {
+      "id": "u15-q059",
+      "tipo": "completa",
+      "lezione": "u15-l6",
+      "livello": "base",
+      "testo": "«Ius naturale est, quod natura omnia {{animalia}} docuit» (Ulpiano); la schiavitù è invece istituto dello ius {{gentium}} contra naturam.",
+      "concetti": [
+        "ius-naturale",
+        "servitus"
+      ]
+    },
+    {
+      "id": "u15-q060",
+      "tipo": "aperta",
+      "lezione": "u15-l6",
+      "livello": "avanzato",
+      "domanda": "Il diritto oltre la comunità degli uomini: lo ius naturale di Ulpiano, la tripartizione e il problema della schiavitù.",
+      "traccia": "**Ulpiano** (D. 1.1.1.3): *ius naturale est, quod natura omnia animalia docuit*: comune a tutti gli animali; ne derivano unione dei sessi, procreazione, educazione. Lo **ius gentium** è invece delle sole genti umane (D. 1.1.1.4). È la **tripartizione** (naturale, gentium, civile), contro la **bipartizione** di **Gaio**. L'idea è **isolata** (gli stoici la rifiutavano) e nella pratica l'animale non è soggetto: **actio de pauperie**, l'animale *sensu caret*.\n\nVerso l'alto, **Cicerone** (De legibus): l'universo è una **città comune di dèi e uomini**.\n\n**Schiavitù**: per **Florentino** è istituto dello *ius gentium* *contra naturam*; per Ulpiano per diritto naturale **tutti gli uomini sono uguali** e **nascevano liberi** (le manomissioni vengono dallo *ius gentium*). Non si segue **Aristotele**, ma la schiavitù **non viene abolita**: lo *ius naturale* resta un criterio, che alimenta il *favor libertatis*.",
+      "punti": [
+        {
+          "testo": "Ius naturale comune a tutti gli animali (Ulpiano)",
+          "chiavi": [
+            "animali",
+            "animalia",
+            "ulpiano"
+          ]
+        },
+        {
+          "testo": "Tripartizione contro bipartizione di Gaio",
+          "chiavi": [
+            "tripartiz",
+            "bipartiz",
+            "gaio"
+          ]
+        },
+        {
+          "testo": "L'animale non è soggetto: actio de pauperie",
+          "chiavi": [
+            "pauperie",
+            "sensu caret",
+            "soggett"
+          ]
+        },
+        {
+          "testo": "Schiavitù contra naturam (Florentino)",
+          "chiavi": [
+            "florentino",
+            "contra naturam",
+            "schiav"
+          ]
+        },
+        {
+          "testo": "Uguaglianza naturale, ma nessuna abolizione",
+          "chiavi": [
+            "uguali",
+            "aequales",
+            "liberi",
+            "abolit"
+          ]
+        }
+      ],
+      "concetti": [
+        "ius-naturale",
+        "tripartizione-ulpianea",
+        "servitus"
+      ]
+    },
+    {
+      "id": "u15-q061",
+      "tipo": "ordina",
+      "lezione": "u15-l5",
+      "livello": "medio",
+      "consegna": "Metti in ordine cronologico questi testi sulla natura, l'equità e la legge.",
+      "elementi": [
+        "Cicerone, De re publica: la vera lex",
+        "Gaio, Institutiones: ius civile e ius gentium",
+        "Ulpiano, Institutiones: ius naturale degli animali",
+        "Costantino: l'equità prevale sul diritto stretto",
+        "Digna vox di Teodosio II e Valentiniano III"
+      ],
+      "spiegazione": "54–51 a.C.; metà II sec. d.C.; età severiana (inizio III sec.); 314 d.C.; 429 d.C.",
+      "concetti": [
+        "vera-lex",
+        "ius-gentium",
+        "ius-naturale",
+        "digna-vox"
+      ]
+    },
+    {
+      "id": "u15-q062",
+      "tipo": "abbina",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "consegna": "Abbina ogni formula al suo autore.",
+      "coppie": [
+        [
+          "Ius est ars boni et aequi",
+          "Celso"
+        ],
+        [
+          "Iustitia est constans et perpetua voluntas ius suum cuique tribuendi",
+          "Ulpiano"
+        ],
+        [
+          "Neminem cum alterius detrimento fieri locupletiorem",
+          "Pomponio"
+        ],
+        [
+          "Servitus … contra naturam",
+          "Florentino"
+        ],
+        [
+          "Vera lex recta ratio naturae congruens",
+          "Cicerone"
+        ],
+        [
+          "Lex est commune praeceptum",
+          "Papiniano"
+        ]
+      ],
+      "concetti": [
+        "ars-boni-et-aequi",
+        "iustitia",
+        "arricchimento-senza-causa",
+        "servitus",
+        "vera-lex"
+      ]
+    },
+    {
+      "id": "u15-q063",
+      "tipo": "abbina",
+      "lezione": "u15-l6",
+      "livello": "base",
+      "consegna": "Abbina ogni diritto alla sua definizione nella tripartizione di Ulpiano.",
+      "coppie": [
+        [
+          "Ius naturale",
+          "ciò che la natura insegna a tutti gli animali"
+        ],
+        [
+          "Ius gentium",
+          "il diritto che usano le genti umane"
+        ],
+        [
+          "Ius civile",
+          "il diritto proprio di ciascuna città"
+        ],
+        [
+          "Manomissioni",
+          "vengono dallo ius gentium, perché per natura tutti nascevano liberi"
+        ]
+      ],
+      "concetti": [
+        "tripartizione-ulpianea",
+        "ius-naturale",
+        "ius-gentium",
+        "ius-civile"
+      ]
+    }
+  ]
+}

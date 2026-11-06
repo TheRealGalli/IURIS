@@ -1,0 +1,2156 @@
+{
+  "voci": [
+    {
+      "id": "atto-linguistico",
+      "oltre": "La teoria degli **atti linguistici** nasce a Oxford con [[john-l-austin|John L. Austin]], che nelle lezioni di Harvard del 1955, pubblicate in *[[how-to-do-things-with-words|How to Do Things with Words]]* (1962), osserva che parlare non è solo descrivere: è anche fare. Austin distingue in ogni enunciazione tre atti: **locutorio** (dire qualcosa con un certo senso), **illocutorio** (ciò che si fa *nel* dire: promettere, ordinare, avvertire) e **perlocutorio** (l'effetto prodotto *col* dire: convincere, spaventare). [[john-searle|Searle]], in *Speech Acts* (1969), sistematizza la teoria: l'atto illocutorio riesce se rispetta certe regole ([[condizioni-di-felicita|condizioni di felicità]]) ; negli studi successivi, Searle distingue cinque tipi (assertivi, direttivi, commissivi, espressivi, dichiarativi).\n\nPer il diritto contano soprattutto i **dichiarativi**, che modificano una situazione istituzionale quando sono compiuti da chi ne ha il potere e secondo le procedure richieste («dichiaro aperta la seduta», «vi dichiaro marito e moglie»), e i **commissivi**, come la [[promessa]]. Gli appunti presentano la teoria come di Searle: va ricordato che il fondatore è Austin, di cui Searle fu allievo a Oxford.",
+      "daSapere": [
+        "Austin, *How to Do Things with Words* (1962): atti locutorio, illocutorio, perlocutorio",
+        "Searle, *Speech Acts* (1969): cinque classi di atti illocutori",
+        "*Speech act* = atto linguistico; i dichiarativi cambiano la realtà istituzionale"
+      ],
+      "collegamenti": [
+        {
+          "da": "john-searle",
+          "a": "atto-linguistico",
+          "tipo": "crea",
+          "etichetta": "sistematizza la teoria dell'"
+        },
+        {
+          "da": "john-l-austin",
+          "a": "atto-linguistico",
+          "tipo": "crea",
+          "etichetta": "fonda la teoria dell'"
+        },
+        {
+          "da": "enunciato-performativo",
+          "a": "atto-linguistico",
+          "tipo": "esempio-di",
+          "etichetta": "è il caso tipico di"
+        },
+        {
+          "da": "atto-linguistico",
+          "a": "condizioni-di-felicita",
+          "tipo": "collegato",
+          "etichetta": "riesce solo se rispetta le"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "John R. Searle, A Taxonomy of Illocutionary Acts (testo dell'autore; Università di Chicago)",
+          "url": "https://semantics.uchicago.edu/kennedy/classes/f07/pragmatics/searle75a.pdf"
+        }
+      ]
+    },
+    {
+      "id": "enunciazione-fondamentale",
+      "oltre": "È una nozione tecnica di [[gaetano-carcaterra|Carcaterra]], elaborata negli studi sulle norme costitutive degli anni Settanta. In termini generali esprime l'idea che ogni norma esista perché qualcuno l'ha **posta**: dietro ogni enunciato normativo c'è un atto di disposizione, che si può rendere esplicito con un prefisso performativo del tipo «si dispone che…». È la stessa logica dei [[enunciato-performativo|performativi espliciti]] di Austin («prometto che…», «ordino che…») e dell'[[enunciazione-thetica|enunciazione thetica]] di Conte.\n\nNel diritto positivo un corrispettivo concreto è la formula di promulgazione, con cui il Presidente della Repubblica «promulga la seguente legge»: la formula esprime la posizione istituzionale della legge, ma non basta da sola a farla entrare in vigore: occorrono pubblicazione e decorso dell'eventuale vacatio legis. L'esempio illustra la teoria, non sostituisce la disciplina del procedimento legislativo. Il rovescio è la [[norma-abrogativa|norma abrogativa]], che dispone che il sistema non contenga più una certa determinazione.\n\nIl limite segnalato da Incampo si capisce ricordando [[kelsen|Kelsen]]: la [[grundnorm|norma fondamentale]] non è posta ma **presupposta**, perciò nessun atto di disposizione può crearla.",
+      "daSapere": [
+        "Schema: «Si dispone che il sistema S contenga la determinazione D»",
+        "Carcaterra, *Le norme costitutive* (1974) e *La forza costitutiva delle norme* (1979)",
+        "Corrispettivo reale: la formula di promulgazione della legge",
+        "Limite: la Grundnorm è presupposta, non disposta"
+      ],
+      "collegamenti": [
+        {
+          "da": "enunciazione-fondamentale",
+          "a": "regola-costitutiva",
+          "tipo": "esempio-di",
+          "etichetta": "è per Carcaterra una"
+        },
+        {
+          "da": "enunciazione-fondamentale",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "aggiunge o modifica una determinazione dell'"
+        },
+        {
+          "da": "gaetano-carcaterra",
+          "a": "enunciazione-fondamentale",
+          "tipo": "crea",
+          "etichetta": "formula l'"
+        },
+        {
+          "da": "enunciazione-fondamentale",
+          "a": "norma-abrogativa",
+          "tipo": "collegato",
+          "etichetta": "ha lo schema, senza negazione, della"
+        },
+        {
+          "da": "grundnorm",
+          "a": "enunciazione-fondamentale",
+          "tipo": "contrasta",
+          "etichetta": "non può derivare, perché presupposta, da un'"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione italiana, artt. 70–74: formazione, promulgazione e pubblicazione delle leggi (Governo italiano)",
+          "url": "https://presidenza.governo.it/Governo/Costituzione/2_titolo1.html"
+        }
+      ]
+    },
+    {
+      "id": "enunciazione-thetica",
+      "oltre": "La coppia **thetico/rhetico** è di [[amedeo-g-conte|Amedeo G. Conte]], che la ricava dal greco: *thésis* è il «porre», *rhêsis* il «dire». La distinzione riprende un tema classico della teoria del diritto: [[kelsen|Kelsen]] separa la **norma giuridica** (*Rechtsnorm*), posta dall'autorità, dalla **proposizione giuridica** (*Rechtssatz*) con cui la scienza del diritto la descrive; [[georg-h-von-wright|von Wright]] distingue la norma dalla *norm-proposition*, l'enunciato vero o falso sull'esistenza di una norma. L'enunciazione thetica corrisponde al primo termine, quella [[enunciazione-rhetica|rhetica]] al secondo.\n\nL'immagine del «mondo che si adatta alle parole» viene dalla nozione di **direzione di adattamento** (*direction of fit*) usata da [[john-searle|Searle]]: le asserzioni devono adattarsi al mondo; ordini e promesse chiedono che il mondo si adatti alle parole; le **dichiarazioni**, come quelle del legislatore, rendono vero ciò che dicono per il fatto stesso di dirlo. Per questo l'enunciato innestato si [[autoreferenzialita|autoverifica]]: è la tesi di Conte che Incampo discute a proposito della [[verita]] delle norme.",
+      "daSapere": [
+        "*Thésis* (θέσις) = il porre; *rhêsis* (ῥῆσις) = il dire",
+        "Formula: «Si dispone che Op»; verbo tipico «disporre»",
+        "Parallelo: *Rechtsnorm*/*Rechtssatz* (Kelsen); norma/*norm-proposition* (von Wright)",
+        "Direzione di adattamento: il mondo si adatta alle parole"
+      ],
+      "collegamenti": [
+        {
+          "da": "amedeo-g-conte",
+          "a": "enunciazione-thetica",
+          "tipo": "crea",
+          "etichetta": "conia la nozione di"
+        },
+        {
+          "da": "enunciazione-thetica",
+          "a": "enunciazione-rhetica",
+          "tipo": "contrasta",
+          "etichetta": "pone ciò che è descritto dalla"
+        },
+        {
+          "da": "enunciazione-thetica",
+          "a": "status-deontico",
+          "tipo": "crea",
+          "etichetta": "pone in essere lo"
+        },
+        {
+          "da": "enunciazione-thetica",
+          "a": "enunciato-performativo",
+          "tipo": "esempio-di",
+          "etichetta": "è una specie di"
+        },
+        {
+          "da": "enunciazione-thetica",
+          "a": "obbligo",
+          "tipo": "crea",
+          "etichetta": "fa nascere l'"
+        },
+        {
+          "da": "enunciato-innestato",
+          "a": "enunciazione-thetica",
+          "tipo": "parte-di",
+          "etichetta": "è l'enunciato contenuto nella"
+        },
+        {
+          "da": "enunciazione-thetica",
+          "a": "autoreferenzialita",
+          "tipo": "collegato",
+          "etichetta": "si autoverifica: è un caso di"
+        }
+      ]
+    },
+    {
+      "id": "john-searle",
+      "oltre": "John Rogers Searle (Denver 1932 – Florida 2025) fu un filosofo statunitense del linguaggio e della mente. Studiò a Oxford, dove fu allievo di [[john-l-austin|J. L. Austin]], e insegnò per decenni all'Università della California a Berkeley.\n\nOpere principali:\n- *Speech Acts* (1969): sistematizza la teoria degli [[atto-linguistico|atti linguistici]] e analizza la [[promessa]], la cui condizione essenziale è l'assunzione di un obbligo;\n- *Expression and Meaning* (1979): classifica gli atti illocutori in assertivi, direttivi, commissivi, espressivi e dichiarativi;\n- *Intentionality* (1983) e il saggio sulla «stanza cinese» (1980), contro l'idea che un computer, eseguendo un programma, capisca;\n- *The Construction of Social Reality* (1995): la realtà sociale è fatta di [[fatto-istituzionale|fatti istituzionali]] (denaro, matrimonio, proprietà), che esistono solo grazie all'[[intenzionalita-collettiva|intenzionalità collettiva]] e a [[regola-costitutiva|regole costitutive]] della forma «X conta come Y nel contesto C».\n\nNel saggio *How to Derive «Ought» from «Is»* (1964) sostiene, proprio con l'esempio della promessa, che in certi casi dall'essere si può ricavare il dover essere, contro la [[legge-di-hume|legge di Hume]]. Per il corso conta perché fornisce la grammatica degli atti giuridici: sentenze, contratti e testamenti sono atti linguistici che creano diritti e doveri.",
+      "daSapere": [
+        "Nato nel 1932; allievo di Austin a Oxford, professore a Berkeley",
+        "*Speech Acts* (1969); *The Construction of Social Reality* (1995)",
+        "Regola costitutiva: «X conta come Y nel contesto C»",
+        "Fatti bruti / fatti istituzionali"
+      ],
+      "collegamenti": [
+        {
+          "da": "john-searle",
+          "a": "promessa",
+          "tipo": "interpreta",
+          "etichetta": "vede l'assunzione di un obbligo nella"
+        },
+        {
+          "da": "john-searle",
+          "a": "regola-costitutiva",
+          "tipo": "crea",
+          "etichetta": "formula come «X conta come Y in C» la"
+        },
+        {
+          "da": "john-l-austin",
+          "a": "john-searle",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        },
+        {
+          "da": "john-searle",
+          "a": "fatto-istituzionale",
+          "tipo": "crea",
+          "etichetta": "distingue dai fatti bruti il"
+        },
+        {
+          "da": "john-searle",
+          "a": "intenzionalita-collettiva",
+          "tipo": "crea",
+          "etichetta": "fonda la realtà sociale sull'"
+        },
+        {
+          "da": "john-searle",
+          "a": "legge-di-hume",
+          "tipo": "contrasta",
+          "etichetta": "contesta, con l'esempio della promessa, la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "American Philosophical Association, John Searle (1932–2025)",
+          "url": "https://www.apaonline.org/news/news.asp?id=711069"
+        },
+        {
+          "titolo": "John R. Searle, A Taxonomy of Illocutionary Acts (testo dell'autore; Università di Chicago)",
+          "url": "https://semantics.uchicago.edu/kennedy/classes/f07/pragmatics/searle75a.pdf"
+        }
+      ]
+    },
+    {
+      "id": "linguaggio-giuridico",
+      "oltre": "In generale il linguaggio giuridico è un **linguaggio tecnico** costruito sulla lingua comune: usa parole ordinarie con un significato preciso («possesso», «buona fede», «colpa») e termini propri («usucapione», «anatocismo»). È insieme preciso e vago: le norme devono essere generali, e perciò usano espressioni dal contenuto aperto che il giudice deve concretizzare. [[hart|Hart]], in *[[the-concept-of-law|The Concept of Law]]* (1961), chiama questo tratto **tessitura aperta** (*open texture*) delle regole. Per la stessa ragione una parola può avere significati diversi in contesti diversi: è la [[plurivocita-del-linguaggio-giuridico|plurivocità]] del linguaggio giuridico.\n\nIn Italia lo studio del linguaggio giuridico si lega alla filosofia analitica: [[norberto-bobbio|Bobbio]], nel saggio *Scienza del diritto e analisi del linguaggio* (1950), vede nella scienza giuridica un'analisi del linguaggio del legislatore. Ne deriva una distinzione classica tra il **linguaggio delle norme** (del legislatore, prescrittivo) e il **linguaggio sulle norme** (del giurista, descrittivo: un metalinguaggio). È la distinzione che gli appunti esprimono con le enunciazioni [[enunciazione-thetica|thetiche]] e [[enunciazione-rhetica|rhetiche]].",
+      "daSapere": [
+        "Hart, *The Concept of Law* (1961): *open texture*, tessitura aperta delle regole",
+        "Bobbio, *Scienza del diritto e analisi del linguaggio* (1950)",
+        "Linguaggio delle norme (legislatore) / linguaggio sulle norme (giurista)"
+      ],
+      "collegamenti": [
+        {
+          "da": "diritto",
+          "a": "linguaggio-giuridico",
+          "tipo": "collegato",
+          "etichetta": "non è un linguaggio, ma possiede un"
+        },
+        {
+          "da": "linguaggio-giuridico",
+          "a": "enunciato-performativo",
+          "tipo": "collegato",
+          "etichetta": "comprende anche l'uso dell'"
+        },
+        {
+          "da": "diritto-muto",
+          "a": "linguaggio-giuridico",
+          "tipo": "contrasta",
+          "etichetta": "resterebbe, per Incampo, incomprensibile senza il"
+        },
+        {
+          "da": "linguaggio-giuridico",
+          "a": "plurivocita-del-linguaggio-giuridico",
+          "tipo": "collegato",
+          "etichetta": "è segnato dalla"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "linguaggio-giuridico",
+          "tipo": "interpreta",
+          "etichetta": "studia con l'analisi del linguaggio il"
+        }
+      ]
+    },
+    {
+      "id": "pragmatica",
+      "oltre": "Il termine, dal greco *prâgma* («azione, cosa fatta»), entra nella filosofia del linguaggio con [[charles-w-morris|Charles W. Morris]], che nei *Foundations of the Theory of Signs* (1938) divide la [[semiotica]] in [[sintattica]] (rapporti tra segni), [[semantica]] (segni e oggetti) e **pragmatica** (segni e loro utenti). Nel Novecento la pragmatica diventa lo studio dell'**uso** del linguaggio nei contesti: gli [[atto-linguistico|atti linguistici]] di Austin e Searle, le implicature conversazionali di Grice, il peso del contesto sul significato.\n\nIncampo usa il termine in un senso più ampio e normativo: la pragmatica non descrive soltanto come si usano le parole, ma studia le **condizioni di validità** degli atti con cui si fa il diritto (decretare, sentenziare, promettere). Per questo distingue una [[validita-praxeologica|validità praxeologica]], legata all'idea dell'atto, e una [[validita-praxeonomica|validità praxeonomica]], legata alle norme di un ordinamento. Il legame con la *práxis* («agire») sottolinea che il diritto è prima di tutto azione.",
+      "daSapere": [
+        "Morris, *Foundations of the Theory of Signs* (1938): sintattica, semantica, pragmatica",
+        "Pragmatica = rapporto tra i segni e chi li usa",
+        "In Incampo: validità praxeologica e praxeonomica"
+      ],
+      "collegamenti": [
+        {
+          "da": "pragmatica",
+          "a": "autonomia-logica-del-diritto",
+          "tipo": "causa",
+          "etichetta": "fonda, con criteri di validità propri, l'"
+        },
+        {
+          "da": "pragmatica",
+          "a": "validita-pragmatica",
+          "tipo": "collegato",
+          "etichetta": "studia le condizioni della"
+        },
+        {
+          "da": "pragmatica",
+          "a": "semiotica",
+          "tipo": "parte-di",
+          "etichetta": "è, per Morris, una branca della"
+        },
+        {
+          "da": "charles-w-morris",
+          "a": "pragmatica",
+          "tipo": "crea",
+          "etichetta": "definisce la"
+        },
+        {
+          "da": "pragmatica",
+          "a": "atto-linguistico",
+          "tipo": "collegato",
+          "etichetta": "studia l'uso e la riuscita dell'"
+        }
+      ]
+    },
+    {
+      "id": "status-deontico",
+      "oltre": "Obbligatorio, vietato e permesso sono le **modalità deontiche** studiate dalla [[logica-deontica|logica deontica]], fondata da [[georg-h-von-wright|von Wright]] con il saggio *Deontic Logic* (1951) e, negli stessi anni, da [[georges-kalinowski|Kalinowski]]. Come le modalità aletiche (necessario, possibile, impossibile), sono **interdefinibili**: il divieto di p equivale all'obbligo di non-p (O¬p); il permesso di p equivale all'assenza dell'obbligo di non-p (Pp = ¬O¬p). Basta quindi un operatore, di solito O, per definire gli altri.\n\nIl termine «deontico» è della stessa famiglia della *deontologia*, la «scienza dei doveri» di Bentham. Oggi «status deontico» si usa anche nella filosofia sociale di [[john-searle|Searle]], per il quale le istituzioni attribuiscono **poteri deontici** (diritti, doveri, autorizzazioni). Il problema filosofico discusso negli appunti è se questi status esistano prima delle norme (realismo di Kalinowski, [[realite-deontique|réalité déontique]]) o siano creati da esse (Conte, Incampo).",
+      "daSapere": [
+        "*Déon* (δέον) = il dovere, ciò che è necessario fare",
+        "Obbligo Op; divieto O¬p; permesso Pp = ¬O¬p",
+        "Logica deontica: von Wright, *Deontic Logic* (1951)"
+      ],
+      "collegamenti": [
+        {
+          "da": "enunciazione-rhetica",
+          "a": "status-deontico",
+          "tipo": "collegato",
+          "etichetta": "si limita a descrivere lo"
+        },
+        {
+          "da": "status-deontico",
+          "a": "realite-deontique",
+          "tipo": "parte-di",
+          "etichetta": "compone, per Kalinowski, la"
+        },
+        {
+          "da": "verfestigung",
+          "a": "status-deontico",
+          "tipo": "collegato",
+          "etichetta": "è, per Incampo, il consolidamento normativo dello"
+        },
+        {
+          "da": "obbligo",
+          "a": "status-deontico",
+          "tipo": "esempio-di",
+          "etichetta": "è uno"
+        },
+        {
+          "da": "divieto",
+          "a": "status-deontico",
+          "tipo": "esempio-di",
+          "etichetta": "è uno"
+        },
+        {
+          "da": "permesso",
+          "a": "status-deontico",
+          "tipo": "esempio-di",
+          "etichetta": "è uno"
+        },
+        {
+          "da": "status-deontico",
+          "a": "logica-deontica",
+          "tipo": "collegato",
+          "etichetta": "è l'oggetto della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "G. H. von Wright, Deontic Logic, Mind 60 (1951), 1–15",
+          "url": "https://doi.org/10.1093/mind/LX.237.1"
+        }
+      ]
+    },
+    {
+      "id": "teoria-della-costitutivita",
+      "oltre": "La teoria va letta dentro il dibattito sulle **norme costitutive**, che dagli anni Cinquanta e Sessanta mette in discussione l'idea che ogni norma sia un comando. [[john-searle|Searle]] distingue le **regole regolative**, che disciplinano comportamenti già esistenti (le regole del galateo), dalle **regole costitutive**, che creano la possibilità stessa di certi comportamenti (le regole degli scacchi). In Italia il tema è sviluppato soprattutto da [[amedeo-g-conte|Conte]] e da [[gaetano-carcaterra|Carcaterra]].\n\nIl bersaglio è il modello imperativistico: per John Austin, giurista inglese dell'Ottocento, la legge è un [[comando]] del sovrano sostenuto dalla minaccia di una sanzione; per [[kelsen|Kelsen]] la norma giuridica collega un illecito a una [[sanzione]] ([[struttura-prescrittivo-sanzionatoria|struttura prescrittivo-sanzionatoria]]). Anche [[hart|Hart]], in *The Concept of Law* (1961), critica questo modello, osservando che molte norme non impongono obblighi ma **conferiscono poteri** (fare testamento, sposarsi, legiferare).\n\nCarcaterra va oltre: non solo esistono norme costitutive accanto a quelle prescrittive, ma **ogni** norma ha alla base una forza costitutiva.",
+      "daSapere": [
+        "Carcaterra: dalla visione «mista» alla tesi «unitaria» (primato delle norme costitutive)",
+        "Regole regolative / regole costitutive (Searle, 1969)",
+        "Bersaglio: il modello comando-sanzione (John Austin, Kelsen)"
+      ],
+      "collegamenti": [
+        {
+          "da": "gaetano-carcaterra",
+          "a": "teoria-della-costitutivita",
+          "tipo": "crea",
+          "etichetta": "elabora la"
+        },
+        {
+          "da": "teoria-della-costitutivita",
+          "a": "kelsen",
+          "tipo": "contrasta",
+          "etichetta": "critica il modello prescrittivo-sanzionatorio di"
+        },
+        {
+          "da": "grundnorm",
+          "a": "teoria-della-costitutivita",
+          "tipo": "contrasta",
+          "etichetta": "sfugge, perché non disposta da alcuno, alla"
+        },
+        {
+          "da": "riconoscimento",
+          "a": "teoria-della-costitutivita",
+          "tipo": "contrasta",
+          "etichetta": "precede ogni disposizione e sfugge alla"
+        },
+        {
+          "da": "teoria-della-costitutivita",
+          "a": "regola-costitutiva",
+          "tipo": "collegato",
+          "etichetta": "afferma il primato della"
+        },
+        {
+          "da": "teoria-della-costitutivita",
+          "a": "enunciazione-fondamentale",
+          "tipo": "collegato",
+          "etichetta": "si fonda sull'"
+        },
+        {
+          "da": "teoria-della-costitutivita",
+          "a": "struttura-prescrittivo-sanzionatoria",
+          "tipo": "contrasta",
+          "etichetta": "nega l'esclusività della"
+        }
+      ]
+    },
+    {
+      "id": "verita",
+      "oltre": "La definizione più antica e diffusa è la **verità come corrispondenza**: per Aristotele è vero dire di ciò che è che è, e di ciò che non è che non è; la Scolastica la formula come *adaequatio rei et intellectus*. Nel Novecento Alfred Tarski ne dà una versione logica (teoria semantica della verità): «la neve è bianca» è vero se e solo se la neve è bianca. Accanto a essa esistono teorie della **coerenza** e teorie **pragmatiste**. La **verità ontica** riprende invece la dottrina medievale dei trascendentali: *ens et verum convertuntur*, ogni ente, in quanto è, è vero.\n\nPer il diritto il problema è insieme antico e logico: se le norme non sono né vere né false, come possono esserci inferenze tra norme? È il cosiddetto **dilemma di Jørgensen** (1937–38). Una risposta è sostituire la verità con la [[validita]]; un'altra, quella di [[georges-kalinowski|Kalinowski]], è attribuire alle norme una verità vera e propria. Incampo segue una via intermedia: le norme sono «vere» solo nel senso ontico di esistenti nell'ordinamento ([[verita-ontica]]), non nel senso [[verita-semantica|semantico]].",
+      "daSapere": [
+        "*Adaequatio rei et intellectus*: adeguazione della cosa e dell'intelletto",
+        "*Verum de dicto* (semantica) / *verum de re* (ontica)",
+        "*Ens et verum convertuntur*: l'ente e il vero coincidono",
+        "Dilemma di Jørgensen (1937–38): le norme non sono vere né false"
+      ],
+      "collegamenti": [
+        {
+          "da": "verita-semantica",
+          "a": "verita",
+          "tipo": "parte-di",
+          "etichetta": "è uno dei due sensi della"
+        },
+        {
+          "da": "verita-ontica",
+          "a": "verita",
+          "tipo": "parte-di",
+          "etichetta": "è uno dei due sensi della"
+        },
+        {
+          "da": "verita",
+          "a": "validita",
+          "tipo": "collegato",
+          "etichetta": "non sostituisce, come predicato delle norme, la"
+        },
+        {
+          "da": "discorso-apofantico",
+          "a": "verita",
+          "tipo": "collegato",
+          "etichetta": "è il discorso capace di"
+        }
+      ]
+    },
+    {
+      "id": "john-l-austin",
+      "oltre": "John Langshaw Austin (Lancaster 1911 – Oxford 1960) fu professore di filosofia morale a Oxford e il principale esponente della **filosofia del linguaggio ordinario**, che chiarisce i problemi filosofici osservando con precisione come usiamo le parole. Viene spesso accostato al secondo [[wittgenstein|Wittgenstein]], ma sviluppò il suo metodo in modo in gran parte autonomo.\n\nPubblicò poco in vita; le opere principali sono postume: *Philosophical Papers* (1961), *Sense and Sensibilia* (1962) e soprattutto *[[how-to-do-things-with-words|How to Do Things with Words]]* (1962). Qui distingue gli enunciati **constativi** (veri o falsi) da quelli **[[enunciato-performativo|performativi]]**, che compiono un'azione e possono solo riuscire o fallire secondo [[condizioni-di-felicita|condizioni di felicità]]; poi generalizza la teoria agli atti locutorio, illocutorio e perlocutorio. Molti suoi esempi sono giuridici: il matrimonio, il testamento, la scommessa.\n\nDue avvertenze. Non va confuso con **John Austin** (1790–1859), giurista inglese della teoria imperativistica, autore di *The Province of Jurisprudence Determined* (1832). E la distinzione tra linguaggio aletico e deontico, che gli appunti gli attribuiscono (con dubbio), viene di solito dalla logica modale, in particolare da [[georg-h-von-wright|von Wright]] (*An Essay in Modal Logic*, 1951).",
+      "daSapere": [
+        "1911–1960, Oxford: filosofia del linguaggio ordinario",
+        "*How to Do Things with Words* (1962, lezioni di Harvard del 1955)",
+        "Constativi / performativi; atti locutorio, illocutorio, perlocutorio",
+        "Da non confondere con John Austin (1790–1859), giurista imperativista"
+      ],
+      "collegamenti": [
+        {
+          "da": "wittgenstein",
+          "a": "john-l-austin",
+          "tipo": "collegato",
+          "etichetta": "è accostato, per l'attenzione al linguaggio ordinario, a"
+        },
+        {
+          "da": "john-l-austin",
+          "a": "how-to-do-things-with-words",
+          "tipo": "crea",
+          "etichetta": "raccoglie le sue lezioni di Harvard in"
+        },
+        {
+          "da": "john-l-austin",
+          "a": "enunciato-performativo",
+          "tipo": "crea",
+          "etichetta": "introduce la nozione di"
+        },
+        {
+          "da": "john-l-austin",
+          "a": "verbi-performativi",
+          "tipo": "crea",
+          "etichetta": "distingue cinque"
+        },
+        {
+          "da": "john-l-austin",
+          "a": "condizioni-di-felicita",
+          "tipo": "crea",
+          "etichetta": "teorizza le"
+        }
+      ],
+      "togli": [
+        {
+          "da": "john-l-austin",
+          "a": "linguaggio-deontico"
+        }
+      ]
+    },
+    {
+      "id": "ferdinand-de-saussure",
+      "oltre": "Ferdinand de Saussure (Ginevra 1857 – 1913) è il linguista svizzero considerato il fondatore della **linguistica strutturale**. Insegnò a Parigi e poi a Ginevra. La sua opera più famosa, il *Corso di linguistica generale* (1916), non fu scritta da lui: la pubblicarono postuma due allievi, Charles Bally e Albert Sechehaye, sulla base degli appunti delle sue lezioni.\n\nLe idee chiave:\n- **langue** e **parole**: la lingua come sistema sociale di regole e l'atto individuale con cui il parlante la usa;\n- il **segno linguistico** come unione di *significante* (l'immagine acustica) e *significato* (il concetto), legati in modo **arbitrario**;\n- la lingua come **sistema**, in cui ogni elemento vale per la sua differenza dagli altri;\n- la distinzione tra studio **sincronico** (la lingua in un dato momento) e **diacronico** (la sua evoluzione);\n- il progetto di una *semiologia*, scienza dei segni nella vita sociale, parallela alla [[semiotica]] di Peirce.\n\nPer il corso conta perché la coppia *langue*/*parole* mostra che dire è un atto individuale compiuto dentro un sistema comune: offre un confronto utile per capire, nel ragionamento del corso, la dimensione sociale del dire. Non significa che Saussure abbia formulato la teoria degli atti linguistici di Austin.",
+      "daSapere": [
+        "Ginevra 1857–1913, fondatore della linguistica strutturale",
+        "*Corso di linguistica generale* (1916, postumo, curato da Bally e Sechehaye)",
+        "*Langue* (sistema) / *parole* (atto individuale)",
+        "Segno = significante + significato; arbitrarietà del segno"
+      ],
+      "collegamenti": [
+        {
+          "da": "ferdinand-de-saussure",
+          "a": "semiotica",
+          "tipo": "influenza",
+          "etichetta": "progetta, come «semiologia», la"
+        },
+        {
+          "da": "ferdinand-de-saussure",
+          "a": "segno-e-significato",
+          "tipo": "interpreta",
+          "etichetta": "riflette sul rapporto tra"
+        },
+        {
+          "da": "ferdinand-de-saussure",
+          "a": "enunciato-performativo",
+          "tipo": "collegato",
+          "etichetta": "chiarisce il «dire», prima condizione dell'"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Ginevra, centenario del Corso di linguistica generale",
+          "url": "https://www.unige.ch/actualites/archives/2016/auditoire-de-saussure/"
+        }
+      ]
+    },
+    {
+      "id": "gaetano-carcaterra",
+      "oltre": "Gaetano Carcaterra è un filosofo del diritto italiano della seconda metà del Novecento, professore a Roma, tra i protagonisti, con [[amedeo-g-conte|Amedeo G. Conte]], della discussione italiana sulle **norme costitutive**.\n\nOpere principali:\n- *Il problema della fallacia naturalistica* (1969), dedicato alla derivazione del dover essere dall'essere, cioè alla [[legge-di-hume|legge di Hume]];\n- *Le norme costitutive* (1974);\n- *La forza costitutiva delle norme* (1979).\n\nL'idea centrale è che le norme non si limitano a comandare: molte **creano** ciò di cui parlano (una qualifica, un organo, un atto valido) e producono effetti per il solo fatto di essere in vigore, senza bisogno di essere obbedite. La norma che fissa la maggiore età non chiede a nessuno di fare nulla: rende maggiorenni. Da qui la critica al modello di [[kelsen|Kelsen]], per il quale ogni norma giuridica collega una sanzione a un illecito. Carcaterra arriva a sostenere il primato delle norme costitutive, perché ogni norma presuppone un atto che la pone nell'ordinamento ([[enunciazione-fondamentale|enunciazione fondamentale]]).\n\nPer il corso è uno degli interlocutori principali di Incampo nella parte sul linguaggio giuridico: Incampo ne accoglie l'idea di costitutività ma ne segna i limiti.",
+      "daSapere": [
+        "*Il problema della fallacia naturalistica* (1969)",
+        "*Le norme costitutive* (1974); *La forza costitutiva delle norme* (1979)",
+        "Tesi «unitaria»: ogni norma presuppone una forza costitutiva",
+        "«Si dispone che il sistema S contenga la determinazione D»"
+      ],
+      "collegamenti": [
+        {
+          "da": "gaetano-carcaterra",
+          "a": "kelsen",
+          "tipo": "contrasta",
+          "etichetta": "critica il modello prescrittivo-sanzionatorio di"
+        },
+        {
+          "da": "gaetano-carcaterra",
+          "a": "regola-costitutiva",
+          "tipo": "interpreta",
+          "etichetta": "afferma il primato della"
+        },
+        {
+          "da": "gaetano-carcaterra",
+          "a": "legge-di-hume",
+          "tipo": "interpreta",
+          "etichetta": "studia, come problema della fallacia naturalistica, la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Sapienza, collana Studi di filosofia del diritto, fondata da Carcaterra, De Sanctis e Romano",
+          "url": "https://dsg.web.uniroma1.it/it/collana-studi-di-filosofia-del-diritto"
+        }
+      ]
+    },
+    {
+      "id": "how-to-do-things-with-words",
+      "oltre": "Il libro raccoglie le dodici *William James Lectures* che [[john-l-austin|Austin]] tenne a Harvard nel 1955; uscì postumo nel 1962 a cura di J. O. Urmson. In italiano è tradotto come *Come fare cose con le parole*.\n\nIl percorso è in tre tempi.\n1. Austin distingue gli enunciati **constativi**, che descrivono e sono veri o falsi, dai **[[enunciato-performativo|performativi]]**, con cui si compie un'azione. I suoi esempi sono spesso giuridici: il «sì» pronunciato nel matrimonio, il battesimo di una nave, il lascito di un orologio nel testamento, la scommessa.\n2. I performativi non sono veri o falsi ma **felici** o **infelici**: la dottrina delle [[condizioni-di-felicita|condizioni di felicità]] distingue i «colpi a vuoto» (l'atto non si compie, per esempio se manca la procedura) dagli «abusi» (l'atto si compie ma è viziato, come la promessa insincera).\n3. La distinzione constativo/performativo non regge del tutto, e Austin la sostituisce con la teoria generale degli atti **locutorio**, **illocutorio** e **perlocutorio**. Nell'ultima lezione propone le cinque [[verbi-performativi|classi di verbi performativi]].\n\nÈ il testo fondativo della teoria degli [[atto-linguistico|atti linguistici]].",
+      "daSapere": [
+        "Lezioni di Harvard del 1955, pubblicate postume nel 1962",
+        "Traduzioni: *Quand dire c'est faire* (fr.); *Come fare cose con le parole* (it.)",
+        "Infelicità: colpi a vuoto (*misfires*) e abusi (*abuses*)",
+        "Atti locutorio, illocutorio, perlocutorio"
+      ],
+      "collegamenti": [
+        {
+          "da": "how-to-do-things-with-words",
+          "a": "enunciato-performativo",
+          "tipo": "testimonia",
+          "etichetta": "introduce la nozione di"
+        },
+        {
+          "da": "how-to-do-things-with-words",
+          "a": "condizioni-di-felicita",
+          "tipo": "testimonia",
+          "etichetta": "espone la dottrina delle"
+        },
+        {
+          "da": "how-to-do-things-with-words",
+          "a": "verbi-performativi",
+          "tipo": "testimonia",
+          "etichetta": "propone nell'ultima lezione le"
+        }
+      ]
+    },
+    {
+      "id": "leonardus-lessius",
+      "oltre": "Leonardus Lessius (Leonard Leys, Brecht 1554 – Lovanio 1623) fu un teologo gesuita fiammingo, professore al collegio dei gesuiti di Lovanio. Appartiene alla **Seconda Scolastica**, la rinascita della teologia morale e del diritto naturale avviata nel Cinquecento dalla scuola di Salamanca (Vitoria, Soto) e proseguita dai gesuiti (Molina, Suárez).\n\nIl *De iustitia et iure* uscì per la prima volta a Lovanio nel 1605 e fu più volte ristampato: gli appunti citano il 1608, data da riferire all'edizione utilizzata anziché necessariamente alla prima pubblicazione. Sul modello di [[tommaso-d-aquino|Tommaso d'Aquino]] tratta la giustizia e le altre [[virtu-cardinali|virtù cardinali]], ma è anche un vero trattato di diritto: contratti, promesse, prezzo giusto, prestito a interesse, cambi, restituzione. Lessius è ricordato anche come economista per le sue analisi del mercato e del denaro, e fu letto da Grozio.\n\nLa formula citata negli appunti esprime una tesi dei teologi-giuristi del tempo: la [[promessa]] e la donazione non descrivono un obbligo o un trasferimento, lo **producono**. Per questo Incampo vi vede un'anticipazione, di oltre tre secoli, degli [[enunciato-performativo|enunciati performativi]] di Austin.",
+      "daSapere": [
+        "1554–1623, gesuita, professore a Lovanio; Seconda Scolastica",
+        "*De iustitia et iure* (1ª ed. Lovanio 1605)",
+        "*Promissio, donatio efficiunt quod significant*: la promessa e la donazione fanno ciò che significano"
+      ],
+      "collegamenti": [
+        {
+          "da": "leonardus-lessius",
+          "a": "enunciato-performativo",
+          "tipo": "influenza",
+          "etichetta": "anticipa, per Incampo, l'idea dell'"
+        },
+        {
+          "da": "leonardus-lessius",
+          "a": "promessa",
+          "tipo": "interpreta",
+          "etichetta": "vede un atto che produce ciò che dice nella"
+        },
+        {
+          "da": "tommaso-d-aquino",
+          "a": "leonardus-lessius",
+          "tipo": "influenza",
+          "etichetta": "offre il modello del trattato sulla giustizia a"
+        }
+      ]
+    },
+    {
+      "id": "ricerche-filosofiche",
+      "oltre": "Le *Ricerche filosofiche* (*Philosophische Untersuchungen*) sono l'opera principale del secondo [[wittgenstein|Wittgenstein]]. Scritte tra gli anni Trenta e Quaranta, furono pubblicate postume nel 1953, due anni dopo la morte dell'autore, a cura di G. E. M. Anscombe e R. Rhees, in tedesco e inglese.\n\nRompono con il *Tractatus logico-philosophicus* (1921), per il quale il linguaggio è un'immagine logica del mondo. Le idee chiave:\n- il significato di una parola è, nella maggior parte dei casi, il suo **uso** nel linguaggio (§ 43);\n- il linguaggio è un insieme di **giochi linguistici** legati a **forme di vita**: dare ordini, descrivere, raccontare, pregare;\n- molti concetti non richiedono un'unica essenza comune ma presentano **somiglianze di famiglia** (l'esempio del concetto di «gioco»);\n- **seguire una regola** è una prassi (§ 202), non un'interpretazione privata: da qui il [[paradosso-di-wittgenstein|paradosso del § 201]] e l'argomento contro il linguaggio privato.\n\nNel 1982 Saul Kripke ne ha proposto una lettura scettica discussa. Per la filosofia del diritto l'opera conta perché il problema di come una regola determini i casi della sua applicazione è lo stesso dell'interpretazione delle norme.",
+      "daSapere": [
+        "Pubblicate postume nel 1953 (Wittgenstein muore nel 1951)",
+        "Significato come uso (§ 43); giochi linguistici; somiglianze di famiglia",
+        "§ 201: paradosso del seguire una regola; § 202: seguire una regola è una prassi"
+      ],
+      "collegamenti": [
+        {
+          "da": "wittgenstein",
+          "a": "ricerche-filosofiche",
+          "tipo": "crea",
+          "etichetta": "scrive, nella seconda fase del suo pensiero, le"
+        },
+        {
+          "da": "ricerche-filosofiche",
+          "a": "paradosso-di-wittgenstein",
+          "tipo": "testimonia",
+          "etichetta": "formula al § 201 il"
+        },
+        {
+          "da": "ricerche-filosofiche",
+          "a": "gioco",
+          "tipo": "collegato",
+          "etichetta": "usa come modello del linguaggio il"
+        }
+      ]
+    },
+    {
+      "id": "vigenza",
+      "oltre": "Nella teoria generale del diritto la **vigenza** (l'essere «in vigore») si distingue da altre proprietà della norma:\n- la [[validita]], cioè la conformità alle norme superiori che ne regolano la produzione;\n- l'[[efficacia]], cioè il fatto di essere effettivamente osservata e applicata.\nVigenza e validità sono piani distinti: una legge può entrare in vigore anche se affetta da un vizio. L'art. 136 Cost. disciplina la cessazione di efficacia dopo la dichiarazione di illegittimità; l'annullamento costituzionale non va però confuso con la semplice abrogazione.\n\nNell'ordinamento italiano la vigenza ha un inizio e una fine. Le leggi entrano in vigore di regola, salvo termine diverso, il quindicesimo giorno dopo la pubblicazione in Gazzetta Ufficiale (*vacatio legis*: art. 73 Cost. e art. 10 delle Preleggi). Cessano di vigere per [[norma-abrogativa|abrogazione]] espressa, tacita (per incompatibilità) o per nuova disciplina dell'intera materia (art. 15 delle Preleggi).\n\nCon [[sergio-cotta|Cotta]] il termine assume un senso filosofico più ampio: il [[diritto-naturale-vigente|diritto naturale vigente]] non è in vigore per un atto di posizione, ma perché è già presente e operante nell'esperienza giuridica.",
+      "daSapere": [
+        "*Vacatio legis*: di regola 15 giorni dalla pubblicazione (art. 73 Cost.; art. 10 Preleggi)",
+        "Abrogazione espressa, tacita o per nuova disciplina della materia (art. 15 Preleggi)",
+        "Vigenza ≠ validità ≠ efficacia"
+      ],
+      "collegamenti": [
+        {
+          "da": "vigenza",
+          "a": "validita",
+          "tipo": "collegato",
+          "etichetta": "si distingue dalla"
+        },
+        {
+          "da": "vigenza",
+          "a": "efficacia",
+          "tipo": "collegato",
+          "etichetta": "si distingue dall'"
+        },
+        {
+          "da": "norma-abrogativa",
+          "a": "vigenza",
+          "tipo": "contrasta",
+          "etichetta": "fa cessare la"
+        },
+        {
+          "da": "diritto-naturale-vigente",
+          "a": "vigenza",
+          "tipo": "collegato",
+          "etichetta": "estende al diritto naturale la nozione di"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione italiana, artt. 70–74: formazione, promulgazione e pubblicazione delle leggi (Governo italiano)",
+          "url": "https://presidenza.governo.it/Governo/Costituzione/2_titolo1.html"
+        },
+        {
+          "titolo": "Costituzione italiana, art. 136 (Senato della Repubblica)",
+          "url": "https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-vi/sezione-i/articolo-136"
+        }
+      ]
+    },
+    {
+      "id": "hegel",
+      "oltre": "Georg Wilhelm Friedrich Hegel (Stoccarda 1770 – Berlino 1831) è il massimo esponente dell'idealismo tedesco. Studiò a Tubinga con Schelling e Hölderlin; insegnò a Jena, a Heidelberg e dal 1818 a Berlino.\n\nOpere principali: *[[fenomenologia-dello-spirito|Fenomenologia dello spirito]]* (1807), *Scienza della logica* (1812–1816), *Enciclopedia delle scienze filosofiche* (1817) e *Lineamenti di filosofia del diritto* (1820, con data 1821).\n\nIdee chiave:\n- la realtà è sviluppo dello **Spirito** attraverso la **dialettica**: ogni momento è negato e insieme conservato in uno superiore (*Aufhebung*); «ciò che è razionale è reale, ciò che è reale è razionale»;\n- l'autocoscienza nasce dal **[[riconoscimento]]** reciproco: la figura di [[signore-e-servo|signore e servo]];\n- nei *Lineamenti* lo spirito oggettivo si articola in diritto astratto, moralità ed **[[eticita|eticità]]**, che comprende [[famiglia]], [[societa-civile|società civile]] e [[stato|Stato]], «realtà dell'idea etica»;\n- tra gli Stati non c'è un giudice superiore: il diritto internazionale resta «diritto statale esterno» e i conflitti si decidono, in ultima istanza, con la guerra.\n\nPer il corso è un riferimento, spesso critico, nella discussione sullo Stato etico e sul [[monopolio-statale-del-diritto|monopolio statale del diritto]]. La lettura personalista di Moro va distinta da quella hegeliana: il confronto non autorizza a ridurre tutta la filosofia di Hegel a una celebrazione di qualsiasi potere statale.",
+      "daSapere": [
+        "1770–1831; idealismo tedesco, professore a Berlino dal 1818",
+        "*Fenomenologia dello spirito* (1807); *Scienza della logica* (1812–1816)",
+        "*Lineamenti di filosofia del diritto* (1820/1821): diritto astratto, moralità, eticità",
+        "Eticità: famiglia, società civile, Stato"
+      ],
+      "collegamenti": [
+        {
+          "da": "hegel",
+          "a": "giudizi-del-concetto",
+          "tipo": "crea",
+          "etichetta": "teorizza nella Scienza della logica i"
+        },
+        {
+          "da": "hegel",
+          "a": "monopolio-statale-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "è discusso nel corso in rapporto al"
+        },
+        {
+          "da": "hegel",
+          "a": "eticita-dello-stato",
+          "tipo": "collegato",
+          "etichetta": "teorizza l'"
+        },
+        {
+          "da": "hegel",
+          "a": "societa-civile",
+          "tipo": "collegato",
+          "etichetta": "teorizza, distinguendola dallo Stato, la"
+        },
+        {
+          "da": "hegel",
+          "a": "diritto-internazionale",
+          "tipo": "collegato",
+          "etichetta": "riduce a «diritto statale esterno» il"
+        },
+        {
+          "da": "hegel",
+          "a": "diritto-naturale",
+          "tipo": "supera",
+          "etichetta": "rovescia la concezione classica del"
+        },
+        {
+          "da": "hegel",
+          "a": "riconoscimento",
+          "tipo": "crea",
+          "etichetta": "pone all'origine dell'autocoscienza il"
+        },
+        {
+          "da": "hegel",
+          "a": "signore-e-servo",
+          "tipo": "crea",
+          "etichetta": "descrive nella Fenomenologia la dialettica di"
+        }
+      ]
+    },
+    {
+      "id": "sintattica",
+      "oltre": "In linguistica la **sintassi** studia le regole con cui le parole si combinano in frasi; in logica, le regole di formazione e di trasformazione delle espressioni di un linguaggio formale (Carnap, *La sintassi logica del linguaggio*, 1934). [[charles-w-morris|Morris]] generalizza l'idea: la **sintattica** è la parte della [[semiotica]] che considera i segni solo nei loro rapporti reciproci, prescindendo da ciò che designano ([[semantica]]) e da chi li usa ([[pragmatica]]). La tripartizione compare già nei *Foundations of the Theory of Signs* (1938) ed è ripresa in *[[signs-language-and-behavior|Signs, Language and Behavior]]* (1946).\n\nIncampo applica la nozione alle norme: una norma non vale isolatamente, ma per le sue relazioni con le altre norme dell'ordinamento. È un'idea vicina alla validità dinamica di [[kelsen|Kelsen]] (una norma vale se è prodotta secondo le norme superiori) e alle **norme secondarie** di [[hart|Hart]], cioè norme sulle norme. Nel diritto le relazioni «sintattiche» sono regolate dalle [[norme-di-struttura|norme di struttura]]: norme sulla produzione, sull'abrogazione, sulla soluzione delle antinomie.",
+      "daSapere": [
+        "Dal greco *syntáttein*, «mettere insieme, ordinare»",
+        "Morris (1938; 1946): sintattica, semantica, pragmatica",
+        "Nel diritto: validità sintattica, norme di struttura, norme sulle norme"
+      ],
+      "collegamenti": [
+        {
+          "da": "charles-w-morris",
+          "a": "sintattica",
+          "tipo": "crea",
+          "etichetta": "definisce la"
+        },
+        {
+          "da": "sintattica",
+          "a": "semiotica",
+          "tipo": "parte-di",
+          "etichetta": "è una branca della"
+        },
+        {
+          "da": "sintattica",
+          "a": "validita-sintattica",
+          "tipo": "influenza",
+          "etichetta": "trasferita alle norme, dà origine alla"
+        },
+        {
+          "da": "sintattica",
+          "a": "norme-di-struttura",
+          "tipo": "collegato",
+          "etichetta": "trova nel diritto il suo campo nelle"
+        }
+      ]
+    },
+    {
+      "id": "georg-h-von-wright",
+      "oltre": "Georg Henrik von Wright (Helsinki 1916 – 2003) fu un filosofo e logico finlandese. Allievo e amico di [[wittgenstein|Wittgenstein]], gli succedette nella cattedra di Cambridge (1948–1951) e ne fu uno degli esecutori letterari, con Anscombe e Rhees; poi insegnò a Helsinki.\n\nÈ il fondatore della [[logica-deontica|logica deontica]] moderna:\n- *An Essay in Modal Logic* (1951) distingue le modalità **aletiche** (necessario, possibile), **epistemiche**, **deontiche** (obbligatorio, permesso, vietato) ed **esistenziali**;\n- *Deontic Logic* (1951), saggio uscito sulla rivista *Mind*, avvia la logica deontica contemporanea, che ha anche precursori storici;\n- *Norm and Action* (1963) distingue tipi di norme (regole, prescrizioni, direttive o [[regola-tecnica|norme tecniche]]) e distingue le norme tecniche dagli enunciati **anankastici**: questi ultimi descrivono una condizione necessaria del fine, per esempio il riscaldamento rispetto all’abitabilità; la norma tecnica indica invece che cosa fare per conseguirlo;\n- *Explanation and Understanding* (1971) confronta spiegazione causale e comprensione delle azioni.\n\nLa distinzione citata negli appunti è centrale nella sua teoria: una **prescrizione** non è né vera né falsa; una *norm-proposition* afferma invece che una norma esiste e può essere vera o falsa. La questione dei valori di verità non va estesa indistintamente a tutti i tipi di norme. Corrisponde alla distinzione di Kelsen tra norma e proposizione giuridica.",
+      "daSapere": [
+        "1916–2003; successore di Wittgenstein a Cambridge",
+        "*Deontic Logic* (1951); *Norm and Action* (1963)",
+        "Norma (né vera né falsa) / *norm-proposition* (vera o falsa)",
+        "Modalità aletiche, epistemiche, deontiche, esistenziali"
+      ],
+      "collegamenti": [
+        {
+          "da": "wittgenstein",
+          "a": "georg-h-von-wright",
+          "tipo": "influenza",
+          "etichetta": "ha come allievo e successore a Cambridge"
+        },
+        {
+          "da": "georg-h-von-wright",
+          "a": "logica-deontica",
+          "tipo": "crea",
+          "etichetta": "fonda la"
+        },
+        {
+          "da": "georg-h-von-wright",
+          "a": "regola-tecnica",
+          "tipo": "interpreta",
+          "etichetta": "fonda sugli enunciati anankastici la"
+        },
+        {
+          "da": "georg-h-von-wright",
+          "a": "linguaggio-deontico",
+          "tipo": "interpreta",
+          "etichetta": "distingue dalle modalità aletiche quelle del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "G. H. von Wright, Deontic Logic, Mind 60 (1951), 1–15",
+          "url": "https://doi.org/10.1093/mind/LX.237.1"
+        },
+        {
+          "titolo": "Università di Helsinki, von Wright: logica, norme e azione",
+          "url": "https://375humanistia.helsinki.fi/en/georg-henrik-von-wright/from-logical-analytical-philosophy-to-cultural-critic"
+        },
+        {
+          "titolo": "G. H. von Wright, Norms, Truth and Logic (testo dell’autore, CNR)",
+          "url": "https://www.ittig.cnr.it/EditoriaServizi/AttivitaEditoriale/InformaticaEDiritto/VonWright.Ied.1-2-2018.html"
+        }
+      ]
+    },
+    {
+      "id": "georges-kalinowski",
+      "oltre": "Georges (Jerzy) Kalinowski (1916–2000) fu un filosofo e logico polacco di formazione tomista. Insegnò all'Università cattolica di Lublino; alla fine degli anni Cinquanta si trasferì in Francia, dove lavorò come ricercatore al CNRS di Parigi.\n\nCon il saggio *Théorie des propositions normatives* (1953) è considerato, insieme a [[georg-h-von-wright|von Wright]], uno dei fondatori della [[logica-deontica|logica deontica]], elaborata da entrambi in modo indipendente negli stessi anni. Altre opere: *Introduction à la logique juridique* (1965), *Le problème de la vérité en morale et en droit* (1967), *La logique des normes* (1972).\n\nLa sua posizione è **cognitivista**: le norme morali e giuridiche possono essere vere o false, perché corrispondono a un ordine di doveri fondato sulla natura delle cose e conoscibile dalla ragione, secondo la tradizione del [[giusnaturalismo]] tomista. Si oppone così al non-cognitivismo di [[kelsen|Kelsen]], per il quale le norme sono il senso di atti di volontà e non possono essere vere né false.\n\nPer il corso è l'avversario della tesi di Conte e di Incampo, per i quali le norme non descrivono gli [[status-deontico|status deontici]], ma li creano o li consolidano.",
+      "daSapere": [
+        "1916–2000; logico polacco, poi in Francia (CNRS)",
+        "*Théorie des propositions normatives* (1953): tra le origini della logica deontica",
+        "*Introduction à la logique juridique* (1965); *Le problème de la vérité en morale et en droit* (1967)",
+        "Cognitivismo: le norme sono vere o false"
+      ],
+      "collegamenti": [
+        {
+          "da": "georges-kalinowski",
+          "a": "realite-deontique",
+          "tipo": "crea",
+          "etichetta": "teorizza la"
+        },
+        {
+          "da": "georges-kalinowski",
+          "a": "verita",
+          "tipo": "interpreta",
+          "etichetta": "identifica la validità delle norme con la"
+        },
+        {
+          "da": "georges-kalinowski",
+          "a": "logica-deontica",
+          "tipo": "crea",
+          "etichetta": "contribuisce a fondare la"
+        },
+        {
+          "da": "georges-kalinowski",
+          "a": "kelsen",
+          "tipo": "contrasta",
+          "etichetta": "oppone il cognitivismo al non-cognitivismo di"
+        }
+      ]
+    },
+    {
+      "id": "sergio-cotta",
+      "oltre": "Sergio Cotta (Firenze 1920 – Roma 2007) è uno dei principali filosofi del diritto italiani del secondo Novecento, pensatore cattolico; insegnò a lungo all'Università di Roma «La Sapienza». Si formò anche come storico del pensiero politico (*Montesquieu e la scienza della società*, 1953).\n\nOpere principali per il diritto: *Perché la violenza?* (1978), *Giustificazione e obbligatorietà delle norme* (1981), *[[il-diritto-nell-esistenza|Il diritto nell'esistenza. Linee di ontofenomenologia giuridica]]* (1985).\n\nIdee chiave:\n- il metodo dell'**[[ontofenomenologia]]**: descrivere l'esperienza giuridica come appare (fenomenologia) per risalire alla struttura dell'essere umano che la rende possibile (ontologia);\n- il diritto nasce dalla **[[coesistenza]]**: l'uomo è finito e relazionale, e ha bisogno di regole per vivere con gli altri;\n- tra le forme della coesistenza il diritto è quella **universale e inclusiva**, che riconosce chiunque come soggetto eguale;\n- la [[validita|validità]] formale non basta: le norme richiedono una **[[giustificazione]]**, ed è questa a fondarne l'obbligatorietà.\n\nPer il corso è uno degli autori di riferimento: Incampo ne prosegue il percorso e si confronta con lui sulla durata, sulla moralità del diritto e sulla carità.",
+      "daSapere": [
+        "Firenze 1920 – Roma 2007",
+        "*Il diritto nell'esistenza. Linee di ontofenomenologia giuridica* (1985)",
+        "*Giustificazione e obbligatorietà delle norme* (1981)",
+        "Il diritto come forma universale della coesistenza"
+      ],
+      "collegamenti": [
+        {
+          "da": "sergio-cotta",
+          "a": "kelsen",
+          "tipo": "contrasta",
+          "etichetta": "rimprovera un paralogismo alla teoria di"
+        },
+        {
+          "da": "sergio-cotta",
+          "a": "norma-retroattiva",
+          "tipo": "contrasta",
+          "etichetta": "giudica «insensata» la"
+        },
+        {
+          "da": "sergio-cotta",
+          "a": "ontofenomenologia",
+          "tipo": "crea",
+          "etichetta": "fonda l'"
+        },
+        {
+          "da": "sergio-cotta",
+          "a": "giustificazione",
+          "tipo": "interpreta",
+          "etichetta": "distingue dalla validità la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Gaetano Carcaterra, Sergio Cotta: profilo filosofico (Enciclopedia Italiana)",
+          "url": "https://www.treccani.it/enciclopedia/sergio-cotta_%28Enciclopedia-Italiana%29/"
+        }
+      ]
+    },
+    {
+      "id": "struttura-e-funzione",
+      "oltre": "La coppia **struttura/funzione** è classica nelle scienze naturali e sociali: la struttura è il modo in cui una cosa è composta, la funzione ciò a cui serve. Nella sociologia del Novecento il **funzionalismo** (Malinowski, Parsons, Merton) spiega le istituzioni con il contributo che danno al sistema sociale; Merton parla anche di **equivalenti funzionali**, strutture diverse che svolgono la stessa funzione ([[meccanismi-equifunzionali]]). In teoria del diritto [[norberto-bobbio|Bobbio]] usa la coppia per opporre all'analisi strutturale di [[kelsen|Kelsen]] un'analisi funzionale dell'ordinamento (*[[dalla-struttura-alla-funzione|Dalla struttura alla funzione]]*, 1977).\n\nIncampo la usa in un senso più ristretto e diverso: non riguarda l'ordinamento nel suo insieme, ma il **singolo atto** (la promessa, il contratto). La struttura è la forma che l'atto deve avere per esistere; la funzione è lo scopo essenziale che lo definisce. Tra le due c'è una [[relazione-essenziale|relazione essenziale]], nel senso fenomenologico di Husserl e Reinach: certe funzioni esigono certe strutture. Nel diritto civile un parallelo è la coppia tra elementi del contratto e [[causa-del-negozio|causa]]: un termine di confronto, non una perfetta identità tra le due teorie.",
+      "daSapere": [
+        "Struttura = come l'atto è fatto; funzione = a che cosa serve",
+        "Funzionalismo: Malinowski, Parsons, Merton (equivalenti funzionali)",
+        "Bobbio, *Dalla struttura alla funzione* (1977): senso diverso, riferito all'ordinamento"
+      ],
+      "collegamenti": [
+        {
+          "da": "struttura-e-funzione",
+          "a": "validita-praxeologica",
+          "tipo": "collegato",
+          "etichetta": "sono le due fonti delle condizioni della"
+        },
+        {
+          "da": "segno-e-significato",
+          "a": "struttura-e-funzione",
+          "tipo": "collegato",
+          "etichetta": "illustra per analogia la distinzione tra"
+        },
+        {
+          "da": "struttura-e-funzione",
+          "a": "relazione-essenziale",
+          "tipo": "collegato",
+          "etichetta": "sono legate da una"
+        },
+        {
+          "da": "struttura-e-funzione",
+          "a": "funzione-essenziale",
+          "tipo": "collegato",
+          "etichetta": "rimandano, sul lato della funzione, alla"
+        },
+        {
+          "da": "struttura-e-funzione",
+          "a": "regole-di-struttura",
+          "tipo": "collegato",
+          "etichetta": "si traducono, sul lato della struttura, nelle"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Bobbio, Dalla struttura alla funzione, presentazione e contenuti dell'editore Laterza",
+          "url": "https://bibliotecadigitale.laterza.it/scheda-libro/?isbn=9788842084587"
+        }
+      ]
+    },
+    {
+      "id": "validita-praxeologica",
+      "oltre": "Il termine viene da *práxis* («azione») e *lógos* («ragione, discorso»): la praxeologia è in generale la teoria dell'azione. Nel Novecento la parola ha avuto sensi diversi: per il polacco Tadeusz Kotarbiński è la teoria dell'azione efficiente, per l'economista Ludwig von Mises (*L'azione umana*, 1949) la scienza a priori dell'agire umano. Incampo la usa in un senso suo: è *praxeologico* ciò che deriva dal *lógos*, cioè dall'idea, dell'atto stesso.\n\nL'idea ha radici nella fenomenologia del diritto di [[adolf-reinach|Adolf Reinach]], per il quale promessa, pretesa e obbligazione obbediscono a leggi essenziali **a priori**, valide indipendentemente dal diritto positivo, come le verità della matematica. Il richiamo a [[kant|Kant]] riguarda la forma di queste condizioni: sono necessarie e universali, conoscibili indipendentemente dall'osservazione delle regole di un singolo ordinamento: a priori non significa semplicemente «pensato prima» in ordine cronologico.\n\nLa conseguenza pratica: se manca una condizione praxeologica l'atto non è semplicemente invalido secondo una legge, ma **non è quell'atto**. Nel diritto civile è la logica degli [[essentialia-negotii|essentialia negotii]]: senza prezzo non c'è compravendita.",
+      "daSapere": [
+        "*Práxis* (azione) + *lógos* (ragione): condizioni che vengono dall'idea dell'atto",
+        "Validità pragmatica prima: doveri necessari e universali",
+        "Condizioni di struttura (giudizi analitici) e di funzione (giudizi sintetici a priori)"
+      ],
+      "collegamenti": [
+        {
+          "da": "validita-praxeologica",
+          "a": "validita-pragmatica",
+          "tipo": "parte-di",
+          "etichetta": "è la specie prima della"
+        },
+        {
+          "da": "paradosso-pragmatico",
+          "a": "validita-praxeologica",
+          "tipo": "contrasta",
+          "etichetta": "nasce quando si eludono le condizioni della"
+        },
+        {
+          "da": "essentialia-negotii",
+          "a": "validita-praxeologica",
+          "tipo": "esempio-di",
+          "etichetta": "sono un esempio, nei negozi, della"
+        },
+        {
+          "da": "regole-di-struttura",
+          "a": "validita-praxeologica",
+          "tipo": "parte-di",
+          "etichetta": "sono una delle due componenti della"
+        },
+        {
+          "da": "regole-di-funzione",
+          "a": "validita-praxeologica",
+          "tipo": "parte-di",
+          "etichetta": "sono una delle due componenti della"
+        },
+        {
+          "da": "validita-praxeologica",
+          "a": "validita-praxeonomica",
+          "tipo": "contrasta",
+          "etichetta": "si distingue, come l'idea dalla norma, dalla"
+        },
+        {
+          "da": "adolf-reinach",
+          "a": "validita-praxeologica",
+          "tipo": "influenza",
+          "etichetta": "anticipa con il suo diritto a priori la"
+        }
+      ]
+    },
+    {
+      "id": "adolf-reinach",
+      "oltre": "Adolf Reinach (Magonza 1883 – Diksmuide, nelle Fiandre, 1917) fu un filosofo tedesco, allievo di [[husserl|Husserl]] a Gottinga e figura centrale della **fenomenologia realista**. Studiò anche diritto e morì al fronte nella Prima guerra mondiale.\n\nLa sua opera principale, *I fondamenti a priori del diritto civile* (*Die apriorischen Grundlagen des bürgerlichen Rechtes*, 1913), apparve nel primo volume dell'annuario della fenomenologia diretto da Husserl. Le tesi centrali:\n- esistono **atti sociali** (promettere, comandare, chiedere, comunicare) che si compiono solo rivolgendosi a un altro e facendosi percepire da lui: un'anticipazione, di mezzo secolo, della teoria degli [[atto-linguistico|atti linguistici]];\n- la [[promessa]] fa nascere necessariamente una **pretesa** nel promissario e un'**obbligazione** nel promittente; la pretesa si estingue con l'adempimento o con la rinuncia;\n- queste relazioni obbediscono a **leggi essenziali a priori**, conoscibili come le verità matematiche e indipendenti dal diritto positivo;\n- il diritto positivo può discostarsi da queste leggi (per esempio aggiungendo requisiti di capacità o condizioni per riconoscere un vincolo), ma non può abolirle.\n\nPer il corso è il riferimento principale della [[validita-praxeologica|validità praxeologica]] di Incampo.",
+      "daSapere": [
+        "1883–1917; fenomenologo, allievo di Husserl a Gottinga",
+        "*I fondamenti a priori del diritto civile* (1913)",
+        "Atti sociali: la promessa genera pretesa e obbligazione",
+        "Leggi essenziali a priori, indipendenti dal diritto positivo"
+      ],
+      "collegamenti": [
+        {
+          "da": "adolf-reinach",
+          "a": "regole-di-funzione",
+          "tipo": "collegato",
+          "etichetta": "offre con la pretesa impossibile un esempio di"
+        },
+        {
+          "da": "adolf-reinach",
+          "a": "sollen",
+          "tipo": "collegato",
+          "etichetta": "oppone l'essere delle leggi a priori al"
+        },
+        {
+          "da": "husserl",
+          "a": "adolf-reinach",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        },
+        {
+          "da": "adolf-reinach",
+          "a": "promessa",
+          "tipo": "interpreta",
+          "etichetta": "vede la fonte di pretesa e obbligazione nella"
+        },
+        {
+          "da": "adolf-reinach",
+          "a": "atto-linguistico",
+          "tipo": "influenza",
+          "etichetta": "anticipa con gli «atti sociali» la teoria dell'"
+        }
+      ]
+    },
+    {
+      "id": "imperativo-categorico",
+      "oltre": "È il principio supremo della morale nella *[[fondazione-della-metafisica-dei-costumi|Fondazione della metafisica dei costumi]]* (1785) e nella *Critica della ragion pratica* (1788) di [[kant|Kant]]. Si contrappone agli **imperativi ipotetici**, che comandano un'azione come mezzo per uno scopo («se vuoi guarire, prendi la medicina»): l'imperativo categorico comanda in modo incondizionato.\n\nKant ne dà più formulazioni, le principali:\n- **legge universale**: agisci solo secondo la massima che puoi volere diventi legge universale;\n- **umanità come fine**: tratta l'umanità, nella tua persona come in quella di ogni altro, sempre anche come fine e mai solo come mezzo;\n- **autonomia**: la volontà si dà da sé la legge ([[autonomia-morale|autonomia]] contro [[eteronomia]]).\n\nNella *Fondazione* Kant lo applica a quattro esempi: il suicidio, la falsa promessa, lo sviluppo dei talenti, l'aiuto agli altri. I primi due sono **doveri perfetti** (la massima contraria non si può neppure pensare come universale), gli altri **doveri imperfetti** (si può pensare, ma non volere). Gli appunti usano il secondo esempio: una falsa promessa universalizzata distruggerebbe la promessa stessa. Gli imperativi ipotetici dell'abilità corrispondono invece alle [[regola-tecnica|regole tecniche]].",
+      "daSapere": [
+        "Kant, *Fondazione della metafisica dei costumi* (1785); *Critica della ragion pratica* (1788)",
+        "Imperativo ipotetico (se vuoi X, fai Y) / categorico (incondizionato)",
+        "Formule: legge universale, umanità come fine, autonomia",
+        "Doveri perfetti (falsa promessa) e imperfetti (beneficenza)"
+      ],
+      "collegamenti": [
+        {
+          "da": "kant",
+          "a": "imperativo-categorico",
+          "tipo": "crea",
+          "etichetta": "formula l'"
+        },
+        {
+          "da": "imperativo-categorico",
+          "a": "regole-di-funzione",
+          "tipo": "collegato",
+          "etichetta": "fonda il dovere di mantenere le promesse, tra le"
+        },
+        {
+          "da": "imperativo-categorico",
+          "a": "universalizzabilita",
+          "tipo": "collegato",
+          "etichetta": "si esprime nella"
+        },
+        {
+          "da": "imperativo-categorico",
+          "a": "dovere-perfetto",
+          "tipo": "collegato",
+          "etichetta": "distingue, con i suoi esempi, il"
+        },
+        {
+          "da": "imperativo-categorico",
+          "a": "autonomia-morale",
+          "tipo": "collegato",
+          "etichetta": "è la legge che esprime l'"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Kant, Fondazione della metafisica dei costumi, 1785 (traduzione storica)",
+          "url": "https://www.gutenberg.org/files/5682/5682-h/5682-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "sein",
+      "oltre": "*Sein* è in tedesco l'«essere». Nella filosofia del diritto la coppia **Sein/Sollen** (essere/dover essere) indica la separazione tra il mondo dei fatti e quello delle norme. La radice è nel passo del *Trattato sulla natura umana* (1739–1740) in cui Hume osserva che molti autori passano senza giustificazione da proposizioni con «è» a proposizioni con «deve» ([[legge-di-hume|legge di Hume]]); Kant separa poi il regno della natura da quello della libertà.\n\nIl dualismo diventa centrale con [[kelsen|Kelsen]]: un dover essere deriva solo da un altro dover essere, mai da un fatto, e perciò la catena delle norme deve chiudersi con una [[grundnorm|norma fondamentale]] presupposta. Kelsen distingue anche due nessi: nel mondo dell'essere opera la causalità ([[nesso-di-causalita]]), in quello del dover essere l'imputazione ([[nesso-di-imputazione]]).\n\nNon va confuso con il *Sein* di Heidegger (*Essere e tempo*, 1927), che indica l'essere in senso ontologico. Gli appunti seguono anche [[sergio-cotta|Cotta]], che attenua il dualismo: il [[diritto-naturale-vigente|diritto naturale]] si presenta come un essere, una struttura già operante nella coesistenza, da cui nasce l'esigenza del dover essere.",
+      "daSapere": [
+        "*Sein* = essere (fatti); *Sollen* = dover essere (norme)",
+        "Hume, *Trattato sulla natura umana* (1739–1740): dall'«è» non segue il «deve»",
+        "Kelsen: causalità (essere) / imputazione (dover essere)"
+      ],
+      "collegamenti": [
+        {
+          "da": "sein",
+          "a": "sollen",
+          "tipo": "collegato",
+          "etichetta": "è distinto in Kelsen e raccordato in Cotta al"
+        },
+        {
+          "da": "legge-di-hume",
+          "a": "sein",
+          "tipo": "collegato",
+          "etichetta": "vieta di ricavare il dover essere dal"
+        },
+        {
+          "da": "kelsen",
+          "a": "sein",
+          "tipo": "interpreta",
+          "etichetta": "separa rigidamente dal Sollen il"
+        },
+        {
+          "da": "sein",
+          "a": "nesso-di-causalita",
+          "tipo": "collegato",
+          "etichetta": "è retto, per Kelsen, dal"
+        }
+      ]
+    },
+    {
+      "id": "validita-praxeonomica",
+      "oltre": "Il termine unisce *práxis* («azione») e *nómos* («legge, norma»): sono praxeonomiche le condizioni che un atto deve rispettare non per essere quell'atto, ma per essere valido **in un certo ordinamento**. Già i sofisti greci opponevano ciò che è per natura (*phýsis*) a ciò che è per legge o convenzione (*nómos*): è un antecedente culturale utile per orientarsi, senza identificare la distinzione antica con quella tecnica di Incampo.\n\nNel diritto positivo sono condizioni di questo tipo molti requisiti di **forma** e di **capacità** fissati dal legislatore. Il codice civile richiede la forma scritta, a pena di nullità, per i contratti che trasferiscono la proprietà di immobili (art. 1350 c.c.); il [[testamento-olografo|testamento olografo]] deve essere scritto per intero, datato e sottoscritto di mano del testatore (art. 602 c.c.). Un altro ordinamento potrebbe stabilire condizioni diverse senza che l'idea di contratto o di testamento cambi.\n\nPer questo le condizioni praxeonomiche si conoscono solo **a posteriori**, studiando il [[diritto-positivo|diritto positivo]] e le determinazioni ammesse all'autonomia dei soggetti, e possono mutare nel tempo, come mostra la modifica dell'[[art-32-codice-penale|art. 32 c.p.]] nel 1981.",
+      "daSapere": [
+        "*Práxis* (azione) + *nómos* (norma): condizioni poste dall'ordinamento",
+        "Validità pragmatica seconda: condizioni variabili, conoscibili a posteriori",
+        "Esempi: forma scritta (art. 1350 c.c.), testamento olografo (art. 602 c.c.)"
+      ],
+      "collegamenti": [
+        {
+          "da": "validita-praxeonomica",
+          "a": "validita-pragmatica",
+          "tipo": "parte-di",
+          "etichetta": "è la specie seconda della"
+        },
+        {
+          "da": "art-32-codice-penale",
+          "a": "validita-praxeonomica",
+          "tipo": "esempio-di",
+          "etichetta": "offre un esempio storico di"
+        },
+        {
+          "da": "accidentalia-contractus",
+          "a": "validita-praxeonomica",
+          "tipo": "esempio-di",
+          "etichetta": "sono un esempio, nel contratto, di"
+        },
+        {
+          "da": "giudizio-sintetico-a-posteriori",
+          "a": "validita-praxeonomica",
+          "tipo": "collegato",
+          "etichetta": "esprime le condizioni inessenziali della"
+        },
+        {
+          "da": "testamento-olografo",
+          "a": "validita-praxeonomica",
+          "tipo": "esempio-di",
+          "etichetta": "è, con i requisiti dell'art. 602 c.c., esempio di"
+        },
+        {
+          "da": "validita-praxeonomica",
+          "a": "diritto-positivo",
+          "tipo": "collegato",
+          "etichetta": "dipende dalle scelte del"
+        },
+        {
+          "da": "giudizio-analitico-a-posteriori",
+          "a": "validita-praxeonomica",
+          "tipo": "collegato",
+          "etichetta": "è uno dei giudizi su cui si fonda la"
+        }
+      ]
+    },
+    {
+      "id": "husserl",
+      "oltre": "Edmund Husserl (Prossnitz, in Moravia, 1859 – Friburgo in Brisgovia 1938) è il fondatore della **fenomenologia**. Matematico di formazione, insegnò a Halle, a Gottinga e dal 1916 a Friburgo; di origine ebraica, negli ultimi anni fu emarginato dal regime nazista.\n\nOpere principali: *Ricerche logiche* (1900–1901), *Idee per una fenomenologia pura* (1913), le lezioni sulla [[coscienza-interna-del-tempo|coscienza interna del tempo]] (pubblicate nel 1928), *Meditazioni cartesiane* (1931), *La crisi delle scienze europee* (1936).\n\nIdee chiave:\n- «tornare alle cose stesse»: descrivere i fenomeni come si danno alla coscienza, sospendendo i pregiudizi (*epoché*);\n- la coscienza è sempre **intenzionale**, cioè coscienza di qualcosa;\n- con la **riduzione eidetica** si coglie l'essenza (*eîdos*) di una cosa, ciò senza cui non sarebbe quella cosa;\n- nelle ultime opere, l'[[intersoggettivita|intersoggettività]] e il «mondo della vita» (*Lebenswelt*).\n\nNelle *Ricerche logiche* mostra che una proposizione normativa presuppone una valutazione teoretica: il dovere del soldato di essere valoroso si collega al criterio di ciò che rende buono un soldato. Non è una deduzione di qualsiasi dovere da un fatto empirico. Per il diritto la sua influenza passa da allievi come [[adolf-reinach|Reinach]] fino all'[[ontofenomenologia]] di Cotta e alla nozione di *eidos* usata da Conte e Incampo.",
+      "daSapere": [
+        "1859–1938; fondatore della fenomenologia",
+        "*Ricerche logiche* (1900–1901); *Idee* (1913); *La crisi delle scienze europee* (1936)",
+        "Intenzionalità, *epoché*, riduzione eidetica, *Lebenswelt*",
+        "«Un soldato deve essere valoroso» = solo un soldato valoroso è un buon soldato"
+      ],
+      "collegamenti": [
+        {
+          "da": "husserl",
+          "a": "coscienza-interna-del-tempo",
+          "tipo": "crea",
+          "etichetta": "analizza nelle sue lezioni la"
+        },
+        {
+          "da": "husserl",
+          "a": "intersoggettivita",
+          "tipo": "interpreta",
+          "etichetta": "tematizza nelle Meditazioni cartesiane l'"
+        }
+      ]
+    },
+    {
+      "id": "regole-di-funzione",
+      "oltre": "La nozione è di Incampo, ma si collega a un tema centrale del diritto civile: la **funzione** del negozio giuridico, cioè la sua **[[causa-del-negozio|causa]]**. La dottrina tradizionale, con [[emilio-betti|Betti]], definisce la causa come «funzione economico-sociale» del negozio; la giurisprudenza più recente parla di **causa concreta**, cioè della funzione che il singolo contratto svolge per le parti. Il codice civile ne fa un requisito del contratto (art. 1325 c.c.) e sanziona con la nullità il contratto con causa illecita (artt. 1343 e 1418 c.c.).\n\nNella [[compravendita]] la funzione è lo **scambio** tra cosa e prezzo: l'art. 1470 c.c. la definisce come trasferimento della proprietà di una cosa, o di un altro diritto, verso il corrispettivo di un prezzo. Le prestazioni sono legate da un nesso di reciprocità (*sinallagma*): se una manca, l'altra perde senso.\n\nIncampo fonda queste condizioni su **giudizi sintetici a priori**, nel senso di [[kant|Kant]]: dicono qualcosa che non è già contenuto nel concetto dell'atto (non sono tautologie), ma valgono necessariamente, prima dell'esperienza dei singoli ordinamenti.",
+      "daSapere": [
+        "Domanda guida: «perché si fanno promesse?»",
+        "Causa = funzione economico-sociale del negozio (Betti); requisito del contratto (art. 1325 c.c.)",
+        "Compravendita: scambio di cosa e prezzo (art. 1470 c.c.)",
+        "Fondamento: giudizi sintetici a priori"
+      ],
+      "collegamenti": [
+        {
+          "da": "regole-di-funzione",
+          "a": "giudizio-sintetico-a-priori",
+          "tipo": "collegato",
+          "etichetta": "si fondano su un"
+        },
+        {
+          "da": "compravendita",
+          "a": "regole-di-funzione",
+          "tipo": "esempio-di",
+          "etichetta": "offre, con prezzo e consegna, un esempio di"
+        },
+        {
+          "da": "negozio-simulato",
+          "a": "regole-di-funzione",
+          "tipo": "contrasta",
+          "etichetta": "sembra contraddire, ma non smentisce, le"
+        },
+        {
+          "da": "regole-di-funzione",
+          "a": "causa-del-negozio",
+          "tipo": "collegato",
+          "etichetta": "corrispondono, nel diritto civile, alla"
+        },
+        {
+          "da": "regole-di-funzione",
+          "a": "funzione-essenziale",
+          "tipo": "collegato",
+          "etichetta": "derivano dalla"
+        }
+      ]
+    },
+    {
+      "id": "alberto-trabucchi",
+      "oltre": "Alberto Trabucchi (Verona 1907 – Padova 1998) fu uno dei maggiori civilisti italiani del Novecento, professore di diritto civile all'Università di Padova. Il suo nome è legato soprattutto alle *Istituzioni di diritto civile*, il manuale su cui si sono formate generazioni di studenti di giurisprudenza, aggiornato in decine di edizioni anche dopo la sua morte. Fu inoltre giudice e poi avvocato generale della Corte di giustizia delle Comunità europee, negli anni in cui la Corte affermava l'effetto diretto e il primato del diritto comunitario.\n\nLa tesi citata negli appunti riguarda la **simulazione** (artt. 1414–1417 c.c.): le parti creano un contratto apparente che in realtà non vogliono. Tra le parti il contratto simulato non produce effetti (art. 1414 c.c.), ma la simulazione non può essere opposta ai terzi che in buona fede hanno acquistato diritti dal titolare apparente (art. 1415 c.c.). Per questo Trabucchi parla di un atto «in sostanza nullo» che produce però effetti verso certi soggetti: un'efficacia **relativa**, che Incampo usa per mostrare che il [[negozio-simulato|negozio simulato]] non smentisce le [[regole-di-funzione|regole di funzione]].",
+      "daSapere": [
+        "1907–1998; civilista, professore a Padova",
+        "*Istituzioni di diritto civile*: il manuale «Trabucchi»",
+        "Simulazione: artt. 1414–1417 c.c.; inopponibile ai terzi di buona fede (art. 1415)"
+      ],
+      "collegamenti": [
+        {
+          "da": "alberto-trabucchi",
+          "a": "negozio-simulato",
+          "tipo": "interpreta",
+          "etichetta": "considera in sostanza nullo, ma efficace verso alcuni, il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Corte di giustizia dell'Unione europea, Alberto Trabucchi, già giudice e avvocato generale",
+          "url": "https://curia.europa.eu/site/jcms/d2_5098/en/former-members"
+        }
+      ]
+    },
+    {
+      "id": "angelo-falzea",
+      "oltre": "Angelo Falzea fu uno dei maggiori civilisti e teorici generali del diritto italiani del Novecento, legato soprattutto all'Università di Messina, dove formò una scuola. La sua attività va dagli anni Trenta (*Il soggetto nel sistema dei fenomeni giuridici*, 1939) fino ai primi anni Duemila.\n\nÈ noto per la **teoria del fatto giuridico e dell'efficacia giuridica**, esposta in grandi voci dell'*Enciclopedia del diritto* poi raccolte nelle *Voci di teoria generale del diritto*. Le idee chiave:\n- un fatto diventa giuridico perché il diritto gli collega un **effetto**, cioè un cambiamento delle situazioni giuridiche dei soggetti;\n- il diritto qualifica i fatti in base agli **interessi** e ai **valori** che essi toccano: l'analisi formale delle norme non basta, occorre coglierne il significato pratico e sociale;\n- l'effetto permette di individuare la funzione di un negozio, e quindi la sua [[causa-del-negozio|causa]].\n\nAttenzione: in Falzea «efficacia» significa produzione di **effetti giuridici**, non effettività (l'essere osservata di una norma), che è il senso della voce [[efficacia]] negli appunti.\n\nPer il corso è il giurista con cui Incampo lega le [[regole-di-funzione|regole di funzione]] agli effetti dell'adempimento.",
+      "daSapere": [
+        "Civilista e teorico generale, scuola di Messina",
+        "*Il soggetto nel sistema dei fenomeni giuridici* (1939); *Voci di teoria generale del diritto*",
+        "L'effetto è il «principio d'individuazione della funzione» del negozio"
+      ],
+      "collegamenti": [
+        {
+          "da": "angelo-falzea",
+          "a": "causa-del-negozio",
+          "tipo": "interpreta",
+          "etichetta": "vede nell'effetto ciò che individua la"
+        },
+        {
+          "da": "angelo-falzea",
+          "a": "regole-di-funzione",
+          "tipo": "interpreta",
+          "etichetta": "lega agli effetti dell'adempimento le"
+        }
+      ]
+    },
+    {
+      "id": "emilio-betti",
+      "oltre": "Emilio Betti (Camerino 1890 – Camerino 1968) fu romanista, civilista e teorico dell'interpretazione, tra i giuristi italiani più importanti del Novecento. Insegnò in diverse università, a lungo a Roma.\n\nOpere principali:\n- *Teoria generale del negozio giuridico* (1943), dove definisce il negozio come atto di **autonomia privata** con cui i privati regolano i propri interessi, e la **[[causa-del-negozio|causa]]** come sua **funzione economico-sociale**: è la concezione accolta dalla Relazione al codice civile del 1942;\n- *Teoria generale delle obbligazioni* (1953–1955);\n- *Teoria generale dell'interpretazione* (1955), grande opera di ermeneutica che distingue interpretazione ricognitiva, riproduttiva e normativa, e che lo porta a polemizzare con Gadamer.\n\nLa tripartizione tra **essentialia**, **naturalia** e **accidentalia negotii** non è sua: viene dai giuristi medievali e del diritto comune, ed è stata ripresa dalla civilistica moderna. Betti la usa per distinguere gli elementi senza i quali un negozio di un certo tipo non esiste, quelli che la legge sottintende salvo patto contrario e quelli aggiunti dalle parti (condizione, termine, modo).\n\nPer il corso conta perché i suoi [[essentialia-negotii]] sono, per Incampo, un esempio di condizioni praxeologiche.",
+      "daSapere": [
+        "Camerino 1890–1968; romanista, civilista, teorico dell'interpretazione",
+        "*Teoria generale del negozio giuridico* (1943): causa = funzione economico-sociale",
+        "*Teoria generale dell'interpretazione* (1955)",
+        "*Essentialia*, *naturalia*, *accidentalia negotii*"
+      ],
+      "collegamenti": [
+        {
+          "da": "emilio-betti",
+          "a": "essentialia-negotii",
+          "tipo": "interpreta",
+          "etichetta": "descrive gli"
+        },
+        {
+          "da": "emilio-betti",
+          "a": "causa-del-negozio",
+          "tipo": "interpreta",
+          "etichetta": "definisce come funzione economico-sociale la"
+        }
+      ]
+    },
+    {
+      "id": "francesco-mantica",
+      "oltre": "Francesco Mantica (Udine 1534 – Roma 1614) fu un giurista friulano, professore di diritto a Padova, poi uditore della Sacra Rota romana e cardinale dal 1596. È una delle figure più autorevoli del **diritto comune** tra Cinque e Seicento.\n\nOpere principali:\n- *De coniecturis ultimarum voluntatum* (1580), trattato sull'interpretazione della volontà testamentaria, molto usato dai tribunali;\n- *Vaticanae lucubrationes de tacitis et ambiguis conventionibus* (1609), sulle clausole tacite e ambigue dei contratti.\n\nNelle *Lucubrationes* sistema una dottrina che risale ai giuristi medievali: nel contratto ci sono elementi che ne costituiscono la **sostanza** ([[substantialia-contractus|substantialia]]), senza i quali il contratto non esiste o diventa un altro; elementi che derivano dalla **natura** del contratto e valgono salvo patto contrario; e gli **[[accidentalia-contractus|accidentalia]]**, che dipendono solo dalla volontà delle parti. È la tripartizione che la civilistica moderna esprime come essentialia, naturalia e accidentalia negotii (vedi [[emilio-betti|Betti]]).\n\nPer il corso è la fonte storica della distinzione su cui Incampo costruisce il rapporto tra condizioni praxeologiche (gli elementi essenziali) e [[validita-praxeonomica|praxeonomiche]] (quelle variabili).",
+      "daSapere": [
+        "Udine 1534 – Roma 1614; professore a Padova, uditore di Rota, cardinale",
+        "*De coniecturis ultimarum voluntatum* (1580)",
+        "*Vaticanae lucubrationes de tacitis et ambiguis conventionibus* (1609)",
+        "*Substantialia*, *naturalia*, *accidentalia contractus*"
+      ],
+      "collegamenti": [
+        {
+          "da": "francesco-mantica",
+          "a": "accidentalia-contractus",
+          "tipo": "interpreta",
+          "etichetta": "definisce come dipendenti dalla volontà delle parti gli"
+        },
+        {
+          "da": "francesco-mantica",
+          "a": "substantialia-contractus",
+          "tipo": "interpreta",
+          "etichetta": "distingue dagli accidentalia i"
+        },
+        {
+          "da": "francesco-mantica",
+          "a": "testamento",
+          "tipo": "interpreta",
+          "etichetta": "studia l'interpretazione della volontà nel"
+        }
+      ]
+    },
+    {
+      "id": "jean-louis-gardies",
+      "oltre": "Jean-Louis Gardies è un filosofo e logico francese della seconda metà del Novecento. Ha studiato la logica delle modalità e delle norme e si è richiamato alla fenomenologia del diritto, in particolare all'idea di [[adolf-reinach|Reinach]] che esistano strutture giuridiche **a priori**, indipendenti dal diritto positivo.\n\nOpere principali:\n- *Essai sur les fondements a priori de la rationalité morale et juridique* (1972);\n- *Essai sur la logique des modalités* (1979);\n- *L'erreur de Hume* (1987), dedicato al problema del passaggio dall'essere al dover essere ([[legge-di-hume|legge di Hume]]).\n\nLa tesi richiamata negli appunti è condivisa con [[john-searle|Searle]]: l'essenza della [[promessa]] è l'**assunzione di un obbligo** (*undertaking of an obligation*). Ne segue che la promessa riguarda necessariamente un'azione **futura** del promittente: chi «promette» che un fatto passato è avvenuto non si obbliga a nulla, ma al più rassicura. È un esempio di condizione che deriva dall'idea stessa dell'atto, cioè di [[validita-praxeologica|validità praxeologica]].",
+      "daSapere": [
+        "Logico e filosofo francese del secondo Novecento",
+        "*Essai sur les fondements a priori de la rationalité morale et juridique* (1972); *L'erreur de Hume* (1987)",
+        "Promessa = *undertaking of an obligation*: si promette solo il futuro"
+      ],
+      "collegamenti": [
+        {
+          "da": "jean-louis-gardies",
+          "a": "promessa",
+          "tipo": "interpreta",
+          "etichetta": "vede l'assunzione di un obbligo nella"
+        },
+        {
+          "da": "jean-louis-gardies",
+          "a": "legge-di-hume",
+          "tipo": "collegato",
+          "etichetta": "discute in L'erreur de Hume la"
+        },
+        {
+          "da": "jean-louis-gardies",
+          "a": "john-searle",
+          "tipo": "collegato",
+          "etichetta": "condivide l'analisi della promessa di"
+        }
+      ]
+    },
+    {
+      "id": "stato",
+      "oltre": "In senso generale lo **Stato** è l'organizzazione politica di un popolo su un territorio, dotata di **[[sovranita|sovranità]]**: sono i tre elementi classici della dottrina di Georg Jellinek (*Dottrina generale dello Stato*, 1900). Max Weber lo definisce come l'istituzione che rivendica con successo il **monopolio della forza fisica legittima**. La parola nel senso moderno si afferma con Machiavelli (*Il Principe*, scritto nel 1513); la teoria della sovranità con Jean Bodin (1576) e con [[thomas-hobbes|Hobbes]] (*Leviatano*, 1651), per il quale lo Stato nasce da un patto per uscire dallo [[stato-di-natura|stato di natura]].\n\nLe concezioni filosofiche divergono: per [[hegel|Hegel]] è la realtà dell'idea etica; per [[kelsen|Kelsen]] coincide con l'[[ordinamento-giuridico|ordinamento giuridico]]. Storicamente si passa dallo [[stato-assoluto|Stato assoluto]] allo [[stato-di-diritto|Stato di diritto]] liberale e poi allo Stato sociale.\n\nLa visione di [[aldo-moro|Moro]] è **personalista**: lo Stato nasce dal basso, dalla società e dalle persone, e non le assorbe. È la stessa ispirazione dell'[[articolo-2-costituzione|art. 2 della Costituzione]], per cui la Repubblica **riconosce** (non concede) i diritti inviolabili dell'uomo, come singolo e nelle formazioni sociali.",
+      "daSapere": [
+        "Elementi: popolo, territorio, sovranità (Jellinek, 1900)",
+        "Weber: monopolio della forza fisica legittima",
+        "Hobbes, *Leviatano* (1651); Hegel: realtà dell'idea etica; Kelsen: Stato = ordinamento",
+        "Moro: lo Stato nasce dal basso; art. 2 Cost."
+      ],
+      "collegamenti": [
+        {
+          "da": "articolo-3-costituzione",
+          "a": "stato",
+          "tipo": "collegato",
+          "etichetta": "assegna il compito di rimuovere gli ostacoli allo"
+        },
+        {
+          "da": "fini-dello-stato",
+          "a": "stato",
+          "tipo": "parte-di",
+          "etichetta": "sono la ragion d'essere dello"
+        },
+        {
+          "da": "valore-dello-stato",
+          "a": "stato",
+          "tipo": "collegato",
+          "etichetta": "è il valore etico dello"
+        },
+        {
+          "da": "ordinamenti-giuridici-parziali",
+          "a": "stato",
+          "tipo": "collegato",
+          "etichetta": "hanno la stessa natura giuridica dello"
+        },
+        {
+          "da": "statualita",
+          "a": "stato",
+          "tipo": "collegato",
+          "etichetta": "indica il carattere comprensivo dello"
+        },
+        {
+          "da": "kelsen",
+          "a": "stato",
+          "tipo": "interpreta",
+          "etichetta": "identifica con l'ordinamento giuridico lo"
+        },
+        {
+          "da": "thomas-hobbes",
+          "a": "stato",
+          "tipo": "interpreta",
+          "etichetta": "fonda sul patto sociale lo"
+        },
+        {
+          "da": "aldo-moro",
+          "a": "stato",
+          "tipo": "interpreta",
+          "etichetta": "concepisce come vita etica della società lo"
+        },
+        {
+          "da": "sovranita",
+          "a": "stato",
+          "tipo": "parte-di",
+          "etichetta": "è un elemento costitutivo dello"
+        }
+      ]
+    },
+    {
+      "id": "funzione-del-diritto",
+      "oltre": "Chiedersi qual è la **funzione** del diritto significa chiedersi a che cosa serve, non come è fatto. Le risposte classiche sono diverse: garantire la pace e la sicurezza (Hobbes), risolvere i conflitti, orientare i comportamenti, distribuire beni e poteri, integrare la società, stabilizzare le aspettative (Luhmann). [[hart|Hart]] collega il diritto a un **contenuto minimo di diritto naturale**: le regole indispensabili alla sopravvivenza di uomini vulnerabili che vivono con risorse limitate.\n\n[[kelsen|Kelsen]] studia anche il diritto come **tecnica sociale** coattiva: l'accento strutturale non implica ignorarne ogni funzione. Distingue però la descrizione del diritto dalla valutazione politica o morale degli scopi perseguiti. [[norberto-bobbio|Bobbio]], osservando lo Stato sociale, nota che il diritto non solo reprime ma **promuove** comportamenti con incentivi e premi (**sanzioni positive**): da qui la svolta di *[[dalla-struttura-alla-funzione|Dalla struttura alla funzione]]* (1977).\n\nIl corso dà due risposte filosofiche: per Incampo la funzione decide della validità dell'ordinamento (esigibilità o inesigibilità, pubblicità); per [[sergio-cotta|Cotta]] il diritto serve a realizzare la [[coesistenza]] secondo una legalità universale.",
+      "daSapere": [
+        "Struttura = come è fatto il diritto; funzione = a che cosa serve",
+        "Hart: contenuto minimo di diritto naturale",
+        "Bobbio, *Dalla struttura alla funzione* (1977): funzione promozionale, sanzioni positive",
+        "Cotta: coesistenza nella legalità universale"
+      ],
+      "collegamenti": [
+        {
+          "da": "dalla-struttura-alla-funzione",
+          "a": "funzione-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "distingue Hart e Kelsen secondo il peso dato alla"
+        },
+        {
+          "da": "funzione-del-diritto",
+          "a": "pluralita-degli-ordinamenti",
+          "tipo": "causa",
+          "etichetta": "giustifica la"
+        },
+        {
+          "da": "kelsen",
+          "a": "funzione-del-diritto",
+          "tipo": "interpreta",
+          "etichetta": "distingue dalla valutazione morale la"
+        },
+        {
+          "da": "hart",
+          "a": "funzione-del-diritto",
+          "tipo": "interpreta",
+          "etichetta": "lega all'efficacia la"
+        },
+        {
+          "da": "funzione-del-diritto",
+          "a": "efficacia",
+          "tipo": "collegato",
+          "etichetta": "si misura, per Hart, soprattutto nell'"
+        },
+        {
+          "da": "meccanismi-equifunzionali",
+          "a": "funzione-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "realizzano con mezzi diversi la stessa"
+        },
+        {
+          "da": "funzione-sociale-della-proprieta",
+          "a": "funzione-del-diritto",
+          "tipo": "esempio-di",
+          "etichetta": "mostra come può mutare la"
+        },
+        {
+          "da": "platone",
+          "a": "funzione-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "illustra nel Cratilo, con gli strumenti, l'idea di"
+        },
+        {
+          "da": "funzione-del-diritto",
+          "a": "giustizia",
+          "tipo": "collegato",
+          "etichetta": "è orientata alla"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "funzione-del-diritto",
+          "tipo": "interpreta",
+          "etichetta": "valorizza, con le sanzioni positive, la"
+        },
+        {
+          "da": "sergio-cotta",
+          "a": "funzione-del-diritto",
+          "tipo": "interpreta",
+          "etichetta": "ravvisa nella coesistenza universale la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Bobbio, Dalla struttura alla funzione, presentazione e contenuti dell'editore Laterza",
+          "url": "https://bibliotecadigitale.laterza.it/scheda-libro/?isbn=9788842084587"
+        }
+      ]
+    },
+    {
+      "id": "stufenbau",
+      "oltre": "La dottrina della **costruzione a gradi** dell'ordinamento è elaborata nella scuola di Vienna da Adolf Julius Merkl, allievo di [[kelsen|Kelsen]], e accolta da Kelsen nella *[[dottrina-pura-del-diritto|Dottrina pura del diritto]]* (1934; seconda edizione 1960). L'immagine abituale è quella della **piramide**: in alto la [[grundnorm|norma fondamentale]] presupposta, poi la [[costituzione]], le leggi, i regolamenti e infine le norme individuali (sentenze, provvedimenti amministrativi, contratti) e gli atti di esecuzione.\n\nOgni grado è insieme **applicazione** della norma superiore e **produzione** di quella inferiore; fanno eccezione solo gli estremi: la Grundnorm è il fondamento presupposto e non un atto positivo di produzione, mentre l'atto meramente esecutivo è pura applicazione. Per questo l'ordinamento è un **sistema dinamico**: la validità risale all'autorizzazione di una norma superiore, che può disciplinare sia il procedimento sia il contenuto della norma inferiore.\n\nLa gerarchia delle fonti italiana offre un esempio didattico, ma non si esaurisce in una piramide: contano anche riserve di competenza e rapporti con altri ordinamenti. Oggi molti autori parlano di passaggio «dalla piramide alla rete», per la crescita delle fonti europee, internazionali e private ([[modello-orizzontale-delle-fonti|modello orizzontale]]).",
+      "daSapere": [
+        "*Stufenbau* = costruzione a gradi (Merkl, Kelsen)",
+        "Piramide: Grundnorm → Costituzione → leggi → regolamenti → sentenze e atti",
+        "Ogni norma applica la superiore e produce l'inferiore",
+        "Kelsen, *Dottrina pura del diritto* (1934; 2ª ed. 1960)"
+      ],
+      "collegamenti": [
+        {
+          "da": "grundnorm",
+          "a": "stufenbau",
+          "tipo": "parte-di",
+          "etichetta": "è il vertice presupposto dello"
+        },
+        {
+          "da": "modello-orizzontale-delle-fonti",
+          "a": "stufenbau",
+          "tipo": "contrasta",
+          "etichetta": "sostituisce una rete alla piramide dello"
+        },
+        {
+          "da": "kelsen",
+          "a": "stufenbau",
+          "tipo": "crea",
+          "etichetta": "teorizza, con Merkl, lo"
+        },
+        {
+          "da": "stufenbau",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "dà unità e gerarchia all'"
+        }
+      ]
+    },
+    {
+      "id": "norberto-bobbio",
+      "oltre": "Norberto Bobbio (Torino 1909 – Torino 2004) fu tra i maggiori filosofi del diritto e della politica dell'Italia repubblicana. Insegnò a Torino filosofia del diritto e poi filosofia della politica; fu nominato senatore a vita nel 1984.\n\nOpere principali: *Teoria della norma giuridica* (1958), *Teoria dell'ordinamento giuridico* (1960), *Il positivismo giuridico* (1961), *Giusnaturalismo e positivismo giuridico* (1965), *[[dalla-struttura-alla-funzione|Dalla struttura alla funzione]]* (1977), *Il futuro della democrazia* (1984), *L'età dei diritti* (1990).\n\nIdee chiave:\n- porta in Italia la **filosofia analitica** e la teoria di [[kelsen|Kelsen]], e intende la scienza giuridica come analisi del linguaggio del legislatore;\n- distingue tre aspetti del [[giuspositivismo|positivismo giuridico]]: un **metodo** (studiare il diritto com'è), una **teoria** (il diritto come comando statale e sistema completo) e un'**ideologia** (il dovere di obbedire alle leggi in quanto tali), e difende soprattutto il metodo, senza fare propria l'ideologia dell'obbedienza incondizionata;\n- studia l'ordinamento come sistema dotato di **unità**, **coerenza** (i criteri cronologico, gerarchico e di specialità per risolvere le [[antinomia|antinomie]]) e **completezza** (il problema delle [[lacuna|lacune]]);\n- negli anni Settanta passa all'analisi della **funzione** del diritto e teorizza la funzione promozionale.\n\nPer il corso fornisce la cornice del confronto tra struttura e funzione e tra Kelsen e [[hart|Hart]].",
+      "daSapere": [
+        "Torino 1909–2004; senatore a vita dal 1984",
+        "*Teoria della norma giuridica* (1958); *Teoria dell'ordinamento giuridico* (1960)",
+        "Positivismo giuridico come metodo, teoria, ideologia",
+        "*Dalla struttura alla funzione* (1977): funzione promozionale del diritto"
+      ],
+      "collegamenti": [
+        {
+          "da": "norberto-bobbio",
+          "a": "dalla-struttura-alla-funzione",
+          "tipo": "crea",
+          "etichetta": "scrive nel 1977"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "hart",
+          "tipo": "interpreta",
+          "etichetta": "legge in contrapposizione a Kelsen la teoria di"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "kelsen",
+          "tipo": "interpreta",
+          "etichetta": "diffonde e discute in Italia la teoria di"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "giuspositivismo",
+          "tipo": "interpreta",
+          "etichetta": "distingue in metodo, teoria e ideologia il"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "antinomia",
+          "tipo": "interpreta",
+          "etichetta": "indica i criteri per risolvere l'"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "lacuna",
+          "tipo": "interpreta",
+          "etichetta": "discute, con la completezza dell'ordinamento, la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Bobbio, Dalla struttura alla funzione, presentazione e contenuti dell'editore Laterza",
+          "url": "https://bibliotecadigitale.laterza.it/scheda-libro/?isbn=9788842084587"
+        }
+      ]
+    },
+    {
+      "id": "alf-ross",
+      "oltre": "Alf Ross (Copenaghen 1899 – 1979) fu uno dei principali esponenti del **realismo giuridico scandinavo**. Studiò a Vienna con [[kelsen|Kelsen]], da cui poi si allontanò, e insegnò a Copenaghen; fu anche giudice della Corte europea dei diritti dell'uomo.\n\nOpere principali: *Towards a Realistic Jurisprudence* (1946), *Diritto e giustizia* (*On Law and Justice*, 1958), il saggio *Tû-tû* sui concetti giuridici come strumenti di collegamento, e *On Self-Reference and a Puzzle in Constitutional Law* (1969).\n\nIdee chiave:\n- il diritto **valido** è l'insieme delle norme che i giudici di fatto applicano perché si sentono vincolati: per la scienza giuridica, affermare il diritto vigente comporta una **previsione** delle decisioni dei tribunali, sostenuta anche dall'atteggiamento con cui i giudici si sentono vincolati;\n- critica l'uso della «giustizia» come giustificazione assoluta, non controllabile razionalmente;\n- nel saggio del 1969 discute il **paradosso della revisione costituzionale**: la norma che regola la revisione (l'art. 88 della Costituzione danese) è la più alta dell'ordinamento positivo e non può validamente modificare sé stessa, perché l'autoriferimento genera un circolo logico simile al [[paradosso-del-mentitore|paradosso del mentitore]]. [[hart|Hart]] aveva affrontato lo stesso problema nel saggio *Self-referring Laws* (1964).\n\nPer il corso è l'interlocutore di Incampo sul rapporto tra [[grundnorm]] e [[revisione-costituzionale|revisione costituzionale]]: Incampo ne conclude che sopra la norma di revisione va reintegrata una norma presupposta.",
+      "daSapere": [
+        "Copenaghen 1899–1979; realismo giuridico scandinavo",
+        "*On Law and Justice* (1958); *On Self-Reference and a Puzzle in Constitutional Law* (1969)",
+        "Diritto valido = previsione delle decisioni dei giudici",
+        "Paradosso dell'autorevisione: art. 88 della Costituzione danese"
+      ],
+      "collegamenti": [
+        {
+          "da": "alf-ross",
+          "a": "revisione-costituzionale",
+          "tipo": "interpreta",
+          "etichetta": "considera «basic norm» dell'ordinamento la"
+        },
+        {
+          "da": "alf-ross",
+          "a": "paradosso-del-mentitore",
+          "tipo": "collegato",
+          "etichetta": "accosta l'autorevisione costituzionale al"
+        },
+        {
+          "da": "kelsen",
+          "a": "alf-ross",
+          "tipo": "influenza",
+          "etichetta": "è il maestro viennese, poi criticato, di"
+        },
+        {
+          "da": "alf-ross",
+          "a": "grundnorm",
+          "tipo": "contrasta",
+          "etichetta": "sostituisce con una norma posta la"
+        }
+      ]
+    },
+    {
+      "id": "anselmo-d-aosta",
+      "oltre": "Anselmo d'Aosta (Aosta 1033/1034 – Canterbury 1109) fu monaco benedettino, abate di Bec in Normandia e dal 1093 arcivescovo di Canterbury. È considerato il **padre della Scolastica**, perché applica in modo sistematico la ragione ai contenuti della fede: il suo programma è la *fides quaerens intellectum*.\n\nOpere principali: *Monologion* e *Proslogion* (anni Settanta dell'XI secolo), *De veritate*, *Cur Deus homo* (completato nel 1098). Nel *Proslogion* formula la celebre **prova ontologica** dell'esistenza di Dio, inteso come ciò di cui non si può pensare nulla di maggiore; la prova fu criticata già dal monaco Gaunilone, poi da Tommaso d'Aquino e da Kant.\n\nNel *Cur Deus homo* («Perché Dio si è fatto uomo») elabora la **teoria della soddisfazione**: il peccato offende l'onore di Dio e richiede o una pena o una riparazione (*aut poena aut satisfactio*); l'uomo la deve ma non può darla, Dio può darla ma non la deve; perciò la dà l'uomo-Dio, Cristo. È un ragionamento quasi giuridico, costruito sulle nozioni di debito, riparazione e giustizia: per questo Incampo lo usa per mostrare che la [[misericordia]] non cancella la [[giustizia]], ma la compie.",
+      "daSapere": [
+        "1033/1034–1109; abate di Bec, arcivescovo di Canterbury",
+        "*Fides quaerens intellectum*: la fede che cerca di comprendere",
+        "*Proslogion*: prova ontologica",
+        "*Cur Deus homo* (1098): *aut poena aut satisfactio*, o la pena o la riparazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "anselmo-d-aosta",
+          "a": "misericordia",
+          "tipo": "interpreta",
+          "etichetta": "concilia con la giustizia, nel Cur Deus homo, la"
+        },
+        {
+          "da": "agostino",
+          "a": "anselmo-d-aosta",
+          "tipo": "influenza",
+          "etichetta": "è la fonte principale del pensiero di"
+        },
+        {
+          "da": "anselmo-d-aosta",
+          "a": "giustizia",
+          "tipo": "interpreta",
+          "etichetta": "non sacrifica alla misericordia la"
+        }
+      ]
+    },
+    {
+      "id": "charles-w-morris",
+      "oltre": "Charles William Morris (Denver 1901 – Gainesville 1979) fu un filosofo statunitense, allievo di George H. Mead a Chicago, dove poi insegnò a lungo. Unì il **pragmatismo** americano (Peirce, Mead) con il **neopositivismo** del Circolo di Vienna e partecipò al progetto dell'*Enciclopedia internazionale della scienza unificata*.\n\nOpere principali:\n- *Foundations of the Theory of Signs* (1938), scritto per quell'enciclopedia, dove divide la [[semiotica]] in [[sintattica]], [[semantica]] e [[pragmatica]];\n- *[[signs-language-and-behavior|Signs, Language and Behavior]]* (1946), con una teoria comportamentale del segno: un segno è ciò che dispone un interprete a reagire come reagirebbe all'oggetto;\n- *Varieties of Human Value* (1956), sulle preferenze di valore nelle diverse culture.\n\nLa sua tripartizione è diventata il quadro standard della filosofia del linguaggio del Novecento: Carnap la adotta per la logica, Austin e Searle sviluppano di fatto la pragmatica. Incampo la trasferisce al diritto: le norme sono segni, e si possono studiare nei loro rapporti reciproci (validità sintattica) e nel loro uso da parte dei soggetti (validità pragmatica).",
+      "daSapere": [
+        "1901–1979; semiotica e pragmatismo, Università di Chicago",
+        "*Foundations of the Theory of Signs* (1938): sintattica, semantica, pragmatica",
+        "*Signs, Language and Behavior* (1946): teoria comportamentale del segno"
+      ],
+      "collegamenti": [
+        {
+          "da": "charles-w-morris",
+          "a": "signs-language-and-behavior",
+          "tipo": "crea",
+          "etichetta": "scrive nel 1946"
+        },
+        {
+          "da": "charles-w-morris",
+          "a": "semiotica",
+          "tipo": "crea",
+          "etichetta": "divide in sintattica, semantica e pragmatica la"
+        }
+      ]
+    },
+    {
+      "id": "dalla-struttura-alla-funzione",
+      "oltre": "*Dalla struttura alla funzione. Nuovi studi di teoria del diritto* (Milano, Edizioni di Comunità, 1977) raccoglie saggi scritti da [[norberto-bobbio|Bobbio]] tra la fine degli anni Sessanta e la metà degli anni Settanta, tra cui *Sulla funzione promozionale del diritto* e lo studio sulle sanzioni positive.\n\nLa tesi: la teoria del diritto del Novecento, culminata in [[kelsen|Kelsen]], ha studiato il diritto nella sua **struttura** (come sono fatte le norme e l'ordinamento) e lo ha visto soprattutto come strumento di **repressione**, che vieta e punisce. Nello **Stato sociale**, però, il diritto serve sempre più a **promuovere** comportamenti desiderati con incentivi, agevolazioni e premi: le **sanzioni positive**, accanto a quelle negative. Serve quindi un'analisi **funzionale**, che non sostituisce quella strutturale ma la completa.\n\nIl libro segna una svolta nel pensiero di Bobbio, fino ad allora legato all'approccio strutturale kelseniano, e ha influenzato la teoria e la sociologia del diritto italiane.",
+      "daSapere": [
+        "Bobbio, 1977 (Edizioni di Comunità)",
+        "Funzione repressiva (sanzioni negative) / promozionale (sanzioni positive)",
+        "Analisi funzionale come complemento di quella strutturale"
+      ],
+      "collegamenti": [
+        {
+          "da": "dalla-struttura-alla-funzione",
+          "a": "kelsen",
+          "tipo": "interpreta",
+          "etichetta": "giudica solo strutturale la teoria di"
+        },
+        {
+          "da": "dalla-struttura-alla-funzione",
+          "a": "sanzione",
+          "tipo": "interpreta",
+          "etichetta": "affianca alla forma negativa quella positiva della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Bobbio, Dalla struttura alla funzione, presentazione e contenuti dell'editore Laterza",
+          "url": "https://bibliotecadigitale.laterza.it/scheda-libro/?isbn=9788842084587"
+        }
+      ]
+    },
+    {
+      "id": "hans-urs-von-balthasar",
+      "oltre": "Hans Urs von Balthasar (Lucerna 1905 – Basilea 1988) fu uno dei maggiori teologi cattolici del Novecento. Gesuita fino al 1950, lasciò la Compagnia per fondare con la mistica Adrienne von Speyr una comunità laicale; nel 1988 fu annunciata la sua elevazione al cardinalato, ma morì prima del concistoro.\n\nLa sua opera principale è una grande trilogia: *Gloria* (*Herrlichkeit*, un'estetica teologica), *Teodrammatica* e *Teologica*. Al centro del suo pensiero ci sono la **bellezza** e l'**amore** di Dio rivelati in Cristo, e la libertà umana chiamata a rispondere.\n\nIn *Sperare per tutti* (*Was dürfen wir hoffen?*, 1986) e nel *Breve discorso sull'inferno* (1987) sostiene che il cristiano può e deve **sperare** la salvezza di tutti. Non nega l'inferno, che resta una possibilità reale per la libertà umana, e non afferma che sia vuoto: afferma che è lecito sperarlo. La formula «l'inferno esiste ma è vuoto» non è una sintesi fedele se trasforma una speranza in un'affermazione di fatto o in una dottrina certa.\n\nIncampo la usa per illustrare il primato della [[misericordia]] nel [[diritto-canonico|diritto canonico]], la cui legge suprema è la salvezza delle anime (ultimo canone del Codice del 1983): la Chiesa proclama i santi, ma non ha mai dichiarato dannato nessuno.",
+      "daSapere": [
+        "Lucerna 1905 – Basilea 1988; teologo cattolico, nominato cardinale",
+        "Trilogia: *Gloria*, *Teodrammatica*, *Teologica*",
+        "*Was dürfen wir hoffen?* (1986): sperare la salvezza di tutti",
+        "*Salus animarum suprema lex*: la salvezza delle anime è la legge suprema (can. 1752)"
+      ],
+      "collegamenti": [
+        {
+          "da": "hans-urs-von-balthasar",
+          "a": "misericordia",
+          "tipo": "interpreta",
+          "etichetta": "esalta, sperando la salvezza di tutti, la"
+        },
+        {
+          "da": "hans-urs-von-balthasar",
+          "a": "diritto-canonico",
+          "tipo": "collegato",
+          "etichetta": "illustra il primato della salvezza nel"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Hans Urs von Balthasar, Dare We Hope That All Men Be Saved? (estratti del testo dell'autore)",
+          "url": "https://www.ldysinger.com/%40texts2/1961_balthasar/03_dare_intr_concl.htm"
+        }
+      ]
+    },
+    {
+      "id": "semiotica",
+      "oltre": "La riflessione sui segni è antica: gli Stoici distinguevano il segno, il significato e la cosa; Agostino, nel *De doctrina christiana*, definisce il segno come ciò che, oltre a impressionare i sensi, fa venire in mente qualcos'altro; John Locke, alla fine del *Saggio sull'intelletto umano* (1690), chiama *semeiotiké* la dottrina dei segni.\n\nCome disciplina moderna la semiotica ha due fondatori indipendenti:\n- Charles S. Peirce, per il quale il segno è un rapporto a tre (segno, oggetto, interpretante) e si distingue in icona, indice e simbolo;\n- [[ferdinand-de-saussure|Saussure]], che progetta una *semiologia* come scienza dei segni nella vita sociale e concepisce il segno come unione di significante e significato.\n\n[[charles-w-morris|Morris]] sistematizza la disciplina nella tripartizione **[[sintattica]] / [[semantica]] / [[pragmatica]]**; in Italia Umberto Eco ne ha dato una sintesi nel *Trattato di semiotica generale* (1975).\n\nPer il diritto la semiotica offre un modo di guardare alle norme come **segni**: hanno una forma (il testo), un significato e un uso, e vivono dentro un sistema di relazioni. È l'impostazione da cui Incampo ricava la distinzione tra doveri sintattici e doveri pragmatici.",
+      "daSapere": [
+        "Peirce e Saussure: i due fondatori moderni",
+        "Morris: sintattica (segni tra loro), semantica (segni e oggetti), pragmatica (segni e utenti)",
+        "Eco, *Trattato di semiotica generale* (1975)"
+      ],
+      "collegamenti": [
+        {
+          "da": "semiotica",
+          "a": "segno-e-significato",
+          "tipo": "collegato",
+          "etichetta": "studia il rapporto tra"
+        },
+        {
+          "da": "semantica",
+          "a": "semiotica",
+          "tipo": "parte-di",
+          "etichetta": "è una branca della"
+        }
+      ]
+    },
+    {
+      "id": "signs-language-and-behavior",
+      "oltre": "*Signs, Language and Behavior* (New York, 1946; in italiano *Segni, linguaggio e comportamento*) è l'opera in cui [[charles-w-morris|Morris]] sviluppa una teoria **comportamentista** dei segni, influenzata da Mead e dalla psicologia del comportamento. Un segno è uno stimolo che prepara l'interprete a reagire come reagirebbe all'oggetto designato, anche in sua assenza: il caso più semplice è il cane che, al suono di un campanello, si prepara a ricevere il cibo.\n\nIl libro distingue i **modi di significare** (designativo, valutativo, prescrittivo, formativo e identificativo) e gli **usi** dei segni (informativo, valutativo, incitativo, sistemico), e combinandoli classifica i diversi tipi di discorso. Il modo **prescrittivo**, che indica come si deve reagire, è quello che riguarda più da vicino le norme.\n\nRiprende inoltre la tripartizione della [[semiotica]] già proposta nei *Foundations* del 1938, ridefinendo la [[sintattica]], la [[semantica]] e la [[pragmatica]] in termini di comportamento.",
+      "daSapere": [
+        "Morris, 1946: teoria comportamentale del segno",
+        "Modi di significare: designativo, valutativo, prescrittivo, formativo, identificativo",
+        "Usi: informativo, valutativo, incitativo, sistemico"
+      ],
+      "collegamenti": [
+        {
+          "da": "signs-language-and-behavior",
+          "a": "sintattica",
+          "tipo": "testimonia",
+          "etichetta": "ridefinisce in termini di comportamento la"
+        },
+        {
+          "da": "signs-language-and-behavior",
+          "a": "semiotica",
+          "tipo": "testimonia",
+          "etichetta": "espone una teoria comportamentale della"
+        }
+      ]
+    },
+    {
+      "id": "pubblicita",
+      "oltre": "La **pubblicità** è la condizione di ciò che è reso conoscibile a tutti. Nel diritto ha molte forme:\n- la **pubblicazione** delle leggi nella Gazzetta Ufficiale, condizione della loro entrata in vigore ([[vigenza]]);\n- la **pubblicità delle udienze**, garanzia del giusto processo (art. 6 della Convenzione europea dei diritti dell'uomo);\n- la pubblicità dei registri nel diritto civile, che può essere **dichiarativa** (la trascrizione rende l'acquisto di un immobile opponibile ai terzi, art. 2644 c.c.) o **costitutiva** (l'ipoteca nasce con l'iscrizione, art. 2808 c.c.).\n\nIn filosofia [[kant|Kant]] lega la pubblicità all'Illuminismo (l'«uso pubblico della ragione», 1784) e ne fa il criterio trascendentale della giustizia in *[[zum-ewigen-frieden|Per la pace perpetua]]*. Nel Novecento Jürgen Habermas studia la nascita della **sfera pubblica** borghese (*Storia e critica dell'opinione pubblica*, 1962).\n\nGli appunti usano la parola nel senso tecnico kantiano (*Öffentlichkeit*): non solo la pubblicazione di fatto, ma la possibilità di rendere pubblica una pretesa senza che fallisca il suo scopo. Una massima incompatibile con la pubblicità fallisce questo criterio negativo di giustizia; l'essere pubblicabile, da solo, non è però prova sufficiente di giustizia.",
+      "daSapere": [
+        "Kant, *Per la pace perpetua* (1795): la pubblicità come criterio trascendentale",
+        "Pubblicità dichiarativa (trascrizione, art. 2644 c.c.) e costitutiva (ipoteca, art. 2808 c.c.)",
+        "Habermas, *Storia e critica dell'opinione pubblica* (1962)"
+      ],
+      "collegamenti": [
+        {
+          "da": "pubblicita",
+          "a": "giustizia",
+          "tipo": "collegato",
+          "etichetta": "è per Kant il criterio a priori della"
+        },
+        {
+          "da": "luftsicherheitsgesetz",
+          "a": "pubblicita",
+          "tipo": "contrasta",
+          "etichetta": "contrasta, per Incampo, con il criterio della"
+        },
+        {
+          "da": "pubblicita",
+          "a": "universalizzabilita",
+          "tipo": "collegato",
+          "etichetta": "è la forma esteriore dell'"
+        },
+        {
+          "da": "zum-ewigen-frieden",
+          "a": "pubblicita",
+          "tipo": "collegato",
+          "etichetta": "pone come criterio del diritto la"
+        },
+        {
+          "da": "kant",
+          "a": "pubblicita",
+          "tipo": "interpreta",
+          "etichetta": "eleva a criterio trascendentale del diritto la"
+        },
+        {
+          "da": "pubblicita",
+          "a": "pubblicizzabilita",
+          "tipo": "collegato",
+          "etichetta": "presuppone la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Kant, Per la pace perpetua, in particolare Appendice II (traduzione storica)",
+          "url": "https://www.gutenberg.org/files/50922/50922-h/50922-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "costituzione",
+      "oltre": "Il termine ha più significati. In senso antico (la *politeía* di Aristotele) indica l'assetto complessivo di una comunità politica. In senso moderno,  rinvia alla disciplina fondamentale e alla limitazione del potere, spesso raccolte in un documento scritto; esistono anche costituzioni non codificate: per l'art. 16 della [[dichiarazione-dei-diritti-dell-uomo-e-del-cittadino|Dichiarazione del 1789]], una società in cui non sono garantiti i diritti né stabilita la separazione dei poteri non ha costituzione. Si distingue poi la costituzione **formale** (il testo) da quella **materiale** (le forze e i fini politici fondamentali che reggono l'ordinamento: Costantino Mortati, 1940).\n\nLe costituzioni sono **flessibili** se si modificano con legge ordinaria (come lo [[statuto-albertino|Statuto Albertino]] del 1848) o **rigide** se richiedono una procedura aggravata; la giustizia costituzionale è un'ulteriore garanzia, distinta dalla definizione di rigidità: è il caso della [[costituzione-italiana|Costituzione italiana]] del 1948 (art. 138 per la [[revisione-costituzionale|revisione]], Corte costituzionale). Un modello fondamentale di giustizia costituzionale accentrata è quello austriaco del 1920, alla cui elaborazione contribuì [[kelsen|Kelsen]].\n\nPer Kelsen è la norma positiva più alta dello [[stufenbau]], valida in forza della [[grundnorm]]; Incampo ne collega l’obbligatorietà anche alla giustizia.",
+      "daSapere": [
+        "Art. 16 Dichiarazione 1789: senza garanzia dei diritti e separazione dei poteri non c'è costituzione",
+        "Costituzione formale / materiale (Mortati, 1940)",
+        "Flessibile (Statuto Albertino, 1848) / rigida (Costituzione italiana, 1948; art. 138)",
+        "Austria 1920: prima corte costituzionale sul modello di Kelsen"
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione",
+          "a": "stufenbau",
+          "tipo": "parte-di",
+          "etichetta": "occupa il grado più alto, tra le norme poste, dello"
+        },
+        {
+          "da": "costituzione-italiana",
+          "a": "costituzione",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio rigido di"
+        },
+        {
+          "da": "grundnorm",
+          "a": "costituzione",
+          "tipo": "collegato",
+          "etichetta": "fonda, presupposta, la validità della"
+        },
+        {
+          "da": "costituzione",
+          "a": "giustizia",
+          "tipo": "collegato",
+          "etichetta": "va obbedita, per Incampo, se rispetta la"
+        }
+      ]
+    },
+    {
+      "id": "formula-trascendentale-del-diritto-pubblico",
+      "oltre": "La formula si trova nella seconda appendice di *[[zum-ewigen-frieden|Per la pace perpetua]]* (1795), dedicata all'accordo tra politica e morale. [[kant|Kant]] chiama [[trascendentale]] ciò che riguarda le condizioni a priori di possibilità dell'esperienza: qui, la condizione formale che ogni pretesa giuridica deve rispettare, prescindendo dal suo contenuto empirico.\n\nIl test funziona così: si immagina di rendere pubblica la massima di un'azione. Se la pubblicità la farebbe fallire, perché susciterebbe l'opposizione di tutti, la massima è ingiusta. Kant applica il test al diritto interno (un popolo non può dichiarare pubblicamente, nel darsi una costituzione, la massima di ribellarsi quando lo ritenga opportuno), al diritto internazionale (la violazione dei trattati, l'annessione di uno Stato più piccolo) e al diritto cosmopolitico.\n\nIl criterio negativo serve solo a riconoscere l'ingiustizia: non ogni massima pubblicabile è per questo giusta, perché chi è molto potente non ha bisogno di nascondere i propri fini. Per questo Kant aggiunge una formula **affermativa**: si accordano con il diritto e con la politica le massime che hanno *bisogno* della pubblicità per raggiungere il loro scopo.",
+      "daSapere": [
+        "Kant, *Per la pace perpetua* (1795), seconda appendice",
+        "Formula negativa: è ingiusta l'azione la cui massima non tollera la pubblicità",
+        "Formula affermativa: giuste le massime che hanno bisogno della pubblicità",
+        "Trascendentale = condizione a priori, indipendente dall'esperienza"
+      ],
+      "collegamenti": [
+        {
+          "da": "kant",
+          "a": "formula-trascendentale-del-diritto-pubblico",
+          "tipo": "crea",
+          "etichetta": "enuncia la"
+        },
+        {
+          "da": "zum-ewigen-frieden",
+          "a": "formula-trascendentale-del-diritto-pubblico",
+          "tipo": "testimonia",
+          "etichetta": "contiene, nella seconda appendice, la"
+        },
+        {
+          "da": "formula-trascendentale-del-diritto-pubblico",
+          "a": "pubblicita",
+          "tipo": "collegato",
+          "etichetta": "si fonda sulla"
+        },
+        {
+          "da": "formula-trascendentale-del-diritto-pubblico",
+          "a": "ius-publicum",
+          "tipo": "interpreta",
+          "etichetta": "fa intendere ogni diritto come"
+        },
+        {
+          "da": "formula-trascendentale-del-diritto-pubblico",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "affianca, sul piano della funzione, la"
+        },
+        {
+          "da": "formula-trascendentale-del-diritto-pubblico",
+          "a": "giustizia",
+          "tipo": "collegato",
+          "etichetta": "offre un criterio negativo di"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Kant, Per la pace perpetua, in particolare Appendice II (traduzione storica)",
+          "url": "https://www.gutenberg.org/files/50922/50922-h/50922-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "legge",
+      "oltre": "La definizione classica è di [[tommaso-d-aquino|Tommaso d'Aquino]] (*Summa theologiae*, I-II, q. 90): la legge è un **ordinamento della ragione** in vista del [[bene-comune|bene comune]], promulgato da chi ha cura della comunità. Tommaso distingue legge eterna, naturale, umana e divina. Con la modernità prevale la concezione **volontaristica**: per [[thomas-hobbes|Hobbes]] e per John Austin la legge è il [[comando]] del sovrano; per [[rousseau|Rousseau]] (*Contratto sociale*, 1762) è l'espressione della **volontà generale**, che non coincide con la somma delle volontà particolari, la [[volonta-di-tutti|volontà di tutti]]. Montesquieu (*Lo spirito delle leggi*, 1748) intende invece le leggi come rapporti necessari che derivano dalla natura delle cose.\n\nNell'ordinamento italiano la legge in senso formale è l'atto approvato dalle due Camere, promulgato dal Presidente della Repubblica e pubblicato (artt. 70–74 Cost.); ha di regola i caratteri della **generalità** e dell'**astrattezza** ed è subordinata alla Costituzione. Il [[principio-di-legalita|principio di legalità]] esige che il potere pubblico sia esercitato sulla base della legge.\n\nLa visione di Moro negli appunti è personalista: la legge non è un'imposizione esterna ma un dono della società al singolo, che la fa propria aderendovi.",
+      "daSapere": [
+        "Tommaso: *ordinatio rationis ad bonum commune*, ordinamento della ragione al bene comune",
+        "Rousseau, *Contratto sociale* (1762): legge = espressione della volontà generale",
+        "Legge in senso formale: artt. 70–74 Cost.; generalità e astrattezza"
+      ],
+      "collegamenti": [
+        {
+          "da": "volonta-di-tutti",
+          "a": "legge",
+          "tipo": "contrasta",
+          "etichetta": "non è la volontà generale espressa dalla"
+        },
+        {
+          "da": "adesione-del-singolo",
+          "a": "legge",
+          "tipo": "collegato",
+          "etichetta": "ricrea, facendone proprio il valore, la"
+        },
+        {
+          "da": "tommaso-d-aquino",
+          "a": "legge",
+          "tipo": "interpreta",
+          "etichetta": "definisce ordinamento della ragione al bene comune la"
+        },
+        {
+          "da": "rousseau",
+          "a": "legge",
+          "tipo": "interpreta",
+          "etichetta": "vede l'espressione della volontà generale nella"
+        },
+        {
+          "da": "principio-di-legalita",
+          "a": "legge",
+          "tipo": "collegato",
+          "etichetta": "esige che il potere si fondi sulla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione italiana, artt. 70–74: formazione, promulgazione e pubblicazione delle leggi (Governo italiano)",
+          "url": "https://presidenza.governo.it/Governo/Costituzione/2_titolo1.html"
+        }
+      ]
+    },
+    {
+      "id": "zum-ewigen-frieden",
+      "oltre": "*Per la pace perpetua. Un progetto filosofico* (*Zum ewigen Frieden. Ein philosophischer Entwurf*) fu pubblicato da [[kant|Kant]] a Königsberg nel 1795, poco dopo la pace di Basilea tra Prussia e Francia; la seconda edizione, ampliata, è del 1796. Ha la forma, in parte ironica, di un trattato di pace.\n\n- **Sei articoli preliminari** vietano ciò che rende impossibile la pace: trattati con riserve segrete, acquisto di Stati come se fossero cose, eserciti permanenti (da abolire col tempo), debiti contratti per la guerra, ingerenza nella costituzione di altri Stati, mezzi di guerra che distruggono la fiducia futura.\n- **Tre articoli definitivi**: la costituzione di ogni Stato deve essere **repubblicana**; il [[diritto-internazionale|diritto internazionale]] deve fondarsi su una **federazione di Stati liberi**, non su uno Stato mondiale; il **diritto cosmopolitico** si limita alle condizioni dell'**ospitalità universale**.\n- Seguono due supplementi (la garanzia offerta dalla natura e l'«articolo segreto» sul consiglio dei filosofi) e due appendici sul rapporto tra morale e politica, con la [[formula-trascendentale-del-diritto-pubblico|formula trascendentale]].\n\nL'opera ha ispirato la Società delle Nazioni, l'ONU e la teoria della «pace democratica».",
+      "daSapere": [
+        "Kant, 1795 (2ª ed. ampliata 1796)",
+        "Sei articoli preliminari, tre definitivi, due supplementi, due appendici",
+        "Costituzione repubblicana; federazione di Stati liberi; ospitalità universale",
+        "Seconda appendice: formula trascendentale del diritto pubblico"
+      ],
+      "collegamenti": [
+        {
+          "da": "kant",
+          "a": "zum-ewigen-frieden",
+          "tipo": "crea",
+          "etichetta": "scrive nel 1795"
+        },
+        {
+          "da": "zum-ewigen-frieden",
+          "a": "diritto-internazionale",
+          "tipo": "interpreta",
+          "etichetta": "fonda su una federazione di Stati liberi il"
+        },
+        {
+          "da": "zum-ewigen-frieden",
+          "a": "cosmopoli",
+          "tipo": "collegato",
+          "etichetta": "va distinto da uno Stato mondiale della"
+        },
+        {
+          "da": "zum-ewigen-frieden",
+          "a": "guerra",
+          "tipo": "contrasta",
+          "etichetta": "indica le condizioni per superare la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Kant, Per la pace perpetua, in particolare Appendice II (traduzione storica)",
+          "url": "https://www.gutenberg.org/files/50922/50922-h/50922-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "jacques-maritain",
+      "oltre": "Jacques Maritain (Parigi 1882 – Tolosa 1973) fu uno dei maggiori esponenti del **neotomismo** del Novecento. Allievo di Bergson, si convertì al cattolicesimo nel 1906 con la moglie Raïssa e trovò in [[tommaso-d-aquino|Tommaso d'Aquino]] la sua guida. Insegnò all'Institut catholique di Parigi e poi negli Stati Uniti (Princeton); dal 1945 al 1948 fu ambasciatore di Francia presso la Santa Sede e partecipò ai lavori dell'UNESCO che accompagnarono la Dichiarazione universale dei diritti umani del 1948.\n\nOpere principali: *I gradi del sapere* (1932), *Umanesimo integrale* (1936), *I diritti dell'uomo e la legge naturale* (1942), *Cristianesimo e democrazia* (1943), *L'uomo e lo Stato* (1951).\n\nIdee chiave:\n- l'**umanesimo integrale**: una società di ispirazione cristiana ma pluralista e laica, contro l'individualismo liberale e i totalitarismi;\n- la distinzione tra **individuo** (parte della società) e **persona** (che la trascende per la sua vocazione spirituale);\n- la legge naturale come ordine che deriva dall'essenza delle cose e che l'uomo conosce per **inclinazione**, prima che per ragionamento;\n- i [[diritti-umani|diritti umani]] fondati sulla legge naturale, su cui uomini di filosofie diverse possono accordarsi sul piano pratico.\n\nIl suo [[personalismo]] influenzò il cattolicesimo democratico italiano, Aldo Moro e i costituenti.",
+      "daSapere": [
+        "Parigi 1882 – Tolosa 1973; neotomista",
+        "*Umanesimo integrale* (1936); *L'uomo e lo Stato* (1951)",
+        "Individuo / persona; legge naturale conosciuta per inclinazione",
+        "Ispiratore del personalismo cattolico e di Moro"
+      ],
+      "collegamenti": [
+        {
+          "da": "jacques-maritain",
+          "a": "aldo-moro",
+          "tipo": "influenza",
+          "etichetta": "ispira il personalismo di"
+        },
+        {
+          "da": "jacques-maritain",
+          "a": "personalismo",
+          "tipo": "parte-di",
+          "etichetta": "è esponente del"
+        },
+        {
+          "da": "jacques-maritain",
+          "a": "diritti-umani",
+          "tipo": "interpreta",
+          "etichetta": "fonda sulla legge naturale i"
+        },
+        {
+          "da": "tommaso-d-aquino",
+          "a": "jacques-maritain",
+          "tipo": "influenza",
+          "etichetta": "rivive nel neotomismo di"
+        }
+      ]
+    },
+    {
+      "id": "regola-eidetico-costitutiva",
+      "oltre": "La nozione appartiene alla tipologia delle **regole costitutive** elaborata da [[amedeo-g-conte|Amedeo G. Conte]] tra gli anni Settanta e Novanta. *Eîdos* (εἶδος) significa in greco «forma, idea, essenza»: è il termine di Platone per le idee e di [[husserl|Husserl]] per le essenze. Conte distingue tra l'altro:\n- regole **eidetico-costitutive**, condizione necessaria di ciò su cui vertono, che senza di esse non sarebbe neppure pensabile (le regole degli scacchi creano l'arrocco e lo scacco matto);\n- regole **thetico-costitutive**, che producono immediatamente ciò che dicono (la norma che abroga una legge produce l'abrogazione per il solo fatto di vigere);\n- regole **anankastico-costitutive**, che pongono una condizione necessaria di un atto senza definirne l'essenza (il [[testamento-olografo|testamento olografo]] deve essere scritto di mano del testatore).\n\nUn riferimento del dibattito è [[john-searle|Searle]], per il quale le regole costitutive non regolano un'attività preesistente ma la creano («X conta come Y nel contesto C»). L'esempio del [[gioco]] viene da [[wittgenstein|Wittgenstein]]: una mossa degli scacchi esiste solo dentro il sistema delle regole che la definiscono.",
+      "daSapere": [
+        "*Eîdos* (εἶδος) = forma, idea, essenza",
+        "Conte: regole eidetico-, thetico-, anankastico-costitutive",
+        "Esempio tipico: le regole degli scacchi",
+        "Searle: «X conta come Y nel contesto C»"
+      ],
+      "collegamenti": [
+        {
+          "da": "regola-eidetico-costitutiva",
+          "a": "regola-costitutiva",
+          "tipo": "parte-di",
+          "etichetta": "è una specie di"
+        },
+        {
+          "da": "wittgenstein",
+          "a": "regola-eidetico-costitutiva",
+          "tipo": "influenza",
+          "etichetta": "illustra con gli scacchi la"
+        },
+        {
+          "da": "grundnorm",
+          "a": "regola-eidetico-costitutiva",
+          "tipo": "esempio-di",
+          "etichetta": "è, nel senso particolare, una"
+        },
+        {
+          "da": "regola-eidetico-costitutiva",
+          "a": "dovere-eidonomico",
+          "tipo": "causa",
+          "etichetta": "fa nascere i"
+        },
+        {
+          "da": "amedeo-g-conte",
+          "a": "regola-eidetico-costitutiva",
+          "tipo": "crea",
+          "etichetta": "conia la nozione di"
+        },
+        {
+          "da": "regola-eidetico-costitutiva",
+          "a": "gioco",
+          "tipo": "collegato",
+          "etichetta": "rende pensabile e possibile il"
+        }
+      ]
+    }
+  ],
+  "nuovi": [
+    {
+      "id": "semantica",
+      "nome": "Semantica",
+      "tipo": "concetto",
+      "alias": [
+        "semantica (Morris)"
+      ],
+      "breve": "Studio del significato: il rapporto tra i segni e ciò che designano. Per Morris è una delle tre branche della semiotica.",
+      "definizione": "Dal greco *sēmantikós*, «che significa». Nella tripartizione di [[charles-w-morris|Morris]] (1938) è la branca della [[semiotica]] che studia il rapporto tra i segni e gli oggetti che designano, accanto alla [[sintattica]] (rapporti tra segni) e alla [[pragmatica]] (rapporti tra segni e utenti). In logica la semantica studia le condizioni di verità degli enunciati: la teoria semantica della verità di Tarski ne è l'esempio classico. Per le norme pone il problema di che cosa esse designino, se non sono né vere né false."
+    },
+    {
+      "id": "logica-deontica",
+      "nome": "Logica deontica",
+      "tipo": "concetto",
+      "alias": [
+        "logica delle norme"
+      ],
+      "breve": "Logica delle norme: studia i rapporti tra obbligatorio, vietato e permesso. Fondata da von Wright (1951) e Kalinowski.",
+      "definizione": "Ramo della logica modale che studia le relazioni formali tra le modalità **deontiche**: obbligatorio (O), permesso (P) e vietato. Nasce all'inizio degli anni Cinquanta con il saggio *Deontic Logic* (1951) di [[georg-h-von-wright|von Wright]] e, in modo indipendente, con i lavori di [[georges-kalinowski|Kalinowski]]. Le modalità sono interdefinibili: il permesso di p equivale all'assenza dell'obbligo di non-p. Il suo problema di fondo è come possa esistere una logica delle norme, se le norme non sono né vere né false."
+    }
+  ]
+}

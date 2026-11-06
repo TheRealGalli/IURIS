@@ -1,0 +1,33 @@
+# Pubblica solo l'app, la documentazione e i contenuti strutturati delle materie.
+/*
+!/.gitignore
+!/.github/
+!/README.md
+!/INDICE.md
+!/studio/
+!/Diritto Romano /
+/Diritto Romano /*
+!/Diritto Romano /05 - Contenuti/
+!/Filosofia del Diritto/
+/Filosofia del Diritto/*
+!/Filosofia del Diritto/05 - Contenuti/
+
+**/.DS_Store
+**/node_modules/
+**/dist/
+**/.vite/
+**/.claude/
+**/.codex/
+**/.agents/
+**/.env
+**/.env.*
+!**/.env.example
+/studio/public/content/
+*.log
+*.pdf
+*.docx
+*.pptx
+*.mp3
+*.mp4
+iuris-progressi-*.json
+

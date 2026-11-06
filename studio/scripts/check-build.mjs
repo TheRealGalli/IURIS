@@ -1,0 +1,45 @@
+// Verifica l'artefatto statico prima di pubblicarlo: risorse locali, corsi e assenza di file estranei.
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = fileURLToPath(new URL('../dist/', import.meta.url));
+const file = (relative) => {
+  const absolute = path.resolve(root, relative);
+  assert(absolute.startsWith(root), `Percorso fuori dal sito: ${relative}`);
+  assert(fs.statSync(absolute).isFile(), `File mancante: ${relative}`);
+  return absolute;
+};
+const json = (relative) => JSON.parse(fs.readFileSync(file(relative), 'utf8'));
+
+const html = fs.readFileSync(file('index.html'), 'utf8');
+for (const [, resource] of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
+  if (/^https?:\/\//.test(resource)) continue;
+  assert(!resource.startsWith('/'), `Risorsa non relativa: ${resource}`);
+  file(resource);
+}
+const manifest = json('content/manifest.json');
+const materie = manifest.materie.filter((m) => m.disponibile);
+assert(materie.length > 0, 'Nessuna materia generata: controllare le cartelle 05 - Contenuti');
+for (const m of materie) {
+  assert(typeof m.file === 'string' && !m.file.startsWith('/'), `Percorso del corso non valido: ${m.slug}`);
+  const c = json(m.file);
+  assert.equal(c.materia.slug, m.slug);
+  assert(c.unita.length > 0 && c.concetti.length > 0 && c.domande.length > 0, `Corso incompleto: ${m.slug}`);
+  assert.equal(c.unita.length, m.stats.unita);
+  assert.equal(c.domande.length, m.stats.domande);
+}
+for (const entry of fs.readdirSync(root, { recursive: true, withFileTypes: true })) {
+  assert(!entry.isSymbolicLink(), `Link simbolico nel sito: ${entry.name}`);
+  assert(!entry.name.startsWith('.'), `File nascosto nel sito: ${entry.name}`);
+  assert(!/\.(pdf|docx|pptx|log)$/i.test(entry.name), `File estraneo nel sito: ${entry.name}`);
+  assert(!/^(iuris-progressi-|recupero-claude)/i.test(entry.name), `File personale nel sito: ${entry.name}`);
+}
+const pwa = json('manifest.webmanifest');
+assert.equal(pwa.start_url, './');
+assert.equal(pwa.scope, './');
+for (const icon of pwa.icons) file(icon.src);
+file('sw.js');
+console.log(`Sito verificato: ${materie.length} materie, risorse relative e soli file pubblicabili.`);
+
