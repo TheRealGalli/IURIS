@@ -243,7 +243,8 @@ select.select {
 /* calendario a quadratini: un blocco per mese */
 .cal-mesi { display: flex; flex-wrap: wrap; gap: 14px 18px; }
 .cal-mese b { display: block; font-size: 11px; font-weight: 600; color: var(--ink-2); text-transform: capitalize; margin-bottom: 4px; }
-.cal-griglia { display: grid; grid-template-columns: repeat(7, 13px); gap: 3px; }
+/* Sei settimane riservate anche nei mesi più corti: navigare non ridimensiona le card. */
+.cal-griglia { display: grid; grid-template-columns: repeat(7, 13px); grid-template-rows: 11px repeat(6, 13px); gap: 3px; }
 .cal-gg { font-size: 9px; line-height: 11px; color: var(--ink-3); text-align: center; }
 .cal-g { width: 13px; height: 13px; border-radius: 3px; border: 0; padding: 0; background: var(--line); display: block; }
 button.cal-g { cursor: pointer; }
