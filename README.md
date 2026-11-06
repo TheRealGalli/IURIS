@@ -1,5 +1,7 @@
 # IURIS · Studio
 
+[Apri IURIS online](https://therealgalli.github.io/IURIS/)
+
 Lezioni, glossario, mappe, cronologia ed esercizi con ripasso spaziato per lo studio del diritto.
 Il sito funziona nel browser, senza account, server applicativo o sincronizzazione dei progressi.
 
