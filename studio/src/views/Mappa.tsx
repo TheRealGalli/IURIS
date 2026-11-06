@@ -94,12 +94,19 @@ function useZoom(svgRef: React.RefObject<SVGSVGElement>, gRef: React.RefObject<S
   const zRef = useRef<ZoomBehavior<SVGSVGElement, unknown>>();
   useEffect(() => {
     if (!svgRef.current || !gRef.current) return;
+    const surface = select(svgRef.current);
     const z = zoom<SVGSVGElement, unknown>().scaleExtent([minZoom, 4]).on('zoom', (e) => {
-      gRef.current!.setAttribute('transform', e.transform.toString());
+      gRef.current?.setAttribute('transform', e.transform.toString());
       onK?.(e.transform.k);
     });
-    select(svgRef.current).call(z).on('dblclick.zoom', null);
+    surface.call(z).on('dblclick.zoom', null);
     zRef.current = z;
+    return () => {
+      // Anche cambiando pagina durante un'animazione, non restano timer o gesti sul vecchio SVG.
+      surface.interrupt().on('.zoom', null);
+      z.on('zoom', null);
+      zRef.current = undefined;
+    };
   }, []);
   const fit = (bbox: { x: number; y: number; w: number; h: number }, pad = 40, maxK = 1.2, minK = minZoom) => {
     const svg = svgRef.current;
