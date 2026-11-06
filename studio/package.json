@@ -9,7 +9,7 @@
     "dev": "vite",
     "prebuild": "node scripts/sync-content.mjs",
     "build": "tsc --noEmit && vite build",
-    "check:build": "node scripts/check-build.mjs",
+    "check:build": "node scripts/check-build.mjs && node scripts/check-graph-layout.mjs",
     "preview": "vite preview",
     "studio": "npm run build && vite preview"
   },

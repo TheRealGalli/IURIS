@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { hierarchy, tree, type HierarchyPointNode } from 'd3-hierarchy';
-import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY, type SimulationNodeDatum } from 'd3-force';
 import { select } from 'd3-selection';
 import { zoom, zoomIdentity, type ZoomBehavior } from 'd3-zoom';
 import 'd3-transition';
@@ -10,6 +9,8 @@ import { livello, padronanza } from '../lib/srs';
 import { useProgresso } from '../lib/store';
 import { TIPI_CONCETTO, TIPO_SINGOLARE, VERBO_RELAZIONE, type NodoMappa, type TipoConcetto } from '../lib/types';
 import { Icon, LivelloDot } from '../components/ui';
+import { graphLabelLines, graphNodeRadius, graphTextWidth, GRAPH_LABEL_LINE } from '../lib/graph-geometry.mjs';
+import { placeGraphLabels } from '../lib/graph-labels.mjs';
 
 export default function Mappa({ query }: { query: URLSearchParams }) {
   const idx = useCorso();
@@ -89,18 +90,18 @@ function PannelloConcetto({ id, onClose, onFocus }: { id: string; onClose: () =>
   );
 }
 
-function useZoom(svgRef: React.RefObject<SVGSVGElement>, gRef: React.RefObject<SVGGElement>, onK?: (k: number) => void) {
+function useZoom(svgRef: React.RefObject<SVGSVGElement>, gRef: React.RefObject<SVGGElement>, onK?: (k: number) => void, minZoom = 0.15) {
   const zRef = useRef<ZoomBehavior<SVGSVGElement, unknown>>();
   useEffect(() => {
     if (!svgRef.current || !gRef.current) return;
-    const z = zoom<SVGSVGElement, unknown>().scaleExtent([0.15, 4]).on('zoom', (e) => {
+    const z = zoom<SVGSVGElement, unknown>().scaleExtent([minZoom, 4]).on('zoom', (e) => {
       gRef.current!.setAttribute('transform', e.transform.toString());
       onK?.(e.transform.k);
     });
     select(svgRef.current).call(z).on('dblclick.zoom', null);
     zRef.current = z;
   }, []);
-  const fit = (bbox: { x: number; y: number; w: number; h: number }, pad = 40, maxK = 1.2, minK = 0.15) => {
+  const fit = (bbox: { x: number; y: number; w: number; h: number }, pad = 40, maxK = 1.2, minK = minZoom) => {
     const svg = svgRef.current;
     if (!svg || !zRef.current) return;
     const { width, height } = svg.getBoundingClientRect();
@@ -116,7 +117,17 @@ function useZoom(svgRef: React.RefObject<SVGSVGElement>, gRef: React.RefObject<S
     const { width, height } = svg.getBoundingClientRect();
     select(svg).transition().duration(500).call(zRef.current.transform, zoomIdentity.translate(width / 2 - x * k, height / 2 - y * k).scale(k));
   };
-  return { fit, centra };
+  const zoomBy = (factor: number) => {
+    if (svgRef.current && zRef.current) select(svgRef.current).transition().duration(180).call(zRef.current.scaleBy, factor);
+  };
+  const limitaInsieme = (bbox: { w: number; h: number }) => {
+    const svg = svgRef.current;
+    if (!svg || !zRef.current) return;
+    const { width, height } = svg.getBoundingClientRect();
+    const minimo = Math.min(1, (width - 80) / Math.max(1, bbox.w), (height - 80) / Math.max(1, bbox.h));
+    zRef.current.scaleExtent([Math.max(.005, minimo * .9), 4]);
+  };
+  return { fit, centra, zoomBy, limitaInsieme };
 }
 
 /* ───────────────────────── mappa mentale per unità ───────────────────────── */
@@ -237,7 +248,7 @@ function MindMap({ uid }: { uid: string }) {
 
 /* ───────────────────────── grafo globale ───────────────────────── */
 
-interface GN extends SimulationNodeDatum { id: string; nome: string; tipo: TipoConcetto; grado: number; unita: string[] }
+interface GN { id: string; nome: string; tipo: TipoConcetto; grado: number; unita: string[]; x: number; y: number; lines: string[]; labelWidth: number }
 interface GL { source: GN; target: GN; etichetta?: string }
 
 const COLORI_TIPO: Partial<Record<TipoConcetto, string>> = {
@@ -258,63 +269,66 @@ function Grafo({ focus }: { focus: string | null }) {
   const gRef = useRef<SVGGElement>(null);
   // lo zoom non ridisegna nulla: cambia solo un attributo dell'svg, e il CSS mostra più o meno nomi
   const livZoom = useRef(1);
-  const { fit, centra } = useZoom(svgRef, gRef, (kk) => {
-    const lv = kk > 1.5 ? 2 : kk > 0.9 ? 1 : 0;
+  const { fit, centra, zoomBy, limitaInsieme } = useZoom(svgRef, gRef, (kk) => {
+    const lv = kk >= 0.65 ? 2 : kk >= 0.3 ? 1 : 0;
     if (lv !== livZoom.current) { livZoom.current = lv; svgRef.current?.setAttribute('data-zoom', String(lv)); }
-  });
+  }, 0.025);
 
   const { nodi, links, byId } = useMemo(() => {
     const grado = new Map<string, number>();
     for (const r of idx.corso.relazioni) { grado.set(r.da, (grado.get(r.da) ?? 0) + 1); grado.set(r.a, (grado.get(r.a) ?? 0) + 1); }
-    let concetti = idx.corso.concetti;
-    if (unita) {
-      const base = new Set(concetti.filter((c) => c.unita.includes(unita)).map((c) => c.id));
-      concetti = concetti.filter((c) => base.has(c.id));
-    }
-    if (tipo) concetti = concetti.filter((c) => c.tipo === tipo);
-    const nodi: GN[] = concetti.map((c) => ({ id: c.id, nome: c.nome, tipo: c.tipo, grado: grado.get(c.id) ?? 0, unita: c.unita }));
+    // Anche i filtri usano le posizioni precalcolate, senza simulazioni nel browser.
+    // Il reticolo è una riserva per eventuali contenuti privi di coordinate.
+    const colonne = Math.max(1, Math.ceil(Math.sqrt(idx.corso.concetti.length) * 1.3));
+    const nodi: GN[] = idx.corso.concetti.map((c, i) => {
+      const [x, y] = idx.corso.grafo?.[c.id] ?? [(i % colonne) * 280, Math.floor(i / colonne) * 180];
+      const lines = graphLabelLines(c.nome);
+      return { id: c.id, nome: c.nome, tipo: c.tipo, grado: grado.get(c.id) ?? 0, unita: c.unita, x, y, lines,
+        labelWidth: Math.max(...lines.map((line) => graphTextWidth(line))) };
+    }).filter((c) => (!unita || c.unita.includes(unita)) && (!tipo || c.tipo === tipo));
     const byId = new Map(nodi.map((n) => [n.id, n]));
     const links: GL[] = idx.corso.relazioni
       .filter((r) => byId.has(r.da) && byId.has(r.a))
       .map((r) => ({ source: byId.get(r.da)!, target: byId.get(r.a)!, etichetta: r.etichetta }));
-    // tutta la mappa: posizioni già calcolate da sync-content.mjs, niente simulazione nel browser
-    const pre = idx.corso.grafo;
-    if (!unita && !tipo && pre && nodi.every((n) => pre[n.id])) {
-      for (const n of nodi) [n.x, n.y] = pre[n.id];
-      return { nodi, links, byId };
-    }
-    // posizioni iniziali per unità, così i concetti della stessa unità partono vicini
-    const ordU = new Map(idx.corso.unita.map((u, i) => [u.id, i]));
-    const nU = idx.corso.unita.length;
-    nodi.forEach((n, i) => {
-      const a = ((ordU.get(n.unita[0]) ?? 0) / Math.max(1, nU)) * Math.PI * 2;
-      n.x = Math.cos(a) * 400 + (i % 7) * 6; n.y = Math.sin(a) * 400 + (i % 5) * 6;
-    });
-    const sim = forceSimulation(nodi)
-      .force('link', forceLink<GN, GL>(links).distance(70).strength(0.5))
-      .force('charge', forceManyBody().strength(-160).distanceMax(500))
-      .force('collide', forceCollide<GN>().radius((d) => 8 + Math.sqrt(d.grado) * 3))
-      .force('x', forceX(0).strength(0.03)).force('y', forceY(0).strength(0.03))
-      .force('center', forceCenter(0, 0))
-      .stop();
-    for (let i = 0; i < 320; i++) sim.tick();
     return { nodi, links, byId };
   }, [idx, unita, tipo]);
 
   const bbox = useMemo(() => {
+    if (!nodi.length) return { x: 0, y: 0, w: 1, h: 1 };
     let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
-    for (const n of nodi) { x0 = Math.min(x0, n.x!); y0 = Math.min(y0, n.y!); x1 = Math.max(x1, n.x!); y1 = Math.max(y1, n.y!); }
+    for (const n of nodi) {
+      x0 = Math.min(x0, n.x - Math.max(n.labelWidth / 2, graphNodeRadius(n.grado)));
+      y0 = Math.min(y0, n.y - graphNodeRadius(n.grado));
+      x1 = Math.max(x1, n.x + Math.max(n.labelWidth / 2, graphNodeRadius(n.grado)));
+      y1 = Math.max(y1, n.y + graphNodeRadius(n.grado) + 12 + n.lines.length * GRAPH_LABEL_LINE);
+    }
     return { x: x0 - 40, y: y0 - 40, w: x1 - x0 + 80, h: y1 - y0 + 80 };
   }, [nodi]);
 
+  const vistaLeggibile = () => {
+    const f = sel ? byId.get(sel) : null;
+    const cx = bbox.x + bbox.w / 2, cy = bbox.y + bbox.h / 2;
+    const centro = f ?? [...nodi].sort((a, b) => Math.hypot(a.x - cx, a.y - cy) - Math.hypot(b.x - cx, b.y - cy))[0];
+    if (centro) centra(centro.x, centro.y, 1);
+  };
+
   useEffect(() => {
-    const t = setTimeout(() => {
-      const f = sel ? byId.get(sel) : null;
-      if (f) centra(f.x!, f.y!, 1.5); else fit(bbox, 20, 1);
-    }, 40);
+    const svg = svgRef.current;
+    if (!svg) return;
+    const aggiorna = () => limitaInsieme(bbox);
+    aggiorna();
+    const observer = new ResizeObserver(aggiorna);
+    observer.observe(svg);
+    return () => observer.disconnect();
+  }, [bbox]);
+
+  useEffect(() => {
+    setHover(null);
+    if (sel && !byId.has(sel)) setSel(null);
+    const t = setTimeout(vistaLeggibile, 40);
     return () => clearTimeout(t);
   }, [nodi]);
-  useEffect(() => { setSel(focus); const f = focus ? byId.get(focus) : null; if (f) centra(f.x!, f.y!, 1.5); }, [focus]);
+  useEffect(() => { setSel(focus); const f = focus ? byId.get(focus) : null; if (f) centra(f.x, f.y, 1); }, [focus]);
 
   const attivo = hover ?? sel;
   const vicini = useMemo(() => {
@@ -336,7 +350,7 @@ function Grafo({ focus }: { focus: string | null }) {
   }, [cerca, nodi]);
 
   const colLv: Record<string, string> = { forte: 'var(--ok)', medio: 'var(--mid)', debole: 'var(--bad)', ignoto: 'var(--none)' };
-  const raggio = (n: GN) => 5 + Math.sqrt(n.grado) * 2.4;
+  const raggio = (n: GN) => graphNodeRadius(n.grado);
   const colore = (n: GN) => (colora === 'tipo' ? (COLORI_TIPO[n.tipo] ?? '#888') : colLv[livelli.get(n.id) ?? 'ignoto']);
 
   // strato di base: tutti i nodi e i collegamenti, ridisegnato solo quando cambiano dati, colori o selezione
@@ -345,10 +359,16 @@ function Grafo({ focus }: { focus: string | null }) {
       {links.map((l, i) => <line key={i} className="g-link" x1={l.source.x} y1={l.source.y} x2={l.target.x} y2={l.target.y} />)}
       {nodi.map((n) => (
         <g key={n.id} className="g-node" transform={`translate(${n.x},${n.y})`}
+          role="button" tabIndex={0} aria-label={n.nome}
           onMouseEnter={() => setHover(n.id)} onMouseLeave={() => setHover(null)}
+          onFocus={() => setHover(n.id)} onBlur={() => setHover(null)}
+          onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setSel(n.id); } }}
           onClick={(e) => { e.stopPropagation(); setSel(n.id); }}>
+          <title>{n.nome}</title>
           <circle r={raggio(n)} fill={colore(n)} stroke={n.id === sel ? 'var(--ink)' : 'var(--surface)'} strokeWidth={n.id === sel ? 3 : 1.5} />
-          <text className={`lbl l${n.grado >= 6 ? 0 : n.grado >= 3 ? 1 : 2}`} y={raggio(n) + 12} textAnchor="middle">{n.nome}</text>
+          <text className={`lbl l${n.grado >= 6 ? 0 : n.grado >= 3 ? 1 : 2}`} textAnchor="middle">
+            {n.lines.map((line, i) => <tspan key={i} x={0} y={raggio(n) + 12 + i * GRAPH_LABEL_LINE}>{line}</tspan>)}
+          </text>
         </g>
       ))}
     </>
@@ -358,17 +378,30 @@ function Grafo({ focus }: { focus: string | null }) {
   const sopra = useMemo(() => {
     if (!attivo || !vicini) return null;
     const ls = links.filter((l) => l.source.id === attivo || l.target.id === attivo);
+    const ns = nodi.filter((n) => vicini.has(n.id));
+    const obstacles = nodi.map((n) => ({ x: n.x - raggio(n) - 6, y: n.y - raggio(n) - 6, width: (raggio(n) + 6) * 2, height: (raggio(n) + 6) * 2 }));
+    obstacles.push(...ns.map((n) => ({ x: n.x - n.labelWidth / 2 - 8, y: n.y + raggio(n), width: n.labelWidth + 16, height: 16 + n.lines.length * GRAPH_LABEL_LINE })));
+    const labels = placeGraphLabels(ls.flatMap((l, i) => l.etichetta ? [{ id: i, text: l.etichetta, source: l.source, target: l.target }] : []), obstacles);
     return (
       <g className="g-over">
-        {ls.map((l, i) => <line key={i} className="g-link hi" x1={l.source.x} y1={l.source.y} x2={l.target.x} y2={l.target.y} />)}
-        {ls.filter((l) => l.etichetta).map((l, i) => (
-          <text key={`e${i}`} x={(l.source.x! + l.target.x!) / 2} y={(l.source.y! + l.target.y!) / 2} textAnchor="middle"
-            style={{ fontSize: 10, fill: 'var(--accent)', paintOrder: 'stroke', stroke: 'var(--surface)', strokeWidth: 3, fontStyle: 'italic' }}>{l.etichetta}</text>
-        ))}
-        {nodi.filter((n) => vicini.has(n.id)).map((n) => (
+        {ls.map((l, i) => {
+          const dx = l.target.x - l.source.x, dy = l.target.y - l.source.y;
+          const distance = Math.hypot(dx, dy) || 1;
+          const end = raggio(l.target) + 5;
+          return <line key={i} className="g-link hi" x1={l.source.x} y1={l.source.y}
+            x2={l.target.x - dx / distance * end} y2={l.target.y - dy / distance * end} markerEnd="url(#graph-arrow)" />;
+        })}
+        {labels.map((label) => <line key={`leader${label.id}`} className="g-label-leader" x1={label.anchor.x} y1={label.anchor.y} x2={label.x} y2={label.y} />)}
+        {labels.map((label) => <g key={`e${label.id}`} className="g-relation-label">
+          <rect x={label.x - label.width / 2} y={label.y - label.height / 2} width={label.width} height={label.height} rx={5} />
+          <text textAnchor="middle">{label.lines.map((line, i) => <tspan key={i} x={label.x} y={label.y - label.height / 2 + 17 + i * 14}>{line}</tspan>)}</text>
+        </g>)}
+        {ns.map((n) => (
           <g key={n.id} className="g-node" transform={`translate(${n.x},${n.y})`}>
             <circle r={raggio(n)} fill={colore(n)} stroke={n.id === sel ? 'var(--ink)' : 'var(--surface)'} strokeWidth={n.id === sel ? 3 : 1.5} />
-            <text y={raggio(n) + 12} textAnchor="middle" style={{ fontWeight: n.id === attivo ? 700 : 500, fontSize: n.id === attivo ? 12.5 : 11 }}>{n.nome}</text>
+            <text textAnchor="middle" style={{ fontWeight: n.id === attivo ? 700 : 500 }}>
+              {n.lines.map((line, i) => <tspan key={i} x={0} y={raggio(n) + 12 + i * GRAPH_LABEL_LINE}>{line}</tspan>)}
+            </text>
           </g>
         ))}
       </g>
@@ -377,30 +410,41 @@ function Grafo({ focus }: { focus: string | null }) {
   const tipiPresenti = [...new Set(idx.corso.concetti.map((c) => c.tipo))];
 
   return (
-    <div className="map-shell">
+    <div className="map-shell graph-shell">
       <div className="map-tools">
         <div style={{ position: 'relative' }}>
           <input className="input" placeholder="Trova un concetto…" value={cerca} onChange={(e) => setCerca(e.target.value)} style={{ width: 210 }} />
           {risultati.length > 0 && (
             <div className="card" style={{ position: 'absolute', top: 44, left: 0, width: 260, padding: 6, zIndex: 5 }}>
               {risultati.map((n) => (
-                <div key={n.id} className="palette-item" onClick={() => { setSel(n.id); centra(n.x!, n.y!, 1.6); setCerca(''); }}>{n.nome}</div>
+                <button key={n.id} className="palette-item" onClick={() => { setSel(n.id); centra(n.x, n.y, 1); setCerca(''); }}>{n.nome}</button>
               ))}
             </div>
           )}
         </div>
-        <select className="select" value={unita} onChange={(e) => setUnita(e.target.value)}>
+        <select className="select" aria-label="Filtra per unità" value={unita} onChange={(e) => setUnita(e.target.value)}>
           <option value="">Tutte le unità</option>
           {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {u.titolo.slice(0, 40)}</option>)}
         </select>
-        <select className="select" value={tipo} onChange={(e) => setTipo(e.target.value)}>
+        <select className="select" aria-label="Filtra per tipo" value={tipo} onChange={(e) => setTipo(e.target.value)}>
           <option value="">Tutti i tipi</option>
           {tipiPresenti.map((t) => <option key={t} value={t}>{TIPI_CONCETTO[t]}</option>)}
         </select>
         <button className="btn btn-sm" onClick={() => setColora((c) => (c === 'tipo' ? 'padronanza' : 'tipo'))}>Colori: {colora === 'tipo' ? 'per tipo' : 'per padronanza'}</button>
-        <button className="btn btn-sm" onClick={() => fit(bbox, 20, 1)} aria-label="Adatta"><Icon n="espandi" size={15} /></button>
+        <button className="btn btn-sm" onClick={() => fit(bbox, 40, 1)} aria-label="Adatta" title="Vista d'insieme"><Icon n="espandi" size={15} /></button>
+        <div className="graph-navigation" aria-label="Zoom della mappa">
+          <button className="btn btn-sm" onClick={() => zoomBy(1 / 1.35)} aria-label="Riduci zoom">−</button>
+          <button className="btn btn-sm" onClick={() => zoomBy(1.35)} aria-label="Aumenta zoom">+</button>
+          <button className="btn btn-sm" onClick={vistaLeggibile}>Leggi i nomi</button>
+        </div>
       </div>
+      {nodi.length === 0 && <div className="graph-empty" role="status">Nessun concetto con questi filtri.</div>}
       <svg ref={svgRef} data-zoom="1" onClick={(e) => { if (e.target === svgRef.current) setSel(null); }}>
+        <defs>
+          <marker id="graph-arrow" viewBox="0 0 8 8" refX={7} refY={4} markerWidth={5} markerHeight={5} orient="auto">
+            <path d="M0 0L8 4L0 8Z" fill="var(--accent)" />
+          </marker>
+        </defs>
         <g ref={gRef}>
           <g className={attivo ? 'g-base dim' : 'g-base'}>{base}</g>
           {sopra}
@@ -416,7 +460,7 @@ function Grafo({ focus }: { focus: string | null }) {
           </>
         ) : tipiPresenti.slice(0, 7).map((t) => <span key={t} className="row" style={{ gap: 5 }}><span className="dot" style={{ background: COLORI_TIPO[t] }} /> {TIPI_CONCETTO[t]}</span>)}
       </div>
-      {sel && <PannelloConcetto id={sel} onClose={() => setSel(null)} onFocus={(c) => { setSel(c); const f = byId.get(c); if (f) centra(f.x!, f.y!, 1.6); }} />}
+      {sel && <PannelloConcetto id={sel} onClose={() => { setSel(null); setHover(null); }} onFocus={(c) => { setSel(c); const f = byId.get(c); if (f) centra(f.x, f.y, 1); }} />}
     </div>
   );
 }

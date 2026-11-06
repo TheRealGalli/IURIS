@@ -68,15 +68,24 @@ export function LivelloDot({ valore, viste }: { valore: number | null; viste?: n
   return <span className={`dot lv-${lv}`} title={title} />;
 }
 
-/** Calendario a quadratini: un blocco per mese, settimane in righe da lunedì a domenica, dal mese corrente in avanti.
+/** Calendario a quadratini: un blocco per mese, da luglio 2026 a luglio 2029 inclusi.
  *  Più verde = più studio quel giorno; oggi è contornato, i giorni futuri sono vuoti, l'esame è il quadratino rosso. */
 export function Calendario({ p, sel, onSelect, mesi = 3 }: { p: Progresso; sel?: string; onSelect?: (iso: string) => void; mesi?: number }) {
   const oggi = new Date();
   const oggiIso = isoDi(oggi);
-  const [scarto, setScarto] = useState(0); // primo mese mostrato, rispetto a quello corrente
-  const esame = p.esame ? new Date(`${p.esame}T12:00:00`) : null;
-  const blocchi = Array.from({ length: mesi }, (_, m) => {
-    const primo = new Date(oggi.getFullYear(), oggi.getMonth() + scarto + m, 1);
+  const primoDisponibile = 2026 * 12 + 6;
+  const ultimoDisponibile = 2029 * 12 + 6;
+  const nMesi = Math.min(ultimoDisponibile - primoDisponibile + 1, Math.max(1, Number.isFinite(mesi) ? Math.floor(mesi) : 3));
+  const ultimoInizio = ultimoDisponibile - nMesi + 1;
+  const limita = (mese: number) => Math.max(primoDisponibile, Math.min(ultimoInizio, mese));
+  const [mese, setMese] = useState(() => limita(oggi.getFullYear() * 12 + oggi.getMonth()));
+  const inizio = limita(mese);
+  const dataEsame = p.esame ? new Date(`${p.esame}T12:00:00`) : null;
+  const esame = dataEsame && Number.isFinite(dataEsame.getTime()) ? dataEsame : null;
+  const meseEsame = esame ? esame.getFullYear() * 12 + esame.getMonth() : null;
+  const esameNelCalendario = meseEsame !== null && meseEsame >= primoDisponibile && meseEsame <= ultimoDisponibile;
+  const blocchi = Array.from({ length: nMesi }, (_, m) => {
+    const primo = new Date(Math.floor((inizio + m) / 12), (inizio + m) % 12, 1);
     const nGiorni = new Date(primo.getFullYear(), primo.getMonth() + 1, 0).getDate();
     const giorni = Array.from({ length: nGiorni }, (_, k) => {
       const d = new Date(primo.getFullYear(), primo.getMonth(), k + 1);
@@ -90,7 +99,7 @@ export function Calendario({ p, sel, onSelect, mesi = 3 }: { p: Progresso; sel?:
       const tip = `${quando}: ${iso === p.esame ? 'esame · ' : ''}${attivita}`;
       return { iso, l, tip, futuro: iso > oggiIso };
     });
-    return { chiave: isoDi(primo), nome: primo.toLocaleDateString('it-IT', { month: 'long' }), vuoti: (primo.getDay() + 6) % 7, giorni };
+    return { chiave: isoDi(primo), nome: primo.toLocaleDateString('it-IT', { month: 'long', year: 'numeric' }), vuoti: (primo.getDay() + 6) % 7, giorni };
   });
   return (
     <div className="cal">
@@ -113,14 +122,15 @@ export function Calendario({ p, sel, onSelect, mesi = 3 }: { p: Progresso; sel?:
       </div>
       <div className="cal-piede">
         <span className="row" style={{ gap: 2 }}>
-          <button className="btn btn-sm btn-ghost" onClick={() => setScarto((x) => x - 1)} aria-label="Mese precedente"><Icon n="indietro" size={14} /></button>
-          <button className="btn btn-sm btn-ghost" onClick={() => setScarto((x) => x + 1)} aria-label="Mese successivo"><Icon n="freccia" size={14} /></button>
+          <button className="btn btn-sm btn-ghost" disabled={inizio === primoDisponibile} onClick={() => setMese(limita(inizio - 1))} aria-label="Mese precedente"><Icon n="indietro" size={14} /></button>
+          <button className="btn btn-sm btn-ghost" disabled={inizio === ultimoInizio} onClick={() => setMese(limita(inizio + 1))} aria-label="Mese successivo"><Icon n="freccia" size={14} /></button>
         </span>
         <span className="cal-legenda">
           meno {[0, 1, 2, 3, 4].map((l) => <i key={l} data-l={l} />)} più
           {esame && (
-            <button className="cal-leg-esame" title="Vai al mese dell'esame"
-              onClick={() => setScarto((esame.getFullYear() - oggi.getFullYear()) * 12 + esame.getMonth() - oggi.getMonth())}>
+            <button className="cal-leg-esame" disabled={!esameNelCalendario}
+              title={esameNelCalendario ? "Vai al mese dell'esame" : "L'esame è fuori dall'intervallo luglio 2026 – luglio 2029"}
+              onClick={() => { if (esameNelCalendario) setMese(limita(meseEsame!)); }}>
               <i /> esame · {esame.toLocaleDateString('it-IT', { day: 'numeric', month: 'long' })}
             </button>
           )}

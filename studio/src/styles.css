@@ -411,8 +411,8 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 .map-shell { position: relative; height: calc(100vh - 210px); min-height: 480px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background:
   radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--ink) 10%, transparent) 1px, transparent 0) 0 0 / 22px 22px, var(--surface); }
 @media (max-width: 860px) { .map-shell { height: calc(100vh - 250px); } }
-.map-shell svg { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
-.map-shell svg:active { cursor: grabbing; }
+.map-shell > svg { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+.map-shell > svg:active { cursor: grabbing; }
 .map-tools { position: absolute; top: 12px; left: 12px; right: 12px; display: flex; gap: 8px; flex-wrap: wrap; z-index: 2; pointer-events: none; }
 .map-tools > * { pointer-events: auto; }
 .map-legend { position: absolute; bottom: 12px; left: 12px; display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; background: color-mix(in srgb, var(--surface) 90%, transparent); padding: 6px 10px; border-radius: 10px; border: 1px solid var(--line); }
@@ -428,11 +428,25 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 .g-link { stroke: var(--line-2); stroke-opacity: .7; }
 .g-link.hi { stroke: var(--accent); stroke-opacity: 1; stroke-width: 2; }
 .g-node { cursor: pointer; }
+.g-node:focus { outline: none; }
 .g-node text { font-size: 11px; fill: var(--ink-2); pointer-events: none; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; }
+.g-over .g-node text { fill: var(--ink); }
 .g-base.dim .g-node { opacity: .15; }
+.g-base.dim .lbl { visibility: hidden; }
 .g-base.dim .g-link { opacity: .08; }
 .g-over { pointer-events: none; }   /* i clic e il mouse restano ai nodi dello strato di base */
-/* nomi visibili secondo lo zoom (data-zoom lo imposta Mappa.tsx senza ridisegnare): l0 sempre, l1 da 0.9×, l2 da 1.5× */
+.g-node:focus-visible circle { stroke: var(--ink); stroke-width: 3px; }
+.g-relation-label rect { fill: var(--surface); stroke: var(--accent); stroke-opacity: .28; stroke-width: .7; }
+.g-relation-label text { font-family: var(--sans); font-size: 10.5px; font-style: italic; fill: var(--accent); }
+.g-label-leader { stroke: var(--accent); stroke-opacity: .5; stroke-width: 1; stroke-dasharray: 3 3; }
+.graph-navigation { display: flex; gap: 5px; }
+.graph-navigation .btn { background: var(--surface); }
+.graph-empty { position: absolute; top: 50%; left: 20px; right: 20px; text-align: center; color: var(--ink-2); pointer-events: none; }
+.graph-shell .palette-item { display: block; width: 100%; text-align: left; border: 0; background: none; color: inherit; font: inherit; }
+.graph-shell .palette-item:hover { background: var(--surface-2); }
+.graph-shell .map-tools > select { max-width: 100%; }
+.graph-shell .map-legend { right: 12px; }
+/* Solo pochi nomi nell'insieme; tutti alla scala di lettura. Lo zoom non ricrea gli elementi. */
 .map-shell svg[data-zoom="0"] .lbl.l1, .map-shell svg[data-zoom="0"] .lbl.l2, .map-shell svg[data-zoom="1"] .lbl.l2 { display: none; }
 
 /* ============ Cronologia ============ */

@@ -10,6 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY } from 'd3-force';
 import { idsNoti, idsNuoviOltre, validateOltre, validateSchedeInverse, validateUnit } from './validate-content.mjs';
+import { spaceGraphNodes } from './graph-layout.mjs';
 
 const studioRoot = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const iurisRoot = path.dirname(studioRoot);
@@ -52,27 +53,35 @@ function rinomina(u, alias) {
   return u;
 }
 
-/** Posizioni della mappa di tutti i concetti, calcolate qui una volta sola: nel browser la simulazione
- *  di centinaia di nodi bloccava la pagina all'apertura. Stessi parametri di Mappa.tsx (Grafo). */
+/** Posizioni della mappa di tutti i concetti, calcolate qui una volta sola: il browser
+ *  riutilizza le coordinate anche quando si filtra per unità o tipo. */
 function layoutGrafo(concetti, relazioni, unita) {
   const grado = new Map();
   for (const r of relazioni) { grado.set(r.da, (grado.get(r.da) ?? 0) + 1); grado.set(r.a, (grado.get(r.a) ?? 0) + 1); }
   const ordU = new Map(unita.map((u, i) => [u.id, i]));
   const nodi = concetti.map((c, i) => {
     const a = ((ordU.get(c.unita[0]) ?? 0) / Math.max(1, unita.length)) * Math.PI * 2;
-    return { id: c.id, grado: grado.get(c.id) ?? 0, x: Math.cos(a) * 400 + (i % 7) * 6, y: Math.sin(a) * 400 + (i % 5) * 6 };
+    return { id: c.id, nome: c.nome, grado: grado.get(c.id) ?? 0, x: Math.cos(a) * 1000 + (i % 7) * 12, y: Math.sin(a) * 600 + (i % 5) * 12 };
   });
   const byId = new Map(nodi.map((n) => [n.id, n]));
-  const links = relazioni.filter((r) => byId.has(r.da) && byId.has(r.a)).map((r) => ({ source: byId.get(r.da), target: byId.get(r.a) }));
+  // Più relazioni fra gli stessi concetti restano visibili, ma condividono una sola
+  // molla nel precalcolo: ripeterla altererebbe la distanza in base al numero di frasi.
+  const pairs = new Set();
+  const links = relazioni.filter((r) => byId.has(r.da) && byId.has(r.a)).flatMap((r) => {
+    const key = [r.da, r.a].sort().join('|');
+    if (pairs.has(key)) return [];
+    pairs.add(key);
+    return [{ source: byId.get(r.da), target: byId.get(r.a) }];
+  });
   const sim = forceSimulation(nodi)
-    .force('link', forceLink(links).distance(70).strength(0.5))
-    .force('charge', forceManyBody().strength(-160).distanceMax(500))
-    .force('collide', forceCollide().radius((d) => 8 + Math.sqrt(d.grado) * 3))
-    .force('x', forceX(0).strength(0.03)).force('y', forceY(0).strength(0.03))
+    .force('link', forceLink(links).distance(220).strength(0.8))
+    .force('charge', forceManyBody().strength(-300).distanceMax(1300))
+    .force('collide', forceCollide().radius((d) => 35 + Math.sqrt(d.grado) * 2).iterations(2))
+    .force('x', forceX(0).strength(0.006)).force('y', forceY(0).strength(0.05))
     .force('center', forceCenter(0, 0))
     .stop();
-  for (let i = 0; i < 320; i++) sim.tick();
-  return Object.fromEntries(nodi.map((n) => [n.id, [Math.round(n.x), Math.round(n.y)]]));
+  for (let i = 0; i < 400; i++) sim.tick();
+  return spaceGraphNodes(nodi);
 }
 
 function buildCorso(materiaDir, materiaSlug, nomeCartella) {
