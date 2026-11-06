@@ -1,6 +1,6 @@
 # IURIS · Studio
 
-[Apri IURIS online](https://therealgalli.github.io/IURIS/)
+[Apri IURIS online](https://formaiuris.it/)
 
 Lezioni, glossario, mappe, cronologia ed esercizi con ripasso spaziato per lo studio del diritto.
 Il sito funziona nel browser, senza account, server applicativo o sincronizzazione dei progressi.
@@ -11,6 +11,7 @@ I progressi sono salvati nel browser e rimangono dopo la chiusura della pagina e
 Ogni browser e dispositivo ha un archivio distinto; chi usa lo stesso profilo del browser condivide l'archivio.
 Da **Progressi → Scarica backup** puoi conservare una copia e trasferirla con **Carica backup**.
 Per passare dalla versione locale al sito online, scarica il backup dalla prima e importalo nel secondo.
+Lo stesso trasferimento serve passando dal vecchio indirizzo `github.io` a `formaiuris.it`, perché ogni origine ha il proprio archivio.
 Cancellando i dati del sito si eliminano anche i progressi locali.
 
 ## Sviluppo locale
@@ -26,6 +27,9 @@ npm run studio
 La versione per studiare è su `http://localhost:7100`; `npm run dev` avvia lo sviluppo sulla porta 7101.
 
 ## Pubblicazione su GitHub Pages
+
+Il dominio principale è **formaiuris.it**, collegato a GitHub Pages tramite i DNS gestiti su IONOS.
+Anche `www.formaiuris.it` punta a GitHub; il certificato HTTPS viene gestito da GitHub Pages.
 
 In **Settings → Pages → Build and deployment → Source**, seleziona **GitHub Actions**.
 Ogni push su `main` genera i contenuti delle materie, costruisce l'app, verifica i file e pubblica `studio/dist`.
