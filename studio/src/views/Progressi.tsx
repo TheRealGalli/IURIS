@@ -189,9 +189,10 @@ export default function Progressi() {
         </div>
       </div>
 
-      <div className="grid g2" style={{ marginTop: 16 }}>
+      <div className="grid g3" style={{ marginTop: 16 }}>
         <a className="card cta-card" href={href('/cronologia')}><Icon n="cronologia" size={22} /><b className="title-s">Cronologia</b><span className="muted small">{idx.corso.eventi.length} eventi su una linea del tempo</span></a>
         <a className="card cta-card" href={href('/glossario')}><Icon n="glossario" size={22} /><b className="title-s">Glossario</b><span className="muted small">{idx.corso.concetti.length} voci ricercabili</span></a>
+        <a className="card cta-card" href={href('/originali')}><Icon n="libro" size={22} /><b className="title-s">Originali</b><span className="muted small">Appunti e fonti originali · in preparazione</span></a>
       </div>
       {toast.el}
     </div>

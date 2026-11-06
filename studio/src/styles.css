@@ -431,10 +431,16 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 .g-node:focus { outline: none; }
 .g-node text { font-size: 11px; fill: var(--ink-2); pointer-events: none; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; }
 .g-over .g-node text { fill: var(--ink); }
-.g-base.dim .g-node { opacity: .15; }
+.g-base.dim .g-base-nodes { opacity: .15; }
 .g-base.dim .lbl { visibility: hidden; }
-.g-base.dim .g-link { opacity: .08; }
-.g-over { pointer-events: none; }   /* i clic e il mouse restano ai nodi dello strato di base */
+.g-base.dim .g-base-links { display: none; }
+.g-base .g-node text { pointer-events: auto; }
+.g-link { pointer-events: none; }
+.g-over { pointer-events: none; }   /* solo i concetti intercettano i clic, non linee e frasi */
+.g-over .g-node, .g-over .g-node text { pointer-events: auto; }
+/* Durante il movimento si disegnano solo i punti e l'eventuale strato selezionato. */
+.graph-shell > svg[data-moving="true"] .g-base-links,
+.graph-shell > svg[data-moving="true"] .g-base .lbl { visibility: hidden; }
 .g-node:focus-visible circle { stroke: var(--ink); stroke-width: 3px; }
 .g-relation-label rect { fill: var(--surface); stroke: var(--accent); stroke-opacity: .28; stroke-width: .7; }
 .g-relation-label text { font-family: var(--sans); font-size: 10.5px; font-style: italic; fill: var(--accent); }
@@ -446,6 +452,10 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 .graph-shell .palette-item:hover { background: var(--surface-2); }
 .graph-shell .map-tools > select { max-width: 100%; }
 .graph-shell .map-legend { right: 12px; }
+.graph-footer { position: absolute; left: 12px; right: 12px; bottom: 12px; display: flex; flex-direction: column; gap: 6px; pointer-events: none; }
+.graph-footer .map-legend { position: static; pointer-events: auto; }
+.graph-mode-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; padding: 7px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); font-size: 12px; pointer-events: auto; }
+.graph-mode-bar > span:first-child { flex: 1; min-width: 140px; }
 /* Solo pochi nomi nell'insieme; tutti alla scala di lettura. Lo zoom non ricrea gli elementi. */
 .map-shell svg[data-zoom="0"] .lbl.l1, .map-shell svg[data-zoom="0"] .lbl.l2, .map-shell svg[data-zoom="1"] .lbl.l2 { display: none; }
 

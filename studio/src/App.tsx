@@ -15,6 +15,7 @@ import Glossario from './views/Glossario';
 import ConcettoView from './views/Concetto';
 import Allena from './views/Allena';
 import Progressi from './views/Progressi';
+import Originali from './views/Originali';
 
 const NAV = [
   { to: '/', key: '', label: 'Oggi', icon: 'oggi' },
@@ -24,6 +25,7 @@ const NAV = [
   { to: '/cronologia', key: 'cronologia', label: 'Cronologia', icon: 'cronologia' },
   { to: '/glossario', key: 'glossario', label: 'Glossario', icon: 'glossario' },
   { to: '/progressi', key: 'progressi', label: 'Progressi', icon: 'progressi' },
+  { to: '/originali', key: 'originali', label: 'Originali', icon: 'libro' },
 ];
 const TABS = ['', 'percorso', 'allena', 'mappa', 'progressi'];
 
@@ -179,6 +181,7 @@ function Rotte() {
     case 'concetto': return <ConcettoView id={id} />;
     case 'allena': return <Allena query={query} />;
     case 'progressi': return <Progressi />;
+    case 'originali': return <Originali />;
     default: return <div className="empty"><h3>Pagina non trovata</h3><a className="btn" href={href('/')}>Torna a Oggi</a></div>;
   }
 }

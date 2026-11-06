@@ -95,16 +95,21 @@ function useZoom(svgRef: React.RefObject<SVGSVGElement>, gRef: React.RefObject<S
   useEffect(() => {
     if (!svgRef.current || !gRef.current) return;
     const surface = select(svgRef.current);
-    const z = zoom<SVGSVGElement, unknown>().scaleExtent([minZoom, 4]).on('zoom', (e) => {
-      gRef.current?.setAttribute('transform', e.transform.toString());
-      onK?.(e.transform.k);
-    });
+    let inMovimento = false;
+    const z = zoom<SVGSVGElement, unknown>().scaleExtent([minZoom, 4])
+      .on('end.layers', () => { inMovimento = false; surface.attr('data-moving', null); })
+      .on('zoom', (e) => {
+        if (!inMovimento) { inMovimento = true; surface.attr('data-moving', 'true'); }
+        gRef.current?.setAttribute('transform', e.transform.toString());
+        onK?.(e.transform.k);
+      });
     surface.call(z).on('dblclick.zoom', null);
     zRef.current = z;
     return () => {
       // Anche cambiando pagina durante un'animazione, non restano timer o gesti sul vecchio SVG.
       surface.interrupt().on('.zoom', null);
-      z.on('zoom', null);
+      z.on('zoom', null).on('end.layers', null);
+      surface.attr('data-moving', null);
       zRef.current = undefined;
     };
   }, []);
@@ -257,6 +262,7 @@ function MindMap({ uid }: { uid: string }) {
 
 interface GN { id: string; nome: string; tipo: TipoConcetto; grado: number; unita: string[]; x: number; y: number; lines: string[]; labelWidth: number }
 interface GL { source: GN; target: GN; etichetta?: string }
+interface GLayer { ls: GL[]; ns: GN[]; labels: ReturnType<typeof placeGraphLabels> }
 
 const COLORI_TIPO: Partial<Record<TipoConcetto, string>> = {
   persona: '#b8862f', magistratura: '#9a3b2e', organo: '#7d4a8a', gruppo: '#5d7f3a', norma: '#2f6f8f',
@@ -270,7 +276,7 @@ function Grafo({ focus }: { focus: string | null }) {
   const [tipo, setTipo] = useState<string>('');
   const [cerca, setCerca] = useState('');
   const [sel, setSel] = useState<string | null>(focus);
-  const [hover, setHover] = useState<string | null>(null);
+  const [dettaglio, setDettaglio] = useState(false);
   const [colora, setColora] = useState<'padronanza' | 'tipo'>(() => (Object.keys(p.carte).length >= 20 ? 'padronanza' : 'tipo'));
   const svgRef = useRef<SVGSVGElement>(null);
   const gRef = useRef<SVGGElement>(null);
@@ -281,7 +287,7 @@ function Grafo({ focus }: { focus: string | null }) {
     if (lv !== livZoom.current) { livZoom.current = lv; svgRef.current?.setAttribute('data-zoom', String(lv)); }
   }, 0.025);
 
-  const { nodi, links, byId } = useMemo(() => {
+  const { nodi, links, byId, incidenti } = useMemo(() => {
     const grado = new Map<string, number>();
     for (const r of idx.corso.relazioni) { grado.set(r.da, (grado.get(r.da) ?? 0) + 1); grado.set(r.a, (grado.get(r.a) ?? 0) + 1); }
     // Anche i filtri usano le posizioni precalcolate, senza simulazioni nel browser.
@@ -297,7 +303,14 @@ function Grafo({ focus }: { focus: string | null }) {
     const links: GL[] = idx.corso.relazioni
       .filter((r) => byId.has(r.da) && byId.has(r.a))
       .map((r) => ({ source: byId.get(r.da)!, target: byId.get(r.a)!, etichetta: r.etichetta }));
-    return { nodi, links, byId };
+    const incidenti = new Map<string, GL[]>();
+    for (const l of links) {
+      for (const id of new Set([l.source.id, l.target.id])) {
+        const lista = incidenti.get(id) ?? [];
+        lista.push(l); incidenti.set(id, lista);
+      }
+    }
+    return { nodi, links, byId, incidenti };
   }, [idx, unita, tipo]);
 
   const bbox = useMemo(() => {
@@ -330,25 +343,44 @@ function Grafo({ focus }: { focus: string | null }) {
   }, [bbox]);
 
   useEffect(() => {
-    setHover(null);
-    if (sel && !byId.has(sel)) setSel(null);
+    if (sel && !byId.has(sel)) { setSel(null); setDettaglio(false); }
     const t = setTimeout(vistaLeggibile, 40);
     return () => clearTimeout(t);
   }, [nodi]);
-  useEffect(() => { setSel(focus); const f = focus ? byId.get(focus) : null; if (f) centra(f.x, f.y, 1); }, [focus]);
+  useEffect(() => { setSel(focus); setDettaglio(false); const f = focus ? byId.get(focus) : null; if (f) centra(f.x, f.y, 1); }, [focus]);
 
-  const attivo = hover ?? sel;
-  const vicini = useMemo(() => {
+  const attivo = sel && byId.has(sel) ? sel : null;
+  const seleziona = (id: string) => { if (byId.has(id)) { setSel(id); setDettaglio(false); } };
+  const esci = () => { setSel(null); setDettaglio(false); };
+
+  // Il posizionamento delle frasi non dipende da colori, ricerca o zoom.
+  // Gli strati già visitati si riutilizzano; la cache è limitata alla vista corrente.
+  const cerchi = useMemo(() => nodi.map((n) => {
+    const r = graphNodeRadius(n.grado) + 6;
+    return { x: n.x - r, y: n.y - r, width: r * 2, height: r * 2 };
+  }), [nodi]);
+  const strati = useMemo(() => new Map<string, GLayer>(), [nodi, links]);
+  const strato = useMemo(() => {
     if (!attivo) return null;
-    const s = new Set([attivo]);
-    for (const l of links) { if (l.source.id === attivo) s.add(l.target.id); if (l.target.id === attivo) s.add(l.source.id); }
-    return s;
-  }, [attivo, links]);
+    const pronto = strati.get(attivo);
+    if (pronto) return pronto;
+    const ls = incidenti.get(attivo) ?? [];
+    const ids = new Set([attivo, ...ls.flatMap((l) => [l.source.id, l.target.id])]);
+    const ns = [...ids].map((id) => byId.get(id)!);
+    const obstacles = [...cerchi, ...ns.map((n) => ({ x: n.x - n.labelWidth / 2 - 8, y: n.y + graphNodeRadius(n.grado), width: n.labelWidth + 16, height: 16 + n.lines.length * GRAPH_LABEL_LINE }))];
+    const labels = placeGraphLabels(ls.flatMap((l, i) => l.etichetta ? [{ id: i, text: l.etichetta, source: l.source, target: l.target }] : []), obstacles);
+    const nuovo = { ls, ns, labels };
+    if (strati.size >= 32) strati.delete(strati.keys().next().value!);
+    strati.set(attivo, nuovo);
+    return nuovo;
+  }, [attivo, strati, incidenti, byId, cerchi]);
 
+  const progressoColori = colora === 'padronanza' ? p : null;
   const livelli = useMemo(() => new Map(nodi.map((n) => {
-    const m = padronanza(p, idx.domandePerConcetto.get(n.id));
+    if (!progressoColori) return [n.id, 'ignoto'];
+    const m = padronanza(progressoColori, idx.domandePerConcetto.get(n.id));
     return [n.id, m.totali ? livello(m.valore, m.viste) : 'ignoto'];
-  })), [nodi, p]);
+  })), [nodi, progressoColori, idx]);
 
   const risultati = useMemo(() => {
     const q = norm(cerca);
@@ -360,35 +392,27 @@ function Grafo({ focus }: { focus: string | null }) {
   const raggio = (n: GN) => graphNodeRadius(n.grado);
   const colore = (n: GN) => (colora === 'tipo' ? (COLORI_TIPO[n.tipo] ?? '#888') : colLv[livelli.get(n.id) ?? 'ignoto']);
 
-  // strato di base: tutti i nodi e i collegamenti, ridisegnato solo quando cambiano dati, colori o selezione
-  const base = useMemo(() => (
+  // La selezione non ricrea gli elementi della mappa di base.
+  const lineeBase = useMemo(() => links.map((l, i) => <line key={i} className="g-link" x1={l.source.x} y1={l.source.y} x2={l.target.x} y2={l.target.y} />), [links]);
+  const nodiBase = useMemo(() => (
     <>
-      {links.map((l, i) => <line key={i} className="g-link" x1={l.source.x} y1={l.source.y} x2={l.target.x} y2={l.target.y} />)}
       {nodi.map((n) => (
         <g key={n.id} className="g-node" transform={`translate(${n.x},${n.y})`}
-          role="button" tabIndex={0} aria-label={n.nome}
-          onMouseEnter={() => setHover(n.id)} onMouseLeave={() => setHover(null)}
-          onFocus={() => setHover(n.id)} onBlur={() => setHover(null)}
-          onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setSel(n.id); } }}
-          onClick={(e) => { e.stopPropagation(); setSel(n.id); }}>
+          role="button" tabIndex={0} aria-label={n.nome} data-concept={n.id}>
           <title>{n.nome}</title>
-          <circle r={raggio(n)} fill={colore(n)} stroke={n.id === sel ? 'var(--ink)' : 'var(--surface)'} strokeWidth={n.id === sel ? 3 : 1.5} />
+          <circle r={raggio(n)} fill={colore(n)} stroke="var(--surface)" strokeWidth={1.5} />
           <text className={`lbl l${n.grado >= 6 ? 0 : n.grado >= 3 ? 1 : 2}`} textAnchor="middle">
             {n.lines.map((line, i) => <tspan key={i} x={0} y={raggio(n) + 12 + i * GRAPH_LABEL_LINE}>{line}</tspan>)}
           </text>
         </g>
       ))}
     </>
-  ), [nodi, links, colora, livelli, sel]);
+  ), [nodi, colora, livelli]);
 
-  // strato sopra: solo il concetto attivo e i suoi vicini, ridisegnato al passaggio del mouse (pochi elementi)
+  // Strato selezionato: resta fermo anche quando il cursore incontra altri concetti.
   const sopra = useMemo(() => {
-    if (!attivo || !vicini) return null;
-    const ls = links.filter((l) => l.source.id === attivo || l.target.id === attivo);
-    const ns = nodi.filter((n) => vicini.has(n.id));
-    const obstacles = nodi.map((n) => ({ x: n.x - raggio(n) - 6, y: n.y - raggio(n) - 6, width: (raggio(n) + 6) * 2, height: (raggio(n) + 6) * 2 }));
-    obstacles.push(...ns.map((n) => ({ x: n.x - n.labelWidth / 2 - 8, y: n.y + raggio(n), width: n.labelWidth + 16, height: 16 + n.lines.length * GRAPH_LABEL_LINE })));
-    const labels = placeGraphLabels(ls.flatMap((l, i) => l.etichetta ? [{ id: i, text: l.etichetta, source: l.source, target: l.target }] : []), obstacles);
+    if (!attivo || !strato) return null;
+    const { ls, ns, labels } = strato;
     return (
       <g className="g-over">
         {ls.map((l, i) => {
@@ -404,7 +428,7 @@ function Grafo({ focus }: { focus: string | null }) {
           <text textAnchor="middle">{label.lines.map((line, i) => <tspan key={i} x={label.x} y={label.y - label.height / 2 + 17 + i * 14}>{line}</tspan>)}</text>
         </g>)}
         {ns.map((n) => (
-          <g key={n.id} className="g-node" transform={`translate(${n.x},${n.y})`}>
+          <g key={n.id} className="g-node" data-concept={n.id} transform={`translate(${n.x},${n.y})`}>
             <circle r={raggio(n)} fill={colore(n)} stroke={n.id === sel ? 'var(--ink)' : 'var(--surface)'} strokeWidth={n.id === sel ? 3 : 1.5} />
             <text textAnchor="middle" style={{ fontWeight: n.id === attivo ? 700 : 500 }}>
               {n.lines.map((line, i) => <tspan key={i} x={0} y={raggio(n) + 12 + i * GRAPH_LABEL_LINE}>{line}</tspan>)}
@@ -413,18 +437,20 @@ function Grafo({ focus }: { focus: string | null }) {
         ))}
       </g>
     );
-  }, [attivo, vicini, links, nodi, colora, livelli, sel]);
+  }, [attivo, strato, colora, livelli]);
   const tipiPresenti = [...new Set(idx.corso.concetti.map((c) => c.tipo))];
 
   return (
-    <div className="map-shell graph-shell">
+    <div className="map-shell graph-shell" data-mode={attivo ? 'collegamenti' : 'mappa'} onKeyDown={(e) => {
+      if (e.key === 'Escape') { e.stopPropagation(); if (cerca) setCerca(''); else esci(); }
+    }}>
       <div className="map-tools">
         <div style={{ position: 'relative' }}>
           <input className="input" placeholder="Trova un concetto…" value={cerca} onChange={(e) => setCerca(e.target.value)} style={{ width: 210 }} />
           {risultati.length > 0 && (
             <div className="card" style={{ position: 'absolute', top: 44, left: 0, width: 260, padding: 6, zIndex: 5 }}>
               {risultati.map((n) => (
-                <button key={n.id} className="palette-item" onClick={() => { setSel(n.id); centra(n.x, n.y, 1); setCerca(''); }}>{n.nome}</button>
+                <button key={n.id} className="palette-item" onClick={() => { seleziona(n.id); centra(n.x, n.y, 1); setCerca(''); }}>{n.nome}</button>
               ))}
             </div>
           )}
@@ -446,28 +472,53 @@ function Grafo({ focus }: { focus: string | null }) {
         </div>
       </div>
       {nodi.length === 0 && <div className="graph-empty" role="status">Nessun concetto con questi filtri.</div>}
-      <svg ref={svgRef} data-zoom="1" onClick={(e) => { if (e.target === svgRef.current) setSel(null); }}>
+      <svg ref={svgRef} data-zoom="1" onClick={(e) => {
+        const nodo = (e.target as Element).closest<SVGGElement>('[data-concept]');
+        if (nodo?.dataset.concept) seleziona(nodo.dataset.concept);
+        else if (e.target === svgRef.current) esci();
+      }} onKeyDown={(e) => {
+        const nodo = (e.target as Element).closest<SVGGElement>('[data-concept]');
+        if (nodo?.dataset.concept && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); seleziona(nodo.dataset.concept); }
+      }}>
         <defs>
           <marker id="graph-arrow" viewBox="0 0 8 8" refX={7} refY={4} markerWidth={5} markerHeight={5} orient="auto">
             <path d="M0 0L8 4L0 8Z" fill="var(--accent)" />
           </marker>
         </defs>
         <g ref={gRef}>
-          <g className={attivo ? 'g-base dim' : 'g-base'}>{base}</g>
+          <g className={attivo ? 'g-base dim' : 'g-base'}>
+            <g className="g-base-links">{lineeBase}</g>
+            <g className="g-base-nodes">{nodiBase}</g>
+          </g>
           {sopra}
         </g>
       </svg>
-      <div className="map-legend">
-        <span className="faint">{nodi.length} concetti · {links.length} collegamenti</span>
-        {colora === 'padronanza' ? (
-          <>
-            <span className="row" style={{ gap: 5 }}><span className="dot lv-forte" /> lo sai</span>
-            <span className="row" style={{ gap: 5 }}><span className="dot lv-medio" /> così così</span>
-            <span className="row" style={{ gap: 5 }}><span className="dot lv-debole" /> da ripassare</span>
-          </>
-        ) : tipiPresenti.slice(0, 7).map((t) => <span key={t} className="row" style={{ gap: 5 }}><span className="dot" style={{ background: COLORI_TIPO[t] }} /> {TIPI_CONCETTO[t]}</span>)}
+      <div className="graph-footer">
+        <div className="graph-mode-bar">
+          {attivo ? <>
+            <span role="status">Collegamenti di <b>{byId.get(attivo)!.nome}</b></span>
+            <span className="row" style={{ gap: 5 }}>
+              <button className="btn btn-sm" onClick={() => setDettaglio((v) => !v)} aria-expanded={dettaglio}>Dettagli</button>
+              <button className="btn btn-sm" onClick={esci}>Torna alla mappa</button>
+            </span>
+          </> : <span className="muted">Clicca un punto per esplorare i suoi collegamenti.</span>}
+        </div>
+        <div className="map-legend">
+          <span className="faint">{nodi.length} concetti · {links.length} collegamenti</span>
+          {colora === 'padronanza' ? (
+            <>
+              <span className="row" style={{ gap: 5 }}><span className="dot lv-forte" /> lo sai</span>
+              <span className="row" style={{ gap: 5 }}><span className="dot lv-medio" /> così così</span>
+              <span className="row" style={{ gap: 5 }}><span className="dot lv-debole" /> da ripassare</span>
+            </>
+          ) : tipiPresenti.slice(0, 7).map((t) => <span key={t} className="row" style={{ gap: 5 }}><span className="dot" style={{ background: COLORI_TIPO[t] }} /> {TIPI_CONCETTO[t]}</span>)}
+        </div>
       </div>
-      {sel && <PannelloConcetto id={sel} onClose={() => { setSel(null); setHover(null); }} onFocus={(c) => { setSel(c); const f = byId.get(c); if (f) centra(f.x, f.y, 1); }} />}
+      {attivo && dettaglio && <PannelloConcetto id={attivo} onClose={() => setDettaglio(false)} onFocus={(c) => {
+        if (!byId.has(c)) { setUnita(''); setTipo(''); }
+        setSel(c);
+        const f = byId.get(c); if (f) centra(f.x, f.y, 1);
+      }} />}
     </div>
   );
 }
