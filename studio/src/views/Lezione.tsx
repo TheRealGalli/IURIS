@@ -3,7 +3,7 @@ import { useCorso } from '../lib/data';
 import { renderMd } from '../lib/md';
 import { href } from '../lib/router';
 import { ETICHETTA_STATO, padronanza, statoLezione } from '../lib/srs';
-import { aggiungiTempo, apriLezione, segnaStudiata, useProgresso } from '../lib/store';
+import { aggiungiTempo, apriLezione, DOMANDE_VERIFICA_INIZIALE, segnaStudiata, useProgresso } from '../lib/store';
 import { useConceptPop } from '../components/ConceptPop';
 import { Icon, LivelloDot, Pagine } from '../components/ui';
 
@@ -115,7 +115,7 @@ export default function LezioneView({ id }: { id: string }) {
 
         <aside className="lesson-aside">
           <div className="card stack" style={{ gap: 10 }}>
-            <button className={`btn btn-lg ${studiata ? 'btn-ok' : 'btn-primary'}`} onClick={() => segnaStudiata(slug, l.id, !studiata)}>
+            <button className={`btn btn-lg ${studiata ? 'btn-ok' : 'btn-primary'}`} onClick={() => segnaStudiata(slug, l.id, !studiata, qs.map((q) => q.id))}>
               <Icon n="check" size={18} stroke={2.4} /> {studiata ? 'Studiata' : 'Segna come studiata'}
             </button>
             <a className="btn" href={href(`/allena?l=${l.id}`)}><Icon n="allena" size={16} /> Quiz su questa lezione</a>
@@ -125,7 +125,7 @@ export default function LezioneView({ id }: { id: string }) {
                 <LivelloDot valore={m.valore} viste={m.viste} /> Padronanza {Math.round((m.valore ?? 0) * 100)}% · {m.viste}/{m.totali} domande viste
               </div>
             )}
-            {!studiata && <div className="faint tiny">Quando la segni come studiata, le sue {qs.length} domande entrano nel ripasso di oggi.</div>}
+            {!studiata && <div className="faint tiny">Quando la segni come studiata, le sue {qs.length} domande entrano nel programma di ripasso: fino a {DOMANDE_VERIFICA_INIZIALE} subito, anche oltre il limite giornaliero. Le altre verranno introdotte nei giorni successivi.</div>}
           </div>
           {concetti.length > 0 && (
             <div className="card">

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useCorso, type Indice } from '../lib/data';
 import { href, vai } from '../lib/router';
 import { padronanzaDomanda, registraRisposta, ripassoDiOggi, type Voto } from '../lib/srs';
-import { useProgresso, type Progresso } from '../lib/store';
+import { DOMANDE_VERIFICA_INIZIALE, useProgresso, type Progresso } from '../lib/store';
 import { TIPI_DOMANDA, type Domanda, type TipoDomanda } from '../lib/types';
 import { fmtAnno, plurale, shuffle } from '../lib/util';
 import { Bar, Icon } from '../components/ui';
@@ -24,6 +24,17 @@ function leggiSalvata(slug: string): Salvata | null {
 }
 function scriviSalvata(slug: string, x: Salvata | null) {
   try { if (x) localStorage.setItem(chiaveSessione(slug), JSON.stringify(x)); else localStorage.removeItem(chiaveSessione(slug)); } catch { /* senza storage non si riprende, pazienza */ }
+}
+
+/** Integra le verifiche delle nuove lezioni senza perdere il punto del ripasso in sospeso. */
+export function integraRipasso(salvata: Salvata, disponibili: Domanda[]): Salvata {
+  if (salvata.s.titolo !== 'Ripasso del giorno') return salvata;
+  const presenti = new Set(salvata.coda.map((q) => q.id));
+  const aggiunte = disponibili.filter((q) => {
+    if (presenti.has(q.id)) return false;
+    presenti.add(q.id); return true;
+  });
+  return aggiunte.length ? { ...salvata, s: { ...salvata.s, domande: [...salvata.s.domande, ...aggiunte] }, coda: [...salvata.coda, ...aggiunte] } : salvata;
 }
 
 const MODI: { k: Modo; t: string; d: string; icon: string }[] = [
@@ -49,7 +60,11 @@ export default function Allena({ query }: { query: URLSearchParams }) {
   useEffect(() => {
     const salvata = leggiSalvata(slug);
     // stessa pagina di prima (per esempio dopo un ricaricamento): si riprende la sessione interrotta
-    if (salvata && salvata.origine === origine) { avvia(salvata.s, salvata); return; }
+    if (salvata && salvata.origine === origine) {
+      const r = ripassoDiOggi(idx, p);
+      const aggiornata = integraRipasso(salvata, [...r.scadute, ...shuffle(r.nuove)]);
+      avvia(aggiornata.s, aggiornata); return;
+    }
     setInSospeso(salvata);
     setRipresa(null);
     const l = query.get('l'), u = query.get('u'), c = query.get('c'), modo = query.get('modo') as Modo | null;
@@ -186,9 +201,19 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
         </div>
       )}
 
+      {modo === 'ripasso' && (
+        <div className="card-flat small" style={{ marginBottom: 16 }}>
+          <b>{p.nuovePerGiorno} nuove al giorno per questa materia.</b> I ripassi in scadenza si aggiungono senza questo limite.
+          <div className="muted" style={{ marginTop: 5 }}>Ogni lezione appena studiata può aggiungere fino a {DOMANDE_VERIFICA_INIZIALE} domande di verifica, anche a limite raggiunto.
+            {rip.extraNuove > 0 && ` Oggi ce ne sono ${rip.extraNuove} in più.`}
+          </div>
+          {rip.inAttesa > 0 && <div className="muted" style={{ marginTop: 5 }}>{rip.inAttesa} nuove restano da introdurre nei prossimi giorni. Puoi anticiparle con «Quiz libero» o «Quiz su questa lezione».</div>}
+        </div>
+      )}
+
       <div className="row-between" style={{ marginTop: 20 }}>
         <span className="muted small">
-          {modo === 'ripasso' && (nRip ? `${rip.scadute.length} da ripassare · ${rip.nuove.length} nuove` : 'Niente in scadenza: segna come studiata una lezione per far entrare le sue domande.')}
+          {modo === 'ripasso' && (nRip ? `${rip.scadute.length} da ripassare · ${rip.nuove.length} nuove${rip.extraNuove ? ` (${rip.extraNuove} di verifica oltre il limite)` : ''}` : rip.inAttesa ? 'Limite delle nuove raggiunto per oggi. Le altre rimangono in attesa.' : 'Niente in scadenza: segna come studiata una lezione per far entrare le sue domande.')}
           {modo === 'deboli' && (pool.length ? `${pool.length} domande deboli` : 'Ancora nessuna domanda debole: prima rispondi a qualche quiz.')}
           {(modo === 'libero' || modo === 'orale') && `${pool.length} domande disponibili`}
           {modo === 'inverse' && `${pool.length} schede inverse disponibili`}

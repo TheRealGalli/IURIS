@@ -2,8 +2,8 @@
 import { createEmptyCard, fsrs, Rating, type Card, type Grade } from 'ts-fsrs';
 import type { Indice } from './data';
 import type { Domanda, Lezione } from './types';
-import { aggiorna, giornoDi, haAttivita, type CartaSalvata, type Progresso } from './store';
-import { giorniTra, oggiISO } from './util';
+import { aggiorna, DOMANDE_VERIFICA_INIZIALE, giornoDi, haAttivita, type CartaSalvata, type Progresso } from './store';
+import { giorniTra, isoDi, oggiISO } from './util';
 
 export { Rating };
 export type Voto = Grade; // 1 di nuovo · 2 difficile · 3 bene · 4 facile
@@ -19,16 +19,19 @@ const daSalvare = (c: Card): CartaSalvata => ({
   ...c, due: c.due.toISOString(), last_review: c.last_review?.toISOString(),
 });
 
-export function registraRisposta(slug: string, domanda: string, voto: Voto) {
-  const now = new Date();
+export function registraRisposta(slug: string, domanda: string, voto: Voto, now = new Date()) {
   aggiorna(slug, (p) => {
-    const prima = p.carte[domanda] ? daSalvata(p.carte[domanda]) : createEmptyCard(now);
+    const salvata = p.carte[domanda];
+    const prima = salvata ? daSalvata(salvata) : createEmptyCard(now);
+    // La prima introduzione rimane stabile anche dopo più ripetizioni nello stesso giorno.
+    // Per le vecchie carte con una sola risposta conosciamo ancora quella data.
+    const introdotta = salvata?.introdotta ?? (!salvata ? now.toISOString() : salvata.reps === 1 ? p.esiti[domanda]?.quando : undefined);
     const { card } = scheduler.next(prima, now, voto);
-    p.carte[domanda] = daSalvare(card);
+    p.carte[domanda] = { ...daSalvare(card), ...(introdotta ? { introdotta } : {}) };
     const e = p.esiti[domanda] ?? { ultimo: voto, n: 0, giuste: 0, quando: '' };
     e.ultimo = voto; e.n += 1; if (voto >= 3) e.giuste += 1; e.quando = now.toISOString();
     p.esiti[domanda] = e;
-    const g = giornoDi(p);
+    const g = giornoDi(p, isoDi(now));
     g.risposte += 1; if (voto >= 3) g.corrette += 1;
   });
 }
@@ -91,11 +94,25 @@ export function pagineStudiate(idx: Indice, p: Progresso): number {
 export function ripassoDiOggi(idx: Indice, p: Progresso, now = new Date()) {
   const scadute: Domanda[] = [];
   const nuove: Domanda[] = [];
-  const oggi = oggiISO();
+  const oggi = isoDi(now);
+  const giorno = (data?: string) => {
+    if (!data) return null;
+    const d = new Date(data);
+    return Number.isFinite(d.getTime()) ? isoDi(d) : null;
+  };
   const nuoveFatteOggi = Object.entries(p.carte)
-    .filter(([id, c]) => c.reps === 1 && p.esiti[id]?.quando.startsWith(oggi)).length;
+    .filter(([id, c]) => giorno(c.introdotta ?? (c.reps === 1 ? p.esiti[id]?.quando : undefined)) === oggi).length;
+  const verificaOggi = new Set<string>();
   for (const l of idx.lezioni) {
-    const qs = idx.domandePerLezione.get(l.id) ?? [];
+    const qs = (idx.domandePerLezione.get(l.id) ?? []).filter((q) => !q.inversa);
+    const lezione = p.lezioni[l.id];
+    if (lezione?.studiata) {
+      const verifica = lezione.verificaIniziale;
+      // Compatibilità con le lezioni segnate oggi prima dell'introduzione della riserva.
+      const ids = verifica ? verifica.giorno === oggi ? verifica.domande : []
+        : giorno(lezione.studiata) === oggi ? qs.slice(0, DOMANDE_VERIFICA_INIZIALE).map((q) => q.id) : [];
+      for (const id of ids) verificaOggi.add(id);
+    }
     for (const q of qs) {
       const c = p.carte[q.id];
       if (c) { if (new Date(c.due) <= now) scadute.push(q); }
@@ -111,7 +128,12 @@ export function ripassoDiOggi(idx: Indice, p: Progresso, now = new Date()) {
   const peso = (q: Domanda) => ({ voto: p.esiti[q.id]?.ultimo ?? 3, r: scheduler.retrievability(daSalvata(p.carte[q.id]), now) as number });
   scadute.sort((a, b) => { const x = peso(a), y = peso(b); return x.voto - y.voto || x.r - y.r; });
   const limite = Math.max(0, p.nuovePerGiorno - nuoveFatteOggi);
-  return { scadute, nuove: nuove.slice(0, limite), nuoveTotali: nuove.length };
+  const ordinarie = nuove.slice(0, limite);
+  const incluse = new Set(ordinarie.map((q) => q.id));
+  const extra = nuove.filter((q) => verificaOggi.has(q.id) && !incluse.has(q.id));
+  const selezionate = [...ordinarie, ...extra];
+  return { scadute, nuove: selezionate, nuoveTotali: nuove.length,
+    nuoveFatteOggi, extraNuove: extra.length, inAttesa: nuove.length - selezionate.length };
 }
 
 export function prossimaScadenza(p: Progresso): Date | null {

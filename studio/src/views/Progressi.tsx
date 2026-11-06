@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { useCorso } from '../lib/data';
 import { href } from '../lib/router';
 import { livello, padronanza, pagineStudiate, prossimaScadenza, serieGiorni } from '../lib/srs';
-import { azzera, esporta, haAttivita, importa, impostaEsame, impostaNuove, scriviPref, usePref, useProgresso } from '../lib/store';
+import { azzera, DOMANDE_VERIFICA_INIZIALE, esporta, haAttivita, importa, impostaEsame, impostaNuove, scriviPref, usePref, useProgresso } from '../lib/store';
 import { TIPI_DOMANDA, type TipoDomanda } from '../lib/types';
 import { fmtData, fmtMinuti, isoDi, oggiISO } from '../lib/util';
 import { Bar, Calendario, Icon, LivelloDot, useToast } from '../components/ui';
@@ -163,6 +163,7 @@ export default function Progressi() {
               {[10, 15, 25, 40, 60, 100].map((n) => <option key={n} value={n}>{n}</option>)}
             </select>
           </label>
+          <p className="faint tiny" style={{ margin: 0 }}>Il limite delle nuove vale per questa materia e si rinnova ogni giorno. I ripassi in scadenza sono sempre inclusi; ogni lezione appena studiata può aggiungere fino a {DOMANDE_VERIFICA_INIZIALE} domande di verifica.</p>
           <label className="row-between small">Tema
             <select className="select" value={pref.tema ?? 'auto'} onChange={(e) => scriviPref({ tema: e.target.value as 'auto' | 'chiaro' | 'scuro' })}>
               <option value="auto">Automatico</option><option value="chiaro">Chiaro</option><option value="scuro">Scuro</option>

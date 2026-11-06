@@ -51,7 +51,7 @@ export default function Oggi() {
           </div>
         </div>
 
-        <a className="card cta-card" href={href(nRip ? '/allena?modo=ripasso' : '/percorso')} style={{ background: nRip ? 'var(--ink)' : undefined, color: nRip ? 'var(--bg)' : undefined }}>
+        <a className="card cta-card" href={href(nRip ? '/allena?modo=ripasso' : rip.inAttesa ? '/allena?modo=libero' : '/percorso')} style={{ background: nRip ? 'var(--ink)' : undefined, color: nRip ? 'var(--bg)' : undefined }}>
           <div className="row-between">
             <span className="eyebrow" style={{ color: nRip ? 'color-mix(in srgb, var(--bg) 65%, transparent)' : undefined }}>Ripasso di oggi</span>
             <Icon n="allena" size={22} />
@@ -62,14 +62,15 @@ export default function Oggi() {
               <div style={{ opacity: .75 }} className="small">
                 {rip.scadute.length > 0 && `${rip.scadute.length} da ripassare`}{rip.scadute.length > 0 && rip.nuove.length > 0 && ' · '}
                 {rip.nuove.length > 0 && `${rip.nuove.length} nuove dalle lezioni studiate`}
+                {rip.extraNuove > 0 && <div>{rip.extraNuove} di verifica sulle lezioni di oggi, oltre il limite</div>}
               </div>
               <span className="btn btn-accent" style={{ alignSelf: 'flex-start', marginTop: 'auto' }}>Inizia il ripasso <Icon n="freccia" size={16} /></span>
             </>
           ) : (
             <>
-              <div className="title-m">Niente in scadenza</div>
-              <div className="muted small">Le domande entrano nel ripasso quando segni una lezione come studiata.{idx.schedeInverse.length > 0 && ' Le schede inverse entrano dopo la prima risposta.'} Poi l'algoritmo decide quando riproportele.</div>
-              <span className="btn" style={{ alignSelf: 'flex-start', marginTop: 'auto' }}>Vai al percorso <Icon n="freccia" size={16} /></span>
+              <div className="title-m">{rip.inAttesa ? 'Nuove domande da domani' : 'Niente in scadenza'}</div>
+              <div className="muted small">{rip.inAttesa ? `Hai raggiunto il limite di ${p.nuovePerGiorno} nuove per oggi. ${rip.inAttesa} restano in attesa e verranno introdotte nei prossimi giorni. Le nuove lezioni hanno comunque una verifica immediata.` : <>Le domande entrano nel ripasso quando segni una lezione come studiata.{idx.schedeInverse.length > 0 && ' Le schede inverse entrano dopo la prima risposta.'} Poi l'algoritmo decide quando riproportele.</>}</div>
+              <span className="btn" style={{ alignSelf: 'flex-start', marginTop: 'auto' }}>{rip.inAttesa ? 'Continua con Quiz libero' : 'Vai al percorso'} <Icon n="freccia" size={16} /></span>
             </>
           )}
           {oggi && <div className="tiny" style={{ opacity: .7 }}>Oggi: {oggi.risposte} risposte · {oggi.lette} lezioni · {fmtMinuti(oggi.secondi)}</div>}

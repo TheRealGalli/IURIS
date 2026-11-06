@@ -3,7 +3,9 @@ import { useSyncExternalStore } from 'react';
 import type { Card } from 'ts-fsrs';
 import { isoDi, oggiISO } from './util';
 
-export type CartaSalvata = Omit<Card, 'due' | 'last_review'> & { due: string; last_review?: string };
+export type CartaSalvata = Omit<Card, 'due' | 'last_review'> & { due: string; last_review?: string; introdotta?: string };
+
+export const DOMANDE_VERIFICA_INIZIALE = 6;
 
 export interface Giorno { lette: number; risposte: number; corrette: number; secondi: number }
 
@@ -11,7 +13,7 @@ export const haAttivita = (g?: Giorno) => !!g && (g.lette > 0 || g.risposte > 0 
 
 export interface Progresso {
   versione: 1;
-  lezioni: Record<string, { studiata?: string; letta?: string }>;
+  lezioni: Record<string, { studiata?: string; letta?: string; verificaIniziale?: { giorno: string; domande: string[] } }>;
   carte: Record<string, CartaSalvata>;
   esiti: Record<string, { ultimo: number; n: number; giuste: number; quando: string }>;
   giorni: Record<string, Giorno>;
@@ -57,12 +59,20 @@ export function giornoDi(p: Progresso, iso = oggiISO()): Giorno {
   return p.giorni[iso] ?? (p.giorni[iso] = { lette: 0, risposte: 0, corrette: 0, secondi: 0 });
 }
 
-export function segnaStudiata(slug: string, lezione: string, studiata: boolean) {
+export function segnaStudiata(slug: string, lezione: string, studiata: boolean, domande: string[] = [], now = new Date()) {
   aggiorna(slug, (p) => {
     const l = p.lezioni[lezione] ?? (p.lezioni[lezione] = {});
     if (studiata) {
-      if (!l.studiata) giornoDi(p).lette += 1;
-      l.studiata = new Date().toISOString();
+      if (!l.studiata) {
+        giornoDi(p, isoDi(now)).lette += 1;
+        // Una piccola verifica fissa: rispondere non fa scorrere la riserva sulle domande successive.
+        // Togliere e rimettere «Studiata» non genera altre domande extra.
+        if (!l.verificaIniziale) l.verificaIniziale = {
+          giorno: isoDi(now),
+          domande: [...new Set(domande)].filter((id) => !p.carte[id]).slice(0, DOMANDE_VERIFICA_INIZIALE),
+        };
+      }
+      l.studiata = now.toISOString();
     } else delete l.studiata;
   });
 }
