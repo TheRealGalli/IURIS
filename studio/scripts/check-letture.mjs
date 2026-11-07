@@ -93,6 +93,19 @@ try {
     const doppio = { ...b, testo: 'Parliamo per esempio di epigrafi. Ancora: Parliamo per esempio di epigrafi.' };
     assert.equal(lib.proiettaSegnoTesto(s, [doppio], 1).stato, 'da-verificare', 'ambiguo: resta da verificare');
   });
+  await check('Un punto numerato scritto in linea che diventa voce d’elenco (il numero esce dal testo) conserva il segno', () => {
+    const b = blocco('3- Diritto comune: un corpo di dottrine. 4- Diritto romano come pandettistica: in Germania nel 18 sec. 5- Diritto romano come romanistico: studio storico.');
+    const i = b.testo.indexOf('4- Diritto'), ancora = lib.creaAncoraTesto(b, i, b.testo.indexOf('18 sec.') + 7, 1);
+    const s = { ...legacy(ancora.citazione), rettangoli: [], ancoreTesto: [ancora] };
+    const nuovo = { ...b, testo: 'Diritto comune: un corpo di dottrine.\nDiritto romano come pandettistica: in Germania nel 18 sec.\nDiritto romano come romanistico: studio storico.' };
+    const p = lib.proiettaSegnoTesto(s, [nuovo], 1);
+    assert.equal(p.stato, 'proiettato'); assert.equal(p.ancore[0].citazione, 'Diritto romano come pandettistica: in Germania nel 18 sec.');
+    // Blocco cambiato del tutto: la mappa cerca la citazione (o il suo tratto più lungo) in tutta la sezione.
+    const altrove = { id: 'p001-b009', pagina: 1, testo: 'Premessa. Diritto romano come pandettistica: in Germania nel 18 sec. con altre parole.' };
+    const r = lib.ritrovaNellaSezione(ancora.citazione, [nuovo, altrove].slice(1), 1);
+    assert.equal(r[0].blocco, 'p001-b009');
+    assert.equal(lib.ritrovaNellaSezione('parole che non ci sono da nessuna parte del testo', [nuovo], 1), null);
+  });
   await check('Le parti di un segno in un’altra sezione restano conservate e vengono riconosciute', () => {
     const a = blocco('Prima pagina.', 1), b = blocco('Quarta pagina.', 4);
     const s = { ...legacy('Prima pagina. Quarta pagina.'), rettangoli: [], ancoreTesto: [lib.creaAncoraTesto(a, 0, a.testo.length, 1), lib.creaAncoraTesto(b, 0, b.testo.length, 1)] };

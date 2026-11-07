@@ -13,7 +13,7 @@
     "check:build": "node scripts/check-build.mjs && node scripts/check-graph-layout.mjs && npm run check:review && npm run check:originali && npm run check:backup && npm run check:letture",
     "check:review": "node scripts/check-review-plan.mjs && node scripts/check-statistiche.mjs && node scripts/check-domande.mjs",
     "check:originali": "node scripts/check-originali.mjs",
-    "check:letture": "node scripts/check-estrazione-letture.mjs && node scripts/check-letture.mjs && node scripts/check-ordine-segni.mjs && node scripts/check-mappa-geometrica.mjs && node scripts/check-letture-selection.mjs",
+    "check:letture": "node scripts/check-estrazione-letture.mjs && node scripts/check-letture.mjs && node scripts/check-ordine-segni.mjs && node scripts/check-mappa-geometrica.mjs && node scripts/check-mappa-corpus.mjs && node scripts/check-letture-selection.mjs",
     "check:backup": "node scripts/check-backup.mjs",
     "preview": "vite preview",
     "studio": "npm run build && vite preview"

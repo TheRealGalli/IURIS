@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useCorso } from './data';
 import { useProgresso } from './store';
-import { proiettaSegnoTesto, type SezioneLettura } from './letture';
+import { proiettaSegnoTesto, ritrovaNellaSezione, type SezioneLettura } from './letture';
 import { caricaSezioneLettura, DOCUMENTI_LETTURA, paginaBlocco, preparaBlocchi, sezionePerPagina } from './letture-client';
-import { alberoGeometrico, etichetteConcetto, semanticaGeometrica, strutturaBlocco, type NodoGeo, type SegnoGeo, type SemanticaGeo } from './mappa-geometrica';
+import { alberoGeometrico, daRicollocare, etichetteConcetto, semanticaGeometrica, strutturaBlocco, type NodoGeo, type SegnoGeo, type SemanticaGeo } from './mappa-geometrica';
 import type { SegnoOriginale } from './originali';
 
 /** Carica solo i capitoli che contengono annotazioni: il corpus non entra nel grafo intero. */
@@ -62,12 +62,21 @@ export function useMappaGeometrica() {
       return doc.sezioni.flatMap((meta) => {
         const blocchi = modelli.get(meta.file), unita = strutture.get(meta.file);
         if (!blocchi || !unita) return [];
-        const geo: SegnoGeo[] = segni.filter((s) => s.ancoreTesto?.length && pagineSegno(s).some((pg) => pg >= meta.da && pg <= meta.a)).flatMap((s) => {
+        // Ogni segno della lezione compare nella mappa: nel suo punto, ritrovato nella sezione, o in coda «da ricollocare».
+        const persi: { id: string; testo: string; colore: SegnoOriginale['colore']; tipo: SegnoOriginale['tipo']; creata?: string }[] = [];
+        const geo: SegnoGeo[] = segni.filter((s) => pagineSegno(s).some((pg) => pg >= meta.da && pg <= meta.a)).flatMap((s) => {
           const pr = proiettaSegnoTesto(s, blocchi, doc.edizione, meta);
-          return pr.stato === 'proiettato' ? [{ id: s.id, colore: s.colore, tipo: s.tipo, creata: s.creata, ancore: pr.ancore }] : [];
+          if (pr.stato === 'proiettato') return [{ id: s.id, colore: s.colore, tipo: s.tipo, creata: s.creata, ancore: pr.ancore }];
+          if (pr.stato === 'fuori-sezione') return [];
+          const citazione = s.ancoreTesto?.length ? s.ancoreTesto.map((a) => a.citazione).join('\n\n') : s.testo;
+          const ritrovate = ritrovaNellaSezione(citazione, blocchi, doc.edizione);
+          if (ritrovate) return [{ id: s.id, colore: s.colore, tipo: s.tipo, creata: s.creata, ancore: ritrovate }];
+          persi.push({ id: s.id, testo: citazione, colore: s.colore, tipo: s.tipo, creata: s.creata });
+          return [];
         });
-        if (!geo.length) return [];
-        const albero = alberoGeometrico(unita, geo);
+        if (!geo.length && !persi.length) return [];
+        const coda = daRicollocare(persi, meta.a);
+        const albero = alberoGeometrico([...unita, ...coda.unita], [...geo, ...coda.segni]);
         const ids = [...new Set(blocchi.flatMap((b) => b.concetti))].filter((x): x is string => typeof x === "string");
         const concetti = ids.flatMap((id) => { const c = idx.concettoById.get(id); return c ? [{ id, nome: c.nome, etichette: etichetteConcetto(c) }] : []; });
         const lezione = meta.lezione ?? meta.id, unitaLezione = lezione.split('-')[0];
@@ -75,7 +84,7 @@ export function useMappaGeometrica() {
         const relazioni = idx.corso.relazioni.map((r) => ({ ...r, affidabile: coppieDomande.has(`${r.da}|${r.a}`)
           || (r.tipo !== 'collegato' && (r.unita === unitaLezione || (dellaLezione(r.da) && dellaLezione(r.a)))) }));
         const semantica = semanticaGeometrica(albero.radici, concetti, relazioni);
-        geo.forEach((g) => visti.add(`${doc.id}:${g.id}`));
+        [...geo, ...coda.segni].forEach((g) => visti.add(`${doc.id}:${g.id}`));
         return albero.radici.length ? [{ chiave: `${doc.id}/${meta.id}`, documento: doc.id, docTitolo: doc.titolo, sezione: meta.id, titolo: meta.titolo, da: meta.da, a: meta.a, ...albero, semantica }] : [];
       });
     });

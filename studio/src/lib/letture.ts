@@ -86,15 +86,25 @@ function occorrenze(testo: string, citazione: string): { inizio: number; fine: n
 }
 
 /**
- * Ricerca tollerante all'impaginazione: ignora spazi, a capo e segni di elenco (- – • > →),
- * che una revisione dell'impaginazione può spostare senza cambiare le parole.
+ * Ricerca tollerante all'impaginazione: ignora spazi, a capo, segni di elenco (- – • > →) e i numeri
+ * delle voci («4- », «5. », «b) »), che una revisione può trasformare in un vero elenco (il numero esce
+ * dal testo e diventa il segno della voce) senza cambiare le parole.
  */
 const SEGNI_IMPAGINAZIONE = /[\s\-–•>→]/u;
-function occorrenzeElastiche(testo: string, citazione: string): { inizio: number; fine: number }[] {
-  const indice = indicizzaTesto(testo), q = [...normalizzaTestoLettura(citazione)].filter((c) => !SEGNI_IMPAGINAZIONE.test(c)).join('');
-  if (q.length < 8) return [];
+const NUMERO_VOCE = /(^|[\s(])(?:\d{1,2}|[a-z])[-–.)°](?=\s|$)/gu;
+function compatta(testo: string): { car: string[]; pos: number[] } {
+  const salta = new Set<number>();
+  for (const m of testo.matchAll(NUMERO_VOCE)) for (let k = m.index! + m[1].length; k < m.index! + m[0].length; k++) salta.add(k);
   const car: string[] = [], pos: number[] = [];
-  for (let k = 0; k < indice.testo.length; k++) if (!SEGNI_IMPAGINAZIONE.test(indice.testo[k])) { car.push(indice.testo[k]); pos.push(k); }
+  for (let k = 0; k < testo.length; k++) if (!salta.has(k) && !SEGNI_IMPAGINAZIONE.test(testo[k])) { car.push(testo[k]); pos.push(k); }
+  return { car, pos };
+}
+const compatti = new WeakMap<TestoIndicizzato, { car: string[]; pos: number[] }>();
+function occorrenzeElastiche(testo: string, citazione: string): { inizio: number; fine: number }[] {
+  const indice = indicizzaTesto(testo), q = compatta(normalizzaTestoLettura(citazione)).car.join('');
+  if (q.length < 8) return [];
+  let c = compatti.get(indice); if (!c) { c = compatta(indice.testo); compatti.set(indice, c); }
+  const { car, pos } = c;
   const compatto = car.join(''), trovate: { inizio: number; fine: number }[] = [];
   for (let da = 0; ;) {
     const i = compatto.indexOf(q, da); if (i < 0) break;
@@ -179,6 +189,30 @@ export function proiettaSegnoTesto(segno: SegnoOriginale, blocchi: BloccoTestoLe
     return ancora ? [ancora] : [];
   });
   return ancore.length ? risultato('proiettato', ancore) : risultato('da-verificare');
+}
+
+/**
+ * Ultima risorsa per la mappa: la citazione (o il suo tratto più lungo, almeno sei parole) cercata in tutti i
+ * paragrafi della sezione, anche se il blocco o il contesto sono cambiati. Solo occorrenze uniche; altrimenti null.
+ */
+export function ritrovaNellaSezione(citazione: string, blocchi: BloccoTestoLettura[], edizione: number): AncoraTesto[] | null {
+  const cerca = (q: string) => {
+    const esatte = blocchi.flatMap((b) => occorrenze(b.testo, q).map((r) => ({ b, ...r })));
+    const trovate = esatte.length ? esatte : blocchi.flatMap((b) => occorrenzeElastiche(b.testo, q).map((r) => ({ b, ...r })));
+    return trovate.length === 1 ? creaAncoraTesto(trovate[0].b, trovate[0].inizio, trovate[0].fine, edizione) : null;
+  };
+  const pezzi = citazione.split(/\n\s*\n/).map((x) => x.trim()).filter((x) => x.length >= 3);
+  const intere = pezzi.map(cerca);
+  if (intere.length && intere.every(Boolean)) return intere as AncoraTesto[];
+  // Il tratto più lungo che si ritrova una volta sola: meglio una parte nel punto giusto che niente.
+  const parole = citazione.split(/\s+/).filter(Boolean);
+  for (let n = Math.min(parole.length - 1, 40); n >= 6; n = n > 12 ? Math.floor(n * 0.75) : n - 2) {
+    for (let i = 0; i + n <= parole.length; i += Math.max(1, Math.floor(n / 3))) {
+      const a = cerca(parole.slice(i, i + n).join(' '));
+      if (a) return [a];
+    }
+  }
+  return null;
 }
 
 export function proiettaSegniTesto(segni: SegnoOriginale[], blocchi: BloccoTestoLettura[], edizione: number, intervallo?: { da: number; a: number; tipoFonte?: 'manuale-ricostruito' }): SegnoTestoProiettato[] {

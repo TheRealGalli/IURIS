@@ -35,7 +35,7 @@ const Nodo = memo(function Nodo({ n, sezione, modo, chiusi, alterna, apri, senso
   const fuori = chips.length ? () => senso!.setFuoco(null) : undefined;
   const scheda = <div className="mg-nodo-riga" onMouseEnter={chips.length ? () => senso!.setFuoco({ nodo: n.id }) : undefined} onMouseLeave={fuori}>
     <a data-nodo={n.id} className={`mg-nodo mg-${u.tipo}${u.tipo === 'titolo' ? ` mg-h${u.livello}` : ''}${n.segnato ? ' mg-segnato' : ' mg-antenato'}`}
-      href={href} onClick={(e) => apri(e, href)} title={u.testo}
+      href={href} onClick={(e) => apri(e, href)}
       aria-label={`${n.segnato ? 'Parte segnata' : 'Contiene parti segnate'}: ${accorcia(etichetta, 160)}. Apri nel testo`}>
       {u.numero && <span className="mg-numero">{u.numero}</span>}
       <span className="mg-testo">{n.segnato

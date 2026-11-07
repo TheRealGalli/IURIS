@@ -85,6 +85,8 @@
 .mg-arco-etichetta { position: absolute; z-index: 2; transform: translate(-100%, -50%); width: max-content; max-width: 280px; padding: 3px 8px; border: 1px solid color-mix(in srgb, var(--mg-tinta) 50%, transparent); border-radius: 8px; background: var(--surface); color: var(--ink-2); font-size: 11px; line-height: 1.4; box-shadow: 0 2px 8px #0000001a; pointer-events: none; }
 .mg-arco-etichetta b { color: var(--mg-tinta); font-weight: 650; }
 .mg-testo { flex: 1 1 0; }
+/* Le parti segnate si vedono sempre per intero: si accorcia solo il contesto (… ), mai il segno. */
+.mg-segnato .mg-testo, .mg-albero .mg-segnato .mg-testo { display: block; -webkit-line-clamp: unset; overflow: visible; }
 
 /* finestra con zoom: si trascina e si ingrandisce invece di scorrere in orizzontale */
 .mg-finestra { position: relative; overflow: hidden; min-height: 160px; margin: 0 12px 12px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none;

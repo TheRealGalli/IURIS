@@ -77,6 +77,23 @@ export function strutturaBlocco(b: { id: string; pagina: number; html: string },
   return out;
 }
 
+/** Blocco virtuale dei segni che non si ritrovano più nel testo: non spariscono, vanno in coda alla lezione. */
+export const BLOCCO_RICOLLOCARE = 'da-ricollocare';
+export function daRicollocare(segni: { id: string; testo: string; colore: ColoreSegno; tipo: SegnoGeo['tipo']; creata?: string }[], pagina: number): { unita: UnitaTesto[]; segni: SegnoGeo[] } {
+  if (!segni.length) return { unita: [], segni: [] };
+  const titolo = 'Segni da ricollocare (il testo è cambiato)';
+  const unita: UnitaTesto[] = [{ id: `${BLOCCO_RICOLLOCARE}#0`, blocco: BLOCCO_RICOLLOCARE, pagina, tipo: 'titolo', livello: 1, inizio: 0, fine: titolo.length, testo: titolo }];
+  const out: SegnoGeo[] = [];
+  let off = titolo.length + 1;
+  segni.forEach((s, i) => {
+    const testo = s.testo.replace(/\s+/g, ' ').trim() || '(segno senza testo)';
+    unita.push({ id: `${BLOCCO_RICOLLOCARE}#${i + 1}`, blocco: BLOCCO_RICOLLOCARE, pagina, tipo: 'paragrafo', livello: 0, inizio: off, fine: off + testo.length, testo });
+    out.push({ id: s.id, colore: s.colore, tipo: s.tipo, creata: s.creata, ancore: [{ blocco: BLOCCO_RICOLLOCARE, inizio: off, fine: off + testo.length }] });
+    off += testo.length + 1;
+  });
+  return { unita, segni: out };
+}
+
 // Titoli per livello; i paragrafi sotto il titolo; le voci d'elenco sotto il paragrafo che le introduce.
 const rango = (u: UnitaTesto) => u.tipo === 'titolo' ? u.livello : u.tipo === 'paragrafo' ? 10 : 20 + u.livello;
 const PAROLE_CONTESTO = 4, SPAZIO_BREVE = 24;

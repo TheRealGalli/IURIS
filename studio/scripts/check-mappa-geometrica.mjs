@@ -5,7 +5,7 @@ import ts from 'typescript';
 
 const src = await readFile(new URL('../src/lib/mappa-geometrica.ts', import.meta.url), 'utf8');
 const js = ts.transpileModule(src, { compilerOptions: { target: ts.ScriptTarget.ES2020, module: ts.ModuleKind.ESNext } }).outputText;
-const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto, corsieArchi, accensione, inquadra, altezzaVista, inLocale, tracciaArco } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
+const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto, corsieArchi, accensione, daRicollocare, inquadra, altezzaVista, inLocale, tracciaArco } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
 
 // Pagina «Premesse» degli appunti: titolo, frase che introduce l'elenco, cinque voci, due paragrafi.
 const testi = [['titolo', 2, 'Premesse'], ['paragrafo', 0, 'I cinque significati di Diritto Romano'],
@@ -173,4 +173,13 @@ let checks = 0;
   assert(/\.map-shell:focus-within, \.mg-finestra:focus-within/.test(stili), 'stesso bordo attivo in tutte le mappe');
   checks++;
 }
-console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse, affidabilità dei legami, zoom, ridisegno delle linee e riquadro attivo.`);
+{
+  // Un segno che non si ritrova più nel testo non sparisce: va in coda alla lezione, per intero.
+  const c = daRicollocare([{ id: 'x', testo: 'Diritto romano come\n romanistico', colore: 'rosa', tipo: 'sottolineato' }], 2);
+  const m = alberoGeometrico(c.unita, c.segni);
+  assert.equal(m.segni, 1); assert.equal(m.radici[0].unita.tipo, 'titolo');
+  assert.equal(m.radici[0].figli[0].pezzi.map((p) => p.testo).join(''), 'Diritto romano come romanistico');
+  assert.deepEqual(daRicollocare([], 1), { unita: [], segni: [] });
+  checks++;
+}
+console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse, affidabilità dei legami, zoom, ridisegno delle linee, riquadro attivo e segni da ricollocare.`);
