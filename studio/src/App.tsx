@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { Component, lazy, Suspense, useEffect, useState, type ReactNode } from 'react';
 import { caricaCorso, CorsoContext, fetchManifest, useCorso, type Indice } from './lib/data';
 import { href, useRotta } from './lib/router';
 import { ripassoDiOggi } from './lib/srs';
@@ -15,7 +15,8 @@ import Glossario from './views/Glossario';
 import ConcettoView from './views/Concetto';
 import Allena from './views/Allena';
 import Progressi from './views/Progressi';
-import Originali from './views/Originali';
+import { originaliMateria } from './lib/originali';
+const Originali = lazy(() => import('./views/Originali'));
 
 const NAV = [
   { to: '/', key: '', label: 'Oggi', icon: 'oggi' },
@@ -170,6 +171,7 @@ function TabBar() {
 
 function Rotte() {
   const { parti, query } = useRotta();
+  const slug = useCorso().corso.materia.slug;
   const [s, id] = parti;
   switch (s) {
     case undefined: return <Oggi />;
@@ -181,8 +183,22 @@ function Rotte() {
     case 'concetto': return <ConcettoView id={id} />;
     case 'allena': return <Allena query={query} />;
     case 'progressi': return <Progressi />;
-    case 'originali': return <Originali />;
+    case 'originali': return <OriginaliBoundary key={slug} slug={slug}><Suspense fallback={<div className="empty faint">Apertura degli originali…</div>}><Originali /></Suspense></OriginaliBoundary>;
     default: return <div className="empty"><h3>Pagina non trovata</h3><a className="btn" href={href('/')}>Torna a Oggi</a></div>;
+  }
+}
+
+class OriginaliBoundary extends Component<{ slug: string; children: ReactNode }, { errore: boolean }> {
+  state = { errore: false };
+  static getDerivedStateFromError() { return { errore: true }; }
+  render() {
+    if (!this.state.errore) return this.props.children;
+    return <div className="page-narrow card stack">
+      <h1 className="title-m">Il lettore non si è aperto</h1>
+      <p className="muted">Ricarica la pagina per riprovare. Puoi anche consultare direttamente i PDF originali:</p>
+      {originaliMateria(this.props.slug).map((d) => <a key={d.id} href={`${import.meta.env.BASE_URL}${d.file}`} target="_blank" rel="noopener noreferrer">{d.titolo}</a>)}
+      <button className="btn" onClick={() => location.reload()}>Ricarica la pagina</button>
+    </div>;
   }
 }
 

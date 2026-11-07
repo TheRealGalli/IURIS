@@ -172,7 +172,7 @@ export default function Progressi() {
         </div>
         <div className="card stack" style={{ gap: 10 }}>
           <h3 className="title-s">I tuoi dati</h3>
-          <p className="small muted" style={{ margin: 0 }}>I progressi restano solo in questo browser. Scarica un backup per non perderli o per passarli su un altro dispositivo.</p>
+          <p className="small muted" style={{ margin: 0 }}>I progressi, le evidenziazioni e le ultime pagine lette negli Originali restano in questo browser. Il backup include tutti questi dati per questa materia e permette di trasferirli su un altro dispositivo.</p>
           <div className="row">
             <button className="btn" onClick={scarica}><Icon n="scarica" size={16} /> Scarica backup</button>
             <button className="btn" onClick={() => fileRef.current?.click()}><Icon n="carica" size={16} /> Carica backup</button>
@@ -193,7 +193,7 @@ export default function Progressi() {
       <div className="grid g3" style={{ marginTop: 16 }}>
         <a className="card cta-card" href={href('/cronologia')}><Icon n="cronologia" size={22} /><b className="title-s">Cronologia</b><span className="muted small">{idx.corso.eventi.length} eventi su una linea del tempo</span></a>
         <a className="card cta-card" href={href('/glossario')}><Icon n="glossario" size={22} /><b className="title-s">Glossario</b><span className="muted small">{idx.corso.concetti.length} voci ricercabili</span></a>
-        <a className="card cta-card" href={href('/originali')}><Icon n="libro" size={22} /><b className="title-s">Originali</b><span className="muted small">Appunti e fonti originali · in preparazione</span></a>
+        <a className="card cta-card" href={href('/originali')}><Icon n="libro" size={22} /><b className="title-s">Originali</b><span className="muted small">Appunti originali da leggere, evidenziare e sottolineare</span></a>
       </div>
       {toast.el}
     </div>

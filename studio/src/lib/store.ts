@@ -2,6 +2,7 @@
 import { useSyncExternalStore } from 'react';
 import type { Card } from 'ts-fsrs';
 import { isoDi, oggiISO } from './util';
+import { normalizzaSegno, paginaValida, type DocumentoOriginale, type LetturaOriginale, type SegnoOriginale } from './originali';
 
 export type CartaSalvata = Omit<Card, 'due' | 'last_review'> & { due: string; last_review?: string; introdotta?: string };
 
@@ -20,6 +21,7 @@ export interface Progresso {
   esame?: string;
   nuovePerGiorno: number;
   ultimaLezione?: string;
+  originali?: Record<string, LetturaOriginale>;
 }
 
 const vuoto = (): Progresso => ({ versione: 1, lezioni: {}, carte: {}, esiti: {}, giorni: {}, nuovePerGiorno: 25 });
@@ -44,8 +46,39 @@ export function aggiorna(slug: string, fn: (p: Progresso) => Progresso | void) {
   const draft: Progresso = structuredClone(prev);
   const next = fn(draft) ?? draft;
   mem.set(slug, next);
-  try { localStorage.setItem(key(slug), JSON.stringify(next)); } catch { /* quota o privacy */ }
+  let salvato = true;
+  try { localStorage.setItem(key(slug), JSON.stringify(next)); } catch { salvato = false; }
   listeners.forEach((l) => l());
+  return salvato;
+}
+
+export function salvaPaginaOriginale(slug: string, doc: DocumentoOriginale, pagina: number): boolean {
+  if (doc.materia !== slug) throw new Error('Documento di un’altra materia');
+  return aggiorna(slug, (p) => {
+    const originali = p.originali ?? (p.originali = {});
+    const lettura = originali[doc.id] ?? (originali[doc.id] = { pagina: 1, segni: [] });
+    lettura.pagina = paginaValida(pagina, doc.pagine);
+  });
+}
+
+export function aggiungiSegnoOriginale(slug: string, doc: DocumentoOriginale, segno: Omit<SegnoOriginale, 'id' | 'creata'>): { id: string; salvato: boolean } {
+  if (doc.materia !== slug) throw new Error('Documento di un’altra materia');
+  const valido = normalizzaSegno(segno, doc.pagine);
+  const id = crypto.randomUUID();
+  const salvato = aggiorna(slug, (p) => {
+    const originali = p.originali ?? (p.originali = {});
+    const lettura = originali[doc.id] ?? (originali[doc.id] = { pagina: valido.pagina, segni: [] });
+    lettura.segni.push({ ...valido, id, creata: new Date().toISOString() });
+  });
+  return { id, salvato };
+}
+
+export function rimuoviSegnoOriginale(slug: string, doc: DocumentoOriginale, id: string): boolean {
+  if (doc.materia !== slug) throw new Error('Documento di un’altra materia');
+  return aggiorna(slug, (p) => {
+    const lettura = p.originali?.[doc.id];
+    if (lettura) lettura.segni = lettura.segni.filter((s) => s.id !== id);
+  });
 }
 
 export function useProgresso(slug: string): Progresso {

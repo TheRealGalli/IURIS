@@ -1,0 +1,34 @@
+.oggi-rinforzo-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.oggi-rinforzo-heading h3 { margin: 0; min-width: 0; }
+.oggi-rinforzo-heading .btn { flex: none; width: 126px; }
+.oggi-rinforzo-preview {
+  margin: 8px 0 0; height: 3em; line-height: 1.5; overflow: hidden; overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+}
+
+.oggi-deboli-dialog {
+  width: min(680px, calc(100vw - 32px)); max-width: none; max-height: min(80vh, 760px); max-height: min(80dvh, 760px);
+  margin: auto; padding: 0; overflow: hidden; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line-2); border-radius: var(--radius); box-shadow: 0 28px 90px rgba(0, 0, 0, .32);
+}
+.oggi-deboli-dialog[open] { display: flex; flex-direction: column; }
+.oggi-deboli-dialog::backdrop { background: rgba(20, 15, 8, .5); backdrop-filter: blur(3px); }
+.oggi-deboli-dialog :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.oggi-deboli-heading { display: flex; flex: none; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 22px 22px 16px; border-bottom: 1px solid var(--line); }
+.oggi-deboli-heading p { margin: 6px 0 0; }
+.oggi-deboli-heading > .btn { flex: none; padding: 7px; }
+.oggi-deboli-lista { list-style: none; margin: 0; padding: 0 22px 10px; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; }
+.oggi-deboli-voce { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 14px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+.oggi-deboli-voce:last-child { border-bottom: 0; }
+.oggi-deboli-dettagli { min-width: 0; }
+.oggi-deboli-dettagli > .tiny { margin-top: 5px; }
+.oggi-deboli-nome { display: inline-flex; align-items: baseline; gap: 8px; font-weight: 550; text-decoration: none; overflow-wrap: anywhere; }
+.oggi-deboli-nome:hover { color: var(--accent); }
+
+@media (max-width: 480px) {
+  .oggi-deboli-dialog { width: calc(100vw - 24px); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); }
+  .oggi-deboli-heading { padding: 18px 16px 14px; gap: 10px; }
+  .oggi-deboli-lista { padding: 0 16px 8px; }
+  .oggi-deboli-voce { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .oggi-deboli-voce > .btn { justify-self: start; }
+}

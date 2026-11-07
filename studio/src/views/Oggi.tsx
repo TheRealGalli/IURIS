@@ -1,10 +1,14 @@
-import { useMemo } from 'react';
+import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { useCorso } from '../lib/data';
 import { href } from '../lib/router';
 import { padronanza, pagineStudiate, pianoEsame, ripassoDiOggi, serieGiorni, statoLezione, ETICHETTA_STATO } from '../lib/srs';
 import { impostaEsame, useProgresso } from '../lib/store';
+import type { Concetto } from '../lib/types';
 import { fmtData, fmtMinuti, oggiISO, plurale, rifPagine } from '../lib/util';
 import { Bar, Calendario, Icon, LivelloDot, Ring } from '../components/ui';
+import './Oggi.css';
+
+type ConcettoDebole = { c: Concetto; m: ReturnType<typeof padronanza>; soloInverse: boolean };
 
 export default function Oggi() {
   const idx = useCorso();
@@ -19,12 +23,15 @@ export default function Oggi() {
   const globale = padronanza(p, idx.corso.domande);
   const ultima = p.ultimaLezione ? idx.lezioneById.get(p.ultimaLezione) : undefined;
   const nRip = rip.scadute.length + rip.nuove.length;
+  const [mostraDeboli, setMostraDeboli] = useState(false);
 
   const deboli = useMemo(() => idx.corso.concetti
-    .map((c) => ({ c, m: padronanza(p, idx.domandePerConcetto.get(c.id)) }))
+    .map((c) => {
+      const domande = idx.domandePerConcetto.get(c.id) ?? [];
+      return { c, m: padronanza(p, domande), soloInverse: !domande.some((q) => !q.inversa) };
+    })
     .filter((x) => x.m.viste > 0 && (x.m.valore ?? 0) < 0.45)
-    .sort((a, b) => (a.m.valore ?? 0) - (b.m.valore ?? 0))
-    .slice(0, 6), [idx, p]);
+    .sort((a, b) => (a.m.valore ?? 0) - (b.m.valore ?? 0)), [idx, p]);
 
   const saluto = (() => { const h = new Date().getHours(); return h < 13 ? 'Buongiorno' : h < 18 ? 'Buon pomeriggio' : 'Buonasera'; })();
   const dataLunga = new Date().toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' });
@@ -96,21 +103,94 @@ export default function Oggi() {
           </div>
           <Calendario p={p} />
           <hr className="sep" />
-          <div className="eyebrow" style={{ marginBottom: 8 }}>Concetti da rinforzare</div>
-          {deboli.length === 0 ? (
-            <p className="muted small" style={{ margin: 0 }}>Qui compariranno i concetti su cui sbagli di più, così sai dove tornare.</p>
-          ) : (
-            <div className="row" style={{ gap: 6 }}>
-              {deboli.map(({ c, m }) => (
-                <a key={c.id} className="chip" href={href(`/concetto/${c.id}`)} style={{ textDecoration: 'none' }}>
-                  <LivelloDot valore={m.valore} viste={m.viste} /> {c.nome}
-                </a>
-              ))}
+          <section className="oggi-rinforzo" aria-label="Concetti da rinforzare">
+            <div className="oggi-rinforzo-heading">
+              <h3 className="eyebrow">Concetti da rinforzare</h3>
+              <button className="btn btn-sm btn-ghost" disabled={deboli.length === 0}
+                onClick={() => setMostraDeboli(true)} aria-haspopup="dialog">
+                Vedi tutti ({deboli.length})
+              </button>
             </div>
-          )}
+            <p className="oggi-rinforzo-preview muted small">
+              {deboli.length ? deboli.slice(0, 3).map(({ c }) => c.nome).join(' · ')
+                : 'Qui compariranno i concetti su cui sbagli di più, così sai dove tornare.'}
+            </p>
+          </section>
         </div>
       </div>
+      {mostraDeboli && <ConcettiDeboliDialog concetti={deboli} onClose={() => setMostraDeboli(false)} />}
     </div>
+  );
+}
+
+function ConcettiDeboliDialog({ concetti, onClose }: { concetti: ConcettoDebole[]; onClose: () => void }) {
+  const dialogRef = useRef<HTMLDialogElement>(null);
+  const chiudiRef = useRef<HTMLButtonElement>(null);
+  const titoloId = useId();
+  const descrizioneId = useId();
+
+  useEffect(() => {
+    const dialog = dialogRef.current;
+    if (!dialog) return;
+    const precedente = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const { overflow, paddingRight } = document.body.style;
+    const scrollbar = window.innerWidth - document.documentElement.clientWidth;
+    if (scrollbar > 0) document.body.style.paddingRight = `${parseFloat(getComputedStyle(document.body).paddingRight) + scrollbar}px`;
+    document.body.style.overflow = 'hidden';
+    dialog.showModal();
+    chiudiRef.current?.focus();
+    return () => {
+      if (dialog.open) dialog.close();
+      document.body.style.overflow = overflow;
+      document.body.style.paddingRight = paddingRight;
+      if (precedente?.isConnected) precedente.focus({ preventScroll: true });
+    };
+  }, []);
+
+  return (
+    <dialog ref={dialogRef} className="oggi-deboli-dialog" aria-modal="true" aria-labelledby={titoloId}
+      aria-describedby={descrizioneId} tabIndex={-1}
+      onCancel={(e) => { e.preventDefault(); onClose(); }}
+      onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+      onKeyDown={(e) => {
+        if (e.key !== 'Tab') return;
+        const dialog = e.currentTarget;
+        const elementi = [...dialog.querySelectorAll<HTMLElement>('button:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])')]
+          .filter((el) => el.getClientRects().length > 0);
+        const primo = elementi[0], ultimo = elementi[elementi.length - 1];
+        if (!primo) { e.preventDefault(); dialog.focus(); }
+        else if (e.shiftKey && (document.activeElement === primo || document.activeElement === dialog)) {
+          e.preventDefault(); ultimo.focus();
+        } else if (!e.shiftKey && document.activeElement === ultimo) {
+          e.preventDefault(); primo.focus();
+        }
+      }}>
+      <div className="oggi-deboli-heading">
+        <div>
+          <h2 id={titoloId} className="title-m">Concetti da rinforzare <span className="faint">({concetti.length})</span></h2>
+          <p id={descrizioneId} className="muted small">Dal meno sicuro: apri una voce o allenati su quel tema.</p>
+        </div>
+        <button ref={chiudiRef} className="btn btn-sm btn-ghost" aria-label="Chiudi concetti da rinforzare" onClick={onClose}>
+          <Icon n="x" size={20} />
+        </button>
+      </div>
+      <ul className="oggi-deboli-lista">
+        {concetti.map(({ c, m, soloInverse }) => (
+          <li key={c.id} className="oggi-deboli-voce">
+            <div className="oggi-deboli-dettagli">
+              <a className="oggi-deboli-nome" href={href(`/concetto/${encodeURIComponent(c.id)}`)} onClick={onClose}>
+                <LivelloDot valore={m.valore} viste={m.viste} /><span>{c.nome}</span>
+              </a>
+              <div className="faint tiny">{Math.round((m.valore ?? 0) * 100)}% di padronanza · {m.viste}/{m.totali} domande viste</div>
+            </div>
+            <a className="btn btn-sm" href={href(soloInverse ? `/allena?modo=inverse&c=${encodeURIComponent(c.id)}` : `/allena?c=${encodeURIComponent(c.id)}`)}
+              aria-label={`${soloInverse ? 'Ripassa il termine' : 'Allenati su'} ${c.nome}`} onClick={onClose}>
+              <Icon n={soloInverse ? 'glossario' : 'allena'} size={15} />{soloInverse ? 'Ripassa il termine' : 'Allenati'}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </dialog>
   );
 }
 

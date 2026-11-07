@@ -20,7 +20,8 @@ self.addEventListener('fetch', (e) => {
   if (!stessaOrigine && !font) return;
 
   const daRete = () => fetch(req).then((res) => {
-    if (res.ok) { const copia = res.clone(); caches.open(CACHE).then((c) => c.put(req, copia)); }
+    // Le risposte parziali dei lettori PDF (206) non possono entrare in CacheStorage.
+    if (res.status === 200) { const copia = res.clone(); caches.open(CACHE).then((c) => c.put(req, copia)).catch(() => {}); }
     return res;
   });
   // file con hash (assets/) e font: prima la cache; tutto il resto: prima la rete

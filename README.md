@@ -10,9 +10,21 @@ Il sito funziona nel browser, senza account, server applicativo o sincronizzazio
 I progressi sono salvati nel browser e rimangono dopo la chiusura della pagina e gli aggiornamenti del sito.
 Ogni browser e dispositivo ha un archivio distinto; chi usa lo stesso profilo del browser condivide l'archivio.
 Da **Progressi → Scarica backup** puoi conservare una copia e trasferirla con **Carica backup**.
+Il backup della materia include anche evidenziazioni, sottolineature e ultima pagina letta negli Originali.
 Per passare dalla versione locale al sito online, scarica il backup dalla prima e importalo nel secondo.
 Lo stesso trasferimento serve passando dal vecchio indirizzo `github.io` a `formaiuris.it`, perché ogni origine ha il proprio archivio.
 Cancellando i dati del sito si eliminano anche i progressi locali.
+
+## Originali
+
+La sezione raccoglie i quattro PDF di appunti e riassunti usati come fonti del Percorso.
+Il lettore permette di scorrerli, cambiare zoom, riprendere dall'ultima pagina e segnare il testo.
+I PDF di partenza rimangono invariati; i segni sono personali e salvati con i progressi della materia.
+Il file scaricato dal lettore è il PDF originale, senza i segni personali: questi sono nel backup dei progressi.
+
+Il catalogo in `studio/src/lib/originali-catalogo.json` indica file, pagine, materia e hash SHA-256.
+Per sostituire un PDF con una versione diversa occorre assegnare un nuovo ID di documento, così i vecchi segni non vengono applicati a pagine cambiate.
+Il lettore e le sue risorse vengono caricati quando si apre questa sezione.
 
 ## Sviluppo locale
 
@@ -45,6 +57,7 @@ npm run check:build
 ```
 
 Il repository include l'app e le cartelle `05 - Contenuti`, necessarie per generare i corsi.
-PDF originali, vecchi elaborati, cartelle degli assistenti, backup dei progressi e file temporanei sono esclusi.
+Sono pubblicati soltanto i quattro PDF elencati nel catalogo e presenti in `studio/public/originali/`.
+Gli altri PDF, vecchi elaborati, cartelle degli assistenti, backup dei progressi e file temporanei sono esclusi.
 Il formato dei contenuti è descritto in [studio/CONTENUTI.md](studio/CONTENUTI.md).
 

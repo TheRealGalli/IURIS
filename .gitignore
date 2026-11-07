@@ -23,8 +23,13 @@
 **/.env.*
 !**/.env.example
 /studio/public/content/
+/studio/public/pdfjs/
 *.log
 *.pdf
+!/studio/public/originali/romano-pennacchio-2021-22.pdf
+!/studio/public/originali/filosofia-incampo.pdf
+!/studio/public/originali/filosofia-moro.pdf
+!/studio/public/originali/filosofia-cotta.pdf
 *.docx
 *.pptx
 *.mp3

@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 const root = fileURLToPath(new URL('../dist/', import.meta.url));
 const file = (relative) => {
@@ -20,6 +21,15 @@ for (const [, resource] of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
   file(resource);
 }
 const manifest = json('content/manifest.json');
+const originali = JSON.parse(fs.readFileSync(new URL('../src/lib/originali-catalogo.json', import.meta.url), 'utf8'));
+const pdfConsentiti = new Set(originali.map((d) => d.file));
+for (const d of originali) {
+  assert(d.file.startsWith('originali/') && d.file.endsWith('.pdf'), `Percorso originale non valido: ${d.id}`);
+  const bytes = fs.readFileSync(file(d.file));
+  assert.equal(bytes.subarray(0, 5).toString(), '%PDF-', `PDF non valido: ${d.id}`);
+  assert.equal(createHash('sha256').update(bytes).digest('hex'), d.sha256, `Il file originale è cambiato senza aggiornare la versione: ${d.id}`);
+}
+for (const resource of ['pdfjs/LICENSE', 'pdfjs/cmaps/Adobe-Japan1-UCS2.bcmap', 'pdfjs/standard_fonts/FoxitSerif.pfb', 'pdfjs/wasm/openjpeg.wasm']) file(resource);
 const materie = manifest.materie.filter((m) => m.disponibile);
 assert(materie.length > 0, 'Nessuna materia generata: controllare le cartelle 05 - Contenuti');
 for (const m of materie) {
@@ -33,7 +43,9 @@ for (const m of materie) {
 for (const entry of fs.readdirSync(root, { recursive: true, withFileTypes: true })) {
   assert(!entry.isSymbolicLink(), `Link simbolico nel sito: ${entry.name}`);
   assert(!entry.name.startsWith('.'), `File nascosto nel sito: ${entry.name}`);
-  assert(!/\.(pdf|docx|pptx|log)$/i.test(entry.name), `File estraneo nel sito: ${entry.name}`);
+  const relativo = path.relative(root, path.join(entry.parentPath ?? entry.path, entry.name)).split(path.sep).join('/');
+  assert(!/\.(docx|pptx|log)$/i.test(entry.name), `File estraneo nel sito: ${entry.name}`);
+  if (/\.pdf$/i.test(entry.name)) assert(pdfConsentiti.has(relativo), `PDF non previsto nel sito: ${relativo}`);
   assert(!/^(iuris-progressi-|recupero-claude)/i.test(entry.name), `File personale nel sito: ${entry.name}`);
 }
 const pwa = json('manifest.webmanifest');
@@ -41,5 +53,5 @@ assert.equal(pwa.start_url, './');
 assert.equal(pwa.scope, './');
 for (const icon of pwa.icons) file(icon.src);
 file('sw.js');
-console.log(`Sito verificato: ${materie.length} materie, risorse relative e soli file pubblicabili.`);
+console.log(`Sito verificato: ${materie.length} materie, ${originali.length} originali verificati e risorse locali.`);
 
