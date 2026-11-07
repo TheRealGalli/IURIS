@@ -1631,8 +1631,13 @@
           "da": "manomissio",
           "a": "manumissio",
           "tutte": true
+        },
+        {
+          "da": "7. Un “codice di Emancipatio Contadini” ? È",
+          "a": "### 7. Un “codice di Contadini”?\n\n**Emancipatio** È"
         }
-      ]
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
     },
     "p045-b001": {
       "baseSha256": "8b1ecaae04e84ddbbe14f9427dd99301134d0391c81ab36dcc5f8b79f62e127a",
@@ -2092,7 +2097,13 @@
     },
     "p027-b001": {
       "baseSha256": "fd141ace17f84380c2598f3bf9e030d1548fd714da79abdeb43595bbc278be63",
-      "notaRevisione": "Evemero di Messene visse tra la fine del IV e l'inizio del III sec. a.C. (negli appunti «di Messina», «prima metà del II secolo»)."
+      "notaRevisione": "Evemero di Messene visse tra la fine del IV e l'inizio del III sec. a.C. (negli appunti «di Messina», «prima metà del II secolo»). Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo.",
+      "sostituzioni": [
+        {
+          "da": "4. L’ispirazione greca Contesto culturale",
+          "a": "### 4. L’ispirazione greca\n\nContesto culturale"
+        }
+      ]
     },
     "p100-b001": {
       "baseSha256": "e4663c0b676ada418b3fcc0d838740290cf8668983cc065d2ac8031e89853213",
@@ -2133,6 +2144,260 @@
     "p175-b001": {
       "baseSha256": "0e94eef95a10132fe2fb5effff4a6d097e42726ff779ae6dac1038c8d07021ef",
       "notaRevisione": "Negli appunti le pp. 170–175 contengono solo i titoli dei paragrafi del capitolo undicesimo («I modi di una tecnica»): il contenuto è nell'unità ricostruita dal manuale nel Percorso."
+    },
+    "p010-b002": {
+      "baseSha256": "62ad3412d057c95cbd7da796a6b82af5b4c4d37e2ffedaebd9611b2bba27a942",
+      "sostituzioni": [
+        {
+          "da": "1. Da Panezio a Cicerone: Quando si parla",
+          "a": "### 1. Da Panezio a Cicerone\n\nQuando si parla"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p032-b001": {
+      "baseSha256": "d96ac11517a2269e508358a8764bca8531be1f177e3b5320b65eeced734b4980",
+      "sostituzioni": [
+        {
+          "da": "6. L’ “evidenza sensibile” Abbiamo visto",
+          "a": "### 6. L’ “evidenza sensibile”\n\nAbbiamo visto"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p055-b002": {
+      "baseSha256": "0c8b82b19a85a7b619317ea17e7f8b7594a7cff6a422e685c00aebb06065c3e3",
+      "sostituzioni": [
+        {
+          "da": "1. Contadini e mercanti Fra III e II",
+          "a": "### 1. Contadini e mercanti\n\nFra III e II"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p063-b001": {
+      "baseSha256": "74d30a253ab8eb912f04512ad139814c426e9839a65982f2cd91df8a397fa7f8",
+      "sostituzioni": [
+        {
+          "da": "3. Le regole del gioco Dunque con",
+          "a": "### 3. Le regole del gioco\n\nDunque con"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p116-b001": {
+      "baseSha256": "06c185d92fd40ba73c7b256a89550cc1c3dc1c91d25a9beec90283d833a1c11b",
+      "sostituzioni": [
+        {
+          "da": "2. Oralità e forma La dimensione",
+          "a": "### 2. Oralità e forma\n\nLa dimensione"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p119-b001": {
+      "baseSha256": "4a7a63d04123898709c50d9f6584aa0b447dcba980ba16fb3275a7519e2c751f",
+      "sostituzioni": [
+        {
+          "da": "3. Profili metodici La struttura",
+          "a": "### 3. Profili metodici\n\nLa struttura"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p125-b002": {
+      "baseSha256": "323aac21a5f6ce673beb2d07c874078fed4634c6fc2fb8d928da02ce5b27a863",
+      "sostituzioni": [
+        {
+          "da": "1. La diplomazia del potere L’età del principato",
+          "a": "### 1. La diplomazia del potere\n\nL’età del principato"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p142-b001": {
+      "baseSha256": "7f3f881a46a38e8070a76fa14646dc2c105f20fb384f2359f59be11fee954391",
+      "sostituzioni": [
+        {
+          "da": "4. Riscritti e decreti La passività",
+          "a": "### 4. Riscritti e decreti\n\nLa passività"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p147-b001": {
+      "baseSha256": "a312412ce81475626aa5e6fb16226e18535ac1e103dc59c0c2b9ab61c4b5acbb",
+      "sostituzioni": [
+        {
+          "da": "6. Normativa imperiale e giurisprudenza Attraverso",
+          "a": "### 6. Normativa imperiale e giurisprudenza\n\nAttraverso"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p155-b001": {
+      "baseSha256": "f76faabfa9644a8d19c16f434dbe72bd9e85281df13e413db55bc0cbaf6d7926",
+      "sostituzioni": [
+        {
+          "da": "3. Maestri e allievi Durante",
+          "a": "### 3. Maestri e allievi\n\nDurante"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p163-b001": {
+      "baseSha256": "4afbac75782e9df930377f25aec271aa99689880554f604d402cff03a90aea46",
+      "sostituzioni": [
+        {
+          "da": "4. Il giurista “filosofo” La fine del dualismo",
+          "a": "### 4. Il giurista “filosofo”\n\nLa fine del dualismo"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p165-b002": {
+      "baseSha256": "a2ebff756057b65274c28828effb7c8ce80789f56edbeb79d3a0df6c6b725f48",
+      "sostituzioni": [
+        {
+          "da": "1. La letteratura problematica È possibile",
+          "a": "### 1. La letteratura problematica\n\nÈ possibile"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p218-b001": {
+      "baseSha256": "0ef06f2ba5a8e803ee55b0af73aa173afea834c9009e695a6653916e291e9f69",
+      "sostituzioni": [
+        {
+          "da": "8. Sistema e tempo Abbiamo visto",
+          "a": "### 8. Sistema e tempo\n\nAbbiamo visto"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
+    },
+    "p023-b001": {
+      "baseSha256": "8771cade5f51f923b58a77c5ea0c70d88ad6b50c95a940ead6c5a44311f00ee6",
+      "sostituzioni": [
+        {
+          "da": "nell'esperienza arcaica Diritto nei sistemi tradizionali:\n1. Tipologia Il diritto non moderno",
+          "a": "nell'esperienza arcaica\n### 1. Tipologia\n\n**Diritto nei sistemi tradizionali:** Il diritto non moderno"
+        },
+        {
+          "da": "nella tradizione. Diritto nelle società moderne: Diversamente",
+          "a": "nella tradizione.\n\n**Diritto nelle società moderne:** Diversamente"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p024-b001": {
+      "baseSha256": "0d7a9d839ee278b5a4c59a7c2161b3464dea7e114d1c53a4389b4fce2e5f7b89",
+      "sostituzioni": [
+        {
+          "da": "2. Alcune domande sulla Intendiamo la “legge” come: manifestazione di una volontà precettiva , “legge” nei diritti antichi vincolante",
+          "a": "### 2. Alcune domande sulla “legge” nei diritti antichi\n\nIntendiamo la “legge” come: manifestazione di una volontà precettiva, vincolante"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p111-b001": {
+      "baseSha256": "4540776390539fc8d7d53e1be6d74687af6a69ebd7d2a0e70c7dfb9888b4713b",
+      "sostituzioni": [
+        {
+          "da": "1. La pratica del responso È importante l’opinione dei giuristi per stabilire un giudizio processuale? e il processo Come abbiamo visto",
+          "a": "### 1. La pratica del responso e il processo\n\n**È importante l’opinione dei giuristi per stabilire un giudizio processuale?** Come abbiamo visto"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p021-b001": {
+      "baseSha256": "12f2e40dc086dee9686e8349b0901eddf184064216c5081cbdaee7d097a2eeae",
+      "sostituzioni": [
+        {
+          "da": "4. Ricerca giuridica e Le 12 tavole ricevono sin dagli inizi anche un'interpretazione nel senso filologico-antiquaria tecnico-giuridico",
+          "a": "### 4. Ricerca giuridica e filologico-antiquaria\n\nLe 12 tavole ricevono sin dagli inizi anche un'interpretazione nel senso tecnico-giuridico"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p022-b003": {
+      "baseSha256": "98474eedb1fca2bea32c6cbdc10c4192a5f3e964a91ac0b55b278ceb58046e70",
+      "sostituzioni": [
+        {
+          "da": "5. Distanza storica e Abbiamo visto che dalla Repubblica al principato, Le 12 tavole sono abolizione della distanza oggetto di",
+          "a": "### 5. Distanza storica e abolizione della distanza\n\nAbbiamo visto che dalla Repubblica al principato, Le 12 tavole sono oggetto di"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p029-b001": {
+      "baseSha256": "57b3b060b607d37d06fe775b062179a5fc3940ca4b75542316d70aadde747230",
+      "sostituzioni": [
+        {
+          "da": "5. Il meccanismo del La legge\\ il diritto, in quanto creazione umana, non è eterno ed immutabile. mutamento Partendo",
+          "a": "### 5. Il meccanismo del mutamento\n\nLa legge\\ il diritto, in quanto creazione umana, non è eterno ed immutabile. Partendo"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p176-b002": {
+      "baseSha256": "6068f393aa9e77e2bfd706b5402fb826558db8131f414b63f5973d5a9f0b6c76",
+      "sostituzioni": [
+        {
+          "da": "1. Assolutismo e Anarchia militare (50 anni) legislazione Nel 235",
+          "a": "### 1. Assolutismo e legislazione\n\n**Anarchia militare (50 anni)** Nel 235"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p197-b001": {
+      "baseSha256": "9d4b68777de2178b2459ed7350e19720b1d63fe581203b641482526c0a03189e",
+      "sostituzioni": [
+        {
+          "da": "5. La “sapienza Il movimento codificatorio, ovviamente, non si chiude con la raccolta di giuridica” dei re barbari Teodosio II,",
+          "a": "### 5. La “sapienza giuridica” dei re barbari\n\nIl movimento codificatorio, ovviamente, non si chiude con la raccolta di Teodosio II,"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p186-b001": {
+      "baseSha256": "d4fa37f3df4b0c853a890f926d1c65f1dd81d6b0ae7c7f9ae0dd48e36d032832",
+      "sostituzioni": [
+        {
+          "da": "3. Le vicende della Raccolte di iura letteratura Nell’età",
+          "a": "### 3. Le vicende della letteratura\n\n**Raccolte di iura** Nell’età"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p013-b001": {
+      "baseSha256": "36d97505b7321f52786093d09ee8673d68292a276dd5023909e1fd17b6aaa61e",
+      "sostituzioni": [
+        {
+          "da": "2. Il dominio del mondo e Polibio: la costituzione politica: Cicerone,",
+          "a": "### 2. Il dominio del mondo e la costituzione politica\n\n**Polibio:** Cicerone,"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p221-b001": {
+      "baseSha256": "e5478c9db8ce570722d5b964ead65e4a74d0a27a99d82165d16df1e1fd5d7d70",
+      "sostituzioni": [
+        {
+          "da": "9. L'utopia della “legge Il ﬁne primario dei codici sia di costituzioni sia che descritti giurisprudenziali semplice” era",
+          "a": "### 9. L'utopia della “legge semplice”\n\nIl ﬁne primario dei codici sia di costituzioni sia che descritti giurisprudenziali era"
+        }
+      ],
+      "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
+    },
+    "p002-b004": {
+      "baseSha256": "498314c23d8288446fcf2a4b435f7c34780c9e4a924b0d34deef7793d1b4fb50",
+      "sostituzioni": [
+        {
+          "da": "Differenza pubblico-privato - Nel diritto romano",
+          "a": "### Differenza pubblico-privato\n\nNel diritto romano"
+        }
+      ],
+      "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
     }
   }
 }

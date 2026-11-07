@@ -22,6 +22,9 @@ const revisionata = (sec) => !!(sec.revisionata || sec.pilota);
 
 /** Regole di sola forma: titoli, elenchi, note, etichette in grassetto e spazi. Le parole restano quelle della fonte. */
 export function formatta(md) {
+  // Blocco che comincia con un titolo: il titolo resta com'è, il resto segue le regole.
+  const conTitolo = /^(#{1,6} [^\n]*)\n+([\s\S]*\S[\s\S]*)$/.exec(md);
+  if (conTitolo) return `${conTitolo[1]}\n\n${formatta(conTitolo[2].trim())}`;
   if (/^(?:#{1,6} |\|)/.test(md)) return md;
   let s = md.replace(/ﬁ/g, 'fi').replace(/ﬂ/g, 'fl')
     .replace(/([AaEeIiOoUu])ˋ/g, (_, v) => ({ A: 'À', a: 'à', E: 'È', e: 'è', I: 'Ì', i: 'ì', O: 'Ò', o: 'ò', U: 'Ù', u: 'ù' })[v])
@@ -30,6 +33,12 @@ export function formatta(md) {
     .replace(/[ \t]+([,.;:!?])(?=\s|$)/g, '$1').replace(/\( +/g, '(').replace(/ +\)/g, ')');
   // Negli appunti «>» a inizio riga è una freccia, non una citazione.
   s = s.replace(/^> (?=\S)/gm, '→ ');
+  // «‣ Capitolo terzo: …» sulla prima riga di un blocco più lungo: è il titolo del capitolo.
+  const primaRiga = /^‣\s*([^\n]{1,120})\n+([\s\S]*\S[\s\S]*)$/.exec(s);
+  if (primaRiga) return `## ${primaRiga[1].trim()}\n\n${formatta(primaRiga[2].trim())}`;
+  // «‣Littera Florentina > Una prima redazione…»: titoletto breve seguito dal testo.
+  const titoletto = /^‣\s*([^\n>.:;]{3,70}?)\s+>\s+(?=\S)/.exec(s);
+  if (titoletto) return `### ${titoletto[1].trim()}\n\n${formatta(s.slice(titoletto[0].length))}`;
   // Freccia tipografica degli appunti (‣) usata come titolo.
   if (/^‣\s*/.test(s) && !s.includes('\n') && s.length <= 120) return `## ${s.replace(/^‣\s*/, '')}`;
   s = s.replace(/^[‣•]\s*/gm, '- ');
