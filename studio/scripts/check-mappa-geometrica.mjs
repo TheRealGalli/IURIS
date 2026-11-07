@@ -5,7 +5,7 @@ import ts from 'typescript';
 
 const src = await readFile(new URL('../src/lib/mappa-geometrica.ts', import.meta.url), 'utf8');
 const js = ts.transpileModule(src, { compilerOptions: { target: ts.ScriptTarget.ES2020, module: ts.ModuleKind.ESNext } }).outputText;
-const { alberoGeometrico, primoSegno } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
+const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
 
 // Pagina «Premesse» degli appunti: titolo, frase che introduce l'elenco, cinque voci, due paragrafi.
 const testi = [['titolo', 2, 'Premesse'], ['paragrafo', 0, 'I cinque significati di Diritto Romano'],
@@ -62,4 +62,31 @@ let checks = 0;
   assert.deepEqual(m.radici[0].figli.map((f) => f.unita.id), ['b7#0', 'b8#0']); assert.equal(m.segni, 1);
   assert.deepEqual(alberoGeometrico(unita, []).radici, []); checks++;
 }
-console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti e potatura.`);
+{
+  // Significato: «Fonti di cognizione» definita in un punto, divisa in primarie/secondarie in un altro.
+  const t = [['titolo', 3, 'Le fonti'], ['paragrafo', 0, 'Le fonti del diritto possono essere:'], ['voce', 1, 'Fonti di cognizione'], ['voce', 1, 'Fonti di produzione'],
+    ['titolo', 3, 'Altro'], ['paragrafo', 0, 'Possiamo distinguere ulteriormente le fonti di cognizione in:'], ['voce', 1, 'Fonti primarie'], ['voce', 1, 'Fonti secondarie o derivate'], ['paragrafo', 0, 'Le fonti di cognizione tornano qui.']];
+  const u = t.map(([tipo, livello, testo], i) => ({ id: `c${i}#0`, blocco: `c${i}`, pagina: 4, tipo, livello, inizio: 0, fine: testo.length, testo }));
+  const segni = [2, 3, 6, 7, 8].map((i) => ({ id: `s${i}`, tipo: 'evidenziato', colore: 'giallo', creata: `2026-11-07T11:0${i}:00Z`, ancore: [{ blocco: `c${i}`, inizio: 0, fine: u[i].testo.length }] }));
+  const m = alberoGeometrico(u, segni);
+  const conc = [['fonti-di-cognizione', 'Fonti di cognizione'], ['fonti-di-produzione', 'Fonti di produzione'], ['fonti-primarie', 'Fonti primarie'], ['fonti-secondarie', 'Fonti secondarie (o derivate)', ['fonti derivate']], ['assente', 'Concetto assente']]
+    .map(([id, nome, alias]) => ({ id, nome, etichette: etichetteConcetto({ nome, alias }) }));
+  assert.deepEqual(conc[3].etichette, ['Fonti secondarie', 'fonti derivate']);
+  const rel = [{ da: 'fonti-primarie', a: 'fonti-di-cognizione', tipo: 'parte-di', etichetta: 'costituiscono una categoria delle' },
+    { da: 'fonti-secondarie', a: 'fonti-di-cognizione', tipo: 'parte-di', etichetta: 'sono una categoria delle' },
+    { da: 'fonti-di-cognizione', a: 'fonti-di-produzione', tipo: 'collegato' }, { da: 'assente', a: 'fonti-primarie', tipo: 'parte-di' }];
+  const s = semanticaGeometrica(m.radici, conc, rel);
+  const voce = (testo) => { let x; const cerca = (l) => l.forEach((n) => { if (n.unita.testo === testo) x = n.id; cerca(n.figli); }); cerca(m.radici); return x; };
+  const arco = (da, a) => s.archi.find((x) => x.da === voce(da) && x.a === voce(a));
+  assert.equal(arco('Fonti primarie', 'Fonti di cognizione')?.etichetta, 'costituiscono una categoria delle', 'la voce va al punto in cui il concetto è definito, non al suo genitore');
+  assert(arco('Fonti secondarie o derivate', 'Fonti di cognizione'));
+  assert(!s.archi.some((x) => x.da === voce('Possiamo distinguere ulteriormente le fonti di cognizione in:') && x.a === voce('Fonti primarie')), 'genitore e figlio sono già uniti dall’albero');
+  assert(s.archi.some((x) => x.tipo === 'stesso' && x.concetto === 'fonti-di-cognizione'), 'stesso concetto in due punti lontani');
+  assert(s.archi.findIndex((x) => x.tipo === 'relazione' && x.etichetta?.includes('categoria')) < s.archi.findIndex((x) => x.tipo === 'stesso'), 'prima le relazioni gerarchiche');
+  assert(!s.concetti.includes('assente'));
+  assert.deepEqual(s.perNodo.get(voce('Fonti primarie')), ['fonti-primarie']);
+  assert(semanticaGeometrica(m.radici, conc, rel, 2).archi.length === 2, 'tetto agli archi per non affollare');
+  assert.deepEqual(semanticaGeometrica(m.radici, conc, rel), s, 'stesso input, stessi archi');
+  checks++;
+}
+console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura e concetti collegati.`);

@@ -153,3 +153,89 @@ export function alberoGeometrico(unita: UnitaTesto[], segni: SegnoGeo[]): { radi
 export function primoSegno(n: NodoGeo): string | undefined {
   return n.segni[0] ?? n.figli.map(primoSegno).find(Boolean);
 }
+
+// ── Significato sopra la geometria: i concetti del glossario nominati dai nodi e i loro legami ──
+export interface ConcettoGeo { id: string; nome: string; etichette: string[] }
+export interface RelazioneGeo { da: string; a: string; tipo: string; etichetta?: string }
+export interface ArcoConcetto {
+  da: string; a: string;
+  /** Stesso concetto in due punti lontani dell'albero, oppure una relazione del glossario fra due concetti. */
+  tipo: 'stesso' | 'relazione';
+  concetto: string; altro?: string; etichetta?: string;
+}
+export interface SemanticaGeo { perNodo: Map<string, string[]>; archi: ArcoConcetto[]; concetti: string[]; nomi: Record<string, string> }
+
+/** Etichette usabili come le usa la pubblicazione: nome, latino, alias; senza parentesi, almeno 4 lettere. */
+export function etichetteConcetto(c: { nome: string; latino?: string; alias?: string[] }): string[] {
+  const tutte = [c.nome, c.latino, ...(c.alias ?? [])].filter((x): x is string => typeof x === 'string');
+  return [...new Set(tutte.map((x) => x.replace(/\s*\([^)]*\)\s*/g, ' ').trim()).filter((x) => x.length >= 4 && !/[«»"*[\]|]/.test(x)))];
+}
+const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const PRIORITA: Record<string, number> = { 'parte-di': 0, 'esempio-di': 1, contrasta: 2, supera: 3, 'evolve-in': 3, crea: 4, interpreta: 4, causa: 4, influenza: 5, testimonia: 5, collegato: 7 };
+export const MAX_ARCHI = 9;
+
+/**
+ * Collega i nodi che nominano lo stesso concetto (se l'albero non li unisce già) e quelli i cui concetti
+ * sono legati nel glossario («Fonti primarie» → è una categoria delle → «Fonti di cognizione»).
+ * Pochi archi per lezione: prima le relazioni gerarchiche, poi le ripetizioni, poi i semplici collegamenti.
+ */
+export function semanticaGeometrica(radici: NodoGeo[], concetti: ConcettoGeo[], relazioni: RelazioneGeo[], max = MAX_ARCHI): SemanticaGeo {
+  const nodi: { n: NodoGeo; antenati: Set<string> }[] = [];
+  const visita = (n: NodoGeo, antenati: string[]) => { nodi.push({ n, antenati: new Set(antenati) }); n.figli.forEach((f) => visita(f, [...antenati, n.id])); };
+  radici.forEach((r) => visita(r, []));
+  const parentela = (a: string, b: string) => nodi.find((x) => x.n.id === a)!.antenati.has(b) || nodi.find((x) => x.n.id === b)!.antenati.has(a);
+  // Concetti nominati da ogni nodo, con la posizione: chi comincia col concetto lo «definisce».
+  const nomina = new Map<string, Map<string, number>>();
+  const regole = concetti.map((c) => ({ c, re: new RegExp(`(?<![\\p{L}\\p{N}])(?:${c.etichette.map(esc).sort((x, y) => y.length - x.length).join('|')})(?![\\p{L}\\p{N}])`, 'iu') })).filter((r) => r.c.etichette.length);
+  for (const { n } of nodi) {
+    const m = new Map<string, number>();
+    for (const { c, re } of regole) { const x = re.exec(n.unita.testo); if (x) m.set(c.id, x.index); }
+    nomina.set(n.id, m);
+  }
+  const conConcetto = (id: string) => nodi.filter(({ n }) => nomina.get(n.id)!.has(id)).map(({ n }) => n);
+  // Il nodo di riferimento di un concetto: un titolo o una voce che comincia col concetto, altrimenti la prima occorrenza.
+  const riferimento = (id: string, escludi: string) => {
+    const tutti = conConcetto(id).filter((n) => n.id !== escludi && !parentela(n.id, escludi));
+    return tutti.find((n) => nomina.get(n.id)!.get(id)! <= 3) ?? tutti[0];
+  };
+  const candidati: (ArcoConcetto & { p: number; ordine: number })[] = [];
+  const ordine = new Map(nodi.map(({ n }, i) => [n.id, i]));
+  const coppia = (a: string, b: string) => ordine.get(a)! < ordine.get(b)! ? [a, b] : [b, a];
+  for (const c of concetti) {
+    const lista = conConcetto(c.id);
+    for (let i = 1; i < lista.length; i++) {
+      const prec = lista.slice(0, i).reverse().find((p) => !parentela(p.id, lista[i].id));
+      if (prec) { const [da, a] = coppia(prec.id, lista[i].id); candidati.push({ da, a, tipo: 'stesso', concetto: c.id, p: 6, ordine: ordine.get(lista[i].id)! }); }
+    }
+  }
+  const presenti = new Set(concetti.map((c) => c.id));
+  // Una relazione, un arco: dal punto in cui il concetto è definito (o nominato per primo) a quello dell'altro.
+  for (const r of relazioni) {
+    if (!presenti.has(r.da) || !presenti.has(r.a) || r.da === r.a) continue;
+    const lista = conConcetto(r.da);
+    const da = lista.find((n) => nomina.get(n.id)!.get(r.da)! <= 3 && riferimento(r.a, n.id)) ?? lista.find((n) => riferimento(r.a, n.id));
+    const verso = da && riferimento(r.a, da.id);
+    if (!da || !verso || verso.id === da.id) continue;
+    candidati.push({ da: da.id, a: verso.id, tipo: 'relazione', concetto: r.da, altro: r.a, etichetta: r.etichetta, p: PRIORITA[r.tipo] ?? 6, ordine: ordine.get(da.id)! });
+  }
+  candidati.sort((x, y) => x.p - y.p || x.ordine - y.ordine);
+  const archi: ArcoConcetto[] = [], viste = new Set<string>();
+  const perConcetto = new Map<string, number>();
+  for (const { p: _p, ordine: _o, ...a } of candidati) {
+    const k = coppia(a.da, a.a).join('|');
+    if (viste.has(k)) continue;
+    // Non più di due ripetizioni dello stesso concetto: il resto lo dicono le etichette.
+    if (a.tipo === 'stesso') { const q = perConcetto.get(a.concetto) ?? 0; if (q >= 2) continue; perConcetto.set(a.concetto, q + 1); }
+    viste.add(k); archi.push(a);
+    if (archi.length >= max) break;
+  }
+  const perNodo = new Map<string, string[]>();
+  const aggiungi = (nodo: string, c: string) => { const l = perNodo.get(nodo) ?? []; if (!l.includes(c)) l.push(c); perNodo.set(nodo, l); };
+  for (const a of archi) {
+    if (a.tipo === 'stesso') { aggiungi(a.da, a.concetto); aggiungi(a.a, a.concetto); }
+    else { aggiungi(a.da, a.concetto); aggiungi(a.a, a.altro!); }
+  }
+  const usati = [...new Set(archi.flatMap((a) => [a.concetto, ...(a.altro ? [a.altro] : [])]))];
+  const nomi = Object.fromEntries(concetti.filter((c) => usati.includes(c.id)).map((c) => [c.id, c.nome]));
+  return { perNodo, archi, concetti: usati, nomi };
+}

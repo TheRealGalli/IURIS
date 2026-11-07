@@ -3,7 +3,7 @@ import { useCorso } from './data';
 import { useProgresso } from './store';
 import { proiettaSegnoTesto, type SezioneLettura } from './letture';
 import { caricaSezioneLettura, DOCUMENTI_LETTURA, paginaBlocco, preparaBlocchi, sezionePerPagina } from './letture-client';
-import { alberoGeometrico, strutturaBlocco, type NodoGeo, type SegnoGeo } from './mappa-geometrica';
+import { alberoGeometrico, etichetteConcetto, semanticaGeometrica, strutturaBlocco, type NodoGeo, type SegnoGeo, type SemanticaGeo } from './mappa-geometrica';
 import type { SegnoOriginale } from './originali';
 
 /** Carica solo i capitoli che contengono annotazioni: il corpus non entra nel grafo intero. */
@@ -39,12 +39,15 @@ export function useSezioniAnnotate() {
 export interface SezioneGeo {
   chiave: string; documento: string; docTitolo: string; sezione: string; titolo: string; da: number; a: number;
   radici: NodoGeo[]; segnati: number; segni: number;
+  /** Concetti del glossario nominati dai nodi e loro legami (prototipo). */
+  semantica: SemanticaGeo;
 }
 const pagineSegno = (s: SegnoOriginale) => s.ancoreTesto?.length ? s.ancoreTesto.map((a) => paginaBlocco(a.blocco) ?? s.pagina) : [s.pagina];
 
 /** Mappa sulla geometria del testo: per ogni lezione con segni, l'albero titoli → paragrafi → voci segnate. */
 export function useMappaGeometrica() {
   const { modelli, documenti, caricando, errore, originali } = useSezioniAnnotate();
+  const idx = useCorso();
   const strutture = useMemo(() => new Map([...modelli].map(([file, blocchi]) => [file, blocchi.flatMap((b) => strutturaBlocco(b))])), [modelli]);
   const { sezioni, collegati } = useMemo(() => {
     const visti = new Set<string>();
@@ -59,12 +62,15 @@ export function useMappaGeometrica() {
         });
         if (!geo.length) return [];
         const albero = alberoGeometrico(unita, geo);
+        const ids = [...new Set(blocchi.flatMap((b) => b.concetti))].filter((x): x is string => typeof x === "string");
+        const concetti = ids.flatMap((id) => { const c = idx.concettoById.get(id); return c ? [{ id, nome: c.nome, etichette: etichetteConcetto(c) }] : []; });
+        const semantica = semanticaGeometrica(albero.radici, concetti, idx.corso.relazioni);
         geo.forEach((g) => visti.add(`${doc.id}:${g.id}`));
-        return albero.radici.length ? [{ chiave: `${doc.id}/${meta.id}`, documento: doc.id, docTitolo: doc.titolo, sezione: meta.id, titolo: meta.titolo, da: meta.da, a: meta.a, ...albero }] : [];
+        return albero.radici.length ? [{ chiave: `${doc.id}/${meta.id}`, documento: doc.id, docTitolo: doc.titolo, sezione: meta.id, titolo: meta.titolo, da: meta.da, a: meta.a, ...albero, semantica }] : [];
       });
     });
     return { sezioni, collegati: visti.size };
-  }, [documenti, originali, modelli, strutture]);
+  }, [documenti, originali, modelli, strutture, idx]);
   const totale = documenti.reduce((n, d) => n + (originali?.[d.id]?.segni.length ?? 0), 0);
   return { sezioni, caricando, errore, totale, nonCollegati: Math.max(0, totale - collegati) };
 }
