@@ -1,14 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { hierarchy, tree, type HierarchyPointNode } from 'd3-hierarchy';
-import { select } from 'd3-selection';
-import { zoom, zoomIdentity, type ZoomBehavior } from 'd3-zoom';
-import 'd3-transition';
 import { norm, useCorso } from '../lib/data';
 import { href, vai } from '../lib/router';
 import { livello, padronanza } from '../lib/srs';
 import { useProgresso } from '../lib/store';
 import { TIPI_CONCETTO, TIPO_SINGOLARE, VERBO_RELAZIONE, type NodoMappa, type TipoConcetto } from '../lib/types';
 import { Icon, LivelloDot } from '../components/ui';
+import { useZoom } from '../lib/zoom';
 import { graphLabelLines, graphNodeRadius, graphTextWidth, GRAPH_LABEL_LINE } from '../lib/graph-geometry.mjs';
 import { placeGraphLabels } from '../lib/graph-labels.mjs';
 import MappaPersonaleView from './MappaPersonale';
@@ -94,56 +92,9 @@ function PannelloConcetto({ id, onClose, onFocus }: { id: string; onClose: () =>
   );
 }
 
-function useZoom(svgRef: React.RefObject<SVGSVGElement>, gRef: React.RefObject<SVGGElement>, onK?: (k: number) => void, minZoom = 0.15) {
-  const zRef = useRef<ZoomBehavior<SVGSVGElement, unknown>>();
-  useEffect(() => {
-    if (!svgRef.current || !gRef.current) return;
-    const surface = select(svgRef.current);
-    let inMovimento = false;
-    const z = zoom<SVGSVGElement, unknown>().scaleExtent([minZoom, 4])
-      .on('end.layers', () => { inMovimento = false; surface.attr('data-moving', null); })
-      .on('zoom', (e) => {
-        if (!inMovimento) { inMovimento = true; surface.attr('data-moving', 'true'); }
-        gRef.current?.setAttribute('transform', e.transform.toString());
-        onK?.(e.transform.k);
-      });
-    surface.call(z).on('dblclick.zoom', null);
-    zRef.current = z;
-    return () => {
-      // Anche cambiando pagina durante un'animazione, non restano timer o gesti sul vecchio SVG.
-      surface.interrupt().on('.zoom', null);
-      z.on('zoom', null).on('end.layers', null);
-      surface.attr('data-moving', null);
-      zRef.current = undefined;
-    };
-  }, []);
-  const fit = (bbox: { x: number; y: number; w: number; h: number }, pad = 40, maxK = 1.2, minK = minZoom) => {
-    const svg = svgRef.current;
-    if (!svg || !zRef.current) return;
-    const { width, height } = svg.getBoundingClientRect();
-    const k = Math.max(minK, Math.min(maxK, (width - pad * 2) / Math.max(1, bbox.w), (height - pad * 2) / Math.max(1, bbox.h)));
-    // se non entra tutto, si parte dall'inizio (sinistra) invece che dal centro
-    const tx = bbox.w * k > width - pad * 2 ? pad - bbox.x * k : width / 2 - (bbox.x + bbox.w / 2) * k;
-    const t = zoomIdentity.translate(tx, height / 2 - (bbox.y + bbox.h / 2) * k).scale(k);
-    select(svg).transition().duration(450).call(zRef.current.transform, t);
-  };
-  const centra = (x: number, y: number, k = 1.4) => {
-    const svg = svgRef.current;
-    if (!svg || !zRef.current) return;
-    const { width, height } = svg.getBoundingClientRect();
-    select(svg).transition().duration(500).call(zRef.current.transform, zoomIdentity.translate(width / 2 - x * k, height / 2 - y * k).scale(k));
-  };
-  const zoomBy = (factor: number) => {
-    if (svgRef.current && zRef.current) select(svgRef.current).transition().duration(180).call(zRef.current.scaleBy, factor);
-  };
-  const limitaInsieme = (bbox: { w: number; h: number }) => {
-    const svg = svgRef.current;
-    if (!svg || !zRef.current) return;
-    const { width, height } = svg.getBoundingClientRect();
-    const minimo = Math.min(1, (width - 80) / Math.max(1, bbox.w), (height - 80) / Math.max(1, bbox.h));
-    zRef.current.scaleExtent([Math.max(.005, minimo * .9), 4]);
-  };
-  return { fit, centra, zoomBy, limitaInsieme };
+/** Le mappe SVG scrivono la trasformazione sul gruppo che contiene il disegno. */
+function useZoomSvg(svgRef: React.RefObject<SVGSVGElement>, gRef: React.RefObject<SVGGElement>, onK?: (k: number) => void, minZoom = 0.15) {
+  return useZoom(svgRef, (t) => { gRef.current?.setAttribute('transform', t.toString()); onK?.(t.k); }, minZoom);
 }
 
 /* ───────────────────────── mappa mentale per unità ───────────────────────── */
@@ -165,7 +116,7 @@ function MindMap({ uid }: { uid: string }) {
   const [sel, setSel] = useState<string | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const gRef = useRef<SVGGElement>(null);
-  const { fit } = useZoom(svgRef, gRef);
+  const { fit } = useZoomSvg(svgRef, gRef);
 
   useEffect(() => {
     // unità grandi: si parte con i rami di 3° livello chiusi
@@ -285,7 +236,7 @@ function Grafo({ focus }: { focus: string | null }) {
   const gRef = useRef<SVGGElement>(null);
   // lo zoom non ridisegna nulla: cambia solo un attributo dell'svg, e il CSS mostra più o meno nomi
   const livZoom = useRef(1);
-  const { fit, centra, zoomBy, limitaInsieme } = useZoom(svgRef, gRef, (kk) => {
+  const { fit, centra, zoomBy, limitaInsieme } = useZoomSvg(svgRef, gRef, (kk) => {
     const lv = kk >= 0.65 ? 2 : kk >= 0.3 ? 1 : 0;
     if (lv !== livZoom.current) { livZoom.current = lv; svgRef.current?.setAttribute('data-zoom', String(lv)); }
   }, 0.025);

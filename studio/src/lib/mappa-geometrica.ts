@@ -297,3 +297,31 @@ export function accensione(archi: ArcoConcetto[], f: FuocoGeo): { archi: Set<num
   const concetti = new Set([...accesi].flatMap((i) => [archi[i].concetto, ...(archi[i].altro ? [archi[i].altro!] : [])]));
   return { archi: accesi, centro, collegati, concetti };
 }
+
+/* ───────── vista con zoom: inquadrature e coordinate ───────── */
+
+export interface Inquadratura { k: number; x: number; y: number }
+/**
+ * `tutto`: la mappa intera entra nella finestra (mai oltre il 100%).
+ * `larghezza`: entra la larghezza, si parte dall'alto; il resto si raggiunge trascinando o con la rotella.
+ */
+export function inquadra(c: { w: number; h: number }, f: { w: number; h: number }, modo: 'tutto' | 'larghezza', pad = 12, minK = 0.2): Inquadratura {
+  // il disegno ha già i suoi margini: se entra in larghezza resta al 100%, senza rimpicciolire il testo
+  const kw = c.w <= f.w ? 1 : (f.w - pad * 2) / Math.max(1, c.w), kh = (f.h - pad * 2) / Math.max(1, c.h);
+  const k = Math.max(minK, Math.min(1, kw, modo === 'tutto' ? kh : Infinity));
+  const y = modo === 'tutto' ? Math.max(0, (f.h - c.h * k) / 2) : (k === 1 ? 0 : pad);
+  return { k, x: (f.w - c.w * k) / 2, y };
+}
+/** Altezza della finestra: quanto serve alla mappa adattata in larghezza, fra un minimo e un massimo. */
+export const altezzaVista = (c: { w: number; h: number }, larghezza: number, massimo: number, minimo = 160, pad = 12): number => {
+  const k = c.w <= larghezza ? 1 : (larghezza - pad * 2) / Math.max(1, c.w);
+  return Math.round(Math.max(minimo, Math.min(massimo, c.h * k + pad * 2)));
+};
+/** Da coordinate dello schermo a coordinate del disegno, anche quando è ingrandito o rimpicciolito. */
+export const inLocale = (r: { left: number; top: number; right: number; bottom: number }, base: { left: number; top: number }, k: number) =>
+  ({ l: (r.left - base.left) / k, t: (r.top - base.top) / k, r: (r.right - base.left) / k, b: (r.bottom - base.top) / k });
+/** Righe di un arco: orizzontale dalla porta, curva, verticale nella corsia, curva, orizzontale fino alla porta d'arrivo. */
+export function tracciaArco(x1: number, y1: number, x2: number, y2: number, xl: number): string {
+  const su = y2 < y1 ? -1 : 1, rr = Math.min(12, Math.abs(y2 - y1) / 2);
+  return `M${x1},${y1} H${xl - rr} Q${xl},${y1} ${xl},${y1 + su * rr} V${y2 - su * rr} Q${xl},${y2} ${xl - rr},${y2} H${x2 + 1}`;
+}

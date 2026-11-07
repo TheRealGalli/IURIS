@@ -1,6 +1,7 @@
-import { memo, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties, type MouseEvent, type RefObject } from 'react';
+import { memo, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties, type MouseEvent, type ReactNode } from 'react';
 import type { ArcoConcetto, FuocoGeo, NodoGeo, SemanticaGeo } from '../lib/mappa-geometrica';
-import { accensione, corsieArchi, primoSegno } from '../lib/mappa-geometrica';
+import { accensione, altezzaVista, corsieArchi, inLocale, inquadra, primoSegno, tracciaArco } from '../lib/mappa-geometrica';
+import { useZoom } from '../lib/zoom';
 import type { SezioneGeo } from '../lib/letture-hooks';
 import { linkTesto } from '../lib/letture-client';
 import { Icon } from './ui';
@@ -51,60 +52,69 @@ const Nodo = memo(function Nodo({ n, sezione, modo, chiusi, alterna, apri, senso
   return <div className="mg-ramo">{scheda}{haFigli && !chiuso && <div className="mg-figli">{n.figli.map((f) => <Nodo key={f.id} n={f} sezione={sezione} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} senso={senso} />)}</div>}</div>;
 });
 
-const PASSO_CORSIA = 18, MARGINE_BASE = 34;
+const PASSO_CORSIA = 24, MARGINE_BASE = 34;
 const margineArchi = (corsie: number) => corsie ? Math.min(320, MARGINE_BASE + corsie * PASSO_CORSIA + 12) : 0;
 
-/** Archi fra nodi lontani: porta propria sul nodo, corsia propria nel margine, curve morbide agli angoli. */
-function Archi({ dentro, archi, sem, ordine, fuoco, setFuoco, firma }: { dentro: RefObject<HTMLDivElement | null>; archi: ArcoConcetto[]; sem: SemanticaGeo; ordine: Map<string, number>; fuoco: FuocoGeo; setFuoco: (f: FuocoGeo) => void; firma: string }) {
+/**
+ * Archi fra nodi lontani: porta propria sul nodo, corsia propria nel margine, curve morbide agli angoli.
+ * Il contenitore si prende dallo stesso svg (non da un ref del genitore, che al primo montaggio non è ancora pronto)
+ * e le misure si riportano alla scala del disegno: lo zoom non obbliga a ricalcolare nulla.
+ */
+function Archi({ archi, sem, ordine, fuoco, setFuoco, firma }: { archi: ArcoConcetto[]; sem: SemanticaGeo; ordine: Map<string, number>; fuoco: FuocoGeo; setFuoco: (f: FuocoGeo) => void; firma: string }) {
+  const svgRef = useRef<SVGSVGElement>(null);
   const [vie, setVie] = useState<{ i: number; d: string; lx: number; ly: number }[]>([]);
   const [misura, setMisura] = useState({ w: 0, h: 0 });
   const { percorsi } = useMemo(() => corsieArchi(archi, ordine), [archi, ordine]);
   useLayoutEffect(() => {
-    const el = dentro.current; if (!el) return;
+    const el = svgRef.current?.parentElement; if (!el) return;
     let attesa = 0;
     const calcola = () => {
       const base = el.getBoundingClientRect();
-      const r = (id: string) => el.querySelector(`[data-nodo="${CSS.escape(id)}"]`)?.getBoundingClientRect();
-      const destra = Math.max(...[...el.querySelectorAll('[data-nodo]')].map((x) => x.getBoundingClientRect().right)) - base.left;
-      const porta = (R: DOMRect, [k, n]: [number, number]) => {
+      const k = el.offsetWidth ? base.width / el.offsetWidth : 1;
+      const loc = (x: Element | null | undefined) => x ? inLocale(x.getBoundingClientRect(), base, k || 1) : undefined;
+      const nodi = [...el.querySelectorAll('[data-nodo]')];
+      const destra = Math.max(0, ...nodi.map((x) => loc(x)!.r));
+      const r = (id: string) => loc(el.querySelector(`[data-nodo="${CSS.escape(id)}"]`));
+      const porta = (R: { t: number; b: number; r: number }, [i, n]: [number, number]) => {
         // Porte distribuite sul bordo destro, lontane dagli angoli arrotondati.
-        const alto = R.top + Math.min(10, R.height * 0.2), basso = R.bottom - Math.min(10, R.height * 0.2);
-        return [R.right - base.left, (n <= 1 ? (R.top + R.bottom) / 2 : alto + (basso - alto) * k / (n - 1)) - base.top] as const;
+        const h = R.b - R.t, alto = R.t + Math.min(10, h * 0.2), basso = R.b - Math.min(10, h * 0.2);
+        return [R.r, n <= 1 ? (R.t + R.b) / 2 : alto + (basso - alto) * i / (n - 1)] as const;
       };
       const out: typeof vie = [];
-      // Corsie più larghe quando c'è spazio libero a destra; mai meno del passo minimo.
-      const corsie = Math.max(1, ...percorsi.map((p) => p.corsia + 1));
-      const fine = (el.parentElement ?? el).getBoundingClientRect().right - 16, libero = fine - (base.left + destra) - MARGINE_BASE;
-      const passo = Math.max(PASSO_CORSIA, Math.min(32, libero / (corsie + 0.5)));
       archi.forEach((a, i) => {
         const A = r(a.da), B = r(a.a); if (!A || !B) return;
         const p = percorsi[i], [x1, y1] = porta(A, p.portaDa), [x2, y2] = porta(B, p.portaA);
-        const xl = destra + MARGINE_BASE - 14 + p.corsia * passo, su = y2 < y1 ? -1 : 1, rr = Math.min(12, Math.abs(y2 - y1) / 2);
-        out.push({ i, d: `M${x1},${y1} H${xl - rr} Q${xl},${y1} ${xl},${y1 + su * rr} V${y2 - su * rr} Q${xl},${y2} ${xl - rr},${y2} H${x2 + 1}`, lx: xl - 8, ly: (y1 + y2) / 2 });
+        const xl = destra + MARGINE_BASE - 14 + p.corsia * PASSO_CORSIA;
+        out.push({ i, d: tracciaArco(x1, y1, x2, y2, xl), lx: xl - 8, ly: (y1 + y2) / 2 });
       });
       setVie(out); setMisura({ w: el.scrollWidth, h: el.scrollHeight });
     };
     calcola();
-    const ro = new ResizeObserver(() => { cancelAnimationFrame(attesa); attesa = requestAnimationFrame(calcola); }); ro.observe(el);
+    const ro = new ResizeObserver(() => { cancelAnimationFrame(attesa); attesa = requestAnimationFrame(calcola); });
+    ro.observe(el); for (const x of el.children) if (x !== svgRef.current) ro.observe(x);
     return () => { ro.disconnect(); cancelAnimationFrame(attesa); };
   }, [archi, percorsi, firma]);
   const luce = useMemo(() => accensione(archi, fuoco), [archi, fuoco]);
-  // Evidenza dei nodi senza ridisegnare l'albero: solo classi sugli elementi già presenti.
+  // Evidenza dei nodi senza ridisegnare l'albero: solo classi sugli elementi già presenti, tolte all'uscita.
   useEffect(() => {
-    const el = dentro.current; if (!el) return;
-    el.classList.toggle('mg-in-fuoco', !!luce);
-    for (const x of el.querySelectorAll<HTMLElement>('[data-nodo]')) {
-      const id = x.dataset.nodo!;
-      x.classList.toggle('mg-n-centro', !!luce && luce.centro === id);
-      x.classList.toggle('mg-n-collegato', !!luce && luce.collegati.has(id));
-    }
-    for (const x of el.querySelectorAll<HTMLElement>('[data-concetto]')) x.classList.toggle('mg-c-acceso', !!luce && luce.concetti.has(x.dataset.concetto!));
+    const el = svgRef.current?.parentElement; if (!el) return;
+    const segna = (on: boolean) => {
+      el.classList.toggle('mg-in-fuoco', on && !!luce);
+      for (const x of el.querySelectorAll<HTMLElement>('[data-nodo]')) {
+        const id = x.dataset.nodo!;
+        x.classList.toggle('mg-n-centro', on && !!luce && luce.centro === id);
+        x.classList.toggle('mg-n-collegato', on && !!luce && luce.collegati.has(id));
+      }
+      for (const x of el.querySelectorAll<HTMLElement>('[data-concetto]')) x.classList.toggle('mg-c-acceso', on && !!luce && luce.concetti.has(x.dataset.concetto!));
+    };
+    segna(true);
+    return () => segna(false);
   }, [luce]);
   // Etichette dei soli archi accesi, spinte in basso se si sovrappongono.
   const etichette = luce ? vie.filter((v) => luce.archi.has(v.i)).sort((a, b) => a.ly - b.ly) : [];
   let ultimo = -Infinity;
   const posate = etichette.map((v) => { const y = Math.max(v.ly, ultimo + 34); ultimo = y; return { ...v, ly: y }; });
-  return <><svg className={`mg-archi${luce ? ' mg-archi-fuoco' : ''}`} width={misura.w} height={misura.h} aria-hidden="true">
+  return <><svg ref={svgRef} className={`mg-archi${luce ? ' mg-archi-fuoco' : ''}`} width={misura.w} height={misura.h} data-vie={vie.length} aria-hidden="true">
     <defs>{sem.concetti.map((c) => <marker key={c} id={`mg-punta-${c}`} viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" fill={tinta(sem, c)} /></marker>)}</defs>
     {vie.map(({ i, d }) => {
       const a = archi[i], c = a.tipo === 'relazione' ? a.altro! : a.concetto, on = !luce || luce.archi.has(i);
@@ -121,12 +131,75 @@ function Archi({ dentro, archi, sem, ordine, fuoco, setFuoco, firma }: { dentro:
   })}</>;
 }
 
+/**
+ * Finestra con zoom e trascinamento (lo stesso d3-zoom delle altre mappe) al posto dello scorrimento orizzontale.
+ * Si riadatta in larghezza quando cambia la lezione, la forma o lo strato dei concetti; ripiegare un ramo non sposta la vista.
+ */
+function Vista({ chiave, compatta, children }: { chiave: string; compatta: boolean; children: ReactNode }) {
+  const fin = useRef<HTMLDivElement>(null), tela = useRef<HTMLDivElement>(null);
+  const tr = useRef({ x: 0, y: 0, k: 1 }), dim = useRef({ w: 0, h: 0 });
+  const [lar, setLar] = useState(0), [alto, setAlto] = useState(0);
+  const inquadrata = useRef('');
+  const z = useZoom(fin, (t) => {
+    tr.current = { x: t.x, y: t.y, k: t.k };
+    if (tela.current) tela.current.style.transform = `translate(${t.x}px,${t.y}px) scale(${t.k})`;
+    fin.current?.setAttribute('data-zoom', String(Math.round(t.k * 100)));
+  }, 0.2, { rotella: false, ignora: '.mg-zoom' });
+  const massimo = () => Math.round(window.innerHeight * (compatta ? 0.62 : 0.72));
+  const misura = () => { const t = tela.current; if (t) dim.current = { w: t.scrollWidth, h: t.scrollHeight }; return dim.current; };
+  const adatta = (modo: 'tutto' | 'larghezza', durata = 0) => {
+    const f = fin.current; if (!f) return;
+    const q = inquadra(misura(), { w: f.clientWidth, h: f.clientHeight }, modo);
+    z.imposta(q.x, q.y, q.k, durata);
+  };
+  useLayoutEffect(() => {
+    const f = fin.current; if (!f) return;
+    const ro = new ResizeObserver(() => setLar(f.clientWidth)); ro.observe(f); setLar(f.clientWidth);
+    return () => ro.disconnect();
+  }, []);
+  // Altezza della finestra e inquadratura iniziale; poi segue solo le misure (aprire o chiudere un ramo).
+  useLayoutEffect(() => {
+    const t = tela.current; if (!t || !lar) return;
+    const c = misura(), h = altezzaVista(c, lar, massimo());
+    setAlto(h);
+    // Cambiare la larghezza della finestra non toglie lo zoom scelto: si reinquadra solo per una nuova lezione, forma o strato.
+    if (inquadrata.current !== chiave) { inquadrata.current = chiave; const q = inquadra(c, { w: lar, h }, 'larghezza'); z.imposta(q.x, q.y, q.k); }
+    let attesa = 0;
+    const ro = new ResizeObserver(() => { cancelAnimationFrame(attesa); attesa = requestAnimationFrame(() => { const m = misura(); setAlto(altezzaVista(m, fin.current?.clientWidth ?? lar, massimo())); }); });
+    ro.observe(t); for (const x of t.children) ro.observe(x); const d = t.querySelector('.mg-albero-dentro'); if (d) ro.observe(d);
+    return () => { ro.disconnect(); cancelAnimationFrame(attesa); };
+  }, [chiave, lar]);
+  // Rotella senza Ctrl: scorre dentro la mappa finché c'è altro da vedere, poi lascia scorrere la pagina.
+  useEffect(() => {
+    const f = fin.current; if (!f) return;
+    const ruota = (e: WheelEvent) => {
+      if (e.ctrlKey || e.metaKey) return;
+      const u = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? f.clientHeight : 1;
+      const t = tr.current, W = dim.current.w * t.k, H = dim.current.h * t.k, fw = f.clientWidth, fh = f.clientHeight;
+      const tra = (v: number, lo: number, hi: number) => Math.min(Math.max(v, Math.min(lo, hi)), Math.max(lo, hi));
+      const ny = H + 24 > fh ? tra(t.y - e.deltaY * u, fh - H - 12, 0) : t.y;
+      const nx = W + 24 > fw ? tra(t.x - e.deltaX * u, fw - W - 12, 12) : t.x;
+      if (Math.abs(ny - t.y) < .5 && Math.abs(nx - t.x) < .5) return;
+      e.preventDefault(); z.imposta(nx, ny, t.k);
+    };
+    f.addEventListener('wheel', ruota, { passive: false });
+    return () => f.removeEventListener('wheel', ruota);
+  }, []);
+  return <div ref={fin} className="mg-finestra" style={alto ? { height: alto } : undefined}>
+    <div ref={tela} className="mg-tela" style={lar ? { width: lar } : undefined}>{children}</div>
+    <div className="mg-zoom" role="group" aria-label="Zoom della mappa">
+      <button className="btn btn-sm" onClick={() => z.zoomBy(1 / 1.3)} aria-label="Riduci zoom" title="Riduci">−</button>
+      <button className="btn btn-sm" onClick={() => z.zoomBy(1.3)} aria-label="Aumenta zoom" title="Ingrandisci">+</button>
+      <button className="btn btn-sm" onClick={() => adatta('tutto', 350)} aria-label="Vedi tutta la mappa" title="Vedi tutta la mappa"><Icon n="espandi" size={14} /></button>
+    </div>
+  </div>;
+}
+
 const ordineNodi = (radici: NodoGeo[]) => { const m = new Map<string, number>(); const v = (n: NodoGeo) => { m.set(n.id, m.size); n.figli.forEach(v); }; radici.forEach(v); return m; };
 const visibile = (nodi: NodoGeo[], id: string, chiusi: Set<string>): boolean => nodi.some((n) => n.id === id || (!chiusi.has(n.id) && visibile(n.figli, id, chiusi)));
 
 /** Albero o schema con lo strato dei concetti: stessi archi, stesso comportamento al passaggio del mouse. */
 function Disegno({ s, modo, chiusi, alterna, apri, significato }: { s: SezioneGeo; modo: 'albero' | 'schema'; chiusi: Set<string>; alterna: (id: string) => void; apri: (e: MouseEvent, href: string) => void; significato: boolean }) {
-  const dentro = useRef<HTMLDivElement>(null);
   const [fuoco, setFuoco] = useState<FuocoGeo>(null);
   const archi = useMemo(() => significato ? s.semantica.archi.filter((a) => visibile(s.radici, a.da, chiusi) && visibile(s.radici, a.a, chiusi)) : [], [s, chiusi, significato]);
   const ordine = useMemo(() => ordineNodi(s.radici), [s]);
@@ -135,11 +208,11 @@ function Disegno({ s, modo, chiusi, alterna, apri, significato }: { s: SezioneGe
   useEffect(() => setFuoco(null), [archi]);
   const margine = margineArchi(corsie);
   const nodi = s.radici.map((n) => <Nodo key={n.id} n={n} sezione={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} senso={senso} />);
-  const strato = archi.length > 0 && <Archi dentro={dentro} archi={archi} sem={s.semantica} ordine={ordine} fuoco={fuoco} setFuoco={setFuoco} firma={`${modo}|${[...chiusi].join(',')}`} />;
+  const strato = archi.length > 0 && <Archi archi={archi} sem={s.semantica} ordine={ordine} fuoco={fuoco} setFuoco={setFuoco} firma={`${modo}|${[...chiusi].join(',')}`} />;
   const stile = { '--mg-livelli': livelli(s.radici, chiusi), '--mg-margine': `${margine}px` } as CSSProperties;
-  if (modo === 'schema') return <div ref={dentro} className={`mg-schema-dentro${archi.length ? ' mg-con-archi' : ''}`} style={stile}><ul className="mg-schema">{nodi}</ul>{strato}</div>;
+  if (modo === 'schema') return <div className={`mg-schema-dentro${archi.length ? ' mg-con-archi' : ''}`} style={stile}><ul className="mg-schema">{nodi}</ul>{strato}</div>;
   return <div className="mg-albero" style={stile}>
-    <div ref={dentro} className={`mg-albero-dentro${archi.length ? ' mg-con-archi' : ''}`}>{nodi}{strato}</div>
+    <div className={`mg-albero-dentro${archi.length ? ' mg-con-archi' : ''}`}>{nodi}{strato}</div>
   </div>;
 }
 
@@ -176,7 +249,13 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
         <button className="btn btn-sm btn-ghost" onClick={() => setAperte(new Set())}>Chiudi tutto</button>
       </div>
     </div>
-    <p className="mg-spiegazione small muted">La mappa ha la forma del testo: titoli, paragrafi ed elenchi nell’ordine in cui sono scritti. Compaiono solo le parti che hai segnato; in grigio i titoli e i paragrafi che le contengono. Evidenziature e sottolineature restano come nel testo.{significato && ' Le etichette colorate sono concetti del glossario: gli archi uniscono i punti che ne parlano o i concetti legati fra loro. Passa sopra un nodo, un’etichetta o una linea per seguirla.'}</p>
+    <p className="mg-spiegazione small muted">La mappa ha la forma del testo: titoli, paragrafi ed elenchi nell’ordine in cui sono scritti. Compaiono solo le parti che hai segnato; in grigio i titoli e i paragrafi che le contengono. Evidenziature e sottolineature restano come nel testo. Trascina per spostarti; pizzica o usa Ctrl/⌘ e la rotella (oppure − e +) per lo zoom; <Icon n="espandi" size={11} /> mostra tutta la mappa.{significato && ' Le etichette colorate sono concetti del glossario: gli archi uniscono i punti che ne parlano o i concetti legati fra loro. Passa sopra un nodo, un’etichetta o una linea per seguirla.'}</p>
+    {significato && <div className="mg-legenda tiny" aria-label="Legenda dei concetti collegati">
+      <span><i className="mg-l-centro" /> contorno verde: il nodo o il concetto che stai guardando</span>
+      <span><i className="mg-l-collegato" /> contorno arancio: i concetti collegati</span>
+      <span><svg width="22" height="8" aria-hidden="true"><path d="M1,4 H21" className="mg-l-rel" /></svg> legame del glossario</span>
+      <span><svg width="22" height="8" aria-hidden="true"><path d="M1,4 H21" className="mg-l-stesso" /></svg> stesso concetto in punti lontani</span>
+    </div>}
     <div className="mg-corpo">
       {visibili.map((s) => {
         const aperta = aperte.has(s.chiave) || !!scelta;
@@ -186,7 +265,7 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
             <span className="mg-lezione-titolo">{s.titolo}</span>
             <span className="tiny faint">{documenti.length > 1 ? `${accorcia(s.docTitolo, 34)} · ` : ''}pp. {s.da}{s.a !== s.da ? `–${s.a}` : ''} · {s.segnati} {s.segnati === 1 ? 'parte segnata' : 'parti segnate'}</span>
           </button>
-          {aperta && <Disegno s={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} significato={significato} />}
+          {aperta && <Vista chiave={`${modo}|${significato ? 1 : 0}`} compatta={compatta}><Disegno s={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} significato={significato} /></Vista>}
         </article>;
       })}
     </div>

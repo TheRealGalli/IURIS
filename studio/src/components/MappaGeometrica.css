@@ -38,7 +38,7 @@
 
 /* albero da sinistra a destra */
 /* Le colonne si dividono la larghezza: ogni livello ha la stessa misura, l'albero intero è centrato. */
-.mg-albero { --mg-livelli: 3; --mg-passo: 58px; container-type: inline-size; padding: 10px 16px 22px; overflow-x: auto; }
+.mg-albero { --mg-livelli: 3; --mg-passo: 58px; container-type: inline-size; padding: 10px 16px 22px; }
 .mg-albero-dentro { display: flex; flex-direction: column; align-items: flex-start; gap: 18px; width: max-content; margin-inline: auto; }
 .mg-albero .mg-nodo { box-sizing: border-box; width: clamp(210px, calc((100cqw - 34px - var(--mg-margine, 0px) - (var(--mg-livelli) - 1) * var(--mg-passo)) / var(--mg-livelli)), 460px); max-width: none; }
 .mg-albero .mg-testo { -webkit-line-clamp: 7; }
@@ -88,3 +88,20 @@
 .mg-arco-etichetta { position: absolute; z-index: 2; transform: translate(-100%, -50%); width: max-content; max-width: 280px; padding: 3px 8px; border: 1px solid color-mix(in srgb, var(--mg-tinta) 50%, transparent); border-radius: 8px; background: var(--surface); color: var(--ink-2); font-size: 11px; line-height: 1.4; box-shadow: 0 2px 8px #0000001a; pointer-events: none; }
 .mg-arco-etichetta b { color: var(--mg-tinta); font-weight: 650; }
 .mg-testo { flex: 1 1 0; }
+
+/* finestra con zoom: si trascina e si ingrandisce invece di scorrere in orizzontale */
+.mg-finestra { position: relative; overflow: hidden; min-height: 160px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none;
+  background: radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--ink) 7%, transparent) 1px, transparent 0) 0 0 / 22px 22px; }
+.mg-finestra[data-moving="true"] { cursor: grabbing; }
+.mg-finestra[data-moving="true"] .mg-nodo, .mg-finestra[data-moving="true"] .mg-arco path { transition: none; }
+.mg-tela { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
+.mg-tela .mg-nodo { cursor: pointer; }
+.mg-zoom { position: absolute; top: 8px; right: 8px; z-index: 3; display: flex; gap: 4px; }
+.mg-zoom .btn { min-width: 30px; justify-content: center; background: var(--surface); box-shadow: 0 1px 4px #00000014; }
+.mg-legenda { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 8px 14px; border-bottom: 1px solid var(--line); color: var(--ink-2); }
+.mg-legenda span { display: inline-flex; align-items: center; gap: 6px; }
+.mg-legenda i { width: 16px; height: 11px; border-radius: 4px; background: var(--surface); }
+.mg-l-centro { box-shadow: 0 0 0 2px #2f9e5b; }
+.mg-l-collegato { box-shadow: 0 0 0 2px #e08a2c; }
+.mg-l-rel, .mg-l-stesso { fill: none; stroke: var(--ink-3); stroke-width: 1.8; }
+.mg-l-stesso { stroke-dasharray: 2 4; stroke-linecap: round; }

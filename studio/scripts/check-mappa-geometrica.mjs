@@ -5,7 +5,7 @@ import ts from 'typescript';
 
 const src = await readFile(new URL('../src/lib/mappa-geometrica.ts', import.meta.url), 'utf8');
 const js = ts.transpileModule(src, { compilerOptions: { target: ts.ScriptTarget.ES2020, module: ts.ModuleKind.ESNext } }).outputText;
-const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto, corsieArchi, accensione } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
+const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto, corsieArchi, accensione, inquadra, altezzaVista, inLocale, tracciaArco } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
 
 // Pagina «Premesse» degli appunti: titolo, frase che introduce l'elenco, cinque voci, due paragrafi.
 const testi = [['titolo', 2, 'Premesse'], ['paragrafo', 0, 'I cinque significati di Diritto Romano'],
@@ -131,4 +131,40 @@ let checks = 0;
   assert(s.archi.some((a) => a.tipo === 'relazione' && a.concetto === 'consuetudine' && a.altro === 'legge'));
   checks++;
 }
-console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse e affidabilità dei legami.`);
+{
+  // Vista con zoom: la mappa intera entra nella finestra, in larghezza resta al 100% se c'è spazio, il resto si raggiunge trascinando.
+  const f = { w: 1000, h: 600 };
+  assert.deepEqual(inquadra({ w: 1000, h: 1800 }, f, 'larghezza'), { k: 1, x: 0, y: 0 }, 'entra in larghezza: niente rimpicciolimento, si parte dall’alto');
+  const t = inquadra({ w: 1000, h: 1800 }, f, 'tutto');
+  assert(Math.abs(1800 * t.k - (600 - 24)) < 1e-6 && t.y >= 0, 'vedi tutto: l’altezza intera entra nella finestra');
+  assert(Math.abs(t.x + 1000 * t.k / 2 - 500) < 1e-6, 'vedi tutto: centrata');
+  const larga = inquadra({ w: 2400, h: 500 }, f, 'larghezza');
+  assert(larga.k < 1 && Math.abs(2400 * larga.k - 976) < 1e-6, 'più larga della finestra: si adatta in larghezza');
+  assert.equal(inquadra({ w: 400, h: 200 }, f, 'tutto').k, 1, 'mai oltre il 100% nell’inquadratura');
+  assert.equal(inquadra({ w: 100000, h: 100000 }, f, 'tutto').k, 0.2, 'zoom minimo rispettato');
+  assert.equal(altezzaVista({ w: 1000, h: 300 }, 1000, 650), 324, 'mappa corta: finestra alta quanto serve');
+  assert.equal(altezzaVista({ w: 1000, h: 3000 }, 1000, 650), 650, 'mappa lunga: finestra al massimo, il resto con trascinamento o rotella');
+  assert.equal(altezzaVista({ w: 1000, h: 20 }, 1000, 650), 160, 'mai più bassa del minimo');
+  checks++;
+}
+{
+  // Le linee si ridisegnano uguali in ogni passaggio: coordinate alla scala del disegno qualunque sia lo zoom.
+  const base = { left: 100, top: 50 }, nodo = { left: 300, top: 250, right: 500, bottom: 330 };
+  const a1 = inLocale(nodo, base, 1);
+  const a2 = inLocale({ left: 100 + 200 * 2, top: 50 + 200 * 2, right: 100 + 400 * 2, bottom: 50 + 280 * 2 }, base, 2);
+  assert.deepEqual(a1, a2, 'stesso nodo, stessa posizione a zoom 1 e 2');
+  assert.deepEqual(inLocale({ left: 100 + 80, top: 50 + 80, right: 100 + 160, bottom: 50 + 112 }, base, 0.4), a1, 'e a zoom 0,4');
+  const d = tracciaArco(500, 290, 480, 120, 560);
+  assert(d.startsWith('M500,290 '), 'parte dalla porta del nodo'); assert(d.endsWith('H481'), 'arriva alla porta dell’altro nodo');
+  assert(/Q560,290 560,278 V132 Q560,120 548,120/.test(d), 'curve morbide e tratto verticale nella corsia');
+  assert.equal(tracciaArco(10, 20, 10, 20, 50), tracciaArco(10, 20, 10, 20, 50), 'deterministico');
+  // Albero ↔ schema, concetti spenti/accesi, cambio lezione: lo strato delle linee trova il contenitore dal proprio svg
+  // (al primo montaggio il ref del genitore non è ancora assegnato: era il motivo delle linee sparite).
+  const comp = await readFile(new URL('../src/components/MappaGeometrica.tsx', import.meta.url), 'utf8');
+  const archiSrc = comp.slice(comp.indexOf('function Archi('), comp.indexOf('function Vista('));
+  assert(/svgRef\.current\?\.parentElement/.test(archiSrc) && !/dentro\.current/.test(archiSrc), 'gli archi non dipendono dal ref del contenitore');
+  assert(/return \(\) => segna\(false\)/.test(archiSrc), 'spegnendo i concetti non restano contorni sui nodi');
+  assert(/inquadrata\.current !== chiave/.test(comp), 'lo zoom scelto resta finché non cambia lezione, forma o strato');
+  checks++;
+}
+console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse, affidabilità dei legami, zoom e ridisegno delle linee.`);
