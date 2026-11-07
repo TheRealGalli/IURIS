@@ -12,6 +12,7 @@ import { Icon, LivelloDot } from '../components/ui';
 import { graphLabelLines, graphNodeRadius, graphTextWidth, GRAPH_LABEL_LINE } from '../lib/graph-geometry.mjs';
 import { placeGraphLabels } from '../lib/graph-labels.mjs';
 import MappaPersonaleView from './MappaPersonale';
+import { domandeNodiMappa, livelloNodo } from '../lib/mappa-livelli';
 
 export default function Mappa({ query }: { query: URLSearchParams }) {
   const idx = useCorso();
@@ -194,11 +195,8 @@ function MindMap({ uid }: { uid: string }) {
   // si adatta allo schermo solo al cambio di unità (aprire un ramo non sposta la vista)
   useEffect(() => { const t = setTimeout(() => fit(layout.bbox, 30, 1.1, 0.62), 60); return () => clearTimeout(t); }, [u.id]);
 
-  const colore = (c?: string) => {
-    if (!c) return 'ignoto';
-    const m = padronanza(p, idx.domandePerConcetto.get(c));
-    return m.totali ? livello(m.media, m.viste) : 'ignoto';
-  };
+  // Ogni nodo riflette il proprio concetto e i suoi figli, con la stessa logica delle statistiche.
+  const domandeNodi = useMemo(() => domandeNodiMappa(radice, idx.domandePerConcetto), [radice, idx]);
 
   const espandiTutto = () => setChiusi(new Set());
   const chiudiTutto = () => { const s = new Set<string>(); const w = (n: NodoK, d: number) => { if (d >= 1 && n.figli?.length) s.add(n._k); n.figli?.forEach((f) => w(f, d + 1)); }; w(radice, 0); setChiusi(s); };
@@ -223,17 +221,18 @@ function MindMap({ uid }: { uid: string }) {
           {layout.nodi.map(({ d, x, y, w, h }) => {
             const n = d.data;
             const root = d.depth === 0;
-            const lv = colore(n.concetto);
+            const stato = livelloNodo(p, domandeNodi.get(n)), lv = stato.livello, misurabile = stato.totali > 0;
             const haFigli = !!n.figli?.length;
             const chiuso = chiusi.has(n._k);
-            const fill = root ? 'var(--ink)' : n.concetto ? `var(--${lv === 'ignoto' ? 'surface' : lv === 'forte' ? 'ok-soft' : lv === 'medio' ? 'mid-soft' : 'bad-soft'})` : 'var(--surface-2)';
-            const stroke = root ? 'var(--ink)' : n.concetto ? (lv === 'ignoto' ? 'var(--line-2)' : `var(--${lv === 'forte' ? 'ok' : lv === 'medio' ? 'mid' : 'bad'})`) : 'var(--line)';
+            const fill = root ? 'var(--ink)' : misurabile ? `var(--${lv === 'ignoto' ? 'surface' : lv === 'forte' ? 'ok-soft' : lv === 'medio' ? 'mid-soft' : 'bad-soft'})` : 'var(--surface-2)';
+            const stroke = root ? 'var(--ink)' : misurabile ? (lv === 'ignoto' ? 'var(--line-2)' : `var(--${lv === 'forte' ? 'ok' : lv === 'medio' ? 'mid' : 'bad'})`) : 'var(--line)';
             return (
               <g key={n._k} className="mm-node" transform={`translate(${x},${y - h / 2})`}
                 onClick={() => {
                   if (haFigli) setChiusi((c) => { const s = new Set(c); if (s.has(n._k)) s.delete(n._k); else s.add(n._k); return s; });
                   if (n.concetto && idx.concettoById.has(n.concetto)) setSel(n.concetto);
                 }}>
+                <title>{root ? n.testo : misurabile ? `${n.testo}: ${stato.viste} di ${stato.totali} domande collegate già viste` : `${n.testo}: nessuna domanda collegata`}</title>
                 <rect width={w} height={h} rx={10} fill={fill} stroke={stroke} strokeDasharray={n.concetto ? undefined : '0'} />
                 <text x={14} y={n.nota ? 19 : h / 2 + 4.5} style={{ fill: root ? 'var(--bg)' : undefined, fontWeight: d.depth <= 1 ? 650 : 500 }}>
                   {n.testo.length > 44 ? n.testo.slice(0, 43) + '…' : n.testo}
@@ -280,7 +279,8 @@ function Grafo({ focus }: { focus: string | null }) {
   const [cerca, setCerca] = useState('');
   const [sel, setSel] = useState<string | null>(focus);
   const [dettaglio, setDettaglio] = useState(false);
-  const [colora, setColora] = useState<'padronanza' | 'tipo'>(() => (Object.keys(p.carte).length >= 20 ? 'padronanza' : 'tipo'));
+  // Appena c'è una risposta la rete si accende; i colori per tipo restano a un clic.
+  const [colora, setColora] = useState<'padronanza' | 'tipo'>(() => (Object.keys(p.carte).length > 0 ? 'padronanza' : 'tipo'));
   const svgRef = useRef<SVGSVGElement>(null);
   const gRef = useRef<SVGGElement>(null);
   // lo zoom non ridisegna nulla: cambia solo un attributo dell'svg, e il CSS mostra più o meno nomi

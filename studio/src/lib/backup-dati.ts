@@ -1,5 +1,5 @@
 import type { Preferenze, Progresso } from './store';
-import { elementiAzioneSegno, idSezioneTestoValido, normalizzaAncoreTesto, segniIdentici, type AncoraTesto, type AzioneSegno, type LetturaOriginale, type SegnoOriginale } from './originali';
+import { elementiAzioneSegno, idSezioneTestoValido, normalizzaAncoreTesto, segniIdentici, type AncoraTesto, type AzioneSegno, type LetturaOriginale, type SegnoOriginale, COLORI_SEGNO } from './originali';
 
 type Oggetto = Record<string, unknown>;
 export interface BackupDati {
@@ -23,7 +23,7 @@ const opzionale = (o: Oggetto, k: string, fn: (v: unknown, dove: string) => unkn
 const intero = (v: unknown, dove: string) => numero(v, dove, true);
 const positivo = (v: unknown, dove: string) => intero(v, dove) > 0 ? v : errore(dove);
 const booleano = (v: unknown, dove: string) => typeof v === 'boolean' ? v : errore(dove);
-const scelta = (v: unknown, valori: unknown[], dove: string) => valori.includes(v) ? v : errore(dove);
+const scelta = (v: unknown, valori: readonly unknown[], dove: string) => valori.includes(v) ? v : errore(dove);
 export const slugBackupValido = (v: unknown): v is string => typeof v === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(v) && v.length <= 160;
 const slug = (v: unknown, dove: string) => slugBackupValido(v) ? v : errore(dove);
 const data = (v: unknown, dove: string) => {
@@ -48,7 +48,7 @@ function segno(v: unknown, dove: string): SegnoOriginale {
   const contenuto = testo(s.testo, `${dove}.testo`);
   if (contenuto.length > 10000) errore(`${dove}.testo troppo lungo`);
   scelta(s.tipo, ['evidenziato', 'sottolineato'], `${dove}.tipo`);
-  scelta(s.colore, ['giallo', 'verde', 'rosa'], `${dove}.colore`);
+  scelta(s.colore, COLORI_SEGNO, `${dove}.colore`);
   const rettangoli = array(s.rettangoli, `${dove}.rettangoli`);
   if (s.ancoreTesto !== undefined) {
     try { normalizzaAncoreTesto(s.ancoreTesto as AncoraTesto[]); } catch { errore(`${dove}.ancoreTesto`); }

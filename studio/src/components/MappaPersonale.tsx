@@ -2,6 +2,7 @@ import { memo, useCallback, useEffect, useMemo, useRef, useState, type PointerEv
 import { href } from '../lib/router';
 import { graphLabelLines, graphTextWidth } from '../lib/graph-geometry.mjs';
 import { Icon } from './ui';
+import type { ColoreSegno } from '../lib/originali';
 import './MappaPersonale.css';
 
 export interface PassaggioMappa {
@@ -12,7 +13,7 @@ export interface PassaggioMappa {
   titolo: string;
   testo: string;
   tipo: 'evidenziato' | 'sottolineato';
-  colore: 'giallo' | 'verde' | 'rosa';
+  colore: ColoreSegno;
   concetti: { id: string; nome: string }[];
   origine?: 'pdf' | 'testo';
   /** Posizione nel testo (documento, sezione, pagina, blocco, offset): la mappa segue l'ordine di lettura. */
@@ -195,8 +196,8 @@ function MappaPersonale({ passaggi: ricevuti, onApri, onConcetto, hrefLettura, c
   return <section className={`mappa-personale${compatta ? ' mp-compatta' : ''}`} aria-label="Mappa personale" onKeyDown={(e) => { if (e.key === 'Escape' && dettaglioAperto) { e.stopPropagation(); chiudi(); } }}>
     <div className="mp-barra">
       <label className="mp-ricerca"><Icon n="cerca" size={15} /><input className="input" aria-label="Cerca nei passaggi personali" placeholder="Cerca nei passaggi…" value={cerca} onChange={(e) => { setCerca(e.target.value); setPagina(0); chiudi(); }} /></label>
-      {opzioni.length > 1 && <select className="select" aria-label="Filtra la mappa personale per sezione" value={sezione} onChange={(e) => { setSezione(e.target.value); setPagina(0); chiudi(); }}><option value="">Tutte le sezioni</option>{opzioni.map(([id, titolo]) => <option key={id} value={id}>{titolo}</option>)}</select>}
       <div className="mp-vista" aria-label="Vista della mappa personale"><button className={`btn btn-sm ${modo === 'mappa' ? 'mp-attivo' : 'btn-ghost'}`} aria-pressed={modo === 'mappa'} onClick={() => setModo('mappa')}><Icon n="mappa" size={15} />Mappa</button><button className={`btn btn-sm ${modo === 'elenco' ? 'mp-attivo' : 'btn-ghost'}`} aria-pressed={modo === 'elenco'} onClick={() => setModo('elenco')}>Elenco</button></div>
+      {opzioni.length > 1 && <select className="select" aria-label="Filtra la mappa personale per sezione" value={sezione} onChange={(e) => { setSezione(e.target.value); setPagina(0); chiudi(); }}><option value="">Tutte le sezioni</option>{opzioni.map(([id, titolo]) => <option key={id} value={id}>{titolo}</option>)}</select>}
       {modo === 'mappa' && <div className="mp-zoom" aria-label="Zoom della mappa personale"><button className="btn btn-sm" aria-label="Riduci zoom della mappa personale" onClick={() => zoom(1 / 1.25)}>−</button><span>{percentuale}%</span><button className="btn btn-sm" aria-label="Aumenta zoom della mappa personale" onClick={() => zoom(1.25)}>+</button><button className="btn btn-sm" aria-label="Adatta la mappa personale" title="Vista d’insieme" onClick={() => adatta()}><Icon n="espandi" size={15} /></button><button className="btn btn-sm btn-ghost" onClick={() => adatta(true)}>Leggi i nomi</button></div>}
     </div>
     <p className="mp-spiegazione small muted">I collegamenti indicano i concetti presenti nel contesto dei passaggi segnati. Seleziona un passaggio per leggerlo e tornare al testo.</p>

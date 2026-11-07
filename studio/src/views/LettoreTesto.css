@@ -21,6 +21,9 @@
 .lettura { --selezione: #f7d84b60; --linea: #b29512; }
 .lettura[data-colore="verde"] { --selezione: #62ce9560; --linea: #23865a; }
 .lettura[data-colore="rosa"] { --selezione: #f285af60; --linea: #b63264; }
+.lettura[data-colore="azzurro"] { --selezione: #6cb8f060; --linea: #3d8bd0; }
+.lettura[data-colore="viola"] { --selezione: #b195f260; --linea: #8a63d8; }
+.lettura[data-colore="arancio"] { --selezione: #f7a35c60; --linea: #d27427; }
 .lettura[data-strumento="gomma"] { --selezione: #a49b8a35; }
 .lettura .prose ::selection { background: var(--selezione); }
 .lettura .prose[data-bozza="true"] ::selection { background: transparent; }

@@ -198,6 +198,18 @@ try {
     assert.deepEqual(summary.materie, ['romano']); assert.deepEqual(store.riepilogoBackup().materie, ['romano']);
     assert.equal(storage.writes, writes); assert.deepEqual(disk(), suDisco);
   });
+  await check('I sei colori dei segni passano dal backup; un colore sconosciuto è rifiutato', async () => {
+    await fresh(); const doc = originali.originaliMateria('diritto-romano')[0];
+    const colori = ['giallo', 'verde', 'rosa', 'azzurro', 'viola', 'arancio'];
+    colori.forEach((colore, i) => store.aggiungiSegnoOriginale(doc.materia, doc, { ...originalSign, testo: `Segno ${colore}`, colore, tipo: i % 2 ? 'sottolineato' : 'evidenziato', rettangoli: [{ x: .1, y: .1 + i * .05, w: .5, h: .02 }] }));
+    const backup = store.esportaTutto();
+    assert.equal(store.ispezionaBackup(backup).segni, 6);
+    await fresh(); store.importaTutto(backup);
+    assert.deepEqual(progress(doc.materia).originali[doc.id].segni.map((s) => s.colore), colori);
+    const alterato = JSON.parse(backup); alterato.materie[doc.materia].originali[doc.id].segni[0].colore = 'blu';
+    assert.throws(() => store.ispezionaBackup(JSON.stringify(alterato)));
+    assert.throws(() => store.aggiungiSegnoOriginale(doc.materia, doc, { ...originalSign, colore: 'blu' }));
+  });
   await check('La cancellazione multipla della gomma e il suo Undo/Redo restano nel backup totale', async () => {
     await fresh(); const doc = originali.originaliMateria('diritto-romano')[0];
     store.aggiungiSegnoOriginale(doc.materia, doc, originalSign);

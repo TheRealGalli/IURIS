@@ -20,6 +20,9 @@
 .originali-colore.giallo { background: #f4d868; }
 .originali-colore.verde { background: #83cfa6; }
 .originali-colore.rosa { background: #efa3bc; }
+.originali-colore.azzurro { background: #8ec5f0; }
+.originali-colore.viola { background: #c2a8f0; }
+.originali-colore.arancio { background: #f5b27a; }
 .originali-colore[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 2px var(--surface); }
 .originali-barra :focus-visible, .originali-header :focus-visible { outline: 2px solid var(--ink-2); outline-offset: 2px; }
 .originali-feedback { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); z-index: 6; max-width: calc(100% - 32px); padding: 5px 12px; border-radius: 20px; background: var(--ink); color: var(--bg); box-shadow: var(--shadow); font-size: 12px; text-align: center; pointer-events: none; }
@@ -32,6 +35,9 @@
 .originali-estratto.giallo { border-color: #d6b446; }
 .originali-estratto.verde { border-color: #56ad7c; }
 .originali-estratto.rosa { border-color: #db7c9d; }
+.originali-estratto.azzurro { border-color: #5b9fd6; }
+.originali-estratto.viola { border-color: #9a7ad8; }
+.originali-estratto.arancio { border-color: #df8f4a; }
 .originali-scorciatoie { display: grid; grid-template-columns: max-content 1fr; gap: 8px 12px; font-size: 12px; }
 .originali-scorciatoie dt { color: var(--ink); }
 .originali-scorciatoie dd { margin: 0; color: var(--ink-2); }

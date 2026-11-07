@@ -6,7 +6,7 @@
 .mp-barra .input, .mp-barra .select { min-height: 34px; padding-top: 6px; padding-bottom: 6px; font-size: 12px; }
 .mp-barra .select { flex: 1 1 170px; width: 0; min-width: 150px; max-width: 310px; text-overflow: ellipsis; }
 .mp-vista, .mp-zoom { display: flex; align-items: center; gap: 3px; }
-.mp-vista { margin-left: auto; }
+.mp-zoom { margin-left: auto; }
 .mp-vista .mp-attivo { border-color: var(--ink-3); background: var(--bg-2); }
 .mp-zoom .btn { min-width: 31px; padding-left: 8px; padding-right: 8px; }
 .mp-zoom > span { width: 40px; font-size: 11px; color: var(--ink-3); text-align: center; font-variant-numeric: tabular-nums; }
@@ -33,6 +33,9 @@
 .mappa-personale .giallo { --mp-colore: #c6a837; }
 .mappa-personale .verde { --mp-colore: #4b9f75; }
 .mappa-personale .rosa { --mp-colore: #c9698d; }
+.mappa-personale .azzurro { --mp-colore: #4f93c9; }
+.mappa-personale .viola { --mp-colore: #8d6cc9; }
+.mappa-personale .arancio { --mp-colore: #d0843f; }
 .mp-attenuato { opacity: .32; }
 .mp-elenco { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding: 16px; }
 .mp-scheda { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; width: 100%; min-width: 0; padding: 16px; text-align: left; background: var(--surface); border: 1px solid var(--line-2); border-left: 4px solid var(--mp-colore); border-radius: 10px; cursor: pointer; }
@@ -60,7 +63,6 @@
 @media (max-width: 700px) {
   .mp-barra { gap: 7px; padding: 9px; }
   .mp-barra .select { flex-basis: 150px; }
-  .mp-vista { margin-left: 0; }
   .mp-zoom { margin-left: auto; flex-wrap: wrap; }
   .mp-elenco { grid-template-columns: minmax(0, 1fr); padding: 10px; }
   .mp-dettaglio { max-height: 560px; width: min(365px, 100%); }

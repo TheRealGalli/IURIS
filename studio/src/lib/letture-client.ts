@@ -47,7 +47,8 @@ export function preparaBlocchi(sezione: SezioneLettura, concetti: Map<string, Co
 }
 
 export type SegnoBlocco = { segno: SegnoOriginale; ancora: AncoraTesto };
-const COLORI = { giallo: ['#f7d84b70', '#b29512'], verde: ['#62ce9570', '#23865a'], rosa: ['#f285af70', '#b63264'] };
+const COLORI: Record<SegnoOriginale['colore'], [string, string]> = { giallo: ['#f7d84b70', '#b29512'], verde: ['#62ce9570', '#23865a'], rosa: ['#f285af70', '#b63264'],
+  azzurro: ['#6cb8f070', '#3d8bd0'], viola: ['#b195f270', '#8a63d8'], arancio: ['#f7a35c70', '#d27427'] };
 /** La marcatura cambia solo dopo un salvataggio, mai durante il trascinamento della selezione. */
 export function htmlConSegni(html: string, segni: SegnoBlocco[]): string {
   if (!segni.length) return html;

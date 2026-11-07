@@ -11,6 +11,9 @@ export interface DocumentoOriginale {
   tipoFonte?: 'manuale-ricostruito';
 }
 
+/** Colori dei segni, nell'ordine delle scorciatoie 1–6. Non hanno un significato fisso: lo decide chi studia. */
+export const COLORI_SEGNO = ['giallo', 'verde', 'rosa', 'azzurro', 'viola', 'arancio'] as const;
+export type ColoreSegno = typeof COLORI_SEGNO[number];
 export interface RettangoloSegno { x: number; y: number; w: number; h: number }
 export interface AncoraTesto {
   edizione: number;
@@ -27,7 +30,7 @@ export interface SegnoOriginale {
   testo: string;
   rettangoli: RettangoloSegno[];
   tipo: 'evidenziato' | 'sottolineato';
-  colore: 'giallo' | 'verde' | 'rosa';
+  colore: ColoreSegno;
   creata: string;
   /** Gli indici si riferiscono al textContent del blocco, non al Markdown o ai pixel. */
   ancoreTesto?: AncoraTesto[];
@@ -144,7 +147,7 @@ export const paginaValida = (n: number, pagine: number) => Math.max(1, Math.min(
 /** Coordinate proporzionali alla pagina: i segni restano allineati cambiando zoom o schermo. */
 export function normalizzaSegno(segno: Omit<SegnoOriginale, 'id' | 'creata'>, pagine: number): Omit<SegnoOriginale, 'id' | 'creata'> {
   if (!Number.isInteger(segno.pagina) || segno.pagina < 1 || segno.pagina > pagine) throw new Error('Pagina non valida');
-  if (!['evidenziato', 'sottolineato'].includes(segno.tipo) || !['giallo', 'verde', 'rosa'].includes(segno.colore)) throw new Error('Segno non valido');
+  if (!['evidenziato', 'sottolineato'].includes(segno.tipo) || !(COLORI_SEGNO as readonly string[]).includes(segno.colore)) throw new Error('Segno non valido');
   const rettangoli = segno.rettangoli.filter((r) => [r.x, r.y, r.w, r.h].every(Number.isFinite)).map((r) => {
     const x = Math.max(0, Math.min(1, r.x)), y = Math.max(0, Math.min(1, r.y));
     return { x, y, w: Math.max(0, Math.min(1 - x, r.w)), h: Math.max(0, Math.min(1 - y, r.h)) };
