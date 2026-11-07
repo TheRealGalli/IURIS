@@ -212,6 +212,32 @@ try {
     assert.deepEqual(JSON.parse(values.get(`iuris:v1:prog:${slug}`)), inMemoria);
   });
 
+  check('La gomma cancella insieme evidenziazioni e sottolineature, senza toccare altri passaggi o pagine', () => {
+    reset();
+    store.aggiungiSegnoOriginale(slug, doc, { ...segno, testo: 'Evidenziato' });
+    store.aggiungiSegnoOriginale(slug, doc, { ...segno, testo: 'Da conservare', rettangoli: [{ x: .12, y: .4, w: .6, h: .018 }] });
+    store.aggiungiSegnoOriginale(slug, doc, { ...segno, testo: 'Sottolineato', tipo: 'sottolineato', colore: 'rosa' });
+    store.aggiungiSegnoOriginale(slug, doc, { ...segno, testo: 'Altra pagina', pagina: 3 });
+    const prima = lettura().segni, n = storia().indietro.length;
+    const scelta = [{ x: .2, y: .201, w: .04, h: .016 }];
+    assert.deepEqual(store.cancellaSegniOriginale(slug, doc, 2, scelta), { rimossi: 2, salvato: true });
+    assert.deepEqual(lettura().segni.map((s) => s.testo), ['Da conservare', 'Altra pagina']);
+    assert.equal(storia().indietro.length, n + 1, 'una sola azione per tutta la passata');
+    eseguita(undo()); assert.deepEqual(lettura().segni, prima, 'stessi ID, posizioni, date e geometrie');
+    eseguita(redo()); assert.deepEqual(lettura().segni, [prima[1], prima[3]]);
+    const dopo = lettura();
+    assert.deepEqual(store.cancellaSegniOriginale(slug, doc, 2, scelta), { rimossi: 0, salvato: true });
+    assert.deepEqual(lettura(), dopo, 'nessun segno toccato: cronologia invariata');
+  });
+  check('La gomma ignora bordi a contatto, righe vicine e pagine diverse', () => {
+    const s = { ...segno, id: 'geometria', creata: '2026-11-07T10:00:00Z' };
+    assert.equal(lib.segnoNellaSelezione(s, 2, [{ x: .3, y: .203, w: .02, h: .01 }]), true);
+    assert.equal(lib.segnoNellaSelezione(s, 3, s.rettangoli), false);
+    assert.equal(lib.segnoNellaSelezione(s, 2, [{ x: .72, y: .2, w: .1, h: .018 }]), false);
+    assert.equal(lib.segnoNellaSelezione(s, 2, [{ x: .3, y: .218, w: .1, h: .018 }]), false);
+    assert.equal(lib.segnoNellaSelezione(s, 2, [{ x: .3, y: .217, w: .1, h: .018 }]), false);
+  });
+
   // Riavvio del modulo: la cache in memoria sparisce, localStorage e pile restano.
   reset(); aggiungi('Resta'); aggiungi('Da ripristinare'); eseguita(undo());
   store.salvaPaginaOriginale(slug, doc, 11);

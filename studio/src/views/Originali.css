@@ -39,6 +39,8 @@
 .originali-viewport { --selezione: #f7d84b60; }
 .originali-viewport[data-colore="verde"] { --selezione: #62ce9560; }
 .originali-viewport[data-colore="rosa"] { --selezione: #f285af60; }
+.originali-viewport[data-strumento="gomma"] { --selezione: #a49b8a35; }
+.originali-viewport[data-strumento="gomma"] .react-pdf__Page__textContent { cursor: crosshair; }
 .originali-pagina ::selection { background: transparent; }
 .originali-viewport[data-selezionando="true"] .react-pdf__Page__textContent span::selection { background: var(--selezione); }
 .originali-numero-pagina { display: block; padding-top: 5px; color: var(--ink-3); font-size: 10px; text-align: center; user-select: none; }
@@ -49,6 +51,7 @@
 .originali-segno.rosa { --segno: #d7477c; --segno-soft: #f285af60; }
 .originali-segno.evidenziato { background: var(--segno-soft); border-radius: 1px; }
 .originali-segno.sottolineato { border-bottom: 2px solid var(--segno); }
+.originali-segno.gomma { background: #a49b8a35; }
 .originali-stato-documento { max-width: min(620px, 100vw); margin: auto; padding: 60px 24px; text-align: center; color: var(--ink-2); display: flex; align-items: center; flex-direction: column; gap: 14px; }
 .originali-stato-documento h2, .originali-stato-documento p { margin: 0; }
 .originali-stato-pagina { padding: 24px; font-size: 13px; color: #555; }

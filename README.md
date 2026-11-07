@@ -24,6 +24,7 @@ Il documento occupa la sezione sotto una barra compatta con icone fisse; il sele
 I segni si aprono dall'icona **Segni salvati**. Il menu **Documento e scorciatoie** riporta i comandi da tastiera e il download del PDF originale.
 Un passaggio selezionato si salva con un clic su **Salva segno**, con **Invio** o con **Spazio**.
 **Esc**, **Canc** o **Backspace** annullano la selezione; **H** e **U** scelgono evidenziatore e sottolineatura, **1/2/3** scelgono giallo, verde e rosa. I campi di inserimento mantengono i normali comandi da tastiera.
+La **Gomma** (**E**) rimuove i segni interi toccati dal testo selezionato, sia evidenziati sia sottolineati, anche dall'elenco salvato. Puoi selezionare prima di premere la gomma oppure attivarla e trascinare sul passaggio; una sola azione Annulla recupera l'intera cancellazione. Con la selezione da tastiera, Invio o Spazio applicano la gomma.
 Le frecce curve accanto alle pagine annullano e ripristinano le modifiche ai segni (anche con Ctrl/⌘Z e Ctrl+Y/⌘⇧Z).
 La cronologia conserva fino a 50 azioni per documento ed è inclusa nel backup.
 I PDF di partenza rimangono invariati; i segni sono personali e salvati con i progressi della materia.

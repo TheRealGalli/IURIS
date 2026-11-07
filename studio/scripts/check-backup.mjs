@@ -198,6 +198,28 @@ try {
     assert.deepEqual(summary.materie, ['romano']); assert.deepEqual(store.riepilogoBackup().materie, ['romano']);
     assert.equal(storage.writes, writes); assert.deepEqual(disk(), suDisco);
   });
+  await check('La cancellazione multipla della gomma e il suo Undo/Redo restano nel backup totale', async () => {
+    await fresh(); const doc = originali.originaliMateria('diritto-romano')[0];
+    store.aggiungiSegnoOriginale(doc.materia, doc, originalSign);
+    store.aggiungiSegnoOriginale(doc.materia, doc, { ...originalSign, testo: 'Altra riga', rettangoli: [{ x: .1, y: .4, w: .5, h: .02 }] });
+    store.aggiungiSegnoOriginale(doc.materia, doc, { ...originalSign, testo: 'Sottolineatura', tipo: 'sottolineato', colore: 'rosa' });
+    const prima = progress(doc.materia).originali[doc.id].segni;
+    assert.equal(store.cancellaSegniOriginale(doc.materia, doc, 2, originalSign.rettangoli).rimossi, 2);
+    const backup = store.esportaTutto();
+    assert.equal(store.ispezionaBackup(backup).segni, 1);
+    await fresh(); store.importaTutto(backup);
+    assert.equal(store.annullaSegnoOriginale(doc.materia, doc).eseguito, true);
+    assert.deepEqual(progress(doc.materia).originali[doc.id].segni, prima);
+    const daRifare = store.esportaTutto();
+    await fresh(); store.importaTutto(daRifare);
+    assert.equal(store.ripristinaSegnoOriginale(doc.materia, doc).eseguito, true);
+    assert.deepEqual(progress(doc.materia).originali[doc.id].segni, [prima[1]]);
+    const b = JSON.parse(backup), azione = b.materie[doc.materia].originali[doc.id].storiaSegni.indietro.at(-1);
+    azione.altri.push(structuredClone(azione.altri[0]));
+    assert.throws(() => store.importaTutto(JSON.stringify(b)), /duplicati/);
+    azione.altri.pop(); azione.tipo = 'aggiungi';
+    assert.throws(() => store.importaTutto(JSON.stringify(b)));
+  });
   console.log(`Backup verificato: ${checks} scenari su tutte le materie, sessioni, Originali, preferenze, validazione e rollback.`);
 } finally {
   await server?.close();

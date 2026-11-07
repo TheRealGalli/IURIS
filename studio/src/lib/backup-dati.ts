@@ -1,5 +1,5 @@
 import type { Preferenze, Progresso } from './store';
-import type { AzioneSegno, LetturaOriginale, SegnoOriginale } from './originali';
+import { elementiAzioneSegno, type AzioneSegno, type LetturaOriginale, type SegnoOriginale } from './originali';
 
 type Oggetto = Record<string, unknown>;
 export interface BackupDati {
@@ -71,22 +71,34 @@ function lettura(v: unknown, dove: string) {
     const a = oggetto(v, `${dove}.azione`);
     scelta(a.tipo, ['aggiungi', 'rimuovi'], `${dove}.azione.tipo`);
     intero(a.posizione, `${dove}.azione.posizione`); segno(a.segno, `${dove}.azione.segno`);
+    if (a.altri !== undefined) {
+      if (a.tipo !== 'rimuovi') errore(`${dove}.azione.tipo`);
+      for (const value of array(a.altri, `${dove}.azione.altri`)) {
+        const altro = oggetto(value, `${dove}.azione.altri`);
+        intero(altro.posizione, `${dove}.azione.posizione`); segno(altro.segno, `${dove}.azione.segno`);
+      }
+      const elementi = elementiAzioneSegno(a as unknown as AzioneSegno);
+      if (new Set(elementi.map((e) => e.segno.id)).size !== elementi.length || new Set(elementi.map((e) => e.posizione)).size !== elementi.length) errore(`${dove}: segni duplicati nella cancellazione`);
+    }
   }
   if ((storia.indietro as unknown[]).length + (storia.avanti as unknown[]).length > 50) errore(`${dove}: cronologia troppo lunga`);
   // Una cronologia importata deve essere ripercorribile, senza duplicare o perdere segni.
   for (const direzione of pile) {
     const presenti = [...segni];
     for (const a of [...storia[direzione] as AzioneSegno[]].reverse()) {
-      const i = presenti.findIndex((s) => s.id === a.segno.id);
       const aggiunge = (a.tipo === 'aggiungi') !== (direzione === 'indietro');
-      if (aggiunge) {
-        if (i >= 0 || a.posizione > presenti.length) errore(`${dove}: cronologia incoerente`);
-        presenti.splice(a.posizione, 0, a.segno);
-      } else {
-        const s = presenti[i];
-        if (!s || i !== a.posizione || s.testo !== a.segno.testo || s.creata !== a.segno.creata || s.pagina !== a.segno.pagina || s.tipo !== a.segno.tipo || s.colore !== a.segno.colore
-          || s.rettangoli.length !== a.segno.rettangoli.length || s.rettangoli.some((r, k) => ['x', 'y', 'w', 'h'].some((c) => r[c as keyof typeof r] !== a.segno.rettangoli[k][c as keyof typeof r]))) errore(`${dove}: cronologia incoerente`);
-        presenti.splice(i, 1);
+      const elementi = elementiAzioneSegno(a).sort((a, b) => aggiunge ? a.posizione - b.posizione : b.posizione - a.posizione);
+      for (const e of elementi) {
+        const i = presenti.findIndex((s) => s.id === e.segno.id);
+        if (aggiunge) {
+          if (i >= 0 || e.posizione > presenti.length) errore(`${dove}: cronologia incoerente`);
+          presenti.splice(e.posizione, 0, e.segno);
+        } else {
+          const s = presenti[i];
+          if (!s || i !== e.posizione || s.testo !== e.segno.testo || s.creata !== e.segno.creata || s.pagina !== e.segno.pagina || s.tipo !== e.segno.tipo || s.colore !== e.segno.colore
+            || s.rettangoli.length !== e.segno.rettangoli.length || s.rettangoli.some((r, k) => ['x', 'y', 'w', 'h'].some((c) => r[c as keyof typeof r] !== e.segno.rettangoli[k][c as keyof typeof r]))) errore(`${dove}: cronologia incoerente`);
+          presenti.splice(i, 1);
+        }
       }
     }
   }

@@ -6,7 +6,7 @@ import 'react-pdf/dist/Page/AnnotationLayer.css';
 import { Icon } from '../components/ui';
 import { useCorso } from '../lib/data';
 import { cronologiaSegni, originaliMateria, paginaValida, type DocumentoOriginale, type RettangoloSegno, type SegnoOriginale } from '../lib/originali';
-import { aggiungiSegnoOriginale, annullaSegnoOriginale, ripristinaSegnoOriginale, rimuoviSegnoOriginale, salvaPaginaOriginale, useProgresso } from '../lib/store';
+import { aggiungiSegnoOriginale, annullaSegnoOriginale, cancellaSegniOriginale, ripristinaSegnoOriginale, rimuoviSegnoOriginale, salvaPaginaOriginale, useProgresso } from '../lib/store';
 import { href } from '../lib/router';
 import { aggiornaPianoRender, avviaPagina, ordinePagine, paginaPronta, pixelRatioPagina, type PianoRender } from '../lib/originali-render';
 import './Originali.css';
@@ -20,6 +20,7 @@ const PDF_OPTIONS = {
 const NESSUN_SEGNO: SegnoOriginale[] = [];
 const COLORI = ['giallo', 'verde', 'rosa'] as const;
 type Selezione = Pick<SegnoOriginale, 'pagina' | 'testo' | 'rettangoli'>;
+type Strumento = SegnoOriginale['tipo'] | 'gomma';
 type Ancora = { pagina: number; frazione: number };
 
 /** Unisce i rettangoli degli span sulla stessa riga, evitando segni duplicati. */
@@ -45,7 +46,7 @@ function elementoDi(nodo: Node): Element | null { return nodo.nodeType === Node.
 
 type AnnotazioniPagina = {
   perPagina: Map<number, SegnoOriginale[]>; bozza: Selezione | null;
-  tipo: SegnoOriginale['tipo']; colore: SegnoOriginale['colore'];
+  tipo: Strumento; colore: SegnoOriginale['colore'];
 };
 const AnnotazioniContext = createContext<AnnotazioniPagina | null>(null);
 
@@ -147,7 +148,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
     if (prima === nuova || (prima && nuova && prima.pagina === nuova.pagina && prima.testo === nuova.testo && JSON.stringify(prima.rettangoli) === JSON.stringify(nuova.rettangoli))) return;
     bozzaRef.current = nuova; setBozza(nuova);
   }, []);
-  const [tipo, setTipo] = useState<SegnoOriginale['tipo']>('evidenziato');
+  const [tipo, setTipo] = useState<Strumento>('evidenziato');
   const [colore, setColore] = useState<SegnoOriginale['colore']>('giallo');
   const [messaggio, setMessaggio] = useState(''), [erroreSalvataggio, setErroreSalvataggio] = useState(false);
   const spazio = useRef<HTMLDivElement>(null);
@@ -156,6 +157,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
   const vicineRef = useRef(new Set([iniziale.current - 1, iniziale.current, iniziale.current + 1])), ripristino = useRef(true), ancora = useRef<Ancora | null>(null);
   const ultimaSalvata = useRef(iniziale.current), prontoRef = useRef(false), scrollFrame = useRef(0);
   const selezioneTimer = useRef<ReturnType<typeof setTimeout>>();
+  const fineGestoTimer = useRef<ReturnType<typeof setTimeout>>();
   const file = `${import.meta.env.BASE_URL}${doc.file}`, larghezza = Math.round(larghezzaFit);
   const [piano, setPiano] = useState<PianoRender>(() => ({ larghezza, pronte: new Set(), inCorso: iniziale.current }));
   const paginaPrioritaria = selezionando ? paginaGesto.current ?? pagina : pagina;
@@ -280,12 +282,24 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
     window.addEventListener('pagehide', salvaUltimaPagina);
     document.addEventListener('visibilitychange', nascondi);
     return () => {
-      cancelAnimationFrame(scrollFrame.current); clearTimeout(selezioneTimer.current);
+      cancelAnimationFrame(scrollFrame.current); clearTimeout(selezioneTimer.current); clearTimeout(fineGestoTimer.current);
       window.removeEventListener('pagehide', salvaUltimaPagina);
       document.removeEventListener('visibilitychange', nascondi);
       salvaUltimaPagina();
     };
   }, [slug, doc, salvaEsito]);
+  const annullaSelezione = useCallback(() => {
+    clearTimeout(selezioneTimer.current); clearTimeout(fineGestoTimer.current);
+    impostaBozza(null); setMessaggio(''); window.getSelection()?.removeAllRanges();
+  }, [impostaBozza]);
+  const cancellaPassaggio = useCallback((scelta: Selezione) => {
+    try {
+      const esito = cancellaSegniOriginale(slug, doc, scelta.pagina, scelta.rettangoli);
+      salvaEsito(esito.salvato); annullaSelezione();
+      setMessaggio(esito.rimossi ? (esito.salvato ? `${esito.rimossi === 1 ? 'Segno rimosso' : `${esito.rimossi} segni rimossi`}. Puoi annullare dalla barra.` : 'Segni rimossi solo per questa sessione.') : 'Nessun segno in questo passaggio.');
+      return true;
+    } catch { setMessaggio('Non è stato possibile cancellare i segni. Seleziona di nuovo il passaggio.'); return false; }
+  }, [slug, doc, salvaEsito, annullaSelezione]);
   const catturaSelezione = useCallback((): Selezione | null => {
     const selection = window.getSelection();
     // L'anteprima già catturata sopravvive al passaggio sui pulsanti.
@@ -306,10 +320,14 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
     clearTimeout(selezioneTimer.current); selezioneTimer.current = setTimeout(catturaSelezione, 60);
   }, [catturaSelezione]);
   useEffect(() => {
-    const termina = () => {
+    const termina = (e: Event) => {
       if (!gesto.current) return;
       gesto.current = false; setSelezionando(false); paginaGesto.current = null;
-      clearTimeout(selezioneTimer.current); selezioneTimer.current = setTimeout(catturaSelezione, 0);
+      clearTimeout(selezioneTimer.current); clearTimeout(fineGestoTimer.current);
+      fineGestoTimer.current = setTimeout(() => {
+        const scelta = catturaSelezione();
+        if (e.type === 'pointerup' && tipo === 'gomma' && scelta) cancellaPassaggio(scelta);
+      }, 0);
     };
     document.addEventListener('selectionchange', programmaSelezione);
     document.addEventListener('pointerup', termina);
@@ -321,19 +339,23 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
       document.removeEventListener('pointercancel', termina);
       window.removeEventListener('blur', termina);
     };
-  }, [programmaSelezione, catturaSelezione]);
-  const annullaSelezione = useCallback(() => {
-    clearTimeout(selezioneTimer.current); impostaBozza(null); setMessaggio(''); window.getSelection()?.removeAllRanges();
-  }, [impostaBozza]);
+  }, [programmaSelezione, catturaSelezione, tipo, cancellaPassaggio]);
+  const attivaGomma = useCallback(() => {
+    setTipo('gomma');
+    const scelta = catturaSelezione() ?? bozzaRef.current;
+    if (scelta) cancellaPassaggio(scelta);
+    else setMessaggio('Gomma attiva: seleziona il passaggio da cancellare.');
+  }, [catturaSelezione, cancellaPassaggio]);
   const salvaSegno = useCallback(() => {
     const scelta = catturaSelezione() ?? bozzaRef.current;
     if (!scelta) return false;
+    if (tipo === 'gomma') return cancellaPassaggio(scelta);
     try {
       const esito = aggiungiSegnoOriginale(slug, doc, { ...scelta, tipo, colore });
       salvaEsito(esito.salvato); annullaSelezione(); setMessaggio(esito.salvato ? 'Segno salvato.' : 'Segno aggiunto solo per questa sessione.');
       return true;
     } catch { setMessaggio('Non è stato possibile creare il segno. Seleziona di nuovo il passaggio.'); return false; }
-  }, [slug, doc, tipo, colore, catturaSelezione, annullaSelezione, salvaEsito]);
+  }, [slug, doc, tipo, colore, catturaSelezione, annullaSelezione, salvaEsito, cancellaPassaggio]);
   const annullaModifica = useCallback(() => {
     annullaSelezione();
     const esito = annullaSegnoOriginale(slug, doc); salvaEsito(esito.salvato);
@@ -362,6 +384,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
       }
       const key = e.key.toLowerCase();
       if (key === 'h' || key === 'u') { e.preventDefault(); setTipo(key === 'h' ? 'evidenziato' : 'sottolineato'); return; }
+      if (key === 'e') { e.preventDefault(); attivaGomma(); return; }
       if (key === '1' || key === '2' || key === '3') { e.preventDefault(); setColore(COLORI[Number(key) - 1]); return; }
       if (target.closest('button, a')) return;
       if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
@@ -370,7 +393,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
     };
     document.addEventListener('keydown', tastiera);
     return () => document.removeEventListener('keydown', tastiera);
-  }, [salvaSegno, annullaModifica, ripristinaModifica, annullaSelezione]);
+  }, [salvaSegno, annullaModifica, ripristinaModifica, annullaSelezione, attivaGomma]);
   const perPagina = useMemo(() => {
     const m = new Map<number, SegnoOriginale[]>(); for (const s of segni) m.set(s.pagina, [...(m.get(s.pagina) ?? []), s]); return m;
   }, [segni]);
@@ -416,12 +439,13 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
           <div className="originali-strumenti">
             <button className={`btn btn-sm originali-quadrato ${tipo === 'evidenziato' ? 'originali-scelto' : 'btn-ghost'}`} aria-label="Evidenzia" title="Evidenzia (H)" aria-pressed={tipo === 'evidenziato'} onClick={() => setTipo('evidenziato')}><Icon n="evidenzia" size={18} /></button>
             <button className={`btn btn-sm originali-quadrato ${tipo === 'sottolineato' ? 'originali-scelto' : 'btn-ghost'}`} aria-label="Sottolinea" title="Sottolinea (U)" aria-pressed={tipo === 'sottolineato'} onClick={() => setTipo('sottolineato')}><Icon n="sottolinea" size={18} /></button>
+            <button className={`btn btn-sm originali-quadrato ${tipo === 'gomma' ? 'originali-scelto' : 'btn-ghost'}`} aria-label="Gomma" title="Gomma (E): seleziona per cancellare i segni interi" aria-pressed={tipo === 'gomma'} onClick={attivaGomma}><Icon n="gomma" size={18} /></button>
             <div className="originali-colori" aria-label="Colore del segno">{COLORI.map((c) => <button key={c} className={`originali-colore ${c}`} aria-label={c[0].toUpperCase() + c.slice(1)} title={c}
               aria-pressed={colore === c} onClick={() => setColore(c)} />)}</div>
-            <button className="btn btn-sm originali-quadrato" aria-label="Salva segno" disabled={!bozza} title={bozza ? `Salva il passaggio di pagina ${bozza.pagina} (Invio o Spazio)` : 'Salva segno: seleziona un passaggio del PDF'} onClick={salvaSegno}><Icon n="salva" size={18} /></button>
+            <button className="btn btn-sm originali-quadrato" aria-label={tipo === 'gomma' ? 'Applica gomma' : 'Salva segno'} disabled={!bozza} title={tipo === 'gomma' ? 'Cancella i segni del passaggio (Invio o Spazio)' : bozza ? `Salva il passaggio di pagina ${bozza.pagina} (Invio o Spazio)` : 'Salva segno: seleziona un passaggio del PDF'} onClick={salvaSegno}><Icon n={tipo === 'gomma' ? 'check' : 'salva'} size={18} /></button>
           </div>
         </div>
-        <div ref={viewport} className="originali-viewport" data-selezionando={selezionando} data-colore={colore} tabIndex={0} aria-label="Pagine del documento, scorri per leggere" onScroll={scorri}
+        <div ref={viewport} className="originali-viewport" data-selezionando={selezionando} data-colore={colore} data-strumento={tipo} tabIndex={0} aria-label="Pagine del documento, scorri per leggere" onScroll={scorri}
           onPointerDown={(e) => {
             if (!(e.target as Element).closest('.react-pdf__Page__textContent')) return;
             gesto.current = true; paginaGesto.current = Number((e.target as Element).closest<HTMLElement>('[data-original-page]')?.dataset.originalPage) || paginaRef.current;
@@ -446,6 +470,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
             <h3 className="title-s">{doc.titolo}</h3><p className="small muted">{doc.descrizione}</p>
             <h3 className="title-s">Scorciatoie</h3>
             <dl className="originali-scorciatoie"><dt>Invio / Spazio</dt><dd>Salva il segno selezionato</dd><dt>Esc / Canc / ⌫</dt><dd>Annulla la selezione</dd><dt>⌘Z / Ctrl+Z</dt><dd>Annulla l’ultima modifica</dd><dt>⌘⇧Z / Ctrl+Y</dt><dd>Ripristina la modifica</dd><dt>H / U</dt><dd>Evidenzia / sottolinea</dd><dt>1 / 2 / 3</dt><dd>Giallo / verde / rosa</dd></dl>
+            <p className="small muted"><b>E · Gomma</b>: seleziona un passaggio per eliminare i segni interi che lo toccano. Puoi anche selezionare prima e premere la gomma. Per una selezione da tastiera, applicala con Invio o Spazio. Una sola azione Annulla recupera tutta la cancellazione.</p>
             <p className="tiny faint">Pagina e segni restano in questo browser. Puoi conservarli insieme a tutte le materie nella sezione Backup.</p>
             <hr className="sep" />
             <a className="btn btn-sm" href={file} download><Icon n="scarica" size={15} />Scarica PDF originale</a>

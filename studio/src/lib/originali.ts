@@ -24,6 +24,8 @@ export interface AzioneSegno {
   tipo: 'aggiungi' | 'rimuovi';
   segno: SegnoOriginale;
   posizione: number;
+  /** Una passata della gomma può rimuovere più segni con un solo Annulla. */
+  altri?: { segno: SegnoOriginale; posizione: number }[];
 }
 export interface StoriaSegniOriginali {
   indietro: AzioneSegno[];
@@ -48,17 +50,28 @@ export function cronologiaSegni(lettura?: LetturaOriginale): StoriaSegniOriginal
   return { indietro: segni.slice(inizio).map((segno, i) => ({ tipo: 'aggiungi', segno, posizione: inizio + i })), avanti: [] };
 }
 
+export const elementiAzioneSegno = (azione: AzioneSegno) => [{ segno: azione.segno, posizione: azione.posizione }, ...(azione.altri ?? [])];
+
 function eseguiAzioneSegno(segni: SegnoOriginale[], azione: AzioneSegno, inversa = false): SegnoOriginale[] {
   const aggiunge = (azione.tipo === 'aggiungi') !== inversa;
-  const posizione = segni.findIndex((segno) => segno.id === azione.segno.id);
+  const elementi = elementiAzioneSegno(azione), ids = new Set(elementi.map((e) => e.segno.id));
+  const presenti = new Set(segni.map((segno) => segno.id));
+  if (ids.size !== elementi.length) return segni;
   if (aggiunge) {
-    if (posizione >= 0) return segni;
+    if (elementi.some((e) => presenti.has(e.segno.id))) return segni;
     const prossimi = [...segni];
-    prossimi.splice(Math.max(0, Math.min(segni.length, azione.posizione)), 0, azione.segno);
+    for (const e of elementi.sort((a, b) => a.posizione - b.posizione)) prossimi.splice(Math.max(0, Math.min(prossimi.length, e.posizione)), 0, e.segno);
     return prossimi;
   }
-  if (posizione < 0) return segni;
-  return [...segni.slice(0, posizione), ...segni.slice(posizione + 1)];
+  if (elementi.some((e) => !presenti.has(e.segno.id))) return segni;
+  return segni.filter((segno) => !ids.has(segno.id));
+}
+
+/** La gomma rimuove il segno intero toccato dalla selezione, su una sola pagina. */
+export function segnoNellaSelezione(segno: SegnoOriginale, pagina: number, rettangoli: RettangoloSegno[]): boolean {
+  return segno.pagina === pagina && segno.rettangoli.some((a) => rettangoli.some((b) =>
+    Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x) > 1e-7
+    && Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y) > Math.min(a.h, b.h) * .25));
 }
 
 /** Applica una nuova modifica senza mutare il documento precedente; una modifica nuova chiude il ramo redo. */

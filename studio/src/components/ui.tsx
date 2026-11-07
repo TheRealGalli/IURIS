@@ -20,6 +20,7 @@ const PATHS: Record<string, ReactNode> = {
   ripristina: <path d="m15 14 5-5-5-5M20 9H10a6 6 0 0 0 0 12h2" />,
   evidenzia: <><path d="m5 15 9-11 6 5-9 11-6-5ZM5 15l-2 6 6-2M3 21h10M11 7l6 5" /></>,
   sottolinea: <><path d="M6 3v9a6 6 0 0 0 12 0V3M4 21h16" /></>,
+  gomma: <><path d="m14 3 7 7-11 11H6l-5-5L14 3ZM8 9l7 7M10 21h12" /></>,
   salva: <><path d="M5 3h12l4 4v14H3V3h2ZM7 3v6h10V3M7 21v-8h10v8" /><path d="M14 5v2" /></>,
   invio: <path d="M20 5v8H5M10 8l-5 5 5 5" />,
   backup: <><path d="M4 7h16v14H4ZM3 3h18v4H3Z" /><path d="M9 12h6M12 11v6M9 14l3 3 3-3" /></>,

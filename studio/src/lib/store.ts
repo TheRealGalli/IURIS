@@ -2,7 +2,7 @@
 import { useSyncExternalStore } from 'react';
 import type { Card } from 'ts-fsrs';
 import { isoDi, oggiISO } from './util';
-import { applicaAzioneSegno, normalizzaSegno, paginaValida, spostaCronologiaSegni, type DocumentoOriginale, type LetturaOriginale, type SegnoOriginale } from './originali';
+import { applicaAzioneSegno, normalizzaSegno, paginaValida, segnoNellaSelezione, spostaCronologiaSegni, type DocumentoOriginale, type LetturaOriginale, type RettangoloSegno, type SegnoOriginale } from './originali';
 import { chiaveExtraValida, leggiBackup, preparaBackup, slugBackupValido, type BackupDati, type RiepilogoBackup } from './backup-dati';
 
 export type { RiepilogoBackup } from './backup-dati';
@@ -91,6 +91,20 @@ export function rimuoviSegnoOriginale(slug: string, doc: DocumentoOriginale, id:
     const posizione = lettura.segni.findIndex((segno) => segno.id === id);
     return posizione < 0 ? lettura : applicaAzioneSegno(lettura, { tipo: 'rimuovi', segno: lettura.segni[posizione], posizione });
   });
+}
+
+export function cancellaSegniOriginale(slug: string, doc: DocumentoOriginale, pagina: number, rettangoli: RettangoloSegno[]): { rimossi: number; salvato: boolean } {
+  let rimossi = 0;
+  const salvato = aggiornaOriginale(slug, doc, (lettura) => {
+    if (!lettura) return lettura;
+    const toccati = lettura.segni.map((segno, posizione) => ({ segno, posizione }))
+      .filter(({ segno }) => segnoNellaSelezione(segno, pagina, rettangoli));
+    if (!toccati.length) return lettura;
+    rimossi = toccati.length;
+    const [primo, ...altri] = toccati;
+    return applicaAzioneSegno(lettura, { tipo: 'rimuovi', ...primo, ...(altri.length ? { altri } : {}) });
+  });
+  return { rimossi, salvato };
 }
 
 function spostaStoriaOriginale(slug: string, doc: DocumentoOriginale, direzione: 'indietro' | 'avanti'): { eseguito: boolean; salvato: boolean } {
