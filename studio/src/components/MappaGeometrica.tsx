@@ -1,4 +1,4 @@
-import { memo, useEffect, useMemo, useState, type MouseEvent } from 'react';
+import { memo, useEffect, useMemo, useState, type CSSProperties, type MouseEvent } from 'react';
 import type { NodoGeo } from '../lib/mappa-geometrica';
 import { primoSegno } from '../lib/mappa-geometrica';
 import type { SezioneGeo } from '../lib/letture-hooks';
@@ -17,6 +17,8 @@ interface Props {
 }
 
 const accorcia = (t: string, n: number) => t.length > n ? `${t.slice(0, n - 1).trimEnd()}…` : t;
+/** Colonne dell'albero aperto: servono a dividere la larghezza disponibile fra i livelli. */
+const livelli = (nodi: NodoGeo[], chiusi: Set<string>): number => nodi.reduce((m, x) => Math.max(m, 1 + (chiusi.has(x.id) ? 0 : livelli(x.figli, chiusi))), 0);
 const contaNodi = (nodi: NodoGeo[]): number => nodi.reduce((n, x) => n + (x.segnato ? 1 : 0) + contaNodi(x.figli), 0);
 
 function Nodo({ n, sezione, modo, chiusi, alterna, apri }: { n: NodoGeo; sezione: SezioneGeo; modo: 'albero' | 'schema'; chiusi: Set<string>; alterna: (id: string) => void; apri: (e: MouseEvent, href: string) => void }) {
@@ -25,16 +27,15 @@ function Nodo({ n, sezione, modo, chiusi, alterna, apri }: { n: NodoGeo; sezione
   const chiuso = chiusi.has(n.id), haFigli = n.figli.length > 0;
   const etichetta = n.segnato ? n.pezzi.map((p) => p.testo).join('') : u.testo;
   const scheda = <div className="mg-nodo-riga">
-    <a className={`mg-nodo mg-${u.tipo}${u.tipo === 'titolo' ? ` mg-h${u.livello}` : ''}${n.segnato ? ' mg-segnato' : ' mg-antenato'}${n.enfasi ? ' mg-enfasi' : ''}`}
+    <a className={`mg-nodo mg-${u.tipo}${u.tipo === 'titolo' ? ` mg-h${u.livello}` : ''}${n.segnato ? ' mg-segnato' : ' mg-antenato'}`}
       href={href} onClick={(e) => apri(e, href)} title={u.testo}
-      aria-label={`${n.segnato ? 'Parte segnata' : 'Contiene parti segnate'}${n.enfasi ? ', evidenziata e sottolineata' : ''}: ${accorcia(etichetta, 160)}. Apri nel testo`}>
+      aria-label={`${n.segnato ? 'Parte segnata' : 'Contiene parti segnate'}: ${accorcia(etichetta, 160)}. Apri nel testo`}>
       {u.numero && <span className="mg-numero">{u.numero}</span>}
       <span className="mg-testo">{n.segnato
         ? n.pezzi.map((p, i) => p.segnato
-          ? <span key={i} className={`mg-segno${p.colore ? ` ev-${p.colore}` : ''}${p.linea ? ` li-${p.linea}` : ''}${p.enfasi ? ' mg-doppio' : ''}`}>{p.testo}</span>
+          ? <span key={i} className={`mg-segno${p.colore ? ` ev-${p.colore}` : ''}${p.linea ? ` li-${p.linea}` : ''}`}>{p.testo}</span>
           : <span key={i} className="mg-attorno">{p.testo}</span>)
         : accorcia(u.testo, u.tipo === 'titolo' ? 90 : 110)}</span>
-      {n.enfasi && <span className="mg-badge" aria-hidden="true" title="Evidenziato e sottolineato">✦</span>}
     </a>
     {haFigli && <button className="mg-piega" aria-expanded={!chiuso} aria-label={chiuso ? `Mostra ${n.figli.length} sotto-parti` : 'Nascondi le sotto-parti'} onClick={() => alterna(n.id)}>{chiuso ? n.figli.length : '−'}</button>}
   </div>;
@@ -73,7 +74,7 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
         <button className="btn btn-sm btn-ghost" onClick={() => setAperte(new Set())}>Chiudi tutto</button>
       </div>
     </div>
-    <p className="mg-spiegazione small muted">La mappa ha la forma del testo: titoli, paragrafi ed elenchi nell’ordine in cui sono scritti. Compaiono solo le parti che hai segnato; in grigio i titoli e i paragrafi che le contengono. <span className="mg-badge-legenda">✦</span> = evidenziato e sottolineato.</p>
+    <p className="mg-spiegazione small muted">La mappa ha la forma del testo: titoli, paragrafi ed elenchi nell’ordine in cui sono scritti. Compaiono solo le parti che hai segnato; in grigio i titoli e i paragrafi che le contengono. Evidenziature e sottolineature restano come nel testo.</p>
     <div className="mg-corpo">
       {visibili.map((s) => {
         const aperta = aperte.has(s.chiave) || !!scelta;
@@ -84,7 +85,7 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
             <span className="tiny faint">{documenti.length > 1 ? `${accorcia(s.docTitolo, 34)} · ` : ''}pp. {s.da}{s.a !== s.da ? `–${s.a}` : ''} · {s.segnati} {s.segnati === 1 ? 'parte segnata' : 'parti segnate'}</span>
           </button>
           {aperta && (modo === 'albero'
-            ? <div className="mg-albero">{s.radici.map((n) => <Nodo key={n.id} n={n} sezione={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} />)}</div>
+            ? <div className="mg-albero" style={{ '--mg-livelli': livelli(s.radici, chiusi) } as CSSProperties}><div className="mg-albero-dentro">{s.radici.map((n) => <Nodo key={n.id} n={n} sezione={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} />)}</div></div>
             : <ul className="mg-schema">{s.radici.map((n) => <Nodo key={n.id} n={n} sezione={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} />)}</ul>)}
         </article>;
       })}

@@ -5,7 +5,6 @@
 .mg-azioni { margin-left: auto; }
 .mg-vista .mg-attivo { border-color: var(--ink-3); background: var(--bg-2); }
 .mg-spiegazione { margin: 0; padding: 10px 14px; font-size: 12px; line-height: 1.6; border-bottom: 1px solid var(--line); }
-.mg-badge-legenda, .mg-badge { color: var(--accent); font-weight: 700; }
 .mg-corpo { display: flex; flex-direction: column; }
 .mg-lezione { border-bottom: 1px solid var(--line); }
 .mg-lezione:last-child { border-bottom: 0; }
@@ -28,20 +27,21 @@
 .mg-titolo.mg-h1, .mg-titolo.mg-h2 { font-size: 15px; }
 .mg-antenato { color: var(--ink-3); background: transparent; border-style: dashed; }
 .mg-antenato.mg-titolo { color: var(--ink-2); }
-.mg-enfasi { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
 .mg-attorno { color: var(--ink-3); }
 .mg-segno { border-radius: 2px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
-.mg-segno.mg-doppio { font-weight: 600; }
 .mg-segno[class*=" li-"] { text-decoration-line: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: var(--mg-linea); }
 .ev-giallo { background: #f7d84b70; } .ev-verde { background: #62ce9570; } .ev-rosa { background: #f285af70; }
 .ev-azzurro { background: #6cb8f070; } .ev-viola { background: #b195f270; } .ev-arancio { background: #f7a35c70; }
 .li-giallo { --mg-linea: #b29512; } .li-verde { --mg-linea: #23865a; } .li-rosa { --mg-linea: #b63264; }
 .li-azzurro { --mg-linea: #3d8bd0; } .li-viola { --mg-linea: #8a63d8; } .li-arancio { --mg-linea: #d27427; }
-.mg-badge { flex: none; font-size: 12px; }
 .mg-piega { flex: none; width: 20px; height: 20px; margin-left: -6px; padding: 0; border: 1px solid var(--line-2); border-radius: 50%; background: var(--surface); color: var(--ink-2); font-size: 11px; line-height: 1; cursor: pointer; z-index: 1; }
 
 /* albero da sinistra a destra */
-.mg-albero { display: flex; flex-direction: column; gap: 14px; padding: 6px 16px 20px; overflow-x: auto; }
+/* Le colonne si dividono la larghezza: ogni livello ha la stessa misura, l'albero intero è centrato. */
+.mg-albero { --mg-livelli: 3; --mg-passo: 58px; container-type: inline-size; padding: 10px 16px 22px; overflow-x: auto; }
+.mg-albero-dentro { display: flex; flex-direction: column; align-items: flex-start; gap: 18px; width: max-content; margin-inline: auto; }
+.mg-albero .mg-nodo { box-sizing: border-box; width: clamp(210px, calc((100cqw - 34px - (var(--mg-livelli) - 1) * var(--mg-passo)) / var(--mg-livelli)), 460px); max-width: none; }
+.mg-albero .mg-testo { -webkit-line-clamp: 7; }
 .mg-ramo { display: flex; align-items: center; }
 .mg-figli { position: relative; display: flex; flex-direction: column; gap: 8px; padding-left: 22px; }
 .mg-figli::before { content: ''; position: absolute; left: 0; top: 50%; width: 22px; border-top: 1.5px solid var(--line-2); }
@@ -51,7 +51,6 @@
 .mg-figli > .mg-ramo:first-child::after { top: 50%; }
 .mg-figli > .mg-ramo:last-child::after { bottom: 50%; }
 .mg-figli > .mg-ramo:only-child::after { display: none; }
-.mg-albero .mg-voce, .mg-albero .mg-paragrafo { max-width: 300px; }
 
 /* schema rientrato */
 .mg-schema, .mg-schema ul { list-style: none; margin: 0; padding: 0; }
