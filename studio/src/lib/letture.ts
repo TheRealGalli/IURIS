@@ -85,6 +85,24 @@ function occorrenze(testo: string, citazione: string): { inizio: number; fine: n
   return trovate;
 }
 
+/**
+ * Ricerca tollerante all'impaginazione: ignora spazi, a capo e segni di elenco (- – • > →),
+ * che una revisione dell'impaginazione può spostare senza cambiare le parole.
+ */
+const SEGNI_IMPAGINAZIONE = /[\s\-–•>→]/u;
+function occorrenzeElastiche(testo: string, citazione: string): { inizio: number; fine: number }[] {
+  const indice = indicizzaTesto(testo), q = [...normalizzaTestoLettura(citazione)].filter((c) => !SEGNI_IMPAGINAZIONE.test(c)).join('');
+  if (q.length < 8) return [];
+  const car: string[] = [], pos: number[] = [];
+  for (let k = 0; k < indice.testo.length; k++) if (!SEGNI_IMPAGINAZIONE.test(indice.testo[k])) { car.push(indice.testo[k]); pos.push(k); }
+  const compatto = car.join(''), trovate: { inizio: number; fine: number }[] = [];
+  for (let da = 0; ;) {
+    const i = compatto.indexOf(q, da); if (i < 0) break;
+    trovate.push({ inizio: indice.inizi[pos[i]], fine: indice.fini[pos[i + q.length - 1]] }); da = i + 1;
+  }
+  return trovate;
+}
+
 export function creaAncoraTesto(blocco: BloccoTestoLettura, inizio: number, fine: number, edizione: number): AncoraTesto | null {
   if (!Number.isSafeInteger(inizio) || !Number.isSafeInteger(fine) || inizio < 0 || fine > blocco.testo.length || fine <= inizio || !Number.isSafeInteger(edizione) || edizione < 1) return null;
   const parte = blocco.testo.slice(inizio, fine);
@@ -105,7 +123,10 @@ function ritrovaAncora(blocco: BloccoTestoLettura, ancora: AncoraTesto, edizione
   }
   const trovate = occorrenze(blocco.testo, ancora.citazione);
   const coerenti = trovate.length === 1 ? trovate : trovate.filter((r) => contestoCoerente(blocco.testo, r.inizio, r.fine, ancora));
-  return coerenti.length === 1 ? creaAncoraTesto(blocco, coerenti[0].inizio, coerenti[0].fine, edizione) : null;
+  if (coerenti.length === 1) return creaAncoraTesto(blocco, coerenti[0].inizio, coerenti[0].fine, edizione);
+  if (trovate.length) return null;
+  const elastiche = occorrenzeElastiche(blocco.testo, ancora.citazione);
+  return elastiche.length === 1 ? creaAncoraTesto(blocco, elastiche[0].inizio, elastiche[0].fine, edizione) : null;
 }
 
 function paginaBlocco(id: string): number | null {

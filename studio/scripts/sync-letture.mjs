@@ -22,6 +22,10 @@ const revisionata = (sec) => !!(sec.revisionata || sec.pilota);
 
 /** Regole di sola forma: titoli, elenchi, note, etichette in grassetto e spazi. Le parole restano quelle della fonte. */
 export function formatta(md) {
+  // A capo già decisi (revisioni): ogni paragrafo segue le regole per conto suo.
+  // Le voci «- …» restano attaccate a ciò che precede: un solo elenco, non paragrafi staccati.
+  if (/\n\s*\n/.test(md)) return md.split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean).map(formatta)
+    .reduce((out, x) => out ? `${out}${/^- /.test(x) && !/^#{1,6} /m.test(out.slice(out.lastIndexOf('\n') + 1)) ? '\n' : '\n\n'}${x}` : x, '');
   // Blocco che comincia con un titolo: il titolo resta com'è, il resto segue le regole.
   const conTitolo = /^(#{1,6} [^\n]*)\n+([\s\S]*\S[\s\S]*)$/.exec(md);
   if (conTitolo) return `${conTitolo[1]}\n\n${formatta(conTitolo[2].trim())}`;

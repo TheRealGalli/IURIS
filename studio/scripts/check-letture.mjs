@@ -83,6 +83,16 @@ try {
     assert.equal(lib.proiettaSegnoTesto(s, [{ ...b, testo: 'Il diritto è il dovere giuridico.', testoFonte: b.testo }], 2).stato, 'da-verificare');
     assert.equal(lib.proiettaSegnoTesto(s, [{ ...b, id: 'p001-b002' }], 1).stato, 'da-verificare');
   });
+  await check('Un a capo aggiunto dopo (elenco, freccia) non fa perdere il segno: stesse parole, solo impaginazione', () => {
+    const b = blocco('Le fonti primarie: Sono quelle. - Parliamo per esempio di epigrafi. > Tutto quel materiale.');
+    const i = b.testo.indexOf('- Parliamo'), ancora = lib.creaAncoraTesto(b, i, b.testo.indexOf('epigrafi.') + 9, 1);
+    const s = { ...legacy(ancora.citazione), rettangoli: [], ancoreTesto: [ancora] };
+    const nuovo = { ...b, testo: 'Le fonti primarie: Sono quelle.\nParliamo per esempio di epigrafi.\n\n→ Tutto quel materiale.' };
+    const p = lib.proiettaSegnoTesto(s, [nuovo], 1);
+    assert.equal(p.stato, 'proiettato'); assert.equal(p.ancore[0].citazione, 'Parliamo per esempio di epigrafi.');
+    const doppio = { ...b, testo: 'Parliamo per esempio di epigrafi. Ancora: Parliamo per esempio di epigrafi.' };
+    assert.equal(lib.proiettaSegnoTesto(s, [doppio], 1).stato, 'da-verificare', 'ambiguo: resta da verificare');
+  });
   await check('Le parti di un segno in un’altra sezione restano conservate e vengono riconosciute', () => {
     const a = blocco('Prima pagina.', 1), b = blocco('Quarta pagina.', 4);
     const s = { ...legacy('Prima pagina. Quarta pagina.'), rettangoli: [], ancoreTesto: [lib.creaAncoraTesto(a, 0, a.testo.length, 1), lib.creaAncoraTesto(b, 0, b.testo.length, 1)] };
