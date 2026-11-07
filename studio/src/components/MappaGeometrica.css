@@ -65,19 +65,26 @@
 @media (max-width: 700px) { .mg-azioni { margin-left: 0; } .mg-albero { padding: 6px 10px 16px; } }
 
 /* concetti collegati (prototipo) */
-.mg-albero-dentro { position: relative; }
-.mg-albero-dentro.mg-con-archi { padding-right: var(--mg-margine); }
-.mg-nodo { flex-wrap: wrap; }
+.mg-albero-dentro, .mg-schema-dentro { position: relative; }
+.mg-albero-dentro.mg-con-archi, .mg-schema-dentro.mg-con-archi .mg-schema { padding-right: var(--mg-margine); }
+.mg-nodo { flex-wrap: wrap; transition: opacity .12s, box-shadow .12s; }
 .mg-chips { display: flex; flex-wrap: wrap; gap: 4px; flex-basis: 100%; margin-top: 2px; }
-.mg-chip { padding: 1px 7px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--mg-tinta) 45%, transparent); background: color-mix(in srgb, var(--mg-tinta) 12%, var(--surface)); color: var(--mg-tinta); font-family: var(--sans, inherit); font-size: 10.5px; font-weight: 600; line-height: 1.5; letter-spacing: .01em; }
+.mg-chip { padding: 1px 7px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--mg-tinta) 45%, transparent); background: color-mix(in srgb, var(--mg-tinta) 12%, var(--surface)); color: var(--mg-tinta); font-family: var(--sans, inherit); font-size: 10.5px; font-weight: 600; line-height: 1.5; letter-spacing: .01em; cursor: default; transition: opacity .12s; }
 .mg-archi { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; z-index: 0; }
 .mg-con-archi .mg-nodo-riga { position: relative; z-index: 1; }
 .mg-con-archi .mg-antenato { background: var(--surface); }
-.mg-arco path { fill: none; stroke: var(--mg-tinta); stroke-width: 1.6; opacity: .62; transition: opacity .15s, stroke-width .15s; }
-.mg-arco-stesso path { stroke-dasharray: 2 4; stroke-linecap: round; stroke-width: 2; }
+.mg-arco path { fill: none; stroke: var(--mg-tinta); stroke-width: 1.5; opacity: .55; stroke-linejoin: round; transition: opacity .12s, stroke-width .12s; }
+.mg-arco-stesso path { stroke-dasharray: 2 4; stroke-linecap: round; stroke-width: 1.8; }
+.mg-arco path.mg-arco-presa { stroke: transparent; stroke-width: 14; stroke-dasharray: none; opacity: 1; pointer-events: stroke; cursor: pointer; }
+.mg-archi-fuoco .mg-arco.mg-spento path:not(.mg-arco-presa) { opacity: .07; }
+.mg-arco.mg-acceso path:not(.mg-arco-presa) { opacity: 1; stroke-width: 2.4; }
+/* passaggio del mouse: il nodo da cui si parte in verde, quelli collegati in arancio, il resto attenuato */
+.mg-in-fuoco .mg-nodo { opacity: .38; }
+.mg-in-fuoco .mg-nodo.mg-n-centro, .mg-in-fuoco .mg-nodo.mg-n-collegato { opacity: 1; }
+.mg-nodo.mg-n-centro { box-shadow: 0 0 0 2px #2f9e5b; border-color: #2f9e5b; }
+.mg-nodo.mg-n-collegato { box-shadow: 0 0 0 2px #e08a2c; border-color: #e08a2c; }
+.mg-in-fuoco .mg-chip:not(.mg-c-acceso) { opacity: .4; }
+.mg-chip.mg-c-acceso { border-color: var(--mg-tinta); }
 .mg-arco-etichetta { position: absolute; z-index: 2; transform: translate(-100%, -50%); width: max-content; max-width: 280px; padding: 3px 8px; border: 1px solid color-mix(in srgb, var(--mg-tinta) 50%, transparent); border-radius: 8px; background: var(--surface); color: var(--ink-2); font-size: 11px; line-height: 1.4; box-shadow: 0 2px 8px #0000001a; pointer-events: none; }
 .mg-arco-etichetta b { color: var(--mg-tinta); font-weight: 650; }
-.mg-arco text { font-size: 10.5px; font-weight: 600; fill: var(--mg-tinta); paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; dominant-baseline: middle; }
-.mg-arco.mg-spento { opacity: .12; }
-.mg-arco.mg-acceso path { opacity: 1; stroke-width: 2.4; }
 .mg-testo { flex: 1 1 0; }

@@ -48,6 +48,12 @@ const pagineSegno = (s: SegnoOriginale) => s.ancoreTesto?.length ? s.ancoreTesto
 export function useMappaGeometrica() {
   const { modelli, documenti, caricando, errore, originali } = useSezioniAnnotate();
   const idx = useCorso();
+  // Coppie di concetti che una domanda del corso tiene insieme: conferma che il legame è pertinente.
+  const coppieDomande = useMemo(() => {
+    const out = new Set<string>();
+    for (const d of idx.corso.domande) { const c = d.concetti ?? []; for (const x of c) for (const y of c) if (x !== y) out.add(`${x}|${y}`); }
+    return out;
+  }, [idx]);
   const strutture = useMemo(() => new Map([...modelli].map(([file, blocchi]) => [file, blocchi.flatMap((b) => strutturaBlocco(b))])), [modelli]);
   const { sezioni, collegati } = useMemo(() => {
     const visti = new Set<string>();
@@ -64,13 +70,17 @@ export function useMappaGeometrica() {
         const albero = alberoGeometrico(unita, geo);
         const ids = [...new Set(blocchi.flatMap((b) => b.concetti))].filter((x): x is string => typeof x === "string");
         const concetti = ids.flatMap((id) => { const c = idx.concettoById.get(id); return c ? [{ id, nome: c.nome, etichette: etichetteConcetto(c) }] : []; });
-        const semantica = semanticaGeometrica(albero.radici, concetti, idx.corso.relazioni);
+        const lezione = meta.lezione ?? meta.id, unitaLezione = lezione.split('-')[0];
+        const dellaLezione = (id: string) => idx.concettoById.get(id)?.lezioni?.includes(lezione) ?? false;
+        const relazioni = idx.corso.relazioni.map((r) => ({ ...r, affidabile: coppieDomande.has(`${r.da}|${r.a}`)
+          || (r.tipo !== 'collegato' && (r.unita === unitaLezione || (dellaLezione(r.da) && dellaLezione(r.a)))) }));
+        const semantica = semanticaGeometrica(albero.radici, concetti, relazioni);
         geo.forEach((g) => visti.add(`${doc.id}:${g.id}`));
         return albero.radici.length ? [{ chiave: `${doc.id}/${meta.id}`, documento: doc.id, docTitolo: doc.titolo, sezione: meta.id, titolo: meta.titolo, da: meta.da, a: meta.a, ...albero, semantica }] : [];
       });
     });
     return { sezioni, collegati: visti.size };
-  }, [documenti, originali, modelli, strutture, idx]);
+  }, [documenti, originali, modelli, strutture, idx, coppieDomande]);
   const totale = documenti.reduce((n, d) => n + (originali?.[d.id]?.segni.length ?? 0), 0);
   return { sezioni, caricando, errore, totale, nonCollegati: Math.max(0, totale - collegati) };
 }

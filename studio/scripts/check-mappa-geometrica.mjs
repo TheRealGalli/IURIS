@@ -5,7 +5,7 @@ import ts from 'typescript';
 
 const src = await readFile(new URL('../src/lib/mappa-geometrica.ts', import.meta.url), 'utf8');
 const js = ts.transpileModule(src, { compilerOptions: { target: ts.ScriptTarget.ES2020, module: ts.ModuleKind.ESNext } }).outputText;
-const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
+const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto, corsieArchi, accensione } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
 
 // Pagina «Premesse» degli appunti: titolo, frase che introduce l'elenco, cinque voci, due paragrafi.
 const testi = [['titolo', 2, 'Premesse'], ['paragrafo', 0, 'I cinque significati di Diritto Romano'],
@@ -89,4 +89,46 @@ let checks = 0;
   assert.deepEqual(semanticaGeometrica(m.radici, conc, rel), s, 'stesso input, stessi archi');
   checks++;
 }
-console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura e concetti collegati.`);
+{
+  // Instradamento: corsie annidate senza sovrapposizioni, una porta per arco, ordinate per non incrociarsi.
+  const ordine = new Map(['a', 'b', 'c', 'd', 'e', 'f'].map((x, i) => [x, i]));
+  const archi = [{ da: 'a', a: 'f' }, { da: 'b', a: 'c' }, { da: 'b', a: 'e' }, { da: 'd', a: 'e' }, { da: 'a', a: 'b' }];
+  const { percorsi, corsie } = corsieArchi(archi, ordine);
+  const iv = archi.map((x) => [ordine.get(x.da), ordine.get(x.a)].sort((p, q) => p - q));
+  for (let i = 0; i < archi.length; i++) for (let j = 0; j < archi.length; j++) {
+    if (i === j) continue;
+    const [a1, b1] = iv[i], [a2, b2] = iv[j];
+    if (a1 <= b2 && a2 <= b1) assert.notEqual(percorsi[i].corsia, percorsi[j].corsia, 'archi sovrapposti non condividono la corsia');
+    if (a1 <= a2 && b2 <= b1 && (b1 - a1) > (b2 - a2)) assert(percorsi[i].corsia > percorsi[j].corsia, 'chi contiene corre più fuori');
+  }
+  assert.equal(percorsi[0].corsia, corsie - 1, 'l’arco più lungo è il più esterno');
+  // Nodo b ha tre archi: verso a (sopra), c ed e (sotto): tre porte diverse, sopra prima di sotto.
+  const pb = [[4, 'portaA'], [1, 'portaDa'], [2, 'portaDa']].map(([i, k]) => percorsi[i][k]);
+  assert.deepEqual(pb.map((p) => p[1]), [3, 3, 3]); assert.equal(new Set(pb.map((p) => p[0])).size, 3, 'ogni arco ha la sua porta');
+  assert.equal(pb[0][0], 0, 'l’arco che sale parte dall’alto');
+  assert(pb[2][0] < pb[1][0], 'fra quelli che scendono, la corsia esterna parte più in alto: niente incroci');
+  assert.deepEqual(corsieArchi(archi, ordine), { percorsi, corsie }, 'stesso input, stesso instradamento');
+  // Passaggio del mouse: arco, nodo, concetto.
+  const ac = [{ da: 'a', a: 'f', tipo: 'stesso', concetto: 'x' }, { da: 'b', a: 'c', tipo: 'relazione', concetto: 'y', altro: 'x' }, { da: 'd', a: 'e', tipo: 'stesso', concetto: 'z' }];
+  assert.equal(accensione(ac, null), null);
+  const l = accensione(ac, { arco: 1 });
+  assert.deepEqual([...l.archi], [1]); assert.equal(l.centro, 'b'); assert.deepEqual([...l.collegati], ['c']); assert.deepEqual([...l.concetti].sort(), ['x', 'y']);
+  const n = accensione(ac, { nodo: 'd' }); assert.deepEqual([...n.archi], [2]); assert.deepEqual([...n.collegati], ['e']);
+  const c = accensione(ac, { nodo: 'a', concetto: 'x' }); assert.deepEqual([...c.archi], [0, 1], 'il concetto accende tutte le sue linee');
+  assert.equal(c.centro, 'a'); assert.deepEqual([...c.collegati].sort(), ['b', 'c', 'f']);
+  checks++;
+}
+{
+  // Solo legami affidabili: relazione non confermata scartata, concetto generico (in ogni nodo) senza ripetizioni.
+  const t = ['Il diritto e la legge', 'Il diritto e la consuetudine', 'Il diritto e il pretore', 'Il diritto e il giurista', 'Consuetudine e legge'];
+  const u = t.map((testo, i) => ({ id: `g${i}#0`, blocco: `g${i}`, pagina: 9, tipo: 'paragrafo', livello: 0, inizio: 0, fine: testo.length, testo }));
+  const m = alberoGeometrico(u, u.map((x, i) => ({ id: `t${i}`, tipo: 'evidenziato', colore: 'giallo', ancore: [{ blocco: x.blocco, inizio: 0, fine: x.testo.length }] })));
+  const conc = [['diritto', 'Diritto'], ['consuetudine', 'Consuetudine'], ['pretore', 'Pretore'], ['legge', 'Legge']].map(([id, nome]) => ({ id, nome, etichette: etichetteConcetto({ nome }) }));
+  const s = semanticaGeometrica(m.radici, conc, [{ da: 'pretore', a: 'consuetudine', tipo: 'collegato', affidabile: false }, { da: 'consuetudine', a: 'legge', tipo: 'contrasta', affidabile: true }]);
+  assert(!s.archi.some((a) => a.concetto === 'diritto'), 'il concetto in tutti i nodi non genera archi');
+  assert(!s.archi.some((a) => a.concetto === 'pretore'), 'relazione non confermata: niente arco');
+  assert.equal(s.scartati.relazioni, 1); assert(s.scartati.ripetizioni >= 1);
+  assert(s.archi.some((a) => a.tipo === 'relazione' && a.concetto === 'consuetudine' && a.altro === 'legge'));
+  checks++;
+}
+console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse e affidabilità dei legami.`);

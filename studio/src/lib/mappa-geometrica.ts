@@ -156,14 +156,22 @@ export function primoSegno(n: NodoGeo): string | undefined {
 
 // ── Significato sopra la geometria: i concetti del glossario nominati dai nodi e i loro legami ──
 export interface ConcettoGeo { id: string; nome: string; etichette: string[] }
-export interface RelazioneGeo { da: string; a: string; tipo: string; etichetta?: string }
+export interface RelazioneGeo {
+  da: string; a: string; tipo: string; etichetta?: string;
+  /** Confermata da una domanda che unisce i due concetti o, se specifica, dai concetti della lezione. Assente = sì. */
+  affidabile?: boolean;
+}
 export interface ArcoConcetto {
   da: string; a: string;
   /** Stesso concetto in due punti lontani dell'albero, oppure una relazione del glossario fra due concetti. */
   tipo: 'stesso' | 'relazione';
   concetto: string; altro?: string; etichetta?: string;
 }
-export interface SemanticaGeo { perNodo: Map<string, string[]>; archi: ArcoConcetto[]; concetti: string[]; nomi: Record<string, string> }
+export interface SemanticaGeo {
+  perNodo: Map<string, string[]>; archi: ArcoConcetto[]; concetti: string[]; nomi: Record<string, string>;
+  /** Legami possibili scartati perché dubbi: relazioni non confermate, ripetizioni di concetti troppo generici. */
+  scartati: { relazioni: number; ripetizioni: number };
+}
 
 /** Etichette usabili come le usa la pubblicazione: nome, latino, alias; senza parentesi, almeno 4 lettere. */
 export function etichetteConcetto(c: { nome: string; latino?: string; alias?: string[] }): string[] {
@@ -185,11 +193,11 @@ export function semanticaGeometrica(radici: NodoGeo[], concetti: ConcettoGeo[], 
   radici.forEach((r) => visita(r, []));
   const parentela = (a: string, b: string) => nodi.find((x) => x.n.id === a)!.antenati.has(b) || nodi.find((x) => x.n.id === b)!.antenati.has(a);
   // Concetti nominati da ogni nodo, con la posizione: chi comincia col concetto lo «definisce».
-  const nomina = new Map<string, Map<string, number>>();
+  const nomina = new Map<string, Map<string, number>>(), lunghezza = new Map<string, number>();
   const regole = concetti.map((c) => ({ c, re: new RegExp(`(?<![\\p{L}\\p{N}])(?:${c.etichette.map(esc).sort((x, y) => y.length - x.length).join('|')})(?![\\p{L}\\p{N}])`, 'iu') })).filter((r) => r.c.etichette.length);
   for (const { n } of nodi) {
     const m = new Map<string, number>();
-    for (const { c, re } of regole) { const x = re.exec(n.unita.testo); if (x) m.set(c.id, x.index); }
+    for (const { c, re } of regole) { const x = re.exec(n.unita.testo); if (x) { m.set(c.id, x.index); lunghezza.set(`${n.id}|${c.id}`, x[0].length); } }
     nomina.set(n.id, m);
   }
   const conConcetto = (id: string) => nodi.filter(({ n }) => nomina.get(n.id)!.has(id)).map(({ n }) => n);
@@ -201,8 +209,12 @@ export function semanticaGeometrica(radici: NodoGeo[], concetti: ConcettoGeo[], 
   const candidati: (ArcoConcetto & { p: number; ordine: number })[] = [];
   const ordine = new Map(nodi.map(({ n }, i) => [n.id, i]));
   const coppia = (a: string, b: string) => ordine.get(a)! < ordine.get(b)! ? [a, b] : [b, a];
+  const scartati = { relazioni: 0, ripetizioni: 0 };
+  // Ripetizioni affidabili: concetto specifico (non in mezza lezione) e nominato per esteso, non con una sigla corta.
+  const tetto = Math.min(6, Math.max(2, Math.ceil(nodi.length * 0.35)));
   for (const c of concetti) {
-    const lista = conConcetto(c.id);
+    const lista = conConcetto(c.id).filter((n) => (lunghezza.get(`${n.id}|${c.id}`) ?? 0) >= 6);
+    if (lista.length > tetto) { scartati.ripetizioni += lista.length - 1; continue; }
     for (let i = 1; i < lista.length; i++) {
       const prec = lista.slice(0, i).reverse().find((p) => !parentela(p.id, lista[i].id));
       if (prec) { const [da, a] = coppia(prec.id, lista[i].id); candidati.push({ da, a, tipo: 'stesso', concetto: c.id, p: 6, ordine: ordine.get(lista[i].id)! }); }
@@ -213,6 +225,7 @@ export function semanticaGeometrica(radici: NodoGeo[], concetti: ConcettoGeo[], 
   for (const r of relazioni) {
     if (!presenti.has(r.da) || !presenti.has(r.a) || r.da === r.a) continue;
     const lista = conConcetto(r.da);
+    if (r.affidabile === false) { if (lista.length && conConcetto(r.a).length) scartati.relazioni++; continue; }
     const da = lista.find((n) => nomina.get(n.id)!.get(r.da)! <= 3 && riferimento(r.a, n.id)) ?? lista.find((n) => riferimento(r.a, n.id));
     const verso = da && riferimento(r.a, da.id);
     if (!da || !verso || verso.id === da.id) continue;
@@ -237,5 +250,50 @@ export function semanticaGeometrica(radici: NodoGeo[], concetti: ConcettoGeo[], 
   }
   const usati = [...new Set(archi.flatMap((a) => [a.concetto, ...(a.altro ? [a.altro] : [])]))];
   const nomi = Object.fromEntries(concetti.filter((c) => usati.includes(c.id)).map((c) => [c.id, c.nome]));
-  return { perNodo, archi, concetti: usati, nomi };
+  return { perNodo, archi, concetti: usati, nomi, scartati };
+}
+
+// ── Instradamento: una porta per arco sul bordo del nodo, una corsia per arco nel margine ──
+export interface PercorsoArco { corsia: number; portaDa: [number, number]; portaA: [number, number] }
+/**
+ * Corsie: un arco che ne contiene un altro corre più fuori; archi che si sovrappongono non condividono la corsia.
+ * Porte: sul bordo destro di ogni nodo, gli archi che salgono in alto (corsie interne prima), quelli che scendono
+ * in basso (corsie esterne prima): così le linee orizzontali non tagliano quelle verticali vicine.
+ */
+export function corsieArchi(archi: { da: string; a: string }[], ordine: Map<string, number>): { percorsi: PercorsoArco[]; corsie: number } {
+  const iv = archi.map((x, i) => { const p = ordine.get(x.da) ?? 0, q = ordine.get(x.a) ?? 0; return { i, lo: Math.min(p, q), hi: Math.max(p, q) }; });
+  const corsia = new Array<number>(archi.length).fill(0), posti: typeof iv = [];
+  for (const x of [...iv].sort((a, b) => (a.hi - a.lo) - (b.hi - b.lo) || a.lo - b.lo)) {
+    const sotto = posti.filter((y) => y.lo <= x.hi && x.lo <= y.hi);
+    corsia[x.i] = sotto.length ? Math.max(...sotto.map((y) => corsia[y.i])) + 1 : 0;
+    posti.push(x);
+  }
+  const porte = new Map<string, { i: number; lato: 'da' | 'a'; altro: number; corsia: number }[]>();
+  archi.forEach((x, i) => {
+    for (const lato of ['da', 'a'] as const) {
+      const qui = lato === 'da' ? x.da : x.a, la = lato === 'da' ? x.a : x.da;
+      const l = porte.get(qui) ?? []; l.push({ i, lato, altro: ordine.get(la) ?? 0, corsia: corsia[i] }); porte.set(qui, l);
+    }
+  });
+  const percorsi: PercorsoArco[] = archi.map(() => ({ corsia: 0, portaDa: [0, 1], portaA: [0, 1] }));
+  for (const [nodo, l] of porte) {
+    const mio = ordine.get(nodo) ?? 0;
+    const su = l.filter((p) => p.altro < mio).sort((a, b) => a.corsia - b.corsia || a.altro - b.altro);
+    const giu = l.filter((p) => p.altro >= mio).sort((a, b) => b.corsia - a.corsia || a.altro - b.altro);
+    [...su, ...giu].forEach((p, k, tutti) => { percorsi[p.i][p.lato === 'da' ? 'portaDa' : 'portaA'] = [k, tutti.length]; });
+  }
+  archi.forEach((_, i) => { percorsi[i].corsia = corsia[i]; });
+  return { percorsi, corsie: archi.length ? Math.max(...corsia) + 1 : 0 };
+}
+
+/** Cosa si accende passando sopra un arco, un nodo o un concetto: il resto si attenua. */
+export type FuocoGeo = { arco: number } | { nodo: string } | { nodo: string; concetto: string } | null;
+export function accensione(archi: ArcoConcetto[], f: FuocoGeo): { archi: Set<number>; centro?: string; collegati: Set<string>; concetti: Set<string> } | null {
+  if (!f) return null;
+  const tocca = (a: ArcoConcetto, c: string) => a.concetto === c || a.altro === c;
+  const accesi = new Set(archi.flatMap((a, i) => ('arco' in f ? i === f.arco : 'concetto' in f ? tocca(a, f.concetto) : a.da === f.nodo || a.a === f.nodo) ? [i] : []));
+  const centro = 'arco' in f ? archi[f.arco]?.da : f.nodo;
+  const collegati = new Set([...accesi].flatMap((i) => [archi[i].da, archi[i].a]).filter((x) => x !== centro));
+  const concetti = new Set([...accesi].flatMap((i) => [archi[i].concetto, ...(archi[i].altro ? [archi[i].altro!] : [])]));
+  return { archi: accesi, centro, collegati, concetti };
 }
