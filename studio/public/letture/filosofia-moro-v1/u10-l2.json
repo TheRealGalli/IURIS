@@ -6,18 +6,25 @@
   "da": 13,
   "a": 14,
   "lezione": "u10-l2",
+  "revisionata": true,
   "blocchi": [
     {
       "id": "p013-b001",
       "pagina": 13,
-      "markdown": "I fini dello Stato (pagg. 179-184)",
-      "concetti": []
+      "markdown": "### I fini dello Stato\n\n*Pagine 179–184 del volume di Moro.*",
+      "concetti": [
+        "fini-dello-stato"
+      ],
+      "testoFonte": "I fini dello Stato (pagg. 179-184)",
+      "notaRevisione": "I rimandi tra parentesi nei titoli degli appunti sono pagine del volume di Moro (Il diritto e lo Stato), non del PDF."
     },
     {
       "id": "p013-b002",
       "pagina": 13,
-      "markdown": "L'analisi dei fini dello Stato mira a comprendere la sua natura essenziale sotto il profilo dei complessi di scopi che esso deve realizzare. Il \"fine\" non è una situazione esteriore cui la collettività tende, ma l'intima legge e l'intrinseca razionalità del processo attraverso cui lo Stato, come società, si sta facendo. Si tratta di riprendere il concetto della natura dello Stato sotto il profilo della sua ragion d'essere essenziale, per cui esso è ciò che è e non potrebbe essere diversamente senza negarsi.",
-      "concetti": []
+      "markdown": "L'analisi dei [[fini-dello-stato|fini dello Stato]] mira a comprendere la sua natura essenziale sotto il profilo dei complessi di scopi che esso deve realizzare. Il \"fine\" non è una situazione esteriore cui la collettività tende, ma l'intima legge e l'intrinseca razionalità del processo attraverso cui lo Stato, come società, si sta facendo. Si tratta di riprendere il concetto della natura dello Stato sotto il profilo della sua ragion d'essere essenziale, per cui esso è ciò che è e non potrebbe essere diversamente senza negarsi.",
+      "concetti": [
+        "fini-dello-stato"
+      ]
     },
     {
       "id": "p013-b003",
@@ -34,38 +41,60 @@
     {
       "id": "p013-b005",
       "pagina": 13,
-      "markdown": "Per intendere il significato umano dei fini dello Stato, è utile un raccordo critico con le due grandi intuizioni storiche: lo Stato di diritto e lo Stato etico. Queste formule rappresentano un processo di chiarificazione e autogiustificazioneattraverso cui lo Stato prende coscienza della propria essenziale ragion d'essere, che giustifica e dà norma al suo sviluppo concreto.",
-      "concetti": []
+      "markdown": "Per intendere il significato umano dei fini dello Stato, è utile un raccordo critico con le due grandi intuizioni storiche: lo [[stato-di-diritto|Stato di diritto]] e lo [[stato-etico|Stato etico]]. Queste formule rappresentano un processo di chiarificazione e autogiustificazioneattraverso cui lo Stato prende coscienza della propria essenziale ragion d'essere, che giustifica e dà norma al suo sviluppo concreto.",
+      "concetti": [
+        "stato-di-diritto",
+        "stato-etico",
+        "fini-dello-stato",
+        "diritto"
+      ],
+      "notaRevisione": "Il testo annuncia due intuizioni (Stato di diritto e Stato etico) ma poi elenca tre formule, cominciando dallo Stato assoluto come punto di partenza."
     },
     {
       "id": "p013-b006",
       "pagina": 13,
-      "markdown": "1. Stato Assoluto: La sua formula esprime una rinuncia a definire limiti o mete finali dell'attività statale. Interpretata letteralmente, essa è l'abdicazione dello Stato ad essere secondo la sua natura e la sua negazione, poiché identifica lo Stato con la persona del reggitore, rifacendosi a una posizione grettamente particolare. Tuttavia, nella prassi, non esistono Stati completamente assoluti, in cui manchi ogni senso superindividuale e razionale. L'assoluto è una coscienza velata e oscura della intrinseca razionalità dello Stato, che tende a evolvere verso una coscienza chiara della sua essenziale eticità.\n2. Stato di Diritto: Afferma in modo decisivo (ma incompleto e ambiguo) l'essenziale eticità dello Stato. Lo Stato è ordinato al fine essenziale della garanzia della coesistente libertà delle persone attraverso un ordine giuridico che consenta a ciascuna di attuare i propri fini umani e produrre valori etici. Il suo significato è polemico e ricostruttivo rispetto allo Stato assoluto, richiamando il significato umanistico dello Stato, l'autonomia delle persone e il fatto che lo Stato è un'esperienza sociale dominata da una legge.",
-      "concetti": []
+      "markdown": "1. **[[stato-assoluto|Stato Assoluto]]:** La sua formula esprime una rinuncia a definire limiti o mete finali dell'attività statale. Interpretata letteralmente, essa è l'abdicazione dello Stato ad essere secondo la sua natura e la sua negazione, poiché identifica lo Stato con la persona del reggitore, rifacendosi a una posizione grettamente particolare. Tuttavia, nella prassi, non esistono Stati completamente assoluti, in cui manchi ogni senso superindividuale e razionale. L'assoluto è una coscienza velata e oscura della intrinseca razionalità dello Stato, che tende a evolvere verso una coscienza chiara della sua essenziale eticità.\n2. **Stato di [[diritto|Diritto]]:** Afferma in modo decisivo (ma incompleto e ambiguo) l'essenziale eticità dello Stato. Lo Stato è ordinato al fine essenziale della garanzia della coesistente [[liberta|libertà]] delle persone attraverso un ordine giuridico che consenta a ciascuna di attuare i propri fini umani e produrre valori etici. Il suo significato è polemico e ricostruttivo rispetto allo Stato assoluto, richiamando il significato umanistico dello Stato, l'autonomia delle persone e il fatto che lo Stato è un'esperienza sociale dominata da una legge.",
+      "concetti": [
+        "stato-assoluto",
+        "diritto",
+        "liberta",
+        "stato-di-diritto"
+      ]
     },
     {
       "id": "p013-b007",
       "pagina": 13,
       "markdown": "Il limite maggiore imputato allo Stato di diritto è la concezione di una estraneità della persona (portatrice del valore etico) rispetto allo Stato. Lo Stato di diritto resta un ordine esterno con valore di condizione per il compiersi dei valori etici, che si sviluppano autonomamente dalla persona. Di conseguenza, il suo fine diviene la mera garanzia della personae non il totale svolgimento dell'eticità nella storia.",
-      "concetti": []
+      "concetti": [
+        "stato-di-diritto",
+        "diritto"
+      ]
     },
     {
       "id": "p013-b008",
       "pagina": 13,
-      "markdown": "3. Stato Etico: Guarda a una complessità più ricca, vedendo lo Stato investito del compito di promuovere la cultura e sviluppare l'eticità nel senso più vasto. L'eticità e la cultura non sono estranee allo Stato, ma ne costituiscono il tessuto di vita. Tutta la vita umana è inserita",
-      "concetti": []
+      "markdown": "3. **Stato Etico:** Guarda a una complessità più ricca, vedendo lo Stato investito del compito di promuovere la cultura e sviluppare l'eticità nel senso più vasto. L'eticità e la cultura non sono estranee allo Stato, ma ne costituiscono il tessuto di vita. Tutta la vita umana è inserita",
+      "concetti": [
+        "stato-etico"
+      ]
     },
     {
       "id": "p014-b001",
       "pagina": 14,
       "markdown": "nello Stato, che acquista espressività in ragione della complessità dell'esperienza sociale che accoglie. Il valore di questa concezione è il richiamo alla vasta comprensività della categoria, che accoglie intera la vita sociale nel suo valore umano, armonizzando la complessa varietà degli scopi nell'ambito dello Stato. Le concezioni di Stato di Diritto e Stato Etico sono da considerarsi complementari più che contrapposte.",
-      "concetti": []
+      "concetti": [
+        "stato-di-diritto",
+        "stato-etico",
+        "diritto"
+      ]
     },
     {
       "id": "p014-b002",
       "pagina": 14,
-      "markdown": "Riprendendo la definizione propria dello Stato, il fine si chiarisce attraverso la distinzione della sovranità nel suo momento di potestà pura e nel suo concreto svolgimento come norma della volizione concreta.",
-      "concetti": []
+      "markdown": "Riprendendo la definizione propria dello Stato, il fine si chiarisce attraverso la distinzione della [[sovranita|sovranità]] nel suo momento di potestà pura e nel suo concreto svolgimento come norma della volizione concreta.",
+      "concetti": [
+        "sovranita"
+      ]
     },
     {
       "id": "p014-b003",
@@ -83,7 +112,10 @@
       "id": "p014-b005",
       "pagina": 14,
       "markdown": "Lo Stato è giuridico se il diritto è inteso nella sua profonda anima etica, assumendo il compito di dare valore e sicurezzaa ogni svolgimento umano tramite la norma. L'ordine dato dallo Stato non è una condizione esterna (come nello Stato di diritto), ma risolve in sé il condizionato. Lo Stato è eticità che si svolge nel suo contenuto umano, non una condizione esterna che ammette sviluppi fuori di sé.",
-      "concetti": []
+      "concetti": [
+        "stato-di-diritto",
+        "diritto"
+      ]
     },
     {
       "id": "p014-b006",
@@ -107,13 +139,19 @@
       "id": "p014-b009",
       "pagina": 14,
       "markdown": "Qui si ritrova il significato profondo della concezione etica dello Stato, che non diminuisce la sua ricca umanità limitandolo alla sola funzione di garanzia. Lo Stato si dimostra Stato etico perché compiutamente umano e storico, ed è Stato giuridico perché per diritto si intende il valore avente funzione determinante della realtà umana sociale. Stato di diritto e Stato etico contrassegnano in fondo la stessa realtà, in cui valore e fatto si compongono in sintesi.",
-      "concetti": []
+      "concetti": [
+        "stato-di-diritto",
+        "stato-etico",
+        "diritto"
+      ]
     },
     {
       "id": "p014-b010",
       "pagina": 14,
       "markdown": "Le idee di umanità e superindividualità (dove superare l'individualità, intesa come capriccio, significa libertà e verità) si pongono come limite invalicabile e criterio di valore. L'umanità è la ragion d'essere dello Stato: vita ricca di contenuto, norma limitatrice e liberatrice, potenza e valore, socialità che non nega la persona, e persona libera nell'ossequio alla sua legge di vita.",
-      "concetti": []
+      "concetti": [
+        "liberta"
+      ]
     }
   ]
 }
