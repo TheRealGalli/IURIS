@@ -21,6 +21,9 @@ La sezione raccoglie i quattro PDF di appunti e riassunti usati come fonti del P
 Il lettore permette di scorrerli, cambiare zoom, riprendere dall'ultima pagina e segnare il testo.
 Il documento occupa la sezione sotto una barra compatta; il selettore permette di passare dalla larghezza di lettura alla pagina intera.
 I segni si aprono dal pulsante **Segni**. Dal menu **Documento, download e backup** si può salvare una copia dei dati senza uscire dal lettore.
+Un passaggio selezionato si salva con un clic su **Salva segno**, con **Invio** o con **Spazio**.
+Le frecce curve accanto alle pagine annullano e ripristinano le modifiche ai segni (anche con Ctrl/⌘Z e Ctrl+Y/⌘⇧Z).
+La cronologia conserva fino a 50 azioni per documento ed è inclusa nel backup.
 I PDF di partenza rimangono invariati; i segni sono personali e salvati con i progressi della materia.
 Il file scaricato dal lettore è il PDF originale, senza i segni personali: questi sono nel backup dei progressi.
 

@@ -20,9 +20,67 @@ export interface SegnoOriginale {
   colore: 'giallo' | 'verde' | 'rosa';
   creata: string;
 }
+export interface AzioneSegno {
+  tipo: 'aggiungi' | 'rimuovi';
+  segno: SegnoOriginale;
+  posizione: number;
+}
+export interface StoriaSegniOriginali {
+  indietro: AzioneSegno[];
+  avanti: AzioneSegno[];
+}
 export interface LetturaOriginale {
   pagina: number;
   segni: SegnoOriginale[];
+  storiaSegni?: StoriaSegniOriginali;
+}
+
+const LIMITE_STORIA_SEGNI = 50;
+
+/** I vecchi backup permettono di annullare gli ultimi segni già presenti. */
+export function cronologiaSegni(lettura?: LetturaOriginale): StoriaSegniOriginali {
+  if (lettura?.storiaSegni) return {
+    indietro: lettura.storiaSegni.indietro.slice(-LIMITE_STORIA_SEGNI),
+    avanti: lettura.storiaSegni.avanti.slice(-LIMITE_STORIA_SEGNI),
+  };
+  const segni = lettura?.segni ?? [];
+  const inizio = Math.max(0, segni.length - LIMITE_STORIA_SEGNI);
+  return { indietro: segni.slice(inizio).map((segno, i) => ({ tipo: 'aggiungi', segno, posizione: inizio + i })), avanti: [] };
+}
+
+function eseguiAzioneSegno(segni: SegnoOriginale[], azione: AzioneSegno, inversa = false): SegnoOriginale[] {
+  const aggiunge = (azione.tipo === 'aggiungi') !== inversa;
+  const posizione = segni.findIndex((segno) => segno.id === azione.segno.id);
+  if (aggiunge) {
+    if (posizione >= 0) return segni;
+    const prossimi = [...segni];
+    prossimi.splice(Math.max(0, Math.min(segni.length, azione.posizione)), 0, azione.segno);
+    return prossimi;
+  }
+  if (posizione < 0) return segni;
+  return [...segni.slice(0, posizione), ...segni.slice(posizione + 1)];
+}
+
+/** Applica una nuova modifica senza mutare il documento precedente; una modifica nuova chiude il ramo redo. */
+export function applicaAzioneSegno(lettura: LetturaOriginale, azione: AzioneSegno): LetturaOriginale {
+  const segni = eseguiAzioneSegno(lettura.segni, azione);
+  if (segni === lettura.segni) return lettura;
+  const storia = cronologiaSegni(lettura);
+  return { ...lettura, segni, storiaSegni: { indietro: [...storia.indietro, azione].slice(-LIMITE_STORIA_SEGNI), avanti: [] } };
+}
+
+/** null significa che non esiste un'azione applicabile nella direzione richiesta. */
+export function spostaCronologiaSegni(lettura: LetturaOriginale, direzione: 'indietro' | 'avanti'): LetturaOriginale | null {
+  const storia = cronologiaSegni(lettura);
+  const pila = storia[direzione];
+  const azione = pila[pila.length - 1];
+  if (!azione) return null;
+  const segni = eseguiAzioneSegno(lettura.segni, azione, direzione === 'indietro');
+  if (segni === lettura.segni) return null;
+  const altra = direzione === 'indietro' ? 'avanti' : 'indietro';
+  return { ...lettura, segni, storiaSegni: {
+    ...storia, [direzione]: pila.slice(0, -1), [altra]: [...storia[altra], azione].slice(-LIMITE_STORIA_SEGNI),
+  } };
 }
 
 export const ORIGINALI: DocumentoOriginale[] = catalogo;

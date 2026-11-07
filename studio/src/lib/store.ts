@@ -2,7 +2,7 @@
 import { useSyncExternalStore } from 'react';
 import type { Card } from 'ts-fsrs';
 import { isoDi, oggiISO } from './util';
-import { normalizzaSegno, paginaValida, type DocumentoOriginale, type LetturaOriginale, type SegnoOriginale } from './originali';
+import { applicaAzioneSegno, normalizzaSegno, paginaValida, spostaCronologiaSegni, type DocumentoOriginale, type LetturaOriginale, type SegnoOriginale } from './originali';
 
 export type CartaSalvata = Omit<Card, 'due' | 'last_review'> & { due: string; last_review?: string; introdotta?: string };
 
@@ -41,10 +41,7 @@ function leggi(slug: string): Progresso {
   return p;
 }
 
-export function aggiorna(slug: string, fn: (p: Progresso) => Progresso | void) {
-  const prev = leggi(slug);
-  const draft: Progresso = structuredClone(prev);
-  const next = fn(draft) ?? draft;
+function persisti(slug: string, next: Progresso): boolean {
   mem.set(slug, next);
   let salvato = true;
   try { localStorage.setItem(key(slug), JSON.stringify(next)); } catch { salvato = false; }
@@ -52,34 +49,60 @@ export function aggiorna(slug: string, fn: (p: Progresso) => Progresso | void) {
   return salvato;
 }
 
-export function salvaPaginaOriginale(slug: string, doc: DocumentoOriginale, pagina: number): boolean {
+export function aggiorna(slug: string, fn: (p: Progresso) => Progresso | void) {
+  const draft: Progresso = structuredClone(leggi(slug));
+  return persisti(slug, fn(draft) ?? draft);
+}
+
+/** Cambiare pagina o segni non copia carte FSRS, statistiche o gli altri documenti. */
+function aggiornaOriginale(slug: string, doc: DocumentoOriginale,
+  modifica: (lettura: LetturaOriginale | undefined) => LetturaOriginale | undefined): boolean {
   if (doc.materia !== slug) throw new Error('Documento di un’altra materia');
-  return aggiorna(slug, (p) => {
-    const originali = p.originali ?? (p.originali = {});
-    const lettura = originali[doc.id] ?? (originali[doc.id] = { pagina: 1, segni: [] });
-    lettura.pagina = paginaValida(pagina, doc.pagine);
-  });
+  const prev = leggi(slug);
+  const prima = prev.originali?.[doc.id];
+  const lettura = modifica(prima);
+  const next = lettura === prima ? prev : { ...prev, originali: { ...prev.originali, [doc.id]: lettura! } };
+  // Anche un nuovo tentativo sulla stessa pagina deve poter salvare modifiche rimaste in memoria per quota piena.
+  return persisti(slug, next);
+}
+
+export function salvaPaginaOriginale(slug: string, doc: DocumentoOriginale, pagina: number): boolean {
+  return aggiornaOriginale(slug, doc, (lettura) => ({ ...lettura, pagina: paginaValida(pagina, doc.pagine), segni: lettura?.segni ?? [] }));
 }
 
 export function aggiungiSegnoOriginale(slug: string, doc: DocumentoOriginale, segno: Omit<SegnoOriginale, 'id' | 'creata'>): { id: string; salvato: boolean } {
   if (doc.materia !== slug) throw new Error('Documento di un’altra materia');
   const valido = normalizzaSegno(segno, doc.pagine);
   const id = crypto.randomUUID();
-  const salvato = aggiorna(slug, (p) => {
-    const originali = p.originali ?? (p.originali = {});
-    const lettura = originali[doc.id] ?? (originali[doc.id] = { pagina: valido.pagina, segni: [] });
-    lettura.segni.push({ ...valido, id, creata: new Date().toISOString() });
+  const nuovo = { ...valido, id, creata: new Date().toISOString() };
+  const salvato = aggiornaOriginale(slug, doc, (precedente) => {
+    const lettura = precedente ?? { pagina: valido.pagina, segni: [] };
+    return applicaAzioneSegno(lettura, { tipo: 'aggiungi', segno: nuovo, posizione: lettura.segni.length });
   });
   return { id, salvato };
 }
 
 export function rimuoviSegnoOriginale(slug: string, doc: DocumentoOriginale, id: string): boolean {
-  if (doc.materia !== slug) throw new Error('Documento di un’altra materia');
-  return aggiorna(slug, (p) => {
-    const lettura = p.originali?.[doc.id];
-    if (lettura) lettura.segni = lettura.segni.filter((s) => s.id !== id);
+  return aggiornaOriginale(slug, doc, (lettura) => {
+    if (!lettura) return lettura;
+    const posizione = lettura.segni.findIndex((segno) => segno.id === id);
+    return posizione < 0 ? lettura : applicaAzioneSegno(lettura, { tipo: 'rimuovi', segno: lettura.segni[posizione], posizione });
   });
 }
+
+function spostaStoriaOriginale(slug: string, doc: DocumentoOriginale, direzione: 'indietro' | 'avanti'): { eseguito: boolean; salvato: boolean } {
+  let eseguito = false;
+  const salvato = aggiornaOriginale(slug, doc, (lettura) => {
+    if (!lettura) return lettura;
+    const prossima = spostaCronologiaSegni(lettura, direzione);
+    eseguito = prossima !== null;
+    return prossima ?? lettura;
+  });
+  return { eseguito, salvato };
+}
+
+export const annullaSegnoOriginale = (slug: string, doc: DocumentoOriginale) => spostaStoriaOriginale(slug, doc, 'indietro');
+export const ripristinaSegnoOriginale = (slug: string, doc: DocumentoOriginale) => spostaStoriaOriginale(slug, doc, 'avanti');
 
 export function useProgresso(slug: string): Progresso {
   return useSyncExternalStore(

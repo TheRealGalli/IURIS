@@ -1,12 +1,14 @@
-import { memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { createContext, memo, useCallback, useContext, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import type { PDFDocumentProxy, PDFPageProxy } from 'pdfjs-dist';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/TextLayer.css';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import { Icon } from '../components/ui';
 import { useCorso } from '../lib/data';
-import { originaliMateria, paginaValida, type DocumentoOriginale, type RettangoloSegno, type SegnoOriginale } from '../lib/originali';
-import { aggiungiSegnoOriginale, esporta, rimuoviSegnoOriginale, salvaPaginaOriginale, useProgresso } from '../lib/store';
+import { cronologiaSegni, originaliMateria, paginaValida, type DocumentoOriginale, type RettangoloSegno, type SegnoOriginale } from '../lib/originali';
+import { aggiungiSegnoOriginale, annullaSegnoOriginale, esporta, ripristinaSegnoOriginale, rimuoviSegnoOriginale, salvaPaginaOriginale, useProgresso } from '../lib/store';
 import { oggiISO } from '../lib/util';
+import { aggiornaPianoRender, avviaPagina, ordinePagine, paginaPronta, pixelRatioPagina, type PianoRender } from '../lib/originali-render';
 import './Originali.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL('pdfjs-dist/build/pdf.worker.min.mjs', import.meta.url).toString();
@@ -41,9 +43,17 @@ function rettangoliSelezione(range: Range, bounds: DOMRect): RettangoloSegno[] {
 }
 function elementoDi(nodo: Node): Element | null { return nodo.nodeType === Node.ELEMENT_NODE ? nodo as Element : nodo.parentElement; }
 
-function SegniPagina({ segni, bozza, tipo, colore }: {
-  segni: SegnoOriginale[]; bozza?: Selezione; tipo: SegnoOriginale['tipo']; colore: SegnoOriginale['colore'];
-}) {
+type AnnotazioniPagina = {
+  perPagina: Map<number, SegnoOriginale[]>; bozza: Selezione | null;
+  tipo: SegnoOriginale['tipo']; colore: SegnoOriginale['colore'];
+};
+const AnnotazioniContext = createContext<AnnotazioniPagina | null>(null);
+
+// Solo questo strato riceve gli aggiornamenti della selezione e dei segni.
+function SegniPagina({ numero }: { numero: number }) {
+  const dati = useContext(AnnotazioniContext)!;
+  const { tipo, colore } = dati, segni = dati.perPagina.get(numero) ?? NESSUN_SEGNO;
+  const bozza = dati.bozza?.pagina === numero ? dati.bozza : null;
   const rettangolo = (r: RettangoloSegno, key: string, cls: string) => <span key={key} className={`originali-segno ${cls}`}
     style={{ left: `${r.x * 100}%`, top: `${r.y * 100}%`, width: `${r.w * 100}%`, height: `${r.h * 100}%` }} />;
   return <div className="originali-segni-pagina" aria-hidden="true">
@@ -51,24 +61,68 @@ function SegniPagina({ segni, bozza, tipo, colore }: {
     {bozza?.rettangoli.map((r, k) => rettangolo(r, `bozza-${k}`, `originali-bozza ${tipo} ${colore}`))}
   </div>;
 }
-const PaginaOriginale = memo(function PaginaOriginale({ numero, larghezza, rapporto, vicina, segni, bozza, tipo, colore, file, registra, misura }: {
-  numero: number; larghezza: number; rapporto: number; vicina: boolean; segni: SegnoOriginale[]; bozza?: Selezione;
-  tipo: SegnoOriginale['tipo']; colore: SegnoOriginale['colore']; file: string;
+
+type PropsPagina = {
+  numero: number; larghezza: number; rapporto: number; attiva: boolean; file: string;
   registra: (numero: number, elemento: HTMLDivElement | null) => void;
   misura: (numero: number, rapporto: number) => void;
-}) {
+  pronta: (numero: number, larghezza: number) => void;
+};
+const ContenutoPagina = memo(function ContenutoPagina({ numero, larghezza, rapporto, file, misura, pronta }: Omit<PropsPagina, 'attiva' | 'registra'>) {
+  const montata = useRef(true);
+  const versione = useRef({ larghezza, token: 0 });
+  if (versione.current.larghezza !== larghezza) versione.current = { larghezza, token: versione.current.token + 1 };
+  const token = versione.current.token;
+  const stato = useRef({ token, canvas: false, testo: false, notificata: false });
+  if (stato.current.token !== token) stato.current = { token, canvas: false, testo: false, notificata: false };
+  useLayoutEffect(() => { montata.current = true; return () => { montata.current = false; }; }, []);
+  const completa = useCallback((strato: 'canvas' | 'testo') => {
+    const corrente = stato.current;
+    if (!montata.current || corrente.token !== token) return;
+    corrente[strato] = true;
+    if (corrente.canvas && corrente.testo && !corrente.notificata) {
+      corrente.notificata = true; pronta(numero, larghezza);
+    }
+  }, [numero, larghezza, pronta, token]);
+  const canvasPronto = useCallback(() => completa('canvas'), [completa]);
+  const testoPronto = useCallback(() => completa('testo'), [completa]);
+  const errore = useCallback(() => {
+    if (montata.current && stato.current.token === token) pronta(numero, larghezza);
+  }, [numero, larghezza, pronta, token]);
+  const caricata = useCallback((page: PDFPageProxy) => {
+    const v = page.getViewport({ scale: 1 }); misura(numero, v.height / v.width);
+  }, [numero, misura]);
+  return <Page pageNumber={numero} width={larghezza} renderTextLayer renderAnnotationLayer
+    devicePixelRatio={pixelRatioPagina(larghezza, rapporto, window.devicePixelRatio || 1)}
+    onLoadSuccess={caricata} onLoadError={errore} onRenderSuccess={canvasPronto} onRenderError={errore}
+    onRenderTextLayerSuccess={testoPronto} onRenderTextLayerError={testoPronto} onGetTextError={testoPronto}
+    loading={<div className="originali-stato-pagina" role="status">Caricamento pagina {numero}…</div>}
+    error={<div className="originali-stato-pagina">Questa pagina non si è caricata. <a href={`${file}#page=${numero}`} target="_blank" rel="noopener noreferrer">Aprila nel PDF</a></div>} />;
+});
+const PaginaOriginale = memo(function PaginaOriginale({ numero, larghezza, rapporto, attiva, file, registra, misura, pronta }: PropsPagina) {
   const ref = useCallback((el: HTMLDivElement | null) => registra(numero, el), [numero, registra]);
   return <div className="originali-foglio" style={{ width: larghezza }}>
     <div ref={ref} className="originali-pagina" data-original-page={numero} style={{ width: larghezza, height: larghezza * rapporto }}>
-      {vicina && <Page pageNumber={numero} width={larghezza} renderTextLayer renderAnnotationLayer
-        devicePixelRatio={Math.min(window.devicePixelRatio || 1, 2)}
-        onLoadSuccess={(page) => { const v = page.getViewport({ scale: 1 }); misura(numero, v.height / v.width); }}
-        loading={<div className="originali-stato-pagina" role="status">Caricamento pagina {numero}…</div>}
-        error={<div className="originali-stato-pagina">Questa pagina non si è caricata. <a href={`${file}#page=${numero}`} target="_blank" rel="noopener noreferrer">Aprila nel PDF</a></div>} />}
-      {vicina && <SegniPagina segni={segni} bozza={bozza} tipo={tipo} colore={colore} />}
-    </div>
-    <span className="originali-numero-pagina">Pagina {numero}</span>
+      {attiva && <><ContenutoPagina numero={numero} larghezza={larghezza} rapporto={rapporto} file={file} misura={misura} pronta={pronta} /><SegniPagina numero={numero} /></>}
+    </div><span className="originali-numero-pagina">Pagina {numero}</span>
   </div>;
+});
+
+type PropsDocumento = Omit<PropsPagina, 'numero' | 'attiva' | 'rapporto'> & {
+  rapporto: number; rapporti: Record<number, number>; residenti: ReadonlySet<number>;
+  pagine: number; caricato: boolean; errore: boolean;
+  carica: (pdf: PDFDocumentProxy) => void; fallita: () => void; vai: (numero: number) => void;
+};
+// Le modifiche ai segni non cambiano nessuna prop di questo componente.
+const DocumentoPagine = memo(function DocumentoPagine({ file, larghezza, rapporto, rapporti, residenti, pagine, caricato, errore, registra, misura, pronta, carica, fallita, vai }: PropsDocumento) {
+  const collegamento = useCallback(({ pageNumber }: { pageNumber?: number }) => { if (pageNumber) vai(pageNumber); }, [vai]);
+  return <Document file={file} options={PDF_OPTIONS} externalLinkTarget="_blank" externalLinkRel="noopener noreferrer"
+    onLoadSuccess={carica} onLoadError={fallita} onItemClick={collegamento}
+    loading={<div className="originali-stato-documento" role="status">Apertura degli appunti…</div>}
+    error={<div className="originali-stato-documento"><Icon n="avviso" size={26} /><h2 className="title-m">Il documento non si è aperto</h2><p>Puoi riprovare ricaricando la pagina o consultare il PDF originale.</p><a className="btn" href={file} target="_blank" rel="noopener noreferrer">Apri PDF</a></div>}>
+    {caricato && !errore && <div className="originali-pagine">{Array.from({ length: pagine }, (_, k) => k + 1).map((n) => <PaginaOriginale key={n} numero={n} larghezza={larghezza}
+      rapporto={rapporti[n] ?? rapporto} attiva={residenti.has(n)} file={file} registra={registra} misura={misura} pronta={pronta} />)}</div>}
+  </Document>;
 });
 
 function LettoreOriginale({ slug, doc, documenti, scegli }: {
@@ -86,18 +140,52 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
   const [pannello, setPannello] = useState<'segni' | 'documento' | null>(null);
   const chiudiPannello = useRef<HTMLButtonElement>(null);
   const [rapporto, setRapporto] = useState(Math.SQRT2), [rapporti, setRapporti] = useState<Record<number, number>>({});
-  const [vicine, setVicine] = useState<Set<number>>(() => new Set([iniziale.current - 1, iniziale.current, iniziale.current + 1]));
-  const [bozza, setBozza] = useState<Selezione | null>(null);
+  const [bozza, setBozza] = useState<Selezione | null>(null), bozzaRef = useRef<Selezione | null>(null);
+  const [selezionando, setSelezionando] = useState(false), gesto = useRef(false), paginaGesto = useRef<number | null>(null);
+  const impostaBozza = useCallback((nuova: Selezione | null) => {
+    const prima = bozzaRef.current;
+    if (prima === nuova || (prima && nuova && prima.pagina === nuova.pagina && prima.testo === nuova.testo && JSON.stringify(prima.rettangoli) === JSON.stringify(nuova.rettangoli))) return;
+    bozzaRef.current = nuova; setBozza(nuova);
+  }, []);
   const [tipo, setTipo] = useState<SegnoOriginale['tipo']>('evidenziato');
   const [colore, setColore] = useState<SegnoOriginale['colore']>('giallo');
   const [messaggio, setMessaggio] = useState(''), [erroreSalvataggio, setErroreSalvataggio] = useState(false);
-  const [rimossi, setRimossi] = useState<SegnoOriginale[]>([]);
+  const spazio = useRef<HTMLDivElement>(null);
   const viewport = useRef<HTMLDivElement>(null), campo = useRef<HTMLInputElement>(null);
   const elementi = useRef(new Map<number, HTMLDivElement>()), osservatore = useRef<IntersectionObserver | null>(null);
-  const vicineRef = useRef(vicine), ripristino = useRef(true), ancora = useRef<Ancora | null>(null);
+  const vicineRef = useRef(new Set([iniziale.current - 1, iniziale.current, iniziale.current + 1])), ripristino = useRef(true), ancora = useRef<Ancora | null>(null);
   const ultimaSalvata = useRef(iniziale.current), prontoRef = useRef(false), scrollFrame = useRef(0);
   const selezioneTimer = useRef<ReturnType<typeof setTimeout>>();
   const file = `${import.meta.env.BASE_URL}${doc.file}`, larghezza = Math.round(larghezzaFit * zoom);
+  const [piano, setPiano] = useState<PianoRender>(() => ({ larghezza, pronte: new Set(), inCorso: iniziale.current }));
+  const paginaPrioritaria = selezionando ? paginaGesto.current ?? pagina : pagina;
+  const ordine = useMemo(() => ordinePagine(paginaPrioritaria, pagine), [paginaPrioritaria, pagine]);
+  useLayoutEffect(() => {
+    if (caricato) setPiano((prima) => aggiornaPianoRender(prima, ordine, paginaPrioritaria, larghezza));
+  }, [caricato, ordine, paginaPrioritaria, larghezza]);
+  useEffect(() => {
+    if (!caricato || errorePdf || selezionando || bozza || piano.larghezza !== larghezza || piano.inCorso !== null) return;
+    const prossima = ordine.find((n) => !piano.pronte.has(n));
+    if (prossima === undefined) return;
+    let idle: number | undefined, annullato = false;
+    const avvia = () => { if (!annullato) setPiano((prima) => annullato ? prima : avviaPagina(prima, prossima, larghezza)); };
+    const timer = window.setTimeout(() => {
+      if ('requestIdleCallback' in window) idle = window.requestIdleCallback(avvia, { timeout: 700 });
+      else avvia();
+    }, 150);
+    return () => { annullato = true; window.clearTimeout(timer); if (idle !== undefined) window.cancelIdleCallback(idle); };
+  }, [caricato, errorePdf, selezionando, bozza, piano, larghezza, ordine]);
+  const firmaResidenti = piano.larghezza === larghezza
+    ? [...piano.pronte, ...(piano.inCorso === null ? [] : [piano.inCorso])].sort((a, b) => a - b).join(',')
+    : String(paginaPrioritaria);
+  const residenti = useMemo(() => new Set(firmaResidenti ? firmaResidenti.split(',').map(Number) : []), [firmaResidenti]);
+  const pronta = useCallback((numero: number, dimensione: number) => setPiano((prima) => paginaPronta(prima, numero, dimensione)), []);
+  const caricaDocumento = useCallback(async (pdf: PDFDocumentProxy) => {
+    setPagine(pdf.numPages); setErrorePdf(false);
+    try { const first = await pdf.getPage(1), v = first.getViewport({ scale: 1 }); setRapporto(v.height / v.width); } catch { /* Rapporto A4 come ripiego. */ }
+    setCaricato(true);
+  }, []);
+  const documentoFallito = useCallback(() => setErrorePdf(true), []);
   const salvaEsito = useCallback((ok: boolean) => setErroreSalvataggio(!ok), []);
   const aggiornaPagina = useCallback((numero: number) => {
     paginaRef.current = numero; setPagina(numero);
@@ -148,10 +236,10 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
     const resize = new ResizeObserver(() => {
       const next = Math.max(120, Math.min(1100, root.clientWidth - 32,
         adattamento === 'pagina' ? (root.clientHeight - 52) / rapporto : Infinity));
-      setLarghezzaFit((prev) => { if (Math.abs(next - prev) < 1) return prev; conservaAncora(); setBozza(null); return next; });
+      setLarghezzaFit((prev) => { if (Math.abs(next - prev) < 1) return prev; conservaAncora(); impostaBozza(null); return next; });
     });
     resize.observe(root); return () => resize.disconnect();
-  }, [conservaAncora, adattamento, rapporto]);
+  }, [conservaAncora, adattamento, rapporto, impostaBozza]);
   useEffect(() => {
     if (!pannello) return;
     const prima = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -171,7 +259,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
         const numero = Number((entry.target as HTMLElement).dataset.originalPage);
         if (entry.isIntersecting) next.add(numero); else next.delete(numero);
       }
-      vicineRef.current = next; setVicine(next); scorri();
+      vicineRef.current = next; scorri();
     }, { root, rootMargin: '1000px 0px' });
     osservatore.current = io; elementi.current.forEach((el) => io.observe(el));
     const frame = requestAnimationFrame(() => { salta(iniziale.current); ripristino.current = false; prontoRef.current = true; });
@@ -198,50 +286,98 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
       salvaUltimaPagina();
     };
   }, [slug, doc, salvaEsito]);
-  const catturaSelezione = useCallback(() => {
+  const catturaSelezione = useCallback((): Selezione | null => {
     const selection = window.getSelection();
-    // Su touch i comandi possono chiudere la selezione nativa: conserviamo l'anteprima.
-    if (!selection || selection.isCollapsed || !selection.rangeCount) return;
+    // L'anteprima già catturata sopravvive al passaggio sui pulsanti.
+    if (!selection || selection.isCollapsed || !selection.rangeCount) return null;
     const range = selection.getRangeAt(0), inizio = elementoDi(range.startContainer), fine = elementoDi(range.endContainer);
     const prima = inizio?.closest<HTMLDivElement>('[data-original-page]'), ultima = fine?.closest<HTMLDivElement>('[data-original-page]');
-    if (!prima || !ultima || !viewport.current?.contains(prima) || !viewport.current.contains(ultima)) return;
-    if (prima !== ultima) { setBozza(null); setMessaggio('Seleziona un passaggio su una sola pagina per volta.'); return; }
-    if (!inizio?.closest('.react-pdf__Page__textContent') || !fine?.closest('.react-pdf__Page__textContent')) return;
+    if (!prima || !ultima || !viewport.current?.contains(prima) || !viewport.current.contains(ultima)) return null;
+    if (prima !== ultima) { impostaBozza(null); setMessaggio('Seleziona un passaggio su una sola pagina per volta.'); return null; }
+    if (!inizio?.closest('.react-pdf__Page__textContent') || !fine?.closest('.react-pdf__Page__textContent')) return null;
     const testo = selection.toString().trim(), rettangoli = rettangoliSelezione(range, prima.getBoundingClientRect());
-    if (!testo || !rettangoli.length) return;
-    if (testo.length > 10000 || rettangoli.length > 1000) { setBozza(null); setMessaggio('Il passaggio è molto lungo: seleziona una porzione più breve.'); return; }
-    setBozza({ pagina: Number(prima.dataset.originalPage), testo, rettangoli }); setMessaggio('');
-  }, []);
+    if (!testo || !rettangoli.length) return null;
+    if (testo.length > 10000 || rettangoli.length > 1000) { impostaBozza(null); setMessaggio('Il passaggio è molto lungo: seleziona una porzione più breve.'); return null; }
+    const nuova = { pagina: Number(prima.dataset.originalPage), testo, rettangoli };
+    impostaBozza(nuova); setMessaggio(''); return nuova;
+  }, [impostaBozza]);
   const programmaSelezione = useCallback(() => {
-    clearTimeout(selezioneTimer.current); selezioneTimer.current = setTimeout(catturaSelezione, 160);
+    if (gesto.current) return;
+    clearTimeout(selezioneTimer.current); selezioneTimer.current = setTimeout(catturaSelezione, 60);
   }, [catturaSelezione]);
   useEffect(() => {
+    const termina = () => {
+      if (!gesto.current) return;
+      gesto.current = false; setSelezionando(false); paginaGesto.current = null;
+      clearTimeout(selezioneTimer.current); selezioneTimer.current = setTimeout(catturaSelezione, 0);
+    };
     document.addEventListener('selectionchange', programmaSelezione);
-    return () => document.removeEventListener('selectionchange', programmaSelezione);
-  }, [programmaSelezione]);
-  function annullaSelezione() {
-    clearTimeout(selezioneTimer.current); setBozza(null); setMessaggio(''); window.getSelection()?.removeAllRanges();
-  }
-  function salvaSegno() {
-    if (!bozza) return;
+    document.addEventListener('pointerup', termina);
+    document.addEventListener('pointercancel', termina);
+    window.addEventListener('blur', termina);
+    return () => {
+      document.removeEventListener('selectionchange', programmaSelezione);
+      document.removeEventListener('pointerup', termina);
+      document.removeEventListener('pointercancel', termina);
+      window.removeEventListener('blur', termina);
+    };
+  }, [programmaSelezione, catturaSelezione]);
+  const annullaSelezione = useCallback(() => {
+    clearTimeout(selezioneTimer.current); impostaBozza(null); setMessaggio(''); window.getSelection()?.removeAllRanges();
+  }, [impostaBozza]);
+  const salvaSegno = useCallback(() => {
+    const scelta = catturaSelezione() ?? bozzaRef.current;
+    if (!scelta) return false;
     try {
-      const esito = aggiungiSegnoOriginale(slug, doc, { ...bozza, tipo, colore });
+      const esito = aggiungiSegnoOriginale(slug, doc, { ...scelta, tipo, colore });
       salvaEsito(esito.salvato); annullaSelezione(); setMessaggio(esito.salvato ? 'Segno salvato.' : 'Segno aggiunto solo per questa sessione.');
-    } catch { setMessaggio('Non è stato possibile creare il segno. Seleziona di nuovo il passaggio.'); }
-  }
+      return true;
+    } catch { setMessaggio('Non è stato possibile creare il segno. Seleziona di nuovo il passaggio.'); return false; }
+  }, [slug, doc, tipo, colore, catturaSelezione, annullaSelezione, salvaEsito]);
+  const annullaModifica = useCallback(() => {
+    annullaSelezione();
+    const esito = annullaSegnoOriginale(slug, doc); salvaEsito(esito.salvato);
+    if (esito.eseguito) setMessaggio('Modifica ai segni annullata.');
+  }, [slug, doc, annullaSelezione, salvaEsito]);
+  const ripristinaModifica = useCallback(() => {
+    annullaSelezione();
+    const esito = ripristinaSegnoOriginale(slug, doc); salvaEsito(esito.salvato);
+    if (esito.eseguito) setMessaggio('Modifica ai segni ripristinata.');
+  }, [slug, doc, annullaSelezione, salvaEsito]);
+  useEffect(() => {
+    const tastiera = (e: KeyboardEvent) => {
+      const target = e.target instanceof Element ? e.target : null;
+      if (!target || (!spazio.current?.contains(target) && target !== document.body)) return;
+      if (target.closest('input, select, textarea, [contenteditable="true"]')) return;
+      if ((e.metaKey || e.ctrlKey) && !e.altKey) {
+        const key = e.key.toLowerCase();
+        if (key === 'z') { e.preventDefault(); if (e.shiftKey) ripristinaModifica(); else annullaModifica(); }
+        else if (key === 'y') { e.preventDefault(); ripristinaModifica(); }
+        return;
+      }
+      if (e.repeat || e.altKey || e.shiftKey || target.closest('button, a, #originali-pannello')) return;
+      if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+        if (salvaSegno()) e.preventDefault();
+      }
+    };
+    document.addEventListener('keydown', tastiera);
+    return () => document.removeEventListener('keydown', tastiera);
+  }, [salvaSegno, annullaModifica, ripristinaModifica]);
   function cambiaZoom(valore: number) { conservaAncora(); annullaSelezione(); setZoom(Math.max(.6, Math.min(2, Math.round(valore * 100) / 100))); }
   const perPagina = useMemo(() => {
     const m = new Map<number, SegnoOriginale[]>(); for (const s of segni) m.set(s.pagina, [...(m.get(s.pagina) ?? []), s]); return m;
   }, [segni]);
   const ordinati = useMemo(() => [...segni].sort((a, b) => a.pagina - b.pagina || a.creata.localeCompare(b.creata)), [segni]);
-  function vaiPagina(numero: number) { annullaSelezione(); salta(numero); }
+  const vaiPagina = useCallback((numero: number) => { annullaSelezione(); salta(numero); }, [annullaSelezione, salta]);
   function adatta(valore: 'pagina' | 'larghezza') { conservaAncora(); annullaSelezione(); setZoom(1); setAdattamento(valore); }
   function scaricaDati() {
     const url = URL.createObjectURL(new Blob([esporta(slug)], { type: 'application/json' }));
     const link = document.createElement('a'); link.href = url; link.download = `iuris-progressi-${slug}-${oggiISO()}.json`; link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
-  return <div className="originali">
+  const annotazioni = useMemo(() => ({ perPagina, bozza, tipo, colore }), [perPagina, bozza, tipo, colore]);
+  const cronologia = useMemo(() => cronologiaSegni(lettura), [lettura]);
+  return <div className="originali" ref={spazio}>
     <header className="originali-header">
       <h1>Originali</h1>
       <select className="select originali-documento-select" value={doc.id} onChange={(e) => scegli(e.target.value)} aria-label="Scegli il documento originale">
@@ -264,6 +400,12 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
             <span className="faint">/ {pagine}</span><button type="submit" className="btn btn-sm btn-ghost">Vai</button>
             <button type="button" className="btn btn-sm btn-ghost originali-quadrato" disabled={!caricato || pagina >= pagine} onClick={() => vaiPagina(pagina + 1)} aria-label="Pagina successiva"><Icon n="freccia" size={15} /></button>
           </form>
+          <div className="originali-cronologia" aria-label="Annulla e ripristina segni">
+            <button type="button" className="btn btn-sm btn-ghost originali-quadrato" disabled={!cronologia.indietro.length} onClick={annullaModifica}
+              aria-label="Annulla ultima modifica ai segni" title="Annulla (⌘Z / Ctrl+Z)"><Icon n="annulla" size={17} /></button>
+            <button type="button" className="btn btn-sm btn-ghost originali-quadrato" disabled={!cronologia.avanti.length} onClick={ripristinaModifica}
+              aria-label="Ripristina modifica ai segni" title="Ripristina (⌘⇧Z / Ctrl+Y)"><Icon n="ripristina" size={17} /></button>
+          </div>
           <div className="originali-zoom" aria-label="Ingrandimento del PDF">
             <button className="btn btn-sm btn-ghost originali-quadrato" disabled={zoom <= .6} onClick={() => cambiaZoom(zoom - .15)} aria-label="Riduci zoom">−</button>
             <span>{Math.round(zoom * 100)}%</span>
@@ -272,30 +414,27 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
               <option value="pagina">Pagina intera</option><option value="larghezza">Larghezza</option>
             </select>
           </div>
-          <div className="originali-strumenti" onMouseDown={(e) => { if ((e.target as Element).closest('button')) e.preventDefault(); }}>
+          <div className="originali-strumenti">
             <button className={`btn btn-sm ${tipo === 'evidenziato' ? 'originali-scelto' : 'btn-ghost'}`} aria-pressed={tipo === 'evidenziato'} onClick={() => setTipo('evidenziato')}>Evidenzia</button>
             <button className={`btn btn-sm ${tipo === 'sottolineato' ? 'originali-scelto' : 'btn-ghost'}`} aria-pressed={tipo === 'sottolineato'} onClick={() => setTipo('sottolineato')}>Sottolinea</button>
             <div className="originali-colori" aria-label="Colore del segno">{COLORI.map((c) => <button key={c} className={`originali-colore ${c}`} aria-label={c[0].toUpperCase() + c.slice(1)} title={c}
               aria-pressed={colore === c} onClick={() => setColore(c)} />)}</div>
-            <button className="btn btn-sm" disabled={!bozza} title={bozza ? `Salva il passaggio di pagina ${bozza.pagina}` : 'Seleziona un passaggio del PDF'} onClick={salvaSegno}>Salva segno</button>
+            <button className="btn btn-sm" disabled={!bozza} title={bozza ? `Salva il passaggio di pagina ${bozza.pagina} (Invio o Spazio)` : 'Seleziona un passaggio del PDF'} onClick={salvaSegno}>Salva segno</button>
             {bozza && <button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Annulla selezione" title="Annulla selezione" onClick={annullaSelezione}><Icon n="x" size={14} /></button>}
           </div>
         </div>
         <div ref={viewport} className="originali-viewport" tabIndex={0} aria-label="Pagine del documento, scorri per leggere" onScroll={scorri}
-          onPointerUp={programmaSelezione} onPointerDown={(e) => { if ((e.target as Element).closest('.react-pdf__Page__textContent')) { setBozza(null); setMessaggio(''); } }}>
-          <Document file={file} options={PDF_OPTIONS} externalLinkTarget="_blank" externalLinkRel="noopener noreferrer"
-            onLoadSuccess={async (pdf) => {
-              setPagine(pdf.numPages); setErrorePdf(false);
-              try { const first = await pdf.getPage(1), v = first.getViewport({ scale: 1 }); setRapporto(v.height / v.width); } catch { /* Rapporto A4 come ripiego. */ }
-              setCaricato(true);
-            }}
-            onLoadError={() => setErrorePdf(true)} onItemClick={({ pageNumber }) => { if (pageNumber) vaiPagina(pageNumber); }}
-            loading={<div className="originali-stato-documento" role="status">Apertura degli appunti…</div>}
-            error={<div className="originali-stato-documento"><Icon n="avviso" size={26} /><h2 className="title-m">Il documento non si è aperto</h2><p>Puoi riprovare ricaricando la pagina o consultare il PDF originale.</p><a className="btn" href={file} target="_blank" rel="noopener noreferrer">Apri PDF</a></div>}>
-            {caricato && !errorePdf && <div className="originali-pagine">{Array.from({ length: pagine }, (_, k) => k + 1).map((n) => <PaginaOriginale key={n} numero={n} larghezza={larghezza}
-              rapporto={rapporti[n] ?? rapporto} vicina={vicine.has(n)} segni={perPagina.get(n) ?? NESSUN_SEGNO} bozza={bozza?.pagina === n ? bozza : undefined}
-              tipo={tipo} colore={colore} file={file} registra={registra} misura={misura} />)}</div>}
-          </Document>
+          onPointerDown={(e) => {
+            if (!(e.target as Element).closest('.react-pdf__Page__textContent')) return;
+            gesto.current = true; paginaGesto.current = Number((e.target as Element).closest<HTMLElement>('[data-original-page]')?.dataset.originalPage) || paginaRef.current;
+            setSelezionando(true); clearTimeout(selezioneTimer.current); impostaBozza(null); setMessaggio('');
+            e.currentTarget.focus({ preventScroll: true });
+          }}>
+          <AnnotazioniContext.Provider value={annotazioni}>
+            <DocumentoPagine file={file} larghezza={larghezza} rapporto={rapporto} rapporti={rapporti} residenti={residenti}
+              pagine={pagine} caricato={caricato} errore={errorePdf} registra={registra} misura={misura} pronta={pronta}
+              carica={caricaDocumento} fallita={documentoFallito} vai={vaiPagina} />
+          </AnnotazioniContext.Provider>
         </div>
         <div className="originali-feedback" role="status" aria-live="polite">{messaggio || (bozza ? `Passaggio selezionato · pagina ${bozza.pagina}` : '')}</div>
         {erroreSalvataggio && <div className="originali-avviso" role="alert">Non è stato possibile salvare sul dispositivo. Le ultime modifiche restano in questa sessione: scarica una copia dei dati dal menu del documento.</div>}
@@ -307,22 +446,18 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
         <div className="originali-pannello-body">
           {pannello === 'documento' ? <>
             <h3 className="title-s">{doc.titolo}</h3><p className="small muted">{doc.descrizione}</p>
-            <p className="small muted">Seleziona un passaggio, scegli il colore e premi «Salva segno». Pagina, evidenziazioni e sottolineature vengono conservate in questo browser.</p>
+            <p className="small muted">Seleziona un passaggio e premi Invio, Spazio o «Salva segno». Le frecce curve annullano e ripristinano le modifiche ai segni. Pagina, evidenziazioni e sottolineature vengono conservate in questo browser.</p>
             <button className="btn btn-sm" onClick={scaricaDati}><Icon n="scarica" size={16} />Salva copia dei dati</button>
             <p className="tiny faint">La copia include i segni e i progressi di questa materia. Si ripristina da Progressi → Carica backup.</p>
             <hr className="sep" />
             <a className="btn btn-sm" href={file} download><Icon n="scarica" size={15} />Scarica PDF originale</a>
             <p className="tiny faint">Il PDF scaricato conserva il testo originale; i segni personali sono nella copia dei dati.</p>
           </> : <>
-            {rimossi.length > 0 && <div className="originali-annulla" role="status"><span>{rimossi.length === 1 ? 'Segno rimosso' : `${rimossi.length} segni rimossi`}</span><button className="btn btn-sm" onClick={() => {
-              let ok = true; for (const s of rimossi) { const { id: _id, creata: _creata, ...daRipristinare } = s; ok = aggiungiSegnoOriginale(slug, doc, daRipristinare).salvato && ok; }
-              salvaEsito(ok); setRimossi([]); setMessaggio('Rimozione annullata.');
-            }}>Annulla</button></div>}
             {!ordinati.length ? <p className="muted small">I passaggi che evidenzi o sottolinei compariranno qui, con il collegamento alla loro pagina.</p>
               : <ol className="originali-lista">{ordinati.map((s) => <li key={s.id}>
                 <div className="row-between"><button className="btn btn-sm btn-ghost originali-vai-segno" onClick={() => { vaiPagina(s.pagina); setPannello(null); }}>Pagina {s.pagina}<Icon n="freccia" size={13} /></button>
                   <button className="btn btn-sm btn-ghost originali-quadrato" aria-label={`Rimuovi il segno a pagina ${s.pagina}: ${s.testo.slice(0, 50)}`} onClick={() => {
-                    salvaEsito(rimuoviSegnoOriginale(slug, doc, s.id)); setRimossi((prev) => [...prev, s]);
+                    annullaSelezione(); salvaEsito(rimuoviSegnoOriginale(slug, doc, s.id)); setMessaggio('Segno rimosso. Puoi annullare dalla barra.');
                   }}><Icon n="x" size={14} /></button></div>
                 <p className={`originali-estratto ${s.colore}`}>{s.testo}</p><span className="tiny faint">{s.tipo === 'evidenziato' ? 'Evidenziato' : 'Sottolineato'} · {s.colore}</span>
               </li>)}</ol>}

@@ -19,6 +19,7 @@
 .originali-zoom > span { width: 34px; text-align: center; color: var(--ink-2); font-size: 11px; font-variant-numeric: tabular-nums; }
 .originali-adattamento { max-width: 124px; min-height: 28px; padding: 3px 22px 3px 6px; font-size: 11px; }
 .originali-strumenti { user-select: none; }
+.originali-cronologia { display: flex; align-items: center; gap: 2px; padding-left: 8px; margin-left: -8px; margin-right: auto; border-left: 1px solid var(--line); }
 .originali-scelto { background: var(--accent-soft); border-color: var(--accent); }
 .originali-colori { display: flex; gap: 4px; padding: 0 4px; }
 .originali-colore { width: 19px; height: 19px; padding: 0; border: 2px solid transparent; border-radius: 50%; cursor: pointer; box-shadow: inset 0 0 0 1px #0002; outline-offset: 3px; }
