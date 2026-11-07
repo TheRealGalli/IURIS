@@ -56,7 +56,7 @@ export default function LezioneView({ id }: { id: string }) {
   const concetti = l.concetti.map((c) => idx.concettoById.get(c)).filter(Boolean);
   // Rimando dalla sintesi al testo esteso revisionato della stessa lezione, quando esiste.
   const testoEsteso = DOCUMENTI_LETTURA.filter((d) => d.materia === slug)
-    .flatMap((d) => d.sezioni.filter((s) => s.lezione === l.id).map((s) => linkTesto(d.id, s.id)))[0];
+    .flatMap((d) => d.sezioni.filter((s) => s.lezione === l.id || s.lezioni?.includes(l.id)).map((s) => linkTesto(d.id, s.id)))[0];
 
   return (
     <div className="page fade-in">

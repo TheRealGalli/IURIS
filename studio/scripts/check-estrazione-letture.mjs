@@ -12,13 +12,16 @@ const report = await read('letture-src/estrazione-verifica.json');
 const plain = (s) => s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, id, label) => label || id.replace(/-/g, ' ')).replace(/^#{1,6}\s+/gm, '');
 const tokens = (s) => s.match(/[\p{L}\p{N}_]+/gu) ?? [];
 let pages = 0, blocks = 0, sections = 0, pilot = 0;
+const lezioniCorso = new Map();
 for (const doc of docs) {
   const pdf = originali.find((d) => d.id === doc.id);
   const audit = report.documenti.find((d) => d.id === doc.id);
   assert(pdf && audit, 'una fonte dichiarata per ogni testo');
   assert.equal(doc.fonteSha256, pdf.sha256); assert.equal(doc.pagine, pdf.pagine);
   assert.equal(audit.coperturaToken, true);
-  const known = new Set((await read(`public/content/${doc.materia}/corso.json`)).concetti.map((c) => c.id));
+  const corso = await read(`public/content/${doc.materia}/corso.json`);
+  const known = new Set(corso.concetti.map((c) => c.id));
+  const lezioni = new Set(corso.unita.flatMap((u) => u.lezioni.map((l) => l.id)));
   const seen = new Set(), wordCount = new Map(), blockCount = new Map();
   let next = 1;
   for (const sec of doc.sezioni) {
@@ -36,15 +39,15 @@ for (const doc of docs) {
       assert(b.pagina >= sec.da && b.pagina <= sec.a);
       assert(b.markdown.trim()); assert(Array.isArray(b.concetti));
       for (const id of b.concetti) assert(known.has(id), `concetto esistente: ${id}`);
-      if (!sec.pilota) assert.equal(b.notaRevisione, undefined, 'le altre sezioni restano semplici estratti');
+      if (!sec.revisionata) assert.equal(b.notaRevisione, undefined, 'le sezioni non revisionate restano semplici estratti');
+      if (!sec.revisionata) assert(!b.markdown.includes('[['), 'collegamenti solo nelle sezioni revisionate');
       wordCount.set(b.pagina, (wordCount.get(b.pagina) ?? 0) + tokens(b.testoFonte ?? plain(b.markdown)).length);
       blockCount.set(b.pagina, (blockCount.get(b.pagina) ?? 0) + 1);
       blocks++;
     }
-    if (sec.pilota) {
-      pilot++;
-      assert.equal(doc.id, 'filosofia-incampo-v1'); assert(['u01-l1', 'u01-l2'].includes(sec.lezione));
-    }
+    for (const l of sec.lezioni ?? (sec.lezione ? [sec.lezione] : [])) assert(lezioni.has(l), `lezione esistente: ${l}`);
+    if (sec.lezione) { assert(!lezioniCorso.has(`${doc.materia}:${sec.lezione}`), `una sola sezione per lezione: ${sec.lezione}`); lezioniCorso.set(`${doc.materia}:${sec.lezione}`, sec.id); }
+    if (sec.revisionata) pilot++;
   }
   assert.equal(next, doc.pagine + 1);
   for (const p of audit.pagineDettaglio) {
@@ -55,7 +58,7 @@ for (const doc of docs) {
   assert.equal(seen.size, audit.blocchi);
   pages += doc.pagine;
 }
-assert.equal(docs.length, 4); assert.equal(pages, 384); assert.equal(pilot, 2);
+assert.equal(docs.length, 4); assert.equal(pages, 384); assert(pilot >= 2);
 const p1 = await read('public/letture/filosofia-incampo-v1/u01-l1.json');
 const opening = p1.blocchi.find((b) => b.id === 'p001-b002');
 assert.equal(plain(opening.markdown), 'A differenza delle altre scienze, che hanno un oggetto ben definito, la filosofia non possiede un contenuto determinato. La sua peculiarità non risiede nel suo oggetto, ma piuttosto nelle sue domande.', 'il passaggio del segno preesistente resta identico');
@@ -65,4 +68,4 @@ assert(p1.blocchi.find((b) => b.id === 'p001-b008').testoFonte.includes('non è'
 const p2 = await read('public/letture/filosofia-incampo-v1/u01-l2.json');
 assert(p2.blocchi.find((b) => b.id === 'p006-b001').markdown.includes('nullum crimen sine lege'));
 assert(p2.blocchi.find((b) => b.id === 'p005-b004').notaRevisione.includes('resta da verificare'));
-console.log(`Estrazione verificata: ${docs.length} PDF, ${pages} pagine, ${sections} sezioni, ${blocks} blocchi; fonti recuperabili, greco e ID conservati, 2 sezioni pilota.`);
+console.log(`Estrazione verificata: ${docs.length} PDF, ${pages} pagine, ${sections} sezioni, ${blocks} blocchi; fonti recuperabili, greco e ID conservati, ${pilot} sezioni revisionate.`);

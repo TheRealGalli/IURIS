@@ -171,6 +171,462 @@
           "a": "giudice)."
         }
       ]
+    },
+    "p010-b007": {
+      "baseSha256": "f7c5e4b2e5ffa041c98e79c394b8ddb5b738e57eb91dd97e72a72ac5c0a4d23c",
+      "sostituzioni": [
+        {
+          "da": "a $100^C",
+          "a": "a 100 °C"
+        }
+      ],
+      "notaRevisione": "Corretto il simbolo della temperatura, guastato nell'estrazione degli appunti."
+    },
+    "p011-b008": {
+      "baseSha256": "048aa0bcee5019c1d118ec5dcb5502bf5c72fd33ff8e1cdc257281699c4cd3b0",
+      "sostituzioni": [
+        {
+          "da": "trascendenza di e sul",
+          "a": "trascendenza del numero e sul"
+        }
+      ],
+      "notaRevisione": "Integrato «del numero»: negli appunti la lettera e, costante matematica, si confondeva con la congiunzione."
+    },
+    "p017-b007": {
+      "baseSha256": "80e3e144e8201b8f28dcb09bf54de4a7105387a100357f54aa742a1a4aae71f0",
+      "sostituzioni": [
+        {
+          "da": "(questaità, individualità)",
+          "a": "(questità, individualità)"
+        }
+      ],
+      "notaRevisione": "«Questaità» corretto in «questità», traduzione corrente di haecceitas."
+    },
+    "p019-b001": {
+      "baseSha256": "8b46a033cc71e95c59205a2fecfb4a72b2023efd81ef4fd256e3ef40bbacde30",
+      "sostituzioni": [
+        {
+          "da": "rispetto a un princeps analogato (il caso normato)",
+          "a": "rispetto a un princeps analogatum (il caso normato)"
+        }
+      ],
+      "notaRevisione": "Latino corretto: princeps analogatum."
+    },
+    "p016-b001": {
+      "baseSha256": "41712b2069ed95ea08aa02d8cc9be045e00ab7564e4748bc0ab6d49d47dde41b",
+      "sostituzioni": [
+        {
+          "da": "che vieta l'ingresso ai cani (di Jhering)",
+          "a": "che vieta l'ingresso ai cani (di Rudolf von Jhering)"
+        }
+      ]
+    },
+    "p023-b004": {
+      "baseSha256": "0775c6d250bbc6d22a3026e0e91a40e6fa6d959663d415fa79e88eaf5d8dffc7",
+      "sostituzioni": [
+        {
+          "da": "dal filosofo Austen",
+          "a": "dal filosofo John L. Austin"
+        }
+      ],
+      "notaRevisione": "Nome corretto: John L. Austin."
+    },
+    "p027-b009": {
+      "baseSha256": "9cebeea53c161a8d47ddd20011fd7ffda171a4dfc7c1738950a0f8c38bd198de",
+      "sostituzioni": [
+        {
+          "da": "Il status deontico",
+          "a": "Lo status deontico"
+        }
+      ]
+    },
+    "p030-b008": {
+      "baseSha256": "de5776a6647faaf73d7cc618ed415e6ffcee6929e0d2435bde5ee3520ee89587",
+      "sostituzioni": [
+        {
+          "da": "\"Se A deve essere B\"",
+          "a": "\"Se A, deve essere B\""
+        }
+      ],
+      "notaRevisione": "Aggiunta la virgola dello schema kelseniano: se A (l'illecito), deve essere B (la sanzione)."
+    },
+    "p028-b006": {
+      "baseSha256": "a10ed6a713790a4c5fbbae4bb880e3bf8c455d4e579cf3af45ba4467d01945f2",
+      "markdown": "*Negli appunti qui sono ripetuti i quattro paragrafi precedenti su Carcaterra: sono riportati una sola volta.*",
+      "notaRevisione": "Ripetizione degli appunti omessa; il testo completo resta nella fonte."
+    },
+    "p028-b007": {
+      "baseSha256": "f246b9a6aa23be8b8ea0ae30f77155c5b145ae371b7bf7a70e217cfba6aec4a4",
+      "markdown": "*(Paragrafo ripetuto negli appunti, vedi sopra.)*"
+    },
+    "p028-b008": {
+      "baseSha256": "34b3bdb1b8d75da36a38f9b21ddd1db620a44a4754f4150553f784a48bc7a5e4",
+      "markdown": "*(Paragrafo ripetuto negli appunti, vedi sopra.)*"
+    },
+    "p028-b009": {
+      "baseSha256": "a075c0d55aa6fb5b27fd70623a1f5c029efed46b6b42eaea3b5a91483d5b474f",
+      "markdown": "*(Paragrafo ripetuto negli appunti, vedi sopra.)*"
+    },
+    "p027-b013": {
+      "baseSha256": "eff6dff99261e725d79357b9b4028ccb30746d8e9d8fbf231848b00389aad314",
+      "markdown": "<sup>8</sup> O¬p (divieto: è obbligatorio non-p) · <sup>9</sup> ¬O¬p (permesso: non è obbligatorio non-p)",
+      "notaRevisione": "Negli appunti le note 8 e 9 sono «O¬P» e «¬OP»: il permesso va scritto ¬O¬p (non è obbligatorio non-p). Le glosse tra parentesi sono aggiunte."
+    },
+    "p027-b001": {
+      "baseSha256": "6f4ae0aa26ad9c11aa502e1f64a718473aac8c377224cd69a86bb828dab2bec0",
+      "sostituzioni": [
+        {
+          "da": "θεσις",
+          "a": "θέσις",
+          "tutte": true
+        },
+        {
+          "da": "ρησις",
+          "a": "ῥῆσις",
+          "tutte": true
+        }
+      ]
+    },
+    "p035-b009": {
+      "baseSha256": "02532cbdd00d78d43469b47103e4c23be83c42ce74f2f0c21540a79e0b87d70e",
+      "sostituzioni": [
+        {
+          "da": "θεσις (thésis) e ρησις (rhesis)",
+          "a": "θέσις (thésis) e ῥῆσις (rhesis)"
+        }
+      ],
+      "notaRevisione": "Accenti del greco ripristinati. La distinzione è introdotta nell'unità precedente (diritto e parola)."
+    },
+    "p040-b012": {
+      "baseSha256": "15b5dd0888bb8e024fb8cb7a2c7bb90a9382764ca27b918d47daca11291a2370",
+      "notaRevisione": "Nella Fenomenologia dello spirito l'immagine hegeliana è quella della notte in cui «tutte le vacche sono nere»: gli appunti la rendono con il proverbio dei gatti grigi."
+    },
+    "p042-b009": {
+      "baseSha256": "d897b38fb6b36c1d1a7997c05180249bd4e6987615fcba9380d53db036fd0071",
+      "sostituzioni": [
+        {
+          "da": "Valigia praxeonomica è",
+          "a": "Validità praxeonomica è"
+        }
+      ],
+      "notaRevisione": "«Valigia» è un guasto dell'estrazione per «Validità». Il seguito della definizione di Conte («a regola le quali… differenziali condizioni») è riportato come negli appunti: il senso è quello di regole che pongono condizioni di validità differenti nei diversi ordinamenti."
+    },
+    "p046-b001": {
+      "baseSha256": "f995aefb7daff8a20e524b5ba97da7893e9badbb4f60e9a909d66bb7a9fa048e",
+      "sostituzioni": [
+        {
+          "da": "interpretrerebbe",
+          "a": "interpreterebbe"
+        }
+      ],
+      "notaRevisione": "Il senso dell'esempio «Lattemi zucchero!» resta poco chiaro anche negli appunti."
+    },
+    "p047-b006": {
+      "baseSha256": "26ad15a0c4c341dd2431bc4ed146ab2b554f16ac01f5036264de6f57b639c114",
+      "sostituzioni": [
+        {
+          "da": "[ωεσϵντλιχ (wesentlich)]",
+          "a": "[wesentlich]"
+        }
+      ],
+      "notaRevisione": "Eliminata una traslitterazione in caratteri greci senza senso: la parola è il tedesco wesentlich."
+    },
+    "p047-b008": {
+      "baseSha256": "7af0f1bac1e43db465bf162624633922c8e5f14c2e9a33b30822e0ad5b30d5ff",
+      "sostituzioni": [
+        {
+          "da": "[υνωεσϵντλιχ (unwesentlich)]",
+          "a": "[unwesentlich]"
+        }
+      ]
+    },
+    "p049-b009": {
+      "baseSha256": "737ba8ebb38f78608651eb4a713b7855df5bedc3eb13101d0c9f1728d310ead8",
+      "sostituzioni": [
+        {
+          "da": " (non ammobiliato)",
+          "a": ""
+        }
+      ],
+      "notaRevisione": "Omessa la glossa «(non ammobiliato)», incomprensibile negli appunti."
+    },
+    "p048-b006": {
+      "baseSha256": "3447fb11dca5abb31b52e0a5cd5c4de4e71e9b021479c00325d4893fe2846fd5",
+      "markdown": "*(Frase ripetuta negli appunti, vedi sopra.)*",
+      "notaRevisione": "Negli appunti la frase sugli scacchi è ripetuta due volte: è riportata una sola volta."
+    },
+    "p062-b006": {
+      "baseSha256": "b003f731f431dfeee086c780559eb243b91f9e04c93ba7a7fed3628f7c261ba5",
+      "markdown": "*(Paragrafo ripetuto negli appunti, vedi sopra.)*",
+      "notaRevisione": "Negli appunti il paragrafo sull'ordinamento come sistema chiuso è ripetuto due volte: è riportato una sola volta."
+    },
+    "p064-b006": {
+      "baseSha256": "fda0bd389d5c4d497b98abedb347d9e80c7453131e0422686b159378f3e19b88",
+      "sostituzioni": [
+        {
+          "da": "Il Canone 1752 del Corpus iuris canonici",
+          "a": "Il Canone 1752 del Codex iuris canonici"
+        }
+      ],
+      "notaRevisione": "Il can. 1752 appartiene al Codice di diritto canonico (Codex iuris canonici), non al Corpus iuris canonici."
+    },
+    "p059-b002": {
+      "baseSha256": "e71c82a0ecf8c9330c39e5aa09900ca867357b914a3723614051644df1c34b97",
+      "sostituzioni": [
+        {
+          "da": "Signs, Language and Behaviour",
+          "a": "Signs, Language and Behavior"
+        }
+      ],
+      "notaRevisione": "Titolo riportato nella forma originale americana."
+    },
+    "p059-b003": {
+      "baseSha256": "c0f09c54902ba22e8216a088d505b744afc4bf8dacbf207756c73ed5c8751a3b",
+      "sostituzioni": [
+        {
+          "da": "(Συν-ταττϵιν)",
+          "a": "(συντάττειν)"
+        }
+      ]
+    },
+    "p075-b004": {
+      "baseSha256": "7942140d10f784e5819ef8e80da1536a46fcc625d72453276d7d3539705adcd6",
+      "sostituzioni": [
+        {
+          "da": "status iudici",
+          "a": "status ludici"
+        }
+      ],
+      "notaRevisione": "«Status ludici» (stati del gioco): negli appunti «iudici» è un refuso."
+    },
+    "p084-b002": {
+      "baseSha256": "c7adef55b0df11de7ce613e0f3cbb82129b6da2ebf7f04b1466f48f91c122cdb",
+      "sostituzioni": [
+        {
+          "da": "Recht und Politik vereingt zusammen",
+          "a": "Recht und Politik vereinigt zusammen"
+        }
+      ]
+    },
+    "p086-b008": {
+      "baseSha256": "d64359d51322e86cd584efcc3ad7bae1634f4511e007fe9103c8f9aae1efbae6",
+      "sostituzioni": [
+        {
+          "da": "essa negerebbe l'idea",
+          "a": "essa negherebbe l'idea"
+        }
+      ]
+    },
+    "p088-b001": {
+      "baseSha256": "52bf4d0c3d804fd0fe2847626caac5183284c7a7e6b407691bb5522a13881f86",
+      "sostituzioni": [
+        {
+          "da": "(unmöglich, zu wollen)",
+          "a": "(unmöglich zu wollen)"
+        }
+      ]
+    },
+    "p081-b005": {
+      "baseSha256": "c5c3c20224d573e4ecc8330283db6262464aa8c382117cbd0fb2035a03aab4e2",
+      "sostituzioni": [
+        {
+          "da": "(Zum ewigen Frieden, 1796)",
+          "a": "(Zum ewigen Frieden, 1795)"
+        }
+      ],
+      "notaRevisione": "La prima edizione di Per la pace perpetua è del 1795; gli appunti indicano il 1796, anno della seconda."
+    },
+    "p090-b004": {
+      "baseSha256": "8579dd8a50f9efbba34c32ba561e2939b4f6b3db50498a6705b35afc4b9b5eb8",
+      "sostituzioni": [
+        {
+          "da": "Ritiro Utópico:",
+          "a": "Ritiro utopico:"
+        }
+      ]
+    },
+    "p093-b003": {
+      "baseSha256": "e6c9524b3e47ee1974f6e695b8be4283080278384a4c4bed138a982368d1e619",
+      "sostituzioni": [
+        {
+          "da": "Reine Rechtslehre (1964)",
+          "a": "Reine Rechtslehre (1960)"
+        }
+      ],
+      "notaRevisione": "La seconda edizione della Reine Rechtslehre è del 1960."
+    },
+    "p100-b004": {
+      "baseSha256": "af778cd9e09254d98a176a0acaad08cb174ca9a395741a2141fcaecaa00da1e5",
+      "sostituzioni": [
+        {
+          "da": "Erfahrung des Bewußtsein di",
+          "a": "Erfahrung des Bewußtseins di"
+        }
+      ]
+    },
+    "p097-b004": {
+      "baseSha256": "15b2caa002371df94eb839b31e9a87c86f9a26c4a98a8bd4ce643c0d86900e2d",
+      "sostituzioni": [
+        {
+          "da": "performance bond (Garantie Vertrag)",
+          "a": "performance bond (Garantievertrag)"
+        }
+      ],
+      "notaRevisione": "Il «principio di sussidiarietà alla base della fideiussione» va inteso come accessorietà: il legame della fideiussione con il rapporto garantito."
+    },
+    "p090-b001": {
+      "baseSha256": "9b419d15cdde14fd0e99c7275004e4701d2b9db54b8fa68f42596eb1857e189d",
+      "sostituzioni": [
+        {
+          "da": "G.W.F. Hegel) = La coscienza",
+          "a": "G.W.F. Hegel). La coscienza"
+        }
+      ],
+      "notaRevisione": "Eliminato un «=» spurio dopo la citazione."
+    },
+    "p097-b005": {
+      "baseSha256": "511819fd96250d58f8185e60b744ef149786b9df37864647228c49bfc05c89ab",
+      "notaRevisione": "Il Sarbanes-Oxley Act è una legge statunitense, non un board: gli appunti lo citano come esempio dei controlli indipendenti sui mercati."
+    },
+    "p042-b005": {
+      "baseSha256": "82240fe8c022bd3dbea7933ab9f065e612a5a0dd1a7944732dd8d9b2ac006755",
+      "sostituzioni": [
+        {
+          "da": "[ϵιδoς (eidos)]",
+          "a": "[εἶδος (eîdos)]"
+        },
+        {
+          "da": "[νoˊμoι (nómoi)]",
+          "a": "[νόμοι (nómoi)]"
+        }
+      ],
+      "notaRevisione": "Greco ripristinato: εἶδος (eîdos), νόμοι (nómoi), guastati nell'estrazione degli appunti."
+    },
+    "p042-b006": {
+      "baseSha256": "828a56c21c820018ded72819dc210920643bcc7673cb116dd3b5acc030b64113",
+      "sostituzioni": [
+        {
+          "da": "[ϵιδoς (eidos)]",
+          "a": "[εἶδος (eîdos)]"
+        }
+      ]
+    },
+    "p044-b007": {
+      "baseSha256": "a8e448d2b648669389f2bf550db3e3dfcc133c9f8b23bc6b2327c3f6f677ffec",
+      "sostituzioni": [
+        {
+          "da": "(ϵι~δoς)",
+          "a": "(εἶδος)"
+        }
+      ]
+    },
+    "p052-b007": {
+      "baseSha256": "b63b1589f178921dd0602dcfd475b5464d2206b703e75f01a8d5c5ed3d831412",
+      "sostituzioni": [
+        {
+          "da": "(α˙γαθoˊν agathón)",
+          "a": "(ἀγαθόν, agathón)"
+        }
+      ]
+    },
+    "p034-b010": {
+      "baseSha256": "b35d7188d87b4bcc17188b6cca4585ed624b157579460c147ebc22c2e68995eb",
+      "sostituzioni": [
+        {
+          "da": "È \"Si dispone che Op \" vero o falso?",
+          "a": "«Si dispone che Op» è vero o falso?"
+        },
+        {
+          "da": "È \"È obbligatorio p\" vero o falso?",
+          "a": "«È obbligatorio p» è vero o falso?"
+        }
+      ],
+      "notaRevisione": "Ricomposta la domanda, spezzata male negli appunti."
+    },
+    "p027-b003": {
+      "baseSha256": "aca2fdab74e581732eabe58eae07a849b87ff6f79aed6ab3b80693121cdda9ea",
+      "markdown": "**Tipo di enunciazione · soggetto · formula · verbo performativo**",
+      "notaRevisione": "La tabella degli appunti, linearizzata nell'estrazione, è resa come elenco: una riga per tipo di enunciazione."
+    },
+    "p027-b004": {
+      "baseSha256": "ac1e8a3fede2bf2e5f76f44c20dbea7463e6a7218f35db5d15d55c7073ec81e6",
+      "markdown": "- **Costitutiva (thésis):** il legislatore · «Si dispone che Op» · «disporre»"
+    },
+    "p027-b005": {
+      "baseSha256": "ef22c3b43ca10422d327d0f2ea251de044cb24cbf9947fe206c834dc318bf21c",
+      "markdown": "- **Cognitiva (rhesis):** il giurista studioso · «Affermo che Op» · «affermare»"
+    },
+    "p027-b012": {
+      "baseSha256": "2d8e288eef19843178a2c4ab07995aab9d943a6035cf099b2c6b593e8b5e0471",
+      "markdown": "<sup>7</sup> Op (obbligo: è obbligatorio p)",
+      "notaRevisione": "La nota 7 era stata letta come titolo nell'estrazione. Glossa tra parentesi aggiunta."
+    },
+    "p085-b008": {
+      "baseSha256": "03720b42d61c62150a04262cfc82c57140f217e2e6da2bc7bc16f223142800e3",
+      "markdown": "**Dottrina · carattere primario · oggetto principale**",
+      "notaRevisione": "La tabella diritto/virtù, linearizzata nell'estrazione, è resa come elenco."
+    },
+    "p085-b009": {
+      "baseSha256": "06452f59abaacad0b95982af28c1e93498eb03bda80e554a074fa8bee67f864d",
+      "markdown": "- **Dovere morale (virtù):** interno · l'intenzione o la forza della legge in sé."
+    },
+    "p085-b010": {
+      "baseSha256": "345cd8a33c88fe14d25477f97bdc563f6a43d65035e37c127815da3a1998ace8",
+      "markdown": "- **Dovere giuridico (diritto):** esterno · l'azione esterna o la condotta."
+    },
+    "p090-b006": {
+      "baseSha256": "4cbf81f586f01251e9ea0106d2c188b5af0c9f2b66d2765dec6e93b1d0d281c2",
+      "sostituzioni": [
+        {
+          "da": "di ogni cosa(Omnis",
+          "a": "di ogni cosa (Omnis"
+        }
+      ]
+    },
+    "p036-b004": {
+      "baseSha256": "bf67c3dfe015bbb3bb556f760f28c568b14cc35e57f85c8842c3dbbb5dd03e8e",
+      "notaRevisione": "Le tre osservazioni a Conte non sono numerate negli appunti: la terza è introdotta più avanti come «un'ultima osservazione» e prosegue fino a p. 39.",
+      "senzaRegole": true
+    },
+    "p017-b005": {
+      "baseSha256": "1633c29bd12b12c831c27a09c83398844a859fe057a87db2a51f245ebe33aeaa",
+      "notaRevisione": "Il «punto zero» (Nullpunkt) del giudice è appena accennato negli appunti."
+    },
+    "p021-b013": {
+      "baseSha256": "4f965248f6e800c1b80120ab783fa5c8242f6cb9b2fe06c483b8a9e57dd9b5d6",
+      "notaRevisione": "L'immagine della Costituzione letta come «orari dei treni» è riportata senza ulteriore spiegazione negli appunti."
+    },
+    "p022-b005": {
+      "baseSha256": "6800a9e8e5e8142a3b437da381b1aaa3431dc41c0bb5a7b63e344086f418ff74",
+      "notaRevisione": "Il richiamo all'art. 1367 c.c. (conservazione del contratto) è una parafrasi molto libera del testo della norma."
+    },
+    "p025-b002": {
+      "baseSha256": "1c18507d5d5ac81888799cdcf65f65f4e44068277ed19ca1fb8a3c7dadf9e3b1",
+      "notaRevisione": "La frase su «Noli iudicare» è ellittica negli appunti."
+    },
+    "p023-b010": {
+      "baseSha256": "858fad83c48aafd24e67094bcb8e538f188ee239820396f49bd99aa23a391c1a",
+      "notaRevisione": "Il motto adatta il celebre «habent sua fata libelli» di Terenziano Mauro."
+    },
+    "p053-b002": {
+      "baseSha256": "46233ff8885953615f5c38c94c8afa4260da1ad2158d39fcf8e4ec9554ad5a0d",
+      "notaRevisione": "Il termine è riportato com'è negli appunti."
+    },
+    "p053-b015": {
+      "baseSha256": "81d8c543a4720d9482dcdf96657758167886e6d8c428c92dfda16cfd50b1e2c3",
+      "notaRevisione": "Il caso del ventenne è riferito prima al Codice civile prussiano, poi a una disposizione del Reich germanico: gli appunti non chiariscono il passaggio."
+    },
+    "p059-b007": {
+      "baseSha256": "030d574b575993c0b3f6bab6de371381f1b3d63cdce9a4f8a4814ec97bed0eed",
+      "notaRevisione": "Austin qui è probabilmente il giurista John Austin, non il filosofo del linguaggio J. L. Austin."
+    },
+    "p075-b013": {
+      "baseSha256": "505cdf58c31ed8402e36089081e20e2f1d8381db6f3759a6c48ab02bb08ce069",
+      "notaRevisione": "La nota 13 è solo uno schema: le regole eidetico-costitutive derivano dagli eide costitutivi di regole (⊦ = «derivanti da»), come spiegato a p. 77."
+    },
+    "p099-b004": {
+      "baseSha256": "7fff16323681972462d97ed4151ba94f4146d9fc9eb03fa61fbd0d46295762f4",
+      "notaRevisione": "La «hybris di principi» attribuita a Deleuze resta oscura negli appunti."
     }
   }
 }

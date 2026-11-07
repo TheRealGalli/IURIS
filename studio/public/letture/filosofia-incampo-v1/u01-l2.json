@@ -6,12 +6,12 @@
   "da": 4,
   "a": 6,
   "lezione": "u01-l2",
-  "pilota": true,
+  "revisionata": true,
   "blocchi": [
     {
       "id": "p004-b001",
       "pagina": 4,
-      "markdown": "## L’[[ordinamento-giuridico|ordinamento]] e la forza del dovere\n\nL'ordinamento è infatti il risultato non solo della logica, ma anche dell'azione e si edifica attraverso decisioni che non sono necessariamente correlate tra loro, se non per il fatto di appartenere al medesimo ordine giuridico.",
+      "markdown": "## L’ordinamento e la forza del dovere\n\nL'[[ordinamento-giuridico|ordinamento]] è infatti il risultato non solo della logica, ma anche dell'azione e si edifica attraverso decisioni che non sono necessariamente correlate tra loro, se non per il fatto di appartenere al medesimo ordine giuridico.",
       "concetti": [
         "ordinamento-giuridico"
       ],
@@ -20,7 +20,7 @@
     {
       "id": "p004-b002",
       "pagina": 4,
-      "markdown": "Nonostante queste complessità, l'[[ordinamento-giuridico|ordinamento]] presuppone due condizioni essenziali:",
+      "markdown": "Nonostante queste complessità, l'ordinamento presuppone due condizioni essenziali:",
       "concetti": [
         "ordinamento-giuridico"
       ]
@@ -36,7 +36,7 @@
     {
       "id": "p004-b004",
       "pagina": 4,
-      "markdown": "Entrambe queste categorie di regole concorrono a formare l'[[ordinamento-giuridico|ordinamento]] nella sua interezza, poiché l'esistenza giuridica (la totalità delle norme valide) ne rappresenta la quidditas (l'essenza). Da questa prospettiva, non esiste nulla di giuridicamente rilevante al di fuori dell'ordinamento stesso.",
+      "markdown": "Entrambe queste categorie di regole concorrono a formare l'ordinamento nella sua interezza, poiché l'esistenza giuridica (la totalità delle norme valide) ne rappresenta la quidditas (l'essenza). Da questa prospettiva, non esiste nulla di giuridicamente rilevante al di fuori dell'ordinamento stesso.",
       "concetti": [
         "ordinamento-giuridico"
       ]
@@ -44,10 +44,11 @@
     {
       "id": "p004-b005",
       "pagina": 4,
-      "markdown": "Affermare la validità esclusiva delle norme appartenenti all'[[ordinamento-giuridico|ordinamento]] implica anche decidere ciò che è invalido. Questa concezione è accostata alla proposizione 2.05 del Tractatus logico-philosophicus di [[wittgenstein|Wittgenstein]]:",
+      "markdown": "Affermare la [[validita|validità]] esclusiva delle norme appartenenti all'ordinamento implica anche decidere ciò che è invalido. Questa concezione è accostata alla proposizione 2.05 del Tractatus logico-philosophicus di [[wittgenstein|Wittgenstein]]:",
       "concetti": [
-        "ordinamento-giuridico",
-        "wittgenstein"
+        "validita",
+        "wittgenstein",
+        "ordinamento-giuridico"
       ]
     },
     {
@@ -69,7 +70,7 @@
     {
       "id": "p004-b008",
       "pagina": 4,
-      "markdown": "Da un primo e generalissimo approccio, si possono distinguere almeno due specie di norme, basate sulla classificazione del [[dovere-giuridico|dovere giuridico]] precedentemente discussa:",
+      "markdown": "Da un primo e generalissimo approccio, si possono distinguere almeno due specie di norme, basate sulla classificazione del dovere giuridico precedentemente discussa:",
       "concetti": [
         "dovere-giuridico"
       ]
@@ -83,7 +84,7 @@
     {
       "id": "p004-b010",
       "pagina": 4,
-      "markdown": "### [[norma-necessaria|Norme necessarie]] e [[norma-solo-possibile|norme solo possibili]]\n\nUna delle classificazioni fondamentali delle norme è quella basata sulla forza del dovere che esse esprimono. Questa distinzione è essenzialmente tra doveri necessari e doveri solo possibili (o doveri non necessari).",
+      "markdown": "### Norme necessarie e norme solo possibili\n\nUna delle classificazioni fondamentali delle norme è quella basata sulla forza del dovere che esse esprimono. Questa distinzione è essenzialmente tra [[norma-necessaria|doveri necessari]] e [[norma-solo-possibile|doveri solo possibili]] (o doveri non necessari).",
       "concetti": [
         "norma-necessaria",
         "norma-solo-possibile"
@@ -93,7 +94,7 @@
     {
       "id": "p004-b011",
       "pagina": 4,
-      "markdown": "Il criterio utilizzato per questa classificazione è la relazione che la norma intrattiene con l'[[ordinamento-giuridico|ordinamento giuridico]] nel suo complesso.",
+      "markdown": "Il criterio utilizzato per questa classificazione è la relazione che la norma intrattiene con l'ordinamento giuridico nel suo complesso.",
       "concetti": [
         "ordinamento-giuridico"
       ]
@@ -107,45 +108,48 @@
     {
       "id": "p004-b013",
       "pagina": 4,
-      "markdown": "1. [[norma-necessaria|Norme necessarie]] (o norme forti): Sono quelle norme la cui assenza renderebbe il diritto stesso impensabile o inesistente. Senza queste norme, l'[[ordinamento-giuridico|ordinamento]] non potrebbe nemmeno sussistere.\n2. [[norma-solo-possibile|Norme non necessarie]] (o norme deboli): Sono quelle norme la cui esistenza è contingente; potrebbero benissimo non esserci senza compromettere l'esistenza o la pensabilità del diritto in generale.",
+      "markdown": "1. Norme necessarie (o norme forti): Sono quelle norme la cui assenza renderebbe il diritto stesso impensabile o inesistente. Senza queste norme, l'ordinamento non potrebbe nemmeno sussistere.\n2. Norme non necessarie (o norme deboli): Sono quelle norme la cui esistenza è contingente; potrebbero benissimo non esserci senza compromettere l'esistenza o la pensabilità del diritto in generale.",
       "concetti": [
+        "norma-solo-possibile",
         "norma-necessaria",
-        "ordinamento-giuridico",
-        "norma-solo-possibile"
+        "ordinamento-giuridico"
       ]
     },
     {
       "id": "p005-b001",
       "pagina": 5,
-      "markdown": "### La [[grundnorm|norma fondamentale]]\n\nLa discussione sulle [[norma-necessaria|norme necessarie]] si concentra sulla \"norma fondamentale\" (Grundnorm) di [[kelsen|Kelsen]]: \"Ci si deve comportare secondo la Costituzione effettivamente statuita ed efficace.\"",
+      "markdown": "### La norma fondamentale\n\nLa discussione sulle norme necessarie si concentra sulla \"[[grundnorm|norma fondamentale]]\" (Grundnorm) di [[kelsen|Kelsen]]: \"Ci si deve comportare secondo la Costituzione effettivamente statuita ed efficace.\"",
       "concetti": [
         "grundnorm",
-        "norma-necessaria",
-        "kelsen"
+        "kelsen",
+        "norma-necessaria"
       ],
       "testoFonte": "La discussione sulle norme necessarie si concentra sulla \"norma fondamentale\" (Grundnorm) di Kelsen: \"Ci si deve comportare secondo la Costituzione effettivamente statuita ed efficace.\""
     },
     {
       "id": "p005-b002",
       "pagina": 5,
-      "markdown": "Risulta insolito partire da [[kelsen|Kelsen]], dato che per la sua dottrina le norme sono il \"senso di un atto di volontà\" (Willensakt). Tuttavia, si pone la questione di come conciliare la necessità con il volere. Se si considera l'assioma geometrico di Hilbert (\"ogni coppia di punti di una retta individui tale retta\"), la sua validità permane indipendentemente dalla volontà individuale e non può essere considerata un semplice prodotto del desiderio. La necessità vive dunque irrelata dalla volontà; si può, al massimo, amarla (Amor fati).",
+      "markdown": "Risulta insolito partire da Kelsen, dato che per la sua dottrina le norme sono il \"senso di un [[willensakt|atto di volontà]]\" (Willensakt). Tuttavia, si pone la questione di come conciliare la necessità con il volere. Se si considera l'assioma geometrico di Hilbert (\"ogni coppia di punti di una retta individui tale retta\"), la sua validità permane indipendentemente dalla volontà individuale e non può essere considerata un semplice prodotto del desiderio. La necessità vive dunque irrelata dalla volontà; si può, al massimo, amarla (Amor fati).",
       "concetti": [
+        "willensakt",
+        "validita",
         "kelsen"
       ]
     },
     {
       "id": "p005-b003",
       "pagina": 5,
-      "markdown": "La [[grundnorm|norma fondamentale]] non è, pertanto, il senso di un atto di volontà, ma, semmai, il prodotto della ragione. L'[[ordinamento-giuridico|ordinamento giuridico]], per sua natura, non può che comandare il proprio adempimento. Sarebbe contraddittorio se un ordinamento, dopo aver promulgato un gran numero di disposizioni, giungesse a stabilire l'esatto contrario: \"Non ci si deve mai comportare secondo la Costituzione e le leggi effettivamente statuite ed efficaci.\"",
+      "markdown": "La norma fondamentale non è, pertanto, il senso di un atto di volontà, ma, semmai, il prodotto della ragione. L'ordinamento giuridico, per sua natura, non può che comandare il proprio adempimento. Sarebbe contraddittorio se un ordinamento, dopo aver promulgato un gran numero di disposizioni, giungesse a stabilire l'esatto contrario: \"Non ci si deve mai comportare secondo la Costituzione e le leggi effettivamente statuite ed efficaci.\"",
       "concetti": [
+        "ordinamento-giuridico",
         "grundnorm",
-        "ordinamento-giuridico"
+        "willensakt"
       ]
     },
     {
       "id": "p005-b004",
       "pagina": 5,
-      "markdown": "Una simile contraddizione (doveri su doveri senza [[permesso|permesso]] che introducono un dovere permissivo radicale: \"Fate tutto quello che volete!\") implicherebbe che ogni norma comanderebbe simultaneamente un dovere e la sua negazione. L'imperatività logica di questa condizione è suggerita dalla proposizione di [[wittgenstein|Wittgenstein]]:",
+      "markdown": "Una simile contraddizione (doveri su doveri senza [[permesso|permesso]] che introducono un dovere permissivo radicale: \"Fate tutto quello che volete!\") implicherebbe che ogni norma comanderebbe simultaneamente un dovere e la sua negazione. L'imperatività logica di questa condizione è suggerita dalla proposizione di Wittgenstein:",
       "concetti": [
         "permesso",
         "wittgenstein"
@@ -169,32 +173,33 @@
     {
       "id": "p005-b007",
       "pagina": 5,
-      "markdown": "È notevole che i [[norma-necessaria|doveri necessari]] siano spesso muti, comportandosi come veri e propri [[crittotipo|crittotipi]] (doveri nascosti) privi di una formulazione scritta. La [[grundnorm|norma fondamentale]] della dottrina pura del diritto (reine Rechtslehre) di [[kelsen|Kelsen]], ad esempio, non compare in nessuna parte del codice. Il motivo di tale assenza risiede nella sua stessa forza: la Grundnorm è così evidente da non necessitare di essere rappresentata per iscritto. La sua assenza nel codice non nega la sua natura di norma; anzi, è la \"norma fondamentale\". Da ciò si deduce che il diritto non si limita alle sole leggi scritte ([[diritto-praeter-legem|diritto praeter legem]]).",
+      "markdown": "È notevole che i doveri necessari siano spesso muti, comportandosi come veri e propri [[crittotipo|crittotipi]] (doveri nascosti) privi di una formulazione scritta. La norma fondamentale della [[dottrina-pura-del-diritto|dottrina pura del diritto]] (reine Rechtslehre) di Kelsen, ad esempio, non compare in nessuna parte del codice. Il motivo di tale assenza risiede nella sua stessa forza: la Grundnorm è così evidente da non necessitare di essere rappresentata per iscritto. La sua assenza nel codice non nega la sua natura di norma; anzi, è la \"norma fondamentale\". Da ciò si deduce che il diritto non si limita alle sole leggi scritte ([[diritto-praeter-legem|diritto praeter legem]]).",
       "concetti": [
-        "norma-necessaria",
         "crittotipo",
+        "dottrina-pura-del-diritto",
+        "diritto-praeter-legem",
         "grundnorm",
-        "kelsen",
-        "diritto-praeter-legem"
+        "norma-necessaria",
+        "kelsen"
       ]
     },
     {
       "id": "p005-b008",
       "pagina": 5,
-      "markdown": "Esistono tuttavia anche [[norma-necessaria|doveri necessari]] che mantengono un rapporto esplicito con il codice ([[diritto-secundum-legem|diritto secundum legem]]). Ad esempio, è difficile concepire il passaggio di proprietà di beni immobili senza una scrittura privata o pubblica ai fini dell'accertamento. Tale [[obbligo|obbligo]], fondamentale per evitare una \"Babele\" di incertezze, è formalmente riconosciuto e codificato. Un esempio è l'Art. 1350 del Codice Civile italiano, che richiede l'atto pubblico o la scrittura privata, sotto pena di nullità, per i contratti che trasferiscono la proprietà di beni immobili.",
+      "markdown": "Esistono tuttavia anche doveri necessari che mantengono un rapporto esplicito con il codice ([[diritto-secundum-legem|diritto secundum legem]]). Ad esempio, è difficile concepire il passaggio di proprietà di beni immobili senza una scrittura privata o pubblica ai fini dell'accertamento. Tale [[obbligo|obbligo]], fondamentale per evitare una \"Babele\" di incertezze, è formalmente riconosciuto e codificato. Un esempio è l'Art. 1350 del Codice Civile italiano, che richiede l'atto pubblico o la scrittura privata, sotto pena di nullità, per i contratti che trasferiscono la proprietà di beni immobili.",
       "concetti": [
-        "norma-necessaria",
         "diritto-secundum-legem",
-        "obbligo"
+        "obbligo",
+        "norma-necessaria"
       ]
     },
     {
       "id": "p005-b009",
       "pagina": 5,
-      "markdown": "### Il rapporto con la legge\n\nUn terzo e più problematico rapporto si verifica quando i [[norma-necessaria|doveri necessari]] entrano in conflitto con la legge ([[diritto-contra-legem|diritto contra legem]]).",
+      "markdown": "### Il rapporto con la legge\n\nUn terzo e più problematico rapporto si verifica quando i doveri necessari entrano in conflitto con la legge ([[diritto-contra-legem|diritto contra legem]]).",
       "concetti": [
-        "norma-necessaria",
-        "diritto-contra-legem"
+        "diritto-contra-legem",
+        "norma-necessaria"
       ],
       "testoFonte": "Un terzo e più problematico rapporto si verifica quando i doveri necessari entrano in conflitto con la legge (diritto contra legem)."
     },
@@ -207,26 +212,28 @@
     {
       "id": "p005-b011",
       "pagina": 5,
-      "markdown": "- La nozione di \"crimini contro l'umanità\", elaborata ex post facto dallo Statuto del Tribunale di Norimberga (1945), ha stabilito il principio secondo cui una condotta può essere definita antigiuridica anche se era stata ordinata dallo Stato (il Terzo Reich) e compiuta in obbedienza alle sue leggi.",
-      "concetti": []
+      "markdown": "- La nozione di \"[[crimini-contro-l-umanita|crimini contro l'umanità]]\", elaborata ex post facto dallo Statuto del Tribunale di Norimberga (1945), ha stabilito il principio secondo cui una condotta può essere definita antigiuridica anche se era stata ordinata dallo Stato (il Terzo Reich) e compiuta in obbedienza alle sue leggi.",
+      "concetti": [
+        "crimini-contro-l-umanita"
+      ]
     },
     {
       "id": "p006-b001",
       "pagina": 6,
-      "markdown": "- Più recentemente, la giurisprudenza dei Tribunali Penali Internazionali ad hoc per l'ex Jugoslavia e il Ruanda ha confermato che le leggi statali possono confliggere con [[norma-necessaria|doveri necessari]] superiori. L’istituzione di un tribunale dopo i fatti non va però confusa con la creazione retroattiva dei reati: il rapporto ONU che prepara il Tribunale per l’ex Jugoslavia richiama il principio nullum crimen sine lege e l’applicazione di regole già appartenenti al diritto internazionale consuetudinario. Nel ragionamento degli appunti, questi esempi illustrano il confronto tra legge statale e [[diritto-sovralegale|diritto sovralegale]] (übergesetzliches Recht, secondo [[gustav-radbruch|Radbruch]]).\n- Nel 2006, la Corte Internazionale di Giustizia ha stabilito che il [[divieto|divieto]] di genocidio appartiene al diritto internazionale cogente e non può essere trasgredito da alcuno Stato.",
+      "markdown": "- Più recentemente, la giurisprudenza dei Tribunali Penali Internazionali ad hoc per l'ex Jugoslavia e il Ruanda ha confermato che le leggi statali possono confliggere con doveri necessari superiori. L’istituzione di un tribunale dopo i fatti non va però confusa con la creazione retroattiva dei reati: il rapporto ONU che prepara il Tribunale per l’ex Jugoslavia richiama il principio nullum crimen sine lege e l’applicazione di regole già appartenenti al diritto internazionale consuetudinario. Nel ragionamento degli appunti, questi esempi illustrano il confronto tra legge statale e diritto sovralegale ([[diritto-sovralegale|übergesetzliches Recht]], secondo [[gustav-radbruch|Radbruch]]).\n- Nel 2006, la Corte Internazionale di Giustizia ha stabilito che il [[divieto|divieto]] di genocidio appartiene al diritto internazionale cogente e non può essere trasgredito da alcuno Stato.",
       "concetti": [
-        "norma-necessaria",
         "diritto-sovralegale",
         "gustav-radbruch",
-        "divieto"
+        "divieto",
+        "norma-necessaria"
       ],
-      "testoFonte": "- Più recentemente, la giurisprudenza dei Tribunali Penali Internazionali ad hoc per l'ex Jugoslavia e il Ruanda ha confermato che le leggi statali possono confliggere con doveri necessari superiori. Il fatto stesso che tali tribunali siano istituiti dopo la commissione dei fatti dimostra la contrapposizione tra la legge dello Stato e il diritto sovrastatale (übergesetzliches Recht1, secondo Radbruch), il quale è illimitatamente valido.\n- Nel 2006, la Corte Internazionale di Giustizia ha stabilito che il divieto di genocidio appartiene al diritto internazionale cogente e non può essere trasgredito da alcuno Stato.",
+      "testoFonte": "- Più recentemente, la giurisprudenza dei Tribunali Penali Internazionali ad hoc per l'ex Jugoslavia e il Ruanda ha confermato che le leggi statali possono confliggere con doveri necessari superiori. Il fatto stesso che tali tribunali siano istituiti dopo la commissione dei fatti dimostra la contrapposizione tra la legge dello Stato e il diritto sovrastatale (übergesetzliches Recht1, secondo Radbruch), il quale è illimitatamente valido. - Nel 2006, la Corte Internazionale di Giustizia ha stabilito che il divieto di genocidio appartiene al diritto internazionale cogente e non può essere trasgredito da alcuno Stato.",
       "notaRevisione": "Distinta la data di istituzione del tribunale dal principio di legalità dei reati; il rapporto ONU S/25704, par. 34, richiede l’applicazione di regole già appartenenti al diritto consuetudinario. Uniformato «sovralegale», coerentemente con übergesetzliches Recht e con il Percorso. La nota linguistica originale è conservata in fondo alla pagina."
     },
     {
       "id": "p006-b002",
       "pagina": 6,
-      "markdown": "In tal senso, il diritto è anche [[diritto-contra-legem|diritto contra legem]]. La Corte Costituzionale tedesca, a proposito dell'Art. 20, comma 3, della Costituzione, ha dichiarato che \"il diritto (Recht) non coincide con la totalità delle leggi scritte (geschriebene Gesetze)\". Questa affermazione non si limita a ribadire l'esistenza di [[obbligo|obblighi]] indipendenti dal codice, ma riconosce soprattutto il primato del diritto sulle leggi.",
+      "markdown": "In tal senso, il diritto è anche diritto contra legem. La Corte Costituzionale tedesca, a proposito dell'Art. 20, comma 3, della Costituzione, ha dichiarato che \"il diritto (Recht) non coincide con la totalità delle leggi scritte (geschriebene Gesetze)\". Questa affermazione non si limita a ribadire l'esistenza di obblighi indipendenti dal codice, ma riconosce soprattutto il primato del diritto sulle leggi.",
       "concetti": [
         "diritto-contra-legem",
         "obbligo"
@@ -235,7 +242,7 @@
     {
       "id": "p006-b003",
       "pagina": 6,
-      "markdown": "Non tutte le norme possiedono il carattere della necessità. Esistono norme che sono solo possibili ([[norma-solo-possibile|doveri solo possibili]]), la cui assenza o rimozione non compromette l'esistenza o la pensabilità del diritto in sé.",
+      "markdown": "Non tutte le norme possiedono il carattere della necessità. Esistono norme che sono solo possibili (doveri solo possibili), la cui assenza o rimozione non compromette l'esistenza o la pensabilità del diritto in sé.",
       "concetti": [
         "norma-solo-possibile"
       ]
@@ -243,16 +250,16 @@
     {
       "id": "p006-b004",
       "pagina": 6,
-      "markdown": "Un esempio significativo di [[norma-solo-possibile|norma solo possibile]] è l'Art. 144 del vecchio Codice Civile italiano relativo alla [[potesta-maritale|potestà maritale]], abrogato con la riforma del diritto di famiglia del 1975.",
+      "markdown": "Un esempio significativo di norma solo possibile è l'Art. 144 del vecchio Codice Civile italiano relativo alla [[potesta-maritale|potestà maritale]], abrogato con la riforma del diritto di famiglia del 1975.",
       "concetti": [
-        "norma-solo-possibile",
-        "potesta-maritale"
+        "potesta-maritale",
+        "norma-solo-possibile"
       ]
     },
     {
       "id": "p006-b005",
       "pagina": 6,
-      "markdown": "La norma stabiliva che \"la moglie [...] è obbligata ad accompagnare il marito dovunque egli crede opportuno di fissare la sua residenza\". Questa norma era solo possibile, come dimostra il fatto che la sua abrogazione non ha generato contraddizioni nell'[[ordinamento-giuridico|ordinamento]]. Si trattava di un [[obbligo|obbligo]] legato al retaggio storico dell'ideologia maschilista, in parte speculare alla manus maritalis del diritto romano.",
+      "markdown": "La norma stabiliva che \"la moglie [...] è obbligata ad accompagnare il marito dovunque egli crede opportuno di fissare la sua residenza\". Questa norma era solo possibile, come dimostra il fatto che la sua abrogazione non ha generato contraddizioni nell'ordinamento. Si trattava di un obbligo legato al retaggio storico dell'ideologia maschilista, in parte speculare alla manus maritalis del diritto romano.",
       "concetti": [
         "ordinamento-giuridico",
         "obbligo"
@@ -261,7 +268,7 @@
     {
       "id": "p006-b006",
       "pagina": 6,
-      "markdown": "[[obbligo|Obblighi]] di questo tipo, come la discriminazione di genere, la schiavitù, il razzismo, il colonialismo e l'imperialismo, rappresentano veri e propri errori teoretici della ragion pratica.",
+      "markdown": "Obblighi di questo tipo, come la discriminazione di genere, la schiavitù, il razzismo, il colonialismo e l'imperialismo, rappresentano veri e propri errori teoretici della ragion pratica.",
       "concetti": [
         "obbligo"
       ],
@@ -277,12 +284,12 @@
     {
       "id": "p006-b008",
       "pagina": 6,
-      "markdown": "Nel caso della [[potesta-maritale|potestà maritale]], il superamento di un [[obbligo|obbligo]] meramente possibile ha generato un [[divieto|divieto]] necessario. Sebbene il nesso tra la sola possibilità e la necessità non sia completamente noto, il percorso storico è andato in questa direzione. Similmente, l'ordalia non è la premessa sufficiente dei processi basati sulla terzietà del giudizio, ma la fase della sua negazione è stata comunque utile (il vecchio sistema non ha creato il nuovo, ma l'abbandono del vecchio sistema ha [[permesso|permesso]] lo sviluppo del nuovo. La sua negazione ha aperto la strada a concetti come la prova razionale e l'autorità imparziale del giudice).",
+      "markdown": "Nel caso della potestà maritale, il superamento di un obbligo meramente possibile ha generato un divieto necessario. Sebbene il nesso tra la sola possibilità e la necessità non sia completamente noto, il percorso storico è andato in questa direzione. Similmente, l'ordalia non è la premessa sufficiente dei processi basati sulla terzietà del giudizio, ma la fase della sua negazione è stata comunque utile (il vecchio sistema non ha creato il nuovo, ma l'abbandono del vecchio sistema ha permesso lo sviluppo del nuovo. La sua negazione ha aperto la strada a concetti come la prova razionale e l'autorità imparziale del giudice).",
       "concetti": [
         "potesta-maritale",
+        "permesso",
         "obbligo",
-        "divieto",
-        "permesso"
+        "divieto"
       ],
       "testoFonte": "Nel caso della potestà maritale, il superamento di un obbligo meramente possibile ha generato un divieto necessario. Sebbene il nesso tra la sola possibilità e la necessità non sia completamente noto, il percorso storico è andato in questa direzione. Similmente, l'ordalia non è la premessa sufficiente dei processi basati sulla terzietà del giudizio, ma la fase della sua negazione è stata comunque utile (il vecchio sistema non ha creato il nuovo, ma l'abbandono del vecchio sistema ha permesso lo sviluppo del nuovo. La sua negazione ha aperto la strada a concetti come la prova razionale e l'autorità imparziale del giudice.)."
     },
@@ -295,8 +302,9 @@
     {
       "id": "p006-b010",
       "pagina": 6,
-      "markdown": "1 Über- (prefisso): Sopra, oltre, al di sopra di. Gesetzlich (aggettivo): Legale, relativo alla legge (Gesetz). Recht (sostantivo): Diritto, legge.",
-      "concetti": []
+      "markdown": "<sup>1</sup> Über- (prefisso): Sopra, oltre, al di sopra di. Gesetzlich (aggettivo): Legale, relativo alla legge (Gesetz). Recht (sostantivo): Diritto, legge.",
+      "concetti": [],
+      "testoFonte": "1 Über- (prefisso): Sopra, oltre, al di sopra di. Gesetzlich (aggettivo): Legale, relativo alla legge (Gesetz). Recht (sostantivo): Diritto, legge."
     }
   ]
 }

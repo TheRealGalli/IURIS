@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Estrae i PDF una volta, in Markdown modificabile con ID di blocco stabili.
 
+Non rilanciare sugli estratti attuali: le sezioni sono ora per lezione (scripts/sezioni-letture.mjs)
+e revisioni.json dipende dal testo esatto dei blocchi.
+
 Non genera né riassume testo. La pubblicazione ordinaria usa sync-letture.mjs,
 senza richiedere Python o pypdf. Le revisioni sono separate dagli estratti.
 """

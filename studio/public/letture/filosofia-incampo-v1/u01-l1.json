@@ -6,7 +6,7 @@
   "da": 1,
   "a": 3,
   "lezione": "u01-l1",
-  "pilota": true,
+  "revisionata": true,
   "blocchi": [
     {
       "id": "p001-b001",
@@ -61,7 +61,7 @@
     {
       "id": "p001-b008",
       "pagina": 1,
-      "markdown": "Sebbene l’identificazione del diritto con il [[dovere-giuridico|dovere giuridico]] possa apparire a tratti insufficiente o, al contrario, eccessiva, resta innegabile che il concetto stesso di diritto non sia pensabile senza l'idea di dovere.",
+      "markdown": "Sebbene l’identificazione del diritto con il dovere giuridico possa apparire a tratti insufficiente o, al contrario, eccessiva, resta innegabile che il concetto stesso di diritto non sia pensabile senza l'idea di dovere.",
       "concetti": [
         "dovere-giuridico"
       ],
@@ -71,7 +71,7 @@
     {
       "id": "p001-b009",
       "pagina": 1,
-      "markdown": "Il [[dovere-giuridico|dovere giuridico]] non è identificabile con una singola e delimitata porzione dell'esperienza giuridica, come:",
+      "markdown": "Il dovere giuridico non è identificabile con una singola e delimitata porzione dell'esperienza giuridica, come:",
       "concetti": [
         "dovere-giuridico"
       ]
@@ -79,19 +79,20 @@
     {
       "id": "p001-b010",
       "pagina": 1,
-      "markdown": "- Un particolare insieme di norme: ad esempio, il contratto anziché le successioni.\n- Uno specifico [[ordinamento-giuridico|ordinamento]]: come un sistema di civil law rispetto al common law.\n- Un contesto temporale o storico definito: come l'ordinamento attuale anziché lo ius commune dell'Europa continentale.\n- Una specifica fonte di produzione: come il diritto spontaneo e consuetudinario anziché il diritto codificato dal [[potere|potere]] legislativo statale.\n- Un ambito normativo d'eccezione: come il “[[diritto-sovralegale|diritto sovralegale]]” (übergesetzliches Recht) delle corti penali internazionali anziché le delibere dei consigli di amministrazione.",
+      "markdown": "- **Un particolare insieme di norme:** ad esempio, il contratto anziché le successioni.\n- **Uno specifico [[ordinamento-giuridico|ordinamento]]:** come un sistema di civil law rispetto al common law.\n- Un contesto temporale o storico definito: come l'ordinamento attuale anziché lo ius commune dell'Europa continentale.\n- **Una specifica fonte di produzione:** come il diritto spontaneo e consuetudinario anziché il diritto codificato dal [[potere|potere]] legislativo statale.\n- **Un ambito normativo d'eccezione:** come il “diritto sovralegale” ([[diritto-sovralegale|übergesetzliches Recht]]) delle corti penali internazionali anziché le delibere dei consigli di amministrazione.",
       "concetti": [
         "ordinamento-giuridico",
         "potere",
-        "diritto-sovralegale"
+        "diritto-sovralegale",
+        "potere-come-permesso"
       ],
-      "testoFonte": "- Un particolare insieme di norme: ad esempio, il contratto anziché le successioni.\n- Uno specifico ordinamento: come un sistema di civil law rispetto al common law.\n- Un contesto temporale o storico definito: come l'ordinamento attuale anziché lo ius commune dell'Europa continentale del X secolo.\n- Una specifica fonte di produzione: come il diritto spontaneo e consuetudinario anziché il diritto codificato dal potere legislativo statale.\n- Un ambito normativo d'eccezione: come il “diritto sovralegale” (übergesetzliches Recht) delle corti penali internazionali anziché le delibere dei consigli di amministrazione.",
+      "testoFonte": "- Un particolare insieme di norme: ad esempio, il contratto anziché le successioni. - Uno specifico ordinamento: come un sistema di civil law rispetto al common law. - Un contesto temporale o storico definito: come l'ordinamento attuale anziché lo ius commune dell'Europa continentale del X secolo. - Una specifica fonte di produzione: come il diritto spontaneo e consuetudinario anziché il diritto codificato dal potere legislativo statale. - Un ambito normativo d'eccezione: come il “diritto sovralegale” (übergesetzliches Recht) delle corti penali internazionali anziché le delibere dei consigli di amministrazione.",
       "notaRevisione": "La data «X secolo» associata allo ius commune è già segnalata come dubbia nel Percorso. Nell’esempio generale è omessa la specificazione cronologica."
     },
     {
       "id": "p001-b011",
       "pagina": 1,
-      "markdown": "Il concetto di [[dovere-giuridico|dovere giuridico]] non si limita a una singola parte, ma è estendibile a una molteplicità di fenomeni.",
+      "markdown": "Il concetto di dovere giuridico non si limita a una singola parte, ma è estendibile a una molteplicità di fenomeni.",
       "concetti": [
         "dovere-giuridico"
       ],
@@ -100,7 +101,7 @@
     {
       "id": "p001-b012",
       "pagina": 1,
-      "markdown": "Mentre gli altri saperi del diritto (costituzionale, civile, penale, amministrativo, canonico, internazionale, processuale e via dicendo) si concentrano esclusivamente su una parte del diritto, la [[filosofia-del-diritto|filosofia del diritto]] ha il compito di interrogarsi su che cos'è il [[dovere-giuridico|dovere giuridico]].",
+      "markdown": "Mentre gli altri saperi del diritto (costituzionale, civile, penale, amministrativo, canonico, internazionale, processuale e via dicendo) si concentrano esclusivamente su una parte del diritto, la filosofia del diritto ha il compito di interrogarsi su che cos'è il dovere giuridico.",
       "concetti": [
         "filosofia-del-diritto",
         "dovere-giuridico"
@@ -109,7 +110,7 @@
     {
       "id": "p002-b001",
       "pagina": 2,
-      "markdown": "L'oggetto della sua indagine non è questo o quell'insieme di doveri, né il dovere contingente di un certo momento storico, ma il [[dovere-giuridico|dovere giuridico]] in sé, il dovere in quanto dovere giuridico, richiamando la [[metafisica|metafisica]] che indaga l'essere in quanto essere (ὂν ᾗ ὂν).",
+      "markdown": "L'oggetto della sua indagine non è questo o quell'insieme di doveri, né il dovere contingente di un certo momento storico, ma il dovere giuridico in sé, il dovere in quanto dovere giuridico, richiamando la metafisica che indaga l'essere in quanto essere (ὂν ᾗ ὂν).",
       "concetti": [
         "dovere-giuridico",
         "metafisica"
@@ -118,7 +119,7 @@
     {
       "id": "p002-b002",
       "pagina": 2,
-      "markdown": "Il [[dovere-giuridico|dovere giuridico]] può essere studiato e suddiviso attraverso diversi criteri per poterne definire i nomi e le modalità di ricerca.",
+      "markdown": "Il dovere giuridico può essere studiato e suddiviso attraverso diversi criteri per poterne definire i nomi e le modalità di ricerca.",
       "concetti": [
         "dovere-giuridico"
       ]
@@ -142,7 +143,7 @@
     {
       "id": "p002-b005",
       "pagina": 2,
-      "markdown": "1. [[norma-primaria|Doveri di condotta]]: Quelli che hanno la funzione di istituire e regolare i rapporti giuridici.\n2. [[norme-di-struttura|Doveri di struttura]]: Quelli il cui scopo primario è quello di organizzare un corpo di norme.",
+      "markdown": "1. **[[norma-primaria|Doveri di condotta]]:** Quelli che hanno la funzione di istituire e regolare i rapporti giuridici.\n2. **[[norme-di-struttura|Doveri di struttura]]:** Quelli il cui scopo primario è quello di organizzare un corpo di norme.",
       "concetti": [
         "norma-primaria",
         "norme-di-struttura"
@@ -177,7 +178,7 @@
       "pagina": 2,
       "markdown": "- I baci sono considerati res cogitans, realtà soprasensibili e manifestazioni dell'anima.\n- I fasci di fiori restano ancorati al mondo sensibile.",
       "concetti": [],
-      "testoFonte": "- I baci sono considerati ex cogitans, realtà soprasensibili e manifestazioni dell'anima.\n- I fasci di fiori restano ancorati al mondo sensibile.",
+      "testoFonte": "- I baci sono considerati ex cogitans, realtà soprasensibili e manifestazioni dell'anima. - I fasci di fiori restano ancorati al mondo sensibile.",
       "notaRevisione": "Corretto il refuso latino già individuato nel Percorso. Res cogitans è l’espressione cartesiana; l’esempio dei baci resta l’esempio didattico degli appunti, non una citazione di Cartesio."
     },
     {
@@ -190,7 +191,7 @@
     {
       "id": "p002-b012",
       "pagina": 2,
-      "markdown": "Le parole che si utilizzano sono le prime e più immediate testimonianze di ciò che è spiritualmente tipico. Studiare il [[dovere-giuridico|dovere giuridico]] equivale a compiere un'operazione di discernimento rigoroso, analogo al distinguere i baci dai fasci di fiori.",
+      "markdown": "Le parole che si utilizzano sono le prime e più immediate testimonianze di ciò che è spiritualmente tipico. Studiare il dovere giuridico equivale a compiere un'operazione di discernimento rigoroso, analogo al distinguere i baci dai fasci di fiori.",
       "concetti": [
         "dovere-giuridico"
       ],
@@ -199,7 +200,7 @@
     {
       "id": "p002-b013",
       "pagina": 2,
-      "markdown": "### [[obbligo|Obbligo]] e [[permesso|permesso]]\n\nUno dei significati fondamentali del [[dovere-giuridico|dovere giuridico]] è l'obbligo. Il suo altro senso essenziale, il permesso, è tuttavia riconducibile all'obbligo stesso.",
+      "markdown": "### Obbligo e permesso\n\nUno dei significati fondamentali del dovere giuridico è l'[[obbligo|obbligo]]. Il suo altro senso essenziale, il [[permesso|permesso]], è tuttavia riconducibile all'obbligo stesso.",
       "concetti": [
         "obbligo",
         "permesso",
@@ -210,17 +211,17 @@
     {
       "id": "p002-b014",
       "pagina": 2,
-      "markdown": "Questa riduzione è motivata dal fatto che un [[permesso|permesso]], inteso come un'azione giuridica concessa, è tale solo se l'impedimento del permesso è a sua volta impedito. Di conseguenza, il permesso implica necessariamente un [[obbligo|obbligo]]: il dovere di impedire che il permesso venga ostacolato. Se un fatto o un atto sono permessi, ne consegue l'obbligatorietà di non impedirli (ossia il [[divieto|divieto]] di ostacolo).",
+      "markdown": "Questa riduzione è motivata dal fatto che un permesso, inteso come un'azione giuridica concessa, è tale solo se l'impedimento del permesso è a sua volta impedito. Di conseguenza, il permesso implica necessariamente un obbligo: il dovere di impedire che il permesso venga ostacolato. Se un fatto o un atto sono permessi, ne consegue l'obbligatorietà di non impedirli (ossia il [[divieto|divieto]] di ostacolo).",
       "concetti": [
+        "divieto",
         "permesso",
-        "obbligo",
-        "divieto"
+        "obbligo"
       ]
     },
     {
       "id": "p003-b001",
       "pagina": 3,
-      "markdown": "Ad esempio, alla norma del codice della strada che permette il sorpasso corrisponde la norma che vieta (obbliga a non) ostacolare tale sorpasso. In ogni [[permesso|permesso]], si individua un [[obbligo|obbligo]]: quello di preservare il permesso dal suo impedimento.",
+      "markdown": "Ad esempio, alla norma del codice della strada che permette il sorpasso corrisponde la norma che vieta (obbliga a non) ostacolare tale sorpasso. In ogni permesso, si individua un obbligo: quello di preservare il permesso dal suo impedimento.",
       "concetti": [
         "permesso",
         "obbligo"
@@ -229,70 +230,75 @@
     {
       "id": "p003-b002",
       "pagina": 3,
-      "markdown": "### [[liberta|Libertà]] e [[potere|poteri]]\n\nI [[permesso|permessi]] possono essere distinti in \"libertà\" e \"poteri\", e la differenza risiede nel modo in cui sono protetti.",
+      "markdown": "### Libertà e poteri\n\nI permessi possono essere distinti in \"[[liberta|libertà]]\" e \"[[potere-come-permesso|poteri]]\", e la differenza risiede nel modo in cui sono protetti.",
       "concetti": [
         "liberta",
-        "potere",
-        "permesso"
+        "potere-come-permesso",
+        "permesso",
+        "potere"
       ],
       "testoFonte": "I permessi possono essere distinti in \"libertà\" e \"poteri\", e la differenza risiede nel modo in cui sono protetti."
     },
     {
       "id": "p003-b003",
       "pagina": 3,
-      "markdown": "- Le [[liberta|libertà]] non richiedono un'iniziativa specifica dello Stato per la loro protezione. Le libertà individuali, come quella di opinione, non possono essere ostacolate (da cui deriva il [[divieto|divieto]] di impedimento), ma non sono necessariamente sostenute con mezzi straordinari.\n- I [[potere|poteri]], invece, sono garantiti tramite interventi mirati e risorse dello Stato. Il diritto all'istruzione, per esempio, non è una semplice libertà, poiché lo Stato ne garantisce la fornitura attraverso risorse pubbliche, estendendosi oltre la sola \"scuola dell'[[obbligo|obbligo]]\".",
+      "markdown": "- Le libertà non richiedono un'iniziativa specifica dello Stato per la loro protezione. Le libertà individuali, come quella di opinione, non possono essere ostacolate (da cui deriva il divieto di impedimento), ma non sono necessariamente sostenute con mezzi straordinari.\n- I poteri, invece, sono garantiti tramite interventi mirati e risorse dello Stato. Il diritto all'istruzione, per esempio, non è una semplice libertà, poiché lo Stato ne garantisce la fornitura attraverso risorse pubbliche, estendendosi oltre la sola \"scuola dell'obbligo\".",
       "concetti": [
-        "liberta",
+        "obbligo",
         "divieto",
+        "liberta",
         "potere",
-        "obbligo"
+        "potere-come-permesso"
       ]
     },
     {
       "id": "p003-b004",
       "pagina": 3,
-      "markdown": "Sotto questo profilo, i [[potere|poteri]] tendono a condizionare le [[liberta|libertà]]. Il riconoscimento di un diritto sociale all'istruzione, sostenuto economicamente dallo Stato, comporta una limitazione (non la cancellazione) della libertà dei cittadini di scegliersi la scuola. Ciò è necessario per garantire che le risorse disponibili siano sufficienti e non disperse.",
+      "markdown": "Sotto questo profilo, i poteri tendono a condizionare le libertà. Il riconoscimento di un diritto sociale all'istruzione, sostenuto economicamente dallo Stato, comporta una limitazione (non la cancellazione) della libertà dei cittadini di scegliersi la scuola. Ciò è necessario per garantire che le risorse disponibili siano sufficienti e non disperse.",
       "concetti": [
+        "liberta",
         "potere",
-        "liberta"
+        "potere-come-permesso"
       ]
     },
     {
       "id": "p003-b005",
       "pagina": 3,
-      "markdown": "Il legame tra [[obbligo|obblighi]] e [[permesso|permessi]] si rafforza con la distinzione tra [[liberta|libertà]] e [[potere|poteri]]:",
+      "markdown": "Il legame tra obblighi e permessi si rafforza con la distinzione tra libertà e poteri:",
       "concetti": [
         "obbligo",
         "permesso",
         "liberta",
-        "potere"
+        "potere",
+        "potere-come-permesso"
       ]
     },
     {
       "id": "p003-b006",
       "pagina": 3,
-      "markdown": "- Se la [[liberta|libertà]] implica il [[divieto|divieto]] di impedirla ([[obbligo|obbligo]] di non fare), il [[potere|potere]] aggiunge l'obbligo del suo adempimento (obbligo di fare).\n- In questo modo, il [[permesso|permesso]] risulta persino rafforzato dall'obbligo.",
+      "markdown": "- Se la libertà implica il divieto di impedirla (obbligo di non fare), il potere aggiunge l'obbligo del suo adempimento (obbligo di fare).\n- In questo modo, il permesso risulta persino rafforzato dall'obbligo.",
       "concetti": [
-        "liberta",
-        "divieto",
+        "permesso",
         "obbligo",
+        "divieto",
+        "liberta",
         "potere",
-        "permesso"
+        "potere-come-permesso"
       ]
     },
     {
       "id": "p003-b007",
       "pagina": 3,
-      "markdown": "Questa analisi permette di risolvere la questione relativa a un eventuale primato dell'[[obbligo|obbligo]]. Laddove c'è un obbligo, c'è anche un diritto, e viceversa; dove c'è un dovere, c'è un [[permesso|permesso]], e dove si concede un permesso, si trova anche un dovere.",
+      "markdown": "Questa analisi permette di risolvere la questione relativa a un eventuale primato dell'obbligo. Laddove c'è un obbligo, c'è anche un diritto, e viceversa; dove c'è un dovere, c'è un permesso, e dove si concede un permesso, si trova anche un dovere.",
       "concetti": [
-        "obbligo",
-        "permesso"
+        "permesso",
+        "obbligo"
       ]
     },
     {
       "id": "p003-b008",
       "pagina": 3,
-      "markdown": "Si deve fare attenzione solo al caso in cui si instauri una [[costrizione|costrizione]] al posto di un genuino [[obbligo|obbligo]]. La differenza fondamentale risiede nella direzione dell'obbligo:",
+      "markdown": "Si deve fare attenzione solo al caso in cui si instauri una [[costrizione|costrizione]] al posto di un genuino obbligo. La differenza fondamentale risiede nella direzione dell'obbligo:",
       "concetti": [
         "costrizione",
         "obbligo"
@@ -301,12 +307,12 @@
     {
       "id": "p003-b009",
       "pagina": 3,
-      "markdown": "1. I doveri simpliciter sono più prossimi alle [[costrizione|costrizioni]] e non presuppongono necessariamente un diritto.\n2. I doveri verso qualcosa o qualcuno sono quelli che presuppongono un [[diritto-soggettivo|diritto correlato]].",
+      "markdown": "1. I doveri simpliciter sono più prossimi alle costrizioni e non presuppongono necessariamente un diritto.\n2. I doveri verso qualcosa o qualcuno sono quelli che presuppongono un [[diritto-soggettivo|diritto correlato]].",
       "concetti": [
-        "costrizione",
-        "diritto-soggettivo"
+        "diritto-soggettivo",
+        "costrizione"
       ],
-      "testoFonte": "1. I doveri simpliciter (doveri di), sono più prossimi alle costrizioni e non presuppongono necessariamente un diritto.\n2. I doveri verso qualcosa o qualcuno, sono quelli che presuppongono un diritto correlato.",
+      "testoFonte": "1. I doveri simpliciter (doveri di), sono più prossimi alle costrizioni e non presuppongono necessariamente un diritto. 2. I doveri verso qualcosa o qualcuno, sono quelli che presuppongono un diritto correlato.",
       "notaRevisione": "Negli appunti l’inciso «doveri di» è incompleto. È omesso l’inciso, senza inventare la parola mancante; resta la distinzione espressa nel resto del passaggio."
     },
     {
@@ -318,17 +324,17 @@
     {
       "id": "p003-b011",
       "pagina": 3,
-      "markdown": "### Il dovere e l’[[ordinamento-giuridico|ordinamento]]\n\nIl dovere costituisce il tema centrale della [[norma-giuridica|norma giuridica]]. Per questa ragione, parlare di doveri e parlare di norme equivale alla stessa indagine. Il significato normativo del diritto è reso ancora più esplicito dall'idea di \"ordinamento\".",
+      "markdown": "### Il dovere e l’ordinamento\n\nIl dovere costituisce il tema centrale della [[norma-giuridica|norma giuridica]]. Per questa ragione, parlare di doveri e parlare di norme equivale alla stessa indagine. Il significato normativo del diritto è reso ancora più esplicito dall'idea di \"ordinamento\".",
       "concetti": [
-        "ordinamento-giuridico",
-        "norma-giuridica"
+        "norma-giuridica",
+        "ordinamento-giuridico"
       ],
       "testoFonte": "Il dovere costituisce il tema centrale della norma giuridica. Per questa ragione, parlare di doveri e parlare di norme equivale alla stessa indagine. Il significato normativo del diritto è reso ancora più esplicito dall'idea di \"ordinamento\"."
     },
     {
       "id": "p003-b012",
       "pagina": 3,
-      "markdown": "L'[[ordinamento-giuridico|ordinamento]] è comunemente inteso come l'insieme delle norme valide. Tuttavia, il termine \"insieme\" è considerato riduttivo se si tiene conto della sua complessità logica. D'altra parte, anche il termine \"sistema\" è ritenuto eccessivo.",
+      "markdown": "L'ordinamento è comunemente inteso come l'insieme delle norme valide. Tuttavia, il termine \"insieme\" è considerato riduttivo se si tiene conto della sua complessità logica. D'altra parte, anche il termine \"sistema\" è ritenuto eccessivo.",
       "concetti": [
         "ordinamento-giuridico"
       ]

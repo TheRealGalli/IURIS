@@ -2,7 +2,7 @@ import type { AncoraTesto, SegnoOriginale } from './originali';
 
 export interface SezioneCatalogoLettura {
   id: string; titolo: string; da: number; a: number; file: string;
-  lezione?: string; pilota?: boolean;
+  lezione?: string; lezioni?: string[]; revisionata?: boolean;
 }
 export type IndiceSezioneLettura = SezioneCatalogoLettura;
 export interface DocumentoLettura {
@@ -15,7 +15,7 @@ export interface BloccoLettura {
 }
 export interface SezioneLettura {
   documento: string; edizione: number; id: string; titolo: string; da: number; a: number;
-  lezione?: string; pilota?: boolean; blocchi: BloccoLettura[];
+  lezione?: string; lezioni?: string[]; revisionata?: boolean; blocchi: BloccoLettura[];
 }
 /** `testo` deve essere il textContent reso dal lettore: gli offset non sono offset Markdown. */
 export interface BloccoTestoLettura {

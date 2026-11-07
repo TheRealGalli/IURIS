@@ -9,396 +9,740 @@
     "pagine": 223,
     "sezioni": [
       {
-        "id": "p001-004",
-        "titolo": "Pagine 1–4",
+        "id": "u01-l1",
+        "titolo": "Che cosa studiamo: i significati di «diritto romano»",
         "da": 1,
+        "a": 2,
+        "lezione": "u01-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u01-l1.json"
+      },
+      {
+        "id": "u01-l2",
+        "titolo": "Le fonti di cognizione: come conosciamo il diritto romano",
+        "da": 3,
         "a": 4,
-        "file": "letture/romano-pennacchio-2021-22-v1/p001-004.json"
+        "lezione": "u01-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u01-l2.json"
       },
       {
-        "id": "p005-008",
-        "titolo": "Pagine 5–8",
+        "id": "u01-l3",
+        "titolo": "Le fonti di produzione: da dove nasce il diritto",
         "da": 5,
+        "a": 5,
+        "lezione": "u01-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u01-l3.json"
+      },
+      {
+        "id": "u01-l4",
+        "titolo": "Cronologia I: la logica del tempo e l'età repubblicana",
+        "da": 6,
         "a": 8,
-        "file": "letture/romano-pennacchio-2021-22-v1/p005-008.json"
+        "lezione": "u01-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u01-l4.json"
       },
       {
-        "id": "p009-012",
-        "titolo": "Pagine 9–12",
+        "id": "u01-l5",
+        "titolo": "Cronologia II: Principato, anarchia militare e Dominato",
         "da": 9,
+        "a": 9,
+        "lezione": "u01-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u01-l5.json"
+      },
+      {
+        "id": "u02-l1",
+        "titolo": "Le XII Tavole, «leggi per eccellenza»: profili e vicende del testo",
+        "da": 10,
+        "a": 10,
+        "lezione": "u02-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u02-l1.json"
+      },
+      {
+        "id": "u02-l2",
+        "titolo": "Da Panezio a Cicerone: le leggi antiche nel De officiis",
+        "da": 11,
         "a": 12,
-        "file": "letture/romano-pennacchio-2021-22-v1/p009-012.json"
+        "lezione": "u02-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u02-l2.json"
       },
       {
-        "id": "p013-016",
-        "titolo": "Pagine 13–16",
+        "id": "u02-l3",
+        "titolo": "Polibio: la costituzione mista e le assemblee popolari",
         "da": 13,
+        "a": 14,
+        "lezione": "u02-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u02-l3.json"
+      },
+      {
+        "id": "u02-l4",
+        "titolo": "Il ciclo delle costituzioni e la voce di Catone: continuità senza cesure",
+        "da": 15,
         "a": 16,
-        "file": "letture/romano-pennacchio-2021-22-v1/p013-016.json"
+        "lezione": "u02-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u02-l4.json"
       },
       {
-        "id": "p017-020",
-        "titolo": "Pagine 17–20",
+        "id": "u02-l5",
+        "titolo": "Le leges nella mentalità tradizionalistica: che cos'è la legge",
         "da": 17,
+        "a": 17,
+        "lezione": "u02-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u02-l5.json"
+      },
+      {
+        "id": "u02-l6",
+        "titolo": "L'«immagine dell'antico»: Cicerone (De legibus, De oratore) e Livio",
+        "da": 18,
         "a": 20,
-        "file": "letture/romano-pennacchio-2021-22-v1/p017-020.json"
+        "lezione": "u02-l6",
+        "file": "letture/romano-pennacchio-2021-22-v1/u02-l6.json"
       },
       {
-        "id": "p021-024",
-        "titolo": "Pagine 21–24",
+        "id": "u02-l7",
+        "titolo": "Ricerca giuridica e filologico-antiquaria; distanza storica e abolizione della distanza",
         "da": 21,
+        "a": 22,
+        "lezione": "u02-l7",
+        "file": "letture/romano-pennacchio-2021-22-v1/u02-l7.json"
+      },
+      {
+        "id": "u03-l1",
+        "titolo": "Legge e tradizione: il diritto arcaico e la legge nei diritti antichi",
+        "da": 23,
         "a": 24,
-        "file": "letture/romano-pennacchio-2021-22-v1/p021-024.json"
+        "lezione": "u03-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l1.json"
       },
       {
-        "id": "p025-028",
-        "titolo": "Pagine 25–28",
+        "id": "u03-l2",
+        "titolo": "Le XII Tavole tra lotte sociali e scrittura",
         "da": 25,
+        "a": 26,
+        "lezione": "u03-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l2.json"
+      },
+      {
+        "id": "u03-l3",
+        "titolo": "L'ispirazione greca delle XII Tavole",
+        "da": 27,
         "a": 28,
-        "file": "letture/romano-pennacchio-2021-22-v1/p025-028.json"
+        "lezione": "u03-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l3.json"
       },
       {
-        "id": "p029-032",
-        "titolo": "Pagine 29–32",
+        "id": "u03-l4",
+        "titolo": "Il meccanismo del mutamento e le leges imperfectae",
         "da": 29,
-        "a": 32,
-        "file": "letture/romano-pennacchio-2021-22-v1/p029-032.json"
+        "a": 31,
+        "lezione": "u03-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l4.json"
       },
       {
-        "id": "p033-036",
-        "titolo": "Pagine 33–36",
-        "da": 33,
-        "a": 36,
-        "file": "letture/romano-pennacchio-2021-22-v1/p033-036.json"
+        "id": "u03-l5",
+        "titolo": "Il formalismo e il processo per legis actiones: nome, tipi, protagonisti",
+        "da": 32,
+        "a": 35,
+        "lezione": "u03-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l5.json"
       },
       {
-        "id": "p037-040",
-        "titolo": "Pagine 37–40",
-        "da": 37,
+        "id": "u03-l6",
+        "titolo": "Le legis actiones di accertamento: sacramentum, iudicis arbitrive postulatio, condictio",
+        "da": 36,
+        "a": 39,
+        "lezione": "u03-l6",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l6.json"
+      },
+      {
+        "id": "u03-l7",
+        "titolo": "Le legis actiones esecutive: manus iniectio e pignoris capio",
+        "da": 40,
         "a": 40,
-        "file": "letture/romano-pennacchio-2021-22-v1/p037-040.json"
+        "lezione": "u03-l7",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l7.json"
       },
       {
-        "id": "p041-044",
-        "titolo": "Pagine 41–44",
+        "id": "u03-l8",
+        "titolo": "Gli atti di autonomia privata: res mancipi, mancipatio, nexum, in iure cessio",
         "da": 41,
-        "a": 44,
-        "file": "letture/romano-pennacchio-2021-22-v1/p041-044.json"
+        "a": 43,
+        "lezione": "u03-l8",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l8.json"
       },
       {
-        "id": "p045-048",
-        "titolo": "Pagine 45–48",
-        "da": 45,
+        "id": "u03-l9",
+        "titolo": "L'emancipatio: il capolavoro del formalismo interpretativo",
+        "da": 44,
+        "a": 45,
+        "lezione": "u03-l9",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l9.json"
+      },
+      {
+        "id": "u03-l10",
+        "titolo": "Un «codice di contadini»? Famiglia, mondo agricolo e norme penali",
+        "da": 46,
         "a": 48,
-        "file": "letture/romano-pennacchio-2021-22-v1/p045-048.json"
+        "lezione": "u03-l10",
+        "file": "letture/romano-pennacchio-2021-22-v1/u03-l10.json"
       },
       {
-        "id": "p049-052",
-        "titolo": "Pagine 49–52",
+        "id": "u04-l1",
+        "titolo": "I pontefici: il segreto pontificale e il responso",
         "da": 49,
+        "a": 50,
+        "lezione": "u04-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u04-l1.json"
+      },
+      {
+        "id": "u04-l2",
+        "titolo": "L'interpretatio pontificale: dalla mancipatio al testamento",
+        "da": 51,
         "a": 52,
-        "file": "letture/romano-pennacchio-2021-22-v1/p049-052.json"
+        "lezione": "u04-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u04-l2.json"
       },
       {
-        "id": "p053-056",
-        "titolo": "Pagine 53–56",
+        "id": "u04-l3",
+        "titolo": "Manumissio vindicta, matrimonio e riti del pontefice massimo",
         "da": 53,
-        "a": 56,
-        "file": "letture/romano-pennacchio-2021-22-v1/p053-056.json"
+        "a": 54,
+        "lezione": "u04-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u04-l3.json"
       },
       {
-        "id": "p057-060",
-        "titolo": "Pagine 57–60",
-        "da": 57,
+        "id": "u05-l1",
+        "titolo": "Da «idrofobi» ad «anfibi»: Roma scopre il mare. Contadini e mercanti",
+        "da": 55,
+        "a": 57,
+        "lezione": "u05-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l1.json"
+      },
+      {
+        "id": "u05-l2",
+        "titolo": "Digressione: le magistrature repubblicane",
+        "da": 58,
         "a": 60,
-        "file": "letture/romano-pennacchio-2021-22-v1/p057-060.json"
+        "lezione": "u05-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l2.json"
       },
       {
-        "id": "p061-064",
-        "titolo": "Pagine 61–64",
+        "id": "u05-l3",
+        "titolo": "§ 2. Il «diritto commerciale» romano: ius gentium e nova negotia",
         "da": 61,
+        "a": 62,
+        "lezione": "u05-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l3.json"
+      },
+      {
+        "id": "u05-l4",
+        "titolo": "§ 3. Le regole del gioco: la bona fides",
+        "da": 63,
         "a": 64,
-        "file": "letture/romano-pennacchio-2021-22-v1/p061-064.json"
+        "lezione": "u05-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l4.json"
       },
       {
-        "id": "p065-068",
-        "titolo": "Pagine 65–68",
+        "id": "u05-l5",
+        "titolo": "I contratti consensuali (1): locatio conductio, mandatum, societas",
         "da": 65,
+        "a": 65,
+        "lezione": "u05-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l5.json"
+      },
+      {
+        "id": "u05-l6",
+        "titolo": "I contratti consensuali (2): emptio venditio contro mancipatio. Possesso, proprietà, usucapione",
+        "da": 66,
         "a": 68,
-        "file": "letture/romano-pennacchio-2021-22-v1/p065-068.json"
+        "lezione": "u05-l6",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l6.json"
       },
       {
-        "id": "p069-072",
-        "titolo": "Pagine 69–72",
+        "id": "u05-l7",
+        "titolo": "§ 4. Il pretore e il processo formulare: origine e svolgimento",
         "da": 69,
-        "a": 72,
-        "file": "letture/romano-pennacchio-2021-22-v1/p069-072.json"
+        "a": 70,
+        "lezione": "u05-l7",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l7.json"
       },
       {
-        "id": "p073-076",
-        "titolo": "Pagine 73–76",
-        "da": 73,
-        "a": 76,
-        "file": "letture/romano-pennacchio-2021-22-v1/p073-076.json"
+        "id": "u05-l8",
+        "titolo": "La struttura della formula: le partes formulae",
+        "da": 71,
+        "a": 73,
+        "lezione": "u05-l8",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l8.json"
       },
       {
-        "id": "p077-080",
-        "titolo": "Pagine 77–80",
-        "da": 77,
-        "a": 80,
-        "file": "letture/romano-pennacchio-2021-22-v1/p077-080.json"
+        "id": "u05-l9",
+        "titolo": "L'editto del pretore: albo, contenuto, «fragile ma persistente»",
+        "da": 74,
+        "a": 75,
+        "lezione": "u05-l9",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l9.json"
       },
       {
-        "id": "p081-084",
-        "titolo": "Pagine 81–84",
-        "da": 81,
-        "a": 84,
-        "file": "letture/romano-pennacchio-2021-22-v1/p081-084.json"
+        "id": "u05-l10",
+        "titolo": "L'Edictum perpetuum di Salvio Giuliano e la ricostruzione di Lenel",
+        "da": 76,
+        "a": 77,
+        "lezione": "u05-l10",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l10.json"
       },
       {
-        "id": "p085-088",
-        "titolo": "Pagine 85–88",
-        "da": 85,
-        "a": 88,
-        "file": "letture/romano-pennacchio-2021-22-v1/p085-088.json"
+        "id": "u05-l11",
+        "titolo": "La funzione normativa del pretore e § 5. Lo ius honorarium",
+        "da": 78,
+        "a": 79,
+        "lezione": "u05-l11",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l11.json"
       },
       {
-        "id": "p089-092",
-        "titolo": "Pagine 89–92",
-        "da": 89,
-        "a": 92,
-        "file": "letture/romano-pennacchio-2021-22-v1/p089-092.json"
+        "id": "u05-l12",
+        "titolo": "Le azioni pretorie: actio in factum, deposito e comodato, in bonis habere, funzioni del pretore",
+        "da": 80,
+        "a": 83,
+        "lezione": "u05-l12",
+        "file": "letture/romano-pennacchio-2021-22-v1/u05-l12.json"
       },
       {
-        "id": "p093-096",
-        "titolo": "Pagine 93–96",
-        "da": 93,
-        "a": 96,
-        "file": "letture/romano-pennacchio-2021-22-v1/p093-096.json"
+        "id": "u06-l1",
+        "titolo": "La laicizzazione del diritto: plebe, aneddoti e plebisciti",
+        "da": 84,
+        "a": 86,
+        "lezione": "u06-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u06-l1.json"
       },
       {
-        "id": "p097-100",
-        "titolo": "Pagine 97–100",
-        "da": 97,
-        "a": 100,
-        "file": "letture/romano-pennacchio-2021-22-v1/p097-100.json"
+        "id": "u06-l2",
+        "titolo": "Fisionomia del giureconsulto laico",
+        "da": 87,
+        "a": 87,
+        "lezione": "u06-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u06-l2.json"
       },
       {
-        "id": "p101-104",
-        "titolo": "Pagine 101–104",
-        "da": 101,
-        "a": 104,
-        "file": "letture/romano-pennacchio-2021-22-v1/p101-104.json"
+        "id": "u06-l3",
+        "titolo": "Una professione aristocratica: Schulz, Weber, Machiavelli",
+        "da": 88,
+        "a": 90,
+        "lezione": "u06-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u06-l3.json"
       },
       {
-        "id": "p105-108",
-        "titolo": "Pagine 105–108",
-        "da": 105,
-        "a": 108,
-        "file": "letture/romano-pennacchio-2021-22-v1/p105-108.json"
+        "id": "u06-l4",
+        "titolo": "Le fonti del prestigio: nobilitas, auctoritas, virtus, senectus e memoria",
+        "da": 91,
+        "a": 94,
+        "lezione": "u06-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u06-l4.json"
       },
       {
-        "id": "p109-112",
-        "titolo": "Pagine 109–112",
-        "da": 109,
+        "id": "u06-l5",
+        "titolo": "Diritto, filosofia e arti liberali: il sapere enciclopedico e la sua crisi",
+        "da": 95,
+        "a": 97,
+        "lezione": "u06-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u06-l5.json"
+      },
+      {
+        "id": "u06-l6",
+        "titolo": "L'atteggiamento oracolare: Quinto Mucio e Servio",
+        "da": 98,
+        "a": 101,
+        "lezione": "u06-l6",
+        "file": "letture/romano-pennacchio-2021-22-v1/u06-l6.json"
+      },
+      {
+        "id": "u06-l7",
+        "titolo": "La tradizione civilistica: da Sesto Elio a Gaio",
+        "da": 102,
+        "a": 106,
+        "lezione": "u06-l7",
+        "file": "letture/romano-pennacchio-2021-22-v1/u06-l7.json"
+      },
+      {
+        "id": "u06-l8",
+        "titolo": "L'editto, un testo fragile e persistente",
+        "da": 107,
+        "a": 110,
+        "lezione": "u06-l8",
+        "file": "letture/romano-pennacchio-2021-22-v1/u06-l8.json"
+      },
+      {
+        "id": "u07-l1",
+        "titolo": "Il responso e il giudizio; il catalogo di Cicerone",
+        "da": 111,
         "a": 112,
-        "file": "letture/romano-pennacchio-2021-22-v1/p109-112.json"
+        "lezione": "u07-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u07-l1.json"
       },
       {
-        "id": "p113-116",
-        "titolo": "Pagine 113–116",
+        "id": "u07-l2",
+        "titolo": "I cataloghi d'età classica: Pomponio, Gaio, Papiniano",
         "da": 113,
-        "a": 116,
-        "file": "letture/romano-pennacchio-2021-22-v1/p113-116.json"
+        "a": 115,
+        "lezione": "u07-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u07-l2.json"
       },
       {
-        "id": "p117-120",
-        "titolo": "Pagine 117–120",
-        "da": 117,
-        "a": 120,
-        "file": "letture/romano-pennacchio-2021-22-v1/p117-120.json"
+        "id": "u07-l3",
+        "titolo": "Oralità e forma letteraria: Servio e i Digesta di Alfeno",
+        "da": 116,
+        "a": 118,
+        "lezione": "u07-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u07-l3.json"
       },
       {
-        "id": "p121-124",
-        "titolo": "Pagine 121–124",
-        "da": 121,
+        "id": "u07-l4",
+        "titolo": "Profili metodici I: la lucerna del tavernaio e i carri sul Campidoglio",
+        "da": 119,
+        "a": 121,
+        "lezione": "u07-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u07-l4.json"
+      },
+      {
+        "id": "u07-l5",
+        "titolo": "Profili metodici II: la nave di Saufeio e il collegio giudicante",
+        "da": 122,
         "a": 124,
-        "file": "letture/romano-pennacchio-2021-22-v1/p121-124.json"
+        "lezione": "u07-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u07-l5.json"
       },
       {
-        "id": "p125-128",
-        "titolo": "Pagine 125–128",
+        "id": "u08-l1",
+        "titolo": "Augusto e la diplomazia del potere",
         "da": 125,
+        "a": 126,
+        "lezione": "u08-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l1.json"
+      },
+      {
+        "id": "u08-l2",
+        "titolo": "I giuristi nel principato: il caso di Labeone",
+        "da": 127,
         "a": 128,
-        "file": "letture/romano-pennacchio-2021-22-v1/p125-128.json"
+        "lezione": "u08-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l2.json"
       },
       {
-        "id": "p129-132",
-        "titolo": "Pagine 129–132",
+        "id": "u08-l3",
+        "titolo": "Lo ius respondendi ex auctoritate principis",
         "da": 129,
+        "a": 130,
+        "lezione": "u08-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l3.json"
+      },
+      {
+        "id": "u08-l4",
+        "titolo": "Il consilium principis e la nascita dei fedecommessi",
+        "da": 131,
         "a": 132,
-        "file": "letture/romano-pennacchio-2021-22-v1/p129-132.json"
+        "lezione": "u08-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l4.json"
       },
       {
-        "id": "p133-136",
-        "titolo": "Pagine 133–136",
+        "id": "u08-l5",
+        "titolo": "Discussioni nel consiglio imperiale: tre casi",
         "da": 133,
-        "a": 136,
-        "file": "letture/romano-pennacchio-2021-22-v1/p133-136.json"
+        "a": 137,
+        "lezione": "u08-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l5.json"
       },
       {
-        "id": "p137-140",
-        "titolo": "Pagine 137–140",
-        "da": 137,
-        "a": 140,
-        "file": "letture/romano-pennacchio-2021-22-v1/p137-140.json"
+        "id": "u08-l6",
+        "titolo": "Il principe legislatore: fonti dell'età classica, editti e mandati",
+        "da": 138,
+        "a": 141,
+        "lezione": "u08-l6",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l6.json"
       },
       {
-        "id": "p141-144",
-        "titolo": "Pagine 141–144",
-        "da": 141,
+        "id": "u08-l7",
+        "titolo": "La passività: rescritti e decreti",
+        "da": 142,
         "a": 144,
-        "file": "letture/romano-pennacchio-2021-22-v1/p141-144.json"
+        "lezione": "u08-l7",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l7.json"
       },
       {
-        "id": "p145-148",
-        "titolo": "Pagine 145–148",
+        "id": "u08-l8",
+        "titolo": "Un potere nuovo? Il fondamento del principe legislatore",
         "da": 145,
+        "a": 146,
+        "lezione": "u08-l8",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l8.json"
+      },
+      {
+        "id": "u08-l9",
+        "titolo": "I valori della normativa imperiale",
+        "da": 147,
         "a": 148,
-        "file": "letture/romano-pennacchio-2021-22-v1/p145-148.json"
+        "lezione": "u08-l9",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l9.json"
       },
       {
-        "id": "p149-152",
-        "titolo": "Pagine 149–152",
+        "id": "u08-l10",
+        "titolo": "Normativa imperiale e giurisprudenza",
         "da": 149,
-        "a": 152,
-        "file": "letture/romano-pennacchio-2021-22-v1/p149-152.json"
+        "a": 154,
+        "lezione": "u08-l10",
+        "file": "letture/romano-pennacchio-2021-22-v1/u08-l10.json"
       },
       {
-        "id": "p153-156",
-        "titolo": "Pagine 153–156",
-        "da": 153,
-        "a": 156,
-        "file": "letture/romano-pennacchio-2021-22-v1/p153-156.json"
+        "id": "u09-l1",
+        "titolo": "Maestri e allievi: il giurista-insegnante, le due scuole e Sabino",
+        "da": 155,
+        "a": 157,
+        "lezione": "u09-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u09-l1.json"
       },
       {
-        "id": "p157-160",
-        "titolo": "Pagine 157–160",
-        "da": 157,
-        "a": 160,
-        "file": "letture/romano-pennacchio-2021-22-v1/p157-160.json"
+        "id": "u09-l2",
+        "titolo": "Gaio e la letteratura delle due scuole",
+        "da": 158,
+        "a": 159,
+        "lezione": "u09-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u09-l2.json"
       },
       {
-        "id": "p161-164",
-        "titolo": "Pagine 161–164",
-        "da": 161,
+        "id": "u09-l3",
+        "titolo": "Oltre il contrasto: convergenze, chiavi di lettura e vita delle scuole",
+        "da": 160,
+        "a": 162,
+        "lezione": "u09-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u09-l3.json"
+      },
+      {
+        "id": "u09-l4",
+        "titolo": "Il giurista «filosofo»: le Institutiones e Ulpiano",
+        "da": 163,
         "a": 164,
-        "file": "letture/romano-pennacchio-2021-22-v1/p161-164.json"
+        "lezione": "u09-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u09-l4.json"
       },
       {
-        "id": "p165-168",
-        "titolo": "Pagine 165–168",
+        "id": "u10-l1",
+        "titolo": "La letteratura problematica: responsa ed epistulae",
         "da": 165,
+        "a": 166,
+        "lezione": "u10-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u10-l1.json"
+      },
+      {
+        "id": "u10-l2",
+        "titolo": "Commentari e altri scritti",
+        "da": 167,
         "a": 168,
-        "file": "letture/romano-pennacchio-2021-22-v1/p165-168.json"
+        "lezione": "u10-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u10-l2.json"
       },
       {
-        "id": "p169-172",
-        "titolo": "Pagine 169–172",
+        "id": "u10-l3",
+        "titolo": "Interessi nuovi della giurisprudenza tardo-classica",
         "da": 169,
+        "a": 169,
+        "lezione": "u10-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u10-l3.json"
+      },
+      {
+        "id": "u14-l1",
+        "titolo": "L'opera collettiva e i singoli attori",
+        "da": 170,
+        "a": 170,
+        "lezione": "u14-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u14-l1.json"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "Strade vecchie e nuove",
+        "da": 171,
+        "a": 171,
+        "lezione": "u14-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u14-l2.json"
+      },
+      {
+        "id": "u14-l3",
+        "titolo": "Il «caso» e il problema",
+        "da": 172,
         "a": 172,
-        "file": "letture/romano-pennacchio-2021-22-v1/p169-172.json"
+        "lezione": "u14-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u14-l3.json"
       },
       {
-        "id": "p173-176",
-        "titolo": "Pagine 173–176",
+        "id": "u14-l4",
+        "titolo": "Come si forma una regola",
         "da": 173,
-        "a": 176,
-        "file": "letture/romano-pennacchio-2021-22-v1/p173-176.json"
+        "a": 173,
+        "lezione": "u14-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u14-l4.json"
       },
       {
-        "id": "p177-180",
-        "titolo": "Pagine 177–180",
-        "da": 177,
+        "id": "u14-l5",
+        "titolo": "Dialoghi fuori del tempo",
+        "da": 174,
+        "a": 174,
+        "lezione": "u14-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u14-l5.json"
+      },
+      {
+        "id": "u14-l6",
+        "titolo": "La cura per le parole",
+        "da": 175,
+        "a": 175,
+        "lezione": "u14-l6",
+        "file": "letture/romano-pennacchio-2021-22-v1/u14-l6.json"
+      },
+      {
+        "id": "u11-l1",
+        "titolo": "L'anarchia militare e l'avvento del Dominato",
+        "da": 176,
+        "a": 177,
+        "lezione": "u11-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l1.json"
+      },
+      {
+        "id": "u11-l2",
+        "titolo": "La Tetrarchia, l'apparato di governo e la società tardoantica",
+        "da": 178,
         "a": 180,
-        "file": "letture/romano-pennacchio-2021-22-v1/p177-180.json"
+        "lezione": "u11-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l2.json"
       },
       {
-        "id": "p181-184",
-        "titolo": "Pagine 181–184",
+        "id": "u11-l3",
+        "titolo": "Il diritto: legge scritta e costituzioni imperiali",
         "da": 181,
-        "a": 184,
-        "file": "letture/romano-pennacchio-2021-22-v1/p181-184.json"
+        "a": 182,
+        "lezione": "u11-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l3.json"
       },
       {
-        "id": "p185-188",
-        "titolo": "Pagine 185–188",
-        "da": 185,
+        "id": "u11-l4",
+        "titolo": "Una mentalità legalistica",
+        "da": 183,
+        "a": 185,
+        "lezione": "u11-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l4.json"
+      },
+      {
+        "id": "u11-l5",
+        "titolo": "Il tramonto della giurisprudenza e le raccolte di iura",
+        "da": 186,
+        "a": 187,
+        "lezione": "u11-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l5.json"
+      },
+      {
+        "id": "u11-l6",
+        "titolo": "Le raccolte miste di leges et iura",
+        "da": 188,
         "a": 188,
-        "file": "letture/romano-pennacchio-2021-22-v1/p185-188.json"
+        "lezione": "u11-l6",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l6.json"
       },
       {
-        "id": "p189-192",
-        "titolo": "Pagine 189–192",
+        "id": "u11-l7",
+        "titolo": "La Legge delle citazioni (426 d.C.)",
         "da": 189,
-        "a": 192,
-        "file": "letture/romano-pennacchio-2021-22-v1/p189-192.json"
+        "a": 191,
+        "lezione": "u11-l7",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l7.json"
       },
       {
-        "id": "p193-196",
-        "titolo": "Pagine 193–196",
-        "da": 193,
+        "id": "u11-l8",
+        "titolo": "Il codice come libro e le prime raccolte private",
+        "da": 192,
+        "a": 193,
+        "lezione": "u11-l8",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l8.json"
+      },
+      {
+        "id": "u11-l9",
+        "titolo": "La codificazione teodosiana",
+        "da": 194,
         "a": 196,
-        "file": "letture/romano-pennacchio-2021-22-v1/p193-196.json"
+        "lezione": "u11-l9",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l9.json"
       },
       {
-        "id": "p197-200",
-        "titolo": "Pagine 197–200",
+        "id": "u11-l10",
+        "titolo": "La «sapienza giuridica» dei re barbari",
         "da": 197,
-        "a": 200,
-        "file": "letture/romano-pennacchio-2021-22-v1/p197-200.json"
+        "a": 199,
+        "lezione": "u11-l10",
+        "file": "letture/romano-pennacchio-2021-22-v1/u11-l10.json"
       },
       {
-        "id": "p201-204",
-        "titolo": "Pagine 201–204",
-        "da": 201,
-        "a": 204,
-        "file": "letture/romano-pennacchio-2021-22-v1/p201-204.json"
+        "id": "u12-l1",
+        "titolo": "Il Corpus Iuris Civilis e il primo Codice (528–529)",
+        "da": 200,
+        "a": 202,
+        "lezione": "u12-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u12-l1.json"
       },
       {
-        "id": "p205-208",
-        "titolo": "Pagine 205–208",
-        "da": 205,
-        "a": 208,
-        "file": "letture/romano-pennacchio-2021-22-v1/p205-208.json"
+        "id": "u12-l2",
+        "titolo": "Il progetto dei Digesta: la constitutio Deo auctore (530)",
+        "da": 203,
+        "a": 205,
+        "lezione": "u12-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u12-l2.json"
       },
       {
-        "id": "p209-212",
-        "titolo": "Pagine 209–212",
-        "da": 209,
-        "a": 212,
-        "file": "letture/romano-pennacchio-2021-22-v1/p209-212.json"
+        "id": "u12-l3",
+        "titolo": "La constitutio Tanta-Dédōken (533) e il rapporto con l'antico",
+        "da": 206,
+        "a": 207,
+        "lezione": "u12-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u12-l3.json"
       },
       {
-        "id": "p213-216",
-        "titolo": "Pagine 213–216",
-        "da": 213,
-        "a": 216,
-        "file": "letture/romano-pennacchio-2021-22-v1/p213-216.json"
+        "id": "u12-l4",
+        "titolo": "Le Institutiones e la riforma degli studi (Imperatoriam e Omnem, 533)",
+        "da": 208,
+        "a": 210,
+        "lezione": "u12-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u12-l4.json"
       },
       {
-        "id": "p217-220",
-        "titolo": "Pagine 217–220",
-        "da": 217,
+        "id": "u12-l5",
+        "titolo": "Il Codex repetitae praelectionis (534) e le Novellae",
+        "da": 211,
+        "a": 213,
+        "lezione": "u12-l5",
+        "file": "letture/romano-pennacchio-2021-22-v1/u12-l5.json"
+      },
+      {
+        "id": "u13-l1",
+        "titolo": "La tradizione manoscritta del Digesto: dalla Littera Florentina ai Commentatori",
+        "da": 214,
+        "a": 214,
+        "lezione": "u13-l1",
+        "file": "letture/romano-pennacchio-2021-22-v1/u13-l1.json"
+      },
+      {
+        "id": "u13-l2",
+        "titolo": "Dall'Umanesimo giuridico a Savigny: le «vite» del diritto romano",
+        "da": 215,
+        "a": 217,
+        "lezione": "u13-l2",
+        "file": "letture/romano-pennacchio-2021-22-v1/u13-l2.json"
+      },
+      {
+        "id": "u13-l3",
+        "titolo": "Sistema e tempo: codice tardoantico e codice moderno",
+        "da": 218,
         "a": 220,
-        "file": "letture/romano-pennacchio-2021-22-v1/p217-220.json"
+        "lezione": "u13-l3",
+        "file": "letture/romano-pennacchio-2021-22-v1/u13-l3.json"
       },
       {
-        "id": "p221-223",
-        "titolo": "Pagine 221–223",
+        "id": "u13-l4",
+        "titolo": "L'utopia della «legge semplice» e la cronologia della tradizione europea",
         "da": 221,
         "a": 223,
-        "file": "letture/romano-pennacchio-2021-22-v1/p221-223.json"
+        "lezione": "u13-l4",
+        "file": "letture/romano-pennacchio-2021-22-v1/u13-l4.json"
       }
     ]
   },
@@ -417,7 +761,7 @@
         "da": 1,
         "a": 3,
         "lezione": "u01-l1",
-        "pilota": true,
+        "revisionata": true,
         "file": "letture/filosofia-incampo-v1/u01-l1.json"
       },
       {
@@ -426,176 +770,341 @@
         "da": 4,
         "a": 6,
         "lezione": "u01-l2",
-        "pilota": true,
+        "revisionata": true,
         "file": "letture/filosofia-incampo-v1/u01-l2.json"
       },
       {
-        "id": "p007-010",
-        "titolo": "Pagine 7–10",
+        "id": "u01-l3",
+        "titolo": "L'oggetto del dovere: norme di condotta e norme di struttura",
         "da": 7,
+        "a": 8,
+        "lezione": "u01-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u01-l3.json"
+      },
+      {
+        "id": "u01-l4",
+        "titolo": "Oltre positivismo e giusnaturalismo: diritto sovralegale e regole tecniche",
+        "da": 9,
         "a": 10,
-        "file": "letture/filosofia-incampo-v1/p007-010.json"
+        "lezione": "u01-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u01-l4.json"
       },
       {
-        "id": "p011-014",
-        "titolo": "Pagine 11–14",
+        "id": "u01-l5",
+        "titolo": "Diritto, universale e giustificazione",
         "da": 11,
-        "a": 14,
-        "file": "letture/filosofia-incampo-v1/p011-014.json"
+        "a": 13,
+        "lezione": "u01-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u01-l5.json"
       },
       {
-        "id": "p015-018",
-        "titolo": "Pagine 15–18",
-        "da": 15,
-        "a": 18,
-        "file": "letture/filosofia-incampo-v1/p015-018.json"
+        "id": "u02-l1",
+        "titolo": "Filosofia, politica e diritto: legislatore e giudice",
+        "da": 14,
+        "a": 15,
+        "lezione": "u02-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u02-l1.json"
       },
       {
-        "id": "p019-022",
-        "titolo": "Pagine 19–22",
-        "da": 19,
+        "id": "u02-l2",
+        "titolo": "Lacune, legalismo giuridico e politicità del giudice",
+        "da": 16,
+        "a": 17,
+        "lezione": "u02-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u02-l2.json"
+      },
+      {
+        "id": "u02-l3",
+        "titolo": "Analogia e argomento a contrario: i limiti della logica giuridica",
+        "da": 18,
+        "a": 20,
+        "lezione": "u02-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u02-l3.json"
+      },
+      {
+        "id": "u02-l4",
+        "titolo": "Il dovere di decidere e la motivazione come limite",
+        "da": 21,
         "a": 22,
-        "file": "letture/filosofia-incampo-v1/p019-022.json"
+        "lezione": "u02-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u02-l4.json"
       },
       {
-        "id": "p023-026",
-        "titolo": "Pagine 23–26",
+        "id": "u03-l1",
+        "titolo": "Il diritto ha bisogno della parola",
         "da": 23,
+        "a": 24,
+        "lezione": "u03-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u03-l1.json"
+      },
+      {
+        "id": "u03-l2",
+        "titolo": "La parola che fa: performatività e condizioni di felicità",
+        "da": 25,
         "a": 26,
-        "file": "letture/filosofia-incampo-v1/p023-026.json"
+        "lezione": "u03-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u03-l2.json"
       },
       {
-        "id": "p027-030",
-        "titolo": "Pagine 27–30",
+        "id": "u03-l3",
+        "titolo": "Thesis e rhesis: il legislatore, il giurista e la norma costitutiva",
         "da": 27,
+        "a": 28,
+        "lezione": "u03-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u03-l3.json"
+      },
+      {
+        "id": "u03-l4",
+        "titolo": "Norme costitutive, norme prescrittive e critica a Kelsen",
+        "da": 29,
         "a": 30,
-        "file": "letture/filosofia-incampo-v1/p027-030.json"
+        "lezione": "u03-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u03-l4.json"
       },
       {
-        "id": "p031-034",
-        "titolo": "Pagine 31–34",
+        "id": "u03-l5",
+        "titolo": "Costitutivo e prescrittivo: il rapporto e i limiti",
         "da": 31,
-        "a": 34,
-        "file": "letture/filosofia-incampo-v1/p031-034.json"
+        "a": 33,
+        "lezione": "u03-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u03-l5.json"
       },
       {
-        "id": "p035-038",
-        "titolo": "Pagine 35–38",
-        "da": 35,
+        "id": "u04-l1",
+        "titolo": "Verità o validità? La tesi di Conte sui performativi",
+        "da": 34,
+        "a": 35,
+        "lezione": "u04-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u04-l1.json"
+      },
+      {
+        "id": "u04-l2",
+        "titolo": "Le obiezioni a Conte: verità semantica e verità ontica",
+        "da": 36,
         "a": 38,
-        "file": "letture/filosofia-incampo-v1/p035-038.json"
+        "lezione": "u04-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u04-l2.json"
       },
       {
-        "id": "p039-042",
-        "titolo": "Pagine 39–42",
+        "id": "u04-l3",
+        "titolo": "L'autonomia logica del diritto: contro le due tesi contrarie",
         "da": 39,
-        "a": 42,
-        "file": "letture/filosofia-incampo-v1/p039-042.json"
+        "a": 41,
+        "lezione": "u04-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u04-l3.json"
       },
       {
-        "id": "p043-046",
-        "titolo": "Pagine 43–46",
-        "da": 43,
+        "id": "u05-l1",
+        "titolo": "Le due validità pragmatiche e la promessa di cosa passata",
+        "da": 42,
+        "a": 43,
+        "lezione": "u05-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u05-l1.json"
+      },
+      {
+        "id": "u05-l2",
+        "titolo": "Struttura e funzione: segno, significato, uso",
+        "da": 44,
         "a": 46,
-        "file": "letture/filosofia-incampo-v1/p043-046.json"
+        "lezione": "u05-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u05-l2.json"
       },
       {
-        "id": "p047-050",
-        "titolo": "Pagine 47–50",
+        "id": "u05-l3",
+        "titolo": "Funzioni essenziali, conoscenza del gioco e condizioni di struttura",
         "da": 47,
-        "a": 50,
-        "file": "letture/filosofia-incampo-v1/p047-050.json"
+        "a": 49,
+        "lezione": "u05-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u05-l3.json"
       },
       {
-        "id": "p051-054",
-        "titolo": "Pagine 51–54",
-        "da": 51,
-        "a": 54,
-        "file": "letture/filosofia-incampo-v1/p051-054.json"
+        "id": "u05-l4",
+        "titolo": "Le regole di funzione: fiducia, adempimento, causa",
+        "da": 50,
+        "a": 52,
+        "lezione": "u05-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u05-l4.json"
       },
       {
-        "id": "p055-058",
-        "titolo": "Pagine 55–58",
-        "da": 55,
+        "id": "u05-l5",
+        "titolo": "Giudizi sintetici a priori e limiti del diritto positivo",
+        "da": 53,
+        "a": 55,
+        "lezione": "u05-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u05-l5.json"
+      },
+      {
+        "id": "u05-l6",
+        "titolo": "La validità praxeonomica: accidentalia, giudizi a posteriori, istituti",
+        "da": 56,
         "a": 58,
-        "file": "letture/filosofia-incampo-v1/p055-058.json"
+        "lezione": "u05-l6",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u05-l6.json"
       },
       {
-        "id": "p059-062",
-        "titolo": "Pagine 59–62",
+        "id": "u06-l1",
+        "titolo": "Le norme come segni: validità sintattica e norme di struttura",
         "da": 59,
-        "a": 62,
-        "file": "letture/filosofia-incampo-v1/p059-062.json"
+        "a": 61,
+        "lezione": "u06-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u06-l1.json"
       },
       {
-        "id": "p063-066",
-        "titolo": "Pagine 63–66",
-        "da": 63,
-        "a": 66,
-        "file": "letture/filosofia-incampo-v1/p063-066.json"
+        "id": "u06-l2",
+        "titolo": "Le metaregole: norma di chiusura e Grundnorm",
+        "da": 62,
+        "a": 63,
+        "lezione": "u06-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u06-l2.json"
       },
       {
-        "id": "p067-070",
-        "titolo": "Pagine 67–70",
-        "da": 67,
+        "id": "u06-l3",
+        "titolo": "La funzione dell'ordinamento: Chiesa e Stato davanti all'esigibilità",
+        "da": 64,
+        "a": 65,
+        "lezione": "u06-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u06-l3.json"
+      },
+      {
+        "id": "u06-l4",
+        "titolo": "Alice, Gulliver e la validità sintasseonomica",
+        "da": 66,
+        "a": 68,
+        "lezione": "u06-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u06-l4.json"
+      },
+      {
+        "id": "u06-l5",
+        "titolo": "La Norma fondamentale: esistenza, paradosso e metro campione",
+        "da": 69,
         "a": 70,
-        "file": "letture/filosofia-incampo-v1/p067-070.json"
+        "lezione": "u06-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u06-l5.json"
       },
       {
-        "id": "p071-074",
-        "titolo": "Pagine 71–74",
+        "id": "u06-l6",
+        "titolo": "Effettività e teoreticità: i due significati della Grundnorm",
         "da": 71,
         "a": 74,
-        "file": "letture/filosofia-incampo-v1/p071-074.json"
+        "lezione": "u06-l6",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u06-l6.json"
       },
       {
-        "id": "p075-078",
-        "titolo": "Pagine 75–78",
+        "id": "u07-l1",
+        "titolo": "La Grundnorm come regola eidetico-costitutiva",
         "da": 75,
+        "a": 76,
+        "lezione": "u07-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u07-l1.json"
+      },
+      {
+        "id": "u07-l2",
+        "titolo": "Eidos costitutivo di regole: doveri eidonomici ed eidologici",
+        "da": 77,
         "a": 78,
-        "file": "letture/filosofia-incampo-v1/p075-078.json"
+        "lezione": "u07-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u07-l2.json"
       },
       {
-        "id": "p079-082",
-        "titolo": "Pagine 79–82",
+        "id": "u07-l3",
+        "titolo": "Struttura e funzione dell'ordinamento: da Kelsen a Kant",
         "da": 79,
-        "a": 82,
-        "file": "letture/filosofia-incampo-v1/p079-082.json"
+        "a": 81,
+        "lezione": "u07-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u07-l3.json"
       },
       {
-        "id": "p083-086",
-        "titolo": "Pagine 83–86",
-        "da": 83,
+        "id": "u07-l4",
+        "titolo": "La pubblicità nel diritto e la formula trascendentale",
+        "da": 82,
+        "a": 83,
+        "lezione": "u07-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u07-l4.json"
+      },
+      {
+        "id": "u07-l5",
+        "titolo": "Pubblicità e giustizia: diritto, virtù, universalità",
+        "da": 84,
         "a": 86,
-        "file": "letture/filosofia-incampo-v1/p083-086.json"
+        "lezione": "u07-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u07-l5.json"
       },
       {
-        "id": "p087-090",
-        "titolo": "Pagine 87–90",
+        "id": "u07-l6",
+        "titolo": "Doveri perfetti e imperfetti; Grundnorm e Grundwert",
         "da": 87,
-        "a": 90,
-        "file": "letture/filosofia-incampo-v1/p087-090.json"
+        "a": 89,
+        "lezione": "u07-l6",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u07-l6.json"
       },
       {
-        "id": "p091-094",
-        "titolo": "Pagine 91–94",
-        "da": 91,
-        "a": 94,
-        "file": "letture/filosofia-incampo-v1/p091-094.json"
+        "id": "u08-l1",
+        "titolo": "Stoicismo, Scetticismo e coscienza infelice",
+        "da": 90,
+        "a": 92,
+        "lezione": "u08-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u08-l1.json"
       },
       {
-        "id": "p095-098",
-        "titolo": "Pagine 95–98",
-        "da": 95,
-        "a": 98,
-        "file": "letture/filosofia-incampo-v1/p095-098.json"
+        "id": "u08-l2",
+        "titolo": "Che cos'è il diritto? Validità e crisi dell'ordinamento",
+        "da": 93,
+        "a": 95,
+        "lezione": "u08-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u08-l2.json"
       },
       {
-        "id": "p099-100",
-        "titolo": "Pagine 99–100",
-        "da": 99,
+        "id": "u08-l3",
+        "titolo": "Nomos e terra: lex mercatoria, contratto, tecnodemocrazia",
+        "da": 96,
+        "a": 97,
+        "lezione": "u08-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u08-l3.json"
+      },
+      {
+        "id": "u08-l4",
+        "titolo": "Senza codice, non senza ordinamento: i diritti come mesofatti",
+        "da": 98,
         "a": 100,
-        "file": "letture/filosofia-incampo-v1/p099-100.json"
+        "lezione": "u08-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-incampo-v1/u08-l4.json"
       }
     ]
   },
@@ -609,60 +1118,92 @@
     "pagine": 31,
     "sezioni": [
       {
-        "id": "p001-004",
-        "titolo": "Pagine 1–4",
+        "id": "u09-l1",
+        "titolo": "Le lezioni baresi: la persona, lo Stato dal basso, la Costituzione",
         "da": 1,
-        "a": 4,
-        "file": "letture/filosofia-moro-v1/p001-004.json"
+        "a": 3,
+        "lezione": "u09-l1",
+        "file": "letture/filosofia-moro-v1/u09-l1.json"
       },
       {
-        "id": "p005-008",
-        "titolo": "Pagine 5–8",
-        "da": 5,
-        "a": 8,
-        "file": "letture/filosofia-moro-v1/p005-008.json"
+        "id": "u09-l2",
+        "titolo": "Il problema della vita: valore, legge, amore e libertà",
+        "da": 4,
+        "a": 6,
+        "lezione": "u09-l2",
+        "file": "letture/filosofia-moro-v1/u09-l2.json"
       },
       {
-        "id": "p009-012",
-        "titolo": "Pagine 9–12",
-        "da": 9,
+        "id": "u09-l3",
+        "titolo": "L'esperienza giuridica: resistenza, forza e giustizia, crisi del diritto",
+        "da": 7,
+        "a": 9,
+        "lezione": "u09-l3",
+        "file": "letture/filosofia-moro-v1/u09-l3.json"
+      },
+      {
+        "id": "u10-l1",
+        "titolo": "La società: relazione, unità nella distinzione, comunione",
+        "da": 10,
         "a": 12,
-        "file": "letture/filosofia-moro-v1/p009-012.json"
+        "lezione": "u10-l1",
+        "file": "letture/filosofia-moro-v1/u10-l1.json"
       },
       {
-        "id": "p013-016",
-        "titolo": "Pagine 13–16",
+        "id": "u10-l2",
+        "titolo": "I fini dello Stato: Stato assoluto, Stato di diritto, Stato etico",
         "da": 13,
-        "a": 16,
-        "file": "letture/filosofia-moro-v1/p013-016.json"
+        "a": 14,
+        "lezione": "u10-l2",
+        "file": "letture/filosofia-moro-v1/u10-l2.json"
       },
       {
-        "id": "p017-020",
-        "titolo": "Pagine 17–20",
-        "da": 17,
+        "id": "u10-l3",
+        "titolo": "Autorità e libertà: dalla libertà fisica alla libertà etico-giuridica",
+        "da": 15,
+        "a": 17,
+        "lezione": "u10-l3",
+        "file": "letture/filosofia-moro-v1/u10-l3.json"
+      },
+      {
+        "id": "u10-l4",
+        "titolo": "Il momento politico umanistico: singolo, funzione politica, Amministrazione",
+        "da": 18,
         "a": 20,
-        "file": "letture/filosofia-moro-v1/p017-020.json"
+        "lezione": "u10-l4",
+        "file": "letture/filosofia-moro-v1/u10-l4.json"
       },
       {
-        "id": "p021-024",
-        "titolo": "Pagine 21–24",
+        "id": "u11-l1",
+        "titolo": "Il valore dello Stato: eticità, religiosità e Stato «tutto etico»",
         "da": 21,
-        "a": 24,
-        "file": "letture/filosofia-moro-v1/p021-024.json"
+        "a": 22,
+        "lezione": "u11-l1",
+        "file": "letture/filosofia-moro-v1/u11-l1.json"
       },
       {
-        "id": "p025-028",
-        "titolo": "Pagine 25–28",
-        "da": 25,
+        "id": "u11-l2",
+        "titolo": "Idea liberale e idea sociale dello Stato",
+        "da": 23,
+        "a": 25,
+        "lezione": "u11-l2",
+        "file": "letture/filosofia-moro-v1/u11-l2.json"
+      },
+      {
+        "id": "u11-l3",
+        "titolo": "La rivoluzione: permanente, pacifica e violenta",
+        "da": 26,
         "a": 28,
-        "file": "letture/filosofia-moro-v1/p025-028.json"
+        "lezione": "u11-l3",
+        "file": "letture/filosofia-moro-v1/u11-l3.json"
       },
       {
-        "id": "p029-031",
-        "titolo": "Pagine 29–31",
+        "id": "u11-l4",
+        "titolo": "La pluralità degli Stati e i loro rapporti",
         "da": 29,
         "a": 31,
-        "file": "letture/filosofia-moro-v1/p029-031.json"
+        "lezione": "u11-l4",
+        "file": "letture/filosofia-moro-v1/u11-l4.json"
       }
     ]
   },
@@ -676,60 +1217,108 @@
     "pagine": 30,
     "sezioni": [
       {
-        "id": "p001-004",
-        "titolo": "Pagine 1–4",
+        "id": "u12-l1",
+        "titolo": "Titolo, premesse e metodo: quid ius e cur ius",
         "da": 1,
-        "a": 4,
-        "file": "letture/filosofia-cotta-v1/p001-004.json"
+        "a": 3,
+        "lezione": "u12-l1",
+        "file": "letture/filosofia-cotta-v1/u12-l1.json"
       },
       {
-        "id": "p005-008",
-        "titolo": "Pagine 5–8",
-        "da": 5,
-        "a": 8,
-        "file": "letture/filosofia-cotta-v1/p005-008.json"
+        "id": "u12-l2",
+        "titolo": "Senso comune e teorie giuridiche odierne (cap. II)",
+        "da": 4,
+        "a": 5,
+        "lezione": "u12-l2",
+        "file": "letture/filosofia-cotta-v1/u12-l2.json"
       },
       {
-        "id": "p009-012",
-        "titolo": "Pagine 9–12",
-        "da": 9,
+        "id": "u12-l3",
+        "titolo": "La genesi del diritto nella coscienza (Parte II, cap. III, prima parte)",
+        "da": 6,
+        "a": 7,
+        "lezione": "u12-l3",
+        "file": "letture/filosofia-cotta-v1/u12-l3.json"
+      },
+      {
+        "id": "u12-l4",
+        "titolo": "Dalla compossibilità alla socionomia; il fondamento ontologico dell'esistenza (capp. III–V)",
+        "da": 8,
+        "a": 9,
+        "lezione": "u12-l4",
+        "file": "letture/filosofia-cotta-v1/u12-l4.json"
+      },
+      {
+        "id": "u13-l1",
+        "titolo": "Coesistenza, giuridicità, amicizia e politica",
+        "da": 10,
         "a": 12,
-        "file": "letture/filosofia-cotta-v1/p009-012.json"
+        "lezione": "u13-l1",
+        "file": "letture/filosofia-cotta-v1/u13-l1.json"
       },
       {
-        "id": "p013-016",
-        "titolo": "Pagine 13–16",
+        "id": "u13-l2",
+        "titolo": "I limiti della politica e la famiglia",
         "da": 13,
-        "a": 16,
-        "file": "letture/filosofia-cotta-v1/p013-016.json"
+        "a": 14,
+        "lezione": "u13-l2",
+        "file": "letture/filosofia-cotta-v1/u13-l2.json"
       },
       {
-        "id": "p017-020",
-        "titolo": "Pagine 17–20",
-        "da": 17,
-        "a": 20,
-        "file": "letture/filosofia-cotta-v1/p017-020.json"
+        "id": "u13-l3",
+        "titolo": "Gioco, diritto e carità: le forme integrativo-includenti",
+        "da": 15,
+        "a": 17,
+        "lezione": "u13-l3",
+        "file": "letture/filosofia-cotta-v1/u13-l3.json"
       },
       {
-        "id": "p021-024",
-        "titolo": "Pagine 21–24",
-        "da": 21,
+        "id": "u13-l4",
+        "titolo": "La giuridicità nelle sei forme e la funzione del diritto",
+        "da": 18,
+        "a": 19,
+        "lezione": "u13-l4",
+        "file": "letture/filosofia-cotta-v1/u13-l4.json"
+      },
+      {
+        "id": "u14-l1",
+        "titolo": "La Parte IV in sintesi e la regola giuridica: linguaggio deontico, obbligo, comando",
+        "da": 20,
+        "a": 21,
+        "lezione": "u14-l1",
+        "file": "letture/filosofia-cotta-v1/u14-l1.json"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "Obbligo, costrizione e le tre forme della giustizia",
+        "da": 22,
         "a": 24,
-        "file": "letture/filosofia-cotta-v1/p021-024.json"
+        "lezione": "u14-l2",
+        "file": "letture/filosofia-cotta-v1/u14-l2.json"
       },
       {
-        "id": "p025-028",
-        "titolo": "Pagine 25–28",
+        "id": "u14-l3",
+        "titolo": "La giustificazione delle norme, il diritto naturale vigente e la legalità",
         "da": 25,
-        "a": 28,
-        "file": "letture/filosofia-cotta-v1/p025-028.json"
+        "a": 26,
+        "lezione": "u14-l3",
+        "file": "letture/filosofia-cotta-v1/u14-l3.json"
       },
       {
-        "id": "p029-030",
-        "titolo": "Pagine 29–30",
+        "id": "u14-l4",
+        "titolo": "Dal Sein al Sollen: il diritto naturale vigente e il primo sguardo sulla temporalità",
+        "da": 27,
+        "a": 28,
+        "lezione": "u14-l4",
+        "file": "letture/filosofia-cotta-v1/u14-l4.json"
+      },
+      {
+        "id": "u14-l5",
+        "titolo": "Durata, moralità del diritto e carità; Incampo e Cotta a confronto",
         "da": 29,
         "a": 30,
-        "file": "letture/filosofia-cotta-v1/p029-030.json"
+        "lezione": "u14-l5",
+        "file": "letture/filosofia-cotta-v1/u14-l5.json"
       }
     ]
   }
