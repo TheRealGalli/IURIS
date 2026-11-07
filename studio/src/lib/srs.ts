@@ -90,6 +90,14 @@ export function pagineStudiate(idx: Indice, p: Progresso): number {
   return set.size;
 }
 
+/** Porta le verifiche ancora nuove davanti al resto, conservando l'ordine interno e le ripetizioni. */
+export function ordinaRipasso(domande: Domanda[], verifiche: Domanda[]): Domanda[] {
+  const prioritarie = new Set(verifiche.map((q) => q.id));
+  if (!prioritarie.size) return domande;
+  const ordinate = [...domande.filter((q) => prioritarie.has(q.id)), ...domande.filter((q) => !prioritarie.has(q.id))];
+  return ordinate.every((q, i) => q === domande[i]) ? domande : ordinate;
+}
+
 /** Scadute (incluse le inverse già provate) + nuove delle lezioni studiate, fino al limite giornaliero. */
 export function ripassoDiOggi(idx: Indice, p: Progresso, now = new Date()) {
   const scadute: Domanda[] = [];
@@ -132,7 +140,9 @@ export function ripassoDiOggi(idx: Indice, p: Progresso, now = new Date()) {
   const incluse = new Set(ordinarie.map((q) => q.id));
   const extra = nuove.filter((q) => verificaOggi.has(q.id) && !incluse.has(q.id));
   const selezionate = [...ordinarie, ...extra];
-  return { scadute, nuove: selezionate, nuoveTotali: nuove.length,
+  // Sono prioritarie solo le verifiche non ancora introdotte: una risposta le riporta al normale ciclo FSRS.
+  const verifiche = selezionate.filter((q) => verificaOggi.has(q.id));
+  return { scadute, nuove: selezionate, verifiche, nuoveTotali: nuove.length,
     nuoveFatteOggi, extraNuove: extra.length, inAttesa: nuove.length - selezionate.length };
 }
 

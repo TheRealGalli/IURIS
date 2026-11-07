@@ -9,12 +9,15 @@ Il sito funziona nel browser, senza account, server applicativo o sincronizzazio
 
 I progressi sono salvati nel browser e rimangono dopo la chiusura della pagina e gli aggiornamenti del sito.
 Ogni browser e dispositivo ha un archivio distinto; chi usa lo stesso profilo del browser condivide l'archivio.
-Da **Backup → Scarica backup completo** puoi conservare un unico file e trasferirlo con **Scegli un backup**.
+Da **Backup → Scarica backup completo** puoi conservare un unico file JSON e trasferirlo con **Carica backup**.
+Il riepilogo mostra per ogni materia le pagine del Percorso studiate, la relativa percentuale e la padronanza, calcolate come nella Home.
 Il file include tutte le materie presenti nell'archivio, anche quelle aggiunte in futuro, progressi e storico, quiz sospesi, preferenze, evidenziazioni, sottolineature, cronologia dei segni e pagine lette negli Originali.
-Prima del ripristino viene mostrato il contenuto del file. Sono compatibili anche i precedenti backup di una materia.
+Prima del ripristino, tramite **Carica backup**, viene mostrato il contenuto del file. Sono compatibili anche i precedenti backup di una materia.
 Per passare dalla versione locale al sito online, scarica il backup dalla prima e importalo nel secondo.
 Lo stesso trasferimento serve passando dal vecchio indirizzo `github.io` a `formaiuris.it`, perché ogni origine ha il proprio archivio.
 Cancellando i dati del sito si eliminano anche i progressi locali.
+
+Nel ripasso del giorno, le verifiche ancora nuove delle lezioni appena studiate precedono le domande in scadenza e le nuove ordinarie. La stessa priorità vale quando si riprende una sessione interrotta, conservando le risposte già date. Restano il limite giornaliero per materia e la riserva fissa di fino a sei domande per nuova lezione.
 
 ## Originali
 

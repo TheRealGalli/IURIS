@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useCorso, type Indice } from '../lib/data';
 import { href, vai } from '../lib/router';
-import { padronanzaDomanda, registraRisposta, ripassoDiOggi, type Voto } from '../lib/srs';
+import { ordinaRipasso, padronanzaDomanda, registraRisposta, ripassoDiOggi, type Voto } from '../lib/srs';
 import { DOMANDE_VERIFICA_INIZIALE, useProgresso, type Progresso } from '../lib/store';
 import { TIPI_DOMANDA, type Domanda, type TipoDomanda } from '../lib/types';
 import { fmtAnno, plurale, shuffle } from '../lib/util';
@@ -27,18 +27,24 @@ function scriviSalvata(slug: string, x: Salvata | null) {
 }
 
 /** Integra le verifiche delle nuove lezioni senza perdere il punto del ripasso in sospeso. */
-export function integraRipasso(salvata: Salvata, disponibili: Domanda[]): Salvata {
+export function integraRipasso(salvata: Salvata, disponibili: Domanda[], verifiche: Domanda[] = []): Salvata {
   if (salvata.s.titolo !== 'Ripasso del giorno') return salvata;
   const presenti = new Set(salvata.coda.map((q) => q.id));
   const aggiunte = disponibili.filter((q) => {
     if (presenti.has(q.id)) return false;
     presenti.add(q.id); return true;
   });
-  return aggiunte.length ? { ...salvata, s: { ...salvata.s, domande: [...salvata.s.domande, ...aggiunte] }, coda: [...salvata.coda, ...aggiunte] } : salvata;
+  const risposte = salvata.coda.slice(0, salvata.i);
+  const giaRisposte = new Set(risposte.map((q) => q.id));
+  const rimanenti = ordinaRipasso([...salvata.coda.slice(salvata.i), ...aggiunte], verifiche.filter((q) => !giaRisposte.has(q.id)));
+  if (!aggiunte.length && rimanenti.every((q, i) => q === salvata.coda[salvata.i + i])) return salvata;
+  return { ...salvata,
+    s: aggiunte.length ? { ...salvata.s, domande: [...salvata.s.domande, ...aggiunte] } : salvata.s,
+    coda: [...risposte, ...rimanenti] };
 }
 
 const MODI: { k: Modo; t: string; d: string; icon: string }[] = [
-  { k: 'ripasso', t: 'Ripasso del giorno', d: 'Le domande in scadenza oggi, cominciando da quelle che sai peggio, più le nuove delle lezioni studiate.', icon: 'allena' },
+  { k: 'ripasso', t: 'Ripasso del giorno', d: 'Prima le verifiche delle lezioni appena studiate, poi le domande in scadenza e le altre nuove.', icon: 'allena' },
   { k: 'libero', t: 'Quiz libero', d: 'Scegli unità, tipi di domanda e quantità.', icon: 'percorso' },
   { k: 'inverse', t: 'Schede inverse', d: 'Dalla definizione al termine del glossario. Quelle che provi tornano poi nel ripasso del giorno.', icon: 'glossario' },
   { k: 'deboli', t: 'Punti deboli', d: 'Solo le domande che hai sbagliato o che stai dimenticando.', icon: 'fiamma' },
@@ -55,15 +61,19 @@ export default function Allena({ query }: { query: URLSearchParams }) {
   const [inSospeso, setInSospeso] = useState<Salvata | null>(null);
   const origine = query.toString();
   const avvia = (s: Sessione | null, da: Salvata | null = null) => { setRipresa(da); setSessione(s); };
+  const riprendi = (salvata: Salvata) => {
+    if (salvata.s.titolo !== 'Ripasso del giorno') return avvia(salvata.s, salvata);
+    const r = ripassoDiOggi(idx, p);
+    const aggiornata = integraRipasso(salvata, [...r.scadute, ...shuffle(r.nuove)], r.verifiche);
+    avvia(aggiornata.s, aggiornata);
+  };
 
   // avvio diretto da link: ?modo=ripasso, ?l=lezione, ?u=unità, ?c=concetto
   useEffect(() => {
     const salvata = leggiSalvata(slug);
     // stessa pagina di prima (per esempio dopo un ricaricamento): si riprende la sessione interrotta
     if (salvata && salvata.origine === origine) {
-      const r = ripassoDiOggi(idx, p);
-      const aggiornata = integraRipasso(salvata, [...r.scadute, ...shuffle(r.nuove)]);
-      avvia(aggiornata.s, aggiornata); return;
+      riprendi(salvata); return;
     }
     setInSospeso(salvata);
     setRipresa(null);
@@ -98,7 +108,7 @@ export default function Allena({ query }: { query: URLSearchParams }) {
           <div className="card-flat row-between" style={{ gap: 12, background: 'var(--gold-soft)' }}>
             <span className="small"><b>Sessione interrotta:</b> {inSospeso.s.titolo}, domanda {inSospeso.i + 1} di {inSospeso.coda.length}</span>
             <span className="row" style={{ gap: 6 }}>
-              <button className="btn btn-sm btn-primary" onClick={() => avvia(inSospeso.s, inSospeso)}>Riprendi</button>
+              <button className="btn btn-sm btn-primary" onClick={() => riprendi(inSospeso)}>Riprendi</button>
               <button className="btn btn-sm btn-ghost" onClick={() => { scriviSalvata(slug, null); setInSospeso(null); }}>Lascia perdere</button>
             </span>
           </div>
@@ -109,10 +119,10 @@ export default function Allena({ query }: { query: URLSearchParams }) {
   );
 }
 
-function sessioneRipasso(idx: Indice, p: Progresso): Sessione {
-  const r = ripassoDiOggi(idx, p);
-  // le scadute prima, le nuove mescolate per lezione
-  return { titolo: 'Ripasso del giorno', domande: [...r.scadute, ...shuffle(r.nuove)], registra: true };
+export function sessioneRipasso(idx: Indice, p: Progresso, now = new Date()): Sessione {
+  const r = ripassoDiOggi(idx, p, now);
+  // Le verifiche precedono le scadute; il resto conserva l'ordine e le nuove sono mescolate.
+  return { titolo: 'Ripasso del giorno', domande: ordinaRipasso([...r.scadute, ...shuffle(r.nuove)], r.verifiche), registra: true };
 }
 
 function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale: Modo }) {
@@ -204,7 +214,7 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
       {modo === 'ripasso' && (
         <div className="card-flat small" style={{ marginBottom: 16 }}>
           <b>{p.nuovePerGiorno} nuove al giorno per questa materia.</b> I ripassi in scadenza si aggiungono senza questo limite.
-          <div className="muted" style={{ marginTop: 5 }}>Ogni lezione appena studiata può aggiungere fino a {DOMANDE_VERIFICA_INIZIALE} domande di verifica, anche a limite raggiunto.
+          <div className="muted" style={{ marginTop: 5 }}>Ogni lezione appena studiata può aggiungere fino a {DOMANDE_VERIFICA_INIZIALE} domande di verifica, proposte per prime anche a limite raggiunto.
             {rip.extraNuove > 0 && ` Oggi ce ne sono ${rip.extraNuove} in più.`}
           </div>
           {rip.inAttesa > 0 && <div className="muted" style={{ marginTop: 5 }}>{rip.inAttesa} nuove restano da introdurre nei prossimi giorni. Puoi anticiparle con «Quiz libero» o «Quiz su questa lezione».</div>}

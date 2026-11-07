@@ -31,9 +31,9 @@ try {
     optimizeDeps: { noDiscovery: true },
   });
   const store = await server.ssrLoadModule('/src/lib/store.ts');
-  const { registraRisposta, ripassoDiOggi, Rating } = await server.ssrLoadModule('/src/lib/srs.ts');
+  const { ordinaRipasso, registraRisposta, ripassoDiOggi, Rating } = await server.ssrLoadModule('/src/lib/srs.ts');
   const { indicizza } = await server.ssrLoadModule('/src/lib/data.ts');
-  const { integraRipasso } = await server.ssrLoadModule('/src/views/Allena.tsx');
+  const { integraRipasso, sessioneRipasso } = await server.ssrLoadModule('/src/views/Allena.tsx');
   const now = new Date('2026-11-06T12:00:00+01:00');
   const yesterday = new Date('2026-11-05T12:00:00+01:00');
   const tomorrow = new Date('2026-11-07T12:00:00+01:00');
@@ -84,6 +84,7 @@ try {
     p = f.plan();
     assert.equal(p.nuove.length, 31);
     assert.equal(p.extraNuove, 6);
+    assert.equal(p.verifiche.length, 18, 'le verifiche hanno priorità anche quando sono già incluse nelle 25 ordinarie');
     assert.equal(p.inAttesa, 14);
     assert.deepEqual(ids(p.nuove.filter((q) => q.lezione === 'l3')), ids(f.questions(2).slice(0, 6)));
     assert.deepEqual(f.read().lezioni.l3.verificaIniziale.domande, ids(f.questions(2).slice(0, 6)));
@@ -105,6 +106,7 @@ try {
     assert.equal(after.nuoveFatteOggi, 31);
     assert.equal(after.nuove.length, 0, 'la riserva non deve scorrere alle successive sei');
     assert.equal(after.extraNuove, 0);
+    assert.equal(after.verifiche.length, 0);
     assert.equal(after.inAttesa, 9);
     noDuplicates(after);
   });
@@ -156,6 +158,7 @@ try {
     assert.equal(p.nuoveFatteOggi, 0);
     assert.equal(p.nuove.length, 25);
     assert.equal(p.extraNuove, 0);
+    assert.equal(p.verifiche.length, 0, 'la priorità della verifica scade con il giorno locale');
     assert.equal(p.inAttesa, 20);
     noDuplicates(p);
   });
@@ -241,6 +244,113 @@ try {
     for (const title of ['Quiz libero', 'Schede inverse', 'Simulazione d\'orale']) {
       const other = { ...saved, s: { ...saved.s, titolo: title } };
       assert.strictEqual(integraRipasso(other, [d, e]), other, 'gli altri tipi di sessione restano invariati');
+    }
+  });
+
+  check('La sessione nuova propone le verifiche prima di tutte le scadute e delle nuove ordinarie', () => {
+    const f = fixture([40, 15, 8], 1);
+    f.mark(0, yesterday);
+    f.questions(0).slice(0, 10).forEach((q) => f.answer(q, yesterday));
+    f.answer(f.idx.schedeInverse[0], yesterday);
+    store.aggiorna(f.slug, (p) => { for (const c of Object.values(p.carte)) c.due = yesterday.toISOString(); });
+    f.mark(1); f.mark(2);
+    const plan = f.plan();
+    assert.equal(plan.verifiche.length, 12);
+    assert.equal(plan.extraNuove, 12, 'le verifiche restano extra quando le ordinarie sono delle lezioni precedenti');
+    const session = sessioneRipasso(f.idx, f.read(), now);
+    const verificationIds = new Set(ids(plan.verifiche));
+    assert.deepEqual(new Set(ids(session.domande.slice(0, 12))), verificationIds);
+    assert(session.domande.slice(12).every((q) => !verificationIds.has(q.id)));
+    assert.deepEqual(ids(session.domande.slice(12, 12 + plan.scadute.length)), ids(plan.scadute), 'nessun rimescolamento dei ripassi FSRS');
+    assert.equal(session.domande.length, plan.scadute.length + plan.nuove.length);
+    assert.equal(new Set(ids(session.domande)).size, session.domande.length);
+    assert(session.domande.some((q) => q.inversa), 'le inverse già introdotte rimangono fra le scadute');
+  });
+
+  check('Ordinamento stabile, con verifiche già nelle 25 e ripetizioni lasciate al loro posto relativo', () => {
+    const f = fixture([8, 8]);
+    f.mark(0, yesterday); f.mark(1);
+    const plan = f.plan(), verificationIds = new Set(ids(plan.verifiche));
+    assert.equal(plan.extraNuove, 0);
+    assert.equal(plan.verifiche.length, 6);
+    const [a, b] = f.questions(0), [c, d] = plan.verifiche;
+    const input = [a, c, b, d, a];
+    const ordered = ordinaRipasso(input, plan.verifiche);
+    assert.deepEqual(ids(ordered), [c.id, d.id, a.id, b.id, a.id]);
+    assert.deepEqual(ids(input), [a.id, c.id, b.id, d.id, a.id]);
+    assert.strictEqual(ordinaRipasso(ordered, plan.verifiche), ordered);
+    assert.strictEqual(ordinaRipasso(input, []), input);
+    const session = sessioneRipasso(f.idx, f.read(), now);
+    assert(session.domande.slice(0, 6).every((q) => verificationIds.has(q.id)));
+  });
+
+  check('Ripresa dopo una nuova lezione: verifiche davanti alla coda, prefisso e ripetizioni conservati', () => {
+    const f = fixture([8, 8]);
+    f.mark(0, yesterday);
+    const [a, b, c] = f.questions(0);
+    registraRisposta(f.slug, a.id, Rating.Again, now);
+    const saved = { origine: 'modo=ripasso', s: { titolo: 'Ripasso del giorno', domande: [a, b, c], registra: true },
+      coda: [a, b, c, a], i: 1, voti: [Rating.Again], quando: now.toISOString() };
+    const before = structuredClone(saved);
+    f.mark(1);
+    const plan = f.plan();
+    const resumed = integraRipasso(saved, [...plan.scadute, ...plan.nuove, plan.verifiche[0]], plan.verifiche);
+    assert.equal(resumed.i, saved.i); assert.strictEqual(resumed.voti, saved.voti);
+    assert.strictEqual(resumed.coda[0], saved.coda[0]);
+    assert.deepEqual(ids(resumed.coda.slice(resumed.i, resumed.i + 6)), ids(plan.verifiche));
+    assert.deepEqual(ids(resumed.coda.slice(resumed.i + 6, resumed.i + 9)), [b.id, c.id, a.id]);
+    assert.equal(resumed.coda.filter((q) => q.id === a.id).length, 2, 'la ripetizione già prevista rimane');
+    assert(resumed.s.domande.every((q, i) => i >= saved.s.domande.length || q === saved.s.domande[i]));
+    assert.equal(new Set(ids(resumed.s.domande)).size, resumed.s.domande.length);
+    assert.deepEqual(saved, before, 'il salvataggio originale non viene mutato');
+    assert.strictEqual(integraRipasso(resumed, [...plan.scadute, ...plan.nuove], plan.verifiche), resumed);
+  });
+
+  check('Le verifiche già presenti in fondo risalgono anche senza nuove aggiunte', () => {
+    const f = fixture([8]);
+    const [a, b, c, d] = f.questions(0);
+    const saved = { origine: 'modo=ripasso', s: { titolo: 'Ripasso del giorno', domande: [a, b, c, d], registra: true },
+      coda: [a, b, c, d, a], i: 1, voti: [Rating.Again], quando: now.toISOString() };
+    const resumed = integraRipasso(saved, [a, b, c, d], [d, c]);
+    assert.deepEqual(ids(resumed.coda), [a.id, c.id, d.id, b.id, a.id]);
+    assert.strictEqual(resumed.s, saved.s); assert.strictEqual(resumed.voti, saved.voti);
+    assert.equal(resumed.i, 1);
+    assert.strictEqual(integraRipasso(resumed, [d, c], [d, c]), resumed);
+  });
+
+  check('Una carta già introdotta non riceve più la priorità della verifica', () => {
+    const f = fixture([8]);
+    f.mark(0);
+    const first = f.plan().verifiche[0];
+    f.answer(first);
+    store.aggiorna(f.slug, (p) => { p.carte[first.id].due = yesterday.toISOString(); });
+    const plan = f.plan();
+    assert.equal(plan.verifiche.length, 5, 'la riserva non scorre a una settima domanda');
+    assert(!ids(plan.verifiche).includes(first.id));
+    assert(ids(plan.scadute).includes(first.id));
+    const session = sessioneRipasso(f.idx, f.read(), now);
+    assert.equal(session.domande[5].id, first.id, 'la carta introdotta torna fra i ripassi, dopo le verifiche ancora nuove');
+    const saved = { origine: 'modo=ripasso', s: { titolo: 'Ripasso del giorno', domande: [first, ...plan.verifiche], registra: true },
+      coda: [first, ...plan.verifiche, first], i: 1, voti: [Rating.Again], quando: now.toISOString() };
+    const resumed = integraRipasso(saved, plan.verifiche, [first, ...plan.verifiche]);
+    assert.strictEqual(resumed, saved, 'anche una priorità errata non deve anticipare la ripetizione di una risposta nel prefisso');
+  });
+
+  check('La priorità segue il giorno locale anche intorno alla mezzanotte', () => {
+    const f = fixture([8]);
+    const midnight = new Date('2026-11-05T23:30:00Z');
+    f.mark(0, midnight);
+    assert.equal(f.plan().verifiche.length, 6);
+    assert.equal(f.plan(tomorrow).verifiche.length, 0);
+  });
+
+  check('Le altre sessioni restano identiche anche se vengono passate verifiche prioritarie', () => {
+    const f = fixture([4]);
+    const [a, b, c, d] = f.questions(0);
+    for (const title of ['Quiz libero', 'Schede inverse', 'Punti deboli', 'Sfida cronologica', 'Simulazione d\'orale']) {
+      const saved = { origine: '', s: { titolo: title, domande: [a, b, c], registra: true },
+        coda: [a, b, c, a], i: 1, voti: [Rating.Again], quando: now.toISOString() };
+      assert.strictEqual(integraRipasso(saved, [d], [c, d]), saved);
     }
   });
 
