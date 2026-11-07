@@ -51,6 +51,8 @@ export default function App() {
 }
 
 function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInfo }) {
+  const rotta = useRotta();
+  const lettore = rotta.parti[0] === 'originali';
   const [idx, setIdx] = useState<Indice | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [palette, setPalette] = useState(false);
@@ -78,7 +80,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
   else contenuto = <Rotte />;
 
   const body = (
-    <div className="shell">
+    <div className={`shell${lettore ? ' shell-reader' : ''}`}>
       <aside className="side">
         <a className="brand" href={href('/')}>
           <span className="brand-mark">I</span>
@@ -104,7 +106,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
         </div>
       </aside>
 
-      <div style={{ flex: 1, minWidth: 0 }}>
+      <div className={lettore ? 'shell-reader-content' : undefined} style={{ flex: 1, minWidth: 0 }}>
         <header className="topbar">
           <span className="brand-mark" style={{ width: 28, height: 28, fontSize: 15 }}>I</span>
           <span className="brand-name">IURIS</span>
@@ -113,7 +115,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
             {manifest.materie.map((m) => <option key={m.slug} value={m.slug}>{m.breve ?? m.nome}</option>)}
           </select>
         </header>
-        <main className="main">{contenuto}</main>
+        <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
       </div>
       {idx && <TabBar />}
       {palette && idx && <Palette onClose={() => setPalette(false)} />}

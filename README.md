@@ -19,6 +19,8 @@ Cancellando i dati del sito si eliminano anche i progressi locali.
 
 La sezione raccoglie i quattro PDF di appunti e riassunti usati come fonti del Percorso.
 Il lettore permette di scorrerli, cambiare zoom, riprendere dall'ultima pagina e segnare il testo.
+Il documento occupa la sezione sotto una barra compatta; il selettore permette di passare dalla larghezza di lettura alla pagina intera.
+I segni si aprono dal pulsante **Segni**. Dal menu **Documento, download e backup** si può salvare una copia dei dati senza uscire dal lettore.
 I PDF di partenza rimangono invariati; i segni sono personali e salvati con i progressi della materia.
 Il file scaricato dal lettore è il PDF originale, senza i segni personali: questi sono nel backup dei progressi.
 
