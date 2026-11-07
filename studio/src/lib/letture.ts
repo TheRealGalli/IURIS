@@ -86,11 +86,11 @@ function occorrenze(testo: string, citazione: string): { inizio: number; fine: n
 }
 
 /**
- * Ricerca tollerante all'impaginazione: ignora spazi, a capo, segni di elenco (- – • > →) e i numeri
+ * Ricerca tollerante all'impaginazione: ignora spazi, a capo, segni di elenco e frecce (- – — • > →) e i numeri
  * delle voci («4- », «5. », «b) »), che una revisione può trasformare in un vero elenco (il numero esce
  * dal testo e diventa il segno della voce) senza cambiare le parole.
  */
-const SEGNI_IMPAGINAZIONE = /[\s\-–•>→]/u;
+const SEGNI_IMPAGINAZIONE = /[\s\-–—•>→]/u;
 const NUMERO_VOCE = /(^|[\s(])(?:\d{1,2}|[a-z])[-–.)°](?=\s|$)/gu;
 function compatta(testo: string): { car: string[]; pos: number[] } {
   const salta = new Set<number>();

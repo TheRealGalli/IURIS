@@ -627,6 +627,33 @@
     "p099-b004": {
       "baseSha256": "7fff16323681972462d97ed4151ba94f4146d9fc9eb03fa61fbd0d46295762f4",
       "notaRevisione": "La «hybris di principi» attribuita a Deleuze resta oscura negli appunti."
+    },
+    "p050-b008": {
+      "baseSha256": "2804797373d07453eaef3f937dfa0cd29ad4dbf579fdbc04dec2d0cddbb1aeac",
+      "sostituzioni": [
+        {
+          "da": "nuvolette di ghiaccio ,",
+          "a": "nuvolette di ghiaccio,"
+        }
+      ]
+    },
+    "p054-b007": {
+      "baseSha256": "6baecd56d2fb2aa11a2f5aaee3519c4b96375d78e0c4d30071d6e7c646a219b2",
+      "sostituzioni": [
+        {
+          "da": "a una legge essenziale .",
+          "a": "a una legge essenziale."
+        }
+      ]
+    },
+    "p035-b003": {
+      "baseSha256": "931af51bfd44ef88b0610923fa2009423da127aa4a4f769533a81c6705a400b5",
+      "sostituzioni": [
+        {
+          "da": "disporre di Op .",
+          "a": "disporre di Op."
+        }
+      ]
     }
   },
   "filosofia-moro-v1": {
@@ -1249,6 +1276,14 @@
         {
           "da": "una proporzionalità sei si vuol",
           "a": "una proporzionalità se si vuol"
+        },
+        {
+          "da": "non vi è propor zione fra somma",
+          "a": "non vi è proporzione fra somma"
+        },
+        {
+          "da": "non vi è propor zione fra gravità",
+          "a": "non vi è proporzione fra gravità"
         }
       ]
     },
@@ -1843,6 +1878,10 @@
           "da": "s i",
           "a": "si",
           "tutte": true
+        },
+        {
+          "da": "(onto=essere -fenomenologia= studio",
+          "a": "(onto = essere - fenomenologia = studio"
         }
       ]
     },
@@ -2114,6 +2153,10 @@
         {
           "da": "confor marsi",
           "a": "conformarsi"
+        },
+        {
+          "da": "empirico- fattuale",
+          "a": "empirico-fattuale"
         }
       ]
     },
@@ -2982,6 +3025,18 @@
           "da": "impressionismo legislativo",
           "a": "astensionismo legislativo",
           "tutte": true
+        },
+        {
+          "da": "che sono poi due facce della stessa medaglia. Il ricorso alla",
+          "a": "che sono poi due facce della stessa medaglia.\n\n   Il ricorso alla"
+        },
+        {
+          "da": "La mentalità tradizionalistica intrinseca della società romana, ha delle\n3. Le XII tavole e ripercussioni",
+          "a": "### 3. Le XII tavole e “l’immagine dell’antico”\n\nLa mentalità tradizionalistica intrinseca della società romana, ha delle ripercussioni"
+        },
+        {
+          "da": "i cui settori “l’immagine dell’antico” fondamentali",
+          "a": "i cui settori fondamentali"
         }
       ],
       "notaRevisione": "Negli appunti «impressionismo legislativo»: quasi certamente un errore di trascrizione per «astensionismo»."
@@ -3283,6 +3338,14 @@
         {
           "da": "tituzioni imperiali. > Altri organi capac",
           "a": "tituzioni imperiali.\n\n> Altri organi capac"
+        },
+        {
+          "da": "so di tutto il regno di Augusto (fino a 238). E nonostante ci",
+          "a": "so di tutto il regno di Augusto (fino a 238).\n\n  E nonostante ci"
+        },
+        {
+          "da": "to contenevano linee generali della politica. Dopo Augusto ve",
+          "a": "to contenevano linee generali della politica.\n\n  Dopo Augusto ve"
         }
       ]
     },
@@ -3309,6 +3372,10 @@
         {
           "da": "ortunismo imperiale: > Un esempio ne è Tr",
           "a": "ortunismo imperiale:\n\n> Un esempio ne è Tr"
+        },
+        {
+          "da": "innovando l’ordinamento) - Nel richiamo",
+          "a": "innovando l’ordinamento)\n- Nel richiamo"
         }
       ]
     },
@@ -3319,6 +3386,10 @@
           "da": "manomissio",
           "a": "manumissio",
           "tutte": true
+        },
+        {
+          "da": "6- Sesta parte comprende i libri 37-44 Dei quali: 37°- 38° relativi a Bonorum possessio e successione intestata; 39° relativo alla denuncia di nuova opera, danno temuto, actio aquae pluviae arcendae, pubblicani e donazioni; 40° relativo a manumissioni e processo di libertà; 41° relativo all’acquisto della proprietà e del possesso; 42° relativo alla cosa giudicata e l’esecuzione; 43° relativo agli interdetti; 44° relativo alle eccezioni. 7- Settima parte comprende i libri 45-50 Dei quali: 45° relativo alle obbligazioni verbali; 46° relativo a fideiussione, mandato di credito, estinzione delle obbligazioni, novazioni e stipulazioni pretorie; 47°-48° detti anche “terribiles libri” racchiudevano il diritto penale; 49° relativo all’appello; Ed infine il 50° relativo all’amministrazione delle città, opere pubbliche e mercati, pollicitationes, varie forme di cognizione, tributi, ed il significato delle parole e delle regole del diritto antico.",
+          "a": "6. Sesta parte comprende i libri 37-44 Dei quali: 37°- 38° relativi a Bonorum possessio e successione intestata; 39° relativo alla denuncia di nuova opera, danno temuto, actio aquae pluviae arcendae, pubblicani e donazioni; 40° relativo a manumissioni e processo di libertà; 41° relativo all’acquisto della proprietà e del possesso; 42° relativo alla cosa giudicata e l’esecuzione; 43° relativo agli interdetti; 44° relativo alle eccezioni.\n7. Settima parte comprende i libri 45-50 Dei quali: 45° relativo alle obbligazioni verbali; 46° relativo a fideiussione, mandato di credito, estinzione delle obbligazioni, novazioni e stipulazioni pretorie; 47°-48° detti anche “terribiles libri” racchiudevano il diritto penale; 49° relativo all’appello; Ed infine il 50° relativo all’amministrazione delle città, opere pubbliche e mercati, pollicitationes, varie forme di cognizione, tributi, ed il significato delle parole e delle regole del diritto antico."
         }
       ]
     },
@@ -3333,6 +3404,18 @@
         {
           "da": "stamentario. Esempi: > Mancipatio familia",
           "a": "stamentario. Esempi:\n\n> Mancipatio familia"
+        },
+        {
+          "da": "interpretazione pontificale: - Emancipatio :",
+          "a": "interpretazione pontificale:\n- Emancipatio:"
+        },
+        {
+          "da": "intenzionalmente e benevolmente. - In iure cessio :",
+          "a": "intenzionalmente e benevolmente.\n- In iure cessio:"
+        },
+        {
+          "da": "(in quanto potere personale). - Mancipatio :",
+          "a": "(in quanto potere personale).\n- Mancipatio:"
         }
       ]
     },
@@ -3409,6 +3492,11 @@
         {
           "da": "Precisazione: differenza tra diritto pubblico e diritto privato nel mono romano Nel diritto romano s",
           "a": "#### Precisazione: differenza tra diritto pubblico e diritto privato nel mono romano\n\nNel diritto romano s"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ],
       "notaRevisione": "Rimosso l'inciso «(lo dice Questa)», non chiaro negli appunti."
@@ -3507,6 +3595,14 @@
         {
           "da": "ò venivano definite: - cum imperio\n\n- sin",
           "a": "ò venivano definite:\n\n- cum imperio\n\n- sin"
+        },
+        {
+          "da": "estremamente importante. Magistrature cum imperio Possono essere\n\n- Ordinarie\n\n- Straordinarie 1- Ordinarie Le magistrature ordinarie",
+          "a": "estremamente importante.\n\n#### Magistrature cum imperio\n\nPossono essere:\n\n- Ordinarie\n\n- Straordinarie\n\n#### 1. Ordinarie\n\nLe magistrature ordinarie"
+        },
+        {
+          "da": "anche stranieri. 2- Straordinarie Le magistrature straordinarie",
+          "a": "anche stranieri.\n\n#### 2. Straordinarie\n\nLe magistrature straordinarie"
         }
       ],
       "notaRevisione": "Negli appunti «decemviri latini»."
@@ -3527,6 +3623,10 @@
         {
           "da": "ormativi importanti; - Circa nel II secol",
           "a": "ormativi importanti;\n\n- Circa nel II secol"
+        },
+        {
+          "da": "medesimo oggetto. - All’età augustea",
+          "a": "medesimo oggetto.\n- All’età augustea"
         }
       ]
     },
@@ -3585,6 +3685,11 @@
         {
           "da": "Fisionomia del giurista (o giureconsulto) repubblicano laico Aldilà di quelle per",
           "a": "#### Fisionomia del giurista (o giureconsulto) repubblicano laico\n\nAldilà di quelle per"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -3801,6 +3906,22 @@
         {
           "da": "ede il contrapporsi: - Di un atteggiament",
           "a": "ede il contrapporsi:\n\n- Di un atteggiament"
+        },
+        {
+          "da": "2- Un’altra chiave di lettura vede il contrapporsi:",
+          "a": "2. Un’altra chiave di lettura vede il contrapporsi:"
+        },
+        {
+          "da": "> Anche questo però è riduttivo; seppur vero che i sabiniani si rifanno particolarmente alla tradizione, a qualcosa che è già permeato, allo stesso tempo si rifanno al nuovo, così come i proculiani si rifanno più all’innovazione, ma con la consapevolezza della tradizione. 3- Un’altra chiave di lettura vede una contrapposizione sul piano logico-grammaticale e sul linguaggio: Vediamo da una parte: - Gli analogisti: più conservatori e poco inclini ai neologismi",
+          "a": "> Anche questo però è riduttivo; seppur vero che i sabiniani si rifanno particolarmente alla tradizione, a qualcosa che è già permeato, allo stesso tempo si rifanno al nuovo, così come i proculiani si rifanno più all’innovazione, ma con la consapevolezza della tradizione.\n\n3. Un’altra chiave di lettura vede una contrapposizione sul piano logico-grammaticale e sul linguaggio: Vediamo da una parte: - Gli analogisti: più conservatori e poco inclini ai neologismi"
+        },
+        {
+          "da": "- I proculiani, invece, si concentrano sulla compravendita cioè ritengono che nella permuta, mancando il prezzo in denaro, non è possibile vedere una compravendita in quanto non si potrebbe stabilire quale cosa sia venduta e quale valga come prezzo, e allo stesso modo sarebbe assurdo considerarle entrambe l'una e l'altra cosa (cioè sia oggetto sia prezzo). Questo orientamento che coglie una differenza tra la compravendita e la permuta, poi neanche la premessa per stabilire un eventuale analogia fra due tipi, tanto che Aristone, indipendentemente dalla sua simpatia scolastica, afferma che la permuta e “vicina alla compravendita”. 4- Potremmo inserire anche quella chiave di lettura politica della contrapposizione che vede:",
+          "a": "- I proculiani, invece, si concentrano sulla compravendita cioè ritengono che nella permuta, mancando il prezzo in denaro, non è possibile vedere una compravendita in quanto non si potrebbe stabilire quale cosa sia venduta e quale valga come prezzo, e allo stesso modo sarebbe assurdo considerarle entrambe l'una e l'altra cosa (cioè sia oggetto sia prezzo). Questo orientamento che coglie una differenza tra la compravendita e la permuta, poi neanche la premessa per stabilire un eventuale analogia fra due tipi, tanto che Aristone, indipendentemente dalla sua simpatia scolastica, afferma che la permuta e “vicina alla compravendita”.\n\n4. Potremmo inserire anche quella chiave di lettura politica della contrapposizione che vede:"
+        },
+        {
+          "da": "Vediamo da una parte: - Gli analogisti",
+          "a": "Vediamo da una parte:\n- Gli analogisti"
         }
       ]
     },
@@ -3896,6 +4017,10 @@
         {
           "da": "Sabino Lo abbiamo incontrat",
           "a": "#### Sabino\n\nLo abbiamo incontrat"
+        },
+        {
+          "da": "Distinse 4 grandi settori: 1- Diritto ereditario (testamenti e legati) 2- Diritto delle persone 3- Diritto delle obbligazioni 4- Diritto delle cose",
+          "a": "Distinse 4 grandi settori:\n1. Diritto ereditario (testamenti e legati)\n2. Diritto delle persone\n3. Diritto delle obbligazioni\n4. Diritto delle cose"
         }
       ]
     },
@@ -4052,6 +4177,26 @@
         {
           "da": "dell’età dei Severi. > Definitiones Papin",
           "a": "dell’età dei Severi.\n\n> Definitiones Papin"
+        },
+        {
+          "da": "carattere monografico: - Fedecommesso→",
+          "a": "carattere monografico:\n- Fedecommesso→"
+        },
+        {
+          "da": "eicommissis. - Stipulazione→",
+          "a": "eicommissis.\n- Stipulazione→"
+        },
+        {
+          "da": " (19 libri). - Diritto ipotecario→",
+          "a": " (19 libri).\n- Diritto ipotecario→"
+        },
+        {
+          "da": "ciano, Paolo - Matrimonio→",
+          "a": "ciano, Paolo\n- Matrimonio→"
+        },
+        {
+          "da": " nuptiarum ) - Dote→",
+          "a": " nuptiarum )\n- Dote→"
         }
       ]
     },
@@ -4277,6 +4422,10 @@
         {
           "da": "e anime del diritto: - Se consideriamo Te",
           "a": "e anime del diritto:\n\n- Se consideriamo Te"
+        },
+        {
+          "da": "in questa commissione sono: - Giovanni",
+          "a": "in questa commissione sono:\n- Giovanni"
         }
       ]
     },
@@ -4455,6 +4604,10 @@
         {
           "da": "oniensis (o Vulgata) > Al contrario di qu",
           "a": "oniensis (o Vulgata)\n\n> Al contrario di qu"
+        },
+        {
+          "da": "(o Vulgata). - Tra la fine",
+          "a": "(o Vulgata).\n- Tra la fine"
         }
       ],
       "notaRevisione": "Negli appunti «tra XI e XII secolo»: i Glossatori operano dalla fine dell’XI alla metà del XIII secolo."
@@ -4486,6 +4639,11 @@
         {
           "da": "olo da Sassoferrato. > Quest’evoluzione è",
           "a": "olo da Sassoferrato.\n\n> Quest’evoluzione è"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ],
       "notaRevisione": "Negli appunti «tra XIII e IV secolo»: i Commentatori operano nel XIV–XV secolo."
@@ -4525,6 +4683,18 @@
         {
           "da": " la trasformazionie; > Per cui manifesta ",
           "a": " la trasformazionie;\n\n> Per cui manifesta "
+        },
+        {
+          "da": "> Per cui manifesta il suo essere nostalgico dei confronti della libertas repubblicana. Si pone infatti in polemica antigovernativa, condotta sul filo di un esasperato tradizionalismo, addirittura rifiuta di diventare console sotto proposta di Augusto stesso; non si rassegnava al potere assoluto del principe, era estremamente legato alle modalità di svolgimento dell’attività giurisprudenziale repubblicana. Un suo contemporaneo, Ateio Capitone (che tra l’altro, al contrario, era sostenitore del principe) dice di lui che fosse invaso dall'idea folle e smisurata della libertà . È possibile riconoscere in Labeone anche degli aspetti innovativi: 1- Pomponio nel suo Enchiridion, (opera che ripercorre la storia della giurisprudenza) oltre che di Mucio Scevola (atteggiamento oracolare), si occupò anche di Labeone, e ne rimarcò il rifiuto del consolato, e disse che aveva organizzato la sua attività durante l’anno in due parti:",
+          "a": "> Per cui manifesta il suo essere nostalgico dei confronti della libertas repubblicana. Si pone infatti in polemica antigovernativa, condotta sul filo di un esasperato tradizionalismo, addirittura rifiuta di diventare console sotto proposta di Augusto stesso; non si rassegnava al potere assoluto del principe, era estremamente legato alle modalità di svolgimento dell’attività giurisprudenziale repubblicana. Un suo contemporaneo, Ateio Capitone (che tra l’altro, al contrario, era sostenitore del principe) dice di lui che fosse invaso dall'idea folle e smisurata della libertà . È possibile riconoscere in Labeone anche degli aspetti innovativi:\n1. Pomponio nel suo Enchiridion, (opera che ripercorre la storia della giurisprudenza) oltre che di Mucio Scevola (atteggiamento oracolare), si occupò anche di Labeone, e ne rimarcò il rifiuto del consolato, e disse che aveva organizzato la sua attività durante l’anno in due parti:"
+        },
+        {
+          "da": "> Questo lavoro intellettuale stava quindi iniziando a manifestare la sua autonomia, specialistica, vissuta spesso in alternativa l’impiego politico: 2- È ancora in Labeone che vediamo l’aspetto della dedizione agli studi, venne intrapresa proprio come atteggiamento di discostamento\\ rifiuto politico come occasione di rifondare la giurisprudenza come scientia, in grado di creare nuovi contenuti normativi che permettano al ius (al diritto), di crescere, anche al di fuori del sistema politico: e questa é un’affermazione innovativa dell’autonomia della giurisprudenza rispetto al potere politico.",
+          "a": "> Questo lavoro intellettuale stava quindi iniziando a manifestare la sua autonomia, specialistica, vissuta spesso in alternativa l’impiego politico:\n\n2. È ancora in Labeone che vediamo l’aspetto della dedizione agli studi, venne intrapresa proprio come atteggiamento di discostamento\\ rifiuto politico come occasione di rifondare la giurisprudenza come scientia, in grado di creare nuovi contenuti normativi che permettano al ius (al diritto), di crescere, anche al di fuori del sistema politico: e questa é un’affermazione innovativa dell’autonomia della giurisprudenza rispetto al potere politico."
+        },
+        {
+          "da": "- Vi sono una serie di giuristi che non vi si uniscono alla figura del principe, ma che comunque continuano la propria attività senza alcuna censura da parte del principe. E quindi hanno libertà di espressione (e di pensiero ovviamente. (Altrimenti, senza libertà di espressione non si spiegherebbe l’enorme sviluppo culturale dell’età classica). 3- Pomponio, su Labeone, dice proprio “Plurima innovare instituit”: e cioè fu l’autore di un grandissimo rinnovamento; il che non ci deve sorprendere alla luce del suo essere conservatore, in quanto ci stiamo proiettando in una dimensione in cui il sapere giuridico è più autonomo.",
+          "a": "- Vi sono una serie di giuristi che non vi si uniscono alla figura del principe, ma che comunque continuano la propria attività senza alcuna censura da parte del principe. E quindi hanno libertà di espressione (e di pensiero ovviamente. (Altrimenti, senza libertà di espressione non si spiegherebbe l’enorme sviluppo culturale dell’età classica).\n\n3. Pomponio, su Labeone, dice proprio “Plurima innovare instituit”: e cioè fu l’autore di un grandissimo rinnovamento; il che non ci deve sorprendere alla luce del suo essere conservatore, in quanto ci stiamo proiettando in una dimensione in cui il sapere giuridico è più autonomo."
         }
       ]
     },
@@ -4562,6 +4732,14 @@
         {
           "da": "averunt ius civile”: - Manio Manilio\n\n- G",
           "a": "averunt ius civile”:\n\n- Manio Manilio\n\n- G"
+        },
+        {
+          "da": "2- II a.C Il passaggio",
+          "a": "#### 2. II a.C.\n\nIl passaggio"
+        },
+        {
+          "da": "lancia (un’altro è ad esempio la mancipatio). In sintesi quin",
+          "a": "lancia (un’altro è ad esempio la mancipatio).\n\nIn sintesi quin"
         }
       ],
       "notaRevisione": "Negli appunti «Tito Livio»: chi porta a livelli più elevati la diairesis è Quinto Mucio."
@@ -4694,6 +4872,26 @@
         {
           "da": "ione alle 12 tavole. È possibile indagare le 12 tavole sotto molteplici profili:\n\n- Nei contenuti: e",
           "a": "ione alle 12 tavole.\n\n**È possibile indagare le 12 tavole sotto molteplici profili:**\n\n\n\n- Nei contenuti: e"
+        },
+        {
+          "da": "i gesti ed in cui non conta l'interno volere. Infatti le 12 t",
+          "a": "i gesti ed in cui non conta l'interno volere.\n\n  Infatti le 12 t"
+        },
+        {
+          "da": " come giuridici nella coscienza degli uomini. Ma dobbiamo com",
+          "a": " come giuridici nella coscienza degli uomini.\n\n  Ma dobbiamo com"
+        },
+        {
+          "da": "1. Da Panezio a Cicerone\n\n",
+          "a": "### 1. Da Panezio a Cicerone: “parecchi sono i gradi della società umana”\n\n"
+        },
+        {
+          "da": "il pensiero deve “parecchi sono i gradi della correre subito",
+          "a": "il pensiero deve correre subito"
+        },
+        {
+          "da": "le “leggi per società umana” eccellenza”",
+          "a": "le “leggi per eccellenza”"
         }
       ],
       "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
@@ -4704,6 +4902,18 @@
         {
           "da": "6. L’ “evidenza sensibile” Abbiamo visto",
           "a": "### 6. L’ “evidenza sensibile”\n\nAbbiamo visto"
+        },
+        {
+          "da": "### 6. L’ “evidenza sensibile”",
+          "a": "### 6. L’ “evidenza sensibile” delle forme: autonomia privata e processo"
+        },
+        {
+          "da": "sia agli atti di delle forme: autonomia autonomia privata",
+          "a": "sia agli atti di autonomia privata"
+        },
+        {
+          "da": "dimenticare privata e processo che, proprio",
+          "a": "dimenticare che, proprio"
         }
       ],
       "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
@@ -4714,6 +4924,10 @@
         {
           "da": "1. Contadini e mercanti Fra III e II",
           "a": "### 1. Contadini e mercanti\n\nFra III e II"
+        },
+        {
+          "da": "za anche nuove attività negoziali economiche. Il Mediterraneo",
+          "a": "za anche nuove attività negoziali economiche.\n\nIl Mediterraneo"
         }
       ],
       "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
@@ -4768,6 +4982,10 @@
         {
           "da": "vendita consensuale) > Quando si parla di",
           "a": "vendita consensuale)\n\n> Quando si parla di"
+        },
+        {
+          "da": "rmina e giustifica la tutela giurisdizionale. Si può ricondur",
+          "a": "rmina e giustifica la tutela giurisdizionale.\n\nSi può ricondur"
         }
       ],
       "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
@@ -4804,6 +5022,14 @@
         {
           "da": "iuridico 3- Responso > Sono questi profil",
           "a": "iuridico 3- Responso\n\n> Sono questi profil"
+        },
+        {
+          "da": "La struttura dell’esposizione è triadica: sono distinguibili tre parti: 1 - Descrizione del caso 2 - Quesito giuridico 3- Responso",
+          "a": "La struttura dell’esposizione è triadica: sono distinguibili tre parti:\n1. Descrizione del caso\n2. Quesito giuridico\n3. Responso"
+        },
+        {
+          "da": "1- In un vicolo, di notte, un tavernaio mise una lucerna su una pietra; un tale, passando, la tolse via; il tavernaio, inseguitolo, reclamava la lucerna e cercava di trattenerlo nella fuga; l’altro, con uno staffile che aveva in mano, cominciò a percuoterlo perché lo lasciasse andare; la lite crebbe, e il tavernaio cavò un occhio all’uomo che aveva preso la lucerna. 2- Il quesito era se non si dovesse escludere la responsabilità del tavernaio, poiché lui per primo era stato percosso con lo staffile. 3- Risposi che il danno non gli era imputabile, posto che egli non avesse cavato l’occhio con un’azione preordinata a questo fine: la colpa dell’accaduto stava dalla parte di colui che per primo aveva colpito con lo staffile. Ma se il tavernaio non le avesse prima buscate, ma avesse iniziato la colluttazione, volendo strappare all’altro la lucerna, la colpa si sarebbe dovuto attribuirla a lui.",
+          "a": "1. In un vicolo, di notte, un tavernaio mise una lucerna su una pietra; un tale, passando, la tolse via; il tavernaio, inseguitolo, reclamava la lucerna e cercava di trattenerlo nella fuga; l’altro, con uno staffile che aveva in mano, cominciò a percuoterlo perché lo lasciasse andare; la lite crebbe, e il tavernaio cavò un occhio all’uomo che aveva preso la lucerna.\n2. Il quesito era se non si dovesse escludere la responsabilità del tavernaio, poiché lui per primo era stato percosso con lo staffile.\n3. Risposi che il danno non gli era imputabile, posto che egli non avesse cavato l’occhio con un’azione preordinata a questo fine: la colpa dell’accaduto stava dalla parte di colui che per primo aveva colpito con lo staffile. Ma se il tavernaio non le avesse prima buscate, ma avesse iniziato la colluttazione, volendo strappare all’altro la lucerna, la colpa si sarebbe dovuto attribuirla a lui."
         }
       ],
       "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
@@ -4854,6 +5080,22 @@
         {
           "da": "a ed opportunistica. > Con l’impiego tecn",
           "a": "a ed opportunistica.\n\n> Con l’impiego tecn"
+        },
+        {
+          "da": "anche a te stesso. - Questo è un passo",
+          "a": "anche a te stesso.\n- Questo è un passo"
+        },
+        {
+          "da": "un “tutto” che collabora ad un’azione comune. Questi ideali v",
+          "a": "un “tutto” che collabora ad un’azione comune.\n\n  Questi ideali v"
+        },
+        {
+          "da": "vano oggetto dei discorsi giurisprudenziali). Il pensiero di ",
+          "a": "vano oggetto dei discorsi giurisprudenziali).\n\n  Il pensiero di "
+        },
+        {
+          "da": ". 239) (Dal de cognitionibus di Callistrato:) Esiste un decre",
+          "a": ". 239) (Dal de cognitionibus di Callistrato:)\n\n  Esiste un decre"
         }
       ],
       "notaRevisione": "Struttura: il titolo del paragrafo, fuso con il testo nell’estrazione, torna titolo."
@@ -4992,6 +5234,10 @@
         {
           "da": "nella tradizione. Diritto nelle società moderne: Diversamente",
           "a": "nella tradizione.\n\n**Diritto nelle società moderne:** Diversamente"
+        },
+        {
+          "da": "e si vuole pianificare seppur appaia incerto. In quanto posit",
+          "a": "e si vuole pianificare seppur appaia incerto.\n\nIn quanto posit"
         }
       ],
       "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
@@ -5090,6 +5336,18 @@
         {
           "da": "a legge decemvirale. Quinto Mucio Scevola: Ad esempio Q. Mucio ",
           "a": "a legge decemvirale.\n\n**Quinto Mucio Scevola:**\n\nAd esempio Q. Mucio "
+        },
+        {
+          "da": "ripertita di Sesto Elio, console nel 198 a.C. Sesto Elio le s",
+          "a": "ripertita di Sesto Elio, console nel 198 a.C.\n\nSesto Elio le s"
+        },
+        {
+          "da": "e, i moduli procedurali delle legis actiones. Sicuramente pon",
+          "a": "e, i moduli procedurali delle legis actiones.\n\nSicuramente pon"
+        },
+        {
+          "da": "sse su un testo normativo: l'editto pretorio. In realtà già n",
+          "a": "sse su un testo normativo: l'editto pretorio.\n\nIn realtà già n"
         }
       ],
       "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
@@ -5104,6 +5362,18 @@
         {
           "da": "tica o di propaganda > Al passato si rico",
           "a": "tica o di propaganda\n\n> Al passato si rico"
+        },
+        {
+          "da": "stratificati, per avere certezza del diritto. Un altro aspett",
+          "a": "stratificati, per avere certezza del diritto.\n\nUn altro aspett"
+        },
+        {
+          "da": "itto privato se ne trovano pochissime tracce. Per cui l'immag",
+          "a": "itto privato se ne trovano pochissime tracce.\n\nPer cui l'immag"
+        },
+        {
+          "da": "nabili attraverso un semplice gioco di lenti. Quindi c'è una ",
+          "a": "nabili attraverso un semplice gioco di lenti.\n\nQuindi c'è una "
         }
       ],
       "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
@@ -5174,6 +5444,10 @@
         {
           "da": "ione molto efficace: - Nella descrizione ",
           "a": "ione molto efficace:\n\n- Nella descrizione "
+        },
+        {
+          "da": "> Lo scopo di queste compilazioni era vario: 1- Alcune furono redatte per ricreare quelle regole del diritto romano che i re barbari volevano si applicassero anche alle loro popolazioni (e qui leggiamo una sorta di riconoscimento della superiorità della cultura giuridica romana) 2- Altre invece furono messe insieme per sintetizzare i principi di diritto applicabili solo ai sudditi di nazionalità romana (quindi qualcosa di utile alle popolazioni barbariche anche solo nei rapporti con la popolazione romana, ma in generale comunque avvertivano questa importanza e questa rilevanza della cultura giuridica romana). 3- Altre invece furono volte a rendere più facile la gestione delle popolazioni assoggettate di nazionalità romana.",
+          "a": "> Lo scopo di queste compilazioni era vario:\n1. Alcune furono redatte per ricreare quelle regole del diritto romano che i re barbari volevano si applicassero anche alle loro popolazioni (e qui leggiamo una sorta di riconoscimento della superiorità della cultura giuridica romana)\n2. Altre invece furono messe insieme per sintetizzare i principi di diritto applicabili solo ai sudditi di nazionalità romana (quindi qualcosa di utile alle popolazioni barbariche anche solo nei rapporti con la popolazione romana, ma in generale comunque avvertivano questa importanza e questa rilevanza della cultura giuridica romana).\n3. Altre invece furono volte a rendere più facile la gestione delle popolazioni assoggettate di nazionalità romana."
         }
       ],
       "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
@@ -5218,6 +5492,18 @@
         {
           "da": " costituzione mista. > Polibio sostiene i",
           "a": " costituzione mista.\n\n> Polibio sostiene i"
+        },
+        {
+          "da": "equilibrio sono: - Annualità :",
+          "a": "equilibrio sono:\n- Annualità:"
+        },
+        {
+          "da": "ricambio costante al potere. - Collegialità :",
+          "a": "ricambio costante al potere.\n- Collegialità:"
+        },
+        {
+          "da": " poi cui sono giunti in maniera frammentaria. Polibio non era",
+          "a": " poi cui sono giunti in maniera frammentaria.\n\nPolibio non era"
         }
       ],
       "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
@@ -5248,6 +5534,30 @@
         {
           "da": "ella legge semplice: - E cioè la realizza",
           "a": "ella legge semplice:\n\n- E cioè la realizza"
+        },
+        {
+          "da": "ero di emanare costituzioni per poi abolirle. Il diritto comu",
+          "a": "ero di emanare costituzioni per poi abolirle.\n\nIl diritto comu"
+        },
+        {
+          "da": "uesto non può essere ne eterno ne immutabile. Per cui lo stes",
+          "a": "uesto non può essere ne eterno ne immutabile.\n\nPer cui lo stes"
+        },
+        {
+          "da": "gnano tenta di dare a questi suoi interventi. E dice: “Nulla ",
+          "a": "gnano tenta di dare a questi suoi interventi.\n\nE dice: “Nulla "
+        },
+        {
+          "da": ": “Nulla esclude che...nei lacci delle leggi” E questo perché",
+          "a": ": “Nulla esclude che...nei lacci delle leggi”\n\nE questo perché"
+        },
+        {
+          "da": " qualcosa che emerge di urgente e necessario. E quindi è capi",
+          "a": " qualcosa che emerge di urgente e necessario.\n\nE quindi è capi"
+        },
+        {
+          "da": "fortuna imperiale ... smette mai di imitarlo” E quindi la giu",
+          "a": "fortuna imperiale ... smette mai di imitarlo”\n\nE quindi la giu"
         }
       ],
       "notaRevisione": "Struttura: titolo e note a margine, mescolati al testo nell’estrazione, sono stati separati senza cambiare parole."
@@ -5355,6 +5665,15 @@
         {
           "da": "e 2- Fonti atecniche Fonti Tecniche: Sono quelle che rig",
           "a": "e 2- Fonti atecniche\n\n**Fonti Tecniche:** Sono quelle che rig"
+        },
+        {
+          "da": "Possiamo fare una prima distinzione tra: 1- Fonti tecniche 2- Fonti atecniche",
+          "a": "Possiamo fare una prima distinzione tra:\n1. Fonti tecniche\n2. Fonti atecniche"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -5393,6 +5712,10 @@
         {
           "da": "econdarie o derivate Fonti primarie: Sono quelle che ci ",
           "a": "econdarie o derivate\n\n**Fonti primarie:** Sono quelle che ci "
+        },
+        {
+          "da": "Possiamo distinguere ulteriormente le fonti di cognizione in: 1- Fonti primarie 2- Fonti secondarie o derivate",
+          "a": "Possiamo distinguere ulteriormente le fonti di cognizione in:\n1. Fonti primarie\n2. Fonti secondarie o derivate"
         }
       ]
     },
@@ -5453,6 +5776,11 @@
         {
           "da": "Fonti di Produzione del diritto Le fonti di produzio",
           "a": "#### Fonti di Produzione del diritto\n\nLe fonti di produzio"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -5687,6 +6015,11 @@
         {
           "da": "tà II a.C. - l a.C.) > 12Ca.C. Lex Aebuti",
           "a": "tà II a.C. - l a.C.)\n\n> 12Ca.C. Lex Aebuti"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -5716,6 +6049,11 @@
         {
           "da": "a.C. - metà Il d.C.) > È l’età più profic",
           "a": "a.C. - metà Il d.C.)\\\n> È l’età più profic"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -5783,6 +6121,11 @@
         {
           "da": "> IlI - IV d.C. - Codex Gregorianus ",
           "a": "> IlI - IV d.C.\n\n- Codex Gregorianus "
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -5800,6 +6143,18 @@
         {
           "da": "Cicerone: Tra i vari autori, a",
           "a": "**Cicerone:**\n\nTra i vari autori, a"
+        },
+        {
+          "da": " all'altezza del compito: garantire l’equità. Il monarca Deve",
+          "a": " all'altezza del compito: garantire l’equità.\n\nIl monarca Deve"
+        },
+        {
+          "da": "requazioni tra chi è più abbiente e chi meno. (non dobbiamo d",
+          "a": "requazioni tra chi è più abbiente e chi meno.\n\n(non dobbiamo d"
+        },
+        {
+          "da": "unzione che un tempo era affidata al monarca. Per cui le legg",
+          "a": "unzione che un tempo era affidata al monarca.\n\nPer cui le legg"
         }
       ]
     },
@@ -6176,6 +6531,10 @@
         {
           "da": "odici”), ad esempio: - All'inizio del II ",
           "a": "odici”), ad esempio:\n\n- All'inizio del II "
+        },
+        {
+          "da": "Lìpit- ìštar",
+          "a": "Lìpit-ìštar"
         }
       ]
     },
@@ -6221,6 +6580,14 @@
         {
           "da": "s Liciniae Sextiae). > Nel 451 fu investi",
           "a": "s Liciniae Sextiae).\\\n> Nel 451 fu investi"
+        },
+        {
+          "da": "La tradizione giuridica romana ruota intorno alla legge delle 12 tavole, abbiamo già\n3. Le XII Tavole e avuto modo",
+          "a": "### 3. Le XII Tavole e la scrittura\n\nLa tradizione giuridica romana ruota intorno alla legge delle 12 tavole, abbiamo già avuto modo"
+        },
+        {
+          "da": "intellettuali romani e la scrittura greci",
+          "a": "intellettuali romani e greci"
         }
       ]
     },
@@ -6251,6 +6618,10 @@
         {
           "da": "ggere un magistrato. - A tal proposito po",
           "a": "ggere un magistrato.\n\n- A tal proposito po"
+        },
+        {
+          "da": "rvata da tutti i censori fino a quel momento. E quindi, in qu",
+          "a": "rvata da tutti i censori fino a quel momento.\n\n  E quindi, in qu"
         }
       ]
     },
@@ -6362,6 +6733,14 @@
         {
           "da": "sate su delle leggi. > Aggiunge un inciso",
           "a": "sate su delle leggi.\n\n> Aggiunge un inciso"
+        },
+        {
+          "da": "Par. 11) Gaio sta cercando di spiegare perché questo processo si chiama “per legis actiones” . Individua due spiegazioni: 1- Perché introdotte da leggi, e quindi basate su delle leggi.",
+          "a": "Par. 11) Gaio sta cercando di spiegare perché questo processo si chiama “per legis actiones” . Individua due spiegazioni:\n1. Perché introdotte da leggi, e quindi basate su delle leggi."
+        },
+        {
+          "da": "- Dice questo perché nell’età antonina, periodo in cui visse Gaio, si era venuto a creare un processo diverso detto processo formulare che di fatto era un’evoluzione del processo, e si basava sugli editti dei pretori, e Gaio, dato che si rivolge ad un pubblico di giovani studenti, con questo inciso, vuole rendere l’idea del passato remoto a cui risale ciò che sta esponendo, rispetto alla sua epoca. 2- Perché ricalcate sulle parole delle leggi stesse.",
+          "a": "- Dice questo perché nell’età antonina, periodo in cui visse Gaio, si era venuto a creare un processo diverso detto processo formulare che di fatto era un’evoluzione del processo, e si basava sugli editti dei pretori, e Gaio, dato che si rivolge ad un pubblico di giovani studenti, con questo inciso, vuole rendere l’idea del passato remoto a cui risale ciò che sta esponendo, rispetto alla sua epoca.\n\n2. Perché ricalcate sulle parole delle leggi stesse."
         }
       ]
     },
@@ -6388,6 +6767,10 @@
         {
           "da": "rori o imprecisioni. > Nel nostro caso, u",
           "a": "rori o imprecisioni.\n\n> Nel nostro caso, u"
+        },
+        {
+          "da": "“per legis actiones”: - Dobbiamo",
+          "a": "“per legis actiones”:\n- Dobbiamo"
         }
       ]
     },
@@ -6413,6 +6796,14 @@
         {
           "da": "ione, o cognitorie): - Legis actio per sa",
           "a": "ione, o cognitorie):\n\n- Legis actio per sa"
+        },
+        {
+          "da": "12) Nel paragrafo successivo, gaio elenca i 5 tipi di legis actiones che noi distinguiamo in due gruppi a seconda del loro scopo\\ funzione: 1 - Legis actiones di accertamento (o di cognizione, o cognitorie):",
+          "a": "12) Nel paragrafo successivo, gaio elenca i 5 tipi di legis actiones che noi distinguiamo in due gruppi a seconda del loro scopo\\ funzione:\n1. Legis actiones di accertamento (o di cognizione, o cognitorie):"
+        },
+        {
+          "da": "- Legis actio per condictionem 2- Legis actiones esecutive",
+          "a": "- Legis actio per condictionem\n\n2. Legis actiones esecutive"
         }
       ]
     },
@@ -6434,6 +6825,11 @@
         {
           "da": "orre delle premesse: —> Distinzione Magis",
           "a": "orre delle premesse:\n\n—> Distinzione Magis"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -6456,6 +6852,11 @@
         {
           "da": "us dicere - Iudicare - ius dicere che è p",
           "a": "us dicere - Iudicare\n\n- ius dicere che è p"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -6473,6 +6874,11 @@
         {
           "da": "divide in due parti: - A questa distinzio",
           "a": "divide in due parti:\n\n- A questa distinzio"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -6897,6 +7303,10 @@
         {
           "da": "Mancipatio ( o Mancipium)\n\n> È l'atto di tras",
           "a": "#### Mancipatio ( o Mancipium)\n\n\n\n> È l'atto di tras"
+        },
+        {
+          "da": "s: Colui che è preposto a tenere la bilancia. La mancipatio è",
+          "a": "s: Colui che è preposto a tenere la bilancia.\n\n  La mancipatio è"
         }
       ]
     },
@@ -7018,6 +7428,10 @@
         {
           "da": "acquirente estraneo. - Manumissiones: att",
           "a": "acquirente estraneo.\n\n- Manumissiones: att"
+        },
+        {
+          "da": "un susseguirsi di: - Mancipationes :",
+          "a": "un susseguirsi di:\n- Mancipationes:"
         }
       ]
     },
@@ -7253,6 +7667,11 @@
         {
           "da": "ssai più importanti: - Controllavano ogni",
           "a": "ssai più importanti:\n\n- Controllavano ogni"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -7416,6 +7835,18 @@
         {
           "da": "copo del matrimonio: - Il marito, infatti",
           "a": "copo del matrimonio:\n\n- Il marito, infatti"
+        },
+        {
+          "da": "1- Coemptio matrimonii causa È una vera e propria mancipatio, una vendita espressamente compita matrimonii causa, e cioè con lo scopo del matrimonio:",
+          "a": "1. Coemptio matrimonii causa È una vera e propria mancipatio, una vendita espressamente compita matrimonii causa, e cioè con lo scopo del matrimonio:"
+        },
+        {
+          "da": "- Il marito, infatti, fittiziamente comprava\\ faceva atto di acquisto tramite mancipatio della donna, pronunciando, quindi, le formula adattata a questo scopo\\ al diverso oggetto del negozio; Per cui, fingendo di pesare il bronzo sulla bilancia, affermava il suo potere (la sua manus) sulla donna. 2- Usus",
+          "a": "- Il marito, infatti, fittiziamente comprava\\ faceva atto di acquisto tramite mancipatio della donna, pronunciando, quindi, le formula adattata a questo scopo\\ al diverso oggetto del negozio; Per cui, fingendo di pesare il bronzo sulla bilancia, affermava il suo potere (la sua manus) sulla donna.\n\n2. Usus"
+        },
+        {
+          "da": "- Che era un caso di applicazione dell’usucapione il quale andava a riparare, dopo un anno, ad un errore od omissione della coemptio. 3- Confarreatio",
+          "a": "- Che era un caso di applicazione dell’usucapione il quale andava a riparare, dopo un anno, ad un errore od omissione della coemptio.\n\n3. Confarreatio"
         }
       ]
     },
@@ -7442,6 +7873,10 @@
         {
           "da": "soggetto sui iuris . - Questo spesso acca",
           "a": "soggetto sui iuris .\n\n- Questo spesso acca"
+        },
+        {
+          "da": "altro pater familias. - Cioè",
+          "a": "altro pater familias.\n- Cioè"
         }
       ]
     },
@@ -7539,6 +7974,14 @@
         {
           "da": "vano la maggioranza. > C’erano poi i grup",
           "a": "vano la maggioranza.\n\n> C’erano poi i grup"
+        },
+        {
+          "da": "punto, l'obiettivo di ogni loro investimento. La definizione ",
+          "a": "punto, l'obiettivo di ogni loro investimento.\n\nLa definizione "
+        },
+        {
+          "da": "pari o superiore a quattrocentomila sesterzi. Il presupposto ",
+          "a": "pari o superiore a quattrocentomila sesterzi.\n\nIl presupposto "
         }
       ]
     },
@@ -7695,6 +8138,26 @@
         {
           "da": "dovuti accorgimenti: > Nella sua accezion",
           "a": "dovuti accorgimenti:\\\n> Nella sua accezion"
+        },
+        {
+          "da": "In questo nuovo contesto economico che prevedeva da una parte il rapportarsi con gli\n2. Il diritto stranieri e dall'altra la necessità di una maggiore velocità nella prassi giuridica, venne a commerciale galla",
+          "a": "### 2. Il diritto commerciale\n\nIn questo nuovo contesto economico che prevedeva da una parte il rapportarsi con gli stranieri e dall'altra la necessità di una maggiore velocità nella prassi giuridica, venne a galla"
+        },
+        {
+          "da": "le sfere normative: 1- In una prima analisi",
+          "a": "le sfere normative:\n1. In una prima analisi"
+        },
+        {
+          "da": "proibizione dell’incesto; 2- D’altro canto,",
+          "a": "proibizione dell’incesto;\n2. D’altro canto,"
+        },
+        {
+          "da": "esta accezione al diritto commerciale romano. Non che nel mon",
+          "a": "esta accezione al diritto commerciale romano.\n\nNon che nel mon"
+        },
+        {
+          "da": "mercanti e ma aperto a cittadini e stranieri. L'espressione c",
+          "a": "mercanti e ma aperto a cittadini e stranieri.\n\nL'espressione c"
         }
       ]
     },
@@ -7720,6 +8183,14 @@
         {
           "da": "ntium e ius naturale - Secondo un'interpr",
           "a": "ntium e ius naturale\n\n- Secondo un'interpr"
+        },
+        {
+          "da": "3- In un senso filosofico-speculativo, invece da alcune testimonianze abbiamo la possibilità di riflettere sul rapporto tra ius gentium e ius naturale",
+          "a": "3. In un senso filosofico-speculativo, invece da alcune testimonianze abbiamo la possibilità di riflettere sul rapporto tra ius gentium e ius naturale"
+        },
+        {
+          "da": "- Talvolta, però, il rapporto ius gentium-ius naturale viene impostato in senso gerarchico, cioè, mentre ius gentium riguarderebbe solo gli uomini, con ius naturale si intende una sfera che abbraccia tutti gli esseri viventi della terra, per cui è possibile individuare ius gentium come una specificazione (una species) di un più ampio ius naturale (genus). (Ma comunque da giurista giurista siano diverse impostazioni, possiamo infatti farvi rientrare anche una serie di principi e valori che vengono in mente quando si parla di ius naturale, che hanno un respiro ampio) 4- Possiamo inoltre guardare lo ius gentium in rapporto allo ius honorarium Lo Ius honorarium, da honos, honoris, fa riferimento alle cariche magistratuali, quindi è il diritto che deriva\\ che è inerente alla comunità dei magistrati, (vedi digressione sulle magistrature). In particolare possiamo intendere solo ius praetorium poiché l’attività più rilevante è quella del praetor. In questo periodo, nel 242 a.C., venne istituito (accanto al praetor urbanus) il praetor peregrinus che è un magistrato preposto a gestire liti tra cives e peregrini stranieri, oppure semplicemente tra stranieri. Proprio con l'istituzione del pretore peregrino che rapporti di diritto commerciale non rimasero senza tutela.",
+          "a": "- Talvolta, però, il rapporto ius gentium-ius naturale viene impostato in senso gerarchico, cioè, mentre ius gentium riguarderebbe solo gli uomini, con ius naturale si intende una sfera che abbraccia tutti gli esseri viventi della terra, per cui è possibile individuare ius gentium come una specificazione (una species) di un più ampio ius naturale (genus). (Ma comunque da giurista giurista siano diverse impostazioni, possiamo infatti farvi rientrare anche una serie di principi e valori che vengono in mente quando si parla di ius naturale, che hanno un respiro ampio)\n\n4. Possiamo inoltre guardare lo ius gentium in rapporto allo ius honorarium Lo Ius honorarium, da honos, honoris, fa riferimento alle cariche magistratuali, quindi è il diritto che deriva\\ che è inerente alla comunità dei magistrati, (vedi digressione sulle magistrature). In particolare possiamo intendere solo ius praetorium poiché l’attività più rilevante è quella del praetor. In questo periodo, nel 242 a.C., venne istituito (accanto al praetor urbanus) il praetor peregrinus che è un magistrato preposto a gestire liti tra cives e peregrini stranieri, oppure semplicemente tra stranieri. Proprio con l'istituzione del pretore peregrino che rapporti di diritto commerciale non rimasero senza tutela."
         }
       ]
     },
@@ -7762,6 +8233,18 @@
         {
           "da": "amento di un debito) - Nell’ambito dell'a",
           "a": "amento di un debito)\n\n- Nell’ambito dell'a"
+        },
+        {
+          "da": "ato sui determinati patti\\ termini convenuti. Possiamo consid",
+          "a": "ato sui determinati patti\\ termini convenuti.\n\n  Possiamo consid"
+        },
+        {
+          "da": "rizzante è proprio il differimento temporale. Capiamo allora ",
+          "a": "rizzante è proprio il differimento temporale.\n\n  Capiamo allora "
+        },
+        {
+          "da": "e non acquisteremo in quel negozio specifico. Per cui capiamo",
+          "a": "e non acquisteremo in quel negozio specifico.\n\n  Per cui capiamo"
         }
       ]
     },
@@ -7898,6 +8381,26 @@
         {
           "da": "> Emptio vendictio > Con la emptio vend",
           "a": "> Emptio vendictio\n\n> Con la emptio vend"
+        },
+        {
+          "da": "regolare titolo acquisitivo. - La mancipatio",
+          "a": "regolare titolo acquisitivo.\n- La mancipatio"
+        },
+        {
+          "da": "determinati requisiti: - Deve trattarsi",
+          "a": "determinati requisiti:\n- Deve trattarsi"
+        },
+        {
+          "da": "diventarne proprietario). - Deve esserci",
+          "a": "diventarne proprietario).\n- Deve esserci"
+        },
+        {
+          "da": "tarsi verso questa res come se fosse propria. Con “possesso” ",
+          "a": "tarsi verso questa res come se fosse propria.\n\n  Con “possesso” "
+        },
+        {
+          "da": "io assoluto, il diritto reale per eccellenza. Le caratteristi",
+          "a": "io assoluto, il diritto reale per eccellenza.\n\n  Le caratteristi"
         }
       ]
     },
@@ -7936,6 +8439,10 @@
         {
           "da": "compravendita greca) La compravendita rom",
           "a": "compravendita greca)\n\nLa compravendita rom"
+        },
+        {
+          "da": "> Tuttavia si intravede forse una compravendita obbligatoria anche nel mondo greco, colta da Gernet, in cui vediamo tre aspetti rilevanti: 1- le obbligazioni reciproche del venditore e del compratore dipendono ciascuna dall’adempimento ( o di un inizio dell’adempimento) dell’altra, nessuna delle parti potrebbe pretendere che l’altra adempia, se non ha adempiuto essa stessa la propria obbligazione. 2- la pistis (=fiducia) opera come criterio regolatore del negozio. 3- lo scritto ha un valore essenziale e la fiducia vi trova il suo sostegno.",
+          "a": "> Tuttavia si intravede forse una compravendita obbligatoria anche nel mondo greco, colta da Gernet, in cui vediamo tre aspetti rilevanti:\n1. le obbligazioni reciproche del venditore e del compratore dipendono ciascuna dall’adempimento ( o di un inizio dell’adempimento) dell’altra, nessuna delle parti potrebbe pretendere che l’altra adempia, se non ha adempiuto essa stessa la propria obbligazione.\n2. la pistis (=fiducia) opera come criterio regolatore del negozio.\n3. lo scritto ha un valore essenziale e la fiducia vi trova il suo sostegno."
         }
       ]
     },
@@ -8058,6 +8565,10 @@
         {
           "da": "ius hominem vendidit - Poiché Aulo Agerio",
           "a": "ius hominem vendidit\n\n- Poiché Aulo Agerio"
+        },
+        {
+          "da": "2- Demonstratio È la parte",
+          "a": "#### 2. Demonstratio\n\nÈ la parte"
         }
       ]
     },
@@ -8132,6 +8643,10 @@
         {
           "da": " non paret, absolve; - Se parrà al giudic",
           "a": " non paret, absolve;\n\n- Se parrà al giudic"
+        },
+        {
+          "da": "5- Condemnatio Con essa",
+          "a": "#### 5. Condemnatio\n\nCon essa"
         }
       ]
     },
@@ -8145,6 +8660,10 @@
         {
           "da": "più essere cambiata. - È possibile che a ",
           "a": "più essere cambiata.\n\n- È possibile che a "
+        },
+        {
+          "da": "6- Exceptio (eventualmente) La costruzione",
+          "a": "#### 6. Exceptio (eventualmente)\n\nLa costruzione"
         }
       ]
     },
@@ -8190,6 +8709,18 @@
         {
           "da": "Dove si trovano le formule alla base del processo formulare?\n\n#### Nell’editto d",
           "a": "#### Dove si trovano le formule alla base del processo formulare?\n\n\n\n#### Nell’editto d"
+        },
+        {
+          "da": " le liti di mercato…): hanno lo ius edicendi. Con riguardo al",
+          "a": " le liti di mercato…): hanno lo ius edicendi.\n\nCon riguardo al"
+        },
+        {
+          "da": "omentaneo o occasionale, ma duraturo e unico. Prima di farsi ",
+          "a": "omentaneo o occasionale, ma duraturo e unico.\n\nPrima di farsi "
+        },
+        {
+          "da": "edere ed applicare nel corso del suo ufficio. Così facendo, i",
+          "a": "edere ed applicare nel corso del suo ufficio.\n\nCosì facendo, i"
         }
       ]
     },
@@ -8275,6 +8806,10 @@
         {
           "da": " opere dei giuristi. - Lo stesso Giuliano",
           "a": " opere dei giuristi.\n\n- Lo stesso Giuliano"
+        },
+        {
+          "da": "casistico- problematica",
+          "a": "casistico-problematica"
         }
       ]
     },
@@ -8377,6 +8912,10 @@
         {
           "da": "Funzione normativa del pretore\n5. Ius honorarium P",
           "a": "#### Funzione normativa del pretore\n\n\n5. Ius honorarium P"
+        },
+        {
+          "da": "#### Funzione normativa del pretore\n\n\n5. Ius honorarium Possiamo",
+          "a": "### 5. Ius honorarium\n\n#### Funzione normativa del pretore\n\nPossiamo"
         }
       ]
     },
@@ -8526,6 +9065,18 @@
         {
           "da": "prio del ius civile. > L'esempio più comu",
           "a": "prio del ius civile.\n\n> L'esempio più comu"
+        },
+        {
+          "da": "er il doppio se è imputabile lo stesso erede. Se risulta che ",
+          "a": "er il doppio se è imputabile lo stesso erede.\n\nSe risulta che "
+        },
+        {
+          "da": " che la cosa avrà nel momento della condanna. Se la premessa ",
+          "a": " che la cosa avrà nel momento della condanna.\n\nSe la premessa "
+        },
+        {
+          "da": "sa non risulta accertata, il giudice assolva. Poiché l'attore",
+          "a": "sa non risulta accertata, il giudice assolva.\n\nPoiché l'attore"
         }
       ]
     },
@@ -8657,6 +9208,18 @@
         {
           "da": "La laicizzazione del diritto\n1. Il giureconsulto",
           "a": "#### La laicizzazione del diritto\n\n\n1. Il giureconsulto"
+        },
+        {
+          "da": " in modo sistematico di un corpo di dottrine. Per cui la giur",
+          "a": " in modo sistematico di un corpo di dottrine.\n\n   Per cui la giur"
+        },
+        {
+          "da": " spezza il monopolio pontificale del diritto. Questo accade p",
+          "a": " spezza il monopolio pontificale del diritto.\n\n   Questo accade p"
+        },
+        {
+          "da": "istrature coincidevano nella stessa persona). In particolar m",
+          "a": "istrature coincidevano nella stessa persona).\n\n   In particolar m"
         }
       ]
     },
@@ -8687,6 +9250,10 @@
         {
           "da": " nuovamente nel 296; - E scrisse un’opera",
           "a": " nuovamente nel 296;\n\n- E scrisse un’opera"
+        },
+        {
+          "da": "1- Primo aneddoto significativo è quello di Appio Claudio Cieco: Appio Claudio Cieco fu console nel 307 e nuovamente nel 296;",
+          "a": "1. Primo aneddoto significativo è quello di Appio Claudio Cieco: Appio Claudio Cieco fu console nel 307 e nuovamente nel 296;"
         }
       ]
     },
@@ -8700,6 +9267,10 @@
         {
           "da": "me magistrato edile. > Anche in questo ca",
           "a": "me magistrato edile.\n\n> Anche in questo ca"
+        },
+        {
+          "da": "2- Secondo aneddoto vede come protagonista Gneo Flavio: ( Che per altro era lo scriba di Appio Claudio, quindi un suo segretario), e si narra che addirittura avesse pubblicato il calendario pontificale, che avesse raccolto i formulari delle azioni custoditi negli archivi segreti dei pontefici, e che avesse ricevuto una tale gratitudine dei cittadini tanto da essere letto come magistrato edile.",
+          "a": "2. Secondo aneddoto vede come protagonista Gneo Flavio: ( Che per altro era lo scriba di Appio Claudio, quindi un suo segretario), e si narra che addirittura avesse pubblicato il calendario pontificale, che avesse raccolto i formulari delle azioni custoditi negli archivi segreti dei pontefici, e che avesse ricevuto una tale gratitudine dei cittadini tanto da essere letto come magistrato edile."
         }
       ]
     },
@@ -8713,6 +9284,10 @@
         {
           "da": "coltare il responso. > Anche di questo an",
           "a": "coltare il responso.\n\n> Anche di questo an"
+        },
+        {
+          "da": "3- Un altro aneddoto riguarda Tiberio Coruncanio: Si narra che fosse stato il primo plebeo ad assolvere ai vari compiti di pontefice massimo (e qui abbiamo l'esempio perfetto di come si stravolsero i sistemi preesistenti), e si racconta addirittura che avesse reso pubbliche le consultazioni dei pontefici, per cui aveva aperto la possibilità di recarsi da lui a chiedere un responso non più in maniera privata, ma pubblicamente, quindi tutti potevano ascoltare il responso.",
+          "a": "3. Un altro aneddoto riguarda Tiberio Coruncanio: Si narra che fosse stato il primo plebeo ad assolvere ai vari compiti di pontefice massimo (e qui abbiamo l'esempio perfetto di come si stravolsero i sistemi preesistenti), e si racconta addirittura che avesse reso pubbliche le consultazioni dei pontefici, per cui aveva aperto la possibilità di recarsi da lui a chiedere un responso non più in maniera privata, ma pubblicamente, quindi tutti potevano ascoltare il responso."
         }
       ]
     },
@@ -8730,6 +9305,10 @@
         {
           "da": "pressa nel 304 a.C.) - Distribuì fra tutt",
           "a": "pressa nel 304 a.C.)\n\n- Distribuì fra tutt"
+        },
+        {
+          "da": "1- Plebiscito ovinio (“riforma censoria”) Collocabile",
+          "a": "#### 1. Plebiscito ovinio (“riforma censoria”)\n\nCollocabile"
         }
       ]
     },
@@ -8739,6 +9318,10 @@
         {
           "da": "Databile al 300 a.C. - Che introduce l’ap",
           "a": "Databile al 300 a.C.\n\n- Che introduce l’ap"
+        },
+        {
+          "da": "2- Lex Valeria de provocatione Databile",
+          "a": "#### 2. Lex Valeria de provocatione\n\nDatabile"
         }
       ]
     },
@@ -8748,6 +9331,10 @@
         {
           "da": "databile al 300 a.C. - Anche questo impor",
           "a": "databile al 300 a.C.\n\n- Anche questo impor"
+        },
+        {
+          "da": "3- Plebiscito ogulnio Anche questo",
+          "a": "#### 3. Plebiscito ogulnio\n\nAnche questo"
         }
       ]
     },
@@ -8879,6 +9466,10 @@
         {
           "da": "as come composta da: > Aristocrazia di sa",
           "a": "as come composta da:\\\n> Aristocrazia di sa"
+        },
+        {
+          "da": "dall'età avanzata. 1- L’origine La classe",
+          "a": "dall'età avanzata.\n\n#### 1. L’origine\n\nLa classe"
         }
       ]
     },
@@ -8888,6 +9479,10 @@
         {
           "da": "nale e responsabile. - Da una parte, quin",
           "a": "nale e responsabile.\n\n- Da una parte, quin"
+        },
+        {
+          "da": "5- Un altro aspetto fondamentale era la virtus. Quando si parla di virtus, non dobbiamo intendere il termine nell’accezione di “valore\\ forza eroica dell’ἀρετή omerica; Ma nel mondo romano della Repubblica la virtus è un valore eminentemente aristocratico (ha riscontro quindi nella nobilitas in senso lato) che si manifestava in tutti gli ambiti della vita, sia nella sfera interiore dell’uomo, sia nelle forme esterne dell’agire intenzionale e responsabile.",
+          "a": "5. Un altro aspetto fondamentale era la virtus. Quando si parla di virtus, non dobbiamo intendere il termine nell’accezione di “valore\\ forza eroica dell’ἀρετή omerica; Ma nel mondo romano della Repubblica la virtus è un valore eminentemente aristocratico (ha riscontro quindi nella nobilitas in senso lato) che si manifestava in tutti gli ambiti della vita, sia nella sfera interiore dell’uomo, sia nelle forme esterne dell’agire intenzionale e responsabile."
         }
       ]
     },
@@ -8897,6 +9492,10 @@
         {
           "da": "etto delle senectus. (Testo pag. 156) In questo passo del ",
           "a": "etto delle senectus.\n\n(Testo pag. 156)\n\nIn questo passo del "
+        },
+        {
+          "da": "6- È degno di nota anche l’aspetto delle senectus.",
+          "a": "6. È degno di nota anche l’aspetto delle senectus."
         }
       ]
     },
@@ -9154,6 +9753,10 @@
         {
           "da": "parti che conteneva: - Il testo delle 12 ",
           "a": "parti che conteneva:\n\n- Il testo delle 12 "
+        },
+        {
+          "da": "sono: 1- III-II a.C. È possibile",
+          "a": "sono:\n\n#### 1. III-II a.C.\n\nÈ possibile"
         }
       ]
     },
@@ -9259,6 +9862,18 @@
         {
           "da": "nclinazione storica. - Gaio infatti parte",
           "a": "nclinazione storica.\n\n- Gaio infatti parte"
+        },
+        {
+          "da": "scienza. 4- I d.C. La tradizione",
+          "a": "scienza.\n\n#### 4. I d.C.\n\nLa tradizione"
+        },
+        {
+          "da": "libri di iuris civilis. - Sabino scriverà i L ibri",
+          "a": "libri di iuris civilis.\n- Sabino scriverà i Libri"
+        },
+        {
+          "da": "evoluzione dovuta alle necessità commerciali. Societas ius ge",
+          "a": "evoluzione dovuta alle necessità commerciali.\n\nSocietas ius ge"
         }
       ]
     },
@@ -9268,6 +9883,10 @@
         {
           "da": "fà a quella muciana. - E le Institutiones",
           "a": "fà a quella muciana.\n\n- E le Institutiones"
+        },
+        {
+          "da": "5- II d.C. Un ulteriore",
+          "a": "#### 5. II d.C.\n\nUn ulteriore"
         }
       ]
     },
@@ -9289,6 +9908,14 @@
         {
           "da": "Editto fragile ma persistente (da integrare con par.4 del capitolo quinto)\n7. L'editto, un tes",
           "a": "#### Editto fragile ma persistente (da integrare con par.4 del capitolo quinto)\n\n\n7. L'editto, un tes"
+        },
+        {
+          "da": "#### Editto fragile ma persistente (da integrare con par.4 del capitolo quinto)\n\n\n7. L'editto, un testo fragile Così com'è",
+          "a": "### 7. L'editto, un testo fragile e persistente\n\n#### Editto fragile ma persistente (da integrare con par.4 del capitolo quinto)\n\nCosì com'è"
+        },
+        {
+          "da": "dell'editto era e persistente annuale:",
+          "a": "dell'editto era annuale:"
         }
       ]
     },
@@ -9302,6 +9929,10 @@
         {
           "da": "rumenti sostitutivi? - Cioè, sappiamo che",
           "a": "rumenti sostitutivi?\n\n- Cioè, sappiamo che"
+        },
+        {
+          "da": "rica coscienza sociale, ma la giurisprudenza. I pretori, salv",
+          "a": "rica coscienza sociale, ma la giurisprudenza.\n\n  I pretori, salv"
         }
       ]
     },
@@ -9539,6 +10170,14 @@
         {
           "da": "Cataloghi normativi\n\n> Data l’importanz",
           "a": "#### Cataloghi normativi\n\n\n\n> Data l’importanz"
+        },
+        {
+          "da": "> Data l’importanza del respondere, non è un caso che l'interpretazione dei giuristi sia considerata come una fonte di produzione del diritto, e quest’aspetto emerge in maniera evidente attraverso una serie di brani che definiamo “cataloghi normativi”, in particolare di Cicerone, Pomponio, Gaio e Papiniano, all’interno dei quali, quelli giuristi vanno a formulare degli elenchi veri e propri delle fonti di produzione normativa. (ricordiamo distinzione norma-legge) 1- Il primo catalogo normativo è quello di Cicerone.",
+          "a": "> Data l’importanza del respondere, non è un caso che l'interpretazione dei giuristi sia considerata come una fonte di produzione del diritto, e quest’aspetto emerge in maniera evidente attraverso una serie di brani che definiamo “cataloghi normativi”, in particolare di Cicerone, Pomponio, Gaio e Papiniano, all’interno dei quali, quelli giuristi vanno a formulare degli elenchi veri e propri delle fonti di produzione normativa. (ricordiamo distinzione norma-legge)\n1. Il primo catalogo normativo è quello di Cicerone."
+        },
+        {
+          "da": "(ricordiamo distinzione norma-legge)\n1. Il primo catalogo normativo",
+          "a": "(ricordiamo distinzione norma-legge)\n\n#### 1. Il primo catalogo normativo"
         }
       ]
     },
@@ -9565,6 +10204,14 @@
         {
           "da": "è quello di Pomponio > Con Pomponio non s",
           "a": "è quello di Pomponio\n\n> Con Pomponio non s"
+        },
+        {
+          "da": "2- Il secondo catalogo normativo è quello di Pomponio",
+          "a": "2. Il secondo catalogo normativo è quello di Pomponio"
+        },
+        {
+          "da": "2. Il secondo catalogo normativo",
+          "a": "#### 2. Il secondo catalogo normativo"
         }
       ]
     },
@@ -9644,6 +10291,22 @@
         {
           "da": "ivo è quello di Gaio > Gaio è un altro gi",
           "a": "ivo è quello di Gaio\n\n> Gaio è un altro gi"
+        },
+        {
+          "da": "3- Il terzo catalogo normativo è quello di Gaio",
+          "a": "3. Il terzo catalogo normativo è quello di Gaio"
+        },
+        {
+          "da": "1- questo è l'unico a catalogo normativa in cui si fa riferimento allo ius edicendi, in particolare, dice proprio “coloro che furono autorizzati a produrre diritto”, e cioè fa riferimento allo ius publicae respondendi (ovvero allo ius edicendi ex autoritate principis)",
+          "a": "1. questo è l'unico a catalogo normativa in cui si fa riferimento allo ius edicendi, in particolare, dice proprio “coloro che furono autorizzati a produrre diritto”, e cioè fa riferimento allo ius publicae respondendi (ovvero allo ius edicendi ex autoritate principis)"
+        },
+        {
+          "da": "- Ma l’auctoritas del giurista è mediata dall’ auctoritas del principe che, astutamente, è consapevole di quanto la figura del giurista sia importante per la produzione del diritto, e quindi da un lato vuole controllare la loro produzione, dall’altro lato vuole giovarsi della loro sapienza tecnica. Per cui individua i giuristi migliori e, in qualche modo, adulandoli anche con cariche pubbliche come i consolati, cerca di farseli amici. A coloro i quali si avvicinano al principe, che successivamente faranno parte del consilium principis, viene fornito dall’imperatore il diritto di emanare responsi ex autoritate principis, e quindi consacrati dall'autorità del principe che recano proprio il sigillo imperiale. ( è chiaro che comunque tutti i giuristi emanavano responsi, ma nell'ambito di un processo, il giudice tendeva a propendere per il parere espresso dal giurista che in qualche modo aveva il placet del principe) 2- un altro elemento importante in questo catalogo e riferimento allo ius controversum Ovvero, quando più giuristi interpretano lo stesso oggetto, possono avere delle opinioni contrastanti, E quindi possono proporre delle soluzioni pratiche differenti l'una dall'altra, pur essendo ugualmente plausibili. (non che si sfociasse in una lite, ma semplicemente nella produzione del diritto, attraverso l'interpretazione dei giuristi, non sempre ci sono gli spazi concordi: e questo è lo ius controversum) Con Adriano, però, che è uno degli imperatori più importanti, sia l'elaborazione dell'editto perpetuo; da quel momento in poi, cessò di esistere lo ius controversum Infatti Gaio dice:",
+          "a": "- Ma l’auctoritas del giurista è mediata dall’ auctoritas del principe che, astutamente, è consapevole di quanto la figura del giurista sia importante per la produzione del diritto, e quindi da un lato vuole controllare la loro produzione, dall’altro lato vuole giovarsi della loro sapienza tecnica. Per cui individua i giuristi migliori e, in qualche modo, adulandoli anche con cariche pubbliche come i consolati, cerca di farseli amici. A coloro i quali si avvicinano al principe, che successivamente faranno parte del consilium principis, viene fornito dall’imperatore il diritto di emanare responsi ex autoritate principis, e quindi consacrati dall'autorità del principe che recano proprio il sigillo imperiale. ( è chiaro che comunque tutti i giuristi emanavano responsi, ma nell'ambito di un processo, il giudice tendeva a propendere per il parere espresso dal giurista che in qualche modo aveva il placet del principe)\n\n2. un altro elemento importante in questo catalogo e riferimento allo ius controversum Ovvero, quando più giuristi interpretano lo stesso oggetto, possono avere delle opinioni contrastanti, E quindi possono proporre delle soluzioni pratiche differenti l'una dall'altra, pur essendo ugualmente plausibili. (non che si sfociasse in una lite, ma semplicemente nella produzione del diritto, attraverso l'interpretazione dei giuristi, non sempre ci sono gli spazi concordi: e questo è lo ius controversum) Con Adriano, però, che è uno degli imperatori più importanti, sia l'elaborazione dell'editto perpetuo; da quel momento in poi, cessò di esistere lo ius controversum Infatti Gaio dice:"
+        },
+        {
+          "da": "3. Il terzo catalogo normativo",
+          "a": "#### 3. Il terzo catalogo normativo"
         }
       ]
     },
@@ -9670,6 +10333,10 @@
         {
           "da": "È proprio questa la caratteristica del catalogo di Pomponio: 1- La distinzione tr",
           "a": "**È proprio questa la caratteristica del catalogo di Pomponio:**\n\n1- La distinzione tr"
+        },
+        {
+          "da": "1- La distinzione tra ius civile e ius honorarium, con una vera e propria definizione di diritto pretorio: Cioè afferma che l'editto pretorio, che ormai è un corpo normativo distinto dallo ius civile, nasce proprio per rafforzare, aiutare il diritto civile, in un certo senso per completarlo (nel momento in cui va ad aggiungere gli istituti che mancano al diritto civile), o addirittura per correggerlo: cioè il pretore crea anche istituti (ad esempio la bonorum possessio) che apportano delle correzioni allo ius civile in ambito processuale.",
+          "a": "1. La distinzione tra ius civile e ius honorarium, con una vera e propria definizione di diritto pretorio: Cioè afferma che l'editto pretorio, che ormai è un corpo normativo distinto dallo ius civile, nasce proprio per rafforzare, aiutare il diritto civile, in un certo senso per completarlo (nel momento in cui va ad aggiungere gli istituti che mancano al diritto civile), o addirittura per correggerlo: cioè il pretore crea anche istituti (ad esempio la bonorum possessio) che apportano delle correzioni allo ius civile in ambito processuale."
         }
       ]
     },
@@ -9740,6 +10407,22 @@
         {
           "da": "gio non è immediato: - I responsi di Tibe",
           "a": "gio non è immediato:\n\n- I responsi di Tibe"
+        },
+        {
+          "da": " parla di letteratura casistico-problematica. È in questa let",
+          "a": " parla di letteratura casistico-problematica.\n\nÈ in questa let"
+        },
+        {
+          "da": "le e infine alla soluzione del caso proposto. Troviamo le pri",
+          "a": "le e infine alla soluzione del caso proposto.\n\nTroviamo le pri"
+        },
+        {
+          "da": "etteratura proprio presso la scuola Serviana. ( Vedremo come ",
+          "a": "etteratura proprio presso la scuola Serviana.\n\n( Vedremo come "
+        },
+        {
+          "da": "ione quotidiana del rapporto con i discepoli. Quindi la memor",
+          "a": "ione quotidiana del rapporto con i discepoli.\n\nQuindi la memor"
         }
       ]
     },
@@ -9790,6 +10473,18 @@
         {
           "da": "1- Descrizione del caso Quasi con il realism",
           "a": "#### 1- Descrizione del caso\n\nQuasi con il realism"
+        },
+        {
+          "da": "#### 1- Descrizione del caso",
+          "a": "#### 1. Descrizione del caso"
+        },
+        {
+          "da": "#### 2- Quesito Giuridico",
+          "a": "#### 2. Quesito Giuridico"
+        },
+        {
+          "da": "#### 3- Responso",
+          "a": "#### 3. Responso"
         }
       ]
     },
@@ -9821,6 +10516,10 @@
         {
           "da": "do responso serviano 1- Su per la salita ",
           "a": "do responso serviano\n\n1- Su per la salita "
+        },
+        {
+          "da": "1- Su per la salita del Campidoglio, delle mule trainavano due carri a pieno carico; i mulattieri si sforzavano di sostenere da dietro il primo carro, affinché le mule lo trainassero più agevolmente; questo cominciò a retrocedere; i mulattieri che erano fra i due carri si tolsero di mezzo, e il secondo carro, urtato da quello che lo precedeva, arretrò e travolse uno schiavo.",
+          "a": "1. Su per la salita del Campidoglio, delle mule trainavano due carri a pieno carico; i mulattieri si sforzavano di sostenere da dietro il primo carro, affinché le mule lo trainassero più agevolmente; questo cominciò a retrocedere; i mulattieri che erano fra i due carri si tolsero di mezzo, e il secondo carro, urtato da quello che lo precedeva, arretrò e travolse uno schiavo."
         }
       ]
     },
@@ -9883,6 +10582,10 @@
         {
           "da": "o ad indietreggiare. - E in tal caso il p",
           "a": "o ad indietreggiare.\n\n- E in tal caso il p"
+        },
+        {
+          "da": "> Poi c’è subito il responso: Servio afferma che la soluzione dipendeva dalle modalità del caso concreto: 1- La prima ipotesi pone il caso che i mulattieri che si siano volontariamente allontanati dal carro che stavano sostenendo, e a seguito di questo allontanamento le mule non siano più riuscite a trattenere il carro, per cui abbiano iniziato ad indietreggiare.",
+          "a": "> Poi c’è subito il responso: Servio afferma che la soluzione dipendeva dalle modalità del caso concreto:\n1. La prima ipotesi pone il caso che i mulattieri che si siano volontariamente allontanati dal carro che stavano sostenendo, e a seguito di questo allontanamento le mule non siano più riuscite a trattenere il carro, per cui abbiano iniziato ad indietreggiare."
         }
       ]
     },
@@ -9892,6 +10595,10 @@
         {
           "da": "travolto lo schiavo. > In tal caso la res",
           "a": "travolto lo schiavo.\n\n> In tal caso la res"
+        },
+        {
+          "da": "> E quindi per spiegare questa prima ipotesi si fa un'analogia, e si portano degli esempi per spiegare una situazione di voluta sottrazione dei mulattieri al proprio compito senza preoccuparsi delle conseguenze. 2- Una seconda ipotesi pone il caso che siano state le mule ad adombrarsi e allontanarsi, per cui i mulattieri si siano allontanati per paura di essere schiacciati, di conseguenza le mule non sono più riuscite a trattenere il carico, e dallo sforzo sono cadute provocando la retrocessione del carro che ha poi travolto lo schiavo.",
+          "a": "> E quindi per spiegare questa prima ipotesi si fa un'analogia, e si portano degli esempi per spiegare una situazione di voluta sottrazione dei mulattieri al proprio compito senza preoccuparsi delle conseguenze.\n\n2. Una seconda ipotesi pone il caso che siano state le mule ad adombrarsi e allontanarsi, per cui i mulattieri si siano allontanati per paura di essere schiacciati, di conseguenza le mule non sono più riuscite a trattenere il carico, e dallo sforzo sono cadute provocando la retrocessione del carro che ha poi travolto lo schiavo."
         }
       ]
     },
@@ -9901,6 +10608,10 @@
         {
           "da": "nte il loro compito. > E il proprietario ",
           "a": "nte il loro compito.\n\n> E il proprietario "
+        },
+        {
+          "da": "3- Una terza ipotesi vede invece la possibilità che né le mule né gli uomini siano riusciti semplicemente a trattenere il carico; quindi per cause di forza maggiore, data la troppa pesantezza del carro, le mule non siano riuscite a reggere il peso e siano cadute, e così facendo neanche i mulattieri siano riusciti a svolgere correttamente il loro compito.",
+          "a": "3. Una terza ipotesi vede invece la possibilità che né le mule né gli uomini siano riusciti semplicemente a trattenere il carico; quindi per cause di forza maggiore, data la troppa pesantezza del carro, le mule non siano riuscite a reggere il peso e siano cadute, e così facendo neanche i mulattieri siano riusciti a svolgere correttamente il loro compito."
         }
       ]
     },
@@ -9910,6 +10621,30 @@
         {
           "da": "gato dalla prof.ssa) 1- Più commercianti ",
           "a": "gato dalla prof.ssa)\n\n1- Più commercianti "
+        },
+        {
+          "da": "1- Più commercianti avevano caricato il grano nella nave di Saufeio, stivandolo alla rinfusa. Saufeio aveva restituito, dal catico comune, il grano a uno dei commercianti caricatori; poi la nave è affondata. 2- Si pone il quesito, se gli altri commercianti caricatori possano agire nei confronti dell'armatore, per la loro parte di grano, con l'«azione per la sottrazione di carico». 3- Il responso fu in questi termini. Due sono i generi degli assetti locativi, in quanto o ci si obbliga a restituire la stessa cosa ricevuta in consegna (come quando siano locati dei vestiti a un lavandaio perché ne prenda cura), o ci si obbliga a restituire una cosa dello stesso tipo (come quando si dia dell'argento fuso a un artigiano, perché ne faccia dei vasi, o dell'oro, perché ne faccia degli anelli). Nella prima ipotesi, la cosa rimane in proprietà dell'affidante; nella seconda ipotesi, sorge in capo all'alienante un diritto di credito. Lo stesso quadro giuridico si ha nel deposito: se si deposita del danaro contante, senza consegnarlo chiuso e sigillato, ma semplicemente contandolo, il depositario a nient'altro è tenuto che alla restituzione di una somma eguale. Secondo quanto si è detto, nel caso nostro, il grano è stato acquistato in proprietà da Saufeio, ed è stato validamente trasferito. Se invece il grano fosse rimasto in proprietà di ognuno dei commercianti caricatori - diviso in scomparti, chiuso per mezzo di tavole o in ceste o in barili in modo da poter distinguere ogni singolo carico - allora noi non avremmo potuto «permutare» un carico con l'altro; e quanto al commerciante caricatore, proprietario del grano che l'armatore ha restituito, egli sarebbe legittimato a esperire l'azione di revindica. Perciò, secondo Servio, non è possibile ammettere l'esercizio dell'«azione per la sottrazione di carico»: perché delle due l'una: o le merci consegnate all'armatore sono tali, che egli ne divenga immediatamente proprietario, e al commerciante caricatore spetti solo un diritto di credito verso di lui, e allora non c'è sottrazione di carico, appartenendo quest'ultimo all'armatore; o deve essere restituita la medesima cosa che è stata consegnata, e allora il locatore (ossia, il commerciante caricatore) può esercitare l’azione per il furto, ed è quindi superflua l'«azione per la sottrazione di carico». Ma, posto che la dazione della cosa si configuri in modo tale, che sia possibile restituire una cosa dello stesso tipo, il conduttore (Ossia, l'armatore) è responsabile solo per colpa (infatti, in un rapporto che si costituisce contrattualmente nell'interesse di entrambe le parti, si ha solo responsabilità per colpa); né nel nostro caso, vi è colpa, per il fatto che il conduttore ha restituito a uno dei commercianti caricatori la sua parte del frumento comune. E la ragione è questa: era pure necessario che il conduttore, nel compiere la restituzione, cominciasse da uno qualunque di loro; sebbene egli, così facendo, non è né se migliora la condizione giuridica rispetto agli altri.",
+          "a": "1. Più commercianti avevano caricato il grano nella nave di Saufeio, stivandolo alla rinfusa. Saufeio aveva restituito, dal catico comune, il grano a uno dei commercianti caricatori; poi la nave è affondata.\n2. Si pone il quesito, se gli altri commercianti caricatori possano agire nei confronti dell'armatore, per la loro parte di grano, con l'«azione per la sottrazione di carico».\n3. Il responso fu in questi termini. Due sono i generi degli assetti locativi, in quanto o ci si obbliga a restituire la stessa cosa ricevuta in consegna (come quando siano locati dei vestiti a un lavandaio perché ne prenda cura), o ci si obbliga a restituire una cosa dello stesso tipo (come quando si dia dell'argento fuso a un artigiano, perché ne faccia dei vasi, o dell'oro, perché ne faccia degli anelli). Nella prima ipotesi, la cosa rimane in proprietà dell'affidante; nella seconda ipotesi, sorge in capo all'alienante un diritto di credito. Lo stesso quadro giuridico si ha nel deposito: se si deposita del danaro contante, senza consegnarlo chiuso e sigillato, ma semplicemente contandolo, il depositario a nient'altro è tenuto che alla restituzione di una somma eguale. Secondo quanto si è detto, nel caso nostro, il grano è stato acquistato in proprietà da Saufeio, ed è stato validamente trasferito. Se invece il grano fosse rimasto in proprietà di ognuno dei commercianti caricatori - diviso in scomparti, chiuso per mezzo di tavole o in ceste o in barili in modo da poter distinguere ogni singolo carico - allora noi non avremmo potuto «permutare» un carico con l'altro; e quanto al commerciante caricatore, proprietario del grano che l'armatore ha restituito, egli sarebbe legittimato a esperire l'azione di revindica. Perciò, secondo Servio, non è possibile ammettere l'esercizio dell'«azione per la sottrazione di carico»: perché delle due l'una: o le merci consegnate all'armatore sono tali, che egli ne divenga immediatamente proprietario, e al commerciante caricatore spetti solo un diritto di credito verso di lui, e allora non c'è sottrazione di carico, appartenendo quest'ultimo all'armatore; o deve essere restituita la medesima cosa che è stata consegnata, e allora il locatore (ossia, il commerciante caricatore) può esercitare l’azione per il furto, ed è quindi superflua l'«azione per la sottrazione di carico». Ma, posto che la dazione della cosa si configuri in modo tale, che sia possibile restituire una cosa dello stesso tipo, il conduttore (Ossia, l'armatore) è responsabile solo per colpa (infatti, in un rapporto che si costituisce contrattualmente nell'interesse di entrambe le parti, si ha solo responsabilità per colpa); né nel nostro caso, vi è colpa, per il fatto che il conduttore ha restituito a uno dei commercianti caricatori la sua parte del frumento comune. E la ragione è questa: era pure necessario che il conduttore, nel compiere la restituzione, cominciasse da uno qualunque di loro; sebbene egli, così facendo, non è né se migliora la condizione giuridica rispetto agli altri."
+        },
+        {
+          "da": "3. Il responso fu in questi termini. Due sono i gene",
+          "a": "3. Il responso fu in questi termini.\n\n   Due sono i gene"
+        },
+        {
+          "da": ", o dell'oro, perché ne faccia degli anelli). Nella prima ipo",
+          "a": ", o dell'oro, perché ne faccia degli anelli).\n\n   Nella prima ipo"
+        },
+        {
+          "da": " in capo all'alienante un diritto di credito. Lo stesso quadr",
+          "a": " in capo all'alienante un diritto di credito.\n\n   Lo stesso quadr"
+        },
+        {
+          "da": "a Saufeio, ed è stato validamente trasferito. Se invece il gr",
+          "a": "a Saufeio, ed è stato validamente trasferito.\n\n   Se invece il gr"
+        },
+        {
+          "da": "flua l'«azione per la sottrazione di carico». Ma, posto che l",
+          "a": "flua l'«azione per la sottrazione di carico».\n\n   Ma, posto che l"
         }
       ]
     },
@@ -9947,6 +10682,18 @@
         {
           "da": "i dello ius gentium. - lo scenario che qu",
           "a": "i dello ius gentium.\n\n- lo scenario che qu"
+        },
+        {
+          "da": "1- Si proponeva questa ipotesi: alcuni dei giudici, nominati per la stessa «cosa», dopo aver udita la causa erano stati esonerati dall'ufficio, e altri avevano preso il loro posto. 2- Si domandava: il mutamento di singoli giudici mantiene identica la «cosa» o rende altro il collegio giudicante? 3- Risposi: non solo se l'uno o l’altro dei giudici, ma anche se tutti i giudici fossero cambiati, nondimeno la «cosa» e il collegio giudicante rimarrebbero tali quali erano prima. Né accade solo in questo caso, ma anche in molti altri, che, mutate le parti, si continui a considerare la cosa come la medesima. Così si ha sempre la medesima legione, benché molti soldati di essa siano morti e altri li abbiano sostituiti; così, il popolo di ora è considerato lo stesso di quel che era cento anni fa, benché nessuno di quel tempo ora sia vivo; così una nave, che è stata spesso riparata, al punto che non c'è in essa più nessuna tavola che non sia nuova, continua ad apparire sempre la stessa nave. Che se poi si pensasse che, mutando le parti, anche la cosa diventi un'altra, se ne dovrebbe arguire, seguendo il filo del ragionamento, che anche noi non siamo più gli stessi che eravamo un anno prima, perché, come dicono i filosofi, siamo costituiti di particelle estremamente piccole, e queste, giorno dopo giorno, abbandonano il nostro corpo, mentre altre prendono all'esterno il loro posto. In conclusione, si deve riconoscere che, sino a quando rimane identica la forma di una cosa, anche la cosa continua ad essere la medesima",
+          "a": "1. Si proponeva questa ipotesi: alcuni dei giudici, nominati per la stessa «cosa», dopo aver udita la causa erano stati esonerati dall'ufficio, e altri avevano preso il loro posto.\n2. Si domandava: il mutamento di singoli giudici mantiene identica la «cosa» o rende altro il collegio giudicante?\n3. Risposi: non solo se l'uno o l’altro dei giudici, ma anche se tutti i giudici fossero cambiati, nondimeno la «cosa» e il collegio giudicante rimarrebbero tali quali erano prima. Né accade solo in questo caso, ma anche in molti altri, che, mutate le parti, si continui a considerare la cosa come la medesima. Così si ha sempre la medesima legione, benché molti soldati di essa siano morti e altri li abbiano sostituiti; così, il popolo di ora è considerato lo stesso di quel che era cento anni fa, benché nessuno di quel tempo ora sia vivo; così una nave, che è stata spesso riparata, al punto che non c'è in essa più nessuna tavola che non sia nuova, continua ad apparire sempre la stessa nave. Che se poi si pensasse che, mutando le parti, anche la cosa diventi un'altra, se ne dovrebbe arguire, seguendo il filo del ragionamento, che anche noi non siamo più gli stessi che eravamo un anno prima, perché, come dicono i filosofi, siamo costituiti di particelle estremamente piccole, e queste, giorno dopo giorno, abbandonano il nostro corpo, mentre altre prendono all'esterno il loro posto. In conclusione, si deve riconoscere che, sino a quando rimane identica la forma di una cosa, anche la cosa continua ad essere la medesima"
+        },
+        {
+          "da": "udicante rimarrebbero tali quali erano prima. Né accade solo ",
+          "a": "udicante rimarrebbero tali quali erano prima.\n\n   Né accade solo "
+        },
+        {
+          "da": "tre altre prendono all'esterno il loro posto. In conclusione,",
+          "a": "tre altre prendono all'esterno il loro posto.\n\n   In conclusione,"
         }
       ]
     },
@@ -10060,6 +10807,10 @@
         {
           "da": "La giurisprudenza in età classica Naturalmente, al cam",
           "a": "#### La giurisprudenza in età classica\n\nNaturalmente, al cam"
+        },
+        {
+          "da": "ssioni, precisazioni, di carattere specifico. L’instaurarsi d",
+          "a": "ssioni, precisazioni, di carattere specifico.\n\nL’instaurarsi d"
         }
       ]
     },
@@ -10077,6 +10828,10 @@
         {
           "da": "’agere e dal gerere. - Agere: actum, ager",
           "a": "’agere e dal gerere.\n\n- Agere: actum, ager"
+        },
+        {
+          "da": "Di Labeone ci è pervenuto un commentario all’editto, e l’impulso dato da quest’opera è proprio la volontà di riaffermazione di quel ruolo importante che la giurisprudenza rivestiva nella funzione normativa dell’editto, che stava nella verifica degli strumenti in esso contenuti o nel suggerimento di nuovi da inserire a fronte della formazione alluvionale dell’editto stesso… (Nel commento all’editto si riafferma simbolicamente quel ruolo della giurisprudenza. ) 4- E anche poi un innovatore sotto il profilo delle dottrine contrattualistiche, il suo apporto dato al ragionamento nell’ambito del diritto privato fu significativo in quanto defin’ proprio il contraere, siamo ali albori del contratto; Con il ius gentium erano affiorati i nova negotia, questa nuova tipologia di contratto, su cui la giurisprudenza inizia ragionare, e Labeone definisce il contraere distinguendolo dall’agere e dal gerere.",
+          "a": "Di Labeone ci è pervenuto un commentario all’editto, e l’impulso dato da quest’opera è proprio la volontà di riaffermazione di quel ruolo importante che la giurisprudenza rivestiva nella funzione normativa dell’editto, che stava nella verifica degli strumenti in esso contenuti o nel suggerimento di nuovi da inserire a fronte della formazione alluvionale dell’editto stesso… (Nel commento all’editto si riafferma simbolicamente quel ruolo della giurisprudenza. )\n\n4. E anche poi un innovatore sotto il profilo delle dottrine contrattualistiche, il suo apporto dato al ragionamento nell’ambito del diritto privato fu significativo in quanto defin’ proprio il contraere, siamo ali albori del contratto; Con il ius gentium erano affiorati i nova negotia, questa nuova tipologia di contratto, su cui la giurisprudenza inizia ragionare, e Labeone definisce il contraere distinguendolo dall’agere e dal gerere."
         }
       ]
     },
@@ -10169,6 +10924,22 @@
         {
           "da": "Secondo aspetto che lega giurista e principe\n2. Discussioni nel ",
           "a": "#### Secondo aspetto che lega giurista e principe\n\n\n2. Discussioni nel "
+        },
+        {
+          "da": "e da lui presero inizio anche i fedecommessi. Egli infatti, i",
+          "a": "e da lui presero inizio anche i fedecommessi.\n\n     Egli infatti, i"
+        },
+        {
+          "da": "i legati a cui giuridicamente non era tenuta. Si racconta che",
+          "a": "i legati a cui giuridicamente non era tenuta.\n\n     Si racconta che"
+        },
+        {
+          "da": "'interna coerenza dell'ordinamento giuridico. Trebazio, si di",
+          "a": "'interna coerenza dell'ordinamento giuridico.\n\n     Trebazio, si di"
+        },
+        {
+          "da": "#### Secondo aspetto che lega giurista e principe\n\n\n2. Discussioni nel Il ruolo emblematico del giurista è quello di consigliere, lo si vede in queste consiglio imperiale vesti",
+          "a": "### 2. Discussioni nel consiglio imperiale\n\n#### Secondo aspetto che lega giurista e principe\n\nIl ruolo emblematico del giurista è quello di consigliere, lo si vede in queste vesti"
         }
       ]
     },
@@ -10280,6 +11051,18 @@
         {
           "da": "molto significativo: - Trebazio che dà il",
           "a": "molto significativo:\n\n- Trebazio che dà il"
+        },
+        {
+          "da": "a via portò una loro vincolatività giuridica. Pian piano si h",
+          "a": "a via portò una loro vincolatività giuridica.\n\nPian piano si h"
+        },
+        {
+          "da": "i con una conoscenza specifica della materia. Quindi i fedeco",
+          "a": "i con una conoscenza specifica della materia.\n\nQuindi i fedeco"
+        },
+        {
+          "da": " analogamente ai legati che già nascono così. Tutto questo è ",
+          "a": " analogamente ai legati che già nascono così.\n\nTutto questo è "
         }
       ]
     },
@@ -10289,6 +11072,18 @@
         {
           "da": "(Testo pag. 217) “Poiché Valerio Nepo",
           "a": "(Testo pag. 217)\n\n“Poiché Valerio Nepo"
+        },
+        {
+          "da": "o Cesare disse: “Voi avete i vostri giudici”. Vibio Zenone di",
+          "a": "o Cesare disse: “Voi avete i vostri giudici”.\n\nVibio Zenone di"
+        },
+        {
+          "da": "se: “Ha cancellato solo il nome degli eredi”. Calpurnio Longi",
+          "a": "se: “Ha cancellato solo il nome degli eredi”.\n\nCalpurnio Longi"
+        },
+        {
+          "da": "sso alcuni schiavi e ha disposto dei legati”. Antonino Cesare",
+          "a": "sso alcuni schiavi e ha disposto dei legati”.\n\nAntonino Cesare"
         }
       ]
     },
@@ -10307,6 +11102,10 @@
         {
           "da": "(Testo pag. 219) Sappiamo che si è ta",
           "a": "(Testo pag. 219)\n\nSappiamo che si è ta"
+        },
+        {
+          "da": "accusato quel liberto di un delitto capitale. Ci è noto che P",
+          "a": "accusato quel liberto di un delitto capitale.\n\nCi è noto che P"
         }
       ]
     },
@@ -10316,6 +11115,14 @@
         {
           "da": "(Testo pag. 220-221) Fabio Antonino lasci",
           "a": "(Testo pag. 220-221)\n\nFabio Antonino lasci"
+        },
+        {
+          "da": "sciando sua erede la figlia, Fabia Valeriana. Da quest'ultima",
+          "a": "sciando sua erede la figlia, Fabia Valeriana.\n\nDa quest'ultima"
+        },
+        {
+          "da": "lta iniziato, è da considerare come compiuto. L'imperatore, m",
+          "a": "lta iniziato, è da considerare come compiuto.\n\nL'imperatore, m"
         }
       ]
     },
@@ -10585,6 +11392,14 @@
         {
           "da": "renderanno il posto) - Sudditi, governato",
           "a": "renderanno il posto)\n\n- Sudditi, governato"
+        },
+        {
+          "da": "- Sudditi, governatori o altri funzionari avevano infatti la possibilità di rivolgere al principe dei quesiti i quali venivano raccolti da degli uffici appositi, e ai quali, appunto, il princeps rispondeva. ( Non dobbiamo mai dimenticare che c’è sempre una cerchia di giuristi che aiuta il principe nelle decisioni e poi controlla l’efficacia dei rimedi). I rescripta si suddividono in subscriptiones ed epistulae. 1- Le subscriptiones",
+          "a": "- Sudditi, governatori o altri funzionari avevano infatti la possibilità di rivolgere al principe dei quesiti i quali venivano raccolti da degli uffici appositi, e ai quali, appunto, il princeps rispondeva. ( Non dobbiamo mai dimenticare che c’è sempre una cerchia di giuristi che aiuta il principe nelle decisioni e poi controlla l’efficacia dei rimedi). I rescripta si suddividono in subscriptiones ed epistulae.\n1. Le subscriptiones"
+        },
+        {
+          "da": "- Naturalmente, in base alla richiesta era fornita una risposta, che poteva essere o esposta al pubblico (con o senza libellus) o comunicata in modo privato, quindi personalmente, alla persona che l’aveva richiesta, o, in alcuni casi, l’una e l’altra cosa insieme. 2- Le epistulae",
+          "a": "- Naturalmente, in base alla richiesta era fornita una risposta, che poteva essere o esposta al pubblico (con o senza libellus) o comunicata in modo privato, quindi personalmente, alla persona che l’aveva richiesta, o, in alcuni casi, l’una e l’altra cosa insieme.\n\n2. Le epistulae"
         }
       ]
     },
@@ -10642,6 +11457,10 @@
         {
           "da": "nzione del principe. > La produzione di r",
           "a": "nzione del principe.\n\n> La produzione di r"
+        },
+        {
+          "da": "amministrativo- giudiziaria",
+          "a": "amministrativo-giudiziaria"
         }
       ]
     },
@@ -10741,6 +11560,10 @@
         {
           "da": "parte del principe). > Tutti questi atti ",
           "a": "parte del principe).\\\n> Tutti questi atti "
+        },
+        {
+          "da": "5. Un potere nuovo? Gli atti",
+          "a": "### 5. Un potere nuovo?\n\nGli atti"
         }
       ]
     },
@@ -11018,6 +11841,10 @@
         {
           "da": "to la giusta strada: Leist Riteneva che vi si p",
           "a": "to la giusta strada:\n\n#### Leist\n\nRiteneva che vi si p"
+        },
+        {
+          "da": "Riteneva che vi si potessero ravvisare 6 parti. 1- de testamentis , de legatis 2- tradizione (o mancipatio) 3- matrimonio e dote, tutela 4- furtum 5- condictiones, stipulationes 6- rei vindicatio o de iurisdictione",
+          "a": "Riteneva che vi si potessero ravvisare 6 parti.\n1. de testamentis , de legatis\n2. tradizione (o mancipatio)\n3. matrimonio e dote, tutela\n4. furtum\n5. condictiones, stipulationes\n6. rei vindicatio o de iurisdictione"
         }
       ]
     },
@@ -11052,6 +11879,14 @@
         {
           "da": "o - Institutiones)\n\n> Anche Gaio è inser",
           "a": "o - Institutiones)\n\n\n\n> Anche Gaio è inser"
+        },
+        {
+          "da": " riguarda o le persone o le cose o le azioni. In primo luogo ",
+          "a": " riguarda o le persone o le cose o le azioni.\n\nIn primo luogo "
+        },
+        {
+          "da": "ndizione servile giuridicamente riconosciuta. I libertini cos",
+          "a": "ndizione servile giuridicamente riconosciuta.\n\nI libertini cos"
         }
       ]
     },
@@ -11139,6 +11974,10 @@
         {
           "da": "rattere speculativo: > Si tentava infatti",
           "a": "rattere speculativo:\n\n> Si tentava infatti"
+        },
+        {
+          "da": "1- Una prima chiave di lettura è quella filosofica: Sviluppatasi nell'ottocento, possiamo riconoscere in questa considerazione una sorta di carattere speculativo:",
+          "a": "1. Una prima chiave di lettura è quella filosofica: Sviluppatasi nell'ottocento, possiamo riconoscere in questa considerazione una sorta di carattere speculativo:"
         }
       ]
     },
@@ -11168,6 +12007,10 @@
         {
           "da": "Come dobbiamo immaginare queste scuole? Le scuole giuridiche",
           "a": "#### Come dobbiamo immaginare queste scuole?\n\nLe scuole giuridiche"
+        },
+        {
+          "da": "socratico- accademico",
+          "a": "socratico-accademico"
         }
       ]
     },
@@ -11248,6 +12091,30 @@
         {
           "da": "ldamente costituite: - Da un lato la form",
           "a": "ldamente costituite:\n\n- Da un lato la form"
+        },
+        {
+          "da": "> Responsa: 1- Fra Augusto",
+          "a": "> Responsa:\n1. Fra Augusto"
+        },
+        {
+          "da": "Celso. 2 - All’inizio",
+          "a": "Celso.\n2. All’inizio"
+        },
+        {
+          "da": "Modestino. 1- Se il giurista",
+          "a": "Modestino.\n   1. Se il giurista"
+        },
+        {
+          "da": "geograficamente vasto) 2- Dopo il periodo",
+          "a": "geograficamente vasto)\n   2. Dopo il periodo"
+        },
+        {
+          "da": "cambia:\n\n- Sono significativi",
+          "a": "cambia:\n      - Sono significativi"
+        },
+        {
+          "da": "i quesiti sono posti in greco)\\\n> Epistulae:",
+          "a": "i quesiti sono posti in greco)\n\n> Epistulae:"
         }
       ]
     },
@@ -11265,6 +12132,10 @@
         {
           "da": "uttura del discorso: - Nella prima parte ",
           "a": "uttura del discorso:\n\n- Nella prima parte "
+        },
+        {
+          "da": "- Poi il giureconsulto da, in forma epistolare, il suo responso. 1- « Seio Saturnino, capo pilota della flotta britannica, ha istituito erede fiduciario nel suo testamento il trierarca Valerio Massimo, e gli ha imposto con un fedecommesso l’onere di restituire l’eredità al proprio figlio, Seio Oceano, appena avesse raggiunto sedici anni. Oceano muore prima. Si fa avanti Mallio Seneca, che afferma di essere zio materno di Seio Oceano, e pretende i beni ereditari sulla base del rapporto di parentela; il trierarca Massimo invece li rivendica per sé, poiché è morto colui al quale avrebbe dovuto restituirli. Questo è il caso. 2- domando sei beni spettano al trierarca Valerio Massimo, erede fiduciario, oppure a Mallio Seneca, che si dichiara zio materno del giovane defunto. 3- Rispondo. L’eredità fiduciaria spetta a colui al quale spettano gli altri beni di Oceano. La ragione è nel fatto che la potenziale attribuzione di fedecommesso è avvenuta durante la vita di Oceano ; sempre che il testatore, prorogando il momento dell’esecuzione, abbia voluto permettere all’erede fiduciario la custodia dei beni, piuttosto che fissare per il fedecommesso un termine incerto ».",
+          "a": "- Poi il giureconsulto da, in forma epistolare, il suo responso.\n1. « Seio Saturnino, capo pilota della flotta britannica, ha istituito erede fiduciario nel suo testamento il trierarca Valerio Massimo, e gli ha imposto con un fedecommesso l’onere di restituire l’eredità al proprio figlio, Seio Oceano, appena avesse raggiunto sedici anni. Oceano muore prima. Si fa avanti Mallio Seneca, che afferma di essere zio materno di Seio Oceano, e pretende i beni ereditari sulla base del rapporto di parentela; il trierarca Massimo invece li rivendica per sé, poiché è morto colui al quale avrebbe dovuto restituirli. Questo è il caso.\n2. domando sei beni spettano al trierarca Valerio Massimo, erede fiduciario, oppure a Mallio Seneca, che si dichiara zio materno del giovane defunto.\n3. Rispondo. L’eredità fiduciaria spetta a colui al quale spettano gli altri beni di Oceano. La ragione è nel fatto che la potenziale attribuzione di fedecommesso è avvenuta durante la vita di Oceano ; sempre che il testatore, prorogando il momento dell’esecuzione, abbia voluto permettere all’erede fiduciario la custodia dei beni, piuttosto che fissare per il fedecommesso un termine incerto »."
         }
       ]
     },
@@ -11383,6 +12254,11 @@
         {
           "da": "235 d.C. al 284 d.C. - Questo fu uno dei ",
           "a": "235 d.C. al 284 d.C.\n\n- Questo fu uno dei "
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -11536,6 +12412,34 @@
         {
           "da": "(Cariche singole)\n\n> Grazie alla “Notit",
           "a": "(Cariche singole)\n\n\n\n> Grazie alla “Notit"
+        },
+        {
+          "da": "Dignitates Palatinae: 1 - Quaestor sacri palatii",
+          "a": "Dignitates Palatinae:\n\n#### 1. Quaestor sacri palatii"
+        },
+        {
+          "da": "di volta in volta. 2 - Comes sacrarum largitionum",
+          "a": "di volta in volta.\n\n#### 2. Comes sacrarum largitionum"
+        },
+        {
+          "da": "emanare le tasse. 3 - Comes rei privatae",
+          "a": "emanare le tasse.\n\n#### 3. Comes rei privatae"
+        },
+        {
+          "da": "dell’imperatore. 4- Magister officiorum Può essere",
+          "a": "dell’imperatore.\n\n#### 4. Magister officiorum\n\nPuò essere"
+        },
+        {
+          "da": "#### 1. Quaestor sacri palatii\\\n>",
+          "a": "#### 1. Quaestor sacri palatii\n\n>"
+        },
+        {
+          "da": "#### 2. Comes sacrarum largitionum\\\n>",
+          "a": "#### 2. Comes sacrarum largitionum\n\n>"
+        },
+        {
+          "da": "#### 3. Comes rei privatae\\\n>",
+          "a": "#### 3. Comes rei privatae\n\n>"
         }
       ]
     },
@@ -11561,6 +12465,22 @@
         {
           "da": "(Consigli e gruppi)\n- Consistorium Era “",
           "a": "(Consigli e gruppi)\n\n\n- Consistorium Era “"
+        },
+        {
+          "da": "nti tra loro rientrano nell’ordine senatorio. Siamo in una so",
+          "a": "nti tra loro rientrano nell’ordine senatorio.\n\n  Siamo in una so"
+        },
+        {
+          "da": "in quanto ormai vige il sistema del colonato. Oltre al colona",
+          "a": "in quanto ormai vige il sistema del colonato.\n\n  Oltre al colona"
+        },
+        {
+          "da": " fornai che sono riuniti proprio in collegi). Una situazione ",
+          "a": " fornai che sono riuniti proprio in collegi).\n\n  Una situazione "
+        },
+        {
+          "da": "questo caso ereditariamente, ai suoi compiti. È sbagliato pen",
+          "a": "questo caso ereditariamente, ai suoi compiti.\n\n  È sbagliato pen"
         }
       ]
     },
@@ -11648,6 +12568,14 @@
         {
           "da": "a paternità incerta: - Molti la attribui",
           "a": "a paternità incerta:\n   - Molti la attribui"
+        },
+        {
+          "da": "caratterizzato\n2. Una mentalità per essere composito, in quanto si rifaceva ad una molteplicità di fonti, e legalistica l'interpretazione",
+          "a": "caratterizzato per essere composito, in quanto si rifaceva ad una molteplicità di fonti, e l'interpretazione"
+        },
+        {
+          "da": "Se a partire dall’età tardo antica",
+          "a": "### 2. Una mentalità legalistica\n\nSe a partire dall’età tardo antica"
         }
       ]
     },
@@ -11657,6 +12585,22 @@
         {
           "da": "rtanza per l’autore. - Ciò che dobbiamo c",
           "a": "rtanza per l’autore.\n\n- Ciò che dobbiamo c"
+        },
+        {
+          "da": "o in un testo scritto una volontà precettiva. (Testo pag. 362",
+          "a": "o in un testo scritto una volontà precettiva.\n\n  (Testo pag. 362"
+        },
+        {
+          "da": "is che risale probabilmente al IV secolo d.C. In base alle in",
+          "a": "is che risale probabilmente al IV secolo d.C.\n\n  In base alle in"
+        },
+        {
+          "da": " curiali o comunque al ceto medio benestante. Dunque questo s",
+          "a": " curiali o comunque al ceto medio benestante.\n\n  Dunque questo s"
+        },
+        {
+          "da": "tari che tendono a gravare sulla popolazione. Durante l'imper",
+          "a": "tari che tendono a gravare sulla popolazione.\n\n  Durante l'imper"
         }
       ]
     },
@@ -11767,6 +12711,10 @@
         {
           "da": "proprio “ritagliare” - Quest’opera sembra",
           "a": "proprio “ritagliare”\n\n- Quest’opera sembra"
+        },
+        {
+          "da": "1- Epitomae Ulpiani “Epitomare”",
+          "a": "#### 1. Epitomae Ulpiani\n\n“Epitomare”"
         }
       ]
     },
@@ -11788,6 +12736,14 @@
         {
           "da": "2- Pauli Sententiae - Cioè le “sentenze ",
           "a": "2- Pauli Sententiae\n\n- Cioè le “sentenze "
+        },
+        {
+          "da": "2- Pauli Sententiae",
+          "a": "2. Pauli Sententiae"
+        },
+        {
+          "da": "2. Pauli Sententiae",
+          "a": "#### 2. Pauli Sententiae"
         }
       ]
     },
@@ -11801,6 +12757,14 @@
         {
           "da": "3- Epitomae Gaii - Fu scoperta ad Aut",
           "a": "3- Epitomae Gaii\n\n- Fu scoperta ad Aut"
+        },
+        {
+          "da": "3- Epitomae Gaii",
+          "a": "3. Epitomae Gaii"
+        },
+        {
+          "da": "3. Epitomae Gaii",
+          "a": "#### 3. Epitomae Gaii"
         }
       ]
     },
@@ -11862,6 +12826,22 @@
         {
           "da": "Raccolte miste di leges et iura I frammenti di quest",
           "a": "#### Raccolte miste di leges et iura\n\nI frammenti di quest"
+        },
+        {
+          "da": "- All’interno di queste raccolte, che sono frutto di un lavoro esegetico (lettura e annotazione\\ esplicazione) di raccolta durato oltre un secolo, i brani estratti dalla produzione giurisprudenziale vengono organizzati non secondo il discorso ordinario, ma in maniera frammentata: ci sono cioè delle citazioni tratte da autori diversi adunate intorno a temi di fondo, ma ciascun pensiero era attentamente ricollegato al suo autore di provenienza. 1- Fragmenta vaticana",
+          "a": "- All’interno di queste raccolte, che sono frutto di un lavoro esegetico (lettura e annotazione\\ esplicazione) di raccolta durato oltre un secolo, i brani estratti dalla produzione giurisprudenziale vengono organizzati non secondo il discorso ordinario, ma in maniera frammentata: ci sono cioè delle citazioni tratte da autori diversi adunate intorno a temi di fondo, ma ciascun pensiero era attentamente ricollegato al suo autore di provenienza.\n1. Fragmenta vaticana"
+        },
+        {
+          "da": "- Questa raccolta ha carattere teoretico, era probabilmente destinata all’insegnamento, e avrebbe dovuto rimpiazzare tutti i materiali circolanti in quanto era anche un compendio utile, maneggevole e più accessibile per chiunque volesse accostarsi all'apprendimento della scienza giuridica. 2- Collatio legum Mosaicarum et Romanarum",
+          "a": "- Questa raccolta ha carattere teoretico, era probabilmente destinata all’insegnamento, e avrebbe dovuto rimpiazzare tutti i materiali circolanti in quanto era anche un compendio utile, maneggevole e più accessibile per chiunque volesse accostarsi all'apprendimento della scienza giuridica.\n\n2. Collatio legum Mosaicarum et Romanarum"
+        },
+        {
+          "da": "provenienza.\n1. Fragmenta vaticana",
+          "a": "provenienza.\n\n#### 1. Fragmenta vaticana"
+        },
+        {
+          "da": "\n2. Collatio legum Mosaicarum et Romanarum",
+          "a": "\n#### 2. Collatio legum Mosaicarum et Romanarum"
         }
       ]
     },
@@ -11883,6 +12863,18 @@
         {
           "da": "iusdam iurisconsulti - È un'altro opuscol",
           "a": "iusdam iurisconsulti\n\n- È un'altro opuscol"
+        },
+        {
+          "da": "3- Consultatio veteris cuiusdam iurisconsulti",
+          "a": "3. Consultatio veteris cuiusdam iurisconsulti"
+        },
+        {
+          "da": "3. Consultatio veteris",
+          "a": "#### 3. Consultatio veteris"
+        },
+        {
+          "da": "post- classici",
+          "a": "post-classici"
         }
       ]
     },
@@ -11912,6 +12904,14 @@
         {
           "da": "La concezione della produzione giurisprudenziale cambia: La legge delle citazioni\n\n> Capiamo quindi c",
           "a": "#### La concezione della produzione giurisprudenziale cambia: La legge delle citazioni\n\n\n\n> Capiamo quindi c"
+        },
+        {
+          "da": "vuto fondarsi nella pronuncia della sentenza. Tuttavia non ci",
+          "a": "vuto fondarsi nella pronuncia della sentenza.\n\nTuttavia non ci"
+        },
+        {
+          "da": "nto vi era l'incertezza dei testi consultati. Non sempre, inf",
+          "a": "nto vi era l'incertezza dei testi consultati.\n\nNon sempre, inf"
         }
       ]
     },
@@ -11975,6 +12975,11 @@
         {
           "da": "pratica giudiziaria. —> Quindi, a distanz",
           "a": "pratica giudiziaria.\n\n—> Quindi, a distanz"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -12024,6 +13029,26 @@
         {
           "da": "o in mensa di libri. > Quindi nacque il b",
           "a": "o in mensa di libri.\\\n> Quindi nacque il b"
+        },
+        {
+          "da": "4. Il codice come libro e Raccolte di Leges come testo legislativo: Il movimento codificatorio raccolte non ufficiali e Abbiamo visto, dunque, che il movimento codificatorio nasce dalla codificazione teodosiana necessità di porre",
+          "a": "### 4. Il codice come libro e come testo legislativo: raccolte non ufficiali e codificazione teodosiana\n\n#### Raccolte di Leges\n\n#### Il movimento codificatorio\n\nAbbiamo visto, dunque, che il movimento codificatorio nasce dalla necessità di porre"
+        },
+        {
+          "da": "problematiche: 1- La conoscenza",
+          "a": "problematiche:\n1. La conoscenza"
+        },
+        {
+          "da": "norme stesse. 2- Vi si",
+          "a": "norme stesse.\n2. Vi si"
+        },
+        {
+          "da": "generale o particolare) 3- Anche",
+          "a": "generale o particolare)\n3. Anche"
+        },
+        {
+          "da": "motivo di confusione. 4- E anche",
+          "a": "motivo di confusione.\n4. E anche"
         }
       ]
     },
@@ -12088,6 +13113,18 @@
         {
           "da": "306 d.C. in avanti). > Lo scopo di includ",
           "a": "306 d.C. in avanti).\n\n> Lo scopo di includ"
+        },
+        {
+          "da": "“ sirmondiana”) Codificazione Teodosiana La prima",
+          "a": "“ sirmondiana”)\n\n#### Codificazione Teodosiana\n\nLa prima"
+        },
+        {
+          "da": "portata a termine. 1- Il primo codice Nel Primo codice",
+          "a": "portata a termine.\n\n#### 1. Il primo codice\n\nNel Primo codice"
+        },
+        {
+          "da": "Teodosio II 2- Il secondo codice Nel secondo",
+          "a": "Teodosio II\n\n#### 2. Il secondo codice\n\nNel secondo"
         }
       ]
     },
@@ -12204,6 +13241,14 @@
         {
           "da": "La Codificazione Giustinianea: Il Corpus Iuris Civilis\n6. La codificazione",
           "a": "#### La Codificazione Giustinianea: Il Corpus Iuris Civilis\n\n\n6. La codificazione"
+        },
+        {
+          "da": "#### La Codificazione Giustinianea: Il Corpus Iuris Civilis\n\n\n6. La codificazione Tutto ciò",
+          "a": "### 6. La codificazione giustinianea\n\n#### La Codificazione Giustinianea: Il Corpus Iuris Civilis\n\nTutto ciò"
+        },
+        {
+          "da": "in una giustinianea straordinaria raccolta",
+          "a": "in una straordinaria raccolta"
         }
       ]
     },
@@ -12366,6 +13411,10 @@
         {
           "da": "tiniano confirmando) > Terminato i lavori",
           "a": "tiniano confirmando)\\\n> Terminato i lavori"
+        },
+        {
+          "da": "arma- leges",
+          "a": "arma-leges"
         }
       ]
     },
@@ -12659,6 +13708,10 @@
         {
           "da": "eamente nei Digesta. - Il Digesto, infatt",
           "a": "eamente nei Digesta.\n\n- Il Digesto, infatt"
+        },
+        {
+          "da": "- A scopo didattico, inoltre, furono divisi i 50 libi del Digesto in 7 parti: 1- Prima parte denominata “Prōta” comprende i libri 1-4 2- Seconda parte denominata “de iudiciis” comprende i libri 5-11 3- Terza parte denominata “de rebus” comprende i libri 12-19 4- Quarta parte era la parte centrale dell’opera e comprende i libri 20-27 Dei quali: il 20° libro relativo a pegno e ipoteca; 21° relativo ad editto edilizio, azione redibitoria, evizione e stipulatio duplae; 22° relativo ad interessi, prestito marittimo, documento, testimoni, prove e presunzioni; 23°-25° relativi agli sponsali, al matrimonio e la dote; 26°-27° relativi a tutela e cura. 5- Quinta parte comprende i libri 28-36 relativi al testamento e ai legati.",
+          "a": "- A scopo didattico, inoltre, furono divisi i 50 libi del Digesto in 7 parti:\n1. Prima parte denominata “Prōta” comprende i libri 1-4\n2. Seconda parte denominata “de iudiciis” comprende i libri 5-11\n3. Terza parte denominata “de rebus” comprende i libri 12-19\n4. Quarta parte era la parte centrale dell’opera e comprende i libri 20-27 Dei quali: il 20° libro relativo a pegno e ipoteca; 21° relativo ad editto edilizio, azione redibitoria, evizione e stipulatio duplae; 22° relativo ad interessi, prestito marittimo, documento, testimoni, prove e presunzioni; 23°-25° relativi agli sponsali, al matrimonio e la dote; 26°-27° relativi a tutela e cura.\n5. Quinta parte comprende i libri 28-36 relativi al testamento e ai legati."
         }
       ]
     },
@@ -12702,6 +13755,10 @@
         {
           "da": "(4 - Le Novellae)\n7. Le novelle e il r",
           "a": "(4 - Le Novellae)\n\n\n7. Le novelle e il r"
+        },
+        {
+          "da": "(4 - Le Novellae)\n\n\n7. Le novelle e il rapporto Con la pubblicazione del Codex repetitae praelectionis l'opera codificatore con il mondo classico di Giustiniano",
+          "a": "### 7. Le novelle e il rapporto con il mondo classico\n\n(4 - Le Novellae)\n\nCon la pubblicazione del Codex repetitae praelectionis l'opera codificatore di Giustiniano"
         }
       ]
     },
@@ -12821,6 +13878,11 @@
         {
           "da": "ni e le spiegazioni. - Emerge in questo s",
           "a": "ni e le spiegazioni.\n\n- Emerge in questo s"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -12874,6 +13936,11 @@
         {
           "da": "Umanesimo giuridico: - Questo periodo si ",
           "a": "Umanesimo giuridico:\n\n- Questo periodo si "
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
         }
       ]
     },
@@ -12941,6 +14008,15 @@
         {
           "da": " giusrazionalistiche > Questa spinta uman",
           "a": " giusrazionalistiche\\\n> Questa spinta uman"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
+        },
+        {
+          "da": "e giusrazionalistiche\\\n> Questa spinta",
+          "a": "e giusrazionalistiche\n\n> Questa spinta"
         }
       ]
     },
@@ -12963,6 +14039,10 @@
         {
           "da": "‣ Savigny > Pur avendo questo ",
           "a": "‣ Savigny\\\n> Pur avendo questo "
+        },
+        {
+          "da": "‣ Savigny\\\n> Pur avendo",
+          "a": "‣ Savigny\n\n> Pur avendo"
         }
       ]
     },
@@ -13044,6 +14124,10 @@
         {
           "da": "Struttura e caratteristiche dei codici moderni Facciamo appello a d",
           "a": "#### Struttura e caratteristiche dei codici moderni\n\nFacciamo appello a d"
+        },
+        {
+          "da": "Facciamo appello a definizioni di alcuni filosofi che ci spiegano le caratteristiche del codice moderno 1- Jeremy Bentham, filosofo che opera tra 700 e 800, è sensibile a questo genere di problematiche ed è un sostenitore della tradizione del codice, vedeva nel codice:",
+          "a": "Facciamo appello a definizioni di alcuni filosofi che ci spiegano le caratteristiche del codice moderno\n1. Jeremy Bentham, filosofo che opera tra 700 e 800, è sensibile a questo genere di problematiche ed è un sostenitore della tradizione del codice, vedeva nel codice:"
         }
       ]
     },
@@ -13057,6 +14141,10 @@
         {
           "da": "di mette in risalto: - Il carattere della",
           "a": "di mette in risalto:\n\n- Il carattere della"
+        },
+        {
+          "da": "3- Se invece consideriamo gli aspetti del codice moderno: Giovanni Tarello, filosofo contemporaneo di scuola genovese, affermava che “Il codice è un documento che contiene una serie di norme ordinate in modo sistematico tali da formate una unità e da realizzare una disciplina completa dei rapporti dei giudici” Quindi mette in risalto:",
+          "a": "3. Se invece consideriamo gli aspetti del codice moderno: Giovanni Tarello, filosofo contemporaneo di scuola genovese, affermava che “Il codice è un documento che contiene una serie di norme ordinate in modo sistematico tali da formate una unità e da realizzare una disciplina completa dei rapporti dei giudici” Quindi mette in risalto:"
         }
       ]
     },
@@ -13218,6 +14306,344 @@
         {
           "da": "Mappa cronologica: La Tradizione Giuridica Europea\n\n> Codex come forma",
           "a": "#### Mappa cronologica: La Tradizione Giuridica Europea\n\n\n\n> Codex come forma"
+        },
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
+        },
+        {
+          "da": "XII- XIII",
+          "a": "XII-XIII"
+        },
+        {
+          "da": "XIV -XV",
+          "a": "XIV-XV"
+        }
+      ]
+    },
+    "p030-b003": {
+      "baseSha256": "bc4967308533da2eca9fd19bcea0fb5ae40fc1c444c3a27dda1b6470b7d050a5",
+      "sostituzioni": [
+        {
+          "da": "> Ci sono state varie spiegazioni per questo fenomeno: 1- Vi è chi, agli inizi del 900, spiegava questo fenomeno come \"un argine elevato contro l'abuso del diritto in senso stretto, pur lasciando quest'ultimo in vigore\". Ciò significa che la consuetudine, intesa come un costume eterno e inderogabile, non verrebbe inclinata in nessun modo dalle leggi perfette, non verrebbe messa in discussione, in quanto la legge non farebbe altro che introdurre un contenuto nuovo senza munirlo della sua efficacia (= della sanzione). E quindi le leggi imperfette non sarebbero altro che una conferma dell’inscalfibilità delle consuetudini.",
+          "a": "> Ci sono state varie spiegazioni per questo fenomeno:\n1. Vi è chi, agli inizi del 900, spiegava questo fenomeno come \"un argine elevato contro l'abuso del diritto in senso stretto, pur lasciando quest'ultimo in vigore\". Ciò significa che la consuetudine, intesa come un costume eterno e inderogabile, non verrebbe inclinata in nessun modo dalle leggi perfette, non verrebbe messa in discussione, in quanto la legge non farebbe altro che introdurre un contenuto nuovo senza munirlo della sua efficacia (= della sanzione). E quindi le leggi imperfette non sarebbero altro che una conferma dell’inscalfibilità delle consuetudini."
+        }
+      ]
+    },
+    "p030-b004": {
+      "baseSha256": "0defb9f5f5325a71683e5d00ff0002918040f8c211306041a152b635b459dd57",
+      "sostituzioni": [
+        {
+          "da": "2- Un altro orientamento, sulla stessa linea, ha spiegato le leggi imperfette come un fenomeno che da atto della impermeabilità della consuetudine (= del ius) di fronte alla legge, e cioè considerando ius e lex come due sfere distinte, come se lo ius non potesse essere penetrato\\ permeato. E ciò dimostrerebbe quindi l’eternità della consuetudine che non si infrangesse neanche con una legge. ( Sebbene poi la realtà della consuetudine sia smentita dalla realtà dei fatti, in quanto i contesti cambiano).",
+          "a": "2. Un altro orientamento, sulla stessa linea, ha spiegato le leggi imperfette come un fenomeno che da atto della impermeabilità della consuetudine (= del ius) di fronte alla legge, e cioè considerando ius e lex come due sfere distinte, come se lo ius non potesse essere penetrato\\ permeato. E ciò dimostrerebbe quindi l’eternità della consuetudine che non si infrangesse neanche con una legge. ( Sebbene poi la realtà della consuetudine sia smentita dalla realtà dei fatti, in quanto i contesti cambiano)."
+        }
+      ]
+    },
+    "p030-b005": {
+      "baseSha256": "4b0b700d0a2430d7d97e384a863db8c5248efcf1f9be14d0a0a20fb1744bb979",
+      "sostituzioni": [
+        {
+          "da": "3- Un'altra visione, più pragmatistica, vede il costume\\ consuetudine non come eterno e inderogabile, ma come qualcosa che è possibile scalfire, infatti le leggi imperfette dimostrerebbero proprio la difficoltà di mettere in discussione alcune situazioni radicate e consolidate (e quindi la difficoltà di dichiarare nulli alcuni negozi formali). Secondo questa visione, quindi, la legge può applicare la consuetudine ma mai in modo esplicito, mai abrogandola e cassandola in modo esplicito, per cui le leggi imperfette sono congeniali alla mentalità tradizionalisti poiché non mettono in discussione i rapporti pregressi tra privati: dichiarano dei principi ma non è sanzionano l’inosservanza. Però producono elementi degni di considerazione che pian piano si fanno strada e possono mutare le relative discipline.",
+          "a": "3. Un'altra visione, più pragmatistica, vede il costume\\ consuetudine non come eterno e inderogabile, ma come qualcosa che è possibile scalfire, infatti le leggi imperfette dimostrerebbero proprio la difficoltà di mettere in discussione alcune situazioni radicate e consolidate (e quindi la difficoltà di dichiarare nulli alcuni negozi formali). Secondo questa visione, quindi, la legge può applicare la consuetudine ma mai in modo esplicito, mai abrogandola e cassandola in modo esplicito, per cui le leggi imperfette sono congeniali alla mentalità tradizionalisti poiché non mettono in discussione i rapporti pregressi tra privati: dichiarano dei principi ma non è sanzionano l’inosservanza. Però producono elementi degni di considerazione che pian piano si fanno strada e possono mutare le relative discipline."
+        }
+      ]
+    },
+    "p030-b006": {
+      "baseSha256": "d65fbabdd2e8f95aef83627a7ee65da5b4c3f29b9c48b3e2b85a748f053e71df",
+      "sostituzioni": [
+        {
+          "da": "4- Secondo un'altra spiegazione, la legge può invece modificare il diritto consuetudinario, può farlo ma lo nasconde, in quanto alla legge, anche quando innova, si riconosce sempre l'unico scopo di \"dichiarare\" e non di costituire il diritto che indivisibile nel tempo. Ma se fosse così eviteremmo le leggi perfette che mettono in questione i diritti già acquisiti nei rapporti fra privati, e solo le leggi non perfette si dimostrerebbero idonee a non produrre il caos, poiché possono applicarsi senza scalfire l'indivisibilità temporale dello Ius.",
+          "a": "4. Secondo un'altra spiegazione, la legge può invece modificare il diritto consuetudinario, può farlo ma lo nasconde, in quanto alla legge, anche quando innova, si riconosce sempre l'unico scopo di \"dichiarare\" e non di costituire il diritto che indivisibile nel tempo. Ma se fosse così eviteremmo le leggi perfette che mettono in questione i diritti già acquisiti nei rapporti fra privati, e solo le leggi non perfette si dimostrerebbero idonee a non produrre il caos, poiché possono applicarsi senza scalfire l'indivisibilità temporale dello Ius."
+        }
+      ]
+    },
+    "p092-b002": {
+      "baseSha256": "7cbf8fa094a3e82115fcbdd81b895bad51c6ebf9354df19aa8db5b8b77dcdb5c",
+      "sostituzioni": [
+        {
+          "da": "2- La posizione sociale. Certamente la ricchezza era un requisito fondamentale, una posizione economica agiata contava, in quanto appunto si poteva permettere di svolgere l‘attività del giurista colui che avrà una particolare situazione di censo.",
+          "a": "2. La posizione sociale. Certamente la ricchezza era un requisito fondamentale, una posizione economica agiata contava, in quanto appunto si poteva permettere di svolgere l‘attività del giurista colui che avrà una particolare situazione di censo."
+        },
+        {
+          "da": "2. La posizione sociale. Certamente",
+          "a": "#### 2. La posizione sociale.\n\nCertamente"
+        }
+      ]
+    },
+    "p092-b003": {
+      "baseSha256": "3e7deaabd8423d12f7447b589ae4c7c638e934ce3724245cca11853d5ea335ac",
+      "sostituzioni": [
+        {
+          "da": "3- Nell’età repubblicana, inoltre, c'era un forte legame tra giurisprudenza e servizio dello Stato, il giureconsulto era infatti autorevole anche come uomo di governo: i giuristi erano in primo luogo impegnati in attività pubbliche , e quindi politiche, militari e civili. Rivestivano cariche pubbliche, con maggiore o minor fortuna (spesso rivestivano magistrature, cariche consolari, o comunque percorrevano il cursus honorum più o meno fino alla fine). Non dobbiamo però confondere i due aspetti, che rimangono comunque distinti, in quanto il giureconsulto agisce sempre come un privato: la sua attività è autonoma rispetto alle cariche ricoperte di volta in volta.",
+          "a": "3. Nell’età repubblicana, inoltre, c'era un forte legame tra giurisprudenza e servizio dello Stato, il giureconsulto era infatti autorevole anche come uomo di governo: i giuristi erano in primo luogo impegnati in attività pubbliche , e quindi politiche, militari e civili. Rivestivano cariche pubbliche, con maggiore o minor fortuna (spesso rivestivano magistrature, cariche consolari, o comunque percorrevano il cursus honorum più o meno fino alla fine). Non dobbiamo però confondere i due aspetti, che rimangono comunque distinti, in quanto il giureconsulto agisce sempre come un privato: la sua attività è autonoma rispetto alle cariche ricoperte di volta in volta."
+        }
+      ]
+    },
+    "p092-b004": {
+      "baseSha256": "bd5e27f9c4b2eb5bc7ca029aed7a3b29d9a133167d28f121b689bb7ef13b543e",
+      "sostituzioni": [
+        {
+          "da": "4- E quanto più vasto era l’impegno quotidiano sul piano delle attività politiche, militari e civili, tanto maggiore è l’auctoritas. L’Auctoritas ( “autorevolezza”) è un altro termine importante che da una connotazione importante alla figura del giurista. L’auctoritas non è altro che quel valore aggiunto, quella prerogativa corrisposta dalla società al giurista impegnato in incarichi pubblici con riguardo alle sue capacità, che il giurista mette, appunto, in mostra attraverso il suo comportamento, cioè nel suo impegno verso la società. E per guadagnarsi l’auctoritas bisognava avere talento ed una grande capacità intuitiva nell’ambito specifico, e quindi dimostrare di saper svolgere il ruolo in cui ci si era impegnati, e una volta acquistata l’auctoritas era come se si imprimesse questa qualità nel soggetto: Cicerone stesso, nel De Oratore afferma che nella pratica del responso (che per chi la esercita è fonte di auctoritas) valesse più dell’ingegno necessario per acquistarla. E ciò ci fa capire quanto questa caratteristica fosse importante soprattutto nell’ambito del responso, in quanto il responso che deriva da un giurista dotato di auctoritas ha un’incidenza notevolissima soprattutto nell’ambito del processo, e infatti la garanzia della validità del responso si collega proprio all’autorevolezza di chi lo emana\\ espone\\ fornisce.",
+          "a": "4. E quanto più vasto era l’impegno quotidiano sul piano delle attività politiche, militari e civili, tanto maggiore è l’auctoritas. L’Auctoritas ( “autorevolezza”) è un altro termine importante che da una connotazione importante alla figura del giurista. L’auctoritas non è altro che quel valore aggiunto, quella prerogativa corrisposta dalla società al giurista impegnato in incarichi pubblici con riguardo alle sue capacità, che il giurista mette, appunto, in mostra attraverso il suo comportamento, cioè nel suo impegno verso la società. E per guadagnarsi l’auctoritas bisognava avere talento ed una grande capacità intuitiva nell’ambito specifico, e quindi dimostrare di saper svolgere il ruolo in cui ci si era impegnati, e una volta acquistata l’auctoritas era come se si imprimesse questa qualità nel soggetto: Cicerone stesso, nel De Oratore afferma che nella pratica del responso (che per chi la esercita è fonte di auctoritas) valesse più dell’ingegno necessario per acquistarla. E ciò ci fa capire quanto questa caratteristica fosse importante soprattutto nell’ambito del responso, in quanto il responso che deriva da un giurista dotato di auctoritas ha un’incidenza notevolissima soprattutto nell’ambito del processo, e infatti la garanzia della validità del responso si collega proprio all’autorevolezza di chi lo emana\\ espone\\ fornisce."
+        },
+        {
+          "da": "mento, cioè nel suo impegno verso la società. E per guadagnar",
+          "a": "mento, cioè nel suo impegno verso la società.\n\n   E per guadagnar"
+        },
+        {
+          "da": " più dell’ingegno necessario per acquistarla. E ciò ci fa cap",
+          "a": " più dell’ingegno necessario per acquistarla.\n\n   E ciò ci fa cap"
+        }
+      ]
+    },
+    "p115-b001": {
+      "baseSha256": "283aa96dad3f08fb24ab7356a90036a3c2f7f51f20c1926538b43558d60cb04a",
+      "sostituzioni": [
+        {
+          "da": "4- Il quarto catalogo normativo è quello di Papiniano Emilio Papiniano È un giurista tardo-classico Papiniano è considerato tra i “maestri” (fu maestro di Paolo e Ulpiano), fu anche il prefetto del pretorio sotto Caracalla, e pare che fu proprio lui a redigere la costituzione antoniniana, che estendeva la cittadinanza romana a tutto l'impero (nel 212 d.C.). Fu proprio per mano di Caracalla che morì, infatti, non essendo d'accordo con la sua politica, Caracalla lo fece uccidere. In ogni caso è considerato tra i più grandi giuristi.",
+          "a": "4. Il quarto catalogo normativo è quello di Papiniano Emilio Papiniano È un giurista tardo-classico Papiniano è considerato tra i “maestri” (fu maestro di Paolo e Ulpiano), fu anche il prefetto del pretorio sotto Caracalla, e pare che fu proprio lui a redigere la costituzione antoniniana, che estendeva la cittadinanza romana a tutto l'impero (nel 212 d.C.). Fu proprio per mano di Caracalla che morì, infatti, non essendo d'accordo con la sua politica, Caracalla lo fece uccidere. In ogni caso è considerato tra i più grandi giuristi."
+        },
+        {
+          "da": "4. Il quarto catalogo normativo è quello di Papiniano Emilio Papiniano È",
+          "a": "#### 4. Il quarto catalogo normativo è quello di Papiniano\n\nEmilio Papiniano È"
+        }
+      ]
+    },
+    "p120-b004": {
+      "baseSha256": "62c9770693485d65306a3432a3268f35f7cfb5f02ab17a8374d61e5a541de868",
+      "sostituzioni": [
+        {
+          "da": "2- Il proprietario dello schiavo pose il quesito, contro chi dovesse agire in giudizio.",
+          "a": "2. Il proprietario dello schiavo pose il quesito, contro chi dovesse agire in giudizio."
+        }
+      ]
+    },
+    "p120-b005": {
+      "baseSha256": "d3e3ed1a45cb0b7ade7df6577040a82d10b867de0b975e4c92bd6f69110a5483",
+      "sostituzioni": [
+        {
+          "da": "3- Risposi che la soluzione giuridica dipendeva dalle modalità del caso concreto. 1a ipotesi Se i mulattieri che sostenevano il primo carro si sono volontariamente allontanati, e perciò è accaduto che le mule non riuscissero più a trattenerlo, e anzi fossero trascinate indietro dal peso, non c'è a mio parere nessuna azione contro il proprietario delle mule, ma è invece possibile agire in base alla legge Aquilia contro i mulattieri che avrebbero dovuto sostenere il carro: non diversamente è responsabile per il danno chi abbandona con atto volontario ciò che trattiene, in modo da provocare un ferimento: si può fare l'esempio di colui che non tenga più a freno l'asino dopo averlo spinto a correre, o di colui che lanci un dardo o altro. 2a ipotesi Se invece le mule adombrandosi <sono indietreggiate >, e i mulattieri hanno lasciato il carro per il timore di esserne schiacciati, l'azione non è esperibile contro di loro, bensì contro il proprietario delle mule. 3a ipotesi Sè poi né le mule né gli uomini sono in questione, ma quelle non hanno potuto trattenere il carico, o nello sforzo sono sdrucciolate e cadute, e perciò il carro è retrocesso e i mulattieri, sotto la sua spinta, non hanno più potuto reggerne il peso, non c'è azione né contro il proprietario delle mule né contro i mulattieri. Quel che è certo, comunque siano andate le cose, è che non si può agire contro il proprietario delle mule del secondo carro, perché queste non retrocessero spontaneamente, ma per l'urto subito.",
+          "a": "3. Risposi che la soluzione giuridica dipendeva dalle modalità del caso concreto. 1a ipotesi Se i mulattieri che sostenevano il primo carro si sono volontariamente allontanati, e perciò è accaduto che le mule non riuscissero più a trattenerlo, e anzi fossero trascinate indietro dal peso, non c'è a mio parere nessuna azione contro il proprietario delle mule, ma è invece possibile agire in base alla legge Aquilia contro i mulattieri che avrebbero dovuto sostenere il carro: non diversamente è responsabile per il danno chi abbandona con atto volontario ciò che trattiene, in modo da provocare un ferimento: si può fare l'esempio di colui che non tenga più a freno l'asino dopo averlo spinto a correre, o di colui che lanci un dardo o altro. 2a ipotesi Se invece le mule adombrandosi <sono indietreggiate >, e i mulattieri hanno lasciato il carro per il timore di esserne schiacciati, l'azione non è esperibile contro di loro, bensì contro il proprietario delle mule. 3a ipotesi Sè poi né le mule né gli uomini sono in questione, ma quelle non hanno potuto trattenere il carico, o nello sforzo sono sdrucciolate e cadute, e perciò il carro è retrocesso e i mulattieri, sotto la sua spinta, non hanno più potuto reggerne il peso, non c'è azione né contro il proprietario delle mule né contro i mulattieri. Quel che è certo, comunque siano andate le cose, è che non si può agire contro il proprietario delle mule del secondo carro, perché queste non retrocessero spontaneamente, ma per l'urto subito."
+        }
+      ]
+    },
+    "p218-b004": {
+      "baseSha256": "b781b610454a93e8b0611c9bc606be953fa04c422a2e43c8d7abb57eee8e9b4f",
+      "sostituzioni": [
+        {
+          "da": "2- François Geny, (pag. 397) definisce il codice come un “insieme di disposizioni riguardante una materia di legislazione positiva determinato nei suoi contorni da un’idea generale, espressa ordinariamente dal titolo del codice stesso”",
+          "a": "2. François Geny, (pag. 397) definisce il codice come un “insieme di disposizioni riguardante una materia di legislazione positiva determinato nei suoi contorni da un’idea generale, espressa ordinariamente dal titolo del codice stesso”"
+        }
+      ]
+    },
+    "p072-b001": {
+      "baseSha256": "b94eb8901b026998be5f2050290cfd91a89466b44a99cdca1d0f0ca5d5808dc4",
+      "sostituzioni": [
+        {
+          "da": "sempre presenti: 1- Iudicis Nominatio In apertura,",
+          "a": "sempre presenti:\n\n#### 1. Iudicis Nominatio\n\nIn apertura,"
+        }
+      ]
+    },
+    "p072-b003": {
+      "baseSha256": "2954b2f7bcd25ee176ec168b71f30be8a710621a33aa0930ebacddd073170ee2",
+      "sostituzioni": [
+        {
+          "da": "3- Intentio Contiene",
+          "a": "#### 3. Intentio\n\nContiene"
+        }
+      ]
+    },
+    "p072-b007": {
+      "baseSha256": "53bffd5b229a9057d37ea98705076c182f7a4bebfd34a7e99af9a7865c3c0ce0",
+      "sostituzioni": [
+        {
+          "da": "4- Adiudicatio (eventualmente) Questa",
+          "a": "#### 4. Adiudicatio (eventualmente)\n\nQuesta"
+        }
+      ]
+    },
+    "p103-b002": {
+      "baseSha256": "ca6003af8920ed7a408f29687010ddf6968b9e519d61e414cf941ac0b68d8ec8",
+      "sostituzioni": [
+        {
+          "da": "3- II-I a.C. Un ulteriore",
+          "a": "#### 3. II-I a.C.\n\nUn ulteriore"
+        }
+      ]
+    },
+    "p053-b004": {
+      "baseSha256": "0501aa8b20def95d5bcdd45803f54888d35b2086ff83492000eeea4a9e638d24",
+      "sostituzioni": [
+        {
+          "da": "avveniva in tre modi: 1- Coemptio matrimonii causa Questi due rientravano nella 2- Usus sfera esclusiva del diritto civile 3- Confarreatio",
+          "a": "avveniva in tre modi:\n1. Coemptio matrimonii causa\n2. Usus\n3. Confarreatio\n\nQuesti due rientravano nella sfera esclusiva del diritto civile"
+        },
+        {
+          "da": "\n\nQuesti due rientravano nella sfera esclusiva del diritto civile",
+          "a": "\n\nQuesti due rientravano nella sfera esclusiva del diritto civile."
+        }
+      ]
+    },
+    "p006-b003": {
+      "baseSha256": "fc5d6183e14aa2bd88eac1d8a501594983b38e1871c24ecb13b8f8fc81ab5f8f",
+      "sostituzioni": [
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
+        }
+      ]
+    },
+    "p007-b001": {
+      "baseSha256": "d354f5a34e41905e4c421ae349411ee1dabe68e1ca7b87b91a794d8e5a98ddda",
+      "sostituzioni": [
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
+        }
+      ]
+    },
+    "p034-b002": {
+      "baseSha256": "b38487a5af253db324286b4f84fcc33fe0c2db98fd97e53c9543de0c26a73c94",
+      "sostituzioni": [
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
+        }
+      ]
+    },
+    "p184-b003": {
+      "baseSha256": "7602610bef90464e337e9c2dded48eec88e61710eebcbd24800d7f6c03f918eb",
+      "sostituzioni": [
+        {
+          "da": "—>",
+          "a": "→",
+          "tutte": true
+        }
+      ]
+    },
+    "p071-b002": {
+      "baseSha256": "a163e3247509a127eeb9bc11bb4aaff3e9910958286eda849f3c50c55a5d7ef4",
+      "sostituzioni": [
+        {
+          "da": "locazione- conduzione",
+          "a": "locazione-conduzione"
+        }
+      ]
+    },
+    "p195-b003": {
+      "baseSha256": "5a74afe3201abf4fccc0e43b2a7ef4eccf05d49a7f32866723eeaf75bb2af7d0",
+      "sostituzioni": [
+        {
+          "da": "romano- visigotica",
+          "a": "romano-visigotica"
+        },
+        {
+          "da": " secolo, fino alla compilazione giustinianea. (Le norme del c",
+          "a": " secolo, fino alla compilazione giustinianea.\n\n(Le norme del c"
+        },
+        {
+          "da": "Spagna durante e oltre la dominazione araba). Grazie, allora,",
+          "a": "Spagna durante e oltre la dominazione araba).\n\nGrazie, allora,"
+        },
+        {
+          "da": "mbrava non esserci più bisogno degli esperti. Dobbiamo però c",
+          "a": "mbrava non esserci più bisogno degli esperti.\n\nDobbiamo però c"
+        },
+        {
+          "da": "zioni precedenti anche contenute nel codice). Inoltre bisogna",
+          "a": "zioni precedenti anche contenute nel codice).\n\nInoltre bisogna"
+        }
+      ]
+    },
+    "p011-b001": {
+      "baseSha256": "a44c45d0b11a3ab7c020ae1497dc3912f8321de9d1c9de1b02cfb80dea58bbfa",
+      "sostituzioni": [
+        {
+          "da": "e che ne trovano all'interno solo uno spunto. Per averne un'i",
+          "a": "e che ne trovano all'interno solo uno spunto.\n\nPer averne un'i"
+        }
+      ]
+    },
+    "p018-b001": {
+      "baseSha256": "83e4e25361a0799219cddac1825c06d7cedb75c761b223116e38431be2858e28",
+      "sostituzioni": [
+        {
+          "da": "ondere con l'atto legislativo vero e proprio. Solo in epoca t",
+          "a": "ondere con l'atto legislativo vero e proprio.\n\nSolo in epoca t"
+        },
+        {
+          "da": " arrivassero a pensare subito alle 12 tavole. Proprio Ciceron",
+          "a": " arrivassero a pensare subito alle 12 tavole.\n\nProprio Ciceron"
+        }
+      ]
+    },
+    "p083-b001": {
+      "baseSha256": "a10f5eb747e70d00d602550bfa5630f215ab83d1d9d5a03fc6b00dd34177f25a",
+      "sostituzioni": [
+        {
+          "da": "con cui è avvenuto il comodato o il deposito. Actiones i fact",
+          "a": "con cui è avvenuto il comodato o il deposito.\n\nActiones i fact"
+        },
+        {
+          "da": "no delle obbligazioni civilistcamente intese. Vediamo quindi ",
+          "a": "no delle obbligazioni civilistcamente intese.\n\nVediamo quindi "
+        },
+        {
+          "da": "\n\nVediamo quindi il ius honorarium",
+          "a": "\n\nVediamo quindi il ius honorarium:"
+        }
+      ]
+    },
+    "p096-b002": {
+      "baseSha256": "34c6fb9ead186fddb644efd9d8e08a3599331f5a870da0e38a5fcfa7a8d56df2",
+      "sostituzioni": [
+        {
+          "da": "le caratteristiche del giurista repubblicano. Addirittura i g",
+          "a": "le caratteristiche del giurista repubblicano.\n\nAddirittura i g"
+        }
+      ]
+    },
+    "p149-b001": {
+      "baseSha256": "74709a18303b739e8a9883f7883d7da01750767293da80cb2e5dbaee8dca8478",
+      "sostituzioni": [
+        {
+          "da": "ava fossero stati testimoni di certi crimina. E qui, vediamo ",
+          "a": "ava fossero stati testimoni di certi crimina.\n\nE qui, vediamo "
+        },
+        {
+          "da": "uggire ad un padrone da cui era terrorizzato. A seguito della",
+          "a": "uggire ad un padrone da cui era terrorizzato.\n\nA seguito della"
+        },
+        {
+          "da": " tornasse più nel potere del suo (ex)padrone. La contraddizio",
+          "a": " tornasse più nel potere del suo (ex)padrone.\n\nLa contraddizio"
+        }
+      ]
+    },
+    "p095-b001": {
+      "baseSha256": "89258f787e7b1d2fb0835f74cb454fcbcc68d6d22e827d216aceff4c4e87b1b6",
+      "sostituzioni": [
+        {
+          "da": "Come si formava il giurista?: Il sapere enciclopedico.\n2. Diritto, filosofia La formazione del giurista non prevedeva solo la lettura dei libri degli altri giuristi, e arti liberali ma era",
+          "a": "### 2. Diritto, filosofia e arti liberali\n\n#### Come si formava il giurista?: Il sapere enciclopedico.\n\nLa formazione del giurista non prevedeva solo la lettura dei libri degli altri giuristi, ma era"
+        }
+      ]
+    },
+    "p169-b001": {
+      "baseSha256": "0318beb2678ccf7a770f6040d0ab651d5f50f302d78a5f611dec86a66a6f2fdc",
+      "sostituzioni": [
+        {
+          "da": "I commentari severiani dimostrano il rapporto ancora saldo della\n3. Interessi nuovi giurisprudenza",
+          "a": "### 3. Interessi nuovi\n\nI commentari severiani dimostrano il rapporto ancora saldo della giurisprudenza"
+        },
+        {
+          "da": "con il passato. Ma, allo stesso tempo",
+          "a": "con il passato.\n\nMa, allo stesso tempo"
         }
       ]
     }
