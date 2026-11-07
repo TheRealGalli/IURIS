@@ -456,6 +456,12 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 .graph-footer .map-legend { position: static; pointer-events: auto; }
 .graph-mode-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; padding: 7px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); font-size: 12px; pointer-events: auto; }
 .graph-mode-bar > span:first-child { flex: 1; min-width: 140px; }
+/* Riquadri delle mappe (per unità, collegamenti, testo): bordo leggero a riposo, più netto al passaggio,
+   anello grigio quando il riquadro è attivo o si sta zoomando: si capisce che è uno schermo interattivo. */
+.map-shell, .mg-finestra { border: 1px solid var(--line); border-radius: var(--radius); outline: none; transition: border-color .15s, box-shadow .15s; }
+.map-shell:hover, .mg-finestra:hover { border-color: var(--line-2); }
+.map-shell:focus-within, .mg-finestra:focus-within, .map-shell:has(> svg[data-moving]), .mg-finestra[data-moving] {
+  border-color: color-mix(in srgb, var(--ink) 32%, transparent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ink) 11%, transparent); }
 /* Solo pochi nomi nell'insieme; tutti alla scala di lettura. Lo zoom non ricrea gli elementi. */
 .map-shell svg[data-zoom="0"] .lbl.l1, .map-shell svg[data-zoom="0"] .lbl.l2, .map-shell svg[data-zoom="1"] .lbl.l2 { display: none; }
 

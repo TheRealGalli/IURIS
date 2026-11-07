@@ -165,6 +165,12 @@ let checks = 0;
   assert(/svgRef\.current\?\.parentElement/.test(archiSrc) && !/dentro\.current/.test(archiSrc), 'gli archi non dipendono dal ref del contenitore');
   assert(/return \(\) => segna\(false\)/.test(archiSrc), 'spegnendo i concetti non restano contorni sui nodi');
   assert(/inquadrata\.current !== chiave/.test(comp), 'lo zoom scelto resta finché non cambia lezione, forma o strato');
+  // Una lezione per volta, senza testo di spiegazione né tasti: lo zoom si usa con i gesti, come nelle altre mappe.
+  assert(!/Tutte le lezioni/.test(comp), 'niente modalità «tutte le lezioni»');
+  assert(!/mg-zoom|mg-legenda|mg-spiegazione/.test(comp), 'niente tasti dello zoom, legenda o paragrafo in alto');
+  assert(/className="mg-finestra"[^>]*tabIndex=\{0\}/.test(comp), 'il riquadro della mappa si attiva (e mostra il bordo) al primo tocco');
+  const stili = await readFile(new URL('../src/styles.css', import.meta.url), 'utf8');
+  assert(/\.map-shell:focus-within, \.mg-finestra:focus-within/.test(stili), 'stesso bordo attivo in tutte le mappe');
   checks++;
 }
-console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse, affidabilità dei legami, zoom e ridisegno delle linee.`);
+console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse, affidabilità dei legami, zoom, ridisegno delle linee e riquadro attivo.`);

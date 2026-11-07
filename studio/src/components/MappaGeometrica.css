@@ -4,13 +4,10 @@
 .mg-vista, .mg-azioni { display: flex; align-items: center; gap: 3px; }
 .mg-azioni { margin-left: auto; }
 .mg-vista .mg-attivo { border-color: var(--ink-3); background: var(--bg-2); }
-.mg-spiegazione { margin: 0; padding: 10px 14px; font-size: 12px; line-height: 1.6; border-bottom: 1px solid var(--line); }
 .mg-corpo { display: flex; flex-direction: column; }
 .mg-lezione { border-bottom: 1px solid var(--line); }
 .mg-lezione:last-child { border-bottom: 0; }
-.mg-lezione-testa { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; width: 100%; padding: 12px 14px; border: 0; background: none; text-align: left; cursor: pointer; color: var(--ink); }
-.mg-lezione-testa > svg { align-self: center; color: var(--ink-3); }
-.mg-lezione-testa:hover { background: var(--bg-2); }
+.mg-lezione-testa { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding: 10px 14px 8px; color: var(--ink); }
 .mg-lezione-titolo { font-family: var(--serif); font-size: 16px; font-weight: 600; }
 .mg-footer { padding: 10px 14px; border-top: 1px solid var(--line); }
 .mg-vuota { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 40px 24px; text-align: center; color: var(--ink-3); }
@@ -90,18 +87,9 @@
 .mg-testo { flex: 1 1 0; }
 
 /* finestra con zoom: si trascina e si ingrandisce invece di scorrere in orizzontale */
-.mg-finestra { position: relative; overflow: hidden; min-height: 160px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none;
+.mg-finestra { position: relative; overflow: hidden; min-height: 160px; margin: 0 12px 12px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none;
   background: radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--ink) 7%, transparent) 1px, transparent 0) 0 0 / 22px 22px; }
 .mg-finestra[data-moving="true"] { cursor: grabbing; }
 .mg-finestra[data-moving="true"] .mg-nodo, .mg-finestra[data-moving="true"] .mg-arco path { transition: none; }
 .mg-tela { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
 .mg-tela .mg-nodo { cursor: pointer; }
-.mg-zoom { position: absolute; top: 8px; right: 8px; z-index: 3; display: flex; gap: 4px; }
-.mg-zoom .btn { min-width: 30px; justify-content: center; background: var(--surface); box-shadow: 0 1px 4px #00000014; }
-.mg-legenda { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 8px 14px; border-bottom: 1px solid var(--line); color: var(--ink-2); }
-.mg-legenda span { display: inline-flex; align-items: center; gap: 6px; }
-.mg-legenda i { width: 16px; height: 11px; border-radius: 4px; background: var(--surface); }
-.mg-l-centro { box-shadow: 0 0 0 2px #2f9e5b; }
-.mg-l-collegato { box-shadow: 0 0 0 2px #e08a2c; }
-.mg-l-rel, .mg-l-stesso { fill: none; stroke: var(--ink-3); stroke-width: 1.8; }
-.mg-l-stesso { stroke-dasharray: 2 4; stroke-linecap: round; }

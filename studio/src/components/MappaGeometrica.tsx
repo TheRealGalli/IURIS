@@ -144,7 +144,7 @@ function Vista({ chiave, compatta, children }: { chiave: string; compatta: boole
     tr.current = { x: t.x, y: t.y, k: t.k };
     if (tela.current) tela.current.style.transform = `translate(${t.x}px,${t.y}px) scale(${t.k})`;
     fin.current?.setAttribute('data-zoom', String(Math.round(t.k * 100)));
-  }, 0.2, { rotella: false, ignora: '.mg-zoom' });
+  }, 0.2, { rotella: false });
   const massimo = () => Math.round(window.innerHeight * (compatta ? 0.62 : 0.72));
   const misura = () => { const t = tela.current; if (t) dim.current = { w: t.scrollWidth, h: t.scrollHeight }; return dim.current; };
   const adatta = (modo: 'tutto' | 'larghezza', durata = 0) => {
@@ -185,13 +185,12 @@ function Vista({ chiave, compatta, children }: { chiave: string; compatta: boole
     f.addEventListener('wheel', ruota, { passive: false });
     return () => f.removeEventListener('wheel', ruota);
   }, []);
-  return <div ref={fin} className="mg-finestra" style={alto ? { height: alto } : undefined}>
+  // Doppio clic sullo sfondo: tutta la mappa in una volta (sui nodi il clic apre il testo).
+  const tutto = (e: MouseEvent) => { if (!(e.target as Element).closest('.mg-nodo, .mg-piega')) adatta('tutto', 350); };
+  return <div ref={fin} className="mg-finestra" style={alto ? { height: alto } : undefined} tabIndex={0} role="group"
+    aria-label="Mappa interattiva: trascina per spostarti, pizzica o usa Ctrl/⌘ e la rotella per lo zoom, doppio clic per vederla tutta"
+    onPointerDown={(e) => { if (document.activeElement !== e.currentTarget && !(e.target as Element).closest('a, button')) e.currentTarget.focus({ preventScroll: true }); }} onDoubleClick={tutto}>
     <div ref={tela} className="mg-tela" style={lar ? { width: lar } : undefined}>{children}</div>
-    <div className="mg-zoom" role="group" aria-label="Zoom della mappa">
-      <button className="btn btn-sm" onClick={() => z.zoomBy(1 / 1.3)} aria-label="Riduci zoom" title="Riduci">−</button>
-      <button className="btn btn-sm" onClick={() => z.zoomBy(1.3)} aria-label="Aumenta zoom" title="Ingrandisci">+</button>
-      <button className="btn btn-sm" onClick={() => adatta('tutto', 350)} aria-label="Vedi tutta la mappa" title="Vedi tutta la mappa"><Icon n="espandi" size={14} /></button>
-    </div>
   </div>;
 }
 
@@ -218,15 +217,14 @@ function Disegno({ s, modo, chiusi, alterna, apri, significato }: { s: SezioneGe
 
 function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, totale, nonCollegati = 0 }: Props) {
   const iniziale = sezioneIniziale && sezioni.some((s) => s.chiave === sezioneIniziale) ? sezioneIniziale : '';
-  const [scelta, setScelta] = useState(compatta ? iniziale : '');
+  const prima = iniziale || sezioni[0]?.chiave || '';
+  const [scelta, setScelta] = useState(prima);
   const [modo, setModo] = useState<'albero' | 'schema'>(compatta ? 'schema' : 'albero');
-  const [aperte, setAperte] = useState<Set<string>>(() => new Set(sezioni.slice(0, 1).map((s) => s.chiave)));
   const [chiusi, setChiusi] = useState<Set<string>>(new Set());
   const [significato, setSignificato] = useState(true);
-  useEffect(() => { if (compatta && iniziale && !scelta) setScelta(iniziale); }, [compatta, iniziale]);
-  useEffect(() => { if (scelta && !sezioni.some((s) => s.chiave === scelta)) setScelta(''); }, [sezioni, scelta]);
-  useEffect(() => { setAperte((a) => a.size ? a : new Set(sezioni.slice(0, 1).map((s) => s.chiave))); }, [sezioni.length > 0]);
-  const visibili = useMemo(() => scelta ? sezioni.filter((s) => s.chiave === scelta) : sezioni, [sezioni, scelta]);
+  // Una lezione alla volta: se quella scelta non c'è (ancora), si parte da quella aperta nel lettore o dalla prima.
+  useEffect(() => { if (!sezioni.some((s) => s.chiave === scelta) && prima) setScelta(prima); }, [sezioni, scelta, prima]);
+  const visibili = useMemo(() => sezioni.filter((s) => s.chiave === scelta), [sezioni, scelta]);
   const documenti = useMemo(() => [...new Map(sezioni.map((s) => [s.documento, s.docTitolo]))], [sezioni]);
   const alterna = (id: string) => setChiusi((c) => { const s = new Set(c); if (s.has(id)) s.delete(id); else s.add(id); return s; });
   const apri = (e: MouseEvent, href: string) => { if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return; e.preventDefault(); onApri(href); };
@@ -235,8 +233,7 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
   if (!sezioni.length) return <section className="mappa-geo"><div className="mg-vuota"><Icon n="mappa" size={26} /><p className="muted small">Evidenzia o sottolinea un passaggio negli Originali: qui comparirà nella forma del testo, con i titoli e gli elenchi che lo contengono.</p></div></section>;
   return <section className={`mappa-geo${compatta ? ' mg-compatta' : ''}`} aria-label="Mappa personale nella struttura del testo">
     <div className="mg-barra">
-      <select className="select" aria-label="Scegli la lezione" value={scelta} onChange={(e) => { setScelta(e.target.value); if (e.target.value) setAperte((a) => new Set([...a, e.target.value])); }}>
-        <option value="">Tutte le lezioni ({sezioni.length})</option>
+      <select className="select" aria-label="Scegli la lezione" value={scelta} onChange={(e) => { setScelta(e.target.value); setChiusi(new Set()); }}>
         {documenti.map(([doc, titolo]) => <optgroup key={doc} label={titolo}>{sezioni.filter((s) => s.documento === doc).map((s) => <option key={s.chiave} value={s.chiave}>{accorcia(s.titolo, 70)} · {s.segnati}</option>)}</optgroup>)}
       </select>
       <div className="mg-vista" aria-label="Forma della mappa">
@@ -245,34 +242,22 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
       </div>
       <button className={`btn btn-sm ${significato ? 'mg-attivo' : 'btn-ghost'}`} aria-pressed={significato} onClick={() => setSignificato((x) => !x)} title="Collega i nodi che parlano dello stesso concetto o di concetti legati nel glossario">Concetti collegati</button>
       <div className="mg-azioni">
-        <button className="btn btn-sm btn-ghost" onClick={() => { setAperte(new Set(sezioni.map((s) => s.chiave))); setChiusi(new Set()); }}>Apri tutto</button>
-        <button className="btn btn-sm btn-ghost" onClick={() => setAperte(new Set())}>Chiudi tutto</button>
+        <button className="btn btn-sm btn-ghost" disabled={!chiusi.size} onClick={() => setChiusi(new Set())} title="Riapre i rami ripiegati">Apri tutto</button>
       </div>
     </div>
-    <p className="mg-spiegazione small muted">La mappa ha la forma del testo: titoli, paragrafi ed elenchi nell’ordine in cui sono scritti. Compaiono solo le parti che hai segnato; in grigio i titoli e i paragrafi che le contengono. Evidenziature e sottolineature restano come nel testo. Trascina per spostarti; pizzica o usa Ctrl/⌘ e la rotella (oppure − e +) per lo zoom; <Icon n="espandi" size={11} /> mostra tutta la mappa.{significato && ' Le etichette colorate sono concetti del glossario: gli archi uniscono i punti che ne parlano o i concetti legati fra loro. Passa sopra un nodo, un’etichetta o una linea per seguirla.'}</p>
-    {significato && <div className="mg-legenda tiny" aria-label="Legenda dei concetti collegati">
-      <span><i className="mg-l-centro" /> contorno verde: il nodo o il concetto che stai guardando</span>
-      <span><i className="mg-l-collegato" /> contorno arancio: i concetti collegati</span>
-      <span><svg width="22" height="8" aria-hidden="true"><path d="M1,4 H21" className="mg-l-rel" /></svg> legame del glossario</span>
-      <span><svg width="22" height="8" aria-hidden="true"><path d="M1,4 H21" className="mg-l-stesso" /></svg> stesso concetto in punti lontani</span>
-    </div>}
     <div className="mg-corpo">
-      {visibili.map((s) => {
-        const aperta = aperte.has(s.chiave) || !!scelta;
-        return <article key={s.chiave} className="mg-lezione" data-archi={s.semantica.archi.length} data-scartati={s.semantica.scartati.relazioni + s.semantica.scartati.ripetizioni}>
-          <button className="mg-lezione-testa" aria-expanded={aperta} onClick={() => setAperte((a) => { const x = new Set(a); if (x.has(s.chiave)) x.delete(s.chiave); else x.add(s.chiave); return x; })}>
-            <Icon n={aperta ? 'giu' : 'freccia'} size={14} />
-            <span className="mg-lezione-titolo">{s.titolo}</span>
-            <span className="tiny faint">{documenti.length > 1 ? `${accorcia(s.docTitolo, 34)} · ` : ''}pp. {s.da}{s.a !== s.da ? `–${s.a}` : ''} · {s.segnati} {s.segnati === 1 ? 'parte segnata' : 'parti segnate'}</span>
-          </button>
-          {aperta && <Vista chiave={`${modo}|${significato ? 1 : 0}`} compatta={compatta}><Disegno s={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} significato={significato} /></Vista>}
-        </article>;
-      })}
+      {visibili.map((s) => <article key={s.chiave} className="mg-lezione" data-archi={s.semantica.archi.length} data-scartati={s.semantica.scartati.relazioni + s.semantica.scartati.ripetizioni}>
+        <div className="mg-lezione-testa">
+          <span className="mg-lezione-titolo">{s.titolo}</span>
+          <span className="tiny faint">{documenti.length > 1 ? `${accorcia(s.docTitolo, 34)} · ` : ''}pp. {s.da}{s.a !== s.da ? `–${s.a}` : ''} · {s.segnati} {s.segnati === 1 ? 'parte segnata' : 'parti segnate'}</span>
+        </div>
+        <Vista chiave={`${modo}|${significato ? 1 : 0}`} compatta={compatta}><Disegno s={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} significato={significato} /></Vista>
+      </article>)}
     </div>
     <footer className="mg-footer tiny faint" role="status">
       {parti} {parti === 1 ? 'parte segnata' : 'parti segnate'} in {sezioni.length} {sezioni.length === 1 ? 'lezione' : 'lezioni'}{totale !== undefined ? ` · ${totale} segni` : ''}
       {nonCollegati > 0 && ` · ${nonCollegati} ${nonCollegati === 1 ? 'segno resta' : 'segni restano'} solo nell’elenco (dal PDF o da verificare)`}
-      {scelta && visibili[0] && ` · ${contaNodi(visibili[0].radici)} in questa lezione`}
+      {visibili[0] && ` · ${contaNodi(visibili[0].radici)} in questa lezione`}
     </footer>
   </section>;
 }

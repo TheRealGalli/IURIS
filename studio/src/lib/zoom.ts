@@ -31,6 +31,8 @@ export function useZoom<E extends Element>(surfaceRef: RefObject<E | null>, appl
       if (e.type === 'wheel') return opzioni.rotella === false ? e.ctrlKey || e.metaKey : true;
       return !e.ctrlKey && !e.button;
     });
+    // Pizzico sul trackpad (piccoli passi con Ctrl): rapido; rotella del mouse con Ctrl/⌘: un gradino alla volta.
+    if (opzioni.rotella === false) z.wheelDelta((e: WheelEvent) => -e.deltaY * (e.deltaMode === 1 ? 0.05 : e.deltaMode ? 1 : 0.002) * (Math.abs(e.deltaY) < 40 ? 10 : 1));
     surface.call(z).on('dblclick.zoom', null);
     zRef.current = z;
     return () => {

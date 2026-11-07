@@ -92,6 +92,15 @@ function PannelloConcetto({ id, onClose, onFocus }: { id: string; onClose: () =>
   );
 }
 
+/** Riquadro della mappa: si attiva al primo tocco (anello grigio), come uno schermo nello schermo. */
+const riquadro = {
+  tabIndex: 0,
+  onPointerDown: (e: React.PointerEvent<HTMLDivElement>) => {
+    const t = e.target as Element;
+    if (!e.currentTarget.contains(document.activeElement) && !t.closest('input, select, button, a, textarea, [tabindex]:not(.map-shell)')) e.currentTarget.focus({ preventScroll: true });
+  },
+};
+
 /** Le mappe SVG scrivono la trasformazione sul gruppo che contiene il disegno. */
 function useZoomSvg(svgRef: React.RefObject<SVGSVGElement>, gRef: React.RefObject<SVGGElement>, onK?: (k: number) => void, minZoom = 0.15) {
   return useZoom(svgRef, (t) => { gRef.current?.setAttribute('transform', t.toString()); onK?.(t.k); }, minZoom);
@@ -153,7 +162,7 @@ function MindMap({ uid }: { uid: string }) {
   const chiudiTutto = () => { const s = new Set<string>(); const w = (n: NodoK, d: number) => { if (d >= 1 && n.figli?.length) s.add(n._k); n.figli?.forEach((f) => w(f, d + 1)); }; w(radice, 0); setChiusi(s); };
 
   return (
-    <div className="map-shell">
+    <div className="map-shell" {...riquadro}>
       <div className="map-tools">
         <select className="select" value={u.id} onChange={(e) => vai(`/mappa?u=${e.target.value}`)} style={{ maxWidth: 360 }}>
           {idx.corso.unita.map((x) => <option key={x.id} value={x.id}>{x.ordine}. {x.titolo}</option>)}
@@ -395,7 +404,7 @@ function Grafo({ focus }: { focus: string | null }) {
   const tipiPresenti = [...new Set(idx.corso.concetti.map((c) => c.tipo))];
 
   return (
-    <div className="map-shell graph-shell" data-mode={attivo ? 'collegamenti' : 'mappa'} onKeyDown={(e) => {
+    <div className="map-shell graph-shell" {...riquadro} data-mode={attivo ? 'collegamenti' : 'mappa'} onKeyDown={(e) => {
       if (e.key === 'Escape') { e.stopPropagation(); if (cerca) setCerca(''); else esci(); }
     }}>
       <div className="map-tools">
