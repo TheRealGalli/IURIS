@@ -5,6 +5,8 @@ import { concettiDelPassaggio, proiettaSegnoTesto, type SezioneLettura } from '.
 import { caricaSezioneLettura, DOCUMENTI_LETTURA, linkTesto, paginaBlocco, preparaBlocchi, sezionePerPagina } from './letture-client';
 import type { PassaggioMappa } from '../components/MappaPersonale';
 import { confrontaPosizioni, posizioneSegno } from './ordine-segni';
+import { alberoGeometrico, strutturaBlocco, type NodoGeo, type SegnoGeo } from './mappa-geometrica';
+import type { SegnoOriginale } from './originali';
 
 export function hrefPassaggioPersonale(p: PassaggioMappa): string {
   const id = p.id.slice(p.documento.length + 1);
@@ -54,5 +56,38 @@ export function usePassaggiPersonali() {
       colore: segno.colore, ordine, creata: segno.creata, origine: segno.ancoreTesto?.length ? 'testo' as const : 'pdf' as const,
       concetti: ids.flatMap((id) => { const c = idx.concettoById.get(id); return c ? [{ id, nome: c.nome }] : []; }) };
   })).sort((a, b) => confrontaPosizioni(a.ordine, b.ordine) || (a.creata ?? '').localeCompare(b.creata ?? '')), [documenti, p.originali, modelli, indiciBlocchi, idx]);
-  return { passaggi, caricando, errore };
+  return { passaggi, caricando, errore, modelli, documenti, originali: p.originali };
+}
+
+export interface SezioneGeo {
+  chiave: string; documento: string; docTitolo: string; sezione: string; titolo: string; da: number; a: number;
+  radici: NodoGeo[]; segnati: number; segni: number;
+}
+const pagineSegno = (s: SegnoOriginale) => s.ancoreTesto?.length ? s.ancoreTesto.map((a) => paginaBlocco(a.blocco) ?? s.pagina) : [s.pagina];
+
+/** Mappa sulla geometria del testo: per ogni lezione con segni, l'albero titoli → paragrafi → voci segnate. */
+export function useMappaGeometrica() {
+  const { modelli, documenti, caricando, errore, originali } = usePassaggiPersonali();
+  const strutture = useMemo(() => new Map([...modelli].map(([file, blocchi]) => [file, blocchi.flatMap((b) => strutturaBlocco(b))])), [modelli]);
+  const { sezioni, collegati } = useMemo(() => {
+    const visti = new Set<string>();
+    const sezioni: SezioneGeo[] = documenti.flatMap((doc) => {
+      const segni = originali?.[doc.id]?.segni ?? [];
+      return doc.sezioni.flatMap((meta) => {
+        const blocchi = modelli.get(meta.file), unita = strutture.get(meta.file);
+        if (!blocchi || !unita) return [];
+        const geo: SegnoGeo[] = segni.filter((s) => s.ancoreTesto?.length && pagineSegno(s).some((pg) => pg >= meta.da && pg <= meta.a)).flatMap((s) => {
+          const pr = proiettaSegnoTesto(s, blocchi, doc.edizione, meta);
+          return pr.stato === 'proiettato' ? [{ id: s.id, colore: s.colore, tipo: s.tipo, creata: s.creata, ancore: pr.ancore }] : [];
+        });
+        if (!geo.length) return [];
+        const albero = alberoGeometrico(unita, geo);
+        geo.forEach((g) => visti.add(`${doc.id}:${g.id}`));
+        return albero.radici.length ? [{ chiave: `${doc.id}/${meta.id}`, documento: doc.id, docTitolo: doc.titolo, sezione: meta.id, titolo: meta.titolo, da: meta.da, a: meta.a, ...albero }] : [];
+      });
+    });
+    return { sezioni, collegati: visti.size };
+  }, [documenti, originali, modelli, strutture]);
+  const totale = documenti.reduce((n, d) => n + (originali?.[d.id]?.segni.length ?? 0), 0);
+  return { sezioni, caricando, errore, totale, nonCollegati: Math.max(0, totale - collegati) };
 }
