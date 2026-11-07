@@ -6,60 +6,96 @@
   "da": 3,
   "a": 4,
   "lezione": "u01-l2",
+  "revisionata": true,
   "blocchi": [
     {
       "id": "p003-b001",
       "pagina": 3,
-      "markdown": "Le fonti del diritto Dire Fonti: è una metafora: “le fonti da cui sgorga il diritto” = da dove deriva il diritto. > Noi in questo caso siamo parlando di diritto storico, per cui le fonti del diritto possono essere: - Fonti di Cognizione - Fonti di Produzione",
-      "concetti": []
+      "markdown": "Le fonti del diritto Dire Fonti: è una metafora: “le fonti da cui sgorga il diritto” = da dove deriva il diritto. → Noi in questo caso siamo parlando di diritto storico, per cui le fonti del diritto possono essere: - [[fonti-di-cognizione|Fonti di Cognizione]] - [[fonti-di-produzione|Fonti di Produzione]]",
+      "concetti": [
+        "fonti-di-cognizione",
+        "fonti-di-produzione"
+      ],
+      "testoFonte": "Le fonti del diritto Dire Fonti: è una metafora: “le fonti da cui sgorga il diritto” = da dove deriva il diritto. > Noi in questo caso siamo parlando di diritto storico, per cui le fonti del diritto possono essere: - Fonti di Cognizione - Fonti di Produzione"
     },
     {
       "id": "p003-b002",
       "pagina": 3,
-      "markdown": "Fonti di Cognizione > Nell’ambito quindi del diritto storico, dobbiamo considerare le fonti di cognizione come fonti di conoscenza storica del diritto: Come noi conosciamo il diritto romano. - Naturalmente sarebbe più facile se si trattasse di materia contemporanea, ma qui si parla di materia storica, e poi molto molto risalente; il problema è questo, il tempo infatti ha ormai sbiadito le tracce dell’originario diritto romano. Tanto più una realtà antica, tanto più è difficile ricostruirla precisamente. Il tempo ha un effetto di consumazione, del ricordo, delle tracce… Però ci sono delle testimonianze con cui è possibile avvicinarsi, approssimarsi per conoscere. - Difficilmente si riesce ad ottenere una testimonianza relativa a quel periodo in particolare e che ci è giunta intatta, è raro, infatti è da tener presente che nel corso dei millenni si è avuta una stratificazione sui documenti originali, che rende estremamente difficile una comprensione del testo autentico. Per cui, per questa materia, l’indagine è molto complessa.",
-      "concetti": []
+      "markdown": "Fonti di Cognizione → Nell’ambito quindi del diritto storico, dobbiamo considerare le fonti di cognizione come fonti di conoscenza storica del diritto: Come noi conosciamo il diritto romano. - Naturalmente sarebbe più facile se si trattasse di materia contemporanea, ma qui si parla di materia storica, e poi molto molto risalente; il problema è questo, il tempo infatti ha ormai sbiadito le tracce dell’originario diritto romano. Tanto più una realtà antica, tanto più è difficile ricostruirla precisamente. Il tempo ha un effetto di consumazione, del ricordo, delle tracce… Però ci sono delle testimonianze con cui è possibile avvicinarsi, approssimarsi per conoscere. - Difficilmente si riesce ad ottenere una testimonianza relativa a quel periodo in particolare e che ci è giunta intatta, è raro, infatti è da tener presente che nel corso dei millenni si è avuta una stratificazione sui documenti originali, che rende estremamente difficile una comprensione del testo autentico. Per cui, per questa materia, l’indagine è molto complessa.",
+      "concetti": [
+        "fonti-di-cognizione"
+      ],
+      "testoFonte": "Fonti di Cognizione > Nell’ambito quindi del diritto storico, dobbiamo considerare le fonti di cognizione come fonti di conoscenza storica del diritto: Come noi conosciamo il diritto romano. - Naturalmente sarebbe più facile se si trattasse di materia contemporanea, ma qui si parla di materia storica, e poi molto molto risalente; il problema è questo, il tempo infatti ha ormai sbiadito le tracce dell’originario diritto romano. Tanto più una realtà antica, tanto più è difficile ricostruirla precisamente. Il tempo ha un effetto di consumazione, del ricordo, delle tracce… Però ci sono delle testimonianze con cui è possibile avvicinarsi, approssimarsi per conoscere. - Difficilmente si riesce ad ottenere una testimonianza relativa a quel periodo in particolare e che ci è giunta intatta, è raro, infatti è da tener presente che nel corso dei millenni si è avuta una stratificazione sui documenti originali, che rende estremamente difficile una comprensione del testo autentico. Per cui, per questa materia, l’indagine è molto complessa."
     },
     {
       "id": "p003-b003",
       "pagina": 3,
-      "markdown": "Possiamo fare una prima distinzione tra: 1- Fonti tecniche 2- Fonti atecniche Fonti Tecniche: Sono quelle che riguardano propriamente, specificamente la stria del diritto pubblico romano; quelle che vengono dalla letteratura giurisprudenziale romana (dai giuristi). Il cerchio dei giuristi ha elaborato il suo pensiero e lo ha riversato in una letteratura: testi \\ libri tecnico giuridici. —> Quanto ci è pervenuto di questo, si dice fonte tecnica. Ma non solo, sono fonti tecniche anche documenti giuridici come ad esempio i contratti o i testamenti… Fonti Atecniche: Sono quelle che non riguardano strettamente il diritto romano, ma guardano ad altri lati della civiltà romana, altri ambiti culturali che però di riflesso ci dicono molto del diritto. - Possiamo fare l’esempio di Cicerone. Soprattutto per la parte repubblicana prenderemo in esame le sue testimonianze e non dobbiamo confonderle con delle fonti tecniche: Le testimonianze ciceroniane sono infatti fonti atecniche poiché Cicerone non è un giurista, si è versato fondamentalmente nell’oratoria, e anzi, spesso è anche polemico nei confronti de giuristi. Oratoria e Giurisprudenza sono infatti due discipline da considerare ben distinte con finalità differenti, sebbene nella formazione si tangessero, nel momento in cui chi studia queste due discipline diventava tecnico di quella disciplina in particolare. Le professioni si distaccavano completamente. - E nelle fonti dateci da cicerone (che sono quindi atecniche) di riflesso troveremo degli aspetti molto rilevanti Sotto il profilo giuridico, e del diritto, ad esempio in relazione alla mentalità di un certo ceto eccetera.",
-      "concetti": []
+      "markdown": "Possiamo fare una prima distinzione tra:\n\n1. [[fonti-tecniche|Fonti tecniche]]\n2. **[[fonti-atecniche|Fonti atecniche]] Fonti Tecniche:** Sono quelle che riguardano propriamente, specificamente la stria del diritto pubblico romano; quelle che vengono dalla letteratura giurisprudenziale romana (dai giuristi). Il cerchio dei giuristi ha elaborato il suo pensiero e lo ha riversato in una letteratura: testi \\ libri tecnico giuridici. —> Quanto ci è pervenuto di questo, si dice fonte tecnica. Ma non solo, sono fonti tecniche anche documenti giuridici come ad esempio i contratti o i testamenti… Fonti Atecniche: Sono quelle che non riguardano strettamente il diritto romano, ma guardano ad altri lati della civiltà romana, altri ambiti culturali che però di riflesso ci dicono molto del diritto. - Possiamo fare l’esempio di [[cicerone|Cicerone]]. Soprattutto per la parte repubblicana prenderemo in esame le sue testimonianze e non dobbiamo confonderle con delle fonti tecniche: Le testimonianze ciceroniane sono infatti fonti atecniche poiché Cicerone non è un giurista, si è versato fondamentalmente nell’oratoria, e anzi, spesso è anche polemico nei confronti de giuristi. Oratoria e Giurisprudenza sono infatti due discipline da considerare ben distinte con finalità differenti, sebbene nella formazione si tangessero, nel momento in cui chi studia queste due discipline diventava tecnico di quella disciplina in particolare. Le professioni si distaccavano completamente. - E nelle fonti dateci da cicerone (che sono quindi atecniche) di riflesso troveremo degli aspetti molto rilevanti Sotto il profilo giuridico, e del diritto, ad esempio in relazione alla mentalità di un certo ceto eccetera.",
+      "concetti": [
+        "fonti-tecniche",
+        "fonti-atecniche",
+        "cicerone"
+      ],
+      "testoFonte": "Possiamo fare una prima distinzione tra: 1- Fonti tecniche 2- Fonti atecniche Fonti Tecniche: Sono quelle che riguardano propriamente, specificamente la stria del diritto pubblico romano; quelle che vengono dalla letteratura giurisprudenziale romana (dai giuristi). Il cerchio dei giuristi ha elaborato il suo pensiero e lo ha riversato in una letteratura: testi \\ libri tecnico giuridici. —> Quanto ci è pervenuto di questo, si dice fonte tecnica. Ma non solo, sono fonti tecniche anche documenti giuridici come ad esempio i contratti o i testamenti… Fonti Atecniche: Sono quelle che non riguardano strettamente il diritto romano, ma guardano ad altri lati della civiltà romana, altri ambiti culturali che però di riflesso ci dicono molto del diritto. - Possiamo fare l’esempio di Cicerone. Soprattutto per la parte repubblicana prenderemo in esame le sue testimonianze e non dobbiamo confonderle con delle fonti tecniche: Le testimonianze ciceroniane sono infatti fonti atecniche poiché Cicerone non è un giurista, si è versato fondamentalmente nell’oratoria, e anzi, spesso è anche polemico nei confronti de giuristi. Oratoria e Giurisprudenza sono infatti due discipline da considerare ben distinte con finalità differenti, sebbene nella formazione si tangessero, nel momento in cui chi studia queste due discipline diventava tecnico di quella disciplina in particolare. Le professioni si distaccavano completamente. - E nelle fonti dateci da cicerone (che sono quindi atecniche) di riflesso troveremo degli aspetti molto rilevanti Sotto il profilo giuridico, e del diritto, ad esempio in relazione alla mentalità di un certo ceto eccetera."
     },
     {
       "id": "p003-b004",
       "pagina": 3,
       "markdown": "> Altre fonti atecniche sono, ad esempio: - La letteratura, di qualunque genere, ad esempio teatrale, (circa le commedie Plautine per esempio si ricavano tanti elementi giuridici ad esempio rituali con riflesso giuridico nella pratica,) - Anche altre testimonianze di tipo artistico, ad esempio la produzione di ceramiche, di oggetti di uso quotidiano, affreschi o mosaici… - Tutto ciò che può dare indizi o elementi circa l’ambito giudiziario della storia del diritto.",
-      "concetti": []
+      "concetti": [
+        "fonti-atecniche"
+      ]
     },
     {
       "id": "p004-b001",
       "pagina": 4,
-      "markdown": "Possiamo distinguere ulteriormente le fonti di cognizione in: 1- Fonti primarie 2- Fonti secondarie o derivate Fonti primarie: Sono quelle che ci sembrano riprodurre fedelmente (senza deformazioni\\elaborazioni o sovrapposizioni) lo stato dell’ordinamento giuridico romano e alcuni aspetti di esso. - Parliamo per esempio di alcune epigrafi, pensiamo ai materiali lapidei, al materiale inscritto (es. lapidi funebri), ma anche pergamene, tavolette cerate o le monete stesse. > Sostanzialmente tutto quel materiale che non si rovina ne tempo, che può essere un pò consumato, ma che ci è arrivato intatto e che ci da un’idea diretta di quanto è riportato in quanto non è stato certamente modificato nel corso del tempo. Fonti secondarie o derivate: Sono quelle che per via derivata ci forniscono elaborazioni dell’ordinamento giuridico romano, e ne impongono una ricostruzione indiziaria e intuitiva. Per esempio gli scritti greci e latini che riflettono un ambiente impregnato di cultura giuridica romana ma indirettamente.",
-      "concetti": []
+      "markdown": "Possiamo distinguere ulteriormente le fonti di cognizione in:\n\n1. [[fonti-primarie|Fonti primarie]]\n2. [[fonti-secondarie|Fonti secondarie]] o derivate Fonti primarie: Sono quelle che ci sembrano riprodurre fedelmente (senza deformazioni/elaborazioni o sovrapposizioni) lo stato dell’ordinamento giuridico romano e alcuni aspetti di esso. - Parliamo per esempio di alcune epigrafi, pensiamo ai materiali lapidei, al materiale inscritto (es. lapidi funebri), ma anche pergamene, tavolette cerate o le monete stesse. → Sostanzialmente tutto quel materiale che non si rovina ne tempo, che può essere un pò consumato, ma che ci è arrivato intatto e che ci da un’idea diretta di quanto è riportato in quanto non è stato certamente modificato nel corso del tempo. Fonti secondarie o derivate: Sono quelle che per via derivata ci forniscono elaborazioni dell’ordinamento giuridico romano, e ne impongono una ricostruzione indiziaria e intuitiva. Per esempio gli scritti greci e latini che riflettono un ambiente impregnato di cultura giuridica romana ma indirettamente.",
+      "concetti": [
+        "fonti-primarie",
+        "fonti-secondarie",
+        "fonti-di-cognizione"
+      ],
+      "testoFonte": "Possiamo distinguere ulteriormente le fonti di cognizione in: 1- Fonti primarie 2- Fonti secondarie o derivate Fonti primarie: Sono quelle che ci sembrano riprodurre fedelmente (senza deformazioni\\elaborazioni o sovrapposizioni) lo stato dell’ordinamento giuridico romano e alcuni aspetti di esso. - Parliamo per esempio di alcune epigrafi, pensiamo ai materiali lapidei, al materiale inscritto (es. lapidi funebri), ma anche pergamene, tavolette cerate o le monete stesse. > Sostanzialmente tutto quel materiale che non si rovina ne tempo, che può essere un pò consumato, ma che ci è arrivato intatto e che ci da un’idea diretta di quanto è riportato in quanto non è stato certamente modificato nel corso del tempo. Fonti secondarie o derivate: Sono quelle che per via derivata ci forniscono elaborazioni dell’ordinamento giuridico romano, e ne impongono una ricostruzione indiziaria e intuitiva. Per esempio gli scritti greci e latini che riflettono un ambiente impregnato di cultura giuridica romana ma indirettamente."
     },
     {
       "id": "p004-b002",
       "pagina": 4,
-      "markdown": "Il problema della derivazione delle fonti di cognizione Legato alle fonti di cognizione c’è il problema della derivazione. Questo perché la maggior parte delle fonti di cognizione con cui abbiamo a che fare, sebbene riproducano tante e informazioni interessanti per lo più sono frutto di rielaborazioni, di riedizioni, magari risalgono a secoli dopo rispetto al momento della loro edizione. > E questo comporta, in particolar modo nell’ambito della letteratura, che su quei testi ci sono stati stratificazioni successive sia nella copiatura sia nella diffusione dei vari manoscritti, ma anche nell’adattamento rispetto alle funzioni a cui gli scritti erano preposti. - Per cui per riuscire a capire il dato originari c’è uno studio molto approfondito e particolare.",
-      "concetti": []
+      "markdown": "Il [[problema-della-derivazione|problema della derivazione]] delle fonti di cognizione Legato alle fonti di cognizione c’è il problema della derivazione. Questo perché la maggior parte delle fonti di cognizione con cui abbiamo a che fare, sebbene riproducano tante e informazioni interessanti per lo più sono frutto di rielaborazioni, di riedizioni, magari risalgono a secoli dopo rispetto al momento della loro edizione. → E questo comporta, in particolar modo nell’ambito della letteratura, che su quei testi ci sono stati stratificazioni successive sia nella copiatura sia nella diffusione dei vari manoscritti, ma anche nell’adattamento rispetto alle funzioni a cui gli scritti erano preposti. - Per cui per riuscire a capire il dato originari c’è uno studio molto approfondito e particolare.",
+      "concetti": [
+        "problema-della-derivazione",
+        "fonti-di-cognizione"
+      ],
+      "testoFonte": "Il problema della derivazione delle fonti di cognizione Legato alle fonti di cognizione c’è il problema della derivazione. Questo perché la maggior parte delle fonti di cognizione con cui abbiamo a che fare, sebbene riproducano tante e informazioni interessanti per lo più sono frutto di rielaborazioni, di riedizioni, magari risalgono a secoli dopo rispetto al momento della loro edizione. > E questo comporta, in particolar modo nell’ambito della letteratura, che su quei testi ci sono stati stratificazioni successive sia nella copiatura sia nella diffusione dei vari manoscritti, ma anche nell’adattamento rispetto alle funzioni a cui gli scritti erano preposti. - Per cui per riuscire a capire il dato originari c’è uno studio molto approfondito e particolare."
     },
     {
       "id": "p004-b003",
       "pagina": 4,
-      "markdown": "> L’unica fonte diretta che riusciamo ad avere è uno scritto di un giurista d’età classica: Gaio (II sec. d.C.) - Gaio Scrisse un manuale di institutiones, rivolto a studenti alle prime armi con il diritto: infatti institutiones vuol dire proprio fondamenti \\ pilastri su cui costruire la propria formazioni. - Ciò che però ci importa in relazione alle fonti di cognizione, è che abbiamo avuto la fortuna di riuscire a pervenire ad una conoscenza diretta del manoscritto che riportava le institutiones Gaiane grazie ad una scoperta dell’800 che ha fatto riemergere i cosiddetti palinsesti* . cioè: le pergamene venivano utilizzate a più livelli per scriverci su, e cioè le pergamene erano usate su più livelli per riscriverci su, e grazie alla scienza, nell’800, è stato ideato un procedimento chimico che ha consentito di far riemergere la vera scrittura gaiana ecco perché ne abbiamo conoscenza diretta. - La riscoperta di queste scritture ha permesso di attuare delle correzioni\\revisioni rispetto a delle congetture riguardo il diritto privato in ambito romano.",
-      "concetti": []
+      "markdown": "> L’unica fonte diretta che riusciamo ad avere è uno scritto di un giurista d’[[eta-classica|età classica]]: [[gaio|Gaio]] (II sec. d.C.) - Gaio Scrisse un manuale di [[institutiones-di-gaio|institutiones]], rivolto a studenti alle prime armi con il diritto: infatti institutiones vuol dire proprio fondamenti \\ pilastri su cui costruire la propria formazioni. - Ciò che però ci importa in relazione alle fonti di cognizione, è che abbiamo avuto la fortuna di riuscire a pervenire ad una conoscenza diretta del manoscritto che riportava le institutiones Gaiane grazie ad una scoperta dell’800 che ha fatto riemergere i cosiddetti palinsesti*. cioè: le pergamene venivano utilizzate a più livelli per scriverci su, e cioè le pergamene erano usate su più livelli per riscriverci su, e grazie alla scienza, nell’800, è stato ideato un procedimento chimico che ha consentito di far riemergere la vera scrittura gaiana ecco perché ne abbiamo conoscenza diretta. - La riscoperta di queste scritture ha permesso di attuare delle correzioni/revisioni rispetto a delle congetture riguardo il diritto privato in ambito romano.",
+      "concetti": [
+        "eta-classica",
+        "gaio",
+        "institutiones-di-gaio",
+        "fonti-di-cognizione"
+      ],
+      "testoFonte": "> L’unica fonte diretta che riusciamo ad avere è uno scritto di un giurista d’età classica: Gaio (II sec. d.C.) - Gaio Scrisse un manuale di institutiones, rivolto a studenti alle prime armi con il diritto: infatti institutiones vuol dire proprio fondamenti \\ pilastri su cui costruire la propria formazioni. - Ciò che però ci importa in relazione alle fonti di cognizione, è che abbiamo avuto la fortuna di riuscire a pervenire ad una conoscenza diretta del manoscritto che riportava le institutiones Gaiane grazie ad una scoperta dell’800 che ha fatto riemergere i cosiddetti palinsesti* . cioè: le pergamene venivano utilizzate a più livelli per scriverci su, e cioè le pergamene erano usate su più livelli per riscriverci su, e grazie alla scienza, nell’800, è stato ideato un procedimento chimico che ha consentito di far riemergere la vera scrittura gaiana ecco perché ne abbiamo conoscenza diretta. - La riscoperta di queste scritture ha permesso di attuare delle correzioni\\revisioni rispetto a delle congetture riguardo il diritto privato in ambito romano."
     },
     {
       "id": "p004-b004",
       "pagina": 4,
-      "markdown": "* Palinsesto: Manoscritto di papiro o pergamena, di epoca antica o medievale, il cui testo originario (scriptio inferior) sia stato cancellato mediante lavaggio e raschiatura e sostituito con altro (scriptio superior) disposto nello stesso senso o in senso trasversale al primo.",
-      "concetti": []
+      "markdown": "* [[palinsesto|Palinsesto]]: Manoscritto di papiro o pergamena, di epoca antica o medievale, il cui testo originario (scriptio inferior) sia stato cancellato mediante lavaggio e raschiatura e sostituito con altro (scriptio superior) disposto nello stesso senso o in senso trasversale al primo.",
+      "concetti": [
+        "palinsesto"
+      ]
     },
     {
       "id": "p004-b005",
       "pagina": 4,
-      "markdown": "- Le institutiones di Gaio riguardano i fondamenti del diritto privato, e di fatto rappresentano un’eccezione, perché in generale i testi giuridici, lo abbiamo visto, hanno subito vicende complicate, e infatti le fonti che ci sono pervenute per lo più appartengono ad un periodo più tardo rispetto all’eta classica: - ad un periodo in cui si è avuta quasi un’operazione di riduzione della letteratura classica: ci fu un intervento su quel patrimonio enorme un po di ritaglio e selezione, ecco perché i testi furono ridotti\\cambiati.",
-      "concetti": []
+      "markdown": "- Le institutiones di Gaio riguardano i fondamenti del diritto privato, e di fatto rappresentano un’eccezione, perché in generale i testi giuridici, lo abbiamo visto, hanno subito vicende complicate, e infatti le fonti che ci sono pervenute per lo più appartengono ad un periodo più tardo rispetto all’eta classica: - ad un periodo in cui si è avuta quasi un’operazione di riduzione della letteratura classica: ci fu un intervento su quel patrimonio enorme un po di ritaglio e selezione, ecco perché i testi furono ridotti/cambiati.",
+      "concetti": [
+        "institutiones-di-gaio",
+        "gaio"
+      ],
+      "testoFonte": "- Le institutiones di Gaio riguardano i fondamenti del diritto privato, e di fatto rappresentano un’eccezione, perché in generale i testi giuridici, lo abbiamo visto, hanno subito vicende complicate, e infatti le fonti che ci sono pervenute per lo più appartengono ad un periodo più tardo rispetto all’eta classica: - ad un periodo in cui si è avuta quasi un’operazione di riduzione della letteratura classica: ci fu un intervento su quel patrimonio enorme un po di ritaglio e selezione, ecco perché i testi furono ridotti\\cambiati."
     }
   ]
 }

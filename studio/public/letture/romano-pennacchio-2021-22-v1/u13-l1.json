@@ -6,42 +6,73 @@
   "da": 214,
   "a": 214,
   "lezione": "u13-l1",
+  "revisionata": true,
   "blocchi": [
     {
       "id": "p214-b001",
       "pagina": 214,
-      "markdown": "Digressione: La tradizione manoscritta del Digesto. I Digesta sono la parte del corpus iuris civilis che ha avuto più fortuna risputò alle altre, è infatti la parte che ha destato maggior interesse, e sulla quale è stata sviluppata una lunga tradizione manoscritta:",
-      "concetti": []
+      "markdown": "Digressione: La tradizione manoscritta del [[digesto|Digesto]]. I Digesta sono la parte del [[corpus-iuris-civilis|corpus iuris civilis]] che ha avuto più fortuna risputò alle altre, è infatti la parte che ha destato maggior interesse, e sulla quale è stata sviluppata una lunga tradizione manoscritta:",
+      "concetti": [
+        "digesto",
+        "corpus-iuris-civilis"
+      ]
     },
     {
       "id": "p214-b002",
       "pagina": 214,
-      "markdown": "‣Littera Florentina > Una prima redazione scritta particolarmente autorevole del Digesto giustinianeo è databile a poco dopo la fine del regno di Giustiniano (VI secolo), ed è la cosiddetta Littera Florentina nella quale è stato riprodotto il contenuto del testo dei Digesta. - Questo manoscritto si compone di ben 905 fogli suddivisi in due tomi - (Ogni foglio misura 36,6 cm in altezza e 32 in larghezza, la scrittura che dal ventesimo foglio in poi corre su due colonne è onciale (scrittura arrotondata apparsa nel IV secolo) con elementi di semionciale)",
-      "concetti": []
+      "markdown": "- [[littera-florentina|Littera Florentina]] → Una prima redazione scritta particolarmente autorevole del Digesto giustinianeo è databile a poco dopo la fine del regno di [[giustiniano|Giustiniano]] (VI secolo), ed è la cosiddetta Littera Florentina nella quale è stato riprodotto il contenuto del testo dei Digesta. - Questo manoscritto si compone di ben 905 fogli suddivisi in due tomi - (Ogni foglio misura 36,6 cm in altezza e 32 in larghezza, la scrittura che dal ventesimo foglio in poi corre su due colonne è onciale (scrittura arrotondata apparsa nel IV secolo) con elementi di semionciale)",
+      "concetti": [
+        "littera-florentina",
+        "giustiniano",
+        "digesto"
+      ],
+      "testoFonte": "‣Littera Florentina > Una prima redazione scritta particolarmente autorevole del Digesto giustinianeo è databile a poco dopo la fine del regno di Giustiniano (VI secolo), ed è la cosiddetta Littera Florentina nella quale è stato riprodotto il contenuto del testo dei Digesta. - Questo manoscritto si compone di ben 905 fogli suddivisi in due tomi - (Ogni foglio misura 36,6 cm in altezza e 32 in larghezza, la scrittura che dal ventesimo foglio in poi corre su due colonne è onciale (scrittura arrotondata apparsa nel IV secolo) con elementi di semionciale)"
     },
     {
       "id": "p214-b003",
       "pagina": 214,
-      "markdown": "‣La Littera Bononiensis (o Vulgata) > Al contrario di quanto avvenne per le Institutiones, il Codice e le Novellae, la cui conoscenza almeno in una forma riassuntiva non andò mai perduta, il digesto fu dimenticato per tutto l'alto medioevo fino a Rinascimento bolognese. > Per un certo periodo di tempo, infatti, non si ebbe più traccia della Littera Fiorentina almeno sino all’ultimo quarto dell’XI secolo, quando a Bologna a seguito di una vera e propria rinascita degli studi giuridici, si ha notizia di maestri bolognesi, chiamati Glossatori, che stavano lavorando ad un altro manoscritto dei Digesta: la cosiddetta Littera Bononiensis (o Vulgata). - Tra XI e XII secolo, a Bologna, fiorì infatti la scuola dei Glossatori: “Glossatori” poiché annotavano i testi con numerose glosse, e cioè con l’interpretazione delle parole più oscure (perchè ormai cadute in disuso), e le sostituivano con termini del linguaggio corrente: Il loro era un metodo strettamente esegetico (interpretativo), di analisi minuta parola per parola.",
-      "concetti": []
+      "markdown": "- La [[littera-bononiensis|Littera Bononiensis]] (o Vulgata) → Al contrario di quanto avvenne per le [[institutiones-di-giustiniano|Institutiones]], il Codice e le [[novellae|Novellae]], la cui conoscenza almeno in una forma riassuntiva non andò mai perduta, il digesto fu dimenticato per tutto l'alto medioevo fino a Rinascimento bolognese. → Per un certo periodo di tempo, infatti, non si ebbe più traccia della Littera Fiorentina almeno sino all’ultimo quarto dell’XI secolo, quando a Bologna a seguito di una vera e propria rinascita degli studi giuridici, si ha notizia di maestri bolognesi, chiamati Glossatori, che stavano lavorando ad un altro manoscritto dei Digesta: la cosiddetta Littera Bononiensis (o Vulgata). - Tra la fine dell’XI e la metà del XIII secolo, a Bologna, fiorì infatti la [[glossatori|scuola dei Glossatori]]: “Glossatori” poiché annotavano i testi con numerose glosse, e cioè con l’interpretazione delle parole più oscure (perchè ormai cadute in disuso), e le sostituivano con termini del linguaggio corrente: Il loro era un metodo strettamente esegetico (interpretativo), di analisi minuta parola per parola.",
+      "concetti": [
+        "littera-bononiensis",
+        "institutiones-di-giustiniano",
+        "novellae",
+        "glossatori",
+        "digesto"
+      ],
+      "testoFonte": "‣La Littera Bononiensis (o Vulgata) > Al contrario di quanto avvenne per le Institutiones, il Codice e le Novellae, la cui conoscenza almeno in una forma riassuntiva non andò mai perduta, il digesto fu dimenticato per tutto l'alto medioevo fino a Rinascimento bolognese. > Per un certo periodo di tempo, infatti, non si ebbe più traccia della Littera Fiorentina almeno sino all’ultimo quarto dell’XI secolo, quando a Bologna a seguito di una vera e propria rinascita degli studi giuridici, si ha notizia di maestri bolognesi, chiamati Glossatori, che stavano lavorando ad un altro manoscritto dei Digesta: la cosiddetta Littera Bononiensis (o Vulgata). - Tra XI e XII secolo, a Bologna, fiorì infatti la scuola dei Glossatori: “Glossatori” poiché annotavano i testi con numerose glosse, e cioè con l’interpretazione delle parole più oscure (perchè ormai cadute in disuso), e le sostituivano con termini del linguaggio corrente: Il loro era un metodo strettamente esegetico (interpretativo), di analisi minuta parola per parola.",
+      "notaRevisione": "Negli appunti «tra XI e XII secolo»: i Glossatori operano dalla fine dell’XI alla metà del XIII secolo."
     },
     {
       "id": "p214-b004",
       "pagina": 214,
-      "markdown": "> Il loro studio si basava sui testi giuridici del diritto romano (in quanto primo comune denominatore di tutto ciò che c’è stato in futuro), e questi glossatori (la cui maggior parte dei nomi ci è sconosciuta, ma ricordiamo ad esempio Irnerio) partirono proprio dal Corpus Iuris Civilis con particolare attenzione per i Digesta da cui faranno partire lo studio giuridico. > Il loro lavoro, tuttavia, soffre di scarsa sensibilità storicistica, non vi è una eccessiva preoccupazione per la comprensione dei testi alla luce della realtà in cui furono prodotti, ma c’è un tentativo di rivelare la ricchezza dei contenuti e dei significati di un patrimonio di fonti fino a quel momento trascurato. - Il tutto quasi con una subordinazione formale ai testi: veniva svolta un’analisi pedissequa, che ossequiava il testo senza modificarlo, ma semplicemente analizzandolo.",
-      "concetti": []
+      "markdown": "> Il loro studio si basava sui testi giuridici del diritto romano (in quanto primo comune denominatore di tutto ciò che c’è stato in futuro), e questi glossatori (la cui maggior parte dei nomi ci è sconosciuta, ma ricordiamo ad esempio [[irnerio|Irnerio]]) partirono proprio dal Corpus Iuris Civilis con particolare attenzione per i Digesta da cui faranno partire lo studio giuridico. > Il loro lavoro, tuttavia, soffre di scarsa sensibilità storicistica, non vi è una eccessiva preoccupazione per la comprensione dei testi alla luce della realtà in cui furono prodotti, ma c’è un tentativo di rivelare la ricchezza dei contenuti e dei significati di un patrimonio di fonti fino a quel momento trascurato. - Il tutto quasi con una subordinazione formale ai testi: veniva svolta un’analisi pedissequa, che ossequiava il testo senza modificarlo, ma semplicemente analizzandolo.",
+      "concetti": [
+        "irnerio",
+        "corpus-iuris-civilis",
+        "glossatori",
+        "digesto"
+      ]
     },
     {
       "id": "p214-b005",
       "pagina": 214,
-      "markdown": "‣La Magna Glossa Accursio > Nel 1250 circa, il giurista toscano Accursio racchiuse in un’unica opera l’intero lavoro dei glossatori bolognesi raccogliendo tutte le 96 000 glosse realizzate del Corpus Iuris Civilis.",
-      "concetti": []
+      "markdown": "- La [[magna-glossa|Magna Glossa]] [[accursio|Accursio]] → Nel 1250 circa, il giurista toscano Accursio racchiuse in un’unica opera l’intero lavoro dei glossatori bolognesi raccogliendo tutte le 96 000 glosse realizzate del Corpus Iuris Civilis.",
+      "concetti": [
+        "magna-glossa",
+        "accursio",
+        "corpus-iuris-civilis",
+        "glossatori"
+      ],
+      "testoFonte": "‣La Magna Glossa Accursio > Nel 1250 circa, il giurista toscano Accursio racchiuse in un’unica opera l’intero lavoro dei glossatori bolognesi raccogliendo tutte le 96 000 glosse realizzate del Corpus Iuris Civilis."
     },
     {
       "id": "p214-b006",
       "pagina": 214,
       "markdown": "—> Capiamo dunque che i testi del Corpus Iuris Civilis sono considerati allo stesso tempo principio e fine della conoscenza giuridica: c’è proprio la necessita che il giurista debba spingere oltre le sue conoscenze come se fosse un testo inesauribile da cui si possono reperire tutte le soluzioni e le spiegazioni. - Emerge in questo senso una concezione teocratica del diritto, nel senso che tale Corpus Iuris Civilis arriva ad essere considerato una sorta di rivelazione chiusa in se con fondamenti teologici espliciti. - Tant’è che laddove i glossatori spingessero per cercare la ragione intrinseca (la ratio iuris) di determinate soluzioni, la trovavano attraverso una lettura degli stessi testi, e quindi si spiegava tutto alla luce di se stesso, non vi era prospettiva storica.",
-      "concetti": []
+      "concetti": [
+        "corpus-iuris-civilis",
+        "glossatori"
+      ]
     }
   ]
 }

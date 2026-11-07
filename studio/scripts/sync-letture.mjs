@@ -36,6 +36,8 @@ export function formatta(md) {
   s = s.replace(/(?<=\p{Ll}{3}|[)»"])(\d{1,2})(?=[\s,;:)»"]|\.(?:\s|$)|$)/gu, '<sup>$1</sup>');
   // Il segno > a metà riga è una freccia degli appunti, non una citazione.
   s = s.replace(/(\S) > (?=\S)/g, '$1 → ');
+  // Negli appunti «>» a inizio riga è una freccia, non una citazione.
+  s = s.replace(/^> (?=\S)/gm, '→ ');
   // Elenchi numerati linearizzati: «1- … 2- …» diventa un elenco, solo se la sequenza è completa.
   if (!s.includes('\n')) {
     const numeri = [...s.matchAll(/(^|\s)(\d{1,2})[-.] (?=\p{Lu})/gu)];

@@ -6,6 +6,7 @@
   "da": 149,
   "a": 154,
   "lezione": "u08-l10",
+  "revisionata": true,
   "blocchi": [
     {
       "id": "p149-b001",
@@ -16,38 +17,68 @@
     {
       "id": "p149-b002",
       "pagina": 149,
-      "markdown": "> Aequitas > Riguardo al principio dell’aequitas, è significativo un intervento di Antonino Pio, su cui ci informa Marcello nei suoi Digesta, con riguardo all’assenza in un processo di una delle parti. (Testo pag. 241) Sebbene delle cose che hanno una loro solennità, non si debba mai mutare nulla in modo facile, tuttavia, là dove lo reclami un'equità evidente, è doveroso che si ponga rimedio. Così, quando in un procedimento giurisdizionale, chi è stato chiamato dal pretore non ha risposto, la norma è che si abbia una pronuncia contro di lui; ma se il chiamato compare poi subito davanti al tribunale, dove tu siedi, si può presumere che egli non si sia presentato prima non per colpa sua, ma perché non ha udito la voce dell'araldo. È possibile, quindi, reintegrarlo nella situazione giuridica primitiva. - Vediamo come il richiamo all’aequitas viene utilizzato per giustificare il mutamento di alcuni schemi rigorosi e solenni che fino ad allora venivano utilizzati. Infatti, nell’ambito del processo formulare, il fatto che il convenuto non si presentasse in sede processuale nonostante una regolare convocazione, comportata la sconfitta. Si interviene proprio su questo, si racconta un caso in cui il convenuto, non avendo ricevuto correttamente la comunicazione dell'araldo (l'annuncio dell'araldo era un modo per convocare le parti in processo), si era diretto dinanzi al tribunale “all’ultimo minuto” solo subito dopo esserne venuto a conoscenza. Antonino Pio dunque intervenne invitando il pretore a concedere una in integrum restitutio, ovvero la reintegra del convenuto nella situazione giuridica in cui quale era stato convocato. Ciò è una novità assoluta rispetto al pregresso. - Qui vediamo che l’aequitas imperiale andava ad affermarsi aggirando quasi la disciplina esistente.",
-      "concetti": []
+      "markdown": "> [[aequitas|Aequitas]] > Riguardo al principio dell’aequitas, è significativo un intervento di [[antonino-pio|Antonino Pio]], su cui ci informa [[ulpio-marcello|Marcello]] nei suoi Digesta, con riguardo all’assenza in un processo di una delle parti. (Testo pag. 241) Sebbene delle cose che hanno una loro solennità, non si debba mai mutare nulla in modo facile, tuttavia, là dove lo reclami un'equità evidente, è doveroso che si ponga rimedio. Così, quando in un procedimento giurisdizionale, chi è stato chiamato dal pretore non ha risposto, la norma è che si abbia una pronuncia contro di lui; ma se il chiamato compare poi subito davanti al tribunale, dove tu siedi, si può presumere che egli non si sia presentato prima non per colpa sua, ma perché non ha udito la voce dell'araldo. È possibile, quindi, reintegrarlo nella situazione giuridica primitiva. - Vediamo come il richiamo all’aequitas viene utilizzato per giustificare il mutamento di alcuni schemi rigorosi e solenni che fino ad allora venivano utilizzati. Infatti, nell’ambito del [[processo-formulare|processo formulare]], il fatto che il convenuto non si presentasse in sede processuale nonostante una regolare convocazione, comportata la sconfitta. Si interviene proprio su questo, si racconta un caso in cui il convenuto, non avendo ricevuto correttamente la comunicazione dell'araldo (l'annuncio dell'araldo era un modo per convocare le parti in processo), si era diretto dinanzi al tribunale “all’ultimo minuto” solo subito dopo esserne venuto a conoscenza. [[caracalla|Antonino]] Pio dunque intervenne invitando il pretore a concedere una [[in-integrum-restitutio|in integrum restitutio]], ovvero la reintegra del convenuto nella situazione giuridica in cui quale era stato convocato. Ciò è una novità assoluta rispetto al pregresso. - Qui vediamo che l’aequitas imperiale andava ad affermarsi aggirando quasi la disciplina esistente.",
+      "concetti": [
+        "aequitas",
+        "antonino-pio",
+        "ulpio-marcello",
+        "processo-formulare",
+        "caracalla",
+        "in-integrum-restitutio"
+      ]
     },
     {
       "id": "p149-b003",
       "pagina": 149,
-      "markdown": "> Alcune, il principio nuovo viene drasticamente affermato nonostante le voci contrarie. Un esempio è riportato da Ulpiano, e riguarda il settore dei rapporti familiari: (Testo pag. 242) Il proconsole non dovrà avere alcun dubbio sul punto, se anche il figlio possa essere nominato curatore del proprio padre. In Celso , e in molti altri, si registra un’opposizione, quasi sia disonorevole che il padre abbia una guida nel figlio; ma il divino Antonino Pio in un rescritto a Insteio Celere, e i divini imperatori fratelli, stabilirono che il figlio, se vive sobriamente, e non un estraneo, deve essere dato al padre come curatore. - Qui vediamo come la voce dell’imperatore, sovrasti l’opinione dei giuristi.",
-      "concetti": []
+      "markdown": "> Alcune, il principio nuovo viene drasticamente affermato nonostante le voci contrarie. Un esempio è riportato da [[ulpiano|Ulpiano]], e riguarda il settore dei rapporti familiari: (Testo pag. 242) Il proconsole non dovrà avere alcun dubbio sul punto, se anche il figlio possa essere nominato curatore del proprio padre. In [[celso|Celso]], e in molti altri, si registra un’opposizione, quasi sia disonorevole che il padre abbia una guida nel figlio; ma il divino Antonino Pio in un rescritto a Insteio Celere, e i divini imperatori fratelli, stabilirono che il figlio, se vive sobriamente, e non un estraneo, deve essere dato al padre come curatore. - Qui vediamo come la voce dell’imperatore, sovrasti l’opinione dei giuristi.",
+      "concetti": [
+        "ulpiano",
+        "celso",
+        "antonino-pio",
+        "caracalla"
+      ],
+      "testoFonte": "> Alcune, il principio nuovo viene drasticamente affermato nonostante le voci contrarie. Un esempio è riportato da Ulpiano, e riguarda il settore dei rapporti familiari: (Testo pag. 242) Il proconsole non dovrà avere alcun dubbio sul punto, se anche il figlio possa essere nominato curatore del proprio padre. In Celso , e in molti altri, si registra un’opposizione, quasi sia disonorevole che il padre abbia una guida nel figlio; ma il divino Antonino Pio in un rescritto a Insteio Celere, e i divini imperatori fratelli, stabilirono che il figlio, se vive sobriamente, e non un estraneo, deve essere dato al padre come curatore. - Qui vediamo come la voce dell’imperatore, sovrasti l’opinione dei giuristi."
     },
     {
       "id": "p150-b001",
       "pagina": 150,
-      "markdown": "> Ovviamente, non sempre le città imperiale era in contrasto con la coerenza dell'ordinamento, poteva infatti anche contribuire a ristabilirla. - Ad esempio, Gaio, nota che, in una costituzione di Adriano, l'imperatore mosso non solo dalla iniquitas rei ma anche dalla inelegantia iuris, “richiamò in vigore la regola del diritto dei popoli, secondo cui una donna, finché rimane libera, genera uomini liberi”.",
-      "concetti": []
+      "markdown": "> Ovviamente, non sempre le città imperiale era in contrasto con la coerenza dell'ordinamento, poteva infatti anche contribuire a ristabilirla. - Ad esempio, [[gaio|Gaio]], nota che, in una costituzione di [[adriano|Adriano]], l'imperatore mosso non solo dalla iniquitas rei ma anche dalla inelegantia iuris, “richiamò in vigore la regola del diritto dei popoli, secondo cui una donna, finché rimane libera, genera uomini liberi”.",
+      "concetti": [
+        "gaio",
+        "adriano"
+      ]
     },
     {
       "id": "p150-b002",
       "pagina": 150,
       "markdown": "Rapporto tra attività normativa imperiale e giruisprudenza (Testo pag. 246) Un mezzo protettivo di questo genere non opera solo in un caso come questo. È necessario tutelare coloro che, senza loro colpa, sono tratti in inganno, soprattutto se l'avversario ha agito con frode, e anche quando spetti normalmente l'azione per il dolo. È caratteristico di un pretore avveduto ristabilire di nuovo la controversia, così come suggeriscono la «ragione» e l’«equità», piuttosto che dar luogo a un’azione giudiziaria infamante, alla quale si deve ricorrere solo quando non può esservi altro rimedio",
-      "concetti": []
+      "concetti": [
+        "aequitas"
+      ]
     },
     {
       "id": "p150-b003",
       "pagina": 150,
       "markdown": "In questo passo, Marcello prosegue sul ragionamento avviato da Antonino Pio che in nome dell’aequitas aveva chiesto che il convenuto arrivato in ritardo al processo a causa di una comunicazione arrivata in modo non corretto. Marcello ne amplia la portata su un piano interpretativo, e lo estende ad altre ipotesi. - Partendo infatti dalla considerazione di aequitas, Marcello va oltre, e afferma che ci sono anche altre situazioni che possono andare a giustificare la propria mancata comparsa in tribunale. Per cui è possibile reintegrare il soggetto convenuto in processo anche quando tratto in inganno, soprattutto se l’altra parte ha appositamente agito con frode per vincere più facilmente la causa.",
-      "concetti": []
+      "concetti": [
+        "antonino-pio",
+        "aequitas",
+        "ulpio-marcello",
+        "caracalla"
+      ]
     },
     {
       "id": "p150-b004",
       "pagina": 150,
-      "markdown": "> Questo ragionamento fatto da Marcello fa anche capire come la giurisprudenza abbia una relazione strettissima con la normativa imperiale. - Innanzitutto abbiamo visto (in un’ottica pratica) che i giuristi ricoprivano un ruolo estremamente importante all'interno del consiglio, in quanto erano in grado di influire, la maggior parte delle volte, sulle singole decisioni, favorendole o contrastandole. - Ma questo non era l'unico ruolo, la giurisprudenza e anche, soprattutto, un'impresa scientifica che si esprime in un corpo di dottrine in una letteratura, e principe legislatore i suoi funzionari ed i suoi consiglieri non possono non tenerne conto. > Niente impedisce però che si percorrano nuove strade, ma, a volte, si tratta solo di ribadire un indirizzo giurisprudenziale già affermato o di scegliere fra indirizzi contrastanti. È la giurisprudenza che offre alla normativa imperiale un ventaglio di soluzioni possibili. - Vi sono due testimonianze in materia successoria: 1- (Testo pag. 243) I giuristi dissentono su questo punto: Sabino e Cassio, e gli altri maestri della scuola sabiniana, pensano che l'oggetto di un legato vindicatorio divenga subito del legatario, dopo che è stata adita l'eredità, anche se egli ignori l'esistenza del legato; ma quando ne abbia avuto notizia, e lo abbia respinto, è come se il legato non fosse mai stato disposto. Nerva e Proculo, invece, e gli altri esponenti della scuola, pensano che la cosa legata non sia del legatario se non nel momento in cui egli voglia acquistarla. Ma oggi, dopo una costituzione di Antonino Pio, si applica piuttosto il regime giuridico di cui fu sostenitore Proculo. A una colonia, infatti, era stato legato un Latino, e la disposizione aveva efficacia reale: «i decurioni deliberino», dispose il principe, «se vogliono acquistarlo, come se il legato si indirizzasse a un'unica persona»",
-      "concetti": []
+      "markdown": "> Questo ragionamento fatto da Marcello fa anche capire come la giurisprudenza abbia una relazione strettissima con la normativa imperiale. - Innanzitutto abbiamo visto (in un’ottica pratica) che i giuristi ricoprivano un ruolo estremamente importante all'interno del consiglio, in quanto erano in grado di influire, la maggior parte delle volte, sulle singole decisioni, favorendole o contrastandole. - Ma questo non era l'unico ruolo, la giurisprudenza e anche, soprattutto, un'impresa scientifica che si esprime in un corpo di dottrine in una letteratura, e principe legislatore i suoi funzionari ed i suoi consiglieri non possono non tenerne conto. > Niente impedisce però che si percorrano nuove strade, ma, a volte, si tratta solo di ribadire un indirizzo giurisprudenziale già affermato o di scegliere fra indirizzi contrastanti. È la giurisprudenza che offre alla normativa imperiale un ventaglio di soluzioni possibili. - Vi sono due testimonianze in materia successoria: 1- (Testo pag. 243) I giuristi dissentono su questo punto: [[masurio-sabino|Sabino]] e Cassio, e gli altri maestri della [[sabiniani|scuola sabiniana]], pensano che l'oggetto di un legato vindicatorio divenga subito del legatario, dopo che è stata adita l'eredità, anche se egli ignori l'esistenza del legato; ma quando ne abbia avuto notizia, e lo abbia respinto, è come se il legato non fosse mai stato disposto. Nerva e [[proculo|Proculo]], invece, e gli altri esponenti della scuola, pensano che la cosa legata non sia del legatario se non nel momento in cui egli voglia acquistarla. Ma oggi, dopo una costituzione di Antonino Pio, si applica piuttosto il regime giuridico di cui fu sostenitore Proculo. A una colonia, infatti, era stato legato un Latino, e la disposizione aveva efficacia reale: «i decurioni deliberino», dispose il principe, «se vogliono acquistarlo, come se il legato si indirizzasse a un'unica persona»",
+      "concetti": [
+        "masurio-sabino",
+        "sabiniani",
+        "proculo",
+        "antonino-pio",
+        "ulpio-marcello",
+        "caracalla"
+      ]
     },
     {
       "id": "p150-b005",
@@ -58,32 +89,51 @@
     {
       "id": "p151-b001",
       "pagina": 151,
-      "markdown": "2- (Testo pag. 243 - 244) Se il testatore ha legato una cosa sua e poi l’ha trasferita ad altri, Celso è del parere che la cosa sia egualmente dovuta, sempre che la vendita non celi l'intenzione di revocare il legato. Nello stesso senso si pronunciarono, in un rescritto, Settimio Severo e Antonino. Essi stabilirono anche che il testatore il quale, dopo aver disposto il testamento, diede in pegno i fondi che erano stati legati, non sembra manifestare così una volontà di revoca; e perciò il legatario può agire contro l'erede, perché i fondi siano liberati dal vincolo. - Vediamo l’imperatore emanare una costituzione in linea con il parere giurisprudenziale.",
-      "concetti": []
+      "markdown": "2- (Testo pag. 243 - 244) Se il testatore ha legato una cosa sua e poi l’ha trasferita ad altri, Celso è del parere che la cosa sia egualmente dovuta, sempre che la vendita non celi l'intenzione di revocare il legato. Nello stesso senso si pronunciarono, in un rescritto, [[settimio-severo|Settimio Severo]] e Antonino. Essi stabilirono anche che il testatore il quale, dopo aver disposto il testamento, diede in pegno i fondi che erano stati legati, non sembra manifestare così una volontà di revoca; e perciò il legatario può agire contro l'erede, perché i fondi siano liberati dal vincolo. - Vediamo l’imperatore emanare una costituzione in linea con il parere giurisprudenziale.",
+      "concetti": [
+        "settimio-severo",
+        "caracalla",
+        "celso"
+      ]
     },
     {
       "id": "p151-b002",
       "pagina": 151,
-      "markdown": "> Capiamo quindi che giurisprudenza e legislazione, nel loro legame strettissimo, sono in dialogo permanente, sia perché l'imperatore deve tener conto delle soluzioni offerte dal letteratura giurisprudenziale, ma anche perché le norme imperiali, una volta emanate, sono ancora sottoposte ad un esame critico. ( In maniera quasi analoga a quanto era accaduto con l'editto pretorio nell'età della Repubblica o nei primi decenni del principato). (Testo pag. 244) - Un primo esempio è costituito da questo frammento di Gaio. Per i fedecommessi, sono dovuti gli interessi e i frutti, sempre che l'onerato sia in mora. Al contrario, nei legati gli interessi non sono dovuti. Così si esprime un rescritto del divino Adriano. Ma io so che, secondo Giuliano, lo stesso regime giuridico dei fedecommessi si applica nel legato permissivo; e questa opinione prevale ancora oggi",
-      "concetti": []
+      "markdown": "> Capiamo quindi che giurisprudenza e legislazione, nel loro legame strettissimo, sono in dialogo permanente, sia perché l'imperatore deve tener conto delle soluzioni offerte dal letteratura giurisprudenziale, ma anche perché le norme imperiali, una volta emanate, sono ancora sottoposte ad un esame critico. (In maniera quasi analoga a quanto era accaduto con l'editto pretorio nell'età della Repubblica o nei primi decenni del principato). (Testo pag. 244) - Un primo esempio è costituito da questo frammento di Gaio. Per i fedecommessi, sono dovuti gli interessi e i frutti, sempre che l'onerato sia in mora. Al contrario, nei legati gli interessi non sono dovuti. Così si esprime un rescritto del divino Adriano. Ma io so che, secondo [[salvio-giuliano|Giuliano]], lo stesso regime giuridico dei fedecommessi si applica nel legato permissivo; e questa opinione prevale ancora oggi",
+      "concetti": [
+        "salvio-giuliano",
+        "adriano",
+        "gaio"
+      ],
+      "testoFonte": "> Capiamo quindi che giurisprudenza e legislazione, nel loro legame strettissimo, sono in dialogo permanente, sia perché l'imperatore deve tener conto delle soluzioni offerte dal letteratura giurisprudenziale, ma anche perché le norme imperiali, una volta emanate, sono ancora sottoposte ad un esame critico. ( In maniera quasi analoga a quanto era accaduto con l'editto pretorio nell'età della Repubblica o nei primi decenni del principato). (Testo pag. 244) - Un primo esempio è costituito da questo frammento di Gaio. Per i fedecommessi, sono dovuti gli interessi e i frutti, sempre che l'onerato sia in mora. Al contrario, nei legati gli interessi non sono dovuti. Così si esprime un rescritto del divino Adriano. Ma io so che, secondo Giuliano, lo stesso regime giuridico dei fedecommessi si applica nel legato permissivo; e questa opinione prevale ancora oggi"
     },
     {
       "id": "p151-b003",
       "pagina": 151,
       "markdown": "(Testo pag. 245) - Questo non è un caso isolato, anche in ambito criminalistico, in cui l'opera riformatrice è molto più intensa, si nota un andamento simile. Un ulteriore esempio si ritrova nell'ottavo libro delle Disputationes ulpianee, nel momento in cui si commenta la legge Giulia sul processo pubblico. Ulpiano limita o “corregge” un precetto governativo sulla legittimazione all’accusa (che forse egli steso aveva contribuito a formulare in qualità di alto funzionario di Settimio Severo.",
-      "concetti": []
+      "concetti": [
+        "settimio-severo",
+        "ulpiano"
+      ]
     },
     {
       "id": "p151-b004",
       "pagina": 151,
       "markdown": "Chi è imputato di un reato deve discolparsi, né può accusare prima di essere stato prosciolto: nelle costituzioni, infatti, si precisa che l'imputato si discolpa non col giustificare la propria azione e accusando a sua volta, ma dimostrando la propria innocenza. Rimane però incerto, se può accusare solo l'imputato che sia stato prosciolto, o anche il reo che abbia subito (e scontato) la pena: la ragione del dubbio è in ciò, che il nostro imperatore Caracalla e il divino padre suo stabilirono che, dopo una condanna, non è possibile dare inizio a un'accusa. Ma io penso che queste parole si riferiscano solo a coloro che abbiano perduto o la cittadinanza o la libertà. E ovvio, d'altra parte, che essi possano completare, anche dopo la condanna, le «delazioni» iniziate prima.",
-      "concetti": []
+      "concetti": [
+        "caracalla"
+      ]
     },
     {
       "id": "p151-b005",
       "pagina": 151,
-      "markdown": "> Può, inoltre, accadere che l'introduzione di un principio nuovo per mezzo di un atto normativo imperiale vada a cambiare radicalmente il corso delle cose, e ad indurre la giurisprudenza ad abbandonare un punto di vista sostenuto nel passato. - A tal proposito è esemplificativa la vicenda del fedecommesso di emancipazione; secondo il parere comune dei giuristi, infatti, nessuno poteva imporre il padre di emancipare i figli. La potestà paterna si sottraeva all'intervento di estranei e non era economicamente valutabile. Tuttavia in un caso particolare, Settimio Severo riconobbe l'obbligo del padre fedecommissario di eseguire il fedecommesso emancipando i figli, e da allora il fedecommesso di emancipazione ebbe il suo posto fra gli istituti del diritto ereditario romano. Si discusse solo intorno al suo ambito applicativo. - E abbiamo visto, come accaduto per il rescritto di Antonino Pio, che talvolta la giurisprudenza può intervenire per ampliarne la portata attraverso delle interpretazioni (vedi testo pag. 246)",
-      "concetti": []
+      "markdown": "> Può, inoltre, accadere che l'introduzione di un principio nuovo per mezzo di un atto normativo imperiale vada a cambiare radicalmente il corso delle cose, e ad indurre la giurisprudenza ad abbandonare un punto di vista sostenuto nel passato. - A tal proposito è esemplificativa la vicenda del [[fedecommesso-di-emancipazione|fedecommesso di emancipazione]]; secondo il parere comune dei giuristi, infatti, nessuno poteva imporre il padre di emancipare i figli. La potestà paterna si sottraeva all'intervento di estranei e non era economicamente valutabile. Tuttavia in un caso particolare, Settimio Severo riconobbe l'obbligo del padre fedecommissario di eseguire il fedecommesso emancipando i figli, e da allora il fedecommesso di emancipazione ebbe il suo posto fra gli istituti del diritto ereditario romano. Si discusse solo intorno al suo ambito applicativo. - E abbiamo visto, come accaduto per il rescritto di Antonino Pio, che talvolta la giurisprudenza può intervenire per ampliarne la portata attraverso delle interpretazioni (vedi testo pag. 246)",
+      "concetti": [
+        "fedecommesso-di-emancipazione",
+        "settimio-severo",
+        "antonino-pio",
+        "caracalla"
+      ]
     },
     {
       "id": "p152-b001",
@@ -94,8 +144,10 @@
     {
       "id": "p153-b001",
       "pagina": 153,
-      "markdown": "‣ Capitolo nono: L’amministrazione pubblica, l'insegnamento, le scuole",
-      "concetti": []
+      "markdown": "## Capitolo nono: L’amministrazione pubblica, l'insegnamento, le scuole",
+      "concetti": [],
+      "testoFonte": "‣ Capitolo nono: L’amministrazione pubblica, l'insegnamento, le scuole",
+      "notaRevisione": "Le pp. 153–154 contengono solo i titoli dei §§ 1 (Immensum corpus imperii) e 2 (Carriere): negli appunti manca il testo."
     },
     {
       "id": "p153-b002",
@@ -107,7 +159,8 @@
       "id": "p154-b001",
       "pagina": 154,
       "markdown": "2. Carriere",
-      "concetti": []
+      "concetti": [],
+      "notaRevisione": "Le pp. 153–154 contengono solo i titoli dei §§ 1 (Immensum corpus imperii) e 2 (Carriere): negli appunti manca il testo."
     }
   ]
 }

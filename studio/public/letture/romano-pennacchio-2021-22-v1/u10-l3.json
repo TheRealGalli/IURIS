@@ -6,42 +6,80 @@
   "da": 169,
   "a": 169,
   "lezione": "u10-l3",
+  "revisionata": true,
   "blocchi": [
     {
       "id": "p169-b001",
       "pagina": 169,
-      "markdown": "I commentari severiani dimostrano il rapporto ancora saldo della\n3. Interessi nuovi giurisprudenza tardo-classica con il passato. Ma, allo stesso tempo, giurisprudenza tardo-classica (Paolo, UIpiano, Papiniano, Marciano, Callistrato, Arrio Menandro, Macro, Modestino) coltiva anche nuovi interessi e\\o approfondisce temi già presenti da qualche generazione alla coscienza degli interpreti.",
-      "concetti": []
+      "markdown": "I commentari severiani dimostrano il rapporto ancora saldo della\n3. Interessi nuovi [[giurisprudenza-tardo-classica|giurisprudenza tardo-classica]] con il passato. Ma, allo stesso tempo, giurisprudenza tardo-classica ([[paolo|Paolo]], UIpiano, [[papiniano|Papiniano]], [[elio-marciano|Marciano]], [[callistrato|Callistrato]], Arrio Menandro, [[macro|Macro]], [[modestino|Modestino]]) coltiva anche nuovi interessi e/o approfondisce temi già presenti da qualche generazione alla coscienza degli interpreti.",
+      "concetti": [
+        "giurisprudenza-tardo-classica",
+        "paolo",
+        "papiniano",
+        "elio-marciano",
+        "callistrato",
+        "macro",
+        "modestino"
+      ],
+      "testoFonte": "I commentari severiani dimostrano il rapporto ancora saldo della 3. Interessi nuovi giurisprudenza tardo-classica con il passato. Ma, allo stesso tempo, giurisprudenza tardo-classica (Paolo, UIpiano, Papiniano, Marciano, Callistrato, Arrio Menandro, Macro, Modestino) coltiva anche nuovi interessi e\\o approfondisce temi già presenti da qualche generazione alla coscienza degli interpreti."
     },
     {
       "id": "p169-b002",
       "pagina": 169,
-      "markdown": "> La letteratura giuspubblicistica sugli ofﬁcia di magistrati cittadini, prefetti, governatori provinciali, aveva qualche precedente fra Antonino Pio e Marco Aurelio: - Appartengono a Marcello e a Venuleio due opere, l’una sulla carica di console, l’altra su quella proconsolare; - E cinquant’anni dopo, il De ofﬁcio procunsulis, Ulpiano persegue l’intento di ricavare, dai rescritti e dai mandati che riguardano questa o quella provincia, i principii applicabili a tutte le province senatorie , costruendo così un sistema comune di diritto amministrativo provinciale . In questo libro si rivela l’arte di governo del grande funzionario che ne è l’autore, e il profondo moralismo che la ispira.",
-      "concetti": []
+      "markdown": "> La [[letteratura-giuspubblicistica|letteratura giuspubblicistica]] sugli officia di magistrati cittadini, prefetti, governatori provinciali, aveva qualche precedente fra Antonino Pio e [[marco-aurelio|Marco Aurelio]]: - Appartengono a [[ulpio-marcello|Marcello]] e a [[venuleio|Venuleio]] due opere, l’una sulla carica di console, l’altra su quella proconsolare; - E cinquant’anni dopo, il [[de-officio-proconsulis|De officio proconsulis]], [[ulpiano|Ulpiano]] persegue l’intento di ricavare, dai rescritti e dai mandati che riguardano questa o quella provincia, i principii applicabili a tutte le province senatorie, costruendo così un sistema comune di diritto amministrativo provinciale. In questo libro si rivela l’arte di governo del grande funzionario che ne è l’autore, e il profondo moralismo che la ispira.",
+      "concetti": [
+        "letteratura-giuspubblicistica",
+        "marco-aurelio",
+        "ulpio-marcello",
+        "venuleio",
+        "de-officio-proconsulis",
+        "ulpiano"
+      ],
+      "testoFonte": "> La letteratura giuspubblicistica sugli ofﬁcia di magistrati cittadini, prefetti, governatori provinciali, aveva qualche precedente fra Antonino Pio e Marco Aurelio: - Appartengono a Marcello e a Venuleio due opere, l’una sulla carica di console, l’altra su quella proconsolare; - E cinquant’anni dopo, il De ofﬁcio procunsulis, Ulpiano persegue l’intento di ricavare, dai rescritti e dai mandati che riguardano questa o quella provincia, i principii applicabili a tutte le province senatorie , costruendo così un sistema comune di diritto amministrativo provinciale . In questo libro si rivela l’arte di governo del grande funzionario che ne è l’autore, e il profondo moralismo che la ispira."
     },
     {
       "id": "p169-b003",
       "pagina": 169,
-      "markdown": "> Un altro gruppo di libri ha uno spiccato carattere programmatico : Riguardano il pretore tutelare, istituito da Marco Aurelio, e furono scritti da: - Paolo ( Liber singularis de excusationibus tutelarum , Liber singularis de officio praetoris tutelaris , De iurisdictione tutelaris ), - Ulpiano ( Liber singularis de officio praetoris tutelaris , Liber singularis de excusationibus ), - Modestino ( De excusationibus , in greco).",
-      "concetti": []
+      "markdown": "> Un altro gruppo di libri ha uno spiccato carattere programmatico: Riguardano il [[pretore-tutelare|pretore tutelare]], istituito da Marco Aurelio, e furono scritti da: - Paolo (Liber singularis de excusationibus tutelarum, Liber singularis de officio praetoris tutelaris, De iurisdictione tutelari), - Ulpiano (Liber singularis de officio praetoris tutelaris, Liber singularis de excusationibus), - Modestino (De excusationibus, in greco).",
+      "concetti": [
+        "pretore-tutelare",
+        "marco-aurelio",
+        "modestino",
+        "ulpiano",
+        "paolo"
+      ],
+      "testoFonte": "> Un altro gruppo di libri ha uno spiccato carattere programmatico : Riguardano il pretore tutelare, istituito da Marco Aurelio, e furono scritti da: - Paolo ( Liber singularis de excusationibus tutelarum , Liber singularis de officio praetoris tutelaris , De iurisdictione tutelaris ), - Ulpiano ( Liber singularis de officio praetoris tutelaris , Liber singularis de excusationibus ), - Modestino ( De excusationibus , in greco)."
     },
     {
       "id": "p169-b004",
       "pagina": 169,
-      "markdown": "> Nascono poi opere autonome sul fisco, le imposte, il processo cognitorio e l’appello, i crimini e le pene, che pian piano acquistano un più deciso rilievo all’interno dei consueti generi letterari; (Ma anche qui, almeno per quanto riguarda il diritto penale, non si tratta di una totale novità; il cammino era già stato indicato da alcuni decenni.) Sono significativi gli scritti di_ - Callistrato ( De cognitionibus , De iure fisci (et populi) ), di - Macro ( De appellationibus ),di - Ulpiano ( Deappellationibus )ediModestino( Depoenis) sono scritti significativi.",
-      "concetti": []
+      "markdown": "> Nascono poi opere autonome sul fisco, le imposte, il processo cognitorio e l’appello, i crimini e le pene, che pian piano acquistano un più deciso rilievo all’interno dei consueti generi letterari; (Ma anche qui, almeno per quanto riguarda il diritto penale, non si tratta di una totale novità; il cammino era già stato indicato da alcuni decenni.) Sono significativi gli scritti di_ - Callistrato (De cognitionibus, De iure fisci (et populi)), di - Macro (De appellationibus),di - Ulpiano (Deappellationibus)ediModestino(Depoenis) sono scritti significativi.",
+      "concetti": [
+        "callistrato",
+        "ulpiano",
+        "macro"
+      ],
+      "testoFonte": "> Nascono poi opere autonome sul fisco, le imposte, il processo cognitorio e l’appello, i crimini e le pene, che pian piano acquistano un più deciso rilievo all’interno dei consueti generi letterari; (Ma anche qui, almeno per quanto riguarda il diritto penale, non si tratta di una totale novità; il cammino era già stato indicato da alcuni decenni.) Sono significativi gli scritti di_ - Callistrato ( De cognitionibus , De iure fisci (et populi) ), di - Macro ( De appellationibus ),di - Ulpiano ( Deappellationibus )ediModestino( Depoenis) sono scritti significativi."
     },
     {
       "id": "p169-b005",
       "pagina": 169,
-      "markdown": "> Ancora, Marciano e Macro scrivono su giudizi pubblici , ma, anche in questo caso lo avevano già fatto, prima di loro, Venuleio e Meicano.",
-      "concetti": []
+      "markdown": "> Ancora, Marciano e Macro scrivono su giudizi pubblici, ma, anche in questo caso lo avevano già fatto, prima di loro, Venuleio e Meciano.",
+      "concetti": [
+        "elio-marciano",
+        "venuleio",
+        "macro"
+      ],
+      "testoFonte": "> Ancora, Marciano e Macro scrivono su giudizi pubblici , ma, anche in questo caso lo avevano già fatto, prima di loro, Venuleio e Meicano."
     },
     {
       "id": "p169-b006",
       "pagina": 169,
       "markdown": "> Si pone attenzione anche sul diritto militare: Paolo, Macro, Arrio Menandro, e anche qui è possibile trovare un precedente in Tarrunteno Paterno.",
-      "concetti": []
+      "concetti": [
+        "paolo",
+        "macro"
+      ]
     },
     {
       "id": "p169-b007",

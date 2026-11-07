@@ -1560,5 +1560,579 @@
         }
       ]
     }
+  },
+  "romano-pennacchio-2021-22-v1": {
+    "p017-b001": {
+      "baseSha256": "938a845ac904f872d7427e9d8bb0cd16ad661a92b9eef6ee33ddc38a9a8bc9c3",
+      "sostituzioni": [
+        {
+          "da": "impressionismo legislativo",
+          "a": "astensionismo legislativo",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti «impressionismo legislativo»: quasi certamente un errore di trascrizione per «astensionismo»."
+    },
+    "p029-b004": {
+      "baseSha256": "56bee666594264226c1cfeb47e01c2077d5fe9d1b23ef31a9e5685965a2d0782",
+      "notaRevisione": "Negli appunti le leges imperfectae sono associate alla nullità: la nullità è la sanzione delle leges perfectae, le imperfectae non dispongono sanzioni."
+    },
+    "p040-b003": {
+      "baseSha256": "8cb955bbe8256ba885671a0cb5179bc14ce1667a5ca84e0ab2f365670853d041",
+      "sostituzioni": [
+        {
+          "da": "non dovevano essere meno di 15 libbre",
+          "a": "non dovevano essere più di 15 libbre",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Le XII Tavole fissano un limite massimo al peso dei ceppi: «non più di 15 libbre», non «non meno»."
+    },
+    "p039-b004": {
+      "baseSha256": "5a1f8175200a5e939c9f0b03c735d68da793aa0be24b6a93dc9c7ca6c8260d98",
+      "sostituzioni": [
+        {
+          "da": "tra il III-II d.C.",
+          "a": "tra il III e il II sec. a.C.",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Le leggi Silia e Calpurnia sono del III–II sec. a.C., non d.C."
+    },
+    "p028-b002": {
+      "baseSha256": "91b5aec181554fddfa71e6c223a97221facb61bd5e073fc60486296e5278d963",
+      "sostituzioni": [
+        {
+          "da": "nel 323 (o 313) con la legge Petilia",
+          "a": "nel 326 (o 313) con la legge Petilia",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti «323 (o 313)»: la legge Petilia è del 326 secondo Livio o del 313 secondo Varrone."
+    },
+    "p046-b003": {
+      "baseSha256": "f178a49a5d9e3fd44b9e952d5862182edbffc7fec592714a2c463f90bf4fffc6",
+      "notaRevisione": "La «tutela testamentaria» di cui parlano gli appunti è in realtà la successione senza testamento."
+    },
+    "p021-b002": {
+      "baseSha256": "5b81342bf5d9f3e84e9ccf7b23b49b3d9462bf0da13144a8d34056b0f56712a7",
+      "sostituzioni": [
+        {
+          "da": "manomissio",
+          "a": "manumissio",
+          "tutte": true
+        }
+      ]
+    },
+    "p044-b001": {
+      "baseSha256": "4d7a47c23adba594ebc2c3a5f8462e5eb1b853d1cd63e052c03d8d2b7c166ccd",
+      "sostituzioni": [
+        {
+          "da": "manomissio",
+          "a": "manumissio",
+          "tutte": true
+        }
+      ]
+    },
+    "p045-b001": {
+      "baseSha256": "8b1ecaae04e84ddbbe14f9427dd99301134d0391c81ab36dcc5f8b79f62e127a",
+      "sostituzioni": [
+        {
+          "da": "manomissio",
+          "a": "manumissio",
+          "tutte": true
+        }
+      ]
+    },
+    "p053-b001": {
+      "baseSha256": "7e63188c5ec2e1acefc7216aeb06468d5002de7f95ff9c58b92544a410a804be",
+      "sostituzioni": [
+        {
+          "da": "manomissio",
+          "a": "manumissio",
+          "tutte": true
+        }
+      ]
+    },
+    "p134-b002": {
+      "baseSha256": "cb8e68e4945d19daa3f0d60dde356974c8c82b7abf8bd336a676bf362df57204",
+      "sostituzioni": [
+        {
+          "da": "manomissio",
+          "a": "manumissio",
+          "tutte": true
+        }
+      ]
+    },
+    "p138-b002": {
+      "baseSha256": "2c016c802df36fbd7bc2f8d70568fbc8e5f543824e140149e41ea209d85f221d",
+      "sostituzioni": [
+        {
+          "da": "manomissio",
+          "a": "manumissio",
+          "tutte": true
+        }
+      ]
+    },
+    "p148-b002": {
+      "baseSha256": "506705bf606709d5fb3a9462d7c81088358451a329eb4a9d7a77d20cf5b70994",
+      "sostituzioni": [
+        {
+          "da": "manomissio",
+          "a": "manumissio",
+          "tutte": true
+        }
+      ]
+    },
+    "p210-b001": {
+      "baseSha256": "0688143927d62b6fbd1da81a309a8f7dcde78b7993dc161c765689bab7bad00f",
+      "sostituzioni": [
+        {
+          "da": "manomissio",
+          "a": "manumissio",
+          "tutte": true
+        }
+      ]
+    },
+    "p051-b002": {
+      "baseSha256": "4fb6ebd7b15b5068d4bbdbd293b68c850eba6f9cf4aafcb8c26aaae22b3d279f",
+      "sostituzioni": [
+        {
+          "da": "Familae emptor",
+          "a": "Familiae emptor",
+          "tutte": true
+        }
+      ]
+    },
+    "p049-b002": {
+      "baseSha256": "f5b858f9709b4db698e8355724b8cb33c484197a3d901ea924322536a557af6a",
+      "sostituzioni": [
+        {
+          "da": "quindicemviri",
+          "a": "quindecemviri",
+          "tutte": true
+        }
+      ]
+    },
+    "p049-b005": {
+      "baseSha256": "3b56dc1d189d419a9151a2e8695fef92d86d4edb185fbdb1492a3b9d34b67d1a",
+      "sostituzioni": [
+        {
+          "da": "dai giorni fasti e fasti",
+          "a": "dai giorni fasti e nefasti",
+          "tutte": true
+        }
+      ]
+    },
+    "p052-b002": {
+      "baseSha256": "f67e837aa751aa49f00658b9f380941fa8c1f3c25348b3da4f45cd3e1e79fea8",
+      "sostituzioni": [
+        {
+          "da": "così dispongo lego a testo",
+          "a": "così dispongo, lego e faccio testamento",
+          "tutte": true
+        }
+      ]
+    },
+    "p050-b001": {
+      "baseSha256": "f6cd401eb3eff7de694cc6b6d534f1bf35dec12b75e8d7ee986455dd09052a20",
+      "sostituzioni": [
+        {
+          "da": " ( lo dice Questa)",
+          "a": "",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Rimosso l'inciso «(lo dice Questa)», non chiaro negli appunti."
+    },
+    "p069-b001": {
+      "baseSha256": "4fd1f31fe827dd10dd60559b7700af603e5e0313ac7b873179fec74e57ea9bb3",
+      "sostituzioni": [
+        {
+          "da": "(Istituita nel 267 a.C.",
+          "a": "(Istituita nel 367 a.C.",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti «267 a.C.»: il pretore urbano è istituito nel 367 a.C. (leggi Licinie Sestie)."
+    },
+    "p059-b001": {
+      "baseSha256": "5bcf3fc5c0e74aaad88a60db49c2d6c66c57ffc5072f5377bea3a36644e8d7db",
+      "sostituzioni": [
+        {
+          "da": "i decemviri latini",
+          "a": "i decemviri legibus scribundis",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti «decemviri latini»."
+    },
+    "p069-b002": {
+      "baseSha256": "2d1690a0c81c71aeaf9f689fff1a7c1226f422e3b7d0592088df948de1a072a7",
+      "sostituzioni": [
+        {
+          "da": "Lex Ebuzia",
+          "a": "Lex Aebutia",
+          "tutte": true
+        },
+        {
+          "da": "Lex Gulia",
+          "a": "Lex Iulia",
+          "tutte": true
+        }
+      ]
+    },
+    "p087-b001": {
+      "baseSha256": "cf795054bd0379a0a5fb659dc6f5569f22d0e7c98e1d9533274a055361771f8f",
+      "sostituzioni": [
+        {
+          "da": "contemporaneo di Mario Manilio",
+          "a": "contemporaneo di Manio Manilio",
+          "tutte": true
+        }
+      ]
+    },
+    "p099-b004": {
+      "baseSha256": "23d00f0270a12336a1a74fac75a35589b968ab03ab8296fcf85c9f78366d96fb",
+      "sostituzioni": [
+        {
+          "da": "un’opera intitolata “reverenza scevolicana”",
+          "a": "un’opera intitolata “Reprehensa Scaevolae capita”",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti il titolo è reso «reverenza scevolicana»."
+    },
+    "p126-b002": {
+      "baseSha256": "4ad36a45aef6b1590f859f01de7ad71892ee4aa8d4c2cfda1e8c6705aff967bd",
+      "sostituzioni": [
+        {
+          "da": "vera e propria risolutezza dilagante",
+          "a": "vera e propria dissolutezza dilagante",
+          "tutte": true
+        }
+      ]
+    },
+    "p135-b002": {
+      "baseSha256": "4d4b2d7fb1e1559c3e5173a0621b326211a54820aedb25a9a65a0fe4bbee8e67",
+      "sostituzioni": [
+        {
+          "da": "Cesinia Longina",
+          "a": "Cesidia Longina",
+          "tutte": true
+        },
+        {
+          "da": "quanto afferma Mescino",
+          "a": "quanto afferma Meciano",
+          "tutte": true
+        }
+      ]
+    },
+    "p136-b002": {
+      "baseSha256": "dff47e3c6c953604df9218610d939c27c946ff7f124220753b06473be3917376",
+      "sostituzioni": [
+        {
+          "da": "‘Papiro Giusto’",
+          "a": "‘Papirio Giusto’",
+          "tutte": true
+        }
+      ]
+    },
+    "p161-b004": {
+      "baseSha256": "d5d400c9f949f80a3488b5b4ef8e5e0a2eccf47d658ff4deb19600e78d843473",
+      "sostituzioni": [
+        {
+          "da": "- Gli analisti:",
+          "a": "- Gli analogisti:",
+          "tutte": true
+        }
+      ]
+    },
+    "p160-b005": {
+      "baseSha256": "43f149cccd3040588a834f09bf19a7efca08e6bf29aa40f43746c24e076ed21e",
+      "sostituzioni": [
+        {
+          "da": "allora l’usuraio poteva",
+          "a": "allora l’usuario poteva",
+          "tutte": true
+        },
+        {
+          "da": "Nerva padre, Atilicinio",
+          "a": "Nerva padre, Atilicino",
+          "tutte": true
+        }
+      ]
+    },
+    "p159-b001": {
+      "baseSha256": "18c409667c0b488266272511a7d6dbae6e67754e0464b0d98fbbd6649916f4ff",
+      "sostituzioni": [
+        {
+          "da": "esteso documentario a Sabino",
+          "a": "esteso commentario a Sabino",
+          "tutte": true
+        }
+      ]
+    },
+    "p156-b001": {
+      "baseSha256": "b47a098bc141121661f1cf92dc63f799fbc03e8bae821db0e4b6e9de805d7eff",
+      "sostituzioni": [
+        {
+          "da": "come Memoralia,",
+          "a": "come Memorialia,",
+          "tutte": true
+        }
+      ]
+    },
+    "p159-b005": {
+      "baseSha256": "7a779b903db42e6936f927bb01e0225196ed2cdc3209fdf531acc948682c0d6a",
+      "sostituzioni": [
+        {
+          "da": "i Digesta di Celsio",
+          "a": "i Digesta di Celso figlio",
+          "tutte": true
+        }
+      ]
+    },
+    "p168-b001": {
+      "baseSha256": "bdf59c9f0f1a27591254eb4e144e06bfa26f107eae19fdb2548ae59fe874a890",
+      "sostituzioni": [
+        {
+          "da": "fra commento e dilemma",
+          "a": "fra commento e lemma",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti «dilemma»: si tratta della distinzione fra commento e lemma."
+    },
+    "p167-b004": {
+      "baseSha256": "cc027b76c4977d866c253204310d3e0211845446528097f466729265445c9fd4",
+      "sostituzioni": [
+        {
+          "da": "quelli di Nerazioo",
+          "a": "quelli di Nerazio",
+          "tutte": true
+        },
+        {
+          "da": "Libri imperialum sententiam",
+          "a": "Libri imperialium sententiarum",
+          "tutte": true
+        }
+      ]
+    },
+    "p169-b005": {
+      "baseSha256": "c176911a5584ca88d03687d0b9488e16f6ffbc0595e825d525d82a4bd16f8966",
+      "sostituzioni": [
+        {
+          "da": "Venuleio e Meicano",
+          "a": "Venuleio e Meciano",
+          "tutte": true
+        }
+      ]
+    },
+    "p169-b002": {
+      "baseSha256": "0f6cc9a179b689804c7ddaca5617c83bc0f5df60f331692d829ebd7e6cabd3ee",
+      "sostituzioni": [
+        {
+          "da": "De ofﬁcio procunsulis",
+          "a": "De officio proconsulis",
+          "tutte": true
+        }
+      ]
+    },
+    "p169-b003": {
+      "baseSha256": "72628c1993569115a5ace0767c8300ecd571c5d795e373029985a6a70a610098",
+      "sostituzioni": [
+        {
+          "da": "De iurisdictione tutelaris",
+          "a": "De iurisdictione tutelari",
+          "tutte": true
+        }
+      ]
+    },
+    "p177-b002": {
+      "baseSha256": "4b30081cc730ca2bdd4ea7a2b1da07c69920440c92415085637a4c26733b0009",
+      "sostituzioni": [
+        {
+          "da": "Diocleziano nel 284 a.C.",
+          "a": "Diocleziano nel 284 d.C.",
+          "tutte": true
+        }
+      ]
+    },
+    "p193-b004": {
+      "baseSha256": "6cd6aa6732b4a0f5cb128a90e97312379a02e2fe678cd1d2e6789ab95a9aef6e",
+      "sostituzioni": [
+        {
+          "da": "nella cancelleria di Giustiniano solo",
+          "a": "nella cancelleria di Diocleziano solo",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti «cancelleria di Giustiniano»: Ermogeniano lavora nella cancelleria di Diocleziano."
+    },
+    "p198-b002": {
+      "baseSha256": "98e7ed2fdc70d5f4b52c26908c0f913950a3214b5e9756192cb33c03688e8b65",
+      "sostituzioni": [
+        {
+          "da": "della Tracia meridionale",
+          "a": "della Gallia meridionale",
+          "tutte": true
+        }
+      ]
+    },
+    "p200-b003": {
+      "baseSha256": "3edbf5a0c17d35102566078ba4ffc8e5cc3b2815738b40c01021c2b6470f600c",
+      "sostituzioni": [
+        {
+          "da": "quelle di Brito e di Costantinopoli",
+          "a": "quelle di Berito e di Costantinopoli",
+          "tutte": true
+        }
+      ]
+    },
+    "p201-b005": {
+      "baseSha256": "3c1c5d3b2b144bf7a76032682b344abcb96c88e06b4379e48a620d395d8100c2",
+      "sostituzioni": [
+        {
+          "da": "Giovanni di Capadocia",
+          "a": "Giovanni di Cappadocia",
+          "tutte": true
+        }
+      ]
+    },
+    "p211-b002": {
+      "baseSha256": "c5abb5bb6dbac4ed146696e58595d0d2d633855f7101cba64669d956b3b6201d",
+      "sostituzioni": [
+        {
+          "da": "Codex repetiate praelectionis",
+          "a": "Codex repetitae praelectionis",
+          "tutte": true
+        }
+      ]
+    },
+    "p208-b002": {
+      "baseSha256": "f859c7e4db47c252e5a513ad5b59e4f390be1c6eab3d789f39af7a291dd96da3",
+      "sostituzioni": [
+        {
+          "da": "alla cupidam legum iuventus",
+          "a": "alla cupida legum iuventus",
+          "tutte": true
+        }
+      ]
+    },
+    "p202-b003": {
+      "baseSha256": "7744750271293203cf9c9d5e5a1b3cb076b9034b9a72ea913803897fdbe7bf9d",
+      "sostituzioni": [
+        {
+          "da": "un divieto di fare il corso ai vecchi codici",
+          "a": "un divieto di fare ricorso ai vecchi codici",
+          "tutte": true
+        }
+      ]
+    },
+    "p206-b005": {
+      "baseSha256": "0bcc3691b309c7a885fd329f1679405e100c790f8ace721bb6dfef14f05d158d",
+      "sostituzioni": [
+        {
+          "da": "Così Grande è la referenza",
+          "a": "Così grande è la reverenza",
+          "tutte": true
+        }
+      ]
+    },
+    "p214-b003": {
+      "baseSha256": "75de19def5729090461750dbc2c3ab64410108be393f0127cbac93956783d57f",
+      "sostituzioni": [
+        {
+          "da": "- Tra XI e XII secolo, a Bologna",
+          "a": "- Tra la fine dell’XI e la metà del XIII secolo, a Bologna",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti «tra XI e XII secolo»: i Glossatori operano dalla fine dell’XI alla metà del XIII secolo."
+    },
+    "p215-b001": {
+      "baseSha256": "60c5cbe79bea49381c53fd6bc8355c586f53a198fe1cf0a6d5385ba508109115",
+      "sostituzioni": [
+        {
+          "da": "tra XIII e IV secolo",
+          "a": "tra XIV e XV secolo",
+          "tutte": true
+        }
+      ],
+      "notaRevisione": "Negli appunti «tra XIII e IV secolo»: i Commentatori operano nel XIV–XV secolo."
+    },
+    "p128-b001": {
+      "baseSha256": "a3b695a215c214bba56ea6a50e81d488ead182adde774146d9430580e4e154e6",
+      "notaRevisione": "Secondo Pomponio (D. 1.2.2.47) i libri di Labeone sono 400, non «una quarantina»."
+    },
+    "p103-b001": {
+      "baseSha256": "c4a9a7b872b9bd7f1cf1ee19bf1445becc87260e3e1b48e5e29c0ebd12966057",
+      "sostituzioni": [
+        {
+          "da": "Tito Livio porterò",
+          "a": "Quinto Mucio porterà"
+        }
+      ],
+      "notaRevisione": "Negli appunti «Tito Livio»: chi porta a livelli più elevati la diairesis è Quinto Mucio."
+    },
+    "p093-b006": {
+      "baseSha256": "4056ece1cf79f35032ff3dc63046b3f138e468c9d7cd2c178d0f5c3b9cac28c2",
+      "notaRevisione": "Gli appunti dicono che Catone fu pontefice massimo: Catone il Censore non lo fu."
+    },
+    "p099-b001": {
+      "baseSha256": "36e2175005b7c95ba67772d3927a732d71307b598f2c488f848890c995174afa",
+      "sostituzioni": [
+        {
+          "da": "(80 anni circa)",
+          "a": "(circa cinquant’anni)"
+        }
+      ],
+      "notaRevisione": "Negli appunti «80 anni circa»: nell'aneddoto con Servio, Quinto Mucio aveva circa cinquant'anni."
+    },
+    "p027-b001": {
+      "baseSha256": "fd141ace17f84380c2598f3bf9e030d1548fd714da79abdeb43595bbc278be63",
+      "notaRevisione": "Evemero di Messene visse tra la fine del IV e l'inizio del III sec. a.C. (negli appunti «di Messina», «prima metà del II secolo»)."
+    },
+    "p100-b001": {
+      "baseSha256": "e4663c0b676ada418b3fcc0d838740290cf8668983cc065d2ac8031e89853213",
+      "notaRevisione": "Negli appunti questa pagina contiene solo il titolo del paragrafo 4 («Custodia e invenzione di formule»), senza testo."
+    },
+    "p101-b001": {
+      "baseSha256": "71d89a7a391be3a2d43046031645880e5ab5951f974a15b7ac43b325f2484ca5",
+      "notaRevisione": "Negli appunti questa pagina contiene solo il titolo del paragrafo 5 («La diffidenza verso la legge»), senza testo."
+    },
+    "p153-b001": {
+      "baseSha256": "b9f90fdc0ac309c532991706bc66d96fc8dad58dc405d2a918b1448d794fa525",
+      "notaRevisione": "Le pp. 153–154 contengono solo i titoli dei §§ 1 (Immensum corpus imperii) e 2 (Carriere): negli appunti manca il testo."
+    },
+    "p154-b001": {
+      "baseSha256": "5ad6fec65b0a9060e820428c730b1c96937c048ba92647c0710de69b9644af4e",
+      "notaRevisione": "Le pp. 153–154 contengono solo i titoli dei §§ 1 (Immensum corpus imperii) e 2 (Carriere): negli appunti manca il testo."
+    },
+    "p170-b001": {
+      "baseSha256": "201aa82c526886d0ec70081029177e7864bf46e1089f999bd69ebf1eb109bdce",
+      "notaRevisione": "Negli appunti le pp. 170–175 contengono solo i titoli dei paragrafi del capitolo undicesimo («I modi di una tecnica»): il contenuto è nell'unità ricostruita dal manuale nel Percorso."
+    },
+    "p171-b001": {
+      "baseSha256": "1789536ba422c12c777fc7273e07ca572e8c7800a3799156cd10fcfddf8818a0",
+      "notaRevisione": "Negli appunti le pp. 170–175 contengono solo i titoli dei paragrafi del capitolo undicesimo («I modi di una tecnica»): il contenuto è nell'unità ricostruita dal manuale nel Percorso."
+    },
+    "p172-b001": {
+      "baseSha256": "47fe0a5d2ea1b6b58bf87a67cc76bcf21a1d2cb065d9d296a931da147a377222",
+      "notaRevisione": "Negli appunti le pp. 170–175 contengono solo i titoli dei paragrafi del capitolo undicesimo («I modi di una tecnica»): il contenuto è nell'unità ricostruita dal manuale nel Percorso."
+    },
+    "p173-b001": {
+      "baseSha256": "2c3029ab1bde7df190afc3de7f863d26dd1987bbf98b693ca390bc69e3fc40a9",
+      "notaRevisione": "Negli appunti le pp. 170–175 contengono solo i titoli dei paragrafi del capitolo undicesimo («I modi di una tecnica»): il contenuto è nell'unità ricostruita dal manuale nel Percorso."
+    },
+    "p174-b001": {
+      "baseSha256": "1a0e9bea9271ab1341d4f8e58dbd5c3cc0e91c8245e1ecd4b042c47e216092d8",
+      "notaRevisione": "Negli appunti le pp. 170–175 contengono solo i titoli dei paragrafi del capitolo undicesimo («I modi di una tecnica»): il contenuto è nell'unità ricostruita dal manuale nel Percorso."
+    },
+    "p175-b001": {
+      "baseSha256": "0e94eef95a10132fe2fb5effff4a6d097e42726ff779ae6dac1038c8d07021ef",
+      "notaRevisione": "Negli appunti le pp. 170–175 contengono solo i titoli dei paragrafi del capitolo undicesimo («I modi di una tecnica»): il contenuto è nell'unità ricostruita dal manuale nel Percorso."
+    }
   }
 }
