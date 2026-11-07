@@ -123,6 +123,12 @@ interface DomandaBase {
   fonteNome?: string;
   /** id della voce da ricordare; ripasso indipendente dalle domande della lezione */
   inversa?: string;
+  /** Voce del glossario: comprende sia inverse curate sia carte dirette. */
+  glossario?: string;
+  /** Evento della cronologia, con identità stabile nel ripasso FSRS. */
+  cronologia?: string;
+  /** Nei quiz Ordina devono essere stati studiati tutti questi eventi. */
+  eventiCronologia?: string[];
 }
 export type Domanda = DomandaBase & (
   | { tipo: 'flashcard'; domanda: string; risposta: string }

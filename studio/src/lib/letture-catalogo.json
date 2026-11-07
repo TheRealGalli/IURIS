@@ -618,7 +618,12 @@
         "a": 170,
         "lezione": "u14-l1",
         "file": "letture/romano-pennacchio-2021-22-v1/u14-l1.json",
-        "revisionata": true
+        "revisionata": true,
+        "soloTitolo": true,
+        "integrazione": {
+          "documento": "romano-manuale-integrazioni-v1",
+          "sezione": "u14-l1"
+        }
       },
       {
         "id": "u14-l2",
@@ -627,7 +632,12 @@
         "a": 171,
         "lezione": "u14-l2",
         "file": "letture/romano-pennacchio-2021-22-v1/u14-l2.json",
-        "revisionata": true
+        "revisionata": true,
+        "soloTitolo": true,
+        "integrazione": {
+          "documento": "romano-manuale-integrazioni-v1",
+          "sezione": "u14-l2"
+        }
       },
       {
         "id": "u14-l3",
@@ -636,7 +646,12 @@
         "a": 172,
         "lezione": "u14-l3",
         "file": "letture/romano-pennacchio-2021-22-v1/u14-l3.json",
-        "revisionata": true
+        "revisionata": true,
+        "soloTitolo": true,
+        "integrazione": {
+          "documento": "romano-manuale-integrazioni-v1",
+          "sezione": "u14-l3"
+        }
       },
       {
         "id": "u14-l4",
@@ -645,7 +660,12 @@
         "a": 173,
         "lezione": "u14-l4",
         "file": "letture/romano-pennacchio-2021-22-v1/u14-l4.json",
-        "revisionata": true
+        "revisionata": true,
+        "soloTitolo": true,
+        "integrazione": {
+          "documento": "romano-manuale-integrazioni-v1",
+          "sezione": "u14-l4"
+        }
       },
       {
         "id": "u14-l5",
@@ -654,7 +674,12 @@
         "a": 174,
         "lezione": "u14-l5",
         "file": "letture/romano-pennacchio-2021-22-v1/u14-l5.json",
-        "revisionata": true
+        "revisionata": true,
+        "soloTitolo": true,
+        "integrazione": {
+          "documento": "romano-manuale-integrazioni-v1",
+          "sezione": "u14-l5"
+        }
       },
       {
         "id": "u14-l6",
@@ -663,7 +688,12 @@
         "a": 175,
         "lezione": "u14-l6",
         "file": "letture/romano-pennacchio-2021-22-v1/u14-l6.json",
-        "revisionata": true
+        "revisionata": true,
+        "soloTitolo": true,
+        "integrazione": {
+          "documento": "romano-manuale-integrazioni-v1",
+          "sezione": "u14-l6"
+        }
       },
       {
         "id": "u11-l1",
@@ -835,6 +865,178 @@
         "lezione": "u13-l4",
         "file": "letture/romano-pennacchio-2021-22-v1/u13-l4.json",
         "revisionata": true
+      }
+    ]
+  },
+  {
+    "id": "romano-manuale-integrazioni-v1",
+    "edizione": 1,
+    "materia": "diritto-romano",
+    "titolo": "Integrazioni dal Percorso · tecnica e idee giusnaturalistiche",
+    "descrizione": "Le dodici lezioni delle unità 14 e 15 già presenti nel Percorso, ricostruite dall’indice del manuale e dalle fonti classiche. Non sono una trascrizione del manuale né del PDF degli appunti. Riferimenti: Bretone, Laterza, ed. 1992, pp. 287–352; controllare sul libro prima dell’esame.",
+    "tipoFonte": "manuale-ricostruito",
+    "manuale": [
+      287,
+      352
+    ],
+    "fonteSha256": "54e078fb671d6e110dcf1c05de2e859f55558c882d92f343ce3f17e9ec10fd38",
+    "pagine": 12,
+    "sezioni": [
+      {
+        "id": "u14-l1",
+        "titolo": "L'opera collettiva e i singoli attori",
+        "da": 1,
+        "a": 1,
+        "lezione": "u14-l1",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          287,
+          289
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l1.json"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "Strade vecchie e nuove",
+        "da": 2,
+        "a": 2,
+        "lezione": "u14-l2",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          290,
+          296
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l2.json"
+      },
+      {
+        "id": "u14-l3",
+        "titolo": "Il «caso» e il problema",
+        "da": 3,
+        "a": 3,
+        "lezione": "u14-l3",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          297,
+          302
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l3.json"
+      },
+      {
+        "id": "u14-l4",
+        "titolo": "Come si forma una regola",
+        "da": 4,
+        "a": 4,
+        "lezione": "u14-l4",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          303,
+          308
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l4.json"
+      },
+      {
+        "id": "u14-l5",
+        "titolo": "Dialoghi fuori del tempo",
+        "da": 5,
+        "a": 5,
+        "lezione": "u14-l5",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          309,
+          313
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l5.json"
+      },
+      {
+        "id": "u14-l6",
+        "titolo": "La cura per le parole",
+        "da": 6,
+        "a": 6,
+        "lezione": "u14-l6",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          314,
+          322
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l6.json"
+      },
+      {
+        "id": "u15-l1",
+        "titolo": "I grandi simboli",
+        "da": 7,
+        "a": 7,
+        "lezione": "u15-l1",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          323,
+          324
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l1.json"
+      },
+      {
+        "id": "u15-l2",
+        "titolo": "Il consenso dei sapienti e il «consenso dei popoli»",
+        "da": 8,
+        "a": 8,
+        "lezione": "u15-l2",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          325,
+          329
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l2.json"
+      },
+      {
+        "id": "u15-l3",
+        "titolo": "Verità e apparenza",
+        "da": 9,
+        "a": 9,
+        "lezione": "u15-l3",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          330,
+          332
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l3.json"
+      },
+      {
+        "id": "u15-l4",
+        "titolo": "Aequitas civilis ed aequitas naturalis",
+        "da": 10,
+        "a": 10,
+        "lezione": "u15-l4",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          333,
+          340
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l4.json"
+      },
+      {
+        "id": "u15-l5",
+        "titolo": "La «legge giusta»",
+        "da": 11,
+        "a": 11,
+        "lezione": "u15-l5",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          341,
+          342
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l5.json"
+      },
+      {
+        "id": "u15-l6",
+        "titolo": "Il diritto oltre la comunità degli uomini",
+        "da": 12,
+        "a": 12,
+        "lezione": "u15-l6",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          343,
+          352
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l6.json"
       }
     ]
   },

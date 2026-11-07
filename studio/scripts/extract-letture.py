@@ -102,9 +102,13 @@ def main() -> None:
     parser.add_argument('--replace-base', action='store_true', help='Rigenera anche estratti Markdown esistenti; non modifica revisioni.json.')
     args = parser.parse_args()
     catalog = json.loads((ROOT / 'src/lib/originali-catalogo.json').read_text())
+    # I fascicoli riusati dal Percorso non sono PDF da estrarre e restano nel catalogo sorgente.
+    previous_catalog = json.loads((SRC / 'catalogo.json').read_text()) if (SRC / 'catalogo.json').exists() else []
     SRC.mkdir(parents=True, exist_ok=True)
     output_catalog, report = [], {'versione': 1, 'documenti': []}
     for doc in catalog:
+        if doc.get('tipoFonte') == 'manuale-ricostruito':
+            continue
         path = ROOT / 'public' / doc['file']
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         if digest != doc['sha256']:
@@ -152,6 +156,7 @@ def main() -> None:
                                    'parole': sum(p['parole'] for p in page_report), 'pagineSenzaTesto': [p['pagina'] for p in page_report if not p['parole']],
                                    'coperturaToken': all(p['coperturaToken'] for p in page_report), 'pagineDettaglio': page_report})
         print(f"[letture] {doc['id']}: {len(layouts)} pagine, {sum(len(b) for b in pages.values())} blocchi; testo conservato")
+    output_catalog.extend(doc for doc in previous_catalog if doc.get('tipoFonte') == 'manuale-ricostruito')
     (SRC / 'catalogo.json').write_text(json.dumps(output_catalog, ensure_ascii=False, indent=2) + '\n')
     (SRC / 'estrazione-verifica.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 

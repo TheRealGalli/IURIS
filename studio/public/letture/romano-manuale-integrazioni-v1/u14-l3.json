@@ -1,0 +1,78 @@
+{
+  "documento": "romano-manuale-integrazioni-v1",
+  "edizione": 1,
+  "id": "u14-l3",
+  "titolo": "Il «caso» e il problema",
+  "da": 3,
+  "a": 3,
+  "lezione": "u14-l3",
+  "tipoFonte": "manuale-ricostruito",
+  "manuale": [
+    297,
+    302
+  ],
+  "blocchi": [
+    {
+      "id": "manuale-u14-p003-nota-fonte",
+      "pagina": 3,
+      "markdown": "Unità ricostruita. Negli appunti (pp. 170–175) ci sono solo i titoli dei sei paragrafi. Il testo segue l'indice del manuale (Laterza, ed. 1992, pp. 287–322; con un'altra edizione le pagine possono cambiare) e i passi delle fonti che la romanistica collega a questi temi: Pomponio sulle due scuole, Paolo sulla regula, Giavoleno sulle definizioni, Celso sull'interpretazione, i casi di Alfeno e del barbiere. Non viene dagli appunti e non riproduce le tesi personali di Bretone: verifica sul libro prima dell'esame.",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p003-sintesi",
+      "pagina": 3,
+      "markdown": "### Pensare per casi\nIl giurista romano non parte da principi generali da cui dedurre le soluzioni: parte dal **caso**. È il **[[metodo-casistico|metodo casistico]]**. Il caso può essere:\n- **reale**, quando un privato o un magistrato chiede un parere (i *[[responsa]]*);\n- **immaginato**, quando il giurista costruisce un'ipotesi per discuterla con gli allievi o nei libri di *[[quaestiones]]*. Nei casi di scuola compaiono nomi convenzionali: Tizio, Seio, Mevio, lo schiavo Stico.\n\nIl caso diventa **problema**: si isolano gli elementi decisivi, si **distingue** (se le circostanze cambiano, cambia la soluzione), si confronta con casi simili, si verificano le conseguenze. La romanistica ha parlato di un **[[pensiero-problematico|pensiero «problematico»]]**, che procede per questioni aperte, contrapposto al pensiero **sistematico** dei codici moderni.\n\n### Diffidenza per le definizioni\nDa qui la nota massima di [[giavoleno|Giavoleno]] (D. 50.17.202): *«Omnis definitio in iure civili periculosa est: parum est enim, ut non subverti posset»* — «nel diritto civile ogni definizione è pericolosa: è raro che non possa essere rovesciata». Una formula generale rischia sempre di essere smentita dal caso successivo ([[omnis-definitio-periculosa|omnis definitio periculosa]]).\n\n### Due casi famosi\n**La nave di [[alfeno-varo|Alfeno]]** (D. 5.1.76). Un collegio di giudici perde alcuni membri, sostituiti da altri: è ancora lo stesso giudizio? Alfeno risponde di sì e ragiona per analogie: anche una legione resta la stessa se muoiono i soldati, un popolo resta lo stesso con generazioni nuove, una **nave** rifatta tavola per tavola resta la stessa nave, il corpo umano resta lo stesso benché le sue parti si rinnovino. Il caso pratico si risolve con un argomento filosofico sull'identità delle cose.\n\n**Il barbiere** (Ulpiano, D. 9.2.11 pr., che cita Mela e [[proculo|Proculo]]). Alcuni giocano a palla; la palla colpisce la mano di un barbiere che sta radendo uno schiavo, e il rasoio taglia la gola dello schiavo. Chi risponde per la [[lex-aquilia|lex Aquilia]]? Mela: chi è in colpa. Proculo: la colpa è del **barbiere**, se radeva dove si giocava o dove passava molta gente; ma si può anche dire che chi si affida a un barbiere che lavora in un luogo pericoloso **deve lamentarsi di sé stesso**. In poche righe ci sono la ricerca della colpa, il peso delle circostanze, il concorso della vittima.\n\n### Retorica, topica e giurisprudenza\nIl ragionamento per casi ha un legame con la **retorica**: [[cicerone|Cicerone]] dedica i [[topica|Topica]] (44 a.C.) al giurista [[trebazio-testa|Trebazio Testa]], per insegnargli i «luoghi» da cui si traggono gli argomenti. I giuristi però restano tecnici: il loro scopo non è persuadere, ma trovare la soluzione giusta del caso.\n\n### Il dissenso come risorsa\nPoiché ogni caso può essere visto da più lati, i giuristi arrivano spesso a soluzioni diverse. Lo *[[ius-controversum|ius controversum]]* non è un difetto del sistema: è il modo in cui il diritto si mette alla prova e si aggiorna. Il caso deciso diventa poi un **precedente** che entra nella tradizione e prepara la regola (vedi la lezione successiva).",
+      "concetti": [
+        "metodo-casistico",
+        "responsa",
+        "quaestiones",
+        "pensiero-problematico",
+        "giavoleno",
+        "omnis-definitio-periculosa",
+        "alfeno-varo",
+        "proculo",
+        "lex-aquilia",
+        "cicerone",
+        "topica",
+        "trebazio-testa",
+        "ius-controversum"
+      ]
+    },
+    {
+      "id": "manuale-u14-p003-punti-chiave",
+      "pagina": 3,
+      "markdown": "### Da dire all'esame\n\n1. Il giurista romano ragiona per casi: reali nei responsa, immaginati nelle quaestiones.\n2. Il caso diventa problema: si distingue, si confronta con casi simili, si verificano le conseguenze.\n3. Si parla di pensiero problematico, opposto al pensiero sistematico dei codici moderni.\n4. Giavoleno: omnis definitio in iure civili periculosa est (D. 50.17.202).\n5. Alfeno (nave rifatta tavola per tavola) e il caso del barbiere (lex Aquilia) sono esempi tipici.\n6. Il dissenso (ius controversum) è il modo in cui il diritto si mette alla prova.",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p003-memoria-titolo",
+      "pagina": 3,
+      "markdown": "### Da sapere a memoria",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p003-memoria-001",
+      "pagina": 3,
+      "markdown": "**D. 50.17.202 (Giavoleno)**\n\nOmnis definitio in iure civili periculosa est: parum est enim, ut non subverti posset",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p003-memoria-002",
+      "pagina": 3,
+      "markdown": "**D. 5.1.76 (Alfeno)**\n\ngiudici sostituiti: stesso giudizio, come la nave rifatta tavola per tavola",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p003-memoria-003",
+      "pagina": 3,
+      "markdown": "**D. 9.2.11 pr. (Ulpiano)**\n\nil barbiere e la palla: Mela, Proculo, colpa e concorso della vittima",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p003-memoria-004",
+      "pagina": 3,
+      "markdown": "**Topica (44 a.C.)**\n\nCicerone li dedica a Trebazio Testa",
+      "concetti": []
+    }
+  ]
+}

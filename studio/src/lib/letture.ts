@@ -3,11 +3,14 @@ import type { AncoraTesto, SegnoOriginale } from './originali';
 export interface SezioneCatalogoLettura {
   id: string; titolo: string; da: number; a: number; file: string;
   lezione?: string; lezioni?: string[]; revisionata?: boolean;
+  tipoFonte?: 'manuale-ricostruito'; manuale?: [number, number];
+  soloTitolo?: boolean; integrazione?: { documento: string; sezione: string };
 }
 export type IndiceSezioneLettura = SezioneCatalogoLettura;
 export interface DocumentoLettura {
   id: string; edizione: number; materia: string; titolo: string;
   fonteSha256: string; pagine: number; sezioni: SezioneCatalogoLettura[];
+  tipoFonte?: 'manuale-ricostruito'; manuale?: [number, number];
 }
 export interface BloccoLettura {
   id: string; pagina: number; markdown: string; concetti: string[];
@@ -16,6 +19,8 @@ export interface BloccoLettura {
 export interface SezioneLettura {
   documento: string; edizione: number; id: string; titolo: string; da: number; a: number;
   lezione?: string; lezioni?: string[]; revisionata?: boolean; blocchi: BloccoLettura[];
+  tipoFonte?: 'manuale-ricostruito'; manuale?: [number, number];
+  soloTitolo?: boolean; integrazione?: { documento: string; sezione: string };
 }
 /** `testo` deve essere il textContent reso dal lettore: gli offset non sono offset Markdown. */
 export interface BloccoTestoLettura {
@@ -104,18 +109,19 @@ function ritrovaAncora(blocco: BloccoTestoLettura, ancora: AncoraTesto, edizione
 }
 
 function paginaBlocco(id: string): number | null {
-  const m = /^p(\d+)-/.exec(id); return m ? Number(m[1]) : null;
+  const m = /^(?:manuale-[a-z0-9-]+-)?p(\d+)-/.exec(id); return m ? Number(m[1]) : null;
 }
 
 /**
  * Non migra né modifica il segno salvato: restituisce solo intervalli verificati
  * nel testo visibile. Se la citazione è stata rettificata, resta da verificare.
  */
-export function proiettaSegnoTesto(segno: SegnoOriginale, blocchi: BloccoTestoLettura[], edizione: number, intervallo?: { da: number; a: number }): ProiezioneSegnoTesto {
+export function proiettaSegnoTesto(segno: SegnoOriginale, blocchi: BloccoTestoLettura[], edizione: number, intervallo?: { da: number; a: number; tipoFonte?: 'manuale-ricostruito' }): ProiezioneSegnoTesto {
   const origine = segno.ancoreTesto?.length ? 'testo' : 'pdf';
   const range = intervallo ?? (blocchi.length ? { da: Math.min(...blocchi.map((b) => b.pagina)), a: Math.max(...blocchi.map((b) => b.pagina)) } : null);
   const fuori = (pagina: number) => !!range && (pagina < range.da || pagina > range.a);
   const risultato = (stato: ProiezioneSegnoTesto['stato'], ancore: AncoraTesto[] = [], parziale = false): ProiezioneSegnoTesto => ({ stato, origine, ancore, ...(parziale ? { parziale: true } : {}) });
+  if (origine === 'pdf' && (intervallo?.tipoFonte === 'manuale-ricostruito' || blocchi.length > 0 && blocchi.every((b) => b.id.startsWith('manuale-')))) return risultato('fuori-sezione');
   if (origine === 'testo') {
     const byId = new Map(blocchi.map((b) => [b.id, b]));
     const ancore: AncoraTesto[] = [];
@@ -154,7 +160,7 @@ export function proiettaSegnoTesto(segno: SegnoOriginale, blocchi: BloccoTestoLe
   return ancore.length ? risultato('proiettato', ancore) : risultato('da-verificare');
 }
 
-export function proiettaSegniTesto(segni: SegnoOriginale[], blocchi: BloccoTestoLettura[], edizione: number, intervallo?: { da: number; a: number }): SegnoTestoProiettato[] {
+export function proiettaSegniTesto(segni: SegnoOriginale[], blocchi: BloccoTestoLettura[], edizione: number, intervallo?: { da: number; a: number; tipoFonte?: 'manuale-ricostruito' }): SegnoTestoProiettato[] {
   return segni.map((segno) => ({ segno, ...proiettaSegnoTesto(segno, blocchi, edizione, intervallo) }));
 }
 
@@ -171,11 +177,12 @@ export function concettiDelPassaggio(proiezione: ProiezioneSegnoTesto, blocchi: 
 }
 
 /** Lezioni del Percorso coperte da una sezione: lo stato «Studiata» è solo quello delle lezioni, mai una copia. */
-export function lezioniSezione(s: Pick<SezioneCatalogoLettura, 'lezione' | 'lezioni'>): string[] {
+export function lezioniSezione(s: Pick<SezioneCatalogoLettura, 'lezione' | 'lezioni' | 'soloTitolo'>): string[] {
+  if (s.soloTitolo) return [];
   return [...new Set([...(s.lezione ? [s.lezione] : []), ...(s.lezioni ?? [])])];
 }
 /** Una sezione è studiata quando lo sono tutte le sue lezioni; `parziale` se solo alcune. */
-export function statoStudioSezione(s: Pick<SezioneCatalogoLettura, 'lezione' | 'lezioni'>, lezioni: Record<string, { studiata?: string } | undefined>) {
+export function statoStudioSezione(s: Pick<SezioneCatalogoLettura, 'lezione' | 'lezioni' | 'soloTitolo'>, lezioni: Record<string, { studiata?: string } | undefined>) {
   const ids = lezioniSezione(s), studiate = ids.filter((id) => !!lezioni[id]?.studiata);
   return { ids, studiate, studiata: ids.length > 0 && studiate.length === ids.length, parziale: studiate.length > 0 && studiate.length < ids.length };
 }

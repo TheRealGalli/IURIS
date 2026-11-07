@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { blocchiDaPercorso, improntaMaterialePercorso } from './lib/lettura-percorso.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = async (file) => JSON.parse(await readFile(path.join(root, file), 'utf8'));
@@ -12,8 +13,34 @@ const report = await read('letture-src/estrazione-verifica.json');
 const plain = (s) => s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, id, label) => label || id.replace(/-/g, ' ')).replace(/^#{1,6}\s+/gm, '');
 const tokens = (s) => s.match(/[\p{L}\p{N}_]+/gu) ?? [];
 let pages = 0, blocks = 0, sections = 0, pilot = 0;
+let integrazioni = 0;
 const lezioniCorso = new Map();
 for (const doc of docs) {
+  if (doc.tipoFonte === 'manuale-ricostruito') {
+    const corso = await read(`public/content/${doc.materia}/corso.json`);
+    const units = corso.unita.filter((u) => ['u14', 'u15'].includes(u.id));
+    assert.equal(doc.id, 'romano-manuale-integrazioni-v1');
+    assert.equal(doc.fonteSha256, improntaMaterialePercorso(units));
+    assert.deepEqual(doc.manuale, [287, 352]); assert.equal(doc.pagine, 12);
+    assert.equal(doc.sezioni.length, 12);
+    const fonte = originali.find((d) => d.id === doc.id);
+    assert.equal(fonte.tipoFonte, 'manuale-ricostruito'); assert(!fonte.file && !fonte.sha256, 'nessun PDF o hash PDF inventato');
+    for (const [i, sec] of doc.sezioni.entries()) {
+      const u = units.find((u) => u.lezioni.some((l) => l.id === sec.lezione));
+      const l = u.lezioni.find((l) => l.id === sec.lezione);
+      assert.equal(sec.da, i + 1); assert.equal(sec.a, i + 1);
+      assert.deepEqual(sec.manuale, l.manuale); assert.equal(sec.tipoFonte, doc.tipoFonte);
+      const data = await read(`public/${sec.file}`);
+      assert.equal(data.lezione, l.id); assert.equal(data.tipoFonte, doc.tipoFonte); assert.deepEqual(data.manuale, l.manuale);
+      assert.deepEqual(data.blocchi, blocchiDaPercorso(l, u, i + 1), 'riuso integrale e identico del testo del Percorso');
+      assert.equal(data.blocchi.find((b) => b.id.endsWith('-sintesi')).markdown, l.sintesi);
+      assert(data.blocchi.every((b) => b.id.startsWith(`manuale-${u.id}-`) && b.pagina === i + 1));
+      assert(!lezioniCorso.has(`${doc.materia}:${l.id}`), 'una sola sezione completa per lezione');
+      lezioniCorso.set(`${doc.materia}:${l.id}`, sec.id);
+      sections++; integrazioni++; blocks += data.blocchi.length;
+    }
+    continue;
+  }
   const pdf = originali.find((d) => d.id === doc.id);
   const audit = report.documenti.find((d) => d.id === doc.id);
   assert(pdf && audit, 'una fonte dichiarata per ogni testo');
@@ -32,6 +59,12 @@ for (const doc of docs) {
     const data = await read(`public/${sec.file}`);
     assert.equal(data.documento, doc.id); assert.equal(data.id, sec.id); assert.equal(data.edizione, doc.edizione);
     assert.equal(data.da, sec.da); assert.equal(data.a, sec.a);
+    assert.equal(!!data.soloTitolo, !!sec.soloTitolo);
+    if (sec.soloTitolo) {
+      assert.deepEqual(data.integrazione, sec.integrazione);
+      assert.equal(sec.integrazione.documento, 'romano-manuale-integrazioni-v1');
+      assert(docs.find((d) => d.id === sec.integrazione.documento).sezioni.some((s) => s.id === sec.integrazione.sezione));
+    }
     assert(data.blocchi.length > 0);
     for (const b of data.blocchi) {
       assert(!seen.has(b.id), 'ID del blocco unico nel documento'); seen.add(b.id);
@@ -46,7 +79,7 @@ for (const doc of docs) {
       blocks++;
     }
     for (const l of sec.lezioni ?? (sec.lezione ? [sec.lezione] : [])) assert(lezioni.has(l), `lezione esistente: ${l}`);
-    if (sec.lezione) { assert(!lezioniCorso.has(`${doc.materia}:${sec.lezione}`), `una sola sezione per lezione: ${sec.lezione}`); lezioniCorso.set(`${doc.materia}:${sec.lezione}`, sec.id); }
+    if (sec.lezione && !sec.soloTitolo) { assert(!lezioniCorso.has(`${doc.materia}:${sec.lezione}`), `una sola sezione per lezione: ${sec.lezione}`); lezioniCorso.set(`${doc.materia}:${sec.lezione}`, sec.id); }
     if (sec.revisionata) pilot++;
   }
   assert.equal(next, doc.pagine + 1);
@@ -58,7 +91,11 @@ for (const doc of docs) {
   assert.equal(seen.size, audit.blocchi);
   pages += doc.pagine;
 }
-assert.equal(docs.length, 4); assert.equal(pages, 384); assert(pilot >= 2);
+assert.equal(docs.length, 5); assert.equal(pages, 384); assert.equal(integrazioni, 12); assert(pilot >= 2);
+for (const materia of ['diritto-romano', 'filosofia-del-diritto']) {
+  const corso = await read(`public/content/${materia}/corso.json`);
+  for (const l of corso.unita.flatMap((u) => u.lezioni)) assert(lezioniCorso.has(`${materia}:${l.id}`), `testo completo accessibile per ${materia}/${l.id}`);
+}
 const p1 = await read('public/letture/filosofia-incampo-v1/u01-l1.json');
 const opening = p1.blocchi.find((b) => b.id === 'p001-b002');
 assert.equal(plain(opening.markdown), 'A differenza delle altre scienze, che hanno un oggetto ben definito, la filosofia non possiede un contenuto determinato. La sua peculiarità non risiede nel suo oggetto, ma piuttosto nelle sue domande.', 'il passaggio del segno preesistente resta identico');
@@ -68,4 +105,4 @@ assert(p1.blocchi.find((b) => b.id === 'p001-b008').testoFonte.includes('non è'
 const p2 = await read('public/letture/filosofia-incampo-v1/u01-l2.json');
 assert(p2.blocchi.find((b) => b.id === 'p006-b001').markdown.includes('nullum crimen sine lege'));
 assert(p2.blocchi.find((b) => b.id === 'p005-b004').notaRevisione.includes('resta da verificare'));
-console.log(`Estrazione verificata: ${docs.length} PDF, ${pages} pagine, ${sections} sezioni, ${blocks} blocchi; fonti recuperabili, greco e ID conservati, ${pilot} sezioni revisionate.`);
+console.log(`Estrazione verificata: 4 PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di 161 lezioni; fonti, greco e ID conservati.`);

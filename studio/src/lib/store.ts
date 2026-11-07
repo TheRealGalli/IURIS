@@ -10,6 +10,7 @@ export type { RiepilogoBackup } from './backup-dati';
 export type CartaSalvata = Omit<Card, 'due' | 'last_review'> & { due: string; last_review?: string; introdotta?: string };
 
 export const DOMANDE_VERIFICA_INIZIALE = 6;
+export const NUOVE_PER_GIORNO_DEFAULT = 35;
 
 export interface Giorno { lette: number; risposte: number; corrette: number; secondi: number }
 
@@ -23,11 +24,17 @@ export interface Progresso {
   giorni: Record<string, Giorno>;
   esame?: string;
   nuovePerGiorno: number;
+  nuovePerGiornoPersonalizzato?: boolean;
   ultimaLezione?: string;
   originali?: Record<string, LetturaOriginale>;
 }
 
-const vuoto = (): Progresso => ({ versione: 1, lezioni: {}, carte: {}, esiti: {}, giorni: {}, nuovePerGiorno: 25 });
+const vuoto = (): Progresso => ({ versione: 1, lezioni: {}, carte: {}, esiti: {}, giorni: {}, nuovePerGiorno: NUOVE_PER_GIORNO_DEFAULT });
+/** Il vecchio default25 migra una volta; un25 scelto esplicitamente dopo l'update resta25. */
+function migraLimiteNuove(p: Progresso): Progresso {
+  return p.nuovePerGiorno === 25 && p.nuovePerGiornoPersonalizzato !== true
+    ? { ...p, nuovePerGiorno: NUOVE_PER_GIORNO_DEFAULT } : p;
+}
 const key = (slug: string) => `iuris:v1:prog:${slug}`;
 
 const mem = new Map<string, Progresso>();
@@ -38,7 +45,7 @@ function leggi(slug: string): Progresso {
   let p = vuoto();
   try {
     const raw = localStorage.getItem(key(slug));
-    if (raw) p = { ...vuoto(), ...JSON.parse(raw) };
+    if (raw) p = migraLimiteNuove({ ...vuoto(), ...JSON.parse(raw) });
   } catch { /* storage non disponibile: si lavora in memoria */ }
   mem.set(slug, p);
   return p;
@@ -209,7 +216,7 @@ export function impostaEsame(slug: string, data: string | undefined) {
 }
 
 export function impostaNuove(slug: string, n: number) {
-  aggiorna(slug, (p) => { p.nuovePerGiorno = n; });
+  aggiorna(slug, (p) => { p.nuovePerGiorno = Math.max(0, Math.round(Number.isFinite(n) ? n : NUOVE_PER_GIORNO_DEFAULT)); p.nuovePerGiornoPersonalizzato = true; });
 }
 
 export function esporta(slug: string): string {
@@ -220,7 +227,7 @@ export function importa(slug: string, json: string) {
   const data = JSON.parse(json);
   const p = data.progresso ?? data;
   if (p?.versione !== 1) throw new Error('file non riconosciuto');
-  aggiorna(slug, () => ({ ...vuoto(), ...p }));
+  aggiorna(slug, () => migraLimiteNuove({ ...vuoto(), ...p }));
 }
 
 export function azzera(slug: string) {
@@ -265,7 +272,7 @@ function datiCompleti(): BackupDati {
       if (k.startsWith('iuris:v1:prog:')) {
         const slug = k.slice('iuris:v1:prog:'.length);
         if (!slugBackupValido(slug)) throw new Error('Identificativo materia non valido');
-        if (!mem.has(slug)) materie[slug] = JSON.parse(raw);
+        if (!mem.has(slug)) materie[slug] = migraLimiteNuove(JSON.parse(raw));
       } else if (k.startsWith('iuris:v1:sessione:')) {
         const slug = k.slice('iuris:v1:sessione:'.length);
         if (!slugBackupValido(slug)) throw new Error('Identificativo materia non valido');
@@ -294,6 +301,7 @@ export function ispezionaBackup(json: string, materiaLegacy?: string): Riepilogo
 /** Prima valida l'intero file; cache e preferenze cambiano solo dopo tutte le scritture riuscite. */
 export function importaTutto(json: string, materiaLegacy?: string): RiepilogoBackup {
   const { dati, riepilogo } = leggiBackup(json, materiaLegacy);
+  for (const [slug, progresso] of Object.entries(dati.materie)) dati.materie[slug] = migraLimiteNuove(progresso);
   const scritture = new Map<string, string | null>();
   for (const [slug, progresso] of Object.entries(dati.materie)) scritture.set(key(slug), JSON.stringify(progresso));
   // Per le materie ripristinate anche l'assenza di una sessione è uno stato da ripristinare.

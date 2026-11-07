@@ -1,0 +1,85 @@
+{
+  "documento": "romano-manuale-integrazioni-v1",
+  "edizione": 1,
+  "id": "u14-l6",
+  "titolo": "La cura per le parole",
+  "da": 6,
+  "a": 6,
+  "lezione": "u14-l6",
+  "tipoFonte": "manuale-ricostruito",
+  "manuale": [
+    314,
+    322
+  ],
+  "blocchi": [
+    {
+      "id": "manuale-u14-p006-nota-fonte",
+      "pagina": 6,
+      "markdown": "Unità ricostruita. Negli appunti (pp. 170–175) ci sono solo i titoli dei sei paragrafi. Il testo segue l'indice del manuale (Laterza, ed. 1992, pp. 287–322; con un'altra edizione le pagine possono cambiare) e i passi delle fonti che la romanistica collega a questi temi: Pomponio sulle due scuole, Paolo sulla regula, Giavoleno sulle definizioni, Celso sull'interpretazione, i casi di Alfeno e del barbiere. Non viene dagli appunti e non riproduce le tesi personali di Bretone: verifica sul libro prima dell'esame.",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p006-sintesi",
+      "pagina": 6,
+      "markdown": "### Il diritto è fatto di parole\nNel diritto romano le parole contano da sempre: nell'età arcaica la formula pronunciata crea il diritto ([[valore-performativo-della-parola|valore performativo della parola]]). In età classica il rapporto cambia, ma l'attenzione resta altissima. I giuristi interpretano le **parole della legge e dell'editto** e quelle dei **privati** (la domanda e la risposta della [[stipulatio]], le disposizioni del [[testamento]]), e scrivono a loro volta in una lingua tecnica **breve e precisa**.\n\n### Parole e volontà\nIl problema centrale è il rapporto tra ciò che si è **detto** e ciò che si è **voluto** ([[verba-e-voluntas|verba e voluntas]]). Il caso esemplare è la **[[causa-curiana|causa Curiana]]** (intorno al 93 a.C.): un testatore aveva istituito erede Manio Curio per il caso che il figlio postumo morisse prima della pubertà; il figlio non nacque affatto. [[quinto-mucio-scevola|Quinto Mucio]] difese le **parole** del testamento (la condizione prevista non si era verificata); [[lucio-licinio-crasso|Lucio Licinio Crasso]] difese la **volontà** del testatore, che avrebbe certo voluto Curio erede anche in quel caso. Vinse Crasso.\n\nIn età classica prevale un equilibrio: le parole sono il punto di partenza, la volontà si indaga quando sono ambigue. Paolo (D. 32.25.1): *«Cum in verbis nulla ambiguitas est, non debet admitti voluntatis quaestio»* — «quando le parole non sono ambigue, non si deve ammettere la questione della volontà». E [[celso|Celso]] ricorda che conoscere le leggi significa coglierne la *vis ac potestas*, non solo le parole (D. 1.3.17).\n\n### Il significato delle parole\nI giuristi si occupano espressamente del **significato dei termini giuridici**:\n- già a fine Repubblica [[elio-gallo|Gaio Elio Gallo]] scrive un'opera *De verborum quae ad ius pertinent significatione* («sul significato delle parole che riguardano il diritto»);\n- [[labeone|Labeone]] coltiva la grammatica, la dialettica e le etimologie: [[aulo-gellio|Aulo Gellio]] riferisce, per esempio, che faceva derivare *soror* («sorella») da *seorsum* («a parte»), perché la sorella lascia la casa in cui è nata;\n- Labeone definisce anche *agere*, *gerere* e *[[contrahere|contrahere]]*: il contratto è un'obbligazione reciproca, *quod Graeci synallagma vocant* (D. 50.16.19, riferito da Ulpiano).\n\nI compilatori raccolgono queste definizioni nel titolo **[[de-verborum-significatione|De verborum significatione]]** (D. 50.16, 246 frammenti), accanto alle regole di D. 50.17.\n\n### Uno stile\nLa lingua dei giuristi classici è **sobria, concisa, priva di ornamenti retorici**: frasi brevi, termini tecnici stabili (*actio*, *obligatio*, *dominium*), distinzioni nette tra ciò che si dice *proprie* («in senso proprio») e *improprie*. Questa precisione è una delle ragioni per cui i loro testi hanno potuto essere letti, citati e riusati per secoli. Giustiniano, al contrario, rimprovererà ai classici l'eccessiva *[[subtilitas]]* e scriverà le sue costituzioni in uno stile ampio e retorico.",
+      "concetti": [
+        "valore-performativo-della-parola",
+        "stipulatio",
+        "testamento",
+        "verba-e-voluntas",
+        "causa-curiana",
+        "quinto-mucio-scevola",
+        "lucio-licinio-crasso",
+        "celso",
+        "elio-gallo",
+        "labeone",
+        "aulo-gellio",
+        "contrahere",
+        "de-verborum-significatione",
+        "subtilitas"
+      ]
+    },
+    {
+      "id": "manuale-u14-p006-punti-chiave",
+      "pagina": 6,
+      "markdown": "### Da dire all'esame\n\n1. I giuristi interpretano le parole di leggi, editto e atti dei privati e scrivono in una lingua tecnica precisa.\n2. Il problema centrale è il rapporto tra verba e voluntas.\n3. Causa Curiana (93 a.C. circa): Quinto Mucio per le parole, Crasso per la volontà; vince Crasso.\n4. Paolo: se le parole non sono ambigue non si indaga la volontà (D. 32.25.1).\n5. Elio Gallo scrive sul significato delle parole giuridiche; Labeone coltiva grammatica ed etimologie.\n6. D. 50.16 «De verborum significatione» raccoglie le definizioni dei termini (246 frammenti).",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p006-memoria-titolo",
+      "pagina": 6,
+      "markdown": "### Da sapere a memoria",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p006-memoria-001",
+      "pagina": 6,
+      "markdown": "**Causa Curiana (≈ 93 a.C.)**\n\nQuinto Mucio (verba) contro Lucio Licinio Crasso (voluntas): vince Crasso",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p006-memoria-002",
+      "pagina": 6,
+      "markdown": "**D. 32.25.1 (Paolo)**\n\nCum in verbis nulla ambiguitas est, non debet admitti voluntatis quaestio",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p006-memoria-003",
+      "pagina": 6,
+      "markdown": "**Elio Gallo**\n\nDe verborum quae ad ius pertinent significatione (fine Repubblica)",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p006-memoria-004",
+      "pagina": 6,
+      "markdown": "**D. 50.16.19**\n\nLabeone: agere, gerere, contrahere; contratto = synallagma",
+      "concetti": []
+    },
+    {
+      "id": "manuale-u14-p006-memoria-005",
+      "pagina": 6,
+      "markdown": "**D. 50.16**\n\nDe verborum significatione, 246 frammenti",
+      "concetti": []
+    }
+  ]
+}

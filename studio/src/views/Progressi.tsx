@@ -149,7 +149,7 @@ export default function Progressi() {
           </label>
           <label className="row-between small">Domande nuove al giorno
             <select className="select" value={p.nuovePerGiorno} onChange={(e) => impostaNuove(slug, Number(e.target.value))}>
-              {[10, 15, 25, 40, 60, 100].map((n) => <option key={n} value={n}>{n}</option>)}
+              {[10, 15, 25, 35, 40, 60, 100].map((n) => <option key={n} value={n}>{n}</option>)}
             </select>
           </label>
           <p className="faint tiny" style={{ margin: 0 }}>Il limite delle nuove vale per questa materia e si rinnova ogni giorno. I ripassi in scadenza sono sempre inclusi; ogni lezione appena studiata può aggiungere fino a {DOMANDE_VERIFICA_INIZIALE} domande di verifica.</p>

@@ -12,6 +12,7 @@ const catalogo = JSON.parse(await readFile(path.join(source, 'catalogo.json'), '
 const FONTE = { 'filosofia-incampo-v1': 'incampo', 'filosofia-moro-v1': 'moro', 'filosofia-cotta-v1': 'cotta' };
 
 for (const doc of catalogo) {
+  if (doc.tipoFonte === 'manuale-ricostruito') continue; // Il testo viene direttamente dal Percorso durante sync-letture.
   const corso = JSON.parse(await readFile(path.join(root, 'public/content', doc.materia, 'corso.json'), 'utf8'));
   const lezioni = corso.unita.filter((u) => !FONTE[doc.id] || u.fonte === FONTE[doc.id])
     .flatMap((u) => u.lezioni.map((l) => ({ id: l.id, titolo: l.titolo, da: l.pagine?.[0], a: l.pagine?.[1] ?? l.pagine?.[0] })))
@@ -33,7 +34,8 @@ for (const doc of catalogo) {
     for (const m of md.matchAll(/<!-- blocco:([^\s]+) pagina:(\d+) -->\s*\n([\s\S]*?)(?=\n\s*<!-- blocco:|$)/g)) blocchi.push({ id: m[1], pagina: Number(m[2]), testo: m[3].trim() });
   }
   const nuove = sezioni.map((s) => ({ id: s.id, titolo: s.titolo, da: s.da, a: s.a, lezione: s.lezione,
-    ...(s.lezioni.length > 1 ? { lezioni: s.lezioni } : {}), revisionata: true, file: `letture/${doc.id}/${s.id}.json` }));
+    ...(s.lezioni.length > 1 ? { lezioni: s.lezioni } : {}), revisionata: true, file: `letture/${doc.id}/${s.id}.json`,
+    ...(doc.sezioni.find((p) => p.id === s.id)?.soloTitolo ? { soloTitolo: true, integrazione: doc.sezioni.find((p) => p.id === s.id).integrazione } : {}) }));
   let usati = 0;
   const testi = nuove.map((s) => {
     const parte = blocchi.filter((b) => b.pagina >= s.da && b.pagina <= s.a); usati += parte.length;

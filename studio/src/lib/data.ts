@@ -1,6 +1,7 @@
 import { createContext, useContext } from 'react';
 import type { Concetto, Corso, Domanda, Evento, Lezione, Manifest, Relazione, Unita } from './types';
-import { creaSchedeInverse } from './inverse';
+import { creaDomandeGlossario, creaSchedeInverse } from './inverse';
+import { creaDomandeCronologia } from './domande-eventi';
 
 export async function fetchManifest(): Promise<Manifest> {
   const r = await fetch('content/manifest.json', { cache: 'no-store' });
@@ -16,6 +17,9 @@ export interface Indice {
   concettoById: Map<string, Concetto>;
   domandaById: Map<string, Domanda>;
   schedeInverse: Domanda[];
+  domandeGlossario: Domanda[];
+  domandeCronologia: Domanda[];
+  requisitiDomanda: Map<string, RequisitiDomanda>;
   domandePerLezione: Map<string, Domanda[]>;
   domandePerConcetto: Map<string, Domanda[]>;
   relazioniPerConcetto: Map<string, Relazione[]>;
@@ -23,6 +27,8 @@ export interface Indice {
   /** pagine totali coperte dalle lezioni (unione) */
   pagineTotali: number;
 }
+
+export interface RequisitiDomanda { lezioni: string[]; unita: string[]; tutti?: RequisitiDomanda[] }
 
 function push<K, V>(m: Map<K, V[]>, k: K, v: V) {
   const arr = m.get(k);
@@ -32,17 +38,39 @@ function push<K, V>(m: Map<K, V[]>, k: K, v: V) {
 export function indicizza(corso: Corso): Indice {
   const lezioni = corso.unita.flatMap((u) => u.lezioni);
   const schedeInverse = creaSchedeInverse(corso);
-  const domande = [...corso.domande, ...schedeInverse];
+  const domandeGlossario = creaDomandeGlossario(corso, schedeInverse);
+  const domandeCronologia = creaDomandeCronologia(corso);
+  const domande = [...corso.domande, ...domandeGlossario, ...domandeCronologia];
   const domandePerLezione = new Map<string, Domanda[]>();
   const domandePerConcetto = new Map<string, Domanda[]>();
   for (const q of domande) {
-    if (!q.inversa) push(domandePerLezione, q.lezione, q);
+    if (!q.glossario && !q.cronologia && !q.inversa) push(domandePerLezione, q.lezione, q);
     for (const c of q.concetti ?? []) push(domandePerConcetto, c, q);
   }
   const relazioniPerConcetto = new Map<string, Relazione[]>();
   for (const r of corso.relazioni) { push(relazioniPerConcetto, r.da, r); push(relazioniPerConcetto, r.a, r); }
   const eventiPerConcetto = new Map<string, Evento[]>();
   for (const e of corso.eventi) for (const c of e.concetti ?? []) push(eventiPerConcetto, c, e);
+  const lessonIds = new Set(lezioni.map((l) => l.id));
+  const riferimentiConcetti = new Map(corso.concetti.map((c) => [c.id, new Set(c.lezioni.filter((id) => lessonIds.has(id)))]));
+  for (const l of lezioni) for (const id of l.concetti) riferimentiConcetti.get(id)?.add(l.id);
+  for (const q of corso.domande) if (lessonIds.has(q.lezione)) for (const id of q.concetti ?? []) riferimentiConcetti.get(id)?.add(q.lezione);
+  const requisitiDomanda = new Map<string, RequisitiDomanda>();
+  for (const q of corso.domande) requisitiDomanda.set(q.id, { lezioni: lessonIds.has(q.lezione) ? [q.lezione] : [], unita: [q.unita] });
+  for (const q of domandeGlossario) {
+    const c = corso.concetti.find((c) => c.id === q.glossario)!;
+    requisitiDomanda.set(q.id, { lezioni: [...riferimentiConcetti.get(c.id)!], unita: c.unita });
+  }
+  const requisitoEvento = (e: Evento): RequisitiDomanda => {
+    const pertinenti = lezioni.filter((l) => l.unita === e.unita && (!e.fonteNome || l.fonteNome === e.fonteNome));
+    const riferimenti = e.pagine ? pertinenti.filter((l) => l.pagine && l.pagine[0] <= e.pagine![1] && l.pagine[1] >= e.pagine![0])
+      : pertinenti.filter((l) => (e.concetti ?? []).some((id) => riferimentiConcetti.get(id)?.has(l.id)));
+    return { lezioni: riferimenti.map((l) => l.id), unita: [e.unita] };
+  };
+  const eventiById = new Map(corso.eventi.map((e) => [e.id, e]));
+  for (const q of domandeCronologia) requisitiDomanda.set(q.id, q.eventiCronologia
+    ? { lezioni: [], unita: [q.unita], tutti: q.eventiCronologia.map((id) => requisitoEvento(eventiById.get(id)!)) }
+    : requisitoEvento(eventiById.get(q.cronologia!)!));
   const pagine = new Set<string>();
   for (const l of lezioni) if (l.pagine) for (let p = l.pagine[0]; p <= l.pagine[1]; p++) pagine.add(`${l.fonte ?? ''}:${p}`);
   return {
@@ -52,7 +80,7 @@ export function indicizza(corso: Corso): Indice {
     lezioneById: new Map(lezioni.map((l) => [l.id, l])),
     concettoById: new Map(corso.concetti.map((c) => [c.id, c])),
     domandaById: new Map(domande.map((q) => [q.id, q])),
-    schedeInverse,
+    schedeInverse, domandeGlossario, domandeCronologia, requisitiDomanda,
     domandePerLezione, domandePerConcetto, relazioniPerConcetto, eventiPerConcetto,
     pagineTotali: pagine.size,
   };

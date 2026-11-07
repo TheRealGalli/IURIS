@@ -4,7 +4,7 @@ import { href, vai } from '../lib/router';
 import { ordinaRipasso, padronanzaDomanda, registraRisposta, ripassoDiOggi, type Voto } from '../lib/srs';
 import { DOMANDE_VERIFICA_INIZIALE, useProgresso, type Progresso } from '../lib/store';
 import { TIPI_DOMANDA, type Domanda, type TipoDomanda } from '../lib/types';
-import { fmtAnno, plurale, shuffle } from '../lib/util';
+import { plurale, shuffle } from '../lib/util';
 import { Bar, Icon } from '../components/ui';
 import DomandaView from './Domande';
 
@@ -27,7 +27,7 @@ function scriviSalvata(slug: string, x: Salvata | null) {
 }
 
 /** Integra le verifiche delle nuove lezioni senza perdere il punto del ripasso in sospeso. */
-export function integraRipasso(salvata: Salvata, disponibili: Domanda[], verifiche: Domanda[] = []): Salvata {
+export function integraRipasso(salvata: Salvata, disponibili: Domanda[], verifiche: Domanda[] = [], progresso?: Progresso): Salvata {
   if (salvata.s.titolo !== 'Ripasso del giorno') return salvata;
   const presenti = new Set(salvata.coda.map((q) => q.id));
   const aggiunte = disponibili.filter((q) => {
@@ -36,8 +36,11 @@ export function integraRipasso(salvata: Salvata, disponibili: Domanda[], verific
   });
   const risposte = salvata.coda.slice(0, salvata.i);
   const giaRisposte = new Set(risposte.map((q) => q.id));
-  const rimanenti = ordinaRipasso([...salvata.coda.slice(salvata.i), ...aggiunte], verifiche.filter((q) => !giaRisposte.has(q.id)));
-  if (!aggiunte.length && rimanenti.every((q, i) => q === salvata.coda[salvata.i + i])) return salvata;
+  const ammesse = new Set(disponibili.map((q) => q.id));
+  // Il mix può cambiare dopo risposte manuali o un nuovo giorno: le vecchie nuove non prenotano posti aggiuntivi.
+  const codaValida = salvata.coda.slice(salvata.i).filter((q) => !progresso || progresso.carte[q.id] || ammesse.has(q.id));
+  const rimanenti = ordinaRipasso([...codaValida, ...aggiunte], verifiche.filter((q) => !giaRisposte.has(q.id)));
+  if (!aggiunte.length && rimanenti.length === salvata.coda.length - salvata.i && rimanenti.every((q, i) => q === salvata.coda[salvata.i + i])) return salvata;
   return { ...salvata,
     s: aggiunte.length ? { ...salvata.s, domande: [...salvata.s.domande, ...aggiunte] } : salvata.s,
     coda: [...risposte, ...rimanenti] };
@@ -46,10 +49,10 @@ export function integraRipasso(salvata: Salvata, disponibili: Domanda[], verific
 const MODI: { k: Modo; t: string; d: string; icon: string }[] = [
   { k: 'ripasso', t: 'Ripasso del giorno', d: 'Prima le verifiche delle lezioni appena studiate, poi le domande in scadenza e le altre nuove.', icon: 'allena' },
   { k: 'libero', t: 'Quiz libero', d: 'Scegli unità, tipi di domanda e quantità.', icon: 'percorso' },
-  { k: 'inverse', t: 'Schede inverse', d: 'Dalla definizione al termine del glossario. Quelle che provi tornano poi nel ripasso del giorno.', icon: 'glossario' },
+  { k: 'inverse', t: 'Schede inverse', d: 'Dalla definizione al termine del glossario. Nel ripasso si attivano studiando le lezioni pertinenti; qui puoi anticiparle.', icon: 'glossario' },
   { k: 'deboli', t: 'Punti deboli', d: 'Solo le domande che hai sbagliato o che stai dimenticando.', icon: 'fiamma' },
   { k: 'orale', t: 'Simulazione d\'orale', d: 'Domande d\'esame lette ad alta voce: rispondi a voce e confronta con la traccia.', icon: 'mic' },
-  { k: 'cronologia', t: 'Sfida cronologica', d: 'Eventi a caso da mettere in ordine: date e sequenze senza fatica.', icon: 'cronologia' },
+  { k: 'cronologia', t: 'Sfida cronologica', d: 'Date, periodi e sequenze: ricorda quando avvengono gli eventi e mettili in ordine. Le risposte entrano nel ripasso spaziato.', icon: 'cronologia' },
 ];
 
 export default function Allena({ query }: { query: URLSearchParams }) {
@@ -64,7 +67,7 @@ export default function Allena({ query }: { query: URLSearchParams }) {
   const riprendi = (salvata: Salvata) => {
     if (salvata.s.titolo !== 'Ripasso del giorno') return avvia(salvata.s, salvata);
     const r = ripassoDiOggi(idx, p);
-    const aggiornata = integraRipasso(salvata, [...r.scadute, ...shuffle(r.nuove)], r.verifiche);
+    const aggiornata = integraRipasso(salvata, [...r.scadute, ...r.nuove], r.verifiche, p);
     avvia(aggiornata.s, aggiornata);
   };
 
@@ -121,8 +124,7 @@ export default function Allena({ query }: { query: URLSearchParams }) {
 
 export function sessioneRipasso(idx: Indice, p: Progresso, now = new Date()): Sessione {
   const r = ripassoDiOggi(idx, p, now);
-  // Le verifiche precedono le scadute; il resto conserva l'ordine e le nuove sono mescolate.
-  return { titolo: 'Ripasso del giorno', domande: ordinaRipasso([...r.scadute, ...shuffle(r.nuove)], r.verifiche), registra: true };
+  return { titolo: 'Ripasso del giorno', domande: ordinaRipasso([...r.scadute, ...r.nuove], r.verifiche), registra: true };
 }
 
 function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale: Modo }) {
@@ -136,8 +138,7 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
   const nRip = rip.scadute.length + rip.nuove.length;
 
   const pool = useMemo(() => {
-    let qs = modo === 'inverse' ? idx.schedeInverse
-      : modo === 'deboli' ? [...idx.corso.domande, ...idx.schedeInverse] : idx.corso.domande;
+    let qs = modo === 'inverse' ? idx.schedeInverse : modo === 'cronologia' ? idx.domandeCronologia : [...idx.domandaById.values()];
     if (unita.length) qs = qs.filter((q) => q.inversa
       ? idx.concettoById.get(q.inversa)?.unita.some((u) => unita.includes(u))
       : unita.includes(q.unita));
@@ -151,22 +152,19 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
     return qs;
   }, [idx, p, modo, unita, tipi]);
 
-  const eventiPuntuali = idx.corso.eventi.filter((e) => e.tipo !== 'periodo' && (!unita.length || unita.includes(e.unita)));
-
   const avvia = () => {
     if (modo === 'ripasso') return onStart(sessioneRipasso(idx, p));
-    if (modo === 'cronologia') return onStart({ titolo: 'Sfida cronologica', domande: sfideCronologiche(eventiPuntuali, Math.max(3, Math.round(n / 4))), registra: false });
     const qs = modo === 'deboli' ? pool.slice(0, n) : shuffle(pool).slice(0, n);
     onStart({ titolo: MODI.find((m) => m.k === modo)!.t, domande: modo === 'deboli' ? shuffle(qs) : qs, orale: modo === 'orale', registra: true });
   };
 
-  const disponibili = modo === 'ripasso' ? nRip : modo === 'cronologia' ? eventiPuntuali.length : pool.length;
-  const pronto = modo === 'cronologia' ? eventiPuntuali.length >= 4 : disponibili > 0;
+  const disponibili = modo === 'ripasso' ? nRip : pool.length;
+  const pronto = disponibili > 0;
   const toggle = <T,>(arr: T[], v: T) => (arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v]);
 
   return (
     <div className="page-narrow fade-in">
-      <div className="eyebrow">{plurale(idx.corso.domande.length, 'domanda', 'domande')} nel corso{idx.schedeInverse.length > 0 && ` · ${idx.schedeInverse.length} schede inverse`}</div>
+      <div className="eyebrow">{plurale(idx.corso.domande.length, 'domanda', 'domande')} di lezione · {idx.domandeGlossario.length} schede glossario · {idx.domandeCronologia.length} esercizi di cronologia</div>
       <h1 className="title-xl" style={{ margin: '6px 0 20px' }}>Allenamento</h1>
 
       <div className="grid g2" style={{ marginBottom: 20 }}>
@@ -205,7 +203,7 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
           <div>
             <div className="eyebrow" style={{ marginBottom: 8 }}>Quante</div>
             <div className="row" style={{ gap: 6 }}>
-              {[10, 20, 40, 80].map((x) => <button key={x} className={`chip ${n === x ? 'on' : ''}`} onClick={() => setN(x)}>{modo === 'cronologia' ? Math.max(3, Math.round(x / 4)) : x}</button>)}
+              {[10, 20, 40, 80].map((x) => <button key={x} className={`chip ${n === x ? 'on' : ''}`} onClick={() => setN(x)}>{x}</button>)}
             </div>
           </div>
         </div>
@@ -214,6 +212,7 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
       {modo === 'ripasso' && (
         <div className="card-flat small" style={{ marginBottom: 16 }}>
           <b>{p.nuovePerGiorno} nuove al giorno per questa materia.</b> I ripassi in scadenza si aggiungono senza questo limite.
+          <div className="muted" style={{ marginTop: 5 }}>Il limite è condiviso fra domande delle lezioni, glossario e cronologia: si attivano con gli argomenti studiati.</div>
           <div className="muted" style={{ marginTop: 5 }}>Ogni lezione appena studiata può aggiungere fino a {DOMANDE_VERIFICA_INIZIALE} domande di verifica, proposte per prime anche a limite raggiunto.
             {rip.extraNuove > 0 && ` Oggi ce ne sono ${rip.extraNuove} in più.`}
           </div>
@@ -227,33 +226,13 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
           {modo === 'deboli' && (pool.length ? `${pool.length} domande deboli` : 'Ancora nessuna domanda debole: prima rispondi a qualche quiz.')}
           {(modo === 'libero' || modo === 'orale') && `${pool.length} domande disponibili`}
           {modo === 'inverse' && `${pool.length} schede inverse disponibili`}
-          {modo === 'cronologia' && `${eventiPuntuali.length} eventi disponibili`}
+          {modo === 'cronologia' && `${pool.length} quiz cronologia disponibili`}
         </span>
         <button className="btn btn-accent btn-lg" disabled={!pronto} onClick={avvia}>Inizia <Icon n="freccia" size={17} /></button>
       </div>
       {modo === 'ripasso' && !nRip && <div style={{ marginTop: 14 }}><a className="btn" href={href('/percorso')}>Vai al percorso</a></div>}
     </div>
   );
-}
-
-function sfideCronologiche(eventi: Indice['corso']['eventi'], quante: number): Domanda[] {
-  const out: Domanda[] = [];
-  for (let i = 0; i < quante; i++) {
-    const scelti: typeof eventi = [];
-    for (const e of shuffle(eventi)) {
-      if (scelti.every((s) => s.anno !== e.anno)) scelti.push(e);
-      if (scelti.length === 5) break;
-    }
-    if (scelti.length < 3) break;
-    scelti.sort((a, b) => a.anno - b.anno);
-    out.push({
-      id: `cron-${i}`, tipo: 'ordina', lezione: '', unita: scelti[0].unita, livello: 'medio',
-      consegna: 'Metti in ordine cronologico, dal più antico.',
-      elementi: scelti.map((e) => e.titolo),
-      spiegazione: scelti.map((e) => `**${e.data}** — ${e.titolo}`).join('  \n'),
-    });
-  }
-  return out;
 }
 
 function Runner({ s, origine, ripresa, onFine }: { s: Sessione; origine: string; ripresa: Salvata | null; onFine: () => void }) {
@@ -308,9 +287,8 @@ function Runner({ s, origine, ripresa, onFine }: { s: Sessione; origine: string;
         <Bar value={i / coda.length} tone="accent" />
         <span className="small faint" style={{ whiteSpace: 'nowrap' }}>{i + 1} / {coda.length}</span>
       </div>
-      <div className="faint small" style={{ marginBottom: 8 }}>{q.inversa ? 'Schede inverse · Glossario' : <>{s.titolo}{lez && lez.titolo !== s.titolo ? ` · ${lez.titolo}` : ''}</>}</div>
+      <div className="faint small" style={{ marginBottom: 8 }}>{q.inversa ? 'Schede inverse · Glossario' : q.glossario ? 'Glossario · Dal termine alla definizione' : q.cronologia ? q.eventiCronologia ? 'Cronologia · Ordina gli eventi' : 'Cronologia · Date e periodi' : <>{s.titolo}{lez && lez.titolo !== s.titolo ? ` · ${lez.titolo}` : ''}</>}</div>
       <DomandaView key={`${q.id}-${i}`} q={q} onVoto={onVoto} orale={s.orale} />
-      {s.titolo === 'Sfida cronologica' && <p className="faint tiny" style={{ textAlign: 'center' }}>Gli anni vanno da {fmtAnno(-753)} a {fmtAnno(565)}: a.C. contano all'indietro.</p>}
     </div>
   );
 }

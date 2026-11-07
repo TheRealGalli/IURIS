@@ -6,7 +6,7 @@ import { href, vai } from '../lib/router';
 import { cronologiaSegni, type DocumentoOriginale, type SegnoOriginale } from '../lib/originali';
 import { aggiungiSegnoTestoOriginale, annullaSegnoOriginale, ripristinaSegnoOriginale, rimuoviSegniOriginali, salvaSezioneTestoOriginale, segnaStudiata, useProgresso } from '../lib/store';
 import { idsSegniNellaSelezioneTesto, proiettaSegniTesto, statoStudioSezione, type DocumentoLettura, type SezioneLettura, type IndiceSezioneLettura } from '../lib/letture';
-import { caricaSezioneLettura, catturaAncoreTesto, htmlConSegni, linkTesto, preparaBlocchi, sezionePerPagina, type BloccoPronto, type SegnoBlocco } from '../lib/letture-client';
+import { caricaSezioneLettura, catturaAncoreTesto, creaAnteprimaTestoNativa, htmlConSegni, linkTesto, preparaBlocchi, rettangoliRangeTesto, sezionePerPagina, type BloccoPronto, type SegnoBlocco } from '../lib/letture-client';
 import { hrefPassaggioPersonale, usePassaggiPersonali } from '../lib/letture-hooks';
 import MappaPersonale from '../components/MappaPersonale';
 import './LettoreTesto.css';
@@ -43,12 +43,19 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   const [tentativo, setTentativo] = useState(0);
   const [tipo, setTipo] = useState<Strumento>('evidenziato'), [colore, setColore] = useState<SegnoOriginale['colore']>('giallo');
   const [pannello, setPannello] = useState<'segni' | 'mappa' | 'fonti' | null>(null);
-  const [bozza, setBozza] = useState<Bozza | null>(null), bozzaRef = useRef<Bozza | null>(null);
+  const [haBozza, setHaBozza] = useState(false), bozzaRef = useRef<Bozza | null>(null);
   const [messaggio, setMessaggio] = useState(''), [erroreSalvataggio, setErroreSalvataggio] = useState(false);
   const [selezionando, setSelezionando] = useState(false), gesto = useRef(false);
   const spazio = useRef<HTMLDivElement>(null), viewport = useRef<HTMLDivElement>(null), articolo = useRef<HTMLElement>(null);
+  const anteprima = useRef<HTMLDivElement>(null), selezioneFrame = useRef(0);
+  const nativa = useMemo(creaAnteprimaTestoNativa, []);
+  const segniResi = useRef(segni), strumento = useRef(tipo);
+  strumento.current = tipo;
+  // I nodi selezionati restano stabili anche se il segnalibro aggiorna i progressi.
+  if (!gesto.current && !bozzaRef.current) segniResi.current = segni;
+  const segniVisibili = segniResi.current;
   const chiudiPannello = useRef<HTMLButtonElement>(null);
-  const fineGesto = useRef<ReturnType<typeof setTimeout>>(), selezioneTimer = useRef<ReturnType<typeof setTimeout>>(), posizioneTimer = useRef<ReturnType<typeof setTimeout>>();
+  const fineGesto = useRef<ReturnType<typeof setTimeout>>(), posizioneTimer = useRef<ReturnType<typeof setTimeout>>();
   const ultimoBlocco = useRef(lettura?.sezioneTesto === meta.id ? lettura.bloccoTesto : undefined);
   const scrollFrame = useRef(0), pronto = useRef(false), primaPosizione = useRef(ultimoBlocco.current);
   const { passaggi } = usePassaggiPersonali();
@@ -60,7 +67,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
     return () => { annullato = true; };
   }, [meta, tentativo]);
   const blocchi = useMemo(() => sezione ? preparaBlocchi(sezione, idx.concettoById) : [], [sezione, idx]);
-  const proiezioni = useMemo(() => proiettaSegniTesto(segni, blocchi, documento.edizione, meta), [segni, blocchi, documento.edizione, meta]);
+  const proiezioni = useMemo(() => proiettaSegniTesto(segniVisibili, blocchi, documento.edizione, meta), [segniVisibili, blocchi, documento.edizione, meta]);
   const perBlocco = useMemo(() => {
     const m = new Map<string, SegnoBlocco[]>();
     for (const pr of proiezioni) if (pr.stato === 'proiettato') for (const a of pr.ancore) {
@@ -79,18 +86,33 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   const segnaSezione = () => { for (const l of lezioniQui) segnaStudiata(slug, l.id, !studio.studiata, (idx.domandePerLezione.get(l.id) ?? []).map((q) => q.id)); };
   const ordinati = useMemo(() => [...segni].sort((a, b) => a.pagina - b.pagina || a.creata.localeCompare(b.creata)), [segni]);
   const esito = useCallback((salvato: boolean) => setErroreSalvataggio(!salvato), []);
-  const impostaBozza = useCallback((nuova: Bozza | null) => {
-    if (bozzaRef.current === nuova) return;
-    bozzaRef.current = nuova; setBozza(nuova);
-  }, []);
+  const disegnaBozza = useCallback((nuova: Bozza | null) => {
+    const el = articolo.current, overlay = anteprima.current;
+    if (!el || !overlay) return;
+    if (!nuova) { nativa.cancella(); overlay.replaceChildren(); el.dataset.bozza = 'false'; return; }
+    if (nativa.mostra(nuova.ranges)) { overlay.replaceChildren(); el.dataset.bozza = 'true'; return; }
+    nativa.cancella();
+    const rects = rettangoliRangeTesto(nuova.ranges, el), frammento = document.createDocumentFragment();
+    for (const r of rects) {
+      const span = document.createElement('span');
+      span.style.left = `${r.x}px`; span.style.top = `${r.y}px`; span.style.width = `${r.w}px`; span.style.height = `${r.h}px`;
+      frammento.append(span);
+    }
+    overlay.replaceChildren(frammento); el.dataset.bozza = rects.length ? 'true' : 'false';
+  }, [nativa]);
+  const impostaBozza = useCallback((nuova: Bozza | null, pubblica = true) => {
+    bozzaRef.current = nuova; disegnaBozza(nuova);
+    if (pubblica) setHaBozza(!!nuova);
+  }, [disegnaBozza]);
   const annullaSelezione = useCallback(() => {
-    clearTimeout(selezioneTimer.current); clearTimeout(fineGesto.current);
+    cancelAnimationFrame(selezioneFrame.current); selezioneFrame.current = 0; clearTimeout(fineGesto.current);
+    gesto.current = false; setSelezionando(false);
     impostaBozza(null); window.getSelection()?.removeAllRanges(); setMessaggio('');
   }, [impostaBozza]);
-  const cattura = useCallback(() => {
+  const cattura = useCallback((pubblica = true) => {
     if (!articolo.current) return null;
-    const nuova = catturaAncoreTesto(articolo.current, documento.edizione);
-    if (nuova) { impostaBozza(nuova); setMessaggio(''); }
+    const nuova = catturaAncoreTesto(articolo.current, documento.edizione, { geometria: false });
+    if (nuova) { impostaBozza(nuova, pubblica); if (pubblica) setMessaggio(''); }
     return nuova;
   }, [documento.edizione, impostaBozza]);
   const cancella = useCallback((scelta: Bozza) => {
@@ -121,14 +143,25 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   useEffect(() => {
     const termina = (e: Event) => {
       if (!gesto.current) return;
-      gesto.current = false; setSelezionando(false); clearTimeout(fineGesto.current); clearTimeout(selezioneTimer.current);
-      fineGesto.current = setTimeout(() => { const s = cattura(); if (e.type === 'pointerup' && tipo === 'gomma' && s) cancella(s); }, 0);
+      clearTimeout(fineGesto.current); cancelAnimationFrame(selezioneFrame.current); selezioneFrame.current = 0;
+      fineGesto.current = setTimeout(() => {
+        const s = cattura(false);
+        gesto.current = false; setSelezionando(false); setHaBozza(!!bozzaRef.current);
+        if (e.type === 'pointerup' && strumento.current === 'gomma' && s) cancella(s);
+      }, 0);
     };
-    const selezione = () => { if (gesto.current) return; clearTimeout(selezioneTimer.current); selezioneTimer.current = setTimeout(cattura, 60); };
+    const selezione = () => {
+      if (selezioneFrame.current) return;
+      selezioneFrame.current = requestAnimationFrame(() => {
+        selezioneFrame.current = 0;
+        // Nessuna riscrittura dei paragrafi o setState a ogni movimento del dito/mouse.
+        cattura(!gesto.current);
+      });
+    };
     document.addEventListener('pointerup', termina); document.addEventListener('pointercancel', termina); window.addEventListener('blur', termina);
     document.addEventListener('selectionchange', selezione);
     return () => { document.removeEventListener('pointerup', termina); document.removeEventListener('pointercancel', termina); window.removeEventListener('blur', termina); document.removeEventListener('selectionchange', selezione); };
-  }, [cattura, tipo, cancella]);
+  }, [cattura, cancella]);
   useEffect(() => {
     const tastiera = (e: KeyboardEvent) => {
       const el = e.target instanceof Element ? e.target : null;
@@ -140,7 +173,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
         return;
       }
       if (e.repeat || e.altKey || e.shiftKey || el.closest('.lettura-pannello')) return;
-      if (['Escape', 'Delete', 'Backspace'].includes(e.key)) { if (bozzaRef.current) { e.preventDefault(); annullaSelezione(); } return; }
+      if (['Escape', 'Delete', 'Backspace'].includes(e.key)) { if (bozzaRef.current || !window.getSelection()?.isCollapsed) { e.preventDefault(); annullaSelezione(); } return; }
       const key = e.key.toLowerCase();
       if (key === 'h' || key === 'u') { e.preventDefault(); setTipo(key === 'h' ? 'evidenziato' : 'sottolineato'); return; }
       if (key === 'e') { e.preventDefault(); attivaGomma(); return; }
@@ -182,15 +215,19 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
     });
   };
   useEffect(() => () => {
-    clearTimeout(fineGesto.current); clearTimeout(selezioneTimer.current); clearTimeout(posizioneTimer.current); cancelAnimationFrame(scrollFrame.current);
+    clearTimeout(fineGesto.current); clearTimeout(posizioneTimer.current); cancelAnimationFrame(scrollFrame.current); cancelAnimationFrame(selezioneFrame.current); nativa.cancella();
     if (pronto.current) salvaSezioneTestoOriginale(slug, doc, meta.id, ultimoBlocco.current);
-  }, [slug, doc, meta.id]);
+  }, [slug, doc, meta.id, nativa]);
   useEffect(() => {
     if (!articolo.current) return;
     let larghezza = articolo.current.clientWidth;
-    const observer = new ResizeObserver(() => { const w = articolo.current?.clientWidth ?? 0; if (w !== larghezza) { larghezza = w; annullaSelezione(); } });
+    const observer = new ResizeObserver(() => {
+      const w = articolo.current?.clientWidth ?? 0;
+      if (w !== larghezza) { larghezza = w; annullaSelezione(); }
+      else if (bozzaRef.current) disegnaBozza(bozzaRef.current);
+    });
     observer.observe(articolo.current); return () => observer.disconnect();
-  }, [sezione, annullaSelezione]);
+  }, [sezione, annullaSelezione, disegnaBozza]);
   const scegliSezione = (id: string) => { annullaSelezione(); vai(linkTesto(doc.id, id)); };
   const apriSegno = (s: SegnoOriginale) => {
     const m = sezionePerPagina(documento, s.pagina);
@@ -209,36 +246,40 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
     <div className="originali-barra lettura-barra">
       <div className="lettura-nav">
         <button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Sezione precedente" disabled={indice <= 0} onClick={() => scegliSezione(documento.sezioni[indice - 1].id)}><Icon n="indietro" size={16} /></button>
-        <select className="select lettura-sezione-select" aria-label="Sezione del testo" value={meta.id} onChange={(e) => scegliSezione(e.target.value)}>{documento.sezioni.map((s) => <option key={s.id} value={s.id}>{statoStudioSezione(s, p.lezioni).studiata ? '✓ ' : ''}{s.titolo}{s.revisionata ? '' : ' · estratto'}</option>)}</select>
+        <select className="select lettura-sezione-select" aria-label="Sezione del testo" value={meta.id} onChange={(e) => scegliSezione(e.target.value)}>{documento.sezioni.map((s) => <option key={s.id} value={s.id}>{statoStudioSezione(s, p.lezioni).studiata ? '✓ ' : ''}{s.titolo}{s.soloTitolo ? ' · solo titolo nella fonte' : s.revisionata ? '' : ' · estratto'}</option>)}</select>
         <button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Sezione successiva" disabled={indice >= documento.sezioni.length - 1} onClick={() => scegliSezione(documento.sezioni[indice + 1].id)}><Icon n="freccia" size={16} /></button>
       </div>
       <div className="originali-cronologia"><button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Annulla ultima modifica ai segni" title="Annulla (⌘Z / Ctrl+Z)" disabled={!cronologia.indietro.length} onClick={() => storia('indietro')}><Icon n="annulla" size={17} /></button><button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Ripristina modifica ai segni" title="Ripristina (⌘⇧Z / Ctrl+Y)" disabled={!cronologia.avanti.length} onClick={() => storia('avanti')}><Icon n="ripristina" size={17} /></button></div>
-      <div className="originali-strumenti">
+      <div className="originali-strumenti" onMouseDown={(e) => { if ((e.target as Element).closest('button')) e.preventDefault(); }}>
         <button className={`btn btn-sm originali-quadrato ${tipo === 'evidenziato' ? 'originali-scelto' : 'btn-ghost'}`} aria-label="Evidenzia" title="Evidenzia (H)" aria-pressed={tipo === 'evidenziato'} onClick={() => setTipo('evidenziato')}><Icon n="evidenzia" size={18} /></button>
         <button className={`btn btn-sm originali-quadrato ${tipo === 'sottolineato' ? 'originali-scelto' : 'btn-ghost'}`} aria-label="Sottolinea" title="Sottolinea (U)" aria-pressed={tipo === 'sottolineato'} onClick={() => setTipo('sottolineato')}><Icon n="sottolinea" size={18} /></button>
         <button className={`btn btn-sm originali-quadrato ${tipo === 'gomma' ? 'originali-scelto' : 'btn-ghost'}`} aria-label="Gomma" title="Gomma (E)" aria-pressed={tipo === 'gomma'} onClick={attivaGomma}><Icon n="gomma" size={18} /></button>
         <div className="originali-colori">{COLORI.map((c) => <button key={c} className={`originali-colore ${c}`} aria-label={c[0].toUpperCase() + c.slice(1)} title={c} aria-pressed={c === colore} onClick={() => setColore(c)} />)}</div>
-        <button className="btn btn-sm originali-quadrato" aria-label={tipo === 'gomma' ? 'Applica gomma' : 'Salva segno'} title="Applica al passaggio (Invio o Spazio)" disabled={!bozza} onClick={applica}><Icon n={tipo === 'gomma' ? 'check' : 'salva'} size={18} /></button>
+        <button className="btn btn-sm originali-quadrato" aria-label={tipo === 'gomma' ? 'Applica gomma' : 'Salva segno'} title="Applica al passaggio (Invio o Spazio)" disabled={!haBozza} onClick={applica}><Icon n={tipo === 'gomma' ? 'check' : 'salva'} size={18} /></button>
       </div>
     </div>
     <div className="lettura-layout">
       <div ref={viewport} className="lettura-viewport" tabIndex={0} aria-label="Testo del documento, scorri per leggere" onScroll={scorri}>
-        {errore ? <div className="empty"><p role="alert">{errore}</p><button className="btn" onClick={() => setTentativo((v) => v + 1)}>Riprova</button></div> : !sezione ? <div className="empty faint" role="status">Apertura del testo…</div> : <article ref={articolo} className="lettura-articolo prose" data-bozza={!!bozza} onPointerDown={(e) => {
+        {errore ? <div className="empty"><p role="alert">{errore}</p><button className="btn" onClick={() => setTentativo((v) => v + 1)}>Riprova</button></div> : !sezione ? <div className="empty faint" role="status">Apertura del testo…</div> : <article ref={articolo} className="lettura-articolo prose" onPointerDown={(e) => {
           if (!(e.target as Element).closest('[data-lettura-block]')) return;
-          gesto.current = true; setSelezionando(true); clearTimeout(selezioneTimer.current); impostaBozza(null); setMessaggio(''); viewport.current?.focus({ preventScroll: true });
+          if (e.button !== 0 || e.isPrimary === false) return;
+          gesto.current = true; setSelezionando(true); clearTimeout(fineGesto.current); cancelAnimationFrame(selezioneFrame.current); selezioneFrame.current = 0;
+          impostaBozza(null); setMessaggio(''); viewport.current?.focus({ preventScroll: true });
         }}>
           <div className="lettura-intestazione" contentEditable={false}>
-            <div className="eyebrow">{meta.revisionata ? 'Testo revisionato' : 'Testo estratto · revisione progressiva'} · pp. {meta.da}–{meta.a}</div>
+            <div className="eyebrow">{meta.soloTitolo ? 'Indice della fonte' : doc.tipoFonte === 'manuale-ricostruito' ? 'Ricostruzione dal Percorso' : meta.revisionata ? 'Testo revisionato con IA' : 'Testo estratto · revisione progressiva'} · {meta.manuale ? `manuale pp. ${meta.manuale[0]}–${meta.manuale[1]}` : `pp. ${meta.da}–${meta.a}`}</div>
             <h2 className="title-l">{meta.titolo}</h2>
-            {lezione && <div className="row lettura-rimandi"><a className="btn btn-sm" href={href(`/lezione/${lezione.id}`)}>Nel Percorso<Icon n="freccia" size={14} /></a><a className="btn btn-sm btn-ghost" href={href(`/allena?l=${lezione.id}`)}>Quiz della lezione</a><button className={`btn btn-sm ${studio.studiata ? 'btn-ok' : 'btn-ghost'}`} title={lezioniQui.length > 1 ? `Vale per le ${lezioniQui.length} lezioni di questa sezione, anche nel Percorso` : 'Vale anche nel Percorso'} onClick={segnaSezione}><Icon n="check" size={14} />{studio.studiata ? 'Studiata' : studio.parziale ? `Studiate ${studio.studiate.length} di ${lezioniQui.length}` : 'Segna come studiata'}</button></div>}
+            {meta.integrazione && <div className="card-flat small"><p>In queste pagine gli appunti riportano soltanto il titolo del capitolo. La lezione completa, ricostruita nel Percorso, è disponibile nel fascicolo integrativo.</p><a className="btn btn-sm" href={linkTesto(meta.integrazione.documento, meta.integrazione.sezione)}>Leggi la lezione completa<Icon n="freccia" size={14} /></a></div>}
+            {doc.tipoFonte === 'manuale-ricostruito' && <p className="small muted">Testo e note ripresi dalla ricostruzione del Percorso, con assistenza dell’IA. I riferimenti al manuale permettono di verificarne i contenuti.</p>}
+            {lezione && !meta.soloTitolo && <div className="row lettura-rimandi"><a className="btn btn-sm" href={href(`/lezione/${lezione.id}`)}>Nel Percorso<Icon n="freccia" size={14} /></a><a className="btn btn-sm btn-ghost" href={href(`/allena?l=${lezione.id}`)}>Quiz della lezione</a><button className={`btn btn-sm ${studio.studiata ? 'btn-ok' : 'btn-ghost'}`} title={lezioniQui.length > 1 ? `Vale per le ${lezioniQui.length} lezioni di questa sezione, anche nel Percorso` : 'Vale anche nel Percorso'} onClick={segnaSezione}><Icon n="check" size={14} />{studio.studiata ? 'Studiata' : studio.parziale ? `Studiate ${studio.studiate.length} di ${lezioniQui.length}` : 'Segna come studiata'}</button></div>}
             {pdfQui > 0 && <p className="tiny faint lettura-recupero">{pdfQui} {pdfQui === 1 ? 'segno fatto sul vecchio lettore PDF recuperato' : 'segni fatti sul vecchio lettore PDF recuperati'} nel testo.</p>}
             {daVerificare.length > 0 && <div className="lettura-recupero small">{daVerificare.length} {daVerificare.length === 1 ? 'segno del vecchio lettore PDF non ha' : 'segni del vecchio lettore PDF non hanno'} una corrispondenza univoca in questo testo: {daVerificare.length === 1 ? 'resta salvato' : 'restano salvati'} con la citazione tra i segni. <button className="btn btn-sm btn-ghost" onClick={() => setPannello('segni')}>Vedi i segni</button></div>}
           </div>
           {blocchi.map((b, i) => <div key={b.id} className="lettura-gruppo">
-            {(i === 0 || blocchi[i - 1].pagina !== b.pagina) && <div className="lettura-fonte-pagina" aria-label={`Pagina ${b.pagina} della fonte`}>p. {b.pagina}</div>}
+            {(i === 0 || blocchi[i - 1].pagina !== b.pagina) && <div className="lettura-fonte-pagina" aria-label={doc.tipoFonte === 'manuale-ricostruito' ? `Sezione ${b.pagina} dell’integrazione` : `Pagina ${b.pagina} della fonte`}>{doc.tipoFonte === 'manuale-ricostruito' ? `Sezione ${b.pagina}` : `p. ${b.pagina}`}</div>}
             <Paragrafo blocco={b} segni={perBlocco.get(b.id) ?? NESSUN_SEGNO} />
           </div>)}
-          {bozza && <div className={`lettura-bozza ${tipo} ${colore}`} aria-hidden="true">{bozza.rects.map((r, i) => <span key={i} style={{ left: r.x, top: r.y, width: r.w, height: r.h }} />)}</div>}
+          <div ref={anteprima} className={`lettura-bozza ${tipo} ${colore}`} aria-hidden="true" />
           <div className="lettura-fine"><span className="tiny faint">Fonte e note editoriali dal menu ⋯. Segni e mappa sono inclusi nel backup completo.</span>{indice < documento.sezioni.length - 1 && <button className="btn" onClick={() => scegliSezione(documento.sezioni[indice + 1].id)}>Prosegui<Icon n="freccia" size={16} /></button>}</div>
         </article>}
       </div>
@@ -246,13 +287,13 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
         <header><h2 className="title-s">{pannello === 'mappa' ? 'Mappa personale' : pannello === 'segni' ? `Segni salvati (${segni.length})` : 'Fonte e comandi'}</h2><button ref={chiudiPannello} className="btn btn-sm btn-ghost originali-quadrato" aria-label="Chiudi pannello" onClick={() => setPannello(null)}><Icon n="x" size={17} /></button></header>
         <div className="lettura-pannello-body">
           {pannello === 'mappa' ? <><a className="btn btn-sm" href={href('/mappa?personale=1')}>Apri la mappa completa<Icon n="freccia" size={14} /></a><MappaPersonale compatta passaggi={passaggi} onApri={(passaggio) => { vai(hrefPassaggioPersonale(passaggio)); setPannello(null); }} onConcetto={(id) => vai(`/concetto/${id}`)} hrefLettura={linkTesto(doc.id, meta.id)} /></>
-            : pannello === 'fonti' ? <><h3 className="title-s">{doc.titolo}</h3><p className="small muted">{doc.descrizione}</p><p className="small muted">Revisione di Carlo Galli.</p><p className="small muted">Il testo è estratto dalla fonte. Le sezioni revisionate seguono le lezioni del Percorso: correzioni puntuali con nota, titoli ed elenchi ricomposti, collegamenti al glossario. Le altre sono ancora estratti semplici.</p><a className="btn btn-sm" href={`${import.meta.env.BASE_URL}${doc.file}`} download><Icon n="scarica" size={15} />Consulta la fonte PDF originale</a><p className="tiny faint">Il PDF scaricato non contiene i segni personali: sono nel backup completo.</p><hr className="sep" /><h3 className="title-s">Scorciatoie</h3><dl className="originali-scorciatoie"><dt>Invio / Spazio</dt><dd>Salva o applica la gomma</dd><dt>Esc / Canc / ⌫</dt><dd>Annulla la selezione</dd><dt>H / U / E</dt><dd>Evidenzia / sottolinea / gomma</dd><dt>1 / 2 / 3</dt><dd>Giallo / verde / rosa</dd><dt>⌘Z / Ctrl+Z</dt><dd>Annulla</dd><dt>⌘⇧Z / Ctrl+Y</dt><dd>Ripristina</dd></dl><p className="tiny faint">Le parole collegate aprono il glossario con un clic. Le annotazioni aggiornano la mappa personale e restano nel backup unico.</p></>
-              : <>{!ordinati.length ? <p className="small muted">Seleziona un passaggio e salvalo per ritrovarlo qui e nella mappa.</p> : <ol className="originali-lista">{ordinati.map((s) => <li key={s.id}><div className="row-between"><button className="btn btn-sm btn-ghost" onClick={() => apriSegno(s)}>Pagina {s.pagina}<Icon n="freccia" size={13} /></button><button className="btn btn-sm btn-ghost originali-quadrato" aria-label={`Rimuovi segno: ${s.testo.slice(0, 45)}`} onClick={() => { annullaSelezione(); const r = rimuoviSegniOriginali(slug, doc, [s.id]); esito(r.salvato); setMessaggio('Segno rimosso. La mappa è aggiornata.'); }}><Icon n="x" size={14} /></button></div><p className={`originali-estratto ${s.colore}`}>{s.testo}</p><span className="tiny faint">{s.tipo === 'evidenziato' ? 'Evidenziato' : 'Sottolineato'} · {s.ancoreTesto?.length ? 'testo' : 'dal PDF'}</span></li>)}</ol>}</>}
+            : pannello === 'fonti' ? <><h3 className="title-s">{doc.titolo}</h3><p className="small muted">{doc.descrizione}</p><p className="small muted">Rielaborazione e revisione assistite dall’IA. La verifica umana integrale dei contenuti è ancora da completare.</p><p className="small muted">{doc.tipoFonte === 'manuale-ricostruito' ? 'Questa raccolta riprende le lezioni ricostruite del Percorso, con i riferimenti al manuale e le relative note. Evidenziazioni e stato Studiata funzionano come negli altri testi.' : 'Il testo è estratto dagli appunti. Le sezioni seguono le lezioni del Percorso, con correzioni puntuali documentate, impaginazione e collegamenti al glossario. Dove la fonte contiene solo un titolo, il rimando apre la lezione ricostruita nel fascicolo integrativo.'}</p>{doc.file && <><a className="btn btn-sm" href={`${import.meta.env.BASE_URL}${doc.file}`} download><Icon n="scarica" size={15} />Consulta la fonte PDF originale</a><p className="tiny faint">Il PDF scaricato non contiene i segni personali: sono nel backup completo.</p></>}<hr className="sep" /><h3 className="title-s">Scorciatoie</h3><dl className="originali-scorciatoie"><dt>Invio / Spazio</dt><dd>Salva o applica la gomma</dd><dt>Esc / Canc / ⌫</dt><dd>Annulla la selezione</dd><dt>H / U / E</dt><dd>Evidenzia / sottolinea / gomma</dd><dt>1 / 2 / 3</dt><dd>Giallo / verde / rosa</dd><dt>⌘Z / Ctrl+Z</dt><dd>Annulla</dd><dt>⌘⇧Z / Ctrl+Y</dt><dd>Ripristina</dd></dl><p className="tiny faint">Le parole collegate aprono il glossario con un clic. Le annotazioni aggiornano la mappa personale e restano nel backup unico.</p></>
+              : <>{!ordinati.length ? <p className="small muted">Seleziona un passaggio e salvalo per ritrovarlo qui e nella mappa.</p> : <ol className="originali-lista">{ordinati.map((s) => <li key={s.id}><div className="row-between"><button className="btn btn-sm btn-ghost" onClick={() => apriSegno(s)}>{doc.tipoFonte === 'manuale-ricostruito' ? 'Sezione' : 'Pagina'} {s.pagina}<Icon n="freccia" size={13} /></button><button className="btn btn-sm btn-ghost originali-quadrato" aria-label={`Rimuovi segno: ${s.testo.slice(0, 45)}`} onClick={() => { annullaSelezione(); const r = rimuoviSegniOriginali(slug, doc, [s.id]); esito(r.salvato); setMessaggio('Segno rimosso. La mappa è aggiornata.'); }}><Icon n="x" size={14} /></button></div><p className={`originali-estratto ${s.colore}`}>{s.testo}</p><span className="tiny faint">{s.tipo === 'evidenziato' ? 'Evidenziato' : 'Sottolineato'} · {s.ancoreTesto?.length ? 'testo' : 'dal PDF'}</span></li>)}</ol>}</>}
         </div>
       </aside>}
     </div>
     {pop}
-    <div className="originali-feedback" role="status" aria-live="polite">{messaggio || (bozza ? 'Passaggio selezionato · Invio o Spazio per salvare' : '')}</div>
+    <div className="originali-feedback" role="status" aria-live="polite">{messaggio || (haBozza ? 'Passaggio selezionato · Invio o Spazio per salvare' : '')}</div>
     {erroreSalvataggio && <div className="originali-avviso" role="alert">Il browser non ha salvato gli ultimi cambiamenti sul dispositivo. Restano disponibili in questa sessione: conservarli dalla sezione <a href={href('/backup')}>Backup</a>.</div>}
   </div>;
 }

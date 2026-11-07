@@ -68,7 +68,7 @@ export default function Oggi() {
               <div className="title-l">{plurale(nRip, 'domanda', 'domande')}</div>
               <div style={{ opacity: .75 }} className="small">
                 {rip.scadute.length > 0 && `${rip.scadute.length} da ripassare`}{rip.scadute.length > 0 && rip.nuove.length > 0 && ' · '}
-                {rip.nuove.length > 0 && `${rip.nuove.length} nuove dalle lezioni studiate`}
+                {rip.nuove.length > 0 && `${rip.nuove.length} nuove sugli argomenti studiati`}
                 {rip.extraNuove > 0 && <div>{rip.extraNuove} di verifica sulle lezioni di oggi, oltre il limite</div>}
               </div>
               <span className="btn btn-accent" style={{ alignSelf: 'flex-start', marginTop: 'auto' }}>Inizia il ripasso <Icon n="freccia" size={16} /></span>
@@ -76,7 +76,7 @@ export default function Oggi() {
           ) : (
             <>
               <div className="title-m">{rip.inAttesa ? 'Nuove domande da domani' : 'Niente in scadenza'}</div>
-              <div className="muted small">{rip.inAttesa ? `Hai raggiunto il limite di ${p.nuovePerGiorno} nuove per oggi. ${rip.inAttesa} restano in attesa e verranno introdotte nei prossimi giorni. Le nuove lezioni hanno comunque una verifica immediata.` : <>Le domande entrano nel ripasso quando segni una lezione come studiata.{idx.schedeInverse.length > 0 && ' Le schede inverse entrano dopo la prima risposta.'} Poi l'algoritmo decide quando riproportele.</>}</div>
+              <div className="muted small">{rip.inAttesa ? `Hai raggiunto il limite di ${p.nuovePerGiorno} nuove per oggi. ${rip.inAttesa} restano in attesa e verranno introdotte nei prossimi giorni. Le nuove lezioni hanno comunque una verifica immediata.` : <>Segnare una lezione come studiata, nel Percorso o negli Originali, attiva anche le schede del glossario e le date collegate. Il ripasso spaziato decide quando riproporle.</>}</div>
               <span className="btn" style={{ alignSelf: 'flex-start', marginTop: 'auto' }}>{rip.inAttesa ? 'Continua con Quiz libero' : 'Vai al percorso'} <Icon n="freccia" size={16} /></span>
             </>
           )}

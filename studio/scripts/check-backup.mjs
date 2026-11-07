@@ -30,7 +30,7 @@ const start = async () => {
 };
 const fresh = async () => { storage.values.clear(); storage.writes = 0; storage.failAt = Infinity; storage.failAlways = false; storage.quota = Infinity; await start(); };
 const progress = (slug) => JSON.parse(store.esporta(slug)).progresso;
-const empty = () => ({ versione: 1, lezioni: {}, carte: {}, esiti: {}, giorni: {}, nuovePerGiorno: 25 });
+const empty = () => ({ versione: 1, lezioni: {}, carte: {}, esiti: {}, giorni: {}, nuovePerGiorno: 35 });
 const full = (materie = { romano: empty() }) => ({ formato: 'iuris-backup', versione: 1, esportato: '2026-11-07T10:00:00Z', materie,
   preferenze: { tema: 'scuro', materia: Object.keys(materie)[0] ?? 'romano', voce: true }, sessioni: {}, altriDati: {} });
 const disk = () => [...storage.values].sort(([a], [b]) => a.localeCompare(b));

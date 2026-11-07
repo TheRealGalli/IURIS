@@ -78,31 +78,116 @@ export function htmlConSegni(html: string, segni: SegnoBlocco[]): string {
   return root.innerHTML;
 }
 
+export interface RettangoloTesto { x: number; y: number; w: number; h: number }
+export interface FrammentoTesto extends RettangoloTesto { flusso: number }
+
+/** Unisce soltanto frammenti vicini dello stesso paragrafo/cella e della stessa riga. */
+export function unisciFrammentiTesto(frammenti: FrammentoTesto[]): RettangoloTesto[] {
+  const flussi = new Map<number, FrammentoTesto[]>();
+  for (const r of frammenti) {
+    if (![r.x, r.y, r.w, r.h].every(Number.isFinite) || r.w <= .5 || r.h <= 1) continue;
+    const presenti = flussi.get(r.flusso) ?? []; presenti.push(r); flussi.set(r.flusso, presenti);
+  }
+  const rettangoli: RettangoloTesto[] = [];
+  for (const pezzi of flussi.values()) {
+    const righe: { y: number; h: number; pezzi: RettangoloTesto[] }[] = [];
+    for (const r of [...pezzi].sort((a, b) => a.y - b.y || a.x - b.x)) {
+      const riga = righe.find((l) => Math.min(l.y + l.h, r.y + r.h) - Math.max(l.y, r.y) >= Math.min(l.h, r.h) * .55
+        && Math.abs(l.y + l.h - r.y - r.h) <= Math.max(l.h, r.h) * .35);
+      if (riga) riga.pezzi.push(r); else righe.push({ y: r.y, h: r.h, pezzi: [r] });
+    }
+    for (const riga of righe) {
+      let ultimo: RettangoloTesto | undefined;
+      for (const r of riga.pezzi.sort((a, b) => a.x - b.x)) {
+        const tolleranza = ultimo ? Math.min(6, Math.max(1.5, Math.min(ultimo.h, r.h) * .28)) : 0;
+        if (ultimo && r.x <= ultimo.x + ultimo.w + tolleranza) {
+          const destra = Math.max(ultimo.x + ultimo.w, r.x + r.w), fondo = Math.max(ultimo.y + ultimo.h, r.y + r.h);
+          ultimo.y = Math.min(ultimo.y, r.y); ultimo.w = destra - ultimo.x; ultimo.h = fondo - ultimo.y;
+        } else { ultimo = { x: r.x, y: r.y, w: r.w, h: r.h }; rettangoli.push(ultimo); }
+      }
+    }
+  }
+  return rettangoli;
+}
+
+/** I Range in ingresso sono già limitati a singoli nodi di testo: mai box di p/div. */
+export function rettangoliRangeTesto(ranges: Range[], articolo: HTMLElement): RettangoloTesto[] {
+  const bounds = articolo.getBoundingClientRect(), flussi = new Map<Element, number>(), frammenti: FrammentoTesto[] = [];
+  for (const range of ranges) {
+    const padre = range.startContainer.parentElement;
+    const flusso = padre?.closest('p,li,td,th,h1,h2,h3,h4,h5,h6,blockquote,pre') ?? padre;
+    if (!flusso || !articolo.contains(range.startContainer)) continue;
+    if (!flussi.has(flusso)) flussi.set(flusso, flussi.size);
+    for (const r of Array.from(range.getClientRects())) {
+      if (r.width > .5 && r.height > 1) frammenti.push({ x: r.left - bounds.left, y: r.top - bounds.top, w: r.width, h: r.height, flusso: flussi.get(flusso)! });
+    }
+  }
+  return unisciFrammentiTesto(frammenti);
+}
+
+export interface SelezioneTesto {
+  ancore: AncoraTesto[]; testo: string; pagina: number; rects: RettangoloTesto[]; ranges: Range[];
+}
+
 /** Range e textContent usano entrambi offset UTF-16, anche attraversando link e grassetti. */
-export function catturaAncoreTesto(articolo: HTMLElement, edizione: number): { ancore: AncoraTesto[]; testo: string; pagina: number; rects: { x: number; y: number; w: number; h: number }[] } | null {
+export function catturaAncoreTesto(articolo: HTMLElement, edizione: number, opzioni: { geometria?: boolean } = {}): SelezioneTesto | null {
   const selezione = window.getSelection();
   if (!selezione || selezione.isCollapsed || !selezione.rangeCount) return null;
   const range = selezione.getRangeAt(0);
   if (!articolo.contains(range.startContainer) || !articolo.contains(range.endContainer)) return null;
-  const ancore: AncoraTesto[] = []; let pagina = 1;
+  const ancore: AncoraTesto[] = [], ranges: Range[] = []; let pagina = 1;
   for (const el of articolo.querySelectorAll<HTMLElement>('[data-lettura-block]')) {
     if (!range.intersectsNode(el)) continue;
-    const raw = el.textContent ?? ''; let inizio = 0, fine = raw.length;
-    const misura = (n: Node, offset: number) => { const r = document.createRange(); r.selectNodeContents(el); r.setEnd(n, offset); return r.toString().length; };
-    if (el.contains(range.startContainer)) inizio = misura(range.startContainer, range.startOffset);
-    if (el.contains(range.endContainer)) fine = misura(range.endContainer, range.endOffset);
+    const raw = el.textContent ?? '', nodi: { nodo: Text; offset: number; inizio: number; fine: number }[] = [];
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    let nodo: Node | null, offset = 0;
+    while ((nodo = walker.nextNode())) {
+      const text = nodo as Text, lunghezza = text.data.length;
+      if (lunghezza && range.intersectsNode(text) && range.comparePoint(text, lunghezza) >= 0 && range.comparePoint(text, 0) <= 0) {
+        const inizio = range.startContainer === text ? range.startOffset : 0;
+        const fine = range.endContainer === text ? range.endOffset : lunghezza;
+        if (fine > inizio) nodi.push({ nodo: text, offset, inizio, fine });
+      }
+      offset += lunghezza;
+    }
+    if (!nodi.length) continue;
+    let inizio = nodi[0].offset + nodi[0].inizio, fine = nodi[nodi.length - 1].offset + nodi[nodi.length - 1].fine;
     while (inizio < fine && /\s/.test(raw[inizio])) inizio++;
     while (fine > inizio && /\s/.test(raw[fine - 1])) fine--;
     if (fine <= inizio) continue;
     if (!ancore.length) pagina = Number(el.dataset.pagina) || 1;
     ancore.push({ edizione, blocco: el.dataset.letturaBlock!, inizio, fine, citazione: raw.slice(inizio, fine),
       prefisso: raw.slice(Math.max(0, inizio - 60), inizio), suffisso: raw.slice(fine, fine + 60) });
+    for (const n of nodi) {
+      const a = Math.max(n.inizio, inizio - n.offset), b = Math.min(n.fine, fine - n.offset);
+      if (b <= a || !n.nodo.data.slice(a, b).trim()) continue;
+      const parte = document.createRange(); parte.setStart(n.nodo, a); parte.setEnd(n.nodo, b); ranges.push(parte);
+    }
   }
   const testo = ancore.map((a) => a.citazione).join('\n');
   if (!ancore.length || testo.length > 10000) return null;
-  const bounds = articolo.getBoundingClientRect();
-  const rects = Array.from(range.getClientRects()).filter((r) => r.width > .5 && r.height > 1).map((r) => ({ x: r.left - bounds.left, y: r.top - bounds.top, w: r.width, h: r.height }));
-  return { ancore, testo, pagina, rects };
+  const rects = opzioni.geometria === false ? [] : rettangoliRangeTesto(ranges, articolo);
+  return { ancore, testo, pagina, rects, ranges };
+}
+
+const NOME_ANTEPRIMA = 'iuris-lettura-bozza';
+type RegistroHighlight = { set: (nome: string, highlight: unknown) => unknown; get: (nome: string) => unknown; delete: (nome: string) => unknown };
+/** Anteprima nativa quando disponibile; il chiamante conserva il fallback geometrico. */
+export function creaAnteprimaTestoNativa() {
+  const css = window.CSS as typeof CSS & { highlights?: RegistroHighlight };
+  const NativeHighlight = (window as unknown as { Highlight?: new (...ranges: Range[]) => unknown }).Highlight;
+  const registro = css?.highlights;
+  const disponibile = !!registro && typeof NativeHighlight === 'function';
+  let attuale: unknown;
+  return {
+    disponibile,
+    mostra(ranges: Range[]): boolean {
+      if (!disponibile || !ranges.length) return false;
+      try { const nuovo = new NativeHighlight!(...ranges); registro!.set(NOME_ANTEPRIMA, nuovo); attuale = nuovo; return true; }
+      catch { if (attuale && registro?.get(NOME_ANTEPRIMA) === attuale) registro.delete(NOME_ANTEPRIMA); attuale = undefined; return false; }
+    },
+    cancella() { if (attuale && registro?.get(NOME_ANTEPRIMA) === attuale) registro.delete(NOME_ANTEPRIMA); attuale = undefined; },
+  };
 }
 
 export function linkTesto(documento: string, sezione?: string, blocco?: string, segno?: string): string {
@@ -113,4 +198,4 @@ export function linkTesto(documento: string, sezione?: string, blocco?: string, 
   return `#/originali?${params}`;
 }
 export function sezionePerPagina(doc: DocumentoLettura, pagina: number) { return doc.sezioni.find((s) => s.da <= pagina && s.a >= pagina); }
-export function paginaBlocco(id: string): number | null { const match = /^p(\d+)-/.exec(id); return match ? Number(match[1]) : null; }
+export function paginaBlocco(id: string): number | null { const match = /^(?:manuale-[a-z0-9-]+-)?p(\d+)-/.exec(id); return match ? Number(match[1]) : null; }

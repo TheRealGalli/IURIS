@@ -1,6 +1,6 @@
 // Ripetizione spaziata (FSRS) e calcolo della padronanza: tutto in locale, senza AI.
 import { createEmptyCard, fsrs, Rating, type Card, type Grade } from 'ts-fsrs';
-import type { Indice } from './data';
+import type { Indice, RequisitiDomanda } from './data';
 import type { Domanda, Lezione } from './types';
 import { aggiorna, DOMANDE_VERIFICA_INIZIALE, giornoDi, haAttivita, type CartaSalvata, type Progresso } from './store';
 import { giorniTra, isoDi, oggiISO } from './util';
@@ -98,10 +98,55 @@ export function ordinaRipasso(domande: Domanda[], verifiche: Domanda[]): Domanda
   return ordinate.every((q, i) => q === domande[i]) ? domande : ordinate;
 }
 
-/** Scadute (incluse le inverse già provate) + nuove delle lezioni studiate, fino al limite giornaliero. */
+export type FamigliaRipasso = 'lezioni' | 'glossario' | 'cronologia';
+export const famigliaDomanda = (q: Domanda): FamigliaRipasso => q.glossario || q.inversa ? 'glossario' : q.cronologia ? 'cronologia' : 'lezioni';
+const conteggiVuoti = (): Record<FamigliaRipasso, number> => ({ lezioni: 0, glossario: 0, cronologia: 0 });
+
+/** I prerequisiti precalcolati non includono mai altre lezioni solo perché vicine nell'indice. */
+export function domandeSbloccate(idx: Indice, p: Progresso): Domanda[] {
+  const studiate = new Set(idx.lezioni.filter((l) => p.lezioni[l.id]?.studiata).map((l) => l.id));
+  const corsoCompleto = idx.lezioni.length > 0 && studiate.size === idx.lezioni.length;
+  const unitaComplete = new Set(idx.corso.unita.filter((u) => u.lezioni.length > 0 && u.lezioni.every((l) => studiate.has(l.id))).map((u) => u.id));
+  const soddisfatto = (r: RequisitiDomanda): boolean => r.tutti ? r.tutti.every(soddisfatto)
+    : r.lezioni.length ? r.lezioni.some((id) => studiate.has(id)) : corsoCompleto || r.unita.some((id) => unitaComplete.has(id));
+  return [...idx.domandaById.values()].filter((q) => {
+    if (p.carte[q.id]) return true; // Le carte provate volontariamente continuano il proprio ciclo FSRS.
+    const r = idx.requisitiDomanda.get(q.id);
+    if (!r) return corsoCompleto;
+    return soddisfatto(r);
+  });
+}
+
+/** Mix 3:1:1 stabile; la rotazione continua fra giorni senza debiti accumulati dai vecchi registri. */
+function mescolaFamiglie(nuove: Domanda[], idx: Indice, p: Progresso, limite: number): Domanda[] {
+  const giro: FamigliaRipasso[] = ['lezioni', 'glossario', 'lezioni', 'cronologia', 'lezioni'];
+  const posizioni = conteggiVuoti();
+  const pool = { lezioni: [] as Domanda[], glossario: [] as Domanda[], cronologia: [] as Domanda[] };
+  let turno = Object.keys(p.carte).filter((id) => idx.domandaById.has(id)).length % giro.length;
+  for (const q of nuove) pool[famigliaDomanda(q)].push(q);
+  const out: Domanda[] = [];
+  while (out.length < limite) {
+    let aggiunta = false;
+    for (let tentativo = 0; tentativo < giro.length; tentativo++) {
+      const f = giro[turno]; turno = (turno + 1) % giro.length;
+      if (posizioni[f] >= pool[f].length) continue;
+      out.push(pool[f][posizioni[f]++]); aggiunta = true; break;
+    }
+    if (!aggiunta) break;
+  }
+  return out;
+}
+
+/** Tutte le famiglie condividono il budget; le sei verifiche fisse restano l'unica eccezione. */
 export function ripassoDiOggi(idx: Indice, p: Progresso, now = new Date()) {
   const scadute: Domanda[] = [];
-  const nuove: Domanda[] = [];
+  const sbloccate = domandeSbloccate(idx, p);
+  const nuove = sbloccate.filter((q) => !p.carte[q.id]);
+  const sbloccatePerFamiglia = conteggiVuoti();
+  for (const q of sbloccate) {
+    sbloccatePerFamiglia[famigliaDomanda(q)]++;
+    if (p.carte[q.id] && new Date(p.carte[q.id].due) <= now) scadute.push(q);
+  }
   const oggi = isoDi(now);
   const giorno = (data?: string) => {
     if (!data) return null;
@@ -121,29 +166,22 @@ export function ripassoDiOggi(idx: Indice, p: Progresso, now = new Date()) {
         : giorno(lezione.studiata) === oggi ? qs.slice(0, DOMANDE_VERIFICA_INIZIALE).map((q) => q.id) : [];
       for (const id of ids) verificaOggi.add(id);
     }
-    for (const q of qs) {
-      const c = p.carte[q.id];
-      if (c) { if (new Date(c.due) <= now) scadute.push(q); }
-      else if (p.lezioni[l.id]?.studiata) nuove.push(q);
-    }
-  }
-  // Le inverse sono facoltative: entrano nel ripasso solo dopo la prima risposta.
-  for (const q of idx.schedeInverse) {
-    const c = p.carte[q.id];
-    if (c && new Date(c.due) <= now) scadute.push(q);
   }
   // prima le domande che sai peggio: ultimo voto più basso, poi quelle che stai dimenticando di più
   const peso = (q: Domanda) => ({ voto: p.esiti[q.id]?.ultimo ?? 3, r: scheduler.retrievability(daSalvata(p.carte[q.id]), now) as number });
   scadute.sort((a, b) => { const x = peso(a), y = peso(b); return x.voto - y.voto || x.r - y.r; });
   const limite = Math.max(0, p.nuovePerGiorno - nuoveFatteOggi);
-  const ordinarie = nuove.slice(0, limite);
+  const ordinarie = mescolaFamiglie(nuove, idx, p, limite);
   const incluse = new Set(ordinarie.map((q) => q.id));
   const extra = nuove.filter((q) => verificaOggi.has(q.id) && !incluse.has(q.id));
   const selezionate = [...ordinarie, ...extra];
   // Sono prioritarie solo le verifiche non ancora introdotte: una risposta le riporta al normale ciclo FSRS.
   const verifiche = selezionate.filter((q) => verificaOggi.has(q.id));
+  const nuovePerFamiglia = conteggiVuoti();
+  for (const q of selezionate) nuovePerFamiglia[famigliaDomanda(q)]++;
   return { scadute, nuove: selezionate, verifiche, nuoveTotali: nuove.length,
-    nuoveFatteOggi, extraNuove: extra.length, inAttesa: nuove.length - selezionate.length };
+    nuoveFatteOggi, extraNuove: extra.length, inAttesa: nuove.length - selezionate.length,
+    nuovePerFamiglia, sbloccatePerFamiglia };
 }
 
 export function prossimaScadenza(p: Progresso): Date | null {

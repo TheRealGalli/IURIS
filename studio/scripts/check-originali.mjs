@@ -45,7 +45,9 @@ try {
   const check = (name, fn) => { try { fn(); checks++; } catch (e) { e.message = `${name}: ${e.message}`; throw e; } };
 
   check('Catalogo per materia e limiti delle pagine', () => {
-    assert.equal(lib.originaliMateria('diritto-romano').length, 1);
+    // Romano: appunti di Pennacchio più la raccolta integrativa ricostruita dal Percorso, senza PDF.
+    assert.equal(lib.originaliMateria('diritto-romano').length, 2);
+    assert(lib.originaliMateria('diritto-romano').some((d) => d.tipoFonte === 'manuale-ricostruito' && !d.file));
     assert.equal(lib.originaliMateria('filosofia-del-diritto').length, 3);
     assert.equal(lib.paginaValida(-3, doc.pagine), 1);
     assert.equal(lib.paginaValida(99999, doc.pagine), doc.pagine);

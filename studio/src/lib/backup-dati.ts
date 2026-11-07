@@ -112,6 +112,7 @@ export function validaProgresso(v: unknown, dove: string): Progresso {
   const p = oggetto(v, dove);
   if (p.versione !== 1) errore(`${dove}.versione non supportata`);
   intero(p.nuovePerGiorno, `${dove}.nuovePerGiorno`);
+  if (p.nuovePerGiornoPersonalizzato !== undefined && typeof p.nuovePerGiornoPersonalizzato !== 'boolean') errore(`${dove}.nuovePerGiornoPersonalizzato`);
   mappa(p.lezioni, `${dove}.lezioni`, (v, d) => {
     const l = oggetto(v, d); opzionale(l, 'studiata', data, d); opzionale(l, 'letta', data, d);
     if (l.verificaIniziale !== undefined) {
@@ -149,7 +150,9 @@ function domanda(v: unknown, dove: string) {
   testo(q.id, `${dove}.id`); testo(q.lezione, dove, true); testo(q.unita, dove, true);
   scelta(q.livello, ['base', 'medio', 'avanzato'], `${dove}.livello`);
   if (q.concetti !== undefined) array(q.concetti, dove).forEach((id) => testo(id, dove));
-  opzionale(q, 'inversa', testo, dove); opzionale(q, 'fonteNome', testo, dove); opzionale(q, 'spiegazione', (v, d) => testo(v, d, true), dove);
+  if (q.eventiCronologia !== undefined) array(q.eventiCronologia, dove).forEach((id) => testo(id, dove));
+  opzionale(q, 'inversa', testo, dove); opzionale(q, 'glossario', testo, dove); opzionale(q, 'cronologia', testo, dove);
+  opzionale(q, 'fonteNome', testo, dove); opzionale(q, 'spiegazione', (v, d) => testo(v, d, true), dove);
   if (q.pagine !== undefined) {
     const p = array(q.pagine, dove); if (p.length !== 2 || (positivo(p[0], dove) as number) > (positivo(p[1], dove) as number)) errore(`${dove}.pagine`);
   }

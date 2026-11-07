@@ -5,9 +5,10 @@ export interface DocumentoOriginale {
   materia: string;
   titolo: string;
   descrizione: string;
-  file: string;
+  file?: string;
   pagine: number;
-  sha256: string;
+  sha256?: string;
+  tipoFonte?: 'manuale-ricostruito';
 }
 
 export interface RettangoloSegno { x: number; y: number; w: number; h: number }
@@ -136,7 +137,7 @@ export function spostaCronologiaSegni(lettura: LetturaOriginale, direzione: 'ind
   } };
 }
 
-export const ORIGINALI: DocumentoOriginale[] = catalogo;
+export const ORIGINALI = catalogo as DocumentoOriginale[];
 export const originaliMateria = (slug: string) => ORIGINALI.filter((d) => d.materia === slug);
 export const paginaValida = (n: number, pagine: number) => Math.max(1, Math.min(pagine, Math.round(n) || 1));
 

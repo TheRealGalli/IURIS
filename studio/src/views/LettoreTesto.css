@@ -24,6 +24,8 @@
 .lettura[data-strumento="gomma"] { --selezione: #a49b8a35; }
 .lettura .prose ::selection { background: var(--selezione); }
 .lettura .prose[data-bozza="true"] ::selection { background: transparent; }
+.lettura ::highlight(iuris-lettura-bozza) { background-color: var(--selezione); }
+.lettura[data-strumento="sottolineato"] ::highlight(iuris-lettura-bozza) { background-color: transparent; text-decoration-line: underline; text-decoration-color: var(--linea); text-decoration-thickness: 2px; }
 .lettura[data-strumento="gomma"] [data-lettura-block] { cursor: crosshair; }
 .lettura-bozza { position: absolute; inset: 0; pointer-events: none; z-index: 3; }
 .lettura-bozza > span { position: absolute; pointer-events: none; box-sizing: border-box; }
@@ -44,8 +46,7 @@
   .lettura .originali-header h1 { font-size: 12px; }
   .lettura .originali-documento-select { min-width: 60px; }
   .lettura .originali-header > .btn { width: 26px; padding: 3px; }
-  .lettura-nav { width: 100%; }
-  .lettura-sezione-select { flex: 1; width: 0; max-width: none; }
+  .lettura-sezione-select { flex: none; width: 230px; max-width: calc(100vw - 110px); }
   .lettura-articolo.prose { padding: 24px 20px 56px; font-size: 16px; }
   .lettura-intestazione > h2 { font-size: 29px; }
   .lettura-rimandi { flex-wrap: wrap; }

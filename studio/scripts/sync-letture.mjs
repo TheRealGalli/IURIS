@@ -5,6 +5,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { improntaMaterialePercorso, sezioneDaPercorso } from './lib/lettura-percorso.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const source = path.join(root, 'letture-src');
@@ -82,7 +83,20 @@ for (const doc of catalogo) {
   const curati = await json(`glossario-${doc.materia}.json`).catch(() => []);
   for (const e of curati) if (!concetti.has(e.id)) throw new Error(`Concetto inesistente: ${e.id}`);
   if (fonti[doc.id]) doc.fonti = fonti[doc.id];
+  if (doc.tipoFonte === 'manuale-ricostruito') {
+    const idsUnita = new Set(doc.sezioni.map((sec) => lezioni.get(sec.lezione)?.unita));
+    doc.fonteSha256 = improntaMaterialePercorso(corso.unita.filter((u) => idsUnita.has(u.id)));
+  }
   for (const sec of doc.sezioni) {
+    if (doc.tipoFonte === 'manuale-ricostruito') {
+      const lezione = lezioni.get(sec.lezione);
+      const unita = corso.unita.find((u) => u.id === lezione?.unita);
+      const file = sezioneDaPercorso(doc, sec, lezione, unita);
+      for (const b of file.blocchi) for (const id of b.concetti) if (!concetti.has(id)) throw new Error(`Collegamento non valido: ${id}`);
+      await writeFile(path.join(root, 'public', sec.file), `${JSON.stringify(file, null, 2)}\n`);
+      totale += file.blocchi.length;
+      continue;
+    }
     const md = await readFile(path.join(source, doc.id, `${sec.id}.md`), 'utf8');
     const matches = [...md.matchAll(/<!-- blocco:([^\s]+) pagina:(\d+) -->\s*\n([\s\S]*?)(?=\n\s*<!-- blocco:|$)/g)];
     const rev = revisionata(sec);
@@ -125,10 +139,11 @@ for (const doc of catalogo) {
     });
     if (!blocchi.length) throw new Error(`Sezione senza blocchi: ${doc.id}/${sec.id}`);
     const file = { documento: doc.id, edizione: doc.edizione, id: sec.id, titolo: sec.titolo, da: sec.da, a: sec.a,
-      ...(sec.lezione ? { lezione: sec.lezione } : {}), ...(sec.lezioni ? { lezioni: sec.lezioni } : {}), ...(rev ? { revisionata: true } : {}), blocchi };
+      ...(sec.lezione ? { lezione: sec.lezione } : {}), ...(sec.lezioni ? { lezioni: sec.lezioni } : {}), ...(rev ? { revisionata: true } : {}),
+      ...(sec.soloTitolo ? { soloTitolo: true } : {}), ...(sec.integrazione ? { integrazione: sec.integrazione } : {}), blocchi };
     await writeFile(path.join(root, 'public', sec.file), `${JSON.stringify(file, null, 2)}\n`);
     totale += blocchi.length;
   }
 }
 await writeFile(path.join(root, 'src/lib/letture-catalogo.json'), `${JSON.stringify(catalogo, null, 2)}\n`);
-console.log(`Letture pubblicate: ${catalogo.length} documenti, ${catalogo.reduce((n, d) => n + d.pagine, 0)} pagine, ${totale} blocchi, ${catalogo.reduce((n, d) => n + d.sezioni.filter(revisionata).length, 0)} sezioni revisionate.`);
+console.log(`Letture pubblicate: ${catalogo.length} documenti, ${catalogo.filter((d) => !d.tipoFonte).reduce((n, d) => n + d.pagine, 0)} pagine PDF originali, ${catalogo.filter((d) => d.tipoFonte === 'manuale-ricostruito').reduce((n, d) => n + d.sezioni.length, 0)} integrazioni dal Percorso, ${totale} blocchi.`);

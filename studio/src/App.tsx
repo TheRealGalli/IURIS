@@ -21,12 +21,12 @@ const Originali = lazy(() => import('./views/Originali'));
 const NAV = [
   { to: '/', key: '', label: 'Oggi', icon: 'oggi' },
   { to: '/percorso', key: 'percorso', label: 'Percorso', icon: 'percorso' },
+  { to: '/originali', key: 'originali', label: 'Originali', icon: 'libro' },
   { to: '/allena', key: 'allena', label: 'Allenamento', icon: 'allena' },
   { to: '/mappa', key: 'mappa', label: 'Mappa', icon: 'mappa' },
   { to: '/cronologia', key: 'cronologia', label: 'Cronologia', icon: 'cronologia' },
   { to: '/glossario', key: 'glossario', label: 'Glossario', icon: 'glossario' },
   { to: '/progressi', key: 'progressi', label: 'Progressi', icon: 'progressi' },
-  { to: '/originali', key: 'originali', label: 'Originali', icon: 'libro' },
   { to: '/backup', key: 'backup', label: 'Backup', icon: 'backup' },
 ];
 const TABS = ['', 'percorso', 'allena', 'mappa', 'progressi'];

@@ -185,6 +185,20 @@ try {
     store.segnaStudiata(materia, 'u01-l2', false);
     assert.equal(lib.statoStudioSezione(sezione, read(materia).lezioni).studiata, false);
     assert.equal(lib.statoStudioSezione({}, read(materia).lezioni).studiata, false);
+    assert.deepEqual(lib.lezioniSezione({ lezione: 'u14-l1', soloTitolo: true }), []);
+  });
+  await check('Integrazioni manuale: mai proiettare vecchi segni PDF, ancore testuali isolate e immutate', () => {
+    const blocco = { id: 'manuale-u15-p007-sintesi', pagina: 7, testo: 'Citazione coincidente con un vecchio PDF.' };
+    const pdf = { id: 'vecchio-pdf', pagina: 7, testo: blocco.testo, rettangoli: [{ x: .1, y: .1, w: .5, h: .02 }], tipo: 'evidenziato', colore: 'giallo', creata: '2026-11-06T12:00:00Z' };
+    const prima = structuredClone(pdf);
+    assert.equal(lib.proiettaSegnoTesto(pdf, [blocco], 1, { da: 7, a: 7, tipoFonte: 'manuale-ricostruito' }).stato, 'fuori-sezione');
+    assert.equal(lib.proiettaSegnoTesto(pdf, [blocco], 1).stato, 'fuori-sezione', 'anche il prefisso dei blocchi impedisce falsi abbinamenti');
+    assert.deepEqual(pdf, prima);
+    const ancora = lib.creaAncoraTesto(blocco, 0, blocco.testo.length, 1);
+    const testo = { ...pdf, id: 'nuovo-testo', rettangoli: [], ancoreTesto: [ancora] };
+    assert.equal(lib.proiettaSegnoTesto(testo, [blocco], 1).stato, 'proiettato');
+    const altra = { id: 'manuale-u14-p001-sintesi', pagina: 1, testo: blocco.testo };
+    assert.equal(lib.proiettaSegnoTesto(testo, [altra], 1, { da: 1, a: 1, tipoFonte: 'manuale-ricostruito' }).stato, 'fuori-sezione');
   });
   console.log(`Letture verificate: ${checks} scenari su proiezione conservativa, ancore, cronologia, backup e persistenza.`);
 } finally {

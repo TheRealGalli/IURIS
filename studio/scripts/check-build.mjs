@@ -22,8 +22,12 @@ for (const [, resource] of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
 }
 const manifest = json('content/manifest.json');
 const originali = JSON.parse(fs.readFileSync(new URL('../src/lib/originali-catalogo.json', import.meta.url), 'utf8'));
-const pdfConsentiti = new Set(originali.map((d) => d.file));
+const pdfConsentiti = new Set(originali.filter((d) => d.file).map((d) => d.file));
 for (const d of originali) {
+  if (d.tipoFonte === 'manuale-ricostruito') {
+    assert(!d.file && !d.sha256, 'Le ricostruzioni non devono dichiarare un PDF originale');
+    continue;
+  }
   assert(d.file.startsWith('originali/') && d.file.endsWith('.pdf'), `Percorso originale non valido: ${d.id}`);
   const bytes = fs.readFileSync(file(d.file));
   assert.equal(bytes.subarray(0, 5).toString(), '%PDF-', `PDF non valido: ${d.id}`);
@@ -52,5 +56,5 @@ assert.equal(pwa.start_url, './');
 assert.equal(pwa.scope, './');
 for (const icon of pwa.icons) file(icon.src);
 file('sw.js');
-console.log(`Sito verificato: ${materie.length} materie, ${originali.length} originali verificati e risorse locali.`);
+console.log(`Sito verificato: ${materie.length} materie, ${pdfConsentiti.size} PDF originali verificati e risorse locali.`);
 
