@@ -15,6 +15,9 @@ export interface PassaggioMappa {
   colore: 'giallo' | 'verde' | 'rosa';
   concetti: { id: string; nome: string }[];
   origine?: 'pdf' | 'testo';
+  /** Posizione nel testo (documento, sezione, pagina, blocco, offset): la mappa segue l'ordine di lettura. */
+  ordine?: readonly number[];
+  creata?: string;
 }
 
 interface Props {
@@ -32,6 +35,14 @@ const PASSAGGIO_X = 310, PASSAGGIO_W = 370, PASSAGGIO_H = 112, DISTANZA = 144;
 const CONCETTO_X = 770, CONCETTO_W = 232, CONCETTO_H = 60;
 const chiaveSezione = (p: PassaggioMappa) => `${encodeURIComponent(p.documento)}/${encodeURIComponent(p.sezione)}`;
 export const chiavePassaggioMappa = (p: PassaggioMappa) => `${chiaveSezione(p)}/${encodeURIComponent(p.id)}/${encodeURIComponent(p.blocco)}`;
+function confrontaOrdine(a: readonly number[] = [], b: readonly number[] = []): number {
+  for (let i = 0; i < Math.max(a.length, b.length); i++) { const x = a[i] ?? -1, y = b[i] ?? -1; if (x !== y) return x - y; }
+  return 0;
+}
+/** Copia ordinata come nel testo; senza posizione, resta l'ordine ricevuto. */
+export function ordinaPassaggiMappa(passaggi: readonly PassaggioMappa[]): PassaggioMappa[] {
+  return passaggi.map((p, i) => ({ p, i })).sort((a, b) => confrontaOrdine(a.p.ordine, b.p.ordine) || (a.p.creata ?? '').localeCompare(b.p.creata ?? '') || a.i - b.i).map((x) => x.p);
+}
 const normalizza = (testo: string) => testo.toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
 function righe(testo: string, larghezza: number, font: number, massimo: number): string[] {
@@ -49,7 +60,8 @@ interface NodoSezione { id: string; titolo: string; x: number; y: number; righe:
 interface NodoConcetto { id: string; nome: string; x: number; y: number; righe: string[]; passaggi: Set<string> }
 
 /** Geometria deterministica: nessuna simulazione e nessun calcolo durante il movimento del cursore. */
-export function layoutMappaPersonale(passaggi: PassaggioMappa[]) {
+export function layoutMappaPersonale(ricevuti: PassaggioMappa[]) {
+  const passaggi = ordinaPassaggiMappa(ricevuti);
   const raccolti = new Map<string, PassaggioMappa[]>();
   for (const p of passaggi) { const id = chiaveSezione(p), gruppo = raccolti.get(id) ?? []; gruppo.push(p); raccolti.set(id, gruppo); }
   const sezioni = new Map<string, { titolo: string; nodi: NodoPassaggio[] }>();
@@ -70,7 +82,9 @@ export function layoutMappaPersonale(passaggi: PassaggioMappa[]) {
   }
   let precedente = 38;
   const temi: NodoConcetto[] = [...concetti].map(([id, c]) => ({ id, ...c, desiderata: c.sommaY / c.passaggi.size }))
-    .sort((a, b) => a.desiderata - b.desiderata || a.id.localeCompare(b.id)).slice(0, MAX_CONCETTI)
+    // Con molti concetti restano i più ricorrenti, poi disposti nell'ordine del testo.
+    .sort((a, b) => b.passaggi.size - a.passaggi.size || a.desiderata - b.desiderata || a.id.localeCompare(b.id)).slice(0, MAX_CONCETTI)
+    .sort((a, b) => a.desiderata - b.desiderata || a.id.localeCompare(b.id))
     .map((c) => {
       const centro = Math.max(c.desiderata, precedente + CONCETTO_H + 18); precedente = centro;
       return { id: c.id, nome: c.nome, x: CONCETTO_X, y: centro - CONCETTO_H / 2,
@@ -80,7 +94,7 @@ export function layoutMappaPersonale(passaggi: PassaggioMappa[]) {
   return { passaggi: nodi, sezioni: gruppi, concetti: temi, totaleConcetti: concetti.size, larghezza: LARGHEZZA, altezza };
 }
 
-function MappaPersonale({ passaggi, onApri, onConcetto, hrefLettura, compatta = false }: Props) {
+function MappaPersonale({ passaggi: ricevuti, onApri, onConcetto, hrefLettura, compatta = false }: Props) {
   const [cerca, setCerca] = useState(''), [sezione, setSezione] = useState(''), [pagina, setPagina] = useState(0);
   const [modo, setModo] = useState<'mappa' | 'elenco'>(() => compatta || (typeof window !== 'undefined' && window.matchMedia('(max-width: 600px)').matches) ? 'elenco' : 'mappa');
   const [selezionato, setSelezionato] = useState<string | null>(null), [concetto, setConcetto] = useState<string | null>(null);
@@ -88,6 +102,7 @@ function MappaPersonale({ passaggi, onApri, onConcetto, hrefLettura, compatta = 
   const svgRef = useRef<SVGSVGElement>(null), gruppoRef = useRef<SVGGElement>(null), chiudiRef = useRef<HTMLButtonElement>(null);
   const vista = useRef({ x: 24, y: 18, k: 1 });
   const trascinamento = useRef<{ id: number; x: number; y: number; origineX: number; origineY: number } | null>(null);
+  const passaggi = useMemo(() => ordinaPassaggiMappa(ricevuti), [ricevuti]);
   const opzioni = useMemo(() => [...new Map(passaggi.map((p) => [chiaveSezione(p), p.titolo])).entries()], [passaggi]);
   const filtrati = useMemo(() => {
     const testo = normalizza(cerca.trim());

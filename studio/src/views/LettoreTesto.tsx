@@ -9,6 +9,7 @@ import { idsSegniNellaSelezioneTesto, proiettaSegniTesto, statoStudioSezione, ty
 import { caricaSezioneLettura, catturaAncoreTesto, creaAnteprimaTestoNativa, htmlConSegni, linkTesto, preparaBlocchi, rettangoliRangeTesto, sezionePerPagina, type BloccoPronto, type SegnoBlocco } from '../lib/letture-client';
 import { hrefPassaggioPersonale, usePassaggiPersonali } from '../lib/letture-hooks';
 import MappaPersonale from '../components/MappaPersonale';
+import { ordinaSegniNelTesto } from '../lib/ordine-segni';
 import './LettoreTesto.css';
 
 type Strumento = SegnoOriginale['tipo'] | 'gomma';
@@ -84,7 +85,8 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   const lezione = lezioniQui[0];
   // Un solo stato: il comando segna (o toglie) «Studiata» su tutte le lezioni della sezione, come nel Percorso.
   const segnaSezione = () => { for (const l of lezioniQui) segnaStudiata(slug, l.id, !studio.studiata, (idx.domandePerLezione.get(l.id) ?? []).map((q) => q.id)); };
-  const ordinati = useMemo(() => [...segni].sort((a, b) => a.pagina - b.pagina || a.creata.localeCompare(b.creata)), [segni]);
+  const indiceBlocchi = useMemo(() => new Map(blocchi.map((b, i) => [b.id, i])), [blocchi]);
+  const ordinati = useMemo(() => ordinaSegniNelTesto(segni, (id) => indiceBlocchi.get(id)), [segni, indiceBlocchi]);
   const esito = useCallback((salvato: boolean) => setErroreSalvataggio(!salvato), []);
   const disegnaBozza = useCallback((nuova: Bozza | null) => {
     const el = articolo.current, overlay = anteprima.current;
