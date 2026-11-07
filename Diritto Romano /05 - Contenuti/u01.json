@@ -97,8 +97,8 @@
           "dettaglio": "scriptio inferior (cancellata) + scriptio superior (sopra)"
         },
         {
-          "voce": "Ottocento",
-          "dettaglio": "un procedimento chimico fa riemergere il testo di Gaio"
+          "voce": "1816",
+          "dettaglio": "1816: Niebuhr scopre a Verona il palinsesto di Gaio (i reagenti chimici usati poi lo danneggiano)"
         }
       ],
       "concetti": [
@@ -506,7 +506,7 @@
       "nome": "Palinsesto",
       "tipo": "fonte",
       "breve": "Pergamena raschiata e riscritta: sotto il testo nuovo (scriptio superior) c'è quello cancellato (scriptio inferior).",
-      "definizione": "Manoscritto di papiro o pergamena il cui testo originario (*scriptio inferior*) è stato cancellato con **lavaggio e raschiatura** e sostituito da un altro (*scriptio superior*). Nell'**Ottocento** un procedimento chimico ha fatto riemergere da un palinsesto le [[institutiones-di-gaio|Institutiones di Gaio]].",
+      "definizione": "Manoscritto di papiro o pergamena il cui testo originario (*scriptio inferior*) è stato cancellato con **lavaggio e raschiatura** e sostituito da un altro (*scriptio superior*). Nel **1816** Niebuhr scoprì a Verona il palinsesto che conserva le [[institutiones-di-gaio|Institutiones di Gaio]].",
       "pagine": [
         4,
         4
@@ -2594,14 +2594,15 @@
       "tipo": "completa",
       "lezione": "u01-l2",
       "livello": "medio",
-      "testo": "Il testo delle Institutiones di {{Gaio}} è riemerso nell'{{Ottocento|800|XIX secolo}} grazie a un procedimento chimico.",
+      "testo": "Il palinsesto della Biblioteca Capitolare di Verona con le Institutiones di {{Gaio}} fu scoperto da {{Niebuhr|Barthold Georg Niebuhr}} nel {{1816}}.",
       "concetti": [
         "gaio"
       ],
       "pagine": [
         4,
         4
-      ]
+      ],
+      "spiegazione": "Sotto le lettere di san Girolamo (*scriptio superior*) c'era il testo di Gaio. Nell'Ottocento si usarono reagenti chimici per renderlo leggibile, ma danneggiarono la pergamena; oggi si ricorre a tecniche fotografiche e multispettrali."
     },
     {
       "id": "u01-q028",

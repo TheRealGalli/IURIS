@@ -310,7 +310,7 @@
         },
         {
           "voce": "Epitome Gai",
-          "dettaglio": "scoperta ad Autun: sintesi dei primi 3 libri delle Institutiones"
+          "dettaglio": "sintesi dei primi 3 libri delle Institutiones, tramandata nella Lex Romana Visigothorum"
         },
         {
           "voce": "Epigoni",
@@ -1291,7 +1291,7 @@
         "Epitome Gaii",
         "Epitomae Gai"
       ],
-      "breve": "Sintesi dei primi tre libri delle Institutiones di Gaio, scoperta ad Autun; inclusa nella Lex Romana Visigothorum.",
+      "breve": "Sintesi in due libri dei primi tre libri delle Institutiones di Gaio, tramandata nella Lex Romana Visigothorum.",
       "definizione": "Riduzione dei **primi 3 libri** delle [[institutiones-di-gaio|Institutiones]] di [[gaio|Gaio]], scoperta (secondo gli appunti) ad **Autun**, in Francia. Ebbe fortuna solo dopo la sua redazione, per contenuti e modo di esposizione. È tra i testi giurisprudenziali raccolti nella [[lex-romana-visigothorum|Lex Romana Visigothorum]].",
       "pagine": [
         187,
@@ -2426,7 +2426,7 @@
       "lezione": "u11-l1",
       "livello": "base",
       "domanda": "Quando si apre l'anarchia militare, quanto dura e come finisce?",
-      "risposta": "Si apre nel 235 d.C., quando con la fine del regno di Severo Alessandro termina la dinastia dei Severi e con essa il Principato. Dura circa cinquant'anni, fino al 284 d.C., e si chiude con l'ascesa di Diocleziano.",
+      "risposta": "Si apre nel 235 d.C., quando con la fine del regno di Severo Alessandro termina la dinastia dei Severi e il Principato entra in crisi. Dura circa cinquant'anni, fino al 284 d.C., e si chiude con l'ascesa di Diocleziano, che inaugura il Dominato.",
       "concetti": [
         "anarchia-militare"
       ],
@@ -3670,7 +3670,7 @@
         "Le opinioni di Giulio Paolo"
       ],
       "corretta": 1,
-      "spiegazione": "È una sintesi dei primi tre libri delle Institutiones di Gaio, scoperta ad Autun.",
+      "spiegazione": "È una sintesi in due libri dei primi tre libri delle Institutiones di Gaio, tramandata nella Lex Romana Visigothorum (da non confondere con i frammenti di Autun).",
       "concetti": [
         "epitome-gai"
       ],
@@ -3761,14 +3761,15 @@
       "tipo": "completa",
       "lezione": "u11-l5",
       "livello": "base",
-      "testo": "L'{{Epitome Gai|Epitome Gaii}}, scoperta ad {{Autun}}, è una sintesi dei primi {{tre|3}} libri delle Institutiones di Gaio.",
+      "testo": "L'{{Epitome Gai|Epitome Gaii|Liber Gai}}, giunta a noi nella {{Lex Romana Visigothorum|Breviario Alariciano}}, è una sintesi dei primi {{tre|3}} libri delle Institutiones di Gaio.",
       "concetti": [
         "epitome-gai"
       ],
       "pagine": [
         187,
         187
-      ]
+      ],
+      "spiegazione": "Non va confusa con i frammenti di Autun (*Fragmenta Augustodunensia*), un commento tardoantico a Gaio."
     },
     {
       "id": "u11-q070",

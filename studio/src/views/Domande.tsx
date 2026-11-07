@@ -1,6 +1,7 @@
 // Una domanda, qualunque sia il tipo: mostra, verifica e restituisce un voto FSRS (1–4).
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { norm, useCorso } from '../lib/data';
+import { useCorso } from '../lib/data';
+import { rispostaCompletaGiusta } from '../lib/completa';
 import { renderMd } from '../lib/md';
 import { href } from '../lib/router';
 import type { Voto } from '../lib/srs';
@@ -163,13 +164,12 @@ function VeroFalso({ q, onVoto }: { q: Q<'verofalso'>; onVoto: (v: Voto) => void
   );
 }
 
-const pulisci = (s: string) => norm(s).replace(/[.,;:()\-–—\s]/g, '').replace(/^(il|lo|la|i|gli|le|l)(?=[a-z])/, '');
 function Completa({ q, onVoto }: { q: Q<'completa'>; onVoto: (v: Voto) => void }) {
   const parti = useMemo(() => q.testo.split(/(\{\{[^}]+\}\})/g), [q.id]);
   const buchi = parti.filter((s) => s.startsWith('{{')).map((s) => s.slice(2, -2).split('|'));
   const [val, setVal] = useState<string[]>(() => buchi.map(() => ''));
   const [fatto, setFatto] = useState(false);
-  const esiti = buchi.map((alt, i) => alt.some((a) => pulisci(a) === pulisci(val[i] ?? '')));
+  const esiti = buchi.map((alt, i) => rispostaCompletaGiusta(alt, val[i] ?? ''));
   const giuste = esiti.filter(Boolean).length;
   let b = -1;
   return (

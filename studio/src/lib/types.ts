@@ -86,6 +86,8 @@ export interface Concetto {
   rettificato?: boolean;
   /** definizione selezionata per ricordare il termine, senza mostrarlo nella domanda */
   schedaInversa?: string;
+  /** domanda di glossario scelta per la voce (glossario.json), altrimenti dipende dal tipo */
+  domandaGlossario?: string;
 }
 
 export interface Relazione {

@@ -349,6 +349,25 @@ export function validateSchedeInverse(schede, concetti) {
   return { errors };
 }
 
+/** Voci di glossario.json: { concetto, domanda?, premessa?, definizione?, motivo? }. */
+export function validateGlossario(voci, concetti) {
+  const errors = [];
+  if (!Array.isArray(voci)) return { errors: ['serve un array di { concetto, domanda?, premessa?, definizione? }'] };
+  const viste = new Set();
+  for (const v of voci) {
+    const w = `voce "${v?.concetto ?? '?'}"`;
+    if (!concetti.get(v?.concetto)) errors.push(`${w}: concetto inesistente o non canonico`);
+    if (viste.has(v?.concetto)) errors.push(`${w}: ripetuta`);
+    viste.add(v?.concetto);
+    if (!v.domanda && !v.premessa && !v.definizione) errors.push(`${w}: serve almeno domanda, premessa o definizione`);
+    if (v.domanda != null && (typeof v.domanda !== 'string' || !/\?$/.test(v.domanda.trim()) || v.domanda.length > 160)) errors.push(`${w}: la domanda deve finire con «?» (max 160 caratteri)`);
+    if (v.premessa != null && (typeof v.premessa !== 'string' || v.premessa.trim().length < 15 || v.premessa.length > 400 || !/[.!]$/.test(v.premessa.trim()))) errors.push(`${w}: premessa di 15–400 caratteri, chiusa da un punto`);
+    if (v.premessa && v.definizione) errors.push(`${w}: usare premessa oppure definizione, non entrambe`);
+    if (v.definizione != null && (typeof v.definizione !== 'string' || v.definizione.trim().length < 40 || !v.motivo)) errors.push(`${w}: una definizione riscritta vuole almeno 40 caratteri e un "motivo"`);
+  }
+  return { errors };
+}
+
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const files = process.argv.slice(2);
   if (!files.length) { console.error('uso: node scripts/validate-content.mjs <uNN.json> [...]'); process.exit(2); }

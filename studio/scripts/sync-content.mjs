@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY } from 'd3-force';
-import { idsNoti, idsNuoviOltre, validateOltre, validateSchedeInverse, validateUnit } from './validate-content.mjs';
+import { idsNoti, idsNuoviOltre, validateGlossario, validateOltre, validateSchedeInverse, validateUnit } from './validate-content.mjs';
 import { spaceGraphNodes } from './graph-layout.mjs';
 
 const studioRoot = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -208,6 +208,20 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
     const { errors } = validateSchedeInverse(inverse, concetti);
     if (errors.length) throw new Error(`schede-inverse.json: schede non valide\n${errors.join('\n')}`);
     for (const s of inverse) concetti.get(s.concetto).schedaInversa = s.definizione.trim();
+  }
+
+  // glossario.json: domanda di glossario adatta alla voce (persone, opere…) e risposta completa
+  const glossarioFile = path.join(dir, 'glossario.json');
+  if (fs.existsSync(glossarioFile)) {
+    const voci = readJson(glossarioFile);
+    const { errors } = validateGlossario(voci, concetti);
+    if (errors.length) throw new Error(`glossario.json: voci non valide\n${errors.join('\n')}`);
+    for (const v of voci) {
+      const c = concetti.get(v.concetto);
+      if (v.definizione) c.definizione = v.definizione.trim();
+      else if (v.premessa) c.definizione = `${v.premessa.trim()} ${c.definizione}`;
+      if (v.domanda) c.domandaGlossario = v.domanda.trim();
+    }
   }
 
   // lezioni in cui compare ciascun concetto

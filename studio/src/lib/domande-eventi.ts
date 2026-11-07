@@ -1,12 +1,21 @@
 import type { Corso, Domanda, Evento } from './types';
 
+/** «Quando…?» con il titolo tra virgolette: i titoli sono nomi di eventi, opere o leggi, non frasi. */
+export function domandaData(e: Evento): string {
+  const t = e.titolo.trim().replace(/[?.]+$/, (m) => (m.includes('?') ? '?' : ''));
+  const titolo = t.includes('«') ? t : `«${t}»`;
+  return e.tipo === 'periodo' || e.annoFine != null
+    ? `In quale periodo si colloca ${titolo}?`
+    : `Quando si colloca ${titolo}?`;
+}
+
 /** Una carta per ogni data/periodo del corso, senza combinazioni casuali con ID effimeri. */
 export function creaDomandeCronologia(corso: Corso): Domanda[] {
   const date: Domanda[] = corso.eventi.map((e) => ({
     id: `cronologia-data-${e.id}`, tipo: 'flashcard', cronologia: e.id,
     lezione: '', unita: e.unita, livello: 'base', concetti: e.concetti,
     pagine: e.pagine, fonteNome: e.fonteNome,
-    domanda: `Quando si colloca ${e.titolo}?`,
+    domanda: domandaData(e),
     risposta: `**${e.data}**${e.approssimato ? '\n\nDatazione approssimativa.' : ''}\n\n${e.descrizione}`,
   }));
   const ordini: Domanda[] = [];

@@ -54,8 +54,8 @@
           "dettaglio": "primo plebeo pontefice massimo, responsi pubblici"
         },
         {
-          "voce": "312 a.C. (soppresso 304)",
-          "dettaglio": "plebiscito Ovinio, «riforma censoria»"
+          "voce": "312 a.C.",
+          "dettaglio": "plebiscito Ovinio applicato dal censore Appio Claudio («riforma censoria»)"
         },
         {
           "voce": "300 a.C.",
@@ -873,7 +873,7 @@
       "nome": "Plebiscito Ovinio",
       "tipo": "norma",
       "latino": "plebiscitum Ovinium",
-      "breve": "312 a.C. (soppresso nel 304): «riforma censoria», affida ai censori l'integrazione del senato con plebei.",
+      "breve": "Plebiscito di poco anteriore al 312 a.C.: affida ai censori la scelta dei senatori, anche tra i plebei.",
       "definizione": "Negli appunti è la «riforma censoria» del 312 a.C., poi soppressa nel 304: distribuì fra tutte le tribù gli uomini di più bassi natali e trasferì dai consoli ai [[censore|censori]] il compito di integrare il [[senato]] con componenti plebee (figli di liberti). Mostra l'inserimento crescente dei plebei nella macchina repubblicana.",
       "pagine": [
         86,
@@ -1792,9 +1792,9 @@
       "id": "ev-plebiscito-ovinio",
       "anno": -312,
       "annoFine": -304,
-      "data": "312 a.C. (soppresso nel 304)",
-      "titolo": "Plebiscito Ovinio («riforma censoria»)",
-      "descrizione": "I censori integrano il senato con componenti plebee; i bassi natali distribuiti nelle tribù.",
+      "data": "312–304 a.C.",
+      "titolo": "Plebiscito Ovinio e riforma censoria di Appio Claudio",
+      "descrizione": "In base al plebiscito Ovinio i censori scelgono i senatori anche tra i plebei; Appio Claudio, censore nel 312, distribuisce i più umili in tutte le tribù, misura annullata dai censori del 304.",
       "tipo": "legge",
       "concetti": [
         "plebiscito-ovinio",
@@ -2427,8 +2427,8 @@
       "tipo": "flashcard",
       "lezione": "u06-l1",
       "livello": "base",
-      "domanda": "Che cos'è la provocatio ad populum introdotta dalla Lex Valeria del 300 a.C.?",
-      "risposta": "È l'appello al popolo: il cittadino accusato di un crimine punito con una sanzione molto grave (anche la morte) poteva rivolgersi al popolo riunito nei comizi per impedire l'esecuzione della pena. Tutelava soprattutto il plebeo da condanne pesanti e da una coercitio esercitata in modo vessatorio.",
+      "domanda": "Che cos'è la provocatio ad populum, confermata dalla nuova Lex Valeria del 300 a.C.?",
+      "risposta": "È l'appello al popolo: il cittadino accusato di un crimine punito con una sanzione molto grave (anche la morte) poteva rivolgersi al popolo riunito nei comizi per impedire l'esecuzione della pena. Tutelava soprattutto il plebeo da condanne pesanti e da una coercitio esercitata in modo vessatorio. La tradizione la fa risalire alla lex Valeria del 509 a.C.; la lex Valeria del 300 a.C. la conferma.",
       "concetti": [
         "lex-valeria-de-provocatione"
       ],
@@ -2560,7 +2560,7 @@
       "tipo": "completa",
       "lezione": "u06-l1",
       "livello": "base",
-      "testo": "Le Leges Liciniae Sextiae sono del {{367 a.C.|367}}; la Lex Valeria de provocatione e il plebiscito Ogulnio sono del {{300 a.C.|300}}; il plebiscito Ovinio è del {{312 a.C.|312}}.",
+      "testo": "Le Leges Liciniae Sextiae sono del {{367 a.C.|367}}; la nuova lex Valeria sulla provocatio e il plebiscito Ogulnio sono del {{300 a.C.|300}}; il plebiscito Ovinio è del {{312 a.C.|312}}.",
       "concetti": [
         "leges-liciniae-sextiae",
         "plebiscito-ogulnio"
@@ -4731,7 +4731,7 @@
         "Leges Liciniae Sextiae (367 a.C.)",
         "Plebiscito Ovinio (312 a.C.)",
         "Primo consolato di Appio Claudio Cieco (307 a.C.)",
-        "Lex Valeria de provocatione e plebiscito Ogulnio (300 a.C.)"
+        "Nuova lex Valeria sulla provocatio e plebiscito Ogulnio (300 a.C.)"
       ],
       "spiegazione": "367 → 312 → 307 → 300: in pochi decenni la plebe entra nelle magistrature, nel senato e nel pontificato.",
       "concetti": [

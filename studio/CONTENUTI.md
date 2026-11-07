@@ -5,6 +5,7 @@ Ogni materia ha una cartella `05 - Contenuti/` con:
 - `materia.json` — dati della materia (nome, docente, fonte, pagine totali).
 - `u01.json`, `u02.json`, … — una **unità di studio** per file (di norma un capitolo degli appunti).
 - `schede-inverse.json` — facoltativo: definizioni selezionate per ricordare i termini del glossario.
+- `glossario.json` — facoltativo: domanda di glossario e inizio della risposta adatti alla voce (persone, opere…).
 
 Lo script `scripts/sync-content.mjs` unisce tutte le unità in un solo file per materia
 (`public/content/<slug>/corso.json`) e costruisce glossario, cronologia e mappa globale.
@@ -131,6 +132,29 @@ Le schede si avviano da **Allenamento → Schede inverse**, dal glossario o da *
 Hanno id stabili `glossario-inversa-<id-concetto>` e una memoria FSRS indipendente dalle altre domande.
 Solo dopo la prima risposta entrano nel ripasso del giorno. Non aggiungono domande nuove alle lezioni;
 contribuiscono alla padronanza del concetto e agli esercizi sui punti deboli.
+
+### Domande del glossario (`glossario.json`)
+
+Ogni voce senza scheda inversa genera la carta `glossario-diretta-<id-concetto>` (id stabile). La domanda
+dipende dal tipo: persona → «Chi era X?», opera → «Che cos'è «X»?», concetto/istituto/procedura →
+«Che cosa significa «X»?», altri tipi → «Che cosa indica «X»?». La risposta è la `definizione` della voce.
+Quando la definizione non dice subito chi o che cosa è la voce (per esempio inizia con «Le sue opere…»
+o «Incampo lo cita…»), `glossario.json` la completa:
+
+```json
+[
+  {
+    "concetto": "cicerone",
+    "domanda": "Chi era Cicerone e che tipo di fonte sono le sue opere?",
+    "premessa": "Marco Tullio Cicerone (106–43 a.C.), avvocato, oratore, uomo politico e filosofo romano della tarda Repubblica."
+  },
+  { "concetto": "epitome-gai", "definizione": "…testo corretto…", "motivo": "perché la voce degli appunti era errata" }
+]
+```
+
+`premessa` si antepone alla definizione (anche nella scheda della voce), `definizione` la sostituisce e
+richiede un `motivo`; `domanda` sostituisce quella automatica. `check-domande.mjs` verifica che persone e opere
+non abbiano domande «Che cosa significa…?» e che le risposte non inizino in modo vago.
 
 **Id dei concetti.** Più unità parlano degli stessi concetti e vengono scritte in parallelo: per non creare doppioni
 usa **sempre** gli id dell'elenco `ID CANONICI` (sotto) quando il concetto è lo stesso. Per i concetti nuovi crea l'id
