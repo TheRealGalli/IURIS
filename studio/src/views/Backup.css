@@ -1,0 +1,14 @@
+.backup-page { max-width: 1080px; }
+.backup-intro { margin: 0 0 28px; }
+.backup-azioni > .card { gap: 14px; align-items: flex-start; }
+.backup-azioni h2, .backup-azioni p, .backup-anteprima p, .backup-anteprima h2 { margin: 0; }
+.backup-azioni > .card > svg { color: var(--ink-2); }
+.backup-azioni .btn { margin-top: 4px; }
+.backup-numeri { display: flex; flex-wrap: wrap; gap: 12px 22px; padding: 10px 0; color: var(--ink-2); font-size: 13px; }
+.backup-numeri b { display: block; color: var(--ink); font-size: 24px; font-variant-numeric: tabular-nums; }
+.backup-anteprima { gap: 12px; margin-top: 20px; }
+.backup-anteprima h2 { overflow-wrap: anywhere; }
+.backup-anteprima ul { margin: 0; padding-left: 20px; }
+.backup-esito, .backup-errore { margin-top: 20px; padding: 14px 18px; border: 1px solid var(--line-2); border-radius: 12px; }
+.backup-errore { color: var(--bad); }
+.backup-nota { margin: 22px 0 0; }

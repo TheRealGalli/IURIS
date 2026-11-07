@@ -6,8 +6,8 @@ import 'react-pdf/dist/Page/AnnotationLayer.css';
 import { Icon } from '../components/ui';
 import { useCorso } from '../lib/data';
 import { cronologiaSegni, originaliMateria, paginaValida, type DocumentoOriginale, type RettangoloSegno, type SegnoOriginale } from '../lib/originali';
-import { aggiungiSegnoOriginale, annullaSegnoOriginale, esporta, ripristinaSegnoOriginale, rimuoviSegnoOriginale, salvaPaginaOriginale, useProgresso } from '../lib/store';
-import { oggiISO } from '../lib/util';
+import { aggiungiSegnoOriginale, annullaSegnoOriginale, ripristinaSegnoOriginale, rimuoviSegnoOriginale, salvaPaginaOriginale, useProgresso } from '../lib/store';
+import { href } from '../lib/router';
 import { aggiornaPianoRender, avviaPagina, ordinePagine, paginaPronta, pixelRatioPagina, type PianoRender } from '../lib/originali-render';
 import './Originali.css';
 
@@ -135,7 +135,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
   const [campoPagina, setCampoPagina] = useState(String(iniziale.current));
   const [pagine, setPagine] = useState(doc.pagine), [caricato, setCaricato] = useState(false);
   const [errorePdf, setErrorePdf] = useState(false);
-  const [larghezzaFit, setLarghezzaFit] = useState(700), [zoom, setZoom] = useState(1);
+  const [larghezzaFit, setLarghezzaFit] = useState(700);
   const [adattamento, setAdattamento] = useState<'pagina' | 'larghezza'>('larghezza');
   const [pannello, setPannello] = useState<'segni' | 'documento' | null>(null);
   const chiudiPannello = useRef<HTMLButtonElement>(null);
@@ -156,7 +156,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
   const vicineRef = useRef(new Set([iniziale.current - 1, iniziale.current, iniziale.current + 1])), ripristino = useRef(true), ancora = useRef<Ancora | null>(null);
   const ultimaSalvata = useRef(iniziale.current), prontoRef = useRef(false), scrollFrame = useRef(0);
   const selezioneTimer = useRef<ReturnType<typeof setTimeout>>();
-  const file = `${import.meta.env.BASE_URL}${doc.file}`, larghezza = Math.round(larghezzaFit * zoom);
+  const file = `${import.meta.env.BASE_URL}${doc.file}`, larghezza = Math.round(larghezzaFit);
   const [piano, setPiano] = useState<PianoRender>(() => ({ larghezza, pronte: new Set(), inCorso: iniziale.current }));
   const paginaPrioritaria = selezionando ? paginaGesto.current ?? pagina : pagina;
   const ordine = useMemo(() => ordinePagine(paginaPrioritaria, pagine), [paginaPrioritaria, pagine]);
@@ -355,26 +355,28 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
         else if (key === 'y') { e.preventDefault(); ripristinaModifica(); }
         return;
       }
-      if (e.repeat || e.altKey || e.shiftKey || target.closest('button, a, #originali-pannello')) return;
+      if (e.repeat || e.altKey || e.shiftKey || target.closest('#originali-pannello')) return;
+      if (e.key === 'Escape' || e.key === 'Delete' || e.key === 'Backspace') {
+        if (bozzaRef.current || window.getSelection()?.toString()) { e.preventDefault(); annullaSelezione(); }
+        return;
+      }
+      const key = e.key.toLowerCase();
+      if (key === 'h' || key === 'u') { e.preventDefault(); setTipo(key === 'h' ? 'evidenziato' : 'sottolineato'); return; }
+      if (key === '1' || key === '2' || key === '3') { e.preventDefault(); setColore(COLORI[Number(key) - 1]); return; }
+      if (target.closest('button, a')) return;
       if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
         if (salvaSegno()) e.preventDefault();
       }
     };
     document.addEventListener('keydown', tastiera);
     return () => document.removeEventListener('keydown', tastiera);
-  }, [salvaSegno, annullaModifica, ripristinaModifica]);
-  function cambiaZoom(valore: number) { conservaAncora(); annullaSelezione(); setZoom(Math.max(.6, Math.min(2, Math.round(valore * 100) / 100))); }
+  }, [salvaSegno, annullaModifica, ripristinaModifica, annullaSelezione]);
   const perPagina = useMemo(() => {
     const m = new Map<number, SegnoOriginale[]>(); for (const s of segni) m.set(s.pagina, [...(m.get(s.pagina) ?? []), s]); return m;
   }, [segni]);
   const ordinati = useMemo(() => [...segni].sort((a, b) => a.pagina - b.pagina || a.creata.localeCompare(b.creata)), [segni]);
   const vaiPagina = useCallback((numero: number) => { annullaSelezione(); salta(numero); }, [annullaSelezione, salta]);
-  function adatta(valore: 'pagina' | 'larghezza') { conservaAncora(); annullaSelezione(); setZoom(1); setAdattamento(valore); }
-  function scaricaDati() {
-    const url = URL.createObjectURL(new Blob([esporta(slug)], { type: 'application/json' }));
-    const link = document.createElement('a'); link.href = url; link.download = `iuris-progressi-${slug}-${oggiISO()}.json`; link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-  }
+  function adatta(valore: 'pagina' | 'larghezza') { conservaAncora(); annullaSelezione(); setAdattamento(valore); }
   const annotazioni = useMemo(() => ({ perPagina, bozza, tipo, colore }), [perPagina, bozza, tipo, colore]);
   const cronologia = useMemo(() => cronologiaSegni(lettura), [lettura]);
   return <div className="originali" ref={spazio}>
@@ -384,9 +386,9 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
         {documenti.map((d) => <option key={d.id} value={d.id}>{d.titolo}</option>)}
       </select>
       <button className={`btn btn-sm ${pannello === 'segni' ? 'originali-scelto' : 'btn-ghost'}`} aria-expanded={pannello === 'segni'} aria-controls="originali-pannello"
-        onClick={() => setPannello(pannello === 'segni' ? null : 'segni')}><Icon n="glossario" size={15} />Segni <span className="originali-conteggio">{segni.length}</span></button>
+        aria-label={`Segni salvati (${segni.length})`} title="Segni salvati" onClick={() => setPannello(pannello === 'segni' ? null : 'segni')}><Icon n="glossario" size={15} /><span className="originali-conteggio">{segni.length}</span></button>
       <button className={`btn btn-sm originali-quadrato ${pannello === 'documento' ? 'originali-scelto' : 'btn-ghost'}`}
-        aria-label="Documento, download e backup" title="Documento, download e backup" aria-expanded={pannello === 'documento'} aria-controls="originali-pannello"
+        aria-label="Documento e scorciatoie" title="Documento e scorciatoie" aria-expanded={pannello === 'documento'} aria-controls="originali-pannello"
         onClick={() => setPannello(pannello === 'documento' ? null : 'documento')}><Icon n="altro" size={19} /></button>
     </header>
     <div className="originali-layout">
@@ -397,7 +399,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
             <label className="originali-sr" htmlFor="originali-numero">Pagina</label>
             <input ref={campo} id="originali-numero" className="input" inputMode="numeric" type="number" min={1} max={pagine} value={campoPagina}
               onChange={(e) => setCampoPagina(e.target.value)} disabled={!caricato} />
-            <span className="faint">/ {pagine}</span><button type="submit" className="btn btn-sm btn-ghost">Vai</button>
+            <span className="faint">/ {pagine}</span><button type="submit" className="btn btn-sm btn-ghost originali-quadrato" aria-label="Vai alla pagina" title="Vai alla pagina (Invio)"><Icon n="invio" size={16} /></button>
             <button type="button" className="btn btn-sm btn-ghost originali-quadrato" disabled={!caricato || pagina >= pagine} onClick={() => vaiPagina(pagina + 1)} aria-label="Pagina successiva"><Icon n="freccia" size={15} /></button>
           </form>
           <div className="originali-cronologia" aria-label="Annulla e ripristina segni">
@@ -406,24 +408,20 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
             <button type="button" className="btn btn-sm btn-ghost originali-quadrato" disabled={!cronologia.avanti.length} onClick={ripristinaModifica}
               aria-label="Ripristina modifica ai segni" title="Ripristina (⌘⇧Z / Ctrl+Y)"><Icon n="ripristina" size={17} /></button>
           </div>
-          <div className="originali-zoom" aria-label="Ingrandimento del PDF">
-            <button className="btn btn-sm btn-ghost originali-quadrato" disabled={zoom <= .6} onClick={() => cambiaZoom(zoom - .15)} aria-label="Riduci zoom">−</button>
-            <span>{Math.round(zoom * 100)}%</span>
-            <button className="btn btn-sm btn-ghost originali-quadrato" disabled={zoom >= 2} onClick={() => cambiaZoom(zoom + .15)} aria-label="Aumenta zoom">+</button>
+          <div className="originali-adatta">
             <select className="select originali-adattamento" aria-label="Adatta il foglio" value={adattamento} onChange={(e) => adatta(e.target.value as 'pagina' | 'larghezza')}>
-              <option value="pagina">Pagina intera</option><option value="larghezza">Larghezza</option>
+              <option value="pagina">Pagina intera</option><option value="larghezza">Riempi lo spazio</option>
             </select>
           </div>
           <div className="originali-strumenti">
-            <button className={`btn btn-sm ${tipo === 'evidenziato' ? 'originali-scelto' : 'btn-ghost'}`} aria-pressed={tipo === 'evidenziato'} onClick={() => setTipo('evidenziato')}>Evidenzia</button>
-            <button className={`btn btn-sm ${tipo === 'sottolineato' ? 'originali-scelto' : 'btn-ghost'}`} aria-pressed={tipo === 'sottolineato'} onClick={() => setTipo('sottolineato')}>Sottolinea</button>
+            <button className={`btn btn-sm originali-quadrato ${tipo === 'evidenziato' ? 'originali-scelto' : 'btn-ghost'}`} aria-label="Evidenzia" title="Evidenzia (H)" aria-pressed={tipo === 'evidenziato'} onClick={() => setTipo('evidenziato')}><Icon n="evidenzia" size={18} /></button>
+            <button className={`btn btn-sm originali-quadrato ${tipo === 'sottolineato' ? 'originali-scelto' : 'btn-ghost'}`} aria-label="Sottolinea" title="Sottolinea (U)" aria-pressed={tipo === 'sottolineato'} onClick={() => setTipo('sottolineato')}><Icon n="sottolinea" size={18} /></button>
             <div className="originali-colori" aria-label="Colore del segno">{COLORI.map((c) => <button key={c} className={`originali-colore ${c}`} aria-label={c[0].toUpperCase() + c.slice(1)} title={c}
               aria-pressed={colore === c} onClick={() => setColore(c)} />)}</div>
-            <button className="btn btn-sm" disabled={!bozza} title={bozza ? `Salva il passaggio di pagina ${bozza.pagina} (Invio o Spazio)` : 'Seleziona un passaggio del PDF'} onClick={salvaSegno}>Salva segno</button>
-            {bozza && <button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Annulla selezione" title="Annulla selezione" onClick={annullaSelezione}><Icon n="x" size={14} /></button>}
+            <button className="btn btn-sm originali-quadrato" aria-label="Salva segno" disabled={!bozza} title={bozza ? `Salva il passaggio di pagina ${bozza.pagina} (Invio o Spazio)` : 'Salva segno: seleziona un passaggio del PDF'} onClick={salvaSegno}><Icon n="salva" size={18} /></button>
           </div>
         </div>
-        <div ref={viewport} className="originali-viewport" tabIndex={0} aria-label="Pagine del documento, scorri per leggere" onScroll={scorri}
+        <div ref={viewport} className="originali-viewport" data-selezionando={selezionando} data-colore={colore} tabIndex={0} aria-label="Pagine del documento, scorri per leggere" onScroll={scorri}
           onPointerDown={(e) => {
             if (!(e.target as Element).closest('.react-pdf__Page__textContent')) return;
             gesto.current = true; paginaGesto.current = Number((e.target as Element).closest<HTMLElement>('[data-original-page]')?.dataset.originalPage) || paginaRef.current;
@@ -437,7 +435,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
           </AnnotazioniContext.Provider>
         </div>
         <div className="originali-feedback" role="status" aria-live="polite">{messaggio || (bozza ? `Passaggio selezionato · pagina ${bozza.pagina}` : '')}</div>
-        {erroreSalvataggio && <div className="originali-avviso" role="alert">Non è stato possibile salvare sul dispositivo. Le ultime modifiche restano in questa sessione: scarica una copia dei dati dal menu del documento.</div>}
+        {erroreSalvataggio && <div className="originali-avviso" role="alert">Non è stato possibile salvare sul dispositivo. Le ultime modifiche restano in questa sessione: salva una copia dalla sezione <a href={href('/backup')}>Backup</a>.</div>}
       </section>
       {pannello && <aside id="originali-pannello" className="originali-pannello" aria-label={pannello === 'segni' ? 'Segni salvati' : 'Informazioni e dati del documento'}>
         <header className="originali-pannello-heading"><h2 className="title-m">{pannello === 'segni' ? `I tuoi segni (${segni.length})` : 'Documento e dati'}</h2>
@@ -446,12 +444,12 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
         <div className="originali-pannello-body">
           {pannello === 'documento' ? <>
             <h3 className="title-s">{doc.titolo}</h3><p className="small muted">{doc.descrizione}</p>
-            <p className="small muted">Seleziona un passaggio e premi Invio, Spazio o «Salva segno». Le frecce curve annullano e ripristinano le modifiche ai segni. Pagina, evidenziazioni e sottolineature vengono conservate in questo browser.</p>
-            <button className="btn btn-sm" onClick={scaricaDati}><Icon n="scarica" size={16} />Salva copia dei dati</button>
-            <p className="tiny faint">La copia include i segni e i progressi di questa materia. Si ripristina da Progressi → Carica backup.</p>
+            <h3 className="title-s">Scorciatoie</h3>
+            <dl className="originali-scorciatoie"><dt>Invio / Spazio</dt><dd>Salva il segno selezionato</dd><dt>Esc / Canc / ⌫</dt><dd>Annulla la selezione</dd><dt>⌘Z / Ctrl+Z</dt><dd>Annulla l’ultima modifica</dd><dt>⌘⇧Z / Ctrl+Y</dt><dd>Ripristina la modifica</dd><dt>H / U</dt><dd>Evidenzia / sottolinea</dd><dt>1 / 2 / 3</dt><dd>Giallo / verde / rosa</dd></dl>
+            <p className="tiny faint">Pagina e segni restano in questo browser. Puoi conservarli insieme a tutte le materie nella sezione Backup.</p>
             <hr className="sep" />
             <a className="btn btn-sm" href={file} download><Icon n="scarica" size={15} />Scarica PDF originale</a>
-            <p className="tiny faint">Il PDF scaricato conserva il testo originale; i segni personali sono nella copia dei dati.</p>
+            <p className="tiny faint">Il PDF scaricato conserva il testo originale; i segni personali sono nel backup completo.</p>
           </> : <>
             {!ordinati.length ? <p className="muted small">I passaggi che evidenzi o sottolinei compariranno qui, con il collegamento alla loro pagina.</p>
               : <ol className="originali-lista">{ordinati.map((s) => <li key={s.id}>

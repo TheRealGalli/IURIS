@@ -3,6 +3,9 @@ import { useSyncExternalStore } from 'react';
 import type { Card } from 'ts-fsrs';
 import { isoDi, oggiISO } from './util';
 import { applicaAzioneSegno, normalizzaSegno, paginaValida, spostaCronologiaSegni, type DocumentoOriginale, type LetturaOriginale, type SegnoOriginale } from './originali';
+import { chiaveExtraValida, leggiBackup, preparaBackup, slugBackupValido, type BackupDati, type RiepilogoBackup } from './backup-dati';
+
+export type { RiepilogoBackup } from './backup-dati';
 
 export type CartaSalvata = Omit<Card, 'due' | 'last_review'> & { due: string; last_review?: string; introdotta?: string };
 
@@ -197,4 +200,91 @@ export function scriviPref(p: Partial<Preferenze>) {
 }
 export function usePref(): Preferenze {
   return useSyncExternalStore((cb) => { listeners.add(cb); return () => listeners.delete(cb); }, leggiPref);
+}
+
+/** Raccoglie anche materie non più nel catalogo e modifiche rimaste solo in memoria. */
+function datiCompleti(): BackupDati {
+  const materie: Record<string, Progresso> = Object.fromEntries(mem);
+  const sessioni: Record<string, unknown> = {};
+  const altriDati: Record<string, string> = {};
+  let preferenze: Preferenze;
+  try {
+    const storage = localStorage;
+    const chiavi = Array.from({ length: storage.length }, (_, i) => storage.key(i)).filter((k): k is string => k !== null);
+    for (const k of chiavi) {
+      if (!k.startsWith('iuris:v1:')) continue;
+      const raw = storage.getItem(k);
+      if (raw === null) continue;
+      if (k.startsWith('iuris:v1:prog:')) {
+        const slug = k.slice('iuris:v1:prog:'.length);
+        if (!slugBackupValido(slug)) throw new Error('Identificativo materia non valido');
+        if (!mem.has(slug)) materie[slug] = JSON.parse(raw);
+      } else if (k.startsWith('iuris:v1:sessione:')) {
+        const slug = k.slice('iuris:v1:sessione:'.length);
+        if (!slugBackupValido(slug)) throw new Error('Identificativo materia non valido');
+        const sessione = JSON.parse(raw);
+        if (sessione !== null) sessioni[slug] = sessione;
+      } else if (chiaveExtraValida(k)) altriDati[k] = raw;
+    }
+    preferenze = pref ?? JSON.parse(storage.getItem(PREF) ?? '{}');
+  } catch { throw new Error('Impossibile leggere tutti i dati del browser: il backup non è stato creato'); }
+  for (const slug of Object.keys(sessioni)) if (!materie[slug]) materie[slug] = vuoto();
+  return { formato: 'iuris-backup', versione: 1, esportato: new Date().toISOString(), materie, preferenze, sessioni, altriDati };
+}
+
+export function riepilogoBackup(): RiepilogoBackup {
+  return preparaBackup(datiCompleti()).riepilogo;
+}
+
+export function esportaTutto(): string {
+  return JSON.stringify(preparaBackup(datiCompleti()).dati, null, 1);
+}
+
+export function ispezionaBackup(json: string, materiaLegacy?: string): RiepilogoBackup {
+  return leggiBackup(json, materiaLegacy).riepilogo;
+}
+
+/** Prima valida l'intero file; cache e preferenze cambiano solo dopo tutte le scritture riuscite. */
+export function importaTutto(json: string, materiaLegacy?: string): RiepilogoBackup {
+  const { dati, riepilogo } = leggiBackup(json, materiaLegacy);
+  const scritture = new Map<string, string | null>();
+  for (const [slug, progresso] of Object.entries(dati.materie)) scritture.set(key(slug), JSON.stringify(progresso));
+  // Per le materie ripristinate anche l'assenza di una sessione è uno stato da ripristinare.
+  for (const slug of new Set([...Object.keys(dati.materie), ...Object.keys(dati.sessioni)])) {
+    scritture.set(`iuris:v1:sessione:${slug}`, dati.sessioni[slug] === undefined ? null : JSON.stringify(dati.sessioni[slug]));
+  }
+  if (dati.preferenze !== undefined) scritture.set(PREF, JSON.stringify(dati.preferenze));
+  for (const [k, value] of Object.entries(dati.altriDati)) scritture.set(k, value);
+  let storage: Storage;
+  const precedenti = new Map<string, string | null>();
+  try {
+    storage = localStorage;
+    for (const k of scritture.keys()) precedenti.set(k, storage.getItem(k));
+  } catch { throw new Error('Il browser non consente di leggere i dati: importazione annullata'); }
+  const tentate: string[] = [];
+  try {
+    for (const [k, value] of scritture) {
+      tentate.push(k);
+      if (value === null) storage.removeItem(k); else storage.setItem(k, value);
+    }
+  } catch {
+    let recuperoFallito = false;
+    const modificate: string[] = [];
+    for (const k of tentate) {
+      try { if (storage.getItem(k) !== precedenti.get(k)) modificate.push(k); } catch { recuperoFallito = true; }
+    }
+    // Libera prima le nuove allocazioni, così il ripristino dei valori precedenti rientra nella quota iniziale.
+    for (const k of modificate) { try { storage.removeItem(k); } catch { recuperoFallito = true; } }
+    for (const k of modificate) {
+      const value = precedenti.get(k)!;
+      if (value !== null) try { storage.setItem(k, value); } catch { recuperoFallito = true; }
+    }
+    throw new Error(recuperoFallito
+      ? 'Importazione interrotta. Il browser ha impedito anche il ripristino completo dei dati sul dispositivo. Non chiudere la pagina e conserva il file di backup'
+      : 'Il browser non ha consentito il salvataggio. Importazione annullata: i dati precedenti sono stati conservati');
+  }
+  for (const [slug, progresso] of Object.entries(dati.materie)) mem.set(slug, progresso);
+  if (dati.preferenze !== undefined) pref = dati.preferenze;
+  listeners.forEach((listener) => { try { listener(); } catch { /* un componente non deve invalidare un ripristino già concluso */ } });
+  return riepilogo;
 }

@@ -9,9 +9,10 @@
     "dev": "vite",
     "prebuild": "node scripts/sync-content.mjs && node scripts/sync-pdf-resources.mjs",
     "build": "tsc --noEmit && vite build",
-    "check:build": "node scripts/check-build.mjs && node scripts/check-graph-layout.mjs && npm run check:review && npm run check:originali",
+    "check:build": "node scripts/check-build.mjs && node scripts/check-graph-layout.mjs && npm run check:review && npm run check:originali && npm run check:backup",
     "check:review": "node scripts/check-review-plan.mjs",
     "check:originali": "node scripts/check-originali.mjs && node scripts/check-originali-render.mjs",
+    "check:backup": "node scripts/check-backup.mjs",
     "preview": "vite preview",
     "studio": "npm run build && vite preview"
   },

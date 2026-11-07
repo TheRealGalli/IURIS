@@ -15,6 +15,7 @@ import Glossario from './views/Glossario';
 import ConcettoView from './views/Concetto';
 import Allena from './views/Allena';
 import Progressi from './views/Progressi';
+import Backup from './views/Backup';
 import { originaliMateria } from './lib/originali';
 const Originali = lazy(() => import('./views/Originali'));
 
@@ -27,6 +28,7 @@ const NAV = [
   { to: '/glossario', key: 'glossario', label: 'Glossario', icon: 'glossario' },
   { to: '/progressi', key: 'progressi', label: 'Progressi', icon: 'progressi' },
   { to: '/originali', key: 'originali', label: 'Originali', icon: 'libro' },
+  { to: '/backup', key: 'backup', label: 'Backup', icon: 'backup' },
 ];
 const TABS = ['', 'percorso', 'allena', 'mappa', 'progressi'];
 
@@ -74,7 +76,8 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
   const scegliMateria = (slug: string) => { scriviPref({ materia: slug }); location.hash = '#/'; };
 
   let contenuto;
-  if (!materia.disponibile) contenuto = <InPreparazione m={materia} />;
+  if (rotta.parti[0] === 'backup') contenuto = <Backup materie={manifest.materie} materia={materia.slug} />;
+  else if (!materia.disponibile) contenuto = <InPreparazione m={materia} />;
   else if (err) contenuto = <div className="empty"><h3>Errore</h3><p>{err}</p></div>;
   else if (!idx) contenuto = <div className="empty faint">Caricamento del corso…</div>;
   else contenuto = <Rotte />;

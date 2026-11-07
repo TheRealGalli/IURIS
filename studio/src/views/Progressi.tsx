@@ -1,8 +1,8 @@
-import { useMemo, useRef, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useCorso } from '../lib/data';
 import { href } from '../lib/router';
 import { livello, padronanza, pagineStudiate, prossimaScadenza, serieGiorni } from '../lib/srs';
-import { azzera, DOMANDE_VERIFICA_INIZIALE, esporta, haAttivita, importa, impostaEsame, impostaNuove, scriviPref, usePref, useProgresso } from '../lib/store';
+import { azzera, DOMANDE_VERIFICA_INIZIALE, haAttivita, impostaEsame, impostaNuove, scriviPref, usePref, useProgresso } from '../lib/store';
 import { TIPI_DOMANDA, type TipoDomanda } from '../lib/types';
 import { fmtData, fmtMinuti, isoDi, oggiISO } from '../lib/util';
 import { Bar, Calendario, Icon, LivelloDot, useToast } from '../components/ui';
@@ -12,7 +12,6 @@ export default function Progressi() {
   const slug = idx.corso.materia.slug;
   const p = useProgresso(slug);
   const pref = usePref();
-  const fileRef = useRef<HTMLInputElement>(null);
   const toast = useToast();
 
   const totali = useMemo(() => {
@@ -53,15 +52,6 @@ export default function Progressi() {
   }, [idx, p]);
   const totConc = distribuzione.forte + distribuzione.medio + distribuzione.debole + distribuzione.ignoto;
   const prossima = prossimaScadenza(p);
-
-  const scarica = () => {
-    const blob = new Blob([esporta(slug)], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = `iuris-progressi-${slug}-${oggiISO()}.json`;
-    a.click();
-    URL.revokeObjectURL(a.href);
-  };
 
   return (
     <div className="page fade-in">
@@ -152,8 +142,7 @@ export default function Progressi() {
         </div>
       </div>
 
-      <div className="grid g2" style={{ marginTop: 16 }}>
-        <div className="card stack" style={{ gap: 14 }}>
+      <div className="card stack" style={{ marginTop: 16, gap: 14 }}>
           <h3 className="title-s">Impostazioni</h3>
           <label className="row-between small">Data dell'esame
             <input className="input" type="date" value={p.esame ?? ''} onChange={(e) => impostaEsame(slug, e.target.value || undefined)} />
@@ -169,25 +158,10 @@ export default function Progressi() {
               <option value="auto">Automatico</option><option value="chiaro">Chiaro</option><option value="scuro">Scuro</option>
             </select>
           </label>
-        </div>
-        <div className="card stack" style={{ gap: 10 }}>
-          <h3 className="title-s">I tuoi dati</h3>
-          <p className="small muted" style={{ margin: 0 }}>I progressi, le evidenziazioni e le ultime pagine lette negli Originali restano in questo browser. Il backup include tutti questi dati per questa materia e permette di trasferirli su un altro dispositivo.</p>
-          <div className="row">
-            <button className="btn" onClick={scarica}><Icon n="scarica" size={16} /> Scarica backup</button>
-            <button className="btn" onClick={() => fileRef.current?.click()}><Icon n="carica" size={16} /> Carica backup</button>
-            <input ref={fileRef} type="file" accept="application/json" hidden onChange={async (e) => {
-              const f = e.target.files?.[0];
-              if (!f) return;
-              try { importa(slug, await f.text()); toast.show('Progressi caricati'); } catch (err) { toast.show(`File non valido: ${(err as Error).message}`); }
-              e.target.value = '';
-            }} />
-          </div>
           <button className="btn btn-ghost btn-sm" style={{ alignSelf: 'flex-start', color: 'var(--bad)' }}
             onClick={() => { if (confirm('Azzerare tutti i progressi di questa materia? Non si può annullare (scarica prima un backup).')) { azzera(slug); toast.show('Progressi azzerati'); } }}>
             Azzera i progressi
           </button>
-        </div>
       </div>
 
       <div className="grid g3" style={{ marginTop: 16 }}>
@@ -195,6 +169,7 @@ export default function Progressi() {
         <a className="card cta-card" href={href('/glossario')}><Icon n="glossario" size={22} /><b className="title-s">Glossario</b><span className="muted small">{idx.corso.concetti.length} voci ricercabili</span></a>
         <a className="card cta-card" href={href('/originali')}><Icon n="libro" size={22} /><b className="title-s">Originali</b><span className="muted small">Appunti originali da leggere, evidenziare e sottolineare</span></a>
       </div>
+      <a className="card cta-card" style={{ marginTop: 16 }} href={href('/backup')}><Icon n="backup" size={22} /><b className="title-s">Backup</b><span className="muted small">Un solo file per tutte le materie, i progressi e i segni</span></a>
       {toast.el}
     </div>
   );

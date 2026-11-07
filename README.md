@@ -9,8 +9,9 @@ Il sito funziona nel browser, senza account, server applicativo o sincronizzazio
 
 I progressi sono salvati nel browser e rimangono dopo la chiusura della pagina e gli aggiornamenti del sito.
 Ogni browser e dispositivo ha un archivio distinto; chi usa lo stesso profilo del browser condivide l'archivio.
-Da **Progressi → Scarica backup** puoi conservare una copia e trasferirla con **Carica backup**.
-Il backup della materia include anche evidenziazioni, sottolineature e ultima pagina letta negli Originali.
+Da **Backup → Scarica backup completo** puoi conservare un unico file e trasferirlo con **Scegli un backup**.
+Il file include tutte le materie presenti nell'archivio, anche quelle aggiunte in futuro, progressi e storico, quiz sospesi, preferenze, evidenziazioni, sottolineature, cronologia dei segni e pagine lette negli Originali.
+Prima del ripristino viene mostrato il contenuto del file. Sono compatibili anche i precedenti backup di una materia.
 Per passare dalla versione locale al sito online, scarica il backup dalla prima e importalo nel secondo.
 Lo stesso trasferimento serve passando dal vecchio indirizzo `github.io` a `formaiuris.it`, perché ogni origine ha il proprio archivio.
 Cancellando i dati del sito si eliminano anche i progressi locali.
@@ -18,10 +19,11 @@ Cancellando i dati del sito si eliminano anche i progressi locali.
 ## Originali
 
 La sezione raccoglie i quattro PDF di appunti e riassunti usati come fonti del Percorso.
-Il lettore permette di scorrerli, cambiare zoom, riprendere dall'ultima pagina e segnare il testo.
-Il documento occupa la sezione sotto una barra compatta; il selettore permette di passare dalla larghezza di lettura alla pagina intera.
-I segni si aprono dal pulsante **Segni**. Dal menu **Documento, download e backup** si può salvare una copia dei dati senza uscire dal lettore.
+Il lettore permette di scorrerli, riprendere dall'ultima pagina e segnare il testo.
+Il documento occupa la sezione sotto una barra compatta con icone fisse; il selettore offre **Riempi lo spazio** e **Pagina intera**.
+I segni si aprono dall'icona **Segni salvati**. Il menu **Documento e scorciatoie** riporta i comandi da tastiera e il download del PDF originale.
 Un passaggio selezionato si salva con un clic su **Salva segno**, con **Invio** o con **Spazio**.
+**Esc**, **Canc** o **Backspace** annullano la selezione; **H** e **U** scelgono evidenziatore e sottolineatura, **1/2/3** scelgono giallo, verde e rosa. I campi di inserimento mantengono i normali comandi da tastiera.
 Le frecce curve accanto alle pagine annullano e ripristinano le modifiche ai segni (anche con Ctrl/⌘Z e Ctrl+Y/⌘⇧Z).
 La cronologia conserva fino a 50 azioni per documento ed è inclusa nel backup.
 I PDF di partenza rimangono invariati; i segni sono personali e salvati con i progressi della materia.
