@@ -44,19 +44,23 @@ export function padronanzaDomanda(p: Progresso, id: string, now = new Date()): n
   if (!c) return null;
   const r = scheduler.retrievability(daSalvata(c), now);
   const voto = p.esiti[id]?.ultimo ?? 3;
+  // La stabilità pesa poco: una risposta giusta e recente conta già come «la sai»; col tempo cala il ricordo (r).
   const stab = Math.min(1, c.stability / 21);
-  return Math.max(0, Math.min(1, r * (FATTORE[voto] ?? 0.9) * (0.55 + 0.45 * stab)));
+  return Math.max(0, Math.min(1, r * (FATTORE[voto] ?? 0.9) * (0.8 + 0.2 * stab)));
 }
 
-/** media sulle domande (le non viste contano 0); null se non ci sono domande */
+/**
+ * `valore`: media su tutte le domande (le non viste contano 0), cioè avanzamento complessivo.
+ * `media`: media sulle sole domande viste, cioè quanto sai ciò che hai già provato: decide il livello (li sai, così così…).
+ */
 export function padronanza(p: Progresso, domande: Domanda[] | undefined, now = new Date()) {
-  if (!domande?.length) return { valore: null as number | null, viste: 0, totali: 0 };
+  if (!domande?.length) return { valore: null as number | null, media: null as number | null, viste: 0, totali: 0 };
   let s = 0, viste = 0;
   for (const q of domande) {
     const m = padronanzaDomanda(p, q.id, now);
     if (m != null) { s += m; viste++; }
   }
-  return { valore: viste ? s / domande.length : 0, viste, totali: domande.length };
+  return { valore: viste ? s / domande.length : 0, media: viste ? s / viste : null, viste, totali: domande.length };
 }
 
 export type Livello = 'ignoto' | 'debole' | 'medio' | 'forte';

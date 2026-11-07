@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { norm, useCorso } from '../lib/data';
 import { href } from '../lib/router';
-import { padronanza } from '../lib/srs';
+import { livello, padronanza } from '../lib/srs';
 import { useProgresso } from '../lib/store';
 import { TIPI_CONCETTO, TIPO_SINGOLARE, type TipoConcetto } from '../lib/types';
 import { LivelloDot } from '../components/ui';
@@ -21,7 +21,7 @@ export default function Glossario() {
       .filter((c) => !unita || c.unita.includes(unita))
       .filter((c) => !n || norm([c.nome, c.latino ?? '', ...c.alias, c.breve].join(' ')).includes(n))
       .map((c) => ({ c, m: padronanza(p, idx.domandePerConcetto.get(c.id)) }))
-      .filter((x) => !soloDeboli || (x.m.viste > 0 && (x.m.valore ?? 0) < 0.45));
+      .filter((x) => !soloDeboli || livello(x.m.media, x.m.viste) === 'debole');
   }, [idx, p, q, tipo, unita, soloDeboli]);
 
   const lettere = useMemo(() => {
@@ -77,7 +77,7 @@ export default function Glossario() {
             <a key={c.id} id={nuova ? `lettera-${l}` : undefined} className="card term" href={href(`/concetto/${c.id}`)} style={{ scrollMarginTop: 80 }}>
               <div className="row-between">
                 <span className="eyebrow">{TIPO_SINGOLARE[c.tipo]}</span>
-                {m.totali > 0 && <LivelloDot valore={m.valore} viste={m.viste} />}
+                {m.totali > 0 && <LivelloDot valore={m.media} viste={m.viste} />}
               </div>
               <span className="term-name">{c.nome}</span>
               {c.latino && c.latino !== c.nome && <span className="faint small" style={{ fontStyle: 'italic', marginTop: -4 }}>{c.latino}</span>}

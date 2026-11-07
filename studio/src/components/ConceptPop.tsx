@@ -82,7 +82,7 @@ export function useConceptPop(ref: RefObject<HTMLElement>, opzioni?: { hover?: b
     <div ref={popRef} className="pop fade-in" style={{ left: stato.x, top: stato.y }}>
       <div className="row" style={{ gap: 8 }}>
         <span className="eyebrow">{TIPO_SINGOLARE[c.tipo] ?? c.tipo}</span>
-        {m.totali > 0 && <LivelloDot valore={m.valore} viste={m.viste} />}
+        {m.totali > 0 && <LivelloDot valore={m.media} viste={m.viste} />}
       </div>
       <h4>{c.nome}</h4>
       {c.latino && c.latino !== c.nome && <div className="faint small" style={{ fontStyle: 'italic', marginBottom: 4 }}>{c.latino}</div>}

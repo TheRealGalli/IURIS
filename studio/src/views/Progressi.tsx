@@ -46,7 +46,7 @@ export default function Progressi() {
     for (const c of idx.corso.concetti) {
       const m = padronanza(p, idx.domandePerConcetto.get(c.id));
       if (!m.totali) continue;
-      d[livello(m.valore, m.viste)]++;
+      d[livello(m.media, m.viste)]++;
     }
     return d;
   }, [idx, p]);
@@ -135,7 +135,7 @@ export default function Progressi() {
                 <span style={{ flex: 1, minWidth: 140 }} className="small">{u.titolo}</span>
                 <span className="faint tiny" style={{ width: 70 }}>{fatte}/{u.lezioni.length} lezioni</span>
                 <div style={{ width: 160 }}><Bar value={m.valore ?? 0} tone="ok" thin /></div>
-                <span className="row tiny" style={{ gap: 5, width: 48 }}><LivelloDot valore={m.valore} viste={m.viste} />{Math.round((m.valore ?? 0) * 100)}%</span>
+                <span className="row tiny" style={{ gap: 5, width: 48 }}><LivelloDot valore={m.media} viste={m.viste} />{Math.round((m.valore ?? 0) * 100)}%</span>
               </a>
             );
           })}

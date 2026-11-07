@@ -146,7 +146,7 @@ export default function ConcettoView({ id }: { id: string }) {
             </div>
           )}
           <div className="card-flat small muted">
-            <LivelloDot valore={m.valore} viste={m.viste} />
+            <LivelloDot valore={m.media} viste={m.viste} />
             {c.pagine.length > 0 ? ` ${c.pagine.map((x) => rifPagine(x)).join(', ')}` : c.oltreAppunti ? ' Voce di approfondimento oltre gli appunti' : ' Solo nei capitoli ricostruiti dal manuale'}
           </div>
         </aside>

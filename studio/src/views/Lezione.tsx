@@ -127,7 +127,7 @@ export default function LezioneView({ id }: { id: string }) {
             <a className="btn btn-ghost" href={href(`/mappa?u=${u.id}`)}><Icon n="mappa" size={16} /> Mappa dell'unità</a>
             {m.viste > 0 && (
               <div className="small muted row" style={{ gap: 6 }}>
-                <LivelloDot valore={m.valore} viste={m.viste} /> Padronanza {Math.round((m.valore ?? 0) * 100)}% · {m.viste}/{m.totali} domande viste
+                <LivelloDot valore={m.media} viste={m.viste} /> Padronanza {Math.round((m.valore ?? 0) * 100)}% · {m.viste}/{m.totali} domande viste
               </div>
             )}
             {!studiata && <div className="faint tiny">Quando la segni come studiata, le sue {qs.length} domande entrano nel programma di ripasso: fino a {DOMANDE_VERIFICA_INIZIALE} subito, anche oltre il limite giornaliero. Le altre verranno introdotte nei giorni successivi.</div>}
@@ -140,7 +140,7 @@ export default function LezioneView({ id }: { id: string }) {
                   const mc = padronanza(p, idx.domandePerConcetto.get(c!.id));
                   return (
                     <a key={c!.id} href={href(`/concetto/${c!.id}`)} className="row small" style={{ gap: 8, textDecoration: 'none' }}>
-                      <LivelloDot valore={mc.valore} viste={mc.viste} /> {c!.nome}
+                      <LivelloDot valore={mc.media} viste={mc.viste} /> {c!.nome}
                     </a>
                   );
                 })}

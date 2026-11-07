@@ -72,7 +72,7 @@ export function Bar({ value, tone = '', thin = false }: { value: number; tone?: 
 
 export function LivelloDot({ valore, viste }: { valore: number | null; viste?: number }) {
   const lv: Livello = livello(valore, viste);
-  const title = lv === 'ignoto' ? 'Mai verificato' : `Padronanza ${Math.round((valore ?? 0) * 100)}%`;
+  const title = lv === 'ignoto' ? 'Mai verificato' : `Sicurezza sulle domande viste: ${Math.round((valore ?? 0) * 100)}%`;
   return <span className={`dot lv-${lv}`} title={title} />;
 }
 

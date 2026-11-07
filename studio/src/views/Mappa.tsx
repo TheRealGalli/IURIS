@@ -57,7 +57,7 @@ function PannelloConcetto({ id, onClose, onFocus }: { id: string; onClose: () =>
       {c.latino && c.latino !== c.nome && <div className="faint small" style={{ fontStyle: 'italic' }}>{c.latino}</div>}
       <p className="muted small">{c.breve}</p>
       <div className="row small" style={{ gap: 6, marginBottom: 10 }}>
-        <LivelloDot valore={m.valore} viste={m.viste} />
+        <LivelloDot valore={m.media} viste={m.viste} />
         {m.totali ? `${Math.round((m.valore ?? 0) * 100)}% · ${m.viste}/${m.totali} domande viste` : 'Nessuna domanda collegata'}
       </div>
       <div className="row" style={{ gap: 6 }}>
@@ -197,7 +197,7 @@ function MindMap({ uid }: { uid: string }) {
   const colore = (c?: string) => {
     if (!c) return 'ignoto';
     const m = padronanza(p, idx.domandePerConcetto.get(c));
-    return m.totali ? livello(m.valore, m.viste) : 'ignoto';
+    return m.totali ? livello(m.media, m.viste) : 'ignoto';
   };
 
   const espandiTutto = () => setChiusi(new Set());
@@ -382,7 +382,7 @@ function Grafo({ focus }: { focus: string | null }) {
   const livelli = useMemo(() => new Map(nodi.map((n) => {
     if (!progressoColori) return [n.id, 'ignoto'];
     const m = padronanza(progressoColori, idx.domandePerConcetto.get(n.id));
-    return [n.id, m.totali ? livello(m.valore, m.viste) : 'ignoto'];
+    return [n.id, m.totali ? livello(m.media, m.viste) : 'ignoto'];
   })), [nodi, progressoColori, idx]);
 
   const risultati = useMemo(() => {

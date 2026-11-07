@@ -56,7 +56,7 @@ export default function Percorso() {
                   <div className="row" style={{ gap: 12 }}>
                     <div style={{ flex: 1, minWidth: 120, maxWidth: 260 }}><Bar value={fatte / u.lezioni.length} thin tone="ok" /></div>
                     <span className="faint tiny">{fatte}/{u.lezioni.length} lezioni</span>
-                    {mu.viste > 0 && <span className="row tiny faint" style={{ gap: 5 }}><LivelloDot valore={mu.valore} viste={mu.viste} /> {Math.round((mu.valore ?? 0) * 100)}%</span>}
+                    {mu.viste > 0 && <span className="row tiny faint" style={{ gap: 5 }}><LivelloDot valore={mu.media} viste={mu.viste} /> {Math.round((mu.valore ?? 0) * 100)}%</span>}
                     {u.note && open && (
                       <button className={`nota-btn ${noteAperte[u.id] ? 'on' : ''}`} title="Note sugli appunti: correzioni e punti dubbi"
                         aria-label="Note sugli appunti" aria-expanded={!!noteAperte[u.id]}

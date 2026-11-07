@@ -1,7 +1,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { useCorso } from '../lib/data';
 import { href } from '../lib/router';
-import { padronanza, pagineStudiate, pianoEsame, ripassoDiOggi, serieGiorni, statoLezione, ETICHETTA_STATO } from '../lib/srs';
+import { livello, padronanza, pagineStudiate, pianoEsame, ripassoDiOggi, serieGiorni, statoLezione, ETICHETTA_STATO } from '../lib/srs';
 import { impostaEsame, useProgresso } from '../lib/store';
 import type { Concetto } from '../lib/types';
 import { fmtData, fmtMinuti, oggiISO, plurale, rifPagine } from '../lib/util';
@@ -30,8 +30,9 @@ export default function Oggi() {
       const domande = idx.domandePerConcetto.get(c.id) ?? [];
       return { c, m: padronanza(p, domande), soloInverse: !domande.some((q) => !q.inversa) };
     })
-    .filter((x) => x.m.viste > 0 && (x.m.valore ?? 0) < 0.45)
-    .sort((a, b) => (a.m.valore ?? 0) - (b.m.valore ?? 0)), [idx, p]);
+    // Gli stessi criteri del pannello Concetti: «da ripassare» = livello debole sulle domande viste.
+    .filter((x) => livello(x.m.media, x.m.viste) === 'debole')
+    .sort((a, b) => (a.m.media ?? 0) - (b.m.media ?? 0)), [idx, p]);
 
   const saluto = (() => { const h = new Date().getHours(); return h < 13 ? 'Buongiorno' : h < 18 ? 'Buon pomeriggio' : 'Buonasera'; })();
   const dataLunga = new Date().toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' });
@@ -179,7 +180,7 @@ function ConcettiDeboliDialog({ concetti, onClose }: { concetti: ConcettoDebole[
           <li key={c.id} className="oggi-deboli-voce">
             <div className="oggi-deboli-dettagli">
               <a className="oggi-deboli-nome" href={href(`/concetto/${encodeURIComponent(c.id)}`)} onClick={onClose}>
-                <LivelloDot valore={m.valore} viste={m.viste} /><span>{c.nome}</span>
+                <LivelloDot valore={m.media} viste={m.viste} /><span>{c.nome}</span>
               </a>
               <div className="faint tiny">{Math.round((m.valore ?? 0) * 100)}% di padronanza · {m.viste}/{m.totali} domande viste</div>
             </div>
