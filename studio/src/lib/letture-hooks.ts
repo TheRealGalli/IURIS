@@ -8,7 +8,7 @@ import type { PassaggioMappa } from '../components/MappaPersonale';
 export function hrefPassaggioPersonale(p: PassaggioMappa): string {
   const id = p.id.slice(p.documento.length + 1);
   return p.blocco ? linkTesto(p.documento, p.sezione, p.blocco, id)
-    : `#/originali?${new URLSearchParams({ doc: p.documento, modo: 'pdf', pagina: String(Number(p.sezione.replace(/^pdf-p/, '')) || 1) })}`;
+    : `#/originali?${new URLSearchParams({ doc: p.documento, pagina: String(Number(p.sezione.replace(/^pdf-p/, '')) || 1) })}`;
 }
 
 /** Carica solo i capitoli che contengono annotazioni: il corpus non entra nel grafo intero. */

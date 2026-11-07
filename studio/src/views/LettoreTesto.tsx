@@ -24,19 +24,19 @@ const Paragrafo = memo(function Paragrafo({ blocco, segni }: { blocco: BloccoPro
   </section>;
 });
 
-export default function LettoreTesto({ doc, documento, documenti, scegli, sezioneId, bloccoFocus, segnoFocus, apriPdf }: {
+export default function LettoreTesto({ doc, documento, documenti, scegli, sezioneId, bloccoFocus, segnoFocus, paginaFocus }: {
   doc: DocumentoOriginale; documento: DocumentoLettura; documenti: DocumentoOriginale[];
-  scegli: (id: string) => void; sezioneId?: string; bloccoFocus?: string; segnoFocus?: string; apriPdf: (pagina?: number) => void;
+  scegli: (id: string) => void; sezioneId?: string; bloccoFocus?: string; segnoFocus?: string; paginaFocus?: number;
 }) {
   const idx = useCorso(), slug = idx.corso.materia.slug, p = useProgresso(slug), lettura = p.originali?.[doc.id];
   const segni = lettura?.segni ?? VUOTI;
   const meta = documento.sezioni.find((s) => s.id === sezioneId) ?? documento.sezioni.find((s) => s.id === lettura?.sezioneTesto) ?? documento.sezioni[0];
-  return <SezioneTesto key={`${doc.id}:${meta.id}`} {...{ doc, documento, documenti, scegli, bloccoFocus, segnoFocus, apriPdf }} meta={meta} segni={segni} />;
+  return <SezioneTesto key={`${doc.id}:${meta.id}`} {...{ doc, documento, documenti, scegli, bloccoFocus, segnoFocus, paginaFocus }} meta={meta} segni={segni} />;
 }
 
-function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFocus, segnoFocus, apriPdf }: {
+function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFocus, segnoFocus, paginaFocus }: {
   doc: DocumentoOriginale; documento: DocumentoLettura; documenti: DocumentoOriginale[]; scegli: (id: string) => void;
-  meta: IndiceSezioneLettura; segni: SegnoOriginale[]; bloccoFocus?: string; segnoFocus?: string; apriPdf: (pagina?: number) => void;
+  meta: IndiceSezioneLettura; segni: SegnoOriginale[]; bloccoFocus?: string; segnoFocus?: string; paginaFocus?: number;
 }) {
   const idx = useCorso(), slug = idx.corso.materia.slug, p = useProgresso(slug), lettura = p.originali?.[doc.id];
   const [sezione, setSezione] = useState<SezioneLettura | null>(null), [errore, setErrore] = useState('');
@@ -160,10 +160,11 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   useLayoutEffect(() => {
     if (!sezione || !blocchi.length) return;
     const pr = segnoFocus ? proiezioni.find((pr) => pr.segno.id === segnoFocus && pr.stato === 'proiettato') : undefined;
-    const target = bloccoFocus ?? pr?.ancore[0]?.blocco ?? primaPosizione.current;
+    const allaPagina = paginaFocus ? blocchi.find((b) => b.pagina >= paginaFocus)?.id : undefined;
+    const target = bloccoFocus ?? pr?.ancore[0]?.blocco ?? allaPagina ?? primaPosizione.current;
     alBlocco(target); pronto.current = true;
     esito(salvaSezioneTestoOriginale(slug, doc, meta.id, target ?? blocchi[0].id));
-  }, [sezione, bloccoFocus, segnoFocus, alBlocco]);
+  }, [sezione, bloccoFocus, segnoFocus, paginaFocus, alBlocco]);
   const scorri = () => {
     cancelAnimationFrame(scrollFrame.current);
     scrollFrame.current = requestAnimationFrame(() => {
@@ -190,14 +191,13 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   const apriSegno = (s: SegnoOriginale) => {
     const m = sezionePerPagina(documento, s.pagina);
     if (m) { const a = s.ancoreTesto?.[0]; vai(linkTesto(doc.id, m.id, a?.blocco, s.id)); setPannello(null); }
-    else apriPdf(s.pagina);
+    else setMessaggio(`La pagina ${s.pagina} non ha testo: il segno resta salvato con la sua citazione.`);
   };
 
   return <div ref={spazio} className="originali lettura" data-strumento={tipo} data-colore={colore} data-selezionando={selezionando}>
     <header className="originali-header">
       <h1>Originali</h1>
       <select className="select originali-documento-select" aria-label="Scegli il documento originale" value={doc.id} onChange={(e) => scegli(e.target.value)}>{documenti.map((d) => <option key={d.id} value={d.id}>{d.titolo}</option>)}</select>
-      <div className="lettura-formati" aria-label="Formato di lettura"><span className="on">Testo</span><button type="button" onClick={() => apriPdf(meta.da)}>PDF</button></div>
       <button className="btn btn-sm originali-quadrato" aria-label={`Segni salvati (${segni.length})`} title="Segni salvati" onClick={() => setPannello(pannello === 'segni' ? null : 'segni')} aria-expanded={pannello === 'segni'}><Icon n="glossario" size={17} /></button>
       <button className="btn btn-sm originali-quadrato" aria-label="Mappa personale" title="Mappa personale" onClick={() => setPannello(pannello === 'mappa' ? null : 'mappa')} aria-expanded={pannello === 'mappa'}><Icon n="mappa" size={18} /></button>
       <button className="btn btn-sm originali-quadrato" aria-label="Fonti e scorciatoie" title="Fonti e scorciatoie" onClick={() => setPannello(pannello === 'fonti' ? null : 'fonti')} aria-expanded={pannello === 'fonti'}><Icon n="altro" size={19} /></button>
@@ -219,7 +219,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
     </div>
     <div className="lettura-layout">
       <div ref={viewport} className="lettura-viewport" tabIndex={0} aria-label="Testo del documento, scorri per leggere" onScroll={scorri}>
-        {errore ? <div className="empty"><p role="alert">{errore}</p><button className="btn" onClick={() => setTentativo((v) => v + 1)}>Riprova</button><button className="btn btn-ghost" onClick={() => apriPdf(meta.da)}>Consulta il PDF</button></div> : !sezione ? <div className="empty faint" role="status">Apertura del testo…</div> : <article ref={articolo} className="lettura-articolo prose" data-bozza={!!bozza} onPointerDown={(e) => {
+        {errore ? <div className="empty"><p role="alert">{errore}</p><button className="btn" onClick={() => setTentativo((v) => v + 1)}>Riprova</button></div> : !sezione ? <div className="empty faint" role="status">Apertura del testo…</div> : <article ref={articolo} className="lettura-articolo prose" data-bozza={!!bozza} onPointerDown={(e) => {
           if (!(e.target as Element).closest('[data-lettura-block]')) return;
           gesto.current = true; setSelezionando(true); clearTimeout(selezioneTimer.current); impostaBozza(null); setMessaggio(''); viewport.current?.focus({ preventScroll: true });
         }}>
@@ -227,8 +227,8 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
             <div className="eyebrow">{meta.revisionata ? 'Testo revisionato' : 'Testo estratto · revisione progressiva'} · pp. {meta.da}–{meta.a}</div>
             <h2 className="title-l">{meta.titolo}</h2>
             {lezione && <div className="row lettura-rimandi"><a className="btn btn-sm" href={href(`/lezione/${lezione.id}`)}>Nel Percorso<Icon n="freccia" size={14} /></a><a className="btn btn-sm btn-ghost" href={href(`/allena?l=${lezione.id}`)}>Quiz della lezione</a><button className={`btn btn-sm ${p.lezioni[lezione.id]?.studiata ? 'btn-ok' : 'btn-ghost'}`} onClick={() => segnaStudiata(slug, lezione.id, !p.lezioni[lezione.id]?.studiata, (idx.domandePerLezione.get(lezione.id) ?? []).map((q) => q.id))}><Icon n="check" size={14} />{p.lezioni[lezione.id]?.studiata ? 'Studiata' : 'Segna come studiata'}</button></div>}
-            {pdfQui > 0 && <p className="tiny faint lettura-recupero">{pdfQui} {pdfQui === 1 ? 'segno del PDF recuperato' : 'segni del PDF recuperati'} nel testo. La fonte è conservata.</p>}
-            {daVerificare.length > 0 && <div className="lettura-recupero small">{daVerificare.length} {daVerificare.length === 1 ? 'segno resta' : 'segni restano'} consultabile sul PDF: il passaggio non ha una corrispondenza univoca qui. <button className="btn btn-sm btn-ghost" onClick={() => apriPdf(daVerificare[0].segno.pagina)}>Apri la fonte</button></div>}
+            {pdfQui > 0 && <p className="tiny faint lettura-recupero">{pdfQui} {pdfQui === 1 ? 'segno fatto sul vecchio lettore PDF recuperato' : 'segni fatti sul vecchio lettore PDF recuperati'} nel testo.</p>}
+            {daVerificare.length > 0 && <div className="lettura-recupero small">{daVerificare.length} {daVerificare.length === 1 ? 'segno del vecchio lettore PDF non ha' : 'segni del vecchio lettore PDF non hanno'} una corrispondenza univoca in questo testo: {daVerificare.length === 1 ? 'resta salvato' : 'restano salvati'} con la citazione tra i segni. <button className="btn btn-sm btn-ghost" onClick={() => setPannello('segni')}>Vedi i segni</button></div>}
           </div>
           {blocchi.map((b, i) => <div key={b.id} className="lettura-gruppo">
             {(i === 0 || blocchi[i - 1].pagina !== b.pagina) && <div className="lettura-fonte-pagina" aria-label={`Pagina ${b.pagina} della fonte`}>p. {b.pagina}</div>}
@@ -242,7 +242,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
         <header><h2 className="title-s">{pannello === 'mappa' ? 'Mappa personale' : pannello === 'segni' ? `Segni salvati (${segni.length})` : 'Fonte e comandi'}</h2><button ref={chiudiPannello} className="btn btn-sm btn-ghost originali-quadrato" aria-label="Chiudi pannello" onClick={() => setPannello(null)}><Icon n="x" size={17} /></button></header>
         <div className="lettura-pannello-body">
           {pannello === 'mappa' ? <><a className="btn btn-sm" href={href('/mappa?personale=1')}>Apri la mappa completa<Icon n="freccia" size={14} /></a><MappaPersonale compatta passaggi={passaggi} onApri={(passaggio) => { vai(hrefPassaggioPersonale(passaggio)); setPannello(null); }} onConcetto={(id) => vai(`/concetto/${id}`)} hrefLettura={linkTesto(doc.id, meta.id)} /></>
-            : pannello === 'fonti' ? <><h3 className="title-s">{doc.titolo}</h3><p className="small muted">{doc.descrizione}</p><p className="small muted">Il testo è estratto dalla fonte. Le sezioni revisionate seguono le lezioni del Percorso: correzioni puntuali con nota, titoli ed elenchi ricomposti, collegamenti al glossario. Le altre sono ancora estratti semplici.</p><button className="btn btn-sm" onClick={() => apriPdf(meta.da)}>Consulta la fonte PDF</button><hr className="sep" /><h3 className="title-s">Scorciatoie</h3><dl className="originali-scorciatoie"><dt>Invio / Spazio</dt><dd>Salva o applica la gomma</dd><dt>Esc / Canc / ⌫</dt><dd>Annulla la selezione</dd><dt>H / U / E</dt><dd>Evidenzia / sottolinea / gomma</dd><dt>1 / 2 / 3</dt><dd>Giallo / verde / rosa</dd><dt>⌘Z / Ctrl+Z</dt><dd>Annulla</dd><dt>⌘⇧Z / Ctrl+Y</dt><dd>Ripristina</dd></dl><p className="tiny faint">Le parole collegate aprono il glossario con un clic. Le annotazioni aggiornano la mappa personale e restano nel backup unico.</p></>
+            : pannello === 'fonti' ? <><h3 className="title-s">{doc.titolo}</h3><p className="small muted">{doc.descrizione}</p><p className="small muted">Revisione di Carlo Galli.</p><p className="small muted">Il testo è estratto dalla fonte. Le sezioni revisionate seguono le lezioni del Percorso: correzioni puntuali con nota, titoli ed elenchi ricomposti, collegamenti al glossario. Le altre sono ancora estratti semplici.</p><a className="btn btn-sm" href={`${import.meta.env.BASE_URL}${doc.file}`} download><Icon n="scarica" size={15} />Consulta la fonte PDF originale</a><p className="tiny faint">Il PDF scaricato non contiene i segni personali: sono nel backup completo.</p><hr className="sep" /><h3 className="title-s">Scorciatoie</h3><dl className="originali-scorciatoie"><dt>Invio / Spazio</dt><dd>Salva o applica la gomma</dd><dt>Esc / Canc / ⌫</dt><dd>Annulla la selezione</dd><dt>H / U / E</dt><dd>Evidenzia / sottolinea / gomma</dd><dt>1 / 2 / 3</dt><dd>Giallo / verde / rosa</dd><dt>⌘Z / Ctrl+Z</dt><dd>Annulla</dd><dt>⌘⇧Z / Ctrl+Y</dt><dd>Ripristina</dd></dl><p className="tiny faint">Le parole collegate aprono il glossario con un clic. Le annotazioni aggiornano la mappa personale e restano nel backup unico.</p></>
               : <>{!ordinati.length ? <p className="small muted">Seleziona un passaggio e salvalo per ritrovarlo qui e nella mappa.</p> : <ol className="originali-lista">{ordinati.map((s) => <li key={s.id}><div className="row-between"><button className="btn btn-sm btn-ghost" onClick={() => apriSegno(s)}>Pagina {s.pagina}<Icon n="freccia" size={13} /></button><button className="btn btn-sm btn-ghost originali-quadrato" aria-label={`Rimuovi segno: ${s.testo.slice(0, 45)}`} onClick={() => { annullaSelezione(); const r = rimuoviSegniOriginali(slug, doc, [s.id]); esito(r.salvato); setMessaggio('Segno rimosso. La mappa è aggiornata.'); }}><Icon n="x" size={14} /></button></div><p className={`originali-estratto ${s.colore}`}>{s.testo}</p><span className="tiny faint">{s.tipo === 'evidenziato' ? 'Evidenziato' : 'Sottolineato'} · {s.ancoreTesto?.length ? 'testo' : 'dal PDF'}</span></li>)}</ol>}</>}
         </div>
       </aside>}

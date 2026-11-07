@@ -16,7 +16,6 @@ import ConcettoView from './views/Concetto';
 import Allena from './views/Allena';
 import Progressi from './views/Progressi';
 import Backup from './views/Backup';
-import { originaliMateria } from './lib/originali';
 const Originali = lazy(() => import('./views/Originali'));
 
 const NAV = [
@@ -200,8 +199,7 @@ class OriginaliBoundary extends Component<{ slug: string; children: ReactNode },
     if (!this.state.errore) return this.props.children;
     return <div className="page-narrow card stack">
       <h1 className="title-m">Il lettore non si è aperto</h1>
-      <p className="muted">Ricarica la pagina per riprovare. Puoi anche consultare direttamente i PDF originali:</p>
-      {originaliMateria(this.props.slug).map((d) => <a key={d.id} href={`${import.meta.env.BASE_URL}${d.file}`} target="_blank" rel="noopener noreferrer">{d.titolo}</a>)}
+      <p className="muted">Ricarica la pagina per riprovare. Segni e posizione di lettura restano salvati.</p>
       <button className="btn" onClick={() => location.reload()}>Ricarica la pagina</button>
     </div>;
   }

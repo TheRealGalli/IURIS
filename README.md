@@ -21,27 +21,21 @@ Nel ripasso del giorno, le verifiche ancora nuove delle lezioni appena studiate 
 
 ## Originali
 
-La sezione raccoglie i quattro PDF di appunti e riassunti usati come fonti del Percorso.
-Il lettore permette di scorrerli, riprendere dall'ultima pagina e segnare il testo.
-Il documento occupa la sezione sotto una barra compatta con icone fisse; il selettore offre **Riempi lo spazio** e **Pagina intera**.
-I segni si aprono dall'icona **Segni salvati**. Il menu **Documento e scorciatoie** riporta i comandi da tastiera e il download del PDF originale.
-Un passaggio selezionato si salva con un clic su **Salva segno**, con **Invio** o con **Spazio**.
+La sezione raccoglie i quattro documenti di appunti e riassunti usati come fonti del Percorso, letti come **Testo**: il documento estratto in paragrafi, diviso nelle lezioni del Percorso. Non c'è più un lettore PDF; il PDF originale si scarica solo dal menu **Fonte e comandi** (**Consulta la fonte PDF originale**), senza i segni personali. Il menu riporta anche il curatore di ogni documento e la revisione di Carlo Galli.
+Il lettore riprende dall'ultima sezione e dall'ultimo paragrafo letti. Un passaggio selezionato si salva con un clic su **Salva segno**, con **Invio** o con **Spazio**.
 **Esc**, **Canc** o **Backspace** annullano la selezione; **H** e **U** scelgono evidenziatore e sottolineatura, **1/2/3** scelgono giallo, verde e rosa. I campi di inserimento mantengono i normali comandi da tastiera.
-La **Gomma** (**E**) rimuove i segni interi toccati dal testo selezionato, sia evidenziati sia sottolineati, anche dall'elenco salvato. Puoi selezionare prima di premere la gomma oppure attivarla e trascinare sul passaggio; una sola azione Annulla recupera l'intera cancellazione. Con la selezione da tastiera, Invio o Spazio applicano la gomma.
-Le frecce curve accanto alle pagine annullano e ripristinano le modifiche ai segni (anche con Ctrl/⌘Z e Ctrl+Y/⌘⇧Z).
-La cronologia conserva fino a 50 azioni per documento ed è inclusa nel backup.
-I PDF di partenza rimangono invariati; i segni sono personali e salvati con i progressi della materia.
-Il file scaricato dal lettore è il PDF originale, senza i segni personali: questi sono nel backup dei progressi.
+La **Gomma** (**E**) rimuove i segni interi toccati dal testo selezionato, anche dall'elenco salvato; una sola azione Annulla recupera l'intera cancellazione.
+Le frecce curve annullano e ripristinano le modifiche ai segni (anche con Ctrl/⌘Z e Ctrl+Y/⌘⇧Z). La cronologia conserva fino a 50 azioni per documento ed è inclusa nel backup.
 
 ### Testo e mappa personale
 
-Accanto al PDF c'è il formato **Testo**: lo stesso documento estratto in paragrafi, diviso nelle lezioni del Percorso, con gli stessi strumenti di evidenziazione, gomma e Annulla. Le sezioni revisionate correggono in modo puntuale gli errori già segnalati nelle note del Percorso (ogni intervento ha una **Nota sul testo**), ricompongono titoli, elenchi e note a piè di pagina e collegano al glossario la prima occorrenza dei concetti della lezione. Ogni sezione rimanda alla lezione, al quiz e al comando **Studiata** del Percorso; dalla lezione, **Leggi il testo esteso** apre il punto corrispondente.
-I segni già fatti sul PDF compaiono nel testo quando il passaggio ha una corrispondenza univoca; gli altri restano consultabili sul PDF. I segni nel testo formano la **Mappa personale** (Mappa → Personale, o l'icona nel lettore), che raccoglie i passaggi per lezione e per concetto e riporta al punto di lettura. Tutto è incluso nel backup unico.
+Le sezioni revisionate correggono in modo puntuale gli errori già segnalati nelle note del Percorso (ogni intervento ha una **Nota sul testo**), ricompongono titoli, elenchi e note a piè di pagina e collegano al glossario la prima occorrenza dei concetti della lezione. Ogni sezione rimanda alla lezione, al quiz e al comando **Studiata** del Percorso; dalla lezione, **Leggi il testo esteso** apre il punto corrispondente.
+I segni fatti con il vecchio lettore PDF restano salvati (anche nel backup) e compaiono nel testo quando il passaggio ha una corrispondenza univoca; gli altri restano nell'elenco **Segni salvati** con la loro citazione e la pagina. I vecchi indirizzi `modo=pdf&pagina=N` aprono la sezione che contiene la pagina. I segni nel testo formano la **Mappa personale** (Mappa → Personale, o l'icona nel lettore), che raccoglie i passaggi per lezione e per concetto e riporta al punto di lettura. Tutto è incluso nel backup unico.
 I testi si modificano in `studio/letture-src`: Markdown per lezione (gli ID dei blocchi non cambiano), correzioni puntuali in `revisioni.json` (da registrare con `node scripts/revisiona-letture.mjs`), voci del glossario curate in `glossario-<materia>.json`. `npm run sync:letture` li pubblica in `public/letture`, applicando anche le regole di sola forma; `npm run check:letture` verifica estrazione, ancoraggi e mappa.
 
 Il catalogo in `studio/src/lib/originali-catalogo.json` indica file, pagine, materia e hash SHA-256.
 Per sostituire un PDF con una versione diversa occorre assegnare un nuovo ID di documento, così i vecchi segni non vengono applicati a pagine cambiate.
-Il lettore e le sue risorse vengono caricati quando si apre questa sezione.
+I PDF restano pubblicati come fonti verificate (hash) e per il download.
 
 ## Sviluppo locale
 

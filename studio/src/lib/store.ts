@@ -231,7 +231,7 @@ export function azzera(slug: string) {
 const PREF = 'iuris:v1:pref';
 export interface Preferenze {
   materia?: string; tema?: 'auto' | 'chiaro' | 'scuro'; voce?: boolean;
-  /** Ultimo documento e formato aperti negli Originali. */
+  /** Ultimo documento aperto negli Originali. `formatoOriginali` resta solo per leggere backup e preferenze precedenti: il lettore è sempre Testo. */
   originale?: string; formatoOriginali?: 'testo' | 'pdf';
 }
 let pref: Preferenze | null = null;

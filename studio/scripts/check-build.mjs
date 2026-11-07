@@ -29,7 +29,6 @@ for (const d of originali) {
   assert.equal(bytes.subarray(0, 5).toString(), '%PDF-', `PDF non valido: ${d.id}`);
   assert.equal(createHash('sha256').update(bytes).digest('hex'), d.sha256, `Il file originale è cambiato senza aggiornare la versione: ${d.id}`);
 }
-for (const resource of ['pdfjs/LICENSE', 'pdfjs/cmaps/Adobe-Japan1-UCS2.bcmap', 'pdfjs/standard_fonts/FoxitSerif.pfb', 'pdfjs/wasm/openjpeg.wasm']) file(resource);
 const materie = manifest.materie.filter((m) => m.disponibile);
 assert(materie.length > 0, 'Nessuna materia generata: controllare le cartelle 05 - Contenuti');
 for (const m of materie) {
