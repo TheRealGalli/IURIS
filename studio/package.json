@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "sync": "node scripts/sync-content.mjs",
-    "predev": "node scripts/sync-content.mjs && node scripts/sync-pdf-resources.mjs",
+    "sync:letture": "node scripts/sync-letture.mjs",
+    "predev": "node scripts/sync-content.mjs && node scripts/sync-letture.mjs && node scripts/sync-pdf-resources.mjs",
     "dev": "vite",
-    "prebuild": "node scripts/sync-content.mjs && node scripts/sync-pdf-resources.mjs",
+    "prebuild": "node scripts/sync-content.mjs && node scripts/sync-letture.mjs && node scripts/sync-pdf-resources.mjs",
     "build": "tsc --noEmit && vite build",
-    "check:build": "node scripts/check-build.mjs && node scripts/check-graph-layout.mjs && npm run check:review && npm run check:originali && npm run check:backup",
+    "check:build": "node scripts/check-build.mjs && node scripts/check-graph-layout.mjs && npm run check:review && npm run check:originali && npm run check:backup && npm run check:letture",
     "check:review": "node scripts/check-review-plan.mjs",
     "check:originali": "node scripts/check-originali.mjs && node scripts/check-originali-render.mjs",
+    "check:letture": "node scripts/check-estrazione-letture.mjs && node scripts/check-letture.mjs && node scripts/check-mappa-personale.mjs",
     "check:backup": "node scripts/check-backup.mjs",
     "preview": "vite preview",
     "studio": "npm run build && vite preview"

@@ -5,6 +5,7 @@ import { href } from '../lib/router';
 import { ETICHETTA_STATO, padronanza, statoLezione } from '../lib/srs';
 import { aggiungiTempo, apriLezione, DOMANDE_VERIFICA_INIZIALE, segnaStudiata, useProgresso } from '../lib/store';
 import { useConceptPop } from '../components/ConceptPop';
+import { DOCUMENTI_LETTURA, linkTesto } from '../lib/letture-client';
 import { Icon, LivelloDot, Pagine } from '../components/ui';
 
 export default function LezioneView({ id }: { id: string }) {
@@ -53,6 +54,9 @@ export default function LezioneView({ id }: { id: string }) {
   const qs = idx.domandePerLezione.get(l.id) ?? [];
   const m = padronanza(p, qs);
   const concetti = l.concetti.map((c) => idx.concettoById.get(c)).filter(Boolean);
+  // Rimando dalla sintesi al testo esteso revisionato della stessa lezione, quando esiste.
+  const testoEsteso = DOCUMENTI_LETTURA.filter((d) => d.materia === slug)
+    .flatMap((d) => d.sezioni.filter((s) => s.lezione === l.id).map((s) => linkTesto(d.id, s.id)))[0];
 
   return (
     <div className="page fade-in">
@@ -118,6 +122,7 @@ export default function LezioneView({ id }: { id: string }) {
             <button className={`btn btn-lg ${studiata ? 'btn-ok' : 'btn-primary'}`} onClick={() => segnaStudiata(slug, l.id, !studiata, qs.map((q) => q.id))}>
               <Icon n="check" size={18} stroke={2.4} /> {studiata ? 'Studiata' : 'Segna come studiata'}
             </button>
+            {testoEsteso && <a className="btn" href={testoEsteso}><Icon n="libro" size={16} /> Leggi il testo esteso</a>}
             <a className="btn" href={href(`/allena?l=${l.id}`)}><Icon n="allena" size={16} /> Quiz su questa lezione</a>
             <a className="btn btn-ghost" href={href(`/mappa?u=${u.id}`)}><Icon n="mappa" size={16} /> Mappa dell'unità</a>
             {m.viste > 0 && (

@@ -229,7 +229,11 @@ export function azzera(slug: string) {
 
 // Preferenze generali
 const PREF = 'iuris:v1:pref';
-export interface Preferenze { materia?: string; tema?: 'auto' | 'chiaro' | 'scuro'; voce?: boolean }
+export interface Preferenze {
+  materia?: string; tema?: 'auto' | 'chiaro' | 'scuro'; voce?: boolean;
+  /** Ultimo documento e formato aperti negli Originali. */
+  originale?: string; formatoOriginali?: 'testo' | 'pdf';
+}
 let pref: Preferenze | null = null;
 export function leggiPref(): Preferenze {
   if (pref) return pref;

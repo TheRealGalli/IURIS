@@ -187,7 +187,8 @@ export function validaSessione(v: unknown, dove: string) {
 function validaPreferenze(v: unknown): Preferenze {
   const p = oggetto(v, 'preferenze');
   opzionale(p, 'materia', slug, 'preferenze'); opzionale(p, 'tema', (v, d) => scelta(v, ['auto', 'chiaro', 'scuro'], d), 'preferenze');
-  opzionale(p, 'voce', booleano, 'preferenze'); return p as Preferenze;
+  opzionale(p, 'voce', booleano, 'preferenze'); opzionale(p, 'originale', slug, 'preferenze');
+  opzionale(p, 'formatoOriginali', (v, d) => scelta(v, ['testo', 'pdf'], d), 'preferenze'); return p as Preferenze;
 }
 
 export function chiaveExtraValida(k: string): boolean {

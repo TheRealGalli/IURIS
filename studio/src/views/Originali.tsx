@@ -6,8 +6,10 @@ import 'react-pdf/dist/Page/AnnotationLayer.css';
 import { Icon } from '../components/ui';
 import { useCorso } from '../lib/data';
 import { cronologiaSegni, originaliMateria, paginaValida, type DocumentoOriginale, type RettangoloSegno, type SegnoOriginale } from '../lib/originali';
-import { aggiungiSegnoOriginale, annullaSegnoOriginale, cancellaSegniOriginale, ripristinaSegnoOriginale, rimuoviSegnoOriginale, salvaPaginaOriginale, useProgresso } from '../lib/store';
-import { href } from '../lib/router';
+import { aggiungiSegnoOriginale, annullaSegnoOriginale, cancellaSegniOriginale, ripristinaSegnoOriginale, rimuoviSegnoOriginale, salvaPaginaOriginale, scriviPref, usePref, useProgresso } from '../lib/store';
+import { href, useRotta, vai } from '../lib/router';
+import { DOCUMENTI_LETTURA, linkTesto, sezionePerPagina } from '../lib/letture-client';
+import LettoreTesto from './LettoreTesto';
 import { aggiornaPianoRender, avviaPagina, ordinePagine, paginaPronta, pixelRatioPagina, type PianoRender } from '../lib/originali-render';
 import './Originali.css';
 
@@ -126,12 +128,13 @@ const DocumentoPagine = memo(function DocumentoPagine({ file, larghezza, rapport
   </Document>;
 });
 
-function LettoreOriginale({ slug, doc, documenti, scegli }: {
+function LettoreOriginale({ slug, doc, documenti, scegli, paginaRichiesta, apriTesto }: {
   slug: string; doc: DocumentoOriginale; documenti: DocumentoOriginale[]; scegli: (id: string) => void;
+  paginaRichiesta?: number; apriTesto?: (pagina: number) => void;
 }) {
   const p = useProgresso(slug), lettura = p.originali?.[doc.id];
   const segni = lettura?.segni ?? NESSUN_SEGNO;
-  const iniziale = useRef(paginaValida(lettura?.pagina ?? 1, doc.pagine));
+  const iniziale = useRef(paginaValida(paginaRichiesta ?? lettura?.pagina ?? 1, doc.pagine));
   const [pagina, setPagina] = useState(iniziale.current), paginaRef = useRef(iniziale.current);
   const [campoPagina, setCampoPagina] = useState(String(iniziale.current));
   const [pagine, setPagine] = useState(doc.pagine), [caricato, setCaricato] = useState(false);
@@ -399,6 +402,8 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
   }, [segni]);
   const ordinati = useMemo(() => [...segni].sort((a, b) => a.pagina - b.pagina || a.creata.localeCompare(b.creata)), [segni]);
   const vaiPagina = useCallback((numero: number) => { annullaSelezione(); salta(numero); }, [annullaSelezione, salta]);
+  // Un rimando dalla mappa o dal testo porta alla pagina indicata anche a lettore già aperto.
+  useEffect(() => { if (paginaRichiesta && prontoRef.current) vaiPagina(paginaRichiesta); }, [paginaRichiesta]);
   function adatta(valore: 'pagina' | 'larghezza') { conservaAncora(); annullaSelezione(); setAdattamento(valore); }
   const annotazioni = useMemo(() => ({ perPagina, bozza, tipo, colore }), [perPagina, bozza, tipo, colore]);
   const cronologia = useMemo(() => cronologiaSegni(lettura), [lettura]);
@@ -408,6 +413,7 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
       <select className="select originali-documento-select" value={doc.id} onChange={(e) => scegli(e.target.value)} aria-label="Scegli il documento originale">
         {documenti.map((d) => <option key={d.id} value={d.id}>{d.titolo}</option>)}
       </select>
+      {apriTesto && <div className="lettura-formati" aria-label="Formato di lettura"><button type="button" title="Leggi il testo curato, con glossario e mappa personale" onClick={() => apriTesto(paginaRef.current)}>Testo</button><span className="on">PDF</span></div>}
       <button className={`btn btn-sm ${pannello === 'segni' ? 'originali-scelto' : 'btn-ghost'}`} aria-expanded={pannello === 'segni'} aria-controls="originali-pannello"
         aria-label={`Segni salvati (${segni.length})`} title="Segni salvati" onClick={() => setPannello(pannello === 'segni' ? null : 'segni')}><Icon n="glossario" size={15} /><span className="originali-conteggio">{segni.length}</span></button>
       <button className={`btn btn-sm originali-quadrato ${pannello === 'documento' ? 'originali-scelto' : 'btn-ghost'}`}
@@ -491,11 +497,25 @@ function LettoreOriginale({ slug, doc, documenti, scegli }: {
   </div>;
 }
 
+/** Documento, formato e posizione vivono nell'indirizzo: i rimandi da Percorso e mappa aprono il punto esatto. */
 export default function Originali() {
   const idx = useCorso(), slug = idx.corso.materia.slug;
+  const { query } = useRotta(), pref = usePref();
   const documenti = useMemo(() => originaliMateria(slug), [slug]);
-  const [scelto, setScelto] = useState(documenti[0]?.id ?? '');
-  const doc = documenti.find((d) => d.id === scelto) ?? documenti[0];
-  return doc ? <LettoreOriginale key={`${slug}-${doc.id}`} slug={slug} doc={doc} documenti={documenti} scegli={setScelto} />
-    : <div className="empty"><h1 className="title-m">Originali</h1><p>Non ci sono ancora documenti per questa materia.</p></div>;
+  const doc = documenti.find((d) => d.id === (query.get('doc') ?? pref.originale)) ?? documenti[0];
+  const testo = doc ? DOCUMENTI_LETTURA.find((d) => d.id === doc.id) : undefined;
+  const modo: 'testo' | 'pdf' = testo && (query.get('modo') ?? pref.formatoOriginali ?? 'testo') === 'testo' ? 'testo' : 'pdf';
+  useEffect(() => {
+    if (!doc) return;
+    const formato = testo ? modo : pref.formatoOriginali;
+    if (pref.originale !== doc.id || pref.formatoOriginali !== formato) scriviPref({ originale: doc.id, formatoOriginali: formato });
+  }, [doc?.id, modo]);
+  if (!doc) return <div className="empty"><h1 className="title-m">Originali</h1><p>Non ci sono ancora documenti per questa materia.</p></div>;
+  const apriPdf = (pagina?: number) => vai(`/originali?${new URLSearchParams({ doc: doc.id, modo: 'pdf', ...(pagina ? { pagina: String(pagina) } : {}) })}`);
+  const scegli = (id: string) => vai(`/originali?${new URLSearchParams({ doc: id, modo })}`);
+  if (testo && modo === 'testo') return <LettoreTesto key={`${slug}-${doc.id}`} doc={doc} documento={testo} documenti={documenti} scegli={scegli}
+    sezioneId={query.get('sezione') ?? undefined} bloccoFocus={query.get('blocco') ?? undefined} segnoFocus={query.get('segno') ?? undefined} apriPdf={apriPdf} />;
+  const paginaRichiesta = Number(query.get('pagina')) || undefined;
+  return <LettoreOriginale key={`${slug}-${doc.id}`} slug={slug} doc={doc} documenti={documenti} scegli={scegli} paginaRichiesta={paginaRichiesta}
+    apriTesto={testo ? (pagina) => vai(linkTesto(doc.id, sezionePerPagina(testo, pagina)?.id)) : undefined} />;
 }

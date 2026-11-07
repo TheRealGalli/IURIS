@@ -33,6 +33,12 @@ La cronologia conserva fino a 50 azioni per documento ed è inclusa nel backup.
 I PDF di partenza rimangono invariati; i segni sono personali e salvati con i progressi della materia.
 Il file scaricato dal lettore è il PDF originale, senza i segni personali: questi sono nel backup dei progressi.
 
+### Testo e mappa personale
+
+Accanto al PDF c'è il formato **Testo**: lo stesso documento estratto in paragrafi, con gli stessi strumenti di evidenziazione, gomma e Annulla. Il pilota sono le prime due lezioni di Incampo (unità 1, lezioni 1 e 2), revisionate nello stile del Percorso, con i termini collegati al glossario, le note sul testo e i rimandi alla lezione, al quiz e al comando **Studiata** del Percorso. Dalla lezione del Percorso, **Leggi il testo esteso** apre il punto corrispondente.
+I segni già fatti sul PDF compaiono nel testo quando il passaggio ha una corrispondenza univoca; gli altri restano consultabili sul PDF. I segni nel testo formano la **Mappa personale** (Mappa → Personale, o l'icona nel lettore), che raccoglie i passaggi per lezione e per concetto e riporta al punto di lettura. Tutto è incluso nel backup unico.
+I testi si modificano in `studio/letture-src` (Markdown per pagine, revisioni puntuali in `revisioni.json`, collegamenti del pilota in `glossario-pilota.json`); `npm run sync:letture` li pubblica in `public/letture`, e `npm run check:letture` verifica estrazione, ancoraggi e mappa.
+
 Il catalogo in `studio/src/lib/originali-catalogo.json` indica file, pagine, materia e hash SHA-256.
 Per sostituire un PDF con una versione diversa occorre assegnare un nuovo ID di documento, così i vecchi segni non vengono applicati a pagine cambiate.
 Il lettore e le sue risorse vengono caricati quando si apre questa sezione.
