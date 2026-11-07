@@ -5,7 +5,7 @@ import { useCorso } from '../lib/data';
 import { href, vai } from '../lib/router';
 import { cronologiaSegni, type DocumentoOriginale, type SegnoOriginale } from '../lib/originali';
 import { aggiungiSegnoTestoOriginale, annullaSegnoOriginale, ripristinaSegnoOriginale, rimuoviSegniOriginali, salvaSezioneTestoOriginale, segnaStudiata, useProgresso } from '../lib/store';
-import { idsSegniNellaSelezioneTesto, proiettaSegniTesto, type DocumentoLettura, type SezioneLettura, type IndiceSezioneLettura } from '../lib/letture';
+import { idsSegniNellaSelezioneTesto, proiettaSegniTesto, statoStudioSezione, type DocumentoLettura, type SezioneLettura, type IndiceSezioneLettura } from '../lib/letture';
 import { caricaSezioneLettura, catturaAncoreTesto, htmlConSegni, linkTesto, preparaBlocchi, sezionePerPagina, type BloccoPronto, type SegnoBlocco } from '../lib/letture-client';
 import { hrefPassaggioPersonale, usePassaggiPersonali } from '../lib/letture-hooks';
 import MappaPersonale from '../components/MappaPersonale';
@@ -72,7 +72,11 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   const pdfQui = proiezioni.filter((pr) => pr.origine === 'pdf' && pr.stato === 'proiettato').length;
   const daVerificare = proiezioni.filter((pr) => pr.stato === 'da-verificare');
   const indice = documento.sezioni.findIndex((s) => s.id === meta.id);
-  const lezione = meta.lezione ? idx.lezioneById.get(meta.lezione) : undefined;
+  const studio = statoStudioSezione(meta, p.lezioni);
+  const lezioniQui = studio.ids.map((id) => idx.lezioneById.get(id)).filter((l) => !!l);
+  const lezione = lezioniQui[0];
+  // Un solo stato: il comando segna (o toglie) «Studiata» su tutte le lezioni della sezione, come nel Percorso.
+  const segnaSezione = () => { for (const l of lezioniQui) segnaStudiata(slug, l.id, !studio.studiata, (idx.domandePerLezione.get(l.id) ?? []).map((q) => q.id)); };
   const ordinati = useMemo(() => [...segni].sort((a, b) => a.pagina - b.pagina || a.creata.localeCompare(b.creata)), [segni]);
   const esito = useCallback((salvato: boolean) => setErroreSalvataggio(!salvato), []);
   const impostaBozza = useCallback((nuova: Bozza | null) => {
@@ -205,7 +209,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
     <div className="originali-barra lettura-barra">
       <div className="lettura-nav">
         <button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Sezione precedente" disabled={indice <= 0} onClick={() => scegliSezione(documento.sezioni[indice - 1].id)}><Icon n="indietro" size={16} /></button>
-        <select className="select lettura-sezione-select" aria-label="Sezione del testo" value={meta.id} onChange={(e) => scegliSezione(e.target.value)}>{documento.sezioni.map((s) => <option key={s.id} value={s.id}>{s.titolo}{s.revisionata ? '' : ' · estratto'}</option>)}</select>
+        <select className="select lettura-sezione-select" aria-label="Sezione del testo" value={meta.id} onChange={(e) => scegliSezione(e.target.value)}>{documento.sezioni.map((s) => <option key={s.id} value={s.id}>{statoStudioSezione(s, p.lezioni).studiata ? '✓ ' : ''}{s.titolo}{s.revisionata ? '' : ' · estratto'}</option>)}</select>
         <button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Sezione successiva" disabled={indice >= documento.sezioni.length - 1} onClick={() => scegliSezione(documento.sezioni[indice + 1].id)}><Icon n="freccia" size={16} /></button>
       </div>
       <div className="originali-cronologia"><button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Annulla ultima modifica ai segni" title="Annulla (⌘Z / Ctrl+Z)" disabled={!cronologia.indietro.length} onClick={() => storia('indietro')}><Icon n="annulla" size={17} /></button><button className="btn btn-sm btn-ghost originali-quadrato" aria-label="Ripristina modifica ai segni" title="Ripristina (⌘⇧Z / Ctrl+Y)" disabled={!cronologia.avanti.length} onClick={() => storia('avanti')}><Icon n="ripristina" size={17} /></button></div>
@@ -226,7 +230,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
           <div className="lettura-intestazione" contentEditable={false}>
             <div className="eyebrow">{meta.revisionata ? 'Testo revisionato' : 'Testo estratto · revisione progressiva'} · pp. {meta.da}–{meta.a}</div>
             <h2 className="title-l">{meta.titolo}</h2>
-            {lezione && <div className="row lettura-rimandi"><a className="btn btn-sm" href={href(`/lezione/${lezione.id}`)}>Nel Percorso<Icon n="freccia" size={14} /></a><a className="btn btn-sm btn-ghost" href={href(`/allena?l=${lezione.id}`)}>Quiz della lezione</a><button className={`btn btn-sm ${p.lezioni[lezione.id]?.studiata ? 'btn-ok' : 'btn-ghost'}`} onClick={() => segnaStudiata(slug, lezione.id, !p.lezioni[lezione.id]?.studiata, (idx.domandePerLezione.get(lezione.id) ?? []).map((q) => q.id))}><Icon n="check" size={14} />{p.lezioni[lezione.id]?.studiata ? 'Studiata' : 'Segna come studiata'}</button></div>}
+            {lezione && <div className="row lettura-rimandi"><a className="btn btn-sm" href={href(`/lezione/${lezione.id}`)}>Nel Percorso<Icon n="freccia" size={14} /></a><a className="btn btn-sm btn-ghost" href={href(`/allena?l=${lezione.id}`)}>Quiz della lezione</a><button className={`btn btn-sm ${studio.studiata ? 'btn-ok' : 'btn-ghost'}`} title={lezioniQui.length > 1 ? `Vale per le ${lezioniQui.length} lezioni di questa sezione, anche nel Percorso` : 'Vale anche nel Percorso'} onClick={segnaSezione}><Icon n="check" size={14} />{studio.studiata ? 'Studiata' : studio.parziale ? `Studiate ${studio.studiate.length} di ${lezioniQui.length}` : 'Segna come studiata'}</button></div>}
             {pdfQui > 0 && <p className="tiny faint lettura-recupero">{pdfQui} {pdfQui === 1 ? 'segno fatto sul vecchio lettore PDF recuperato' : 'segni fatti sul vecchio lettore PDF recuperati'} nel testo.</p>}
             {daVerificare.length > 0 && <div className="lettura-recupero small">{daVerificare.length} {daVerificare.length === 1 ? 'segno del vecchio lettore PDF non ha' : 'segni del vecchio lettore PDF non hanno'} una corrispondenza univoca in questo testo: {daVerificare.length === 1 ? 'resta salvato' : 'restano salvati'} con la citazione tra i segni. <button className="btn btn-sm btn-ghost" onClick={() => setPannello('segni')}>Vedi i segni</button></div>}
           </div>

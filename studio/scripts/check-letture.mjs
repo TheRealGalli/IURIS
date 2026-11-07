@@ -172,6 +172,20 @@ try {
     pieno = false; assert.equal(store.salvaSezioneTestoOriginale(slug, doc, 'u01-l2'), true);
     assert.equal(JSON.parse(values.get(`iuris:v1:prog:${slug}`)).originali[doc.id].sezioneTesto, 'u01-l2');
   });
+  await check('Studiata è un solo stato tra Percorso e Originali, anche per sezioni con più lezioni', () => {
+    const materia = 'prova-studio', sezione = { lezione: 'u01-l1', lezioni: ['u01-l1', 'u01-l2'] };
+    assert.deepEqual(lib.lezioniSezione(sezione), ['u01-l1', 'u01-l2']);
+    store.segnaStudiata(materia, 'u01-l1', true);
+    let stato = lib.statoStudioSezione(sezione, read(materia).lezioni);
+    assert.equal(stato.studiata, false); assert.equal(stato.parziale, true);
+    for (const id of stato.ids) store.segnaStudiata(materia, id, true);
+    stato = lib.statoStudioSezione(sezione, read(materia).lezioni);
+    assert.equal(stato.studiata, true); assert.deepEqual(Object.keys(read(materia).lezioni).sort(), ['u01-l1', 'u01-l2']);
+    assert.equal(lib.statoStudioSezione({ lezione: 'u01-l1' }, read(materia).lezioni).studiata, true);
+    store.segnaStudiata(materia, 'u01-l2', false);
+    assert.equal(lib.statoStudioSezione(sezione, read(materia).lezioni).studiata, false);
+    assert.equal(lib.statoStudioSezione({}, read(materia).lezioni).studiata, false);
+  });
   console.log(`Letture verificate: ${checks} scenari su proiezione conservativa, ancore, cronologia, backup e persistenza.`);
 } finally {
   await server?.close();

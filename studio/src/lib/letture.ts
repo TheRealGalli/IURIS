@@ -169,3 +169,13 @@ export function concettiDelPassaggio(proiezione: ProiezioneSegnoTesto, blocchi: 
   const ids = new Set(proiezione.ancore.map((a) => a.blocco));
   return [...new Set(blocchi.filter((b) => ids.has(b.id)).flatMap((b) => b.concetti ?? []))];
 }
+
+/** Lezioni del Percorso coperte da una sezione: lo stato «Studiata» è solo quello delle lezioni, mai una copia. */
+export function lezioniSezione(s: Pick<SezioneCatalogoLettura, 'lezione' | 'lezioni'>): string[] {
+  return [...new Set([...(s.lezione ? [s.lezione] : []), ...(s.lezioni ?? [])])];
+}
+/** Una sezione è studiata quando lo sono tutte le sue lezioni; `parziale` se solo alcune. */
+export function statoStudioSezione(s: Pick<SezioneCatalogoLettura, 'lezione' | 'lezioni'>, lezioni: Record<string, { studiata?: string } | undefined>) {
+  const ids = lezioniSezione(s), studiate = ids.filter((id) => !!lezioni[id]?.studiata);
+  return { ids, studiate, studiata: ids.length > 0 && studiate.length === ids.length, parziale: studiate.length > 0 && studiate.length < ids.length };
+}
