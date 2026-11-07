@@ -1,5 +1,5 @@
 import type { Preferenze, Progresso } from './store';
-import { elementiAzioneSegno, type AzioneSegno, type LetturaOriginale, type SegnoOriginale } from './originali';
+import { elementiAzioneSegno, idSezioneTestoValido, normalizzaAncoreTesto, segniIdentici, type AncoraTesto, type AzioneSegno, type LetturaOriginale, type SegnoOriginale } from './originali';
 
 type Oggetto = Record<string, unknown>;
 export interface BackupDati {
@@ -50,7 +50,10 @@ function segno(v: unknown, dove: string): SegnoOriginale {
   scelta(s.tipo, ['evidenziato', 'sottolineato'], `${dove}.tipo`);
   scelta(s.colore, ['giallo', 'verde', 'rosa'], `${dove}.colore`);
   const rettangoli = array(s.rettangoli, `${dove}.rettangoli`);
-  if (!rettangoli.length || rettangoli.length > 1000) errore(`${dove}.rettangoli`);
+  if (s.ancoreTesto !== undefined) {
+    try { normalizzaAncoreTesto(s.ancoreTesto as AncoraTesto[]); } catch { errore(`${dove}.ancoreTesto`); }
+  }
+  if ((!rettangoli.length && s.ancoreTesto === undefined) || rettangoli.length > 1000) errore(`${dove}.rettangoli`);
   for (const value of rettangoli) {
     const r = oggetto(value, `${dove}.rettangolo`);
     const x = numero(r.x, dove), y = numero(r.y, dove), w = numero(r.w, dove), h = numero(r.h, dove);
@@ -62,6 +65,8 @@ function segno(v: unknown, dove: string): SegnoOriginale {
 function lettura(v: unknown, dove: string) {
   const l = oggetto(v, dove);
   positivo(l.pagina, `${dove}.pagina`);
+  if (l.sezioneTesto !== undefined && !idSezioneTestoValido(l.sezioneTesto)) errore(`${dove}.sezioneTesto`);
+  if (l.bloccoTesto !== undefined && (!idSezioneTestoValido(l.bloccoTesto) || l.sezioneTesto === undefined)) errore(`${dove}.bloccoTesto`);
   const segni = array(l.segni, `${dove}.segni`).map((s, i) => segno(s, `${dove}.segni[${i}]`));
   if (new Set(segni.map((s) => s.id)).size !== segni.length) errore(`${dove}: ID dei segni duplicati`);
   if (l.storiaSegni === undefined) return;
@@ -95,8 +100,7 @@ function lettura(v: unknown, dove: string) {
           presenti.splice(e.posizione, 0, e.segno);
         } else {
           const s = presenti[i];
-          if (!s || i !== e.posizione || s.testo !== e.segno.testo || s.creata !== e.segno.creata || s.pagina !== e.segno.pagina || s.tipo !== e.segno.tipo || s.colore !== e.segno.colore
-            || s.rettangoli.length !== e.segno.rettangoli.length || s.rettangoli.some((r, k) => ['x', 'y', 'w', 'h'].some((c) => r[c as keyof typeof r] !== e.segno.rettangoli[k][c as keyof typeof r]))) errore(`${dove}: cronologia incoerente`);
+          if (!s || i !== e.posizione || !segniIdentici(s, e.segno)) errore(`${dove}: cronologia incoerente`);
           presenti.splice(i, 1);
         }
       }

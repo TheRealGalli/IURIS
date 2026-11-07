@@ -10,7 +10,7 @@ import { LivelloDot } from './ui';
  * Popover per i link ai concetti (a.cx) dentro un contenitore: al clic (o al passaggio del mouse su desktop)
  * mostra nome, tipo e definizione breve senza lasciare la pagina.
  */
-export function useConceptPop(ref: RefObject<HTMLElement>) {
+export function useConceptPop(ref: RefObject<HTMLElement>, opzioni?: { hover?: boolean; rispettaSelezione?: boolean }) {
   const idx = useCorso();
   const p = useProgresso(idx.corso.materia.slug);
   const [stato, setStato] = useState<{ id: string; x: number; y: number } | null>(null);
@@ -29,11 +29,12 @@ export function useConceptPop(ref: RefObject<HTMLElement>) {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const hover = window.matchMedia('(hover: hover)').matches;
+    const hover = opzioni?.hover !== false && window.matchMedia('(hover: hover)').matches;
     const onClick = (e: MouseEvent) => {
       const a = (e.target as HTMLElement).closest('a.cx') as HTMLElement | null;
       if (!a) return;
       e.preventDefault();
+      if (opzioni?.rispettaSelezione && !window.getSelection()?.isCollapsed) return;
       apri(a);
     };
     const onOver = (e: MouseEvent) => {
@@ -51,8 +52,9 @@ export function useConceptPop(ref: RefObject<HTMLElement>) {
       el.removeEventListener('click', onClick);
       el.removeEventListener('mouseover', onOver);
       el.removeEventListener('mouseout', onOut);
+      clearTimeout(timer.current);
     };
-  }, [ref, apri]);
+  }, [ref, apri, opzioni?.hover, opzioni?.rispettaSelezione]);
 
   useEffect(() => {
     if (!stato) return;
@@ -65,11 +67,11 @@ export function useConceptPop(ref: RefObject<HTMLElement>) {
     const onScroll = () => setStato(null);
     document.addEventListener('mousedown', close);
     document.addEventListener('keydown', close);
-    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('scroll', onScroll, { passive: true, capture: true });
     return () => {
       document.removeEventListener('mousedown', close);
       document.removeEventListener('keydown', close);
-      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('scroll', onScroll, true);
     };
   }, [stato]);
 

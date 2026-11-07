@@ -2,7 +2,7 @@
 import { useSyncExternalStore } from 'react';
 import type { Card } from 'ts-fsrs';
 import { isoDi, oggiISO } from './util';
-import { applicaAzioneSegno, normalizzaSegno, paginaValida, segnoNellaSelezione, spostaCronologiaSegni, type DocumentoOriginale, type LetturaOriginale, type RettangoloSegno, type SegnoOriginale } from './originali';
+import { applicaAzioneSegno, idSezioneTestoValido, normalizzaSegno, paginaValida, segnoNellaSelezione, spostaCronologiaSegni, type DocumentoOriginale, type LetturaOriginale, type RettangoloSegno, type SegnoOriginale } from './originali';
 import { chiaveExtraValida, leggiBackup, preparaBackup, slugBackupValido, type BackupDati, type RiepilogoBackup } from './backup-dati';
 
 export type { RiepilogoBackup } from './backup-dati';
@@ -73,6 +73,16 @@ export function salvaPaginaOriginale(slug: string, doc: DocumentoOriginale, pagi
   return aggiornaOriginale(slug, doc, (lettura) => ({ ...lettura, pagina: paginaValida(pagina, doc.pagine), segni: lettura?.segni ?? [] }));
 }
 
+export function salvaSezioneTestoOriginale(slug: string, doc: DocumentoOriginale, sezione: string, blocco?: string): boolean {
+  if (!idSezioneTestoValido(sezione) || (blocco !== undefined && !idSezioneTestoValido(blocco))) throw new Error('Sezione del testo non valida');
+  return aggiornaOriginale(slug, doc, (lettura) => {
+    const prossima = { ...lettura, pagina: lettura?.pagina ?? 1, segni: lettura?.segni ?? [], sezioneTesto: sezione };
+    if (blocco !== undefined) prossima.bloccoTesto = blocco;
+    else if (lettura?.sezioneTesto !== sezione) delete prossima.bloccoTesto;
+    return prossima;
+  });
+}
+
 export function aggiungiSegnoOriginale(slug: string, doc: DocumentoOriginale, segno: Omit<SegnoOriginale, 'id' | 'creata'>): { id: string; salvato: boolean } {
   if (doc.materia !== slug) throw new Error('Documento di un’altra materia');
   const valido = normalizzaSegno(segno, doc.pagine);
@@ -83,6 +93,25 @@ export function aggiungiSegnoOriginale(slug: string, doc: DocumentoOriginale, se
     return applicaAzioneSegno(lettura, { tipo: 'aggiungi', segno: nuovo, posizione: lettura.segni.length });
   });
   return { id, salvato };
+}
+
+export function aggiungiSegnoTestoOriginale(slug: string, doc: DocumentoOriginale, segno: Omit<SegnoOriginale, 'id' | 'creata' | 'rettangoli'> & { ancoreTesto: NonNullable<SegnoOriginale['ancoreTesto']> }): { id: string; salvato: boolean } {
+  return aggiungiSegnoOriginale(slug, doc, { ...segno, rettangoli: [] });
+}
+
+/** Cancellazione unica per la gomma HTML: stessi ID e stessa cronologia del PDF. */
+export function rimuoviSegniOriginali(slug: string, doc: DocumentoOriginale, ids: string[]): { rimossi: number; salvato: boolean } {
+  const richiesti = new Set(ids);
+  let rimossi = 0;
+  const salvato = aggiornaOriginale(slug, doc, (lettura) => {
+    if (!lettura) return lettura;
+    const toccati = lettura.segni.map((segno, posizione) => ({ segno, posizione })).filter(({ segno }) => richiesti.has(segno.id));
+    if (!toccati.length) return lettura;
+    rimossi = toccati.length;
+    const [primo, ...altri] = toccati;
+    return applicaAzioneSegno(lettura, { tipo: 'rimuovi', ...primo, ...(altri.length ? { altri } : {}) });
+  });
+  return { rimossi, salvato };
 }
 
 export function rimuoviSegnoOriginale(slug: string, doc: DocumentoOriginale, id: string): boolean {

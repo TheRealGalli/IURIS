@@ -11,6 +11,15 @@ export interface DocumentoOriginale {
 }
 
 export interface RettangoloSegno { x: number; y: number; w: number; h: number }
+export interface AncoraTesto {
+  edizione: number;
+  blocco: string;
+  inizio: number;
+  fine: number;
+  citazione: string;
+  prefisso: string;
+  suffisso: string;
+}
 export interface SegnoOriginale {
   id: string;
   pagina: number;
@@ -19,6 +28,8 @@ export interface SegnoOriginale {
   tipo: 'evidenziato' | 'sottolineato';
   colore: 'giallo' | 'verde' | 'rosa';
   creata: string;
+  /** Gli indici si riferiscono al textContent del blocco, non al Markdown o ai pixel. */
+  ancoreTesto?: AncoraTesto[];
 }
 export interface AzioneSegno {
   tipo: 'aggiungi' | 'rimuovi';
@@ -35,6 +46,35 @@ export interface LetturaOriginale {
   pagina: number;
   segni: SegnoOriginale[];
   storiaSegni?: StoriaSegniOriginali;
+  sezioneTesto?: string;
+  bloccoTesto?: string;
+}
+
+export const idSezioneTestoValido = (id: unknown): id is string => typeof id === 'string' && /^[a-z0-9][a-z0-9._-]{0,159}$/i.test(id);
+
+/** Valida gli ancoraggi prima di scrivere, mantenendo citazione e offset esatti. */
+export function normalizzaAncoreTesto(valore: AncoraTesto[]): AncoraTesto[] {
+  if (!Array.isArray(valore) || !valore.length || valore.length > 1000) throw new Error('Ancoraggio del testo non valido');
+  let caratteri = 0;
+  const ancore = valore.map((a) => {
+    if (!a || !Number.isSafeInteger(a.edizione) || a.edizione < 1 || !idSezioneTestoValido(a.blocco)
+      || !Number.isSafeInteger(a.inizio) || !Number.isSafeInteger(a.fine) || a.inizio < 0 || a.fine <= a.inizio || a.fine > 10_000_000
+      || typeof a.citazione !== 'string' || !a.citazione.trim() || a.citazione.length !== a.fine - a.inizio
+      || typeof a.prefisso !== 'string' || a.prefisso.length > 80 || typeof a.suffisso !== 'string' || a.suffisso.length > 80) throw new Error('Ancoraggio del testo non valido');
+    caratteri += a.citazione.length;
+    return { edizione: a.edizione, blocco: a.blocco, inizio: a.inizio, fine: a.fine, citazione: a.citazione, prefisso: a.prefisso, suffisso: a.suffisso };
+  });
+  if (caratteri > 10000 || new Set(ancore.map((a) => `${a.edizione}:${a.blocco}:${a.inizio}:${a.fine}`)).size !== ancore.length) throw new Error('Ancoraggio del testo non valido');
+  return ancore;
+}
+
+/** Confronto semantico usato anche per controllare la cronologia importata. */
+export function segniIdentici(a: SegnoOriginale, b: SegnoOriginale): boolean {
+  if (a.id !== b.id || a.testo !== b.testo || a.creata !== b.creata || a.pagina !== b.pagina || a.tipo !== b.tipo || a.colore !== b.colore
+    || a.rettangoli.length !== b.rettangoli.length || a.rettangoli.some((r, i) => ['x', 'y', 'w', 'h'].some((k) => r[k as keyof typeof r] !== b.rettangoli[i][k as keyof typeof r]))) return false;
+  const aa = a.ancoreTesto ?? [], bb = b.ancoreTesto ?? [];
+  return aa.length === bb.length && aa.every((r, i) => r.edizione === bb[i].edizione && r.blocco === bb[i].blocco && r.inizio === bb[i].inizio && r.fine === bb[i].fine
+    && r.citazione === bb[i].citazione && r.prefisso === bb[i].prefisso && r.suffisso === bb[i].suffisso);
 }
 
 const LIMITE_STORIA_SEGNI = 50;
@@ -109,6 +149,7 @@ export function normalizzaSegno(segno: Omit<SegnoOriginale, 'id' | 'creata'>, pa
     return { x, y, w: Math.max(0, Math.min(1 - x, r.w)), h: Math.max(0, Math.min(1 - y, r.h)) };
   }).filter((r) => r.w > 0 && r.h > 0);
   const testo = segno.testo.trim().slice(0, 10000);
-  if (!rettangoli.length || rettangoli.length > 1000 || !testo) throw new Error('Seleziona prima un passaggio del testo');
-  return { pagina: segno.pagina, testo, rettangoli, tipo: segno.tipo, colore: segno.colore };
+  const ancoreTesto = segno.ancoreTesto === undefined ? undefined : normalizzaAncoreTesto(segno.ancoreTesto);
+  if ((!rettangoli.length && !ancoreTesto) || rettangoli.length > 1000 || !testo) throw new Error('Seleziona prima un passaggio del testo');
+  return { pagina: segno.pagina, testo, rettangoli, tipo: segno.tipo, colore: segno.colore, ...(ancoreTesto ? { ancoreTesto } : {}) };
 }

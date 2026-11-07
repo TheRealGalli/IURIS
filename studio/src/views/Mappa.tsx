@@ -11,10 +11,12 @@ import { TIPI_CONCETTO, TIPO_SINGOLARE, VERBO_RELAZIONE, type NodoMappa, type Ti
 import { Icon, LivelloDot } from '../components/ui';
 import { graphLabelLines, graphNodeRadius, graphTextWidth, GRAPH_LABEL_LINE } from '../lib/graph-geometry.mjs';
 import { placeGraphLabels } from '../lib/graph-labels.mjs';
+import MappaPersonaleView from './MappaPersonale';
 
 export default function Mappa({ query }: { query: URLSearchParams }) {
   const idx = useCorso();
   const grafo = query.get('grafo') === '1';
+  const personale = query.get('personale') === '1';
   const uid = query.get('u') ?? idx.corso.unita[0]?.id;
   const sel = query.get('c');
 
@@ -23,14 +25,15 @@ export default function Mappa({ query }: { query: URLSearchParams }) {
       <div className="row-between" style={{ marginBottom: 14 }}>
         <div>
           <div className="eyebrow">Mappa</div>
-          <h1 className="title-l" style={{ marginTop: 4 }}>{grafo ? 'La costellazione dei concetti' : 'Mappa mentale'}</h1>
+          <h1 className="title-l" style={{ marginTop: 4 }}>{personale ? 'Mappa personale' : grafo ? 'La costellazione dei concetti' : 'Mappa mentale'}</h1>
         </div>
         <div className="row" style={{ gap: 6 }}>
-          <a className={`chip ${!grafo ? 'on' : ''}`} href={href(`/mappa?u=${uid}`)} style={{ textDecoration: 'none', padding: '6px 14px' }}>Per unità</a>
-          <a className={`chip ${grafo ? 'on' : ''}`} href={href('/mappa?grafo=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Tutti i collegamenti</a>
+          <a className={`chip ${!grafo && !personale ? 'on' : ''}`} href={href(`/mappa?u=${uid}`)} style={{ textDecoration: 'none', padding: '6px 14px' }}>Per unità</a>
+          <a className={`chip ${grafo && !personale ? 'on' : ''}`} href={href('/mappa?grafo=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Tutti i collegamenti</a>
+          <a className={`chip ${personale ? 'on' : ''}`} href={href('/mappa?personale=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Personale</a>
         </div>
       </div>
-      {grafo ? <Grafo focus={sel} /> : <MindMap uid={uid} />}
+      {personale ? <MappaPersonaleView /> : grafo ? <Grafo focus={sel} /> : <MindMap uid={uid} />}
     </div>
   );
 }
