@@ -11,14 +11,25 @@ import Palette from './components/Palette';
 import Oggi from './views/Oggi';
 import Percorso from './views/Percorso';
 import LezioneView from './views/Lezione';
-import Mappa from './views/Mappa';
-import Cronologia from './views/Cronologia';
-import Glossario from './views/Glossario';
-import ConcettoView from './views/Concetto';
-import Allena from './views/Allena';
-import Progressi from './views/Progressi';
-import Backup from './views/Backup';
-const Originali = lazy(() => import('./views/Originali'));
+// Le viste più pesanti (mappe con d3, cronologia, allenamento) si scaricano alla prima apertura,
+// e subito dopo l'avvio, a browser libero: la prima schermata arriva prima, soprattutto sul telefono.
+const carica = {
+  mappa: () => import('./views/Mappa'), cronologia: () => import('./views/Cronologia'), glossario: () => import('./views/Glossario'),
+  concetto: () => import('./views/Concetto'), allena: () => import('./views/Allena'), progressi: () => import('./views/Progressi'),
+  backup: () => import('./views/Backup'), originali: () => import('./views/Originali'),
+};
+const Mappa = lazy(carica.mappa);
+const Cronologia = lazy(carica.cronologia);
+const Glossario = lazy(carica.glossario);
+const ConcettoView = lazy(carica.concetto);
+const Allena = lazy(carica.allena);
+const Progressi = lazy(carica.progressi);
+const Backup = lazy(carica.backup);
+const Originali = lazy(carica.originali);
+if (typeof window !== 'undefined') {
+  const prefetch = () => { for (const f of Object.values(carica)) f().catch(() => { /* riprova alla prima apertura */ }); };
+  window.addEventListener('load', () => ('requestIdleCallback' in window ? requestIdleCallback(prefetch, { timeout: 4000 }) : setTimeout(prefetch, 1500)), { once: true });
+}
 const Tour = lazy(() => import('./components/Tour'));
 
 const NAV = [
@@ -102,13 +113,13 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
 
   let contenuto;
   if (faseDemo === 'starting' || faseDemo === 'closing') contenuto = null;
-  else if (rotta.parti[0] === 'backup') contenuto = <Backup materie={manifest.materie} materia={materia.slug} />;
+  else if (rotta.parti[0] === 'backup') contenuto = <Suspense fallback={null}><Backup materie={manifest.materie} materia={materia.slug} /></Suspense>;
   else if (rotta.parti[0] === 'demo') contenuto = <div className="empty faint">Preparazione della visita guidata…</div>;
   else if (rotta.parti[0] === 'altro') contenuto = <Altro corso={corso} />;
   else if (!materia.disponibile) contenuto = <InPreparazione m={materia} />;
   else if (err) contenuto = <div className="empty"><h3>Errore</h3><p>{err}</p></div>;
   else if (!idx) contenuto = <div className="empty faint">Caricamento del corso…</div>;
-  else contenuto = <Rotte />;
+  else contenuto = <Suspense fallback={<div className="empty faint" role="status">Apertura…</div>}><Rotte /></Suspense>;
 
   const body = (
     <div className={`shell${lettore ? ' shell-reader' : ''}${demo ? ' shell-tour' : ''}`} aria-hidden={demo || undefined}>
