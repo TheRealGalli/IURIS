@@ -56,3 +56,71 @@
   .lettura .originali-cronologia { padding-left: 0; border-left: 0; }
   .lettura-pannello-mappa { width: 100%; }
 }
+
+/* ===== Touch: iPad e telefono ===== */
+.lettura-attrezzi { display: contents; }
+.lettura-colore-attivo, .lettura-salva-testo { display: none; }
+.lettura .lettura-viewport { -webkit-overflow-scrolling: touch; }
+@media (pointer: coarse), (max-width: 860px) {
+  .originali.lettura .btn { min-height: 40px; padding: 6px 10px; font-size: 13px; }
+  .originali.lettura .originali-quadrato { width: 42px; min-height: 42px; padding: 6px; }
+  .lettura .originali-header { min-height: 56px; }
+  .lettura .originali-colore { width: 30px; height: 30px; position: relative; }
+  .lettura .originali-colore::after { content: ""; position: absolute; inset: -7px -3px; }
+  .lettura .originali-colori { gap: 8px; }
+  .lettura .lettura-sezione-select { min-height: 40px; }
+  .lettura .lettura-pannello-body .btn { min-height: 44px; }
+  .lettura .lettura-nota summary { padding: 10px 0; }
+}
+/* Da iPad in verticale in giù: gli strumenti per segnare stanno in una barra fluttuante in basso, a portata di pollice
+ * (o di Pencil), sopra la barra delle sezioni; in alto resta la navigazione fra le sezioni. */
+@media (max-width: 860px) {
+  .lettura .lettura-attrezzi {
+    position: fixed; z-index: 25; display: flex; align-items: center; justify-content: center; gap: 6px;
+    left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100vw - 16px - env(safe-area-inset-left) - env(safe-area-inset-right));
+    bottom: calc(70px + env(safe-area-inset-bottom)); padding: 5px 6px;
+    border: 1px solid var(--line-2); border-radius: 18px; background: color-mix(in srgb, var(--surface) 94%, transparent);
+    -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); box-shadow: 0 8px 28px #0002;
+  }
+  .lettura .originali-barra .lettura-nav { flex: 1; }
+  .lettura .lettura-sezione-select { flex: 1; width: auto; max-width: none; }
+  .lettura .lettura-attrezzi .originali-cronologia { padding-left: 0; padding-right: 6px; border-left: 0; border-right: 1px solid var(--line); }
+  .lettura .lettura-salva:not(:disabled) { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .lettura .lettura-salva { width: auto !important; gap: 6px; padding-left: 12px; padding-right: 14px; }
+  .lettura .lettura-salva-testo { display: inline; font-weight: 600; }
+  .lettura-articolo.prose { padding-bottom: 150px; }
+  .lettura .originali-feedback { bottom: calc(132px + env(safe-area-inset-bottom)); position: fixed; }
+  .lettura[data-pannello] .lettura-attrezzi { display: none; }
+  /* Pannelli secondari come foglio dal basso */
+  .lettura-pannello, .lettura-pannello-mappa {
+    inset: auto 0 0 0; width: 100%; max-height: 82%; height: 82%; border-left: 0; border-top: 1px solid var(--line-2);
+    border-radius: 18px 18px 0 0; box-shadow: 0 -12px 36px #0003; animation: foglio .22s ease-out;
+  }
+  .lettura-pannello > header { position: relative; padding-top: 18px; }
+  .lettura-pannello > header::before { content: ""; position: absolute; top: 7px; left: 50%; width: 38px; height: 4px; margin-left: -19px; border-radius: 4px; background: var(--line-2); }
+  .lettura-pannello-body { padding-bottom: calc(16px + env(safe-area-inset-bottom)); overscroll-behavior: contain; }
+}
+@keyframes foglio { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+/* Telefono: i sei colori si aprono da un solo pulsante, sopra la barra. */
+@media (max-width: 560px) {
+  .lettura .lettura-colore-attivo { display: block; }
+  .lettura .lettura-attrezzi .originali-colori { display: none; }
+  .lettura .lettura-attrezzi .originali-colori.aperti {
+    display: flex; position: absolute; bottom: calc(100% + 8px); right: 8px; gap: 10px; padding: 9px 12px;
+    border: 1px solid var(--line-2); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow);
+  }
+  .lettura .lettura-attrezzi { gap: 3px; padding: 4px; }
+  .lettura .lettura-attrezzi .originali-cronologia { padding-right: 3px; }
+  .lettura .lettura-salva { padding-left: 10px; padding-right: 12px; }
+}
+@media (max-width: 360px) {
+  .lettura .lettura-attrezzi .originali-quadrato { width: 38px; }
+  .lettura .lettura-salva-testo { display: none; }
+  .lettura .lettura-salva { width: 42px !important; padding: 6px; }
+}
+@media (max-width: 560px) { .lettura .lettura-colore-attivo { width: 34px; height: 34px; margin: 0 4px; } }
+/* Telefono (anche in orizzontale): nel lettore la barra dell'app lascia spazio al testo; restano le sezioni in basso. */
+@media (max-width: 600px), (max-width: 860px) and (max-height: 500px) {
+  .shell-reader .topbar { display: none; }
+  .lettura .originali-header { padding-top: max(5px, env(safe-area-inset-top)); }
+}
