@@ -1,8 +1,8 @@
 import { Component, lazy, Suspense, useEffect, useState, type ReactNode } from 'react';
 import { caricaCorso, CorsoContext, fetchManifest, useCorso, type Indice } from './lib/data';
-import { href, useRotta } from './lib/router';
+import { href, useRotta, vai } from './lib/router';
 import { ripassoDiOggi } from './lib/srs';
-import { leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
+import { finisciDemo, iniziaDemo, leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
 import type { Manifest, MateriaInfo } from './lib/types';
 import { Icon } from './components/ui';
 import Palette from './components/Palette';
@@ -17,7 +17,7 @@ import Allena from './views/Allena';
 import Progressi from './views/Progressi';
 import Backup from './views/Backup';
 const Originali = lazy(() => import('./views/Originali'));
-const Demo = lazy(() => import('./views/Demo'));
+const Tour = lazy(() => import('./components/Tour'));
 
 const NAV = [
   { to: '/', key: '', label: 'Oggi', icon: 'oggi' },
@@ -57,6 +57,22 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
   const [idx, setIdx] = useState<Indice | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [palette, setPalette] = useState(false);
+  const [faseDemo, setFaseDemo] = useState<'idle' | 'starting' | 'running' | 'closing'>('idle');
+  const [uscitaDemo, setUscitaDemo] = useState('/');
+  const demo = faseDemo !== 'idle';
+  useEffect(() => {
+    if (rotta.parti[0] === 'demo' && faseDemo === 'idle' && idx) {
+      setPalette(false); setFaseDemo('starting');
+    }
+  }, [rotta.hash, faseDemo, idx]);
+  useEffect(() => {
+    if (faseDemo === 'starting') {
+      iniziaDemo(materia.slug); vai('/'); setFaseDemo('running');
+    } else if (faseDemo === 'closing') {
+      finisciDemo(); vai(uscitaDemo); setFaseDemo('idle');
+    }
+  }, [faseDemo]);
+  const chiudiDemo = (to = '/') => { setUscitaDemo(to); setFaseDemo('closing'); };
 
   useEffect(() => {
     setIdx(null); setErr(null);
@@ -65,12 +81,13 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (demo) return;
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); setPalette((v) => !v); }
       if (e.key === '/' && !(e.target as HTMLElement).closest('input, textarea')) { e.preventDefault(); setPalette(true); }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, []);
+  }, [demo]);
 
   const scegliMateria = (slug: string) => {
     scriviPref({ materia: slug });
@@ -78,8 +95,9 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
   };
 
   let contenuto;
-  if (rotta.parti[0] === 'backup') contenuto = <Backup materie={manifest.materie} materia={materia.slug} />;
-  else if (rotta.parti[0] === 'demo') contenuto = <Suspense fallback={<div className="empty faint">Apertura della demo…</div>}><Demo /></Suspense>;
+  if (faseDemo === 'starting' || faseDemo === 'closing') contenuto = null;
+  else if (rotta.parti[0] === 'backup') contenuto = <Backup materie={manifest.materie} materia={materia.slug} />;
+  else if (rotta.parti[0] === 'demo') contenuto = <div className="empty faint">Preparazione della visita guidata…</div>;
   else if (rotta.parti[0] === 'altro') contenuto = <Altro />;
   else if (!materia.disponibile) contenuto = <InPreparazione m={materia} />;
   else if (err) contenuto = <div className="empty"><h3>Errore</h3><p>{err}</p></div>;
@@ -87,7 +105,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
   else contenuto = <Rotte />;
 
   const body = (
-    <div className={`shell${lettore ? ' shell-reader' : ''}`}>
+    <div className={`shell${lettore ? ' shell-reader' : ''}${demo ? ' shell-tour' : ''}`} aria-hidden={demo || undefined}>
       <aside className="side">
         <a className="brand" href={href('/')}>
           <span className="brand-mark">I</span>
@@ -111,7 +129,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
           </a>
         </nav>
         <div className="side-foot">
-          <a className={`search-btn demo-link${rotta.parti[0] === 'demo' ? ' on' : ''}`} href={href('/demo')} aria-current={rotta.parti[0] === 'demo' ? 'page' : undefined}><Icon n="demo" size={16} /> Demo interattiva</a>
+          <a className={`search-btn demo-link${demo ? ' on' : ''}`} href={href('/demo')}><span className="demo-monogram" aria-hidden="true">I</span> Demo interattiva</a>
           {idx && (
             <button className="search-btn" onClick={() => setPalette(true)}>
               <Icon n="cerca" size={16} /> Cerca <kbd>⌘K</kbd>
@@ -132,6 +150,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
         <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
       </div>
       <TabBar />
+      {faseDemo === 'running' && idx && <Suspense fallback={null}><Tour idx={idx} onClose={chiudiDemo} /></Suspense>}
       {palette && idx && <Palette onClose={() => setPalette(false)} />}
     </div>
   );

@@ -78,14 +78,14 @@ export default function Backup({ materie, materia }: { materie: MateriaInfo[]; m
           {daMostrare.map((slug) => <RigaMateria key={slug} slug={slug} nome={nomeMateria(slug)} idx={indici.get(slug)} caricando={caricando} />)}
         </div>}
         {dati && <p className="tiny faint">{dati.segni} {dati.segni === 1 ? 'annotazione salvata' : 'annotazioni salvate'} · tutte incluse nello stesso file.</p>}
-        <button className="btn btn-primary" onClick={scarica}><Icon n="scarica" size={17} />Scarica backup completo</button>
+        <button data-tour="scarica-backup" className="btn btn-primary" onClick={scarica}><Icon n="scarica" size={17} />Scarica backup completo</button>
         <p className="tiny faint">Un file .json, anche per le materie aggiunte in futuro. Conserva la copia più recente in un posto facile da ritrovare.</p>
       </section>
       <section className="card stack">
         <Icon n="carica" size={28} />
         <h2 className="title-m">Ripristina il backup</h2>
         <p className="muted small">Il caricamento di un solo file ripristina tutte le materie e le annotazioni incluse. Il contenuto viene verificato e mostrato prima del ripristino.</p>
-        <button className="btn" disabled={leggendo} onClick={() => fileRef.current?.click()}><Icon n="carica" size={17} />{leggendo ? 'Lettura del file…' : 'Carica backup'}</button>
+        <button data-tour="carica-backup" className="btn" disabled={leggendo} onClick={() => fileRef.current?.click()}><Icon n="carica" size={17} />{leggendo ? 'Lettura del file…' : 'Carica backup'}</button>
         <input ref={fileRef} type="file" accept=".json,application/json" aria-label="File di backup" hidden onChange={async (e) => {
           const file = e.target.files?.[0]; e.target.value = '';
           if (!file) return;

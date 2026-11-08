@@ -12,6 +12,7 @@ function parse(hash: string): Rotta {
 let corrente = parse(location.hash);
 const subs = new Set<() => void>();
 window.addEventListener('hashchange', () => {
+  if (corrente.hash === location.hash) return;
   corrente = parse(location.hash);
   subs.forEach((s) => s());
 });
@@ -24,6 +25,10 @@ export function vai(to: string) {
   const h = to.startsWith('#') ? to : `#${to.startsWith('/') ? '' : '/'}${to}`;
   if (location.hash === h) return;
   location.hash = h;
+  // Il cambio è immediato anche per chi deve smontare una vista prima di
+  // riattivare l'archivio personale al termine della visita guidata.
+  corrente = parse(h);
+  subs.forEach((s) => s());
   window.scrollTo({ top: 0 });
 }
 

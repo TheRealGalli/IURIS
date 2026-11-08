@@ -93,7 +93,7 @@ export default function Progressi() {
           {prossima && <p className="small muted" style={{ marginBottom: 0 }}>Prossima domanda in scadenza: {prossima <= new Date() ? 'adesso' : prossima.toLocaleString('it-IT', { weekday: 'long', hour: '2-digit', minute: '2-digit' })}</p>}
         </div>
 
-        <div className="card">
+        <div className="card" data-tour="concetti">
           <h3 className="title-s" style={{ marginBottom: 10 }}>Concetti</h3>
           {totConc ? (
             <>

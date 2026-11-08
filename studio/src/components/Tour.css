@@ -1,0 +1,66 @@
+/* La visita abita sopra le pagine reali. La I resta un segno tipografico. */
+.demo-monogram { display: grid; place-items: center; width: 20px; height: 20px; flex: none; border-radius: 6px; background: var(--ink); color: var(--bg); font-family: var(--serif); font-size: 16px; line-height: 1; transition: transform .5s cubic-bezier(.34,1.56,.64,1); }
+.demo-link:hover .demo-monogram { transform: scaleY(1.22); }
+.shell-tour .demo-monogram { animation: iuris-wake 1s both; }
+@keyframes iuris-wake { 0% { transform: scale(1); } 35% { transform: scale(1.35,.75); } 65% { transform: scale(.9,1.6); } 100% { transform: scale(1,1.2); } }
+.tour-layer { position: fixed; inset: 0; z-index: 1000; isolation: isolate; color: var(--ink); }
+.tour-shade { position: absolute; inset: 0; background: rgba(12, 14, 12, .48); transition: background .3s; }
+.tour-spot { position: fixed; z-index: 1; border: 2px solid var(--gold); border-radius: 13px; box-shadow: 0 0 0 9999px rgba(12,14,12,.48), 0 0 24px #ddb76b35; pointer-events: none; transition: left .35s, top .35s, width .35s, height .35s; }
+.tour-status { position: fixed; z-index: 4; top: 14px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--line-2); box-shadow: var(--shadow); border-radius: 99px; padding: 7px 14px; font-size: 11px; white-space: nowrap; }
+.tour-status-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
+.tour-status-sep { color: var(--ink-3); }
+.tour-status > span:last-child { color: var(--ink-2); }
+.tour-cursor { position: fixed; top: 0; left: 0; z-index: 5; pointer-events: none; filter: drop-shadow(0 2px 3px #0006); transition: transform .65s cubic-bezier(.25,.8,.25,1); transform: translate(110px, 640px); }
+.tour-cursor svg { overflow: visible; display: block; transition: scale .15s; }
+.tour-cursor path { fill: #282a24; stroke: #f2d68f; stroke-width: 1.7; stroke-linejoin: round; }
+.tour-cursor > span { display: block; margin: 0 0 0 20px; background: #282a24; color: #f2d68f; font-size: 9px; letter-spacing: .1em; border-radius: 4px; padding: 1px 5px; }
+.tour-cursor.press svg { scale: .8; }
+.tour-cursor.press::before { content: ''; position: absolute; top: -15px; left: -15px; width: 40px; height: 40px; border: 2px solid #f2d68f; border-radius: 50%; animation: iuris-ripple .6s both; }
+@keyframes iuris-ripple { from { opacity: .9; transform: scale(.3); } to { opacity: 0; transform: scale(1.5); } }
+.tour-working { position: fixed; z-index: 7; left: 50%; bottom: 24px; transform: translateX(-50%); display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 14px; background: var(--surface); box-shadow: 0 8px 40px #0004; border: 1px solid var(--line-2); font-size: 13px; white-space: nowrap; }
+.tour-monogram { font-family: var(--serif); font-size: 26px; color: var(--gold); animation: iuris-breathe 1.2s ease-in-out infinite; }
+@keyframes iuris-breathe { 50% { transform: scale(.85,1.2); } }
+.tour-working button { display: grid; place-items: center; padding: 6px; border: 0; border-radius: 6px; background: var(--bg-2); cursor: pointer; }
+.tour-bubble { position: fixed; z-index: 6; left: var(--bubble-x); top: var(--bubble-y); width: min(380px, calc(100vw - 24px)); max-height: calc(100dvh - 90px); overflow-y: auto; border: 1px solid var(--line-2); border-radius: 18px; background: var(--surface); box-shadow: 0 18px 60px #0005; padding: 20px; visibility: hidden; opacity: 0; transform: translateY(10px) scale(.98); transform-origin: bottom left; transition: opacity .25s, transform .3s cubic-bezier(.22,1,.36,1); }
+.tour-bubble.ready { visibility: visible; opacity: 1; transform: translateY(0) scale(1); }
+.tour-bubble-head { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.tour-bubble .eyebrow { font-size: 9px; letter-spacing: .12em; }
+.tour-step { font-size: 12px; color: var(--ink-2); margin-top: 3px; }
+.tour-character { position: relative; display: grid; place-items: center; width: 44px; height: 48px; flex: none; background: var(--ink); color: var(--bg); border-radius: 13px 13px 17px 17px; transform-origin: bottom center; animation: iuris-greet .8s both; }
+.tour-character > span { display: block; font-family: var(--serif); font-weight: 600; font-size: 42px; line-height: 1; }
+.tour-character > i { position: absolute; top: 22px; left: 18px; width: 2.5px; height: 3px; border-radius: 99px; background: var(--gold); animation: iuris-blink 5s infinite; }
+.tour-character > i:last-child { left: 23px; }
+@keyframes iuris-greet { 0% { transform: scale(.7,.4) rotate(-8deg); } 50% { transform: scale(.9,1.22) rotate(5deg); } 100% { transform: scale(1) rotate(0); } }
+@keyframes iuris-blink { 0%, 43%, 47%, 100% { scale: 1 1; } 45% { scale: 1 .12; } }
+.tour-close { margin-left: auto; display: grid; place-items: center; padding: 6px; background: transparent; border: 0; border-radius: 7px; cursor: pointer; color: var(--ink-2); }
+.tour-close:hover { background: var(--bg-2); }
+.tour-bubble h2 { line-height: 1.25; font-size: 23px; }
+.tour-bubble h2:focus { outline: none; }
+.tour-copy { margin: 12px 0 18px; font-size: 14px; line-height: 1.65; color: var(--ink-2); }
+.tour-timer { height: 3px; overflow: hidden; background: var(--line); border-radius: 99px; margin-bottom: 16px; }
+.tour-timer span { display: block; height: 100%; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .1s linear; }
+.tour-controls { display: flex; align-items: center; gap: 6px; }
+.tour-controls button, .tour-retry { display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-size: 12px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line-2); background: var(--surface); cursor: pointer; }
+.tour-controls button:disabled { opacity: .4; cursor: default; }
+.tour-controls .tour-next { margin-left: auto; background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.tour-play > span { font-size: 16px; line-height: 1; }
+.tour-retry { margin-bottom: 14px; }
+.tour-chapters { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; font-size: 11px; color: var(--ink-3); }
+.tour-chapters select { width: 60%; border: 0; border-radius: 5px; padding: 4px; font: inherit; font-size: 12px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.tour-layer button:focus-visible, .tour-layer select:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+@media (max-width: 700px) {
+  .shell-tour:not(.shell-reader) .main { padding-bottom: calc(60dvh + 96px); }
+  .tour-bubble { max-height: min(58dvh, calc(100dvh - 100px)); padding: 16px; border-radius: 15px; }
+  .tour-bubble-head { margin-bottom: 12px; }
+  .tour-character { width: 36px; height: 40px; }
+  .tour-character > span { font-size: 35px; }
+  .tour-character > i { top: 19px; left: 14px; }
+  .tour-character > i:last-child { left: 19px; }
+  .tour-bubble h2 { font-size: 21px; }
+  .tour-copy { font-size: 13px; line-height: 1.55; margin-bottom: 14px; }
+  .tour-status { top: 8px; font-size: 10px; }
+  .tour-working { bottom: 14px; max-width: calc(100vw - 24px); font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tour-layer *, .demo-monogram { animation: none !important; transition: none !important; }
+}

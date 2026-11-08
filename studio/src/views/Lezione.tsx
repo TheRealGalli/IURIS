@@ -119,7 +119,7 @@ export default function LezioneView({ id }: { id: string }) {
 
         <aside className="lesson-aside">
           <div className="card stack" style={{ gap: 10 }}>
-            <button className={`btn btn-lg ${studiata ? 'btn-ok' : 'btn-primary'}`} onClick={() => segnaStudiata(slug, l.id, !studiata, qs.map((q) => q.id))}>
+            <button data-tour="studiata" aria-pressed={studiata} className={`btn btn-lg ${studiata ? 'btn-ok' : 'btn-primary'}`} onClick={() => segnaStudiata(slug, l.id, !studiata, qs.map((q) => q.id))}>
               <Icon n="check" size={18} stroke={2.4} /> {studiata ? 'Studiata' : 'Segna come studiata'}
             </button>
             {testoEsteso && <a className="btn" href={testoEsteso}><Icon n="libro" size={16} /> Leggi il testo esteso</a>}

@@ -1,3 +1,4 @@
+import { archivio } from '../lib/archivio';
 import { useEffect, useMemo, useState } from 'react';
 import { useCorso, type Indice } from '../lib/data';
 import { href, vai } from '../lib/router';
@@ -16,14 +17,14 @@ interface Salvata { origine: string; s: Sessione; coda: Domanda[]; i: number; vo
 const chiaveSessione = (slug: string) => `iuris:v1:sessione:${slug}`;
 function leggiSalvata(slug: string): Salvata | null {
   try {
-    const x = JSON.parse(localStorage.getItem(chiaveSessione(slug)) ?? 'null') as Salvata | null;
+    const x = JSON.parse(archivio().getItem(chiaveSessione(slug)) ?? 'null') as Salvata | null;
     // vale solo se non è finita e non è più vecchia di un giorno e mezzo
     if (!x || x.i >= x.coda.length || Date.now() - Date.parse(x.quando) > 36 * 3600e3) return null;
     return x;
   } catch { return null; }
 }
 function scriviSalvata(slug: string, x: Salvata | null) {
-  try { if (x) localStorage.setItem(chiaveSessione(slug), JSON.stringify(x)); else localStorage.removeItem(chiaveSessione(slug)); } catch { /* senza storage non si riprende, pazienza */ }
+  try { if (x) archivio().setItem(chiaveSessione(slug), JSON.stringify(x)); else archivio().removeItem(chiaveSessione(slug)); } catch { /* senza storage non si riprende, pazienza */ }
 }
 
 /** Integra le verifiche delle nuove lezioni senza perdere il punto del ripasso in sospeso. */

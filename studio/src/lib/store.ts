@@ -1,5 +1,6 @@
 // Progressi di studio salvati nel browser (localStorage), uno per materia.
 import { useSyncExternalStore } from 'react';
+import { archivio, apriArchivioDemo, chiudiArchivioDemo, inDemo } from './archivio';
 import type { Card } from 'ts-fsrs';
 import { isoDi, oggiISO } from './util';
 import { applicaAzioneSegno, idSezioneTestoValido, normalizzaSegno, paginaValida, segnoNellaSelezione, spostaCronologiaSegni, type DocumentoOriginale, type LetturaOriginale, type RettangoloSegno, type SegnoOriginale } from './originali';
@@ -44,7 +45,7 @@ function leggi(slug: string): Progresso {
   if (mem.has(slug)) return mem.get(slug)!;
   let p = vuoto();
   try {
-    const raw = localStorage.getItem(key(slug));
+    const raw = archivio().getItem(key(slug));
     if (raw) p = migraLimiteNuove({ ...vuoto(), ...JSON.parse(raw) });
   } catch { /* storage non disponibile: si lavora in memoria */ }
   mem.set(slug, p);
@@ -54,7 +55,7 @@ function leggi(slug: string): Progresso {
 function persisti(slug: string, next: Progresso): boolean {
   mem.set(slug, next);
   let salvato = true;
-  try { localStorage.setItem(key(slug), JSON.stringify(next)); } catch { salvato = false; }
+  try { archivio().setItem(key(slug), JSON.stringify(next)); } catch { salvato = false; }
   listeners.forEach((l) => l());
   return salvato;
 }
@@ -244,12 +245,12 @@ export interface Preferenze {
 let pref: Preferenze | null = null;
 export function leggiPref(): Preferenze {
   if (pref) return pref;
-  try { pref = JSON.parse(localStorage.getItem(PREF) || '{}'); } catch { pref = {}; }
+  try { pref = JSON.parse(archivio().getItem(PREF) || '{}'); } catch { pref = {}; }
   return pref!;
 }
 export function scriviPref(p: Partial<Preferenze>) {
   pref = { ...leggiPref(), ...p };
-  try { localStorage.setItem(PREF, JSON.stringify(pref)); } catch { /* noop */ }
+  try { archivio().setItem(PREF, JSON.stringify(pref)); } catch { /* noop */ }
   listeners.forEach((l) => l());
 }
 export function usePref(): Preferenze {
@@ -263,7 +264,7 @@ function datiCompleti(): BackupDati {
   const altriDati: Record<string, string> = {};
   let preferenze: Preferenze;
   try {
-    const storage = localStorage;
+    const storage = archivio();
     const chiavi = Array.from({ length: storage.length }, (_, i) => storage.key(i)).filter((k): k is string => k !== null);
     for (const k of chiavi) {
       if (!k.startsWith('iuris:v1:')) continue;
@@ -313,7 +314,7 @@ export function importaTutto(json: string, materiaLegacy?: string): RiepilogoBac
   let storage: Storage;
   const precedenti = new Map<string, string | null>();
   try {
-    storage = localStorage;
+    storage = archivio();
     for (const k of scritture.keys()) precedenti.set(k, storage.getItem(k));
   } catch { throw new Error('Il browser non consente di leggere i dati: importazione annullata'); }
   const tentate: string[] = [];
@@ -342,4 +343,23 @@ export function importaTutto(json: string, materiaLegacy?: string): RiepilogoBac
   if (dati.preferenze !== undefined) pref = dati.preferenze;
   listeners.forEach((listener) => { try { listener(); } catch { /* un componente non deve invalidare un ripristino già concluso */ } });
   return riepilogo;
+}
+
+// Le viste vengono smontate prima del cambio di archivio: anche timer e cleanup
+// del lettore completano le loro scritture nell'archivio a cui appartengono.
+let archivioPersonale: { progressi: Map<string, Progresso>; preferenze: Preferenze } | null = null;
+export function iniziaDemo(materia: string) {
+  if (inDemo()) return;
+  archivioPersonale = { progressi: new Map(mem), preferenze: leggiPref() };
+  apriArchivioDemo(); mem.clear();
+  pref = { ...archivioPersonale.preferenze, materia, voce: false };
+  archivio().setItem(PREF, JSON.stringify(pref));
+  listeners.forEach((l) => l());
+}
+export function finisciDemo() {
+  if (!archivioPersonale) return;
+  chiudiArchivioDemo(); mem.clear();
+  for (const [slug, p] of archivioPersonale.progressi) mem.set(slug, p);
+  pref = archivioPersonale.preferenze; archivioPersonale = null;
+  listeners.forEach((l) => l());
 }
