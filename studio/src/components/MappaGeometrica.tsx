@@ -18,7 +18,11 @@ interface Props {
   onApri: (href: string) => void;
   totale?: number;
   nonCollegati?: number;
+  /** Pagina Mappa personale sul computer: finestra a tutta altezza come le altre mappe, comandi dentro la mappa. */
+  pagina?: boolean;
 }
+/** Spazio in alto lasciato ai comandi dentro la finestra. */
+const SPAZIO_COMANDI = 60;
 
 const accorcia = (t: string, n: number) => t.length > n ? `${t.slice(0, n - 1).trimEnd()}…` : t;
 /** Colonne dell'albero aperto: servono a dividere la larghezza disponibile fra i livelli. */
@@ -145,7 +149,7 @@ function Archi({ archi, sem, ordine, fuoco, setFuoco, firma }: { archi: ArcoConc
  * Finestra con zoom e trascinamento (lo stesso d3-zoom delle altre mappe) al posto dello scorrimento orizzontale.
  * Si riadatta in larghezza quando cambia la lezione, la forma o lo strato dei concetti; ripiegare un ramo non sposta la vista.
  */
-function Vista({ chiave, compatta, children }: { chiave: string; compatta: boolean; children: ReactNode }) {
+function Vista({ chiave, compatta, children, piena = false, comandi }: { chiave: string; compatta: boolean; children: ReactNode; piena?: boolean; comandi?: (adatta: () => void) => ReactNode }) {
   const fin = useRef<HTMLDivElement>(null), tela = useRef<HTMLDivElement>(null);
   const tr = useRef({ x: 0, y: 0, k: 1 }), dim = useRef({ w: 0, h: 0 });
   const [lar, setLar] = useState(0), [alto, setAlto] = useState(0);
@@ -159,8 +163,9 @@ function Vista({ chiave, compatta, children }: { chiave: string; compatta: boole
   const misura = () => { const t = tela.current; if (t) dim.current = { w: t.scrollWidth, h: t.scrollHeight }; return dim.current; };
   const adatta = (modo: 'tutto' | 'larghezza', durata = 0) => {
     const f = fin.current; if (!f) return;
-    const q = inquadra(misura(), { w: f.clientWidth, h: f.clientHeight }, modo);
-    z.imposta(q.x, q.y, q.k, durata);
+    const sopra = piena ? SPAZIO_COMANDI : 0;
+    const q = inquadra(misura(), { w: f.clientWidth, h: f.clientHeight - sopra }, modo);
+    z.imposta(q.x, q.y + sopra, q.k, durata);
   };
   useLayoutEffect(() => {
     const f = fin.current; if (!f) return;
@@ -170,10 +175,11 @@ function Vista({ chiave, compatta, children }: { chiave: string; compatta: boole
   // Altezza della finestra e inquadratura iniziale; poi segue solo le misure (aprire o chiudere un ramo).
   useLayoutEffect(() => {
     const t = tela.current; if (!t || !lar) return;
-    const c = misura(), h = altezzaVista(c, lar, massimo());
-    setAlto(h);
+    const c = misura(), h = piena ? (fin.current?.clientHeight ?? 0) : altezzaVista(c, lar, massimo());
+    if (!piena) setAlto(h);
     // Cambiare la larghezza della finestra non toglie lo zoom scelto: si reinquadra solo per una nuova lezione, forma o strato.
-    if (inquadrata.current !== chiave) { inquadrata.current = chiave; const q = inquadra(c, { w: lar, h }, 'larghezza'); z.imposta(q.x, q.y, q.k); }
+    if (inquadrata.current !== chiave) { inquadrata.current = chiave; const sopra = piena ? SPAZIO_COMANDI : 0; const q = inquadra(c, { w: lar, h: h - sopra }, 'larghezza'); z.imposta(q.x, q.y + sopra, q.k); }
+    if (piena) return;
     let attesa = 0;
     const ro = new ResizeObserver(() => { cancelAnimationFrame(attesa); attesa = requestAnimationFrame(() => { const m = misura(); setAlto(altezzaVista(m, fin.current?.clientWidth ?? lar, massimo())); }); });
     ro.observe(t); for (const x of t.children) ro.observe(x); const d = t.querySelector('.mg-albero-dentro'); if (d) ro.observe(d);
@@ -197,11 +203,11 @@ function Vista({ chiave, compatta, children }: { chiave: string; compatta: boole
   }, []);
   // Doppio clic sullo sfondo: tutta la mappa in una volta (sui nodi il clic apre il testo).
   const tutto = (e: MouseEvent) => { if (!(e.target as Element).closest('.mg-nodo, .mg-piega')) adatta('tutto', 350); };
-  return <div ref={fin} className="mg-finestra" style={alto ? { height: alto } : undefined} tabIndex={0} role="group"
+  return <>{comandi?.(() => adatta('tutto', 350))}<div ref={fin} className="mg-finestra" style={alto && !piena ? { height: alto } : undefined} tabIndex={0} role="group"
     aria-label="Mappa interattiva: trascina per spostarti, pizzica o usa Ctrl/⌘ e la rotella per lo zoom, doppio clic per vederla tutta"
     onPointerDown={(e) => { if (document.activeElement !== e.currentTarget && !(e.target as Element).closest('a, button')) e.currentTarget.focus({ preventScroll: true }); }} onDoubleClick={tutto}>
     <div ref={tela} className="mg-tela" style={lar ? { width: lar } : undefined}>{children}</div>
-  </div>;
+  </div></>;
 }
 
 const ordineNodi = (radici: NodoGeo[]) => { const m = new Map<string, number>(); const v = (n: NodoGeo) => { m.set(n.id, m.size); n.figli.forEach(v); }; radici.forEach(v); return m; };
@@ -225,8 +231,10 @@ function Disegno({ s, modo, chiusi, alterna, apri, significato }: { s: SezioneGe
   </div>;
 }
 
-function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, totale, nonCollegati = 0 }: Props) {
+function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, totale, nonCollegati = 0, pagina = false }: Props) {
   const compact = useCompact();
+  // Sul computer la pagina Mappa personale è una finestra come Per unità e Collegamenti: comandi a icone dentro la mappa.
+  const piena = pagina && !compatta && !compact;
   const [toolsOpen, setToolsOpen] = useState(false);
   const iniziale = sezioneIniziale && sezioni.some((s) => s.chiave === sezioneIniziale) ? sezioneIniziale : '';
   const prima = iniziale || sezioni[0]?.chiave || '';
@@ -256,7 +264,27 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
         <button className="btn btn-sm btn-ghost" disabled={!chiusi.size} onClick={() => setChiusi(new Set())} title="Riapre i rami ripiegati">Apri tutto</button>
       </div>
     </div>;
-  if (!sezioni.length) return <section className="mappa-geo"><div className="mg-vuota"><Icon n="mappa" size={26} /><p className="muted small">Evidenzia o sottolinea un passaggio negli Originali: qui comparirà nella forma del testo, con i titoli e gli elenchi che lo contengono.</p></div></section>;
+  const comandi = (adatta: () => void) => <div className="map-tools mg-strumenti">
+      {chooser}
+      <div className="mg-vista mg-gruppo" role="group" aria-label="Forma della mappa">
+        <button className={`btn btn-sm ${modo === 'albero' ? 'mg-attivo' : ''}`} aria-pressed={modo === 'albero'} aria-label="Albero" title="Albero" onClick={() => setModo('albero')}><Icon n="albero" size={17} /></button>
+        <button className={`btn btn-sm ${modo === 'schema' ? 'mg-attivo' : ''}`} aria-pressed={modo === 'schema'} aria-label="Schema" title="Schema" onClick={() => setModo('schema')}><Icon n="schema" size={17} /></button>
+      </div>
+      <button className={`btn btn-sm ${significato ? 'mg-attivo' : ''}`} aria-pressed={significato} aria-label="Concetti collegati" onClick={() => setSignificato((x) => !x)} title="Concetti collegati: unisce i nodi che parlano dello stesso concetto o di concetti legati nel glossario"><Icon n="legami" size={17} /></button>
+      <button className="btn btn-sm" disabled={!chiusi.size} onClick={() => setChiusi(new Set())} aria-label="Apri tutto" title="Apri tutto: riapre i rami ripiegati"><Icon n="rami" size={17} /></button>
+      <button className="btn btn-sm" onClick={adatta} aria-label="Adatta" title="Vista d'insieme (anche con doppio clic sullo sfondo)"><Icon n="espandi" size={15} /></button>
+    </div>;
+  if (!sezioni.length) return <section className={`mappa-geo${piena ? ' mg-pagina' : ''}`}><div className="mg-vuota"><Icon n="mappa" size={26} /><p className="muted small">Evidenzia o sottolinea un passaggio negli Originali: qui comparirà nella forma del testo, con i titoli e gli elenchi che lo contengono.</p></div></section>;
+  const info = (s: SezioneGeo) => `${documenti.length > 1 ? `${accorcia(s.docTitolo, 34)} · ` : ''}pp. ${s.da}${s.a !== s.da ? `–${s.a}` : ''} · ${s.segnati} ${s.segnati === 1 ? 'parte segnata' : 'parti segnate'}`;
+  if (piena) return <section className="mappa-geo mg-pagina" aria-label="Mappa personale nella struttura del testo">
+    {visibili.map((s) => <article key={s.chiave} className="mg-lezione" data-archi={s.semantica.archi.length} data-scartati={s.semantica.scartati.relazioni + s.semantica.scartati.ripetizioni}>
+      <Vista piena comandi={comandi} chiave={`${s.chiave}|${modo}|${significato ? 1 : 0}`} compatta={false}><Disegno s={s} modo={modo} chiusi={chiusi} alterna={alterna} apri={apri} significato={significato} /></Vista>
+      <footer className="map-legend mg-piede tiny" role="status">
+        <span>{info(s)}</span>
+        <span className="faint">{parti} {parti === 1 ? 'parte segnata' : 'parti segnate'} in {sezioni.length} {sezioni.length === 1 ? 'lezione' : 'lezioni'}{totale !== undefined ? ` · ${totale} segni` : ''}{nonCollegati > 0 ? ` · ${nonCollegati} solo nell’elenco` : ''}</span>
+      </footer>
+    </article>)}
+  </section>;
   return <section className={`mappa-geo${compatta ? ' mg-compatta' : ''}`} aria-label="Mappa personale nella struttura del testo">
     {compact ? <>
       <div className="mobile-geo-toolbar">{chooser}<button className="mobile-icon" aria-label="Visualizza mappa personale" onClick={() => setToolsOpen(true)}><Icon n="filtri" size={20} /></button></div>

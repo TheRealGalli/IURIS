@@ -171,6 +171,15 @@ let checks = 0;
   assert(/className="mg-finestra"[^>]*tabIndex=\{0\}/.test(comp), 'il riquadro della mappa si attiva (e mostra il bordo) al primo tocco');
   const stili = await readFile(new URL('../src/styles.css', import.meta.url), 'utf8');
   assert(/\.map-shell:focus-within, \.mg-finestra:focus-within/.test(stili), 'stesso bordo attivo in tutte le mappe');
+
+  // Sul computer la pagina Mappa personale ha la stessa finestra di Per unità e Collegamenti: comandi a icone dentro la mappa, un solo titolo.
+  const geoCss = await readFile(new URL('../src/components/MappaGeometrica.css', import.meta.url), 'utf8');
+  const personale = await readFile(new URL('../src/views/MappaPersonale.tsx', import.meta.url), 'utf8');
+  const altezza = (css, sel) => css.match(new RegExp(sel.replace(/[.]/g, '\\.') + ' \\{[^}]*height: (calc\\([^)]*\\))'))?.[1];
+  assert(altezza(geoCss, '.mappa-geo.mg-pagina') && altezza(geoCss, '.mappa-geo.mg-pagina') === altezza(stili, '.map-shell'), 'la mappa personale ha la stessa altezza delle altre mappe');
+  assert(/const piena = pagina && !compatta && !compact/.test(comp) && /className="map-tools mg-strumenti"/.test(comp), 'sul computer i comandi stanno dentro la mappa, come nelle altre');
+  assert(/<Vista piena comandi=\{comandi\}/.test(comp) && !/if \(piena\)[^]*mg-lezione-titolo[^]*return <section className=\{`mappa-geo\$\{compatta/.test(comp), 'sul computer nessun secondo titolo sopra la mappa personale');
+  assert(/\{compact && <p className="small muted"/.test(personale) && /<MappaGeometrica pagina /.test(personale), 'sul computer niente paragrafo sopra la mappa personale');
   checks++;
 }
 {
