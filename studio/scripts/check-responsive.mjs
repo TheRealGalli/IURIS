@@ -8,6 +8,7 @@
  * Flussi: segnare un passaggio col dito (selezione + tocco esterno) e con Apple Pencil, fogli dal basso sul telefono,
  * selettore dei colori, mappa con gesti touch, pagina Altro, movimento ridotto.
  *
+ * Solo data esame: `SOLO_ESAME=1 DISPOSITIVI='iPhone 16,iPad Pro 11' npm run check:responsive`.
  * Solo lettore: `SOLO_LETTORE=1 DISPOSITIVI='iPhone 16,iPad Pro 11' npm run check:responsive`.
  * Browser: `npx playwright install chromium webkit` (in CI anche `--with-deps`).
  */
@@ -40,6 +41,7 @@ const DISPOSITIVI = [
 const ROTTE = ['/', '/percorso', '/lezione/u01-l1', '/originali', '/allena', '/mappa', '/mappa?grafo=1', '/mappa?personale=1', '/cronologia', '/glossario', '/concetto/ab-urbe-condita', '/progressi', '/backup', '/altro'];
 const SOLO = process.env.DISPOSITIVI?.split(',');
 const SOLO_LETTORE = process.env.SOLO_LETTORE === '1';
+const SOLO_ESAME = process.env.SOLO_ESAME === '1';
 
 const motori = { webkit, chromium };
 let browser = {};
@@ -107,6 +109,47 @@ try {
     const p = await ctx.newPage(); const pagina = [];
     p.on('pageerror', (e) => pagina.push(e.message));
     await p.goto(BASE + '#/'); await p.waitForSelector('.main', { timeout: 20000 });
+    if (!SOLO_LETTORE) {
+      const campo = p.locator('[data-esame-mobile] input[type="date"]');
+      await campo.waitFor();
+      const originale = await campo.elementHandle();
+      const date = await p.evaluate(() => {
+        const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+        const oggi = new Date(), futura = new Date(), alternativa = new Date();
+        futura.setDate(oggi.getDate() + 90); alternativa.setDate(oggi.getDate() + 110);
+        return { oggi: iso(oggi), futura: iso(futura), alternativa: iso(alternativa) };
+      });
+      const salvata = () => p.evaluate(() => JSON.parse(localStorage.getItem('iuris:v1:prog:diritto-romano') ?? '{}').esame);
+      // iOS può emettere oggi quando apre il picker: il campo deve restare lo stesso.
+      await campo.fill(date.oggi);
+      assert(await originale.evaluate(el => el.isConnected && el === document.querySelector('[data-esame-mobile] input')), `${etichetta}: campo smontato al primo aggiornamento`);
+      assert.equal(await salvata(), undefined, `${etichetta}: valore intermedio salvato come esame`);
+      // Anche se l'ultimo valore nativo arriva prima dell'evento React, conta la scelta effettiva.
+      await originale.evaluate((el, valore) => { el.value = valore; }, date.futura);
+      await p.locator('.hero-main .kpi').first().tap();
+      assert(await originale.evaluate(el => el.isConnected), `${etichetta}: la perdita di focus ha smontato il campo`);
+      assert.equal(await salvata(), undefined, `${etichetta}: data salvata senza conferma`);
+      await p.getByRole('button', { name: 'Salva data', exact: true }).tap();
+      assert.equal(await salvata(), date.futura, `${etichetta}: data finale diversa da quella scelta`);
+      assert.equal(await campo.count(), 0);
+      await p.reload(); await p.waitForSelector('.hero-main');
+      assert.equal(await salvata(), date.futura, `${etichetta}: data persa dopo il ricaricamento`);
+      await p.locator('.hero-main').getByRole('button', { name: 'Cambia', exact: true }).tap();
+      assert.equal(await campo.inputValue(), date.futura);
+      await campo.fill(date.alternativa);
+      await p.getByRole('button', { name: 'Annulla', exact: true }).tap();
+      assert.equal(await salvata(), date.futura, `${etichetta}: Annulla ha modificato la data salvata`);
+      await p.locator('.hero-main').getByRole('button', { name: 'Cambia', exact: true }).tap();
+      await p.getByRole('button', { name: 'Rimuovi data', exact: true }).tap();
+      assert.equal(await salvata(), undefined);
+      assert.equal(await campo.inputValue(), '');
+      assert.deepEqual(pagina, []);
+      controlli += 10;
+      if (SOLO_ESAME) {
+        await ctx.close(); console.log(`Data esame verificata: ${etichetta}`);
+        continue;
+      }
+    }
     for (const r of SOLO_LETTORE ? ['/originali'] : ROTTE) {
       await vaiA(p, r);
       const m = await p.evaluate(misura, vw);

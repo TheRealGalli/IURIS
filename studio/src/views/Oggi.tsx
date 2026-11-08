@@ -6,6 +6,7 @@ import { impostaEsame, useProgresso } from '../lib/store';
 import type { Concetto } from '../lib/types';
 import { fmtData, fmtMinuti, oggiISO, plurale, rifPagine } from '../lib/util';
 import { Bar, Calendario, Icon, LivelloDot, Ring } from '../components/ui';
+import { useCompact } from '../components/MobileSheet';
 import './Oggi.css';
 
 type ConcettoDebole = { c: Concetto; m: ReturnType<typeof padronanza>; soloInverse: boolean };
@@ -54,7 +55,7 @@ export default function Oggi() {
                 <div className="kpi"><b>{Math.round((globale.valore ?? 0) * 100)}%</b><span>padronanza</span></div>
                 <div className="kpi"><b className="row" style={{ gap: 4 }}><Icon n="fiamma" size={22} />{serie}</b><span>{serie === 1 ? 'giorno di fila' : 'giorni di fila'}</span></div>
               </div>
-              <EsameBox slug={slug} esame={p.esame} giorni={piano.giorni} perGiorno={piano.perGiorno} restano={piano.daStudiare.length} />
+              <EsameBox key={slug} slug={slug} esame={p.esame} giorni={piano.giorni} perGiorno={piano.perGiorno} restano={piano.daStudiare.length} />
             </div>
           </div>
         </div>
@@ -216,6 +217,31 @@ function RigaLezione({ id, evidenzia }: { id: string; evidenzia?: boolean }) {
 function EsameBox({ slug, esame, giorni, perGiorno, restano }: {
   slug: string; esame?: string; giorni: number | null; perGiorno: number | null; restano: number;
 }) {
+  const compact = useCompact();
+  const [modifica, setModifica] = useState(false);
+  const [data, setData] = useState(esame ?? '');
+  useEffect(() => { if (!modifica) setData(esame ?? ''); }, [esame, modifica]);
+
+  // Il calendario di iOS può emettere valori intermedi mentre è ancora aperto.
+  // Manteniamo il campo montato e scriviamo nell'archivio solo alla conferma.
+  if (compact && (!esame || modifica)) return (
+    <form className="stack" style={{ gap: 8 }} data-esame-mobile onSubmit={(e) => {
+      e.preventDefault();
+      const scelta = String(new FormData(e.currentTarget).get('esame') ?? '');
+      if (!scelta || !e.currentTarget.reportValidity()) return;
+      impostaEsame(slug, scelta); setModifica(false);
+    }}>
+      <label className="row small muted" style={{ gap: 8 }}>
+        <Icon n="calendario" size={16} /> Data dell'esame:
+        <input className="input" type="date" min={oggiISO()} required name="esame" value={data} onChange={(e) => setData(e.currentTarget.value)} style={{ padding: '5px 8px' }} />
+      </label>
+      <div className="row" style={{ gap: 6 }}>
+        <button className="btn btn-sm btn-primary" type="submit" disabled={!data}>Salva data</button>
+        {(data || esame) && <button className="btn btn-sm btn-ghost" type="button" onClick={() => { setData(esame ?? ''); setModifica(false); }}>Annulla</button>}
+        {esame && <button className="btn btn-sm btn-ghost" type="button" onClick={() => { impostaEsame(slug, undefined); setData(''); setModifica(false); }}>Rimuovi data</button>}
+      </div>
+    </form>
+  );
   if (!esame) {
     return (
       <label className="row small muted" style={{ gap: 8 }}>
@@ -232,7 +258,7 @@ function EsameBox({ slug, esame, giorni, perGiorno, restano }: {
           <b>{giorni! > 0 ? `${giorni} giorni all'esame` : giorni === 0 ? 'Esame oggi!' : 'Esame passato'}</b>
           <span className="faint small">· {fmtData(esame, { day: 'numeric', month: 'long', year: 'numeric' })}</span>
         </div>
-        <button className="btn btn-sm btn-ghost" onClick={() => impostaEsame(slug, undefined)}>Cambia</button>
+        <button className="btn btn-sm btn-ghost" onClick={() => { if (compact) { setData(esame); setModifica(true); } else impostaEsame(slug, undefined); }}>Cambia</button>
       </div>
       {giorni! > 0 && restano > 0 && (
         <div className="small muted" style={{ marginTop: 4 }}>
