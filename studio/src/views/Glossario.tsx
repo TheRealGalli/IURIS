@@ -67,12 +67,15 @@ export default function Glossario() {
       <div className="eyebrow">{idx.corso.concetti.length} voci</div>
       <div className="row-between" style={{ gap: 12, margin: '6px 0 16px', flexWrap: 'wrap' }}>
         <h1 className="title-xl">Glossario</h1>
-        {idx.schedeInverse.length > 0 && <a className="btn" href={href('/allena?modo=inverse')}>Schede inverse · {idx.schedeInverse.length} termini</a>}
+        {!compact && idx.schedeInverse.length > 0 && <a className="btn" href={href('/allena?modo=inverse')}>Schede inverse · {idx.schedeInverse.length} termini</a>}
       </div>
       <div className="card stack glossary-search" style={{ gap: 12, marginBottom: 18 }}>
-        <input className="input input-lg" type="search" aria-label="Cerca nel glossario" placeholder="Cerca un termine, anche in latino… (es. imperium, pretore, mancipatio)" value={q} onChange={(e) => setQ(e.target.value)} autoFocus={!matchMedia('(pointer: coarse)').matches} />
+        <input className="input input-lg" type="search" aria-label="Cerca nel glossario" placeholder={compact ? 'Cerca un termine, anche in latino…' : 'Cerca un termine, anche in latino… (es. imperium, pretore, mancipatio)'} value={q} onChange={(e) => setQ(e.target.value)} autoFocus={!matchMedia('(pointer: coarse)').matches} />
         {compact ? <>
-          <button className="mobile-glossary-filters" onClick={() => setFiltersOpen(true)}><Icon n="filtri" size={18} />Filtri{(tipo || unita || soloDeboli) && <span className="mobile-current" />}<span className="faint">{lista.length} voci</span></button>
+          <div className="mobile-timeline-actions">
+            <button className="mobile-glossary-filters" onClick={() => setFiltersOpen(true)}><Icon n="filtri" size={18} />Filtri{(tipo || unita || soloDeboli) && <span className="mobile-current" />}<span className="faint">{lista.length} voci</span></button>
+            {idx.schedeInverse.length > 0 && <a className="btn btn-sm" href={href('/allena?modo=inverse')} title={`${idx.schedeInverse.length} termini`}><Icon n="allena" size={15} />Schede inverse</a>}
+          </div>
           <MobileSheet open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filtra il glossario" className="mobile-glossary-sheet" modal={!inDemo()}>{filtri}<button className="btn btn-primary mobile-map-done" onClick={() => setFiltersOpen(false)}>Mostra {lista.length} voci<Icon n="freccia" size={17} /></button></MobileSheet>
         </> : <>{filtriTipi}<div className="row" style={{ gap: 10 }}>{filtriUnita}{alfabeto}</div></>}
         {compact && alfabeto}

@@ -73,9 +73,23 @@ function misura(vw) {
     if (r.height < min - 0.5 || r.width < min - 0.5) piccoli.push(`${e.tagName.toLowerCase()}.${[...e.classList].slice(0, 2).join('.')} ${Math.round(r.width)}×${Math.round(r.height)} «${(e.textContent || e.getAttribute('aria-label') || '').trim().slice(0, 24)}»`);
   }
   for (const e of document.querySelectorAll('button.chip, a.chip')) { if (vis(e) && e.getBoundingClientRect().height < 35.5) piccoli.push(`chip «${e.textContent.trim().slice(0, 20)}»`); }
+  // Testo che esce dal proprio pulsante (come «Fonte e comandi» su iPhone): conta solo il testo davvero visibile,
+  // non quello accorciato con i puntini di sospensione.
+  const tagliati = [];
+  for (const e of document.querySelectorAll('button, .btn, a.chip, .mobile-tabs a')) {
+    if (!vis(e)) continue;
+    const r = e.getBoundingClientRect(); let fuori = 0;
+    const w = document.createTreeWalker(e, NodeFilter.SHOW_TEXT);
+    for (let t; (t = w.nextNode());) {
+      if (!t.textContent.trim() || getComputedStyle(t.parentElement).textOverflow === 'ellipsis') continue;
+      const rg = document.createRange(); rg.selectNodeContents(t);
+      for (const q of rg.getClientRects()) if (q.width) fuori = Math.max(fuori, q.right - r.right, r.left - q.left);
+    }
+    if (fuori > 1.5) tagliati.push(`${e.tagName.toLowerCase()}.${[...e.classList].slice(0, 2).join('.')} «${(e.textContent || '').trim().slice(0, 24)}» +${Math.round(fuori)}px`);
+  }
   const visibile = (s) => { const e = document.querySelector(s); return !!e && vis(e); };
   return {
-    larghezza: Math.max(document.documentElement.scrollWidth, innerWidth), sbordi: sbordi.slice(0, 5), campi, piccoli: piccoli.slice(0, 6),
+    larghezza: Math.max(document.documentElement.scrollWidth, innerWidth), sbordi: sbordi.slice(0, 5), campi, piccoli: piccoli.slice(0, 6), tagliati: tagliati.slice(0, 6),
     tabbar: visibile('.mobile-tabs'), side: visibile('.side'), compact: matchMedia('(max-width: 860px), (max-width: 1280px) and (pointer: coarse)').matches,
   };
 }
@@ -157,6 +171,7 @@ try {
       if (m.larghezza > vw + 1 || m.sbordi.length) errori.push(`${dove}: sborda in orizzontale (${m.larghezza}px su ${vw}) ${m.sbordi.join(' | ')}`);
       if (m.campi.length) errori.push(`${dove}: campi sotto i 16px (zoom di iOS): ${m.campi.join(', ')}`);
       if (m.piccoli.length) errori.push(`${dove}: bersagli touch troppo piccoli: ${m.piccoli.join(' | ')}`);
+      if (m.tagliati.length) errori.push(`${dove}: testo che esce dai pulsanti: ${m.tagliati.join(' | ')}`);
       if (m.compact && (m.side || !m.tabbar)) errori.push(`${dove}: navigazione mobile errata (menu compatto, barra a due voci in tutte le sezioni)`);
       if (!m.compact && (!m.side || m.tabbar)) errori.push(`${dove}: desktop senza la barra laterale`);
       controlli += 6;
@@ -279,7 +294,10 @@ try {
     if (!SOLO_LETTORE) {
     await p.tap('.mobile-reader-choose');
     await p.selectOption('.mobile-reader-sheet select[aria-label="Scegli il documento originale"]', { index: 0 });
+    const foglioTesto = await p.evaluate(misura, vw);
+    if (foglioTesto.tagliati.length || foglioTesto.sbordi.length) errori.push(`${etichetta}: pulsanti del foglio Testo e sezione fuori misura ${JSON.stringify(foglioTesto.tagliati)}`);
     await p.tap('button[aria-label="Chiudi testo e sezione"]');
+    controlli++;
     // Mappe: gesti touch gestiti dallo zoom (niente scorrimento della pagina dentro la finestra), finestra nello schermo.
     await vaiA(p, '/mappa');
     const mappa = await p.evaluate(() => {
@@ -299,10 +317,29 @@ try {
       await p.tap('.mobile-map-filters');
       await p.waitForSelector('.mobile-map-sheet');
       const m = await p.evaluate(misura, vw);
-      if (m.sbordi.length || m.campi.length || m.piccoli.length) errori.push(`${etichetta}: strumenti mappa non adatti al touch ${JSON.stringify(m)}`);
+      if (m.sbordi.length || m.campi.length || m.piccoli.length || m.tagliati.length) errori.push(`${etichetta}: strumenti mappa non adatti al touch ${JSON.stringify(m)}`);
       await p.tap('button[aria-label="Chiudi strumenti mappa"]');
       controlli += 2;
     }
+    // Per unità: nessuna barra sopra la mappa, l'unità si sceglie dal foglio degli strumenti.
+    await vaiA(p, '/mappa');
+    if (await p.locator('.map-page-header select').count()) errori.push(`${etichetta}: la scelta dell'unità deve stare negli strumenti, non sopra la mappa`);
+    await p.tap('.mobile-map-filters');
+    if (!(await p.isVisible('.mobile-map-sheet select[aria-label="Scegli l’unità della mappa"]'))) errori.push(`${etichetta}: manca la scelta dell'unità negli strumenti`);
+    await p.tap('button[aria-label="Chiudi strumenti mappa"]');
+    // Collegamenti: il concetto scelto è una scheda compatta in basso a sinistra; Dettagli apre il foglio.
+    await vaiA(p, '/mappa?grafo=1&c=ab-urbe-condita');
+    await p.waitForSelector('.map-node-card');
+    const scheda = await p.evaluate(() => {
+      const c = document.querySelector('.map-node-card').getBoundingClientRect(), t = document.querySelector('.mobile-tabs').getBoundingClientRect();
+      const sovrapposta = !(c.right <= t.left || c.left >= t.right || c.bottom <= t.top || c.top >= t.bottom);
+      return { sovrapposta, dentro: c.left >= 0 && c.right <= innerWidth && c.bottom <= innerHeight, alta: c.height, nome: document.querySelector('.map-node-card b').scrollWidth > 40 };
+    });
+    if (scheda.sovrapposta || !scheda.dentro || scheda.alta > 80) errori.push(`${etichetta}: scheda del concetto fuori posto ${JSON.stringify(scheda)}`);
+    await p.tap('.map-node-card-main');
+    await p.waitForSelector('.map-detail-sheet .map-panel-sheet');
+    await p.tap('.map-detail-sheet .mobile-sheet-header button');
+    controlli += 3;
     await vaiA(p, '/mappa?personale=1');
     await p.waitForSelector('.mobile-geo-toolbar');
     if (!(await p.isVisible('.mg-schema'))) errori.push(`${etichetta}: la mappa personale deve aprirsi nello schema leggibile`);

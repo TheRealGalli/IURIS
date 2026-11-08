@@ -30,7 +30,7 @@ const COLORI_PERIODO = ['var(--gold-soft)', 'var(--accent-soft)', 'var(--ok-soft
 // geometria della striscia (px)
 const K = 4;                       // pixel per anno
 const MAX_VUOTO = 140;             // un tratto senza eventi non supera questa larghezza: i secoli vuoti si comprimono
-const BORDO = 24;                  // margine a sinistra e a destra
+const BORDO = 40;                  // margine a sinistra e a destra (la prima data resta intera)
 const ASSE = 30;                   // y dell'asse, sotto le fasce dei periodi
 const CORSIA0 = 60;                // y della prima riga di etichette
 const CORSIA_H = 42;
@@ -52,7 +52,7 @@ function puntiScala(anni: number[], k: number) {
 }
 
 /** Funzioni anno → px e px → anno, interpolando fra i punti della scala */
-function costruisciScala(A: number[], X: number[], vuoti: number[]) {
+function costruisciScala(A: number[], X: number[], vuoti: number[], etichettaW = ETICHETTA_W) {
   const x = (a: number) => {
     if (A.length < 2 || a <= A[0]) return BORDO;
     for (let i = 1; i < A.length; i++) {
@@ -69,7 +69,7 @@ function costruisciScala(A: number[], X: number[], vuoti: number[]) {
   };
   return {
     x, anno, inizio: A[0] ?? 0, fine: A[A.length - 1] ?? 0,
-    larghezza: (X[X.length - 1] ?? 0) + 2 * BORDO + ETICHETTA_W,
+    larghezza: (X[X.length - 1] ?? 0) + 2 * BORDO + etichettaW,
     vuoti: vuoti.map((i) => BORDO + (X[i - 1] + X[i]) / 2),
   };
 }
@@ -77,6 +77,10 @@ function costruisciScala(A: number[], X: number[], vuoti: number[]) {
 export default function Cronologia({ query }: { query: URLSearchParams }) {
   const compact = useCompact();
   const [filtersOpen, setFiltersOpen] = useState(false);
+  // Su iPad la linea del tempo è aperta subito; sul telefono resta a un tocco.
+  const [lineaAperta, setLineaAperta] = useState(() => typeof window !== 'undefined' && window.innerWidth >= 700);
+  // Su touch etichette più strette e al massimo tre righe: la striscia è più bassa e si scorre in orizzontale.
+  const maxCorsie = compact ? 3 : MAX_CORSIE, etichettaW = compact ? 148 : ETICHETTA_W;
   const idx = useCorso();
   const [filtro, setFiltro] = useState<string[]>([]);
   const [unita, setUnita] = useState('');
@@ -111,24 +115,24 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
       if (ultimo && ultimo.eventi[0].anno === e.anno) { ultimo.eventi.push(e); continue; } // stesso anno: stesso pallino e stessa etichetta
       const i = indice.get(e.anno)!;
       let c = fineCorsia.findIndex((fine) => fine <= BORDO + X[i] - 8);
-      if (c < 0 && fineCorsia.length < MAX_CORSIE) c = fineCorsia.push(-Infinity) - 1;
+      if (c < 0 && fineCorsia.length < maxCorsie) c = fineCorsia.push(-Infinity) - 1;
       if (c < 0) {
         c = fineCorsia.indexOf(Math.min(...fineCorsia));
         const spazio = fineCorsia[c] + 8 - (BORDO + X[i]);
         for (let j = i; j < X.length; j++) X[j] += spazio;
       }
-      fineCorsia[c] = BORDO + X[i] + ETICHETTA_W;
+      fineCorsia[c] = BORDO + X[i] + etichettaW;
       gruppi.push({ eventi: [e], i, corsia: c });
     }
     return {
-      s: costruisciScala(A, X, vuoti),
+      s: costruisciScala(A, X, vuoti, etichettaW),
       etichette: gruppi.map((g) => ({
         id: g.eventi[0].id, x: BORDO + X[g.i], corsia: g.corsia,
         eventi: [...g.eventi].sort((a, b) => a.tipo.localeCompare(b.tipo)),
       })),
       corsie: fineCorsia.length,
     };
-  }, [idx, periodi, inizioStriscia, evStriscia]);
+  }, [idx, periodi, inizioStriscia, evStriscia, maxCorsie, etichettaW]);
 
   const ticks = useMemo(() => {
     const passo = 50;
@@ -175,14 +179,14 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
   const tipiPresenti = [...new Set(idx.corso.eventi.map((e) => e.tipo).filter((t) => t !== 'periodo'))];
   const altezza = CORSIA0 + Math.max(1, corsie) * CORSIA_H + 4;
 
-  const timeline = (<><div className="tl-bar">
+  const timeline = (<>{periodi.length > 0 && <div className="tl-bar">
         {periodi.map((p, i) => (
           <button key={p.id} className="chip" onClick={() => vaiAnno(p.anno)} title={p.data}>
             <span className="dot" style={{ background: COLORI_PERIODO[i % COLORI_PERIODO.length], border: '1px solid var(--line-2)' }} />
             {p.titolo.replace(/\s*\(.*\)/, '')}
           </button>
         ))}
-      </div>
+      </div>}
 
       <div className="tl-wrap" style={{ marginBottom: 14 }}>
         <div
@@ -224,7 +228,7 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
               const accendi = { onMouseEnter: soloMouse(() => setLuce(g.id)), onMouseLeave: soloMouse(() => setLuce(null)), onFocus: () => setLuce(g.id), onBlur: () => setLuce(null) };
               return (
                 <button key={g.id} {...accendi} className={`tl-lab ${luce === g.id ? 'hov' : ''} ${ids.some((id) => sel.includes(id)) ? 'on' : ''}`}
-                  style={{ left: g.x - 1, top: CORSIA0 + g.corsia * CORSIA_H }}
+                  style={{ left: g.x - 1, top: CORSIA0 + g.corsia * CORSIA_H, width: etichettaW }}
                   title={g.eventi.map((x) => `${x.data} · ${x.titolo}`).join('\n')} onClick={() => apri(ids)}>
                   <i style={{ background: tinte(g.eventi, 'fasce') }} />
                   <b>{e.data}{g.eventi.length > 1 ? ` · ${g.eventi.length} eventi` : ''}</b>
@@ -259,14 +263,17 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
       <div className="eyebrow">{eventi.length} eventi{periodi.length ? ` · ${periodi.length} periodi` : ''}</div>
       <h1 className="title-xl" style={{ margin: '6px 0 16px' }}>Cronologia</h1>
 
-      {compact ? <details className="mobile-timeline"><summary><Icon n="cronologia" size={19} /><span>Esplora la linea del tempo<small>Scorri tra le epoche e gli eventi</small></span><Icon n="giu" size={16} /></summary>{timeline}</details> : timeline}
+      {compact ? <details className="mobile-timeline" open={lineaAperta} onToggle={(e) => setLineaAperta(e.currentTarget.open)}><summary><Icon n="cronologia" size={19} /><span>Esplora la linea del tempo<small>Scorri tra le epoche e gli eventi</small></span><Icon n="giu" size={16} /></summary>{timeline}</details> : timeline}
       {compact ? <>
-        <button className="mobile-glossary-filters mobile-timeline-filter" onClick={() => setFiltersOpen(true)}><Icon n="filtri" size={18} />Filtra eventi<span className="faint">{eventi.length} eventi</span></button>
-        <MobileSheet open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filtra la cronologia" className="mobile-timeline-sheet" modal={!inDemo()}>{filters}<button className="btn btn-primary mobile-map-done" onClick={() => setFiltersOpen(false)}>Mostra gli eventi<Icon n="freccia" size={17} /></button></MobileSheet>
-      </> : filters}
+        <div className="mobile-timeline-actions">
+          <button className="mobile-glossary-filters mobile-timeline-filter" onClick={() => setFiltersOpen(true)}><Icon n="filtri" size={18} />Filtri{(filtro.length > 0 || unita) && <span className="mobile-current" />}<span className="faint">{eventi.length} eventi</span></button>
+          <a className="btn btn-sm" href={href('/allena?modo=cronologia')}><Icon n="allena" size={15} />Sfida cronologica</a>
+        </div>
+        <MobileSheet open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filtra la cronologia" className="mobile-timeline-sheet" modal={!inDemo()}>{filters}<button className="btn btn-primary mobile-map-done" onClick={() => setFiltersOpen(false)}>Mostra {eventi.length} eventi<Icon n="freccia" size={17} /></button></MobileSheet>
+      </> : <>{filters}
       <div className="row" style={{ marginBottom: 8 }}>
         <a className="btn btn-sm" href={href('/allena?modo=cronologia')}><Icon n="allena" size={15} /> Allenati con la sfida cronologica</a>
-      </div>
+      </div></>}
 
       <div className="tl-list">
         {gruppi.map((g, gi) => (

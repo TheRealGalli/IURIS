@@ -7,7 +7,8 @@ import { useProgresso } from '../lib/store';
 import { TIPI_CONCETTO, TIPO_SINGOLARE, VERBO_RELAZIONE, type NodoMappa, type TipoConcetto } from '../lib/types';
 import { Icon, LivelloDot } from '../components/ui';
 import MapTools from '../components/MapTools';
-import { useCompact } from '../components/MobileSheet';
+import MobileSheet, { useCompact } from '../components/MobileSheet';
+import { inDemo } from '../lib/archivio';
 import { useZoom } from '../lib/zoom';
 import { graphLabelLines, graphNodeRadius, graphTextWidth, GRAPH_LABEL_LINE } from '../lib/graph-geometry.mjs';
 import { placeGraphLabels } from '../lib/graph-labels.mjs';
@@ -37,9 +38,6 @@ export default function Mappa({ query }: { query: URLSearchParams }) {
           <a className={`chip ${grafo && !personale ? 'on' : ''}`} href={href('/mappa?grafo=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}><span className="map-tab-long">Tutti i collegamenti</span><span className="map-tab-short">Collegamenti</span></a>
           <a className={`chip ${personale ? 'on' : ''}`} href={href('/mappa?personale=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Personale</a>
         </div>
-        {compact && !grafo && !personale && <select className="select mobile-map-unit" aria-label="Scegli l’unità della mappa" value={unitaMobile} onChange={(e) => vai(`/mappa?u=${e.target.value}`)}>
-          {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {u.titolo}</option>)}
-        </select>}
       </div>
       {personale ? <MappaPersonaleView /> : grafo ? <Grafo focus={sel} /> : <MindMap uid={compact ? unitaMobile : uid} />}
     </div>
@@ -48,7 +46,7 @@ export default function Mappa({ query }: { query: URLSearchParams }) {
 
 /* ───────────────────────── pannello concetto ───────────────────────── */
 
-function PannelloConcetto({ id, onClose, onFocus }: { id: string; onClose: () => void; onFocus?: (id: string) => void }) {
+function PannelloConcetto({ id, onClose, onFocus, foglio = false }: { id: string; onClose: () => void; onFocus?: (id: string) => void; foglio?: boolean }) {
   const idx = useCorso();
   const p = useProgresso(idx.corso.materia.slug);
   const c = idx.concettoById.get(id);
@@ -56,11 +54,11 @@ function PannelloConcetto({ id, onClose, onFocus }: { id: string; onClose: () =>
   const m = padronanza(p, idx.domandePerConcetto.get(id));
   const rel = idx.relazioniPerConcetto.get(id) ?? [];
   return (
-    <div className="map-panel fade-in">
-      <div className="row-between">
+    <div className={foglio ? 'map-panel-sheet' : 'map-panel fade-in'}>
+      {foglio ? <span className="eyebrow">{TIPO_SINGOLARE[c.tipo]}</span> : <div className="row-between">
         <span className="eyebrow">{TIPO_SINGOLARE[c.tipo]}</span>
         <button className="btn btn-sm btn-ghost" onClick={onClose} aria-label="Chiudi"><Icon n="x" size={16} /></button>
-      </div>
+      </div>}
       <h3 className="title-m" style={{ margin: '2px 0 4px' }}>{c.nome}</h3>
       {c.latino && c.latino !== c.nome && <div className="faint small" style={{ fontStyle: 'italic' }}>{c.latino}</div>}
       <p className="muted small">{c.breve}</p>
@@ -83,7 +81,7 @@ function PannelloConcetto({ id, onClose, onFocus }: { id: string; onClose: () =>
               if (!ca) return null;
               // frase completa «soggetto – verbo → oggetto», con la voce aperta in grassetto
               const nome = (x: string) => (x === id
-                ? <b className="rel-io">{idx.concettoById.get(id)?.nome}</b>
+                ? (foglio && r.da === id ? null : <b className="rel-io">{idx.concettoById.get(id)?.nome}</b>)
                 : <button className="chip" onClick={() => onFocus?.(altro)}>{ca.nome}</button>);
               return (
                 <div key={i} className="rel small">
@@ -99,6 +97,41 @@ function PannelloConcetto({ id, onClose, onFocus }: { id: string; onClose: () =>
       )}
     </div>
   );
+}
+
+/** Concetto scelto: una piccola scheda in basso a sinistra; «Dettagli» apre la scheda completa. */
+function SchedaConcetto({ id, colore, collegamenti, onDettagli, onClose }: { id: string; colore?: string; collegamenti?: number; onDettagli: () => void; onClose: () => void }) {
+  const idx = useCorso();
+  const c = idx.concettoById.get(id);
+  if (!c) return null;
+  return (
+    <div className="map-node-card" role="status">
+      <button className="map-node-card-main" onClick={onDettagli} aria-label={`Dettagli di ${c.nome}`} aria-haspopup="dialog">
+        <span className="dot" style={{ background: colore ?? 'var(--accent)' }} aria-hidden="true" />
+        <span className="map-node-card-text">
+          <small>{TIPO_SINGOLARE[c.tipo]}{collegamenti ? ` · ${collegamenti} ${collegamenti === 1 ? 'collegamento' : 'collegamenti'}` : ''}</small>
+          <b>{c.nome}</b>
+        </span>
+        <span className="map-node-card-more">Dettagli<Icon n="freccia" size={13} /></span>
+      </button>
+      <button className="map-node-card-close" onClick={onClose} aria-label="Torna alla mappa" title="Torna alla mappa"><Icon n="x" size={16} /></button>
+    </div>
+  );
+}
+
+/** Dettagli del concetto: pannello laterale sul computer, foglio dal basso su telefono e iPad. */
+function DettagliConcetto({ id, aperto, onClose, onFocus }: { id: string; aperto: boolean; onClose: () => void; onFocus: (id: string) => void }) {
+  const compact = useCompact();
+  const idx = useCorso();
+  if (compact) return <MobileSheet open={aperto} onClose={onClose} title={idx.concettoById.get(id)?.nome ?? 'Dettagli'} className="map-detail-sheet" modal={!inDemo()}>
+    <PannelloConcetto foglio id={id} onClose={onClose} onFocus={(c) => { onClose(); onFocus(c); }} />
+  </MobileSheet>;
+  return aperto ? <PannelloConcetto id={id} onClose={onClose} onFocus={onFocus} /> : null;
+}
+
+/** Su telefono e iPad le scelte stanno nel foglio degli strumenti, con un'etichetta. */
+function Campo({ label, children }: { label: string; children: React.ReactNode }) {
+  return useCompact() ? <label className="mobile-field map-field">{label}{children}</label> : <>{children}</>;
 }
 
 /** Riquadro della mappa: si attiva al primo tocco (anello grigio), come uno schermo nello schermo. */
@@ -132,6 +165,7 @@ function MindMap({ uid }: { uid: string }) {
   const totNodi = useMemo(() => { let n = 0; const w = (x: NodoMappa) => { n++; x.figli?.forEach(w); }; w(u.mappa); return n; }, [u.id]);
   const [chiusi, setChiusi] = useState<Set<string>>(new Set());
   const [sel, setSel] = useState<string | null>(null);
+  const [dettaglio, setDettaglio] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
   const gRef = useRef<SVGGElement>(null);
   const { fit } = useZoomSvg(svgRef, gRef);
@@ -142,7 +176,7 @@ function MindMap({ uid }: { uid: string }) {
     const s = new Set<string>();
     const w = (n: NodoK, d: number) => { if (d >= (totNodi > 24 ? 2 : 9) && n.figli?.length) s.add(n._k); n.figli?.forEach((f) => w(f, d + 1)); };
     w(radice, 0);
-    setChiusi(s); setSel(null);
+    setChiusi(s); setSel(null); setDettaglio(false);
   }, [u.id]);
 
   const layout = useMemo(() => {
@@ -181,9 +215,9 @@ function MindMap({ uid }: { uid: string }) {
   return (
     <div className="map-shell" {...riquadro}>
       <MapTools legend={legend}>
-        {!compact && <select className="select" value={u.id} onChange={(e) => vai(`/mappa?u=${e.target.value}`)} style={{ maxWidth: 360 }}>
+        <Campo label="Unità"><select className="select" aria-label="Scegli l’unità della mappa" value={u.id} onChange={(e) => vai(`/mappa?u=${e.target.value}`)} style={{ maxWidth: compact ? undefined : 360 }}>
           {idx.corso.unita.map((x) => <option key={x.id} value={x.id}>{x.ordine}. {x.titolo}</option>)}
-        </select>}
+        </select></Campo>
         <button data-tour="apri-mappa" className="btn btn-sm" onClick={espandiTutto}>Apri tutto</button>
         <button className="btn btn-sm" onClick={chiudiTutto}>Chiudi tutto</button>
         <button className="btn btn-sm" onClick={() => fit(layout.bbox, 30, 1.1, 0.3)} aria-label="Adatta"><Icon n="espandi" size={15} /></button>
@@ -207,7 +241,7 @@ function MindMap({ uid }: { uid: string }) {
               <g key={n._k} className="mm-node" transform={`translate(${x},${y - h / 2})`}
                 onClick={() => {
                   if (haFigli) setChiusi((c) => { const s = new Set(c); if (s.has(n._k)) s.delete(n._k); else s.add(n._k); return s; });
-                  if (n.concetto && idx.concettoById.has(n.concetto)) setSel(n.concetto);
+                  if (n.concetto && idx.concettoById.has(n.concetto)) { setSel(n.concetto); if (compact) setDettaglio(false); }
                 }}>
                 <title>{root ? n.testo : misurabile ? `${n.testo}: ${stato.viste} di ${stato.totali} domande collegate già viste` : `${n.testo}: nessuna domanda collegata`}</title>
                 <rect width={w} height={h} rx={10} fill={fill} stroke={stroke} strokeDasharray={n.concetto ? undefined : '0'} />
@@ -227,7 +261,10 @@ function MindMap({ uid }: { uid: string }) {
         </g>
       </svg>
       <div className="map-legend">{legend}</div>
-      {sel && <PannelloConcetto id={sel} onClose={() => setSel(null)} onFocus={(c) => vai(`/mappa?grafo=1&c=${c}`)} />}
+      {sel && (compact
+        ? <>{!dettaglio && <SchedaConcetto id={sel} onDettagli={() => setDettaglio(true)} onClose={() => setSel(null)} />}
+            <DettagliConcetto id={sel} aperto={dettaglio} onClose={() => setDettaglio(false)} onFocus={(c) => vai(`/mappa?grafo=1&c=${c}`)} /></>
+        : <PannelloConcetto id={sel} onClose={() => setSel(null)} onFocus={(c) => vai(`/mappa?grafo=1&c=${c}`)} />)}
     </div>
   );
 }
@@ -251,6 +288,7 @@ function Grafo({ focus }: { focus: string | null }) {
   const [cerca, setCerca] = useState('');
   const [sel, setSel] = useState<string | null>(focus);
   const [dettaglio, setDettaglio] = useState(false);
+  const compact = useCompact();
   // Appena c'è una risposta la rete si accende; i colori per tipo restano a un clic.
   const [colora, setColora] = useState<'padronanza' | 'tipo'>(() => (Object.keys(p.carte).length > 0 ? 'padronanza' : 'tipo'));
   const svgRef = useRef<SVGSVGElement>(null);
@@ -439,16 +477,16 @@ function Grafo({ focus }: { focus: string | null }) {
             </div>
           )}
         </div>
-        <select className="select" aria-label="Filtra per unità" value={unita} onChange={(e) => setUnita(e.target.value)}>
+        <Campo label="Unità"><select className="select" aria-label="Filtra per unità" value={unita} onChange={(e) => setUnita(e.target.value)}>
           <option value="">Tutte le unità</option>
-          {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {u.titolo.slice(0, 40)}</option>)}
-        </select>
-        <select className="select" aria-label="Filtra per tipo" value={tipo} onChange={(e) => setTipo(e.target.value)}>
+          {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {compact ? u.titolo : u.titolo.slice(0, 40)}</option>)}
+        </select></Campo>
+        <Campo label="Tipo di concetto"><select className="select" aria-label="Filtra per tipo" value={tipo} onChange={(e) => setTipo(e.target.value)}>
           <option value="">Tutti i tipi</option>
           {tipiPresenti.map((t) => <option key={t} value={t}>{TIPI_CONCETTO[t]}</option>)}
-        </select>
+        </select></Campo>
         <button className="btn btn-sm" onClick={() => setColora((c) => (c === 'tipo' ? 'padronanza' : 'tipo'))}>Colori: {colora === 'tipo' ? 'per tipo' : 'per padronanza'}</button>
-        <button className="btn btn-sm" onClick={() => fit(bbox, 40, 1)} aria-label="Adatta" title="Vista d'insieme"><Icon n="espandi" size={15} /></button>
+        <button className="btn btn-sm" onClick={() => fit(bbox, 40, 1)} aria-label="Adatta" title="Vista d'insieme"><Icon n="espandi" size={15} />{compact && 'Vista d’insieme'}</button>
         <div className="graph-navigation" aria-label="Zoom della mappa">
           <button className="btn btn-sm" onClick={() => zoomBy(1 / 1.35)} aria-label="Riduci zoom">−</button>
           <button className="btn btn-sm" onClick={() => zoomBy(1.35)} aria-label="Aumenta zoom">+</button>
@@ -478,20 +516,14 @@ function Grafo({ focus }: { focus: string | null }) {
         </g>
       </svg>
       <div className="graph-footer">
-        <div className="graph-mode-bar">
-          {attivo ? <>
-            <span role="status">Collegamenti di <b>{byId.get(attivo)!.nome}</b></span>
-            <span className="row" style={{ gap: 5 }}>
-              <button className="btn btn-sm" onClick={() => setDettaglio((v) => !v)} aria-expanded={dettaglio}>Dettagli</button>
-              <button className="btn btn-sm" onClick={esci}>Torna alla mappa</button>
-            </span>
-          </> : <span className="muted">Clicca un punto per esplorare i suoi collegamenti.</span>}
-        </div>
+        {attivo
+          ? !(compact && dettaglio) && <SchedaConcetto id={attivo} colore={colore(byId.get(attivo)!)} collegamenti={strato?.ls.length} onDettagli={() => setDettaglio(true)} onClose={esci} />
+          : <div className="graph-mode-bar"><span className="muted">Clicca un punto per esplorare i suoi collegamenti.</span></div>}
         <div className="map-legend">{legend}</div>
       </div>
-      {attivo && dettaglio && <PannelloConcetto id={attivo} onClose={() => setDettaglio(false)} onFocus={(c) => {
+      {attivo && <DettagliConcetto id={attivo} aperto={dettaglio} onClose={() => setDettaglio(false)} onFocus={(c) => {
         if (!byId.has(c)) { setUnita(''); setTipo(''); }
-        setSel(c);
+        setSel(c); setDettaglio(false);
         const f = byId.get(c); if (f) centra(f.x, f.y, 1);
       }} />}
     </div>

@@ -513,6 +513,19 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 .graph-footer .map-legend { position: static; pointer-events: auto; }
 .graph-mode-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; padding: 7px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); font-size: 12px; pointer-events: auto; }
 .graph-mode-bar > span:first-child { flex: 1; min-width: 140px; }
+.graph-footer > .graph-mode-bar { align-self: flex-start; }
+/* Concetto scelto: scheda compatta in basso a sinistra, i dettagli si aprono a richiesta. */
+.map-node-card { display: flex; align-items: stretch; align-self: flex-start; max-width: min(420px, 100%); pointer-events: auto; background: var(--surface); border: 1px solid var(--line-2); border-radius: 14px; box-shadow: 0 6px 24px -10px rgba(0,0,0,.3); overflow: hidden; }
+.map-node-card-main { display: flex; align-items: center; gap: 10px; min-width: 0; flex: 1; padding: 8px 6px 8px 12px; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.map-node-card-main:hover { background: var(--surface-2); }
+.map-node-card-main > .dot { flex: none; width: 10px; height: 10px; }
+.map-node-card-text { display: flex; flex-direction: column; min-width: 0; gap: 1px; }
+.map-node-card-text small { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.map-node-card-text b { font-size: 13.5px; font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.map-node-card-more { display: inline-flex; align-items: center; gap: 3px; flex: none; margin-left: 6px; padding: 5px 9px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); font-size: 12px; font-weight: 600; }
+.map-node-card-close { display: grid; place-items: center; flex: none; width: 40px; border: 0; border-left: 1px solid var(--line); background: none; color: var(--ink-2); cursor: pointer; }
+.map-node-card-close:hover { background: var(--surface-2); color: var(--ink); }
+.map-shell > .map-node-card { position: absolute; left: 12px; bottom: 12px; z-index: 3; }
 /* Riquadri delle mappe (per unità, collegamenti, testo): bordo leggero a riposo, più netto al passaggio,
    anello grigio quando il riquadro è attivo o si sta zoomando: si capisce che è uno schermo interattivo. */
 .map-shell, .mg-finestra { border: 1px solid var(--line); border-radius: var(--radius); outline: none; transition: border-color .15s, box-shadow .15s; }

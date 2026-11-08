@@ -399,8 +399,8 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
       <p className="small muted">Tieni premuta una parola e allarga la selezione con le maniglie. Per salvare il segno, tocca un altro punto del testo. Puoi annullare con la freccia indietro.</p>
       <div className="mobile-reader-extras">
         <button className="btn btn-sm" aria-label={`Segni salvati (${segni.length})`} onClick={() => { salvaBozza(); onIndice(false); setPannello('segni'); }}><Icon n="glossario" size={17} />Segni ({segni.length})</button>
-        <button className="btn btn-sm" aria-label="Mappa personale" aria-expanded={pannello === 'mappa'} onClick={() => { salvaBozza(); onIndice(false); setPannello('mappa'); }}><Icon n="mappa" size={17} />Mappa</button>
-        <button className="btn btn-sm" aria-label="Fonti e scorciatoie" onClick={() => { salvaBozza(); onIndice(false); setPannello('fonti'); }}><Icon n="altro" size={17} />Fonte e comandi</button>
+        <button className="btn btn-sm mobile-reader-icon" aria-label="Mappa personale" title="Mappa personale" aria-expanded={pannello === 'mappa'} onClick={() => { salvaBozza(); onIndice(false); setPannello('mappa'); }}><Icon n="mappa" size={18} /></button>
+        <button className="btn btn-sm" aria-label="Fonti e scorciatoie" onClick={() => { salvaBozza(); onIndice(false); setPannello('fonti'); }}><Icon n="altro" size={18} />Fonte</button>
       </div>
     </MobileSheet>}
     {pop}
