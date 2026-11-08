@@ -45,3 +45,21 @@
 }
 
 .tour-chapters { width: 100%; min-width: 0; padding: 6px 4px; border: 0; border-radius: 5px; font: inherit; font-size: 12px; background: var(--surface); color: var(--ink-2); cursor: pointer; text-overflow: ellipsis; }
+
+/* Telefono e iPad: la pillola in alto copriva le barre degli strumenti; lo stato passa nella nuvoletta. */
+.tour-eyebrow-touch { display: none; }
+@media (max-width: 860px), (max-width: 1280px) and (pointer: coarse) {
+  .tour-status { display: none; }
+  .tour-eyebrow-long { display: none; }
+  .tour-eyebrow-touch { display: inline; }
+  .tour-bubble-head { margin-bottom: 10px; }
+  .tour-controls { margin-top: 12px; padding-top: 10px; }
+  .tour-controls button { min-height: 44px; }
+  .tour-controls .tour-next { padding-left: 16px; padding-right: 16px; }
+  .tour-close { min-width: 44px; min-height: 44px; }
+}
+@media (max-width: 700px) {
+  .tour-bubble { padding: 14px 16px 12px; }
+  .tour-bubble h2 { font-size: 20px; }
+  .tour-copy { margin: 8px 0 4px; }
+}

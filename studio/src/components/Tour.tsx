@@ -10,6 +10,7 @@ import { registraRisposta, type Voto } from '../lib/srs';
 import { passiTour } from '../lib/tour-passi';
 import { Icon } from './ui';
 import IurisMascot from './IurisMascot';
+import { useCompact } from './MobileSheet';
 import './Tour.css';
 
 type Rect = { x: number; y: number; w: number; h: number };
@@ -34,6 +35,8 @@ async function trova(selector: string, signal: AbortSignal) {
 
 export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: string) => void }) {
   const passi = useMemo(() => passiTour(idx), [idx]);
+  // Su telefono e iPad la visita usa testi più brevi, scritti per i comandi touch.
+  const touch = useCompact();
   const [index, setIndex] = useState(0);
   const [pronto, setPronto] = useState(false), [errore, setErrore] = useState(''), [tentativo, setTentativo] = useState(0);
   const [rett, setRett] = useState<Rect | null>(null), [pos, setPos] = useState({ x: 16, y: 100 });
@@ -231,9 +234,9 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
     <div className="tour-status"><span className="tour-status-dot" />Visita guidata<span className="tour-status-sep">·</span><span>Archivio di prova</span></div>
     {!pronto && <div className="tour-working" role="status"><IurisMascot variant="working" /><span>Ti accompagno in {passo.sezione}…</span><button onClick={() => onClose()} aria-label="Esci dalla demo"><Icon n="x" size={17} /></button></div>}
     <div ref={bubble} className={`tour-bubble${pronto ? ' ready' : ''}`} style={{ '--bubble-x': `${pos.x}px`, '--bubble-y': `${pos.y}px` } as CSSProperties}>
-      <div className="tour-bubble-head"><IurisMascot variant="guide" active={pronto} greet /><div><span className="eyebrow">La I ti accompagna</span><div className="tour-step">{passo.sezione} · {index + 1} di {passi.length}</div></div><button className="tour-close" onClick={() => onClose()} aria-label="Esci dalla demo"><Icon n="x" size={18} /></button></div>
-      <h2 ref={titolo} tabIndex={-1} className="title-m">{errore ? 'Aspettiamo questa pagina.' : passo.titolo}</h2>
-      <p className="tour-copy" aria-live="polite">{errore ? `${errore} Puoi riprovare o passare alla tappa successiva.` : passo.testo}</p>
+      <div className="tour-bubble-head"><IurisMascot variant="guide" active={pronto} greet /><div><span className="eyebrow tour-eyebrow-long">La I ti accompagna</span><span className="eyebrow tour-eyebrow-touch">Visita guidata · prova</span><div className="tour-step">{passo.sezione} · {index + 1} di {passi.length}</div></div><button className="tour-close" onClick={() => onClose()} aria-label="Esci dalla demo"><Icon n="x" size={18} /></button></div>
+      <h2 ref={titolo} tabIndex={-1} className="title-m">{errore ? 'Aspettiamo questa pagina.' : (touch && passo.titoloTouch) || passo.titolo}</h2>
+      <p className="tour-copy" aria-live="polite">{errore ? `${errore} Puoi riprovare o passare alla tappa successiva.` : (touch && passo.touch) || passo.testo}</p>
       {errore && <button className="tour-retry" onClick={() => setTentativo(tentativo + 1)}>Riprova questa tappa</button>}
       <div className="tour-controls">
         <button disabled={!index || !pronto} onClick={() => setIndex(index - 1)} aria-label="Tappa precedente"><Icon n="indietro" size={17} /></button>
