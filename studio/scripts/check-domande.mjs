@@ -19,6 +19,10 @@ const ERRATI = [
 ];
 // inizi che non rispondono a «Chi era…?» o «Che cos'è…?»
 const INIZIO_VAGO = /^(Le sue|Il suo|La sua|I suoi|Nelle dispense|Negli appunti|In questa unità|Citat[oa]|Nel capitolo|Qui |Vi si|Il testo l[oa] |Incampo|Per Incampo|Cotta |Moro )/;
+// Una scheda deve poter essere capita da sola, senza dedurre l'era dal titolo della lezione.
+const SECOLO = /\b(?:[IVX]+(?:\s*[–-]\s*[IVX]+)?\s*(?:secol[oi]|sec\.)|secol[oi]\s+[IVX]+(?:[–-][IVX]+)?\b)/g;
+const ERA = /^\W*(?:[ad]\.\s*C\.|(?:avanti|dopo) Cristo)/i;
+const CAMPI_TESTO = ['domanda', 'risposta', 'affermazione', 'spiegazione', 'testo', 'consegna', 'traccia', 'opzioni', 'elementi', 'coppie'];
 let domande = 0, glossario = 0, cronologia = 0, completa = 0;
 try {
   const { indicizza } = await server.ssrLoadModule('/src/lib/data.ts');
@@ -32,6 +36,15 @@ try {
       domande++;
       if (ids.has(q.id)) E(w, 'id ripetuto');
       ids.add(q.id);
+      for (const campo of CAMPI_TESTO) {
+        const testi = typeof q[campo] === 'string' ? [q[campo]] : Array.isArray(q[campo]) ? q[campo].flat(Infinity) : [];
+        for (const testo of testi) {
+          const visibile = testo.replace(/\{\{([^}]+)\}\}/g, (_, alternative) => alternative.split('|')[0]).replace(/\*\*/g, '');
+          for (const m of visibile.matchAll(SECOLO)) {
+            if (!ERA.test(visibile.slice(m.index + m[0].length))) E(w, `${campo}: manca a.C. o d.C. dopo «${m[0]}»`);
+          }
+        }
+      }
       const tutto = JSON.stringify(q);
       for (const [re, perche] of ERRATI) if (re.test(tutto)) E(w, `errore già corretto ricomparso (${perche})`);
       if (q.glossario && !q.inversa) {
@@ -63,6 +76,9 @@ try {
           if (alt.some((a) => !a.trim())) E(w, 'alternativa vuota in un completamento');
           if (!rispostaCompletaGiusta(alt, alt[0])) E(w, `la soluzione «${alt[0]}» non è accettata`);
         }
+        for (const m of q.testo.matchAll(/\{\{([^}]+)\}\}/g)) {
+          if (/\b[ad]\.\s*C\./i.test(m[1]) && !ERA.test(q.testo.slice(m.index + m[0].length))) E(w, 'nei completamenti l’era deve essere visibile fuori dallo spazio da riempire');
+        }
       }
     }
   }
@@ -80,4 +96,4 @@ if (errori.length) {
   console.error(`✗ Domande: ${errori.length} problemi\n  ${errori.slice(0, 40).join('\n  ')}`);
   process.exit(1);
 }
-console.log(`Domande verificate: ${domande} (glossario ${glossario}, date ${cronologia}, completamenti ${completa}); nessun errore di forma o di fatto noto.`);
+console.log(`Domande verificate: ${domande} (glossario ${glossario}, date ${cronologia}, completamenti ${completa}); secoli con era esplicita, nessun errore di forma o di fatto noto.`);
