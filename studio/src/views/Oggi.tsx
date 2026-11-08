@@ -39,7 +39,10 @@ export default function Oggi() {
 
   return (
     <div className="page fade-in">
-      <div className="eyebrow">{dataLunga}</div>
+      <div className="row-between oggi-heading">
+        <div className="eyebrow">{dataLunga}</div>
+        <a className="btn btn-sm" href={href('/demo')}><Icon n="demo" size={16} /> Scopri IURIS · Demo</a>
+      </div>
       <h1 className="title-xl" style={{ margin: '6px 0 22px' }}>{saluto}. <span className="faint">Si studia {idx.corso.materia.breve?.toLowerCase() ?? ''}.</span></h1>
 
       <div className="hero">

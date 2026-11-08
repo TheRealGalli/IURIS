@@ -5,6 +5,8 @@
 Lezioni, glossario, mappe, cronologia ed esercizi con ripasso spaziato per lo studio del diritto.
 Il sito funziona nel browser, senza account, server applicativo o sincronizzazione dei progressi.
 
+Da **Oggi → Scopri IURIS · Demo** (o **Demo interattiva** nella barra laterale) si apre una guida in dieci tappe, dalla prima lezione al backup. Gli esempi sono interattivi e separati dall’archivio personale: provare segni, colori, statistiche e ripristino non modifica i dati di studio. La sezione **Backup**, sotto **Studio**, è generale e resta aperta quando si cambia materia. Su mobile, demo e backup sono raggiungibili anche da **Altro**.
+
 ## Progressi personali
 
 I progressi sono salvati nel browser e rimangono dopo la chiusura della pagina e gli aggiornamenti del sito.

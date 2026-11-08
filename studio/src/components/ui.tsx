@@ -4,6 +4,7 @@ import type { Progresso } from '../lib/store';
 import { fmtMinuti, intervallo, isoDi } from '../lib/util';
 
 const PATHS: Record<string, ReactNode> = {
+  demo: <><circle cx="12" cy="12" r="9" /><path d="m10 8 6 4-6 4Z" /></>,
   oggi: <><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></>,
   percorso: <><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2Z" /><path d="M8 7h7M8 11h5" /></>,
   mappa: <><circle cx="6" cy="6" r="2.5" /><circle cx="18" cy="7" r="2.5" /><circle cx="12" cy="18" r="2.5" /><path d="M8.2 7.2 15.6 7M7.3 8.3l3.6 7.5M16.8 9.2l-3.6 6.6" /></>,

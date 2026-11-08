@@ -169,7 +169,13 @@ export default function Progressi() {
         <a className="card cta-card" href={href('/glossario')}><Icon n="glossario" size={22} /><b className="title-s">Glossario</b><span className="muted small">{idx.corso.concetti.length} voci ricercabili</span></a>
         <a className="card cta-card" href={href('/originali')}><Icon n="libro" size={22} /><b className="title-s">Originali</b><span className="muted small">Appunti originali da leggere, evidenziare e sottolineare</span></a>
       </div>
-      <a className="card cta-card" style={{ marginTop: 16 }} href={href('/backup')}><Icon n="backup" size={22} /><b className="title-s">Backup</b><span className="muted small">Un solo file per tutte le materie, i progressi e i segni</span></a>
+      <section className="stack" style={{ marginTop: 28 }} aria-label="Strumenti per tutte le materie">
+        <h2 className="eyebrow">Tutte le materie</h2>
+        <div className="grid g2">
+          <a className="card cta-card" href={href('/backup')}><Icon n="backup" size={22} /><b className="title-s">Backup completo</b><span className="muted small">Un solo file per l’intero archivio: progressi, mappe personali e segni di tutte le materie.</span></a>
+          <a className="card cta-card" href={href('/demo')}><Icon n="demo" size={22} /><b className="title-s">Demo interattiva</b><span className="muted small">Scopri come studiare, leggere le statistiche e proteggere i tuoi progressi.</span></a>
+        </div>
+      </section>
       {toast.el}
     </div>
   );

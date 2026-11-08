@@ -56,20 +56,30 @@ export default function Backup({ materie, materia }: { materie: MateriaInfo[]; m
   }
 
   return <div className="page backup-page fade-in">
-    <div className="eyebrow">Archivio dello studio</div>
+    <div className="eyebrow">Archivio generale · tutte le materie</div>
     <h1 className="title-xl" style={{ margin: '6px 0 12px' }}>Backup</h1>
     <p className="muted backup-intro">Un unico file per salvare e ripristinare tutti i dati di Forma Iuris, per tutte le materie.</p>
+    <section className="card backup-guida stack" aria-labelledby="backup-browser-titolo">
+      <h2 id="backup-browser-titolo" className="title-m">Il browser conserva i dati. Il backup li protegge.</h2>
+      <p className="small muted">I progressi si salvano automaticamente e normalmente restano anche dopo aver chiuso la pagina o aggiornato il sito. Per ritrovarli, usa <strong>lo stesso browser, profilo, dispositivo e indirizzo del sito</strong>: Safari e Chrome hanno archivi separati, così come computer e telefono.</p>
+      <p className="small muted">Se il browser rimuove i dati del sito, o li cancelli tu, l’archivio locale può andare perso. Una copia recente ti permette di recuperare lo studio fino al momento del backup, senza ricominciare da capo.</p>
+      <ol className="backup-passaggi small">
+        <li><b>Scarica un backup completo.</b><span>Un solo file contiene tutte le materie: non occorre cambiare materia e scaricarne uno per ciascuna.</span></li>
+        <li><b>Conservalo fuori dal browser.</b><span>Salva il file nei tuoi documenti o in una cartella cloud. Aggiornalo regolarmente, soprattutto dopo una sessione importante e prima di cambiare browser o dispositivo.</span></li>
+        <li><b>Se serve, caricalo e controlla l’anteprima.</b><span>Apri IURIS nel browser in cui vuoi riprendere, scegli Carica backup e seleziona il file. Controlla il riepilogo e premi Ripristina questo backup.</span></li>
+      </ol>
+    </section>
     <div className="grid g2 backup-azioni">
       <section className="card stack">
         <Icon n="backup" size={28} />
         <h2 className="title-m">Backup completo</h2>
-        <p className="muted small">Include progressi, storico delle risposte, ripassi, calendario, esami, annotazioni degli Originali, posizioni di lettura e preferenze.</p>
+        <p className="muted small">Include progressi, storico delle risposte, ripassi, quiz sospesi, calendario, esami, evidenziazioni, sottolineature, cronologia dei segni, posizioni di lettura e preferenze. Le mappe personali si ricostruiscono dai segni salvati: anche quelle fanno parte del backup.</p>
         {dati && <div className="backup-materie" aria-label="Progressi per materia">
           {daMostrare.map((slug) => <RigaMateria key={slug} slug={slug} nome={nomeMateria(slug)} idx={indici.get(slug)} caricando={caricando} />)}
         </div>}
         {dati && <p className="tiny faint">{dati.segni} {dati.segni === 1 ? 'annotazione salvata' : 'annotazioni salvate'} · tutte incluse nello stesso file.</p>}
         <button className="btn btn-primary" onClick={scarica}><Icon n="scarica" size={17} />Scarica backup completo</button>
-        <p className="tiny faint">Un file .json, anche per le materie aggiunte in futuro e i quiz in sospeso. È sufficiente conservare la copia più recente.</p>
+        <p className="tiny faint">Un file .json, anche per le materie aggiunte in futuro. Conserva la copia più recente in un posto facile da ritrovare.</p>
       </section>
       <section className="card stack">
         <Icon n="carica" size={28} />

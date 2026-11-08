@@ -17,6 +17,7 @@ import Allena from './views/Allena';
 import Progressi from './views/Progressi';
 import Backup from './views/Backup';
 const Originali = lazy(() => import('./views/Originali'));
+const Demo = lazy(() => import('./views/Demo'));
 
 const NAV = [
   { to: '/', key: '', label: 'Oggi', icon: 'oggi' },
@@ -27,7 +28,6 @@ const NAV = [
   { to: '/cronologia', key: 'cronologia', label: 'Cronologia', icon: 'cronologia' },
   { to: '/glossario', key: 'glossario', label: 'Glossario', icon: 'glossario' },
   { to: '/progressi', key: 'progressi', label: 'Progressi', icon: 'progressi' },
-  { to: '/backup', key: 'backup', label: 'Backup', icon: 'backup' },
 ];
 const TABS = ['', 'percorso', 'allena', 'mappa', 'progressi'];
 
@@ -72,10 +72,15 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
     return () => window.removeEventListener('keydown', onKey);
   }, []);
 
-  const scegliMateria = (slug: string) => { scriviPref({ materia: slug }); location.hash = '#/'; };
+  const scegliMateria = (slug: string) => {
+    scriviPref({ materia: slug });
+    if (!['backup', 'demo'].includes(rotta.parti[0])) location.hash = '#/';
+  };
 
   let contenuto;
   if (rotta.parti[0] === 'backup') contenuto = <Backup materie={manifest.materie} materia={materia.slug} />;
+  else if (rotta.parti[0] === 'demo') contenuto = <Suspense fallback={<div className="empty faint">Apertura della demo…</div>}><Demo /></Suspense>;
+  else if (rotta.parti[0] === 'altro') contenuto = <Altro />;
   else if (!materia.disponibile) contenuto = <InPreparazione m={materia} />;
   else if (err) contenuto = <div className="empty"><h3>Errore</h3><p>{err}</p></div>;
   else if (!idx) contenuto = <div className="empty faint">Caricamento del corso…</div>;
@@ -99,7 +104,14 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
           ))}
         </div>
         {idx && <NavLaterale />}
+        <nav className="nav nav-archivio" aria-label="Backup di tutte le materie">
+          <div className="nav-label">Backup</div>
+          <a href={href('/backup')} className={rotta.parti[0] === 'backup' ? 'on' : ''} aria-current={rotta.parti[0] === 'backup' ? 'page' : undefined}>
+            <Icon n="backup" /><span>Backup completo<small>Tutte le materie</small></span>
+          </a>
+        </nav>
         <div className="side-foot">
+          <a className={`search-btn demo-link${rotta.parti[0] === 'demo' ? ' on' : ''}`} href={href('/demo')} aria-current={rotta.parti[0] === 'demo' ? 'page' : undefined}><Icon n="demo" size={16} /> Demo interattiva</a>
           {idx && (
             <button className="search-btn" onClick={() => setPalette(true)}>
               <Icon n="cerca" size={16} /> Cerca <kbd>⌘K</kbd>
@@ -119,7 +131,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
         </header>
         <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
       </div>
-      {idx && <TabBar />}
+      <TabBar />
       {palette && idx && <Palette onClose={() => setPalette(false)} />}
     </div>
   );
@@ -164,13 +176,26 @@ function TabBar() {
   return (
     <nav className="tabbar">
       {NAV.filter((n) => TABS.includes(n.key)).map((n) => (
-        <a key={n.key} href={href(n.key === 'progressi' ? '/progressi' : n.to)} className={(n.key === 'progressi' ? (att === 'progressi' || altro) : att === n.key) ? 'on' : ''}>
+        <a key={n.key} href={href(n.key === 'progressi' ? '/altro' : n.to)} className={(n.key === 'progressi' ? (att === 'progressi' || altro) : att === n.key) ? 'on' : ''}>
           <Icon n={n.key === 'progressi' ? 'altro' : n.icon} size={21} />
           {n.key === 'progressi' ? 'Altro' : n.label === 'Allenamento' ? 'Allena' : n.label}
         </a>
       ))}
     </nav>
   );
+}
+
+function Altro() {
+  return <div className="page-narrow fade-in stack">
+    <h1 className="title-xl">Altro</h1>
+    <h2 className="eyebrow" style={{ marginTop: 12 }}>Studio · materia selezionata</h2>
+    <nav className="grid g2 altro-studio" aria-label="Altre sezioni di studio">
+      {NAV.filter((n) => ['originali', 'cronologia', 'glossario', 'progressi'].includes(n.key)).map((n) => <a key={n.key} className="card cta-card" href={href(n.to)}><Icon n={n.icon} size={22} /><b className="title-s">{n.label}</b></a>)}
+    </nav>
+    <h2 className="eyebrow" style={{ marginTop: 12 }}>Backup · tutte le materie</h2>
+    <a className="card cta-card" href={href('/backup')}><Icon n="backup" size={22} /><b className="title-s">Backup completo</b><span className="small muted">Un solo file per progressi, segni e mappe personali di tutte le materie.</span></a>
+    <a className="card cta-card" href={href('/demo')}><Icon n="demo" size={22} /><b className="title-s">Demo interattiva</b><span className="small muted">Scopri IURIS, dalle prime lezioni al backup.</span></a>
+  </div>;
 }
 
 function Rotte() {
