@@ -87,6 +87,7 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
       await attesa(ridotto ? 30 : 600, signal);
     };
     const clicca = async (selector: string): Promise<void> => {
+      if (document.querySelector('.mobile-reader-choose') && !document.querySelector('.mobile-reader-sheet') && /Segni salvati|Mappa personale|Fonti e scorciatoie/.test(selector)) await clicca('.mobile-reader-choose');
       const hidden = document.querySelector<HTMLElement>(selector);
       if (hidden && !hidden.getBoundingClientRect().width) {
         if (hidden.classList.contains('originali-colore')) await clicca('.lettura-colore-attivo');

@@ -5,9 +5,10 @@
  *
  * Per ogni dispositivo e sezione: nessuno sbordo orizzontale, nessun errore in pagina, campi a 16px
  * (niente zoom automatico di iOS), bersagli touch adeguati, barra in basso o barra laterale secondo la larghezza.
- * Flussi: segnare un passaggio col dito (selezione + Salva) e con Apple Pencil, fogli dal basso sul telefono,
+ * Flussi: segnare un passaggio col dito (selezione + tocco esterno) e con Apple Pencil, fogli dal basso sul telefono,
  * selettore dei colori, mappa con gesti touch, pagina Altro, movimento ridotto.
  *
+ * Solo lettore: `SOLO_LETTORE=1 DISPOSITIVI='iPhone 16,iPad Pro 11' npm run check:responsive`.
  * Browser: `npx playwright install chromium webkit` (in CI anche `--with-deps`).
  */
 import assert from 'node:assert/strict';
@@ -38,6 +39,7 @@ const DISPOSITIVI = [
 ].filter(([, d]) => devices[d]);
 const ROTTE = ['/', '/percorso', '/lezione/u01-l1', '/originali', '/allena', '/mappa', '/mappa?grafo=1', '/mappa?personale=1', '/cronologia', '/glossario', '/concetto/ab-urbe-condita', '/progressi', '/backup', '/altro'];
 const SOLO = process.env.DISPOSITIVI?.split(',');
+const SOLO_LETTORE = process.env.SOLO_LETTORE === '1';
 
 const motori = { webkit, chromium };
 let browser = {};
@@ -105,19 +107,19 @@ try {
     const p = await ctx.newPage(); const pagina = [];
     p.on('pageerror', (e) => pagina.push(e.message));
     await p.goto(BASE + '#/'); await p.waitForSelector('.main', { timeout: 20000 });
-    for (const r of ROTTE) {
+    for (const r of SOLO_LETTORE ? ['/originali'] : ROTTE) {
       await vaiA(p, r);
       const m = await p.evaluate(misura, vw);
       const dove = `${etichetta} ${r}`;
       if (m.larghezza > vw + 1 || m.sbordi.length) errori.push(`${dove}: sborda in orizzontale (${m.larghezza}px su ${vw}) ${m.sbordi.join(' | ')}`);
       if (m.campi.length) errori.push(`${dove}: campi sotto i 16px (zoom di iOS): ${m.campi.join(', ')}`);
       if (m.piccoli.length) errori.push(`${dove}: bersagli touch troppo piccoli: ${m.piccoli.join(' | ')}`);
-      const workspace = r === '/originali';
-      if (m.compact && (m.side || m.tabbar === workspace)) errori.push(`${dove}: navigazione mobile errata (menu compatto, barra a due voci, nascosta solo nel lettore)`);
+      if (m.compact && (m.side || !m.tabbar)) errori.push(`${dove}: navigazione mobile errata (menu compatto, barra a due voci in tutte le sezioni)`);
       if (!m.compact && (!m.side || m.tabbar)) errori.push(`${dove}: desktop senza la barra laterale`);
       controlli += 6;
     }
 
+    if (!SOLO_LETTORE) {
     // Corso e materia sono nel menu, accessibile dalla barra compatta.
     await vaiA(p, '/');
     await p.tap('.mobile-tabs button[aria-label="Apri menu"]');
@@ -131,28 +133,57 @@ try {
     await p.waitForSelector('[data-lettura-block]');
     controlli += 2;
 
-    // Segnare col dito: selezione nativa, poi «Salva» nella barra degli strumenti.
+    }
+
+    // Selezione nativa, scelta del colore e conferma con un tocco esterno.
     await vaiA(p, '/originali');
     const prima = await segniInPagina(p);
     await selezionaCol(p);
-    await p.waitForFunction(() => !document.querySelector('.lettura-salva')?.disabled, null, { timeout: 5000 });
+    await p.waitForFunction(() => document.querySelector('.lettura')?.dataset.bozza === 'true', null, { timeout: 5000 });
     const avviso = await p.textContent('.originali-feedback');
-    if (!/tocca Salva/.test(avviso ?? '')) errori.push(`${etichetta}: con il touch il messaggio deve dire «tocca Salva» (ora: «${avviso}»)`);
-    await p.tap('.lettura-salva');
-    await p.waitForFunction(() => /Segno salvato/.test(document.querySelector('.originali-feedback')?.textContent ?? ''), null, { timeout: 5000 })
-      .catch(() => errori.push(`${etichetta}: il segno fatto col dito non è stato salvato`));
-    if ((await segniInPagina(p)) <= prima) errori.push(`${etichetta}: il segno salvato non compare nel testo`);
-    controlli += 3;
-
-    // Barra degli strumenti: sotto i 861px fluttua in basso, sopra la barra delle sezioni e dentro lo schermo.
-    if (await p.locator('.shell-mobile').count()) {
-      const barra = await p.evaluate(() => {
-        const a = document.querySelector('.lettura-attrezzi').getBoundingClientRect();
-        return { sopra: a.bottom <= innerHeight, dentro: a.left >= 0 && a.right <= innerWidth, fissa: getComputedStyle(document.querySelector('.lettura-attrezzi')).position === 'fixed' };
-      });
-      if (!barra.fissa || !barra.sopra || !barra.dentro) errori.push(`${etichetta}: barra degli strumenti fuori posto ${JSON.stringify(barra)}`);
-      controlli++;
+    if (!/Tocca fuori/.test(avviso ?? '')) errori.push(`${etichetta}: manca l'indicazione del salvataggio al tocco`);
+    if (await p.locator('.lettura-salva').count()) errori.push(`${etichetta}: sul touch non deve comparire il tasto Salva`);
+    await p.tap('.lettura-colore-attivo');
+    await p.tap('.originali-colori.aperti .originali-colore.rosa');
+    if (await segniInPagina(p) !== prima) errori.push(`${etichetta}: scegliere il colore non deve confermare il segno`);
+    // Uno scorrimento con il dito non è una conferma.
+    await p.evaluate(() => {
+      const el = document.querySelector('.lettura-viewport'), r = el.getBoundingClientRect();
+      const options = (y) => ({ bubbles: true, pointerId: 31, pointerType: 'touch', isPrimary: true, button: 0, clientX: r.left + 6, clientY: r.top + y });
+      el.dispatchEvent(new PointerEvent('pointerdown', options(15)));
+      el.dispatchEvent(new PointerEvent('pointermove', options(65)));
+      el.dispatchEvent(new PointerEvent('pointerup', options(65)));
+    });
+    if (await segniInPagina(p) !== prima) errori.push(`${etichetta}: lo scorrimento ha confermato il segno`);
+    const toccaFuori = async () => {
+      const r = await p.locator('.lettura-viewport').boundingBox();
+      await p.touchscreen.tap(r.x + 6, r.y + 12);
+    };
+    await toccaFuori();
+    await p.waitForFunction(() => /Segno salvato/.test(document.querySelector('.originali-feedback')?.textContent ?? ''), null, { timeout: 5000 });
+    const rosaSalvato = await p.evaluate(() => Object.values(JSON.parse(localStorage.getItem('iuris:v1:prog:diritto-romano') ?? '{}').originali ?? {}).some(d => d.segni?.some(s => s.colore === 'rosa')));
+    if ((await segniInPagina(p)) !== prima + 1 || !rosaSalvato) errori.push(`${etichetta}: il tocco esterno non ha salvato un unico segno rosa`);
+    await toccaFuori();
+    if (await segniInPagina(p) !== prima + 1) errori.push(`${etichetta}: un secondo tocco ha duplicato il segno`);
+    await p.tap('button[aria-label="Annulla ultima modifica ai segni"]');
+    if (await segniInPagina(p) !== prima) errori.push(`${etichetta}: Annulla non recupera il salvataggio al tocco`);
+    if (await p.isVisible('button[aria-label="Ripristina modifica ai segni"]')) await p.tap('button[aria-label="Ripristina modifica ai segni"]');
+    else {
+      await p.tap('.mobile-reader-choose'); await p.tap('button[aria-label="Fonti e scorciatoie"]');
+      await p.tap('[data-mobile-redo]'); await p.tap('button[aria-label="Chiudi pannello"]');
     }
+    if (await segniInPagina(p) !== prima + 1) errori.push(`${etichetta}: Ripristina non recupera il segno`);
+    await p.reload();
+    await p.waitForSelector('.lettura-segno', { state: 'attached', timeout: 8000 });
+    if (await segniInPagina(p) !== prima + 1) errori.push(`${etichetta}: il segno non persiste dopo il ricaricamento`);
+    controlli += 8;
+
+    const barra = await p.evaluate(() => {
+      const a = document.querySelector('.lettura-attrezzi').getBoundingClientRect(), v = document.querySelector('.lettura-viewport').getBoundingClientRect();
+      return { alto: a.bottom <= v.top + 1 && a.height < 100, dentro: a.left >= 0 && a.right <= innerWidth, menu: !!document.querySelector('.mobile-tabs') };
+    });
+    if (!barra.alto || !barra.dentro || !barra.menu) errori.push(`${etichetta}: strumenti in alto o menu in basso fuori posto ${JSON.stringify(barra)}`);
+    controlli++;
     // Telefono: i colori si aprono da un solo pulsante.
     if (vw <= 560) {
       await p.tap('.lettura-colore-attivo');
@@ -161,15 +192,16 @@ try {
       if (!ok) errori.push(`${etichetta}: il pulsante dei colori non sceglie il colore o non si richiude`);
       controlli++;
     }
-    // Pannelli secondari: foglio dal basso, con la barra degli strumenti nascosta.
+    // Pannelli secondari: foglio dal basso, con la barra degli strumenti stabile in alto.
     if (await p.locator('.shell-mobile').count()) {
+      await p.tap('.mobile-reader-choose');
       await p.tap('button[aria-label^="Segni salvati"]');
       await p.waitForSelector('.lettura-pannello'); await p.waitForTimeout(350); // fine dell'animazione del foglio
       const foglio = await p.evaluate(() => {
         const s = document.querySelector('.lettura-pannello')?.getBoundingClientRect(), l = document.querySelector('.lettura-layout').getBoundingClientRect();
         return s && { basso: Math.abs(s.bottom - l.bottom) < 2, largo: s.width >= l.width - 1, attrezzi: getComputedStyle(document.querySelector('.lettura-attrezzi')).display };
       });
-      if (!foglio?.basso || !foglio.largo || foglio.attrezzi !== 'none') errori.push(`${etichetta}: il pannello non si apre come foglio dal basso ${JSON.stringify(foglio)}`);
+      if (!foglio?.basso || !foglio.largo || foglio.attrezzi !== 'flex') errori.push(`${etichetta}: il pannello non si apre come foglio dal basso ${JSON.stringify(foglio)}`);
       await p.tap('button[aria-label="Chiudi pannello"]');
       controlli++;
     }
@@ -191,6 +223,20 @@ try {
       controlli += 2;
     }
 
+    await p.tap('.mobile-reader-choose');
+    const altroDoc = await p.locator('.mobile-reader-sheet select[aria-label="Scegli il documento originale"] option').last().getAttribute('value');
+    await p.selectOption('.mobile-reader-sheet select[aria-label="Scegli il documento originale"]', altroDoc);
+    await p.waitForSelector('.mobile-reader-sheet select[aria-label="Sezione del testo"]');
+    const sezioni = await p.locator('.mobile-reader-sheet select[aria-label="Sezione del testo"] option').all();
+    if (sezioni.length > 1) await p.selectOption('.mobile-reader-sheet select[aria-label="Sezione del testo"]', await sezioni[1].getAttribute('value'));
+    else await p.tap('button[aria-label="Chiudi testo e sezione"]');
+    await p.waitForSelector('[data-lettura-block]');
+    controlli++;
+
+    if (!SOLO_LETTORE) {
+    await p.tap('.mobile-reader-choose');
+    await p.selectOption('.mobile-reader-sheet select[aria-label="Scegli il documento originale"]', { index: 0 });
+    await p.tap('button[aria-label="Chiudi testo e sezione"]');
     // Mappe: gesti touch gestiti dallo zoom (niente scorrimento della pagina dentro la finestra), finestra nello schermo.
     await vaiA(p, '/mappa');
     const mappa = await p.evaluate(() => {
@@ -246,6 +292,8 @@ try {
     await vaiA(p, '/altro');
     if (!(await p.isVisible('.corso-switch-pagina')) || !(await p.isVisible('.invia-materiale-pagina'))) errori.push(`${etichetta}: in Altro mancano il corso o l'invito WhatsApp`);
     controlli++;
+
+    }
 
     if (pagina.length) errori.push(`${etichetta}: errori in pagina: ${[...new Set(pagina)].slice(0, 3).join(' | ')}`);
     controlli++;

@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useCorso } from '../lib/data';
 import { originaliMateria } from '../lib/originali';
 import { scriviPref, usePref } from '../lib/store';
@@ -13,6 +13,7 @@ import './Originali.css';
  */
 export default function Originali() {
   const idx = useCorso(), slug = idx.corso.materia.slug;
+  const [indiceAperto, onIndice] = useState(false);
   const { query } = useRotta(), pref = usePref();
   const documenti = useMemo(() => originaliMateria(slug), [slug]);
   const doc = documenti.find((d) => d.id === (query.get('doc') ?? pref.originale)) ?? documenti[0];
@@ -23,6 +24,6 @@ export default function Originali() {
   if (!doc) return <div className="empty"><h1 className="title-m">Originali</h1><p>Non ci sono ancora documenti per questa materia.</p></div>;
   if (!testo) return <div className="empty"><h1 className="title-m">{doc.titolo}</h1><p>Il testo di questo documento non è ancora disponibile.</p></div>;
   const scegli = (id: string) => vai(linkTesto(id));
-  return <LettoreTesto key={`${slug}-${doc.id}`} doc={doc} documento={testo} documenti={documenti} scegli={scegli}
+  return <LettoreTesto key={`${slug}-${doc.id}`} doc={doc} documento={testo} documenti={documenti} scegli={scegli} indiceAperto={indiceAperto} onIndice={onIndice}
     sezioneId={sezione} bloccoFocus={query.get('blocco') ?? undefined} segnoFocus={query.get('segno') ?? undefined} paginaFocus={query.get('sezione') ? undefined : pagina} />;
 }

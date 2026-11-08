@@ -180,7 +180,7 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
         </header>
         <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
       </div>
-      {compact ? !lettore && <MobileTabs items={NAV} section={sezioneAttiva(rotta.parti)} path={rotta.hash} onMenu={() => setMobilePanel('menu')} /> : <TabBar />}
+      {compact ? <MobileTabs items={NAV} section={sezioneAttiva(rotta.parti)} path={rotta.hash} onMenu={() => setMobilePanel('menu')} /> : <TabBar />}
       {compact && <MobileMenu panel={mobilePanel} onClose={() => setMobilePanel(null)} onStudy={() => setMobilePanel('study')} corso={corso} materie={materie} materia={materia} items={NAV} section={sezioneAttiva(rotta.parti)} onMateria={scegliMateria} />}
       {faseDemo === 'running' && idx && <Suspense fallback={null}><Tour idx={idx} onClose={chiudiDemo} /></Suspense>}
       {palette && idx && <Palette onClose={() => setPalette(false)} />}
