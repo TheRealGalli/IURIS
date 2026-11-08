@@ -92,7 +92,7 @@ export function materieDelCorso<M extends { slug: string }>(corso: CorsoDiStudio
   return corso.materie.map((s) => materie.find((m) => m.slug === s)).filter((m): m is M => !!m);
 }
 
-/** Link WhatsApp per inviare sbobine o materiale, con il corso scelto già nel messaggio. */
+/** Link WhatsApp per inviare sbobine o materiale: messaggio breve, chi scrive aggiunge che materiale ha. */
 export const WHATSAPP_MATERIALE = '393925689596';
 export const linkMateriale = (c: CorsoDiStudio) =>
-  `https://wa.me/${WHATSAPP_MATERIALE}?text=${encodeURIComponent(`Ciao Carlo! Ho del materiale per il corso ${c.breve} (${c.universita}): `)}`;
+  `https://wa.me/${WHATSAPP_MATERIALE}?text=${encodeURIComponent('Ciao Carlo! Ho del materiale: ')}`;

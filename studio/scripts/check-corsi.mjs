@@ -50,7 +50,7 @@ try {
       assert.equal(new Set(colori).size, colori.length, `colori delle materie ripetuti: ${c.id}`);
       const wa = new URL(corsi.linkMateriale(c));
       assert.equal(wa.origin + wa.pathname, 'https://wa.me/393925689596');
-      assert(wa.searchParams.get('text').startsWith(`Ciao Carlo! Ho del materiale per il corso ${c.breve}`), 'messaggio WhatsApp senza il corso');
+      assert.equal(wa.searchParams.get('text'), 'Ciao Carlo! Ho del materiale: ', 'messaggio WhatsApp precompilato diverso');
       assert(c.universita && c.laurea && Number.isInteger(c.anno) && c.anno >= 1, `dati del corso incompleti: ${c.id}`);
       assert(c.materie.length > 0 && new Set(c.materie).size === c.materie.length, `materie vuote o ripetute: ${c.id}`);
       for (const s of c.materie) assert(slugs.includes(s), `${c.id}: materia assente dal manifest: ${s}`);
