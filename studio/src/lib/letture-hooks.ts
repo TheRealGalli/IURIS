@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useCorso } from './data';
 import { useProgresso } from './store';
 import { proiettaSegnoTesto, ritrovaNellaSezione, type SezioneLettura } from './letture';
-import { caricaSezioneLettura, DOCUMENTI_LETTURA, paginaBlocco, preparaBlocchi, sezionePerPagina } from './letture-client';
+import { caricaSezioneLettura, DOCUMENTI_LETTURA, paginaBlocco, preparaBlocchi, sezioniPerPagina } from './letture-client';
 import { alberoGeometrico, daRicollocare, etichetteConcetto, semanticaGeometrica, strutturaBlocco, type NodoGeo, type SegnoGeo, type SemanticaGeo } from './mappa-geometrica';
 import type { SegnoOriginale } from './originali';
 
@@ -14,7 +14,7 @@ export function useSezioniAnnotate() {
     const risultato = new Map();
     for (const d of documenti) for (const segno of p.originali?.[d.id]?.segni ?? []) {
       const pagine = segno.ancoreTesto?.map((a) => paginaBlocco(a.blocco) ?? segno.pagina) ?? [segno.pagina];
-      for (const pagina of pagine) { const sezione = sezionePerPagina(d, pagina); if (sezione) risultato.set(sezione.file, sezione); }
+      for (const pagina of pagine) for (const sezione of sezioniPerPagina(d, pagina)) risultato.set(sezione.file, sezione);
     }
     return [...risultato.values()] as typeof documenti[number]['sezioni'];
   }, [documenti, p.originali]);

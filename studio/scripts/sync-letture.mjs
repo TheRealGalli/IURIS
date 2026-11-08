@@ -151,6 +151,9 @@ for (const doc of catalogo) {
         ...(override?.notaRevisione ? { notaRevisione: override.notaRevisione } : {}) };
     });
     if (!blocchi.length) throw new Error(`Sezione senza blocchi: ${doc.id}/${sec.id}`);
+    // Pagina condivisa con la sezione precedente: il primo blocco dice dove comincia questa.
+    const precedente = doc.sezioni[doc.sezioni.indexOf(sec) - 1];
+    if (precedente && precedente.a >= sec.da) sec.primo = blocchi[0].id; else delete sec.primo;
     const file = { documento: doc.id, edizione: doc.edizione, id: sec.id, titolo: sec.titolo, da: sec.da, a: sec.a,
       ...(sec.lezione ? { lezione: sec.lezione } : {}), ...(sec.lezioni ? { lezioni: sec.lezioni } : {}), ...(rev ? { revisionata: true } : {}),
       ...(sec.soloTitolo ? { soloTitolo: true } : {}), ...(sec.integrazione ? { integrazione: sec.integrazione } : {}), blocchi };

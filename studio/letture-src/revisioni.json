@@ -4761,8 +4761,13 @@
         {
           "da": "del Codex repetitae praelectionis. Il digesto ed i",
           "a": "del Codex repetitae praelectionis.\n\nIl digesto ed i"
+        },
+        {
+          "da": "7. Novembre 534",
+          "a": "8. Novembre 534"
         }
-      ]
+      ],
+      "notaRevisione": "Numerazione delle costituzioni giustinianee resa continua (il 6 era ripetuto)."
     },
     "p208-b002": {
       "baseSha256": "f859c7e4db47c252e5a513ad5b59e4f390be1c6eab3d789f39af7a291dd96da3",
@@ -15260,8 +15265,13 @@
         {
           "da": " dell'impero romano. - Di fatti l’ultima",
           "a": " dell'impero romano.\n   - Di fatti l’ultima"
+        },
+        {
+          "da": "8. 535 - 565",
+          "a": "9. 535 - 565"
         }
-      ]
+      ],
+      "notaRevisione": "Numerazione delle costituzioni giustinianee resa continua (il 6 era ripetuto)."
     },
     "p212-b003": {
       "baseSha256": "3b57577ca26f00b02b304b2db2477ff006d16c1f104c82eb493ff1731ccf4020",
@@ -16389,6 +16399,16 @@
           "tutte": true
         }
       ]
+    },
+    "p208-b003": {
+      "baseSha256": "43489cce3836b1d7c6e820dee302fc9f4bd7a6099cc76b32cfdb5d2406a7d9f5",
+      "sostituzioni": [
+        {
+          "da": "6. Dicembre 533",
+          "a": "7. Dicembre 533"
+        }
+      ],
+      "notaRevisione": "Numerazione delle costituzioni giustinianee resa continua (il 6 era ripetuto)."
     }
   }
 }

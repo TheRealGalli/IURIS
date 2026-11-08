@@ -321,8 +321,8 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   const salvaBozza = () => { if (automatico && bozzaRef.current) applicaRef.current(bozzaRef.current); };
   const scegliSezione = (id: string) => { salvaBozza(); annullaSelezione(); onIndice(false); vai(linkTesto(doc.id, id)); };
   const apriSegno = (s: SegnoOriginale) => {
-    const m = sezionePerPagina(documento, s.pagina);
-    if (m) { const a = s.ancoreTesto?.[0]; vai(linkTesto(doc.id, m.id, a?.blocco, s.id)); setPannello(null); }
+    const a = s.ancoreTesto?.[0], m = sezionePerPagina(documento, s.pagina, a?.blocco);
+    if (m) { vai(linkTesto(doc.id, m.id, a?.blocco, s.id)); setPannello(null); }
     else setMessaggio(`La pagina ${s.pagina} non ha testo: il segno resta salvato con la sua citazione.`);
   };
 

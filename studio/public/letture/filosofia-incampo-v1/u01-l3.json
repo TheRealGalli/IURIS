@@ -4,30 +4,10 @@
   "id": "u01-l3",
   "titolo": "L'oggetto del dovere: norme di condotta e norme di struttura",
   "da": 7,
-  "a": 8,
+  "a": 9,
   "lezione": "u01-l3",
   "revisionata": true,
   "blocchi": [
-    {
-      "id": "p007-b001",
-      "pagina": 7,
-      "markdown": "Eppure, l'Art. 80 del Codice Civile stabilisce che \"Il promittente può domandare la restituzione dei doni fatti a causa della promessa di matrimonio, se questo non è stato contratto.\" In tal modo, il codice introduce un [[obbligo|obbligo]] in più (l'obbligo di restituzione), laddove si potrebbe ritenere inevitabile il suo opposto (il [[divieto|divieto]] di pretendere la restituzione).",
-      "concetti": [
-        "obbligo",
-        "divieto"
-      ]
-    },
-    {
-      "id": "p007-b002",
-      "pagina": 7,
-      "markdown": "Un ulteriore esempio di [[norma-solo-possibile|norma non necessaria]] è il divieto di mangiare le fave in vigore presso la comunità pitagorica di Metaponto. Questa astensione era legata a un antico tabù originato da un ideale di purezza, che associava le fave al mondo dei morti e della decomposizione. Questo sentimento non era né fatale né destinato a durare. Questo divieto è menzionato, tra gli altri, da [[theodor-geiger|Theodor Geiger]] nei Vorstudien zu einer Soziologie des Rechts (Prolegomeni<sup>2</sup> ad una sociologia del diritto, 1947).",
-      "concetti": [
-        "norma-solo-possibile",
-        "theodor-geiger",
-        "divieto"
-      ],
-      "testoFonte": "Un ulteriore esempio di norma non necessaria è il divieto di mangiare le fave in vigore presso la comunità pitagorica di Metaponto. Questa astensione era legata a un antico tabù originato da un ideale di purezza, che associava le fave al mondo dei morti e della decomposizione. Questo sentimento non era né fatale né destinato a durare. Questo divieto è menzionato, tra gli altri, da Theodor Geiger nei Vorstudien zu einer Soziologie des Rechts (Prolegomeni2 ad una sociologia del diritto, 1947)."
-    },
     {
       "id": "p007-b003",
       "pagina": 7,
@@ -82,10 +62,10 @@
     {
       "id": "p007-b010",
       "pagina": 7,
-      "markdown": "Per tale motivo, il divieto di uccidere occupa il vertice della gerarchia delle norme di condotta. Questo divieto non può essere considerato semplicemente come il \"senso di un atto di volontà\", andando oltre la stretta dottrina volontaristica (come quella di [[kelsen|Kelsen]]).",
+      "markdown": "Per tale motivo, il [[divieto|divieto]] di uccidere occupa il vertice della gerarchia delle norme di condotta. Questo divieto non può essere considerato semplicemente come il \"senso di un atto di volontà\", andando oltre la stretta dottrina volontaristica (come quella di [[kelsen|Kelsen]]).",
       "concetti": [
-        "kelsen",
-        "divieto"
+        "divieto",
+        "kelsen"
       ]
     },
     {
@@ -191,6 +171,12 @@
       "concetti": [
         "norma-secondaria"
       ]
+    },
+    {
+      "id": "p009-b001",
+      "pagina": 9,
+      "markdown": "storia degli ordinamenti giuridici stessi, in particolare dalla giurisprudenza delle corti nella Germania post-nazista.",
+      "concetti": []
     }
   ]
 }

@@ -4,7 +4,7 @@
   "id": "u02-l3",
   "titolo": "Polibio: la costituzione mista e le assemblee popolari",
   "da": 13,
-  "a": 14,
+  "a": 15,
   "lezione": "u02-l3",
   "revisionata": true,
   "blocchi": [
@@ -41,6 +41,41 @@
         "console"
       ],
       "testoFonte": "Precisazione : Assemblee popolari: 1. Comitia Curiata > Prende il nome dalle “curie” , che erano associazioni sacrali, risalenti all'età reggia, e che funzionavano come unità di voto. > Le Curie erano 30,10 membri per ogni tribù gentilizia (Tities, Ramnes, Luceres). > Avevano funzioni: - Specialmente nell'ambito del diritto sacro, in questi casi erano presiedute dal Pontefice - In epoca regia, partecipavano all’inauguratio del Rex - In epoca repubblicana, avevano conservato la loro importanza riunendosi per la cosiddetta Lex de imperio: che era sostanzialmente l'investitura dei magistrati, e cioè la cerimonia nella quale i magistrati, una volta eletti, ricevevano il riconoscimento formale del loro potere. > Con l'affermarsi di altre prerogative all'interno di altri comizi, i comizi curiati andarono via via estinguendosi. 2. Comitia Centuriata > Anche detti maximus comitiatus, questi erano i comizi preponderanti, quelli che meglio rispecchiavano la realtà del popolo unito. > Si formarono gradualmente a partire dal periodo di Servio Tullio (VI secolo a.C.-IV secolo a.C.) per cui nell'età più remota della Repubblica. > I comizi centuriati erano assemblee di impronta militare, l'esercito oplitico infatti vi ritrova la sua forma politica: le centurie costituivano i quadri della leva militare e le unità di voto. > Erano assemblee d'origine timocratica, la popolazione era distribuita in cinque classi in base al censo, cioè a seconda della propria ricchezza (l'unità di misura della ricchezza generalmente erano i possedimenti terrieri), in questo caso il censo si traduceva nella possibilità di dotarsi di un’armatura: > Erano in totale 193 centurie: - 170 ripartite tra le cinque classi censi Tari della popolazione tra parentesi 80 solo per la prima classe) - 5 appartenevano agli inermi - 18 appartenevano alla cavalleria (quasi interamente Patrizia, formata da coloro che avevano sviluppato delle attività commerciali, e che erano stati capaci di mettere da parte una certa ricchezza) > La prima classe contava E i possessori di un patrimonio pari a centomila assi, solo loro potevano permettersi un'armatura con elmo, scudo, corazza e schinieri di bronzo, lancia e spada. Il patrimonio richiesto diminuiva per le classi successive, da 75.000 ad almeno 11.000 assi, per cui l'armamento diveniva meno oneroso, tant'è che le ultime due classi non avevano armi di difesa, ma solo lancia e giavellotto oppure fionda e pietre. > Nelle votazioni, si rispettava una gerarchia: si dava sempre prevalenza ai ceti più abbienti, che alla fine andavano a determinare le direttive delle azioni, infatti rispettando l'ordine gerarchico, partendo dalla prima classe che contava già da sola 80 centurie, considerando che spesso si metteva d'accordo con la classe dei cavalieri, che aveva interessi contigui ai ricchi e che contava 18 centurie, capiamo bene che già 98 unità di voto determinavano la maggioranza. - Di conseguenza, il meccanismo di promulgazione della legge e si democratico, ma nel momento in cui i meccanismi interni di deliberazione sono appannaggio delle classi più abbienti, e chiaro che diventa poco democratico > Funzioni: - Legislativa (votavano le leggi proposte dal magistrato che aveva la possibilità di comandare il popolo e la plebe, poiché c'erano anche i concilia plebis in cui erano i tribuni a convocare la plebe) - Elettiva dei magistrati più importanti (consoli pretori e censori) - Giudiziaria innanzi ai comizi centuriati si svolgevano i processi dei crimini particolarmente gravi, come quelli per cui era applicabile la pena capitale."
+    },
+    {
+      "id": "p015-b001",
+      "pagina": 15,
+      "markdown": "3. [[comizi-tributi|Comitia Tributa]]\\\n→ Questi comizi avevano una struttura diversa.\\\n→ Si erano formati in età repubblicana.\\\n→ Erano assemblee del popolo intero diviso in tribù intese come distretti territoriali della civitas: inizialmente erano 4 urbane e 16 rustiche, tuttavia siamo nel periodo dell’espansione di Roma, per cui ad ogni annessione di territorio le nuove zone venivano assegnate all'una o all'altra delle tribù per cui si arrivò nel 241 a.C. ad averne in totale 35.\\\n→ Ciascuna tribù costituiva un corpo votante, e la distribuzione dei cittadini in tribù avveniva secondo criteri che attenuavano la disparità con i cittadini più abbienti (tipiche dei comitia centuriati), perché qui si aveva una base di annessione territoriale.\\\n→ Infatti avevano funzioni:\n   - Legislative di competenza diversa da quelle dei comizi centuriati\n   - Elettive per i magistrati minori ([[edile-curule|edili curuli]] e [[questore|questori]])\\\n→ Erano convocate dal console o dal [[pretore|pretore]].",
+      "concetti": [
+        "comizi-tributi",
+        "edile-curule",
+        "questore",
+        "pretore",
+        "comizi-centuriati",
+        "console"
+      ],
+      "testoFonte": "3. Comitia Tributa > Questi comizi avevano una struttura diversa. > Si erano formati in età repubblicana. > Erano assemblee del popolo intero diviso in tribù intese come distretti territoriali della civitas: inizialmente erano 4 urbane e 16 rustiche, tuttavia siamo nel periodo dell’espansione di Roma, per cui ad ogni annessione di territorio le nuove zone venivano assegnate all'una o all'altra delle tribù per cui si arrivò nel 241 a.C. ad averne in totale 35. > Ciascuna tribù costituiva un corpo votante, e la distribuzione dei cittadini in tribù avveniva secondo criteri che attenuavano la disparità con i cittadini più abbienti (tipiche dei comitia centuriati), perché qui si aveva una base di annessione territoriale. > Infatti avevano funzioni: - Legislative di competenza diversa da quelle dei comizi centuriati - Elettive per i magistrati minori (edili curuli e questori) > Erano convocate dal console o dal pretore."
+    },
+    {
+      "id": "p015-b002",
+      "pagina": 15,
+      "markdown": "+Concilia Plebis\n- Nello stesso modo dei comizi tributi, si riuniva il concilio della plebe, convocato dal tribuno della plebe, all'interno delle quali la plebe deliberava e si regolamentava autonomamente, producendo i [[plebiscito|plebisciti]] (Che rientrano tra le fonti di produzione del diritto).",
+      "concetti": [
+        "plebiscito",
+        "concilia-plebis",
+        "tribuno-della-plebe",
+        "comizi-tributi"
+      ]
+    },
+    {
+      "id": "p015-b003",
+      "pagina": 15,
+      "markdown": "→ È da considerare che pian piano, a partire dalla [[lex-hortensia|Lex ortensia]] del 286 a.C., l'importanza dei comizi andò a decrescere: La Lex Ortensia andava ad equiparare le leggi e i plebisciti, per cui se fino al 286 A.C. i plebisciti valevano soltanto per la plebe, dalla Lex ortensia in poi queste deliberazioni della plebe arrivarono a valere per tutti cittadini equiparando le leggi.\n- Col passare del tempo, però, molte leggi saranno dei plebisciti veri e propri.",
+      "concetti": [
+        "lex-hortensia",
+        "plebiscito"
+      ],
+      "testoFonte": "> È da considerare che pian piano, a partire dalla Lex ortensia del 286 a.C., l'importanza dei comizi andò a decrescere: La Lex Ortensia andava ad equiparare le leggi e i plebisciti, per cui se fino al 286 A.C. i plebisciti valevano soltanto per la plebe, dalla Lex ortensia in poi queste deliberazioni della plebe arrivarono a valere per tutti cittadini equiparando le leggi. - Col passare del tempo, però, molte leggi saranno dei plebisciti veri e propri."
     }
   ]
 }

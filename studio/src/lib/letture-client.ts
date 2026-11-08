@@ -29,7 +29,9 @@ function htmlSicuro(html: string): HTMLDivElement {
       const nome = attr.name;
       const valido = el.tagName === 'A' && ((nome === 'class' && attr.value === 'cx')
         || (nome === 'data-c' && /^[a-z0-9-]+$/.test(attr.value))
-        || (nome === 'href' && /^(?:#\/|https?:\/\/)/i.test(attr.value)));
+        || (nome === 'href' && /^(?:#\/|https?:\/\/)/i.test(attr.value)))
+        // Un elenco che prosegue da un blocco precedente («6. …») conserva il suo numero di partenza.
+        || (el.tagName === 'OL' && nome === 'start' && /^\d{1,3}$/.test(attr.value));
       if (!valido) el.removeAttribute(nome);
     }
     if (el.tagName === 'A' && !el.classList.contains('cx')) { el.setAttribute('target', '_blank'); el.setAttribute('rel', 'noopener noreferrer'); }
@@ -198,5 +200,12 @@ export function linkTesto(documento: string, sezione?: string, blocco?: string, 
   if (segno) params.set('segno', segno);
   return `#/originali?${params}`;
 }
-export function sezionePerPagina(doc: DocumentoLettura, pagina: number) { return doc.sezioni.find((s) => s.da <= pagina && s.a >= pagina); }
+/** Sezione di una pagina o, se noto, del blocco: una pagina può essere divisa fra due sezioni (vedi «primo»). */
+export function sezionePerPagina(doc: DocumentoLettura, pagina: number, blocco?: string) {
+  const candidate = sezioniPerPagina(doc, pagina);
+  if (candidate.length < 2) return candidate[0];
+  const chiave = blocco && /^p\d{3}-b\d{3}$/.test(blocco) ? blocco : `p${String(pagina).padStart(3, '0')}-b999`;
+  return candidate.filter((s, i) => i === 0 || (s.primo ?? '') <= chiave).pop();
+}
+export function sezioniPerPagina(doc: DocumentoLettura, pagina: number) { return doc.sezioni.filter((s) => s.da <= pagina && s.a >= pagina); }
 export function paginaBlocco(id: string): number | null { const match = /^(?:manuale-[a-z0-9-]+-)?p(\d+)-/.exec(id); return match ? Number(match[1]) : null; }

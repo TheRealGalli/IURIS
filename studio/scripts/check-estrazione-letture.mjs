@@ -52,7 +52,9 @@ for (const doc of docs) {
   const seen = new Set(), wordCount = new Map(), blockCount = new Map();
   let next = 1;
   for (const sec of doc.sezioni) {
-    assert.equal(sec.da, next, 'sezioni contigue, senza pagine perse o duplicate');
+    // Una pagina può essere condivisa con la precedente solo se la sezione dice da quale blocco comincia.
+    assert.equal(sec.da, sec.primo ? Math.min(next, sec.da) : next, 'sezioni contigue, senza pagine perse o duplicate');
+    if (sec.primo) assert(sec.da === next - 1 && Number(sec.primo.slice(1, 4)) === sec.da, `pagina condivisa senza buchi: ${doc.id}/${sec.id}`);
     assert(sec.a >= sec.da && sec.a <= doc.pagine);
     next = sec.a + 1; sections++;
     assert.equal(sec.file, `letture/${doc.id}/${sec.id}.json`);

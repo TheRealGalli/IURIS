@@ -2,6 +2,8 @@ import type { AncoraTesto, SegnoOriginale } from './originali';
 
 export interface SezioneCatalogoLettura {
   id: string; titolo: string; da: number; a: number; file: string;
+  /** Primo blocco, quando la pagina d'inizio è condivisa con la sezione precedente (blocchi riportati indietro). */
+  primo?: string;
   lezione?: string; lezioni?: string[]; revisionata?: boolean;
   tipoFonte?: 'manuale-ricostruito'; manuale?: [number, number];
   soloTitolo?: boolean; integrazione?: { documento: string; sezione: string };

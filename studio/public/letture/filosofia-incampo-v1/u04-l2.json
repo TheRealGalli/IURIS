@@ -4,18 +4,10 @@
   "id": "u04-l2",
   "titolo": "Le obiezioni a Conte: verità semantica e verità ontica",
   "da": 36,
-  "a": 38,
+  "a": 39,
   "lezione": "u04-l2",
   "revisionata": true,
   "blocchi": [
-    {
-      "id": "p036-b001",
-      "pagina": 36,
-      "markdown": "- Infatti, ogni volta che il legislatore decreta \"Si dispone che Op \", nasce l'[[obbligo|obbligo]] di p. In tal senso, l'enunciato innestato \"È obbligatorio p\" si autoverifica (diventa vero per il fatto di essere stato disposto).",
-      "concetti": [
-        "obbligo"
-      ]
-    },
     {
       "id": "p036-b002",
       "pagina": 36,
@@ -25,10 +17,10 @@
     {
       "id": "p036-b003",
       "pagina": 36,
-      "markdown": "- Quando il giurista fornisce notizie di obblighi o divieti vigenti, le sue affermazioni possono essere eventualmente false.\n- Dicendo \"Affermo che Op \", non per questo nasce l'obbligo di p.\n- In questo caso, l'enunciato innestato \"È obbligatorio p,\" che è inserito nell'enunciazione performativa del giurista (il cui scopo è semplicemente descrivere l'[[ordinamento-giuridico|ordinamento]]), può essere falso se l'obbligo non è effettivamente presente.",
+      "markdown": "- Quando il giurista fornisce notizie di [[obbligo|obblighi]] o divieti vigenti, le sue affermazioni possono essere eventualmente false.\n- Dicendo \"Affermo che Op \", non per questo nasce l'obbligo di p.\n- In questo caso, l'enunciato innestato \"È obbligatorio p,\" che è inserito nell'enunciazione performativa del giurista (il cui scopo è semplicemente descrivere l'[[ordinamento-giuridico|ordinamento]]), può essere falso se l'obbligo non è effettivamente presente.",
       "concetti": [
-        "ordinamento-giuridico",
-        "obbligo"
+        "obbligo",
+        "ordinamento-giuridico"
       ]
     },
     {
@@ -263,6 +255,12 @@
       "id": "p038-b012",
       "pagina": 38,
       "markdown": "- Nel processo giudiziale, pur restando ferme le premesse (\"Tutti i ladri devono essere puniti\" e \"Tizio è un ladro\"), nulla vieta che il giudice sentenzi in favore di Tizio, assolvendolo.",
+      "concetti": []
+    },
+    {
+      "id": "p039-b001",
+      "pagina": 39,
+      "markdown": "- L'assoluzione sarebbe comunque valida, e il tribunale, pur emettendo una sentenza discutibile, non diventerebbe per questo \"meno competente\".",
       "concetti": []
     }
   ]
