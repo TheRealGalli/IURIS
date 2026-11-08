@@ -16,10 +16,14 @@ import { domandeNodiMappa, livelloNodo } from '../lib/mappa-livelli';
 
 export default function Mappa({ query }: { query: URLSearchParams }) {
   const idx = useCorso();
+  const compact = useCompact();
   const grafo = query.get('grafo') === '1';
   const personale = query.get('personale') === '1';
   const uid = query.get('u') ?? idx.corso.unita[0]?.id;
   const sel = query.get('c');
+  const [ultimaUnita, setUltimaUnita] = useState(uid);
+  useEffect(() => { if (query.get('u')) setUltimaUnita(uid); }, [uid]);
+  const unitaMobile = query.get('u') ?? ultimaUnita;
 
   return (
     <div className={`page fade-in map-page${personale ? " map-page-personale" : ""}`} style={{ maxWidth: 1400 }}>
@@ -29,12 +33,15 @@ export default function Mappa({ query }: { query: URLSearchParams }) {
           <h1 className="title-l" style={{ marginTop: 4 }}>{personale ? 'Mappa personale' : grafo ? 'La costellazione dei concetti' : 'Mappa mentale'}</h1>
         </div>
         <div className="row map-switch" style={{ gap: 6 }}>
-          <a className={`chip ${!grafo && !personale ? 'on' : ''}`} href={href(`/mappa?u=${uid}`)} style={{ textDecoration: 'none', padding: '6px 14px' }}>Per unità</a>
+          <a className={`chip ${!grafo && !personale ? 'on' : ''}`} href={href(`/mappa?u=${compact ? unitaMobile : uid}`)} style={{ textDecoration: 'none', padding: '6px 14px' }}>Per unità</a>
           <a className={`chip ${grafo && !personale ? 'on' : ''}`} href={href('/mappa?grafo=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}><span className="map-tab-long">Tutti i collegamenti</span><span className="map-tab-short">Collegamenti</span></a>
           <a className={`chip ${personale ? 'on' : ''}`} href={href('/mappa?personale=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Personale</a>
         </div>
+        {compact && !grafo && !personale && <select className="select mobile-map-unit" aria-label="Scegli l’unità della mappa" value={unitaMobile} onChange={(e) => vai(`/mappa?u=${e.target.value}`)}>
+          {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {u.titolo}</option>)}
+        </select>}
       </div>
-      {personale ? <MappaPersonaleView /> : grafo ? <Grafo focus={sel} /> : <MindMap uid={uid} />}
+      {personale ? <MappaPersonaleView /> : grafo ? <Grafo focus={sel} /> : <MindMap uid={compact ? unitaMobile : uid} />}
     </div>
   );
 }
@@ -127,7 +134,7 @@ function MindMap({ uid }: { uid: string }) {
   const [sel, setSel] = useState<string | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const gRef = useRef<SVGGElement>(null);
-  const { fit, zoomBy } = useZoomSvg(svgRef, gRef);
+  const { fit } = useZoomSvg(svgRef, gRef);
   const compact = useCompact();
 
   useEffect(() => {
@@ -173,10 +180,10 @@ function MindMap({ uid }: { uid: string }) {
         <span className="row faint" style={{ gap: 5 }}><span className="dot lv-ignoto" /> mai verificato</span></>;
   return (
     <div className="map-shell" {...riquadro}>
-      <MapTools legend={legend} onFit={() => fit(layout.bbox, 30, 1.1, .3)} onZoom={zoomBy}>
-        <select className="select" value={u.id} onChange={(e) => vai(`/mappa?u=${e.target.value}`)} style={{ maxWidth: 360 }}>
+      <MapTools legend={legend}>
+        {!compact && <select className="select" value={u.id} onChange={(e) => vai(`/mappa?u=${e.target.value}`)} style={{ maxWidth: 360 }}>
           {idx.corso.unita.map((x) => <option key={x.id} value={x.id}>{x.ordine}. {x.titolo}</option>)}
-        </select>
+        </select>}
         <button data-tour="apri-mappa" className="btn btn-sm" onClick={espandiTutto}>Apri tutto</button>
         <button className="btn btn-sm" onClick={chiudiTutto}>Chiudi tutto</button>
         <button className="btn btn-sm" onClick={() => fit(layout.bbox, 30, 1.1, 0.3)} aria-label="Adatta"><Icon n="espandi" size={15} /></button>
@@ -421,7 +428,7 @@ function Grafo({ focus }: { focus: string | null }) {
     <div className="map-shell graph-shell" {...riquadro} data-mode={attivo ? 'collegamenti' : 'mappa'} onKeyDown={(e) => {
       if (e.key === 'Escape') { e.stopPropagation(); if (cerca) setCerca(''); else esci(); }
     }}>
-      <MapTools legend={legend} onFit={() => fit(bbox, 40, 1)} onZoom={zoomBy}>
+      <MapTools legend={legend}>
         <div style={{ position: 'relative' }}>
           <input className="input" aria-label="Cerca un concetto" placeholder="Trova un concetto…" value={cerca} onChange={(e) => setCerca(e.target.value)} style={{ width: 210 }} />
           {risultati.length > 0 && (

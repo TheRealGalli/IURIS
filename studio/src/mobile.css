@@ -1,5 +1,5 @@
 /* L'interfaccia mobile è autonoma. Nessuna regola cambia il desktop con puntatore fine. */
-.mobile-header, .mobile-tabs, .reader-mobile-menu, .mobile-map-dock, .reader-mobile-history { display: none; }
+.mobile-header, .mobile-tabs, .reader-mobile-menu, .reader-mobile-history { display: none; }
 .mobile-sheet { position: fixed; inset: auto 0 0; margin: auto auto 0; padding: 0; width: min(640px, 100%); max-width: 100%; max-height: min(88dvh, 850px); border: 1px solid var(--line-2); border-bottom: 0; border-radius: 26px 26px 0 0; background: var(--surface); color: var(--ink); box-shadow: 0 -18px 80px #0004; overflow: hidden; z-index: 100; }
 .mobile-sheet[open] { display: flex; flex-direction: column; animation: mobile-sheet-in .22s ease-out; }
 .mobile-sheet::backdrop { background: #0006; -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
@@ -38,20 +38,17 @@
 @keyframes mobile-sheet-in { from { transform: translateY(35px); opacity: 0; } to { transform: none; opacity: 1; } }
 
 @media (max-width: 860px), (max-width: 1280px) and (pointer: coarse) {
-  .shell-mobile { --mobile-header-height: calc(56px + env(safe-area-inset-top)); --mobile-nav-height: calc(68px + env(safe-area-inset-bottom)); }
+  .shell-mobile { --mobile-header-height: env(safe-area-inset-top); --mobile-nav-height: calc(68px + env(safe-area-inset-bottom)); }
   .shell-mobile .side, .shell-mobile .legacy-topbar { display: none; }
   .shell-mobile > div { min-width: 0; }
-  .mobile-header { position: sticky; top: 0; z-index: 35; display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px 44px; align-items: center; padding: env(safe-area-inset-top) max(8px, env(safe-area-inset-right)) 0 max(8px, env(safe-area-inset-left)); min-height: var(--mobile-header-height); background: color-mix(in srgb, var(--bg) 92%, transparent); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); border-bottom: 1px solid var(--line); }
-  .mobile-home .brand-mark { width: 25px; height: 25px; border-radius: 8px; font-size: 15px; }
-  .mobile-study { display: flex; align-items: center; gap: 7px; min-width: 0; min-height: 48px; text-align: left; background: none; border: 0; padding: 4px 8px; cursor: pointer; }
-  .mobile-study > span { display: flex; flex-direction: column; min-width: 0; gap: 1px; }
-  .mobile-study strong { font-family: var(--sans); font-weight: 600; font-size: 15px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; letter-spacing: -.025em; }
-  .mobile-study small { color: var(--ink-3); font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .mobile-study > svg { flex: none; color: var(--ink-3); }
-  .mobile-tabs { position: fixed; z-index: 35; bottom: max(8px, env(safe-area-inset-bottom)); left: max(12px, env(safe-area-inset-left)); right: max(12px, env(safe-area-inset-right)); max-width: 520px; margin: auto; display: grid; grid-template-columns: repeat(5, 1fr); padding: 4px; border: 1px solid var(--line-2); border-radius: 23px; background: color-mix(in srgb, var(--surface) 94%, transparent); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); box-shadow: 0 4px 24px #0002; }
+  .mobile-header { position: fixed; top: calc(8px + env(safe-area-inset-top)); right: max(12px, env(safe-area-inset-right)); z-index: 35; display: block; }
+  .mobile-header > button { border: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 90%, transparent); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); }
+  .mobile-tabs { position: fixed; z-index: 35; bottom: max(8px, env(safe-area-inset-bottom)); left: auto; right: max(12px, env(safe-area-inset-right)); width: 168px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 4px; border: 1px solid var(--line-2); border-radius: 23px; background: color-mix(in srgb, var(--surface) 94%, transparent); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); box-shadow: 0 4px 24px #0002; }
   .mobile-tabs a, .mobile-tabs button { min-width: 0; min-height: 48px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; border: 0; border-radius: 18px; text-decoration: none; font-size: 9px; font-weight: 500; background: transparent; color: var(--ink-3); cursor: pointer; }
   .mobile-tabs .on { color: var(--accent); background: var(--accent-soft); }
-  .shell-mobile .main { padding: 22px max(18px, env(safe-area-inset-right)) calc(90px + env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left)); }
+  .shell-mobile .main { padding: calc(22px + env(safe-area-inset-top)) max(18px, env(safe-area-inset-right)) calc(90px + env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left)); }
+  .shell-mobile:not(.shell-reader) .main h1 { padding-right: 48px; }
+  .shell-mobile:not(.shell-reader) .main > :is(.page, .page-narrow) > .eyebrow:first-child { min-height: 24px; padding-right: 52px; }
   .shell-mobile .title-xl { font-size: 30px; letter-spacing: -.035em; line-height: 1.14; }
   .shell-mobile .title-l { font-size: 24px; letter-spacing: -.025em; }
   .shell-mobile .card { border-radius: 18px; }
@@ -67,7 +64,7 @@
   .shell-mobile .prose table { display: block; overflow-x: auto; }
   .shell-mobile .memo { font-size: 13px; }
   .shell-mobile .qcard { padding: 20px 18px; }
-  .shell-mobile .quiz-top { position: sticky; top: var(--mobile-header-height); z-index: 10; padding: 8px 0; background: var(--bg); margin-bottom: 10px; }
+  .shell-mobile .quiz-top { position: sticky; top: var(--mobile-header-height); z-index: 10; padding: 8px 52px 8px 0; background: var(--bg); margin-bottom: 10px; }
   .shell-mobile .setup-opt { border-radius: 16px; padding: 15px; }
   .shell-mobile .setup-opt b { font-family: var(--sans); font-size: 15px; }
   .shell-mobile .az { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; }
@@ -130,23 +127,21 @@
 @media (max-width: 860px), (max-width: 1280px) and (pointer: coarse) {
   .shell-map { height: 100dvh; min-height: 0; overflow: hidden; }
   .shell-map-content { display: flex; flex-direction: column; height: 100%; min-height: 0; }
-  .shell-map .mobile-header { position: relative; flex: none; }
   .shell-map .main { display: flex; flex: 1; min-height: 0; padding: 0 !important; overflow: hidden; }
   .shell-map .map-page { display: flex; flex-direction: column; flex: 1; min-height: 0; min-width: 0; width: 100%; }
-  .shell-map .map-page-header { flex: none; padding: 10px 16px; margin: 0 !important; background: var(--bg); }
+  .shell-map .map-page-header { display: block; flex: none; padding: calc(8px + env(safe-area-inset-top)) 12px 10px; margin: 0 !important; background: var(--bg); }
   .shell-map .map-page-title { display: none; }
-  .shell-map .map-switch { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; gap: 0 !important; padding: 3px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 13px; }
-  .shell-map .map-switch .chip { display: flex; justify-content: center; border: 0; border-radius: 10px; min-height: 40px; padding: 6px 4px !important; font-size: 12px; white-space: nowrap; background: transparent; }
+  .shell-map .map-switch { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: calc(100% - 52px); gap: 0 !important; padding: 3px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 13px; }
+  .shell-map .map-switch .chip { display: flex; justify-content: center; border: 0; border-radius: 10px; min-height: 40px; padding: 6px 2px !important; font-size: clamp(10px, 2.9vw, 12px); white-space: nowrap; background: transparent; }
   .shell-map .map-switch .chip.on { color: var(--ink); background: var(--surface); box-shadow: 0 1px 5px #0002; }
   .shell-map .map-tab-long { display: none; }
   .shell-map .map-tab-short { display: inline; }
   .shell-map .map-shell { display: flex; flex-direction: column; flex: 1; min-height: 0; height: auto; border-radius: 0; border: 0; border-top: 1px solid var(--line); }
   .shell-map .map-shell > svg { flex: 1; order: 1; height: 0; min-height: 0; width: 100%; }
-  .mobile-map-dock { display: flex; align-items: center; flex: none; order: 4; gap: 6px; min-height: 56px; padding: 6px max(12px, env(safe-area-inset-right)) max(6px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); background: var(--surface); border-top: 1px solid var(--line); }
-  .mobile-map-dock button { display: flex; align-items: center; justify-content: center; gap: 8px; min-width: 44px; height: 44px; flex: none; border: 1px solid var(--line); border-radius: 12px; padding: 8px; background: var(--bg); font-size: 22px; cursor: pointer; }
-  .mobile-map-dock .mobile-map-filters { margin-right: auto; font-size: 13px; padding: 8px 12px; }
+  .mobile-map-unit { display: block; width: 100%; min-height: 44px; margin-top: 8px; border-radius: 12px; font-size: 16px; text-overflow: ellipsis; }
+  .mobile-map-filters { position: absolute; z-index: 12; top: 12px; right: 12px; border: 1px solid var(--line-2); border-radius: 13px; background: color-mix(in srgb, var(--surface) 94%, transparent); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); box-shadow: 0 2px 10px #0002; }
   .shell-map .map-shell > .map-legend, .shell-map .graph-footer .map-legend { display: none; }
-  .shell-map .graph-footer { order: 2; position: static; padding: 8px 12px; flex: none; border-top: 1px solid var(--line); background: var(--surface); }
+  .shell-map .graph-footer { order: 2; position: static; padding: 8px 12px calc(76px + env(safe-area-inset-bottom)); flex: none; border-top: 1px solid var(--line); background: var(--surface); }
   .shell-map .graph-shell[data-mode="mappa"] .graph-footer { display: none; }
   .shell-map .graph-mode-bar { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px; padding: 0; border: 0; background: none; }
   .shell-map .graph-mode-bar > span:first-child { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; }
@@ -167,7 +162,7 @@
   .mobile-map-legend summary { display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 13px; min-height: 44px; }
   .mobile-sheet .map-legend { position: static; display: flex; flex-wrap: wrap; margin-top: 8px; gap: 12px; font-size: 12px; }
   .mobile-map-done { width: 100%; min-height: 48px; }
-  .shell-map .map-page-personale { display: block; overflow-y: auto; padding-bottom: max(16px, env(safe-area-inset-bottom)); }
+  .shell-map .map-page-personale { display: block; overflow-y: auto; padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
   .shell-map .map-page-personale .map-page-header { position: sticky; top: 0; z-index: 10; }
   .shell-map .map-page-personale > p { padding: 0 16px; font-size: 12px; }
   .shell-map .map-page-personale > .mappa-geo { margin: 0 12px; }

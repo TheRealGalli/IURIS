@@ -112,19 +112,20 @@ try {
       if (m.larghezza > vw + 1 || m.sbordi.length) errori.push(`${dove}: sborda in orizzontale (${m.larghezza}px su ${vw}) ${m.sbordi.join(' | ')}`);
       if (m.campi.length) errori.push(`${dove}: campi sotto i 16px (zoom di iOS): ${m.campi.join(', ')}`);
       if (m.piccoli.length) errori.push(`${dove}: bersagli touch troppo piccoli: ${m.piccoli.join(' | ')}`);
-      const workspace = r.startsWith('/mappa') || r === '/originali';
-      if (m.compact && (m.side || m.tabbar === workspace)) errori.push(`${dove}: navigazione mobile errata (menu compatto, barra nascosta in mappe e lettore)`);
+      const workspace = r === '/originali';
+      if (m.compact && (m.side || m.tabbar === workspace)) errori.push(`${dove}: navigazione mobile errata (menu compatto, barra a due voci, nascosta solo nel lettore)`);
       if (!m.compact && (!m.side || m.tabbar)) errori.push(`${dove}: desktop senza la barra laterale`);
       controlli += 6;
     }
 
-    // Corso e materia non sono più sepolti in Altro: accesso immediato dall'intestazione.
+    // Corso e materia sono nel menu, accessibile dalla barra compatta.
     await vaiA(p, '/');
-    await p.tap('button[aria-label="Scegli corso e materia"]');
+    await p.tap('.mobile-tabs button[aria-label="Apri menu"]');
+    await p.tap('.mobile-course-card');
     await p.waitForSelector('.mobile-navigation-sheet');
-    if (!(await p.isVisible('.mobile-navigation-sheet select[aria-label="Corso di studio"]')) || await p.locator('.mobile-subjects button[aria-pressed]').count() < 2) errori.push(`${etichetta}: corso o materie non raggiungibili dall'intestazione`);
+    if (!(await p.isVisible('.mobile-navigation-sheet select[aria-label="Corso di studio"]')) || await p.locator('.mobile-subjects button[aria-pressed]').count() < 2) errori.push(`${etichetta}: corso o materie non raggiungibili dal menu`);
     await p.tap('button[aria-label="Chiudi corso e materie"]');
-    await p.locator('.mobile-header button[aria-label="Apri menu"]').tap();
+    await p.locator('.mobile-tabs button[aria-label="Apri menu"]').tap();
     if (await p.locator('.mobile-menu-grid a').count() !== 8 || !(await p.isVisible('.mobile-menu-utilities a[href="#/backup"]'))) errori.push(`${etichetta}: nel menu mancano sezioni o backup`);
     await p.tap('.mobile-menu-grid a[href="#/originali"]');
     await p.waitForSelector('[data-lettura-block]');
@@ -203,9 +204,9 @@ try {
       await vaiA(p, r);
       const spazio = await p.evaluate(() => {
         const r = document.querySelector('.map-shell > svg').getBoundingClientRect();
-        return { ratio: r.height / innerHeight, coperta: !!document.querySelector('.map-tools'), dock: !!document.querySelector('.mobile-map-dock') };
+        return { ratio: r.height / innerHeight, coperta: !!document.querySelector('.map-tools'), menu: !!document.querySelector('.mobile-tabs'), dock: !!document.querySelector('.mobile-map-dock') };
       });
-      if (spazio.ratio < .60 || spazio.coperta || !spazio.dock) errori.push(`${etichetta} ${r}: mappa coperta dai comandi ${JSON.stringify(spazio)}`);
+      if (spazio.ratio < .60 || spazio.coperta || spazio.dock || !spazio.menu) errori.push(`${etichetta} ${r}: mappa coperta dai comandi ${JSON.stringify(spazio)}`);
       await p.tap('.mobile-map-filters');
       await p.waitForSelector('.mobile-map-sheet');
       const m = await p.evaluate(misura, vw);

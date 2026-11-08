@@ -7,24 +7,17 @@ import IurisMascot from './IurisMascot';
 import MobileSheet from './MobileSheet';
 
 type Item = { to: string; key: string; label: string; icon: string };
-export function MobileHeader({ corso, materia, workspace, onStudy, onMenu, onSearch }: {
-  corso: CorsoDiStudio; materia: MateriaInfo; workspace: boolean; onStudy: () => void; onMenu: () => void; onSearch: () => void;
-}) {
-  return <header className="mobile-header">
-    <a className="mobile-icon mobile-home" href={href('/')} aria-label="Torna a Oggi">{workspace ? <Icon n="indietro" size={22} /> : <span className="brand-mark">I</span>}</a>
-    <button className="mobile-study" onClick={onStudy} aria-label="Scegli corso e materia">
-      <span><strong>{workspace ? 'Mappa' : materia.breve ?? materia.nome}</strong><small>{workspace ? materia.breve ?? materia.nome : `${corso.sigla}${corso.lettere ? ` · ${corso.lettere}` : ''}`}</small></span><Icon n="giu" size={13} />
-    </button>
-    <button className="mobile-icon" onClick={onSearch} aria-label="Cerca"><Icon n="cerca" size={21} /></button>
-    <button className="mobile-icon" onClick={onMenu} aria-label="Apri menu"><Icon n="menu" size={22} /></button>
-  </header>;
+export function MobileHeader({ onSearch }: { onSearch: () => void }) {
+  return <header className="mobile-header"><button className="mobile-icon" onClick={onSearch} aria-label="Cerca"><Icon n="cerca" size={21} /></button></header>;
 }
 
-export function MobileTabs({ items, section, onMenu }: { items: Item[]; section: string; onMenu: () => void }) {
-  const primary = items.filter((n) => ['', 'percorso', 'allena', 'mappa'].includes(n.key));
+export function MobileTabs({ items, section, path, onMenu }: { items: Item[]; section: string; path: string; onMenu: () => void }) {
+  const current = items.find((n) => n.key === section) ?? (section === 'backup'
+    ? { key: 'backup', label: 'Backup', icon: 'backup' }
+    : { key: 'altro', label: 'Altro', icon: 'altro' });
   return <nav className="mobile-tabs" aria-label="Sezioni">
-    {primary.map((n) => <a key={n.key} href={href(n.to)} aria-current={section === n.key ? 'page' : undefined} className={section === n.key ? 'on' : undefined}><Icon n={n.icon} size={21} /><span>{n.key === 'allena' ? 'Allena' : n.label}</span></a>)}
-    <button onClick={onMenu} aria-label="Apri menu" className={!primary.some((n) => n.key === section) ? 'on' : undefined}><Icon n="menu" size={21} /><span>Menu</span></button>
+    <a href={path || href('/')} aria-current="page" className="on"><Icon n={current.icon} size={21} /><span>{current.key === 'allena' ? 'Allena' : current.label}</span></a>
+    <button onClick={onMenu} aria-label="Apri menu"><Icon n="menu" size={21} /><span>Menu</span></button>
   </nav>;
 }
 

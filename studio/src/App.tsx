@@ -168,7 +168,7 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
       </aside>
 
       <div className={lettore ? 'shell-reader-content' : compact && mappa ? 'shell-map-content' : undefined} style={{ flex: 1, minWidth: 0 }}>
-        {compact && !lettore && <MobileHeader corso={corso} materia={materia} workspace={mappa} onStudy={() => setMobilePanel('study')} onMenu={() => setMobilePanel('menu')} onSearch={() => setPalette(true)} />}
+        {compact && !lettore && <MobileHeader onSearch={() => setPalette(true)} />}
         <header className={`topbar${compact ? ' legacy-topbar' : ''}`}>
           <span className="brand-mark" style={{ width: 28, height: 28, fontSize: 15 }}>I</span>
           <span className="brand-name">IURIS</span>
@@ -180,7 +180,7 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
         </header>
         <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
       </div>
-      {compact ? !lettore && !mappa && <MobileTabs items={NAV} section={sezioneAttiva(rotta.parti)} onMenu={() => setMobilePanel('menu')} /> : <TabBar />}
+      {compact ? !lettore && <MobileTabs items={NAV} section={sezioneAttiva(rotta.parti)} path={rotta.hash} onMenu={() => setMobilePanel('menu')} /> : <TabBar />}
       {compact && <MobileMenu panel={mobilePanel} onClose={() => setMobilePanel(null)} onStudy={() => setMobilePanel('study')} corso={corso} materie={materie} materia={materia} items={NAV} section={sezioneAttiva(rotta.parti)} onMateria={scegliMateria} />}
       {faseDemo === 'running' && idx && <Suspense fallback={null}><Tour idx={idx} onClose={chiudiDemo} /></Suspense>}
       {palette && idx && <Palette onClose={() => setPalette(false)} />}

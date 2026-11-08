@@ -9,9 +9,9 @@ Da **Demo interattiva** nella barra laterale (o **Menu** su mobile) si avvia una
 
 ## Telefono e iPad
 
-L’interfaccia touch ha una navigazione dedicata, senza cambiare quella desktop. Corso e materia si scelgono dall’intestazione; il Menu raccoglie tutte le sezioni, Demo e Backup. La barra inferiore resta compatta e lascia spazio al lettore e alle mappe, dove si usano i comandi specifici e il Menu in alto.
+L’interfaccia touch ha una navigazione dedicata, senza cambiare quella desktop. Il Menu raccoglie corso, materie, tutte le sezioni, Demo e Backup. In basso a destra ci sono solo la sezione attuale e Menu; in alto rimane Cerca. Il lettore mantiene la propria interfaccia, senza la barra inferiore.
 
-Le mappe occupano lo spazio disponibile: ricerca, filtri e legenda si aprono in un foglio dal basso, con zoom e Adatta sempre accessibili. La mappa personale parte dallo schema. Allenamento, glossario e cronologia mostrano prima il contenuto; modalità, opzioni e filtri si aprono su richiesta. Nel lettore rimangono la selezione nativa, Salva, colori, sottolineatura, gomma e Apple Pencil; sui telefoni più stretti Ripristina è nel menu Fonte e comandi. Le aree sicure e l’altezza dinamica seguono le barre di Safari.
+Le mappe occupano lo spazio disponibile: ricerca, filtri e legenda si aprono in un foglio dal basso, con zoom tramite pizzico e scelta dell’unità direttamente accanto alle viste. La mappa personale parte dallo schema. Allenamento, glossario e cronologia mostrano prima il contenuto; modalità, opzioni e filtri si aprono su richiesta. Nel lettore rimangono la selezione nativa, Salva, colori, sottolineatura, gomma e Apple Pencil; sui telefoni più stretti Ripristina è nel menu Fonte e comandi. Le aree sicure e l’altezza dinamica seguono le barre di Safari.
 
 `npm run check:responsive` verifica la build con WebKit e Chromium, su iPhone, Android e iPad in entrambi gli orientamenti: dimensioni, navigazione, mappe, fogli, quiz, ricerca, salvataggio col dito e Apple Pencil. Installare i browser con `npx playwright install chromium webkit`.
 
