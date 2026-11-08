@@ -5,7 +5,7 @@
 Lezioni, glossario, mappe, cronologia ed esercizi con ripasso spaziato per lo studio del diritto.
 Il sito funziona nel browser, senza account, server applicativo o sincronizzazione dei progressi.
 
-Da **Demo interattiva** nella barra laterale (o **Altro** su mobile) si avvia una visita guidata sulle pagine reali. Una freccetta animata e la I di IURIS accompagnano Oggi, Percorso, lezione, Originali, segni, mappe, allenamento, cronologia, glossario, statistiche e backup. Il tour avanza automaticamente, con pausa, avanti/indietro e scelta della sezione. Le prove usano un archivio in memoria separato: progressi, segni, quiz e preferenze personali vengono conservati; le viste completano le proprie scritture prima del cambio di archivio. Uscendo, o ricaricando la pagina, i dati dimostrativi scompaiono. La tappa finale permette di aprire il Backup reale. La sezione **Backup**, sotto **Studio**, è generale e resta aperta quando si cambia materia.
+Da **Demo interattiva** nella barra laterale (o **Altro** su mobile) si avvia una visita guidata sulle pagine reali. Una freccetta animata e la I di IURIS accompagnano Oggi, Percorso, lezione, Originali, segni, mappe, allenamento, cronologia, glossario, statistiche e backup. Il tour avanza solo su richiesta, con indietro, scelta della sezione e avanti su una sola riga compatta. Le prove usano un archivio in memoria separato: progressi, segni, quiz e preferenze personali vengono conservati; le viste completano le proprie scritture prima del cambio di archivio. Uscendo, o ricaricando la pagina, i dati dimostrativi scompaiono. La tappa finale permette di aprire il Backup reale. La sezione **Backup**, sotto **Studio**, è generale e resta aperta quando si cambia materia.
 
 ## Progressi personali
 

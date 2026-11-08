@@ -33,15 +33,14 @@ async function trova(selector: string, signal: AbortSignal) {
 
 export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: string) => void }) {
   const passi = useMemo(() => passiTour(idx), [idx]);
-  const [index, setIndex] = useState(0), [auto, setAuto] = useState(() => !matchMedia('(prefers-reduced-motion: reduce)').matches);
+  const [index, setIndex] = useState(0);
   const [pronto, setPronto] = useState(false), [errore, setErrore] = useState(''), [tentativo, setTentativo] = useState(0);
   const [rett, setRett] = useState<Rect | null>(null), [pos, setPos] = useState({ x: 16, y: 100 });
   const [premendo, setPremendo] = useState(false);
   const root = useRef<HTMLDivElement>(null), bubble = useRef<HTMLDivElement>(null), cursor = useRef<HTMLDivElement>(null);
-  const titolo = useRef<HTMLHeadingElement>(null), progress = useRef<HTMLSpanElement>(null);
-  const elapsed = useRef(0), azioniFatte = useRef(new Set<string>()), target = useRef('');
+  const titolo = useRef<HTMLHeadingElement>(null);
+  const azioniFatte = useRef(new Set<string>()), target = useRef('');
   const fine = index === passi.length - 1, passo = passi[index];
-  const durata = Math.max(8000, passo.testo.split(/\s+/).length * 260);
   const sezioni = passi.filter((p, i) => !i || passi[i - 1].sezione !== p.sezione);
   const avanti = () => setIndex((i) => Math.min(i + 1, passi.length - 1));
   const ridotto = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -75,8 +74,7 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
 
   useEffect(() => {
     const controller = new AbortController(), signal = controller.signal;
-    elapsed.current = 0; target.current = ''; setPronto(false); setErrore(''); setRett(null); setPremendo(false);
-    if (progress.current) progress.current.style.transform = 'scaleX(0)';
+    target.current = ''; setPronto(false); setErrore(''); setRett(null); setPremendo(false);
     const sposta = async (el: HTMLElement) => {
       const margine = el.style.scrollMarginTop;
       el.style.scrollMarginTop = '100px';
@@ -160,7 +158,7 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
     };
     mostra().catch((e) => {
       if (signal.aborted) return;
-      setPremendo(false); setErrore(e.message); setAuto(false); setPronto(true);
+      setPremendo(false); setErrore(e.message); setPronto(true);
     });
     return () => controller.abort();
   }, [index, tentativo, idx]);
@@ -194,20 +192,6 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
     return () => cancelAnimationFrame(frame);
   }, []);
 
-  useEffect(() => {
-    if (!pronto || !auto || errore || fine) return;
-    let last = performance.now();
-    const timer = window.setInterval(() => {
-      const now = performance.now();
-      // Una scheda in background non deve saltare le spiegazioni.
-      if (!document.hidden) elapsed.current += now - last;
-      last = now;
-      if (progress.current) progress.current.style.transform = `scaleX(${Math.min(1, elapsed.current / durata)})`;
-      if (elapsed.current >= durata) { clearInterval(timer); avanti(); }
-    }, 100);
-    return () => clearInterval(timer);
-  }, [auto, pronto, index, errore]);
-
   const keyboard = (e: React.KeyboardEvent) => {
     e.stopPropagation();
     if (e.key === 'Escape') { e.preventDefault(); onClose(); }
@@ -220,7 +204,6 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
     if ((e.target as HTMLElement).tagName === 'SELECT') return;
     if (e.key === 'ArrowRight' && pronto && !fine) { e.preventDefault(); avanti(); }
     if (e.key === 'ArrowLeft' && index) { e.preventDefault(); setIndex(index - 1); }
-    if (e.key === ' ' && e.target === titolo.current) { e.preventDefault(); setAuto(!auto); }
   };
   return createPortal(<div className="tour-layer" ref={root} role="dialog" aria-modal="true" aria-label="Visita guidata di IURIS" onKeyDown={keyboard}>
     <div className="tour-shade" style={{ background: rett ? 'transparent' : undefined }} />
@@ -233,9 +216,13 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
       <h2 ref={titolo} tabIndex={-1} className="title-m">{errore ? 'Aspettiamo questa pagina.' : passo.titolo}</h2>
       <p className="tour-copy" aria-live="polite">{errore ? `${errore} Puoi riprovare o passare alla tappa successiva.` : passo.testo}</p>
       {errore && <button className="tour-retry" onClick={() => setTentativo(tentativo + 1)}>Riprova questa tappa</button>}
-      <div className="tour-timer" aria-hidden="true"><span ref={progress} /></div>
-      <div className="tour-controls"><button disabled={!index || !pronto} onClick={() => setIndex(index - 1)} aria-label="Tappa precedente"><Icon n="indietro" size={17} /></button><button className="tour-play" disabled={!pronto || fine || !!errore} onClick={() => setAuto(!auto)} aria-label={auto ? 'Metti in pausa la demo' : 'Riprendi la demo'}>{auto ? <><span aria-hidden="true">Ⅱ</span> Pausa</> : <><Icon n="demo" size={15} /> Riprendi</>}</button>{fine ? <button className="tour-next" onClick={() => onClose('/backup')}>Apri il mio backup <Icon n="freccia" size={16} /></button> : <button className="tour-next" disabled={!pronto} onClick={avanti}>{errore ? 'Salta' : 'Avanti'}<Icon n="freccia" size={16} /></button>}</div>
-      <label className="tour-chapters">Salta a<select value={passi.findIndex((p) => p.sezione === passo.sezione)} aria-label="Vai a una sezione della demo" onChange={(e) => { setAuto(false); setIndex(Number(e.target.value)); }}>{sezioni.map((p) => <option key={p.id} value={passi.indexOf(p)}>{p.sezione}</option>)}</select></label>
+      <div className="tour-controls">
+        <button disabled={!index || !pronto} onClick={() => setIndex(index - 1)} aria-label="Tappa precedente"><Icon n="indietro" size={17} /></button>
+        <select className="tour-chapters" value={passi.findIndex((p) => p.sezione === passo.sezione)} aria-label="Vai a una sezione della demo" title="Salta a una sezione" onChange={(e) => setIndex(Number(e.target.value))}>
+          {sezioni.map((p) => <option key={p.id} value={passi.indexOf(p)}>{p.sezione}</option>)}
+        </select>
+        {fine ? <button className="tour-next" onClick={() => onClose('/backup')} aria-label="Apri il mio backup">Il mio backup <Icon n="freccia" size={16} /></button> : <button className="tour-next" disabled={!pronto} onClick={avanti}>{errore ? 'Salta' : 'Avanti'}<Icon n="freccia" size={16} /></button>}
+      </div>
     </div>
   </div>, document.body);
 }

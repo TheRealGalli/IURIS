@@ -37,16 +37,11 @@
 .tour-bubble h2 { line-height: 1.25; font-size: 23px; }
 .tour-bubble h2:focus { outline: none; }
 .tour-copy { margin: 12px 0 18px; font-size: 14px; line-height: 1.65; color: var(--ink-2); }
-.tour-timer { height: 3px; overflow: hidden; background: var(--line); border-radius: 99px; margin-bottom: 16px; }
-.tour-timer span { display: block; height: 100%; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .1s linear; }
-.tour-controls { display: flex; align-items: center; gap: 6px; }
+.tour-controls { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 8px; border-top: 1px solid var(--line); margin-top: 16px; padding-top: 12px; }
 .tour-controls button, .tour-retry { display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-size: 12px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line-2); background: var(--surface); cursor: pointer; }
 .tour-controls button:disabled { opacity: .4; cursor: default; }
 .tour-controls .tour-next { margin-left: auto; background: var(--ink); color: var(--bg); border-color: var(--ink); }
-.tour-play > span { font-size: 16px; line-height: 1; }
 .tour-retry { margin-bottom: 14px; }
-.tour-chapters { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; font-size: 11px; color: var(--ink-3); }
-.tour-chapters select { width: 60%; border: 0; border-radius: 5px; padding: 4px; font: inherit; font-size: 12px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
 .tour-layer button:focus-visible, .tour-layer select:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 @media (max-width: 700px) {
   .shell-tour:not(.shell-reader) .main { padding-bottom: calc(60dvh + 96px); }
@@ -64,3 +59,5 @@
 @media (prefers-reduced-motion: reduce) {
   .tour-layer *, .demo-monogram { animation: none !important; transition: none !important; }
 }
+
+.tour-chapters { width: 100%; min-width: 0; padding: 6px 4px; border: 0; border-radius: 5px; font: inherit; font-size: 12px; background: var(--surface); color: var(--ink-2); cursor: pointer; text-overflow: ellipsis; }
