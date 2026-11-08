@@ -71,6 +71,12 @@ try {
   await check('dati precedenti e corso sconosciuto', () => {
     assert.equal(corsoDi(undefined), CORSO_PREDEFINITO);
     assert.equal(corsoDi('corso-tolto'), CORSO_PREDEFINITO);
+    assert(corsi.corsoDisponibile(CORSO_PREDEFINITO), 'il corso predefinito deve essere selezionabile');
+    assert.deepEqual(CORSI.filter(corsi.corsoDisponibile).map((c) => c.id), ['uniba-lmg-1-al'], 'per ora solo A-L è selezionabile');
+    for (const id of ['uniba-lmg-1-mz', 'uniba-ssg-1']) {
+      assert(CORSI.some((c) => c.id === id), `${id} deve restare visibile nell'elenco`);
+      assert.equal(corsoDi(id), CORSO_PREDEFINITO, `${id} salvato: si torna ad A-L`);
+    }
     storage.values.set('iuris:v1:pref', JSON.stringify({ materia: 'diritto-romano', tema: 'scuro' }));
   });
 
@@ -110,6 +116,7 @@ try {
     assert(app.includes('<SceltaCorso corso={corso} classe="corso-switch-pagina" />'), 'su mobile il corso si sceglie da Altro');
     assert(/className="materia-btn in-arrivo" disabled/.test(app), 'le materie in arrivo non devono essere cliccabili');
     assert(app.includes('<div className="materia-lista">'), 'elenco materie scorrevole');
+    assert(app.includes("disabled={!corsoDisponibile(c)}") && app.includes("' · in arrivo'"), 'corsi in arrivo visibili ma non selezionabili');
     const piede = app.slice(app.indexOf('<div className="side-foot">'), app.indexOf('</aside>'));
     assert(!/Cerca|⌘K|setPalette/.test(piede), 'nella barra laterale non c\'è più il pulsante Cerca');
     assert(piede.indexOf('<InviaMateriale') >= 0 && piede.indexOf('<InviaMateriale') < piede.indexOf('Demo interattiva'), 'invito al materiale sopra la demo');
@@ -117,6 +124,7 @@ try {
     assert(app.includes('<InviaMateriale corso={corso} classe="invia-materiale-pagina" />'), 'invito al materiale anche in Altro');
     assert(!/\{c\.universita\}<\/option>/.test(app), 'nell\'elenco dei corsi niente università');
     const css = fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
+    assert(/\.materia-lista:hover[^{]*\{[^}]*border-color:[^}]*box-shadow:[^}]*background-color/.test(css), 'riquadro grigio al passaggio sull\'elenco materie');
     assert(/\.materia-lista \{[^}]*max-height:[^}]*overflow-y: auto[^}]*scroll-behavior: smooth/.test(css), 'materie scorrevoli con altezza massima');
   });
 

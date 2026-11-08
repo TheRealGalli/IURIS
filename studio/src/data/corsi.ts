@@ -18,6 +18,8 @@ export interface CorsoDiStudio {
   classe?: string;
   /** Slug delle materie del manifest, nell'ordine in cui compaiono. */
   materie: string[];
+  /** `false`: il corso si vede nell'elenco ma non si può scegliere (contenuti in arrivo). */
+  disponibile?: boolean;
   /** Materie annunciate ma non ancora pronte: si vedono nell'elenco, non si aprono. */
   inArrivo?: MateriaInArrivo[];
 }
@@ -43,7 +45,7 @@ export const CORSI: CorsoDiStudio[] = [
     materie: ['filosofia-del-diritto', 'diritto-romano'],
     inArrivo: IN_ARRIVO_LMG,
   },
-  // M-Z e SSG: per ora le stesse materie di A-L come segnaposto, finché non arriva l'elenco ufficiale delle materie
+  // M-Z e SSG: visibili ma non selezionabili finché non ci sono i loro contenuti. Per ora le stesse materie di A-L come segnaposto, finché non arriva l'elenco ufficiale delle materie
   // (e dei docenti) di ciascun corso. Sostituire `materie` e `inArrivo` quando c'è.
   {
     id: 'uniba-lmg-1-mz',
@@ -54,6 +56,7 @@ export const CORSI: CorsoDiStudio[] = [
     laurea: 'Giurisprudenza (magistrale a ciclo unico, LMG/01)',
     anno: 1,
     classe: 'cognomi M-Z',
+    disponibile: false,
     materie: ['filosofia-del-diritto', 'diritto-romano'],
     inArrivo: IN_ARRIVO_LMG,
   },
@@ -64,6 +67,7 @@ export const CORSI: CorsoDiStudio[] = [
     universita: 'Università di Bari Aldo Moro',
     laurea: 'Scienze dei servizi giuridici (L-14)',
     anno: 1,
+    disponibile: false,
     materie: ['filosofia-del-diritto', 'diritto-romano'],
     inArrivo: IN_ARRIVO_LMG,
   },
@@ -72,8 +76,12 @@ export const CORSI: CorsoDiStudio[] = [
 /** Corso usato quando non ne è stato scelto nessuno (dati precedenti al selettore) o quello salvato non esiste più. */
 export const CORSO_PREDEFINITO = CORSI[0];
 
+export const corsoDisponibile = (c: CorsoDiStudio) => c.disponibile !== false;
+
+/** Corso salvato, se esiste ed è disponibile; altrimenti (mai scelto, tolto, ancora in arrivo) il predefinito. */
 export function corsoDi(id: string | undefined): CorsoDiStudio {
-  return CORSI.find((c) => c.id === id) ?? CORSO_PREDEFINITO;
+  const c = CORSI.find((x) => x.id === id);
+  return c && corsoDisponibile(c) ? c : CORSO_PREDEFINITO;
 }
 
 export const descriviCorso = (c: CorsoDiStudio) =>

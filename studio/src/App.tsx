@@ -5,7 +5,7 @@ import { ripassoDiOggi } from './lib/srs';
 import { finisciDemo, iniziaDemo, leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
 import type { Manifest, MateriaInfo } from './lib/types';
 import { Icon } from './components/ui';
-import { CORSI, corsoDi, descriviCorso, linkMateriale, materieDelCorso, type CorsoDiStudio } from './data/corsi';
+import { CORSI, corsoDi, corsoDisponibile, descriviCorso, linkMateriale, materieDelCorso, type CorsoDiStudio } from './data/corsi';
 import IurisMascot from './components/IurisMascot';
 import Palette from './components/Palette';
 import Oggi from './views/Oggi';
@@ -197,7 +197,7 @@ function SceltaCorso({ corso, classe = '' }: { corso: CorsoDiStudio; classe?: st
       {corso.lettere && <span className="corso-classe">{corso.lettere}</span>}
       <Icon n="scegli" size={14} />
       <select className="corso-select" value={corso.id} onChange={(e) => scegli(e.target.value)} aria-label="Corso di studio">
-        {CORSI.map((c) => <option key={c.id} value={c.id}>{c.breve}</option>)}
+        {CORSI.map((c) => <option key={c.id} value={c.id} disabled={!corsoDisponibile(c)}>{c.breve}{corsoDisponibile(c) ? '' : ' · in arrivo'}</option>)}
       </select>
     </label>
   );

@@ -98,9 +98,15 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 /* Elenco materie scorrevole: con molte materie la barra laterale non si allunga */
 .materia-lista {
   display: flex; flex-direction: column; gap: 4px; max-height: 130px; overflow-y: auto; overscroll-behavior: contain;
-  scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: var(--line) transparent; margin: -4px -4px 0; padding: 4px 4px 14px;
+  scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: var(--line) transparent; margin: -5px -5px 0; padding: 4px 4px 14px;
+  border: 1px solid transparent; border-radius: var(--radius-s); transition: border-color .15s, box-shadow .15s, background-color .15s;
   /* sfuma il bordo inferiore: si capisce che l'elenco continua; in fondo resta spazio, così l'ultima materia è nitida */
   mask-image: linear-gradient(to bottom, #000 calc(100% - 16px), transparent); -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 16px), transparent);
+}
+/* Al passaggio: riquadro grigio come quello delle mappe interattive, così si capisce che l'elenco scorre */
+.materia-lista:hover, .materia-lista:focus-within {
+  border-color: color-mix(in srgb, var(--ink) 32%, transparent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ink) 11%, transparent);
+  background-color: color-mix(in srgb, var(--ink) 3%, transparent); mask-image: none; -webkit-mask-image: none;
 }
 .materia-lista::-webkit-scrollbar { width: 5px; }
 .materia-lista::-webkit-scrollbar-thumb { background: var(--line); border-radius: 9px; }
