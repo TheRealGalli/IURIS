@@ -39,7 +39,18 @@ try {
     assert.equal(new Set(CORSI.map((c) => c.id)).size, CORSI.length, 'id dei corsi duplicati');
     for (const c of CORSI) {
       assert(backup.slugBackupValido(c.id), `id non valido per i backup: ${c.id}`);
-      assert(c.breve && c.breve.length <= 24, `etichetta assente o troppo lunga per il riquadro: ${c.breve}`);
+      assert(c.breve && c.breve.length <= 24, `etichetta assente o troppo lunga: ${c.breve}`);
+      assert(c.sigla && c.sigla.length <= 16 && !c.breve.includes(c.universita), `sigla del riquadro assente o troppo lunga: ${c.id}`);
+      if (c.lettere) assert(c.breve.endsWith(c.lettere) && !c.sigla.includes(c.lettere), `la classe va solo accanto alla sigla: ${c.id}`);
+      for (const m of c.inArrivo ?? []) {
+        assert(m.nome && /^#[0-9a-f]{6}$/i.test(m.colore), `materia in arrivo incompleta: ${c.id}`);
+        assert(!manifest.materie.some((x) => x.nome === m.nome || x.breve === m.nome), `«${m.nome}» è già una materia vera`);
+      }
+      const colori = [...manifest.materie.map((m) => m.colore), ...(c.inArrivo ?? []).map((m) => m.colore)].map((x) => x.toLowerCase());
+      assert.equal(new Set(colori).size, colori.length, `colori delle materie ripetuti: ${c.id}`);
+      const wa = new URL(corsi.linkMateriale(c));
+      assert.equal(wa.origin + wa.pathname, 'https://wa.me/393925689596');
+      assert(wa.searchParams.get('text').startsWith(`Ciao Carlo! Ho del materiale per il corso ${c.breve}`), 'messaggio WhatsApp senza il corso');
       assert(c.universita && c.laurea && Number.isInteger(c.anno) && c.anno >= 1, `dati del corso incompleti: ${c.id}`);
       assert(c.materie.length > 0 && new Set(c.materie).size === c.materie.length, `materie vuote o ripetute: ${c.id}`);
       for (const s of c.materie) assert(slugs.includes(s), `${c.id}: materia assente dal manifest: ${s}`);
@@ -50,7 +61,9 @@ try {
 
   await check('corso attuale', () => {
     const c = corsoDi('uniba-lmg-1-al');
-    assert.equal(c.breve, 'LMG · I anno · A-L');
+    assert.equal(c.breve, 'LMG · I anno · A-L'); assert.equal(c.sigla, 'LMG · I anno'); assert.equal(c.lettere, 'A-L');
+    assert.deepEqual(CORSI.map((x) => x.breve), ['LMG · I anno · A-L', 'LMG · I anno · M-Z', 'SSG · I anno']);
+    assert.deepEqual(c.inArrivo.map((m) => m.nome), ['Diritto costituzionale', 'Diritto privato']);
     assert.deepEqual(c.materie, ['filosofia-del-diritto', 'diritto-romano']);
     assert.equal(CORSO_PREDEFINITO.id, c.id, 'i dati esistenti devono ricadere in questo corso');
   });
@@ -95,6 +108,16 @@ try {
     assert(i > 0 && j > i, 'il selettore deve stare sopra la sezione Materie');
     assert(!/manifest\.materie\.map/.test(app), 'barra laterale e menu mobile devono mostrare solo le materie del corso');
     assert(app.includes('<SceltaCorso corso={corso} classe="corso-switch-pagina" />'), 'su mobile il corso si sceglie da Altro');
+    assert(/className="materia-btn in-arrivo" disabled/.test(app), 'le materie in arrivo non devono essere cliccabili');
+    assert(app.includes('<div className="materia-lista">'), 'elenco materie scorrevole');
+    const piede = app.slice(app.indexOf('<div className="side-foot">'), app.indexOf('</aside>'));
+    assert(!/Cerca|⌘K|setPalette/.test(piede), 'nella barra laterale non c\'è più il pulsante Cerca');
+    assert(piede.indexOf('<InviaMateriale') >= 0 && piede.indexOf('<InviaMateriale') < piede.indexOf('Demo interattiva'), 'invito al materiale sopra la demo');
+    assert(/target="_blank" rel="noopener noreferrer"/.test(app), 'il link WhatsApp si apre in una nuova scheda');
+    assert(app.includes('<InviaMateriale corso={corso} classe="invia-materiale-pagina" />'), 'invito al materiale anche in Altro');
+    assert(!/\{c\.universita\}<\/option>/.test(app), 'nell\'elenco dei corsi niente università');
+    const css = fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
+    assert(/\.materia-lista \{[^}]*max-height:[^}]*overflow-y: auto[^}]*scroll-behavior: smooth/.test(css), 'materie scorrevoli con altezza massima');
   });
 
   console.log(`Corsi verificati: ${checks} controlli su configurazione, corso predefinito, filtro delle materie e backup (${CORSI.length} ${CORSI.length === 1 ? 'corso' : 'corsi'}).`);

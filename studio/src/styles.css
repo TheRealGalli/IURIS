@@ -82,7 +82,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .brand-sub { font-size: 11.5px; color: var(--ink-3); margin-top: -3px; }
 /* Corso di studio: riquadro sottile sopra le Materie, con il select nativo steso sopra (tastiera e mobile) */
 .corso-switch {
-  position: relative; display: flex; align-items: center; gap: 8px; padding: 5px 10px; margin: -4px 0 -6px;
+  position: relative; display: flex; align-items: center; gap: 8px; padding: 6px 10px; margin: 0;
   border: 1px solid var(--line); border-radius: var(--radius-s); background: var(--surface); color: var(--ink-2);
   font-size: 12px; cursor: pointer; min-width: 0;
 }
@@ -90,10 +90,36 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .corso-switch:focus-within { outline: 2px solid var(--accent); outline-offset: 1px; }
 .corso-label { font-size: 9.5px; text-transform: uppercase; letter-spacing: .12em; color: var(--ink-3); flex: none; }
 .corso-nome { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.corso-classe { font-size: 11px; font-weight: 600; color: var(--ink-2); background: var(--bg-2); border-radius: 5px; padding: 1px 6px; flex: none; }
 .corso-switch svg { margin-left: auto; color: var(--ink-3); }
 .corso-select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; }
 .corso-switch-pagina { margin: 0; padding: 9px 12px; font-size: 13.5px; }
 .materia-switch { display: flex; flex-direction: column; gap: 4px; }
+/* Elenco materie scorrevole: con molte materie la barra laterale non si allunga */
+.materia-lista {
+  display: flex; flex-direction: column; gap: 4px; max-height: 130px; overflow-y: auto; overscroll-behavior: contain;
+  scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: var(--line) transparent; margin: -4px -4px 0; padding: 4px 4px 14px;
+  /* sfuma il bordo inferiore: si capisce che l'elenco continua; in fondo resta spazio, così l'ultima materia è nitida */
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 16px), transparent); -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 16px), transparent);
+}
+.materia-lista::-webkit-scrollbar { width: 5px; }
+.materia-lista::-webkit-scrollbar-thumb { background: var(--line); border-radius: 9px; }
+.materia-btn.in-arrivo { cursor: not-allowed; color: var(--ink-3); }
+.materia-btn.in-arrivo:hover { background: none; }
+.materia-btn.in-arrivo .materia-dot { opacity: .55; }
+/* Invito a inviare materiale: compatto, in fondo alla barra sopra la demo */
+.invia-materiale {
+  display: flex; align-items: flex-start; gap: 9px; padding: 9px 10px; border-radius: var(--radius-s); text-decoration: none;
+  border: 1px dashed var(--line); background: var(--bg-2); color: var(--ink-3); font-size: 11px; line-height: 1.3;
+}
+.invia-materiale b { display: block; font-weight: 600; color: var(--ink-2); margin-bottom: 1px; }
+.invia-materiale svg { color: #25a35a; margin-top: 1px; }
+.invia-materiale:hover { border-style: solid; border-color: var(--ink-3); color: var(--ink-2); }
+.invia-materiale:hover b { color: var(--ink); }
+.invia-materiale-pagina { padding: 14px 16px; font-size: 13px; border-radius: var(--radius); }
+.side-foot { gap: 6px; }
+.side-foot .invia-materiale { padding: 7px 9px; }
+
 .materia-btn {
   display: flex; align-items: center; gap: 9px; width: 100%; text-align: left; padding: 8px 10px;
   border: 1px solid transparent; border-radius: var(--radius-s); background: none; cursor: pointer; font-size: 13.5px;
@@ -121,6 +147,8 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
   .side { gap: 12px; padding-top: 18px; padding-bottom: 14px; }
   .side .nav a { padding-top: 6px; padding-bottom: 6px; }
   .nav-archivio { padding-top: 10px; }
+  .materia-lista { max-height: 96px; }
+  .materia-btn { padding-top: 6px; padding-bottom: 6px; }
 }
 .search-btn {
   display: flex; align-items: center; gap: 9px; padding: 8px 10px; border-radius: var(--radius-s);

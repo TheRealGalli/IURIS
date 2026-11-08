@@ -5,7 +5,7 @@ import { ripassoDiOggi } from './lib/srs';
 import { finisciDemo, iniziaDemo, leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
 import type { Manifest, MateriaInfo } from './lib/types';
 import { Icon } from './components/ui';
-import { CORSI, corsoDi, descriviCorso, materieDelCorso, type CorsoDiStudio } from './data/corsi';
+import { CORSI, corsoDi, descriviCorso, linkMateriale, materieDelCorso, type CorsoDiStudio } from './data/corsi';
 import IurisMascot from './components/IurisMascot';
 import Palette from './components/Palette';
 import Oggi from './views/Oggi';
@@ -120,13 +120,22 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
         <SceltaCorso corso={corso} />
         <div className="materia-switch">
           <div className="nav-label">Materie</div>
-          {materie.map((m) => (
-            <button key={m.slug} className={`materia-btn ${m.slug === materia.slug ? 'on' : ''}`} onClick={() => scegliMateria(m.slug)}>
-              <span className="materia-dot" style={{ background: m.colore ?? undefined }} />
-              <span>{m.breve ?? m.nome}</span>
-              {!m.disponibile && <small>presto</small>}
-            </button>
-          ))}
+          <div className="materia-lista">
+            {materie.map((m) => (
+              <button key={m.slug} className={`materia-btn ${m.slug === materia.slug ? 'on' : ''}`} onClick={() => scegliMateria(m.slug)}>
+                <span className="materia-dot" style={{ background: m.colore ?? undefined }} />
+                <span>{m.breve ?? m.nome}</span>
+                {!m.disponibile && <small>presto</small>}
+              </button>
+            ))}
+            {(corso.inArrivo ?? []).map((m) => (
+              <button key={m.nome} className="materia-btn in-arrivo" disabled aria-disabled="true" title={`${m.nome}: in arrivo, contenuti in preparazione`}>
+                <span className="materia-dot" style={{ background: m.colore }} />
+                <span>{m.nome}</span>
+                <small>in arrivo</small>
+              </button>
+            ))}
+          </div>
         </div>
         {idx && <NavLaterale />}
         <nav className="nav nav-archivio" aria-label="Backup di tutte le materie">
@@ -136,12 +145,8 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
           </a>
         </nav>
         <div className="side-foot">
+          <InviaMateriale corso={corso} />
           <a className={`search-btn demo-link${demo ? ' on' : ''}`} href={href('/demo')}><IurisMascot active={!demo} /> Demo interattiva</a>
-          {idx && (
-            <button className="search-btn" onClick={() => setPalette(true)}>
-              <Icon n="cerca" size={16} /> Cerca <kbd>⌘K</kbd>
-            </button>
-          )}
         </div>
       </aside>
 
@@ -152,6 +157,7 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
           {idx && <button className="btn btn-sm btn-ghost" onClick={() => setPalette(true)} aria-label="Cerca"><Icon n="cerca" /></button>}
           <select className="select" value={materia.slug} onChange={(e) => scegliMateria(e.target.value)}>
             {materie.map((m) => <option key={m.slug} value={m.slug}>{m.breve ?? m.nome}</option>)}
+            {(corso.inArrivo ?? []).map((m) => <option key={m.nome} disabled>{m.nome} · in arrivo</option>)}
           </select>
         </header>
         <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
@@ -162,6 +168,17 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
     </div>
   );
   return idx ? <CorsoContext.Provider value={idx}>{body}</CorsoContext.Provider> : body;
+}
+
+/** Invito a mandare sbobine o materiale su WhatsApp, con il corso scelto già scritto nel messaggio. */
+function InviaMateriale({ corso, classe = '' }: { corso: CorsoDiStudio; classe?: string }) {
+  return (
+    <a className={`invia-materiale ${classe}`} href={linkMateriale(corso)} target="_blank" rel="noopener noreferrer"
+      title={`Scrivi su WhatsApp per il corso ${corso.breve}`}>
+      <Icon n="whatsapp" size={17} />
+      <span><b>Hai sbobine complete o materiale aggiuntivo per il tuo corso?</b> Inviamele su WhatsApp</span>
+    </a>
+  );
 }
 
 /** Riquadro sottile sopra le Materie: il corso di studio decide quali materie si vedono e si usano. */
@@ -176,10 +193,11 @@ function SceltaCorso({ corso, classe = '' }: { corso: CorsoDiStudio; classe?: st
   return (
     <label className={`corso-switch ${classe}`} title={descriviCorso(corso)}>
       <span className="corso-label">Corso</span>
-      <span className="corso-nome">{corso.breve}</span>
+      <span className="corso-nome">{corso.sigla}</span>
+      {corso.lettere && <span className="corso-classe">{corso.lettere}</span>}
       <Icon n="scegli" size={14} />
       <select className="corso-select" value={corso.id} onChange={(e) => scegli(e.target.value)} aria-label="Corso di studio">
-        {CORSI.map((c) => <option key={c.id} value={c.id}>{c.breve} — {c.universita}</option>)}
+        {CORSI.map((c) => <option key={c.id} value={c.id}>{c.breve}</option>)}
       </select>
     </label>
   );
@@ -243,6 +261,7 @@ function Altro({ corso }: { corso: CorsoDiStudio }) {
     </nav>
     <h2 className="eyebrow" style={{ marginTop: 12 }}>Backup · tutte le materie</h2>
     <a className="card cta-card" href={href('/backup')}><Icon n="backup" size={22} /><b className="title-s">Backup completo</b><span className="small muted">Un solo file per progressi, segni e mappe personali di tutte le materie.</span></a>
+    <InviaMateriale corso={corso} classe="invia-materiale-pagina" />
     <a className="card cta-card" href={href('/demo')}><Icon n="demo" size={22} /><b className="title-s">Demo interattiva</b><span className="small muted">Scopri IURIS, dalle prime lezioni al backup.</span></a>
   </div>;
 }

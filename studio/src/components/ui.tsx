@@ -27,6 +27,7 @@ const PATHS: Record<string, ReactNode> = {
   backup: <><path d="M4 7h16v14H4ZM3 3h18v4H3Z" /><path d="M9 12h6M12 11v6M9 14l3 3 3-3" /></>,
   su: <path d="M12 19V5M6 11l6-6 6 6" />,
   giu: <path d="M12 5v14M6 13l6 6 6-6" />,
+  whatsapp: <><path d="M4.5 19.5 5.6 16A8 8 0 1 1 8.4 18.6Z" /><path d="M9.2 8.6c.2-.5.6-.6 1-.5l.7 1.6-.6.8c.5 1 1.3 1.8 2.3 2.3l.8-.6 1.6.7c.1.4 0 .8-.5 1-1.6.8-5-1.9-5.6-4.2-.1-.4.1-.8.3-1.1Z" /></>,
   scegli: <path d="m8 9.5 4-4 4 4M8 14.5l4 4 4-4" />,
   mic: <><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></>,
   voce: <><path d="M4 9v6h4l5 4V5L8 9Z" /><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" /></>,
