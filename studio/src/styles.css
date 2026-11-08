@@ -100,12 +100,16 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .nav a .count { margin-left: auto; font-size: 11px; background: var(--accent); color: var(--accent-ink); border-radius: 99px; padding: 0 7px; font-weight: 600; }
 .side-foot { margin-top: auto; display: flex; flex-direction: column; gap: 8px; }
 .nav-archivio { border-top: 1px solid var(--line); padding-top: 16px; }
-.nav-archivio a small { display: block; font-size: 11px; opacity: .7; font-weight: 400; }
 .demo-link { text-decoration: none; color: var(--ink-2); }
 .demo-link:hover, .demo-link.on { background: var(--bg-2); color: var(--ink); }
 .oggi-heading { margin-bottom: 4px; }
 .grid.altro-studio { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .altro-studio .card { padding: 16px; }
+@media (min-width: 861px) and (max-height: 800px) {
+  .side { gap: 12px; padding-top: 18px; padding-bottom: 14px; }
+  .side .nav a { padding-top: 6px; padding-bottom: 6px; }
+  .nav-archivio { padding-top: 10px; }
+}
 .search-btn {
   display: flex; align-items: center; gap: 9px; padding: 8px 10px; border-radius: var(--radius-s);
   border: 1px solid var(--line); background: var(--surface); color: var(--ink-3); cursor: pointer; font-size: 13px;

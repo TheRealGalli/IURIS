@@ -107,7 +107,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
         <nav className="nav nav-archivio" aria-label="Backup di tutte le materie">
           <div className="nav-label">Backup</div>
           <a href={href('/backup')} className={rotta.parti[0] === 'backup' ? 'on' : ''} aria-current={rotta.parti[0] === 'backup' ? 'page' : undefined}>
-            <Icon n="backup" /><span>Backup completo<small>Tutte le materie</small></span>
+            <Icon n="backup" /> Backup completo
           </a>
         </nav>
         <div className="side-foot">
