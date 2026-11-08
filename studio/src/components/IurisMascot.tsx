@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import './IurisMascot.css';
 
-type Motion = 'rest' | 'hello' | 'stretch' | 'sway' | 'peek';
-const DURATION: Record<Exclude<Motion, 'rest'>, number> = { hello: 1050, stretch: 1700, sway: 2100, peek: 2900 };
-const GESTURES = ['stretch', 'sway', 'peek'] as const;
+type Motion = 'rest' | 'hello' | 'stretch' | 'sway' | 'twirl' | 'loop';
+const DURATION: Record<Exclude<Motion, 'rest'>, number> = { hello: 1050, stretch: 1700, sway: 2100, twirl: 2600, loop: 2200 };
+const GESTURES = ['stretch', 'sway', 'twirl', 'loop'] as const;
 
-/** Un piccolo logo a riposo; React sceglie un gesto, poi lascia una lunga pausa. */
+/** Un piccolo logo a riposo; React sceglie un gesto, poi alterna brevi pause e piccoli loop. */
 export default function IurisMascot({ variant = 'small', active = true, greet = false }: {
   variant?: 'small' | 'guide' | 'working'; active?: boolean; greet?: boolean;
 }) {
@@ -34,10 +34,10 @@ export default function IurisMascot({ variant = 'small', active = true, greet = 
     };
     const schedule = (first = false) => {
       clearTimeout(next);
-      // Nessun ciclo continuo: 1–3 secondi di gesto, poi 22–40 secondi di quiete.
+      // Piccoli loop alternati, senza ripetere due volte di fila lo stesso gesto.
       next = window.setTimeout(() => {
-        if (visible()) perform(first && last.current === 'rest' ? 'peek' : choose()); else schedule();
-      }, first ? 10500 : 22000 + Math.random() * 18000);
+        if (visible()) perform(first && last.current === 'rest' ? 'twirl' : choose()); else schedule();
+      }, first ? 2200 : 3500 + Math.random() * 4000);
     };
     const perform = (gesture: Exclude<Motion, 'rest'>) => {
       if (playing || !visible()) return;
@@ -46,9 +46,9 @@ export default function IurisMascot({ variant = 'small', active = true, greet = 
       setMotion(gesture);
       finish = window.setTimeout(() => { playing = false; setMotion('rest'); schedule(); }, DURATION[gesture]);
     };
-    // Il primo incontro rivela l'occhio; le interazioni successive variano il gesto.
-    const hover = () => perform(last.current === 'rest' ? 'peek' : choose());
-    const focus = () => perform('peek');
+    // La I può arrotolarsi in un puntino e riaprirsi; nessun occhio disegnato.
+    const hover = () => perform(last.current === 'rest' ? 'twirl' : choose());
+    const focus = () => perform('twirl');
     const visibility = () => {
       clearTimeout(next); clearTimeout(finish); cancelAnimationFrame(frame);
       playing = false; setMotion('rest');
@@ -69,12 +69,9 @@ export default function IurisMascot({ variant = 'small', active = true, greet = 
 
   return <span ref={root} className={`iuris-mascot iuris-mascot--${variant}`} data-motion={motion} data-awake={active && !reduced} aria-hidden="true">
     <svg viewBox="0 0 80 80" fill="none" focusable="false">
-      <text className="iuris-mascot-letter" x="40" y="40">I</text>
-      <g className="iuris-mascot-eye">
-        <g className="iuris-mascot-lid">
-          <path d="M18 40C29 25 51 25 62 40C51 55 29 55 18 40Z" />
-          <circle className="iuris-mascot-pupil" cx="40" cy="40" r="5" />
-        </g>
+      <g className="iuris-mascot-core">
+        <text className="iuris-mascot-letter" x="40" y="40">I</text>
+        <circle className="iuris-mascot-dot" cx="40" cy="40" r="4.5" />
       </g>
     </svg>
   </span>;
