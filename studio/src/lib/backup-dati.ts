@@ -189,7 +189,7 @@ export function validaSessione(v: unknown, dove: string) {
 
 function validaPreferenze(v: unknown): Preferenze {
   const p = oggetto(v, 'preferenze');
-  opzionale(p, 'materia', slug, 'preferenze'); opzionale(p, 'tema', (v, d) => scelta(v, ['auto', 'chiaro', 'scuro'], d), 'preferenze');
+  opzionale(p, 'corso', slug, 'preferenze'); opzionale(p, 'materia', slug, 'preferenze'); opzionale(p, 'tema', (v, d) => scelta(v, ['auto', 'chiaro', 'scuro'], d), 'preferenze');
   opzionale(p, 'voce', booleano, 'preferenze'); opzionale(p, 'originale', slug, 'preferenze');
   opzionale(p, 'formatoOriginali', (v, d) => scelta(v, ['testo', 'pdf'], d), 'preferenze'); return p as Preferenze;
 }

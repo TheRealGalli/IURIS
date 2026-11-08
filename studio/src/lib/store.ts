@@ -238,6 +238,8 @@ export function azzera(slug: string) {
 // Preferenze generali
 const PREF = 'iuris:v1:pref';
 export interface Preferenze {
+  /** Corso di studio scelto (id in `data/corsi.ts`); senza valore vale il corso predefinito. */
+  corso?: string;
   materia?: string; tema?: 'auto' | 'chiaro' | 'scuro'; voce?: boolean;
   /** Ultimo documento aperto negli Originali. `formatoOriginali` resta solo per leggere backup e preferenze precedenti: il lettore è sempre Testo. */
   originale?: string; formatoOriginali?: 'testo' | 'pdf';

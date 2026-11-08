@@ -80,6 +80,19 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 }
 .brand-name { font-family: var(--serif); font-size: 20px; font-weight: 700; letter-spacing: .14em; }
 .brand-sub { font-size: 11.5px; color: var(--ink-3); margin-top: -3px; }
+/* Corso di studio: riquadro sottile sopra le Materie, con il select nativo steso sopra (tastiera e mobile) */
+.corso-switch {
+  position: relative; display: flex; align-items: center; gap: 8px; padding: 5px 10px; margin: -4px 0 -6px;
+  border: 1px solid var(--line); border-radius: var(--radius-s); background: var(--surface); color: var(--ink-2);
+  font-size: 12px; cursor: pointer; min-width: 0;
+}
+.corso-switch:hover { border-color: var(--ink-3); color: var(--ink); }
+.corso-switch:focus-within { outline: 2px solid var(--accent); outline-offset: 1px; }
+.corso-label { font-size: 9.5px; text-transform: uppercase; letter-spacing: .12em; color: var(--ink-3); flex: none; }
+.corso-nome { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.corso-switch svg { margin-left: auto; color: var(--ink-3); }
+.corso-select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; }
+.corso-switch-pagina { margin: 0; padding: 9px 12px; font-size: 13.5px; }
 .materia-switch { display: flex; flex-direction: column; gap: 4px; }
 .materia-btn {
   display: flex; align-items: center; gap: 9px; width: 100%; text-align: left; padding: 8px 10px;

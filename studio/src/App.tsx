@@ -5,6 +5,7 @@ import { ripassoDiOggi } from './lib/srs';
 import { finisciDemo, iniziaDemo, leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
 import type { Manifest, MateriaInfo } from './lib/types';
 import { Icon } from './components/ui';
+import { CORSI, corsoDi, descriviCorso, materieDelCorso, type CorsoDiStudio } from './data/corsi';
 import IurisMascot from './components/IurisMascot';
 import Palette from './components/Palette';
 import Oggi from './views/Oggi';
@@ -47,12 +48,16 @@ export default function App() {
   if (err) return <div className="empty"><h3>Contenuti non trovati</h3><p>Esegui <code>npm run sync</code> nella cartella studio. ({err})</p></div>;
   if (!manifest) return <div className="empty faint">Caricamento…</div>;
 
-  const disponibili = manifest.materie.filter((m) => m.disponibile);
-  const materia = manifest.materie.find((m) => m.slug === pref.materia) ?? disponibili[0] ?? manifest.materie[0];
-  return <Guscio manifest={manifest} materia={materia} />;
+  // Solo le materie del corso scelto: percorso, domande, statistiche e mappa sono già per materia.
+  const corso = corsoDi(pref.corso);
+  const delCorso = materieDelCorso(corso, manifest.materie);
+  const materie = delCorso.length ? delCorso : manifest.materie;
+  const disponibili = materie.filter((m) => m.disponibile);
+  const materia = materie.find((m) => m.slug === pref.materia) ?? disponibili[0] ?? materie[0];
+  return <Guscio manifest={manifest} materie={materie} corso={corso} materia={materia} />;
 }
 
-function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInfo }) {
+function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; materie: MateriaInfo[]; corso: CorsoDiStudio; materia: MateriaInfo }) {
   const rotta = useRotta();
   const lettore = rotta.parti[0] === 'originali';
   const [idx, setIdx] = useState<Indice | null>(null);
@@ -99,7 +104,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
   if (faseDemo === 'starting' || faseDemo === 'closing') contenuto = null;
   else if (rotta.parti[0] === 'backup') contenuto = <Backup materie={manifest.materie} materia={materia.slug} />;
   else if (rotta.parti[0] === 'demo') contenuto = <div className="empty faint">Preparazione della visita guidata…</div>;
-  else if (rotta.parti[0] === 'altro') contenuto = <Altro />;
+  else if (rotta.parti[0] === 'altro') contenuto = <Altro corso={corso} />;
   else if (!materia.disponibile) contenuto = <InPreparazione m={materia} />;
   else if (err) contenuto = <div className="empty"><h3>Errore</h3><p>{err}</p></div>;
   else if (!idx) contenuto = <div className="empty faint">Caricamento del corso…</div>;
@@ -112,9 +117,10 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
           <span className="brand-mark">I</span>
           <span><div className="brand-name">IURIS</div><div className="brand-sub">studio del diritto</div></span>
         </a>
+        <SceltaCorso corso={corso} />
         <div className="materia-switch">
           <div className="nav-label">Materie</div>
-          {manifest.materie.map((m) => (
+          {materie.map((m) => (
             <button key={m.slug} className={`materia-btn ${m.slug === materia.slug ? 'on' : ''}`} onClick={() => scegliMateria(m.slug)}>
               <span className="materia-dot" style={{ background: m.colore ?? undefined }} />
               <span>{m.breve ?? m.nome}</span>
@@ -145,7 +151,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
           <span className="brand-name">IURIS</span>
           {idx && <button className="btn btn-sm btn-ghost" onClick={() => setPalette(true)} aria-label="Cerca"><Icon n="cerca" /></button>}
           <select className="select" value={materia.slug} onChange={(e) => scegliMateria(e.target.value)}>
-            {manifest.materie.map((m) => <option key={m.slug} value={m.slug}>{m.breve ?? m.nome}</option>)}
+            {materie.map((m) => <option key={m.slug} value={m.slug}>{m.breve ?? m.nome}</option>)}
           </select>
         </header>
         <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
@@ -156,6 +162,27 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
     </div>
   );
   return idx ? <CorsoContext.Provider value={idx}>{body}</CorsoContext.Provider> : body;
+}
+
+/** Riquadro sottile sopra le Materie: il corso di studio decide quali materie si vedono e si usano. */
+function SceltaCorso({ corso, classe = '' }: { corso: CorsoDiStudio; classe?: string }) {
+  const scegli = (id: string) => {
+    if (id === corso.id) return;
+    const nuovo = corsoDi(id);
+    // La materia aperta resta solo se fa parte del nuovo corso.
+    scriviPref({ corso: nuovo.id, ...(nuovo.materie.includes(leggiPref().materia ?? '') ? {} : { materia: nuovo.materie[0] }) });
+    if (!['backup', 'demo'].includes(location.hash.replace(/^#\/?/, '').split(/[/?]/)[0])) location.hash = '#/';
+  };
+  return (
+    <label className={`corso-switch ${classe}`} title={descriviCorso(corso)}>
+      <span className="corso-label">Corso</span>
+      <span className="corso-nome">{corso.breve}</span>
+      <Icon n="scegli" size={14} />
+      <select className="corso-select" value={corso.id} onChange={(e) => scegli(e.target.value)} aria-label="Corso di studio">
+        {CORSI.map((c) => <option key={c.id} value={c.id}>{c.breve} — {c.universita}</option>)}
+      </select>
+    </label>
+  );
 }
 
 function sezioneAttiva(parti: string[]) {
@@ -205,9 +232,11 @@ function TabBar() {
   );
 }
 
-function Altro() {
+function Altro({ corso }: { corso: CorsoDiStudio }) {
   return <div className="page-narrow fade-in stack">
     <h1 className="title-xl">Altro</h1>
+    <SceltaCorso corso={corso} classe="corso-switch-pagina" />
+    <p className="small muted" style={{ margin: '-4px 2px 0' }}>{descriviCorso(corso)}</p>
     <h2 className="eyebrow" style={{ marginTop: 12 }}>Studio · materia selezionata</h2>
     <nav className="grid g2 altro-studio" aria-label="Altre sezioni di studio">
       {NAV.filter((n) => ['originali', 'cronologia', 'glossario', 'progressi'].includes(n.key)).map((n) => <a key={n.key} className="card cta-card" href={href(n.to)}><Icon n={n.icon} size={22} /><b className="title-s">{n.label}</b></a>)}
