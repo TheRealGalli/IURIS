@@ -10,10 +10,11 @@
     "dev": "vite",
     "prebuild": "node scripts/sync-content.mjs && node scripts/sync-letture.mjs",
     "build": "tsc --noEmit && vite build",
-    "check:build": "node scripts/check-tour.mjs && node scripts/check-build.mjs && node scripts/check-graph-layout.mjs && npm run check:review && npm run check:originali && npm run check:backup && npm run check:letture",
+    "check:build": "node scripts/check-tour.mjs && node scripts/check-build.mjs && node scripts/check-graph-layout.mjs && npm run check:review && npm run check:originali && npm run check:backup && npm run check:letture && npm run check:responsive",
     "check:review": "node scripts/check-review-plan.mjs && node scripts/check-statistiche.mjs && node scripts/check-domande.mjs",
     "check:originali": "node scripts/check-originali.mjs",
     "check:letture": "node scripts/check-estrazione-letture.mjs && node scripts/check-letture.mjs && node scripts/check-ordine-segni.mjs && node scripts/check-mappa-geometrica.mjs && node scripts/check-mappa-corpus.mjs && node scripts/check-letture-selection.mjs",
+    "check:responsive": "node scripts/check-responsive.mjs",
     "check:backup": "node scripts/check-backup.mjs && node scripts/check-corsi.mjs",
     "preview": "vite preview",
     "studio": "npm run build && vite preview"
@@ -38,6 +39,7 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "1.65.0",
     "typescript": "^5.6.3",
     "vite": "^5.4.11"
   }

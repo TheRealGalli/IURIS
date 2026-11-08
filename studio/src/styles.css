@@ -92,7 +92,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .corso-nome { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .corso-classe { font-size: 11px; font-weight: 600; color: var(--ink-2); background: var(--bg-2); border-radius: 5px; padding: 1px 6px; flex: none; }
 .corso-switch svg { margin-left: auto; color: var(--ink-3); }
-.corso-select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; }
+.corso-select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; appearance: none; -webkit-appearance: none; }
 .corso-switch-pagina { margin: 0; padding: 9px 12px; font-size: 13.5px; }
 .materia-switch { display: flex; flex-direction: column; gap: 4px; }
 /* Elenco materie scorrevole: con molte materie la barra laterale non si allunga */

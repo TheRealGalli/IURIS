@@ -29,6 +29,8 @@ jobs:
           cache-dependency-path: studio/package-lock.json
       - name: Installa le dipendenze
         run: npm ci
+      - name: Installa i browser per il controllo responsive (WebKit come Safari su iPhone e iPad, Chromium come Android)
+        run: npx playwright install --with-deps chromium webkit
       - name: Genera contenuti e app
         run: npm run build
       - name: Verifica i file da pubblicare
