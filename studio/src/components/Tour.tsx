@@ -9,6 +9,7 @@ import { DOCUMENTI_LETTURA, caricaSezioneLettura, preparaBlocchi } from '../lib/
 import { registraRisposta, type Voto } from '../lib/srs';
 import { passiTour } from '../lib/tour-passi';
 import { Icon } from './ui';
+import IurisMascot from './IurisMascot';
 import './Tour.css';
 
 type Rect = { x: number; y: number; w: number; h: number };
@@ -210,9 +211,9 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
     {rett && <div className="tour-spot" style={{ left: rett.x, top: rett.y, width: rett.w, height: rett.h }} />}
     <div ref={cursor} className={`tour-cursor${premendo ? ' press' : ''}`} aria-hidden="true"><svg viewBox="0 0 30 36" width="30" height="36"><path d="M3 2 26 18l-10 2-5 11Z" /></svg><span>IURIS</span></div>
     <div className="tour-status"><span className="tour-status-dot" />Visita guidata<span className="tour-status-sep">·</span><span>Archivio di prova</span></div>
-    {!pronto && <div className="tour-working" role="status"><span className="tour-monogram">I</span><span>Ti accompagno in {passo.sezione}…</span><button onClick={() => onClose()} aria-label="Esci dalla demo"><Icon n="x" size={17} /></button></div>}
+    {!pronto && <div className="tour-working" role="status"><IurisMascot variant="working" /><span>Ti accompagno in {passo.sezione}…</span><button onClick={() => onClose()} aria-label="Esci dalla demo"><Icon n="x" size={17} /></button></div>}
     <div ref={bubble} className={`tour-bubble${pronto ? ' ready' : ''}`} style={{ '--bubble-x': `${pos.x}px`, '--bubble-y': `${pos.y}px` } as CSSProperties}>
-      <div className="tour-bubble-head"><div className="tour-character" aria-hidden="true"><span>I</span><i /><i /></div><div><span className="eyebrow">La I ti accompagna</span><div className="tour-step">{passo.sezione} · {index + 1} di {passi.length}</div></div><button className="tour-close" onClick={() => onClose()} aria-label="Esci dalla demo"><Icon n="x" size={18} /></button></div>
+      <div className="tour-bubble-head"><IurisMascot variant="guide" active={pronto} greet /><div><span className="eyebrow">La I ti accompagna</span><div className="tour-step">{passo.sezione} · {index + 1} di {passi.length}</div></div><button className="tour-close" onClick={() => onClose()} aria-label="Esci dalla demo"><Icon n="x" size={18} /></button></div>
       <h2 ref={titolo} tabIndex={-1} className="title-m">{errore ? 'Aspettiamo questa pagina.' : passo.titolo}</h2>
       <p className="tour-copy" aria-live="polite">{errore ? `${errore} Puoi riprovare o passare alla tappa successiva.` : passo.testo}</p>
       {errore && <button className="tour-retry" onClick={() => setTentativo(tentativo + 1)}>Riprova questa tappa</button>}

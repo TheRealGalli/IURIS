@@ -5,6 +5,7 @@ import { ripassoDiOggi } from './lib/srs';
 import { finisciDemo, iniziaDemo, leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
 import type { Manifest, MateriaInfo } from './lib/types';
 import { Icon } from './components/ui';
+import IurisMascot from './components/IurisMascot';
 import Palette from './components/Palette';
 import Oggi from './views/Oggi';
 import Percorso from './views/Percorso';
@@ -129,7 +130,7 @@ function Guscio({ manifest, materia }: { manifest: Manifest; materia: MateriaInf
           </a>
         </nav>
         <div className="side-foot">
-          <a className={`search-btn demo-link${demo ? ' on' : ''}`} href={href('/demo')}><span className="demo-monogram" aria-hidden="true">I</span> Demo interattiva</a>
+          <a className={`search-btn demo-link${demo ? ' on' : ''}`} href={href('/demo')}><IurisMascot active={!demo} /> Demo interattiva</a>
           {idx && (
             <button className="search-btn" onClick={() => setPalette(true)}>
               <Icon n="cerca" size={16} /> Cerca <kbd>⌘K</kbd>

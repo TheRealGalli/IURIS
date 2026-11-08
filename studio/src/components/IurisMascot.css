@@ -1,0 +1,59 @@
+.iuris-mascot {
+  display: inline-grid; place-items: center; flex: none;
+  width: 20px; height: 20px; border-radius: 6px;
+  background: var(--ink); color: var(--bg);
+}
+.iuris-mascot svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.iuris-mascot--guide { width: 44px; height: 48px; border-radius: 13px 13px 17px 17px; }
+.iuris-mascot--working { width: 26px; height: 29px; border-radius: 8px; }
+.iuris-mascot-entrance, .iuris-mascot-body {
+  transform-box: view-box; transform-origin: 32px 61px;
+}
+.iuris-mascot-body { animation: iuris-idle 59s ease-in-out infinite; }
+.iuris-mascot-gaze { animation: iuris-look 43s ease-in-out infinite; }
+.iuris-mascot-eyes {
+  fill: var(--gold); transform-box: fill-box; transform-origin: center;
+  animation: iuris-eyes 17.3s ease-in-out infinite;
+}
+.iuris-mascot--greet .iuris-mascot-entrance { animation: iuris-hello .9s both; }
+.iuris-mascot[data-awake="false"] svg * { animation-play-state: paused; }
+.demo-link:is(:hover, :focus-visible) .iuris-mascot-body { animation: iuris-hello .9s both; }
+
+/* Tre gesti brevi in quasi un minuto, con lunghe soste in posizione neutra. */
+@keyframes iuris-idle {
+  0%, 8%, 14%, 43%, 49%, 79%, 85%, 100% { transform: translate(0, 0) rotate(0) scale(1); }
+  9% { transform: translate(0, 1px) scale(1.16, .81); }
+  10.5% { transform: translate(0, -2px) rotate(-3deg) scale(.88, 1.18); }
+  12% { transform: translate(0, 0) rotate(2deg) scale(1.04, .97); }
+  44.5% { transform: translate(-2px, 0) rotate(-9deg) scale(.94, 1.06); }
+  46% { transform: translate(-1px, -1px) rotate(-6deg) scale(.97, 1.1); }
+  47.5% { transform: translate(0, 0) rotate(2deg) scale(1); }
+  80.5% { transform: translate(2px, 0) rotate(8deg) scale(.95, 1.04); }
+  82% { transform: translate(0, 1px) rotate(-2deg) scale(1.1, .88); }
+  83.5% { transform: translate(0, -1px) rotate(1deg) scale(.97, 1.04); }
+}
+
+/* Occhi e sguardo hanno ritmi diversi dal corpo, senza un tic ripetuto in continuazione. */
+@keyframes iuris-eyes {
+  0%, 19%, 21%, 55%, 62%, 83%, 85%, 100% { transform: scale(1); }
+  19.7%, 84% { transform: scale(1.08, .12); }
+  57% { transform: scale(1.07, 1.22); }
+  59.5% { transform: scale(.96, .83); }
+}
+@keyframes iuris-look {
+  0%, 17%, 24%, 63%, 71%, 100% { transform: translate(0, 0); }
+  19%, 21% { transform: translate(-1.5px, -.5px); }
+  65%, 68% { transform: translate(1.4px, -.6px); }
+}
+@keyframes iuris-hello {
+  0%, 100% { transform: translate(0, 0) rotate(0) scale(1); }
+  22% { transform: translate(0, 1px) rotate(-5deg) scale(1.18, .77); }
+  49% { transform: translate(0, -3px) rotate(6deg) scale(.86, 1.25); }
+  73% { transform: translate(0, 0) rotate(-3deg) scale(1.04, .96); }
+}
+@media (max-width: 700px) {
+  .iuris-mascot--guide { width: 36px; height: 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .iuris-mascot svg * { animation: none !important; }
+}

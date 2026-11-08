@@ -551,6 +551,3 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 .oltre-punti p { margin: 0; }
 .oltre-chip { color: var(--t-istituzione); border-color: color-mix(in srgb, var(--t-istituzione) 40%, var(--line)); }
 .rel-oltre { font-size: 10.5px; color: var(--t-istituzione); border: 1px solid color-mix(in srgb, var(--t-istituzione) 40%, var(--line)); border-radius: 99px; padding: 0 6px; }
-
-.demo-monogram { display: grid; place-items: center; width: 20px; height: 20px; flex: none; border-radius: 6px; background: var(--ink); color: var(--bg); font-family: var(--serif); font-size: 16px; line-height: 1; transition: transform .5s; }
-.demo-link:hover .demo-monogram { transform: scaleY(1.22); }
