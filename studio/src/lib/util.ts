@@ -50,3 +50,13 @@ export function shuffle<T>(arr: T[]): T[] {
 export function plurale(n: number, uno: string, molti: string) {
   return `${n} ${n === 1 ? uno : molti}`;
 }
+
+/**
+ * Ultimo puntatore usato: con dito o Pencil i browser mandano anche mouseenter "finti" al tocco,
+ * e su iOS un effetto al passaggio che cambia la pagina può mangiarsi il primo tocco. `soloMouse`
+ * lascia passare l'effetto solo per il mouse vero; su touch decide il tocco (clic) esplicito.
+ */
+let tocco = false;
+if (typeof document !== 'undefined') document.addEventListener('pointerdown', (e) => { tocco = e.pointerType !== 'mouse'; }, { capture: true, passive: true });
+export const ultimoTocco = () => tocco;
+export const soloMouse = <A extends unknown[]>(f: (...a: A) => void) => (...a: A) => { if (!tocco) f(...a); };

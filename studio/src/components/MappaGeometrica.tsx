@@ -5,6 +5,7 @@ import { useZoom } from '../lib/zoom';
 import type { SezioneGeo } from '../lib/letture-hooks';
 import { linkTesto } from '../lib/letture-client';
 import { Icon } from './ui';
+import { soloMouse, ultimoTocco } from '../lib/util';
 import './MappaGeometrica.css';
 
 interface Props {
@@ -33,7 +34,7 @@ const Nodo = memo(function Nodo({ n, sezione, modo, chiusi, alterna, apri, senso
   const etichetta = n.segnato ? n.pezzi.map((p) => p.testo).join('') : u.testo;
   const chips = senso?.sem.perNodo.get(n.id) ?? [];
   const fuori = chips.length ? () => senso!.setFuoco(null) : undefined;
-  const scheda = <div className="mg-nodo-riga" onMouseEnter={chips.length ? () => senso!.setFuoco({ nodo: n.id }) : undefined} onMouseLeave={fuori}>
+  const scheda = <div className="mg-nodo-riga" onMouseEnter={chips.length ? soloMouse(() => senso!.setFuoco({ nodo: n.id })) : undefined} onMouseLeave={fuori && soloMouse(fuori)}>
     <a data-nodo={n.id} className={`mg-nodo mg-${u.tipo}${u.tipo === 'titolo' ? ` mg-h${u.livello}` : ''}${n.segnato ? ' mg-segnato' : ' mg-antenato'}`}
       href={href} onClick={(e) => apri(e, href)}
       aria-label={`${n.segnato ? 'Parte segnata' : 'Contiene parti segnate'}: ${accorcia(etichetta, 160)}. Apri nel testo`}>
@@ -44,7 +45,13 @@ const Nodo = memo(function Nodo({ n, sezione, modo, chiusi, alterna, apri, senso
           : <span key={i} className="mg-attorno">{p.testo}</span>)
         : accorcia(u.testo, u.tipo === 'titolo' ? 90 : 110)}</span>
       {chips.length > 0 && <span className="mg-chips">{chips.slice(0, 3).map((c) => <span key={c} data-concetto={c} className="mg-chip" style={{ '--mg-tinta': tinta(senso!.sem, c) } as CSSProperties}
-        onMouseEnter={() => senso!.setFuoco({ nodo: n.id, concetto: c })} onMouseLeave={() => senso!.setFuoco({ nodo: n.id })}>{senso!.sem.nomi[c] ?? c}</span>)}</span>}
+        onMouseEnter={soloMouse(() => senso!.setFuoco({ nodo: n.id, concetto: c }))} onMouseLeave={soloMouse(() => senso!.setFuoco({ nodo: n.id }))}
+        onClick={(e) => {
+          // Su touch il tocco su un concetto fa ciò che col mouse fa il passaggio: accende (o spegne) i suoi collegamenti.
+          if (!ultimoTocco()) return;
+          e.preventDefault(); e.stopPropagation();
+          senso!.setFuoco(e.currentTarget.classList.contains('mg-c-acceso') ? null : { nodo: n.id, concetto: c });
+        }}>{senso!.sem.nomi[c] ?? c}</span>)}</span>}
     </a>
     {haFigli && <button className="mg-piega" aria-expanded={!chiuso} aria-label={chiuso ? `Mostra ${n.figli.length} sotto-parti` : 'Nascondi le sotto-parti'} onClick={() => alterna(n.id)}>{chiuso ? n.figli.length : '−'}</button>}
   </div>;
@@ -120,7 +127,8 @@ function Archi({ archi, sem, ordine, fuoco, setFuoco, firma }: { archi: ArcoConc
       const a = archi[i], c = a.tipo === 'relazione' ? a.altro! : a.concetto, on = !luce || luce.archi.has(i);
       return <g key={i} className={`mg-arco mg-arco-${a.tipo}${on ? '' : ' mg-spento'}${luce && on ? ' mg-acceso' : ''}`} style={{ '--mg-tinta': tinta(sem, c) } as CSSProperties}>
         <path d={d} markerEnd={a.tipo === 'relazione' ? `url(#mg-punta-${c})` : undefined} />
-        <path className="mg-arco-presa" d={d} onMouseEnter={() => setFuoco({ arco: i })} onMouseLeave={() => setFuoco(null)} />
+        <path className="mg-arco-presa" d={d} onMouseEnter={soloMouse(() => setFuoco({ arco: i }))} onMouseLeave={soloMouse(() => setFuoco(null))}
+          onClick={() => { if (ultimoTocco()) setFuoco(luce?.archi.has(i) && luce.archi.size === 1 ? null : { arco: i }); }} />
       </g>;
     })}
   </svg>

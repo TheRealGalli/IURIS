@@ -1,4 +1,4 @@
-import { Component, lazy, Suspense, useEffect, useState, type ReactNode } from 'react';
+import { Component, lazy, Suspense, useEffect, useState, type CSSProperties, type ReactNode } from 'react';
 import { caricaCorso, CorsoContext, fetchManifest, useCorso, type Indice } from './lib/data';
 import { href, useRotta, vai } from './lib/router';
 import { ripassoDiOggi } from './lib/srs';
@@ -234,18 +234,26 @@ function BadgeRipasso() {
   return n > 0 ? <span className="count">{n}</span> : null;
 }
 
+/** Barra in basso: cinque voci sul telefono; su iPad in verticale compaiono anche Originali, Cronologia e Glossario. */
 function TabBar() {
   const rotta = useRotta();
   const att = sezioneAttiva(rotta.parti);
-  const altro = !TABS.includes(att);
+  const ridotta = !TABS.includes(att);
+  const extra = (k: string) => !TABS.includes(k);
+  const voci = [...NAV.filter((n) => n.key !== 'progressi'), NAV.find((n) => n.key === 'progressi')!];
   return (
-    <nav className="tabbar">
-      {NAV.filter((n) => TABS.includes(n.key)).map((n) => (
-        <a key={n.key} href={href(n.key === 'progressi' ? '/altro' : n.to)} className={(n.key === 'progressi' ? (att === 'progressi' || altro) : att === n.key) ? 'on' : ''}>
-          <Icon n={n.key === 'progressi' ? 'altro' : n.icon} size={21} />
-          {n.key === 'progressi' ? 'Altro' : n.label === 'Allenamento' ? 'Allena' : n.label}
-        </a>
-      ))}
+    <nav className="tabbar" aria-label="Sezioni" style={{ '--tab-n': voci.length } as CSSProperties}>
+      {voci.map((n) => {
+        const altro = n.key === 'progressi';
+        const on = altro ? att === 'progressi' || (ridotta && !NAV.some((x) => x.key === att)) : att === n.key;
+        const cls = [extra(n.key) && !altro ? 'tab-extra' : '', on ? 'on' : '', altro && ridotta && !on ? 'on-ridotta' : ''].filter(Boolean).join(' ');
+        return (
+          <a key={n.key} href={href(altro ? '/altro' : n.to)} className={cls || undefined} aria-current={on ? 'page' : undefined}>
+            <Icon n={altro ? 'altro' : n.icon} size={21} />
+            {altro ? 'Altro' : n.label === 'Allenamento' ? 'Allena' : n.label}
+          </a>
+        );
+      })}
     </nav>
   );
 }

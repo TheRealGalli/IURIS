@@ -95,3 +95,9 @@
 .mg-finestra[data-moving="true"] .mg-nodo, .mg-finestra[data-moving="true"] .mg-arco path { transition: none; }
 .mg-tela { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
 .mg-tela .mg-nodo { cursor: pointer; }
+/* Touch: archi e pulsanti più facili da prendere con il dito. */
+@media (pointer: coarse) {
+  .mg-arco path.mg-arco-presa { stroke-width: 26; }
+  .mg-chip { position: relative; }
+  .mg-chip::after { content: ""; position: absolute; inset: -8px -3px; }
+}

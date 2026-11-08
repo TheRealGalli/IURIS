@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useCorso } from '../lib/data';
 import { href } from '../lib/router';
 import type { Evento } from '../lib/types';
-import { fmtAnno, rifPagine } from '../lib/util';
+import { fmtAnno, rifPagine, soloMouse } from '../lib/util';
 import { Icon } from '../components/ui';
 
 const TIPI: Record<string, string> = {
@@ -222,7 +222,7 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
             {etichette.map((g) => {
               const ids = g.eventi.map((e) => e.id);
               const e = g.eventi[0];
-              const accendi = { onMouseEnter: () => setLuce(g.id), onMouseLeave: () => setLuce(null), onFocus: () => setLuce(g.id), onBlur: () => setLuce(null) };
+              const accendi = { onMouseEnter: soloMouse(() => setLuce(g.id)), onMouseLeave: soloMouse(() => setLuce(null)), onFocus: () => setLuce(g.id), onBlur: () => setLuce(null) };
               return (
                 <button key={g.id} {...accendi} className={`tl-lab ${luce === g.id ? 'hov' : ''} ${ids.some((id) => sel.includes(id)) ? 'on' : ''}`}
                   style={{ left: g.x - 1, top: CORSIA0 + g.corsia * CORSIA_H }}
@@ -236,7 +236,7 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
             {etichette.map((g) => (
               <button key={g.id} className={`tl-dot ${g.eventi.length > 1 ? 'multi' : ''} ${luce === g.id ? 'hov' : ''} ${g.eventi.some((e) => sel.includes(e.id)) ? 'on' : ''}`}
                 style={{ left: g.x, background: tinte(g.eventi, 'spicchi') }}
-                onMouseEnter={() => setLuce(g.id)} onMouseLeave={() => setLuce(null)}
+                onMouseEnter={soloMouse(() => setLuce(g.id))} onMouseLeave={soloMouse(() => setLuce(null))}
                 title={g.eventi.map((x) => `${x.data} · ${x.titolo}`).join('\n')} aria-label={g.eventi.map((x) => `${x.data}: ${x.titolo}`).join('; ')}
                 onClick={() => apri(g.eventi.map((e) => e.id))} />
             ))}

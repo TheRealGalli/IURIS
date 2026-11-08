@@ -44,7 +44,7 @@ export default function Glossario() {
         {idx.schedeInverse.length > 0 && <a className="btn" href={href('/allena?modo=inverse')}>Schede inverse · {idx.schedeInverse.length} termini</a>}
       </div>
       <div className="card stack" style={{ gap: 12, marginBottom: 18 }}>
-        <input className="input input-lg" type="search" placeholder="Cerca un termine, anche in latino… (es. imperium, pretore, mancipatio)" value={q} onChange={(e) => setQ(e.target.value)} autoFocus />
+        <input className="input input-lg" type="search" placeholder="Cerca un termine, anche in latino… (es. imperium, pretore, mancipatio)" value={q} onChange={(e) => setQ(e.target.value)} autoFocus={!matchMedia('(pointer: coarse)').matches} />
         <div className="row" style={{ gap: 6 }}>
           <button className={`chip ${tipo === '' ? 'on' : ''}`} onClick={() => setTipo('')}>Tutti</button>
           {(Object.keys(TIPI_CONCETTO) as TipoConcetto[]).filter((t) => conteggi.has(t)).map((t) => (
