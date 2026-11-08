@@ -7,6 +7,8 @@ import { linkTesto } from '../lib/letture-client';
 import { Icon } from './ui';
 import { soloMouse, ultimoTocco } from '../lib/util';
 import './MappaGeometrica.css';
+import MobileSheet, { useCompact } from './MobileSheet';
+import { inDemo } from '../lib/archivio';
 
 interface Props {
   sezioni: SezioneGeo[];
@@ -224,10 +226,12 @@ function Disegno({ s, modo, chiusi, alterna, apri, significato }: { s: SezioneGe
 }
 
 function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, totale, nonCollegati = 0 }: Props) {
+  const compact = useCompact();
+  const [toolsOpen, setToolsOpen] = useState(false);
   const iniziale = sezioneIniziale && sezioni.some((s) => s.chiave === sezioneIniziale) ? sezioneIniziale : '';
   const prima = iniziale || sezioni[0]?.chiave || '';
   const [scelta, setScelta] = useState(prima);
-  const [modo, setModo] = useState<'albero' | 'schema'>(compatta ? 'schema' : 'albero');
+  const [modo, setModo] = useState<'albero' | 'schema'>(compatta || compact ? 'schema' : 'albero');
   const [chiusi, setChiusi] = useState<Set<string>>(new Set());
   const [significato, setSignificato] = useState(true);
   // Una lezione alla volta: se quella scelta non c'è (ancora), si parte da quella aperta nel lettore o dalla prima.
@@ -238,12 +242,11 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
   const apri = (e: MouseEvent, href: string) => { if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return; e.preventDefault(); onApri(href); };
   const parti = sezioni.reduce((n, s) => n + s.segnati, 0);
 
-  if (!sezioni.length) return <section className="mappa-geo"><div className="mg-vuota"><Icon n="mappa" size={26} /><p className="muted small">Evidenzia o sottolinea un passaggio negli Originali: qui comparirà nella forma del testo, con i titoli e gli elenchi che lo contengono.</p></div></section>;
-  return <section className={`mappa-geo${compatta ? ' mg-compatta' : ''}`} aria-label="Mappa personale nella struttura del testo">
-    <div className="mg-barra">
-      <select className="select" aria-label="Scegli la lezione" value={scelta} onChange={(e) => { setScelta(e.target.value); setChiusi(new Set()); }}>
+  const chooser = <select className="select" aria-label="Scegli la lezione" value={scelta} onChange={(e) => { setScelta(e.target.value); setChiusi(new Set()); }}>
         {documenti.map(([doc, titolo]) => <optgroup key={doc} label={titolo}>{sezioni.filter((s) => s.documento === doc).map((s) => <option key={s.chiave} value={s.chiave}>{accorcia(s.titolo, 70)} · {s.segnati}</option>)}</optgroup>)}
-      </select>
+      </select>;
+  const toolbar = <div className="mg-barra">
+      {chooser}
       <div className="mg-vista" aria-label="Forma della mappa">
         <button className={`btn btn-sm ${modo === 'albero' ? 'mg-attivo' : 'btn-ghost'}`} aria-pressed={modo === 'albero'} onClick={() => setModo('albero')}>Albero</button>
         <button className={`btn btn-sm ${modo === 'schema' ? 'mg-attivo' : 'btn-ghost'}`} aria-pressed={modo === 'schema'} onClick={() => setModo('schema')}>Schema</button>
@@ -252,7 +255,13 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
       <div className="mg-azioni">
         <button className="btn btn-sm btn-ghost" disabled={!chiusi.size} onClick={() => setChiusi(new Set())} title="Riapre i rami ripiegati">Apri tutto</button>
       </div>
-    </div>
+    </div>;
+  if (!sezioni.length) return <section className="mappa-geo"><div className="mg-vuota"><Icon n="mappa" size={26} /><p className="muted small">Evidenzia o sottolinea un passaggio negli Originali: qui comparirà nella forma del testo, con i titoli e gli elenchi che lo contengono.</p></div></section>;
+  return <section className={`mappa-geo${compatta ? ' mg-compatta' : ''}`} aria-label="Mappa personale nella struttura del testo">
+    {compact ? <>
+      <div className="mobile-geo-toolbar">{chooser}<button className="mobile-icon" aria-label="Visualizza mappa personale" onClick={() => setToolsOpen(true)}><Icon n="filtri" size={20} /></button></div>
+      <MobileSheet open={toolsOpen} onClose={() => setToolsOpen(false)} title="Mappa personale" className="mobile-geo-sheet" modal={!inDemo()}>{toolbar}<button className="btn btn-primary mobile-map-done" onClick={() => setToolsOpen(false)}>Torna alla mappa</button></MobileSheet>
+    </> : toolbar}
     <div className="mg-corpo">
       {visibili.map((s) => <article key={s.chiave} className="mg-lezione" data-archi={s.semantica.archi.length} data-scartati={s.semantica.scartati.relazioni + s.semantica.scartati.ripetizioni}>
         <div className="mg-lezione-testa">

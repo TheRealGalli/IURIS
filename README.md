@@ -5,7 +5,15 @@
 Lezioni, glossario, mappe, cronologia ed esercizi con ripasso spaziato per lo studio del diritto.
 Il sito funziona nel browser, senza account, server applicativo o sincronizzazione dei progressi.
 
-Da **Demo interattiva** nella barra laterale (o **Altro** su mobile) si avvia una visita guidata sulle pagine reali. Una freccetta animata e la I di IURIS accompagnano Oggi, Percorso, lezione, Originali, segni, mappe, allenamento, cronologia, glossario, statistiche e backup. Il tour avanza solo su richiesta, con indietro, scelta della sezione e avanti su una sola riga compatta. Le prove usano un archivio in memoria separato: progressi, segni, quiz e preferenze personali vengono conservati; le viste completano le proprie scritture prima del cambio di archivio. Uscendo, o ricaricando la pagina, i dati dimostrativi scompaiono. La tappa finale permette di aprire il Backup reale. La sezione **Backup**, sotto **Studio**, è generale e resta aperta quando si cambia materia.
+Da **Demo interattiva** nella barra laterale (o **Menu** su mobile) si avvia una visita guidata sulle pagine reali. Una freccetta animata e la I di IURIS accompagnano Oggi, Percorso, lezione, Originali, segni, mappe, allenamento, cronologia, glossario, statistiche e backup. Il tour avanza solo su richiesta, con indietro, scelta della sezione e avanti su una sola riga compatta. Le prove usano un archivio in memoria separato: progressi, segni, quiz e preferenze personali vengono conservati; le viste completano le proprie scritture prima del cambio di archivio. Uscendo, o ricaricando la pagina, i dati dimostrativi scompaiono. La tappa finale permette di aprire il Backup reale. La sezione **Backup**, sotto **Studio**, è generale e resta aperta quando si cambia materia.
+
+## Telefono e iPad
+
+L’interfaccia touch ha una navigazione dedicata, senza cambiare quella desktop. Corso e materia si scelgono dall’intestazione; il Menu raccoglie tutte le sezioni, Demo e Backup. La barra inferiore resta compatta e lascia spazio al lettore e alle mappe, dove si usano i comandi specifici e il Menu in alto.
+
+Le mappe occupano lo spazio disponibile: ricerca, filtri e legenda si aprono in un foglio dal basso, con zoom e Adatta sempre accessibili. La mappa personale parte dallo schema. Allenamento, glossario e cronologia mostrano prima il contenuto; modalità, opzioni e filtri si aprono su richiesta. Nel lettore rimangono la selezione nativa, Salva, colori, sottolineatura, gomma e Apple Pencil; sui telefoni più stretti Ripristina è nel menu Fonte e comandi. Le aree sicure e l’altezza dinamica seguono le barre di Safari.
+
+`npm run check:responsive` verifica la build con WebKit e Chromium, su iPhone, Android e iPad in entrambi gli orientamenti: dimensioni, navigazione, mappe, fogli, quiz, ricerca, salvataggio col dito e Apple Pencil. Installare i browser con `npx playwright install chromium webkit`.
 
 ## Progressi personali
 

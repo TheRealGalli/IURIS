@@ -4,9 +4,13 @@ import { href } from '../lib/router';
 import { livello, padronanza } from '../lib/srs';
 import { useProgresso } from '../lib/store';
 import { TIPI_CONCETTO, TIPO_SINGOLARE, type TipoConcetto } from '../lib/types';
-import { LivelloDot } from '../components/ui';
+import MobileSheet, { useCompact } from '../components/MobileSheet';
+import { inDemo } from '../lib/archivio';
+import { Icon, LivelloDot } from '../components/ui';
 
 export default function Glossario() {
+  const compact = useCompact();
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const idx = useCorso();
   const p = useProgresso(idx.corso.materia.slug);
   const [q, setQ] = useState('');
@@ -35,6 +39,28 @@ export default function Glossario() {
     return m;
   }, [idx]);
 
+  const filtriTipi = (<div className="row" style={{ gap: 6 }}>
+          <button className={`chip ${tipo === '' ? 'on' : ''}`} onClick={() => setTipo('')}>Tutti</button>
+          {(Object.keys(TIPI_CONCETTO) as TipoConcetto[]).filter((t) => conteggi.has(t)).map((t) => (
+            <button key={t} className={`chip ${tipo === t ? 'on' : ''}`} onClick={() => setTipo(tipo === t ? '' : t)}>{TIPI_CONCETTO[t]} <span className="faint">{conteggi.get(t)}</span></button>
+          ))}
+        </div>);
+  const filtriUnita = (<>
+          <select className="select" aria-label="Unità del glossario" value={unita} onChange={(e) => setUnita(e.target.value)}>
+            <option value="">Tutte le unità</option>
+            {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {u.titolo.slice(0, 44)}</option>)}
+          </select>
+          <label className="row small" style={{ gap: 6, cursor: 'pointer' }}>
+            <input type="checkbox" checked={soloDeboli} onChange={(e) => setSoloDeboli(e.target.checked)} /> Solo quelli che sbaglio
+          </label>
+        </>);
+  const filtri = (<div className="stack" style={{ gap: 18 }}>{filtriTipi}<div className="stack" style={{ gap: 10 }}>{filtriUnita}</div></div>);
+  const alfabeto = (<div className="az" style={{ marginLeft: 'auto' }}>
+            {'ABCDEFGHILMNOPQRSTUVZ'.split('').map((l) => (
+              <button key={l} disabled={!lettere.has(l)} onClick={() => document.getElementById(`lettera-${l}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{l}</button>
+            ))}
+          </div>);
+
   let lettera = '';
   return (
     <div className="page fade-in">
@@ -43,28 +69,13 @@ export default function Glossario() {
         <h1 className="title-xl">Glossario</h1>
         {idx.schedeInverse.length > 0 && <a className="btn" href={href('/allena?modo=inverse')}>Schede inverse · {idx.schedeInverse.length} termini</a>}
       </div>
-      <div className="card stack" style={{ gap: 12, marginBottom: 18 }}>
-        <input className="input input-lg" type="search" placeholder="Cerca un termine, anche in latino… (es. imperium, pretore, mancipatio)" value={q} onChange={(e) => setQ(e.target.value)} autoFocus={!matchMedia('(pointer: coarse)').matches} />
-        <div className="row" style={{ gap: 6 }}>
-          <button className={`chip ${tipo === '' ? 'on' : ''}`} onClick={() => setTipo('')}>Tutti</button>
-          {(Object.keys(TIPI_CONCETTO) as TipoConcetto[]).filter((t) => conteggi.has(t)).map((t) => (
-            <button key={t} className={`chip ${tipo === t ? 'on' : ''}`} onClick={() => setTipo(tipo === t ? '' : t)}>{TIPI_CONCETTO[t]} <span className="faint">{conteggi.get(t)}</span></button>
-          ))}
-        </div>
-        <div className="row" style={{ gap: 10 }}>
-          <select className="select" value={unita} onChange={(e) => setUnita(e.target.value)}>
-            <option value="">Tutte le unità</option>
-            {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {u.titolo.slice(0, 44)}</option>)}
-          </select>
-          <label className="row small" style={{ gap: 6, cursor: 'pointer' }}>
-            <input type="checkbox" checked={soloDeboli} onChange={(e) => setSoloDeboli(e.target.checked)} /> Solo quelli che sbaglio
-          </label>
-          <div className="az" style={{ marginLeft: 'auto' }}>
-            {'ABCDEFGHILMNOPQRSTUVZ'.split('').map((l) => (
-              <button key={l} disabled={!lettere.has(l)} onClick={() => document.getElementById(`lettera-${l}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{l}</button>
-            ))}
-          </div>
-        </div>
+      <div className="card stack glossary-search" style={{ gap: 12, marginBottom: 18 }}>
+        <input className="input input-lg" type="search" aria-label="Cerca nel glossario" placeholder="Cerca un termine, anche in latino… (es. imperium, pretore, mancipatio)" value={q} onChange={(e) => setQ(e.target.value)} autoFocus={!matchMedia('(pointer: coarse)').matches} />
+        {compact ? <>
+          <button className="mobile-glossary-filters" onClick={() => setFiltersOpen(true)}><Icon n="filtri" size={18} />Filtri{(tipo || unita || soloDeboli) && <span className="mobile-current" />}<span className="faint">{lista.length} voci</span></button>
+          <MobileSheet open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filtra il glossario" className="mobile-glossary-sheet" modal={!inDemo()}>{filtri}<button className="btn btn-primary mobile-map-done" onClick={() => setFiltersOpen(false)}>Mostra {lista.length} voci<Icon n="freccia" size={17} /></button></MobileSheet>
+        </> : <>{filtriTipi}<div className="row" style={{ gap: 10 }}>{filtriUnita}{alfabeto}</div></>}
+        {compact && alfabeto}
       </div>
 
       {lista.length === 0 && <div className="empty">Nessun termine trovato.</div>}

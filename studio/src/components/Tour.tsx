@@ -25,8 +25,8 @@ function attesa(ms: number, signal: AbortSignal) {
 async function trova(selector: string, signal: AbortSignal) {
   for (let i = 0; i < 100; i++) {
     signal.throwIfAborted();
-    const el = document.querySelector<HTMLElement>(selector);
-    if (el && el.getBoundingClientRect().width > 0 && !el.matches(':disabled')) return el;
+    const el = [...document.querySelectorAll<HTMLElement>(selector)].find((n) => n.getBoundingClientRect().width > 0 && !n.matches(':disabled'));
+    if (el) return el;
     await attesa(80, signal);
   }
   throw new Error('Questa parte della pagina non è ancora disponibile.');
@@ -86,7 +86,16 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
       if (cursor.current) cursor.current.style.transform = `translate(${clamp(r.left + Math.min(r.width / 2, 100), 12, innerWidth - 36)}px, ${clamp(r.top + Math.min(r.height / 2, 55), 50, innerHeight - 50)}px)`;
       await attesa(ridotto ? 30 : 600, signal);
     };
-    const clicca = async (selector: string) => {
+    const clicca = async (selector: string): Promise<void> => {
+      const hidden = document.querySelector<HTMLElement>(selector);
+      if (hidden && !hidden.getBoundingClientRect().width) {
+        if (hidden.classList.contains('originali-colore')) await clicca('.lettura-colore-attivo');
+        else if (hidden.matches('[aria-label="Ripristina modifica ai segni"]')) {
+          await clicca('[aria-label="Fonti e scorciatoie"]');
+          await clicca('[data-mobile-redo]');
+          await clicca('[aria-label="Chiudi pannello"]'); return;
+        }
+      }
       const el = await trova(selector, signal);
       await sposta(el); signal.throwIfAborted();
       setPremendo(true); await attesa(ridotto ? 20 : 140, signal);
@@ -118,7 +127,7 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
       if (location.hash !== href(passo.route)) {
         const base = passo.route.split('?')[0].split('/')[1] ?? '';
         const navPath = base === 'lezione' ? '/percorso' : base === 'concetto' ? '/glossario' : `/${base}`;
-        const nav = [...document.querySelectorAll<HTMLElement>(`.side a[href="${href(navPath)}"], .tabbar a[href="${href(navPath)}"]`)].find((el) => el.getBoundingClientRect().width > 0);
+        const nav = [...document.querySelectorAll<HTMLElement>(`.side a[href="${href(navPath)}"], .tabbar a[href="${href(navPath)}"], .mobile-tabs a[href="${href(navPath)}"]`)].find((el) => el.getBoundingClientRect().width > 0);
         if (nav) { await sposta(nav); signal.throwIfAborted(); setPremendo(true); await attesa(140, signal); if (inDemo()) nav.click(); setPremendo(false); }
         vai(passo.route);
       }
@@ -138,6 +147,10 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
           });
         }
       }
+      // I comandi della mappa vivono in un foglio sui dispositivi touch.
+      // Nel tour il foglio è non modale, così la guida può mostrarne i comandi.
+      if (passo.target === '.map-tools' && document.querySelector('.mobile-map-filters') && !document.querySelector('.mobile-map-sheet')) await clicca('.mobile-map-filters');
+      else if (passo.target !== '.map-tools' && document.querySelector('.mobile-map-sheet')) await clicca('[aria-label="Chiudi strumenti mappa"]');
       const unaVolta = ['evidenzia', 'sottolinea', 'statistiche'].includes(passo.id);
       if (!unaVolta || !azioniFatte.current.has(passo.id)) {
         for (const a of passo.azioni ?? []) {
@@ -182,7 +195,11 @@ export default function Tour({ idx, onClose }: { idx: Indice; onClose: (to?: str
             else if (r.left > bw + 32) { bx = r.left - bw - 22; by = r.top; }
             else if (innerHeight - r.bottom > bh + 30) { bx = r.left; by = r.bottom + 20; }
             else if (r.top > bh + 30) { bx = r.left; by = r.top - bh - 20; }
-          } else { bx = 12; by = innerHeight - bh - 12; }
+          } else {
+            bx = 12; by = innerHeight - bh - 12;
+            const sheet = el?.closest('.mobile-sheet')?.getBoundingClientRect();
+            if (sheet) by = Math.max(50, sheet.top - bh - 12);
+          }
           const p = { x: clamp(bx, 12, innerWidth - bw - 12), y: clamp(by, 12, innerHeight - bh - 12) };
           setPos((old) => Math.abs(old.x - p.x) < 1 && Math.abs(old.y - p.y) < 1 ? old : p);
         }

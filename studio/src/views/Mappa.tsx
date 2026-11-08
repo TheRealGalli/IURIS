@@ -6,6 +6,8 @@ import { livello, padronanza } from '../lib/srs';
 import { useProgresso } from '../lib/store';
 import { TIPI_CONCETTO, TIPO_SINGOLARE, VERBO_RELAZIONE, type NodoMappa, type TipoConcetto } from '../lib/types';
 import { Icon, LivelloDot } from '../components/ui';
+import MapTools from '../components/MapTools';
+import { useCompact } from '../components/MobileSheet';
 import { useZoom } from '../lib/zoom';
 import { graphLabelLines, graphNodeRadius, graphTextWidth, GRAPH_LABEL_LINE } from '../lib/graph-geometry.mjs';
 import { placeGraphLabels } from '../lib/graph-labels.mjs';
@@ -20,15 +22,15 @@ export default function Mappa({ query }: { query: URLSearchParams }) {
   const sel = query.get('c');
 
   return (
-    <div className="page fade-in" style={{ maxWidth: 1400 }}>
-      <div className="row-between" style={{ marginBottom: 14 }}>
-        <div>
+    <div className={`page fade-in map-page${personale ? " map-page-personale" : ""}`} style={{ maxWidth: 1400 }}>
+      <div className="row-between map-page-header" style={{ marginBottom: 14 }}>
+        <div className="map-page-title">
           <div className="eyebrow">Mappa</div>
           <h1 className="title-l" style={{ marginTop: 4 }}>{personale ? 'Mappa personale' : grafo ? 'La costellazione dei concetti' : 'Mappa mentale'}</h1>
         </div>
-        <div className="row" style={{ gap: 6 }}>
+        <div className="row map-switch" style={{ gap: 6 }}>
           <a className={`chip ${!grafo && !personale ? 'on' : ''}`} href={href(`/mappa?u=${uid}`)} style={{ textDecoration: 'none', padding: '6px 14px' }}>Per unità</a>
-          <a className={`chip ${grafo && !personale ? 'on' : ''}`} href={href('/mappa?grafo=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Tutti i collegamenti</a>
+          <a className={`chip ${grafo && !personale ? 'on' : ''}`} href={href('/mappa?grafo=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}><span className="map-tab-long">Tutti i collegamenti</span><span className="map-tab-short">Collegamenti</span></a>
           <a className={`chip ${personale ? 'on' : ''}`} href={href('/mappa?personale=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Personale</a>
         </div>
       </div>
@@ -125,7 +127,8 @@ function MindMap({ uid }: { uid: string }) {
   const [sel, setSel] = useState<string | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const gRef = useRef<SVGGElement>(null);
-  const { fit } = useZoomSvg(svgRef, gRef);
+  const { fit, zoomBy } = useZoomSvg(svgRef, gRef);
+  const compact = useCompact();
 
   useEffect(() => {
     // unità grandi: si parte con i rami di 3° livello chiusi
@@ -152,8 +155,10 @@ function MindMap({ uid }: { uid: string }) {
     return { nodi, links: root.links(), bbox: { x: 0, y: minY, w: maxX, h: maxY - minY }, byKey: new Map(nodi.map((n) => [n.d.data._k, n])) };
   }, [radice, chiusi]);
 
+  const latestLayout = useRef(layout); latestLayout.current = layout;
+
   // si adatta allo schermo solo al cambio di unità (aprire un ramo non sposta la vista)
-  useEffect(() => { const t = setTimeout(() => fit(layout.bbox, 30, 1.1, 0.62), 60); return () => clearTimeout(t); }, [u.id]);
+  useEffect(() => { const t = setTimeout(() => fit(compact ? latestLayout.current.bbox : layout.bbox, 30, 1.1, compact ? .9 : .62), 60); return () => clearTimeout(t); }, [u.id, compact]);
 
   // Ogni nodo riflette il proprio concetto e i suoi figli, con la stessa logica delle statistiche.
   const domandeNodi = useMemo(() => domandeNodiMappa(radice, idx.domandePerConcetto), [radice, idx]);
@@ -161,16 +166,21 @@ function MindMap({ uid }: { uid: string }) {
   const espandiTutto = () => setChiusi(new Set());
   const chiudiTutto = () => { const s = new Set<string>(); const w = (n: NodoK, d: number) => { if (d >= 1 && n.figli?.length) s.add(n._k); n.figli?.forEach((f) => w(f, d + 1)); }; w(radice, 0); setChiusi(s); };
 
+  const legend = <>
+        <span className="row" style={{ gap: 5 }}><span className="dot lv-forte" /> lo sai</span>
+        <span className="row" style={{ gap: 5 }}><span className="dot lv-medio" /> così così</span>
+        <span className="row" style={{ gap: 5 }}><span className="dot lv-debole" /> da ripassare</span>
+        <span className="row faint" style={{ gap: 5 }}><span className="dot lv-ignoto" /> mai verificato</span></>;
   return (
     <div className="map-shell" {...riquadro}>
-      <div className="map-tools">
+      <MapTools legend={legend} onFit={() => fit(layout.bbox, 30, 1.1, .3)} onZoom={zoomBy}>
         <select className="select" value={u.id} onChange={(e) => vai(`/mappa?u=${e.target.value}`)} style={{ maxWidth: 360 }}>
           {idx.corso.unita.map((x) => <option key={x.id} value={x.id}>{x.ordine}. {x.titolo}</option>)}
         </select>
-        <button className="btn btn-sm" onClick={espandiTutto}>Apri tutto</button>
+        <button data-tour="apri-mappa" className="btn btn-sm" onClick={espandiTutto}>Apri tutto</button>
         <button className="btn btn-sm" onClick={chiudiTutto}>Chiudi tutto</button>
         <button className="btn btn-sm" onClick={() => fit(layout.bbox, 30, 1.1, 0.3)} aria-label="Adatta"><Icon n="espandi" size={15} /></button>
-      </div>
+      </MapTools>
       <svg ref={svgRef}>
         <g ref={gRef}>
           {layout.links.map((l, i) => {
@@ -209,12 +219,7 @@ function MindMap({ uid }: { uid: string }) {
           })}
         </g>
       </svg>
-      <div className="map-legend">
-        <span className="row" style={{ gap: 5 }}><span className="dot lv-forte" /> lo sai</span>
-        <span className="row" style={{ gap: 5 }}><span className="dot lv-medio" /> così così</span>
-        <span className="row" style={{ gap: 5 }}><span className="dot lv-debole" /> da ripassare</span>
-        <span className="row faint" style={{ gap: 5 }}><span className="dot lv-ignoto" /> mai verificato</span>
-      </div>
+      <div className="map-legend">{legend}</div>
       {sel && <PannelloConcetto id={sel} onClose={() => setSel(null)} onFocus={(c) => vai(`/mappa?grafo=1&c=${c}`)} />}
     </div>
   );
@@ -403,13 +408,22 @@ function Grafo({ focus }: { focus: string | null }) {
   }, [attivo, strato, colora, livelli]);
   const tipiPresenti = [...new Set(idx.corso.concetti.map((c) => c.tipo))];
 
+  const legend = <>
+          <span className="faint">{nodi.length} concetti · {links.length} collegamenti</span>
+          {colora === 'padronanza' ? (
+            <>
+              <span className="row" style={{ gap: 5 }}><span className="dot lv-forte" /> lo sai</span>
+              <span className="row" style={{ gap: 5 }}><span className="dot lv-medio" /> così così</span>
+              <span className="row" style={{ gap: 5 }}><span className="dot lv-debole" /> da ripassare</span>
+            </>
+          ) : tipiPresenti.slice(0, 7).map((t) => <span key={t} className="row" style={{ gap: 5 }}><span className="dot" style={{ background: COLORI_TIPO[t] }} /> {TIPI_CONCETTO[t]}</span>)}</>;
   return (
     <div className="map-shell graph-shell" {...riquadro} data-mode={attivo ? 'collegamenti' : 'mappa'} onKeyDown={(e) => {
       if (e.key === 'Escape') { e.stopPropagation(); if (cerca) setCerca(''); else esci(); }
     }}>
-      <div className="map-tools">
+      <MapTools legend={legend} onFit={() => fit(bbox, 40, 1)} onZoom={zoomBy}>
         <div style={{ position: 'relative' }}>
-          <input className="input" placeholder="Trova un concetto…" value={cerca} onChange={(e) => setCerca(e.target.value)} style={{ width: 210 }} />
+          <input className="input" aria-label="Cerca un concetto" placeholder="Trova un concetto…" value={cerca} onChange={(e) => setCerca(e.target.value)} style={{ width: 210 }} />
           {risultati.length > 0 && (
             <div className="card" style={{ position: 'absolute', top: 44, left: 0, width: 260, padding: 6, zIndex: 5 }}>
               {risultati.map((n) => (
@@ -433,7 +447,7 @@ function Grafo({ focus }: { focus: string | null }) {
           <button className="btn btn-sm" onClick={() => zoomBy(1.35)} aria-label="Aumenta zoom">+</button>
           <button className="btn btn-sm" onClick={vistaLeggibile}>Leggi i nomi</button>
         </div>
-      </div>
+      </MapTools>
       {nodi.length === 0 && <div className="graph-empty" role="status">Nessun concetto con questi filtri.</div>}
       <svg ref={svgRef} data-zoom="1" onClick={(e) => {
         const nodo = (e.target as Element).closest<SVGGElement>('[data-concept]');
@@ -466,16 +480,7 @@ function Grafo({ focus }: { focus: string | null }) {
             </span>
           </> : <span className="muted">Clicca un punto per esplorare i suoi collegamenti.</span>}
         </div>
-        <div className="map-legend">
-          <span className="faint">{nodi.length} concetti · {links.length} collegamenti</span>
-          {colora === 'padronanza' ? (
-            <>
-              <span className="row" style={{ gap: 5 }}><span className="dot lv-forte" /> lo sai</span>
-              <span className="row" style={{ gap: 5 }}><span className="dot lv-medio" /> così così</span>
-              <span className="row" style={{ gap: 5 }}><span className="dot lv-debole" /> da ripassare</span>
-            </>
-          ) : tipiPresenti.slice(0, 7).map((t) => <span key={t} className="row" style={{ gap: 5 }}><span className="dot" style={{ background: COLORI_TIPO[t] }} /> {TIPI_CONCETTO[t]}</span>)}
-        </div>
+        <div className="map-legend">{legend}</div>
       </div>
       {attivo && dettaglio && <PannelloConcetto id={attivo} onClose={() => setDettaglio(false)} onFocus={(c) => {
         if (!byId.has(c)) { setUnita(''); setTipo(''); }

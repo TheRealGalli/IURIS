@@ -1,3 +1,5 @@
+import MobileSheet, { useCompact } from '../components/MobileSheet';
+import { inDemo } from '../lib/archivio';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useCorso } from '../lib/data';
 import { href } from '../lib/router';
@@ -73,6 +75,8 @@ function costruisciScala(A: number[], X: number[], vuoti: number[]) {
 }
 
 export default function Cronologia({ query }: { query: URLSearchParams }) {
+  const compact = useCompact();
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const idx = useCorso();
   const [filtro, setFiltro] = useState<string[]>([]);
   const [unita, setUnita] = useState('');
@@ -171,12 +175,7 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
   const tipiPresenti = [...new Set(idx.corso.eventi.map((e) => e.tipo).filter((t) => t !== 'periodo'))];
   const altezza = CORSIA0 + Math.max(1, corsie) * CORSIA_H + 4;
 
-  return (
-    <div className="page-narrow fade-in">
-      <div className="eyebrow">{eventi.length} eventi{periodi.length ? ` · ${periodi.length} periodi` : ''}</div>
-      <h1 className="title-xl" style={{ margin: '6px 0 16px' }}>Cronologia</h1>
-
-      <div className="tl-bar">
+  const timeline = (<><div className="tl-bar">
         {periodi.map((p, i) => (
           <button key={p.id} className="chip" onClick={() => vaiAnno(p.anno)} title={p.data}>
             <span className="dot" style={{ background: COLORI_PERIODO[i % COLORI_PERIODO.length], border: '1px solid var(--line-2)' }} />
@@ -242,9 +241,8 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
             ))}
           </div>
         </div>
-      </div>
-
-      <div className="row" style={{ gap: 6, marginBottom: 6 }}>
+      </div></>);
+  const filters = (<div className="row" style={{ gap: 6, marginBottom: 6 }}>
         {tipiPresenti.map((t) => (
           <button key={t} className={`chip ${filtro.includes(t) ? 'on' : ''}`} onClick={() => setFiltro((f) => (f.includes(t) ? f.filter((x) => x !== t) : [...f, t]))}>
             <span className="dot" style={{ background: COLORE_TIPO[t] ?? 'var(--ink-3)' }} /> {TIPI[t] ?? t}
@@ -254,7 +252,18 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
           <option value="">Tutte le unità</option>
           {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {u.titolo.slice(0, 36)}</option>)}
         </select>
-      </div>
+      </div>);
+
+  return (
+    <div className="page-narrow fade-in">
+      <div className="eyebrow">{eventi.length} eventi{periodi.length ? ` · ${periodi.length} periodi` : ''}</div>
+      <h1 className="title-xl" style={{ margin: '6px 0 16px' }}>Cronologia</h1>
+
+      {compact ? <details className="mobile-timeline"><summary><Icon n="cronologia" size={19} /><span>Esplora la linea del tempo<small>Scorri tra le epoche e gli eventi</small></span><Icon n="giu" size={16} /></summary>{timeline}</details> : timeline}
+      {compact ? <>
+        <button className="mobile-glossary-filters mobile-timeline-filter" onClick={() => setFiltersOpen(true)}><Icon n="filtri" size={18} />Filtra eventi<span className="faint">{eventi.length} eventi</span></button>
+        <MobileSheet open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filtra la cronologia" className="mobile-timeline-sheet" modal={!inDemo()}>{filters}<button className="btn btn-primary mobile-map-done" onClick={() => setFiltersOpen(false)}>Mostra gli eventi<Icon n="freccia" size={17} /></button></MobileSheet>
+      </> : filters}
       <div className="row" style={{ marginBottom: 8 }}>
         <a className="btn btn-sm" href={href('/allena?modo=cronologia')}><Icon n="allena" size={15} /> Allenati con la sfida cronologica</a>
       </div>

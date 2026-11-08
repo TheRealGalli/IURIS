@@ -8,6 +8,8 @@ import { Icon } from './components/ui';
 import { CORSI, corsoDi, corsoDisponibile, descriviCorso, linkMateriale, materieDelCorso, type CorsoDiStudio } from './data/corsi';
 import IurisMascot from './components/IurisMascot';
 import Palette from './components/Palette';
+import { MobileHeader, MobileMenu, MobileTabs } from './components/MobileChrome';
+import { MobileNavigation, useCompact } from './components/MobileSheet';
 import Oggi from './views/Oggi';
 import Percorso from './views/Percorso';
 import LezioneView from './views/Lezione';
@@ -71,6 +73,10 @@ export default function App() {
 function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; materie: MateriaInfo[]; corso: CorsoDiStudio; materia: MateriaInfo }) {
   const rotta = useRotta();
   const lettore = rotta.parti[0] === 'originali';
+  const mappa = rotta.parti[0] === 'mappa';
+  const compact = useCompact();
+  const [mobilePanel, setMobilePanel] = useState<'menu' | 'study' | null>(null);
+  useEffect(() => setMobilePanel(null), [rotta.hash]);
   const [idx, setIdx] = useState<Indice | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [palette, setPalette] = useState(false);
@@ -122,7 +128,7 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
   else contenuto = <Suspense fallback={<div className="empty faint" role="status">Apertura…</div>}><Rotte /></Suspense>;
 
   const body = (
-    <div className={`shell${lettore ? ' shell-reader' : ''}${demo ? ' shell-tour' : ''}`} aria-hidden={demo || undefined}>
+    <div className={`shell${lettore ? ' shell-reader' : ''}${demo ? ' shell-tour' : ''}${compact ? ' shell-mobile' : ''}${compact && mappa ? ' shell-map' : ''}`} aria-hidden={demo || undefined}>
       <aside className="side">
         <a className="brand" href={href('/')}>
           <span className="brand-mark">I</span>
@@ -161,8 +167,9 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
         </div>
       </aside>
 
-      <div className={lettore ? 'shell-reader-content' : undefined} style={{ flex: 1, minWidth: 0 }}>
-        <header className="topbar">
+      <div className={lettore ? 'shell-reader-content' : compact && mappa ? 'shell-map-content' : undefined} style={{ flex: 1, minWidth: 0 }}>
+        {compact && !lettore && <MobileHeader corso={corso} materia={materia} workspace={mappa} onStudy={() => setMobilePanel('study')} onMenu={() => setMobilePanel('menu')} onSearch={() => setPalette(true)} />}
+        <header className={`topbar${compact ? ' legacy-topbar' : ''}`}>
           <span className="brand-mark" style={{ width: 28, height: 28, fontSize: 15 }}>I</span>
           <span className="brand-name">IURIS</span>
           {idx && <button className="btn btn-sm btn-ghost" onClick={() => setPalette(true)} aria-label="Cerca"><Icon n="cerca" /></button>}
@@ -173,12 +180,13 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
         </header>
         <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
       </div>
-      <TabBar />
+      {compact ? !lettore && !mappa && <MobileTabs items={NAV} section={sezioneAttiva(rotta.parti)} onMenu={() => setMobilePanel('menu')} /> : <TabBar />}
+      {compact && <MobileMenu panel={mobilePanel} onClose={() => setMobilePanel(null)} onStudy={() => setMobilePanel('study')} corso={corso} materie={materie} materia={materia} items={NAV} section={sezioneAttiva(rotta.parti)} onMateria={scegliMateria} />}
       {faseDemo === 'running' && idx && <Suspense fallback={null}><Tour idx={idx} onClose={chiudiDemo} /></Suspense>}
       {palette && idx && <Palette onClose={() => setPalette(false)} />}
     </div>
   );
-  return idx ? <CorsoContext.Provider value={idx}>{body}</CorsoContext.Provider> : body;
+  return <MobileNavigation.Provider value={{ openMenu: () => setMobilePanel('menu') }}>{idx ? <CorsoContext.Provider value={idx}>{body}</CorsoContext.Provider> : body}</MobileNavigation.Provider>;
 }
 
 /** Invito a mandare sbobine o materiale su WhatsApp, con il corso scelto già scritto nel messaggio. */

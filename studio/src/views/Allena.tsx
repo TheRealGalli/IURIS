@@ -1,4 +1,4 @@
-import { archivio } from '../lib/archivio';
+import { archivio, inDemo } from '../lib/archivio';
 import { useEffect, useMemo, useState } from 'react';
 import { useCorso, type Indice } from '../lib/data';
 import { href, vai } from '../lib/router';
@@ -7,6 +7,7 @@ import { DOMANDE_VERIFICA_INIZIALE, useProgresso, type Progresso } from '../lib/
 import { TIPI_DOMANDA, type Domanda, type TipoDomanda } from '../lib/types';
 import { plurale, shuffle } from '../lib/util';
 import { Bar, Icon } from '../components/ui';
+import MobileSheet, { useCompact } from '../components/MobileSheet';
 import DomandaView from './Domande';
 
 type Modo = 'ripasso' | 'libero' | 'deboli' | 'orale' | 'cronologia' | 'inverse';
@@ -129,6 +130,8 @@ export function sessioneRipasso(idx: Indice, p: Progresso, now = new Date()): Se
 }
 
 function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale: Modo }) {
+  const compact = useCompact();
+  const [chooserOpen, setChooserOpen] = useState(false), [filtersOpen, setFiltersOpen] = useState(false);
   const idx = useCorso();
   const p = useProgresso(idx.corso.materia.slug);
   const [modo, setModo] = useState<Modo>(MODI.some((m) => m.k === iniziale) ? iniziale : 'ripasso');
@@ -163,24 +166,18 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
   const pronto = disponibili > 0;
   const toggle = <T,>(arr: T[], v: T) => (arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v]);
 
-  return (
-    <div className="page-narrow fade-in">
-      <div className="eyebrow">{plurale(idx.corso.domande.length, 'domanda', 'domande')} di lezione · {idx.domandeGlossario.length} schede glossario · {idx.domandeCronologia.length} esercizi di cronologia</div>
-      <h1 className="title-xl" style={{ margin: '6px 0 20px' }}>Allenamento</h1>
-
-      <div className="grid g2" style={{ marginBottom: 20 }}>
+  const scelto = MODI.find((m) => m.k === modo)!;
+  const modes = (<div className="grid g2" style={{ marginBottom: 20 }}>
         {MODI.filter((m) => m.k !== 'inverse' || idx.schedeInverse.length > 0).map((m) => (
-          <button key={m.k} className={`setup-opt ${modo === m.k ? 'on' : ''}`} onClick={() => setModo(m.k)}>
+          <button key={m.k} className={`setup-opt ${modo === m.k ? 'on' : ''}`} onClick={() => { setModo(m.k); setChooserOpen(false); }}>
             <span className="row" style={{ gap: 8 }}><Icon n={m.icon} /> <b>{m.t}</b>
               {m.k === 'ripasso' && nRip > 0 && <span className="chip chip-accent" style={{ marginLeft: 'auto' }}>{nRip}</span>}
             </span>
             <span className="muted small">{m.d}</span>
           </button>
         ))}
-      </div>
-
-      {modo !== 'ripasso' && (
-        <div className="card stack" style={{ gap: 16 }}>
+      </div>);
+  const filters = (<div className="card stack" style={{ gap: 16 }}>
           <div>
             <div className="eyebrow" style={{ marginBottom: 8 }}>Unità {unita.length === 0 && <span className="faint">(tutte)</span>}</div>
             <div className="row" style={{ gap: 6 }}>
@@ -207,21 +204,38 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
               {[10, 20, 40, 80].map((x) => <button key={x} className={`chip ${n === x ? 'on' : ''}`} onClick={() => setN(x)}>{x}</button>)}
             </div>
           </div>
-        </div>
-      )}
-
-      {modo === 'ripasso' && (
-        <div className="card-flat small" style={{ marginBottom: 16 }}>
+        </div>);
+  const spiegazioneRipasso = (<>
           <b>{p.nuovePerGiorno} nuove al giorno per questa materia.</b> I ripassi in scadenza si aggiungono senza questo limite.
           <div className="muted" style={{ marginTop: 5 }}>Il limite è condiviso fra domande delle lezioni, glossario e cronologia: si attivano con gli argomenti studiati.</div>
           <div className="muted" style={{ marginTop: 5 }}>Ogni lezione appena studiata può aggiungere fino a {DOMANDE_VERIFICA_INIZIALE} domande di verifica, proposte per prime anche a limite raggiunto.
             {rip.extraNuove > 0 && ` Oggi ce ne sono ${rip.extraNuove} in più.`}
           </div>
           {rip.inAttesa > 0 && <div className="muted" style={{ marginTop: 5 }}>{rip.inAttesa} nuove restano da introdurre nei prossimi giorni. Puoi anticiparle con «Quiz libero» o «Quiz su questa lezione».</div>}
-        </div>
+        </>);
+  const ripassoInfo = (<div className="card-flat small" style={{ marginBottom: 16 }}>{spiegazioneRipasso}</div>);
+
+  return (
+    <div className="page-narrow fade-in">
+      <div className="eyebrow">{plurale(idx.corso.domande.length, 'domanda', 'domande')} di lezione · {idx.domandeGlossario.length} schede glossario · {idx.domandeCronologia.length} esercizi di cronologia</div>
+      <h1 className="title-xl" style={{ margin: '6px 0 20px' }}>Allenamento</h1>
+
+      {compact ? <>
+        <button className="mobile-training-choice" onClick={() => setChooserOpen(true)}><Icon n={scelto.icon} size={23} /><span><small>Come vuoi allenarti?</small><strong>{scelto.t}</strong></span><Icon n="giu" size={17} /></button>
+        <p className="muted small mobile-training-description">{scelto.d}</p>
+        <MobileSheet open={chooserOpen} onClose={() => setChooserOpen(false)} title="Scegli l’allenamento" className="mobile-training-sheet" modal={!inDemo()}>{modes}</MobileSheet>
+      </> : modes}
+
+      {modo !== 'ripasso' && (compact ? <>
+        <button className="mobile-training-filters" onClick={() => setFiltersOpen(true)}><Icon n="filtri" size={19} /><span><strong>Personalizza il quiz</strong><small>{unita.length ? `${unita.length} unità` : 'Tutte le unità'} · {Math.min(n, disponibili)} domande</small></span><Icon n="freccia" size={17} /></button>
+        <MobileSheet open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Personalizza il quiz" className="mobile-training-sheet" modal={!inDemo()}>{filters}<button className="btn btn-primary mobile-map-done" onClick={() => setFiltersOpen(false)}>Fatto<Icon n="check" size={17} /></button></MobileSheet>
+      </> : filters)}
+
+      {modo === 'ripasso' && (
+        compact ? <details className="mobile-review-info"><summary>Come funziona il ripasso<Icon n="giu" size={15} /></summary><div>{spiegazioneRipasso}</div></details> : ripassoInfo
       )}
 
-      <div className="row-between" style={{ marginTop: 20 }}>
+      <div className="row-between training-start" style={{ marginTop: 20 }}>
         <span className="muted small">
           {modo === 'ripasso' && (nRip ? `${rip.scadute.length} da ripassare · ${rip.nuove.length} nuove${rip.extraNuove ? ` (${rip.extraNuove} di verifica oltre il limite)` : ''}` : rip.inAttesa ? 'Limite delle nuove raggiunto per oggi. Le altre rimangono in attesa.' : 'Niente in scadenza: segna come studiata una lezione per far entrare le sue domande.')}
           {modo === 'deboli' && (pool.length ? `${pool.length} domande deboli` : 'Ancora nessuna domanda debole: prima rispondi a qualche quiz.')}

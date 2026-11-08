@@ -32,11 +32,11 @@ await new Promise((r) => server.listen(0, '127.0.0.1', r));
 const BASE = `http://127.0.0.1:${server.address().port}/`;
 
 const DISPOSITIVI = [
-  ['webkit', 'iPhone SE'], ['webkit', 'iPhone SE (3rd gen)'], ['webkit', 'iPhone 15 Pro'],
+  ['webkit', 'iPhone SE'], ['webkit', 'iPhone SE (3rd gen)'], ['webkit', 'iPhone 15 Pro'], ['webkit', 'iPhone 16'],
   ['webkit', 'iPad Mini'], ['webkit', 'iPad Mini landscape'], ['webkit', 'iPad Pro 11'], ['webkit', 'iPad Pro 11 landscape'],
   ['chromium', 'Pixel 7'], ['chromium', 'iPhone SE'], ['chromium', 'iPad Mini'],
 ].filter(([, d]) => devices[d]);
-const ROTTE = ['/', '/percorso', '/lezione/u01-l1', '/originali', '/allena', '/mappa', '/cronologia', '/glossario', '/concetto/ab-urbe-condita', '/progressi', '/backup', '/altro'];
+const ROTTE = ['/', '/percorso', '/lezione/u01-l1', '/originali', '/allena', '/mappa', '/mappa?grafo=1', '/mappa?personale=1', '/cronologia', '/glossario', '/concetto/ab-urbe-condita', '/progressi', '/backup', '/altro'];
 const SOLO = process.env.DISPOSITIVI?.split(',');
 
 const motori = { webkit, chromium };
@@ -63,7 +63,7 @@ function misura(vw) {
     .filter(vis).map((e) => [e, parseFloat(getComputedStyle(e).fontSize)]).filter(([, f]) => f < 16).map(([e, f]) => `${e.tagName.toLowerCase()}.${e.className.split(' ')[0]} ${f}px`);
   // Bersagli: pulsanti e voci di navigazione almeno 40px (44 con l'area estesa), chip cliccabili almeno 36px.
   const piccoli = [];
-  for (const e of document.querySelectorAll('.btn, .tabbar a, .nav a, .materia-btn, .select, .input, .corso-switch, .lettura-attrezzi button')) {
+  for (const e of document.querySelectorAll('.btn, .mobile-header button, .mobile-tabs a, .mobile-tabs button, .mobile-map-dock button, .mobile-menu-grid a, .mobile-subjects button, .tabbar a, .nav a, .materia-btn, .select, .input, .corso-switch, .lettura-attrezzi button')) {
     if (!vis(e)) continue; const r = e.getBoundingClientRect();
     const min = e.matches('.originali-colore') ? 30 : 40;
     if (r.height < min - 0.5 || r.width < min - 0.5) piccoli.push(`${e.tagName.toLowerCase()}.${[...e.classList].slice(0, 2).join('.')} ${Math.round(r.width)}×${Math.round(r.height)} «${(e.textContent || e.getAttribute('aria-label') || '').trim().slice(0, 24)}»`);
@@ -72,7 +72,7 @@ function misura(vw) {
   const visibile = (s) => { const e = document.querySelector(s); return !!e && vis(e); };
   return {
     larghezza: Math.max(document.documentElement.scrollWidth, innerWidth), sbordi: sbordi.slice(0, 5), campi, piccoli: piccoli.slice(0, 6),
-    tabbar: visibile('.tabbar'), side: visibile('.side'), extra: document.querySelectorAll('.tabbar .tab-extra').length && visibile('.tabbar .tab-extra'),
+    tabbar: visibile('.mobile-tabs'), side: visibile('.side'), compact: matchMedia('(max-width: 860px), (max-width: 1280px) and (pointer: coarse)').matches,
   };
 }
 
@@ -80,7 +80,7 @@ const vaiA = async (p, r) => {
   await p.evaluate((h) => { location.hash = h; }, `#${r}`);
   await p.waitForFunction(() => document.querySelector('.main') && !document.querySelector('.main .empty.faint'), null, { timeout: 15000 });
   if (r === '/originali') await p.waitForSelector('[data-lettura-block] p, [data-lettura-block] li', { timeout: 15000 });
-  if (r === '/mappa') await p.waitForSelector('.map-shell, .mg-finestra', { timeout: 15000 });
+  if (r.startsWith('/mappa')) await p.waitForSelector('.map-shell, .mg-finestra, .mg-vuota', { timeout: 15000 });
   await p.waitForTimeout(120);
 };
 
@@ -112,11 +112,23 @@ try {
       if (m.larghezza > vw + 1 || m.sbordi.length) errori.push(`${dove}: sborda in orizzontale (${m.larghezza}px su ${vw}) ${m.sbordi.join(' | ')}`);
       if (m.campi.length) errori.push(`${dove}: campi sotto i 16px (zoom di iOS): ${m.campi.join(', ')}`);
       if (m.piccoli.length) errori.push(`${dove}: bersagli touch troppo piccoli: ${m.piccoli.join(' | ')}`);
-      if (vw <= 860 && (!m.tabbar || m.side)) errori.push(`${dove}: sotto 861px servono la barra in basso e niente barra laterale`);
-      if (vw > 860 && (!m.side || m.tabbar)) errori.push(`${dove}: da 861px serve la barra laterale`);
-      if (vw >= 700 && vw <= 860 && !m.extra) errori.push(`${dove}: su iPad in verticale la barra in basso deve mostrare tutte le sezioni`);
+      const workspace = r.startsWith('/mappa') || r === '/originali';
+      if (m.compact && (m.side || m.tabbar === workspace)) errori.push(`${dove}: navigazione mobile errata (menu compatto, barra nascosta in mappe e lettore)`);
+      if (!m.compact && (!m.side || m.tabbar)) errori.push(`${dove}: desktop senza la barra laterale`);
       controlli += 6;
     }
+
+    // Corso e materia non sono più sepolti in Altro: accesso immediato dall'intestazione.
+    await vaiA(p, '/');
+    await p.tap('button[aria-label="Scegli corso e materia"]');
+    await p.waitForSelector('.mobile-navigation-sheet');
+    if (!(await p.isVisible('.mobile-navigation-sheet select[aria-label="Corso di studio"]')) || await p.locator('.mobile-subjects button[aria-pressed]').count() < 2) errori.push(`${etichetta}: corso o materie non raggiungibili dall'intestazione`);
+    await p.tap('button[aria-label="Chiudi corso e materie"]');
+    await p.locator('.mobile-header button[aria-label="Apri menu"]').tap();
+    if (await p.locator('.mobile-menu-grid a').count() !== 8 || !(await p.isVisible('.mobile-menu-utilities a[href="#/backup"]'))) errori.push(`${etichetta}: nel menu mancano sezioni o backup`);
+    await p.tap('.mobile-menu-grid a[href="#/originali"]');
+    await p.waitForSelector('[data-lettura-block]');
+    controlli += 2;
 
     // Segnare col dito: selezione nativa, poi «Salva» nella barra degli strumenti.
     await vaiA(p, '/originali');
@@ -132,10 +144,10 @@ try {
     controlli += 3;
 
     // Barra degli strumenti: sotto i 861px fluttua in basso, sopra la barra delle sezioni e dentro lo schermo.
-    if (vw <= 860) {
+    if (await p.locator('.shell-mobile').count()) {
       const barra = await p.evaluate(() => {
-        const a = document.querySelector('.lettura-attrezzi').getBoundingClientRect(), t = document.querySelector('.tabbar').getBoundingClientRect();
-        return { sopra: a.bottom <= t.top + 1, dentro: a.left >= 0 && a.right <= innerWidth, fissa: getComputedStyle(document.querySelector('.lettura-attrezzi')).position === 'fixed' };
+        const a = document.querySelector('.lettura-attrezzi').getBoundingClientRect();
+        return { sopra: a.bottom <= innerHeight, dentro: a.left >= 0 && a.right <= innerWidth, fissa: getComputedStyle(document.querySelector('.lettura-attrezzi')).position === 'fixed' };
       });
       if (!barra.fissa || !barra.sopra || !barra.dentro) errori.push(`${etichetta}: barra degli strumenti fuori posto ${JSON.stringify(barra)}`);
       controlli++;
@@ -149,7 +161,7 @@ try {
       controlli++;
     }
     // Pannelli secondari: foglio dal basso, con la barra degli strumenti nascosta.
-    if (vw <= 860) {
+    if (await p.locator('.shell-mobile').count()) {
       await p.tap('button[aria-label^="Segni salvati"]');
       await p.waitForSelector('.lettura-pannello'); await p.waitForTimeout(350); // fine dell'animazione del foglio
       const foglio = await p.evaluate(() => {
@@ -187,6 +199,48 @@ try {
     if (mappa.touch !== 'none' || !mappa.dentro || !mappa.alta) errori.push(`${etichetta}: mappa non adatta al touch ${JSON.stringify(mappa)}`);
     controlli++;
 
+    for (const r of ['/mappa', '/mappa?grafo=1']) {
+      await vaiA(p, r);
+      const spazio = await p.evaluate(() => {
+        const r = document.querySelector('.map-shell > svg').getBoundingClientRect();
+        return { ratio: r.height / innerHeight, coperta: !!document.querySelector('.map-tools'), dock: !!document.querySelector('.mobile-map-dock') };
+      });
+      if (spazio.ratio < .60 || spazio.coperta || !spazio.dock) errori.push(`${etichetta} ${r}: mappa coperta dai comandi ${JSON.stringify(spazio)}`);
+      await p.tap('.mobile-map-filters');
+      await p.waitForSelector('.mobile-map-sheet');
+      const m = await p.evaluate(misura, vw);
+      if (m.sbordi.length || m.campi.length || m.piccoli.length) errori.push(`${etichetta}: strumenti mappa non adatti al touch ${JSON.stringify(m)}`);
+      await p.tap('button[aria-label="Chiudi strumenti mappa"]');
+      controlli += 2;
+    }
+    await vaiA(p, '/mappa?personale=1');
+    await p.waitForSelector('.mobile-geo-toolbar');
+    if (!(await p.isVisible('.mg-schema'))) errori.push(`${etichetta}: la mappa personale deve aprirsi nello schema leggibile`);
+    await p.tap('button[aria-label="Visualizza mappa personale"]');
+    await p.waitForSelector('.mobile-geo-sheet');
+    await p.tap('button[aria-label="Chiudi mappa personale"]');
+    controlli++;
+
+    // Quiz: scelta modalità e opzioni in due fogli, senza lunghe griglie iniziali.
+    await vaiA(p, '/allena');
+    await p.tap('.mobile-training-choice');
+    await p.locator('.mobile-training-sheet .setup-opt').filter({ hasText: 'Quiz libero' }).tap();
+    await p.tap('.mobile-training-filters');
+    await p.waitForSelector('.mobile-training-sheet');
+    await p.locator('.mobile-training-sheet .chip').filter({ hasText: /^10$/ }).tap();
+    await p.locator('.mobile-training-sheet .mobile-map-done').tap();
+    if (!/10 domande/.test(await p.textContent('.mobile-training-filters'))) errori.push(`${etichetta}: quantità del quiz non aggiornata`);
+    controlli++;
+
+    // Glossario: ricerca e filtri funzionano senza coprire l'elenco di termini.
+    await vaiA(p, '/glossario');
+    await p.fill('input[aria-label="Cerca nel glossario"]', 'imperium');
+    if (!(await p.locator('.term').count())) errori.push(`${etichetta}: ricerca glossario senza risultati`);
+    await p.tap('.mobile-glossary-filters');
+    await p.waitForSelector('.mobile-glossary-sheet');
+    await p.tap('.mobile-glossary-sheet .mobile-map-done');
+    controlli++;
+
     // Altro: corso e invito WhatsApp raggiungibili anche senza barra laterale.
     await vaiA(p, '/altro');
     if (!(await p.isVisible('.corso-switch-pagina')) || !(await p.isVisible('.invia-materiale-pagina'))) errori.push(`${etichetta}: in Altro mancano il corso o l'invito WhatsApp`);
@@ -195,13 +249,14 @@ try {
     if (pagina.length) errori.push(`${etichetta}: errori in pagina: ${[...new Set(pagina)].slice(0, 3).join(' | ')}`);
     controlli++;
     await ctx.close();
+    console.log(`Verificato ${etichetta}`);
   }
 
   // Movimento ridotto: transizioni e animazioni azzerate.
   const b = await avvia('webkit');
   const ctx = await b.newContext({ ...devices['iPhone 15 Pro'], reducedMotion: 'reduce', serviceWorkers: 'block' });
-  const p = await ctx.newPage(); await p.goto(BASE + '#/'); await p.waitForSelector('.btn');
-  const durata = await p.evaluate(() => parseFloat(getComputedStyle(document.querySelector('.btn')).transitionDuration));
+  const p = await ctx.newPage(); await p.goto(BASE + '#/'); await p.waitForSelector('.main .btn');
+  const durata = await p.evaluate(() => parseFloat(getComputedStyle(document.querySelector('.main .btn')).transitionDuration));
   if (!(durata < 0.01)) errori.push(`movimento ridotto non rispettato (transizione ${durata}s)`);
   controlli++;
   await ctx.close();
