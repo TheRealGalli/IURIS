@@ -94,7 +94,7 @@ export default function Oggi() {
             <a className="btn btn-sm btn-ghost" href={href('/percorso')}>Tutto il percorso</a>
           </div>
           {ultima && !p.lezioni[ultima.id]?.studiata && <RigaLezione id={ultima.id} evidenzia />}
-          {piano.oggi.filter((l) => l.id !== ultima?.id).slice(0, 4).map((l) => <RigaLezione key={l.id} id={l.id} />)}
+          {(piano.oggi.length ? piano.oggi : piano.daStudiare).filter((l) => l.id !== ultima?.id).slice(0, 4).map((l) => <RigaLezione key={l.id} id={l.id} />)}
           {piano.daStudiare.length === 0 && <p className="muted">Hai studiato tutte le lezioni. Ora si consolida con il ripasso.</p>}
         </div>
 

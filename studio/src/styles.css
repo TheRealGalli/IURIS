@@ -508,6 +508,30 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 .graph-shell .palette-item { display: block; width: 100%; text-align: left; border: 0; background: none; color: inherit; font: inherit; }
 .graph-shell .palette-item:hover { background: var(--surface-2); }
 .graph-shell .map-tools > select { max-width: 100%; }
+.graph-search { width: 210px; }
+.graph-search > .input { width: 100%; }
+.graph-color-toggle { display: inline-grid; }
+.graph-color-toggle > span { grid-area: 1 / 1; }
+.graph-color-toggle > span[aria-hidden="true"] { visibility: hidden; }
+.graph-read-icon { display: none; }
+/* Sul computer ricerca e filtri cedono spazio prima dei comandi; le due etichette dei colori occupano lo stesso posto. */
+@media (min-width: 1024px) {
+  .graph-shell > .map-tools { flex-wrap: nowrap; align-items: start; gap: 6px; }
+  .graph-shell > .map-tools > .graph-search { flex: 1 1 210px; min-width: 146px; max-width: 260px; }
+  .graph-shell > .map-tools > .graph-unit-filter { flex: 1 1 190px; min-width: 120px; max-width: 280px; }
+  .graph-shell > .map-tools > .graph-type-filter { flex: 0 1 132px; min-width: 96px; }
+  .graph-shell > .map-tools > .btn, .graph-shell > .map-tools > .graph-navigation { flex: none; }
+}
+@media (min-width: 861px) and (max-width: 1200px) and (pointer: fine) {
+  .graph-shell > .map-tools { gap: 4px; }
+  .graph-shell > .map-tools .input, .graph-shell > .map-tools .select { font-size: 12px; padding: 8px; }
+  .graph-shell > .map-tools .select { padding-right: 24px; background-position: right 7px center; }
+  .graph-shell > .map-tools .btn { font-size: 12px; padding: 6px 8px; }
+  .graph-shell > .map-tools .graph-navigation { gap: 3px; }
+  .graph-shell > .map-tools .graph-navigation .btn { min-width: 28px; }
+  .graph-read-icon { display: inline; }
+  .graph-read-label { display: none; }
+}
 .graph-shell .map-legend { right: 12px; }
 .graph-footer { position: absolute; left: 12px; right: 12px; bottom: 12px; display: flex; flex-direction: column; gap: 6px; pointer-events: none; }
 .graph-footer .map-legend { position: static; pointer-events: auto; }

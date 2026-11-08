@@ -467,8 +467,8 @@ function Grafo({ focus }: { focus: string | null }) {
       if (e.key === 'Escape') { e.stopPropagation(); if (cerca) setCerca(''); else esci(); }
     }}>
       <MapTools legend={legend}>
-        <div style={{ position: 'relative' }}>
-          <input className="input" aria-label="Cerca un concetto" placeholder="Trova un concetto…" value={cerca} onChange={(e) => setCerca(e.target.value)} style={{ width: 210 }} />
+        <div className="graph-search" style={{ position: 'relative' }}>
+          <input className="input" aria-label="Cerca un concetto" placeholder="Cerca un concetto…" value={cerca} onChange={(e) => setCerca(e.target.value)} />
           {risultati.length > 0 && (
             <div className="card" style={{ position: 'absolute', top: 44, left: 0, width: 260, padding: 6, zIndex: 5 }}>
               {risultati.map((n) => (
@@ -477,20 +477,23 @@ function Grafo({ focus }: { focus: string | null }) {
             </div>
           )}
         </div>
-        <Campo label="Unità"><select className="select" aria-label="Filtra per unità" value={unita} onChange={(e) => setUnita(e.target.value)}>
+        <Campo label="Unità"><select className="select graph-unit-filter" aria-label="Filtra per unità" value={unita} onChange={(e) => setUnita(e.target.value)}>
           <option value="">Tutte le unità</option>
           {idx.corso.unita.map((u) => <option key={u.id} value={u.id}>{u.ordine}. {compact ? u.titolo : u.titolo.slice(0, 40)}</option>)}
         </select></Campo>
-        <Campo label="Tipo di concetto"><select className="select" aria-label="Filtra per tipo" value={tipo} onChange={(e) => setTipo(e.target.value)}>
+        <Campo label="Tipo di concetto"><select className="select graph-type-filter" aria-label="Filtra per tipo" value={tipo} onChange={(e) => setTipo(e.target.value)}>
           <option value="">Tutti i tipi</option>
           {tipiPresenti.map((t) => <option key={t} value={t}>{TIPI_CONCETTO[t]}</option>)}
         </select></Campo>
-        <button className="btn btn-sm" onClick={() => setColora((c) => (c === 'tipo' ? 'padronanza' : 'tipo'))}>Colori: {colora === 'tipo' ? 'per tipo' : 'per padronanza'}</button>
+        <button className="btn btn-sm graph-color-toggle" aria-label={`Colori: per ${colora}`} onClick={() => setColora((c) => (c === 'tipo' ? 'padronanza' : 'tipo'))}>
+          <span aria-hidden={colora !== 'tipo'}>Colori: per tipo</span>
+          <span aria-hidden={colora !== 'padronanza'}>Colori: per padronanza</span>
+        </button>
         <button className="btn btn-sm" onClick={() => fit(bbox, 40, 1)} aria-label="Adatta" title="Vista d'insieme"><Icon n="espandi" size={15} />{compact && 'Vista d’insieme'}</button>
         <div className="graph-navigation" aria-label="Zoom della mappa">
           <button className="btn btn-sm" onClick={() => zoomBy(1 / 1.35)} aria-label="Riduci zoom">−</button>
           <button className="btn btn-sm" onClick={() => zoomBy(1.35)} aria-label="Aumenta zoom">+</button>
-          <button className="btn btn-sm" onClick={vistaLeggibile}>Leggi i nomi</button>
+          <button className="btn btn-sm" onClick={vistaLeggibile} aria-label="Leggi i nomi" title="Leggi i nomi"><span className="graph-read-icon" aria-hidden="true">Aa</span><span className="graph-read-label">Leggi i nomi</span></button>
         </div>
       </MapTools>
       {nodi.length === 0 && <div className="graph-empty" role="status">Nessun concetto con questi filtri.</div>}
