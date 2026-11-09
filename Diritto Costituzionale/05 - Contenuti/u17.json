@@ -9,7 +9,14 @@
   ],
   "abstract": "Composizione e competenze della Corte; accesso incidentale e principale, decisioni, conflitti e responsabilità costituzionali.",
   "note": "I reati ministeriali oggi li giudica il giudice ordinario, non la Corte costituzionale.",
-  "noteRedazione": ["p. 148: il divieto quinquennale di incarichi successivi è citato dagli appunti come proposta della Bicamerale, non come diritto vigente; tenuto distinto. Art. 135: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-vi/sezione-i/articolo-135 .", "pp. 149–153: corrette ordinanze solo preparatorie, libera riproposizione identica dopo rigetto e confusione fra restituzione degli atti e inammissibilità. Fonti istituzionali: https://www.cortecostituzionale.it/conoscerelacorte/le-decisioni-della-corte.html e https://documenti.camera.it/leg19/dossier/testi/RCost_VI_1.htm .", "p. 151: comune legge regionale impugnata dalla pubblicazione nel BUR; distinti i motivi del ricorso statale e regionale. Il PM può sollecitare il giudice, ma non è ordinariamente autorità rimettente autonoma.", "p. 154: art. 137 della legge 87/1953 è un refuso per art. 37. Distinti conflitti fra poteri e fra enti, e prima ammissibilità rispetto al merito.", "pp. 156–157: ammissibilità referendaria prevista dalla l. cost. 1/1953; i reati ministeriali sono oggi della giurisdizione ordinaria ex art. 96, non della Consulta: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-iii/sezione-i/articolo-96 . Condizioni di diniego ex l. cost. 1/1989, documentazione parlamentare: https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/004bis/001a/intero.htm .", "Confrontate pp. 191–194: PM sollecita il giudice, norma interposta, rapporti pendenti e distinzione dei poteri. A p. 193 il potere del Ministro della giustizia ex art. 107, secondo comma, riguarda l’azione disciplinare, non l’azione penale: il refuso non è riprodotto."],
+  "noteRedazione": [
+    "p. 148: il divieto quinquennale di incarichi successivi è citato dagli appunti come proposta della Bicamerale, non come diritto vigente; tenuto distinto. Art. 135: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-vi/sezione-i/articolo-135 .",
+    "pp. 149–153: corrette ordinanze solo preparatorie, libera riproposizione identica dopo rigetto e confusione fra restituzione degli atti e inammissibilità. Fonti istituzionali: https://www.cortecostituzionale.it/conoscerelacorte/le-decisioni-della-corte.html e https://documenti.camera.it/leg19/dossier/testi/RCost_VI_1.htm .",
+    "p. 151: comune legge regionale impugnata dalla pubblicazione nel BUR; distinti i motivi del ricorso statale e regionale. Il PM può sollecitare il giudice, ma non è ordinariamente autorità rimettente autonoma.",
+    "p. 154: art. 137 della legge 87/1953 è un refuso per art. 37. Distinti conflitti fra poteri e fra enti, e prima ammissibilità rispetto al merito.",
+    "pp. 156–157: ammissibilità referendaria prevista dalla l. cost. 1/1953; i reati ministeriali sono oggi della giurisdizione ordinaria ex art. 96, non della Consulta: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-iii/sezione-i/articolo-96 . Condizioni di diniego ex l. cost. 1/1989, documentazione parlamentare: https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/004bis/001a/intero.htm .",
+    "Confrontate pp. 191–194: PM sollecita il giudice, norma interposta, rapporti pendenti e distinzione dei poteri. A p. 193 il potere del Ministro della giustizia ex art. 107, secondo comma, riguarda l’azione disciplinare, non l’azione penale: il refuso non è riprodotto."
+  ],
   "lezioni": [
     {
       "titolo": "La Corte costituzionale: composizione, indipendenza e oggetto del controllo",
@@ -1106,6 +1113,224 @@
           "Additiva",
           "Illegittimità della mancata previsione necessaria"
         ]
+      ]
+    },
+    {
+      "id": "u17-q033",
+      "lezione": "u17-l1",
+      "livello": "base",
+      "pagine": [
+        147,
+        150
+      ],
+      "concetti": [
+        "corte-costituzionale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quanto dura il mandato di un giudice costituzionale?",
+      "opzioni": [
+        "Cinque anni, rinnovabili",
+        "Sette anni, non rinnovabili",
+        "Nove anni, non rinnovabili",
+        "Dodici anni"
+      ],
+      "corretta": 2,
+      "spiegazione": "Art. 135: nove anni dal giuramento, senza possibilità di nuova nomina."
+    },
+    {
+      "id": "u17-q034",
+      "lezione": "u17-l1",
+      "livello": "medio",
+      "pagine": [
+        147,
+        150
+      ],
+      "concetti": [
+        "questione-di-legittimita",
+        "corte-costituzionale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La Corte costituzionale giudica anche la legittimità dei regolamenti del Governo.",
+      "vero": false,
+      "spiegazione": "Giudica leggi e atti con forza di legge dello Stato e delle Regioni (art. 134). I regolamenti illegittimi sono annullati dal giudice amministrativo o disapplicati dal giudice ordinario."
+    },
+    {
+      "id": "u17-q035",
+      "lezione": "u17-l1",
+      "livello": "avanzato",
+      "pagine": [
+        147,
+        150
+      ],
+      "concetti": [
+        "parametro-costituzionale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa sono il parametro e le norme interposte?",
+      "risposta": "Il parametro è la norma costituzionale rispetto a cui si giudica la legge. Le norme interposte sono fonti non costituzionali la cui violazione comporta, indirettamente, violazione della Costituzione: la legge delega per il decreto legislativo (art. 76), gli obblighi internazionali come la CEDU (art. 117, primo comma)."
+    },
+    {
+      "id": "u17-q036",
+      "lezione": "u17-l2",
+      "livello": "medio",
+      "pagine": [
+        150,
+        153
+      ],
+      "concetti": [
+        "giudizio-incidentale",
+        "ordinanza-rimessione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Durante un processo una parte ritiene incostituzionale la legge che il giudice dovrebbe applicare. Che cosa può fare?",
+      "opzioni": [
+        "Ricorrere direttamente alla Corte costituzionale",
+        "Chiedere al giudice di sollevare la questione; il giudice decide se rimetterla",
+        "Chiedere al Presidente della Repubblica di sospendere la legge",
+        "Chiedere al Governo di abrogarla"
+      ],
+      "corretta": 1,
+      "spiegazione": "In Italia non c'è ricorso diretto del cittadino. Il giudice solleva la questione con ordinanza se la ritiene rilevante e non manifestamente infondata."
+    },
+    {
+      "id": "u17-q037",
+      "lezione": "u17-l2",
+      "livello": "avanzato",
+      "pagine": [
+        150,
+        153
+      ],
+      "concetti": [
+        "sentenza-di-rigetto"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La sentenza di rigetto dichiara la legge conforme alla Costituzione, con effetti verso tutti.",
+      "vero": false,
+      "spiegazione": "Dichiara soltanto non fondata la questione nei termini in cui è stata proposta: vincola il giudice che l'ha sollevata e la questione può essere riproposta, anche con argomenti nuovi."
+    },
+    {
+      "id": "u17-q038",
+      "lezione": "u17-l2",
+      "livello": "medio",
+      "pagine": [
+        150,
+        153
+      ],
+      "concetti": [
+        "sentenza-di-accoglimento"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali effetti produce una sentenza di accoglimento?",
+      "risposta": "La norma dichiarata illegittima cessa di avere efficacia dal giorno successivo alla pubblicazione della decisione (art. 136) e non può più essere applicata da nessuno, anche ai fatti passati, salvo i rapporti esauriti. In materia penale cade anche la condanna definitiva."
+    },
+    {
+      "id": "u17-q039",
+      "lezione": "u17-l3",
+      "livello": "medio",
+      "pagine": [
+        154,
+        157
+      ],
+      "concetti": [
+        "conflitto-di-attribuzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un tribunale e la Camera sono in disaccordo sul fatto che le dichiarazioni di un deputato siano coperte dall'insindacabilità. Come si risolve?",
+      "opzioni": [
+        "Decide il Presidente della Repubblica",
+        "Decide la Corte di cassazione",
+        "Con un conflitto di attribuzione tra poteri dello Stato davanti alla Corte costituzionale",
+        "Con un referendum"
+      ],
+      "corretta": 2,
+      "spiegazione": "La Corte stabilisce a quale potere spetta l'attribuzione contestata e, se serve, annulla l'atto che l'ha invasa."
+    },
+    {
+      "id": "u17-q040",
+      "lezione": "u17-l3",
+      "livello": "medio",
+      "pagine": [
+        154,
+        157
+      ],
+      "concetti": [
+        "accusa-presidente-repubblica"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nel giudizio d'accusa contro il Presidente della Repubblica la Corte decide nella composizione ordinaria di quindici giudici.",
+      "vero": false,
+      "spiegazione": "Ai quindici giudici si aggiungono sedici cittadini estratti a sorte da un elenco compilato dal Parlamento ogni nove anni (art. 135)."
+    },
+    {
+      "id": "u17-q041",
+      "lezione": "u17-l3",
+      "livello": "medio",
+      "pagine": [
+        154,
+        157
+      ],
+      "concetti": [
+        "reati-ministeriali"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Chi giudica oggi i reati commessi dai ministri nell'esercizio delle funzioni?",
+      "risposta": "La magistratura ordinaria, previa autorizzazione del Senato o della Camera (art. 96, dopo la legge costituzionale 1/1989). Prima erano giudicati dalla Corte costituzionale."
+    },
+    {
+      "id": "u17-q042",
+      "lezione": "u17-l2",
+      "livello": "avanzato",
+      "pagine": [
+        150,
+        153
+      ],
+      "concetti": [
+        "giudizio-incidentale",
+        "giudizio-in-via-principale",
+        "ordinanza-rimessione",
+        "rilevanza-costituzionale",
+        "non-manifesta-infondatezza"
+      ],
+      "tipo": "aperta",
+      "domanda": "Giudizio in via incidentale e giudizio in via principale: chi accede alla Corte e come.",
+      "traccia": "Sono le due vie per portare una legge davanti alla Corte costituzionale.\n\nNel giudizio **incidentale** la questione nasce **nel corso di un processo**, davanti a un'autorità giurisdizionale. La solleva il **giudice**, d'ufficio o su istanza di parte, con **ordinanza di rimessione** motivata. Due condizioni: la **rilevanza** (il giudice deve applicare quella norma per decidere) e la **non manifesta infondatezza** (c'è almeno un dubbio serio). Il giudice deve prima tentare un'**interpretazione conforme** a Costituzione. Il processo è **sospeso**. Il cittadino non ha accesso diretto. Il controllo è **concreto e successivo**, senza termini.\n\nNel giudizio **principale** (art. 127) il ricorso è proposto **direttamente**: dallo **Stato** contro una legge regionale, o da una **Regione** contro una legge statale o di un'altra Regione, entro **sessanta giorni** dalla pubblicazione. Lo Stato può far valere **qualunque vizio** di costituzionalità; la Regione solo la **lesione delle proprie competenze**. Il controllo è **astratto**.\n\nIn entrambi i casi la sentenza di **accoglimento** vale verso tutti (art. 136).",
+      "punti": [
+        {
+          "testo": "Incidentale: nasce in un processo ed è sollevato dal giudice",
+          "chiavi": [
+            "giudice",
+            "processo"
+          ]
+        },
+        {
+          "testo": "Rilevanza e non manifesta infondatezza",
+          "chiavi": [
+            "rilevanz",
+            "infondatezza"
+          ]
+        },
+        {
+          "testo": "Ordinanza di rimessione e sospensione del processo",
+          "chiavi": [
+            "ordinanza",
+            "sospes"
+          ]
+        },
+        {
+          "testo": "Principale: ricorso diretto di Stato o Regione entro sessanta giorni",
+          "chiavi": [
+            "sessanta",
+            "stato",
+            "region"
+          ]
+        },
+        {
+          "testo": "Lo Stato fa valere ogni vizio, la Regione solo le competenze",
+          "chiavi": [
+            "competenz",
+            "qualunque vizio"
+          ]
+        }
       ]
     }
   ]

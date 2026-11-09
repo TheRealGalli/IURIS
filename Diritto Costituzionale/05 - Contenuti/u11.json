@@ -9,7 +9,13 @@
   ],
   "abstract": "Giurisdizioni e garanzie processuali; CSM e ministro nel sistema di autonomia e responsabilità.",
   "note": "Aggiornato: il CSM ha 33 componenti; le commissioni tributarie sono Corti di giustizia tributaria. La riforma della giustizia è stata respinta nel referendum di marzo 2026: vale ancora la disciplina descritta qui.",
-  "noteRedazione": ["p. 97: corretta l’inversione della frase sull’irretroattività: la legge incriminatrice deve essere entrata in vigore prima del fatto. Eliminata l’eccezione alla pena di morte per leggi militari di guerra, soppressa dalla l. cost. 1/2007.", "p. 96: obbligatorietà non significa automatico processo per ogni denuncia; il tribunale del riesame non è un normale appello sul merito delle condanne. Giurisdizione amministrativa include i diritti soggettivi nelle materie esclusive.", "p. 97: commissioni tributarie denominate Corti di giustizia tributaria dalla l. 130/2022; fonte https://def.giustiziatributaria.gov.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000000620000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B023DA408-25FE-45FE-9B88-5B428CF2ECA6%7D&idAttoNormativo=%7BECD81E71-D37B-4722-AA36-116B5BCB2232%7D&numeroArticolo=Articolo+62 .", "p. 98: composizione CSM aggiornata a 33 (30 elettivi), l. 71/2022; superato il necessario concorso di secondo grado del 2007: https://temi.camera.it/leg19DIL/temi/riforma-ordinamento-giudiziario-csm e https://www.senato.it/show-doc?id=1375618&idoggetto=0&leg=19&part=dossier_dossier1-sezione_sezione1&tipodoc=DOSSIER .", "Revisione giustizia respinta nel referendum 22–23 marzo 2026: risultato ufficiale https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=26A02490&atto.dataPubblicazioneGazzetta=2026-05-18&tipoSerie=serie_generale&tipoVigenza=originario . Non insegnata come vigente. Inamovibilità: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-iv/sezione-i/articolo-107 ."],
+  "noteRedazione": [
+    "p. 97: corretta l’inversione della frase sull’irretroattività: la legge incriminatrice deve essere entrata in vigore prima del fatto. Eliminata l’eccezione alla pena di morte per leggi militari di guerra, soppressa dalla l. cost. 1/2007.",
+    "p. 96: obbligatorietà non significa automatico processo per ogni denuncia; il tribunale del riesame non è un normale appello sul merito delle condanne. Giurisdizione amministrativa include i diritti soggettivi nelle materie esclusive.",
+    "p. 97: commissioni tributarie denominate Corti di giustizia tributaria dalla l. 130/2022; fonte https://def.giustiziatributaria.gov.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000000620000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B023DA408-25FE-45FE-9B88-5B428CF2ECA6%7D&idAttoNormativo=%7BECD81E71-D37B-4722-AA36-116B5BCB2232%7D&numeroArticolo=Articolo+62 .",
+    "p. 98: composizione CSM aggiornata a 33 (30 elettivi), l. 71/2022; superato il necessario concorso di secondo grado del 2007: https://temi.camera.it/leg19DIL/temi/riforma-ordinamento-giudiziario-csm e https://www.senato.it/show-doc?id=1375618&idoggetto=0&leg=19&part=dossier_dossier1-sezione_sezione1&tipodoc=DOSSIER .",
+    "Revisione giustizia respinta nel referendum 22–23 marzo 2026: risultato ufficiale https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=26A02490&atto.dataPubblicazioneGazzetta=2026-05-18&tipoSerie=serie_generale&tipoVigenza=originario . Non insegnata come vigente. Inamovibilità: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-iv/sezione-i/articolo-107 ."
+  ],
   "lezioni": [
     {
       "titolo": "Giurisdizioni e garanzie del processo",
@@ -768,6 +774,171 @@
           "Art. 111",
           "Giusto processo"
         ]
+      ]
+    },
+    {
+      "id": "u11-q023",
+      "lezione": "u11-l1",
+      "livello": "medio",
+      "pagine": [
+        96,
+        97
+      ],
+      "concetti": [
+        "giudice-naturale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Dopo un grave fatto di cronaca una legge istituisce un tribunale apposito per giudicare i responsabili. Quale garanzia è violata?",
+      "opzioni": [
+        "Il giudice naturale precostituito per legge e il divieto di giudici straordinari",
+        "L'obbligatorietà dell'azione penale",
+        "L'inamovibilità dei magistrati",
+        "La riserva di legge in materia penale"
+      ],
+      "corretta": 0,
+      "spiegazione": "Artt. 25, primo comma, e 102, secondo comma: il giudice deve essere individuato da regole fissate prima del fatto."
+    },
+    {
+      "id": "u11-q024",
+      "lezione": "u11-l1",
+      "livello": "base",
+      "pagine": [
+        96,
+        97
+      ],
+      "concetti": [
+        "pubblico-ministero",
+        "obbligatorieta-azione-penale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il pubblico ministero sceglie liberamente, secondo opportunità, se esercitare l'azione penale.",
+      "vero": false,
+      "spiegazione": "L'art. 112 gli impone l'obbligo di esercitarla quando ne ricorrono i presupposti: è una garanzia di uguaglianza davanti alla legge e di indipendenza del PM."
+    },
+    {
+      "id": "u11-q025",
+      "lezione": "u11-l1",
+      "livello": "medio",
+      "pagine": [
+        96,
+        97
+      ],
+      "concetti": [
+        "giusto-processo"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali sono i caratteri del giusto processo secondo l'art. 111?",
+      "risposta": "Contraddittorio tra le parti, in condizioni di parità, davanti a un giudice terzo e imparziale; ragionevole durata; nel processo penale, formazione della prova in contraddittorio. Tutti i provvedimenti giurisdizionali devono essere motivati."
+    },
+    {
+      "id": "u11-q026",
+      "lezione": "u11-l2",
+      "livello": "base",
+      "pagine": [
+        98,
+        100
+      ],
+      "concetti": [
+        "csm"
+      ],
+      "tipo": "multipla",
+      "domanda": "Chi presiede il Consiglio superiore della magistratura?",
+      "opzioni": [
+        "Il Ministro della giustizia",
+        "Il primo presidente della Corte di cassazione",
+        "Il Presidente della Repubblica",
+        "Il vicepresidente, eletto tra i magistrati"
+      ],
+      "corretta": 2,
+      "spiegazione": "Art. 104. Il vicepresidente è eletto dal Consiglio tra i componenti designati dal Parlamento."
+    },
+    {
+      "id": "u11-q027",
+      "lezione": "u11-l2",
+      "livello": "medio",
+      "pagine": [
+        98,
+        100
+      ],
+      "concetti": [
+        "inamovibilita",
+        "ministro-della-giustizia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il Ministro della giustizia può trasferire d'ufficio un magistrato ad altra sede.",
+      "vero": false,
+      "spiegazione": "I magistrati sono inamovibili: trasferimenti e sospensioni spettano al CSM, con le garanzie di difesa o con il consenso dell'interessato (art. 107). Il Ministro può promuovere l'azione disciplinare e cura l'organizzazione dei servizi (art. 110)."
+    },
+    {
+      "id": "u11-q028",
+      "lezione": "u11-l2",
+      "livello": "avanzato",
+      "pagine": [
+        98,
+        100
+      ],
+      "concetti": [
+        "csm"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Perché il CSM è composto per due terzi da magistrati e per un terzo da membri eletti dal Parlamento?",
+      "risposta": "La prevalenza dei togati garantisce l'autonomia dell'ordine giudiziario dal potere politico; la presenza dei laici (professori ordinari di materie giuridiche e avvocati con quindici anni di esercizio) evita che la magistratura diventi un corpo chiuso e la collega alle istituzioni rappresentative."
+    },
+    {
+      "id": "u11-q029",
+      "lezione": "u11-l2",
+      "livello": "avanzato",
+      "pagine": [
+        98,
+        100
+      ],
+      "concetti": [
+        "csm",
+        "inamovibilita",
+        "magistratura",
+        "ministro-della-giustizia"
+      ],
+      "tipo": "aperta",
+      "domanda": "Quali garanzie assicurano l'indipendenza della magistratura?",
+      "traccia": "L'**art. 104** definisce la magistratura un **ordine autonomo e indipendente da ogni altro potere**. Si distinguono due profili.\n\nL'**indipendenza esterna** protegge l'ordine giudiziario dal potere politico. La garantisce il **CSM**, a cui spettano assunzioni, assegnazioni, trasferimenti, promozioni e provvedimenti disciplinari (art. 105). È presieduto dal **Presidente della Repubblica** e composto per **due terzi da magistrati** eletti dai colleghi e per **un terzo da laici** eletti dal Parlamento in seduta comune. Al **Ministro della giustizia** restano l'organizzazione dei servizi (art. 110) e la facoltà di promuovere l'azione disciplinare.\n\nL'**indipendenza interna** protegge il singolo giudice anche dagli altri magistrati: i giudici sono **soggetti soltanto alla legge** (art. 101) e si distinguono tra loro solo per **diversità di funzioni** (art. 107), non per gerarchia.\n\nCompletano il quadro l'accesso per **concorso** (art. 106), l'**inamovibilità** (art. 107), il **giudice naturale** precostituito per legge (art. 25) e, per il pubblico ministero, l'**obbligatorietà dell'azione penale** (art. 112).",
+      "punti": [
+        {
+          "testo": "Ordine autonomo e indipendente da ogni altro potere",
+          "chiavi": [
+            "autonom",
+            "indipendent"
+          ]
+        },
+        {
+          "testo": "Il CSM gestisce la carriera dei magistrati",
+          "chiavi": [
+            "csm",
+            "consiglio superiore"
+          ]
+        },
+        {
+          "testo": "Composizione: due terzi togati, un terzo laici",
+          "chiavi": [
+            "due terzi",
+            "laici",
+            "togati"
+          ]
+        },
+        {
+          "testo": "Soggezione soltanto alla legge e distinzione per funzioni",
+          "chiavi": [
+            "soltanto alla legge",
+            "funzioni"
+          ]
+        },
+        {
+          "testo": "Concorso, inamovibilità, giudice naturale",
+          "chiavi": [
+            "concorso",
+            "inamovibil",
+            "giudice naturale"
+          ]
+        }
       ]
     }
   ]

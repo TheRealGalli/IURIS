@@ -66,7 +66,9 @@ try {
     const c = corsoDi('uniba-lmg-1-al');
     assert.equal(c.breve, 'LMG · I anno · A-L'); assert.equal(c.sigla, 'LMG · I anno'); assert.equal(c.lettere, 'A-L');
     assert.deepEqual(CORSI.map((x) => x.breve), ['LMG · I anno · A-L', 'LMG · I anno · M-Z', 'SSG · I anno']);
-    assert.deepEqual(c.inArrivo.map((m) => m.nome), ['Diritto privato']);
+    assert.deepEqual(c.inArrivo.map((m) => m.nome), ['Diritto privato', 'Istituzioni di diritto romano', 'Storia del diritto italiano']);
+    assert.deepEqual(c.docenti, { 'filosofia-del-diritto': 'Antonio Incampo', 'diritto-romano': 'S.R. Alessandrì', 'diritto-costituzionale': 'A. Torre' });
+    for (const x of CORSI) for (const s of Object.keys(x.docenti ?? {})) assert(x.materie.includes(s), `${x.id}: docente per una materia che il corso non ha: ${s}`);
     assert.deepEqual(c.materie, ['filosofia-del-diritto', 'diritto-romano', 'diritto-costituzionale']);
     assert.equal(CORSO_PREDEFINITO.id, c.id, 'i dati esistenti devono ricadere in questo corso');
   });
@@ -79,7 +81,8 @@ try {
     const ssg = corsoDi('uniba-ssg-1');
     assert.equal(ssg.id, 'uniba-ssg-1', 'SSG salvato resta SSG');
     assert.deepEqual(ssg.materie, ['filosofia-del-diritto-ssg', 'diritto-romano'], 'SSG: filosofia propria, romano condiviso con LMG');
-    assert.deepEqual(ssg.inArrivo.map((m) => m.nome), ['Diritto costituzionale', 'Diritto privato'], 'SSG: costituzionale con appunti propri, in arrivo');
+    assert.deepEqual(ssg.inArrivo.map((m) => m.nome), ['Diritto costituzionale', 'Diritto privato', 'Storia del diritto italiano', 'Abilità informatiche per giuristi', 'Lingua inglese'], 'SSG: costituzionale con appunti propri e le altre materie del primo anno, in arrivo');
+    assert.equal(corsi.docenteDi(ssg, 'diritto-romano'), 'Pia Starace', 'romano condiviso, docente del corso');
     for (const id of ['uniba-lmg-1-mz']) {
       assert(CORSI.some((c) => c.id === id), `${id} deve restare visibile nell'elenco`);
       assert.equal(corsoDi(id), CORSO_PREDEFINITO, `${id} salvato: si torna ad A-L`);

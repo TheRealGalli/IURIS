@@ -9,7 +9,12 @@
   ],
   "abstract": "Dalle classificazioni delle costituzioni alla carta repubblicana: rigidità, revisione, limiti e principi fondamentali.",
   "note": "I limiti alla revisione proteggono i principi supremi della Costituzione, non ogni sua parola.",
-  "noteRedazione": ["pp. 33–34: non si assume che un ordinamento privo di un unico testo sia composto solo da consuetudini, né che sia sempre integralmente flessibile.", "p. 34: i limiti alla revisione riguardano il contenuto essenziale dei principi supremi, non l’immodificabilità letterale di ogni disposizione; Corte cost. 1146/1988, confermata da https://www.cortecostituzionale.it/scheda-pronuncia/2025/125 .", "Art. 138 verificato su https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-vi/sezione-ii/articolo-138 .", "p. 38: corretto il divieto generico di estradizione dello straniero: art. 10 riguarda reati politici, con eccezione per genocidio, l. cost. 1/1967. Fonti: https://www.senato.it/istituzione/la-costituzione/principi-fondamentali/articolo-10 e https://www.senato.it/sites/default/files/media-documents/Costituzione_e_Regolamento.pdf ."],
+  "noteRedazione": [
+    "pp. 33–34: non si assume che un ordinamento privo di un unico testo sia composto solo da consuetudini, né che sia sempre integralmente flessibile.",
+    "p. 34: i limiti alla revisione riguardano il contenuto essenziale dei principi supremi, non l’immodificabilità letterale di ogni disposizione; Corte cost. 1146/1988, confermata da https://www.cortecostituzionale.it/scheda-pronuncia/2025/125 .",
+    "Art. 138 verificato su https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-vi/sezione-ii/articolo-138 .",
+    "p. 38: corretto il divieto generico di estradizione dello straniero: art. 10 riguarda reati politici, con eccezione per genocidio, l. cost. 1/1967. Fonti: https://www.senato.it/istituzione/la-costituzione/principi-fondamentali/articolo-10 e https://www.senato.it/sites/default/files/media-documents/Costituzione_e_Regolamento.pdf ."
+  ],
   "lezioni": [
     {
       "titolo": "Che cosa significa Costituzione: nascita, rigidità e limiti",
@@ -849,6 +854,180 @@
           "Art. 138",
           "Revisione costituzionale"
         ]
+      ]
+    },
+    {
+      "id": "u04-q023",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        35
+      ],
+      "concetti": [
+        "costituzione-rigida",
+        "costituzione-flessibile"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il Parlamento approva con legge ordinaria una norma contraria alla Costituzione. Che cosa accade in un sistema a Costituzione rigida?",
+      "opzioni": [
+        "La legge modifica la Costituzione, perché è più recente",
+        "La legge è invalida e può essere annullata dal giudice costituzionale",
+        "La legge è inesistente e nessuno deve osservarla",
+        "La legge vale solo se il Capo dello Stato la controfirma"
+      ],
+      "corretta": 1,
+      "spiegazione": "La rigidità pone la Costituzione sopra la legge ordinaria: per modificarla serve un procedimento aggravato. La legge contraria resta efficace finché la Corte non la dichiara illegittima."
+    },
+    {
+      "id": "u04-q024",
+      "lezione": "u04-l1",
+      "livello": "base",
+      "pagine": [
+        33,
+        35
+      ],
+      "concetti": [
+        "statuto-albertino",
+        "costituzione-flessibile"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Lo Statuto albertino era una Costituzione rigida, modificabile solo con un procedimento speciale.",
+      "vero": false,
+      "spiegazione": "Era una Costituzione flessibile, concessa dal re nel 1848: poteva essere modificata con legge ordinaria, e così il fascismo ne svuotò le garanzie senza abrogarla."
+    },
+    {
+      "id": "u04-q025",
+      "lezione": "u04-l1",
+      "livello": "avanzato",
+      "pagine": [
+        33,
+        35
+      ],
+      "concetti": [
+        "revisione-costituzionale",
+        "principi-supremi"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali limiti incontra la revisione della Costituzione?",
+      "risposta": "Un limite espresso: la forma repubblicana (art. 139). E limiti impliciti: i principi supremi dell'ordinamento e i diritti inviolabili, che secondo la Corte costituzionale (sent. 1146/1988) non possono essere toccati nemmeno da una legge costituzionale."
+    },
+    {
+      "id": "u04-q026",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        36,
+        38
+      ],
+      "concetti": [
+        "principio-autonomista"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quali due esigenze tiene insieme l'art. 5 della Costituzione?",
+      "opzioni": [
+        "Unità e indivisibilità della Repubblica; autonomie locali e decentramento",
+        "Sovranità popolare; limiti di sovranità per l'Europa",
+        "Libertà individuale; doveri di solidarietà",
+        "Separazione dei poteri; collaborazione tra gli organi"
+      ],
+      "corretta": 0,
+      "spiegazione": "La Repubblica è «una e indivisibile» ma riconosce e promuove le autonomie locali e attua il più ampio decentramento amministrativo."
+    },
+    {
+      "id": "u04-q027",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        36,
+        38
+      ],
+      "concetti": [
+        "principio-internazionalista"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'art. 11 vieta all'Italia qualunque impiego delle forze armate.",
+      "vero": false,
+      "spiegazione": "L'Italia ripudia la guerra come strumento di offesa e come mezzo per risolvere le controversie internazionali; resta la difesa della Patria (art. 52) e la partecipazione a organizzazioni che assicurano pace e giustizia."
+    },
+    {
+      "id": "u04-q028",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        36,
+        38
+      ],
+      "concetti": [
+        "principio-personalistico",
+        "diritti-inviolabili"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Perché l'art. 2 dice che la Repubblica «riconosce» i diritti inviolabili e non che li «attribuisce»?",
+      "risposta": "Perché esprime il principio personalista: la persona viene prima dello Stato e i suoi diritti preesistono all'ordinamento, che li riconosce e li garantisce. Lo Stato è al servizio della persona, non il contrario."
+    },
+    {
+      "id": "u04-q029",
+      "lezione": "u04-l1",
+      "livello": "avanzato",
+      "pagine": [
+        33,
+        35
+      ],
+      "concetti": [
+        "costituzione-rigida",
+        "costituzione-flessibile",
+        "statuto-albertino",
+        "revisione-costituzionale"
+      ],
+      "tipo": "aperta",
+      "domanda": "Costituzione rigida e Costituzione flessibile: spieghi la differenza con l'esempio dello Statuto albertino e della Costituzione del 1948.",
+      "traccia": "Una Costituzione è **flessibile** quando può essere modificata con **legge ordinaria**: sta sullo stesso piano della legge e non può esserne il limite. È **rigida** quando per modificarla serve un **procedimento aggravato**: sta sopra la legge, e la legge contraria è invalida.\n\nLo **Statuto albertino** (1848) era una carta **concessa** dal re e flessibile. Questo permise prima l'evoluzione dalla monarchia costituzionale al governo parlamentare, per prassi; poi permise al **fascismo** di svuotarne le garanzie con leggi ordinarie, senza abrogarlo.\n\nLa **Costituzione del 1948**, votata dall'Assemblea costituente, è **rigida**: l'**art. 138** chiede due deliberazioni di ciascuna Camera a distanza di almeno tre mesi, la maggioranza assoluta nella seconda e un referendum eventuale se non si raggiungono i due terzi. La rigidità è **garantita** dalla **Corte costituzionale**, che annulla le leggi contrarie. Esistono infine limiti alla revisione stessa: la **forma repubblicana** (art. 139) e i **principi supremi**.",
+      "punti": [
+        {
+          "testo": "Flessibile: modificabile con legge ordinaria",
+          "chiavi": [
+            "flessibil",
+            "legge ordinaria"
+          ]
+        },
+        {
+          "testo": "Rigida: procedimento aggravato e superiorità sulla legge",
+          "chiavi": [
+            "rigida",
+            "aggravat"
+          ]
+        },
+        {
+          "testo": "Lo Statuto albertino era concesso e flessibile",
+          "chiavi": [
+            "statuto",
+            "albertino",
+            "concess"
+          ]
+        },
+        {
+          "testo": "Art. 138: doppia deliberazione, maggioranze, referendum eventuale",
+          "chiavi": [
+            "138",
+            "due deliberazion",
+            "referendum"
+          ]
+        },
+        {
+          "testo": "La Corte costituzionale garantisce la rigidità",
+          "chiavi": [
+            "corte"
+          ]
+        },
+        {
+          "testo": "Limiti alla revisione: forma repubblicana e principi supremi",
+          "chiavi": [
+            "139",
+            "repubblicana",
+            "principi supremi"
+          ]
+        }
       ]
     }
   ]

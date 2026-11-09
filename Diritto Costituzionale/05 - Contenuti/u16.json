@@ -9,7 +9,14 @@
   ],
   "abstract": "Trattati e diritto derivato, effetti delle norme europee, rimedi giudiziali e garanzie costituzionali.",
   "note": "Aggiornato al Trattato di Lisbona: oggi si parla di TUE e TFUE. Non applicare una legge contraria al diritto UE non significa abrogarla.",
-  "noteRedazione": ["Terminologia aggiornata a TUE, TFUE e Unione europea: gli appunti descrivono spesso l’assetto pre-Lisbona. Art. 288 attuale: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A12016E288 .", "pp. 139–142: corrette sia l’esclusione di ogni effetto diretto delle direttive sia la loro equivalenza generale ai regolamenti. Distinti effetto verticale, assenza di efficacia orizzontale generale e applicabilità dell’atto: https://eur-lex.europa.eu/IT/legal-content/summary/the-direct-effect-of-european-union-law.html .", "pp. 143–144: non applicazione non equivale ad abrogazione o controllo diffuso di validità della legge. Granital: https://www.cortecostituzionale.it/scheda-pronuncia/1984/170 . Quadro attuale della cooperazione e doppia pregiudizialità: https://www.cortecostituzionale.it/scheda-pronuncia/2024/181 .", "pp. 144–145: l. 86/1989 e l. 11/2005 sono tappe storiche; oggi l. 234/2012, legge di delegazione europea e legge europea: https://www.politicheeuropee.gov.it/it/normativa/legge-di-delegazione-europea/ .", "pp. 145–146: integrata la Carta vincolante dal 2009; i controlimiti non sono una facoltà diffusa di annullare atti UE. Esempio Taricco: https://www.cortecostituzionale.it/scheda-pronuncia/2018/115 .", "Confrontate pp. 201–203: effetto diretto non equivale a ogni norma non di principio; precisati contenuto autosufficiente e rapporto concreto. Il sistema dei tre pilastri descritto nelle risposte è storico; non riproposto dopo Lisbona."],
+  "noteRedazione": [
+    "Terminologia aggiornata a TUE, TFUE e Unione europea: gli appunti descrivono spesso l’assetto pre-Lisbona. Art. 288 attuale: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A12016E288 .",
+    "pp. 139–142: corrette sia l’esclusione di ogni effetto diretto delle direttive sia la loro equivalenza generale ai regolamenti. Distinti effetto verticale, assenza di efficacia orizzontale generale e applicabilità dell’atto: https://eur-lex.europa.eu/IT/legal-content/summary/the-direct-effect-of-european-union-law.html .",
+    "pp. 143–144: non applicazione non equivale ad abrogazione o controllo diffuso di validità della legge. Granital: https://www.cortecostituzionale.it/scheda-pronuncia/1984/170 . Quadro attuale della cooperazione e doppia pregiudizialità: https://www.cortecostituzionale.it/scheda-pronuncia/2024/181 .",
+    "pp. 144–145: l. 86/1989 e l. 11/2005 sono tappe storiche; oggi l. 234/2012, legge di delegazione europea e legge europea: https://www.politicheeuropee.gov.it/it/normativa/legge-di-delegazione-europea/ .",
+    "pp. 145–146: integrata la Carta vincolante dal 2009; i controlimiti non sono una facoltà diffusa di annullare atti UE. Esempio Taricco: https://www.cortecostituzionale.it/scheda-pronuncia/2018/115 .",
+    "Confrontate pp. 201–203: effetto diretto non equivale a ogni norma non di principio; precisati contenuto autosufficiente e rapporto concreto. Il sistema dei tre pilastri descritto nelle risposte è storico; non riproposto dopo Lisbona."
+  ],
   "lezioni": [
     {
       "titolo": "Diritto primario e derivato: regolamenti, direttive e decisioni",
@@ -1100,6 +1107,205 @@
           "Legge europea",
           "Adeguamenti normativi diretti"
         ]
+      ]
+    },
+    {
+      "id": "u16-q033",
+      "lezione": "u16-l1",
+      "livello": "avanzato",
+      "pagine": [
+        138,
+        140
+      ],
+      "concetti": [
+        "direttiva-ue",
+        "effetto-diretto-ue"
+      ],
+      "tipo": "multipla",
+      "domanda": "Scaduto il termine, lo Stato non ha recepito una direttiva che attribuisce ai singoli un diritto in modo chiaro, preciso e incondizionato. Un cittadino può farla valere?",
+      "opzioni": [
+        "No, mai",
+        "Sì, contro lo Stato inadempiente",
+        "Sì, contro chiunque, anche un privato",
+        "Solo dopo una sentenza della Corte costituzionale"
+      ],
+      "corretta": 1,
+      "spiegazione": "È l'effetto diretto verticale: lo Stato non può opporre al singolo il proprio inadempimento. La direttiva non recepita non crea invece obblighi tra privati."
+    },
+    {
+      "id": "u16-q034",
+      "lezione": "u16-l1",
+      "livello": "base",
+      "pagine": [
+        138,
+        140
+      ],
+      "concetti": [
+        "regolamento-ue",
+        "diretta-applicabilita"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il regolamento dell'Unione europea produce effetti solo dopo che una legge nazionale lo ha recepito.",
+      "vero": false,
+      "spiegazione": "È obbligatorio in tutti i suoi elementi e direttamente applicabile in ciascuno Stato membro."
+    },
+    {
+      "id": "u16-q035",
+      "lezione": "u16-l1",
+      "livello": "base",
+      "pagine": [
+        138,
+        140
+      ],
+      "concetti": [
+        "regolamento-ue",
+        "direttiva-ue"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra regolamento e direttiva dell'Unione europea?",
+      "risposta": "Il regolamento ha portata generale, è obbligatorio in tutti i suoi elementi e si applica direttamente. La direttiva vincola lo Stato membro al risultato da raggiungere e gli lascia la scelta di forme e mezzi: richiede un atto di recepimento entro un termine."
+    },
+    {
+      "id": "u16-q036",
+      "lezione": "u16-l2",
+      "livello": "medio",
+      "pagine": [
+        140,
+        144
+      ],
+      "concetti": [
+        "non-applicazione-diritto-ue",
+        "sentenza-granital"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un giudice italiano deve applicare una legge interna che contrasta con un regolamento dell'Unione. Che cosa fa?",
+      "opzioni": [
+        "Applica la legge italiana, perché è una fonte interna",
+        "Solleva questione di legittimità costituzionale",
+        "Non applica la legge interna e applica il regolamento",
+        "Sospende il processo in attesa del Parlamento"
+      ],
+      "corretta": 2,
+      "spiegazione": "Dalla sentenza Granital (170/1984) il giudice comune non applica la norma interna incompatibile con il diritto dell'Unione direttamente applicabile."
+    },
+    {
+      "id": "u16-q037",
+      "lezione": "u16-l2",
+      "livello": "avanzato",
+      "pagine": [
+        140,
+        144
+      ],
+      "concetti": [
+        "non-applicazione-diritto-ue"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La legge italiana che contrasta con una norma dell'Unione direttamente applicabile è abrogata.",
+      "vero": false,
+      "spiegazione": "Non è né abrogata né annullata: resta valida, ma non si applica nei casi regolati dal diritto dell'Unione."
+    },
+    {
+      "id": "u16-q038",
+      "lezione": "u16-l2",
+      "livello": "medio",
+      "pagine": [
+        140,
+        144
+      ],
+      "concetti": [
+        "rinvio-pregiudiziale-ue"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cos'è il rinvio pregiudiziale e chi è obbligato a farlo?",
+      "risposta": "È lo strumento con cui il giudice nazionale chiede alla Corte di giustizia di interpretare il diritto dell'Unione o di giudicare la validità di un suo atto. Ogni giudice può farlo; il giudice di ultima istanza deve."
+    },
+    {
+      "id": "u16-q039",
+      "lezione": "u16-l3",
+      "livello": "base",
+      "pagine": [
+        144,
+        146
+      ],
+      "concetti": [
+        "carta-diritti-ue"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La Carta dei diritti fondamentali dell'Unione europea ha lo stesso valore giuridico dei Trattati.",
+      "vero": true,
+      "spiegazione": "Lo ha stabilito il Trattato di Lisbona (art. 6 TUE). La Carta si applica alle istituzioni dell'Unione e agli Stati quando attuano il diritto dell'Unione."
+    },
+    {
+      "id": "u16-q040",
+      "lezione": "u16-l3",
+      "livello": "medio",
+      "pagine": [
+        144,
+        146
+      ],
+      "concetti": [
+        "legge-delegazione-europea",
+        "legge-europea"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Con quali due leggi annuali l'Italia si adegua al diritto dell'Unione?",
+      "risposta": "La legge di delegazione europea delega il Governo a recepire le direttive con decreti legislativi. La legge europea modifica o abroga direttamente le norme interne in contrasto con gli obblighi europei."
+    },
+    {
+      "id": "u16-q041",
+      "lezione": "u16-l1",
+      "livello": "avanzato",
+      "pagine": [
+        138,
+        140
+      ],
+      "concetti": [
+        "regolamento-ue",
+        "direttiva-ue",
+        "diretta-applicabilita",
+        "effetto-diretto-ue"
+      ],
+      "tipo": "aperta",
+      "domanda": "Regolamenti e direttive dell'Unione europea: caratteri ed effetti nell'ordinamento italiano.",
+      "traccia": "Sono i due principali atti del **diritto derivato** (art. 288 TFUE).\n\nIl **regolamento** ha **portata generale**, è **obbligatorio in tutti i suoi elementi** ed è **direttamente applicabile**: entra in vigore in tutti gli Stati membri senza bisogno di recepimento, e crea diritti e obblighi anche per i privati. Gli Stati non possono riprodurlo in atti interni che ne nascondano l'origine.\n\nLa **direttiva** vincola lo Stato membro quanto al **risultato**, lasciando agli organi nazionali la scelta di **forma e mezzi**. Deve essere **recepita** entro un termine: in Italia soprattutto con decreti legislativi, sulla base della **legge di delegazione europea**.\n\nLa Corte di giustizia ha però riconosciuto alle direttive **non recepite** un **effetto diretto**, se il termine è scaduto e le disposizioni sono **chiare, precise e incondizionate**. L'effetto è solo **verticale**: il singolo può invocarle contro lo Stato, non contro un altro privato. In più il giudice deve interpretare il diritto interno in modo **conforme** alla direttiva, e lo Stato inadempiente può dover **risarcire il danno** (sentenza Francovich).\n\nSe una legge interna contrasta con norme europee a effetto diretto, il giudice la **non applica**.",
+      "punti": [
+        {
+          "testo": "Regolamento: generale, obbligatorio in tutti gli elementi, direttamente applicabile",
+          "chiavi": [
+            "direttamente applicabil",
+            "obbligatori"
+          ]
+        },
+        {
+          "testo": "Direttiva: vincola al risultato, richiede recepimento",
+          "chiavi": [
+            "risultato",
+            "recep"
+          ]
+        },
+        {
+          "testo": "Effetto diretto delle direttive: chiare, precise, incondizionate, a termine scaduto",
+          "chiavi": [
+            "chiar",
+            "precis",
+            "incondizionat"
+          ]
+        },
+        {
+          "testo": "Effetto solo verticale",
+          "chiavi": [
+            "vertical",
+            "contro lo stato"
+          ]
+        },
+        {
+          "testo": "Interpretazione conforme e responsabilità dello Stato",
+          "chiavi": [
+            "conforme",
+            "risarc",
+            "francovich"
+          ]
+        }
       ]
     }
   ]

@@ -9,7 +9,14 @@
   ],
   "abstract": "Statuti regionali, riparto legislativo e fonti degli enti locali, con i distinti procedimenti e controlli.",
   "note": "Lo statuto regionale ordinario richiede la maggioranza assoluta in entrambe le deliberazioni. Le leggi regionali non hanno più un controllo preventivo: il Governo può impugnarle davanti alla Corte.",
-  "noteRedazione": ["p. 131: corretta l’affermazione secondo cui per lo statuto ordinario la maggioranza assoluta servirebbe solo nella seconda deliberazione: occorre in entrambe. Art. 123 vigente: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-v/articolo-123 .", "p. 134: il rinvio art. 23.1 è art. 123.1. Non viene riprodotto il vecchio sistema di controllo preventivo sulle leggi regionali, sostituito dal ricorso successivo ex art. 127.", "p. 136: eliminazione della riserva al Consiglio non equivale ad attribuzione automatica alla Giunta: la scelta è statutaria; Corte cost. 313/2003, https://www.cortecostituzionale.it/scheda-pronuncia/2003/313 .", "pp. 136–137: art. 128 Cost. abrogato; TUEL letto con l. 56/2014. La procedura dei due terzi o due maggioranze assolute è illustrata per i Comuni, non estesa indiscriminatamente a Province e Città metropolitane. Parere ministeriale: https://dait.interno.gov.it/pareri/96952 .", "Specialità: le leggi statutarie operano nei soli ambiti previsti, non possono riscrivere l’intero statuto costituzionale. Riferimento l. cost. 2/2001: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=001G0044&atto.dataPubblicazioneGazzetta=2001-02-01&tipoDettaglio=multivigenza .", "Confrontate pp. 199–200: i termini potestà e funzione legislativa non stabiliscono una gerarchia generale fra legge statale e regionale; la disciplina elettorale storica delle liste regionali non viene estesa come modello unico a tutte le Regioni attuali."],
+  "noteRedazione": [
+    "p. 131: corretta l’affermazione secondo cui per lo statuto ordinario la maggioranza assoluta servirebbe solo nella seconda deliberazione: occorre in entrambe. Art. 123 vigente: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-v/articolo-123 .",
+    "p. 134: il rinvio art. 23.1 è art. 123.1. Non viene riprodotto il vecchio sistema di controllo preventivo sulle leggi regionali, sostituito dal ricorso successivo ex art. 127.",
+    "p. 136: eliminazione della riserva al Consiglio non equivale ad attribuzione automatica alla Giunta: la scelta è statutaria; Corte cost. 313/2003, https://www.cortecostituzionale.it/scheda-pronuncia/2003/313 .",
+    "pp. 136–137: art. 128 Cost. abrogato; TUEL letto con l. 56/2014. La procedura dei due terzi o due maggioranze assolute è illustrata per i Comuni, non estesa indiscriminatamente a Province e Città metropolitane. Parere ministeriale: https://dait.interno.gov.it/pareri/96952 .",
+    "Specialità: le leggi statutarie operano nei soli ambiti previsti, non possono riscrivere l’intero statuto costituzionale. Riferimento l. cost. 2/2001: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=001G0044&atto.dataPubblicazioneGazzetta=2001-02-01&tipoDettaglio=multivigenza .",
+    "Confrontate pp. 199–200: i termini potestà e funzione legislativa non stabiliscono una gerarchia generale fra legge statale e regionale; la disciplina elettorale storica delle liste regionali non viene estesa come modello unico a tutte le Regioni attuali."
+  ],
   "lezioni": [
     {
       "titolo": "Statuti ordinari e speciali: fonti e procedimenti diversi",
@@ -996,6 +1003,225 @@
           "Regolamento locale",
           "Disciplina secondaria entro legge e statuto"
         ]
+      ]
+    },
+    {
+      "id": "u15-q033",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        131,
+        132
+      ],
+      "concetti": [
+        "statuto-regionale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una Regione ordinaria vuole cambiare la propria forma di governo. Con quale atto?",
+      "opzioni": [
+        "Con legge costituzionale",
+        "Con lo statuto, approvato dal Consiglio regionale con procedimento aggravato",
+        "Con regolamento della Giunta",
+        "Con legge ordinaria dello Stato"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 123: lo statuto determina forma di governo e principi di organizzazione; è approvato con due deliberazioni a maggioranza assoluta a distanza di almeno due mesi, con referendum eventuale."
+    },
+    {
+      "id": "u15-q034",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "pagine": [
+        131,
+        132
+      ],
+      "concetti": [
+        "statuto-speciale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Gli statuti delle Regioni speciali sono approvati dal Consiglio regionale.",
+      "vero": false,
+      "spiegazione": "Sono adottati con legge costituzionale (art. 116): per questo possono derogare al Titolo V."
+    },
+    {
+      "id": "u15-q035",
+      "lezione": "u15-l1",
+      "livello": "avanzato",
+      "pagine": [
+        131,
+        132
+      ],
+      "concetti": [
+        "statuto-regionale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Chi può contestare lo statuto di una Regione ordinaria davanti alla Corte costituzionale, e quando?",
+      "risposta": "Il Governo, entro trenta giorni dalla pubblicazione (art. 123): è un controllo preventivo, che precede l'eventuale referendum e la promulgazione."
+    },
+    {
+      "id": "u15-q036",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        132,
+        135
+      ],
+      "concetti": [
+        "legge-regionale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il Governo ritiene che una legge regionale ecceda la competenza della Regione. Che cosa può fare?",
+      "opzioni": [
+        "Annullarla con decreto",
+        "Chiedere al Parlamento di abrogarla",
+        "Impugnarla davanti alla Corte costituzionale entro sessanta giorni dalla pubblicazione",
+        "Rinviarla al Consiglio regionale"
+      ],
+      "corretta": 2,
+      "spiegazione": "Art. 127: dal 2001 il controllo è successivo e la legge intanto è in vigore."
+    },
+    {
+      "id": "u15-q037",
+      "lezione": "u15-l2",
+      "livello": "avanzato",
+      "pagine": [
+        132,
+        135
+      ],
+      "concetti": [
+        "potesta-legislativa-concorrente"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nelle materie concorrenti la Regione può legiferare solo dopo che lo Stato ha approvato un'apposita legge cornice.",
+      "vero": false,
+      "spiegazione": "In mancanza, i principi fondamentali si ricavano dalla legislazione statale in vigore."
+    },
+    {
+      "id": "u15-q038",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "pagine": [
+        132,
+        135
+      ],
+      "concetti": [
+        "legge-regionale",
+        "potesta-legislativa-concorrente",
+        "competenza-residuale-regionale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali tipi di potestà legislativa distingue l'art. 117?",
+      "risposta": "Esclusiva dello Stato, nelle materie del secondo comma; concorrente, nelle materie del terzo comma (principi allo Stato, dettaglio alle Regioni); residuale delle Regioni, per tutto ciò che non è elencato."
+    },
+    {
+      "id": "u15-q039",
+      "lezione": "u15-l3",
+      "livello": "avanzato",
+      "pagine": [
+        134,
+        137
+      ],
+      "concetti": [
+        "regolamento-regionale",
+        "regolamenti-governativi"
+      ],
+      "tipo": "multipla",
+      "domanda": "In una materia di legislazione concorrente, a chi spetta la potestà regolamentare?",
+      "opzioni": [
+        "Allo Stato",
+        "Alle Regioni",
+        "Ai Comuni",
+        "Alla Conferenza Stato-Regioni"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 117, sesto comma: lo Stato ha potestà regolamentare solo nelle materie di legislazione esclusiva, salva delega alle Regioni; in ogni altra materia spetta alle Regioni."
+    },
+    {
+      "id": "u15-q040",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "pagine": [
+        134,
+        137
+      ],
+      "concetti": [
+        "statuto-ente-locale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Lo statuto del Comune è approvato dalla Regione.",
+      "vero": false,
+      "spiegazione": "Lo delibera il consiglio comunale, con maggioranze qualificate, nei limiti dei principi fissati dalla legge."
+    },
+    {
+      "id": "u15-q041",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        134,
+        137
+      ],
+      "concetti": [
+        "regolamento-ente-locale",
+        "enti-locali"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Su che cosa hanno potestà regolamentare Comuni, Province e Città metropolitane?",
+      "risposta": "Sulla disciplina dell'organizzazione e dello svolgimento delle funzioni loro attribuite (art. 117, sesto comma)."
+    },
+    {
+      "id": "u15-q042",
+      "lezione": "u15-l1",
+      "livello": "avanzato",
+      "pagine": [
+        131,
+        132
+      ],
+      "concetti": [
+        "statuto-regionale",
+        "statuto-speciale",
+        "legge-statutaria"
+      ],
+      "tipo": "aperta",
+      "domanda": "Statuti ordinari e statuti speciali: fonte, procedimento e contenuto.",
+      "traccia": "Lo **statuto speciale** delle cinque Regioni ad autonomia particolare (Sicilia, Sardegna, Valle d'Aosta, Trentino-Alto Adige, Friuli-Venezia Giulia) è adottato con **legge costituzionale** (art. 116). Per questo può **derogare** al Titolo V e attribuire competenze più ampie. È attuato da **norme di attuazione**, decreti legislativi preparati da commissioni paritetiche. Dal 2001 la forma di governo di queste Regioni è disciplinata da una **legge statutaria** regionale.\n\nLo **statuto ordinario** (art. 123) è un atto di **autonomia regionale**. Il Consiglio lo approva con **legge regionale** adottata a **maggioranza assoluta**, con **due deliberazioni** a distanza di almeno **due mesi**. Il **Governo** può impugnarlo davanti alla Corte costituzionale entro **trenta giorni** dalla pubblicazione; entro **tre mesi** un cinquantesimo degli elettori o un quinto dei consiglieri può chiedere un **referendum**. Deve essere «in **armonia con la Costituzione**».\n\nIl contenuto necessario: **forma di governo**, principi fondamentali di organizzazione e funzionamento, diritto di iniziativa e referendum regionali, pubblicazione di leggi e regolamenti, **Consiglio delle autonomie locali**.",
+      "punti": [
+        {
+          "testo": "Statuto speciale: legge costituzionale, può derogare al Titolo V",
+          "chiavi": [
+            "legge costituzionale",
+            "derog"
+          ]
+        },
+        {
+          "testo": "Cinque Regioni speciali e norme di attuazione",
+          "chiavi": [
+            "cinque",
+            "attuazione"
+          ]
+        },
+        {
+          "testo": "Statuto ordinario: legge regionale con doppia deliberazione a maggioranza assoluta",
+          "chiavi": [
+            "due deliberazion",
+            "maggioranza assoluta",
+            "due mesi"
+          ]
+        },
+        {
+          "testo": "Impugnazione del Governo e referendum eventuale",
+          "chiavi": [
+            "trenta",
+            "impugn",
+            "referendum"
+          ]
+        },
+        {
+          "testo": "Contenuto: forma di governo e principi di organizzazione",
+          "chiavi": [
+            "forma di governo",
+            "organizzazion"
+          ]
+        }
       ]
     }
   ]

@@ -9,7 +9,13 @@
   ],
   "abstract": "Competenze e risorse delle autonomie, cooperazione fra livelli e forme di governo regionali e locali.",
   "note": "Aggiornato: le Province sono enti di secondo grado (dal 2014); l'autonomia differenziata va letta con la sentenza della Corte costituzionale 192/2024.",
-  "noteRedazione": ["p. 88: art. 115 abrogato nel 2001; l’art. 114 non implica identità di poteri o sovranità degli enti.", "pp. 89–90: autonomia differenziata ricostruita nel quadro dell’art. 116 e di Corte cost. 192/2024, https://www.cortecostituzionale.it/scheda-pronuncia/2024/192 . Commissione integrata prevista, non assimilata a una Camera delle Regioni già funzionante.", "p. 91: armonizzazione dei bilanci passata alla competenza esclusiva dello Stato con l. cost. 1/2012; coordinamento resta concorrente, https://www.camera.it/temiap/documentazione/temi/pdf/1105334.pdf . Aggiunti equilibrio e condizioni al debito, art. 119; insularità introdotta con l. cost. 2/2022.", "pp. 92–94: la disciplina transitoria non è presentata come unica legge attuale; procedura della sfiducia verificata sull’art. 126: https://www.senato.it/node/223/printable/print .", "pp. 94–95: Province ordinarie aggiornate al secondo grado, l. 56/2014; corretto premio comunale al primo turno (40% alle liste collegate, con condizioni art. 73 TUEL), preferenze e limiti ai mandati dopo il d.l. 7/2024 conv. l. 38/2024. Fonti https://dait.interno.gov.it/elezioni/faq/faq-elezioni-amministrative-2026 e https://www.camera.it/leg19/410?idSeduta=0716&tipo=atti_indirizzo_controllo ."],
+  "noteRedazione": [
+    "p. 88: art. 115 abrogato nel 2001; l’art. 114 non implica identità di poteri o sovranità degli enti.",
+    "pp. 89–90: autonomia differenziata ricostruita nel quadro dell’art. 116 e di Corte cost. 192/2024, https://www.cortecostituzionale.it/scheda-pronuncia/2024/192 . Commissione integrata prevista, non assimilata a una Camera delle Regioni già funzionante.",
+    "p. 91: armonizzazione dei bilanci passata alla competenza esclusiva dello Stato con l. cost. 1/2012; coordinamento resta concorrente, https://www.camera.it/temiap/documentazione/temi/pdf/1105334.pdf . Aggiunti equilibrio e condizioni al debito, art. 119; insularità introdotta con l. cost. 2/2022.",
+    "pp. 92–94: la disciplina transitoria non è presentata come unica legge attuale; procedura della sfiducia verificata sull’art. 126: https://www.senato.it/node/223/printable/print .",
+    "pp. 94–95: Province ordinarie aggiornate al secondo grado, l. 56/2014; corretto premio comunale al primo turno (40% alle liste collegate, con condizioni art. 73 TUEL), preferenze e limiti ai mandati dopo il d.l. 7/2024 conv. l. 38/2024. Fonti https://dait.interno.gov.it/elezioni/faq/faq-elezioni-amministrative-2026 e https://www.camera.it/leg19/410?idSeduta=0716&tipo=atti_indirizzo_controllo ."
+  ],
   "lezioni": [
     {
       "titolo": "La Repubblica delle autonomie: competenze, raccordi e risorse",
@@ -857,6 +863,172 @@
           "Provincia ordinaria nel regime generale",
           "Organi eletti di secondo grado"
         ]
+      ]
+    },
+    {
+      "id": "u10-q023",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        88,
+        91
+      ],
+      "concetti": [
+        "potesta-legislativa-concorrente",
+        "regioni"
+      ],
+      "tipo": "multipla",
+      "domanda": "La «tutela della salute» è materia di legislazione concorrente. Come si ripartisce la competenza?",
+      "opzioni": [
+        "Lo Stato fissa i principi fondamentali, la Regione detta la disciplina di dettaglio",
+        "Legifera solo lo Stato",
+        "Legifera solo la Regione",
+        "Decide caso per caso la Conferenza Stato-Regioni"
+      ],
+      "corretta": 0,
+      "spiegazione": "Art. 117, terzo comma: nelle materie concorrenti la potestà legislativa spetta alle Regioni, salvo la determinazione dei principi fondamentali riservata allo Stato."
+    },
+    {
+      "id": "u10-q024",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        88,
+        91
+      ],
+      "concetti": [
+        "competenza-residuale-regionale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Dopo la riforma del 2001 le materie non elencate nell'art. 117 spettano allo Stato.",
+      "vero": false,
+      "spiegazione": "Spettano alle Regioni: è la competenza residuale del quarto comma. Prima del 2001 valeva il criterio opposto."
+    },
+    {
+      "id": "u10-q025",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        88,
+        91
+      ],
+      "concetti": [
+        "leale-collaborazione",
+        "sistema-delle-conferenze"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cos'è il principio di leale collaborazione e dove si realizza?",
+      "risposta": "È il dovere di Stato, Regioni ed enti locali di coordinarsi lealmente quando le loro competenze si intrecciano, con intese, pareri e accordi. La sede principale è il sistema delle Conferenze: Stato-Regioni, Stato-città e Unificata."
+    },
+    {
+      "id": "u10-q026",
+      "lezione": "u10-l2",
+      "livello": "avanzato",
+      "pagine": [
+        92,
+        95
+      ],
+      "concetti": [
+        "simul-stabunt-simul-cadent",
+        "presidente-della-giunta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il Consiglio regionale approva la sfiducia contro il Presidente della Giunta eletto direttamente dai cittadini. Che cosa accade?",
+      "opzioni": [
+        "Il Consiglio elegge un nuovo Presidente",
+        "Si dimette la Giunta e si scioglie il Consiglio",
+        "Il Presidente resta in carica fino a fine legislatura",
+        "Decide il Governo nazionale"
+      ],
+      "corretta": 1,
+      "spiegazione": "È la regola «simul stabunt, simul cadent» dell'art. 126: Presidente e Consiglio, eletti insieme, cadono insieme. Lo stesso accade per dimissioni, morte o impedimento permanente del Presidente."
+    },
+    {
+      "id": "u10-q027",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        92,
+        95
+      ],
+      "concetti": [
+        "presidente-della-giunta"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il Presidente della Giunta regionale è sempre eletto dal Consiglio regionale.",
+      "vero": false,
+      "spiegazione": "È eletto a suffragio universale e diretto, salvo che lo statuto regionale disponga diversamente (art. 122, ultimo comma)."
+    },
+    {
+      "id": "u10-q028",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "pagine": [
+        92,
+        95
+      ],
+      "concetti": [
+        "voto-disgiunto"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cos'è il voto disgiunto?",
+      "risposta": "È la possibilità di votare un candidato alla carica di vertice (sindaco o presidente) e, sulla stessa scheda, una lista che non è collegata a lui."
+    },
+    {
+      "id": "u10-q029",
+      "lezione": "u10-l1",
+      "livello": "avanzato",
+      "pagine": [
+        88,
+        91
+      ],
+      "concetti": [
+        "regioni",
+        "potesta-legislativa-concorrente",
+        "competenza-residuale-regionale",
+        "sussidiarieta"
+      ],
+      "tipo": "aperta",
+      "domanda": "Come ripartisce la Costituzione la potestà legislativa e le funzioni amministrative tra Stato e Regioni?",
+      "traccia": "Dopo la riforma del **2001** l'**art. 117** mette sullo stesso piano legge statale e legge regionale: entrambe rispettano la Costituzione, l'ordinamento dell'Unione europea e gli obblighi internazionali. Le competenze sono divise per **materie**.\n\n**Esclusiva dello Stato** (secondo comma): politica estera, immigrazione, difesa, moneta, ordine pubblico, giurisdizione, ordinamento civile e penale, **livelli essenziali delle prestazioni**, ambiente. Alcune sono materie **trasversali**, che tagliano le competenze regionali.\n\n**Concorrente** (terzo comma): lo Stato fissa i **principi fondamentali**, la Regione la disciplina di **dettaglio**. Esempi: tutela della salute, istruzione, governo del territorio.\n\n**Residuale delle Regioni** (quarto comma): tutto ciò che non è elencato.\n\nLe **funzioni amministrative** (art. 118) spettano in via generale ai **Comuni**, salvo che per assicurarne l'esercizio unitario salgano a livelli superiori, secondo **sussidiarietà, differenziazione e adeguatezza**. La Corte (sent. 303/2003) ha ammesso che lo Stato, attraendo una funzione amministrativa, ne attragga anche la disciplina legislativa, purché ci sia un'**intesa** con la Regione: è la **chiamata in sussidiarietà**. I conflitti si compongono con la **leale collaborazione**.",
+      "punti": [
+        {
+          "testo": "Tre tipi di potestà: esclusiva statale, concorrente, residuale",
+          "chiavi": [
+            "esclusiv",
+            "concorrent",
+            "residual"
+          ]
+        },
+        {
+          "testo": "Nella concorrente lo Stato fissa i principi fondamentali",
+          "chiavi": [
+            "principi fondamentali",
+            "dettaglio"
+          ]
+        },
+        {
+          "testo": "Materie trasversali e livelli essenziali",
+          "chiavi": [
+            "trasversal",
+            "livelli essenziali"
+          ]
+        },
+        {
+          "testo": "Funzioni amministrative ai Comuni secondo sussidiarietà",
+          "chiavi": [
+            "comuni",
+            "sussidiariet",
+            "118"
+          ]
+        },
+        {
+          "testo": "Leale collaborazione e intese",
+          "chiavi": [
+            "leale",
+            "intes"
+          ]
+        }
       ]
     }
   ]

@@ -9,7 +9,14 @@
   ],
   "abstract": "Bicameralismo e organizzazione; votazioni e garanzie; controllo politico e decisioni finanziarie nel quadro costituzionale aggiornato.",
   "note": "Aggiornato: dal 2012 l'art. 81 impone l'equilibrio di bilancio e dal 2016 la legge di bilancio è una sola. Non confondere proroga delle Camere (art. 60) e prorogatio dei poteri (art. 61).",
-  "noteRedazione": ["pp. 70 e 74: separata proroga della durata (art. 60) dalla prorogatio dei poteri (art. 61). Composizione aggiornata a 400 deputati e 200 senatori elettivi; voto al Senato da 18 anni.", "p. 72: alla Camera il requisito ordinario di venti deputati opera nella XIX legislatura; quattordici dalla XX. La diversa decorrenza è esplicita nelle note dell’art. 14: https://conoscere.camera.it/norme-essenziali/il-regolamento-della-camera/parte_prima/capo_iii/art-14 .", "p. 73: corretto il numero di commissioni permanenti, quattordici Camera e dieci Senato nella XIX legislatura; fonti https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/086/004a/intero.htm e https://www.senato.it/istituzione/senato-sintesi .", "pp. 74–75: computo degli astenuti al Senato aggiornato alla riforma regolamentare del 2017, art. 107. Autonomia interna senza immunità da ogni controllo: Corte cost. 120/2014, https://www.cortecostituzionale.it/scheda-pronuncia/2014/120 . Art. 68 verificato su https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-i/articolo-68 .", "pp. 79–80: sostituita la disciplina del vecchio art. 81 con quella della l. cost. 1/2012 e della legge 243/2012. Legge di bilancio unica a due sezioni dal 2016: https://www.camera.it/leg17/465?tema=la_nuova_legge_di_bilancio . La progressività riguarda il sistema, non ogni singola imposta.", "Documenti 2026 e coordinamento europeo verificati su https://documenti.camera.it/leg19/dossier/testi/DFP20.htm e https://www.consilium.europa.eu/it/policies/economic-governance-framework/ . Non riprodotte le vecchie scadenze del DPEF; incluso il primo tratto di p. 80 che conclude il bilancio."],
+  "noteRedazione": [
+    "pp. 70 e 74: separata proroga della durata (art. 60) dalla prorogatio dei poteri (art. 61). Composizione aggiornata a 400 deputati e 200 senatori elettivi; voto al Senato da 18 anni.",
+    "p. 72: alla Camera il requisito ordinario di venti deputati opera nella XIX legislatura; quattordici dalla XX. La diversa decorrenza è esplicita nelle note dell’art. 14: https://conoscere.camera.it/norme-essenziali/il-regolamento-della-camera/parte_prima/capo_iii/art-14 .",
+    "p. 73: corretto il numero di commissioni permanenti, quattordici Camera e dieci Senato nella XIX legislatura; fonti https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/086/004a/intero.htm e https://www.senato.it/istituzione/senato-sintesi .",
+    "pp. 74–75: computo degli astenuti al Senato aggiornato alla riforma regolamentare del 2017, art. 107. Autonomia interna senza immunità da ogni controllo: Corte cost. 120/2014, https://www.cortecostituzionale.it/scheda-pronuncia/2014/120 . Art. 68 verificato su https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-i/articolo-68 .",
+    "pp. 79–80: sostituita la disciplina del vecchio art. 81 con quella della l. cost. 1/2012 e della legge 243/2012. Legge di bilancio unica a due sezioni dal 2016: https://www.camera.it/leg17/465?tema=la_nuova_legge_di_bilancio . La progressività riguarda il sistema, non ogni singola imposta.",
+    "Documenti 2026 e coordinamento europeo verificati su https://documenti.camera.it/leg19/dossier/testi/DFP20.htm e https://www.consilium.europa.eu/it/policies/economic-governance-framework/ . Non riprodotte le vecchie scadenze del DPEF; incluso il primo tratto di p. 80 che conclude il bilancio."
+  ],
   "lezioni": [
     {
       "titolo": "Due Camere: struttura, durata e organizzazione",
@@ -1270,6 +1277,223 @@
           "Art. 82",
           "Inchieste parlamentari"
         ]
+      ]
+    },
+    {
+      "id": "u08-q033",
+      "lezione": "u08-l1",
+      "livello": "avanzato",
+      "pagine": [
+        69,
+        73
+      ],
+      "concetti": [
+        "prorogatio",
+        "legislatura"
+      ],
+      "tipo": "multipla",
+      "domanda": "Sono passati i cinque anni della legislatura e le nuove Camere non si sono ancora riunite. Che cosa succede ai poteri delle Camere uscenti?",
+      "opzioni": [
+        "Cessano del tutto: decide il Governo con decreti",
+        "Sono prorogati finché non si riuniscono le nuove Camere",
+        "Passano al Presidente della Repubblica",
+        "Sono prorogati solo se lo stabilisce una legge"
+      ],
+      "corretta": 1,
+      "spiegazione": "È la prorogatio dell'art. 61, secondo comma. Non va confusa con la proroga della durata delle Camere, possibile solo per legge e in caso di guerra (art. 60)."
+    },
+    {
+      "id": "u08-q034",
+      "lezione": "u08-l1",
+      "livello": "medio",
+      "pagine": [
+        69,
+        73
+      ],
+      "concetti": [
+        "parlamento-in-seduta-comune"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il Parlamento in seduta comune può approvare le leggi quando Camera e Senato non trovano un accordo.",
+      "vero": false,
+      "spiegazione": "Si riunisce solo nei casi stabiliti dalla Costituzione: elezione e giuramento del Presidente della Repubblica, messa in stato d'accusa, elezione di cinque giudici costituzionali e dei membri laici del CSM."
+    },
+    {
+      "id": "u08-q035",
+      "lezione": "u08-l1",
+      "livello": "medio",
+      "pagine": [
+        69,
+        73
+      ],
+      "concetti": [
+        "bicameralismo-paritario"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa significa bicameralismo paritario e quali conseguenze ha?",
+      "risposta": "Camera e Senato hanno gli stessi poteri. Ne segue che ogni legge deve essere approvata da entrambe nello stesso testo e che il Governo deve avere la fiducia di tutte e due."
+    },
+    {
+      "id": "u08-q036",
+      "lezione": "u08-l2",
+      "livello": "avanzato",
+      "pagine": [
+        74,
+        77
+      ],
+      "concetti": [
+        "insindacabilita-parlamentare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un deputato insulta un vicino durante una lite privata. Può invocare l'insindacabilità dell'art. 68, primo comma?",
+      "opzioni": [
+        "Sì, perché è parlamentare",
+        "Sì, ma solo se la Camera lo autorizza",
+        "No, perché manca il collegamento con l'esercizio delle funzioni",
+        "No, perché l'insindacabilità vale solo per i senatori"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'insindacabilità copre le opinioni espresse e i voti dati nell'esercizio delle funzioni. Per la Corte costituzionale serve un nesso funzionale con l'attività parlamentare."
+    },
+    {
+      "id": "u08-q037",
+      "lezione": "u08-l2",
+      "livello": "medio",
+      "pagine": [
+        74,
+        77
+      ],
+      "concetti": [
+        "immunita-parlamentari"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per sottoporre un parlamentare a procedimento penale serve ancora l'autorizzazione della Camera di appartenenza.",
+      "vero": false,
+      "spiegazione": "L'autorizzazione a procedere è stata eliminata nel 1993. Oggi serve l'autorizzazione per arresto (salvo flagranza o condanna definitiva), perquisizioni e intercettazioni."
+    },
+    {
+      "id": "u08-q038",
+      "lezione": "u08-l2",
+      "livello": "base",
+      "pagine": [
+        74,
+        77
+      ],
+      "concetti": [
+        "interrogazione-parlamentare",
+        "interpellanza",
+        "mozione-parlamentare"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra interrogazione, interpellanza e mozione?",
+      "risposta": "L'interrogazione è una domanda al Governo su un fatto; l'interpellanza chiede i motivi e gli intendimenti della sua condotta; la mozione apre un dibattito e si chiude con un voto dell'assemblea che indirizza il Governo."
+    },
+    {
+      "id": "u08-q039",
+      "lezione": "u08-l3",
+      "livello": "medio",
+      "pagine": [
+        78,
+        80
+      ],
+      "concetti": [
+        "esercizio-provvisorio",
+        "legge-di-bilancio"
+      ],
+      "tipo": "multipla",
+      "domanda": "Al 31 dicembre la legge di bilancio non è ancora approvata. Che cosa consente la Costituzione?",
+      "opzioni": [
+        "L'esercizio provvisorio, concesso con legge e per non più di quattro mesi in tutto",
+        "La proroga automatica del bilancio dell'anno precedente",
+        "Un decreto del Presidente della Repubblica che approva il bilancio",
+        "La sospensione di tutte le spese dello Stato"
+      ],
+      "corretta": 0,
+      "spiegazione": "Art. 81: l'esercizio provvisorio non può essere concesso se non per legge e per periodi non superiori complessivamente a quattro mesi."
+    },
+    {
+      "id": "u08-q040",
+      "lezione": "u08-l3",
+      "livello": "avanzato",
+      "pagine": [
+        78,
+        80
+      ],
+      "concetti": [
+        "equilibrio-di-bilancio"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'art. 81 vieta in ogni caso allo Stato di ricorrere all'indebitamento.",
+      "vero": false,
+      "spiegazione": "L'indebitamento è consentito per tener conto degli effetti del ciclo economico e, con autorizzazione delle Camere a maggioranza assoluta, al verificarsi di eventi eccezionali."
+    },
+    {
+      "id": "u08-q041",
+      "lezione": "u08-l3",
+      "livello": "medio",
+      "pagine": [
+        78,
+        80
+      ],
+      "concetti": [
+        "capacita-contributiva",
+        "progressivita-tributaria"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa stabilisce l'art. 53 della Costituzione?",
+      "risposta": "Tutti concorrono alle spese pubbliche in ragione della loro capacità contributiva, cioè della loro forza economica effettiva; e il sistema tributario è informato a criteri di progressività: chi ha di più contribuisce in proporzione maggiore. La progressività riguarda il sistema nel suo insieme, non ogni singola imposta."
+    },
+    {
+      "id": "u08-q042",
+      "lezione": "u08-l2",
+      "livello": "avanzato",
+      "pagine": [
+        74,
+        77
+      ],
+      "concetti": [
+        "insindacabilita-parlamentare",
+        "immunita-parlamentari",
+        "prerogative-parlamentari"
+      ],
+      "tipo": "aperta",
+      "domanda": "Distingua insindacabilità e inviolabilità dei parlamentari secondo l'art. 68.",
+      "traccia": "Sono due **prerogative** a tutela della **funzione**, non privilegi della persona.\n\nL'**insindacabilità** (primo comma): i parlamentari non possono essere chiamati a rispondere delle **opinioni espresse e dei voti dati nell'esercizio delle funzioni**. È una irresponsabilità **sostanziale** e **perpetua**: vale in sede penale, civile e amministrativa, anche dopo la fine del mandato. Copre anche le dichiarazioni fuori dalle Camere, ma solo se c'è un **nesso funzionale** con l'attività parlamentare. Se il giudice non condivide la delibera della Camera, solleva **conflitto di attribuzione** davanti alla Corte costituzionale.\n\nL'**inviolabilità** (secondo e terzo comma) è una garanzia **processuale** e **temporanea**: senza **autorizzazione** della Camera il parlamentare non può essere arrestato o privato della libertà personale, perquisito, intercettato. Fanno eccezione l'esecuzione di una **condanna irrevocabile** e la **flagranza** di un delitto per cui è obbligatorio l'arresto.\n\nDal **1993** non serve più l'autorizzazione a procedere: il parlamentare può essere indagato e processato come ogni cittadino.",
+      "punti": [
+        {
+          "testo": "Sono garanzie della funzione, non privilegi",
+          "chiavi": [
+            "funzion"
+          ]
+        },
+        {
+          "testo": "Insindacabilità: opinioni e voti, per sempre",
+          "chiavi": [
+            "opinion",
+            "voti"
+          ]
+        },
+        {
+          "testo": "Serve il nesso funzionale",
+          "chiavi": [
+            "nesso"
+          ]
+        },
+        {
+          "testo": "Inviolabilità: autorizzazione per arresto, perquisizioni, intercettazioni",
+          "chiavi": [
+            "arrest",
+            "perquisiz",
+            "intercettaz"
+          ]
+        },
+        {
+          "testo": "Dal 1993 niente autorizzazione a procedere",
+          "chiavi": [
+            "1993",
+            "procedere"
+          ]
+        }
       ]
     }
   ]

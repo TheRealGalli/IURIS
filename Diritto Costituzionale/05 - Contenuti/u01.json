@@ -1494,6 +1494,275 @@
           "Attività imputata direttamente all’ente"
         ]
       ]
+    },
+    {
+      "id": "u01-q043",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        4,
+        6
+      ],
+      "concetti": [
+        "legittimazione",
+        "max-weber"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un capo è obbedito perché i seguaci gli attribuiscono qualità personali straordinarie. Secondo Weber, di quale potere legittimo si tratta?",
+      "opzioni": [
+        "Tradizionale",
+        "Legale-razionale",
+        "Carismatico",
+        "Coercitivo"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il potere carismatico si fonda sulle qualità eccezionali attribuite al capo; quello tradizionale sulla consuetudine, quello legale-razionale su regole generali e competenze."
+    },
+    {
+      "id": "u01-q044",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        4,
+        6
+      ],
+      "concetti": [
+        "potere-politico",
+        "legittimazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il potere politico si distingue dagli altri poteri sociali perché si regge soltanto sull'uso della forza.",
+      "vero": false,
+      "spiegazione": "La forza è la risorsa ultima e lo Stato ne ha il monopolio legittimo, ma un potere stabile si regge di regola sulla legittimazione, cioè sull'obbedienza riconosciuta come dovuta."
+    },
+    {
+      "id": "u01-q045",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        4,
+        6
+      ],
+      "concetti": [
+        "diritto-oggettivo",
+        "diritto-soggettivo"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra diritto oggettivo e diritto soggettivo? Faccia un esempio.",
+      "risposta": "Il diritto oggettivo è l'insieme delle norme di un ordinamento; il diritto soggettivo è la posizione di vantaggio che quelle norme riconoscono e tutelano in capo a un soggetto. Esempio: le norme sulla proprietà sono diritto oggettivo, il diritto di Tizio sulla sua casa è un diritto soggettivo."
+    },
+    {
+      "id": "u01-q046",
+      "lezione": "u01-l2",
+      "livello": "avanzato",
+      "pagine": [
+        7,
+        9
+      ],
+      "concetti": [
+        "territorio",
+        "sovranita"
+      ],
+      "tipo": "multipla",
+      "domanda": "La polizia italiana vuole entrare senza consenso in un'ambasciata straniera a Roma per eseguire un arresto. Perché non può?",
+      "opzioni": [
+        "Perché la sede è territorio dello Stato straniero",
+        "Perché la sede è territorio italiano ma gode di inviolabilità secondo il diritto internazionale",
+        "Perché serve una legge del Parlamento",
+        "Perché la sovranità italiana non si estende alla capitale"
+      ],
+      "corretta": 1,
+      "spiegazione": "La sede diplomatica resta territorio italiano: è protetta da un'immunità (inviolabilità), che limita l'esercizio dei poteri dello Stato ospitante senza spostare la sovranità territoriale."
+    },
+    {
+      "id": "u01-q047",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "pagine": [
+        7,
+        9
+      ],
+      "concetti": [
+        "sovranita",
+        "unione-europea"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Con l'adesione all'Unione europea l'Italia ha rinunciato in modo definitivo e totale alla propria sovranità.",
+      "vero": false,
+      "spiegazione": "L'art. 11 consente limitazioni di sovranità, in condizioni di parità con gli altri Stati; l'Unione esercita solo le competenze che i Trattati le attribuiscono."
+    },
+    {
+      "id": "u01-q048",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "pagine": [
+        7,
+        9
+      ],
+      "concetti": [
+        "sovranita"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa significano sovranità interna e sovranità esterna?",
+      "risposta": "La sovranità interna è la supremazia dello Stato su ogni altro potere che opera nel suo territorio; quella esterna è l'indipendenza dello Stato rispetto agli altri Stati. Sono due facce dello stesso carattere originario dell'ordinamento statale."
+    },
+    {
+      "id": "u01-q049",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "pagine": [
+        10,
+        11
+      ],
+      "concetti": [
+        "cittadinanza-europea"
+      ],
+      "tipo": "multipla",
+      "domanda": "Marta, cittadina spagnola, si trasferisce stabilmente a Bari. A quali elezioni può votare in Italia grazie alla cittadinanza europea?",
+      "opzioni": [
+        "A nessuna: votano solo i cittadini italiani",
+        "A tutte, comprese le politiche",
+        "Alle comunali e alle europee",
+        "Solo ai referendum"
+      ],
+      "corretta": 2,
+      "spiegazione": "La cittadinanza europea dà il diritto di voto e di eleggibilità alle elezioni comunali e a quelle del Parlamento europeo nello Stato membro di residenza; le elezioni politiche restano riservate ai cittadini."
+    },
+    {
+      "id": "u01-q050",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "pagine": [
+        10,
+        11
+      ],
+      "concetti": [
+        "cittadinanza-europea",
+        "cittadinanza"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La cittadinanza europea sostituisce la cittadinanza nazionale.",
+      "vero": false,
+      "spiegazione": "Si aggiunge alla cittadinanza di uno Stato membro e non la sostituisce: la si acquista e la si perde insieme a quella nazionale."
+    },
+    {
+      "id": "u01-q051",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "pagine": [
+        10,
+        11
+      ],
+      "concetti": [
+        "cittadinanza"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quale garanzia dà l'art. 22 della Costituzione in materia di cittadinanza?",
+      "risposta": "Nessuno può essere privato, per motivi politici, della capacità giuridica, della cittadinanza e del nome. È una reazione alle leggi fasciste che avevano tolto la cittadinanza agli oppositori e colpito le minoranze."
+    },
+    {
+      "id": "u01-q052",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "pagine": [
+        12,
+        14
+      ],
+      "concetti": [
+        "organo",
+        "stato"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un ministro firma un decreto nell'esercizio delle sue funzioni. A chi è giuridicamente imputato l'atto?",
+      "opzioni": [
+        "Al ministro come persona fisica",
+        "Allo Stato, perché il ministro agisce come suo organo",
+        "Al partito di maggioranza",
+        "Al Parlamento, che ha dato la fiducia"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per il rapporto organico l'atto compiuto dal titolare dell'organo è atto dell'ente: il ministro non rappresenta lo Stato dall'esterno, ne è una parte."
+    },
+    {
+      "id": "u01-q053",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "pagine": [
+        12,
+        14
+      ],
+      "concetti": [
+        "ufficio",
+        "organo"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Ogni ufficio di un ente pubblico è anche un suo organo.",
+      "vero": false,
+      "spiegazione": "È organo solo l'ufficio che può esprimere la volontà dell'ente con atti a esso direttamente imputati; molti uffici svolgono compiti interni o preparatori."
+    },
+    {
+      "id": "u01-q054",
+      "lezione": "u01-l4",
+      "livello": "avanzato",
+      "pagine": [
+        12,
+        14
+      ],
+      "concetti": [
+        "organo-costituzionale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa distingue un organo costituzionale dagli altri organi dello Stato?",
+      "risposta": "È un organo necessario e indefettibile, previsto e disciplinato nei tratti essenziali dalla Costituzione, in posizione di indipendenza e parità rispetto agli altri e partecipe della funzione di indirizzo o di garanzia. Esempi: Parlamento, Presidente della Repubblica, Governo, Corte costituzionale."
+    },
+    {
+      "id": "u01-q055",
+      "lezione": "u01-l2",
+      "livello": "avanzato",
+      "pagine": [
+        7,
+        9
+      ],
+      "concetti": [
+        "sovranita",
+        "sovranita-popolare",
+        "unione-europea"
+      ],
+      "tipo": "aperta",
+      "domanda": "Come si conciliano la sovranità popolare dell'art. 1 e le limitazioni di sovranità dell'art. 11?",
+      "traccia": "L'**art. 1** attribuisce la sovranità al popolo, che la esercita «nelle forme e nei limiti della Costituzione»: non è un potere assoluto, ma regolato. Tra questi limiti c'è l'**art. 11**, che consente, **in condizioni di parità** con gli altri Stati, le **limitazioni di sovranità** necessarie a un ordinamento che assicuri pace e giustizia tra le Nazioni. Su questa base l'Italia ha aderito alle Comunità e poi all'**Unione europea**, senza una revisione costituzionale.\n\nSi tratta di **limitazioni, non di cessione**: l'Unione ha solo le **competenze attribuite** dai Trattati e gli Stati restano «signori dei Trattati». Il limite ultimo sono i **controlimiti**: principi supremi e diritti inviolabili, che nemmeno il diritto dell'Unione può intaccare e sui quali vigila la Corte costituzionale. Dal 2001 anche l'**art. 117, primo comma**, vincola il legislatore al rispetto dell'ordinamento dell'Unione.",
+      "punti": [
+        {
+          "testo": "La sovranità popolare si esercita nei limiti della Costituzione",
+          "chiavi": [
+            "forme",
+            "limiti"
+          ]
+        },
+        {
+          "testo": "L'art. 11 consente limitazioni di sovranità in condizioni di parità",
+          "chiavi": [
+            "art. 11",
+            "parità",
+            "limitazion"
+          ]
+        },
+        {
+          "testo": "L'Unione ha solo competenze attribuite",
+          "chiavi": [
+            "attribu",
+            "trattati"
+          ]
+        },
+        {
+          "testo": "I controlimiti proteggono principi supremi e diritti inviolabili",
+          "chiavi": [
+            "controlimit",
+            "principi supremi",
+            "inviolabil"
+          ]
+        }
+      ]
     }
   ]
 }

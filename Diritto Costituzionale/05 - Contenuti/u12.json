@@ -9,7 +9,14 @@
   ],
   "abstract": "Produzione e conoscenza delle norme, interpretazione, antinomie, competenza e riserve di legge.",
   "note": "Le fonti non formano una sola scala gerarchica: contano anche la competenza e il diritto dell'Unione europea.",
-  "noteRedazione": ["p. 101: corretto lo schema che colloca le leggi regionali sotto le statali e omette il regime europeo: il sistema non è una sola scala gerarchica.", "p. 102: vacatio non è generica mancanza di norme; la regola dei quindici giorni è derogabile. Ignoranza inevitabile della legge penale: Corte cost. 364/1988, https://www.cortecostituzionale.it/scheda-pronuncia/1988/364 .", "pp. 103–104: distinta consuetudine fonte da prassi interpretativa; gli atti UE non sono consuetudini e la classificazione come fonti-fatto è spiegata come prospettiva degli appunti.", "p. 108: annullamento consegue a dichiarazione di illegittimità, non di legittimità. Retroattività non riapre indistintamente rapporti esauriti; eccezione penale art. 30 l. 87/1953, https://www.cortecostituzionale.it/scheda-pronuncia/2013/210 .", "p. 109: non ogni norma speciale è eccezionale o sottratta automaticamente all’analogia. Non applicata meccanicamente la formula sull’omogeneità di norme superiori e inferiori: vanno ricostruiti successione, competenza e rimedi.", "pp. 110–112: gli atti con forza di legge possono generalmente soddisfare la riserva, distinta dalla legge formale. Art. 95.3 e organizzazione amministrativa non sono trattati come esempi indiscriminati di riserva assoluta. Distinte riserva d’assemblea e legalità sostanziale."],
+  "noteRedazione": [
+    "p. 101: corretto lo schema che colloca le leggi regionali sotto le statali e omette il regime europeo: il sistema non è una sola scala gerarchica.",
+    "p. 102: vacatio non è generica mancanza di norme; la regola dei quindici giorni è derogabile. Ignoranza inevitabile della legge penale: Corte cost. 364/1988, https://www.cortecostituzionale.it/scheda-pronuncia/1988/364 .",
+    "pp. 103–104: distinta consuetudine fonte da prassi interpretativa; gli atti UE non sono consuetudini e la classificazione come fonti-fatto è spiegata come prospettiva degli appunti.",
+    "p. 108: annullamento consegue a dichiarazione di illegittimità, non di legittimità. Retroattività non riapre indistintamente rapporti esauriti; eccezione penale art. 30 l. 87/1953, https://www.cortecostituzionale.it/scheda-pronuncia/2013/210 .",
+    "p. 109: non ogni norma speciale è eccezionale o sottratta automaticamente all’analogia. Non applicata meccanicamente la formula sull’omogeneità di norme superiori e inferiori: vanno ricostruiti successione, competenza e rimedi.",
+    "pp. 110–112: gli atti con forza di legge possono generalmente soddisfare la riserva, distinta dalla legge formale. Art. 95.3 e organizzazione amministrativa non sono trattati come esempi indiscriminati di riserva assoluta. Distinte riserva d’assemblea e legalità sostanziale."
+  ],
   "lezioni": [
     {
       "titolo": "Riconoscere le fonti: produzione, conoscenza e rinvio",
@@ -1229,6 +1236,224 @@
           "Competenza",
           "Fonte abilitata nell’ambito riservato"
         ]
+      ]
+    },
+    {
+      "id": "u12-q033",
+      "lezione": "u12-l1",
+      "livello": "medio",
+      "pagine": [
+        101,
+        104
+      ],
+      "concetti": [
+        "vacatio-legis"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una legge è pubblicata nella Gazzetta Ufficiale il 1° marzo e non dispone nulla sulla propria entrata in vigore. Quando entra in vigore?",
+      "opzioni": [
+        "Il 1° marzo",
+        "Il 16 marzo",
+        "Il 1° aprile",
+        "Il giorno della promulgazione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 73, terzo comma: il quindicesimo giorno successivo alla pubblicazione, salvo che la legge stessa stabilisca un termine diverso."
+    },
+    {
+      "id": "u12-q034",
+      "lezione": "u12-l1",
+      "livello": "medio",
+      "pagine": [
+        101,
+        104
+      ],
+      "concetti": [
+        "consuetudine"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Una consuetudine può abrogare una legge.",
+      "vero": false,
+      "spiegazione": "La consuetudine è fonte-fatto subordinata: vale se la legge la richiama o nelle materie non regolate. La consuetudine contro la legge non è ammessa."
+    },
+    {
+      "id": "u12-q035",
+      "lezione": "u12-l1",
+      "livello": "medio",
+      "pagine": [
+        101,
+        104
+      ],
+      "concetti": [
+        "rinvio-fisso",
+        "rinvio-mobile"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra rinvio fisso e rinvio mobile?",
+      "risposta": "Il rinvio fisso (o recettizio) richiama un atto determinato, così com'è in quel momento: le modifiche successive non entrano. Il rinvio mobile (o formale) richiama una fonte, e quindi tutte le norme che essa produrrà nel tempo: è il caso dell'art. 10, primo comma, per il diritto internazionale generale."
+    },
+    {
+      "id": "u12-q036",
+      "lezione": "u12-l2",
+      "livello": "medio",
+      "pagine": [
+        105,
+        109
+      ],
+      "concetti": [
+        "criterio-gerarchico",
+        "antinomia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un regolamento del Governo del 2023 contrasta con una legge del 2020. Quale criterio risolve l'antinomia e con quale esito?",
+      "opzioni": [
+        "Cronologico: prevale il regolamento, più recente",
+        "Di specialità: prevale la norma più dettagliata",
+        "Gerarchico: prevale la legge e il regolamento è illegittimo",
+        "Di competenza: decide la Corte costituzionale"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il criterio gerarchico prevale su quello cronologico: la fonte inferiore non può contraddire quella superiore, anche se successiva."
+    },
+    {
+      "id": "u12-q037",
+      "lezione": "u12-l2",
+      "livello": "avanzato",
+      "pagine": [
+        105,
+        109
+      ],
+      "concetti": [
+        "abrogazione",
+        "annullamento"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'abrogazione, come l'annullamento, elimina la norma fin dall'origine.",
+      "vero": false,
+      "spiegazione": "L'abrogazione opera per il futuro: la norma continua a regolare i fatti avvenuti quando era in vigore. L'annullamento colpisce una norma invalida e vale anche per il passato, salvi i rapporti esauriti."
+    },
+    {
+      "id": "u12-q038",
+      "lezione": "u12-l2",
+      "livello": "medio",
+      "pagine": [
+        105,
+        109
+      ],
+      "concetti": [
+        "disposizione",
+        "norma-giuridica"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra disposizione e norma?",
+      "risposta": "La disposizione è il testo, l'enunciato scritto nell'atto. La norma è il significato che se ne ricava con l'interpretazione. Da una disposizione si possono ricavare più norme, e una norma può risultare da più disposizioni lette insieme."
+    },
+    {
+      "id": "u12-q039",
+      "lezione": "u12-l3",
+      "livello": "avanzato",
+      "pagine": [
+        110,
+        112
+      ],
+      "concetti": [
+        "riserva-di-legge"
+      ],
+      "tipo": "multipla",
+      "domanda": "L'art. 13 ammette restrizioni della libertà personale solo «nei casi e modi previsti dalla legge» e per atto motivato dell'autorità giudiziaria. Di quale garanzia si tratta?",
+      "opzioni": [
+        "Riserva di legge relativa",
+        "Riserva di legge assoluta, unita a riserva di giurisdizione",
+        "Riserva di regolamento",
+        "Semplice principio di legalità"
+      ],
+      "corretta": 1,
+      "spiegazione": "La legge deve disciplinare interamente la materia, senza spazio per i regolamenti, e ogni provvedimento concreto spetta a un giudice."
+    },
+    {
+      "id": "u12-q040",
+      "lezione": "u12-l3",
+      "livello": "medio",
+      "pagine": [
+        110,
+        112
+      ],
+      "concetti": [
+        "riserva-di-legge"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nella riserva di legge relativa la legge può fissare la disciplina essenziale e lasciare il resto ai regolamenti.",
+      "vero": true,
+      "spiegazione": "È la differenza con la riserva assoluta, che esclude l'intervento di fonti secondarie se non per l'esecuzione più minuta."
+    },
+    {
+      "id": "u12-q041",
+      "lezione": "u12-l3",
+      "livello": "avanzato",
+      "pagine": [
+        110,
+        112
+      ],
+      "concetti": [
+        "riserva-di-legge"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cos'è una riserva di legge rinforzata? Faccia un esempio.",
+      "risposta": "È una riserva in cui la Costituzione non si limita a chiedere una legge, ma ne vincola anche il contenuto. Esempio: l'art. 16 consente limiti alla libertà di circolazione solo «in via generale» e «per motivi di sanità o di sicurezza»."
+    },
+    {
+      "id": "u12-q042",
+      "lezione": "u12-l2",
+      "livello": "avanzato",
+      "pagine": [
+        105,
+        109
+      ],
+      "concetti": [
+        "antinomia",
+        "criterio-cronologico",
+        "criterio-gerarchico",
+        "criterio-di-specialita",
+        "criterio-di-competenza"
+      ],
+      "tipo": "aperta",
+      "domanda": "Illustri i criteri per risolvere le antinomie e i loro effetti.",
+      "traccia": "Si ha **antinomia** quando due norme regolano lo stesso caso in modo incompatibile. L'ordinamento offre quattro criteri.\n\n**Cronologico**: tra fonti dello stesso grado prevale la norma **successiva**. L'effetto è l'**abrogazione** (espressa, tacita o per nuova disciplina dell'intera materia), che opera **per il futuro**.\n\n**Gerarchico**: prevale la fonte **superiore**. La norma inferiore è **invalida** e viene **annullata**: la legge dalla Corte costituzionale, il regolamento dal giudice amministrativo. L'annullamento vale anche **per il passato**, salvi i rapporti esauriti.\n\n**Specialità**: la norma **speciale** prevale su quella generale, anche se anteriore. L'effetto è la **deroga**: la norma generale resta valida e continua ad applicarsi agli altri casi.\n\n**Competenza**: quando la Costituzione riserva una materia a una fonte (legge regionale, regolamenti parlamentari, fonti dell'Unione), prevale la fonte **competente**; quella incompetente è invalida o non applicata.\n\nSe i criteri confliggono, il gerarchico prevale sul cronologico; tra cronologico e specialità vale di regola che la legge generale successiva non abroga la speciale anteriore.",
+      "punti": [
+        {
+          "testo": "Cronologico: la norma successiva abroga, per il futuro",
+          "chiavi": [
+            "cronologic",
+            "abroga"
+          ]
+        },
+        {
+          "testo": "Gerarchico: la fonte inferiore è invalida e viene annullata",
+          "chiavi": [
+            "gerarchic",
+            "annull",
+            "invalid"
+          ]
+        },
+        {
+          "testo": "Specialità: la norma speciale deroga a quella generale",
+          "chiavi": [
+            "special",
+            "derog"
+          ]
+        },
+        {
+          "testo": "Competenza: prevale la fonte a cui la materia è riservata",
+          "chiavi": [
+            "competenz"
+          ]
+        },
+        {
+          "testo": "Il gerarchico prevale sul cronologico",
+          "chiavi": [
+            "prevale"
+          ]
+        }
       ]
     }
   ]

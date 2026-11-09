@@ -9,7 +9,12 @@
   ],
   "abstract": "La fiducia, i mandati e il sistema dei partiti distinguono parlamentarismo, presidenzialismo, semipresidenzialismo e direttorio.",
   "note": "Il governo svizzero (Consiglio federale) ha sette membri. In Israele l'elezione diretta del Primo ministro è stata abolita nel 2001.",
-  "noteRedazione": ["p. 44: corretti i cinque membri del direttorio svizzero in sette; verificato su https://www.admin.ch/it/il-consiglio-federale e https://www.parlament.ch/it/über-das-parlament/ritratto-del-parlamento/compiti-assemblea-federale/elezioni/elezione-consiglio-federale .", "p. 44: Israele è esempio storico di elezione diretta del Primo ministro, abrogata nel 2001: https://main.knesset.gov.il/EN/mk/pages/elections.aspx .", "pp. 42–43: gli elettori presidenziali statunitensi votano negli Stati, non in un collegio nazionale riunito; i collaboratori sono segretari di dipartimento e non tutti Segretari di Stato. Procedura verificata su https://www.archives.gov/electoral-college/faq .", "Il modello francese è verificato sul testo costituzionale, artt. 20–21 e 49–50: https://www.elysee.fr/la-presidence/la-constitution-de-la-cinquieme-republique ."],
+  "noteRedazione": [
+    "p. 44: corretti i cinque membri del direttorio svizzero in sette; verificato su https://www.admin.ch/it/il-consiglio-federale e https://www.parlament.ch/it/über-das-parlament/ritratto-del-parlamento/compiti-assemblea-federale/elezioni/elezione-consiglio-federale .",
+    "p. 44: Israele è esempio storico di elezione diretta del Primo ministro, abrogata nel 2001: https://main.knesset.gov.il/EN/mk/pages/elections.aspx .",
+    "pp. 42–43: gli elettori presidenziali statunitensi votano negli Stati, non in un collegio nazionale riunito; i collaboratori sono segretari di dipartimento e non tutti Segretari di Stato. Procedura verificata su https://www.archives.gov/electoral-college/faq .",
+    "Il modello francese è verificato sul testo costituzionale, artt. 20–21 e 49–50: https://www.elysee.fr/la-presidence/la-constitution-de-la-cinquieme-republique ."
+  ],
   "lezioni": [
     {
       "titolo": "Dal dualismo monarchico al parlamentarismo: fiducia e partiti",
@@ -743,6 +748,169 @@
           "Direttoriale svizzero",
           "Collegio di sette membri senza normale sfiducia"
         ]
+      ]
+    },
+    {
+      "id": "u05-q023",
+      "lezione": "u05-l1",
+      "livello": "base",
+      "pagine": [
+        39,
+        41
+      ],
+      "concetti": [
+        "governo-parlamentare",
+        "rapporto-di-fiducia"
+      ],
+      "tipo": "multipla",
+      "domanda": "In uno Stato il Governo resta in carica finché ha il sostegno del Parlamento, che con un voto può costringerlo a dimettersi. Di quale forma di governo si tratta?",
+      "opzioni": [
+        "Presidenziale",
+        "Parlamentare",
+        "Direttoriale",
+        "Monarchia costituzionale"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il rapporto di fiducia tra Parlamento e Governo è il carattere che definisce la forma di governo parlamentare."
+    },
+    {
+      "id": "u05-q024",
+      "lezione": "u05-l1",
+      "livello": "medio",
+      "pagine": [
+        39,
+        41
+      ],
+      "concetti": [
+        "monarchia-costituzionale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nella monarchia costituzionale il Governo doveva avere la fiducia del Parlamento.",
+      "vero": false,
+      "spiegazione": "Era una forma dualista: i ministri dipendevano dal re, titolare del potere esecutivo. È con il passaggio al governo parlamentare che il Governo deve godere della fiducia delle Camere."
+    },
+    {
+      "id": "u05-q025",
+      "lezione": "u05-l1",
+      "livello": "avanzato",
+      "pagine": [
+        39,
+        41
+      ],
+      "concetti": [
+        "razionalizzazione-del-parlamentarismo"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa significa «razionalizzare» il parlamentarismo? Faccia un esempio.",
+      "risposta": "Significa fissare in Costituzione regole che danno stabilità al Governo e ordine al rapporto di fiducia. Esempi: la sfiducia costruttiva tedesca (si può sfiduciare il Cancelliere solo eleggendo il successore) e, in Italia, le regole dell'art. 94 sulla mozione di sfiducia: motivazione, un decimo dei firmatari, tre giorni di attesa, appello nominale."
+    },
+    {
+      "id": "u05-q026",
+      "lezione": "u05-l2",
+      "livello": "medio",
+      "pagine": [
+        42,
+        44
+      ],
+      "concetti": [
+        "governo-presidenziale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il capo dell'esecutivo è eletto dal popolo, non può essere sfiduciato dal Parlamento e non può scioglierlo. Di quale forma di governo si tratta?",
+      "opzioni": [
+        "Semipresidenziale",
+        "Parlamentare",
+        "Presidenziale",
+        "Direttoriale"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel governo presidenziale esecutivo e legislativo hanno legittimazioni distinte e durata fissa: nessuno dei due può far cadere l'altro."
+    },
+    {
+      "id": "u05-q027",
+      "lezione": "u05-l2",
+      "livello": "medio",
+      "pagine": [
+        42,
+        44
+      ],
+      "concetti": [
+        "coabitazione",
+        "governo-semipresidenziale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nella coabitazione il Presidente e la maggioranza parlamentare appartengono a schieramenti politici opposti.",
+      "vero": true,
+      "spiegazione": "Succede nel sistema semipresidenziale quando le elezioni parlamentari danno la maggioranza agli avversari del Presidente: il Primo ministro, che ha la fiducia del Parlamento, guida allora di fatto la politica interna."
+    },
+    {
+      "id": "u05-q028",
+      "lezione": "u05-l2",
+      "livello": "medio",
+      "pagine": [
+        42,
+        44
+      ],
+      "concetti": [
+        "governo-semipresidenziale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali due elementi definiscono il governo semipresidenziale?",
+      "risposta": "Un Presidente eletto direttamente dal popolo, con poteri propri di indirizzo; e un Governo guidato da un Primo ministro che deve avere la fiducia del Parlamento. L'esecutivo ha quindi due teste."
+    },
+    {
+      "id": "u05-q029",
+      "lezione": "u05-l2",
+      "livello": "avanzato",
+      "pagine": [
+        42,
+        44
+      ],
+      "concetti": [
+        "governo-parlamentare",
+        "governo-presidenziale",
+        "governo-semipresidenziale"
+      ],
+      "tipo": "aperta",
+      "domanda": "Confronti le forme di governo parlamentare, presidenziale e semipresidenziale.",
+      "traccia": "Il criterio è il **rapporto tra esecutivo e legislativo**.\n\nNel governo **parlamentare** il Governo nasce dal Parlamento e deve averne la **fiducia**: se la perde si dimette. Il capo dello Stato è distinto dal capo del Governo e ha un ruolo di **garanzia**; di regola è previsto lo **scioglimento anticipato**. Esempi: Italia, Germania, Regno Unito.\n\nNel governo **presidenziale** il Presidente è **eletto dal popolo**, è insieme capo dello Stato e dell'esecutivo e dura in carica per un tempo fisso. **Non c'è fiducia**: il Parlamento non può sfiduciarlo e lui non può scioglierlo. La separazione è rigida, temperata da controlli reciproci (veto, bilancio). Esempio: Stati Uniti.\n\nNel governo **semipresidenziale** l'esecutivo ha **due teste**: un Presidente eletto direttamente, con poteri propri, e un Primo ministro che deve avere la **fiducia** del Parlamento. Se le maggioranze divergono si ha la **coabitazione**. Esempio: Francia della V Repubblica.",
+      "punti": [
+        {
+          "testo": "Il criterio è il rapporto tra esecutivo e legislativo",
+          "chiavi": [
+            "esecutiv",
+            "legislativ",
+            "rapporto"
+          ]
+        },
+        {
+          "testo": "Parlamentare: fiducia tra Parlamento e Governo",
+          "chiavi": [
+            "fiducia"
+          ]
+        },
+        {
+          "testo": "Presidenziale: elezione popolare, nessuna fiducia, nessuno scioglimento",
+          "chiavi": [
+            "eletto",
+            "popolo",
+            "stati uniti"
+          ]
+        },
+        {
+          "testo": "Semipresidenziale: Presidente eletto e Governo con fiducia",
+          "chiavi": [
+            "due teste",
+            "primo ministro",
+            "francia"
+          ]
+        },
+        {
+          "testo": "Coabitazione",
+          "chiavi": [
+            "coabitazion"
+          ]
+        }
       ]
     }
   ]

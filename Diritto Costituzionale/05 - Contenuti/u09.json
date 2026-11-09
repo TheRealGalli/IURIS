@@ -9,7 +9,13 @@
   ],
   "abstract": "Elezione e garanzie del mandato, responsabilità funzionale e diverse attribuzioni del capo dello Stato.",
   "note": "Il semestre bianco vieta lo scioglimento delle Camere, non le elezioni. La grazia è un potere sostanzialmente del Presidente (Corte cost. 200/2006).",
-  "noteRedazione": ["p. 84: il semestre bianco riguarda lo scioglimento, non il divieto assoluto di indire elezioni; aggiunta l’eccezione della coincidenza con gli ultimi sei mesi della legislatura (art. 88).", "p. 86: corretto il potere di grazia come sostanzialmente presidenziale, Corte cost. 200/2006: https://www.cortecostituzionale.it/scheda-pronuncia/2006/200 e https://new.quirinale.it/page/notagrazia .", "p. 85: il limite di cinque senatori di nomina presidenziale riguarda il totale in carica, non ciascun mandato: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-i/articolo-59 .", "pp. 82–83: distinta irresponsabilità funzionale da responsabilità extrafunzionale. La messa in stato d’accusa non è una semplice autorizzazione al processo ordinario.", "pp. 86–87: Consiglio supremo di difesa come sede di raccordo, con disciplina nel d.lgs. 66/2010: https://www.quirinale.it/it/pagine/consiglio-supremo-difesa . Supplenza e termini verificati su https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-ii/articolo-86 ."],
+  "noteRedazione": [
+    "p. 84: il semestre bianco riguarda lo scioglimento, non il divieto assoluto di indire elezioni; aggiunta l’eccezione della coincidenza con gli ultimi sei mesi della legislatura (art. 88).",
+    "p. 86: corretto il potere di grazia come sostanzialmente presidenziale, Corte cost. 200/2006: https://www.cortecostituzionale.it/scheda-pronuncia/2006/200 e https://new.quirinale.it/page/notagrazia .",
+    "p. 85: il limite di cinque senatori di nomina presidenziale riguarda il totale in carica, non ciascun mandato: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-i/articolo-59 .",
+    "pp. 82–83: distinta irresponsabilità funzionale da responsabilità extrafunzionale. La messa in stato d’accusa non è una semplice autorizzazione al processo ordinario.",
+    "pp. 86–87: Consiglio supremo di difesa come sede di raccordo, con disciplina nel d.lgs. 66/2010: https://www.quirinale.it/it/pagine/consiglio-supremo-difesa . Supplenza e termini verificati su https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-ii/articolo-86 ."
+  ],
   "lezioni": [
     {
       "titolo": "Il capo dello Stato: elezione, mandato, supplenza e responsabilità",
@@ -794,6 +800,165 @@
           "Art. 90",
           "Responsabilità funzionale eccezionale"
         ]
+      ]
+    },
+    {
+      "id": "u09-q023",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        80,
+        83
+      ],
+      "concetti": [
+        "presidente-della-repubblica"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quale maggioranza serve per eleggere il Presidente della Repubblica dal quarto scrutinio?",
+      "opzioni": [
+        "Due terzi dell'assemblea",
+        "Maggioranza assoluta dell'assemblea",
+        "Maggioranza dei presenti",
+        "Tre quinti dei votanti"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 83: due terzi nei primi tre scrutini, maggioranza assoluta dal quarto. Vota il Parlamento in seduta comune integrato dai delegati regionali."
+    },
+    {
+      "id": "u09-q024",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        80,
+        83
+      ],
+      "concetti": [
+        "presidente-della-repubblica",
+        "alto-tradimento",
+        "attentato-alla-costituzione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il Presidente della Repubblica risponde penalmente di tutti gli atti compiuti nell'esercizio delle sue funzioni.",
+      "vero": false,
+      "spiegazione": "Per gli atti funzionali non è responsabile, tranne che per alto tradimento e attentato alla Costituzione (art. 90). La responsabilità è assunta dai ministri che controfirmano."
+    },
+    {
+      "id": "u09-q025",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        80,
+        83
+      ],
+      "concetti": [
+        "supplenza-presidenziale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Chi sostituisce il Presidente della Repubblica quando non può adempiere le sue funzioni?",
+      "risposta": "Il Presidente del Senato (art. 86). Se l'impedimento è permanente, o in caso di morte o dimissioni, il Presidente della Camera indice l'elezione del nuovo Presidente entro quindici giorni."
+    },
+    {
+      "id": "u09-q026",
+      "lezione": "u09-l2",
+      "livello": "medio",
+      "pagine": [
+        82,
+        87
+      ],
+      "concetti": [
+        "rinvio-presidenziale",
+        "promulgazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il Presidente della Repubblica ritiene che una legge appena approvata sia priva di copertura finanziaria. Che cosa può fare?",
+      "opzioni": [
+        "Rifiutare definitivamente la promulgazione",
+        "Annullare la legge",
+        "Rinviarla alle Camere con messaggio motivato; se è riapprovata deve promulgarla",
+        "Sottoporla a referendum"
+      ],
+      "corretta": 2,
+      "spiegazione": "Art. 74: il rinvio è un veto solo sospensivo e si può esercitare una volta sola sulla stessa legge."
+    },
+    {
+      "id": "u09-q027",
+      "lezione": "u09-l2",
+      "livello": "avanzato",
+      "pagine": [
+        82,
+        87
+      ],
+      "concetti": [
+        "semestre-bianco",
+        "scioglimento-anticipato"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Negli ultimi sei mesi del mandato il Presidente non può mai sciogliere le Camere.",
+      "vero": false,
+      "spiegazione": "Il divieto del semestre bianco cade se quei mesi coincidono, in tutto o in parte, con gli ultimi sei mesi della legislatura (art. 88, modificato nel 1991)."
+    },
+    {
+      "id": "u09-q028",
+      "lezione": "u09-l2",
+      "livello": "avanzato",
+      "pagine": [
+        82,
+        87
+      ],
+      "concetti": [
+        "controfirma"
+      ],
+      "tipo": "flashcard",
+      "domanda": "A che cosa serve la controfirma e che cosa cambia secondo il tipo di atto?",
+      "risposta": "Nessun atto del Presidente è valido senza la controfirma del ministro proponente, che ne assume la responsabilità (art. 89). Negli atti sostanzialmente governativi il contenuto è deciso dal Governo e il Presidente controlla; in quelli sostanzialmente presidenziali decide il Presidente e la controfirma attesta la regolarità; negli atti complessi le due volontà concorrono."
+    },
+    {
+      "id": "u09-q029",
+      "lezione": "u09-l2",
+      "livello": "avanzato",
+      "pagine": [
+        82,
+        87
+      ],
+      "concetti": [
+        "controfirma",
+        "presidente-della-repubblica",
+        "grazia",
+        "scioglimento-anticipato"
+      ],
+      "tipo": "aperta",
+      "domanda": "Classifichi gli atti del Presidente della Repubblica in base al ruolo della controfirma.",
+      "traccia": "Per l'**art. 89** nessun atto del Presidente è valido se non è **controfirmato** dai ministri proponenti, che ne assumono la **responsabilità**; gli atti con valore legislativo e gli altri indicati dalla legge sono controfirmati anche dal Presidente del Consiglio. La regola nasce dall'**irresponsabilità** politica del capo dello Stato (art. 90). La dottrina distingue tre gruppi.\n\n**Atti formalmente presidenziali e sostanzialmente governativi**: il contenuto è deciso dal Governo; il Presidente esercita un **controllo** e può chiedere un riesame. Esempi: emanazione di decreti-legge, decreti legislativi e regolamenti; nomina dei funzionari.\n\n**Atti formalmente e sostanzialmente presidenziali**: decide il Presidente, e la controfirma attesta solo la **regolarità** del procedimento. Esempi: nomina dei cinque giudici costituzionali e dei senatori a vita, **rinvio** delle leggi, messaggi alle Camere, **grazia** (Corte cost. 200/2006).\n\n**Atti complessi**: le due volontà **concorrono**. Esempi: nomina del Presidente del Consiglio, **scioglimento anticipato** delle Camere.",
+      "punti": [
+        {
+          "testo": "La controfirma è condizione di validità e sposta la responsabilità",
+          "chiavi": [
+            "valid",
+            "responsabil"
+          ]
+        },
+        {
+          "testo": "Atti sostanzialmente governativi: il Presidente controlla",
+          "chiavi": [
+            "governativ",
+            "controll"
+          ]
+        },
+        {
+          "testo": "Atti sostanzialmente presidenziali: giudici costituzionali, senatori a vita, rinvio, grazia",
+          "chiavi": [
+            "presidenzial",
+            "grazia",
+            "rinvio"
+          ]
+        },
+        {
+          "testo": "Atti complessi: nomina del Presidente del Consiglio e scioglimento",
+          "chiavi": [
+            "compless",
+            "scioglimento"
+          ]
+        }
       ]
     }
   ]

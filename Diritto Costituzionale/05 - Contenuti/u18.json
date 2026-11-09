@@ -9,7 +9,16 @@
   ],
   "abstract": "Titolarità e garanzie, libertà individuali e pubbliche, diritti sociali, rapporti economici e solidarietà.",
   "note": "Aggiornato: dal 2022 l'art. 41 nomina salute e ambiente; dal 2023 l'art. 33 riconosce lo sport; il servizio di leva è sospeso dal 2005.",
-  "noteRedazione": ["pp. 158–161: corretto il capovolgimento sulla libertà individuale nel pensiero liberale; art. 13 non esaurisce i diritti dell’art. 2. Distinti diritti fondamentali della persona e modalità collegate alla cittadinanza; la riserva di legge non esclude in blocco gli atti con forza di legge.", "p. 162: completata la scansione art. 13: comunicazione 48 ore e convalida nelle successive 48; eliminato il linguaggio processuale superato del mandato di cattura obbligatorio. TSO aggiornato a Corte cost. 76/2025: https://www.cortecostituzionale.it/scheda-pronuncia/2025/76 .", "pp. 164–166: art. 12 sulla stampa è refuso per art. 21; specificati i termini 24 + 24 della stampa periodica urgente. Non riproposte le soglie storiche della legge Mammì come disciplina attuale; quadro audiovisivo: https://www.agcom.it/competenze/media/tutele/diritti-fondamentali-persona .", "p. 166: il vecchio nulla osta cinematografico è sostituito dalla classificazione per i minori, d.lgs. 203/2017 operativa nel 2021: https://www.cinema.beniculturali.it/database-nuova-classificazione/ .", "pp. 167–169: istruzione non riservata ai soli cittadini; obbligo legislativo dieci anni ex l. 296/2006, distinto dagli otto minimi dell’art. 34: https://temi.camera.it/leg19/temi/istruzione-tecnica-e-professionale.html . Art. 33 aggiornato allo sport nel 2023: https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-ii/articolo-33 . Il dovere di lavoro non istituisce da solo un reato di disoccupazione.", "pp. 170–171: art. 41 aggiornato dalla l. cost. 1/2022 con salute, ambiente e fini ambientali: https://documenti.camera.it/leg18/dossier/testi/AC0504c.htm . Art. 46: l. 76/2025, https://www.normattiva.it/eli/id/2025/05/26/25G00081/CONSOLIDATED/ . Non presentato l’indennizzo come contributo arbitrario della PA.", "p. 171: chiamate ordinarie di leva sospese dal 2005 ex l. 226/2004, dovere costituzionale distinto: https://documenti.camera.it/leg17/dossier/Testi/DI0001_1.htm . Progressività del sistema nel complesso, non di ogni imposta; giuramento soltanto nei casi stabiliti.", "Confrontate pp. 195–196: inviolabilità non significa assenza di ogni limite; ragionevolezza e differenziazioni pertinenti sono riprese nel confronto fra uguaglianza formale e sostanziale. La funzione sociale non è una facoltà del giudice di negare ogni tutela alla proprietà in base alla propria preferenza politica."],
+  "noteRedazione": [
+    "pp. 158–161: corretto il capovolgimento sulla libertà individuale nel pensiero liberale; art. 13 non esaurisce i diritti dell’art. 2. Distinti diritti fondamentali della persona e modalità collegate alla cittadinanza; la riserva di legge non esclude in blocco gli atti con forza di legge.",
+    "p. 162: completata la scansione art. 13: comunicazione 48 ore e convalida nelle successive 48; eliminato il linguaggio processuale superato del mandato di cattura obbligatorio. TSO aggiornato a Corte cost. 76/2025: https://www.cortecostituzionale.it/scheda-pronuncia/2025/76 .",
+    "pp. 164–166: art. 12 sulla stampa è refuso per art. 21; specificati i termini 24 + 24 della stampa periodica urgente. Non riproposte le soglie storiche della legge Mammì come disciplina attuale; quadro audiovisivo: https://www.agcom.it/competenze/media/tutele/diritti-fondamentali-persona .",
+    "p. 166: il vecchio nulla osta cinematografico è sostituito dalla classificazione per i minori, d.lgs. 203/2017 operativa nel 2021: https://www.cinema.beniculturali.it/database-nuova-classificazione/ .",
+    "pp. 167–169: istruzione non riservata ai soli cittadini; obbligo legislativo dieci anni ex l. 296/2006, distinto dagli otto minimi dell’art. 34: https://temi.camera.it/leg19/temi/istruzione-tecnica-e-professionale.html . Art. 33 aggiornato allo sport nel 2023: https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-ii/articolo-33 . Il dovere di lavoro non istituisce da solo un reato di disoccupazione.",
+    "pp. 170–171: art. 41 aggiornato dalla l. cost. 1/2022 con salute, ambiente e fini ambientali: https://documenti.camera.it/leg18/dossier/testi/AC0504c.htm . Art. 46: l. 76/2025, https://www.normattiva.it/eli/id/2025/05/26/25G00081/CONSOLIDATED/ . Non presentato l’indennizzo come contributo arbitrario della PA.",
+    "p. 171: chiamate ordinarie di leva sospese dal 2005 ex l. 226/2004, dovere costituzionale distinto: https://documenti.camera.it/leg17/dossier/Testi/DI0001_1.htm . Progressività del sistema nel complesso, non di ogni imposta; giuramento soltanto nei casi stabiliti.",
+    "Confrontate pp. 195–196: inviolabilità non significa assenza di ogni limite; ragionevolezza e differenziazioni pertinenti sono riprese nel confronto fra uguaglianza formale e sostanziale. La funzione sociale non è una facoltà del giudice di negare ogni tutela alla proprietà in base alla propria preferenza politica."
+  ],
   "lezioni": [
     {
       "titolo": "Persona, formazioni sociali, uguaglianza e garanzie",
@@ -1782,6 +1791,326 @@
           "Capacità contributiva",
           "Art. 53"
         ]
+      ]
+    },
+    {
+      "id": "u18-q053",
+      "lezione": "u18-l1",
+      "livello": "medio",
+      "pagine": [
+        158,
+        161
+      ],
+      "concetti": [
+        "principio-di-uguaglianza"
+      ],
+      "tipo": "multipla",
+      "domanda": "Che cosa chiede al legislatore il principio di uguaglianza, secondo la Corte costituzionale?",
+      "opzioni": [
+        "Di trattare tutti allo stesso identico modo, in ogni caso",
+        "Di trattare in modo uguale le situazioni uguali e in modo diverso quelle diverse, senza distinzioni irragionevoli",
+        "Di non approvare leggi che riguardano solo alcune categorie",
+        "Di distribuire in parti uguali le risorse pubbliche"
+      ],
+      "corretta": 1,
+      "spiegazione": "È il canone della ragionevolezza: una differenza di trattamento è legittima se ha una giustificazione adeguata."
+    },
+    {
+      "id": "u18-q054",
+      "lezione": "u18-l1",
+      "livello": "medio",
+      "pagine": [
+        158,
+        161
+      ],
+      "concetti": [
+        "diritti-inviolabili"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "I diritti inviolabili dell'art. 2 spettano soltanto ai cittadini italiani.",
+      "vero": false,
+      "spiegazione": "L'art. 2 parla di diritti «dell'uomo»: spettano a ogni persona, anche straniera."
+    },
+    {
+      "id": "u18-q055",
+      "lezione": "u18-l1",
+      "livello": "medio",
+      "pagine": [
+        158,
+        161
+      ],
+      "concetti": [
+        "riserva-di-legge",
+        "riserva-di-giurisdizione"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra riserva di legge e riserva di giurisdizione?",
+      "risposta": "La riserva di legge stabilisce chi può dettare la regola generale: il Parlamento, non il Governo con regolamenti. La riserva di giurisdizione stabilisce chi può adottare il provvedimento nel caso concreto: solo un giudice, con atto motivato."
+    },
+    {
+      "id": "u18-q056",
+      "lezione": "u18-l2",
+      "livello": "avanzato",
+      "pagine": [
+        161,
+        163
+      ],
+      "concetti": [
+        "liberta-personale"
+      ],
+      "tipo": "multipla",
+      "domanda": "In un caso eccezionale di necessità e urgenza la polizia ferma una persona. Quali termini impone l'art. 13?",
+      "opzioni": [
+        "Comunicazione al giudice entro 24 ore e convalida entro 24",
+        "Comunicazione entro 48 ore e convalida entro le successive 48",
+        "Comunicazione entro 72 ore e convalida entro 5 giorni",
+        "Nessun termine, se il fermo è motivato"
+      ],
+      "corretta": 1,
+      "spiegazione": "Se i termini non sono rispettati il provvedimento si intende revocato e resta privo di ogni effetto."
+    },
+    {
+      "id": "u18-q057",
+      "lezione": "u18-l2",
+      "livello": "medio",
+      "pagine": [
+        161,
+        163
+      ],
+      "concetti": [
+        "liberta-di-circolazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La libertà di circolazione può essere limitata per ragioni politiche.",
+      "vero": false,
+      "spiegazione": "L'art. 16 lo esclude espressamente: sono ammesse solo limitazioni stabilite dalla legge in via generale per motivi di sanità o di sicurezza."
+    },
+    {
+      "id": "u18-q058",
+      "lezione": "u18-l2",
+      "livello": "medio",
+      "pagine": [
+        161,
+        163
+      ],
+      "concetti": [
+        "trattamento-sanitario-obbligatorio"
+      ],
+      "tipo": "flashcard",
+      "domanda": "A quali condizioni è ammesso un trattamento sanitario obbligatorio?",
+      "risposta": "Solo per disposizione di legge, e la legge non può in nessun caso violare i limiti imposti dal rispetto della persona umana (art. 32, secondo comma). Deve servire anche a tutelare la salute collettiva."
+    },
+    {
+      "id": "u18-q059",
+      "lezione": "u18-l3",
+      "livello": "medio",
+      "pagine": [
+        163,
+        166
+      ],
+      "concetti": [
+        "liberta-di-riunione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un'associazione di studenti vuole tenere una manifestazione in piazza. Che cosa richiede l'art. 17?",
+      "opzioni": [
+        "L'autorizzazione del prefetto",
+        "Il preavviso alle autorità, che possono vietarla solo per comprovati motivi di sicurezza o incolumità pubblica",
+        "Nulla: nessuna formalità",
+        "La presenza di un rappresentante del Comune"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per le riunioni in luogo pubblico basta il preavviso. Per quelle in luogo privato o aperto al pubblico non serve nemmeno questo."
+    },
+    {
+      "id": "u18-q060",
+      "lezione": "u18-l3",
+      "livello": "base",
+      "pagine": [
+        163,
+        166
+      ],
+      "concetti": [
+        "liberta-di-associazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per costituire un'associazione occorre un'autorizzazione dell'autorità pubblica.",
+      "vero": false,
+      "spiegazione": "I cittadini si associano liberamente, senza autorizzazione, per fini non vietati ai singoli dalla legge penale. Sono proibite le associazioni segrete e quelle paramilitari con scopi politici (art. 18)."
+    },
+    {
+      "id": "u18-q061",
+      "lezione": "u18-l3",
+      "livello": "medio",
+      "pagine": [
+        163,
+        166
+      ],
+      "concetti": [
+        "liberta-di-manifestazione-del-pensiero"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali garanzie dà l'art. 21 alla stampa?",
+      "risposta": "Non può essere soggetta ad autorizzazioni o censure. Il sequestro è possibile solo per atto motivato dell'autorità giudiziaria, nei casi previsti dalla legge. Il solo limite espresso alla manifestazione del pensiero è il buon costume."
+    },
+    {
+      "id": "u18-q062",
+      "lezione": "u18-l4",
+      "livello": "medio",
+      "pagine": [
+        167,
+        169
+      ],
+      "concetti": [
+        "diritto-salute"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un paziente capace di intendere rifiuta una terapia che nessuna legge impone. Il medico può praticarla contro la sua volontà?",
+      "opzioni": [
+        "Sì, se la terapia è salvavita",
+        "Sì, con il consenso dei familiari",
+        "No: nessuno può essere obbligato a un trattamento sanitario se non per disposizione di legge",
+        "Sì, se lo ordina il direttore sanitario"
+      ],
+      "corretta": 2,
+      "spiegazione": "Art. 32, secondo comma: è il fondamento costituzionale del consenso informato."
+    },
+    {
+      "id": "u18-q063",
+      "lezione": "u18-l4",
+      "livello": "medio",
+      "pagine": [
+        167,
+        169
+      ],
+      "concetti": [
+        "liberta-sindacale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Possono operare soltanto i sindacati registrati secondo l'art. 39.",
+      "vero": false,
+      "spiegazione": "L'organizzazione sindacale è libera. La registrazione prevista dall'art. 39 non è mai stata attuata: i sindacati operano come associazioni non riconosciute."
+    },
+    {
+      "id": "u18-q064",
+      "lezione": "u18-l4",
+      "livello": "medio",
+      "pagine": [
+        167,
+        169
+      ],
+      "concetti": [
+        "tutela-giurisdizionale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa garantiscono gli artt. 24 e 113?",
+      "risposta": "L'art. 24: tutti possono agire in giudizio per i propri diritti e interessi legittimi, la difesa è inviolabile in ogni stato e grado, i non abbienti hanno i mezzi per difendersi. L'art. 113: contro gli atti della pubblica amministrazione la tutela giurisdizionale è sempre ammessa e non può essere esclusa o limitata."
+    },
+    {
+      "id": "u18-q065",
+      "lezione": "u18-l5",
+      "livello": "medio",
+      "pagine": [
+        170,
+        171
+      ],
+      "concetti": [
+        "espropriazione",
+        "proprieta-privata"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un Comune vuole espropriare un terreno per costruire una scuola. Quali condizioni pone l'art. 42?",
+      "opzioni": [
+        "Solo il consenso del proprietario",
+        "Casi previsti dalla legge, motivi di interesse generale e indennizzo",
+        "Una sentenza della Corte costituzionale",
+        "Il pagamento del doppio del valore di mercato"
+      ],
+      "corretta": 1,
+      "spiegazione": "Terzo comma: la proprietà privata può essere espropriata nei casi preveduti dalla legge, e salvo indennizzo, per motivi d'interesse generale."
+    },
+    {
+      "id": "u18-q066",
+      "lezione": "u18-l5",
+      "livello": "medio",
+      "pagine": [
+        170,
+        171
+      ],
+      "concetti": [
+        "liberta-di-iniziativa-economica"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'iniziativa economica privata è libera e non incontra alcun limite.",
+      "vero": false,
+      "spiegazione": "Non può svolgersi in contrasto con l'utilità sociale o in modo da recare danno alla salute, all'ambiente, alla sicurezza, alla libertà, alla dignità umana (art. 41, modificato nel 2022)."
+    },
+    {
+      "id": "u18-q067",
+      "lezione": "u18-l5",
+      "livello": "base",
+      "pagine": [
+        170,
+        171
+      ],
+      "concetti": [
+        "doveri-costituzionali"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali doveri pone la Costituzione?",
+      "risposta": "Solidarietà politica, economica e sociale (art. 2); svolgere un'attività che concorra al progresso della società (art. 4); mantenere, istruire ed educare i figli (art. 30); voto come dovere civico (art. 48); difesa della Patria (art. 52); concorso alle spese pubbliche (art. 53); fedeltà alla Repubblica e osservanza della Costituzione e delle leggi (art. 54)."
+    },
+    {
+      "id": "u18-q068",
+      "lezione": "u18-l1",
+      "livello": "avanzato",
+      "pagine": [
+        158,
+        161
+      ],
+      "concetti": [
+        "principio-di-uguaglianza",
+        "uguaglianza-sostanziale"
+      ],
+      "tipo": "aperta",
+      "domanda": "Uguaglianza formale e uguaglianza sostanziale nell'art. 3.",
+      "traccia": "Il **primo comma** afferma l'uguaglianza **formale**: tutti i cittadini hanno **pari dignità sociale** e sono **uguali davanti alla legge**, senza distinzione di sesso, razza, lingua, religione, opinioni politiche, condizioni personali e sociali. È un divieto di discriminazione rivolto anzitutto al legislatore. Anche se il testo parla di cittadini, per i diritti fondamentali vale per **tutti**.\n\nLa Corte costituzionale ne ha ricavato il principio di **ragionevolezza**: situazioni uguali vanno trattate in modo uguale e situazioni diverse in modo diverso. La legge può distinguere, ma la distinzione deve avere una **giustificazione** adeguata.\n\nIl **secondo comma** afferma l'uguaglianza **sostanziale**: è compito della **Repubblica rimuovere gli ostacoli** di ordine economico e sociale che, limitando di fatto libertà e uguaglianza, impediscono il **pieno sviluppo della persona** e l'effettiva **partecipazione** dei lavoratori alla vita del Paese. È il fondamento dello **Stato sociale** e dei diritti sociali, e giustifica le **azioni positive** a favore di chi parte svantaggiato.\n\nI due commi non sono in conflitto: il secondo completa il primo, perché l'uguaglianza davanti alla legge non basta se le condizioni di partenza sono diseguali.",
+      "punti": [
+        {
+          "testo": "Primo comma: pari dignità e uguaglianza davanti alla legge",
+          "chiavi": [
+            "davanti alla legge",
+            "pari dignit"
+          ]
+        },
+        {
+          "testo": "Divieti di discriminazione",
+          "chiavi": [
+            "sesso",
+            "razza",
+            "religion"
+          ]
+        },
+        {
+          "testo": "Ragionevolezza: uguale per situazioni uguali, diverso per diverse",
+          "chiavi": [
+            "ragionevol"
+          ]
+        },
+        {
+          "testo": "Secondo comma: la Repubblica rimuove gli ostacoli",
+          "chiavi": [
+            "rimuov",
+            "ostacol"
+          ]
+        },
+        {
+          "testo": "Fondamento dello Stato sociale e delle azioni positive",
+          "chiavi": [
+            "stato sociale",
+            "azioni positive"
+          ]
+        }
       ]
     }
   ]

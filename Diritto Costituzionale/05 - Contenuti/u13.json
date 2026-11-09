@@ -9,7 +9,15 @@
   ],
   "abstract": "Procedimento parlamentare, fonti particolari, delega legislativa e decretazione d’urgenza con le rispettive garanzie.",
   "note": "Il decreto-legge va presentato alle Camere il giorno stesso. La conversione non sana la mancanza evidente di necessità e urgenza.",
-  "noteRedazione": ["p. 113: corretti cinque consiglieri in cinque Consigli regionali per la richiesta dell’art. 138.", "p. 117: autorizzazione alla ratifica, non a modificare i trattati. La sede redigente varia fra le Camere; non confuse le fasi interne con successive letture bicamerali.", "pp. 118–119: non tutte le leggi atipiche sono automaticamente sottratte al referendum. Aggiornati bilancio e statuti ordinari, senza mantenere qualificazioni di discipline superate.", "p. 121: il testo unico richiede distinzione fra natura normativa e compilativa; omissione o riproduzione non comportano sempre automaticamente abrogazione o reviviscenza.", "p. 122: decreto presentato il giorno stesso, non il giorno dopo; la decadenza non rende automaticamente ogni condotta penalmente illecita. Testo: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-ii/articolo-77 .", "pp. 123–125: corretta la sanatoria generale della conversione; evidente mancanza dei presupposti non sanata, Corte cost. 171/2007 https://www.cortecostituzionale.it/scheda-pronuncia/2007/171 . Omogeneità della conversione: Corte cost. 22/2012 e quadro https://www.cortecostituzionale.it/settantesimo/volumi/i-limiti-del-legislatore.html . Incluse le prime righe di p. 125 che completano gli emendamenti.", "Confrontate anche le risposte integrative pp. 178–180: distinte riserva di assemblea e riserva di legge formale; il vecchio esempio di legge di bilancio depotenziata va letto alla luce del nuovo art. 81 e della l. 163/2016, non riprodotto come disciplina vigente."],
+  "noteRedazione": [
+    "p. 113: corretti cinque consiglieri in cinque Consigli regionali per la richiesta dell’art. 138.",
+    "p. 117: autorizzazione alla ratifica, non a modificare i trattati. La sede redigente varia fra le Camere; non confuse le fasi interne con successive letture bicamerali.",
+    "pp. 118–119: non tutte le leggi atipiche sono automaticamente sottratte al referendum. Aggiornati bilancio e statuti ordinari, senza mantenere qualificazioni di discipline superate.",
+    "p. 121: il testo unico richiede distinzione fra natura normativa e compilativa; omissione o riproduzione non comportano sempre automaticamente abrogazione o reviviscenza.",
+    "p. 122: decreto presentato il giorno stesso, non il giorno dopo; la decadenza non rende automaticamente ogni condotta penalmente illecita. Testo: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-ii/articolo-77 .",
+    "pp. 123–125: corretta la sanatoria generale della conversione; evidente mancanza dei presupposti non sanata, Corte cost. 171/2007 https://www.cortecostituzionale.it/scheda-pronuncia/2007/171 . Omogeneità della conversione: Corte cost. 22/2012 e quadro https://www.cortecostituzionale.it/settantesimo/volumi/i-limiti-del-legislatore.html . Incluse le prime righe di p. 125 che completano gli emendamenti.",
+    "Confrontate anche le risposte integrative pp. 178–180: distinte riserva di assemblea e riserva di legge formale; il vecchio esempio di legge di bilancio depotenziata va letto alla luce del nuovo art. 81 e della l. 163/2016, non riprodotto come disciplina vigente."
+  ],
   "lezioni": [
     {
       "titolo": "Come nasce una legge: iniziativa, Camere, promulgazione",
@@ -1159,6 +1167,233 @@
           "Art. 77",
           "Decreto-legge e conversione"
         ]
+      ]
+    },
+    {
+      "id": "u13-q033",
+      "lezione": "u13-l1",
+      "livello": "avanzato",
+      "pagine": [
+        113,
+        118
+      ],
+      "concetti": [
+        "riserva-di-assemblea",
+        "commissione-deliberante"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un disegno di legge in materia elettorale può essere approvato in via definitiva da una commissione in sede deliberante?",
+      "opzioni": [
+        "Sì, se lo decide il presidente della Camera",
+        "Sì, con il consenso del Governo",
+        "No: è coperto dalla riserva di assemblea",
+        "No, salvo che sia dichiarato urgente"
+      ],
+      "corretta": 2,
+      "spiegazione": "Art. 72, quarto comma: procedura normale obbligatoria per le leggi in materia costituzionale ed elettorale, di delegazione legislativa, di autorizzazione a ratificare trattati e di bilancio."
+    },
+    {
+      "id": "u13-q034",
+      "lezione": "u13-l1",
+      "livello": "base",
+      "pagine": [
+        113,
+        118
+      ],
+      "concetti": [
+        "navetta-parlamentare"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Se Camera e Senato approvano due testi diversi della stessa legge, prevale il testo della Camera.",
+      "vero": false,
+      "spiegazione": "Il testo fa la spola tra le due Camere (navetta) finché entrambe non lo approvano identico: è una conseguenza del bicameralismo paritario."
+    },
+    {
+      "id": "u13-q035",
+      "lezione": "u13-l1",
+      "livello": "base",
+      "pagine": [
+        113,
+        118
+      ],
+      "concetti": [
+        "legge-ordinaria",
+        "iniziativa-legislativa"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali sono le fasi del procedimento legislativo ordinario?",
+      "risposta": "Iniziativa; esame in commissione e approvazione di ciascuna Camera, articolo per articolo e con votazione finale, nello stesso testo; promulgazione del Presidente della Repubblica entro un mese; pubblicazione nella Gazzetta Ufficiale; entrata in vigore dopo la vacatio legis."
+    },
+    {
+      "id": "u13-q036",
+      "lezione": "u13-l2",
+      "livello": "avanzato",
+      "pagine": [
+        118,
+        121
+      ],
+      "concetti": [
+        "eccesso-di-delega",
+        "decreto-legislativo"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il Governo adotta un decreto legislativo dopo la scadenza del termine fissato dalla legge delega. Qual è la conseguenza?",
+      "opzioni": [
+        "Il decreto è valido, perché ha forza di legge",
+        "Il decreto è costituzionalmente illegittimo per violazione dell'art. 76",
+        "Il decreto vale come regolamento",
+        "Il decreto decade dopo sessanta giorni"
+      ],
+      "corretta": 1,
+      "spiegazione": "La legge delega è norma interposta: violarne oggetto, principi o termine significa violare l'art. 76, e la Corte costituzionale può dichiarare illegittimo il decreto."
+    },
+    {
+      "id": "u13-q037",
+      "lezione": "u13-l2",
+      "livello": "medio",
+      "pagine": [
+        118,
+        121
+      ],
+      "concetti": [
+        "legge-delega"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La legge delega può lasciare al Governo la scelta degli oggetti da disciplinare.",
+      "vero": false,
+      "spiegazione": "L'art. 76 chiede oggetti definiti, principi e criteri direttivi e un tempo limitato: una delega in bianco sarebbe incostituzionale."
+    },
+    {
+      "id": "u13-q038",
+      "lezione": "u13-l2",
+      "livello": "avanzato",
+      "pagine": [
+        118,
+        121
+      ],
+      "concetti": [
+        "legge-rinforzata"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cos'è una legge rinforzata? Faccia un esempio.",
+      "risposta": "È una legge per la quale la Costituzione prevede un procedimento più gravoso di quello ordinario. Esempi: la legge di amnistia e indulto, approvata a maggioranza dei due terzi (art. 79); le leggi che regolano i rapporti con le confessioni religiose sulla base di intese (art. 8)."
+    },
+    {
+      "id": "u13-q039",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        122,
+        125
+      ],
+      "concetti": [
+        "decadenza-decreto-legge",
+        "legge-di-sanatoria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un decreto-legge non viene convertito entro sessanta giorni. Che cosa accade?",
+      "opzioni": [
+        "Resta in vigore finché una legge non lo abroga",
+        "Perde efficacia solo per il futuro",
+        "Perde efficacia sin dall'inizio; le Camere possono regolare con legge i rapporti sorti",
+        "Si trasforma in disegno di legge"
+      ],
+      "corretta": 2,
+      "spiegazione": "Art. 77, terzo comma. La decadenza è retroattiva; la legge che regola i rapporti nati dal decreto si chiama legge di sanatoria."
+    },
+    {
+      "id": "u13-q040",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        122,
+        125
+      ],
+      "concetti": [
+        "reiterazione-decreti-legge"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il Governo può riprodurre in un nuovo decreto-legge il contenuto di un decreto non convertito, anche senza nuovi motivi di urgenza.",
+      "vero": false,
+      "spiegazione": "La Corte costituzionale (sent. 360/1996) ha dichiarato illegittima la reiterazione: aggira il termine di sessanta giorni e altera il ruolo del Parlamento."
+    },
+    {
+      "id": "u13-q041",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        122,
+        125
+      ],
+      "concetti": [
+        "decreto-legge",
+        "omogeneita-decreto-legge"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali limiti incontra la legge di conversione di un decreto-legge?",
+      "risposta": "Deve restare omogenea all'oggetto e allo scopo del decreto: gli emendamenti del tutto estranei sono illegittimi (Corte cost. 22/2012 e 32/2014). I presupposti di necessità e urgenza, se mancano in modo evidente, viziano anche la legge di conversione."
+    },
+    {
+      "id": "u13-q042",
+      "lezione": "u13-l3",
+      "livello": "avanzato",
+      "pagine": [
+        122,
+        125
+      ],
+      "concetti": [
+        "decreto-legge",
+        "decreto-legislativo",
+        "legge-delega",
+        "legge-di-conversione"
+      ],
+      "tipo": "aperta",
+      "domanda": "Confronti il decreto-legge e il decreto legislativo.",
+      "traccia": "Sono entrambi **atti con forza di legge** del Governo, emanati dal Presidente della Repubblica e soggetti al giudizio della Corte costituzionale. Cambia il **momento** in cui interviene il Parlamento.\n\nNel **decreto legislativo** (art. 76) il Parlamento interviene **prima**: con la **legge delega** fissa **oggetti definiti**, **principi e criteri direttivi** e un **tempo limitato**. Il Governo adotta poi il decreto, che è stabile. Se va oltre la delega c'è **eccesso di delega**: il decreto viola indirettamente l'art. 76, perché la legge delega è **norma interposta**.\n\nNel **decreto-legge** (art. 77) il Parlamento interviene **dopo**. Il Governo, in **casi straordinari di necessità e urgenza**, adotta sotto la propria responsabilità un provvedimento **provvisorio**, che entra subito in vigore e va presentato il giorno stesso alle Camere. Se non è **convertito in legge entro sessanta giorni** perde efficacia **sin dall'inizio**; le Camere possono regolare con legge i rapporti sorti. Non è ammessa la **reiterazione** (sent. 360/1996) e la legge di conversione deve restare **omogenea**.",
+      "punti": [
+        {
+          "testo": "Entrambi sono atti del Governo con forza di legge",
+          "chiavi": [
+            "forza di legge"
+          ]
+        },
+        {
+          "testo": "Decreto legislativo: delega preventiva con oggetto, principi e termine",
+          "chiavi": [
+            "delega",
+            "principi",
+            "criteri"
+          ]
+        },
+        {
+          "testo": "Eccesso di delega e norma interposta",
+          "chiavi": [
+            "eccesso",
+            "interpost"
+          ]
+        },
+        {
+          "testo": "Decreto-legge: necessità e urgenza, provvisorio",
+          "chiavi": [
+            "necessità",
+            "urgenza",
+            "provvisor"
+          ]
+        },
+        {
+          "testo": "Conversione entro sessanta giorni, decadenza retroattiva",
+          "chiavi": [
+            "sessanta",
+            "convers",
+            "inizio"
+          ]
+        },
+        {
+          "testo": "Divieto di reiterazione",
+          "chiavi": [
+            "reiterazion"
+          ]
+        }
       ]
     }
   ]

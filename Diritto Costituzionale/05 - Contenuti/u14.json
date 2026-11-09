@@ -9,7 +9,13 @@
   ],
   "abstract": "Atti speciali, regolamenti degli organi costituzionali, referendum abrogativo e fonti secondarie dell’esecutivo.",
   "note": "Il divieto di riproporre lo stesso referendum per cinque anni scatta solo se vincono i «no», non se manca il quorum.",
-  "noteRedazione": ["p. 125: i poteri necessari in guerra non sono presentati come una facoltà illimitata di sospensione della Costituzione; distinti testo degli artt. 11, 78 e 87 e ricostruzioni dottrinali.", "pp. 126–127: aggiornata l’autodichia con Corte cost. 262/2017 e 65/2024; https://www.cortecostituzionale.it/scheda-pronuncia/2017/262 e https://www.cortecostituzionale.it/scheda-pronuncia/2024/65 .", "pp. 127–128: corrette le esclusioni assolute degli appunti; per le leggi elettorali conta la normativa residua immediatamente applicabile: Corte cost. 16/2008 e 10/2020, https://www.cortecostituzionale.it/scheda-pronuncia/2020/10 . Il mancato quorum non determina il divieto quinquennale di ripresentazione: https://documenti.camera.it/leg18/dossier/Testi/AC0168.htm .", "pp. 129–130: corretto art. 85 in art. 87; la vecchia lettera e) dell’art. 17 l. 400/1988 sul pubblico impiego è abrogata; distinti delegificazione e delega legislativa. Testo: https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+17&codiceOrdinamento=200001700000000&id=%7BA037524A-6217-4833-A6B2-77BAE9E1E915%7D .", "Confrontate le risposte integrative pp. 178 e 180 su delegazione/delegificazione ed esecuzione/attuazione; le distinzioni sono riprese nelle lezioni e nelle domande, mantenendo i limiti delle riserve di legge."],
+  "noteRedazione": [
+    "p. 125: i poteri necessari in guerra non sono presentati come una facoltà illimitata di sospensione della Costituzione; distinti testo degli artt. 11, 78 e 87 e ricostruzioni dottrinali.",
+    "pp. 126–127: aggiornata l’autodichia con Corte cost. 262/2017 e 65/2024; https://www.cortecostituzionale.it/scheda-pronuncia/2017/262 e https://www.cortecostituzionale.it/scheda-pronuncia/2024/65 .",
+    "pp. 127–128: corrette le esclusioni assolute degli appunti; per le leggi elettorali conta la normativa residua immediatamente applicabile: Corte cost. 16/2008 e 10/2020, https://www.cortecostituzionale.it/scheda-pronuncia/2020/10 . Il mancato quorum non determina il divieto quinquennale di ripresentazione: https://documenti.camera.it/leg18/dossier/Testi/AC0168.htm .",
+    "pp. 129–130: corretto art. 85 in art. 87; la vecchia lettera e) dell’art. 17 l. 400/1988 sul pubblico impiego è abrogata; distinti delegificazione e delega legislativa. Testo: https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+17&codiceOrdinamento=200001700000000&id=%7BA037524A-6217-4833-A6B2-77BAE9E1E915%7D .",
+    "Confrontate le risposte integrative pp. 178 e 180 su delegazione/delegificazione ed esecuzione/attuazione; le distinzioni sono riprese nelle lezioni e nelle domande, mantenendo i limiti delle riserve di legge."
+  ],
   "lezioni": [
     {
       "titolo": "Poteri straordinari e autonomia normativa degli organi costituzionali",
@@ -1009,6 +1015,226 @@
           "Circolare",
           "Istruzione normalmente interna agli uffici"
         ]
+      ]
+    },
+    {
+      "id": "u14-q033",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        125,
+        127
+      ],
+      "concetti": [
+        "regolamenti-parlamentari"
+      ],
+      "tipo": "multipla",
+      "domanda": "Con quale maggioranza ciascuna Camera adotta il proprio regolamento?",
+      "opzioni": [
+        "Maggioranza dei presenti",
+        "Maggioranza assoluta dei componenti",
+        "Due terzi dei componenti",
+        "Unanimità"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 64, primo comma."
+    },
+    {
+      "id": "u14-q034",
+      "lezione": "u14-l1",
+      "livello": "avanzato",
+      "pagine": [
+        125,
+        127
+      ],
+      "concetti": [
+        "regolamenti-parlamentari",
+        "criterio-di-competenza"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "I regolamenti parlamentari sono subordinati alla legge ordinaria, che può modificarli.",
+      "vero": false,
+      "spiegazione": "Il rapporto è di competenza, non di gerarchia: la Costituzione riserva a ciascuna Camera la disciplina della propria organizzazione e dei propri lavori."
+    },
+    {
+      "id": "u14-q035",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        125,
+        127
+      ],
+      "concetti": [
+        "autodichia"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cos'è l'autodichia?",
+      "risposta": "È il potere degli organi costituzionali (Camere, Presidenza della Repubblica, Corte costituzionale) di decidere con propri organi interni le controversie con i propri dipendenti, al posto del giudice comune."
+    },
+    {
+      "id": "u14-q036",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        127,
+        128
+      ],
+      "concetti": [
+        "ammissibilita-referendum",
+        "referendum-abrogativo"
+      ],
+      "tipo": "multipla",
+      "domanda": "Si raccolgono le firme per abrogare una legge che autorizza la ratifica di un trattato internazionale. Il referendum è ammissibile?",
+      "opzioni": [
+        "Sì, con 500.000 firme",
+        "Sì, se lo chiedono cinque Consigli regionali",
+        "No: è uno dei limiti dell'art. 75, secondo comma",
+        "No, perché i trattati sono fonti dell'Unione europea"
+      ],
+      "corretta": 2,
+      "spiegazione": "Non è ammesso il referendum per le leggi tributarie e di bilancio, di amnistia e di indulto, di autorizzazione a ratificare trattati internazionali. La Corte ha aggiunto limiti impliciti."
+    },
+    {
+      "id": "u14-q037",
+      "lezione": "u14-l2",
+      "livello": "base",
+      "pagine": [
+        127,
+        128
+      ],
+      "concetti": [
+        "quorum-referendario"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il referendum abrogativo è valido qualunque sia il numero dei votanti.",
+      "vero": false,
+      "spiegazione": "La proposta è approvata se ha partecipato la maggioranza degli aventi diritto e se è raggiunta la maggioranza dei voti validamente espressi (art. 75)."
+    },
+    {
+      "id": "u14-q038",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        127,
+        128
+      ],
+      "concetti": [
+        "regolarita-referendum",
+        "ammissibilita-referendum"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali controlli subisce la richiesta di referendum abrogativo, e da parte di chi?",
+      "risposta": "L'Ufficio centrale per il referendum presso la Corte di cassazione controlla la regolarità: firme, termini, oggetto. La Corte costituzionale giudica poi l'ammissibilità: limiti dell'art. 75 e requisiti del quesito, che deve essere chiaro, omogeneo e univoco."
+    },
+    {
+      "id": "u14-q039",
+      "lezione": "u14-l3",
+      "livello": "medio",
+      "pagine": [
+        129,
+        130
+      ],
+      "concetti": [
+        "regolamenti-governativi",
+        "riserva-di-legge"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il Governo vuole disciplinare con regolamento una materia coperta da riserva assoluta di legge. Può farlo?",
+      "opzioni": [
+        "Sì, se il regolamento è deliberato dal Consiglio dei ministri",
+        "Sì, sentito il Consiglio di Stato",
+        "No: la riserva assoluta esclude le fonti secondarie",
+        "No, salvo che il Presidente della Repubblica lo autorizzi"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nella riserva assoluta tutta la disciplina spetta alla legge o agli atti con forza di legge."
+    },
+    {
+      "id": "u14-q040",
+      "lezione": "u14-l3",
+      "livello": "avanzato",
+      "pagine": [
+        129,
+        130
+      ],
+      "concetti": [
+        "delegificazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nella delegificazione è il regolamento ad abrogare direttamente la legge.",
+      "vero": false,
+      "spiegazione": "L'effetto abrogativo è disposto dalla legge che autorizza il regolamento, ed è rinviato al momento in cui questo entra in vigore: così il criterio gerarchico è rispettato."
+    },
+    {
+      "id": "u14-q041",
+      "lezione": "u14-l3",
+      "livello": "base",
+      "pagine": [
+        129,
+        130
+      ],
+      "concetti": [
+        "circolare-amministrativa"
+      ],
+      "tipo": "flashcard",
+      "domanda": "La circolare amministrativa è una fonte del diritto?",
+      "risposta": "No. È un atto interno con cui un'amministrazione dà istruzioni ai propri uffici: non vincola i cittadini né i giudici e non può derogare a leggi o regolamenti."
+    },
+    {
+      "id": "u14-q042",
+      "lezione": "u14-l2",
+      "livello": "avanzato",
+      "pagine": [
+        127,
+        128
+      ],
+      "concetti": [
+        "referendum-abrogativo",
+        "referendum-costituzionale",
+        "quorum-referendario",
+        "ammissibilita-referendum"
+      ],
+      "tipo": "aperta",
+      "domanda": "Referendum abrogativo e referendum costituzionale a confronto.",
+      "traccia": "Il **referendum abrogativo** (art. 75) ha per oggetto una **legge o un atto con forza di legge già in vigore**, da eliminare in tutto o in parte. Lo chiedono **500.000 elettori** o **cinque Consigli regionali**. Non è ammesso per le leggi **tributarie e di bilancio**, di **amnistia e indulto**, di **autorizzazione a ratificare trattati**; la Corte costituzionale, che giudica l'**ammissibilità**, ha aggiunto limiti impliciti e richiede un quesito **omogeneo**. È valido solo se vota la **maggioranza degli aventi diritto**. Se vince il sì, il Presidente della Repubblica dichiara l'abrogazione con decreto.\n\nIl **referendum costituzionale** (art. 138) riguarda una **legge di revisione o costituzionale non ancora in vigore**. È **eventuale**: si può chiedere, entro tre mesi dalla pubblicazione, solo se nella seconda votazione non si sono raggiunti i **due terzi** in ciascuna Camera. Lo chiedono un **quinto dei membri di una Camera**, 500.000 elettori o cinque Consigli regionali. **Non ha quorum** di partecipazione: basta la maggioranza dei voti validi. Non ci sono materie escluse né giudizio di ammissibilità.\n\nIl primo è uno strumento di legislazione negativa del popolo; il secondo è una **garanzia delle minoranze** dentro il procedimento di revisione.",
+      "punti": [
+        {
+          "testo": "Abrogativo: legge in vigore; costituzionale: legge non ancora in vigore",
+          "chiavi": [
+            "in vigore",
+            "abrog"
+          ]
+        },
+        {
+          "testo": "Chi lo chiede: 500.000 elettori, cinque Consigli, un quinto di una Camera",
+          "chiavi": [
+            "500",
+            "cinque consigli",
+            "quinto"
+          ]
+        },
+        {
+          "testo": "Quorum di partecipazione solo nell'abrogativo",
+          "chiavi": [
+            "quorum",
+            "maggioranza degli aventi"
+          ]
+        },
+        {
+          "testo": "Limiti di materia e giudizio di ammissibilità solo nell'abrogativo",
+          "chiavi": [
+            "ammissibil",
+            "tributar",
+            "trattati"
+          ]
+        },
+        {
+          "testo": "Il costituzionale è eventuale: solo senza i due terzi",
+          "chiavi": [
+            "due terzi",
+            "eventual"
+          ]
+        }
       ]
     }
   ]

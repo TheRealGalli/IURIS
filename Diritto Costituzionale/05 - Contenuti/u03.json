@@ -1205,6 +1205,227 @@
           "Interesse generale, iniziativa e vigilanza"
         ]
       ]
+    },
+    {
+      "id": "u03-q033",
+      "lezione": "u03-l1",
+      "livello": "medio",
+      "pagine": [
+        22,
+        25
+      ],
+      "concetti": [
+        "divieto-di-mandato-imperativo"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il partito ordina a un suo deputato di votare a favore di una legge; il deputato vota contro. Qual è la conseguenza giuridica sul suo mandato?",
+      "opzioni": [
+        "Decade dal seggio",
+        "Il voto è nullo",
+        "Nessuna: conserva il seggio",
+        "Deve dimettersi se lo chiedono gli elettori del collegio"
+      ],
+      "corretta": 2,
+      "spiegazione": "Per l'art. 67 ogni parlamentare rappresenta la Nazione ed esercita le funzioni senza vincolo di mandato. Il partito può reagire solo con sanzioni politiche interne, fino all'espulsione."
+    },
+    {
+      "id": "u03-q034",
+      "lezione": "u03-l1",
+      "livello": "base",
+      "pagine": [
+        22,
+        25
+      ],
+      "concetti": [
+        "iniziativa-legislativa-popolare"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Con l'iniziativa legislativa popolare cinquantamila elettori approvano direttamente una legge.",
+      "vero": false,
+      "spiegazione": "Presentano alle Camere un progetto redatto in articoli (art. 71): la decisione resta al Parlamento. Solo il referendum fa decidere direttamente il corpo elettorale."
+    },
+    {
+      "id": "u03-q035",
+      "lezione": "u03-l1",
+      "livello": "avanzato",
+      "pagine": [
+        22,
+        25
+      ],
+      "concetti": [
+        "referendum-abrogativo",
+        "referendum-costituzionale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "In che cosa differiscono il referendum abrogativo e quello costituzionale?",
+      "risposta": "L'abrogativo (art. 75) elimina una legge già in vigore, è chiesto da 500.000 elettori o cinque Consigli regionali ed è valido solo se vota la maggioranza degli aventi diritto. Il costituzionale (art. 138) interviene prima dell'entrata in vigore di una legge costituzionale non approvata con i due terzi, può chiederlo anche un quinto dei membri di una Camera e non ha quorum di partecipazione."
+    },
+    {
+      "id": "u03-q036",
+      "lezione": "u03-l2",
+      "livello": "medio",
+      "pagine": [
+        25,
+        28
+      ],
+      "concetti": [
+        "quorum-strutturale",
+        "quorum-deliberativo"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un'assemblea ha 100 componenti. Sono presenti in 60: 31 votano sì e 29 no. Con le regole dell'art. 64 della Costituzione, la deliberazione è:",
+      "opzioni": [
+        "Valida e approvata",
+        "Non valida, perché servono 67 presenti",
+        "Valida ma respinta, perché servono 51 sì",
+        "Non valida, perché servono tutti i componenti"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il numero legale è la maggioranza dei componenti (51): con 60 presenti c'è. Per approvare basta la maggioranza dei presenti: 31 su 60."
+    },
+    {
+      "id": "u03-q037",
+      "lezione": "u03-l2",
+      "livello": "medio",
+      "pagine": [
+        25,
+        28
+      ],
+      "concetti": [
+        "principio-di-maggioranza",
+        "tutela-delle-minoranze"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "In una democrazia costituzionale la maggioranza può decidere su qualunque materia, compresi i diritti delle minoranze.",
+      "vero": false,
+      "spiegazione": "La regola di maggioranza opera dentro limiti: Costituzione rigida, diritti inviolabili, maggioranze qualificate per le decisioni di garanzia, controllo della Corte costituzionale."
+    },
+    {
+      "id": "u03-q038",
+      "lezione": "u03-l2",
+      "livello": "base",
+      "pagine": [
+        25,
+        28
+      ],
+      "concetti": [
+        "quorum-strutturale",
+        "quorum-deliberativo"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra quorum strutturale e quorum deliberativo?",
+      "risposta": "Il quorum strutturale (numero legale) è il numero minimo di presenti perché la seduta sia valida. Il quorum deliberativo (o funzionale) è il numero di voti favorevoli necessario per approvare."
+    },
+    {
+      "id": "u03-q039",
+      "lezione": "u03-l3",
+      "livello": "base",
+      "pagine": [
+        29,
+        32
+      ],
+      "concetti": [
+        "commissione-europea"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quale istituzione dell'Unione europea ha, di regola, il potere di proporre gli atti legislativi?",
+      "opzioni": [
+        "Il Consiglio europeo",
+        "Il Parlamento europeo",
+        "La Corte di giustizia",
+        "La Commissione europea"
+      ],
+      "corretta": 3,
+      "spiegazione": "La Commissione ha il quasi-monopolio dell'iniziativa; Parlamento europeo e Consiglio adottano poi l'atto con la procedura legislativa ordinaria."
+    },
+    {
+      "id": "u03-q040",
+      "lezione": "u03-l3",
+      "livello": "base",
+      "pagine": [
+        29,
+        32
+      ],
+      "concetti": [
+        "consiglio-europeo",
+        "consiglio-ue"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Consiglio europeo e Consiglio dell'Unione europea sono due nomi della stessa istituzione.",
+      "vero": false,
+      "spiegazione": "Il Consiglio europeo riunisce capi di Stato o di governo e dà gli indirizzi politici generali; il Consiglio dell'UE riunisce i ministri e legifera insieme al Parlamento europeo."
+    },
+    {
+      "id": "u03-q041",
+      "lezione": "u03-l3",
+      "livello": "avanzato",
+      "pagine": [
+        29,
+        32
+      ],
+      "concetti": [
+        "stato-federale",
+        "stato-regionale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Con quali criteri si distingue di solito uno Stato federale da uno Stato regionale?",
+      "risposta": "Sono criteri di tendenza: nello Stato federale gli Stati membri hanno una propria Costituzione, partecipano alla revisione di quella federale, sono rappresentati in una seconda Camera e hanno spesso giudici propri. Nello Stato regionale le Regioni hanno autonomia legislativa garantita dalla Costituzione, ma dentro uno Stato che resta unitario. Il confine oggi è sfumato."
+    },
+    {
+      "id": "u03-q042",
+      "lezione": "u03-l1",
+      "livello": "avanzato",
+      "pagine": [
+        22,
+        25
+      ],
+      "concetti": [
+        "rappresentanza-politica",
+        "democrazia-diretta",
+        "referendum-abrogativo"
+      ],
+      "tipo": "aperta",
+      "domanda": "Che rapporto c'è, nella Costituzione italiana, tra democrazia rappresentativa e istituti di democrazia diretta?",
+      "traccia": "La Costituzione sceglie una democrazia **rappresentativa**: il popolo esercita la sovranità soprattutto eleggendo il Parlamento, i cui membri rappresentano la Nazione **senza vincolo di mandato** (art. 67). Gli istituti di **democrazia diretta** sono un **correttivo**, non un'alternativa.\n\nSono tre. La **petizione** (art. 50): ogni cittadino può chiedere alle Camere provvedimenti legislativi o esporre necessità comuni. L'**iniziativa legislativa popolare** (art. 71): cinquantamila elettori presentano un progetto redatto in articoli, ma decide il Parlamento. Il **referendum**: quello **abrogativo** (art. 75), chiesto da 500.000 elettori o cinque Consigli regionali, con **quorum** di partecipazione e materie escluse; quello **costituzionale** (art. 138), eventuale e senza quorum; quelli territoriali (artt. 132 e 133).\n\nSolo nel referendum il corpo elettorale **decide** direttamente. Il referendum abrogativo può solo eliminare norme: per questo si parla di legislazione **negativa**, e il Parlamento resta libero di legiferare di nuovo.",
+      "punti": [
+        {
+          "testo": "La forma è rappresentativa, senza vincolo di mandato",
+          "chiavi": [
+            "rappresentativ",
+            "mandato"
+          ]
+        },
+        {
+          "testo": "Petizione e iniziativa legislativa popolare: propongono, non decidono",
+          "chiavi": [
+            "petizion",
+            "iniziativa",
+            "cinquantamila"
+          ]
+        },
+        {
+          "testo": "Referendum abrogativo: richiesta, quorum, limiti",
+          "chiavi": [
+            "abrogativ",
+            "quorum",
+            "500"
+          ]
+        },
+        {
+          "testo": "Referendum costituzionale senza quorum",
+          "chiavi": [
+            "costituzionale",
+            "138"
+          ]
+        },
+        {
+          "testo": "La democrazia diretta è un correttivo",
+          "chiavi": [
+            "correttiv",
+            "integra"
+          ]
+        }
+      ]
     }
   ]
 }

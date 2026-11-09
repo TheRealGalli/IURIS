@@ -9,7 +9,14 @@
   ],
   "abstract": "Il circuito fiduciario e le crisi; la nomina e l’equilibrio interno; l’attuazione dell’indirizzo e gli organi ausiliari.",
   "note": "Aggiornato: i servizi segreti sono oggi DIS, AISE e AISI (dal 2007); il CIPE si chiama CIPESS (dal 2021).",
-  "noteRedazione": ["p. 56: la proposta e nomina dei ministri è nell’art. 92, non nell’art. 95. p. 61 contraddice p. 56 sulla sfiducia individuale: risolta sulla Corte cost. 7/1996, https://www.cortecostituzionale.it/scheda-pronuncia/1996/7 .", "pp. 57 e 64: i ministri senza portafoglio sono figure non necessarie ma, se nominati, partecipano con voto al Consiglio; non è corretto escluderli tutti dal collegio. La legge di riferimento è 400/1988, non 400/1999. Il d.lgs. 300/1999 riguarda i ministeri, il 303/1999 la Presidenza.", "Non riprodotti il numero storico di ministeri, l’asserita inesistenza della collegialità e la tesi secondo cui ogni Governo sarebbe necessariamente una coalizione. Testo costituzionale: https://presidenza.governo.it/Governo/Costituzione/2_titolo3.html .", "p. 62: SISMI/SISDE sostituiti dal sistema DIS–AISE–AISI, l. 124/2007: https://www.sicurezzanazionale.gov.it/contenuti/legge-sull-intelligence-124-2007 . CIPE denominato CIPESS dal 2021: https://www.programmazioneeconomica.gov.it/it/cipess/presentazione/ .", "p. 66: missioni distinte dallo stato di guerra; quadro l. 145/2016 e modifiche, https://temi.camera.it/leg19/temi/autorizzazione-e-proroga-delle-missioni-internazionali-nel-2024_d_d.html .", "pp. 67–68: aggiornata composizione del CNEL a 64 consiglieri oltre al Presidente, fonte https://www.cnel.it/chi-siamo . Non riprodotta la vecchia ripartizione delle sezioni del Consiglio di Stato. Incluse le prime righe di p. 69 che completano gli organi ausiliari."],
+  "noteRedazione": [
+    "p. 56: la proposta e nomina dei ministri è nell’art. 92, non nell’art. 95. p. 61 contraddice p. 56 sulla sfiducia individuale: risolta sulla Corte cost. 7/1996, https://www.cortecostituzionale.it/scheda-pronuncia/1996/7 .",
+    "pp. 57 e 64: i ministri senza portafoglio sono figure non necessarie ma, se nominati, partecipano con voto al Consiglio; non è corretto escluderli tutti dal collegio. La legge di riferimento è 400/1988, non 400/1999. Il d.lgs. 300/1999 riguarda i ministeri, il 303/1999 la Presidenza.",
+    "Non riprodotti il numero storico di ministeri, l’asserita inesistenza della collegialità e la tesi secondo cui ogni Governo sarebbe necessariamente una coalizione. Testo costituzionale: https://presidenza.governo.it/Governo/Costituzione/2_titolo3.html .",
+    "p. 62: SISMI/SISDE sostituiti dal sistema DIS–AISE–AISI, l. 124/2007: https://www.sicurezzanazionale.gov.it/contenuti/legge-sull-intelligence-124-2007 . CIPE denominato CIPESS dal 2021: https://www.programmazioneeconomica.gov.it/it/cipess/presentazione/ .",
+    "p. 66: missioni distinte dallo stato di guerra; quadro l. 145/2016 e modifiche, https://temi.camera.it/leg19/temi/autorizzazione-e-proroga-delle-missioni-internazionali-nel-2024_d_d.html .",
+    "pp. 67–68: aggiornata composizione del CNEL a 64 consiglieri oltre al Presidente, fonte https://www.cnel.it/chi-siamo . Non riprodotta la vecchia ripartizione delle sezioni del Consiglio di Stato. Incluse le prime righe di p. 69 che completano gli organi ausiliari."
+  ],
   "lezioni": [
     {
       "titolo": "Fiducia, maggioranza e crisi di governo",
@@ -1145,6 +1152,228 @@
           "Art. 95",
           "Direzione e responsabilità interne"
         ]
+      ]
+    },
+    {
+      "id": "u07-q033",
+      "lezione": "u07-l1",
+      "livello": "avanzato",
+      "pagine": [
+        54,
+        58
+      ],
+      "concetti": [
+        "rapporto-di-fiducia",
+        "crisi-di-governo"
+      ],
+      "tipo": "multipla",
+      "domanda": "La Camera respinge un disegno di legge del Governo, sul quale non era stata posta la questione di fiducia. Il Governo è obbligato a dimettersi?",
+      "opzioni": [
+        "Sì, sempre",
+        "No: il voto contrario su una proposta del Governo non comporta obbligo di dimissioni",
+        "Sì, se lo chiede il Presidente della Repubblica",
+        "Solo se il voto è avvenuto a scrutinio segreto"
+      ],
+      "corretta": 1,
+      "spiegazione": "Lo dice l'art. 94, quarto comma. L'obbligo giuridico nasce dalla sfiducia o dal voto contrario su una questione di fiducia; negli altri casi il Governo valuta politicamente."
+    },
+    {
+      "id": "u07-q034",
+      "lezione": "u07-l1",
+      "livello": "medio",
+      "pagine": [
+        54,
+        58
+      ],
+      "concetti": [
+        "mozione-di-sfiducia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La mozione di sfiducia può essere discussa e votata lo stesso giorno in cui è presentata.",
+      "vero": false,
+      "spiegazione": "Non può essere messa in discussione prima di tre giorni dalla presentazione; deve inoltre essere motivata, firmata da almeno un decimo dei componenti della Camera e votata per appello nominale (art. 94)."
+    },
+    {
+      "id": "u07-q035",
+      "lezione": "u07-l1",
+      "livello": "medio",
+      "pagine": [
+        54,
+        58
+      ],
+      "concetti": [
+        "mozione-di-sfiducia",
+        "questione-di-fiducia"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Chi prende l'iniziativa nella mozione di sfiducia e chi nella questione di fiducia?",
+      "risposta": "La mozione di sfiducia parte dal Parlamento (un decimo dei componenti di una Camera) per far cadere il Governo. La questione di fiducia la pone il Governo su un proprio testo: se la Camera vota contro, il Governo deve dimettersi. Serve a compattare la maggioranza e fa cadere gli emendamenti."
+    },
+    {
+      "id": "u07-q036",
+      "lezione": "u07-l2",
+      "livello": "base",
+      "pagine": [
+        59,
+        64
+      ],
+      "concetti": [
+        "presidente-del-consiglio",
+        "ministri"
+      ],
+      "tipo": "multipla",
+      "domanda": "Chi nomina i ministri?",
+      "opzioni": [
+        "Il Presidente del Consiglio, con proprio decreto",
+        "Il Parlamento, con il voto di fiducia",
+        "Il Presidente della Repubblica, su proposta del Presidente del Consiglio",
+        "Il Consiglio dei ministri, a maggioranza"
+      ],
+      "corretta": 2,
+      "spiegazione": "Art. 92, secondo comma: il Presidente della Repubblica nomina il Presidente del Consiglio e, su proposta di questo, i ministri."
+    },
+    {
+      "id": "u07-q037",
+      "lezione": "u07-l2",
+      "livello": "medio",
+      "pagine": [
+        59,
+        64
+      ],
+      "concetti": [
+        "governo",
+        "rapporto-di-fiducia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il Governo entra nell'esercizio delle sue funzioni soltanto dopo aver ottenuto la fiducia delle Camere.",
+      "vero": false,
+      "spiegazione": "Entra in carica con il giuramento nelle mani del Presidente della Repubblica (art. 93); entro dieci giorni dalla formazione si presenta alle Camere per la fiducia (art. 94)."
+    },
+    {
+      "id": "u07-q038",
+      "lezione": "u07-l2",
+      "livello": "medio",
+      "pagine": [
+        59,
+        64
+      ],
+      "concetti": [
+        "governo",
+        "presidente-del-consiglio"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali sono le tappe della formazione del Governo?",
+      "risposta": "Consultazioni del Presidente della Repubblica; conferimento dell'incarico (di solito accettato con riserva); scioglimento della riserva e nomina del Presidente del Consiglio e dei ministri; giuramento; entro dieci giorni, voto di fiducia di entrambe le Camere su mozione motivata e per appello nominale."
+    },
+    {
+      "id": "u07-q039",
+      "lezione": "u07-l3",
+      "livello": "medio",
+      "pagine": [
+        65,
+        69
+      ],
+      "concetti": [
+        "corte-dei-conti",
+        "consiglio-di-stato"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quale organo esercita il controllo preventivo di legittimità sugli atti del Governo e quello successivo sulla gestione del bilancio dello Stato?",
+      "opzioni": [
+        "Il Consiglio di Stato",
+        "Il CNEL",
+        "Il Consiglio superiore della magistratura",
+        "La Corte dei conti"
+      ],
+      "corretta": 3,
+      "spiegazione": "Art. 100, secondo comma. Il Consiglio di Stato è invece organo di consulenza giuridico-amministrativa e di tutela della giustizia nell'amministrazione."
+    },
+    {
+      "id": "u07-q040",
+      "lezione": "u07-l3",
+      "livello": "medio",
+      "pagine": [
+        65,
+        69
+      ],
+      "concetti": [
+        "consiglio-di-stato"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il Consiglio di Stato svolge soltanto funzioni consultive.",
+      "vero": false,
+      "spiegazione": "Ha una doppia natura: consulenza giuridico-amministrativa del Governo e giurisdizione amministrativa di secondo grado (artt. 100 e 103)."
+    },
+    {
+      "id": "u07-q041",
+      "lezione": "u07-l3",
+      "livello": "base",
+      "pagine": [
+        65,
+        69
+      ],
+      "concetti": [
+        "sottosegretari-di-stato"
+      ],
+      "tipo": "flashcard",
+      "domanda": "I sottosegretari di Stato fanno parte del Consiglio dei ministri?",
+      "risposta": "No. Coadiuvano il ministro ed esercitano i compiti che questi delega loro, ma non sono componenti del Consiglio dei ministri. Fa eccezione, per la partecipazione alle sedute, il sottosegretario alla Presidenza che ne è segretario."
+    },
+    {
+      "id": "u07-q042",
+      "lezione": "u07-l1",
+      "livello": "avanzato",
+      "pagine": [
+        54,
+        58
+      ],
+      "concetti": [
+        "mozione-di-sfiducia",
+        "questione-di-fiducia",
+        "rapporto-di-fiducia"
+      ],
+      "tipo": "aperta",
+      "domanda": "Mozione di sfiducia e questione di fiducia: differenze di iniziativa, procedura ed effetti.",
+      "traccia": "Entrambe verificano il **rapporto di fiducia**, ma l'iniziativa è opposta.\n\nLa **mozione di sfiducia** (art. 94) viene dal **Parlamento**: deve essere **motivata**, firmata da almeno **un decimo** dei componenti di una Camera, non può essere discussa prima di **tre giorni** e si vota per **appello nominale**. Se una sola Camera la approva, il Governo deve **dimettersi**. La Corte costituzionale (sent. 7/1996) ha ammesso anche la sfiducia **individuale** a un ministro.\n\nLa **questione di fiducia** non è scritta in Costituzione: è regolata dai **regolamenti parlamentari** e dalla legge 400/1988. La pone il **Governo**, con il consenso del Consiglio dei ministri, su un testo che considera essenziale. Ha effetti procedurali forti: **priorità** nel voto, voto **palese** per appello nominale, **decadenza degli emendamenti**. Se la Camera vota contro, il Governo deve dimettersi.\n\nNella prassi le crisi nascono quasi sempre **fuori dal Parlamento**; la questione di fiducia è usata spesso per **compattare la maggioranza** e superare l'ostruzionismo.",
+      "punti": [
+        {
+          "testo": "La mozione di sfiducia è iniziativa parlamentare",
+          "chiavi": [
+            "parlament",
+            "un decimo",
+            "decimo"
+          ]
+        },
+        {
+          "testo": "Garanzie dell'art. 94: motivazione, tre giorni, appello nominale",
+          "chiavi": [
+            "motivat",
+            "tre giorni",
+            "appello"
+          ]
+        },
+        {
+          "testo": "La questione di fiducia è posta dal Governo su un proprio testo",
+          "chiavi": [
+            "governo",
+            "pone",
+            "testo"
+          ]
+        },
+        {
+          "testo": "Effetti procedurali: priorità, voto palese, emendamenti",
+          "chiavi": [
+            "emendament",
+            "palese",
+            "priorit"
+          ]
+        },
+        {
+          "testo": "In entrambi i casi il voto contrario obbliga alle dimissioni",
+          "chiavi": [
+            "dimission"
+          ]
+        }
       ]
     }
   ]

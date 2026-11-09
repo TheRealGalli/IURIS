@@ -9,7 +9,12 @@
   ],
   "abstract": "Capacità elettorali, garanzie della competizione e formule; il Mattarellum come storia e la legge n. 180/2026 come quadro vigente verificato.",
   "note": "Aggiornato: 400 deputati e 200 senatori elettivi; per il Senato si vota da 18 anni. Il Mattarellum è storia: la legge elettorale vigente è la l. 180/2026.",
-  "noteRedazione": ["pp. 45–46: aggiornati elettorato attivo Senato a 18 anni (l. cost. 1/2021), composizione 400/200 e seggi Estero 8/4 (l. cost. 1/2020). Non riprodotto il vecchio elenco di incapacità civili e fallimento come cause automatiche di perdita del voto. Fonti: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-i/articolo-56 e https://dait.interno.gov.it/elezioni/faq/faq-referendum-2026 .", "p. 49: corretto il calcolo 466/100=4,66 e non 46,6; i seggi residui si assegnano con i resti, non rimangono vacanti. Sbarramento distinto dal quoziente.", "pp. 50–53: la descrizione del Mattarellum è storica. Quadro aggiornato al 9 novembre 2026 sulla l. 9 ottobre 2026 n. 180, efficace dal 24 ottobre: artt. 1–2 https://www.normattiva.it/eli/id/2026/10/09/26G00201/ORIGINAL ; testo art. 2 https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00201&art.dataPubblicazioneGazzetta=2026-10-09&art.flagTipoArticolo=0&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1 . La sintesi espone quadro e deroghe principali, non sostituisce le regole tecniche integrali del riparto.", "Ineleggibilità e incompatibilità confrontate con https://documenti.camera.it/leg19/dossier/testi/AC0081.htm ; comunicazione politica con https://www.agcom.it/competenze/media/par-condicio ."],
+  "noteRedazione": [
+    "pp. 45–46: aggiornati elettorato attivo Senato a 18 anni (l. cost. 1/2021), composizione 400/200 e seggi Estero 8/4 (l. cost. 1/2020). Non riprodotto il vecchio elenco di incapacità civili e fallimento come cause automatiche di perdita del voto. Fonti: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-i/articolo-56 e https://dait.interno.gov.it/elezioni/faq/faq-referendum-2026 .",
+    "p. 49: corretto il calcolo 466/100=4,66 e non 46,6; i seggi residui si assegnano con i resti, non rimangono vacanti. Sbarramento distinto dal quoziente.",
+    "pp. 50–53: la descrizione del Mattarellum è storica. Quadro aggiornato al 9 novembre 2026 sulla l. 9 ottobre 2026 n. 180, efficace dal 24 ottobre: artt. 1–2 https://www.normattiva.it/eli/id/2026/10/09/26G00201/ORIGINAL ; testo art. 2 https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00201&art.dataPubblicazioneGazzetta=2026-10-09&art.flagTipoArticolo=0&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1 . La sintesi espone quadro e deroghe principali, non sostituisce le regole tecniche integrali del riparto.",
+    "Ineleggibilità e incompatibilità confrontate con https://documenti.camera.it/leg19/dossier/testi/AC0081.htm ; comunicazione politica con https://www.agcom.it/competenze/media/par-condicio ."
+  ],
   "lezioni": [
     {
       "titolo": "Voto, candidature e formule: come si trasformano i voti in seggi",
@@ -815,6 +820,167 @@
           "Sbarramento",
           "Soglia legale di accesso al riparto"
         ]
+      ]
+    },
+    {
+      "id": "u06-q023",
+      "lezione": "u06-l1",
+      "livello": "medio",
+      "pagine": [
+        45,
+        49
+      ],
+      "concetti": [
+        "incompatibilita"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un deputato in carica viene eletto anche consigliere regionale. Che cosa prevede l'ordinamento?",
+      "opzioni": [
+        "L'elezione a deputato è nulla fin dall'inizio",
+        "Può tenere entrambe le cariche",
+        "Perde automaticamente entrambe le cariche",
+        "Deve scegliere una delle due cariche"
+      ],
+      "corretta": 3,
+      "spiegazione": "È un caso di incompatibilità (art. 122): le due cariche non possono essere ricoperte insieme e l'eletto deve optare. L'ineleggibilità, invece, vizia l'elezione stessa."
+    },
+    {
+      "id": "u06-q024",
+      "lezione": "u06-l1",
+      "livello": "base",
+      "pagine": [
+        45,
+        49
+      ],
+      "concetti": [
+        "ineleggibilita",
+        "elettorato-passivo"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'ineleggibilità impedisce a una persona di votare.",
+      "vero": false,
+      "spiegazione": "Riguarda l'elettorato passivo: chi si trova in certe posizioni non può essere validamente eletto. Il diritto di voto (elettorato attivo) è un'altra cosa."
+    },
+    {
+      "id": "u06-q025",
+      "lezione": "u06-l1",
+      "livello": "medio",
+      "pagine": [
+        45,
+        49
+      ],
+      "concetti": [
+        "sistema-maggioritario",
+        "sistema-proporzionale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali effetti tendono a produrre il sistema maggioritario e quello proporzionale?",
+      "risposta": "Il maggioritario assegna il seggio a chi ha più voti nel collegio: favorisce maggioranze chiare e governabilità, ma lascia senza rappresentanza molti voti. Il proporzionale distribuisce i seggi in proporzione ai voti: rappresenta meglio le forze politiche, ma può frammentare il Parlamento e richiedere coalizioni."
+    },
+    {
+      "id": "u06-q026",
+      "lezione": "u06-l2",
+      "livello": "base",
+      "pagine": [
+        50,
+        53
+      ],
+      "concetti": [
+        "verifica-dei-poteri"
+      ],
+      "tipo": "multipla",
+      "domanda": "Chi giudica i titoli di ammissione dei parlamentari e le cause sopraggiunte di ineleggibilità e incompatibilità?",
+      "opzioni": [
+        "La Corte costituzionale",
+        "Il giudice amministrativo",
+        "Il Presidente della Repubblica",
+        "Ciascuna Camera per i propri componenti"
+      ],
+      "corretta": 3,
+      "spiegazione": "È la verifica dei poteri dell'art. 66: una garanzia tradizionale dell'indipendenza delle Camere."
+    },
+    {
+      "id": "u06-q027",
+      "lezione": "u06-l2",
+      "livello": "base",
+      "pagine": [
+        50,
+        53
+      ],
+      "concetti": [
+        "sistema-elettorale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Dopo la riforma costituzionale del 2020 i deputati sono 400 e i senatori elettivi 200.",
+      "vero": true,
+      "spiegazione": "La legge costituzionale 1/2020 ha ridotto i parlamentari da 630 a 400 deputati e da 315 a 200 senatori elettivi (artt. 56 e 57)."
+    },
+    {
+      "id": "u06-q028",
+      "lezione": "u06-l2",
+      "livello": "medio",
+      "pagine": [
+        50,
+        53
+      ],
+      "concetti": [
+        "soglia-di-sbarramento"
+      ],
+      "tipo": "flashcard",
+      "domanda": "A che cosa serve una soglia di sbarramento e quale costo comporta?",
+      "risposta": "Esclude dalla ripartizione dei seggi le liste che non raggiungono una percentuale minima di voti: riduce la frammentazione e aiuta a formare maggioranze. Il costo è che i voti dati alle liste escluse restano senza rappresentanza."
+    },
+    {
+      "id": "u06-q029",
+      "lezione": "u06-l1",
+      "livello": "avanzato",
+      "pagine": [
+        45,
+        49
+      ],
+      "concetti": [
+        "sistema-maggioritario",
+        "sistema-proporzionale",
+        "soglia-di-sbarramento",
+        "premio-di-maggioranza"
+      ],
+      "tipo": "aperta",
+      "domanda": "Sistemi maggioritari e proporzionali: come funzionano e quali correttivi conoscono?",
+      "traccia": "Il sistema elettorale trasforma i **voti in seggi**. Nel **maggioritario** il territorio è diviso in **collegi**, di solito uninominali: vince il seggio chi ha più voti, a **turno unico** (maggioranza relativa) o a **doppio turno** (ballottaggio). Premia i partiti maggiori, semplifica il quadro politico e favorisce la **governabilità**; ma può dare la maggioranza dei seggi a chi non ha la maggioranza dei voti.\n\nNel **proporzionale** i seggi sono distribuiti tra le liste **in proporzione ai voti**, in collegi plurinominali, con metodi del quoziente o del divisore. Garantisce la **rappresentatività**, ma tende alla frammentazione e ai governi di coalizione.\n\nI **correttivi** avvicinano i due modelli. La **soglia di sbarramento** esclude le liste più piccole. Il **premio di maggioranza** assegna seggi in più a chi arriva primo. I **sistemi misti** assegnano una parte dei seggi con un metodo e una parte con l'altro. La Corte costituzionale (sentt. 1/2014 e 35/2017) chiede che la governabilità non sacrifichi in modo sproporzionato la rappresentanza.",
+      "punti": [
+        {
+          "testo": "Maggioritario: collegi uninominali, vince chi ha più voti",
+          "chiavi": [
+            "collegi",
+            "uninominal"
+          ]
+        },
+        {
+          "testo": "Effetti: governabilità ma distorsione",
+          "chiavi": [
+            "governabil"
+          ]
+        },
+        {
+          "testo": "Proporzionale: seggi in proporzione ai voti, rappresentatività",
+          "chiavi": [
+            "proporzion",
+            "rappresentativ"
+          ]
+        },
+        {
+          "testo": "Soglia di sbarramento e premio di maggioranza",
+          "chiavi": [
+            "sbarramento",
+            "premio"
+          ]
+        },
+        {
+          "testo": "Sistemi misti",
+          "chiavi": [
+            "mist"
+          ]
+        }
       ]
     }
   ]
