@@ -45,8 +45,8 @@ export const CORSI: CorsoDiStudio[] = [
     materie: ['filosofia-del-diritto', 'diritto-romano'],
     inArrivo: IN_ARRIVO_LMG,
   },
-  // M-Z e SSG: visibili ma non selezionabili finché non ci sono i loro contenuti. Per ora le stesse materie di A-L come segnaposto, finché non arriva l'elenco ufficiale delle materie
-  // (e dei docenti) di ciascun corso. Sostituire `materie` e `inArrivo` quando c'è.
+  // M-Z: visibile ma non selezionabile finché non ci sono i suoi contenuti. Per ora le stesse materie di A-L come segnaposto, finché non arriva l'elenco ufficiale delle materie
+  // (e dei docenti) del corso. Sostituire `materie` e `inArrivo` quando c'è.
   {
     id: 'uniba-lmg-1-mz',
     breve: 'LMG · I anno · M-Z',
@@ -67,8 +67,9 @@ export const CORSI: CorsoDiStudio[] = [
     universita: 'Università di Bari Aldo Moro',
     laurea: 'Scienze dei servizi giuridici (L-14)',
     anno: 1,
-    disponibile: false,
-    materie: ['filosofia-del-diritto', 'diritto-romano'],
+    // Filosofia del diritto ha un programma proprio (lezioni di Siniscalchi e Incampo); Diritto romano usa gli stessi appunti di LMG,
+    // quindi la stessa materia e gli stessi progressi.
+    materie: ['filosofia-del-diritto-ssg', 'diritto-romano'],
     inArrivo: IN_ARRIVO_LMG,
   },
 ];

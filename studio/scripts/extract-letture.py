@@ -100,14 +100,25 @@ def sections(doc: dict) -> list[dict]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--replace-base', action='store_true', help='Rigenera anche estratti Markdown esistenti; non modifica revisioni.json.')
+    parser.add_argument('--solo', action='append', default=[], metavar='ID',
+                        help='Estrae solo questi documenti (ripetibile); gli altri restano come sono nel catalogo e nella verifica.')
     args = parser.parse_args()
     catalog = json.loads((ROOT / 'src/lib/originali-catalogo.json').read_text())
     # I fascicoli riusati dal Percorso non sono PDF da estrarre e restano nel catalogo sorgente.
     previous_catalog = json.loads((SRC / 'catalogo.json').read_text()) if (SRC / 'catalogo.json').exists() else []
     SRC.mkdir(parents=True, exist_ok=True)
     output_catalog, report = [], {'versione': 1, 'documenti': []}
+    if args.solo:
+        ignoti = set(args.solo) - {doc['id'] for doc in catalog}
+        if ignoti:
+            raise ValueError(f"Documenti non in catalogo: {', '.join(sorted(ignoti))}")
+        previous_report = json.loads((SRC / 'estrazione-verifica.json').read_text()) if (SRC / 'estrazione-verifica.json').exists() else report
+        output_catalog = [doc for doc in previous_catalog if doc['id'] not in args.solo and doc.get('tipoFonte') != 'manuale-ricostruito']
+        report['documenti'] = [doc for doc in previous_report['documenti'] if doc['id'] not in args.solo]
     for doc in catalog:
         if doc.get('tipoFonte') == 'manuale-ricostruito':
+            continue
+        if args.solo and doc['id'] not in args.solo:
             continue
         path = ROOT / 'public' / doc['file']
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
@@ -116,7 +127,8 @@ def main() -> None:
         reader = PdfReader(path)
         if len(reader.pages) != doc['pagine']:
             raise ValueError(f"Numero pagine inatteso: {doc['id']}")
-        layouts = [page.extract_text(extraction_mode='layout') or '' for page in reader.pages]
+        # Le pagine bianche (senza flusso di contenuto) valgono come pagine senza testo.
+        layouts = [(page.extract_text(extraction_mode='layout') or '') if '/Contents' in page else '' for page in reader.pages]
         edge_counts = Counter(value for text in layouts for value in page_edges(text))
         repeated = {value for value, n in edge_counts.items() if n >= max(5, int(len(layouts) * .12)) and 5 < len(value) < 220}
         # Nei testi di Incampo e Moro il piè di pagina comprende il riferimento alla fonte.

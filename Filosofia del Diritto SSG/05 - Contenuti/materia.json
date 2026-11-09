@@ -1,0 +1,27 @@
+{
+  "nome": "Filosofia del diritto",
+  "breve": "Filosofia del diritto",
+  "manuale": "Lezioni del prof. Siniscalchi (A.A. 2024–25) · A. Incampo, Filosofia del dovere giuridico",
+  "fonti": [
+    {
+      "id": "lezioni",
+      "nome": "Lezioni",
+      "file": "Lezioni Siniscalchi 2024-25.pdf",
+      "descrizione": "Sbobinature delle lezioni del prof. Siniscalchi, A.A. 2024–25",
+      "pagine": 192
+    },
+    {
+      "id": "incampo",
+      "nome": "Incampo",
+      "file": "Incampo, riassunto.pdf",
+      "descrizione": "Riassunto di A. Incampo, Filosofia del dovere giuridico («Sul dovere giuridico»)",
+      "pagine": 29
+    }
+  ],
+  "fonte": {
+    "file": "due testi",
+    "descrizione": "Lezioni di Siniscalchi, riassunto di Incampo",
+    "pagine": 221
+  },
+  "colore": "#33628f"
+}

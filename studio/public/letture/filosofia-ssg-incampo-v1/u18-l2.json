@@ -1,0 +1,79 @@
+{
+  "documento": "filosofia-ssg-incampo-v1",
+  "edizione": 1,
+  "id": "u18-l2",
+  "titolo": "Politica e diritto: processo giuridico, analogia, argomento a contrario, decisione",
+  "da": 3,
+  "a": 3,
+  "lezione": "u18-l2",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p003-b002",
+      "pagina": 3,
+      "markdown": "La filosofia è scienza dell’universale, la politica del particolare. La prima è scienza della possibilità dei fenomeni, la seconda dei fenomeni solo possibili. La politica ha a che fare con la filosofia perché ne è n suo oggetto essendo la politica un momento necessario del processo giuridico. Non v’è diritto senza politica.",
+      "concetti": []
+    },
+    {
+      "id": "p003-b003",
+      "pagina": 3,
+      "markdown": "Il processo giuridico: l’[[ordinamento-giuridico|ordinamento giuridico]] è un [[sistema-dinamico|sistema dinamico]]. L’ordinamento è composto da una concatenazione infinita e sempre nuova di atti giuridici, a cui è collegato un continuo processo di creazione giuridica. Si distinguono quindi: atti che creano diritto oltre il diritto che si ha (atti di legislazione) e atti che creano diritto dal diritto che si ha (atti di giurisdizione). Vi sono quindi atti che creano diritto o aggiungendo nuove norme all’ordinamento, oppure ricavando nuove norme da quelle già esistenti nell’ordinamento. È necessaria però un’attività continua di produzione di norme perché se non fosse così, l’ordinamento perderebbe la sua effettività. Esempio Repubblica di Weimar.",
+      "concetti": [
+        "ordinamento-giuridico",
+        "sistema-dinamico"
+      ]
+    },
+    {
+      "id": "p003-b004",
+      "pagina": 3,
+      "markdown": "I procedimenti della logica giuridica:",
+      "concetti": []
+    },
+    {
+      "id": "p003-b005",
+      "pagina": 3,
+      "markdown": "Il giurista, che applichi i due principali procedimenti della logica giuridica, cioè dell’[[analogia|analogia]] e dell’[[argomento-a-contrario|argomento a contrario]], intende rispondere alle [[lacuna-del-diritto|lacune]] della legge. Il compito del giurista è di integrare il diritto, a partire sempre dal diritto che c’è, e dimostrare il significato delle norme che già ci sono, e non di creare una nuova norma.",
+      "concetti": [
+        "analogia",
+        "argomento-a-contrario",
+        "lacuna-del-diritto"
+      ]
+    },
+    {
+      "id": "p003-b006",
+      "pagina": 3,
+      "markdown": "Ad esempio: si immagini la norma “è vietato l’ingresso ai cani” davanti ad una sala d’attesa in una stazione ferroviaria. La norma sembra impedire l’ingresso solo ai cani senza distinzione di razza, taglia, ecc. si avvicina un uomo con un orso. Il senso comune ci dice che il divieto non vale solo per i cani ma anche per gli orsi. Adesso però si avvicina un poliziotto con il suo cane. Cosa fare? Il senso comune ci dice che il divieto vale per tutti i cani ma non per quello che accompagna il poliziotto.",
+      "concetti": []
+    },
+    {
+      "id": "p003-b007",
+      "pagina": 3,
+      "markdown": "Queste due soluzioni sono a fondamento dei due procedimenti della logica giuridica. Secondo il procedimento per analogia, dalla norma che prevede un certo caso (N1) si ottiene, mediante un’[[interpretazione-giuridica|interpretazione]] relativa allo scopo della norma stessa, la norma che prevede lo stesso divieto per quelli animali simili al cane nell’arrecare un certo disturbo (NN). Da NN è prodotta una nuova norma che vieta l’ingresso agli orsi (N2).",
+      "concetti": [
+        "interpretazione-giuridica",
+        "analogia"
+      ]
+    },
+    {
+      "id": "p003-b008",
+      "pagina": 3,
+      "markdown": "## N1  NN  N2",
+      "concetti": []
+    },
+    {
+      "id": "p003-b009",
+      "pagina": 3,
+      "markdown": "Secondo il procedimento dell’argomento a contrario, da N1 si giunge, sempre mediante un’interpretazione relativa allo scopo della norma di partenza, alla norma che esclude tale divieto per quelli animali che invece procurano beneficio nella sala d’attesa (NN). Da questa norma è prodotta la norma N2 che non vieta, anzi dà il permesso al cane poliziotto di entrare.",
+      "concetti": [
+        "argomento-a-contrario",
+        "interpretazione-giuridica"
+      ]
+    },
+    {
+      "id": "p003-b010",
+      "pagina": 3,
+      "markdown": "## N1  NN  N2",
+      "concetti": []
+    }
+  ]
+}

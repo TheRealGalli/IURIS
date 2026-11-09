@@ -1,6 +1,8 @@
 // Riorganizza gli estratti in sezioni per lezione del Percorso. Sposta i blocchi
 // senza toccarne il testo né gli ID: le revisioni restano in revisioni.json.
-// Uso: node scripts/sezioni-letture.mjs [--scrivi]
+// Uso: node scripts/sezioni-letture.mjs [--scrivi] [--solo ID ...]
+// Con --solo tocca solo i documenti indicati: quelli già revisionati hanno confini ritoccati a mano
+// (confini-sezioni.json, sposta-blocchi.mjs) e non vanno ricalcolati.
 import { readFile, writeFile, readdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -8,10 +10,13 @@ import path from 'node:path';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const source = path.join(root, 'letture-src');
 const scrivi = process.argv.includes('--scrivi');
+const solo = process.argv.flatMap((a, i, all) => (all[i - 1] === '--solo' ? [a] : []));
 const catalogo = JSON.parse(await readFile(path.join(source, 'catalogo.json'), 'utf8'));
-const FONTE = { 'filosofia-incampo-v1': 'incampo', 'filosofia-moro-v1': 'moro', 'filosofia-cotta-v1': 'cotta' };
+const FONTE = { 'filosofia-incampo-v1': 'incampo', 'filosofia-moro-v1': 'moro', 'filosofia-cotta-v1': 'cotta',
+  'filosofia-ssg-lezioni-v1': 'lezioni', 'filosofia-ssg-incampo-v1': 'incampo' };
 
 for (const doc of catalogo) {
+  if (solo.length && !solo.includes(doc.id)) continue;
   if (doc.tipoFonte === 'manuale-ricostruito') continue; // Il testo viene direttamente dal Percorso durante sync-letture.
   const corso = JSON.parse(await readFile(path.join(root, 'public/content', doc.materia, 'corso.json'), 'utf8'));
   const lezioni = corso.unita.filter((u) => !FONTE[doc.id] || u.fonte === FONTE[doc.id])

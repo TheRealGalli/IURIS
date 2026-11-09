@@ -72,8 +72,11 @@ try {
     assert.equal(corsoDi(undefined), CORSO_PREDEFINITO);
     assert.equal(corsoDi('corso-tolto'), CORSO_PREDEFINITO);
     assert(corsi.corsoDisponibile(CORSO_PREDEFINITO), 'il corso predefinito deve essere selezionabile');
-    assert.deepEqual(CORSI.filter(corsi.corsoDisponibile).map((c) => c.id), ['uniba-lmg-1-al'], 'per ora solo A-L è selezionabile');
-    for (const id of ['uniba-lmg-1-mz', 'uniba-ssg-1']) {
+    assert.deepEqual(CORSI.filter(corsi.corsoDisponibile).map((c) => c.id), ['uniba-lmg-1-al', 'uniba-ssg-1'], 'per ora sono selezionabili A-L e SSG');
+    const ssg = corsoDi('uniba-ssg-1');
+    assert.equal(ssg.id, 'uniba-ssg-1', 'SSG salvato resta SSG');
+    assert.deepEqual(ssg.materie, ['filosofia-del-diritto-ssg', 'diritto-romano'], 'SSG: filosofia propria, romano condiviso con LMG');
+    for (const id of ['uniba-lmg-1-mz']) {
       assert(CORSI.some((c) => c.id === id), `${id} deve restare visibile nell'elenco`);
       assert.equal(corsoDi(id), CORSO_PREDEFINITO, `${id} salvato: si torna ad A-L`);
     }

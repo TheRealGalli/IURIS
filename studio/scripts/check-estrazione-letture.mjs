@@ -93,8 +93,8 @@ for (const doc of docs) {
   assert.equal(seen.size, audit.blocchi);
   pages += doc.pagine;
 }
-assert.equal(docs.length, 5); assert.equal(pages, 384); assert.equal(integrazioni, 12); assert(pilot >= 2);
-for (const materia of ['diritto-romano', 'filosofia-del-diritto']) {
+assert.equal(docs.length, 7); assert.equal(pages, 605); assert.equal(integrazioni, 12); assert(pilot >= 2);
+for (const materia of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg']) {
   const corso = await read(`public/content/${materia}/corso.json`);
   for (const l of corso.unita.flatMap((u) => u.lezioni)) assert(lezioniCorso.has(`${materia}:${l.id}`), `testo completo accessibile per ${materia}/${l.id}`);
 }
@@ -107,4 +107,4 @@ assert(p1.blocchi.find((b) => b.id === 'p001-b008').testoFonte.includes('non è'
 const p2 = await read('public/letture/filosofia-incampo-v1/u01-l2.json');
 assert(p2.blocchi.find((b) => b.id === 'p006-b001').markdown.includes('nullum crimen sine lege'));
 assert(p2.blocchi.find((b) => b.id === 'p005-b004').notaRevisione.includes('resta da verificare'));
-console.log(`Estrazione verificata: 4 PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di 161 lezioni; fonti, greco e ID conservati.`);
+console.log(`Estrazione verificata: 6 PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);
