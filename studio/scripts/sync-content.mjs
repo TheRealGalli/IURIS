@@ -17,7 +17,8 @@ const iurisRoot = path.dirname(studioRoot);
 const outRoot = path.join(studioRoot, 'public', 'content');
 const CONTENUTI = '05 - Contenuti';
 
-const SKIP = new Set(['studio', 'node_modules', '.git']);
+// `piani/`: istruzioni per chi prepara le materie, non è una materia.
+const SKIP = new Set(['studio', 'node_modules', '.git', 'piani']);
 const slug = (s) =>
   s.trim().toLowerCase()
     .normalize('NFD').replace(/[̀-ͯ]/g, '')
@@ -279,8 +280,11 @@ for (const entry of fs.readdirSync(iurisRoot, { withFileTypes: true })) {
   const fontiDir = path.join(materiaDir, '00 - Appunti e fonti');
   const fonti = fs.existsSync(fontiDir) ? fs.readdirSync(fontiDir).filter((f) => !f.startsWith('.')) : [];
 
-  if (!fs.existsSync(path.join(materiaDir, CONTENUTI))) {
-    manifest.materie.push({ slug: materiaSlug, nome: entry.name.trim(), disponibile: false, fonti });
+  // Materia in preparazione (cartella pronta, ancora nessuna unità): resta fuori dal manifest finché non ha
+  // contenuti; nell'app la annunciano gli `inArrivo` dei corsi (src/data/corsi.ts).
+  const contenutiDir = path.join(materiaDir, CONTENUTI);
+  if (!fs.existsSync(contenutiDir) || !fs.readdirSync(contenutiDir).some((f) => /^u\d+\.json$/.test(f))) {
+    console.log(`[sync] ${entry.name.trim()}: in preparazione, nessuna unità`);
     continue;
   }
   const { corso, stats, avvisi } = buildCorso(materiaDir, materiaSlug, entry.name.trim());

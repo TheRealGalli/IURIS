@@ -61,6 +61,8 @@ npm run studio
 
 La versione per studiare è su `http://localhost:7100`; `npm run dev` avvia lo sviluppo sulla porta 7101.
 
+Per chi prepara nuove materie (anche un altro assistente AI): [`AGENTS.md`](AGENTS.md) raccoglie il flusso di lavoro e le trappole dell'ambiente, [`piani/`](piani/) i piani delle materie in preparazione.
+
 ## Pubblicazione su GitHub Pages
 
 Il dominio principale è **formaiuris.it**, collegato a GitHub Pages tramite i DNS gestiti su IONOS.
