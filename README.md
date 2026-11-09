@@ -13,7 +13,10 @@ Le materie si scelgono da una griglia di simboli su due colonne, nella barra lat
 | LMG e SSG | Diritto romano | Disponibile, condivisa fra i corsi |
 | SSG | Filosofia del diritto | Disponibile, programma dedicato |
 | LMG · I anno · A–L | Diritto costituzionale | Disponibile: 18 unità, 50 lezioni, 536 domande |
+| SSG | Diritto costituzionale | In arrivo, con appunti propri |
 | LMG e SSG | Diritto privato | In attesa degli appunti |
+
+Progetto di Carlo Galli ([@TheRealGalli](https://github.com/TheRealGalli)), realizzato con l'aiuto di tre assistenti IA: **Claude** (Anthropic), **ChatGPT/Codex** (OpenAI) e **Grok** (xAI).
 
 Da **Demo interattiva** nella barra laterale (o **Menu** su mobile) si avvia una visita guidata sulle pagine reali. Una freccetta animata e la I di IURIS accompagnano Oggi, Percorso, lezione, Originali, segni, mappe, allenamento, cronologia, glossario, statistiche e backup. Il tour avanza solo su richiesta, con indietro, scelta della sezione e avanti su una sola riga compatta. Le prove usano un archivio in memoria separato: progressi, segni, quiz e preferenze personali vengono conservati; le viste completano le proprie scritture prima del cambio di archivio. Uscendo, o ricaricando la pagina, i dati dimostrativi scompaiono. La tappa finale permette di aprire il Backup reale. La sezione **Backup**, sotto **Studio**, è generale e resta aperta quando si cambia materia.
 
