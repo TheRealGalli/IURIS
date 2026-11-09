@@ -13,7 +13,7 @@ export default function Percorso() {
     const prima = idx.corso.unita.find((u) => u.lezioni.some((l) => !p.lezioni[l.id]?.studiata));
     return prima ? { [prima.id]: true } : {};
   });
-  // le note dell'unità (correzioni e dubbi rispetto agli appunti) restano nascoste finché non si tocca il triangolino
+  // l'avviso «Da sapere» dell'unità resta nascosto finché non si tocca il triangolino
   const [noteAperte, setNoteAperte] = useState<Record<string, boolean>>({});
   const m = idx.corso.materia;
   const studiate = pagineStudiate(idx, p);
@@ -32,7 +32,7 @@ export default function Percorso() {
           <div className="row-between small"><b>{studiate} / {idx.pagineTotali} pagine studiate</b><span className="faint">{Math.round((studiate / Math.max(1, idx.pagineTotali)) * 100)}%</span></div>
           <div style={{ marginTop: 6 }}><Bar value={studiate / Math.max(1, idx.pagineTotali)} tone="ok" /></div>
         </div>
-        {nonCoperte > 0 && <span className="faint tiny">{nonCoperte} pp. del PDF non conteggiate nel percorso</span>}
+        {nonCoperte > 0 && <span className="faint tiny">{nonCoperte} pp. del PDF fuori dal percorso (copertina, indice, appendici)</span>}
       </div>
 
       <div className="stack" style={{ gap: 12 }}>
@@ -58,8 +58,8 @@ export default function Percorso() {
                     <span className="faint tiny">{fatte}/{u.lezioni.length} lezioni</span>
                     {mu.viste > 0 && <span className="row tiny faint" style={{ gap: 5 }}><LivelloDot valore={mu.media} viste={mu.viste} /> {Math.round((mu.valore ?? 0) * 100)}%</span>}
                     {u.note && open && (
-                      <button className={`nota-btn ${noteAperte[u.id] ? 'on' : ''}`} title="Note sugli appunti: correzioni e punti dubbi"
-                        aria-label="Note sugli appunti" aria-expanded={!!noteAperte[u.id]}
+                      <button className={`nota-btn ${noteAperte[u.id] ? 'on' : ''}`} title="Da sapere su questa unità"
+                        aria-label="Da sapere su questa unità" aria-expanded={!!noteAperte[u.id]}
                         onClick={(e) => { e.stopPropagation(); setNoteAperte((n) => ({ ...n, [u.id]: !n[u.id] })); }}>
                         <Icon n="avviso" size={16} />
                       </button>

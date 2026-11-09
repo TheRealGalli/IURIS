@@ -27,7 +27,7 @@ i tre presupposti del decreto-legge, la riforma dell'ordinamento giudiziario, la
 né Costituzione. È stata scartata: si lavora solo sulla versione completa.
 
 Ogni pagina porta il marchio StuDocu e nome ed email di chi ha scaricato il file: queste righe sono già tolte dal
-file di testo. **Non pubblicare il PDF** (né negli Originali né altrove in `public/`).
+file di testo. **Non pubblicare il PDF originale**: negli Originali va solo la versione ripulita (vedi «Attivazione», punto 4).
 
 Da chiedere a Carlo se serve: docente della classe A-L ed edizione del manuale indicata nel programma, data dell'esame.
 
@@ -149,7 +149,7 @@ tutte le unità li usano allo stesso modo.
    corsi (per SSG chiedi a Carlo se la materia è nel suo piano di studi: la L-14 ha di solito
    «Istituzioni di diritto pubblico»).
 3. `studio/scripts/check-corsi.mjs`: aggiorna le attese su `materie` e `inArrivo` del corso A-L.
-4. Originali: per ora **no**. Il PDF non va pubblicato (dati personali di chi l'ha scaricato) e il suo testo non è estraibile con pypdf. Se Carlo li vuole, serve un PDF pulito dello stesso riassunto.
+4. Originali: **sì**, con un PDF ripulito: `studio/public/originali/costituzionale-bin-pitruzzella.pdf` (senza filigrana StuDocu, senza l'email dell'autore a piè di pagina, copertina e p. 3 bianche, metadati azzerati). Si rigenera dal PDF originale tenendo il terzo flusso di contenuto fuori da ogni pagina e togliendo la riga in corpo 6,3 a y≈68. Il testo viene dall'OCR del PDF pulito (`studio/letture-src/testi/costituzionale-bin-pitruzzella.txt`, prodotto con `studio/scripts/testo-ocr.py`), letto da `extract-letture.py` tramite il campo `testoOcr` del catalogo. Le appendici (errata, domande, Costituzione) sono sezioni proprie.
    seguendo i passi in `AGENTS.md`.
 5. `README.md`: riga nella tabella delle materie. Poi `npm run build && npm run check:build`.
 
@@ -170,7 +170,7 @@ Tutte le 18 unità sono scritte e validate: **50 lezioni, 536 domande esplicite,
 ### Fonti e scelte da conservare
 
 - Letto il riassunto pp. 4–171 e l’errata corrige p. 172. Confrontate le risposte pertinenti, in particolare pp. 178–182, 188, 191–196 e 198–203; per il diritto vigente prevalgono i testi istituzionali richiamati nelle note delle unità. Il testo costituzionale dell’epoca allegato al PDF non è trattato come testo attuale.
-- Il PDF contiene dati personali di terzi: non è pubblicato né copiato negli Originali. Costituzionale è disponibile nel Percorso e nei relativi strumenti; la mancanza di Originali per questa materia è intenzionale.
+- Il PDF originale contiene dati personali di terzi (filigrana di chi l'ha scaricato, email dell'autore): negli Originali c'è solo la versione ripulita, verificata con OCR su tutte le 258 pagine.
 - Attivata solo in LMG A–L e nel segnaposto non selezionabile M–Z. SSG mantiene il programma distinto di Filosofia e il Diritto romano condiviso; Privato attende le fonti.
 - Confermata la legge 9 ottobre 2026, n. 180, in vigore dal 24 ottobre 2026: https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00201/sg . Le lezioni distinguono il quadro elettorale vigente dai modelli storici.
 - Confermata la mancata approvazione della revisione giustizia nel referendum di marzo 2026: https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=26A02490&atto.dataPubblicazioneGazzetta=2026-05-18&tipoSerie=serie_generale&tipoVigenza=originario . CSM attuale: 30 elettivi più 3 di diritto.

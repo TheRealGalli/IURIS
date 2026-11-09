@@ -12,6 +12,13 @@ const source = path.join(root, 'letture-src');
 const scrivi = process.argv.includes('--scrivi');
 const solo = process.argv.flatMap((a, i, all) => (all[i - 1] === '--solo' ? [a] : []));
 const catalogo = JSON.parse(await readFile(path.join(source, 'catalogo.json'), 'utf8'));
+const APPENDICI = {
+  'costituzionale-bin-pitruzzella-v1': [
+    { id: 'appendice-errata', titolo: 'Errata corrige della VII edizione', da: 172 },
+    { id: 'appendice-domande', titolo: 'Domande e risposte', da: 173 },
+    { id: 'appendice-costituzione', titolo: 'Testo della Costituzione (versione dell’epoca)', da: 205 },
+  ],
+};
 const FONTE = { 'filosofia-incampo-v1': 'incampo', 'filosofia-moro-v1': 'moro', 'filosofia-cotta-v1': 'cotta',
   'filosofia-ssg-lezioni-v1': 'lezioni', 'filosofia-ssg-incampo-v1': 'incampo' };
 
@@ -31,6 +38,8 @@ for (const doc of catalogo) {
     if (prec && prec.da === l.da) { prec.lezioni.push(l.id); continue; }
     sezioni.push({ id: l.id, titolo: l.titolo, da: sezioni.length ? l.da : 1, lezione: l.id, lezioni: [l.id] });
   }
+  // Pagine in fondo al PDF che non appartengono a nessuna lezione (appendici): sezioni proprie, senza lezione.
+  for (const ap of APPENDICI[doc.id] ?? []) sezioni.push({ ...ap, lezioni: [] });
   for (let i = 0; i < sezioni.length; i++) sezioni[i].a = i < sezioni.length - 1 ? sezioni[i + 1].da - 1 : doc.pagine;
   // Blocchi esistenti, nell'ordine dei file attuali.
   const blocchi = [];
@@ -38,7 +47,7 @@ for (const doc of catalogo) {
     const md = await readFile(path.join(source, doc.id, `${sec.id}.md`), 'utf8');
     for (const m of md.matchAll(/<!-- blocco:([^\s]+) pagina:(\d+) -->\s*\n([\s\S]*?)(?=\n\s*<!-- blocco:|$)/g)) blocchi.push({ id: m[1], pagina: Number(m[2]), testo: m[3].trim() });
   }
-  const nuove = sezioni.map((s) => ({ id: s.id, titolo: s.titolo, da: s.da, a: s.a, lezione: s.lezione,
+  const nuove = sezioni.map((s) => ({ id: s.id, titolo: s.titolo, da: s.da, a: s.a, ...(s.lezione ? { lezione: s.lezione } : {}),
     ...(s.lezioni.length > 1 ? { lezioni: s.lezioni } : {}), revisionata: true, file: `letture/${doc.id}/${s.id}.json`,
     ...(doc.sezioni.find((p) => p.id === s.id)?.soloTitolo ? { soloTitolo: true, integrazione: doc.sezioni.find((p) => p.id === s.id).integrazione } : {}) }));
   let usati = 0;

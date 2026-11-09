@@ -50,6 +50,7 @@ try {
     assert(lib.originaliMateria('diritto-romano').some((d) => d.tipoFonte === 'manuale-ricostruito' && !d.file));
     assert.equal(lib.originaliMateria('filosofia-del-diritto').length, 3);
     assert.equal(lib.originaliMateria('filosofia-del-diritto-ssg').length, 2, 'SSG: sbobinature e riassunto di Incampo');
+    assert.equal(lib.originaliMateria('diritto-costituzionale').length, 1, 'Costituzionale: riassunto del Bin–Pitruzzella');
     assert.equal(lib.paginaValida(-3, doc.pagine), 1);
     assert.equal(lib.paginaValida(99999, doc.pagine), doc.pagine);
     assert.equal(lib.paginaValida(NaN, doc.pagine), 1);

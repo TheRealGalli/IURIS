@@ -84,13 +84,20 @@ IURIS/
 - **Domande per lezione** (sono le soglie del validatore): almeno 4 `flashcard`, 2 `multipla`, 2 `verofalso`,
   1 `completa`, 1 `aperta` (con `traccia` e `punti` con `chiavi`); per unità almeno un `ordina` e un `abbina`.
 - **Secoli sempre con l'era**: «XIX secolo d.C.», mai «XIX secolo» da solo (`check-domande` lo pretende).
-- **Errori degli appunti**: correggili nella sintesi e annota la correzione nel campo `note` dell'unità
-  («p. 23 "Kaufman" è Felix Kaufmann…»). Mai inventare: se un punto è dubbio, dillo nella nota.
+- **Errori degli appunti**: correggili nella sintesi e annota la correzione nel campo `noteRedazione` dell'unità
+  («p. 23 "Kaufman" è Felix Kaufmann…»): resta nel file per chi lavora sui contenuti, l'app non lo mostra.
+  Mai inventare: se un punto è dubbio, dillo lì.
+- **`note` = avviso «Da sapere» per chi studia** (il triangolino nel Percorso; l'app è pubblica e la usa la classe):
+  1–2 frasi brevi e chiare, solo cose utili per studiare (materiale datato → «aggiornato: …», confusioni
+  frequenti, nomi e date da ricordare). Niente link, numeri di pagina, refusi, «gli appunti dicono…» o messaggi
+  per lo sviluppatore. Se non c'è niente di utile, `note: null` (il triangolino sparisce).
+- **Dati personali**: mai email o nomi di chi ha solo caricato o scaricato un file. Chi ha scritto il materiale
+  (autore del riassunto, docente) si cita quando è noto.
 - **Id dei concetti**: riusa quelli già definiti (in altre unità o tra gli «ID CANONICI» di `CONTENUTI.md`).
   Lo stesso concetto definito in più unità viene unito dal sync.
 - **Eventi** solo con date certe (`anno` intero, `data` leggibile, es. «1 gennaio 1948»).
-- Materiale datato: se gli appunti descrivono una disciplina superata, la sintesi dice com'è oggi e la nota
-  spiega che cosa è cambiato e quando (con la fonte normativa).
+- Materiale datato: se gli appunti descrivono una disciplina superata, la sintesi dice com'è oggi; `note` lo
+  dice in breve («Aggiornato: …») e `noteRedazione` spiega che cosa è cambiato e quando (con la fonte normativa).
 
 ### Originali (testo dei PDF letto nell'app)
 

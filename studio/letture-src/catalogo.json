@@ -869,178 +869,6 @@
     ]
   },
   {
-    "id": "romano-manuale-integrazioni-v1",
-    "edizione": 1,
-    "materia": "diritto-romano",
-    "titolo": "Integrazioni dal Percorso · tecnica e idee giusnaturalistiche",
-    "descrizione": "Le dodici lezioni delle unità 14 e 15 già presenti nel Percorso, ricostruite dall’indice del manuale e dalle fonti classiche. Non sono una trascrizione del manuale né del PDF degli appunti. Riferimenti: Bretone, Laterza, ed. 1992, pp. 287–352; controllare sul libro prima dell’esame.",
-    "tipoFonte": "manuale-ricostruito",
-    "manuale": [
-      287,
-      352
-    ],
-    "fonteSha256": "",
-    "pagine": 12,
-    "sezioni": [
-      {
-        "id": "u14-l1",
-        "titolo": "L'opera collettiva e i singoli attori",
-        "da": 1,
-        "a": 1,
-        "lezione": "u14-l1",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          287,
-          289
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l1.json"
-      },
-      {
-        "id": "u14-l2",
-        "titolo": "Strade vecchie e nuove",
-        "da": 2,
-        "a": 2,
-        "lezione": "u14-l2",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          290,
-          296
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l2.json"
-      },
-      {
-        "id": "u14-l3",
-        "titolo": "Il «caso» e il problema",
-        "da": 3,
-        "a": 3,
-        "lezione": "u14-l3",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          297,
-          302
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l3.json"
-      },
-      {
-        "id": "u14-l4",
-        "titolo": "Come si forma una regola",
-        "da": 4,
-        "a": 4,
-        "lezione": "u14-l4",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          303,
-          308
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l4.json"
-      },
-      {
-        "id": "u14-l5",
-        "titolo": "Dialoghi fuori del tempo",
-        "da": 5,
-        "a": 5,
-        "lezione": "u14-l5",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          309,
-          313
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l5.json"
-      },
-      {
-        "id": "u14-l6",
-        "titolo": "La cura per le parole",
-        "da": 6,
-        "a": 6,
-        "lezione": "u14-l6",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          314,
-          322
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l6.json"
-      },
-      {
-        "id": "u15-l1",
-        "titolo": "I grandi simboli",
-        "da": 7,
-        "a": 7,
-        "lezione": "u15-l1",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          323,
-          324
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l1.json"
-      },
-      {
-        "id": "u15-l2",
-        "titolo": "Il consenso dei sapienti e il «consenso dei popoli»",
-        "da": 8,
-        "a": 8,
-        "lezione": "u15-l2",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          325,
-          329
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l2.json"
-      },
-      {
-        "id": "u15-l3",
-        "titolo": "Verità e apparenza",
-        "da": 9,
-        "a": 9,
-        "lezione": "u15-l3",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          330,
-          332
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l3.json"
-      },
-      {
-        "id": "u15-l4",
-        "titolo": "Aequitas civilis ed aequitas naturalis",
-        "da": 10,
-        "a": 10,
-        "lezione": "u15-l4",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          333,
-          340
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l4.json"
-      },
-      {
-        "id": "u15-l5",
-        "titolo": "La «legge giusta»",
-        "da": 11,
-        "a": 11,
-        "lezione": "u15-l5",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          341,
-          342
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l5.json"
-      },
-      {
-        "id": "u15-l6",
-        "titolo": "Il diritto oltre la comunità degli uomini",
-        "da": 12,
-        "a": 12,
-        "lezione": "u15-l6",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          343,
-          352
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l6.json"
-      }
-    ]
-  },
-  {
     "id": "filosofia-incampo-v1",
     "edizione": 1,
     "materia": "filosofia-del-diritto",
@@ -2352,6 +2180,663 @@
         "lezione": "u20-l4",
         "revisionata": true,
         "file": "letture/filosofia-ssg-incampo-v1/u20-l4.json"
+      }
+    ]
+  },
+  {
+    "id": "costituzionale-bin-pitruzzella-v1",
+    "edizione": 1,
+    "materia": "diritto-costituzionale",
+    "titolo": "Bin–Pitruzzella · riassunto",
+    "descrizione": "Riassunto del manuale di R. Bin e G. Pitruzzella, Diritto costituzionale (VII edizione), autore del riassunto non indicato. È datato: per la disciplina in vigore fa fede il Percorso. In fondo, domande e risposte e il testo della Costituzione di allora.",
+    "fonteSha256": "b38d7a4c9d62cdadd13070decd61915f14009667d5eff955cf20ec39f8bede5e",
+    "pagine": 258,
+    "sezioni": [
+      {
+        "id": "u01-l1",
+        "titolo": "Diritto, potere politico e legittimazione",
+        "da": 1,
+        "a": 7,
+        "lezione": "u01-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u01-l1.json"
+      },
+      {
+        "id": "u01-l2",
+        "titolo": "Sovranità, territorio e limiti dello Stato",
+        "da": 7,
+        "a": 10,
+        "lezione": "u01-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u01-l2.json"
+      },
+      {
+        "id": "u01-l3",
+        "titolo": "Cittadinanza italiana ed europea",
+        "da": 10,
+        "a": 11,
+        "lezione": "u01-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u01-l3.json"
+      },
+      {
+        "id": "u01-l4",
+        "titolo": "Lo Stato-apparato: enti, uffici e organi",
+        "da": 12,
+        "a": 14,
+        "lezione": "u01-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u01-l4.json"
+      },
+      {
+        "id": "u02-l1",
+        "titolo": "Dallo Stato assoluto allo Stato liberale",
+        "da": 15,
+        "a": 18,
+        "lezione": "u02-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u02-l1.json"
+      },
+      {
+        "id": "u02-l2",
+        "titolo": "Democrazia pluralista, partiti e Stato sociale",
+        "da": 19,
+        "a": 22,
+        "lezione": "u02-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u02-l2.json"
+      },
+      {
+        "id": "u03-l1",
+        "titolo": "Rappresentanza politica e partecipazione diretta",
+        "da": 22,
+        "a": 25,
+        "lezione": "u03-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u03-l1.json"
+      },
+      {
+        "id": "u03-l2",
+        "titolo": "Separazione dei poteri, indirizzo e regola di maggioranza",
+        "da": 25,
+        "a": 28,
+        "lezione": "u03-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u03-l2.json"
+      },
+      {
+        "id": "u03-l3",
+        "titolo": "Decentramento politico e istituzioni dell’Unione europea",
+        "da": 29,
+        "a": 32,
+        "lezione": "u03-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u03-l3.json"
+      },
+      {
+        "id": "u04-l1",
+        "titolo": "Che cosa significa Costituzione: nascita, rigidità e limiti",
+        "da": 33,
+        "a": 35,
+        "lezione": "u04-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u04-l1.json"
+      },
+      {
+        "id": "u04-l2",
+        "titolo": "La Costituzione italiana: struttura e principi che si tengono insieme",
+        "da": 36,
+        "a": 38,
+        "lezione": "u04-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u04-l2.json"
+      },
+      {
+        "id": "u05-l1",
+        "titolo": "Dal dualismo monarchico al parlamentarismo: fiducia e partiti",
+        "da": 39,
+        "a": 41,
+        "lezione": "u05-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u05-l1.json"
+      },
+      {
+        "id": "u05-l2",
+        "titolo": "Presidenziale, semipresidenziale e direttoriale: chi dipende da chi?",
+        "da": 42,
+        "a": 44,
+        "lezione": "u05-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u05-l2.json"
+      },
+      {
+        "id": "u06-l1",
+        "titolo": "Voto, candidature e formule: come si trasformano i voti in seggi",
+        "da": 45,
+        "a": 49,
+        "lezione": "u06-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u06-l1.json"
+      },
+      {
+        "id": "u06-l2",
+        "titolo": "Le elezioni parlamentari italiane: storia e disciplina dal 2026",
+        "da": 50,
+        "a": 53,
+        "lezione": "u06-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u06-l2.json"
+      },
+      {
+        "id": "u07-l1",
+        "titolo": "Fiducia, maggioranza e crisi di governo",
+        "da": 54,
+        "a": 58,
+        "lezione": "u07-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u07-l1.json"
+      },
+      {
+        "id": "u07-l2",
+        "titolo": "Formazione e organi del Governo: direzione, collegialità e responsabilità",
+        "da": 59,
+        "a": 65,
+        "lezione": "u07-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u07-l2.json"
+      },
+      {
+        "id": "u07-l3",
+        "titolo": "Attuare l’indirizzo politico e controllare l’amministrazione",
+        "da": 65,
+        "a": 69,
+        "lezione": "u07-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u07-l3.json"
+      },
+      {
+        "id": "u08-l1",
+        "titolo": "Due Camere: struttura, durata e organizzazione",
+        "da": 69,
+        "a": 73,
+        "lezione": "u08-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u08-l1.json"
+      },
+      {
+        "id": "u08-l2",
+        "titolo": "Votazioni, prerogative e strumenti di controllo",
+        "da": 74,
+        "a": 77,
+        "lezione": "u08-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u08-l2.json"
+      },
+      {
+        "id": "u08-l3",
+        "titolo": "Finanza pubblica: imposte, equilibrio e legge di bilancio",
+        "da": 78,
+        "a": 80,
+        "lezione": "u08-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u08-l3.json"
+      },
+      {
+        "id": "u09-l1",
+        "titolo": "Il capo dello Stato: elezione, mandato, supplenza e responsabilità",
+        "da": 80,
+        "a": 81,
+        "lezione": "u09-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u09-l1.json"
+      },
+      {
+        "id": "u09-l2",
+        "titolo": "Controfirma, tipi di atti e gestione delle crisi",
+        "da": 82,
+        "a": 87,
+        "lezione": "u09-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u09-l2.json"
+      },
+      {
+        "id": "u10-l1",
+        "titolo": "La Repubblica delle autonomie: competenze, raccordi e risorse",
+        "da": 88,
+        "a": 92,
+        "lezione": "u10-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u10-l1.json"
+      },
+      {
+        "id": "u10-l2",
+        "titolo": "Governo regionale ed enti locali: elezioni e stabilità",
+        "da": 92,
+        "a": 95,
+        "lezione": "u10-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u10-l2.json"
+      },
+      {
+        "id": "u11-l1",
+        "titolo": "Giurisdizioni e garanzie del processo",
+        "da": 96,
+        "a": 97,
+        "lezione": "u11-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u11-l1.json"
+      },
+      {
+        "id": "u11-l2",
+        "titolo": "Indipendenza, CSM e Ministro della giustizia",
+        "da": 98,
+        "a": 100,
+        "lezione": "u11-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u11-l2.json"
+      },
+      {
+        "id": "u12-l1",
+        "titolo": "Riconoscere le fonti: produzione, conoscenza e rinvio",
+        "da": 101,
+        "a": 104,
+        "lezione": "u12-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u12-l1.json"
+      },
+      {
+        "id": "u12-l2",
+        "titolo": "Interpretare e risolvere i conflitti fra norme",
+        "da": 105,
+        "a": 110,
+        "lezione": "u12-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u12-l2.json"
+      },
+      {
+        "id": "u12-l3",
+        "titolo": "Competenza, riserve e legalità: chi può fare che cosa",
+        "da": 110,
+        "a": 112,
+        "lezione": "u12-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u12-l3.json"
+      },
+      {
+        "id": "u13-l1",
+        "titolo": "Come nasce una legge: iniziativa, Camere, promulgazione",
+        "da": 113,
+        "a": 118,
+        "lezione": "u13-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u13-l1.json"
+      },
+      {
+        "id": "u13-l2",
+        "titolo": "Leggi particolari, delega e testi unici",
+        "da": 118,
+        "a": 122,
+        "lezione": "u13-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u13-l2.json"
+      },
+      {
+        "id": "u13-l3",
+        "titolo": "Decreto-legge: urgenza, conversione e decadenza",
+        "da": 122,
+        "a": 125,
+        "lezione": "u13-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u13-l3.json"
+      },
+      {
+        "id": "u14-l1",
+        "titolo": "Poteri straordinari e autonomia normativa degli organi costituzionali",
+        "da": 125,
+        "a": 127,
+        "lezione": "u14-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u14-l1.json"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "Referendum abrogativo: quesito, controlli e quorum",
+        "da": 127,
+        "a": 129,
+        "lezione": "u14-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u14-l2.json"
+      },
+      {
+        "id": "u14-l3",
+        "titolo": "Regolamenti dell’esecutivo e delegificazione",
+        "da": 129,
+        "a": 130,
+        "lezione": "u14-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u14-l3.json"
+      },
+      {
+        "id": "u15-l1",
+        "titolo": "Statuti ordinari e speciali: fonti e procedimenti diversi",
+        "da": 131,
+        "a": 131,
+        "lezione": "u15-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u15-l1.json"
+      },
+      {
+        "id": "u15-l2",
+        "titolo": "Leggi regionali: competenze, limiti e controlli",
+        "da": 132,
+        "a": 134,
+        "lezione": "u15-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u15-l2.json"
+      },
+      {
+        "id": "u15-l3",
+        "titolo": "Regolamenti regionali e fonti degli enti locali",
+        "da": 134,
+        "a": 137,
+        "lezione": "u15-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u15-l3.json"
+      },
+      {
+        "id": "u16-l1",
+        "titolo": "Diritto primario e derivato: regolamenti, direttive e decisioni",
+        "da": 138,
+        "a": 139,
+        "lezione": "u16-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u16-l1.json"
+      },
+      {
+        "id": "u16-l2",
+        "titolo": "Primato, non applicazione e rinvio pregiudiziale",
+        "da": 140,
+        "a": 144,
+        "lezione": "u16-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u16-l2.json"
+      },
+      {
+        "id": "u16-l3",
+        "titolo": "Attuazione nazionale, diritti europei e controlimiti",
+        "da": 144,
+        "a": 146,
+        "lezione": "u16-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u16-l3.json"
+      },
+      {
+        "id": "u17-l1",
+        "titolo": "La Corte costituzionale: composizione, indipendenza e oggetto del controllo",
+        "da": 147,
+        "a": 150,
+        "lezione": "u17-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u17-l1.json"
+      },
+      {
+        "id": "u17-l2",
+        "titolo": "Accesso alla Corte e decisioni: dalla questione agli effetti",
+        "da": 150,
+        "a": 153,
+        "lezione": "u17-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u17-l2.json"
+      },
+      {
+        "id": "u17-l3",
+        "titolo": "Conflitti di attribuzione, accuse presidenziali e reati ministeriali",
+        "da": 154,
+        "a": 157,
+        "lezione": "u17-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u17-l3.json"
+      },
+      {
+        "id": "u18-l1",
+        "titolo": "Persona, formazioni sociali, uguaglianza e garanzie",
+        "da": 158,
+        "a": 160,
+        "lezione": "u18-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l1.json"
+      },
+      {
+        "id": "u18-l2",
+        "titolo": "Libertà personale, domicilio, circolazione e comunicazioni",
+        "da": 161,
+        "a": 162,
+        "lezione": "u18-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l2.json"
+      },
+      {
+        "id": "u18-l3",
+        "titolo": "Riunione, associazione, religione e manifestazione del pensiero",
+        "da": 163,
+        "a": 167,
+        "lezione": "u18-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l3.json"
+      },
+      {
+        "id": "u18-l4",
+        "titolo": "Diritti sociali, istruzione, salute, lavoro e tutela giudiziaria",
+        "da": 167,
+        "a": 169,
+        "lezione": "u18-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l4.json"
+      },
+      {
+        "id": "u18-l5",
+        "titolo": "Costituzione economica e doveri di solidarietà",
+        "da": 170,
+        "a": 171,
+        "lezione": "u18-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l5.json"
+      },
+      {
+        "id": "appendice-errata",
+        "titolo": "Errata corrige della VII edizione",
+        "da": 172,
+        "a": 172,
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/appendice-errata.json"
+      },
+      {
+        "id": "appendice-domande",
+        "titolo": "Domande e risposte",
+        "da": 173,
+        "a": 204,
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/appendice-domande.json"
+      },
+      {
+        "id": "appendice-costituzione",
+        "titolo": "Testo della Costituzione (versione dell’epoca)",
+        "da": 205,
+        "a": 258,
+        "revisionata": true,
+        "file": "letture/costituzionale-bin-pitruzzella-v1/appendice-costituzione.json"
+      }
+    ]
+  },
+  {
+    "id": "romano-manuale-integrazioni-v1",
+    "edizione": 1,
+    "materia": "diritto-romano",
+    "titolo": "Integrazioni dal Percorso · tecnica e idee giusnaturalistiche",
+    "descrizione": "Le dodici lezioni delle unità 14 e 15 già presenti nel Percorso, ricostruite dall’indice del manuale e dalle fonti classiche. Non sono una trascrizione del manuale né del PDF degli appunti. Riferimenti: Bretone, Laterza, ed. 1992, pp. 287–352; controllare sul libro prima dell’esame.",
+    "tipoFonte": "manuale-ricostruito",
+    "manuale": [
+      287,
+      352
+    ],
+    "fonteSha256": "",
+    "pagine": 12,
+    "sezioni": [
+      {
+        "id": "u14-l1",
+        "titolo": "L'opera collettiva e i singoli attori",
+        "da": 1,
+        "a": 1,
+        "lezione": "u14-l1",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          287,
+          289
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l1.json"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "Strade vecchie e nuove",
+        "da": 2,
+        "a": 2,
+        "lezione": "u14-l2",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          290,
+          296
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l2.json"
+      },
+      {
+        "id": "u14-l3",
+        "titolo": "Il «caso» e il problema",
+        "da": 3,
+        "a": 3,
+        "lezione": "u14-l3",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          297,
+          302
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l3.json"
+      },
+      {
+        "id": "u14-l4",
+        "titolo": "Come si forma una regola",
+        "da": 4,
+        "a": 4,
+        "lezione": "u14-l4",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          303,
+          308
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l4.json"
+      },
+      {
+        "id": "u14-l5",
+        "titolo": "Dialoghi fuori del tempo",
+        "da": 5,
+        "a": 5,
+        "lezione": "u14-l5",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          309,
+          313
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l5.json"
+      },
+      {
+        "id": "u14-l6",
+        "titolo": "La cura per le parole",
+        "da": 6,
+        "a": 6,
+        "lezione": "u14-l6",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          314,
+          322
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u14-l6.json"
+      },
+      {
+        "id": "u15-l1",
+        "titolo": "I grandi simboli",
+        "da": 7,
+        "a": 7,
+        "lezione": "u15-l1",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          323,
+          324
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l1.json"
+      },
+      {
+        "id": "u15-l2",
+        "titolo": "Il consenso dei sapienti e il «consenso dei popoli»",
+        "da": 8,
+        "a": 8,
+        "lezione": "u15-l2",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          325,
+          329
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l2.json"
+      },
+      {
+        "id": "u15-l3",
+        "titolo": "Verità e apparenza",
+        "da": 9,
+        "a": 9,
+        "lezione": "u15-l3",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          330,
+          332
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l3.json"
+      },
+      {
+        "id": "u15-l4",
+        "titolo": "Aequitas civilis ed aequitas naturalis",
+        "da": 10,
+        "a": 10,
+        "lezione": "u15-l4",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          333,
+          340
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l4.json"
+      },
+      {
+        "id": "u15-l5",
+        "titolo": "La «legge giusta»",
+        "da": 11,
+        "a": 11,
+        "lezione": "u15-l5",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          341,
+          342
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l5.json"
+      },
+      {
+        "id": "u15-l6",
+        "titolo": "Il diritto oltre la comunità degli uomini",
+        "da": 12,
+        "a": 12,
+        "lezione": "u15-l6",
+        "tipoFonte": "manuale-ricostruito",
+        "manuale": [
+          343,
+          352
+        ],
+        "file": "letture/romano-manuale-integrazioni-v1/u15-l6.json"
       }
     ]
   }

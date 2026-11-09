@@ -26,7 +26,8 @@ Tutti i testi sono in **italiano**. I campi "markdown" accettano Markdown sempli
   "capitolo": "Capitolo terzo",        // etichetta come negli appunti
   "pagine": [23, 48],                  // pagine del PDF coperte (inizio, fine) — sempre [da, a]
   "abstract": "2–4 frasi: di cosa parla l'unità e perché conta per l'esame.",
-  "note": "facoltativo: avvertenze (pagine vuote, punti confusi negli appunti…)",
+  "note": "facoltativo: avviso «Da sapere» per chi studia (1–2 frasi: aggiornamenti, confusioni da evitare)",
+  "noteRedazione": "facoltativo, non mostrato nell'app: correzioni degli appunti, pagine, refusi, fonti e link",
   "lezioni":   [ /* Lezione */ ],
   "concetti":  [ /* Concetto */ ],
   "relazioni": [ /* Relazione */ ],
@@ -47,7 +48,8 @@ numero libero (`u14.json`) e un `ordine` intermedio, così gli id delle altre un
   "ricostruita": true,
   "manuale": [323, 352],               // pagine del manuale (Bretone, Laterza, ed. 1992)
   "pagine": [170, 175],                // facoltativo: solo se nel PDF degli appunti c'è qualcosa (es. i titoli)
-  "note": "da dove viene il testo e quali punti sono meno sicuri"
+  "note": "avviso per chi studia: unità ricostruita, da ripassare anche sul libro",
+  "noteRedazione": "da dove viene il testo e quali punti sono meno sicuri"
 }
 ```
 

@@ -80,6 +80,15 @@ def format_paragraph(lines: list[str], first: bool) -> str:
     return f'## {result}' if heading else result
 
 
+def ocr_layouts(path: Path, pagine: int) -> list[str]:
+    """Legge il testo OCR diviso per pagina; le righe vuote separano i paragrafi."""
+    parts = re.split(r'^=== pagina (\d+) ===\n', path.read_text(), flags=re.M)
+    pages = {int(parts[i]): parts[i + 1] for i in range(1, len(parts), 2)}
+    if sorted(pages) != list(range(1, pagine + 1)):
+        raise ValueError(f'{path.name}: pagine OCR incomplete')
+    return [pages[n].strip('\n') for n in range(1, pagine + 1)]
+
+
 def sections(doc: dict) -> list[dict]:
     result = []
     start = 1
@@ -127,8 +136,12 @@ def main() -> None:
         reader = PdfReader(path)
         if len(reader.pages) != doc['pagine']:
             raise ValueError(f"Numero pagine inatteso: {doc['id']}")
-        # Le pagine bianche (senza flusso di contenuto) valgono come pagine senza testo.
-        layouts = [(page.extract_text(extraction_mode='layout') or '') if '/Contents' in page else '' for page in reader.pages]
+        if doc.get('testoOcr'):
+            # PDF con font cifrati (es. StuDocu): il testo viene dall'OCR, una pagina per blocco «=== pagina N ===».
+            layouts = ocr_layouts(SRC / doc['testoOcr'], doc['pagine'])
+        else:
+            # Le pagine bianche (senza flusso di contenuto) valgono come pagine senza testo.
+            layouts = [(page.extract_text(extraction_mode='layout') or '') if '/Contents' in page else '' for page in reader.pages]
         edge_counts = Counter(value for text in layouts for value in page_edges(text))
         repeated = {value for value, n in edge_counts.items() if n >= max(5, int(len(layouts) * .12)) and 5 < len(value) < 220}
         # Nei testi di Incampo e Moro il piè di pagina comprende il riferimento alla fonte.
