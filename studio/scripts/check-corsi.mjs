@@ -63,8 +63,8 @@ try {
     const c = corsoDi('uniba-lmg-1-al');
     assert.equal(c.breve, 'LMG · I anno · A-L'); assert.equal(c.sigla, 'LMG · I anno'); assert.equal(c.lettere, 'A-L');
     assert.deepEqual(CORSI.map((x) => x.breve), ['LMG · I anno · A-L', 'LMG · I anno · M-Z', 'SSG · I anno']);
-    assert.deepEqual(c.inArrivo.map((m) => m.nome), ['Diritto costituzionale', 'Diritto privato']);
-    assert.deepEqual(c.materie, ['filosofia-del-diritto', 'diritto-romano']);
+    assert.deepEqual(c.inArrivo.map((m) => m.nome), ['Diritto privato']);
+    assert.deepEqual(c.materie, ['filosofia-del-diritto', 'diritto-romano', 'diritto-costituzionale']);
     assert.equal(CORSO_PREDEFINITO.id, c.id, 'i dati esistenti devono ricadere in questo corso');
   });
 
@@ -117,8 +117,10 @@ try {
     assert(i > 0 && j > i, 'il selettore deve stare sopra la sezione Materie');
     assert(!/manifest\.materie\.map/.test(app), 'barra laterale e menu mobile devono mostrare solo le materie del corso');
     assert(app.includes('<SceltaCorso corso={corso} classe="corso-switch-pagina" />'), 'su mobile il corso si sceglie da Altro');
-    assert(/className="materia-btn in-arrivo" disabled/.test(app), 'le materie in arrivo non devono essere cliccabili');
-    assert(app.includes('<div className="materia-lista">'), 'elenco materie scorrevole');
+    const griglia = fs.readFileSync(new URL('../src/components/GrigliaMaterie.tsx', import.meta.url), 'utf8');
+    assert(griglia.includes('disabled={!m.pronta}'), 'le materie non pronte non devono essere cliccabili');
+    assert(griglia.includes('aria-label={m.nome}') && griglia.includes('title={m.nome}'), 'ogni icona conserva il nome accessibile della materia');
+    assert(app.includes('<GrigliaMaterie corso={corso}'), 'tutte le materie devono essere nella griglia');
     assert(app.includes("disabled={!corsoDisponibile(c)}") && app.includes("' · in arrivo'"), 'corsi in arrivo visibili ma non selezionabili');
     const piede = app.slice(app.indexOf('<div className="side-foot">'), app.indexOf('</aside>'));
     assert(!/Cerca|⌘K|setPalette/.test(piede), 'nella barra laterale non c\'è più il pulsante Cerca');
@@ -127,8 +129,8 @@ try {
     assert(app.includes('<InviaMateriale corso={corso} classe="invia-materiale-pagina" />'), 'invito al materiale anche in Altro');
     assert(!/\{c\.universita\}<\/option>/.test(app), 'nell\'elenco dei corsi niente università');
     const css = fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
-    assert(/\.materia-lista:hover[^{]*\{[^}]*border-color:[^}]*box-shadow:[^}]*background-color/.test(css), 'riquadro grigio al passaggio sull\'elenco materie');
-    assert(/\.materia-lista \{[^}]*max-height:[^}]*overflow-y: auto[^}]*scroll-behavior: smooth/.test(css), 'materie scorrevoli con altezza massima');
+    assert(/\.materia-lista \{[^}]*display: grid;[^}]*grid-template-columns: repeat\(2,/.test(css), 'materie visibili in due colonne');
+    assert(/\.materia-casella:focus-within \.materia-nome/.test(css), 'nome della materia visibile anche da tastiera');
   });
 
   console.log(`Corsi verificati: ${checks} controlli su configurazione, corso predefinito, filtro delle materie e backup (${CORSI.length} ${CORSI.length === 1 ? 'corso' : 'corsi'}).`);

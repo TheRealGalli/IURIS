@@ -32,7 +32,7 @@ export default function Percorso() {
           <div className="row-between small"><b>{studiate} / {idx.pagineTotali} pagine studiate</b><span className="faint">{Math.round((studiate / Math.max(1, idx.pagineTotali)) * 100)}%</span></div>
           <div style={{ marginTop: 6 }}><Bar value={studiate / Math.max(1, idx.pagineTotali)} tone="ok" /></div>
         </div>
-        {nonCoperte > 0 && <span className="faint tiny">{nonCoperte} pp. del PDF senza testo (copertina, titoli)</span>}
+        {nonCoperte > 0 && <span className="faint tiny">{nonCoperte} pp. del PDF non conteggiate nel percorso</span>}
       </div>
 
       <div className="stack" style={{ gap: 12 }}>

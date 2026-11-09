@@ -14,14 +14,7 @@
 .mobile-field select { width: 100%; font-size: 16px; min-height: 48px; }
 .mobile-course-description { font-size: 12px; color: var(--ink-3); margin: 12px 0 24px; }
 .mobile-section-label { font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: .09em; color: var(--ink-3); margin: 0 0 10px; }
-.mobile-subjects { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
-.mobile-subjects button { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 58px; text-align: left; padding: 12px 14px; background: var(--surface); border: 0; border-bottom: 1px solid var(--line); font-size: 15px; cursor: pointer; }
-.mobile-subjects button:last-child { border-bottom: 0; }
-.mobile-subjects button > span:nth-child(2) { flex: 1; }
-.mobile-subjects button[aria-pressed="true"] { font-weight: 600; background: var(--bg-2); }
-.mobile-subjects button svg { color: var(--accent); }
-.mobile-subjects button:disabled { color: var(--ink-3); cursor: default; }
-.mobile-subjects button small { font-size: 10px; white-space: nowrap; }
+.mobile-subjects .materia-btn { min-height: 78px; }
 .mobile-course-card { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; text-align: left; padding: 12px 14px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 14px; cursor: pointer; }
 .mobile-course-card > span:first-child { display: flex; flex-direction: column; gap: 3px; }
 .mobile-course-card small { color: var(--ink-3); font-size: 11px; }

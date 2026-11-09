@@ -5,8 +5,8 @@ Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usal
 
 ## Lavoro in corso
 
-1. **Ora: Diritto costituzionale** (LMG · I anno · A-L). Fonte e testo pronti, 18 unità già divise:
-   segui [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md).
+1. **Diritto costituzionale completato** (LMG · I anno · A-L): 18 unità, 50 lezioni e 536 domande.
+   Fonti, aggiornamenti e controlli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md).
 2. **Dopo: Diritto privato.** Si comincia appena Carlo aggiunge gli appunti (per ora la cartella è vuota):
    [`piani/diritto-privato.md`](piani/diritto-privato.md) dice come partire. Non anticipare contenuti senza fonti.
 

@@ -5,6 +5,7 @@ import { ripassoDiOggi } from './lib/srs';
 import { finisciDemo, iniziaDemo, leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
 import type { Manifest, MateriaInfo } from './lib/types';
 import { Icon } from './components/ui';
+import GrigliaMaterie from './components/GrigliaMaterie';
 import { CORSI, corsoDi, corsoDisponibile, descriviCorso, linkMateriale, materieDelCorso, type CorsoDiStudio } from './data/corsi';
 import IurisMascot from './components/IurisMascot';
 import Palette from './components/Palette';
@@ -137,22 +138,7 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
         <SceltaCorso corso={corso} />
         <div className="materia-switch">
           <div className="nav-label">Materie</div>
-          <div className="materia-lista">
-            {materie.map((m) => (
-              <button key={m.slug} className={`materia-btn ${m.slug === materia.slug ? 'on' : ''}`} onClick={() => scegliMateria(m.slug)}>
-                <span className="materia-dot" style={{ background: m.colore ?? undefined }} />
-                <span>{m.breve ?? m.nome}</span>
-                {!m.disponibile && <small>presto</small>}
-              </button>
-            ))}
-            {(corso.inArrivo ?? []).map((m) => (
-              <button key={m.nome} className="materia-btn in-arrivo" disabled aria-disabled="true" title={`${m.nome}: in arrivo, contenuti in preparazione`}>
-                <span className="materia-dot" style={{ background: m.colore }} />
-                <span>{m.nome}</span>
-                <small>in arrivo</small>
-              </button>
-            ))}
-          </div>
+          <GrigliaMaterie corso={corso} materie={materie} selezionata={materia.slug} onSelect={scegliMateria} />
         </div>
         {idx && <NavLaterale />}
         <nav className="nav nav-archivio" aria-label="Backup di tutte le materie">

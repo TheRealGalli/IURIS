@@ -5,6 +5,16 @@
 Lezioni, glossario, mappe, cronologia ed esercizi con ripasso spaziato per lo studio del diritto.
 Il sito funziona nel browser, senza account, server applicativo o sincronizzazione dei progressi.
 
+Le materie si scelgono da una griglia di simboli su due colonne, nella barra laterale e nel menu del telefono. Il nome compare al passaggio del puntatore o con il fuoco della tastiera; il puntino colorato distingue le materie disponibili. I riquadri grigi restano disabilitati finché i contenuti non sono pronti.
+
+| Corso | Materia | Contenuti |
+|---|---|---|
+| LMG · I anno · A–L | Filosofia del diritto | Disponibile |
+| LMG e SSG | Diritto romano | Disponibile, condivisa fra i corsi |
+| SSG | Filosofia del diritto | Disponibile, programma dedicato |
+| LMG · I anno · A–L | Diritto costituzionale | Disponibile: 18 unità, 50 lezioni, 536 domande |
+| LMG e SSG | Diritto privato | In attesa degli appunti |
+
 Da **Demo interattiva** nella barra laterale (o **Menu** su mobile) si avvia una visita guidata sulle pagine reali. Una freccetta animata e la I di IURIS accompagnano Oggi, Percorso, lezione, Originali, segni, mappe, allenamento, cronologia, glossario, statistiche e backup. Il tour avanza solo su richiesta, con indietro, scelta della sezione e avanti su una sola riga compatta. Le prove usano un archivio in memoria separato: progressi, segni, quiz e preferenze personali vengono conservati; le viste completano le proprie scritture prima del cambio di archivio. Uscendo, o ricaricando la pagina, i dati dimostrativi scompaiono. La tappa finale permette di aprire il Backup reale. La sezione **Backup**, sotto **Studio**, è generale e resta aperta quando si cambia materia.
 
 ## Telefono e iPad

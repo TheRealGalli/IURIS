@@ -28,7 +28,6 @@ export interface MateriaInArrivo { nome: string; colore: string }
 
 // Comuni al primo anno di Giurisprudenza; colori distinti da Filosofia (blu) e Romano (rosso).
 const IN_ARRIVO_LMG: MateriaInArrivo[] = [
-  { nome: 'Diritto costituzionale', colore: '#3f7a52' },
   { nome: 'Diritto privato', colore: '#b07a1e' },
 ];
 
@@ -42,7 +41,7 @@ export const CORSI: CorsoDiStudio[] = [
     laurea: 'Giurisprudenza (magistrale a ciclo unico, LMG/01)',
     anno: 1,
     classe: 'cognomi A-L',
-    materie: ['filosofia-del-diritto', 'diritto-romano'],
+    materie: ['filosofia-del-diritto', 'diritto-romano', 'diritto-costituzionale'],
     inArrivo: IN_ARRIVO_LMG,
   },
   // M-Z: visibile ma non selezionabile finché non ci sono i suoi contenuti. Per ora le stesse materie di A-L come segnaposto, finché non arriva l'elenco ufficiale delle materie
@@ -57,7 +56,7 @@ export const CORSI: CorsoDiStudio[] = [
     anno: 1,
     classe: 'cognomi M-Z',
     disponibile: false,
-    materie: ['filosofia-del-diritto', 'diritto-romano'],
+    materie: ['filosofia-del-diritto', 'diritto-romano', 'diritto-costituzionale'],
     inArrivo: IN_ARRIVO_LMG,
   },
   {

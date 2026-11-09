@@ -1,6 +1,6 @@
 # Piano: Diritto costituzionale (LMG · I anno · A-L)
 
-Stato: **fonti pronte, contenuti da scrivere**. Questo piano propone una strada; adattala se leggendo i testi
+Stato: **18 unità completate e validate**. Questo piano propone una strada; adattala se leggendo i testi
 trovi una divisione migliore. Le regole generali (formato, controlli, trappole dell'ambiente) sono in
 [`../AGENTS.md`](../AGENTS.md) e [`../studio/CONTENUTI.md`](../studio/CONTENUTI.md).
 
@@ -43,7 +43,7 @@ dice che cosa è cambiato rispetto agli appunti. Aggiornamenti principali da ver
 |---|---|---|
 | Numero dei parlamentari | 630 deputati, 315 senatori | 400 e 200 (l. cost. 1/2020, confermata dal referendum del settembre 2020); senatori a vita di nomina presidenziale al massimo 5 in tutto |
 | Elettorato del Senato | 25 anni per votare | 18 anni (l. cost. 1/2021); per essere eletti restano 40 anni |
-| Leggi elettorali | fino al «Mattarellum» o al «Porcellum» | sent. Corte cost. 1/2014 e 35/2017; oggi l. 165/2017 («Rosatellum») |
+| Leggi elettorali | fino al «Mattarellum» o al «Porcellum» | sent. Corte cost. 1/2014 e 35/2017; l. 165/2017 storica, oggi l. 180/2026 (dal 24 ottobre 2026), documentata in u06 |
 | Bilancio | legge finanziaria, art. 81 vecchio | pareggio/equilibrio di bilancio (l. cost. 1/2012); legge di bilancio unica (l. 196/2009, l. 163/2016) |
 | Unione europea | «Comunità», «fonti comunitarie», legge comunitaria | Trattato di Lisbona (in vigore dal 1° dicembre 2009): TUE e TFUE; l. 234/2012 (legge di delegazione europea e legge europea) |
 | Regioni | da verificare se il testo è prima o dopo il 2001 | l. cost. 1/1999 e 3/2001 (nuovo Titolo V, art. 117) |
@@ -153,10 +153,42 @@ tutte le unità li usano allo stesso modo.
    seguendo i passi in `AGENTS.md`.
 5. `README.md`: riga nella tabella delle materie. Poi `npm run build && npm run check:build`.
 
-## Avanzamento
+## Avanzamento finale — 9 novembre 2026
 
-Aggiorna questa tabella mentre lavori, così chi riprende sa dove sei arrivato.
+Tutte le 18 unità sono scritte e validate: **50 lezioni, 536 domande esplicite, 278 concetti unificati**, 168 pagine del percorso (pp. 4–171). Le sintesi comprendono 37.141 parole. Ogni lezione ha le sei tipologie richieste; ogni unità aggiunge ordinamento e abbinamento. Le domande automatiche di glossario e cronologia si aggiungono al catalogo esplicito.
 
-| Unità | Stato | Note |
+| Unità | Stato | Contenuto e correzioni principali |
 |---|---|---|
-| u01–u18 | da fare | |
+| u01–u03 | completate | Stato, democrazia, rappresentanza e UE; cittadinanza aggiornata, territorio diplomatico e istituzioni corretti |
+| u04–u06 | completate | Costituzione, forme di governo ed elezioni; legge elettorale 180/2026 |
+| u07–u09 | completate | Governo, Parlamento, bilancio e Capo dello Stato; termini, organi e responsabilità distinti |
+| u10–u11 | completate | Autonomie, giudici e CSM; quadro vigente e riforme proposte distinti |
+| u12–u14 | completate | Fonti, leggi, decreti, referendum e regolamenti; corretti presupposti, sanatorie, autodichia e delegificazione |
+| u15–u16 | completate | Fonti territoriali ed europee; art. 123, competenze, effetti diretti, cooperazione fra Corti e attuazione aggiornati |
+| u17–u18 | completate | Corte, decisioni, conflitti e diritti; garanzie personali, cinema, istruzione, economia e doveri aggiornati |
+
+### Fonti e scelte da conservare
+
+- Letto il riassunto pp. 4–171 e l’errata corrige p. 172. Confrontate le risposte pertinenti, in particolare pp. 178–182, 188, 191–196 e 198–203; per il diritto vigente prevalgono i testi istituzionali richiamati nelle note delle unità. Il testo costituzionale dell’epoca allegato al PDF non è trattato come testo attuale.
+- Il PDF contiene dati personali di terzi: non è pubblicato né copiato negli Originali. Costituzionale è disponibile nel Percorso e nei relativi strumenti; la mancanza di Originali per questa materia è intenzionale.
+- Attivata solo in LMG A–L e nel segnaposto non selezionabile M–Z. SSG mantiene il programma distinto di Filosofia e il Diritto romano condiviso; Privato attende le fonti.
+- Confermata la legge 9 ottobre 2026, n. 180, in vigore dal 24 ottobre 2026: https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00201/sg . Le lezioni distinguono il quadro elettorale vigente dai modelli storici.
+- Confermata la mancata approvazione della revisione giustizia nel referendum di marzo 2026: https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=26A02490&atto.dataPubblicazioneGazzetta=2026-05-18&tipoSerie=serie_generale&tipoVigenza=originario . CSM attuale: 30 elettivi più 3 di diritto.
+- Bilancio: documenti 2026 DFP/DPFP e nuova cornice UE; non riprodotto il vecchio DPEF. Ulteriori fonti e precisazioni stanno nelle note di u08.
+
+### Interfaccia e verifica
+
+La griglia Materie è su due colonne con quattro simboli per LMG A–L, nome al passaggio e al fuoco della tastiera, puntini colorati per le materie pronte e riquadro grigio disabilitato per Privato. Il componente condiviso `GrigliaMaterie.tsx` è usato anche nel menu mobile. Non contiene la scritta «in arrivo».
+
+- Validatore di tutte le 18 unità: 0 errori e 0 avvisi.
+- Sync: 18 unità, 50 lezioni, 168 pagine, 278 concetti e 536 domande; nessun ID irrisolto.
+- Verifica mirata della griglia già passata: quattro pulsanti, disabilitazione, cambio materia e nome accessibile da tastiera.
+- Build x64 e suite `check:build` completate: domande, copertura del ripasso, mappe, corsi, backup e letture superati. Responsive: 1.348 controlli su 11 configurazioni WebKit/Chromium. Dopo la sola correzione della dicitura sulle pagine fuori percorso, build e controllo risorse ripetuti; verifica responsive finale in corso.
+- Verifica mirata di Costituzionale: aperte tutte le 50 lezioni senza errori, avanzamento dalla prima alla seconda unità, glossario, mappe, cronologia, allenamento, stato vuoto corretto degli Originali e griglia mobile 2×2 con cambio materia. Archivio di prova isolato.
+- La porta 7100 non viene riavviata o ricaricata; prove sulla 7101 con archivio di prova separato.
+
+### Ripresa tecnica
+
+I JSON in `05 - Contenuti/` sono il risultato da conservare. Gli strumenti temporanei `/private/tmp/iuris-costituzionale-*.py` servivano a strutturare contenuti redatti sulla fonte; non sono una fonte alternativa e rigenerarli alla cieca può sovrascrivere miglioramenti fatti direttamente nei JSON (u01, u11, u13, u16 e note finali). I nuovi ID sono registrati in `studio/CONTENUTI.md`.
+
+Usare Node x64 per build e controlli (`PATH=/usr/local/bin:$PATH`). Non eseguire sync in parallelo a controlli che leggono il manifest: il sync ricrea `public/content`. Nessun commit o push per questo lotto senza una nuova richiesta di Carlo.

@@ -29,7 +29,7 @@ node studio/scripts/validate-content.mjs "Diritto Romano /05 - Contenuti/u03.jso
 | Storia del diritto romano (Mario Bretone, *Storia del diritto romano*) | Completa | 15 unità: tutti gli appunti (pp. 1–223) più i capitoli XI e XII, che gli appunti non trattano, ricostruiti dall'indice del manuale (`u14`, `u15`) |
 | Filosofia del diritto (Incampo; Moro, *Il diritto e lo Stato*; Cotta, *Il diritto nell'esistenza*) | Completa | 14 unità sui tre testi: Incampo pp. 1–100 (`u01`–`u08`), Moro pp. 1–31 (`u09`–`u11`), Cotta pp. 1–30 (`u12`–`u14`) |
 | Filosofia del diritto SSG (lezioni di Siniscalchi 2024–25; Incampo, *Sul dovere giuridico*, riassunto) | Completa | 20 unità: sbobinature pp. 1–192 (`u01`–`u17`, la `u17` fuori esame) e riassunto di Incampo pp. 1–29 (`u18`–`u20`) |
-| Diritto costituzionale (Bin–Pitruzzella, riassunto completo con domande e Costituzione) | In preparazione | fonte e testo OCR in `Diritto Costituzionale/00 - Appunti e fonti/`; 18 unità pianificate in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md) |
+| Diritto costituzionale (Bin–Pitruzzella, riassunto completo con domande e Costituzione) | Completa | 18 unità, 50 lezioni, 536 domande su pp. 4–171; aggiornamenti documentati nelle note. PDF escluso dagli Originali; dettagli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md) |
 | Diritto privato | In attesa degli appunti (dopo costituzionale) | piano in [`piani/diritto-privato.md`](piani/diritto-privato.md) |
 
 ## L'app di studio

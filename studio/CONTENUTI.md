@@ -309,3 +309,183 @@ della voce come «Oltre gli appunti», con una tinta diversa. Esempio completo: 
 - Se una fonte verificata documenta un errore nella voce di base, `rettifica: { breve, definizione }` ne aggiorna la scheda e l'anteprima; spiega il motivo e cita la fonte nell'approfondimento. Non usarla per semplici ampliamenti o differenze di interpretazione.
 - Per ogni coppia di concetti mantieni una formulazione condivisa: evita correzioni o rimozioni in conflitto tra file.
 - Si controlla con `node studio/scripts/validate-content.mjs ".../oltre-01.json"`.
+
+
+## ID CANONICI (diritto costituzionale)
+
+Stato: `diritto`, `diritto-soggettivo`, `diritto-oggettivo`, `norma-giuridica`, `ordinamento-giuridico`, `potere-politico`, `legittimazione`, `max-weber`, `stato`, `sovranita`, `sovranita-popolare`, `popolo`, `territorio`, `cittadinanza`, `cittadinanza-europea`, `persona-giuridica`, `ente-pubblico`, `ufficio`, `organo`, `organo-costituzionale`, `potesta-pubblica`, `autonomia-privata`.
+
+Forme e democrazia: `forma-di-stato`, `stato-assoluto`, `stato-liberale`, `stato-sociale`, `stato-democratico-pluralista`, `stato-federale`, `stato-regionale`, `separazione-dei-poteri`, `rappresentanza-politica`, `democrazia-diretta`, `principio-di-maggioranza`, `partiti-politici`.
+
+Costituzione ed elezioni: `costituzione`, `costituzione-italiana`, `costituzione-rigida`, `costituzione-flessibile`, `statuto-albertino`, `assemblea-costituente`, `revisione-costituzionale`, `principi-supremi`, `forma-di-governo`, `governo-parlamentare`, `governo-presidenziale`, `governo-semipresidenziale`, `governo-direttoriale`, `rapporto-di-fiducia`, `sistema-elettorale`, `sistema-proporzionale`, `sistema-maggioritario`, `elettorato-attivo`, `elettorato-passivo`, `ineleggibilita`, `incompatibilita`.
+
+Organi: `parlamento`, `camera-dei-deputati`, `senato`, `parlamento-in-seduta-comune`, `governo`, `presidente-del-consiglio`, `consiglio-dei-ministri`, `ministri`, `presidente-della-repubblica`, `controfirma`, `corte-costituzionale`, `csm`, `magistratura`, `cnel`, `consiglio-di-stato`, `corte-dei-conti`, `regioni`, `enti-locali`, `unione-europea`, `corte-di-giustizia-ue`.
+
+Fonti: `fonti-del-diritto`, `fonti-atto`, `fonti-fatto`, `consuetudine`, `legge-ordinaria`, `legge-costituzionale`, `decreto-legge`, `decreto-legislativo`, `legge-delega`, `regolamento`, `regolamenti-parlamentari`, `referendum-abrogativo`, `statuto-regionale`, `legge-regionale`, `regolamento-ue`, `direttiva-ue`, `criterio-cronologico`, `criterio-gerarchico`, `criterio-di-specialita`, `criterio-di-competenza`, `abrogazione`, `annullamento`, `riserva-di-legge`, `principio-di-legalita`, `primato-del-diritto-ue`.
+
+Giustizia costituzionale: `giudizio-incidentale`, `giudizio-in-via-principale`, `questione-di-legittimita`, `sentenza-di-accoglimento`, `sentenza-di-rigetto`, `sentenza-interpretativa`, `sentenza-manipolativa`, `conflitto-di-attribuzione`.
+
+Diritti: `diritti-inviolabili`, `principio-di-uguaglianza`, `liberta-personale`, `liberta-di-domicilio`, `liberta-di-circolazione`, `liberta-di-corrispondenza`, `liberta-di-riunione`, `liberta-di-associazione`, `liberta-religiosa`, `liberta-di-manifestazione-del-pensiero`, `diritti-sociali`, `liberta-di-iniziativa-economica`, `doveri-costituzionali`.
+
+### Altri ID introdotti durante la redazione di costituzionale
+
+- `stato-di-polizia` — Stato di polizia
+- `stato-di-diritto` — Stato di diritto
+- `pluralismo` — Pluralismo
+- `stato-socialista` — Stato socialista storico
+- `sussidiarieta` — Sussidiarietà
+- `terzo-settore` — Terzo settore
+- `divieto-di-mandato-imperativo` — Divieto di mandato imperativo
+- `iniziativa-legislativa-popolare` — Iniziativa legislativa popolare
+- `petizione` — Petizione
+- `referendum-costituzionale` — Referendum costituzionale dell’art. 138
+- `indirizzo-politico` — Indirizzo politico
+- `quorum-strutturale` — Quorum strutturale
+- `quorum-deliberativo` — Quorum deliberativo
+- `tutela-delle-minoranze` — Tutela delle minoranze
+- `consiglio-europeo` — Consiglio europeo
+- `consiglio-ue` — Consiglio dell’Unione europea
+- `commissione-europea` — Commissione europea
+- `parlamento-europeo` — Parlamento europeo
+- `potere-costituente` — Potere costituente
+- `principio-personalistico` — Principio personalistico
+- `principio-solidaristico` — Principio solidaristico
+- `principio-autonomista` — Principio autonomista
+- `principio-internazionalista` — Principio internazionalista
+- `monarchia-costituzionale` — Monarchia costituzionale
+- `razionalizzazione-del-parlamentarismo` — Razionalizzazione del parlamentarismo
+- `sistema-dei-partiti` — Sistema dei partiti
+- `coabitazione` — Coabitazione
+- `incandidabilita` — Incandidabilità
+- `par-condicio` — Par condicio
+- `soglia-di-sbarramento` — Soglia di sbarramento
+- `premio-di-maggioranza` — Premio di maggioranza
+- `verifica-dei-poteri` — Verifica dei poteri
+- `mozione-di-sfiducia` — Mozione di sfiducia
+- `questione-di-fiducia` — Questione di fiducia
+- `coalizione-di-governo` — Coalizione di governo
+- `crisi-di-governo` — Crisi di governo
+- `presidenza-del-consiglio` — Presidenza del Consiglio
+- `ministri-senza-portafoglio` — Ministri senza portafoglio
+- `sottosegretari-di-stato` — Sottosegretari di Stato
+- `informazione-per-la-sicurezza` — Informazione per la sicurezza
+- `bicameralismo-paritario` — Bicameralismo paritario
+- `legislatura` — Legislatura
+- `prorogatio` — Prorogatio delle Camere
+- `gruppi-parlamentari` — Gruppi parlamentari
+- `commissioni-parlamentari` — Commissioni parlamentari
+- `quorum-funzionale` — Quorum funzionale
+- `prerogative-parlamentari` — Prerogative parlamentari
+- `insindacabilita-parlamentare` — Insindacabilità parlamentare
+- `immunita-parlamentari` — Immunità parlamentari
+- `autodichia` — Autodichia
+- `interrogazione-parlamentare` — Interrogazione parlamentare
+- `interpellanza` — Interpellanza
+- `mozione-parlamentare` — Mozione parlamentare
+- `risoluzione-parlamentare` — Risoluzione parlamentare
+- `inchieste-parlamentari` — Inchieste parlamentari
+- `capacita-contributiva` — Capacità contributiva
+- `progressivita-tributaria` — Progressività tributaria
+- `equilibrio-di-bilancio` — Equilibrio di bilancio
+- `copertura-finanziaria` — Copertura finanziaria
+- `esercizio-provvisorio` — Esercizio provvisorio
+- `legge-di-bilancio` — Legge di bilancio
+- `supplenza-presidenziale` — Supplenza presidenziale
+- `alto-tradimento` — Alto tradimento
+- `attentato-alla-costituzione` — Attentato alla Costituzione
+- `promulgazione` — Promulgazione
+- `rinvio-presidenziale` — Rinvio presidenziale
+- `grazia` — Grazia
+- `scioglimento-anticipato` — Scioglimento anticipato
+- `semestre-bianco` — Semestre bianco
+- `consiglio-supremo-di-difesa` — Consiglio supremo di difesa
+- `autonomia-differenziata` — Autonomia differenziata
+- `leale-collaborazione` — Leale collaborazione
+- `sistema-delle-conferenze` — Sistema delle Conferenze
+- `armonizzazione-dei-bilanci` — Armonizzazione dei bilanci
+- `fondo-perequativo` — Fondo perequativo
+- `presidente-della-giunta` — Presidente della Giunta
+- `consiglio-regionale` — Consiglio regionale
+- `giunta-regionale` — Giunta regionale
+- `simul-stabunt-simul-cadent` — Simul stabunt, simul cadent
+- `sindaco` — Sindaco
+- `voto-disgiunto` — Voto disgiunto
+- `pubblico-ministero` — Pubblico ministero
+- `obbligatorieta-azione-penale` — Obbligatorietà dell’azione penale
+- `corte-di-cassazione` — Corte di cassazione
+- `giudice-naturale` — Giudice naturale
+- `diritto-di-difesa` — Diritto di difesa
+- `giusto-processo` — Giusto processo
+- `inamovibilita` — Inamovibilità
+- `responsabilita-disciplinare-magistrati` — Responsabilità disciplinare dei magistrati
+- `ministro-della-giustizia` — Ministro della giustizia
+- `vacatio-legis` — Vacatio legis
+- `rinvio-fisso` — Rinvio fisso
+- `rinvio-mobile` — Rinvio mobile
+- `disposizione` — Disposizione
+- `interpretazione-giuridica` — Interpretazione giuridica
+- `analogia` — Analogia
+- `interpretazione-autentica` — Interpretazione autentica
+- `antinomia` — Antinomia
+- `deroga` — Deroga
+- `fonti-di-cognizione` — Fonti di cognizione
+- `iniziativa-legislativa` — Iniziativa legislativa
+- `commissione-referente` — Commissione in sede referente
+- `commissione-deliberante` — Commissione in sede deliberante
+- `riserva-di-assemblea` — Riserva d’assemblea
+- `navetta-parlamentare` — Navetta parlamentare
+- `legge-rinforzata` — Legge rinforzata
+- `legge-atipica` — Legge atipica
+- `eccesso-di-delega` — Eccesso di delega
+- `testo-unico` — Testo unico
+- `legge-di-conversione` — Legge di conversione
+- `decadenza-decreto-legge` — Decadenza del decreto-legge
+- `legge-di-sanatoria` — Legge sui rapporti del decreto non convertito
+- `reiterazione-decreti-legge` — Reiterazione dei decreti-legge
+- `omogeneita-decreto-legge` — Omogeneità del decreto-legge
+- `norme-attuazione-statuti-speciali` — Norme di attuazione degli statuti speciali
+- `quorum-referendario` — Quorum del referendum abrogativo
+- `ammissibilita-referendum` — Ammissibilità del referendum
+- `regolarita-referendum` — Regolarità della richiesta referendaria
+- `regolamenti-governativi` — Regolamenti governativi
+- `delegificazione` — Delegificazione
+- `regolamenti-ministeriali` — Regolamenti ministeriali
+- `circolare-amministrativa` — Circolare amministrativa
+- `statuto-speciale` — Statuto regionale speciale
+- `legge-statutaria` — Legge statutaria delle autonomie speciali
+- `consiglio-autonomie-locali` — Consiglio delle autonomie locali
+- `potesta-legislativa-concorrente` — Potestà legislativa concorrente
+- `competenza-residuale-regionale` — Competenza legislativa residuale regionale
+- `regolamento-regionale` — Regolamento regionale
+- `statuto-ente-locale` — Statuto dell’ente locale
+- `regolamento-ente-locale` — Regolamento dell’ente locale
+- `decisione-ue` — Decisione dell’Unione europea
+- `diretta-applicabilita` — Diretta applicabilità
+- `effetto-diretto-ue` — Effetto diretto del diritto UE
+- `sentenza-granital` — Sentenza Granital
+- `non-applicazione-diritto-ue` — Non applicazione per contrasto con il diritto UE
+- `rinvio-pregiudiziale-ue` — Rinvio pregiudiziale alla Corte di giustizia
+- `sussidiarieta-ue` — Sussidiarietà europea
+- `legge-delegazione-europea` — Legge di delegazione europea
+- `legge-europea` — Legge europea
+- `carta-diritti-ue` — Carta dei diritti fondamentali UE
+- `controlimiti` — Controlimiti
+- `giustizia-costituzionale` — Giustizia costituzionale
+- `parametro-costituzionale` — Parametro costituzionale
+- `ordinanza-rimessione` — Ordinanza di rimessione
+- `rilevanza-costituzionale` — Rilevanza della questione costituzionale
+- `non-manifesta-infondatezza` — Non manifesta infondatezza
+- `accusa-presidente-repubblica` — Giudizio d’accusa al Presidente della Repubblica
+- `reati-ministeriali` — Reati ministeriali
+- `formazioni-sociali` — Formazioni sociali
+- `uguaglianza-sostanziale` — Uguaglianza sostanziale
+- `riserva-di-giurisdizione` — Riserva di giurisdizione
+- `trattamento-sanitario-obbligatorio` — Trattamento sanitario obbligatorio
+- `pluralismo-informazione` — Pluralismo dell’informazione
+- `tutela-giurisdizionale` — Tutela giurisdizionale dei diritti
+- `diritto-istruzione` — Diritto all’istruzione
+- `diritto-salute` — Diritto alla salute
+- `liberta-sindacale` — Libertà sindacale
+- `diritto-sciopero` — Diritto di sciopero
+- `proprieta-privata` — Proprietà privata
+- `espropriazione` — Espropriazione per interesse generale

@@ -5,6 +5,7 @@ import { href, vai } from '../lib/router';
 import { Icon } from './ui';
 import IurisMascot from './IurisMascot';
 import MobileSheet from './MobileSheet';
+import GrigliaMaterie from './GrigliaMaterie';
 
 type Item = { to: string; key: string; label: string; icon: string };
 export function MobileHeader({ onSearch }: { onSearch: () => void }) {
@@ -35,9 +36,7 @@ export function MobileMenu({ panel, onClose, onStudy, corso, materie, materia, i
       <label className="mobile-field">Il tuo corso<select className="select" aria-label="Corso di studio" value={corso.id} onChange={(e) => scegliCorso(e.target.value)}>{CORSI.map((c) => <option key={c.id} value={c.id} disabled={!corsoDisponibile(c)}>{c.breve}{!corsoDisponibile(c) ? ' · in arrivo' : ''}</option>)}</select></label>
       <p className="mobile-course-description">{descriviCorso(corso)}</p>
       <h3 className="mobile-section-label">Scegli la materia</h3>
-      <div className="mobile-subjects">{materie.map((m) => <button key={m.slug} aria-pressed={m.slug === materia.slug} onClick={() => { onMateria(m.slug); onClose(); }}><span className="materia-dot" style={{ background: m.colore ?? undefined }} /><span>{m.nome}</span>{m.slug === materia.slug && <Icon n="check" size={19} />}</button>)}
-        {(corso.inArrivo ?? []).map((m) => <button key={m.nome} disabled><span className="materia-dot" style={{ background: m.colore ?? undefined }} /><span>{m.nome}</span><small>In arrivo</small></button>)}
-      </div>
+      <GrigliaMaterie className="mobile-subjects" corso={corso} materie={materie} selezionata={materia.slug} onSelect={(slug) => { onMateria(slug); onClose(); }} />
     </> : <>
       <button className="mobile-course-card" onClick={onStudy}><span><small>{corso.breve}</small><strong>{materia.breve ?? materia.nome}</strong></span><span className="mobile-change">Cambia<Icon n="giu" size={13} /></span></button>
       <nav className="mobile-menu-grid" aria-label="Tutte le sezioni">{items.map((n) => <a key={n.key} href={href(n.to)} aria-current={section === n.key ? 'page' : undefined} onClick={(e) => { e.preventDefault(); navigate(n.to); }}><Icon n={n.icon} size={21} /><span>{n.label}</span>{section === n.key && <span className="mobile-current" />}</a>)}</nav>

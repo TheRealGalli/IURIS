@@ -95,24 +95,20 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .corso-select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; appearance: none; -webkit-appearance: none; }
 .corso-switch-pagina { margin: 0; padding: 9px 12px; font-size: 13.5px; }
 .materia-switch { display: flex; flex-direction: column; gap: 4px; }
-/* Elenco materie scorrevole: con molte materie la barra laterale non si allunga */
+/* Tutte le materie si vedono subito; i nomi compaiono al passaggio o con la tastiera. */
 .materia-lista {
-  display: flex; flex-direction: column; gap: 4px; max-height: 130px; overflow-y: auto; overscroll-behavior: contain;
-  scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: var(--line) transparent; margin: -5px -5px 0; padding: 4px 4px 14px;
-  border: 1px solid transparent; border-radius: var(--radius-s); transition: border-color .15s, box-shadow .15s, background-color .15s;
-  /* sfuma il bordo inferiore: si capisce che l'elenco continua; in fondo resta spazio, così l'ultima materia è nitida */
-  mask-image: linear-gradient(to bottom, #000 calc(100% - 16px), transparent); -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 16px), transparent);
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 4px; min-width: 0;
 }
-/* Al passaggio: riquadro grigio come quello delle mappe interattive, così si capisce che l'elenco scorre */
-.materia-lista:hover, .materia-lista:focus-within {
-  border-color: color-mix(in srgb, var(--ink) 32%, transparent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ink) 11%, transparent);
-  background-color: color-mix(in srgb, var(--ink) 3%, transparent); mask-image: none; -webkit-mask-image: none;
+.materia-casella { position: relative; min-width: 0; }
+.materia-nome {
+  position: absolute; z-index: 40; top: calc(100% + 5px); left: 50%; width: max-content; max-width: 220px;
+  transform: translateX(-50%); padding: 6px 9px; border: 1px solid var(--line-2); border-radius: 8px;
+  background: var(--ink); color: var(--bg); font-size: 11px; line-height: 1.35; text-align: center;
+  opacity: 0; visibility: hidden; pointer-events: none;
 }
-.materia-lista::-webkit-scrollbar { width: 5px; }
-.materia-lista::-webkit-scrollbar-thumb { background: var(--line); border-radius: 9px; }
-.materia-btn.in-arrivo { cursor: not-allowed; color: var(--ink-3); }
-.materia-btn.in-arrivo:hover { background: none; }
-.materia-btn.in-arrivo .materia-dot { opacity: .55; }
+.materia-casella:nth-child(odd) .materia-nome { left: 0; transform: none; }
+.materia-casella:nth-child(even) .materia-nome { left: auto; right: 0; transform: none; }
+.materia-casella:hover .materia-nome, .materia-casella:focus-within .materia-nome { opacity: 1; visibility: visible; }
 /* Invito a inviare materiale: compatto, in fondo alla barra sopra la demo */
 .invia-materiale {
   display: flex; align-items: flex-start; gap: 9px; padding: 9px 10px; border-radius: var(--radius-s); text-decoration: none;
@@ -127,13 +123,15 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .side-foot .invia-materiale { padding: 7px 9px; }
 
 .materia-btn {
-  display: flex; align-items: center; gap: 9px; width: 100%; text-align: left; padding: 8px 10px;
-  border: 1px solid transparent; border-radius: var(--radius-s); background: none; cursor: pointer; font-size: 13.5px;
+  position: relative; display: flex; align-items: center; justify-content: center; width: 100%; min-height: 62px; padding: 12px;
+  border: 1px solid var(--line); border-radius: var(--radius-s); background: var(--bg-2); cursor: pointer; color: var(--ink-2);
 }
-.materia-btn:hover { background: var(--bg-2); }
-.materia-btn.on { background: var(--surface); border-color: var(--line); box-shadow: var(--shadow); font-weight: 600; }
+.materia-btn:hover { background: var(--surface); color: var(--ink); border-color: var(--line-2); }
+.materia-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.materia-btn.on { background: var(--surface); border-color: var(--ink-3); box-shadow: var(--shadow); color: var(--ink); }
+.materia-btn:disabled { background: transparent; border-color: var(--line); color: var(--ink-3); opacity: .45; cursor: default; }
 .materia-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--ink-3); flex: none; }
-.materia-btn small { margin-left: auto; color: var(--ink-3); font-weight: 400; font-size: 11px; }
+.materia-btn .materia-dot { position: absolute; top: 10px; left: 10px; width: 7px; height: 7px; }
 .nav { display: flex; flex-direction: column; gap: 2px; }
 .nav-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: .12em; color: var(--ink-3); padding: 0 10px 6px; }
 .nav a {
@@ -153,8 +151,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
   .side { gap: 12px; padding-top: 18px; padding-bottom: 14px; }
   .side .nav a { padding-top: 6px; padding-bottom: 6px; }
   .nav-archivio { padding-top: 10px; }
-  .materia-lista { max-height: 96px; }
-  .materia-btn { padding-top: 6px; padding-bottom: 6px; }
+  .materia-btn { min-height: 52px; padding-top: 8px; padding-bottom: 8px; }
 }
 .search-btn {
   display: flex; align-items: center; gap: 9px; padding: 8px 10px; border-radius: var(--radius-s);
