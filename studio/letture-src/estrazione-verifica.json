@@ -5263,13 +5263,16 @@
     {
       "id": "costituzionale-bin-pitruzzella-v1",
       "pagine": 258,
-      "blocchi": 2858,
-      "parole": 93598,
+      "blocchi": 2839,
+      "parole": 93212,
       "pagineSenzaTesto": [
         1,
+        2,
         3,
         204,
-        206
+        206,
+        207,
+        208
       ],
       "coperturaToken": true,
       "pagineDettaglio": [
@@ -5283,9 +5286,9 @@
         },
         {
           "pagina": 2,
-          "blocchi": 1,
-          "parole": 125,
-          "caratteri": 865,
+          "blocchi": 0,
+          "parole": 0,
+          "caratteri": 0,
           "rimossi": [],
           "coperturaToken": true
         },
@@ -7301,20 +7304,18 @@
         },
         {
           "pagina": 207,
-          "blocchi": 12,
-          "parole": 200,
-          "caratteri": 1245,
+          "blocchi": 0,
+          "parole": 0,
+          "caratteri": 0,
           "rimossi": [],
           "coperturaToken": true
         },
         {
           "pagina": 208,
-          "blocchi": 6,
-          "parole": 61,
-          "caratteri": 391,
-          "rimossi": [
-            "207"
-          ],
+          "blocchi": 0,
+          "parole": 0,
+          "caratteri": 0,
+          "rimossi": [],
           "coperturaToken": true
         },
         {

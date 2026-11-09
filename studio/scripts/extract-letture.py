@@ -142,6 +142,9 @@ def main() -> None:
         else:
             # Le pagine bianche (senza flusso di contenuto) valgono come pagine senza testo.
             layouts = [(page.extract_text(extraction_mode='layout') or '') if '/Contents' in page else '' for page in reader.pages]
+        # Pagine da non mostrare nel lettore (es. indici: le sezioni fanno già da indice). Restano nel PDF.
+        for n in doc.get('pagineOmesse', []):
+            layouts[n - 1] = ''
         edge_counts = Counter(value for text in layouts for value in page_edges(text))
         repeated = {value for value, n in edge_counts.items() if n >= max(5, int(len(layouts) * .12)) and 5 < len(value) < 220}
         # Nei testi di Incampo e Moro il piè di pagina comprende il riferimento alla fonte.

@@ -69,6 +69,11 @@
     "file": "originali/costituzionale-bin-pitruzzella.pdf",
     "pagine": 258,
     "sha256": "b38d7a4c9d62cdadd13070decd61915f14009667d5eff955cf20ec39f8bede5e",
-    "testoOcr": "testi/costituzionale-bin-pitruzzella.txt"
+    "testoOcr": "testi/costituzionale-bin-pitruzzella.txt",
+    "pagineOmesse": [
+      2,
+      207,
+      208
+    ]
   }
 ]

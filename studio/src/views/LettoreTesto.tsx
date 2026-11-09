@@ -367,7 +367,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
           setMessaggio(''); if (!automatico) viewport.current?.focus({ preventScroll: true });
         }}>
           <div className="lettura-intestazione" contentEditable={false}>
-            <div className="eyebrow">{meta.soloTitolo ? 'Indice della fonte' : doc.tipoFonte === 'manuale-ricostruito' ? 'Ricostruzione dal Percorso' : meta.revisionata ? 'Testo revisionato con IA' : 'Testo estratto · revisione progressiva'} · {meta.manuale ? `manuale pp. ${meta.manuale[0]}–${meta.manuale[1]}` : `pp. ${meta.da}–${meta.a}`}</div>
+            <div className="eyebrow">{meta.soloTitolo ? 'Indice della fonte' : doc.tipoFonte === 'manuale-ricostruito' ? 'Ricostruzione dal Percorso' : meta.revisionata ? 'Testo originale · impaginato con IA' : 'Testo estratto · revisione progressiva'} · {meta.manuale ? `manuale pp. ${meta.manuale[0]}–${meta.manuale[1]}` : `pp. ${meta.da}–${meta.a}`}</div>
             <h2 className="title-l">{meta.titolo}</h2>
             {meta.integrazione && <div className="card-flat small"><p>In queste pagine gli appunti riportano soltanto il titolo del capitolo. La lezione completa, ricostruita nel Percorso, è disponibile nel fascicolo integrativo.</p><a className="btn btn-sm" href={linkTesto(meta.integrazione.documento, meta.integrazione.sezione)}>Leggi la lezione completa<Icon n="freccia" size={14} /></a></div>}
             {doc.tipoFonte === 'manuale-ricostruito' && <p className="small muted">Testo e note ripresi dalla ricostruzione del Percorso, con assistenza dell’IA. I riferimenti al manuale permettono di verificarne i contenuti.</p>}
