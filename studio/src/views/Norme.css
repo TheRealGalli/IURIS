@@ -1,0 +1,27 @@
+/* Norme: testo dell'atto, articolo per articolo */
+.norme-barra { display: flex; flex-direction: column; gap: 10px; margin: 18px 0 16px; position: sticky; top: 0; z-index: 5;
+  background: var(--bg); padding: 10px 0; }
+.norme-indice { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.norme-indice .chip { text-decoration: none; }
+.norme-gruppo { margin-top: 26px; }
+.norme-titolo { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3);
+  margin: 0 0 10px; line-height: 1.45; }
+.norma { padding: 18px 20px; margin-bottom: 10px; scroll-margin-top: 150px; }
+.norma-sel { border-color: var(--ink-3); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 22%, transparent); }
+.norma-abrogata { opacity: .6; }
+.norma-testa { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 12px; margin-bottom: 10px; }
+.norma-testa h3 { margin: 0; white-space: nowrap; }
+.norma-tema { color: var(--ink-2); font-size: 14px; flex: 1; min-width: 160px; }
+.norma-commi { margin: 0; padding-left: 1.5em; font-family: var(--serif); font-size: 16.5px; line-height: 1.65; }
+.norma-commi li { margin-bottom: 6px; padding-left: 2px; }
+.norma-commi li::marker { color: var(--ink-3); font-family: var(--sans, inherit); font-size: 12px; }
+.norma-commi .norma-lettera { list-style: none; margin-left: .2em; }
+.norma-comma { margin: 0; font-family: var(--serif); font-size: 16.5px; line-height: 1.65; }
+.norma-rimandi { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.norma-rimandi .chip { text-decoration: none; display: inline-flex; align-items: center; gap: 5px; max-width: 100%; }
+@media (max-width: 720px) {
+  .norme-barra { position: static; padding: 0; }
+  .norma { scroll-margin-top: 16px; }
+  .norma { padding: 14px 14px; }
+  .norma-commi, .norma-comma { font-size: 16px; }
+}

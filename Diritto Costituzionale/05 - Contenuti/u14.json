@@ -302,7 +302,40 @@
       "etichetta": "da distinguere"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-legge-n-352-1970-sui-referendum",
+      "anno": 1970,
+      "data": "25 maggio 1970",
+      "titolo": "Legge n. 352/1970 sui referendum",
+      "descrizione": "Attua gli istituti di democrazia diretta: solo da qui il referendum abrogativo diventa utilizzabile.",
+      "tipo": "legge",
+      "pagine": [
+        125,
+        130
+      ],
+      "concetti": [
+        "referendum-abrogativo",
+        "regolarita-referendum"
+      ]
+    },
+    {
+      "id": "ev-primo-referendum-abrogativo",
+      "anno": 1974,
+      "data": "12–13 maggio 1974",
+      "titolo": "Primo referendum abrogativo",
+      "descrizione": "Gli elettori respingono l'abrogazione della legge sul divorzio.",
+      "tipo": "politica",
+      "pagine": [
+        125,
+        130
+      ],
+      "concetti": [
+        "referendum-abrogativo",
+        "quorum-referendario"
+      ]
+    }
+  ],
   "mappa": {
     "testo": "Altre fonti statali",
     "figli": [

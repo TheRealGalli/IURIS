@@ -608,7 +608,55 @@
       "etichetta": "distribuzione del peso fiscale"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-statuto-dei-lavoratori",
+      "anno": 1970,
+      "data": "20 maggio 1970",
+      "titolo": "Statuto dei lavoratori",
+      "descrizione": "La legge 300/1970 porta le libertà costituzionali nei luoghi di lavoro.",
+      "tipo": "legge",
+      "pagine": [
+        158,
+        171
+      ],
+      "concetti": [
+        "liberta-sindacale",
+        "diritti-sociali"
+      ]
+    },
+    {
+      "id": "ev-istituzione-del-servizio-sanitario-nazionale",
+      "anno": 1978,
+      "data": "23 dicembre 1978",
+      "titolo": "Istituzione del Servizio sanitario nazionale",
+      "descrizione": "La legge 833/1978 attua l'art. 32 con un servizio universale finanziato dalla fiscalità generale.",
+      "tipo": "legge",
+      "pagine": [
+        158,
+        171
+      ],
+      "concetti": [
+        "diritto-salute",
+        "diritti-sociali"
+      ]
+    },
+    {
+      "id": "ev-legge-sullo-sciopero-nei-servizi-pubblici-essenziali",
+      "anno": 1990,
+      "data": "12 giugno 1990",
+      "titolo": "Legge sullo sciopero nei servizi pubblici essenziali",
+      "descrizione": "La legge 146/1990 bilancia il diritto di sciopero con i diritti degli utenti.",
+      "tipo": "legge",
+      "pagine": [
+        158,
+        171
+      ],
+      "concetti": [
+        "diritto-sciopero"
+      ]
+    }
+  ],
   "mappa": {
     "testo": "Persona e comunità",
     "figli": [

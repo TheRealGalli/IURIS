@@ -156,7 +156,37 @@ export interface Corso {
   mancanti: string[];
   /** posizioni della mappa di tutti i concetti, calcolate da sync-content.mjs */
   grafo?: Record<string, [number, number]>;
+  /** testo di un atto normativo, articolo per articolo (norme.json) */
+  norme?: Norme;
+  /** schemi a passi e tabelle di confronto (procedimenti.json) */
+  procedimenti?: { procedimenti?: Procedimento[]; confronti?: Confronto[] };
+  /** schemi d'insieme per la vista Quadro della Mappa (quadro.json) */
+  quadro?: { schemi: SchemaQuadro[] };
 }
+
+export interface Articolo {
+  n: string; tema?: string; commi: string[]; modificato?: boolean; abrogato?: boolean; disposizione?: boolean;
+  lezioni?: string[]; domande?: string[];
+}
+export interface Norme {
+  atto: string; sigla: string; aggiornamento: string; articoli: number;
+  fonte?: { titolo: string; url: string };
+  gruppi: { titolo: string; articoli: Articolo[] }[];
+}
+export interface Procedimento {
+  id: string; titolo: string; norme?: string; lezione?: string; sintesi?: string;
+  passi: { titolo: string; chi?: string; testo: string; concetto?: string; esiti?: { se: string; allora: string }[] }[];
+}
+export interface Confronto { id: string; titolo: string; lezione?: string; colonne: string[]; righe: string[][] }
+export interface VoceQuadro { testo: string; concetto?: string }
+export type SchemaQuadro = { id: string; titolo: string; sottotitolo?: string; nota?: string } & (
+  | { tipo: 'rete'; nodi: { id: string; testo: string; sotto?: string; concetto?: string; x: number; y: number }[];
+      archi: { da: string; a: string; testo: string }[]; elenco?: { chi: string; fa: string; norma?: string }[] }
+  | { tipo: 'piramide'; livelli: { titolo: string; nota?: string; voci: VoceQuadro[] }[];
+      aLato?: { titolo: string; testo: string; concetto?: string }[] }
+  | { tipo: 'fasce'; da: number; a: number; periodi: (VoceQuadro & { da: number; a: number })[];
+      corsie: { titolo: string; barre: (VoceQuadro & { da: number; a: number })[] }[] }
+);
 
 export const TIPI_CONCETTO: Record<TipoConcetto, string> = {
   persona: 'Persone', magistratura: 'Magistrature', organo: 'Organi', gruppo: 'Gruppi', norma: 'Norme',

@@ -349,6 +349,38 @@
   ],
   "eventi": [
     {
+      "id": "ev-trattati-di-roma",
+      "anno": 1957,
+      "data": "25 marzo 1957",
+      "titolo": "Trattati di Roma",
+      "descrizione": "Nasce la Comunità economica europea, da cui deriva l'Unione di oggi.",
+      "tipo": "politica",
+      "pagine": [
+        138,
+        146
+      ],
+      "concetti": [
+        "unione-europea",
+        "primato-del-diritto-ue"
+      ]
+    },
+    {
+      "id": "ev-sentenza-costa-contro-enel",
+      "anno": 1964,
+      "data": "15 luglio 1964",
+      "titolo": "Sentenza Costa contro ENEL",
+      "descrizione": "La Corte di giustizia afferma il primato del diritto comunitario sulle leggi nazionali, anche successive.",
+      "tipo": "giurisprudenza",
+      "pagine": [
+        138,
+        146
+      ],
+      "concetti": [
+        "primato-del-diritto-ue",
+        "corte-di-giustizia-ue"
+      ]
+    },
+    {
       "id": "ev-granital",
       "anno": 1984,
       "data": "8 giugno 1984",
@@ -362,6 +394,21 @@
       "pagine": [
         143,
         144
+      ]
+    },
+    {
+      "id": "ev-proclamazione-della-carta-dei-diritti-fondamentali",
+      "anno": 2000,
+      "data": "7 dicembre 2000",
+      "titolo": "Proclamazione della Carta dei diritti fondamentali",
+      "descrizione": "Proclamata a Nizza, la Carta acquista lo stesso valore dei Trattati con il Trattato di Lisbona.",
+      "tipo": "codificazione",
+      "pagine": [
+        138,
+        146
+      ],
+      "concetti": [
+        "carta-diritti-ue"
       ]
     }
   ],

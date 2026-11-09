@@ -241,7 +241,40 @@
       "etichetta": "è una"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-legge-fondamentale-tedesca",
+      "anno": 1949,
+      "data": "23 maggio 1949",
+      "titolo": "Legge fondamentale tedesca",
+      "descrizione": "Introduce la sfiducia costruttiva: il Cancelliere cade solo se il Parlamento ne elegge un altro.",
+      "tipo": "codificazione",
+      "pagine": [
+        39,
+        44
+      ],
+      "concetti": [
+        "razionalizzazione-del-parlamentarismo",
+        "governo-parlamentare"
+      ]
+    },
+    {
+      "id": "ev-costituzione-della-v-repubblica-francese",
+      "anno": 1958,
+      "data": "4 ottobre 1958",
+      "titolo": "Costituzione della V Repubblica francese",
+      "descrizione": "È il modello del governo semipresidenziale; dal 1962 il Presidente è eletto direttamente dal popolo.",
+      "tipo": "codificazione",
+      "pagine": [
+        39,
+        44
+      ],
+      "concetti": [
+        "governo-semipresidenziale",
+        "coabitazione"
+      ]
+    }
+  ],
   "mappa": {
     "testo": "Forme di governo",
     "concetto": "forma-di-governo",

@@ -1,0 +1,77 @@
+/* Vista Quadro della Mappa */
+.quadro-schede { gap: 6px; margin-bottom: 14px; }
+.quadro-schede .chip, .quadro-vista .chip { text-decoration: none; padding: 6px 14px; }
+.quadro-sotto { margin: 0 0 16px; max-width: 70ch; }
+
+/* programma */
+.quadro-programma { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+.quadro-unita { display: flex; flex-direction: column; gap: 10px; padding: 14px 16px; text-decoration: none; color: inherit; }
+.quadro-unita:hover { border-color: var(--ink-3); }
+.quadro-unita-testa { display: flex; align-items: flex-start; gap: 10px; font-family: var(--serif); font-size: 16px; line-height: 1.25; }
+.quadro-unita-testa b { flex: 1; font-weight: 600; }
+.quadro-unita-n { flex: none; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-family: inherit;
+  font-size: 12.5px; font-weight: 700; background: var(--accent-soft); color: var(--accent); }
+.quadro-unita ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 3px; flex: 1; }
+.quadro-unita li { font-size: 13px; color: var(--ink-2); padding-left: 12px; position: relative; line-height: 1.35; }
+.quadro-unita li::before { content: ''; position: absolute; left: 0; top: .62em; width: 5px; height: 1px; background: var(--ink-3); }
+.quadro-unita-piede { display: flex; align-items: center; gap: 10px; }
+.quadro-unita-piede > :first-child { flex: 1; }
+
+/* rete */
+.quadro-rete-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.quadro-rete { display: block; width: 100%; min-width: 760px; height: auto; }
+.quadro-arco { stroke: var(--ink-3); stroke-width: 1.4; }
+.quadro-punta { fill: var(--ink-3); }
+.quadro-arco-sfondo { fill: var(--surface); stroke: var(--line); }
+.quadro-arco-testo { font-size: 11.5px; fill: var(--ink-2); font-family: var(--sans, system-ui, sans-serif); }
+.quadro-nodo rect { fill: var(--surface-2); stroke: var(--line-2); stroke-width: 1.5; }
+a:hover .quadro-nodo rect, a:focus-visible .quadro-nodo rect { stroke: var(--accent); }
+.quadro-nodo-nome { font-family: var(--serif); font-size: 16px; font-weight: 600; fill: var(--ink); }
+.quadro-nodo-sotto { font-size: 11.5px; fill: var(--ink-3); font-family: var(--sans, system-ui, sans-serif); }
+.quadro-elenco { margin-top: 16px; display: grid; gap: 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+.quadro-elenco-riga { display: grid; grid-template-columns: 200px 1fr auto; gap: 6px 16px; padding: 11px 16px; font-size: 14.5px; line-height: 1.45; align-items: baseline; }
+.quadro-elenco-riga + .quadro-elenco-riga { border-top: 1px solid var(--line); }
+.quadro-elenco-riga span:nth-child(2) { color: var(--ink-2); }
+
+/* piramide */
+.quadro-piramide-griglia { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(220px, 1fr); gap: 18px; align-items: start; }
+.quadro-piramide { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.quadro-livello { width: calc(56% + (44% / (var(--n) - 1)) * var(--i)); border: 1px solid var(--line-2); border-radius: 10px; background: var(--surface);
+  padding: 12px 14px; text-align: center; }
+.quadro-livello:first-child { background: var(--accent-soft); border-color: transparent; }
+.quadro-livello-titolo { font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 8px; }
+.quadro-livello-voci { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+.quadro-livello-voci .chip { text-decoration: none; background: var(--surface-2); }
+.quadro-livello-nota { margin-top: 8px; font-size: 12.5px; color: var(--ink-2); }
+.quadro-lato { display: grid; gap: 10px; }
+.quadro-lato b { font-size: 14.5px; }
+.quadro-lato b a { color: inherit; }
+.quadro-lato p { margin: 4px 0 0; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); }
+
+/* fasce */
+.quadro-fasce-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 14px 16px 10px; }
+.quadro-fasce { position: relative; }
+.quadro-periodi { position: relative; height: 34px; }
+.quadro-periodo-box { position: absolute; top: 0; bottom: 0; padding-right: 2px; }
+.quadro-periodo { display: flex; align-items: center; justify-content: center; height: 100%; border-radius: 7px; font-size: 13px; font-weight: 600;
+  text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 0 8px; }
+.quadro-periodo-0 { background: var(--accent-soft); color: var(--accent); }
+.quadro-periodo-1 { background: var(--gold-soft, var(--surface-2)); color: var(--gold, var(--ink-2)); }
+.quadro-asse { position: relative; height: 22px; border-bottom: 1px solid var(--line-2); }
+.quadro-asse span { position: absolute; bottom: 3px; transform: translateX(-50%); font-size: 10.5px; color: var(--ink-3); white-space: nowrap; }
+.quadro-corsia { position: relative; border-bottom: 1px solid var(--line); }
+.quadro-corsia:last-child { border-bottom: 0; }
+.quadro-corsia-titolo { position: sticky; left: 0; display: inline-block; z-index: 2; margin-top: 5px; padding: 1px 8px 1px 0; font-size: 11px; font-weight: 700;
+  letter-spacing: .07em; text-transform: uppercase; color: var(--ink-3); background: var(--surface); }
+.quadro-griglia { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--line); opacity: .6; }
+.quadro-barra-box { position: absolute; height: 28px; width: max-content; z-index: 1; }
+.quadro-barra { display: flex; align-items: center; height: 100%; padding: 0 9px; border-radius: 7px; font-size: 12.5px; white-space: nowrap; text-decoration: none;
+  background: var(--surface-2); border: 1px solid var(--line-2); color: var(--ink); }
+a.quadro-barra:hover { border-color: var(--accent); }
+
+@media (max-width: 860px) {
+  .quadro-piramide-griglia { grid-template-columns: 1fr; }
+  .quadro-livello { width: 100%; text-align: left; }
+  .quadro-livello-voci { justify-content: flex-start; }
+  .quadro-elenco-riga { grid-template-columns: 1fr; gap: 2px; }
+}

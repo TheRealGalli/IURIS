@@ -385,7 +385,73 @@
       "etichetta": "giurisdizione ordinaria"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-marbury-contro-madison",
+      "anno": 1803,
+      "data": "24 febbraio 1803",
+      "titolo": "Marbury contro Madison",
+      "descrizione": "La Corte suprema degli Stati Uniti afferma che i giudici non applicano le leggi contrarie alla Costituzione: nasce il controllo diffuso.",
+      "tipo": "giurisprudenza",
+      "pagine": [
+        147,
+        157
+      ],
+      "concetti": [
+        "giustizia-costituzionale",
+        "costituzione-rigida"
+      ]
+    },
+    {
+      "id": "ev-costituzione-austriaca",
+      "anno": 1920,
+      "data": "1 ottobre 1920",
+      "titolo": "Costituzione austriaca",
+      "descrizione": "Su progetto di Hans Kelsen istituisce il primo tribunale costituzionale: è il modello accentrato.",
+      "tipo": "codificazione",
+      "pagine": [
+        147,
+        157
+      ],
+      "concetti": [
+        "giustizia-costituzionale",
+        "corte-costituzionale"
+      ]
+    },
+    {
+      "id": "ev-leggi-sul-funzionamento-della-corte-costituzionale",
+      "anno": 1953,
+      "data": "11 marzo 1953",
+      "titolo": "Leggi sul funzionamento della Corte costituzionale",
+      "descrizione": "La legge costituzionale 1/1953 e la legge 87/1953 completano la disciplina della Corte.",
+      "tipo": "legge",
+      "pagine": [
+        147,
+        157
+      ],
+      "concetti": [
+        "corte-costituzionale",
+        "giudizio-incidentale",
+        "ammissibilita-referendum"
+      ]
+    },
+    {
+      "id": "ev-prima-sentenza-della-corte-costituzionale",
+      "anno": 1956,
+      "data": "1956",
+      "titolo": "Prima sentenza della Corte costituzionale",
+      "descrizione": "Con la sentenza n. 1 la Corte si dichiara competente anche sulle leggi anteriori alla Costituzione.",
+      "tipo": "giurisprudenza",
+      "pagine": [
+        147,
+        157
+      ],
+      "concetti": [
+        "corte-costituzionale",
+        "giustizia-costituzionale"
+      ]
+    }
+  ],
   "mappa": {
     "testo": "Giustizia costituzionale",
     "concetto": "giustizia-costituzionale",

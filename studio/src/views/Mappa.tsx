@@ -7,6 +7,7 @@ import { useProgresso } from '../lib/store';
 import { TIPI_CONCETTO, TIPO_SINGOLARE, VERBO_RELAZIONE, type NodoMappa, type TipoConcetto } from '../lib/types';
 import { Icon, LivelloDot } from '../components/ui';
 import MapTools from '../components/MapTools';
+import Quadro from '../components/Quadro';
 import MobileSheet, { useCompact } from '../components/MobileSheet';
 import { inDemo } from '../lib/archivio';
 import { useZoom } from '../lib/zoom';
@@ -20,11 +21,34 @@ export default function Mappa({ query }: { query: URLSearchParams }) {
   const compact = useCompact();
   const grafo = query.get('grafo') === '1';
   const personale = query.get('personale') === '1';
+  const quadro = query.get('quadro') === '1';
   const uid = query.get('u') ?? idx.corso.unita[0]?.id;
   const sel = query.get('c');
   const [ultimaUnita, setUltimaUnita] = useState(uid);
   useEffect(() => { if (query.get('u')) setUltimaUnita(uid); }, [uid]);
   const unitaMobile = query.get('u') ?? ultimaUnita;
+
+  const schede = (
+    <div className="row map-switch" style={{ gap: 6 }}>
+      <a className={`chip ${quadro ? 'on' : ''}`} href={href('/mappa?quadro=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Quadro</a>
+      <a className={`chip ${!grafo && !personale && !quadro ? 'on' : ''}`} href={href(`/mappa?u=${compact ? unitaMobile : uid}`)} style={{ textDecoration: 'none', padding: '6px 14px' }}>Per unità</a>
+      <a className={`chip ${grafo && !personale && !quadro ? 'on' : ''}`} href={href('/mappa?grafo=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}><span className="map-tab-long">Tutti i collegamenti</span><span className="map-tab-short">Collegamenti</span></a>
+      <a className={`chip ${personale && !quadro ? 'on' : ''}`} href={href('/mappa?personale=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Personale</a>
+    </div>
+  );
+  // Il Quadro è una pagina che scorre, non una tela: ha l'impaginazione normale anche sul telefono.
+  if (quadro) return (
+    <div className="page fade-in quadro-vista" style={{ maxWidth: 1400 }}>
+      <div className="row-between" style={{ marginBottom: 14 }}>
+        <div>
+          <div className="eyebrow">Mappa</div>
+          <h1 className="title-l" style={{ marginTop: 4 }}>Il quadro d'insieme</h1>
+        </div>
+        {schede}
+      </div>
+      <Quadro scelto={query.get('s')} />
+    </div>
+  );
 
   return (
     <div className={`page fade-in map-page${personale ? " map-page-personale" : ""}`} style={{ maxWidth: 1400 }}>
@@ -33,11 +57,7 @@ export default function Mappa({ query }: { query: URLSearchParams }) {
           <div className="eyebrow">Mappa</div>
           <h1 className="title-l" style={{ marginTop: 4 }}>{personale ? 'Mappa personale' : grafo ? 'La costellazione dei concetti' : 'Mappa mentale'}</h1>
         </div>
-        <div className="row map-switch" style={{ gap: 6 }}>
-          <a className={`chip ${!grafo && !personale ? 'on' : ''}`} href={href(`/mappa?u=${compact ? unitaMobile : uid}`)} style={{ textDecoration: 'none', padding: '6px 14px' }}>Per unità</a>
-          <a className={`chip ${grafo && !personale ? 'on' : ''}`} href={href('/mappa?grafo=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}><span className="map-tab-long">Tutti i collegamenti</span><span className="map-tab-short">Collegamenti</span></a>
-          <a className={`chip ${personale ? 'on' : ''}`} href={href('/mappa?personale=1')} style={{ textDecoration: 'none', padding: '6px 14px' }}>Personale</a>
-        </div>
+        {schede}
       </div>
       {personale ? <MappaPersonaleView /> : grafo ? <Grafo focus={sel} /> : <MindMap uid={compact ? unitaMobile : uid} />}
     </div>

@@ -255,7 +255,39 @@
       "etichetta": "ha controllo nelle Sezioni unite della"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-istituzione-del-csm",
+      "anno": 1958,
+      "data": "24 marzo 1958",
+      "titolo": "Istituzione del CSM",
+      "descrizione": "La legge 195/1958 attua l'art. 104: il Consiglio si insedia l'anno seguente.",
+      "tipo": "istituzione",
+      "pagine": [
+        96,
+        100
+      ],
+      "concetti": [
+        "csm",
+        "magistratura"
+      ]
+    },
+    {
+      "id": "ev-giusto-processo-in-costituzione",
+      "anno": 1999,
+      "data": "23 novembre 1999",
+      "titolo": "Giusto processo in Costituzione",
+      "descrizione": "La legge costituzionale 2/1999 riscrive l'art. 111: contraddittorio, parità delle parti, giudice terzo, ragionevole durata.",
+      "tipo": "legge",
+      "pagine": [
+        96,
+        100
+      ],
+      "concetti": [
+        "giusto-processo"
+      ]
+    }
+  ],
   "mappa": {
     "testo": "Giustizia",
     "concetto": "magistratura",

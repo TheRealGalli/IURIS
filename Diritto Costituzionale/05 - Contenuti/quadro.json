@@ -1,0 +1,78 @@
+{
+  "schemi": [
+    {
+      "id": "organi",
+      "tipo": "rete",
+      "titolo": "Gli organi costituzionali",
+      "sottotitolo": "Chi elegge, chi nomina, chi controlla",
+      "nodi": [
+        { "id": "corpo", "testo": "Corpo elettorale", "sotto": "art. 1: la sovranità appartiene al popolo", "concetto": "sovranita-popolare", "x": 600, "y": 50 },
+        { "id": "pdr", "testo": "Presidente della Repubblica", "sotto": "garanzia e unità nazionale", "concetto": "presidente-della-repubblica", "x": 150, "y": 230 },
+        { "id": "parlamento", "testo": "Parlamento", "sotto": "Camera dei deputati · Senato", "concetto": "parlamento", "x": 600, "y": 230 },
+        { "id": "corte", "testo": "Corte costituzionale", "sotto": "15 giudici, 9 anni", "concetto": "corte-costituzionale", "x": 1050, "y": 230 },
+        { "id": "governo", "testo": "Governo", "sotto": "Presidente del Consiglio · ministri", "concetto": "governo", "x": 600, "y": 430 },
+        { "id": "regioni", "testo": "Regioni ed enti locali", "sotto": "Titolo V", "concetto": "regioni", "x": 150, "y": 580 },
+        { "id": "magistratura", "testo": "Magistratura", "sotto": "CSM: autogoverno", "concetto": "magistratura", "x": 1050, "y": 580 }
+      ],
+      "archi": [
+        { "da": "corpo", "a": "parlamento", "testo": "elegge" },
+        { "da": "parlamento", "a": "pdr", "testo": "elegge in seduta comune" },
+        { "da": "pdr", "a": "parlamento", "testo": "può sciogliere" },
+        { "da": "pdr", "a": "governo", "testo": "nomina" },
+        { "da": "parlamento", "a": "governo", "testo": "fiducia e sfiducia" },
+        { "da": "governo", "a": "parlamento", "testo": "decreti e disegni di legge" },
+        { "da": "parlamento", "a": "corte", "testo": "elegge 5 giudici" },
+        { "da": "corte", "a": "parlamento", "testo": "giudica le leggi" },
+        { "da": "magistratura", "a": "corte", "testo": "elegge 5 giudici, solleva le questioni" },
+        { "da": "regioni", "a": "pdr", "testo": "delegati per l'elezione" },
+        { "da": "governo", "a": "regioni", "testo": "può impugnare le leggi regionali" },
+        { "da": "governo", "a": "magistratura", "testo": "Ministro: servizi e azione disciplinare" }
+      ],
+      "elenco": [
+        { "chi": "Corpo elettorale", "fa": "elegge le Camere, i Consigli regionali e comunali; decide nei referendum", "norma": "artt. 48, 56–58, 75, 138" },
+        { "chi": "Parlamento in seduta comune", "fa": "elegge il Presidente della Repubblica (con i delegati regionali), cinque giudici costituzionali e un terzo del CSM; mette in stato d'accusa il Presidente", "norma": "artt. 83, 90, 104, 135" },
+        { "chi": "Presidente della Repubblica", "fa": "nomina il Presidente del Consiglio e i ministri, promulga le leggi, può rinviarle e può sciogliere le Camere; nomina cinque giudici costituzionali; presiede il CSM e il Consiglio supremo di difesa", "norma": "artt. 74, 87, 88, 92, 135" },
+        { "chi": "Parlamento", "fa": "fa le leggi, dà e revoca la fiducia al Governo, lo controlla, approva il bilancio", "norma": "artt. 70, 81, 94" },
+        { "chi": "Governo", "fa": "dirige la politica generale e l'amministrazione, presenta disegni di legge, adotta decreti-legge, decreti legislativi e regolamenti; può impugnare le leggi regionali", "norma": "artt. 76, 77, 95, 127" },
+        { "chi": "Corte costituzionale", "fa": "giudica le leggi, i conflitti di attribuzione, le accuse contro il Presidente e l'ammissibilità dei referendum", "norma": "art. 134" },
+        { "chi": "Magistratura", "fa": "applica la legge in modo indipendente; ogni giudice può sollevare la questione di costituzionalità; le supreme magistrature eleggono cinque giudici costituzionali", "norma": "artt. 101, 104, 135" },
+        { "chi": "Regioni", "fa": "legiferano nelle materie concorrenti e residuali, mandano delegati all'elezione del Presidente, possono chiedere referendum e impugnare le leggi statali", "norma": "artt. 75, 83, 117, 127, 138" }
+      ]
+    },
+    {
+      "id": "fonti",
+      "tipo": "piramide",
+      "titolo": "La piramide delle fonti",
+      "sottotitolo": "Dall'alto in basso per gerarchia; a lato le fonti che seguono il criterio di competenza",
+      "livelli": [
+        { "titolo": "Principi supremi", "nota": "Non modificabili nemmeno con legge costituzionale", "voci": [
+          { "testo": "Principi supremi e diritti inviolabili", "concetto": "principi-supremi" },
+          { "testo": "Forma repubblicana (art. 139)", "concetto": "revisione-costituzionale" } ] },
+        { "titolo": "Fonti costituzionali", "nota": "Procedimento aggravato dell'art. 138", "voci": [
+          { "testo": "Costituzione", "concetto": "costituzione-italiana" },
+          { "testo": "Leggi costituzionali e di revisione", "concetto": "legge-costituzionale" },
+          { "testo": "Statuti speciali", "concetto": "statuto-speciale" } ] },
+        { "titolo": "Fonti primarie", "nota": "Soggette al giudizio della Corte costituzionale", "voci": [
+          { "testo": "Legge ordinaria", "concetto": "legge-ordinaria" },
+          { "testo": "Decreto-legge", "concetto": "decreto-legge" },
+          { "testo": "Decreto legislativo", "concetto": "decreto-legislativo" },
+          { "testo": "Referendum abrogativo", "concetto": "referendum-abrogativo" },
+          { "testo": "Legge regionale", "concetto": "legge-regionale" },
+          { "testo": "Statuto regionale ordinario", "concetto": "statuto-regionale" },
+          { "testo": "Regolamenti parlamentari", "concetto": "regolamenti-parlamentari" } ] },
+        { "titolo": "Fonti secondarie", "nota": "Non possono contraddire la legge: le annulla il giudice amministrativo", "voci": [
+          { "testo": "Regolamenti del Governo", "concetto": "regolamenti-governativi" },
+          { "testo": "Regolamenti ministeriali", "concetto": "regolamenti-ministeriali" },
+          { "testo": "Regolamenti regionali", "concetto": "regolamento-regionale" },
+          { "testo": "Statuti e regolamenti degli enti locali", "concetto": "regolamento-ente-locale" } ] },
+        { "titolo": "Fonti-fatto", "nota": "Vale solo se richiamata dalla legge o dove la legge manca", "voci": [
+          { "testo": "Consuetudine", "concetto": "consuetudine" } ] }
+      ],
+      "aLato": [
+        { "titolo": "Diritto dell'Unione europea", "testo": "Regolamenti e direttive prevalgono sulle leggi interne nelle materie di competenza dell'Unione: il giudice non applica la norma interna. Limite: i controlimiti.", "concetto": "primato-del-diritto-ue" },
+        { "titolo": "Diritto internazionale", "testo": "Le consuetudini internazionali entrano con l'art. 10; i trattati, compresa la CEDU, vincolano il legislatore tramite l'art. 117, primo comma, come norme interposte.", "concetto": "parametro-costituzionale" },
+        { "titolo": "Come si risolvono i contrasti", "testo": "Gerarchia: annullamento. Cronologia: abrogazione. Specialità: deroga. Competenza: prevale la fonte a cui la materia è riservata.", "concetto": "antinomia" }
+      ]
+    }
+  ]
+}

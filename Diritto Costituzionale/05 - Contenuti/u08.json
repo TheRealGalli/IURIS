@@ -515,7 +515,57 @@
       "etichetta": "sono svolte da apposite"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-legge-costituzionale-n-2-1963",
+      "anno": 1963,
+      "data": "9 febbraio 1963",
+      "titolo": "Legge costituzionale n. 2/1963",
+      "descrizione": "Fissa il numero dei parlamentari (630 e 315) e porta a cinque anni anche la durata del Senato.",
+      "tipo": "legge",
+      "pagine": [
+        69,
+        80
+      ],
+      "concetti": [
+        "camera-dei-deputati",
+        "senato",
+        "legislatura"
+      ]
+    },
+    {
+      "id": "ev-riforma-dell-art-68",
+      "anno": 1993,
+      "data": "29 ottobre 1993",
+      "titolo": "Riforma dell'art. 68",
+      "descrizione": "La legge costituzionale 3/1993 elimina l'autorizzazione a procedere contro i parlamentari.",
+      "tipo": "legge",
+      "pagine": [
+        69,
+        80
+      ],
+      "concetti": [
+        "immunita-parlamentari",
+        "insindacabilita-parlamentare"
+      ]
+    },
+    {
+      "id": "ev-equilibrio-di-bilancio-in-costituzione",
+      "anno": 2012,
+      "data": "20 aprile 2012",
+      "titolo": "Equilibrio di bilancio in Costituzione",
+      "descrizione": "La legge costituzionale 1/2012 riscrive l'art. 81 e modifica gli artt. 97, 117 e 119.",
+      "tipo": "legge",
+      "pagine": [
+        69,
+        80
+      ],
+      "concetti": [
+        "equilibrio-di-bilancio",
+        "legge-di-bilancio"
+      ]
+    }
+  ],
   "mappa": {
     "testo": "Parlamento",
     "concetto": "parlamento",

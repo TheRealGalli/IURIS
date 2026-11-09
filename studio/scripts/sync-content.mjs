@@ -257,6 +257,79 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
     mancanti,
   };
   corso.grafo = layoutGrafo(corso.concetti, corso.relazioni, unita);
+
+  // Sezioni facoltative: norme.json (testo di un atto, articolo per articolo), procedimenti.json (schemi a passi
+  // e tabelle di confronto), quadro.json (schemi d'insieme per la vista Quadro della Mappa). Vedi CONTENUTI.md.
+  const facoltativo = (nome) => (fs.existsSync(path.join(dir, nome)) ? readJson(path.join(dir, nome)) : null);
+  const voce = (id, dove) => {
+    if (!id) return undefined;
+    const k = alias[id] ?? id;
+    if (concetti.has(k)) return k;
+    avvisi.push(`${dove}: concetto "${id}" inesistente, collegamento tolto`);
+    return undefined;
+  };
+  const lezioneOk = (id, dove) => {
+    if (!id) return undefined;
+    if (lezioni.some((l) => l.id === id)) return id;
+    avvisi.push(`${dove}: lezione "${id}" inesistente, collegamento tolto`);
+    return undefined;
+  };
+
+  const norme = facoltativo('norme.json');
+  if (norme) {
+    // Articoli citati nelle lezioni e nelle domande («art. 77», «artt. 13, 14 e 15», «artt. 92–94»),
+    // esclusi quelli di altri atti («art. 37 della legge 87/1953», «art. 6 TUE»).
+    const ALTRO_ATTO = /^\s*-?(?:bis|ter|quater)|\b(?:legge\s+(?:n\.\s*)?\d|l\.\s*(?:cost\.\s*)?\d|d\.\s?lgs|d\.l\.|d\.P\.R|TUE|TFUE|TUEL|CEDU|Convenzione|Trattat|Carta dei diritti|regolament|Statuto|preleggi|codice|c\.c\.|c\.p\.|legge\s+cost)/i;
+    const RE = /\bart{1,2}\.\s*(\d{1,3}(?:\s*[–-]\s*\d{1,3})?(?:(?:\s*,\s*|\s+e\s+)\d{1,3}(?:\s*[–-]\s*\d{1,3})?)*)([^.;\n]{0,48})/gi;
+    const citati = (testo) => {
+      const out = new Set();
+      for (const m of (testo || '').matchAll(RE)) {
+        if (ALTRO_ATTO.test(m[2])) continue;
+        for (const pezzo of m[1].split(/\s*,\s*|\s+e\s+/)) {
+          const [a, b] = pezzo.split(/\s*[–-]\s*/).map(Number);
+          if (b && b > a && b - a <= 30) for (let n = a; n <= b; n++) out.add(String(n));
+          else out.add(String(a));
+        }
+      }
+      return out;
+    };
+    const perLezione = new Map(), perDomanda = new Map();
+    const segna = (m, n, id) => { if (!m.has(n)) m.set(n, []); if (!m.get(n).includes(id)) m.get(n).push(id); };
+    for (const l of lezioni) {
+      const testo = [l.sintesi, ...(l.puntiChiave ?? []), ...(l.memoria ?? []).map((x) => `${x.voce} ${x.dettaglio}`)].join('\n');
+      for (const n of citati(testo)) segna(perLezione, n, l.id);
+    }
+    for (const q of domande) {
+      const testo = [q.domanda, q.risposta, q.affermazione, q.spiegazione, q.testo, q.traccia, ...(q.opzioni ?? [])].filter(Boolean).join('\n');
+      for (const n of citati(testo)) segna(perDomanda, n, q.id);
+    }
+    let articoli = 0;
+    for (const g of norme.gruppi) for (const a of g.articoli) {
+      articoli++;
+      if (a.disposizione) continue;
+      a.lezioni = perLezione.get(a.n) ?? [];
+      a.domande = perDomanda.get(a.n) ?? [];
+    }
+    norme.articoli = articoli;
+    corso.norme = norme;
+  }
+
+  const proc = facoltativo('procedimenti.json');
+  if (proc) {
+    for (const p of proc.procedimenti ?? []) {
+      p.lezione = lezioneOk(p.lezione, `procedimenti «${p.id}»`);
+      for (const s of p.passi) s.concetto = voce(s.concetto, `procedimenti «${p.id}»`);
+    }
+    for (const c of proc.confronti ?? []) c.lezione = lezioneOk(c.lezione, `confronti «${c.id}»`);
+    corso.procedimenti = proc;
+  }
+
+  const quadro = facoltativo('quadro.json');
+  if (quadro) {
+    const pulisci = (x, dove) => { if (x && typeof x === 'object') { if ('concetto' in x) x.concetto = voce(x.concetto, dove); for (const v of Object.values(x)) (Array.isArray(v) ? v : [v]).forEach((y) => pulisci(y, dove)); } };
+    for (const s of quadro.schemi) pulisci(s, `quadro «${s.id}»`);
+    corso.quadro = quadro;
+  }
   const stats = {
     unita: unita.length,
     lezioni: lezioni.length,

@@ -1,0 +1,54 @@
+{
+  "schemi": [
+    {
+      "id": "fasce",
+      "tipo": "fasce",
+      "titolo": "Tredici secoli in una pagina",
+      "sottotitolo": "Periodi, fonti, processo, giuristi e organi affiancati sulla stessa linea del tempo",
+      "da": -753,
+      "a": 565,
+      "periodi": [
+        { "testo": "Età regia", "da": -753, "a": -509 },
+        { "testo": "Repubblica alta", "da": -509, "a": -350, "concetto": "repubblica-alta" },
+        { "testo": "Repubblica media", "da": -350, "a": -150, "concetto": "repubblica-media" },
+        { "testo": "Repubblica tarda", "da": -150, "a": -27, "concetto": "repubblica-tarda" },
+        { "testo": "Principato", "da": -27, "a": 284, "concetto": "principato" },
+        { "testo": "Dominato", "da": 284, "a": 565, "concetto": "dominato" }
+      ],
+      "corsie": [
+        { "titolo": "Fonti", "barre": [
+          { "testo": "Mores maiorum", "da": -753, "a": -451, "concetto": "mores-maiorum" },
+          { "testo": "XII Tavole", "da": -451, "a": -450, "concetto": "xii-tavole" },
+          { "testo": "Leggi e plebisciti", "da": -449, "a": -27, "concetto": "plebiscito" },
+          { "testo": "Editto del pretore", "da": -367, "a": 130, "concetto": "editto-del-pretore" },
+          { "testo": "Costituzioni imperiali", "da": -27, "a": 565, "concetto": "costituzioni-imperiali" },
+          { "testo": "Codice Teodosiano", "da": 438, "a": 439, "concetto": "codex-theodosianus" },
+          { "testo": "Compilazione giustinianea", "da": 529, "a": 534, "concetto": "compilazione-giustinianea" }
+        ] },
+        { "titolo": "Processo", "barre": [
+          { "testo": "Legis actiones", "da": -451, "a": -17, "concetto": "legis-actiones" },
+          { "testo": "Processo formulare", "da": -130, "a": 342, "concetto": "processo-formulare" },
+          { "testo": "Cognitio extra ordinem", "da": -27, "a": 565, "concetto": "cognitio-extra-ordinem" }
+        ] },
+        { "titolo": "Giuristi", "barre": [
+          { "testo": "Monopolio dei pontefici", "da": -753, "a": -300, "concetto": "collegio-dei-pontefici" },
+          { "testo": "Giurisprudenza laica", "da": -300, "a": -27, "concetto": "tiberio-coruncanio" },
+          { "testo": "Quinto Mucio Scevola", "da": -140, "a": -82, "concetto": "quinto-mucio-scevola" },
+          { "testo": "Sabiniani e Proculiani", "da": 1, "a": 180, "concetto": "sabiniani" },
+          { "testo": "Giuristi severiani", "da": 193, "a": 235, "concetto": "ulpiano" },
+          { "testo": "Legge delle citazioni", "da": 426, "a": 427, "concetto": "legge-delle-citazioni" }
+        ] },
+        { "titolo": "Organi", "barre": [
+          { "testo": "Re", "da": -753, "a": -509 },
+          { "testo": "Consoli e Senato", "da": -509, "a": -27, "concetto": "console" },
+          { "testo": "Tribuni della plebe", "da": -494, "a": -27, "concetto": "tribuno-della-plebe" },
+          { "testo": "Pretore urbano", "da": -367, "a": 130, "concetto": "pretore-urbano" },
+          { "testo": "Pretore peregrino", "da": -242, "a": 212, "concetto": "pretore-peregrino" },
+          { "testo": "Principe", "da": -27, "a": 284, "concetto": "principato" },
+          { "testo": "Imperatore dominus", "da": 284, "a": 565, "concetto": "dominato" }
+        ] }
+      ],
+      "nota": "Le date di inizio e fine delle barre sono indicative: servono a vedere che cosa convive con che cosa. Per le date precise usa la Cronologia."
+    }
+  ]
+}

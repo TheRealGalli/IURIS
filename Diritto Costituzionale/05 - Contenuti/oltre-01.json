@@ -1,0 +1,249 @@
+{
+  "voci": [
+    {
+      "id": "costituzione-italiana",
+      "oltre": "La Costituzione ha **139 articoli** e **XVIII disposizioni transitorie e finali**. Si apre con i **Principi fondamentali** (artt. 1–12), prosegue con la **Parte prima** sui diritti e doveri dei cittadini (artt. 13–54: rapporti civili, etico-sociali, economici, politici) e con la **Parte seconda** sull'ordinamento della Repubblica (artt. 55–139: Parlamento, Presidente, Governo, Magistratura, Regioni ed enti locali, garanzie costituzionali).\n\nÈ una Costituzione **votata**, **rigida**, **lunga** e **programmatica**: non si limita a organizzare i poteri, ma indica obiettivi da realizzare. È anche una Costituzione di **compromesso** tra le culture cattolica, socialcomunista e liberale presenti nell'[[assemblea-costituente]]. All'esame conviene saper collocare ogni istituto nella parte e nel titolo in cui si trova.",
+      "daSapere": [
+        "Approvata il 22 dicembre 1947, promulgata il 27 dicembre, in vigore dal 1° gennaio 1948.",
+        "Principi fondamentali: artt. 1–12. Parte prima: artt. 13–54. Parte seconda: artt. 55–139.",
+        "Caratteri: votata, rigida, lunga, programmatica, di compromesso."
+      ],
+      "collegamenti": [
+        { "da": "costituzione-italiana", "a": "statuto-albertino", "tipo": "supera", "etichetta": "sostituisce" },
+        { "da": "assemblea-costituente", "a": "costituzione-italiana", "tipo": "crea", "etichetta": "approva" },
+        { "da": "potere-costituente", "a": "costituzione", "tipo": "crea", "etichetta": "pone" },
+        { "da": "costituzione-rigida", "a": "costituzione-flessibile", "tipo": "contrasta", "etichetta": "si oppone a" },
+        { "da": "principi-supremi", "a": "revisione-costituzionale", "tipo": "contrasta", "etichetta": "limitano" }
+      ]
+    },
+    {
+      "id": "assemblea-costituente",
+      "oltre": "Fu eletta il **2 giugno 1946** con sistema proporzionale e a suffragio universale: per la prima volta in un'elezione politica nazionale votarono le **donne**. Lo stesso giorno il referendum istituzionale scelse la **Repubblica**. Aveva **556 componenti**; i tre partiti maggiori erano Democrazia cristiana, Partito socialista e Partito comunista.\n\nIl progetto fu preparato dalla **Commissione dei 75**, presieduta da Meuccio Ruini e divisa in tre sottocommissioni. L'Assemblea, presieduta prima da Giuseppe Saragat e poi da **Umberto Terracini**, approvò il testo il **22 dicembre 1947** a larghissima maggioranza. Il Capo provvisorio dello Stato era **Enrico De Nicola**.",
+      "daSapere": [
+        "2 giugno 1946: referendum istituzionale ed elezione della Costituente.",
+        "Commissione dei 75, presieduta da Meuccio Ruini.",
+        "La Costituzione porta le firme di De Nicola, Terracini e De Gasperi."
+      ]
+    },
+    {
+      "id": "statuto-albertino",
+      "oltre": "Concesso da **Carlo Alberto** il **4 marzo 1848** al Regno di Sardegna, divenne nel 1861 la carta del Regno d'Italia e restò formalmente in vigore fino al 1948. Era una carta **ottriata** (concessa dal sovrano), **breve** e **flessibile**.\n\nDisegnava una **monarchia costituzionale pura**: il potere esecutivo apparteneva al re, i ministri rispondevano a lui, il Senato era di nomina regia e solo la Camera era elettiva, con suffragio ristretto. Per **prassi**, già con Cavour, il Governo cominciò a dipendere dalla fiducia della Camera: la forma di governo divenne di fatto **parlamentare**. La stessa flessibilità permise al fascismo di svuotarlo dall'interno.",
+      "daSapere": [
+        "4 marzo 1848, Carlo Alberto di Savoia.",
+        "Concesso, breve, flessibile.",
+        "Monarchia costituzionale nel testo, governo parlamentare nella prassi."
+      ],
+      "collegamenti": [
+        { "da": "statuto-albertino", "a": "costituzione-flessibile", "tipo": "esempio-di", "etichetta": "è un esempio di" },
+        { "da": "statuto-albertino", "a": "monarchia-costituzionale", "tipo": "crea", "etichetta": "disegna una" }
+      ]
+    },
+    {
+      "id": "separazione-dei-poteri",
+      "oltre": "La formulazione classica è di **Montesquieu** (*Lo spirito delle leggi*, 1748): perché non si abusi del potere, occorre che «il potere arresti il potere». Prima di lui John Locke aveva distinto il potere legislativo da quello esecutivo.\n\nOggi il principio non significa che ogni funzione spetti a un solo organo. Il Governo adotta atti con forza di legge, il Parlamento controlla il Governo, la Corte costituzionale annulla le leggi. Si parla di **equilibrio** e di **controlli reciproci**. Accanto alla divisione **orizzontale** tra organi dello Stato c'è quella **verticale** tra Stato, Regioni ed enti locali. Il nucleo che resta fermo è l'**indipendenza dei giudici**.",
+      "daSapere": [
+        "Montesquieu, Lo spirito delle leggi, 1748.",
+        "Tre funzioni: legislativa, esecutiva, giudiziaria.",
+        "Oggi: equilibrio e controlli reciproci, non separazione rigida."
+      ],
+      "collegamenti": [
+        { "da": "separazione-dei-poteri", "a": "stato-di-diritto", "tipo": "parte-di", "etichetta": "è un pilastro dello" },
+        { "da": "principio-di-legalita", "a": "stato-di-diritto", "tipo": "parte-di", "etichetta": "è un pilastro dello" },
+        { "da": "stato-liberale", "a": "stato-assoluto", "tipo": "supera", "etichetta": "supera lo" },
+        { "da": "stato-liberale", "a": "stato-democratico-pluralista", "tipo": "evolve-in", "etichetta": "si allarga nello" },
+        { "da": "stato-sociale", "a": "diritti-sociali", "tipo": "collegato", "etichetta": "garantisce i" },
+        { "da": "uguaglianza-sostanziale", "a": "stato-sociale", "tipo": "causa", "etichetta": "fonda lo" }
+      ]
+    },
+    {
+      "id": "governo-parlamentare",
+      "oltre": "Nasce in **Inghilterra** per evoluzione: tra il XVIII e il XIX secolo d.C. i ministri del re cominciano a dipendere dalla maggioranza della Camera dei Comuni. È la forma di governo più diffusa in Europa.\n\nSi distinguono varianti. Nel parlamentarismo **maggioritario** (modello Westminster) il sistema dei partiti è bipolare e il capo del Governo è di fatto scelto dagli elettori. Nel parlamentarismo **compromissorio** i partiti sono molti, i governi sono di coalizione e nascono da accordi dopo il voto. L'Italia repubblicana ha conosciuto a lungo il secondo tipo. La Costituzione italiana **razionalizza poco** il rapporto di fiducia: l'ordine del giorno Perassi, alla Costituente, chiedeva correttivi contro l'instabilità che in gran parte non furono introdotti.",
+      "daSapere": [
+        "Elemento che lo definisce: il rapporto di fiducia.",
+        "Varianti: maggioritario (Westminster) e compromissorio.",
+        "In Italia: artt. 92–95, razionalizzazione debole."
+      ],
+      "collegamenti": [
+        { "da": "governo-parlamentare", "a": "forma-di-governo", "tipo": "esempio-di", "etichetta": "è una" },
+        { "da": "governo-presidenziale", "a": "forma-di-governo", "tipo": "esempio-di", "etichetta": "è una" },
+        { "da": "governo-semipresidenziale", "a": "forma-di-governo", "tipo": "esempio-di", "etichetta": "è una" },
+        { "da": "governo-direttoriale", "a": "forma-di-governo", "tipo": "esempio-di", "etichetta": "è una" },
+        { "da": "rapporto-di-fiducia", "a": "governo-parlamentare", "tipo": "parte-di", "etichetta": "definisce il" },
+        { "da": "monarchia-costituzionale", "a": "governo-parlamentare", "tipo": "evolve-in", "etichetta": "evolve nel" },
+        { "da": "coabitazione", "a": "governo-semipresidenziale", "tipo": "parte-di", "etichetta": "può verificarsi nel" }
+      ]
+    },
+    {
+      "id": "parlamento",
+      "oltre": "Il Parlamento ha tre grandi funzioni. La funzione **legislativa** (art. 70), esercitata collettivamente dalle due Camere. La funzione di **indirizzo politico**, che passa per la fiducia al Governo e per mozioni e risoluzioni. La funzione di **controllo**, con interrogazioni, interpellanze e inchieste.\n\nA queste si aggiungono funzioni **elettive** (Presidente della Repubblica, cinque giudici costituzionali, un terzo del CSM) e di **garanzia** (revisione costituzionale, messa in stato d'accusa). Dal 2020 i deputati sono **400** e i senatori elettivi **200**; dal 2021 per il Senato si vota a **18 anni**, come per la Camera. Restano diverse l'età per essere eletti (25 e 40 anni) e la presenza dei senatori a vita.",
+      "daSapere": [
+        "400 deputati, 200 senatori elettivi, più i senatori a vita.",
+        "Eleggibilità: 25 anni alla Camera, 40 al Senato.",
+        "Durata: cinque anni; prorogabile solo per legge e in caso di guerra."
+      ],
+      "collegamenti": [
+        { "da": "camera-dei-deputati", "a": "parlamento", "tipo": "parte-di", "etichetta": "è un ramo del" },
+        { "da": "senato", "a": "parlamento", "tipo": "parte-di", "etichetta": "è un ramo del" },
+        { "da": "parlamento", "a": "governo", "tipo": "collegato", "etichetta": "dà e revoca la fiducia al" },
+        { "da": "parlamento", "a": "legge-delega", "tipo": "crea", "etichetta": "approva la" },
+        { "da": "parlamento", "a": "legge-di-conversione", "tipo": "crea", "etichetta": "approva la" },
+        { "da": "parlamento-in-seduta-comune", "a": "presidente-della-repubblica", "tipo": "crea", "etichetta": "elegge il" },
+        { "da": "parlamento-in-seduta-comune", "a": "corte-costituzionale", "tipo": "crea", "etichetta": "elegge cinque giudici della" },
+        { "da": "parlamento-in-seduta-comune", "a": "csm", "tipo": "crea", "etichetta": "elegge un terzo del" },
+        { "da": "mozione-di-sfiducia", "a": "crisi-di-governo", "tipo": "causa", "etichetta": "apre la" },
+        { "da": "questione-di-fiducia", "a": "rapporto-di-fiducia", "tipo": "collegato", "etichetta": "mette alla prova il" }
+      ]
+    },
+    {
+      "id": "governo",
+      "oltre": "È un organo **complesso**: lo compongono il **Presidente del Consiglio** e i **ministri**, che insieme formano il **Consiglio dei ministri** (art. 92). Tre principi ne regolano il funzionamento e convivono in tensione: il principio **monocratico** (il Presidente del Consiglio dirige la politica generale e ne è responsabile), il principio **collegiale** (le decisioni più importanti spettano al Consiglio) e la **responsabilità ministeriale** (ogni ministro risponde degli atti del proprio dicastero).\n\nIl Governo è titolare dell'**indirizzo politico** insieme al Parlamento, sta al vertice della **pubblica amministrazione** e ha poteri **normativi**: decreti-legge, decreti legislativi, regolamenti. La disciplina di dettaglio è nella **legge 400/1988**.",
+      "daSapere": [
+        "Organi necessari: Presidente del Consiglio, ministri, Consiglio dei ministri.",
+        "Art. 95: direzione, collegialità, responsabilità dei ministri.",
+        "Legge 23 agosto 1988, n. 400."
+      ],
+      "collegamenti": [
+        { "da": "consiglio-dei-ministri", "a": "governo", "tipo": "parte-di", "etichetta": "è l'organo collegiale del" },
+        { "da": "presidente-del-consiglio", "a": "governo", "tipo": "collegato", "etichetta": "dirige la politica generale del" },
+        { "da": "governo", "a": "decreto-legge", "tipo": "crea", "etichetta": "adotta il" },
+        { "da": "governo", "a": "decreto-legislativo", "tipo": "crea", "etichetta": "adotta il" },
+        { "da": "governo", "a": "regolamenti-governativi", "tipo": "crea", "etichetta": "delibera i" },
+        { "da": "legge-delega", "a": "decreto-legislativo", "tipo": "causa", "etichetta": "autorizza e limita il" },
+        { "da": "legge-di-conversione", "a": "decreto-legge", "tipo": "collegato", "etichetta": "rende stabile il" }
+      ]
+    },
+    {
+      "id": "presidente-della-repubblica",
+      "oltre": "La Costituzione lo definisce **capo dello Stato** e **rappresentante dell'unità nazionale** (art. 87). Non appartiene a nessuno dei tre poteri tradizionali: è un organo di **garanzia** e di **equilibrio**, un «potere neutro». I suoi poteri sono a **fisarmonica**: si restringono quando la maggioranza è solida e si allargano nelle crisi, quando deve trovare un Governo o decidere se sciogliere le Camere.\n\nPuò essere eletto ogni cittadino che abbia compiuto **cinquant'anni** e goda dei diritti civili e politici. Dura in carica **sette anni**, più della legislatura, per sottrarlo alla maggioranza che lo ha eletto. La Costituzione non vieta la rielezione: è avvenuta nel 2013 e nel 2022. Dopo il mandato diventa senatore di diritto e a vita.",
+      "daSapere": [
+        "Requisiti: cittadino, 50 anni, diritti civili e politici.",
+        "Mandato: sette anni.",
+        "Eletto dal Parlamento in seduta comune con tre delegati per Regione (uno per la Valle d'Aosta)."
+      ],
+      "collegamenti": [
+        { "da": "presidente-della-repubblica", "a": "presidente-del-consiglio", "tipo": "crea", "etichetta": "nomina il" },
+        { "da": "presidente-della-repubblica", "a": "csm", "tipo": "collegato", "etichetta": "presiede il" },
+        { "da": "presidente-della-repubblica", "a": "corte-costituzionale", "tipo": "crea", "etichetta": "nomina cinque giudici della" },
+        { "da": "presidente-della-repubblica", "a": "scioglimento-anticipato", "tipo": "collegato", "etichetta": "dispone lo" },
+        { "da": "presidente-della-repubblica", "a": "promulgazione", "tipo": "collegato", "etichetta": "compie la" },
+        { "da": "semestre-bianco", "a": "scioglimento-anticipato", "tipo": "contrasta", "etichetta": "vieta lo" },
+        { "da": "controfirma", "a": "presidente-della-repubblica", "tipo": "collegato", "etichetta": "copre la responsabilità del" }
+      ]
+    },
+    {
+      "id": "corte-costituzionale",
+      "oltre": "La giustizia costituzionale conosce due modelli. Quello **diffuso**, nato negli Stati Uniti con *Marbury contro Madison* (1803): ogni giudice disapplica la legge incostituzionale nel caso che decide. Quello **accentrato**, ideato da **Hans Kelsen** per l'Austria del 1920: un solo tribunale annulla la legge per tutti. L'Italia ha scelto un sistema **accentrato a iniziativa diffusa**: decide solo la Corte, ma la questione può essere sollevata da qualunque giudice.\n\nLa Corte ha quattro competenze (art. 134 e legge costituzionale 1/1953): legittimità delle **leggi**, **conflitti di attribuzione**, **accuse** contro il Presidente della Repubblica, **ammissibilità** dei referendum abrogativi. Ha cominciato a funzionare nel **1956**.",
+      "daSapere": [
+        "15 giudici: 5 dal Presidente della Repubblica, 5 dal Parlamento in seduta comune, 5 dalle supreme magistrature.",
+        "Mandato di nove anni, non rinnovabile.",
+        "Modelli: diffuso (Stati Uniti) e accentrato (Kelsen)."
+      ],
+      "collegamenti": [
+        { "da": "corte-costituzionale", "a": "legge-ordinaria", "tipo": "contrasta", "etichetta": "può annullare la" },
+        { "da": "corte-costituzionale", "a": "ammissibilita-referendum", "tipo": "collegato", "etichetta": "giudica l'" },
+        { "da": "corte-costituzionale", "a": "conflitto-di-attribuzione", "tipo": "collegato", "etichetta": "risolve il" },
+        { "da": "corte-costituzionale", "a": "costituzione-rigida", "tipo": "collegato", "etichetta": "garantisce la" },
+        { "da": "giudizio-incidentale", "a": "ordinanza-rimessione", "tipo": "collegato", "etichetta": "si apre con l'" },
+        { "da": "rilevanza-costituzionale", "a": "ordinanza-rimessione", "tipo": "parte-di", "etichetta": "è requisito dell'" },
+        { "da": "non-manifesta-infondatezza", "a": "ordinanza-rimessione", "tipo": "parte-di", "etichetta": "è requisito dell'" },
+        { "da": "sentenza-di-accoglimento", "a": "annullamento", "tipo": "causa", "etichetta": "produce l'" }
+      ]
+    },
+    {
+      "id": "fonti-del-diritto",
+      "oltre": "Le fonti si ordinano su più livelli. In cima le fonti **costituzionali**: Costituzione, leggi di revisione e leggi costituzionali. Poi le fonti **primarie**: legge ordinaria, decreto-legge, decreto legislativo, referendum abrogativo, regolamenti parlamentari, statuti e leggi regionali. Poi le fonti **secondarie**: regolamenti del Governo, dei ministri, delle Regioni e degli enti locali. In fondo la **consuetudine**.\n\nLa gerarchia non spiega tutto. Molti rapporti sono regolati dalla **competenza**: legge statale e legge regionale, legge e regolamenti parlamentari, diritto interno e diritto dell'Unione europea. L'art. 1 delle **preleggi** elenca ancora le fonti come nel 1942: va letto alla luce della Costituzione, che ha un sistema **chiuso** per le fonti primarie (le prevede solo la Costituzione) e **aperto** per le secondarie.",
+      "daSapere": [
+        "Livelli: costituzionale, primario, secondario, consuetudine.",
+        "Criteri: gerarchia, competenza, cronologia, specialità.",
+        "Le fonti primarie sono un numero chiuso: le istituisce solo la Costituzione."
+      ],
+      "collegamenti": [
+        { "da": "criterio-gerarchico", "a": "annullamento", "tipo": "causa", "etichetta": "porta all'" },
+        { "da": "criterio-cronologico", "a": "abrogazione", "tipo": "causa", "etichetta": "porta all'" },
+        { "da": "criterio-di-specialita", "a": "deroga", "tipo": "causa", "etichetta": "porta alla" },
+        { "da": "riserva-di-legge", "a": "regolamenti-governativi", "tipo": "contrasta", "etichetta": "esclude o limita i" },
+        { "da": "delegificazione", "a": "regolamenti-governativi", "tipo": "collegato", "etichetta": "allarga lo spazio dei" },
+        { "da": "referendum-abrogativo", "a": "legge-ordinaria", "tipo": "contrasta", "etichetta": "può abrogare la" }
+      ]
+    },
+    {
+      "id": "decreto-legge",
+      "oltre": "Nato come strumento **eccezionale**, il decreto-legge è diventato una via ordinaria di legislazione: il Governo lo usa per avere tempi certi, spesso insieme al **maxiemendamento** e alla **questione di fiducia** in sede di conversione. La Corte costituzionale ha reagito con tre gruppi di decisioni.\n\nSul **presupposto**: l'evidente mancanza di necessità e urgenza vizia il decreto e anche la legge di conversione (sentt. 29/1995 e 171/2007). Sulla **reiterazione**: è vietato riprodurre un decreto non convertito (sent. 360/1996). Sull'**omogeneità**: la legge di conversione non può introdurre norme estranee all'oggetto del decreto (sentt. 22/2012 e 32/2014).\n\nLa legge 400/1988 elenca i limiti: il decreto non può conferire deleghe, intervenire nelle materie riservate all'assemblea, ripristinare norme dichiarate illegittime.",
+      "daSapere": [
+        "Art. 77: necessità e urgenza, conversione entro 60 giorni, decadenza retroattiva.",
+        "Sent. 360/1996: divieto di reiterazione.",
+        "Sentt. 22/2012 e 32/2014: omogeneità della legge di conversione."
+      ]
+    },
+    {
+      "id": "regioni",
+      "oltre": "Le Regioni sono **venti**: quindici a statuto **ordinario** e cinque a statuto **speciale** (Sicilia, Sardegna, Valle d'Aosta, Trentino-Alto Adige, Friuli-Venezia Giulia). Nel Trentino-Alto Adige l'autonomia è esercitata soprattutto dalle due **Province autonome** di Trento e di Bolzano.\n\nLe Regioni ordinarie, previste dal 1948, sono state attuate solo nel **1970**. Due riforme ne hanno cambiato il volto: la legge costituzionale **1/1999** (elezione diretta del Presidente, autonomia statutaria) e la **3/2001**, che ha riscritto il Titolo V. Oggi l'art. 114 dice che la Repubblica «è costituita» da Comuni, Province, Città metropolitane, Regioni e Stato: enti diversi, ma tutti parte della Repubblica. Solo lo Stato, però, è **sovrano**; gli altri sono **autonomi**.",
+      "daSapere": [
+        "20 Regioni: 15 ordinarie, 5 speciali.",
+        "Organi (art. 121): Consiglio, Giunta, Presidente.",
+        "Riforme: l. cost. 1/1999 e 3/2001."
+      ],
+      "collegamenti": [
+        { "da": "regioni", "a": "legge-regionale", "tipo": "crea", "etichetta": "approvano la" },
+        { "da": "statuto-regionale", "a": "presidente-della-giunta", "tipo": "collegato", "etichetta": "disciplina l'elezione del" },
+        { "da": "sussidiarieta", "a": "enti-locali", "tipo": "collegato", "etichetta": "porta le funzioni verso gli" },
+        { "da": "consiglio-regionale", "a": "regioni", "tipo": "parte-di", "etichetta": "è organo delle" },
+        { "da": "giunta-regionale", "a": "regioni", "tipo": "parte-di", "etichetta": "è organo delle" }
+      ]
+    },
+    {
+      "id": "unione-europea",
+      "oltre": "L'integrazione europea comincia con la **CECA** (1951) e con i **Trattati di Roma** (1957), che istituiscono la Comunità economica europea. Il Trattato di **Maastricht** (1992) crea l'Unione europea e la moneta unica; il Trattato di **Lisbona** (in vigore dal 2009) le dà l'assetto attuale, fondato su due testi: il **TUE** e il **TFUE**. Gli Stati membri sono **27**.\n\nL'Unione agisce secondo tre principi: **attribuzione** (ha solo le competenze che i Trattati le danno), **sussidiarietà** (nelle materie non esclusive interviene solo se l'obiettivo si raggiunge meglio a livello europeo) e **proporzionalità**. Il suo diritto si distingue in **primario** (Trattati, Carta dei diritti) e **derivato** (regolamenti, direttive, decisioni).",
+      "daSapere": [
+        "1957 Trattati di Roma, 1992 Maastricht, 2009 Lisbona.",
+        "TUE e TFUE; 27 Stati membri.",
+        "Principi: attribuzione, sussidiarietà, proporzionalità."
+      ],
+      "collegamenti": [
+        { "da": "regolamento-ue", "a": "diretta-applicabilita", "tipo": "collegato", "etichetta": "ha" },
+        { "da": "direttiva-ue", "a": "legge-delegazione-europea", "tipo": "collegato", "etichetta": "è recepita con la" },
+        { "da": "primato-del-diritto-ue", "a": "non-applicazione-diritto-ue", "tipo": "causa", "etichetta": "impone la" },
+        { "da": "controlimiti", "a": "primato-del-diritto-ue", "tipo": "contrasta", "etichetta": "limitano il" },
+        { "da": "sentenza-granital", "a": "non-applicazione-diritto-ue", "tipo": "crea", "etichetta": "afferma la" }
+      ]
+    },
+    {
+      "id": "magistratura",
+      "oltre": "La giurisdizione è divisa in più ordini. La giurisdizione **ordinaria** (civile e penale) spetta ai magistrati ordinari: giudice di pace, tribunale, corte d'appello, Corte di cassazione. Accanto ci sono le giurisdizioni **speciali** che la Costituzione ha conservato: **amministrativa** (TAR e Consiglio di Stato), **contabile** (Corte dei conti), **militare** e **tributaria**. L'art. 102 vieta di istituirne di nuove.\n\nIl criterio tradizionale di riparto tra giudice ordinario e amministrativo è la distinzione tra **diritti soggettivi** e **interessi legittimi**. La **Corte di cassazione** assicura l'uniforme interpretazione della legge e decide i conflitti tra giurisdizioni. Dentro la magistratura ordinaria si distinguono funzioni **giudicanti** e **requirenti** (il pubblico ministero).",
+      "daSapere": [
+        "Giurisdizione ordinaria e speciali: amministrativa, contabile, militare, tributaria.",
+        "Art. 102: divieto di nuovi giudici speciali e straordinari.",
+        "La Cassazione garantisce l'uniforme interpretazione della legge."
+      ],
+      "collegamenti": [
+        { "da": "csm", "a": "magistratura", "tipo": "collegato", "etichetta": "governa la" },
+        { "da": "ministro-della-giustizia", "a": "responsabilita-disciplinare-magistrati", "tipo": "collegato", "etichetta": "può promuovere la" },
+        { "da": "inamovibilita", "a": "magistratura", "tipo": "collegato", "etichetta": "protegge la" },
+        { "da": "pubblico-ministero", "a": "obbligatorieta-azione-penale", "tipo": "collegato", "etichetta": "è vincolato dall'" }
+      ]
+    },
+    {
+      "id": "principio-di-uguaglianza",
+      "oltre": "L'art. 3 è la norma più usata dalla Corte costituzionale. Da esso la Corte ricava il giudizio di **ragionevolezza**, che spesso ha una struttura a tre termini: la norma impugnata, il principio di uguaglianza e una terza norma di confronto (*tertium comparationis*) che regola in modo diverso un caso simile.\n\nL'uguaglianza non vieta le leggi che distinguono: vieta le distinzioni **arbitrarie**. I sette divieti del primo comma (sesso, razza, lingua, religione, opinioni politiche, condizioni personali e sociali) sono il nucleo più forte: una legge che distingue su queste basi è sospetta e richiede una giustificazione rigorosa. Le **azioni positive**, come le norme sulle pari opportunità dell'art. 51, sono ammesse perché attuano il secondo comma.",
+      "daSapere": [
+        "Primo comma: uguaglianza formale e sette divieti di discriminazione.",
+        "Secondo comma: uguaglianza sostanziale.",
+        "Ragionevolezza e tertium comparationis."
+      ],
+      "collegamenti": [
+        { "da": "uguaglianza-sostanziale", "a": "principio-di-uguaglianza", "tipo": "parte-di", "etichetta": "è il secondo volto del" },
+        { "da": "liberta-personale", "a": "riserva-di-giurisdizione", "tipo": "collegato", "etichetta": "è protetta dalla" },
+        { "da": "liberta-personale", "a": "riserva-di-legge", "tipo": "collegato", "etichetta": "è protetta dalla" }
+      ]
+    },
+    {
+      "id": "liberta-personale",
+      "oltre": "È la libertà **dagli arresti**: la più antica, erede dell'*habeas corpus* inglese (1679). L'art. 13 la dichiara **inviolabile** e la circonda di tre garanzie. La **riserva assoluta di legge**: solo la legge indica i casi e i modi della restrizione. La **riserva di giurisdizione**: serve un atto motivato dell'autorità giudiziaria. I **termini**: nei casi eccezionali di necessità e urgenza la polizia può agire, ma deve informare il giudice entro 48 ore e ottenere la convalida nelle 48 successive.\n\nL'articolo vieta inoltre ogni **violenza fisica e morale** sulle persone ristrette e impone alla legge di fissare i limiti massimi della **carcerazione preventiva**. Lo stesso schema di garanzie vale per il domicilio (art. 14).",
+      "daSapere": [
+        "Art. 13: riserva assoluta di legge e riserva di giurisdizione.",
+        "48 ore + 48 ore.",
+        "Habeas corpus: Inghilterra, 1679."
+      ]
+    }
+  ]
+}

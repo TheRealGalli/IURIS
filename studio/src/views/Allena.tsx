@@ -86,6 +86,12 @@ export default function Allena({ query }: { query: URLSearchParams }) {
     if (modo === 'inverse' && c) {
       const q = idx.schedeInverse.find((q) => q.inversa === c);
       setSessione(q ? { titolo: 'Schede inverse', domande: [q], registra: true } : null);
+    } else if (query.get('art') && idx.corso.norme) {
+      // domande che citano un articolo, aperte dalla sezione Norme
+      const n = query.get('art');
+      const a = idx.corso.norme.gruppi.flatMap((g) => g.articoli).find((x) => !x.disposizione && x.n === n);
+      const qs = (a?.domande ?? []).map((id) => idx.domandaById.get(id)).filter((q): q is Domanda => !!q);
+      setSessione(qs.length ? { titolo: `Art. ${n} ${idx.corso.norme.sigla}`, domande: shuffle(qs), registra: true } : null);
     } else if (l) {
       const les = idx.lezioneById.get(l);
       if (les) setSessione({ titolo: les.titolo, domande: shuffle(idx.domandePerLezione.get(l) ?? []), registra: true });

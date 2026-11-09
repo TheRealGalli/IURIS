@@ -354,6 +354,38 @@
   ],
   "eventi": [
     {
+      "id": "ev-bill-of-rights-inglese",
+      "anno": 1689,
+      "data": "1689",
+      "titolo": "Bill of Rights inglese",
+      "descrizione": "Dopo la Gloriosa Rivoluzione il Parlamento inglese fissa i limiti del potere del re: è un passaggio decisivo verso lo Stato liberale.",
+      "tipo": "legge",
+      "pagine": [
+        15,
+        22
+      ],
+      "concetti": [
+        "stato-liberale",
+        "stato-di-diritto"
+      ]
+    },
+    {
+      "id": "ev-costituzione-di-weimar",
+      "anno": 1919,
+      "data": "11 agosto 1919",
+      "titolo": "Costituzione di Weimar",
+      "descrizione": "La Costituzione tedesca del 1919 è tra le prime a riconoscere i diritti sociali accanto alle libertà: è il modello dello Stato sociale europeo.",
+      "tipo": "codificazione",
+      "pagine": [
+        15,
+        22
+      ],
+      "concetti": [
+        "stato-sociale",
+        "diritti-sociali"
+      ]
+    },
+    {
       "id": "ev-costituzione-italiana",
       "anno": 1948,
       "data": "1° gennaio 1948 d.C.",

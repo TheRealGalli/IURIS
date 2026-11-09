@@ -58,6 +58,8 @@ export default function LezioneView({ id }: { id: string }) {
   const testoEsteso = DOCUMENTI_LETTURA.filter((d) => d.materia === slug)
     .flatMap((d) => d.sezioni.filter((s) => !s.soloTitolo && (s.lezione === l.id || s.lezioni?.includes(l.id))).map((s) => linkTesto(d.id, s.id)))[0];
 
+  // articoli dell'atto (sezione Norme) citati in questa lezione
+  const articoli = (idx.corso.norme?.gruppi ?? []).flatMap((g) => g.articoli).filter((a) => a.lezioni?.includes(l.id)).map((a) => a.n);
   return (
     <div className="page fade-in">
       <div className="row small faint" style={{ gap: 6, marginBottom: 10 }}>
@@ -72,6 +74,7 @@ export default function LezioneView({ id }: { id: string }) {
             <span className="chip">{l.minuti} min</span>
             <span className="chip">{qs.length} domande</span>
             <span className={`chip ${st === 'padroneggiata' ? 'chip-ok' : st === 'in-ripasso' ? 'chip-mid' : st === 'studiata' ? 'chip-gold' : ''}`}>{ETICHETTA_STATO[st]}</span>
+            {articoli.map((n) => <a key={n} className="chip chip-accent" style={{ textDecoration: 'none' }} href={href(`/norme/${n}`)} title="Apri il testo dell'articolo">art. {n}</a>)}
           </div>
 
           {u.ricostruita && (

@@ -470,7 +470,25 @@
       "etichetta": "è collegata al"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-entrata-in-vigore-del-codice-civile",
+      "anno": 1942,
+      "data": "21 aprile 1942",
+      "titolo": "Entrata in vigore del Codice civile",
+      "descrizione": "Le «preleggi» che lo precedono elencano le fonti e dettano le regole su interpretazione, analogia e abrogazione.",
+      "tipo": "codificazione",
+      "pagine": [
+        101,
+        112
+      ],
+      "concetti": [
+        "fonti-del-diritto",
+        "consuetudine",
+        "analogia"
+      ]
+    }
+  ],
   "mappa": {
     "testo": "Fonti",
     "concetto": "fonti-del-diritto",

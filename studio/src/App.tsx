@@ -20,6 +20,7 @@ const carica = {
   mappa: () => import('./views/Mappa'), cronologia: () => import('./views/Cronologia'), glossario: () => import('./views/Glossario'),
   concetto: () => import('./views/Concetto'), allena: () => import('./views/Allena'), progressi: () => import('./views/Progressi'),
   backup: () => import('./views/Backup'), originali: () => import('./views/Originali'),
+  norme: () => import('./views/Norme'), procedimenti: () => import('./views/Procedimenti'),
 };
 const Mappa = lazy(carica.mappa);
 const Cronologia = lazy(carica.cronologia);
@@ -29,6 +30,8 @@ const Allena = lazy(carica.allena);
 const Progressi = lazy(carica.progressi);
 const Backup = lazy(carica.backup);
 const Originali = lazy(carica.originali);
+const Norme = lazy(carica.norme);
+const Procedimenti = lazy(carica.procedimenti);
 if (typeof window !== 'undefined') {
   const prefetch = () => { for (const f of Object.values(carica)) f().catch(() => { /* riprova alla prima apertura */ }); };
   window.addEventListener('load', () => ('requestIdleCallback' in window ? requestIdleCallback(prefetch, { timeout: 4000 }) : setTimeout(prefetch, 1500)), { once: true });
@@ -43,9 +46,14 @@ const NAV = [
   { to: '/mappa', key: 'mappa', label: 'Mappa', icon: 'mappa' },
   { to: '/cronologia', key: 'cronologia', label: 'Cronologia', icon: 'cronologia' },
   { to: '/glossario', key: 'glossario', label: 'Glossario', icon: 'glossario' },
+  { to: '/norme', key: 'norme', label: 'Norme', icon: 'materia-costituzionale' },
+  { to: '/procedimenti', key: 'procedimenti', label: 'Procedimenti', icon: 'rami' },
   { to: '/progressi', key: 'progressi', label: 'Progressi', icon: 'progressi' },
 ];
 const TABS = ['', 'percorso', 'allena', 'mappa', 'progressi'];
+/** Norme e Procedimenti compaiono solo nelle materie che li hanno; non stanno nella barra in basso (si aprono da Altro). */
+const FACOLTATIVE = ['norme', 'procedimenti'];
+const navDi = (idx: Indice | null) => NAV.filter((n) => !FACOLTATIVE.includes(n.key) || (n.key === 'norme' ? !!idx?.corso.norme : !!idx?.corso.procedimenti));
 
 export default function App() {
   const [manifest, setManifest] = useState<Manifest | null>(null);
@@ -74,7 +82,7 @@ export default function App() {
 function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; materie: MateriaInfo[]; corso: CorsoDiStudio; materia: MateriaInfo }) {
   const rotta = useRotta();
   const lettore = rotta.parti[0] === 'originali';
-  const mappa = rotta.parti[0] === 'mappa';
+  const mappa = rotta.parti[0] === 'mappa' && rotta.query.get('quadro') !== '1';
   const compact = useCompact();
   const [mobilePanel, setMobilePanel] = useState<'menu' | 'study' | null>(null);
   useEffect(() => setMobilePanel(null), [rotta.hash]);
@@ -122,7 +130,7 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
   if (faseDemo === 'starting' || faseDemo === 'closing') contenuto = null;
   else if (rotta.parti[0] === 'backup') contenuto = <Suspense fallback={null}><Backup materie={manifest.materie} materia={materia.slug} /></Suspense>;
   else if (rotta.parti[0] === 'demo') contenuto = <div className="empty faint">Preparazione della visita guidata…</div>;
-  else if (rotta.parti[0] === 'altro') contenuto = <Altro corso={corso} />;
+  else if (rotta.parti[0] === 'altro') contenuto = <Altro corso={corso} nav={navDi(idx)} />;
   else if (!materia.disponibile) contenuto = <InPreparazione m={materia} />;
   else if (err) contenuto = <div className="empty"><h3>Errore</h3><p>{err}</p></div>;
   else if (!idx) contenuto = <div className="empty faint">Caricamento del corso…</div>;
@@ -140,7 +148,7 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
           <div className="nav-label">Materie</div>
           <GrigliaMaterie corso={corso} materie={materie} selezionata={materia.slug} onSelect={scegliMateria} />
         </div>
-        {idx && <NavLaterale />}
+        {idx && <NavLaterale nav={navDi(idx)} />}
         <nav className="nav nav-archivio" aria-label="Backup di tutte le materie">
           <div className="nav-label">Backup</div>
           <a href={href('/backup')} className={rotta.parti[0] === 'backup' ? 'on' : ''} aria-current={rotta.parti[0] === 'backup' ? 'page' : undefined}>
@@ -166,8 +174,8 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
         </header>
         <main className={`main${lettore ? ' main-reader' : ''}`}>{contenuto}</main>
       </div>
-      {compact ? <MobileTabs items={NAV} section={sezioneAttiva(rotta.parti)} path={rotta.hash} onMenu={() => setMobilePanel('menu')} /> : <TabBar />}
-      {compact && <MobileMenu panel={mobilePanel} onClose={() => setMobilePanel(null)} onStudy={() => setMobilePanel('study')} corso={corso} materie={materie} materia={materia} items={NAV} section={sezioneAttiva(rotta.parti)} onMateria={scegliMateria} />}
+      {compact ? <MobileTabs items={navDi(idx)} section={sezioneAttiva(rotta.parti)} path={rotta.hash} onMenu={() => setMobilePanel('menu')} /> : <TabBar />}
+      {compact && <MobileMenu panel={mobilePanel} onClose={() => setMobilePanel(null)} onStudy={() => setMobilePanel('study')} corso={corso} materie={materie} materia={materia} items={navDi(idx)} section={sezioneAttiva(rotta.parti)} onMateria={scegliMateria} />}
       {faseDemo === 'running' && idx && <Suspense fallback={null}><Tour idx={idx} onClose={chiudiDemo} /></Suspense>}
       {palette && idx && <Palette onClose={() => setPalette(false)} />}
     </div>
@@ -215,13 +223,13 @@ function sezioneAttiva(parti: string[]) {
   return s;
 }
 
-function NavLaterale() {
+function NavLaterale({ nav }: { nav: typeof NAV }) {
   const rotta = useRotta();
   const att = sezioneAttiva(rotta.parti);
   return (
     <nav className="nav">
       <div className="nav-label">Studio</div>
-      {NAV.map((n) => (
+      {nav.map((n) => (
         <a key={n.key} href={href(n.to)} className={att === n.key ? 'on' : ''}>
           <Icon n={n.icon} /> {n.label}
           {n.key === 'allena' && <BadgeRipasso />}
@@ -245,7 +253,7 @@ function TabBar() {
   const att = sezioneAttiva(rotta.parti);
   const ridotta = !TABS.includes(att);
   const extra = (k: string) => !TABS.includes(k);
-  const voci = [...NAV.filter((n) => n.key !== 'progressi'), NAV.find((n) => n.key === 'progressi')!];
+  const voci = [...NAV.filter((n) => n.key !== 'progressi' && !FACOLTATIVE.includes(n.key)), NAV.find((n) => n.key === 'progressi')!];
   return (
     <nav className="tabbar" aria-label="Sezioni" style={{ '--tab-n': voci.length } as CSSProperties}>
       {voci.map((n) => {
@@ -263,14 +271,14 @@ function TabBar() {
   );
 }
 
-function Altro({ corso }: { corso: CorsoDiStudio }) {
+function Altro({ corso, nav }: { corso: CorsoDiStudio; nav: typeof NAV }) {
   return <div className="page-narrow fade-in stack">
     <h1 className="title-xl">Altro</h1>
     <SceltaCorso corso={corso} classe="corso-switch-pagina" />
     <p className="small muted" style={{ margin: '-4px 2px 0' }}>{descriviCorso(corso)}</p>
     <h2 className="eyebrow" style={{ marginTop: 12 }}>Studio · materia selezionata</h2>
     <nav className="grid g2 altro-studio" aria-label="Altre sezioni di studio">
-      {NAV.filter((n) => ['originali', 'cronologia', 'glossario', 'progressi'].includes(n.key)).map((n) => <a key={n.key} className="card cta-card" href={href(n.to)}><Icon n={n.icon} size={22} /><b className="title-s">{n.label}</b></a>)}
+      {nav.filter((n) => ['originali', 'cronologia', 'glossario', 'norme', 'procedimenti', 'progressi'].includes(n.key)).map((n) => <a key={n.key} className="card cta-card" href={href(n.to)}><Icon n={n.icon} size={22} /><b className="title-s">{n.label}</b></a>)}
     </nav>
     <h2 className="eyebrow" style={{ marginTop: 12 }}>Backup · tutte le materie</h2>
     <a className="card cta-card" href={href('/backup')}><Icon n="backup" size={22} /><b className="title-s">Backup completo</b><span className="small muted">Un solo file per progressi, segni e mappe personali di tutte le materie.</span></a>
@@ -279,9 +287,12 @@ function Altro({ corso }: { corso: CorsoDiStudio }) {
   </div>;
 }
 
+const Assente = () => <div className="empty"><h3>Questa materia non ha ancora questa sezione</h3><a className="btn" href={href('/')}>Torna a Oggi</a></div>;
+
 function Rotte() {
   const { parti, query } = useRotta();
-  const slug = useCorso().corso.materia.slug;
+  const idx = useCorso();
+  const slug = idx.corso.materia.slug;
   const [s, id] = parti;
   switch (s) {
     case undefined: return <Oggi />;
@@ -293,6 +304,8 @@ function Rotte() {
     case 'concetto': return <ConcettoView id={id} />;
     case 'allena': return <Allena query={query} />;
     case 'progressi': return <Progressi />;
+    case 'norme': return idx.corso.norme ? <Norme id={id} /> : <Assente />;
+    case 'procedimenti': return idx.corso.procedimenti ? <Procedimenti id={id} query={query} /> : <Assente />;
     case 'originali': return <OriginaliBoundary key={slug} slug={slug}><Suspense fallback={<div className="empty faint">Apertura degli originali…</div>}><Originali /></Suspense></OriginaliBoundary>;
     default: return <div className="empty"><h3>Pagina non trovata</h3><a className="btn" href={href('/')}>Torna a Oggi</a></div>;
   }
