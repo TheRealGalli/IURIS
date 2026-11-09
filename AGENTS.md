@@ -9,6 +9,11 @@ Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usal
    Fonti, aggiornamenti e controlli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md).
 2. **Dopo: Diritto privato.** Si comincia appena Carlo aggiunge gli appunti (per ora la cartella è vuota):
    [`piani/diritto-privato.md`](piani/diritto-privato.md) dice come partire. Non anticipare contenuti senza fonti.
+3. **Corsi con appunti propri.** Diritto romano è condiviso tra LMG A-L e SSG (stessi appunti, stessi progressi).
+   Diritto costituzionale **SSG** avrà appunti diversi da quelli di LMG: quando arrivano, sarà una materia nuova
+   (cartella propria, es. `Diritto Costituzionale SSG/`, slug `diritto-costituzionale-ssg`, come Filosofia SSG), non
+   un'estensione di quella di LMG. Per ora è una card disattivata in `corsi.ts`. Anche **LMG M-Z** avrà materiale
+   tutto suo: le materie elencate oggi per M-Z sono solo un segnaposto.
 
 ## Chi è l'utente
 

@@ -44,7 +44,10 @@ try {
       if (c.lettere) assert(c.breve.endsWith(c.lettere) && !c.sigla.includes(c.lettere), `la classe va solo accanto alla sigla: ${c.id}`);
       for (const m of c.inArrivo ?? []) {
         assert(m.nome && /^#[0-9a-f]{6}$/i.test(m.colore), `materia in arrivo incompleta: ${c.id}`);
-        assert(!manifest.materie.some((x) => x.nome === m.nome || x.breve === m.nome), `«${m.nome}» è già una materia vera`);
+        // Il nome non deve coincidere con una materia vera dello stesso corso (attivata ma rimasta «in arrivo»);
+        // un altro corso può annunciare una materia omonima con appunti propri (es. costituzionale SSG).
+        const delCorso = manifest.materie.filter((x) => c.materie.includes(x.slug));
+        assert(!delCorso.some((x) => x.nome === m.nome || x.breve === m.nome), `«${m.nome}» è già una materia vera di ${c.id}`);
       }
       const colori = [...manifest.materie.map((m) => m.colore), ...(c.inArrivo ?? []).map((m) => m.colore)].map((x) => x.toLowerCase());
       assert.equal(new Set(colori).size, colori.length, `colori delle materie ripetuti: ${c.id}`);
@@ -76,6 +79,7 @@ try {
     const ssg = corsoDi('uniba-ssg-1');
     assert.equal(ssg.id, 'uniba-ssg-1', 'SSG salvato resta SSG');
     assert.deepEqual(ssg.materie, ['filosofia-del-diritto-ssg', 'diritto-romano'], 'SSG: filosofia propria, romano condiviso con LMG');
+    assert.deepEqual(ssg.inArrivo.map((m) => m.nome), ['Diritto costituzionale', 'Diritto privato'], 'SSG: costituzionale con appunti propri, in arrivo');
     for (const id of ['uniba-lmg-1-mz']) {
       assert(CORSI.some((c) => c.id === id), `${id} deve restare visibile nell'elenco`);
       assert.equal(corsoDi(id), CORSO_PREDEFINITO, `${id} salvato: si torna ad A-L`);
