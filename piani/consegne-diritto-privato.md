@@ -27,7 +27,9 @@ curl -s "https://api.github.com/repos/TheRealGalli/IURIS/actions/runs?per_page=3
 for r in json.load(sys.stdin)['workflow_runs']: print(r['run_number'], r['head_sha'][:7], r['status'], r['conclusion'])"
 ```
 
-Verifica API del 10 novembre 2026 in questa sessione: run 78 (`7ce2236`) completato con `success`; run 79 (`71d6952`) completato con `cancelled`; run 80 (`13dc5af`) in corso. Nessun push eseguito da questa sessione. Prima di una successiva pubblicazione ricontrollare il run più recente.
+Pubblicazione conclusa il 10 novembre 2026: il commit `5fb5732` è stato pubblicato come run 81 con esito `success`.
+Il sito espone il corso completo con 27 unità, 98 lezioni e 1.034 domande. Prima di una futura pubblicazione,
+ricontrollare comunque il run più recente.
 
 ## Giri consigliati
 
@@ -59,8 +61,8 @@ cd studio && node scripts/sync-content.mjs && node scripts/check-domande.mjs   #
 npm run build && npm run check:build                                            # alcuni minuti
 ```
 
-Completamento registrato in tabella, `README.md`, `INDICE.md`, `AGENTS.md` e nel piano di potenziamento; restano da
-concludere i controlli finali, il commit in italiano e il push su `main`.
+Completamento registrato in tabella, `README.md`, `INDICE.md`, `AGENTS.md` e nel piano di potenziamento; controlli,
+commit in italiano, push su `main` e pubblicazione GitHub Pages sono conclusi.
 
 ## Il formato del sorgente
 
