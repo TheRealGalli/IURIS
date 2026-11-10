@@ -166,6 +166,8 @@ export interface Corso {
 
 export interface Articolo {
   n: string; tema?: string; commi: string[]; modificato?: boolean; abrogato?: boolean; disposizione?: boolean;
+  /** serie con numerazione propria (le preleggi): non si confonde con gli articoli dell'atto */
+  serie?: string;
   lezioni?: string[]; domande?: string[];
 }
 export interface Norme {
@@ -173,8 +175,16 @@ export interface Norme {
   nome?: string;
   atto: string; sigla: string; aggiornamento: string; articoli: number;
   fonte?: { titolo: string; url: string };
-  gruppi: { titolo: string; articoli: Articolo[] }[];
+  /** atto breve (Costituzione): tutto il testo è qui */
+  gruppi?: GruppoNorme[];
+  /** atto lungo (Codice civile): un file per libro, scaricato quando serve */
+  libri?: { id: string; titolo: string; file: string; articoli: number; titoli: string[] }[];
+  /** [numero, rubrica, indice del libro, indice del titolo nel libro, abrogato, serie a parte (preleggi)] */
+  indice?: [string, string, number, number, 0 | 1, 0 | 1][];
+  /** articoli citati nelle lezioni e nelle domande, per esteso */
+  programma?: (Articolo & { gruppo: string; libro: number })[];
 }
+export interface GruppoNorme { titolo: string; articoli: Articolo[] }
 export interface VoceQuadro { testo: string; concetto?: string }
 export type SchemaQuadro = { id: string; titolo: string; sottotitolo?: string; nota?: string } & (
   | { tipo: 'rete'; nodi: { id: string; testo: string; sotto?: string; concetto?: string; x: number; y: number }[];

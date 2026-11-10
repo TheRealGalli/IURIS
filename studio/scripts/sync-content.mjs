@@ -272,12 +272,20 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
   if (norme) {
     // Articoli citati nelle lezioni e nelle domande («art. 77», «artt. 13, 14 e 15», «artt. 92–94»),
     // esclusi quelli di altri atti («art. 37 della legge 87/1953», «art. 6 TUE»).
-    const ALTRO_ATTO = /^\s*-?(?:bis|ter|quater)|\b(?:legge\s+(?:n\.\s*)?\d|l\.\s*(?:cost\.\s*)?\d|d\.\s?lgs|d\.l\.|d\.P\.R|TUE|TFUE|TUEL|CEDU|Convenzione|Trattat|Carta dei diritti|regolament|Statuto|preleggi|codice|c\.c\.|c\.p\.|legge\s+cost)/i;
-    const RE = /\bart{1,2}\.\s*(\d{1,3}(?:\s*[–-]\s*\d{1,3})?(?:(?:\s*,\s*|\s+e\s+)\d{1,3}(?:\s*[–-]\s*\d{1,3})?)*)([^.;\n]{0,48})/gi;
+    // L'atto «di casa» dipende dalla materia: per la Costituzione si scartano i rinvii al Codice («art. 2043 c.c.»),
+    // per il Codice civile quelli alla Costituzione («art. 3 Cost.»).
+    const civile = norme.sigla === 'c.c.';
+    const ALTRO_ATTO = civile
+      ? /\b(?:Cost\b|Costituzione|legge\s+(?:n\.\s*)?\d|l\.\s*(?:cost\.\s*)?\d|d\.\s?lgs|d\.l\.|d\.P\.R|TUE|TFUE|TUEL|CEDU|Convenzione|Trattat|Carta dei diritti|regolament|Statuto|preleggi|disp\.\s*prel|c\.p\.|cod\.\s*(?:pen|proc|nav|cons)|legge\s+cost)/i
+      : /^\s*-?(?:bis|ter|quater)|\b(?:legge\s+(?:n\.\s*)?\d|l\.\s*(?:cost\.\s*)?\d|d\.\s?lgs|d\.l\.|d\.P\.R|TUE|TFUE|TUEL|CEDU|Convenzione|Trattat|Carta dei diritti|regolament|Statuto|preleggi|codice|c\.c\.|c\.p\.|legge\s+cost)/i;
+    const RE = /\bart{1,2}\.\s*(\d{1,4}(?:\s*[–-]\s*\d{1,4})?(?:(?:\s*,\s*|\s+e\s+)\d{1,4}(?:\s*[–-]\s*\d{1,4})?)*)([^;\n]{0,48})/gi;
     const citati = (testo) => {
       const out = new Set();
       for (const m of (testo || '').matchAll(RE)) {
         if (ALTRO_ATTO.test(m[2])) continue;
+        // nel Codice civile si collega solo ciò che è citato con la sigla («art. 1321 c.c.»): le lezioni citano anche
+        // la Costituzione e altre leggi, e un numero da solo sarebbe ambiguo
+        if (civile && !/^.{0,30}?(?:c\.\s?c\.|cod\.\s*civ|codice civile)/i.test(m[2])) continue;
         for (const pezzo of m[1].split(/\s*,\s*|\s+e\s+/)) {
           const [a, b] = pezzo.split(/\s*[–-]\s*/).map(Number);
           if (b && b > a && b - a <= 30) for (let n = a; n <= b; n++) out.add(String(n));
@@ -297,12 +305,38 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
       for (const n of citati(testo)) segna(perDomanda, n, q.id);
     }
     let articoli = 0;
-    for (const g of norme.gruppi) for (const a of g.articoli) {
-      articoli++;
-      if (a.disposizione) continue;
-      a.lezioni = perLezione.get(a.n) ?? [];
-      a.domande = perDomanda.get(a.n) ?? [];
-    }
+    const collega = (gruppi) => {
+      for (const g of gruppi) for (const a of g.articoli) {
+        articoli++;
+        if (a.disposizione || a.serie) continue;
+        a.lezioni = perLezione.get(a.n) ?? [];
+        a.domande = perDomanda.get(a.n) ?? [];
+      }
+    };
+    if (norme.libri) {
+      // Atto lungo (Codice civile): il testo resta in un file per libro, scaricato solo quando serve. In corso.json
+      // vanno l'indice (numero, rubrica, libro, titolo) e, per esteso, i soli articoli citati nelle lezioni.
+      const fuori = [];   // [percorso relativo, contenuto] da scrivere in public/content/<materia>/
+      const indice = [], programma = [];
+      norme.libri.forEach((libro, i) => {
+        const dati = readJson(path.join(dir, libro.file));
+        collega(dati.gruppi);
+        const titoli = [];
+        for (const g of dati.gruppi) {
+          const titolo = g.titolo.split(' › ')[0];
+          if (!titoli.includes(titolo)) titoli.push(titolo);
+          for (const a of g.articoli) {
+            indice.push([a.n, a.tema ?? '', i, titoli.indexOf(titolo), a.abrogato ? 1 : 0, a.serie ? 1 : 0]);
+            if (a.lezioni?.length || a.domande?.length) programma.push({ ...a, gruppo: g.titolo, libro: i });
+          }
+        }
+        libro.titoli = titoli;
+        fuori.push([libro.file, dati]);
+      });
+      norme.indice = indice;
+      norme.programma = programma;
+      corso.normeFile = fuori;
+    } else collega(norme.gruppi);
     norme.articoli = articoli;
     corso.norme = norme;
   }
@@ -345,6 +379,12 @@ for (const entry of fs.readdirSync(iurisRoot, { withFileTypes: true })) {
   }
   const { corso, stats, avvisi } = buildCorso(materiaDir, materiaSlug, entry.name.trim());
   fs.mkdirSync(path.join(outRoot, materiaSlug), { recursive: true });
+  for (const [file, dati] of corso.normeFile ?? []) {
+    const dest = path.join(outRoot, materiaSlug, file);
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.writeFileSync(dest, JSON.stringify(dati));
+  }
+  delete corso.normeFile;
   fs.writeFileSync(path.join(outRoot, materiaSlug, 'corso.json'), JSON.stringify(corso));
   manifest.materie.push({
     slug: materiaSlug, nome: corso.materia.nome, breve: corso.materia.breve ?? corso.materia.nome,

@@ -25,3 +25,8 @@
   .norma { padding: 14px 14px; }
   .norma-commi, .norma-comma { font-size: 16px; }
 }
+.norme-risultati { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; max-height: 40vh; overflow-y: auto; }
+.norme-risultati .chip, .norme-indice button.chip { cursor: pointer; text-align: left; }
+.norme-ris-abrogato { opacity: .55; }
+.norme-libro { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 14px 0 0; }
+.norme-libro .select { flex: 1; min-width: 220px; }

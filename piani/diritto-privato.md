@@ -1,8 +1,61 @@
 # Piano: Diritto privato (LMG · I anno · A-L)
 
-Stato: **in attesa delle fonti**. Si fa **dopo Diritto costituzionale**, appena arrivano gli appunti. La cartella `Diritto Privato/` è pronta (`00 - Appunti e fonti/`,
-`05 - Contenuti/`), ma per ora non contiene materiale: quando Carlo aggiunge appunti o PDF, mettili in
-`00 - Appunti e fonti/` e segui questo piano. Le regole generali sono in [`../AGENTS.md`](../AGENTS.md).
+Stato: **in corso**. Fonte arrivata il 10 novembre 2026: dispensa di Nick Petrullo e Ludovico Mainieri sul manuale
+Torrente–Schlesinger (2012), 238 pagine fitte, 72 capitoli. Testo per pagina in
+`Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Fatta l'unità 1; la materia è attiva nei tre corsi.
+
+Attenzione: la dispensa è del **2012**. Vanno aggiornati almeno: filiazione (l. 219/2012 e d.lgs. 154/2013: stato
+unico di figlio, responsabilità genitoriale), unioni civili e convivenze (l. 76/2016), divorzio breve (l. 55/2015),
+Codice del consumo, riforma Cartabia (d.lgs. 149/2022), condominio (l. 220/2012), mediazione e negoziazione assistita.
+Alcuni riquadri di approfondimento sono illeggibili nel PDF (caratteri codificati): vanno ricostruiti con nozioni
+pacifiche e segnalati in `noteRedazione`. Il programma ufficiale indica altri manuali (Gabrielli; Perlingieri per M-Z):
+Carlo ha scelto queste dispense per tutte e tre le classi.
+
+## Come si scrive un'unità
+
+Si scrive il sorgente compatto `05 - Contenuti/sorgenti/uNN.txt` (formato spiegato in testa a
+[`strumenti/unita.py`](strumenti/unita.py); esempio completo: `sorgenti/u01.txt`), poi:
+
+```bash
+python3 piani/strumenti/unita.py "Diritto Privato/05 - Contenuti/sorgenti/uNN.txt"
+node studio/scripts/validate-content.mjs "Diritto Privato/05 - Contenuti/uNN.json"
+```
+
+Gli articoli del Codice vanno citati sempre con la sigla, «art. 1321 c.c.» o «artt. 1325 e 1418 c.c.»: solo così
+la sezione Codice civile li collega alla lezione e alle domande. Nelle risposte da completare evitare le parole che
+sono anche numeri («sei»): `check-domande` le rifiuta.
+
+## Unità previste
+
+| Unità | Capitoli | Pagine | Stato |
+|---|---|---|---|
+| u01 Ordinamento, norma e fonti | 1–2 | 1–8 | fatta |
+| u02 Legge nel tempo, interpretazione, conflitti di leggi | 3–5 | 9–15 | |
+| u03 Situazioni giuridiche soggettive | 6 | 16–18 | |
+| u04 La persona fisica | 7 A–B | 19–27 | |
+| u05 Gli enti | 7 C | 28–32 | |
+| u06 Beni; fatto, atto e negozio giuridico | 8–9 | 33–41 | |
+| u07 Prescrizione e decadenza, tutela giurisdizionale, prove | 10–12 | 42–50 | |
+| u08 Diritti reali e proprietà | 13 | 51–66 | |
+| u09 Diritti reali di godimento | 14 | 67–73 | |
+| u10 Comunione, condominio, multiproprietà | 15 | 74–77 | |
+| u11 Possesso e usucapione | 16 | 78–95 | |
+| u12 Il rapporto obbligatorio e i suoi elementi | 17–18 | 96–101 | |
+| u13 Modificazioni soggettive ed estinzione dell'obbligazione | 19–20 | 102–112 | |
+| u14 Inadempimento, mora, responsabilità patrimoniale | 21 | 113–116 | |
+| u15 Pegno, ipoteca e conservazione della garanzia | 22–23 | 117–126 | |
+| u16 Il contratto: nozione, trattative, conclusione | 25–26 | 127–133 | |
+| u17 Vizi della volontà, forma, rappresentanza | 27–29 | 134–141 | |
+| u18 Preliminare, oggetto, causa, interpretazione | 30–33 | 142–149 | |
+| u19 Effetti, elementi accidentali, simulazione | 34–36 | 150–159 | |
+| u20 Invalidità, rescissione, risoluzione | 37–38 | 160–171 | |
+| u21 Consumatore, contratti tipici e atipici, compravendita | 39–41 | 172–182 | |
+| u22 Gli altri contratti | 42–50 | 183–199 | |
+| u23 Promesse unilaterali, titoli di credito, obbligazioni dalla legge | 51–54 | 200–207 | |
+| u24 La responsabilità per fatto illecito | 55 | 208–210 | |
+| u25 La famiglia | 56–63 | 211–222 | |
+| u26 Le successioni | 64–70 | 223–234 | |
+| u27 Donazione e trascrizione | 71–72 | 235–238 | |
 
 ## Decisioni prese con Carlo (10 novembre 2026)
 
@@ -22,9 +75,13 @@ Costituzione (65 KB), altrimenti ogni apertura della materia lo scarica tutto.
    gli articoli toccati dalle riforme dopo luglio 2022 (riforma Cartabia della famiglia e dei minori, d.lgs. 149/2022,
    e successive) si verificano uno per uno su Normattiva. Ogni articolo porta la data dell'ultima verifica; quelli
    non verificati lo dicono.
-2. **Formato**. Un file per libro (`norme/libro-1.json` … `libro-6.json`, più le preleggi) e un indice leggero
-   (numero, rubrica, libro, titolo, capo) dentro `corso.json`. La sezione carica l'indice subito e il testo del libro
-   solo quando serve; la ricerca per numero e per rubrica lavora sull'indice, quella nel testo sul libro aperto.
+2. **Formato** (fatto). `python3 studio/scripts/codice-civile.py` genera `norme.json` e un file per libro in
+   `05 - Contenuti/norme/` (preleggi e libri I–VI: 3042 articoli). Il sync mette in `corso.json` l'indice (numero,
+   rubrica, libro, titolo) e il testo dei soli articoli citati nelle lezioni; i libri si scaricano quando si aprono.
+   Le correzioni a mano stanno in `05 - Contenuti/norme-aggiornamenti.json` (`{"1519-bis": {"abrogato": true,
+   "nota": "…", "verificato": "2026-11-10"}}`) e prevalgono sul testo scaricato. Da fare: verificare gli articoli
+   modificati dopo luglio 2022 e i 71 numeri che Wikisource non riporta (quasi tutti abrogati); il Titolo IX del
+   Libro I porta ancora la vecchia intestazione «potestà dei genitori».
 3. **Uso nello studio**. Vista predefinita: solo gli articoli citati nelle lezioni (il programma d'esame è una parte
    del Codice), con il resto a portata di ricerca. Il collegamento articolo–lezione–domande è già automatico
    («art. 1321 c.c.», «artt. 1325 e 1418»): nelle lezioni gli articoli vanno scritti così.

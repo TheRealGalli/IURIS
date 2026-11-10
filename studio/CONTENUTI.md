@@ -339,6 +339,12 @@ lezioni e alle domande che lo citano («art. 77», «artt. 13, 14 e 15», «artt
 altri atti («art. 37 della legge 87/1953», «art. 6 TUE»): nelle lezioni scrivi quindi gli articoli in questa forma.
 Quando l'atto cambia, aggiorna il testo, `aggiornamento` e la nota dell'unità interessata.
 
+**Atti lunghi (il Codice civile).** Se `norme.json` ha `"libri": [{ "id", "titolo", "file": "norme/libro-i.json" }]`
+al posto di `gruppi`, il testo sta in un file per libro (`{ "gruppi": [...] }`, stesso formato). Il sync mette in
+`corso.json` solo l'indice e gli articoli citati, e pubblica i libri a parte: la sezione li scarica quando si aprono.
+In una materia con `"sigla": "c.c."` un articolo si collega solo se è citato con la sigla («art. 1321 c.c.»), perché
+le lezioni citano anche la Costituzione e altre leggi.
+
 ### Schemi d'insieme (`quadro.json`)
 
 Compaiono in **Mappa → Quadro**, accanto al Programma (che è automatico: unità e rami principali delle mappe).

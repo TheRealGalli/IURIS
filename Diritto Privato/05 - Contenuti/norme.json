@@ -1,0 +1,54 @@
+{
+ "nome": "Codice civile",
+ "atto": "Codice civile",
+ "sigla": "c.c.",
+ "aggiornamento": "Testo da Wikisource, che lo dichiara aggiornato al 6 luglio 2022: le modifiche successive sono in corso di verifica articolo per articolo.",
+ "fonte": {
+  "titolo": "Wikisource, Codice civile (testo di pubblico dominio)",
+  "url": "https://it.wikisource.org/wiki/Codice_civile"
+ },
+ "libri": [
+  {
+   "id": "preleggi",
+   "titolo": "Disposizioni sulla legge in generale",
+   "file": "norme/preleggi.json",
+   "articoli": 31
+  },
+  {
+   "id": "libro-i",
+   "titolo": "Libro I · Delle persone e della famiglia",
+   "file": "norme/libro-i.json",
+   "articoli": 433
+  },
+  {
+   "id": "libro-ii",
+   "titolo": "Libro II · Delle successioni",
+   "file": "norme/libro-ii.json",
+   "articoli": 355
+  },
+  {
+   "id": "libro-iii",
+   "titolo": "Libro III · Della proprietà",
+   "file": "norme/libro-iii.json",
+   "articoli": 363
+  },
+  {
+   "id": "libro-iv",
+   "titolo": "Libro IV · Delle obbligazioni",
+   "file": "norme/libro-iv.json",
+   "articoli": 898
+  },
+  {
+   "id": "libro-v",
+   "titolo": "Libro V · Del lavoro",
+   "file": "norme/libro-v.json",
+   "articoli": 635
+  },
+  {
+   "id": "libro-vi",
+   "titolo": "Libro VI · Della tutela dei diritti",
+   "file": "norme/libro-vi.json",
+   "articoli": 327
+  }
+ ]
+}

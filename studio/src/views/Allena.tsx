@@ -5,6 +5,7 @@ import { href, vai } from '../lib/router';
 import { ordinaRipasso, padronanzaDomanda, registraRisposta, ripassoDiOggi, type Voto } from '../lib/srs';
 import { DOMANDE_VERIFICA_INIZIALE, useProgresso, type Progresso } from '../lib/store';
 import { TIPI_DOMANDA, type Domanda, type TipoDomanda } from '../lib/types';
+import { articoliCollegati } from '../lib/norme';
 import { plurale, shuffle } from '../lib/util';
 import { Bar, Icon } from '../components/ui';
 import MobileSheet, { useCompact } from '../components/MobileSheet';
@@ -94,7 +95,7 @@ export default function Allena({ query }: { query: URLSearchParams }) {
     } else if (query.get('art') && idx.corso.norme) {
       // domande che citano un articolo, aperte dalla sezione Norme
       const n = query.get('art');
-      const a = idx.corso.norme.gruppi.flatMap((g) => g.articoli).find((x) => !x.disposizione && x.n === n);
+      const a = articoliCollegati(idx.corso.norme).find((x) => x.n === n);
       const qs = (a?.domande ?? []).map((id) => idx.domandaById.get(id)).filter((q): q is Domanda => !!q);
       setSessione(qs.length ? { titolo: `Art. ${n} ${idx.corso.norme.sigla}`, domande: shuffle(qs), registra: true } : null);
     } else if (l) {

@@ -1,3 +1,4 @@
+import { articoliCollegati } from '../lib/norme';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useCorso } from '../lib/data';
 import { renderMd } from '../lib/md';
@@ -59,7 +60,7 @@ export default function LezioneView({ id }: { id: string }) {
     .flatMap((d) => d.sezioni.filter((s) => !s.soloTitolo && (s.lezione === l.id || s.lezioni?.includes(l.id))).map((s) => linkTesto(d.id, s.id)))[0];
 
   // articoli dell'atto (sezione Norme) citati in questa lezione
-  const articoli = (idx.corso.norme?.gruppi ?? []).flatMap((g) => g.articoli).filter((a) => a.lezioni?.includes(l.id)).map((a) => a.n);
+  const articoli = articoliCollegati(idx.corso.norme).filter((a) => a.lezioni?.includes(l.id)).map((a) => a.n);
   return (
     <div className="page fade-in">
       <div className="row small faint" style={{ gap: 6, marginBottom: 10 }}>
