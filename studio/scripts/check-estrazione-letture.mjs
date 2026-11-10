@@ -80,8 +80,13 @@ for (const doc of docs) {
       blockCount.set(b.pagina, (blockCount.get(b.pagina) ?? 0) + 1);
       blocks++;
     }
-    for (const l of sec.lezioni ?? (sec.lezione ? [sec.lezione] : [])) assert(lezioni.has(l), `lezione esistente: ${l}`);
-    if (sec.lezione && !sec.soloTitolo) { assert(!lezioniCorso.has(`${doc.materia}:${sec.lezione}`), `una sola sezione per lezione: ${sec.lezione}`); lezioniCorso.set(`${doc.materia}:${sec.lezione}`, sec.id); }
+    for (const l of sec.lezioni ?? (sec.lezione ? [sec.lezione] : [])) {
+      assert(lezioni.has(l), `lezione esistente: ${l}`);
+      if (!sec.soloTitolo) {
+        assert(!lezioniCorso.has(`${doc.materia}:${l}`), `una sola sezione per lezione: ${l}`);
+        lezioniCorso.set(`${doc.materia}:${l}`, sec.id);
+      }
+    }
     if (sec.revisionata) pilot++;
   }
   assert.equal(next, doc.pagine + 1);
@@ -93,8 +98,8 @@ for (const doc of docs) {
   assert.equal(seen.size, audit.blocchi);
   pages += doc.pagine;
 }
-assert.equal(docs.length, 8); assert.equal(pages, 863); assert.equal(integrazioni, 12); assert(pilot >= 2);
-for (const materia of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg', 'diritto-costituzionale']) {
+assert.equal(docs.length, 9); assert.equal(pages, 1101); assert.equal(integrazioni, 12); assert(pilot >= 2);
+for (const materia of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg', 'diritto-costituzionale', 'diritto-privato']) {
   const corso = await read(`public/content/${materia}/corso.json`);
   for (const l of corso.unita.flatMap((u) => u.lezioni)) assert(lezioniCorso.has(`${materia}:${l.id}`), `testo completo accessibile per ${materia}/${l.id}`);
 }
@@ -107,4 +112,4 @@ assert(p1.blocchi.find((b) => b.id === 'p001-b008').testoFonte.includes('non è'
 const p2 = await read('public/letture/filosofia-incampo-v1/u01-l2.json');
 assert(p2.blocchi.find((b) => b.id === 'p006-b001').markdown.includes('nullum crimen sine lege'));
 assert(p2.blocchi.find((b) => b.id === 'p005-b004').notaRevisione.includes('resta da verificare'));
-console.log(`Estrazione verificata: 7 PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);
+console.log(`Estrazione verificata: 8 PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);
