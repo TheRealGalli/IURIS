@@ -4,7 +4,10 @@
   "fonte": "lezioni",
   "titolo": "Ross e Foucault a confronto: sapere e potere, potere disciplinare e biopolitico, custodi anonimi",
   "capitolo": "Lezioni 18–19 (prima parte)",
-  "pagine": [107, 115],
+  "pagine": [
+    107,
+    115
+  ],
   "abstract": "Le due figure di custodi dell'osservanza differiscono in quattro punti, tutti domande d'esame. Il sapere: in Ross serve a prevedere le regole efficaci, in Foucault a controllare e gestire, perché sapere e potere sono connessi. Il potere: prescrittivo-sanzionatorio e negativo in Kelsen e Ross (agisce a valle, sull'illecito), disciplinare e positivo in Foucault (agisce a monte, crea e prende in carico l'intera vita): è il potere biopolitico, cui resistono le tecniche del sé. La legittimazione: il potere giuridico ha una legittimazione democratica, i poteri disciplinari no e possono essere contro-giuridici. Il volto: le corti hanno un nome, il dispositivo è anonimo (Kafka, gli algoritmi). Si chiude con i corpi docili e con lo schema ad albero dei punti di vista che introduce gli osservanti.",
   "note": "Searle si è formato a Oxford con J. L. Austin: con Foucault ebbe un confronto, non ne fu allievo.",
   "noteRedazione": "Sbobinature della lezione 18 (11 novembre 2024) e della prima parte della lezione 19 (13 novembre 2024). Il nome è spesso scritto «Foucalt» e «Alfross»: corretti. Imprecisioni segnalate: (1) p. 112 e p. 115: John Searle è detto «allievo diretto di Michel Foucault»: Searle si è formato a Oxford con J. L. Austin; con Foucault ebbe conversazioni e un celebre confronto. (2) p. 115: il saggio di Jacques-Alain Miller sul Panopticon è *La macchina panottica di Jeremy Bentham* (1973). (3) p. 112: *Sorvegliare e punire* è del 1975. (4) p. 111: «Foucault afferma che la natura non esiste» va inteso come tesi sul carattere costruito, prodotto dal potere, di ciò che chiamiamo «naturale». Le pagine 108–109 contengono solo poche righe.",
@@ -12,7 +15,10 @@
     {
       "id": "u10-l1",
       "titolo": "Due epistemologie: sapere per prevedere, sapere per controllare",
-      "pagine": [107, 109],
+      "pagine": [
+        107,
+        109
+      ],
       "minuti": 20,
       "sintesi": "### Da dove partiva Ross\nLa lezione mette a fuoco le differenze tra il [[custodi-dell-osservanza|custode dell'osservanza]] di [[alf-ross|Ross]] e quello costruito dall'**epistemologia** di [[michel-foucault|Foucault]] (la teoria della conoscenza dei fenomeni sociali, non solo giuridici). Ross partiva dalla teoria dei giochi e dalla partita a scacchi: i tre livelli di osservazione servivano ad arrivare al concetto di **[[efficacia]]**. Partendo sempre da «perché devo seguire le regole?», l'epistemologia di Ross è costruita per conoscere le **regole efficaci** in un dato contesto sociale, cioè quelle che prevedo saranno applicate dai custodi: un sapere per **prevedere** (le «profezie» sull'osservanza).\n\n### Il sapere del Panopticon\nChe sapere configura invece il custode di Foucault? Dalla torretta del [[panopticon|Panopticon]] si osservano **costantemente, continuativamente, capillarmente** i comportamenti degli osservati. Che cosa sappiamo di loro? Non solo quali regole seguono: acquisiamo **ogni altra informazione** — le loro paure, tutti gli aspetti della loro vita. Non è un sapere per «vincere la partita»: è un sapere per **controllare**, per conoscere la pressione, per **gestire** nel modo più efficace possibile l'esperienza detentiva. Bentham, utilitarista, voleva rendere più **efficienti** i comportamenti dei detenuti minimizzando i costi di gestione.\n\n### Sapere e potere\nÈ dunque un sapere orientato alla **costruzione e gestione di un ordine sociale**: **un sapere che esercita un potere**. I due schemi epistemologici funzionano diversamente perché hanno **scopi diversi**. È la **prima differenza**, da cui discende logicamente la seconda: si acquisiscono più dati possibile per gestire meglio l'ordine costituito nell'istituto. Il sapere panottico assomiglia alle previsioni di Ross, ma è molto più **generalizzato e capillare**: una raccolta di dati attraverso il **processo di osservazione**, finalizzata all'esercizio di un potere sui **corpi** dei detenuti. Per ora si ragiona con la metafora del carcere; poi la si abbandonerà per parlare del discorso **normativo in senso generale**, non più solo giuridico.\n\n| | Ross | Foucault |\n|---|---|---|\n| scopo del sapere | conoscere le regole **efficaci** | **controllare** e **gestire** l'ordine |\n| oggetto | le strategie delle corti | ogni aspetto della vita degli osservati |\n| forma | schemi di previsione, «profezie» | raccolta capillare di dati |\n| rapporto col potere | prevede il potere delle corti | **è** esercizio di potere ([[sapere-potere]]) |",
       "puntiChiave": [
@@ -23,15 +29,32 @@
         "Il sapere panottico è più generalizzato e capillare delle «profezie» di Ross."
       ],
       "memoria": [
-        { "voce": "Sapere in Ross", "dettaglio": "prevedere le regole efficaci (strategie delle corti)" },
-        { "voce": "Sapere in Foucault", "dettaglio": "controllare e gestire: il sapere esercita un potere" }
+        {
+          "voce": "Sapere in Ross",
+          "dettaglio": "prevedere le regole efficaci (strategie delle corti)"
+        },
+        {
+          "voce": "Sapere in Foucault",
+          "dettaglio": "controllare e gestire: il sapere esercita un potere"
+        }
       ],
-      "concetti": ["custodi-dell-osservanza", "alf-ross", "michel-foucault", "efficacia", "panopticon", "efficienza", "sapere-potere"]
+      "concetti": [
+        "custodi-dell-osservanza",
+        "alf-ross",
+        "michel-foucault",
+        "efficacia",
+        "panopticon",
+        "efficienza",
+        "sapere-potere"
+      ]
     },
     {
       "id": "u10-l2",
       "titolo": "Potere prescrittivo-sanzionatorio e potere disciplinare; il biopotere",
-      "pagine": [109, 111],
+      "pagine": [
+        109,
+        111
+      ],
       "minuti": 30,
       "sintesi": "### Che tipo di potere? (domanda d'esame)\nIl potere del Panopticon è lo stesso della norma in [[kelsen|Kelsen]]? In Kelsen manca la dimensione psicologica (non è la risposta, ma un presupposto). Anche la sanzione kelseniana è **deterrente**. Il potere della norma in Kelsen è **prescrittivo-sanzionatorio**: qualifica negativamente un comportamento e gli imputa una sanzione. In [[alf-ross|Ross]]? L'ordinamento è una **macchina** con una fase fisiologica e una patologica, in cui il comportamento deviante interrompe il ronzio; la norma sanziona il comportamento che turba l'ordine: pur in un'altra prospettiva **non siamo lontani da Kelsen**.\n\n### A valle e a monte\nI due poteri funzionano diversamente: uno **a valle**, l'altro **a monte**. Il potere giuridico reprime solo gli atti che qualifica come illeciti; l'altro **addomestica**: Foucault lo chiama **[[potere-disciplinare|potere disciplinare]]** e lo contrappone al potere prescrittivo-sanzionatorio. Foucault è il primo a pensare che il potere non sia solo ciò che dice che cosa fare e sanziona chi si oppone, ma ciò che **crea** il nostro spazio d'azione e ci **costituisce come soggetti**: condiziona i pensieri, orienta i comportamenti, **prende in carico la vita per intero**. Non è più un'istanza **negativa** ma **positiva**: «tu puoi, negli spazi che ti dico io».\n\n| | Potere prescrittivo-sanzionatorio | Potere disciplinare |\n|---|---|---|\n| autori | Kelsen, Ross | Foucault |\n| quando agisce | **a valle**: dopo l'illecito | **a monte**: prima, sempre |\n| istanza | **negativa**: interdice, proibisce, distrugge | **positiva**: crea, agevola, costituisce, promuove |\n| estensione | lascia liberi finché non si compie un illecito (visione **liberale**) | **prende in carico l'intera vita** |\n| effetto | sanzione della trasgressione | **[[normalizzazione]]** |\n\n### Dalla società del diritto alla società della disciplina\nLa teoria di Kelsen è **liberale**: il potere giuridico non si prende carico di tutte le tue azioni finché non danneggi un terzo; finché non compi un illecito sei libero di gestire la tua vita. Il potere disciplinare dice l'opposto. La novità rivoluzionaria di Foucault è descrivere le nostre società non più come **società del diritto** ma come **società della disciplina**: accanto al potere della regola giuridica si afferma un potere **normalizzante** che costruisce costantemente i nostri spazi di libertà, che non gestiamo più noi. Il potere non è ciò che distrugge ma ciò che crea; non interdice, agevola e costruisce. Foucault è una figura di **transizione**: fa capire il passaggio da un ordine fondato su **sovranità e ordinamento** a un ordine fondato sulla **[[governance]]** (termine che non usa, ma che i suoi interpreti ricollegano a lui), che funziona in direzione opposta all'ordinamento.\n\n### Un potere normativo in senso lato\nTerza differenza: il potere disciplinare non è solo giuridico, ma **normativo in senso lato**: l'effetto normativo è prodotto da un insieme di **[[dispositivo|dispositivi]]**, oggi fondamentali per capire l'ordine sociale.\n\n### Il potere biopolitico\nIl potere che gestisce la vita in tutti i suoi aspetti, dal **biologico** al **sociale**, si chiama **[[biopolitica|potere biopolitico]]**: la politica come **gestione** della vita. È ciò che **costituisce la nostra soggettività**. Per sfuggirgli Foucault recupera dal pensiero greco antico le **tecniche del sé** o **pratiche di soggettivazione**: per esempio il discorso del **dire la verità** al potere, pratiche discorsive con cui alcuni filosofi greci si ritagliavano un margine rispetto al potere del loro tempo. Nell'ultima parte della vita Foucault pratica un'**estetica dell'esistenza**: ciascuno può fare della propria vita un'estetica di resistenza all'omologazione.\n\nNella ***Storia della sessualità*** rovescia l'indagine: non un potere che **censura** la sessualità, ma un potere che, **facendone parlare**, ha costruito la soggettività moderna; un potere che dialoga e instaura pratiche discorsive. Critica: la fuga di Foucault è sempre **individuale**, mai collettiva (è stato accusato di individualismo, pur avendo criticato il neoliberismo). Foucault studia anche il concetto di **razza** e afferma che ciò che chiamiamo **natura** è prodotto dell'esercizio di un potere: tutto è esito della disciplina; da quando nasciamo siamo addomesticati da sistemi di valori e regole; il potere addomestica perfino il folle, ingabbiandolo.\n\n### Riassunto\nIl potere giuridico, in Kelsen come in Ross, è un potere che **nega**, che dice che cosa non dobbiamo fare. Foucault gli affianca un potere **affermativo**, disciplinare, che non proibisce ma **promuove** comportamenti, atti, modi di essere e di pensare: è il potere delle **società disciplinari** e delle **società di controllo**.",
       "puntiChiave": [
@@ -45,17 +68,43 @@
         "Storia della sessualità: un potere che fa parlare e costruisce la soggettività; anche la «natura» è prodotto del potere."
       ],
       "memoria": [
-        { "voce": "Potere prescrittivo-sanzionatorio", "dettaglio": "negativo, a valle, interdice (Kelsen, Ross)" },
-        { "voce": "Potere disciplinare", "dettaglio": "positivo, a monte, crea e normalizza (Foucault)" },
-        { "voce": "Biopolitica", "dettaglio": "potere che gestisce la vita dal biologico al sociale" },
-        { "voce": "Tecniche del sé", "dettaglio": "pratiche di soggettivazione e di resistenza recuperate dai Greci" }
+        {
+          "voce": "Potere prescrittivo-sanzionatorio",
+          "dettaglio": "negativo, a valle, interdice (Kelsen, Ross)"
+        },
+        {
+          "voce": "Potere disciplinare",
+          "dettaglio": "positivo, a monte, crea e normalizza (Foucault)"
+        },
+        {
+          "voce": "Biopolitica",
+          "dettaglio": "potere che gestisce la vita dal biologico al sociale"
+        },
+        {
+          "voce": "Tecniche del sé",
+          "dettaglio": "pratiche di soggettivazione e di resistenza recuperate dai Greci"
+        }
       ],
-      "concetti": ["kelsen", "alf-ross", "macchina-sociale", "potere-disciplinare", "normalizzazione", "governance", "dispositivo", "biopolitica", "tecniche-del-se", "michel-foucault"]
+      "concetti": [
+        "kelsen",
+        "alf-ross",
+        "macchina-sociale",
+        "potere-disciplinare",
+        "normalizzazione",
+        "governance",
+        "dispositivo",
+        "biopolitica",
+        "tecniche-del-se",
+        "michel-foucault"
+      ]
     },
     {
       "id": "u10-l3",
       "titolo": "Legalità e legittimità, il custode anonimo, i corpi docili; lo schema dei punti di vista",
-      "pagine": [111, 115],
+      "pagine": [
+        111,
+        115
+      ],
       "minuti": 25,
       "sintesi": "### Chi controlla il controllore?\nIl potere disciplinare crea più problemi di quello prescrittivo-sanzionatorio? È il tema di *Watchmen*: chi sorveglia il sorvegliante? Ci sono problemi di **legalità** e di **legittimità**:\n- la **legalità** è la giustificazione dei **limiti** entro cui un potere si esercita;\n- la **legittimità** è la **giustificazione del potere** stesso.\n\nIl potere giuridico, almeno nelle democrazie liberali, è **legittimato** su base politica e democratica; i poteri disciplinari **non hanno una fonte**, non sono poteri legittimi, e spesso sono, come dice Foucault, **contro-giuridici**.\n\n### Quarta differenza: il custode senza volto\nChe custode configura questo potere? In [[alf-ross|Ross]] il custode ha **un nome e un volto**: i tribunali, le corti (e in Kelsen il **legislatore**). Il custode che si affaccia dal [[panopticon|Panopticon]] è **senza nome**: una delle prime grandi idee di soggettività che garantiscono e gestiscono l'ordine sociale da una posizione di **totale anonimato** (come nel *Processo* di **Kafka**). Anonimi sono anche i poteri che si nascondono dietro gli **algoritmi**: potere anonimo e **inclusivo**, che tende a catturare più soggetti possibile. Il diritto cerca strumenti nuovi per normare questi poteri disciplinari, che in realtà sono poteri politici.\n\n### Le quattro differenze tra i custodi\n| | Custode in Ross | Custode in Foucault |\n|---|---|---|\n| 1. sapere | prevedere le regole efficaci | controllare e gestire ([[sapere-potere]]) |\n| 2. potere | prescrittivo-sanzionatorio, negativo | [[potere-disciplinare|disciplinare]], positivo, biopolitico |\n| 3. natura e legittimazione | giuridico, legittimato democraticamente | normativo in senso lato, senza legittimazione, talvolta contro-giuridico |\n| 4. volto | le corti, con nome e volto | il [[dispositivo]], **anonimo** |\n\nE alla domanda «perché devo seguire le regole?»: per Ross seguo le regole efficaci, di cui prevedo l'applicazione; per Foucault perché **non posso fare altrimenti**, tanto il condizionamento è forte. Uno studente chiede se in Foucault si arrivi a non chiedersi più perché seguire le regole: sì, il tema è l'**introiezione** così profonda della regola da seguirla ciecamente.\n\n### I corpi docili\nFoucault non è il primo a rispolverare il Panopticon: qualche anno prima lo psicoanalista **Jacques-Alain Miller** vi aveva dedicato un saggio, ponendosi il tema di un disciplinamento che diventa condizionamento **psicologico** e **psicoanalitico**, non tanto del corpo ma (dirà meglio Foucault) dell'**anima**. Foucault parla di addomesticamento dell'anima del destinatario e chiama i soggetti disciplinati **[[corpi-docili|«corpi docili»]]**: un recepimento totale, a livello psicologico, dell'istanza normativa.\n\nPunto di contatto tra Ross e Foucault è la dimensione **psicoanalitica**, ma non allo stesso modo: Ross privilegia il punto di vista del custode e guarda agli **effetti** della norma sul destinatario, senza analizzarne il funzionamento; Foucault, pur grande critico della psicoanalisi, la conosce a fondo e la usa.\n\n### Lo schema ad albero\nLe categorie **osservatore**, **custode dell'osservanza** e **osservante** permettono di ricostruire le teorie a partire dal punto di vista; si influenzano reciprocamente (ogni teoria ne privilegia una, ma tutte contano: Ross e Foucault parlano anche dei destinatari). Lo schema procede per **bipartizioni contrapposte**:\n- punto di vista **oggettivo** (Kelsen) / **soggettivo**;\n- il soggettivo si divide in **custodi dell'osservanza** e **[[osservanti]]**;\n- i custodi in **Ross** (corti) e **Foucault** (dispositivi);\n- gli osservanti in una figura della teoria classica del Novecento, contemporanea di Ross (**Hart**), e una postmoderna (**[[john-searle|Searle]]**, che vede il lato «luminoso» del potere costitutivo delle regole).\n\nPossibili domande d'esame: il ruolo dei destinatari in Ross; le figure del destinatario nelle varie teorie, con analogie e differenze. All'esame bisogna saper costruire **percorsi propri**.",
       "puntiChiave": [
@@ -68,103 +117,891 @@
         "Schema ad albero: oggettivo/soggettivo; custodi (Ross, Foucault) e osservanti (Hart, Searle)."
       ],
       "memoria": [
-        { "voce": "Legalità / legittimità", "dettaglio": "limiti del potere / giustificazione del potere" },
-        { "voce": "Corpi docili", "dettaglio": "Foucault: soggetti disciplinati che hanno interiorizzato la norma" },
-        { "voce": "Jacques-Alain Miller", "dettaglio": "psicoanalista che rilegge il Panopticon prima di Sorvegliare e punire" },
-        { "voce": "Schema dei punti di vista", "dettaglio": "custodi: Ross, Foucault; osservanti: Hart, Searle" }
+        {
+          "voce": "Legalità / legittimità",
+          "dettaglio": "limiti del potere / giustificazione del potere"
+        },
+        {
+          "voce": "Corpi docili",
+          "dettaglio": "Foucault: soggetti disciplinati che hanno interiorizzato la norma"
+        },
+        {
+          "voce": "Jacques-Alain Miller",
+          "dettaglio": "psicoanalista che rilegge il Panopticon prima di Sorvegliare e punire"
+        },
+        {
+          "voce": "Schema dei punti di vista",
+          "dettaglio": "custodi: Ross, Foucault; osservanti: Hart, Searle"
+        }
       ],
-      "concetti": ["legittimita", "potere-disciplinare", "alf-ross", "panopticon", "dispositivo", "sapere-potere", "corpi-docili", "osservanti", "custodi-dell-osservanza", "john-searle", "michel-foucault"]
+      "concetti": [
+        "legittimita",
+        "potere-disciplinare",
+        "alf-ross",
+        "panopticon",
+        "dispositivo",
+        "sapere-potere",
+        "corpi-docili",
+        "osservanti",
+        "custodi-dell-osservanza",
+        "john-searle",
+        "michel-foucault"
+      ]
     }
   ],
   "concetti": [
-    { "id": "sapere-potere", "nome": "Sapere e potere", "tipo": "concetto", "breve": "Per Foucault il sapere raccolto dall'osservazione non serve solo a conoscere ma a controllare: è esercizio di potere.", "definizione": "Prima differenza tra i custodi: in [[alf-ross|Ross]] il sapere serve a prevedere le regole efficaci; nel [[panopticon]] di [[michel-foucault|Foucault]] si raccolgono capillarmente tutte le informazioni sugli osservati per gestirli e controllarli: un sapere che esercita un potere.", "pagine": [107, 109] },
-    { "id": "potere-disciplinare", "nome": "Potere disciplinare", "tipo": "concetto", "alias": ["società disciplinari", "società della disciplina"], "breve": "Potere positivo che agisce a monte, crea e normalizza i comportamenti e prende in carico l'intera vita (Foucault).", "definizione": "Foucault lo contrappone al potere prescrittivo-sanzionatorio di Kelsen e Ross, che è negativo e agisce a valle sull'illecito. Il potere disciplinare **addomestica**: crea lo spazio d'azione, costituisce il soggetto, promuove comportamenti e modi di pensare ([[normalizzazione]]). È normativo in senso lato (prodotto da [[dispositivo|dispositivi]]), privo di legittimazione democratica, anonimo. Caratterizza le società disciplinari e di controllo.", "pagine": [109, 113] },
-    { "id": "biopolitica", "nome": "Potere biopolitico", "tipo": "concetto", "alias": ["biopolitica", "biopotere"], "breve": "Il potere che gestisce la vita in tutti i suoi aspetti, dal biologico al sociale, e costituisce la soggettività.", "definizione": "Per [[michel-foucault|Foucault]] la politica diventa gestione della vita: il potere biopolitico prende in carico ogni aspetto dell'esistenza e costruisce la nostra soggettività. Vi si resiste con le [[tecniche-del-se|tecniche del sé]].", "pagine": [111, 111] },
-    { "id": "tecniche-del-se", "nome": "Tecniche del sé", "tipo": "concetto", "alias": ["pratiche di soggettivazione", "estetica dell'esistenza"], "breve": "Pratiche, recuperate dai Greci, con cui il singolo si ritaglia un margine di resistenza al potere biopolitico.", "definizione": "Nell'ultima fase [[michel-foucault|Foucault]] recupera dal pensiero greco antico pratiche discorsive (come il dire la verità al potere) che costruiscono una soggettività capace di sfuggire al potere: un'estetica dell'esistenza come resistenza all'omologazione. Critica: è una fuga solo individuale.", "pagine": [111, 111] },
-    { "id": "legittimita", "nome": "Legalità e legittimità", "tipo": "concetto", "alias": ["legittimità", "legalità"], "breve": "Legalità: giustificazione dei limiti del potere; legittimità: giustificazione del potere stesso.", "definizione": "Il potere giuridico, nelle democrazie liberali, è legittimato politicamente e democraticamente; i poteri disciplinari dei [[dispositivo|dispositivi]] non hanno una fonte legittima e possono essere contro-giuridici: chi controlla il controllore?", "pagine": [112, 112] },
-    { "id": "corpi-docili", "nome": "Corpi docili", "tipo": "concetto", "breve": "Foucault: i soggetti disciplinati, il cui corpo e la cui anima hanno interiorizzato totalmente l'istanza normativa.", "definizione": "Espressione di [[michel-foucault|Foucault]] per l'effetto del [[potere-disciplinare]]: un addomesticamento dell'anima, un recepimento totale a livello psicologico della norma. Prima di lui lo psicoanalista Jacques-Alain Miller aveva letto il Panopticon come condizionamento psicoanalitico.", "pagine": [115, 115] }
+    {
+      "id": "sapere-potere",
+      "nome": "Sapere e potere",
+      "tipo": "concetto",
+      "breve": "Per Foucault il sapere raccolto dall'osservazione non serve solo a conoscere ma a controllare: è esercizio di potere.",
+      "definizione": "Prima differenza tra i custodi: in [[alf-ross|Ross]] il sapere serve a prevedere le regole efficaci; nel [[panopticon]] di [[michel-foucault|Foucault]] si raccolgono capillarmente tutte le informazioni sugli osservati per gestirli e controllarli: un sapere che esercita un potere.",
+      "pagine": [
+        107,
+        109
+      ]
+    },
+    {
+      "id": "potere-disciplinare",
+      "nome": "Potere disciplinare",
+      "tipo": "concetto",
+      "alias": [
+        "società disciplinari",
+        "società della disciplina"
+      ],
+      "breve": "Potere positivo che agisce a monte, crea e normalizza i comportamenti e prende in carico l'intera vita (Foucault).",
+      "definizione": "Foucault lo contrappone al potere prescrittivo-sanzionatorio di Kelsen e Ross, che è negativo e agisce a valle sull'illecito. Il potere disciplinare **addomestica**: crea lo spazio d'azione, costituisce il soggetto, promuove comportamenti e modi di pensare ([[normalizzazione]]). È normativo in senso lato (prodotto da [[dispositivo|dispositivi]]), privo di legittimazione democratica, anonimo. Caratterizza le società disciplinari e di controllo.",
+      "pagine": [
+        109,
+        113
+      ]
+    },
+    {
+      "id": "biopolitica",
+      "nome": "Potere biopolitico",
+      "tipo": "concetto",
+      "alias": [
+        "biopolitica",
+        "biopotere"
+      ],
+      "breve": "Il potere che gestisce la vita in tutti i suoi aspetti, dal biologico al sociale, e costituisce la soggettività.",
+      "definizione": "Per [[michel-foucault|Foucault]] la politica diventa gestione della vita: il potere biopolitico prende in carico ogni aspetto dell'esistenza e costruisce la nostra soggettività. Vi si resiste con le [[tecniche-del-se|tecniche del sé]].",
+      "pagine": [
+        111,
+        111
+      ]
+    },
+    {
+      "id": "tecniche-del-se",
+      "nome": "Tecniche del sé",
+      "tipo": "concetto",
+      "alias": [
+        "pratiche di soggettivazione",
+        "estetica dell'esistenza"
+      ],
+      "breve": "Pratiche, recuperate dai Greci, con cui il singolo si ritaglia un margine di resistenza al potere biopolitico.",
+      "definizione": "Nell'ultima fase [[michel-foucault|Foucault]] recupera dal pensiero greco antico pratiche discorsive (come il dire la verità al potere) che costruiscono una soggettività capace di sfuggire al potere: un'estetica dell'esistenza come resistenza all'omologazione. Critica: è una fuga solo individuale.",
+      "pagine": [
+        111,
+        111
+      ]
+    },
+    {
+      "id": "legittimita",
+      "nome": "Legalità e legittimità",
+      "tipo": "concetto",
+      "alias": [
+        "legittimità",
+        "legalità"
+      ],
+      "breve": "Legalità: giustificazione dei limiti del potere; legittimità: giustificazione del potere stesso.",
+      "definizione": "Il potere giuridico, nelle democrazie liberali, è legittimato politicamente e democraticamente; i poteri disciplinari dei [[dispositivo|dispositivi]] non hanno una fonte legittima e possono essere contro-giuridici: chi controlla il controllore?",
+      "pagine": [
+        112,
+        112
+      ]
+    },
+    {
+      "id": "corpi-docili",
+      "nome": "Corpi docili",
+      "tipo": "concetto",
+      "breve": "Foucault: i soggetti disciplinati, il cui corpo e la cui anima hanno interiorizzato totalmente l'istanza normativa.",
+      "definizione": "Espressione di [[michel-foucault|Foucault]] per l'effetto del [[potere-disciplinare]]: un addomesticamento dell'anima, un recepimento totale a livello psicologico della norma. Prima di lui lo psicoanalista Jacques-Alain Miller aveva letto il Panopticon come condizionamento psicoanalitico.",
+      "pagine": [
+        115,
+        115
+      ]
+    }
   ],
   "relazioni": [
-    { "da": "michel-foucault", "a": "sapere-potere", "tipo": "crea" },
-    { "da": "panopticon", "a": "sapere-potere", "tipo": "esempio-di" },
-    { "da": "michel-foucault", "a": "potere-disciplinare", "tipo": "crea" },
-    { "da": "potere-disciplinare", "a": "normalizzazione", "tipo": "causa" },
-    { "da": "potere-disciplinare", "a": "biopolitica", "tipo": "evolve-in" },
-    { "da": "tecniche-del-se", "a": "biopolitica", "tipo": "contrasta", "etichetta": "resistono al" },
-    { "da": "potere-disciplinare", "a": "legittimita", "tipo": "contrasta", "etichetta": "privo di" },
-    { "da": "potere-disciplinare", "a": "corpi-docili", "tipo": "causa", "etichetta": "produce" },
-    { "da": "potere-disciplinare", "a": "governance", "tipo": "collegato", "etichetta": "annuncia la" },
-    { "da": "kelsen", "a": "potere-disciplinare", "tipo": "contrasta", "etichetta": "potere prescrittivo-sanzionatorio" },
-    { "da": "alf-ross", "a": "michel-foucault", "tipo": "collegato", "etichetta": "due custodi dell'osservanza" }
+    {
+      "da": "michel-foucault",
+      "a": "sapere-potere",
+      "tipo": "crea"
+    },
+    {
+      "da": "panopticon",
+      "a": "sapere-potere",
+      "tipo": "esempio-di"
+    },
+    {
+      "da": "michel-foucault",
+      "a": "potere-disciplinare",
+      "tipo": "crea"
+    },
+    {
+      "da": "potere-disciplinare",
+      "a": "normalizzazione",
+      "tipo": "causa"
+    },
+    {
+      "da": "potere-disciplinare",
+      "a": "biopolitica",
+      "tipo": "evolve-in"
+    },
+    {
+      "da": "tecniche-del-se",
+      "a": "biopolitica",
+      "tipo": "contrasta",
+      "etichetta": "resistono al"
+    },
+    {
+      "da": "potere-disciplinare",
+      "a": "legittimita",
+      "tipo": "contrasta",
+      "etichetta": "privo di"
+    },
+    {
+      "da": "potere-disciplinare",
+      "a": "corpi-docili",
+      "tipo": "causa",
+      "etichetta": "produce"
+    },
+    {
+      "da": "potere-disciplinare",
+      "a": "governance",
+      "tipo": "collegato",
+      "etichetta": "annuncia la"
+    },
+    {
+      "da": "kelsen",
+      "a": "potere-disciplinare",
+      "tipo": "contrasta",
+      "etichetta": "potere prescrittivo-sanzionatorio"
+    },
+    {
+      "da": "alf-ross",
+      "a": "michel-foucault",
+      "tipo": "collegato",
+      "etichetta": "due custodi dell'osservanza"
+    }
   ],
   "eventi": [
-    { "id": "ev-macchina-panottica-miller", "anno": 1973, "data": "1973 d.C.", "titolo": "Jacques-Alain Miller rilegge il Panopticon", "descrizione": "Prima di Sorvegliare e punire, lo psicoanalista Miller vede nel Panopticon un condizionamento psicologico e psicoanalitico.", "tipo": "opera", "concetti": ["panopticon", "corpi-docili"], "pagine": [115, 115] }
+    {
+      "id": "ev-macchina-panottica-miller",
+      "anno": 1973,
+      "data": "1973 d.C.",
+      "titolo": "Jacques-Alain Miller rilegge il Panopticon",
+      "descrizione": "Prima di Sorvegliare e punire, lo psicoanalista Miller vede nel Panopticon un condizionamento psicologico e psicoanalitico.",
+      "tipo": "opera",
+      "concetti": [
+        "panopticon",
+        "corpi-docili"
+      ],
+      "pagine": [
+        115,
+        115
+      ]
+    }
   ],
   "mappa": {
     "testo": "Ross e Foucault: quattro differenze",
     "figli": [
-      { "testo": "1. Il sapere", "concetto": "sapere-potere", "figli": [
-        { "testo": "Ross: prevedere le regole efficaci" },
-        { "testo": "Foucault: controllare e gestire", "nota": "il sapere esercita potere" }
-      ]},
-      { "testo": "2. Il potere", "concetto": "potere-disciplinare", "figli": [
-        { "testo": "Prescrittivo-sanzionatorio: a valle", "nota": "negativo; Kelsen, Ross; liberale" },
-        { "testo": "Disciplinare: a monte", "nota": "positivo, crea, prende in carico la vita" },
-        { "testo": "Biopolitica e tecniche del sé", "concetto": "biopolitica" }
-      ]},
-      { "testo": "3. La legittimazione", "concetto": "legittimita", "figli": [
-        { "testo": "Giuridico: legittimato democraticamente" },
-        { "testo": "Disciplinare: senza fonte, contro-giuridico" }
-      ]},
-      { "testo": "4. Il volto", "concetto": "dispositivo", "figli": [
-        { "testo": "Corti: nome e volto" },
-        { "testo": "Dispositivo anonimo", "nota": "Kafka, algoritmi" },
-        { "testo": "Corpi docili", "concetto": "corpi-docili" }
-      ]},
-      { "testo": "Schema dei punti di vista", "concetto": "osservanti", "figli": [
-        { "testo": "Custodi: Ross, Foucault", "concetto": "custodi-dell-osservanza" },
-        { "testo": "Osservanti: Hart, Searle", "concetto": "osservanti" }
-      ]}
+      {
+        "testo": "1. Il sapere",
+        "concetto": "sapere-potere",
+        "figli": [
+          {
+            "testo": "Ross: prevedere le regole efficaci"
+          },
+          {
+            "testo": "Foucault: controllare e gestire",
+            "nota": "il sapere esercita potere"
+          }
+        ]
+      },
+      {
+        "testo": "2. Il potere",
+        "concetto": "potere-disciplinare",
+        "figli": [
+          {
+            "testo": "Prescrittivo-sanzionatorio: a valle",
+            "nota": "negativo; Kelsen, Ross; liberale"
+          },
+          {
+            "testo": "Disciplinare: a monte",
+            "nota": "positivo, crea, prende in carico la vita"
+          },
+          {
+            "testo": "Biopolitica e tecniche del sé",
+            "concetto": "biopolitica"
+          }
+        ]
+      },
+      {
+        "testo": "3. La legittimazione",
+        "concetto": "legittimita",
+        "figli": [
+          {
+            "testo": "Giuridico: legittimato democraticamente"
+          },
+          {
+            "testo": "Disciplinare: senza fonte, contro-giuridico"
+          }
+        ]
+      },
+      {
+        "testo": "4. Il volto",
+        "concetto": "dispositivo",
+        "figli": [
+          {
+            "testo": "Corti: nome e volto"
+          },
+          {
+            "testo": "Dispositivo anonimo",
+            "nota": "Kafka, algoritmi"
+          },
+          {
+            "testo": "Corpi docili",
+            "concetto": "corpi-docili"
+          }
+        ]
+      },
+      {
+        "testo": "Schema dei punti di vista",
+        "concetto": "osservanti",
+        "figli": [
+          {
+            "testo": "Custodi: Ross, Foucault",
+            "concetto": "custodi-dell-osservanza"
+          },
+          {
+            "testo": "Osservanti: Hart, Searle",
+            "concetto": "osservanti"
+          }
+        ]
+      }
     ]
   },
   "domande": [
-    { "id": "u10-q001", "tipo": "flashcard", "lezione": "u10-l1", "livello": "medio", "domanda": "Qual è la prima differenza tra il custode dell'osservanza di Ross e quello di Foucault?", "risposta": "Lo scopo del sapere: in Ross si conosce per **prevedere** le regole efficaci (le strategie delle corti); nel Panopticon si raccolgono capillarmente tutte le informazioni sugli osservati per **controllarli e gestirli**: un sapere che esercita un potere.", "concetti": ["sapere-potere", "alf-ross", "michel-foucault"], "pagine": [107, 109] },
-    { "id": "u10-q002", "tipo": "flashcard", "lezione": "u10-l1", "livello": "base", "domanda": "Che cosa conosce il guardiano dalla torretta del Panopticon?", "risposta": "Non solo le regole seguite dai detenuti, ma ogni altra informazione: le loro paure, tutti gli aspetti della loro vita. È un sapere per gestire al meglio l'esperienza detentiva e l'ordine dell'istituto.", "concetti": ["panopticon", "sapere-potere"], "pagine": [107, 108] },
-    { "id": "u10-q003", "tipo": "multipla", "lezione": "u10-l1", "livello": "base", "domanda": "A che cosa mira l'epistemologia di Ross?", "opzioni": ["A controllare ogni aspetto della vita dei destinatari", "A conoscere le regole efficaci in un contesto sociale", "A fondare la norma fondamentale", "A interpretare la Costituzione"], "corretta": 1, "spiegazione": "Le regole che prevedo saranno applicate dai custodi dell'osservanza.", "concetti": ["alf-ross", "efficacia"], "pagine": [107, 107] },
-    { "id": "u10-q004", "tipo": "verofalso", "lezione": "u10-l1", "livello": "medio", "affermazione": "Il sapere panottico è più generalizzato e capillare delle previsioni di Ross.", "vero": true, "spiegazione": "È una raccolta di dati attraverso un processo di osservazione costante, finalizzata a esercitare un potere.", "concetti": ["sapere-potere"], "pagine": [109, 109] },
-    { "id": "u10-q005", "tipo": "completa", "lezione": "u10-l1", "livello": "base", "testo": "Nel Panopticon il sapere è finalizzato al {{controllo}}: è un sapere che esercita un {{potere}}.", "concetti": ["sapere-potere"], "pagine": [108, 109] },
-    { "id": "u10-q006", "tipo": "flashcard", "lezione": "u10-l2", "livello": "medio", "domanda": "Che differenza c'è tra potere prescrittivo-sanzionatorio e potere disciplinare?", "risposta": "Il **prescrittivo-sanzionatorio** (Kelsen, Ross) è negativo: interdice e agisce **a valle**, sanzionando l'illecito; lascia liberi finché non lo si compie. Il **disciplinare** (Foucault) è positivo: agisce **a monte**, addomestica, crea lo spazio d'azione, promuove comportamenti e prende in carico l'intera vita.", "concetti": ["potere-disciplinare"], "pagine": [109, 110] },
-    { "id": "u10-q007", "tipo": "flashcard", "lezione": "u10-l2", "livello": "medio", "domanda": "Che cos'è il potere biopolitico?", "risposta": "Il potere che gestisce la vita in tutti i suoi aspetti, dal biologico al sociale: la politica come gestione della vita. Per Foucault è ciò che costituisce la nostra soggettività.", "concetti": ["biopolitica"], "pagine": [111, 111] },
-    { "id": "u10-q008", "tipo": "flashcard", "lezione": "u10-l2", "livello": "avanzato", "domanda": "Che cosa sono le tecniche del sé e quale critica si muove a Foucault su questo punto?", "risposta": "Pratiche di soggettivazione recuperate dal pensiero greco (es. dire la verità al potere) con cui il singolo costruisce un margine di resistenza al potere biopolitico: un'estetica dell'esistenza contro l'omologazione. Critica: la fuga è sempre individuale, mai collettiva.", "concetti": ["tecniche-del-se", "biopolitica"], "pagine": [111, 111] },
-    { "id": "u10-q009", "tipo": "flashcard", "lezione": "u10-l2", "livello": "medio", "domanda": "Perché, nella Storia della sessualità, Foucault rovescia l'indagine?", "risposta": "Perché mostra che il potere non ha solo censurato la sessualità: facendone parlare, attraverso pratiche discorsive, ha costruito la soggettività moderna. È un potere che dialoga e produce, non solo che reprime.", "concetti": ["michel-foucault", "biopolitica"], "pagine": [111, 111] },
-    { "id": "u10-q010", "tipo": "multipla", "lezione": "u10-l2", "livello": "base", "domanda": "Perché la teoria di Kelsen è definita liberale?", "opzioni": ["Perché affida tutto al mercato", "Perché il potere giuridico non prende in carico le azioni finché non si compie un illecito", "Perché nega la sanzione", "Perché si fonda sul contratto sociale"], "corretta": 1, "spiegazione": "Finché non compi un atto illecito sei libero di gestire la tua vita.", "concetti": ["kelsen"], "pagine": [110, 110] },
-    { "id": "u10-q011", "tipo": "multipla", "lezione": "u10-l2", "livello": "medio", "domanda": "Secondo il corso, il potere della norma in Ross è più vicino a quello di Kelsen o di Foucault?", "opzioni": ["A quello di Foucault, perché è psicologico", "A quello di Kelsen: sanziona il comportamento deviante che interrompe il ronzio della macchina", "A nessuno dei due", "A quello di Bentham"], "corretta": 1, "spiegazione": "Pur in prospettiva diversa, anche in Ross il potere è deterrente e sanzionatorio.", "concetti": ["alf-ross", "kelsen"], "pagine": [109, 109] },
-    { "id": "u10-q012", "tipo": "verofalso", "lezione": "u10-l2", "livello": "base", "affermazione": "Per Foucault il potere è solo ciò che proibisce e sanziona.", "vero": false, "spiegazione": "È il primo a pensarlo anche come istanza positiva, che crea, costituisce e promuove.", "concetti": ["potere-disciplinare"], "pagine": [109, 110] },
-    { "id": "u10-q013", "tipo": "verofalso", "lezione": "u10-l2", "livello": "medio", "affermazione": "Foucault è una figura di transizione dall'ordine fondato su sovranità e ordinamento all'ordine fondato sulla governance.", "vero": true, "spiegazione": "Non usa il termine governance, ma i suoi interpreti ricollegano a lui questo passaggio.", "concetti": ["governance", "michel-foucault"], "pagine": [110, 110] },
-    { "id": "u10-q014", "tipo": "completa", "lezione": "u10-l2", "livello": "base", "testo": "Il potere prescrittivo-sanzionatorio agisce a {{valle}}, quello disciplinare a {{monte}}.", "concetti": ["potere-disciplinare"], "pagine": [109, 109] },
-    { "id": "u10-q015", "tipo": "aperta", "lezione": "u10-l2", "livello": "avanzato", "domanda": "Il potere che si esercita nel Panopticon è lo stesso della norma in Kelsen? (domanda d'esame)", "traccia": "No. In **Kelsen** il potere della norma è **prescrittivo-sanzionatorio**: qualifica negativamente un comportamento e gli imputa una sanzione; è deterrente. In **Ross**, pur in un'altra prospettiva, è simile: la norma sanziona il comportamento deviante che interrompe il ronzio della **macchina**. È un potere **negativo** che agisce **a valle**; la visione è **liberale**: sei libero finché non compi un illecito.\n\nIl potere del **Panopticon** è **disciplinare**: agisce **a monte**, **addomestica**, crea e costituisce il soggetto, promuove comportamenti e modi di pensare (**normalizzazione**), prende in carico **l'intera vita**: è il potere **biopolitico**. È normativo in senso lato, prodotto da **dispositivi**; segna il passaggio dalla società del diritto alla **società della disciplina** e, poi, alla governance. Vi si resiste con le **tecniche del sé**.", "punti": [
-      { "testo": "Kelsen: potere prescrittivo-sanzionatorio, deterrente", "chiavi": ["prescrittivo", "sanzionator", "kelsen"] },
-      { "testo": "Ross simile: la macchina e il comportamento deviante", "chiavi": ["ross", "macchina", "deviante"] },
-      { "testo": "Negativo, a valle, visione liberale", "chiavi": ["negativ", "valle", "liberal"] },
-      { "testo": "Disciplinare: positivo, a monte, crea, normalizza", "chiavi": ["disciplin", "monte", "positiv", "normalizz"] },
-      { "testo": "Biopolitica, intera vita, dispositivi", "chiavi": ["biopolit", "vita", "dispositiv"] }
-    ], "concetti": ["potere-disciplinare", "biopolitica", "kelsen"], "pagine": [109, 111] },
-    { "id": "u10-q016", "tipo": "flashcard", "lezione": "u10-l3", "livello": "base", "domanda": "Che differenza c'è tra legalità e legittimità?", "risposta": "La **legalità** è la giustificazione dei limiti entro cui un potere si esercita; la **legittimità** è la giustificazione del potere stesso.", "concetti": ["legittimita"], "pagine": [112, 112] },
-    { "id": "u10-q017", "tipo": "flashcard", "lezione": "u10-l3", "livello": "medio", "domanda": "Quali sono le quattro differenze tra i custodi dell'osservanza di Ross e di Foucault?", "risposta": "1) **Sapere**: prevedere vs controllare e gestire. 2) **Potere**: prescrittivo-sanzionatorio negativo vs disciplinare positivo (biopolitico). 3) **Natura e legittimazione**: giuridico e legittimato democraticamente vs normativo in senso lato, senza fonte legittima, talvolta contro-giuridico. 4) **Volto**: le corti hanno un nome, il dispositivo è anonimo.", "concetti": ["custodi-dell-osservanza", "potere-disciplinare", "legittimita"], "pagine": [107, 114] },
-    { "id": "u10-q018", "tipo": "flashcard", "lezione": "u10-l3", "livello": "medio", "domanda": "Che cosa intende Foucault con «corpi docili»?", "risposta": "I soggetti disciplinati, il cui corpo e soprattutto la cui anima hanno recepito totalmente, a livello psicologico, l'istanza normativa: l'addomesticamento produce soggetti che seguono la regola ciecamente.", "concetti": ["corpi-docili"], "pagine": [115, 115] },
-    { "id": "u10-q019", "tipo": "flashcard", "lezione": "u10-l3", "livello": "avanzato", "domanda": "In che senso il custode dell'osservanza di Foucault è anonimo e perché è un problema?", "risposta": "Le corti di Ross (e il legislatore di Kelsen) hanno nome e volto; il custode panottico, come i poteri dietro gli algoritmi, gestisce l'ordine da una posizione di totale anonimato (come nel Processo di Kafka). Senza volto e senza legittimazione democratica, sfugge al controllo: il diritto deve cercare strumenti nuovi per normarlo.", "concetti": ["dispositivo", "legittimita"], "pagine": [112, 114] },
-    { "id": "u10-q020", "tipo": "multipla", "lezione": "u10-l3", "livello": "base", "domanda": "Chi rilegge il Panopticon in chiave psicoanalitica prima di Sorvegliare e punire?", "opzioni": ["Jacques Lacan", "Jacques-Alain Miller", "Jacques Derrida", "Sigmund Freud"], "corretta": 1, "spiegazione": "Lo psicoanalista Jacques-Alain Miller, qualche anno prima di Foucault.", "concetti": ["corpi-docili", "panopticon"], "pagine": [115, 115] },
-    { "id": "u10-q021", "tipo": "multipla", "lezione": "u10-l3", "livello": "medio", "domanda": "Nello schema ad albero del corso, quali autori rappresentano gli osservanti?", "opzioni": ["Kelsen e Ross", "Ross e Foucault", "Hart e Searle", "Winch e Wittgenstein"], "corretta": 2, "spiegazione": "Hart per la teoria classica del Novecento, Searle per quella postmoderna.", "concetti": ["osservanti"], "pagine": [112, 115] },
-    { "id": "u10-q022", "tipo": "verofalso", "lezione": "u10-l3", "livello": "base", "affermazione": "Secondo il corso i poteri disciplinari hanno, come il potere giuridico, una legittimazione democratica.", "vero": false, "spiegazione": "Non hanno una fonte legittima e spesso sono contro-giuridici.", "concetti": ["legittimita", "potere-disciplinare"], "pagine": [112, 112] },
-    { "id": "u10-q023", "tipo": "verofalso", "lezione": "u10-l3", "livello": "medio", "affermazione": "Ross privilegia gli effetti della norma sul destinatario, senza analizzare a fondo il funzionamento psicologico; Foucault invece lo analizza, pur criticando la psicoanalisi.", "vero": true, "spiegazione": "La dimensione psicoanalitica è un punto di contatto, ma sviluppato in modo diverso.", "concetti": ["alf-ross", "michel-foucault"], "pagine": [115, 115] },
-    { "id": "u10-q024", "tipo": "completa", "lezione": "u10-l3", "livello": "base", "testo": "Foucault chiama «{{corpi docili}}» i soggetti disciplinati dal potere.", "concetti": ["corpi-docili"], "pagine": [115, 115] },
-    { "id": "u10-q025", "tipo": "aperta", "lezione": "u10-l3", "livello": "medio", "domanda": "Confronta i custodi dell'osservanza di Ross e di Foucault.", "traccia": "**Sapere**: in Ross serve a prevedere le regole **efficaci** (le strategie delle corti); nel **Panopticon** si raccolgono tutte le informazioni per **controllare e gestire**: il sapere esercita un potere.\n\n**Potere**: in Ross (come in Kelsen) **prescrittivo-sanzionatorio**, negativo, a valle; in Foucault **disciplinare**, positivo, a monte, che crea e normalizza e prende in carico la vita (**biopolitica**).\n\n**Legittimazione**: il potere giuridico è legittimato democraticamente; quello disciplinare è normativo in senso lato, senza fonte legittima, talvolta **contro-giuridico** (legalità/legittimità).\n\n**Volto**: le **corti** hanno nome e volto; il **dispositivo** è **anonimo** (Kafka, algoritmi). Perché seguo le regole? Per Ross perché prevedo che verranno applicate; per Foucault perché non posso fare altrimenti: le ho introiettate (**corpi docili**).", "punti": [
-      { "testo": "Sapere: prevedere vs controllare", "chiavi": ["preved", "controll"] },
-      { "testo": "Potere: sanzionatorio vs disciplinare", "chiavi": ["sanzionator", "disciplin"] },
-      { "testo": "Legittimazione democratica vs contro-giuridico", "chiavi": ["legittim", "democratic", "contro"] },
-      { "testo": "Corti con volto vs dispositivo anonimo", "chiavi": ["anonim", "corti", "volto"] },
-      { "testo": "Introiezione, corpi docili", "chiavi": ["docili", "introiet", "altrimenti"] }
-    ], "concetti": ["custodi-dell-osservanza", "potere-disciplinare", "alf-ross", "michel-foucault"], "pagine": [107, 115] },
-    { "id": "u10-q026", "tipo": "abbina", "lezione": "u10-l3", "livello": "base", "consegna": "Abbina ogni concetto alla sua definizione.", "coppie": [["Potere disciplinare", "Potere positivo che crea e normalizza a monte"], ["Biopolitica", "Gestione della vita dal biologico al sociale"], ["Tecniche del sé", "Pratiche individuali di resistenza al potere"], ["Legittimità", "Giustificazione del potere stesso"], ["Corpi docili", "Soggetti che hanno interiorizzato la norma"]], "concetti": ["potere-disciplinare", "biopolitica", "tecniche-del-se", "legittimita", "corpi-docili"], "pagine": [109, 115] }
+    {
+      "id": "u10-q001",
+      "tipo": "flashcard",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "domanda": "Qual è la prima differenza tra il custode dell'osservanza di Ross e quello di Foucault?",
+      "risposta": "Lo scopo del sapere: in Ross si conosce per **prevedere** le regole efficaci (le strategie delle corti); nel Panopticon si raccolgono capillarmente tutte le informazioni sugli osservati per **controllarli e gestirli**: un sapere che esercita un potere.",
+      "concetti": [
+        "sapere-potere",
+        "alf-ross",
+        "michel-foucault"
+      ],
+      "pagine": [
+        107,
+        109
+      ]
+    },
+    {
+      "id": "u10-q002",
+      "tipo": "flashcard",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "domanda": "Che cosa conosce il guardiano dalla torretta del Panopticon?",
+      "risposta": "Non solo le regole seguite dai detenuti, ma ogni altra informazione: le loro paure, tutti gli aspetti della loro vita. È un sapere per gestire al meglio l'esperienza detentiva e l'ordine dell'istituto.",
+      "concetti": [
+        "panopticon",
+        "sapere-potere"
+      ],
+      "pagine": [
+        107,
+        108
+      ]
+    },
+    {
+      "id": "u10-q003",
+      "tipo": "multipla",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "domanda": "A che cosa mira l'epistemologia di Ross?",
+      "opzioni": [
+        "A controllare ogni aspetto della vita dei destinatari",
+        "A conoscere le regole efficaci in un contesto sociale",
+        "A fondare la norma fondamentale",
+        "A interpretare la Costituzione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le regole che prevedo saranno applicate dai custodi dell'osservanza.",
+      "concetti": [
+        "alf-ross",
+        "efficacia"
+      ],
+      "pagine": [
+        107,
+        107
+      ]
+    },
+    {
+      "id": "u10-q004",
+      "tipo": "verofalso",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "affermazione": "Il sapere panottico è più generalizzato e capillare delle previsioni di Ross.",
+      "vero": true,
+      "spiegazione": "È una raccolta di dati attraverso un processo di osservazione costante, finalizzata a esercitare un potere.",
+      "concetti": [
+        "sapere-potere"
+      ],
+      "pagine": [
+        109,
+        109
+      ]
+    },
+    {
+      "id": "u10-q005",
+      "tipo": "completa",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "testo": "Nel Panopticon il sapere è finalizzato al {{controllo}}: è un sapere che esercita un {{potere}}.",
+      "concetti": [
+        "sapere-potere"
+      ],
+      "pagine": [
+        108,
+        109
+      ]
+    },
+    {
+      "id": "u10-q006",
+      "tipo": "flashcard",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "domanda": "Che differenza c'è tra potere prescrittivo-sanzionatorio e potere disciplinare?",
+      "risposta": "Il **prescrittivo-sanzionatorio** (Kelsen, Ross) è negativo: interdice e agisce **a valle**, sanzionando l'illecito; lascia liberi finché non lo si compie. Il **disciplinare** (Foucault) è positivo: agisce **a monte**, addomestica, crea lo spazio d'azione, promuove comportamenti e prende in carico l'intera vita.",
+      "concetti": [
+        "potere-disciplinare"
+      ],
+      "pagine": [
+        109,
+        110
+      ]
+    },
+    {
+      "id": "u10-q007",
+      "tipo": "flashcard",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "domanda": "Che cos'è il potere biopolitico?",
+      "risposta": "Il potere che gestisce la vita in tutti i suoi aspetti, dal biologico al sociale: la politica come gestione della vita. Per Foucault è ciò che costituisce la nostra soggettività.",
+      "concetti": [
+        "biopolitica"
+      ],
+      "pagine": [
+        111,
+        111
+      ]
+    },
+    {
+      "id": "u10-q008",
+      "tipo": "flashcard",
+      "lezione": "u10-l2",
+      "livello": "avanzato",
+      "domanda": "Che cosa sono le tecniche del sé e quale critica si muove a Foucault su questo punto?",
+      "risposta": "Pratiche di soggettivazione recuperate dal pensiero greco (es. dire la verità al potere) con cui il singolo costruisce un margine di resistenza al potere biopolitico: un'estetica dell'esistenza contro l'omologazione. Critica: la fuga è sempre individuale, mai collettiva.",
+      "concetti": [
+        "tecniche-del-se",
+        "biopolitica"
+      ],
+      "pagine": [
+        111,
+        111
+      ]
+    },
+    {
+      "id": "u10-q009",
+      "tipo": "flashcard",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "domanda": "Perché, nella Storia della sessualità, Foucault rovescia l'indagine?",
+      "risposta": "Perché mostra che il potere non ha solo censurato la sessualità: facendone parlare, attraverso pratiche discorsive, ha costruito la soggettività moderna. È un potere che dialoga e produce, non solo che reprime.",
+      "concetti": [
+        "michel-foucault",
+        "biopolitica"
+      ],
+      "pagine": [
+        111,
+        111
+      ]
+    },
+    {
+      "id": "u10-q010",
+      "tipo": "multipla",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "domanda": "Perché la teoria di Kelsen è definita liberale?",
+      "opzioni": [
+        "Perché affida tutto al mercato",
+        "Perché il potere giuridico non prende in carico le azioni finché non si compie un illecito",
+        "Perché nega la sanzione",
+        "Perché si fonda sul contratto sociale"
+      ],
+      "corretta": 1,
+      "spiegazione": "Finché non compi un atto illecito sei libero di gestire la tua vita.",
+      "concetti": [
+        "kelsen"
+      ],
+      "pagine": [
+        110,
+        110
+      ]
+    },
+    {
+      "id": "u10-q011",
+      "tipo": "multipla",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "domanda": "Secondo il corso, il potere della norma in Ross è più vicino a quello di Kelsen o di Foucault?",
+      "opzioni": [
+        "A quello di Foucault, perché è psicologico",
+        "A quello di Kelsen: sanziona il comportamento deviante che interrompe il ronzio della macchina",
+        "A nessuno dei due",
+        "A quello di Bentham"
+      ],
+      "corretta": 1,
+      "spiegazione": "Pur in prospettiva diversa, anche in Ross il potere è deterrente e sanzionatorio.",
+      "concetti": [
+        "alf-ross",
+        "kelsen"
+      ],
+      "pagine": [
+        109,
+        109
+      ]
+    },
+    {
+      "id": "u10-q012",
+      "tipo": "verofalso",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "affermazione": "Per Foucault il potere è solo ciò che proibisce e sanziona.",
+      "vero": false,
+      "spiegazione": "È il primo a pensarlo anche come istanza positiva, che crea, costituisce e promuove.",
+      "concetti": [
+        "potere-disciplinare"
+      ],
+      "pagine": [
+        109,
+        110
+      ]
+    },
+    {
+      "id": "u10-q013",
+      "tipo": "verofalso",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "affermazione": "Foucault è una figura di transizione dall'ordine fondato su sovranità e ordinamento all'ordine fondato sulla governance.",
+      "vero": true,
+      "spiegazione": "Non usa il termine governance, ma i suoi interpreti ricollegano a lui questo passaggio.",
+      "concetti": [
+        "governance",
+        "michel-foucault"
+      ],
+      "pagine": [
+        110,
+        110
+      ]
+    },
+    {
+      "id": "u10-q014",
+      "tipo": "completa",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "testo": "Il potere prescrittivo-sanzionatorio agisce a {{valle}}, quello disciplinare a {{monte}}.",
+      "concetti": [
+        "potere-disciplinare"
+      ],
+      "pagine": [
+        109,
+        109
+      ]
+    },
+    {
+      "id": "u10-q015",
+      "tipo": "aperta",
+      "lezione": "u10-l2",
+      "livello": "avanzato",
+      "domanda": "Il potere che si esercita nel Panopticon è lo stesso della norma in Kelsen? (domanda d'esame)",
+      "traccia": "No. In **Kelsen** il potere della norma è **prescrittivo-sanzionatorio**: qualifica negativamente un comportamento e gli imputa una sanzione; è deterrente. In **Ross**, pur in un'altra prospettiva, è simile: la norma sanziona il comportamento deviante che interrompe il ronzio della **macchina**. È un potere **negativo** che agisce **a valle**; la visione è **liberale**: sei libero finché non compi un illecito.\n\nIl potere del **Panopticon** è **disciplinare**: agisce **a monte**, **addomestica**, crea e costituisce il soggetto, promuove comportamenti e modi di pensare (**normalizzazione**), prende in carico **l'intera vita**: è il potere **biopolitico**. È normativo in senso lato, prodotto da **dispositivi**; segna il passaggio dalla società del diritto alla **società della disciplina** e, poi, alla governance. Vi si resiste con le **tecniche del sé**.",
+      "punti": [
+        {
+          "testo": "Kelsen: potere prescrittivo-sanzionatorio, deterrente",
+          "chiavi": [
+            "prescrittivo",
+            "sanzionator",
+            "kelsen"
+          ]
+        },
+        {
+          "testo": "Ross simile: la macchina e il comportamento deviante",
+          "chiavi": [
+            "ross",
+            "macchina",
+            "deviante"
+          ]
+        },
+        {
+          "testo": "Negativo, a valle, visione liberale",
+          "chiavi": [
+            "negativ",
+            "valle",
+            "liberal"
+          ]
+        },
+        {
+          "testo": "Disciplinare: positivo, a monte, crea, normalizza",
+          "chiavi": [
+            "disciplin",
+            "monte",
+            "positiv",
+            "normalizz"
+          ]
+        },
+        {
+          "testo": "Biopolitica, intera vita, dispositivi",
+          "chiavi": [
+            "biopolit",
+            "vita",
+            "dispositiv"
+          ]
+        }
+      ],
+      "concetti": [
+        "potere-disciplinare",
+        "biopolitica",
+        "kelsen"
+      ],
+      "pagine": [
+        109,
+        111
+      ]
+    },
+    {
+      "id": "u10-q016",
+      "tipo": "flashcard",
+      "lezione": "u10-l3",
+      "livello": "base",
+      "domanda": "Che differenza c'è tra legalità e legittimità?",
+      "risposta": "La **legalità** è la giustificazione dei limiti entro cui un potere si esercita; la **legittimità** è la giustificazione del potere stesso.",
+      "concetti": [
+        "legittimita"
+      ],
+      "pagine": [
+        112,
+        112
+      ]
+    },
+    {
+      "id": "u10-q017",
+      "tipo": "flashcard",
+      "lezione": "u10-l3",
+      "livello": "medio",
+      "domanda": "Quali sono le quattro differenze tra i custodi dell'osservanza di Ross e di Foucault?",
+      "risposta": "1) **Sapere**: prevedere vs controllare e gestire. 2) **Potere**: prescrittivo-sanzionatorio negativo vs disciplinare positivo (biopolitico). 3) **Natura e legittimazione**: giuridico e legittimato democraticamente vs normativo in senso lato, senza fonte legittima, talvolta contro-giuridico. 4) **Volto**: le corti hanno un nome, il dispositivo è anonimo.",
+      "concetti": [
+        "custodi-dell-osservanza",
+        "potere-disciplinare",
+        "legittimita"
+      ],
+      "pagine": [
+        107,
+        114
+      ]
+    },
+    {
+      "id": "u10-q018",
+      "tipo": "flashcard",
+      "lezione": "u10-l3",
+      "livello": "medio",
+      "domanda": "Che cosa intende Foucault con «corpi docili»?",
+      "risposta": "I soggetti disciplinati, il cui corpo e soprattutto la cui anima hanno recepito totalmente, a livello psicologico, l'istanza normativa: l'addomesticamento produce soggetti che seguono la regola ciecamente.",
+      "concetti": [
+        "corpi-docili"
+      ],
+      "pagine": [
+        115,
+        115
+      ]
+    },
+    {
+      "id": "u10-q019",
+      "tipo": "flashcard",
+      "lezione": "u10-l3",
+      "livello": "avanzato",
+      "domanda": "In che senso il custode dell'osservanza di Foucault è anonimo e perché è un problema?",
+      "risposta": "Le corti di Ross (e il legislatore di Kelsen) hanno nome e volto; il custode panottico, come i poteri dietro gli algoritmi, gestisce l'ordine da una posizione di totale anonimato (come nel Processo di Kafka). Senza volto e senza legittimazione democratica, sfugge al controllo: il diritto deve cercare strumenti nuovi per normarlo.",
+      "concetti": [
+        "dispositivo",
+        "legittimita"
+      ],
+      "pagine": [
+        112,
+        114
+      ]
+    },
+    {
+      "id": "u10-q020",
+      "tipo": "multipla",
+      "lezione": "u10-l3",
+      "livello": "base",
+      "domanda": "Chi rilegge il Panopticon in chiave psicoanalitica prima di Sorvegliare e punire?",
+      "opzioni": [
+        "Jacques Lacan",
+        "Jacques-Alain Miller",
+        "Jacques Derrida",
+        "Sigmund Freud"
+      ],
+      "corretta": 1,
+      "spiegazione": "Lo psicoanalista Jacques-Alain Miller, qualche anno prima di Foucault.",
+      "concetti": [
+        "corpi-docili",
+        "panopticon"
+      ],
+      "pagine": [
+        115,
+        115
+      ]
+    },
+    {
+      "id": "u10-q021",
+      "tipo": "multipla",
+      "lezione": "u10-l3",
+      "livello": "medio",
+      "domanda": "Nello schema ad albero del corso, quali autori rappresentano gli osservanti?",
+      "opzioni": [
+        "Kelsen e Ross",
+        "Ross e Foucault",
+        "Hart e Searle",
+        "Winch e Wittgenstein"
+      ],
+      "corretta": 2,
+      "spiegazione": "Hart per la teoria classica del Novecento, Searle per quella postmoderna.",
+      "concetti": [
+        "osservanti"
+      ],
+      "pagine": [
+        112,
+        115
+      ]
+    },
+    {
+      "id": "u10-q022",
+      "tipo": "verofalso",
+      "lezione": "u10-l3",
+      "livello": "base",
+      "affermazione": "Secondo il corso i poteri disciplinari hanno, come il potere giuridico, una legittimazione democratica.",
+      "vero": false,
+      "spiegazione": "Non hanno una fonte legittima e spesso sono contro-giuridici.",
+      "concetti": [
+        "legittimita",
+        "potere-disciplinare"
+      ],
+      "pagine": [
+        112,
+        112
+      ]
+    },
+    {
+      "id": "u10-q023",
+      "tipo": "verofalso",
+      "lezione": "u10-l3",
+      "livello": "medio",
+      "affermazione": "Ross privilegia gli effetti della norma sul destinatario, senza analizzare a fondo il funzionamento psicologico; Foucault invece lo analizza, pur criticando la psicoanalisi.",
+      "vero": true,
+      "spiegazione": "La dimensione psicoanalitica è un punto di contatto, ma sviluppato in modo diverso.",
+      "concetti": [
+        "alf-ross",
+        "michel-foucault"
+      ],
+      "pagine": [
+        115,
+        115
+      ]
+    },
+    {
+      "id": "u10-q024",
+      "tipo": "completa",
+      "lezione": "u10-l3",
+      "livello": "base",
+      "testo": "Foucault chiama «{{corpi docili}}» i soggetti disciplinati dal potere.",
+      "concetti": [
+        "corpi-docili"
+      ],
+      "pagine": [
+        115,
+        115
+      ]
+    },
+    {
+      "id": "u10-q025",
+      "tipo": "aperta",
+      "lezione": "u10-l3",
+      "livello": "medio",
+      "domanda": "Confronta i custodi dell'osservanza di Ross e di Foucault.",
+      "traccia": "**Sapere**: in Ross serve a prevedere le regole **efficaci** (le strategie delle corti); nel **Panopticon** si raccolgono tutte le informazioni per **controllare e gestire**: il sapere esercita un potere.\n\n**Potere**: in Ross (come in Kelsen) **prescrittivo-sanzionatorio**, negativo, a valle; in Foucault **disciplinare**, positivo, a monte, che crea e normalizza e prende in carico la vita (**biopolitica**).\n\n**Legittimazione**: il potere giuridico è legittimato democraticamente; quello disciplinare è normativo in senso lato, senza fonte legittima, talvolta **contro-giuridico** (legalità/legittimità).\n\n**Volto**: le **corti** hanno nome e volto; il **dispositivo** è **anonimo** (Kafka, algoritmi). Perché seguo le regole? Per Ross perché prevedo che verranno applicate; per Foucault perché non posso fare altrimenti: le ho introiettate (**corpi docili**).",
+      "punti": [
+        {
+          "testo": "Sapere: prevedere vs controllare",
+          "chiavi": [
+            "preved",
+            "controll"
+          ]
+        },
+        {
+          "testo": "Potere: sanzionatorio vs disciplinare",
+          "chiavi": [
+            "sanzionator",
+            "disciplin"
+          ]
+        },
+        {
+          "testo": "Legittimazione democratica vs contro-giuridico",
+          "chiavi": [
+            "legittim",
+            "democratic",
+            "contro"
+          ]
+        },
+        {
+          "testo": "Corti con volto vs dispositivo anonimo",
+          "chiavi": [
+            "anonim",
+            "corti",
+            "volto"
+          ]
+        },
+        {
+          "testo": "Introiezione, corpi docili",
+          "chiavi": [
+            "docili",
+            "introiet",
+            "altrimenti"
+          ]
+        }
+      ],
+      "concetti": [
+        "custodi-dell-osservanza",
+        "potere-disciplinare",
+        "alf-ross",
+        "michel-foucault"
+      ],
+      "pagine": [
+        107,
+        115
+      ]
+    },
+    {
+      "id": "u10-q026",
+      "tipo": "abbina",
+      "lezione": "u10-l3",
+      "livello": "base",
+      "consegna": "Abbina ogni concetto alla sua definizione.",
+      "coppie": [
+        [
+          "Potere disciplinare",
+          "Potere positivo che crea e normalizza a monte"
+        ],
+        [
+          "Biopolitica",
+          "Gestione della vita dal biologico al sociale"
+        ],
+        [
+          "Tecniche del sé",
+          "Pratiche individuali di resistenza al potere"
+        ],
+        [
+          "Legittimità",
+          "Giustificazione del potere stesso"
+        ],
+        [
+          "Corpi docili",
+          "Soggetti che hanno interiorizzato la norma"
+        ]
+      ],
+      "concetti": [
+        "potere-disciplinare",
+        "biopolitica",
+        "tecniche-del-se",
+        "legittimita",
+        "corpi-docili"
+      ],
+      "pagine": [
+        109,
+        115
+      ]
+    },
+    {
+      "id": "u10-q027",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "alf-ross",
+        "michel-foucault",
+        "sapere-potere",
+        "panopticon",
+        "efficacia"
+      ],
+      "tipo": "aperta",
+      "domanda": "Confronti il custode dell'osservanza di Ross e quello di Foucault: quali saperi producono?",
+      "traccia": "Sono due **epistemologie** con scopi diversi.\n\nIn **Ross** il sapere serve a **prevedere**. Partendo dalla domanda «perché devo seguire le regole?», la sua teoria è costruita per conoscere le **regole efficaci**, cioè quelle che prevedo saranno applicate dalle corti: schemi di previsione, «profezie» sull'osservanza. L'oggetto sono le strategie dei custodi.\n\nIn **Foucault** il sapere serve a **controllare**. Dalla torretta del **Panopticon** si osservano i detenuti in modo costante, continuo e **capillare**: non si apprende solo quali regole seguono, ma ogni aspetto della loro vita. Lo scopo è **gestire** nel modo più efficiente l'ordine dell'istituto, come voleva l'utilitarista Bentham.\n\nÈ dunque un **sapere che esercita un potere**: la raccolta di dati attraverso l'osservazione è finalizzata all'esercizio di un potere sui **corpi**. Il sapere di Ross prevede il potere delle corti; quello di Foucault **è** esercizio di potere. La metafora del carcere vale poi per il discorso normativo in generale.",
+      "punti": [
+        {
+          "testo": "Ross: sapere per prevedere le regole efficaci",
+          "chiavi": [
+            "preved",
+            "efficac"
+          ]
+        },
+        {
+          "testo": "Foucault: sapere per controllare e gestire",
+          "chiavi": [
+            "controll",
+            "gestir"
+          ]
+        },
+        {
+          "testo": "Osservazione costante e capillare dal Panopticon",
+          "chiavi": [
+            "capillar",
+            "panopticon"
+          ]
+        },
+        {
+          "testo": "Sapere-potere: il sapere è esercizio di potere",
+          "chiavi": [
+            "potere"
+          ]
+        },
+        {
+          "testo": "Scopi diversi, epistemologie diverse",
+          "chiavi": [
+            "scop",
+            "epistemolog"
+          ]
+        }
+      ]
+    }
   ]
 }

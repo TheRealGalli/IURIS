@@ -137,7 +137,8 @@ try {
     assert(!/\{c\.universita\}<\/option>/.test(app), 'nell\'elenco dei corsi niente università');
     const css = fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
     assert(/\.materia-lista \{[^}]*display: grid;[^}]*grid-template-columns: repeat\(2,/.test(css), 'materie visibili in due colonne');
-    assert(/\.materia-casella:focus-within \.materia-nome/.test(css), 'nome della materia visibile anche da tastiera');
+    assert(/\.materia-lista \{[^}]*max-height: calc\(var\(--materia-h\) \* 2/.test(css) && /overflow-y: auto/.test(css), 'quattro materie visibili, le altre si scorrono');
+    assert(griglia.includes('className="materia-didascalia"') && griglia.includes('onFocus={() => setIndicata(m.id)}'), 'nome della materia visibile sotto la griglia, anche da tastiera');
   });
 
   console.log(`Corsi verificati: ${checks} controlli su configurazione, corso predefinito, filtro delle materie e backup (${CORSI.length} ${CORSI.length === 1 ? 'corso' : 'corsi'}).`);

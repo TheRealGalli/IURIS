@@ -46,10 +46,9 @@ Costituzionale è scritto alle soglie minime del validatore: definizioni di 31 p
 - **Costituzionale**: definizioni brevi del glossario ancora da ampliare (media 31 parole); sentenze storiche della
   Corte come voci di glossario; domande reali degli appelli, se la classe le raccoglie.
 - **Filosofia SSG** (controllo del 10 novembre 2026): nessun errore di formato, ma dalla unità 7 in poi il lavoro è
-  più sottile. 35 lezioni su 77 non hanno la domanda d'esame (`aperta`), molte hanno 3 flashcard e 1 vero/falso
+  più sottile. le 31 domande d'esame (`aperta`) che mancavano sono state scritte il 10 novembre 2026 (resta senza la u17, fuori programma); molte lezioni hanno ancora 3 flashcard e 1 vero/falso
   invece di 4 e 2, 4 unità non hanno un `ordina`; mancano schede inverse e approfondimenti. Sintesi di circa 540
-  parole per lezione contro le 940 di Filosofia A-L. Primo intervento utile: le 31 domande d'esame mancanti
-  (la u17 è fuori programma), poi le soglie minime, poi le schede inverse.
+  parole per lezione contro le 940 di Filosofia A-L. Prossimi interventi: le soglie minime, poi le schede inverse.
 - **Procedimenti di Romano** (i tre processi) come esercizi della serie `procedimenti`.
 
 ## Dopo, quando arrivano le fonti

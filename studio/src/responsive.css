@@ -35,7 +35,7 @@
 @media (pointer: coarse), (max-width: 860px) {
   input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]), select, textarea { font-size: 16px !important; }
   .btn, .chip, .materia-btn, .nav a, .search-btn, .corso-switch, .palette-item, a, button, select, label { touch-action: manipulation; }
-  .btn, .select, .input, .search-btn, .materia-btn, .nav a, .corso-switch { min-height: 44px; }
+  .btn, .select, .input, .search-btn, .nav a, .corso-switch { min-height: 44px; }
   .btn-sm { padding-top: 8px; padding-bottom: 8px; }
   button.chip, a.chip { min-height: 36px; position: relative; }
   /* il bersaglio si estende oltre il bordo visibile, fino a 44px, senza allargare il disegno */
