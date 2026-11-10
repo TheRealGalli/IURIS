@@ -848,6 +848,204 @@
           "condomino assente o dissenziente"
         ]
       ]
+    },
+    {
+      "id": "u10-q023",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "comunione",
+        "quota",
+        "comunione-forzosa",
+        "amministrazione-della-cosa-comune",
+        "scioglimento-della-comunione",
+        "patto-di-indivisione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio usa il cortile comune in modo da impedirne completamente l'uso agli altri. Basta che rispetti il valore della propria quota?",
+      "opzioni": [
+        "No, deve consentire anche il pari uso degli altri",
+        "Sì, la quota attribuisce una porzione materiale esclusiva",
+        "Sì, chi usa per primo esclude gli altri",
+        "No, perché nessun partecipante può usare la cosa comune"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'art. 1102 c.c. tutela la destinazione della cosa e il pari uso degli altri."
+    },
+    {
+      "id": "u10-q024",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "comunione",
+        "quota",
+        "comunione-forzosa",
+        "amministrazione-della-cosa-comune",
+        "scioglimento-della-comunione",
+        "patto-di-indivisione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Due comproprietari possiedono quote di valore molto diverso. Nelle decisioni di amministrazione basta contare soltanto le persone favorevoli?",
+      "opzioni": [
+        "Sì, le quote non contano mai",
+        "No, rileva il valore delle quote secondo la decisione da adottare",
+        "Sì, il voto di ciascuno vale sempre metà",
+        "No, perché occorre sempre una decisione giudiziale"
+      ],
+      "corretta": 1,
+      "spiegazione": "La comunione calcola le maggioranze secondo il valore delle quote."
+    },
+    {
+      "id": "u10-q025",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "comunione",
+        "quota",
+        "comunione-forzosa",
+        "amministrazione-della-cosa-comune",
+        "scioglimento-della-comunione",
+        "patto-di-indivisione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La quota di comunione coincide necessariamente con una porzione materiale già separata del bene.",
+      "vero": false,
+      "spiegazione": "Esprime una misura ideale del diritto sulla cosa comune."
+    },
+    {
+      "id": "u10-q026",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "comunione",
+        "quota",
+        "comunione-forzosa",
+        "amministrazione-della-cosa-comune",
+        "scioglimento-della-comunione",
+        "patto-di-indivisione"
+      ],
+      "tipo": "completa",
+      "testo": "L'accordo che mantiene temporaneamente la comunione è un patto di {{indivisione}}.",
+      "spiegazione": "La legge ne limita la durata."
+    },
+    {
+      "id": "u10-q027",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "condominio",
+        "parti-comuni",
+        "tabelle-millesimali",
+        "assemblea-condominiale",
+        "amministratore-di-condominio",
+        "regolamento-di-condominio",
+        "supercondominio",
+        "multiproprieta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un condomino pretende di non contribuire alla manutenzione del tetto solo perché abita al piano terra. Questa ragione basta?",
+      "opzioni": [
+        "Sì, il tetto riguarda soltanto l'ultimo piano",
+        "Sì, ogni spesa richiede l'uso personale quotidiano",
+        "No, l'utilità della copertura non si esaurisce nell'uso diretto",
+        "No, perché ogni condomino paga sempre la stessa somma"
+      ],
+      "corretta": 2,
+      "spiegazione": "La contribuzione alle parti comuni segue i criteri legali e non la sola scelta individuale di utilizzo."
+    },
+    {
+      "id": "u10-q028",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "condominio",
+        "parti-comuni",
+        "tabelle-millesimali",
+        "assemblea-condominiale",
+        "amministratore-di-condominio",
+        "regolamento-di-condominio",
+        "supercondominio",
+        "multiproprieta"
+      ],
+      "tipo": "multipla",
+      "domanda": "L'assemblea approva a maggioranza un regolamento che limita le proprietà esclusive come se fosse un accordo contrattuale. Quale limite emerge?",
+      "opzioni": [
+        "La maggioranza può sempre sopprimere ogni proprietà esclusiva",
+        "Le tabelle millesimali trasferiscono la proprietà",
+        "Ogni regolamento deve avere natura testamentaria",
+        "Il regolamento assembleare non dispone liberamente dei diritti individuali"
+      ],
+      "corretta": 3,
+      "spiegazione": "Le limitazioni dei diritti esclusivi richiedono il fondamento negoziale necessario."
+    },
+    {
+      "id": "u10-q029",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "condominio",
+        "parti-comuni",
+        "tabelle-millesimali",
+        "assemblea-condominiale",
+        "amministratore-di-condominio",
+        "regolamento-di-condominio",
+        "supercondominio",
+        "multiproprieta"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il supercondominio può riguardare più edifici che condividono impianti o servizi comuni.",
+      "vero": true,
+      "spiegazione": "La pluralità di edifici non esclude una disciplina delle parti comuni."
+    },
+    {
+      "id": "u10-q030",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "condominio",
+        "parti-comuni",
+        "tabelle-millesimali",
+        "assemblea-condominiale",
+        "amministratore-di-condominio",
+        "regolamento-di-condominio",
+        "supercondominio",
+        "multiproprieta"
+      ],
+      "tipo": "completa",
+      "testo": "Il valore proporzionale delle unità condominiali è rappresentato nelle tabelle {{millesimali}}.",
+      "spiegazione": "Le tabelle servono anche alla ripartizione delle spese e al calcolo delle maggioranze."
     }
   ],
   "mappa": {

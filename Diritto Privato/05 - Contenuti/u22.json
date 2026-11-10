@@ -1819,6 +1819,465 @@
           "Godimento oneroso temporaneo"
         ]
       ]
+    },
+    {
+      "id": "u22-q053",
+      "lezione": "u22-l1",
+      "livello": "medio",
+      "pagine": [
+        183,
+        185
+      ],
+      "concetti": [
+        "permuta",
+        "contratto-estimatorio",
+        "somministrazione",
+        "locazione",
+        "affitto",
+        "leasing-finanziario"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio riceve gratuitamente un libro per usarlo e restituire proprio quel volume. È una locazione soltanto perché c'è godimento temporaneo?",
+      "opzioni": [
+        "Sì, tutti i godimenti temporanei sono locazioni",
+        "Sì, se il libro ha valore economico",
+        "No, la gratuità caratterizza il comodato",
+        "No, perché il libro diventa automaticamente proprietà di Caio"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il comodato si distingue dal godimento oneroso della locazione."
+    },
+    {
+      "id": "u22-q054",
+      "lezione": "u22-l1",
+      "livello": "medio",
+      "pagine": [
+        183,
+        185
+      ],
+      "concetti": [
+        "permuta",
+        "contratto-estimatorio",
+        "somministrazione",
+        "locazione",
+        "affitto",
+        "leasing-finanziario"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un ristorante si accorda per consegne periodiche di derrate contro prezzo. Quale contratto tipico va esaminato?",
+      "opzioni": [
+        "Deposito gratuito",
+        "Donazione modale",
+        "Transazione",
+        "Somministrazione"
+      ],
+      "corretta": 3,
+      "spiegazione": "La somministrazione ha a oggetto prestazioni periodiche o continuative di cose."
+    },
+    {
+      "id": "u22-q055",
+      "lezione": "u22-l1",
+      "livello": "medio",
+      "pagine": [
+        183,
+        185
+      ],
+      "concetti": [
+        "permuta",
+        "contratto-estimatorio",
+        "somministrazione",
+        "locazione",
+        "affitto",
+        "leasing-finanziario"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il contratto estimatorio consente ordinariamente a chi riceve le cose di evitare il prezzo mediante restituzione entro il termine previsto.",
+      "vero": true,
+      "spiegazione": "La restituzione integra è un'alternativa regolata alla corresponsione del prezzo."
+    },
+    {
+      "id": "u22-q056",
+      "lezione": "u22-l1",
+      "livello": "base",
+      "pagine": [
+        183,
+        185
+      ],
+      "concetti": [
+        "permuta",
+        "contratto-estimatorio",
+        "somministrazione",
+        "locazione",
+        "affitto",
+        "leasing-finanziario"
+      ],
+      "tipo": "completa",
+      "testo": "Il contratto che consente al ricevente di pagare il prezzo o restituire le cose nel termine è l’{{estimatorio}}.",
+      "spiegazione": "La restituzione integra è disciplinata come alternativa al prezzo."
+    },
+    {
+      "id": "u22-q057",
+      "lezione": "u22-l2",
+      "livello": "medio",
+      "pagine": [
+        186,
+        189
+      ],
+      "concetti": [
+        "appalto",
+        "trasporto",
+        "mandato",
+        "commissione",
+        "agenzia",
+        "mediazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio affida la realizzazione di un'opera a un imprenditore che organizza mezzi e personale e assume il rischio. Quale figura emerge?",
+      "opzioni": [
+        "Appalto",
+        "Lavoro subordinato necessariamente",
+        "Deposito",
+        "Mutuo"
+      ],
+      "corretta": 0,
+      "spiegazione": "Organizzazione e rischio dell'appaltatore sono elementi caratteristici dell'art. 1655 c.c."
+    },
+    {
+      "id": "u22-q058",
+      "lezione": "u22-l2",
+      "livello": "medio",
+      "pagine": [
+        186,
+        189
+      ],
+      "concetti": [
+        "appalto",
+        "trasporto",
+        "mandato",
+        "commissione",
+        "agenzia",
+        "mediazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio mette in relazione due parti senza essere legato a esse da rapporti di collaborazione, dipendenza o rappresentanza. Quale figura è descritta?",
+      "opzioni": [
+        "Agente stabilmente incaricato di promuovere contratti",
+        "Mediatore",
+        "Mandatario con rappresentanza necessariamente",
+        "Appaltatore"
+      ],
+      "corretta": 1,
+      "spiegazione": "La mediazione ha una posizione diversa dall'incarico stabile proprio dell'agenzia."
+    },
+    {
+      "id": "u22-q059",
+      "lezione": "u22-l2",
+      "livello": "medio",
+      "pagine": [
+        186,
+        189
+      ],
+      "concetti": [
+        "appalto",
+        "trasporto",
+        "mandato",
+        "commissione",
+        "agenzia",
+        "mediazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il mandato senza rappresentanza è impossibile perché il mandatario deve sempre spendere il nome del mandante.",
+      "vero": false,
+      "spiegazione": "Il mandatario può agire in nome proprio per conto del mandante."
+    },
+    {
+      "id": "u22-q060",
+      "lezione": "u22-l2",
+      "livello": "base",
+      "pagine": [
+        186,
+        189
+      ],
+      "concetti": [
+        "appalto",
+        "trasporto",
+        "mandato",
+        "commissione",
+        "agenzia",
+        "mediazione"
+      ],
+      "tipo": "completa",
+      "testo": "Nel trasporto il soggetto che assume l'obbligo di trasferire persone o cose si chiama {{vettore}}.",
+      "spiegazione": "La sua responsabilità varia secondo il tipo di trasporto e le norme applicabili."
+    },
+    {
+      "id": "u22-q061",
+      "lezione": "u22-l3",
+      "livello": "medio",
+      "pagine": [
+        190,
+        192
+      ],
+      "concetti": [
+        "deposito",
+        "comodato",
+        "mutuo",
+        "deposito-bancario",
+        "conto-corrente-bancario",
+        "apertura-di-credito"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio riceve denaro in mutuo e deve restituire beni della stessa specie e qualità. Deve conservare e restituire materialmente le stesse banconote?",
+      "opzioni": [
+        "Sì, il mutuo è soltanto custodia",
+        "Sì, salvo consenso successivo del notaio",
+        "No, restituisce l'equivalente e acquista la proprietà delle cose fungibili",
+        "No, perché il mutuo non prevede alcuna restituzione"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il mutuo va distinto dal deposito e dal comodato per oggetto e restituzione."
+    },
+    {
+      "id": "u22-q062",
+      "lezione": "u22-l3",
+      "livello": "medio",
+      "pagine": [
+        190,
+        192
+      ],
+      "concetti": [
+        "deposito",
+        "comodato",
+        "mutuo",
+        "deposito-bancario",
+        "conto-corrente-bancario",
+        "apertura-di-credito"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio deposita denaro presso una banca. La banca deve tenere separate e intatte le sue specifiche banconote?",
+      "opzioni": [
+        "Sì, come un custode di una cosa infungibile",
+        "Sì, se il cliente non preleva subito",
+        "No, perché il deposito è sempre una donazione alla banca",
+        "No, ne acquista la proprietà e deve restituire la somma dovuta"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il deposito bancario di denaro segue la disciplina dell'art. 1834 c.c."
+    },
+    {
+      "id": "u22-q063",
+      "lezione": "u22-l3",
+      "livello": "medio",
+      "pagine": [
+        190,
+        192
+      ],
+      "concetti": [
+        "deposito",
+        "comodato",
+        "mutuo",
+        "deposito-bancario",
+        "conto-corrente-bancario",
+        "apertura-di-credito"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Lo sconto bancario consiste nella sola promessa di rendere disponibile una somma mai collegata a un credito ceduto.",
+      "vero": false,
+      "spiegazione": "Lo sconto implica l'anticipazione di un credito non scaduto secondo la relativa disciplina."
+    },
+    {
+      "id": "u22-q064",
+      "lezione": "u22-l3",
+      "livello": "base",
+      "pagine": [
+        190,
+        192
+      ],
+      "concetti": [
+        "deposito",
+        "comodato",
+        "mutuo",
+        "deposito-bancario",
+        "conto-corrente-bancario",
+        "apertura-di-credito"
+      ],
+      "tipo": "completa",
+      "testo": "Il contratto essenzialmente gratuito che attribuisce l'uso con obbligo di restituire la stessa cosa è il {{comodato}}.",
+      "spiegazione": "Il mutuo richiede invece la restituzione di altrettante cose della stessa specie e qualità."
+    },
+    {
+      "id": "u22-q065",
+      "lezione": "u22-l4",
+      "livello": "medio",
+      "pagine": [
+        193,
+        195
+      ],
+      "concetti": [
+        "rendita-vitalizia",
+        "assicurazione",
+        "fideiussione",
+        "garanzia-autonoma"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il fideiussore garantisce un'obbligazione e invoca l'assenza di un vincolo su un proprio bene determinato. Questo basta a negare la garanzia personale?",
+      "opzioni": [
+        "No, la fideiussione impegna il patrimonio personale senza essere per ciò una garanzia reale",
+        "Sì, ogni garanzia richiede un bene vincolato",
+        "Sì, la fideiussione è sempre un pegno",
+        "No, perché la fideiussione trasferisce automaticamente tutti i beni"
+      ],
+      "corretta": 0,
+      "spiegazione": "Garanzia personale e garanzia reale hanno strutture diverse."
+    },
+    {
+      "id": "u22-q066",
+      "lezione": "u22-l4",
+      "livello": "medio",
+      "pagine": [
+        193,
+        195
+      ],
+      "concetti": [
+        "rendita-vitalizia",
+        "assicurazione",
+        "fideiussione",
+        "garanzia-autonoma"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio stipula una polizza contro i danni relativi a un bene. Quale elemento deve sussistere oltre all'esistenza del bene?",
+      "opzioni": [
+        "Necessaria proprietà esclusiva in ogni caso",
+        "Interesse all'indennizzo del danno",
+        "Certezza del sinistro già avvenuto",
+        "Assenza assoluta di qualsiasi rischio"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'assicurazione contro i danni richiede un interesse dell'assicurato al risarcimento del danno."
+    },
+    {
+      "id": "u22-q067",
+      "lezione": "u22-l4",
+      "livello": "medio",
+      "pagine": [
+        193,
+        195
+      ],
+      "concetti": [
+        "rendita-vitalizia",
+        "assicurazione",
+        "fideiussione",
+        "garanzia-autonoma"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La sola clausola di pagamento a prima richiesta esonera sempre dall'esame concreto del contratto per distinguerlo dalla fideiussione.",
+      "vero": false,
+      "spiegazione": "La qualificazione come garanzia autonoma richiede di interpretare il regolamento contrattuale."
+    },
+    {
+      "id": "u22-q068",
+      "lezione": "u22-l4",
+      "livello": "base",
+      "pagine": [
+        193,
+        195
+      ],
+      "concetti": [
+        "rendita-vitalizia",
+        "assicurazione",
+        "fideiussione",
+        "garanzia-autonoma"
+      ],
+      "tipo": "completa",
+      "testo": "La garanzia personale normalmente accessoria al debito principale è la {{fideiussione}}.",
+      "spiegazione": "La garanzia autonoma segue una logica diversa da verificare nel contratto."
+    },
+    {
+      "id": "u22-q069",
+      "lezione": "u22-l5",
+      "livello": "medio",
+      "pagine": [
+        196,
+        199
+      ],
+      "concetti": [
+        "transazione",
+        "cessione-dei-beni-ai-creditori",
+        "affitto-di-fondo-rustico",
+        "prelazione-agraria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio e Caio si fanno reciproche concessioni per prevenire una lite che potrebbe sorgere. Può trattarsi di transazione anche se non c'è ancora una causa pendente?",
+      "opzioni": [
+        "No, serve sempre una sentenza già definitiva",
+        "No, occorre necessariamente un processo esecutivo",
+        "Sì, la transazione può prevenire una lite",
+        "Sì, ma soltanto se entrambe le concessioni hanno lo stesso valore economico"
+      ],
+      "corretta": 2,
+      "spiegazione": "La funzione compositiva può riguardare anche una lite futura."
+    },
+    {
+      "id": "u22-q070",
+      "lezione": "u22-l5",
+      "livello": "medio",
+      "pagine": [
+        196,
+        199
+      ],
+      "concetti": [
+        "transazione",
+        "cessione-dei-beni-ai-creditori",
+        "affitto-di-fondo-rustico",
+        "prelazione-agraria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il debitore affida ai creditori beni da liquidare e il ricavato non copre l'intero debito. Può invocare la liberazione integrale come effetto necessario del contratto?",
+      "opzioni": [
+        "Sì, basta la consegna iniziale dei beni",
+        "Sì, perché tutti i debiti diventano naturali",
+        "No, perché i creditori non possono mai accettare beni da liquidare",
+        "No, la cessione dei beni non implica da sola la liberazione per il residuo"
+      ],
+      "corretta": 3,
+      "spiegazione": "La liberazione e gli eventuali accordi ulteriori vanno distinti dall'incarico di liquidazione."
+    },
+    {
+      "id": "u22-q071",
+      "lezione": "u22-l5",
+      "livello": "medio",
+      "pagine": [
+        196,
+        199
+      ],
+      "concetti": [
+        "transazione",
+        "cessione-dei-beni-ai-creditori",
+        "affitto-di-fondo-rustico",
+        "prelazione-agraria"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Le norme dell'affitto agrario si ricavano esclusivamente dalla locazione ordinaria, ignorando le leggi speciali.",
+      "vero": false,
+      "spiegazione": "L'affitto agrario è soggetto a una disciplina speciale."
+    },
+    {
+      "id": "u22-q072",
+      "lezione": "u22-l5",
+      "livello": "base",
+      "pagine": [
+        196,
+        199
+      ],
+      "concetti": [
+        "transazione",
+        "cessione-dei-beni-ai-creditori",
+        "affitto-di-fondo-rustico",
+        "prelazione-agraria"
+      ],
+      "tipo": "completa",
+      "testo": "Il contratto che compone o previene una lite mediante reciproche concessioni è la {{transazione}}.",
+      "spiegazione": "La reciprocità delle concessioni ne è elemento caratteristico."
     }
   ],
   "mappa": {

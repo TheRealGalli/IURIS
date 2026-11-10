@@ -1059,6 +1059,267 @@
           "Indennità nei presupposti dell’art. 2045"
         ]
       ]
+    },
+    {
+      "id": "u24-q033",
+      "lezione": "u24-l1",
+      "livello": "medio",
+      "pagine": [
+        208,
+        209
+      ],
+      "concetti": [
+        "responsabilita-extracontrattuale",
+        "imputabilita-civile",
+        "nesso-causale-illecito",
+        "legittima-difesa-civile"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio è minorenne ma comprende e vuole il comportamento dannoso quando lo compie. La sola minore età esclude necessariamente l'imputabilità civile?",
+      "opzioni": [
+        "No, rileva la capacità naturale nel momento del fatto",
+        "Sì, capacità di agire e imputabilità coincidono sempre",
+        "Sì, ogni minore è incapace di intendere",
+        "No, perché ogni minore risponde anche se totalmente incapace naturale"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'art. 2046 c.c. considera la capacità di intendere o di volere al momento del fatto."
+    },
+    {
+      "id": "u24-q034",
+      "lezione": "u24-l1",
+      "livello": "medio",
+      "pagine": [
+        208,
+        209
+      ],
+      "concetti": [
+        "responsabilita-extracontrattuale",
+        "imputabilita-civile",
+        "nesso-causale-illecito",
+        "legittima-difesa-civile"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio afferma che per il nesso causale civile basti una possibilità remota e indimostrata. Quale criterio probatorio trascura?",
+      "opzioni": [
+        "La certezza matematica assoluta in ogni caso",
+        "Il più probabile che non",
+        "La presunzione che ogni perdita sia causata dal convenuto",
+        "La sola dichiarazione della vittima"
+      ],
+      "corretta": 1,
+      "spiegazione": "La causalità richiede una valutazione probabilistica fondata sulle prove."
+    },
+    {
+      "id": "u24-q035",
+      "lezione": "u24-l1",
+      "livello": "medio",
+      "pagine": [
+        208,
+        209
+      ],
+      "concetti": [
+        "responsabilita-extracontrattuale",
+        "imputabilita-civile",
+        "nesso-causale-illecito",
+        "legittima-difesa-civile"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Lo stato di necessità e la legittima difesa producono necessariamente identici effetti economici verso il danneggiato.",
+      "vero": false,
+      "spiegazione": "La necessità può comportare un'indennità e segue presupposti diversi dalla legittima difesa."
+    },
+    {
+      "id": "u24-q036",
+      "lezione": "u24-l1",
+      "livello": "base",
+      "pagine": [
+        208,
+        209
+      ],
+      "concetti": [
+        "responsabilita-extracontrattuale",
+        "imputabilita-civile",
+        "nesso-causale-illecito",
+        "legittima-difesa-civile"
+      ],
+      "tipo": "completa",
+      "testo": "Il criterio soggettivo generale dell’illecito, distinto dal dolo, è la {{colpa}}.",
+      "spiegazione": "Restano i regimi speciali di responsabilità previsti dalla legge."
+    },
+    {
+      "id": "u24-q037",
+      "lezione": "u24-l2",
+      "livello": "medio",
+      "pagine": [
+        209,
+        210
+      ],
+      "concetti": [
+        "responsabilita-dei-preponenti",
+        "attivita-pericolosa",
+        "danno-da-cosa-in-custodia",
+        "responsabilita-circolazione-veicoli"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un dipendente cagiona un danno nell'esercizio delle incombenze affidate. Il preponente può sempre liberarsi provando di averlo scelto con attenzione?",
+      "opzioni": [
+        "Sì, è sempre sufficiente",
+        "Sì, se il dipendente era maggiorenne",
+        "No, la diligenza nella scelta non è la prova liberatoria prevista dall'art. 2049 c.c.",
+        "No, perché occorre sempre un contratto fra vittima e preponente"
+      ],
+      "corretta": 2,
+      "spiegazione": "La responsabilità del preponente ha una struttura diversa dalla colpa nella selezione."
+    },
+    {
+      "id": "u24-q038",
+      "lezione": "u24-l2",
+      "livello": "medio",
+      "pagine": [
+        209,
+        210
+      ],
+      "concetti": [
+        "responsabilita-dei-preponenti",
+        "attivita-pericolosa",
+        "danno-da-cosa-in-custodia",
+        "responsabilita-circolazione-veicoli"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un'attività è qualificata pericolosa e causa un danno. Basta all'esercente dimostrare una cautela generica?",
+      "opzioni": [
+        "Sì, qualunque cautela simbolica basta",
+        "Sì, se l'attività è autorizzata",
+        "No, perché la legge esclude ogni possibilità di prova liberatoria",
+        "No, deve provare di aver adottato tutte le misure idonee a evitare il danno"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'art. 2050 c.c. richiede una prova liberatoria specifica e rigorosa."
+    },
+    {
+      "id": "u24-q039",
+      "lezione": "u24-l2",
+      "livello": "medio",
+      "pagine": [
+        209,
+        210
+      ],
+      "concetti": [
+        "responsabilita-dei-preponenti",
+        "attivita-pericolosa",
+        "danno-da-cosa-in-custodia",
+        "responsabilita-circolazione-veicoli"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nel danno da cosa in custodia è superfluo provare qualunque rapporto causale fra la cosa e l'evento dannoso.",
+      "vero": false,
+      "spiegazione": "La vittima deve provare il nesso fra cosa e danno; la custodia non copre qualsiasi evento estraneo."
+    },
+    {
+      "id": "u24-q040",
+      "lezione": "u24-l2",
+      "livello": "base",
+      "pagine": [
+        209,
+        210
+      ],
+      "concetti": [
+        "responsabilita-dei-preponenti",
+        "attivita-pericolosa",
+        "danno-da-cosa-in-custodia",
+        "responsabilita-circolazione-veicoli"
+      ],
+      "tipo": "completa",
+      "testo": "Chi risponde ai sensi dell’art. 2049 c.c. per il fatto del preposto è il {{preponente}}.",
+      "spiegazione": "Vanno verificati i presupposti del collegamento con le incombenze affidate."
+    },
+    {
+      "id": "u24-q041",
+      "lezione": "u24-l3",
+      "livello": "medio",
+      "pagine": [
+        210,
+        210
+      ],
+      "concetti": [
+        "danno-patrimoniale",
+        "danno-non-patrimoniale",
+        "danno-biologico",
+        "reintegrazione-in-forma-specifica"
+      ],
+      "tipo": "multipla",
+      "domanda": "La vittima chiede due somme con nomi diversi per la stessa identica conseguenza personale. Quale limite deve rispettare la liquidazione?",
+      "opzioni": [
+        "Evitare duplicazioni risarcitorie",
+        "Raddoppiare sempre l'importo per ogni etichetta",
+        "Negare qualsiasi danno non patrimoniale",
+        "Applicare necessariamente una pena privata"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le conseguenze vanno accertate e risarcite integralmente senza conteggiare due volte lo stesso pregiudizio."
+    },
+    {
+      "id": "u24-q042",
+      "lezione": "u24-l3",
+      "livello": "medio",
+      "pagine": [
+        210,
+        210
+      ],
+      "concetti": [
+        "danno-patrimoniale",
+        "danno-non-patrimoniale",
+        "danno-biologico",
+        "reintegrazione-in-forma-specifica"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il danneggiato chiede il ripristino concreto della situazione precedente invece di una somma sostitutiva. Quale rimedio domanda?",
+      "opzioni": [
+        "Compensazione legale",
+        "Reintegrazione in forma specifica",
+        "Collazione",
+        "Riduzione testamentaria"
+      ],
+      "corretta": 1,
+      "spiegazione": "La forma specifica va distinta dal risarcimento per equivalente."
+    },
+    {
+      "id": "u24-q043",
+      "lezione": "u24-l3",
+      "livello": "medio",
+      "pagine": [
+        210,
+        210
+      ],
+      "concetti": [
+        "danno-patrimoniale",
+        "danno-non-patrimoniale",
+        "danno-biologico",
+        "reintegrazione-in-forma-specifica"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il danno non patrimoniale è risarcibile esclusivamente quando il fatto integra un reato, senza altre ipotesi ammesse.",
+      "vero": false,
+      "spiegazione": "La disciplina comprende anche altri casi previsti e la tutela di diritti inviolabili nei requisiti elaborati dalla giurisprudenza."
+    },
+    {
+      "id": "u24-q044",
+      "lezione": "u24-l3",
+      "livello": "base",
+      "pagine": [
+        210,
+        210
+      ],
+      "concetti": [
+        "danno-patrimoniale",
+        "danno-non-patrimoniale",
+        "danno-biologico",
+        "reintegrazione-in-forma-specifica"
+      ],
+      "tipo": "completa",
+      "testo": "La lesione dell'integrità psicofisica medicalmente accertabile è danno {{biologico}}.",
+      "spiegazione": "Non dipende necessariamente dalla produzione di reddito."
     }
   ],
   "mappa": {

@@ -1188,6 +1188,299 @@
           "scarta l'interpretazione che porta a un risultato assurdo"
         ]
       ]
+    },
+    {
+      "id": "u02-q033",
+      "lezione": "u02-l1",
+      "livello": "medio",
+      "pagine": [
+        9,
+        10
+      ],
+      "concetti": [
+        "vacatio-legis",
+        "abrogazione",
+        "deroga",
+        "irretroattivita",
+        "diritto-transitorio",
+        "ultrattivita"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una nuova legge regola integralmente una materia già disciplinata, senza elencare le disposizioni precedenti da eliminare. Quale effetto può prodursi?",
+      "opzioni": [
+        "Annullamento del contratto",
+        "Interpretazione giudiziale vincolante",
+        "Abrogazione tacita",
+        "Revoca amministrativa della legge"
+      ],
+      "corretta": 2,
+      "spiegazione": "La nuova disciplina dell'intera materia è una forma di abrogazione tacita."
+    },
+    {
+      "id": "u02-q034",
+      "lezione": "u02-l1",
+      "livello": "medio",
+      "pagine": [
+        9,
+        10
+      ],
+      "concetti": [
+        "vacatio-legis",
+        "abrogazione",
+        "deroga",
+        "irretroattivita",
+        "diritto-transitorio",
+        "ultrattivita"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una legge speciale dispone diversamente dalla regola generale per un caso particolare. Quale fenomeno ricorre se la regola generale resta vigente?",
+      "opzioni": [
+        "Abrogazione totale",
+        "Usucapione della norma",
+        "Novazione del diritto",
+        "Deroga"
+      ],
+      "corretta": 3,
+      "spiegazione": "La deroga limita l'applicazione della disciplina generale senza eliminarla."
+    },
+    {
+      "id": "u02-q035",
+      "lezione": "u02-l1",
+      "livello": "medio",
+      "pagine": [
+        9,
+        10
+      ],
+      "concetti": [
+        "vacatio-legis",
+        "abrogazione",
+        "deroga",
+        "irretroattivita",
+        "diritto-transitorio",
+        "ultrattivita"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'abrogazione impedisce di applicare la vecchia legge anche a qualsiasi fatto anteriore.",
+      "vero": false,
+      "spiegazione": "L'abrogazione opera per l'avvenire; i rapporti anteriori richiedono l'esame delle regole temporali."
+    },
+    {
+      "id": "u02-q036",
+      "lezione": "u02-l1",
+      "livello": "base",
+      "pagine": [
+        9,
+        10
+      ],
+      "concetti": [
+        "vacatio-legis",
+        "abrogazione",
+        "deroga",
+        "irretroattivita",
+        "diritto-transitorio",
+        "ultrattivita"
+      ],
+      "tipo": "completa",
+      "testo": "Il periodo tra pubblicazione ed entrata in vigore della legge è la {{vacatio legis}}.",
+      "spiegazione": "Consente ai destinatari di conoscere la disciplina prima della sua applicazione."
+    },
+    {
+      "id": "u02-q037",
+      "lezione": "u02-l2",
+      "livello": "medio",
+      "pagine": [
+        11,
+        13
+      ],
+      "concetti": [
+        "interpretazione-della-legge",
+        "interpretazione-autentica",
+        "giurisprudenza",
+        "ratio-legis",
+        "analogia",
+        "analogia-iuris",
+        "transazione",
+        "compromesso"
+      ],
+      "tipo": "multipla",
+      "domanda": "Manca una regola specifica per il caso di Caio, ma una disposizione regola un caso simile con la stessa ragione giustificatrice. Quale tecnica può colmare la lacuna?",
+      "opzioni": [
+        "Analogia legis",
+        "Interpretazione autentica",
+        "Abrogazione espressa",
+        "Equità sostitutiva sempre libera"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'analogia legis estende al caso non regolato la disciplina di un caso simile per identità di ratio."
+    },
+    {
+      "id": "u02-q038",
+      "lezione": "u02-l2",
+      "livello": "medio",
+      "pagine": [
+        11,
+        13
+      ],
+      "concetti": [
+        "interpretazione-della-legge",
+        "interpretazione-autentica",
+        "giurisprudenza",
+        "ratio-legis",
+        "analogia",
+        "analogia-iuris",
+        "transazione",
+        "compromesso"
+      ],
+      "tipo": "multipla",
+      "domanda": "Le parti affidano la loro controversia ad arbitri mediante un accordo. Quale istituto viene in rilievo?",
+      "opzioni": [
+        "Consuetudine",
+        "Compromesso",
+        "Abrogazione",
+        "Analogia iuris"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il compromesso è l'accordo di devoluzione della controversia ad arbitri."
+    },
+    {
+      "id": "u02-q039",
+      "lezione": "u02-l2",
+      "livello": "medio",
+      "pagine": [
+        11,
+        13
+      ],
+      "concetti": [
+        "interpretazione-della-legge",
+        "interpretazione-autentica",
+        "giurisprudenza",
+        "ratio-legis",
+        "analogia",
+        "analogia-iuris",
+        "transazione",
+        "compromesso"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Ogni precedente giudiziario equivale a un'interpretazione autentica vincolante per tutti.",
+      "vero": false,
+      "spiegazione": "L'interpretazione autentica proviene dal legislatore; il precedente ha funzione persuasiva."
+    },
+    {
+      "id": "u02-q040",
+      "lezione": "u02-l2",
+      "livello": "base",
+      "pagine": [
+        11,
+        13
+      ],
+      "concetti": [
+        "interpretazione-della-legge",
+        "interpretazione-autentica",
+        "giurisprudenza",
+        "ratio-legis",
+        "analogia",
+        "analogia-iuris",
+        "transazione",
+        "compromesso"
+      ],
+      "tipo": "completa",
+      "testo": "La ragione giustificatrice di una norma è la sua {{ratio legis}}.",
+      "spiegazione": "Non coincide necessariamente con le intenzioni psicologiche dei singoli legislatori."
+    },
+    {
+      "id": "u02-q041",
+      "lezione": "u02-l3",
+      "livello": "medio",
+      "pagine": [
+        14,
+        15
+      ],
+      "concetti": [
+        "diritto-internazionale-privato",
+        "criterio-di-collegamento",
+        "lex-rei-sitae",
+        "ordine-pubblico-internazionale",
+        "rinvio",
+        "condizione-di-reciprocita"
+      ],
+      "tipo": "multipla",
+      "domanda": "In una controversia con elementi stranieri il giudice individua prima la categoria del rapporto. Quale operazione compie?",
+      "opzioni": [
+        "Accettazione dell'eredità",
+        "Trascrizione",
+        "Qualificazione",
+        "Novazione"
+      ],
+      "corretta": 2,
+      "spiegazione": "La qualificazione precede l'individuazione del criterio di collegamento."
+    },
+    {
+      "id": "u02-q042",
+      "lezione": "u02-l3",
+      "livello": "medio",
+      "pagine": [
+        14,
+        15
+      ],
+      "concetti": [
+        "diritto-internazionale-privato",
+        "criterio-di-collegamento",
+        "lex-rei-sitae",
+        "ordine-pubblico-internazionale",
+        "rinvio",
+        "condizione-di-reciprocita"
+      ],
+      "tipo": "multipla",
+      "domanda": "La norma di conflitto richiama una legge straniera il cui risultato contrasta con i principi fondamentali dell'ordinamento italiano. Quale limite rileva?",
+      "opzioni": [
+        "Normale tollerabilità",
+        "Par condicio creditorum",
+        "Divieto di patto commissorio",
+        "Ordine pubblico internazionale"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il richiamo della legge straniera incontra il limite dell'ordine pubblico."
+    },
+    {
+      "id": "u02-q043",
+      "lezione": "u02-l3",
+      "livello": "medio",
+      "pagine": [
+        14,
+        15
+      ],
+      "concetti": [
+        "diritto-internazionale-privato",
+        "criterio-di-collegamento",
+        "lex-rei-sitae",
+        "ordine-pubblico-internazionale",
+        "rinvio",
+        "condizione-di-reciprocita"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La reciprocità è oggi una condizione generale richiesta indistintamente a tutti i cittadini dell'Unione europea.",
+      "vero": false,
+      "spiegazione": "Per i cittadini dell'Unione vale l'equiparazione; la reciprocità ha un ruolo residuale."
+    },
+    {
+      "id": "u02-q044",
+      "lezione": "u02-l3",
+      "livello": "base",
+      "pagine": [
+        14,
+        15
+      ],
+      "concetti": [
+        "diritto-internazionale-privato",
+        "criterio-di-collegamento",
+        "lex-rei-sitae",
+        "ordine-pubblico-internazionale",
+        "rinvio",
+        "condizione-di-reciprocita"
+      ],
+      "tipo": "completa",
+      "testo": "Per i diritti reali la legge del luogo in cui si trova il bene è espressa dalla formula {{lex rei sitae}}.",
+      "spiegazione": "Il criterio considera la localizzazione della cosa."
     }
   ],
   "mappa": {

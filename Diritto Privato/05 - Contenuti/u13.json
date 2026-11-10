@@ -1391,6 +1391,362 @@
           "art. 1230 c.c."
         ]
       ]
+    },
+    {
+      "id": "u13-q043",
+      "lezione": "u13-l1",
+      "livello": "medio",
+      "pagine": [
+        102,
+        104
+      ],
+      "concetti": [
+        "cessione-del-credito",
+        "cessione-pro-soluto-e-pro-solvendo",
+        "factoring",
+        "cartolarizzazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il cedente garantisce che il credito esiste, ma non ha assunto la garanzia della solvibilità. Il solo inadempimento del debitore lo obbliga sempre a pagare al cessionario?",
+      "opzioni": [
+        "No, esistenza e solvenza sono garanzie distinte",
+        "Sì, la cessione comporta sempre garanzia assoluta di pagamento",
+        "Sì, il cedente diventa automaticamente fideiussore",
+        "No, perché il credito ceduto si estingue"
+      ],
+      "corretta": 0,
+      "spiegazione": "La garanzia dell'esistenza del credito non coincide con la garanzia della sua realizzazione."
+    },
+    {
+      "id": "u13-q044",
+      "lezione": "u13-l1",
+      "livello": "medio",
+      "pagine": [
+        102,
+        104
+      ],
+      "concetti": [
+        "cessione-del-credito",
+        "cessione-pro-soluto-e-pro-solvendo",
+        "factoring",
+        "cartolarizzazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio cede un credito e il debitore, prima di conoscerlo, paga al vecchio creditore. È irrilevante verificare notifica, accettazione e conoscenza?",
+      "opzioni": [
+        "Sì, ogni pagamento al cedente è sempre nullo",
+        "No, sono elementi decisivi per l'efficacia del pagamento verso il cessionario",
+        "Sì, basta la data interna del contratto di cessione",
+        "No, perché la cessione richiede sempre il consenso preventivo del debitore"
+      ],
+      "corretta": 1,
+      "spiegazione": "La disciplina distingue perfezionamento della cessione e opponibilità al debitore."
+    },
+    {
+      "id": "u13-q045",
+      "lezione": "u13-l1",
+      "livello": "medio",
+      "pagine": [
+        102,
+        104
+      ],
+      "concetti": [
+        "cessione-del-credito",
+        "cessione-pro-soluto-e-pro-solvendo",
+        "factoring",
+        "cartolarizzazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Factoring e cartolarizzazione sono necessariamente la stessa operazione con due nomi equivalenti.",
+      "vero": false,
+      "spiegazione": "Possono coinvolgere cessioni di crediti, ma hanno funzioni e discipline differenti."
+    },
+    {
+      "id": "u13-q046",
+      "lezione": "u13-l1",
+      "livello": "base",
+      "pagine": [
+        102,
+        104
+      ],
+      "concetti": [
+        "cessione-del-credito",
+        "cessione-pro-soluto-e-pro-solvendo",
+        "factoring",
+        "cartolarizzazione"
+      ],
+      "tipo": "completa",
+      "testo": "La cessione con garanzia della solvibilità del debitore è indicata come cessione pro {{solvendo}}.",
+      "spiegazione": "Si distingue dalla cessione pro soluto."
+    },
+    {
+      "id": "u13-q047",
+      "lezione": "u13-l2",
+      "livello": "medio",
+      "pagine": [
+        104,
+        106
+      ],
+      "concetti": [
+        "delegazione-passiva",
+        "espromissione",
+        "accollo",
+        "provvista-e-valuta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il debitore incarica un terzo di assumere un'obbligazione verso il creditore. Quale struttura è descritta?",
+      "opzioni": [
+        "Espromissione priva di incarico",
+        "Cessione del credito",
+        "Delegazione",
+        "Remissione"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nella delegazione l'iniziativa parte dall'incarico del debitore al terzo."
+    },
+    {
+      "id": "u13-q048",
+      "lezione": "u13-l2",
+      "livello": "medio",
+      "pagine": [
+        104,
+        106
+      ],
+      "concetti": [
+        "delegazione-passiva",
+        "espromissione",
+        "accollo",
+        "provvista-e-valuta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio e Caio stipulano un accollo che resta interno al loro rapporto. Il creditore acquista per ciò solo una pretesa diretta contro l'accollante?",
+      "opzioni": [
+        "Sì, qualsiasi accordo interno lo rende parte",
+        "Sì, ma libera sempre il debitore originario",
+        "No, perché ogni accollo è nullo",
+        "No, l'accollo interno non attribuisce automaticamente diritti al creditore"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'efficacia esterna dell'accollo deve distinguersi dal solo rapporto interno fra debitore e terzo."
+    },
+    {
+      "id": "u13-q049",
+      "lezione": "u13-l2",
+      "livello": "medio",
+      "pagine": [
+        104,
+        106
+      ],
+      "concetti": [
+        "delegazione-passiva",
+        "espromissione",
+        "accollo",
+        "provvista-e-valuta"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'aggiunta di un nuovo debitore libera sempre quello originario senza ulteriori requisiti.",
+      "vero": false,
+      "spiegazione": "La liberazione richiede il fondamento previsto dalla disciplina della singola figura."
+    },
+    {
+      "id": "u13-q050",
+      "lezione": "u13-l2",
+      "livello": "base",
+      "pagine": [
+        104,
+        106
+      ],
+      "concetti": [
+        "delegazione-passiva",
+        "espromissione",
+        "accollo",
+        "provvista-e-valuta"
+      ],
+      "tipo": "completa",
+      "testo": "L'accordo fra debitore e terzo che assume il debito è un {{accollo}}.",
+      "spiegazione": "L'espromissione si fonda invece sull'accordo del terzo con il creditore senza delegazione."
+    },
+    {
+      "id": "u13-q051",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "adempimento",
+        "adempimento-del-terzo",
+        "prestazione-in-luogo-dell-adempimento",
+        "pagamento-con-surrogazione",
+        "imputazione-del-pagamento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il debitore e il creditore concordano di sostituire al denaro un bene, ma il bene non è ancora stato consegnato. La sola promessa di datio in solutum estingue il debito originario?",
+      "opzioni": [
+        "No, la liberazione deriva dall'esecuzione della prestazione diversa",
+        "Sì, ogni accordo sostitutivo è una novazione",
+        "Sì, il bene si considera sempre consegnato per legge",
+        "No, perché non è mai possibile una prestazione diversa"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'art. 1197 c.c. distingue consenso del creditore e concreta esecuzione sostitutiva."
+    },
+    {
+      "id": "u13-q052",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "adempimento",
+        "adempimento-del-terzo",
+        "prestazione-in-luogo-dell-adempimento",
+        "pagamento-con-surrogazione",
+        "imputazione-del-pagamento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un terzo paga con valida surrogazione e subentra nei diritti del creditore. Il pagamento cancella necessariamente ogni garanzia del credito?",
+      "opzioni": [
+        "Sì, perché ogni pagamento elimina sempre le garanzie per chiunque",
+        "No, la surrogazione conserva la posizione creditoria nei limiti previsti",
+        "Sì, il terzo può solo chiedere una liberalità",
+        "No, perché il debitore deve eseguire due volte la stessa prestazione"
+      ],
+      "corretta": 1,
+      "spiegazione": "La surrogazione consente il subentro di chi paga nella posizione del creditore soddisfatto."
+    },
+    {
+      "id": "u13-q053",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "adempimento",
+        "adempimento-del-terzo",
+        "prestazione-in-luogo-dell-adempimento",
+        "pagamento-con-surrogazione",
+        "imputazione-del-pagamento"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'esatto adempimento richiede di considerare anche tempo, luogo e soggetto legittimato a ricevere.",
+      "vero": true,
+      "spiegazione": "L'identità dell'oggetto non esaurisce i requisiti dell'esatta esecuzione."
+    },
+    {
+      "id": "u13-q054",
+      "lezione": "u13-l3",
+      "livello": "base",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "adempimento",
+        "adempimento-del-terzo",
+        "prestazione-in-luogo-dell-adempimento",
+        "pagamento-con-surrogazione",
+        "imputazione-del-pagamento"
+      ],
+      "tipo": "completa",
+      "testo": "Il subentro del terzo pagante nei diritti del creditore è il pagamento con {{surrogazione}}.",
+      "spiegazione": "La posizione creditoria è conservata a favore del soggetto subentrante."
+    },
+    {
+      "id": "u13-q055",
+      "lezione": "u13-l4",
+      "livello": "medio",
+      "pagine": [
+        110,
+        112
+      ],
+      "concetti": [
+        "mora-del-creditore",
+        "compensazione",
+        "novazione",
+        "remissione-del-debito",
+        "impossibilita-sopravvenuta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Per un evento non imputabile al debitore la prestazione diventa definitivamente impossibile. Quale effetto può prodursi?",
+      "opzioni": [
+        "Obbligo automatico di risarcire ogni danno",
+        "Trasformazione in obbligazione solidale",
+        "Estinzione dell'obbligazione",
+        "Necessaria mora del creditore"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'impossibilità liberatoria richiede non imputabilità e caratteri previsti dall'art. 1256 c.c."
+    },
+    {
+      "id": "u13-q056",
+      "lezione": "u13-l4",
+      "livello": "medio",
+      "pagine": [
+        110,
+        112
+      ],
+      "concetti": [
+        "mora-del-creditore",
+        "compensazione",
+        "novazione",
+        "remissione-del-debito",
+        "impossibilita-sopravvenuta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Le qualità di creditore e debitore dello stesso rapporto si riuniscono nella medesima persona. Quale modo di estinzione ricorre?",
+      "opzioni": [
+        "Remissione",
+        "Compensazione fra due rapporti distinti",
+        "Dazione in pagamento",
+        "Confusione"
+      ],
+      "corretta": 3,
+      "spiegazione": "La confusione riguarda la riunione delle posizioni nel medesimo rapporto."
+    },
+    {
+      "id": "u13-q057",
+      "lezione": "u13-l4",
+      "livello": "medio",
+      "pagine": [
+        110,
+        112
+      ],
+      "concetti": [
+        "mora-del-creditore",
+        "compensazione",
+        "novazione",
+        "remissione-del-debito",
+        "impossibilita-sopravvenuta"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Una modifica accessoria del rapporto dimostra sempre in modo univoco la volontà di novare.",
+      "vero": false,
+      "spiegazione": "La novazione richiede una volontà inequivoca e un elemento nuovo dell'obbligazione."
+    },
+    {
+      "id": "u13-q058",
+      "lezione": "u13-l4",
+      "livello": "base",
+      "pagine": [
+        110,
+        112
+      ],
+      "concetti": [
+        "mora-del-creditore",
+        "compensazione",
+        "novazione",
+        "remissione-del-debito",
+        "impossibilita-sopravvenuta"
+      ],
+      "tipo": "completa",
+      "testo": "L'accordo che estingue l'obbligazione sostituendola con una nuova, diversa per oggetto o titolo, è la {{novazione}}.",
+      "spiegazione": "Le semplici modifiche accessorie non bastano."
     }
   ],
   "mappa": {

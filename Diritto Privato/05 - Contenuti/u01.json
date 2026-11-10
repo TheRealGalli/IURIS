@@ -1271,6 +1271,311 @@
           "art. 97 Cost."
         ]
       ]
+    },
+    {
+      "id": "u01-q033",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        3
+      ],
+      "concetti": [
+        "ordinamento-giuridico",
+        "norma-giuridica",
+        "diritto-positivo",
+        "diritto-naturale",
+        "fattispecie",
+        "istituto-giuridico",
+        "antinomia",
+        "lacuna-del-diritto"
+      ],
+      "tipo": "multipla",
+      "domanda": "Due disposizioni assegnano conseguenze incompatibili alla stessa fattispecie. Quale problema deve risolvere l'interprete?",
+      "opzioni": [
+        "Un'antinomia",
+        "Una lacuna",
+        "Un difetto di capacità",
+        "Un acquisto originario"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'antinomia è il contrasto fra norme applicabili al medesimo caso."
+    },
+    {
+      "id": "u01-q034",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        3
+      ],
+      "concetti": [
+        "ordinamento-giuridico",
+        "norma-giuridica",
+        "diritto-positivo",
+        "diritto-naturale",
+        "fattispecie",
+        "istituto-giuridico",
+        "antinomia",
+        "lacuna-del-diritto"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio confonde la frase contenuta nella legge con il significato ricavato interpretandola. Quale distinzione trascura?",
+      "opzioni": [
+        "Diritto reale e credito",
+        "Disposizione e norma",
+        "Persona fisica e giuridica",
+        "Fatto e prova"
+      ],
+      "corretta": 1,
+      "spiegazione": "La disposizione è il testo, la norma è il significato interpretato."
+    },
+    {
+      "id": "u01-q035",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        3
+      ],
+      "concetti": [
+        "ordinamento-giuridico",
+        "norma-giuridica",
+        "diritto-positivo",
+        "diritto-naturale",
+        "fattispecie",
+        "istituto-giuridico",
+        "antinomia",
+        "lacuna-del-diritto"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Una singola norma può risultare dalla lettura combinata di più disposizioni.",
+      "vero": true,
+      "spiegazione": "Il combinato disposto ricava la regola da più testi."
+    },
+    {
+      "id": "u01-q036",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "pagine": [
+        1,
+        3
+      ],
+      "concetti": [
+        "ordinamento-giuridico",
+        "norma-giuridica",
+        "diritto-positivo",
+        "diritto-naturale",
+        "fattispecie",
+        "istituto-giuridico",
+        "antinomia",
+        "lacuna-del-diritto"
+      ],
+      "tipo": "completa",
+      "testo": "La regola ricavata dalla lettura congiunta di più disposizioni deriva dal {{combinato disposto}}.",
+      "spiegazione": "Il testo di una singola disposizione non esaurisce necessariamente la norma applicabile."
+    },
+    {
+      "id": "u01-q037",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "pagine": [
+        3,
+        5
+      ],
+      "concetti": [
+        "generalita-e-astrattezza",
+        "principio-di-uguaglianza",
+        "equita",
+        "diritto-privato",
+        "diritto-pubblico",
+        "norme-derogabili",
+        "norme-inderogabili",
+        "norme-suppletive"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un Comune compra arredi per i propri uffici con un contratto di vendita. La sua natura pubblica esclude sempre il diritto privato?",
+      "opzioni": [
+        "Sì, ogni suo rapporto è autoritativo",
+        "Sì, solo le persone fisiche possono comprare",
+        "No, un ente pubblico può agire secondo il diritto privato",
+        "No, perché ogni vendita è un provvedimento amministrativo"
+      ],
+      "corretta": 2,
+      "spiegazione": "La natura del soggetto non determina da sola la disciplina del rapporto."
+    },
+    {
+      "id": "u01-q038",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "pagine": [
+        3,
+        5
+      ],
+      "concetti": [
+        "generalita-e-astrattezza",
+        "principio-di-uguaglianza",
+        "equita",
+        "diritto-privato",
+        "diritto-pubblico",
+        "norme-derogabili",
+        "norme-inderogabili",
+        "norme-suppletive"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio e Caio concordano di escludere una norma imperativa applicabile al rapporto. Basta il loro accordo?",
+      "opzioni": [
+        "Sì, perché tutti i rapporti privati sono derogabili",
+        "Sì, purché l'accordo sia orale",
+        "No, perché occorre sempre un referendum",
+        "No, la norma opera indipendentemente dalla loro volontà"
+      ],
+      "corretta": 3,
+      "spiegazione": "Le norme inderogabili limitano l'autonomia privata."
+    },
+    {
+      "id": "u01-q039",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "pagine": [
+        3,
+        5
+      ],
+      "concetti": [
+        "generalita-e-astrattezza",
+        "principio-di-uguaglianza",
+        "equita",
+        "diritto-privato",
+        "diritto-pubblico",
+        "norme-derogabili",
+        "norme-inderogabili",
+        "norme-suppletive"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'uguaglianza sostanziale si esaurisce nell'applicare formalmente la stessa regola a tutti.",
+      "vero": false,
+      "spiegazione": "Richiede anche la rimozione degli ostacoli economici e sociali."
+    },
+    {
+      "id": "u01-q040",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "pagine": [
+        3,
+        5
+      ],
+      "concetti": [
+        "generalita-e-astrattezza",
+        "principio-di-uguaglianza",
+        "equita",
+        "diritto-privato",
+        "diritto-pubblico",
+        "norme-derogabili",
+        "norme-inderogabili",
+        "norme-suppletive"
+      ],
+      "tipo": "completa",
+      "testo": "La giustizia del caso singolo è detta {{equità}}.",
+      "spiegazione": "Il giudice può decidere secondo equità nei casi consentiti dalla legge."
+    },
+    {
+      "id": "u01-q041",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "pagine": [
+        5,
+        8
+      ],
+      "concetti": [
+        "fonti-del-diritto",
+        "fonti-di-cognizione",
+        "gerarchia-delle-fonti",
+        "consuetudine",
+        "codice-civile",
+        "novella",
+        "costituzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio legge una legge nella Gazzetta Ufficiale. Quale funzione svolge la Gazzetta?",
+      "opzioni": [
+        "Fonte di cognizione",
+        "Fonte consuetudinaria",
+        "Norma costituzionale",
+        "Regolamento governativo"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il documento permette di conoscere il testo della norma."
+    },
+    {
+      "id": "u01-q042",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "pagine": [
+        5,
+        8
+      ],
+      "concetti": [
+        "fonti-del-diritto",
+        "fonti-di-cognizione",
+        "gerarchia-delle-fonti",
+        "consuetudine",
+        "codice-civile",
+        "novella",
+        "costituzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una pratica commerciale costante contraddice una disposizione legislativa applicabile. La sola ripetizione può abrogare la legge?",
+      "opzioni": [
+        "Sì, dopo un numero sufficiente di contratti",
+        "No, non è ammessa una consuetudine contra legem",
+        "Sì, se favorisce entrambi i contraenti",
+        "No, perché ogni consuetudine è priva di valore"
+      ],
+      "corretta": 1,
+      "spiegazione": "La consuetudine non prevale sulla legge contraria."
+    },
+    {
+      "id": "u01-q043",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "pagine": [
+        5,
+        8
+      ],
+      "concetti": [
+        "fonti-del-diritto",
+        "fonti-di-cognizione",
+        "gerarchia-delle-fonti",
+        "consuetudine",
+        "codice-civile",
+        "novella",
+        "costituzione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il Codice civile ha rango costituzionale perché raccoglie sistematicamente la disciplina privata.",
+      "vero": false,
+      "spiegazione": "Il Codice civile ha rango di legge ordinaria."
+    },
+    {
+      "id": "u01-q044",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "pagine": [
+        5,
+        8
+      ],
+      "concetti": [
+        "fonti-del-diritto",
+        "fonti-di-cognizione",
+        "gerarchia-delle-fonti",
+        "consuetudine",
+        "codice-civile",
+        "novella",
+        "costituzione"
+      ],
+      "tipo": "completa",
+      "testo": "La modifica legislativa di singole disposizioni di un codice si chiama {{novella}}.",
+      "spiegazione": "Il codice non deve necessariamente essere sostituito integralmente."
     }
   ],
   "mappa": {

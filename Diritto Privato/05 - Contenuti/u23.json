@@ -1341,6 +1341,354 @@
           "Serie continua di girate"
         ]
       ]
+    },
+    {
+      "id": "u23-q043",
+      "lezione": "u23-l1",
+      "livello": "medio",
+      "pagine": [
+        200,
+        202
+      ],
+      "concetti": [
+        "promessa-unilaterale",
+        "promessa-di-pagamento",
+        "promessa-al-pubblico",
+        "titolo-di-credito"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio sottoscrive una ricognizione di debito. Il creditore deve comunque provare subito il rapporto fondamentale come se la dichiarazione non esistesse?",
+      "opzioni": [
+        "No, opera la presunzione del rapporto fino a prova contraria",
+        "Sì, la ricognizione è sempre irrilevante",
+        "No, il rapporto diventa incontestabile per chiunque",
+        "Sì, salvo accettazione notarile"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'art. 1988 c.c. realizza un'astrazione processuale e modifica l'onere probatorio."
+    },
+    {
+      "id": "u23-q044",
+      "lezione": "u23-l1",
+      "livello": "medio",
+      "pagine": [
+        200,
+        202
+      ],
+      "concetti": [
+        "promessa-unilaterale",
+        "promessa-di-pagamento",
+        "promessa-al-pubblico",
+        "titolo-di-credito"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio presenta un titolo di credito e soddisfa i requisiti di legittimazione cartolare. Questo risolve sempre e definitivamente ogni questione sulla titolarità sostanziale?",
+      "opzioni": [
+        "Sì, sono nozioni identiche",
+        "No, legittimazione e titolarità sono piani distinti",
+        "Sì, ogni portatore materiale è sempre proprietario del credito",
+        "No, perché i titoli non attribuiscono mai legittimazione"
+      ],
+      "corretta": 1,
+      "spiegazione": "La circolazione dei titoli protegge la legittimazione secondo regole proprie senza abolire ogni distinzione sostanziale."
+    },
+    {
+      "id": "u23-q045",
+      "lezione": "u23-l1",
+      "livello": "medio",
+      "pagine": [
+        200,
+        202
+      ],
+      "concetti": [
+        "promessa-unilaterale",
+        "promessa-di-pagamento",
+        "promessa-al-pubblico",
+        "titolo-di-credito"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Una promessa unilaterale produce obbligazioni in qualsiasi caso scelto liberamente dal promittente, senza alcun limite di tipicità.",
+      "vero": false,
+      "spiegazione": "L'art. 1987 c.c. limita l'efficacia obbligatoria ai casi ammessi dalla legge."
+    },
+    {
+      "id": "u23-q046",
+      "lezione": "u23-l1",
+      "livello": "base",
+      "pagine": [
+        200,
+        202
+      ],
+      "concetti": [
+        "promessa-unilaterale",
+        "promessa-di-pagamento",
+        "promessa-al-pubblico",
+        "titolo-di-credito"
+      ],
+      "tipo": "completa",
+      "testo": "Il carattere per cui il contenuto del diritto cartolare è determinato dal testo del titolo è la {{letteralità}}.",
+      "spiegazione": "Si distingue dall'autonomia delle posizioni dei successivi acquistanti."
+    },
+    {
+      "id": "u23-q047",
+      "lezione": "u23-l2",
+      "livello": "medio",
+      "pagine": [
+        203,
+        205
+      ],
+      "concetti": [
+        "cambiale",
+        "accettazione-cambiaria",
+        "girata-cambiaria",
+        "avallo"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una cambiale contiene una promessa diretta dell'emittente di pagare. Quale tipo è descritto?",
+      "opzioni": [
+        "Tratta necessariamente già accettata",
+        "Assegno bancario",
+        "Pagherò cambiario",
+        "Girata per procura"
+      ],
+      "corretta": 2,
+      "spiegazione": "La tratta contiene un ordine, il pagherò una promessa del sottoscrittore."
+    },
+    {
+      "id": "u23-q048",
+      "lezione": "u23-l2",
+      "livello": "medio",
+      "pagine": [
+        203,
+        205
+      ],
+      "concetti": [
+        "cambiale",
+        "accettazione-cambiaria",
+        "girata-cambiaria",
+        "avallo"
+      ],
+      "tipo": "multipla",
+      "domanda": "L'obbligazione garantita da avallo è invalida per una ragione diversa da un vizio di forma. L'avallo cade sempre per accessorietà come una normale fideiussione?",
+      "opzioni": [
+        "Sì, le due garanzie sono sempre identiche",
+        "Sì, purché il debitore sia incapace di pagare",
+        "No, perché l'avallo non è una garanzia",
+        "No, l'avallo ha autonomia con la specifica eccezione formale"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'autonomia dell'avallo è distinta dall'accessorietà della fideiussione."
+    },
+    {
+      "id": "u23-q049",
+      "lezione": "u23-l2",
+      "livello": "medio",
+      "pagine": [
+        203,
+        205
+      ],
+      "concetti": [
+        "cambiale",
+        "accettazione-cambiaria",
+        "girata-cambiaria",
+        "avallo"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'accettazione della tratta è l'atto che rende il trattario obbligato cambiario principale.",
+      "vero": true,
+      "spiegazione": "La sola indicazione come trattario non equivale all'accettazione."
+    },
+    {
+      "id": "u23-q050",
+      "lezione": "u23-l2",
+      "livello": "base",
+      "pagine": [
+        203,
+        205
+      ],
+      "concetti": [
+        "cambiale",
+        "accettazione-cambiaria",
+        "girata-cambiaria",
+        "avallo"
+      ],
+      "tipo": "completa",
+      "testo": "La garanzia cambiaria personale apposta sul titolo è l'{{avallo}}.",
+      "spiegazione": "La sua disciplina va distinta dalla fideiussione ordinaria."
+    },
+    {
+      "id": "u23-q051",
+      "lezione": "u23-l3",
+      "livello": "medio",
+      "pagine": [
+        206,
+        206
+      ],
+      "concetti": [
+        "assegno-bancario",
+        "non-trasferibilita-assegno",
+        "assegno-circolare",
+        "centrale-allarme-interbancaria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio emette un assegno bancario con una data futura e ritiene che il titolo non possa essere pagato prima di quella data. Quale regola trascura?",
+      "opzioni": [
+        "L'assegno bancario è pagabile a vista",
+        "L'assegno è sempre una promessa condizionata",
+        "La banca deve accettarlo come una tratta",
+        "L'assegno diventa automaticamente circolare"
+      ],
+      "corretta": 0,
+      "spiegazione": "La postdatazione non modifica la regola cartolare del pagamento a vista."
+    },
+    {
+      "id": "u23-q052",
+      "lezione": "u23-l3",
+      "livello": "medio",
+      "pagine": [
+        206,
+        206
+      ],
+      "concetti": [
+        "assegno-bancario",
+        "non-trasferibilita-assegno",
+        "assegno-circolare",
+        "centrale-allarme-interbancaria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio confonde l'assegno bancario con il circolare. Quale elemento distingue il circolare?",
+      "opzioni": [
+        "Un ordine del correntista alla propria banca in ogni caso",
+        "La promessa di pagamento della banca emittente",
+        "La possibilità di essere emesso da qualsiasi privato",
+        "La mancanza di un soggetto obbligato al pagamento"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'assegno circolare implica l'obbligo della banca che lo emette."
+    },
+    {
+      "id": "u23-q053",
+      "lezione": "u23-l3",
+      "livello": "medio",
+      "pagine": [
+        206,
+        206
+      ],
+      "concetti": [
+        "assegno-bancario",
+        "non-trasferibilita-assegno",
+        "assegno-circolare",
+        "centrale-allarme-interbancaria"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'emissione di un assegno senza provvista comporta necessariamente e in ogni caso una condanna penale per il solo scoperto.",
+      "vero": false,
+      "spiegazione": "La disciplina distingue illeciti amministrativi e possibili diverse fattispecie penali."
+    },
+    {
+      "id": "u23-q054",
+      "lezione": "u23-l3",
+      "livello": "base",
+      "pagine": [
+        206,
+        206
+      ],
+      "concetti": [
+        "assegno-bancario",
+        "non-trasferibilita-assegno",
+        "assegno-circolare",
+        "centrale-allarme-interbancaria"
+      ],
+      "tipo": "completa",
+      "testo": "La clausola che limita la circolazione dell'assegno mediante girata è la non {{trasferibilità}}.",
+      "spiegazione": "La disciplina antiriciclaggio ne impone l'uso nei casi previsti."
+    },
+    {
+      "id": "u23-q055",
+      "lezione": "u23-l4",
+      "livello": "medio",
+      "pagine": [
+        207,
+        207
+      ],
+      "concetti": [
+        "gestione-di-affari-altrui",
+        "pagamento-dell-indebito",
+        "arricchimento-senza-causa",
+        "sussidiarieta-arricchimento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio, senza incarico, interviene consapevolmente per gestire l'affare urgente di Caio assente. Quale fonte di obbligazioni va valutata?",
+      "opzioni": [
+        "Mandato necessariamente già stipulato",
+        "Donazione formale",
+        "Gestione di affari altrui",
+        "Ricognizione di debito"
+      ],
+      "corretta": 2,
+      "spiegazione": "La gestione presuppone intervento spontaneo e consapevolezza dell'altruità dell'affare."
+    },
+    {
+      "id": "u23-q056",
+      "lezione": "u23-l4",
+      "livello": "medio",
+      "pagine": [
+        207,
+        207
+      ],
+      "concetti": [
+        "gestione-di-affari-altrui",
+        "pagamento-dell-indebito",
+        "arricchimento-senza-causa",
+        "sussidiarieta-arricchimento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio si arricchisce senza causa a spese di Tizio per un importo inferiore all'impoverimento di Tizio. L'indennizzo generale può superare l'arricchimento?",
+      "opzioni": [
+        "Sì, copre sempre qualsiasi danno ulteriore",
+        "Sì, perché ha natura punitiva",
+        "No, perché non può mai spettare alcun indennizzo",
+        "No, incontra il limite dell'arricchimento oltre a quello dell'impoverimento"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'art. 2041 c.c. ha funzione restitutoria limitata e sussidiaria, non risarcitoria integrale."
+    },
+    {
+      "id": "u23-q057",
+      "lezione": "u23-l4",
+      "livello": "medio",
+      "pagine": [
+        207,
+        207
+      ],
+      "concetti": [
+        "gestione-di-affari-altrui",
+        "pagamento-dell-indebito",
+        "arricchimento-senza-causa",
+        "sussidiarieta-arricchimento"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'indebito oggettivo richiede sempre la prova che il solvens fosse in errore scusabile.",
+      "vero": false,
+      "spiegazione": "Il pagamento oggettivamente non dovuto segue presupposti diversi dall'indebito soggettivo."
+    },
+    {
+      "id": "u23-q058",
+      "lezione": "u23-l4",
+      "livello": "base",
+      "pagine": [
+        207,
+        207
+      ],
+      "concetti": [
+        "gestione-di-affari-altrui",
+        "pagamento-dell-indebito",
+        "arricchimento-senza-causa",
+        "sussidiarieta-arricchimento"
+      ],
+      "tipo": "completa",
+      "testo": "La mancanza di un'altra azione utilizzabile è espressa, per l'arricchimento senza causa, dal requisito di {{sussidiarietà}}.",
+      "spiegazione": "L'azione generale non sostituisce liberamente i rimedi specifici."
     }
   ],
   "mappa": {

@@ -1,5 +1,9 @@
 # Piano: Diritto privato (LMG · I anno · A-L)
 
+Potenziamento delle domande (passo 2): **1.426 domande**, almeno 14 in ciascuna delle 98 lezioni.
+Le 392 aggiunte comprendono 196 casi e confronti a scelta multipla, 98 vero/falso e 98 completamenti.
+Le domande precedenti conservano integralmente identificativi e contenuti. I conteggi dei giri sotto sono storici.
+
 Stato: **completato**. Fonte arrivata il 10 novembre 2026: dispensa di Nick Petrullo e Ludovico Mainieri sul manuale
 Torrente–Schlesinger (2012), 238 pagine fitte, 72 capitoli. Testo per pagina in
 `Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Completate le 27 unità (pp. 1–238); la materia è attiva nei tre corsi.

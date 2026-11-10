@@ -855,6 +855,204 @@
           "utilità di un fondo"
         ]
       ]
+    },
+    {
+      "id": "u09-q023",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        67,
+        70
+      ],
+      "concetti": [
+        "diritti-reali-di-godimento",
+        "superficie",
+        "enfiteusi",
+        "affrancazione",
+        "usufrutto",
+        "nuda-proprieta",
+        "quasi-usufrutto",
+        "uso-e-abitazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio acquista la nuda proprietà di una casa gravata da usufrutto. Può esigere immediatamente il pieno godimento solo perché è proprietario?",
+      "opzioni": [
+        "No, deve rispettare il diritto dell'usufruttuario",
+        "Sì, l'usufrutto è un mero favore personale",
+        "Sì, ogni vendita estingue l'usufrutto",
+        "No, perché la nuda proprietà è priva di qualsiasi valore giuridico"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il godimento resta attribuito all'usufruttuario fino all'estinzione del diritto."
+    },
+    {
+      "id": "u09-q024",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        67,
+        70
+      ],
+      "concetti": [
+        "diritti-reali-di-godimento",
+        "superficie",
+        "enfiteusi",
+        "affrancazione",
+        "usufrutto",
+        "nuda-proprieta",
+        "quasi-usufrutto",
+        "uso-e-abitazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un usufruttuario vuole mutare liberamente la destinazione economica del bene. Quale limite incontra?",
+      "opzioni": [
+        "Il divieto di trarre qualunque utilità",
+        "Il dovere di rispettarne la destinazione economica",
+        "Il divieto di possedere il bene",
+        "La necessità di divenire enfiteuta"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il godimento dell'usufrutto non equivale alla pienezza del potere proprietario."
+    },
+    {
+      "id": "u09-q025",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        67,
+        70
+      ],
+      "concetti": [
+        "diritti-reali-di-godimento",
+        "superficie",
+        "enfiteusi",
+        "affrancazione",
+        "usufrutto",
+        "nuda-proprieta",
+        "quasi-usufrutto",
+        "uso-e-abitazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il diritto di superficie può separare la proprietà della costruzione da quella del suolo.",
+      "vero": true,
+      "spiegazione": "È una deroga al principio generale dell'accessione."
+    },
+    {
+      "id": "u09-q026",
+      "lezione": "u09-l1",
+      "livello": "base",
+      "pagine": [
+        67,
+        70
+      ],
+      "concetti": [
+        "diritti-reali-di-godimento",
+        "superficie",
+        "enfiteusi",
+        "affrancazione",
+        "usufrutto",
+        "nuda-proprieta",
+        "quasi-usufrutto",
+        "uso-e-abitazione"
+      ],
+      "tipo": "completa",
+      "testo": "Il diritto dell'enfiteuta di acquistare la piena proprietà pagando la somma prevista è l'{{affrancazione}}.",
+      "spiegazione": "Si distingue dalla devoluzione richiesta dal concedente nei casi di legge."
+    },
+    {
+      "id": "u09-q027",
+      "lezione": "u09-l2",
+      "livello": "medio",
+      "pagine": [
+        70,
+        73
+      ],
+      "concetti": [
+        "servitu",
+        "fondo-dominante-e-servente",
+        "servitu-coattive",
+        "servitu-apparenti",
+        "destinazione-del-padre-di-famiglia",
+        "azione-confessoria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Due fondi appartengono allo stesso proprietario. Può esistere fra essi una servitù prediale come diritto su cosa altrui?",
+      "opzioni": [
+        "Sì, basta assegnare un nome diverso ai fondi",
+        "Sì, purché il proprietario paghi un'indennità a sé stesso",
+        "No, occorre la diversità dei proprietari",
+        "No, perché la servitù richiede sempre persone fisiche diverse dai proprietari"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il principio nemini res sua servit esclude la servitù su cosa propria."
+    },
+    {
+      "id": "u09-q028",
+      "lezione": "u09-l2",
+      "livello": "medio",
+      "pagine": [
+        70,
+        73
+      ],
+      "concetti": [
+        "servitu",
+        "fondo-dominante-e-servente",
+        "servitu-coattive",
+        "servitu-apparenti",
+        "destinazione-del-padre-di-famiglia",
+        "azione-confessoria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio acquista un fondo gravato da servitù di passaggio regolarmente opponibile. Può cancellarla per il solo cambio di proprietario?",
+      "opzioni": [
+        "Sì, ogni vendita estingue i diritti reali minori",
+        "Sì, perché è un obbligo personale del venditore",
+        "No, perché diviene proprietario anche del fondo dominante",
+        "No, il peso inerisce al fondo"
+      ],
+      "corretta": 3,
+      "spiegazione": "La servitù è legata ai fondi e non soltanto alle persone che l'hanno costituita."
+    },
+    {
+      "id": "u09-q029",
+      "lezione": "u09-l2",
+      "livello": "medio",
+      "pagine": [
+        70,
+        73
+      ],
+      "concetti": [
+        "servitu",
+        "fondo-dominante-e-servente",
+        "servitu-coattive",
+        "servitu-apparenti",
+        "destinazione-del-padre-di-famiglia",
+        "azione-confessoria"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il contenuto principale di una servitù può consistere nell'obbligo del proprietario servente di svolgere una prestazione personale positiva.",
+      "vero": false,
+      "spiegazione": "La servitù impone normalmente un non fare o un sopportare, salvi obblighi accessori."
+    },
+    {
+      "id": "u09-q030",
+      "lezione": "u09-l2",
+      "livello": "base",
+      "pagine": [
+        70,
+        73
+      ],
+      "concetti": [
+        "servitu",
+        "fondo-dominante-e-servente",
+        "servitu-coattive",
+        "servitu-apparenti",
+        "destinazione-del-padre-di-famiglia",
+        "azione-confessoria"
+      ],
+      "tipo": "completa",
+      "testo": "Il fondo che trae utilità dalla servitù si chiama {{dominante}}.",
+      "spiegazione": "Il fondo gravato dal peso è detto servente."
     }
   ],
   "mappa": {

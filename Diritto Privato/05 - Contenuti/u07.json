@@ -1200,6 +1200,303 @@
           "imprescrittibile"
         ]
       ]
+    },
+    {
+      "id": "u07-q033",
+      "lezione": "u07-l1",
+      "livello": "medio",
+      "pagine": [
+        42,
+        45
+      ],
+      "concetti": [
+        "prescrizione",
+        "sospensione-della-prescrizione",
+        "interruzione-della-prescrizione",
+        "prescrizione-presuntiva",
+        "decadenza",
+        "computo-dei-termini"
+      ],
+      "tipo": "multipla",
+      "domanda": "Dopo un evento interruttivo la prescrizione ricomincia a decorrere. Il periodo precedente si somma al nuovo?",
+      "opzioni": [
+        "Sì, come nella sospensione",
+        "Sì, ma solo per i diritti reali",
+        "No, decorre un nuovo periodo per intero",
+        "No, perché il diritto diventa imprescrittibile"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'interruzione elimina l'utilità del tempo prima trascorso."
+    },
+    {
+      "id": "u07-q034",
+      "lezione": "u07-l1",
+      "livello": "medio",
+      "pagine": [
+        42,
+        45
+      ],
+      "concetti": [
+        "prescrizione",
+        "sospensione-della-prescrizione",
+        "interruzione-della-prescrizione",
+        "prescrizione-presuntiva",
+        "decadenza",
+        "computo-dei-termini"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio vorrebbe rinunciare alla prescrizione prima che sia compiuta. L'accordo è ammesso?",
+      "opzioni": [
+        "Sì, basta la volontà del debitore",
+        "Sì, purché il creditore sia presente",
+        "No, perché non si può rinunciare neppure dopo il compimento",
+        "No, la rinuncia preventiva non è consentita"
+      ],
+      "corretta": 3,
+      "spiegazione": "La rinuncia è ammessa soltanto a prescrizione compiuta."
+    },
+    {
+      "id": "u07-q035",
+      "lezione": "u07-l1",
+      "livello": "medio",
+      "pagine": [
+        42,
+        45
+      ],
+      "concetti": [
+        "prescrizione",
+        "sospensione-della-prescrizione",
+        "interruzione-della-prescrizione",
+        "prescrizione-presuntiva",
+        "decadenza",
+        "computo-dei-termini"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La sospensione conserva il periodo di prescrizione già decorso prima della causa sospensiva.",
+      "vero": true,
+      "spiegazione": "Quando la sospensione termina, il tempo continua a decorrere."
+    },
+    {
+      "id": "u07-q036",
+      "lezione": "u07-l1",
+      "livello": "base",
+      "pagine": [
+        42,
+        45
+      ],
+      "concetti": [
+        "prescrizione",
+        "sospensione-della-prescrizione",
+        "interruzione-della-prescrizione",
+        "prescrizione-presuntiva",
+        "decadenza",
+        "computo-dei-termini"
+      ],
+      "tipo": "completa",
+      "testo": "La presunzione di avvenuto pagamento caratterizza la prescrizione {{presuntiva}}.",
+      "spiegazione": "È diversa dalla prescrizione estintiva del diritto."
+    },
+    {
+      "id": "u07-q037",
+      "lezione": "u07-l2",
+      "livello": "medio",
+      "pagine": [
+        45,
+        47
+      ],
+      "concetti": [
+        "autotutela",
+        "azione",
+        "cosa-giudicata",
+        "processo-esecutivo",
+        "espropriazione-forzata",
+        "pignoramento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio vende un bene già pignorato. La vendita impedisce sempre al creditore procedente di soddisfarsi su quel bene?",
+      "opzioni": [
+        "No, gli atti successivi sono inefficaci rispetto alla tutela esecutiva nei termini dell'art. 2913 c.c.",
+        "Sì, perché trasferisce necessariamente un bene libero",
+        "Sì, se il prezzo è congruo",
+        "No, perché ogni vendita dopo il pignoramento è inesistente fra le parti"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il vincolo tutela l'esecuzione contro gli atti dispositivi successivi."
+    },
+    {
+      "id": "u07-q038",
+      "lezione": "u07-l2",
+      "livello": "medio",
+      "pagine": [
+        45,
+        47
+      ],
+      "concetti": [
+        "autotutela",
+        "azione",
+        "cosa-giudicata",
+        "processo-esecutivo",
+        "espropriazione-forzata",
+        "pignoramento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio vuole soltanto far dichiarare che è titolare di un diritto contestato, senza chiedere una prestazione. Quale azione propone?",
+      "opzioni": [
+        "Di condanna",
+        "Di accertamento",
+        "Di espropriazione",
+        "Cautelare necessariamente"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'accertamento mira a eliminare l'incertezza sulla situazione giuridica."
+    },
+    {
+      "id": "u07-q039",
+      "lezione": "u07-l2",
+      "livello": "medio",
+      "pagine": [
+        45,
+        47
+      ],
+      "concetti": [
+        "autotutela",
+        "azione",
+        "cosa-giudicata",
+        "processo-esecutivo",
+        "espropriazione-forzata",
+        "pignoramento"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il giudicato dell'art. 2909 c.c. vincola indistintamente tutti i cittadini estranei alla causa.",
+      "vero": false,
+      "spiegazione": "Fa stato fra parti, eredi e aventi causa."
+    },
+    {
+      "id": "u07-q040",
+      "lezione": "u07-l2",
+      "livello": "base",
+      "pagine": [
+        45,
+        47
+      ],
+      "concetti": [
+        "autotutela",
+        "azione",
+        "cosa-giudicata",
+        "processo-esecutivo",
+        "espropriazione-forzata",
+        "pignoramento"
+      ],
+      "tipo": "completa",
+      "testo": "L’accertamento definitivo che fa stato fra parti, eredi e aventi causa è la cosa {{giudicata}}.",
+      "spiegazione": "L’art. 2909 c.c. disciplina gli effetti sostanziali del giudicato."
+    },
+    {
+      "id": "u07-q041",
+      "lezione": "u07-l3",
+      "livello": "medio",
+      "pagine": [
+        47,
+        50
+      ],
+      "concetti": [
+        "onere-della-prova",
+        "prova-legale",
+        "atto-pubblico",
+        "scrittura-privata",
+        "data-certa",
+        "prova-testimoniale",
+        "presunzione",
+        "confessione",
+        "giuramento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il creditore prova il contratto da cui nasce il credito; il debitore eccepisce un fatto estintivo. Su chi grava la prova di quest'ultimo fatto?",
+      "opzioni": [
+        "Sempre sul giudice",
+        "Su un terzo estraneo",
+        "Sul debitore che lo eccepisce",
+        "Sul creditore per il solo fatto di aver agito"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'art. 2697 c.c. distingue fatti costitutivi e fatti estintivi, modificativi o impeditivi."
+    },
+    {
+      "id": "u07-q042",
+      "lezione": "u07-l3",
+      "livello": "medio",
+      "pagine": [
+        47,
+        50
+      ],
+      "concetti": [
+        "onere-della-prova",
+        "prova-legale",
+        "atto-pubblico",
+        "scrittura-privata",
+        "data-certa",
+        "prova-testimoniale",
+        "presunzione",
+        "confessione",
+        "giuramento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un documento pubblico riporta una dichiarazione resa da Tizio al notaio. La piena prova del documento rende necessariamente vero il contenuto sostanziale di quella dichiarazione?",
+      "opzioni": [
+        "Sì, ogni affermazione resa al notaio diventa incontestabile",
+        "Sì, il notaio decide la controversia",
+        "No, perché il documento pubblico non prova neppure la provenienza",
+        "No, distingue il fatto della dichiarazione dalla sua verità intrinseca"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'efficacia probatoria riguarda ciò che il pubblico ufficiale attesta avvenuto in sua presenza."
+    },
+    {
+      "id": "u07-q043",
+      "lezione": "u07-l3",
+      "livello": "medio",
+      "pagine": [
+        47,
+        50
+      ],
+      "concetti": [
+        "onere-della-prova",
+        "prova-legale",
+        "atto-pubblico",
+        "scrittura-privata",
+        "data-certa",
+        "prova-testimoniale",
+        "presunzione",
+        "confessione",
+        "giuramento"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Le presunzioni semplici possono essere ammesse senza che il ragionamento abbia gravità, precisione e concordanza.",
+      "vero": false,
+      "spiegazione": "Questi requisiti caratterizzano le presunzioni semplici dell'art. 2729 c.c."
+    },
+    {
+      "id": "u07-q044",
+      "lezione": "u07-l3",
+      "livello": "base",
+      "pagine": [
+        47,
+        50
+      ],
+      "concetti": [
+        "onere-della-prova",
+        "prova-legale",
+        "atto-pubblico",
+        "scrittura-privata",
+        "data-certa",
+        "prova-testimoniale",
+        "presunzione",
+        "confessione",
+        "giuramento"
+      ],
+      "tipo": "completa",
+      "testo": "L'ammissione di fatti sfavorevoli a sé e favorevoli all'altra parte è la {{confessione}}.",
+      "spiegazione": "La confessione è un mezzo di prova distinto dalla testimonianza."
     }
   ],
   "mappa": {

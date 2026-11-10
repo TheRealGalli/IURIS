@@ -1263,6 +1263,319 @@
           "data certa"
         ]
       ]
+    },
+    {
+      "id": "u06-q033",
+      "lezione": "u06-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        35
+      ],
+      "concetti": [
+        "bene",
+        "beni-immateriali",
+        "beni-immobili",
+        "beni-mobili",
+        "beni-mobili-registrati",
+        "beni-fungibili",
+        "beni-consumabili",
+        "beni-futuri"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio vende cento chili di grano di una qualità corrente, senza individuare singoli chicchi. Quale carattere dei beni è decisivo?",
+      "opzioni": [
+        "Fungibilità",
+        "Immaterialità",
+        "Demanialità",
+        "Incorporazione al suolo"
+      ],
+      "corretta": 0,
+      "spiegazione": "I beni fungibili sono sostituibili con altri della stessa specie e qualità."
+    },
+    {
+      "id": "u06-q034",
+      "lezione": "u06-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        35
+      ],
+      "concetti": [
+        "bene",
+        "beni-immateriali",
+        "beni-immobili",
+        "beni-mobili",
+        "beni-mobili-registrati",
+        "beni-fungibili",
+        "beni-consumabili",
+        "beni-futuri"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio sostiene che ogni bene mobile debba essere soggetto a trascrizione perché lo è la sua automobile. Qual è l'errore?",
+      "opzioni": [
+        "Confondere le automobili con gli immobili",
+        "Confondere i mobili registrati con tutti i mobili",
+        "Ritenere che l'auto abbia valore economico",
+        "Ritenere che un mobile possa essere oggetto di proprietà"
+      ],
+      "corretta": 1,
+      "spiegazione": "I mobili registrati costituiscono una categoria particolare."
+    },
+    {
+      "id": "u06-q035",
+      "lezione": "u06-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        35
+      ],
+      "concetti": [
+        "bene",
+        "beni-immateriali",
+        "beni-immobili",
+        "beni-mobili",
+        "beni-mobili-registrati",
+        "beni-fungibili",
+        "beni-consumabili",
+        "beni-futuri"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Consumabilità e fungibilità descrivono lo stesso carattere del bene.",
+      "vero": false,
+      "spiegazione": "La prima riguarda il consumo con l'uso, la seconda la sostituibilità."
+    },
+    {
+      "id": "u06-q036",
+      "lezione": "u06-l1",
+      "livello": "base",
+      "pagine": [
+        33,
+        35
+      ],
+      "concetti": [
+        "bene",
+        "beni-immateriali",
+        "beni-immobili",
+        "beni-mobili",
+        "beni-mobili-registrati",
+        "beni-fungibili",
+        "beni-consumabili",
+        "beni-futuri"
+      ],
+      "tipo": "completa",
+      "testo": "Le cose che possono formare oggetto di diritti sono {{beni}}.",
+      "spiegazione": "È la nozione dell'art. 810 c.c."
+    },
+    {
+      "id": "u06-q037",
+      "lezione": "u06-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        37
+      ],
+      "concetti": [
+        "frutti",
+        "pertinenza",
+        "universalita-di-mobili",
+        "azienda",
+        "patrimonio",
+        "patrimonio-separato",
+        "beni-demaniali"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio concede un appartamento in locazione e matura il canone nel tempo. Di quale categoria di frutti si tratta?",
+      "opzioni": [
+        "Frutti naturali separati",
+        "Pertinenze",
+        "Frutti civili",
+        "Beni demaniali"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il corrispettivo del godimento da parte di altri costituisce frutto civile."
+    },
+    {
+      "id": "u06-q038",
+      "lezione": "u06-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        37
+      ],
+      "concetti": [
+        "frutti",
+        "pertinenza",
+        "universalita-di-mobili",
+        "azienda",
+        "patrimonio",
+        "patrimonio-separato",
+        "beni-demaniali"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio riunisce più beni mobili propri e li destina unitariamente a una biblioteca. Quale figura può ricorrere?",
+      "opzioni": [
+        "Comunione forzosa",
+        "Usufrutto legale",
+        "Successione universale",
+        "Universalità di mobili"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'universalità richiede pluralità di cose della stessa persona e destinazione unitaria."
+    },
+    {
+      "id": "u06-q039",
+      "lezione": "u06-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        37
+      ],
+      "concetti": [
+        "frutti",
+        "pertinenza",
+        "universalita-di-mobili",
+        "azienda",
+        "patrimonio",
+        "patrimonio-separato",
+        "beni-demaniali"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'azienda coincide necessariamente con un unico bene materiale.",
+      "vero": false,
+      "spiegazione": "È il complesso di beni organizzati per l'esercizio dell'impresa."
+    },
+    {
+      "id": "u06-q040",
+      "lezione": "u06-l2",
+      "livello": "base",
+      "pagine": [
+        35,
+        37
+      ],
+      "concetti": [
+        "frutti",
+        "pertinenza",
+        "universalita-di-mobili",
+        "azienda",
+        "patrimonio",
+        "patrimonio-separato",
+        "beni-demaniali"
+      ],
+      "tipo": "completa",
+      "testo": "La cosa destinata durevolmente a servizio o ornamento di un'altra è una {{pertinenza}}.",
+      "spiegazione": "Il rapporto funzionale la collega alla cosa principale."
+    },
+    {
+      "id": "u06-q041",
+      "lezione": "u06-l3",
+      "livello": "medio",
+      "pagine": [
+        38,
+        41
+      ],
+      "concetti": [
+        "fatto-giuridico",
+        "atto-giuridico",
+        "negozio-giuridico",
+        "negozio-unilaterale",
+        "atto-recettizio",
+        "negozio-a-titolo-oneroso",
+        "rinunzia",
+        "elementi-del-negozio",
+        "forma-ad-substantiam",
+        "pubblicita"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio redige un testamento. L'atto diventa bilaterale perché designa un erede?",
+      "opzioni": [
+        "No, resta un negozio unilaterale",
+        "Sì, l'erede è sempre il secondo contraente",
+        "Sì, perché ogni attribuzione richiede accordo",
+        "No, perché è un mero fatto naturale"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il numero dei beneficiari non determina il numero delle parti del negozio."
+    },
+    {
+      "id": "u06-q042",
+      "lezione": "u06-l3",
+      "livello": "medio",
+      "pagine": [
+        38,
+        41
+      ],
+      "concetti": [
+        "fatto-giuridico",
+        "atto-giuridico",
+        "negozio-giuridico",
+        "negozio-unilaterale",
+        "atto-recettizio",
+        "negozio-a-titolo-oneroso",
+        "rinunzia",
+        "elementi-del-negozio",
+        "forma-ad-substantiam",
+        "pubblicita"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una formalità pubblicitaria è richiesta per far sorgere un diritto. Come si qualifica la sua funzione?",
+      "opzioni": [
+        "Di sola notizia",
+        "Costitutiva",
+        "Meramente probatoria",
+        "Interpretativa"
+      ],
+      "corretta": 1,
+      "spiegazione": "La pubblicità costitutiva concorre alla nascita della situazione giuridica."
+    },
+    {
+      "id": "u06-q043",
+      "lezione": "u06-l3",
+      "livello": "medio",
+      "pagine": [
+        38,
+        41
+      ],
+      "concetti": [
+        "fatto-giuridico",
+        "atto-giuridico",
+        "negozio-giuridico",
+        "negozio-unilaterale",
+        "atto-recettizio",
+        "negozio-a-titolo-oneroso",
+        "rinunzia",
+        "elementi-del-negozio",
+        "forma-ad-substantiam",
+        "pubblicita"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Ogni comportamento umano volontario produce esclusivamente gli effetti che il suo autore desidera.",
+      "vero": false,
+      "spiegazione": "Negli atti in senso stretto gli effetti sono stabiliti dalla legge."
+    },
+    {
+      "id": "u06-q044",
+      "lezione": "u06-l3",
+      "livello": "base",
+      "pagine": [
+        38,
+        41
+      ],
+      "concetti": [
+        "fatto-giuridico",
+        "atto-giuridico",
+        "negozio-giuridico",
+        "negozio-unilaterale",
+        "atto-recettizio",
+        "negozio-a-titolo-oneroso",
+        "rinunzia",
+        "elementi-del-negozio",
+        "forma-ad-substantiam",
+        "pubblicita"
+      ],
+      "tipo": "completa",
+      "testo": "Il negozio la cui efficacia dipende dalla conoscenza del destinatario si dice {{recettizio}}.",
+      "spiegazione": "La dichiarazione è diretta a un destinatario determinato."
     }
   ],
   "mappa": {

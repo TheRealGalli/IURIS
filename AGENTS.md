@@ -12,7 +12,7 @@ materie al livello di Diritto romano. Diritto privato ha tutte le 27 unità; il 
    più schede inverse, approfondimenti, testo della Costituzione, Quadro ed esercizi dedicati.
    Fonti, aggiornamenti e controlli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md);
    che cosa resta da fare (anche per Filosofia SSG) in [`piani/potenziamento.md`](piani/potenziamento.md).
-2. **Diritto privato completato** (materia unica per le tre classi): 27 unità, 98 lezioni, 503 voci e 1.034
+2. **Diritto privato completato** (materia unica per le tre classi): 27 unità, 98 lezioni, 503 voci e 1.426
    domande, più la sezione Codice civile. Gli aggiornamenti della dispensa del 2012, la tabella delle unità e i
    controlli sono in [`piani/diritto-privato.md`](piani/diritto-privato.md); il riepilogo finale è in
    [`piani/consegne-diritto-privato.md`](piani/consegne-diritto-privato.md).

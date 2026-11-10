@@ -1179,6 +1179,291 @@
           "quindici anni"
         ]
       ]
+    },
+    {
+      "id": "u11-q033",
+      "lezione": "u11-l1",
+      "livello": "medio",
+      "pagine": [
+        78,
+        81
+      ],
+      "concetti": [
+        "possesso",
+        "detenzione",
+        "interversione-del-possesso",
+        "buona-fede-possessoria",
+        "possesso-vizioso",
+        "accessione-del-possesso",
+        "frutti-e-spese-del-possessore"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio ha ricevuto una casa in locazione e ne riconosce la proprietà al locatore. Quale potere di fatto esercita normalmente?",
+      "opzioni": [
+        "Detenzione qualificata",
+        "Possesso a titolo di proprietario",
+        "Proprietà superficiaria",
+        "Usufrutto automatico"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il conduttore detiene il bene sulla base di un titolo che riconosce il diritto altrui."
+    },
+    {
+      "id": "u11-q034",
+      "lezione": "u11-l1",
+      "livello": "medio",
+      "pagine": [
+        78,
+        81
+      ],
+      "concetti": [
+        "possesso",
+        "detenzione",
+        "interversione-del-possesso",
+        "buona-fede-possessoria",
+        "possesso-vizioso",
+        "accessione-del-possesso",
+        "frutti-e-spese-del-possessore"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un detentore decide soltanto nella propria mente di tenere il bene come proprietario. Basta per mutare il titolo del potere di fatto?",
+      "opzioni": [
+        "Sì, basta il mutamento interiore",
+        "No, occorre un'interversione nelle forme previste",
+        "Sì, se il proprietario è lontano",
+        "No, perché una detenzione non può mai mutare"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'art. 1141 c.c. richiede una causa proveniente da un terzo o un'opposizione contro il possessore."
+    },
+    {
+      "id": "u11-q035",
+      "lezione": "u11-l1",
+      "livello": "medio",
+      "pagine": [
+        78,
+        81
+      ],
+      "concetti": [
+        "possesso",
+        "detenzione",
+        "interversione-del-possesso",
+        "buona-fede-possessoria",
+        "possesso-vizioso",
+        "accessione-del-possesso",
+        "frutti-e-spese-del-possessore"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La buona fede del possessore deve esistere al momento dell'acquisto del possesso; la successiva conoscenza non la elimina retroattivamente.",
+      "vero": true,
+      "spiegazione": "La regola mala fides superveniens non nocet distingue acquisto e conoscenza successiva."
+    },
+    {
+      "id": "u11-q036",
+      "lezione": "u11-l1",
+      "livello": "base",
+      "pagine": [
+        78,
+        81
+      ],
+      "concetti": [
+        "possesso",
+        "detenzione",
+        "interversione-del-possesso",
+        "buona-fede-possessoria",
+        "possesso-vizioso",
+        "accessione-del-possesso",
+        "frutti-e-spese-del-possessore"
+      ],
+      "tipo": "completa",
+      "testo": "L'elemento soggettivo del possesso è indicato dall'espressione {{animus possidendi}}.",
+      "spiegazione": "Si accompagna al potere di fatto sulla cosa."
+    },
+    {
+      "id": "u11-q037",
+      "lezione": "u11-l2",
+      "livello": "medio",
+      "pagine": [
+        81,
+        84
+      ],
+      "concetti": [
+        "possesso-vale-titolo",
+        "titolo-idoneo",
+        "usucapione",
+        "usucapione-abbreviata",
+        "interruzione-dell-usucapione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio compra in buona fede un orologio da chi non è proprietario, ricevendone la consegna sulla base di una vendita valida. Quale effetto può produrre l'art. 1153 c.c.?",
+      "opzioni": [
+        "Acquisto della sola detenzione per vent'anni",
+        "Nullità automatica della vendita per ogni effetto",
+        "Acquisto della proprietà anche dal non proprietario",
+        "Necessità della trascrizione immobiliare"
+      ],
+      "corretta": 2,
+      "spiegazione": "Per i mobili non registrati possesso, buona fede e titolo idoneo possono consentire l'acquisto a non domino."
+    },
+    {
+      "id": "u11-q038",
+      "lezione": "u11-l2",
+      "livello": "medio",
+      "pagine": [
+        81,
+        84
+      ],
+      "concetti": [
+        "possesso-vale-titolo",
+        "titolo-idoneo",
+        "usucapione",
+        "usucapione-abbreviata",
+        "interruzione-dell-usucapione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio invoca l'usucapione abbreviata di un immobile ma il suo titolo non è mai stato trascritto. Quale requisito manca?",
+      "opzioni": [
+        "La qualità di creditore ipotecario",
+        "La consegna al notaio",
+        "La rinuncia del proprietario al giudicato",
+        "La trascrizione richiesta per l'usucapione abbreviata"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il termine abbreviato presuppone buona fede, titolo astrattamente idoneo e trascrizione."
+    },
+    {
+      "id": "u11-q039",
+      "lezione": "u11-l2",
+      "livello": "medio",
+      "pagine": [
+        81,
+        84
+      ],
+      "concetti": [
+        "possesso-vale-titolo",
+        "titolo-idoneo",
+        "usucapione",
+        "usucapione-abbreviata",
+        "interruzione-dell-usucapione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'usucapione comporta un acquisto a titolo derivativo subordinato alla validità di tutti i trasferimenti precedenti.",
+      "vero": false,
+      "spiegazione": "È un acquisto a titolo originario fondato sul possesso e sul decorso del tempo."
+    },
+    {
+      "id": "u11-q040",
+      "lezione": "u11-l2",
+      "livello": "base",
+      "pagine": [
+        81,
+        84
+      ],
+      "concetti": [
+        "possesso-vale-titolo",
+        "titolo-idoneo",
+        "usucapione",
+        "usucapione-abbreviata",
+        "interruzione-dell-usucapione"
+      ],
+      "tipo": "completa",
+      "testo": "L'acquisto originario derivante dal possesso protratto per il tempo richiesto è l'{{usucapione}}.",
+      "spiegazione": "Non presuppone il consenso del precedente proprietario."
+    },
+    {
+      "id": "u11-q041",
+      "lezione": "u11-l3",
+      "livello": "medio",
+      "pagine": [
+        84,
+        95
+      ],
+      "concetti": [
+        "azioni-possessorie",
+        "azione-di-reintegrazione",
+        "spoglio",
+        "azione-di-manutenzione",
+        "denunzia-di-nuova-opera",
+        "denunzia-di-danno-temuto"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un albero del vicino minaccia di cadere a breve sulla casa di Caio. Quale rimedio cautelare corrisponde al pericolo descritto?",
+      "opzioni": [
+        "Denunzia di danno temuto",
+        "Azione di riduzione",
+        "Petizione ereditaria",
+        "Interdizione giudiziale"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il danno temuto riguarda il pericolo di un danno grave e prossimo proveniente da cosa esistente."
+    },
+    {
+      "id": "u11-q042",
+      "lezione": "u11-l3",
+      "livello": "medio",
+      "pagine": [
+        84,
+        95
+      ],
+      "concetti": [
+        "azioni-possessorie",
+        "azione-di-reintegrazione",
+        "spoglio",
+        "azione-di-manutenzione",
+        "denunzia-di-nuova-opera",
+        "denunzia-di-danno-temuto"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio subisce lo spoglio e chiede tutela possessoria. Deve preliminarmente dimostrare di essere proprietario?",
+      "opzioni": [
+        "Sì, con la stessa prova della rivendicazione",
+        "No, la tutela possessoria protegge il possesso come fatto",
+        "Sì, mediante le sole mappe catastali",
+        "No, perché chiunque può agire anche senza possesso o detenzione tutelata"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il giudizio possessorio si distingue dall'accertamento del diritto di proprietà."
+    },
+    {
+      "id": "u11-q043",
+      "lezione": "u11-l3",
+      "livello": "medio",
+      "pagine": [
+        84,
+        95
+      ],
+      "concetti": [
+        "azioni-possessorie",
+        "azione-di-reintegrazione",
+        "spoglio",
+        "azione-di-manutenzione",
+        "denunzia-di-nuova-opera",
+        "denunzia-di-danno-temuto"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La denunzia di nuova opera riguarda ordinariamente un'opera non ancora terminata e iniziata da meno di un anno.",
+      "vero": true,
+      "spiegazione": "La disciplina è distinta da quella del danno temuto."
+    },
+    {
+      "id": "u11-q044",
+      "lezione": "u11-l3",
+      "livello": "base",
+      "pagine": [
+        84,
+        95
+      ],
+      "concetti": [
+        "azioni-possessorie",
+        "azione-di-reintegrazione",
+        "spoglio",
+        "azione-di-manutenzione",
+        "denunzia-di-nuova-opera",
+        "denunzia-di-danno-temuto"
+      ],
+      "tipo": "completa",
+      "testo": "Nuova opera e danno temuto appartengono alle azioni di {{nunciazione}}.",
+      "spiegazione": "Hanno una funzione preventiva rispetto al danno minacciato."
     }
   ],
   "mappa": {

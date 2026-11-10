@@ -2303,6 +2303,615 @@
           "Tutela specifica senza automatici diritti coniugali"
         ]
       ]
+    },
+    {
+      "id": "u25-q073",
+      "lezione": "u25-l1",
+      "livello": "medio",
+      "pagine": [
+        211,
+        214
+      ],
+      "concetti": [
+        "famiglia",
+        "matrimonio",
+        "unione-civile",
+        "convivenza-di-fatto"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio vuole sposarsi incaricando un amico senza rispettare alcuna delle condizioni speciali di legge. Una comune procura basta sempre?",
+      "opzioni": [
+        "Sì, come qualsiasi contratto commerciale",
+        "Sì, purché l'amico sia maggiorenne",
+        "No, il matrimonio per procura è ammesso soltanto nelle ipotesi e forme previste",
+        "No, perché non esiste alcuna ipotesi di matrimonio per procura"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il matrimonio è un atto personale con eccezioni specifiche dell'art. 111 c.c."
+    },
+    {
+      "id": "u25-q074",
+      "lezione": "u25-l1",
+      "livello": "medio",
+      "pagine": [
+        211,
+        214
+      ],
+      "concetti": [
+        "famiglia",
+        "matrimonio",
+        "unione-civile",
+        "convivenza-di-fatto"
+      ],
+      "tipo": "multipla",
+      "domanda": "Due persone equiparano integralmente convivenza di fatto e unione civile. Quale affermazione corregge la confusione?",
+      "opzioni": [
+        "La convivenza attribuisce sempre automaticamente ogni diritto successorio del coniuge",
+        "L'unione civile nasce sempre dalla sola coabitazione",
+        "Entrambe richiedono necessariamente un matrimonio religioso",
+        "Sono modelli diversi con effetti non integralmente coincidenti"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il riconoscimento dei diversi modelli non elimina le differenze di costituzione ed effetti."
+    },
+    {
+      "id": "u25-q075",
+      "lezione": "u25-l1",
+      "livello": "medio",
+      "pagine": [
+        211,
+        214
+      ],
+      "concetti": [
+        "famiglia",
+        "matrimonio",
+        "unione-civile",
+        "convivenza-di-fatto"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La trascrizione del matrimonio religioso e il riconoscimento civile di una sentenza ecclesiastica di nullità sono lo stesso procedimento.",
+      "vero": false,
+      "spiegazione": "Riguardano momenti e funzioni differenti."
+    },
+    {
+      "id": "u25-q076",
+      "lezione": "u25-l1",
+      "livello": "base",
+      "pagine": [
+        211,
+        214
+      ],
+      "concetti": [
+        "famiglia",
+        "matrimonio",
+        "unione-civile",
+        "convivenza-di-fatto"
+      ],
+      "tipo": "completa",
+      "testo": "Il matrimonio invalido che produce gli effetti previsti a tutela della buona fede è detto {{putativo}}.",
+      "spiegazione": "La disciplina degli effetti va distinta dalla validità del vincolo."
+    },
+    {
+      "id": "u25-q077",
+      "lezione": "u25-l2",
+      "livello": "medio",
+      "pagine": [
+        215,
+        215
+      ],
+      "concetti": [
+        "separazione-personale",
+        "divorzio",
+        "assegno-divorzile",
+        "negoziazione-assistita-familiare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caia chiede che la separazione faccia cessare immediatamente ogni vincolo coniugale come un divorzio. Quale distinzione trascura?",
+      "opzioni": [
+        "La separazione non scioglie il matrimonio",
+        "La separazione determina sempre nuove nozze automatiche",
+        "Il divorzio è soltanto una separazione di fatto",
+        "Il matrimonio si estingue per qualsiasi crisi"
+      ],
+      "corretta": 0,
+      "spiegazione": "Separazione e divorzio incidono diversamente sul vincolo."
+    },
+    {
+      "id": "u25-q078",
+      "lezione": "u25-l2",
+      "livello": "medio",
+      "pagine": [
+        215,
+        215
+      ],
+      "concetti": [
+        "separazione-personale",
+        "divorzio",
+        "assegno-divorzile",
+        "negoziazione-assistita-familiare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un coniuge viola un dovere matrimoniale dopo che la convivenza era già divenuta intollerabile per cause indipendenti. La sola violazione prova necessariamente l'addebito?",
+      "opzioni": [
+        "Sì, l'addebito è una pena automatica",
+        "No, va verificato il nesso causale con la crisi e gli altri presupposti",
+        "Sì, anche senza una domanda specifica",
+        "No, perché i doveri coniugali non hanno alcun rilievo"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'addebito non si fonda su una semplice valutazione punitiva della condotta."
+    },
+    {
+      "id": "u25-q079",
+      "lezione": "u25-l2",
+      "livello": "medio",
+      "pagine": [
+        215,
+        215
+      ],
+      "concetti": [
+        "separazione-personale",
+        "divorzio",
+        "assegno-divorzile",
+        "negoziazione-assistita-familiare"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Assegno divorzile, mantenimento nella separazione e alimenti hanno presupposti e funzioni necessariamente identici.",
+      "vero": false,
+      "spiegazione": "I tre istituti richiedono valutazioni distinte."
+    },
+    {
+      "id": "u25-q080",
+      "lezione": "u25-l2",
+      "livello": "base",
+      "pagine": [
+        215,
+        215
+      ],
+      "concetti": [
+        "separazione-personale",
+        "divorzio",
+        "assegno-divorzile",
+        "negoziazione-assistita-familiare"
+      ],
+      "tipo": "completa",
+      "testo": "La composizione della crisi familiare con assistenza degli avvocati nei casi previsti è negoziazione {{assistita}}.",
+      "spiegazione": "È una via disciplinata dal d.l. 132/2014."
+    },
+    {
+      "id": "u25-q081",
+      "lezione": "u25-l3",
+      "livello": "medio",
+      "pagine": [
+        216,
+        217
+      ],
+      "concetti": [
+        "comunione-legale",
+        "separazione-dei-beni",
+        "fondo-patrimoniale",
+        "impresa-familiare"
+      ],
+      "tipo": "multipla",
+      "domanda": "I coniugi scelgono la separazione dei beni. Questo elimina il dovere di ciascuno di contribuire ai bisogni familiari?",
+      "opzioni": [
+        "Sì, ogni spesa riguarda solo chi l'ha materialmente sostenuta",
+        "Sì, ma soltanto per il lavoro casalingo",
+        "No, la contribuzione resta dovuta",
+        "No, perché la separazione dei beni è vietata"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il regime della titolarità dei beni non elimina la solidarietà contributiva."
+    },
+    {
+      "id": "u25-q082",
+      "lezione": "u25-l3",
+      "livello": "medio",
+      "pagine": [
+        216,
+        217
+      ],
+      "concetti": [
+        "comunione-legale",
+        "separazione-dei-beni",
+        "fondo-patrimoniale",
+        "impresa-familiare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio sostiene che tutti i beni posseduti prima delle nozze entrino automaticamente nella comunione legale. Qual è l'errore?",
+      "opzioni": [
+        "La comunione riguarda soltanto i debiti",
+        "Il matrimonio trasferisce sempre tutti i beni all'altro coniuge",
+        "Nessun acquisto durante il matrimonio può mai essere comune",
+        "La comunione legale non è universale e lascia fuori beni personali"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'art. 179 c.c. distingue beni personali e acquisti comuni."
+    },
+    {
+      "id": "u25-q083",
+      "lezione": "u25-l3",
+      "livello": "medio",
+      "pagine": [
+        216,
+        217
+      ],
+      "concetti": [
+        "comunione-legale",
+        "separazione-dei-beni",
+        "fondo-patrimoniale",
+        "impresa-familiare"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Frutti e proventi soggetti a comunione de residuo sono trattati come comuni immediatamente in ogni caso al momento della percezione.",
+      "vero": false,
+      "spiegazione": "La disciplina riguarda ciò che residua allo scioglimento secondo le categorie legali."
+    },
+    {
+      "id": "u25-q084",
+      "lezione": "u25-l3",
+      "livello": "base",
+      "pagine": [
+        216,
+        217
+      ],
+      "concetti": [
+        "comunione-legale",
+        "separazione-dei-beni",
+        "fondo-patrimoniale",
+        "impresa-familiare"
+      ],
+      "tipo": "completa",
+      "testo": "Il patrimonio destinato ai bisogni della famiglia può essere organizzato mediante il fondo {{patrimoniale}}.",
+      "spiegazione": "Il vincolo non è uno schermo assoluto contro tutti i creditori."
+    },
+    {
+      "id": "u25-q085",
+      "lezione": "u25-l4",
+      "livello": "medio",
+      "pagine": [
+        218,
+        219
+      ],
+      "concetti": [
+        "stato-di-figlio",
+        "disconoscimento-di-paternita",
+        "responsabilita-genitoriale",
+        "tutela-del-minore"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio è maggiorenne ma non ha ancora raggiunto senza propria colpa l'autosufficienza economica. La sola età estingue necessariamente ogni tutela di mantenimento?",
+      "opzioni": [
+        "No, occorre valutare la situazione concreta secondo la disciplina applicabile",
+        "Sì, senza alcuna eccezione",
+        "Sì, perché il rapporto di filiazione termina",
+        "No, perché il mantenimento dura sempre per tutta la vita"
+      ],
+      "corretta": 0,
+      "spiegazione": "Maggiore età e autosufficienza non coincidono automaticamente."
+    },
+    {
+      "id": "u25-q086",
+      "lezione": "u25-l4",
+      "livello": "medio",
+      "pagine": [
+        218,
+        219
+      ],
+      "concetti": [
+        "stato-di-figlio",
+        "disconoscimento-di-paternita",
+        "responsabilita-genitoriale",
+        "tutela-del-minore"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il padre separato equipara affidamento condiviso a divisione matematica obbligatoria del tempo esattamente a metà. È corretto?",
+      "opzioni": [
+        "Sì, è l'unico significato possibile",
+        "No, conta l'interesse del minore e l'assetto concreto",
+        "Sì, anche se l'assetto danneggia il figlio",
+        "No, perché l'affidamento condiviso elimina la relazione con un genitore"
+      ],
+      "corretta": 1,
+      "spiegazione": "La bigenitorialità non si riduce a un automatismo aritmetico."
+    },
+    {
+      "id": "u25-q087",
+      "lezione": "u25-l4",
+      "livello": "medio",
+      "pagine": [
+        218,
+        219
+      ],
+      "concetti": [
+        "stato-di-figlio",
+        "disconoscimento-di-paternita",
+        "responsabilita-genitoriale",
+        "tutela-del-minore"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La responsabilità genitoriale attribuisce un potere destinato alla cura e all'interesse del figlio.",
+      "vero": true,
+      "spiegazione": "Non è una libertà di perseguire soltanto l'interesse del genitore."
+    },
+    {
+      "id": "u25-q088",
+      "lezione": "u25-l4",
+      "livello": "base",
+      "pagine": [
+        218,
+        219
+      ],
+      "concetti": [
+        "stato-di-figlio",
+        "disconoscimento-di-paternita",
+        "responsabilita-genitoriale",
+        "tutela-del-minore"
+      ],
+      "tipo": "completa",
+      "testo": "La riforma della filiazione riconosce a tutti i figli un unico {{stato}} giuridico.",
+      "spiegazione": "Non distingue categorie inferiori in base alla nascita fuori dal matrimonio."
+    },
+    {
+      "id": "u25-q089",
+      "lezione": "u25-l5",
+      "livello": "medio",
+      "pagine": [
+        220,
+        220
+      ],
+      "concetti": [
+        "adozione-del-minore",
+        "adozione-in-casi-particolari",
+        "adozione-del-maggiorenne",
+        "affidamento-familiare"
+      ],
+      "tipo": "multipla",
+      "domanda": "I genitori di un minore sono poveri ma mantengono una relazione di cura adeguata con lui. La sola povertà dimostra lo stato di abbandono?",
+      "opzioni": [
+        "Sì, ogni insufficienza economica impone adozione",
+        "Sì, se un'altra famiglia è più ricca",
+        "No, occorre distinguere difficoltà economica e abbandono",
+        "No, perché l'abbandono non può mai essere accertato"
+      ],
+      "corretta": 2,
+      "spiegazione": "La priorità della famiglia d'origine richiede sostegno e valutazione dei presupposti effettivi."
+    },
+    {
+      "id": "u25-q090",
+      "lezione": "u25-l5",
+      "livello": "medio",
+      "pagine": [
+        220,
+        220
+      ],
+      "concetti": [
+        "adozione-del-minore",
+        "adozione-in-casi-particolari",
+        "adozione-del-maggiorenne",
+        "affidamento-familiare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio confonde l'adozione in casi particolari con l'adozione ordinaria di un minore abbandonato. Quale approccio è corretto?",
+      "opzioni": [
+        "Trattarle sempre come istituti integralmente identici",
+        "Applicare solo le norme sull'adozione del maggiorenne",
+        "Ritenere che i casi particolari non producano alcun legame giuridico",
+        "Esaminare presupposti ed effetti della specifica forma di adozione"
+      ],
+      "corretta": 3,
+      "spiegazione": "Le diverse forme di adozione non vanno sovrapposte."
+    },
+    {
+      "id": "u25-q091",
+      "lezione": "u25-l5",
+      "livello": "medio",
+      "pagine": [
+        220,
+        220
+      ],
+      "concetti": [
+        "adozione-del-minore",
+        "adozione-in-casi-particolari",
+        "adozione-del-maggiorenne",
+        "affidamento-familiare"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'affidamento familiare ha una funzione temporanea di accoglienza e sostegno distinta dall'adozione.",
+      "vero": true,
+      "spiegazione": "Non determina automaticamente lo stato di figlio degli affidatari."
+    },
+    {
+      "id": "u25-q092",
+      "lezione": "u25-l5",
+      "livello": "base",
+      "pagine": [
+        220,
+        220
+      ],
+      "concetti": [
+        "adozione-del-minore",
+        "adozione-in-casi-particolari",
+        "adozione-del-maggiorenne",
+        "affidamento-familiare"
+      ],
+      "tipo": "completa",
+      "testo": "La sola povertà dei genitori non dimostra automaticamente lo stato di {{abbandono}} del minore.",
+      "spiegazione": "Occorre valutare i presupposti dell’adozione e il sostegno alla famiglia d’origine."
+    },
+    {
+      "id": "u25-q093",
+      "lezione": "u25-l6",
+      "livello": "medio",
+      "pagine": [
+        221,
+        221
+      ],
+      "concetti": [
+        "riconoscimento-del-figlio",
+        "dichiarazione-giudiziale-filiazione",
+        "parentela",
+        "cognome-del-figlio"
+      ],
+      "tipo": "multipla",
+      "domanda": "Dopo un valido riconoscimento Tizio cambia idea e vuole revocarlo liberamente con una lettera. Può farlo?",
+      "opzioni": [
+        "No, il riconoscimento è irrevocabile",
+        "Sì, come una proposta non ancora accettata",
+        "Sì, finché il figlio non è maggiorenne",
+        "No, perché il riconoscimento non produce mai effetti"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'irrevocabilità non esclude le specifiche azioni di impugnazione previste dalla legge."
+    },
+    {
+      "id": "u25-q094",
+      "lezione": "u25-l6",
+      "livello": "medio",
+      "pagine": [
+        221,
+        221
+      ],
+      "concetti": [
+        "riconoscimento-del-figlio",
+        "dichiarazione-giudiziale-filiazione",
+        "parentela",
+        "cognome-del-figlio"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il genitore non riconosce spontaneamente il figlio. È per ciò escluso ogni accertamento giudiziale del rapporto?",
+      "opzioni": [
+        "Sì, solo il riconoscimento volontario crea rapporti",
+        "No, è prevista la dichiarazione giudiziale della filiazione",
+        "Sì, se manca l'accordo sul cognome",
+        "No, perché ogni dichiarazione unilaterale del figlio sostituisce la sentenza"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'accertamento giudiziale è una via distinta dal riconoscimento volontario."
+    },
+    {
+      "id": "u25-q095",
+      "lezione": "u25-l6",
+      "livello": "medio",
+      "pagine": [
+        221,
+        221
+      ],
+      "concetti": [
+        "riconoscimento-del-figlio",
+        "dichiarazione-giudiziale-filiazione",
+        "parentela",
+        "cognome-del-figlio"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La regola sui cognomi consente di imporre automaticamente il solo cognome paterno anche contro l'accordo o la volontà dell'altro genitore.",
+      "vero": false,
+      "spiegazione": "La disciplina successiva a Corte cost. 131/2022 supera l'automatismo patronimico."
+    },
+    {
+      "id": "u25-q096",
+      "lezione": "u25-l6",
+      "livello": "base",
+      "pagine": [
+        221,
+        221
+      ],
+      "concetti": [
+        "riconoscimento-del-figlio",
+        "dichiarazione-giudiziale-filiazione",
+        "parentela",
+        "cognome-del-figlio"
+      ],
+      "tipo": "completa",
+      "testo": "L'atto personale con cui si dichiara il rapporto di filiazione nei casi previsti è il {{riconoscimento}}.",
+      "spiegazione": "Richiede le forme legali e gli assensi o consensi eventualmente necessari."
+    },
+    {
+      "id": "u25-q097",
+      "lezione": "u25-l7",
+      "livello": "medio",
+      "pagine": [
+        222,
+        222
+      ],
+      "concetti": [
+        "alimenti",
+        "mantenimento-familiare",
+        "obbligo-alimentare-donatario",
+        "credito-alimentare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio chiede alimenti pur potendo provvedere al proprio mantenimento. Basta il legame di parentela a fondare il diritto?",
+      "opzioni": [
+        "Sì, ogni parente può chiedere una quota del reddito altrui",
+        "Sì, basta preferire di non lavorare",
+        "No, servono bisogno e incapacità di mantenersi secondo la disciplina",
+        "No, perché gli alimenti sono sempre volontari"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'obbligazione legale non prescinde dai presupposti dell'art. 438 c.c."
+    },
+    {
+      "id": "u25-q098",
+      "lezione": "u25-l7",
+      "livello": "medio",
+      "pagine": [
+        222,
+        222
+      ],
+      "concetti": [
+        "alimenti",
+        "mantenimento-familiare",
+        "obbligo-alimentare-donatario",
+        "credito-alimentare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Le condizioni economiche dell'obbligato migliorano e il bisogno dell'alimentando cambia. La misura stabilita è sempre immutabile?",
+      "opzioni": [
+        "Sì, per tutta la vita di entrambi",
+        "Sì, salvo un nuovo matrimonio",
+        "No, perché cessa automaticamente ogni mese",
+        "No, può essere modificata al variare delle condizioni"
+      ],
+      "corretta": 3,
+      "spiegazione": "La prestazione alimentare si adegua ai coefficienti legali del rapporto."
+    },
+    {
+      "id": "u25-q099",
+      "lezione": "u25-l7",
+      "livello": "medio",
+      "pagine": [
+        222,
+        222
+      ],
+      "concetti": [
+        "alimenti",
+        "mantenimento-familiare",
+        "obbligo-alimentare-donatario",
+        "credito-alimentare"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il credito alimentare può essere liberamente ceduto come qualsiasi credito commerciale.",
+      "vero": false,
+      "spiegazione": "Il carattere personale comporta il divieto di cessione dell'art. 447 c.c."
+    },
+    {
+      "id": "u25-q100",
+      "lezione": "u25-l7",
+      "livello": "base",
+      "pagine": [
+        222,
+        222
+      ],
+      "concetti": [
+        "alimenti",
+        "mantenimento-familiare",
+        "obbligo-alimentare-donatario",
+        "credito-alimentare"
+      ],
+      "tipo": "completa",
+      "testo": "La prestazione strettamente legata al bisogno e alla capacità economica dell'obbligato è quella degli {{alimenti}}.",
+      "spiegazione": "Non coincide con il più ampio mantenimento familiare."
     }
   ],
   "mappa": {

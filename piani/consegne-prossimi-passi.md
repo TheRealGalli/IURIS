@@ -15,7 +15,7 @@ Regole valide per tutti i passi:
 | Passo | Che cosa | Stato |
 |---|---|---|
 | 1 | Glossario degli Originali di privato | Completato: 361 voci, 476 etichette; collegamenti ripetuti nei capoversi |
-| 2 | Più domande per privato | |
+| 2 | Più domande per privato | Completato: 392 nuove domande, 1.426 totali; tutte le 98 lezioni hanno almeno 14 domande |
 | 3 | Schede inverse di privato | |
 | 4 | Stile delle unità 12–27 di privato | |
 | 5 | Quadro di privato e di Filosofia | |
@@ -46,12 +46,22 @@ polisemiche sono escluse come etichette isolate; aggiunti nei sorgenti gli alias
 Corretto anche il sync: le etichette curate si collegano una volta per capoverso, le automatiche una volta per
 sezione. Copertura degli Originali e testo di fonte conservati. Build e `check:build` riusciti, inclusi 1.348
 controlli su 11 dispositivi; verificate nel browser proprietà (u08-l1), novazione (u13-l3) e legittimari (u26-l3).
-I collegamenti di privato passano da 356 a 3.497. Ripartire dal passo 2.
+I collegamenti di privato passano da 356 a 3.497.
 
 Oggi circa 10 domande per lezione; Romano ne ha 15. Porta ogni lezione ad almeno 14: aggiungi soprattutto
 **casi pratici** (multipla: «Tizio vende a Caio…»), vero/falso sulle confusioni tipiche e completa sui termini.
 Si aggiungono in fondo alla sezione `@domande` del sorgente `sorgenti/uNN.txt`, poi
 `python3 piani/strumenti/unita.py …` e `validate-content.mjs`. Nei completa niente numeri scritti in lettere.
+
+Passo 2: aggiunte quattro domande a ciascuna lezione, con 196 multiple, 98 vero/falso e 98 completamenti.
+Totale: **1.426 domande**, almeno 14 per ciascuna delle 98 lezioni (16 nelle prime lezioni che ospitano anche
+ordina e abbina). Posizioni delle risposte corrette delle nuove multiple bilanciate: 49 per ciascun indice.
+Le 1.034 domande precedenti, compresi identificativi e risposte, sono conservate integralmente; invariati
+sintesi, voci e mappe. Sostituiti i nuovi completamenti che ripetevano la risposta di uno già presente nella
+stessa lezione. Validazione delle 27 unità senza errori, build e `check:build` riusciti, inclusi 1.348 controlli
+su 11 dispositivi. Verificata l'identità delle 1.426 domande nella versione compilata; risolte correttamente
+24 nuove domande nel browser (u01-l1, u17-l2, u26-l4 a 393 e 1280 px), senza sbordi né errori.
+Ripartire dal **passo 3: schede inverse**.
 
 ## 3. Schede inverse di privato
 

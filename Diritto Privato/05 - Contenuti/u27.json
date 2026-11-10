@@ -984,6 +984,267 @@
           "Cause legali di ingratitudine o sopravvenienza"
         ]
       ]
+    },
+    {
+      "id": "u27-q033",
+      "lezione": "u27-l1",
+      "livello": "medio",
+      "pagine": [
+        235,
+        236
+      ],
+      "concetti": [
+        "donazione",
+        "donazione-indiretta",
+        "donazione-modale",
+        "revocazione-donazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio presta gratuitamente un oggetto con obbligo di restituirlo. La gratuità basta per qualificare l'atto come donazione?",
+      "opzioni": [
+        "Sì, ogni prestazione gratuita è donazione",
+        "Sì, se l'oggetto è mobile",
+        "No, gratuità e liberalità donativa non coincidono",
+        "No, perché una donazione non può mai avere a oggetto mobili"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il comodato gratuito non implica di per sé un arricchimento donativo."
+    },
+    {
+      "id": "u27-q034",
+      "lezione": "u27-l1",
+      "livello": "medio",
+      "pagine": [
+        235,
+        236
+      ],
+      "concetti": [
+        "donazione",
+        "donazione-indiretta",
+        "donazione-modale",
+        "revocazione-donazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio riceve una donazione gravata dall'obbligo di destinare una somma a una finalità indicata. Quale figura deve essere esaminata?",
+      "opzioni": [
+        "Vendita necessariamente simulata",
+        "Deposito oneroso",
+        "Risoluzione automatica della liberalità",
+        "Donazione modale"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'onere impone un'obbligazione al beneficiario senza trasformare automaticamente la liberalità in uno scambio."
+    },
+    {
+      "id": "u27-q035",
+      "lezione": "u27-l1",
+      "livello": "medio",
+      "pagine": [
+        235,
+        236
+      ],
+      "concetti": [
+        "donazione",
+        "donazione-indiretta",
+        "donazione-modale",
+        "revocazione-donazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Revocazione della donazione per cause legali e riduzione per lesione di legittima sono lo stesso rimedio.",
+      "vero": false,
+      "spiegazione": "Hanno fondamenti, soggetti e presupposti diversi."
+    },
+    {
+      "id": "u27-q036",
+      "lezione": "u27-l1",
+      "livello": "base",
+      "pagine": [
+        235,
+        236
+      ],
+      "concetti": [
+        "donazione",
+        "donazione-indiretta",
+        "donazione-modale",
+        "revocazione-donazione"
+      ],
+      "tipo": "completa",
+      "testo": "La liberalità realizzata attraverso un negozio diverso dalla donazione diretta è una donazione {{indiretta}}.",
+      "spiegazione": "Il negozio impiegato deve essere realmente voluto."
+    },
+    {
+      "id": "u27-q037",
+      "lezione": "u27-l2",
+      "livello": "medio",
+      "pagine": [
+        237,
+        237
+      ],
+      "concetti": [
+        "trascrizione",
+        "efficacia-dichiarativa-trascrizione",
+        "doppia-alienazione-immobiliare",
+        "titolo-per-trascrizione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio trascrive un contratto invalido e sostiene che la trascrizione ne elimini ogni vizio. È corretto?",
+      "opzioni": [
+        "No, la trascrizione non sana in generale l'invalidità del titolo",
+        "Sì, ogni trascrizione rende valido l'atto",
+        "Sì, purché il bene abbia valore catastale",
+        "No, perché la trascrizione non produce mai effetti"
+      ],
+      "corretta": 0,
+      "spiegazione": "La pubblicità dichiarativa presuppone un titolo e non sostituisce ogni requisito sostanziale."
+    },
+    {
+      "id": "u27-q038",
+      "lezione": "u27-l2",
+      "livello": "medio",
+      "pagine": [
+        237,
+        237
+      ],
+      "concetti": [
+        "trascrizione",
+        "efficacia-dichiarativa-trascrizione",
+        "doppia-alienazione-immobiliare",
+        "titolo-per-trascrizione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio considera l'iscrizione di un'ipoteca identica alla trascrizione di una vendita. Quale distinzione è decisiva?",
+      "opzioni": [
+        "Entrambe trasferiscono sempre la proprietà",
+        "L'iscrizione ipotecaria è costitutiva; la trascrizione della vendita ha normalmente efficacia dichiarativa",
+        "Entrambe hanno soltanto funzione fiscale",
+        "La vendita immobiliare non è mai trascrivibile"
+      ],
+      "corretta": 1,
+      "spiegazione": "I sistemi di pubblicità hanno funzioni diverse secondo l'atto e il diritto."
+    },
+    {
+      "id": "u27-q039",
+      "lezione": "u27-l2",
+      "livello": "medio",
+      "pagine": [
+        237,
+        237
+      ],
+      "concetti": [
+        "trascrizione",
+        "efficacia-dichiarativa-trascrizione",
+        "doppia-alienazione-immobiliare",
+        "titolo-per-trascrizione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'accatastamento di un immobile equivale in ogni caso a trascrizione del titolo nei registri immobiliari.",
+      "vero": false,
+      "spiegazione": "Catasto e pubblicità immobiliare hanno funzioni diverse."
+    },
+    {
+      "id": "u27-q040",
+      "lezione": "u27-l2",
+      "livello": "base",
+      "pagine": [
+        237,
+        237
+      ],
+      "concetti": [
+        "trascrizione",
+        "efficacia-dichiarativa-trascrizione",
+        "doppia-alienazione-immobiliare",
+        "titolo-per-trascrizione"
+      ],
+      "tipo": "completa",
+      "testo": "Per trascrivere sulla base di una scrittura privata la sottoscrizione deve essere {{autenticata}} o accertata giudizialmente.",
+      "spiegazione": "La forma scritta semplice per la validità non coincide con il titolo immediatamente trascrivibile."
+    },
+    {
+      "id": "u27-q041",
+      "lezione": "u27-l3",
+      "livello": "medio",
+      "pagine": [
+        238,
+        238
+      ],
+      "concetti": [
+        "continuita-trascrizioni",
+        "trascrizione-acquisti-successori",
+        "trascrizione-divisione",
+        "trascrizione-domande-giudiziali"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio presenta la sola dichiarazione fiscale di successione come se fosse sempre una trascrizione dell'accettazione ereditaria. Quale errore compie?",
+      "opzioni": [
+        "Ritenere che l'eredità abbia rilevanza patrimoniale",
+        "Distinguere erede e legatario",
+        "Confondere adempimento tributario e pubblicità dell'acquisto successorio",
+        "Affermare che una successione si apra con la morte"
+      ],
+      "corretta": 2,
+      "spiegazione": "La trascrizione richiede il titolo previsto dall'art. 2648 c.c."
+    },
+    {
+      "id": "u27-q042",
+      "lezione": "u27-l3",
+      "livello": "medio",
+      "pagine": [
+        238,
+        238
+      ],
+      "concetti": [
+        "continuita-trascrizioni",
+        "trascrizione-acquisti-successori",
+        "trascrizione-divisione",
+        "trascrizione-domande-giudiziali"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio trascrive una domanda giudiziale e sostiene di avere per ciò solo già vinto la causa. Qual è la funzione effettiva della formalità?",
+      "opzioni": [
+        "Sostituire immediatamente la sentenza di accoglimento",
+        "Accertare definitivamente la proprietà",
+        "Rendere irrilevante la prova del diritto",
+        "Proteggere gli effetti dell'eventuale esito favorevole nei casi previsti"
+      ],
+      "corretta": 3,
+      "spiegazione": "La prenotazione pubblicitaria dell'esito non anticipa l'accertamento del merito."
+    },
+    {
+      "id": "u27-q043",
+      "lezione": "u27-l3",
+      "livello": "medio",
+      "pagine": [
+        238,
+        238
+      ],
+      "concetti": [
+        "continuita-trascrizioni",
+        "trascrizione-acquisti-successori",
+        "trascrizione-divisione",
+        "trascrizione-domande-giudiziali"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La continuità delle trascrizioni riguarda soltanto gli acquisti fra vivi e non quelli per causa di morte.",
+      "vero": false,
+      "spiegazione": "La catena pubblicitaria deve comprendere anche gli acquisti successori nei casi previsti."
+    },
+    {
+      "id": "u27-q044",
+      "lezione": "u27-l3",
+      "livello": "base",
+      "pagine": [
+        238,
+        238
+      ],
+      "concetti": [
+        "continuita-trascrizioni",
+        "trascrizione-acquisti-successori",
+        "trascrizione-divisione",
+        "trascrizione-domande-giudiziali"
+      ],
+      "tipo": "completa",
+      "testo": "La trascrizione della domanda giudiziale ha una funzione {{prenotativa}} dell’eventuale esito favorevole.",
+      "spiegazione": "Non sostituisce l’accertamento del diritto richiesto al giudice."
     }
   ],
   "mappa": {

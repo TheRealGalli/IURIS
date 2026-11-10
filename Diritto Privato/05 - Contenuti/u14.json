@@ -740,6 +740,184 @@
           "art. 2740 c.c."
         ]
       ]
+    },
+    {
+      "id": "u14-q023",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio prova di aver perso un guadagno a causa dell'inadempimento di Caio. Come si chiama questa componente del danno?",
+      "opzioni": [
+        "Lucro cessante",
+        "Danno emergente",
+        "Caparra penitenziale",
+        "Interesse anatocistico"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il lucro cessante è il mancato guadagno causalmente riconducibile all'inadempimento."
+    },
+    {
+      "id": "u14-q024",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "multipla",
+      "domanda": "La penale pattuita è manifestamente eccessiva. Il creditore può opporre che il giudice non può mai intervenire?",
+      "opzioni": [
+        "Sì, l'importo pattuito è sempre intangibile",
+        "No, è ammessa la riduzione equitativa nei casi dell'art. 1384 c.c.",
+        "Sì, salvo consenso scritto del creditore",
+        "No, perché ogni penale eccessiva rende nullo l'intero contratto"
+      ],
+      "corretta": 1,
+      "spiegazione": "La penale non è sottratta al controllo legale sulla misura."
+    },
+    {
+      "id": "u14-q025",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La responsabilità da inadempimento può derivare anche dalla violazione di un'obbligazione non contrattuale.",
+      "vero": true,
+      "spiegazione": "La denominazione responsabilità contrattuale non limita il rimedio alle sole obbligazioni nate da contratto."
+    },
+    {
+      "id": "u14-q026",
+      "lezione": "u14-l1",
+      "livello": "base",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "completa",
+      "testo": "La perdita patrimoniale direttamente subita è detta danno {{emergente}}.",
+      "spiegazione": "Si distingue dal lucro cessante, che riguarda il guadagno mancato."
+    },
+    {
+      "id": "u14-q027",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il debitore non possiede oggi beni, ma ne acquista in seguito. La garanzia generica del creditore li comprende in linea di principio?",
+      "opzioni": [
+        "No, solo i beni posseduti quando nasce il debito",
+        "No, occorre sempre un pegno preventivo",
+        "Sì, riguarda beni presenti e futuri salvo i limiti legali",
+        "Sì, perché ogni creditore ha ipoteca automatica"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'art. 2740 c.c. fonda la responsabilità patrimoniale generale."
+    },
+    {
+      "id": "u14-q028",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "multipla",
+      "domanda": "Due creditori chirografari concorrono sui beni insufficienti del debitore. Uno pretende priorità solo perché il suo credito è più antico. È una causa legittima di prelazione?",
+      "opzioni": [
+        "Sì, i crediti sono sempre pagati in ordine cronologico",
+        "Sì, purché sia più anziano anche il creditore",
+        "No, perché nessun creditore può mai avere preferenza",
+        "No, la sola anteriorità non crea privilegio, pegno o ipoteca"
+      ],
+      "corretta": 3,
+      "spiegazione": "La parità dei creditori cede alle cause di prelazione previste dalla legge."
+    },
+    {
+      "id": "u14-q029",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La costituzione in mora può aggravare il rischio dell'impossibilità sopravvenuta a carico del debitore.",
+      "vero": true,
+      "spiegazione": "La mora produce effetti ulteriori rispetto al semplice ritardo."
+    },
+    {
+      "id": "u14-q030",
+      "lezione": "u14-l2",
+      "livello": "base",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "completa",
+      "testo": "Il principio di parità dei creditori si esprime con la formula {{par condicio creditorum}}.",
+      "spiegazione": "Le cause legittime di prelazione costituiscono eccezioni a tale parità."
     }
   ],
   "mappa": {

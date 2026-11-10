@@ -2300,6 +2300,615 @@
           "Curatore nei presupposti legali"
         ]
       ]
+    },
+    {
+      "id": "u26-q073",
+      "lezione": "u26-l1",
+      "livello": "medio",
+      "pagine": [
+        223,
+        225
+      ],
+      "concetti": [
+        "successione-mortis-causa",
+        "erede",
+        "delazione-ereditaria",
+        "rappresentazione-successoria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio muore avendo l'ultimo domicilio a Bari e beni a Milano. Dove si apre la successione secondo la regola interna dell'art. 456 c.c.?",
+      "opzioni": [
+        "Nell'ultimo domicilio, a Bari",
+        "Sempre nel luogo del bene di maggior valore",
+        "Sempre nel luogo di nascita",
+        "In ogni città dove si trova un creditore"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il luogo di apertura è distinto dalla distribuzione materiale del patrimonio."
+    },
+    {
+      "id": "u26-q074",
+      "lezione": "u26-l1",
+      "livello": "medio",
+      "pagine": [
+        223,
+        225
+      ],
+      "concetti": [
+        "successione-mortis-causa",
+        "erede",
+        "delazione-ereditaria",
+        "rappresentazione-successoria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio muore dopo essere stato chiamato all'eredità ma prima di accettare. Quale figura va distinta dalla rappresentazione?",
+      "opzioni": [
+        "Accettazione tacita automatica per morte",
+        "Trasmissione del diritto di accettare",
+        "Revoca del testamento del primo defunto",
+        "Collazione"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'art. 479 c.c. regola la trasmissione del diritto di accettare agli eredi del chiamato."
+    },
+    {
+      "id": "u26-q075",
+      "lezione": "u26-l1",
+      "livello": "medio",
+      "pagine": [
+        223,
+        225
+      ],
+      "concetti": [
+        "successione-mortis-causa",
+        "erede",
+        "delazione-ereditaria",
+        "rappresentazione-successoria"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La sola indicazione di un bene determinato nel testamento esclude sempre un'istituzione d'erede.",
+      "vero": false,
+      "spiegazione": "Va interpretato se il testatore abbia considerato quel bene come quota del patrimonio."
+    },
+    {
+      "id": "u26-q076",
+      "lezione": "u26-l1",
+      "livello": "base",
+      "pagine": [
+        223,
+        225
+      ],
+      "concetti": [
+        "successione-mortis-causa",
+        "erede",
+        "delazione-ereditaria",
+        "rappresentazione-successoria"
+      ],
+      "tipo": "completa",
+      "testo": "L’offerta dell’eredità al chiamato è detta {{delazione}}.",
+      "spiegazione": "Va distinta dall’acquisto della qualità di erede."
+    },
+    {
+      "id": "u26-q077",
+      "lezione": "u26-l2",
+      "livello": "medio",
+      "pagine": [
+        226,
+        227
+      ],
+      "concetti": [
+        "accettazione-eredita",
+        "beneficio-d-inventario",
+        "rinuncia-eredita",
+        "petizione-ereditaria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio compie un atto meramente conservativo sui beni ereditari. Questo significa sempre e necessariamente accettazione tacita?",
+      "opzioni": [
+        "Sì, ogni contatto con un bene vale accettazione",
+        "Sì, purché il bene sia immobile",
+        "No, occorre un atto incompatibile con la qualità di semplice chiamato",
+        "No, perché l'accettazione tacita non esiste"
+      ],
+      "corretta": 2,
+      "spiegazione": "La qualità dell'atto è decisiva ai sensi dell'art. 476 c.c."
+    },
+    {
+      "id": "u26-q078",
+      "lezione": "u26-l2",
+      "livello": "medio",
+      "pagine": [
+        226,
+        227
+      ],
+      "concetti": [
+        "accettazione-eredita",
+        "beneficio-d-inventario",
+        "rinuncia-eredita",
+        "petizione-ereditaria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio è vero erede e vuole recuperare i beni posseduti da Caio, che si afferma erede senza esserlo. Quale azione è specificamente pertinente?",
+      "opzioni": [
+        "Azione confessoria di servitù",
+        "Azione di manutenzione necessariamente",
+        "Azione di rescissione",
+        "Petizione ereditaria"
+      ],
+      "corretta": 3,
+      "spiegazione": "La petizione tutela il riconoscimento della qualità ereditaria e il recupero dei beni."
+    },
+    {
+      "id": "u26-q079",
+      "lezione": "u26-l2",
+      "livello": "medio",
+      "pagine": [
+        226,
+        227
+      ],
+      "concetti": [
+        "accettazione-eredita",
+        "beneficio-d-inventario",
+        "rinuncia-eredita",
+        "petizione-ereditaria"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il beneficio d'inventario si conserva sempre anche se l'erede viola tutti gli oneri di amministrazione e inventario.",
+      "vero": false,
+      "spiegazione": "La disciplina prevede oneri e possibili decadenze, con regole particolari per i protetti."
+    },
+    {
+      "id": "u26-q080",
+      "lezione": "u26-l2",
+      "livello": "base",
+      "pagine": [
+        226,
+        227
+      ],
+      "concetti": [
+        "accettazione-eredita",
+        "beneficio-d-inventario",
+        "rinuncia-eredita",
+        "petizione-ereditaria"
+      ],
+      "tipo": "completa",
+      "testo": "L'azione che tutela la qualità di erede contro il possessore come erede o senza titolo è la {{petizione}} ereditaria.",
+      "spiegazione": "Resta distinto il problema degli acquisti protetti dall'erede apparente."
+    },
+    {
+      "id": "u26-q081",
+      "lezione": "u26-l3",
+      "livello": "medio",
+      "pagine": [
+        228,
+        228
+      ],
+      "concetti": [
+        "successione-legittima",
+        "quota-successoria-coniuge",
+        "successione-parenti",
+        "successione-dello-stato"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio muore senza testamento lasciando coniuge e un figlio. Quale ripartizione ordinaria della devoluzione legale segue l'art. 581 c.c.?",
+      "opzioni": [
+        "Metà ciascuno",
+        "Un terzo ciascuno e un terzo senza titolare",
+        "Tutto al coniuge",
+        "Tutto al figlio"
+      ],
+      "corretta": 0,
+      "spiegazione": "Le quote della successione legittima non vanno confuse con le riserve in presenza di disposizioni."
+    },
+    {
+      "id": "u26-q082",
+      "lezione": "u26-l3",
+      "livello": "medio",
+      "pagine": [
+        228,
+        228
+      ],
+      "concetti": [
+        "successione-legittima",
+        "quota-successoria-coniuge",
+        "successione-parenti",
+        "successione-dello-stato"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il testamento regola validamente soltanto una parte del patrimonio. Come può essere devoluto il residuo?",
+      "opzioni": [
+        "Necessariamente al notaio",
+        "Per successione legittima",
+        "Sempre allo Stato senza considerare parenti",
+        "Non può mai essere acquistato da nessuno"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le due fonti di chiamata possono concorrere sulla stessa successione."
+    },
+    {
+      "id": "u26-q083",
+      "lezione": "u26-l3",
+      "livello": "medio",
+      "pagine": [
+        228,
+        228
+      ],
+      "concetti": [
+        "successione-legittima",
+        "quota-successoria-coniuge",
+        "successione-parenti",
+        "successione-dello-stato"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "I fratelli del defunto sono sempre legittimari perché possono essere chiamati nella successione legittima.",
+      "vero": false,
+      "spiegazione": "Essere eredi per legge in certe situazioni non equivale ad avere una quota di riserva."
+    },
+    {
+      "id": "u26-q084",
+      "lezione": "u26-l3",
+      "livello": "base",
+      "pagine": [
+        228,
+        228
+      ],
+      "concetti": [
+        "successione-legittima",
+        "quota-successoria-coniuge",
+        "successione-parenti",
+        "successione-dello-stato"
+      ],
+      "tipo": "completa",
+      "testo": "La successione regolata dalla legge per il patrimonio non disposto validamente con testamento è detta {{legittima}}.",
+      "spiegazione": "Va distinta dalla successione necessaria a tutela della riserva."
+    },
+    {
+      "id": "u26-q085",
+      "lezione": "u26-l4",
+      "livello": "medio",
+      "pagine": [
+        228,
+        229
+      ],
+      "concetti": [
+        "legittimari",
+        "quota-di-legittima",
+        "riunione-fittizia",
+        "azione-di-riduzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il defunto lascia beni per 150, debiti per 30 e donazioni da riunire fittiziamente per 40. Qual è la massa di calcolo della riserva?",
+      "opzioni": [
+        "220",
+        "120",
+        "160",
+        "80"
+      ],
+      "corretta": 2,
+      "spiegazione": "Si calcola 150 meno 30 più 40: la riunione fittizia è un'operazione contabile."
+    },
+    {
+      "id": "u26-q086",
+      "lezione": "u26-l4",
+      "livello": "medio",
+      "pagine": [
+        228,
+        229
+      ],
+      "concetti": [
+        "legittimari",
+        "quota-di-legittima",
+        "riunione-fittizia",
+        "azione-di-riduzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio lascia coniuge e un solo figlio. Qual è la riserva ordinaria di ciascuno nella successione necessaria?",
+      "opzioni": [
+        "Metà ciascuno senza disponibile",
+        "Tutto al figlio",
+        "Un quarto ciascuno",
+        "Un terzo ciascuno"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'art. 542 c.c. lascia un terzo disponibile nel concorso di coniuge e un figlio."
+    },
+    {
+      "id": "u26-q087",
+      "lezione": "u26-l4",
+      "livello": "medio",
+      "pagine": [
+        228,
+        229
+      ],
+      "concetti": [
+        "legittimari",
+        "quota-di-legittima",
+        "riunione-fittizia",
+        "azione-di-riduzione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La riunione fittizia comporta sempre il rientro materiale immediato di ogni bene donato nel patrimonio ereditario.",
+      "vero": false,
+      "spiegazione": "Serve a determinare la massa di calcolo, mentre riduzione e restituzione sono operazioni diverse."
+    },
+    {
+      "id": "u26-q088",
+      "lezione": "u26-l4",
+      "livello": "base",
+      "pagine": [
+        228,
+        229
+      ],
+      "concetti": [
+        "legittimari",
+        "quota-di-legittima",
+        "riunione-fittizia",
+        "azione-di-riduzione"
+      ],
+      "tipo": "completa",
+      "testo": "La parte di patrimonio di cui si può disporre rispettando la riserva è la quota {{disponibile}}.",
+      "spiegazione": "La quota di legittima limita l'autonomia delle disposizioni liberali e testamentarie."
+    },
+    {
+      "id": "u26-q089",
+      "lezione": "u26-l5",
+      "livello": "medio",
+      "pagine": [
+        229,
+        231
+      ],
+      "concetti": [
+        "testamento",
+        "testamento-olografo",
+        "testamento-pubblico",
+        "revoca-testamento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio vuole dettare il proprio testamento a un rappresentante perché questi lo faccia in suo nome. È ammessa una rappresentanza testamentaria generale?",
+      "opzioni": [
+        "No, il testamento è un atto personale",
+        "Sì, come ogni contratto di vendita",
+        "Sì, purché la procura sia irrevocabile",
+        "No, perché il testamento deve essere sempre olografo"
+      ],
+      "corretta": 0,
+      "spiegazione": "La personalità del testamento è distinta dalla pluralità delle forme ammesse."
+    },
+    {
+      "id": "u26-q090",
+      "lezione": "u26-l5",
+      "livello": "medio",
+      "pagine": [
+        229,
+        231
+      ],
+      "concetti": [
+        "testamento",
+        "testamento-olografo",
+        "testamento-pubblico",
+        "revoca-testamento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una persona sottoposta ad amministrazione di sostegno vuole testare. La sola nomina dell'amministratore prova sempre l'incapacità testamentaria?",
+      "opzioni": [
+        "Sì, come per ogni minore",
+        "No, occorre verificare la concreta disciplina della capacità",
+        "Sì, ogni misura di sostegno vieta automaticamente gli atti personali",
+        "No, perché nessuna incapacità può mai impedire di testare"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'amministrazione di sostegno non equivale automaticamente a un generale divieto di testare."
+    },
+    {
+      "id": "u26-q091",
+      "lezione": "u26-l5",
+      "livello": "medio",
+      "pagine": [
+        229,
+        231
+      ],
+      "concetti": [
+        "testamento",
+        "testamento-olografo",
+        "testamento-pubblico",
+        "revoca-testamento"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il testamento può contenere anche disposizioni non patrimoniali ammesse dalla legge.",
+      "vero": true,
+      "spiegazione": "La definizione dell'art. 587 c.c. non esaurisce ogni possibile contenuto testamentario."
+    },
+    {
+      "id": "u26-q092",
+      "lezione": "u26-l5",
+      "livello": "base",
+      "pagine": [
+        229,
+        231
+      ],
+      "concetti": [
+        "testamento",
+        "testamento-olografo",
+        "testamento-pubblico",
+        "revoca-testamento"
+      ],
+      "tipo": "completa",
+      "testo": "La forma testamentaria ricevuta dal notaio con le formalità dell'art. 603 c.c. è il testamento {{pubblico}}.",
+      "spiegazione": "Si distingue dall'olografo scritto interamente di mano del testatore."
+    },
+    {
+      "id": "u26-q093",
+      "lezione": "u26-l6",
+      "livello": "medio",
+      "pagine": [
+        232,
+        232
+      ],
+      "concetti": [
+        "legato",
+        "onerato-del-legato",
+        "prelegato",
+        "legato-di-genere"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio acquista un legato di un bene determinato e pretende di prenderne materialmente possesso senza rivolgersi all'onerato. Quale distinzione trascura?",
+      "opzioni": [
+        "Titolarità e maggiore età del notaio",
+        "Rinuncia e transazione bancaria",
+        "Acquisto del diritto e richiesta del possesso",
+        "Quota di riserva e grado ipotecario"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'art. 649 c.c. distingue acquisto automatico e domanda del possesso all'onerato."
+    },
+    {
+      "id": "u26-q094",
+      "lezione": "u26-l6",
+      "livello": "medio",
+      "pagine": [
+        232,
+        232
+      ],
+      "concetti": [
+        "legato",
+        "onerato-del-legato",
+        "prelegato",
+        "legato-di-genere"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il testatore attribuisce un legato a un coerede ponendolo a carico dell'intera eredità. Quale figura ricorre?",
+      "opzioni": [
+        "Sublegato necessariamente",
+        "Rappresentazione",
+        "Collazione automatica",
+        "Prelegato"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'art. 661 c.c. distingue il prelegato dal legato posto a carico di un singolo legatario."
+    },
+    {
+      "id": "u26-q095",
+      "lezione": "u26-l6",
+      "livello": "medio",
+      "pagine": [
+        232,
+        232
+      ],
+      "concetti": [
+        "legato",
+        "onerato-del-legato",
+        "prelegato",
+        "legato-di-genere"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il legatario risponde ordinariamente di tutti i debiti ereditari come un erede puro e semplice.",
+      "vero": false,
+      "spiegazione": "L'attribuzione particolare non comporta la responsabilità universale tipica dell'erede."
+    },
+    {
+      "id": "u26-q096",
+      "lezione": "u26-l6",
+      "livello": "base",
+      "pagine": [
+        232,
+        232
+      ],
+      "concetti": [
+        "legato",
+        "onerato-del-legato",
+        "prelegato",
+        "legato-di-genere"
+      ],
+      "tipo": "completa",
+      "testo": "Chi deve eseguire la prestazione oggetto del legato è l'{{onerato}}.",
+      "spiegazione": "Il soggetto che riceve l'attribuzione è invece il legatario."
+    },
+    {
+      "id": "u26-q097",
+      "lezione": "u26-l7",
+      "livello": "medio",
+      "pagine": [
+        233,
+        234
+      ],
+      "concetti": [
+        "comunione-ereditaria",
+        "retratto-successorio",
+        "divisione-ereditaria",
+        "collazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Nella divisione ereditaria vengono omessi alcuni beni. Quale rimedio è specificamente previsto?",
+      "opzioni": [
+        "Supplemento di divisione",
+        "Annullamento automatico dell'intera eredità",
+        "Revoca della qualità di erede",
+        "Riscatto dei beni da parte dello Stato"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'art. 762 c.c. distingue omissione di beni e vizi della divisione."
+    },
+    {
+      "id": "u26-q098",
+      "lezione": "u26-l7",
+      "livello": "medio",
+      "pagine": [
+        233,
+        234
+      ],
+      "concetti": [
+        "comunione-ereditaria",
+        "retratto-successorio",
+        "divisione-ereditaria",
+        "collazione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un coerede invoca la rescissione della divisione per una lesione che non supera un quarto. È soddisfatta la soglia dell'art. 763 c.c.?",
+      "opzioni": [
+        "Sì, basta qualsiasi differenza di valore",
+        "No, la lesione deve superare un quarto",
+        "Sì, purché la divisione sia ereditaria",
+        "No, perché la divisione non è mai rescindibile"
+      ],
+      "corretta": 1,
+      "spiegazione": "La rescissione ha una soglia specifica distinta da quella del contratto in stato di bisogno."
+    },
+    {
+      "id": "u26-q099",
+      "lezione": "u26-l7",
+      "livello": "medio",
+      "pagine": [
+        233,
+        234
+      ],
+      "concetti": [
+        "comunione-ereditaria",
+        "retratto-successorio",
+        "divisione-ereditaria",
+        "collazione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La dispensa da collazione può operare senza alcun limite anche a danno della quota riservata agli altri legittimari.",
+      "vero": false,
+      "spiegazione": "La dispensa è efficace entro la disponibile."
+    },
+    {
+      "id": "u26-q100",
+      "lezione": "u26-l7",
+      "livello": "base",
+      "pagine": [
+        233,
+        234
+      ],
+      "concetti": [
+        "comunione-ereditaria",
+        "retratto-successorio",
+        "divisione-ereditaria",
+        "collazione"
+      ],
+      "tipo": "completa",
+      "testo": "L’attribuzione integrale di un immobile a un coerede può richiedere un {{conguaglio}} agli altri.",
+      "spiegazione": "La vendita non è sempre la prima soluzione per il bene non comodamente divisibile."
     }
   ],
   "mappa": {

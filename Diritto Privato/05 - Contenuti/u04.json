@@ -1671,6 +1671,410 @@
           "amministratore di sostegno"
         ]
       ]
+    },
+    {
+      "id": "u04-q043",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        19,
+        20
+      ],
+      "concetti": [
+        "capacita-giuridica",
+        "concepito",
+        "capacita-di-agire",
+        "minore-eta",
+        "negozio-claudicante",
+        "responsabilita-genitoriale",
+        "tutela"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un neonato eredita un bene. Può essere titolare della proprietà pur non potendo stipulare personalmente contratti?",
+      "opzioni": [
+        "Sì, capacità giuridica e capacità di agire sono distinte",
+        "No, la proprietà richiede la maggiore età",
+        "No, occorre l'emancipazione",
+        "Sì, perché la nascita conferisce piena capacità negoziale"
+      ],
+      "corretta": 0,
+      "spiegazione": "La titolarità dei diritti si distingue dalla capacità di compiere atti validi."
+    },
+    {
+      "id": "u04-q044",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        19,
+        20
+      ],
+      "concetti": [
+        "capacita-giuridica",
+        "concepito",
+        "capacita-di-agire",
+        "minore-eta",
+        "negozio-claudicante",
+        "responsabilita-genitoriale",
+        "tutela"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il venditore maggiorenne si accorge di aver contrattato con un minore e invoca la minore età per liberarsi. Può far valere per sé la protezione dell'incapace?",
+      "opzioni": [
+        "Sì, entrambe le parti hanno sempre la stessa legittimazione",
+        "No, l'annullabilità è predisposta a tutela del minore",
+        "Sì, il contratto è sempre inesistente",
+        "No, perché il contratto del minore non è mai annullabile"
+      ],
+      "corretta": 1,
+      "spiegazione": "La disciplina del negozio claudicante tutela l'incapace, non la controparte capace."
+    },
+    {
+      "id": "u04-q045",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        19,
+        20
+      ],
+      "concetti": [
+        "capacita-giuridica",
+        "concepito",
+        "capacita-di-agire",
+        "minore-eta",
+        "negozio-claudicante",
+        "responsabilita-genitoriale",
+        "tutela"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "I diritti riconosciuti al concepito sono subordinati all'evento della nascita.",
+      "vero": true,
+      "spiegazione": "La tutela anticipata non elimina la condizione prevista dalla legge."
+    },
+    {
+      "id": "u04-q046",
+      "lezione": "u04-l1",
+      "livello": "base",
+      "pagine": [
+        19,
+        20
+      ],
+      "concetti": [
+        "capacita-giuridica",
+        "concepito",
+        "capacita-di-agire",
+        "minore-eta",
+        "negozio-claudicante",
+        "responsabilita-genitoriale",
+        "tutela"
+      ],
+      "tipo": "completa",
+      "testo": "L'idoneità a essere titolare di rapporti giuridici è la capacità {{giuridica}}.",
+      "spiegazione": "La capacità di agire riguarda invece il compimento degli atti."
+    },
+    {
+      "id": "u04-q047",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        20,
+        22
+      ],
+      "concetti": [
+        "interdizione-giudiziale",
+        "interdizione-legale",
+        "inabilitazione",
+        "emancipazione",
+        "amministrazione-di-sostegno",
+        "incapacita-naturale",
+        "giudice-tutelare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il decreto di amministrazione di sostegno non riserva all'amministratore un certo atto. Il beneficiario perde comunque ogni capacità per quell'atto?",
+      "opzioni": [
+        "Sì, come conseguenza automatica della nomina",
+        "Sì, anche per tutti gli atti quotidiani",
+        "No, conserva la capacità per gli atti non sottratti dal decreto",
+        "No, perché il decreto non può mai limitare alcun atto"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'amministrazione di sostegno è commisurata alle concrete esigenze del beneficiario."
+    },
+    {
+      "id": "u04-q048",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        20,
+        22
+      ],
+      "concetti": [
+        "interdizione-giudiziale",
+        "interdizione-legale",
+        "inabilitazione",
+        "emancipazione",
+        "amministrazione-di-sostegno",
+        "incapacita-naturale",
+        "giudice-tutelare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un inabilitato vuole compiere un atto di ordinaria amministrazione. Qual è la regola generale?",
+      "opzioni": [
+        "Deve essere sempre sostituito dal tutore",
+        "Non può compiere alcun atto patrimoniale",
+        "Deve ottenere l'emancipazione",
+        "Lo compie da solo"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'assistenza del curatore non è richiesta per ogni atto ordinario."
+    },
+    {
+      "id": "u04-q049",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        20,
+        22
+      ],
+      "concetti": [
+        "interdizione-giudiziale",
+        "interdizione-legale",
+        "inabilitazione",
+        "emancipazione",
+        "amministrazione-di-sostegno",
+        "incapacita-naturale",
+        "giudice-tutelare"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'interdizione legale e quella giudiziale hanno lo stesso fondamento protettivo e gli stessi effetti su ogni atto personale.",
+      "vero": false,
+      "spiegazione": "La prima è una pena accessoria patrimoniale; la seconda risponde a esigenze di protezione."
+    },
+    {
+      "id": "u04-q050",
+      "lezione": "u04-l2",
+      "livello": "base",
+      "pagine": [
+        20,
+        22
+      ],
+      "concetti": [
+        "interdizione-giudiziale",
+        "interdizione-legale",
+        "inabilitazione",
+        "emancipazione",
+        "amministrazione-di-sostegno",
+        "incapacita-naturale",
+        "giudice-tutelare"
+      ],
+      "tipo": "completa",
+      "testo": "L'incapacità di intendere o di volere nel momento dell'atto è detta incapacità {{naturale}}.",
+      "spiegazione": "Si distingue dalle incapacità legali risultanti da uno status o provvedimento."
+    },
+    {
+      "id": "u04-q051",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        22,
+        24
+      ],
+      "concetti": [
+        "legittimazione",
+        "apparenza",
+        "domicilio",
+        "residenza",
+        "cittadinanza",
+        "parentela",
+        "affinita",
+        "assenza",
+        "morte-presunta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio vive abitualmente a Bari ma concentra la gestione principale degli affari a Milano. Quale distinzione è pertinente?",
+      "opzioni": [
+        "Residenza e domicilio possono essere diversi",
+        "Il domicilio coincide sempre col luogo di nascita",
+        "La residenza dipende solo dagli affari",
+        "La dimora attribuisce automaticamente la cittadinanza"
+      ],
+      "corretta": 0,
+      "spiegazione": "La residenza riguarda la dimora abituale; il domicilio la sede principale degli affari e interessi."
+    },
+    {
+      "id": "u04-q052",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        22,
+        24
+      ],
+      "concetti": [
+        "legittimazione",
+        "apparenza",
+        "domicilio",
+        "residenza",
+        "cittadinanza",
+        "parentela",
+        "affinita",
+        "assenza",
+        "morte-presunta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio è giuridicamente capace, ma vuole vendere un bene altrui senza alcun potere. Quale requisito manca rispetto a quel diritto?",
+      "opzioni": [
+        "Capacità giuridica generale",
+        "Legittimazione",
+        "Residenza",
+        "Parentela"
+      ],
+      "corretta": 1,
+      "spiegazione": "La capacità non implica il potere di disporre di ogni diritto."
+    },
+    {
+      "id": "u04-q053",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        22,
+        24
+      ],
+      "concetti": [
+        "legittimazione",
+        "apparenza",
+        "domicilio",
+        "residenza",
+        "cittadinanza",
+        "parentela",
+        "affinita",
+        "assenza",
+        "morte-presunta"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Fra coniugi intercorre un rapporto di parentela di primo grado.",
+      "vero": false,
+      "spiegazione": "Il rapporto è di coniugio; parentela e affinità sono vincoli diversi."
+    },
+    {
+      "id": "u04-q054",
+      "lezione": "u04-l3",
+      "livello": "base",
+      "pagine": [
+        22,
+        24
+      ],
+      "concetti": [
+        "legittimazione",
+        "apparenza",
+        "domicilio",
+        "residenza",
+        "cittadinanza",
+        "parentela",
+        "affinita",
+        "assenza",
+        "morte-presunta"
+      ],
+      "tipo": "completa",
+      "testo": "Il vincolo fra un coniuge e i parenti dell'altro si chiama {{affinità}}.",
+      "spiegazione": "Non coincide con la parentela fra persone discendenti da uno stesso stipite."
+    },
+    {
+      "id": "u04-q055",
+      "lezione": "u04-l4",
+      "livello": "medio",
+      "pagine": [
+        24,
+        27
+      ],
+      "concetti": [
+        "diritti-della-personalita",
+        "diritto-alla-salute",
+        "consenso-informato",
+        "diritto-al-nome",
+        "diritto-all-immagine",
+        "diritto-alla-riservatezza",
+        "diritto-all-identita-personale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una persona autorizza una certa pubblicazione della propria immagine. Questo elimina per sempre ogni tutela contro qualsiasi uso successivo?",
+      "opzioni": [
+        "Sì, il diritto all'immagine è definitivamente estinto",
+        "Sì, il consenso trasferisce ogni diritto della personalità",
+        "No, occorre considerare l'ambito del consenso e le regole applicabili",
+        "No, perché il consenso non ha mai alcun rilievo"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il consenso a un uso dell'immagine non equivale a una rinuncia generale alla personalità."
+    },
+    {
+      "id": "u04-q056",
+      "lezione": "u04-l4",
+      "livello": "medio",
+      "pagine": [
+        24,
+        27
+      ],
+      "concetti": [
+        "diritti-della-personalita",
+        "diritto-alla-salute",
+        "consenso-informato",
+        "diritto-al-nome",
+        "diritto-all-immagine",
+        "diritto-alla-riservatezza",
+        "diritto-all-identita-personale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un giornalista sostiene che la sola verità di una notizia rende lecita qualsiasi forma di esposizione. Quale verifica manca?",
+      "opzioni": [
+        "Il consenso di ogni lettore",
+        "L'iscrizione nel registro delle imprese",
+        "La maggiore età del direttore",
+        "Utilità sociale e continenza dell'esposizione"
+      ],
+      "corretta": 3,
+      "spiegazione": "La cronaca richiede anche pertinenza sociale e correttezza della forma."
+    },
+    {
+      "id": "u04-q057",
+      "lezione": "u04-l4",
+      "livello": "medio",
+      "pagine": [
+        24,
+        27
+      ],
+      "concetti": [
+        "diritti-della-personalita",
+        "diritto-alla-salute",
+        "consenso-informato",
+        "diritto-al-nome",
+        "diritto-all-immagine",
+        "diritto-alla-riservatezza",
+        "diritto-all-identita-personale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'elenco dei diritti inviolabili protetti dall'art. 2 Cost. è necessariamente chiuso.",
+      "vero": false,
+      "spiegazione": "La tutela della personalità ha carattere aperto."
+    },
+    {
+      "id": "u04-q058",
+      "lezione": "u04-l4",
+      "livello": "base",
+      "pagine": [
+        24,
+        27
+      ],
+      "concetti": [
+        "diritti-della-personalita",
+        "diritto-alla-salute",
+        "consenso-informato",
+        "diritto-al-nome",
+        "diritto-all-immagine",
+        "diritto-alla-riservatezza",
+        "diritto-all-identita-personale"
+      ],
+      "tipo": "completa",
+      "testo": "La rappresentazione fedele della propria persona nella vita sociale è tutelata dal diritto all'{{identità personale}}.",
+      "spiegazione": "Si può ledere questo diritto anche senza una lesione dell'onore."
     }
   ],
   "mappa": {

@@ -1675,6 +1675,441 @@
           "art. 1424 c.c."
         ]
       ]
+    },
+    {
+      "id": "u20-q053",
+      "lezione": "u20-l1",
+      "livello": "medio",
+      "pagine": [
+        160,
+        162
+      ],
+      "concetti": [
+        "nullita",
+        "nullita-parziale",
+        "conversione-del-contratto-nullo",
+        "nullita-di-protezione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio sottoscrive un atto chiamato convalida di un contratto nullo ordinario. La sola volontà elimina il vizio originario?",
+      "opzioni": [
+        "Sì, ogni invalidità è convalidabile",
+        "Sì, se entrambe le parti sono capaci",
+        "No, la nullità non è normalmente sanabile con convalida",
+        "No, perché neppure un nuovo contratto valido è mai possibile"
+      ],
+      "corretta": 2,
+      "spiegazione": "Convalida, conversione e rinnovazione sono istituti diversi."
+    },
+    {
+      "id": "u20-q054",
+      "lezione": "u20-l1",
+      "livello": "medio",
+      "pagine": [
+        160,
+        162
+      ],
+      "concetti": [
+        "nullita",
+        "nullita-parziale",
+        "conversione-del-contratto-nullo",
+        "nullita-di-protezione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un contratto nullo contiene gli elementi di un contratto diverso, compatibile con lo scopo perseguito e con i requisiti legali. Quale rimedio può essere esaminato?",
+      "opzioni": [
+        "Convalida tacita automatica",
+        "Prescrizione della nullità",
+        "Interruzione del termine",
+        "Conversione"
+      ],
+      "corretta": 3,
+      "spiegazione": "La conversione non sana il contratto originario ma permette gli effetti di un diverso contratto nei requisiti dell'art. 1424 c.c."
+    },
+    {
+      "id": "u20-q055",
+      "lezione": "u20-l1",
+      "livello": "medio",
+      "pagine": [
+        160,
+        162
+      ],
+      "concetti": [
+        "nullita",
+        "nullita-parziale",
+        "conversione-del-contratto-nullo",
+        "nullita-di-protezione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La sentenza che accerta la nullità ordinaria ha natura dichiarativa.",
+      "vero": true,
+      "spiegazione": "Accerta un difetto originario invece di produrre soltanto da allora l'invalidità."
+    },
+    {
+      "id": "u20-q056",
+      "lezione": "u20-l1",
+      "livello": "base",
+      "pagine": [
+        160,
+        162
+      ],
+      "concetti": [
+        "nullita",
+        "nullita-parziale",
+        "conversione-del-contratto-nullo",
+        "nullita-di-protezione"
+      ],
+      "tipo": "completa",
+      "testo": "Un contratto può essere valido ma temporaneamente privo di effetti: questa situazione attiene all'{{inefficacia}}.",
+      "spiegazione": "Non va confusa con l'invalidità."
+    },
+    {
+      "id": "u20-q057",
+      "lezione": "u20-l2",
+      "livello": "medio",
+      "pagine": [
+        163,
+        164
+      ],
+      "concetti": [
+        "annullabilita",
+        "eccezione-di-annullabilita",
+        "convalida",
+        "tutela-dei-terzi-nell-annullamento"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il contratto è annullabile ma non è ancora intervenuto annullamento. È necessariamente privo di ogni effetto fin dall'inizio?",
+      "opzioni": [
+        "No, produce effetti fino all'annullamento",
+        "Sì, come un atto mai esistito",
+        "Sì, salvo trascrizione",
+        "No, perché non potrà mai essere eliminato"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'annullabilità si distingue dalla nullità anche nel funzionamento degli effetti."
+    },
+    {
+      "id": "u20-q058",
+      "lezione": "u20-l2",
+      "livello": "medio",
+      "pagine": [
+        163,
+        164
+      ],
+      "concetti": [
+        "annullabilita",
+        "eccezione-di-annullabilita",
+        "convalida",
+        "tutela-dei-terzi-nell-annullamento"
+      ],
+      "tipo": "multipla",
+      "domanda": "La parte protetta, capace e consapevole del vizio, vuole consolidare il contratto con i requisiti richiesti. Quale istituto viene in rilievo?",
+      "opzioni": [
+        "Conversione del contratto nullo",
+        "Convalida",
+        "Revocatoria",
+        "Rescissione"
+      ],
+      "corretta": 1,
+      "spiegazione": "La convalida rimuove la possibilità di far valere l'annullabilità nei termini legali."
+    },
+    {
+      "id": "u20-q059",
+      "lezione": "u20-l2",
+      "livello": "medio",
+      "pagine": [
+        163,
+        164
+      ],
+      "concetti": [
+        "annullabilita",
+        "eccezione-di-annullabilita",
+        "convalida",
+        "tutela-dei-terzi-nell-annullamento"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il termine dell'azione di annullamento decorre sempre dalla firma, anche per violenza non ancora cessata.",
+      "vero": false,
+      "spiegazione": "Le decorrenze cambiano secondo il vizio; per la violenza rileva la sua cessazione."
+    },
+    {
+      "id": "u20-q060",
+      "lezione": "u20-l2",
+      "livello": "base",
+      "pagine": [
+        163,
+        164
+      ],
+      "concetti": [
+        "annullabilita",
+        "eccezione-di-annullabilita",
+        "convalida",
+        "tutela-dei-terzi-nell-annullamento"
+      ],
+      "tipo": "completa",
+      "testo": "La legittimazione a chiedere l'annullamento spetta di regola alla parte {{protetta}}.",
+      "spiegazione": "La disciplina presenta eccezioni specifiche."
+    },
+    {
+      "id": "u20-q061",
+      "lezione": "u20-l3",
+      "livello": "medio",
+      "pagine": [
+        165,
+        166
+      ],
+      "concetti": [
+        "rescissione",
+        "stato-di-pericolo-contrattuale",
+        "rescissione-per-lesione",
+        "offerta-di-riduzione-ad-equita"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio assume obbligazioni inique per salvare una persona da un pericolo attuale di danno grave, noto alla controparte. Quale rimedio deve essere valutato?",
+      "opzioni": [
+        "Risoluzione per mero ritardo",
+        "Nullità per ogni squilibrio economico",
+        "Rescissione per stato di pericolo",
+        "Revocazione della donazione"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'art. 1447 c.c. considera la necessità di salvare sé o altri da un danno grave alla persona."
+    },
+    {
+      "id": "u20-q062",
+      "lezione": "u20-l3",
+      "livello": "medio",
+      "pagine": [
+        165,
+        166
+      ],
+      "concetti": [
+        "rescissione",
+        "stato-di-pericolo-contrattuale",
+        "rescissione-per-lesione",
+        "offerta-di-riduzione-ad-equita"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il contraente contro cui è proposta rescissione offre una modifica sufficiente a ricondurre il contratto a equità. Quale funzione ha l'offerta?",
+      "opzioni": [
+        "Convalida necessariamente il contratto rescindibile",
+        "Sostituisce il contratto con un testamento",
+        "Rende imprescrittibile l'azione",
+        "Può evitare la rescissione mediante riequilibrio"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'art. 1450 c.c. prevede un'offerta distinta dalla convalida, che non è ammessa."
+    },
+    {
+      "id": "u20-q063",
+      "lezione": "u20-l3",
+      "livello": "medio",
+      "pagine": [
+        165,
+        166
+      ],
+      "concetti": [
+        "rescissione",
+        "stato-di-pericolo-contrattuale",
+        "rescissione-per-lesione",
+        "offerta-di-riduzione-ad-equita"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La sola difficoltà economica rende rescindibile ogni contratto svantaggioso concluso dal soggetto in bisogno.",
+      "vero": false,
+      "spiegazione": "Occorrono anche lesione oltre la metà e approfittamento, con gli altri presupposti legali."
+    },
+    {
+      "id": "u20-q064",
+      "lezione": "u20-l3",
+      "livello": "base",
+      "pagine": [
+        165,
+        166
+      ],
+      "concetti": [
+        "rescissione",
+        "stato-di-pericolo-contrattuale",
+        "rescissione-per-lesione",
+        "offerta-di-riduzione-ad-equita"
+      ],
+      "tipo": "completa",
+      "testo": "Nella rescissione per bisogno rileva anche l'{{approfittamento}} dell'altro contraente.",
+      "spiegazione": "Il rimedio non si fonda sulla sola sproporzione oggettiva."
+    },
+    {
+      "id": "u20-q065",
+      "lezione": "u20-l4",
+      "livello": "medio",
+      "pagine": [
+        166,
+        168
+      ],
+      "concetti": [
+        "risoluzione-per-inadempimento",
+        "diffida-ad-adempiere",
+        "clausola-risolutiva-espressa",
+        "termine-essenziale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio chiede la risoluzione giudiziale per una violazione trascurabile rispetto all'interesse all'adempimento. Quale limite incontra?",
+      "opzioni": [
+        "L'inadempimento deve avere importanza non scarsa",
+        "Qualsiasi minima irregolarità basta sempre",
+        "Occorre solo provare che il contratto era scritto",
+        "La risoluzione riguarda esclusivamente contratti immobiliari"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'art. 1455 c.c. richiede una valutazione dell'importanza dell'inadempimento."
+    },
+    {
+      "id": "u20-q066",
+      "lezione": "u20-l4",
+      "livello": "medio",
+      "pagine": [
+        166,
+        168
+      ],
+      "concetti": [
+        "risoluzione-per-inadempimento",
+        "diffida-ad-adempiere",
+        "clausola-risolutiva-espressa",
+        "termine-essenziale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio ottiene la risoluzione per inadempimento. Ne deriva che il contratto fosse necessariamente invalido al momento della conclusione?",
+      "opzioni": [
+        "Sì, ogni risoluzione accerta nullità originaria",
+        "No, il rimedio reagisce a un difetto funzionale del rapporto",
+        "Sì, ogni inadempimento è un errore-vizio",
+        "No, perché la risoluzione non incide mai sul contratto"
+      ],
+      "corretta": 1,
+      "spiegazione": "La risoluzione tutela il sinallagma nella fase di esecuzione."
+    },
+    {
+      "id": "u20-q067",
+      "lezione": "u20-l4",
+      "livello": "medio",
+      "pagine": [
+        166,
+        168
+      ],
+      "concetti": [
+        "risoluzione-per-inadempimento",
+        "diffida-ad-adempiere",
+        "clausola-risolutiva-espressa",
+        "termine-essenziale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La clausola risolutiva espressa deve riferirsi a obbligazioni determinate e opera con la dichiarazione della parte interessata di avvalersene.",
+      "vero": true,
+      "spiegazione": "Il rimedio ha una struttura distinta dalla generica richiesta di pagamento."
+    },
+    {
+      "id": "u20-q068",
+      "lezione": "u20-l4",
+      "livello": "base",
+      "pagine": [
+        166,
+        168
+      ],
+      "concetti": [
+        "risoluzione-per-inadempimento",
+        "diffida-ad-adempiere",
+        "clausola-risolutiva-espressa",
+        "termine-essenziale"
+      ],
+      "tipo": "completa",
+      "testo": "L'intimazione con termine e avvertimento di risoluzione è la {{diffida ad adempiere}}.",
+      "spiegazione": "È il meccanismo dell'art. 1454 c.c."
+    },
+    {
+      "id": "u20-q069",
+      "lezione": "u20-l5",
+      "livello": "medio",
+      "pagine": [
+        169,
+        171
+      ],
+      "concetti": [
+        "eccezione-di-inadempimento",
+        "risoluzione-per-impossibilita",
+        "eccessiva-onerosita-sopravvenuta",
+        "presupposizione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio rifiuta la propria prestazione a causa di un inadempimento altrui minimo, con comportamento contrario a buona fede. L'eccezione lo protegge sempre?",
+      "opzioni": [
+        "Sì, qualsiasi difetto altrui giustifica ogni rifiuto",
+        "Sì, perché la reciprocità elimina ogni proporzione",
+        "No, la buona fede limita l'eccezione di inadempimento",
+        "No, perché l'eccezione non è mai ammessa"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'art. 1460 c.c. coordina il rifiuto con la buona fede."
+    },
+    {
+      "id": "u20-q070",
+      "lezione": "u20-l5",
+      "livello": "medio",
+      "pagine": [
+        169,
+        171
+      ],
+      "concetti": [
+        "eccezione-di-inadempimento",
+        "risoluzione-per-impossibilita",
+        "eccessiva-onerosita-sopravvenuta",
+        "presupposizione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Dopo il contratto le condizioni patrimoniali della controparte mettono evidentemente in pericolo il conseguimento della controprestazione. Se viene prestata idonea garanzia, resta sempre possibile sospendere ai sensi dell'art. 1461 c.c.?",
+      "opzioni": [
+        "Sì, la sospensione è ormai definitiva",
+        "Sì, il rapporto è già necessariamente nullo",
+        "No, perché la garanzia trasferisce la proprietà al creditore",
+        "No, la garanzia idonea rimuove il fondamento di quella sospensione"
+      ],
+      "corretta": 3,
+      "spiegazione": "La tutela preventiva opera finché il pericolo non sia neutralizzato dalla garanzia richiesta."
+    },
+    {
+      "id": "u20-q071",
+      "lezione": "u20-l5",
+      "livello": "medio",
+      "pagine": [
+        169,
+        171
+      ],
+      "concetti": [
+        "eccezione-di-inadempimento",
+        "risoluzione-per-impossibilita",
+        "eccessiva-onerosita-sopravvenuta",
+        "presupposizione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La presupposizione può riguardare una circostanza oggettiva condivisa come base del contratto e non un semplice motivo personale rimasto interno.",
+      "vero": true,
+      "spiegazione": "Il rilievo della base comune va distinto dall'aspettativa individuale."
+    },
+    {
+      "id": "u20-q072",
+      "lezione": "u20-l5",
+      "livello": "base",
+      "pagine": [
+        169,
+        171
+      ],
+      "concetti": [
+        "eccezione-di-inadempimento",
+        "risoluzione-per-impossibilita",
+        "eccessiva-onerosita-sopravvenuta",
+        "presupposizione"
+      ],
+      "tipo": "completa",
+      "testo": "L'alterazione eccezionale del peso economico della prestazione può porre un problema di eccessiva {{onerosità}} sopravvenuta.",
+      "spiegazione": "Non equivale all'impossibilità di eseguire la prestazione."
     }
   ],
   "mappa": {

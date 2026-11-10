@@ -1324,6 +1324,354 @@
           "art. 2901 c.c."
         ]
       ]
+    },
+    {
+      "id": "u15-q043",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il bene dato in garanzia viene trasferito a un terzo e la garanzia gli è opponibile. Quale carattere permette al creditore di farla valere sul bene?",
+      "opzioni": [
+        "Sequela",
+        "Compensazione",
+        "Novazione",
+        "Confusione"
+      ],
+      "corretta": 0,
+      "spiegazione": "La garanzia reale può seguire il bene presso i successivi titolari."
+    },
+    {
+      "id": "u15-q044",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio riceve una cosa in pegno e non viene pagato alla scadenza. Può appropriarsene liberamente senza seguire la realizzazione legale della garanzia?",
+      "opzioni": [
+        "Sì, la consegna trasferisce automaticamente la proprietà",
+        "No, deve rispettare le forme di realizzazione previste",
+        "Sì, se il credito è anteriore al pegno",
+        "No, perché il pegno non attribuisce mai prelazione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il possesso del bene non consente una libera appropriazione in violazione delle regole di garanzia."
+    },
+    {
+      "id": "u15-q045",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La qualità di terzo datore di pegno equivale sempre a una fideiussione personale per l'intero debito.",
+      "vero": false,
+      "spiegazione": "La garanzia reale prestata dal terzo non lo rende automaticamente debitore personale."
+    },
+    {
+      "id": "u15-q046",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "completa",
+      "testo": "Il carattere della garanzia reale che consente di seguire il bene presso i successivi titolari è la {{sequela}}.",
+      "spiegazione": "Va distinto dalla prelazione sul ricavato."
+    },
+    {
+      "id": "u15-q047",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Le parti stipulano il patto commissorio dopo la costituzione dell'ipoteca. La posteriorità lo sottrae al divieto?",
+      "opzioni": [
+        "Sì, il divieto riguarda solo l'atto iniziale",
+        "Sì, se il creditore è già garantito",
+        "No, il divieto comprende anche il patto successivo",
+        "No, perché è vietata anche ogni vendita volontaria al creditore"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'art. 2744 c.c. vieta il meccanismo commissorio anche se convenuto posteriormente."
+    },
+    {
+      "id": "u15-q048",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un accordo chiamato marciano permette al creditore di trattenere il bene senza stima e senza restituire alcuna eccedenza. Basta il nome per renderlo lecito?",
+      "opzioni": [
+        "Sì, il nome scelto dalle parti prevale sul contenuto",
+        "Sì, purché sia scritto in latino",
+        "No, perché ogni trasferimento a scopo di garanzia è necessariamente commissorio",
+        "No, occorre verificare le salvaguardie sostanziali"
+      ],
+      "corretta": 3,
+      "spiegazione": "Stima imparziale e restituzione dell'eccedenza distinguono il modello marciano."
+    },
+    {
+      "id": "u15-q049",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il pegno non possessorio elimina ogni necessità di pubblicità perché il bene resta in azienda.",
+      "vero": false,
+      "spiegazione": "La permanenza del bene presso il debitore si accompagna alla pubblicità prevista dalla disciplina speciale."
+    },
+    {
+      "id": "u15-q050",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "completa",
+      "testo": "Il patto che trasferisce automaticamente al creditore il bene ipotecato o dato in pegno per il mancato pagamento è {{commissorio}}.",
+      "spiegazione": "Il divieto protegge il debitore e la parità dei creditori."
+    },
+    {
+      "id": "u15-q051",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio ha un titolo idoneo a iscrivere ipoteca, ma lascia decorrere molto tempo senza iscriverla. Può conservare un grado anteriore alla data dell'iscrizione effettiva?",
+      "opzioni": [
+        "No, il grado dipende dalla pubblicità costitutiva",
+        "Sì, basta la data del titolo",
+        "Sì, se aveva annunciato l'intenzione al debitore",
+        "No, perché ogni ritardo rende nullo il titolo"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il titolo fonda il potere di iscrivere, non un grado già acquisito."
+    },
+    {
+      "id": "u15-q052",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il creditore vuole conservare senza soluzione di continuità gli effetti dell'iscrizione prima del compimento del ventennio. Quale adempimento deve valutare?",
+      "opzioni": [
+        "Sola diffida al debitore",
+        "Rinnovazione dell'iscrizione",
+        "Accettazione beneficiata",
+        "Denunzia di nuova opera"
+      ],
+      "corretta": 1,
+      "spiegazione": "La rinnovazione tempestiva conserva gli effetti dell'iscrizione originaria."
+    },
+    {
+      "id": "u15-q053",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il pagamento del credito e la cancellazione materiale dell'iscrizione ipotecaria sono sempre lo stesso atto.",
+      "vero": false,
+      "spiegazione": "Estinzione della garanzia e cancellazione pubblicitaria restano piani distinti."
+    },
+    {
+      "id": "u15-q054",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "completa",
+      "testo": "La collocazione dell'ipoteca rispetto alle altre iscrizioni è il suo {{grado}}.",
+      "spiegazione": "Dipende dall'ordine della pubblicità."
+    },
+    {
+      "id": "u15-q055",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio teme che il debitore disperda i beni prima dell'esito del giudizio. Quale rimedio ha funzione propriamente cautelare?",
+      "opzioni": [
+        "Azione di nullità del credito",
+        "Collazione",
+        "Sequestro conservativo",
+        "Affrancazione"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il sequestro conserva la garanzia in presenza dei presupposti della tutela cautelare."
+    },
+    {
+      "id": "u15-q056",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un creditore ottiene la revocatoria di una vendita pregiudizievole. Un altro creditore rimasto estraneo può automaticamente avvalersi della stessa inefficacia come se avesse agito?",
+      "opzioni": [
+        "Sì, il contratto viene annullato per tutti",
+        "Sì, la proprietà torna sempre al debitore",
+        "No, perché la revocatoria produce soltanto un risarcimento",
+        "No, l'inefficacia è relativa a favore del creditore che agisce"
+      ],
+      "corretta": 3,
+      "spiegazione": "La revocatoria ordinaria non è una dichiarazione generale di nullità dell'atto."
+    },
+    {
+      "id": "u15-q057",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La surrogatoria consente al creditore di esercitare indistintamente anche i diritti strettamente personali del debitore.",
+      "vero": false,
+      "spiegazione": "La sostituzione è limitata ai diritti e alle azioni ammessi dalla disciplina, non a quelli esclusivamente personali."
+    },
+    {
+      "id": "u15-q058",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "completa",
+      "testo": "L'azione che rende relativamente inefficace un atto dispositivo pregiudizievole è la {{revocatoria}}.",
+      "spiegazione": "Consente al creditore di agire sul bene nei limiti della tutela ottenuta."
     }
   ],
   "mappa": {

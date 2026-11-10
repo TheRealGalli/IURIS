@@ -1,5 +1,8 @@
 # Consegne: Diritto privato completato
 
+**Potenziamento successivo:** il passo 2 di `consegne-prossimi-passi.md` porta il totale a **1.426 domande**, almeno
+14 per ciascuna delle 98 lezioni. Il resoconto seguente documenta la prima pubblicazione del corso completo.
+
 Scritto il 10 novembre 2026 per chi riprende il lavoro (ChatGPT/Codex). Leggi prima [`AGENTS.md`](../AGENTS.md)
 (ambiente, porte, git) e poi questo file: basta per ripartire senza rileggere la cronologia.
 

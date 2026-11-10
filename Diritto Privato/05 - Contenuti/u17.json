@@ -1371,6 +1371,362 @@
           "art. 1433 c.c."
         ]
       ]
+    },
+    {
+      "id": "u17-q043",
+      "lezione": "u17-l1",
+      "livello": "medio",
+      "pagine": [
+        134,
+        135
+      ],
+      "concetti": [
+        "vizi-del-consenso",
+        "errore-vizio",
+        "errore-ostativo",
+        "errore-di-calcolo"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio commette un errore essenziale che l'altro contraente non poteva riconoscere usando la normale diligenza. Basta l'essenzialità per l'annullamento ordinario per errore?",
+      "opzioni": [
+        "Sì, ogni errore essenziale è sufficiente",
+        "Sì, purché il contratto sia oneroso",
+        "No, serve anche la riconoscibilità",
+        "No, perché solo l'errore di calcolo può annullare"
+      ],
+      "corretta": 2,
+      "spiegazione": "La tutela dell'errante si coordina con l'affidamento della controparte."
+    },
+    {
+      "id": "u17-q044",
+      "lezione": "u17-l1",
+      "livello": "medio",
+      "pagine": [
+        134,
+        135
+      ],
+      "concetti": [
+        "vizi-del-consenso",
+        "errore-vizio",
+        "errore-ostativo",
+        "errore-di-calcolo"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio forma correttamente la propria volontà ma la dichiara in modo inesatto. Quale tipo di errore deve essere considerato?",
+      "opzioni": [
+        "Errore esclusivamente sul motivo",
+        "Dolo incidente",
+        "Timore reverenziale",
+        "Errore ostativo"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'errore ostativo riguarda dichiarazione o trasmissione della volontà."
+    },
+    {
+      "id": "u17-q045",
+      "lezione": "u17-l1",
+      "livello": "medio",
+      "pagine": [
+        134,
+        135
+      ],
+      "concetti": [
+        "vizi-del-consenso",
+        "errore-vizio",
+        "errore-ostativo",
+        "errore-di-calcolo"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Ogni errore di diritto rende annullabile il contratto anche se è del tutto irrilevante per la decisione di contrattare.",
+      "vero": false,
+      "spiegazione": "L'errore di diritto deve essere ragione unica o principale del contratto, oltre agli altri requisiti."
+    },
+    {
+      "id": "u17-q046",
+      "lezione": "u17-l1",
+      "livello": "base",
+      "pagine": [
+        134,
+        135
+      ],
+      "concetti": [
+        "vizi-del-consenso",
+        "errore-vizio",
+        "errore-ostativo",
+        "errore-di-calcolo"
+      ],
+      "tipo": "completa",
+      "testo": "L'errore che incide sulla formazione della volontà si chiama errore-{{vizio}}.",
+      "spiegazione": "Si distingue dall'errore nella dichiarazione o nella sua trasmissione."
+    },
+    {
+      "id": "u17-q047",
+      "lezione": "u17-l2",
+      "livello": "medio",
+      "pagine": [
+        135,
+        136
+      ],
+      "concetti": [
+        "dolo-determinante",
+        "dolo-incidente",
+        "violenza-morale",
+        "timore-reverenziale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un terzo inganna Caio; il contraente che ne trae vantaggio conosce l'inganno. Il dolo del terzo può fondare l'annullamento?",
+      "opzioni": [
+        "Sì, se determinante e noto al contraente avvantaggiato",
+        "No, il dolo può provenire solo dal contraente",
+        "Sì, anche se non ha influito affatto sulla scelta",
+        "No, perché il terzo diventa automaticamente parte"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'art. 1439 c.c. disciplina espressamente il dolo proveniente da un terzo."
+    },
+    {
+      "id": "u17-q048",
+      "lezione": "u17-l2",
+      "livello": "medio",
+      "pagine": [
+        135,
+        136
+      ],
+      "concetti": [
+        "dolo-determinante",
+        "dolo-incidente",
+        "violenza-morale",
+        "timore-reverenziale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio firma solo per soggezione psicologica verso una persona autorevole, senza una minaccia giuridicamente rilevante. Quale figura, da sola insufficiente all'annullamento, viene in rilievo?",
+      "opzioni": [
+        "Violenza morale necessariamente invalidante",
+        "Timore reverenziale",
+        "Errore ostativo",
+        "Dolo determinante presunto"
+      ],
+      "corretta": 1,
+      "spiegazione": "La sola reverenza non integra la violenza prevista dalla legge."
+    },
+    {
+      "id": "u17-q049",
+      "lezione": "u17-l2",
+      "livello": "medio",
+      "pagine": [
+        135,
+        136
+      ],
+      "concetti": [
+        "dolo-determinante",
+        "dolo-incidente",
+        "violenza-morale",
+        "timore-reverenziale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il dolo incidente rende sempre annullabile il contratto nello stesso modo del dolo determinante.",
+      "vero": false,
+      "spiegazione": "Nel dolo incidente il contratto resta valido, ma può sorgere il diritto al risarcimento."
+    },
+    {
+      "id": "u17-q050",
+      "lezione": "u17-l2",
+      "livello": "base",
+      "pagine": [
+        135,
+        136
+      ],
+      "concetti": [
+        "dolo-determinante",
+        "dolo-incidente",
+        "violenza-morale",
+        "timore-reverenziale"
+      ],
+      "tipo": "completa",
+      "testo": "L'inganno senza il quale la parte non avrebbe contrattato è dolo {{determinante}}.",
+      "spiegazione": "Il dolo incidente riguarda invece le condizioni di un contratto che sarebbe stato comunque concluso."
+    },
+    {
+      "id": "u17-q051",
+      "lezione": "u17-l3",
+      "livello": "medio",
+      "pagine": [
+        137,
+        137
+      ],
+      "concetti": [
+        "forma-ad-substantiam",
+        "forma-ad-probationem",
+        "forma-convenzionale",
+        "scrittura-privata-e-atto-pubblico"
+      ],
+      "tipo": "multipla",
+      "domanda": "Le parti stabiliscono per iscritto una forma per il futuro contratto e non indicano la funzione del patto. Quale presunzione opera?",
+      "opzioni": [
+        "La forma serve sempre solo alla pubblicità",
+        "Il contratto futuro è necessariamente gratuito",
+        "La forma è voluta per la validità",
+        "Il patto non produce mai effetti"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'art. 1352 c.c. pone una presunzione relativa alla forma convenzionale."
+    },
+    {
+      "id": "u17-q052",
+      "lezione": "u17-l3",
+      "livello": "medio",
+      "pagine": [
+        137,
+        137
+      ],
+      "concetti": [
+        "forma-ad-substantiam",
+        "forma-ad-probationem",
+        "forma-convenzionale",
+        "scrittura-privata-e-atto-pubblico"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio sostiene che forma scritta e atto pubblico siano sempre equivalenti. Quale differenza trascura?",
+      "opzioni": [
+        "La forma scritta non può mai avere firme",
+        "Ogni scrittura privata è un atto notarile",
+        "L'atto pubblico riguarda soltanto gli immobili",
+        "L'atto pubblico richiede l'intervento del pubblico ufficiale competente"
+      ],
+      "corretta": 3,
+      "spiegazione": "Una prescrizione di scrittura non coincide necessariamente con la prescrizione di atto pubblico."
+    },
+    {
+      "id": "u17-q053",
+      "lezione": "u17-l3",
+      "livello": "medio",
+      "pagine": [
+        137,
+        137
+      ],
+      "concetti": [
+        "forma-ad-substantiam",
+        "forma-ad-probationem",
+        "forma-convenzionale",
+        "scrittura-privata-e-atto-pubblico"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La forma ad probationem riguarda la prova dell'accordo e non di per sé la sua validità.",
+      "vero": true,
+      "spiegazione": "La mancanza della forma probatoria non equivale automaticamente a nullità sostanziale."
+    },
+    {
+      "id": "u17-q054",
+      "lezione": "u17-l3",
+      "livello": "base",
+      "pagine": [
+        137,
+        137
+      ],
+      "concetti": [
+        "forma-ad-substantiam",
+        "forma-ad-probationem",
+        "forma-convenzionale",
+        "scrittura-privata-e-atto-pubblico"
+      ],
+      "tipo": "completa",
+      "testo": "La forma richiesta a pena di invalidità è detta ad {{substantiam}}.",
+      "spiegazione": "Va distinta dalla forma richiesta per la sola prova."
+    },
+    {
+      "id": "u17-q055",
+      "lezione": "u17-l4",
+      "livello": "medio",
+      "pagine": [
+        138,
+        141
+      ],
+      "concetti": [
+        "rappresentanza",
+        "procura",
+        "conflitto-di-interessi-rappresentativo",
+        "rappresentanza-senza-potere",
+        "ratifica",
+        "contratto-per-persona-da-nominare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Caio firma in nome proprio pur essendo incaricato da Tizio. Il contratto produce per ciò solo effetti diretti nella sfera di Tizio?",
+      "opzioni": [
+        "No, nella rappresentanza diretta occorre spendere il nome del rappresentato",
+        "Sì, basta qualsiasi incarico interno",
+        "Sì, perché mandato e procura sono sempre identici",
+        "No, perché il mandatario non può mai concludere contratti"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'agire per conto altrui non coincide con l'agire in nome altrui."
+    },
+    {
+      "id": "u17-q056",
+      "lezione": "u17-l4",
+      "livello": "medio",
+      "pagine": [
+        138,
+        141
+      ],
+      "concetti": [
+        "rappresentanza",
+        "procura",
+        "conflitto-di-interessi-rappresentativo",
+        "rappresentanza-senza-potere",
+        "ratifica",
+        "contratto-per-persona-da-nominare"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio ratifica validamente un atto compiuto senza poteri in suo nome. La retroattività può sacrificare liberamente i diritti acquistati dai terzi?",
+      "opzioni": [
+        "Sì, la ratifica elimina ogni acquisto intermedio",
+        "No, i diritti dei terzi restano salvi",
+        "Sì, se il rappresentato è in buona fede",
+        "No, perché la ratifica non ha mai effetti retroattivi"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'art. 1399 c.c. combina retroattività e salvezza dei diritti dei terzi."
+    },
+    {
+      "id": "u17-q057",
+      "lezione": "u17-l4",
+      "livello": "medio",
+      "pagine": [
+        138,
+        141
+      ],
+      "concetti": [
+        "rappresentanza",
+        "procura",
+        "conflitto-di-interessi-rappresentativo",
+        "rappresentanza-senza-potere",
+        "ratifica",
+        "contratto-per-persona-da-nominare"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La procura regola necessariamente anche tutti gli obblighi interni propri del mandato.",
+      "vero": false,
+      "spiegazione": "La procura attribuisce potere rappresentativo esterno; il mandato disciplina un rapporto gestorio."
+    },
+    {
+      "id": "u17-q058",
+      "lezione": "u17-l4",
+      "livello": "base",
+      "pagine": [
+        138,
+        141
+      ],
+      "concetti": [
+        "rappresentanza",
+        "procura",
+        "conflitto-di-interessi-rappresentativo",
+        "rappresentanza-senza-potere",
+        "ratifica",
+        "contratto-per-persona-da-nominare"
+      ],
+      "tipo": "completa",
+      "testo": "L'atto con cui il rappresentato attribuisce il potere di agire in suo nome è la {{procura}}.",
+      "spiegazione": "Non coincide con il contratto di mandato."
     }
   ],
   "mappa": {
