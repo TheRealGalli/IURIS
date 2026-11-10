@@ -26,11 +26,11 @@
     {
       "id": "p029-b004",
       "pagina": 29,
-      "markdown": "- **Art. 10 della Costituzione:** \"L'ordinamento giuridico si conforma alle norme del diritto internazionale generalmente riconosciute\". Con l'entrata in vigore della Costituzione, tutte le norme di diritto internazionale riconosciute sono diventate parte del nostro ordinamento senza bisogno di ulteriori disposizioni.\n- **Art. 1 del Codice civile:** \"La capacità giuridica si acquista dal momento della nascita\". La capacità giuridica è determinata dal fatto esterno della nascita, in forza della [[validita|validità]] dell'articolo stesso, e non per una condotta irreprensibile del neonato.\n- **Norme Abrogative:** Sono norme costitutive in quanto abrogano una determinata norma per effetto unicamente della loro validità, senza l'azione di un agente. L'esistenza di una [[norma-abrogativa|norma abrogativa]] produce di per sé l'invaliditàdella norma abrogata.",
+      "markdown": "- **Art. 10 della Costituzione:** \"L'[[ordinamento-giuridico|ordinamento giuridico]] si conforma alle norme del diritto internazionale generalmente riconosciute\". Con l'entrata in vigore della Costituzione, tutte le norme di diritto internazionale riconosciute sono diventate parte del nostro ordinamento senza bisogno di ulteriori disposizioni.\n- **Art. 1 del Codice civile:** \"La capacità giuridica si acquista dal momento della nascita\". La capacità giuridica è determinata dal fatto esterno della nascita, in forza della [[validita|validità]] dell'articolo stesso, e non per una condotta irreprensibile del neonato.\n- **Norme Abrogative:** Sono norme costitutive in quanto abrogano una determinata norma per effetto unicamente della loro validità, senza l'azione di un agente. L'esistenza di una [[norma-abrogativa|norma abrogativa]] produce di per sé l'invaliditàdella norma abrogata.",
       "concetti": [
+        "ordinamento-giuridico",
         "validita",
         "norma-abrogativa",
-        "ordinamento-giuridico",
         "regola-costitutiva"
       ]
     },
@@ -47,14 +47,14 @@
     {
       "id": "p029-b006",
       "pagina": 29,
-      "markdown": "- **Norma Abrogativa:** Tipicamente si formula come: \"Si dispone che il sistema S non contenga la determinazione D\". In forza di essa, si fissa immediatamente l'esclusione di una norma dall'ordinamento.\n- **Norma Costitutiva:** \"Si dispone che il sistema S contenga la determinazione D\". Si include una norma nel sistema S, ovvero nasce una nuova determinazione, senza l'ulteriore adempimento di un agente e grazie esclusivamente alla validità della norma che pone nuovi [[obbligo|obblighi]], divieti o [[permesso|permessi]].",
+      "markdown": "- **Norma Abrogativa:** Tipicamente si formula come: \"Si dispone che il sistema S non contenga la determinazione D\". In forza di essa, si fissa immediatamente l'esclusione di una norma dall'[[ordinamento-giuridico|ordinamento]].\n- **Norma Costitutiva:** \"Si dispone che il sistema S contenga la determinazione D\". Si include una norma nel sistema S, ovvero nasce una nuova determinazione, senza l'ulteriore adempimento di un agente e grazie esclusivamente alla validità della norma che pone nuovi [[obbligo|obblighi]], divieti o [[permesso|permessi]].",
       "concetti": [
+        "ordinamento-giuridico",
         "obbligo",
         "permesso",
         "enunciazione-fondamentale",
         "regola-costitutiva",
         "norma-abrogativa",
-        "ordinamento-giuridico",
         "validita"
       ]
     },
@@ -125,7 +125,7 @@
     {
       "id": "p030-b005",
       "pagina": 30,
-      "markdown": "La [[teoria-della-costitutivita|teoria della costitutività]] non marginalizza la funzione prescrittiva del linguaggio giuridico; al contrario, riconosce la presenza contemporanea nell'ordinamento di due tipologie di norme:",
+      "markdown": "La [[teoria-della-costitutivita|teoria della costitutività]] non marginalizza la funzione prescrittiva del linguaggio giuridico; al contrario, riconosce la presenza contemporanea nell'[[ordinamento-giuridico|ordinamento]] di due tipologie di norme:",
       "concetti": [
         "teoria-della-costitutivita",
         "ordinamento-giuridico"
@@ -151,12 +151,12 @@
     {
       "id": "p030-b008",
       "pagina": 30,
-      "markdown": "- Per Kelsen, le \"[[norma-primaria|norme primarie]]\" imputano a un fatto condizionante (l'illecito) una conseguenza condizionata (la [[sanzione|sanzione]]).\n- **Lo schema kelseniano è:** \"Se A, deve essere B\", dove A è l'illecito e B è la sanzione. Questo schema incorpora chiaramente i due elementi tipici della prescrittività: l'obbligo di adempimento e la sanzione in caso di inadempimento.",
+      "markdown": "- Per [[kelsen|Kelsen]], le \"[[norma-primaria|norme primarie]]\" imputano a un fatto condizionante (l'illecito) una conseguenza condizionata (la [[sanzione|sanzione]]).\n- **Lo schema kelseniano è:** \"Se A, deve essere B\", dove A è l'illecito e B è la sanzione. Questo schema incorpora chiaramente i due elementi tipici della prescrittività: l'[[obbligo|obbligo]] di adempimento e la sanzione in caso di inadempimento.",
       "concetti": [
+        "kelsen",
         "norma-primaria",
         "sanzione",
-        "obbligo",
-        "kelsen"
+        "obbligo"
       ],
       "testoFonte": "- Per Kelsen, le \"norme primarie\" imputano a un fatto condizionante (l'illecito) una conseguenza condizionata (la sanzione). - Lo schema kelseniano è: \"Se A deve essere B\", dove A è l'illecito e B è la sanzione. Questo schema incorpora chiaramente i due elementi tipici della prescrittività: l'obbligo di adempimento e la sanzione in caso di inadempimento.",
       "notaRevisione": "Aggiunta la virgola dello schema kelseniano: se A (l'illecito), deve essere B (la sanzione)."

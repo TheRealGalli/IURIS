@@ -17,9 +17,15 @@
     {
       "id": "p045-b002",
       "pagina": 45,
-      "markdown": "**Premessa.** Se il diritto soggettivo non viene spontaneamente rispettato dai consociati, solo in casi eccezionali l’ordinamento ammette che il suo titolare possa provvedere direttamente alla sua tutela (c.d. [[autotutela|autotutela]]). Di regola il soggetto, che vuole fare valere un proprio diritto da altri contestatogli, deve rivolgersi al giudice (art. 2907 cod. civ.). Ipotesi eccezionali di autotutela consentita al privato sono il diritto di ritenzione, l’eccezione di inadempimento, la diffida di adempimento, la difesa del possesso finché la violenza dell’aggressore è in atto, la legittima difesa, ecc.",
+      "markdown": "**Premessa.** Se il [[diritto-soggettivo|diritto soggettivo]] non viene spontaneamente rispettato dai consociati, solo in casi eccezionali l’ordinamento ammette che il suo titolare possa provvedere direttamente alla sua tutela (c.d. [[autotutela|autotutela]]). Di regola il soggetto, che vuole fare valere un proprio diritto da altri contestatogli, deve rivolgersi al giudice (art. 2907 cod. civ.). Ipotesi eccezionali di autotutela consentita al privato sono il [[diritto-di-ritenzione|diritto di ritenzione]], l’[[eccezione-di-inadempimento|eccezione di inadempimento]], la diffida di [[adempimento|adempimento]], la difesa del [[possesso|possesso]] finché la violenza dell’aggressore è in atto, la legittima difesa, ecc.",
       "concetti": [
-        "autotutela"
+        "diritto-soggettivo",
+        "autotutela",
+        "diritto-di-ritenzione",
+        "eccezione-di-inadempimento",
+        "adempimento",
+        "possesso",
+        "inadempimento"
       ]
     },
     {
@@ -33,17 +39,22 @@
     {
       "id": "p045-b004",
       "pagina": 45,
-      "markdown": "- Se tra me e un’altra persona sorge controversia circa la sussistenza di un diritto soggettivo a mio favore, s’instaura tra i due un processo di cognizione, che ha il compito di individuare la regola contenuta nella norma di diritto sostanziale applicabile al caso concreto. L’azione di cognizione può tendere ad una di queste tre finalità: a) all’accertamento dell’esistenza/inesistenza di un rapporto giuridico controverso; b) all’emanazione di un comando, che il giudice rivolge alla parte soccombente; c) alla costituzione, modificazione o estinzione di rapporti giuridici. - Se io ho ottenuto la sentenza con cui Tizio viene condannato a pagarmi i danni e, ciò nonostante, egli non ottempera a quest’obbligo, io posso instaurare contro di lui un processo di esecuzione, la cui finalità consiste nel realizzare il comando contenuto nella sentenza (in questo caso, mediante l’espropriazione dei beni di Tizio e la loro vendita; sul danaro ricavato io soddisferò il mio credito). - Per impedire che, nel corso del processo di cognizione, Tizio si spogli dei suoi beni, io posso avvalermi del processo cautelare (per es. posso chiedere ed ottenere il sequestro conservativo di quei beni), infatti, la finalità di tale processo è quella di conservare lo stato di fatto esistente per rendere possibile l’esecuzione della sentenza.",
+      "markdown": "- Se tra me e un’altra persona sorge controversia circa la sussistenza di un [[diritto-soggettivo|diritto soggettivo]] a mio favore, s’instaura tra i due un processo di cognizione, che ha il compito di individuare la regola contenuta nella norma di diritto sostanziale applicabile al caso concreto. L’azione di cognizione può tendere ad una di queste tre finalità: a) all’accertamento dell’esistenza/inesistenza di un [[rapporto-giuridico|rapporto giuridico]] controverso; b) all’emanazione di un comando, che il giudice rivolge alla parte soccombente; c) alla costituzione, modificazione o estinzione di rapporti giuridici. - Se io ho ottenuto la sentenza con cui Tizio viene condannato a pagarmi i danni e, ciò nonostante, egli non ottempera a quest’obbligo, io posso instaurare contro di lui un processo di esecuzione, la cui finalità consiste nel realizzare il comando contenuto nella sentenza (in questo caso, mediante l’espropriazione dei beni di Tizio e la loro vendita; sul danaro ricavato io soddisferò il mio credito). - Per impedire che, nel corso del processo di cognizione, Tizio si spogli dei suoi beni, io posso avvalermi del processo cautelare (per es. posso chiedere ed ottenere il [[sequestro-conservativo|sequestro conservativo]] di quei beni), infatti, la finalità di tale processo è quella di conservare lo stato di fatto esistente per rendere possibile l’esecuzione della sentenza.",
       "concetti": [
+        "diritto-soggettivo",
+        "rapporto-giuridico",
+        "sequestro-conservativo",
         "azione"
       ]
     },
     {
       "id": "p045-b005",
       "pagina": 45,
-      "markdown": "**La [[cosa-giudicata|cosa giudicata]].** La cosa giudicata in senso sostanziale consiste nella definitività dell’accertamento contenuto nella sentenza anche al di fuori del processo nella quale è stata pronunziata, rispetto, quindi, a qualunque futuro processo ed anche a prescindere dal processo. E’ concesso alle parti di promuovere il riesame della lite impugnando la decisione: questo riesame non può andare all’infinito verificatesi certe condizioni (decorso dei termini, esaurimento dei mezzi di impugnativa), il comando contenuto nella sentenza non può più essere modificato.\n\nAd eventuali ulteriori tentativi di una delle parti di proseguire il dibattito si può opporre la cosa giudicata o - come si suol dire - il passaggio in giudicato della sentenza. L’efficacia del giudicato concerne anzitutto il processo, esso preclude ogni ulteriore riesame ed impugnazione della sentenza. La cosa giudicata ha anche un valore sostanziale: non solo non si può impugnare la sentenza, ma, se in essa è stato riconosciuto il mio diritto di proprietà o di credito, ciò non può formare più oggetto di riesame tra me e l’altra parte in futuri processi. L’art. 2909 cod. civ. dice che l’accertamento contenuto nella sentenza passata in giudicato fa stato ad ogni effetto tra le parti, i loro eredi ed aventi causa.",
+      "markdown": "**La [[cosa-giudicata|cosa giudicata]].** La cosa giudicata in senso sostanziale consiste nella definitività dell’accertamento contenuto nella sentenza anche al di fuori del processo nella quale è stata pronunziata, rispetto, quindi, a qualunque futuro processo ed anche a prescindere dal processo. E’ concesso alle parti di promuovere il riesame della lite impugnando la decisione: questo riesame non può andare all’infinito verificatesi certe condizioni (decorso dei termini, esaurimento dei mezzi di impugnativa), il comando contenuto nella sentenza non può più essere modificato.\n\nAd eventuali ulteriori tentativi di una delle parti di proseguire il dibattito si può opporre la [[cosa-giudicata|cosa giudicata]] o - come si suol dire - il passaggio in giudicato della sentenza. L’efficacia del giudicato concerne anzitutto il processo, esso preclude ogni ulteriore riesame ed impugnazione della sentenza. La cosa giudicata ha anche un valore sostanziale: non solo non si può impugnare la sentenza, ma, se in essa è stato riconosciuto il mio [[proprieta|diritto di proprietà]] o di credito, ciò non può formare più oggetto di riesame tra me e l’altra parte in futuri processi. L’art. 2909 cod. civ. dice che l’accertamento contenuto nella sentenza passata in giudicato fa stato ad ogni effetto tra le parti, i loro [[erede|eredi]] ed aventi causa.",
       "concetti": [
-        "cosa-giudicata"
+        "cosa-giudicata",
+        "proprieta",
+        "erede"
       ],
       "testoFonte": "La cosa giudicata. La cosa giudicata in senso sostanziale consiste nella definitività dell’accertamento contenuto nella sentenza anche al di fuori del processo nella quale è stata pronunziata , rispetto, quindi, a qualunque futuro processo ed anche a prescindere dal processo. E’ concesso alle parti di promuovere il riesame della lite impugnando la decisione: questo riesame non può andare all’infinito verificatesi certe condizioni (decorso dei termini, esaurimento dei mezzi di impugnativa), il comando contenuto nella sentenza non può più essere modificato. Ad eventuali ulteriori tentativi di una delle parti di proseguire il dibattito si può opporre la cosa giudicata o - come si suol dire - il passaggio in giudicato della sentenza. L’efficacia del giudicato concerne anzitutto il processo, esso preclude ogni ulteriore riesame ed impugnazione della sentenza. La cosa giudicata ha anche un valore sostanziale: non solo non si può impugnare la sentenza, ma, se in essa è stato riconosciuto il mio diritto di proprietà o di credito, ciò non può formare più oggetto di riesame tra me e l’altra parte in futuri processi. L’art. 2909 cod. civ. dice che l’accertamento contenuto nella sentenza passata in giudicato fa stato ad ogni effetto tra le parti, i loro eredi ed aventi causa."
     },
@@ -58,19 +69,24 @@
     {
       "id": "p046-b001",
       "pagina": 46,
-      "markdown": "-se l’obbligo riguarda quel particolare facere infungibile consistente nella conclusione di un contratto, il processo esecutivo si conclude con la conclusione del contratto (es. il venditore che si impegna con un contratto preliminare a vendere l’immobile ad un determinato acquirente), in questo caso il giudice può emettere una sentenza che produca gli effetti del contratto non concluso. -se non è stato adempiuto un obbligo di non facere, l’avente diritto può ottenere la distruzione della cosa realizzata in violazione di detto obbligo a spese dell’obbligato (es. il vicino sopraeleva un muro ove non potesse).",
+      "markdown": "-se l’obbligo riguarda quel particolare facere infungibile consistente nella conclusione di un [[contratto|contratto]], il [[processo-esecutivo|processo esecutivo]] si conclude con la conclusione del contratto (es. il venditore che si impegna con un [[contratto-preliminare|contratto preliminare]] a vendere l’immobile ad un determinato acquirente), in questo caso il giudice può emettere una sentenza che produca gli effetti del contratto non concluso. -se non è stato adempiuto un obbligo di non facere, l’avente diritto può ottenere la distruzione della cosa realizzata in violazione di detto obbligo a spese dell’obbligato (es. il vicino sopraeleva un muro ove non potesse).",
       "concetti": [
-        "processo-esecutivo"
+        "contratto",
+        "processo-esecutivo",
+        "contratto-preliminare"
       ]
     },
     {
       "id": "p046-b002",
       "pagina": 46,
-      "markdown": "La forma più importante di processo esecutivo è quella che ha per oggetto l’espropriazione dei beni del debitore, nel caso che egli non adempia l’obbligazione di pagare una somma di danaro ([[espropriazione-forzata|espropriazione forzata]]). I beni vengono venduti all’incanto e con gli introiti pagati i creditori. L’ espropriazione forzata ha inizio con il [[pignoramento|pignoramento]], l’atto con il quale si assoggetta il bene all’azione esecutiva. L’art. 2913 c.c. stabilisce che gli atti di disposizione del bene pignorato non hanno effetto nei confronti del creditore precedente e dei creditori intervenuti (ovviamente la legge tiene conto dei terzi che in buona fede abbiano acquistato ad es. se l’immobile non è iscritto “possesso vale titolo”).",
+      "markdown": "La forma più importante di [[processo-esecutivo|processo esecutivo]] è quella che ha per oggetto l’espropriazione dei beni del debitore, nel caso che egli non adempia l’[[obbligazione|obbligazione]] di pagare una somma di danaro ([[espropriazione-forzata|espropriazione forzata]]). I beni vengono venduti all’incanto e con gli introiti pagati i creditori. L’ espropriazione forzata ha inizio con il [[pignoramento|pignoramento]], l’atto con il quale si assoggetta il bene all’azione esecutiva. L’art. 2913 c.c. stabilisce che gli atti di disposizione del bene pignorato non hanno effetto nei confronti del creditore precedente e dei creditori intervenuti (ovviamente la legge tiene conto dei terzi che in buona fede abbiano acquistato ad es. se l’immobile non è iscritto “[[possesso-vale-titolo|possesso vale titolo]]”).",
       "concetti": [
+        "processo-esecutivo",
+        "obbligazione",
         "espropriazione-forzata",
         "pignoramento",
-        "processo-esecutivo",
+        "possesso-vale-titolo",
+        "possesso",
         "azione"
       ]
     }

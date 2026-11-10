@@ -42,10 +42,11 @@
     {
       "id": "p051-b005",
       "pagina": 51,
-      "markdown": "A) DIRITTI REALI SU COSA PROPRIA Proprietà - diritto pieno ed assoluto. Art. 832 c.c. - Contenuto del diritto “Il proprietario ha diritto di godere e disporre delle cose in modo pieno ed esclusivo, entro i limiti e con l'osservanza degli obblighi stabiliti dall'ordinamento giuridico.”",
+      "markdown": "A) [[diritti-reali|DIRITTI REALI]] SU COSA PROPRIA [[proprieta|Proprietà]] - diritto pieno ed assoluto. Art. 832 c.c. - Contenuto del diritto “Il proprietario ha diritto di godere e disporre delle cose in modo pieno ed esclusivo, entro i limiti e con l'osservanza degli obblighi stabiliti dall'[[ordinamento-giuridico|ordinamento giuridico]].”",
       "concetti": [
         "diritti-reali",
-        "proprieta"
+        "proprieta",
+        "ordinamento-giuridico"
       ]
     },
     {
@@ -57,15 +58,20 @@
     {
       "id": "p051-b007",
       "pagina": 51,
-      "markdown": "· occupazione (923 e seguenti). · invenzione (927 e seguenti). · accessione (934 e seguenti). · specificazione (940). · unione o commistione (939). · usucapione (1158 e seguenti). · per effetto di contratti (1376 e seguenti). · successione a causa di morte (456 e seguenti). · negli altri modi stabiliti dalla legge. (es.: espropriazione).",
-      "concetti": [],
+      "markdown": "· occupazione (923 e seguenti). · invenzione (927 e seguenti). · [[accessione|accessione]] (934 e seguenti). · specificazione (940). · unione o commistione (939). · [[usucapione|usucapione]] (1158 e seguenti). · per effetto di [[contratto|contratti]] (1376 e seguenti). · successione a causa di morte (456 e seguenti). · negli altri modi stabiliti dalla legge. (es.: espropriazione).",
+      "concetti": [
+        "accessione",
+        "usucapione",
+        "contratto"
+      ],
       "testoFonte": "· occupazione (923 e seguenti). · invenzione (927 e seguenti). · accessione (934 e seguenti). · specificazione (940). · unione o commistione (939). · usucapione (1158 e seguenti). · per effetto di contratti (1376 e seguenti). · successione a causa di morte (456 e seguenti). · negli altri modi stabiliti dalla legge. (es. : espropriazione)."
     },
     {
       "id": "p051-b008",
       "pagina": 51,
-      "markdown": "B) DIRITTI REALI SU COSA ALTRUI (si dividono in diritti di godimento e garanzia)",
+      "markdown": "B) [[diritti-reali-di-godimento|DIRITTI REALI SU COSA ALTRUI]] (si dividono in diritti di godimento e garanzia)",
       "concetti": [
+        "diritti-reali-di-godimento",
         "diritti-reali"
       ]
     },
@@ -78,7 +84,7 @@
     {
       "id": "p051-b010",
       "pagina": 51,
-      "markdown": "· Superficie Art. 952 c.c. “Il proprietario può costituire il diritto di fare e mantenere al di sopra del suolo una costruzione a favore di altri che ne acquista la proprietà. Del pari può alienare la proprietà della costruzione già esistente, separatamente dalla proprietà del suolo”.",
+      "markdown": "· Superficie Art. 952 c.c. “Il proprietario può costituire il diritto di fare e mantenere al di sopra del suolo una costruzione a favore di altri che ne acquista la [[proprieta|proprietà]]. Del pari può alienare la proprietà della costruzione già esistente, separatamente dalla proprietà del suolo”.",
       "concetti": [
         "proprieta"
       ]
@@ -86,14 +92,18 @@
     {
       "id": "p051-b011",
       "pagina": 51,
-      "markdown": "· Enfiteusi Art. 959 c.c. “L'enfiteuta ha gli stessi diritti che avrebbe il proprietario sui frutti del fondo, sul tesoro e relativamente alle utilizzazioni del sottosuolo in conformità delle disposizioni delle leggi speciali.” Art. 960 c.c. “L'enfiteuta ha l'obbligo di migliorare il fondo e di pagare al concedente un canone periodico.”",
-      "concetti": []
+      "markdown": "· [[enfiteusi|Enfiteusi]] Art. 959 c.c. “L'enfiteuta ha gli stessi diritti che avrebbe il proprietario sui frutti del fondo, sul tesoro e relativamente alle utilizzazioni del sottosuolo in conformità delle disposizioni delle leggi speciali.” Art. 960 c.c. “L'enfiteuta ha l'obbligo di migliorare il fondo e di pagare al concedente un canone periodico.”",
+      "concetti": [
+        "enfiteusi"
+      ]
     },
     {
       "id": "p051-b012",
       "pagina": 51,
-      "markdown": "· Usufrutto Art. 981 c.c. “L'usufruttuario ha diritto di godere della cosa, ma deve rispettarne la destinazione economica.”",
-      "concetti": []
+      "markdown": "· [[usufrutto|Usufrutto]] Art. 981 c.c. “L'usufruttuario ha diritto di godere della cosa, ma deve rispettarne la destinazione economica.”",
+      "concetti": [
+        "usufrutto"
+      ]
     },
     {
       "id": "p051-b013",
@@ -104,14 +114,18 @@
     {
       "id": "p051-b014",
       "pagina": 51,
-      "markdown": "· Abitazione Art. 1022 c.c. “Chi ha il diritto di abitazione di una casa può abitarla limitatamente ai bisogni suoi e della sua famiglia.”",
-      "concetti": []
+      "markdown": "· Abitazione Art. 1022 c.c. “Chi ha il [[uso-e-abitazione|diritto di abitazione]] di una casa può abitarla limitatamente ai bisogni suoi e della sua famiglia.”",
+      "concetti": [
+        "uso-e-abitazione"
+      ]
     },
     {
       "id": "p051-b015",
       "pagina": 51,
-      "markdown": "· Servitù Art. 1027 c.c. “La servitù prediale consiste nel peso imposto sopra un fondo per l'utilità di un altro fondo appartenente a diverso proprietario.”",
-      "concetti": []
+      "markdown": "· Servitù Art. 1027 c.c. “La [[servitu|servitù prediale]] consiste nel peso imposto sopra un fondo per l'utilità di un altro fondo appartenente a diverso proprietario.”",
+      "concetti": [
+        "servitu"
+      ]
     },
     {
       "id": "p051-b016",
@@ -122,14 +136,21 @@
     {
       "id": "p051-b017",
       "pagina": 51,
-      "markdown": "· Pegno Art. 2784 c.c. “Il pegno è costituito a garanzia dell'obbligazione dal debitore o da un terzo per il debitore. Possono essere dati in pegno i beni mobili, le universalità di mobili, i crediti e altri diritti aventi per oggetto beni mobili.”",
-      "concetti": []
+      "markdown": "· [[pegno|Pegno]] Art. 2784 c.c. “Il pegno è costituito a garanzia dell'[[obbligazione|obbligazione]] dal debitore o da un terzo per il debitore. Possono essere dati in pegno i [[beni-mobili|beni mobili]], le [[universalita-di-mobili|universalità di mobili]], i crediti e altri diritti aventi per oggetto beni mobili.”",
+      "concetti": [
+        "pegno",
+        "obbligazione",
+        "beni-mobili",
+        "universalita-di-mobili"
+      ]
     },
     {
       "id": "p052-b001",
       "pagina": 52,
-      "markdown": "· Ipoteca Art. 2808 c.c. “L'ipoteca attribuisce al creditore il diritto di espropriare anche in confronto del terzo acquirente, i beni vincolati a garanzia del suo credito e di essere soddisfatto con preferenza sul prezzo ricavato dall'espropriazione. L'ipoteca può avere per oggetto beni del debitore o di un terzo e si costituisce mediante iscrizione nei registri immobiliari. L'ipoteca è legale, giudiziale o volontaria.”",
-      "concetti": [],
+      "markdown": "· [[ipoteca|Ipoteca]] Art. 2808 c.c. “L'ipoteca attribuisce al creditore il diritto di espropriare anche in confronto del terzo acquirente, i beni vincolati a garanzia del suo credito e di essere soddisfatto con preferenza sul prezzo ricavato dall'espropriazione. L'ipoteca può avere per oggetto beni del debitore o di un terzo e si costituisce mediante iscrizione nei registri immobiliari. L'ipoteca è legale, giudiziale o volontaria.”",
+      "concetti": [
+        "ipoteca"
+      ],
       "testoFonte": "· Ipoteca Art. 2808 c.c. “L'ipoteca attribuisce al creditore il diritto di espropriare anche in confronto del terzo acquirente, i beni vincolati a garanzia del suo credito e di essere soddisfatto con preferenza sul prezzo ricavato dall'espropriazione . L'ipoteca può avere per oggetto beni del debitore o di un terzo e si costituisce mediante iscrizione nei registri immobiliari. L'ipoteca è legale, giudiziale o volontaria.”"
     },
     {
@@ -143,7 +164,7 @@
     {
       "id": "p052-b003",
       "pagina": 52,
-      "markdown": "**Caratteri e categorie di diritti reali.** DIRITTO REALE: categoria che raggruppa i diritti su cosa materiale determinata (iura in rem).",
+      "markdown": "**Caratteri e categorie di [[diritti-reali|diritti reali]].** DIRITTO REALE: categoria che raggruppa i diritti su cosa materiale determinata (iura in rem).",
       "concetti": [
         "diritti-reali"
       ]
@@ -151,16 +172,17 @@
     {
       "id": "p052-b004",
       "pagina": 52,
-      "markdown": "CARATTERI dei diritti reali:\n- Immediatezza → possibilità che il titolare eserciti direttamente il potere sulla cosa, senza necessità della cooperazione di terzi (es. il proprietario può utilizzare il bene, senza necessità della collaborazione di altri, essendo sufficiente che questi ultimi non vi frappongano ostacolo).\n- Assolutezza → dovere di tutti i consociati di astenersi dall’interferire nel rapporto fra il titolare del diritto reale ed il bene che ne è oggetto e, correlativamente, possibilità per il titolare di agire in giudizio contro chiunque contesti o pregiudichi il suo diritto (c.d. efficacia erga omnes).\n- Inerenza → opponibilità del diritto a chiunque possieda o vanti diritti sulla cosa (es.: il proprietario può agire nei confronti di chiunque possieda il bene per ottenerne la restituzione; la servitù di passaggio continua a gravare sul fondo, anche quando la proprietà di quest'ultimo passi a terzi - c.d. diritto di sequela).",
+      "markdown": "CARATTERI dei [[diritti-reali|diritti reali]]:\n- Immediatezza → possibilità che il titolare eserciti direttamente il potere sulla cosa, senza necessità della cooperazione di terzi (es. il proprietario può utilizzare il bene, senza necessità della collaborazione di altri, essendo sufficiente che questi ultimi non vi frappongano ostacolo).\n- Assolutezza → dovere di tutti i consociati di astenersi dall’interferire nel rapporto fra il titolare del diritto reale ed il bene che ne è oggetto e, correlativamente, possibilità per il titolare di agire in giudizio contro chiunque contesti o pregiudichi il suo diritto (c.d. efficacia erga omnes).\n- Inerenza → opponibilità del diritto a chiunque possieda o vanti diritti sulla cosa (es.: il proprietario può agire nei confronti di chiunque possieda il bene per ottenerne la restituzione; la [[servitu|servitù]] di passaggio continua a gravare sul fondo, anche quando la [[proprieta|proprietà]] di quest'ultimo passi a terzi - c.d. diritto di sequela).",
       "concetti": [
         "diritti-reali",
+        "servitu",
         "proprieta"
       ]
     },
     {
       "id": "p052-b005",
       "pagina": 52,
-      "markdown": "**Approfondimento.** i caratteri sopra citati non caratterizzerebbero sempre e solo i diritti reali.",
+      "markdown": "**Approfondimento.** i caratteri sopra citati non caratterizzerebbero sempre e solo i [[diritti-reali|diritti reali]].",
       "concetti": [
         "diritti-reali"
       ],
@@ -170,37 +192,49 @@
     {
       "id": "p052-b006",
       "pagina": 52,
-      "markdown": "**NUMERO CHIUSO E TIPICITÀ:** si ritiene che i diritti reali costituiscano un numerus clausus (sia cioè precluso ai privati di creare diritti reali diversi da quelli espressamente disciplinati dalla legge) e, contestualmente, siano connotati dal carattere della tipicità (sia cioè precluso all'autonomia dei privati di modificare la disciplina legale dei singoli diritti reali): si vuole così, da un lato, impedire che i privati possano moltiplicare limiti e vincoli destinati a comprimere i poteri del proprietario e, da altro lato, tutelare i terzi che, volendo acquisire diritti sulla cosa, devono essere posti in grado di conoscere con esattezza i vincoli che gravano su di essa.",
+      "markdown": "**NUMERO CHIUSO E TIPICITÀ:** si ritiene che i [[diritti-reali|diritti reali]] costituiscano un [[numerus-clausus|numerus clausus]] (sia cioè precluso ai privati di creare diritti reali diversi da quelli espressamente disciplinati dalla legge) e, contestualmente, siano connotati dal carattere della tipicità (sia cioè precluso all'autonomia dei privati di modificare la disciplina legale dei singoli diritti reali): si vuole così, da un lato, impedire che i privati possano moltiplicare limiti e vincoli destinati a comprimere i poteri del proprietario e, da altro lato, tutelare i terzi che, volendo acquisire diritti sulla cosa, devono essere posti in grado di conoscere con esattezza i vincoli che gravano su di essa.",
       "concetti": [
-        "numerus-clausus",
-        "diritti-reali"
+        "diritti-reali",
+        "numerus-clausus"
       ],
       "testoFonte": "NUMERO CHIUSO E TIPICITÀ : si ritiene che i diritti reali costituiscano un numerus clausus (sia cioè precluso ai privati di creare diritti reali diversi da quelli espressamente disciplinati dalla legge) e, contestualmente, siano connotati dal carattere della tipicità (sia cioè precluso all'autonomia dei privati di modificare la disciplina legale dei singoli diritti reali): si vuole così, da un lato, impedire che i privati possano moltiplicare limiti e vincoli destinati a comprimere i poteri del proprietario e, da altro lato, tutelare i terzi che, volendo acquisire diritti sulla cosa, devono essere posti in grado di conoscere con esattezza i vincoli che gravano su di essa."
     },
     {
       "id": "p052-b007",
       "pagina": 52,
-      "markdown": "IURA IN RE PROPRIA E IURA IN RE ALIENA: nell’ambito dei diritti reali si è soliti distinguere tra:\n- ius in re propria → la proprietà;\n- iura in re aliena → diritti reali che gravano su beni di proprietà altrui e che sono destinati a coesistere, comprimendolo, con il diritto del proprietario (es. su un medesimo fondo possono gravare il diritto di proprietà di Tizio ed una servitù di passaggio a favore di Caio: è evidente che quest’ultimo diritto limiterà il potere del primo, il quale potrà sì utilizzare il proprio fondo, ma gli saranno precluse tutte quelle attività che impediscano a Caio l’esercizio del suo diritto).",
+      "markdown": "IURA IN RE PROPRIA E IURA IN RE ALIENA: nell’ambito dei [[diritti-reali|diritti reali]] si è soliti distinguere tra:\n- ius in re propria → la proprietà;\n- iura in re aliena → diritti reali che gravano su beni di proprietà altrui e che sono destinati a coesistere, comprimendolo, con il diritto del proprietario (es. su un medesimo fondo possono gravare il [[proprieta|diritto di proprietà]] di Tizio ed una [[servitu|servitù]] di passaggio a favore di Caio: è evidente che quest’ultimo diritto limiterà il potere del primo, il quale potrà sì utilizzare il proprio fondo, ma gli saranno precluse tutte quelle attività che impediscano a Caio l’esercizio del suo diritto).",
       "concetti": [
+        "diritti-reali",
         "proprieta",
-        "diritti-reali"
+        "servitu"
       ]
     },
     {
       "id": "p052-b008",
       "pagina": 52,
-      "markdown": "I diritti reali in re aliena si distinguono in:\n- DIRITTI REALI DI GODIMENTO (superficie, enfiteusi, usufrutto, uso, abitazione, servitù prediali) → attribuiscono al loro titolare il diritto di trarre dal bene talune delle utilità che lo stesso è in grado di fornire (al contempo comprimendo il potere di godimento che compete al proprietario);\n- DIRITTI REALI DI GARANZIA (pegno ed ipoteca) → attribuiscono al loro titolare il diritto di farsi assegnare, con prelazione rispetto agli altri creditori, il ricavato dell’eventuale alienazione forzata del bene, in caso di mancato adempimento dell’obbligo garantito.",
+      "markdown": "I [[diritti-reali|diritti reali]] in re aliena si distinguono in:\n- [[diritti-reali-di-godimento|DIRITTI REALI DI GODIMENTO]] (superficie, [[enfiteusi|enfiteusi]], [[usufrutto|usufrutto]], uso, abitazione, [[servitu|servitù prediali]]) → attribuiscono al loro titolare il diritto di trarre dal bene talune delle utilità che lo stesso è in grado di fornire (al contempo comprimendo il potere di godimento che compete al proprietario);\n- [[diritti-reali-di-garanzia|DIRITTI REALI DI GARANZIA]] ([[pegno|pegno]] ed [[ipoteca|ipoteca]]) → attribuiscono al loro titolare il diritto di farsi assegnare, con prelazione rispetto agli altri creditori, il ricavato dell’eventuale alienazione forzata del bene, in caso di mancato [[adempimento|adempimento]] dell’obbligo garantito.",
       "concetti": [
-        "diritti-reali"
+        "diritti-reali",
+        "diritti-reali-di-godimento",
+        "enfiteusi",
+        "usufrutto",
+        "servitu",
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "ipoteca",
+        "adempimento"
       ],
       "testoFonte": "I diritti reali in re aliena si distinguono in: - DIRITTI REALI DI GODIMENTO (superficie, enfiteusi, usufrutto, uso, abitazione, servitù prediali ) → attribuiscono al loro titolare il diritto di trarre dal bene talune delle utilità che lo stesso è in grado di fornire (al contempo comprimendo il potere di godimento che compete al proprietario); - DIRITTI REALI DI GARANZIA (pegno ed ipoteca ) → attribuiscono al loro titolare il diritto di farsi assegnare, con prelazione rispetto agli altri creditori, il ricavato dell’eventuale alienazione forzata del bene, in caso di mancato adempimento dell’obbligo garantito."
     },
     {
       "id": "p052-b009",
       "pagina": 52,
-      "markdown": "OBBLIGAZIONI PROPTER REM (o obbligazioni reali) → non bisogna confonderle con i diritti reali; si caratterizzano per il fatto che la persona dell'obbligato viene individuata in base alla titolarità di un diritto reale su un determinato bene (es. l’obbligo di sostenere le spese necessarie per la conservazione e il godimento della cosa comune grava su ciascun comproprietario). Si ritiene che non sia dato all'autonomia privata creare obbligazioni reali atipiche, cioè diverse ed ulteriori rispetto a quelle previste dalla legge.\n\nDa non confondere con l’obbligazione reale è l’ONERE REALE, in forza del quale il creditore, per il pagamento di somme di denaro o altre cose generiche da prestarsi periodicamente in relazione ad un determinato bene immobile, può soddisfarsi sul bene stesso, chiunque ne diventi proprietario o acquisti diritti reali di godimento o di garanzia su di esso. Si ritiene che non sia dato ai privati costituire oneri reali al di fuori delle ipotesi espressamente previste dalla legge. L’unica ipotesi di onere reale prevista dal nostro ordinamento è costituita dai contributi consorziali (art. 864 cod. civ.).",
+      "markdown": "[[obbligazione|OBBLIGAZIONI]] PROPTER REM (o obbligazioni reali) → non bisogna confonderle con i [[diritti-reali|diritti reali]]; si caratterizzano per il fatto che la persona dell'obbligato viene individuata in base alla titolarità di un diritto reale su un determinato bene (es. l’obbligo di sostenere le spese necessarie per la conservazione e il godimento della cosa comune grava su ciascun comproprietario). Si ritiene che non sia dato all'[[negozio-giuridico|autonomia privata]] creare obbligazioni reali atipiche, cioè diverse ed ulteriori rispetto a quelle previste dalla legge.\n\nDa non confondere con l’[[obbligazione|obbligazione]] reale è l’ONERE REALE, in forza del quale il creditore, per il pagamento di somme di denaro o altre cose generiche da prestarsi periodicamente in relazione ad un determinato bene immobile, può soddisfarsi sul bene stesso, chiunque ne diventi proprietario o acquisti [[diritti-reali-di-godimento|diritti reali di godimento]] o di garanzia su di esso. Si ritiene che non sia dato ai privati costituire oneri reali al di fuori delle ipotesi espressamente previste dalla legge. L’unica ipotesi di onere reale prevista dal nostro ordinamento è costituita dai contributi consorziali (art. 864 cod. civ.).",
       "concetti": [
-        "diritti-reali"
+        "obbligazione",
+        "diritti-reali",
+        "negozio-giuridico",
+        "diritti-reali-di-godimento"
       ],
       "testoFonte": "OBBLIGAZIONI PROPTER REM (o obbligazioni reali) → non bisogna confonderle con i diritti reali; si caratterizzano per il fatto che la persona dell'obbligato viene individuata in base alla titolarità di un diritto reale su un determinato bene (es. l’obbligo di sostenere le spese necessarie per la conservazione e il godimento della cosa comune grava su ciascun comproprietario). Si ritiene che non sia dato all'autonomia privata creare obbligazioni reali atipiche, cioè diverse ed ulteriori rispetto a quelle previste dalla legge. Da non confondere con l’obbligazione reale è l’ONERE REALE , in forza del quale il creditore, per il pagamento di somme di denaro o altre cose generiche da prestarsi periodicamente in relazione ad un determinato bene immobile, può soddisfarsi sul bene stesso, chiunque ne diventi proprietario o acquisti diritti reali di godimento o di garanzia su di esso. Si ritiene che non sia dato ai privati costituire oneri reali al di fuori delle ipotesi espressamente previste dalla legge. L’unica ipotesi di onere reale prevista dal nostro ordinamento è costituita dai contributi consorziali (art. 864 cod. civ.)."
     },
@@ -215,7 +249,7 @@
     {
       "id": "p053-b002",
       "pagina": 53,
-      "markdown": "**Il contenuto del diritto.** LA CONCEZIONE LIBERAL-OTTOCENTESCA: la proprietà privata nell'800 era considerata inviolabile, sacra, autentico pilastro dell'organizzazione sociale, espressione della libertà di ciascuno, diritto innato che i pubblici poteri potevano soltanto eccezionalmente comprimere, ma sempre rispettandone la priorità rispetto alla stessa organizzazione dello Stato.",
+      "markdown": "**Il contenuto del diritto.** LA CONCEZIONE LIBERAL-OTTOCENTESCA: la [[proprieta|proprietà]] privata nell'800 era considerata inviolabile, sacra, autentico pilastro dell'organizzazione sociale, espressione della libertà di ciascuno, diritto innato che i pubblici poteri potevano soltanto eccezionalmente comprimere, ma sempre rispettandone la priorità rispetto alla stessa organizzazione dello Stato.",
       "concetti": [
         "proprieta"
       ]
@@ -223,31 +257,37 @@
     {
       "id": "p053-b003",
       "pagina": 53,
-      "markdown": "**CODICE CIVILE:** Art. 832 - Contenuto del diritto. — Il proprietario ha diritto di godere e disporre delle cose in modo pieno ed esclusivo, entro i limiti e con l’osservanza degli obblighi stabiliti dall’ordinamento giuridico.",
-      "concetti": []
+      "markdown": "**[[codice-civile|CODICE CIVILE]]:** Art. 832 - Contenuto del diritto. — Il proprietario ha diritto di godere e disporre delle cose in modo pieno ed esclusivo, entro i limiti e con l’osservanza degli obblighi stabiliti dall’[[ordinamento-giuridico|ordinamento giuridico]].",
+      "concetti": [
+        "codice-civile",
+        "ordinamento-giuridico"
+      ]
     },
     {
       "id": "p053-b004",
       "pagina": 53,
-      "markdown": "La proprietà quindi attribuisce al titolare:\n- IL POTERE DI GODIMENTO del bene → potere di trarre dalla cosa le utilità che la stessa è in grado di fornire, decidendo se, come e quando utilizzarla; o direttamente (es. abitando la casa di proprietà) o indirettamente (es. concedendo un appartamento in locazione).\n- IL POTERE DI DISPOSIZIONE del bene → potere di cedere ad altri, in tutto o in parte, diritti sulla cosa (es. il proprietario dell'immobile può locarlo, venderlo, donarlo, ecc...). Entrambi i poteri sono pieni ed esclusivi (art.832 cod. civ.).",
+      "markdown": "La [[proprieta|proprietà]] quindi attribuisce al titolare:\n- IL POTERE DI GODIMENTO del bene → potere di trarre dalla cosa le utilità che la stessa è in grado di fornire, decidendo se, come e quando utilizzarla; o direttamente (es. abitando la casa di proprietà) o indirettamente (es. concedendo un appartamento in [[locazione|locazione]]).\n- IL POTERE DI DISPOSIZIONE del bene → potere di cedere ad altri, in tutto o in parte, diritti sulla cosa (es. il proprietario dell'immobile può locarlo, venderlo, donarlo, ecc...). Entrambi i poteri sono pieni ed esclusivi (art.832 cod. civ.).",
       "concetti": [
-        "proprieta"
+        "proprieta",
+        "locazione"
       ],
       "testoFonte": "La proprietà quindi attribuisce al titolare: - IL POTERE DI GODIMENTO del bene → potere di trarre dalla cosa le utilità che la stessa è in grado di fornire, decidendo se, come e quando utilizzarla; o direttamente (es. abitando la casa di proprietà) o indirettamente (es. concedendo un appartamento in locazione). - IL POTERE DI DISPOSIZIONE del bene → potere di cedere ad altri, in tutto o in parte, diritti sulla cosa (es. il proprietario dell'immobile può locarlo, venderlo, donarlo, ecc... ). Entrambi i poteri sono pieni ed esclusivi (art.832 cod. civ.)."
     },
     {
       "id": "p053-b005",
       "pagina": 53,
-      "markdown": "Da qui l’idea che la proprietà sia caratterizzata dai connotati della:\n1. PIENEZZA → ossia dell'attribuzione al proprietario del diritto di fare sulla cosa tutto ciò che vuole, anche distruggerla) – ius utendi et abutendi\n2. ESCLUSIVITÀ → ossia dell'attribuzione al proprietario del diritto di vietare ogni ingerenza di terzi in ordine alle scelte che, in tema di godimento e di disposizione del bene, il proprietario si riserva di effettuare con totale arbitrio e discrezionalità.) - ius excludendi alios. Le caratteristiche della assolutezza e della esclusività sono tipiche ormai solo della proprietà dei beni di uso strettamente personale. Quanto agli altri beni l’ordinamento non rimette integralmente al proprietario le scelte in ordine al loro utilizzo (o non utilizzo). Già il codice civile, dopo alcune disposizioni valide per la proprietà in generale, detta una disciplina differenziata per la proprietà dei beni di interesse storico e artistico, per la proprietà rurale, per la proprietà edilizia, per la proprietà fondiaria: elaborando, per ciascuna categoria di beni, una serie di previsioni miranti a conciliare l’interesse egoistico del proprietario con l’interesse degli altri proprietari o della collettività.",
+      "markdown": "Da qui l’idea che la [[proprieta|proprietà]] sia caratterizzata dai connotati della:\n1. PIENEZZA → ossia dell'attribuzione al proprietario del diritto di fare sulla cosa tutto ciò che vuole, anche distruggerla) – ius utendi et abutendi\n2. ESCLUSIVITÀ → ossia dell'attribuzione al proprietario del diritto di vietare ogni ingerenza di terzi in ordine alle scelte che, in tema di godimento e di disposizione del bene, il proprietario si riserva di effettuare con totale arbitrio e discrezionalità.) - ius excludendi alios. Le caratteristiche della assolutezza e della esclusività sono tipiche ormai solo della proprietà dei beni di uso strettamente personale. Quanto agli altri beni l’ordinamento non rimette integralmente al proprietario le scelte in ordine al loro utilizzo (o non utilizzo). Già il [[codice-civile|codice civile]], dopo alcune disposizioni valide per la proprietà in generale, detta una disciplina differenziata per la proprietà dei beni di interesse storico e artistico, per la proprietà rurale, per la proprietà edilizia, per la [[proprieta-fondiaria|proprietà fondiaria]]: elaborando, per ciascuna categoria di beni, una serie di previsioni miranti a conciliare l’interesse egoistico del proprietario con l’interesse degli altri proprietari o della collettività.",
       "concetti": [
-        "proprieta"
+        "proprieta",
+        "codice-civile",
+        "proprieta-fondiaria"
       ],
       "testoFonte": "Da qui l’idea che la proprietà sia caratterizzata dai connotati della: 1. PIENEZZA → ossia dell'attribuzione al proprietario del diritto di fare sulla cosa tutto ciò che vuole, anche distruggerla) – ius utendi et abutendi 2. ESCLUSIVITÀ → ossia dell'attribuzione al proprietario del diritto di vietare ogni ingerenza di terzi in ordine alle scelte che, in tema di godimento e di disposizione del bene, il proprietario si riserva di effettuare con totale arbitrio e discrezionalità.) - ius excludendi alios. Le caratteristiche della assolutezza e della esclusività sono tipiche ormai solo della proprietà dei beni di uso strettamente personale. Quanto agli altri beni l’ordinamento non rimette integralmente al proprietario le scelte in ordine al loro utilizzo (o non utilizzo). Già il codice civile, dopo alcune disposizioni valide per la proprietà in generale , detta una disciplina differenziata per la proprietà dei beni di interesse storico e artistico, per la proprietà rurale, per la proprietà edilizia, per la proprietà fondiaria: elaborando, per ciascuna categoria di beni, una serie di previsioni miranti a conciliare l’interesse egoistico del proprietario con l’interesse degli altri proprietari o della collettività."
     },
     {
       "id": "p053-b006",
       "pagina": 53,
-      "markdown": "**PROPRIETÀ NELLA COSTITUZIONE:** con l’avvento della Carta costituzionale, la proprietà non solo non viene più dichiarata inviolabile, ma non viene neppure disciplinata fra i principi fondamentali, né fra i diritti di libertà: essa è contemplata nel titolo relativo ai rapporti economici (art.42-44 Cost.). La Costituzione comunque dichiara che la proprietà privata è riconosciuta e garantita dalla legge:",
+      "markdown": "**[[proprieta|PROPRIETÀ]] NELLA COSTITUZIONE:** con l’avvento della Carta costituzionale, la proprietà non solo non viene più dichiarata inviolabile, ma non viene neppure disciplinata fra i principi fondamentali, né fra i diritti di libertà: essa è contemplata nel titolo relativo ai rapporti economici (art.42-44 Cost.). La Costituzione comunque dichiara che la proprietà privata è riconosciuta e garantita dalla legge:",
       "concetti": [
         "proprieta"
       ],
@@ -256,16 +296,16 @@
     {
       "id": "p053-b007",
       "pagina": 53,
-      "markdown": "Art. 42 comma 2 Cost.- La proprietà privata è riconosciuta e garantita dalla legge, che ne determina i modi di acquisto, di godimento e i limiti allo scopo di assicurarne la [[funzione-sociale|funzione sociale]] e di renderla accessibile a tutti.",
+      "markdown": "Art. 42 comma 2 Cost.- La [[proprieta|proprietà]] privata è riconosciuta e garantita dalla legge, che ne determina i modi di acquisto, di godimento e i limiti allo scopo di assicurarne la [[funzione-sociale|funzione sociale]] e di renderla accessibile a tutti.",
       "concetti": [
-        "funzione-sociale",
-        "proprieta"
+        "proprieta",
+        "funzione-sociale"
       ]
     },
     {
       "id": "p053-b008",
       "pagina": 53,
-      "markdown": "Tale garanzia implica non soltanto che non è consentito al legislatore ordinario di sopprimere l’istituto della proprietà privata, ma che sarebbe altresì in contrasto con i principi costituzionali un’eventuale trasformazione del nostro sistema in un ordinamento in cui i beni siano prevalentemente collettivizzati.\n\nTuttavia è espressamente previsto che il legislatore ben potrebbe escludere l’ammissibilità della proprietà privata per quanto riguarda una determinata categoria di beni, come imprese o categorie di imprese che si riferiscano a servizi pubblici essenziali o a fonti di energia o a situazioni di monopolio ed abbiano carattere di preminente interesse generale (es. nel 1962 si è proceduto alla nazionalizzazione delle imprese elettriche con la costituzione dell’ENEL, anche se oggi è stato trasformato in s.p.a. con titoli diffusi tra il pubblico).",
+      "markdown": "Tale garanzia implica non soltanto che non è consentito al legislatore ordinario di sopprimere l’istituto della [[proprieta|proprietà]] privata, ma che sarebbe altresì in contrasto con i principi costituzionali un’eventuale trasformazione del nostro sistema in un ordinamento in cui i beni siano prevalentemente collettivizzati.\n\nTuttavia è espressamente previsto che il legislatore ben potrebbe escludere l’ammissibilità della [[proprieta|proprietà]] privata per quanto riguarda una determinata categoria di beni, come imprese o categorie di imprese che si riferiscano a servizi pubblici essenziali o a fonti di energia o a situazioni di monopolio ed abbiano carattere di preminente interesse generale (es. nel 1962 si è proceduto alla nazionalizzazione delle imprese elettriche con la costituzione dell’ENEL, anche se oggi è stato trasformato in s.p.a. con titoli diffusi tra il pubblico).",
       "concetti": [
         "proprieta"
       ]
@@ -281,16 +321,16 @@
     {
       "id": "p053-b010",
       "pagina": 53,
-      "markdown": "Inoltre il legislatore ordinario ha il compito di determinare, con riferimento alla proprietà, i modi di acquisto, di godimento ed i limiti, allo scopo di assicurarne la funzione sociale e di renderla accessibile a tutti. In altre parole il legislatore è legittimato ad intervenire per delineare, con riferimento a singole",
+      "markdown": "Inoltre il legislatore ordinario ha il compito di determinare, con riferimento alla [[proprieta|proprietà]], i modi di acquisto, di godimento ed i limiti, allo scopo di assicurarne la [[funzione-sociale|funzione sociale]] e di renderla accessibile a tutti. In altre parole il legislatore è legittimato ad intervenire per delineare, con riferimento a singole",
       "concetti": [
-        "funzione-sociale",
-        "proprieta"
+        "proprieta",
+        "funzione-sociale"
       ]
     },
     {
       "id": "p054-b001",
       "pagina": 54,
-      "markdown": "categorie di beni, il contenuto dei poteri (di godimento e/o di disposizione) che competono al proprietario (c.d. Interventi conformativi dei vari statuti proprietari); e ciò al fine di garantire che il relativo esercizio, quand'anche determinato da finalità egoistiche, realizzi comunque una funzione sociale (funzione da ricollegarsi sia all’esigenza di realizzare uno sfruttamento economicamente efficiente dei beni, sia all’esigenza di instaurare più equi rapporti sociali).",
+      "markdown": "categorie di beni, il contenuto dei poteri (di godimento e/o di disposizione) che competono al proprietario (c.d. Interventi conformativi dei vari statuti proprietari); e ciò al fine di garantire che il relativo esercizio, quand'anche determinato da finalità egoistiche, realizzi comunque una [[funzione-sociale|funzione sociale]] (funzione da ricollegarsi sia all’esigenza di realizzare uno sfruttamento economicamente efficiente dei beni, sia all’esigenza di instaurare più equi rapporti sociali).",
       "concetti": [
         "funzione-sociale"
       ]
@@ -298,7 +338,7 @@
     {
       "id": "p054-b002",
       "pagina": 54,
-      "markdown": "LA LEGISLAZIONE POST-BELLICA: nel dopoguerra, ci sono stati numerosi interventi normativi che hanno inciso variamente sui singoli statuti proprietari, tanto che oggi piuttosto che parlare della proprietà al singolare, bisognerebbe parlare delle proprietà al plurale, per indicare che le situazioni di appartenenza si atteggiano diversamente a seconda dell'oggetto cui si riferiscono e/o del soggetto cui competono.",
+      "markdown": "LA LEGISLAZIONE POST-BELLICA: nel dopoguerra, ci sono stati numerosi interventi normativi che hanno inciso variamente sui singoli statuti proprietari, tanto che oggi piuttosto che parlare della [[proprieta|proprietà]] al singolare, bisognerebbe parlare delle proprietà al plurale, per indicare che le situazioni di appartenenza si atteggiano diversamente a seconda dell'oggetto cui si riferiscono e/o del soggetto cui competono.",
       "concetti": [
         "proprieta"
       ]
@@ -306,19 +346,22 @@
     {
       "id": "p054-b003",
       "pagina": 54,
-      "markdown": "La proprietà si ritiene tradizionalmente caratterizzata dalla: a) IMPRESCRITTIBILITÀ: la proprietà non si può perdere per “non uso”, ma solo per l'usucapione che altri abbia a perfezionare). b) PERPETUITÀ: la proprietà non può avere un termine finale di durata. c) ELASTICITÀ: i poteri che normalmente competono al proprietario possono essere compressi in virtù della coesistenza sul bene di altrui diritti reali (es. usufrutto, servitù, ecc...) o di vincoli di carattere pubblicistico; tali poteri sono però destinati a riespandersi automaticamente non appena dovesse venire meno il diritto reale o il vincolo pubblicistico concorrente (es. quando si estingue il diritto di usufrutto gravante sul bene, il potere di godimento del proprietario, fino a quel momento praticamente azzerato in conseguenza dei poteri spettanti all'usufruttuario, riassume l'originaria pienezza).",
+      "markdown": "La [[proprieta|proprietà]] si ritiene tradizionalmente caratterizzata dalla: a) IMPRESCRITTIBILITÀ: la proprietà non si può perdere per “non uso”, ma solo per l'[[usucapione|usucapione]] che altri abbia a perfezionare). b) PERPETUITÀ: la proprietà non può avere un termine finale di durata. c) ELASTICITÀ: i poteri che normalmente competono al proprietario possono essere compressi in virtù della coesistenza sul bene di altrui [[diritti-reali|diritti reali]] (es. [[usufrutto|usufrutto]], [[servitu|servitù]], ecc...) o di vincoli di carattere pubblicistico; tali poteri sono però destinati a riespandersi automaticamente non appena dovesse venire meno il diritto reale o il vincolo pubblicistico concorrente (es. quando si estingue il diritto di usufrutto gravante sul bene, il potere di godimento del proprietario, fino a quel momento praticamente azzerato in conseguenza dei poteri spettanti all'usufruttuario, riassume l'originaria pienezza).",
       "concetti": [
+        "proprieta",
+        "usucapione",
         "diritti-reali",
-        "proprieta"
+        "usufrutto",
+        "servitu"
       ]
     },
     {
       "id": "p054-b004",
       "pagina": 54,
-      "markdown": "**Espropriazione e Indennizzo.** Art. 42 comma 3 Cost. - La proprietà privata può essere, nei casi preveduti dalla legge, e salvo indennizzo, espropriata per motivi di interesse generale. (es, per costruire un opera pubblica, come un ospedale, scuola, ponte, ecc...).",
+      "markdown": "**Espropriazione e Indennizzo.** Art. 42 comma 3 Cost. - La [[proprieta|proprietà]] privata può essere, nei casi preveduti dalla legge, e salvo indennizzo, espropriata per motivi di interesse generale. (es, per costruire un opera pubblica, come un ospedale, scuola, ponte, ecc...).",
       "concetti": [
-        "espropriazione-per-pubblica-utilita",
-        "proprieta"
+        "proprieta",
+        "espropriazione-per-pubblica-utilita"
       ]
     },
     {
@@ -332,10 +375,12 @@
     {
       "id": "p054-b006",
       "pagina": 54,
-      "markdown": "NOZIONE – ESPROPRIAZIONE TRASLATIVA E LARVATA: cosa si intende per “espropriazione”? Concezione ormai superata è quella secondo cui si avrebbe espropriazione solo nel caso di trasferimento della titolarità di un bene dal precedente proprietario (espropriato) ad un altro soggetto, pubblico o privato (beneficiario della espropriazione). Questa è la cd. espropriazione traslativa.\n\nLa Corte Costituzionale ha invece ritenuto che rientrino nella nozione d’espropriazione anche quelle limitazioni che, pur non determinando per il proprietario la perdita del suo diritto, siano tali da svuotare di contenuto il diritto di proprietà, incidendo sul godimento del bene tanto profondamente da renderlo inutilizzabile in rapporto alla destinazione inerente alla natura del bene stesso o determinando il venir meno o una penetrante incisione del suo valore di scambio (c.d. espropriazione larvata o limiti espropriativi).\n\nLa Corte Costituzionale tende a distinguere fra disposizioni (c.d. Interventi di conformazione dei vari statuti proprietari), che si riferiscono ad intere categorie di beni, sottoponendo tutti i beni appartenenti alla categoria ad un particolare regime di godimento e di disposizione, e disposizioni (c.d. Interventi di espropriazione larvata) che si riferiscono invece a singoli cespiti, restringendo i poteri del proprietario rispetto a quelli riconosciuti, in via generale, agli altri titolari di beni appartenenti a quella medesima categoria, oppure annullandone o diminuendone in modo apprezzabile il valore di scambio: le prime (es. quelle che prevedono restrizioni molto penetranti ai poteri di godimento e di disposizione spettanti a tutti indiscriminatamente i proprietari di c.d. Beni culturali) non rientrano nel concetto di espropriazione, bensì in quello di “conformazione” del contenuto del diritto di proprietà sui beni appartenenti a quella determinata categoria e, conseguentemente, non comportano indennizzo; le seconde rientrano invece nel concetto di “espropriazione” e necessitano di indennizzo (es. quelle che prevedono restrizioni, rispetto ai poteri normalmente spettanti al proprietario agricolo, per il singolo proprietario agricolo il cui fondo è gravato da vincoli alla coltivazione a tutela della sicurezza dei voli che si effettuano nel limitrofo aeroporto).\n\nSu questa linea, il DPR 327/2001 “Testo unico delle disposizioni legislative e regolamentari in materia di espropriazione per pubblica utilità” prevede che nella nozione di espropriazione di beni immobili rientri non solo l’ipotesi di passaggio del diritto di proprietà dall’espropriato al beneficiario dell’espropriazione, ma anche quella del vincolo sostanzialmente espropriativo, cioè quella in cui il fondo sia gravato da una servitù o subisca una permanente diminuzione di valore per la perdita o la ridotta possibilità di esercizio del diritto di proprietà.",
+      "markdown": "NOZIONE – ESPROPRIAZIONE TRASLATIVA E LARVATA: cosa si intende per “espropriazione”? Concezione ormai superata è quella secondo cui si avrebbe espropriazione solo nel caso di trasferimento della titolarità di un bene dal precedente proprietario (espropriato) ad un altro soggetto, pubblico o privato (beneficiario della espropriazione). Questa è la cd. espropriazione traslativa.\n\nLa Corte Costituzionale ha invece ritenuto che rientrino nella nozione d’espropriazione anche quelle limitazioni che, pur non determinando per il proprietario la perdita del suo diritto, siano tali da svuotare di contenuto il [[proprieta|diritto di proprietà]], incidendo sul godimento del bene tanto profondamente da renderlo inutilizzabile in rapporto alla destinazione inerente alla natura del bene stesso o determinando il venir meno o una penetrante incisione del suo valore di scambio (c.d. espropriazione larvata o limiti espropriativi).\n\nLa Corte Costituzionale tende a distinguere fra disposizioni (c.d. Interventi di conformazione dei vari statuti proprietari), che si riferiscono ad intere categorie di beni, sottoponendo tutti i beni appartenenti alla categoria ad un particolare regime di godimento e di disposizione, e disposizioni (c.d. Interventi di espropriazione larvata) che si riferiscono invece a singoli cespiti, restringendo i poteri del proprietario rispetto a quelli riconosciuti, in via generale, agli altri titolari di beni appartenenti a quella medesima categoria, oppure annullandone o diminuendone in modo apprezzabile il valore di scambio: le prime (es. quelle che prevedono restrizioni molto penetranti ai poteri di godimento e di disposizione spettanti a tutti indiscriminatamente i proprietari di c.d. Beni culturali) non rientrano nel concetto di espropriazione, bensì in quello di “conformazione” del contenuto del [[proprieta|diritto di proprietà]] sui beni appartenenti a quella determinata categoria e, conseguentemente, non comportano indennizzo; le seconde rientrano invece nel concetto di “espropriazione” e necessitano di indennizzo (es. quelle che prevedono restrizioni, rispetto ai poteri normalmente spettanti al proprietario agricolo, per il singolo proprietario agricolo il cui fondo è gravato da vincoli alla coltivazione a tutela della sicurezza dei voli che si effettuano nel limitrofo aeroporto).\n\nSu questa linea, il DPR 327/2001 “Testo unico delle disposizioni legislative e regolamentari in materia di [[espropriazione-per-pubblica-utilita|espropriazione per pubblica utilità]]” prevede che nella nozione di espropriazione di [[beni-immobili|beni immobili]] rientri non solo l’ipotesi di passaggio del [[proprieta|diritto di proprietà]] dall’espropriato al beneficiario dell’espropriazione, ma anche quella del vincolo sostanzialmente espropriativo, cioè quella in cui il fondo sia gravato da una [[servitu|servitù]] o subisca una permanente diminuzione di valore per la perdita o la ridotta possibilità di esercizio del diritto di proprietà.",
       "concetti": [
+        "proprieta",
         "espropriazione-per-pubblica-utilita",
-        "proprieta"
+        "beni-immobili",
+        "servitu"
       ]
     }
   ]

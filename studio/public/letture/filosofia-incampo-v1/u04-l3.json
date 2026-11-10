@@ -143,7 +143,7 @@
     {
       "id": "p040-b007",
       "pagina": 40,
-      "markdown": "- **Esempio:** L'asserzione che la norma \"Non si devono commettere omicidi\" è vera, se e solo se sussiste realmente il divieto di uccidere, risulta logicamente irreprensibile.",
+      "markdown": "- **Esempio:** L'asserzione che la norma \"Non si devono commettere omicidi\" è vera, se e solo se sussiste realmente il [[divieto|divieto]] di uccidere, risulta logicamente irreprensibile.",
       "concetti": [
         "divieto"
       ]
@@ -198,11 +198,11 @@
     {
       "id": "p041-b002",
       "pagina": 41,
-      "markdown": "- **Linguaggio non Descrittivo:** Il linguaggio delle norme non è affatto descrittivo, e non è rappresentabile nella formula tarskiana di verità semantica (\"La proposizione 'p' è vera se e solamente se p\"). Non lo è neanche nei casi in cui la norma contiene [[norma-necessaria|doveri necessari]] (come il divieto di omicidio).\n- **Senso Dichiarativo:** Il senso del linguaggio normativo è, al limite, \"dichiarativo\" (deklarative Normsätze di [[theodor-geiger|Theodor Geiger]]).",
+      "markdown": "- **Linguaggio non Descrittivo:** Il linguaggio delle norme non è affatto descrittivo, e non è rappresentabile nella formula tarskiana di verità semantica (\"La proposizione 'p' è vera se e solamente se p\"). Non lo è neanche nei casi in cui la norma contiene [[norma-necessaria|doveri necessari]] (come il [[divieto|divieto]] di omicidio).\n- **Senso Dichiarativo:** Il senso del linguaggio normativo è, al limite, \"dichiarativo\" (deklarative Normsätze di [[theodor-geiger|Theodor Geiger]]).",
       "concetti": [
         "norma-necessaria",
-        "theodor-geiger",
-        "divieto"
+        "divieto",
+        "theodor-geiger"
       ]
     },
     {
@@ -216,22 +216,22 @@
     {
       "id": "p041-b004",
       "pagina": 41,
-      "markdown": "- Anche quando si riconosce una relazione necessaria tra mezzi e fini (come nelle regole tecniche o nella Natur der Sache, che identificano uno status deontico in sé sussistente), è comunque necessaria la norma per rendere tale regola valida in un [[ordinamento-giuridico|ordinamento]].\n- Le norme operano sempre una forma di consolidamento ([[verfestigung|Verfestigung]]) degli status deontici, anche se questi sono forti.\n- **Esempio del Divieto di Uccidere:** L'esistenza dell'Art. 575 del Codice penale (che vieta l'omicidio) non è la stessa cosa della mera esistenza di un dovere morale.\n- **Contro-Esempio della Réalité Déontique:** Non tutte le réalité déontique di Kalinowski sono in sé sussistenti. Ad esempio, i provvedimenti di contenimento della spesa pubblica (\"tagli\") non possono essere pensati indipendentemente da interventi legislativi inevitabili e dibattuti.",
+      "markdown": "- Anche quando si riconosce una relazione necessaria tra mezzi e fini (come nelle regole tecniche o nella Natur der Sache, che identificano uno status deontico in sé sussistente), è comunque necessaria la norma per rendere tale regola valida in un [[ordinamento-giuridico|ordinamento]].\n- Le norme operano sempre una forma di consolidamento ([[verfestigung|Verfestigung]]) degli status deontici, anche se questi sono forti.\n- **Esempio del [[divieto|Divieto]] di Uccidere:** L'esistenza dell'Art. 575 del Codice penale (che vieta l'omicidio) non è la stessa cosa della mera esistenza di un dovere morale.\n- **Contro-Esempio della Réalité Déontique:** Non tutte le réalité déontique di Kalinowski sono in sé sussistenti. Ad esempio, i provvedimenti di contenimento della spesa pubblica (\"tagli\") non possono essere pensati indipendentemente da interventi legislativi inevitabili e dibattuti.",
       "concetti": [
         "ordinamento-giuridico",
         "verfestigung",
+        "divieto",
         "realite-deontique",
-        "status-deontico",
-        "divieto"
+        "status-deontico"
       ]
     },
     {
       "id": "p041-b005",
       "pagina": 41,
-      "markdown": "In conclusione, la logica deve considerare la funzione pragmatica e costitutiva del linguaggio giuridico, poiché le norme non si limitano a descrivere una realtà deontica preesistente, ma sono atti che la pongono in essere e la rendono valida nell'ordinamento.",
+      "markdown": "In conclusione, la logica deve considerare la funzione pragmatica e costitutiva del linguaggio giuridico, poiché le norme non si limitano a descrivere una realtà deontica preesistente, ma sono atti che la pongono in essere e la rendono valida nell'[[ordinamento-giuridico|ordinamento]].",
       "concetti": [
-        "realite-deontique",
         "ordinamento-giuridico",
+        "realite-deontique",
         "pragmatica"
       ]
     },
@@ -247,7 +247,7 @@
     {
       "id": "p041-b007",
       "pagina": 41,
-      "markdown": "Di conseguenza, la scienza del dovere giuridico coincide con lo studio delle condizioni di validità di due oggetti primari della costruzione giuridica:",
+      "markdown": "Di conseguenza, la scienza del [[dovere-giuridico|dovere giuridico]] coincide con lo studio delle condizioni di validità di due oggetti primari della costruzione giuridica:",
       "concetti": [
         "dovere-giuridico",
         "validita"

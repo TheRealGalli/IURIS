@@ -34,6 +34,8 @@ node studio/scripts/validate-content.mjs "Diritto Romano /05 - Contenuti/u03.jso
 
 ## L'app di studio
 
+Originali di Diritto privato: glossario curato con 361 voci e 476 etichette, collegate nei singoli capoversi.
+
 ```bash
 cd studio && npm install && npm run studio
 ```

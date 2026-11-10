@@ -62,13 +62,13 @@
     {
       "id": "p021-b008",
       "pagina": 21,
-      "markdown": "- Nelle moderne codificazioni, il giudice è soggetto all'obbligo di decidere.\n- Il [[codice-napoleone|Codice di Napoleone]] (1804), modello per le principali codificazioni europee, stabilisce espressamente all'Art. 4 il [[divieto-di-denegare-giustizia|divieto di denegare giustizia]] (déni de justice).\n- In base a questo [[divieto|divieto]], il giudice non può rifiutarsi di emettere una sentenza adducendo come motivo o pretesto l'oscurità o l'insufficienza della legge.\n- Questo divieto formale costituisce, per sua natura, una fonte inevitabile di decisioni e, quindi, di politica.",
+      "markdown": "- Nelle moderne codificazioni, il giudice è soggetto all'[[obbligo|obbligo]] di decidere.\n- Il [[codice-napoleone|Codice di Napoleone]] (1804), modello per le principali codificazioni europee, stabilisce espressamente all'Art. 4 il [[divieto-di-denegare-giustizia|divieto di denegare giustizia]] (déni de justice).\n- In base a questo [[divieto|divieto]], il giudice non può rifiutarsi di emettere una sentenza adducendo come motivo o pretesto l'oscurità o l'insufficienza della legge.\n- Questo divieto formale costituisce, per sua natura, una fonte inevitabile di decisioni e, quindi, di politica.",
       "concetti": [
+        "obbligo",
         "codice-napoleone",
         "divieto-di-denegare-giustizia",
         "divieto",
-        "politica",
-        "obbligo"
+        "politica"
       ]
     },
     {
@@ -152,11 +152,11 @@
     {
       "id": "p022-b005",
       "pagina": 22,
-      "markdown": "- Condizione Formale (Obbligo Legale): L'[[ordinamento-giuridico|ordinamento]] italiano impone espressamente l'obbligo di motivazione.\n   - L'Art. 111 della Costituzione stabilisce che \"tutti i provvedimenti giurisdizionali devono essere motivati\".\n   - La motivazione è fondamentale per il controllo sul rispetto della legge da parte dei giudici e per la possibilità di ricorso in Cassazione.\n   - L'Art. 527, comma 2, del Codice di procedura penale richiede ai giudici di \"enunciare le ragioni delle loro opinioni\" durante la deliberazione collegiale.\n   - Anche in ambiti privati, come il diritto contrattuale, gli atti devono essere interpretati in modo che siano ragionevoli e conformi al senso (Art. 1367 c.c.).\n- Condizione Trascendentale (Necessità Ontologica): Al di là della legge, la motivazione è una regola \"trascendentale\" (nel senso kantiano), ovvero una condizione indispensabile per l'esistenza giuridica stessa della sentenza. Una sentenza immotivata agisce come l'enunciato inglese to allege (\"affermare qualcosa come un fatto, ma senza una prova\").",
+      "markdown": "- Condizione Formale ([[obbligo|Obbligo]] Legale): L'[[ordinamento-giuridico|ordinamento]] italiano impone espressamente l'obbligo di motivazione.\n   - L'Art. 111 della Costituzione stabilisce che \"tutti i provvedimenti giurisdizionali devono essere motivati\".\n   - La motivazione è fondamentale per il controllo sul rispetto della legge da parte dei giudici e per la possibilità di ricorso in Cassazione.\n   - L'Art. 527, comma 2, del Codice di procedura penale richiede ai giudici di \"enunciare le ragioni delle loro opinioni\" durante la deliberazione collegiale.\n   - Anche in ambiti privati, come il diritto contrattuale, gli atti devono essere interpretati in modo che siano ragionevoli e conformi al senso (Art. 1367 c.c.).\n- Condizione Trascendentale (Necessità Ontologica): Al di là della legge, la motivazione è una regola \"trascendentale\" (nel senso kantiano), ovvero una condizione indispensabile per l'esistenza giuridica stessa della sentenza. Una sentenza immotivata agisce come l'enunciato inglese to allege (\"affermare qualcosa come un fatto, ma senza una prova\").",
       "concetti": [
+        "obbligo",
         "ordinamento-giuridico",
-        "motivazione-della-sentenza",
-        "obbligo"
+        "motivazione-della-sentenza"
       ],
       "testoFonte": "- Condizione Formale (Obbligo Legale): L'ordinamento italiano impone espressamente l'obbligo di motivazione. ○ L'Art. 111 della Costituzione stabilisce che \"tutti i provvedimenti giurisdizionali devono essere motivati\". ○ La motivazione è fondamentale per il controllo sul rispetto della legge da parte dei giudici e per la possibilità di ricorso in Cassazione. ○ L'Art. 527, comma 2, del Codice di procedura penale richiede ai giudici di \"enunciare le ragioni delle loro opinioni\" durante la deliberazione collegiale. ○ Anche in ambiti privati, come il diritto contrattuale, gli atti devono essere interpretati in modo che siano ragionevoli e conformi al senso (Art. 1367 c.c.). - Condizione Trascendentale (Necessità Ontologica): Al di là della legge, la motivazione è una regola \"trascendentale\" (nel senso kantiano), ovvero una condizione indispensabile per l'esistenza giuridica stessa della sentenza. Una sentenza immotivata agisce come l'enunciato inglese to allege (\"affermare qualcosa come un fatto, ma senza una prova\").",
       "notaRevisione": "Il richiamo all'art. 1367 c.c. (conservazione del contratto) è una parafrasi molto libera del testo della norma."
@@ -178,10 +178,10 @@
     {
       "id": "p022-b008",
       "pagina": 22,
-      "markdown": "Il giudice, quindi, deve rendere conto delle sue decisioni non solo in forza della legge positiva, ma soprattutto per la natura delle cose (oltre la legge). La necessità di fornire una motivazione logica e razionale è l'unico vero ostacolo e limite al potere politico del giurista.",
+      "markdown": "Il giudice, quindi, deve rendere conto delle sue decisioni non solo in forza della legge positiva, ma soprattutto per la natura delle cose (oltre la legge). La necessità di fornire una motivazione logica e razionale è l'unico vero ostacolo e limite al [[potere|potere]] politico del giurista.",
       "concetti": [
-        "motivazione-della-sentenza",
-        "potere"
+        "potere",
+        "motivazione-della-sentenza"
       ]
     }
   ]

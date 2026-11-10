@@ -70,14 +70,14 @@
     {
       "id": "p027-b009",
       "pagina": 27,
-      "markdown": "- **[[potere|Potere]] Costitutivo:** Quando il legislatore decreta \"Si dispone che 'È obbligatorio p' \", l'obbligo di p nasce effettivamente. Lo status deontico (obbligo, [[divieto|divieto]] o [[permesso|permesso]]) è costituito proprio grazie all'enunciazione del legislatore. Il \"porre deonticamente\" è il risultato di questo potere costitutivo.\n- **Auto-Verifica:** L'obbligo di p è costituito in forza dell'enunciazione performativa \"Si dispone che Op \". Di conseguenza, le enunciazioni thetiche pongono la [[verita|verità]] dell'enunciato innestato. Lo status deontico descritto da \"È obbligatorio p\" nasce con l'enunciazione stessa, il che lo rende un enunciato che si verifica da sé (o si autoverifica) e non può che essere vero.",
+      "markdown": "- **[[potere|Potere]] Costitutivo:** Quando il legislatore decreta \"Si dispone che 'È obbligatorio p' \", l'[[obbligo|obbligo]] di p nasce effettivamente. Lo status deontico (obbligo, [[divieto|divieto]] o [[permesso|permesso]]) è costituito proprio grazie all'enunciazione del legislatore. Il \"porre deonticamente\" è il risultato di questo potere costitutivo.\n- **Auto-Verifica:** L'obbligo di p è costituito in forza dell'enunciazione performativa \"Si dispone che Op \". Di conseguenza, le enunciazioni thetiche pongono la [[verita|verità]] dell'enunciato innestato. Lo status deontico descritto da \"È obbligatorio p\" nasce con l'enunciazione stessa, il che lo rende un enunciato che si verifica da sé (o si autoverifica) e non può che essere vero.",
       "concetti": [
         "potere",
+        "obbligo",
         "divieto",
         "permesso",
         "verita",
-        "status-deontico",
-        "obbligo"
+        "status-deontico"
       ],
       "testoFonte": "- Potere Costitutivo: Quando il legislatore decreta \"Si dispone che 'È obbligatorio p' \", l'obbligo di p nasce effettivamente. Il status deontico (obbligo, divieto o permesso) è costituito proprio grazie all'enunciazione del legislatore. Il \"porre deonticamente\" è il risultato di questo potere costitutivo. - Auto-Verifica: L'obbligo di p è costituito in forza dell'enunciazione performativa \"Si dispone che Op \". Di conseguenza, le enunciazioni thetiche pongono la verità dell'enunciato innestato. Lo status deontico descritto da \"È obbligatorio p\" nasce con l'enunciazione stessa, il che lo rende un enunciato che si verifica da sé (o si autoverifica) e non può che essere vero."
     },
@@ -93,18 +93,18 @@
     {
       "id": "p027-b011",
       "pagina": 27,
-      "markdown": "- **Funzione Cognitiva:** Quando il giurista dice: \"Affermo che Op \", l'obbligo di p non nasce in virtù di questa enunciazione. Chi afferma che è obbligatorio p si limita semplicemente a porre una cognizione sull'esistenza di un obbligo all'interno di un dato [[ordinamento-giuridico|ordinamento]].\n- **Indipendenza dalla Verità:** Non è in gioco la costituzione dello status deontico. L'obbligo, se esiste, è già presente prima e indipendentemente dall'enunciazione del giurista.\n- **Vulnerabilità alla Falsità:** Le enunciazioni performative rhetiche non sono in grado di porre la verità dell'enunciato innestato. Quando il giurista dichiara \"È obbligatorio p\" (con",
+      "markdown": "- **Funzione Cognitiva:** Quando il giurista dice: \"Affermo che Op \", l'[[obbligo|obbligo]] di p non nasce in virtù di questa enunciazione. Chi afferma che è obbligatorio p si limita semplicemente a porre una cognizione sull'esistenza di un obbligo all'interno di un dato [[ordinamento-giuridico|ordinamento]].\n- **Indipendenza dalla Verità:** Non è in gioco la costituzione dello status deontico. L'obbligo, se esiste, è già presente prima e indipendentemente dall'enunciazione del giurista.\n- **Vulnerabilità alla Falsità:** Le enunciazioni performative rhetiche non sono in grado di porre la verità dell'enunciato innestato. Quando il giurista dichiara \"È obbligatorio p\" (con",
       "concetti": [
+        "obbligo",
         "ordinamento-giuridico",
         "status-deontico",
-        "obbligo",
         "verita"
       ]
     },
     {
       "id": "p027-b012",
       "pagina": 27,
-      "markdown": "<sup>7</sup> Op (obbligo: è obbligatorio p)",
+      "markdown": "<sup>7</sup> Op ([[obbligo|obbligo]]: è obbligatorio p)",
       "concetti": [
         "obbligo"
       ],
@@ -114,10 +114,10 @@
     {
       "id": "p027-b013",
       "pagina": 27,
-      "markdown": "<sup>8</sup> O¬p (divieto: è obbligatorio non-p) · <sup>9</sup> ¬O¬p (permesso: non è obbligatorio non-p)",
+      "markdown": "<sup>8</sup> O¬p ([[divieto|divieto]]: è obbligatorio non-p) · <sup>9</sup> ¬O¬p ([[permesso|permesso]]: non è obbligatorio non-p)",
       "concetti": [
-        "permesso",
-        "divieto"
+        "divieto",
+        "permesso"
       ],
       "testoFonte": "8 O¬P 9 ¬OP",
       "notaRevisione": "Negli appunti le note 8 e 9 sono «O¬P» e «¬OP»: il permesso va scritto ¬O¬p (non è obbligatorio non-p). Le glosse tra parentesi sono aggiunte."
@@ -125,7 +125,7 @@
     {
       "id": "p027-b014",
       "pagina": 27,
-      "markdown": "<sup>10</sup> Deontico (τό) δέον -οντος «il dovere»: ciò che è necessario (obblighi, permessi, proibizioni e regole normative).",
+      "markdown": "<sup>10</sup> Deontico (τό) δέον -οντος «il dovere»: ciò che è necessario ([[obbligo|obblighi]], [[permesso|permessi]], proibizioni e regole normative).",
       "concetti": [
         "obbligo",
         "permesso",
@@ -136,20 +136,20 @@
     {
       "id": "p028-b001",
       "pagina": 28,
-      "markdown": "l'intenzione di comunicare le leggi dello Stato), compie un'affermazione che può essere eventualmente falsa. L'enunciato \"È obbligatorio p\" è falso se l'obbligo corrispondente non esiste realmente nell'ordinamento.",
+      "markdown": "l'intenzione di comunicare le leggi dello Stato), compie un'affermazione che può essere eventualmente falsa. L'enunciato \"È obbligatorio p\" è falso se l'[[obbligo|obbligo]] corrispondente non esiste realmente nell'[[ordinamento-giuridico|ordinamento]].",
       "concetti": [
-        "ordinamento-giuridico",
-        "obbligo"
+        "obbligo",
+        "ordinamento-giuridico"
       ]
     },
     {
       "id": "p028-b002",
       "pagina": 28,
-      "markdown": "Ogni [[norma-giuridica|norma giuridica]] presuppone un'enunciazione performativa che crea o modifica l'ordinamento, formulata concettualmente come: \"[[enunciazione-fondamentale|Si dispone che il sistema S contenga la determinazione D]]\". In pratica, quando il legislatore pone una norma, modifica l'ordinamento (il \"sistema S\") introducendo una determinazione (D) che prima non esisteva.",
+      "markdown": "Ogni [[norma-giuridica|norma giuridica]] presuppone un'enunciazione performativa che crea o modifica l'[[ordinamento-giuridico|ordinamento]], formulata concettualmente come: \"[[enunciazione-fondamentale|Si dispone che il sistema S contenga la determinazione D]]\". In pratica, quando il legislatore pone una norma, modifica l'ordinamento (il \"sistema S\") introducendo una determinazione (D) che prima non esisteva.",
       "concetti": [
         "norma-giuridica",
-        "enunciazione-fondamentale",
-        "ordinamento-giuridico"
+        "ordinamento-giuridico",
+        "enunciazione-fondamentale"
       ]
     },
     {
@@ -164,7 +164,7 @@
     {
       "id": "p028-b004",
       "pagina": 28,
-      "markdown": "1. È una \"[[regola-costitutiva|norma costitutiva]]\".\n2. È un vero e proprio presupposto di tutto l'ordinamento, poiché è grazie ad essa che ogni altra norma entra nel codice (dunque, deve esserci sempre una disposizione del legislatore del tipo: \"D'ora innanzi vige la norma D\").",
+      "markdown": "1. È una \"[[regola-costitutiva|norma costitutiva]]\".\n2. È un vero e proprio presupposto di tutto l'[[ordinamento-giuridico|ordinamento]], poiché è grazie ad essa che ogni altra norma entra nel codice (dunque, deve esserci sempre una disposizione del legislatore del tipo: \"D'ora innanzi vige la norma D\").",
       "concetti": [
         "regola-costitutiva",
         "ordinamento-giuridico"
@@ -173,12 +173,12 @@
     {
       "id": "p028-b005",
       "pagina": 28,
-      "markdown": "Inizialmente, Carcaterra aveva adottato una visione \"mista\" (l'ordinamento conteneva sia [[norma-prescrittiva|norme prescrittive]], le Soll-Normen kelseniane, sia costitutive). Successivamente, subentra la tesi \"unitaria\" del primato assoluto delle norme costitutive: tutte le norme, sia costitutive che prescrittive, presuppongono la forza costitutiva dell'enunciazione fondamentale \"Si dispone che il sistema S contenga la determinazione D\".",
+      "markdown": "Inizialmente, Carcaterra aveva adottato una visione \"mista\" (l'[[ordinamento-giuridico|ordinamento]] conteneva sia [[norma-prescrittiva|norme prescrittive]], le Soll-Normen kelseniane, sia costitutive). Successivamente, subentra la tesi \"unitaria\" del primato assoluto delle norme costitutive: tutte le norme, sia costitutive che prescrittive, presuppongono la forza costitutiva dell'enunciazione fondamentale \"Si dispone che il sistema S contenga la determinazione D\".",
       "concetti": [
+        "ordinamento-giuridico",
         "norma-prescrittiva",
         "enunciazione-fondamentale",
         "regola-costitutiva",
-        "ordinamento-giuridico",
         "gaetano-carcaterra"
       ]
     },
@@ -230,7 +230,7 @@
     {
       "id": "p029-b001",
       "pagina": 29,
-      "markdown": "- L'enunciato \"La seduta è tolta\" porta a termine i suoi effetti esclusivamente in forza delle parole pronunciate dal Presidente, non perché si attende la condotta di un agente. Appena il Presidente lo dichiara, la riunione è formalmente conclusa e non si può aggiungere altro.\n- Le porte non sono sensibili a questo stesso potere costitutivo (salvo nei contesti favolosi come \"Apriti Sesamo\").",
+      "markdown": "- L'enunciato \"La seduta è tolta\" porta a termine i suoi effetti esclusivamente in forza delle parole pronunciate dal Presidente, non perché si attende la condotta di un agente. Appena il Presidente lo dichiara, la riunione è formalmente conclusa e non si può aggiungere altro.\n- Le porte non sono sensibili a questo stesso [[potere|potere]] costitutivo (salvo nei contesti favolosi come \"Apriti Sesamo\").",
       "concetti": [
         "potere"
       ]

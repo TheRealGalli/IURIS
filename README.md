@@ -52,6 +52,9 @@ Gli Originali includono tutte le lezioni di Filosofia, Romano e Diritto privato.
 
 ## Originali
 
+Gli Originali di Diritto privato hanno un glossario curato di 361 voci e 476 forme: termini, plurali e sinonimi
+si collegano alle schede durante la lettura, anche nei capoversi successivi.
+
 La sezione raccoglie gli otto documenti PDF di appunti e riassunti usati come fonti del Percorso, letti come **Testo**, e un fascicolo delle dodici lezioni ricostruite. I PDF originali si scaricano dal menu **Fonte e comandi** (**Consulta la fonte PDF originale**), senza i segni personali. Il fascicolo integrativo ha una provenienza distinta e non dichiara un PDF originale. Il menu conserva l'attribuzione delle fonti e precisa che rielaborazione e revisione sono assistite dall'IA: la verifica umana integrale è ancora da completare. Il flag tecnico `revisionata` non certifica un controllo umano o l'assenza di errori; i triangoli del Percorso documentano correzioni, ricostruzioni e punti ancora dubbi.
 Il lettore riprende dall'ultima sezione e dall'ultimo paragrafo letti. Sul telefono e su iPad si tiene premuta una parola, si allarga la selezione con le maniglie native e si tocca un altro punto per salvare. Scorrimento, pizzico e regolazione della selezione non confermano il segno. Sul computer un passaggio selezionato si salva con **Salva segno**, **Invio** o **Spazio**.
 **Esc**, **Canc** o **Backspace** annullano la selezione; **H** e **U** scelgono evidenziatore e sottolineatura, **1/2/3** scelgono giallo, verde e rosa. I campi di inserimento mantengono i normali comandi da tastiera.

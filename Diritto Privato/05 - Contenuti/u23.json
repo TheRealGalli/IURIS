@@ -187,7 +187,10 @@
       "id": "promessa-di-pagamento",
       "nome": "Promessa di pagamento e ricognizione",
       "tipo": "istituto",
-      "alias": [],
+      "alias": [
+        "promessa di pagamento",
+        "ricognizione di debito"
+      ],
       "breve": "Dichiarazioni che presumono il rapporto fondamentale fino a prova contraria.",
       "definizione": "Dichiarazione che dispensa il destinatario dalla prova del rapporto fondamentale, presunto fino a prova contraria. Produce astrazione processuale, senza rendere il debito incontestabile.",
       "pagine": [

@@ -17,8 +17,10 @@
     {
       "id": "p102-b002",
       "pagina": 102,
-      "markdown": "**Successione nel debito e nel credito.** Ai soggetti originari del rapporto obbligatorio (creditore e debitore) possono sostituirsi od aggiungersi, nel corso del rapporto stesso, altri soggetti: può verificarsi nell’ambito di una successione a titolo universale (riguarda tutti i rapporti - es. eredità) o per effetto di una successione a titolo particolare (riguarda il singolo rapporto).",
-      "concetti": []
+      "markdown": "**Successione nel debito e nel credito.** Ai soggetti originari del rapporto obbligatorio (creditore e debitore) possono sostituirsi od aggiungersi, nel corso del rapporto stesso, altri soggetti: può verificarsi nell’ambito di una successione a titolo universale (riguarda tutti i rapporti - es. eredità) o per effetto di una [[successione|successione a titolo particolare]] (riguarda il singolo rapporto).",
+      "concetti": [
+        "successione"
+      ]
     },
     {
       "id": "p102-b003",
@@ -29,24 +31,30 @@
     {
       "id": "p102-b004",
       "pagina": 102,
-      "markdown": "Le singole ipotesi di modificazione nel lato attivo del rapporto obbligatorio. La modificazione del soggetto attivo del rapporto obbligatorio può realizzarsi per atto inter vivos - a titolo particolare - mediante le figure: a) della [[cessione-del-credito|cessione del credito]] (artt. 1260-1267 cod. civ.): b) della delegazione attiva c) del pagamento con surrogazione (artt. 1201-1205 cod. civ.) di cui parleremo quando tratteremo dell’estinzione dell’obbligazione.",
+      "markdown": "Le singole ipotesi di modificazione nel lato attivo del rapporto obbligatorio. La modificazione del soggetto attivo del rapporto obbligatorio può realizzarsi per atto inter vivos - a titolo particolare - mediante le figure: a) della [[cessione-del-credito|cessione del credito]] (artt. 1260-1267 cod. civ.): b) della delegazione attiva c) del [[pagamento-con-surrogazione|pagamento con surrogazione]] (artt. 1201-1205 cod. civ.) di cui parleremo quando tratteremo dell’estinzione dell’[[obbligazione|obbligazione]].",
       "concetti": [
-        "cessione-del-credito"
+        "cessione-del-credito",
+        "pagamento-con-surrogazione",
+        "obbligazione"
       ]
     },
     {
       "id": "p102-b005",
       "pagina": 102,
-      "markdown": "**La cessione del credito.** Di cessione del credito (art. 1260 c.c.) la legge parla in due significati differenti: -per indicare il contratto con il quale il creditore pattuisce con un terzo il trasferimento in capo a quest’ultimo del suo diritto verso il debitore; -per indicare l’effetto di tale contratto, cioè il trasferimento del credito in capo al terzo.",
+      "markdown": "**La [[cessione-del-credito|cessione del credito]].** Di cessione del credito (art. 1260 c.c.) la legge parla in due significati differenti: -per indicare il [[contratto|contratto]] con il quale il creditore pattuisce con un terzo il trasferimento in capo a quest’ultimo del suo diritto verso il debitore; -per indicare l’effetto di tale contratto, cioè il trasferimento del credito in capo al terzo.",
       "concetti": [
-        "cessione-del-credito"
+        "cessione-del-credito",
+        "contratto"
       ]
     },
     {
       "id": "p102-b006",
       "pagina": 102,
-      "markdown": "Per quanto riguarda il contratto di cessione, qualunque credito può formare oggetto di cessione, purchè il credito non abbia carattere strettamente personale (crediti, per esempio alimentari o quelli relativi al divorzio, i quali non sono cedibili) o il trasferimento non sia vietato dalla legge oppure la cessione non sia stata convenzionalmente esclusa dalle parti. Avviene tramite un contratto per mezzo del quale il credito circola liberamente. Le parti possono escludere la cedibilità del credito; ma il patto non è opponibile dal cessionario se non prova che egli lo conoscesse al tempo della cessione.\n\nOggetto di cessione possono essere anche, purché a titolo oneroso, i crediti futuri. Il contratto di cessione può avere ad oggetto una somma di denaro o una prestazione di altra natura (es. cedo il credito a fronte di una partita di merci) può invero anche trattarsi di una donazione avere funzione di garanzia o di estinzione di un debito diverso del cedente verso il cessionario (c.d. cessione solutoria). Per le molteplici funzioni la cessione del credito è detto contratto a causa variabile. La cessione si perfezione in forza di un accordo fra il creditore e il terzo. Non è richiesta l’accettazione da parte del debitore, il quale rimane in ogni caso, estraneo all’accordo di cessione: per quest’ultimo è normalmente indifferente a chi dovere pagare.",
+      "markdown": "Per quanto riguarda il [[contratto|contratto]] di cessione, qualunque credito può formare oggetto di cessione, purchè il credito non abbia carattere strettamente personale (crediti, per esempio alimentari o quelli relativi al [[divorzio|divorzio]], i quali non sono cedibili) o il trasferimento non sia vietato dalla legge oppure la cessione non sia stata convenzionalmente esclusa dalle parti. Avviene tramite un contratto per mezzo del quale il credito circola liberamente. Le parti possono escludere la cedibilità del credito; ma il patto non è opponibile dal cessionario se non prova che egli lo conoscesse al tempo della cessione.\n\nOggetto di cessione possono essere anche, purché a titolo oneroso, i crediti futuri. Il [[contratto|contratto]] di cessione può avere ad oggetto una somma di denaro o una prestazione di altra natura (es. cedo il credito a fronte di una partita di merci) può invero anche trattarsi di una [[donazione|donazione]] avere funzione di garanzia o di estinzione di un debito diverso del cedente verso il cessionario (c.d. cessione solutoria). Per le molteplici funzioni la [[cessione-del-credito|cessione del credito]] è detto contratto a causa variabile. La cessione si perfezione in forza di un accordo fra il creditore e il terzo. Non è richiesta l’accettazione da parte del debitore, il quale rimane in ogni caso, estraneo all’accordo di cessione: per quest’ultimo è normalmente indifferente a chi dovere pagare.",
       "concetti": [
+        "contratto",
+        "divorzio",
+        "donazione",
         "cessione-del-credito"
       ],
       "testoFonte": "Per quanto riguarda il contratto di cessione, qualunque credito può formare oggetto di cessione , purchè il credito non abbia carattere strettamente personale (crediti, per esempio alimentari o quelli relativi al divorzio, i quali non sono cedibili) o il trasferimento non sia vietato dalla legge oppure la cessione non sia stata convenzionalmente esclusa dalle parti. Avviene tramite un contratto per mezzo del quale il credito circola liberamente. Le parti possono escludere la cedibilità del credito; ma il patto non è opponibile dal cessionario se non prova che egli lo conoscesse al tempo della cessione. Oggetto di cessione possono essere anche, purché a titolo oneroso, i crediti futuri. Il contratto di cessione può avere ad oggetto una somma di denaro o una prestazione di altra natura (es. cedo il credito a fronte di una partita di merci) può invero anche trattarsi di una donazione avere funzione di garanzia o di estinzione di un debito diverso del cedente verso il cessionario (c.d. cessione solutoria). Per le molteplici funzioni la cessione del credito è detto contratto a causa variabile. La cessione si perfezione in forza di un accordo fra il creditore e il terzo. Non è richiesta l’accettazione da parte del debitore, il quale rimane in ogni caso, estraneo all’accordo di cessione: per quest’ultimo è normalmente indifferente a chi dovere pagare."
@@ -54,14 +62,20 @@
     {
       "id": "p102-b007",
       "pagina": 102,
-      "markdown": "**Effetti della cessione.** Per quanto concerne gli effetti tra le parti, il credito è dal cedente trasferito al cessionario, il forza del principio del consenso traslativo (art.1376 cod. civ.), nel momento stesso del perfezionamento dell’accordo di cessione. Affinché la cessione abbia efficacia nei confronti del debitore occorre che a quest’ultimo la cessione venga notificata dal cedente o dal cessionario (art.1264 c.c.) ovvero sia da lui accettata (c.d. consenso traslativo): fino a quel momento infatti, il debitore - il cui consenso per perfezionare l’accordo di cessione non è necessario - potrebbe ritenere di essere pur sempre obbligato nei confronti del creditore originario.\n\nIl debitore se ha pagato al cedente, non può essere tenuto dal cessionario ad un nuovo pagamento. E poiché la buona fede si presume, incombe al cessionario l’onere di provare che il debitore era a conoscenza dell’avvenuta cessione. L’accettazione o la notificazione della cessione servono inoltre ad attribuirle efficacia di fronte ai terzi (se il cedente ha ceduto lo stesso credito prima ad A e poi a B ed è stata notificata, o è stata accettata per prima, con atto di data certa la cessione fatta a B, è questa che prevale sull’altra (art.1265 c.c.).",
-      "concetti": []
+      "markdown": "**Effetti della cessione.** Per quanto concerne gli effetti tra le parti, il credito è dal cedente trasferito al cessionario, il forza del principio del [[consenso-traslativo|consenso traslativo]] (art.1376 cod. civ.), nel momento stesso del perfezionamento dell’accordo di cessione. Affinché la cessione abbia efficacia nei confronti del debitore occorre che a quest’ultimo la cessione venga notificata dal cedente o dal cessionario (art.1264 c.c.) ovvero sia da lui accettata (c.d. consenso traslativo): fino a quel momento infatti, il debitore - il cui consenso per perfezionare l’accordo di cessione non è necessario - potrebbe ritenere di essere pur sempre obbligato nei confronti del creditore originario.\n\nIl debitore se ha pagato al cedente, non può essere tenuto dal cessionario ad un nuovo pagamento. E poiché la buona fede si presume, incombe al cessionario l’onere di provare che il debitore era a conoscenza dell’avvenuta cessione. L’accettazione o la notificazione della cessione servono inoltre ad attribuirle efficacia di fronte ai terzi (se il cedente ha ceduto lo stesso credito prima ad A e poi a B ed è stata notificata, o è stata accettata per prima, con atto di [[data-certa|data certa]] la cessione fatta a B, è questa che prevale sull’altra (art.1265 c.c.).",
+      "concetti": [
+        "consenso-traslativo",
+        "data-certa"
+      ]
     },
     {
       "id": "p102-b008",
       "pagina": 102,
-      "markdown": "Quanto agli effetti della cessione, in conseguenza di essa, benché venga ad essere modificato il soggetto attivo del credito, l’obbligazione rimane, per tutto il resto, inalterata: perciò il credito è trasferito al cessionario con i privilegi, con le garanzie personali e reali e gli altri accessori (es. gli interessi). Parimenti, il debitore ceduto può opporre al cessionario le stesse eccezioni che avrebbe potuto opporre al cedente (es. se il contratto è annullabile per dolo si fa rivalere anche nei confronti del cessionario).",
-      "concetti": []
+      "markdown": "Quanto agli effetti della cessione, in conseguenza di essa, benché venga ad essere modificato il soggetto attivo del credito, l’[[obbligazione|obbligazione]] rimane, per tutto il resto, inalterata: perciò il credito è trasferito al cessionario con i privilegi, con le garanzie personali e reali e gli altri accessori (es. gli interessi). Parimenti, il debitore ceduto può opporre al cessionario le stesse eccezioni che avrebbe potuto opporre al cedente (es. se il [[contratto|contratto]] è annullabile per dolo si fa rivalere anche nei confronti del cessionario).",
+      "concetti": [
+        "obbligazione",
+        "contratto"
+      ]
     },
     {
       "id": "p103-b001",
@@ -73,24 +87,29 @@
     {
       "id": "p103-b002",
       "pagina": 103,
-      "markdown": "La cessione dei crediti di impresa e il [[factoring|factoring]]. Il factoring è una figura negoziale di matrice anglosassone. Con questo termine, si vuole indicare un particolare tipo di contratto con il quale un imprenditore (denominato \"cedente\") si impegna a cedere tutti i crediti presenti e futuri scaturiti dalla propria attività imprenditoriale ad un altro soggetto professionale (denominato factor) il quale, dietro un corrispettivo consistente in una commissione, assume l'obbligo a sua volta a fornire una serie di servizi che vanno dalla contabilizzazione, alla gestione, alla riscossione di tutti o di parte dei crediti che quest'ultimo vanta in relazione alla propria attività, fino alla garanzia dell'eventuale inadempimento dei debitori, ovvero al finanziamento dell'imprenditore cedente sia attraverso la concessione di prestiti, sia attraverso il pagamento anticipato dei crediti ceduti.\n\nLa cessione dei crediti non rappresenta il fine ultimo dell'accordo, ma lo strumento attraverso cui è possibile l'erogazione dei servizi da parte del factor. I crediti affidati in amministrazione al factor non devono di norma essere ceduti allo stesso; tuttavia nella maggior parte dei casi dietro il contratto di factoring si cela un'operazione di finanziamento dell'impresa cliente, infatti è prassi costante che il factor conceda all'impresa cliente anticipazioni sull'ammontare dei crediti gestiti.\n\nLa cessione può avvenire in due modi differenti: - pro soluto: il factor si assume il rischio di insolvenza dei crediti ceduti ed in caso di inadempimento di questi ultimi non potrà richiedere la restituzione degli anticipi versati al cliente; - pro solvendo: lasciando al cliente il rischio dell'eventuale insolvenza dei crediti ceduti.\n\nTipologie di factoring: - full Factoring, vengono acquistati, continuativamente, i crediti commerciali dei clienti man mano che essi sorgono. - maturity Factoring, vengono mantenuti uguali le componenti gestionali e assicurative il Factor si astiene dal fornire supporto finanziario al cliente. - international Factoring, rivolto a clienti e debitori di Paesi differenti.",
+      "markdown": "La cessione dei crediti di impresa e il [[factoring|factoring]]. Il factoring è una figura negoziale di matrice anglosassone. Con questo termine, si vuole indicare un particolare tipo di [[contratto|contratto]] con il quale un imprenditore (denominato \"cedente\") si impegna a cedere tutti i crediti presenti e futuri scaturiti dalla propria attività imprenditoriale ad un altro soggetto professionale (denominato factor) il quale, dietro un corrispettivo consistente in una commissione, assume l'obbligo a sua volta a fornire una serie di servizi che vanno dalla contabilizzazione, alla gestione, alla riscossione di tutti o di parte dei crediti che quest'ultimo vanta in relazione alla propria attività, fino alla garanzia dell'eventuale [[inadempimento|inadempimento]] dei debitori, ovvero al finanziamento dell'imprenditore cedente sia attraverso la concessione di prestiti, sia attraverso il pagamento anticipato dei crediti ceduti.\n\nLa cessione dei crediti non rappresenta il fine ultimo dell'accordo, ma lo strumento attraverso cui è possibile l'erogazione dei servizi da parte del factor. I crediti affidati in amministrazione al factor non devono di norma essere ceduti allo stesso; tuttavia nella maggior parte dei casi dietro il [[contratto|contratto]] di [[factoring|factoring]] si cela un'operazione di finanziamento dell'impresa cliente, infatti è prassi costante che il factor conceda all'impresa cliente anticipazioni sull'ammontare dei crediti gestiti.\n\nLa cessione può avvenire in due modi differenti: - pro soluto: il factor si assume il rischio di insolvenza dei crediti ceduti ed in caso di [[inadempimento|inadempimento]] di questi ultimi non potrà richiedere la restituzione degli anticipi versati al cliente; - pro solvendo: lasciando al cliente il rischio dell'eventuale insolvenza dei crediti ceduti.\n\nTipologie di [[factoring|factoring]]: - full Factoring, vengono acquistati, continuativamente, i crediti commerciali dei clienti man mano che essi sorgono. - maturity Factoring, vengono mantenuti uguali le componenti gestionali e assicurative il Factor si astiene dal fornire supporto finanziario al cliente. - international Factoring, rivolto a clienti e debitori di Paesi differenti.",
       "concetti": [
-        "factoring"
+        "factoring",
+        "contratto",
+        "inadempimento"
       ]
     },
     {
       "id": "p103-b003",
       "pagina": 103,
-      "markdown": "La legge n. 52 del 1991 ha previsto l'istituzione di un albo delle imprese che praticano la cessione dei crediti d'impresa (albo tenuto a cura dalla Banca d'Italia). Tale legge non ha introdotto nell'ordinamento italiano la disciplina giuridica del factoring, che perciò continua ad essere considerato un contratto atipico, ma si è limitata a modificare la disciplina tradizionale della cessione dei crediti, ovviando alle problematiche (seguenti) legate alla disciplina codicistica della cessione dei crediti (Artt. 1260 e ss. Cod.Civ.): Cessione di crediti futuri; Notifica al debitore ceduto ai fini dell'opponibilità; Non contempla la \"componente finanziaria\" dell'operazione di trasferimento del credito.",
+      "markdown": "La legge n. 52 del 1991 ha previsto l'istituzione di un albo delle imprese che praticano la cessione dei crediti d'impresa (albo tenuto a cura dalla Banca d'Italia). Tale legge non ha introdotto nell'ordinamento italiano la disciplina giuridica del [[factoring|factoring]], che perciò continua ad essere considerato un [[contratto|contratto]] atipico, ma si è limitata a modificare la disciplina tradizionale della cessione dei crediti, ovviando alle problematiche (seguenti) legate alla disciplina codicistica della cessione dei crediti (Artt. 1260 e ss. Cod.Civ.): Cessione di crediti futuri; Notifica al debitore ceduto ai fini dell'opponibilità; Non contempla la \"componente finanziaria\" dell'operazione di trasferimento del credito.",
       "concetti": [
-        "factoring"
+        "factoring",
+        "contratto"
       ]
     },
     {
       "id": "p103-b004",
       "pagina": 103,
-      "markdown": "Le norme della legge n. 52 del 1991 si applicano alle cessioni verso corrispettivo di soli crediti pecuniari e quando sussistano le seguenti condizioni: - che il cedente sia un imprenditore; - che i crediti ceduti siano pecuniari e siano imputabili a contratti stipulati dal cedente nel corso della sua attività imprenditoriale; - che il cessionario sia una BANCA o un INTERMEDIARIO FINANZIARIO disciplinato dal testo unico in materia bancaria(D.Lgs. 230 del 1993),il cui oggetto sociale preveda l'acquisto di crediti d'impresa.",
-      "concetti": []
+      "markdown": "Le norme della legge n. 52 del 1991 si applicano alle cessioni verso corrispettivo di soli crediti pecuniari e quando sussistano le seguenti condizioni: - che il cedente sia un imprenditore; - che i crediti ceduti siano pecuniari e siano imputabili a [[contratto|contratti]] stipulati dal cedente nel corso della sua attività imprenditoriale; - che il cessionario sia una BANCA o un INTERMEDIARIO FINANZIARIO disciplinato dal testo unico in materia bancaria(D.Lgs. 230 del 1993),il cui oggetto sociale preveda l'acquisto di crediti d'impresa.",
+      "concetti": [
+        "contratto"
+      ]
     },
     {
       "id": "p103-b005",

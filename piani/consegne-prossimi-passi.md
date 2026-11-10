@@ -14,7 +14,7 @@ Regole valide per tutti i passi:
 
 | Passo | Che cosa | Stato |
 |---|---|---|
-| 1 | Glossario degli Originali di privato | |
+| 1 | Glossario degli Originali di privato | Completato: 361 voci, 476 etichette; collegamenti ripetuti nei capoversi |
 | 2 | Più domande per privato | |
 | 3 | Schede inverse di privato | |
 | 4 | Stile delle unità 12–27 di privato | |
@@ -39,6 +39,14 @@ che collega il termine **in ogni paragrafo**; privato non ce l'ha e collega solo
   browser (porta 7101): i collegamenti devono essere giusti, non solo tanti.
 
 ## 2. Più domande per privato
+
+Il passo 1 introduce `glossario-diritto-privato.json`, con locuzioni, plurali e varianti di apostrofo. Le parole
+polisemiche sono escluse come etichette isolate; aggiunti nei sorgenti gli alias «datio in solutum»,
+«responsabilità contrattuale», «responsabilità aquiliana», «promessa di pagamento» e «ricognizione di debito».
+Corretto anche il sync: le etichette curate si collegano una volta per capoverso, le automatiche una volta per
+sezione. Copertura degli Originali e testo di fonte conservati. Build e `check:build` riusciti, inclusi 1.348
+controlli su 11 dispositivi; verificate nel browser proprietà (u08-l1), novazione (u13-l3) e legittimari (u26-l3).
+I collegamenti di privato passano da 356 a 3.497. Ripartire dal passo 2.
 
 Oggi circa 10 domande per lezione; Romano ne ha 15. Porta ogni lezione ad almeno 14: aggiungi soprattutto
 **casi pratici** (multipla: «Tizio vende a Caio…»), vero/falso sulle confusioni tipiche e completa sui termini.

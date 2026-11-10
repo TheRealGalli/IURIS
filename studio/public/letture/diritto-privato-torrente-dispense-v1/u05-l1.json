@@ -26,16 +26,18 @@
     {
       "id": "p028-b003",
       "pagina": 28,
-      "markdown": "**Ente giuridico → ente dotato di soggettività giuridica.** L’organizzazione cui l’ordinamento attribuisce la capacità - c.d. capacità giuridica - di essere titolare di situazioni giuridiche soggettive è dunque dotata di soggettività giuridica. [Esempio: la proprietà, il credito, il debito, la responsabilità patrimoniale].",
+      "markdown": "**[[ente|Ente giuridico]] → ente dotato di soggettività giuridica.** L’organizzazione cui l’ordinamento attribuisce la capacità - c.d. [[capacita-giuridica|capacità giuridica]] - di essere titolare di situazioni giuridiche soggettive è dunque dotata di soggettività giuridica. [Esempio: la [[proprieta|proprietà]], il credito, il debito, la responsabilità patrimoniale].",
       "concetti": [
-        "ente"
+        "ente",
+        "capacita-giuridica",
+        "proprieta"
       ],
       "testoFonte": "Ente giuridico → ente dotato di soggettività giuridica . L’organizzazione cui l’ordinamento attribuisce la capacità - c.d. capacità giuridica - di essere titolare di situazioni giuridiche soggettive è dunque dotata di soggettività giuridica. [Esempio: la proprietà, il credito, il debito, la responsabilità patrimoniale]."
     },
     {
       "id": "p028-b004",
       "pagina": 28,
-      "markdown": "Nota Bene: Non deve confondersi con quella di ente giuridico la nozione di persona giuridica. Le nozioni di persona e di personalità giuridica sono più ristrette rispetto a quelle, rispettivamente, di ente giuridico e di soggettività giuridica.",
+      "markdown": "Nota Bene: Non deve confondersi con quella di [[ente|ente giuridico]] la nozione di persona giuridica. Le nozioni di persona e di [[personalita-giuridica|personalità giuridica]] sono più ristrette rispetto a quelle, rispettivamente, di ente giuridico e di soggettività giuridica.",
       "concetti": [
         "ente",
         "personalita-giuridica"
@@ -46,49 +48,60 @@
     {
       "id": "p028-b005",
       "pagina": 28,
-      "markdown": "Personalità giuridica → si dicono dotati di personalità giuridica solo quegli enti che godono di [[autonomia-patrimoniale|autonomia patrimoniale perfetta]] (quegli enti che non solo hanno, come tutti, un loro patrimonio, ma - al pari della persona fisica - rispondono delle loro obbligazioni solo con detto patrimonio). [esempio: l’[[associazione-riconosciuta|associazione riconosciuta]], la società di capitali, etc.]",
+      "markdown": "[[personalita-giuridica|Personalità giuridica]] → si dicono dotati di personalità giuridica solo quegli enti che godono di [[autonomia-patrimoniale|autonomia patrimoniale perfetta]] (quegli enti che non solo hanno, come tutti, un loro patrimonio, ma - al pari della persona fisica - rispondono delle loro [[obbligazione|obbligazioni]] solo con detto patrimonio). [esempio: l’[[associazione-riconosciuta|associazione riconosciuta]], la società di capitali, etc.]",
       "concetti": [
+        "personalita-giuridica",
         "autonomia-patrimoniale",
-        "associazione-riconosciuta",
-        "personalita-giuridica"
+        "obbligazione",
+        "associazione-riconosciuta"
       ]
     },
     {
       "id": "p028-b006",
       "pagina": 28,
-      "markdown": "Gli organi → gli enti ovviamente non possono agire che attraverso persone fisiche, che fanno parte della loro struttura organizzativa: dette persone si dicono organi dell’ente. Si ritiene che proprio per la presenza degli organi, gli enti non siano privi di capacità di agire. Gli organi dell’ente si distinguono in: - interni (poteri di gestione interna) - esterni (poteri di rappresentanza esterna)",
+      "markdown": "Gli organi → gli enti ovviamente non possono agire che attraverso persone fisiche, che fanno parte della loro struttura organizzativa: dette persone si dicono organi dell’ente. Si ritiene che proprio per la presenza degli organi, gli enti non siano privi di [[capacita-di-agire|capacità di agire]]. Gli organi dell’ente si distinguono in: - interni (poteri di gestione interna) - esterni (poteri di [[rappresentanza|rappresentanza]] esterna)",
       "concetti": [
+        "capacita-di-agire",
+        "rappresentanza",
         "ente"
       ]
     },
     {
       "id": "p028-b007",
       "pagina": 28,
-      "markdown": "**Classificazione degli enti.** Da sempre discussi sono i criteri in base ai quali distinguere un ente pubblico da un ente privato. La giurisprudenza ha elaborato una serie di indici di riconoscibilità della natura pubblica di un ente: - titolarità di poteri autoritativi, - istituzione da parte dello Stato o da parte di un altro ente pubblico, - assoggettamento al controllo e all’ingerenza da parte dello Stato o di altro ente pubblico, - fruizione di agevolazioni o privilegi tipici della P.A. In realtà, anche l’applicazione di questi indici non porta a risultati pienamente soddisfacenti.",
+      "markdown": "**Classificazione degli enti.** Da sempre discussi sono i criteri in base ai quali distinguere un ente pubblico da un ente privato. La [[giurisprudenza|giurisprudenza]] ha elaborato una serie di indici di riconoscibilità della natura pubblica di un ente: - titolarità di poteri autoritativi, - istituzione da parte dello Stato o da parte di un altro ente pubblico, - assoggettamento al controllo e all’ingerenza da parte dello Stato o di altro ente pubblico, - fruizione di agevolazioni o privilegi tipici della P.A. In realtà, anche l’applicazione di questi indici non porta a risultati pienamente soddisfacenti.",
       "concetti": [
+        "giurisprudenza",
         "ente"
       ]
     },
     {
       "id": "p028-b008",
       "pagina": 28,
-      "markdown": "Gli enti si distinguono in base ai diversi criteri di classificazione: a) enti pubblici (persone giuridiche pubbliche art.11 c.c.) → Tra cui lo Stato, gli enti pubblici territoriali (Regioni, Provincie, Comuni), nonché altri numerosi enti pubblici (Inps, Inail, etc) Gli enti pubblici, se almeno di regola, possono operare attraverso l’esercizio di poteri pubblistici (esempio: esproprio del comune di un’area), possono avvalersi anche di strumenti privatistici (esempio: stipulare un contratto con un privato). b) enti privati (persone giuridiche private art.12 c.c.), tra cui → classificazione: - enti registrati (art.34 e 2200 c.c. - associazioni riconosciute, fondazioni, etc) ed enti non registrati (quali le associazioni non riconosciute, le società semplici); - enti dotati di personalità giuridica (autonomia patrimoniale perfetta) ed enti privi di personalità giuridica (associazioni non riconosciute, comitati non riconosciuti, società di persone,etc); - enti a struttura associativa (a base contrattuale e con la partecipazione di una pluralità di persone) tra cui: enti con finalità di lucro (con finalità egoistiche, in cui gli operatori intendono appropriarsi degli eventuali lucri ricavati), ed enti con finalità ideali (enti c.d. non profit, in cui gli operatori, invece, si impegnano a reinvestire gli utili nell’impresa o a destinarli ad altri scopi non lucrativi - associazioni riconosciute e non, fondazioni, comitati riconosciuti e non, le altre istituzioni di carattere privato); - ed enti a struttura istituzionale, costituiti da volontà unilaterale di un fondatore (Stato o privato).",
+      "markdown": "Gli enti si distinguono in base ai diversi criteri di classificazione: a) enti pubblici (persone giuridiche pubbliche art.11 c.c.) → Tra cui lo Stato, gli enti pubblici territoriali (Regioni, Provincie, Comuni), nonché altri numerosi enti pubblici (Inps, Inail, etc) Gli enti pubblici, se almeno di regola, possono operare attraverso l’esercizio di poteri pubblistici (esempio: esproprio del comune di un’area), possono avvalersi anche di strumenti privatistici (esempio: stipulare un [[contratto|contratto]] con un privato). b) enti privati (persone giuridiche private art.12 c.c.), tra cui → classificazione: - enti registrati (art.34 e 2200 c.c. - [[associazione-riconosciuta|associazioni riconosciute]], fondazioni, etc) ed enti non registrati (quali le [[associazione-non-riconosciuta|associazioni non riconosciute]], le società semplici); - enti dotati di [[personalita-giuridica|personalità giuridica]] ([[autonomia-patrimoniale|autonomia patrimoniale perfetta]]) ed enti privi di personalità giuridica (associazioni non riconosciute, comitati non riconosciuti, società di persone,etc); - enti a struttura associativa (a base contrattuale e con la partecipazione di una pluralità di persone) tra cui: enti con finalità di lucro (con finalità egoistiche, in cui gli operatori intendono appropriarsi degli eventuali lucri ricavati), ed enti con finalità ideali (enti c.d. non profit, in cui gli operatori, invece, si impegnano a reinvestire gli utili nell’impresa o a destinarli ad altri scopi non lucrativi - associazioni riconosciute e non, fondazioni, comitati riconosciuti e non, le altre istituzioni di carattere privato); - ed enti a struttura istituzionale, costituiti da volontà unilaterale di un fondatore (Stato o privato).",
       "concetti": [
-        "autonomia-patrimoniale",
-        "personalita-giuridica"
+        "contratto",
+        "associazione-riconosciuta",
+        "associazione-non-riconosciuta",
+        "personalita-giuridica",
+        "autonomia-patrimoniale"
       ]
     },
     {
       "id": "p028-b009",
       "pagina": 28,
-      "markdown": "**Il fenomeno associativo.** Nell’Ottocento gli enti senza finalità economiche erano visti con una certa reticenza, poichè si pensava che l’accumulo di patrimoni presso organizzazioni con finalità diverse dallo scopo di lucro potesse risolversi con un loro inefficace inutilizzo. Per controllare il fenomeno associativo il codice predispose due modelli: - artt.14 ss. c.c. → quello delle associazioni riconosciute (avevano posizione giuridica favorevole),",
-      "concetti": []
+      "markdown": "**Il fenomeno associativo.** Nell’Ottocento gli enti senza finalità economiche erano visti con una certa reticenza, poichè si pensava che l’accumulo di patrimoni presso organizzazioni con finalità diverse dallo scopo di lucro potesse risolversi con un loro inefficace inutilizzo. Per controllare il fenomeno associativo il codice predispose due modelli: - artt.14 ss. c.c. → quello delle [[associazione-riconosciuta|associazioni riconosciute]] (avevano posizione giuridica favorevole),",
+      "concetti": [
+        "associazione-riconosciuta"
+      ]
     },
     {
       "id": "p029-b001",
       "pagina": 29,
-      "markdown": "- artt. 36 ss. c.c. → quello delle associazioni non riconosciute (subivano delle limitazioni, es. gli acquisti mortis causa erano preclusi e gli ordinamenti interni erano rimessi agli accordi degli associati senza regolamentazione normativa esterna).",
-      "concetti": []
+      "markdown": "- artt. 36 ss. c.c. → quello delle [[associazione-non-riconosciuta|associazioni non riconosciute]] (subivano delle limitazioni, es. gli acquisti mortis causa erano preclusi e gli ordinamenti interni erano rimessi agli accordi degli associati senza regolamentazione normativa esterna).",
+      "concetti": [
+        "associazione-non-riconosciuta"
+      ]
     },
     {
       "id": "p029-b002",
@@ -99,16 +112,19 @@
     {
       "id": "p029-b003",
       "pagina": 29,
-      "markdown": "Le organizzazioni collettive diventano ora un perno importante nella vita sociale, in quanto considerate strumento privilegiato per la partecipazione dei cittadini alla vita politica e sindacale del paese vengono perciò tutelate e promosse (es. partiti sindacati) anche perché le associazioni non riconosciute subiscono minor intrusione da parte dello Stato assicurando maggior libertà e democraticità all’ente stesso.",
+      "markdown": "Le organizzazioni collettive diventano ora un perno importante nella vita sociale, in quanto considerate strumento privilegiato per la partecipazione dei cittadini alla vita politica e sindacale del paese vengono perciò tutelate e promosse (es. partiti sindacati) anche perché le [[associazione-non-riconosciuta|associazioni non riconosciute]] subiscono minor intrusione da parte dello Stato assicurando maggior libertà e democraticità all’ente stesso.",
       "concetti": [
+        "associazione-non-riconosciuta",
         "ente"
       ]
     },
     {
       "id": "p029-b004",
       "pagina": 29,
-      "markdown": "**Approfondimento.** Emblematica al riguardo è la vicenda dei sindacati, che – pur di sottrarsi a quel controllo in punto di democraticità del proprio ordinamento interno, previsto dall’art.39 comma 3, Cost. – hanno rinunciato alla registrazione e, con essa, alla possibilità di stipulare contratti collettivi di lavoro con efficacia obbligatoria per tutti gli appartenenti alle categorie alle quali il contratto si riferisce, secondo il meccanismo contemplato dallo stesso art.39. «Hanno rinunciato a legiferare, ad essere legislatori» (Ponzanelli – Università Cattolica).",
-      "concetti": [],
+      "markdown": "**Approfondimento.** Emblematica al riguardo è la vicenda dei sindacati, che – pur di sottrarsi a quel controllo in punto di democraticità del proprio ordinamento interno, previsto dall’art.39 comma 3, Cost. – hanno rinunciato alla registrazione e, con essa, alla possibilità di stipulare contratti collettivi di lavoro con efficacia obbligatoria per tutti gli appartenenti alle categorie alle quali il [[contratto|contratto]] si riferisce, secondo il meccanismo contemplato dallo stesso art.39. «Hanno rinunciato a legiferare, ad essere legislatori» (Ponzanelli – Università Cattolica).",
+      "concetti": [
+        "contratto"
+      ],
       "testoFonte": ") 88:7076.35/6<7* \u0001 5,4/5+<3-+\u0001 +4\u0001 :31=+:.7\u0001 I\u0001 4+\u0001 >3-/6.+\u0001 ./3\u0001 ;36.+-+<3\u0005\u0001 -2/\u0001 \u0006\u0001 8=:\u0001 .3\u0001 ;7<<:+:;3\u0001 +\u0001 9=/4\u0001 -76<:7447\u0001 36\u0001 8=6<7\u0001.3\u0001 ./57-:+<3-3<G\u0001./4\u00018:78:37\u00017:.36+5/6<7\u000136</:67\u0005\u00018:/>3;<7\u0001.+44B+:<\u0007 \u0001-755+\u0001 \u0005\u0001 7;<\u0007\u0001\u0006\u00012+667\u0001 :36=6-3+<7\u0001 +44+\u0001 :/13;<:+@376/\u0001/\u0005\u0001-76\u0001/;;+\u0005\u0001+44+\u000187;;3,343<G\u0001.3\u0001;<38=4+:/\u0001-76<:+<<3\u0001-744/<<3>3\u0001.3\u00014+>7:7\u0001-76\u0001/003-+-3+\u00017,,431+<7:3+\u00018/:\u0001<=<<3\u0001143\u0001 +88+:</6/6<3\u0001+44/\u0001-+</17:3/\u0001+44/\u00019=+43\u000134\u0001-76<:+<<7\u0001;3\u0001:30/:3;-/\u0005\u0001;/-76.7\u000134\u00015/--+63;57\u0001-76</584+<7\u0001.+447\u0001;</;;7\u0001+:<\u0007 \u0007 C +667\u0001:36=6-3+<7\u0001+\u00014/130/:+:/\u0005\u0001+.\u0001/;;/:/\u00014/13;4+<7:3D\u0001\u0003!76@+6/443\u0001\u0006\u0001&63>/:;3<G\u0001 +<<743-+\u0004\u0007",
       "notaRevisione": "Riquadro ricostruito: nel PDF i caratteri sono codificati e sono stati decifrati uno per uno."
     },
@@ -122,30 +138,34 @@
     {
       "id": "p029-b006",
       "pagina": 29,
-      "markdown": "**L’associazione riconosciuta.** Sono quelle associazioni con personalità giuridica, vale a dire quegli organismi dotati di autonomia patrimoniale perfetta. L'acquisizione della personalità giuridica implica l'acquisizione della piena autonomia dell'organismo rispetto agli associati sia nei confronti dei soci stessi, che di terzi estranei. Le associazioni riconosciute, assieme alle società dotate di personalità giuridica, rientrano tra le corporazioni, una della due categorie in cui si classificano tradizionalmente le persone giuridiche nei sistemi di civil law, essendo l'altra quella delle fondazioni.",
+      "markdown": "**L’[[associazione-riconosciuta|associazione riconosciuta]].** Sono quelle associazioni con [[personalita-giuridica|personalità giuridica]], vale a dire quegli organismi dotati di [[autonomia-patrimoniale|autonomia patrimoniale perfetta]]. L'acquisizione della personalità giuridica implica l'acquisizione della piena autonomia dell'organismo rispetto agli associati sia nei confronti dei soci stessi, che di terzi estranei. Le associazioni riconosciute, assieme alle società dotate di personalità giuridica, rientrano tra le corporazioni, una della due categorie in cui si classificano tradizionalmente le persone giuridiche nei sistemi di civil law, essendo l'altra quella delle fondazioni.",
       "concetti": [
-        "autonomia-patrimoniale",
         "associazione-riconosciuta",
-        "personalita-giuridica"
+        "personalita-giuridica",
+        "autonomia-patrimoniale"
       ],
       "testoFonte": "L’associazione riconosciuta. Sono quelle associazioni con personalità giuridica , vale a dire quegli organismi dotati di autonomia patrimoniale perfetta. L'acquisizione della personalità giuridica implica l'acquisizione della piena autonomia dell'organismo rispetto agli associati sia nei confronti dei soci stessi, che di terzi estranei. Le associazioni riconosciute, assieme alle società dotate di personalità giuridica, rientrano tra le corporazioni, una della due categorie in cui si classificano tradizionalmente le persone giuridiche nei sistemi di civil law , essendo l'altra quella delle fondazioni ."
     },
     {
       "id": "p029-b007",
       "pagina": 29,
-      "markdown": "La domanda di riconoscimento dev'essere presentata all'autorità competente (definite dal DPR 10 febbraio 2000, n.361, \"Regolamento recante norme per la semplificazione dei procedimenti di riconoscimento di persone giuridiche private e di approvazione delle modifiche dell'atto costitutivo e dello statuto\").\n\nIl D.P.R. 10 febbraio 2000 n. 361, modificando la normativa vigente del codice civile, ha stabilito che l'acquisto della personalità giuridica consegua di diritto all'Iscrizione nel [[registro-delle-persone-giuridiche|Registro delle persone giuridiche]] istituito presso le Prefetture e tenuto sotto la sorveglianza del Prefetto. l'iscrizione, in tal modo, assume valenza di pubblicità costitutiva. la persona giuridica, dunque, può oggi dirsi costituita non più a seguito del riconoscimento, ma soltanto dal momento della sua iscrizione nel Registro delle Persone Giuridiche, purché siano osservate: le condizioni previste da norme di legge o di regolamento per la costituzione dell'ente, la possibilità e liceità dello scopo perseguito e l'adeguatezza del patrimonio alla realizzazione dello scopo.",
+      "markdown": "La domanda di riconoscimento dev'essere presentata all'autorità competente (definite dal DPR 10 febbraio 2000, n.361, \"Regolamento recante norme per la semplificazione dei procedimenti di riconoscimento di persone giuridiche private e di approvazione delle modifiche dell'atto costitutivo e dello statuto\").\n\nIl D.P.R. 10 febbraio 2000 n. 361, modificando la normativa vigente del [[codice-civile|codice civile]], ha stabilito che l'acquisto della [[personalita-giuridica|personalità giuridica]] consegua di diritto all'Iscrizione nel [[registro-delle-persone-giuridiche|Registro delle persone giuridiche]] istituito presso le Prefetture e tenuto sotto la sorveglianza del Prefetto. l'iscrizione, in tal modo, assume valenza di [[pubblicita|pubblicità costitutiva]]. la persona giuridica, dunque, può oggi dirsi costituita non più a seguito del riconoscimento, ma soltanto dal momento della sua iscrizione nel Registro delle Persone Giuridiche, purché siano osservate: le condizioni previste da norme di legge o di regolamento per la costituzione dell'ente, la possibilità e liceità dello scopo perseguito e l'adeguatezza del patrimonio alla realizzazione dello scopo.",
       "concetti": [
-        "registro-delle-persone-giuridiche",
+        "codice-civile",
         "personalita-giuridica",
+        "registro-delle-persone-giuridiche",
+        "pubblicita",
         "ente"
       ]
     },
     {
       "id": "p029-b008",
       "pagina": 29,
-      "markdown": "L’ [[associazione-non-riconosciuta|associazione non riconosciuta]]. In questa categoria rientrano la maggior parte delle associazioni, considerati gli oneri che comporta il riconoscimento. Si tratta di organismi che godono di una capacità giuridica oggi piena (in passato non potevano acquistare per donazione o successione) ma che non hanno autonomia patrimoniale perfetta. Vale a dire che si tratta di enti privi di personalità giuridica, le cui responsabilità in sede civile, amministrativa, penale ed economico-finanziaria, ricadono su coloro che hanno agito in nome e per conto dell'associazione, anche se non iscritti ad essa.\n\nL'associazione non riconosciuta qualifica fenomeni organizzativi diversi, dai più modesti circoli ricreativi o culturali ad organismi complessi e di grandi dimensioni e con gestione di notevoli mezzi finanziari: ad oggi due tra le formazioni sociali più importanti, ossia i partiti ed i sindacati rientrano nella categoria delle associazioni non riconosciute.",
+      "markdown": "L’ [[associazione-non-riconosciuta|associazione non riconosciuta]]. In questa categoria rientrano la maggior parte delle associazioni, considerati gli oneri che comporta il riconoscimento. Si tratta di organismi che godono di una [[capacita-giuridica|capacità giuridica]] oggi piena (in passato non potevano acquistare per [[donazione|donazione]] o successione) ma che non hanno [[autonomia-patrimoniale|autonomia patrimoniale perfetta]]. Vale a dire che si tratta di enti privi di [[personalita-giuridica|personalità giuridica]], le cui responsabilità in sede civile, amministrativa, penale ed economico-finanziaria, ricadono su coloro che hanno agito in nome e per conto dell'associazione, anche se non iscritti ad essa.\n\nL'[[associazione-non-riconosciuta|associazione non riconosciuta]] qualifica fenomeni organizzativi diversi, dai più modesti circoli ricreativi o culturali ad organismi complessi e di grandi dimensioni e con gestione di notevoli mezzi finanziari: ad oggi due tra le formazioni sociali più importanti, ossia i partiti ed i sindacati rientrano nella categoria delle associazioni non riconosciute.",
       "concetti": [
         "associazione-non-riconosciuta",
+        "capacita-giuridica",
+        "donazione",
         "autonomia-patrimoniale",
         "personalita-giuridica"
       ],
@@ -154,9 +174,10 @@
     {
       "id": "p029-b009",
       "pagina": 29,
-      "markdown": "Sono comunque soggetti di diritto, autonomi rispetto ai soci, dotati di patrimonio (eventuale) che prende il nome di [[fondo-comune|fondo comune]]. Gli articoli di riferimento del Codice civile sono il 36, 37, 38 CC nonché le indicazioni previste dalla L.266/91 recante disposizione per le organizzazioni di volontariato, o i disposti del D.Lgs. del 4 dicembre 1997, n.460 che introduce la categoria di Organizzazione non lucrativa di utilità",
+      "markdown": "Sono comunque soggetti di diritto, autonomi rispetto ai soci, dotati di patrimonio (eventuale) che prende il nome di [[fondo-comune|fondo comune]]. Gli articoli di riferimento del [[codice-civile|Codice civile]] sono il 36, 37, 38 CC nonché le indicazioni previste dalla L.266/91 recante disposizione per le organizzazioni di volontariato, o i disposti del D.Lgs. del 4 dicembre 1997, n.460 che introduce la categoria di Organizzazione non lucrativa di utilità",
       "concetti": [
-        "fondo-comune"
+        "fondo-comune",
+        "codice-civile"
       ],
       "testoFonte": "Sono comunque soggetti di diritto, autonomi rispetto ai soci, dotati di patrimonio (eventuale) che prende il nome di fondo comune. Gli articoli di riferimento del Codice civile sono il 36, 37, 38 CC nonché le indicazioni previste dalla L.266/91 recante disposizione per le organizzazioni di volontariato , o i disposti del D.Lgs. del 4 dicembre 1997, n.460 che introduce la categoria di Organizzazione non lucrativa di utilità"
     },

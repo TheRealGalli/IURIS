@@ -11,8 +11,11 @@
     {
       "id": "p060-b002",
       "pagina": 60,
-      "markdown": "Art. 875 - Comunione forzosa del muro che non è sul confine. — Quando il muro si trova ad una distanza dal confine minore di un metro e mezzo ovvero a distanza minore della metà di quella stabilita dai regolamenti locali, il vicino può chiedere la comunione del muro soltanto allo scopo di fabbricare contro il muro stesso, pagando, oltre il valore della metà del muro, il valore del suolo da occupare con la nuova fabbrica, salvo che il proprietario preferisca estendere il suo muro sino al confine.\n\nIl vicino che intende domandare la comunione deve interpellare preventivamente il proprietario se preferisca di estendere il muro al confine o di procedere alla sua demolizione. Questi deve manifestare la propria volontà entro il termine di giorni quindici e deve procedere alla costruzione o alla demolizione entro sei mesi dal giorno in cui ha comunicato la risposta.",
-      "concetti": []
+      "markdown": "Art. 875 - [[comunione-forzosa|Comunione forzosa]] del muro che non è sul confine. — Quando il muro si trova ad una distanza dal confine minore di un metro e mezzo ovvero a distanza minore della metà di quella stabilita dai regolamenti locali, il vicino può chiedere la [[comunione|comunione]] del muro soltanto allo scopo di fabbricare contro il muro stesso, pagando, oltre il valore della metà del muro, il valore del suolo da occupare con la nuova fabbrica, salvo che il proprietario preferisca estendere il suo muro sino al confine.\n\nIl vicino che intende domandare la [[comunione|comunione]] deve interpellare preventivamente il proprietario se preferisca di estendere il muro al confine o di procedere alla sua demolizione. Questi deve manifestare la propria volontà entro il termine di giorni quindici e deve procedere alla costruzione o alla demolizione entro sei mesi dal giorno in cui ha comunicato la risposta.",
+      "concetti": [
+        "comunione-forzosa",
+        "comunione"
+      ]
     },
     {
       "id": "p060-b003",
@@ -107,63 +110,80 @@
     {
       "id": "p061-b007",
       "pagina": 61,
-      "markdown": "Art. 904 - Diritto di chiudere le luci. — La presenza di luci in un muro non impedisce al vicino di acquistare la comunione del muro medesimo né di costruire in aderenza. Chi acquista la comunione del muro non può chiudere le luci se ad esso non appoggia il suo edificio.",
-      "concetti": []
+      "markdown": "Art. 904 - Diritto di chiudere le luci. — La presenza di luci in un muro non impedisce al vicino di acquistare la [[comunione|comunione]] del muro medesimo né di costruire in aderenza. Chi acquista la comunione del muro non può chiudere le luci se ad esso non appoggia il suo edificio.",
+      "concetti": [
+        "comunione"
+      ]
     },
     {
       "id": "p061-b008",
       "pagina": 61,
       "markdown": "[[modi-di-acquisto-della-proprieta|Modi di acquisto della proprietà]].",
       "concetti": [
-        "modi-di-acquisto-della-proprieta"
+        "modi-di-acquisto-della-proprieta",
+        "proprieta"
       ]
     },
     {
       "id": "p061-b009",
       "pagina": 61,
-      "markdown": "Art. 922 - Modi di acquisto. — La proprietà si acquista per [[occupazione|occupazione]], per [[invenzione|invenzione]], per [[accessione|accessione]], per [[specificazione|specificazione]], per unione o commistione, per usucapione, per effetto di contratti, per successione a causa di morte e negli altri modi stabiliti dalla legge.",
+      "markdown": "Art. 922 - Modi di acquisto. — La [[proprieta|proprietà]] si acquista per [[occupazione|occupazione]], per [[invenzione|invenzione]], per [[accessione|accessione]], per [[specificazione|specificazione]], per unione o commistione, per [[usucapione|usucapione]], per effetto di [[contratto|contratti]], per successione a causa di morte e negli altri modi stabiliti dalla legge.",
       "concetti": [
+        "proprieta",
         "occupazione",
         "invenzione",
         "accessione",
-        "specificazione"
+        "specificazione",
+        "usucapione",
+        "contratto"
       ]
     },
     {
       "id": "p061-b010",
       "pagina": 61,
-      "markdown": "- MODI DI ACQUISTO “A TITOLO DERIVATIVO”: importano la successione nello stesso diritto già appartenente ad altro soggetto (gli eventuali vizi che inficiavano il titolo del precedente proprietario si riverberano anche sul successore) - contratto, successione a causa di morte, espropriazione per pubblica utilità, vendita forzata dei beni del debitore, confisca, ecc....",
-      "concetti": []
+      "markdown": "- MODI DI ACQUISTO “A TITOLO DERIVATIVO”: importano la successione nello stesso diritto già appartenente ad altro soggetto (gli eventuali vizi che inficiavano il titolo del precedente proprietario si riverberano anche sul successore) - [[contratto|contratto]], successione a causa di morte, [[espropriazione-per-pubblica-utilita|espropriazione per pubblica utilità]], vendita forzata dei beni del debitore, confisca, ecc....",
+      "concetti": [
+        "contratto",
+        "espropriazione-per-pubblica-utilita"
+      ]
     },
     {
       "id": "p061-b011",
       "pagina": 61,
-      "markdown": "- MODI DI ACQUISTO “A TITOLO ORIGINARIO”: determinano invece la nascita di un diritto nuovo, del tutto indipendente rispetto a quello eventualmente spettante sullo stesso bene ad altro precedente proprietario. Modi di acquisto della proprietà a titolo originario sono:",
+      "markdown": "- MODI DI ACQUISTO “A TITOLO ORIGINARIO”: determinano invece la nascita di un diritto nuovo, del tutto indipendente rispetto a quello eventualmente spettante sullo stesso bene ad altro precedente proprietario. [[modi-di-acquisto-della-proprieta|Modi di acquisto della proprietà]] a titolo originario sono:",
       "concetti": [
-        "modi-di-acquisto-della-proprieta"
+        "modi-di-acquisto-della-proprieta",
+        "proprieta"
       ]
     },
     {
       "id": "p062-b001",
       "pagina": 62,
-      "markdown": "A) OCCUPAZIONE: consiste nella presa di possesso, con l’intenzione di acquisirle in via permanente e definitiva, di cose mobili che non sono in proprietà di alcuno (c.d. Res nullius - es. i pesci che vivono allo stato naturale) o abbandonate (c.d. Res derelictae -es. gli oggetti lasciati nei cestini pubblici dei rifiuti). Non sono invece suscettibili di occupazione i beni immobili, in quanto se non sono di proprietà di alcuno (sono, cioè, vacanti) spettano al patrimonio dello Stato.\n\nEccezionalmente possono acquistarsi per occupazione: ⁃ mammiferi e gli uccelli facenti parte della fauna selvatica (vengono acquistati da colui che li ha abbattuti durante l'attività venatoria esercitata nel rispetto delle vigenti disposizioni in materia); ⁃ sciami d’api e gli animali mansuefatti sfuggiti al proprietario (chi li ritrova acquista la titolarità, se non vengono reclamati tempestivamente); ⁃ i conigli, i pesci ed i colombi che passano ad altra conigliera, peschiera o colombaia; ⁃ i frutti spontanei (funghi, tartufi ecc...).",
+      "markdown": "A) OCCUPAZIONE: consiste nella presa di [[possesso|possesso]], con l’intenzione di acquisirle in via permanente e definitiva, di cose mobili che non sono in [[proprieta|proprietà]] di alcuno (c.d. Res nullius - es. i pesci che vivono allo stato naturale) o abbandonate (c.d. Res derelictae -es. gli oggetti lasciati nei cestini pubblici dei rifiuti). Non sono invece suscettibili di occupazione i [[beni-immobili|beni immobili]], in quanto se non sono di proprietà di alcuno (sono, cioè, vacanti) spettano al patrimonio dello Stato.\n\nEccezionalmente possono acquistarsi per occupazione: ⁃ mammiferi e gli uccelli facenti parte della fauna selvatica (vengono acquistati da colui che li ha abbattuti durante l'attività venatoria esercitata nel rispetto delle vigenti disposizioni in materia); ⁃ sciami d’api e gli animali mansuefatti sfuggiti al proprietario (chi li ritrova acquista la titolarità, se non vengono reclamati tempestivamente); ⁃ i conigli, i pesci ed i colombi che passano ad altra conigliera, peschiera o colombaia; ⁃ i frutti spontanei (funghi, tartufi ecc...).",
       "concetti": [
+        "possesso",
+        "proprieta",
+        "beni-immobili",
         "occupazione"
       ]
     },
     {
       "id": "p062-b002",
       "pagina": 62,
-      "markdown": "Art. 923 - Cose suscettibili di occupazione. — Le cose mobili che non sono proprietà di alcuno si acquistano con l’occupazione. Tali sono le cose abbandonate e gli animali che formano oggetto di caccia o di pesca.",
+      "markdown": "Art. 923 - Cose suscettibili di occupazione. — Le cose mobili che non sono [[proprieta|proprietà]] di alcuno si acquistano con l’occupazione. Tali sono le cose abbandonate e gli animali che formano oggetto di caccia o di pesca.",
       "concetti": [
+        "proprieta",
         "occupazione"
       ]
     },
     {
       "id": "p062-b003",
       "pagina": 62,
-      "markdown": "Art. 827. Beni immobili vacanti. — I beni immobili che non sono in proprietà di alcuno spettano al patrimonio dello Stato",
-      "concetti": []
+      "markdown": "Art. 827. [[beni-immobili|Beni immobili]] vacanti. — I beni immobili che non sono in [[proprieta|proprietà]] di alcuno spettano al patrimonio dello Stato",
+      "concetti": [
+        "beni-immobili",
+        "proprieta"
+      ]
     },
     {
       "id": "p062-b004",
@@ -186,8 +206,9 @@
     {
       "id": "p062-b007",
       "pagina": 62,
-      "markdown": "B) INVENZIONE: riguarda solo le cose mobili smarrite (di cui, cioè, il proprietario ignori il luogo in cui si trovano). Queste debbono essere restituite al proprietario o, qualora non se ne conosca l’identità, consegnate al sindaco; trascorso un anno, se la cosa è stata consegnata al sindaco e non si presenta il proprietario, la proprietà spetta a colui che l’ha trovata. Se invece si presenta il proprietario, questi deve al ritrovatore un premio proporzionale al valore della cosa smarrita.\n\nUna particolare forma di invenzione è quella che riguarda il [[tesoro|TESORO]], per tale intendendosi una cosa mobile di pregio, nascosta o sotterrata, di cui nessuno può provare di essere proprietario: esso diviene immediatamente (senza cioè alcun obbligo di consegna all'Autorità) di proprietà del titolare del fondo in cui si trova; ma, se è trovato, per solo effetto del caso, nel fondo altrui, spetta per metà al proprietario e per metà al ritrovatore.",
+      "markdown": "B) INVENZIONE: riguarda solo le cose mobili smarrite (di cui, cioè, il proprietario ignori il luogo in cui si trovano). Queste debbono essere restituite al proprietario o, qualora non se ne conosca l’identità, consegnate al sindaco; trascorso un anno, se la cosa è stata consegnata al sindaco e non si presenta il proprietario, la [[proprieta|proprietà]] spetta a colui che l’ha trovata. Se invece si presenta il proprietario, questi deve al ritrovatore un premio proporzionale al valore della cosa smarrita.\n\nUna particolare forma di invenzione è quella che riguarda il [[tesoro|TESORO]], per tale intendendosi una cosa mobile di pregio, nascosta o sotterrata, di cui nessuno può provare di essere proprietario: esso diviene immediatamente (senza cioè alcun obbligo di consegna all'Autorità) di [[proprieta|proprietà]] del titolare del fondo in cui si trova; ma, se è trovato, per solo effetto del caso, nel fondo altrui, spetta per metà al proprietario e per metà al ritrovatore.",
       "concetti": [
+        "proprieta",
         "tesoro",
         "invenzione"
       ]
@@ -209,17 +230,19 @@
     {
       "id": "p062-b010",
       "pagina": 62,
-      "markdown": "C) ACCESSIONE: opera in caso di stabile incorporazione (per opera dell’uomo od anche per evento naturale) di beni di proprietari diversi: in tale ipotesi di regola il proprietario della cosa principale acquista la proprietà delle cose che vengono in essa incorporate. Al riguardo occorre distinguere fra:",
+      "markdown": "C) [[accessione|ACCESSIONE]]: opera in caso di stabile incorporazione (per opera dell’uomo od anche per evento naturale) di beni di proprietari diversi: in tale ipotesi di regola il proprietario della cosa principale acquista la [[proprieta|proprietà]] delle cose che vengono in essa incorporate. Al riguardo occorre distinguere fra:",
       "concetti": [
-        "accessione"
+        "accessione",
+        "proprieta"
       ]
     },
     {
       "id": "p062-b011",
       "pagina": 62,
-      "markdown": "- accessione di mobile ad immobile: importa che di regola qualunque piantagione, costruzione od opera esistente sopra o sotto il suolo appartiene al proprietario di questo. Il proprietario del suolo acquista ex lege (senza necessità di una sua dichiarazione di volontà e senza bisogno che lo sappia) la proprietà di quanto nello stesso suolo venga da chiunque incorporato (superficies solo",
+      "markdown": "- [[accessione|accessione]] di mobile ad immobile: importa che di regola qualunque piantagione, costruzione od opera esistente sopra o sotto il suolo appartiene al proprietario di questo. Il proprietario del suolo acquista ex lege (senza necessità di una sua dichiarazione di volontà e senza bisogno che lo sappia) la [[proprieta|proprietà]] di quanto nello stesso suolo venga da chiunque incorporato (superficies solo",
       "concetti": [
-        "accessione"
+        "accessione",
+        "proprieta"
       ],
       "testoFonte": "- accessione di mobile ad immobile : importa che di regola qualunque piantagione, costruzione od opera esistente sopra o sotto il suolo appartiene al proprietario di questo. Il proprietario del suolo acquista ex lege (senza necessità di una sua dichiarazione di volontà e senza bisogno che lo sappia) la proprietà di quanto nello stesso suolo venga da chiunque incorporato ( superficies solo"
     },
@@ -238,9 +261,11 @@
     {
       "id": "p063-b003",
       "pagina": 63,
-      "markdown": "Siffatta regola (peraltro derogabile per volontà delle parti mediante costituzione di un diritto di superficie) importa la necessità di contemperare i contrapposti interessi del proprietario del suolo, (che per effetto dell'accessione acquista la proprietà dei materiali impiegati sul suo fondo), con quelli del proprietario di questi ultimi (che per l'operare di questo principio perde invece la proprietà sugli stessi), se diverso: allo scopo provvedono gli artt. 935, 936, 937.",
+      "markdown": "Siffatta regola (peraltro derogabile per volontà delle parti mediante costituzione di un [[superficie|diritto di superficie]]) importa la necessità di contemperare i contrapposti interessi del proprietario del suolo, (che per effetto dell'[[accessione|accessione]] acquista la [[proprieta|proprietà]] dei materiali impiegati sul suo fondo), con quelli del proprietario di questi ultimi (che per l'operare di questo principio perde invece la proprietà sugli stessi), se diverso: allo scopo provvedono gli artt. 935, 936, 937.",
       "concetti": [
-        "accessione"
+        "superficie",
+        "accessione",
+        "proprieta"
       ]
     },
     {
@@ -252,10 +277,11 @@
     {
       "id": "p063-b005",
       "pagina": 63,
-      "markdown": "**Approfondimento.** [[accessione-invertita|ACCESSIONE INVERTITA]]: La regola secondo cui «superficies solo cedit» viene peraltro derogata (anzi, ribaltata, nel senso che è il suolo a cedere a quanto in esso impiantato) in ipotesi di c.d. «accessione invertita», che si configura allorquando nel realizzare una costruzione, il proprietario finitimo sconfina sul fondo altrui, sicché l’edificio viene ad insistere a cavallo tra due fondi: se la parte realizzata sul terreno altrui non ha una propria autonomia funzionale, se l’autore dello sconfinamento opera nel ragionevole convincimento di edificare sul proprio suolo (buona fede), se il proprietario del fondo occupato non fa opposizione entro 3 mesi dal giorno in cui la costruzione sul suo fondo ha avuto inizio, il proprietario sconfinante può chiedere che il giudice, con sentenza costitutiva, gli trasferisca la proprietà del suolo occupato (con la sovrastante porzione immobiliare) a fronte del pagamento, a favore del confinante, di una somma pari al doppio del valore della superficie occupata.",
+      "markdown": "**Approfondimento.** [[accessione-invertita|ACCESSIONE INVERTITA]]: La regola secondo cui «superficies solo cedit» viene peraltro derogata (anzi, ribaltata, nel senso che è il suolo a cedere a quanto in esso impiantato) in ipotesi di c.d. «[[accessione|accessione]] invertita», che si configura allorquando nel realizzare una costruzione, il proprietario finitimo sconfina sul fondo altrui, sicché l’edificio viene ad insistere a cavallo tra due fondi: se la parte realizzata sul terreno altrui non ha una propria autonomia funzionale, se l’autore dello sconfinamento opera nel ragionevole convincimento di edificare sul proprio suolo (buona fede), se il proprietario del fondo occupato non fa opposizione entro 3 mesi dal giorno in cui la costruzione sul suo fondo ha avuto inizio, il proprietario sconfinante può chiedere che il giudice, con sentenza costitutiva, gli trasferisca la [[proprieta|proprietà]] del suolo occupato (con la sovrastante porzione immobiliare) a fronte del pagamento, a favore del confinante, di una somma pari al doppio del valore della superficie occupata.",
       "concetti": [
         "accessione-invertita",
-        "accessione"
+        "accessione",
+        "proprieta"
       ],
       "testoFonte": "\u0001\u0001) 88:7076.35/6<7\u0001\u0006\u0006\u0001 $$ \u0001 ' #% % \u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001 +\u0001:/174+\u0001;/-76.7\u0001-=3\u0001C;=8/:03-3/;\u0001;747\u0001-/.3<D\u0001>3/6/\u00018/:+4<:7\u0001./:71+<+\u0001\u0003+6@3\u0005\u0001:3,+4<+<+\u0005\u00016/4\u0001;/6;7\u0001-2/\u0001I\u000134\u0001;=747\u0001 +\u0001-/./:/\u0001+\u00019=+6<7\u0001 36\u0001 /;;7\u0001 3583+6<+<7\u0004\u000136\u0001 387</;3\u0001.3\u0001 -\u0007.\u0007\u0001C+--/;;376/\u000136>/:<3<+D\u0005\u0001-2/\u0001;3\u0001 -76031=:+\u0001+447:9=+6.7\u0001 6/4\u0001 :/+43@@+:/\u0001 =6+\u0001 -7;<:=@376/\u0005\u0001 34\u0001 8:78:3/<+:37\u0001 0363<357\u0001 ;-76036+\u0001 ;=4\u0001 076.7\u0001 +4<:=3\u0005\u0001 ;3--2H\u0001 4B/.303-37\u0001 >3/6/\u0001 +.\u0001 36;3;</:/\u0001 +\u0001 -+>+447\u0001 <:+\u0001 .=/\u0001 076.3 \u0001 ;/\u0001 4+\u0001 8+:</\u0001 :/+43@@+<+\u0001 ;=4\u0001 </::/67\u0001 +4<:=3\u0001 676\u0001 2+\u0001 =6+\u0001 8:78:3+\u0001 +=<76753+\u0001 0=6@376+4/\u0005\u0001;/\u0001 4B+=<7:/\u0001 ./447\u0001 ;-76036+5/6<7\u0001 78/:+\u0001 6/4\u0001 :+1376/>74/\u0001 -76>36-35/6<7\u0001 .3\u0001 /.303-+:/\u0001 ;=4\u0001 8:78:37\u0001 ;=747\u0001\u0003,=76+\u00010/./\u0004\u0005\u0001;/\u000134\u00018:78:3/<+:37\u0001 ./4\u0001076.7\u0001 7--=8+<7\u0001676\u00010+\u00017887;3@376/\u0001/6<:7\u0001 \u00015/;3\u0001.+4\u0001137:67\u000136\u0001 -=3\u0001 4+\u0001 -7;<:=@376/\u0001 ;=4\u0001 ;=7\u0001 076.7\u0001 2+\u0001+>=<7\u0001 363@37\u0005\u0001 34\u0001 8:78:3/<+:37\u0001 ;-76036+6</\u0001 8=ò \u0001-23/./:/\u0001-2/\u0001 34\u0001 13=.3-/\u0005\u0001 -76\u0001 ;/6</6@+\u0001 -7;<3<=<3>+\u0005\u0001 143\u0001 <:+;0/:3;-+\u0001 4+\u0001 8:78:3/<G\u0001 ./4\u0001 ;=747\u0001 7--=8+<7\u0001 \u0003-76\u0001 4+\u0001 ;7>:+;<+6</\u0001 87:@376/\u0001 3557,343+:/\u0004\u0001+\u00010:76</\u0001./4\u00018+1+5/6<7\u0005\u0001+\u00010+>7:/\u0001./4\u0001-76036+6</\u0005\u0001.3\u0001=6+\u0001;755+\u00018+:3\u0001+4\u0001.78837\u0001./4\u0001>+47:/\u0001./44+\u0001 ;=8/:03-3/\u00017--=8+<+\u0007*",
       "notaRevisione": "Riquadro ricostruito: nel PDF i caratteri sono codificati e sono stati decifrati uno per uno."
@@ -263,15 +289,16 @@
     {
       "id": "p063-b006",
       "pagina": 63,
-      "markdown": "Art. 938 - Occupazione di porzione di fondo attiguo. — Se nella costruzione di un edificio si occupa in buona fede una porzione del fondo attiguo, e il proprietario di questo non fa opposizione entro tre mesi dal giorno in cui ebbe inizio la costruzione, l’autorità giudiziaria, tenuto conto delle circostanze, può attribuire al costruttore la proprietà dell’edificio e del suolo occupato. Il costruttore è tenuto a pagare al proprietario del suolo il doppio del valore della superficie occupata, oltre il risarcimento dei danni.",
+      "markdown": "Art. 938 - Occupazione di porzione di fondo attiguo. — Se nella costruzione di un edificio si occupa in buona fede una porzione del fondo attiguo, e il proprietario di questo non fa opposizione entro tre mesi dal giorno in cui ebbe inizio la costruzione, l’autorità giudiziaria, tenuto conto delle circostanze, può attribuire al costruttore la [[proprieta|proprietà]] dell’edificio e del suolo occupato. Il costruttore è tenuto a pagare al proprietario del suolo il doppio del valore della superficie occupata, oltre il risarcimento dei danni.",
       "concetti": [
+        "proprieta",
         "occupazione"
       ]
     },
     {
       "id": "p063-b007",
       "pagina": 63,
-      "markdown": "- accessione di immobile ad immobile, essa si articola nelle seguenti figure:\n1) l’“alluvione”: accrescimento, successivo e impercettibile, dei fondi rivieraschi di fiumi e torrenti per l’azione dell’acqua corrente: siffatti terreni alluvionali appartengono al proprietario del fondo incrementato;",
+      "markdown": "- [[accessione|accessione]] di immobile ad immobile, essa si articola nelle seguenti figure:\n1) l’“alluvione”: accrescimento, successivo e impercettibile, dei fondi rivieraschi di fiumi e torrenti per l’azione dell’acqua corrente: siffatti terreni alluvionali appartengono al proprietario del fondo incrementato;",
       "concetti": [
         "accessione"
       ]
@@ -295,15 +322,16 @@
     {
       "id": "p063-b010",
       "pagina": 63,
-      "markdown": "Art. 944 - Avulsione. — Se un fiume o torrente stacca per forza istantanea una parte considerevole e riconoscibile di un fondo contiguo al suo corso e la trasporta verso un fondo inferiore o verso l’opposta riva, il proprietario del fondo al quale si è unita la parte staccata ne acquista la proprietà. Deve però pagare all’altro proprietario un’indennità nei limiti del maggior valore recato al fondo dall’avulsione.",
+      "markdown": "Art. 944 - Avulsione. — Se un fiume o torrente stacca per forza istantanea una parte considerevole e riconoscibile di un fondo contiguo al suo corso e la trasporta verso un fondo inferiore o verso l’opposta riva, il proprietario del fondo al quale si è unita la parte staccata ne acquista la [[proprieta|proprietà]]. Deve però pagare all’altro proprietario un’indennità nei limiti del maggior valore recato al fondo dall’avulsione.",
       "concetti": [
+        "proprieta",
         "accessione"
       ]
     },
     {
       "id": "p063-b011",
       "pagina": 63,
-      "markdown": "**Approfondimento.** Non costituiscono più oggi ipotesi di accessione né quella dei terreni abbandonati dalle acque correnti, né quella dell’alveo derelitto (cioè, i terreni abbandonati dalle acque di un fiume che si forma un nuovo letto), né quella delle isole che si formano nel letto di fiumi o torrenti: detti beni sono, ora, parte del demanio pubblico.",
+      "markdown": "**Approfondimento.** Non costituiscono più oggi ipotesi di [[accessione|accessione]] né quella dei terreni abbandonati dalle acque correnti, né quella dell’alveo derelitto (cioè, i terreni abbandonati dalle acque di un fiume che si forma un nuovo letto), né quella delle isole che si formano nel letto di fiumi o torrenti: detti beni sono, ora, parte del demanio pubblico.",
       "concetti": [
         "accessione"
       ],

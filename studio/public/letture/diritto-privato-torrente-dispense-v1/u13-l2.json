@@ -11,14 +11,19 @@
     {
       "id": "p104-b001",
       "pagina": 104,
-      "markdown": "I contratti stipulati dalle società di factoring sono assoggettati alla disciplina sulla trasparenza delle operazioni bancarie e finanziarie prevista dal decreto legislativo n. 385 del 1993, in quanto dette società sono comprese tra i soggetti che esercitano professionalmente attività di prestito e finanziamento.",
-      "concetti": []
+      "markdown": "I [[contratto|contratti]] stipulati dalle società di [[factoring|factoring]] sono assoggettati alla disciplina sulla trasparenza delle operazioni bancarie e finanziarie prevista dal decreto legislativo n. 385 del 1993, in quanto dette società sono comprese tra i soggetti che esercitano professionalmente attività di prestito e finanziamento.",
+      "concetti": [
+        "contratto",
+        "factoring"
+      ]
     },
     {
       "id": "p104-b002",
       "pagina": 104,
-      "markdown": "**La cartolarizzazione dei crediti.** La Cartolarizzazione, detta anche Securisation, è rappresentata dalla cessione a titolo oneroso di crediti da parte di un’impresa (originator) a un soggetto (società veicolo) che li trasforma in titoli (asset-backed securities) e li colloca sul mercato finanziario.",
-      "concetti": []
+      "markdown": "**La [[cartolarizzazione|cartolarizzazione]] dei crediti.** La Cartolarizzazione, detta anche Securisation, è rappresentata dalla cessione a titolo oneroso di crediti da parte di un’impresa (originator) a un soggetto (società veicolo) che li trasforma in titoli (asset-backed securities) e li colloca sul mercato finanziario.",
+      "concetti": [
+        "cartolarizzazione"
+      ]
     },
     {
       "id": "p104-b003",
@@ -35,8 +40,10 @@
     {
       "id": "p104-b005",
       "pagina": 104,
-      "markdown": "- deve effettuare una o più operazioni di cartolarizzazione;",
-      "concetti": []
+      "markdown": "- deve effettuare una o più operazioni di [[cartolarizzazione|cartolarizzazione]];",
+      "concetti": [
+        "cartolarizzazione"
+      ]
     },
     {
       "id": "p104-b006",
@@ -47,20 +54,29 @@
     {
       "id": "p104-b007",
       "pagina": 104,
-      "markdown": "Detto questo, è importante specificare come la Cartolarizzazione dei crediti si suddivida, a sua volta, in due tipologie:",
-      "concetti": []
+      "markdown": "Detto questo, è importante specificare come la [[cartolarizzazione|Cartolarizzazione]] dei crediti si suddivida, a sua volta, in due tipologie:",
+      "concetti": [
+        "cartolarizzazione"
+      ]
     },
     {
       "id": "p104-b008",
       "pagina": 104,
-      "markdown": "- **Dualistica:** l’operazione è formata da due distinti contratti (cessione di credito del creditore originario alla società di cartolarizzazione più contratto di finanziamento ossia un mutuo erogato dalla società ai sottoscrittori dei titoli emessi dalla società di cartolarizzazione), uniti da un collegamento legale.",
-      "concetti": []
+      "markdown": "- **Dualistica:** l’operazione è formata da due distinti contratti (cessione di credito del creditore originario alla società di [[cartolarizzazione|cartolarizzazione]] più [[contratto|contratto]] di finanziamento ossia un [[mutuo|mutuo]] erogato dalla società ai sottoscrittori dei titoli emessi dalla società di cartolarizzazione), uniti da un collegamento legale.",
+      "concetti": [
+        "cartolarizzazione",
+        "contratto",
+        "mutuo"
+      ]
     },
     {
       "id": "p104-b009",
       "pagina": 104,
-      "markdown": "- **Monistica:** tra i due momenti c’è un nesso talmente stretto da farla ritenere unica cioè un contratto avente un’unitaria causa quale la cartolarizzazione.",
-      "concetti": []
+      "markdown": "- **Monistica:** tra i due momenti c’è un nesso talmente stretto da farla ritenere unica cioè un [[contratto|contratto]] avente un’unitaria causa quale la [[cartolarizzazione|cartolarizzazione]].",
+      "concetti": [
+        "contratto",
+        "cartolarizzazione"
+      ]
     },
     {
       "id": "p104-b010",
@@ -71,8 +87,9 @@
     {
       "id": "p104-b011",
       "pagina": 104,
-      "markdown": "**La delegazione attiva.** Il codice civile si occupa solo della [[delegazione-passiva|delegazione passiva]]. Si ritiene tuttavia che possa rientrare nell’autonomia negoziale delle parti dar luogo anche ad una delegazione attiva. La delegazione attiva consiste in un accordo ”trilaterale” tra creditore (delegante), debitore (delegato) e un terzo, (delegatario), con il quale il creditore dà mandato al debitore che accetta, di pagare al terzo (es. Tizio creditore di Caio volendo gratificare il figlio Sempronio trasferisce a lui il credito dovuto).\n\nAl creditore originario (delegante) si aggiunge il terzo (delegatario), ma senza estinzione del diritto del primo, cosicché, in caso di successiva inadempienza da parte del debitore, contro quest’ultimo potrà ancora agire pure il primo creditore (c.d. effetto cumulativo).",
+      "markdown": "**La delegazione attiva.** Il [[codice-civile|codice civile]] si occupa solo della [[delegazione-passiva|delegazione passiva]]. Si ritiene tuttavia che possa rientrare nell’autonomia negoziale delle parti dar luogo anche ad una delegazione attiva. La delegazione attiva consiste in un accordo ”trilaterale” tra creditore (delegante), debitore (delegato) e un terzo, (delegatario), con il quale il creditore dà mandato al debitore che accetta, di pagare al terzo (es. Tizio creditore di Caio volendo gratificare il figlio Sempronio trasferisce a lui il credito dovuto).\n\nAl creditore originario (delegante) si aggiunge il terzo (delegatario), ma senza estinzione del diritto del primo, cosicché, in caso di successiva inadempienza da parte del debitore, contro quest’ultimo potrà ancora agire pure il primo creditore (c.d. effetto cumulativo).",
       "concetti": [
+        "codice-civile",
         "delegazione-passiva"
       ],
       "testoFonte": "La delegazione attiva. Il codice civile si occupa solo della delegazione passiva. Si ritiene tuttavia che possa rientrare nell’autonomia negoziale delle parti dar luogo anche ad una delegazione attiva. La delegazione attiva consiste in un accordo ”trilaterale” tra creditore (delegante) , debitore (delegato) e un terzo, (delegatario), con il quale il creditore dà mandato al debitore che accetta, di pagare al terzo (es. Tizio creditore di Caio volendo gratificare il figlio Sempronio trasferisce a lui il credito dovuto). Al creditore originario (delegante) si aggiunge il terzo (delegatario), ma senza estinzione del diritto del primo, cosicché, in caso di successiva inadempienza da parte del debitore, contro quest’ultimo potrà ancora agire pure il primo creditore (c.d. effetto cumulativo)."
@@ -86,17 +103,19 @@
     {
       "id": "p104-b013",
       "pagina": 104,
-      "markdown": "Le singole ipotesi di modificazione nel lato passivo del rapporto obbligatorio. La modificazione del soggetto passivo del rapporto obbligatorio - oltre che in conseguenza di cessione del contratto e di cessione dell’azienda - può realizzarsi, a titolo particolare mediante le figure: a) della delegazione passiva (artt. 1268-1271 cod. civ.); b) dell’[[espromissione|espromissione]] (art. 1272 cod. civ.); c) dell’[[accollo|accollo]] (art. 1273 cod. civ.).\n\nTrattandosi del soggetto passivo del rapporto occorre tenere presente che, a differenza del debitore, per il creditore non è affatto indifferente avere come debitore un soggetto anzichè un altro (es. perchè l’uno può essere solvibile e l’altro no). Perciò la sostituzione del debitore non è possibile senza l’espressa volontà del creditore; se questa manca, il precedente debitore non viene liberato, ma si aggiunge un nuovo soggetto passivo a quello che già c’era.",
+      "markdown": "Le singole ipotesi di modificazione nel lato passivo del rapporto obbligatorio. La modificazione del soggetto passivo del rapporto obbligatorio - oltre che in conseguenza di [[cessione-del-contratto|cessione del contratto]] e di cessione dell’azienda - può realizzarsi, a titolo particolare mediante le figure: a) della [[delegazione-passiva|delegazione passiva]] (artt. 1268-1271 cod. civ.); b) dell’[[espromissione|espromissione]] (art. 1272 cod. civ.); c) dell’[[accollo|accollo]] (art. 1273 cod. civ.).\n\nTrattandosi del soggetto passivo del rapporto occorre tenere presente che, a differenza del debitore, per il creditore non è affatto indifferente avere come debitore un soggetto anzichè un altro (es. perchè l’uno può essere solvibile e l’altro no). Perciò la sostituzione del debitore non è possibile senza l’espressa volontà del creditore; se questa manca, il precedente debitore non viene liberato, ma si aggiunge un nuovo soggetto passivo a quello che già c’era.",
       "concetti": [
+        "cessione-del-contratto",
+        "delegazione-passiva",
         "espromissione",
         "accollo",
-        "delegazione-passiva"
+        "contratto"
       ]
     },
     {
       "id": "p104-b014",
       "pagina": 104,
-      "markdown": "**La delegazione passiva.** La delegazione passiva si distingue in delegazione a promettere e delegazione di pagamento. La delegazione a promettere consiste in un negozio trilaterale fra debitore (delegante) creditore (delegatario) ed un terzo (delegato) in forza del quale il debitore delega il terzo ad obbligarsi ad effettuare il pagamento a favore del creditore.",
+      "markdown": "**La [[delegazione-passiva|delegazione passiva]].** La delegazione passiva si distingue in delegazione a promettere e delegazione di pagamento. La delegazione a promettere consiste in un negozio trilaterale fra debitore (delegante) creditore (delegatario) ed un terzo (delegato) in forza del quale il debitore delega il terzo ad obbligarsi ad effettuare il pagamento a favore del creditore.",
       "concetti": [
         "delegazione-passiva"
       ]
@@ -104,43 +123,53 @@
     {
       "id": "p105-b001",
       "pagina": 105,
-      "markdown": "Il delegante non viene liberato dal debito originario ma resta obbligato insieme al delegato (delegazione cumulativa), anche se il delegatario può con dichiarazione espressa acconsentire a liberare subito il delegante conservando come unico debitore il delegato (delegazione liberatoria). La delegazione liberatoria comporta l’estinzione delle garanzie di credito a meno che non diversamente convenuto: qualora il delegato risulti insolvente il delegatario mantiene il suo diritto di credito verso il delegante nonostante la liberazione.\n\nL’obbligazione del delegato è diversamente regolata a seconda che, nell’accordo di delegazione, venga o meno fatto riferimento ad uno o ad entrambi i rapporti intercorrenti fra le parti: in caso affermativo (delegazione titolata), in caso negativo (delegazione pura): Infatti il delegato: - qualora abbia promesso di pagare al delegatario quanto esso delegato deve al delegante (in base al rapporto di provvista), potrà opporre al delegatario tutte le eccezioni che avrebbe potuto opporre al delegante; - qualora abbia promesso di pagare al delegatario quanto questi deve ricevere dal delegante (in base al rapporto di valuta) potrà opporre al delegatario tutte le eccezioni che a quest’ultimo avrebbe potuto opporre il delegante; - qualora abbia promesso di pagare al delegatario quanto questi deve ricevere dal delegante (in base al rapporto di valuta) ma nei limiti di quanto da esso delegato dovuto al delegante (in base al rapporto di provvista), potrò opporre al delegatario sia le eccezioni che a quest’ultimo avrebbe potuto opporre il delegante, sia quelle che esso delegato avrebbe potuto opporre al delegante; - qualora abbia promesso di eseguire al delegatario un pagamento non riferito nè al rapporto di provvista nè al rapporto di valuta (delegazione pura), non potrò opporre al delegatario le eccezioni che inficino l’uno o l’altro rapporto di base.\n\nIn ogni caso il delegato potrà opporre al delegatario le eccezioni (es. la nullità dell’accordo di delegazione) relative ai suoi rapporti con quest’ultimo (art. 1271 cod. civ.). La delegazione di pagamento (c.d. delegatio solvendi) consiste in un accordo tra il debitore e un terzo, in forza del quale il debitore (delegante) delega al terzo (delegato) ad effettuare senz’altro una determinata prestazione a favore del creditore (delegatario): la delegazione di pagamento ha dunque funzione immediatamente solutoria dell’obbligazione, non già di mera modificazione del soggetto passivo di essa.\n\nIl pagamento effettuato dal delegato nelle mani del delegatario vale, nei rapporti fra delegante e delegatario, come effettuato a quest’ultimo dal delegante; e, nei rapporti fra delegante e delegato, vale come effettuato dal delegante al delegato. Il delegante può revocare la delegazione fino a quando il delegato non abbia assunto l’obbligazione nei confronti del delegatario o non abbia eseguito il pagamento a favore di quest’ultimo (art. 1270 cod. civ.).",
-      "concetti": [],
+      "markdown": "Il delegante non viene liberato dal debito originario ma resta obbligato insieme al delegato (delegazione cumulativa), anche se il delegatario può con dichiarazione espressa acconsentire a liberare subito il delegante conservando come unico debitore il delegato (delegazione liberatoria). La delegazione liberatoria comporta l’estinzione delle garanzie di credito a meno che non diversamente convenuto: qualora il delegato risulti insolvente il delegatario mantiene il suo diritto di credito verso il delegante nonostante la liberazione.\n\nL’[[obbligazione|obbligazione]] del delegato è diversamente regolata a seconda che, nell’accordo di delegazione, venga o meno fatto riferimento ad uno o ad entrambi i rapporti intercorrenti fra le parti: in caso affermativo (delegazione titolata), in caso negativo (delegazione pura): Infatti il delegato: - qualora abbia promesso di pagare al delegatario quanto esso delegato deve al delegante (in base al rapporto di provvista), potrà opporre al delegatario tutte le eccezioni che avrebbe potuto opporre al delegante; - qualora abbia promesso di pagare al delegatario quanto questi deve ricevere dal delegante (in base al rapporto di valuta) potrà opporre al delegatario tutte le eccezioni che a quest’ultimo avrebbe potuto opporre il delegante; - qualora abbia promesso di pagare al delegatario quanto questi deve ricevere dal delegante (in base al rapporto di valuta) ma nei limiti di quanto da esso delegato dovuto al delegante (in base al rapporto di provvista), potrò opporre al delegatario sia le eccezioni che a quest’ultimo avrebbe potuto opporre il delegante, sia quelle che esso delegato avrebbe potuto opporre al delegante; - qualora abbia promesso di eseguire al delegatario un pagamento non riferito nè al rapporto di provvista nè al rapporto di valuta (delegazione pura), non potrò opporre al delegatario le eccezioni che inficino l’uno o l’altro rapporto di base.\n\nIn ogni caso il delegato potrà opporre al delegatario le eccezioni (es. la [[nullita|nullità]] dell’accordo di delegazione) relative ai suoi rapporti con quest’ultimo (art. 1271 cod. civ.). La delegazione di pagamento (c.d. delegatio solvendi) consiste in un accordo tra il debitore e un terzo, in forza del quale il debitore (delegante) delega al terzo (delegato) ad effettuare senz’altro una determinata prestazione a favore del creditore (delegatario): la delegazione di pagamento ha dunque funzione immediatamente solutoria dell’[[obbligazione|obbligazione]], non già di mera modificazione del soggetto passivo di essa.\n\nIl pagamento effettuato dal delegato nelle mani del delegatario vale, nei rapporti fra delegante e delegatario, come effettuato a quest’ultimo dal delegante; e, nei rapporti fra delegante e delegato, vale come effettuato dal delegante al delegato. Il delegante può revocare la delegazione fino a quando il delegato non abbia assunto l’[[obbligazione|obbligazione]] nei confronti del delegatario o non abbia eseguito il pagamento a favore di quest’ultimo (art. 1270 cod. civ.).",
+      "concetti": [
+        "obbligazione",
+        "nullita"
+      ],
       "testoFonte": "Il delegante non viene liberato dal debito originario ma resta obbligato insieme al delegato (delegazione cumulativa), anche se il delegatario può con dichiarazione espressa acconsentire a liberare subito il delegante conservando come unico debitore il delegato (delegazione liberatoria). La delegazione liberatoria comporta l’estinzione delle garanzie di credito a meno che non diversamente convenuto: qualora il delegato risulti insolvente il delegatario mantiene il suo diritto di credito verso il delegante nonostante la liberazione. L’obbligazione del delegato è diversamente regolata a seconda che, nell’accordo di delegazione, venga o meno fatto riferimento ad uno o ad entrambi i rapporti intercorrenti fra le parti: in caso affermativo (delegazione titolata), in caso negativo (delegazione pura): Infatti il delegato: - qualora abbia promesso di pagare al delegatario quanto esso delegato deve al delegante (in base al rapporto di provvista), potrà opporre al delegatario tutte le eccezioni che avrebbe potuto opporre al delegante; - qualora abbia promesso di pagare al delegatario quanto questi deve ricevere dal delegante (in base al rapporto di valuta) potrà opporre al delegatario tutte le eccezioni che a quest’ultimo avrebbe potuto opporre il delegante; - qualora abbia promesso di pagare al delegatario quanto questi deve ricevere dal delegante (in base al rapporto di valuta) ma nei limiti di quanto da esso delegato dovuto al delegante (in base al rapporto di provvista), potrò opporre al delegatario sia le eccezioni che a quest’ultimo avrebbe potuto opporre il delegante, sia quelle che esso delegato avrebbe potuto opporre al delegante; - qualora abbia promesso di eseguire al delegatario un pagamento non riferito nè al rapporto di provvista nè al rapporto di valuta ( delegazione pura), non potrò opporre al delegatario le eccezioni che inficino l’uno o l’altro rapporto di base. In ogni caso il delegato potrà opporre al delegatario le eccezioni (es. la nullità dell’accordo di delegazione) relative ai suoi rapporti con quest’ultimo (art. 1271 cod. civ.). La delegazione di pagamento (c.d. delegatio solvendi) consiste in un accordo tra il debitore e un terzo, in forza del quale il debitore (delegante) delega al terzo (delegato) ad effettuare senz’altro una determinata prestazione a favore del creditore (delegatario): la delegazione di pagamento ha dunque funzione immediatamente solutoria dell’obbligazione, non già di mera modificazione del soggetto passivo di essa. Il pagamento effettuato dal delegato nelle mani del delegatario vale, nei rapporti fra delegante e delegatario, come effettuato a quest’ultimo dal delegante; e, nei rapporti fra delegante e delegato, vale come effettuato dal delegante al delegato. Il delegante può revocare la delegazione fino a quando il delegato non abbia assunto l’obbligazione nei confronti del delegatario o non abbia eseguito il pagamento a favore di quest’ultimo (art. 1270 cod. civ.)."
     },
     {
       "id": "p105-b002",
       "pagina": 105,
-      "markdown": "**L’espromissione.** L’espromissione consiste in un contratto fra il creditore ed un terzo, in forza del quale quest’ultimo (espromittente) si impegna, nei confronti del primo (espromissario) a pagare il debito - gia esistente - dell’obbligato originario (espromesso) (es. padre che si fa carico del debito di un figlio). Quest’obbligo può essere assunto spontaneamente, ossia senza il consenso o l’incarico del debitore, dal momento che si tratta di un atto vantaggioso per costui. L’elemento differenziale tra la delegazione e l’espromissione consiste nella spontaneità dell’iniziativa del terzo.\n\nIl terzo subentra nella stessa posizione del debitore originario perciò non può opporre al creditore le eccezioni relative ai suoi rapporti con il debitore originario (es. il padre non può opporre in compensazione il credito che egli vanta nei confronti del figlio ma può opporre le eccezioni che quest’ultimo avrebbe potuto opporre al debitore originario). Come la delegazione, anche l’espromissione può essere cumulativa (il terzo è obbligato in solido anche con il debitore originario) o liberatoria, (se il creditore dichiara espressamente di liberare il debitore originario).",
+      "markdown": "**L’[[espromissione|espromissione]].** L’espromissione consiste in un [[contratto|contratto]] fra il creditore ed un terzo, in forza del quale quest’ultimo (espromittente) si impegna, nei confronti del primo (espromissario) a pagare il debito - gia esistente - dell’obbligato originario (espromesso) (es. padre che si fa carico del debito di un figlio). Quest’obbligo può essere assunto spontaneamente, ossia senza il consenso o l’incarico del debitore, dal momento che si tratta di un atto vantaggioso per costui. L’elemento differenziale tra la delegazione e l’espromissione consiste nella spontaneità dell’iniziativa del terzo.\n\nIl terzo subentra nella stessa posizione del debitore originario perciò non può opporre al creditore le eccezioni relative ai suoi rapporti con il debitore originario (es. il padre non può opporre in [[compensazione|compensazione]] il credito che egli vanta nei confronti del figlio ma può opporre le eccezioni che quest’ultimo avrebbe potuto opporre al debitore originario). Come la delegazione, anche l’[[espromissione|espromissione]] può essere cumulativa (il terzo è obbligato in solido anche con il debitore originario) o liberatoria, (se il creditore dichiara espressamente di liberare il debitore originario).",
       "concetti": [
-        "espromissione"
+        "espromissione",
+        "contratto",
+        "compensazione"
       ]
     },
     {
       "id": "p105-b003",
       "pagina": 105,
-      "markdown": "**L’accollo.** L’accollo consiste in un contratto bilaterale tra il debitore (accollato) e un terzo (accollante), con il quale quest’ultimo assume a proprio carico l’onere di procurare il pagamento al creditore (accollatario) (es. se acquisto con ipoteca l’acquirente si accolla anche il rimborso dell’ipoteca). L'accollo, al pari dell'espromissione, ha quale causa quella di assumersi un debito altrui. Ma mentre con l'espromissione questa funzione viene realizzata da un accordo tra il terzo ed il creditore, nell'accollo l'accordo interviene tra il terzo ed il debitore originario.\n\nDistinguiamo due tipi di accollo: - l’accollo interno semplice → che si ha quando le parti non intendono attribuire nessun diritto al creditore verso l’accollante: questi si impegna solo verso l’accollato ha perciò una semplice funzione interna (ovvero mette a disposizione i mezzi perché il debitore provveda all’adempimento dell’ipoteca); - l’accollo esterno → che si ha quando l’accordo tra accollante ed accollato si presenta come un contratto a favore del creditore, nel senso che le parti hanno previsto ed accettato che il creditore possa avvantaggiarsi della convenzione, aderirvi con un suo atto unilaterale, e conseguentemente pretendere",
+      "markdown": "**L’[[accollo|accollo]].** L’accollo consiste in un [[contratto|contratto]] bilaterale tra il debitore (accollato) e un terzo (accollante), con il quale quest’ultimo assume a proprio carico l’onere di procurare il pagamento al creditore (accollatario) (es. se acquisto con [[ipoteca|ipoteca]] l’acquirente si accolla anche il rimborso dell’ipoteca). L'accollo, al pari dell'[[espromissione|espromissione]], ha quale causa quella di assumersi un debito altrui. Ma mentre con l'espromissione questa funzione viene realizzata da un accordo tra il terzo ed il creditore, nell'accollo l'accordo interviene tra il terzo ed il debitore originario.\n\nDistinguiamo due tipi di [[accollo|accollo]]: - l’accollo interno semplice → che si ha quando le parti non intendono attribuire nessun diritto al creditore verso l’accollante: questi si impegna solo verso l’accollato ha perciò una semplice funzione interna (ovvero mette a disposizione i mezzi perché il debitore provveda all’[[adempimento|adempimento]] dell’[[ipoteca|ipoteca]]); - l’accollo esterno → che si ha quando l’accordo tra accollante ed accollato si presenta come un [[contratto|contratto]] a favore del creditore, nel senso che le parti hanno previsto ed accettato che il creditore possa avvantaggiarsi della convenzione, aderirvi con un suo atto unilaterale, e conseguentemente pretendere",
       "concetti": [
+        "accollo",
+        "contratto",
+        "ipoteca",
         "espromissione",
-        "accollo"
+        "adempimento"
       ]
     },
     {
       "id": "p106-b001",
       "pagina": 106,
-      "markdown": "direttamente dall’accollante l’adempimento del suo credito: cosicché l’accordo tra debitore e terzo può essere modificato o posto nel nulla a seguito di successivi accordi tra loro fin quando il creditore non vi abbia aderito, dopo di che l’impegno assunto dall’accollante diventa irrevocabile, e il terzo risponde dell’adempimento non solo di fronte all’accollato ma anche di fronte all’accollatario.\n\nL’accollo esterno può a sua volta essere: - cumulativo, se il debitore originario resta obbligato in solido con l’accollante, - liberatorio, se il debitore originario resta liberato, rimanendo obbligato in sua vece il solo l’accollante. Perché tale liberazione si verifichi occorre o una dichiarazione espressa del creditore o che la liberazione del debitore originario costituisca condizione espressa dell’accordo.",
+      "markdown": "direttamente dall’accollante l’[[adempimento|adempimento]] del suo credito: cosicché l’accordo tra debitore e terzo può essere modificato o posto nel nulla a seguito di successivi accordi tra loro fin quando il creditore non vi abbia aderito, dopo di che l’impegno assunto dall’accollante diventa irrevocabile, e il terzo risponde dell’adempimento non solo di fronte all’accollato ma anche di fronte all’accollatario.\n\nL’[[accollo|accollo]] esterno può a sua volta essere: - cumulativo, se il debitore originario resta obbligato in solido con l’accollante, - liberatorio, se il debitore originario resta liberato, rimanendo obbligato in sua vece il solo l’accollante. Perché tale liberazione si verifichi occorre o una dichiarazione espressa del creditore o che la liberazione del debitore originario costituisca condizione espressa dell’accordo.",
       "concetti": [
+        "adempimento",
         "accollo"
       ]
     },
     {
       "id": "p106-b002",
       "pagina": 106,
-      "markdown": "Riassumendo. - nella delegazione passiva, il delegante, debitore del delegatario, incarica il delegato di pagare (delegazione di pagamento) o di obbligarsi (delegazione di debito) nei confronti del proprio soggetto attivo; - nell’espromissione un terzo, detto espromittente, si obbliga a pagare nei confronti del creditore, detto espromissario, quanto dovuto dal debitore, detto espromesso, senza incarico di quest'ultimo; - nell’accollo un terzo (accollante) si assume un debito del debitore (accollato) verso un creditore (accollatario). L'accollo è disciplinato dall'art. 1273 del codice civile.",
+      "markdown": "Riassumendo. - nella [[delegazione-passiva|delegazione passiva]], il delegante, debitore del delegatario, incarica il delegato di pagare (delegazione di pagamento) o di obbligarsi (delegazione di debito) nei confronti del proprio soggetto attivo; - nell’[[espromissione|espromissione]] un terzo, detto espromittente, si obbliga a pagare nei confronti del creditore, detto espromissario, quanto dovuto dal debitore, detto espromesso, senza incarico di quest'ultimo; - nell’[[accollo|accollo]] un terzo (accollante) si assume un debito del debitore (accollato) verso un creditore (accollatario). L'accollo è disciplinato dall'art. 1273 del [[codice-civile|codice civile]].",
       "concetti": [
         "delegazione-passiva",
         "espromissione",
-        "accollo"
+        "accollo",
+        "codice-civile"
       ]
     }
   ]

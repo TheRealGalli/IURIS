@@ -11,16 +11,19 @@
     {
       "id": "p030-b002",
       "pagina": 30,
-      "markdown": "**La [[fondazione|fondazione]].** La fondazione è un organizzazione stabile che si avvale di un patrimonio per il perseguimento di uno scopo non economico. La fondazione trae vita da un atto di autonomia, che però - a differenza dell’associazione - non è un contratto, bensì un atto unilaterale: [[atto-di-fondazione|atto di fondazione]]. L’atto di fondazione può essere: a) un atto inter vivos → forma di atto pubblico (art.14, comma 1, c.c.) di regola notarile e revocabile dal fondatore finché non sia intervenuto il riconoscimento (art.15 c.c.); b) contenuto in un testamento → (art. 14, comma 2, c.c.) efficace solo al momento dell’apertura della successione e fino a quel momento potrà essere revocato dal testatore.",
+      "markdown": "**La [[fondazione|fondazione]].** La fondazione è un organizzazione stabile che si avvale di un patrimonio per il perseguimento di uno scopo non economico. La fondazione trae vita da un atto di autonomia, che però - a differenza dell’associazione - non è un [[contratto|contratto]], bensì un atto unilaterale: [[atto-di-fondazione|atto di fondazione]]. L’atto di fondazione può essere: a) un atto inter vivos → forma di [[atto-pubblico|atto pubblico]] (art.14, comma 1, c.c.) di regola notarile e revocabile dal fondatore finché non sia intervenuto il riconoscimento (art.15 c.c.); b) contenuto in un [[testamento|testamento]] → (art. 14, comma 2, c.c.) efficace solo al momento dell’apertura della successione e fino a quel momento potrà essere revocato dal testatore.",
       "concetti": [
         "fondazione",
-        "atto-di-fondazione"
+        "contratto",
+        "atto-di-fondazione",
+        "atto-pubblico",
+        "testamento"
       ]
     },
     {
       "id": "p030-b003",
       "pagina": 30,
-      "markdown": "L’atto di fondazione deve contenere: denominazione dell’ente, scopo, patrimonio, sede, norme sull’ordinamento e sull’ammissione ,criteri e modalità di erogazione delle rendite. Tali previsioni possono essere contenute in un documento separato dall’atto di fondazione: lo statuto.",
+      "markdown": "L’[[atto-di-fondazione|atto di fondazione]] deve contenere: denominazione dell’ente, scopo, patrimonio, sede, norme sull’ordinamento e sull’ammissione ,criteri e modalità di erogazione delle rendite. Tali previsioni possono essere contenute in un documento separato dall’atto di [[fondazione|fondazione]]: lo statuto.",
       "concetti": [
         "atto-di-fondazione",
         "fondazione"
@@ -29,19 +32,21 @@
     {
       "id": "p030-b004",
       "pagina": 30,
-      "markdown": "Dotazione: la fondazione deve essere dotata di un patrimonio assoggettato al vincolo di destinazione (cd atto di dotazione) ovvero il perseguimento dello scopo indicato dal fondatore).",
+      "markdown": "Dotazione: la [[fondazione|fondazione]] deve essere dotata di un patrimonio assoggettato al vincolo di destinazione (cd [[atto-di-fondazione|atto di dotazione]]) ovvero il perseguimento dello scopo indicato dal fondatore).",
       "concetti": [
-        "atto-di-fondazione",
-        "fondazione"
+        "fondazione",
+        "atto-di-fondazione"
       ]
     },
     {
       "id": "p030-b005",
       "pagina": 30,
-      "markdown": "Per il riconoscimento e l’acquisto della personalità giuridica della fondazione: a) presentazione di un atto di fondazione, statuto ed atto di dotazione alla prefettura della provincia in cui è stabilita la sede della fondazione, accompagnata da relativa domanda di riconoscimento; b) il controllo da parte della prefettura del rispetto delle condizioni previste per la costituzione dell’ente, della possibilità e liceità dello scopo, adeguatezza del patrimonio alla realizzazione; c) iscrizione nel registro delle persone giuridiche, che determina l’acquisizione della personalità giuridica.",
+      "markdown": "Per il riconoscimento e l’acquisto della [[personalita-giuridica|personalità giuridica]] della [[fondazione|fondazione]]: a) presentazione di un [[atto-di-fondazione|atto di fondazione]], statuto ed atto di dotazione alla prefettura della provincia in cui è stabilita la sede della fondazione, accompagnata da relativa domanda di riconoscimento; b) il controllo da parte della prefettura del rispetto delle condizioni previste per la costituzione dell’ente, della possibilità e liceità dello scopo, adeguatezza del patrimonio alla realizzazione; c) iscrizione nel [[registro-delle-persone-giuridiche|registro delle persone giuridiche]], che determina l’acquisizione della personalità giuridica.",
       "concetti": [
+        "personalita-giuridica",
+        "fondazione",
         "atto-di-fondazione",
-        "fondazione"
+        "registro-delle-persone-giuridiche"
       ],
       "testoFonte": "Per il riconoscimento e l’acquisto della personalità giuridica della fondazione: a) presentazione di un atto di fondazione, statuto ed atto di dotazione alla prefettura della provincia in cui è stabilita la sede della fondazione, accompagnata da relativa domanda di riconoscimento; b) il controllo da parte della prefettura del rispetto delle condizioni previste per la costituzione dell’ente, della possibilità e liceità dello scopo, adeguatezza del patrimonio alla realizzazione; c) iscrizione nel registro delle persone giuridiche, che determina l’acquisizione della personalità giuridica ."
     },
@@ -64,7 +69,7 @@
     {
       "id": "p030-b008",
       "pagina": 30,
-      "markdown": "Lo scopo della fondazione - che una volta riconosciuta non può essere modificato - può essere statutariamente definito con precisione (con il rischio di una rapida obsolescenza) oppure genericamente (competerà all’organo di gestione scegliere di volta in volta l’attività da svolgere). Per il raggiungimento dello scopo, la fondazione svolge un’attività che, tradizionalmente si limitava alla mera gestione del suo patrimonio, oggi si è allargata all’attività di impresa, organizzata per la produzione e lo scambio di beni e servizi.",
+      "markdown": "Lo scopo della [[fondazione|fondazione]] - che una volta riconosciuta non può essere modificato - può essere statutariamente definito con precisione (con il rischio di una rapida obsolescenza) oppure genericamente (competerà all’organo di gestione scegliere di volta in volta l’attività da svolgere). Per il raggiungimento dello scopo, la fondazione svolge un’attività che, tradizionalmente si limitava alla mera gestione del suo patrimonio, oggi si è allargata all’attività di impresa, organizzata per la produzione e lo scambio di beni e servizi.",
       "concetti": [
         "fondazione"
       ]
@@ -72,24 +77,29 @@
     {
       "id": "p030-b009",
       "pagina": 30,
-      "markdown": "La fondazione è gestita da un organo amministrativo e di regola non ha assemblea, ed è dotata di autonomia patrimoniale perfetta. La fondazione può essere trasformata perché lo scopo può diventare non perseguibile, questo però solo se lo statuto lo prevede, in caso contrario la fondazione viene estinta, si apre la fase della liquidazione in cui avviene la dismissione di quanto di proprietà dell’ente che non può proseguire la sua attività. Il fondatore può prevedere che nel verificarsi delle cause di scioglimento siano devoluti i beni della fondazione a terze persone, in mancanza di questo sarà l’autorità governativa d’ufficio ad attribuire i beni ad altri enti che hanno fini analoghi.\n\nFino a tempi relativamente recenti la fondazione ha avuto importanza marginale, mentre ai giorni d’oggi la rinata disponibilità di cittadini ed imprese a destinare risorse a fini d’utilità sociale senza la mediazione politica ha trovato nella fondazione uno strumento duttile ed efficiente (es. La Fondazione TELETHON); in più nell’ambito delle privatizzazioni si è imposto il fenomeno della trasformazione di singoli enti pubblici in fondazioni (es. la Triennale di Milano si è trasformata nell’omonima fondazione) e di intere categorie di enti pubblici in fondazioni (es. gli enti lirici e le istituzioni concertistiche divenute fondazioni liriche- sinfoniche quali la Scala). Siffatte fondazioni - di diritto speciale - costituiscono strumento atto a consentire e stimolare forme di collaborazione tra il settore pubblico e quello privato.",
+      "markdown": "La [[fondazione|fondazione]] è gestita da un organo amministrativo e di regola non ha assemblea, ed è dotata di [[autonomia-patrimoniale|autonomia patrimoniale perfetta]]. La fondazione può essere trasformata perché lo scopo può diventare non perseguibile, questo però solo se lo statuto lo prevede, in caso contrario la fondazione viene estinta, si apre la fase della liquidazione in cui avviene la dismissione di quanto di [[proprieta|proprietà]] dell’ente che non può proseguire la sua attività. Il fondatore può prevedere che nel verificarsi delle cause di scioglimento siano devoluti i beni della fondazione a terze persone, in mancanza di questo sarà l’autorità governativa d’ufficio ad attribuire i beni ad altri enti che hanno fini analoghi.\n\nFino a tempi relativamente recenti la [[fondazione|fondazione]] ha avuto importanza marginale, mentre ai giorni d’oggi la rinata disponibilità di cittadini ed imprese a destinare risorse a fini d’utilità sociale senza la mediazione politica ha trovato nella fondazione uno strumento duttile ed efficiente (es. La Fondazione TELETHON); in più nell’ambito delle privatizzazioni si è imposto il fenomeno della trasformazione di singoli enti pubblici in fondazioni (es. la Triennale di Milano si è trasformata nell’omonima fondazione) e di intere categorie di enti pubblici in fondazioni (es. gli enti lirici e le istituzioni concertistiche divenute fondazioni liriche- sinfoniche quali la Scala). Siffatte fondazioni - di diritto speciale - costituiscono strumento atto a consentire e stimolare forme di collaborazione tra il settore pubblico e quello privato.",
       "concetti": [
-        "fondazione"
+        "fondazione",
+        "autonomia-patrimoniale",
+        "proprieta"
       ]
     },
     {
       "id": "p030-b010",
       "pagina": 30,
-      "markdown": "**Il [[comitato|comitato]].** Il comitato è un ente, previsto dall'ordinamento giuridico italiano, che persegue uno scopo altruistico, generalmente di pubblica utilità, ad opera di una pluralità di persone che, non disponendo dei mezzi patrimoniali adeguati, promuovono una pubblica sottoscrizione per raccogliere i fondi necessari a realizzarlo. Esempi sono i comitati di soccorso o di beneficenza e i comitati promotori di opere pubbliche, monumenti, esposizioni, mostre, festeggiamenti.",
+      "markdown": "**Il [[comitato|comitato]].** Il comitato è un ente, previsto dall'[[ordinamento-giuridico|ordinamento giuridico]] italiano, che persegue uno scopo altruistico, generalmente di pubblica utilità, ad opera di una pluralità di persone che, non disponendo dei mezzi patrimoniali adeguati, promuovono una pubblica sottoscrizione per raccogliere i fondi necessari a realizzarlo. Esempi sono i comitati di soccorso o di beneficenza e i comitati promotori di opere pubbliche, monumenti, esposizioni, mostre, festeggiamenti.",
       "concetti": [
-        "comitato"
+        "comitato",
+        "ordinamento-giuridico"
       ]
     },
     {
       "id": "p030-b011",
       "pagina": 30,
-      "markdown": "La disciplina dei comitati è contenuta negli articoli da 39 a 42 del Codice civile.",
-      "concetti": []
+      "markdown": "La disciplina dei comitati è contenuta negli articoli da 39 a 42 del [[codice-civile|Codice civile]].",
+      "concetti": [
+        "codice-civile"
+      ]
     },
     {
       "id": "p031-b001",
@@ -103,8 +113,9 @@
     {
       "id": "p031-b002",
       "pagina": 31,
-      "markdown": "I componenti del comitato (promotori) annunciano al pubblico lo scopo da perseguire ed invitano ad effettuare offerte in denaro o di altri beni. Il denaro e i beni così raccolti (oblazioni), che vanno a costituire il fondo del comitato, non appartengono ai promotori né a coloro che li hanno donati (oblatori) ma sono irrevocabilmente destinati allo scopo annunciato, sicché il comitato possiede una sua autonomia patrimoniale seppur imperfetta. Qualora i fondi raccolti siano insufficienti allo scopo, o questo non sia più attuabile, o, raggiunto lo scopo, si abbia un residuo di fondi, l'autorità governativa stabilisce la devoluzione dei beni, se questa non è stata disciplinata al momento della costituzione.",
+      "markdown": "I componenti del comitato (promotori) annunciano al pubblico lo scopo da perseguire ed invitano ad effettuare offerte in denaro o di altri beni. Il denaro e i beni così raccolti (oblazioni), che vanno a costituire il fondo del comitato, non appartengono ai promotori né a coloro che li hanno donati (oblatori) ma sono irrevocabilmente destinati allo scopo annunciato, sicché il comitato possiede una sua [[autonomia-patrimoniale|autonomia patrimoniale]] seppur imperfetta. Qualora i fondi raccolti siano insufficienti allo scopo, o questo non sia più attuabile, o, raggiunto lo scopo, si abbia un residuo di fondi, l'autorità governativa stabilisce la devoluzione dei beni, se questa non è stata disciplinata al momento della costituzione.",
       "concetti": [
+        "autonomia-patrimoniale",
         "comitato"
       ],
       "testoFonte": "I componenti del comitato ( promotori ) annunciano al pubblico lo scopo da perseguire ed invitano ad effettuare offerte in denaro o di altri beni. Il denaro e i beni così raccolti ( oblazioni ), che vanno a costituire il fondo del comitato , non appartengono ai promotori né a coloro che li hanno donati ( oblatori ) ma sono irrevocabilmente destinati allo scopo annunciato, sicché il comitato possiede una sua autonomia patrimoniale seppur imperfetta. Qualora i fondi raccolti siano insufficienti allo scopo, o questo non sia più attuabile, o, raggiunto lo scopo, si abbia un residuo di fondi, l'autorità governativa stabilisce la devoluzione dei beni, se questa non è stata disciplinata al momento della costituzione."
@@ -112,17 +123,21 @@
     {
       "id": "p031-b003",
       "pagina": 31,
-      "markdown": "Delle obbligazioni assunte verso terzi rispondono non solo il comitato, con il suo fondo, ma anche, personalmente e solidalmente, tutti suoi componenti. Se ottiene il riconoscimento, il comitato diventa una fondazione o, secondo altri, un'associazione riconosciuta, comunque una persona giuridica e, quindi, risponde delle obbligazione solo con il suo patrimonio. Nessuna responsabilità per le obbligazioni del comitato grava, invece, sugli oblatori che sono tenuti soltanto a effettuare le oblazioni promesse.",
+      "markdown": "Delle obbligazioni assunte verso terzi rispondono non solo il comitato, con il suo fondo, ma anche, personalmente e solidalmente, tutti suoi componenti. Se ottiene il riconoscimento, il comitato diventa una [[fondazione|fondazione]] o, secondo altri, un'[[associazione-riconosciuta|associazione riconosciuta]], comunque una [[personalita-giuridica|persona giuridica]] e, quindi, risponde delle [[obbligazione|obbligazione]] solo con il suo patrimonio. Nessuna responsabilità per le obbligazioni del comitato grava, invece, sugli oblatori che sono tenuti soltanto a effettuare le oblazioni promesse.",
       "concetti": [
         "fondazione",
+        "associazione-riconosciuta",
+        "personalita-giuridica",
+        "obbligazione",
         "comitato"
       ]
     },
     {
       "id": "p031-b004",
       "pagina": 31,
-      "markdown": "I componenti del comitato compongono l'assemblea dello stesso, organo non citato dal codice civile al quale, tuttavia, si ritiene spettino tutte le decisioni necessarie alla vita dell'ente. L'assemblea affida l'incarico di gestire l'attività dell'ente agli organizzatori, non necessariamente scelti tra i promotori del comitato. Gli organizzatori e coloro che assumono la gestione dei fondi raccolti sono responsabili, personalmente e solidalmente, della conservazione dei fondi e della loro destinazione allo scopo annunziato; si discute, però, se tale responsabilità sussista nei confronti dell'ente o degli oblatori.",
+      "markdown": "I componenti del comitato compongono l'assemblea dello stesso, organo non citato dal [[codice-civile|codice civile]] al quale, tuttavia, si ritiene spettino tutte le decisioni necessarie alla vita dell'ente. L'assemblea affida l'incarico di gestire l'attività dell'ente agli organizzatori, non necessariamente scelti tra i promotori del comitato. Gli organizzatori e coloro che assumono la gestione dei fondi raccolti sono responsabili, personalmente e solidalmente, della conservazione dei fondi e della loro destinazione allo scopo annunziato; si discute, però, se tale responsabilità sussista nei confronti dell'ente o degli oblatori.",
       "concetti": [
+        "codice-civile",
         "comitato"
       ]
     },
@@ -137,16 +152,17 @@
     {
       "id": "p031-b006",
       "pagina": 31,
-      "markdown": "**Le altre istituzioni di carattere privato.** Personalità giuridica è riconosciuta agli enti ecclesiastici - civilmente riconosciuti - appartenenti alla Chiesa Cattolica. Poiché la legge annovera tra gli enti privati anche le altre istituzioni di carattere privato, l’opinione prevalente sembra ammettere la possibilità della costituzione di enti caratterizzati dalla combinazione di più modelli organizzativi tipici (es. associazione e fondazione), o addirittura di enti atipici.\n\nE’ sempre più frequente il ricorso alla [[fondazione-di-partecipazione|Fondazione di partecipazione]]: una fondazione cioè che si pone come figura intermedia tra le fondazioni e le associazioni, perché coniuga l’aspetto patrimoniale, proprio delle prime con quello personale delle seconde. Infatti, a fianco dell’esistenza di un patrimonio vincolato ad uno scopo, esiste in questa particolare tipologia di Fondazione la possibilità che l’elemento patrimoniale si associ con l’elemento personale e, quindi, con la possibilità di nuove adesioni: è possibile, infatti, anche in un momento successivo rispetto a quello dell’atto costitutivo della Fondazione, diventare “soci” della medesima, conferendo contributi in denaro ovvero in servizi, ovvero anche solo attraverso la prestazione di un’attività professionale, o prestazioni di lavoro volontario o beni materiali o immateriali, nella misura e nelle forme determinate dal Consiglio di gestione.",
+      "markdown": "**Le altre istituzioni di carattere privato.** [[personalita-giuridica|Personalità giuridica]] è riconosciuta agli enti ecclesiastici - civilmente riconosciuti - appartenenti alla Chiesa Cattolica. Poiché la legge annovera tra gli enti privati anche le altre istituzioni di carattere privato, l’opinione prevalente sembra ammettere la possibilità della costituzione di enti caratterizzati dalla combinazione di più modelli organizzativi tipici (es. associazione e [[fondazione|fondazione]]), o addirittura di enti atipici.\n\nE’ sempre più frequente il ricorso alla [[fondazione-di-partecipazione|Fondazione di partecipazione]]: una [[fondazione|fondazione]] cioè che si pone come figura intermedia tra le fondazioni e le associazioni, perché coniuga l’aspetto patrimoniale, proprio delle prime con quello personale delle seconde. Infatti, a fianco dell’esistenza di un patrimonio vincolato ad uno scopo, esiste in questa particolare tipologia di Fondazione la possibilità che l’elemento patrimoniale si associ con l’elemento personale e, quindi, con la possibilità di nuove adesioni: è possibile, infatti, anche in un momento successivo rispetto a quello dell’atto costitutivo della Fondazione, diventare “soci” della medesima, conferendo contributi in denaro ovvero in servizi, ovvero anche solo attraverso la prestazione di un’attività professionale, o prestazioni di lavoro volontario o beni materiali o immateriali, nella misura e nelle forme determinate dal Consiglio di gestione.",
       "concetti": [
-        "fondazione-di-partecipazione",
-        "fondazione"
+        "personalita-giuridica",
+        "fondazione",
+        "fondazione-di-partecipazione"
       ]
     },
     {
       "id": "p031-b007",
       "pagina": 31,
-      "markdown": "**Il terzo settore.** Il terzo settore consiste nella realizzazione di attività di utilità sociale ad opera di enti senza fini di lucro (c.d [[terzo-settore|enti non profit]]) espressione della c.d società civile. Sono stati molti gli interventi normativi atti a promuovere e sostenere il terzo settore, si ricordano: - le associazioni di volontariato, - le cooperative sociali, - le ONLUS (organizzazioni non lucrative di utilità sociale) che possono assumere qualsiasi forma giuridica (comitato, fondazione, associazione ecc.).",
+      "markdown": "**Il terzo settore.** Il terzo settore consiste nella realizzazione di attività di utilità sociale ad opera di enti senza fini di lucro (c.d [[terzo-settore|enti non profit]]) espressione della c.d società civile. Sono stati molti gli interventi normativi atti a promuovere e sostenere il terzo settore, si ricordano: - le associazioni di volontariato, - le cooperative sociali, - le ONLUS (organizzazioni non lucrative di utilità sociale) che possono assumere qualsiasi forma giuridica (comitato, [[fondazione|fondazione]], associazione ecc.).",
       "concetti": [
         "terzo-settore",
         "fondazione",
@@ -157,7 +173,7 @@
     {
       "id": "p031-b008",
       "pagina": 31,
-      "markdown": "Và ricordato in questo ambito il principio della sussidiarietà (art.118, comma 4 Cost.): In tale ambito viene indicato con principio di sussidiarietà quel principio sociale e giuridico amministrativo che stabilisce che l'intervento degli Enti pubblici territoriali (Regioni, Città Metropolitane, Province e Comuni), nei confronti dei cittadini debba essere attuato esclusivamente come sussidio (ovvero come aiuto) nel caso in cui il cittadino o l'entità sottostante sia impossibilitata ad agire per conto proprio o il livello di servizio offerto dai privati sia inferiore al minimo essenziale.\n\nSi parla di sussidiarietà verticale quando i bisogni dei cittadini sono soddisfatti dall'azione degli enti amministrativi pubblici, e di [[sussidiarieta|sussidiarietà orizzontale]] quando tali bisogni sono soddisfatti dai cittadini stessi, magari in forma associata e/o volontaristica.",
+      "markdown": "Và ricordato in questo ambito il principio della [[sussidiarieta|sussidiarietà]] (art.118, comma 4 Cost.): In tale ambito viene indicato con principio di sussidiarietà quel principio sociale e giuridico amministrativo che stabilisce che l'intervento degli Enti pubblici territoriali (Regioni, Città Metropolitane, Province e Comuni), nei confronti dei cittadini debba essere attuato esclusivamente come sussidio (ovvero come aiuto) nel caso in cui il cittadino o l'entità sottostante sia impossibilitata ad agire per conto proprio o il livello di servizio offerto dai privati sia inferiore al minimo essenziale.\n\nSi parla di sussidiarietà verticale quando i bisogni dei cittadini sono soddisfatti dall'azione degli enti amministrativi pubblici, e di sussidiarietà orizzontale quando tali bisogni sono soddisfatti dai cittadini stessi, magari in forma associata e/o volontaristica.",
       "concetti": [
         "sussidiarieta"
       ],
@@ -166,14 +182,19 @@
     {
       "id": "p031-b009",
       "pagina": 31,
-      "markdown": "**I diritti delle personalità degli enti.** Se taluni diritti della personalità, essendo indissolubilmente legati alla persona fisica (diritto alla vita, alla salute) non possono spettare che ad essa, altri diritti della personalità (diritto al nome, alla protezione dei",
-      "concetti": []
+      "markdown": "**I diritti delle personalità degli enti.** Se taluni [[diritti-della-personalita|diritti della personalità]], essendo indissolubilmente legati alla persona fisica (diritto alla vita, alla salute) non possono spettare che ad essa, altri diritti della personalità ([[diritto-al-nome|diritto al nome]], alla protezione dei",
+      "concetti": [
+        "diritti-della-personalita",
+        "diritto-al-nome"
+      ]
     },
     {
       "id": "p032-b001",
       "pagina": 32,
-      "markdown": "dati personali, etc) si ritiene competano anche agli enti, non importa se dotati o meno di personalità giuridica.",
-      "concetti": []
+      "markdown": "dati personali, etc) si ritiene competano anche agli enti, non importa se dotati o meno di [[personalita-giuridica|personalità giuridica]].",
+      "concetti": [
+        "personalita-giuridica"
+      ]
     }
   ]
 }

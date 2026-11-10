@@ -17,7 +17,11 @@ const sha = (s) => createHash('sha256').update(s).digest('hex');
 const piano = (s) => s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, id, label) => label || id.replace(/-/g, ' '))
   .replace(/^#{1,6}\s+/gm, '').replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
 const escRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const parola = (label) => new RegExp(`(?<![\\p{L}\\p{N}_[|])${escRegex(label)}(?![\\p{L}\\p{N}_\\]|])`, 'iu');
+const parole = new Map();
+const parola = (label) => {
+  if (!parole.has(label)) parole.set(label, new RegExp(`(?<![\\p{L}\\p{N}_[|])${escRegex(label)}(?![\\p{L}\\p{N}_\\]|])`, 'iu'));
+  return parole.get(label);
+};
 const revisionata = (sec) => !!(sec.revisionata || sec.pilota);
 
 /** Regole di sola forma: titoli, elenchi, note, etichette in grassetto e spazi. Le parole restano quelle della fonte. */
@@ -201,9 +205,21 @@ for (const doc of catalogo) {
         // blocco rimasto senza parole (il suo testo è confluito in quello accanto): resta al suo posto, vuoto
         if (FITTI.has(doc.id) && !/\p{L}{2}/u.test(markdown.replace(/&nbsp;/g, ''))) markdown = VUOTO;
         if (FITTI.has(doc.id) && markdown !== VUOTO) markdown = markdown.split(/\n\s*\n/).map(impagina).join('\n\n');
-        // Un collegamento per concetto e per sezione; ogni occorrenza resta però un concetto del paragrafo per la mappa.
-        const voci = [...curati.flatMap((e) => e.etichette.map((label) => ({ id: e.id, label }))), ...auto].sort((x, y) => y.label.length - x.label.length);
-        for (const { id: cid, label } of voci) {
+        // Le etichette curate si ripetono nei capoversi; le automatiche una volta nella sezione.
+        const voci = [...curati.flatMap((e) => e.etichette.map((label) => ({ id: e.id, label, curata: true }))),
+          ...auto.map((e) => ({ ...e, curata: false }))].sort((x, y) => y.label.length - x.label.length);
+        if (curati.length) markdown = markdown.split(/\n\s*\n/).map((capoverso) => {
+          const nelCapoverso = new Set([...capoverso.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)].map((m) => m[1]));
+          for (const { id: cid, label, curata } of voci) {
+            if (!parola(label).test(piano(capoverso))) continue;
+            tag.add(cid);
+            if (nelCapoverso.has(cid) || (!curata && giaCollegati.has(cid))) continue;
+            const nuovo = collega(capoverso, cid, label);
+            if (nuovo) { capoverso = nuovo; nelCapoverso.add(cid); giaCollegati.add(cid); }
+          }
+          return capoverso;
+        }).join('\n\n');
+        else for (const { id: cid, label } of voci) {
           if (!parola(label).test(piano(markdown))) continue;
           tag.add(cid);
           if (giaCollegati.has(cid)) continue;
