@@ -1,0 +1,660 @@
+{
+  "schemi": [
+    {
+      "id": "fondamento",
+      "tipo": "rete",
+      "titolo": "Kelsen, Ross e Hart",
+      "sottotitolo": "Tre domande sul funzionamento del diritto",
+      "nodi": [
+        {
+          "id": "q",
+          "testo": "Perché una norma vale?",
+          "x": 600,
+          "y": 50,
+          "concetto": "validita",
+          "sotto": "criteri e punti di osservazione"
+        },
+        {
+          "id": "k",
+          "testo": "Kelsen",
+          "x": 150,
+          "y": 260,
+          "concetto": "kelsen",
+          "sotto": "validità e autorizzazione"
+        },
+        {
+          "id": "r",
+          "testo": "Ross",
+          "x": 600,
+          "y": 260,
+          "concetto": "alf-ross",
+          "sotto": "efficacia e corti"
+        },
+        {
+          "id": "h",
+          "testo": "Hart",
+          "x": 1050,
+          "y": 260,
+          "concetto": "herbert-hart",
+          "sotto": "regole e punto di vista interno"
+        }
+      ],
+      "archi": [
+        {
+          "da": "q",
+          "a": "k",
+          "testo": "risposta normativista"
+        },
+        {
+          "da": "q",
+          "a": "r",
+          "testo": "risposta realista"
+        },
+        {
+          "da": "q",
+          "a": "h",
+          "testo": "pratica delle regole"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Kelsen",
+          "fa": "Una norma appartiene al sistema se prodotta secondo la norma superiore. Il sistema dinamico risale alla costituzione e al presupposto della Grundnorm."
+        },
+        {
+          "chi": "Ross",
+          "fa": "Il corso sposta l’attenzione sulle norme effettivamente applicate dalle corti, custodi dell’osservanza: l’efficacia diventa centrale nella lettura realista."
+        },
+        {
+          "chi": "Hart",
+          "fa": "L’atteggiamento critico-riflessivo tratta le regole come criteri per valutare condotte. La regola di riconoscimento individua i criteri di validità del sistema."
+        },
+        {
+          "chi": "Distinzioni",
+          "fa": "Validità, efficacia e giustizia rispondono a domande differenti. Riconoscere una regola come giuridica non equivale automaticamente ad approvarla moralmente."
+        }
+      ],
+      "nota": "Il confronto segue il percorso del corso SSG: le ricostruzioni degli autori sono strumenti diversi, non tappe di un’unica teoria."
+    },
+    {
+      "id": "ordinamento",
+      "tipo": "piramide",
+      "titolo": "Kelsen: ordinamento a gradi",
+      "sottotitolo": "Produzione autorizzata delle norme nel sistema dinamico",
+      "livelli": [
+        {
+          "titolo": "Costituzione positiva",
+          "nota": "Stabilisce competenze e procedure per produrre norme generali.",
+          "voci": [
+            {
+              "testo": "Costituzione",
+              "concetto": "costituzione"
+            }
+          ]
+        },
+        {
+          "titolo": "Legislazione",
+          "nota": "La norma inferiore riceve dalla superiore il potere di essere prodotta.",
+          "voci": [
+            {
+              "testo": "Delega di competenza",
+              "concetto": "delega-di-competenza"
+            },
+            {
+              "testo": "Sistema dinamico",
+              "concetto": "sistema-dinamico"
+            }
+          ]
+        },
+        {
+          "titolo": "Norme di attuazione",
+          "nota": "Ogni livello produce diritto secondo le condizioni del livello superiore.",
+          "voci": [
+            {
+              "testo": "Stufenbau",
+              "concetto": "stufenbau"
+            }
+          ]
+        },
+        {
+          "titolo": "Atti individuali",
+          "nota": "Sentenze e atti applicativi concretizzano le norme generali.",
+          "voci": [
+            {
+              "testo": "Schema di qualificazione",
+              "concetto": "schema-di-qualificazione"
+            }
+          ]
+        }
+      ],
+      "aLato": [
+        {
+          "titolo": "Grundnorm",
+          "testo": "È il presupposto del fondamento di validità della costituzione: non una legge approvata da un’autorità ancora superiore.",
+          "concetto": "grundnorm"
+        },
+        {
+          "titolo": "Statico e dinamico",
+          "testo": "Nel sistema statico conta la derivazione dal contenuto; nel dinamico conta la produzione autorizzata. È questa la distinzione utilizzata da Kelsen.",
+          "concetto": "sistema-statico"
+        },
+        {
+          "titolo": "Causalità e imputazione",
+          "testo": "La causalità collega eventi secondo l’essere; l’imputazione collega presupposto e conseguenza normativa secondo il dover essere.",
+          "concetto": "nesso-di-imputazione"
+        }
+      ],
+      "nota": "La figura rappresenta il modello teorico di Kelsen studiato nel corso; la giustizia del contenuto resta una domanda distinta dalla validità formale."
+    },
+    {
+      "id": "parola",
+      "tipo": "rete",
+      "titolo": "Searle: fatti istituzionali",
+      "sottotitolo": "Dal fatto alla funzione di status attraverso il riconoscimento",
+      "nodi": [
+        {
+          "id": "x",
+          "testo": "X: supporto o fatto",
+          "x": 150,
+          "y": 60,
+          "concetto": "fatti-bruti-e-istituzionali",
+          "sotto": "una persona, un oggetto, un atto"
+        },
+        {
+          "id": "c",
+          "testo": "C: contesto",
+          "x": 600,
+          "y": 60,
+          "concetto": "x-conta-come-y-in-c",
+          "sotto": "regole e ambito condivisi"
+        },
+        {
+          "id": "y",
+          "testo": "Y: status",
+          "x": 1050,
+          "y": 60,
+          "concetto": "funzioni-agentive-di-status",
+          "sotto": "poteri, diritti e obblighi"
+        },
+        {
+          "id": "r",
+          "testo": "Riconoscimento comune",
+          "x": 600,
+          "y": 280,
+          "concetto": "intenzionalita-collettiva",
+          "sotto": "intenzionalità collettiva"
+        },
+        {
+          "id": "d",
+          "testo": "Documenti e durata",
+          "x": 600,
+          "y": 500,
+          "concetto": "documentalita",
+          "sotto": "Ferraris e la registrazione"
+        }
+      ],
+      "archi": [
+        {
+          "da": "x",
+          "a": "c",
+          "testo": "conta nel contesto"
+        },
+        {
+          "da": "c",
+          "a": "y",
+          "testo": "come"
+        },
+        {
+          "da": "r",
+          "a": "c",
+          "testo": "sostiene"
+        },
+        {
+          "da": "d",
+          "a": "r",
+          "testo": "rende persistente"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "X conta come Y in C",
+          "fa": "Un supporto fisico o un fatto riceve una funzione di status in un contesto: un oggetto conta come denaro entro una pratica istituzionale."
+        },
+        {
+          "chi": "Intenzionalità collettiva",
+          "fa": "Il riconoscimento della funzione permette poteri che il solo supporto fisico non spiega. Il linguaggio performativo contribuisce alla costituzione dei fatti."
+        },
+        {
+          "chi": "Regole costitutive",
+          "fa": "Rendono possibili attività e status; le regole regolative disciplinano attività già identificabili indipendentemente da esse."
+        },
+        {
+          "chi": "Documentalità",
+          "fa": "Il corso confronta Searle con Ferraris: registrazioni e documenti permettono la persistenza degli atti sociali e pongono il problema di chi ne è escluso."
+        }
+      ],
+      "nota": "L’ultimo nesso presenta il confronto con Ferraris: la documentalità aggiunge un problema e non è una parte indistinta della teoria di Searle."
+    },
+    {
+      "id": "osservanza",
+      "tipo": "rete",
+      "titolo": "Osservare e seguire regole",
+      "sottotitolo": "Posizione esterna, partecipazione e custodi dell’osservanza",
+      "nodi": [
+        {
+          "id": "p",
+          "testo": "Punto di vista",
+          "x": 600,
+          "y": 50,
+          "concetto": "punto-di-vista",
+          "sotto": "chi guarda e da dove"
+        },
+        {
+          "id": "e",
+          "testo": "Esterno",
+          "x": 150,
+          "y": 250,
+          "concetto": "punto-di-vista-esterno",
+          "sotto": "descrizione del comportamento"
+        },
+        {
+          "id": "i",
+          "testo": "Interno",
+          "x": 600,
+          "y": 250,
+          "concetto": "punto-di-vista-interno",
+          "sotto": "partecipazione al gioco"
+        },
+        {
+          "id": "s",
+          "testo": "Spettatore",
+          "x": 1050,
+          "y": 250,
+          "concetto": "spettatore",
+          "sotto": "guarda la scena giuridica"
+        },
+        {
+          "id": "o",
+          "testo": "Osservanti",
+          "x": 450,
+          "y": 470,
+          "concetto": "osservanti",
+          "sotto": "condotte dei destinatari"
+        },
+        {
+          "id": "c",
+          "testo": "Custodi",
+          "x": 750,
+          "y": 470,
+          "concetto": "custodi-dell-osservanza",
+          "sotto": "corti e controllo delle regole"
+        }
+      ],
+      "archi": [
+        {
+          "da": "p",
+          "a": "e",
+          "testo": "può essere"
+        },
+        {
+          "da": "p",
+          "a": "i",
+          "testo": "può essere"
+        },
+        {
+          "da": "p",
+          "a": "s",
+          "testo": "apre al ruolo dello"
+        },
+        {
+          "da": "i",
+          "a": "o",
+          "testo": "riguarda"
+        },
+        {
+          "da": "i",
+          "a": "c",
+          "testo": "riguarda"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Osservatore esterno",
+          "fa": "Descrive il gioco sociale e le regolarità rilevate; il solo dato della ripetizione non esaurisce la dimensione normativa."
+        },
+        {
+          "chi": "Partecipante",
+          "fa": "Agisce dentro il gioco, come destinatario o come custode delle regole: il corso usa un concetto ampio di punto di vista interno."
+        },
+        {
+          "chi": "Hart",
+          "fa": "Il suo punto di vista interno riguarda l’uso delle regole come standard di critica e giustificazione, non la sola previsione della sanzione."
+        },
+        {
+          "chi": "Ross",
+          "fa": "Concentra l’analisi sulle corti e sull’applicazione efficace; la funzione del custode sposta il fuoco rispetto al singolo osservante."
+        },
+        {
+          "chi": "Spettatore",
+          "fa": "Il percorso successivo domanda come immagini, emozioni e dispositivi incidano sulla soggettività di chi guarda."
+        }
+      ],
+      "nota": "Il significato ampio di interno/esterno impiegato nelle lezioni va distinto dall’uso tecnico del punto di vista interno in Hart."
+    },
+    {
+      "id": "governance",
+      "tipo": "rete",
+      "titolo": "Dall’ordinamento alla governance",
+      "sottotitolo": "Norme, dispositivi e logiche economiche nella rete del potere",
+      "nodi": [
+        {
+          "id": "g",
+          "testo": "Governance",
+          "x": 600,
+          "y": 50,
+          "concetto": "governance",
+          "sotto": "rete eterogenea di decisioni"
+        },
+        {
+          "id": "n",
+          "testo": "Norme giuridiche",
+          "x": 150,
+          "y": 250,
+          "concetto": "norma-giuridica",
+          "sotto": "competenza e sanzione"
+        },
+        {
+          "id": "d",
+          "testo": "Dispositivi",
+          "x": 600,
+          "y": 250,
+          "concetto": "dispositivo",
+          "sotto": "indirizzo e normalizzazione"
+        },
+        {
+          "id": "m",
+          "testo": "Logiche economiche",
+          "x": 1050,
+          "y": 250,
+          "concetto": "neoliberismo",
+          "sotto": "mercati e organizzazione"
+        },
+        {
+          "id": "p",
+          "testo": "Panopticon",
+          "x": 300,
+          "y": 470,
+          "concetto": "panopticon",
+          "sotto": "pochi osservano molti"
+        },
+        {
+          "id": "s",
+          "testo": "Synopticon",
+          "x": 900,
+          "y": 470,
+          "concetto": "synopticon",
+          "sotto": "molti osservano uno"
+        }
+      ],
+      "archi": [
+        {
+          "da": "g",
+          "a": "n",
+          "testo": "mette in relazione"
+        },
+        {
+          "da": "g",
+          "a": "d",
+          "testo": "mette in relazione"
+        },
+        {
+          "da": "g",
+          "a": "m",
+          "testo": "mette in relazione"
+        },
+        {
+          "da": "d",
+          "a": "p",
+          "testo": "opera anche con"
+        },
+        {
+          "da": "d",
+          "a": "s",
+          "testo": "opera anche con"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Piramide e rizoma",
+          "fa": "Il corso descrive il passaggio dal modello unitario e verticale a una rete di centri, regole e strumenti eterogenei; il rizoma ne esprime la forma."
+        },
+        {
+          "chi": "Foucault",
+          "fa": "Il potere disciplinare plasma condotte e soggetti; la normalizzazione opera attraverso dispositivi oltre la sola minaccia della sanzione."
+        },
+        {
+          "chi": "Efficacia ed efficienza",
+          "fa": "L’efficacia riguarda applicazione e osservanza delle norme; l’efficienza concerne il funzionamento dei dispositivi verso soglie di normalità."
+        },
+        {
+          "chi": "Panopticon e Synopticon",
+          "fa": "Nel primo prevale lo sguardo sorvegliante sui molti; nel secondo i molti guardano una figura visibile con cui si identificano."
+        },
+        {
+          "chi": "Problema critico",
+          "fa": "Decentramento e partecipazione si confrontano con nodi opachi, responsabilità diffuse e legittimazione economica. Il giurista deve ricostruire poteri e tutele."
+        }
+      ],
+      "nota": "Il passaggio è un modello interpretativo delle lezioni SSG: norme statali, corti e gerarchie continuano a operare entro rapporti più complessi."
+    },
+    {
+      "id": "spettatore",
+      "tipo": "rete",
+      "titolo": "Lo spettatore giuridico",
+      "sottotitolo": "Acclamazione del potere e possibilità del giudizio critico",
+      "nodi": [
+        {
+          "id": "s",
+          "testo": "Spettatore",
+          "x": 600,
+          "y": 50,
+          "concetto": "spettatore",
+          "sotto": "partecipazione attraverso lo sguardo"
+        },
+        {
+          "id": "a",
+          "testo": "Acclamante",
+          "x": 300,
+          "y": 250,
+          "concetto": "acclamazione",
+          "sotto": "identificazione e legittimazione"
+        },
+        {
+          "id": "e",
+          "testo": "Entusiasta",
+          "x": 900,
+          "y": 250,
+          "concetto": "spettatore-entusiasta",
+          "sotto": "sentimento e giudizio"
+        },
+        {
+          "id": "m",
+          "testo": "Montaggio e spettacolo",
+          "x": 300,
+          "y": 450,
+          "concetto": "montaggio",
+          "sotto": "Schmitt · Debord · Legendre"
+        },
+        {
+          "id": "k",
+          "testo": "Critica ed emancipazione",
+          "x": 900,
+          "y": 450,
+          "concetto": "jacques-ranciere",
+          "sotto": "Kant · Arendt · Foucault"
+        }
+      ],
+      "archi": [
+        {
+          "da": "s",
+          "a": "a",
+          "testo": "può essere"
+        },
+        {
+          "da": "s",
+          "a": "e",
+          "testo": "può essere"
+        },
+        {
+          "da": "a",
+          "a": "m",
+          "testo": "si studia con"
+        },
+        {
+          "da": "e",
+          "a": "k",
+          "testo": "apre alla"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Acclamante",
+          "fa": "La folla riconosce il leader e partecipa alla sua legittimazione: Schmitt pone l’accento sul legame concreto, non su una norma fondamentale astratta."
+        },
+        {
+          "chi": "Spettacolo e montaggio",
+          "fa": "Debord studia la società dello spettacolo; Legendre analizza il montaggio di immagini, testi e corpi. Il corso li mette a confronto senza identificarne le tesi."
+        },
+        {
+          "chi": "Entusiasta",
+          "fa": "In Kant lo spettatore della Rivoluzione francese vede nella propria partecipazione emotiva un segno di progresso morale."
+        },
+        {
+          "chi": "Riletture",
+          "fa": "Arendt sviluppa il giudizio e il senso comune; Foucault la coscienza critica; Rancière la possibilità di emancipazione di chi guarda."
+        },
+        {
+          "chi": "Diritto e cinema",
+          "fa": "Law and Film rende visibile il ruolo di narrazioni e sguardi nell’esperienza giuridica; la lezione pratica di approfondimento è distinta dal programma d’esame."
+        }
+      ],
+      "nota": "Il confronto riguarda figure dello spettatore: entusiasmo, acclamazione e semplice passività non coincidono."
+    },
+    {
+      "id": "incampo",
+      "tipo": "rete",
+      "titolo": "Incampo: atti e ordinamento",
+      "sottotitolo": "Il riassunto SSG e la struttura del dovere giuridico",
+      "nodi": [
+        {
+          "id": "d",
+          "testo": "Dovere giuridico",
+          "x": 600,
+          "y": 50,
+          "concetto": "dovere-giuridico",
+          "sotto": "necessario o solo possibile"
+        },
+        {
+          "id": "a",
+          "testo": "Validità degli atti",
+          "x": 300,
+          "y": 250,
+          "concetto": "validita-pragmatica",
+          "sotto": "pragmatica"
+        },
+        {
+          "id": "o",
+          "testo": "Validità delle norme",
+          "x": 900,
+          "y": 250,
+          "concetto": "validita-sintattica",
+          "sotto": "sintattica"
+        },
+        {
+          "id": "i",
+          "testo": "Idea dell’atto",
+          "x": 150,
+          "y": 470,
+          "sotto": "praxeologia"
+        },
+        {
+          "id": "p",
+          "testo": "Norme sull’atto",
+          "x": 450,
+          "y": 470,
+          "sotto": "praxeonomia"
+        },
+        {
+          "id": "m",
+          "testo": "Metaregole",
+          "x": 750,
+          "y": 470,
+          "concetto": "metaregole",
+          "sotto": "sintasseologia"
+        },
+        {
+          "id": "n",
+          "testo": "Norme su norme",
+          "x": 1050,
+          "y": 470,
+          "sotto": "sintasseonomia"
+        }
+      ],
+      "archi": [
+        {
+          "da": "d",
+          "a": "a",
+          "testo": "si studia negli atti"
+        },
+        {
+          "da": "d",
+          "a": "o",
+          "testo": "si studia nel sistema"
+        },
+        {
+          "da": "a",
+          "a": "i",
+          "testo": "condizioni intrinseche"
+        },
+        {
+          "da": "a",
+          "a": "p",
+          "testo": "condizioni poste"
+        },
+        {
+          "da": "o",
+          "a": "m",
+          "testo": "principi necessari"
+        },
+        {
+          "da": "o",
+          "a": "n",
+          "testo": "condizioni poste"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Forza e oggetto",
+          "fa": "Necessario/possibile classifica la forza; condotta/struttura classifica l’oggetto. Le norme primarie e secondarie di Hart non vanno scambiate con quelle di Kelsen."
+        },
+        {
+          "chi": "Pragmatica",
+          "fa": "L’atto si valuta secondo idea e funzione essenziale oppure secondo requisiti posti dall’ordinamento: praxeologia e praxeonomia."
+        },
+        {
+          "chi": "Sintattica",
+          "fa": "La norma si considera nell’ordinamento: metaregole e presupposti necessari, oppure norme poste che ne regolano produzione e trasformazione."
+        },
+        {
+          "chi": "Norma fondamentale",
+          "fa": "Effettività riguarda un ordinamento particolare; teoreticità riguarda lo schema secondo cui un ordinamento comanda il proprio adempimento."
+        },
+        {
+          "chi": "Funzione e pubblicità",
+          "fa": "Lo ius publicum collega diritto e giustificazione pubblica: la pubblicizzabilità della pretesa è un criterio diverso dalla semplice pubblicazione materiale."
+        }
+      ],
+      "nota": "Questo schema segue il riassunto di Incampo previsto per SSG. Le nozioni rinviano alle voci di questa materia e ai suoi materiali."
+    }
+  ]
+}

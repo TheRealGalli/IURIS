@@ -18,7 +18,7 @@ Regole valide per tutti i passi:
 | 2 | Più domande per privato | Completato: 392 nuove domande, 1.426 totali; tutte le 98 lezioni hanno almeno 14 domande |
 | 3 | Schede inverse di privato | Completato: 333 schede curate, con copertura di tutte le 27 unità |
 | 4 | Stile delle unità 12–27 di privato | Completato: revisionate 67 lezioni, precisate 64 sintesi; tutte entro 550 parole |
-| 5 | Quadro di privato e di Filosofia | |
+| 5 | Quadro di privato e di Filosofia | Completato: 20 schemi, 7 di privato, 6 di Filosofia LMG e 7 di Filosofia SSG |
 | 6 | Approfondimenti («oltre») | |
 | 7 | Filosofia SSG: più voci | |
 | 8 | «art. N Cost.» da privato alla Costituzione | |
@@ -107,7 +107,7 @@ su 11 dispositivi**. Verificate nel browser le sintesi più lunghe di tutte le 1
 Confrontate tutte le 67 lezioni compilate con i file revisionati e controllata la conservazione degli
 identificativi, dei conteggi e delle domande precedenti, salvo le due risposte esplicitamente precisate.
 
-Ripartire dal **passo 5: Quadro di privato e delle due Filosofie**.
+Il passo successivo è documentato sotto.
 
 ## 5. Quadro (vista d'insieme in Mappa)
 
@@ -115,6 +115,32 @@ Formato in `studio/CONTENUTI.md`; esempi: `Diritto Costituzionale/05 - Contenuti
 `Diritto Romano /05 - Contenuti/quadro.json`. Da fare per **Diritto privato** (schemi: fonti e gerarchia;
 situazioni soggettive; diritti reali; vicende dell'obbligazione; invalidità del contratto a confronto; successioni
 e quote) e per le due **Filosofia del diritto**.
+
+Passo 5, 11 novembre 2026: creati i tre `quadro.json`, con **20 schemi** in Mappa → Quadro.
+Ogni rete ha anche un elenco testuale di confronto per la lettura sul telefono; i concetti collegati
+appartengono alla stessa materia. Le due Filosofie conservano i propri programmi e identificativi.
+
+- **Diritto privato (7)**: fonti e gerarchia, situazioni soggettive, diritti reali, vicende dell'obbligazione,
+  invalidità e rimedi, percorso successorio, confronto fra quote legali e riserva. Le quote dichiarano i
+  familiari concorrenti e la massa di calcolo; fonti UE e autonomia privata sono spiegate a lato della piramide.
+- **Filosofia LMG (6)**: classificazioni del dovere, validità degli atti e delle norme, parola e status deontico,
+  persona e Stato in Moro, forme della coesistenza e tre prospettive della giustizia in Cotta.
+- **Filosofia SSG (7)**: confronto Kelsen–Ross–Hart, ordinamento a gradi, fatti istituzionali di Searle e
+  documentalità, punti di vista e osservanza, governance e dispositivi, spettatore giuridico, riassunto di Incampo.
+
+Contenuti ricavati dalle lezioni e voci già presenti: per privato, unità 1–3, 8–9, 11–20, 26–27 e articoli
+del Codice civile dell'app; per LMG, Incampo (unità 1–7), Moro (9–11) e Cotta (12–14); per SSG, lezioni
+1–16 e riassunto di Incampo (18–20), con richiamo distinto all'approfondimento sul cinema fuori esame.
+Il Quadro aggiunge una vista di sintesi: lezioni, esercizi, identificativi e progressi non vengono modificati.
+
+Controlli eseguiti su una copia pulita di `main` con le sole aggiunte del passo 5, per separare il lavoro
+da modifiche concorrenti su Filosofia SSG. Build e `check:build` riusciti, inclusi **1.348 controlli su
+11 dispositivi**. Verificati nella versione compilata tutti i **20 schemi e 113 riferimenti ai concetti**;
+lezioni e domande conservate dopo la normale risoluzione degli alias. Nel browser completate **60 prove**
+(ogni schema a 320, 393 e 1280 px) su apertura delle schede, testo, collegamenti, geometria delle reti e
+assenza di sbordi della pagina; nessun testo fuori dai nodi o etichetta sopra i nodi, nessun errore del browser.
+
+Ripartire dal **passo 6: approfondimenti «oltre»**.
 
 ## 6. Approfondimenti («oltre»)
 

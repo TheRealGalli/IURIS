@@ -1,0 +1,757 @@
+{
+  "schemi": [
+    {
+      "id": "fonti",
+      "tipo": "piramide",
+      "titolo": "Fonti e gerarchia",
+      "sottotitolo": "Quali regole governano i rapporti privati e come si coordinano",
+      "livelli": [
+        {
+          "titolo": "Fonti costituzionali",
+          "nota": "La legge ordinaria deve rispettare la Costituzione e i suoi principi.",
+          "voci": [
+            {
+              "testo": "Costituzione",
+              "concetto": "costituzione"
+            },
+            {
+              "testo": "Leggi costituzionali"
+            }
+          ]
+        },
+        {
+          "titolo": "Fonti primarie",
+          "nota": "Codice e leggi speciali hanno lo stesso rango: il Codice civile non è una fonte superiore.",
+          "voci": [
+            {
+              "testo": "Codice civile",
+              "concetto": "codice-civile"
+            },
+            {
+              "testo": "Leggi speciali"
+            },
+            {
+              "testo": "Decreti-legge e legislativi"
+            }
+          ]
+        },
+        {
+          "titolo": "Fonti secondarie",
+          "nota": "I regolamenti rispettano la legge e operano negli spazi da essa consentiti.",
+          "voci": [
+            {
+              "testo": "Regolamenti"
+            }
+          ]
+        },
+        {
+          "titolo": "Consuetudine",
+          "nota": "Comportamento costante accompagnato dalla convinzione della sua obbligatorietà; nelle materie regolate vale se richiamata.",
+          "voci": [
+            {
+              "testo": "Usi normativi",
+              "concetto": "consuetudine"
+            }
+          ]
+        }
+      ],
+      "aLato": [
+        {
+          "titolo": "Unione europea",
+          "testo": "Nelle competenze attribuite, il diritto UE direttamente efficace prevale sulla norma interna incompatibile. La primazia si coordina con i principi supremi: non basta aggiungere un gradino alla piramide.",
+          "concetto": "gerarchia-delle-fonti"
+        },
+        {
+          "titolo": "Competenza e tempo",
+          "testo": "Gerarchia, competenza, cronologia e specialità risolvono problemi diversi. L’ordinamento civile è riservato alla legislazione statale dall’art. 117, secondo comma, lett. l, Cost.",
+          "concetto": "antinomia"
+        },
+        {
+          "titolo": "Autonomia privata",
+          "testo": "Il contratto regola il rapporto fra le parti entro i limiti legali. Norme imperative, derogabili e suppletive determinano quanto spazio resta alle scelte dei privati.",
+          "concetto": "autonomia-contrattuale"
+        }
+      ],
+      "nota": "Il diritto internazionale e quello dell’Unione richiedono le rispettive regole di ingresso ed efficacia. La piramide sintetizza i rapporti fra fonti interne."
+    },
+    {
+      "id": "situazioni",
+      "tipo": "rete",
+      "titolo": "Situazioni soggettive",
+      "sottotitolo": "Pretese, poteri e posizioni corrispondenti",
+      "nodi": [
+        {
+          "id": "ass",
+          "testo": "Diritto assoluto",
+          "x": 150,
+          "y": 60,
+          "concetto": "diritti-assoluti",
+          "sotto": "opponibile a tutti"
+        },
+        {
+          "id": "rel",
+          "testo": "Diritto relativo",
+          "x": 600,
+          "y": 60,
+          "concetto": "diritti-relativi",
+          "sotto": "pretesa verso un soggetto"
+        },
+        {
+          "id": "pot",
+          "testo": "Diritto potestativo",
+          "x": 1050,
+          "y": 60,
+          "concetto": "diritto-potestativo",
+          "sotto": "modifica la sfera altrui"
+        },
+        {
+          "id": "ast",
+          "testo": "Dovere di astensione",
+          "x": 150,
+          "y": 260,
+          "concetto": "obbligo",
+          "sotto": "rispetto del diritto altrui"
+        },
+        {
+          "id": "obb",
+          "testo": "Obbligo",
+          "x": 600,
+          "y": 260,
+          "concetto": "obbligo",
+          "sotto": "condotta dovuta al creditore"
+        },
+        {
+          "id": "sogg",
+          "testo": "Soggezione",
+          "x": 1050,
+          "y": 260,
+          "concetto": "soggezione",
+          "sotto": "subisce l’effetto del potere"
+        }
+      ],
+      "archi": [
+        {
+          "da": "ass",
+          "a": "ast",
+          "testo": "corrisponde"
+        },
+        {
+          "da": "rel",
+          "a": "obb",
+          "testo": "corrisponde"
+        },
+        {
+          "da": "pot",
+          "a": "sogg",
+          "testo": "corrisponde"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Assoluto / relativo",
+          "fa": "La proprietà è opponibile a tutti; il credito richiede la prestazione del debitore. Assoluto non significa illimitato."
+        },
+        {
+          "chi": "Potere / soggezione",
+          "fa": "Il recesso attribuito dalla legge o dal contratto modifica il rapporto senza un nuovo consenso dell’altra parte."
+        },
+        {
+          "chi": "Facoltà",
+          "fa": "È una modalità di esercizio del diritto: godere della cosa è una facoltà del proprietario."
+        },
+        {
+          "chi": "Onere",
+          "fa": "Comportamento necessario per ottenere o conservare un vantaggio proprio; nessun creditore ne può pretendere l’esecuzione."
+        },
+        {
+          "chi": "Potestà e responsabilità",
+          "fa": "Il potere è attribuito per curare l’interesse altrui: la responsabilità genitoriale è una funzione a tutela del figlio."
+        },
+        {
+          "chi": "Aspettativa e status",
+          "fa": "L’aspettativa protegge un acquisto in formazione; lo status esprime una posizione nella comunità, come lo stato di figlio."
+        }
+      ],
+      "nota": "Le corrispondenze mostrano la struttura del rapporto; facoltà, onere e potere nell’interesse altrui hanno funzioni proprie."
+    },
+    {
+      "id": "diritti-reali",
+      "tipo": "rete",
+      "titolo": "Diritti reali",
+      "sottotitolo": "Godimento, garanzia e tutela del potere sulla cosa",
+      "nodi": [
+        {
+          "id": "r",
+          "testo": "Diritti reali",
+          "x": 600,
+          "y": 50,
+          "concetto": "diritti-reali",
+          "sotto": "immediatezza e opponibilità"
+        },
+        {
+          "id": "p",
+          "testo": "Proprietà",
+          "x": 150,
+          "y": 240,
+          "concetto": "proprieta",
+          "sotto": "godere e disporre"
+        },
+        {
+          "id": "g",
+          "testo": "Godimento su cosa altrui",
+          "x": 600,
+          "y": 240,
+          "concetto": "diritti-reali-di-godimento",
+          "sotto": "utilità delimitata dal diritto"
+        },
+        {
+          "id": "z",
+          "testo": "Garanzia",
+          "x": 1050,
+          "y": 240,
+          "concetto": "diritti-reali-di-garanzia",
+          "sotto": "prelazione e sequela"
+        },
+        {
+          "id": "t",
+          "testo": "Azioni petitorie",
+          "x": 150,
+          "y": 440,
+          "concetto": "azioni-petitorie",
+          "sotto": "difesa del diritto"
+        },
+        {
+          "id": "u",
+          "testo": "Usufrutto e servitù",
+          "x": 600,
+          "y": 440,
+          "concetto": "usufrutto",
+          "sotto": "esempi di godimento"
+        },
+        {
+          "id": "h",
+          "testo": "Pegno e ipoteca",
+          "x": 1050,
+          "y": 440,
+          "concetto": "ipoteca",
+          "sotto": "soddisfazione sul ricavato"
+        }
+      ],
+      "archi": [
+        {
+          "da": "r",
+          "a": "p",
+          "testo": "comprendono"
+        },
+        {
+          "da": "r",
+          "a": "g",
+          "testo": "comprendono"
+        },
+        {
+          "da": "r",
+          "a": "z",
+          "testo": "comprendono"
+        },
+        {
+          "da": "p",
+          "a": "t",
+          "testo": "si difende con"
+        },
+        {
+          "da": "g",
+          "a": "u",
+          "testo": "esempi"
+        },
+        {
+          "da": "z",
+          "a": "h",
+          "testo": "esempi"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Proprietà",
+          "fa": "Potere pieno ed esclusivo entro limiti e obblighi dell’ordinamento; la funzione sociale ne orienta la disciplina.",
+          "norma": "art. 832 c.c.; art. 42 Cost."
+        },
+        {
+          "chi": "Godimento",
+          "fa": "Superficie, enfiteusi, usufrutto, uso, abitazione e servitù attribuiscono utilità specifiche sulla cosa altrui."
+        },
+        {
+          "chi": "Garanzia",
+          "fa": "Pegno e ipoteca consentono espropriazione e preferenza sul ricavato; il creditore non acquista automaticamente il bene.",
+          "norma": "artt. 2744 e 2808 c.c."
+        },
+        {
+          "chi": "Possesso",
+          "fa": "È un potere di fatto corrispondente all’esercizio del diritto. Le azioni possessorie lo tutelano anche senza accertare la proprietà.",
+          "norma": "artt. 1140 e 1168 c.c."
+        },
+        {
+          "chi": "Acquisto",
+          "fa": "Usucapione e possesso vale titolo richiedono i loro presupposti: il semplice uso della cosa non prova un acquisto immediato."
+        }
+      ],
+      "nota": "Possesso e detenzione si studiano accanto ai diritti reali mantenendo distinta la situazione di fatto dalla titolarità del diritto."
+    },
+    {
+      "id": "obbligazioni",
+      "tipo": "rete",
+      "titolo": "Vicende dell’obbligazione",
+      "sottotitolo": "Dalla fonte alla prestazione, dalle modifiche alla tutela",
+      "nodi": [
+        {
+          "id": "f",
+          "testo": "Fonti",
+          "x": 600,
+          "y": 50,
+          "concetto": "fonti-delle-obbligazioni",
+          "sotto": "contratto · illecito · altri fatti"
+        },
+        {
+          "id": "o",
+          "testo": "Rapporto obbligatorio",
+          "x": 600,
+          "y": 220,
+          "concetto": "obbligazione",
+          "sotto": "creditore · debitore · prestazione"
+        },
+        {
+          "id": "m",
+          "testo": "Modifiche soggettive",
+          "x": 150,
+          "y": 420,
+          "concetto": "cessione-del-credito",
+          "sotto": "cambia il creditore o il debitore"
+        },
+        {
+          "id": "a",
+          "testo": "Adempimento",
+          "x": 600,
+          "y": 420,
+          "concetto": "adempimento",
+          "sotto": "esatta prestazione"
+        },
+        {
+          "id": "i",
+          "testo": "Inadempimento",
+          "x": 1050,
+          "y": 420,
+          "concetto": "inadempimento",
+          "sotto": "mancata o inesatta esecuzione"
+        },
+        {
+          "id": "e",
+          "testo": "Altre estinzioni",
+          "x": 150,
+          "y": 620,
+          "concetto": "compensazione",
+          "sotto": "compensazione · novazione · altre"
+        },
+        {
+          "id": "d",
+          "testo": "Danni e garanzia",
+          "x": 1050,
+          "y": 620,
+          "concetto": "responsabilita-patrimoniale",
+          "sotto": "risarcimento e patrimonio"
+        }
+      ],
+      "archi": [
+        {
+          "da": "f",
+          "a": "o",
+          "testo": "fanno nascere"
+        },
+        {
+          "da": "o",
+          "a": "m",
+          "testo": "può subire"
+        },
+        {
+          "da": "o",
+          "a": "a",
+          "testo": "si attua con"
+        },
+        {
+          "da": "o",
+          "a": "i",
+          "testo": "può seguire"
+        },
+        {
+          "da": "o",
+          "a": "e",
+          "testo": "può estinguersi"
+        },
+        {
+          "da": "i",
+          "a": "d",
+          "testo": "può comportare"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Fonte e prestazione",
+          "fa": "La fonte individua perché si deve; la prestazione individua che cosa si deve, con interesse del creditore anche non patrimoniale.",
+          "norma": "artt. 1173–1174 c.c."
+        },
+        {
+          "chi": "Modificare i soggetti",
+          "fa": "Cessione e surrogazione possono cambiare il creditore. Delegazione, espromissione e accollo aggiungono o sostituiscono un debitore senza automatica liberazione dell’originario."
+        },
+        {
+          "chi": "Adempiere",
+          "fa": "Occorrono esattezza di oggetto, persona, luogo e tempo; una prestazione diversa libera solo con consenso ed esecuzione.",
+          "norma": "artt. 1180–1197 c.c."
+        },
+        {
+          "chi": "Estinguere altrimenti",
+          "fa": "Compensazione, confusione, novazione, remissione e impossibilità non imputabile operano con requisiti differenti.",
+          "norma": "artt. 1230–1259 c.c."
+        },
+        {
+          "chi": "Rispondere",
+          "fa": "Il debitore prova la causa non imputabile dell’impossibilità; il creditore prova danno e causalità. La garanzia generica comprende beni presenti e futuri.",
+          "norma": "artt. 1218, 1223 e 2740 c.c."
+        }
+      ],
+      "nota": "La mora è una figura del ritardo con effetti propri. La mora del creditore riguarda invece la mancata cooperazione: non estingue da sola il debito."
+    },
+    {
+      "id": "rimedi",
+      "tipo": "rete",
+      "titolo": "Invalidità e rimedi",
+      "sottotitolo": "Individuare il problema prima di scegliere la tutela",
+      "nodi": [
+        {
+          "id": "q",
+          "testo": "Problema del contratto",
+          "x": 600,
+          "y": 50,
+          "sotto": "origine, equilibrio o esecuzione"
+        },
+        {
+          "id": "v",
+          "testo": "Vizio dell’atto",
+          "x": 300,
+          "y": 240,
+          "sotto": "validità alla conclusione"
+        },
+        {
+          "id": "r",
+          "testo": "Squilibrio o esecuzione",
+          "x": 900,
+          "y": 240,
+          "sotto": "rescissione e risoluzione"
+        },
+        {
+          "id": "n",
+          "testo": "Nullità",
+          "x": 150,
+          "y": 450,
+          "concetto": "nullita",
+          "sotto": "vizio originario radicale"
+        },
+        {
+          "id": "a",
+          "testo": "Annullabilità",
+          "x": 450,
+          "y": 450,
+          "concetto": "annullabilita",
+          "sotto": "protezione di una parte"
+        },
+        {
+          "id": "s",
+          "testo": "Rescissione",
+          "x": 750,
+          "y": 450,
+          "concetto": "rescissione",
+          "sotto": "pericolo o bisogno originari"
+        },
+        {
+          "id": "z",
+          "testo": "Risoluzione",
+          "x": 1050,
+          "y": 450,
+          "concetto": "risoluzione-per-inadempimento",
+          "sotto": "vicenda del rapporto"
+        }
+      ],
+      "archi": [
+        {
+          "da": "q",
+          "a": "v",
+          "testo": "può riguardare"
+        },
+        {
+          "da": "q",
+          "a": "r",
+          "testo": "può riguardare"
+        },
+        {
+          "da": "v",
+          "a": "n",
+          "testo": "esito"
+        },
+        {
+          "da": "v",
+          "a": "a",
+          "testo": "esito"
+        },
+        {
+          "da": "r",
+          "a": "s",
+          "testo": "alla conclusione"
+        },
+        {
+          "da": "r",
+          "a": "z",
+          "testo": "nel rapporto"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Nullità",
+          "fa": "Contrasto con norme imperative o difetti dell’art. 1418. Azione imprescrittibile, interesse ad agire e rilievo d’ufficio; restano prescrizione restitutoria e usucapione.",
+          "norma": "artt. 1418–1422 c.c."
+        },
+        {
+          "chi": "Annullabilità",
+          "fa": "Incapacità o vizio del consenso; agisce normalmente la parte protetta. Cinque anni con decorrenza legata al vizio; possibile convalida.",
+          "norma": "artt. 1441–1444 c.c."
+        },
+        {
+          "chi": "Rescissione",
+          "fa": "Pericolo noto e condizioni inique, oppure bisogno, approfittamento e lesione oltre la metà. Di regola un anno; possibile offerta di riduzione a equità.",
+          "norma": "artt. 1447–1451 c.c."
+        },
+        {
+          "chi": "Risoluzione",
+          "fa": "Inadempimento non lieve, impossibilità non imputabile o eccessiva onerosità straordinaria e imprevedibile: ciascuna causa segue regole proprie.",
+          "norma": "artt. 1453–1469 c.c."
+        },
+        {
+          "chi": "Inefficacia",
+          "fa": "Descrive il mancato prodursi di effetti: un contratto valido può essere in attesa della condizione sospensiva; l’atto senza potere può essere ratificato."
+        }
+      ],
+      "nota": "La rescissione riguarda uno squilibrio originario tipizzato. Risoluzione e recesso hanno cause e modalità differenti; la tutela dei terzi richiede anche le regole della pubblicità."
+    },
+    {
+      "id": "successione",
+      "tipo": "rete",
+      "titolo": "Il percorso successorio",
+      "sottotitolo": "Chiamata, acquisto e distribuzione del patrimonio",
+      "nodi": [
+        {
+          "id": "ap",
+          "testo": "Apertura",
+          "x": 600,
+          "y": 50,
+          "concetto": "successione-mortis-causa",
+          "sotto": "morte · ultimo domicilio"
+        },
+        {
+          "id": "le",
+          "testo": "Chiamata legale",
+          "x": 150,
+          "y": 230,
+          "concetto": "successione-legittima",
+          "sotto": "per quanto non dispone il testamento"
+        },
+        {
+          "id": "de",
+          "testo": "Delazione",
+          "x": 600,
+          "y": 230,
+          "concetto": "delazione-ereditaria",
+          "sotto": "offerta dell’eredità"
+        },
+        {
+          "id": "te",
+          "testo": "Testamento",
+          "x": 1050,
+          "y": 230,
+          "concetto": "testamento",
+          "sotto": "disposizioni per dopo la morte"
+        },
+        {
+          "id": "er",
+          "testo": "Erede",
+          "x": 300,
+          "y": 450,
+          "concetto": "erede",
+          "sotto": "acquisto con accettazione"
+        },
+        {
+          "id": "lg",
+          "testo": "Legatario",
+          "x": 900,
+          "y": 450,
+          "concetto": "legato",
+          "sotto": "acquisto senza accettazione"
+        },
+        {
+          "id": "di",
+          "testo": "Comunione e divisione",
+          "x": 300,
+          "y": 650,
+          "concetto": "divisione-ereditaria",
+          "sotto": "dalla quota ai beni assegnati"
+        }
+      ],
+      "archi": [
+        {
+          "da": "ap",
+          "a": "le",
+          "testo": "si regola con"
+        },
+        {
+          "da": "ap",
+          "a": "te",
+          "testo": "si regola con"
+        },
+        {
+          "da": "le",
+          "a": "de",
+          "testo": "può fondare"
+        },
+        {
+          "da": "te",
+          "a": "de",
+          "testo": "può fondare"
+        },
+        {
+          "da": "de",
+          "a": "er",
+          "testo": "con accettazione"
+        },
+        {
+          "da": "te",
+          "a": "lg",
+          "testo": "può attribuire"
+        },
+        {
+          "da": "er",
+          "a": "di",
+          "testo": "con più eredi"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Apertura e chiamata",
+          "fa": "Si apre alla morte nell’ultimo domicilio. Legge e testamento possono concorrere; l’istituzione di erede si distingue dal legato.",
+          "norma": "artt. 456–457 e 588 c.c."
+        },
+        {
+          "chi": "Acquisto dell’eredità",
+          "fa": "Accettazione espressa o tacita, normalmente entro dieci anni. Il beneficio d’inventario separa i patrimoni e limita la responsabilità al valore ricevuto.",
+          "norma": "artt. 459, 475–490 c.c."
+        },
+        {
+          "chi": "Acquisto del legato",
+          "fa": "Opera senza accettazione, salva rinuncia; il possesso va chiesto all’onerato. Il legatario non assume la generale posizione debitoria dell’erede.",
+          "norma": "artt. 649 e 671 c.c."
+        },
+        {
+          "chi": "Chiamato che manca",
+          "fa": "Sostituzione, rappresentazione e accrescimento hanno presupposti e ordine propri. Nella rappresentazione si divide per stirpi."
+        },
+        {
+          "chi": "Riserva e divisione",
+          "fa": "Prima si distinguono quota legale e quota riservata; riunione fittizia, riduzione e collazione rispondono a problemi diversi.",
+          "norma": "artt. 536–564 e 737 c.c."
+        }
+      ],
+      "nota": "La successione legittima indica la chiamata per legge. La successione necessaria tutela invece la riserva dei legittimari anche contro disposizioni testamentarie o donazioni lesive."
+    },
+    {
+      "id": "quote",
+      "tipo": "rete",
+      "titolo": "Successioni e quote",
+      "sottotitolo": "Confrontare devoluzione legale e riserva senza scambiare le due tabelle",
+      "nodi": [
+        {
+          "id": "c",
+          "testo": "Quale calcolo?",
+          "x": 600,
+          "y": 50,
+          "sotto": "stessa famiglia, quote diverse"
+        },
+        {
+          "id": "l",
+          "testo": "Devoluzione legale",
+          "x": 300,
+          "y": 250,
+          "concetto": "successione-legittima",
+          "sotto": "in mancanza di disposizione efficace"
+        },
+        {
+          "id": "n",
+          "testo": "Riserva e disponibile",
+          "x": 900,
+          "y": 250,
+          "concetto": "quota-di-legittima",
+          "sotto": "limite a testamento e donazioni"
+        }
+      ],
+      "archi": [
+        {
+          "da": "c",
+          "a": "l",
+          "testo": "chiamata per legge"
+        },
+        {
+          "da": "c",
+          "a": "n",
+          "testo": "tutela dei legittimari"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Un figlio, senza coniuge",
+          "fa": "Legale: tutto al figlio. Riserva: metà al figlio; disponibile metà.",
+          "norma": "artt. 537 e 566 c.c."
+        },
+        {
+          "chi": "Più figli, senza coniuge",
+          "fa": "Legale: tutto ai figli in parti uguali. Riserva: due terzi complessivi; disponibile un terzo.",
+          "norma": "artt. 537 e 566 c.c."
+        },
+        {
+          "chi": "Coniuge e un figlio",
+          "fa": "Legale: metà ciascuno. Riserva: un terzo ciascuno; disponibile un terzo.",
+          "norma": "artt. 542 e 581 c.c."
+        },
+        {
+          "chi": "Coniuge e più figli",
+          "fa": "Legale: un terzo al coniuge, due terzi ai figli. Riserva: un quarto al coniuge, metà ai figli; disponibile un quarto.",
+          "norma": "artt. 542 e 581 c.c."
+        },
+        {
+          "chi": "Coniuge, senza figli né ascendenti né fratelli",
+          "fa": "Legale: tutto al coniuge. Riserva: metà al coniuge; disponibile metà.",
+          "norma": "artt. 540 e 583 c.c."
+        },
+        {
+          "chi": "Coniuge e ascendenti, senza figli né fratelli",
+          "fa": "Legale: due terzi al coniuge, un terzo agli ascendenti. Riserva: metà al coniuge, un quarto agli ascendenti; disponibile un quarto.",
+          "norma": "artt. 544 e 582 c.c."
+        },
+        {
+          "chi": "Ascendenti, senza figli né coniuge",
+          "fa": "Legale: in assenza anche di fratelli e loro discendenti, tutto agli ascendenti secondo linea e grado. Riserva: un terzo; disponibile due terzi.",
+          "norma": "artt. 538, 568–569 c.c."
+        },
+        {
+          "chi": "Massa e diritti aggiuntivi",
+          "fa": "La riserva si calcola su beni residui meno debiti più donazioni. Al coniuge spettano anche abitazione della casa familiare e uso dei mobili, se del defunto o comuni.",
+          "norma": "artt. 540 e 556 c.c."
+        }
+      ],
+      "nota": "Le quote sono complessive della categoria. Si presuppongono chiamate attuali senza rappresentazione o rinunce. Fratelli e altri concorsi richiedono le regole della lezione; la parte dell’unione civile è equiparata al coniuge."
+    }
+  ]
+}

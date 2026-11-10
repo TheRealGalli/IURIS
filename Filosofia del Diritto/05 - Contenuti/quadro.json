@@ -1,0 +1,647 @@
+{
+  "schemi": [
+    {
+      "id": "dovere",
+      "tipo": "rete",
+      "titolo": "Incampo: il dovere",
+      "sottotitolo": "Due criteri di classificazione che si incrociano",
+      "nodi": [
+        {
+          "id": "d",
+          "testo": "Dovere giuridico",
+          "x": 600,
+          "y": 50,
+          "concetto": "dovere-giuridico",
+          "sotto": "tema della filosofia del diritto"
+        },
+        {
+          "id": "f",
+          "testo": "Secondo la forza",
+          "x": 300,
+          "y": 230,
+          "sotto": "rapporto con la pensabilità del diritto"
+        },
+        {
+          "id": "o",
+          "testo": "Secondo l’oggetto",
+          "x": 900,
+          "y": 230,
+          "sotto": "che cosa viene regolato"
+        },
+        {
+          "id": "n",
+          "testo": "Necessario",
+          "x": 150,
+          "y": 440,
+          "concetto": "norma-necessaria",
+          "sotto": "condizione del giuridico"
+        },
+        {
+          "id": "p",
+          "testo": "Solo possibile",
+          "x": 450,
+          "y": 440,
+          "concetto": "norma-solo-possibile",
+          "sotto": "scelta contingente"
+        },
+        {
+          "id": "c",
+          "testo": "Condotta",
+          "x": 750,
+          "y": 440,
+          "concetto": "norma-primaria",
+          "sotto": "che cosa si deve fare"
+        },
+        {
+          "id": "s",
+          "testo": "Struttura",
+          "x": 1050,
+          "y": 440,
+          "concetto": "norma-secondaria",
+          "sotto": "produzione e validità delle norme"
+        }
+      ],
+      "archi": [
+        {
+          "da": "d",
+          "a": "f",
+          "testo": "si considera"
+        },
+        {
+          "da": "d",
+          "a": "o",
+          "testo": "si considera"
+        },
+        {
+          "da": "f",
+          "a": "n",
+          "testo": "può essere"
+        },
+        {
+          "da": "f",
+          "a": "p",
+          "testo": "può essere"
+        },
+        {
+          "da": "o",
+          "a": "c",
+          "testo": "può riguardare"
+        },
+        {
+          "da": "o",
+          "a": "s",
+          "testo": "può riguardare"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Forza",
+          "fa": "Incampo distingue ciò senza cui il diritto sarebbe impensabile da scelte normative contingenti: una norma posta può cambiare senza far venir meno il diritto."
+        },
+        {
+          "chi": "Oggetto",
+          "fa": "Le norme di condotta orientano l’azione; quelle di struttura regolano produzione, trasformazione e riconoscimento delle norme."
+        },
+        {
+          "chi": "Obbligo e permesso",
+          "fa": "Il permesso giuridico implica obblighi correlativi di rispetto: il tema del dovere non riguarda solo i divieti."
+        },
+        {
+          "chi": "Filosofia e politica",
+          "fa": "La filosofia cerca la giustificazione universale; la politica opera scelte particolari. In Incampo entrambe appartengono all’esperienza del diritto."
+        }
+      ],
+      "nota": "Le due classificazioni sono indipendenti: necessario/possibile riguarda la forza, condotta/struttura riguarda l’oggetto."
+    },
+    {
+      "id": "validita",
+      "tipo": "rete",
+      "titolo": "Incampo: la validità",
+      "sottotitolo": "Atti e norme: condizioni intrinseche e condizioni poste",
+      "nodi": [
+        {
+          "id": "v",
+          "testo": "Validità",
+          "x": 600,
+          "y": 50,
+          "concetto": "validita",
+          "sotto": "esistenza giuridica"
+        },
+        {
+          "id": "p",
+          "testo": "Pragmatica",
+          "x": 300,
+          "y": 230,
+          "concetto": "validita-pragmatica",
+          "sotto": "atti"
+        },
+        {
+          "id": "s",
+          "testo": "Sintattica",
+          "x": 900,
+          "y": 230,
+          "concetto": "validita-sintattica",
+          "sotto": "norme nell’ordinamento"
+        },
+        {
+          "id": "pl",
+          "testo": "Praxeologica",
+          "x": 150,
+          "y": 440,
+          "concetto": "validita-praxeologica",
+          "sotto": "idea e funzione dell’atto"
+        },
+        {
+          "id": "pn",
+          "testo": "Praxeonomica",
+          "x": 450,
+          "y": 440,
+          "concetto": "validita-praxeonomica",
+          "sotto": "condizioni da norme esterne"
+        },
+        {
+          "id": "sl",
+          "testo": "Sintasseologica",
+          "x": 750,
+          "y": 440,
+          "concetto": "validita-sintasseologica",
+          "sotto": "principi e metaregole necessari"
+        },
+        {
+          "id": "sn",
+          "testo": "Sintasseonomica",
+          "x": 1050,
+          "y": 440,
+          "concetto": "validita-sintasseonomica",
+          "sotto": "norme poste su altre norme"
+        }
+      ],
+      "archi": [
+        {
+          "da": "v",
+          "a": "p",
+          "testo": "riguarda gli atti"
+        },
+        {
+          "da": "v",
+          "a": "s",
+          "testo": "riguarda le norme"
+        },
+        {
+          "da": "p",
+          "a": "pl",
+          "testo": "condizioni intrinseche"
+        },
+        {
+          "da": "p",
+          "a": "pn",
+          "testo": "condizioni poste"
+        },
+        {
+          "da": "s",
+          "a": "sl",
+          "testo": "principi intrinseci"
+        },
+        {
+          "da": "s",
+          "a": "sn",
+          "testo": "condizioni poste"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Praxeologica",
+          "fa": "La promessa riguarda una condotta futura: la promessa di una cosa già passata cambia il senso dell’atto. Si considerano struttura e funzione essenziale."
+        },
+        {
+          "chi": "Praxeonomica",
+          "fa": "Le norme di un ordinamento impongono requisiti ulteriori: per l’olografo la scrittura autografa, la data e la firma."
+        },
+        {
+          "chi": "Sintasseologica",
+          "fa": "La ricerca risale ai presupposti di pensabilità dell’ordinamento, come la norma fondamentale e la chiusura del sistema."
+        },
+        {
+          "chi": "Sintasseonomica",
+          "fa": "Si studiano norme poste sulla produzione, revisione o eliminazione delle norme: competenze legislative e regole di abrogazione."
+        }
+      ],
+      "nota": "Schema della terminologia di Incampo: la distinzione atti/norme precede quella fra condizioni intrinseche e condizioni poste."
+    },
+    {
+      "id": "parola",
+      "tipo": "rete",
+      "titolo": "Parola, norma e verità",
+      "sottotitolo": "Come cambia il rapporto fra parole e mondo",
+      "nodi": [
+        {
+          "id": "l",
+          "testo": "Linguaggio giuridico",
+          "x": 600,
+          "y": 50,
+          "concetto": "linguaggio-giuridico",
+          "sotto": "parlare del diritto e porlo"
+        },
+        {
+          "id": "t",
+          "testo": "Enunciazione thetica",
+          "x": 300,
+          "y": 250,
+          "concetto": "enunciazione-thetica",
+          "sotto": "il mondo si adatta alle parole"
+        },
+        {
+          "id": "r",
+          "testo": "Enunciazione rhetica",
+          "x": 900,
+          "y": 250,
+          "concetto": "enunciazione-rhetica",
+          "sotto": "le parole si adattano al mondo"
+        },
+        {
+          "id": "s",
+          "testo": "Status deontico",
+          "x": 300,
+          "y": 450,
+          "concetto": "status-deontico",
+          "sotto": "costituito dall’atto competente"
+        },
+        {
+          "id": "v",
+          "testo": "Verità dell’affermazione",
+          "x": 900,
+          "y": 450,
+          "concetto": "verita",
+          "sotto": "dipende dalla norma esistente"
+        }
+      ],
+      "archi": [
+        {
+          "da": "l",
+          "a": "t",
+          "testo": "può porre"
+        },
+        {
+          "da": "l",
+          "a": "r",
+          "testo": "può descrivere"
+        },
+        {
+          "da": "t",
+          "a": "s",
+          "testo": "costituisce"
+        },
+        {
+          "da": "r",
+          "a": "v",
+          "testo": "si valuta per"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Thetica",
+          "fa": "Il legislatore dispone un obbligo: l’enunciazione pone deonticamente lo status. L’analisi della sua autoverificazione presuppone l’atto giuridico valido."
+        },
+        {
+          "chi": "Rhetica",
+          "fa": "Il giurista afferma che un obbligo esiste: la sua affermazione può essere falsa e non crea da sola l’obbligo."
+        },
+        {
+          "chi": "Condizioni dell’atto",
+          "fa": "Competenza, contesto e condizioni di felicità distinguono l’atto riuscito da una frase pronunciata senza il potere di produrne gli effetti."
+        },
+        {
+          "chi": "Regole costitutive",
+          "fa": "Una regola può rendere possibile un fatto istituzionale; non si limita sempre a comandare una condotta già pensabile senza di essa."
+        }
+      ],
+      "nota": "Le distinzioni riprendono il percorso da Austin e Searle a Conte e Carcaterra svolto nelle lezioni di Incampo."
+    },
+    {
+      "id": "moro",
+      "tipo": "rete",
+      "titolo": "Moro: persona e Stato",
+      "sottotitolo": "La dimensione sociale della libertà e il problema dell’autorità",
+      "nodi": [
+        {
+          "id": "p",
+          "testo": "Persona",
+          "x": 600,
+          "y": 50,
+          "concetto": "persona",
+          "sotto": "vita morale e libertà"
+        },
+        {
+          "id": "s",
+          "testo": "Società",
+          "x": 600,
+          "y": 240,
+          "concetto": "societa",
+          "sotto": "relazione e comunione"
+        },
+        {
+          "id": "l",
+          "testo": "Idea liberale",
+          "x": 150,
+          "y": 430,
+          "concetto": "idea-liberale-dello-stato",
+          "sotto": "la società serve la persona"
+        },
+        {
+          "id": "st",
+          "testo": "Stato",
+          "x": 600,
+          "y": 430,
+          "concetto": "stato",
+          "sotto": "società secondo giustizia"
+        },
+        {
+          "id": "so",
+          "testo": "Idea sociale",
+          "x": 1050,
+          "y": 430,
+          "concetto": "idea-sociale-dello-stato",
+          "sotto": "la persona vive con gli altri"
+        },
+        {
+          "id": "a",
+          "testo": "Autorità e libertà",
+          "x": 300,
+          "y": 640,
+          "concetto": "autorita-e-liberta",
+          "sotto": "problema aperto del diritto"
+        },
+        {
+          "id": "m",
+          "testo": "Momento umanistico",
+          "x": 900,
+          "y": 640,
+          "concetto": "momento-politico-umanistico",
+          "sotto": "azione solidale per fini comuni"
+        }
+      ],
+      "archi": [
+        {
+          "da": "p",
+          "a": "s",
+          "testo": "si realizza nella"
+        },
+        {
+          "da": "s",
+          "a": "l",
+          "testo": "si comprende con"
+        },
+        {
+          "da": "s",
+          "a": "st",
+          "testo": "si svolge nello"
+        },
+        {
+          "da": "s",
+          "a": "so",
+          "testo": "si comprende con"
+        },
+        {
+          "da": "st",
+          "a": "a",
+          "testo": "pone il problema"
+        },
+        {
+          "da": "st",
+          "a": "m",
+          "testo": "si attua anche nel"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Persona e società",
+          "fa": "Per Moro il singolo non è una monade e la società non è un organismo che lo riduce a mezzo: la vita personale si sviluppa nella relazione."
+        },
+        {
+          "chi": "Liberale e sociale",
+          "fa": "Le due idee si integrano quando la società è sviluppo della persona. Le versioni unilaterali sacrificano rispettivamente il legame sociale o il valore del singolo."
+        },
+        {
+          "chi": "Stato e giustizia",
+          "fa": "Lo Stato riceve valore dalla sua funzione nella vita umana. La forza giuridica richiede giustificazione e non vale per il solo fatto di imporsi."
+        },
+        {
+          "chi": "Autorità e libertà",
+          "fa": "La libertà etica si esprime nella legge e nella solidarietà; il diritto positivo conserva un residuo di inadeguatezza che rende permanente la ricerca del giusto."
+        },
+        {
+          "chi": "Momento politico umanistico",
+          "fa": "L’attività concreta dei singoli e dell’amministrazione realizza fini superindividuali nel quadro della legge."
+        }
+      ],
+      "nota": "Schema delle lezioni su Il diritto e lo Stato: i nessi ricostruiscono il ragionamento di Moro e non un organigramma degli apparati pubblici."
+    },
+    {
+      "id": "coesistenza",
+      "tipo": "rete",
+      "titolo": "Cotta: la coesistenza",
+      "sottotitolo": "Sei forme e due movimenti di integrazione",
+      "nodi": [
+        {
+          "id": "e",
+          "testo": "Integrativo-escludenti",
+          "x": 600,
+          "y": 50,
+          "concetto": "forme-integrativo-escludenti",
+          "sotto": "particolarità e appartenenza"
+        },
+        {
+          "id": "a",
+          "testo": "Amicizia",
+          "x": 150,
+          "y": 240,
+          "concetto": "amicizia",
+          "sotto": "simpatia · lealtà"
+        },
+        {
+          "id": "p",
+          "testo": "Politica",
+          "x": 600,
+          "y": 240,
+          "concetto": "politica",
+          "sotto": "identità comune · solidarietà"
+        },
+        {
+          "id": "f",
+          "testo": "Famiglia",
+          "x": 1050,
+          "y": 240,
+          "concetto": "famiglia",
+          "sotto": "amore · fedeltà e cura"
+        },
+        {
+          "id": "i",
+          "testo": "Integrativo-includenti",
+          "x": 600,
+          "y": 440,
+          "concetto": "forme-integrativo-includenti",
+          "sotto": "apertura oltre il gruppo"
+        },
+        {
+          "id": "g",
+          "testo": "Gioco",
+          "x": 150,
+          "y": 630,
+          "concetto": "gioco",
+          "sotto": "regole · correttezza"
+        },
+        {
+          "id": "d",
+          "testo": "Diritto",
+          "x": 600,
+          "y": 630,
+          "concetto": "rapporto-giuridico",
+          "sotto": "regola · legalità"
+        },
+        {
+          "id": "c",
+          "testo": "Carità",
+          "x": 1050,
+          "y": 630,
+          "concetto": "carita",
+          "sotto": "accettazione dell’altro"
+        }
+      ],
+      "archi": [
+        {
+          "da": "e",
+          "a": "a",
+          "testo": "comprendono"
+        },
+        {
+          "da": "e",
+          "a": "p",
+          "testo": "comprendono"
+        },
+        {
+          "da": "e",
+          "a": "f",
+          "testo": "comprendono"
+        },
+        {
+          "da": "i",
+          "a": "g",
+          "testo": "comprendono"
+        },
+        {
+          "da": "i",
+          "a": "d",
+          "testo": "comprendono"
+        },
+        {
+          "da": "i",
+          "a": "c",
+          "testo": "comprendono"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Amicizia",
+          "fa": "Rapporto personale selettivo: la simpatia costituisce il legame e la lealtà lo regola."
+        },
+        {
+          "chi": "Politica",
+          "fa": "Integra mediante un’identità sovraindividuale e il bene comune; la sua appartenenza può escludere chi resta fuori."
+        },
+        {
+          "chi": "Famiglia",
+          "fa": "Integra coniugalità e genitorialità: amore aggregativo, fedeltà e cure reciproche."
+        },
+        {
+          "chi": "Gioco",
+          "fa": "Apre la partecipazione mediante regole e parità iniziale; riguarda i giocatori e può concludersi con la vittoria di uno."
+        },
+        {
+          "chi": "Diritto",
+          "fa": "Ha vocazione universale e mantiene la parità del rapporto; la legalità regola una coesistenza pacifica."
+        },
+        {
+          "chi": "Carità",
+          "fa": "Accoglie l’altro senza pretendere reciprocità: il suo rapporto con la giuridicità è atipico nel testo di Cotta."
+        }
+      ],
+      "nota": "Per confrontare le forme considera ambito, principio costitutivo, movimento e principio regolativo. Includente/escludente descrive la struttura della relazione."
+    },
+    {
+      "id": "giustizia",
+      "tipo": "rete",
+      "titolo": "Cotta: tre giustizie",
+      "sottotitolo": "Equivalenza, proporzionalità e principio-persona",
+      "nodi": [
+        {
+          "id": "g",
+          "testo": "Giustizia",
+          "x": 600,
+          "y": 50,
+          "concetto": "giustizia",
+          "sotto": "giustificare la regola"
+        },
+        {
+          "id": "i",
+          "testo": "Individuale",
+          "x": 150,
+          "y": 260,
+          "concetto": "giustizia-individuale",
+          "sotto": "equivalenza e parità"
+        },
+        {
+          "id": "s",
+          "testo": "Societaria",
+          "x": 600,
+          "y": 260,
+          "concetto": "giustizia-societaria",
+          "sotto": "proporzionalità e bene comune"
+        },
+        {
+          "id": "u",
+          "testo": "Universale",
+          "x": 1050,
+          "y": 260,
+          "concetto": "giustizia-universale",
+          "sotto": "uguaglianza della persona"
+        }
+      ],
+      "archi": [
+        {
+          "da": "g",
+          "a": "i",
+          "testo": "si considera come"
+        },
+        {
+          "da": "g",
+          "a": "s",
+          "testo": "si considera come"
+        },
+        {
+          "da": "g",
+          "a": "u",
+          "testo": "si considera come"
+        }
+      ],
+      "elenco": [
+        {
+          "chi": "Individuale",
+          "fa": "Rapporti diretti fra soggetti, equivalenza e parità. Un accordo fra due può però danneggiare terzi: la correttezza interna non esaurisce il giusto."
+        },
+        {
+          "chi": "Societaria",
+          "fa": "Rapporti nella società, anche mediati dallo Stato: oneri secondo capacità e ricompense secondo meriti, orientati al bene comune. Resta il rischio di chiusura o sacrificio dei deboli."
+        },
+        {
+          "chi": "Universale",
+          "fa": "Il principio-persona fonda uguaglianza ontologica, simmetria, corrispondenza diritti-doveri, adeguatezza, rispetto del giusto e imparzialità."
+        },
+        {
+          "chi": "Funzione del diritto",
+          "fa": "La giustificazione della regola si lega alla possibilità della coesistenza: ciascuno riceve il suo senza danno ingiusto agli altri."
+        }
+      ],
+      "nota": "Le tre prospettive sono confrontate nel testo di Cotta. L’universalità offre un criterio per valutare anche i limiti delle relazioni individuali e della comunità particolare."
+    }
+  ]
+}
