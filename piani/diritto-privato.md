@@ -2,7 +2,9 @@
 
 Stato: **in corso**. Fonte arrivata il 10 novembre 2026: dispensa di Nick Petrullo e Ludovico Mainieri sul manuale
 Torrente–Schlesinger (2012), 238 pagine fitte, 72 capitoli. Testo per pagina in
-`Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Fatte le unità 1–7 (parte generale, pp. 1–50); la materia è attiva nei tre corsi.
+`Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Fatte le unità 1–11 (pp. 1–95); la materia è attiva nei tre corsi.
+
+**Per riprendere il lavoro: [`consegne-diritto-privato.md`](consegne-diritto-privato.md)** (giri, ciclo, standard, punti da aggiornare).
 
 Attenzione: la dispensa è del **2012**. Vanno aggiornati almeno: filiazione (l. 219/2012 e d.lgs. 154/2013: stato
 unico di figlio, responsabilità genitoriale), unioni civili e convivenze (l. 76/2016), divorzio breve (l. 55/2015),
@@ -136,11 +138,3 @@ L'ordine e i confini veri vengono dal materiale di Carlo, non da questo elenco.
 - `.gitignore`: `!/Diritto Privato/`, `/Diritto Privato/*`, `!/Diritto Privato/05 - Contenuti/`.
 - `studio/src/data/corsi.ts`: `'diritto-privato'` nelle `materie` di A-L (e M-Z segnaposto), via da `inArrivo` in
   tutti i corsi; attese in `studio/scripts/check-corsi.mjs`; riga in `README.md`; build e controlli.
-
-## Unità
-
-Da compilare quando arrivano le fonti.
-
-| Unità | Capitolo | Argomenti | Pagine | Stato |
-|---|---|---|---|---|
-| | | | | |
