@@ -5,7 +5,7 @@
 Lezioni, glossario, mappe, cronologia ed esercizi con ripasso spaziato per lo studio del diritto.
 Il sito funziona nel browser, senza account, server applicativo o sincronizzazione dei progressi.
 
-Le materie si scelgono da una griglia di simboli su due colonne, nella barra laterale e nel menu del telefono. Se ne vedono quattro per volta e le altre si scorrono; alla prima apertura la griglia fa un piccolo movimento per mostrarlo. Sotto la griglia compaiono nome e docente della materia scelta, o di quella sotto il puntatore o a fuoco con la tastiera; il puntino colorato distingue le materie disponibili. I riquadri grigi restano disabilitati finché i contenuti non sono pronti.
+Le materie si scelgono da una griglia di simboli su due colonne, nella barra laterale e nel menu del telefono. Se ne vedono quattro per volta e le altre si scorrono; alla prima apertura la griglia fa un piccolo movimento per mostrarlo. Nome e docente compaiono al passaggio del puntatore o con il fuoco della tastiera; ogni materia ha un simbolo diverso e il puntino colorato distingue le materie disponibili. I riquadri grigi restano disabilitati finché i contenuti non sono pronti.
 
 | Corso | Materia | Contenuti |
 |---|---|---|

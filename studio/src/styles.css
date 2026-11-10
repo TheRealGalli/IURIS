@@ -94,7 +94,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .corso-switch svg { margin-left: auto; color: var(--ink-3); }
 .corso-select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; appearance: none; -webkit-appearance: none; }
 .corso-switch-pagina { margin: 0; padding: 9px 12px; font-size: 13.5px; }
-.materia-switch { display: flex; flex-direction: column; gap: 4px; }
+.materia-switch { display: flex; flex-direction: column; gap: 4px; margin-bottom: -8px; }
 /* Si vedono quattro materie; le altre si scorrono. Il nome sta nella riga sotto la griglia. */
 .materia-griglia { position: relative; min-width: 0; }
 .materia-lista {
@@ -108,9 +108,11 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 @keyframes materia-accenno { 0%, 100% { transform: none; } 45%, 55% { transform: translateY(-30px); } }
 .materia-lista.accenno .materia-casella { animation: materia-accenno 1.3s ease-in-out .9s 1 both; }
 @media (prefers-reduced-motion: reduce) { .materia-lista.accenno .materia-casella { animation: none; } }
-.materia-didascalia { padding: 4px 6px 0; min-height: 34px; font-size: 12px; line-height: 1.3; color: var(--ink-2); }
-.materia-didascalia b { display: block; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.materia-didascalia span { display: block; font-size: 10.5px; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.materia-nome {
+  position: fixed; z-index: 60; width: max-content; max-width: 220px; padding: 6px 9px; border: 1px solid var(--line-2); border-radius: 8px;
+  background: var(--ink); color: var(--bg); font-size: 11px; line-height: 1.35; pointer-events: none;
+}
+.materia-dettagli { display: block; opacity: .72; font-size: 10px; }
 /* Invito a inviare materiale: compatto, in fondo alla barra sopra la demo */
 .invia-materiale {
   display: flex; align-items: flex-start; gap: 9px; padding: 9px 10px; border-radius: var(--radius-s); text-decoration: none;

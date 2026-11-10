@@ -6,7 +6,11 @@ import { Icon } from './ui';
 function iconaMateria(nome: string) {
   const n = nome.toLocaleLowerCase('it');
   if (n.includes('filosofia')) return 'materia-filosofia';
+  if (n.includes('istituzioni di diritto romano')) return 'materia-istituzioni';
   if (n.includes('romano')) return 'materia-romano';
+  if (n.includes('storia del diritto italiano')) return 'materia-storia';
+  if (n.includes('informatic')) return 'materia-informatica';
+  if (n.includes('inglese')) return 'materia-inglese';
   if (n.includes('costituzionale')) return 'materia-costituzionale';
   if (n.includes('privato')) return 'materia-privato';
   return 'libro';
@@ -15,8 +19,8 @@ function iconaMateria(nome: string) {
 /** Ricordo, fuori dall'archivio di studio e dai backup, che l'accenno di scorrimento è già stato mostrato. */
 const ACCENNO = 'iuris-ui:griglia-materie-accenno';
 
-/** Griglia delle materie: se ne vedono quattro, le altre si scorrono. Il nome di quella sotto il puntatore
- *  (o a fuoco, o scelta) sta nella riga sotto la griglia, dove lo scorrimento non lo taglia. */
+/** Griglia delle materie: se ne vedono quattro, le altre si scorrono. Il nome compare al passaggio del puntatore
+ *  o con il fuoco della tastiera, in un fumetto fuori dall'area che scorre, così lo scorrimento non lo taglia. */
 export default function GrigliaMaterie({ corso, materie, selezionata, onSelect, className = '' }: {
   corso: CorsoDiStudio; materie: MateriaInfo[]; selezionata: string; onSelect: (slug: string) => void; className?: string;
 }) {
@@ -26,9 +30,14 @@ export default function GrigliaMaterie({ corso, materie, selezionata, onSelect, 
       dettagli: [m.docente, m.cfu && `${m.cfu} CFU`, m.semestre && (m.semestre === 'Annuale' ? 'annuale' : `${m.semestre} semestre`), 'in arrivo'].filter(Boolean).join(' · ') })),
   ];
   const lista = useRef<HTMLDivElement>(null);
-  const [indicata, setIndicata] = useState<string | null>(null);
+  const [fumetto, setFumetto] = useState<{ id: string; x: number; y: number; destra: boolean } | null>(null);
   const [altreSotto, setAltreSotto] = useState(false);
-  const mostrata = voci.find((v) => v.id === indicata) ?? voci.find((v) => v.id === selezionata);
+  const mostrata = voci.find((v) => v.id === fumetto?.id);
+  const indica = (id: string, el: HTMLElement) => {
+    const r = el.getBoundingClientRect();
+    const destra = r.left + r.width / 2 > innerWidth / 2;
+    setFumetto({ id, x: destra ? innerWidth - r.right : r.left, y: r.bottom + 5, destra });
+  };
 
   const aggiorna = () => {
     const el = lista.current;
@@ -53,10 +62,10 @@ export default function GrigliaMaterie({ corso, materie, selezionata, onSelect, 
   }, [voci.length]);
 
   return <div className={`materia-griglia${altreSotto ? ' altre-sotto' : ''}`}>
-    <div ref={lista} className={`materia-lista ${className}${accenno ? ' accenno' : ''}`} role="group" aria-label="Materie" onScroll={aggiorna}>
+    <div ref={lista} className={`materia-lista ${className}${accenno ? ' accenno' : ''}`} role="group" aria-label="Materie" onScroll={() => { aggiorna(); setFumetto(null); }}>
       {voci.map((m) => <span key={m.id} className="materia-casella"
-        onPointerEnter={() => setIndicata(m.id)} onPointerLeave={() => setIndicata(null)}
-        onFocus={() => setIndicata(m.id)} onBlur={() => setIndicata(null)}>
+        onPointerEnter={(e) => e.pointerType === 'mouse' && indica(m.id, e.currentTarget)} onPointerLeave={() => setFumetto(null)}
+        onFocus={(e) => indica(m.id, e.currentTarget)} onBlur={() => setFumetto(null)}>
         <button className={`materia-btn${m.id === selezionata ? ' on' : ''}`} disabled={!m.pronta}
           aria-label={m.nome} title={m.nome} aria-pressed={m.pronta ? m.id === selezionata : undefined}
           onClick={() => onSelect(m.id)}>
@@ -65,9 +74,8 @@ export default function GrigliaMaterie({ corso, materie, selezionata, onSelect, 
         </button>
       </span>)}
     </div>
-    <div className="materia-didascalia" aria-hidden="true">
-      <b>{mostrata?.nome ?? ' '}</b>
-      <span>{mostrata?.dettagli || ' '}</span>
-    </div>
+    {mostrata && fumetto && <span className="materia-nome" aria-hidden="true" style={{ top: fumetto.y, [fumetto.destra ? 'right' : 'left']: fumetto.x }}>
+      {mostrata.nome}{mostrata.dettagli && <span className="materia-dettagli">{mostrata.dettagli}</span>}
+    </span>}
   </div>;
 }

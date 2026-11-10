@@ -138,7 +138,8 @@ try {
     const css = fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
     assert(/\.materia-lista \{[^}]*display: grid;[^}]*grid-template-columns: repeat\(2,/.test(css), 'materie visibili in due colonne');
     assert(/\.materia-lista \{[^}]*max-height: calc\(var\(--materia-h\) \* 2/.test(css) && /overflow-y: auto/.test(css), 'quattro materie visibili, le altre si scorrono');
-    assert(griglia.includes('className="materia-didascalia"') && griglia.includes('onFocus={() => setIndicata(m.id)}'), 'nome della materia visibile sotto la griglia, anche da tastiera');
+    assert(griglia.includes('className="materia-nome"') && griglia.includes('onFocus={(e) => indica(m.id, e.currentTarget)}'), 'nome della materia visibile al passaggio e anche da tastiera');
+    assert(new Set(['Storia del diritto romano', 'Istituzioni di diritto romano', 'Storia del diritto italiano', 'Abilità informatiche per giuristi', 'Lingua inglese', 'Diritto privato', 'Diritto costituzionale', 'Filosofia del diritto'].map((n) => griglia.match(/if \(n\.includes\('([^']+)'\)\) return '([^']+)'/g).map((r) => r.match(/includes\('([^']+)'\)\) return '([^']+)'/)).find((m) => n.toLocaleLowerCase('it').includes(m[1]))?.[2])).size === 8, 'ogni materia ha un simbolo diverso');
   });
 
   console.log(`Corsi verificati: ${checks} controlli su configurazione, corso predefinito, filtro delle materie e backup (${CORSI.length} ${CORSI.length === 1 ? 'corso' : 'corsi'}).`);
