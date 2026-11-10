@@ -1246,6 +1246,168 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u13-q034",
+      "lezione": "u13-l1",
+      "livello": "medio",
+      "pagine": [
+        134,
+        136
+      ],
+      "concetti": [
+        "regola-costitutiva"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quale di queste è una regola costitutiva?",
+      "opzioni": [
+        "Il divieto di parlare ad alta voce in biblioteca",
+        "Il regolamento del pugilato",
+        "L'obbligo di tenere la destra per strada",
+        "Il limite di velocità in città"
+      ],
+      "corretta": 1,
+      "spiegazione": "È costitutiva la regola da cui dipende l'esistenza di ciò che regola: senza il regolamento non c'è un incontro di boxe, solo due persone che si colpiscono. Le altre regolano attività che esistono comunque."
+    },
+    {
+      "id": "u13-q035",
+      "lezione": "u13-l1",
+      "livello": "medio",
+      "pagine": [
+        134,
+        136
+      ],
+      "concetti": [
+        "intenzionalita-collettiva",
+        "john-searle"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per Searle l'osservante che costruisce la realtà sociale è sempre un soggetto singolo.",
+      "vero": false,
+      "spiegazione": "È sempre un soggetto collettivo: l'intenzionalità collettiva è la volontà di coordinare le proprie attività verso un fine comune, come i musicisti di un'orchestra."
+    },
+    {
+      "id": "u13-q036",
+      "lezione": "u13-l2",
+      "livello": "base",
+      "pagine": [
+        136,
+        139
+      ],
+      "concetti": [
+        "john-searle",
+        "fatti-bruti-e-istituzionali"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa mostra il paradosso di Grisù?",
+      "risposta": "Grisù è un drago a cui viene assegnata la funzione di pompiere: ma, essendo un drago, sputa fuoco e alimenta l'incendio. Mostra che la materia del fatto bruto non è indifferente: non ogni funzione di status può essere assegnata a qualsiasi X."
+    },
+    {
+      "id": "u13-q037",
+      "lezione": "u13-l2",
+      "livello": "medio",
+      "pagine": [
+        136,
+        139
+      ],
+      "concetti": [
+        "affordance",
+        "james-gibson"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Le affordance sono funzioni che l'intenzionalità collettiva assegna liberamente ai fatti bruti.",
+      "vero": false,
+      "spiegazione": "Sono inviti all'uso che vengono dall'oggetto stesso: per Gibson i fatti bruti ci suggeriscono come usarli, e così limitano le funzioni che possiamo riconoscere loro."
+    },
+    {
+      "id": "u13-q038",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        139,
+        141
+      ],
+      "concetti": [
+        "jacques-derrida",
+        "documentalita"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa insegna il termine «sans-papiers»?",
+      "risposta": "In Francia gli immigrati irregolari sono chiamati «senza carte»: il possesso del documento è costitutivo della possibilità di esercitare certi diritti. È la prova che alcuni indicatori di status non servono solo a conoscere la funzione, ma la fanno esistere."
+    },
+    {
+      "id": "u13-q039",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        139,
+        141
+      ],
+      "concetti": [
+        "indicatori-di-status",
+        "john-searle"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per Searle togliersi la fede nuziale fa venir meno lo status di persona sposata.",
+      "vero": false,
+      "spiegazione": "Per Searle l'indicatore ha funzione solo cognitiva: serve a far conoscere lo status, non a costituirlo. Chi toglie la fede resta sposato, come il poliziotto in borghese resta poliziotto."
+    },
+    {
+      "id": "u13-q040",
+      "lezione": "u13-l4",
+      "livello": "medio",
+      "pagine": [
+        141,
+        143
+      ],
+      "concetti": [
+        "teorie-oggettualiste"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra teorie oggettualiste e non oggettualiste del diritto?",
+      "risposta": "Per le oggettualiste il diritto è un oggetto conoscibile dall'esterno, dal punto di vista oggettivo. Per le non oggettualiste è un processo a cui partecipiamo mentre lo osserviamo."
+    },
+    {
+      "id": "u13-q041",
+      "lezione": "u13-l4",
+      "livello": "medio",
+      "pagine": [
+        141,
+        143
+      ],
+      "concetti": [
+        "john-searle",
+        "regola-costitutiva"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per il corso chi viola intenzionalmente una regola, come il ladro o il baro, dimostra di non riconoscerla.",
+      "vero": false,
+      "spiegazione": "La violazione è sempre in funzione della regola: chi trasgredisce la riconosce. Anche la disobbedienza di Cappato presuppone la regola e mira a far nascere un'intenzionalità collettiva diversa."
+    },
+    {
+      "id": "u13-q042",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        139,
+        141
+      ],
+      "concetti": [
+        "john-searle",
+        "jacques-derrida",
+        "maurizio-ferraris"
+      ],
+      "tipo": "ordina",
+      "consegna": "Ordina le tappe della discussione sugli indicatori di status.",
+      "elementi": [
+        "La funzione di status non modifica X: come la riconosciamo?",
+        "Searle: attraverso indicatori di status, come l'uniforme",
+        "Searle: gli indicatori sono solo cognitivi",
+        "Derrida: senza memoria servirebbero registrazioni e archivi",
+        "Ferraris: la realtà istituzionale si forma con i documenti",
+        "Conclusione: Searle ha ragione fino a un certo punto"
+      ],
+      "spiegazione": "Alcuni indicatori sono costitutivi: senza la traccia documentale la funzione non dura nel tempo."
     }
   ]
 }

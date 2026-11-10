@@ -1356,6 +1356,124 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u12-q036",
+      "lezione": "u12-l1",
+      "livello": "medio",
+      "pagine": [
+        122,
+        124
+      ],
+      "concetti": [
+        "ontologia-sociale",
+        "john-searle"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa studia l'ontologia sociale di Searle?",
+      "risposta": "Le condizioni di pensabilità, possibilità ed esistenza degli atti e degli oggetti sociali. Poiché gli atti giuridici sono atti sociali, ne deriva un'ontologia giuridica: come esistono le norme, le promesse, le istituzioni."
+    },
+    {
+      "id": "u12-q037",
+      "lezione": "u12-l1",
+      "livello": "base",
+      "pagine": [
+        122,
+        124
+      ],
+      "concetti": [
+        "fatti-bruti-e-istituzionali"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Promettere, salutare e giurare sono per Searle fatti bruti.",
+      "vero": false,
+      "spiegazione": "Sono fatti istituzionali: non esistono in natura, dipendono dall'osservatore e si compiono con il linguaggio. Fatti bruti sono una valanga o la pioggia."
+    },
+    {
+      "id": "u12-q038",
+      "lezione": "u12-l2",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "funzioni-agentive-di-status"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Perché entrare in aula o mettersi alla guida cambia il nostro status senza cambiare noi?",
+      "risposta": "Perché diventare studente o automobilista significa ricevere poteri e doveri, cioè una funzione agentiva di status, che non modifica in nulla la nostra materialità. La funzione esiste solo perché tutti la riconosciamo."
+    },
+    {
+      "id": "u12-q039",
+      "lezione": "u12-l2",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "funzioni-agentive-di-status"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Una funzione agentiva di status modifica la struttura materiale del fatto bruto a cui è assegnata.",
+      "vero": false,
+      "spiegazione": "È proprio ciò che la distingue: riconosce poteri e doveri senza modificare X. Modifica la materia, invece, la funzione agentiva non di status, come nel legno intagliato a fermacarte."
+    },
+    {
+      "id": "u12-q040",
+      "lezione": "u12-l3",
+      "livello": "medio",
+      "pagine": [
+        127,
+        129
+      ],
+      "concetti": [
+        "postmoderno",
+        "ordinamento-giuridico"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali concetti giuridici entrano in crisi con il postmoderno?",
+      "risposta": "Stato, sovranità, ordinamento, cittadinanza: le categorie con cui la modernità pensava il diritto. Con esse finisce l'idea kelseniana di un diritto puro, isolabile dagli altri linguaggi."
+    },
+    {
+      "id": "u12-q041",
+      "lezione": "u12-l3",
+      "livello": "base",
+      "pagine": [
+        127,
+        129
+      ],
+      "concetti": [
+        "law-and-film"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "I tre approcci di Law and Film sono law in film, law as film e film as law.",
+      "vero": true,
+      "spiegazione": "Il diritto nel cinema, il diritto come cinema, il cinema come diritto. Il corso lavora soprattutto sul primo: come il cinema rappresenta il diritto."
+    },
+    {
+      "id": "u12-q042",
+      "lezione": "u12-l2",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "x-conta-come-y-in-c",
+        "john-searle"
+      ],
+      "tipo": "ordina",
+      "consegna": "Metti in ordine i passaggi con cui, per Searle, nasce un fatto istituzionale.",
+      "elementi": [
+        "C'è un fatto bruto X",
+        "Con un atto linguistico performativo gli si assegna una funzione",
+        "La funzione è riconosciuta da un'intenzionalità collettiva",
+        "X conta come Y, senza cambiare materialmente",
+        "L'assegnazione vale nel contesto C"
+      ],
+      "spiegazione": "È la formula «X conta come Y in C»: il metallo conta come un euro nell'Unione europea."
     }
   ]
 }

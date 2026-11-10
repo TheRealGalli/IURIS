@@ -1140,6 +1140,181 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u20-q033",
+      "lezione": "u20-l1",
+      "livello": "medio",
+      "pagine": [
+        20,
+        22
+      ],
+      "concetti": [
+        "metro-campione",
+        "grundnorm"
+      ],
+      "tipo": "multipla",
+      "domanda": "A che cosa serve, in Incampo, il paragone con il metro campione?",
+      "opzioni": [
+        "A mostrare che la norma fondamentale è misurabile",
+        "A mostrare che non c'è una norma per stabilire la validità della norma fondamentale, ma c'è una condizione perché valga come tale",
+        "A mostrare che tutte le norme hanno la stessa lunghezza",
+        "A mostrare che la norma fondamentale è posta dal legislatore"
+      ],
+      "corretta": 1,
+      "spiegazione": "Non c'è un metro per dire che il metro campione misura un metro, ma c'è una condizione perché valga come metro campione: così la norma fondamentale ha un'esistenza secundum quid."
+    },
+    {
+      "id": "u20-q034",
+      "lezione": "u20-l1",
+      "livello": "medio",
+      "pagine": [
+        20,
+        22
+      ],
+      "concetti": [
+        "effettivita-e-teoreticita"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Secondo il criterio di teoreticità la validità della norma fondamentale è un fatto contingente.",
+      "vero": false,
+      "spiegazione": "È il criterio di effettività a legarla a un fatto. Per la teoreticità la norma fondamentale vale per necessità logica: un ordinamento comanda sempre il proprio adempimento."
+    },
+    {
+      "id": "u20-q035",
+      "lezione": "u20-l2",
+      "livello": "avanzato",
+      "pagine": [
+        22,
+        24
+      ],
+      "concetti": [
+        "regola-eidetico-costitutiva",
+        "grundnorm"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Di quali due oggetti la norma fondamentale è condizione, secondo Incampo?",
+      "risposta": "Dell'ordinamento giuridico, che senza di essa non è né pensabile né possibile; e dei fenomeni giuridici in generale, perché, con Felix Kaufmann, non esistono fenomeni giuridici precostituiti alla norma fondamentale."
+    },
+    {
+      "id": "u20-q036",
+      "lezione": "u20-l2",
+      "livello": "avanzato",
+      "pagine": [
+        22,
+        24
+      ],
+      "concetti": [
+        "regola-eidetico-costitutiva"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra il dovere di un nomos che dà forma a un eidos e quello di un logos che si ricava da un eidos?",
+      "risposta": "Il primo è il dovere delle regole eidetico-costitutive: le regole degli scacchi danno forma all'idea degli scacchi, la norma fondamentale all'idea di ordinamento. Il secondo è il dovere che discende direttamente dall'idea: vi appartengono i doveri della validità praxeologica e sintasseologica."
+    },
+    {
+      "id": "u20-q037",
+      "lezione": "u20-l2",
+      "livello": "medio",
+      "pagine": [
+        22,
+        24
+      ],
+      "concetti": [
+        "gioco-degli-scacchi",
+        "regola-costitutiva"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Le regole degli scacchi esprimono l'idea necessaria del gioco in sé.",
+      "vero": false,
+      "spiegazione": "Costituiscono uno dei giochi possibili, non l'idea della ludicità: ha senso dire che gli scacchi sono un gioco, non che il gioco in sé siano gli scacchi."
+    },
+    {
+      "id": "u20-q038",
+      "lezione": "u20-l2",
+      "livello": "medio",
+      "pagine": [
+        22,
+        24
+      ],
+      "concetti": [
+        "regola-eidetico-costitutiva"
+      ],
+      "tipo": "completa",
+      "testo": "Le regole eidetico-costitutive sono condizioni necessarie di {{pensabilità}} e di {{possibilità}} di ciò su cui vertono.",
+      "spiegazione": "Senza le sue regole il gioco degli scacchi non è né pensabile né possibile."
+    },
+    {
+      "id": "u20-q039",
+      "lezione": "u20-l3",
+      "livello": "medio",
+      "pagine": [
+        24,
+        26
+      ],
+      "concetti": [
+        "struttura-e-funzione",
+        "herbert-hart"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Perché la funzione di un istituto sembra variabile? Che cosa sono i meccanismi equifunzionali?",
+      "risposta": "Lo stesso istituto può cambiare funzione sociale: con la società per azioni proprietà e controllo della ricchezza si separano. E la stessa funzione può essere svolta da meccanismi diversi, detti equifunzionali: cambiano i mezzi, non la funzione."
+    },
+    {
+      "id": "u20-q040",
+      "lezione": "u20-l3",
+      "livello": "medio",
+      "pagine": [
+        24,
+        26
+      ],
+      "concetti": [
+        "herbert-hart",
+        "kelsen"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quali funzioni dell'ordinamento indica Hart, secondo Incampo?",
+      "opzioni": [
+        "Certezza, mobilità, efficacia",
+        "Giustizia, equità, pace",
+        "Sanzione, coazione, forza",
+        "Pubblicità, universalità, validità"
+      ],
+      "corretta": 0,
+      "spiegazione": "Per Hart l'ordinamento si comprende per struttura e funzione; per Kelsen solo per la struttura: il diritto è un meccanismo coattivo."
+    },
+    {
+      "id": "u20-q041",
+      "lezione": "u20-l3",
+      "livello": "medio",
+      "pagine": [
+        24,
+        26
+      ],
+      "concetti": [
+        "pubblicita",
+        "destinatario-della-norma"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per Incampo le norme sono valide quando esistono nelle intenzioni del legislatore, anche se i destinatari non possono conoscerle.",
+      "vero": false,
+      "spiegazione": "La validità è anche «validità da parte dei destinatari»: le norme devono essere pubbliche e poter essere fatte proprie da chi le riceve."
+    },
+    {
+      "id": "u20-q042",
+      "lezione": "u20-l4",
+      "livello": "medio",
+      "pagine": [
+        26,
+        29
+      ],
+      "concetti": [
+        "grundwert",
+        "ius-publicum"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per Incampo la formula kantiana della pubblicità è propriamente una Grundnorm, identica a quella di Kelsen.",
+      "vero": false,
+      "spiegazione": "È piuttosto un Grundwert, un valore fondamentale: oltre a essere presupposto logico dell'ordinamento, pone la questione della funzione ed è insieme principio giuridico ed etico."
     }
   ]
 }

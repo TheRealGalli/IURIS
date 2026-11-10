@@ -1589,6 +1589,223 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u16-q041",
+      "lezione": "u16-l1",
+      "livello": "medio",
+      "pagine": [
+        159,
+        161
+      ],
+      "concetti": [
+        "friedrich-durrenmatt",
+        "epistemologia-patetica"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa insegna «La promessa» di Dürrenmatt, secondo il corso?",
+      "risposta": "Che il fatto giuridico non si lascia conoscere con la sola logica e razionalità del positivismo. Quell'approccio non restituisce il diritto per intero, perché il diritto nasce nelle scienze umane, non in quelle naturali."
+    },
+    {
+      "id": "u16-q042",
+      "lezione": "u16-l1",
+      "livello": "medio",
+      "pagine": [
+        159,
+        161
+      ],
+      "concetti": [
+        "guy-debord",
+        "societa-dello-spettacolo"
+      ],
+      "tipo": "multipla",
+      "domanda": "Che cosa sono i simulacri di cui parla Debord?",
+      "opzioni": [
+        "Copie senza originale: rappresentazioni che hanno sostituito la realtà",
+        "Norme prive di sanzione",
+        "Documenti che attestano uno status",
+        "Regole costitutive di un gioco"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nella società dello spettacolo le rappresentazioni non rinviano più a un oggetto: sono rappresentazioni senza oggetto, e l'ordine sociale si costruisce su di esse."
+    },
+    {
+      "id": "u16-q043",
+      "lezione": "u16-l1",
+      "livello": "medio",
+      "pagine": [
+        159,
+        161
+      ],
+      "concetti": [
+        "spettatore",
+        "osservatore",
+        "kant"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Secondo il corso la figura dell'osservatore nasce, a partire da Kant, anche per contrasto con la cattiva fama dello spettatore.",
+      "vero": true,
+      "spiegazione": "Lo spettatore, da Platone a Hegel, conosce passivamente solo rappresentazioni; da Kant in poi si elabora il soggetto opposto, attivo: l'osservatore."
+    },
+    {
+      "id": "u16-q044",
+      "lezione": "u16-l2",
+      "livello": "medio",
+      "pagine": [
+        161,
+        164
+      ],
+      "concetti": [
+        "hannah-arendt",
+        "jacques-ranciere"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Qual è il lato positivo della dimensione patetica e spettacolare del potere?",
+      "risposta": "Riscoprire le origini teatrali del diritto può restituire un senso critico verso il discorso pubblico, non più solo burocratico e formale. È la linea di Arendt, di Foucault e di Rancière, che parla di spettatore emancipato."
+    },
+    {
+      "id": "u16-q045",
+      "lezione": "u16-l2",
+      "livello": "medio",
+      "pagine": [
+        161,
+        164
+      ],
+      "concetti": [
+        "spettacolare-concentrato-e-diffuso"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nello spettacolare diffuso lo spettatore si immedesima in un leader carismatico.",
+      "vero": false,
+      "spiegazione": "Quello è lo spettacolare concentrato. Nel diffuso ci si immedesima nelle merci e nei marchi del capitalismo globale: lo spettatore diventa consumatore passivo."
+    },
+    {
+      "id": "u16-q046",
+      "lezione": "u16-l3",
+      "livello": "medio",
+      "pagine": [
+        165,
+        169
+      ],
+      "concetti": [
+        "pierre-legendre"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cos'è il «montaggio» per Legendre?",
+      "risposta": "È il fondamento del potere: un assemblaggio di corpi dei destinatari, testi fondamentali e immagini in cui i singoli si immedesimano. Nella globalizzazione l'elemento dominante è quello economico-capitalistico."
+    },
+    {
+      "id": "u16-q047",
+      "lezione": "u16-l1",
+      "livello": "medio",
+      "pagine": [
+        159,
+        161
+      ],
+      "concetti": [
+        "spettatore",
+        "guy-debord"
+      ],
+      "tipo": "ordina",
+      "consegna": "Ordina dal più antico al più recente i pensatori dello spettatore citati a lezione.",
+      "elementi": [
+        "Platone: il prigioniero della caverna",
+        "Rousseau: la Lettera sugli spettacoli",
+        "Kant: nasce per contrasto l'osservatore",
+        "Hegel: la coscienza spettatrice",
+        "Debord: la società dello spettacolo"
+      ],
+      "spiegazione": "Platone (IV secolo a.C.), Rousseau e Kant (XVIII secolo d.C.), Hegel (inizio del XIX secolo d.C.), Debord (1967)."
+    },
+    {
+      "id": "u16-q048",
+      "lezione": "u16-l4",
+      "livello": "medio",
+      "pagine": [
+        169,
+        171
+      ],
+      "concetti": [
+        "spettatore-entusiasta",
+        "kant"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Lo spettatore entusiasta lega diritto e morale con una deduzione logica dei valori dai fatti.",
+      "vero": false,
+      "spiegazione": "Il legame è patetico, non logico: passa per il sentimento di entusiasmo. Un legame logico ricadrebbe nella fallacia naturalistica."
+    },
+    {
+      "id": "u16-q049",
+      "lezione": "u16-l5",
+      "livello": "medio",
+      "pagine": [
+        172,
+        173
+      ],
+      "concetti": [
+        "leviatano",
+        "thomas-hobbes",
+        "kelsen",
+        "carl-schmitt"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Come consiglia il docente di impostare una domanda sui «luoghi di Hobbes»?",
+      "risposta": "Partendo dall'immagine del Leviatano e ragionando da lì su Kelsen e su Schmitt, cioè sui due sviluppi opposti di quel modello, e sulle differenze nel modo di intendere la sovranità."
+    },
+    {
+      "id": "u16-q050",
+      "lezione": "u16-l5",
+      "livello": "base",
+      "pagine": [
+        172,
+        173
+      ],
+      "concetti": [
+        "kant",
+        "ius-publicum",
+        "spettatore-entusiasta"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quale di questi NON è indicato dal docente tra i «luoghi kantiani» della filosofia del diritto del Novecento?",
+      "opzioni": [
+        "Il presupposto logico-trascendentale di Kelsen",
+        "Lo ius publicum",
+        "Lo spettatore entusiasta del Conflitto delle facoltà",
+        "Il Panopticon"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il Panopticon è di Bentham ed è ripreso da Foucault. I luoghi kantiani sono la norma fondamentale di Kelsen, lo ius publicum, lo spettatore entusiasta e il rapporto tra diritto e morale."
+    },
+    {
+      "id": "u16-q051",
+      "lezione": "u16-l5",
+      "livello": "base",
+      "pagine": [
+        172,
+        173
+      ],
+      "concetti": [
+        "osservatore"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'esame prevede almeno tre domande e dura all'incirca quindici o venti minuti.",
+      "vero": true,
+      "spiegazione": "Per i frequentanti la prima domanda è di carattere generale; seguono domande più specifiche, di solito vicine a quanto si è già detto."
+    },
+    {
+      "id": "u16-q052",
+      "lezione": "u16-l5",
+      "livello": "base",
+      "pagine": [
+        172,
+        173
+      ],
+      "concetti": [
+        "custodi-dell-osservanza"
+      ],
+      "tipo": "completa",
+      "testo": "Tra le domande possibili c'è la metamorfosi del concetto di potere: da prescrittivo-sanzionatorio in {{Kelsen}} a disciplinare in {{Foucault}}.",
+      "spiegazione": "È uno dei percorsi trasversali indicati dal docente, insieme a «dall'ordinamento alla governance» e a «osservatore e spettatore»."
     }
   ]
 }

@@ -1002,6 +1002,103 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u10-q028",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "sapere-potere",
+        "michel-foucault"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa significa che il sapere panottico è un sapere-potere?",
+      "risposta": "Significa che conoscere e governare coincidono: i dati raccolti osservando i detenuti non servono a prevedere una decisione, ma a gestire l'ordine dell'istituto e ad agire sui loro corpi. Il sapere non precede il potere: lo esercita."
+    },
+    {
+      "id": "u10-q029",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "jeremy-bentham",
+        "efficienza",
+        "panopticon"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quale obiettivo aveva Bentham con il Panopticon?",
+      "risposta": "Da utilitarista voleva rendere più efficienti i comportamenti dei detenuti riducendo al minimo i costi di gestione: pochi sorveglianti, che vedono senza essere visti, bastano a controllare molti."
+    },
+    {
+      "id": "u10-q030",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "alf-ross",
+        "michel-foucault"
+      ],
+      "tipo": "multipla",
+      "domanda": "Quale coppia descrive correttamente lo scopo del sapere in Ross e in Foucault?",
+      "opzioni": [
+        "Ross: controllare; Foucault: prevedere",
+        "Ross: prevedere; Foucault: controllare",
+        "Ross: punire; Foucault: educare",
+        "Ross: interpretare; Foucault: costruire"
+      ],
+      "corretta": 1,
+      "spiegazione": "In Ross il sapere serve a prevedere quali regole le corti applicheranno; in Foucault serve a controllare e gestire l'ordine attraverso un'osservazione capillare."
+    },
+    {
+      "id": "u10-q031",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "alf-ross",
+        "efficacia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L'epistemologia di Ross mira a raccogliere ogni informazione possibile sulla vita dei destinatari.",
+      "vero": false,
+      "spiegazione": "Questo è il sapere panottico di Foucault. Ross vuole conoscere solo le regole efficaci, cioè quelle che prevedibilmente le corti applicheranno."
+    },
+    {
+      "id": "u10-q032",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "concetti": [
+        "alf-ross",
+        "michel-foucault"
+      ],
+      "tipo": "ordina",
+      "consegna": "Ricostruisci il ragionamento del corso: dal custode di Ross al custode di Foucault.",
+      "elementi": [
+        "Si parte dalla domanda «perché devo seguire le regole?»",
+        "Ross: seguo le regole che prevedo saranno applicate dalle corti",
+        "Il sapere di Ross serve a prevedere le regole efficaci",
+        "Foucault: dal Panopticon si osserva ogni aspetto della vita",
+        "Il sapere di Foucault serve a controllare e gestire",
+        "Conclusione: il sapere è esercizio di potere"
+      ],
+      "spiegazione": "In Ross il sapere prevede il potere delle corti; in Foucault è già potere."
     }
   ]
 }

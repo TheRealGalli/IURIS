@@ -1227,6 +1227,165 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u19-q034",
+      "lezione": "u19-l1",
+      "livello": "medio",
+      "pagine": [
+        10,
+        13
+      ],
+      "concetti": [
+        "promessa",
+        "condizioni-praxeologiche"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "«Prometto di aver fatto tutto il possibile» è, per Incampo, una promessa valida rivolta al passato.",
+      "vero": false,
+      "spiegazione": "Ha la forma di una promessa ma esprime solo un'assicurazione: una promessa è un modo di obbligarsi, e ci si obbliga solo verso ciò che deve ancora essere."
+    },
+    {
+      "id": "u19-q035",
+      "lezione": "u19-l2",
+      "livello": "avanzato",
+      "pagine": [
+        13,
+        15
+      ],
+      "concetti": [
+        "giudizi-kantiani-e-validita",
+        "promessa"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "«L'obbligazione del promittente è il medio della fiducia del promissario» è un giudizio analitico.",
+      "vero": false,
+      "spiegazione": "È un giudizio sintetico a priori: collega due concetti diversi, obbligazione (struttura) e fiducia (funzione), con un nesso necessario."
+    },
+    {
+      "id": "u19-q036",
+      "lezione": "u19-l3",
+      "livello": "medio",
+      "pagine": [
+        15,
+        17
+      ],
+      "concetti": [
+        "accidentalia-contractus"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa sono gli accidentalia contractus?",
+      "risposta": "Elementi del contratto che non preesistono alla volontà delle parti ma ne dipendono interamente, sia per entrare nel contratto sia per esserne esclusi. Se mancano, il contratto resta valido e regolare: sono condizioni praxeonomiche."
+    },
+    {
+      "id": "u19-q037",
+      "lezione": "u19-l3",
+      "livello": "medio",
+      "pagine": [
+        15,
+        17
+      ],
+      "concetti": [
+        "validita-pragmatica",
+        "giudizi-kantiani-e-validita"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali doveri esprimono le condizioni praxeonomiche, a differenza di quelle praxeologiche?",
+      "risposta": "Doveri solo possibili, perché dipendono da norme che potrebbero anche non esserci. Le condizioni praxeologiche esprimono invece doveri universali e necessari, che risalgono all'idea stessa dell'atto."
+    },
+    {
+      "id": "u19-q038",
+      "lezione": "u19-l3",
+      "livello": "avanzato",
+      "pagine": [
+        15,
+        17
+      ],
+      "concetti": [
+        "giudizi-kantiani-e-validita"
+      ],
+      "tipo": "multipla",
+      "domanda": "A quale tipo di giudizio corrisponde la condizione per cui il testamento olografo deve essere scritto di pugno dal testatore?",
+      "opzioni": [
+        "Analitico a priori",
+        "Sintetico a priori",
+        "Sintetico a posteriori",
+        "Analitico a posteriori"
+      ],
+      "corretta": 3,
+      "spiegazione": "È analitico, perché il predicato non aggiunge nulla al soggetto; ma a posteriori, perché il testamento olografo esiste solo se una norma particolare lo prevede. È un tipo di giudizio che Kant non contempla."
+    },
+    {
+      "id": "u19-q039",
+      "lezione": "u19-l3",
+      "livello": "medio",
+      "pagine": [
+        15,
+        17
+      ],
+      "concetti": [
+        "validita-pragmatica"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La funzione di pena accessoria è una funzione essenziale del testamento.",
+      "vero": false,
+      "spiegazione": "È una funzione non essenziale, posta dall'esterno da una norma solo possibile: il vecchio art. 32 del codice penale, che negava il testamento all'ergastolano."
+    },
+    {
+      "id": "u19-q040",
+      "lezione": "u19-l3",
+      "livello": "medio",
+      "pagine": [
+        15,
+        17
+      ],
+      "concetti": [
+        "struttura-e-funzione",
+        "giudizi-kantiani-e-validita"
+      ],
+      "tipo": "completa",
+      "testo": "La funzione essenziale di un atto corrisponde a un giudizio sintetico a {{priori}}; la funzione inessenziale a un giudizio sintetico a {{posteriori}}.",
+      "spiegazione": "Esempi: il dovere di mantenere le promesse (necessario) e il divieto di testare per l'ergastolano (solo possibile)."
+    },
+    {
+      "id": "u19-q041",
+      "lezione": "u19-l4",
+      "livello": "medio",
+      "pagine": [
+        17,
+        20
+      ],
+      "concetti": [
+        "norma-di-chiusura",
+        "metaregole"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La norma di chiusura è una norma posta dal legislatore, che potrebbe anche mancare.",
+      "vero": false,
+      "spiegazione": "È una metaregola presupposta: discende per necessità logica dall'idea di ordinamento come insieme chiuso delle norme valide."
+    },
+    {
+      "id": "u19-q042",
+      "lezione": "u19-l2",
+      "livello": "medio",
+      "pagine": [
+        13,
+        15
+      ],
+      "concetti": [
+        "promessa",
+        "kant"
+      ],
+      "tipo": "ordina",
+      "consegna": "Ordina il ragionamento kantiano sul dovere di mantenere le promesse.",
+      "elementi": [
+        "Si assume la massima: nel bisogno prometto senza voler mantenere",
+        "La si eleva a legge universale",
+        "Nessuno crederebbe più a una promessa",
+        "Il promettere stesso diventa impossibile",
+        "Mantenere le promesse è quindi condizione di funzione della promessa"
+      ],
+      "spiegazione": "È un dovere perfetto: della sua negazione non si può nemmeno pensare l'universalizzazione. Nel diritto corrisponde al valore giuridico dell'adempimento."
     }
   ]
 }

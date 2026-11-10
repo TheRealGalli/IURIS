@@ -1274,6 +1274,185 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u15-q033",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        151,
+        152
+      ],
+      "concetti": [
+        "decidere-di-non-decidere",
+        "governance"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Perché «decidere» significa «recidere»?",
+      "risposta": "Perché ogni decisione sceglie una cosa escludendone un'altra. Il diritto, che vive di decisioni, è per questo una struttura escludente: dice che cosa è valido e che cosa no. La governance evita di decidere per poter includere tutto."
+    },
+    {
+      "id": "u15-q034",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "pagine": [
+        151,
+        152
+      ],
+      "concetti": [
+        "decidere-di-non-decidere"
+      ],
+      "tipo": "multipla",
+      "domanda": "Da dove viene la regola «decidere di non decidere»?",
+      "opzioni": [
+        "Da un manuale per i dirigenti della Bell Telephone",
+        "Dalla Teologia politica di Schmitt",
+        "Dalla Dottrina pura del diritto di Kelsen",
+        "Dal Panopticon di Bentham"
+      ],
+      "corretta": 0,
+      "spiegazione": "I primi studiosi della governance la trovano in un vecchio manuale per dirigenti d'impresa: il compito del dirigente è delegare e allargare la rete."
+    },
+    {
+      "id": "u15-q035",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        151,
+        152
+      ],
+      "concetti": [
+        "governance",
+        "piano-di-immanenza"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Una struttura di governance ha bisogno, come l'ordinamento di Kelsen, di un fondamento esterno che la legittimi.",
+      "vero": false,
+      "spiegazione": "Un piano immanente si autolegittima: non ha né vuole un principio di legittimazione, e tende a espandersi all'infinito."
+    },
+    {
+      "id": "u15-q036",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        152,
+        153
+      ],
+      "concetti": [
+        "potere-disciplinare",
+        "dressage"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa hanno in comune il pastore e il fantino nel discorso sulla governance?",
+      "risposta": "A nessuno dei due conviene distruggere chi disobbedisce: il pastore vive del gregge, il fantino del cavallo. Entrambi rieducano, con un potere disciplinare continuo che rende tutti funzionali allo scopo. È il lato «educativo» della sanzione."
+    },
+    {
+      "id": "u15-q037",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        152,
+        153
+      ],
+      "concetti": [
+        "synopticon",
+        "thomas-mathiesen"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nel Synopticon l'uno invisibile osserva i molti visibili.",
+      "vero": false,
+      "spiegazione": "È la definizione del Panopticon. Nel Synopticon di Mathiesen sono i molti, invisibili, a guardare l'uno visibile e a immedesimarsi in lui."
+    },
+    {
+      "id": "u15-q038",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        153,
+        154
+      ],
+      "concetti": [
+        "kelsen",
+        "delega-di-competenza",
+        "leviatano"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa diventa il decisionismo di Hobbes nella teoria di Kelsen?",
+      "risposta": "Diventa delega di competenza: al posto del sovrano che decide c'è una catena di norme che autorizzano altre norme. Il corpo dei sudditi si smaterializza nello Stufenbau e la piramide diventa un triangolo astratto."
+    },
+    {
+      "id": "u15-q039",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "pagine": [
+        153,
+        154
+      ],
+      "concetti": [
+        "leviatano",
+        "thomas-hobbes"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nel frontespizio del Leviatano il corpo del sovrano è composto dai corpi dei sudditi.",
+      "vero": true,
+      "spiegazione": "Quelle che da lontano sembrano scaglie di un'armatura sono i sudditi, che immedesimandosi nel Leviatano cedono la libertà in cambio di protezione."
+    },
+    {
+      "id": "u15-q040",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        155,
+        158
+      ],
+      "concetti": [
+        "governance",
+        "efficienza"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Qual è il «collante» della governance, al posto della legittimità?",
+      "risposta": "L'efficienza. La governance tiene insieme pubblico e privato, economico e giuridico, per eliminare in anticipo i conflitti e rendere la struttura il più efficiente possibile. I tedeschi la chiamano teoria della direzione: non comanda, segnala."
+    },
+    {
+      "id": "u15-q041",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        155,
+        158
+      ],
+      "concetti": [
+        "spettatore",
+        "osservatore"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per il corso lo spettatore è una figura più recente dell'osservatore.",
+      "vero": false,
+      "spiegazione": "È il contrario: lo spettatore è antichissimo, nasce con il teatro greco; l'osservatore è moderno, nasce con Kant, l'illuminismo e le scienze naturali."
+    },
+    {
+      "id": "u15-q042",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        153,
+        154
+      ],
+      "concetti": [
+        "leviatano",
+        "kelsen",
+        "governance"
+      ],
+      "tipo": "ordina",
+      "consegna": "Metti in ordine storico le immagini del potere viste nel corso.",
+      "elementi": [
+        "Il Leviatano di Hobbes: il sovrano con spada e pastorale",
+        "Il triangolo di Kelsen: la piramide delle norme",
+        "La fabbrica fordista: piccoli Stati piramidali",
+        "La rete post-fordista e la governance",
+        "Le pieghe di Deleuze: il potere che si piega sui soggetti"
+      ],
+      "spiegazione": "Dalla verticalità del sovrano all'orizzontalità della rete, fino al potere dolce che si adatta alle forme dei soggetti."
     }
   ]
 }

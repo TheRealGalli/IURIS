@@ -1371,6 +1371,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u18-q039",
+      "lezione": "u18-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        3
+      ],
+      "concetti": [
+        "giuspositivismo",
+        "giusnaturalismo",
+        "antonio-incampo"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Per Incampo il positivismo giuridico basta a spiegare la forza giuridica delle norme, perché è sufficiente riferirsi a un legislatore.",
+      "vero": false,
+      "spiegazione": "Per Incampo un requisito solo formale di validità non dà alle norme una forza veramente giuridica; ma nemmeno il giusnaturalismo basta, perché un legislatore serve sempre."
+    },
+    {
+      "id": "u18-q040",
+      "lezione": "u18-l3",
+      "livello": "medio",
+      "pagine": [
+        4,
+        7
+      ],
+      "concetti": [
+        "norma-costitutiva",
+        "norma-abrogativa"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Le norme abrogative sono norme costitutive: producono il loro effetto nel momento stesso in cui sono poste, senza bisogno di adempimento.",
+      "vero": true,
+      "spiegazione": "Le norme costitutive eseguono ciò che dicono con la sola validità; le prescrittive richiedono invece i comportamenti dei destinatari."
+    },
+    {
+      "id": "u18-q041",
+      "lezione": "u18-l4",
+      "livello": "avanzato",
+      "pagine": [
+        7,
+        10
+      ],
+      "concetti": [
+        "georges-kalinowski",
+        "validita"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali due tesi sul rapporto tra logica e norme respinge Incampo, e perché?",
+      "risposta": "La tesi per cui discorso cognitivo e normativo differiscono solo pragmaticamente, così che derivare logicamente una norma basterebbe a renderla valida; e la tesi di Kalinowski, per cui una norma valida è un enunciato vero che descrive una realtà deontica precostituita. Entrambe trascurano che il linguaggio delle norme non è mai solo descrittivo."
+    },
+    {
+      "id": "u18-q042",
+      "lezione": "u18-l4",
+      "livello": "medio",
+      "pagine": [
+        7,
+        10
+      ],
+      "concetti": [
+        "sillogismo",
+        "verita"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nel sillogismo giuridico una sentenza di assoluzione contraria alle premesse è, per Incampo, priva di validità perché logicamente contraddittoria.",
+      "vero": false,
+      "spiegazione": "È valida: non deriva dalle premesse ma dalle condizioni di validità dell'atto «sentenza». Nel processo giuridico conta la verità in senso ontico, cioè la validità, non la verità logica."
+    },
+    {
+      "id": "u18-q043",
+      "lezione": "u18-l2",
+      "livello": "medio",
+      "pagine": [
+        3,
+        4
+      ],
+      "concetti": [
+        "analogia"
+      ],
+      "tipo": "ordina",
+      "consegna": "Metti in ordine i passaggi dell'analogia nell'esempio del cartello.",
+      "elementi": [
+        "Norma di partenza: è vietato l'ingresso ai cani",
+        "Si presenta un caso non previsto: un uomo con un orso",
+        "Si interpreta la norma secondo il suo scopo",
+        "Norma intermedia: sono vietati gli animali che disturbano come il cane",
+        "Norma ricavata: è vietato l'ingresso agli orsi"
+      ],
+      "spiegazione": "È lo schema N1 → NN → N2. Con l'argomento a contrario, dallo stesso cartello si ricava il permesso per il cane poliziotto."
     }
   ]
 }
