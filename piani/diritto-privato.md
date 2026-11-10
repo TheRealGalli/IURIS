@@ -1,8 +1,8 @@
 # Piano: Diritto privato (LMG · I anno · A-L)
 
-Stato: **in corso**. Fonte arrivata il 10 novembre 2026: dispensa di Nick Petrullo e Ludovico Mainieri sul manuale
+Stato: **completato**. Fonte arrivata il 10 novembre 2026: dispensa di Nick Petrullo e Ludovico Mainieri sul manuale
 Torrente–Schlesinger (2012), 238 pagine fitte, 72 capitoli. Testo per pagina in
-`Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Fatte le unità 1–11 (pp. 1–95); la materia è attiva nei tre corsi.
+`Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Completate le 27 unità (pp. 1–238); la materia è attiva nei tre corsi.
 
 **Per riprendere il lavoro: [`consegne-diritto-privato.md`](consegne-diritto-privato.md)** (giri, ciclo, standard, punti da aggiornare).
 
@@ -43,22 +43,22 @@ glossario: deve dire da sola che cos'è la voce (almeno 40 caratteri, non cominc
 | u09 Diritti reali di godimento | 14 | 67–73 | fatta |
 | u10 Comunione, condominio, multiproprietà | 15 | 74–77 | fatta |
 | u11 Possesso e usucapione | 16 | 78–95 | fatta |
-| u12 Il rapporto obbligatorio e i suoi elementi | 17–18 | 96–101 | |
-| u13 Modificazioni soggettive ed estinzione dell'obbligazione | 19–20 | 102–112 | |
-| u14 Inadempimento, mora, responsabilità patrimoniale | 21 | 113–116 | |
-| u15 Pegno, ipoteca e conservazione della garanzia | 22–23 | 117–126 | |
-| u16 Il contratto: nozione, trattative, conclusione | 25–26 | 127–133 | |
-| u17 Vizi della volontà, forma, rappresentanza | 27–29 | 134–141 | |
-| u18 Preliminare, oggetto, causa, interpretazione | 30–33 | 142–149 | |
-| u19 Effetti, elementi accidentali, simulazione | 34–36 | 150–159 | |
-| u20 Invalidità, rescissione, risoluzione | 37–38 | 160–171 | |
-| u21 Consumatore, contratti tipici e atipici, compravendita | 39–41 | 172–182 | |
-| u22 Gli altri contratti | 42–50 | 183–199 | |
-| u23 Promesse unilaterali, titoli di credito, obbligazioni dalla legge | 51–54 | 200–207 | |
-| u24 La responsabilità per fatto illecito | 55 | 208–210 | |
-| u25 La famiglia | 56–63 | 211–222 | |
-| u26 Le successioni | 64–70 | 223–234 | |
-| u27 Donazione e trascrizione | 71–72 | 235–238 | |
+| u12 Il rapporto obbligatorio e i suoi elementi | 17–18 | 96–101 | fatta |
+| u13 Modificazioni soggettive ed estinzione dell'obbligazione | 19–20 | 102–112 | fatta |
+| u14 Inadempimento, mora, responsabilità patrimoniale | 21 | 113–116 | fatta |
+| u15 Pegno, ipoteca e conservazione della garanzia | 22–23 | 117–126 | fatta |
+| u16 Il contratto: nozione, trattative, conclusione | 25–26 | 127–133 | fatta |
+| u17 Vizi della volontà, forma, rappresentanza | 27–29 | 134–141 | fatta |
+| u18 Preliminare, oggetto, causa, interpretazione | 30–33 | 142–149 | fatta |
+| u19 Effetti, elementi accidentali, simulazione | 34–36 | 150–159 | fatta |
+| u20 Invalidità, rescissione, risoluzione | 37–38 | 160–171 | fatta |
+| u21 Consumatore, contratti tipici e atipici, compravendita | 39–41 | 172–182 | fatta |
+| u22 Gli altri contratti | 42–50 | 183–199 | fatta |
+| u23 Promesse unilaterali, titoli di credito, obbligazioni dalla legge | 51–54 | 200–207 | fatta |
+| u24 La responsabilità per fatto illecito | 55 | 208–210 | fatta |
+| u25 La famiglia | 56–63 | 211–222 | fatta |
+| u26 Le successioni | 64–70 | 223–234 | fatta |
+| u27 Donazione e trascrizione | 71–72 | 235–238 | fatta |
 
 ## Decisioni prese con Carlo (10 novembre 2026)
 
@@ -138,3 +138,27 @@ L'ordine e i confini veri vengono dal materiale di Carlo, non da questo elenco.
 - `.gitignore`: `!/Diritto Privato/`, `/Diritto Privato/*`, `!/Diritto Privato/05 - Contenuti/`.
 - `studio/src/data/corsi.ts`: `'diritto-privato'` nelle `materie` di A-L (e M-Z segnaposto), via da `inArrivo` in
   tutti i corsi; attese in `studio/scripts/check-corsi.mjs`; riga in `README.md`; build e controlli.
+
+### Verifiche emerse nel giro u12–u15 (10 novembre 2026)
+
+Il testo locale dell’art. 1284 in `norme/libro-iv.json` è storico (10%) e incompleto: vanno verificati anche gli aggiornamenti anteriori al 2022. Nella lezione u12-l3 sono usati il tasso 2026 e il testo vigente verificato sul portale ufficiale MEF, compresi i commi 4–5 introdotti nel 2014. La sezione Codice è stata lasciata invariata secondo le consegne. L’art. 2929-bis non è presente nella base locale e viene trattato in u15 con verifica esterna.
+
+Controlli del giro u12–u15: validazione di tutte le nuove unità senza errori (avvisi di lunghezza accettati dalle consegne); sync e check-domande riusciti; build e check:build riusciti, inclusi 1.348 controlli responsive su 11 dispositivi. Dopo la precisazione finale sull’art. 1284 ripetuti con successo build, check-build e check:review. Nessun commit o push. Il giro successivo u16–u20 è documentato qui sotto.
+
+### Giro u16–u20 (10 novembre 2026)
+
+Scritte le cinque unità sul contratto in generale: 20 lezioni da 383–470 parole, 84 definizioni (83 voci nuove e una ripresa), 210 domande, 42 relazioni e mappe per ogni unità. Le domande aperte includono tracce ideali complete; corretti i rinvii di caparra penitenziale, contratto a favore di terzo, prova testimoniale e termini della trascrizione del preliminare. Aggiornata la tutela degli immobili da costruire al regime del 2019, con fonti nelle note redazionali. In u20 sono state usate cinque lezioni per separare i rimedi senza comprimerli.
+
+Totale al termine del giro: **20 unità, 64 lezioni, 364 voci, 680 domande; pp. 1–171**. Il giro u21–u24 è documentato sotto. La sezione Codice e la modifica preesistente di Percorso non sono state toccate. Nessun commit o push.
+
+Controlli del giro u16–u20: tutte le unità validate senza errori; avvisi di densità accettati dalle consegne. Sync, check-domande, build e check:build completati con successo; 1.348 controlli responsive su 11 dispositivi. Verificata anche l’apertura delle nuove u16–u20 a 393 px, con tabelle renderizzate e senza sbordi, e controllata visivamente la lezione u20-l1. Build allineata ai conteggi e alle definizioni finali.
+
+### Giro u21–u24 (10 novembre 2026)
+
+Completate quattro unità su consumatore e vendita, altri contratti, promesse e titoli di credito, obbligazioni dalla legge e fatto illecito: **17 lezioni, 74 definizioni (73 voci nuove, transazione ripresa da u02), 178 domande e 40 relazioni**. Ogni unità ha mappa, ordina e abbina; le 17 domande aperte includono risposte modello complete. Cinque lezioni in u21 e u22 per distinguere i molti istituti della dispensa.
+
+Aggiornamenti verificati e fonti nelle note redazionali: recesso consumeristico e azioni collettive; conformità e riparazione (d.lgs. 176/2026, applicazione ai contratti dal 31 luglio 2026); leasing finanziario, mediazione, libretti al portatore e canoni agrari; non trasferibilità e sanzioni amministrative degli assegni; limiti dell’arricchimento; legittima difesa e danno non patrimoniale. Distinte le riforme non ancora applicabili, in particolare il regime UE dei prodotti dopo il 9 dicembre 2026. Il nuovo art. 133 mantiene il termine ordinario dell’azione a 26 mesi e introduce separatamente l’estensione della responsabilità per riparazione: non inventata una prescrizione automatica di 38 mesi.
+
+Completamento locale: **27 unità, 98 lezioni, 503 voci, 1.034 domande; pp. 1–238**. Le unità finali aggiornano famiglia e filiazione, successioni e circolazione dei beni donati, donazione e trascrizione; il Codice resta invariato. La modifica preesistente di Percorso resta fuori da questa consegna.
+
+Controlli del giro u21–u24: validazione senza errori (sette avvisi di densità accettati dalle consegne), sync e controllo domande riusciti; build finale e check:build completati con successo, inclusi 1.348 controlli responsive su 11 dispositivi. Provate tutte le 17 lezioni a 393 e 1280 px (34 aperture), con testo completo, tabelle renderizzate, nessuno sbordo e nessun errore del browser; ispezionata visivamente u24-l3 su telefono. Verificato l’allineamento delle 178 domande finali nella versione compilata. La porta 7100 non è stata riavviata né ricaricata.

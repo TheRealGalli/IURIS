@@ -1,0 +1,1401 @@
+{
+  "id": "u15",
+  "ordine": 15,
+  "titolo": "Pegno, ipoteca e conservazione della garanzia",
+  "capitolo": "Capitoli 22–23",
+  "pagine": [
+    117,
+    126
+  ],
+  "abstract": "Le garanzie reali consentono prelazione e sequela su beni determinati. L’unità confronta pegno e ipoteca, pubblicità e tutela del patrimonio contro inerzia e atti pregiudizievoli.",
+  "note": "Aggiornato: pegno non possessorio d’impresa, salvaguardie del patto marciano ed esecuzione nei casi dell’art. 2929-bis c.c. integrano la disciplina della dispensa.",
+  "noteRedazione": [
+    "Fonte: dispensa pp. 117–126; artt. 2743–2744, 2784–2800, 2808–2888, 2900–2906 c.c. Le ultime pagine includono schemi illeggibili ricostruiti con il Codice. Corretto il carattere generale della forma scritta nel pegno, distinguendola dai requisiti per la prelazione; corretti frutti, terzo datore ed estinzione/cancellazione. Non riprodotta l’ipoteca penale abrogata. Aggiornamenti: artt. 1–2 d.l. 59/2016, convertito in l. 119/2016, e art. 48-bis TUB, verificati su Normattiva e MEF il 10 novembre 2026: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=16G00076&atto.dataPubblicazioneGazzetta=2016-05-03 . Art. 2929-bis c.c.: d.l. 83/2015 convertito in l. 132/2015, modifiche l. 119/2016; confronto con G.U. 2 luglio 2016 n. 153. Le salvaguardie marciane sono esposte come struttura, senza equiparare tutti i modelli speciali."
+  ],
+  "lezioni": [
+    {
+      "id": "u15-l1",
+      "titolo": "Garanzie reali e pegno",
+      "pagine": [
+        117,
+        119
+      ],
+      "minuti": 25,
+      "sintesi": "### Prelazione e sequela\nI [[diritti-reali-di-garanzia]] vincolano beni determinati alla soddisfazione di un credito. Il creditore può farli espropriare e soddisfarsi con **preferenza** sul ricavato, anche se il bene è trasferito a terzi: è la **sequela**. Il bene può appartenere al debitore o a un terzo datore, il quale risponde con quel bene, senza diventare per questo debitore personale dell'intera somma.\n\nLe garanzie sono **accessorie** al credito e normalmente indivisibili: il pagamento di una parte non libera automaticamente una corrispondente parte del bene. Se il bene perisce o si deteriora tanto da rendere insufficiente la garanzia, l'art. 2743 c.c. consente di chiedere altra garanzia idonea e, in mancanza, il pagamento immediato. Pegno e ipoteca non attribuiscono un potere generale di godimento.\n\n| Garanzia | Oggetto tipico | Costituzione |\n|---|---|---|\n| Pegno ordinario | mobili, universalità, crediti | consegna per le cose; regole speciali per i crediti |\n| Ipoteca | immobili e diritti ammessi, mobili registrati | iscrizione nei registri |\n\n### Costituzione ed esercizio del pegno\nIl [[pegno]] ordinario su cose mobili si costituisce con la **consegna** al creditore, a un terzo designato o con custodia che impedisca al costituente di disporne da solo (art. 2786 c.c.). Per la prelazione, nei casi dell'art. 2787 c.c., occorre scrittura con **data certa** che descriva sufficientemente bene e credito: non bisogna confondere costituzione fra le parti e opponibilità agli altri creditori. Nel pegno di crediti, prelazione con atto scritto e notificazione al debitore o sua accettazione con data certa (art. 2800 c.c.).\n\nIl creditore deve custodire la cosa; non può usarla senza consenso né darla a sua volta in pegno (art. 2792 c.c.). Se produce frutti, salvo patto contrario può percepirli imputandoli prima a spese e interessi, poi al capitale: non sono un arricchimento aggiuntivo. Ha diritto di ritenere finché è soddisfatto secondo l'art. 2794 c.c.\n\nSe il debitore non paga, il creditore segue le forme legali di vendita oppure chiede al giudice l'assegnazione in pagamento secondo stima o prezzo corrente (artt. 2796–2798 c.c.). Non può semplicemente appropriarsi dell'orologio ricevuto in garanzia perché il debitore è in ritardo.\n\n### Varianti\nIl [[pegno-irregolare]] riguarda denaro o fungibili non individuati o dei quali sia stata attribuita facoltà di disposizione: la proprietà passa al creditore, che restituisce l'equivalente all'adempimento o l'eccedenza in caso di soddisfazione del credito (art. 1851 c.c.). Nel **pegno rotativo** si concorda la sostituzione dei beni secondo criteri che preservino identità e continuità della garanzia: la mera etichetta non rende opponibile qualsiasi sostituzione. Il pegno non possessorio d'impresa segue invece una disciplina speciale.",
+      "puntiChiave": [
+        "Garanzia reale significa prelazione e sequela su beni determinati.",
+        "Il terzo datore non è per questo debitore personale.",
+        "Consegna e requisiti della prelazione hanno funzioni distinte.",
+        "Il creditore custodisce e realizza la garanzia nei modi legali."
+      ],
+      "memoria": [
+        {
+          "voce": "art. 2784 c.c.",
+          "dettaglio": "pegno"
+        },
+        {
+          "voce": "art. 2787 c.c.",
+          "dettaglio": "prelazione"
+        },
+        {
+          "voce": "art. 2798 c.c.",
+          "dettaglio": "assegnazione"
+        }
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ]
+    },
+    {
+      "id": "u15-l2",
+      "titolo": "Patto commissorio, marciano e pegno d’impresa",
+      "pagine": [
+        119,
+        120
+      ],
+      "minuti": 25,
+      "sintesi": "### Il limite all'appropriazione\nIl [[patto-commissorio]] è l'accordo che prevede il trasferimento al creditore della proprietà del bene dato in pegno o ipoteca in caso di mancato pagamento: è **nullo**, anche se stipulato successivamente alla costituzione della garanzia (art. 2744 c.c.). Il creditore non deve profittare della possibile sproporzione fra valore del bene e ammontare del credito, a danno del debitore e delle ragioni degli altri creditori.\n\nIl divieto investe anche operazioni che, pur presentate come vendite o negozi diversi, ne realizzino concretamente la funzione vietata: conta la sostanza. Non ogni trasferimento al creditore è però vietato. Una prestazione in luogo dell'adempimento liberamente concordata per estinguere un debito non coincide automaticamente con un meccanismo commissorio predisposto in garanzia; occorre verificare l'operazione nel suo insieme.\n\n### La salvaguardia marciana\nIl [[patto-marciano]] si distingue perché prevede una **stima attendibile del bene** e la **restituzione dell'eccedenza** rispetto a credito e spese. Se il bene vale 150 e il debito garantito 100, il creditore non può trattenere anche i 50 eccedenti. La salvaguardia deve essere effettiva: chiamare l'accordo «marciano» non basta.\n\n| Meccanismo | Trattamento del valore eccedente |\n|---|---|\n| Commissorio vietato | il creditore acquisisce il bene senza adeguata salvaguardia |\n| Marciano | stima e restituzione dell'eccedenza proteggono il debitore |\n| Assegnazione giudiziale del pegno | segue l'art. 2798 c.c., con valutazione del bene |\n\nL'art. 48-bis TUB, introdotto nel 2016, disciplina uno specifico finanziamento d'impresa con trasferimento immobiliare sospensivamente condizionato all'inadempimento, con requisiti di legge, stima e conguaglio. Non è una generale autorizzazione alla banca a trattenere qualsiasi immobile. Le condizioni e le esclusioni della disciplina speciale vanno mantenute distinte dal principio generale.\n\n### La garanzia senza spossessamento\nIl [[pegno-non-possessorio]], introdotto dal d.l. 59/2016, permette all'imprenditore iscritto nel registro delle imprese di garantire crediti inerenti all'impresa su beni mobili destinati all'attività, anche immateriali, e crediti inerenti ad essa, con esclusione dei mobili registrati. Serve a non sottrarre all'impresa i mezzi necessari a produrre: un macchinario può restare utilizzato dal costituente.\n\nLa garanzia richiede contratto scritto con gli elementi previsti dalla legge e iscrizione nel registro dei pegni non possessori, rilevante per opponibilità e grado. La disciplina consente, nei suoi limiti, trasformazione o sostituzione dei beni e trasferimento della garanzia sul prodotto o corrispettivo. Anche l'escussione segue regole speciali, con tutela dell'eccedenza: non autorizza un'appropriazione arbitraria. Per l'esame si deve quindi distinguere il pegno ordinario, fondato sullo spossessamento, dal modello d'impresa fondato sulla pubblicità.",
+      "puntiChiave": [
+        "Il patto commissorio è nullo anche se successivo alla garanzia.",
+        "Nel marciano stima ed eccedenza sono salvaguardie essenziali.",
+        "Il modello dell’art. 48-bis TUB ha presupposti speciali.",
+        "Il pegno non possessorio conserva l’uso produttivo e richiede pubblicità."
+      ],
+      "memoria": [
+        {
+          "voce": "art. 2744 c.c.",
+          "dettaglio": "divieto commissorio"
+        },
+        {
+          "voce": "art. 48-bis TUB",
+          "dettaglio": "modello immobiliare d’impresa"
+        },
+        {
+          "voce": "d.l. 59/2016",
+          "dettaglio": "pegno non possessorio"
+        }
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ]
+    },
+    {
+      "id": "u15-l3",
+      "titolo": "Ipoteca e pubblicità",
+      "pagine": [
+        121,
+        123
+      ],
+      "minuti": 25,
+      "sintesi": "### Titolo e iscrizione\nL'[[ipoteca]] è la garanzia reale che attribuisce il diritto di espropriare il bene e soddisfarsi con preferenza sul ricavato (art. 2808 c.c.). Non richiede spossessamento. Può riguardare immobili, alcuni diritti reali immobiliari e mobili registrati secondo la disciplina applicabile (art. 2810 c.c.). Non sono ipotecabili separatamente la servitù o i diritti d'uso e abitazione. L'ipoteca sulla nuda proprietà si estende alla piena proprietà quando l'usufrutto si estingue; quella sull'usufrutto segue invece le vicende di quel diritto nei termini di legge.\n\nSono essenziali **specialità**, cioè beni specificamente individuati e somma determinata, e **indivisibilità**: ciascun bene e ciascuna parte garantiscono l'intero credito finché questo non si estingue, salve riduzione e altre vicende consentite. L'ipoteca si estende ad accessioni, miglioramenti e costruzioni nei limiti del Codice.\n\n| Fonte del titolo | Esempio |\n|---|---|\n| Legale | alienante per obblighi derivanti dall'alienazione; condividente per conguagli |\n| Giudiziale | sentenza di condanna idonea all'iscrizione |\n| Volontaria | contratto o dichiarazione unilaterale fra vivi nelle forme prescritte |\n\nIl titolo non basta: l'[[iscrizione-ipotecaria]] ha efficacia **costitutiva**. Anche l'ipoteca legale richiede iscrizione; quella volontaria non può essere costituita per testamento (art. 2821 c.c.). La forma del titolo e la sua idoneità all'iscrizione sono piani distinti: per iscrivere sulla base di scrittura privata occorre autenticazione o accertamento giudiziale della sottoscrizione. La pubblicità non sana un titolo nullo.\n\n### Grado e vicende dell'iscrizione\nIl [[grado-ipotecario]] dipende dal momento dell'iscrizione, non dalla data del contratto (art. 2852 c.c.). Se una banca stipula prima ma iscrive dopo, può risultare di grado successivo. Le iscrizioni contemporanee seguono l'art. 2853 c.c.; eventuali accordi di scambio del grado non possono pregiudicare i creditori intermedi. Gli accessori sono coperti nel grado nei limiti dell'art. 2855 c.c., non senza limiti per qualunque interesse futuro.\n\nL'**annotazione** rende pubbliche le vicende indicate nell'art. 2843 c.c., come la cessione del credito ipotecario; il suo regime è distinto dall'iscrizione originaria. La [[rinnovazione-ipotecaria]] conserva gli effetti dell'iscrizione oltre vent'anni, se eseguita prima della scadenza (art. 2847 c.c.). Una nuova iscrizione dopo la scadenza prende un nuovo grado e incontra i diritti dei terzi.\n\n### Estinzione e cancellazione\nL'estinzione del credito, il perimento del bene e le altre cause dell'art. 2878 c.c. vanno distinte dall'aggiornamento formale dei registri. La cancellazione può essere consentita dal creditore nelle forme prescritte oppure disposta con provvedimento definitivo nei casi previsti; esistono inoltre procedure speciali per alcuni finanziamenti bancari. Non basta mostrare privatamente una ricevuta per ottenere qualsiasi cancellazione dal registro.",
+      "puntiChiave": [
+        "Il titolo consente l’iscrizione ma non sostituisce la pubblicità costitutiva.",
+        "Il grado dipende dall’iscrizione.",
+        "La rinnovazione prima del ventennio conserva gli effetti e il grado.",
+        "Estinzione del credito e cancellazione del registro sono piani distinti."
+      ],
+      "memoria": [
+        {
+          "voce": "art. 2808 c.c.",
+          "dettaglio": "ipoteca"
+        },
+        {
+          "voce": "art. 2852 c.c.",
+          "dettaglio": "grado"
+        },
+        {
+          "voce": "art. 2847 c.c.",
+          "dettaglio": "ventennio"
+        }
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ]
+    },
+    {
+      "id": "u15-l4",
+      "titolo": "Terzi e conservazione della garanzia",
+      "pagine": [
+        124,
+        126
+      ],
+      "minuti": 25,
+      "sintesi": "### Chi subisce l'ipoteca altrui\nIl terzo che acquista un bene già ipotecato subisce la sequela senza diventare, per il solo acquisto, debitore personale. Nei requisiti dell'art. 2858 c.c. può pagare i creditori iscritti, rilasciare il bene oppure liberarlo dalle ipoteche mediante il procedimento previsto dalla legge. Il **terzo datore**, che ha costituito la garanzia, ha una posizione diversa: non gode automaticamente delle facoltà dell'acquirente e non può pretendere l'escussione preventiva del debitore salvo patto. Se paga o subisce l'espropriazione ha regresso secondo l'art. 2871 c.c.\n\n### Inerzia e atti pregiudizievoli\nIl patrimonio resta amministrato dal debitore, ma il creditore può reagire a condotte che ne compromettono la funzione di garanzia.\n\n| Rimedio | Situazione | Risultato |\n|---|---|---|\n| Surrogatoria | inerzia pregiudizievole | esercizio dei diritti patrimoniali del debitore |\n| Revocatoria | atto dispositivo pregiudizievole | inefficacia relativa verso il creditore agente |\n| Sequestro conservativo | pericolo per la garanzia | vincolo cautelare sui beni |\n\nL'[[azione-surrogatoria]] permette di esercitare diritti patrimoniali che il debitore trascura, salvo quelli personali (art. 2900 c.c.). Se Tizio non riscuote un credito e danneggia la garanzia, il suo creditore può agire; il risultato entra nel patrimonio di Tizio e giova alla garanzia di tutti, senza prelazione speciale. Agendo in giudizio si cita anche il debitore.\n\nL'[[azione-revocatoria]] presuppone credito, pregiudizio e consapevolezza del debitore; negli atti onerosi occorre anche la consapevolezza del terzo. Per atti anteriori al credito servono dolosa preordinazione e, se onerosi, partecipazione del terzo (art. 2901 c.c.). Non è revocabile il normale adempimento di un debito scaduto. La revocatoria non annulla il contratto e non restituisce il bene al debitore: consente al creditore vittorioso di agire esecutivamente sul bene. L'azione si prescrive in cinque anni dall'atto (art. 2903 c.c.); i subacquirenti sono tutelati nei termini dell'art. 2901 c.c.\n\n### Tutela anticipata ed esecuzione\nIl [[sequestro-conservativo]] richiede apparenza fondata del credito e pericolo di perdere la garanzia; rende inopponibili al sequestrante gli atti dispositivi secondo le regole applicabili (artt. 2905–2906 c.c., art. 671 c.p.c.). Non equivale a definitiva attribuzione del bene.\n\nL'art. 2929-bis c.c., introdotto nel 2015, consente nei suoi requisiti di procedere senza preventiva sentenza revocatoria contro alcuni vincoli o alienazioni **gratuiti**, successivi al credito, relativi a immobili o mobili registrati: occorrono titolo esecutivo e trascrizione del pignoramento entro un anno dalla trascrizione dell'atto, con le opposizioni previste dalla legge. Non vale per qualsiasi vendita.\n\nIl [[diritto-di-ritenzione]] consente infine di non restituire una cosa nei casi espressamente previsti, finché è soddisfatto il credito connesso. Non è una facoltà generale di trattenere beni altrui né autorizza da solo a usarli o venderli.",
+      "puntiChiave": [
+        "Terzo acquirente e terzo datore hanno posizioni differenti.",
+        "La surrogatoria reagisce all’inerzia e incrementa la garanzia comune.",
+        "La revocatoria produce inefficacia relativa, non nullità.",
+        "Il sequestro è cautelare; la ritenzione è tipica.",
+        "L’art. 2929-bis c.c. riguarda specifici atti gratuiti nei suoi requisiti."
+      ],
+      "memoria": [
+        {
+          "voce": "art. 2900 c.c.",
+          "dettaglio": "surrogatoria"
+        },
+        {
+          "voce": "art. 2901 c.c.",
+          "dettaglio": "revocatoria"
+        },
+        {
+          "voce": "art. 2903 c.c.",
+          "dettaglio": "cinque anni"
+        },
+        {
+          "voce": "art. 2929-bis c.c.",
+          "dettaglio": "esecuzione per specifici atti gratuiti"
+        }
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ]
+    }
+  ],
+  "concetti": [
+    {
+      "id": "diritti-reali-di-garanzia",
+      "nome": "Diritti reali di garanzia",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Diritti su beni determinati che attribuiscono al creditore prelazione sul ricavato e sequela anche contro gli acquirenti del bene.",
+      "definizione": "Diritti su beni determinati che attribuiscono al creditore prelazione sul ricavato e sequela anche contro gli acquirenti del bene. Sono accessori al credito garantito.",
+      "pagine": [
+        117,
+        119
+      ]
+    },
+    {
+      "id": "pegno",
+      "nome": "Pegno",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Diritto reale di garanzia su mobili, universalità di mobili, crediti e altri diritti ammessi.",
+      "definizione": "Diritto reale di garanzia su mobili, universalità di mobili, crediti e altri diritti ammessi. Il pegno ordinario su cose si costituisce con consegna e attribuisce prelazione alle condizioni di legge.",
+      "pagine": [
+        117,
+        119
+      ]
+    },
+    {
+      "id": "pegno-irregolare",
+      "nome": "Pegno irregolare",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Garanzia su denaro o cose fungibili non individuate o con facoltà di disposizione, che passano in proprietà al creditore.",
+      "definizione": "Garanzia su denaro o cose fungibili non individuate o con facoltà di disposizione, che passano in proprietà al creditore. Questi deve restituire l’equivalente o l’eccedenza rispetto al credito garantito.",
+      "pagine": [
+        117,
+        119
+      ]
+    },
+    {
+      "id": "terzo-datore-di-garanzia",
+      "nome": "Terzo datore di garanzia reale",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Soggetto che vincola un proprio bene a garanzia del debito altrui.",
+      "definizione": "Soggetto che vincola un proprio bene a garanzia del debito altrui. Risponde con il bene gravato e non con tutto il proprio patrimonio per il solo fatto di avere costituito la garanzia.",
+      "pagine": [
+        117,
+        119
+      ]
+    },
+    {
+      "id": "patto-commissorio",
+      "nome": "Patto commissorio",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Accordo vietato che prevede il passaggio al creditore della proprietà del bene dato in garanzia in caso di mancato pagamento, senza le salvaguardie ammesse dall’ordinamento.",
+      "definizione": "Accordo vietato che prevede il passaggio al creditore della proprietà del bene dato in garanzia in caso di mancato pagamento, senza le salvaguardie ammesse dall’ordinamento. È nullo ai sensi dell’art. 2744 c.c.",
+      "pagine": [
+        119,
+        120
+      ]
+    },
+    {
+      "id": "patto-marciano",
+      "nome": "Patto marciano",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Meccanismo di soddisfazione del credito mediante acquisizione del bene con stima attendibile e restituzione dell’eccedenza.",
+      "definizione": "Meccanismo di soddisfazione del credito mediante acquisizione del bene con stima attendibile e restituzione dell’eccedenza. Le salvaguardie lo distinguono dall’appropriazione commissoria vietata.",
+      "pagine": [
+        119,
+        120
+      ]
+    },
+    {
+      "id": "pegno-non-possessorio",
+      "nome": "Pegno non possessorio",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Garanzia speciale d’impresa introdotta dal d.l.",
+      "definizione": "Garanzia speciale d’impresa introdotta dal d.l. 59/2016, senza ordinaria consegna del bene al creditore. Richiede forma scritta e pubblicità nel registro e riguarda i beni e crediti ammessi dalla legge.",
+      "pagine": [
+        119,
+        120
+      ]
+    },
+    {
+      "id": "accessorieta-della-garanzia",
+      "nome": "Accessorietà della garanzia",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Legame per cui la garanzia dipende dal credito che protegge e ne segue di regola le vicende.",
+      "definizione": "Legame per cui la garanzia dipende dal credito che protegge e ne segue di regola le vicende. L’estinzione del credito comporta normalmente l’estinzione della garanzia, secondo la disciplina applicabile.",
+      "pagine": [
+        119,
+        120
+      ]
+    },
+    {
+      "id": "ipoteca",
+      "nome": "Ipoteca",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Diritto reale di garanzia che si costituisce mediante iscrizione e attribuisce prelazione e sequela sui beni ammessi dalla legge.",
+      "definizione": "Diritto reale di garanzia che si costituisce mediante iscrizione e attribuisce prelazione e sequela sui beni ammessi dalla legge. Può avere titolo legale, giudiziale o volontario senza richiedere spossessamento.",
+      "pagine": [
+        121,
+        123
+      ]
+    },
+    {
+      "id": "iscrizione-ipotecaria",
+      "nome": "Iscrizione ipotecaria",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Formalità pubblicitaria costitutiva del diritto di ipoteca nei registri competenti.",
+      "definizione": "Formalità pubblicitaria costitutiva del diritto di ipoteca nei registri competenti. Presuppone un titolo idoneo e non sana la sua eventuale nullità.",
+      "pagine": [
+        121,
+        123
+      ]
+    },
+    {
+      "id": "grado-ipotecario",
+      "nome": "Grado ipotecario",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Ordine di preferenza fra ipoteche sul medesimo bene, determinato dal momento dell’iscrizione e dalle regole degli artt.",
+      "definizione": "Ordine di preferenza fra ipoteche sul medesimo bene, determinato dal momento dell’iscrizione e dalle regole degli artt. 2852–2853 c.c. Non dipende dalla semplice data del titolo.",
+      "pagine": [
+        121,
+        123
+      ]
+    },
+    {
+      "id": "rinnovazione-ipotecaria",
+      "nome": "Rinnovazione ipotecaria",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Formalità che, eseguita prima della scadenza ventennale dell’iscrizione, ne conserva gli effetti.",
+      "definizione": "Formalità che, eseguita prima della scadenza ventennale dell’iscrizione, ne conserva gli effetti. Una nuova iscrizione tardiva non conserva il grado precedente.",
+      "pagine": [
+        121,
+        123
+      ]
+    },
+    {
+      "id": "azione-surrogatoria",
+      "nome": "Azione surrogatoria",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Rimedio con cui il creditore esercita diritti patrimoniali trascurati dal debitore quando l’inerzia pregiudica le sue ragioni.",
+      "definizione": "Rimedio con cui il creditore esercita diritti patrimoniali trascurati dal debitore quando l’inerzia pregiudica le sue ragioni. Il risultato torna alla garanzia patrimoniale comune, non soltanto al creditore agente.",
+      "pagine": [
+        124,
+        126
+      ]
+    },
+    {
+      "id": "azione-revocatoria",
+      "nome": "Azione revocatoria",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Azione che rende relativamente inefficace verso il creditore agente un atto dispositivo pregiudizievole del debitore, nei requisiti dell’art.",
+      "definizione": "Azione che rende relativamente inefficace verso il creditore agente un atto dispositivo pregiudizievole del debitore, nei requisiti dell’art. 2901 c.c. Non annulla l’atto né restituisce il bene al debitore.",
+      "pagine": [
+        124,
+        126
+      ]
+    },
+    {
+      "id": "sequestro-conservativo",
+      "nome": "Sequestro conservativo",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Misura cautelare richiesta dal creditore quando ricorrono fondatezza apparente del credito e pericolo per la garanzia.",
+      "definizione": "Misura cautelare richiesta dal creditore quando ricorrono fondatezza apparente del credito e pericolo per la garanzia. Vincola beni rendendo inopponibili al sequestrante determinati atti dispositivi.",
+      "pagine": [
+        124,
+        126
+      ]
+    },
+    {
+      "id": "diritto-di-ritenzione",
+      "nome": "Diritto di ritenzione",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Facoltà di rifiutare la restituzione di una cosa finché sia soddisfatto un credito connesso, nei casi previsti dalla legge.",
+      "definizione": "Facoltà di rifiutare la restituzione di una cosa finché sia soddisfatto un credito connesso, nei casi previsti dalla legge. Non attribuisce da sola il diritto di usare o vendere il bene.",
+      "pagine": [
+        124,
+        126
+      ]
+    }
+  ],
+  "relazioni": [
+    {
+      "da": "pegno",
+      "a": "diritti-reali-di-garanzia",
+      "tipo": "esempio-di",
+      "etichetta": "è uno dei"
+    },
+    {
+      "da": "ipoteca",
+      "a": "diritti-reali-di-garanzia",
+      "tipo": "esempio-di",
+      "etichetta": "è uno dei"
+    },
+    {
+      "da": "pegno-non-possessorio",
+      "a": "pegno",
+      "tipo": "evolve-in",
+      "etichetta": "è modello speciale di"
+    },
+    {
+      "da": "patto-marciano",
+      "a": "patto-commissorio",
+      "tipo": "contrasta",
+      "etichetta": "si distingue dal"
+    },
+    {
+      "da": "iscrizione-ipotecaria",
+      "a": "ipoteca",
+      "tipo": "crea",
+      "etichetta": "costituisce l’"
+    },
+    {
+      "da": "rinnovazione-ipotecaria",
+      "a": "grado-ipotecario",
+      "tipo": "collegato",
+      "etichetta": "conserva il"
+    },
+    {
+      "da": "azione-surrogatoria",
+      "a": "azione-revocatoria",
+      "tipo": "contrasta",
+      "etichetta": "reagisce a condotta diversa dall’"
+    },
+    {
+      "da": "sequestro-conservativo",
+      "a": "responsabilita-patrimoniale",
+      "tipo": "collegato",
+      "etichetta": "conserva la garanzia della"
+    }
+  ],
+  "eventi": [],
+  "domande": [
+    {
+      "id": "u15-q001",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Diritti reali di garanzia»?",
+      "risposta": "Diritti su beni determinati che attribuiscono al creditore prelazione sul ricavato e sequela anche contro gli acquirenti del bene. Sono accessori al credito garantito."
+    },
+    {
+      "id": "u15-q002",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "pegno"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Pegno»?",
+      "risposta": "Diritto reale di garanzia su mobili, universalità di mobili, crediti e altri diritti ammessi. Il pegno ordinario su cose si costituisce con consegna e attribuisce prelazione alle condizioni di legge."
+    },
+    {
+      "id": "u15-q003",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "pegno-irregolare"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Pegno irregolare»?",
+      "risposta": "Garanzia su denaro o cose fungibili non individuate o con facoltà di disposizione, che passano in proprietà al creditore. Questi deve restituire l’equivalente o l’eccedenza rispetto al credito garantito."
+    },
+    {
+      "id": "u15-q004",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Terzo datore di garanzia reale»?",
+      "risposta": "Soggetto che vincola un proprio bene a garanzia del debito altrui. Risponde con il bene gravato e non con tutto il proprio patrimonio per il solo fatto di avere costituito la garanzia."
+    },
+    {
+      "id": "u15-q005",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Tizio dà un proprio orologio in pegno per il debito di Caio. Tizio diventa automaticamente debitore personale?",
+      "opzioni": [
+        "Sì, per ogni debito di Caio",
+        "No, garantisce con il bene vincolato",
+        "Sì, ma solo per metà",
+        "Il pegno è nullo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Garanzia reale del terzo e assunzione personale del debito sono diverse."
+    },
+    {
+      "id": "u15-q006",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il creditore riceve un bene in pegno ordinario. Può usarlo liberamente?",
+      "opzioni": [
+        "Sì, è proprietario",
+        "No, occorre il consenso",
+        "Sì, dopo un giorno",
+        "Solo se è di lusso"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il pegno non attribuisce ordinariamente il godimento della cosa."
+    },
+    {
+      "id": "u15-q007",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La sequela consente di esercitare la garanzia anche se il bene è alienato.",
+      "vero": true,
+      "spiegazione": "Il diritto reale segue il bene."
+    },
+    {
+      "id": "u15-q008",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Nel pegno irregolare il creditore deve sempre restituire proprio le stesse banconote.",
+      "vero": false,
+      "spiegazione": "È dovuto l’equivalente, secondo la disciplina dell’operazione."
+    },
+    {
+      "id": "u15-q009",
+      "lezione": "u15-l1",
+      "livello": "base",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "completa",
+      "testo": "La preferenza sul ricavato della vendita è la {{prelazione}}.",
+      "spiegazione": "Garanzia reale significa prelazione e sequela su beni determinati."
+    },
+    {
+      "id": "u15-q010",
+      "lezione": "u15-l1",
+      "livello": "avanzato",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia",
+        "pegno",
+        "pegno-irregolare",
+        "terzo-datore-di-garanzia"
+      ],
+      "tipo": "aperta",
+      "domanda": "Illustra struttura, costituzione ed effetti del pegno ordinario.",
+      "traccia": "Parti dalla funzione reale e distingui consegna, opponibilità e realizzazione.",
+      "punti": [
+        {
+          "testo": "Funzione",
+          "chiavi": [
+            "prelazione",
+            "sequela"
+          ]
+        },
+        {
+          "testo": "Costituzione",
+          "chiavi": [
+            "consegna",
+            "data certa"
+          ]
+        },
+        {
+          "testo": "Esercizio",
+          "chiavi": [
+            "custodia",
+            "vendita",
+            "assegnazione"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-q011",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Patto commissorio»?",
+      "risposta": "Accordo vietato che prevede il passaggio al creditore della proprietà del bene dato in garanzia in caso di mancato pagamento, senza le salvaguardie ammesse dall’ordinamento. È nullo ai sensi dell’art. 2744 c.c."
+    },
+    {
+      "id": "u15-q012",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-marciano"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Patto marciano»?",
+      "risposta": "Meccanismo di soddisfazione del credito mediante acquisizione del bene con stima attendibile e restituzione dell’eccedenza. Le salvaguardie lo distinguono dall’appropriazione commissoria vietata."
+    },
+    {
+      "id": "u15-q013",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "pegno-non-possessorio"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Pegno non possessorio»?",
+      "risposta": "Garanzia speciale d’impresa introdotta dal d.l. 59/2016, senza ordinaria consegna del bene al creditore. Richiede forma scritta e pubblicità nel registro e riguarda i beni e crediti ammessi dalla legge."
+    },
+    {
+      "id": "u15-q014",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Accessorietà della garanzia»?",
+      "risposta": "Legame per cui la garanzia dipende dal credito che protegge e ne segue di regola le vicende. L’estinzione del credito comporta normalmente l’estinzione della garanzia, secondo la disciplina applicabile."
+    },
+    {
+      "id": "u15-q015",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un patto prevede stima imparziale del bene e restituzione dell’eccedenza. Quale modello richiama?",
+      "opzioni": [
+        "Marciano",
+        "Commissorio senza salvaguardie",
+        "Remissione",
+        "Confusione"
+      ],
+      "corretta": 0,
+      "spiegazione": "La tutela del valore eccedente è essenziale al modello marciano."
+    },
+    {
+      "id": "u15-q016",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un’impresa vuole continuare a usare il macchinario dato in garanzia. Quale istituto può consentirlo, nei requisiti di legge?",
+      "opzioni": [
+        "Solo pegno ordinario con consegna",
+        "Pegno non possessorio",
+        "Usucapione",
+        "Novazione automatica"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il modello speciale evita lo spossessamento produttivo."
+    },
+    {
+      "id": "u15-q017",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Un patto commissorio diventa valido se stipulato dopo la costituzione dell’ipoteca.",
+      "vero": false,
+      "spiegazione": "L’art. 2744 c.c. lo vieta anche se successivo."
+    },
+    {
+      "id": "u15-q018",
+      "lezione": "u15-l2",
+      "livello": "medio",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il nome dato dalle parti a un patto basta a garantirne la validità come marciano.",
+      "vero": false,
+      "spiegazione": "Occorre verificare le salvaguardie effettive e l’operazione concreta."
+    },
+    {
+      "id": "u15-q019",
+      "lezione": "u15-l2",
+      "livello": "base",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "completa",
+      "testo": "Il patto con stima e restituzione dell’eccedenza segue il modello {{marciano}}.",
+      "spiegazione": "Il patto commissorio è nullo anche se successivo alla garanzia."
+    },
+    {
+      "id": "u15-q020",
+      "lezione": "u15-l2",
+      "livello": "avanzato",
+      "pagine": [
+        119,
+        120
+      ],
+      "concetti": [
+        "patto-commissorio",
+        "patto-marciano",
+        "pegno-non-possessorio",
+        "accessorieta-della-garanzia"
+      ],
+      "tipo": "aperta",
+      "domanda": "Confronta patto commissorio, marciano e pegno non possessorio.",
+      "traccia": "Separa divieto, salvaguardia del valore e conservazione dell’uso produttivo.",
+      "punti": [
+        {
+          "testo": "Commissorio",
+          "chiavi": [
+            "nullità",
+            "appropriazione"
+          ]
+        },
+        {
+          "testo": "Marciano",
+          "chiavi": [
+            "stima",
+            "eccedenza"
+          ]
+        },
+        {
+          "testo": "Non possessorio",
+          "chiavi": [
+            "impresa",
+            "registro",
+            "uso"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-q021",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Ipoteca»?",
+      "risposta": "Diritto reale di garanzia che si costituisce mediante iscrizione e attribuisce prelazione e sequela sui beni ammessi dalla legge. Può avere titolo legale, giudiziale o volontario senza richiedere spossessamento."
+    },
+    {
+      "id": "u15-q022",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "iscrizione-ipotecaria"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Iscrizione ipotecaria»?",
+      "risposta": "Formalità pubblicitaria costitutiva del diritto di ipoteca nei registri competenti. Presuppone un titolo idoneo e non sana la sua eventuale nullità."
+    },
+    {
+      "id": "u15-q023",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "grado-ipotecario"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Grado ipotecario»?",
+      "risposta": "Ordine di preferenza fra ipoteche sul medesimo bene, determinato dal momento dell’iscrizione e dalle regole degli artt. 2852–2853 c.c. Non dipende dalla semplice data del titolo."
+    },
+    {
+      "id": "u15-q024",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Rinnovazione ipotecaria»?",
+      "risposta": "Formalità che, eseguita prima della scadenza ventennale dell’iscrizione, ne conserva gli effetti. Una nuova iscrizione tardiva non conserva il grado precedente."
+    },
+    {
+      "id": "u15-q025",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "multipla",
+      "domanda": "A stipula un’ipoteca prima di B, ma B iscrive per primo. Di regola chi ha grado anteriore?",
+      "opzioni": [
+        "A",
+        "B",
+        "Entrambi sempre alla pari",
+        "Il proprietario"
+      ],
+      "corretta": 1,
+      "spiegazione": "Conta la priorità dell’iscrizione."
+    },
+    {
+      "id": "u15-q026",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una valida concessione volontaria non è ancora iscritta. L’ipoteca esiste già come diritto reale?",
+      "opzioni": [
+        "Sì, sempre",
+        "No, l’iscrizione è costitutiva",
+        "Solo se il bene vale molto",
+        "Solo se il creditore è banca"
+      ],
+      "corretta": 1,
+      "spiegazione": "Occorre distinguere titolo e costituzione del diritto."
+    },
+    {
+      "id": "u15-q027",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La rinnovazione tempestiva evita la perdita degli effetti dell’iscrizione al ventennio.",
+      "vero": true,
+      "spiegazione": "Deve precedere la scadenza."
+    },
+    {
+      "id": "u15-q028",
+      "lezione": "u15-l3",
+      "livello": "medio",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L’iscrizione sana la nullità del contratto che concede l’ipoteca.",
+      "vero": false,
+      "spiegazione": "La pubblicità costitutiva non sana il titolo invalido."
+    },
+    {
+      "id": "u15-q029",
+      "lezione": "u15-l3",
+      "livello": "base",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "completa",
+      "testo": "L’iscrizione ipotecaria ha efficacia {{costitutiva}}.",
+      "spiegazione": "Il titolo consente l’iscrizione ma non sostituisce la pubblicità costitutiva."
+    },
+    {
+      "id": "u15-q030",
+      "lezione": "u15-l3",
+      "livello": "avanzato",
+      "pagine": [
+        121,
+        123
+      ],
+      "concetti": [
+        "ipoteca",
+        "iscrizione-ipotecaria",
+        "grado-ipotecario",
+        "rinnovazione-ipotecaria"
+      ],
+      "tipo": "aperta",
+      "domanda": "Spiega titolo, iscrizione, grado e rinnovazione dell’ipoteca.",
+      "traccia": "Segui un finanziamento dalla concessione alla pubblicità e poi alla scadenza dell’iscrizione.",
+      "punti": [
+        {
+          "testo": "Titolo",
+          "chiavi": [
+            "legale",
+            "giudiziale",
+            "volontario"
+          ]
+        },
+        {
+          "testo": "Iscrizione",
+          "chiavi": [
+            "costitutiva"
+          ]
+        },
+        {
+          "testo": "Grado",
+          "chiavi": [
+            "priorità",
+            "iscrizione"
+          ]
+        },
+        {
+          "testo": "Rinnovazione",
+          "chiavi": [
+            "ventennio",
+            "prima"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-q031",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Azione surrogatoria»?",
+      "risposta": "Rimedio con cui il creditore esercita diritti patrimoniali trascurati dal debitore quando l’inerzia pregiudica le sue ragioni. Il risultato torna alla garanzia patrimoniale comune, non soltanto al creditore agente."
+    },
+    {
+      "id": "u15-q032",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-revocatoria"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Azione revocatoria»?",
+      "risposta": "Azione che rende relativamente inefficace verso il creditore agente un atto dispositivo pregiudizievole del debitore, nei requisiti dell’art. 2901 c.c. Non annulla l’atto né restituisce il bene al debitore."
+    },
+    {
+      "id": "u15-q033",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "sequestro-conservativo"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Sequestro conservativo»?",
+      "risposta": "Misura cautelare richiesta dal creditore quando ricorrono fondatezza apparente del credito e pericolo per la garanzia. Vincola beni rendendo inopponibili al sequestrante determinati atti dispositivi."
+    },
+    {
+      "id": "u15-q034",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Diritto di ritenzione»?",
+      "risposta": "Facoltà di rifiutare la restituzione di una cosa finché sia soddisfatto un credito connesso, nei casi previsti dalla legge. Non attribuisce da sola il diritto di usare o vendere il bene."
+    },
+    {
+      "id": "u15-q035",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il debitore dona un bene e la revocatoria del creditore è accolta. Il bene torna automaticamente al debitore?",
+      "opzioni": [
+        "Sì, l’atto è nullo",
+        "No, l’atto è inefficace verso il creditore agente",
+        "Sì, per tutti i creditori",
+        "Il donatario diventa debitore personale"
+      ],
+      "corretta": 1,
+      "spiegazione": "La revocatoria produce inefficacia relativa e consente l’esecuzione sul bene."
+    },
+    {
+      "id": "u15-q036",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il debitore trascura di riscuotere un credito con pregiudizio alla garanzia. Quale rimedio reagisce all’inerzia?",
+      "opzioni": [
+        "Surrogatoria",
+        "Annullamento",
+        "Rescissione",
+        "Usucapione"
+      ],
+      "corretta": 0,
+      "spiegazione": "La surrogatoria sostituisce il creditore nell’esercizio del diritto patrimoniale trascurato."
+    },
+    {
+      "id": "u15-q037",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La surrogatoria attribuisce automaticamente una prelazione al creditore che agisce.",
+      "vero": false,
+      "spiegazione": "Il risultato incrementa la garanzia comune."
+    },
+    {
+      "id": "u15-q038",
+      "lezione": "u15-l4",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "L’art. 2929-bis c.c. consente l’esecuzione senza preventiva revocatoria per qualsiasi vendita onerosa.",
+      "vero": false,
+      "spiegazione": "La norma riguarda specifici atti gratuiti e richiede ulteriori presupposti."
+    },
+    {
+      "id": "u15-q039",
+      "lezione": "u15-l4",
+      "livello": "base",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "completa",
+      "testo": "L’inefficacia prodotta dalla revocatoria è {{relativa}}.",
+      "spiegazione": "Terzo acquirente e terzo datore hanno posizioni differenti."
+    },
+    {
+      "id": "u15-q040",
+      "lezione": "u15-l4",
+      "livello": "avanzato",
+      "pagine": [
+        124,
+        126
+      ],
+      "concetti": [
+        "azione-surrogatoria",
+        "azione-revocatoria",
+        "sequestro-conservativo",
+        "diritto-di-ritenzione"
+      ],
+      "tipo": "aperta",
+      "domanda": "Confronta surrogatoria, revocatoria e sequestro conservativo.",
+      "traccia": "Per ciascuno indica presupposto e risultato, poi colloca la speciale esecuzione dell’art. 2929-bis c.c.",
+      "punti": [
+        {
+          "testo": "Surrogatoria",
+          "chiavi": [
+            "inerzia",
+            "patrimoniale"
+          ]
+        },
+        {
+          "testo": "Revocatoria",
+          "chiavi": [
+            "atto",
+            "pregiudizio",
+            "inefficacia"
+          ]
+        },
+        {
+          "testo": "Sequestro",
+          "chiavi": [
+            "pericolo",
+            "cautelare"
+          ]
+        },
+        {
+          "testo": "Esecuzione",
+          "chiavi": [
+            "gratuiti",
+            "titolo",
+            "anno"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-q041",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia"
+      ],
+      "tipo": "ordina",
+      "consegna": "Ordina la normale costituzione ed esercizio di un pegno su cosa mobile.",
+      "elementi": [
+        "Accordo sulla garanzia",
+        "Consegna del bene secondo legge",
+        "Inadempimento del debito garantito",
+        "Realizzazione della garanzia nelle forme legali"
+      ],
+      "spiegazione": "La prelazione richiede anche i requisiti di opponibilità applicabili."
+    },
+    {
+      "id": "u15-q042",
+      "lezione": "u15-l1",
+      "livello": "medio",
+      "pagine": [
+        117,
+        119
+      ],
+      "concetti": [
+        "diritti-reali-di-garanzia"
+      ],
+      "tipo": "abbina",
+      "consegna": "Associa istituti e disciplina.",
+      "coppie": [
+        [
+          "Pegno",
+          "art. 2784 c.c."
+        ],
+        [
+          "Ipoteca",
+          "art. 2808 c.c."
+        ],
+        [
+          "Surrogatoria",
+          "art. 2900 c.c."
+        ],
+        [
+          "Revocatoria",
+          "art. 2901 c.c."
+        ]
+      ]
+    }
+  ],
+  "mappa": {
+    "testo": "Pegno, ipoteca e conservazione della garanzia",
+    "figli": [
+      {
+        "testo": "Garanzie reali e pegno",
+        "figli": [
+          {
+            "testo": "Diritti reali di garanzia",
+            "concetto": "diritti-reali-di-garanzia"
+          },
+          {
+            "testo": "Pegno",
+            "concetto": "pegno"
+          },
+          {
+            "testo": "Pegno irregolare",
+            "concetto": "pegno-irregolare"
+          },
+          {
+            "testo": "Terzo datore di garanzia reale",
+            "concetto": "terzo-datore-di-garanzia"
+          }
+        ]
+      },
+      {
+        "testo": "Patto commissorio, marciano e pegno d’impresa",
+        "figli": [
+          {
+            "testo": "Patto commissorio",
+            "concetto": "patto-commissorio"
+          },
+          {
+            "testo": "Patto marciano",
+            "concetto": "patto-marciano"
+          },
+          {
+            "testo": "Pegno non possessorio",
+            "concetto": "pegno-non-possessorio"
+          },
+          {
+            "testo": "Accessorietà della garanzia",
+            "concetto": "accessorieta-della-garanzia"
+          }
+        ]
+      },
+      {
+        "testo": "Ipoteca e pubblicità",
+        "figli": [
+          {
+            "testo": "Ipoteca",
+            "concetto": "ipoteca"
+          },
+          {
+            "testo": "Iscrizione ipotecaria",
+            "concetto": "iscrizione-ipotecaria"
+          },
+          {
+            "testo": "Grado ipotecario",
+            "concetto": "grado-ipotecario"
+          },
+          {
+            "testo": "Rinnovazione ipotecaria",
+            "concetto": "rinnovazione-ipotecaria"
+          }
+        ]
+      },
+      {
+        "testo": "Terzi e conservazione della garanzia",
+        "figli": [
+          {
+            "testo": "Azione surrogatoria",
+            "concetto": "azione-surrogatoria"
+          },
+          {
+            "testo": "Azione revocatoria",
+            "concetto": "azione-revocatoria"
+          },
+          {
+            "testo": "Sequestro conservativo",
+            "concetto": "sequestro-conservativo"
+          },
+          {
+            "testo": "Diritto di ritenzione",
+            "concetto": "diritto-di-ritenzione"
+          }
+        ]
+      }
+    ]
+  }
+}

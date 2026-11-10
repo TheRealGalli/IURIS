@@ -1,0 +1,191 @@
+@unita u12|12|Il rapporto obbligatorio e i suoi elementi|Capitoli 17–18|96-101
+@abstract Il credito come diritto relativo: fonti e prestazione, pluralità di soggetti, solidarietà e tipi di obbligazioni. Il denaro, il principio nominalistico e le diverse funzioni degli interessi.
+@note Aggiornato: il tasso legale cambia nel tempo e la soglia dell'usura non si calcola aumentando del 50% il tasso medio.
+@redazione Fonte: dispensa pp. 96–101; integrati i riquadri illeggibili con gli artt. 1173–1178, 1277–1284, 1285–1290, 1292–1320 e 2034 c.c. Corretti il rinvio sulla gestione d'affari (2028–2032, non 2332) e l'esempio dell'eredità: i debiti ereditari sono normalmente parziari, non esempio della presunzione di solidarietà.
+@redazione Tasso legale: d.m. 10 dicembre 2025, 1,60% dal 1 gennaio 2026, https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06705&atto.dataPubblicazioneGazzetta=2025-12-13&tipoSerie=serie_generale&tipoVigenza=originario. Usura: art. 2 l. 108/1996 modificato dal d.l. 70/2011; formula verificata su https://www.bancaditalia.it/compiti/vigilanza/compiti-vigilanza/tegm/index.html il 10 novembre 2026. Per la disciplina bancaria dell'anatocismo rinvio all'art. 120 TUB e delibera CICR 3 agosto 2016; qui è esposta la regola generale del c.c.
+@redazione Controllo incrociato: il file locale libro-iv.json riporta per l’art. 1284 una versione storica incompleta (10%) e omette i commi aggiunti nel 2014. La sintesi usa il testo vigente verificato sul portale ufficiale MEF: https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1284&codiceOrdinamento=200128400000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D ; art. 17 d.l. 132/2014. La sezione Codice non viene modificata come richiesto nelle consegne; discrepanza registrata nel piano per il successivo controllo del Codice.
+@lezione u12-l1|Credito, fonti, obbligazioni naturali e prestazione|96-98|25|obbligazione,diritti-relativi,fonti-delle-obbligazioni,obbligazione-naturale,prestazione,obbligazioni-di-mezzi-e-di-risultato
+### Il rapporto e le fonti
+L'[[obbligazione]] lega un **debitore**, tenuto a una prestazione, a un **creditore**, che può pretenderla. Il [[diritti-relativi]] è **relativo**: si esercita contro il debitore e richiede la sua cooperazione. Il diritto reale, invece, attribuisce un potere sulla cosa opponibile a tutti. Chi deve ricevere una bicicletta non può sottrarla da sé al debitore: deve usare gli strumenti di tutela dell'ordinamento.
+
+Le [[fonti-delle-obbligazioni]] sono, per l'art. 1173 c.c., **contratto, fatto illecito e ogni altro atto o fatto idoneo** secondo l'ordinamento. L'elenco è aperto, ma non rende obbligatoria qualsiasi promessa: occorre una ragione giuridica che ne giustifichi l'efficacia. Gestione d'affari, indebito e arricchimento senza causa sono fonti diverse dal contratto e dall'illecito. Le norme generali sull'obbligazione operano qualunque ne sia la fonte, insieme alla disciplina specifica.
+
+### La prestazione
+La [[prestazione]] deve essere **suscettibile di valutazione economica**, mentre l'interesse del creditore può essere **anche non patrimoniale** (art. 1174 c.c.). Pagare un musicista per una festa soddisfa un interesse ricreativo, pur comportando una prestazione economicamente valutabile. L'oggetto deve essere possibile, lecito e determinato o determinabile. Debitore e creditore devono comportarsi secondo **correttezza** (art. 1175 c.c.): anche chi pretende l'adempimento deve cooperare lealmente.
+
+| Criterio | Tipi | Esempio |
+|---|---|---|
+| Condotta | dare, fare, non fare | consegnare un bene, costruire, non concorrere |
+| Persona dell'esecutore | fungibile o infungibile | versare denaro o dipingere un ritratto personale |
+| Individuazione del bene | generica o specifica | cento bottiglie di un vino o quella bottiglia da collezione |
+
+Nell'obbligazione **generica** la qualità non può essere inferiore alla media (art. 1178 c.c.); quella **specifica** comprende la custodia fino alla consegna (art. 1177 c.c.). La distinzione tra [[obbligazioni-di-mezzi-e-di-risultato]] descrive il contenuto dell'impegno: attività diligente oppure risultato promesso. Non è una formula che esonera automaticamente il professionista da responsabilità: si deve accertare che cosa era dovuto nel caso concreto.
+
+### Il dovere morale o sociale
+L'[[obbligazione-naturale]] non consente di esigere giudizialmente la prestazione. Se però una persona **capace adempie spontaneamente** un dovere morale o sociale, non può ripetere quanto pagato (art. 2034 c.c.): è la *soluti retentio*, ritenzione di quanto ricevuto. La prestazione deve inoltre risultare proporzionata rispetto ai mezzi e al dovere assolto. Non ogni liberalità è un'obbligazione naturale: una donazione segue regole proprie. Il solo dovere naturale non produce gli altri effetti dell'obbligazione civile.
+@punti
+- Il credito è relativo e presuppone la cooperazione del debitore.
+- Le fonti sono contratto, illecito e altri atti o fatti riconosciuti dall'ordinamento.
+- Patrimonialità della prestazione e interesse anche non patrimoniale sono compatibili.
+- Correttezza vincola entrambe le parti.
+- Il dovere naturale non è coercibile, ma il pagamento spontaneo del capace è irripetibile.
+@memoria
+art. 1173 c.c. :: fonti
+art. 1174 c.c. :: prestazione e interesse
+art. 2034 c.c. :: obbligazione naturale
+@lezione u12-l2|Pluralità di soggetti, solidarietà e scelta della prestazione|98-100|25|solidarieta,obbligazione-parziaria,regresso,obbligazione-indivisibile,obbligazione-alternativa,obbligazione-facoltativa
+### I soggetti e il vincolo
+Creditore e debitore devono essere **determinati o determinabili**: nella promessa di un premio per ritrovare un cane, il beneficiario sarà individuato in seguito. La pluralità dei soggetti richiede poi di stabilire se ciascuno possa pretendere o debba eseguire l'intero, oppure soltanto una quota.
+
+| Rapporto | Solidarietà | Parziarietà |
+|---|---|---|
+| Più debitori | ciascuno deve l'intero; uno paga e libera tutti | ciascuno deve la propria quota |
+| Più creditori | ciascuno può ottenere l'intero con effetto liberatorio | ciascuno può ottenere la propria quota |
+
+La [[solidarieta]] passiva è **presunta**, se la legge o il titolo non dispongono diversamente (art. 1294 c.c.). Quella attiva richiede invece una previsione di legge o del titolo. I debiti ereditari costituiscono un'importante eccezione alla prima regola: gli eredi rispondono normalmente in proporzione alle rispettive quote. La solidarietà protegge il creditore dal rischio di dover inseguire separatamente ciascun debitore.
+
+### Rapporti esterni e interni
+All'esterno il creditore sceglie a chi chiedere l'intero. Il debitore può opporre le **eccezioni comuni**, ma non quelle personali degli altri (art. 1297 c.c.). La costituzione in mora di uno non mette in mora gli altri; l'interruzione della prescrizione contro uno ha invece effetto anche sugli altri (artt. 1308 e 1310 c.c.): gli effetti non si estendono tutti allo stesso modo.
+
+All'interno, il debito si divide nelle quote, presunte uguali salvo diversa risultanza e salvo interesse esclusivo di uno dei debitori (art. 1298 c.c.). Chi paga l'intero ha [[regresso]] contro ciascun altro per la sua parte. Se Tizio e Caio devono in solido 1.000 euro e le quote sono uguali, Tizio che paga può chiedere 500 a Caio. L'insolvenza di uno si ripartisce tra gli altri, compreso chi ha pagato (art. 1299 c.c.).
+
+### Indivisibilità e pluralità delle prestazioni
+L'[[obbligazione-indivisibile]] riguarda una prestazione che non può essere frazionata per natura o volontà delle parti: consegnare un cavallo. La disciplina della solidarietà si applica in quanto compatibile; l'indivisibilità opera anche verso gli eredi (artt. 1316–1318 c.c.). Riguarda l'**oggetto**, mentre la solidarietà riguarda il **vincolo soggettivo**.
+
+Nell'[[obbligazione-alternativa]] sono dedotte più prestazioni, ma ne basta una. La scelta spetta di regola al debitore e determina la **concentrazione**; non può offrire metà dell'una e metà dell'altra (artt. 1285–1286 c.c.). Se una diventa impossibile senza colpa, resta dovuta l'altra. Nell'[[obbligazione-facoltativa]] è dovuta una sola prestazione, con facoltà di sostituirla: l'impossibilità non imputabile dell'unica prestazione dovuta libera il debitore, anche se quella sostitutiva è ancora possibile.
+@punti
+- Solidarietà passiva presunta, attiva soltanto per legge o titolo.
+- All'esterno si deve l'intero, all'interno si ripartisce il peso.
+- Il regresso recupera dagli altri le rispettive quote.
+- Indivisibilità dell'oggetto e solidarietà dei soggetti sono distinte.
+- Nell'alternativa più prestazioni sono dedotte; nella facoltativa una sola è dovuta.
+@memoria
+art. 1294 c.c. :: presunzione di solidarietà passiva
+art. 1299 c.c. :: regresso
+art. 1286 c.c. :: scelta
+@lezione u12-l3|Denaro, debiti di valuta e valore, interessi|100-101|25|principio-nominalistico,debito-di-valore,interessi,interessi-moratori,anatocismo,usura
+### Il denaro dovuto
+Il **debito di valuta** ha per oggetto fin dall'origine una somma di denaro. Il [[principio-nominalistico]] impone di pagare il valore nominale, con moneta avente corso legale al momento del pagamento (art. 1277 c.c.): il prestito di 1.000 euro si restituisce con 1.000 euro anche se il potere d'acquisto è diminuito. Le clausole di indicizzazione possono contrastare la svalutazione nei limiti consentiti. Per un debito espresso in valuta estera opera la facoltà di pagamento in moneta nazionale prevista dall'art. 1278 c.c., salvo clausola effettivo o equivalente, nei termini dell'art. 1279 c.c.
+
+Il [[debito-di-valore]] mira invece a reintegrare un'utilità diversa dal denaro, come il danno alla cosa distrutta. Il denaro serve a misurarne il valore attuale: occorre prima stimare e rivalutare il pregiudizio; con la liquidazione il debito si converte in valuta. Non si devono confondere rivalutazione e interessi né duplicare il ristoro.
+
+### Fonte e funzione degli interessi
+Gli [[interessi]] sono una prestazione pecuniaria accessoria, normalmente calcolata in percentuale sul capitale e in relazione al tempo. **Legali o convenzionali** indica la fonte; **corrispettivi, compensativi o moratori** indica la funzione. Sono dunque classificazioni diverse.
+
+| Funzione | Ragione |
+|---|---|
+| Corrispettiva | remunerare il godimento di denaro altrui |
+| Compensativa | compensare il mancato godimento di un'utilità in ipotesi specifiche |
+| Moratoria | risarcire il ritardo nell'obbligazione pecuniaria |
+
+I crediti pecuniari **liquidi ed esigibili** producono interessi di pieno diritto, salvo diversa disposizione (art. 1282 c.c.). Il tasso legale può essere modificato annualmente: dal 1 gennaio 2026 è **1,60%**, dato da riferire a quell'anno. Gli interessi superiori al tasso legale devono essere determinati **per iscritto**, altrimenti sono dovuti nella misura legale (art. 1284 c.c.). Per le obbligazioni cui si applicano i commi 4–5, se le parti non hanno fissato la misura, dalla domanda giudiziale o dall’avvio dell’arbitrato opera il saggio richiamato dalla disciplina dei ritardi commerciali: è una regola distinta dalla variazione annuale del tasso ordinario.
+
+Gli [[interessi-moratori]] spettano dal giorno della mora senza provare il danno, anche se prima non erano dovuti interessi. Se erano dovuti interessi superiori a quelli legali, la mora segue quella misura. Il maggior danno richiede prova e non è risarcibile quando sia stata convenuta la misura moratoria (art. 1224 c.c.).
+
+### Anatocismo e usura
+L'[[anatocismo]] è la produzione di interessi sugli interessi scaduti. L'art. 1283 c.c., salvi usi contrari, lo ammette dalla domanda giudiziale o per convenzione successiva alla scadenza, purché siano interessi dovuti almeno per sei mesi; per i rapporti bancari valgono regole speciali.
+
+L'[[usura]] non coincide con qualsiasi interesse alto. La soglia varia per categoria e trimestre: dal 2011 si calcola aumentando il tasso medio di **un quarto più quattro punti**, con differenza massima di **otto punti**. Resta l'usura in concreto alle condizioni dell'art. 644 c.p. Nel mutuo, se sono convenuti interessi usurari, la clausola è nulla e non sono dovuti interessi (art. 1815 c.c.).
+@punti
+- Il nominalismo governa i debiti di valuta, mentre i debiti di valore richiedono la stima dell'utilità.
+- Fonte e funzione degli interessi sono classificazioni diverse.
+- Il tasso legale varia; la misura superiore richiede forma scritta.
+- La mora genera interessi anche senza prova del danno.
+- Anatocismo e usura sono fenomeni diversi.
+@memoria
+art. 1277 c.c. :: principio nominalistico
+art. 1283 c.c. :: anatocismo
+art. 1284 c.c. :: saggio degli interessi
+art. 1815 c.c. :: interessi usurari nel mutuo
+@concetto obbligazione|Obbligazione|istituto||96-97|Rapporto giuridico in cui un debitore deve una prestazione a un creditore.
+Rapporto giuridico che vincola il debitore a una prestazione patrimoniale nell’interesse, anche non patrimoniale, del creditore. Il vincolo civile è tutelabile in giudizio.
+@concetto fonti-delle-obbligazioni|Fonti delle obbligazioni|istituto||96-97|Contratto, illecito e altri atti o fatti idonei secondo l’ordinamento.
+Fattispecie dalle quali nasce un rapporto obbligatorio secondo l’art. 1173 c.c.: contratto, fatto illecito e altri atti o fatti idonei riconosciuti dall’ordinamento.
+@concetto obbligazione-naturale|Obbligazione naturale|istituto||96-97|Dovere morale o sociale non coercibile, il cui pagamento spontaneo del capace è irripetibile.
+Dovere morale o sociale che non attribuisce azione per ottenere l’adempimento. La prestazione spontanea del capace, proporzionata al dovere e ai mezzi, non può essere ripetuta (art. 2034 c.c.).
+@concetto prestazione|Prestazione|istituto||96-97|Comportamento economicamente valutabile che il debitore deve al creditore.
+Comportamento di dare, fare o non fare dovuto dal debitore. Deve essere economicamente valutabile e corrispondere a un interesse anche non patrimoniale del creditore (art. 1174 c.c.).
+@concetto obbligazioni-di-mezzi-e-di-risultato|Obbligazioni di mezzi e di risultato|istituto||96-97|Distinzione secondo che sia dovuta un’attività diligente o un risultato promesso.
+Classificazione delle obbligazioni che descrive il contenuto dell’impegno assunto: attività diligente oppure conseguimento di un risultato. Non determina da sola l’esonero da responsabilità del professionista.
+@concetto solidarieta|Solidarietà|istituto||98-99|Vincolo in cui ciascun debitore deve l’intero o ciascun creditore può esigere l’intero.
+Disciplina dei rapporti plurisoggettivi nella quale ciascun debitore è tenuto all’intera prestazione, o ciascun creditore può pretenderla, con effetto liberatorio per tutti (art. 1292 c.c.). La solidarietà passiva si presume salvo legge o titolo contrari.
+@concetto obbligazione-parziaria|Obbligazione parziaria|istituto||98-99|Rapporto in cui ciascun debitore deve, o ciascun creditore esige, soltanto la propria quota.
+Obbligazione plurisoggettiva divisibile che si ripartisce in quote: il creditore non può pretendere da un condebitore più della sua parte. È la regola ordinaria per i debiti ereditari.
+@concetto regresso|Regresso|istituto||98-99|Azione di chi ha pagato l’intero debito solidale per recuperare le quote degli altri.
+Diritto del condebitore solidale che ha pagato l’intero di recuperare da ciascun altro la rispettiva quota. L’insolvenza di uno si ripartisce fra gli altri, compreso chi ha pagato (art. 1299 c.c.).
+@concetto obbligazione-indivisibile|Obbligazione indivisibile|istituto||98-99|Obbligazione la cui prestazione non può essere frazionata per natura o volontà delle parti.
+Obbligazione avente a oggetto una prestazione non frazionabile per natura o per il modo in cui le parti l’hanno considerata (art. 1316 c.c.). Si applicano le regole della solidarietà in quanto compatibili.
+@concetto obbligazione-alternativa|Obbligazione alternativa|istituto||98-99|Obbligazione con più prestazioni dedotte, di cui una soltanto deve essere eseguita.
+Obbligazione in cui sono dedotte due o più prestazioni, ma il debitore si libera eseguendone una. La scelta, di regola del debitore, concentra il rapporto sulla prestazione scelta (artt. 1285–1286 c.c.).
+@concetto obbligazione-facoltativa|Obbligazione facoltativa|istituto||98-99|Obbligazione con una sola prestazione dovuta, sostituibile con un’altra.
+Obbligazione nella quale è dovuta una sola prestazione, ma il debitore può liberarsi con una diversa. L’impossibilità non imputabile della prestazione principale estingue il rapporto anche se la sostitutiva resta possibile.
+@concetto principio-nominalistico|Principio nominalistico|istituto||100-101|Regola che impone di estinguere i debiti di valuta secondo il loro valore nominale.
+Principio dell’art. 1277 c.c. secondo cui il debito di valuta si estingue pagando il valore nominale con moneta avente corso legale, indipendentemente dalle variazioni del potere d’acquisto.
+@concetto debito-di-valore|Debito di valore|istituto||100-101|Debito che reintegra un’utilità diversa dal denaro, da stimare nel suo valore attuale.
+Obbligazione diretta a reintegrare un’utilità diversa dal denaro, come il valore di un bene danneggiato. La somma è il mezzo di liquidazione del pregiudizio; dopo la liquidazione il debito diventa di valuta.
+@concetto interessi|Interessi|istituto||100-101|Prestazione pecuniaria accessoria calcolata in relazione al capitale e al tempo.
+Obbligazione pecuniaria accessoria che remunera o compensa la disponibilità del denaro o risarcisce il ritardo. Gli interessi si distinguono per fonte in legali e convenzionali e per funzione in corrispettivi, compensativi e moratori.
+@concetto interessi-moratori|Interessi moratori|istituto||100-101|Interessi che risarciscono il ritardo nell’adempimento di un debito pecuniario.
+Prestazione risarcitoria accessoria dovuta dal giorno della mora senza prova del danno (art. 1224 c.c.). Se prima erano dovuti interessi superiori al tasso legale, sono dovuti nella stessa misura.
+@concetto anatocismo|Anatocismo|istituto||100-101|Produzione di ulteriori interessi sugli interessi già scaduti.
+Fenomeno della produzione di interessi sugli interessi scaduti. La regola generale dell’art. 1283 c.c. richiede domanda giudiziale o accordo successivo alla scadenza e almeno sei mesi di interessi, salvi usi contrari e discipline speciali.
+@concetto usura|Usura|istituto||100-101|Pattuizione di interessi oltre la soglia legale o usurari in concreto alle condizioni di legge.
+Fenomeno vietato consistente nella pattuizione di interessi oltre la soglia di legge o usurari in concreto secondo l’art. 644 c.p. La soglia è differenziata per categoria e trimestre; nel mutuo la clausola usuraria è nulla e non sono dovuti interessi.
+@relazione obbligazione-naturale|obbligazione|contrasta|non è coercibile come
+@relazione regresso|solidarieta|collegato|ripartisce il peso della
+@relazione anatocismo|interessi|collegato|capitalizza gli
+@mappa
+Il rapporto obbligatorio
+  Rapporto e prestazione
+    Obbligazione [obbligazione]
+    Fonti delle obbligazioni [fonti-delle-obbligazioni]
+    Obbligazione naturale [obbligazione-naturale]
+    Prestazione [prestazione]
+    Obbligazioni di mezzi e di risultato [obbligazioni-di-mezzi-e-di-risultato]
+  Soggetti e oggetto
+    Solidarietà [solidarieta]
+    Obbligazione parziaria [obbligazione-parziaria]
+    Regresso [regresso]
+    Obbligazione indivisibile [obbligazione-indivisibile]
+    Obbligazione alternativa [obbligazione-alternativa]
+    Obbligazione facoltativa [obbligazione-facoltativa]
+  Denaro e interessi
+    Principio nominalistico [principio-nominalistico]
+    Debito di valore [debito-di-valore]
+    Interessi [interessi]
+    Interessi moratori [interessi-moratori]
+    Anatocismo [anatocismo]
+    Usura [usura]
+@domande
+F|u12-l1|base|obbligazione|Che cosa indica «Obbligazione»?|Rapporto giuridico che vincola il debitore a una prestazione patrimoniale nell’interesse, anche non patrimoniale, del creditore. Il vincolo civile è tutelabile in giudizio.
+F|u12-l1|base|fonti-delle-obbligazioni|Che cosa indica «Fonti delle obbligazioni»?|Fattispecie dalle quali nasce un rapporto obbligatorio secondo l’art. 1173 c.c.: contratto, fatto illecito e altri atti o fatti idonei riconosciuti dall’ordinamento.
+F|u12-l1|base|obbligazione-naturale|Che cosa indica «Obbligazione naturale»?|Dovere morale o sociale che non attribuisce azione per ottenere l’adempimento. La prestazione spontanea del capace, proporzionata al dovere e ai mezzi, non può essere ripetuta (art. 2034 c.c.).
+F|u12-l1|base|prestazione|Che cosa indica «Prestazione»?|Comportamento di dare, fare o non fare dovuto dal debitore. Deve essere economicamente valutabile e corrispondere a un interesse anche non patrimoniale del creditore (art. 1174 c.c.).
+F|u12-l2|base|solidarieta|Che cosa indica «Solidarietà»?|Disciplina dei rapporti plurisoggettivi nella quale ciascun debitore è tenuto all’intera prestazione, o ciascun creditore può pretenderla, con effetto liberatorio per tutti (art. 1292 c.c.). La solidarietà passiva si presume salvo legge o titolo contrari.
+F|u12-l2|base|obbligazione-parziaria|Che cosa indica «Obbligazione parziaria»?|Obbligazione plurisoggettiva divisibile che si ripartisce in quote: il creditore non può pretendere da un condebitore più della sua parte. È la regola ordinaria per i debiti ereditari.
+F|u12-l2|base|regresso|Che cosa indica «Regresso»?|Diritto del condebitore solidale che ha pagato l’intero di recuperare da ciascun altro la rispettiva quota. L’insolvenza di uno si ripartisce fra gli altri, compreso chi ha pagato (art. 1299 c.c.).
+F|u12-l2|base|obbligazione-indivisibile|Che cosa indica «Obbligazione indivisibile»?|Obbligazione avente a oggetto una prestazione non frazionabile per natura o per il modo in cui le parti l’hanno considerata (art. 1316 c.c.). Si applicano le regole della solidarietà in quanto compatibili.
+F|u12-l3|base|principio-nominalistico|Che cosa indica «Principio nominalistico»?|Principio dell’art. 1277 c.c. secondo cui il debito di valuta si estingue pagando il valore nominale con moneta avente corso legale, indipendentemente dalle variazioni del potere d’acquisto.
+F|u12-l3|base|debito-di-valore|Che cosa indica «Debito di valore»?|Obbligazione diretta a reintegrare un’utilità diversa dal denaro, come il valore di un bene danneggiato. La somma è il mezzo di liquidazione del pregiudizio; dopo la liquidazione il debito diventa di valuta.
+F|u12-l3|base|interessi|Che cosa indica «Interessi»?|Obbligazione pecuniaria accessoria che remunera o compensa la disponibilità del denaro o risarcisce il ritardo. Gli interessi si distinguono per fonte in legali e convenzionali e per funzione in corrispettivi, compensativi e moratori.
+F|u12-l3|base|interessi-moratori|Che cosa indica «Interessi moratori»?|Prestazione risarcitoria accessoria dovuta dal giorno della mora senza prova del danno (art. 1224 c.c.). Se prima erano dovuti interessi superiori al tasso legale, sono dovuti nella stessa misura.
+M|u12-l1|medio|prestazione|Carlo paga un musicista per una festa privata: manca l'interesse patrimoniale. L'obbligazione è esclusa?|No: l'interesse può essere non patrimoniale|Sì: l'interesse deve sempre essere economico|Sì: la musica è sempre gratuita|No: la prestazione può essere illecita|0|L'art. 1174 c.c. richiede patrimonialità della prestazione, non dell'interesse.
+M|u12-l1|medio|obbligazione-naturale|Un adulto capace paga spontaneamente un dovere morale proporzionato. Può ripetere quanto pagato?|Sì, perché mancava una sentenza|No, opera la ritenzione del pagamento|Sì, perché tutti i doveri morali sono nulli|No, perché il destinatario poteva esigere il pagamento|1|Non c'è azione per l'adempimento, ma la prestazione eseguita è irripetibile.
+V|u12-l1|base|fonti-delle-obbligazioni|Solo il contratto può generare obbligazioni.|F|L'art. 1173 c.c. comprende anche illecito e altri atti o fatti idonei.
+V|u12-l1|base|prestazione|La correttezza deve essere osservata anche dal creditore.|V|L'art. 1175 c.c. riguarda entrambi i soggetti del rapporto.
+C|u12-l1|base|prestazione|La prestazione deve essere suscettibile di valutazione {{economica}}.|L'interesse del creditore può invece essere non patrimoniale.
+A|u12-l1|avanzato|obbligazione,obbligazione-naturale,prestazione|Confronta obbligazione civile e naturale e spiega i requisiti della prestazione.|Definisci il rapporto civile; indica fonti e tutela; passa al dovere naturale e ai requisiti del pagamento irripetibile.|Rapporto e tutela=debitore,creditore,giudizio;Dovere naturale=morale,sociale,spontaneo,capace;Prestazione=patrimoniale,interesse
+M|u12-l2|medio|solidarieta,regresso|Tizio e Caio devono in solido 1.000 euro, con quote uguali. Tizio paga tutto. Quanto può chiedere a Caio?|1.000 euro|Nulla|500 euro|2.000 euro|2|Il regresso riguarda la quota interna dell'altro debitore, non di nuovo l'intero.
+M|u12-l2|medio|obbligazione-facoltativa,obbligazione-alternativa|È dovuto un quadro, sostituibile a scelta del debitore con denaro. Il quadro perisce senza colpa. Che cosa accade?|Resta necessariamente dovuto il denaro|Il rapporto si estingue|Il creditore sceglie un'altra opera|Il debitore deve il doppio|1|Nella facoltativa una sola prestazione è dovuta: la sua impossibilità non imputabile libera.
+V|u12-l2|base|solidarieta|La solidarietà attiva si presume come quella passiva.|F|La solidarietà attiva richiede legge o titolo.
+V|u12-l2|medio|solidarieta|La mora di un condebitore solidale costituisce automaticamente in mora tutti gli altri.|F|La mora non si estende; l'interruzione della prescrizione segue una regola diversa.
+C|u12-l2|base|regresso|Chi paga l'intero debito solidale può esercitare il {{regresso}} per le quote degli altri.|Il rapporto esterno va distinto dalla ripartizione interna.
+A|u12-l2|avanzato|solidarieta,regresso,obbligazione-indivisibile|Spiega solidarietà, rapporti interni e indivisibilità.|Parti dall'intero dovuto all'esterno, passa alle quote interne e distingui il vincolo dall'oggetto.|Rapporti esterni=intero,liberazione;Rapporti interni=quote,regresso,insolvenza;Indivisibilità=prestazione,natura,volontà
+M|u12-l3|medio|principio-nominalistico|Un prestito di 1.000 euro non indicizzato perde potere d'acquisto. Qual è il capitale da restituire?|Il valore corrente di un paniere|1.000 euro|Sempre 1.600 euro|Nulla|1|Il debito di valuta segue il valore nominale; gli interessi sono una voce distinta.
+M|u12-l3|medio|interessi|Le parti pattuiscono oralmente interessi superiori al tasso legale. Quale misura opera?|Quella orale senza limiti|Zero in ogni caso|Il tasso legale|La soglia d'usura|2|L'art. 1284 c.c. richiede forma scritta per la misura superiore.
+V|u12-l3|base|anatocismo|L'anatocismo coincide con qualsiasi applicazione di interessi sul capitale.|F|Riguarda gli interessi che producono altri interessi, non il capitale originario.
+V|u12-l3|base|interessi-moratori|Gli interessi moratori possono spettare anche senza prova di un danno.|V|L'art. 1224 c.c. li riconosce dal giorno della mora.
+C|u12-l3|base|principio-nominalistico|Il debito di valuta segue il principio {{nominalistico}}.|Conta il valore nominale della somma.
+A|u12-l3|avanzato|principio-nominalistico,debito-di-valore,interessi,anatocismo|Confronta valuta e valore e distingui le funzioni degli interessi.|Usa l'esempio del prestito e del bene distrutto; spiega fonte e funzione e concludi sull'anatocismo.|Valuta=nominale,denaro;Valore=utilità,liquidazione;Interessi=corrispettivi,moratori,compensativi;Anatocismo=interessi,scaduti
+O|u12-l2|medio|solidarieta,regresso|Ordina un normale pagamento con regresso, con quote interne già accertate.|Il creditore chiede l'intero a un condebitore;Il condebitore paga integralmente;Gli altri sono liberati verso il creditore;Chi ha pagato chiede agli altri le rispettive quote|Il pagamento estingue il rapporto esterno e lascia spazio al regresso interno.
+B|u12-l3|medio|principio-nominalistico,anatocismo,interessi-moratori|Associa ogni istituto al riferimento.|Nominalismo=art. 1277 c.c.;Anatocismo=art. 1283 c.c.;Interessi moratori=art. 1224 c.c.;Saggio degli interessi=art. 1284 c.c.

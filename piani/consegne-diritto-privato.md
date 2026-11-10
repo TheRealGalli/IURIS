@@ -1,14 +1,16 @@
-# Consegne: completare Diritto privato (unità 12–27)
+# Consegne: Diritto privato completato
 
 Scritto il 10 novembre 2026 per chi riprende il lavoro (ChatGPT/Codex). Leggi prima [`AGENTS.md`](../AGENTS.md)
 (ambiente, porte, git) e poi questo file: basta per ripartire senza rileggere la cronologia.
 
+## Aggiornamento finale del 10 novembre 2026
+
+Completati in locale i quattro giri u12–u15, u16–u20, u21–u24 e u25–u27. Il corso comprende ora **27 unità, 98 lezioni, 503 voci, 1.034 domande e pp. 1–238**. Le ultime tre unità trattano famiglia e filiazione, successioni, donazione e trascrizione; recepiscono le riforme della filiazione, del divorzio breve, della famiglia e della circolazione dei beni donati. Sorgenti e JSON sono presenti. La modifica preesistente di `Percorso.tsx` resta esplicitamente esclusa dal commit.
+
 ## Dove siamo
 
-- Fatte e pubblicate su `main` le unità **1–11 su 27** (pp. 1–95 di 238): 31 lezioni, 221 voci, 332 domande.
-  Ultimo commit: `71d6952`. Build e `check:build` verdi su quel commit.
-- Mancano **16 unità** (u12–u27, pp. 96–238). La tabella con capitoli e pagine è in
-  [`diritto-privato.md`](diritto-privato.md): segna «fatta» ogni unità finita.
+- Fatte in locale tutte le **27 unità su 27** (pp. 1–238): 98 lezioni, 503 voci e 1.034 domande.
+- La tabella con capitoli, pagine e aggiornamenti è in [`diritto-privato.md`](diritto-privato.md).
 - La sezione Codice civile è completa e non va toccata: collega da sola gli articoli citati come «art. N c.c.».
 - `studio/src/views/Percorso.tsx` ha una modifica non committata di un'altra sessione: **non includerla mai** nei
   commit (aggiungi i file per nome, non `git add -A`).
@@ -25,8 +27,7 @@ curl -s "https://api.github.com/repos/TheRealGalli/IURIS/actions/runs?per_page=3
 for r in json.load(sys.stdin)['workflow_runs']: print(r['run_number'], r['head_sha'][:7], r['status'], r['conclusion'])"
 ```
 
-Al 10 novembre 2026 sera i run 78 (`7ce2236`) e 79 (`71d6952`) erano ancora in coda: la prima cosa da fare è
-controllare che 79 sia finito con `success`.
+Verifica API del 10 novembre 2026 in questa sessione: run 78 (`7ce2236`) completato con `success`; run 79 (`71d6952`) completato con `cancelled`; run 80 (`13dc5af`) in corso. Nessun push eseguito da questa sessione. Prima di una successiva pubblicazione ricontrollare il run più recente.
 
 ## Giri consigliati
 
@@ -34,10 +35,10 @@ Un giro = scrivere le unità, poi una sola volta sync, controlli, commit e push.
 
 | Giro | Unità | Blocco | Pagine |
 |---|---|---|---|
-| 1 | u12–u15 | Obbligazioni e garanzie | 96–126 |
-| 2 | u16–u20 | Il contratto in generale | 127–171 |
-| 3 | u21–u24 | Singoli contratti, titoli di credito, fatto illecito | 172–210 |
-| 4 | u25–u27 | Famiglia, successioni, donazione e trascrizione | 211–238 |
+| 1 (completato in locale) | u12–u15 | Obbligazioni e garanzie | 96–126 |
+| 2 (completato in locale) | u16–u20 | Il contratto in generale | 127–171 |
+| 3 (completato in locale) | u21–u24 | Singoli contratti, titoli di credito, fatto illecito | 172–210 |
+| 4 (completato) | u25–u27 | Famiglia, successioni, donazione e trascrizione | 211–238 |
 
 ## Il ciclo per ogni unità
 
@@ -58,8 +59,8 @@ cd studio && node scripts/sync-content.mjs && node scripts/check-domande.mjs   #
 npm run build && npm run check:build                                            # alcuni minuti
 ```
 
-Poi: «fatta» nella tabella, numero di unità aggiornato in `README.md`, `INDICE.md`, `AGENTS.md` (oggi «11 unità
-su 27»), commit in italiano e push su `main`.
+Completamento registrato in tabella, `README.md`, `INDICE.md`, `AGENTS.md` e nel piano di potenziamento; restano da
+concludere i controlli finali, il commit in italiano e il push su `main`.
 
 ## Il formato del sorgente
 

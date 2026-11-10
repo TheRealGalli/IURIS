@@ -43,6 +43,9 @@ Costituzionale è scritto alle soglie minime del validatore: definizioni di 31 p
 
 ## Da fare
 
+- **Diritto privato** (completato il 10 novembre 2026): 27 unità, 98 lezioni, 503 voci e 1.034 domande sulle pp. 1–238,
+  con Codice civile consultabile. Restano facoltativi schede inverse, Quadro ed esercizi dedicati, e la verifica
+  puntuale degli articoli del Codice modificati dopo luglio 2022.
 - **Costituzionale**: definizioni brevi del glossario ancora da ampliare (media 31 parole); sentenze storiche della
   Corte come voci di glossario; domande reali degli appelli, se la classe le raccoglie.
 - **Filosofia SSG** (controllo e completamento del 10 novembre 2026): nessun errore di formato. Aggiunte le 31
@@ -56,7 +59,6 @@ Costituzionale è scritto alle soglie minime del validatore: definizioni di 31 p
 
 ## Dopo, quando arrivano le fonti
 
-- **Diritto privato** (A-L e SSG, Lobuono: Gabrielli + codice; M-Z, Pennasilico: Perlingieri oppure Gabrielli).
 - **LMG M-Z**: Filosofia (Mangini), Romano (Starace), Costituzionale (Rodio, Martines ed. 2025).
 - **Costituzionale SSG** (Bonomi, Martines): stesso manuale di M-Z, da controllare l'edizione.
 - **Secondo semestre**: Istituzioni di diritto romano (solo LMG), Storia del diritto italiano (Mastroberti, canale

@@ -1,0 +1,794 @@
+{
+  "id": "u14",
+  "ordine": 14,
+  "titolo": "Inadempimento, mora e responsabilità patrimoniale",
+  "capitolo": "Capitolo 21",
+  "pagine": [
+    113,
+    116
+  ],
+  "abstract": "Quando la prestazione non è eseguita, occorre distinguere responsabilità, danno e mora. Il creditore si soddisfa sul patrimonio secondo le regole del concorso e delle prelazioni.",
+  "note": "Aggiornato: i ritardi nelle transazioni commerciali hanno un tasso moratorio speciale e una disciplina diversa dal normale interesse legale.",
+  "noteRedazione": [
+    "Fonte: dispensa pp. 113–116, con riquadri illeggibili ricostruiti dagli artt. 1218–1229, 1382–1384 e 2740–2748 c.c. Corretto il passaggio che sembra consentire liquidazione equitativa senza prova del danno e precisata la prova liberatoria, senza generalizzare gli esempi di caso fortuito. Ritardi commerciali: d.lgs. 231/2002, modificato dal d.lgs. 192/2012, artt. 2–7, verifica su testo MEF https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Selezione_normativa/D-Lgs-/Dlgs-2002-10-09-n231.pdf e portale documentazione tributaria, 10 novembre 2026. Non sono fissati tassi di riferimento semestrali destinati a scadere."
+  ],
+  "lezioni": [
+    {
+      "id": "u14-l1",
+      "titolo": "Inadempimento, responsabilità e danno",
+      "pagine": [
+        113,
+        114
+      ],
+      "minuti": 25,
+      "sintesi": "### Prestazione mancata e responsabilità\nL'[[inadempimento]] è la mancata, inesatta o tardiva esecuzione della prestazione. È **totale** se manca tutta la prestazione, **parziale** se manca una parte o l'esecuzione è difettosa; è **definitivo** se non è più possibile o utile adempiere, **temporaneo** se l'interesse del creditore può ancora essere soddisfatto. Il fotografo assente alle nozze non può recuperare la prestazione il giorno dopo; un pagamento tardivo, invece, può restare utile.\n\nLa [[responsabilita-da-inadempimento]], detta contrattuale, riguarda la violazione di un'**obbligazione preesistente**, anche nata da fonti diverse dal contratto. L'art. 1218 c.c. impone il risarcimento salvo prova che inadempimento o ritardo dipendano da impossibilità della prestazione derivante da causa non imputabile. La sola affermazione di avere fatto il possibile non basta: si individua la prestazione dovuta, il criterio di responsabilità e la causa impeditiva.\n\nLa diligenza dell'art. 1176 c.c. si valuta secondo l'attività; il professionista deve quella professionale. Non tutti i rapporti hanno però identico regime: alcune discipline imputano al debitore rischi ulteriori. Il debitore risponde, salvo diversa volontà, anche del dolo e della colpa degli ausiliari (art. 1228 c.c.). Sono nulli gli esoneri preventivi per dolo o colpa grave e quelli contrari alle norme di ordine pubblico (art. 1229 c.c.).\n\n### Prova e causalità\nIn via generale il creditore prova il titolo e l'esigibilità del credito e allega l'inadempimento; il debitore prova l'esatto adempimento o la causa liberatoria. Nell'obbligazione negativa il creditore deve provare la condotta vietata. Il creditore deve comunque provare **danno e nesso causale**: non si presumono automaticamente perché il debito è rimasto inadempiuto.\n\nIl [[danno-da-inadempimento]] comprende **danno emergente** e **lucro cessante**, conseguenze immediate e dirette dell'inadempimento (art. 1223 c.c.). Se il fornitore non consegna, la maggiore spesa per comprare altrove può essere perdita; l'utile di una rivendita sfumata può essere mancato guadagno, se provato. Per il danno non patrimoniale occorrono i presupposti riconosciuti dall'ordinamento: il semplice fastidio non basta.\n\n| Limite | Regola |\n|---|---|\n| Prevedibilità | senza dolo, danni prevedibili quando sorse l'obbligazione (art. 1225 c.c.) |\n| Prova dell'ammontare | equità se l'importo non è provabile con precisione, non per supplire alla mancata prova dell'esistenza (art. 1226 c.c.) |\n| Concorso del creditore | riduzione secondo colpa e conseguenze (art. 1227 c.c.) |\n| Danni evitabili | esclusi quelli evitabili con ordinaria diligenza |\n\nLa [[clausola-penale]] predetermina la prestazione dovuta per inadempimento o ritardo, dispensando dalla prova del danno; limita il risarcimento alla misura pattuita salvo accordo sul maggior danno. Il giudice può ridurla per adempimento parziale o manifesta eccessività (artt. 1382 e 1384 c.c.). Non si cumula con la prestazione principale, salvo che riguardi il semplice ritardo.",
+      "puntiChiave": [
+        "L’inadempimento può essere totale o parziale, definitivo o temporaneo.",
+        "La responsabilità contrattuale presuppone un’obbligazione preesistente, non necessariamente un contratto.",
+        "Il debitore deve provare esatto adempimento o causa liberatoria.",
+        "Il danno richiede prova e causalità; l’equità non ne presume l’esistenza.",
+        "La penale dispensa dalla prova del danno ma può essere ridotta."
+      ],
+      "memoria": [
+        {
+          "voce": "art. 1218 c.c.",
+          "dettaglio": "responsabilità"
+        },
+        {
+          "voce": "art. 1223 c.c.",
+          "dettaglio": "danno emergente e lucro cessante"
+        },
+        {
+          "voce": "art. 1227 c.c.",
+          "dettaglio": "concorso del creditore"
+        }
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ]
+    },
+    {
+      "id": "u14-l2",
+      "titolo": "Mora del debitore e garanzia patrimoniale",
+      "pagine": [
+        115,
+        116
+      ],
+      "minuti": 25,
+      "sintesi": "### Quando il ritardo diventa mora\nLa [[mora-del-debitore]] è un ritardo qualificato nei presupposti di legge. Di regola richiede **intimazione o richiesta scritta** di adempiere (mora *ex persona*, art. 1219 c.c.). Non occorrono formule solenni: deve risultare chiara la richiesta della prestazione dovuta. La richiesta idonea può anche interrompere la prescrizione.\n\nLa mora è automatica, *ex re*, quando il debito deriva da **fatto illecito**, quando il debitore dichiara **per iscritto di non volere adempiere**, oppure quando scade il termine di una prestazione da eseguire **al domicilio del creditore**, con la regola specifica per gli eredi. Per le obbligazioni negative non si parla di ritardo: ogni violazione è già inadempimento (art. 1222 c.c.). Un'offerta tempestiva e seria, anche non formale, esclude la mora del debitore salvo rifiuto legittimo del creditore (art. 1220 c.c.).\n\n| Effetto | Contenuto |\n|---|---|\n| Interessi moratori | nelle obbligazioni pecuniarie, senza prova del danno (art. 1224 c.c.) |\n| Rischio | l'impossibilità non imputabile non libera il debitore in mora, salvo prova che la cosa sarebbe ugualmente perita presso il creditore (art. 1221 c.c.) |\n\nIl semplice ritardo può comunque avere conseguenze, anche prima della costituzione in mora: non va trattato come giuridicamente irrilevante. La mora del **creditore**, invece, nasce dal suo rifiuto ingiustificato di cooperare e produce effetti diversi, già studiati nell'unità precedente.\n\n### Le transazioni commerciali\nLa disciplina dei [[ritardi-nelle-transazioni-commerciali]] riguarda pagamenti per merci o servizi fra imprese, professionisti e, nei casi previsti, pubbliche amministrazioni (d.lgs. 231/2002). Non riguarda il normale acquisto di un consumatore. Gli interessi decorrono automaticamente dal giorno successivo alla scadenza; in difetto di diversa valida previsione, il termine è normalmente di **30 giorni**, con decorrenze e deroghe definite dalla legge. Per la pubblica amministrazione sono previsti limiti più stringenti e casi di termine di 60 giorni.\n\nIl tasso legale moratorio commerciale è il tasso di riferimento maggiorato di **otto punti percentuali**, non il tasso legale ordinario del Codice. Si aggiunge il rimborso forfettario di 40 euro per il recupero, salvo maggiori costi provati. Le clausole gravemente inique per il creditore sono nulle secondo l'art. 7. Perciò una fattura non pagata non si studia applicando automaticamente soltanto il Codice civile.\n\n### Su quali beni si soddisfa il creditore\nLa [[responsabilita-patrimoniale]] rende il debitore responsabile con tutti i beni **presenti e futuri** (art. 2740 c.c.), salvo limitazioni di legge. Il patrimonio è una garanzia generica: non attribuisce proprietà né indiscriminato diritto di appropriarsi dei beni.\n\nLa [[par-condicio-creditorum]] riconosce pari diritto sul ricavato, salve cause legittime di prelazione: **privilegio, pegno e ipoteca** (art. 2741 c.c.). Il [[privilegio]] dipende dalla causa del credito ed è stabilito dalla legge; è generale sui mobili o speciale su beni determinati. Il creditore senza prelazione è chirografario. L'ordine delle preferenze dipende dalle norme, non semplicemente dall'anzianità del credito.",
+      "puntiChiave": [
+        "La mora richiede di regola richiesta scritta, salve le ipotesi automatiche.",
+        "La mora aggrava il rischio e genera interessi pecuniari.",
+        "I ritardi commerciali hanno termini e tasso speciali.",
+        "La garanzia generica riguarda beni presenti e futuri.",
+        "La parità dei creditori cede alle cause legittime di prelazione."
+      ],
+      "memoria": [
+        {
+          "voce": "art. 1219 c.c.",
+          "dettaglio": "costituzione in mora"
+        },
+        {
+          "voce": "art. 1221 c.c.",
+          "dettaglio": "rischio"
+        },
+        {
+          "voce": "art. 2740 c.c.",
+          "dettaglio": "responsabilità patrimoniale"
+        },
+        {
+          "voce": "art. 2741 c.c.",
+          "dettaglio": "concorso"
+        }
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ]
+    }
+  ],
+  "concetti": [
+    {
+      "id": "inadempimento",
+      "nome": "Inadempimento",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Mancata, inesatta o tardiva esecuzione della prestazione dovuta.",
+      "definizione": "Mancata, inesatta o tardiva esecuzione della prestazione dovuta. Può essere totale o parziale e definitivo o temporaneo, secondo l’estensione e la persistente utilità della prestazione.",
+      "pagine": [
+        113,
+        114
+      ]
+    },
+    {
+      "id": "responsabilita-da-inadempimento",
+      "nome": "Responsabilità da inadempimento",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Responsabilità per violazione di un’obbligazione preesistente, qualunque ne sia la fonte.",
+      "definizione": "Responsabilità per violazione di un’obbligazione preesistente, qualunque ne sia la fonte. Il debitore risarcisce il danno salvo prova della causa liberatoria richiesta dall’art. 1218 c.c.",
+      "pagine": [
+        113,
+        114
+      ]
+    },
+    {
+      "id": "danno-da-inadempimento",
+      "nome": "Danno da inadempimento",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Pregiudizio causalmente derivato dalla violazione dell’obbligazione, comprendente perdita subita e mancato guadagno secondo l’art.",
+      "definizione": "Pregiudizio causalmente derivato dalla violazione dell’obbligazione, comprendente perdita subita e mancato guadagno secondo l’art. 1223 c.c. Si applicano i limiti di prevedibilità, causalità e concorso del creditore.",
+      "pagine": [
+        113,
+        114
+      ]
+    },
+    {
+      "id": "clausola-penale",
+      "nome": "Clausola penale",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Patto che predetermina una prestazione dovuta per inadempimento o ritardo, senza necessità di provare il danno.",
+      "definizione": "Patto che predetermina una prestazione dovuta per inadempimento o ritardo, senza necessità di provare il danno. Limita il risarcimento salvo patto sul maggior danno e può essere ridotto nei casi di legge.",
+      "pagine": [
+        113,
+        114
+      ]
+    },
+    {
+      "id": "mora-del-debitore",
+      "nome": "Mora del debitore",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Ritardo qualificato nell’adempimento, di regola conseguente a richiesta scritta, salvo casi automatici.",
+      "definizione": "Ritardo qualificato nell’adempimento, di regola conseguente a richiesta scritta, salvo casi automatici. Produce interessi nelle obbligazioni pecuniarie e aggrava il rischio dell’impossibilità sopravvenuta.",
+      "pagine": [
+        115,
+        116
+      ]
+    },
+    {
+      "id": "ritardi-nelle-transazioni-commerciali",
+      "nome": "Ritardi nelle transazioni commerciali",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Disciplina speciale dei ritardi di pagamento nei corrispettivi commerciali prevista dal d.lgs.",
+      "definizione": "Disciplina speciale dei ritardi di pagamento nei corrispettivi commerciali prevista dal d.lgs. 231/2002. Prevede decorrenza automatica degli interessi, tasso speciale, rimborso dei costi e contrasto alle clausole gravemente inique.",
+      "pagine": [
+        115,
+        116
+      ]
+    },
+    {
+      "id": "responsabilita-patrimoniale",
+      "nome": "Responsabilità patrimoniale",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Soggezione dei beni presenti e futuri del debitore alla soddisfazione coattiva dei crediti secondo l’art.",
+      "definizione": "Soggezione dei beni presenti e futuri del debitore alla soddisfazione coattiva dei crediti secondo l’art. 2740 c.c. Le limitazioni sono ammesse soltanto nei casi stabiliti dalla legge.",
+      "pagine": [
+        115,
+        116
+      ]
+    },
+    {
+      "id": "par-condicio-creditorum",
+      "nome": "Par condicio creditorum",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Principio di pari diritto dei creditori a soddisfarsi sui beni del debitore, salve le cause legittime di prelazione: privilegio, pegno e ipoteca (art.",
+      "definizione": "Principio di pari diritto dei creditori a soddisfarsi sui beni del debitore, salve le cause legittime di prelazione: privilegio, pegno e ipoteca (art. 2741 c.c.).",
+      "pagine": [
+        115,
+        116
+      ]
+    },
+    {
+      "id": "privilegio",
+      "nome": "Privilegio",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Causa legittima di prelazione stabilita dalla legge in ragione della causa del credito.",
+      "definizione": "Causa legittima di prelazione stabilita dalla legge in ragione della causa del credito. Può essere generale sui beni mobili o speciale su determinati beni mobili o immobili.",
+      "pagine": [
+        115,
+        116
+      ]
+    }
+  ],
+  "relazioni": [
+    {
+      "da": "inadempimento",
+      "a": "responsabilita-da-inadempimento",
+      "tipo": "causa",
+      "etichetta": "può generare"
+    },
+    {
+      "da": "danno-da-inadempimento",
+      "a": "responsabilita-da-inadempimento",
+      "tipo": "collegato",
+      "etichetta": "è conseguenza della"
+    },
+    {
+      "da": "clausola-penale",
+      "a": "danno-da-inadempimento",
+      "tipo": "collegato",
+      "etichetta": "predetermina il"
+    },
+    {
+      "da": "mora-del-debitore",
+      "a": "inadempimento",
+      "tipo": "esempio-di",
+      "etichetta": "qualifica il ritardo nell’"
+    },
+    {
+      "da": "privilegio",
+      "a": "par-condicio-creditorum",
+      "tipo": "collegato",
+      "etichetta": "è deroga legale alla"
+    },
+    {
+      "da": "responsabilita-patrimoniale",
+      "a": "par-condicio-creditorum",
+      "tipo": "collegato",
+      "etichetta": "si attua secondo la"
+    }
+  ],
+  "eventi": [],
+  "domande": [
+    {
+      "id": "u14-q001",
+      "lezione": "u14-l1",
+      "livello": "base",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Inadempimento»?",
+      "risposta": "Mancata, inesatta o tardiva esecuzione della prestazione dovuta. Può essere totale o parziale e definitivo o temporaneo, secondo l’estensione e la persistente utilità della prestazione."
+    },
+    {
+      "id": "u14-q002",
+      "lezione": "u14-l1",
+      "livello": "base",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "responsabilita-da-inadempimento"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Responsabilità da inadempimento»?",
+      "risposta": "Responsabilità per violazione di un’obbligazione preesistente, qualunque ne sia la fonte. Il debitore risarcisce il danno salvo prova della causa liberatoria richiesta dall’art. 1218 c.c."
+    },
+    {
+      "id": "u14-q003",
+      "lezione": "u14-l1",
+      "livello": "base",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "danno-da-inadempimento"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Danno da inadempimento»?",
+      "risposta": "Pregiudizio causalmente derivato dalla violazione dell’obbligazione, comprendente perdita subita e mancato guadagno secondo l’art. 1223 c.c. Si applicano i limiti di prevedibilità, causalità e concorso del creditore."
+    },
+    {
+      "id": "u14-q004",
+      "lezione": "u14-l1",
+      "livello": "base",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "clausola-penale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Clausola penale»?",
+      "risposta": "Patto che predetermina una prestazione dovuta per inadempimento o ritardo, senza necessità di provare il danno. Limita il risarcimento salvo patto sul maggior danno e può essere ridotto nei casi di legge."
+    },
+    {
+      "id": "u14-q005",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il fornitore non consegna e il cliente chiede il lucro cessante senza provarlo. L’inadempimento basta?",
+      "opzioni": [
+        "Sì, il guadagno è automatico",
+        "No, occorre provare il danno e il nesso causale",
+        "Sì, se il cliente è imprenditore",
+        "No, il lucro cessante non è mai risarcibile"
+      ],
+      "corretta": 1,
+      "spiegazione": "La prova del credito non sostituisce la prova delle conseguenze dannose."
+    },
+    {
+      "id": "u14-q006",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "multipla",
+      "domanda": "Una clausola esclude preventivamente la responsabilità per dolo. È efficace?",
+      "opzioni": [
+        "Sì, sempre",
+        "Sì, solo fra professionisti",
+        "No, è nulla",
+        "Solo dopo la mora"
+      ],
+      "corretta": 2,
+      "spiegazione": "L’art. 1229 c.c. vieta l’esonero preventivo per dolo o colpa grave."
+    },
+    {
+      "id": "u14-q007",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La responsabilità detta contrattuale può riguardare obblighi nati dalla legge.",
+      "vero": true,
+      "spiegazione": "Conta la preesistenza dell’obbligazione."
+    },
+    {
+      "id": "u14-q008",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "La liquidazione equitativa elimina l’onere di provare l’esistenza del danno.",
+      "vero": false,
+      "spiegazione": "Riguarda la quantificazione quando non è provabile con precisione."
+    },
+    {
+      "id": "u14-q009",
+      "lezione": "u14-l1",
+      "livello": "base",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "completa",
+      "testo": "Il mancato guadagno è detto lucro {{cessante}}.",
+      "spiegazione": "L’inadempimento può essere totale o parziale, definitivo o temporaneo."
+    },
+    {
+      "id": "u14-q010",
+      "lezione": "u14-l1",
+      "livello": "avanzato",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento",
+        "responsabilita-da-inadempimento",
+        "danno-da-inadempimento",
+        "clausola-penale"
+      ],
+      "tipo": "aperta",
+      "domanda": "Illustra presupposti, prova e limiti del risarcimento da inadempimento.",
+      "traccia": "Distingui titolo, inadempimento, liberazione, danno e limiti; concludi sulla penale.",
+      "punti": [
+        {
+          "testo": "Responsabilità",
+          "chiavi": [
+            "obbligazione",
+            "preesistente"
+          ]
+        },
+        {
+          "testo": "Prova",
+          "chiavi": [
+            "adempimento",
+            "impossibilità"
+          ]
+        },
+        {
+          "testo": "Danno",
+          "chiavi": [
+            "perdita",
+            "guadagno",
+            "causalità"
+          ]
+        },
+        {
+          "testo": "Limiti",
+          "chiavi": [
+            "prevedibilità",
+            "creditore"
+          ]
+        },
+        {
+          "testo": "Penale",
+          "chiavi": [
+            "prova",
+            "riduzione"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-q011",
+      "lezione": "u14-l2",
+      "livello": "base",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Mora del debitore»?",
+      "risposta": "Ritardo qualificato nell’adempimento, di regola conseguente a richiesta scritta, salvo casi automatici. Produce interessi nelle obbligazioni pecuniarie e aggrava il rischio dell’impossibilità sopravvenuta."
+    },
+    {
+      "id": "u14-q012",
+      "lezione": "u14-l2",
+      "livello": "base",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "ritardi-nelle-transazioni-commerciali"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Ritardi nelle transazioni commerciali»?",
+      "risposta": "Disciplina speciale dei ritardi di pagamento nei corrispettivi commerciali prevista dal d.lgs. 231/2002. Prevede decorrenza automatica degli interessi, tasso speciale, rimborso dei costi e contrasto alle clausole gravemente inique."
+    },
+    {
+      "id": "u14-q013",
+      "lezione": "u14-l2",
+      "livello": "base",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "responsabilita-patrimoniale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Responsabilità patrimoniale»?",
+      "risposta": "Soggezione dei beni presenti e futuri del debitore alla soddisfazione coattiva dei crediti secondo l’art. 2740 c.c. Le limitazioni sono ammesse soltanto nei casi stabiliti dalla legge."
+    },
+    {
+      "id": "u14-q014",
+      "lezione": "u14-l2",
+      "livello": "base",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "par-condicio-creditorum"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa indica «Par condicio creditorum»?",
+      "risposta": "Principio di pari diritto dei creditori a soddisfarsi sui beni del debitore, salve le cause legittime di prelazione: privilegio, pegno e ipoteca (art. 2741 c.c.)."
+    },
+    {
+      "id": "u14-q015",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "multipla",
+      "domanda": "Il debitore dichiara per iscritto di non volere pagare. Serve ancora una richiesta scritta per costituirlo in mora?",
+      "opzioni": [
+        "Sì, sempre",
+        "No, è un’ipotesi di mora automatica",
+        "Solo dopo dieci anni",
+        "La mora è vietata"
+      ],
+      "corretta": 1,
+      "spiegazione": "L’art. 1219 c.c. esclude la necessità di intimazione in questa ipotesi."
+    },
+    {
+      "id": "u14-q016",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un’impresa ritarda il pagamento di una fornitura commerciale soggetta al d.lgs. 231/2002. Il tasso moratorio legale coincide con quello ordinario del Codice?",
+      "opzioni": [
+        "Sempre",
+        "No, opera un tasso speciale",
+        "Solo per il primo mese",
+        "Non sono dovuti interessi"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il tasso commerciale è il riferimento maggiorato di otto punti."
+    },
+    {
+      "id": "u14-q017",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il creditore chirografario ha per il solo credito un’ipoteca su tutti gli immobili del debitore.",
+      "vero": false,
+      "spiegazione": "La garanzia generica non equivale a un diritto reale su singoli beni."
+    },
+    {
+      "id": "u14-q018",
+      "lezione": "u14-l2",
+      "livello": "medio",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "I privilegi sono attribuiti dalla legge in ragione della causa del credito.",
+      "vero": true,
+      "spiegazione": "Non nascono dalla sola volontà delle parti."
+    },
+    {
+      "id": "u14-q019",
+      "lezione": "u14-l2",
+      "livello": "base",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "completa",
+      "testo": "Il creditore privo di cause di prelazione è detto {{chirografario}}.",
+      "spiegazione": "La mora richiede di regola richiesta scritta, salve le ipotesi automatiche."
+    },
+    {
+      "id": "u14-q020",
+      "lezione": "u14-l2",
+      "livello": "avanzato",
+      "pagine": [
+        115,
+        116
+      ],
+      "concetti": [
+        "mora-del-debitore",
+        "ritardi-nelle-transazioni-commerciali",
+        "responsabilita-patrimoniale",
+        "par-condicio-creditorum",
+        "privilegio"
+      ],
+      "tipo": "aperta",
+      "domanda": "Spiega mora e responsabilità patrimoniale usando una fattura commerciale non pagata.",
+      "traccia": "Verifica l’ambito della disciplina speciale, gli effetti del ritardo e il concorso sul patrimonio.",
+      "punti": [
+        {
+          "testo": "Mora",
+          "chiavi": [
+            "richiesta",
+            "automatica"
+          ]
+        },
+        {
+          "testo": "Commerciale",
+          "chiavi": [
+            "tasso",
+            "scadenza"
+          ]
+        },
+        {
+          "testo": "Garanzia",
+          "chiavi": [
+            "presenti",
+            "futuri"
+          ]
+        },
+        {
+          "testo": "Prelazioni",
+          "chiavi": [
+            "privilegio",
+            "pegno",
+            "ipoteca"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-q021",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento"
+      ],
+      "tipo": "ordina",
+      "consegna": "Ordina la verifica ordinaria di una domanda risarcitoria.",
+      "elementi": [
+        "Individuare titolo e prestazione dovuta",
+        "Accertare la mancata o inesatta esecuzione",
+        "Valutare la prova liberatoria del debitore",
+        "Determinare i danni risarcibili provati"
+      ],
+      "spiegazione": "La responsabilità non determina automaticamente l’importo del danno."
+    },
+    {
+      "id": "u14-q022",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        113,
+        114
+      ],
+      "concetti": [
+        "inadempimento"
+      ],
+      "tipo": "abbina",
+      "consegna": "Associa istituti e disciplina.",
+      "coppie": [
+        [
+          "Responsabilità",
+          "art. 1218 c.c."
+        ],
+        [
+          "Danno risarcibile",
+          "art. 1223 c.c."
+        ],
+        [
+          "Mora",
+          "art. 1219 c.c."
+        ],
+        [
+          "Garanzia patrimoniale",
+          "art. 2740 c.c."
+        ]
+      ]
+    }
+  ],
+  "mappa": {
+    "testo": "Inadempimento, mora e responsabilità patrimoniale",
+    "figli": [
+      {
+        "testo": "Inadempimento, responsabilità e danno",
+        "figli": [
+          {
+            "testo": "Inadempimento",
+            "concetto": "inadempimento"
+          },
+          {
+            "testo": "Responsabilità da inadempimento",
+            "concetto": "responsabilita-da-inadempimento"
+          },
+          {
+            "testo": "Danno da inadempimento",
+            "concetto": "danno-da-inadempimento"
+          },
+          {
+            "testo": "Clausola penale",
+            "concetto": "clausola-penale"
+          }
+        ]
+      },
+      {
+        "testo": "Mora del debitore e garanzia patrimoniale",
+        "figli": [
+          {
+            "testo": "Mora del debitore",
+            "concetto": "mora-del-debitore"
+          },
+          {
+            "testo": "Ritardi nelle transazioni commerciali",
+            "concetto": "ritardi-nelle-transazioni-commerciali"
+          },
+          {
+            "testo": "Responsabilità patrimoniale",
+            "concetto": "responsabilita-patrimoniale"
+          },
+          {
+            "testo": "Par condicio creditorum",
+            "concetto": "par-condicio-creditorum"
+          },
+          {
+            "testo": "Privilegio",
+            "concetto": "privilegio"
+          }
+        ]
+      }
+    ]
+  }
+}
