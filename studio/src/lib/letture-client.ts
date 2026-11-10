@@ -1,6 +1,6 @@
 import catalogo from './letture-catalogo.json';
 import { renderMd } from './md';
-import type { Concetto } from './types';
+import type { Concetto, Norme } from './types';
 import type { AncoraTesto, SegnoOriginale } from './originali';
 import type { DocumentoLettura, IndiceSezioneLettura, SezioneLettura, BloccoLettura, BloccoTesto } from './letture';
 
@@ -40,9 +40,54 @@ function htmlSicuro(html: string): HTMLDivElement {
 }
 
 export interface BloccoPronto extends BloccoTesto { html: string; markdown: string; notaRevisione?: string }
-export function preparaBlocchi(sezione: SezioneLettura, concetti: Map<string, Concetto>): BloccoPronto[] {
+const SUFFISSO = '(?:[- ]?(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies))?';
+const NUMERO = `\\d{1,4}${SUFFISSO}(?![\\d/])`;
+const CITAZIONE = new RegExp(`\\b(artt?\\.?\\s*)(${NUMERO}(?:(?:\\s*[–-]\\s*|\\s*,\\s*|\\s+e\\s+)${NUMERO})*)`, 'gi');
+const ALTRO_ATTO = /\b(?:Cost\b|Costituzione|legge\s+(?:n\.\s*)?\d|l\.\s*(?:cost\.\s*|fall|n\.\s*)?\d?|d\.\s?lgs|d\.\s?l\.|d\.P\.R|r\.d\.|TUE|TFUE|TUEL|TUB|TUF|T\.U|CEDU|Convenzione|Trattat|Carta dei diritti|regolament|Statuto|preleggi|disp\.\s*(?:prel|att|trans)|c\.\s?p\.|cod\.\s*(?:pen|proc|nav|cons|strad)|codice\s+(?:penale|di procedura|della navigazione|del consumo|della strada))/i;
+const DI_UN_ALTRO = /^\s*(?:,?\s*(?:comma|co\.|n\.)\s*\d+\s*,?)?\s*(?:del(?:la|lo|l['’])?|dei|delle)\s+(?!c\.\s?c|cod\.\s*civ|codice civile)/i;
+const CIVILE = /^.{0,30}?(?:c\.\s?c\b|cod\.\s*civ|codice civile)/i;
+/**
+ * «art. 1321 c.c.», «artt. 1325 e 1418»: i numeri diventano collegamenti alla sezione dell'atto della materia
+ * (Codice civile o Costituzione). Il testo non cambia di un carattere: evidenziazioni e ancore restano dove sono.
+ */
+function collegaArticoli(root: HTMLElement, norme: Norme): void {
+  const civile = norme.sigla === 'c.c.';
+  const noti = new Set(norme.indice ? norme.indice.filter((r) => !r[5]).map((r) => r[0])
+    : (norme.gruppi ?? []).flatMap((g) => g.articoli).filter((a) => !a.disposizione && !a.serie).map((a) => a.n));
+  const serie = new Set((norme.indice ?? []).filter((r) => r[5]).map((r) => r[0]));
+  const walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT), nodi: Text[] = [];
+  for (let n = walk.nextNode(); n; n = walk.nextNode()) if (!(n.parentElement?.closest('a,h1,h2,h3,h4,h5,h6'))) nodi.push(n as Text);
+  for (const nodo of nodi) {
+    const raw = nodo.data; let fine = 0; const pezzi: (string | HTMLAnchorElement)[] = [];
+    for (const m of raw.matchAll(CITAZIONE)) {
+      const dopo = raw.slice(m.index! + m[0].length, m.index! + m[0].length + 48);
+      // l'atto è quello nominato per primo dopo il numero: «art. 15 disp. prel. c.c.» sono le preleggi, non il Codice
+      const sigla = civile ? CIVILE.exec(dopo) : null;
+      const prima = sigla ? dopo.slice(0, sigla[0].length - sigla[0].match(/(?:c\.\s?c\b|cod\.\s*civ|codice civile)$/i)![0].length) : dopo;
+      const preleggi = civile && /^.{0,12}?(?:disp\.\s*prel|(?:delle\s+)?preleggi)/i.test(dopo);
+      const altro = ALTRO_ATTO.test(civile ? prima : dopo.replace(/\bCost\b\.?|Costituzione/gi, ''));
+      if (!preleggi && (civile ? altro || (!sigla && DI_UN_ALTRO.test(dopo)) : altro || DI_UN_ALTRO.test(dopo.replace(/Costituzione/gi, 'c.c.')) || /^\s*(?:c\.\s?c|cod\.|codice)/i.test(dopo))) continue;
+      let pos = m.index! + m[1].length, primo = true;
+      for (const t of m[2].matchAll(new RegExp(NUMERO, 'gi'))) {
+        const n = t[0].toLowerCase().replace(/^(\d+)[- ]?([a-z]+)$/, '$1-$2');
+        const da = primo ? m.index! : pos + t.index!, a = pos + t.index! + t[0].length;
+        if (preleggi ? !serie.has(n) : !noti.has(n)) { primo = false; continue; }
+        const link = document.createElement('a');
+        link.className = 'ax'; link.href = `#/norme/${preleggi ? 'p' : ''}${n}`; link.title = preleggi ? `Apri l'art. ${n} delle preleggi` : `Apri l'art. ${n} ${norme.sigla ?? ''}`.trim();
+        link.textContent = raw.slice(da, a);
+        pezzi.push(raw.slice(fine, da), link); fine = a; primo = false;
+      }
+    }
+    if (!pezzi.length) continue;
+    pezzi.push(raw.slice(fine));
+    nodo.replaceWith(...pezzi.filter((x) => x !== ''));
+  }
+}
+
+export function preparaBlocchi(sezione: SezioneLettura, concetti: Map<string, Concetto>, norme?: Norme): BloccoPronto[] {
   return sezione.blocchi.map((b: BloccoLettura) => {
     const html = htmlSicuro(renderMd(b.markdown, concetti));
+    if (norme) collegaArticoli(html, norme);
     return { id: b.id, pagina: b.pagina, testo: html.textContent ?? '', html: html.innerHTML,
       markdown: b.markdown, concetti: b.concetti ?? [], notaRevisione: b.notaRevisione };
   });

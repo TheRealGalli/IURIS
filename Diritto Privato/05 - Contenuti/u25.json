@@ -636,7 +636,119 @@
     }
   ],
   "relazioni": [],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-legge-divorzio",
+      "anno": 1970,
+      "data": "1 dicembre 1970",
+      "titolo": "Legge sul divorzio",
+      "descrizione": "La legge 898/1970 introduce lo scioglimento del matrimonio e la cessazione dei suoi effetti civili.",
+      "tipo": "legge",
+      "pagine": [
+        211,
+        222
+      ],
+      "concetti": [
+        "divorzio"
+      ]
+    },
+    {
+      "id": "ev-referendum-divorzio",
+      "anno": 1974,
+      "data": "12 maggio 1974",
+      "titolo": "Referendum sul divorzio",
+      "descrizione": "Gli elettori respingono l'abrogazione della legge sul divorzio.",
+      "tipo": "politica",
+      "pagine": [
+        211,
+        222
+      ],
+      "concetti": [
+        "divorzio"
+      ]
+    },
+    {
+      "id": "ev-riforma-diritto-di-famiglia",
+      "anno": 1975,
+      "data": "19 maggio 1975",
+      "titolo": "Riforma del diritto di famiglia",
+      "descrizione": "La legge 151/1975 afferma l'uguaglianza dei coniugi, introduce la comunione legale come regime ordinario e l'impresa familiare.",
+      "tipo": "legge",
+      "pagine": [
+        211,
+        222
+      ],
+      "concetti": [
+        "famiglia",
+        "comunione-legale",
+        "impresa-familiare"
+      ]
+    },
+    {
+      "id": "ev-legge-adozione",
+      "anno": 1983,
+      "data": "4 maggio 1983",
+      "titolo": "Legge sull'adozione",
+      "descrizione": "La legge 184/1983 disciplina l'affidamento e l'adozione dei minori; dal 2001 si intitola al diritto del minore a una famiglia.",
+      "tipo": "legge",
+      "pagine": [
+        211,
+        222
+      ],
+      "concetti": [
+        "adozione-del-minore",
+        "affidamento-familiare"
+      ]
+    },
+    {
+      "id": "ev-riforma-filiazione",
+      "anno": 2012,
+      "data": "10 dicembre 2012",
+      "titolo": "Riforma della filiazione",
+      "descrizione": "La legge 219/2012 afferma lo stato unico di figlio; il d.lgs. 154/2013 la attua e sostituisce la potestà con la responsabilità genitoriale.",
+      "tipo": "legge",
+      "pagine": [
+        211,
+        222
+      ],
+      "concetti": [
+        "stato-di-figlio",
+        "responsabilita-genitoriale"
+      ]
+    },
+    {
+      "id": "ev-divorzio-breve",
+      "anno": 2015,
+      "data": "6 maggio 2015",
+      "titolo": "Divorzio breve",
+      "descrizione": "La legge 55/2015 riduce il tempo di separazione necessario per il divorzio a dodici mesi, sei se la separazione è consensuale.",
+      "tipo": "legge",
+      "pagine": [
+        211,
+        222
+      ],
+      "concetti": [
+        "divorzio",
+        "separazione-personale"
+      ]
+    },
+    {
+      "id": "ev-unioni-civili",
+      "anno": 2016,
+      "data": "20 maggio 2016",
+      "titolo": "Unioni civili e convivenze",
+      "descrizione": "La legge 76/2016 istituisce l'unione civile tra persone dello stesso sesso e disciplina le convivenze di fatto.",
+      "tipo": "legge",
+      "pagine": [
+        211,
+        222
+      ],
+      "concetti": [
+        "unione-civile",
+        "convivenza-di-fatto"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u25-q001",

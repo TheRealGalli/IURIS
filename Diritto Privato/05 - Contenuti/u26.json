@@ -712,7 +712,38 @@
       "etichetta": "la collazione forma la massa da ripartire"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-patto-di-famiglia",
+      "anno": 2006,
+      "data": "14 febbraio 2006",
+      "titolo": "Patto di famiglia",
+      "descrizione": "La legge 55/2006 introduce gli artt. 768-bis ss. c.c.: l'imprenditore può trasferire in vita l'azienda a un discendente, liquidando gli altri legittimari.",
+      "tipo": "legge",
+      "pagine": [
+        223,
+        234
+      ],
+      "concetti": [
+        "legittimari"
+      ]
+    },
+    {
+      "id": "ev-regolamento-successioni",
+      "anno": 2015,
+      "data": "17 agosto 2015",
+      "titolo": "Regolamento europeo sulle successioni",
+      "descrizione": "Da questa data si applica il regolamento (UE) 650/2012: legge della residenza abituale del defunto e certificato successorio europeo.",
+      "tipo": "legge",
+      "pagine": [
+        223,
+        234
+      ],
+      "concetti": [
+        "successione-mortis-causa"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u26-q001",

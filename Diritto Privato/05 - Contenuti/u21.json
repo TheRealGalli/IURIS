@@ -516,7 +516,24 @@
       "etichetta": "Ripristino e rimedi secondari"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-codice-del-consumo",
+      "anno": 2005,
+      "data": "6 settembre 2005",
+      "titolo": "Codice del consumo",
+      "descrizione": "Il d.lgs. 206/2005 riunisce in un solo testo le norme a tutela del consumatore, prima sparse anche nel Codice civile.",
+      "tipo": "codificazione",
+      "pagine": [
+        172,
+        182
+      ],
+      "concetti": [
+        "consumatore",
+        "clausole-vessatorie-consumo"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u21-q001",

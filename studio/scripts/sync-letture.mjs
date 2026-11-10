@@ -70,6 +70,60 @@ export function formatta(md) {
   return s;
 }
 
+/**
+ * Dispense fitte estratte da PDF con riquadri in caratteri codificati (Diritto privato): via i tratti illeggibili,
+ * titoletti in grassetto e capoversi lunghi spezzati a fine frase. Le parole leggibili restano quelle della fonte.
+ */
+const FITTI = new Set(['diritto-privato-torrente-dispense-v1']);
+const VUOTO = '&nbsp;';
+const NOTA_ILLEGGIBILE = '*[Riquadro di approfondimento non leggibile nel PDF.]*';
+const sospetto = (t) => /[<>=+@*]/.test(t) || /[\p{L}\d][/;:][\p{L}\d]/u.test(t) || /^[^\p{L}\d\s]{2,}$/u.test(t);
+const parolaVera = (t) => /^[(«"“']*\p{L}{3,}['’\p{L}]*[.,;:!?)»"”]*$/u.test(t) && /[aeiouàèéìòù]/i.test(t);
+/** Toglie le sequenze illeggibili; restituisce il testo e quante ne ha tolte. */
+export function senzaIlleggibile(testo) {
+  const token = testo.split(/( +)/); let tolte = 0;
+  const out = []; let i = 0;
+  while (i < token.length) {
+    if (!sospetto(token[i])) { out.push(token[i]); i++; continue; }
+    // la sequenza prosegue finché non incontra due parole vere di fila
+    let j = i, fine = i, n = 0, vere = 0;
+    while (j < token.length && vere < 2) {
+      const t = token[j];
+      if (t.trim() === '') { j++; continue; }
+      if (sospetto(t)) { n++; fine = j; vere = 0; } else if (parolaVera(t)) vere++; else if (!/\n/.test(t)) { /* numeri, sigle brevi */ } else break;
+      j++;
+    }
+    if (n >= 3) {
+      // anche i numeri e le sigle brevi rimasti prima della sequenza ne fanno parte
+      while (out.length && (out.at(-1).trim() === '' || (!parolaVera(out.at(-1)) && !/[.:→]$/.test(out.at(-1)) && out.at(-1).length <= 6 && !/^#/.test(out.at(-1))))) out.pop();
+      out.push(' \u0000 '); tolte++; i = fine + 1;
+    } else { out.push(token[i]); i++; }
+  }
+  return { testo: out.join('').replace(/(?:\s*\u0000\s*)+/g, ' \u0000 ').trim(), tolte };
+}
+const VERBI = /(?:^|\s)(?:è|sono|ha|hanno|si|può|possono|deve|devono|non|viene|vengono|era|sia)(?:\s|$)/i;
+const SIGLE = /(?:\b(?:ecc|cfr|art|artt|pag|cod|civ|lett|seg|segg|Cass|Cost|sez|proc|pen|disp|att|prel|trans|cit|es|nn|ss|co|vol|cap)|\b\p{L}{1,2})\.$/u;
+export function impagina(md) {
+  if (/^(?:#{1,6} |\||- |\d{1,2}\. )/.test(md) || md.includes('\n')) return md;
+  let s = md.replace(/^([\p{Lu}][^.:\n*[\]]{2,70})\. (?=[\p{Lu}«“(])/u, (m, t) => t.split(/\s+/).length <= 8 && !t.includes(',') && !VERBI.test(t) ? `**${t}.** ` : m);
+  // etichetta in maiuscolo in testa al capoverso: «INDENNIZZO: quali sono…»
+  s = s.replace(/^([\p{Lu}][\p{Lu}\s'’.]{3,45}):(?= )/u, '**$1:**');
+  if (s.length < 750) return s;
+  const frasi = []; let da = 0;
+  for (const m of s.matchAll(/[.!?][)»”]? (?=[\p{Lu}«“])/gu)) {
+    const fine = m.index + m[0].length - 1;
+    if (SIGLE.test(s.slice(Math.max(0, m.index - 12), m.index + 1))) continue;
+    frasi.push(s.slice(da, fine)); da = fine + 1;
+  }
+  frasi.push(s.slice(da));
+  const capoversi = []; let cur = '';
+  for (const f of frasi) {
+    if (cur && cur.length + f.length > 620 && cur.length >= 280) { capoversi.push(cur); cur = f; } else cur = cur ? `${cur} ${f}` : f;
+  }
+  if (cur) { if (capoversi.length && cur.length < 200) capoversi[capoversi.length - 1] += ` ${cur}`; else capoversi.push(cur); }
+  return capoversi.join('\n\n');
+}
+
 function etichette(c) {
   const tutte = [c.nome, c.latino, ...(Array.isArray(c.alias) ? c.alias : [])].filter((x) => typeof x === 'string');
   return [...new Set(tutte.map((x) => x.replace(/\s*\([^)]*\)\s*/g, ' ').trim()).filter((x) => x.length >= 4 && !/[«»"*[\]|]/.test(x)))];
@@ -118,6 +172,7 @@ for (const doc of catalogo) {
     const auto = ids.filter((id) => concetti.has(id)).flatMap((id) => etichette(concetti.get(id)).map((label) => ({ id, label })))
       .sort((a, b) => b.label.length - a.label.length);
     const giaCollegati = new Set();
+    let ultimoIlleggibile = false;
     const blocchi = matches.map((m) => {
       const id = m[1], pagina = Number(m[2]), originale = m[3].trim();
       let markdown = originale;
@@ -132,7 +187,20 @@ for (const doc of catalogo) {
       }
       const tag = new Set();
       if (rev) {
+        if (FITTI.has(doc.id) && override?.markdown === undefined) {
+          const titolo = /^#{1,6} /.exec(markdown)?.[0] ?? '';
+          const pulito = senzaIlleggibile(markdown.slice(titolo.length).replace(/(?<=\p{L})%(?=\p{L})/gu, ' '));
+          if (pulito.tolte) {
+            const resto = pulito.testo.replace(/\u0000/g, '').replace(/[^\p{L}]/gu, '');
+            if (resto.length < 12) { markdown = ultimoIlleggibile ? VUOTO : NOTA_ILLEGGIBILE; ultimoIlleggibile = true; }
+            else {
+            markdown = `${titolo}${pulito.testo.replace(/\s*\u0000\s*/g, ` ${NOTA_ILLEGGIBILE} `).trim()}`; ultimoIlleggibile = false; }
+          } else ultimoIlleggibile = false;
+        }
         if (override?.markdown === undefined && !override?.senzaRegole) markdown = formatta(markdown);
+        // blocco rimasto senza parole (il suo testo è confluito in quello accanto): resta al suo posto, vuoto
+        if (FITTI.has(doc.id) && !/\p{L}{2}/u.test(markdown.replace(/&nbsp;/g, ''))) markdown = VUOTO;
+        if (FITTI.has(doc.id) && markdown !== VUOTO) markdown = markdown.split(/\n\s*\n/).map(impagina).join('\n\n');
         // Un collegamento per concetto e per sezione; ogni occorrenza resta però un concetto del paragrafo per la mappa.
         const voci = [...curati.flatMap((e) => e.etichette.map((label) => ({ id: e.id, label }))), ...auto].sort((x, y) => y.label.length - x.label.length);
         for (const { id: cid, label } of voci) {

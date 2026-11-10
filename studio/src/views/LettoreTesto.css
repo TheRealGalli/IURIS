@@ -124,3 +124,5 @@
   .shell-reader .topbar { display: none; }
   .lettura .originali-header { padding-top: max(5px, env(safe-area-inset-top)); }
 }
+/* blocco il cui testo è confluito in quello accanto (riquadri ricostruiti): resta nel documento, non occupa spazio */
+.lettura-vuoto { display: none; }

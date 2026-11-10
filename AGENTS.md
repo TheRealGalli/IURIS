@@ -120,7 +120,13 @@ IURIS/
 4. `node scripts/sync-letture.mjs`, poi `node scripts/check-confini-letture.mjs`: segnala sezioni che cominciano a
    metà frase. Correggi in `letture-src/confini-sezioni.json` (blocchi da riportare indietro, `avanti`, o
    `verificati` per le eccezioni giuste) e applica con `node scripts/sposta-blocchi.mjs --scrivi`.
+   Se il PDF ha parti in un font senza tabella dei caratteri (simboli a caso al posto del testo, come i riquadri
+   della dispensa di privato), non vanno tolte: si decifrano. Vedi `scripts/decifra-riquadri.py`, che scrive le
+   revisioni in `letture-src/revisioni.json`. Il numero dei blocchi per pagina non deve cambiare
+   (`check-estrazione-letture`): un blocco svuotato resta con `&nbsp;`.
 5. Facoltativi: `letture-src/glossario-<slug>.json` (termini da collegare nel testo), `letture-src/fonti.json`.
+   Gli articoli citati nel testo («art. 1153 c.c.», «art. 70 Cost.») diventano da soli collegamenti alla sezione
+   Codice civile o Costituzione della materia (`collegaArticoli` in `src/lib/letture-client.ts`): non serve marcarli.
 6. Aggiorna i conteggi in `scripts/check-estrazione-letture.mjs` (numero di PDF e di pagine, elenco delle materie),
    `scripts/check-originali.mjs` e l'elenco delle materie in `scripts/check-review-plan.mjs`.
 

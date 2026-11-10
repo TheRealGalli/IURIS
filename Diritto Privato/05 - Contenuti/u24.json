@@ -340,7 +340,24 @@
       "etichetta": "Ripristino della situazione lesa"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-sezioni-unite-2008",
+      "anno": 2008,
+      "data": "11 novembre 2008",
+      "titolo": "Sezioni Unite sul danno non patrimoniale",
+      "descrizione": "Le sentenze 26972–26975/2008 della Cassazione descrivono il danno non patrimoniale come categoria unitaria, risarcibile nei casi previsti dalla legge e per la lesione di diritti inviolabili.",
+      "tipo": "giurisprudenza",
+      "pagine": [
+        208,
+        210
+      ],
+      "concetti": [
+        "danno-non-patrimoniale",
+        "danno-biologico"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u24-q001",

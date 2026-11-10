@@ -424,7 +424,39 @@
       "etichetta": "ostacola l’"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-legge-factoring",
+      "anno": 1991,
+      "data": "21 febbraio 1991",
+      "titolo": "Legge sulla cessione dei crediti d'impresa",
+      "descrizione": "La legge 52/1991 disciplina la cessione in blocco dei crediti d'impresa, base del factoring.",
+      "tipo": "legge",
+      "pagine": [
+        102,
+        112
+      ],
+      "concetti": [
+        "factoring",
+        "cessione-del-credito"
+      ]
+    },
+    {
+      "id": "ev-legge-cartolarizzazione",
+      "anno": 1999,
+      "data": "30 aprile 1999",
+      "titolo": "Legge sulla cartolarizzazione dei crediti",
+      "descrizione": "La legge 130/1999 consente di cedere crediti a una società veicolo che li finanzia emettendo titoli.",
+      "tipo": "legge",
+      "pagine": [
+        102,
+        112
+      ],
+      "concetti": [
+        "cartolarizzazione"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u13-q001",

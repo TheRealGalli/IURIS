@@ -378,6 +378,8 @@ a.cx {
   text-decoration: none; color: var(--accent); border-bottom: 1.5px dotted color-mix(in srgb, var(--accent) 55%, transparent);
   cursor: pointer; font-weight: inherit;
 }
+a.ax { text-decoration: none; color: inherit; border-bottom: 1.5px solid color-mix(in srgb, var(--accent) 45%, transparent); cursor: pointer; }
+a.ax:hover { background: var(--accent-soft); border-radius: 3px; color: var(--accent); }
 a.cx:hover { background: var(--accent-soft); border-radius: 3px; }
 .keypoints { background: var(--ink); color: var(--bg); border-radius: var(--radius); padding: 20px 22px; }
 .keypoints h3 { color: var(--bg); font-size: 17px; margin-bottom: 10px; }

@@ -32,7 +32,7 @@ export function useSezioniAnnotate() {
     });
     return () => { annullato = true; };
   }, [firma]);
-  const modelli = useMemo(() => new Map([...caricate].map(([file, s]) => [file, preparaBlocchi(s, idx.concettoById)])), [caricate, idx]);
+  const modelli = useMemo(() => new Map([...caricate].map(([file, s]) => [file, preparaBlocchi(s, idx.concettoById, idx.corso.norme)])), [caricate, idx]);
   return { caricando, errore, modelli, documenti, originali: p.originali };
 }
 

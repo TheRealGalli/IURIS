@@ -28,9 +28,9 @@ function puntoTesto(x: number, y: number): PuntoTesto | null {
 
 const Paragrafo = memo(function Paragrafo({ blocco, segni }: { blocco: BloccoPronto; segni: SegnoBlocco[] }) {
   const html = useMemo(() => htmlConSegni(blocco.html, segni), [blocco, segni]);
-  return <section className="lettura-paragrafo" data-pagina={blocco.pagina}>
+  return <section className={`lettura-paragrafo${blocco.testo.trim() ? '' : ' lettura-vuoto'}`} data-pagina={blocco.pagina}>
     <div id={`lettura-${blocco.id}`} data-lettura-block={blocco.id} data-pagina={blocco.pagina} dangerouslySetInnerHTML={{ __html: html }} />
-    {blocco.notaRevisione && <details className="lettura-nota"><summary>Nota sul testo</summary><p>{blocco.notaRevisione}</p></details>}
+    {blocco.notaRevisione && !!blocco.testo.trim() && <details className="lettura-nota"><summary>Nota sul testo</summary><p>{blocco.notaRevisione}</p></details>}
   </section>;
 });
 
@@ -78,7 +78,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
     caricaSezioneLettura(meta).then((s) => { if (!annullato) setSezione(s); }).catch((e) => { if (!annullato) setErrore((e as Error).message); });
     return () => { annullato = true; };
   }, [meta, tentativo]);
-  const blocchi = useMemo(() => sezione ? preparaBlocchi(sezione, idx.concettoById) : [], [sezione, idx]);
+  const blocchi = useMemo(() => sezione ? preparaBlocchi(sezione, idx.concettoById, idx.corso.norme) : [], [sezione, idx]);
   const proiezioni = useMemo(() => proiettaSegniTesto(segniVisibili, blocchi, documento.edizione, meta), [segniVisibili, blocchi, documento.edizione, meta]);
   const perBlocco = useMemo(() => {
     const m = new Map<string, SegnoBlocco[]>();

@@ -608,7 +608,38 @@
       "etichetta": "Concessioni o liquidazione"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-equo-canone",
+      "anno": 1978,
+      "data": "27 luglio 1978",
+      "titolo": "Legge sull'equo canone",
+      "descrizione": "La legge 392/1978 fissa per legge il canone delle abitazioni; resta in vigore per le locazioni a uso diverso.",
+      "tipo": "legge",
+      "pagine": [
+        183,
+        199
+      ],
+      "concetti": [
+        "locazione"
+      ]
+    },
+    {
+      "id": "ev-legge-locazioni-abitative",
+      "anno": 1998,
+      "data": "9 dicembre 1998",
+      "titolo": "Riforma delle locazioni abitative",
+      "descrizione": "La legge 431/1998 supera l'equo canone: contratti a canone libero (quattro anni più quattro) o concordato (tre più due).",
+      "tipo": "legge",
+      "pagine": [
+        183,
+        199
+      ],
+      "concetti": [
+        "locazione"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u22-q001",

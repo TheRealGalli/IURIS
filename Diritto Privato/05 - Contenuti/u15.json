@@ -407,7 +407,24 @@
       "etichetta": "conserva la garanzia della"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-patto-marciano",
+      "anno": 2016,
+      "data": "3 maggio 2016",
+      "titolo": "Pegno non possessorio e patto marciano",
+      "descrizione": "Il decreto-legge 59/2016 introduce il pegno mobiliare non possessorio e, nei finanziamenti alle imprese, il patto marciano.",
+      "tipo": "legge",
+      "pagine": [
+        117,
+        126
+      ],
+      "concetti": [
+        "pegno-non-possessorio",
+        "patto-marciano"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u15-q001",
