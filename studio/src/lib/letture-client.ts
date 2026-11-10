@@ -50,6 +50,10 @@ const CIVILE = /^.{0,30}?(?:c\.\s?c\b|cod\.\s*civ|codice civile)/i;
  * «art. 1321 c.c.», «artt. 1325 e 1418»: i numeri diventano collegamenti alla sezione dell'atto della materia
  * (Codice civile o Costituzione). Il testo non cambia di un carattere: evidenziazioni e ancore restano dove sono.
  */
+const COSTITUZIONALE = 'diritto-costituzionale';
+/** Materie del corso scelto (le scrive App tramite materie-corso.ts); letto da globalThis per non aggiungere dipendenze a questo modulo. */
+const materiaNelCorso = (s: string): boolean => (globalThis as { __iurisMaterieCorso?: Set<string> }).__iurisMaterieCorso?.has(s) ?? false;
+
 function collegaArticoli(root: HTMLElement, norme: Norme): void {
   const civile = norme.sigla === 'c.c.';
   const noti = new Set(norme.indice ? norme.indice.filter((r) => !r[5]).map((r) => r[0])
@@ -66,6 +70,21 @@ function collegaArticoli(root: HTMLElement, norme: Norme): void {
       const prima = sigla ? dopo.slice(0, sigla[0].length - sigla[0].match(/(?:c\.\s?c\b|cod\.\s*civ|codice civile)$/i)![0].length) : dopo;
       const preleggi = civile && /^.{0,12}?(?:disp\.\s*prel|(?:delle\s+)?preleggi)/i.test(dopo);
       const altro = ALTRO_ATTO.test(civile ? prima : dopo.replace(/\bCost\b\.?|Costituzione/gi, ''));
+      // da un'altra materia del corso: «art. 3 Cost.» apre la Costituzione di Diritto costituzionale
+      const costituzione = civile && !sigla && materiaNelCorso(COSTITUZIONALE) && /^\s*(?:,?\s*(?:comma|co\.)\s*\d+\s*,?)?\s*(?:Cost\b|della\s+Costituzione)/i.test(dopo);
+      if (costituzione) {
+        let pos = m.index! + m[1].length, primo = true;
+        for (const t of m[2].matchAll(/\d{1,3}(?![\d-])/g)) {
+          const n = Number(t[0]), da = primo ? m.index! : pos + t.index!, a = pos + t.index! + t[0].length;
+          primo = false;
+          if (n < 1 || n > 139 || da < fine) continue;
+          const link = document.createElement('a');
+          link.className = 'ax'; link.href = `#/norme/${n}`; link.dataset.materia = COSTITUZIONALE; link.title = `Apri l'art. ${n} della Costituzione`;
+          link.textContent = raw.slice(da, a);
+          pezzi.push(raw.slice(fine, da), link); fine = a;
+        }
+        continue;
+      }
       if (!preleggi && (civile ? altro || (!sigla && DI_UN_ALTRO.test(dopo)) : altro || DI_UN_ALTRO.test(dopo.replace(/Costituzione/gi, 'c.c.')) || /^\s*(?:c\.\s?c|cod\.|codice)/i.test(dopo))) continue;
       let pos = m.index! + m[1].length, primo = true;
       for (const t of m[2].matchAll(new RegExp(NUMERO, 'gi'))) {

@@ -1,60 +1,358 @@
 [
-  {
-    "id": "filosofia-del-diritto",
-    "etichette": [
-      "filosofia del diritto"
-    ]
-  },
-  {
-    "id": "ordinamento-giuridico",
-    "etichette": [
-      "ordinamento giuridico",
-      "ordinamento"
-    ]
-  },
-  {
-    "id": "grundnorm",
-    "etichette": [
-      "norma fondamentale",
-      "Grundnorm"
-    ]
-  },
-  {
-    "id": "dovere-giuridico",
-    "etichette": [
-      "dovere giuridico",
-      "doveri giuridici"
-    ]
-  },
-  {
-    "id": "norma-giuridica",
-    "etichette": [
-      "norme giuridiche",
-      "norma giuridica"
-    ]
-  },
-  {
-    "id": "wittgenstein",
-    "etichette": [
-      "Wittgenstein"
-    ]
-  },
-  {
-    "id": "aristotele",
-    "etichette": [
-      "Aristotele"
-    ]
-  },
-  {
-    "id": "gustav-radbruch",
-    "etichette": [
-      "Radbruch"
-    ]
-  },
-  {
-    "id": "kelsen",
-    "etichette": [
-      "Kelsen"
-    ]
-  }
+ {
+  "id": "filosofia-del-diritto",
+  "etichette": [
+   "filosofia del diritto"
+  ]
+ },
+ {
+  "id": "ordinamento-giuridico",
+  "etichette": [
+   "ordinamento giuridico",
+   "ordinamento"
+  ]
+ },
+ {
+  "id": "grundnorm",
+  "etichette": [
+   "norma fondamentale",
+   "Grundnorm"
+  ]
+ },
+ {
+  "id": "dovere-giuridico",
+  "etichette": [
+   "dovere giuridico",
+   "doveri giuridici"
+  ]
+ },
+ {
+  "id": "norma-giuridica",
+  "etichette": [
+   "norme giuridiche",
+   "norma giuridica"
+  ]
+ },
+ {
+  "id": "wittgenstein",
+  "etichette": [
+   "Wittgenstein"
+  ]
+ },
+ {
+  "id": "aristotele",
+  "etichette": [
+   "Aristotele"
+  ]
+ },
+ {
+  "id": "gustav-radbruch",
+  "etichette": [
+   "Radbruch"
+  ]
+ },
+ {
+  "id": "kelsen",
+  "etichette": [
+   "Kelsen"
+  ]
+ },
+ {
+  "id": "james-boyd-white",
+  "etichette": [
+   "James Boyd White"
+  ]
+ },
+ {
+  "id": "richard-sherwin",
+  "etichette": [
+   "Richard Sherwin"
+  ]
+ },
+ {
+  "id": "david-bordwell",
+  "etichette": [
+   "David Bordwell"
+  ]
+ },
+ {
+  "id": "william-shakespeare",
+  "etichette": [
+   "William Shakespeare",
+   "Shakespeare"
+  ]
+ },
+ {
+  "id": "il-mercante-di-venezia",
+  "etichette": [
+   "Il mercante di Venezia",
+   "Mercante di Venezia",
+   "Shylock"
+  ]
+ },
+ {
+  "id": "sofocle",
+  "etichette": [
+   "Sofocle"
+  ]
+ },
+ {
+  "id": "creonte",
+  "etichette": [
+   "Creonte"
+  ]
+ },
+ {
+  "id": "franz-kafka",
+  "etichette": [
+   "Franz Kafka",
+   "Kafka",
+   "Il processo"
+  ]
+ },
+ {
+  "id": "orson-welles",
+  "etichette": [
+   "Orson Welles"
+  ]
+ },
+ {
+  "id": "stanley-kubrick",
+  "etichette": [
+   "Stanley Kubrick",
+   "Kubrick"
+  ]
+ },
+ {
+  "id": "philip-k-dick",
+  "etichette": [
+   "Philip K. Dick"
+  ]
+ },
+ {
+  "id": "minority-report",
+  "etichette": [
+   "Minority Report"
+  ]
+ },
+ {
+  "id": "george-orwell",
+  "etichette": [
+   "George Orwell",
+   "Orwell"
+  ]
+ },
+ {
+  "id": "watchmen",
+  "etichette": [
+   "Watchmen"
+  ]
+ },
+ {
+  "id": "platone",
+  "etichette": [
+   "Platone",
+   "mito della caverna"
+  ]
+ },
+ {
+  "id": "martin-heidegger",
+  "etichette": [
+   "Martin Heidegger",
+   "Heidegger"
+  ]
+ },
+ {
+  "id": "diego-velazquez",
+  "etichette": [
+   "Diego Velázquez",
+   "Velázquez"
+  ]
+ },
+ {
+  "id": "repubblica-di-weimar",
+  "etichette": [
+   "Repubblica di Weimar",
+   "Weimar"
+  ]
+ },
+ {
+  "id": "leggi-razziali",
+  "etichette": [
+   "Leggi razziali",
+   "leggi di Norimberga"
+  ]
+ },
+ {
+  "id": "codice-rocco",
+  "etichette": [
+   "Codice Rocco"
+  ]
+ },
+ {
+  "id": "decisionismo",
+  "etichette": [
+   "Decisionismo",
+   "stato di eccezione"
+  ]
+ },
+ {
+  "id": "globalizzazione",
+  "etichette": [
+   "Globalizzazione"
+  ]
+ },
+ {
+  "id": "stato-nazione",
+  "etichette": [
+   "Stato-nazione",
+   "Stato nazionale"
+  ]
+ },
+ {
+  "id": "unione-europea",
+  "etichette": [
+   "Unione Europea"
+  ]
+ },
+ {
+  "id": "multinazionali",
+  "etichette": [
+   "Multinazionali",
+   "imprese multinazionali"
+  ]
+ },
+ {
+  "id": "anni-di-piombo",
+  "etichette": [
+   "Anni di piombo",
+   "leggi speciali"
+  ]
+ },
+ {
+  "id": "poliziottesco",
+  "etichette": [
+   "Poliziottesco"
+  ]
+ },
+ {
+  "id": "attrazione-fatale",
+  "etichette": [
+   "Attrazione fatale"
+  ]
+ },
+ {
+  "id": "orange-is-the-new-black",
+  "etichette": [
+   "Orange Is the New Black"
+  ]
+ },
+ {
+  "id": "la-parola-ai-giurati",
+  "etichette": [
+   "La parola ai giurati"
+  ]
+ },
+ {
+  "id": "omero",
+  "etichette": [
+   "Omero",
+   "Iliade",
+   "poemi omerici"
+  ]
+ },
+ {
+  "id": "la-condizione-postmoderna",
+  "etichette": [
+   "La condizione postmoderna"
+  ]
+ },
+ {
+  "id": "grandi-narrazioni",
+  "etichette": [
+   "Grandi narrazioni",
+   "metanarrazioni"
+  ]
+ },
+ {
+  "id": "schema-di-previsione",
+  "etichette": [
+   "Schema di previsione",
+   "schemi di previsione"
+  ]
+ },
+ {
+  "id": "fatto-psicosociale",
+  "etichette": [
+   "Fatto psicosociale",
+   "norma come fatto psicosociale"
+  ]
+ },
+ {
+  "id": "fotocellula",
+  "etichette": [
+   "Strisce, semaforo, fotocellula",
+   "fotocellula"
+  ]
+ },
+ {
+  "id": "cappuccetto-rosso",
+  "etichette": [
+   "Esempio di Cappuccetto Rosso",
+   "Cappuccetto Rosso"
+  ]
+ },
+ {
+  "id": "regresso-all-infinito",
+  "etichette": [
+   "Regresso all'infinito"
+  ]
+ },
+ {
+  "id": "trascendentale",
+  "etichette": [
+   "Trascendentale"
+  ]
+ },
+ {
+  "id": "diritto-positivo",
+  "etichette": [
+   "Diritto positivo",
+   "ius positum"
+  ]
+ },
+ {
+  "id": "diritti-umani",
+  "etichette": [
+   "Diritti umani",
+   "diritti fondamentali",
+   "L'età dei diritti"
+  ]
+ },
+ {
+  "id": "status-deontico",
+  "etichette": [
+   "Status deontico",
+   "stati deontici"
+  ]
+ },
+ {
+  "id": "algoritmi",
+  "etichette": [
+   "Algoritmi"
+  ]
+ },
+ {
+  "id": "immedesimazione",
+  "etichette": [
+   "Immedesimazione"
+  ]
+ },
+ {
+  "id": "messa-in-scena",
+  "etichette": [
+   "Diritto come messa in scena",
+   "messa in scena"
+  ]
+ }
 ]

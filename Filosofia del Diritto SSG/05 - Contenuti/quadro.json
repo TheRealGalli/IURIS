@@ -655,6 +655,317 @@
         }
       ],
       "nota": "Questo schema segue il riassunto di Incampo previsto per SSG. Le nozioni rinviano alle voci di questa materia e ai suoi materiali."
+    },
+    {
+      "id": "perche",
+      "tipo": "piramide",
+      "titolo": "Perché devo seguire le regole?",
+      "sottotitolo": "La domanda del corso e le risposte, nell'ordine in cui le lezioni le incontrano",
+      "livelli": [
+        {
+          "titolo": "Perché sono giuste",
+          "nota": "Il contenuto decide: la norma ingiusta non è diritto",
+          "voci": [
+            {
+              "testo": "Giusnaturalismo",
+              "concetto": "giusnaturalismo"
+            },
+            {
+              "testo": "Diritto naturale",
+              "concetto": "diritto-naturale"
+            },
+            {
+              "testo": "Antigone: la legge degli dei contro l'editto",
+              "concetto": "antigone"
+            }
+          ]
+        },
+        {
+          "titolo": "Perché sono valide",
+          "nota": "Punto di vista oggettivo, logico-formale: conta la forma, non il contenuto",
+          "voci": [
+            {
+              "testo": "Kelsen: la norma esiste in e per l'ordinamento",
+              "concetto": "kelsen"
+            },
+            {
+              "testo": "Validità",
+              "concetto": "validita"
+            },
+            {
+              "testo": "Costruzione a gradi",
+              "concetto": "stufenbau"
+            },
+            {
+              "testo": "Norma fondamentale",
+              "concetto": "grundnorm"
+            }
+          ]
+        },
+        {
+          "titolo": "Perché sono efficaci",
+          "nota": "Punto di vista dei custodi: è diritto ciò che le corti applicano",
+          "voci": [
+            {
+              "testo": "Ross: la norma come fatto psicosociale",
+              "concetto": "alf-ross"
+            },
+            {
+              "testo": "Schema di previsione",
+              "concetto": "schema-di-previsione"
+            },
+            {
+              "testo": "Efficacia",
+              "concetto": "efficacia"
+            },
+            {
+              "testo": "Custodi dell'osservanza",
+              "concetto": "custodi-dell-osservanza"
+            }
+          ]
+        },
+        {
+          "titolo": "Perché partecipo al gioco",
+          "nota": "Punto di vista interno: accetto le regole come ragioni",
+          "voci": [
+            {
+              "testo": "Hart: il diritto come gioco sociale",
+              "concetto": "herbert-hart"
+            },
+            {
+              "testo": "Punto di vista interno",
+              "concetto": "punto-di-vista-interno-hart"
+            },
+            {
+              "testo": "Norme di riconoscimento",
+              "concetto": "norme-di-riconoscimento"
+            },
+            {
+              "testo": "Contenuto minimo di diritto naturale",
+              "concetto": "contenuto-minimo-di-diritto-naturale"
+            }
+          ]
+        },
+        {
+          "titolo": "Perché sono osservato",
+          "nota": "Non più la sanzione: il controllo costante produce obbedienza",
+          "voci": [
+            {
+              "testo": "Foucault: il potere disciplinare",
+              "concetto": "michel-foucault"
+            },
+            {
+              "testo": "Panopticon: l'uno guarda i molti",
+              "concetto": "panopticon"
+            },
+            {
+              "testo": "Algoritmi",
+              "concetto": "algoritmi"
+            }
+          ]
+        },
+        {
+          "titolo": "Perché mi conviene, o mi seduce",
+          "nota": "Rete senza vertice e spettacolo: nessuno comanda, tutti si adeguano",
+          "voci": [
+            {
+              "testo": "Governance",
+              "concetto": "governance"
+            },
+            {
+              "testo": "Synopticon: i molti guardano l'uno",
+              "concetto": "synopticon"
+            },
+            {
+              "testo": "Società dello spettacolo",
+              "concetto": "societa-dello-spettacolo"
+            },
+            {
+              "testo": "Acclamazione",
+              "concetto": "acclamazione"
+            }
+          ]
+        }
+      ],
+      "aLato": [
+        {
+          "titolo": "Il caso limite",
+          "testo": "Norme valide dal contenuto intollerabile: le formule di Radbruch",
+          "concetto": "formule-di-radbruch"
+        }
+      ]
+    },
+    {
+      "id": "autori",
+      "tipo": "fasce",
+      "titolo": "Gli autori del corso nel tempo",
+      "sottotitolo": "Chi viene prima di chi: utile per collegare le teorie",
+      "da": 1580,
+      "a": 2030,
+      "periodi": [
+        {
+          "testo": "Giusnaturalismo moderno",
+          "da": 1600,
+          "a": 1800
+        },
+        {
+          "testo": "Positivismo giuridico",
+          "da": 1800,
+          "a": 1945
+        },
+        {
+          "testo": "Dopo Norimberga",
+          "da": 1945,
+          "a": 1979
+        },
+        {
+          "testo": "Postmoderno",
+          "da": 1979,
+          "a": 2030
+        }
+      ],
+      "corsie": [
+        {
+          "titolo": "Stato e ragione",
+          "barre": [
+            {
+              "testo": "Hobbes",
+              "concetto": "thomas-hobbes",
+              "da": 1588,
+              "a": 1679
+            },
+            {
+              "testo": "Locke",
+              "concetto": "john-locke",
+              "da": 1632,
+              "a": 1704
+            },
+            {
+              "testo": "Kant",
+              "concetto": "kant",
+              "da": 1724,
+              "a": 1804
+            },
+            {
+              "testo": "Hegel",
+              "concetto": "hegel",
+              "da": 1770,
+              "a": 1831
+            },
+            {
+              "testo": "Bentham",
+              "concetto": "jeremy-bentham",
+              "da": 1748,
+              "a": 1832
+            }
+          ]
+        },
+        {
+          "titolo": "Teoria della norma",
+          "barre": [
+            {
+              "testo": "Jhering",
+              "concetto": "rudolf-von-jhering",
+              "da": 1818,
+              "a": 1892
+            },
+            {
+              "testo": "Kelsen",
+              "concetto": "kelsen",
+              "da": 1881,
+              "a": 1973
+            },
+            {
+              "testo": "Radbruch",
+              "concetto": "gustav-radbruch",
+              "da": 1878,
+              "a": 1949
+            },
+            {
+              "testo": "Schmitt",
+              "concetto": "carl-schmitt",
+              "da": 1888,
+              "a": 1985
+            },
+            {
+              "testo": "Ross",
+              "concetto": "alf-ross",
+              "da": 1899,
+              "a": 1979
+            },
+            {
+              "testo": "Hart",
+              "concetto": "herbert-hart",
+              "da": 1907,
+              "a": 1992
+            },
+            {
+              "testo": "Bobbio",
+              "concetto": "norberto-bobbio",
+              "da": 1909,
+              "a": 2004
+            }
+          ]
+        },
+        {
+          "titolo": "Linguaggio",
+          "barre": [
+            {
+              "testo": "Wittgenstein",
+              "concetto": "wittgenstein",
+              "da": 1889,
+              "a": 1951
+            },
+            {
+              "testo": "Austin",
+              "concetto": "john-l-austin",
+              "da": 1911,
+              "a": 1960
+            },
+            {
+              "testo": "Husserl",
+              "concetto": "edmund-husserl",
+              "da": 1859,
+              "a": 1938
+            }
+          ]
+        },
+        {
+          "titolo": "Potere e immagini",
+          "barre": [
+            {
+              "testo": "Foucault",
+              "concetto": "michel-foucault",
+              "da": 1926,
+              "a": 1984
+            },
+            {
+              "testo": "Lyotard",
+              "concetto": "jean-francois-lyotard",
+              "da": 1924,
+              "a": 1998
+            },
+            {
+              "testo": "Debord",
+              "concetto": "guy-debord",
+              "da": 1931,
+              "a": 1994
+            },
+            {
+              "testo": "Deleuze",
+              "concetto": "gilles-deleuze",
+              "da": 1925,
+              "a": 1995
+            },
+            {
+              "testo": "Arendt",
+              "concetto": "hannah-arendt",
+              "da": 1906,
+              "a": 1975
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -752,6 +752,126 @@
         }
       ],
       "nota": "Le quote sono complessive della categoria. Si presuppongono chiamate attuali senza rappresentazione o rinunce. Fratelli e altri concorsi richiedono le regole della lezione; la parte dell’unione civile è equiparata al coniuge."
+    },
+    {
+      "id": "tempo",
+      "tipo": "fasce",
+      "titolo": "Il diritto privato nel tempo",
+      "sottotitolo": "Codici, Costituzione e le riforme che hanno cambiato il Codice",
+      "da": 1860,
+      "a": 2030,
+      "periodi": [
+        {
+          "testo": "Codice del 1865",
+          "da": 1865,
+          "a": 1942
+        },
+        {
+          "testo": "Codice del 1942",
+          "concetto": "codice-civile",
+          "da": 1942,
+          "a": 2030
+        }
+      ],
+      "corsie": [
+        {
+          "titolo": "Fonti",
+          "barre": [
+            {
+              "testo": "Costituzione",
+              "concetto": "costituzione",
+              "da": 1948,
+              "a": 2030
+            },
+            {
+              "testo": "Diritto europeo",
+              "da": 1957,
+              "a": 2030
+            }
+          ]
+        },
+        {
+          "titolo": "Famiglia e persone",
+          "barre": [
+            {
+              "testo": "Divorzio",
+              "concetto": "divorzio",
+              "da": 1970,
+              "a": 2030
+            },
+            {
+              "testo": "Riforma del diritto di famiglia",
+              "concetto": "famiglia",
+              "da": 1975,
+              "a": 2030
+            },
+            {
+              "testo": "Amministrazione di sostegno",
+              "concetto": "amministrazione-di-sostegno",
+              "da": 2004,
+              "a": 2030
+            },
+            {
+              "testo": "Stato unico di figlio",
+              "concetto": "stato-di-figlio",
+              "da": 2012,
+              "a": 2030
+            },
+            {
+              "testo": "Unioni civili",
+              "concetto": "unione-civile",
+              "da": 2016,
+              "a": 2030
+            }
+          ]
+        },
+        {
+          "titolo": "Contratti e mercato",
+          "barre": [
+            {
+              "testo": "Equo canone",
+              "concetto": "locazione",
+              "da": 1978,
+              "a": 1998
+            },
+            {
+              "testo": "Clausole abusive nel Codice",
+              "concetto": "clausole-vessatorie-consumo",
+              "da": 1996,
+              "a": 2005
+            },
+            {
+              "testo": "Codice del consumo",
+              "concetto": "consumatore",
+              "da": 2005,
+              "a": 2030
+            }
+          ]
+        },
+        {
+          "titolo": "Proprietà e successioni",
+          "barre": [
+            {
+              "testo": "Riforma del condominio",
+              "concetto": "condominio",
+              "da": 2012,
+              "a": 2030
+            },
+            {
+              "testo": "Patto di famiglia",
+              "concetto": "legittimari",
+              "da": 2006,
+              "a": 2030
+            },
+            {
+              "testo": "Donazioni: terzi protetti",
+              "concetto": "azione-di-riduzione",
+              "da": 2025,
+              "a": 2030
+            }
+          ]
+        }
+      ]
     }
   ]
 }

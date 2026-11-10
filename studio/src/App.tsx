@@ -2,6 +2,7 @@ import { Component, lazy, Suspense, useEffect, useState, type CSSProperties, typ
 import { caricaCorso, CorsoContext, fetchManifest, useCorso, type Indice } from './lib/data';
 import { href, useRotta, vai } from './lib/router';
 import { ripassoDiOggi } from './lib/srs';
+import { impostaMaterieCorso } from './lib/materie-corso';
 import { finisciDemo, iniziaDemo, leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
 import type { Manifest, MateriaInfo } from './lib/types';
 import { Icon } from './components/ui';
@@ -76,6 +77,7 @@ export default function App() {
   const materie = delCorso.length ? delCorso : manifest.materie;
   const disponibili = materie.filter((m) => m.disponibile);
   const materia = materie.find((m) => m.slug === pref.materia) ?? disponibili[0] ?? materie[0];
+  impostaMaterieCorso(disponibili.map((m) => m.slug));
   return <Guscio manifest={manifest} materie={materie} corso={corso} materia={materia} />;
 }
 
@@ -120,6 +122,19 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [demo]);
+
+  // collegamento a una sezione di un'altra materia del corso (un articolo della Costituzione citato nel privato)
+  useEffect(() => {
+    const apri = (e: MouseEvent) => {
+      const a = (e.target as Element | null)?.closest?.('a[data-materia]') as HTMLAnchorElement | null;
+      if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey) return;
+      e.preventDefault();
+      scriviPref({ materia: a.dataset.materia });
+      location.hash = a.getAttribute('href') ?? '#/';
+    };
+    document.addEventListener('click', apri);
+    return () => document.removeEventListener('click', apri);
+  }, []);
 
   const scegliMateria = (slug: string) => {
     scriviPref({ materia: slug });

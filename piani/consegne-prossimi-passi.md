@@ -19,9 +19,9 @@ Regole valide per tutti i passi:
 | 3 | Schede inverse di privato | Completato: 333 schede curate, con copertura di tutte le 27 unità |
 | 4 | Stile delle unità 12–27 di privato | Completato: revisionate 67 lezioni, precisate 64 sintesi; tutte entro 550 parole |
 | 5 | Quadro di privato e di Filosofia | Completato: 20 schemi, 7 di privato, 6 di Filosofia LMG e 7 di Filosofia SSG |
-| 6 | Approfondimenti («oltre») | |
-| 7 | Filosofia SSG: più voci | |
-| 8 | «art. N Cost.» da privato alla Costituzione | |
+| 6 | Approfondimenti («oltre») | Avviato (Claude, 11 nov.): 40 voci di Diritto privato in `oltre-10.json`, 61 di Filosofia SSG in `oltre-10.json` (riprese da Filosofia LMG). Da fare: altre voci di privato, Costituzionale (ne ha 16). Usare numeri di file nuovi, non questi |
+| 7 | Filosofia SSG: più voci | Primo giro fatto (Claude, 11 nov.): 48 voci nuove in `oltre-11.json` (293 in tutto), premesse in `glossario.json`, etichette per gli Originali. Manca l'`abbina` dell'unità 16 e un secondo giro sui concetti |
+| 8 | «art. N Cost.» da privato alla Costituzione | Fatto (Claude, 11 nov.): il collegamento cambia materia e apre l'articolo, se il corso ha Diritto costituzionale |
 
 ## 1. Glossario degli Originali di privato (il più visibile)
 
@@ -165,3 +165,16 @@ funziona in `studio/src/App.tsx`. Farlo solo se le materie del corso scelto comp
 
 Costituzionale SSG e le materie di LMG M-Z: non si possono fare finché non arrivano gli appunti. Per Diritto
 romano LMG A-L va solo indicato il docente giusto in `studio/src/data/corsi.ts` quando Carlo lo comunica.
+
+## Nota dell'11 novembre 2026 (Claude)
+
+- **Due assistenti nella stessa cartella**: l'11 novembre Claude e ChatGPT hanno lavorato insieme sugli stessi file.
+  Prima di scrivere un file controlla `git status` e `git log -3`; non riscrivere file che non hai creato tu in
+  questa sessione; per i file `oltre-NN.json` scegli sempre un numero libero.
+- Al Quadro di ChatGPT sono stati aggiunti tre schemi: «Il diritto privato nel tempo» (privato), «Perché devo
+  seguire le regole?» e «Gli autori del corso nel tempo» (Filosofia SSG).
+- Le 40 voci di `Diritto Privato/05 - Contenuti/oltre-10.json` citano sentenze e date da conoscenza di manuale
+  (Cass. S.U. 500/1999, 13533/2001, 26972/2008, 26242/2014, 18287/2018 e altre): non sono state ricontrollate una
+  per una su una banca dati. Chi le amplia verifichi numero e anno.
+- Gli approfondimenti di Filosofia SSG in `oltre-10.json` sono ripresi da quelli di Filosofia LMG per le 61 voci
+  comuni, tolte le frasi su Cotta e Moro, che nel corso SSG non ci sono.
