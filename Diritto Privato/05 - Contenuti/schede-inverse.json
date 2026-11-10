@@ -1,0 +1,1334 @@
+[
+  {
+    "concetto": "ordinamento-giuridico",
+    "definizione": "Sistema complessivo di regole e istituzioni che organizza la vita di una collettività e i rapporti fra i suoi membri."
+  },
+  {
+    "concetto": "norma-giuridica",
+    "definizione": "Prescrizione vincolante la cui validità deriva dalle fonti riconosciute dall'ordinamento, distinta dalla regola morale fondata sul suo contenuto."
+  },
+  {
+    "concetto": "diritto-positivo",
+    "definizione": "Insieme delle norme effettivamente poste dalle fonti di un determinato ordinamento, considerate indipendentemente dalla loro conformità a ideali di giustizia."
+  },
+  {
+    "concetto": "diritto-naturale",
+    "definizione": "Insieme di principi di giustizia invocati come fondamento o criterio di critica delle norme poste da un ordinamento storico."
+  },
+  {
+    "concetto": "fattispecie",
+    "definizione": "Fatto o insieme di fatti al cui verificarsi una norma collega l'acquisto, la modifica o l'estinzione di una situazione giuridica."
+  },
+  {
+    "concetto": "antinomia",
+    "definizione": "Contrasto fra norme che collegano conseguenze incompatibili alla stessa situazione regolata."
+  },
+  {
+    "concetto": "lacuna-del-diritto",
+    "definizione": "Assenza di una disciplina normativa per un caso che richiede una soluzione giuridica."
+  },
+  {
+    "concetto": "istituto-giuridico",
+    "definizione": "Complesso coordinato di norme che disciplina uno stesso fenomeno, come il matrimonio o la proprietà."
+  },
+  {
+    "concetto": "equita",
+    "definizione": "Criterio di decisione che adegua la soluzione alle particolarità della controversia, utilizzabile dal giudice nei casi consentiti dalla legge."
+  },
+  {
+    "concetto": "norme-derogabili",
+    "definizione": "Disposizioni la cui applicazione può essere esclusa o modificata da un accordo degli interessati."
+  },
+  {
+    "concetto": "norme-inderogabili",
+    "definizione": "Disposizioni che si applicano indipendentemente dalla volontà dei privati e limitano la loro autonomia negoziale."
+  },
+  {
+    "concetto": "norme-suppletive",
+    "definizione": "Disposizioni destinate a colmare un punto del rapporto che i privati non hanno regolato con il loro accordo."
+  },
+  {
+    "concetto": "consuetudine",
+    "definizione": "Fonte non scritta che nasce da un comportamento costantemente ripetuto con la convinzione della sua doverosità giuridica."
+  },
+  {
+    "concetto": "fonti-di-cognizione",
+    "definizione": "Documenti e strumenti attraverso i quali si conosce il testo delle norme, come la Gazzetta Ufficiale."
+  },
+  {
+    "concetto": "novella",
+    "definizione": "Intervento legislativo che modifica un testo normativo sostituendo disposizioni esistenti o inserendone di nuove."
+  },
+  {
+    "concetto": "vacatio-legis",
+    "definizione": "Intervallo fra la pubblicazione della legge e la sua entrata in vigore, ordinariamente di quindici giorni."
+  },
+  {
+    "concetto": "abrogazione",
+    "definizione": "Cessazione dell'efficacia di una norma per il futuro a opera di una fonte successiva, espressamente o per incompatibilità o nuova disciplina dell'intera materia."
+  },
+  {
+    "concetto": "deroga",
+    "definizione": "Applicazione di una disciplina diversa a casi specifici, mentre la regola generale resta vigente per gli altri."
+  },
+  {
+    "concetto": "diritto-transitorio",
+    "definizione": "Insieme di regole che disciplina il passaggio fra vecchia e nuova legge, individuando il trattamento dei rapporti nel tempo."
+  },
+  {
+    "concetto": "interpretazione-autentica",
+    "definizione": "Chiarimento del significato di una disposizione compiuto dal legislatore con una legge successiva, vincolante per tutti."
+  },
+  {
+    "concetto": "ratio-legis",
+    "definizione": "Scopo oggettivo perseguito da una disposizione, ricostruito per comprenderne il significato e la ragione giustificatrice."
+  },
+  {
+    "concetto": "analogia",
+    "definizione": "Applicazione al caso non regolato della disciplina di un caso simile, sulla base dell'identità della ragione giustificatrice."
+  },
+  {
+    "concetto": "analogia-iuris",
+    "definizione": "Soluzione del caso non regolato ricavata dai criteri fondamentali del sistema, quando manca anche una disposizione relativa a casi simili."
+  },
+  {
+    "concetto": "transazione",
+    "definizione": "Contratto con cui le parti prevengono o chiudono una lite mediante reciproche concessioni."
+  },
+  {
+    "concetto": "compromesso",
+    "definizione": "Accordo con cui le parti affidano la decisione di una controversia ad arbitri privati anziché al giudice statale."
+  },
+  {
+    "concetto": "lex-rei-sitae",
+    "definizione": "Criterio di collegamento che sottopone i diritti reali alla legge del luogo in cui si trova il bene."
+  },
+  {
+    "concetto": "rapporto-giuridico",
+    "definizione": "Relazione fra soggetti disciplinata dall'ordinamento, nella quale si contrappongono posizioni attive e passive."
+  },
+  {
+    "concetto": "diritto-soggettivo",
+    "definizione": "Potere di agire per soddisfare un proprio interesse protetto dall'ordinamento, nei limiti della tutela riconosciuta."
+  },
+  {
+    "concetto": "potesta",
+    "definizione": "Potere attribuito per la cura di un interesse altrui, il cui esercizio costituisce anche un dovere per il titolare."
+  },
+  {
+    "concetto": "aspettativa",
+    "definizione": "Posizione di attesa giuridicamente protetta di chi potrà acquistare un diritto al completarsi di una vicenda ancora in formazione."
+  },
+  {
+    "concetto": "diritti-assoluti",
+    "definizione": "Posizioni attive opponibili a tutti, alle quali corrisponde il dovere generale di non interferire, come proprietà e diritti della personalità."
+  },
+  {
+    "concetto": "diritti-relativi",
+    "definizione": "Posizioni attive che attribuiscono una pretesa soltanto verso uno o più soggetti determinati, come la pretesa alla prestazione del debitore."
+  },
+  {
+    "concetto": "diritto-potestativo",
+    "definizione": "Potere di modificare unilateralmente una situazione giuridica altrui mediante un proprio atto, cui l'altro soggetto resta esposto."
+  },
+  {
+    "concetto": "interesse-legittimo",
+    "definizione": "Posizione del privato che pretende il corretto esercizio del potere amministrativo secondo le regole che lo disciplinano."
+  },
+  {
+    "concetto": "soggezione",
+    "definizione": "Posizione passiva di chi subisce gli effetti dell'esercizio di un diritto potestativo altrui senza dover prestare un nuovo consenso."
+  },
+  {
+    "concetto": "onere",
+    "definizione": "Comportamento richiesto nel proprio interesse per ottenere o conservare un vantaggio, senza un dovere di prestazione verso altri."
+  },
+  {
+    "concetto": "acquisto-a-titolo-originario",
+    "definizione": "Modo di acquisto in cui il diritto sorge indipendentemente dal trasferimento da un precedente titolare, come nell'usucapione."
+  },
+  {
+    "concetto": "acquisto-a-titolo-derivativo",
+    "definizione": "Modo di acquisto in cui la posizione del nuovo titolare dipende dal diritto trasmessogli dal precedente, come nella vendita."
+  },
+  {
+    "concetto": "diritti-indisponibili",
+    "definizione": "Posizioni soggettive sottratte alla libera rinuncia o al trasferimento da parte del titolare per la rilevanza degli interessi protetti."
+  },
+  {
+    "concetto": "capacita-giuridica",
+    "definizione": "Idoneità della persona a essere titolare di diritti e doveri, acquistata con la nascita e perduta con la morte."
+  },
+  {
+    "concetto": "capacita-di-agire",
+    "definizione": "Idoneità a compiere personalmente atti che incidono validamente sulla propria sfera giuridica, acquistata ordinariamente a diciotto anni."
+  },
+  {
+    "concetto": "negozio-claudicante",
+    "definizione": "Atto dell'incapace la cui eliminazione può essere chiesta a sua tutela, mentre la controparte capace non può invocare quel difetto per liberarsi."
+  },
+  {
+    "concetto": "interdizione-giudiziale",
+    "definizione": "Misura pronunciata dal tribunale per la protezione del maggiorenne abitualmente infermo di mente, con sostituzione mediante un tutore nei termini previsti."
+  },
+  {
+    "concetto": "interdizione-legale",
+    "definizione": "Incapacità per gli atti patrimoniali prevista come pena accessoria di determinate condanne, distinta dalle misure disposte per proteggere l'infermo."
+  },
+  {
+    "concetto": "inabilitazione",
+    "definizione": "Misura di protezione che lascia il compimento autonomo degli atti ordinari e richiede l'assistenza di un curatore per quelli eccedenti l'ordinaria amministrazione."
+  },
+  {
+    "concetto": "emancipazione",
+    "definizione": "Acquisto di una capacità di agire parziale da parte del minore ammesso a contrarre matrimonio, con assistenza per gli atti indicati dalla legge."
+  },
+  {
+    "concetto": "amministrazione-di-sostegno",
+    "definizione": "Misura flessibile di protezione per chi non riesce a curare i propri interessi, con poteri e limiti modellati dal giudice sulle concrete necessità."
+  },
+  {
+    "concetto": "incapacita-naturale",
+    "definizione": "Condizione di fatto di chi, nel momento in cui compie un atto, non ha le facoltà mentali necessarie per comprenderlo o determinarsi consapevolmente."
+  },
+  {
+    "concetto": "domicilio",
+    "definizione": "Luogo nel quale una persona ha stabilito la sede principale dei propri affari e interessi."
+  },
+  {
+    "concetto": "residenza",
+    "definizione": "Luogo in cui una persona vive abitualmente, distinto dalla sede principale dei suoi affari e interessi."
+  },
+  {
+    "concetto": "parentela",
+    "definizione": "Vincolo giuridico fra persone che discendono da uno stesso stipite, con linee e gradi determinati dalla legge."
+  },
+  {
+    "concetto": "affinita",
+    "definizione": "Vincolo che unisce un coniuge ai parenti dell'altro, distinto sia dal coniugio sia dalla discendenza da un comune stipite."
+  },
+  {
+    "concetto": "consenso-informato",
+    "definizione": "Adesione del paziente a un trattamento sanitario dopo aver ricevuto informazioni adeguate su natura, conseguenze e alternative."
+  },
+  {
+    "concetto": "diritto-all-identita-personale",
+    "definizione": "Tutela della rappresentazione veritiera di una persona nella vita sociale, contro il travisamento della sua storia e delle sue convinzioni."
+  },
+  {
+    "concetto": "ente",
+    "definizione": "Organizzazione cui l'ordinamento riconosce la titolarità di rapporti giuridici, anche quando non dispone di una separazione patrimoniale perfetta."
+  },
+  {
+    "concetto": "autonomia-patrimoniale",
+    "definizione": "Separazione fra i beni e i debiti dell'organizzazione e quelli delle persone che ne fanno parte, con intensità diversa secondo il tipo di organizzazione."
+  },
+  {
+    "concetto": "associazione-riconosciuta",
+    "definizione": "Organizzazione di persone senza scopo di lucro dotata di personalità giuridica e di separazione patrimoniale perfetta."
+  },
+  {
+    "concetto": "associazione-non-riconosciuta",
+    "definizione": "Organizzazione associativa priva di personalità giuridica, ma soggetto di diritto, con fondo comune e responsabilità personale di chi agisce per essa."
+  },
+  {
+    "concetto": "fondo-comune",
+    "definizione": "Insieme dei contributi degli associati e dei beni acquistati dall'associazione non riconosciuta, destinato alla sua attività."
+  },
+  {
+    "concetto": "fondazione",
+    "definizione": "Organizzazione costruita intorno a un patrimonio stabilmente destinato a uno scopo non lucrativo, anziché a una base associativa."
+  },
+  {
+    "concetto": "comitato",
+    "definizione": "Gruppo di persone che promuove una raccolta pubblica di denaro per realizzare uno scopo altruistico determinato."
+  },
+  {
+    "concetto": "terzo-settore",
+    "definizione": "Ambito delle organizzazioni private che svolgono senza finalità lucrative attività di interesse generale secondo una disciplina speciale."
+  },
+  {
+    "concetto": "sussidiarieta",
+    "definizione": "Principio per cui i pubblici poteri favoriscono l'iniziativa autonoma dei cittadini per attività di interesse generale."
+  },
+  {
+    "concetto": "bene",
+    "definizione": "Entità utile e appropriabile che può formare oggetto di diritti secondo l'art. 810 c.c."
+  },
+  {
+    "concetto": "beni-immobili",
+    "definizione": "Categoria che comprende il suolo e quanto vi è incorporato stabilmente per natura o artificialmente."
+  },
+  {
+    "concetto": "beni-mobili-registrati",
+    "definizione": "Categoria comprendente autoveicoli, navi e aeromobili, le cui vicende sono soggette a pubblicità in appositi registri."
+  },
+  {
+    "concetto": "beni-fungibili",
+    "definizione": "Entità individuate per genere e quantità, sostituibili con altre della stessa specie e qualità, come il denaro."
+  },
+  {
+    "concetto": "beni-consumabili",
+    "definizione": "Entità che non possono essere utilizzate secondo la loro destinazione senza distruggerle o perderne l'individualità."
+  },
+  {
+    "concetto": "pertinenza",
+    "definizione": "Entità destinata durevolmente dal soggetto legittimato al servizio o all'ornamento di un'altra principale."
+  },
+  {
+    "concetto": "universalita-di-mobili",
+    "definizione": "Pluralità di oggetti appartenenti alla stessa persona e sottoposti a una destinazione unitaria, come una biblioteca."
+  },
+  {
+    "concetto": "azienda",
+    "definizione": "Complesso di beni organizzati dall'imprenditore per l'esercizio della sua attività economica."
+  },
+  {
+    "concetto": "patrimonio",
+    "definizione": "Complesso dei rapporti giuridici attivi e passivi economicamente valutabili che fanno capo a una persona."
+  },
+  {
+    "concetto": "beni-demaniali",
+    "definizione": "Categoria di beni dello Stato o degli enti territoriali sottoposti a un regime che ne esclude l'alienazione e l'acquisto per usucapione finché permane la destinazione prevista."
+  },
+  {
+    "concetto": "fatto-giuridico",
+    "definizione": "Avvenimento, anche naturale, cui l'ordinamento collega conseguenze come l'acquisto o l'estinzione di diritti."
+  },
+  {
+    "concetto": "negozio-giuridico",
+    "definizione": "Manifestazione di volontà diretta a regolare interessi attraverso effetti che l'ordinamento riconosce conformi al risultato perseguito."
+  },
+  {
+    "concetto": "atto-recettizio",
+    "definizione": "Dichiarazione indirizzata a un destinatario che produce i suoi effetti quando giunge alla sua conoscenza secondo le regole applicabili."
+  },
+  {
+    "concetto": "forma-ad-substantiam",
+    "definizione": "Modalità di manifestazione della volontà richiesta per la validità dell'atto, la cui mancanza ne determina l'invalidità."
+  },
+  {
+    "concetto": "prescrizione",
+    "definizione": "Estinzione del diritto per il mancato esercizio da parte del titolare durante il periodo stabilito dalla legge."
+  },
+  {
+    "concetto": "sospensione-della-prescrizione",
+    "definizione": "Arresto temporaneo del decorso del termine estintivo, dopo il quale il tempo riprende a correre conservando quello già trascorso."
+  },
+  {
+    "concetto": "interruzione-della-prescrizione",
+    "definizione": "Evento che elimina l'utilità del tempo già trascorso e fa iniziare per intero un nuovo periodo del termine estintivo."
+  },
+  {
+    "concetto": "prescrizione-presuntiva",
+    "definizione": "Meccanismo che, dopo un breve periodo, fa presumere l'avvenuto pagamento del debito anziché estinguere il diritto per inerzia."
+  },
+  {
+    "concetto": "decadenza",
+    "definizione": "Perdita della possibilità di esercitare un diritto per il mancato compimento dell'atto richiesto entro un termine perentorio."
+  },
+  {
+    "concetto": "autotutela",
+    "definizione": "Difesa del proprio diritto attuata senza ricorrere al giudice, ammessa soltanto nelle ipotesi previste dall'ordinamento."
+  },
+  {
+    "concetto": "cosa-giudicata",
+    "definizione": "Accertamento definitivo contenuto nella sentenza che fa stato fra le parti, i loro eredi e aventi causa."
+  },
+  {
+    "concetto": "pignoramento",
+    "definizione": "Atto iniziale dell'espropriazione che vincola beni del debitore alla soddisfazione dei creditori procedenti."
+  },
+  {
+    "concetto": "onere-della-prova",
+    "definizione": "Regola di giudizio che ripartisce fra le parti il rischio dell'incertezza sui fatti costitutivi, impeditivi, modificativi ed estintivi del diritto."
+  },
+  {
+    "concetto": "atto-pubblico",
+    "definizione": "Documento formato da notaio o altro funzionario competente, dotato di speciale efficacia probatoria su provenienza e fatti attestati in sua presenza."
+  },
+  {
+    "concetto": "scrittura-privata",
+    "definizione": "Documento redatto da privati e firmato, la cui efficacia probatoria riguarda la provenienza delle dichiarazioni secondo i requisiti legali."
+  },
+  {
+    "concetto": "presunzione",
+    "definizione": "Procedimento logico con cui si risale da un fatto conosciuto a un fatto ignoto; può essere previsto dalla legge o affidato al giudice."
+  },
+  {
+    "concetto": "confessione",
+    "definizione": "Dichiarazione della verità di fatti sfavorevoli a chi la rende e favorevoli all'altra parte."
+  },
+  {
+    "concetto": "proprieta",
+    "definizione": "Diritto di godere e disporre del bene in modo pieno ed esclusivo, entro i limiti e con gli obblighi stabiliti dall'ordinamento."
+  },
+  {
+    "concetto": "numerus-clausus",
+    "definizione": "Principio che impedisce ai privati di creare liberamente nuovi tipi di diritti reali diversi da quelli ammessi dall'ordinamento."
+  },
+  {
+    "concetto": "atti-emulativi",
+    "definizione": "Condotte del proprietario prive di utilità per lui e dirette soltanto a nuocere o molestare altri, vietate dall'art. 833 c.c."
+  },
+  {
+    "concetto": "immissioni",
+    "definizione": "Propagazioni provenienti dal fondo vicino, come rumori, fumo o calore, la cui liceità è valutata secondo la soglia dell'art. 844 c.c."
+  },
+  {
+    "concetto": "occupazione",
+    "definizione": "Acquisto originario di cose mobili che non appartengono a nessuno mediante la loro apprensione con volontà di farle proprie."
+  },
+  {
+    "concetto": "invenzione",
+    "definizione": "Modo di acquisto collegato al ritrovamento di una cosa smarrita e all'osservanza della procedura di restituzione e pubblicazione prevista dalla legge."
+  },
+  {
+    "concetto": "accessione",
+    "definizione": "Meccanismo per cui ciò che si unisce stabilmente al suolo appartiene al proprietario di quest'ultimo, salvo le eccezioni previste."
+  },
+  {
+    "concetto": "specificazione",
+    "definizione": "Formazione di una cosa nuova mediante lavoro su materia altrui, con attribuzione regolata in base al rapporto fra lavoro e materia."
+  },
+  {
+    "concetto": "azione-di-rivendicazione",
+    "definizione": "Rimedio del proprietario che non possiede il bene per far accertare il proprio diritto e ottenerne la restituzione da chi lo tiene."
+  },
+  {
+    "concetto": "azione-negatoria",
+    "definizione": "Rimedio del proprietario che contesta diritti altrui sul bene e può ottenere la cessazione di molestie e turbative."
+  },
+  {
+    "concetto": "regolamento-di-confini",
+    "definizione": "Rimedio fra proprietari di fondi vicini per eliminare l'incertezza sulla linea che li separa."
+  },
+  {
+    "concetto": "apposizione-di-termini",
+    "definizione": "Rimedio per ripristinare i segni materiali fra fondi quando la linea di separazione è certa ma i segni mancano o sono irriconoscibili."
+  },
+  {
+    "concetto": "superficie",
+    "definizione": "Diritto di costruire e mantenere una costruzione sul suolo altrui, o titolarità separata della costruzione rispetto al terreno."
+  },
+  {
+    "concetto": "enfiteusi",
+    "definizione": "Diritto reale di godimento su fondo altrui che comporta l'obbligo di migliorarlo e di pagare un canone al concedente."
+  },
+  {
+    "concetto": "affrancazione",
+    "definizione": "Potere dell'enfiteuta di acquistare la piena proprietà del fondo mediante pagamento della somma stabilita dalla disciplina applicabile."
+  },
+  {
+    "concetto": "usufrutto",
+    "definizione": "Diritto di godere della cosa altrui e trarne utilità rispettandone la destinazione economica, con durata limitata dalla legge."
+  },
+  {
+    "concetto": "nuda-proprieta",
+    "definizione": "Titolarità del bene temporaneamente privata del godimento attribuito all'usufruttuario, destinata a riespandersi alla cessazione di quel diritto."
+  },
+  {
+    "concetto": "servitu",
+    "definizione": "Peso imposto su un fondo per l'utilità di un altro fondo appartenente a un diverso proprietario."
+  },
+  {
+    "concetto": "servitu-coattive",
+    "definizione": "Pesi fra fondi che possono essere ottenuti nei casi previsti dalla legge anche senza accordo, attraverso il provvedimento costitutivo e l'indennità dovuta."
+  },
+  {
+    "concetto": "servitu-apparenti",
+    "definizione": "Pesi fra fondi per il cui esercizio esistono opere visibili e permanenti; questa caratteristica consente i modi di acquisto previsti dalla legge."
+  },
+  {
+    "concetto": "azione-confessoria",
+    "definizione": "Rimedio del titolare della servitù per farne riconoscere l'esistenza e cessare gli impedimenti al suo esercizio."
+  },
+  {
+    "concetto": "comunione",
+    "definizione": "Situazione in cui lo stesso diritto reale appartiene contemporaneamente a più persone, ciascuna per una frazione ideale."
+  },
+  {
+    "concetto": "quota",
+    "definizione": "Frazione ideale che misura la partecipazione di ciascun titolare al diritto comune e ai relativi vantaggi e pesi."
+  },
+  {
+    "concetto": "patto-di-indivisione",
+    "definizione": "Accordo con cui i partecipanti si impegnano a mantenere il bene comune senza sciogliere la contitolarità per un periodo, al massimo decennale."
+  },
+  {
+    "concetto": "condominio",
+    "definizione": "Assetto di un edificio che combina la proprietà esclusiva delle singole unità con la contitolarità necessaria delle strutture e degli impianti comuni."
+  },
+  {
+    "concetto": "tabelle-millesimali",
+    "definizione": "Prospetti che esprimono il valore proporzionale delle unità rispetto all'intero edificio e servono per spese e maggioranze."
+  },
+  {
+    "concetto": "assemblea-condominiale",
+    "definizione": "Organo collegiale cui partecipano i proprietari delle unità e che delibera sulla gestione e sugli altri affari del condominio."
+  },
+  {
+    "concetto": "amministratore-di-condominio",
+    "definizione": "Soggetto che esegue le delibere, gestisce gli affari comuni e rappresenta il condominio nei limiti delle attribuzioni previste."
+  },
+  {
+    "concetto": "multiproprieta",
+    "definizione": "Assetto che attribuisce il godimento dello stesso alloggio a più soggetti secondo periodi ricorrenti e determinati dell'anno."
+  },
+  {
+    "concetto": "possesso",
+    "definizione": "Potere di fatto su un bene esercitato mediante un'attività corrispondente a quella del proprietario o del titolare di un altro diritto reale."
+  },
+  {
+    "concetto": "detenzione",
+    "definizione": "Disponibilità materiale del bene esercitata riconoscendo il diritto di un altro, come nel rapporto del conduttore con il locatore."
+  },
+  {
+    "concetto": "interversione-del-possesso",
+    "definizione": "Mutamento della disponibilità materiale esercitata per altri in un potere esercitato per sé, mediante causa proveniente da un terzo o opposizione al titolare."
+  },
+  {
+    "concetto": "buona-fede-possessoria",
+    "definizione": "Condizione soggettiva di chi esercita il potere di fatto ignorando di ledere un diritto altrui, senza ignoranza dovuta a colpa grave."
+  },
+  {
+    "concetto": "accessione-del-possesso",
+    "definizione": "Facoltà dell'acquirente a titolo particolare di sommare il proprio periodo di potere di fatto a quello del suo autore per gli effetti ammessi dalla legge."
+  },
+  {
+    "concetto": "possesso-vale-titolo",
+    "definizione": "Regola che consente l'acquisto di mobili non registrati dal non proprietario mediante consegna, buona fede e un atto astrattamente idoneo al trasferimento."
+  },
+  {
+    "concetto": "usucapione",
+    "definizione": "Acquisto originario della proprietà o di altro diritto reale mediante esercizio del possesso per il tempo e con i caratteri richiesti dalla legge."
+  },
+  {
+    "concetto": "usucapione-abbreviata",
+    "definizione": "Acquisto originario in un periodo ridotto, fondato sul possesso unito a buona fede, titolo idoneo e, per gli immobili, trascrizione del titolo."
+  },
+  {
+    "concetto": "azioni-possessorie",
+    "definizione": "Rimedi che tutelano il potere di fatto sulla cosa contro privazioni o turbative senza dover prima accertare chi sia proprietario."
+  },
+  {
+    "concetto": "azione-di-reintegrazione",
+    "definizione": "Rimedio per recuperare il potere di fatto sottratto con violenza o clandestinità, esercitabile anche dal detentore qualificato nei casi previsti."
+  },
+  {
+    "concetto": "azione-di-manutenzione",
+    "definizione": "Rimedio contro molestie al possesso di immobili o universalità di mobili, quando sussistono durata e qualità del possesso richieste dalla legge."
+  },
+  {
+    "concetto": "denunzia-di-nuova-opera",
+    "definizione": "Rimedio preventivo contro un'attività costruttiva non ancora terminata, iniziata da meno di un anno, dalla quale si teme danno alla cosa oggetto del diritto o del possesso."
+  },
+  {
+    "concetto": "denunzia-di-danno-temuto",
+    "definizione": "Rimedio preventivo contro il pericolo grave e prossimo proveniente da un edificio, un albero o altra cosa già esistente."
+  },
+  {
+    "concetto": "obbligazione",
+    "definizione": "Rapporto in cui il debitore è vincolato a una prestazione economicamente valutabile nell'interesse, anche non patrimoniale, del creditore."
+  },
+  {
+    "concetto": "obbligazione-naturale",
+    "definizione": "Dovere morale o sociale privo di azione per esigerne l'adempimento, ma con irripetibilità di quanto spontaneamente eseguito dal capace nei requisiti legali."
+  },
+  {
+    "concetto": "prestazione",
+    "definizione": "Comportamento di dare, fare o non fare economicamente valutabile che il debitore deve eseguire nell'interesse del creditore."
+  },
+  {
+    "concetto": "solidarieta",
+    "definizione": "Regime in cui ciascun condebitore è tenuto all'intera prestazione, con liberazione degli altri a seguito del pagamento, oppure ciascun creditore può esigere l'intero."
+  },
+  {
+    "concetto": "obbligazione-parziaria",
+    "definizione": "Rapporto plurisoggettivo nel quale ciascun debitore deve soltanto la propria parte o ciascun creditore può esigere soltanto la propria quota."
+  },
+  {
+    "concetto": "regresso",
+    "definizione": "Pretesa del condebitore solidale che ha pagato l'intero di recuperare dagli altri le rispettive quote interne."
+  },
+  {
+    "concetto": "obbligazione-indivisibile",
+    "definizione": "Rapporto nel quale la prestazione non può essere frazionata per natura dell'oggetto o per il modo in cui le parti l'hanno considerata."
+  },
+  {
+    "concetto": "obbligazione-alternativa",
+    "definizione": "Rapporto con più prestazioni dedotte, nel quale l'esecuzione di una sola, individuata mediante scelta, libera il debitore."
+  },
+  {
+    "concetto": "obbligazione-facoltativa",
+    "definizione": "Rapporto con una sola prestazione dovuta, ma con facoltà del debitore di liberarsi eseguendone un'altra prevista come sostituto."
+  },
+  {
+    "concetto": "principio-nominalistico",
+    "definizione": "Regola secondo cui i debiti di valuta si estinguono pagando la somma nominale dovuta, indipendentemente dalle variazioni del potere d'acquisto."
+  },
+  {
+    "concetto": "debito-di-valore",
+    "definizione": "Obbligo di reintegrare un'utilità diversa dal denaro, la cui espressione monetaria richiede di stimare il valore da ripristinare."
+  },
+  {
+    "concetto": "interessi-moratori",
+    "definizione": "Prestazione pecuniaria risarcitoria dovuta per il ritardo qualificato nel pagamento, anche senza prova di uno specifico pregiudizio."
+  },
+  {
+    "concetto": "anatocismo",
+    "definizione": "Produzione di ulteriori interessi da parte di interessi già scaduti, ammessa soltanto nei limiti della disciplina applicabile."
+  },
+  {
+    "concetto": "usura",
+    "definizione": "Pattuizione di un costo del credito che supera i limiti legali oppure presenta i caratteri di sproporzione e difficoltà economica richiesti dalla legge."
+  },
+  {
+    "concetto": "cessione-del-credito",
+    "definizione": "Contratto con cui il titolare trasferisce a un altro la propria pretesa verso il debitore, senza necessità del consenso di quest'ultimo salvo i limiti applicabili."
+  },
+  {
+    "concetto": "factoring",
+    "definizione": "Operazione avente a oggetto la gestione e la riscossione di crediti d'impresa, che può comprendere anticipazioni finanziarie e garanzie di solvenza."
+  },
+  {
+    "concetto": "cartolarizzazione",
+    "definizione": "Operazione finanziaria che destina i flussi di crediti acquistati al rimborso e alla remunerazione dei titoli emessi per finanziare l'acquisto."
+  },
+  {
+    "concetto": "delegazione-passiva",
+    "definizione": "Operazione nella quale il debitore incarica un terzo di assumere un'obbligazione o effettuare un pagamento verso il proprio creditore."
+  },
+  {
+    "concetto": "espromissione",
+    "definizione": "Accordo fra terzo e creditore con cui il primo assume il debito altrui senza incarico del debitore originario."
+  },
+  {
+    "concetto": "accollo",
+    "definizione": "Accordo fra il debitore e un terzo che assume il debito, con efficacia interna o anche verso il creditore secondo la struttura adottata."
+  },
+  {
+    "concetto": "adempimento",
+    "definizione": "Esecuzione esatta del comportamento dovuto, normalmente idonea a soddisfare il creditore e a estinguere il vincolo."
+  },
+  {
+    "concetto": "prestazione-in-luogo-dell-adempimento",
+    "definizione": "Esecuzione, con consenso del creditore, di un comportamento diverso da quello originariamente dovuto, con effetto liberatorio quando viene realizzato."
+  },
+  {
+    "concetto": "pagamento-con-surrogazione",
+    "definizione": "Soddisfazione del creditore accompagnata dal subentro di un altro soggetto nei suoi diritti e nelle garanzie nei limiti previsti."
+  },
+  {
+    "concetto": "imputazione-del-pagamento",
+    "definizione": "Individuazione di quale debito venga estinto quando il debitore ha più debiti della stessa specie verso lo stesso creditore."
+  },
+  {
+    "concetto": "mora-del-creditore",
+    "definizione": "Situazione di chi senza motivo legittimo rifiuta la prestazione offerta secondo legge oppure omette la cooperazione necessaria per riceverla."
+  },
+  {
+    "concetto": "compensazione",
+    "definizione": "Estinzione di debiti reciproci fra gli stessi soggetti fino a concorrenza dei rispettivi importi, quando ricorrono i requisiti della forma applicabile."
+  },
+  {
+    "concetto": "novazione",
+    "definizione": "Accordo che estingue il debito precedente sostituendolo con un nuovo vincolo diverso per oggetto o titolo, con volontà inequivoca di sostituire il precedente."
+  },
+  {
+    "concetto": "remissione-del-debito",
+    "definizione": "Dichiarazione con cui il creditore abbandona la propria pretesa, efficace quando comunicata al debitore salvo il suo rifiuto nel termine congruo."
+  },
+  {
+    "concetto": "impossibilita-sopravvenuta",
+    "definizione": "Impedimento della prestazione successivo alla nascita del vincolo che può liberare il debitore se definitivo e a lui non imputabile."
+  },
+  {
+    "concetto": "inadempimento",
+    "definizione": "Mancata, tardiva o inesatta esecuzione della prestazione dovuta, da valutare rispetto al contenuto concreto del vincolo."
+  },
+  {
+    "concetto": "responsabilita-da-inadempimento",
+    "definizione": "Obbligo di risarcire il danno conseguente alla violazione di un vincolo obbligatorio preesistente, anche quando non nato da un contratto."
+  },
+  {
+    "concetto": "clausola-penale",
+    "definizione": "Patto che predetermina la prestazione dovuta in caso di violazione o ritardo, dispensando dalla prova del danno nei limiti pattuiti."
+  },
+  {
+    "concetto": "mora-del-debitore",
+    "definizione": "Ritardo qualificato nell'esecuzione, normalmente conseguente a richiesta scritta o alle ipotesi automatiche previste, con aggravamento del rischio e altri effetti."
+  },
+  {
+    "concetto": "responsabilita-patrimoniale",
+    "definizione": "Assoggettamento dei beni presenti e futuri del debitore alla soddisfazione coattiva dei creditori, salve le limitazioni stabilite dalla legge."
+  },
+  {
+    "concetto": "par-condicio-creditorum",
+    "definizione": "Regola di pari diritto dei creditori a soddisfarsi sui beni del debitore, salve le cause legittime di preferenza."
+  },
+  {
+    "concetto": "privilegio",
+    "definizione": "Causa di preferenza nella soddisfazione del credito attribuita dalla legge in ragione della sua causa, non per la sola volontà delle parti."
+  },
+  {
+    "concetto": "pegno",
+    "definizione": "Garanzia reale ordinariamente accompagnata dallo spossessamento, su mobili, universalità di mobili o crediti, che attribuisce preferenza sul ricavato."
+  },
+  {
+    "concetto": "terzo-datore-di-garanzia",
+    "definizione": "Soggetto che vincola un proprio bene per assicurare il debito di un'altra persona, senza diventare per ciò solo debitore personale."
+  },
+  {
+    "concetto": "patto-commissorio",
+    "definizione": "Accordo vietato che attribuisce al creditore il bene vincolato a pegno o ipoteca per il mancato pagamento, secondo il meccanismo proibito dall'art. 2744 c.c."
+  },
+  {
+    "concetto": "patto-marciano",
+    "definizione": "Meccanismo di acquisizione del bene a soddisfazione del credito accompagnato da stima attendibile e restituzione dell'eccedenza al debitore."
+  },
+  {
+    "concetto": "pegno-non-possessorio",
+    "definizione": "Garanzia speciale d'impresa che consente di mantenere l'uso produttivo dei beni vincolati, con la pubblicità prevista invece della consegna materiale."
+  },
+  {
+    "concetto": "accessorieta-della-garanzia",
+    "definizione": "Dipendenza del vincolo di sicurezza dal credito protetto, di cui segue normalmente esistenza, misura e vicende."
+  },
+  {
+    "concetto": "ipoteca",
+    "definizione": "Garanzia reale costituita mediante iscrizione nei registri, che attribuisce preferenza sul ricavato e diritto di seguire il bene presso successivi acquirenti."
+  },
+  {
+    "concetto": "grado-ipotecario",
+    "definizione": "Ordine di preferenza fra più garanzie iscritte sullo stesso bene, determinato dalla priorità dell'iscrizione secondo la disciplina legale."
+  },
+  {
+    "concetto": "rinnovazione-ipotecaria",
+    "definizione": "Formalità eseguita prima della scadenza ventennale per conservare gli effetti dell'iscrizione e la posizione di preferenza già acquisita."
+  },
+  {
+    "concetto": "azione-surrogatoria",
+    "definizione": "Rimedio del creditore che esercita diritti patrimoniali trascurati dal debitore, quando l'inerzia pregiudica la garanzia comune."
+  },
+  {
+    "concetto": "azione-revocatoria",
+    "definizione": "Rimedio che rende inefficace verso il creditore agente un atto dispositivo del debitore pregiudizievole per le sue ragioni, senza annullarlo per tutti."
+  },
+  {
+    "concetto": "sequestro-conservativo",
+    "definizione": "Misura cautelare che vincola beni del debitore quando vi sono apparente fondatezza del credito e pericolo per la sua futura soddisfazione."
+  },
+  {
+    "concetto": "diritto-di-ritenzione",
+    "definizione": "Facoltà, riconosciuta soltanto nei casi previsti, di trattenere una cosa fino alla soddisfazione di un credito a essa connesso."
+  },
+  {
+    "concetto": "contratto",
+    "definizione": "Accordo di due o più parti diretto a costituire, regolare o estinguere fra loro un rapporto giuridico patrimoniale."
+  },
+  {
+    "concetto": "autonomia-contrattuale",
+    "definizione": "Potere dei privati di scegliere il contenuto degli accordi patrimoniali e anche modelli non tipizzati, entro i limiti dell'ordinamento."
+  },
+  {
+    "concetto": "presunzione-di-conoscenza",
+    "definizione": "Regola per cui la dichiarazione si considera nota quando giunge all'indirizzo del destinatario, salvo prova dell'impossibilità incolpevole di averne notizia."
+  },
+  {
+    "concetto": "proposta-irrevocabile",
+    "definizione": "Dichiarazione di chi si obbliga a mantenere ferma per un certo tempo la propria offerta di accordo, senza poterla ritirare efficacemente in quel periodo."
+  },
+  {
+    "concetto": "responsabilita-precontrattuale",
+    "definizione": "Obbligo risarcitorio che deriva dalla violazione della buona fede o dei doveri informativi durante le trattative e la formazione dell'accordo."
+  },
+  {
+    "concetto": "interesse-negativo",
+    "definizione": "Interesse a non essere coinvolti inutilmente in trattative, che comprende spese inutili e occasioni alternative perdute e provate."
+  },
+  {
+    "concetto": "condizioni-generali-di-contratto",
+    "definizione": "Clausole predisposte unilateralmente per regolare uniformemente una pluralità di rapporti, soggette al controllo di conoscenza o conoscibilità."
+  },
+  {
+    "concetto": "errore-vizio",
+    "definizione": "Falsa rappresentazione della realtà che incide sul processo di formazione della volontà, rilevante se essenziale e riconoscibile."
+  },
+  {
+    "concetto": "errore-ostativo",
+    "definizione": "Inesattezza nella dichiarazione o nella sua trasmissione, che manifesta una volontà diversa da quella correttamente formata."
+  },
+  {
+    "concetto": "errore-di-calcolo",
+    "definizione": "Inesattezza dell'operazione aritmetica che normalmente giustifica una rettifica, anziché l'eliminazione dell'intero contratto."
+  },
+  {
+    "concetto": "dolo-determinante",
+    "definizione": "Inganno senza il quale la vittima non avrebbe concluso il contratto, idoneo a fondarne l'annullamento nei requisiti legali."
+  },
+  {
+    "concetto": "dolo-incidente",
+    "definizione": "Inganno che induce condizioni peggiori in un contratto che la vittima avrebbe comunque concluso; può dare diritto al risarcimento lasciando valido l'accordo."
+  },
+  {
+    "concetto": "violenza-morale",
+    "definizione": "Minaccia di un male ingiusto e notevole che induce una parte a contrattare e può giustificare l'annullamento."
+  },
+  {
+    "concetto": "timore-reverenziale",
+    "definizione": "Soggezione psicologica verso l'autorità o il prestigio di un'altra persona che, da sola, non giustifica l'annullamento del contratto."
+  },
+  {
+    "concetto": "forma-ad-probationem",
+    "definizione": "Modalità documentale richiesta ai fini della prova dell'atto, la cui mancanza limita i mezzi utilizzabili senza produrre di per sé invalidità."
+  },
+  {
+    "concetto": "rappresentanza",
+    "definizione": "Potere di concludere atti in nome e nell'interesse altrui, con effetti diretti nella sfera del soggetto per il quale si agisce."
+  },
+  {
+    "concetto": "procura",
+    "definizione": "Atto unilaterale che attribuisce a un altro il potere esterno di agire in nome di chi lo conferisce, distinto dal rapporto gestorio interno."
+  },
+  {
+    "concetto": "ratifica",
+    "definizione": "Atto con cui l'interessato fa propri gli effetti di un contratto concluso in suo nome senza poteri, con retroattività e salvezza dei diritti dei terzi."
+  },
+  {
+    "concetto": "contratto-per-persona-da-nominare",
+    "definizione": "Accordo nel quale uno stipulante si riserva di indicare il soggetto cui saranno attribuiti dall'origine diritti e obblighi, mediante designazione valida e tempestiva."
+  },
+  {
+    "concetto": "contratto-preliminare",
+    "definizione": "Accordo che obbliga a stipulare in seguito un definitivo già determinato nei suoi elementi essenziali, senza trasferire ordinariamente subito il diritto."
+  },
+  {
+    "concetto": "esecuzione-specifica-dell-obbligo-di-contrarre",
+    "definizione": "Rimedio dell'art. 2932 c.c. mediante cui il giudice produce gli effetti del definitivo che la parte obbligata si rifiuta di stipulare."
+  },
+  {
+    "concetto": "trascrizione-del-preliminare",
+    "definizione": "Formalità che prenota gli effetti del definitivo o della sentenza sostitutiva rispetto ad atti pregiudizievoli successivi, entro i limiti temporali di legge."
+  },
+  {
+    "concetto": "opzione",
+    "definizione": "Accordo che mantiene ferma una dichiarazione e lascia all'altra parte il potere di concludere il contratto mediante la sola accettazione."
+  },
+  {
+    "concetto": "prelazione-contrattuale-e-legale",
+    "definizione": "Preferenza nella scelta del contraente, alle condizioni previste, quando l'obbligato decide di concludere il negozio."
+  },
+  {
+    "concetto": "arbitraggio",
+    "definizione": "Determinazione di una prestazione contrattuale affidata a un terzo, distinta dalla decisione arbitrale di una controversia."
+  },
+  {
+    "concetto": "causa-del-contratto",
+    "definizione": "Giustificazione oggettiva dell'operazione negoziale concretamente realizzata, distinta dai motivi personali dei contraenti."
+  },
+  {
+    "concetto": "motivo-illecito-comune",
+    "definizione": "Ragione contraria all'ordinamento condivisa da entrambe le parti ed esclusivamente determinante della conclusione del negozio."
+  },
+  {
+    "concetto": "frode-alla-legge",
+    "definizione": "Uso di una struttura contrattuale come mezzo per eludere l'applicazione di una disposizione imperativa."
+  },
+  {
+    "concetto": "interpretazione-sistematica-del-contratto",
+    "definizione": "Lettura delle clausole le une per mezzo delle altre, attribuendo a ciascuna il senso che risulta dall'intero accordo."
+  },
+  {
+    "concetto": "principio-di-conservazione-del-contratto",
+    "definizione": "Criterio interpretativo che, fra significati plausibili, preferisce quello idoneo a produrre effetti a quello che non ne produrrebbe."
+  },
+  {
+    "concetto": "consenso-traslativo",
+    "definizione": "Principio secondo cui, per i diritti e i beni ammessi, l'accordo legittimamente manifestato produce direttamente il trasferimento o la costituzione del diritto."
+  },
+  {
+    "concetto": "recesso",
+    "definizione": "Potere di sciogliere unilateralmente il rapporto contrattuale sulla base della legge o di una previsione pattizia."
+  },
+  {
+    "concetto": "caparra-confirmatoria",
+    "definizione": "Somma o quantità di fungibili consegnata alla conclusione con funzione di conferma e tutela dell'adempimento, da trattenere o restituire raddoppiata nel rimedio tipico."
+  },
+  {
+    "concetto": "caparra-penitenziale",
+    "definizione": "Somma o quantità di fungibili che costituisce il prezzo del diritto pattuito di sciogliere unilateralmente il rapporto."
+  },
+  {
+    "concetto": "contratto-a-favore-di-terzo",
+    "definizione": "Stipulazione che attribuisce direttamente un diritto a un beneficiario estraneo alle parti, in presenza dell'interesse di chi stipula a suo vantaggio."
+  },
+  {
+    "concetto": "cessione-del-contratto",
+    "definizione": "Trasferimento dell'intera posizione di una parte in un rapporto corrispettivo con prestazioni non ancora eseguite, richiedente il consenso del contraente ceduto."
+  },
+  {
+    "concetto": "condizione-contrattuale",
+    "definizione": "Evento futuro e incerto cui le parti subordinano l'inizio o la cessazione degli effetti dell'accordo."
+  },
+  {
+    "concetto": "termine-di-efficacia",
+    "definizione": "Evento futuro e certo che delimita l'inizio o la fine degli effetti dell'atto, distinto dall'evento incerto."
+  },
+  {
+    "concetto": "modo-onere-modale",
+    "definizione": "Obbligo accessorio imposto al beneficiario di un'attribuzione gratuita, senza sospenderne necessariamente l'acquisto."
+  },
+  {
+    "concetto": "simulazione",
+    "definizione": "Intesa per creare un'apparenza negoziale non corrispondente agli effetti che le parti vogliono davvero, in tutto o in parte."
+  },
+  {
+    "concetto": "controdichiarazione",
+    "definizione": "Documento che prova l'accordo delle parti sulla divergenza fra negozio apparente ed effetti effettivamente voluti."
+  },
+  {
+    "concetto": "negozio-fiduciario",
+    "definizione": "Trasferimento realmente voluto di una titolarità accompagnato dall'obbligo di usarla o ritrasferirla secondo un patto interno."
+  },
+  {
+    "concetto": "nullita",
+    "definizione": "Invalidità originaria che impedisce gli effetti negoziali perseguiti, normalmente accertabile con pronuncia dichiarativa e azione imprescrittibile."
+  },
+  {
+    "concetto": "nullita-parziale",
+    "definizione": "Invalidità limitata a una parte dell'accordo o a singole clausole, con conservazione del resto quando ricorrono i presupposti legali."
+  },
+  {
+    "concetto": "conversione-del-contratto-nullo",
+    "definizione": "Produzione degli effetti di un diverso accordo, del quale l'atto invalido contiene i requisiti, secondo la volontà ipotetica e lo scopo delle parti."
+  },
+  {
+    "concetto": "nullita-di-protezione",
+    "definizione": "Regime di invalidità diretto a tutelare una parte debole, come il consumatore, con legittimazione e rilevabilità disciplinate in funzione di quella tutela."
+  },
+  {
+    "concetto": "annullabilita",
+    "definizione": "Invalidità che permette al soggetto protetto di eliminare con sentenza costitutiva un accordo provvisoriamente efficace."
+  },
+  {
+    "concetto": "convalida",
+    "definizione": "Atto consapevole della parte legittimata, capace e a conoscenza del vizio, che rende stabile un contratto annullabile."
+  },
+  {
+    "concetto": "rescissione",
+    "definizione": "Rimedio contro un contratto concluso in condizioni di pericolo o bisogno, con lo squilibrio e gli altri requisiti specificamente previsti dalla legge."
+  },
+  {
+    "concetto": "rescissione-per-lesione",
+    "definizione": "Rimedio contro il contratto stipulato in stato di bisogno sfruttato dall'altra parte, con sproporzione oltre la metà persistente fino alla domanda."
+  },
+  {
+    "concetto": "diffida-ad-adempiere",
+    "definizione": "Intimazione scritta che assegna un termine congruo per eseguire la prestazione e avverte che l'inutile scadenza scioglierà il contratto."
+  },
+  {
+    "concetto": "clausola-risolutiva-espressa",
+    "definizione": "Patto relativo a uno specifico inadempimento che determina lo scioglimento quando la parte interessata dichiara di volersene avvalere."
+  },
+  {
+    "concetto": "eccezione-di-inadempimento",
+    "definizione": "Rifiuto di eseguire la propria prestazione di fronte alla mancata esecuzione altrui, entro i limiti dei tempi dovuti e della buona fede."
+  },
+  {
+    "concetto": "eccessiva-onerosita-sopravvenuta",
+    "definizione": "Alterazione straordinaria e imprevedibile del peso della prestazione, oltre la normale alea, nei rapporti continuati, periodici o differiti."
+  },
+  {
+    "concetto": "presupposizione",
+    "definizione": "Circostanza oggettiva condivisa come base del contratto pur senza essere dedotta in un'espressa clausola."
+  },
+  {
+    "concetto": "consumatore",
+    "definizione": "Persona fisica che conclude l'atto per scopi estranei all'attività imprenditoriale o professionale eventualmente svolta."
+  },
+  {
+    "concetto": "professionista-del-consumo",
+    "definizione": "Soggetto che conclude l'atto nell'esercizio dell'attività imprenditoriale o professionale, contrapposto alla persona che agisce per esigenze private."
+  },
+  {
+    "concetto": "pratiche-commerciali-scorrette",
+    "definizione": "Condotte del professionista che alterano indebitamente le scelte economiche del consumatore mediante inganno, omissioni o pressioni."
+  },
+  {
+    "concetto": "clausole-vessatorie-consumo",
+    "definizione": "Pattuizioni che producono un significativo squilibrio a danno del consumatore e sono soggette al controllo sostanziale del Codice del consumo."
+  },
+  {
+    "concetto": "contratto-a-distanza",
+    "definizione": "Accordo concluso senza la presenza fisica simultanea delle parti nell'ambito di un sistema organizzato di vendita con mezzi di comunicazione remoti."
+  },
+  {
+    "concetto": "recesso-del-consumatore",
+    "definizione": "Diritto di ripensamento senza necessità di motivazione nei rapporti previsti dalla disciplina di consumo, entro termini e con eccezioni specifiche."
+  },
+  {
+    "concetto": "compravendita",
+    "definizione": "Contratto che trasferisce la proprietà di una cosa o un altro diritto verso un prezzo in denaro."
+  },
+  {
+    "concetto": "vendita-di-cosa-altrui",
+    "definizione": "Contratto con cui chi non è proprietario si obbliga a procurare al compratore l'acquisto del bene appartenente a un terzo."
+  },
+  {
+    "concetto": "evizione",
+    "definizione": "Perdita del diritto acquistato per effetto di un diritto altrui prevalente fatto valere sul bene, distinta dal difetto materiale della cosa."
+  },
+  {
+    "concetto": "aliud-pro-alio",
+    "definizione": "Consegna di un bene radicalmente diverso da quello pattuito, distinta da un semplice difetto qualitativo della cosa dovuta."
+  },
+  {
+    "concetto": "patto-di-riscatto",
+    "definizione": "Accordo con cui il venditore si riserva di riacquistare il bene restituendo prezzo e rimborsi entro i termini legali."
+  },
+  {
+    "concetto": "garanzia-legale-di-conformita",
+    "definizione": "Tutela obbligatoria del consumatore verso il venditore per un bene che non rispetta i requisiti soggettivi e oggettivi richiesti, con rimedi e termini propri."
+  },
+  {
+    "concetto": "garanzia-commerciale",
+    "definizione": "Impegno aggiuntivo offerto al compratore che non può ridurre i diritti inderogabili spettanti verso il venditore per i difetti del bene."
+  },
+  {
+    "concetto": "vendita-con-riserva-di-proprieta",
+    "definizione": "Contratto a rate nel quale il diritto sul bene passa con l'ultimo pagamento, mentre il rischio grava sul compratore dalla consegna."
+  },
+  {
+    "concetto": "permuta",
+    "definizione": "Contratto di scambio reciproco della proprietà di cose o di altri diritti, senza il prezzo monetario caratteristico della vendita."
+  },
+  {
+    "concetto": "contratto-estimatorio",
+    "definizione": "Contratto che consegna mobili a un soggetto tenuto a pagarne il prezzo, salvo restituirli entro il termine stabilito."
+  },
+  {
+    "concetto": "somministrazione",
+    "definizione": "Contratto avente a oggetto prestazioni periodiche o continuative di cose verso un corrispettivo."
+  },
+  {
+    "concetto": "locazione",
+    "definizione": "Contratto che attribuisce il godimento temporaneo di una cosa contro un corrispettivo, senza trasferirne la proprietà."
+  },
+  {
+    "concetto": "affitto",
+    "definizione": "Contratto di godimento di una cosa produttiva, con obbligo di gestirla secondo la sua destinazione e diritto ai prodotti e alle utilità."
+  },
+  {
+    "concetto": "leasing-finanziario",
+    "definizione": "Operazione in cui un soggetto acquista o fa costruire il bene scelto dal cliente e glielo concede in uso contro canoni, con opzione finale di acquisto."
+  },
+  {
+    "concetto": "appalto",
+    "definizione": "Contratto per il compimento di un'opera o di un servizio, con organizzazione dei mezzi e gestione a rischio di chi lo esegue, contro denaro."
+  },
+  {
+    "concetto": "trasporto",
+    "definizione": "Contratto che obbliga a trasferire persone o cose da un luogo a un altro verso corrispettivo."
+  },
+  {
+    "concetto": "mandato",
+    "definizione": "Contratto con cui una parte si obbliga a compiere atti giuridici per conto dell'altra, con o senza potere di agire in suo nome."
+  },
+  {
+    "concetto": "commissione",
+    "definizione": "Contratto con cui si assume l'obbligo di acquistare o vendere beni in nome proprio per conto altrui."
+  },
+  {
+    "concetto": "agenzia",
+    "definizione": "Contratto che attribuisce stabilmente l'incarico di promuovere, verso retribuzione, la conclusione di contratti in una zona determinata."
+  },
+  {
+    "concetto": "mediazione",
+    "definizione": "Attività di mettere in relazione due o più parti per un affare senza essere legati a esse da rapporti di collaborazione, dipendenza o rappresentanza."
+  },
+  {
+    "concetto": "deposito",
+    "definizione": "Contratto che ha per oggetto la custodia di una cosa mobile e la restituzione della stessa in natura."
+  },
+  {
+    "concetto": "comodato",
+    "definizione": "Contratto essenzialmente gratuito che attribuisce l'uso di un bene con obbligo di restituire proprio il bene ricevuto."
+  },
+  {
+    "concetto": "mutuo",
+    "definizione": "Contratto che trasferisce denaro o altre cose fungibili con obbligo di restituirne altrettante della stessa specie e qualità."
+  },
+  {
+    "concetto": "apertura-di-credito",
+    "definizione": "Contratto con cui una banca si obbliga a tenere a disposizione del cliente una somma per un periodo o a tempo indeterminato, entro i limiti convenuti."
+  },
+  {
+    "concetto": "assicurazione",
+    "definizione": "Contratto che, contro pagamento di un premio, pone a carico di un soggetto un rischio, con indennizzo di danni o prestazione legata alla vita umana."
+  },
+  {
+    "concetto": "fideiussione",
+    "definizione": "Garanzia personale di un debito altrui, normalmente accessoria all'obbligazione principale e solidale con quella del debitore."
+  },
+  {
+    "concetto": "garanzia-autonoma",
+    "definizione": "Impegno di pagamento volto a trasferire il rischio dell'inadempimento secondo un regolamento separato dal rapporto sottostante, da qualificare in base al contenuto concreto."
+  },
+  {
+    "concetto": "promessa-di-pagamento",
+    "definizione": "Dichiarazione che dispensa il destinatario dal provare inizialmente il rapporto fondamentale, la cui esistenza si presume fino a prova contraria."
+  },
+  {
+    "concetto": "promessa-al-pubblico",
+    "definizione": "Dichiarazione resa a destinatari indeterminati che vincola chi la formula a favore di chi si trovi nella situazione indicata o compia l'azione richiesta."
+  },
+  {
+    "concetto": "titolo-di-credito",
+    "definizione": "Documento che collega l'esercizio e la circolazione del diritto a un possesso qualificato secondo regole di letteralità e autonomia."
+  },
+  {
+    "concetto": "cambiale",
+    "definizione": "Titolo formale all'ordine che contiene un ordine di pagamento nella tratta o una promessa diretta nel pagherò, con disciplina speciale delle obbligazioni cartolari."
+  },
+  {
+    "concetto": "accettazione-cambiaria",
+    "definizione": "Dichiarazione con cui il trattario assume l'obbligazione principale al pagamento della tratta."
+  },
+  {
+    "concetto": "girata-cambiaria",
+    "definizione": "Dichiarazione apposta sul titolo all'ordine per trasferirlo o attribuire specifiche funzioni di riscossione o garanzia secondo la legge cartolare."
+  },
+  {
+    "concetto": "avallo",
+    "definizione": "Garanzia cartolare del pagamento di un obbligato, caratterizzata da autonomia salvo il vizio di forma dell'obbligazione garantita."
+  },
+  {
+    "concetto": "assegno-bancario",
+    "definizione": "Titolo che contiene l'ordine del traente alla banca di pagare a vista una determinata somma, distinto dalla promessa propria del titolo emesso dalla banca."
+  },
+  {
+    "concetto": "assegno-circolare",
+    "definizione": "Titolo contenente la promessa di una banca autorizzata di pagare a vista una somma già disponibile presso di essa."
+  },
+  {
+    "concetto": "gestione-di-affari-altrui",
+    "definizione": "Intervento spontaneo e consapevole nell'interesse di una persona impossibilitata a provvedere al proprio affare, con effetti obbligatori nei requisiti legali."
+  },
+  {
+    "concetto": "pagamento-dell-indebito",
+    "definizione": "Esecuzione di una prestazione non dovuta, che consente di domandarne la restituzione nei presupposti della disciplina oggettiva o soggettiva applicabile."
+  },
+  {
+    "concetto": "arricchimento-senza-causa",
+    "definizione": "Incremento patrimoniale ingiustificato a spese di un'altra persona, che può fondare un indennizzo entro i limiti del vantaggio e dell'impoverimento, in via residuale."
+  },
+  {
+    "concetto": "responsabilita-extracontrattuale",
+    "definizione": "Obbligo di risarcire un danno ingiusto derivante da fatto illecito, distinto dalla violazione di un vincolo obbligatorio preesistente."
+  },
+  {
+    "concetto": "imputabilita-civile",
+    "definizione": "Capacità di comprendere e volere il comportamento nel momento del fatto dannoso, distinta dalla capacità legale di compiere negozi."
+  },
+  {
+    "concetto": "responsabilita-dei-preponenti",
+    "definizione": "Regime dell'art. 2049 c.c. per gli illeciti dei preposti collegati alle incombenze affidate, non superabile con la sola prova di diligenza nella scelta."
+  },
+  {
+    "concetto": "danno-da-cosa-in-custodia",
+    "definizione": "Regime dell'art. 2051 c.c. per il pregiudizio causato da un bene sottoposto al potere del soggetto chiamato a rispondere, salvo il caso fortuito."
+  },
+  {
+    "concetto": "danno-patrimoniale",
+    "definizione": "Pregiudizio economicamente valutabile costituito da perdita subita e mancato guadagno."
+  },
+  {
+    "concetto": "danno-non-patrimoniale",
+    "definizione": "Pregiudizio alla persona risarcibile nelle ipotesi di legge e di tutela dei diritti inviolabili, senza duplicare le stesse conseguenze sotto nomi diversi."
+  },
+  {
+    "concetto": "danno-biologico",
+    "definizione": "Lesione dell'integrità psicofisica medicalmente accertabile, considerata indipendentemente dalla capacità di produrre reddito."
+  },
+  {
+    "concetto": "reintegrazione-in-forma-specifica",
+    "definizione": "Rimedio risarcitorio che ripristina concretamente la situazione lesa, quando possibile e non eccessivamente oneroso, anziché limitarsi a una somma sostitutiva."
+  },
+  {
+    "concetto": "matrimonio",
+    "definizione": "Atto costitutivo del vincolo coniugale e rapporto personale e patrimoniale che ne deriva."
+  },
+  {
+    "concetto": "unione-civile",
+    "definizione": "Vincolo familiare costituito fra due maggiorenni dello stesso sesso secondo la l. 76/2016, distinto dalla sola vita comune."
+  },
+  {
+    "concetto": "convivenza-di-fatto",
+    "definizione": "Relazione stabile di coppia con reciproca assistenza morale e materiale, cui la legge attribuisce tutele specifiche senza equipararla integralmente al matrimonio."
+  },
+  {
+    "concetto": "separazione-personale",
+    "definizione": "Regolazione legale della crisi coniugale che modifica alcuni effetti del rapporto ma conserva il vincolo matrimoniale."
+  },
+  {
+    "concetto": "divorzio",
+    "definizione": "Scioglimento del matrimonio civile o cessazione degli effetti civili di quello religioso, distinto dalla sola regolazione della vita separata."
+  },
+  {
+    "concetto": "assegno-divorzile",
+    "definizione": "Prestazione economica all'ex coniuge con funzione assistenziale e compensativa-perequativa, da valutare secondo condizioni e contributi al rapporto familiare."
+  },
+  {
+    "concetto": "comunione-legale",
+    "definizione": "Regime patrimoniale dei coniugi applicabile in mancanza di diversa convenzione, con acquisti immediatamente comuni, beni personali e acquisti de residuo."
+  },
+  {
+    "concetto": "separazione-dei-beni",
+    "definizione": "Regime patrimoniale coniugale che mantiene individuali le titolarità degli acquisti, lasciando fermo il dovere di contribuzione ai bisogni familiari."
+  },
+  {
+    "concetto": "fondo-patrimoniale",
+    "definizione": "Vincolo di destinazione di determinati beni ai bisogni della famiglia, con disciplina specifica dell'amministrazione e dei limiti all'esecuzione."
+  },
+  {
+    "concetto": "impresa-familiare",
+    "definizione": "Tutela residuale del lavoro continuativo dei familiari e del convivente nell'attività economica, con diritti di mantenimento e partecipazione previsti dalla legge."
+  },
+  {
+    "concetto": "disconoscimento-di-paternita",
+    "definizione": "Azione di stato diretta a superare il rapporto paterno fondato sulla presunzione matrimoniale, con disciplina diversa per figlio e altri legittimati."
+  },
+  {
+    "concetto": "responsabilita-genitoriale",
+    "definizione": "Funzione di cura, educazione e protezione esercitata nell'interesse dei figli, comprensiva dei poteri e doveri previsti dalla legge."
+  },
+  {
+    "concetto": "affidamento-familiare",
+    "definizione": "Accoglienza temporanea di un minore presso un'altra famiglia durante una difficoltà della famiglia d'origine, distinta dalla costituzione di un rapporto adottivo."
+  },
+  {
+    "concetto": "riconoscimento-del-figlio",
+    "definizione": "Atto personale e formale che dichiara il rapporto di filiazione nei casi ammessi, irrevocabile salvo le specifiche azioni di impugnazione."
+  },
+  {
+    "concetto": "dichiarazione-giudiziale-filiazione",
+    "definizione": "Accertamento di paternità o maternità ottenuto mediante sentenza quando manca l'atto volontario del genitore."
+  },
+  {
+    "concetto": "alimenti",
+    "definizione": "Prestazione dovuta a chi versa in stato di bisogno e non riesce a provvedere al proprio sostentamento, commisurata anche alle risorse dell'obbligato."
+  },
+  {
+    "concetto": "successione-mortis-causa",
+    "definizione": "Subentro nei rapporti trasmissibili di una persona alla sua morte, con fonte legale o testamentaria e attribuzioni universali o particolari."
+  },
+  {
+    "concetto": "erede",
+    "definizione": "Soggetto che subentra nell'universalità o in una quota del patrimonio del defunto, normalmente mediante accettazione, partecipando anche alla posizione debitoria."
+  },
+  {
+    "concetto": "delazione-ereditaria",
+    "definizione": "Offerta dell'eredità al chiamato, distinta dal successivo acquisto, che fonda i poteri conservativi previsti prima dell'accettazione."
+  },
+  {
+    "concetto": "rappresentazione-successoria",
+    "definizione": "Meccanismo per cui i discendenti subentrano al figlio o fratello o sorella del defunto che non può o non vuole accettare, con riparto per stirpi."
+  },
+  {
+    "concetto": "accettazione-eredita",
+    "definizione": "Atto o comportamento qualificato che determina l'acquisto della qualità di erede con effetto retroattivo all'apertura della successione."
+  },
+  {
+    "concetto": "beneficio-d-inventario",
+    "definizione": "Modalità di acquisto dell'eredità che conserva separati i patrimoni e limita la responsabilità per debiti e legati al valore ricevuto, con adempimenti formali richiesti."
+  },
+  {
+    "concetto": "rinuncia-eredita",
+    "definizione": "Dichiarazione formale con cui il chiamato rifiuta l'acquisto ereditario, resa davanti a notaio o cancelliere competente e inserita nel registro delle successioni."
+  },
+  {
+    "concetto": "petizione-ereditaria",
+    "definizione": "Azione per far riconoscere la propria qualità di erede e recuperare beni posseduti da chi si afferma erede senza esserlo o non ha titolo."
+  },
+  {
+    "concetto": "successione-legittima",
+    "definizione": "Devoluzione dell'eredità stabilita dalla legge per quanto non è regolato validamente dal testamento, distinta dalla tutela della riserva."
+  },
+  {
+    "concetto": "legittimari",
+    "definizione": "Familiari ai quali la legge riserva una quota o diritti nella successione: coniuge, figli e, nei casi previsti, ascendenti, con le equiparazioni legali."
+  },
+  {
+    "concetto": "quota-di-legittima",
+    "definizione": "Porzione di patrimonio riservata dalla legge a determinati familiari, calcolata sulla massa che comprende anche le donazioni secondo i criteri legali."
+  },
+  {
+    "concetto": "riunione-fittizia",
+    "definizione": "Calcolo della massa per la riserva mediante valore dei beni rimasti meno debiti più donazioni, senza far rientrare materialmente queste ultime nell'eredità."
+  },
+  {
+    "concetto": "azione-di-riduzione",
+    "definizione": "Rimedio del familiare titolare di riserva contro disposizioni testamentarie e donazioni lesive, che ne limita gli effetti nella misura necessaria alla reintegrazione."
+  },
+  {
+    "concetto": "testamento",
+    "definizione": "Atto personale, unilaterale e revocabile con cui si dispone per il tempo successivo alla propria morte, con contenuti patrimoniali e altri ammessi."
+  },
+  {
+    "concetto": "testamento-olografo",
+    "definizione": "Forma di disposizione per il tempo dopo la morte che richiede scrittura integrale, data e sottoscrizione di mano del suo autore."
+  },
+  {
+    "concetto": "testamento-pubblico",
+    "definizione": "Forma di disposizione per il tempo dopo la morte ricevuta dal notaio con dichiarazione dell'autore, testimoni, lettura e sottoscrizioni prescritte."
+  },
+  {
+    "concetto": "legato",
+    "definizione": "Attribuzione successoria a titolo particolare che si acquista senza accettazione, salva rinuncia, distinta dalla successione universale dell'erede."
+  },
+  {
+    "concetto": "prelegato",
+    "definizione": "Attribuzione particolare a favore di un coerede posta a carico dell'intera eredità, che si aggiunge alla sua posizione di successore universale."
+  },
+  {
+    "concetto": "retratto-successorio",
+    "definizione": "Riscatto della quota ereditaria alienata a un estraneo senza la notificazione dovuta agli altri coeredi, esercitabile finché dura la comunione nei requisiti di legge."
+  },
+  {
+    "concetto": "divisione-ereditaria",
+    "definizione": "Operazione che scioglie la contitolarità derivante dalla successione assegnando ai coeredi beni o valori corrispondenti alle rispettive quote."
+  },
+  {
+    "concetto": "collazione",
+    "definizione": "Conferimento delle donazioni ricevute dai coeredi familiari indicati dalla legge per formare la massa da ripartire, salva dispensa entro la disponibile."
+  },
+  {
+    "concetto": "donazione",
+    "definizione": "Contratto che, per spirito di liberalità, arricchisce una parte disponendo a suo favore di un diritto o assumendo un'obbligazione."
+  },
+  {
+    "concetto": "donazione-indiretta",
+    "definizione": "Liberalità realizzata mediante un negozio diverso realmente voluto, come il pagamento per spirito liberale di un debito altrui."
+  },
+  {
+    "concetto": "donazione-modale",
+    "definizione": "Liberalità gravata da un obbligo a carico del beneficiario, che è tenuto al suo adempimento entro il valore ricevuto."
+  },
+  {
+    "concetto": "revocazione-donazione",
+    "definizione": "Rimedio che rimuove gli effetti di una liberalità per ingratitudine o sopravvenienza di figli nei casi di legge, distinto dalla tutela della quota di riserva."
+  },
+  {
+    "concetto": "trascrizione",
+    "definizione": "Formalità pubblicitaria delle vicende immobiliari e di mobili registrati che svolge tipicamente una funzione di opponibilità nei conflitti fra aventi causa."
+  },
+  {
+    "concetto": "continuita-trascrizioni",
+    "definizione": "Principio che richiede il collegamento pubblicitario degli acquisti anteriori della stessa catena per far valere gli effetti dell'acquisto successivo."
+  },
+  {
+    "concetto": "trascrizione-domande-giudiziali",
+    "definizione": "Formalità che rende opponibili ai successivi aventi causa gli effetti dell'eventuale accoglimento della lite nei casi e requisiti stabiliti dalla legge."
+  }
+]

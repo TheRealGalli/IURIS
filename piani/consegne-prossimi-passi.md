@@ -16,7 +16,7 @@ Regole valide per tutti i passi:
 |---|---|---|
 | 1 | Glossario degli Originali di privato | Completato: 361 voci, 476 etichette; collegamenti ripetuti nei capoversi |
 | 2 | Più domande per privato | Completato: 392 nuove domande, 1.426 totali; tutte le 98 lezioni hanno almeno 14 domande |
-| 3 | Schede inverse di privato | |
+| 3 | Schede inverse di privato | Completato: 333 schede curate, con copertura di tutte le 27 unità |
 | 4 | Stile delle unità 12–27 di privato | |
 | 5 | Quadro di privato e di Filosofia | |
 | 6 | Approfondimenti («oltre») | |
@@ -61,13 +61,22 @@ sintesi, voci e mappe. Sostituiti i nuovi completamenti che ripetevano la rispos
 stessa lezione. Validazione delle 27 unità senza errori, build e `check:build` riusciti, inclusi 1.348 controlli
 su 11 dispositivi. Verificata l'identità delle 1.426 domande nella versione compilata; risolte correttamente
 24 nuove domande nel browser (u01-l1, u17-l2, u26-l4 a 393 e 1280 px), senza sbordi né errori.
-Ripartire dal **passo 3: schede inverse**.
+Le schede inverse sono documentate nel passo seguente.
 
 ## 3. Schede inverse di privato
 
 Formato e regole in `studio/CONTENUTI.md`; esempio: `Diritto Costituzionale/05 - Contenuti/schede-inverse.json`
 e `Filosofia del Diritto SSG/05 - Contenuti/schede-inverse.json`. Una scheda per le voci principali (almeno 250):
 dalla definizione al nome. Attenzione agli alias uguali tra voci diverse: il sync si ferma.
+
+Passo 3: creato `Diritto Privato/05 - Contenuti/schede-inverse.json` con **333 definizioni curate** di voci
+principali, distribuite su tutte le 27 unità. Selezionati istituti e distinzioni riconoscibili; le definizioni
+non contengono il termine atteso o i suoi alias e non sono duplicati fra loro. Le 1.426 domande delle lezioni
+restano invariate; le nuove carte hanno identificativi `glossario-inversa-…`.
+Validazione e compilazione delle 333 carte riuscite; verificata l'identità delle 1.426 domande delle lezioni.
+Completate 12 prove di ripasso nel browser, su telefono e desktop, con salvataggio delle nuove carte.
+Build e `check:build` superati, inclusi 1.348 controlli su 11 dispositivi senza sbordi.
+Ripartire dal **passo 4: precisione e stile delle unità 12–27**.
 
 ## 4. Stile delle unità 12–27 di privato
 

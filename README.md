@@ -14,7 +14,7 @@ Le materie si scelgono da una griglia di simboli su due colonne, nella barra lat
 | SSG | Filosofia del diritto | Disponibile, programma dedicato |
 | LMG · I anno · A–L | Diritto costituzionale | Disponibile: 18 unità, 50 lezioni, 760 domande, testo della Costituzione, quadro d'insieme |
 | SSG | Diritto costituzionale | In arrivo, con appunti propri |
-| LMG e SSG | Diritto privato | Disponibile: 27 unità, 98 lezioni e 1.426 domande, almeno 14 per lezione (parte generale, diritti reali, obbligazioni, contratti, famiglia, successioni e trascrizione), Codice civile completo consultabile |
+| LMG e SSG | Diritto privato | Disponibile: 27 unità, 98 lezioni e 1.426 domande, almeno 14 per lezione, più 333 schede inverse del glossario (parte generale, diritti reali, obbligazioni, contratti, famiglia, successioni e trascrizione), Codice civile completo consultabile |
 
 Progetto di Carlo Galli ([@TheRealGalli](https://github.com/TheRealGalli)), realizzato con l'aiuto di tre assistenti IA: **Claude** (Anthropic), **ChatGPT/Codex** (OpenAI) e **Grok** (xAI).
 
