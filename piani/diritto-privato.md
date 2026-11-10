@@ -2,7 +2,7 @@
 
 Stato: **in corso**. Fonte arrivata il 10 novembre 2026: dispensa di Nick Petrullo e Ludovico Mainieri sul manuale
 Torrente–Schlesinger (2012), 238 pagine fitte, 72 capitoli. Testo per pagina in
-`Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Fatta l'unità 1; la materia è attiva nei tre corsi.
+`Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Fatte le unità 1–7 (parte generale, pp. 1–50); la materia è attiva nei tre corsi.
 
 Attenzione: la dispensa è del **2012**. Vanno aggiornati almeno: filiazione (l. 219/2012 e d.lgs. 154/2013: stato
 unico di figlio, responsabilità genitoriale), unioni civili e convivenze (l. 76/2016), divorzio breve (l. 55/2015),
@@ -23,7 +23,8 @@ node studio/scripts/validate-content.mjs "Diritto Privato/05 - Contenuti/uNN.jso
 
 Gli articoli del Codice vanno citati sempre con la sigla, «art. 1321 c.c.» o «artt. 1325 e 1418 c.c.»: solo così
 la sezione Codice civile li collega alla lezione e alle domande. Nelle risposte da completare evitare le parole che
-sono anche numeri («sei»): `check-domande` le rifiuta.
+sono anche numeri («sei»): `check-domande` le rifiuta. La definizione estesa di ogni voce diventa la risposta della carta di
+glossario: deve dire da sola che cos'è la voce (almeno 40 caratteri, non cominciare con «Esempi…» o «Vi si…»).
 
 ## Unità previste
 
@@ -32,10 +33,10 @@ sono anche numeri («sei»): `check-domande` le rifiuta.
 | u01 Ordinamento, norma e fonti | 1–2 | 1–8 | fatta |
 | u02 Legge nel tempo, interpretazione, conflitti di leggi | 3–5 | 9–15 | fatta |
 | u03 Situazioni giuridiche soggettive | 6 | 16–18 | fatta |
-| u04 La persona fisica | 7 A–B | 19–27 | |
-| u05 Gli enti | 7 C | 28–32 | |
-| u06 Beni; fatto, atto e negozio giuridico | 8–9 | 33–41 | |
-| u07 Prescrizione e decadenza, tutela giurisdizionale, prove | 10–12 | 42–50 | |
+| u04 La persona fisica | 7 A–B | 19–27 | fatta |
+| u05 Gli enti | 7 C | 28–32 | fatta |
+| u06 Beni; fatto, atto e negozio giuridico | 8–9 | 33–41 | fatta |
+| u07 Prescrizione e decadenza, tutela giurisdizionale, prove | 10–12 | 42–50 | fatta |
 | u08 Diritti reali e proprietà | 13 | 51–66 | |
 | u09 Diritti reali di godimento | 14 | 67–73 | |
 | u10 Comunione, condominio, multiproprietà | 15 | 74–77 | |

@@ -9,7 +9,7 @@ Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usal
    più schede inverse, approfondimenti, testo della Costituzione, Quadro ed esercizi dedicati.
    Fonti, aggiornamenti e controlli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md);
    che cosa resta da fare (anche per Filosofia SSG) in [`piani/potenziamento.md`](piani/potenziamento.md).
-2. **Diritto privato, in corso** (materia unica per le tre classi): fatta l'unità 1 di 27 e la sezione Codice civile.
+2. **Diritto privato, in corso** (materia unica per le tre classi): fatte 7 unità su 27 e la sezione Codice civile.
    [`piani/diritto-privato.md`](piani/diritto-privato.md) ha la tabella delle unità, gli aggiornamenti da fare (la
    dispensa è del 2012) e il modo più rapido di scrivere un'unità (`piani/strumenti/unita.py`).
 3. **Corsi con appunti propri.** Diritto romano è condiviso tra LMG A-L e SSG (stessi appunti, stessi progressi).
