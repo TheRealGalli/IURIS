@@ -5,6 +5,9 @@ Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usal
 
 ## Lavoro in corso
 
+**Si riparte da [`piani/consegne-prossimi-passi.md`](piani/consegne-prossimi-passi.md)**: otto passi in ordine per portare le
+materie al livello di Diritto romano. Diritto privato ha tutte le 27 unità; il resto di questo elenco è contesto.
+
 1. **Diritto costituzionale completato e potenziato** (LMG · I anno · A-L): 18 unità, 50 lezioni e 760 domande,
    più schede inverse, approfondimenti, testo della Costituzione, Quadro ed esercizi dedicati.
    Fonti, aggiornamenti e controlli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md);
