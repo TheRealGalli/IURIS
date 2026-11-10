@@ -168,6 +168,8 @@ export interface Articolo {
   n: string; tema?: string; commi: string[]; modificato?: boolean; abrogato?: boolean; disposizione?: boolean;
   /** serie con numerazione propria (le preleggi): non si confonde con gli articoli dell'atto */
   serie?: string;
+  /** testo che l'articolo aveva prima di essere abrogato, quando è noto */
+  precedente?: string[];
   lezioni?: string[]; domande?: string[];
 }
 export interface Norme {

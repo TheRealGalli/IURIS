@@ -58,7 +58,7 @@ def leggi(file, serie=None):
     def chiudi():
         nonlocal art
         if art is None: return
-        righe = [pulisci(x) for x in re.split(r'<br\s*/?>|\n', art.pop('raw'))]
+        righe = [pulisci(x) for x in re.split(r'</?br\s*/?>|\n', art.pop('raw'))]
         art['commi'] = [x for x in righe if x and not re.fullmatch(r'[-–—=\s]*', x)]
         prima = art['commi'][0] if art['commi'] else ''
         if not art['commi'] or re.match(r'\(?\s*(?:articolo\s+)?abrogat', prima, re.I) or re.search(r'abrogat', art.get('tema', ''), re.I):
@@ -96,6 +96,21 @@ def leggi(file, serie=None):
     return gruppi
 
 AGGIORNAMENTI = {}
+# campi di servizio di norme-aggiornamenti.json che non vanno nei file pubblicati
+META = {'fonte', 'verificato', 'vigenteDal', 'nuovo'}
+# intestazioni che la base riporta ancora nella forma anteriore alla riforma della filiazione (d.lgs. 154/2013)
+INTESTAZIONI = {
+    'Titolo IX · Della potestà dei genitori': 'Titolo IX · Della responsabilità genitoriale e dei diritti e doveri del figlio',
+    'Capo I · Dello Stato di figlio legittimo': 'Capo I–III · Dello stato di figlio',
+    'Sezione I · Dello stato di figlio legittimo': 'Della presunzione di paternità',
+    'Sezione II · Delle prove della filiazione legittima': 'Delle prove della filiazione',
+    'Sezione III · Dell’azione di disconoscimento e delle azioni di contestazione e di reclamo di legittimità': 'Dell’azione di disconoscimento e delle azioni di contestazione e di reclamo dello stato di figlio',
+    'Capo II · Della filiazione naturale e della legittimazione': 'Capo IV–V · Dei figli nati fuori del matrimonio',
+    'Sezione I · Della filiazione naturale': 'Riconoscimento e dichiarazione giudiziale',
+    '§1 · Del riconoscimento dei figli naturali': 'Del riconoscimento dei figli nati fuori del matrimonio',
+    '§ 2 · Della dichiarazione giudiziale della paternità e della maternità naturale': 'Della dichiarazione giudiziale della paternità e della maternità',
+    'Sezione II · Della legittimazione dei figli naturali': 'Della legittimazione (abrogata)',
+}
 
 def genera():
     global AGGIORNAMENTI
@@ -114,12 +129,27 @@ def genera():
         visti = set()
         for g in gruppi:
             g['articoli'] = [a for a in g['articoli'] if not (a['n'] in visti or visti.add(a['n']))]
+            g['titolo'] = ' › '.join(INTESTAZIONI.get(x, x) for x in g['titolo'].split(' › '))
             for a in g['articoli']:
                 agg = AGGIORNAMENTI.get(a['n']) if not serie else None
                 if agg:
-                    a.update(agg)
+                    a.update({k: v for k, v in agg.items() if k not in META})
                     if agg.get('abrogato'): a['commi'] = [agg.get('nota', 'Articolo abrogato.')]; a.pop('nota', None)
+                    else: a.pop('abrogato', None)
         gruppi = [g for g in gruppi if g['articoli']]
+        # articoli che la base non ha (aggiunti da leggi successive): entrano dopo quello che li precede
+        if not serie and gruppi:
+            chiavi = [chiave_articolo(a['n']) for g in gruppi for a in g['articoli']]
+            for n, agg in sorted(AGGIORNAMENTI.items(), key=lambda kv: chiave_articolo(kv[0])):
+                k = chiave_articolo(n)
+                if not agg.get('nuovo') or not (min(chiavi)[0] <= k[0] <= max(chiavi)[0]) or k in chiavi: continue
+                dove = None
+                for g in gruppi:
+                    for i, a in enumerate(g['articoli']):
+                        if chiave_articolo(a['n']) < k: dove = (g, i)
+                if dove is None: continue
+                dove[0]['articoli'].insert(dove[1] + 1, {'n': n, **{x: v for x, v in agg.items() if x not in META}})
+                chiavi.append(k)
         n = sum(len(g['articoli']) for g in gruppi)
         (DEST / 'norme').mkdir(exist_ok=True)
         (DEST / 'norme' / f'{ident}.json').write_text(json.dumps({'gruppi': gruppi}, ensure_ascii=False, indent=1) + '\n', encoding='utf8')
@@ -148,10 +178,13 @@ def genera():
     doppi = sorted(n for n, k in visti.items() if k > 1)
     base = {chiave_articolo(n)[0] for n in visti}
     mancanti = [n for n in range(1, 2970) if n not in base]
+    date_verifica = sorted({v['verificato'] for v in AGGIORNAMENTI.values() if v.get('fonte') == 'normattiva'})
+    AGGIORNAMENTO = (f'Testo confrontato articolo per articolo con quello vigente su Normattiva il {date_verifica[-1]}.' if date_verifica
+                     else 'Testo da Wikisource, che lo dichiara aggiornato al 6 luglio 2022: le modifiche successive sono in corso di verifica.')
     norme = {
         'nome': 'Codice civile', 'atto': 'Codice civile', 'sigla': 'c.c.',
-        'aggiornamento': 'Testo da Wikisource, che lo dichiara aggiornato al 6 luglio 2022: le modifiche successive sono in corso di verifica articolo per articolo.',
-        'fonte': {'titolo': 'Wikisource, Codice civile (testo di pubblico dominio)', 'url': 'https://it.wikisource.org/wiki/Codice_civile'},
+        'aggiornamento': AGGIORNAMENTO,
+        'fonte': {'titolo': 'Normattiva, Codice civile (testo vigente); base da Wikisource', 'url': 'https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262'},
         'libri': libri,
     }
     (DEST / 'norme.json').write_text(json.dumps(norme, ensure_ascii=False, indent=1) + '\n', encoding='utf8')

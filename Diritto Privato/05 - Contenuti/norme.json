@@ -2,10 +2,10 @@
  "nome": "Codice civile",
  "atto": "Codice civile",
  "sigla": "c.c.",
- "aggiornamento": "Testo da Wikisource, che lo dichiara aggiornato al 6 luglio 2022: le modifiche successive sono in corso di verifica articolo per articolo.",
+ "aggiornamento": "Testo confrontato articolo per articolo con quello vigente su Normattiva il 2026-11-10.",
  "fonte": {
-  "titolo": "Wikisource, Codice civile (testo di pubblico dominio)",
-  "url": "https://it.wikisource.org/wiki/Codice_civile"
+  "titolo": "Normattiva, Codice civile (testo vigente); base da Wikisource",
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262"
  },
  "libri": [
   {
@@ -18,37 +18,37 @@
    "id": "libro-i",
    "titolo": "Libro I · Delle persone e della famiglia",
    "file": "norme/libro-i.json",
-   "articoli": 433
+   "articoli": 445
   },
   {
    "id": "libro-ii",
    "titolo": "Libro II · Delle successioni",
    "file": "norme/libro-ii.json",
-   "articoli": 355
+   "articoli": 356
   },
   {
    "id": "libro-iii",
    "titolo": "Libro III · Della proprietà",
    "file": "norme/libro-iii.json",
-   "articoli": 363
+   "articoli": 371
   },
   {
    "id": "libro-iv",
    "titolo": "Libro IV · Delle obbligazioni",
    "file": "norme/libro-iv.json",
-   "articoli": 898
+   "articoli": 901
   },
   {
    "id": "libro-v",
    "titolo": "Libro V · Del lavoro",
    "file": "norme/libro-v.json",
-   "articoli": 635
+   "articoli": 746
   },
   {
    "id": "libro-vi",
    "titolo": "Libro VI · Della tutela dei diritti",
    "file": "norme/libro-vi.json",
-   "articoli": 327
+   "articoli": 337
   }
  ]
 }

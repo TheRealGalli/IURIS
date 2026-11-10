@@ -13,6 +13,7 @@ Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usal
    domande, più la sezione Codice civile. Gli aggiornamenti della dispensa del 2012, la tabella delle unità e i
    controlli sono in [`piani/diritto-privato.md`](piani/diritto-privato.md); il riepilogo finale è in
    [`piani/consegne-diritto-privato.md`](piani/consegne-diritto-privato.md).
+   Il Codice civile dell'app è allineato al testo vigente di Normattiva (`studio/scripts/codice-normattiva.py`, vedi il piano).
 3. **Corsi con appunti propri.** Diritto romano è condiviso tra LMG A-L e SSG (stessi appunti, stessi progressi).
    Diritto costituzionale **SSG** avrà appunti diversi da quelli di LMG: quando arrivano, sarà una materia nuova
    (cartella propria, es. `Diritto Costituzionale SSG/`, slug `diritto-costituzionale-ssg`, come Filosofia SSG), non

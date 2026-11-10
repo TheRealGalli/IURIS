@@ -8,7 +8,11 @@
   margin: 0 0 10px; line-height: 1.45; }
 .norma { padding: 18px 20px; margin-bottom: 10px; scroll-margin-top: 150px; }
 .norma-sel { border-color: var(--ink-3); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 22%, transparent); }
-.norma-abrogata { opacity: .6; }
+.norma-abrogata > :not(.norma-precedente) { opacity: .6; }
+.norma-precedente { margin-top: 10px; border-top: 1px dashed var(--line); padding-top: 10px; }
+.norma-precedente summary { cursor: pointer; font-size: 13.5px; font-weight: 600; color: var(--ink-2); }
+.norma-precedente[open] summary { margin-bottom: 8px; }
+.norma-precedente p { font-family: var(--serif); font-size: 15.5px; line-height: 1.6; margin: 0 0 6px; color: var(--ink-2); }
 .norma-testa { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 12px; margin-bottom: 10px; }
 .norma-testa h3 { margin: 0; white-space: nowrap; }
 .norma-tema { color: var(--ink-2); font-size: 14px; flex: 1; min-width: 160px; }

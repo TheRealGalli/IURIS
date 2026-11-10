@@ -85,6 +85,15 @@ Costituzione (65 KB), altrimenti ogni apertura della materia lo scarica tutto.
    "nota": "…", "verificato": "2026-11-10"}}`) e prevalgono sul testo scaricato. Da fare: verificare gli articoli
    modificati dopo luglio 2022 e i 71 numeri che Wikisource non riporta (quasi tutti abrogati); il Titolo IX del
    Libro I porta ancora la vecchia intestazione «potestà dei genitori».
+   **Allineamento a Normattiva (fatto il 10 novembre 2026).** `python3 studio/scripts/codice-normattiva.py --scarica`
+   scarica dal sito ufficiale il testo vigente dei 3211 articoli (le pagine restano in
+   `00 - Appunti e fonti/codice-civile-normattiva/`, fuori da git); `--scrivi` lo confronta con la base e registra le
+   differenze in `norme-aggiornamenti.json` (campo `fonte: "normattiva"`); poi `codice-civile.py` rigenera i libri.
+   Primo giro: 1202 articoli con testo o rubrica diversi (molti refusi della base, ma anche filiazione, condominio,
+   società, riforma del 2025 su assenza, morte presunta e donazioni), 145 articoli che mancavano, 56 abrogati.
+   Per gli abrogati di cui la base aveva il testo, questo resta in `precedente` e l'app lo mostra a richiesta.
+   Da rifare ogni tanto: basta cancellare la cartella delle pagine e rilanciare i tre comandi. Dopo ogni giro,
+   controllare le lezioni che citano articoli cambiati di recente (campo `vigenteDal`).
 3. **Uso nello studio**. Vista predefinita: solo gli articoli citati nelle lezioni (il programma d'esame è una parte
    del Codice), con il resto a portata di ricerca. Il collegamento articolo–lezione–domande è già automatico
    («art. 1321 c.c.», «artt. 1325 e 1418»): nelle lezioni gli articoli vanno scritti così.

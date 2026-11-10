@@ -278,7 +278,10 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
     const ALTRO_ATTO = civile
       ? /\b(?:Cost\b|Costituzione|legge\s+(?:n\.\s*)?\d|l\.\s*(?:cost\.\s*)?\d|d\.\s?lgs|d\.l\.|d\.P\.R|TUE|TFUE|TUEL|CEDU|Convenzione|Trattat|Carta dei diritti|regolament|Statuto|preleggi|disp\.\s*prel|c\.p\.|cod\.\s*(?:pen|proc|nav|cons)|legge\s+cost)/i
       : /^\s*-?(?:bis|ter|quater)|\b(?:legge\s+(?:n\.\s*)?\d|l\.\s*(?:cost\.\s*)?\d|d\.\s?lgs|d\.l\.|d\.P\.R|TUE|TFUE|TUEL|CEDU|Convenzione|Trattat|Carta dei diritti|regolament|Statuto|preleggi|codice|c\.c\.|c\.p\.|legge\s+cost)/i;
-    const RE = /\bart{1,2}\.\s*(\d{1,4}(?:\s*[–-]\s*\d{1,4})?(?:(?:\s*,\s*|\s+e\s+)\d{1,4}(?:\s*[–-]\s*\d{1,4})?)*)([^;\n]{0,48})/gi;
+    // numero con l'eventuale suffisso: «315-bis» è un articolo diverso da «315»
+    const SUFF = '(?:-(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies))?';
+    const NUM = `\\d{1,4}${SUFF}`;
+    const RE = new RegExp(`\\bart{1,2}\\.\\s*(${NUM}(?:\\s*[–-]\\s*${NUM})?(?:(?:\\s*,\\s*|\\s+e\\s+)${NUM}(?:\\s*[–-]\\s*${NUM})?)*)([^;\\n]{0,48})`, 'gi');
     const citati = (testo) => {
       const out = new Set();
       for (const m of (testo || '').matchAll(RE)) {
@@ -287,7 +290,13 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
         // la Costituzione e altre leggi, e un numero da solo sarebbe ambiguo
         if (civile && !/^.{0,30}?(?:c\.\s?c\.|cod\.\s*civ|codice civile)/i.test(m[2])) continue;
         for (const pezzo of m[1].split(/\s*,\s*|\s+e\s+/)) {
-          const [a, b] = pezzo.split(/\s*[–-]\s*/).map(Number);
+          const [primo, secondo] = pezzo.split(/\s*[–-]\s*(?=\d)/).map((x) => x.toLowerCase());
+          if (/[a-z]/.test(pezzo)) {
+            if (!civile) continue;                       // «art. 117-bis» non è un articolo della Costituzione
+            out.add(primo); if (secondo) out.add(secondo);
+            continue;
+          }
+          const a = Number(primo), b = Number(secondo);
           if (b && b > a && b - a <= 30) for (let n = a; n <= b; n++) out.add(String(n));
           else out.add(String(a));
         }

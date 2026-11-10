@@ -29,6 +29,12 @@ function Scheda({ a, idx, sel }: { a: Articolo; idx: Indice; sel: boolean }) {
       {a.commi.length > 1
         ? <ol className="norma-commi">{a.commi.map((c, i) => /^[a-z0-9]{1,2}\)/.test(c) ? <li key={i} className="norma-lettera">{c}</li> : <li key={i}>{c}</li>)}</ol>
         : <p className="norma-comma">{a.commi[0]}</p>}
+      {a.abrogato && a.precedente?.length ? (
+        <details className="norma-precedente">
+          <summary>Leggi il testo prima dell’abrogazione</summary>
+          {a.precedente.map((c, i) => <p key={i}>{c}</p>)}
+        </details>
+      ) : null}
       {(a.lezioni?.length || a.domande?.length) ? (
         <footer className="norma-rimandi">
           {a.lezioni?.map((l) => {
