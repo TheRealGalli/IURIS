@@ -17,7 +17,7 @@ Regole valide per tutti i passi:
 | 1 | Glossario degli Originali di privato | Completato: 361 voci, 476 etichette; collegamenti ripetuti nei capoversi |
 | 2 | Più domande per privato | Completato: 392 nuove domande, 1.426 totali; tutte le 98 lezioni hanno almeno 14 domande |
 | 3 | Schede inverse di privato | Completato: 333 schede curate, con copertura di tutte le 27 unità |
-| 4 | Stile delle unità 12–27 di privato | |
+| 4 | Stile delle unità 12–27 di privato | Completato: revisionate 67 lezioni, precisate 64 sintesi; tutte entro 550 parole |
 | 5 | Quadro di privato e di Filosofia | |
 | 6 | Approfondimenti («oltre») | |
 | 7 | Filosofia SSG: più voci | |
@@ -76,7 +76,7 @@ restano invariate; le nuove carte hanno identificativi `glossario-inversa-…`.
 Validazione e compilazione delle 333 carte riuscite; verificata l'identità delle 1.426 domande delle lezioni.
 Completate 12 prove di ripasso nel browser, su telefono e desktop, con salvataggio delle nuove carte.
 Build e `check:build` superati, inclusi 1.348 controlli su 11 dispositivi senza sbordi.
-Ripartire dal **passo 4: precisione e stile delle unità 12–27**.
+Il passo successivo è documentato sotto.
 
 ## 4. Stile delle unità 12–27 di privato
 
@@ -84,6 +84,30 @@ Sono corrette ma vaghe: troppe formule come «nei termini di legge», «nei pres
 disciplina» (32 volte nell'unità 25). Sostituiscile con la regola precisa (termine, soggetto, effetto) presa
 dall'articolo, che ora è nel Codice dell'app aggiornato a Normattiva (`05 - Contenuti/norme/libro-*.json`).
 Modello di tono: `sorgenti/u11.txt`. Non cambiare la sostanza; non allungare oltre 550 parole per lezione.
+
+Passo 4, 10 novembre 2026: rilette tutte le **67 lezioni** delle unità 12–27; precisate **64 sintesi**.
+Sostituiti i rinvii generici con soggetto, termine, presupposto ed effetto: valuta estera, eccezioni nella
+delegazione, offerta al creditore, mora degli eredi, pegno e ipoteca, forma e nomina, rimedi contrattuali,
+recesso e garanzia del consumatore, contratti speciali, titoli, famiglia, successioni e donazioni.
+Le altre tre sintesi non richiedevano interventi. Nessuna supera **550 parole**; sorgenti e JSON sono allineati.
+Precisate anche tre voci e due risposte di flashcard collegate. Identificativi, ordine e numero di lezioni,
+concetti ed esercizi sono conservati; restano **1.426 domande** e **333 schede inverse**.
+Riferimenti puntuali nelle `noteRedazione` delle 16 unità, interne e non mostrate allo studente.
+
+Riscontro principale: articoli dei sei libri del Codice civile locale, allineati a Normattiva nel passo
+precedente. Per le discipline esterne, consultati i portali ufficiali:
+[ritardi commerciali](https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=002G0265&atto.dataPubblicazioneGazzetta=2002-10-23&tipoDettaglio=vigente),
+[pegno non possessorio e patto marciano](https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=16G00076&atto.dataPubblicazioneGazzetta=2016-05-03&tipoDettaglio=vigente),
+[prelazione agraria](https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=065U0590&atto.dataPubblicazioneGazzetta=1965-06-09&tipoDettaglio=vigente),
+[sanzioni e pagamento tardivo degli assegni](https://prefettura.interno.gov.it/sites/default/files/64/2024-06/legge-15-dicembre-1990-n-386.pdf).
+
+Controlli: validazione delle 16 unità senza errori, build e `check:build` riusciti, inclusi **1.348 controlli
+su 11 dispositivi**. Verificate nel browser le sintesi più lunghe di tutte le 16 unità a 393 e 1280 px:
+**32 prove** su testo, titoletti, tabelle, collegamenti e assenza di sbordi, senza errori del browser.
+Confrontate tutte le 67 lezioni compilate con i file revisionati e controllata la conservazione degli
+identificativi, dei conteggi e delle domande precedenti, salvo le due risposte esplicitamente precisate.
+
+Ripartire dal **passo 5: Quadro di privato e delle due Filosofie**.
 
 ## 5. Quadro (vista d'insieme in Mappa)
 
