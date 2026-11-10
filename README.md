@@ -39,7 +39,7 @@ Le mappe occupano lo spazio disponibile: ricerca, filtri e legenda si aprono in 
 I progressi sono salvati nel browser e rimangono dopo la chiusura della pagina e gli aggiornamenti del sito.
 Ogni browser e dispositivo ha un archivio distinto; chi usa lo stesso profilo del browser condivide l'archivio.
 Da **Backup → Scarica backup completo** puoi conservare un unico file JSON e trasferirlo con **Carica backup**.
-Il riepilogo mostra per ogni materia le pagine del Percorso studiate, la relativa percentuale e la padronanza, calcolate come nella Home.
+La pagina contiene i comandi per scaricare e caricare il file, senza percentuali o riepiloghi di studio per materia.
 Il file include tutte le materie presenti nell'archivio, anche quelle aggiunte in futuro, progressi e storico, quiz sospesi, preferenze, evidenziazioni, sottolineature, cronologia dei segni e pagine lette negli Originali.
 Prima del ripristino, tramite **Carica backup**, viene mostrato il contenuto del file. Sono compatibili anche i precedenti backup di una materia.
 Per passare dalla versione locale al sito online, scarica il backup dalla prima e importalo nel secondo.
@@ -52,6 +52,9 @@ Gli Originali includono tutte le lezioni di Filosofia, Romano e Diritto privato.
 
 ## Originali
 
+Nel lettore compaiono soltanto avvisi di aggiornamento sostanziale. Le note sulle operazioni di estrazione,
+decifrazione, impaginazione e correzione editoriale restano nei file di redazione.
+
 Gli Originali di Diritto privato hanno un glossario curato di 361 voci e 476 forme: termini, plurali e sinonimi
 si collegano alle schede durante la lettura, anche nei capoversi successivi.
 
@@ -63,7 +66,7 @@ Le frecce curve annullano e ripristinano le modifiche ai segni (anche con Ctrl/�
 
 ### Testo e mappa personale
 
-Le sezioni revisionate correggono in modo puntuale gli errori già segnalati nelle note del Percorso (ogni intervento ha una **Nota sul testo**), ricompongono titoli, elenchi e note a piè di pagina e collegano al glossario la prima occorrenza dei concetti della lezione. Ogni sezione rimanda alla lezione, al quiz e al comando **Studiata**, che è lo stesso stato del Percorso: segnarla nel testo vale per tutte le lezioni della sezione, e una lezione studiata nel Percorso compare con ✓ tra le sezioni del testo; dalla lezione, **Leggi il testo esteso** apre il punto corrispondente.
+Le sezioni revisionate correggono in modo puntuale gli errori già segnalati nel Percorso, ricompongono titoli, elenchi e note a piè di pagina e collegano i termini al glossario. Le note tecniche sulle correzioni restano nei file di redazione; il lettore mostra solo avvisi di aggiornamento sostanziale. Ogni sezione rimanda alla lezione, al quiz e al comando **Studiata**, che è lo stesso stato del Percorso: segnarla nel testo vale per tutte le lezioni della sezione, e una lezione studiata nel Percorso compare con ✓ tra le sezioni del testo; dalla lezione, **Leggi il testo esteso** apre il punto corrispondente.
 I segni fatti con il vecchio lettore PDF restano salvati (anche nel backup) e compaiono nel testo quando il passaggio ha una corrispondenza univoca; gli altri restano nell'elenco **Segni salvati** con la loro citazione e la pagina. I vecchi indirizzi `modo=pdf&pagina=N` aprono la sezione che contiene la pagina. I segni nel testo formano la **Mappa personale** (Mappa → Personale, o Testo → Mappa nel lettore mobile), che raccoglie i passaggi per lezione e per concetto e riporta al punto di lettura. Tutto è incluso nel backup unico.
 I testi estratti si modificano in `studio/letture-src`: Markdown per lezione (gli ID dei blocchi non cambiano), correzioni puntuali in `revisioni.json` (da registrare con `node scripts/revisiona-letture.mjs`), voci del glossario curate in `glossario-<materia>.json`. Il fascicolo delle ricostruzioni si genera direttamente da sintesi, punti chiave, memoria e note delle lezioni del Percorso, senza una seconda copia da mantenere. `npm run sync:letture` pubblica tutto in `public/letture`; `npm run check:letture` verifica estrazione, copertura delle lezioni, ancoraggi e mappa. Le ricostruzioni hanno ID di documento e blocchi distinti: i vecchi segni PDF restano associati alla fonte corretta.
 

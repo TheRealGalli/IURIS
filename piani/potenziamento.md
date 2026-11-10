@@ -29,6 +29,11 @@ Costituzionale è scritto alle soglie minime del validatore: definizioni di 31 p
    pagina a sé era poco utile): 10 procedimenti e 8 confronti sono diventati 47 esercizi della serie `procedimenti`;
    10 commenti ai Principi fondamentali (artt. 1–11) formano la serie `principi` e la prova «Tre quesiti».
 5. **Corsi**: docenti e materie del primo anno 2026/27 per le tre classi in `studio/src/data/corsi.ts`.
+6. **Backup e note del lettore**: rimossi percentuali ed elenchi dei progressi dalla pagina Backup;
+   restano un unico download e il caricamento con validazione e conferma. Le note di lavorazione del testo
+   sono interne; il lettore mostra soltanto `notaAggiornamento` come avviso «Aggiornamento». Verificati download,
+   ripristino e distinzione fra i due tipi di nota a 393 e 1280 px; build e `check:build` riusciti con 1.348
+   controlli su 11 dispositivi.
 
 ## Che cosa sappiamo dell'esame di costituzionale (da verificare ogni anno)
 
@@ -72,6 +77,10 @@ Costituzionale SSG si raddoppierebbero glossario, norme e cronologia. Proposta: 
 (voci, articoli, date) dal percorso del docente (unità, lezioni, domande sul suo manuale).
 
 ## Punti da verificare con Carlo
+
+- Carlo riferisce che il Bin–Pitruzzella è accettato anche per SSG e M-Z. Valutare una base comune di
+  Costituzionale confrontando i programmi e i capitoli richiesti; non è ancora una verifica delle indicazioni
+  ufficiali dei docenti. Privato è già una materia condivisa; Filosofia mantiene i percorsi distinti.
 
 - **Costituzionale A-L**: il dossier dice che con Torre si sceglie tra tre manuali; i contenuti attuali vengono da
   un riassunto del Bin–Pitruzzella. Serve sapere quali sono i tre.

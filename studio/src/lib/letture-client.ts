@@ -39,7 +39,7 @@ function htmlSicuro(html: string): HTMLDivElement {
   return root;
 }
 
-export interface BloccoPronto extends BloccoTesto { html: string; markdown: string; notaRevisione?: string }
+export interface BloccoPronto extends BloccoTesto { html: string; markdown: string; notaRevisione?: string; notaAggiornamento?: string }
 const SUFFISSO = '(?:[- ]?(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies))?';
 const NUMERO = `\\d{1,4}${SUFFISSO}(?![\\d/])`;
 const CITAZIONE = new RegExp(`\\b(artt?\\.?\\s*)(${NUMERO}(?:(?:\\s*[–-]\\s*|\\s*,\\s*|\\s+e\\s+)${NUMERO})*)`, 'gi');
@@ -89,7 +89,7 @@ export function preparaBlocchi(sezione: SezioneLettura, concetti: Map<string, Co
     const html = htmlSicuro(renderMd(b.markdown, concetti));
     if (norme) collegaArticoli(html, norme);
     return { id: b.id, pagina: b.pagina, testo: html.textContent ?? '', html: html.innerHTML,
-      markdown: b.markdown, concetti: b.concetti ?? [], notaRevisione: b.notaRevisione };
+      markdown: b.markdown, concetti: b.concetti ?? [], notaRevisione: b.notaRevisione, notaAggiornamento: b.notaAggiornamento };
   });
 }
 

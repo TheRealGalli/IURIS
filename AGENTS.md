@@ -114,6 +114,13 @@ IURIS/
 
 ### Originali (testo dei PDF letto nell'app)
 
+- Il lettore mostra soltanto aggiornamenti utili allo studio (`notaAggiornamento` nei blocchi; campo
+  `aggiornamento` di `revisiona-letture.mjs`). Le normali `notaRevisione` sono documentazione redazionale interna:
+  niente avvisi per OCR, decifrazione dei caratteri, refusi o impaginazione. Gli avvisi sugli aggiornamenti
+  normativi nel Percorso restano utili.
+- Backup completo: interfaccia essenziale di scaricamento/caricamento, senza percentuali né elenchi dei progressi
+  delle materie. Conservare validazione del file e conferma del ripristino.
+
 1. Copia il PDF in `studio/public/originali/<slug-breve>.pdf`, aggiungi l'eccezione in `.gitignore` e una voce in
    `studio/src/lib/originali-catalogo.json` (id `…-v1`, `materia`, `titolo`, `descrizione`, `file`, `sha256`, `pagine`).
 2. `cd studio && python3 scripts/extract-letture.py --solo <id-documento>`: estrae solo quel PDF, senza

@@ -17,6 +17,8 @@ export interface DocumentoLettura {
 export interface BloccoLettura {
   id: string; pagina: number; markdown: string; concetti: string[];
   testoFonte?: string; notaRevisione?: string;
+  /** Avviso per lo studente su un aggiornamento sostanziale, distinto dalle note redazionali. */
+  notaAggiornamento?: string;
 }
 export interface SezioneLettura {
   documento: string; edizione: number; id: string; titolo: string; da: number; a: number;

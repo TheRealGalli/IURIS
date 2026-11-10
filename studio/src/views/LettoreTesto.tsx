@@ -30,7 +30,7 @@ const Paragrafo = memo(function Paragrafo({ blocco, segni }: { blocco: BloccoPro
   const html = useMemo(() => htmlConSegni(blocco.html, segni), [blocco, segni]);
   return <section className={`lettura-paragrafo${blocco.testo.trim() ? '' : ' lettura-vuoto'}`} data-pagina={blocco.pagina}>
     <div id={`lettura-${blocco.id}`} data-lettura-block={blocco.id} data-pagina={blocco.pagina} dangerouslySetInnerHTML={{ __html: html }} />
-    {blocco.notaRevisione && !!blocco.testo.trim() && <details className="lettura-nota"><summary>Nota sul testo</summary><p>{blocco.notaRevisione}</p></details>}
+    {blocco.notaAggiornamento && !!blocco.testo.trim() && <details className="lettura-nota"><summary>Aggiornamento</summary><p>{blocco.notaAggiornamento}</p></details>}
   </section>;
 });
 

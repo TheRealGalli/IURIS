@@ -1,7 +1,8 @@
 // Aggiunge revisioni puntuali a letture-src/revisioni.json senza toccare gli estratti.
 // node scripts/revisiona-letture.mjs cerca <documento> "<testo>"   → mostra i blocchi che lo contengono
 // node scripts/revisiona-letture.mjs applica <file.json>             → registra le voci, con hash del blocco
-// Voce: { doc, da, a?, cerca?, blocco?, tutte?, nota?, markdown? }: «cerca» (o «da») deve individuare un solo blocco.
+// Voce: { doc, da, a?, cerca?, blocco?, tutte?, nota?, aggiornamento?, markdown? }: «cerca» (o «da») deve individuare un solo blocco.
+// «nota» resta redazionale; «aggiornamento» è un avviso sostanziale visibile a chi studia.
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
@@ -39,6 +40,7 @@ if (cmd === 'cerca') {
     }
     if (v.markdown !== undefined) r.markdown = v.markdown;
     if (v.nota && !(r.notaRevisione ?? '').includes(v.nota)) r.notaRevisione = r.notaRevisione ? `${r.notaRevisione} ${v.nota}` : v.nota;
+    if (v.aggiornamento !== undefined) r.notaAggiornamento = v.aggiornamento;
     n++;
   }
   await writeFile(file, `${JSON.stringify(revisioni, null, 2)}\n`);

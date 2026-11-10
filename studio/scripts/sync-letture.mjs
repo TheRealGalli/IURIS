@@ -232,7 +232,8 @@ for (const doc of catalogo) {
       for (const c of concettiBlocco) if (!concetti.has(c)) throw new Error(`Collegamento non valido: ${c}`);
       return { id, pagina, markdown, concetti: concettiBlocco,
         ...(piano(originale) !== piano(markdown) ? { testoFonte: piano(originale) } : {}),
-        ...(override?.notaRevisione ? { notaRevisione: override.notaRevisione } : {}) };
+        ...(override?.notaRevisione ? { notaRevisione: override.notaRevisione } : {}),
+        ...(override?.notaAggiornamento ? { notaAggiornamento: override.notaAggiornamento } : {}) };
     });
     if (!blocchi.length) throw new Error(`Sezione senza blocchi: ${doc.id}/${sec.id}`);
     // Pagina condivisa con la sezione precedente: il primo blocco dice dove comincia questa.
