@@ -1392,6 +1392,271 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u07-q043",
+      "lezione": "u07-l2",
+      "pagine": [
+        59,
+        64
+      ],
+      "serie": "procedimenti",
+      "tipo": "ordina",
+      "livello": "medio",
+      "consegna": "La formazione del Governo (artt. 92–94): metti i passi nell'ordine giusto.",
+      "elementi": [
+        "Consultazioni",
+        "Incarico",
+        "Nomina",
+        "Giuramento",
+        "Fiducia"
+      ],
+      "spiegazione": "1. **Consultazioni** (Presidente della Repubblica): Sente i presidenti delle Camere, gli ex Presidenti della Repubblica e i gruppi parlamentari per capire chi può avere la fiducia.\n2. **Incarico** (Presidente della Repubblica): Affida l'incarico, di solito orale, a una personalità che lo accetta con riserva e verifica la maggioranza. In alternativa: mandato esplorativo o preincarico.\n3. **Nomina** (Presidente della Repubblica): Sciolta la riserva, nomina il Presidente del Consiglio e, su sua proposta, i ministri. I decreti sono controfirmati dal nuovo Presidente del Consiglio.\n4. **Giuramento** (Presidente del Consiglio e ministri): Giurano nelle mani del Presidente della Repubblica: da questo momento il Governo è in carica (art. 93).\n5. **Fiducia** (Camera e Senato): Entro dieci giorni il Governo presenta il programma a ciascuna Camera, che vota la fiducia con mozione motivata e per appello nominale.\n   - Entrambe le Camere votano la fiducia → il Governo è nella pienezza dei poteri\n   - Una Camera la nega → il Governo si dimette e resta in carica per gli affari correnti",
+      "concetti": [
+        "crisi-di-governo",
+        "presidente-del-consiglio",
+        "ministri",
+        "governo",
+        "rapporto-di-fiducia"
+      ]
+    },
+    {
+      "id": "u07-q044",
+      "lezione": "u07-l2",
+      "pagine": [
+        59,
+        64
+      ],
+      "serie": "procedimenti",
+      "tipo": "aperta",
+      "livello": "avanzato",
+      "domanda": "Come si forma il Governo, dalle consultazioni alla fiducia?",
+      "traccia": "La Costituzione dice poco: molte tappe sono regolate da consuetudini e prassi.\n\n**Consultazioni** (Presidente della Repubblica). Sente i presidenti delle Camere, gli ex Presidenti della Repubblica e i gruppi parlamentari per capire chi può avere la fiducia.\n\n**Incarico** (Presidente della Repubblica). Affida l'incarico, di solito orale, a una personalità che lo accetta con riserva e verifica la maggioranza. In alternativa: mandato esplorativo o preincarico.\n\n**Nomina** (Presidente della Repubblica). Sciolta la riserva, nomina il Presidente del Consiglio e, su sua proposta, i ministri. I decreti sono controfirmati dal nuovo Presidente del Consiglio.\n\n**Giuramento** (Presidente del Consiglio e ministri). Giurano nelle mani del Presidente della Repubblica: da questo momento il Governo è in carica (art. 93).\n\n**Fiducia** (Camera e Senato). Entro dieci giorni il Governo presenta il programma a ciascuna Camera, che vota la fiducia con mozione motivata e per appello nominale. Entrambe le Camere votano la fiducia: il Governo è nella pienezza dei poteri. Una Camera la nega: il Governo si dimette e resta in carica per gli affari correnti.",
+      "punti": [
+        {
+          "testo": "Consultazioni: Sente i presidenti delle Camere, gli ex Presidenti della Repubblica e i gruppi parlamentari per capire chi può avere la fiducia",
+          "chiavi": [
+            "consult",
+            "preside",
+            "camere"
+          ]
+        },
+        {
+          "testo": "Incarico: Affida l'incarico, di solito orale, a una personalità che lo accetta con riserva e verifica la maggioranza",
+          "chiavi": [
+            "incaric",
+            "affida",
+            "solito"
+          ]
+        },
+        {
+          "testo": "Nomina: Sciolta la riserva, nomina il Presidente del Consiglio e, su sua proposta, i ministri",
+          "chiavi": [
+            "nomina",
+            "sciolta",
+            "riserva"
+          ]
+        },
+        {
+          "testo": "Giuramento: Giurano nelle mani del Presidente della Repubblica: da questo momento il Governo è in carica (art",
+          "chiavi": [
+            "giurame",
+            "giurano",
+            "preside"
+          ]
+        },
+        {
+          "testo": "Fiducia: Entro dieci giorni il Governo presenta il programma a ciascuna Camera, che vota la fiducia con mozione motivata e per appello nominale",
+          "chiavi": [
+            "fiducia",
+            "governo",
+            "present"
+          ]
+        }
+      ],
+      "concetti": [
+        "crisi-di-governo",
+        "presidente-del-consiglio",
+        "ministri",
+        "governo",
+        "rapporto-di-fiducia"
+      ]
+    },
+    {
+      "id": "u07-q045",
+      "lezione": "u07-l2",
+      "pagine": [
+        59,
+        64
+      ],
+      "serie": "procedimenti",
+      "tipo": "flashcard",
+      "livello": "medio",
+      "domanda": "La formazione del Governo, passo «Fiducia»: quali esiti sono possibili?",
+      "risposta": "Entrambe le Camere votano la fiducia: il Governo è nella pienezza dei poteri. Una Camera la nega: il Governo si dimette e resta in carica per gli affari correnti.",
+      "concetti": [
+        "rapporto-di-fiducia"
+      ]
+    },
+    {
+      "id": "u07-q046",
+      "lezione": "u07-l1",
+      "pagine": [
+        54,
+        58
+      ],
+      "serie": "procedimenti",
+      "tipo": "ordina",
+      "livello": "medio",
+      "consegna": "La mozione di sfiducia (art. 94): metti i passi nell'ordine giusto.",
+      "elementi": [
+        "Presentazione",
+        "Attesa",
+        "Voto",
+        "Dopo le dimissioni"
+      ],
+      "spiegazione": "1. **Presentazione** (Almeno un decimo dei componenti di una Camera): La mozione deve essere motivata.\n2. **Attesa**: Non può essere discussa prima di tre giorni dalla presentazione.\n3. **Voto** (Assemblea): Per appello nominale: ogni parlamentare si assume pubblicamente la responsabilità.\n   - Approvata, anche da una sola Camera → il Governo deve dimettersi\n   - Respinta → il Governo resta in carica\n4. **Dopo le dimissioni** (Presidente della Repubblica): Apre le consultazioni: nuovo Governo oppure scioglimento delle Camere.",
+      "concetti": [
+        "mozione-di-sfiducia",
+        "rapporto-di-fiducia",
+        "crisi-di-governo"
+      ]
+    },
+    {
+      "id": "u07-q047",
+      "lezione": "u07-l1",
+      "pagine": [
+        54,
+        58
+      ],
+      "serie": "procedimenti",
+      "tipo": "aperta",
+      "livello": "avanzato",
+      "domanda": "Descriva il procedimento della mozione di sfiducia e le sue conseguenze.",
+      "traccia": "Regole pensate per evitare colpi di mano contro il Governo.\n\n**Presentazione** (Almeno un decimo dei componenti di una Camera). La mozione deve essere motivata.\n\n**Attesa**. Non può essere discussa prima di tre giorni dalla presentazione.\n\n**Voto** (Assemblea). Per appello nominale: ogni parlamentare si assume pubblicamente la responsabilità. Approvata, anche da una sola Camera: il Governo deve dimettersi. Respinta: il Governo resta in carica.\n\n**Dopo le dimissioni** (Presidente della Repubblica). Apre le consultazioni: nuovo Governo oppure scioglimento delle Camere.",
+      "punti": [
+        {
+          "testo": "Presentazione: La mozione deve essere motivata",
+          "chiavi": [
+            "present",
+            "mozione",
+            "motivat"
+          ]
+        },
+        {
+          "testo": "Attesa: Non può essere discussa prima di tre giorni dalla presentazione",
+          "chiavi": [
+            "attesa",
+            "discuss",
+            "present"
+          ]
+        },
+        {
+          "testo": "Voto: Per appello nominale: ogni parlamentare si assume pubblicamente la responsabilità",
+          "chiavi": [
+            "appello",
+            "nominal",
+            "parlame"
+          ]
+        },
+        {
+          "testo": "Dopo le dimissioni: Apre le consultazioni: nuovo Governo oppure scioglimento delle Camere",
+          "chiavi": [
+            "dimissi",
+            "consult",
+            "governo"
+          ]
+        }
+      ],
+      "concetti": [
+        "mozione-di-sfiducia",
+        "rapporto-di-fiducia",
+        "crisi-di-governo"
+      ]
+    },
+    {
+      "id": "u07-q048",
+      "lezione": "u07-l1",
+      "pagine": [
+        54,
+        58
+      ],
+      "serie": "procedimenti",
+      "tipo": "flashcard",
+      "livello": "medio",
+      "domanda": "La mozione di sfiducia, passo «Voto»: quali esiti sono possibili?",
+      "risposta": "Approvata, anche da una sola Camera: il Governo deve dimettersi. Respinta: il Governo resta in carica.",
+      "concetti": [
+        "rapporto-di-fiducia"
+      ]
+    },
+    {
+      "id": "u07-q049",
+      "lezione": "u07-l1",
+      "pagine": [
+        54,
+        58
+      ],
+      "serie": "procedimenti",
+      "tipo": "abbina",
+      "livello": "medio",
+      "consegna": "Mozione di sfiducia e questione di fiducia. Mozione di sfiducia: abbina ogni aspetto alla sua caratteristica.",
+      "coppie": [
+        [
+          "Chi prende l'iniziativa",
+          "Un decimo dei componenti di una Camera"
+        ],
+        [
+          "Fonte",
+          "art. 94 della Costituzione"
+        ],
+        [
+          "Oggetto",
+          "Il Governo nel suo insieme, o un ministro"
+        ],
+        [
+          "Garanzie",
+          "Motivazione, tre giorni, appello nominale"
+        ],
+        [
+          "Se il Governo perde",
+          "Deve dimettersi"
+        ]
+      ]
+    },
+    {
+      "id": "u07-q050",
+      "lezione": "u07-l1",
+      "pagine": [
+        54,
+        58
+      ],
+      "serie": "procedimenti",
+      "tipo": "abbina",
+      "livello": "medio",
+      "consegna": "Mozione di sfiducia e questione di fiducia. Questione di fiducia: abbina ogni aspetto alla sua caratteristica.",
+      "coppie": [
+        [
+          "Chi prende l'iniziativa",
+          "Il Governo"
+        ],
+        [
+          "Fonte",
+          "Regolamenti parlamentari, legge 400/1988"
+        ],
+        [
+          "Oggetto",
+          "Un testo che il Governo ritiene essenziale"
+        ],
+        [
+          "Garanzie",
+          "Voto palese, priorità, decadono gli emendamenti"
+        ],
+        [
+          "Se il Governo perde",
+          "Deve dimettersi"
+        ]
+      ]
     }
   ]
 }

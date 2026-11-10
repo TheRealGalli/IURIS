@@ -16,24 +16,41 @@ Costituzionale è scritto alle soglie minime del validatore: definizioni di 31 p
 112 collegamenti su 163 di tipo generico «collegato», 9% di domande avanzate (15–17% altrove), nessun
 `glossario.json`, `schede-inverse.json` o `oltre-NN.json`.
 
-## Fasi
+## Fatto il 9–10 novembre 2026
 
-1. **Costituzionale al livello di Romano**
-   - definizioni ampliate, `glossario.json` (premesse), `schede-inverse.json`, `oltre-NN.json`;
-   - collegamenti con un verbo vero al posto di «collegato» (nomina, controlla, scioglie, converte…);
-   - eventi con date certe: Statuto albertino, 1946–48, leggi di revisione, sentenze storiche della Corte;
-   - domande da circa 11 a circa 15 per lezione; le nuove sono casi pratici, confronti, «trova l'errore» e
-     domande trasversali, scritte con i tipi già esistenti (`multipla`, `verofalso`, `aperta`).
-2. **Sezione Norme**: la Costituzione articolo per articolo nel testo vigente (comprese le leggi costituzionali
-   1/2020, 1/2021, 1/2022, 2/2022, 1/2023), collegata a lezioni, voci e domande; ricerca per numero di articolo.
-   Per Privato, quando ci sarà: gli articoli chiave del Codice civile.
-3. **Vista Quadro dentro Mappa**: il programma a colpo d'occhio. Costituzionale: organi e loro rapporti, piramide
-   delle fonti. Romano: fasce temporali con periodi, fonti, magistrature e giuristi. Privato: albero degli istituti
-   sui libri del Codice.
-4. **Sezione Procedimenti**: schemi a passi (iter legislativo, formazione del Governo, revisione costituzionale,
-   giudizi davanti alla Corte; per Romano i processi). Le tabelle di confronto stanno nelle lezioni e qui.
-5. **Corsi**: docenti e materie del primo anno 2026/27 per le tre classi (fatto il 9 novembre 2026 in
-   `studio/src/data/corsi.ts`, dal dossier di Carlo sul catalogo UniBa consultato l'8 novembre 2026).
+1. **Costituzionale arricchito**: da 536 a 760 domande (casi pratici, «trova l'errore», confronti, 28 domande d'esame
+   in più), 82 schede inverse, 16 approfondimenti «oltre gli appunti» con circa 90 collegamenti riscritti con un verbo
+   vero, 34 date in più in cronologia.
+2. **Sezione Costituzione** (`norme.json`): testo vigente, 139 articoli e XVIII disposizioni, collegati a lezioni e
+   domande. Testo da Wikisource, controllato sugli articoli modificati (9, 27, 33, 41, 56–59, 81, 119).
+3. **Mappa → Quadro**: Programma automatico per tutte le materie; organi costituzionali e piramide delle fonti per
+   Costituzionale; linea del tempo a corsie per Romano.
+4. **Esercizi dedicati in Allenamento** al posto della sezione Procedimenti (tolta su indicazione di Carlo: come
+   pagina a sé era poco utile): 10 procedimenti e 8 confronti sono diventati 47 esercizi della serie `procedimenti`;
+   10 commenti ai Principi fondamentali (artt. 1–11) formano la serie `principi` e la prova «Tre quesiti».
+5. **Corsi**: docenti e materie del primo anno 2026/27 per le tre classi in `studio/src/data/corsi.ts`.
+
+## Che cosa sappiamo dell'esame di costituzionale (da verificare ogni anno)
+
+- La scheda 2020/21 del corso di Torre (A-L) dice che l'esame parte da **tre quesiti**, di cui almeno uno è il
+  **commento personale a un principio costituzionale fondamentale**, e raccomanda la lettura diretta della
+  Costituzione e della giurisprudenza costituzionale. Da qui le modalità «Commento ai principi» e «Tre quesiti».
+  Va controllato sulla scheda 2026/27.
+- La scheda 2021/22 indicava un manuale a scelta, tra cui Caretti–De Siervo: i contenuti attuali seguono invece un
+  riassunto del Bin–Pitruzzella. Serve l'elenco dei tre manuali di quest'anno.
+- A SSG il docente (Bonomi, manuale Martines) insegna anche Diritto regionale: è plausibile che insista su Regioni
+  ed enti locali. Oggi in A-L le Regioni occupano le unità 10 e 15 (5 lezioni su 50): per SSG andranno ampliate.
+
+## Da fare
+
+- **Costituzionale**: definizioni brevi del glossario ancora da ampliare (media 31 parole); sentenze storiche della
+  Corte come voci di glossario; domande reali degli appelli, se la classe le raccoglie.
+- **Filosofia SSG** (controllo del 10 novembre 2026): nessun errore di formato, ma dalla unità 7 in poi il lavoro è
+  più sottile. 35 lezioni su 77 non hanno la domanda d'esame (`aperta`), molte hanno 3 flashcard e 1 vero/falso
+  invece di 4 e 2, 4 unità non hanno un `ordina`; mancano schede inverse e approfondimenti. Sintesi di circa 540
+  parole per lezione contro le 940 di Filosofia A-L. Primo intervento utile: le 31 domande d'esame mancanti
+  (la u17 è fuori programma), poi le soglie minime, poi le schede inverse.
+- **Procedimenti di Romano** (i tre processi) come esercizi della serie `procedimenti`.
 
 ## Dopo, quando arrivano le fonti
 

@@ -258,8 +258,8 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
   };
   corso.grafo = layoutGrafo(corso.concetti, corso.relazioni, unita);
 
-  // Sezioni facoltative: norme.json (testo di un atto, articolo per articolo), procedimenti.json (schemi a passi
-  // e tabelle di confronto), quadro.json (schemi d'insieme per la vista Quadro della Mappa). Vedi CONTENUTI.md.
+  // Sezioni facoltative: norme.json (testo di un atto, articolo per articolo) e quadro.json (schemi d'insieme
+  // per la vista Quadro della Mappa). Vedi CONTENUTI.md.
   const facoltativo = (nome) => (fs.existsSync(path.join(dir, nome)) ? readJson(path.join(dir, nome)) : null);
   const voce = (id, dove) => {
     if (!id) return undefined;
@@ -268,13 +268,6 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
     avvisi.push(`${dove}: concetto "${id}" inesistente, collegamento tolto`);
     return undefined;
   };
-  const lezioneOk = (id, dove) => {
-    if (!id) return undefined;
-    if (lezioni.some((l) => l.id === id)) return id;
-    avvisi.push(`${dove}: lezione "${id}" inesistente, collegamento tolto`);
-    return undefined;
-  };
-
   const norme = facoltativo('norme.json');
   if (norme) {
     // Articoli citati nelle lezioni e nelle domande («art. 77», «artt. 13, 14 e 15», «artt. 92–94»),
@@ -312,16 +305,6 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
     }
     norme.articoli = articoli;
     corso.norme = norme;
-  }
-
-  const proc = facoltativo('procedimenti.json');
-  if (proc) {
-    for (const p of proc.procedimenti ?? []) {
-      p.lezione = lezioneOk(p.lezione, `procedimenti «${p.id}»`);
-      for (const s of p.passi) s.concetto = voce(s.concetto, `procedimenti «${p.id}»`);
-    }
-    for (const c of proc.confronti ?? []) c.lezione = lezioneOk(c.lezione, `confronti «${c.id}»`);
-    corso.procedimenti = proc;
   }
 
   const quadro = facoltativo('quadro.json');

@@ -975,6 +975,108 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u09-q030",
+      "lezione": "u09-l1",
+      "pagine": [
+        80,
+        83
+      ],
+      "serie": "procedimenti",
+      "tipo": "ordina",
+      "livello": "medio",
+      "consegna": "L'elezione del Presidente della Repubblica (artt. 83–86): metti i passi nell'ordine giusto.",
+      "elementi": [
+        "Convocazione",
+        "Chi vota",
+        "Votazione",
+        "Giuramento"
+      ],
+      "spiegazione": "1. **Convocazione** (Presidente della Camera): Trenta giorni prima della scadenza del mandato convoca il Parlamento in seduta comune e i delegati regionali.\n2. **Chi vota** (Deputati, senatori, delegati regionali): Ogni Consiglio regionale elegge tre delegati, in modo da rappresentare le minoranze; la Valle d'Aosta ne ha uno.\n3. **Votazione** (Assemblea): Scrutinio segreto.\n   - Primi tre scrutini → servono i due terzi dell'assemblea\n   - Dal quarto scrutinio → basta la maggioranza assoluta\n4. **Giuramento** (Presidente eletto): Prima di assumere le funzioni giura fedeltà alla Repubblica e osservanza della Costituzione davanti al Parlamento in seduta comune (art. 91).\n5. **Mandato**: Sette anni. In caso di impedimento le funzioni sono esercitate dal Presidente del Senato.",
+      "concetti": [
+        "parlamento-in-seduta-comune",
+        "regioni",
+        "presidente-della-repubblica",
+        "supplenza-presidenziale"
+      ]
+    },
+    {
+      "id": "u09-q031",
+      "lezione": "u09-l1",
+      "pagine": [
+        80,
+        83
+      ],
+      "serie": "procedimenti",
+      "tipo": "aperta",
+      "livello": "avanzato",
+      "domanda": "Come viene eletto il Presidente della Repubblica?",
+      "traccia": "Maggioranze alte per avere un Presidente che non sia solo della maggioranza di governo.\n\n**Convocazione** (Presidente della Camera). Trenta giorni prima della scadenza del mandato convoca il Parlamento in seduta comune e i delegati regionali.\n\n**Chi vota** (Deputati, senatori, delegati regionali). Ogni Consiglio regionale elegge tre delegati, in modo da rappresentare le minoranze; la Valle d'Aosta ne ha uno.\n\n**Votazione** (Assemblea). Scrutinio segreto. Primi tre scrutini: servono i due terzi dell'assemblea. Dal quarto scrutinio: basta la maggioranza assoluta.\n\n**Giuramento** (Presidente eletto). Prima di assumere le funzioni giura fedeltà alla Repubblica e osservanza della Costituzione davanti al Parlamento in seduta comune (art. 91).\n\n**Mandato**. Sette anni. In caso di impedimento le funzioni sono esercitate dal Presidente del Senato.",
+      "punti": [
+        {
+          "testo": "Convocazione: Trenta giorni prima della scadenza del mandato convoca il Parlamento in seduta comune e i delegati regionali",
+          "chiavi": [
+            "convoca",
+            "trenta",
+            "scadenz"
+          ]
+        },
+        {
+          "testo": "Chi vota: Ogni Consiglio regionale elegge tre delegati, in modo da rappresentare le minoranze; la Valle d'Aosta ne ha uno",
+          "chiavi": [
+            "consigl",
+            "regiona",
+            "elegge"
+          ]
+        },
+        {
+          "testo": "Votazione: Scrutinio segreto",
+          "chiavi": [
+            "votazio",
+            "scrutin",
+            "segreto"
+          ]
+        },
+        {
+          "testo": "Giuramento: Prima di assumere le funzioni giura fedeltà alla Repubblica e osservanza della Costituzione davanti al Parlamento in seduta comune (art",
+          "chiavi": [
+            "giurame",
+            "assumer",
+            "funzion"
+          ]
+        },
+        {
+          "testo": "Mandato: Sette anni",
+          "chiavi": [
+            "mandato",
+            "impedim",
+            "funzion"
+          ]
+        }
+      ],
+      "concetti": [
+        "parlamento-in-seduta-comune",
+        "regioni",
+        "presidente-della-repubblica",
+        "supplenza-presidenziale"
+      ]
+    },
+    {
+      "id": "u09-q032",
+      "lezione": "u09-l1",
+      "pagine": [
+        80,
+        83
+      ],
+      "serie": "procedimenti",
+      "tipo": "flashcard",
+      "livello": "medio",
+      "domanda": "L'elezione del Presidente della Repubblica, passo «Votazione»: quali esiti sono possibili?",
+      "risposta": "Primi tre scrutini: servono i due terzi dell'assemblea. Dal quarto scrutinio: basta la maggioranza assoluta.",
+      "concetti": [
+        "presidente-della-repubblica"
+      ]
     }
   ]
 }

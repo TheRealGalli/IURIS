@@ -20,7 +20,7 @@ const carica = {
   mappa: () => import('./views/Mappa'), cronologia: () => import('./views/Cronologia'), glossario: () => import('./views/Glossario'),
   concetto: () => import('./views/Concetto'), allena: () => import('./views/Allena'), progressi: () => import('./views/Progressi'),
   backup: () => import('./views/Backup'), originali: () => import('./views/Originali'),
-  norme: () => import('./views/Norme'), procedimenti: () => import('./views/Procedimenti'),
+  norme: () => import('./views/Norme'),
 };
 const Mappa = lazy(carica.mappa);
 const Cronologia = lazy(carica.cronologia);
@@ -31,7 +31,6 @@ const Progressi = lazy(carica.progressi);
 const Backup = lazy(carica.backup);
 const Originali = lazy(carica.originali);
 const Norme = lazy(carica.norme);
-const Procedimenti = lazy(carica.procedimenti);
 if (typeof window !== 'undefined') {
   const prefetch = () => { for (const f of Object.values(carica)) f().catch(() => { /* riprova alla prima apertura */ }); };
   window.addEventListener('load', () => ('requestIdleCallback' in window ? requestIdleCallback(prefetch, { timeout: 4000 }) : setTimeout(prefetch, 1500)), { once: true });
@@ -47,13 +46,14 @@ const NAV = [
   { to: '/cronologia', key: 'cronologia', label: 'Cronologia', icon: 'cronologia' },
   { to: '/glossario', key: 'glossario', label: 'Glossario', icon: 'glossario' },
   { to: '/norme', key: 'norme', label: 'Norme', icon: 'materia-costituzionale' },
-  { to: '/procedimenti', key: 'procedimenti', label: 'Procedimenti', icon: 'rami' },
   { to: '/progressi', key: 'progressi', label: 'Progressi', icon: 'progressi' },
 ];
 const TABS = ['', 'percorso', 'allena', 'mappa', 'progressi'];
-/** Norme e Procedimenti compaiono solo nelle materie che li hanno; non stanno nella barra in basso (si aprono da Altro). */
-const FACOLTATIVE = ['norme', 'procedimenti'];
-const navDi = (idx: Indice | null) => NAV.filter((n) => !FACOLTATIVE.includes(n.key) || (n.key === 'norme' ? !!idx?.corso.norme : !!idx?.corso.procedimenti));
+/** La sezione con il testo dell'atto (Costituzione, un giorno il Codice civile) compare solo nelle materie che ce l'hanno
+ *  e prende il nome dall'atto; non sta nella barra in basso (si apre da Altro). */
+const FACOLTATIVE = ['norme'];
+const navDi = (idx: Indice | null) => NAV.filter((n) => !FACOLTATIVE.includes(n.key) || !!idx?.corso.norme)
+  .map((n) => (n.key === 'norme' ? { ...n, label: idx?.corso.norme?.nome ?? n.label } : n));
 
 export default function App() {
   const [manifest, setManifest] = useState<Manifest | null>(null);
@@ -278,7 +278,7 @@ function Altro({ corso, nav }: { corso: CorsoDiStudio; nav: typeof NAV }) {
     <p className="small muted" style={{ margin: '-4px 2px 0' }}>{descriviCorso(corso)}</p>
     <h2 className="eyebrow" style={{ marginTop: 12 }}>Studio · materia selezionata</h2>
     <nav className="grid g2 altro-studio" aria-label="Altre sezioni di studio">
-      {nav.filter((n) => ['originali', 'cronologia', 'glossario', 'norme', 'procedimenti', 'progressi'].includes(n.key)).map((n) => <a key={n.key} className="card cta-card" href={href(n.to)}><Icon n={n.icon} size={22} /><b className="title-s">{n.label}</b></a>)}
+      {nav.filter((n) => ['originali', 'cronologia', 'glossario', 'norme', 'progressi'].includes(n.key)).map((n) => <a key={n.key} className="card cta-card" href={href(n.to)}><Icon n={n.icon} size={22} /><b className="title-s">{n.label}</b></a>)}
     </nav>
     <h2 className="eyebrow" style={{ marginTop: 12 }}>Backup · tutte le materie</h2>
     <a className="card cta-card" href={href('/backup')}><Icon n="backup" size={22} /><b className="title-s">Backup completo</b><span className="small muted">Un solo file per progressi, segni e mappe personali di tutte le materie.</span></a>
@@ -305,7 +305,6 @@ function Rotte() {
     case 'allena': return <Allena query={query} />;
     case 'progressi': return <Progressi />;
     case 'norme': return idx.corso.norme ? <Norme id={id} /> : <Assente />;
-    case 'procedimenti': return idx.corso.procedimenti ? <Procedimenti id={id} query={query} /> : <Assente />;
     case 'originali': return <OriginaliBoundary key={slug} slug={slug}><Suspense fallback={<div className="empty faint">Apertura degli originali…</div>}><Originali /></Suspense></OriginaliBoundary>;
     default: return <div className="empty"><h3>Pagina non trovata</h3><a className="btn" href={href('/')}>Torna a Oggi</a></div>;
   }

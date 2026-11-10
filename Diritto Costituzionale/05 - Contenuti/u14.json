@@ -1269,6 +1269,185 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u14-q043",
+      "lezione": "u14-l2",
+      "pagine": [
+        127,
+        128
+      ],
+      "serie": "procedimenti",
+      "tipo": "ordina",
+      "livello": "medio",
+      "consegna": "Il referendum abrogativo (art. 75 · legge 352/1970): metti i passi nell'ordine giusto.",
+      "elementi": [
+        "Richiesta",
+        "Controllo di regolarità",
+        "Giudizio di ammissibilità",
+        "Indizione",
+        "Voto"
+      ],
+      "spiegazione": "1. **Richiesta** (500.000 elettori o cinque Consigli regionali): Il quesito indica la legge, o la parte di legge, da abrogare.\n2. **Controllo di regolarità** (Ufficio centrale presso la Corte di cassazione): Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata.\n3. **Giudizio di ammissibilità** (Corte costituzionale): Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei.\n4. **Indizione** (Presidente della Repubblica): Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno.\n5. **Voto** (Corpo elettorale): Votano gli elettori della Camera.\n   - Vota la maggioranza degli aventi diritto e prevalgono i sì → il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni\n   - Prevalgono i no → lo stesso quesito non può essere riproposto per cinque anni\n   - Non si raggiunge il quorum → il referendum non è valido",
+      "concetti": [
+        "referendum-abrogativo",
+        "regolarita-referendum",
+        "ammissibilita-referendum",
+        "quorum-referendario"
+      ]
+    },
+    {
+      "id": "u14-q044",
+      "lezione": "u14-l2",
+      "pagine": [
+        127,
+        128
+      ],
+      "serie": "procedimenti",
+      "tipo": "aperta",
+      "livello": "avanzato",
+      "domanda": "Descriva l'iter del referendum abrogativo, dalla richiesta al voto.",
+      "traccia": "Dalle firme al voto ci sono due controlli: uno sulla regolarità, uno sull'ammissibilità.\n\n**Richiesta** (500.000 elettori o cinque Consigli regionali). Il quesito indica la legge, o la parte di legge, da abrogare.\n\n**Controllo di regolarità** (Ufficio centrale presso la Corte di cassazione). Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata.\n\n**Giudizio di ammissibilità** (Corte costituzionale). Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei.\n\n**Indizione** (Presidente della Repubblica). Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno.\n\n**Voto** (Corpo elettorale). Votano gli elettori della Camera. Vota la maggioranza degli aventi diritto e prevalgono i sì: il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni. Prevalgono i no: lo stesso quesito non può essere riproposto per cinque anni. Non si raggiunge il quorum: il referendum non è valido.",
+      "punti": [
+        {
+          "testo": "Richiesta: Il quesito indica la legge, o la parte di legge, da abrogare",
+          "chiavi": [
+            "richies",
+            "quesito",
+            "indica"
+          ]
+        },
+        {
+          "testo": "Controllo di regolarità: Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata",
+          "chiavi": [
+            "control",
+            "regolar",
+            "verific"
+          ]
+        },
+        {
+          "testo": "Giudizio di ammissibilità: Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei",
+          "chiavi": [
+            "giudizi",
+            "ammissi",
+            "esclude"
+          ]
+        },
+        {
+          "testo": "Indizione: Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno",
+          "chiavi": [
+            "indizio",
+            "domenic",
+            "15"
+          ]
+        },
+        {
+          "testo": "Voto: Votano gli elettori della Camera",
+          "chiavi": [
+            "votano",
+            "elettor",
+            "camera"
+          ]
+        }
+      ],
+      "concetti": [
+        "referendum-abrogativo",
+        "regolarita-referendum",
+        "ammissibilita-referendum",
+        "quorum-referendario"
+      ]
+    },
+    {
+      "id": "u14-q045",
+      "lezione": "u14-l2",
+      "pagine": [
+        127,
+        128
+      ],
+      "serie": "procedimenti",
+      "tipo": "flashcard",
+      "livello": "medio",
+      "domanda": "Il referendum abrogativo, passo «Voto»: quali esiti sono possibili?",
+      "risposta": "Vota la maggioranza degli aventi diritto e prevalgono i sì: il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni. Prevalgono i no: lo stesso quesito non può essere riproposto per cinque anni. Non si raggiunge il quorum: il referendum non è valido.",
+      "concetti": [
+        "quorum-referendario"
+      ]
+    },
+    {
+      "id": "u14-q046",
+      "lezione": "u14-l2",
+      "pagine": [
+        127,
+        128
+      ],
+      "serie": "procedimenti",
+      "tipo": "abbina",
+      "livello": "medio",
+      "consegna": "Referendum abrogativo e referendum costituzionale. Abrogativo: abbina ogni aspetto alla sua caratteristica.",
+      "coppie": [
+        [
+          "Norma",
+          "art. 75"
+        ],
+        [
+          "Oggetto",
+          "Legge già in vigore"
+        ],
+        [
+          "Chi lo chiede",
+          "500.000 elettori o 5 Consigli regionali"
+        ],
+        [
+          "Quando",
+          "Sempre, salvo i limiti di materia"
+        ],
+        [
+          "Quorum di partecipazione",
+          "Sì: maggioranza degli aventi diritto"
+        ],
+        [
+          "Controllo della Corte",
+          "Giudizio di ammissibilità"
+        ]
+      ]
+    },
+    {
+      "id": "u14-q047",
+      "lezione": "u14-l2",
+      "pagine": [
+        127,
+        128
+      ],
+      "serie": "procedimenti",
+      "tipo": "abbina",
+      "livello": "medio",
+      "consegna": "Referendum abrogativo e referendum costituzionale. Costituzionale: abbina ogni aspetto alla sua caratteristica.",
+      "coppie": [
+        [
+          "Norma",
+          "art. 138"
+        ],
+        [
+          "Oggetto",
+          "Legge costituzionale non ancora in vigore"
+        ],
+        [
+          "Chi lo chiede",
+          "Un quinto di una Camera, 500.000 elettori o 5 Consigli regionali"
+        ],
+        [
+          "Quando",
+          "Solo se non ci sono stati i due terzi"
+        ],
+        [
+          "Quorum di partecipazione",
+          "No"
+        ],
+        [
+          "Controllo della Corte",
+          "Nessuno"
+        ]
+      ]
     }
   ]
 }

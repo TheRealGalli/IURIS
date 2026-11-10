@@ -37,7 +37,7 @@ export default function Norme({ id }: { id?: string }) {
 
   return (
     <div className="page-narrow fade-in norme">
-      <div className="eyebrow">Norme</div>
+      <div className="eyebrow">{norme.nome ?? 'Norme'}</div>
       <h1 className="title-xl" style={{ margin: '6px 0 6px' }}>{norme.atto}</h1>
       <p className="muted" style={{ marginTop: 0 }}>
         {norme.aggiornamento} Accanto a ogni articolo trovi le lezioni che lo spiegano e le domande che lo citano.

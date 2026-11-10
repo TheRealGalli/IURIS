@@ -5,8 +5,10 @@ Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usal
 
 ## Lavoro in corso
 
-1. **Diritto costituzionale completato** (LMG · I anno · A-L): 18 unità, 50 lezioni e 536 domande.
-   Fonti, aggiornamenti e controlli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md).
+1. **Diritto costituzionale completato e potenziato** (LMG · I anno · A-L): 18 unità, 50 lezioni e 760 domande,
+   più schede inverse, approfondimenti, testo della Costituzione, Quadro ed esercizi dedicati.
+   Fonti, aggiornamenti e controlli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md);
+   che cosa resta da fare (anche per Filosofia SSG) in [`piani/potenziamento.md`](piani/potenziamento.md).
 2. **Dopo: Diritto privato.** Si comincia appena Carlo aggiunge gli appunti (per ora la cartella è vuota):
    [`piani/diritto-privato.md`](piani/diritto-privato.md) dice come partire. Non anticipare contenuti senza fonti.
 3. **Corsi con appunti propri.** Diritto romano è condiviso tra LMG A-L e SSG (stessi appunti, stessi progressi).

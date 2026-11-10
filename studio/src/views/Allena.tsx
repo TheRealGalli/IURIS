@@ -10,7 +10,7 @@ import { Bar, Icon } from '../components/ui';
 import MobileSheet, { useCompact } from '../components/MobileSheet';
 import DomandaView from './Domande';
 
-type Modo = 'ripasso' | 'libero' | 'deboli' | 'orale' | 'cronologia' | 'inverse';
+type Modo = 'ripasso' | 'libero' | 'deboli' | 'orale' | 'cronologia' | 'inverse' | 'procedimenti' | 'principi' | 'esame';
 interface Sessione { titolo: string; domande: Domanda[]; orale?: boolean; registra: boolean }
 
 /* La sessione in corso è salvata nel browser a ogni risposta: se la pagina si ricarica o si chiude, si riprende da lì. */
@@ -55,7 +55,12 @@ const MODI: { k: Modo; t: string; d: string; icon: string }[] = [
   { k: 'deboli', t: 'Punti deboli', d: 'Solo le domande che hai sbagliato o che stai dimenticando.', icon: 'fiamma' },
   { k: 'orale', t: 'Simulazione d\'orale', d: 'Domande d\'esame lette ad alta voce: rispondi a voce e confronta con la traccia.', icon: 'mic' },
   { k: 'cronologia', t: 'Sfida cronologica', d: 'Date, periodi e sequenze: ricorda quando avvengono gli eventi e mettili in ordine. Le risposte entrano nel ripasso spaziato.', icon: 'cronologia' },
+  { k: 'procedimenti', t: 'Procedimenti e confronti', d: 'Rimetti in ordine le fasi di un procedimento, racconta l\'iter come all\'orale e abbina a ogni istituto le sue caratteristiche.', icon: 'rami' },
+  { k: 'principi', t: 'Commento ai principi', d: 'Gli articoli dei Principi fondamentali da commentare a voce, uno alla volta, con la traccia per confrontarti.', icon: 'materia-costituzionale' },
+  { k: 'esame', t: 'Tre quesiti', d: 'Una prova a voce di tre domande: il commento a un principio fondamentale e due argomenti del programma.', icon: 'mic' },
 ];
+/** Modalità legate a una serie di esercizi: compaiono solo nelle materie che hanno domande di quella serie. */
+const SERIE: Partial<Record<Modo, string>> = { procedimenti: 'procedimenti', principi: 'principi', esame: 'principi' };
 
 export default function Allena({ query }: { query: URLSearchParams }) {
   const idx = useCorso();
@@ -148,11 +153,12 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
   const nRip = rip.scadute.length + rip.nuove.length;
 
   const pool = useMemo(() => {
-    let qs = modo === 'inverse' ? idx.schedeInverse : modo === 'cronologia' ? idx.domandeCronologia : [...idx.domandaById.values()];
+    let qs = modo === 'inverse' ? idx.schedeInverse : modo === 'cronologia' ? idx.domandeCronologia
+      : modo === 'procedimenti' || modo === 'principi' ? idx.corso.domande.filter((q) => q.serie === SERIE[modo]) : [...idx.domandaById.values()];
     if (unita.length) qs = qs.filter((q) => q.inversa
       ? idx.concettoById.get(q.inversa)?.unita.some((u) => unita.includes(u))
       : unita.includes(q.unita));
-    if (modo === 'orale') qs = qs.filter((q) => q.tipo === 'aperta');
+    if (modo === 'orale' || modo === 'esame') qs = qs.filter((q) => q.tipo === 'aperta');
     else if ((modo === 'libero' || modo === 'deboli') && tipi.length) qs = qs.filter((q) => tipi.includes(q.tipo));
     if (modo === 'deboli') {
       const now = new Date();
@@ -164,8 +170,14 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
 
   const avvia = () => {
     if (modo === 'ripasso') return onStart(sessioneRipasso(idx, p));
+    if (modo === 'esame') {
+      // un commento a un principio fondamentale, poi due argomenti del programma
+      const principio = shuffle(pool.filter((q) => q.serie === 'principi')).slice(0, 1);
+      const altre = shuffle(pool.filter((q) => q.serie !== 'principi')).slice(0, 3 - principio.length);
+      return onStart({ titolo: 'Tre quesiti', domande: [...principio, ...altre], orale: true, registra: true });
+    }
     const qs = modo === 'deboli' ? pool.slice(0, n) : shuffle(pool).slice(0, n);
-    onStart({ titolo: MODI.find((m) => m.k === modo)!.t, domande: modo === 'deboli' ? shuffle(qs) : qs, orale: modo === 'orale', registra: true });
+    onStart({ titolo: MODI.find((m) => m.k === modo)!.t, domande: modo === 'deboli' ? shuffle(qs) : qs, orale: modo === 'orale' || modo === 'principi', registra: true });
   };
 
   const disponibili = modo === 'ripasso' ? nRip : pool.length;
@@ -174,7 +186,7 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
 
   const scelto = MODI.find((m) => m.k === modo)!;
   const modes = (<div className="grid g2" style={{ marginBottom: 20 }}>
-        {MODI.filter((m) => m.k !== 'inverse' || idx.schedeInverse.length > 0).map((m) => (
+        {MODI.filter((m) => (m.k !== 'inverse' || idx.schedeInverse.length > 0) && (!SERIE[m.k] || idx.corso.domande.some((q) => q.serie === SERIE[m.k]))).map((m) => (
           <button key={m.k} className={`setup-opt ${modo === m.k ? 'on' : ''}`} onClick={() => { setModo(m.k); setChooserOpen(false); }}>
             <span className="row" style={{ gap: 8 }}><Icon n={m.icon} /> <b>{m.t}</b>
               {m.k === 'ripasso' && nRip > 0 && <span className="chip chip-accent" style={{ marginLeft: 'auto' }}>{nRip}</span>}
@@ -248,6 +260,8 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
           {(modo === 'libero' || modo === 'orale') && `${pool.length} domande disponibili`}
           {modo === 'inverse' && `${pool.length} schede inverse disponibili`}
           {modo === 'cronologia' && `${pool.length} quiz cronologia disponibili`}
+          {(modo === 'procedimenti' || modo === 'principi') && `${pool.length} esercizi disponibili`}
+          {modo === 'esame' && 'Tre domande a voce, scelte a caso'}
         </span>
         <button className="btn btn-accent btn-lg" disabled={!pronto} onClick={avvia}>Inizia <Icon n="freccia" size={17} /></button>
       </div>

@@ -131,6 +131,8 @@ interface DomandaBase {
   cronologia?: string;
   /** Nei quiz Ordina devono essere stati studiati tutti questi eventi. */
   eventiCronologia?: string[];
+  /** Serie di esercizi a cui la domanda appartiene (es. «procedimenti»): ha una modalità propria in Allenamento. */
+  serie?: string;
 }
 export type Domanda = DomandaBase & (
   | { tipo: 'flashcard'; domanda: string; risposta: string }
@@ -158,8 +160,6 @@ export interface Corso {
   grafo?: Record<string, [number, number]>;
   /** testo di un atto normativo, articolo per articolo (norme.json) */
   norme?: Norme;
-  /** schemi a passi e tabelle di confronto (procedimenti.json) */
-  procedimenti?: { procedimenti?: Procedimento[]; confronti?: Confronto[] };
   /** schemi d'insieme per la vista Quadro della Mappa (quadro.json) */
   quadro?: { schemi: SchemaQuadro[] };
 }
@@ -169,15 +169,12 @@ export interface Articolo {
   lezioni?: string[]; domande?: string[];
 }
 export interface Norme {
+  /** nome breve della sezione nel menu (es. «Costituzione») */
+  nome?: string;
   atto: string; sigla: string; aggiornamento: string; articoli: number;
   fonte?: { titolo: string; url: string };
   gruppi: { titolo: string; articoli: Articolo[] }[];
 }
-export interface Procedimento {
-  id: string; titolo: string; norme?: string; lezione?: string; sintesi?: string;
-  passi: { titolo: string; chi?: string; testo: string; concetto?: string; esiti?: { se: string; allora: string }[] }[];
-}
-export interface Confronto { id: string; titolo: string; lezione?: string; colonne: string[]; righe: string[][] }
 export interface VoceQuadro { testo: string; concetto?: string }
 export type SchemaQuadro = { id: string; titolo: string; sottotitolo?: string; nota?: string } & (
   | { tipo: 'rete'; nodi: { id: string; testo: string; sotto?: string; concetto?: string; x: number; y: number }[];

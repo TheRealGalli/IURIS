@@ -12,13 +12,19 @@ Le materie si scelgono da una griglia di simboli su due colonne, nella barra lat
 | LMG · I anno · A–L | Filosofia del diritto | Disponibile |
 | LMG e SSG | Diritto romano | Disponibile, condivisa fra i corsi |
 | SSG | Filosofia del diritto | Disponibile, programma dedicato |
-| LMG · I anno · A–L | Diritto costituzionale | Disponibile: 18 unità, 50 lezioni, 536 domande |
+| LMG · I anno · A–L | Diritto costituzionale | Disponibile: 18 unità, 50 lezioni, 760 domande, testo della Costituzione, quadro d'insieme |
 | SSG | Diritto costituzionale | In arrivo, con appunti propri |
 | LMG e SSG | Diritto privato | In attesa degli appunti |
 
 Progetto di Carlo Galli ([@TheRealGalli](https://github.com/TheRealGalli)), realizzato con l'aiuto di tre assistenti IA: **Claude** (Anthropic), **ChatGPT/Codex** (OpenAI) e **Grok** (xAI).
 
 Da **Demo interattiva** nella barra laterale (o **Menu** su mobile) si avvia una visita guidata sulle pagine reali. Una freccetta animata e la I di IURIS accompagnano Oggi, Percorso, lezione, Originali, segni, mappe, allenamento, cronologia, glossario, statistiche e backup. Il tour avanza solo su richiesta, con indietro, scelta della sezione e avanti su una sola riga compatta. Le prove usano un archivio in memoria separato: progressi, segni, quiz e preferenze personali vengono conservati; le viste completano le proprie scritture prima del cambio di archivio. Uscendo, o ricaricando la pagina, i dati dimostrativi scompaiono. La tappa finale permette di aprire il Backup reale. La sezione **Backup**, sotto **Studio**, è generale e resta aperta quando si cambia materia.
+
+## Costituzione, Quadro ed esercizi dedicati
+
+In Diritto costituzionale la sezione **Costituzione** riporta il testo vigente articolo per articolo, con ricerca per numero o parola; accanto a ogni articolo ci sono le lezioni che lo spiegano e le domande che lo citano, e dalla lezione si torna agli articoli. La sezione compare solo nelle materie che hanno un `norme.json`.
+In **Mappa → Quadro** c'è il programma a colpo d'occhio (tutte le unità con i loro argomenti) e, dove esistono, gli schemi d'insieme: organi costituzionali e piramide delle fonti per Costituzionale, linea del tempo a corsie per Diritto romano.
+In **Allenamento** le materie che li hanno mostrano tre modalità in più: **Procedimenti e confronti** (rimettere in ordine le fasi, raccontare l'iter, abbinare a ogni istituto le sue caratteristiche), **Commento ai principi** (gli articoli 1–11 a voce) e **Tre quesiti** (un principio fondamentale e due argomenti del programma).
 
 ## Telefono e iPad
 

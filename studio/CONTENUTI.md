@@ -313,6 +313,53 @@ della voce come «Oltre gli appunti», con una tinta diversa. Esempio completo: 
 - Si controlla con `node studio/scripts/validate-content.mjs ".../oltre-01.json"`.
 
 
+## Sezioni facoltative della materia
+
+Tre aggiunte che una materia può avere o no. L'app le mostra solo dove ci sono.
+
+### Testo di un atto (`norme.json`)
+
+La Costituzione per Diritto costituzionale; un giorno gli articoli chiave del Codice civile per Privato.
+
+```jsonc
+{
+  "nome": "Costituzione",                    // voce del menu
+  "atto": "Costituzione della Repubblica italiana", "sigla": "Cost.",
+  "aggiornamento": "Testo vigente, comprese le leggi costituzionali …",
+  "fonte": { "titolo": "…", "url": "https://…" },
+  "gruppi": [{ "titolo": "Parte prima · … › Titolo I · …", "articoli": [
+    { "n": "13", "tema": "Libertà personale", "commi": ["…", "…"], "modificato": true }
+    // "abrogato": true per gli articoli abrogati; "disposizione": true per le disposizioni transitorie (n romano)
+  ]}]
+}
+```
+
+`tema` è un titoletto non ufficiale, per orientarsi e per la ricerca. Il sync collega da solo ogni articolo alle
+lezioni e alle domande che lo citano («art. 77», «artt. 13, 14 e 15», «artt. 92–94»), escludendo gli articoli di
+altri atti («art. 37 della legge 87/1953», «art. 6 TUE»): nelle lezioni scrivi quindi gli articoli in questa forma.
+Quando l'atto cambia, aggiorna il testo, `aggiornamento` e la nota dell'unità interessata.
+
+### Schemi d'insieme (`quadro.json`)
+
+Compaiono in **Mappa → Quadro**, accanto al Programma (che è automatico: unità e rami principali delle mappe).
+`{ "schemi": [ … ] }`, ogni schema con `id`, `titolo`, `sottotitolo`, `nota` e un `tipo`:
+
+- `rete`: `nodi` (`id`, `testo`, `sotto`, `concetto`, `x`, `y` su una tela larga circa 1200) e `archi` (`da`, `a`, `testo`);
+  `elenco` facoltativo (`chi`, `fa`, `norma`) ripete i rapporti a parole, utile sul telefono.
+- `piramide`: `livelli` dall'alto in basso (`titolo`, `nota`, `voci` con `testo` e `concetto`) e riquadri `aLato`.
+- `fasce`: linea del tempo a corsie (`da`, `a`, `periodi`, `corsie` con `barre`: `testo`, `da`, `a`, `concetto`).
+
+I `concetto` inesistenti vengono tolti dal sync con un avviso.
+
+### Serie di esercizi (`serie` nelle domande)
+
+Una domanda può avere `"serie": "procedimenti"` o `"serie": "principi"`. Resta una domanda normale (entra nel ripasso
+con la sua lezione) e in più alimenta una modalità di Allenamento: **Procedimenti e confronti** (`ordina` con le fasi
+e lo schema completo nella `spiegazione`, `aperta` sull'iter, `flashcard` sugli esiti di un passo, `abbina` tra aspetti
+e caratteristiche di un istituto), **Commento ai principi** e **Tre quesiti** (`aperta` sugli articoli dei Principi
+fondamentali). Le modalità compaiono solo se la materia ha domande di quella serie.
+
+
 ## ID CANONICI (diritto costituzionale)
 
 Stato: `diritto`, `diritto-soggettivo`, `diritto-oggettivo`, `norma-giuridica`, `ordinamento-giuridico`, `potere-politico`, `legittimazione`, `max-weber`, `stato`, `sovranita`, `sovranita-popolare`, `popolo`, `territorio`, `cittadinanza`, `cittadinanza-europea`, `persona-giuridica`, `ente-pubblico`, `ufficio`, `organo`, `organo-costituzionale`, `potesta-pubblica`, `autonomia-privata`.
