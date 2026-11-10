@@ -109,7 +109,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .materia-lista.accenno .materia-casella { animation: materia-accenno 1.3s ease-in-out .9s 1 both; }
 @media (prefers-reduced-motion: reduce) { .materia-lista.accenno .materia-casella { animation: none; } }
 .materia-nome {
-  position: fixed; z-index: 60; width: max-content; max-width: 220px; padding: 6px 9px; border: 1px solid var(--line-2); border-radius: 8px;
+  position: fixed; z-index: 2000; width: max-content; max-width: 240px; padding: 6px 9px; border: 1px solid var(--line-2); border-radius: 8px;
   background: var(--ink); color: var(--bg); font-size: 11px; line-height: 1.35; pointer-events: none;
 }
 .materia-dettagli { display: block; opacity: .72; font-size: 10px; }

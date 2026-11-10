@@ -126,7 +126,7 @@ try {
     assert(app.includes('<SceltaCorso corso={corso} classe="corso-switch-pagina" />'), 'su mobile il corso si sceglie da Altro');
     const griglia = fs.readFileSync(new URL('../src/components/GrigliaMaterie.tsx', import.meta.url), 'utf8');
     assert(griglia.includes('disabled={!m.pronta}'), 'le materie non pronte non devono essere cliccabili');
-    assert(griglia.includes('aria-label={m.nome}') && griglia.includes('title={m.nome}'), 'ogni icona conserva il nome accessibile della materia');
+    assert(griglia.includes('aria-label={m.nome}') && griglia.includes('createPortal('), 'ogni icona conserva il nome accessibile della materia');
     assert(app.includes('<GrigliaMaterie corso={corso}'), 'tutte le materie devono essere nella griglia');
     assert(app.includes("disabled={!corsoDisponibile(c)}") && app.includes("' · in arrivo'"), 'corsi in arrivo visibili ma non selezionabili');
     const piede = app.slice(app.indexOf('<div className="side-foot">'), app.indexOf('</aside>'));

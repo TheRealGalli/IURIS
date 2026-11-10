@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import type { MateriaInfo } from '../lib/types';
 import { docenteDi, type CorsoDiStudio } from '../data/corsi';
 import { Icon } from './ui';
@@ -16,8 +17,9 @@ function iconaMateria(nome: string) {
   return 'libro';
 }
 
-/** Ricordo, fuori dall'archivio di studio e dai backup, che l'accenno di scorrimento è già stato mostrato. */
-const ACCENNO = 'iuris-ui:griglia-materie-accenno';
+/** L'accenno di scorrimento si vede una volta per ogni apertura dell'app e per ogni corso (ricordo di sessione,
+ *  fuori dall'archivio di studio e dai backup). */
+const ACCENNO = 'iuris-ui:griglia-materie-accenno:';
 
 /** Griglia delle materie: se ne vedono quattro, le altre si scorrono. Il nome compare al passaggio del puntatore
  *  o con il fuoco della tastiera, in un fumetto fuori dall'area che scorre, così lo scorrimento non lo taglia. */
@@ -51,15 +53,15 @@ export default function GrigliaMaterie({ corso, materie, selezionata, onSelect, 
     const el = lista.current;
     if (!el || el.scrollHeight - el.clientHeight < 8) return;
     let visto = false;
-    try { visto = localStorage.getItem(ACCENNO) === '1'; } catch { /* archivio non disponibile */ }
+    try { visto = sessionStorage.getItem(ACCENNO + corso.id) === '1'; } catch { /* archivio non disponibile */ }
     if (visto) return;
     setAccenno(true);
     const fine = setTimeout(() => {
       setAccenno(false);
-      try { localStorage.setItem(ACCENNO, '1'); } catch { /* archivio non disponibile */ }
+      try { sessionStorage.setItem(ACCENNO + corso.id, '1'); } catch { /* archivio non disponibile */ }
     }, 2600);
     return () => clearTimeout(fine);
-  }, [voci.length]);
+  }, [voci.length, corso.id]);
 
   return <div className={`materia-griglia${altreSotto ? ' altre-sotto' : ''}`}>
     <div ref={lista} className={`materia-lista ${className}${accenno ? ' accenno' : ''}`} role="group" aria-label="Materie" onScroll={() => { aggiorna(); setFumetto(null); }}>
@@ -67,15 +69,16 @@ export default function GrigliaMaterie({ corso, materie, selezionata, onSelect, 
         onPointerEnter={(e) => e.pointerType === 'mouse' && indica(m.id, e.currentTarget)} onPointerLeave={() => setFumetto(null)}
         onFocus={(e) => indica(m.id, e.currentTarget)} onBlur={() => setFumetto(null)}>
         <button className={`materia-btn${m.id === selezionata ? ' on' : ''}`} disabled={!m.pronta}
-          aria-label={m.nome} title={m.nome} aria-pressed={m.pronta ? m.id === selezionata : undefined}
+          aria-label={m.nome} aria-pressed={m.pronta ? m.id === selezionata : undefined}
           onClick={() => onSelect(m.id)}>
           <span className="materia-dot" style={{ background: m.pronta ? m.colore ?? undefined : undefined }} />
           <Icon n={iconaMateria(m.nome)} size={32} stroke={1.45} />
         </button>
       </span>)}
     </div>
-    {mostrata && fumetto && <span className="materia-nome" aria-hidden="true" style={{ top: fumetto.y, [fumetto.destra ? 'right' : 'left']: fumetto.x }}>
+    {/* nel body, sopra a tutto: né la barra laterale né il contenuto possono coprirlo */}
+    {mostrata && fumetto && createPortal(<span className="materia-nome" aria-hidden="true" style={{ top: fumetto.y, [fumetto.destra ? 'right' : 'left']: fumetto.x }}>
       {mostrata.nome}{mostrata.dettagli && <span className="materia-dettagli">{mostrata.dettagli}</span>}
-    </span>}
+    </span>, document.body)}
   </div>;
 }
