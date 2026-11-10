@@ -1,0 +1,928 @@
+{
+  "id": "u10",
+  "ordine": 10,
+  "titolo": "Comunione, condominio e multiproprietà",
+  "capitolo": "Capitolo 15",
+  "pagine": [
+    74,
+    77
+  ],
+  "abstract": "Che cosa accade quando lo stesso diritto appartiene a più persone: le regole della comunione, il condominio negli edifici con i suoi organi, e la multiproprietà.",
+  "note": "Aggiornato alla riforma del condominio del 2012: l'amministratore è obbligatorio oltre gli otto condomini, il regolamento oltre i dieci. Chi compra una multiproprietà ha quattordici giorni per recedere.",
+  "noteRedazione": [
+    "Fonte: pp. 74–77. La dispensa è anteriore alla l. 220/2012 (in vigore dal 18 giugno 2013), che ha riscritto gli artt. 1117–1139 c.c.: soglie per amministratore e regolamento (prima quattro e dieci condomini), durata annuale rinnovabile dell'incarico, supercondominio (art. 1117-bis c.c.), distacco dall'impianto centralizzato. La multiproprietà è oggi negli artt. 69–81 del Codice del consumo (d.lgs. 79/2011): recesso entro quattordici giorni, non più dieci."
+  ],
+  "lezioni": [
+    {
+      "id": "u10-l1",
+      "titolo": "La comunione",
+      "pagine": [
+        74,
+        75
+      ],
+      "minuti": 20,
+      "sintesi": "### Nozione\nSi ha [[comunione]] quando la **proprietà o un altro diritto reale spetta in comune a più persone** (art. 1100 c.c.). Ciascuno ha diritto su **tutta** la cosa, nei limiti della propria [[quota]], che è una frazione ideale: le quote si **presumono uguali** (art. 1101 c.c.) e misurano vantaggi e pesi.\n\nLa comunione serve al **godimento** di un bene; la **società** all'esercizio in comune di un'attività economica per dividerne gli utili (art. 2248 c.c.).\n\n### Come nasce\n- **Volontaria**: dall'accordo dei partecipanti, per esempio con un acquisto in comune.\n- **Incidentale**: senza un atto di volontà diretto, come tra coeredi.\n- [[comunione-forzosa]]: imposta dalla legge, come per il muro di confine o le parti comuni dell'edificio; non se ne può chiedere lo scioglimento.\n\nLa disciplina è negli artt. 1100–1116 c.c., che valgono in mancanza di titolo o di norme speciali.\n\n### Godimento e disposizione\nCiascun partecipante può **servirsi della cosa comune** purché **non ne alteri la destinazione** e **non impedisca agli altri di farne uso** secondo il loro diritto (art. 1102 c.c.). Può **disporre della propria quota**, cedendola o ipotecandola (art. 1103 c.c.), ma non della cosa intera né di una sua parte determinata. Ciascuno contribuisce alle **spese** in proporzione alla quota (art. 1104 c.c.).\n\n### L'amministrazione\nTutti hanno diritto di concorrere all'[[amministrazione-della-cosa-comune]]. Si decide a **maggioranza**, calcolata secondo il **valore delle quote**:\n| Atto | Maggioranza |\n|---|---|\n| ordinaria amministrazione | maggioranza delle quote (art. 1105 c.c.) |\n| innovazioni e straordinaria amministrazione | maggioranza dei partecipanti che rappresenti **due terzi** del valore (art. 1108 c.c.) |\n| alienazione, diritti reali, locazioni oltre nove anni | **consenso di tutti** |\n\nLa minoranza dissenziente può impugnare le deliberazioni davanti al giudice (art. 1109 c.c.). Se non si forma una maggioranza o non si provvede, ciascuno può ricorrere all'autorità giudiziaria.\n\n### Lo scioglimento\nCiascun partecipante può **sempre chiedere lo scioglimento** (art. 1111 c.c.): è un diritto potestativo, perché la legge vede con sfavore la comunione. Il [[patto-di-indivisione]] è valido solo per **non più di dieci anni**. La [[scioglimento-della-comunione]] avviene con la **divisione**, in natura se la cosa è comodamente divisibile (art. 1114 c.c.); altrimenti il bene è assegnato a uno con conguaglio o venduto. Non si scioglie la comunione di cose che, divise, cesserebbero di servire all'uso a cui sono destinate (art. 1112 c.c.).",
+      "puntiChiave": [
+        "Comunione: stesso diritto reale in capo a più persone, per quote presunte uguali.",
+        "Ciascuno usa la cosa senza alterarne la destinazione né impedire l'uso altrui (art. 1102 c.c.).",
+        "Ciascuno dispone della propria quota (art. 1103 c.c.).",
+        "Maggioranze per valore delle quote; unanimità per gli atti di disposizione.",
+        "Scioglimento sempre possibile; patto di indivisione al massimo per dieci anni (art. 1111 c.c.)."
+      ],
+      "memoria": [
+        {
+          "voce": "art. 1100 c.c.",
+          "dettaglio": "norme regolatrici della comunione"
+        },
+        {
+          "voce": "art. 1101 c.c.",
+          "dettaglio": "le quote si presumono uguali"
+        },
+        {
+          "voce": "art. 1102 c.c.",
+          "dettaglio": "uso della cosa comune"
+        },
+        {
+          "voce": "art. 1108 c.c.",
+          "dettaglio": "innovazioni e atti eccedenti l'ordinaria amministrazione"
+        },
+        {
+          "voce": "art. 1111 c.c.",
+          "dettaglio": "scioglimento della comunione"
+        }
+      ],
+      "concetti": [
+        "comunione",
+        "quota",
+        "comunione-forzosa",
+        "amministrazione-della-cosa-comune",
+        "scioglimento-della-comunione",
+        "patto-di-indivisione"
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "titolo": "Il condominio e la multiproprietà",
+      "pagine": [
+        75,
+        77
+      ],
+      "minuti": 25,
+      "sintesi": "### Il condominio\nNel [[condominio]] negli edifici convivono la **proprietà esclusiva** dei singoli appartamenti e la **comproprietà forzosa** delle [[parti-comuni]]: suolo, fondazioni, muri maestri, tetti, scale, portoni, cortili, impianti (art. 1117 c.c.). Il diritto sulle parti comuni è proporzionale al valore dell'unità, espresso in **millesimi** nelle [[tabelle-millesimali]] (art. 1118 c.c.).\n\nIl condomino:\n- usa le parti comuni senza alterarne la destinazione né impedire l'uso altrui;\n- **non può rinunciare** al diritto sulle parti comuni per sottrarsi alle spese (art. 1118 c.c.);\n- contribuisce alle **spese** in proporzione ai millesimi, o all'uso che può fare della cosa (art. 1123 c.c.);\n- nella sua unità non può eseguire opere che rechino danno alle parti comuni o alla stabilità, sicurezza e decoro dell'edificio (art. 1122 c.c.).\n\nLe **innovazioni** dirette al miglioramento delle cose comuni richiedono una maggioranza qualificata; sono vietate quelle che pregiudicano stabilità, sicurezza o decoro (art. 1120 c.c.).\n\n### Gli organi\nL'[[assemblea-condominiale]] riunisce tutti i condomini e delibera con **doppia maggioranza**, per teste e per millesimi (art. 1136 c.c.). Approva il preventivo e il rendiconto, decide le opere straordinarie, nomina e revoca l'amministratore (art. 1135 c.c.). Le deliberazioni sono obbligatorie per tutti; quelle contrarie alla legge o al regolamento possono essere **impugnate entro trenta giorni** dai condomini assenti, dissenzienti o astenuti (art. 1137 c.c.).\n\nL'[[amministratore-di-condominio]] è **obbligatorio quando i condomini sono più di otto** (art. 1129 c.c.). Dura in carica **un anno**, con rinnovo. Esegue le deliberazioni, riscuote i contributi, cura le parti comuni, tiene la contabilità e **rappresenta** il condominio, anche in giudizio (artt. 1130–1131 c.c.). Contro i suoi provvedimenti si può ricorrere all'assemblea.\n\n### Il regolamento\nIl [[regolamento-di-condominio]] è **obbligatorio quando i condomini sono più di dieci** (art. 1138 c.c.). Disciplina l'uso delle cose comuni, la ripartizione delle spese, il decoro e l'amministrazione.\n- Il regolamento **assembleare** è approvato a maggioranza e non può limitare i diritti dei singoli sulle proprietà esclusive.\n- Il regolamento **contrattuale**, predisposto dal costruttore e accettato negli atti di acquisto o approvato da tutti, può contenere limiti alle proprietà esclusive (per esempio il divieto di certe attività).\n\nIn nessun caso può vietare di tenere **animali domestici**.\n\nIl [[supercondominio]] si ha quando più edifici hanno in comune impianti o servizi (viali, parcheggi, centrale termica): vi si applicano le norme sul condominio (art. 1117-bis c.c.).\n\n### La multiproprietà\nNella [[multiproprieta]] più persone hanno il diritto di godere dello stesso alloggio **a turno, per un periodo determinato dell'anno**. Può essere strutturata come diritto reale (comproprietà con uso turnario) o come partecipazione in una società. Il **Codice del consumo** tutela l'acquirente: contratto **scritto** a pena di nullità, obblighi di **informazione**, **recesso entro quattordici giorni** senza penali, divieto di chiedere **acconti** prima della scadenza del termine.",
+      "puntiChiave": [
+        "Condominio: proprietà esclusiva delle unità e comproprietà forzosa delle parti comuni (art. 1117 c.c.).",
+        "Spese in proporzione ai millesimi; nessuna rinuncia per sottrarsi alle spese.",
+        "Assemblea: doppia maggioranza; impugnazione entro trenta giorni (art. 1137 c.c.).",
+        "Amministratore obbligatorio oltre otto condomini; regolamento oltre dieci.",
+        "Regolamento contrattuale: può limitare le proprietà esclusive; quello assembleare no.",
+        "Multiproprietà: godimento a turno; recesso entro quattordici giorni."
+      ],
+      "memoria": [
+        {
+          "voce": "art. 1117 c.c.",
+          "dettaglio": "parti comuni dell'edificio"
+        },
+        {
+          "voce": "art. 1123 c.c.",
+          "dettaglio": "ripartizione delle spese"
+        },
+        {
+          "voce": "art. 1129 c.c.",
+          "dettaglio": "amministratore obbligatorio oltre otto condomini"
+        },
+        {
+          "voce": "art. 1137 c.c.",
+          "dettaglio": "impugnazione delle delibere entro trenta giorni"
+        },
+        {
+          "voce": "art. 1138 c.c.",
+          "dettaglio": "regolamento obbligatorio oltre dieci condomini"
+        }
+      ],
+      "concetti": [
+        "condominio",
+        "parti-comuni",
+        "tabelle-millesimali",
+        "assemblea-condominiale",
+        "amministratore-di-condominio",
+        "regolamento-di-condominio",
+        "supercondominio",
+        "multiproprieta"
+      ]
+    }
+  ],
+  "concetti": [
+    {
+      "id": "comunione",
+      "nome": "Comunione",
+      "tipo": "istituto",
+      "alias": [
+        "comproprietà",
+        "contitolarità"
+      ],
+      "breve": "Situazione in cui la proprietà o un altro diritto reale spetta in comune a più persone.",
+      "definizione": "Contitolarità di un diritto reale (art. 1100 c.c.): ciascuno ha diritto sull'intera cosa nei limiti della propria quota. Può essere volontaria, incidentale o forzosa.",
+      "pagine": [
+        74,
+        75
+      ]
+    },
+    {
+      "id": "quota",
+      "nome": "Quota",
+      "tipo": "concetto",
+      "alias": [],
+      "breve": "Frazione ideale che misura il diritto di ciascun partecipante alla comunione.",
+      "definizione": "Misura della partecipazione di ciascun contitolare a vantaggi e pesi: le quote si presumono uguali (art. 1101 c.c.) e sono liberamente cedibili.",
+      "pagine": [
+        74,
+        74
+      ]
+    },
+    {
+      "id": "comunione-forzosa",
+      "nome": "Comunione forzosa",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Comunione imposta dalla legge, di cui non si può chiedere lo scioglimento.",
+      "definizione": "Comunione che la legge impone per la natura o la funzione del bene, come il muro di confine e le parti comuni dell'edificio.",
+      "pagine": [
+        74,
+        74
+      ]
+    },
+    {
+      "id": "amministrazione-della-cosa-comune",
+      "nome": "Amministrazione della cosa comune",
+      "tipo": "concetto",
+      "alias": [],
+      "breve": "Gestione del bene in comunione, decisa a maggioranza secondo il valore delle quote.",
+      "definizione": "Regole con cui i comproprietari decidono sul bene: maggioranza delle quote per l'ordinaria amministrazione, due terzi per le innovazioni, unanimità per gli atti di disposizione.",
+      "pagine": [
+        75,
+        75
+      ]
+    },
+    {
+      "id": "scioglimento-della-comunione",
+      "nome": "Scioglimento della comunione",
+      "tipo": "istituto",
+      "alias": [
+        "divisione"
+      ],
+      "breve": "Cessazione della comunione mediante divisione, che ciascun partecipante può sempre chiedere.",
+      "definizione": "Diritto potestativo di ogni comproprietario (art. 1111 c.c.): la cosa è divisa in natura se possibile, altrimenti assegnata o venduta.",
+      "pagine": [
+        75,
+        75
+      ]
+    },
+    {
+      "id": "patto-di-indivisione",
+      "nome": "Patto di indivisione",
+      "tipo": "concetto",
+      "alias": [],
+      "breve": "Accordo con cui i comproprietari si obbligano a restare in comunione, per non più di dieci anni.",
+      "definizione": "Patto che esclude temporaneamente il diritto di chiedere la divisione: vale al massimo per dieci anni (art. 1111 c.c.).",
+      "pagine": [
+        75,
+        75
+      ]
+    },
+    {
+      "id": "condominio",
+      "nome": "Condominio",
+      "tipo": "istituto",
+      "alias": [
+        "condominio negli edifici",
+        "condomino"
+      ],
+      "breve": "Edificio in cui coesistono proprietà esclusive delle unità e comproprietà forzosa delle parti comuni.",
+      "definizione": "Forma particolare di comunione (artt. 1117 ss. c.c.): ogni condomino è proprietario del suo appartamento e comproprietario delle parti comuni.",
+      "pagine": [
+        75,
+        76
+      ]
+    },
+    {
+      "id": "parti-comuni",
+      "nome": "Parti comuni",
+      "tipo": "concetto",
+      "alias": [],
+      "breve": "Parti dell'edificio necessarie all'uso comune: suolo, muri maestri, tetto, scale, impianti.",
+      "definizione": "Beni elencati dall'art. 1117 c.c., in comproprietà tra tutti i condomini salvo titolo contrario; non sono soggetti a divisione.",
+      "pagine": [
+        75,
+        75
+      ]
+    },
+    {
+      "id": "tabelle-millesimali",
+      "nome": "Tabelle millesimali",
+      "tipo": "concetto",
+      "alias": [
+        "millesimi"
+      ],
+      "breve": "Tabelle che esprimono in millesimi il valore di ciascuna unità rispetto all'intero edificio.",
+      "definizione": "Strumento che misura la quota di ciascun condomino sulle parti comuni, per ripartire le spese e calcolare le maggioranze.",
+      "pagine": [
+        76,
+        76
+      ]
+    },
+    {
+      "id": "assemblea-condominiale",
+      "nome": "Assemblea condominiale",
+      "tipo": "organo",
+      "alias": [
+        "assemblea dei condomini"
+      ],
+      "breve": "Organo deliberativo del condominio, composto da tutti i condomini.",
+      "definizione": "Collegio che decide sulla gestione del condominio con doppia maggioranza, per teste e per millesimi; le delibere invalide si impugnano entro trenta giorni.",
+      "pagine": [
+        76,
+        76
+      ]
+    },
+    {
+      "id": "amministratore-di-condominio",
+      "nome": "Amministratore di condominio",
+      "tipo": "organo",
+      "alias": [],
+      "breve": "Organo esecutivo e rappresentante del condominio, obbligatorio oltre gli otto condomini.",
+      "definizione": "Mandatario dei condomini nominato dall'assemblea per un anno: esegue le delibere, riscuote i contributi e rappresenta il condominio.",
+      "pagine": [
+        76,
+        76
+      ]
+    },
+    {
+      "id": "regolamento-di-condominio",
+      "nome": "Regolamento di condominio",
+      "tipo": "norma",
+      "alias": [
+        "regolamento condominiale"
+      ],
+      "breve": "Insieme di regole sull'uso delle cose comuni e sulla ripartizione delle spese, obbligatorio oltre i dieci condomini.",
+      "definizione": "Atto che disciplina la vita del condominio (art. 1138 c.c.). Quello contrattuale può limitare le proprietà esclusive, quello assembleare no.",
+      "pagine": [
+        76,
+        77
+      ]
+    },
+    {
+      "id": "supercondominio",
+      "nome": "Supercondominio",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Complesso di più edifici o condomini che hanno in comune impianti o servizi.",
+      "definizione": "Situazione regolata dall'art. 1117-bis c.c.: alle parti comuni a più edifici si applicano le norme sul condominio.",
+      "pagine": [
+        77,
+        77
+      ]
+    },
+    {
+      "id": "multiproprieta",
+      "nome": "Multiproprietà",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Diritto di godere a turno dello stesso alloggio per un periodo determinato dell'anno.",
+      "definizione": "Forma di godimento turnario di un immobile, tutelata dal Codice del consumo con forma scritta, informazioni e recesso entro quattordici giorni.",
+      "pagine": [
+        77,
+        77
+      ]
+    }
+  ],
+  "relazioni": [
+    {
+      "da": "quota",
+      "a": "comunione",
+      "tipo": "parte-di",
+      "etichetta": "misura la partecipazione alla"
+    },
+    {
+      "da": "comunione-forzosa",
+      "a": "comunione",
+      "tipo": "esempio-di",
+      "etichetta": "è un tipo di"
+    },
+    {
+      "da": "patto-di-indivisione",
+      "a": "scioglimento-della-comunione",
+      "tipo": "contrasta",
+      "etichetta": "sospende lo"
+    },
+    {
+      "da": "condominio",
+      "a": "comunione",
+      "tipo": "esempio-di",
+      "etichetta": "è una forma particolare di"
+    },
+    {
+      "da": "parti-comuni",
+      "a": "condominio",
+      "tipo": "parte-di",
+      "etichetta": "sono in comproprietà nel"
+    },
+    {
+      "da": "tabelle-millesimali",
+      "a": "parti-comuni",
+      "tipo": "collegato",
+      "etichetta": "misurano le quote sulle"
+    },
+    {
+      "da": "assemblea-condominiale",
+      "a": "amministratore-di-condominio",
+      "tipo": "crea",
+      "etichetta": "nomina l'"
+    },
+    {
+      "da": "regolamento-di-condominio",
+      "a": "condominio",
+      "tipo": "collegato",
+      "etichetta": "disciplina il"
+    },
+    {
+      "da": "supercondominio",
+      "a": "condominio",
+      "tipo": "collegato",
+      "etichetta": "estende le regole del"
+    }
+  ],
+  "eventi": [
+    {
+      "id": "ev-riforma-condominio",
+      "anno": 2012,
+      "data": "11 dicembre 2012",
+      "titolo": "Riforma del condominio",
+      "descrizione": "La legge 220/2012, in vigore dal giugno 2013, riscrive la disciplina del condominio negli edifici.",
+      "tipo": "legge",
+      "pagine": [
+        74,
+        77
+      ],
+      "concetti": [
+        "condominio",
+        "amministratore-di-condominio"
+      ]
+    }
+  ],
+  "domande": [
+    {
+      "id": "u10-q001",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "comunione",
+        "quota"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cos'è la comunione e come si determinano le quote?",
+      "risposta": "È la situazione in cui la proprietà o un altro diritto reale spetta in comune a più persone. Ciascuno ha diritto sull'intera cosa nei limiti della propria quota; le quote si presumono uguali (art. 1101 c.c.)."
+    },
+    {
+      "id": "u10-q002",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "comunione"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Entro quali limiti ciascun partecipante può usare la cosa comune?",
+      "risposta": "Può servirsene purché non ne alteri la destinazione e non impedisca agli altri partecipanti di farne parimenti uso secondo il loro diritto (art. 1102 c.c.)."
+    },
+    {
+      "id": "u10-q003",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "amministrazione-della-cosa-comune"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Con quali maggioranze si amministra la cosa comune?",
+      "risposta": "Per l'ordinaria amministrazione basta la maggioranza calcolata secondo il valore delle quote. Per le innovazioni e la straordinaria amministrazione serve la maggioranza dei partecipanti che rappresenti almeno due terzi del valore. Per alienare il bene, costituirvi diritti reali o darlo in locazione per oltre nove anni serve il consenso di tutti."
+    },
+    {
+      "id": "u10-q004",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "scioglimento-della-comunione",
+        "patto-di-indivisione"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Chi può chiedere lo scioglimento della comunione, e con quale limite?",
+      "risposta": "Ciascun partecipante può sempre chiederlo. Il patto di rimanere in comunione vale per non più di dieci anni. Non si può sciogliere la comunione forzosa né quella di cose che, divise, cesserebbero di servire all'uso a cui sono destinate."
+    },
+    {
+      "id": "u10-q005",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "quota"
+      ],
+      "tipo": "multipla",
+      "domanda": "Uno dei tre comproprietari di una casa vuole vendere la propria quota a un estraneo. Può farlo?",
+      "opzioni": [
+        "No, serve il consenso degli altri",
+        "Sì: ciascuno può disporre liberamente della propria quota",
+        "Solo dopo dieci anni",
+        "Solo con l'autorizzazione del giudice"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 1103 c.c. Non potrebbe invece vendere da solo l'intera casa o una sua parte determinata."
+    },
+    {
+      "id": "u10-q006",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "comunione"
+      ],
+      "tipo": "multipla",
+      "domanda": "Che cosa distingue la comunione dalla società?",
+      "opzioni": [
+        "La comunione ha più di due partecipanti",
+        "La comunione serve al godimento di un bene, la società all'esercizio di un'attività economica",
+        "La società non ha quote",
+        "La comunione è sempre forzosa"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 2248 c.c."
+    },
+    {
+      "id": "u10-q007",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "quota"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "In mancanza di prova contraria, le quote dei partecipanti alla comunione si presumono uguali.",
+      "vero": true,
+      "spiegazione": "Art. 1101 c.c."
+    },
+    {
+      "id": "u10-q008",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "patto-di-indivisione"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "I comproprietari possono impegnarsi a restare in comunione per trent'anni.",
+      "vero": false,
+      "spiegazione": "Il patto di indivisione vale al massimo per dieci anni; se è pattuito un termine maggiore, si riduce a dieci (art. 1111 c.c.)."
+    },
+    {
+      "id": "u10-q009",
+      "lezione": "u10-l1",
+      "livello": "base",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "scioglimento-della-comunione"
+      ],
+      "tipo": "completa",
+      "testo": "Lo scioglimento della comunione si attua con la {{divisione}}, in natura se la cosa è comodamente {{divisibile}}.",
+      "spiegazione": "Art. 1114 c.c."
+    },
+    {
+      "id": "u10-q010",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "comunione",
+        "quota",
+        "amministrazione-della-cosa-comune",
+        "scioglimento-della-comunione"
+      ],
+      "tipo": "aperta",
+      "domanda": "Mi parli della comunione.",
+      "traccia": "Si ha **comunione** quando la proprietà o un altro diritto reale spetta **in comune a più persone** (art. 1100 c.c.). Ciascuno ha diritto sull'intera cosa per la propria **quota**; le quote si **presumono uguali**. Può essere **volontaria**, **incidentale** (tra coeredi) o **forzosa**. Si distingue dalla società, che esercita un'attività economica.\n\nQuanto al **godimento**, ciascuno usa la cosa senza **alterarne la destinazione** e senza impedire l'uso degli altri (art. 1102 c.c.). Quanto alla **disposizione**, ciascuno dispone liberamente della **propria quota** (art. 1103 c.c.); per alienare l'intero serve il consenso di tutti. Le spese si dividono per quote.\n\nL'**amministrazione** è a **maggioranza** secondo il valore delle quote: semplice per l'ordinaria, **due terzi** per le innovazioni, **unanimità** per gli atti di disposizione.\n\nLo **scioglimento** può essere chiesto **sempre** da ciascuno (art. 1111 c.c.); il **patto di indivisione** vale al massimo **dieci anni**. Avviene con la **divisione**, in natura se possibile.",
+      "punti": [
+        {
+          "testo": "Diritto in comune a più persone, quote presunte uguali",
+          "chiavi": [
+            "comune",
+            "quot",
+            "uguali"
+          ]
+        },
+        {
+          "testo": "Uso senza alterare la destinazione",
+          "chiavi": [
+            "destinazion",
+            "uso"
+          ]
+        },
+        {
+          "testo": "Disposizione della sola quota",
+          "chiavi": [
+            "dispor",
+            "quota"
+          ]
+        },
+        {
+          "testo": "Maggioranze e unanimità",
+          "chiavi": [
+            "maggioranz",
+            "unanim",
+            "due terzi"
+          ]
+        },
+        {
+          "testo": "Scioglimento sempre possibile, dieci anni",
+          "chiavi": [
+            "scioglim",
+            "division",
+            "dieci"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-q011",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "condominio",
+        "parti-comuni"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che cosa caratterizza il condominio negli edifici?",
+      "risposta": "La coesistenza della proprietà esclusiva delle singole unità immobiliari con la comproprietà forzosa delle parti comuni dell'edificio, come suolo, muri maestri, tetto, scale e impianti (art. 1117 c.c.)."
+    },
+    {
+      "id": "u10-q012",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "assemblea-condominiale"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Come si impugnano le deliberazioni dell'assemblea condominiale?",
+      "risposta": "Le deliberazioni contrarie alla legge o al regolamento possono essere impugnate davanti al giudice dai condomini assenti, dissenzienti o astenuti entro trenta giorni: dalla deliberazione per i dissenzienti e gli astenuti, dalla comunicazione per gli assenti (art. 1137 c.c.)."
+    },
+    {
+      "id": "u10-q013",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "regolamento-di-condominio"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che differenza c'è tra regolamento assembleare e regolamento contrattuale?",
+      "risposta": "Quello assembleare è approvato a maggioranza e non può limitare i diritti dei condomini sulle proprietà esclusive. Quello contrattuale è accettato da tutti, di solito negli atti di acquisto, e può contenere limiti alle proprietà esclusive."
+    },
+    {
+      "id": "u10-q014",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "multiproprieta"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quali tutele ha chi acquista una multiproprietà?",
+      "risposta": "Il contratto deve essere scritto a pena di nullità e contenere le informazioni previste dal Codice del consumo; l'acquirente può recedere senza penali entro quattordici giorni; prima della scadenza di quel termine il venditore non può chiedere acconti."
+    },
+    {
+      "id": "u10-q015",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "amministratore-di-condominio"
+      ],
+      "tipo": "multipla",
+      "domanda": "In quale caso la nomina dell'amministratore è obbligatoria?",
+      "opzioni": [
+        "Sempre",
+        "Quando i condomini sono più di otto",
+        "Quando i condomini sono più di venti",
+        "Solo se lo prevede il regolamento"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 1129 c.c., dopo la riforma del 2012."
+    },
+    {
+      "id": "u10-q016",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "condominio"
+      ],
+      "tipo": "multipla",
+      "domanda": "Un condomino che non usa mai l'ascensore dichiara di rinunciare alla sua quota di proprietà sull'impianto per non pagarne più le spese. La rinuncia è efficace?",
+      "opzioni": [
+        "Sì, se comunicata all'amministratore",
+        "No: il condomino non può rinunciare al diritto sulle parti comuni per sottrarsi alle spese",
+        "Sì, dopo un anno",
+        "Solo con il voto dell'assemblea"
+      ],
+      "corretta": 1,
+      "spiegazione": "Art. 1118 c.c."
+    },
+    {
+      "id": "u10-q017",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "regolamento-di-condominio"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Il regolamento di condominio può vietare ai condomini di tenere animali domestici.",
+      "vero": false,
+      "spiegazione": "L'art. 1138 c.c., dopo la riforma del 2012, lo esclude espressamente."
+    },
+    {
+      "id": "u10-q018",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "tabelle-millesimali"
+      ],
+      "tipo": "verofalso",
+      "affermazione": "Le spese per le parti comuni si ripartiscono, di regola, in proporzione ai millesimi di ciascun condomino.",
+      "vero": true,
+      "spiegazione": "Art. 1123 c.c.; se una cosa serve i condomini in misura diversa, la spesa segue l'uso."
+    },
+    {
+      "id": "u10-q019",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "amministratore-di-condominio",
+        "regolamento-di-condominio"
+      ],
+      "tipo": "completa",
+      "testo": "Quando i condomini sono più di otto è obbligatorio nominare l'{{amministratore}}; quando sono più di dieci va formato il {{regolamento}} di condominio.",
+      "spiegazione": "Artt. 1129 e 1138 c.c."
+    },
+    {
+      "id": "u10-q020",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "condominio",
+        "assemblea-condominiale",
+        "amministratore-di-condominio",
+        "regolamento-di-condominio"
+      ],
+      "tipo": "aperta",
+      "domanda": "Mi parli del condominio negli edifici.",
+      "traccia": "Nel **condominio** convivono la **proprietà esclusiva** delle singole unità e la **comproprietà forzosa** delle **parti comuni** (art. 1117 c.c.): suolo, fondazioni, muri maestri, tetto, scale, impianti. La quota di ciascuno è espressa in **millesimi**.\n\nIl condomino usa le parti comuni senza alterarne la destinazione, contribuisce alle **spese** in proporzione ai millesimi (art. 1123 c.c.) e **non può rinunciare** al diritto sulle parti comuni per non pagare.\n\nGli **organi** sono due. L'**assemblea** delibera con doppia maggioranza, per teste e per millesimi; le delibere contrarie a legge o regolamento si **impugnano entro trenta giorni** (art. 1137 c.c.). L'**amministratore**, obbligatorio oltre **otto** condomini, dura un anno, esegue le delibere e **rappresenta** il condominio.\n\nIl **regolamento** è obbligatorio oltre **dieci** condomini: quello **assembleare** non può toccare le proprietà esclusive, quello **contrattuale** sì.\n\nSe più edifici hanno beni in comune si ha il **supercondominio**.",
+      "punti": [
+        {
+          "testo": "Proprietà esclusiva e parti comuni",
+          "chiavi": [
+            "esclusiv",
+            "parti comuni"
+          ]
+        },
+        {
+          "testo": "Spese per millesimi, divieto di rinuncia",
+          "chiavi": [
+            "millesim",
+            "spese",
+            "rinunci"
+          ]
+        },
+        {
+          "testo": "Assemblea e impugnazione entro trenta giorni",
+          "chiavi": [
+            "assemblea",
+            "trenta"
+          ]
+        },
+        {
+          "testo": "Amministratore oltre otto condomini",
+          "chiavi": [
+            "amministrator",
+            "otto"
+          ]
+        },
+        {
+          "testo": "Regolamento assembleare e contrattuale",
+          "chiavi": [
+            "regolament",
+            "contrattual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-q021",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        74,
+        75
+      ],
+      "concetti": [
+        "scioglimento-della-comunione"
+      ],
+      "tipo": "ordina",
+      "consegna": "Ordina i passaggi con cui si scioglie una comunione ereditaria su un immobile non divisibile.",
+      "elementi": [
+        "Uno dei coeredi chiede la divisione",
+        "Si accerta che il bene non è comodamente divisibile",
+        "Si tenta l'assegnazione a uno dei coeredi con conguaglio",
+        "In mancanza, il bene è venduto",
+        "Il ricavato è ripartito secondo le quote"
+      ],
+      "spiegazione": "La divisione in natura è la regola; se non è possibile si passa ad assegnazione o vendita."
+    },
+    {
+      "id": "u10-q022",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        75,
+        77
+      ],
+      "concetti": [
+        "condominio",
+        "comunione"
+      ],
+      "tipo": "abbina",
+      "consegna": "Abbina ogni decisione alla maggioranza o al soggetto competente.",
+      "coppie": [
+        [
+          "Vendere l'intero bene in comunione",
+          "consenso di tutti i comproprietari"
+        ],
+        [
+          "Ordinaria amministrazione della cosa comune",
+          "maggioranza delle quote"
+        ],
+        [
+          "Nominare l'amministratore di condominio",
+          "assemblea condominiale"
+        ],
+        [
+          "Eseguire le delibere e riscuotere i contributi",
+          "amministratore"
+        ],
+        [
+          "Impugnare una delibera invalida",
+          "condomino assente o dissenziente"
+        ]
+      ]
+    }
+  ],
+  "mappa": {
+    "testo": "Comunione e condominio",
+    "figli": [
+      {
+        "testo": "La comunione",
+        "concetto": "comunione",
+        "figli": [
+          {
+            "testo": "Quote",
+            "nota": "presunte uguali",
+            "concetto": "quota"
+          },
+          {
+            "testo": "Uso della cosa",
+            "nota": "art. 1102 c.c."
+          },
+          {
+            "testo": "Amministrazione",
+            "concetto": "amministrazione-della-cosa-comune"
+          },
+          {
+            "testo": "Scioglimento",
+            "concetto": "scioglimento-della-comunione"
+          },
+          {
+            "testo": "Patto di indivisione",
+            "concetto": "patto-di-indivisione"
+          }
+        ]
+      },
+      {
+        "testo": "Il condominio",
+        "concetto": "condominio",
+        "figli": [
+          {
+            "testo": "Parti comuni",
+            "concetto": "parti-comuni"
+          },
+          {
+            "testo": "Millesimi",
+            "concetto": "tabelle-millesimali"
+          },
+          {
+            "testo": "Assemblea",
+            "concetto": "assemblea-condominiale"
+          },
+          {
+            "testo": "Amministratore",
+            "concetto": "amministratore-di-condominio"
+          },
+          {
+            "testo": "Regolamento",
+            "concetto": "regolamento-di-condominio"
+          },
+          {
+            "testo": "Supercondominio",
+            "concetto": "supercondominio"
+          }
+        ]
+      },
+      {
+        "testo": "La multiproprietà",
+        "concetto": "multiproprieta",
+        "figli": [
+          {
+            "testo": "Godimento a turno"
+          },
+          {
+            "testo": "Recesso",
+            "nota": "quattordici giorni"
+          }
+        ]
+      }
+    ]
+  }
+}

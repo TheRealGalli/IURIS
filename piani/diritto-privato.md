@@ -37,10 +37,10 @@ glossario: deve dire da sola che cos'è la voce (almeno 40 caratteri, non cominc
 | u05 Gli enti | 7 C | 28–32 | fatta |
 | u06 Beni; fatto, atto e negozio giuridico | 8–9 | 33–41 | fatta |
 | u07 Prescrizione e decadenza, tutela giurisdizionale, prove | 10–12 | 42–50 | fatta |
-| u08 Diritti reali e proprietà | 13 | 51–66 | |
-| u09 Diritti reali di godimento | 14 | 67–73 | |
-| u10 Comunione, condominio, multiproprietà | 15 | 74–77 | |
-| u11 Possesso e usucapione | 16 | 78–95 | |
+| u08 Diritti reali e proprietà | 13 | 51–66 | fatta |
+| u09 Diritti reali di godimento | 14 | 67–73 | fatta |
+| u10 Comunione, condominio, multiproprietà | 15 | 74–77 | fatta |
+| u11 Possesso e usucapione | 16 | 78–95 | fatta |
 | u12 Il rapporto obbligatorio e i suoi elementi | 17–18 | 96–101 | |
 | u13 Modificazioni soggettive ed estinzione dell'obbligazione | 19–20 | 102–112 | |
 | u14 Inadempimento, mora, responsabilità patrimoniale | 21 | 113–116 | |
