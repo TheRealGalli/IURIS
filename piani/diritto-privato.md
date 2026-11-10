@@ -4,6 +4,33 @@ Stato: **in attesa delle fonti**. Si fa **dopo Diritto costituzionale**, appena 
 `05 - Contenuti/`), ma per ora non contiene materiale: quando Carlo aggiunge appunti o PDF, mettili in
 `00 - Appunti e fonti/` e segui questo piano. Le regole generali sono in [`../AGENTS.md`](../AGENTS.md).
 
+## Decisioni prese con Carlo (10 novembre 2026)
+
+- **Una sola materia per le tre classi**: le sbobine valgono per LMG A-L, LMG M-Z e SSG. Slug `diritto-privato`, da
+  aggiungere alle `materie` di tutti e tre i corsi in `studio/src/data/corsi.ts` (togliendola dagli `inArrivo`).
+- **Sezione «Codice civile»** (stesso meccanismo della sezione Costituzione, `norme.json` con `"nome": "Codice civile"`).
+
+### Come trattare il Codice civile
+
+Il Codice ha 2969 articoli più i bis/ter: circa 1,5 MB di testo. Non può stare dentro `corso.json` come la
+Costituzione (65 KB), altrimenti ogni apertura della materia lo scarica tutto.
+
+1. **Fonte**. Normattiva è la fonte ufficiale, ma l'esportazione che Carlo ha provato si ferma a circa 1100 articoli.
+   Wikisource ha il testo completo diviso per libro e titolo (61 pagine, 2986 articoli con le rubriche ufficiali,
+   scaricate e contate il 10 novembre 2026), ma dichiara l'ultimo aggiornamento al 6 luglio 2022 e una qualità bassa.
+   Strada scelta: Wikisource come base completa; il file di Normattiva, dove c'è, prevale e serve da controllo;
+   gli articoli toccati dalle riforme dopo luglio 2022 (riforma Cartabia della famiglia e dei minori, d.lgs. 149/2022,
+   e successive) si verificano uno per uno su Normattiva. Ogni articolo porta la data dell'ultima verifica; quelli
+   non verificati lo dicono.
+2. **Formato**. Un file per libro (`norme/libro-1.json` … `libro-6.json`, più le preleggi) e un indice leggero
+   (numero, rubrica, libro, titolo, capo) dentro `corso.json`. La sezione carica l'indice subito e il testo del libro
+   solo quando serve; la ricerca per numero e per rubrica lavora sull'indice, quella nel testo sul libro aperto.
+3. **Uso nello studio**. Vista predefinita: solo gli articoli citati nelle lezioni (il programma d'esame è una parte
+   del Codice), con il resto a portata di ricerca. Il collegamento articolo–lezione–domande è già automatico
+   («art. 1321 c.c.», «artt. 1325 e 1418»): nelle lezioni gli articoli vanno scritti così.
+4. **Restano fuori**, per ora: leggi collegate (codice del consumo, legge sul divorzio, unioni civili). Si
+   aggiungeranno solo se le sbobine le trattano a fondo.
+
 ## Primi passi quando arrivano le fonti
 
 1. **Riconosci il materiale**: che cos'è (sbobinature, riassunto di un manuale, dispense del docente), di quale
