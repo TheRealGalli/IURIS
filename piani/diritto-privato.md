@@ -30,8 +30,8 @@ sono anche numeri («sei»): `check-domande` le rifiuta.
 | Unità | Capitoli | Pagine | Stato |
 |---|---|---|---|
 | u01 Ordinamento, norma e fonti | 1–2 | 1–8 | fatta |
-| u02 Legge nel tempo, interpretazione, conflitti di leggi | 3–5 | 9–15 | |
-| u03 Situazioni giuridiche soggettive | 6 | 16–18 | |
+| u02 Legge nel tempo, interpretazione, conflitti di leggi | 3–5 | 9–15 | fatta |
+| u03 Situazioni giuridiche soggettive | 6 | 16–18 | fatta |
 | u04 La persona fisica | 7 A–B | 19–27 | |
 | u05 Gli enti | 7 C | 28–32 | |
 | u06 Beni; fatto, atto e negozio giuridico | 8–9 | 33–41 | |
