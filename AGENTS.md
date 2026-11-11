@@ -5,8 +5,9 @@ Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usal
 
 ## Lavoro in corso
 
-**Si riparte da [`piani/consegne-prossimi-passi.md`](piani/consegne-prossimi-passi.md)**: otto passi in ordine per portare le
-materie al livello di Diritto romano. Diritto privato ha tutte le 27 unità; il resto di questo elenco è contesto.
+**Si riparte da [`piani/consegne-prossimi-passi.md`](piani/consegne-prossimi-passi.md)**: vedi il «Piano successivo» in fondo al file, da eseguire
+un passo alla volta nell’ordine. Il primo è completato: Filosofia SSG ha 1.036 domande, almeno 14 per lezione d’esame;
+si riparte dal passo 2 (approfondimenti di privato). Diritto privato ha tutte le 27 unità; il resto di questo elenco è contesto.
 
 1. **Diritto costituzionale completato e potenziato** (LMG · I anno · A-L): 18 unità, 50 lezioni e 760 domande,
    più schede inverse, approfondimenti, testo della Costituzione, Quadro ed esercizi dedicati.

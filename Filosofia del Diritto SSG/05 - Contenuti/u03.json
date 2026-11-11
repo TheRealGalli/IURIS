@@ -1431,6 +1431,234 @@
         27,
         30
       ]
+    },
+    {
+      "id": "u03-q043",
+      "tipo": "multipla",
+      "lezione": "u03-l1",
+      "livello": "medio",
+      "pagine": [
+        22,
+        26
+      ],
+      "domanda": "Una regola sulla procedura legislativa stabilisce come produrre altre norme. Di quale condizione di validità si tratta nel lessico della lezione?",
+      "opzioni": [
+        "A priori, ricavata dall'idea stessa di ordinamento",
+        "A posteriori, posta da norme su norme",
+        "Praxeologica, relativa all'essenza di una promessa",
+        "Esterna all'ordinamento, perché ogni procedura precede le norme"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le condizioni sintasseonomiche sono stabilite positivamente all'interno del sistema."
+    },
+    {
+      "id": "u03-q044",
+      "tipo": "multipla",
+      "lezione": "u03-l1",
+      "livello": "medio",
+      "pagine": [
+        22,
+        26
+      ],
+      "domanda": "Uno studente ricostruisce tutti i rapporti tra le norme ma non il loro contenuto. Quale dimensione semiotica sta privilegiando?",
+      "opzioni": [
+        "La fonetica",
+        "La retorica",
+        "La sintattica",
+        "La semantica"
+      ],
+      "corretta": 2,
+      "spiegazione": "La sintattica considera come le norme stanno insieme nell'ordinamento."
+    },
+    {
+      "id": "u03-q045",
+      "tipo": "verofalso",
+      "lezione": "u03-l1",
+      "livello": "medio",
+      "pagine": [
+        22,
+        26
+      ],
+      "affermazione": "La sintattica del diritto studia il suono delle parole, anziché i rapporti tra norme.",
+      "vero": false,
+      "spiegazione": "La chiusura richiede l'appartenenza e la validità nell'ordinamento."
+    },
+    {
+      "id": "u03-q046",
+      "tipo": "completa",
+      "lezione": "u03-l1",
+      "livello": "base",
+      "pagine": [
+        22,
+        26
+      ],
+      "testo": "La Grundnorm sta all'ordinamento come, nell'analogia kantiana della lezione, {{spazio}} e tempo stanno all'esperienza sensibile.",
+      "spiegazione": "Si tratta di condizioni di possibilità, non di ulteriori oggetti dell'esperienza."
+    },
+    {
+      "id": "u03-q047",
+      "tipo": "multipla",
+      "lezione": "u03-l2",
+      "livello": "medio",
+      "pagine": [
+        26,
+        29
+      ],
+      "domanda": "Nel divieto di fumare, si distingue il comportamento dal suo essere vietato. Quali elementi si stanno separando?",
+      "opzioni": [
+        "Contenuto della sanzione e competenza del giudice",
+        "Produzione della norma e sua abrogazione",
+        "Validità della norma e sua effettiva osservanza",
+        "Fatto descritto e modalità deontica"
+      ],
+      "corretta": 3,
+      "spiegazione": "La norma descrive un fatto e lo qualifica come obbligatorio, permesso o vietato."
+    },
+    {
+      "id": "u03-q048",
+      "tipo": "multipla",
+      "lezione": "u03-l2",
+      "livello": "medio",
+      "pagine": [
+        26,
+        29
+      ],
+      "domanda": "Un comportamento è molto diffuso socialmente. Per lo schema kelseniano ciò basta ad attribuirgli un significato giuridico?",
+      "opzioni": [
+        "No, serve una norma che lo qualifichi",
+        "Sì, la frequenza è sempre una fonte sufficiente",
+        "Sì, se coinvolge più persone",
+        "No, perché un fatto sociale non può mai essere regolato"
+      ],
+      "corretta": 0,
+      "spiegazione": "La rilevanza sociale e la qualificazione giuridica operano su piani distinti."
+    },
+    {
+      "id": "u03-q049",
+      "tipo": "verofalso",
+      "lezione": "u03-l2",
+      "livello": "medio",
+      "pagine": [
+        26,
+        29
+      ],
+      "affermazione": "Nello schema della lezione la descrizione di un fatto, da sola, contiene già la sanzione giuridica.",
+      "vero": false,
+      "spiegazione": "Occorrono la qualificazione normativa e il collegamento alla conseguenza sanzionatoria."
+    },
+    {
+      "id": "u03-q050",
+      "tipo": "multipla",
+      "lezione": "u03-l3",
+      "livello": "medio",
+      "pagine": [
+        29,
+        30
+      ],
+      "domanda": "Una violazione non viene scoperta e la sanzione non è applicata. Quale distinzione rende comprensibile il caso?",
+      "opzioni": [
+        "La sanzione segue sempre materialmente l'illecito",
+        "L'imputazione normativa non è una necessità causale",
+        "Il Sollen coincide con il Müssen",
+        "La norma è una legge fisica falsa"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il dover essere prescrive una conseguenza senza assicurarne l'accadere naturale."
+    },
+    {
+      "id": "u03-q051",
+      "tipo": "multipla",
+      "lezione": "u03-l3",
+      "livello": "medio",
+      "pagine": [
+        29,
+        30
+      ],
+      "domanda": "Un oggetto cade per gravità; una sanzione è irrogata dopo l'accertamento di un illecito. Quale confronto è corretto?",
+      "opzioni": [
+        "Il primo è un permesso, il secondo un fatto senza norme",
+        "Il primo è imputazione, il secondo causalità naturale",
+        "Il primo caso illustra causalità, il secondo imputazione",
+        "Entrambi sono semplici leggi fisiche"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'ordine naturale e quello normativo collegano i fatti secondo nessi diversi."
+    },
+    {
+      "id": "u03-q052",
+      "tipo": "verofalso",
+      "lezione": "u03-l3",
+      "livello": "medio",
+      "pagine": [
+        29,
+        30
+      ],
+      "affermazione": "La possibilità di comportarsi diversamente dalla prescrizione è incompatibile con l'esistenza del diritto.",
+      "vero": false,
+      "spiegazione": "Il diritto presuppone la possibilità di comportarsi diversamente dalla prescrizione."
+    },
+    {
+      "id": "u03-q053",
+      "tipo": "multipla",
+      "lezione": "u03-l4",
+      "livello": "medio",
+      "pagine": [
+        30,
+        32
+      ],
+      "domanda": "Una disposizione organizza un organo senza enunciare una sanzione. Come può inserirsi nel normativismo kelseniano presentato?",
+      "opzioni": [
+        "Come norma primaria perché istituisce un organo superiore",
+        "Come proposizione necessariamente estranea al diritto",
+        "Come sanzione già applicata a un comportamento",
+        "Come norma secondaria collegata alle norme sanzionatorie"
+      ],
+      "corretta": 3,
+      "spiegazione": "Le norme organizzative preparano e completano il sistema delle norme primarie."
+    },
+    {
+      "id": "u03-q054",
+      "tipo": "multipla",
+      "lezione": "u03-l4",
+      "livello": "medio",
+      "pagine": [
+        30,
+        32
+      ],
+      "domanda": "Uno studente chiama primaria una norma solo perché ha rango costituzionale. Quale distinzione deve correggere?",
+      "opzioni": [
+        "Il rango gerarchico non coincide con la distinzione kelseniana primaria/secondaria",
+        "Ogni norma costituzionale contiene una pena",
+        "Primaria significa sempre cronologicamente anteriore",
+        "Le norme secondarie sono sempre abrogate"
+      ],
+      "corretta": 0,
+      "spiegazione": "Nel lessico kelseniano qui adottato conta la struttura sanzionatoria, non il solo rango."
+    },
+    {
+      "id": "u03-q055",
+      "tipo": "verofalso",
+      "lezione": "u03-l4",
+      "livello": "medio",
+      "pagine": [
+        30,
+        32
+      ],
+      "affermazione": "I frammenti di norma sono definiti nel corso come proposizioni prive di qualsiasi rapporto con le norme sanzionatorie.",
+      "vero": false,
+      "spiegazione": "La loro funzione organizzativa non va confusa con quella delle norme primarie complete."
+    },
+    {
+      "id": "u03-q056",
+      "tipo": "completa",
+      "lezione": "u03-l4",
+      "livello": "base",
+      "pagine": [
+        30,
+        32
+      ],
+      "testo": "La teoria che pone la norma al centro della definizione del diritto è detta {{normativismo}}.",
+      "spiegazione": "È la denominazione della prospettiva kelseniana discussa."
     }
   ]
 }

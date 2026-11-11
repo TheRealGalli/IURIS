@@ -1412,6 +1412,234 @@
       "tipo": "flashcard",
       "domanda": "Quali opere usa il corso per raccontare l'immaginario del controllo?",
       "risposta": "«Un chien andalou» di Buñuel, con l'occhio squarciato; «1984» di Orwell; «Un oscuro scrutare» di Philip K. Dick; il film «Il quinto potere»; e, per la domanda su chi controlla i controllori, Dürrenmatt e la graphic novel «Watchmen» di Alan Moore."
+    },
+    {
+      "id": "u09-q043",
+      "tipo": "multipla",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        97,
+        99
+      ],
+      "domanda": "Una persona conosce il carcere soprattutto attraverso film e serie. Quale problema metodologico interessa al corso?",
+      "opzioni": [
+        "L'assenza di qualsiasi immaginario sociale",
+        "L'equivalenza tra finzione e prova giudiziaria",
+        "La mediazione delle immagini nella conoscenza dell'istituzione",
+        "La conoscenza diretta e completa di ogni carcere"
+      ],
+      "corretta": 2,
+      "spiegazione": "La rappresentazione contribuisce a formare ciò che crediamo di sapere dell'istituzione."
+    },
+    {
+      "id": "u09-q044",
+      "tipo": "multipla",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        97,
+        99
+      ],
+      "domanda": "La domanda passa da «quale ragione ho per obbedire?» a «quali pratiche mi rendono incline a obbedire?». Quale spostamento introduce?",
+      "opzioni": [
+        "Dalla disciplina alla sola validità gerarchica",
+        "Dal linguaggio al calcolo delle pene soltanto",
+        "Dalla pratica alla pura deduzione teologica",
+        "Dalla giustificazione della scelta alla formazione disciplinare del soggetto"
+      ],
+      "corretta": 3,
+      "spiegazione": "La prospettiva foucaultiana studiata concentra l'attenzione sulla pressione continua che forma i comportamenti."
+    },
+    {
+      "id": "u09-q045",
+      "tipo": "verofalso",
+      "lezione": "u09-l1",
+      "livello": "medio",
+      "pagine": [
+        97,
+        99
+      ],
+      "affermazione": "Considerare l'architettura visiva del diritto significa poter analizzare anche immagini e spazi, oltre ai testi scritti.",
+      "vero": true,
+      "spiegazione": "L'ordine giuridico è presentato anche attraverso forme visibili e rappresentazioni."
+    },
+    {
+      "id": "u09-q046",
+      "tipo": "completa",
+      "lezione": "u09-l1",
+      "livello": "base",
+      "pagine": [
+        97,
+        99
+      ],
+      "testo": "Nel quadro foucaultiano della lezione, la pressione psicosociale è costante e {{continua}}.",
+      "spiegazione": "Non si limita al momento dell'eventuale sanzione."
+    },
+    {
+      "id": "u09-q047",
+      "tipo": "multipla",
+      "lezione": "u09-l2",
+      "livello": "medio",
+      "pagine": [
+        99,
+        101
+      ],
+      "domanda": "Il detenuto vede la torre ma non può accertare se qualcuno lo osservi. Quale condizione rende stabile il controllo panottico?",
+      "opzioni": [
+        "L'asimmetria tra visibilità del detenuto e invisibilità del guardiano",
+        "La visibilità reciproca e completa",
+        "La certezza che la torre sia sempre vuota",
+        "L'assenza di separazione tra le celle"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'impossibilità di verificare lo sguardo favorisce l'autodisciplina."
+    },
+    {
+      "id": "u09-q048",
+      "tipo": "multipla",
+      "lezione": "u09-l2",
+      "livello": "medio",
+      "pagine": [
+        99,
+        101
+      ],
+      "domanda": "Un dispositivo mira a ottenere obbedienza senza interventi continui del guardiano. Quale risultato panottico ricerca?",
+      "opzioni": [
+        "La sostituzione del controllo con una disputa morale",
+        "L'interiorizzazione della sorveglianza",
+        "La pura abrogazione delle regole",
+        "La pubblicazione di ogni movimento del guardiano"
+      ],
+      "corretta": 1,
+      "spiegazione": "La presenza possibile dello sguardo condiziona il comportamento anche senza interventi effettivi."
+    },
+    {
+      "id": "u09-q049",
+      "tipo": "verofalso",
+      "lezione": "u09-l2",
+      "livello": "medio",
+      "pagine": [
+        99,
+        101
+      ],
+      "affermazione": "Nel Panopticon l'effetto disciplinare dipende soltanto dal numero di punizioni già inflitte.",
+      "vero": false,
+      "spiegazione": "Conta la possibilità continua di essere osservati, che induce il soggetto ad autoregolarsi."
+    },
+    {
+      "id": "u09-q050",
+      "tipo": "multipla",
+      "lezione": "u09-l3",
+      "livello": "medio",
+      "pagine": [
+        101,
+        103
+      ],
+      "domanda": "Un sistema aziendale misura ogni pausa e induce tutti ad adeguarsi a uno standard. Quale concetto foucaultiano illustra?",
+      "opzioni": [
+        "Imputazione di una sanzione a un illecito già accertato",
+        "Validazione di una norma tramite la fonte superiore",
+        "Normalizzazione",
+        "Costituzione di uno status mediante una dichiarazione"
+      ],
+      "corretta": 2,
+      "spiegazione": "La norma opera qui come standard verso cui vengono orientati i comportamenti."
+    },
+    {
+      "id": "u09-q051",
+      "tipo": "multipla",
+      "lezione": "u09-l3",
+      "livello": "medio",
+      "pagine": [
+        101,
+        103
+      ],
+      "domanda": "Un controllo è economicamente efficiente ma invade la sfera protetta dei lavoratori. Quale compito del diritto emerge?",
+      "opzioni": [
+        "Considerarlo legittimo per la sola produttività",
+        "Rinunciare a ogni protezione della persona",
+        "Trasformare automaticamente il dispositivo in legge",
+        "Valutare e limitare il dispositivo a tutela dei soggetti"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'efficienza economica non coincide con una giustificazione giuridica del controllo."
+    },
+    {
+      "id": "u09-q052",
+      "tipo": "verofalso",
+      "lezione": "u09-l3",
+      "livello": "medio",
+      "pagine": [
+        101,
+        103
+      ],
+      "affermazione": "Nel quadro della governance, i criteri che organizzano le condotte possono provenire anche da dispositivi non legislativi.",
+      "vero": true,
+      "spiegazione": "Il giurista deve confrontarsi con fonti e poteri differenti dalla sola legge statale."
+    },
+    {
+      "id": "u09-q053",
+      "tipo": "completa",
+      "lezione": "u09-l3",
+      "livello": "base",
+      "pagine": [
+        101,
+        103
+      ],
+      "testo": "La trasformazione delle condotte verso uno standard è detta {{normalizzazione}}.",
+      "spiegazione": "La norma foucaultiana funziona come misura di normalità."
+    },
+    {
+      "id": "u09-q054",
+      "tipo": "multipla",
+      "lezione": "u09-l4",
+      "livello": "medio",
+      "pagine": [
+        103,
+        106
+      ],
+      "domanda": "Un algoritmo classifica continuamente i comportamenti senza mostrare chi stabilisca i criteri. Quale domanda della lezione diventa centrale?",
+      "opzioni": [
+        "Chi controlla chi esercita il controllo?",
+        "Quale norma superiore abilita formalmente ogni classificazione?",
+        "Con quale sanzione si conclude ciascun illecito osservato?",
+        "Quale giustificazione morale condivide ogni persona classificata?"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il problema è la controllabilità del custode e dei criteri con cui opera."
+    },
+    {
+      "id": "u09-q055",
+      "tipo": "multipla",
+      "lezione": "u09-l4",
+      "livello": "medio",
+      "pagine": [
+        103,
+        106
+      ],
+      "domanda": "Il controllo passa da una torre visibile alla raccolta invisibile dei dati. Come va letta la metafora dello sguardo?",
+      "opzioni": [
+        "Come abolizione di ogni asimmetria",
+        "Come funzione di sorveglianza, anche senza un occhio materiale",
+        "Come fenomeno esclusivamente ottico",
+        "Come prova che nessuna osservazione è possibile"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il corso estende il tema dello sguardo a dispositivi e algoritmi."
+    },
+    {
+      "id": "u09-q056",
+      "tipo": "verofalso",
+      "lezione": "u09-l4",
+      "livello": "medio",
+      "pagine": [
+        103,
+        106
+      ],
+      "affermazione": "Il fatto che un dispositivo produca ordine basta, nel ragionamento del corso, a garantirne il controllo democratico.",
+      "vero": false,
+      "spiegazione": "L'efficacia del controllo e le garanzie dei destinatari sono questioni distinte."
     }
   ]
 }

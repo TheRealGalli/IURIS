@@ -1099,6 +1099,171 @@
         "Conclusione: il sapere è esercizio di potere"
       ],
       "spiegazione": "In Ross il sapere prevede il potere delle corti; in Foucault è già potere."
+    },
+    {
+      "id": "u10-q033",
+      "tipo": "multipla",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "domanda": "Un sistema raccoglie paure, abitudini e informazioni vitali per orientare le persone. Quale sapere sta costruendo?",
+      "opzioni": [
+        "Una catena di validazione gerarchica",
+        "Una descrizione priva di qualsiasi impiego pratico",
+        "Un sapere destinato alla gestione e al controllo",
+        "Soltanto una previsione di sentenze"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il sapere panottico è capillare e funzionale all'esercizio di un potere."
+    },
+    {
+      "id": "u10-q034",
+      "tipo": "multipla",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "domanda": "Un giurista studia precedenti per prevedere la decisione di una corte. Quale obiettivo distingue questa ricerca dal sapere panottico?",
+      "opzioni": [
+        "Raccogliere ogni informazione sulla vita degli osservati",
+        "Costruire uno standard di normalità per tutti i comportamenti",
+        "Disciplinare stabilmente i corpi prima di ogni illecito",
+        "Prevedere l'applicazione delle regole"
+      ],
+      "corretta": 3,
+      "spiegazione": "La lezione contrappone la previsione rossiana alla gestione capillare foucaultiana."
+    },
+    {
+      "id": "u10-q035",
+      "tipo": "verofalso",
+      "lezione": "u10-l1",
+      "livello": "medio",
+      "pagine": [
+        107,
+        109
+      ],
+      "affermazione": "Nel Panopticon raccogliere informazioni è parte del funzionamento del potere, anziché un'attività necessariamente neutrale.",
+      "vero": true,
+      "spiegazione": "Il sapere è impiegato per governare i comportamenti degli osservati."
+    },
+    {
+      "id": "u10-q036",
+      "tipo": "multipla",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        109,
+        111
+      ],
+      "domanda": "Una pratica addestra il soggetto a comportarsi in un certo modo prima di ogni possibile violazione. Quale tipo di potere esemplifica?",
+      "opzioni": [
+        "Disciplinare",
+        "Soltanto sanzionatorio a posteriori",
+        "Esclusivamente costituente",
+        "Puramente descrittivo"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il potere disciplinare agisce sulla formazione dei comportamenti, a monte dell'illecito."
+    },
+    {
+      "id": "u10-q037",
+      "tipo": "multipla",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        109,
+        111
+      ],
+      "domanda": "Dire che il potere disciplinare è «positivo» significa, nella lezione, che è sempre moralmente buono?",
+      "opzioni": [
+        "No, significa che non produce effetti",
+        "No, significa che produce e costituisce soggetti e condotte",
+        "Sì, significa che è sempre giusto",
+        "Sì, perché coincide con il consenso democratico"
+      ],
+      "corretta": 1,
+      "spiegazione": "Positivo indica una funzione produttiva, distinta dalla sola proibizione."
+    },
+    {
+      "id": "u10-q038",
+      "tipo": "verofalso",
+      "lezione": "u10-l2",
+      "livello": "medio",
+      "pagine": [
+        109,
+        111
+      ],
+      "affermazione": "Le tecniche del sé sono presentate come una possibile forma di resistenza individuale al potere.",
+      "vero": true,
+      "spiegazione": "Il corso ne discute anche il limite di non offrire una soluzione collettiva."
+    },
+    {
+      "id": "u10-q039",
+      "tipo": "completa",
+      "lezione": "u10-l2",
+      "livello": "base",
+      "pagine": [
+        109,
+        111
+      ],
+      "testo": "Il potere che prende in carico la vita dal biologico al sociale è detto {{biopolitico}}.",
+      "spiegazione": "La sua azione investe la formazione della soggettività."
+    },
+    {
+      "id": "u10-q040",
+      "tipo": "multipla",
+      "lezione": "u10-l3",
+      "livello": "medio",
+      "pagine": [
+        111,
+        115
+      ],
+      "domanda": "Un potere ha limiti formalmente definiti, ma resta da spiegare perché gli spetti comandare. Quale questione rimane aperta?",
+      "opzioni": [
+        "La sola legalità dei limiti",
+        "L'efficacia concreta delle sanzioni",
+        "La legittimità",
+        "L'efficienza del dispositivo di sorveglianza"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel lessico della lezione la legittimità giustifica il potere stesso, la legalità i suoi limiti."
+    },
+    {
+      "id": "u10-q041",
+      "tipo": "multipla",
+      "lezione": "u10-l3",
+      "livello": "medio",
+      "pagine": [
+        111,
+        115
+      ],
+      "domanda": "Una decisione è riconducibile a una corte identificabile, mentre un controllo diffuso non ha un custode riconoscibile. Quale differenza illustra?",
+      "opzioni": [
+        "Primarietà e secondarietà in Kelsen",
+        "Sistema statico e sistema dinamico",
+        "Essere e dover essere in Hume",
+        "Nome e volto del custode rossiano contro anonimato del dispositivo"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il confronto rende visibile la difficoltà di chiamare a rispondere un potere anonimo."
+    },
+    {
+      "id": "u10-q042",
+      "tipo": "verofalso",
+      "lezione": "u10-l3",
+      "livello": "medio",
+      "pagine": [
+        111,
+        115
+      ],
+      "affermazione": "La formula «corpi docili» descrive soltanto l'esecuzione di un ordine occasionale, senza formazione durevole delle condotte.",
+      "vero": false,
+      "spiegazione": "La disciplina agisce stabilmente sui corpi e sulla soggettività."
     }
   ]
 }

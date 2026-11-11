@@ -1860,6 +1860,183 @@
         6,
         10
       ]
+    },
+    {
+      "id": "u01-q047",
+      "tipo": "multipla",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        4
+      ],
+      "domanda": "Una persona attraversa sulle strisce soltanto perché vede farlo agli altri. Che cosa ha riconosciuto direttamente?",
+      "opzioni": [
+        "Una regolarità di comportamento, senza ancora comprenderne la regola",
+        "La validità formale del codice",
+        "Il fondamento morale della prescrizione",
+        "La competenza del legislatore"
+      ],
+      "corretta": 0,
+      "spiegazione": "Imitare gli altri non significa aver interpretato il significato normativo del segnale."
+    },
+    {
+      "id": "u01-q048",
+      "tipo": "multipla",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        4
+      ],
+      "domanda": "Un cartello vieta di fumare anche quando nessuno lo osserva. Che cosa mostra questo esempio?",
+      "opzioni": [
+        "L'oggetto astratto perde ogni forza normativa",
+        "La prescrizione continua a rivolgersi ai destinatari oltre il comportamento osservato",
+        "La regola coincide con la frequenza del comportamento",
+        "Il divieto diventa una descrizione dell'ambiente"
+      ],
+      "corretta": 1,
+      "spiegazione": "La regola esprime un dover essere; non si esaurisce nella registrazione di ciò che accade."
+    },
+    {
+      "id": "u01-q049",
+      "tipo": "verofalso",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        4
+      ],
+      "affermazione": "Per comprendere il diritto, riconoscere il colore di un semaforo è sufficiente anche senza attribuirgli un significato.",
+      "vero": false,
+      "spiegazione": "Occorre interpretare il segno come informazione normativa che orienta il comportamento."
+    },
+    {
+      "id": "u01-q050",
+      "tipo": "completa",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "pagine": [
+        1,
+        4
+      ],
+      "testo": "Il confine romano evocato come esempio di ordine artificiale è il {{limes}}.",
+      "spiegazione": "Il confine mostra come una regola contribuisca a organizzare lo spazio."
+    },
+    {
+      "id": "u01-q051",
+      "tipo": "multipla",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "pagine": [
+        5,
+        7
+      ],
+      "domanda": "Un automobilista passa con il rosso. Quale conclusione rispetta la distinzione della lezione?",
+      "opzioni": [
+        "Ha trasformato il divieto in un permesso",
+        "Ha verificato la verità del divieto",
+        "Ha violato una prescrizione, senza renderla una descrizione falsa",
+        "Ha dimostrato che il divieto è falso"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'inosservanza riguarda il comportamento prescritto; verità e falsità qualificano invece le descrizioni."
+    },
+    {
+      "id": "u01-q052",
+      "tipo": "multipla",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "pagine": [
+        5,
+        7
+      ],
+      "domanda": "Due teorici invocano la natura per difendere, rispettivamente, i diritti dei sudditi e il potere del sovrano. Che problema emerge?",
+      "opzioni": [
+        "La natura ha un unico significato condiviso",
+        "Le due tesi sono identiche sul piano politico",
+        "Ogni riferimento alla natura elimina l'ideologia",
+        "L'appello alla natura può sostenere conclusioni politiche opposte"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il concetto di natura assume significati diversi e non garantisce da solo una giustificazione condivisa."
+    },
+    {
+      "id": "u01-q053",
+      "tipo": "verofalso",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "pagine": [
+        5,
+        7
+      ],
+      "affermazione": "Chiedere la ragione di un divieto è pertinente perché la prescrizione restringe possibilità di azione.",
+      "vero": true,
+      "spiegazione": "La limitazione della libertà rende centrale la domanda sulla giustificazione dell'obbligo."
+    },
+    {
+      "id": "u01-q054",
+      "tipo": "completa",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "pagine": [
+        5,
+        7
+      ],
+      "testo": "L'estensione della regolazione a quasi ogni spazio della vita sociale è chiamata {{ipernormazione}}.",
+      "spiegazione": "Il termine indica la crescente presenza delle regole nella vita quotidiana."
+    },
+    {
+      "id": "u01-q055",
+      "tipo": "multipla",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "pagine": [
+        10,
+        11
+      ],
+      "domanda": "Il vigile indica la strada su richiesta di un passante; poi ordina a un automobilista di fermarsi. Quale elemento distingue il secondo caso nella lezione?",
+      "opzioni": [
+        "La prescrizione è sostenuta dalla sanzione giuridica",
+        "La prescrizione esprime soltanto una preferenza personale",
+        "Il comando è obbligatorio perché il destinatario lo ha richiesto",
+        "Il consiglio costituisce già una norma sanzionatoria"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'indicazione richiesta orienta una scelta; il comando giuridico presenta una forza sanzionatoria."
+    },
+    {
+      "id": "u01-q056",
+      "tipo": "multipla",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "pagine": [
+        10,
+        11
+      ],
+      "domanda": "Una prescrizione coincide con le convinzioni morali di Luca. Questo basta a renderla giuridica nel modello positivista esposto?",
+      "opzioni": [
+        "No, perché ogni prescrizione morale è necessariamente illecita",
+        "No, occorre verificarne l'appartenenza all'ordinamento",
+        "Sì, se Luca la considera giusta",
+        "Sì, se il contenuto è utile"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nel modello esposto il criterio è la validità nell'ordinamento, non l'approvazione soggettiva del contenuto."
+    },
+    {
+      "id": "u01-q057",
+      "tipo": "verofalso",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "pagine": [
+        10,
+        11
+      ],
+      "affermazione": "Nell'analogia con Cappuccetto Rosso, cercare peso e altezza del personaggio trascura il sistema da cui dipende la sua esistenza.",
+      "vero": true,
+      "spiegazione": "L'esempio serve a distinguere l'esistenza interna a un sistema dalle proprietà di un oggetto materiale."
     }
   ]
 }

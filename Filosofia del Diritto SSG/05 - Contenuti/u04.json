@@ -1740,6 +1740,227 @@
         34,
         43
       ]
+    },
+    {
+      "id": "u04-q043",
+      "tipo": "multipla",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        35
+      ],
+      "domanda": "Una teoria spiega l'obbedienza soltanto attraverso la paura della pena. Quale obiezione del corso viene in rilievo?",
+      "opzioni": [
+        "Rende la giustizia l'unico criterio di validità",
+        "Riduce la funzione del diritto a tecnica di regolazione sociale",
+        "Attribuisce alla norma soltanto una funzione conoscitiva",
+        "Rende ogni destinatario autore delle norme"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il corso chiede se il diritto svolga anche funzioni ulteriori rispetto alla deterrenza."
+    },
+    {
+      "id": "u04-q044",
+      "tipo": "multipla",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        35
+      ],
+      "domanda": "Una persona entra in giudizio chiedendo ciò che ritiene giusto. Quale limite della sola verifica di validità emerge?",
+      "opzioni": [
+        "La domanda di giustizia coincide con una verifica di competenza",
+        "Il contenuto diventa irrilevante anche per chi agisce in giudizio",
+        "La richiesta di giustizia non è esaurita dal controllo formale",
+        "La presenza del processo garantisce da sola una decisione giusta"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il corso usa l'esperienza del giudizio per riaprire il rapporto tra diritto e giustizia."
+    },
+    {
+      "id": "u04-q045",
+      "tipo": "verofalso",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        35
+      ],
+      "affermazione": "La critica alla concezione kelseniana del soggetto riguarda l'eccessivo spazio dato alla sua esperienza concreta.",
+      "vero": false,
+      "spiegazione": "Il soggetto viene visto come centro di imputazione anziché interrogato nella sua esperienza concreta."
+    },
+    {
+      "id": "u04-q046",
+      "tipo": "completa",
+      "lezione": "u04-l1",
+      "livello": "base",
+      "pagine": [
+        33,
+        35
+      ],
+      "testo": "La domanda se il diritto sia solo comando investe la sua {{funzione}} e il suo linguaggio.",
+      "spiegazione": "È uno dei tre nuclei critici distinti dalla giustizia e dal soggetto."
+    },
+    {
+      "id": "u04-q047",
+      "tipo": "multipla",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        37
+      ],
+      "domanda": "Si dice che un ordinamento deve avere un minimo di giustizia per poter essere chiamato giuridico. Quale piano argomentativo privilegia la lezione?",
+      "opzioni": [
+        "La frequenza statistica delle condanne",
+        "Il gradimento personale del singolo giudice",
+        "La sola data di approvazione di una legge",
+        "La condizione concettuale di giuridicità"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'argomento cerca una condizione del concetto, oltre la mera constatazione di fatti."
+    },
+    {
+      "id": "u04-q048",
+      "tipo": "multipla",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        37
+      ],
+      "domanda": "Un imputato invoca l'esecuzione di norme valide per sottrarsi a un giudizio sul loro contenuto. Quale conflitto mette in luce il caso studiato?",
+      "opzioni": [
+        "Validità formale e giustizia",
+        "Validità formale ed efficacia empirica",
+        "Giustizia e semplice gradimento della norma",
+        "Competenza legislativa e frequenza della trasgressione"
+      ],
+      "corretta": 0,
+      "spiegazione": "I processi del dopoguerra fanno emergere il limite di una giustificazione fondata sulla sola validità."
+    },
+    {
+      "id": "u04-q049",
+      "tipo": "verofalso",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        37
+      ],
+      "affermazione": "L'esempio del guerriero valoroso è usato per descrivere una proprietà empirica di ogni individuo in uniforme.",
+      "vero": false,
+      "spiegazione": "Il passaggio mira a distinguere l'analisi dell'essenza dalla descrizione di un fatto."
+    },
+    {
+      "id": "u04-q050",
+      "tipo": "completa",
+      "lezione": "u04-l2",
+      "livello": "base",
+      "pagine": [
+        35,
+        37
+      ],
+      "testo": "L'autore delle Ricerche logiche richiamato attraverso l'esempio del guerriero è {{Husserl}}.",
+      "spiegazione": "L'esempio è impiegato per introdurre il metodo fenomenologico."
+    },
+    {
+      "id": "u04-q051",
+      "tipo": "multipla",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        38,
+        40
+      ],
+      "domanda": "Due norme sono entrambe discutibili sul piano morale, ma solo una produce un'ingiustizia intollerabile. Secondo le formule esposte, che cosa conta?",
+      "opzioni": [
+        "Ogni divergenza tra norma e morale personale",
+        "La soglia oltre la quale la validità non prevale più",
+        "La sola regolarità della procedura, senza alcuna eccezione",
+        "La prevalenza della giustizia in ogni conflitto con la validità"
+      ],
+      "corretta": 1,
+      "spiegazione": "La seconda formula introduce un limite eccezionale rispetto alla prevalenza ordinaria della validità."
+    },
+    {
+      "id": "u04-q052",
+      "tipo": "verofalso",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        38,
+        40
+      ],
+      "affermazione": "Il calice resta intatto qualunque contenuto vi si versi: la metafora nega ogni soglia di ingiustizia.",
+      "vero": false,
+      "spiegazione": "L'acido rappresenta l'ingiustizia che rende insostenibile la pretesa di giuridicità."
+    },
+    {
+      "id": "u04-q053",
+      "tipo": "multipla",
+      "lezione": "u04-l4",
+      "livello": "medio",
+      "pagine": [
+        40,
+        43
+      ],
+      "domanda": "«Prometto che ieri ti aiuterò». Quale requisito della promessa viene meno nell'esempio?",
+      "opzioni": [
+        "La forma scritta obbligatoria per ogni promessa",
+        "La conformità a una pena",
+        "L'orientamento verso un'azione futura",
+        "La presenza di un testimone pubblico"
+      ],
+      "corretta": 2,
+      "spiegazione": "La condizione strutturale a priori riguarda la temporalità futura dell'atto promesso."
+    },
+    {
+      "id": "u04-q054",
+      "tipo": "multipla",
+      "lezione": "u04-l4",
+      "livello": "medio",
+      "pagine": [
+        40,
+        43
+      ],
+      "domanda": "Una regola può conseguire il suo scopo soltanto se il suo principio resta nascosto ai destinatari. Quale criterio kantiano del corso è chiamato in causa?",
+      "opzioni": [
+        "La derivazione gerarchica dalla norma superiore",
+        "L'effettività dell'applicazione giudiziaria",
+        "L'esistenza di una promessa con effetti giuridici",
+        "La pubblicizzabilità della massima"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il criterio domanda se la massima possa essere resa pubblica, oltre la sua mera esistenza formale."
+    },
+    {
+      "id": "u04-q055",
+      "tipo": "verofalso",
+      "lezione": "u04-l4",
+      "livello": "medio",
+      "pagine": [
+        40,
+        43
+      ],
+      "affermazione": "Una condizione praxeonomica della promessa è stabilita da una norma che disciplina l'atto.",
+      "vero": true,
+      "spiegazione": "Va distinta dalle condizioni a priori ricavate dalla struttura e dalla funzione della promessa."
+    },
+    {
+      "id": "u04-q056",
+      "tipo": "completa",
+      "lezione": "u04-l4",
+      "livello": "base",
+      "pagine": [
+        40,
+        43
+      ],
+      "testo": "La semiotica che considera l'uso degli atti linguistici e la loro validità è la {{pragmatica}}.",
+      "spiegazione": "La semantica studia invece il significato dei segni."
     }
   ]
 }

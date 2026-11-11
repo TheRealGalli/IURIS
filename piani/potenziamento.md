@@ -55,7 +55,9 @@ Costituzionale è scritto alle soglie minime del validatore: definizioni di 31 p
   Corte come voci di glossario; domande reali degli appelli, se la classe le raccoglie.
 - **Filosofia SSG** (controllo e completamento del 10 novembre 2026): nessun errore di formato. Aggiunte le 31
   domande d'esame (`aperta`) che mancavano e le 81 domande che portano ogni lezione in programma alle soglie minime
-  (flashcard, risposta multipla, vero/falso, completa, un `ordina` per unità): 793 domande in tutto. La u17 è fuori
+  (flashcard, risposta multipla, vero/falso, completa, un `ordina` per unità): 793 domande in quel giro.
+  Il passo 1 del nuovo piano (11 novembre) ne aggiunge 243: **1.036 totali**, almeno 14 nelle 73 lezioni d’esame
+  e un `abbina` anche nell’unità 16. La u17 è fuori
   programma e resta com'è. Le domande nuove seguono le sintesi delle lezioni, non le sbobinature. Aggiunte anche 168 schede inverse
   (dalla definizione breve delle voci, riscritta dove non bastava a riconoscerle). Sono disponibili 81 approfondimenti
   «oltre gli appunti» (61 del primo giro e 20 del passo 6). Restano: sintesi di circa 540 parole per lezione contro le 940 di Filosofia A-L

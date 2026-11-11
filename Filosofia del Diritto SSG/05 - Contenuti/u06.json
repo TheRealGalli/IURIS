@@ -1214,6 +1214,132 @@
         54,
         68
       ]
+    },
+    {
+      "id": "u06-q035",
+      "tipo": "multipla",
+      "lezione": "u06-l1",
+      "livello": "medio",
+      "pagine": [
+        54,
+        62
+      ],
+      "domanda": "«Ti ringrazio» viene pronunciato per esprimere riconoscenza. Quale funzione linguistica illustra?",
+      "opzioni": [
+        "Descrittiva: si racconta un ringraziamento passato",
+        "Prescrittiva: si ordina al destinatario di ringraziare",
+        "Predittiva: si prevede un comportamento altrui",
+        "Performativa: si compie l'atto dicendolo"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il ringraziamento è uno degli atti che si realizzano attraverso il linguaggio."
+    },
+    {
+      "id": "u06-q036",
+      "tipo": "multipla",
+      "lezione": "u06-l1",
+      "livello": "medio",
+      "pagine": [
+        54,
+        62
+      ],
+      "domanda": "Una persona promette e successivamente non adempie. Quale distinzione bisogna mantenere?",
+      "opzioni": [
+        "Costituzione dell'atto e realizzazione dei suoi effetti",
+        "Validità dell'atto e sua formulazione al passato",
+        "Efficacia della sanzione e competenza legislativa",
+        "Esistenza dell'atto e verità di una descrizione preesistente"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'inadempimento non cancella retroattivamente il fatto di aver promesso."
+    },
+    {
+      "id": "u06-q037",
+      "tipo": "verofalso",
+      "lezione": "u06-l1",
+      "livello": "medio",
+      "pagine": [
+        54,
+        62
+      ],
+      "affermazione": "La forma grammaticale con il verbo essere basta a rendere equivalenti una dichiarazione istituzionale e una descrizione del tempo.",
+      "vero": false,
+      "spiegazione": "La stessa forma può svolgere funzioni diverse: conta che cosa si compie con l'enunciato."
+    },
+    {
+      "id": "u06-q038",
+      "tipo": "completa",
+      "lezione": "u06-l1",
+      "livello": "base",
+      "pagine": [
+        54,
+        62
+      ],
+      "testo": "Il filosofo del linguaggio autore di Come fare cose con parole è John L. {{Austin}}.",
+      "spiegazione": "Va distinto dal giurista John Austin."
+    },
+    {
+      "id": "u06-q039",
+      "tipo": "multipla",
+      "lezione": "u06-l3",
+      "livello": "medio",
+      "pagine": [
+        66,
+        68
+      ],
+      "domanda": "Il legislatore ridefinisce un istituto e così restringe le azioni che possono produrre effetti giuridici. Quale tesi del corso è illustrata?",
+      "opzioni": [
+        "Ogni definizione opera soltanto come sanzione",
+        "Le norme costitutive hanno conseguenze prescrittive indirette",
+        "Le definizioni giuridiche sono sempre neutrali",
+        "Le norme costitutive si limitano a descrivere abitudini"
+      ],
+      "corretta": 1,
+      "spiegazione": "Delimitare un oggetto giuridico delimita anche le possibilità d'azione dei destinatari."
+    },
+    {
+      "id": "u06-q040",
+      "tipo": "multipla",
+      "lezione": "u06-l3",
+      "livello": "medio",
+      "pagine": [
+        66,
+        68
+      ],
+      "domanda": "Una norma elimina un'altra norma dal sistema. A chi si rivolge immediatamente l'operazione costitutiva?",
+      "opzioni": [
+        "Soltanto ai cittadini come comando di condotta",
+        "Esclusivamente al trasgressore come pena",
+        "All'ordinamento stesso",
+        "Al giurista come semplice informazione sul sistema"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'abrogazione modifica il sistema e di riflesso muta obblighi e permessi."
+    },
+    {
+      "id": "u06-q041",
+      "tipo": "verofalso",
+      "lezione": "u06-l3",
+      "livello": "medio",
+      "pagine": [
+        66,
+        68
+      ],
+      "affermazione": "La lettura a contrario di una definizione costitutiva è inutile per comprenderne gli effetti sulle condotte escluse.",
+      "vero": false,
+      "spiegazione": "La lettura a contrario rende visibili i limiti prodotti dalla definizione costitutiva."
+    },
+    {
+      "id": "u06-q042",
+      "tipo": "completa",
+      "lezione": "u06-l3",
+      "livello": "base",
+      "pagine": [
+        66,
+        68
+      ],
+      "testo": "La prospettiva costitutiva attribuisce al diritto la costruzione della realtà {{sociale}}, oltre alla regolazione delle condotte.",
+      "spiegazione": "Gli oggetti giuridici sono costituiti attraverso il linguaggio normativo."
     }
   ]
 }

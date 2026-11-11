@@ -1592,6 +1592,202 @@
       "tipo": "flashcard",
       "domanda": "Perché nel caso di Porzia non c'è lo scontro tra due ordini che c'è in Antigone?",
       "risposta": "Antigone oppone alla legge di Creonte un altro ordine, quello della coscienza e degli dei, senza mediazione possibile. Porzia resta dentro il diritto positivo: rilegge il patto e, interpretandolo, ottiene giustizia. C'è un solo ordine, e lo strumento è l'interpretazione."
+    },
+    {
+      "id": "u05-q045",
+      "tipo": "multipla",
+      "lezione": "u05-l1",
+      "livello": "medio",
+      "pagine": [
+        44,
+        46
+      ],
+      "domanda": "Un ordinamento è strutturalmente pensabile, ma non si è ancora chiarito se conservi un minimo di giustizia. Che cosa manca nel percorso del corso?",
+      "opzioni": [
+        "Una condizione relativa alla funzione, oltre alla Grundnorm",
+        "Una conferma empirica di tutte le decisioni giudiziarie",
+        "Un'ulteriore norma positiva identica alla Grundnorm",
+        "La sola individuazione dei destinatari delle sanzioni"
+      ],
+      "corretta": 0,
+      "spiegazione": "La norma fondamentale soddisfa il requisito strutturale, non quello funzionale."
+    },
+    {
+      "id": "u05-q046",
+      "tipo": "multipla",
+      "lezione": "u05-l1",
+      "livello": "medio",
+      "pagine": [
+        44,
+        46
+      ],
+      "domanda": "Il corso affianca Antigone e Porzia per discutere la giustizia. Che ruolo hanno queste figure?",
+      "opzioni": [
+        "Due esempi equivalenti di obbedienza alla legge positiva",
+        "Modelli letterari di due differenti modi di cercare giustizia",
+        "Due modi identici di invocare un valore naturale superiore",
+        "Due casi di soluzione automatica senza interpretazione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il confronto letterario permette di distinguere conflitto tra ordini e interpretazione interna al diritto positivo."
+    },
+    {
+      "id": "u05-q047",
+      "tipo": "verofalso",
+      "lezione": "u05-l1",
+      "livello": "medio",
+      "pagine": [
+        44,
+        46
+      ],
+      "affermazione": "L'adozione di un criterio procedurale elimina ogni ruolo dell'interpretazione nella decisione.",
+      "vero": false,
+      "spiegazione": "La decisione resta il prodotto di un'attività interpretativa anche quando segue criteri formali."
+    },
+    {
+      "id": "u05-q048",
+      "tipo": "completa",
+      "lezione": "u05-l1",
+      "livello": "base",
+      "pagine": [
+        44,
+        46
+      ],
+      "testo": "Il giurista che propone l'accostamento tra Antigone e Porzia è Tullio {{Ascarelli}}.",
+      "spiegazione": "Il confronto è richiamato per introdurre due modelli di giustizia."
+    },
+    {
+      "id": "u05-q049",
+      "tipo": "multipla",
+      "lezione": "u05-l2",
+      "livello": "medio",
+      "pagine": [
+        46,
+        47
+      ],
+      "domanda": "Una lettura di Antigone mette al centro il diritto familiare non scritto. A quale autore è attribuita nella lezione?",
+      "opzioni": [
+        "Hart",
+        "Searle",
+        "Hegel",
+        "Kelsen"
+      ],
+      "corretta": 2,
+      "spiegazione": "La lettura hegeliana discussa privilegia il conflitto tra legami familiari e diritto pubblico."
+    },
+    {
+      "id": "u05-q050",
+      "tipo": "multipla",
+      "lezione": "u05-l2",
+      "livello": "medio",
+      "pagine": [
+        46,
+        47
+      ],
+      "domanda": "Un interprete si concentra sul desiderio di Antigone e sul suo rapporto con l'ordine simbolico. Quale lettura sta seguendo?",
+      "opzioni": [
+        "Quella di Bobbio sulla natura",
+        "Quella di Kelsen sulla delegazione",
+        "Quella di Porzia sul patto",
+        "Quella di Lacan"
+      ],
+      "corretta": 3,
+      "spiegazione": "La lettura lacaniana sposta il fuoco sulle motivazioni e sull'ordine simbolico della comunità."
+    },
+    {
+      "id": "u05-q051",
+      "tipo": "verofalso",
+      "lezione": "u05-l2",
+      "livello": "medio",
+      "pagine": [
+        46,
+        47
+      ],
+      "affermazione": "Nella contrapposizione descritta da Ascarelli, Antigone ricompone il conflitto mediante una nuova lettura dell'editto di Creonte.",
+      "vero": false,
+      "spiegazione": "Il modello tragico presenta due pretese contrapposte senza la mediazione interpretativa propria di Porzia."
+    },
+    {
+      "id": "u05-q052",
+      "tipo": "multipla",
+      "lezione": "u05-l3",
+      "livello": "medio",
+      "pagine": [
+        47,
+        49
+      ],
+      "domanda": "Porzia cerca nel patto una distinzione tra carne e sangue. Quale operazione giuridica esemplifica per il corso?",
+      "opzioni": [
+        "Una soluzione interpretativa interna al diritto positivo",
+        "La sostituzione del patto con una legge degli dei",
+        "Il rifiuto di ogni norma scritta",
+        "Una deduzione dalla natura biologica di Antonio"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il caso mostra come la composizione degli interessi passi attraverso l'interpretazione."
+    },
+    {
+      "id": "u05-q053",
+      "tipo": "multipla",
+      "lezione": "u05-l3",
+      "livello": "medio",
+      "pagine": [
+        47,
+        49
+      ],
+      "domanda": "Quale modifica renderebbe il caso di Porzia simile al modello di Antigone?",
+      "opzioni": [
+        "Ricercare una soluzione procedurale",
+        "Opporre al patto un ordine superiore incompatibile, senza mediazione",
+        "Rileggere i termini del contratto",
+        "Confrontare disposizioni dello stesso ordinamento"
+      ],
+      "corretta": 1,
+      "spiegazione": "Antigone è presentata come conflitto tra ordini, mentre Porzia opera dentro quello positivo."
+    },
+    {
+      "id": "u05-q054",
+      "tipo": "verofalso",
+      "lezione": "u05-l3",
+      "livello": "medio",
+      "pagine": [
+        47,
+        49
+      ],
+      "affermazione": "La presenza di un terzo davanti a cui le parti ricostruiscono il fatto contribuisce alla dimensione scenica del diritto.",
+      "vero": true,
+      "spiegazione": "Il processo presenta versioni degli eventi orientate a ottenere una decisione."
+    },
+    {
+      "id": "u05-q055",
+      "tipo": "completa",
+      "lezione": "u05-l3",
+      "livello": "base",
+      "pagine": [
+        47,
+        49
+      ],
+      "testo": "Nel confronto con la giustizia sostanziale di Antigone, quella di Porzia è detta {{formale-procedurale|formale procedurale}}.",
+      "spiegazione": "La soluzione passa attraverso l'interpretazione del diritto positivo."
+    },
+    {
+      "id": "u05-q056",
+      "tipo": "multipla",
+      "lezione": "u05-l4",
+      "livello": "medio",
+      "pagine": [
+        49,
+        53
+      ],
+      "domanda": "Nel caso della sala d'aspetto, un giudice considera il divieto alla luce dei principi generali dell'ordinamento. Quale metodo sta usando?",
+      "opzioni": [
+        "Interpretazione soltanto letterale",
+        "Analogia fondata sulla somiglianza con un altro caso",
+        "Interpretazione sistematica",
+        "Argomento per differenza rispetto alla ratio"
+      ],
+      "corretta": 2,
+      "spiegazione": "L'interpretazione sistematica legge una disposizione nel rapporto con le altre norme e i principi del sistema."
     }
   ]
 }

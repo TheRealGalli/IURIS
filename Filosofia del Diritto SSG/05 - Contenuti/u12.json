@@ -1474,6 +1474,234 @@
         "L'assegnazione vale nel contesto C"
       ],
       "spiegazione": "È la formula «X conta come Y in C»: il metallo conta come un euro nell'Unione europea."
+    },
+    {
+      "id": "u12-q043",
+      "tipo": "multipla",
+      "lezione": "u12-l1",
+      "livello": "medio",
+      "pagine": [
+        122,
+        124
+      ],
+      "domanda": "La stessa carta può essere materiale da riciclare oppure una banconota riconosciuta. Che cosa spiega il secondo significato?",
+      "opzioni": [
+        "L'indipendenza assoluta da qualsiasi osservatore",
+        "Uno status istituzionale attribuito nel contesto condiviso",
+        "La sola massa della carta",
+        "Una proprietà chimica sufficiente in ogni contesto"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il significato istituzionale dipende dall'attribuzione di uno status, non dalla sola materia."
+    },
+    {
+      "id": "u12-q044",
+      "tipo": "multipla",
+      "lezione": "u12-l1",
+      "livello": "medio",
+      "pagine": [
+        122,
+        124
+      ],
+      "domanda": "Una valanga si verifica anche se nessuna comunità la riconosce. Come si classifica nella distinzione di Searle?",
+      "opzioni": [
+        "Fatto istituzionale riconosciuto dalla comunità",
+        "Funzione di status assegnata alla natura",
+        "Fatto bruto",
+        "Atto performativo costitutivo dell'evento"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il fatto bruto non dipende, per esistere, da un riconoscimento istituzionale."
+    },
+    {
+      "id": "u12-q045",
+      "tipo": "verofalso",
+      "lezione": "u12-l1",
+      "livello": "medio",
+      "pagine": [
+        122,
+        124
+      ],
+      "affermazione": "Nella formula «X conta come Y in C», omettere il contesto può far perdere le condizioni in cui vale lo status.",
+      "vero": true,
+      "spiegazione": "La funzione attribuita opera in un contesto istituzionale determinato."
+    },
+    {
+      "id": "u12-q046",
+      "tipo": "completa",
+      "lezione": "u12-l1",
+      "livello": "base",
+      "pagine": [
+        122,
+        124
+      ],
+      "testo": "Lo studio di ciò che esiste nella realtà sociale è un'{{ontologia}} sociale.",
+      "spiegazione": "Searle usa questa prospettiva per analizzare anche le istituzioni giuridiche."
+    },
+    {
+      "id": "u12-q047",
+      "tipo": "multipla",
+      "lezione": "u12-l2",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "domanda": "Una persona assume un ufficio senza che cambi la sua struttura fisica. Quale funzione le viene attribuita?",
+      "opzioni": [
+        "Non agentiva, indipendente dal riconoscimento",
+        "Agentiva non di status, come una trasformazione materiale dell'oggetto",
+        "Solo indicativa, senza alcuna attribuzione di poteri e doveri",
+        "Agentiva di status"
+      ],
+      "corretta": 3,
+      "spiegazione": "Lo status attribuisce poteri e doveri attraverso il riconoscimento condiviso."
+    },
+    {
+      "id": "u12-q048",
+      "tipo": "multipla",
+      "lezione": "u12-l2",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "domanda": "Un cuore pompa sangue indipendentemente da una convenzione. Come si distingue dalla moneta riconosciuta come euro?",
+      "opzioni": [
+        "Il cuore esemplifica una funzione non agentiva, la moneta una funzione di status",
+        "Entrambi sono funzioni di status perché hanno un nome",
+        "Il cuore ha una funzione di status, la moneta una funzione non agentiva",
+        "Entrambi svolgono funzioni indipendenti dal riconoscimento collettivo"
+      ],
+      "corretta": 0,
+      "spiegazione": "L'assegnazione istituzionale è distinta dalle funzioni che non dipendono da noi."
+    },
+    {
+      "id": "u12-q049",
+      "tipo": "verofalso",
+      "lezione": "u12-l2",
+      "livello": "medio",
+      "pagine": [
+        124,
+        126
+      ],
+      "affermazione": "Per attribuire uno status è sempre necessario trasformare materialmente il portatore.",
+      "vero": false,
+      "spiegazione": "L'attribuzione di poteri e doveri non richiede una nuova composizione fisica di X."
+    },
+    {
+      "id": "u12-q050",
+      "tipo": "multipla",
+      "lezione": "u12-l3",
+      "livello": "medio",
+      "pagine": [
+        127,
+        129
+      ],
+      "domanda": "Una ricerca analizza come il diritto viene rappresentato nei film. Quale approccio sceglie?",
+      "opzioni": [
+        "Law as film",
+        "Law in film",
+        "Film as law",
+        "Analisi della sola forma logica delle norme"
+      ],
+      "corretta": 1,
+      "spiegazione": "Law in film studia la rappresentazione cinematografica del diritto e il suo valore conoscitivo o critico."
+    },
+    {
+      "id": "u12-q051",
+      "tipo": "multipla",
+      "lezione": "u12-l3",
+      "livello": "medio",
+      "pagine": [
+        127,
+        129
+      ],
+      "domanda": "Un corso intreccia analisi giuridica, narrazione, economia e immagini. Quale carattere postmoderno esemplifica?",
+      "opzioni": [
+        "L'esclusione di ogni prospettiva sociale",
+        "Il ritorno a un unico sapere indifferenziato e assoluto",
+        "La contaminazione dei saperi",
+        "La perfetta autosufficienza della dottrina pura"
+      ],
+      "corretta": 2,
+      "spiegazione": "La lezione presenta il postmoderno attraverso frammenti e incroci disciplinari."
+    },
+    {
+      "id": "u12-q052",
+      "tipo": "verofalso",
+      "lezione": "u12-l3",
+      "livello": "medio",
+      "pagine": [
+        127,
+        129
+      ],
+      "affermazione": "Lo studio di Law and Literature richiamato dal corso considera rilevante la dimensione narrativa del diritto.",
+      "vero": true,
+      "spiegazione": "La narrazione entra tra gli strumenti con cui conoscere e criticare l'esperienza giuridica."
+    },
+    {
+      "id": "u12-q053",
+      "tipo": "completa",
+      "lezione": "u12-l3",
+      "livello": "base",
+      "pagine": [
+        127,
+        129
+      ],
+      "testo": "L'autore de La condizione postmoderna è {{Lyotard}}.",
+      "spiegazione": "L'opera è il riferimento introduttivo alla crisi delle grandi narrazioni."
+    },
+    {
+      "id": "u12-q054",
+      "tipo": "multipla",
+      "lezione": "u12-l4",
+      "livello": "medio",
+      "pagine": [
+        130,
+        133
+      ],
+      "domanda": "Un'analisi paragona gli atti del processo a una sceneggiatura e la scena giudiziaria a una rappresentazione. Quale approccio segue?",
+      "opzioni": [
+        "Law in film",
+        "Film as law",
+        "Studio della sola validità formale degli atti",
+        "Law as film"
+      ],
+      "corretta": 3,
+      "spiegazione": "L'oggetto è il carattere rappresentativo del diritto stesso."
+    },
+    {
+      "id": "u12-q055",
+      "tipo": "multipla",
+      "lezione": "u12-l4",
+      "livello": "medio",
+      "pagine": [
+        130,
+        133
+      ],
+      "domanda": "Una ricerca studia come un film trasformi l'immaginario pubblico e influenzi richieste di regolazione. Quale approccio è pertinente?",
+      "opzioni": [
+        "Film as law",
+        "Law in film",
+        "Law as film",
+        "Soltanto sintassi normativa"
+      ],
+      "corretta": 0,
+      "spiegazione": "Film as law considera il potere normativo del cinema, oltre alla rappresentazione di istituzioni."
+    },
+    {
+      "id": "u12-q056",
+      "tipo": "verofalso",
+      "lezione": "u12-l4",
+      "livello": "medio",
+      "pagine": [
+        130,
+        133
+      ],
+      "affermazione": "Il montaggio e il fuoricampo possono incidere sul significato attribuito a un'immagine usata come prova.",
+      "vero": true,
+      "spiegazione": "Le immagini selezionano e organizzano ciò che mostrano e richiedono interpretazione."
     }
   ]
 }

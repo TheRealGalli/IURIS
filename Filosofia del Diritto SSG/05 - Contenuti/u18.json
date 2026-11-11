@@ -1461,6 +1461,222 @@
         "Norma ricavata: è vietato l'ingresso agli orsi"
       ],
       "spiegazione": "È lo schema N1 → NN → N2. Con l'argomento a contrario, dallo stesso cartello si ricava il permesso per il cane poliziotto."
+    },
+    {
+      "id": "u18-q044",
+      "tipo": "multipla",
+      "lezione": "u18-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        3
+      ],
+      "domanda": "Si distingue quanto è necessario da quanto è solo possibile, senza ancora guardare all'oggetto del dovere. Quale criterio di Incampo si usa?",
+      "opzioni": [
+        "La forza, ad intra",
+        "L'oggetto, ad extra",
+        "La validità praxeonomica del singolo atto",
+        "La collocazione gerarchica delle norme di struttura"
+      ],
+      "corretta": 0,
+      "spiegazione": "La classificazione per forza è distinta da quella per condotta e struttura."
+    },
+    {
+      "id": "u18-q045",
+      "tipo": "multipla",
+      "lezione": "u18-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        3
+      ],
+      "domanda": "Una teoria vuole giustificare la forza del diritto limitandosi a dire che qualcuno comanda. Quale obiezione apre Incampo?",
+      "opzioni": [
+        "Il diritto non contiene mai obblighi",
+        "Anche una minaccia può prescrivere, senza essere per questo giuridica",
+        "Ogni comando è sempre una norma giuridica",
+        "La giustificazione universale è irrilevante"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'esempio della minaccia serve a distinguere prescrizione e giuridicità."
+    },
+    {
+      "id": "u18-q046",
+      "tipo": "verofalso",
+      "lezione": "u18-l1",
+      "livello": "medio",
+      "pagine": [
+        1,
+        3
+      ],
+      "affermazione": "Nel riassunto di Incampo, le norme secondarie di Hart riguardano anche il modo in cui le altre norme si producono e si riconoscono.",
+      "vero": true,
+      "spiegazione": "Sono norme di struttura, distinte da quelle primarie di condotta."
+    },
+    {
+      "id": "u18-q047",
+      "tipo": "multipla",
+      "lezione": "u18-l2",
+      "livello": "medio",
+      "pagine": [
+        3,
+        4
+      ],
+      "domanda": "Il divieto per i cani viene esteso all'orso attraverso una ragione comune di sicurezza. Quale passaggio compie l'interprete?",
+      "opzioni": [
+        "Deduce il fatto dalla sola sanzione",
+        "Rifiuta qualsiasi ruolo degli interessi",
+        "Ricava una norma più generale e la applica al caso non espresso",
+        "Si limita a verificare che orso significhi cane"
+      ],
+      "corretta": 2,
+      "spiegazione": "Lo schema N1 → NN → N2 passa attraverso una norma generale che esprime la ragione del divieto."
+    },
+    {
+      "id": "u18-q048",
+      "tipo": "multipla",
+      "lezione": "u18-l2",
+      "livello": "medio",
+      "pagine": [
+        3,
+        4
+      ],
+      "domanda": "Un giudice sospende ogni decisione lasciando immutata una situazione controversa. Perché il corso problematizza questa scelta?",
+      "opzioni": [
+        "L'astensione elimina ogni conseguenza",
+        "La decisione riguarda soltanto il legislatore",
+        "Ogni lacuna rende impossibile qualunque interpretazione",
+        "Anche astenersi produce un effetto e assume il significato di una decisione"
+      ],
+      "corretta": 3,
+      "spiegazione": "La necessità del giudicare non è esaurita dall'obbligo formale di pronunciare."
+    },
+    {
+      "id": "u18-q049",
+      "tipo": "verofalso",
+      "lezione": "u18-l2",
+      "livello": "medio",
+      "pagine": [
+        3,
+        4
+      ],
+      "affermazione": "Nel riassunto, distinguere legislazione e giurisdizione equivale a separare produzione del diritto e ricavo di diritto dal diritto.",
+      "vero": true,
+      "spiegazione": "Le due attività sono momenti diversi del processo giuridico."
+    },
+    {
+      "id": "u18-q050",
+      "tipo": "multipla",
+      "lezione": "u18-l3",
+      "livello": "medio",
+      "pagine": [
+        4,
+        7
+      ],
+      "domanda": "Il legislatore dispone uno status; il giurista afferma che quello status esiste. Quale distinzione del riassunto è pertinente?",
+      "opzioni": [
+        "Enunciazione thetica ed enunciazione rhetica",
+        "Due enunciazioni entrambe costitutive dello status",
+        "Due enunciazioni entrambe descrittive di uno status già dato",
+        "Enunciazione rhetica del legislatore e thetica del giurista"
+      ],
+      "corretta": 0,
+      "spiegazione": "La prima costituisce uno status deontico; la seconda mira a conoscerlo e può sbagliare."
+    },
+    {
+      "id": "u18-q051",
+      "tipo": "multipla",
+      "lezione": "u18-l3",
+      "livello": "medio",
+      "pagine": [
+        4,
+        7
+      ],
+      "domanda": "Una norma abroga un'altra norma senza attendere un comportamento di adempimento. Quale carattere evidenzia?",
+      "opzioni": [
+        "Prescrittività che richiede l'adempimento di tutti i cittadini",
+        "Costitutività",
+        "Cognitività che si limita a descrivere una precedente abrogazione",
+        "Validazione empirica attraverso una serie di sentenze"
+      ],
+      "corretta": 1,
+      "spiegazione": "L'operazione modifica il sistema mediante la posizione della norma stessa."
+    },
+    {
+      "id": "u18-q052",
+      "tipo": "verofalso",
+      "lezione": "u18-l3",
+      "livello": "medio",
+      "pagine": [
+        4,
+        7
+      ],
+      "affermazione": "Nel confronto con Kelsen, riconoscere norme costitutive implica per Incampo eliminare ogni dimensione prescrittiva dal diritto.",
+      "vero": false,
+      "spiegazione": "Il riassunto insiste sulla presenza sia della costitutività sia della prescrittività."
+    },
+    {
+      "id": "u18-q053",
+      "tipo": "multipla",
+      "lezione": "u18-l4",
+      "livello": "medio",
+      "pagine": [
+        7,
+        10
+      ],
+      "domanda": "Un giurista afferma erroneamente che una norma è stata abrogata. Quale carattere del suo enunciato spiega la possibilità dell'errore?",
+      "opzioni": [
+        "È thetico e modifica il sistema anche quando è inesatto",
+        "È costitutivo e quindi produce comunque l'abrogazione",
+        "È cognitivo, non costituisce da sé l'abrogazione",
+        "È prescrittivo e impone al legislatore di abrogare"
+      ],
+      "corretta": 2,
+      "spiegazione": "Nel lessico del riassunto l'enunciazione rhetica può essere falsa."
+    },
+    {
+      "id": "u18-q054",
+      "tipo": "multipla",
+      "lezione": "u18-l4",
+      "livello": "medio",
+      "pagine": [
+        7,
+        10
+      ],
+      "domanda": "Una sentenza presenta un difetto logico nel ragionamento. Nel quadro teorico di Incampo ciò coincide automaticamente con l'invalidità dell'atto?",
+      "opzioni": [
+        "Sì, ogni contraddizione elimina da sola l'atto",
+        "Sì, perché la validità è soltanto verità semantica",
+        "No, perché le sentenze sono prive di condizioni di validità",
+        "No, occorre distinguere coerenza logica e condizioni giuridiche di validità"
+      ],
+      "corretta": 3,
+      "spiegazione": "Il sillogismo giuridico è studiato attraverso una logica della validità, non soltanto della verità."
+    },
+    {
+      "id": "u18-q055",
+      "tipo": "verofalso",
+      "lezione": "u18-l4",
+      "livello": "medio",
+      "pagine": [
+        7,
+        10
+      ],
+      "affermazione": "La logica pragmatica della validità riguarda gli atti, mentre quella sintattica riguarda le norme nell'ordinamento.",
+      "vero": true,
+      "spiegazione": "Il riassunto distingue i due ambiti dell'indagine giuridica."
+    },
+    {
+      "id": "u18-q056",
+      "tipo": "completa",
+      "lezione": "u18-l4",
+      "livello": "base",
+      "pagine": [
+        7,
+        10
+      ],
+      "testo": "Nel lessico del riassunto, la verità ontica del diritto coincide con la {{validità|validita}}.",
+      "spiegazione": "L'esistenza giuridica va distinta dalla semplice verità semantica di un'affermazione."
     }
   ]
 }

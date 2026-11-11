@@ -20,7 +20,7 @@ Regole valide per tutti i passi:
 | 4 | Stile delle unità 12–27 di privato | Completato: revisionate 67 lezioni, precisate 64 sintesi; tutte entro 550 parole |
 | 5 | Quadro di privato e di Filosofia | Completato: 20 schemi, 7 di privato, 6 di Filosofia LMG e 7 di Filosofia SSG |
 | 6 | Approfondimenti («oltre») | Completato: 94 nuove schede con fonti; totali 94 di privato, 36 di Costituzionale e 81 di Filosofia SSG; conservate le aggiunte precedenti |
-| 7 | Filosofia SSG: più voci | Primo giro fatto (Claude, 11 nov.): 48 voci nuove in `oltre-11.json` (293 in tutto), premesse in `glossario.json`, etichette per gli Originali. Manca l'`abbina` dell'unità 16 e un secondo giro sui concetti |
+| 7 | Filosofia SSG: più voci | Primo giro fatto (Claude, 11 nov.): 48 voci nuove in `oltre-11.json` (293 in tutto), premesse in `glossario.json`, etichette per gli Originali. L'`abbina` dell'unità 16 è completato nel nuovo piano; resta il secondo giro sui concetti |
 | 8 | «art. N Cost.» da privato alla Costituzione | Fatto (Claude, 11 nov.): il collegamento cambia materia e apre l'articolo, se il corso ha Diritto costituzionale |
 
 ## 1. Glossario degli Originali di privato (il più visibile)
@@ -177,7 +177,7 @@ Verifica conclusa: i dieci nuovi file passano la validazione senza errori né av
 verificano le nuove schede, le fonti, i rimandi e la leggibilità a 320, 393 e 1280 px.
 Confrontati i 211 approfondimenti compilati: 94 nuovi e 117 precedenti conservati.
 
-Ripartire dal **passo 7: secondo giro dei concetti SSG e abbinamento dell'unità 16**.
+Per il seguito fa fede il **Piano successivo** in fondo al file.
 
 ## 7. Filosofia SSG: più voci
 
@@ -234,6 +234,8 @@ Passi, in ordine. Uno per volta, con controlli e push a fine passo. File `oltre-
 
 1. **Filosofia SSG: domande.** Portare ogni lezione d'esame ad almeno 14 domande (oggi 10; circa 300 da scrivere).
    Le lezioni dell'unità 17 sono fuori esame: bastano le soglie minime. Aggiungere l'`abbina` dell'unità 16.
+   **Completato:** 243 aggiunte, 1.036 domande totali; tutte le 73 lezioni d'esame hanno almeno 14 domande.
+   Conservate le 793 precedenti e l'unità 17; aggiunto l'abbinamento `u16-q070` accanto a quello già presente.
 2. **Diritto privato: approfondimenti.** Da 94 a 250 voci (metà delle voci). Priorità alle voci che sono titolo
    di una lezione o compaiono in più unità. Ogni voce: 80–250 parole, `daSapere`, `fonti` verificate.
 3. **Diritto costituzionale: approfondimenti e schede inverse.** Approfondimenti da 76 a 140; schede inverse da 82
@@ -251,3 +253,30 @@ Passi, in ordine. Uno per volta, con controlli e push a fine passo. File `oltre-
 8. **Filosofia LMG.** Schede inverse da 99 a 200; approfondimenti da 156 a 240.
 
 Serve Carlo: appunti di Costituzionale SSG, materiali di LMG M-Z, nome del docente di Diritto romano per LMG A-L.
+
+
+### Piano successivo, passo 1: domande SSG (11 novembre 2026)
+
+Aggiunte 243 domande nelle unità 1–16 e 18–20: **136 multiple**, **68 vero/falso**,
+**38 completamenti** e **un abbinamento** su autori e figure dello spettatore (`u16-q070`).
+Totale **1.036**, con almeno 14 domande in ciascuna delle **73 lezioni d'esame** (una ne aveva già 15).
+Le quattro lezioni fuori esame dell'unità 17 rimangono identiche. L'abbinamento indicato come mancante
+nelle vecchie consegne era già presente nella versione corrente: conservato, ora affiancato dal nuovo.
+
+Domande ricavate da sintesi e punti chiave già presenti, con casi applicativi e confronti: linguaggio
+prescrittivo e performativo, Kelsen/Ross/Hart, disciplina e governance, fatti istituzionali, spettatore,
+validità pragmatica e sintattica nel riassunto di Incampo. Non aggiunti fatti normativi o storici esterni.
+Distrattori rivisti per lavorare sulle confusioni tra concetti del programma. Le nuove multiple hanno
+34 risposte corrette per posizione; i vero/falso sono 34 veri e 34 falsi.
+Conservati integralmente identificativi, ordine e contenuti delle 793 domande precedenti, sintesi,
+voci, mappe ed eventi. I nuovi esercizi sono aggiunti in coda senza spostare gli identificativi esistenti.
+
+Controlli superati in una copia pulita di `main` con le sole unità del passo, senza la modifica locale
+preesistente di `Percorso.tsx`: build e `check:build`, inclusi **1.348 controlli su 11 dispositivi**.
+Validazione delle 20 unità: zero errori e gli stessi 40 avvisi precedenti, nessun avviso introdotto.
+Confrontate tutte le 243 nuove domande con il contenuto compilato; nessun identificativo duplicato.
+Nel browser **387 prove**: tutte le 243 nuove domande a 393 px, un campione per ogni lezione modificata
+più l'abbinamento a 320 e 1280 px (72 per larghezza). Risposte, spiegazioni e salvataggio delle carte
+corretti, nessuno sbordo né errore del browser.
+
+Prossimo passo: **Piano successivo, 2 — approfondimenti di diritto privato da 94 a 250**.
