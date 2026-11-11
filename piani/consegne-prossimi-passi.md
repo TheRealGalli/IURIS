@@ -241,14 +241,18 @@ Passi, in ordine. Uno per volta, con controlli e push a fine passo. File `oltre-
    **Completato:** 156 nuove schede, 250 totali; tredici file `oltre-40.json`–`oltre-52.json`.
 3. **Diritto costituzionale: approfondimenti e schede inverse.** Approfondimenti da 76 a 140; schede inverse da 82
    a 180. Controllare prima lo stato delle riforme costituzionali del 2025–2026 (vedi nota sopra).
+   **Completato:** 140 approfondimenti (+64), 180 inverse (+98).
 4. **Collegamenti.** Privato da 419 a 800, Costituzionale da 286 a 500, con `tipo` ed `etichetta` che si leggano
    come una frase. Si aggiungono con voci di soli `collegamenti` in un file `oltre-NN.json`. Attenzione: un
    collegamento tra due voci già collegate sostituisce quello esistente.
+   **Completato:** privato 802 (+383), Costituzionale 559 (+273); file `oltre-60.json` delle due materie.
 5. **Filosofia SSG: seconda tornata di voci e approfondimenti.** Voci da 293 a 380 (concetti delle lezioni
    10–16 e del riassunto di Incampo); approfondimenti da 81 a 150.
+   **Completato:** 380 voci, 150 approfondimenti (scritti da ChatGPT, controlli e consegna di Claude).
 6. **Originali di Costituzionale e di Filosofia SSG: revisione a mano.** Non hanno correzioni in
    `letture-src/revisioni.json` (Romano ne ha 519). Usare `scripts/rileva-acapo-letture.py` e
    `scripts/genera-acapo-letture.py` per gli a capo persi, poi rileggere a campione.
+   **Completato:** 279 blocchi revisionati (Costituzionale 42, SSG lezioni 216, SSG Incampo 21).
 7. **Cronologia di privato.** Da 28 a circa 60 eventi con data certa (leggi di riforma e sentenze guida già citate
    negli approfondimenti).
 8. **Filosofia LMG.** Schede inverse da 99 a 200; approfondimenti da 156 a 240.
@@ -309,3 +313,127 @@ Nel browser **182 prove**: tutte le 156 nuove schede a 393 px e un campione per 
 
 Prossimo passo: **Piano successivo, 3 — approfondimenti e schede inverse di diritto costituzionale**;
 verificare prima lo stato delle riforme 2025–2026, come richiesto nel piano.
+
+
+### Piano successivo, passo 4: collegamenti (11 novembre 2026)
+
+Eseguito prima del passo 3, su richiesta di Carlo. Aggiunti **383 collegamenti** a Diritto privato
+(da 419 a **802**, 1,6 per voce) e **273** a Diritto costituzionale (da 286 a **559**, 2,0 per voce), in
+`Diritto Privato/05 - Contenuti/oltre-60.json` e `Diritto Costituzionale/05 - Contenuti/oltre-60.json`, voci di soli
+`collegamenti`. Solo coppie mai collegate prima: nessun collegamento esistente è stato sostituito o tolto.
+Nessuna voce resta isolata (prima 69 in privato e 17 in Costituzionale).
+
+Le coppie vengono dalle voci citate insieme nelle stesse lezioni e nelle definizioni, con priorità alle voci
+senza collegamenti; ogni etichetta si legge come frase («Sequestro conservativo *può convertirsi in*
+Pignoramento»). Tipi: privato 235 `collegato`, 58 `esempio-di`, 57 `contrasta`, 24 `parte-di`,
+5 `causa`, 4 `evolve-in`; Costituzionale 204 `collegato`, 27 `contrasta`, 26 `esempio-di`, 12 `parte-di`, 3 `crea`,
+1 `supera`. Per prudenza non sono stati aggiunti collegamenti sulla composizione del CSM o sulla sua funzione
+disciplinare (la riforma della magistratura, poi verificata nel passo 3, non è entrata in vigore).
+
+
+### Piano successivo, passo 3: costituzionale (11 novembre 2026)
+
+Aggiunti **64 approfondimenti**, otto per ciascun file `oltre-40.json`–`oltre-47.json`:
+**140 complessivi su 278 voci**, conservando i 76 precedenti. Aggiunte **98 definizioni inverse curate**,
+per **180 schede inverse**, mantenendo integralmente le 82 precedenti. Invariati unità, lezioni, 760 domande,
+voci ed eventi. Nessuna nuova relazione della mappa: il passo 4 rimane distinto.
+
+Gli approfondimenti coprono principi, partecipazione, organi, magistratura e autonomie, fonti, UE e diritti.
+Ogni testo ha 80–250 parole, almeno due punti da ricordare e fonti; le inverse non contengono il termine
+richiesto né gli alias e lavorano sulle distinzioni tra istituti vicini.
+
+Verifica preliminare delle riforme su fonti primarie:
+
+- **Magistratura:** il testo del 2025 non è entrato in vigore dopo il referendum del 22–23 marzo 2026.
+  [Esito in Gazzetta Ufficiale](https://www.gazzettaufficiale.it/eli/id/2026/05/18/26A02490/sg) e
+  [riepilogo del Governo](https://www.programmagoverno.gov.it/it/approfondimenti/riforme-di-rilievo-del-governo/riforme-governo-meloni/riforme-costituzionali/riforma-della-magistratura/).
+  `u11.json` e le schede preesistenti erano già coerenti: CSM unico, 33 componenti secondo la disciplina
+  vigente; non presentare i due Consigli e l'Alta Corte del progetto come organi esistenti.
+- **Premierato:** [A.C. 1921](https://www.camera.it/leg19/126?idDocumento=1921&leg=19&tab=), ancora in Commissione.
+  Restano distinti progetto, indicazioni politiche ed effettive regole degli artt. 92–95.
+- **Autonomie speciali:** leggi costituzionali
+  [1/2026, Friuli-Venezia Giulia](https://www.gazzettaufficiale.it/eli/id/2026/02/09/26G00030/sg) e
+  [2/2026, Trentino-Alto Adige/Südtirol](https://www.gazzettaufficiale.it/eli/id/2026/06/08/26G00115/sg).
+  Le nuove schede distinguono statuto ordinario, statuto speciale e norme di attuazione; richiamata anche
+  la modifica dell'art. 107 dello statuto trentino-altoatesino. Sono modifiche agli statuti speciali,
+  non al testo dei 139 articoli della Costituzione nazionale.
+- **Altri riscontri:** legge elettorale ordinaria 180/2026 già recepita nell'unità 6
+  ([ripubblicazione ufficiale](https://www.gazzettaufficiale.it/eli/id/2026/10/23/26A05611/sg));
+  [Corte cost. 76/2025](https://www.cortecostituzionale.it/scheda-pronuncia/2025/76) sul TSO già recepita
+  nell'unità 18, ripresa nella nuova scheda con comunicazioni, audizione e notificazione.
+
+Per i rapporti con l'UE, riscontrati TFUE art. 288, Carta art. 51, Faccini Dori C-91/92 e Corte cost.
+170/1984 sui rispettivi portali ufficiali. Distinte diretta applicabilità, effetto diretto, primato e
+non applicazione; nessuna nuova sentenza citata soltanto da memoria.
+
+Carlo ha revocato la richiesta di push prima della conclusione: modifiche lasciate in locale, senza commit né push.
+
+Controlli: validazione dei nuovi file e di tutte le inverse con **zero errori e zero avvisi**;
+build e `check:build` superati in una copia pulita di `main` con le sole modifiche del passo 3,
+escludendo `Percorso.tsx` e gli altri lavori contemporanei. Inclusi **1.348 controlli su 11 dispositivi**.
+Audit di tutti i 140 approfondimenti e delle 180 inverse compilate contro i file sorgenti;
+nessun contenuto precedente perso. **204 prove nel browser**: 80 sugli approfondimenti (tutti i 64 a
+393 px e un campione per file a 320 e 1280 px), 124 sulle inverse (tutte le 98 a 393 px e 13 per
+ciascuna delle altre due larghezze). Risposte, rimandi al glossario, fonti e salvataggio del ripasso
+corretti; nessuno sbordo o errore del browser. Controllata anche visivamente la scheda TSO.
+
+
+### Piano successivo, passo 6: Originali di Costituzionale e Filosofia SSG (11 novembre 2026)
+
+Eseguito su richiesta di Carlo dopo i passi 3 e 4, senza push. Tutto in `studio/letture-src/revisioni.json`
+(solo `sostituzioni` con `notaRevisione` redazionale; nessun avviso per chi studia, nessun blocco aggiunto o tolto):
+
+| Documento | Blocchi revisionati | Sostituzioni |
+|---|---|---|
+| `filosofia-ssg-lezioni-v1` | 216 | 874 |
+| `filosofia-ssg-incampo-v1` | 21 | 24 |
+| `costituzionale-bin-pitruzzella-v1` | 42 | 60 |
+
+- **A capo persi (SSG).** `rileva-acapo-letture.py` + una copia di `genera-acapo-letture.py` che accetta anche i
+  candidati `paragrafo-breve` e `paragrafo-stile`: 617 a capo di paragrafo, 40 voci d'elenco, 12 titoli. Scartati a
+  mano 8 «titoli» falsi (righe in grassetto a metà frase, p. 3, 5, 17, 49, 76, 77; titolo già presente a p. 24 di
+  Incampo) e trasformate in semplici a capo le intestazioni «Prof. Siniscalchi». Controllati i 650 a capo: nessuno a
+  metà frase, salvo voci d'elenco e intestazioni di lezione.
+- **Costituzionale.** Lo script non trova righe: il PDF ha un font codificato e il testo del lettore viene dall'OCR,
+  già diviso in paragrafi. Corretti a mano 6 titoletti/frecce fusi nel testo (pp. 48, 50, 68, 85) e 3 voci d'elenco.
+- **Refusi meccanici** (entrambe le materie): spazi mancanti dopo la punteggiatura, trattini di parole composte
+  spezzati («logico- formale»), circa 90 parole spezzate da uno spazio ricostruite col vocabolario di tutti i testi
+  dell'app («g uerra», «r ete», «c he»), «li» per «il» davanti a nomi (48 blocchi), «Foucalt» → «Foucault».
+
+Restano, da rivedere a mano se serve: altre parole spezzate con frammenti frequenti («d ove», «s ono» corretti solo
+dove trovati), qualche frase spezzata tra due blocchi della stessa pagina (es. p. 97 SSG, «i centri / urbani»:
+il numero dei blocchi non può cambiare) e i refusi lessicali della sbobina SSG.
+
+Controlli: `sync-letture`, `check-confini-letture` ed `check-estrazione-letture` superati; build e `check:build` in
+una copia pulita di `main` con le sole modifiche dei passi 4 e 6. Nel browser: SSG lezioni pp. 20, 97, SSG Incampo
+p. 5, Costituzionale p. 68.
+
+
+### Piano successivo, passo 5: Filosofia SSG, voci e approfondimenti (11 novembre 2026)
+
+Scritto da ChatGPT, che si è fermato per limite d'uso durante la validazione; controlli e consegna completati da
+Claude dai suoi log. **87 voci nuove** (`oltre-40.json`–`oltre-42.json`, campo `nuovi`), per **380 voci**, e
+**69 approfondimenti** (`oltre-43.json`–`oltre-51.json`), per **150**; aggiornate le `premessa` in `glossario.json`.
+Validazione di tutti i file con zero errori e zero avvisi; `check-domande` senza segnalazioni (8.234 domande
+generate). Gli approfondimenti citano come fonte le pagine delle Lezioni SSG negli Originali.
+
+Passi 3–6 pubblicati insieme su `main` con build e `check:build` superati in copia pulita (esclusa la modifica
+locale di Carlo a `Percorso.tsx`).
+
+### Stato all'11 novembre 2026, sera
+
+| Materia | Voci | Collegamenti per voce | Voci con approfondimento | Domande per lezione | Eventi | Schede inverse | Revisioni Originali |
+|---|---|---|---|---|---|---|---|
+| Diritto romano (modello) | 553 | 2,5 | 57% | 15,1 | 166 | 100 | 519 |
+| Filosofia LMG | 483 | 1,9 | 32% | 15,5 | 42 | 99 | 264 |
+| Diritto costituzionale | 278 | 2,0 | 50% | 15,2 | 49 | 180 | 42 |
+| Filosofia SSG | 380 | 1,1 | 39% | 13,5* | 47 | 168 | 237 |
+| Diritto privato | 503 | 1,6 | 50% | 14,6 | 28 | 333 | 77 |
+
+\* SSG: tutte le 73 lezioni d'esame hanno almeno 14 domande; la media scende per l'unità 17, fuori esame.
+
+Del Piano successivo restano: **7** (cronologia di privato, da 28 a circa 60 eventi) e **8** (Filosofia LMG:
+inverse da 99 a 200, approfondimenti da 156 a 240). Nuovo divario emerso: i collegamenti di **Filosofia SSG**
+(1,1 per voce dopo le 87 voci nuove) sono i più bassi; conviene un giro come il passo 4.
+
+Prossimo passo: **Piano successivo, 7 — cronologia di privato**.

@@ -3,6 +3,10 @@
 Scritto il 9 novembre 2026 dopo l'analisi del progetto. Le regole generali restano in [`../AGENTS.md`](../AGENTS.md).
 Ogni fase si chiude con `npm run build && npm run check:build`; le prove si fanno sulla porta 7101.
 
+Aggiornamento dell'11 novembre 2026: costituzionale ha **140 approfondimenti e 180 schede inverse**.
+Fonti normative e controlli nel resoconto del passo 3 in `consegne-prossimi-passi.md`.
+I conteggi storici che seguono descrivono il punto di partenza e i giri precedenti.
+
 ## Punto di partenza (misurato sui file `05 - Contenuti`)
 
 | Materia | Unità / lezioni | Domande (per lezione) | Voci | Collegamenti | Eventi | Extra |

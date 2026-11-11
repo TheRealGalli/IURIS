@@ -12,7 +12,7 @@ Le materie si scelgono da una griglia di simboli su due colonne, nella barra lat
 | LMG · I anno · A–L | Filosofia del diritto | Disponibile, Quadro con 6 schemi su Incampo, Moro e Cotta |
 | LMG e SSG | Diritto romano | Disponibile, condivisa fra i corsi |
 | SSG | Filosofia del diritto | Disponibile, programma dedicato, 1.036 domande (almeno 14 per lezione d’esame), 81 approfondimenti e Quadro con 9 schemi |
-| LMG · I anno · A–L | Diritto costituzionale | Disponibile: 18 unità, 50 lezioni, 760 domande, 36 approfondimenti, testo della Costituzione, quadro d'insieme |
+| LMG · I anno · A–L | Diritto costituzionale | Disponibile: 18 unità, 50 lezioni, 760 domande, 140 approfondimenti e 180 schede inverse, testo della Costituzione, quadro d'insieme |
 | SSG | Diritto costituzionale | In arrivo, con appunti propri |
 | LMG e SSG | Diritto privato | Disponibile: 27 unità, 98 lezioni e 1.426 domande, almeno 14 per lezione, più 333 schede inverse del glossario (parte generale, diritti reali, obbligazioni, contratti, famiglia, successioni e trascrizione), Codice civile completo consultabile; precisione e stile delle unità 12–27 rivisti; Quadro con 8 schemi; 250 approfondimenti |
 

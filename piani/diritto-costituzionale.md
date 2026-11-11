@@ -10,6 +10,14 @@ fiducia, rappresentanza, diritti, giustizia costituzionale e rapporti con l'UE; 
 da ricordare. Riferimenti principali: Costituzione, legge 87/1953, TFUE art. 267 e Corte cost. 1146/1988,
 238/2014, consultate sul portale ufficiale. Controlli nel riepilogo del passo 6 delle consegne.
 
+## Aggiornamento del piano successivo, passo 3 (11 novembre 2026)
+
+64 approfondimenti nuovi in `oltre-40.json`–`oltre-47.json`: **140 complessivi**;
+98 inverse nuove in `schede-inverse.json`: **180 complessive**. Conservati i contenuti precedenti.
+Riforme 2025–2026 verificate prima delle aggiunte: magistratura non approvata al referendum,
+premierato ancora progetto, modifiche vigenti agli statuti speciali. Fonti e riscontri nel
+[resoconto del passo 3](consegne-prossimi-passi.md#piano-successivo-passo-3-costituzionale-11-novembre-2026).
+
 ## La fonte
 
 Una sola, in `Diritto Costituzionale/00 - Appunti e fonti/` (fuori da git):

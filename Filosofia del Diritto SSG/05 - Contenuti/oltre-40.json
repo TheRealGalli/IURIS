@@ -1,0 +1,187 @@
+{
+  "voci": [],
+  "nuovi": [
+    {
+      "id": "potere-prescrittivo-sanzionatorio",
+      "nome": "Potere prescrittivo-sanzionatorio",
+      "tipo": "concetto",
+      "breve": "Il potere che qualifica un comportamento come illecito e gli collega una sanzione, intervenendo dopo la violazione.",
+      "definizione": "È il modello di potere che il corso riconosce in [[kelsen|Kelsen]] e, pur nella diversa impostazione realistica, in [[alf-ross|Ross]]. La norma prescrive una condotta e predispone una conseguenza per chi la viola: l'intervento avviene **a valle** rispetto all'illecito e ha anche funzione deterrente. Si distingue dal [[potere-disciplinare|potere disciplinare]], che agisce a monte formando disposizioni e comportamenti."
+    },
+    {
+      "id": "societa-disciplinare",
+      "nome": "Società disciplinare",
+      "tipo": "concetto",
+      "breve": "La società descritta da Foucault in cui istituzioni e dispositivi formano continuamente i comportamenti, oltre a punire gli illeciti.",
+      "definizione": "[[michel-foucault|Foucault]] affianca alla società regolata dal solo potere giuridico una società attraversata da pratiche di osservazione, correzione e [[normalizzazione]]. Scuola, caserma, fabbrica e carcere non si limitano a proibire: organizzano spazi e tempi e producono [[corpi-docili|corpi docili]]. Nel corso questa figura prepara il passaggio dall'[[ordinamento-giuridico|ordinamento]] alla [[governance]].",
+      "alias": ["società della disciplina", "società disciplinari"]
+    },
+    {
+      "id": "pratiche-di-soggettivazione",
+      "nome": "Pratiche di soggettivazione",
+      "tipo": "concetto",
+      "breve": "Pratiche con cui il soggetto lavora su di sé e costruisce un margine di libertà rispetto ai condizionamenti del potere.",
+      "definizione": "Nell'ultimo [[michel-foucault|Foucault]] indicano i modi in cui una persona si rapporta a sé e si costituisce come soggetto etico. Il corso le collega alle [[tecniche-del-se|tecniche del sé]] e alla possibilità di resistere all'omologazione disciplinare. Non cancellano il [[potere-disciplinare|potere disciplinare]], ma mostrano che la soggettività non è soltanto un effetto subito passivamente.",
+      "alias": ["pratica di soggettivazione"]
+    },
+    {
+      "id": "estetica-dell-esistenza",
+      "nome": "Estetica dell'esistenza",
+      "tipo": "concetto",
+      "breve": "La cura di sé come elaborazione della propria vita, proposta dall'ultimo Foucault come forma di resistenza all'omologazione.",
+      "definizione": "L'espressione appartiene alla ricerca di [[michel-foucault|Foucault]] sulle [[tecniche-del-se|tecniche del sé]] e sulle [[pratiche-di-soggettivazione|pratiche di soggettivazione]]. La vita diventa materia di un lavoro consapevole su condotte, desideri e rapporti con gli altri. Nel corso è una risposta individuale al potere che costituisce i soggetti, non un programma collettivo di riforma delle istituzioni."
+    },
+    {
+      "id": "parrhesia",
+      "nome": "Parrhesia",
+      "tipo": "concetto",
+      "breve": "Il dire la verità assumendosene il rischio, anche davanti al potere; pratica antica studiata dall'ultimo Foucault.",
+      "definizione": "Il termine greco indica il parlare franco. [[michel-foucault|Foucault]] studia il *parrhesiastes* come colui che dice ciò che ritiene vero legando la parola alla propria persona e accettandone il rischio. Nel corso è una delle [[pratiche-di-soggettivazione|pratiche di soggettivazione]] che aprono uno spazio critico davanti al potere, senza confondersi con la semplice libertà di esprimere un'opinione.",
+      "alias": ["dire la verità al potere", "parlare franco"]
+    },
+    {
+      "id": "storia-della-sessualita",
+      "nome": "Storia della sessualità",
+      "tipo": "opera",
+      "breve": "L'opera di Foucault che studia come discorsi e pratiche producano la sessualità moderna, oltre a reprimerla.",
+      "definizione": "[[michel-foucault|Foucault]] contesta l'idea che il potere moderno agisca sulla sessualità soltanto mediante silenzio e censura. Il primo volume, *La volontà di sapere* (1976), mostra invece una moltiplicazione di discorsi che incitano a parlare, classificare e confessare. Per il corso è un esempio decisivo del [[sapere-potere|sapere-potere]] e del carattere produttivo del [[potere-disciplinare|potere disciplinare]]."
+    },
+    {
+      "id": "jacques-alain-miller",
+      "nome": "Jacques-Alain Miller",
+      "tipo": "persona",
+      "breve": "Psicoanalista francese, allievo e genero di Lacan, citato nel corso per una lettura psicoanalitica del Panopticon.",
+      "definizione": "Nel percorso SSG compare prima della ripresa foucaultiana del [[panopticon|Panopticon]], per l'attenzione al disciplinamento come condizionamento anche psicologico. Il richiamo serve a distinguere il controllo esteriore dei comportamenti dalla sua interiorizzazione. [[michel-foucault|Foucault]] sviluppa il problema parlando della formazione dell'anima e dei [[corpi-docili|corpi docili]].",
+      "alias": ["Jacques Alain Miller", "Miller"]
+    },
+    {
+      "id": "norma-individuale",
+      "nome": "Norma individuale",
+      "tipo": "concetto",
+      "breve": "La determinazione della regola generale sul caso concreto, prodotta attraverso l'uso e l'interpretazione della fattispecie.",
+      "definizione": "Nel percorso su [[herbert-hart|Hart]] nasce quando l'osservante applica una [[norma-giuridica|norma]] generale e astratta a una situazione determinata. L'[[interpretazione-giuridica|interpretazione]] specifica lo [[schema-semanticamente-aperto|schema semanticamente aperto]] senza identificarsi con una creazione arbitraria. La distinzione aiuta a capire perché usare una regola non significhi soltanto ripeterne il testo."
+    },
+    {
+      "id": "significato-e-uso",
+      "nome": "Significato e uso",
+      "tipo": "concetto",
+      "breve": "Il nesso wittgensteiniano fra significato di un'espressione e suo impiego nelle pratiche linguistiche.",
+      "definizione": "Il richiamo a [[wittgenstein|Wittgenstein]] sposta l'attenzione da un significato interamente fissato in astratto agli usi condivisi del linguaggio. Nelle lezioni [[herbert-hart|Hart]] lo applica alla norma: gli osservanti ne determinano il senso utilizzandola e interpretandola nei casi concreti. Da qui derivano la [[norma-individuale|norma individuale]] e la possibilità di mutamenti interpretativi senza modificazione formale del testo."
+    },
+    {
+      "id": "sociologia-descrittiva",
+      "nome": "Sociologia descrittiva",
+      "tipo": "concetto",
+      "breve": "Il metodo di Hart che chiarisce i concetti giuridici osservandone l'uso nelle pratiche sociali e linguistiche.",
+      "definizione": "[[herbert-hart|Hart]] presenta *The Concept of Law* come un saggio di sociologia descrittiva. Non prescrive come il diritto dovrebbe essere, ma ricostruisce concetti come obbligo, regola e validità a partire dalle pratiche dei partecipanti. Il [[punto-di-vista-interno-hart|punto di vista interno]] è essenziale: descrivere soltanto comportamenti esteriori perderebbe l'uso delle regole come standard di condotta e di critica."
+    },
+    {
+      "id": "convenzionalismo-giuridico",
+      "nome": "Convenzionalismo giuridico",
+      "tipo": "concetto",
+      "breve": "L'idea che criteri e istituzioni giuridiche poggino su pratiche condivise, non su proprietà naturali degli oggetti.",
+      "definizione": "Nel corso è illustrato dal [[metro-campione|metro campione]]: il campione non deve la propria funzione a una qualità autosufficiente, ma al suo impiego convenzionale. In [[herbert-hart|Hart]] le [[norme-di-riconoscimento|regole di riconoscimento]] rimandano a pratiche accettate e consentono di identificare il diritto del sistema. La convenzione non equivale a un contratto firmato da tutti né all'arbitrio del singolo."
+    },
+    {
+      "id": "insurrezione",
+      "nome": "Insurrezione",
+      "tipo": "concetto",
+      "breve": "Il rifiuto dei principi che identificano un ordinamento, distinto dalla singola violazione delle sue regole.",
+      "definizione": "Nella metafora del [[gioco-sociale|gioco sociale]] il criminale resta dentro il gioco pur violandone una regola; l'insorto contesta i criteri che lo definiscono. Il contrasto chiarisce il ruolo delle [[norme-di-riconoscimento|regole di riconoscimento]] in [[herbert-hart|Hart]]: non basta osservare una condotta deviante per capire se essa presupponga ancora il sistema o miri a sostituirlo."
+    },
+    {
+      "id": "il-concetto-di-diritto",
+      "nome": "Il concetto di diritto",
+      "tipo": "opera",
+      "breve": "L'opera di Hart del 1961 che ricostruisce il diritto come unione di regole primarie e secondarie.",
+      "definizione": "*The Concept of Law* è il testo centrale di [[herbert-hart|Hart]]. Il libro critica il modello del diritto come ordine sostenuto dalla minaccia e sviluppa il [[punto-di-vista-interno-hart|punto di vista interno]], le [[norme-di-riconoscimento|regole di riconoscimento]] e il [[contenuto-minimo-di-diritto-naturale|contenuto minimo di diritto naturale]]. Nel corso è anche il riferimento per lo [[schema-semanticamente-aperto|schema semanticamente aperto]] e la [[sociologia-descrittiva|sociologia descrittiva]].",
+      "alias": ["The Concept of Law"]
+    },
+    {
+      "id": "realta-istituzionale",
+      "nome": "Realtà istituzionale",
+      "tipo": "concetto",
+      "breve": "La parte della realtà sociale che esiste grazie a status, regole e poteri riconosciuti collettivamente.",
+      "definizione": "Per [[john-searle|Searle]] comprende denaro, matrimoni, governi, diritti e altri fatti che non si esauriscono nelle loro basi materiali. La formula [[x-conta-come-y-in-c|«X conta come Y in C»]] spiega l'attribuzione di uno status entro un contesto, mentre l'[[intenzionalita-collettiva|intenzionalità collettiva]] ne sorregge il riconoscimento. Il diritto è una regione particolarmente organizzata di questa realtà."
+    },
+    {
+      "id": "ontologia-giuridica",
+      "nome": "Ontologia giuridica",
+      "tipo": "concetto",
+      "breve": "Lo studio delle condizioni di esistenza degli atti, delle norme e degli altri oggetti propri del diritto.",
+      "definizione": "È l'applicazione dell'[[ontologia-sociale|ontologia sociale]] al campo giuridico. Domanda che cosa renda possibile una promessa vincolante, una sentenza o una norma, senza ridurli ai soli supporti fisici. Nel percorso su [[john-searle|Searle]] il problema è affrontato mediante i [[fatti-bruti-e-istituzionali|fatti istituzionali]] e le [[funzioni-agentive-di-status|funzioni di status]]."
+    },
+    {
+      "id": "diritto-ed-economia",
+      "nome": "Diritto ed economia",
+      "tipo": "concetto",
+      "breve": "L'area di studi che analizza regole e istituzioni giuridiche attraverso incentivi, costi, efficienza e conseguenze economiche.",
+      "definizione": "Nel quadro delle teorie postmoderne il diritto non viene isolato come un sapere puro, ma letto insieme ai processi economici. L'analisi può riguardare gli effetti di una regola, i costi delle transazioni o l'organizzazione delle imprese. Il collegamento con [[oliver-williamson|Williamson]] e la [[governance]] mostra anche il passaggio inverso: categorie economiche diventano modelli per comprendere il diritto.",
+      "alias": ["Law and Economics", "analisi economica del diritto"]
+    },
+    {
+      "id": "femminismo-giuridico",
+      "nome": "Femminismo giuridico",
+      "tipo": "concetto",
+      "breve": "Il campo critico che esamina come diritto e istituzioni producano o riproducano differenze e gerarchie di genere.",
+      "definizione": "Non si limita a chiedere l'uguaglianza formale fra uomini e donne: interroga categorie, linguaggi e pratiche che possono incorporare un punto di vista parziale. Nelle lezioni è collocato fra gli approcci che decostruiscono il discorso giuridico a partire dalla differenza sessuale. Il richiamo al carcere femminile e a [[orange-is-the-new-black|*Orange Is the New Black*]] mostra anche il ruolo delle rappresentazioni nella conoscenza delle istituzioni."
+    },
+    {
+      "id": "law-in-film",
+      "nome": "Law in film",
+      "tipo": "concetto",
+      "breve": "Lo studio delle rappresentazioni cinematografiche del diritto, dei processi, dei giuristi e delle istituzioni.",
+      "definizione": "È il primo dei tre approcci del [[law-and-film|Law and Film]]. Può avere funzione didattica, perché favorisce un approccio empatico ai casi; critica, quando il cinema discute apparati e categorie giuridiche; epistemologica, quando offre immagini di luoghi normalmente sottratti all'esperienza diretta. Le rappresentazioni non vanno però confuse con una documentazione neutrale della realtà."
+    },
+    {
+      "id": "law-as-film",
+      "nome": "Law as film",
+      "tipo": "concetto",
+      "breve": "La lettura del diritto come rappresentazione: atti, processi e prove sono costruiti e organizzati davanti a un pubblico.",
+      "definizione": "Il secondo approccio del [[law-and-film|Law and Film]] considera la [[messa-in-scena|messa in scena]] del processo, la narrazione degli atti e il [[montaggio]] delle prove. La prospettiva riguarda il funzionamento del diritto, non soltanto il suo riflesso nei film. Il [[visual-legal-realism|visual legal realism]] aggiunge che la forza percepita della norma dipende anche dalle immagini attraverso cui il pubblico la conosce."
+    },
+    {
+      "id": "film-as-law",
+      "nome": "Film as law",
+      "tipo": "concetto",
+      "breve": "Lo studio del cinema come forza normativa capace di formare aspettative, modelli di condotta e rappresentazioni della giustizia.",
+      "definizione": "Il terzo approccio del [[law-and-film|Law and Film]] attribuisce alle immagini un ruolo nella produzione della cultura giuridica. Il cinema può influenzare giuristi, giurie, opinione pubblica e legislatore, come mostrano nel corso [[attrazione-fatale|*Attrazione fatale*]] e il [[poliziottesco]]. Riconoscere questo potere non significa equiparare formalmente un film a una legge."
+    },
+    {
+      "id": "epistemologia-filmica",
+      "nome": "Epistemologia filmica",
+      "tipo": "concetto",
+      "breve": "L'analisi del cinema come fonte di conoscenza di ambienti e pratiche giuridiche non direttamente accessibili.",
+      "definizione": "Il carcere è l'esempio centrale: per molti spettatori la sua immagine deriva soprattutto da film e serie televisive. L'epistemologia filmica studia questa mediazione, senza presumere che lo schermo restituisca la realtà senza selezioni. Si collega al [[law-in-film|law in film]] e al [[visual-legal-realism|visual legal realism]], perché ciò che si conosce attraverso le immagini può orientare anche il giudizio sulle istituzioni."
+    },
+    {
+      "id": "cerchio-magico-del-diritto",
+      "nome": "Cerchio magico del diritto",
+      "tipo": "concetto",
+      "breve": "L'insieme degli operatori e dei partecipanti specialistici che usano direttamente il linguaggio e le procedure giuridiche.",
+      "definizione": "L'espressione è associata nel corso a [[lawrence-m-friedman|Lawrence M. Friedman]] e serve a distinguere gli addetti ai lavori dal pubblico esterno. Letteratura e cinema permettono a chi sta fuori dal cerchio di formarsi una conoscenza del diritto, ma attraverso rappresentazioni selezionate. Il problema investe la [[cultura-giuridica-esterna|cultura giuridica esterna]] e i luoghi istituzionali interdetti allo sguardo ordinario."
+    },
+    {
+      "id": "lawrence-m-friedman",
+      "nome": "Lawrence M. Friedman",
+      "tipo": "persona",
+      "breve": "Giurista e storico del diritto statunitense, studioso della cultura giuridica e del rapporto fra diritto e società.",
+      "definizione": "Nel corso è richiamato per l'apertura del discorso giuridico oltre il [[cerchio-magico-del-diritto|cerchio magico]] degli specialisti. La sua prospettiva considera la cultura giuridica come un insieme di idee, atteggiamenti e aspettative sociali sul diritto. Ciò permette di studiare anche le rappresentazioni letterarie e cinematografiche senza ridurle a elementi estranei alla vita del diritto.",
+      "alias": ["Lawrence Friedman", "Friedman"]
+    },
+    {
+      "id": "effetto-csi",
+      "nome": "Effetto CSI",
+      "tipo": "concetto",
+      "breve": "L'espressione con cui si discute l'influenza delle serie forensi sulle aspettative del pubblico verso le prove scientifiche.",
+      "definizione": "Nel corso segnala il rischio di attribuire alle prove tecniche una certezza automatica per abitudine alle rappresentazioni televisive. Anche un risultato scientifico richiede selezione, contesto e [[interpretazione-giuridica|interpretazione]], come ogni elemento valutato nel processo. Il tema appartiene al [[law-as-film|law as film]] e ricorda che immagini e montaggio non eliminano il problema della prova."
+    },
+    {
+      "id": "fuoricampo",
+      "nome": "Fuoricampo",
+      "tipo": "concetto",
+      "breve": "Ciò che resta fuori dall'immagine inquadrata ma può essere essenziale per comprendere la scena rappresentata.",
+      "definizione": "Nel cinema è lo spazio non visibile entro i margini dell'inquadratura. Nelle lezioni diventa un avvertimento per l'uso processuale delle immagini: ogni sequenza seleziona che cosa mostrare e che cosa escludere, e il [[montaggio]] organizza il significato del visibile. Valutare una prova visiva richiede quindi attenzione anche al contesto non mostrato."
+    }
+  ]
+}
