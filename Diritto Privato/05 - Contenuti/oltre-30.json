@@ -1,0 +1,1650 @@
+{
+ "voci": [
+  {
+   "id": "norme-suppletive",
+   "collegamenti": [
+    {
+     "da": "norme-suppletive",
+     "a": "norme-derogabili",
+     "tipo": "esempio-di",
+     "etichetta": "sono un tipo di"
+    }
+   ]
+  },
+  {
+   "id": "generalita-e-astrattezza",
+   "collegamenti": [
+    {
+     "da": "generalita-e-astrattezza",
+     "a": "norma-giuridica",
+     "tipo": "parte-di",
+     "etichetta": "sono caratteri della"
+    }
+   ]
+  },
+  {
+   "id": "antinomia",
+   "collegamenti": [
+    {
+     "da": "antinomia",
+     "a": "gerarchia-delle-fonti",
+     "tipo": "collegato",
+     "etichetta": "si risolve anche con la"
+    }
+   ]
+  },
+  {
+   "id": "vacatio-legis",
+   "collegamenti": [
+    {
+     "da": "vacatio-legis",
+     "a": "irretroattivita",
+     "tipo": "collegato",
+     "etichetta": "precede l'efficacia regolata dall'"
+    }
+   ]
+  },
+  {
+   "id": "diritto-transitorio",
+   "collegamenti": [
+    {
+     "da": "diritto-transitorio",
+     "a": "irretroattivita",
+     "tipo": "collegato",
+     "etichetta": "regola il passaggio secondo l'"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "collegamenti": [
+    {
+     "da": "analogia",
+     "a": "lacuna-del-diritto",
+     "tipo": "collegato",
+     "etichetta": "colma la"
+    }
+   ]
+  },
+  {
+   "id": "ratio-legis",
+   "collegamenti": [
+    {
+     "da": "ratio-legis",
+     "a": "interpretazione-della-legge",
+     "tipo": "parte-di",
+     "etichetta": "guida l'"
+    }
+   ]
+  },
+  {
+   "id": "giurisprudenza",
+   "collegamenti": [
+    {
+     "da": "giurisprudenza",
+     "a": "interpretazione-della-legge",
+     "tipo": "crea",
+     "etichetta": "compie l'"
+    }
+   ]
+  },
+  {
+   "id": "obbligo",
+   "collegamenti": [
+    {
+     "da": "obbligo",
+     "a": "rapporto-giuridico",
+     "tipo": "parte-di",
+     "etichetta": "è il lato passivo del"
+    }
+   ]
+  },
+  {
+   "id": "aspettativa",
+   "collegamenti": [
+    {
+     "da": "aspettativa",
+     "a": "diritto-soggettivo",
+     "tipo": "evolve-in",
+     "etichetta": "può diventare"
+    }
+   ]
+  },
+  {
+   "id": "interesse-legittimo",
+   "collegamenti": [
+    {
+     "da": "interesse-legittimo",
+     "a": "diritto-soggettivo",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "onere",
+   "collegamenti": [
+    {
+     "da": "onere",
+     "a": "obbligo",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ]
+  },
+  {
+   "id": "diritti-indisponibili",
+   "collegamenti": [
+    {
+     "da": "diritti-indisponibili",
+     "a": "diritti-della-personalita",
+     "tipo": "collegato",
+     "etichetta": "comprendono i"
+    }
+   ]
+  },
+  {
+   "id": "emancipazione",
+   "collegamenti": [
+    {
+     "da": "emancipazione",
+     "a": "minore-eta",
+     "tipo": "collegato",
+     "etichetta": "attenua gli effetti della"
+    }
+   ]
+  },
+  {
+   "id": "incapacita-naturale",
+   "collegamenti": [
+    {
+     "da": "incapacita-naturale",
+     "a": "capacita-di-agire",
+     "tipo": "contrasta",
+     "etichetta": "è un difetto di fatto della"
+    }
+   ]
+  },
+  {
+   "id": "tutela",
+   "collegamenti": [
+    {
+     "da": "tutela",
+     "a": "minore-eta",
+     "tipo": "collegato",
+     "etichetta": "protegge chi è in"
+    }
+   ]
+  },
+  {
+   "id": "concepito",
+   "collegamenti": [
+    {
+     "da": "concepito",
+     "a": "capacita-giuridica",
+     "tipo": "collegato",
+     "etichetta": "ha una posizione anticipata rispetto alla"
+    }
+   ]
+  },
+  {
+   "id": "domicilio",
+   "collegamenti": [
+    {
+     "da": "domicilio",
+     "a": "residenza",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    }
+   ]
+  },
+  {
+   "id": "diritto-all-identita-personale",
+   "collegamenti": [
+    {
+     "da": "diritto-all-identita-personale",
+     "a": "diritti-della-personalita",
+     "tipo": "esempio-di",
+     "etichetta": "è uno dei"
+    }
+   ]
+  },
+  {
+   "id": "apparenza",
+   "collegamenti": [
+    {
+     "da": "apparenza",
+     "a": "legittimazione",
+     "tipo": "collegato",
+     "etichetta": "supplisce al difetto di"
+    }
+   ]
+  },
+  {
+   "id": "comitato",
+   "collegamenti": [
+    {
+     "da": "comitato",
+     "a": "associazione-non-riconosciuta",
+     "tipo": "collegato",
+     "etichetta": "è affine all'"
+    }
+   ]
+  },
+  {
+   "id": "organo-dell-ente",
+   "collegamenti": [
+    {
+     "da": "organo-dell-ente",
+     "a": "ente",
+     "tipo": "parte-di",
+     "etichetta": "esprime la volontà dell'"
+    }
+   ]
+  },
+  {
+   "id": "universalita-di-mobili",
+   "collegamenti": [
+    {
+     "da": "universalita-di-mobili",
+     "a": "beni-mobili",
+     "tipo": "parte-di",
+     "etichetta": "è un insieme unitario di"
+    }
+   ]
+  },
+  {
+   "id": "frutti",
+   "collegamenti": [
+    {
+     "da": "frutti",
+     "a": "bene",
+     "tipo": "collegato",
+     "etichetta": "sono prodotti dal"
+    }
+   ]
+  },
+  {
+   "id": "beni-demaniali",
+   "collegamenti": [
+    {
+     "da": "beni-demaniali",
+     "a": "bene",
+     "tipo": "esempio-di",
+     "etichetta": "sono una categoria di"
+    }
+   ]
+  },
+  {
+   "id": "atto-recettizio",
+   "collegamenti": [
+    {
+     "da": "atto-recettizio",
+     "a": "negozio-unilaterale",
+     "tipo": "collegato",
+     "etichetta": "è spesso un"
+    }
+   ]
+  },
+  {
+   "id": "elementi-del-negozio",
+   "collegamenti": [
+    {
+     "da": "elementi-del-negozio",
+     "a": "negozio-giuridico",
+     "tipo": "parte-di",
+     "etichetta": "compongono il"
+    }
+   ]
+  },
+  {
+   "id": "sospensione-della-prescrizione",
+   "collegamenti": [
+    {
+     "da": "sospensione-della-prescrizione",
+     "a": "interruzione-della-prescrizione",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ]
+  },
+  {
+   "id": "prescrizione-presuntiva",
+   "collegamenti": [
+    {
+     "da": "prescrizione-presuntiva",
+     "a": "prescrizione",
+     "tipo": "contrasta",
+     "etichetta": "non estingue il diritto come la"
+    }
+   ]
+  },
+  {
+   "id": "data-certa",
+   "collegamenti": [
+    {
+     "da": "data-certa",
+     "a": "scrittura-privata",
+     "tipo": "collegato",
+     "etichetta": "rende opponibile ai terzi la"
+    }
+   ]
+  },
+  {
+   "id": "cosa-giudicata",
+   "collegamenti": [
+    {
+     "da": "cosa-giudicata",
+     "a": "azione",
+     "tipo": "collegato",
+     "etichetta": "chiude definitivamente l'"
+    }
+   ]
+  },
+  {
+   "id": "distanze-legali",
+   "collegamenti": [
+    {
+     "da": "distanze-legali",
+     "a": "proprieta-fondiaria",
+     "tipo": "contrasta",
+     "etichetta": "limitano la"
+    }
+   ]
+  },
+  {
+   "id": "usucapione",
+   "collegamenti": [
+    {
+     "da": "usucapione",
+     "a": "modi-di-acquisto-della-proprieta",
+     "tipo": "esempio-di",
+     "etichetta": "è uno dei"
+    }
+   ]
+  },
+  {
+   "id": "azione-di-rivendicazione",
+   "collegamenti": [
+    {
+     "da": "azione-di-rivendicazione",
+     "a": "proprieta",
+     "tipo": "collegato",
+     "etichetta": "difende la"
+    }
+   ]
+  },
+  {
+   "id": "superficie",
+   "collegamenti": [
+    {
+     "da": "superficie",
+     "a": "diritti-reali",
+     "tipo": "esempio-di",
+     "etichetta": "è uno dei"
+    }
+   ]
+  },
+  {
+   "id": "usufrutto",
+   "collegamenti": [
+    {
+     "da": "usufrutto",
+     "a": "diritti-reali",
+     "tipo": "esempio-di",
+     "etichetta": "è uno dei"
+    }
+   ]
+  },
+  {
+   "id": "servitu",
+   "collegamenti": [
+    {
+     "da": "servitu",
+     "a": "diritti-reali",
+     "tipo": "esempio-di",
+     "etichetta": "è uno dei"
+    }
+   ]
+  },
+  {
+   "id": "enfiteusi",
+   "collegamenti": [
+    {
+     "da": "enfiteusi",
+     "a": "diritti-reali",
+     "tipo": "esempio-di",
+     "etichetta": "è uno dei"
+    }
+   ]
+  },
+  {
+   "id": "comunione",
+   "collegamenti": [
+    {
+     "da": "comunione",
+     "a": "proprieta",
+     "tipo": "esempio-di",
+     "etichetta": "è la contitolarità della"
+    }
+   ]
+  },
+  {
+   "id": "assemblea-condominiale",
+   "collegamenti": [
+    {
+     "da": "assemblea-condominiale",
+     "a": "condominio",
+     "tipo": "parte-di",
+     "etichetta": "è organo del"
+    }
+   ]
+  },
+  {
+   "id": "amministratore-di-condominio",
+   "collegamenti": [
+    {
+     "da": "amministratore-di-condominio",
+     "a": "condominio",
+     "tipo": "parte-di",
+     "etichetta": "è organo del"
+    }
+   ]
+  },
+  {
+   "id": "tabelle-millesimali",
+   "collegamenti": [
+    {
+     "da": "tabelle-millesimali",
+     "a": "condominio",
+     "tipo": "collegato",
+     "etichetta": "ripartiscono spese e voti nel"
+    }
+   ]
+  },
+  {
+   "id": "multiproprieta",
+   "collegamenti": [
+    {
+     "da": "multiproprieta",
+     "a": "comunione",
+     "tipo": "collegato",
+     "etichetta": "è accostata alla"
+    }
+   ]
+  },
+  {
+   "id": "possesso",
+   "collegamenti": [
+    {
+     "da": "possesso",
+     "a": "proprieta",
+     "tipo": "contrasta",
+     "etichetta": "è il fatto, distinto dal diritto di"
+    }
+   ]
+  },
+  {
+   "id": "azione-di-reintegrazione",
+   "collegamenti": [
+    {
+     "da": "azione-di-reintegrazione",
+     "a": "possesso",
+     "tipo": "collegato",
+     "etichetta": "difende il"
+    }
+   ]
+  },
+  {
+   "id": "azione-di-manutenzione",
+   "collegamenti": [
+    {
+     "da": "azione-di-manutenzione",
+     "a": "possesso",
+     "tipo": "collegato",
+     "etichetta": "difende il"
+    }
+   ]
+  },
+  {
+   "id": "buona-fede-possessoria",
+   "collegamenti": [
+    {
+     "da": "buona-fede-possessoria",
+     "a": "usucapione-abbreviata",
+     "tipo": "parte-di",
+     "etichetta": "è requisito dell'"
+    }
+   ]
+  },
+  {
+   "id": "azioni-possessorie",
+   "collegamenti": [
+    {
+     "da": "azioni-possessorie",
+     "a": "azioni-petitorie",
+     "tipo": "contrasta",
+     "etichetta": "si distinguono dalle"
+    }
+   ]
+  },
+  {
+   "id": "obbligazione",
+   "collegamenti": [
+    {
+     "da": "obbligazione",
+     "a": "diritti-relativi",
+     "tipo": "esempio-di",
+     "etichetta": "è il principale dei"
+    }
+   ]
+  },
+  {
+   "id": "prestazione",
+   "collegamenti": [
+    {
+     "da": "prestazione",
+     "a": "obbligazione",
+     "tipo": "parte-di",
+     "etichetta": "è l'oggetto dell'"
+    }
+   ]
+  },
+  {
+   "id": "fonti-delle-obbligazioni",
+   "collegamenti": [
+    {
+     "da": "fonti-delle-obbligazioni",
+     "a": "obbligazione",
+     "tipo": "crea",
+     "etichetta": "fanno nascere l'"
+    }
+   ]
+  },
+  {
+   "id": "solidarieta",
+   "collegamenti": [
+    {
+     "da": "solidarieta",
+     "a": "obbligazione-parziaria",
+     "tipo": "contrasta",
+     "etichetta": "si oppone all'"
+    }
+   ]
+  },
+  {
+   "id": "obbligazione-alternativa",
+   "collegamenti": [
+    {
+     "da": "obbligazione-alternativa",
+     "a": "obbligazione-facoltativa",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ]
+  },
+  {
+   "id": "principio-nominalistico",
+   "collegamenti": [
+    {
+     "da": "principio-nominalistico",
+     "a": "debito-di-valore",
+     "tipo": "contrasta",
+     "etichetta": "non si applica al"
+    }
+   ]
+  },
+  {
+   "id": "interessi-moratori",
+   "collegamenti": [
+    {
+     "da": "interessi-moratori",
+     "a": "interessi",
+     "tipo": "esempio-di",
+     "etichetta": "sono un tipo di"
+    }
+   ]
+  },
+  {
+   "id": "usura",
+   "collegamenti": [
+    {
+     "da": "usura",
+     "a": "interessi",
+     "tipo": "contrasta",
+     "etichetta": "è il limite agli"
+    }
+   ]
+  },
+  {
+   "id": "cessione-del-credito",
+   "collegamenti": [
+    {
+     "da": "cessione-del-credito",
+     "a": "obbligazione",
+     "tipo": "collegato",
+     "etichetta": "cambia il creditore dell'"
+    }
+   ]
+  },
+  {
+   "id": "adempimento",
+   "collegamenti": [
+    {
+     "da": "adempimento",
+     "a": "obbligazione",
+     "tipo": "collegato",
+     "etichetta": "estingue l'"
+    }
+   ]
+  },
+  {
+   "id": "prestazione-in-luogo-dell-adempimento",
+   "collegamenti": [
+    {
+     "da": "prestazione-in-luogo-dell-adempimento",
+     "a": "adempimento",
+     "tipo": "contrasta",
+     "etichetta": "sostituisce l'"
+    }
+   ]
+  },
+  {
+   "id": "pagamento-con-surrogazione",
+   "collegamenti": [
+    {
+     "da": "pagamento-con-surrogazione",
+     "a": "adempimento-del-terzo",
+     "tipo": "collegato",
+     "etichetta": "può seguire all'"
+    }
+   ]
+  },
+  {
+   "id": "mora-del-creditore",
+   "collegamenti": [
+    {
+     "da": "mora-del-creditore",
+     "a": "mora-del-debitore",
+     "tipo": "contrasta",
+     "etichetta": "è speculare alla"
+    }
+   ]
+  },
+  {
+   "id": "compensazione",
+   "collegamenti": [
+    {
+     "da": "compensazione",
+     "a": "obbligazione",
+     "tipo": "collegato",
+     "etichetta": "estingue l'"
+    }
+   ]
+  },
+  {
+   "id": "novazione",
+   "collegamenti": [
+    {
+     "da": "novazione",
+     "a": "obbligazione",
+     "tipo": "collegato",
+     "etichetta": "estingue e sostituisce l'"
+    }
+   ]
+  },
+  {
+   "id": "remissione-del-debito",
+   "collegamenti": [
+    {
+     "da": "remissione-del-debito",
+     "a": "obbligazione",
+     "tipo": "collegato",
+     "etichetta": "estingue l'"
+    }
+   ]
+  },
+  {
+   "id": "impossibilita-sopravvenuta",
+   "collegamenti": [
+    {
+     "da": "impossibilita-sopravvenuta",
+     "a": "obbligazione",
+     "tipo": "collegato",
+     "etichetta": "estingue l'"
+    }
+   ]
+  },
+  {
+   "id": "responsabilita-patrimoniale",
+   "collegamenti": [
+    {
+     "da": "responsabilita-patrimoniale",
+     "a": "obbligazione",
+     "tipo": "collegato",
+     "etichetta": "garantisce l'"
+    }
+   ]
+  },
+  {
+   "id": "diritti-reali-di-garanzia",
+   "collegamenti": [
+    {
+     "da": "diritti-reali-di-garanzia",
+     "a": "par-condicio-creditorum",
+     "tipo": "contrasta",
+     "etichetta": "derogano alla"
+    }
+   ]
+  },
+  {
+   "id": "pegno",
+   "collegamenti": [
+    {
+     "da": "pegno",
+     "a": "ipoteca",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ]
+  },
+  {
+   "id": "grado-ipotecario",
+   "collegamenti": [
+    {
+     "da": "grado-ipotecario",
+     "a": "iscrizione-ipotecaria",
+     "tipo": "collegato",
+     "etichetta": "dipende dall'"
+    }
+   ]
+  },
+  {
+   "id": "azione-surrogatoria",
+   "collegamenti": [
+    {
+     "da": "azione-surrogatoria",
+     "a": "responsabilita-patrimoniale",
+     "tipo": "collegato",
+     "etichetta": "conserva la"
+    }
+   ]
+  },
+  {
+   "id": "azione-revocatoria",
+   "collegamenti": [
+    {
+     "da": "azione-revocatoria",
+     "a": "responsabilita-patrimoniale",
+     "tipo": "collegato",
+     "etichetta": "conserva la"
+    }
+   ]
+  },
+  {
+   "id": "proposta-e-accettazione",
+   "collegamenti": [
+    {
+     "da": "proposta-e-accettazione",
+     "a": "contratto",
+     "tipo": "crea",
+     "etichetta": "formano l'accordo del"
+    }
+   ]
+  },
+  {
+   "id": "responsabilita-precontrattuale",
+   "collegamenti": [
+    {
+     "da": "responsabilita-precontrattuale",
+     "a": "contratto",
+     "tipo": "collegato",
+     "etichetta": "precede la conclusione del"
+    }
+   ]
+  },
+  {
+   "id": "condizioni-generali-di-contratto",
+   "collegamenti": [
+    {
+     "da": "condizioni-generali-di-contratto",
+     "a": "autonomia-contrattuale",
+     "tipo": "contrasta",
+     "etichetta": "restringono di fatto l'"
+    }
+   ]
+  },
+  {
+   "id": "vizi-del-consenso",
+   "collegamenti": [
+    {
+     "da": "vizi-del-consenso",
+     "a": "annullabilita",
+     "tipo": "causa",
+     "etichetta": "sono causa di"
+    }
+   ]
+  },
+  {
+   "id": "forma-ad-substantiam",
+   "collegamenti": [
+    {
+     "da": "forma-ad-substantiam",
+     "a": "forma-ad-probationem",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    },
+    {
+     "da": "forma-ad-substantiam",
+     "a": "nullita",
+     "tipo": "causa",
+     "etichetta": "se manca produce"
+    }
+   ]
+  },
+  {
+   "id": "conflitto-di-interessi-rappresentativo",
+   "collegamenti": [
+    {
+     "da": "conflitto-di-interessi-rappresentativo",
+     "a": "annullabilita",
+     "tipo": "causa",
+     "etichetta": "è causa di"
+    }
+   ]
+  },
+  {
+   "id": "opzione",
+   "collegamenti": [
+    {
+     "da": "opzione",
+     "a": "contratto-preliminare",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "causa-del-contratto",
+   "collegamenti": [
+    {
+     "da": "causa-del-contratto",
+     "a": "requisiti-del-contratto",
+     "tipo": "parte-di",
+     "etichetta": "è uno dei"
+    }
+   ]
+  },
+  {
+   "id": "oggetto-del-contratto",
+   "collegamenti": [
+    {
+     "da": "oggetto-del-contratto",
+     "a": "requisiti-del-contratto",
+     "tipo": "parte-di",
+     "etichetta": "è uno dei"
+    }
+   ]
+  },
+  {
+   "id": "motivo-illecito-comune",
+   "collegamenti": [
+    {
+     "da": "motivo-illecito-comune",
+     "a": "nullita",
+     "tipo": "causa",
+     "etichetta": "è causa di"
+    }
+   ]
+  },
+  {
+   "id": "interpretazione-del-contratto",
+   "collegamenti": [
+    {
+     "da": "interpretazione-del-contratto",
+     "a": "contratto",
+     "tipo": "interpreta",
+     "etichetta": "accerta il significato del"
+    }
+   ]
+  },
+  {
+   "id": "forza-vincolante-del-contratto",
+   "collegamenti": [
+    {
+     "da": "forza-vincolante-del-contratto",
+     "a": "contratto",
+     "tipo": "parte-di",
+     "etichetta": "è l'effetto tipico del"
+    }
+   ]
+  },
+  {
+   "id": "recesso",
+   "collegamenti": [
+    {
+     "da": "recesso",
+     "a": "forza-vincolante-del-contratto",
+     "tipo": "contrasta",
+     "etichetta": "deroga alla"
+    }
+   ]
+  },
+  {
+   "id": "caparra-confirmatoria",
+   "collegamenti": [
+    {
+     "da": "caparra-confirmatoria",
+     "a": "clausola-penale",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    }
+   ]
+  },
+  {
+   "id": "contratto-a-favore-di-terzo",
+   "collegamenti": [
+    {
+     "da": "contratto-a-favore-di-terzo",
+     "a": "forza-vincolante-del-contratto",
+     "tipo": "contrasta",
+     "etichetta": "deroga alla relatività della"
+    }
+   ]
+  },
+  {
+   "id": "trust",
+   "collegamenti": [
+    {
+     "da": "trust",
+     "a": "negozio-fiduciario",
+     "tipo": "collegato",
+     "etichetta": "è accostato al"
+    }
+   ]
+  },
+  {
+   "id": "nullita-parziale",
+   "collegamenti": [
+    {
+     "da": "nullita-parziale",
+     "a": "nullita",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ]
+  },
+  {
+   "id": "rescissione",
+   "collegamenti": [
+    {
+     "da": "rescissione",
+     "a": "annullabilita",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ]
+  },
+  {
+   "id": "stato-di-pericolo-contrattuale",
+   "collegamenti": [
+    {
+     "da": "stato-di-pericolo-contrattuale",
+     "a": "rescissione",
+     "tipo": "esempio-di",
+     "etichetta": "è un'ipotesi di"
+    }
+   ]
+  },
+  {
+   "id": "risoluzione-per-inadempimento",
+   "collegamenti": [
+    {
+     "da": "risoluzione-per-inadempimento",
+     "a": "rescissione",
+     "tipo": "contrasta",
+     "etichetta": "riguarda il rapporto, a differenza della"
+    }
+   ]
+  },
+  {
+   "id": "termine-essenziale",
+   "collegamenti": [
+    {
+     "da": "termine-essenziale",
+     "a": "risoluzione-per-inadempimento",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di diritto della"
+    }
+   ]
+  },
+  {
+   "id": "eccezione-di-inadempimento",
+   "collegamenti": [
+    {
+     "da": "eccezione-di-inadempimento",
+     "a": "risoluzione-per-inadempimento",
+     "tipo": "contrasta",
+     "etichetta": "sospende senza sciogliere, a differenza della"
+    }
+   ]
+  },
+  {
+   "id": "eccessiva-onerosita-sopravvenuta",
+   "collegamenti": [
+    {
+     "da": "eccessiva-onerosita-sopravvenuta",
+     "a": "presupposizione",
+     "tipo": "collegato",
+     "etichetta": "è affine alla"
+    }
+   ]
+  },
+  {
+   "id": "inadempimento",
+   "collegamenti": [
+    {
+     "da": "inadempimento",
+     "a": "risoluzione-per-inadempimento",
+     "tipo": "causa",
+     "etichetta": "legittima la"
+    }
+   ]
+  },
+  {
+   "id": "compravendita",
+   "collegamenti": [
+    {
+     "da": "compravendita",
+     "a": "consenso-traslativo",
+     "tipo": "esempio-di",
+     "etichetta": "è l'esempio tipico di"
+    }
+   ]
+  },
+  {
+   "id": "garanzia-per-vizi-vendita",
+   "collegamenti": [
+    {
+     "da": "garanzia-per-vizi-vendita",
+     "a": "obbligazioni-del-venditore",
+     "tipo": "parte-di",
+     "etichetta": "rientra tra le"
+    }
+   ]
+  },
+  {
+   "id": "aliud-pro-alio",
+   "collegamenti": [
+    {
+     "da": "aliud-pro-alio",
+     "a": "garanzia-per-vizi-vendita",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    }
+   ]
+  },
+  {
+   "id": "vendita-con-riserva-di-proprieta",
+   "collegamenti": [
+    {
+     "da": "vendita-con-riserva-di-proprieta",
+     "a": "compravendita",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ]
+  },
+  {
+   "id": "comodato",
+   "collegamenti": [
+    {
+     "da": "comodato",
+     "a": "locazione",
+     "tipo": "contrasta",
+     "etichetta": "è gratuito, a differenza della"
+    },
+    {
+     "da": "comodato",
+     "a": "mutuo",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "appalto",
+   "collegamenti": [
+    {
+     "da": "appalto",
+     "a": "compravendita",
+     "tipo": "contrasta",
+     "etichetta": "ha per oggetto un fare, a differenza della"
+    }
+   ]
+  },
+  {
+   "id": "mandato",
+   "collegamenti": [
+    {
+     "da": "mandato",
+     "a": "rappresentanza",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    }
+   ]
+  },
+  {
+   "id": "mediazione",
+   "collegamenti": [
+    {
+     "da": "mediazione",
+     "a": "mandato",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "agenzia",
+   "collegamenti": [
+    {
+     "da": "agenzia",
+     "a": "mandato",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "fideiussione",
+   "collegamenti": [
+    {
+     "da": "fideiussione",
+     "a": "accessorieta-della-garanzia",
+     "tipo": "collegato",
+     "etichetta": "è retta dall'"
+    }
+   ]
+  },
+  {
+   "id": "transazione",
+   "collegamenti": [
+    {
+     "da": "transazione",
+     "a": "contratto",
+     "tipo": "esempio-di",
+     "etichetta": "è un"
+    }
+   ]
+  },
+  {
+   "id": "promessa-unilaterale",
+   "collegamenti": [
+    {
+     "da": "promessa-unilaterale",
+     "a": "contratto",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "assegno-bancario",
+   "collegamenti": [
+    {
+     "da": "assegno-bancario",
+     "a": "titolo-di-credito",
+     "tipo": "esempio-di",
+     "etichetta": "è un"
+    }
+   ]
+  },
+  {
+   "id": "avallo",
+   "collegamenti": [
+    {
+     "da": "avallo",
+     "a": "cambiale",
+     "tipo": "collegato",
+     "etichetta": "garantisce il pagamento della"
+    }
+   ]
+  },
+  {
+   "id": "pagamento-dell-indebito",
+   "collegamenti": [
+    {
+     "da": "pagamento-dell-indebito",
+     "a": "fonti-delle-obbligazioni",
+     "tipo": "esempio-di",
+     "etichetta": "è una delle"
+    }
+   ]
+  },
+  {
+   "id": "arricchimento-senza-causa",
+   "collegamenti": [
+    {
+     "da": "arricchimento-senza-causa",
+     "a": "fonti-delle-obbligazioni",
+     "tipo": "esempio-di",
+     "etichetta": "è una delle"
+    }
+   ]
+  },
+  {
+   "id": "responsabilita-extracontrattuale",
+   "collegamenti": [
+    {
+     "da": "responsabilita-extracontrattuale",
+     "a": "responsabilita-da-inadempimento",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    },
+    {
+     "da": "responsabilita-extracontrattuale",
+     "a": "fonti-delle-obbligazioni",
+     "tipo": "esempio-di",
+     "etichetta": "è una delle"
+    }
+   ]
+  },
+  {
+   "id": "attivita-pericolosa",
+   "collegamenti": [
+    {
+     "da": "attivita-pericolosa",
+     "a": "responsabilita-extracontrattuale",
+     "tipo": "esempio-di",
+     "etichetta": "è un'ipotesi speciale di"
+    }
+   ]
+  },
+  {
+   "id": "danno-da-cosa-in-custodia",
+   "collegamenti": [
+    {
+     "da": "danno-da-cosa-in-custodia",
+     "a": "responsabilita-extracontrattuale",
+     "tipo": "esempio-di",
+     "etichetta": "è un'ipotesi speciale di"
+    }
+   ]
+  },
+  {
+   "id": "matrimonio",
+   "collegamenti": [
+    {
+     "da": "matrimonio",
+     "a": "famiglia",
+     "tipo": "crea",
+     "etichetta": "fonda la"
+    }
+   ]
+  },
+  {
+   "id": "unione-civile",
+   "collegamenti": [
+    {
+     "da": "unione-civile",
+     "a": "matrimonio",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "assegno-divorzile",
+   "collegamenti": [
+    {
+     "da": "assegno-divorzile",
+     "a": "divorzio",
+     "tipo": "collegato",
+     "etichetta": "segue il"
+    }
+   ]
+  },
+  {
+   "id": "fondo-patrimoniale",
+   "collegamenti": [
+    {
+     "da": "fondo-patrimoniale",
+     "a": "patrimonio-separato",
+     "tipo": "esempio-di",
+     "etichetta": "è un"
+    }
+   ]
+  },
+  {
+   "id": "impresa-familiare",
+   "collegamenti": [
+    {
+     "da": "impresa-familiare",
+     "a": "famiglia",
+     "tipo": "collegato",
+     "etichetta": "tutela il lavoro nella"
+    }
+   ]
+  },
+  {
+   "id": "stato-di-figlio",
+   "collegamenti": [
+    {
+     "da": "stato-di-figlio",
+     "a": "responsabilita-genitoriale",
+     "tipo": "causa",
+     "etichetta": "comporta la"
+    }
+   ]
+  },
+  {
+   "id": "riconoscimento-del-figlio",
+   "collegamenti": [
+    {
+     "da": "riconoscimento-del-figlio",
+     "a": "stato-di-figlio",
+     "tipo": "crea",
+     "etichetta": "attribuisce lo"
+    }
+   ]
+  },
+  {
+   "id": "dichiarazione-giudiziale-filiazione",
+   "collegamenti": [
+    {
+     "da": "dichiarazione-giudiziale-filiazione",
+     "a": "stato-di-figlio",
+     "tipo": "crea",
+     "etichetta": "accerta lo"
+    }
+   ]
+  },
+  {
+   "id": "disconoscimento-di-paternita",
+   "collegamenti": [
+    {
+     "da": "disconoscimento-di-paternita",
+     "a": "stato-di-figlio",
+     "tipo": "contrasta",
+     "etichetta": "rimuove lo"
+    }
+   ]
+  },
+  {
+   "id": "adozione-del-minore",
+   "collegamenti": [
+    {
+     "da": "adozione-del-minore",
+     "a": "stato-di-figlio",
+     "tipo": "crea",
+     "etichetta": "attribuisce lo"
+    }
+   ]
+  },
+  {
+   "id": "adozione-in-casi-particolari",
+   "collegamenti": [
+    {
+     "da": "adozione-in-casi-particolari",
+     "a": "adozione-del-minore",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ]
+  },
+  {
+   "id": "affidamento-familiare",
+   "collegamenti": [
+    {
+     "da": "affidamento-familiare",
+     "a": "adozione-del-minore",
+     "tipo": "contrasta",
+     "etichetta": "è temporaneo, a differenza dell'"
+    }
+   ]
+  },
+  {
+   "id": "successione-mortis-causa",
+   "collegamenti": [
+    {
+     "da": "successione-mortis-causa",
+     "a": "successione",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ]
+  },
+  {
+   "id": "erede",
+   "collegamenti": [
+    {
+     "da": "erede",
+     "a": "legato",
+     "tipo": "contrasta",
+     "etichetta": "succede a titolo universale, a differenza del"
+    }
+   ]
+  },
+  {
+   "id": "rappresentazione-successoria",
+   "collegamenti": [
+    {
+     "da": "rappresentazione-successoria",
+     "a": "delazione-ereditaria",
+     "tipo": "collegato",
+     "etichetta": "sposta la"
+    }
+   ]
+  },
+  {
+   "id": "petizione-ereditaria",
+   "collegamenti": [
+    {
+     "da": "petizione-ereditaria",
+     "a": "erede",
+     "tipo": "collegato",
+     "etichetta": "tutela l'"
+    }
+   ]
+  },
+  {
+   "id": "successione-legittima",
+   "collegamenti": [
+    {
+     "da": "successione-legittima",
+     "a": "testamento",
+     "tipo": "contrasta",
+     "etichetta": "opera se manca il"
+    }
+   ]
+  },
+  {
+   "id": "legittimari",
+   "collegamenti": [
+    {
+     "da": "legittimari",
+     "a": "testamento",
+     "tipo": "contrasta",
+     "etichetta": "limitano la libertà del"
+    }
+   ]
+  },
+  {
+   "id": "riunione-fittizia",
+   "collegamenti": [
+    {
+     "da": "riunione-fittizia",
+     "a": "quota-di-legittima",
+     "tipo": "collegato",
+     "etichetta": "serve a calcolare la"
+    }
+   ]
+  },
+  {
+   "id": "azione-di-riduzione",
+   "collegamenti": [
+    {
+     "da": "azione-di-riduzione",
+     "a": "quota-di-legittima",
+     "tipo": "collegato",
+     "etichetta": "tutela la"
+    }
+   ]
+  },
+  {
+   "id": "testamento-olografo",
+   "collegamenti": [
+    {
+     "da": "testamento-olografo",
+     "a": "testamento",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ]
+  },
+  {
+   "id": "testamento-pubblico",
+   "collegamenti": [
+    {
+     "da": "testamento-pubblico",
+     "a": "testamento",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ]
+  },
+  {
+   "id": "comunione-ereditaria",
+   "collegamenti": [
+    {
+     "da": "comunione-ereditaria",
+     "a": "comunione",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ]
+  },
+  {
+   "id": "retratto-successorio",
+   "collegamenti": [
+    {
+     "da": "retratto-successorio",
+     "a": "comunione-ereditaria",
+     "tipo": "collegato",
+     "etichetta": "protegge la"
+    }
+   ]
+  },
+  {
+   "id": "donazione",
+   "collegamenti": [
+    {
+     "da": "donazione",
+     "a": "contratto",
+     "tipo": "esempio-di",
+     "etichetta": "è un"
+    }
+   ]
+  },
+  {
+   "id": "donazione-indiretta",
+   "collegamenti": [
+    {
+     "da": "donazione-indiretta",
+     "a": "donazione",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    }
+   ]
+  },
+  {
+   "id": "donazione-modale",
+   "collegamenti": [
+    {
+     "da": "donazione-modale",
+     "a": "donazione",
+     "tipo": "esempio-di",
+     "etichetta": "è una"
+    }
+   ]
+  },
+  {
+   "id": "revocazione-donazione",
+   "collegamenti": [
+    {
+     "da": "revocazione-donazione",
+     "a": "donazione",
+     "tipo": "contrasta",
+     "etichetta": "toglie efficacia alla"
+    }
+   ]
+  },
+  {
+   "id": "trascrizione",
+   "collegamenti": [
+    {
+     "da": "trascrizione",
+     "a": "pubblicita",
+     "tipo": "esempio-di",
+     "etichetta": "è la principale forma di"
+    }
+   ]
+  },
+  {
+   "id": "efficacia-dichiarativa-trascrizione",
+   "collegamenti": [
+    {
+     "da": "efficacia-dichiarativa-trascrizione",
+     "a": "trascrizione",
+     "tipo": "parte-di",
+     "etichetta": "è l'effetto tipico della"
+    }
+   ]
+  },
+  {
+   "id": "doppia-alienazione-immobiliare",
+   "collegamenti": [
+    {
+     "da": "doppia-alienazione-immobiliare",
+     "a": "trascrizione",
+     "tipo": "collegato",
+     "etichetta": "è risolta dalla"
+    }
+   ]
+  },
+  {
+   "id": "continuita-trascrizioni",
+   "collegamenti": [
+    {
+     "da": "continuita-trascrizioni",
+     "a": "trascrizione",
+     "tipo": "parte-di",
+     "etichetta": "è un principio della"
+    }
+   ]
+  },
+  {
+   "id": "trascrizione-domande-giudiziali",
+   "collegamenti": [
+    {
+     "da": "trascrizione-domande-giudiziali",
+     "a": "trascrizione",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ]
+  },
+  {
+   "id": "iscrizione-ipotecaria",
+   "collegamenti": [
+    {
+     "da": "iscrizione-ipotecaria",
+     "a": "trascrizione",
+     "tipo": "contrasta",
+     "etichetta": "è costitutiva, a differenza della"
+    }
+   ]
+  }
+ ]
+}

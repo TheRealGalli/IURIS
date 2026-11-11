@@ -17,10 +17,13 @@
     {
       "id": "p050-b002",
       "pagina": 50,
-      "markdown": "La Costituzione si limita a stabilire che le due Camere (dei Deputati e del Senato) sono elette a suffragio universale e diretto e che le elezioni per quella del Senato si svolgono su base regionale. La fisionomia dei sistemi di elezione è quindi lasciata alla legge ordinaria (al Parlamento). Sino al 1993 le due Camere del Parlamento erano elette con un [[sistema-proporzionale|sistema proporzionale]]. Recentemente tale sistema è stato messo sotto accusa perché ritenuto causa fondamentale delle disfunzioni del sistema italiano, in quanto alimentava la frammentazione e ostacolava la governabilità. Grazie ad alcuni referendum (importante quello del '93, che fece registrare il più alto numero di sì), con una legge del '93 s'introdusse un sistema maggioritario con correzione proporzionale. A. [[sistema-elettorale|Sistema elettorale]] per la Camera dei Deputati: con la legge del '93 s'introdusse un sistema maggioritario con correzione proporzionale. I 630 seggi sono divisi in 2 quote:",
+      "markdown": "La Costituzione si limita a stabilire che le due Camere (dei Deputati e del Senato) sono elette a suffragio universale e diretto e che le elezioni per quella del Senato si svolgono su base regionale. La fisionomia dei sistemi di elezione è quindi lasciata alla [[legge-ordinaria|legge ordinaria]] (al Parlamento). Sino al 1993 le due Camere del Parlamento erano elette con un [[sistema-proporzionale|sistema proporzionale]]. Recentemente tale sistema è stato messo sotto accusa perché ritenuto causa fondamentale delle disfunzioni del sistema italiano, in quanto alimentava la frammentazione e ostacolava la governabilità. Grazie ad alcuni referendum (importante quello del '93, che fece registrare il più alto numero di sì), con una legge del '93 s'introdusse un [[sistema-maggioritario|sistema maggioritario]] con correzione proporzionale. A. [[sistema-elettorale|Sistema elettorale]] per la [[camera-dei-deputati|Camera dei Deputati]]: con la legge del '93 s'introdusse un sistema maggioritario con correzione proporzionale. I 630 seggi sono divisi in 2 quote:",
       "concetti": [
+        "legge-ordinaria",
         "sistema-proporzionale",
-        "sistema-elettorale"
+        "sistema-maggioritario",
+        "sistema-elettorale",
+        "camera-dei-deputati"
       ]
     },
     {
@@ -38,8 +41,10 @@
     {
       "id": "p050-b005",
       "pagina": 50,
-      "markdown": "- **Elezione del 75% maggioritario:** per eleggere i 475 deputati, il territorio di ogni circoscrizione è diviso in collegi uninominali tanti quanti sono i deputati da eleggere con sistema maggioritario. Ogni collegio elegge un solo deputato. Chiunque si può candidare a 2 condizioni:",
-      "concetti": []
+      "markdown": "- **Elezione del 75% maggioritario:** per eleggere i 475 deputati, il territorio di ogni circoscrizione è diviso in collegi uninominali tanti quanti sono i deputati da eleggere con [[sistema-maggioritario|sistema maggioritario]]. Ogni collegio elegge un solo deputato. Chiunque si può candidare a 2 condizioni:",
+      "concetti": [
+        "sistema-maggioritario"
+      ]
     },
     {
       "id": "p050-b006",
@@ -80,9 +85,10 @@
     {
       "id": "p051-b005",
       "pagina": 51,
-      "markdown": "B. Il sistema elettorale per il Senato: introdotto con il referendum del 1993, è molto simile a quello della camera, infatti anche qui i 315 seggi del Senato sono assegnati con il 75% al metodo maggioritario e il 25% a quello proporzionale. La principale differenza è che l'elettore ha a 6È un meccanismo inventato per ridurre l'effetto maggioritario di un sistema elettorale misto; la lista che ha vinto il seggio con il sistema maggioritario non concorre con tutti i suoi voti alla divisione proporzionale, perché leone; i voti utilizzati per il seggio maggioritario vengono controriforma del \"scorporati\". Cosi funzionava al senato, dopo la riforma del 1993 e sino alla Alla Camera era diverso, perché li l'elettore aveva due schede, una per il maggioritario e una per il proporzionale (è quindi possibile il c.d. splitting, ossia votare per il candidato di un partito nel maggioritario e per la lista concorrente nel proporzionale). Nell'elezione della Camera non si scorporavano i voti del vincitore, ma immediatamente successivo: questo per \"proporzionale\" appartenente alla stessa lista del vincitore \"maggioritario\" abbia interesse a fargli concorrenza nella campagna elettorale! Infatti, tanti più voti prenderà il vincitore, tanto meno rilevante sarà lo scorporo.",
+      "markdown": "B. Il [[sistema-elettorale|sistema elettorale]] per il Senato: introdotto con il referendum del 1993, è molto simile a quello della camera, infatti anche qui i 315 seggi del Senato sono assegnati con il 75% al metodo maggioritario e il 25% a quello proporzionale. La principale differenza è che l'elettore ha a 6È un meccanismo inventato per ridurre l'effetto maggioritario di un sistema elettorale misto; la lista che ha vinto il seggio con il [[sistema-maggioritario|sistema maggioritario]] non concorre con tutti i suoi voti alla divisione proporzionale, perché leone; i voti utilizzati per il seggio maggioritario vengono controriforma del \"scorporati\". Cosi funzionava al senato, dopo la riforma del 1993 e sino alla Alla Camera era diverso, perché li l'elettore aveva due schede, una per il maggioritario e una per il proporzionale (è quindi possibile il c.d. splitting, ossia votare per il candidato di un partito nel maggioritario e per la lista concorrente nel proporzionale). Nell'elezione della Camera non si scorporavano i voti del vincitore, ma immediatamente successivo: questo per \"proporzionale\" appartenente alla stessa lista del vincitore \"maggioritario\" abbia interesse a fargli concorrenza nella campagna elettorale! Infatti, tanti più voti prenderà il vincitore, tanto meno rilevante sarà lo scorporo.",
       "concetti": [
-        "sistema-elettorale"
+        "sistema-elettorale",
+        "sistema-maggioritario"
       ]
     },
     {
@@ -154,9 +160,11 @@
     {
       "id": "p053-b002",
       "pagina": 53,
-      "markdown": "La qualità di parlamentare si acquista all'atto della proclamazione degli eletti che costituisce l'atto finale del procedimento elettorale. Tale acquisizione è però ancora provvisoria in quanto subordinata alla c.d. [[verifica-dei-poteri|verifica dei poteri]] (art. 66 Cost.) ossia il controllo effettuato dalla stessa camera di appartenenza sulla legittimità delle operazioni elettorali e l'inesistenza di fattori di ineleggibilità e incompatibilità.",
+      "markdown": "La qualità di parlamentare si acquista all'atto della proclamazione degli eletti che costituisce l'atto finale del procedimento elettorale. Tale acquisizione è però ancora provvisoria in quanto subordinata alla c.d. [[verifica-dei-poteri|verifica dei poteri]] (art. 66 Cost.) ossia il controllo effettuato dalla stessa camera di appartenenza sulla legittimità delle operazioni elettorali e l'inesistenza di fattori di [[ineleggibilita|ineleggibilità]] e [[incompatibilita|incompatibilità]].",
       "concetti": [
-        "verifica-dei-poteri"
+        "verifica-dei-poteri",
+        "ineleggibilita",
+        "incompatibilita"
       ]
     }
   ]

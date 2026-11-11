@@ -27,16 +27,18 @@
     {
       "id": "p010-b004",
       "pagina": 10,
-      "markdown": "La [[cittadinanza|cittadinanza]] e uno status cui la Costituzione riconnette una serie di diritti e di doveri. Essa è condizione per l'esercizio dei diritti politici, ma è anche fondamento di alcuni doveri costituzionali (dovere di difendere la patria, concorrere alle spese pubbliche, fedeltà alla Repubblica e osservanza della Costituzione e delle leggi).",
+      "markdown": "La [[cittadinanza|cittadinanza]] e uno status cui la Costituzione riconnette una serie di diritti e di doveri. Essa è condizione per l'esercizio dei diritti politici, ma è anche fondamento di alcuni [[doveri-costituzionali|doveri costituzionali]] (dovere di difendere la patria, concorrere alle spese pubbliche, fedeltà alla Repubblica e osservanza della Costituzione e delle leggi).",
       "concetti": [
-        "cittadinanza"
+        "cittadinanza",
+        "doveri-costituzionali"
       ]
     },
     {
       "id": "p010-b005",
       "pagina": 10,
-      "markdown": "La Costituzione italiana stabilisce che nessuno può essere privato della cittadinanza per motivi politici (art. 22, che vieta altresì di privare una persona, sempre per motivi politici, della capacità giuridica e del nome). Ma i modi in cui la cittadinanza può essere acquistata, perduta e riacquistata sono disciplinati dalla legge (attualmente la legge 91/1992).",
+      "markdown": "La [[costituzione-italiana|Costituzione italiana]] stabilisce che nessuno può essere privato della cittadinanza per motivi politici (art. 22, che vieta altresì di privare una persona, sempre per motivi politici, della capacità giuridica e del nome). Ma i modi in cui la cittadinanza può essere acquistata, perduta e riacquistata sono disciplinati dalla legge (attualmente la legge 91/1992).",
       "concetti": [
+        "costituzione-italiana",
         "cittadinanza"
       ]
     },
@@ -165,7 +167,7 @@
     {
       "id": "p011-b008",
       "pagina": 11,
-      "markdown": "Il Trattato sull'Unione Europea del 1992 (noto come Trattato di Maastricht) ha introdotto l'istituto della cittadinanza dell'Unione. Presupposto della cittadinanza dell'Unione è la cittadinanza di uno Stato membro. La cittadinanza dell'Unione \"completa la cittadinanza nazionale e non sostituisce\". Infatti il cittadino dell'Unione, oltre a poter agire in giudizio davanti agli organi di giustizia dell'Unione, può agire nei confronti dello Stato di cui possiede la cittadinanza per far valere i diritti che gli spettano in forza della cittadinanza comunitaria.",
+      "markdown": "Il Trattato sull'[[unione-europea|Unione Europea]] del 1992 (noto come Trattato di Maastricht) ha introdotto l'istituto della cittadinanza dell'Unione. Presupposto della cittadinanza dell'Unione è la cittadinanza di uno Stato membro. La cittadinanza dell'Unione \"completa la cittadinanza nazionale e non sostituisce\". Infatti il cittadino dell'Unione, oltre a poter agire in giudizio davanti agli organi di giustizia dell'Unione, può agire nei confronti dello Stato di cui possiede la cittadinanza per far valere i diritti che gli spettano in forza della cittadinanza comunitaria.",
       "concetti": [
         "unione-europea",
         "cittadinanza"
@@ -174,8 +176,11 @@
     {
       "id": "p011-b009",
       "pagina": 11,
-      "markdown": "Ma l'aspetto più importante della disciplina in esame è l'attribuzione al cittadino dell'Unione del diritto di elettorato attivo e passivo \"alle elezioni comunali nello Stato membro in cui risiede\", nonché alle \"elezioni del parlamento europeo nello Stato membro in cui risiede\".",
-      "concetti": []
+      "markdown": "Ma l'aspetto più importante della disciplina in esame è l'attribuzione al cittadino dell'Unione del diritto di [[elettorato-attivo|elettorato attivo]] e passivo \"alle elezioni comunali nello Stato membro in cui risiede\", nonché alle \"elezioni del [[parlamento-europeo|parlamento europeo]] nello Stato membro in cui risiede\".",
+      "concetti": [
+        "elettorato-attivo",
+        "parlamento-europeo"
+      ]
     },
     {
       "id": "p011-b010",

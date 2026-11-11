@@ -37,8 +37,10 @@
     {
       "id": "p101-b005",
       "pagina": 101,
-      "markdown": "Il termine \"fonte\" viene usato per esprimere il processo produttivo di una norma o per indicare gli svariati documenti che attestano l'esistenza di una norma e dai quali se ne ha conoscenza. Una definizione più tecnica è quella di fonte del diritto come l'atto o il fatto abilitato dall'ordinamento giuridico a produrre norme giuridiche, cioè a innovare l'ordinamento stesso.",
-      "concetti": []
+      "markdown": "Il termine \"fonte\" viene usato per esprimere il processo produttivo di una norma o per indicare gli svariati documenti che attestano l'esistenza di una norma e dai quali se ne ha conoscenza. Una definizione più tecnica è quella di fonte del diritto come l'atto o il fatto abilitato dall'[[ordinamento-giuridico|ordinamento giuridico]] a produrre norme giuridiche, cioè a innovare l'ordinamento stesso.",
+      "concetti": [
+        "ordinamento-giuridico"
+      ]
     },
     {
       "id": "p101-b006",
@@ -99,8 +101,10 @@
     {
       "id": "p101-b015",
       "pagina": 101,
-      "markdown": "Negli ordinamenti statuali moderni prevale il principio che le fonti di produzione del diritto sono tali in quanto così qualificate dall'ordinamento stesso, ossia da norme che ne determinano le caratteristiche ed eventualmente ne regolano il procedimento formativo e che fissano una gerarchia di validità fra le varie fonti previste. Le norme di un ordinamento giuridico che indicano le fonti abilitate a innovare l'ordinamento stesso si chiamano usualmente norme di riconoscimento.",
-      "concetti": []
+      "markdown": "Negli ordinamenti statuali moderni prevale il principio che le fonti di produzione del diritto sono tali in quanto così qualificate dall'ordinamento stesso, ossia da norme che ne determinano le caratteristiche ed eventualmente ne regolano il procedimento formativo e che fissano una gerarchia di validità fra le varie fonti previste. Le norme di un [[ordinamento-giuridico|ordinamento giuridico]] che indicano le fonti abilitate a innovare l'ordinamento stesso si chiamano usualmente norme di riconoscimento.",
+      "concetti": [
+        "ordinamento-giuridico"
+      ]
     },
     {
       "id": "p102-b001",
@@ -119,7 +123,7 @@
     {
       "id": "p102-b003",
       "pagina": 102,
-      "markdown": "Fonti di cognizione sono invece documenti che contengono il testo legale delle fonti di produzione o comunque ne favoriscono la conoscenza (Gazzetta ufficiale, Bollettini Ufficiali delle Regioni, Gazzetta Ufficiale della CE).",
+      "markdown": "[[fonti-di-cognizione|Fonti di cognizione]] sono invece documenti che contengono il testo legale delle fonti di produzione o comunque ne favoriscono la conoscenza (Gazzetta ufficiale, Bollettini Ufficiali delle Regioni, Gazzetta Ufficiale della CE).",
       "concetti": [
         "fonti-di-cognizione"
       ]
@@ -209,8 +213,10 @@
     {
       "id": "p103-b003",
       "pagina": 103,
-      "markdown": "La forma tipica dell'atto normativo è data da una serie di elementi quali l'intestazione all'autorità emanante (per es. DPR o Dec..Min.), il nome proprio dell'atto (il nomen juris: legge, decreto legge, legge regionale ecc.), il procedimento di formazione dell'atto, col quale s intende la sequenza di atti preordinata al risultato finale: per le fonti atto il risultato finale è l'emanazione dell'atto normativo. Dal punto di vista redazionale, l'atto è suddiviso in \"articoli\", e questi in \"commi\"; gli articoli, spesso corredati da una \"rubrica\" che ne indica l'argomento, possono essere raggruppati in \"capi\", e questi in \"titoli\" e \"parti\" (ognuno corredato di apposita \"rubrica\").",
-      "concetti": []
+      "markdown": "La forma tipica dell'atto normativo è data da una serie di elementi quali l'intestazione all'autorità emanante (per es. DPR o Dec..Min.), il nome proprio dell'atto (il nomen juris: legge, decreto legge, [[legge-regionale|legge regionale]] ecc.), il procedimento di formazione dell'atto, col quale s intende la sequenza di atti preordinata al risultato finale: per le fonti atto il risultato finale è l'emanazione dell'atto normativo. Dal punto di vista redazionale, l'atto è suddiviso in \"articoli\", e questi in \"commi\"; gli articoli, spesso corredati da una \"rubrica\" che ne indica l'argomento, possono essere raggruppati in \"capi\", e questi in \"titoli\" e \"parti\" (ognuno corredato di apposita \"rubrica\").",
+      "concetti": [
+        "legge-regionale"
+      ]
     },
     {
       "id": "p103-b004",
@@ -288,8 +294,9 @@
     {
       "id": "p104-b001",
       "pagina": 104,
-      "markdown": "Nel diritto costituzionale si accenna alle consuetudini. Perlopiù si tratterebbe di \"consuetudini facoltizzanti\": sono quelle che consentono comportamenti che le disposizioni scritte non vietano esplicitamente. Esempi di supposte consuetudini \"facoltizzanti\" sarebbero la nomina di vicepresidenti, Ministri senza portafoglio e sottosegretari nel Governo (cioè di organi non necessari). La Costituzione però, all'art.10.1 (dove stabilisce che \"l'ordinamento italiano si conforma alle norme del diritto internazionale generalmente riconosciute\") fa riferimento alle consuetudini internazionali, cioè a delle norme che non hanno origine nei trattati (fonte volontaria del diritto internazionale), ma in regole non scritte considerate obbligatorie dalla generalità degli Stati. Il giudice italiano, di fronte ad una regola di questo tipo,deve applicarla immediatamente (il che significa che le norme richiamate occupano nella gerarchia delle fonti una posizione superiore alle stesse leggi ordinarie. Questo meccanismo di rinvio automatico dell'ordinamento italiano alle norma prodotte da altri ordinamenti si chiama \"[[rinvio-mobile|rinvio mobile]]\".",
+      "markdown": "Nel diritto costituzionale si accenna alle consuetudini. Perlopiù si tratterebbe di \"consuetudini facoltizzanti\": sono quelle che consentono comportamenti che le disposizioni scritte non vietano esplicitamente. Esempi di supposte consuetudini \"facoltizzanti\" sarebbero la nomina di vicepresidenti, [[ministri-senza-portafoglio|Ministri senza portafoglio]] e sottosegretari nel Governo (cioè di organi non necessari). La Costituzione però, all'art.10.1 (dove stabilisce che \"l'ordinamento italiano si conforma alle norme del diritto internazionale generalmente riconosciute\") fa riferimento alle consuetudini internazionali, cioè a delle norme che non hanno origine nei trattati (fonte volontaria del diritto internazionale), ma in regole non scritte considerate obbligatorie dalla generalità degli Stati. Il giudice italiano, di fronte ad una regola di questo tipo,deve applicarla immediatamente (il che significa che le norme richiamate occupano nella gerarchia delle fonti una posizione superiore alle stesse leggi ordinarie. Questo meccanismo di rinvio automatico dell'ordinamento italiano alle norma prodotte da altri ordinamenti si chiama \"[[rinvio-mobile|rinvio mobile]]\".",
       "concetti": [
+        "ministri-senza-portafoglio",
         "rinvio-mobile"
       ]
     },
@@ -304,7 +311,7 @@
     {
       "id": "p104-b003",
       "pagina": 104,
-      "markdown": "Fonti-fatto per il nostro ordinamento sono anche tutte quelle fonti che producono norme richiamate dal nostro ordinamento ma non prodotte dai nostri organi. Vi sono due esempi di fonti-fatto nel nostro ordinamento: le norme prodotte dalla CE e le c.d. norme di diritto internazionale privato. Sia ben chiaro che esse non solo sono fonti \"scritte\" e \"volute\", poste in essere cioè dagli organi della CE: sono cioè per l'ordinamento comunitario, applicando ad esso le nostre categorie, delle fonti-atto. Analoghe osservazioni valgono per le norme di diritto internazionale privato.",
+      "markdown": "[[fonti-fatto|Fonti-fatto]] per il nostro ordinamento sono anche tutte quelle fonti che producono norme richiamate dal nostro ordinamento ma non prodotte dai nostri organi. Vi sono due esempi di fonti-fatto nel nostro ordinamento: le norme prodotte dalla CE e le c.d. norme di diritto internazionale privato. Sia ben chiaro che esse non solo sono fonti \"scritte\" e \"volute\", poste in essere cioè dagli organi della CE: sono cioè per l'ordinamento comunitario, applicando ad esso le nostre categorie, delle fonti-atto. Analoghe osservazioni valgono per le norme di diritto internazionale privato.",
       "concetti": [
         "fonti-fatto",
         "fonti-atto"
@@ -325,7 +332,7 @@
     {
       "id": "p104-b006",
       "pagina": 104,
-      "markdown": "Per consentire alle norme prodotte da fonti di altri ordinamenti di operare all'interno dell'ordinamento statale si opera attraverso la tecnica del rinvio. A tal proposito si distinguono: il [[rinvio-fisso|rinvio fisso]] ed il rinvio mobile.",
+      "markdown": "Per consentire alle norme prodotte da fonti di altri ordinamenti di operare all'interno dell'ordinamento statale si opera attraverso la tecnica del rinvio. A tal proposito si distinguono: il [[rinvio-fisso|rinvio fisso]] ed il [[rinvio-mobile|rinvio mobile]].",
       "concetti": [
         "rinvio-fisso",
         "rinvio-mobile"
@@ -334,7 +341,7 @@
     {
       "id": "p104-b007",
       "pagina": 104,
-      "markdown": "- Il rinvio fisso (detto anche materiale o recettizio) pone ai soggetti dell'applicazione solo il compito di interpretare il testo normativo richiamato come se fosse un atto interno.",
+      "markdown": "- Il [[rinvio-fisso|rinvio fisso]] (detto anche materiale o recettizio) pone ai soggetti dell'applicazione solo il compito di interpretare il testo normativo richiamato come se fosse un atto interno.",
       "concetti": [
         "rinvio-fisso"
       ]

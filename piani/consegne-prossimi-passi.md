@@ -208,3 +208,46 @@ romano LMG A-L va solo indicato il docente giusto in `studio/src/data/corsi.ts` 
   per una su una banca dati. Chi le amplia verifichi numero e anno.
 - Gli approfondimenti di Filosofia SSG in `oltre-10.json` sono ripresi da quelli di Filosofia LMG per le 61 voci
   comuni, tolte le frasi su Cotta e Moro, che nel corso SSG non ci sono.
+
+## Giro dell'11 novembre 2026, sera (Claude)
+
+Fatto: 72 collegamenti nuovi tra voci di Costituzionale e 151 di privato (`oltre-30.json`, solo `collegamenti`);
+glossario curato per gli Originali di Costituzionale (`studio/letture-src/glossario-diritto-costituzionale.json`,
+248 voci: 1.342 collegamenti nel testo, prima quasi nessuno); 40 approfondimenti di Costituzionale (`oltre-31.json`).
+Non verificato da me: l'esito, nel 2026, delle riforme costituzionali su separazione delle carriere e premierato.
+Per questo gli approfondimenti non ne parlano: chi li amplia controlli lo stato e, se sono in vigore, aggiorni le
+voci `csm`, `magistratura`, `presidente-del-consiglio` e le lezioni che ne trattano.
+
+## Piano successivo (dall'11 novembre 2026): chiudere la distanza da Diritto romano
+
+Misure dopo l'ultimo giro (da `studio/public/content/<slug>/corso.json`):
+
+| Materia | Voci | Collegamenti per voce | Voci con approfondimento | Domande per lezione | Eventi |
+|---|---|---|---|---|---|
+| Diritto romano (modello) | 553 | 2,5 | 57% | 15,1 | 166 |
+| Filosofia LMG | 483 | 1,9 | 32% | 15,5 | 42 |
+| Diritto costituzionale | 278 | 1,0 | 27% | 15,2 | 49 |
+| Filosofia SSG | 293 | 1,4 | 27% | 10,3 | 47 |
+| Diritto privato | 503 | 0,8 | 18% | 14,6 | 28 |
+
+Passi, in ordine. Uno per volta, con controlli e push a fine passo. File `oltre-NN.json`: usa numeri da 40 in su.
+
+1. **Filosofia SSG: domande.** Portare ogni lezione d'esame ad almeno 14 domande (oggi 10; circa 300 da scrivere).
+   Le lezioni dell'unità 17 sono fuori esame: bastano le soglie minime. Aggiungere l'`abbina` dell'unità 16.
+2. **Diritto privato: approfondimenti.** Da 94 a 250 voci (metà delle voci). Priorità alle voci che sono titolo
+   di una lezione o compaiono in più unità. Ogni voce: 80–250 parole, `daSapere`, `fonti` verificate.
+3. **Diritto costituzionale: approfondimenti e schede inverse.** Approfondimenti da 76 a 140; schede inverse da 82
+   a 180. Controllare prima lo stato delle riforme costituzionali del 2025–2026 (vedi nota sopra).
+4. **Collegamenti.** Privato da 419 a 800, Costituzionale da 286 a 500, con `tipo` ed `etichetta` che si leggano
+   come una frase. Si aggiungono con voci di soli `collegamenti` in un file `oltre-NN.json`. Attenzione: un
+   collegamento tra due voci già collegate sostituisce quello esistente.
+5. **Filosofia SSG: seconda tornata di voci e approfondimenti.** Voci da 293 a 380 (concetti delle lezioni
+   10–16 e del riassunto di Incampo); approfondimenti da 81 a 150.
+6. **Originali di Costituzionale e di Filosofia SSG: revisione a mano.** Non hanno correzioni in
+   `letture-src/revisioni.json` (Romano ne ha 519). Usare `scripts/rileva-acapo-letture.py` e
+   `scripts/genera-acapo-letture.py` per gli a capo persi, poi rileggere a campione.
+7. **Cronologia di privato.** Da 28 a circa 60 eventi con data certa (leggi di riforma e sentenze guida già citate
+   negli approfondimenti).
+8. **Filosofia LMG.** Schede inverse da 99 a 200; approfondimenti da 156 a 240.
+
+Serve Carlo: appunti di Costituzionale SSG, materiali di LMG M-Z, nome del docente di Diritto romano per LMG A-L.

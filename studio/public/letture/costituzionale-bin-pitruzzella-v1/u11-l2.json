@@ -11,8 +11,10 @@
     {
       "id": "p098-b001",
       "pagina": 98,
-      "markdown": "3. Il principio della indipendenza del pubblico Ministero (art. 107 e 108 Cost.)",
-      "concetti": []
+      "markdown": "3. Il principio della indipendenza del [[pubblico-ministero|pubblico Ministero]] (art. 107 e 108 Cost.)",
+      "concetti": [
+        "pubblico-ministero"
+      ]
     },
     {
       "id": "p098-b002",
@@ -31,14 +33,18 @@
     {
       "id": "p098-b004",
       "pagina": 98,
-      "markdown": "- membri di diritto che sono il Presidente della Repubblica a cui spetta presiedere il C.S.M., il Presidente e il procuratore generale della Corte di cassazione;",
-      "concetti": []
+      "markdown": "- membri di diritto che sono il [[presidente-della-repubblica|Presidente della Repubblica]] a cui spetta presiedere il C.S.M., il Presidente e il procuratore generale della [[corte-di-cassazione|Corte di cassazione]];",
+      "concetti": [
+        "presidente-della-repubblica",
+        "corte-di-cassazione"
+      ]
     },
     {
       "id": "p098-b005",
       "pagina": 98,
-      "markdown": "- ed elettivi che sono 27 membri (a mente della riforma del 2002 con la legge n°44), 1/3 dei quali (8) eletti dal Parlamento in seduta comune tra professori ordinari di Università in materie giuridiche e avvocati che esercitano da almeno 15 anni (c.d. membri laici) e 2/3 (16) scelti tra i magistrati ordinari penali e civili (c.d. membri togati). Attribuzioni del [[csm|Consiglio superiore della Magistratura]]:",
+      "markdown": "- ed elettivi che sono 27 membri (a mente della riforma del 2002 con la legge n°44), 1/3 dei quali (8) eletti dal [[parlamento-in-seduta-comune|Parlamento in seduta comune]] tra professori ordinari di Università in materie giuridiche e avvocati che esercitano da almeno 15 anni (c.d. membri laici) e 2/3 (16) scelti tra i magistrati ordinari penali e civili (c.d. membri togati). Attribuzioni del [[csm|Consiglio superiore della Magistratura]]:",
       "concetti": [
+        "parlamento-in-seduta-comune",
         "csm"
       ]
     },
@@ -130,14 +136,19 @@
     {
       "id": "p099-b003",
       "pagina": 99,
-      "markdown": "Gli atti del CSM assumono le vesti di decreti del Presidente della Repubblica e sono sottoposti al sindacato del giudice amministrativo: il giudice competente è il TAR del Lazio e in appello il Consiglio di Stato. Fanno eccezione i provvedimenti disciplinari che, invece, sono impugnabili davanti alle sezioni unite della Corte di Cassazione.",
-      "concetti": []
+      "markdown": "Gli atti del CSM assumono le vesti di decreti del [[presidente-della-repubblica|Presidente della Repubblica]] e sono sottoposti al sindacato del giudice amministrativo: il giudice competente è il TAR del Lazio e in appello il [[consiglio-di-stato|Consiglio di Stato]]. Fanno eccezione i provvedimenti disciplinari che, invece, sono impugnabili davanti alle sezioni unite della [[corte-di-cassazione|Corte di Cassazione]].",
+      "concetti": [
+        "presidente-della-repubblica",
+        "consiglio-di-stato",
+        "corte-di-cassazione"
+      ]
     },
     {
       "id": "p099-b004",
       "pagina": 99,
-      "markdown": "La Magistratura costituisce un ordine autonomo e indipendente da ogni altro potere (art. 104.1). L'esigenza di assicurare indipendenza alla Magistratura può tradursi in limitazioni per i magistrati; essi costituiscono insieme ai \"militari di carriera in servizio attivo, i funzionari e gli agenti di polizia, i rappresentanti diplomatici e consolari all'estero\" le uniche categorie per le quali la legge può stabilire limitazione al diritto di iscriversi ai partiti politici (art. 98). L'indipendenza è inoltre garantita assicurando ai magistrati uno sotto giuridico privilegiato: sono inamovibili dalle funzioni che svolgono e dal luogo ove le svolgono (art. 107.1) possono però essere dispensati o sospesi dal servizio, o destinati ad altre funzioni con il loro consenso o per decisione del Consiglio superiore della Magistratura.",
+      "markdown": "La Magistratura costituisce un ordine autonomo e indipendente da ogni altro potere (art. 104.1). L'esigenza di assicurare indipendenza alla Magistratura può tradursi in limitazioni per i magistrati; essi costituiscono insieme ai \"militari di carriera in servizio attivo, i funzionari e gli agenti di polizia, i rappresentanti diplomatici e consolari all'estero\" le uniche categorie per le quali la legge può stabilire limitazione al diritto di iscriversi ai [[partiti-politici|partiti politici]] (art. 98). L'indipendenza è inoltre garantita assicurando ai magistrati uno sotto giuridico privilegiato: sono inamovibili dalle funzioni che svolgono e dal luogo ove le svolgono (art. 107.1) possono però essere dispensati o sospesi dal servizio, o destinati ad altre funzioni con il loro consenso o per decisione del [[csm|Consiglio superiore della Magistratura]].",
       "concetti": [
+        "partiti-politici",
         "csm"
       ],
       "testoFonte": "La Magistratura costituisce un ordine autonomo e indipendente da ogni altro potere (art. 104.1). L'esigenza di assicurare indipendenza alla Magistratura può tradursi in limitazioni per i magistrati; essi costituiscono insieme ai \"militari di carriera in servizio attivo, i funzionari e gli agenti di polizia, i rappresentanti diplomatici e consolari all'estero\" le uniche categorie per le quali la legge può stabilire limitazione al diritto di iscriversi ai partiti politici (art. 98). L'indipendenza è inoltre garantita assicurando ai magistrati uno sotto giuridico privilegiato: sono inamovibili dalle funzioni che svolgono e dal luogo ove le svolgono (art. 107.1) possono però essere dispensati o sospesi dal servizio , o destinati ad altre funzioni con il loro consenso o per decisione del Consiglio superiore della Magistratura."
@@ -145,8 +156,10 @@
     {
       "id": "p099-b005",
       "pagina": 99,
-      "markdown": "Solo le decisioni della Sezione disciplinare del Consiglio superiore hanno carattere giurisdizionale e possono essere impugnate solo mediante ricorso alla Corte di cassazione. La responsabilità disciplinare opera in caso di violazione dei doveri connessi al corretto esercizio della funzione giurisdizionale, e precisamente i giudici ordinari rispondono di ogni comportamento, assunto dentro e fuori, in violazione dei propri doveri, in modo da compromettere il prestigio dell'ordine giudiziario, ossia la \"credibilità\" dello stesso agli occhi dei cittadini.",
-      "concetti": []
+      "markdown": "Solo le decisioni della Sezione disciplinare del Consiglio superiore hanno carattere giurisdizionale e possono essere impugnate solo mediante ricorso alla [[corte-di-cassazione|Corte di cassazione]]. La responsabilità disciplinare opera in caso di violazione dei doveri connessi al corretto esercizio della funzione giurisdizionale, e precisamente i giudici ordinari rispondono di ogni comportamento, assunto dentro e fuori, in violazione dei propri doveri, in modo da compromettere il prestigio dell'ordine giudiziario, ossia la \"credibilità\" dello stesso agli occhi dei cittadini.",
+      "concetti": [
+        "corte-di-cassazione"
+      ]
     },
     {
       "id": "p099-b006",
@@ -157,9 +170,11 @@
     {
       "id": "p099-b007",
       "pagina": 99,
-      "markdown": "In definitiva il Consiglio Superiore della Magistratura è organo costituzionale di autoGoverno del potere giudiziario non subordinato ad altro organo dello stato. Esso rappresenta il vertice organizzativo come la corte di cassazione il vertice funzionale.",
+      "markdown": "In definitiva il [[csm|Consiglio Superiore della Magistratura]] è [[organo-costituzionale|organo costituzionale]] di autoGoverno del potere giudiziario non subordinato ad altro organo dello stato. Esso rappresenta il vertice organizzativo come la [[corte-di-cassazione|corte di cassazione]] il vertice funzionale.",
       "concetti": [
-        "csm"
+        "csm",
+        "organo-costituzionale",
+        "corte-di-cassazione"
       ]
     },
     {

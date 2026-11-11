@@ -49,15 +49,21 @@
     {
       "id": "p147-b006",
       "pagina": 147,
-      "markdown": "Il carattere rigido di una Costituzione richiede che le sue norme vengano garantite contro possibili violazioni operate dal legislatore ordinario. In regime di Costituzione rigida, infatti, il legislatore incontra precisi limiti (formali e materiali) nella emanazione delle leggi che non possono essere in contrasto (sia riguardo al loro procedimento di formazione, sia riguardo al loro contenuto) con la Costituzione. Al contrario le costituzioni flessibili possono essere modificate (meno che nei loro principi fondamentali) da una legge ordinaria. Ne consegue/deriva che le costituzioni rigide prevedono, di regola, alcuni strumenti mediante i quali è possibile controllare la legittimità costituzionale delle leggi, al fine di togliere ogni efficacia a quelle che risultino essere in contrasto con una disposizione costituzionale.",
-      "concetti": []
+      "markdown": "Il carattere rigido di una Costituzione richiede che le sue norme vengano garantite contro possibili violazioni operate dal legislatore ordinario. In regime di [[costituzione-rigida|Costituzione rigida]], infatti, il legislatore incontra precisi limiti (formali e materiali) nella emanazione delle leggi che non possono essere in contrasto (sia riguardo al loro procedimento di formazione, sia riguardo al loro contenuto) con la Costituzione. Al contrario le costituzioni flessibili possono essere modificate (meno che nei loro principi fondamentali) da una [[legge-ordinaria|legge ordinaria]]. Ne consegue/deriva che le costituzioni rigide prevedono, di regola, alcuni strumenti mediante i quali è possibile controllare la legittimità costituzionale delle leggi, al fine di togliere ogni efficacia a quelle che risultino essere in contrasto con una disposizione costituzionale.",
+      "concetti": [
+        "costituzione-rigida",
+        "legge-ordinaria"
+      ]
     },
     {
       "id": "p147-b007",
       "pagina": 147,
-      "markdown": "Ecco che, per effettuare il controllo di legittimità costituzionale delle leggi, la nostra Costituzione ha previsto un organo ad hoc, che presenta dei caratteri propri (quanto alla sua composizione e alle sue funzioni) che ne fanno un tipo a sé: appunto la [[corte-costituzionale|Corte Costituzionale]] (artt. 134 e ss.), alla quale è stato affidato, oltre che il giudizio sulle controversie relative alla legittimità costituzionale delle leggi e degli atti aventi forza di legge dello Stato e delle Regioni, anche il giudizio sui conflitti di attribuzione fra i poteri dello stato, fra lo stato e le Regioni e tra le Regioni, il giudizio sulle accuse promosse contro il Presidente della Repubblica ed, infine, il giudizio sull'ammissibilità del referendum abrogativo.",
+      "markdown": "Ecco che, per effettuare il controllo di legittimità costituzionale delle leggi, la nostra Costituzione ha previsto un organo ad hoc, che presenta dei caratteri propri (quanto alla sua composizione e alle sue funzioni) che ne fanno un tipo a sé: appunto la [[corte-costituzionale|Corte Costituzionale]] (artt. 134 e ss.), alla quale è stato affidato, oltre che il giudizio sulle controversie relative alla legittimità costituzionale delle leggi e degli atti aventi forza di legge dello Stato e delle Regioni, anche il giudizio sui conflitti di attribuzione fra i poteri dello stato, fra lo stato e le Regioni e tra le Regioni, il giudizio sulle accuse promosse contro il [[presidente-della-repubblica|Presidente della Repubblica]] ed, infine, il giudizio sull'[[ammissibilita-referendum|ammissibilità del referendum]] abrogativo.",
       "concetti": [
-        "corte-costituzionale"
+        "corte-costituzionale",
+        "presidente-della-repubblica",
+        "ammissibilita-referendum",
+        "referendum-abrogativo"
       ]
     },
     {
@@ -71,13 +77,15 @@
     {
       "id": "p147-b009",
       "pagina": 147,
-      "markdown": "E' un organo costituzionale di giustizia e di garanzia richiesto dalla stessa rigidità della Costituzione per garantire il rispetto delle norme costituzionali.",
-      "concetti": []
+      "markdown": "E' un [[organo-costituzionale|organo costituzionale]] di giustizia e di garanzia richiesto dalla stessa rigidità della Costituzione per garantire il rispetto delle norme costituzionali.",
+      "concetti": [
+        "organo-costituzionale"
+      ]
     },
     {
       "id": "p147-b010",
       "pagina": 147,
-      "markdown": "L'esistenza di un unico organo di giustizia costituzionale - sistema di giurisdizione costituzionale accentrata - è coerente con la necessità di ottenere presto una decisione definitiva più che il c.d. sistema di giurisdizione costituzionale diffusa (come per es. negli Stati Uniti dove tale competenza è",
+      "markdown": "L'esistenza di un unico organo di [[giustizia-costituzionale|giustizia costituzionale]] - sistema di giurisdizione costituzionale accentrata - è coerente con la necessità di ottenere presto una decisione definitiva più che il c.d. sistema di giurisdizione costituzionale diffusa (come per es. negli Stati Uniti dove tale competenza è",
       "concetti": [
         "giustizia-costituzionale"
       ]
@@ -91,7 +99,7 @@
     {
       "id": "p148-b002",
       "pagina": 148,
-      "markdown": "E' evidente la importanza della composizione della corte costituzionale vista la delicatezza giuridica e politica delle competenze e la necessità della sua indipendenza.",
+      "markdown": "E' evidente la importanza della composizione della [[corte-costituzionale|corte costituzionale]] vista la delicatezza giuridica e politica delle competenze e la necessità della sua indipendenza.",
       "concetti": [
         "corte-costituzionale"
       ]
@@ -99,8 +107,12 @@
     {
       "id": "p148-b003",
       "pagina": 148,
-      "markdown": "La C.C. è composta in modo diverso a seconda che giudichi sulle controversie di legittimità costituzionale delle leggi e degli atti aventi forza di legge, sui conflitti di attribuzione e sull'ammissibilità del referendum abrogativo ovvero sulle accuse mosse al Presidente della Repubblica. Nei primi tre casi la Corte è composta da 15 giudici.",
-      "concetti": []
+      "markdown": "La C.C. è composta in modo diverso a seconda che giudichi sulle controversie di legittimità costituzionale delle leggi e degli atti aventi forza di legge, sui conflitti di attribuzione e sull'[[ammissibilita-referendum|ammissibilità del referendum]] abrogativo ovvero sulle accuse mosse al [[presidente-della-repubblica|Presidente della Repubblica]]. Nei primi tre casi la Corte è composta da 15 giudici.",
+      "concetti": [
+        "ammissibilita-referendum",
+        "presidente-della-repubblica",
+        "referendum-abrogativo"
+      ]
     },
     {
       "id": "p148-b004",
@@ -111,8 +123,10 @@
     {
       "id": "p148-b005",
       "pagina": 148,
-      "markdown": "- per 1/3 dal Presidente della Repubblica. La scelta dei giudici di nomina presidenziale è completamente rimessa alla discrezionalità del Capo dello Stato. La Costituzione attribuisce al Capo dello Stato un potere di notevole rilievo affinché egli lo eserciti con la imparzialità che è propria del suo ruolo.",
-      "concetti": [],
+      "markdown": "- per 1/3 dal [[presidente-della-repubblica|Presidente della Repubblica]]. La scelta dei giudici di nomina presidenziale è completamente rimessa alla discrezionalità del Capo dello Stato. La Costituzione attribuisce al Capo dello Stato un potere di notevole rilievo affinché egli lo eserciti con la imparzialità che è propria del suo ruolo.",
+      "concetti": [
+        "presidente-della-repubblica"
+      ],
       "testoFonte": "- per 1/3 dal Presidente della Repubblica. La scelta dei giudici di nomina presidenziale è completamente rimessa alla discrezionalità del Capo dello Stato . La Costituzione attribuisce al Capo dello Stato un potere di notevole rilievo affinché egli lo eserciti con la imparzialità che è propria del suo ruolo."
     },
     {
@@ -124,14 +138,21 @@
     {
       "id": "p148-b007",
       "pagina": 148,
-      "markdown": "- per 1/3 dal Parlamento in seduta comune. Il Parlamento elegge 5 giudici a scrutinio segreto con la maggioranza qualificata dei 2/3 dei componenti nei primi 3 scrutini e dei 3/5 nei successivi. - per 1/3 dalle supreme magistrature ordinaria e amministrativa (ossia 3 dalla corte dicassazione, 1 dal Consiglio di stato, 1 dalla corte dei conti); (elezione con maggioranza assoluta nella I votazione e relativa poi). La Magistratura ordinaria elegge 3 giudici all'interno di un collegio composto dai magistrati della Corte di cassazione; i consiglieri di Stato ne eleggono 1, mentre il quinto viene eletto dai magistrati della Corte dei Conti.",
-      "concetti": []
+      "markdown": "- per 1/3 dal [[parlamento-in-seduta-comune|Parlamento in seduta comune]]. Il Parlamento elegge 5 giudici a scrutinio segreto con la maggioranza qualificata dei 2/3 dei componenti nei primi 3 scrutini e dei 3/5 nei successivi. - per 1/3 dalle supreme magistrature ordinaria e amministrativa (ossia 3 dalla corte dicassazione, 1 dal [[consiglio-di-stato|Consiglio di stato]], 1 dalla [[corte-dei-conti|corte dei conti]]); (elezione con maggioranza assoluta nella I votazione e relativa poi). La Magistratura ordinaria elegge 3 giudici all'interno di un collegio composto dai magistrati della [[corte-di-cassazione|Corte di cassazione]]; i consiglieri di Stato ne eleggono 1, mentre il quinto viene eletto dai magistrati della Corte dei Conti.",
+      "concetti": [
+        "parlamento-in-seduta-comune",
+        "consiglio-di-stato",
+        "corte-dei-conti",
+        "corte-di-cassazione"
+      ]
     },
     {
       "id": "p148-b008",
       "pagina": 148,
-      "markdown": "Nell' attuale composizione della Corte non prevale alcuno dei poteri, Presidente della Repubblica, Parlamento, Magistratura, ma tutti partecipano in una situazione di equilibrio. Qualunque sia l'organo che li nomini, i giudici della corte sono scelti tra i magistrati, anche a riposo, delle giurisdizioni superiori ordinaria e amministrativa, tra i professori ordinari di università in materie giuridiche e tra gli avvocati dopo venti anni di esercizio professionale. Sono nominati per 9 anni decorrenti dal giorno del giuramento senza potere essere nuovamente nominati.",
-      "concetti": []
+      "markdown": "Nell' attuale composizione della Corte non prevale alcuno dei poteri, [[presidente-della-repubblica|Presidente della Repubblica]], Parlamento, Magistratura, ma tutti partecipano in una situazione di equilibrio. Qualunque sia l'organo che li nomini, i giudici della corte sono scelti tra i magistrati, anche a riposo, delle giurisdizioni superiori ordinaria e amministrativa, tra i professori ordinari di università in materie giuridiche e tra gli avvocati dopo venti anni di esercizio professionale. Sono nominati per 9 anni decorrenti dal giorno del giuramento senza potere essere nuovamente nominati.",
+      "concetti": [
+        "presidente-della-repubblica"
+      ]
     },
     {
       "id": "p148-b009",
@@ -154,8 +175,11 @@
     {
       "id": "p149-b002",
       "pagina": 149,
-      "markdown": "La corte ha invece una composizione allargata allorché debba giudicare sulle accuse nei confronti del Presidente della Repubblica. Nei giudizi sulle accuse contro il Presidente della Repubblica, la composizione ordinaria della Corte viene integrata con l'aggiunta di altri 16 membri (giudici aggregati). Si aggiungono, quindi, 16 giudici aggregati estratti/tratti a sorte da un elenco di cittadini aventi i requisiti per la eleggibilità a Senatore, compilato dal parlamento in seduta comune ogni 9 anni, mediante elezione con le stesse modalità stabilite per l'elezione dei 5 giudici ordinari (art. 135). Ai sensi dell'art. 134 Cost. la Corte è competente a giudicare:",
-      "concetti": []
+      "markdown": "La corte ha invece una composizione allargata allorché debba giudicare sulle accuse nei confronti del [[presidente-della-repubblica|Presidente della Repubblica]]. Nei giudizi sulle accuse contro il Presidente della Repubblica, la composizione ordinaria della Corte viene integrata con l'aggiunta di altri 16 membri (giudici aggregati). Si aggiungono, quindi, 16 giudici aggregati estratti/tratti a sorte da un elenco di cittadini aventi i requisiti per la eleggibilità a Senatore, compilato dal [[parlamento-in-seduta-comune|parlamento in seduta comune]] ogni 9 anni, mediante elezione con le stesse modalità stabilite per l'elezione dei 5 giudici ordinari (art. 135). Ai sensi dell'art. 134 Cost. la Corte è competente a giudicare:",
+      "concetti": [
+        "presidente-della-repubblica",
+        "parlamento-in-seduta-comune"
+      ]
     },
     {
       "id": "p149-b003",
@@ -220,8 +244,10 @@
     {
       "id": "p149-b013",
       "pagina": 149,
-      "markdown": "può svolgersi attività in associazioni o partiti politici.",
-      "concetti": []
+      "markdown": "può svolgersi attività in associazioni o [[partiti-politici|partiti politici]].",
+      "concetti": [
+        "partiti-politici"
+      ]
     },
     {
       "id": "p150-b001",

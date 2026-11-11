@@ -1,0 +1,791 @@
+{
+ "voci": [
+  {
+   "id": "organo-costituzionale",
+   "collegamenti": [
+    {
+     "da": "organo-costituzionale",
+     "a": "organo",
+     "tipo": "esempio-di",
+     "etichetta": "è un tipo di"
+    }
+   ]
+  },
+  {
+   "id": "ente-pubblico",
+   "collegamenti": [
+    {
+     "da": "ente-pubblico",
+     "a": "persona-giuridica",
+     "tipo": "esempio-di",
+     "etichetta": "è una"
+    }
+   ]
+  },
+  {
+   "id": "potesta-pubblica",
+   "collegamenti": [
+    {
+     "da": "potesta-pubblica",
+     "a": "principio-di-legalita",
+     "tipo": "collegato",
+     "etichetta": "è limitata dal"
+    }
+   ]
+  },
+  {
+   "id": "unione-europea",
+   "collegamenti": [
+    {
+     "da": "unione-europea",
+     "a": "sovranita",
+     "tipo": "contrasta",
+     "etichetta": "limita la"
+    }
+   ]
+  },
+  {
+   "id": "forma-di-stato",
+   "collegamenti": [
+    {
+     "da": "forma-di-stato",
+     "a": "forma-di-governo",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    }
+   ]
+  },
+  {
+   "id": "stato-di-polizia",
+   "collegamenti": [
+    {
+     "da": "stato-di-polizia",
+     "a": "stato-assoluto",
+     "tipo": "esempio-di",
+     "etichetta": "è l'ultima fase dello"
+    }
+   ]
+  },
+  {
+   "id": "stato-liberale",
+   "collegamenti": [
+    {
+     "da": "stato-liberale",
+     "a": "stato-di-diritto",
+     "tipo": "crea",
+     "etichetta": "afferma lo"
+    }
+   ]
+  },
+  {
+   "id": "stato-socialista",
+   "collegamenti": [
+    {
+     "da": "stato-socialista",
+     "a": "stato-liberale",
+     "tipo": "contrasta",
+     "etichetta": "nega i presupposti dello"
+    }
+   ]
+  },
+  {
+   "id": "partiti-politici",
+   "collegamenti": [
+    {
+     "da": "partiti-politici",
+     "a": "rappresentanza-politica",
+     "tipo": "collegato",
+     "etichetta": "organizzano la"
+    },
+    {
+     "da": "partiti-politici",
+     "a": "indirizzo-politico",
+     "tipo": "causa",
+     "etichetta": "concorrono a determinare l'"
+    }
+   ]
+  },
+  {
+   "id": "referendum-abrogativo",
+   "collegamenti": [
+    {
+     "da": "referendum-abrogativo",
+     "a": "democrazia-diretta",
+     "tipo": "esempio-di",
+     "etichetta": "è uno strumento di"
+    }
+   ]
+  },
+  {
+   "id": "petizione",
+   "collegamenti": [
+    {
+     "da": "petizione",
+     "a": "democrazia-diretta",
+     "tipo": "esempio-di",
+     "etichetta": "è uno strumento di"
+    }
+   ]
+  },
+  {
+   "id": "parlamento-europeo",
+   "collegamenti": [
+    {
+     "da": "parlamento-europeo",
+     "a": "unione-europea",
+     "tipo": "parte-di",
+     "etichetta": "è un'istituzione dell'"
+    }
+   ]
+  },
+  {
+   "id": "consiglio-ue",
+   "collegamenti": [
+    {
+     "da": "consiglio-ue",
+     "a": "unione-europea",
+     "tipo": "parte-di",
+     "etichetta": "è un'istituzione dell'"
+    }
+   ]
+  },
+  {
+   "id": "consiglio-europeo",
+   "collegamenti": [
+    {
+     "da": "consiglio-europeo",
+     "a": "unione-europea",
+     "tipo": "parte-di",
+     "etichetta": "è un'istituzione dell'"
+    }
+   ]
+  },
+  {
+   "id": "principio-personalistico",
+   "collegamenti": [
+    {
+     "da": "principio-personalistico",
+     "a": "diritti-inviolabili",
+     "tipo": "crea",
+     "etichetta": "fonda i"
+    }
+   ]
+  },
+  {
+   "id": "principio-solidaristico",
+   "collegamenti": [
+    {
+     "da": "principio-solidaristico",
+     "a": "doveri-costituzionali",
+     "tipo": "crea",
+     "etichetta": "fonda i"
+    }
+   ]
+  },
+  {
+   "id": "principio-autonomista",
+   "collegamenti": [
+    {
+     "da": "principio-autonomista",
+     "a": "regioni",
+     "tipo": "crea",
+     "etichetta": "fonda l'autonomia delle"
+    }
+   ]
+  },
+  {
+   "id": "principio-internazionalista",
+   "collegamenti": [
+    {
+     "da": "principio-internazionalista",
+     "a": "unione-europea",
+     "tipo": "collegato",
+     "etichetta": "consente l'adesione all'"
+    }
+   ]
+  },
+  {
+   "id": "governo-presidenziale",
+   "collegamenti": [
+    {
+     "da": "governo-presidenziale",
+     "a": "governo-parlamentare",
+     "tipo": "contrasta",
+     "etichetta": "si oppone al"
+    }
+   ]
+  },
+  {
+   "id": "razionalizzazione-del-parlamentarismo",
+   "collegamenti": [
+    {
+     "da": "razionalizzazione-del-parlamentarismo",
+     "a": "governo-parlamentare",
+     "tipo": "collegato",
+     "etichetta": "stabilizza il"
+    }
+   ]
+  },
+  {
+   "id": "elettorato-attivo",
+   "collegamenti": [
+    {
+     "da": "elettorato-attivo",
+     "a": "elettorato-passivo",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ]
+  },
+  {
+   "id": "ineleggibilita",
+   "collegamenti": [
+    {
+     "da": "ineleggibilita",
+     "a": "incompatibilita",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ]
+  },
+  {
+   "id": "incandidabilita",
+   "collegamenti": [
+    {
+     "da": "incandidabilita",
+     "a": "elettorato-passivo",
+     "tipo": "contrasta",
+     "etichetta": "limita l'"
+    }
+   ]
+  },
+  {
+   "id": "sistema-maggioritario",
+   "collegamenti": [
+    {
+     "da": "sistema-maggioritario",
+     "a": "sistema-proporzionale",
+     "tipo": "contrasta",
+     "etichetta": "si oppone al"
+    }
+   ]
+  },
+  {
+   "id": "verifica-dei-poteri",
+   "collegamenti": [
+    {
+     "da": "verifica-dei-poteri",
+     "a": "parlamento",
+     "tipo": "parte-di",
+     "etichetta": "è una prerogativa del"
+    }
+   ]
+  },
+  {
+   "id": "sistema-elettorale",
+   "collegamenti": [
+    {
+     "da": "sistema-elettorale",
+     "a": "sistema-dei-partiti",
+     "tipo": "influenza",
+     "etichetta": "modella il"
+    }
+   ]
+  },
+  {
+   "id": "ministri",
+   "collegamenti": [
+    {
+     "da": "ministri",
+     "a": "governo",
+     "tipo": "parte-di",
+     "etichetta": "compongono il"
+    }
+   ]
+  },
+  {
+   "id": "sottosegretari-di-stato",
+   "collegamenti": [
+    {
+     "da": "sottosegretari-di-stato",
+     "a": "governo",
+     "tipo": "collegato",
+     "etichetta": "coadiuvano i ministri del"
+    }
+   ]
+  },
+  {
+   "id": "coalizione-di-governo",
+   "collegamenti": [
+    {
+     "da": "coalizione-di-governo",
+     "a": "governo",
+     "tipo": "collegato",
+     "etichetta": "sostiene il"
+    }
+   ]
+  },
+  {
+   "id": "cnel",
+   "collegamenti": [
+    {
+     "da": "cnel",
+     "a": "parlamento",
+     "tipo": "collegato",
+     "etichetta": "è organo ausiliario del"
+    }
+   ]
+  },
+  {
+   "id": "commissioni-parlamentari",
+   "collegamenti": [
+    {
+     "da": "commissioni-parlamentari",
+     "a": "parlamento",
+     "tipo": "parte-di",
+     "etichetta": "sono articolazioni del"
+    }
+   ]
+  },
+  {
+   "id": "gruppi-parlamentari",
+   "collegamenti": [
+    {
+     "da": "gruppi-parlamentari",
+     "a": "partiti-politici",
+     "tipo": "collegato",
+     "etichetta": "sono la proiezione in Parlamento dei"
+    }
+   ]
+  },
+  {
+   "id": "regolamenti-parlamentari",
+   "collegamenti": [
+    {
+     "da": "regolamenti-parlamentari",
+     "a": "parlamento",
+     "tipo": "collegato",
+     "etichetta": "disciplinano l'organizzazione del"
+    }
+   ]
+  },
+  {
+   "id": "autodichia",
+   "collegamenti": [
+    {
+     "da": "autodichia",
+     "a": "parlamento",
+     "tipo": "parte-di",
+     "etichetta": "è una prerogativa del"
+    }
+   ]
+  },
+  {
+   "id": "insindacabilita-parlamentare",
+   "collegamenti": [
+    {
+     "da": "insindacabilita-parlamentare",
+     "a": "immunita-parlamentari",
+     "tipo": "parte-di",
+     "etichetta": "è una delle"
+    }
+   ]
+  },
+  {
+   "id": "inchieste-parlamentari",
+   "collegamenti": [
+    {
+     "da": "inchieste-parlamentari",
+     "a": "parlamento",
+     "tipo": "parte-di",
+     "etichetta": "sono uno strumento di controllo del"
+    }
+   ]
+  },
+  {
+   "id": "esercizio-provvisorio",
+   "collegamenti": [
+    {
+     "da": "esercizio-provvisorio",
+     "a": "legge-di-bilancio",
+     "tipo": "collegato",
+     "etichetta": "supplisce al ritardo della"
+    }
+   ]
+  },
+  {
+   "id": "copertura-finanziaria",
+   "collegamenti": [
+    {
+     "da": "copertura-finanziaria",
+     "a": "equilibrio-di-bilancio",
+     "tipo": "collegato",
+     "etichetta": "serve all'"
+    }
+   ]
+  },
+  {
+   "id": "prorogatio",
+   "collegamenti": [
+    {
+     "da": "prorogatio",
+     "a": "legislatura",
+     "tipo": "collegato",
+     "etichetta": "prolunga i poteri oltre la"
+    }
+   ]
+  },
+  {
+   "id": "alto-tradimento",
+   "collegamenti": [
+    {
+     "da": "alto-tradimento",
+     "a": "accusa-presidente-repubblica",
+     "tipo": "causa",
+     "etichetta": "dà luogo alla messa in stato d'"
+    }
+   ]
+  },
+  {
+   "id": "attentato-alla-costituzione",
+   "collegamenti": [
+    {
+     "da": "attentato-alla-costituzione",
+     "a": "accusa-presidente-repubblica",
+     "tipo": "causa",
+     "etichetta": "dà luogo alla messa in stato d'"
+    }
+   ]
+  },
+  {
+   "id": "scioglimento-anticipato",
+   "collegamenti": [
+    {
+     "da": "scioglimento-anticipato",
+     "a": "crisi-di-governo",
+     "tipo": "collegato",
+     "etichetta": "può chiudere una"
+    }
+   ]
+  },
+  {
+   "id": "simul-stabunt-simul-cadent",
+   "collegamenti": [
+    {
+     "da": "simul-stabunt-simul-cadent",
+     "a": "presidente-della-giunta",
+     "tipo": "collegato",
+     "etichetta": "lega il consiglio al"
+    }
+   ]
+  },
+  {
+   "id": "enti-locali",
+   "collegamenti": [
+    {
+     "da": "enti-locali",
+     "a": "principio-autonomista",
+     "tipo": "esempio-di",
+     "etichetta": "sono espressione del"
+    }
+   ]
+  },
+  {
+   "id": "corte-di-cassazione",
+   "collegamenti": [
+    {
+     "da": "corte-di-cassazione",
+     "a": "magistratura",
+     "tipo": "parte-di",
+     "etichetta": "è al vertice della"
+    }
+   ]
+  },
+  {
+   "id": "criterio-gerarchico",
+   "collegamenti": [
+    {
+     "da": "criterio-gerarchico",
+     "a": "antinomia",
+     "tipo": "collegato",
+     "etichetta": "risolve l'"
+    }
+   ]
+  },
+  {
+   "id": "criterio-di-specialita",
+   "collegamenti": [
+    {
+     "da": "criterio-di-specialita",
+     "a": "antinomia",
+     "tipo": "collegato",
+     "etichetta": "risolve l'"
+    }
+   ]
+  },
+  {
+   "id": "criterio-di-competenza",
+   "collegamenti": [
+    {
+     "da": "criterio-di-competenza",
+     "a": "antinomia",
+     "tipo": "collegato",
+     "etichetta": "risolve l'"
+    }
+   ]
+  },
+  {
+   "id": "fonti-atto",
+   "collegamenti": [
+    {
+     "da": "fonti-atto",
+     "a": "fonti-fatto",
+     "tipo": "contrasta",
+     "etichetta": "si distinguono dalle"
+    }
+   ]
+  },
+  {
+   "id": "rinvio-fisso",
+   "collegamenti": [
+    {
+     "da": "rinvio-fisso",
+     "a": "rinvio-mobile",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "collegamenti": [
+    {
+     "da": "analogia",
+     "a": "interpretazione-giuridica",
+     "tipo": "collegato",
+     "etichetta": "integra l'"
+    }
+   ]
+  },
+  {
+   "id": "decreto-legge",
+   "collegamenti": [
+    {
+     "da": "decreto-legge",
+     "a": "decadenza-decreto-legge",
+     "tipo": "causa",
+     "etichetta": "se non convertito subisce la"
+    }
+   ]
+  },
+  {
+   "id": "reiterazione-decreti-legge",
+   "collegamenti": [
+    {
+     "da": "reiterazione-decreti-legge",
+     "a": "decreto-legge",
+     "tipo": "contrasta",
+     "etichetta": "è un abuso del"
+    }
+   ]
+  },
+  {
+   "id": "legge-costituzionale",
+   "collegamenti": [
+    {
+     "da": "legge-costituzionale",
+     "a": "revisione-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "segue lo stesso procedimento della"
+    }
+   ]
+  },
+  {
+   "id": "legge-rinforzata",
+   "collegamenti": [
+    {
+     "da": "legge-rinforzata",
+     "a": "legge-ordinaria",
+     "tipo": "contrasta",
+     "etichetta": "ha un procedimento più gravoso della"
+    }
+   ]
+  },
+  {
+   "id": "commissione-referente",
+   "collegamenti": [
+    {
+     "da": "commissione-referente",
+     "a": "commissione-deliberante",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dalla"
+    }
+   ]
+  },
+  {
+   "id": "promulgazione",
+   "collegamenti": [
+    {
+     "da": "promulgazione",
+     "a": "legge-ordinaria",
+     "tipo": "parte-di",
+     "etichetta": "è una fase del procedimento della"
+    }
+   ]
+  },
+  {
+   "id": "regolamenti-governativi",
+   "collegamenti": [
+    {
+     "da": "regolamenti-governativi",
+     "a": "legge-ordinaria",
+     "tipo": "collegato",
+     "etichetta": "sono subordinati alla"
+    }
+   ]
+  },
+  {
+   "id": "circolare-amministrativa",
+   "collegamenti": [
+    {
+     "da": "circolare-amministrativa",
+     "a": "fonti-del-diritto",
+     "tipo": "contrasta",
+     "etichetta": "non rientra tra le"
+    }
+   ]
+  },
+  {
+   "id": "statuto-speciale",
+   "collegamenti": [
+    {
+     "da": "statuto-speciale",
+     "a": "legge-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "è adottato con"
+    }
+   ]
+  },
+  {
+   "id": "statuto-regionale",
+   "collegamenti": [
+    {
+     "da": "statuto-regionale",
+     "a": "legge-statutaria",
+     "tipo": "collegato",
+     "etichetta": "è approvato con"
+    }
+   ]
+  },
+  {
+   "id": "consiglio-autonomie-locali",
+   "collegamenti": [
+    {
+     "da": "consiglio-autonomie-locali",
+     "a": "enti-locali",
+     "tipo": "collegato",
+     "etichetta": "rappresenta gli"
+    }
+   ]
+  },
+  {
+   "id": "carta-diritti-ue",
+   "collegamenti": [
+    {
+     "da": "carta-diritti-ue",
+     "a": "diritti-inviolabili",
+     "tipo": "collegato",
+     "etichetta": "tutela a livello europeo i"
+    }
+   ]
+  },
+  {
+   "id": "giudizio-incidentale",
+   "collegamenti": [
+    {
+     "da": "giudizio-incidentale",
+     "a": "giudizio-in-via-principale",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dal"
+    }
+   ]
+  },
+  {
+   "id": "reati-ministeriali",
+   "collegamenti": [
+    {
+     "da": "reati-ministeriali",
+     "a": "ministri",
+     "tipo": "collegato",
+     "etichetta": "riguardano i"
+    }
+   ]
+  },
+  {
+   "id": "diritti-inviolabili",
+   "collegamenti": [
+    {
+     "da": "diritti-inviolabili",
+     "a": "principi-supremi",
+     "tipo": "parte-di",
+     "etichetta": "rientrano tra i"
+    }
+   ]
+  },
+  {
+   "id": "liberta-di-corrispondenza",
+   "collegamenti": [
+    {
+     "da": "liberta-di-corrispondenza",
+     "a": "liberta-personale",
+     "tipo": "collegato",
+     "etichetta": "ha garanzie analoghe alla"
+    }
+   ]
+  },
+  {
+   "id": "liberta-sindacale",
+   "collegamenti": [
+    {
+     "da": "liberta-sindacale",
+     "a": "liberta-di-associazione",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ]
+  },
+  {
+   "id": "liberta-di-iniziativa-economica",
+   "collegamenti": [
+    {
+     "da": "liberta-di-iniziativa-economica",
+     "a": "proprieta-privata",
+     "tipo": "collegato",
+     "etichetta": "è garantita accanto alla"
+    }
+   ]
+  },
+  {
+   "id": "formazioni-sociali",
+   "collegamenti": [
+    {
+     "da": "formazioni-sociali",
+     "a": "principio-personalistico",
+     "tipo": "collegato",
+     "etichetta": "sono protette dal"
+    }
+   ]
+  },
+  {
+   "id": "tutela-giurisdizionale",
+   "collegamenti": [
+    {
+     "da": "tutela-giurisdizionale",
+     "a": "diritto-di-difesa",
+     "tipo": "collegato",
+     "etichetta": "comprende il"
+    }
+   ]
+  }
+ ]
+}

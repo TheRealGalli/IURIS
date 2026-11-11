@@ -32,22 +32,31 @@
       "id": "p080-b005",
       "pagina": 80,
       "markdown": "## 4.1 CAPO DI GOVERNO E FORMA DI GOVERNO",
-      "concetti": []
+      "concetti": [
+        "forma-di-governo"
+      ]
     },
     {
       "id": "p080-b006",
       "pagina": 80,
-      "markdown": "Il [[presidente-della-repubblica|Presidente della Repubblica]], con la Corte costituzionale ed il Consiglio Superiore della Magistratura, è uno degli organi costituzionali di garanzia contemplati dalla Costituzione italiana. Note storiche:",
+      "markdown": "Il [[presidente-della-repubblica|Presidente della Repubblica]], con la [[corte-costituzionale|Corte costituzionale]] ed il [[csm|Consiglio Superiore della Magistratura]], è uno degli organi costituzionali di garanzia contemplati dalla [[costituzione-italiana|Costituzione italiana]]. Note storiche:",
       "concetti": [
-        "presidente-della-repubblica"
+        "presidente-della-repubblica",
+        "corte-costituzionale",
+        "csm",
+        "costituzione-italiana"
       ]
     },
     {
       "id": "p080-b007",
       "pagina": 80,
-      "markdown": "attraverso la scelta del popolo italiano con referendum istituzionale 2 giugno '46 della forma Repubblicana l'assemblea costituente poteva propendere per una Repubblica presidenziale o per una Repubblica a forma di Governo parlamentare. Si scelse la Il per timore di involuzione autoritarie del Governo presidenziale. Questo però non implica che il ruolo del Presidente della Repubblica sia solamente formale.",
+      "markdown": "attraverso la scelta del popolo italiano con referendum istituzionale 2 giugno '46 della forma Repubblicana l'[[assemblea-costituente|assemblea costituente]] poteva propendere per una Repubblica presidenziale o per una Repubblica a forma di [[governo-parlamentare|Governo parlamentare]]. Si scelse la Il per timore di involuzione autoritarie del [[governo-presidenziale|Governo presidenziale]]. Questo però non implica che il ruolo del [[presidente-della-repubblica|Presidente della Repubblica]] sia solamente formale.",
       "concetti": [
-        "presidente-della-repubblica"
+        "assemblea-costituente",
+        "governo-parlamentare",
+        "governo-presidenziale",
+        "presidente-della-repubblica",
+        "forma-di-governo"
       ]
     },
     {
@@ -59,7 +68,7 @@
     {
       "id": "p080-b009",
       "pagina": 80,
-      "markdown": "- \"il Presidente della Repubblica è il Capo dello Stato e rappresenta l'unità nazionale.\n- Può inviare messaggi alle Camere.",
+      "markdown": "- \"il [[presidente-della-repubblica|Presidente della Repubblica]] è il Capo dello Stato e rappresenta l'unità nazionale.\n- Può inviare messaggi alle Camere.",
       "concetti": [
         "presidente-della-repubblica"
       ]
@@ -92,8 +101,10 @@
     {
       "id": "p080-b014",
       "pagina": 80,
-      "markdown": "economiche e finanziarie selezionate, decise, stabilite ed imposte dal soggetto emanatore. Il soggetto emanatore può essere una persona giuridica (un'azienda), una istituzione o persona istituzionale (10 Stato o parte di esso, ad esempio un Ministero), un Ente (ad esempio cooperativo o artistico).",
-      "concetti": []
+      "markdown": "economiche e finanziarie selezionate, decise, stabilite ed imposte dal soggetto emanatore. Il soggetto emanatore può essere una [[persona-giuridica|persona giuridica]] (un'azienda), una istituzione o persona istituzionale (10 Stato o parte di esso, ad esempio un Ministero), un Ente (ad esempio cooperativo o artistico).",
+      "concetti": [
+        "persona-giuridica"
+      ]
     },
     {
       "id": "p081-b001",
@@ -110,8 +121,10 @@
     {
       "id": "p081-b003",
       "pagina": 81,
-      "markdown": "- Ha il comando delle forze armate, presiede il Consiglio supremo della difesa costituito secondo legge, dichiara lo stato di guerra deliberato dalle Camere, presiede il Consiglio Superiore della Magistratura.",
-      "concetti": []
+      "markdown": "- Ha il comando delle forze armate, presiede il Consiglio supremo della difesa costituito secondo legge, dichiara lo stato di guerra deliberato dalle Camere, presiede il [[csm|Consiglio Superiore della Magistratura]].",
+      "concetti": [
+        "csm"
+      ]
     },
     {
       "id": "p081-b004",
@@ -136,16 +149,21 @@
     {
       "id": "p081-b007",
       "pagina": 81,
-      "markdown": "Il sistema di elezione del Presidente della Repubblica è disciplinato in modo da garantirne il più possibile l'imparzialità: ai sensi dell'art. 83 Cost. è eletto da un organo collegiale costituito dal parlamento in seduta comune e da 3 delegati per ogni Regione (la Valle d'Aosta 1) designati dal Consiglio regionale. L'elezione si ha con scrutinio segreto a maggioranza di 2/3 nei primi tre scrutini e a maggioranza assoluta nei successivi.",
+      "markdown": "Il sistema di elezione del [[presidente-della-repubblica|Presidente della Repubblica]] è disciplinato in modo da garantirne il più possibile l'imparzialità: ai sensi dell'art. 83 Cost. è eletto da un organo collegiale costituito dal [[parlamento-in-seduta-comune|parlamento in seduta comune]] e da 3 delegati per ogni Regione (la Valle d'Aosta 1) designati dal [[consiglio-regionale|Consiglio regionale]]. L'elezione si ha con scrutinio segreto a maggioranza di 2/3 nei primi tre scrutini e a maggioranza assoluta nei successivi.",
       "concetti": [
-        "presidente-della-repubblica"
+        "presidente-della-repubblica",
+        "parlamento-in-seduta-comune",
+        "consiglio-regionale"
       ]
     },
     {
       "id": "p081-b008",
       "pagina": 81,
-      "markdown": "L'art. 84 Cost. dispone i requisiti per essere eletti: cittadinanza italiana, 50 anni di età, godimento dei diritti civile e politici, con incompatibilità con qualsiasi altra carica ed è sancita riserva di legge per determinare l'assegno e la dotazione di cui gode.",
-      "concetti": [],
+      "markdown": "L'art. 84 Cost. dispone i requisiti per essere eletti: cittadinanza italiana, 50 anni di età, godimento dei diritti civile e politici, con [[incompatibilita|incompatibilità]] con qualsiasi altra carica ed è sancita [[riserva-di-legge|riserva di legge]] per determinare l'assegno e la dotazione di cui gode.",
+      "concetti": [
+        "incompatibilita",
+        "riserva-di-legge"
+      ],
       "testoFonte": "L'art. 84 Cost. dispone i requisiti per essere eletti: cittadinanza italiana, 50 anni di età, godimento dei diritti civile e politici, con incompatibilità con qualsiasi altra carica ed è sancita riserva di legge per determinare l'assegno e la dotazione di cui gode ."
     },
     {
@@ -157,8 +175,10 @@
     {
       "id": "p081-b010",
       "pagina": 81,
-      "markdown": "Trenta giorni prima che scada il termine di durata, il Presidente della Camera dei deputati convoca in seduta comune il Parlamento e i delegati regionali per eleggere il nuovo Capo dello Stato. Se le camere sono sciolte o manca meno di 3 mesi alla loro cessazione l'elezione ha luogo entro 15 gg. dalla riunione delle nuove e nel frattempo sono prorogati i poteri del Presidente in carica. Una maggioranza così estesa, richiesta per l'elezione, è evidentemente giustificata dal fatto che il Presidente deve essere espressione non di una maggioranza, ma dell'intero Parlamento a garanzia dell'imparzialità, mentre la durata più lunga rispetto al parlamento ha ratio nel fatto che così l'eventuale rielezione non avviene grazie allo stesso Parlamento nei confronti del quale il Presidente sarà più facilmente obiettivo.",
-      "concetti": []
+      "markdown": "Trenta giorni prima che scada il termine di durata, il Presidente della [[camera-dei-deputati|Camera dei deputati]] convoca in seduta comune il Parlamento e i delegati regionali per eleggere il nuovo Capo dello Stato. Se le camere sono sciolte o manca meno di 3 mesi alla loro cessazione l'elezione ha luogo entro 15 gg. dalla riunione delle nuove e nel frattempo sono prorogati i poteri del Presidente in carica. Una maggioranza così estesa, richiesta per l'elezione, è evidentemente giustificata dal fatto che il Presidente deve essere espressione non di una maggioranza, ma dell'intero Parlamento a garanzia dell'imparzialità, mentre la durata più lunga rispetto al parlamento ha ratio nel fatto che così l'eventuale rielezione non avviene grazie allo stesso Parlamento nei confronti del quale il Presidente sarà più facilmente obiettivo.",
+      "concetti": [
+        "camera-dei-deputati"
+      ]
     },
     {
       "id": "p081-b011",

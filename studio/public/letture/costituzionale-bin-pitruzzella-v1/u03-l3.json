@@ -20,14 +20,18 @@
     {
       "id": "p029-b002",
       "pagina": 29,
-      "markdown": "La separazione dei poteri ed i limiti alla regola di maggioranza possono realizzarsi non solo livello orizzontale, cioè nel rapporto tra i poteri dello Stato, ma altresì a livello verticale, attraverso la distribuzione del potere di indirizzo politico e delle funzioni pubbliche tra lo Stato centrale ed altri enti territoriali.",
-      "concetti": []
+      "markdown": "La [[separazione-dei-poteri|separazione dei poteri]] ed i limiti alla regola di maggioranza possono realizzarsi non solo livello orizzontale, cioè nel rapporto tra i poteri dello Stato, ma altresì a livello verticale, attraverso la distribuzione del potere di [[indirizzo-politico|indirizzo politico]] e delle funzioni pubbliche tra lo Stato centrale ed altri enti territoriali.",
+      "concetti": [
+        "separazione-dei-poteri",
+        "indirizzo-politico"
+      ]
     },
     {
       "id": "p029-b003",
       "pagina": 29,
-      "markdown": "Perciò si suole distinguere tra Stato unitario e Stato composto: nel primo il potere è attribuito al solo Stato centrale o comunque a soggetti periferici da esso dipendenti; nel secondo il potere è distribuito tra lo Stato centrale ed enti territoriali da esso distinti, che sono titolari del potere di indirizzo politico e delle funzioni legislativa e amministrativa in determinate materie. Lo Stato unitario ha caratterizzato a lungo l'esperienza europea, mentre quel tipo di Stato composto che è lo [[stato-federale|Stato federale]] ha caratterizzato l'esperienza degli Stati Uniti d'America. Da alcuni anni, però, anche in Europa ha avuto successo lo Stato composto, nelle sue 2 varianti di: 1) Stato federale; 2) [[stato-regionale|Stato regionale]].",
+      "markdown": "Perciò si suole distinguere tra Stato unitario e Stato composto: nel primo il potere è attribuito al solo Stato centrale o comunque a soggetti periferici da esso dipendenti; nel secondo il potere è distribuito tra lo Stato centrale ed enti territoriali da esso distinti, che sono titolari del potere di [[indirizzo-politico|indirizzo politico]] e delle funzioni legislativa e amministrativa in determinate materie. Lo Stato unitario ha caratterizzato a lungo l'esperienza europea, mentre quel tipo di Stato composto che è lo [[stato-federale|Stato federale]] ha caratterizzato l'esperienza degli Stati Uniti d'America. Da alcuni anni, però, anche in Europa ha avuto successo lo Stato composto, nelle sue 2 varianti di: 1) Stato federale; 2) [[stato-regionale|Stato regionale]].",
       "concetti": [
+        "indirizzo-politico",
         "stato-federale",
         "stato-regionale"
       ]
@@ -35,7 +39,7 @@
     {
       "id": "p029-b004",
       "pagina": 29,
-      "markdown": "1. Ad ogni modo, di regola, i caratteri tipici dello Stato federale vengono individuati nel modo",
+      "markdown": "1. Ad ogni modo, di regola, i caratteri tipici dello [[stato-federale|Stato federale]] vengono individuati nel modo",
       "concetti": [
         "stato-federale"
       ]
@@ -61,36 +65,42 @@
     {
       "id": "p029-b008",
       "pagina": 29,
-      "markdown": "- la partecipazione degli stati membri a procedimento di revisione costituzionale e la presenza di una Corte costituzionale in grado di risolvere i conflitti tra Stati federali e Stati membri.",
-      "concetti": []
+      "markdown": "- la partecipazione degli stati membri a procedimento di [[revisione-costituzionale|revisione costituzionale]] e la presenza di una [[corte-costituzionale|Corte costituzionale]] in grado di risolvere i conflitti tra Stati federali e Stati membri.",
+      "concetti": [
+        "revisione-costituzionale",
+        "corte-costituzionale"
+      ]
     },
     {
       "id": "p029-b009",
       "pagina": 29,
-      "markdown": "2. lo Stato regionale, di regola, è distinto da quello federale per i seguenti caratteri:\n- la presenza di una Costituzione statale che riconosce e garantisce l'esistenza di enti territoriali dotati di autonomia politica, cioè capaci di darsi un proprio indirizzo politico sia pure nell'ambito dei limiti posti dalla Costituzione;essi, infatti, sono dotati di propri Statuti, ma non di una propria Costituzione;",
+      "markdown": "2. lo [[stato-regionale|Stato regionale]], di regola, è distinto da quello federale per i seguenti caratteri:\n- la presenza di una Costituzione statale che riconosce e garantisce l'esistenza di enti territoriali dotati di autonomia politica, cioè capaci di darsi un proprio [[indirizzo-politico|indirizzo politico]] sia pure nell'ambito dei limiti posti dalla Costituzione;essi, infatti, sono dotati di propri Statuti, ma non di una propria Costituzione;",
       "concetti": [
-        "stato-regionale"
+        "stato-regionale",
+        "indirizzo-politico"
       ]
     },
     {
       "id": "p029-b010",
       "pagina": 29,
-      "markdown": "- l'attribuzione costituzionale alle Regioni di competenze legislative e amministrative; l'attribuzione ad una Corte costituzionale del compito di risolvere i conflitti tra Stato le Regioni, assicurando comunque la preminenza dell'interesse nazionale.",
-      "concetti": []
+      "markdown": "- l'attribuzione costituzionale alle Regioni di competenze legislative e amministrative; l'attribuzione ad una [[corte-costituzionale|Corte costituzionale]] del compito di risolvere i conflitti tra Stato le Regioni, assicurando comunque la preminenza dell'interesse nazionale.",
+      "concetti": [
+        "corte-costituzionale"
+      ]
     },
     {
       "id": "p029-b011",
       "pagina": 29,
-      "markdown": "In realtà, la distinzione tra Stato federale e Stato regionale è difficile da tracciare. La distinzione fondamentale, perciò, resta quella tra Stato unitario e Stato composto e tra Stati a forte decentramento",
+      "markdown": "In realtà, la distinzione tra [[stato-federale|Stato federale]] e [[stato-regionale|Stato regionale]] è difficile da tracciare. La distinzione fondamentale, perciò, resta quella tra Stato unitario e Stato composto e tra Stati a forte decentramento",
       "concetti": [
-        "stato-regionale",
-        "stato-federale"
+        "stato-federale",
+        "stato-regionale"
       ]
     },
     {
       "id": "p030-b001",
       "pagina": 30,
-      "markdown": "politico e Stati a decentramento politico limitato. Altra distinzione è quella tra federalismo duale e federalismo cooperativo: il primo vede una forte divisione tra lo Stato federale e gli Stati membri; viceversa il secondo si caratterizza per la presenza di interventi congiunti coordinati nelle stesse materie da parte dello Stato centrale e degli Stati membri o delle Regioni.",
+      "markdown": "politico e Stati a decentramento politico limitato. Altra distinzione è quella tra federalismo duale e federalismo cooperativo: il primo vede una forte divisione tra lo [[stato-federale|Stato federale]] e gli Stati membri; viceversa il secondo si caratterizza per la presenza di interventi congiunti coordinati nelle stesse materie da parte dello Stato centrale e degli Stati membri o delle Regioni.",
       "concetti": [
         "stato-federale"
       ]
@@ -120,11 +130,11 @@
     {
       "id": "p030-b005",
       "pagina": 30,
-      "markdown": "- il [[consiglio-europeo|Consiglio europeo]] è l'organo di impulso dell'Unione Europea, chiamato a definire gli orientamenti politici generali. È composto dai capi di Stato o di Governo di ciascuno Stato membro e dal Presidente della commissione. È tenuto ad informare il [[parlamento-europeo|Parlamento europeo]] dei risultati di ogni sua riunione e a presentare annualmente un'apposita relazione scritta;",
+      "markdown": "- il [[consiglio-europeo|Consiglio europeo]] è l'organo di impulso dell'[[unione-europea|Unione Europea]], chiamato a definire gli orientamenti politici generali. È composto dai capi di Stato o di Governo di ciascuno Stato membro e dal Presidente della commissione. È tenuto ad informare il [[parlamento-europeo|Parlamento europeo]] dei risultati di ogni sua riunione e a presentare annualmente un'apposita relazione scritta;",
       "concetti": [
         "consiglio-europeo",
-        "parlamento-europeo",
-        "unione-europea"
+        "unione-europea",
+        "parlamento-europeo"
       ]
     },
     {
@@ -148,7 +158,7 @@
     {
       "id": "p031-b003",
       "pagina": 31,
-      "markdown": "- Il Parlamento Europeo è composto dai rappresentanti (attualmente 626) dei popoli degli stati membri, e letti in ciascuno Stato, per 5 anni, a suffragio universale diretto. Il PE è un organo rappresentativo è dotato di legittimazione democratica, ma non è titolare del potere di adottare atti normativi. È partecipe del processo di formazione degli atti normativi, attraverso le procedure di codecisione (secondo cui l'adozione degli atti normativi, proposti dalla Commissione, richiede il consenso del PE, che dispone del diritto di veto, superabile con la convocazione di un apposito Comitato di conciliazione, chiamato a trovare un accordo tra PE e Consiglio) e di cooperazione (che consente al PE di ottenere che il Consiglio effettui un secondo esame sull'atto proposto). Inoltre, il PE risponde alle petizioni dei cittadini comunitari e nomina un mediatore, chiamato ad indagare sui casi di cattiva amministrazione delle istituzioni comunitarie. Il Parlamento Europeo è titolare di poteri di controllo verso la commissione.",
+      "markdown": "- Il [[parlamento-europeo|Parlamento Europeo]] è composto dai rappresentanti (attualmente 626) dei popoli degli stati membri, e letti in ciascuno Stato, per 5 anni, a suffragio universale diretto. Il PE è un organo rappresentativo è dotato di legittimazione democratica, ma non è titolare del potere di adottare atti normativi. È partecipe del processo di formazione degli atti normativi, attraverso le procedure di codecisione (secondo cui l'adozione degli atti normativi, proposti dalla Commissione, richiede il consenso del PE, che dispone del diritto di veto, superabile con la convocazione di un apposito Comitato di conciliazione, chiamato a trovare un accordo tra PE e Consiglio) e di cooperazione (che consente al PE di ottenere che il Consiglio effettui un secondo esame sull'atto proposto). Inoltre, il PE risponde alle petizioni dei cittadini comunitari e nomina un mediatore, chiamato ad indagare sui casi di cattiva amministrazione delle istituzioni comunitarie. Il Parlamento Europeo è titolare di poteri di controllo verso la commissione.",
       "concetti": [
         "parlamento-europeo"
       ]
@@ -169,7 +179,7 @@
     {
       "id": "p031-b006",
       "pagina": 31,
-      "markdown": "presso 1' Unione (Rappresentanti Consiglio dell'Unione Europea, trattando i dossier (proposte e progetti di atti presentati dalla Commissione)",
+      "markdown": "presso 1' Unione (Rappresentanti Consiglio dell'[[unione-europea|Unione Europea]], trattando i dossier (proposte e progetti di atti presentati dalla Commissione)",
       "concetti": [
         "unione-europea"
       ]
@@ -177,8 +187,10 @@
     {
       "id": "p032-b001",
       "pagina": 32,
-      "markdown": "- La Corte dei Conti è l'organo di controllo contabile della Comunità.",
-      "concetti": []
+      "markdown": "- La [[corte-dei-conti|Corte dei Conti]] è l'organo di controllo contabile della Comunità.",
+      "concetti": [
+        "corte-dei-conti"
+      ]
     },
     {
       "id": "p032-b002",

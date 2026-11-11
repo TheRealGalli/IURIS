@@ -25,6 +25,7 @@
       "pagina": 54,
       "markdown": "## 1. LA FORMA DI GOVERNO ITALIANA",
       "concetti": [
+        "forma-di-governo",
         "governo"
       ]
     },
@@ -39,16 +40,18 @@
     {
       "id": "p054-b005",
       "pagina": 54,
-      "markdown": "La forma di [[governo|Governo]] italiana, delinea nata dalla Costituzione, è una forma di Governo parlamentare a debole razionalizzazione, in cui cioè sono previsti solo limitati interventi del diritto costituzionale per assicurare la stabilità del [[rapporto-di-fiducia|rapporto di fiducia]] e la capacità di direzione politica del Governo. La razionalizzazione costituzionale del rapporto di fiducia (art. 94) è diretta a garantire la stabilità del Governo.",
+      "markdown": "La [[forma-di-governo|forma di Governo]] italiana, delinea nata dalla Costituzione, è una forma di [[governo-parlamentare|Governo parlamentare]] a debole razionalizzazione, in cui cioè sono previsti solo limitati interventi del diritto costituzionale per assicurare la stabilità del [[rapporto-di-fiducia|rapporto di fiducia]] e la capacità di direzione politica del [[governo|Governo]]. La razionalizzazione costituzionale del rapporto di fiducia (art. 94) è diretta a garantire la stabilità del Governo.",
       "concetti": [
-        "governo",
-        "rapporto-di-fiducia"
+        "forma-di-governo",
+        "governo-parlamentare",
+        "rapporto-di-fiducia",
+        "governo"
       ]
     },
     {
       "id": "p054-b006",
       "pagina": 54,
-      "markdown": "La Costituzione contempla la [[mozione-di-sfiducia|mozione di sfiducia]], che è l'atto con cui il Parlamento interrompe il rapporto di fiducia con il Governo, obbligandolo alle dimissioni. La mozione di sfiducia, al pari di quella iniziale di fiducia, deve essere motivata e votata per appello nominale (i parlamentari sono chiamati uno alla volta ad esprimere il proprio voto), secondo l'art. 94.2. Ciò comporta una chiara assunzione di responsabilità politica impedendo il fenomeno dei c.d. franchi tiratori?",
+      "markdown": "La Costituzione contempla la [[mozione-di-sfiducia|mozione di sfiducia]], che è l'atto con cui il Parlamento interrompe il [[rapporto-di-fiducia|rapporto di fiducia]] con il Governo, obbligandolo alle dimissioni. La mozione di sfiducia, al pari di quella iniziale di fiducia, deve essere motivata e votata per appello nominale (i parlamentari sono chiamati uno alla volta ad esprimere il proprio voto), secondo l'art. 94.2. Ciò comporta una chiara assunzione di responsabilità politica impedendo il fenomeno dei c.d. franchi tiratori?",
       "concetti": [
         "mozione-di-sfiducia",
         "rapporto-di-fiducia",
@@ -58,7 +61,7 @@
     {
       "id": "p054-b007",
       "pagina": 54,
-      "markdown": "Inoltre, secondo l'art.94.5, la mozione di sfiducia dell'essere firmata da almeno un decimo dei componenti della Camera e non può essere messa in discussione prima di 3 giorni dalla sua presentazione. In questo modo si assicura un periodo di riflessione, prima della votazione della sfiducia e si scoraggiano di colpi di mano (i c.d. assalti alla diligenza).",
+      "markdown": "Inoltre, secondo l'art.94.5, la [[mozione-di-sfiducia|mozione di sfiducia]] dell'essere firmata da almeno un decimo dei componenti della Camera e non può essere messa in discussione prima di 3 giorni dalla sua presentazione. In questo modo si assicura un periodo di riflessione, prima della votazione della sfiducia e si scoraggiano di colpi di mano (i c.d. assalti alla diligenza).",
       "concetti": [
         "mozione-di-sfiducia"
       ]
@@ -74,7 +77,7 @@
     {
       "id": "p054-b009",
       "pagina": 54,
-      "markdown": "L'altro aspetto della disciplina costituzionale del rapporto di fiducia è la previsione secondo cui il Governo, entro 10 giorni dalla sua formazione, deve presentarsi alle camere per attenuare la fiducia, che viene accordata o respinta sempre con una mozione motivata e votata per appello nominale (art.94.3). Ciò significa che il Governo deve avere una maggioranza che lo sostiene, senza la quale non riuscirebbe a ottenere la fiducia iniziale voluta dalla Costituzione. Questa è una maggioranza politica, diversa dalla maggioranza aritmetica prevista dall'art.64.3 Cost., ai fini dell'approvazione delle deliberazioni parlamentari.",
+      "markdown": "L'altro aspetto della disciplina costituzionale del [[rapporto-di-fiducia|rapporto di fiducia]] è la previsione secondo cui il Governo, entro 10 giorni dalla sua formazione, deve presentarsi alle camere per attenuare la fiducia, che viene accordata o respinta sempre con una mozione motivata e votata per appello nominale (art.94.3). Ciò significa che il Governo deve avere una maggioranza che lo sostiene, senza la quale non riuscirebbe a ottenere la fiducia iniziale voluta dalla Costituzione. Questa è una maggioranza politica, diversa dalla maggioranza aritmetica prevista dall'art.64.3 Cost., ai fini dell'approvazione delle deliberazioni parlamentari.",
       "concetti": [
         "rapporto-di-fiducia",
         "governo"
@@ -106,14 +109,16 @@
       "pagina": 55,
       "markdown": "## 1.2 TRASFORMAZIONI DEL SISTEMA POLITICO ED E DELLA FORMA DI GOVERNO",
       "concetti": [
+        "forma-di-governo",
         "governo"
       ]
     },
     {
       "id": "p055-b003",
       "pagina": 55,
-      "markdown": "All'inizio della storia Repubblicana, l'ideologia marxista e quella cattolica hanno fornito la base su cui si è costituita l'identità della democrazia italiana: il Partito Comunista e la Democrazia Cristiana. In seguito alla nascita di numerose ideologie politiche ed alla conseguente nascita di numerosi partiti, si delineò un sistema politico a multipartitismo esasperato 8, caratterizzato dall'elevato numero di partiti e, contraddistinto, da una notevole distanza ideologica tra i partiti stessi. In un sistema con ampie divaricazioni ideologiche, la forma di Governo che ha funzionato è stata quella delle maggioranze formate dopo le elezioni attraverso laboriosi accordi tra i partiti. La formazione post-elettorale della maggioranza ha consentito la progressiva attrazione nell'aria della [[coalizione-di-governo|coalizione di Governo]] di partiti collocati alle ali estreme del sistema. Il sistema politico, quindi, condizionata il funzionamento della forma di Governo orientandola verso il parlamentarismo compromissorio.",
+      "markdown": "All'inizio della storia Repubblicana, l'ideologia marxista e quella cattolica hanno fornito la base su cui si è costituita l'identità della democrazia italiana: il Partito Comunista e la Democrazia Cristiana. In seguito alla nascita di numerose ideologie politiche ed alla conseguente nascita di numerosi partiti, si delineò un sistema politico a multipartitismo esasperato 8, caratterizzato dall'elevato numero di partiti e, contraddistinto, da una notevole distanza ideologica tra i partiti stessi. In un sistema con ampie divaricazioni ideologiche, la [[forma-di-governo|forma di Governo]] che ha funzionato è stata quella delle maggioranze formate dopo le elezioni attraverso laboriosi accordi tra i partiti. La formazione post-elettorale della maggioranza ha consentito la progressiva attrazione nell'aria della [[coalizione-di-governo|coalizione di Governo]] di partiti collocati alle ali estreme del sistema. Il sistema politico, quindi, condizionata il funzionamento della forma di Governo orientandola verso il parlamentarismo compromissorio.",
       "concetti": [
+        "forma-di-governo",
         "coalizione-di-governo",
         "governo"
       ]
@@ -121,8 +126,10 @@
     {
       "id": "p055-b004",
       "pagina": 55,
-      "markdown": "Gli anni '90 hanno misto una profonda modificazione del sistema politico: il fatto più significativo è stato rappresentato dalla nascita di nuovi partiti è dalla scomparsa di partiti \"storici\" della democrazia italiana. Il sistema politico, però, è rimasto notevolmente frammentato, anche di più di quanto avveniva nel periodo precedente. La frammentazione politica è espressa in Parlamento dall'elevato numero di gruppi parlamentari.",
-      "concetti": []
+      "markdown": "Gli anni '90 hanno misto una profonda modificazione del sistema politico: il fatto più significativo è stato rappresentato dalla nascita di nuovi partiti è dalla scomparsa di partiti \"storici\" della democrazia italiana. Il sistema politico, però, è rimasto notevolmente frammentato, anche di più di quanto avveniva nel periodo precedente. La frammentazione politica è espressa in Parlamento dall'elevato numero di [[gruppi-parlamentari|gruppi parlamentari]].",
+      "concetti": [
+        "gruppi-parlamentari"
+      ]
     },
     {
       "id": "p055-b005",
@@ -162,8 +169,9 @@
     {
       "id": "p056-b001",
       "pagina": 56,
-      "markdown": "vittoria elettorale. I partiti si impegnano con il corpo elettorale a realizzare il programma contenuto negli accordi di coalizione e la maggioranza presenta perciò un grado elevato di stabilità. Pertanto, la forma di Governo si assesta secondo i moduli funzionali del parlamentarismo maggioritario, con una netta differenza di ruoli tra maggioranza e opposizione.",
+      "markdown": "vittoria elettorale. I partiti si impegnano con il corpo elettorale a realizzare il programma contenuto negli accordi di coalizione e la maggioranza presenta perciò un grado elevato di stabilità. Pertanto, la [[forma-di-governo|forma di Governo]] si assesta secondo i moduli funzionali del parlamentarismo maggioritario, con una netta differenza di ruoli tra maggioranza e opposizione.",
       "concetti": [
+        "forma-di-governo",
         "governo"
       ]
     },
@@ -197,21 +205,25 @@
     {
       "id": "p056-b006",
       "pagina": 56,
-      "markdown": "La [[crisi-di-governo|crisi di Governo]] consiste nella presentazione delle dimissioni del Governo causate dalla rottura del rapporto di fiducia tra il Governo da una parte ed il Parlamento (o meglio la maggioranza) dall'altra. Tradizionalmente si suole distinguere le crisi parlamentari dalle crisi extraparlamentari. Le prime sono determinate dall'approvazione di una mozione di sfiducia oppure da un voto contrario sulla questione di fiducia posta dal Governo. In questo caso il Governo è giuridicamente obbligato a presentare le sue dimissioni al Capo dello Stato. Le seconde, invece, si aprono a seguito delle dimissioni volontarie del Governo, causate da una crisi politica all'interno della sua maggioranza. A queste ultime sono assimilabili le crisi determinate dalle dimissioni del solo Presidente del Consiglio, che determinano la cessazione dalla carica dell'intero Governo (visto che è lui che ha proposto al Capo dello Stato i Ministri da nominare ai sensi dell'art.95 Cost.).",
+      "markdown": "La [[crisi-di-governo|crisi di Governo]] consiste nella presentazione delle dimissioni del Governo causate dalla rottura del [[rapporto-di-fiducia|rapporto di fiducia]] tra il Governo da una parte ed il Parlamento (o meglio la maggioranza) dall'altra. Tradizionalmente si suole distinguere le crisi parlamentari dalle crisi extraparlamentari. Le prime sono determinate dall'approvazione di una [[mozione-di-sfiducia|mozione di sfiducia]] oppure da un voto contrario sulla [[questione-di-fiducia|questione di fiducia]] posta dal Governo. In questo caso il Governo è giuridicamente obbligato a presentare le sue dimissioni al Capo dello Stato. Le seconde, invece, si aprono a seguito delle dimissioni volontarie del Governo, causate da una crisi politica all'interno della sua maggioranza. A queste ultime sono assimilabili le crisi determinate dalle dimissioni del solo [[presidente-del-consiglio|Presidente del Consiglio]], che determinano la cessazione dalla carica dell'intero Governo (visto che è lui che ha proposto al Capo dello Stato i Ministri da nominare ai sensi dell'art.95 Cost.).",
       "concetti": [
         "crisi-di-governo",
-        "questione-di-fiducia",
         "rapporto-di-fiducia",
         "mozione-di-sfiducia",
+        "questione-di-fiducia",
+        "presidente-del-consiglio",
         "governo"
       ]
     },
     {
       "id": "p056-b007",
       "pagina": 56,
-      "markdown": "Nell'esperienza Repubblicana italiana ci sono stati dei casi di mozione di sfiducia individuale, cioè presentata nei confronti di un singolo Ministro: la Corte costituzionale, in riferimento al c.d. caso Mancuso del 1995, ha ritenuto che la sfiducia individuale si inquadra nella forma di Governo parlamentare prevista dalla Costituzione.",
+      "markdown": "Nell'esperienza Repubblicana italiana ci sono stati dei casi di [[mozione-di-sfiducia|mozione di sfiducia]] individuale, cioè presentata nei confronti di un singolo Ministro: la [[corte-costituzionale|Corte costituzionale]], in riferimento al c.d. caso Mancuso del 1995, ha ritenuto che la sfiducia individuale si inquadra nella forma di [[governo-parlamentare|Governo parlamentare]] prevista dalla Costituzione.",
       "concetti": [
         "mozione-di-sfiducia",
+        "corte-costituzionale",
+        "governo-parlamentare",
+        "forma-di-governo",
         "governo"
       ]
     },
@@ -238,8 +250,9 @@
     {
       "id": "p057-b003",
       "pagina": 57,
-      "markdown": "Il Governo è l'organo costituzionale al vertice del potere esecutivo con finalità di direzione politica e di cura degli interessi concreti dello stato. Per tali finalità ha attribuzioni sia di carattere politico che amministrativo senza alcuna subordinazione nei confronti degli altri organi statali.",
+      "markdown": "Il Governo è l'[[organo-costituzionale|organo costituzionale]] al vertice del potere esecutivo con finalità di direzione politica e di cura degli interessi concreti dello stato. Per tali finalità ha attribuzioni sia di carattere politico che amministrativo senza alcuna subordinazione nei confronti degli altri organi statali.",
       "concetti": [
+        "organo-costituzionale",
         "governo"
       ]
     },
@@ -258,8 +271,10 @@
     {
       "id": "p057-b006",
       "pagina": 57,
-      "markdown": "- complesso: costituito al suo interno da più organi con competenze autonome. Alcuni necessari altri no. Quelli necessari sono previsti esplicitamente dall'art.92 Cost. Quelli non necessari sono il vicePresidente del Consiglio, i Ministri senza portafoglio, commissari straordinari, sottosegretari di stato, comitati interMinisteriali, Consiglio di Gabinetto, conferenza permanente. La legge 23 agosto 1988 n. 400, disciplinando l'attività di Governo precisa la posizione e le attribuzioni di entrambe le categorie di organi;",
+      "markdown": "- complesso: costituito al suo interno da più organi con competenze autonome. Alcuni necessari altri no. Quelli necessari sono previsti esplicitamente dall'art.92 Cost. Quelli non necessari sono il vicePresidente del Consiglio, i [[ministri-senza-portafoglio|Ministri senza portafoglio]], commissari straordinari, [[sottosegretari-di-stato|sottosegretari di stato]], comitati interMinisteriali, Consiglio di Gabinetto, conferenza permanente. La legge 23 agosto 1988 n. 400, disciplinando l'attività di Governo precisa la posizione e le attribuzioni di entrambe le categorie di organi;",
       "concetti": [
+        "ministri-senza-portafoglio",
+        "sottosegretari-di-stato",
         "governo"
       ]
     },
@@ -278,16 +293,20 @@
     {
       "id": "p057-b009",
       "pagina": 57,
-      "markdown": "Il Governo è, quindi, quel complesso di organi cui è affidata la funzione d'individuare e tradurre in concreti programmi d'azione l'indirizzo politico espresso dal corpo elettorale (prima) e dal Parlamento (poi) e di curare l'attuazione di tali programmi in tutti i modi in cui essa sia configurabile.",
+      "markdown": "Il Governo è, quindi, quel complesso di organi cui è affidata la funzione d'individuare e tradurre in concreti programmi d'azione l'[[indirizzo-politico|indirizzo politico]] espresso dal corpo elettorale (prima) e dal Parlamento (poi) e di curare l'attuazione di tali programmi in tutti i modi in cui essa sia configurabile.",
       "concetti": [
+        "indirizzo-politico",
         "governo"
       ]
     },
     {
       "id": "p057-b010",
       "pagina": 57,
-      "markdown": "Il Governo, nel sistema costituzionale italiano, è un organo complesso, in quanto costituito al suo interno da più organi con competenze autonome. Alcuni di tali organi sono espressamente previsti dalla Costituzione (Consiglio dei Ministri, Ministri, Presidente del Consiglio), altri, invece non lo sono e sono disciplinati da legge ordinaria.",
+      "markdown": "Il Governo, nel sistema costituzionale italiano, è un organo complesso, in quanto costituito al suo interno da più organi con competenze autonome. Alcuni di tali organi sono espressamente previsti dalla Costituzione ([[consiglio-dei-ministri|Consiglio dei Ministri]], Ministri, [[presidente-del-consiglio|Presidente del Consiglio]]), altri, invece non lo sono e sono disciplinati da [[legge-ordinaria|legge ordinaria]].",
       "concetti": [
+        "consiglio-dei-ministri",
+        "presidente-del-consiglio",
+        "legge-ordinaria",
         "governo"
       ]
     },
@@ -350,14 +369,20 @@
     {
       "id": "p058-b006",
       "pagina": 58,
-      "markdown": "- il Presidente della Repubblica nomina il Presidente del Consiglio (art.92.2);",
-      "concetti": []
+      "markdown": "- il [[presidente-della-repubblica|Presidente della Repubblica]] nomina il [[presidente-del-consiglio|Presidente del Consiglio]] (art.92.2);",
+      "concetti": [
+        "presidente-della-repubblica",
+        "presidente-del-consiglio"
+      ]
     },
     {
       "id": "p058-b007",
       "pagina": 58,
-      "markdown": "- i Ministri sono nominati dal Presidente della Repubblica su proposta del Presidente del Consiglio;",
-      "concetti": []
+      "markdown": "- i Ministri sono nominati dal [[presidente-della-repubblica|Presidente della Repubblica]] su proposta del [[presidente-del-consiglio|Presidente del Consiglio]];",
+      "concetti": [
+        "presidente-della-repubblica",
+        "presidente-del-consiglio"
+      ]
     },
     {
       "id": "p058-b008",
@@ -390,14 +415,22 @@
     {
       "id": "p058-b012",
       "pagina": 58,
-      "markdown": "governativi necessari e cioè il Presidente del Consiglio ed i Ministri che insieme danno vita ad un terzo organo, il Consiglio dei Ministri.",
-      "concetti": []
+      "markdown": "governativi necessari e cioè il [[presidente-del-consiglio|Presidente del Consiglio]] ed i Ministri che insieme danno vita ad un terzo organo, il [[consiglio-dei-ministri|Consiglio dei Ministri]].",
+      "concetti": [
+        "presidente-del-consiglio",
+        "consiglio-dei-ministri"
+      ]
     },
     {
       "id": "p058-b013",
       "pagina": 58,
-      "markdown": "La legge ordinaria individua gli organi governativi non necessari (come il Vice-Presidente del Consiglio, i Ministri senza portafoglio, i sottosegretari di stato, i comitati interMinisteriali, il Consiglio di Gabinetto).",
-      "concetti": []
+      "markdown": "La [[legge-ordinaria|legge ordinaria]] individua gli organi governativi non necessari (come il Vice-[[presidente-del-consiglio|Presidente del Consiglio]], i [[ministri-senza-portafoglio|Ministri senza portafoglio]], i [[sottosegretari-di-stato|sottosegretari di stato]], i comitati interMinisteriali, il Consiglio di Gabinetto).",
+      "concetti": [
+        "legge-ordinaria",
+        "presidente-del-consiglio",
+        "ministri-senza-portafoglio",
+        "sottosegretari-di-stato"
+      ]
     },
     {
       "id": "p058-b014",
@@ -408,8 +441,11 @@
     {
       "id": "p058-b015",
       "pagina": 58,
-      "markdown": "della Presidenza del Consiglio dei Ministri (legge 23 agosto 1988, n.400)per una più puntuale disciplina dell'organizzazione e del funzionamento del Governo; in attuazione della stessa sono stati adottati il regolamento interno del Consiglio dei Ministri e numerosi ordini di servizio di organizzazione delle strutture del Presidente del Consiglio. Più di recente, nel 1999, sono stati emanati il D.lgs.303/1999 per il riordino dei Ministeri e della Presidenza del Consiglio, che ha importanti risvolti sul funzionamento del Governo (D.Igs.300/1999).",
+      "markdown": "della [[presidenza-del-consiglio|Presidenza del Consiglio]] dei Ministri (legge 23 agosto 1988, n.400)per una più puntuale disciplina dell'organizzazione e del funzionamento del Governo; in attuazione della stessa sono stati adottati il regolamento interno del [[consiglio-dei-ministri|Consiglio dei Ministri]] e numerosi ordini di servizio di organizzazione delle strutture del [[presidente-del-consiglio|Presidente del Consiglio]]. Più di recente, nel 1999, sono stati emanati il D.lgs.303/1999 per il riordino dei Ministeri e della Presidenza del Consiglio, che ha importanti risvolti sul funzionamento del Governo (D.Igs.300/1999).",
       "concetti": [
+        "presidenza-del-consiglio",
+        "consiglio-dei-ministri",
+        "presidente-del-consiglio",
         "governo"
       ]
     },

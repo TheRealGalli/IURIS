@@ -17,8 +17,10 @@
     {
       "id": "p019-b002",
       "pagina": 19,
-      "markdown": "Un altro fenomeno che ha contribuito all'affermazione dei partiti di massa è costituito dalle caratteristiche del conflitto sociale nel '900. Infatti i gruppi sociali più deboli hanno trovato, nell'aggregazione in strutture collettive (partiti e sindacati), il modo per migliorare le condizioni di vita delle classi economicamente più deboli o addirittura per preparare l'avvento di una società nuova basata sull'uguaglianza sostanziale tra tutti gli uomini e tutte le donne.",
-      "concetti": []
+      "markdown": "Un altro fenomeno che ha contribuito all'affermazione dei partiti di massa è costituito dalle caratteristiche del conflitto sociale nel '900. Infatti i gruppi sociali più deboli hanno trovato, nell'aggregazione in strutture collettive (partiti e sindacati), il modo per migliorare le condizioni di vita delle classi economicamente più deboli o addirittura per preparare l'avvento di una società nuova basata sull'[[uguaglianza-sostanziale|uguaglianza sostanziale]] tra tutti gli uomini e tutte le donne.",
+      "concetti": [
+        "uguaglianza-sostanziale"
+      ]
     },
     {
       "id": "p019-b003",
@@ -51,8 +53,10 @@
     {
       "id": "p019-b007",
       "pagina": 19,
-      "markdown": "In particolare in Italia, lo Stato fascista, operante dal 1922 al 1945, si organizzò in contrapposizione al modello liberale e di democrazia pluralista. Esso concentrava il potere in un unico organo che assumeva sia la funzione legislativa che quella esecutiva. Lo Stato si occupava di tutti gli aspetti della vita sociale ed individuale soprattutto grazie alla soppressione delle tradizionali libertà. Un'altra alternativa allo Stato pluralista è rappresentata dallo Stato socialista. Il riferimento storico è costituito dall'URSS. Il modello è esteso ad altri Paesi dell'Est-Europa prima di entrare in crisi alla fine degli anni '80. Esso consisteva nella dittatura del proletariato con la quale si sarebbe dovuto eliminare la borghesia. Tale modello si basava sull'abolizione della proprietà privata e sull'attribuzione allo Stato di tutti i mezzi di produzione.",
-      "concetti": []
+      "markdown": "In particolare in Italia, lo Stato fascista, operante dal 1922 al 1945, si organizzò in contrapposizione al modello liberale e di democrazia pluralista. Esso concentrava il potere in un unico organo che assumeva sia la funzione legislativa che quella esecutiva. Lo Stato si occupava di tutti gli aspetti della vita sociale ed individuale soprattutto grazie alla soppressione delle tradizionali libertà. Un'altra alternativa allo Stato pluralista è rappresentata dallo Stato socialista. Il riferimento storico è costituito dall'URSS. Il modello è esteso ad altri Paesi dell'Est-Europa prima di entrare in crisi alla fine degli anni '80. Esso consisteva nella dittatura del proletariato con la quale si sarebbe dovuto eliminare la borghesia. Tale modello si basava sull'abolizione della [[proprieta-privata|proprietà privata]] e sull'attribuzione allo Stato di tutti i mezzi di produzione.",
+      "concetti": [
+        "proprieta-privata"
+      ]
     },
     {
       "id": "p019-b008",
@@ -104,17 +108,21 @@
     {
       "id": "p020-b006",
       "pagina": 20,
-      "markdown": "Tutto ciò per evitare le lotte di classe, tramite cui in passato si era cercato di perseguire tali finalità. Per questo si cominciò a parlare di [[stato-sociale|Stato sociale]] o di Stato di benessere o di Welfare State diverso dallo Stato liberale. Quest'ultimo era basato sul principio secondo cui allo Stato era affidato il compito di garantire la libertà dei soggetti privati su cui si fondavano i meccanismi di mercato (in primo luogo la proprietà e l'iniziativa economica privata). Viceversa lo Stato sociale ricomprende, tra i compiti del potere politico, quello di intervenire nella distribuzione dei benefici. In questo modo lo Stato supera l'individualismo liberale e sviluppa forme di solidarietà tra individui e tra diversi gruppi sociali, per mezzo soprattutto dell'intervento pubblico nell'economia e nella società, dando luogo ad un sistema ad economia mista.",
+      "markdown": "Tutto ciò per evitare le lotte di classe, tramite cui in passato si era cercato di perseguire tali finalità. Per questo si cominciò a parlare di [[stato-sociale|Stato sociale]] o di Stato di benessere o di Welfare State diverso dallo [[stato-liberale|Stato liberale]]. Quest'ultimo era basato sul principio secondo cui allo Stato era affidato il compito di garantire la libertà dei soggetti privati su cui si fondavano i meccanismi di mercato (in primo luogo la proprietà e l'iniziativa economica privata). Viceversa lo Stato sociale ricomprende, tra i compiti del [[potere-politico|potere politico]], quello di intervenire nella distribuzione dei benefici. In questo modo lo Stato supera l'individualismo liberale e sviluppa forme di solidarietà tra individui e tra diversi gruppi sociali, per mezzo soprattutto dell'intervento pubblico nell'economia e nella società, dando luogo ad un sistema ad economia mista.",
       "concetti": [
-        "stato-sociale"
+        "stato-sociale",
+        "stato-liberale",
+        "potere-politico"
       ]
     },
     {
       "id": "p020-b007",
       "pagina": 20,
-      "markdown": "Proprio la Costituzione italiana è un chiaro esempio di Stato sociale. Infatti essa riconosce, da una parte, e garantisce la proprietà privata e la successione legittima e testamentaria (art.42), insieme all'eguaglianza formale di tutti i cittadini di fronte alla legge (art.3.1); dall'altro lato, prevede doveri di",
+      "markdown": "Proprio la [[costituzione-italiana|Costituzione italiana]] è un chiaro esempio di [[stato-sociale|Stato sociale]]. Infatti essa riconosce, da una parte, e garantisce la [[proprieta-privata|proprietà privata]] e la successione legittima e testamentaria (art.42), insieme all'eguaglianza formale di tutti i cittadini di fronte alla legge (art.3.1); dall'altro lato, prevede doveri di",
       "concetti": [
-        "stato-sociale"
+        "costituzione-italiana",
+        "stato-sociale",
+        "proprieta-privata"
       ]
     },
     {
@@ -140,7 +148,7 @@
     {
       "id": "p021-b004",
       "pagina": 21,
-      "markdown": "Per razionalizzare lo Stato sociale, in primo luogo, si tende a superare il carattere universalistico, per cui i servizi come la sanità non vengono resi gratuitamente a tutti, ma solamente ai soggetti meno abbienti. Così, per esempio, in Italia è stato introdotto il principio della compartecipazione del cittadino alla spesa sanitaria, tramite il pagamento del cosiddetto \"ticket\".",
+      "markdown": "Per razionalizzare lo [[stato-sociale|Stato sociale]], in primo luogo, si tende a superare il carattere universalistico, per cui i servizi come la sanità non vengono resi gratuitamente a tutti, ma solamente ai soggetti meno abbienti. Così, per esempio, in Italia è stato introdotto il principio della compartecipazione del cittadino alla spesa sanitaria, tramite il pagamento del cosiddetto \"ticket\".",
       "concetti": [
         "stato-sociale"
       ]
@@ -156,18 +164,20 @@
     {
       "id": "p021-b006",
       "pagina": 21,
-      "markdown": "- la prima consiste sia nel trasferire la gestione di certi servizi pubblici agli enti locali, in particolare ai Comuni (c.d. sussidiarietà verticale).",
+      "markdown": "- la prima consiste sia nel trasferire la gestione di certi servizi pubblici agli [[enti-locali|enti locali]], in particolare ai Comuni (c.d. sussidiarietà verticale).",
       "concetti": [
+        "enti-locali",
         "sussidiarieta"
       ]
     },
     {
       "id": "p021-b007",
       "pagina": 21,
-      "markdown": "la seconda consiste nell'attribuire certi compiti tradizionalmente propri dello Stato sociale ad alcune formazioni sociali che non hanno scopo di lucro e che costituiscono il cosiddetto \"[[terzo-settore|terzo settore]]\" in grado di fornire servizi tipici dello Stato sociale ad un costo minore e con una qualità migliore di quelli erogati dalle burocrazie delle amministrazioni pubbliche; ancora una volta lo Stato interviene con incentivi (sussidiarietà orizzontale).",
+      "markdown": "la seconda consiste nell'attribuire certi compiti tradizionalmente propri dello [[stato-sociale|Stato sociale]] ad alcune [[formazioni-sociali|formazioni sociali]] che non hanno scopo di lucro e che costituiscono il cosiddetto \"[[terzo-settore|terzo settore]]\" in grado di fornire servizi tipici dello Stato sociale ad un costo minore e con una qualità migliore di quelli erogati dalle burocrazie delle amministrazioni pubbliche; ancora una volta lo Stato interviene con incentivi (sussidiarietà orizzontale).",
       "concetti": [
-        "terzo-settore",
         "stato-sociale",
+        "formazioni-sociali",
+        "terzo-settore",
         "sussidiarieta"
       ]
     },
@@ -197,8 +207,10 @@
     {
       "id": "p022-b001",
       "pagina": 22,
-      "markdown": "finale della Costituzione italiana vieta la riCostituzione sotto qualsiasi forma del partito fascista.",
-      "concetti": []
+      "markdown": "finale della [[costituzione-italiana|Costituzione italiana]] vieta la riCostituzione sotto qualsiasi forma del partito fascista.",
+      "concetti": [
+        "costituzione-italiana"
+      ]
     }
   ]
 }
