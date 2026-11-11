@@ -6,15 +6,16 @@ Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usal
 ## Lavoro in corso
 
 **Si riparte da [`piani/consegne-prossimi-passi.md`](piani/consegne-prossimi-passi.md)**: vedi il «Piano successivo» in fondo al file, da eseguire
-un passo alla volta nell’ordine. Il primo è completato: Filosofia SSG ha 1.036 domande, almeno 14 per lezione d’esame;
-si riparte dal passo 2 (approfondimenti di privato). Diritto privato ha tutte le 27 unità; il resto di questo elenco è contesto.
+un passo alla volta nell’ordine. I primi due sono completati: Filosofia SSG ha 1.036 domande, almeno 14 per lezione d’esame;
+privato ha 250 approfondimenti. Si riparte dal passo 3 (approfondimenti e schede inverse di costituzionale).
+Diritto privato ha tutte le 27 unità; il resto di questo elenco è contesto.
 
 1. **Diritto costituzionale completato e potenziato** (LMG · I anno · A-L): 18 unità, 50 lezioni e 760 domande,
    più schede inverse, approfondimenti, testo della Costituzione, Quadro ed esercizi dedicati.
    Fonti, aggiornamenti e controlli in [`piani/diritto-costituzionale.md`](piani/diritto-costituzionale.md);
    che cosa resta da fare (anche per Filosofia SSG) in [`piani/potenziamento.md`](piani/potenziamento.md).
 2. **Diritto privato completato** (materia unica per le tre classi): 27 unità, 98 lezioni, 503 voci e 1.426
-   domande, 333 schede inverse, 94 approfondimenti, Quadro con 7 schemi e sezione Codice civile. Gli aggiornamenti della dispensa del 2012, la tabella delle unità e i
+   domande, 333 schede inverse, 250 approfondimenti, Quadro con 8 schemi e sezione Codice civile. Gli aggiornamenti della dispensa del 2012, la tabella delle unità e i
    controlli sono in [`piani/diritto-privato.md`](piani/diritto-privato.md); il riepilogo finale è in
    [`piani/consegne-diritto-privato.md`](piani/consegne-diritto-privato.md).
    Il Codice civile dell'app è allineato al testo vigente di Normattiva (`studio/scripts/codice-normattiva.py`, vedi il piano).

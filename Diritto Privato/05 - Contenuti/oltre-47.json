@@ -1,0 +1,172 @@
+{
+  "voci": [
+    {
+      "id": "espromissione",
+      "oltre": "### L'iniziativa del terzo cambia il modello di assunzione\nNell'espromissione il terzo assume il debito verso il creditore senza delegazione del debitore. La differenza dalla [[delegazione-passiva]] riguarda il modo in cui nasce l'impegno, non soltanto il numero dei soggetti. Il debitore originario resta obbligato in solido salvo espressa liberazione del creditore.\n\nChi assume il debito non può opporre liberamente qualsiasi eccezione ricavata dal rapporto col debitore originario. L'art. 1272 c.c. distingue le eccezioni del rapporto originario, quelle personali e quelle fondate su fatti successivi, escludendo la compensazione che avrebbe potuto opporre il debitore. Per il caso pratico occorre separare assunzione esterna, eventuale liberazione e rapporti interni tra i soggetti.",
+      "daSapere": [
+        "Senza delegazione del debitore",
+        "Liberazione solo secondo la dichiarazione del creditore"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1268 e 1272",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "accollo",
+      "oltre": "### L'accordo nasce tra debitore e terzo\nNell'accollo il debitore e il terzo convengono l'assunzione del debito. Se il creditore aderisce, rende irrevocabile la stipulazione a suo favore secondo l'art. 1273 c.c.; l'adesione non libera automaticamente il debitore originario. La liberazione richiede le condizioni indicate dalla legge o una dichiarazione espressa.\n\nNella vendita di un immobile, l'acquirente può impegnarsi a pagare un debito del venditore: bisogna capire se l'operazione resti interna o attribuisca una posizione al creditore. Non basta scrivere «il debito passa» per ricostruire tutti gli effetti. Anche limiti dell'assunzione ed eccezioni dipendono dal contratto in base al quale il terzo si è obbligato.",
+      "daSapere": [
+        "Adesione e liberazione sono distinte",
+        "Leggere limiti e contenuto dell'assunzione"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, art. 1273",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "pagamento-con-surrogazione",
+      "oltre": "### La soddisfazione del creditore non cancella ogni garanzia\nLa surrogazione consente a chi paga di subentrare nei diritti del creditore nei casi e con i requisiti previsti. L'effetto è diverso dalla semplice estinzione del debito senza continuazione della posizione creditoria. Può derivare dalla legge oppure da una volontà qualificata del creditore o del debitore.\n\nSe il creditore surroga il terzo che paga, la dichiarazione deve essere espressa e contemporanea al pagamento. La surrogazione per volontà del debitore richiede ulteriori condizioni documentali e di destinazione della somma. Un pagamento già concluso non può essere trattato con leggerezza come se ogni accordo successivo trasferisse automaticamente le stesse garanzie. Occorre identificare la specifica fonte del subingresso.",
+      "daSapere": [
+        "Fonte legale o volontaria qualificata",
+        "Contemporaneità richiesta nella surrogazione del creditore"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1201–1205",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "imputazione-del-pagamento",
+      "oltre": "### Una somma può non estinguere il debito immaginato\nQuando esistono più debiti della stessa specie verso il medesimo creditore, il debitore può indicare quale intenda pagare. In mancanza operano i criteri dell'art. 1193 c.c.: scadenza, garanzie, onerosità, anzianità e infine proporzione. L'ordine non è rimesso a una scelta successiva arbitraria.\n\nVa distinto il problema del rapporto tra capitale, interessi e spese: l'art. 1194 c.c. limita l'imputazione al solo capitale senza consenso del creditore. Un versamento pari alla somma inizialmente ricevuta può quindi lasciare un residuo. Per ricostruire il saldo servono dichiarazione di pagamento, quietanza e criteri legali, non il solo confronto tra importi complessivi entrati e usciti.",
+      "daSapere": [
+        "Prima individuare il debito",
+        "Capitale e interessi seguono una regola propria"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1193–1195",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "remissione-del-debito",
+      "oltre": "### La rinuncia del creditore incontra la posizione del debitore\nLa remissione estingue l'obbligazione quando la dichiarazione viene comunicata al debitore, salvo che questi rifiuti di profittarne entro un termine congruo. La legge non impone quindi al debitore di accettare sempre il vantaggio. Non ogni mancata richiesta di pagamento dimostra però una volontà remissoria.\n\nIl creditore che resta inattivo non ha necessariamente dichiarato di liberare il debitore. Anche la restituzione volontaria del titolo originale ha un valore probatorio specifico previsto dall'art. 1237 c.c., distinto da qualsiasi consegna di una copia. Per il caso pratico occorre ricostruire contenuto della dichiarazione, comunicazione ed eventuali comportamenti che la manifestino con sufficiente chiarezza.",
+      "daSapere": [
+        "Comunicazione al debitore e possibile rifiuto",
+        "Inerzia non automaticamente uguale a rinuncia"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1236–1239",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "impossibilita-sopravvenuta",
+      "oltre": "### Il venir meno della prestazione non è ogni difficoltà economica\nL'impossibilità non imputabile può estinguere l'obbligazione, ma va distinta da un aumento del costo o da una difficoltà personale nell'eseguire. Se è temporanea, il debitore non risponde del ritardo finché perdura; la durata può però renderla definitivamente incompatibile con l'interesse del creditore o con il vincolo.\n\nUna prestazione prevista per un evento determinato può perdere utilità se eseguita molto dopo. Se invece resta possibile in parte, l'art. 1258 c.c. regola l'esecuzione residua. Nei contratti corrispettivi bisogna inoltre esaminare gli effetti sulla controprestazione attraverso la [[risoluzione-per-impossibilita]]. La liberazione del singolo debitore e lo scioglimento dell'intero scambio richiedono controlli distinti.",
+      "daSapere": [
+        "Impossibilità diversa da maggiore costo",
+        "Temporanea, definitiva e parziale hanno effetti differenti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1256–1259 e 1463–1464",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "clausola-penale",
+      "oltre": "### La previsione del danno non autorizza ogni cumulo\nLa penale stabilisce una prestazione dovuta in caso di inadempimento o ritardo e dispensa dalla prova del danno. Di regola limita il risarcimento alla prestazione pattuita, salvo riserva del danno ulteriore. Occorre quindi verificare se la clausola protegga l'esecuzione puntuale oppure sostituisca il ristoro per il mancato adempimento.\n\nIl creditore non può cumulare automaticamente prestazione principale e penale: l'art. 1383 c.c. distingue la penale per il semplice ritardo. Il giudice può ridurla nei casi dell'art. 1384, considerando esecuzione parziale e manifesta eccessività rispetto all'interesse all'adempimento. La clausola non va confusa con la [[caparra-confirmatoria]], che presuppone una consegna e offre rimedi diversi.",
+      "daSapere": [
+        "Prova del danno non necessaria",
+        "Cumulo e riduzione richiedono regole proprie"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1382–1385",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "mora-del-debitore",
+      "oltre": "### Il ritardo qualificato modifica anche il rischio\nLa mora richiede normalmente un'intimazione o richiesta scritta, ma l'art. 1219 c.c. contempla casi in cui non è necessaria. Non ogni scadenza produce quindi identici effetti senza ulteriori verifiche. L'offerta tempestiva della prestazione, anche non formale, può escludere la mora se il rifiuto del creditore non è giustificato.\n\nOltre al risarcimento del ritardo, rileva il rischio dell'impossibilità sopravvenuta: il debitore in mora incontra la disciplina aggravata dell'art. 1221 c.c., con una specifica prova liberatoria. Per i debiti pecuniari vanno considerati gli [[interessi-moratori]]. Il caso va ricostruito seguendo scadenza, eventuale richiesta, offerta e fatto sopravvenuto.",
+      "daSapere": [
+        "Verificare se serve la richiesta scritta",
+        "La mora incide su danni e rischio della prestazione"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1219–1224",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "responsabilita-patrimoniale",
+      "oltre": "### Il patrimonio garantisce senza attribuire già un diritto su ogni bene\nIl debitore risponde con i beni presenti e futuri, salvo limitazioni ammesse dalla legge. Ciò non rende il creditore proprietario dei beni né gli permette di appropriarsene senza il procedimento richiesto. La garanzia generale va distinta dal diritto di preferenza attribuito da [[pegno]], [[ipoteca]] o privilegio.\n\nSe il debitore vende un bene, il creditore non può sempre inseguirlo come farebbe un titolare di garanzia reale. Può però valutare strumenti di conservazione, come la revocatoria, quando ne ricorrono i presupposti. Separazione patrimoniale, impignorabilità e cause di prelazione rispondono a problemi diversi: non ogni patrimonio destinato è automaticamente sottratto a qualsiasi esecuzione.",
+      "daSapere": [
+        "Garanzia generale diversa da diritto reale",
+        "Le limitazioni devono trovare fondamento nella legge"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2740–2741 e 2901–2902",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "pegno",
+      "oltre": "### La preferenza richiede requisiti distinti dalla sola promessa\nIl pegno attribuisce una garanzia reale su beni mobili, crediti e altri oggetti ammessi. Nella forma ordinaria la consegna o la sottrazione della disponibilità esclusiva al costituente svolge un ruolo centrale. La promessa di dare un bene in garanzia non equivale a un pegno già costituito e opponibile con prelazione.\n\nOccorre inoltre verificare i requisiti documentali richiesti per far valere la preferenza e identificare credito e oggetto. Il creditore non diventa per questo libero di usare o trattenere definitivamente il bene come proprietario. La realizzazione della garanzia segue regole proprie e resta distinta dal [[patto-commissorio]]. Le figure speciali, come il pegno non possessorio, richiedono una disciplina separata.",
+      "daSapere": [
+        "Costituzione e prelazione hanno requisiti da controllare",
+        "Garanzia diversa da proprietà del creditore"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2744, 2784, 2786–2787 e 2792",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "ipoteca",
+      "oltre": "### Titolo e iscrizione svolgono funzioni diverse\nL'ipoteca si costituisce con l'iscrizione nei registri e attribuisce preferenza sul ricavato dell'espropriazione, anche contro il terzo acquirente. Il titolo che consente di iscriverla non coincide con una garanzia già perfezionata senza pubblicità. Anche grado e durata dell'iscrizione incidono sulla posizione del creditore.\n\nChi paga un debito garantito deve distinguere estinzione del credito e cancellazione formale dell'iscrizione. L'efficacia ventennale dell'iscrizione richiede attenzione alla [[rinnovazione-ipotecaria]]: il decorso del termine pone un problema diverso dalla durata del mutuo. La vendita dell'immobile non libera automaticamente il bene dal vincolo e non trasferisce necessariamente al compratore il debito personale garantito.",
+      "daSapere": [
+        "Iscrizione costitutiva della garanzia",
+        "Debito personale e responsabilità del bene sono distinti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2808, 2847–2848 e 2878",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "azione-revocatoria",
+      "oltre": "### Il bene resta trasferito ma può essere aggredito dal creditore\nLa revocatoria ordinaria mira all'inefficacia relativa dell'atto pregiudizievole, non alla sua nullità generale. Il creditore che ottiene tutela può promuovere azioni conservative o esecutive sul bene presso il terzo, secondo l'art. 2902 c.c. Gli effetti dell'atto tra le parti non vengono semplicemente cancellati per tutti.\n\nPresupposti soggettivi e tutela del terzo dipendono anche da gratuità o onerosità dell'atto e dal rapporto temporale con il credito. Non basta che il debitore abbia venduto un bene. L'adempimento di un debito scaduto non è soggetto alla revoca prevista dall'art. 2901. Il termine quinquennale decorre dalla data dell'atto, da identificare con precisione.",
+      "daSapere": [
+        "Inefficacia verso il creditore, non nullità generale",
+        "Verificare pregiudizio, consapevolezza e tempo dell'atto"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2901–2903",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    }
+  ]
+}

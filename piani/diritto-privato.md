@@ -22,6 +22,15 @@ possesso, obbligazioni, contratto, invalidità, responsabilità, famiglia e succ
 conservando le 40 schede del primo giro. Ogni aggiunta ha fonti, punti da ricordare e casi o confronti.
 Le citazioni di Cassazione del primo giro conservano la riserva di verifica annotata nelle consegne.
 
+Piano successivo, passo 2 (11 novembre 2026): **156 nuove schede**, `oltre-40.json`–`oltre-52.json`,
+portano a **250 approfondimenti** su 503 voci. Tredici blocchi da dodici: parte generale e legge nel tempo;
+situazioni e capacità; enti e beni; tempo e prove; proprietà e godimento; comunione e possesso; obbligazioni;
+vicende e garanzie; formazione e rappresentanza; effetti contrattuali; rimedi e consumo; contratti e altre fonti;
+famiglia, successioni e pubblicità. Conservati i 94 precedenti, senza nuove voci né cambiamenti agli esercizi.
+Ogni testo sviluppa un caso o una distinzione, con punti da ricordare e articoli di riferimento. Base: Codice civile
+locale allineato a Normattiva; per consumo, consultati anche portali ufficiali e d.lgs. 176/2026 in Gazzetta,
+compresa la disciplina transitoria. Nessuna nuova citazione di Cassazione non verificata.
+
 Stato: **completato**. Fonte arrivata il 10 novembre 2026: dispensa di Nick Petrullo e Ludovico Mainieri sul manuale
 Torrente–Schlesinger (2012), 238 pagine fitte, 72 capitoli. Testo per pagina in
 `Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Completate le 27 unità (pp. 1–238); la materia è attiva nei tre corsi.

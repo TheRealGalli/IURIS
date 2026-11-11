@@ -1,0 +1,172 @@
+{
+  "voci": [
+    {
+      "id": "obbligazione-naturale",
+      "oltre": "### L'adempimento spontaneo non crea un normale credito azionabile\nUn dovere morale o sociale può spiegare perché una prestazione spontaneamente eseguita non sia ripetibile, senza attribuire al beneficiario un'azione per pretenderla prima. L'art. 2034 c.c. distingue dunque la ragione del pagamento dalla coercibilità del debito e prevede una tutela specifica per l'incapace.\n\nSe una persona esegue una prestazione per un dovere sociale, il problema non si risolve dicendo che ogni pagamento sia una donazione. Occorre qualificare la causa concreta e verificare spontaneità e capacità. Nemmeno si può dedurre dal solo trattenimento della prestazione che esistessero interessi, garanzie o altri effetti propri delle obbligazioni civili: il codice esclude questa estensione automatica.",
+      "daSapere": [
+        "Nessuna azione per ottenere la prestazione",
+        "Non ripetibilità subordinata ai requisiti previsti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2034 e 2940",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "prestazione",
+      "oltre": "### Il comportamento è patrimoniale, l'interesse può non esserlo\nL'art. 1174 c.c. distingue la valutabilità economica della prestazione dall'interesse del creditore. Un servizio può essere comprato per soddisfare un'esigenza culturale, affettiva o ricreativa: il carattere personale dell'interesse non impedisce da solo la nascita dell'obbligazione. Conta la configurazione del comportamento dovuto nel rapporto.\n\nUn incarico per restaurare un ricordo familiare ha un prezzo anche se il cliente non intende rivendere l'oggetto. In caso di inadempimento bisogna poi applicare le regole sui danni risarcibili, senza identificare automaticamente valore affettivo e misura del risarcimento. Distinguere interesse, oggetto del comportamento e conseguenze economiche evita di ridurre ogni obbligazione al mero trasferimento di denaro.",
+      "daSapere": [
+        "Patrimonialità della prestazione",
+        "Interesse del creditore anche non patrimoniale"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1174, 1218 e 1223",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "obbligazione-parziaria",
+      "oltre": "### Ciascuno deve soltanto la propria parte\nQuando una prestazione divisibile coinvolge più debitori senza solidarietà, il creditore può chiedere a ciascuno la parte che gli compete. La pluralità dei soggetti non autorizza a pretendere l'intero da uno a scelta. Per i condebitori va però controllata la regola dell'art. 1294 c.c., che presume la solidarietà salvo diversa legge o titolo.\n\nSe un accordo prevede tre debiti distinti per quote, la difficoltà di riscuoterne una non trasferisce automaticamente il rischio sugli altri due. La [[solidarieta]] produce invece un diverso assetto esterno. Prima di ragionare sul regresso occorre quindi qualificare il vincolo: la ripartizione interna non dice, da sola, che cosa possa pretendere il creditore.",
+      "daSapere": [
+        "Divisibilità e solidarietà sono questioni diverse",
+        "Verificare legge e titolo prima di limitare la richiesta alla quota"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1292, 1294 e 1314",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "regresso",
+      "oltre": "### La richiesta del creditore e il riparto finale non coincidono\nLa solidarietà permette al creditore di ottenere l'intero da un condebitore, ma non stabilisce necessariamente su chi debba ricadere alla fine tutto il costo. Nei rapporti interni il debito si divide secondo le quote, salvo che sia stato assunto nell'interesse esclusivo di uno. Chi paga può recuperare dagli altri la loro parte.\n\nSe tre debitori sono obbligati in quote uguali e uno paga tutto, può recuperare da ciascuno degli altri un terzo del debito, restando a suo carico la propria quota. L'insolvenza di un condebitore apre l'ulteriore ripartizione prevista dall'art. 1299 c.c., compreso chi ha pagato.",
+      "daSapere": [
+        "Rapporto esterno distinto da riparto interno",
+        "Insolvenza di un condebitore: regola specifica di contribuzione"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1298–1299",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "obbligazione-alternativa",
+      "oltre": "### La scelta concentra l'oggetto dovuto\nNell'obbligazione alternativa più prestazioni sono dedotte nel rapporto, ma il debitore si libera eseguendone una. Salvo diversa attribuzione, la scelta spetta a lui e diventa irrevocabile attraverso i modi previsti dall'art. 1286 c.c. Non può imporre al creditore una combinazione parziale delle diverse prestazioni.\n\nSe il titolo prevede la consegna del bene A oppure del bene B, la perdita di uno prima della scelta richiede di applicare le regole dell'alternativa, considerando imputabilità e titolare della scelta. Non è lo stesso caso di una prestazione unica con facoltà di sostituzione. La distinzione con l'[[obbligazione-facoltativa]] emerge soprattutto quando sopravviene l'impossibilità.",
+      "daSapere": [
+        "Più prestazioni nel rapporto, una da eseguire",
+        "Scelta e impossibilità vanno esaminate insieme"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1285–1290",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "obbligazione-facoltativa",
+      "oltre": "### Una sola prestazione dovuta, con possibilità di sostituirla\nNella figura facoltativa il debitore deve una prestazione, ma può liberarsi eseguendone un'altra nei limiti del titolo. L'altra prestazione non è un oggetto alternativamente dovuto: questa differenza incide sul trattamento dell'impossibilità. Prima di scegliere il regime bisogna leggere come il rapporto è stato concretamente configurato.\n\nSe è dovuta una determinata cosa con facoltà di pagare una somma in sostituzione, il venir meno non imputabile della cosa non si tratta automaticamente come la perdita di una delle due prestazioni alternative. Il confronto con la [[prestazione-in-luogo-dell-adempimento]] chiarisce anche la differenza tra facoltà già attribuita e successivo accordo del creditore per ricevere un oggetto diverso.",
+      "daSapere": [
+        "Una prestazione in obbligazione",
+        "Facoltà originaria distinta dall'accordo sostitutivo successivo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1197, 1256 e 1285",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "principio-nominalistico",
+      "oltre": "### Il numero monetario non segue automaticamente il potere d'acquisto\nNel debito di somma il riferimento generale è il valore nominale della moneta avente corso legale al pagamento. L'inflazione non modifica da sola l'importo dovuto. Possono però rilevare clausole, norme speciali e conseguenze del ritardo, che vanno distinti dalla semplice rivalutazione automatica.\n\nChi deve restituire una somma non può sostituirla unilateralmente con beni che considera economicamente equivalenti; allo stesso modo il creditore non può aggiornarla liberamente al costo della vita. Occorre verificare titolo e disciplina degli interessi o del maggior danno. La distinzione dal [[debito-di-valore]] spiega perché la liquidazione di un danno non parta necessariamente da un importo nominale già fissato.",
+      "daSapere": [
+        "Debito di somma: riferimento nominale",
+        "Rivalutazione, interessi e danno da ritardo sono distinti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1277 e 1224",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "debito-di-valore",
+      "oltre": "### La moneta misura un valore da reintegrare\nNel debito di valore il denaro è il mezzo con cui si liquida una diversa utilità, come il pregiudizio patrimoniale da risarcire. Non si parte necessariamente da una somma originariamente dovuta e poi svalutata. Il confronto con il [[principio-nominalistico]] riguarda quindi l'oggetto del debito, non la scelta discrezionale di applicare o meno l'inflazione.\n\nSe viene distrutto un bene, occorre ricostruire il danno secondo i criteri risarcitori e distinguere reintegrazione del valore e danno da ritardo. Le poste non possono essere sommate duplicando la stessa perdita. Dopo la liquidazione monetaria il rapporto pone questioni ulteriori sulla somma dovuta: identificare il momento della determinazione evita calcoli indiscriminati.",
+      "daSapere": [
+        "Valore da liquidare diverso da somma originaria",
+        "Evitare duplicazioni tra componenti del danno"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1223, 1226 e 2056",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "interessi",
+      "oltre": "### Funzione, base di calcolo e decorrenza vanno separati\nGli interessi non sono tutti identici: il titolo e la funzione spiegano perché maturino e da quando. L'art. 1282 c.c. considera i crediti pecuniari liquidi ed esigibili, mentre l'art. 1224 riguarda il ritardo. La misura legale può essere modificata annualmente e va controllata per il periodo considerato.\n\nIn un calcolo occorre individuare capitale, tasso, intervallo e eventuale pattuizione scritta richiesta per interessi superiori alla misura legale. Non basta applicare al passato il tasso dell'anno corrente. Il problema dell'[[anatocismo]] è ancora diverso: riguarda la produzione di interessi su interessi scaduti e incontra presupposti e discipline specifiche, non una moltiplicazione automatica del debito.",
+      "daSapere": [
+        "Controllare tasso applicabile al periodo",
+        "Interessi sul capitale distinti da interessi sugli interessi"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1224 e 1282–1284",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "adempimento",
+      "oltre": "### Pagare esattamente richiede più del solo risultato materiale\nL'esattezza dell'adempimento riguarda oggetto, modalità, tempo, luogo e destinatario della prestazione. Il debitore può avere eseguito un'attività senza essersi liberato: consegnare a una persona non legittimata a ricevere pone un problema diverso dal semplice trasferimento materiale della cosa. Il codice considera anche ratifica e vantaggio del creditore.\n\nUna somma versata al soggetto sbagliato non è quindi automaticamente un pagamento liberatorio. Né il creditore deve sempre accettare una prestazione parziale perché il debito è divisibile. Per risolvere il caso conviene seguire una lista di requisiti e leggere titolo e regole suppletive, anziché ridurre l'adempimento all'affermazione «qualcosa è stato dato».",
+      "daSapere": [
+        "Oggetto, tempo, luogo e destinatario",
+        "Prestazione parziale non necessariamente accettabile"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1176, 1181–1183 e 1188–1189",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "adempimento-del-terzo",
+      "oltre": "### Chi esegue non diventa automaticamente creditore\nUn terzo può adempiere anche contro la volontà del creditore se questi non ha interesse alla prestazione personale del debitore. L'opposizione del debitore permette al creditore di rifiutare secondo l'art. 1180 c.c. Questa disciplina riguarda la soddisfazione del creditore, non risolve da sola i rapporti economici tra terzo e debitore.\n\nSe un familiare paga un debito, bisogna poi capire perché lo abbia fatto: prestito, liberalità o altra relazione possono produrre conseguenze differenti. Non ogni pagamento comporta automaticamente [[pagamento-con-surrogazione]]. Il passaggio nei diritti del creditore richiede la specifica fattispecie legale o volontaria, distinta dal fatto che il creditore abbia ricevuto quanto gli spettava.",
+      "daSapere": [
+        "Possibile interesse alla prestazione personale",
+        "Pagamento e diritto di recupero del terzo sono questioni distinte"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1180 e 1201–1203",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "mora-del-creditore",
+      "oltre": "### La cooperazione può essere necessaria per liberare il debitore\nLa mora del creditore riguarda il rifiuto ingiustificato di ricevere la prestazione o la mancata cooperazione necessaria, con l'offerta eseguita secondo le regole applicabili. Non coincide con il semplice fatto che il debitore sia pronto interiormente ad adempiere. Il perfezionamento della fattispecie sposta rischi e spese secondo l'art. 1207 c.c.\n\nSe il creditore non riceve la cosa, occorre distinguere offerta idonea, costituzione in mora e successiva liberazione attraverso deposito o altro procedimento previsto. La sola mora non estingue sempre il rapporto. L'**offerta non formale** ha invece il diverso effetto di impedire la mora del debitore senza produrre automaticamente tutti gli effetti della mora credendi.",
+      "daSapere": [
+        "Offerta e liberazione non coincidono",
+        "Rischio e spese possono spostarsi prima dell'estinzione"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1206–1210 e 1220",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    }
+  ]
+}

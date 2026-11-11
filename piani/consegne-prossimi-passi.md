@@ -220,7 +220,7 @@ voci `csm`, `magistratura`, `presidente-del-consiglio` e le lezioni che ne tratt
 
 ## Piano successivo (dall'11 novembre 2026): chiudere la distanza da Diritto romano
 
-Misure dopo l'ultimo giro (da `studio/public/content/<slug>/corso.json`):
+Misure iniziali del piano (da `studio/public/content/<slug>/corso.json`):
 
 | Materia | Voci | Collegamenti per voce | Voci con approfondimento | Domande per lezione | Eventi |
 |---|---|---|---|---|---|
@@ -238,6 +238,7 @@ Passi, in ordine. Uno per volta, con controlli e push a fine passo. File `oltre-
    Conservate le 793 precedenti e l'unità 17; aggiunto l'abbinamento `u16-q070` accanto a quello già presente.
 2. **Diritto privato: approfondimenti.** Da 94 a 250 voci (metà delle voci). Priorità alle voci che sono titolo
    di una lezione o compaiono in più unità. Ogni voce: 80–250 parole, `daSapere`, `fonti` verificate.
+   **Completato:** 156 nuove schede, 250 totali; tredici file `oltre-40.json`–`oltre-52.json`.
 3. **Diritto costituzionale: approfondimenti e schede inverse.** Approfondimenti da 76 a 140; schede inverse da 82
    a 180. Controllare prima lo stato delle riforme costituzionali del 2025–2026 (vedi nota sopra).
 4. **Collegamenti.** Privato da 419 a 800, Costituzionale da 286 a 500, con `tipo` ed `etichetta` che si leggano
@@ -279,4 +280,32 @@ Nel browser **387 prove**: tutte le 243 nuove domande a 393 px, un campione per 
 più l'abbinamento a 320 e 1280 px (72 per larghezza). Risposte, spiegazioni e salvataggio delle carte
 corretti, nessuno sbordo né errore del browser.
 
-Prossimo passo: **Piano successivo, 2 — approfondimenti di diritto privato da 94 a 250**.
+Il passo 2 è documentato sotto.
+
+
+### Piano successivo, passo 2: approfondimenti di privato (11 novembre 2026)
+
+Aggiunte **156 schede**, dodici per ciascuno dei tredici file `oltre-40.json`–`oltre-52.json`:
+**250 approfondimenti su 503 voci**, conservati integralmente i 94 già presenti. Le aggiunte riguardano
+soltanto voci esistenti prive di «oltre», senza creare concetti, esercizi o relazioni nuove nella mappa.
+I collegamenti nel testo rimandano alle voci della materia e sono controllati separatamente.
+
+Blocchi: parte generale e diritto nel tempo; situazioni e capacità; enti e beni; tempo e prove; proprietà
+e godimento; comunione, condominio e possesso; obbligazioni; vicende e garanzie; formazione e rappresentanza;
+effetti del contratto; rimedi e consumo; altri contratti e fonti; famiglia, successioni e pubblicità.
+Testi tra 80 e 250 parole, con casi, confronti o conseguenze pratiche, almeno due punti da ricordare e fonti.
+
+Riscontro normativo sul Codice civile locale allineato a Normattiva il 10 novembre. Per il consumo,
+consultati Normattiva, AGCM e MIMIT e riscontrato direttamente il d.lgs. 176/2026 in Gazzetta Ufficiale:
+art. 1 sull'estensione unica di dodici mesi in caso di riparazione e art. 3 sui contratti dal 31 luglio 2026.
+Nessuna nuova citazione di sentenze da memoria. Rimane la riserva sulle citazioni nelle 40 schede del primo giro.
+
+Controlli completati su una copia pulita di `main` con i soli tredici file nuovi, senza la modifica
+locale preesistente di `Percorso.tsx`: validazione **zero errori e zero avvisi**, build e `check:build`
+superati, inclusi **1.348 controlli su 11 dispositivi**. Confrontate tutte le **250 schede compilate**
+con i file di contenuto, incluse le 94 precedenti; unità, 503 voci, 1.426 domande e schede inverse invariate.
+Nel browser **182 prove**: tutte le 156 nuove schede a 393 px e un campione per ciascun file a 320 e
+1280 px; titoli, testo, punti da ricordare, fonti e rimandi corretti, nessuno sbordo o errore del browser.
+
+Prossimo passo: **Piano successivo, 3 — approfondimenti e schede inverse di diritto costituzionale**;
+verificare prima lo stato delle riforme 2025–2026, come richiesto nel piano.
