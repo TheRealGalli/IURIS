@@ -1,0 +1,165 @@
+{
+  "voci": [
+    {
+      "id": "fonti-delle-obbligazioni",
+      "oltre": "### Un catalogo aperto con controllo giuridico\nL’art. 1173 affianca contratto e fatto illecito a ogni altro atto o fatto idoneo secondo l’ordinamento. La formula rende possibile riconoscere obbligazioni fuori dai due modelli principali, ma richiede una giustificazione giuridica: una promessa sociale non è sempre azionabile.\n\nLa [[gestione-di-affari-altrui]] nasce da un intervento spontaneo utile, l’indebito da una prestazione non dovuta, l’arricchimento dalla mancanza di causa dello spostamento patrimoniale. Sono strutture diverse, con rimedi e presupposti propri. Individuare la fonte serve anche a scegliere le regole speciali, mentre correttezza, contenuto patrimoniale della prestazione e disciplina generale del rapporto rimangono un quadro comune. L’espressione responsabilità contrattuale, riferita all’inadempimento, può quindi riguardare anche un’obbligazione preesistente nata senza contratto.",
+      "daSapere": [
+        "Catalogo aperto: serve idoneità secondo l’ordinamento",
+        "Fonte del debito e disciplina dell’inadempimento sono piani distinti",
+        "Gestione, indebito e arricchimento hanno presupposti propri"
+      ],
+      "collegamenti": [
+        {
+          "da": "fonti-delle-obbligazioni",
+          "a": "gestione-di-affari-altrui",
+          "tipo": "collegato",
+          "etichetta": "comprendono la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1173–1175, 2028, 2033 e 2041 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "solidarieta",
+      "oltre": "### Proteggere il creditore e ripartire il peso\nLa solidarietà passiva permette al creditore di chiedere l’intera prestazione a uno qualsiasi dei condebitori; l’adempimento di uno libera tutti verso di lui. Nei rapporti interni il debito si divide secondo le quote, normalmente uguali salvo diversa risultanza. Chi paga può esercitare il [[regresso]], ma non trasferisce automaticamente tutta la perdita sugli altri.\n\nL’insolvenza di un condebitore si ripartisce anche su chi ha pagato. Inoltre gli eventi non hanno tutti lo stesso effetto collettivo: l’interruzione della prescrizione verso uno opera anche sugli altri, mentre la costituzione in mora normalmente no. La solidarietà riguarda il vincolo fra soggetti; l’indivisibilità riguarda invece una prestazione non frazionabile. Per questo l’indivisibilità può incidere sugli eredi anche dove la semplice solidarietà si divide.",
+      "daSapere": [
+        "Rapporto esterno: ciascuno può dovere l’intero",
+        "Rapporto interno: quote e regresso",
+        "Mora e interruzione della prescrizione non si estendono allo stesso modo"
+      ],
+      "collegamenti": [
+        {
+          "da": "solidarieta",
+          "a": "regresso",
+          "tipo": "collegato",
+          "etichetta": "consente dopo il pagamento il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1292, 1298–1299, 1308 e 1310 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "cessione-del-credito",
+      "oltre": "### Trasferimento e opponibilità\nLa cessione distingue l’accordo che trasferisce il credito dai fatti che rendono rilevante il nuovo titolare verso il debitore e nei conflitti fra cessionari. L’assenso del debitore normalmente non serve; notificazione o accettazione incidono invece su chi possa ricevere un pagamento liberatorio. La conoscenza effettiva può impedire che il debitore paghi utilmente il vecchio creditore.\n\nSe vi sono più cessioni, prevale quella notificata prima o prima accettata con data certa, anche se posteriore. Il credito conserva accessori ed eccezioni del rapporto, mentre esistenza e solvibilità sono oggetto di garanzie differenti. La [[cessione-pro-soluto-e-pro-solvendo]] va quindi letta nella funzione concreta: cedere un credito in pagamento non equivale sempre a estinguere immediatamente il debito originario del cedente.",
+      "daSapere": [
+        "L’accordo trasferisce; notifica e accettazione governano altri effetti",
+        "Più cessionari: priorità della notifica o accettazione con data certa",
+        "Esistenza e solvenza: garanzie differenti"
+      ],
+      "collegamenti": [
+        {
+          "da": "cessione-del-credito",
+          "a": "cessione-pro-soluto-e-pro-solvendo",
+          "tipo": "collegato",
+          "etichetta": "si distingue secondo la funzione in"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1198, 1260–1267 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "delegazione-passiva",
+      "oltre": "### Tre soggetti e due rapporti sottostanti\nLa delegazione permette al debitore di coinvolgere un terzo nell’adempimento o nell’assunzione del debito. Nel modello a promettere il nuovo obbligato si aggiunge normalmente al precedente; la liberazione richiede dichiarazione espressa del creditore. L’accettazione del terzo comporta prima la richiesta di adempimento a lui, non necessariamente una preventiva esecuzione forzata infruttuosa.\n\nI rapporti di provvista e valuta spiegano i pagamenti e il regime delle eccezioni. Una delegazione pura prescinde normalmente dalle eccezioni sottostanti, ma l’art. 1271 pone una specifica eccezione quando la valuta è nulla. Il confronto con l’[[accollo]] riguarda soprattutto l’origine dell’accordo: nella delegazione il debitore dà un incarico; nell’accollo terzo e debitore convengono direttamente l’assunzione, con eventuale adesione del creditore.",
+      "daSapere": [
+        "Delegazione a promettere e di pagamento: funzioni diverse",
+        "Liberazione del debitore originario: dichiarazione espressa",
+        "Provvista e valuta chiariscono le eccezioni"
+      ],
+      "collegamenti": [
+        {
+          "da": "delegazione-passiva",
+          "a": "accollo",
+          "tipo": "collegato",
+          "etichetta": "si confronta per struttura con l’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1268–1273 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "prestazione-in-luogo-dell-adempimento",
+      "oltre": "### Cambiare ciò che si esegue\nNella datio in solutum il debitore esegue, con consenso del creditore, una prestazione diversa da quella dovuta. Offrire un’automobile al posto del denaro non obbliga il creditore ad accettarla, neppure se il valore è superiore. La liberazione si produce con l’effettiva esecuzione della prestazione sostitutiva.\n\nLa [[novazione]] opera invece sul rapporto obbligatorio: il nuovo debito sostituisce quello precedente prima ancora che sia adempiuto. Se la prestazione sostitutiva trasferisce una cosa, l’art. 1197 richiama garanzie per evizione e vizi; il creditore può preferire la prestazione originaria e i danni, senza far rivivere le garanzie dei terzi. Per ripetere, la domanda decisiva è se le parti abbiano sostituito il debito o abbiano concordato un diverso modo di soddisfarlo.",
+      "daSapere": [
+        "Consenso del creditore ed esecuzione effettiva",
+        "Datio: sostituzione della prestazione eseguita",
+        "Novazione: sostituzione dell’obbligazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "prestazione-in-luogo-dell-adempimento",
+          "a": "novazione",
+          "tipo": "collegato",
+          "etichetta": "si distingue dalla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1197 e 1230 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "compensazione",
+      "oltre": "### Due debiti e un saldo\nLa compensazione consente di evitare due pagamenti incrociati quando due persone sono reciprocamente debitrici. Quella legale richiede debiti omogenei, liquidi ed esigibili e produce l’estinzione fino alla concorrenza dal momento della coesistenza; il giudice non può rilevarla d’ufficio.\n\nLa compensazione giudiziale interviene quando un controcredito è di facile e pronta liquidazione; quella volontaria si fonda sull’accordo anche se mancano i requisiti delle altre. Il regime incontra esclusioni protettive, per esempio restituzione di cose depositate o crediti impignorabili. Avere un credito contro qualcuno non autorizza perciò a trattenere qualunque cosa gli appartenga. Il confronto con la [[remissione-del-debito]] mostra una differenza strutturale: la compensazione presuppone reciprocità, mentre la remissione deriva dalla rinuncia del creditore.",
+      "daSapere": [
+        "Legale: omogeneità, liquidità, esigibilità",
+        "Il giudice non la rileva d’ufficio",
+        "Esclusioni e compensazione volontaria hanno regole proprie"
+      ],
+      "collegamenti": [
+        {
+          "da": "compensazione",
+          "a": "remissione-del-debito",
+          "tipo": "collegato",
+          "etichetta": "si distingue per la reciprocità dalla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1241–1252 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "novazione",
+      "oltre": "### Un nuovo debito al posto del precedente\nLa novazione oggettiva richiede un elemento nuovo nell’oggetto o nel titolo e una volontà non equivoca di estinguere l’obbligazione precedente. Cambiare la scadenza, rilasciare un nuovo documento o modificare altre modalità accessorie non basta, da solo, a dimostrare questo effetto.\n\nSe il vecchio debito non esisteva, la novazione resta senza effetto; se derivava da titolo annullabile, rileva la conoscenza del vizio da parte del debitore che assume il nuovo debito. Privilegi, pegno e ipoteca non restano automaticamente a garantire la nuova obbligazione, salvo riserva espressa nei limiti dell’art. 1232. Il confronto con la [[prestazione-in-luogo-dell-adempimento]] permette di distinguere la nascita di un nuovo vincolo dall’esecuzione, accettata dal creditore, di una prestazione diversa.",
+      "daSapere": [
+        "Novità oggettiva e volontà non equivoca",
+        "Modificare una scadenza non basta",
+        "La sorte delle garanzie richiede una verifica autonoma"
+      ],
+      "collegamenti": [
+        {
+          "da": "novazione",
+          "a": "accessorieta-della-garanzia",
+          "tipo": "collegato",
+          "etichetta": "incide sulla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1230–1234 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    }
+  ]
+}

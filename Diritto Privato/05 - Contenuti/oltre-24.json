@@ -1,0 +1,215 @@
+{
+  "voci": [
+    {
+      "id": "annullabilita",
+      "oltre": "### Un’efficacia che la parte può rimuovere\nL’annullabilità protegge interessi individuati, per esempio quelli della persona incapace o ingannata. Il contratto produce effetti fino all’annullamento e può essere stabilizzato mediante [[convalida]]. La protezione non impone sempre di eliminare l’operazione: chi può impugnarla può anche preferire conservarla, quando sia in condizione di contrattare validamente e conosca il vizio.\n\nIl termine ordinario quinquennale ha decorrenze diverse: scoperta per errore o dolo, cessazione per violenza, maggiore età per il minore. Prescritta l’azione, la parte convenuta per eseguire può ancora opporre l’annullabilità. Gli acquisti onerosi dei terzi in buona fede sono normalmente protetti se il vizio non dipende da incapacità legale, con ulteriori regole per la trascrizione. Azione, difesa e acquisti successivi vanno quindi esaminati separatamente.",
+      "daSapere": [
+        "Contratto efficace fino all’annullamento",
+        "Cinque anni: verificare la decorrenza",
+        "Azione prescritta ed eccezione difensiva hanno sorte diversa"
+      ],
+      "collegamenti": [
+        {
+          "da": "annullabilita",
+          "a": "convalida",
+          "tipo": "collegato",
+          "etichetta": "può essere superata mediante"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1441–1445 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "nullita-parziale",
+      "oltre": "### Salvare il regolamento ancora utile\nUna clausola nulla può essere separata dal resto oppure rendere inutilizzabile l’intera operazione. L’art. 1419 richiede di verificare se i contraenti avrebbero concluso il contratto senza la parte colpita; se la clausola è sostituita automaticamente da una norma imperativa, il contratto viene invece conservato.\n\nIl meccanismo evita che chi ha predisposto un contenuto vietato tragga vantaggio dalla caduta di ogni obbligo. La [[nullita-di-protezione]] delle clausole consumeristiche valorizza ancora più chiaramente questa funzione: l’accordo resta valido nel resto secondo la disciplina speciale. La separazione non è però una riscrittura libera del prezzo o degli impegni: bisogna individuare la clausola invalida, la norma applicabile e il collegamento con il contenuto residuo. Conservazione del contratto e tutela della parte protetta si coordinano attraverso questi passaggi.",
+      "daSapere": [
+        "Separabilità e volontà ipotetica delle parti",
+        "Sostituzione legale: conservazione del contratto",
+        "Disciplina consumeristica: regime speciale"
+      ],
+      "collegamenti": [
+        {
+          "da": "nullita-parziale",
+          "a": "nullita-di-protezione",
+          "tipo": "collegato",
+          "etichetta": "si coordina con la speciale"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1339 e 1419 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "conversione-del-contratto-nullo",
+      "oltre": "### Un diverso effetto giuridico\nLa conversione permette al negozio nullo di produrre gli effetti di un contratto diverso, quando ne presenti requisiti di sostanza e forma e risulti che le parti lo avrebbero voluto conoscendo la nullità. La volontà ipotetica si ricostruisce considerando lo scopo perseguito, non attraverso la sola convenienza della soluzione proposta in giudizio.\n\nIl meccanismo si distingue dalla [[convalida]], che stabilizza il contratto annullabile, e dalla rinnovazione, che richiede una nuova stipulazione. Una scrittura priva dei requisiti di un certo atto non viene automaticamente trasformata in qualunque altro atto possibile: occorre verificare contenuto, forma e funzione alternativa. La conversione conserva una parte dell’operazione economica entro un diverso schema valido; non cancella il vizio del contratto originario né attribuisce al giudice un generale potere di sostituire il programma delle parti.",
+      "daSapere": [
+        "Requisiti del diverso contratto",
+        "Scopo e volontà ipotetica",
+        "Distinta da convalida e rinnovazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "conversione-del-contratto-nullo",
+          "a": "convalida",
+          "tipo": "collegato",
+          "etichetta": "si distingue dalla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1423–1424 e 1444 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "nullita-di-protezione",
+      "oltre": "### Rendere effettiva una tutela\nLa nullità di protezione orienta il rimedio al soggetto che una disciplina vuole tutelare. Nei contratti del consumatore colpisce le clausole vessatorie mantenendo valido il resto del contratto; opera a vantaggio del consumatore ed è rilevabile d’ufficio. La presenza di una doppia firma non elimina lo squilibrio sostanziale vietato.\n\nIl confronto con le [[clausole-onerose-standard]] mostra due controlli diversi: la specifica approvazione scritta riguarda la disciplina codicistica delle condizioni generali, mentre il Codice del consumo interviene sul contenuto abusivo. La scelta del rimedio richiede di identificare le parti, la natura della clausola e l’eventuale trattativa individuale. Anche l’espressione parte debole va usata con precisione: non ogni contratto economicamente svantaggioso rientra automaticamente nella stessa protezione.",
+      "daSapere": [
+        "Tutela del consumatore e conservazione del contratto",
+        "Doppia firma e controllo sostanziale sono distinti",
+        "Individuare l’ambito della disciplina speciale"
+      ],
+      "collegamenti": [
+        {
+          "da": "nullita-di-protezione",
+          "a": "clausole-vessatorie-consumo",
+          "tipo": "collegato",
+          "etichetta": "colpisce le"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, art. 1419; artt. 33–36 Codice del consumo (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        },
+        {
+          "titolo": "Codice del consumo, artt. 33–36",
+          "url": "https://www.normattiva.it/eli/id/2005/10/08/005G0232/CONSOLIDATED"
+        }
+      ]
+    },
+    {
+      "id": "convalida",
+      "oltre": "### Conoscere il vizio e scegliere di conservare\nLa convalida espressa richiede menzione del contratto, del motivo di annullabilità e della volontà di eliminarne l’instabilità. Quella tacita deriva dalla volontaria esecuzione conoscendo il vizio. Pagare una rata senza aver ancora scoperto l’inganno non dimostra quindi, da solo, la rinuncia consapevole alla tutela.\n\nLa parte deve anche trovarsi nella condizione di concludere validamente l’accordo: un’incapacità ancora operante può impedire la stabilizzazione. La [[ratifica]] riguarda invece l’atto del rappresentante senza potere e ne assume gli effetti nella sfera del rappresentato. Entrambe permettono di conservare un’operazione, ma risolvono difetti differenti. Il contratto nullo non è normalmente convalidabile; le specifiche eccezioni previste dalla legge vanno individuate senza trasferire automaticamente a ogni invalidità le regole dell’annullamento.",
+      "daSapere": [
+        "Conoscenza del vizio e capacità di contrattare validamente",
+        "Espressa o mediante esecuzione volontaria consapevole",
+        "Ratifica: problema del difetto di potere"
+      ],
+      "collegamenti": [
+        {
+          "da": "convalida",
+          "a": "ratifica",
+          "tipo": "collegato",
+          "etichetta": "si distingue per oggetto dalla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1399, 1423 e 1444 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "errore-vizio",
+      "oltre": "### Il rischio della rappresentazione sbagliata\nLa disciplina dell’errore distribuisce il rischio fra chi forma male la propria volontà e chi fa affidamento sulla dichiarazione. L’essenzialità riguarda la rilevanza dell’errore per il contratto; la riconoscibilità riguarda ciò che una persona normalmente diligente avrebbe potuto cogliere dalle circostanze e dalle qualità delle parti.\n\nUna stima economica deludente non è automaticamente un errore essenziale. Bisogna individuare natura dell’operazione, qualità decisive, identità della persona o motivo giuridico unico o principale. L’[[errore-ostativo]] investe invece la dichiarazione o la sua trasmissione, ma riceve la stessa disciplina di base. La controparte può evitare l’annullamento offrendo tempestivamente l’esecuzione conforme a quanto la parte in errore riteneva pattuito, prima del pregiudizio: una tutela della scelta autentica che può conservare l’operazione.",
+      "daSapere": [
+        "Essenzialità e riconoscibilità hanno funzioni differenti",
+        "Errore di valore non equivale sempre a errore essenziale",
+        "Possibile conservazione mediante esecuzione rettificata"
+      ],
+      "collegamenti": [
+        {
+          "da": "errore-vizio",
+          "a": "errore-ostativo",
+          "tipo": "collegato",
+          "etichetta": "si confronta con l’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1428–1433 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "dolo-determinante",
+      "oltre": "### Verificare quanto l’inganno ha inciso\nIl dolo determinante rende annullabile il contratto quando i raggiri hanno causato una decisione che, senza di essi, non sarebbe stata presa. La relazione causale conta più della sola gravità morale del comportamento: un tentativo d’inganno scoperto e irrilevante nella scelta non basta per quel rimedio.\n\nSe l’autore è un terzo, occorre che il contraente avvantaggiato conoscesse i raggiri. Nel [[dolo-incidente]] la parte avrebbe invece contrattato comunque, ma diversamente: il contratto rimane valido e il contraente in mala fede risponde del danno. Anche il silenzio può rilevare dove esista un dovere d’informazione, da ricostruire nel rapporto. Annullamento e risarcimento richiedono dunque di chiarire autore, conoscenza, informazione dovuta e influenza effettiva sul consenso, senza pretendere sempre una precedente condanna penale.",
+      "daSapere": [
+        "Determinante: senza inganno non si sarebbe contrattato",
+        "Inganno del terzo: conoscenza del contraente avvantaggiato",
+        "Incidente: contratto valido e risarcimento"
+      ],
+      "collegamenti": [
+        {
+          "da": "dolo-determinante",
+          "a": "dolo-incidente",
+          "tipo": "collegato",
+          "etichetta": "si distingue dal"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1337, 1439–1440 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "rescissione",
+      "oltre": "### Il rimedio per uno squilibrio qualificato\nLa rescissione reagisce a condizioni originarie particolari, non a ogni scambio poco conveniente. Nel pericolo occorrono necessità nota alla controparte di salvare una persona da danno grave e attuale e assunzione di obblighi iniqui. Nella lesione servono invece bisogno, approfittamento e sproporzione oltre la metà, persistente alla domanda.\n\nVendere un bene che vale duecento a cento non supera quella soglia; venderlo a novanta la supera, ma resta da dimostrare il contesto soggettivo richiesto. I contratti aleatori sono esclusi dalla rescissione per lesione. L’[[offerta-di-riduzione-ad-equita]] può conservare il contratto; non opera invece la convalida dell’annullabile. Anche il termine ordinario annuale va distinto dalla possibilità di eccepire l’annullabilità dopo la prescrizione: nella rescissione la difesa non sopravvive nello stesso modo.",
+      "daSapere": [
+        "Pericolo e lesione: due fattispecie",
+        "Lesione oltre, non pari alla metà",
+        "Riduzione a equità possibile; convalida esclusa"
+      ],
+      "collegamenti": [
+        {
+          "da": "rescissione",
+          "a": "offerta-di-riduzione-ad-equita",
+          "tipo": "collegato",
+          "etichetta": "può essere evitata con l’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1447–1451 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "risoluzione-per-inadempimento",
+      "oltre": "### Sciogliere il rapporto per una prestazione mancata\nLa risoluzione presuppone un contratto valido a prestazioni corrispettive e reagisce alla mancata attuazione del rapporto. Il rimedio giudiziale richiede un inadempimento non di scarsa importanza rispetto all’interesse dell’altra parte. La prova del danno rimane una questione ulteriore rispetto alla domanda di scioglimento.\n\nLa [[diffida-ad-adempiere]] permette una risoluzione di diritto dopo un’intimazione scritta con termine congruo e avvertimento dell’effetto; la clausola risolutiva espressa richiede invece l’individuazione dell’obbligo e la dichiarazione di avvalersene. Nei rapporti continuati o periodici le prestazioni già eseguite non sono normalmente travolte. La scelta fra adempimento, scioglimento e risarcimento richiede perciò di analizzare natura del rapporto, rilevanza dell’inadempimento e procedimento, oltre al semplice mancato pagamento.",
+      "daSapere": [
+        "Contratto valido e inadempimento rilevante",
+        "Risoluzione e prova del danno: questioni distinte",
+        "Rapporti di durata: tutela delle prestazioni già eseguite"
+      ],
+      "collegamenti": [
+        {
+          "da": "risoluzione-per-inadempimento",
+          "a": "diffida-ad-adempiere",
+          "tipo": "collegato",
+          "etichetta": "può operare mediante"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1453–1458 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    }
+  ]
+}

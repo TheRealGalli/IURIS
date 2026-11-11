@@ -1,0 +1,169 @@
+{
+  "voci": [
+    {
+      "id": "erede",
+      "oltre": "### Qualificare l’attribuzione oltre il nome\nL’erede subentra nell’universalità o in una quota dei rapporti trasmissibili. Un testamento che assegna singoli beni può comunque istituire erede se li considera come quota del patrimonio: l’art. 588 impone di ricostruire il significato dell’attribuzione anziché fermarsi alla parola usata.\n\nLa qualità ereditaria comporta responsabilità per debiti e legati, modulata dalla legge e dall’eventuale [[beneficio-d-inventario]]. Il legatario riceve invece un’attribuzione particolare senza assumere la stessa posizione generale. L’accettazione dell’eredità retroagisce all’apertura ed è normalmente irrevocabile; il chiamato può però compiere prima atti conservativi senza acquistare automaticamente la qualità. Nel caso pratico la distinzione chiamato/erede viene dunque prima del problema su quali beni possano essere venduti o quali debiti debbano essere pagati.",
+      "daSapere": [
+        "Universalità o quota, anche tramite assegnazione di beni",
+        "Chiamato ed erede sono posizioni differenti",
+        "Il beneficio incide sulla responsabilità"
+      ],
+      "collegamenti": [
+        {
+          "da": "erede",
+          "a": "beneficio-d-inventario",
+          "tipo": "collegato",
+          "etichetta": "può limitare la responsabilità mediante il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 459–460, 475–476, 490 e 588 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "beneficio-d-inventario",
+      "oltre": "### Separare senza scegliere soltanto le attività\nIl beneficio conserva distinti patrimonio ereditario e patrimonio personale dell’erede, limita debiti e legati al valore ricevuto e tutela la preferenza dei creditori ereditari. Richiede dichiarazione formale e inventario; non consente di accettare i beni rifiutando selettivamente il passivo.\n\nI termini dipendono anche dal possesso dei beni ereditari. Per il chiamato possessore l’inventario è ordinariamente entro tre mesi dall’apertura o notizia della devoluzione, con possibili proroghe; seguono quaranta giorni per decidere se non ha ancora accettato. Il chiamato non possessore ha una scansione diversa. Alienazioni non autorizzate e omissioni dolose possono far perdere la protezione. La [[rinuncia-eredita]] è un’altra scelta: il beneficio mantiene la qualità di erede, mentre la rinuncia esclude l’acquisto alle condizioni previste.",
+      "daSapere": [
+        "Dichiarazione e inventario, non selezione dei soli beni",
+        "Verificare possesso dei beni e termini",
+        "Beneficio e rinuncia hanno effetti differenti"
+      ],
+      "collegamenti": [
+        {
+          "da": "beneficio-d-inventario",
+          "a": "rinuncia-eredita",
+          "tipo": "collegato",
+          "etichetta": "si distingue dalla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 484–490, 493–494 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "legato",
+      "oltre": "### Acquistare un’attribuzione particolare\nIl legato si acquista senza accettazione, salva rinuncia; se attribuisce un diritto determinato già appartenente al testatore, questo passa normalmente alla morte. Il possesso va tuttavia chiesto all’onerato: acquisto del diritto e disponibilità materiale del bene non coincidono.\n\nIl legato di genere produce invece una pretesa alla prestazione anche se le cose di quel genere mancano nell’asse. Il legatario non è un erede limitato al singolo oggetto: non assume ordinariamente la generalità dei debiti ereditari, pur potendo subire pesi, garanzie e riduzione. Il [[prelegato]] permette inoltre a un coerede di ricevere un’attribuzione particolare a carico dell’intera eredità. Per qualificare una disposizione occorre quindi ricostruire oggetto, volontà e soggetto obbligato all’esecuzione, senza dedurre tutto dall’indicazione di un bene.",
+      "daSapere": [
+        "Acquisto senza accettazione, salva rinuncia",
+        "Diritto acquistato e richiesta del possesso sono distinti",
+        "Genere e diritto determinato producono effetti diversi"
+      ],
+      "collegamenti": [
+        {
+          "da": "legato",
+          "a": "prelegato",
+          "tipo": "collegato",
+          "etichetta": "può assumere la forma del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 649, 653, 661 e 671 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "riunione-fittizia",
+      "oltre": "### Ricostruire la massa prima di calcolare la lesione\nLa riunione fittizia è un’operazione contabile: dai beni lasciati si sottraggono i debiti e si aggiungono le donazioni, applicando le regole di valutazione. Serve a determinare disponibile e riserva, non produce da sola il rientro dei beni donati nel patrimonio ereditario.\n\nCon beni residui di novanta, debiti di trenta e donazioni di sessanta, la massa di calcolo è centoventi. Solo dopo si applica la quota riservata ai familiari presenti e si confrontano le attribuzioni ricevute. La [[collazione]] riguarda invece i conferimenti fra particolari coeredi nella divisione; la riduzione reagisce alle disposizioni lesive. La stessa donazione può quindi entrare in calcoli differenti senza avere identici effetti restitutori. Per l’esame è utile separare formazione della massa, determinazione delle quote e scelta del rimedio.",
+      "daSapere": [
+        "Relictum meno debiti più donatum",
+        "Calcolo della riserva, non restituzione automatica",
+        "Distinta da collazione e riduzione"
+      ],
+      "collegamenti": [
+        {
+          "da": "riunione-fittizia",
+          "a": "collazione",
+          "tipo": "collegato",
+          "etichetta": "si distingue per funzione dalla"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 556 e 737–751 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "azione-di-riduzione",
+      "oltre": "### Rimuovere la lesione nella misura necessaria\nLa riduzione tutela la riserva contro attribuzioni testamentarie o donazioni che la comprimono. L’atto lesivo non è per questo integralmente nullo: il rimedio ne rende inefficaci gli effetti verso il legittimario nella misura necessaria a reintegrare la quota.\n\nPrima si ricostruisce la massa tramite [[riunione-fittizia]], poi si verificano imputazione e condizioni dell’azione. Si riducono le disposizioni testamentarie prima delle donazioni e queste dalla più recente. La posizione del totalmente pretermesso richiede di considerare che non è ancora chiamato all’eredità. Gli effetti verso gli aventi causa dal donatario seguono oggi gli artt. 561–563, modificati dalla legge 182/2025, con compensazione monetaria e specifico transitorio. Quota lesa, legittimazione e sorte dell’acquisto del terzo restano accertamenti distinti, da coordinare con la pubblicità.",
+      "daSapere": [
+        "Rimedio relativo e proporzionato alla lesione",
+        "Prima testamento, poi donazioni dalla più recente",
+        "Acquisti dal donatario: distinguere regime attuale e transitorio"
+      ],
+      "collegamenti": [
+        {
+          "da": "azione-di-riduzione",
+          "a": "riunione-fittizia",
+          "tipo": "collegato",
+          "etichetta": "presuppone il calcolo della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 553–564; legge 182/2025, art. 44 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        },
+        {
+          "titolo": "Legge 182/2025, art. 44: testo ufficiale MEF",
+          "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B2F27D1CA-D557-4695-9236-C9AFF79F0ED3%7D"
+        }
+      ]
+    },
+    {
+      "id": "collazione",
+      "oltre": "### Pareggiare i conti fra alcuni coeredi\nLa collazione riguarda figli, loro discendenti e coniuge che concorrono alla successione, con le equiparazioni legali. Essi conferiscono quanto ricevuto per donazione, direttamente o indirettamente, salvo dispensa efficace entro la disponibile. La funzione è organizzare la divisione fra i soggetti tenuti, non proteggere indistintamente qualsiasi erede.\n\nPer gli immobili il conferente può scegliere restituzione in natura o imputazione del valore, ma se li ha alienati o ipotecati rimane l’imputazione; per i mobili si procede per valore. Spese ordinarie di mantenimento e istruzione sono escluse secondo la disciplina. La [[riunione-fittizia]] ricostruisce invece una massa per la riserva anche quando non vi sia collazione. La differenza emerge subito domandandosi chi concorre, quale liberalità ha ricevuto e a quale problema serve il calcolo.",
+      "daSapere": [
+        "Coeredi individuati dalla legge",
+        "Dispensa solo entro la disponibile",
+        "Conferimento in natura o per valore secondo il bene"
+      ],
+      "collegamenti": [
+        {
+          "da": "collazione",
+          "a": "divisione-ereditaria",
+          "tipo": "collegato",
+          "etichetta": "opera nella"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 737–751 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "rinuncia-eredita",
+      "oltre": "### Una scelta formale con effetti sui successivi chiamati\nLa rinuncia richiede dichiarazione ricevuta da notaio o cancelliere del tribunale competente e inserita nel registro delle successioni. Deve riguardare l’intera eredità ed essere pura: non si può rinunciare soltanto ai debiti o subordinare la scelta a un vantaggio personale.\n\nChi rinuncia è considerato come mai chiamato; la quota viene poi attribuita secondo sostituzione, rappresentazione, accrescimento o ulteriori regole di devoluzione. I creditori pregiudicati hanno un rimedio specifico entro cinque anni, per soddisfarsi sui beni senza diventare eredi. La successiva accettazione del rinunciante è ancora possibile alle condizioni dell’art. 525, finché il diritto non sia prescritto e altri non abbiano acquistato. Il confronto con l’[[accettazione-eredita]] mostra perciò un’asimmetria: l’acquisto normalmente non si ritira liberamente, mentre la rinuncia può lasciare aperto un ritorno limitato.",
+      "daSapere": [
+        "Dichiarazione formale, integrale e pura",
+        "La rinuncia apre il problema della devoluzione successiva",
+        "Possibile successiva accettazione alle condizioni legali"
+      ],
+      "collegamenti": [
+        {
+          "da": "rinuncia-eredita",
+          "a": "accettazione-eredita",
+          "tipo": "collegato",
+          "etichetta": "si distingue dall’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 519–527 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    }
+  ]
+}

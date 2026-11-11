@@ -4,6 +4,12 @@ Stato: **18 unità completate e validate**. Questo piano propone una strada; ada
 trovi una divisione migliore. Le regole generali (formato, controlli, trappole dell'ambiente) sono in
 [`../AGENTS.md`](../AGENTS.md) e [`../studio/CONTENUTI.md`](../studio/CONTENUTI.md).
 
+Passo 6, 11 novembre 2026: aggiunte **20 schede «Oltre gli appunti»** in `oltre-20.json`, che portano
+gli approfondimenti a **36** senza modificare i 16 precedenti. Esempi e distinzioni su fonti, referendum,
+fiducia, rappresentanza, diritti, giustizia costituzionale e rapporti con l'UE; ogni scheda ha fonti e punti
+da ricordare. Riferimenti principali: Costituzione, legge 87/1953, TFUE art. 267 e Corte cost. 1146/1988,
+238/2014, consultate sul portale ufficiale. Controlli nel riepilogo del passo 6 delle consegne.
+
 ## La fonte
 
 Una sola, in `Diritto Costituzionale/00 - Appunti e fonti/` (fuori da git):

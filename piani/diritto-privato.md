@@ -17,6 +17,11 @@ Passo 5: aggiunto `quadro.json` con **7 schemi** in Mappa → Quadro: fonti, sit
 diritti reali, obbligazioni, invalidità e rimedi, percorso successorio, quote legali e riserva a confronto.
 Le reti sono accompagnate da spiegazioni testuali e collegamenti alle voci della materia.
 
+Passo 6: **54 nuovi approfondimenti** nei file `oltre-20.json`–`oltre-27.json`, sui blocchi proprietà,
+possesso, obbligazioni, contratto, invalidità, responsabilità, famiglia e successioni; **94 totali**,
+conservando le 40 schede del primo giro. Ogni aggiunta ha fonti, punti da ricordare e casi o confronti.
+Le citazioni di Cassazione del primo giro conservano la riserva di verifica annotata nelle consegne.
+
 Stato: **completato**. Fonte arrivata il 10 novembre 2026: dispensa di Nick Petrullo e Ludovico Mainieri sul manuale
 Torrente–Schlesinger (2012), 238 pagine fitte, 72 capitoli. Testo per pagina in
 `Diritto Privato/00 - Appunti e fonti/testo/torrente-dispense.txt`. Completate le 27 unità (pp. 1–238); la materia è attiva nei tre corsi.

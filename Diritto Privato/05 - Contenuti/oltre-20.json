@@ -1,0 +1,146 @@
+{
+  "voci": [
+    {
+      "id": "funzione-sociale",
+      "oltre": "### Un criterio che conforma il diritto\nLa funzione sociale permette di leggere insieme i poteri del proprietario e i limiti stabiliti nell’interesse collettivo. L’art. 832 c.c. riconosce godimento e disposizione entro limiti e obblighi dell’ordinamento; l’art. 42 Cost. affida alla legge anche il compito di rendere la proprietà accessibile. Il proprietario di un edificio, per esempio, conserva il proprio diritto ma incontra regole urbanistiche e rapporti di vicinato.\n\nLa funzione sociale orienta legislazione e interpretazione. Per applicare un limite concreto occorre identificarne il fondamento normativo: non attribuisce a chiunque il potere di occupare il bene altrui. L’[[espropriazione-per-pubblica-utilita]] richiede invece uno specifico procedimento e la garanzia dell’indennizzo.",
+      "daSapere": [
+        "Art. 832 c.c. e art. 42 Cost.: poteri e conformazione legale",
+        "Individuare sempre il limite concretamente applicabile",
+        "Espropriazione: fattispecie distinta"
+      ],
+      "collegamenti": [
+        {
+          "da": "funzione-sociale",
+          "a": "proprieta",
+          "tipo": "collegato",
+          "etichetta": "conforma i poteri della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, art. 832; art. 42 Cost. (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        },
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 42",
+          "url": "https://www.quirinale.it/it/pagine/costituzione-repubblica-italiana"
+        }
+      ]
+    },
+    {
+      "id": "superficie",
+      "oltre": "### Separare suolo e costruzione\nLa superficie introduce una separazione rispetto all’[[accessione]]: il proprietario del suolo può consentire a un altro di costruire e mantenere una proprietà distinta, oppure alienare separatamente la costruzione già esistente. È così possibile distinguere il terreno comunale dall’edificio del concessionario, nei limiti del titolo e della disciplina applicabile.\n\nOccorre distinguere il diritto di costruire dalla proprietà superficiaria già realizzata. Il primo si prescrive per non uso ventennale; la proprietà della costruzione segue la disciplina della proprietà. Alla scadenza di una superficie temporanea l’edificio diventa del proprietario del suolo; il perimento non estingue da solo il diritto, salvo patto contrario. Questo spiega perché durata del titolo e vicende materiali dell’edificio vadano esaminate separatamente.",
+      "daSapere": [
+        "Suolo e costruzione possono avere proprietari diversi",
+        "Diritto di costruire: non uso ventennale",
+        "Scadenza e perimento hanno effetti differenti"
+      ],
+      "collegamenti": [
+        {
+          "da": "superficie",
+          "a": "accessione",
+          "tipo": "collegato",
+          "etichetta": "deroga al normale effetto dell’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 952–954 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "usufrutto",
+      "oltre": "### Godere conservando la destinazione\nL’usufrutto distribuisce le utilità della cosa fra usufruttuario e nudo proprietario. Il primo ricava l’uso e i frutti, rispettando la destinazione economica; il secondo conserva una titolarità che si riespande alla cessazione. L’usufrutto a favore di una persona fisica termina comunque con la sua morte; per una persona giuridica non può superare trent’anni.\n\nUn appartamento in usufrutto può essere abitato o locato, ma l’utilizzazione deve rispettare il contenuto del diritto. Riparazioni ordinarie e straordinarie sono distribuite dagli artt. 1004–1005 c.c.: l’usufruttuario sopporta le prime e quelle straordinarie rese necessarie dalla sua omissione della manutenzione ordinaria. La distinzione dalla [[locazione]] emerge soprattutto nell’opponibilità e nella natura reale del diritto.",
+      "daSapere": [
+        "Durata massima: vita della persona fisica; trent’anni per la giuridica",
+        "Obbligo di rispettare la destinazione economica",
+        "Manutenzione: distinguere natura e causa della spesa"
+      ],
+      "collegamenti": [
+        {
+          "da": "usufrutto",
+          "a": "nuda-proprieta",
+          "tipo": "collegato",
+          "etichetta": "lascia al titolare la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 978–981, 1004–1005 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "servitu",
+      "oltre": "### Un’utilità fra fondi\nLa servitù collega un fondo dominante e un fondo servente appartenenti a proprietari diversi. L’utilità deve riferirsi al fondo, anche come maggiore comodità o amenità: concedere il passaggio per raggiungere una casa è diverso da concedere un favore personale destinato a esaurirsi con chi lo riceve.\n\nIl titolare del fondo servente deve normalmente tollerare o astenersi; un obbligo positivo può accompagnare la servitù se previsto dal titolo o dalla legge. Le opere necessarie all’esercizio spettano di regola al dominante, da compiere con il minor incomodo per il servente. Per acquisto mediante [[usucapione]] o destinazione del padre di famiglia servono servitù apparenti: opere visibili e permanenti rendono riconoscibile il rapporto, mentre la sola frequenza del passaggio non sostituisce quel requisito.",
+      "daSapere": [
+        "Utilità del fondo, non mero vantaggio personale",
+        "Regola: tollerare o non fare; prestazioni accessorie possibili",
+        "Usucapione: rileva l’apparenza"
+      ],
+      "collegamenti": [
+        {
+          "da": "servitu",
+          "a": "fondo-dominante-e-servente",
+          "tipo": "collegato",
+          "etichetta": "collega il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1027–1030, 1061 e 1069 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "azione-di-rivendicazione",
+      "oltre": "### Ottenere la cosa provando il diritto\nLa rivendicazione serve al proprietario che domanda la restituzione contro chi possiede o detiene il bene. Non basta dimostrare che il convenuto abbia un titolo debole: l’attore deve fondare il proprio acquisto. Se invoca un trasferimento derivativo può essere necessario risalire agli acquisti precedenti, fino a un acquisto originario, anche dimostrato attraverso l’[[usucapione]].\n\nLa restituzione contrattuale segue invece un rapporto già esistente: il locatore può chiedere il rilascio alla fine della locazione senza trasformare sempre la domanda in rivendicazione. L’azione proprietaria è imprescrittibile, ma il bene può essere usucapito da altri. La mancata prescrizione dell’azione conserva dunque la tutela del diritto esistente, senza impedire che maturi un acquisto altrui.",
+      "daSapere": [
+        "L’attore fonda il proprio diritto, non la sola debolezza del convenuto",
+        "Distinguere rivendicazione e restituzione contrattuale",
+        "Imprescrittibilità salva l’usucapione altrui"
+      ],
+      "collegamenti": [
+        {
+          "da": "azione-di-rivendicazione",
+          "a": "azioni-petitorie",
+          "tipo": "collegato",
+          "etichetta": "appartiene alle"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, art. 948 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "azione-negatoria",
+      "oltre": "### Contestare un peso sul bene\nLa negatoria permette al proprietario di far dichiarare inesistente il diritto reale che altri afferma sulla cosa, quando vi sia ragione di temerne pregiudizio. Se il vicino sostiene una servitù di passaggio, il problema riguarda l’esistenza del peso: la domanda non coincide con il recupero del possesso materiale.\n\nL’attore dimostra la propria proprietà e la contestazione pregiudizievole; chi invoca il diritto limitativo deve provarne il fondamento. Se vi sono turbative o molestie, si possono chiedere cessazione e risarcimento, con prova del danno. Il confronto con l’[[azione-confessoria]] aiuta a ripetere: nella negatoria si nega il diritto altrui, nella confessoria il titolare della servitù ne domanda riconoscimento e tutela. I fatti concreti orientano la scelta dell’azione.",
+      "daSapere": [
+        "Domanda: inesistenza del diritto altrui affermato sul bene",
+        "Possibili cessazione delle molestie e danni",
+        "Confronto utile con la confessoria"
+      ],
+      "collegamenti": [
+        {
+          "da": "azione-negatoria",
+          "a": "azione-confessoria",
+          "tipo": "collegato",
+          "etichetta": "si confronta con l’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 949 e 1079 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    }
+  ]
+}

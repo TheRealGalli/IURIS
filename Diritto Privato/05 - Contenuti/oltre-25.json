@@ -1,0 +1,119 @@
+{
+  "voci": [
+    {
+      "id": "imputabilita-civile",
+      "oltre": "### Capacità naturale e responsabilità\nL’imputabilità riguarda la capacità d’intendere e di volere al momento del danno, non la sola età o capacità legale di stipulare contratti. Anche un minore può comprendere il significato del proprio comportamento; una persona adulta può invece essere naturalmente incapace nel momento rilevante.\n\nL’incapacità non libera se dipende da colpa dell’autore. Negli altri casi l’art. 2047 pone il problema della sorveglianza, con prova di non aver potuto impedire il fatto. Se il danneggiato non ottiene il risarcimento, il giudice può attribuire un’equa indennità a carico dell’incapace, considerate le condizioni economiche delle parti. Il confronto con la [[responsabilita-dei-preponenti]] mostra che capacità dell’autore, dovere di sorveglianza e rischio dell’organizzazione sono criteri diversi, da non ricondurre a una generica responsabilità di chi è più vicino al fatto.",
+      "daSapere": [
+        "Conta la capacità naturale al momento del fatto",
+        "Incapacità colpevole: non esonera",
+        "Sorveglianza e indennità equitativa hanno presupposti propri"
+      ],
+      "collegamenti": [
+        {
+          "da": "imputabilita-civile",
+          "a": "responsabilita-dei-preponenti",
+          "tipo": "collegato",
+          "etichetta": "si distingue dal criterio della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2046–2049 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "responsabilita-dei-preponenti",
+      "oltre": "### Il rischio dell’attività organizzata\nL’art. 2049 collega la responsabilità del preponente ai danni arrecati dal preposto nell’esercizio delle incombenze affidate. Occorre un nesso funzionale con il lavoro: l’illecito non deve necessariamente eseguire un ordine, ma il rapporto non può costituire una semplice coincidenza estranea al danno.\n\nLa norma non offre la stessa prova liberatoria prevista per genitori, sorveglianti o precettori. Il preponente non si libera dimostrando soltanto di aver scelto e controllato con cura il collaboratore. Nei rapporti contrattuali l’art. 1228 disciplina invece la responsabilità per gli ausiliari impiegati nell’adempimento. Il confronto con la [[responsabilita-da-inadempimento]] chiarisce la prima domanda di ogni caso: il danneggiato lamenta la violazione di un’obbligazione già esistente oppure un danno al di fuori di quel rapporto?",
+      "daSapere": [
+        "Serve un collegamento funzionale con le incombenze",
+        "La sola prova di diligente scelta e vigilanza non libera",
+        "Ausiliari contrattuali: art. 1228"
+      ],
+      "collegamenti": [
+        {
+          "da": "responsabilita-dei-preponenti",
+          "a": "responsabilita-da-inadempimento",
+          "tipo": "collegato",
+          "etichetta": "si confronta con il regime della"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1228 e 2049 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "danno-da-cosa-in-custodia",
+      "oltre": "### Dal governo della cosa al caso fortuito\nLa custodia dipende dal potere effettivo di governo della cosa, che non appartiene necessariamente al proprietario. Chi domanda il risarcimento deve dimostrare il danno e il suo collegamento causale con la cosa; una caduta nei pressi di una scala non dimostra da sola che la scala l’abbia provocata.\n\nIl custode risponde salvo **caso fortuito**: occorre un fattore con efficacia causale idonea a spezzare il collegamento, anche proveniente dal terzo o dalla vittima. La condotta imprudente del danneggiato può anche limitarsi a concorrere con la cosa e ridurre il risarcimento. La prova liberatoria riguarda quindi la causalità dell’evento, oltre la generica affermazione di avere svolto manutenzione diligente. Proprietà, custodia e responsabilità richiedono ciascuna un accertamento proprio.",
+      "daSapere": [
+        "Custodia: potere effettivo sulla cosa",
+        "Il danneggiato prova il nesso cosa-danno",
+        "Fortuito e concorso della vittima hanno effetti differenti"
+      ],
+      "collegamenti": [
+        {
+          "da": "danno-da-cosa-in-custodia",
+          "a": "nesso-causale-illecito",
+          "tipo": "collegato",
+          "etichetta": "richiede l’accertamento del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2051, 2056 e 1227 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "attivita-pericolosa",
+      "oltre": "### Una prova liberatoria più impegnativa\nL’attività può essere pericolosa per la sua natura o per i mezzi adoperati. L’art. 2050 impone a chi la esercita di provare di avere adottato tutte le misure idonee a evitare il danno. Il criterio considera l’attività organizzata e il rischio creato, non soltanto il carattere imprudente di un singolo gesto.\n\nLa vittima deve comunque fondare il collegamento fra attività ed evento dannoso. Il rispetto delle prescrizioni minime non risolve sempre la prova di tutte le cautele concretamente idonee. Il confronto con il [[danno-da-cosa-in-custodia]] evita di confondere i regimi: nella custodia si discute soprattutto il fortuito, qui le misure preventive richieste dalla pericolosità. Individuare prima la fonte del rischio permette di sapere quale fatto deve essere dimostrato e da chi.",
+      "daSapere": [
+        "Pericolosità per natura o mezzi",
+        "Prova di tutte le misure idonee",
+        "Causalità e prevenzione sono accertamenti distinti"
+      ],
+      "collegamenti": [
+        {
+          "da": "attivita-pericolosa",
+          "a": "danno-da-cosa-in-custodia",
+          "tipo": "collegato",
+          "etichetta": "si confronta con il diverso regime del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2050–2051 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "reintegrazione-in-forma-specifica",
+      "oltre": "### Ripristinare oppure pagare l’equivalente\nLa riparazione in forma specifica mira a ricostituire la situazione lesa: ripristinare un muro danneggiato o rimuovere una conseguenza materiale dell’illecito. Il danneggiato può domandarla se possibile, anche soltanto in parte; il giudice può disporre il risarcimento per equivalente se il ripristino risulta eccessivamente oneroso per il debitore.\n\nL’equivalente monetario deve compensare il [[danno-patrimoniale]] o non patrimoniale accertato e non costituisce necessariamente un rimedio meno completo. Un ordine di cessazione di un comportamento può invece avere funzione inibitoria, prevenendo nuovi danni senza coincidere con il ristoro di quelli passati. Per scegliere la tutela occorre quindi distinguere eliminazione dell’attività lesiva, ripristino delle conseguenze già prodotte e attribuzione di una somma, verificando per ognuna possibilità e presupposti.",
+      "daSapere": [
+        "Ripristino possibile anche parzialmente",
+        "Eccessiva onerosità: possibile risarcimento per equivalente",
+        "Inibitoria e risarcimento hanno funzioni differenti"
+      ],
+      "collegamenti": [
+        {
+          "da": "reintegrazione-in-forma-specifica",
+          "a": "danno-patrimoniale",
+          "tipo": "collegato",
+          "etichetta": "può riparare il"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, art. 2058 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    }
+  ]
+}

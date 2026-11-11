@@ -49,7 +49,7 @@ Costituzionale è scritto alle soglie minime del validatore: definizioni di 31 p
 ## Da fare
 
 - **Diritto privato** (completato il 10 novembre 2026): 27 unità, 98 lezioni, 503 voci e 1.426 domande sulle pp. 1–238,
-  con Codice civile consultabile, Originali completi, 333 schede inverse e Quadro con 7 schemi. Restano esercizi dedicati e la verifica
+  con Codice civile consultabile, Originali completi, 333 schede inverse, 94 approfondimenti e Quadro con 7 schemi. Restano esercizi dedicati e la verifica
   puntuale degli articoli del Codice modificati dopo luglio 2022.
 - **Costituzionale**: definizioni brevi del glossario ancora da ampliare (media 31 parole); sentenze storiche della
   Corte come voci di glossario; domande reali degli appelli, se la classe le raccoglie.
@@ -57,8 +57,8 @@ Costituzionale è scritto alle soglie minime del validatore: definizioni di 31 p
   domande d'esame (`aperta`) che mancavano e le 81 domande che portano ogni lezione in programma alle soglie minime
   (flashcard, risposta multipla, vero/falso, completa, un `ordina` per unità): 793 domande in tutto. La u17 è fuori
   programma e resta com'è. Le domande nuove seguono le sintesi delle lezioni, non le sbobinature. Aggiunte anche 168 schede inverse
-  (dalla definizione breve delle voci, riscritta dove non bastava a riconoscerle). Restano: gli approfondimenti
-  «oltre gli appunti», che mancano; sintesi di circa 540 parole per lezione contro le 940 di Filosofia A-L
+  (dalla definizione breve delle voci, riscritta dove non bastava a riconoscerle). Sono disponibili 81 approfondimenti
+  «oltre gli appunti» (61 del primo giro e 20 del passo 6). Restano: sintesi di circa 540 parole per lezione contro le 940 di Filosofia A-L
   (il validatore ne segnala 16 come corte); un `abbina` per la u16.
 - **Procedimenti di Romano** (i tre processi) come esercizi della serie `procedimenti`.
 

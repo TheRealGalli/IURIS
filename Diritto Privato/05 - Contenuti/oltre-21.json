@@ -1,0 +1,158 @@
+{
+  "voci": [
+    {
+      "id": "detenzione",
+      "oltre": "### Il potere materiale e il titolo\nL’inquilino usa la casa in base a un rapporto che riconosce la posizione del proprietario: ha detenzione, mentre il locatore può continuare a possedere per suo mezzo. Questa distinzione permette di comprendere perché la consegna delle chiavi non trasferisca necessariamente né proprietà né possesso autonomo.\n\nChi esercita un potere di fatto si presume possessore; se però risulta un’origine di detenzione, il semplice mutamento dell’intenzione non basta a convertirla. Occorre l’[[interversione-del-possesso]], mediante opposizione verso il possessore o causa proveniente da un terzo. La detenzione può ricevere tutela contro lo spoglio, salvo ragioni di servizio o ospitalità. Protezione possessoria del detentore e possibilità di usucapire restano quindi questioni diverse, dipendenti da presupposti propri.",
+      "daSapere": [
+        "Detenzione: potere materiale che riconosce il titolo altrui",
+        "Il titolo iniziale conta per il mutamento successivo",
+        "Anche il detentore qualificato può reagire allo spoglio"
+      ],
+      "collegamenti": [
+        {
+          "da": "detenzione",
+          "a": "interversione-del-possesso",
+          "tipo": "collegato",
+          "etichetta": "può mutare mediante l’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1140–1141 e 1168 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "interversione-del-possesso",
+      "oltre": "### Rendere riconoscibile il cambiamento\nL’interversione tutela la certezza dei rapporti: chi ha ricevuto un bene come detentore non inizia a usucapirlo soltanto decidendo interiormente di considerarlo proprio. L’opposizione deve manifestare al possessore una pretesa incompatibile con il rapporto precedente; anche una causa proveniente da un terzo può determinare il cambiamento.\n\nLasciare scadere una locazione o omettere il canone non dimostra automaticamente una nuova situazione possessoria. Occorrono fatti idonei, valutati nel contesto. Un problema analogo riguarda chi possiede già a titolo di un diritto reale minore e pretende di usucapire la proprietà: l’art. 1164 richiede un mutamento del titolo, con decorrenza del tempo dalla trasformazione. La prova deve riguardare il nuovo comportamento giuridicamente significativo, oltre alla durata dell’uso.",
+      "daSapere": [
+        "Una decisione interna non trasforma la detenzione",
+        "Opposizione verso il possessore o causa da terzo",
+        "Usucapione della proprietà: il tempo parte dal mutamento idoneo"
+      ],
+      "collegamenti": [],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1141 e 1164 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "buona-fede-possessoria",
+      "oltre": "### Ignoranza e affidamento\nLa buona fede possessoria è ignoranza di ledere il diritto altrui; è presunta e basta al momento dell’acquisto. La colpa grave impedisce però di invocarla. La valutazione riguarda il comportamento concreto: acquistare da circostanze manifestamente sospette non equivale all’affidamento normalmente protetto.\n\nGli effetti cambiano secondo l’istituto. Nel [[possesso-vale-titolo]] la buona fede deve accompagnare il possesso ottenuto con un titolo idoneo; per l’usucapione ordinaria immobiliare non è richiesta. In materia di frutti consente al possessore di trattenerli fino alla domanda giudiziale, mentre dopo operano obblighi diversi. Sapere successivamente del difetto non riscrive automaticamente la qualità iniziale: occorre applicare la specifica norma sugli effetti, anziché usare buona o mala fede come un giudizio morale generale.",
+      "daSapere": [
+        "Buona fede presunta; esclusa dalla colpa grave",
+        "Rileva al momento dell’acquisto",
+        "Gli effetti dipendono dalla singola disciplina"
+      ],
+      "collegamenti": [
+        {
+          "da": "buona-fede-possessoria",
+          "a": "possesso-vale-titolo",
+          "tipo": "collegato",
+          "etichetta": "è un requisito del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1147–1148, 1153 e 1158 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "accessione-del-possesso",
+      "oltre": "### Sommare periodi senza confonderli\nIl successore a titolo particolare può unire il proprio possesso a quello del precedente titolare per farne valere gli effetti. La facoltà serve, per esempio, a completare il tempo necessario all’[[usucapione]], quando la catena dei possessi e le rispettive qualità siano dimostrate. Non basta una generica continuità nell’occupazione: occorre collegare i poteri di fatto ai titoli successivi.\n\nL’erede, invece, continua il possesso del defunto con le sue caratteristiche, a partire dall’apertura della successione. La differenza fra continuazione e unione facoltativa spiega perché la buona fede personale del successore non cancelli ogni vizio del periodo precedente. Chi invoca un termine abbreviato deve dimostrare anche i requisiti particolari di quel modo d’acquisto, oltre alla somma dei periodi.",
+      "daSapere": [
+        "Erede: continuazione del possesso",
+        "Successore particolare: unione facoltativa",
+        "Il computo del tempo non elimina i requisiti dell’usucapione"
+      ],
+      "collegamenti": [
+        {
+          "da": "accessione-del-possesso",
+          "a": "usucapione",
+          "tipo": "collegato",
+          "etichetta": "può concorrere al tempo dell’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, art. 1146 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "frutti-e-spese-del-possessore",
+      "oltre": "### Restituire il bene e regolare le utilità\nLa restituzione della cosa apre un conto separato su frutti, riparazioni e miglioramenti. Il possessore di buona fede trattiene i frutti fino alla domanda giudiziale; da allora deve anche quelli che avrebbe potuto percepire usando diligenza. Le spese necessarie a produrre e raccogliere i frutti si coordinano con la loro restituzione.\n\nPer i miglioramenti ancora esistenti, la buona fede dà un’indennità pari all’aumento di valore; la mala fede limita alla minor somma tra spesa e aumento. Le riparazioni straordinarie sono rimborsate anche al possessore di mala fede. Il [[diritto-di-ritenzione]] dell’art. 1152 protegge invece quello di buona fede, con prova e controllo giudiziale dei crediti: l’avere sostenuto una spesa non attribuisce una facoltà universale di trattenere beni altrui.",
+      "daSapere": [
+        "Separare frutti, riparazioni e miglioramenti",
+        "Miglioramenti: aumento di valore o minor somma secondo la buona fede",
+        "Ritenzione: tutela specifica del possessore di buona fede"
+      ],
+      "collegamenti": [
+        {
+          "da": "frutti-e-spese-del-possessore",
+          "a": "diritto-di-ritenzione",
+          "tipo": "collegato",
+          "etichetta": "può fondare lo specifico"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1148–1152 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "titolo-idoneo",
+      "oltre": "### Un titolo valido, non il potere mancante\nIl titolo idoneo è un atto che trasferirebbe il diritto se chi lo compie ne fosse titolare o avesse il potere necessario. Una vendita valida proveniente da un non proprietario può quindi essere idonea; un contratto nullo per difetto di forma non diventa tale grazie alla consegna.\n\nQuesta distinzione spiega gli acquisti a non domino. Nel [[possesso-vale-titolo]] occorrono anche consegna e buona fede; nell’usucapione abbreviata immobiliare servono trascrizione e possesso decennale. Il titolo non viene reso valido da questi elementi: è il difetto di legittimazione dell’alienante che la fattispecie d’acquisto permette di superare. La verifica segue perciò due domande: l’atto è valido? L’ordinamento protegge l’acquirente contro il difetto di titolarità?",
+      "daSapere": [
+        "Idoneità: validità dell’atto al netto della titolarità dell’alienante",
+        "Consegna e buona fede servono nel possesso vale titolo",
+        "La nullità del titolo non è sanata dall’affidamento"
+      ],
+      "collegamenti": [
+        {
+          "da": "titolo-idoneo",
+          "a": "possesso-vale-titolo",
+          "tipo": "collegato",
+          "etichetta": "è presupposto del"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1153 e 1159 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    },
+    {
+      "id": "usucapione-abbreviata",
+      "oltre": "### Tempo ridotto e circolazione dei beni\nIl termine abbreviato bilancia la stabilità della proprietà con l’affidamento di chi acquista da un non proprietario. Per gli immobili occorrono buona fede, titolo idoneo debitamente trascritto e possesso decennale dalla trascrizione. Se manca un elemento, non basta avere pagato il prezzo o conservato l’atto per dieci anni.\n\nIl confronto con i mobili registrati evidenzia che la durata dipende dal bene: tre anni dalla trascrizione con i requisiti speciali, altrimenti dieci. La piccola proprietà rurale ha una disciplina ulteriore, con termini di quindici e cinque anni e presupposti propri. Per ripetere correttamente conviene seguire l’ordine bene, titolo, buona fede, pubblicità e tempo, evitando di trattare l’[[usucapione]] come un unico automatismo basato sugli anni trascorsi.",
+      "daSapere": [
+        "Immobili: dieci anni dalla trascrizione con requisiti cumulativi",
+        "Mobili registrati: tre anni nella fattispecie abbreviata",
+        "Individuare sempre il tipo di bene"
+      ],
+      "collegamenti": [
+        {
+          "da": "usucapione-abbreviata",
+          "a": "usucapione",
+          "tipo": "collegato",
+          "etichetta": "costituisce una fattispecie dell’"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1159, 1159-bis e 1162 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ]
+    }
+  ]
+}

@@ -19,7 +19,7 @@ Regole valide per tutti i passi:
 | 3 | Schede inverse di privato | Completato: 333 schede curate, con copertura di tutte le 27 unità |
 | 4 | Stile delle unità 12–27 di privato | Completato: revisionate 67 lezioni, precisate 64 sintesi; tutte entro 550 parole |
 | 5 | Quadro di privato e di Filosofia | Completato: 20 schemi, 7 di privato, 6 di Filosofia LMG e 7 di Filosofia SSG |
-| 6 | Approfondimenti («oltre») | Avviato (Claude, 11 nov.): 40 voci di Diritto privato in `oltre-10.json`, 61 di Filosofia SSG in `oltre-10.json` (riprese da Filosofia LMG). Da fare: altre voci di privato, Costituzionale (ne ha 16). Usare numeri di file nuovi, non questi |
+| 6 | Approfondimenti («oltre») | Completato: 94 nuove schede con fonti; totali 94 di privato, 36 di Costituzionale e 81 di Filosofia SSG; conservate le aggiunte precedenti |
 | 7 | Filosofia SSG: più voci | Primo giro fatto (Claude, 11 nov.): 48 voci nuove in `oltre-11.json` (293 in tutto), premesse in `glossario.json`, etichette per gli Originali. Manca l'`abbina` dell'unità 16 e un secondo giro sui concetti |
 | 8 | «art. N Cost.» da privato alla Costituzione | Fatto (Claude, 11 nov.): il collegamento cambia materia e apre l'articolo, se il corso ha Diritto costituzionale |
 
@@ -140,7 +140,7 @@ lezioni e domande conservate dopo la normale risoluzione degli alias. Nel browse
 (ogni schema a 320, 393 e 1280 px) su apertura delle schede, testo, collegamenti, geometria delle reti e
 assenza di sbordi della pagina; nessun testo fuori dai nodi o etichetta sopra i nodi, nessun errore del browser.
 
-Ripartire dal **passo 6: approfondimenti «oltre»**.
+Il passo successivo è documentato sotto.
 
 ## 6. Approfondimenti («oltre»)
 
@@ -148,6 +148,36 @@ Formato `oltre-NN.json` in `studio/CONTENUTI.md`; esempio `Diritto Costituzional
 modello di ricchezza: quelli di Diritto romano. Ordine: Diritto privato (una decina di voci per blocco:
 proprietà, possesso, obbligazione, contratto, nullità, responsabilità civile, famiglia, successioni), poi
 Costituzionale, poi Filosofia SSG. Solo contenuti verificabili, con la fonte.
+
+Passo 6, 11 novembre 2026: aggiunte **94 schede originali**, ciascuna con testo di 80–250 parole,
+punti da ricordare, collegamenti e almeno una fonte. Nessun nuovo concetto o esercizio: gli identificativi
+e i contenuti delle lezioni restano invariati. Le nuove schede approfondiscono voci ancora prive di «oltre»;
+nessuna sovrascrive le 117 già presenti.
+
+- **Privato: 54 nuove, 94 totali.** File `oltre-20.json`–`oltre-27.json`, negli otto blocchi proprietà,
+  possesso, obbligazioni, contratto, invalidità e rimedi, responsabilità, famiglia e successioni.
+  Casi e confronti sviluppano il testo vigente del Codice civile già presente nell'app. Fonti aggiuntive
+  per consumo, unioni civili, adozione e donazioni; nessuna nuova citazione di Cassazione da memoria.
+- **Costituzionale: 20 nuove, 36 totali.** `oltre-20.json`: revisione e limiti, riserva di legge,
+  delegazione, referendum, fiducia, rappresentanza, diritti, giustizia costituzionale, rinvio UE e tributi.
+  Verificate sul sito ufficiale Corte cost. 1146/1988 e 238/2014; testo della Costituzione dal Quirinale.
+- **Filosofia SSG: 20 nuove, 81 totali.** `oltre-20.json`: Hart e pratica delle regole, Foucault e
+  dispositivi, spettatore e Arendt, intenzionalità collettiva, fatti istituzionali, documentalità,
+  governance, interpretazione e distinzione essere/dover essere. Fonti universitarie e bibliografiche,
+  testi di Foucault, documentazione Nobel e repertorio Stanford; evitati riferimenti a Moro e Cotta.
+
+Riferimenti normativi verificati nel Codice locale allineato a Normattiva e, per le discipline esterne,
+nei portali ufficiali indicati nelle schede. Corte cost. **79/2022** sull'adozione in casi particolari
+riscontrata direttamente nel dispositivo. La nota qui sotto sulle sentenze delle **40 schede precedenti**
+di Claude rimane valida: questo giro non certifica retroattivamente tutte le loro citazioni.
+I nuovi collegamenti non ripetono coppie già definite dagli altri file di approfondimento.
+
+Verifica conclusa: i dieci nuovi file passano la validazione senza errori né avvisi; build e
+`check:build` superati, inclusi 1.348 controlli su 11 dispositivi. Altre 114 prove nel browser
+verificano le nuove schede, le fonti, i rimandi e la leggibilità a 320, 393 e 1280 px.
+Confrontati i 211 approfondimenti compilati: 94 nuovi e 117 precedenti conservati.
+
+Ripartire dal **passo 7: secondo giro dei concetti SSG e abbinamento dell'unità 16**.
 
 ## 7. Filosofia SSG: più voci
 
