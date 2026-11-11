@@ -474,3 +474,20 @@ di SSG (passo 5): corretti. Trovata e unita una voce doppia del passo 5: `lawren
 Il Piano successivo è completato. Restano solo divari minori: collegamenti di privato (1,6), eventi delle filosofie
 e di costituzionale (42–49), revisione degli Originali di costituzionale e privato (pochi blocchi corretti).
 Servono ancora i materiali di Carlo: Costituzionale SSG, LMG M-Z, docente di Diritto romano per LMG A-L.
+
+### Completezza rispetto a Diritto romano (= 100%)
+
+Ogni misura è rapportata a Diritto romano e fermata al 100%: collegamenti per voce, voci con approfondimento,
+domande per lezione, schede inverse per voce (le quattro «di studio»); eventi per unità e correzioni degli Originali
+per pagina PDF (dipendono molto dalla materia e dalla qualità del PDF).
+
+| Materia | Collegamenti | Approfondimenti | Domande | Inverse | Eventi | Rev. Originali | Studio (4) | Tutte (6) |
+|---|---|---|---|---|---|---|---|---|
+| Diritto romano | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% |
+| Filosofia LMG | 74% | 87% | 100% | 100% | 27% | 70% | 90% | 76% |
+| Diritto costituzionale | 80% | 88% | 100% | 100% | 25% | 7% | 92% | 67% |
+| Filosofia SSG | 76% | 69% | 89% | 100% | 21% | 46% | 84% | 67% |
+| Diritto privato | 63% | 87% | 96% | 100% | 21% | 14% | 87% | 64% |
+
+Per corso (media delle materie): **LMG A-L** 92% (studio) / 77% (tutte); **SSG** 90% / 77% sulle materie presenti,
+58% contando Costituzionale SSG ancora a zero; **LMG M-Z** 0% di materiale proprio (oggi mostra quello di A-L).
