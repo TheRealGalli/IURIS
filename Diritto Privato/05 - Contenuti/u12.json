@@ -364,7 +364,24 @@
       "etichetta": "capitalizza gli"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-legge-usura",
+      "anno": 1996,
+      "data": "7 marzo 1996",
+      "titolo": "Legge antiusura",
+      "descrizione": "La legge 108/1996 introduce i tassi soglia e rende non dovuti gli interessi usurari (art. 1815, comma 2).",
+      "tipo": "legge",
+      "pagine": [
+        96,
+        101
+      ],
+      "concetti": [
+        "usura",
+        "interessi"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u12-q001",

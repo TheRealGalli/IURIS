@@ -430,7 +430,40 @@
       "etichetta": "Limite di proponibilità"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-legge-cambiaria",
+      "anno": 1933,
+      "data": "14 dicembre 1933",
+      "titolo": "Legge cambiaria",
+      "descrizione": "Il r.d. 1669/1933 disciplina la cambiale secondo le convenzioni di Ginevra.",
+      "tipo": "legge",
+      "pagine": [
+        200,
+        207
+      ],
+      "concetti": [
+        "cambiale",
+        "titolo-di-credito"
+      ]
+    },
+    {
+      "id": "ev-legge-assegno",
+      "anno": 1933,
+      "data": "21 dicembre 1933",
+      "titolo": "Legge sull’assegno",
+      "descrizione": "Il r.d. 1736/1933 disciplina l’assegno bancario e circolare.",
+      "tipo": "legge",
+      "pagine": [
+        200,
+        207
+      ],
+      "concetti": [
+        "assegno-bancario",
+        "assegno-circolare"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u23-q001",

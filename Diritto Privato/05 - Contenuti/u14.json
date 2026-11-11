@@ -244,7 +244,40 @@
       "etichetta": "si attua secondo la"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-ritardi-pagamento-2002",
+      "anno": 2002,
+      "data": "9 ottobre 2002",
+      "titolo": "Decreto sui ritardi di pagamento",
+      "descrizione": "Il d.lgs. 231/2002 regola gli interessi moratori nelle transazioni commerciali.",
+      "tipo": "legge",
+      "pagine": [
+        113,
+        116
+      ],
+      "concetti": [
+        "ritardi-nelle-transazioni-commerciali",
+        "interessi-moratori"
+      ]
+    },
+    {
+      "id": "ev-legge-gelli-bianco",
+      "anno": 2017,
+      "data": "8 marzo 2017",
+      "titolo": "Legge sulla responsabilità sanitaria",
+      "descrizione": "La legge 24/2017 (Gelli-Bianco) distingue la responsabilità contrattuale della struttura da quella extracontrattuale del medico.",
+      "tipo": "legge",
+      "pagine": [
+        113,
+        116
+      ],
+      "concetti": [
+        "responsabilita-da-inadempimento",
+        "responsabilita-extracontrattuale"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u14-q001",

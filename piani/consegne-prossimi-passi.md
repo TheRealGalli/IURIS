@@ -255,7 +255,9 @@ Passi, in ordine. Uno per volta, con controlli e push a fine passo. File `oltre-
    **Completato:** 279 blocchi revisionati (Costituzionale 42, SSG lezioni 216, SSG Incampo 21).
 7. **Cronologia di privato.** Da 28 a circa 60 eventi con data certa (leggi di riforma e sentenze guida già citate
    negli approfondimenti).
+   **Completato:** 63 eventi (+35).
 8. **Filosofia LMG.** Schede inverse da 99 a 200; approfondimenti da 156 a 240.
+   **Completato:** 202 schede inverse, 240 approfondimenti.
 
 Serve Carlo: appunti di Costituzionale SSG, materiali di LMG M-Z, nome del docente di Diritto romano per LMG A-L.
 
@@ -436,4 +438,39 @@ Del Piano successivo restano: **7** (cronologia di privato, da 28 a circa 60 eve
 inverse da 99 a 200, approfondimenti da 156 a 240). Nuovo divario emerso: i collegamenti di **Filosofia SSG**
 (1,1 per voce dopo le 87 voci nuove) sono i più bassi; conviene un giro come il passo 4.
 
-Prossimo passo: **Piano successivo, 7 — cronologia di privato**.
+
+### Piano successivo, passi 7 e 8 e collegamenti SSG (11 novembre 2026, sera)
+
+**Passo 7, cronologia di privato.** Aggiunti **35 eventi** nelle unità 1–4, 10, 12, 14, 21–25 (campo `eventi`),
+per **63**: codificazioni (1804, 1865), leggi cambiaria e sull'assegno (1933), riforme di famiglia, adozione e
+divorzio, leggi sul consumo e sui dati personali, TUB, usura, ritardi di pagamento, Gelli-Bianco, DAT, riforma
+Cartabia e sentenze guida (Cass. S.U. 500/1999, Cass. 8827/2003, Cass. 11504/2017, S.U. 18287/2018, Corte cost.
+148/2024). Date di Corte cost. 148/2024, d.lgs. 427/1998 e Cass. 8827/2003 riscontrate sul web; le altre sono date
+di leggi e sentenze note. Ogni evento ha i concetti dell'unità; 35 nuove domande sulle date generate in automatico.
+
+**Passo 8, Filosofia LMG.** **103 schede inverse** (99 → 202) in `schede-inverse.json`, controllate dal sync (nessuna
+contiene il termine o un alias). **84 approfondimenti** (156 → 240) in `oltre-40.json`–`oltre-43.json`: norme e
+istituti (art. 12 preleggi, causa, essentialia), Kant, Hart, Kelsen, Austin, Searle, Hegel, Cotta, Moro, temi globali.
+Fonti con indirizzo verificato (Normattiva, EUR-Lex, Corte costituzionale, Stanford Encyclopedia, Treccani, Originali
+dell'app); tolte tre fonti senza un indirizzo affidabile (Lopez de Oñate, Huizinga, Costituzione di Weimar).
+
+**Collegamenti di Filosofia SSG.** **323 collegamenti** in `Filosofia del Diritto SSG/05 - Contenuti/oltre-60.json`
+(406 → 729, 1,9 per voce); nessuna voce isolata (prima 135, quasi tutte le voci nuove del passo 5).
+
+**Controllo del lavoro degli altri.** Letti a campione gli approfondimenti e le inverse di costituzionale (passo 3) e
+di SSG (passo 5): corretti. Trovata e unita una voce doppia del passo 5: `lawrence-m-friedman` era la stessa persona di
+`lawrence-friedman`; tolta da `oltre-40.json`, spostati rimando e premessa sulla voce esistente (SSG: 379 voci).
+
+### Stato all'11 novembre 2026, notte
+
+| Materia | Voci | Collegamenti per voce | Voci con approfondimento | Domande per lezione | Eventi | Schede inverse | Revisioni Originali |
+|---|---|---|---|---|---|---|---|
+| Diritto romano (modello) | 553 | 2,5 | 57% | 15,1 | 166 | 100 | 519 |
+| Filosofia LMG | 483 | 1,9 | 50% | 15,5 | 42 | 202 | 264 |
+| Diritto costituzionale | 278 | 2,0 | 50% | 15,2 | 49 | 180 | 42 |
+| Filosofia SSG | 379 | 1,9 | 40% | 13,5 | 47 | 168 | 237 |
+| Diritto privato | 503 | 1,6 | 50% | 14,6 | 63 | 333 | 77 |
+
+Il Piano successivo è completato. Restano solo divari minori: collegamenti di privato (1,6), eventi delle filosofie
+e di costituzionale (42–49), revisione degli Originali di costituzionale e privato (pochi blocchi corretti).
+Servono ancora i materiali di Carlo: Costituzionale SSG, LMG M-Z, docente di Diritto romano per LMG A-L.

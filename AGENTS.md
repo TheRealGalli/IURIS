@@ -10,8 +10,9 @@ un passo alla volta nell’ordine. I primi due sono completati: Filosofia SSG ha
 privato ha 250 approfondimenti. Fatto anche il passo 4 (collegamenti: privato 802, costituzionale 559).
 Passo 3: costituzionale ha 140 approfondimenti e 180 schede inverse; riforme 2025–2026 verificate.
 Fatti anche il passo 5 (Filosofia SSG: 380 voci, 150 approfondimenti) e il passo 6 (revisione degli Originali di
-Costituzionale e Filosofia SSG). Passi 3–6 pubblicati su `main`. Si riparte dal passo 7 (cronologia di privato);
-vedi la tabella «Stato» in fondo alle consegne.
+Costituzionale e Filosofia SSG). Fatti anche i passi 7 (privato: 63 eventi) e 8 (Filosofia LMG: 202 inverse,
+240 approfondimenti) e i collegamenti di Filosofia SSG (729). **Il Piano successivo è completato**: vedi la
+tabella «Stato» in fondo alle consegne per i divari che restano.
 Diritto privato ha tutte le 27 unità; il resto di questo elenco è contesto.
 
 1. **Diritto costituzionale completato e potenziato** (LMG · I anno · A-L): 18 unità, 50 lezioni e 760 domande,

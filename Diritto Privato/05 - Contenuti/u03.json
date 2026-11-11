@@ -420,7 +420,24 @@
       "etichetta": "si oppone all'"
     }
   ],
-  "eventi": [],
+  "eventi": [
+    {
+      "id": "ev-cass-su-500-1999",
+      "anno": 1999,
+      "data": "22 luglio 1999",
+      "titolo": "Sezioni Unite n. 500/1999",
+      "descrizione": "La Cassazione ammette il risarcimento del danno da lesione di interessi legittimi ai sensi dell’art. 2043.",
+      "tipo": "giurisprudenza",
+      "pagine": [
+        16,
+        18
+      ],
+      "concetti": [
+        "interesse-legittimo",
+        "responsabilita-extracontrattuale"
+      ]
+    }
+  ],
   "domande": [
     {
       "id": "u03-q001",
