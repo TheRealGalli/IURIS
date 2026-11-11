@@ -27,31 +27,39 @@ export function useConceptPop(ref: RefObject<HTMLElement>, opzioni?: { hover?: b
   }, []);
 
   useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
     const hover = opzioni?.hover !== false && window.matchMedia('(hover: hover)').matches;
+    // Ascolto sul documento e filtro sul contenitore: funziona anche quando il testo compare dopo il primo render
+    // (gli Originali si caricano in modo asincrono e il ref era ancora vuoto quando si agganciavano gli ascoltatori).
+    const link = (e: Event) => {
+      const a = (e.target as HTMLElement | null)?.closest?.('a.cx') as HTMLElement | null;
+      return a && ref.current?.contains(a) ? a : null;
+    };
     const onClick = (e: MouseEvent) => {
-      const a = (e.target as HTMLElement).closest('a.cx') as HTMLElement | null;
+      const a = link(e);
       if (!a) return;
       e.preventDefault();
       if (opzioni?.rispettaSelezione && !window.getSelection()?.isCollapsed) return;
       apri(a);
     };
-    const onOver = (e: MouseEvent) => {
-      const a = (e.target as HTMLElement).closest('a.cx') as HTMLElement | null;
+    // Solo il mouse apre l'anteprima al passaggio: dito e Apple Pencil (che nei testi traccia i segni) restano al clic.
+    // Durante una selezione o un trascinamento l'anteprima non si apre, per non coprire il testo che si sta segnando.
+    const onOver = (e: PointerEvent) => {
+      if (e.pointerType !== 'mouse' || e.buttons) return;
+      const a = link(e);
       if (!a) return;
+      if (opzioni?.rispettaSelezione && !window.getSelection()?.isCollapsed) return;
       clearTimeout(timer.current);
       timer.current = window.setTimeout(() => apri(a), 260);
     };
-    const onOut = (e: MouseEvent) => {
-      if ((e.target as HTMLElement).closest('a.cx')) clearTimeout(timer.current);
+    const onOut = (e: PointerEvent) => {
+      if (link(e)) clearTimeout(timer.current);
     };
-    el.addEventListener('click', onClick);
-    if (hover) { el.addEventListener('mouseover', onOver); el.addEventListener('mouseout', onOut); }
+    document.addEventListener('click', onClick);
+    if (hover) { document.addEventListener('pointerover', onOver); document.addEventListener('pointerout', onOut); }
     return () => {
-      el.removeEventListener('click', onClick);
-      el.removeEventListener('mouseover', onOver);
-      el.removeEventListener('mouseout', onOut);
+      document.removeEventListener('click', onClick);
+      document.removeEventListener('pointerover', onOver);
+      document.removeEventListener('pointerout', onOut);
       clearTimeout(timer.current);
     };
   }, [ref, apri, opzioni?.hover, opzioni?.rispettaSelezione]);
