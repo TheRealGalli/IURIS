@@ -4,17 +4,21 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { marked } from 'marked';
 import { blocchiDaPercorso, improntaMaterialePercorso } from './lib/lettura-percorso.mjs';
+import { documento } from './lib/mini-dom.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = async (file) => JSON.parse(await readFile(path.join(root, file), 'utf8'));
 const docs = await read('src/lib/letture-catalogo.json');
 const originali = await read('src/lib/originali-catalogo.json');
 const report = await read('letture-src/estrazione-verifica.json');
-const plain = (s) => s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, id, label) => label || id.replace(/-/g, ' ')).replace(/^#{1,6}\s+/gm, '');
+const senzaLink = (s) => s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, id, label) => label || id.replace(/-/g, ' '));
+const plain = (s) => senzaLink(s).replace(/^#{1,6}\s+/gm, '');
 const tokens = (s) => s.match(/[\p{L}\p{N}_]+/gu) ?? [];
 let pages = 0, blocks = 0, sections = 0, pilot = 0;
 let integrazioni = 0, soloTesto = 0;
+let titoliMartines = 0, capoversiMartines = 0;
 const lezioniCorso = new Map();
 for (const doc of docs) {
   if (doc.tipoFonte === 'manuale-ricostruito') {
@@ -68,6 +72,12 @@ for (const doc of docs) {
     next = sec.a + 1; sections++;
     assert.equal(sec.file, `letture/${doc.id}/${sec.id}.json`);
     const data = await read(`public/${sec.file}`);
+    // La copertura della fonte da sola non rileva una pagina intera fusa in un capoverso.
+    // Per Martines controlliamo anche il testo pubblicato e gli elementi che vede chi legge.
+    const baseMartines = doc.id === 'costituzionale-martines-v1'
+      ? new Map([...(await readFile(path.join(root, 'letture-src', doc.id, `${sec.id}.md`), 'utf8'))
+        .matchAll(/<!-- blocco:([^\s]+) pagina:\d+ -->\s*\n([\s\S]*?)(?=\n\s*<!-- blocco:|$)/g)]
+        .map((m) => [m[1], m[2].trim()])) : null;
     assert.equal(data.documento, doc.id); assert.equal(data.id, sec.id); assert.equal(data.edizione, doc.edizione);
     assert.equal(data.da, sec.da); assert.equal(data.a, sec.a);
     assert.equal(!!data.soloTitolo, !!sec.soloTitolo);
@@ -82,6 +92,21 @@ for (const doc of docs) {
       assert.match(b.id, /^p\d{3}-b\d{3}$/); assert.equal(Number(b.id.slice(1, 4)), b.pagina);
       assert(b.pagina >= sec.da && b.pagina <= sec.a);
       assert(b.markdown.trim()); assert(Array.isArray(b.concetti));
+      if (baseMartines) {
+        assert.deepEqual(tokens(plain(b.markdown).replace(/<[^>]+>/g, '')), tokens(baseMartines.get(b.id) ?? ''),
+          `${doc.id}/${b.id}: l'impaginazione conserva tutte le parole della fonte, nello stesso ordine`);
+        const html = documento.createElement('div'); html.innerHTML = marked.parse(senzaLink(b.markdown));
+        const visita = (n) => {
+          if (/^H[1-6]$/.test(n.tagName ?? '')) titoliMartines++;
+          if (n.tagName === 'P' || (n.tagName === 'LI' && !n.children.some((c) => c.tagName === 'P'))) {
+            const parole = n.textContent.trim().split(/\s+/).filter(Boolean).length;
+            assert(parole > 0 && parole <= 220, `${doc.id}/${b.id}: capoverso o voce d'elenco vuota o troppo lunga (${parole} parole)`);
+            capoversiMartines++;
+          }
+          for (const c of n.children ?? []) visita(c);
+        };
+        visita(html);
+      }
       for (const id of b.concetti) assert(known.has(id), `concetto esistente: ${id}`);
       if (!sec.revisionata) assert.equal(b.notaRevisione, undefined, 'le sezioni non revisionate restano semplici estratti');
       if (!sec.revisionata) assert(!b.markdown.includes('[['), 'collegamenti solo nelle sezioni revisionate');
@@ -108,6 +133,7 @@ for (const doc of docs) {
   pages += doc.pagine;
 }
 assert.equal(docs.length, 12); assert.equal(pages, 1500); assert.equal(soloTesto, 2); assert.equal(integrazioni, 12); assert(pilot >= 2);
+assert(titoliMartines >= 200, 'Martines: i titoli dei paragrafi devono essere distinti dal corpo del testo');
 for (const materia of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg', 'diritto-costituzionale', 'diritto-privato', 'diritto-costituzionale-martines', 'filosofia-del-diritto-mz']) {
   const corso = await read(`public/content/${materia}/corso.json`);
   for (const l of corso.unita.flatMap((u) => u.lezioni)) assert(lezioniCorso.has(`${materia}:${l.id}`), `testo completo accessibile per ${materia}/${l.id}`);
@@ -122,3 +148,4 @@ const p2 = await read('public/letture/filosofia-incampo-v1/u01-l2.json');
 assert(p2.blocchi.find((b) => b.id === 'p006-b001').markdown.includes('nullum crimen sine lege'));
 assert(p2.blocchi.find((b) => b.id === 'p005-b004').notaRevisione.includes('resta da verificare'));
 console.log(`Estrazione verificata: 9 PDF e ${soloTesto} testi senza PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);
+console.log(`Impaginazione Martines verificata: ${titoliMartines} titoli, ${capoversiMartines} capoversi e voci d'elenco; testo integrale conservato.`);

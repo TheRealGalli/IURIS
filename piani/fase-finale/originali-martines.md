@@ -4,6 +4,13 @@ Stato: **fatto** (12 novembre 2026). Controlli verdi: `check-estrazione-letture`
 `check-originali`, `check-review-plan`, tutto `npm run check:letture`. Non lanciati (li lancia il coordinatore):
 `sync-content`, `npm run build`, `check:build`.
 
+**Revisione successiva, sempre del 12 novembre:** il «fatto» sopra certificava estrazione e suddivisione in
+lezioni, ma non la leggibilità interna. Dopo la segnalazione di Carlo sono stati impaginati 442 blocchi:
+titoli 28 → 342, capoversi e voci d'elenco 489 → 1.826, mediana 229 → 73 parole, capoversi oltre 200 parole
+277 → 0. Parole, pagine e identificativi conservati, 1.513 prove di recupero dei segni precedenti superate.
+Resoconto e verifiche aggiornate nell'ultima sezione di [`../consegne-prossimi-passi.md`](../consegne-prossimi-passi.md).
+Il resto di questo documento descrive la prima estrazione e resta come storico.
+
 ## Verifica del PDF prima della pubblicazione
 
 - `Martines, riassunto (267 pp).pdf`: PDF StuDocu (copertina con logo, filigrana «Azione Universitaria» su ogni

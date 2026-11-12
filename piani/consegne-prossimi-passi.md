@@ -3,6 +3,11 @@
 Scritto il 10 novembre 2026 per chi riprende il lavoro (ChatGPT/Codex). Leggi prima [`AGENTS.md`](../AGENTS.md).
 **Diritto romano è il modello (100%)**: per ogni passo guarda come è fatto lì e replica formato e densità.
 
+**Come leggere questo resoconto (12 novembre 2026):** i passi e le tabelle precedenti al «Piano finale
+completato» sono lo storico del lavoro, non l'elenco delle cose ancora da fare. Le fasi 0–5 sono concluse;
+le misure di completezza non certificavano però l'impaginazione di ogni Originale. Il difetto di leggibilità
+di Martines, comune a M-Z e SSG, e la sua correzione sono documentati nell'ultima sezione di questo file.
+
 Regole valide per tutti i passi:
 
 - Un passo alla volta, nell'ordine. A fine passo: `cd studio && npm run build && npm run check:build`, poi commit
@@ -512,3 +517,46 @@ Bin-Pitruzzella, Privato), **LMG M-Z** (Filosofia Barberis + Schauer, Romano, Co
   (Mangini) e Siniscalchi; la parte mancante del PDF di Pennasilico.
 - **Da confermare** (vedi i resoconti): interpretazione delle tracce Lobuono 31, 35, 39; date in conflitto negli
   appunti di Romano (Lex Hortensia, Lex Valeria); alcune sentenze sulla delega citate solo negli approfondimenti.
+
+## Rifinitura degli Originali: Martines per M-Z e SSG (12 novembre 2026)
+
+Segnalazione di Carlo: il testo di Costituzionale per M-Z e SSG sembrava ancora un muro di testo.
+**Difetto confermato:** le due classi usano lo stesso documento `costituzionale-martines-v1`.
+Le 111 sezioni per lezione erano presenti, ma l'estrazione aveva separato soprattutto gli inizi dei
+paragrafi numerati; molti titoli erano rimasti attaccati alla spiegazione e intere pagine erano un capoverso.
+Il precedente collaudo verificava copertura e integrità, senza misurare questo aspetto della leggibilità.
+
+Revisionati **442 dei 517 blocchi** in `studio/letture-src/revisioni.json`: titoli ricavati dai font e
+dalle etichette del PDF, sottotitoli separati dal corpo, elenchi espliciti, capoversi a fine periodo.
+Controllati e scartati i falsi elenchi e titoli (per esempio «a)» che chiude una parentesi, oppure
+«ERGA OMNES» dentro una frase). Nessun riassunto, fatto o parola aggiunta: la sequenza dei token della
+fonte è identica in ogni blocco. I normali avvisi editoriali non compaiono nel lettore.
+
+Misure sugli elementi HTML del lettore, esclusi i titoli; una voce d'elenco conta come un capoverso:
+
+| Misura | Prima | Dopo |
+|---|---:|---:|
+| Titoli distinti dal corpo | 28 | 342 |
+| Capoversi e voci d'elenco | 489 | 1.826 |
+| Parole per capoverso, mediana | 229 | 73 |
+| Parole per capoverso, 95° percentile | 502 | 105 |
+| Capoversi oltre 200 parole | 277 | 0 |
+| Capoverso più lungo | 557 | 199 |
+
+Conservati documento, edizione, 111 sezioni, 517 identificativi di blocco, pagine e assegnazioni alle lezioni.
+**1.513 prove** su segni creati dalla versione precedente: tutti ritrovati dopo l'impaginazione.
+Pubblicate le 111 sezioni Martines; confronto delle impronte: nessun altro Originale modificato.
+
+Esteso `check-estrazione-letture.mjs`: per Martines confronta anche tutte le parole del testo pubblicato
+con gli estratti e controlla titoli distinti, capoversi ed elenchi non vuoti e senza pagine fuse in un paragrafo.
+La sola presenza di `testoFonte` non basta più a certificare questa parte della qualità.
+
+Verifica nel browser di sviluppo, porta 7101: `u01-l1`, `u11-l1` (elenco dei titolari dell'iniziativa
+legislativa), `u28-l5` (controlli ed enti locali); selezionate entrambe le classi, prove a 393, 768 e 1280 px,
+senza scorrimento orizzontale. Build e collaudo generale `check:build` superati, inclusi backup PC → telefono → PC,
+integrità delle letture e **1.392 controlli su 11 dispositivi** (WebKit e Chromium).
+La modifica locale preesistente di Carlo a `Percorso.tsx` non è stata toccata. Nessun commit o push.
+
+**Lettura dello stato finale:** la base di contenuti e funzioni è completa secondo il piano; le percentuali
+e i conteggi storici non vanno usati per dichiarare perfetta tutta la presentazione. Per eventuali altre
+rifiniture degli Originali occorre guardare anche il testo reso nel lettore e confrontarlo con la fonte.

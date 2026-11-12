@@ -23,6 +23,21 @@ eccezioni sono spiegate sotto la tabella. Resoconti per area in [`fase-finale/`]
 - Originali: 12 documenti, 1.500 pagine; Martines dal PDF, Filosofia M-Z solo testo (Barberis e Schauer).
 - Verifica dei fatti scritti a memoria: [`fase-finale/verifica-fatti.md`](fase-finale/verifica-fatti.md).
 
+### Leggibilità degli Originali: verifica del 12 novembre 2026
+
+Le misure della tabella sopra riguardano completezza e collegamenti, non l'impaginazione degli Originali.
+La segnalazione di Carlo su Costituzionale M-Z/SSG ha individuato un difetto rimasto fuori da quelle misure:
+Martines era suddiviso in 111 lezioni, ma aveva ancora 277 capoversi oltre 200 parole.
+
+Corretta l'impaginazione in 442 blocchi, con tutte le parole della fonte conservate: 342 titoli distinti,
+1.826 capoversi e voci d'elenco, mediana 73 parole (prima 229), 95° percentile 105 (prima 502), massimo 199
+(prima 557). Nessun capoverso sopra 200 parole. Identificativi, sezioni e pagine invariati; 1.513 prove di
+recupero dei segni precedenti superate. Il controllo di estrazione verifica anche questa qualità del testo reso.
+Dettagli e collaudo in [`consegne-prossimi-passi.md`](consegne-prossimi-passi.md#rifinitura-degli-originali-martines-per-m-z-e-ssg-12-novembre-2026).
+
+Questa correzione riguarda Martines. Le precedenti percentuali non equivalgono a una verifica editoriale
+integrale di ogni pagina degli altri Originali.
+
 ---
 
 ## Stato all'11 novembre 2026 (punto di partenza)
