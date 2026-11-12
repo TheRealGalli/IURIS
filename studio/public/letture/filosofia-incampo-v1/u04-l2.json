@@ -240,8 +240,9 @@
     {
       "id": "p038-b010",
       "pagina": 38,
-      "markdown": "- Se la verità fosse rilevante (come nel sillogismo aristotelico), la conclusione \"Tizio deve essere punito\" sarebbe l'unica possibile.\n- Nel sillogismo classico (\"Tutti gli uomini sono mortali; Socrate è un uomo; quindi Socrate è mortale\"), una conclusione negativa (\"Socrate non è mortale\") è inconsistente e logicamente assurda. La verità della conclusione è necessaria e indubitabile, tanto da far dubitare delle capacità logiche di chi la nega.",
+      "markdown": "- Se la verità fosse rilevante (come nel sillogismo aristotelico), la conclusione \"Tizio deve essere punito\" sarebbe l'unica possibile.\n- Nel sillogismo classico (\"Tutti gli uomini sono mortali; [[socrate|Socrate]] è un uomo; quindi Socrate è mortale\"), una conclusione negativa (\"Socrate non è mortale\") è inconsistente e logicamente assurda. La verità della conclusione è necessaria e indubitabile, tanto da far dubitare delle capacità logiche di chi la nega.",
       "concetti": [
+        "socrate",
         "verita"
       ]
     },

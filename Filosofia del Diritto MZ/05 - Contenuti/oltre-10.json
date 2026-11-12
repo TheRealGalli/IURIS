@@ -1,0 +1,1214 @@
+{
+  "voci": [
+    {
+      "id": "aristotele",
+      "oltre": "Aristotele (Stagira, 384 – Calcide, 322 a.C.) fu per circa vent'anni allievo di Platone all'Accademia, poi precettore di Alessandro Magno e fondatore ad Atene del Liceo (la scuola detta «peripatetica»). A differenza di Platone, che pone le idee in un mondo separato, cerca la forma nelle cose stesse: ogni sostanza è unione di materia e forma, il divenire è passaggio dalla **potenza** all'**atto**, e ogni cosa si spiega con quattro cause (materiale, formale, efficiente, finale).\n\nPer il diritto contano soprattutto tre opere.\n- Nell'*Etica Nicomachea* (libro V) distingue la **giustizia distributiva**, che divide onori e beni secondo il criterio di merito adottato dalla comunità (uguaglianza proporzionale), dalla **giustizia correttiva**, che negli scambi e nei torti ristabilisce l'uguaglianza aritmetica (la Scolastica la chiamerà *commutativa*). Distingue poi il giusto **per natura**, valido ovunque, dal giusto **per legge**, stabilito da ogni città, e presenta l'**equità** (*epieikeia*) come correttivo della legge, che è generale e non può prevedere ogni caso.\n- Nella *Politica* definisce l'uomo «animale politico»: solo nella *polis* realizza la propria natura, perché ha la parola (*lógos*) e il senso del giusto e dell'ingiusto. Classifica le costituzioni in tre forme rette (monarchia, aristocrazia, *politeia*) e tre degenerate (tirannide, oligarchia, democrazia): «democrazia» ha qui il significato tecnico della classificazione antica, diverso dall'uso politico odierno.\n- Negli scritti di logica, raccolti nell'*Organon*, fonda il sillogismo, modello del sillogismo giudiziale.\n\nAttraverso [[tommaso-d-aquino|Tommaso d'Aquino]] il suo pensiero diventa la base del [[giusnaturalismo]] classico.",
+      "daSapere": [
+        "384–322 a.C.: allievo di Platone, precettore di Alessandro Magno, fondatore del Liceo",
+        "*Etica Nicomachea*, libro V: giustizia distributiva (proporzionale) e correttiva (aritmetica); giusto per natura e per legge; *epieikeia*",
+        "*Politica*: l'uomo è *zôon politikón*; tre costituzioni rette e tre degenerate",
+        "*Metafisica*: scienza dell'essere in quanto essere; atto e potenza; quattro cause",
+        "*Organon*: la logica e il sillogismo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Aristotele, Etica Nicomachea, libro V (traduzione storica)",
+          "url": "https://www.gutenberg.org/files/8438/8438-h/8438-h"
+        },
+        {
+          "titolo": "Aristotele, Politica I.2 (MIT, testo in traduzione)",
+          "url": "http://classics.mit.edu/Aristotle/politics.1.one.html"
+        },
+        {
+          "titolo": "Aristotele, Metafisica IV.1 (MIT, testo in traduzione)",
+          "url": "http://classics.mit.edu/Aristotle/metaphysics.4.iv.html"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "aristotele",
+          "a": "diritto-naturale",
+          "tipo": "influenza",
+          "etichetta": "offre un antecedente teorico al"
+        }
+      ]
+    },
+    {
+      "id": "kelsen",
+      "oltre": "Hans Kelsen (Praga 1881 – California 1973), giurista austriaco, è uno dei maggiori teorici del [[giuspositivismo|positivismo giuridico]] del Novecento e il fondatore del normativismo. Professore a Vienna, contribuì in modo decisivo alla Costituzione austriaca del 1920 e giudice della Corte costituzionale da essa creata; insegnò poi a Colonia, da dove i nazisti lo allontanarono nel 1933, a Ginevra e a Praga, e dal 1940 negli Stati Uniti (Harvard, poi Berkeley).\n\nOpere principali: *Problemi fondamentali della dottrina del diritto pubblico* (1911), la [[dottrina-pura-del-diritto|*Dottrina pura del diritto*]] (1934; 2ª ed. molto ampliata 1960), *Teoria generale del diritto e dello Stato* (1945) e la postuma *Teoria generale delle norme* (1979).\n\nIdee chiave:\n- **purezza del metodo**: la scienza giuridica studia solo norme, separate dalla morale, dalla sociologia e dalla politica;\n- netta distinzione tra *Sein* e *Sollen*: la natura è retta dalla causalità, il diritto dall'**imputazione** («se A, deve essere B»);\n- l'ordinamento è una costruzione a gradi (*Stufenbau*) che culmina nella [[grundnorm|norma fondamentale]] presupposta;\n- il diritto è un ordinamento coattivo, e Stato e diritto coincidono;\n- relativismo dei valori: la giustizia assoluta non è oggetto di scienza.\n\nNel 1931 polemizzò con [[carl-schmitt|Carl Schmitt]] su chi debba essere il «custode della Costituzione».",
+      "daSapere": [
+        "1881–1973: Vienna, Colonia, Ginevra, Stati Uniti; autore della Costituzione austriaca del 1920",
+        "*Reine Rechtslehre* (1934; 2ª ed. 1960); *General Theory of Law and State* (1945)",
+        "Causalità (*Sein*) e imputazione (*Sollen*): «se A, deve essere B»",
+        "Grundnorm presupposta al vertice dello *Stufenbau*; diritto come ordinamento coattivo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Vienna, ricerche biografiche su Kelsen",
+          "url": "https://rechtsgeschichte.univie.ac.at/team/thomas-olechowski/forschungsfelder/hans-kelsen/"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "kelsen",
+          "a": "grundnorm",
+          "tipo": "crea",
+          "etichetta": "teorizza come presupposto la"
+        },
+        {
+          "da": "kelsen",
+          "a": "validita",
+          "tipo": "interpreta",
+          "etichetta": "definisce esistenza specifica della norma la"
+        },
+        {
+          "da": "kelsen",
+          "a": "dottrina-pura-del-diritto",
+          "tipo": "crea",
+          "etichetta": "scrive"
+        }
+      ]
+    },
+    {
+      "id": "grundnorm",
+      "oltre": "La norma fondamentale (*Grundnorm*) è il concetto con cui [[kelsen|Kelsen]] risolve il problema del fondamento dell'ordinamento. Ogni norma è valida perché prodotta secondo una norma superiore; risalendo la catena dello *Stufenbau* si arriva alla prima Costituzione storica, la cui validità non può derivare da un'altra norma posta, pena il regresso all'infinito. Kelsen ferma la catena con una norma **presupposta** (*vorausgesetzt*), non posta da nessuno: ci si deve comportare come prescrive la Costituzione storicamente prima ed effettiva. È ipotetica e formale: non dà contenuti, ma permette di leggere come norme valide gli atti di volontà. Vale solo per un ordinamento nel complesso efficace: con una rivoluzione riuscita cambia anche la norma fondamentale. Nella *Dottrina pura* è una condizione logico-trascendentale, di ascendenza neokantiana; nella tarda *Teoria generale delle norme* (1979) Kelsen la definisce una **finzione**.\n\n[[hart|Hart]] le contrappone la [[regola-di-riconoscimento|regola di riconoscimento]], che non è presupposta ma esiste come fatto sociale nella prassi dei funzionari.",
+      "daSapere": [
+        "*Grundnorm*: norma presupposta, non posta; ipotetica e formale",
+        "Chiude lo *Stufenbau* ed evita il regresso all'infinito",
+        "Rivoluzione riuscita = nuova norma fondamentale (principio di effettività)",
+        "*Teoria generale delle norme* (1979): la Grundnorm come finzione",
+        "Hart: al suo posto la *rule of recognition*, che è un fatto sociale"
+      ],
+      "collegamenti": [
+        {
+          "da": "regola-di-riconoscimento",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "offre una diversa risposta rispetto alla"
+        },
+        {
+          "da": "grundnorm",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "fonda la validità, per Kelsen, dell’"
+        }
+      ]
+    },
+    {
+      "id": "validita",
+      "oltre": "La validità riguarda l'appartenenza di una norma a un ordinamento secondo i criteri riconosciuti. Va distinta dalla sua giustizia e dalla sua efficacia: una norma può essere giuridicamente valida e venire criticata come ingiusta o essere poco osservata. Questa separazione analitica non obbliga a obbedire moralmente a ogni legge.\n\nNon tutti i positivisti riducono i criteri a meri requisiti formali: anche il contenuto può rilevare quando l'ordinamento lo richiede, per esempio attraverso norme costituzionali. [[kelsen|Kelsen]] ricostruisce la catena della validità fino alla [[grundnorm]], [[hart|Hart]] usa i criteri della [[regola-di-riconoscimento]]. Validità formale, conformità sostanziale ed entrata in vigore sono problemi distinti.",
+      "daSapere": [
+        "Validità, giustizia ed efficacia sono problemi distinti",
+        "Criteri di validità anche sostanziali, se previsti dall’ordinamento",
+        "Non confondere validità con entrata in vigore o applicazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "validita",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "presuppone"
+        }
+      ]
+    },
+    {
+      "id": "kant",
+      "oltre": "Immanuel Kant (Königsberg 1724–1804) è il filosofo dell'illuminismo tedesco che con il criticismo indaga le condizioni e i limiti della conoscenza e dell'azione. Opere principali: *Critica della ragion pura* (1781), *Fondazione della metafisica dei costumi* (1785), *Critica della ragion pratica* (1788), *Critica del giudizio* (1790), [[zum-ewigen-frieden|*Per la pace perpetua*]] (1795) e *Metafisica dei costumi* (1797), divisa in dottrina del diritto e dottrina della virtù.\n\nIdee chiave:\n- l'[[imperativo-categorico|imperativo categorico]] comanda senza condizioni, gli imperativi ipotetici comandano un mezzo in vista di un fine;\n- l'autonomia della volontà e la persona come fine, mai solo come mezzo;\n- **legalità e moralità**: il diritto riguarda la conformità esterna dell'azione ed è legato alla coazione, la morale anche il movente (agire per dovere);\n- il diritto è l'insieme delle condizioni che permettono all'arbitrio di ciascuno di coesistere con quello degli altri secondo una legge universale della libertà;\n- la distinzione tra la domanda *quid ius?* (che cos'è il diritto) e *quid iuris?* (che cosa dicono le leggi di un luogo e di un tempo).\n\nNel caso del naufragio (la «tavola di Carneade») Kant conclude che chi si salva a spese dell'altro compie un atto non incolpevole ma impunibile: nessuna minaccia di pena potrebbe distoglierlo da una morte certa.",
+      "daSapere": [
+        "1724–1804, Königsberg",
+        "*Critica della ragion pura* (1781); *Fondazione* (1785); *Critica della ragion pratica* (1788)",
+        "*Per la pace perpetua* (1795); *Metafisica dei costumi* (1797): *Rechtslehre* e *Tugendlehre*",
+        "Legalità (conformità esterna) e moralità (agire per dovere)",
+        "*Notrecht*: il naufrago che si salva compie un atto non incolpevole ma impunibile"
+      ]
+    },
+    {
+      "id": "ordinamento-giuridico",
+      "oltre": "L'ordinamento giuridico è un insieme organizzato di norme, competenze e istituzioni, non una semplice lista di comandi. Le regole stabiliscono anche chi può produrre diritto, come modificarlo e come risolvere le controversie. La relazione tra questi elementi spiega perché due prescrizioni simili possano avere una diversa rilevanza giuridica.\n\nPer [[kelsen|Kelsen]] l'unità è normativa e dinamica, per [[hart|Hart]] dipende dall'unione di regole primarie e secondarie, per [[santi-romano|Santi Romano]] è anzitutto istituzionale. [[norberto-bobbio|Bobbio]] analizza unità, coerenza e completezza come problemi: non sono fatti automaticamente garantiti in ogni ordinamento.",
+      "daSapere": [
+        "Sistema di norme, competenze e istituzioni",
+        "Kelsen: unità normativa; Hart: unione di regole; Romano: istituzione",
+        "Unità, coerenza e completezza sono problemi da analizzare"
+      ],
+      "collegamenti": [
+        {
+          "da": "norma-giuridica",
+          "a": "ordinamento-giuridico",
+          "tipo": "parte-di",
+          "etichetta": "esiste solo come parte di un"
+        },
+        {
+          "da": "santi-romano",
+          "a": "ordinamento-giuridico",
+          "tipo": "interpreta",
+          "etichetta": "concepisce come istituzione l'"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "ordinamento-giuridico",
+          "tipo": "interpreta",
+          "etichetta": "studia unità, coerenza e completezza dell'"
+        }
+      ]
+    },
+    {
+      "id": "giuspositivismo",
+      "oltre": "Il positivismo giuridico sostiene che l'esistenza e il contenuto del diritto dipendano da fatti e criteri socialmente riconosciuti, non necessariamente dal suo merito morale. Non significa che ogni diritto sia giusto, che si debba obbedire a ogni ordine o che una costituzione non possa richiamare principi morali.\n\nEsistono versioni differenti: la teoria del comando di John Austin, il normativismo di [[kelsen|Kelsen]] e l'analisi delle regole di [[hart|Hart]] non coincidono. Il giurista Austin va distinto dal filosofo del linguaggio john l austin. [[norberto-bobbio|Bobbio]] separa metodo, teoria e ideologia del positivismo, consentendo di valutarli distintamente. La critica di [[gustav-radbruch|Radbruch]] dopo il nazismo riguarda il rapporto fra legalità e ingiustizia estrema; la sua diagnosi storica è oggetto di discussione, non una spiegazione incontestata della responsabilità dei giuristi.",
+      "daSapere": [
+        "Identificazione del diritto distinta dal suo merito morale",
+        "Pluralità di teorie: Austin, Kelsen e Hart",
+        "Bobbio: metodo, teoria e ideologia non coincidono"
+      ],
+      "collegamenti": [
+        {
+          "da": "giuspositivismo",
+          "a": "giusnaturalismo",
+          "tipo": "contrasta",
+          "etichetta": "si contrappone al"
+        }
+      ]
+    },
+    {
+      "id": "dottrina-pura-del-diritto",
+      "oltre": "La *Reine Rechtslehre* è l'opera principale di [[kelsen|Kelsen]]: prima edizione 1934, seconda edizione molto ampliata 1960 (in italiano *Lineamenti di dottrina pura del diritto*, trad. di Renato Treves, e *La dottrina pura del diritto*, trad. di Mario G. Losano). Si chiama «pura» perché vuole liberare la scienza giuridica da elementi estranei: la psicologia, la sociologia, la politica e soprattutto la morale e l'ideologia della giustizia. La scienza del diritto descrive norme valide, non giudica se siano giuste.\n\nTesi principali:\n- distinzione tra *Sein* e *Sollen* e tra causalità e imputazione;\n- la norma come senso oggettivo di un atto di volontà (*Willensakt*);\n- il diritto come ordinamento coattivo, che collega sanzioni agli illeciti;\n- la costruzione a gradi (*Stufenbau*) chiusa dalla [[grundnorm|norma fondamentale]] presupposta;\n- la validità come esistenza specifica della norma, con l'efficacia come condizione;\n- l'identità di Stato e diritto e l'unità di diritto interno e internazionale (monismo).",
+      "daSapere": [
+        "*Reine Rechtslehre*: 1ª ed. 1934, 2ª ed. 1960",
+        "«Pura»: senza morale, sociologia, politica",
+        "Norma = senso oggettivo di un atto di volontà; diritto = ordinamento coattivo",
+        "*Stufenbau* e Grundnorm; monismo tra diritto interno e internazionale"
+      ],
+      "collegamenti": [
+        {
+          "da": "dottrina-pura-del-diritto",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "espone la teoria della"
+        },
+        {
+          "da": "dottrina-pura-del-diritto",
+          "a": "giuspositivismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il vertice teorico del"
+        }
+      ]
+    },
+    {
+      "id": "wittgenstein",
+      "oltre": "Ludwig Wittgenstein (Vienna 1889 – Cambridge 1951) è uno dei filosofi più influenti del Novecento. Allievo di Bertrand Russell a Cambridge, nel *Tractatus logico-philosophicus* (1921) sostiene che il linguaggio è un'immagine logica del mondo: le proposizioni dotate di senso raffigurano stati di cose, e di ciò di cui non si può parlare si deve tacere. L'opera ispirò il neopositivismo del Circolo di Vienna.\n\nDopo anni lontano dalla filosofia tornò a Cambridge (1929), dove elaborò un pensiero molto diverso, raccolto nelle postume *Ricerche filosofiche* (1953): il significato di una parola è il suo **uso**; il linguaggio è un insieme di **giochi linguistici** legati a «forme di vita»; seguire una regola è una prassi condivisa, non un'interpretazione privata (paradosso della regola).\n\nIl «secondo» Wittgenstein ha influenzato la filosofia del linguaggio ordinario di Oxford (Austin), la teoria del diritto di [[hart|Hart]] e la teoria delle regole costitutive.",
+      "daSapere": [
+        "1889–1951; Vienna e Cambridge",
+        "*Tractatus logico-philosophicus* (1921): il linguaggio raffigura il mondo",
+        "*Ricerche filosofiche* (postume, 1953): significato come uso, giochi linguistici",
+        "*Der Befehl befiehlt seine Befolgung*: «l'ordine comanda la sua esecuzione»"
+      ],
+      "collegamenti": [
+        {
+          "da": "wittgenstein",
+          "a": "ordinamento-giuridico",
+          "tipo": "interpreta",
+          "etichetta": "con il Tractatus 2.05 spiega la chiusura dell'"
+        },
+        {
+          "da": "wittgenstein",
+          "a": "hart",
+          "tipo": "influenza",
+          "etichetta": "influenza la teoria delle regole di"
+        }
+      ]
+    },
+    {
+      "id": "norma-giuridica",
+      "oltre": "La norma è il significato giuridico ricavato da una fonte, da distinguere dalla disposizione, cioè dal testo che si interpreta. Una disposizione può esprimere più norme; una norma può risultare dal coordinamento di più testi. Il suo contenuto non consiste sempre in un ordine rivolto ai cittadini.\n\nEsistono norme che impongono doveri, attribuiscono permessi, conferiscono poteri o costituiscono status e istituzioni. Generalità, astrattezza e presenza di una sanzione descrivono molti casi, ma non sono requisiti necessari di ogni singola norma: anche decisioni individuali possono avere significato normativo. [[hart|Hart]] distingue regole primarie e secondarie; [[kelsen|Kelsen]] ricostruisce il sistema coattivo.",
+      "daSapere": [
+        "Disposizione: testo; norma: significato giuridico",
+        "Non tutte le norme sono comandi generali e astratti",
+        "Doveri, permessi, poteri e regole costitutive hanno funzioni diverse"
+      ]
+    },
+    {
+      "id": "hart",
+      "oltre": "Herbert L. A. Hart (Harrogate 1907 – Oxford 1992), giurista e filosofo inglese, fu avvocato e poi, negli anni Cinquanta e Sessanta, professore di Jurisprudence a Oxford. È il maggiore esponente del positivismo giuridico analitico di lingua inglese. Nel suo capolavoro, *The Concept of Law* (1961), applica al diritto la filosofia del linguaggio ordinario di J. L. Austin e del secondo [[wittgenstein|Wittgenstein]].\n\nIdee chiave:\n- critica la teoria di John Austin del diritto come comando del sovrano sostenuto da minacce: il bandito armato costringe, ma non crea obblighi;\n- il diritto è unione di norme primarie, che impongono doveri, e norme secondarie (di riconoscimento, di mutamento, di giudizio), che rimediano a incertezza, staticità e inefficienza di un ordine fatto solo di obblighi;\n- al vertice sta la [[regola-di-riconoscimento|regola di riconoscimento]], che esiste come prassi dei funzionari;\n- il **punto di vista interno** di chi accetta la regola come guida, distinto da quello esterno dell'osservatore;\n- la «trama aperta» (*open texture*) del linguaggio lascia al giudice discrezionalità nei casi difficili;\n- un «contenuto minimo di diritto naturale», legato a fatti come la vulnerabilità umana.\n\nDiscusse con Fuller (1958) sulla separazione tra diritto e morale e, più tardi, con Ronald Dworkin.",
+      "daSapere": [
+        "1907–1992; professore di Jurisprudence a Oxford",
+        "*The Concept of Law* (1961)",
+        "Norme primarie (doveri) e secondarie (riconoscimento, mutamento, giudizio)",
+        "Punto di vista interno; *open texture*; contenuto minimo di diritto naturale",
+        "Dibattito Hart–Fuller (1958)"
+      ],
+      "fonti": [
+        {
+          "titolo": "Facoltà di diritto di Oxford, H.L.A. Hart",
+          "url": "https://www.law.ox.ac.uk/research-and-subject-groups/jurisprudence-oxford/hla-hart"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "hart",
+          "a": "regola-di-riconoscimento",
+          "tipo": "crea",
+          "etichetta": "pone al vertice dell'ordinamento la"
+        },
+        {
+          "da": "hart",
+          "a": "giuspositivismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il maggiore esponente analitico del"
+        }
+      ]
+    },
+    {
+      "id": "tommaso-d-aquino",
+      "oltre": "Tommaso d'Aquino (Roccasecca, circa 1225 – Fossanova 1274), frate domenicano, insegnò teologia a Parigi e in Italia ed è il massimo esponente della Scolastica. Realizzò la sintesi tra la filosofia di [[aristotele|Aristotele]] e la fede cristiana; fu proclamato santo e dottore della Chiesa. Opere principali: la *Summa contra Gentiles* e la *Summa Theologiae* (circa 1265–1273, incompiuta).\n\nNel «trattato sulle leggi» della *Summa* (I-II, qq. 90–97) definisce la legge come ordinamento della ragione al bene comune, promulgato da chi ha cura della comunità, e distingue quattro leggi: **eterna** (il piano divino del mondo), **naturale** (partecipazione della creatura razionale alla legge eterna, il cui primo precetto è fare il bene ed evitare il male), **umana** o positiva (derivata da quella naturale per conclusione o per determinazione) e **divina** (rivelata). La legge ingiusta è una corruzione della legge; gli effetti sull’obbedienza richiedono ulteriori distinzioni, non una licenza generale di disobbedire. È il fondamento del [[giusnaturalismo]] classico, ripreso nel Novecento da Maritain.",
+      "daSapere": [
+        "Circa 1225–1274; domenicano, Scolastica",
+        "*Summa Theologiae*, I-II, qq. 90–97: il trattato sulle leggi",
+        "Legge = *ordinatio rationis ad bonum commune*",
+        "*Lex aeterna*, *naturalis*, *humana*, *divina*",
+        "Legge ingiusta: *non lex sed legis corruptio*"
+      ],
+      "fonti": [
+        {
+          "titolo": "Tommaso, Summa Theologiae I-II, qq. 90–92",
+          "url": "https://www.corpusthomisticum.org/sth2090.html"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "tommaso-d-aquino",
+          "a": "giusnaturalismo",
+          "tipo": "influenza",
+          "etichetta": "è il massimo esponente medievale del"
+        },
+        {
+          "da": "aristotele",
+          "a": "tommaso-d-aquino",
+          "tipo": "influenza",
+          "etichetta": "è ripreso e cristianizzato da"
+        }
+      ]
+    },
+    {
+      "id": "giusnaturalismo",
+      "oltre": "Il giusnaturalismo raccoglie teorie che collegano il diritto a criteri di giustizia o ragione pratica non riducibili alla semplice decisione dell'autorità. Non è una dottrina unica: cambiano l'idea di natura, il modo di conoscere i principi e le conseguenze attribuite alla legge ingiusta.\n\nLa tradizione antica, la sintesi di [[tommaso-d-aquino|Tommaso]] e le teorie moderne del contratto sociale vanno quindi distinte. In Tommaso la ragione umana partecipa alla legge eterna; autori moderni discutono diritti e limiti del potere politico a partire dalla condizione degli individui. Anche la rinascita novecentesca assume forme differenti. Il confronto con il [[giuspositivismo]] riguarda sia l'identificazione sia la giustificazione del diritto. Affermare criteri razionali superiori non elimina automaticamente il bisogno di legislazione e interpretazione nei casi concreti.",
+      "daSapere": [
+        "Famiglia di teorie, non sistema unico",
+        "Varianti antiche, medievali, moderne e contemporanee",
+        "Principi superiori e determinazioni positive possono convivere"
+      ]
+    },
+    {
+      "id": "gustav-radbruch",
+      "oltre": "Gustav Radbruch (**1878–1949**) fu un filosofo del diritto e penalista tedesco, professore e ministro della giustizia nella Repubblica di Weimar. Allontanato dall'insegnamento durante il nazismo, tornò all'università dopo la guerra. La sua opera affronta il rapporto tra giustizia, certezza giuridica e finalità del diritto.\n\nNel saggio *Ingiustizia legale e diritto sovralegale* del **1946** formulò il problema della legge intollerabilmente ingiusta: di regola la certezza sostiene il diritto positivo anche quando è criticabile, ma l'ingiustizia estrema può far prevalere criteri sovralegali. La deliberata negazione dell'eguaglianza assume un rilievo decisivo.\n\nNon è una licenza a disapplicare qualsiasi norma moralmente sgradita. La soglia estrema distingue la formula da una generica preferenza personale del giudice. La questione continua a influenzare il dibattito fra [[giuspositivismo]] e [[giusnaturalismo]] e la riflessione di [[robert-alexy|Alexy]] sulla dimensione morale del diritto.",
+      "daSapere": [
+        "1878–1949; giurista e ministro a Weimar",
+        "1946: Ingiustizia legale e diritto sovralegale",
+        "Certezza come regola, ingiustizia estrema come limite"
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Heidelberg, la formula di Radbruch",
+          "url": "https://www.ub.uni-heidelberg.de/Englisch/ausstellungen/625jahre2011/exponate/sektion2/09_03.html"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "gustav-radbruch",
+          "a": "diritto-sovralegale",
+          "tipo": "interpreta",
+          "etichetta": "discute il ricorso al"
+        },
+        {
+          "da": "gustav-radbruch",
+          "a": "robert-alexy",
+          "tipo": "influenza",
+          "etichetta": "influenza la teoria di"
+        },
+        {
+          "da": "gustav-radbruch",
+          "a": "certezza-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "bilancia giustizia e"
+        }
+      ]
+    },
+    {
+      "id": "theodor-geiger",
+      "oltre": "Theodor Geiger (**1891–1952**) fu un giurista e sociologo tedesco che proseguì la propria attività in Danimarca dopo l'allontanamento dalla Germania nazista. Fu uno dei protagonisti della sociologia del diritto del Novecento e insegnò all'Università di Aarhus. Le sue ricerche riguardano anche stratificazione sociale e metodi delle scienze sociali.\n\nNei *Vorstudien zu einer Soziologie des Rechts* del **1947** studia l'ordine normativo attraverso comportamenti, aspettative e reazioni sociali. Il problema è comprendere come una regola operi nella vita collettiva, distinguendo l'analisi empirica dalle affermazioni metafisiche sui valori.\n\n Il confronto con la [[validita]] mostra che efficacia sociale e fondamento dell'obbligo sono domande differenti.\n\nNella storia di Barberis è il principale sociologo del diritto [[neopositivismo|neopositivista]]: contro la lettura marxista, per cui solo la società determina il diritto, insiste sul condizionamento reciproco fra diritto e società.",
+      "daSapere": [
+        "1891–1952; sociologo del diritto attivo ad Aarhus",
+        "Vorstudien zu einer Soziologie des Rechts, 1947",
+        "Analisi empirica di regole, aspettative e reazioni sociali"
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Aarhus, Theodor Geiger",
+          "url": "https://auhist.au.dk/showroom/galleri/personer/theodorgeiger"
+        }
+      ]
+    },
+    {
+      "id": "filosofia-del-diritto",
+      "oltre": "La filosofia del diritto interroga il significato, i fondamenti e i criteri di valutazione dell'esperienza giuridica. Domanda che cosa renda giuridica una regola, perché possa obbligare, quale rapporto abbia con giustizia, morale e potere, e come si giustifichino interpretazione e decisione.\n\nNon è soltanto una storia delle opinioni dei filosofi né un settore specialistico accanto al diritto civile. Può analizzare concetti generali, discutere ragioni normative e confrontarsi con pratiche istituzionali. La teoria generale e la sociologia condividono alcuni problemi ma adottano finalità e metodi differenti. Conoscere queste differenze permette di argomentare, anziché ripetere una definizione come se chiudesse ogni discussione.",
+      "daSapere": [
+        "Concetti, fondamenti e giustificazione del diritto",
+        "Identificazione del diritto e valutazione critica",
+        "Distinguere prospettive e argomenti degli autori"
+      ]
+    },
+    {
+      "id": "robert-alexy",
+      "oltre": "Robert Alexy (**1945–2026**) fu un filosofo del diritto e costituzionalista tedesco, professore all'Università di Kiel e tra i teorici del diritto più discussi in Europa. Le sue opere principali sono la *Teoria dell'argomentazione giuridica* (1978), la *Teoria dei diritti fondamentali* (1986) e *Concetto e validità del diritto* (1992). Il problema comune è mostrare come le decisioni giuridiche possano essere giustificate razionalmente senza ridurle a un calcolo meccanico.\n\nDistingue **regole** e **principi**: le prime si applicano o no, i secondi chiedono di essere realizzati nella misura più ampia possibile, entro le possibilità giuridiche e fattuali. Il [[bilanciamento|bilanciamento]] non dovrebbe essere un'intuizione incontrollabile, ma un procedimento argomentato, che la sua teoria scompone in passaggi (idoneità, necessità, proporzionalità in senso stretto). La sua teoria del diritto unisce una dimensione istituzionale e una [[pretesa-di-correttezza|pretesa di correttezza]], riprendendo [[gustav-radbruch|Radbruch]] sul limite dell'ingiustizia estrema: una norma estremamente ingiusta perde il carattere giuridico.",
+      "daSapere": [
+        "1945–2026; professore a Kiel",
+        "Teoria dell'argomentazione giuridica (1978); Teoria dei diritti fondamentali (1986)",
+        "Principi come mandati di ottimizzazione; bilanciamento",
+        "Formula di Radbruch: l'ingiustizia estrema non è diritto"
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Kiel, necrologio ufficiale di Robert Alexy",
+          "url": "https://www.uni-kiel.de/de/detailansicht/news/156-alexy-nachruf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "robert-alexy",
+          "a": "motivazione-della-sentenza",
+          "tipo": "influenza",
+          "etichetta": "contribuisce alla teoria della"
+        }
+      ]
+    },
+    {
+      "id": "codice-napoleone",
+      "oltre": "Il *Code civil* francese del **1804**, poi denominato *Code Napoléon*, organizzò in un testo unitario un'ampia parte del diritto civile. Divenne un modello influente per altre codificazioni, ma non fu una trascrizione identica in ogni Paese: ricezioni e adattamenti dipendono dalle storie nazionali.\n\nLa codificazione promuove conoscibilità e sistematicità senza eliminare l'interpretazione. L'articolo 4 impedisce al giudice di rifiutare la decisione adducendo silenzio, oscurità o insufficienza della legge; l'articolo 5 vieta decisioni giudiziarie formulate come regolamenti generali. Il rapporto tra le due disposizioni evidenzia la tensione fra obbligo di decidere e distinzione dei ruoli.",
+      "daSapere": [
+        "1804: Code civil francese",
+        "Art. 4: divieto di rifiutare la decisione per lacune",
+        "Codificazione e interpretazione continuano a coesistere"
+      ],
+      "fonti": [
+        {
+          "titolo": "Légifrance, Code civil, articolo 4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006419283"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "codice-napoleone",
+          "a": "certezza-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "persegue la"
+        }
+      ]
+    },
+    {
+      "id": "rudolf-von-jhering",
+      "oltre": "Rudolf von Jhering, scritto anche Ihering, (**1818–1892**) fu un giurista tedesco, studioso del diritto romano e del diritto privato. Insegnò in varie università, fra cui Vienna e Göttingen. La sua riflessione contribuì alla critica di una scienza giuridica ridotta alla combinazione astratta di concetti.\n\nTra le opere più note figurano *La lotta per il diritto* del **1872** e *Lo scopo nel diritto*. Il diritto è legato a fini, interessi e pratiche sociali; la difesa di una posizione giuridica può assumere valore per la tutela dell'ordine comune, non soltanto del vantaggio individuale.\n\nNella ricostruzione di Barberis è il primo dei movimenti [[antiformalismo|antiformalisti]]: il «secondo Jhering» abbandona la giurisprudenza dei concetti e mette al centro lo scopo e gli interessi.",
+      "daSapere": [
+        "1818–1892; giurista e romanista",
+        "La lotta per il diritto, 1872; Lo scopo nel diritto",
+        "Attenzione a scopi e interessi oltre il formalismo concettuale"
+      ],
+      "fonti": [
+        {
+          "titolo": "Università di Gießen, profilo di Rudolf von Jhering",
+          "url": "https://www.uni-giessen.de/de/fbz/fb01/fakultaet-institutionen/rji/wer-war-rudolf-von-jhering/index"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "rudolf-von-jhering",
+          "a": "giurisprudenza-degli-interessi",
+          "tipo": "influenza",
+          "etichetta": "è un antecedente della"
+        }
+      ]
+    },
+    {
+      "id": "socrate",
+      "oltre": "Socrate visse ad Atene nel **V secolo a.C.** e morì nel **399 a.C.**, dopo una condanna capitale. Non lasciò opere scritte: il suo pensiero è conosciuto attraverso testimonianze, soprattutto di Platone e Senofonte, che non coincidono in ogni dettaglio.\n\nIl dialogo socratico interroga le definizioni e mette alla prova la coerenza delle risposte: che cosa sono giustizia, virtù e buona vita? L'ammissione dei limiti del proprio sapere sostiene la ricerca, non una rinuncia a distinguere ragioni migliori e peggiori. Nell'*Apologia* e nel *Critone* platonici emergono problemi di coscienza, obbedienza e rapporto con le leggi della città.\n\nIl suo rapporto con il diritto invita a domandare come una decisione istituzionale possa essere criticata e quali ragioni sostengano l'obbedienza.",
+      "daSapere": [
+        "Atene, V secolo a.C.; morte nel 399 a.C.",
+        "Nessuna opera scritta; testimonianze soprattutto di Platone e Senofonte",
+        "Dialogo critico, definizioni e coerenza delle ragioni"
+      ]
+    },
+    {
+      "id": "agostino",
+      "oltre": "Agostino d'Ippona (**354–430**) nacque a Tagaste, nell'Africa romana, e fu maestro di retorica prima della conversione al cristianesimo. Divenne vescovo di Ippona e uno dei maggiori autori cristiani di lingua latina. Tra le opere principali figurano *Confessioni*, *De libero arbitrio* e *De civitate Dei*.\n\nLa riflessione su volontà, male e interiorità si accompagna al problema delle comunità politiche. Le due città non coincidono semplicemente con Stato e Chiesa: sono definite da orientamenti fondamentali dell'amore. Il governo terreno risponde anche alla fragilità e al conflitto della condizione umana.\n\nIl rapporto tra legge e giustizia, ripreso da [[tommaso-d-aquino|Tommaso]], non va ridotto a una formula isolata.",
+      "daSapere": [
+        "354–430; Tagaste e Ippona",
+        "Confessioni, De libero arbitrio, De civitate Dei",
+        "Due città definite da orientamenti dell’amore, non Stato/Chiesa"
+      ],
+      "collegamenti": [
+        {
+          "da": "agostino",
+          "a": "tommaso-d-aquino",
+          "tipo": "influenza",
+          "etichetta": "influenza la riflessione di"
+        },
+        {
+          "da": "agostino",
+          "a": "kelsen",
+          "tipo": "collegato",
+          "etichetta": "è confrontato retrospettivamente con"
+        }
+      ]
+    },
+    {
+      "id": "vigenza",
+      "oltre": "Nella teoria generale del diritto la **vigenza** (l'essere «in vigore») si distingue da altre proprietà della norma:\n- la [[validita]], cioè la conformità alle norme superiori che ne regolano la produzione;\n- l'efficacia, cioè il fatto di essere effettivamente osservata e applicata.\nVigenza e validità sono piani distinti: una legge può entrare in vigore anche se affetta da un vizio. L'art. 136 Cost. disciplina la cessazione di efficacia dopo la dichiarazione di illegittimità; l'annullamento costituzionale non va però confuso con la semplice abrogazione.\n\nNell'ordinamento italiano la vigenza ha un inizio e una fine. Le leggi entrano in vigore di regola, salvo termine diverso, il quindicesimo giorno dopo la pubblicazione in Gazzetta Ufficiale (*vacatio legis*: art. 73 Cost. e art. 10 delle Preleggi). Cessano di vigere per abrogazione espressa, tacita (per incompatibilità) o per nuova disciplina dell'intera materia (art. 15 delle Preleggi).\n\n[[luigi-ferrajoli|Ferrajoli]] dà a questa distinzione un peso teorico nuovo: nello [[stato-costituzionale|Stato costituzionale]] una legge prodotta dall'organo competente ma contraria ai principi costituzionali è **vigente** ma non **valida**, mentre per [[kelsen|Kelsen]] resta valida finché non viene annullata.",
+      "daSapere": [
+        "*Vacatio legis*: di regola 15 giorni dalla pubblicazione (art. 73 Cost.; art. 10 Preleggi)",
+        "Abrogazione espressa, tacita o per nuova disciplina della materia (art. 15 Preleggi)",
+        "Vigenza ≠ validità ≠ efficacia",
+        "Ferrajoli: legge incostituzionale vigente ma non valida"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione italiana, artt. 70–74: formazione, promulgazione e pubblicazione delle leggi (Governo italiano)",
+          "url": "https://presidenza.governo.it/Governo/Costituzione/2_titolo1.html"
+        },
+        {
+          "titolo": "Costituzione italiana, art. 136 (Senato della Repubblica)",
+          "url": "https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-vi/sezione-i/articolo-136"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "vigenza",
+          "a": "validita",
+          "tipo": "collegato",
+          "etichetta": "si distingue dalla"
+        }
+      ]
+    },
+    {
+      "id": "hegel",
+      "oltre": "Georg Wilhelm Friedrich Hegel (Stoccarda 1770 – Berlino 1831) è il massimo esponente dell'idealismo tedesco. Studiò a Tubinga con Schelling e Hölderlin; insegnò a Jena, a Heidelberg e dal 1818 a Berlino.\n\nOpere principali: *Fenomenologia dello spirito* (1807), *Scienza della logica* (1812–1816), *Enciclopedia delle scienze filosofiche* (1817) e *Lineamenti di filosofia del diritto* (1820, con data 1821).\n\nIdee chiave:\n- la realtà è sviluppo dello **Spirito** attraverso la **dialettica**: ogni momento è negato e insieme conservato in uno superiore (*Aufhebung*); «ciò che è razionale è reale, ciò che è reale è razionale»;\n- l'autocoscienza nasce dal **riconoscimento** reciproco: la figura di signore e servo;\n- nei *Lineamenti* lo spirito oggettivo si articola in diritto astratto, moralità ed **eticità**, che comprende famiglia, società civile e Stato, «realtà dell'idea etica»;\n- tra gli Stati non c'è un giudice superiore: il diritto internazionale resta «diritto statale esterno» e i conflitti si decidono, in ultima istanza, con la guerra.",
+      "daSapere": [
+        "1770–1831; idealismo tedesco, professore a Berlino dal 1818",
+        "*Fenomenologia dello spirito* (1807); *Scienza della logica* (1812–1816)",
+        "*Lineamenti di filosofia del diritto* (1820/1821): diritto astratto, moralità, eticità",
+        "Eticità: famiglia, società civile, Stato"
+      ],
+      "collegamenti": [
+        {
+          "da": "hegel",
+          "a": "diritto-naturale",
+          "tipo": "supera",
+          "etichetta": "rovescia la concezione classica del"
+        }
+      ]
+    },
+    {
+      "id": "imperativo-categorico",
+      "oltre": "È il principio supremo della morale nella *Fondazione della metafisica dei costumi* (1785) e nella *Critica della ragion pratica* (1788) di [[kant|Kant]]. Si contrappone agli **imperativi ipotetici**, che comandano un'azione come mezzo per uno scopo («se vuoi guarire, prendi la medicina»): l'imperativo categorico comanda in modo incondizionato.\n\nKant ne dà più formulazioni, le principali:\n- **legge universale**: agisci solo secondo la massima che puoi volere diventi legge universale;\n- **umanità come fine**: tratta l'umanità, nella tua persona come in quella di ogni altro, sempre anche come fine e mai solo come mezzo;\n- **autonomia**: la volontà si dà da sé la legge (autonomia contro [[eteronomia]]).\n\nNella *Fondazione* Kant lo applica a quattro esempi: il suicidio, la falsa promessa, lo sviluppo dei talenti, l'aiuto agli altri. I primi due sono **doveri perfetti** (la massima contraria non si può neppure pensare come universale), gli altri **doveri imperfetti** (si può pensare, ma non volere). Gli imperativi ipotetici dell'abilità corrispondono invece alle regole tecniche.",
+      "daSapere": [
+        "Kant, *Fondazione della metafisica dei costumi* (1785); *Critica della ragion pratica* (1788)",
+        "Imperativo ipotetico (se vuoi X, fai Y) / categorico (incondizionato)",
+        "Formule: legge universale, umanità come fine, autonomia",
+        "Doveri perfetti (falsa promessa) e imperfetti (beneficenza)"
+      ],
+      "fonti": [
+        {
+          "titolo": "Kant, Fondazione della metafisica dei costumi, 1785 (traduzione storica)",
+          "url": "https://www.gutenberg.org/files/5682/5682-h/5682-h.htm"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "kant",
+          "a": "imperativo-categorico",
+          "tipo": "crea",
+          "etichetta": "formula l'"
+        }
+      ]
+    },
+    {
+      "id": "husserl",
+      "oltre": "Edmund Husserl (Prossnitz, in Moravia, 1859 – Friburgo in Brisgovia 1938) è il fondatore della **fenomenologia**. Matematico di formazione, insegnò a Halle, a Gottinga e dal 1916 a Friburgo; di origine ebraica, negli ultimi anni fu emarginato dal regime nazista.\n\nOpere principali: *Ricerche logiche* (1900–1901), *Idee per una fenomenologia pura* (1913), le lezioni sulla coscienza interna del tempo (pubblicate nel 1928), *Meditazioni cartesiane* (1931), *La crisi delle scienze europee* (1936).\n\nIdee chiave:\n- «tornare alle cose stesse»: descrivere i fenomeni come si danno alla coscienza, sospendendo i pregiudizi (*epoché*);\n- la coscienza è sempre **intenzionale**, cioè coscienza di qualcosa;\n- con la **riduzione eidetica** si coglie l'essenza (*eîdos*) di una cosa, ciò senza cui non sarebbe quella cosa;\n- nelle ultime opere, l'intersoggettività e il «mondo della vita» (*Lebenswelt*).\n\nNella storia di Barberis la fenomenologia è una delle radici dell'[[ermeneutica|ermeneutica]] di [[heidegger|Heidegger]] e [[hans-georg-gadamer|Gadamer]].",
+      "daSapere": [
+        "1859–1938; fondatore della fenomenologia",
+        "*Ricerche logiche* (1900–1901); *Idee* (1913); *La crisi delle scienze europee* (1936)",
+        "Intenzionalità, *epoché*, riduzione eidetica, *Lebenswelt*",
+        "«Un soldato deve essere valoroso» = solo un soldato valoroso è un buon soldato"
+      ]
+    },
+    {
+      "id": "norberto-bobbio",
+      "oltre": "Norberto Bobbio (Torino 1909 – Torino 2004) fu tra i maggiori filosofi del diritto e della politica dell'Italia repubblicana. Insegnò a Torino filosofia del diritto e poi filosofia della politica; fu nominato senatore a vita nel 1984.\n\nOpere principali: *Teoria della norma giuridica* (1958), *Teoria dell'ordinamento giuridico* (1960), *Il positivismo giuridico* (1961), *Giusnaturalismo e positivismo giuridico* (1965), *[[dalla-struttura-alla-funzione|Dalla struttura alla funzione]]* (1977), *Il futuro della democrazia* (1984), *L'età dei diritti* (1990).\n\nIdee chiave:\n- porta in Italia la **filosofia analitica** e la teoria di [[kelsen|Kelsen]], e intende la scienza giuridica come analisi del linguaggio del legislatore;\n- distingue tre aspetti del [[giuspositivismo|positivismo giuridico]]: un **metodo** (studiare il diritto com'è), una **teoria** (il diritto come comando statale e sistema completo) e un'**ideologia** (il dovere di obbedire alle leggi in quanto tali), e difende soprattutto il metodo, senza fare propria l'ideologia dell'obbedienza incondizionata;\n- studia l'ordinamento come sistema dotato di **unità**, **coerenza** (i criteri cronologico, gerarchico e di specialità per risolvere le antinomie) e **completezza** (il problema delle lacune);\n- negli anni Settanta passa all'analisi della **funzione** del diritto e teorizza la funzione promozionale.",
+      "daSapere": [
+        "Torino 1909–2004; senatore a vita dal 1984",
+        "*Teoria della norma giuridica* (1958); *Teoria dell'ordinamento giuridico* (1960)",
+        "Positivismo giuridico come metodo, teoria, ideologia",
+        "*Dalla struttura alla funzione* (1977): funzione promozionale del diritto"
+      ],
+      "fonti": [
+        {
+          "titolo": "Bobbio, Dalla struttura alla funzione, presentazione e contenuti dell'editore Laterza",
+          "url": "https://bibliotecadigitale.laterza.it/scheda-libro/?isbn=9788842084587"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "norberto-bobbio",
+          "a": "dalla-struttura-alla-funzione",
+          "tipo": "crea",
+          "etichetta": "scrive nel 1977"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "hart",
+          "tipo": "interpreta",
+          "etichetta": "legge in contrapposizione a Kelsen la teoria di"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "kelsen",
+          "tipo": "interpreta",
+          "etichetta": "diffonde e discute in Italia la teoria di"
+        },
+        {
+          "da": "norberto-bobbio",
+          "a": "giuspositivismo",
+          "tipo": "interpreta",
+          "etichetta": "distingue in metodo, teoria e ideologia il"
+        }
+      ]
+    },
+    {
+      "id": "alf-ross",
+      "oltre": "Alf Ross (Copenaghen 1899 – 1979) fu uno dei principali esponenti del **realismo giuridico scandinavo**. Studiò a Vienna con [[kelsen|Kelsen]], da cui poi si allontanò, e insegnò a Copenaghen; fu anche giudice della Corte europea dei diritti dell'uomo.\n\nOpere principali: *Towards a Realistic Jurisprudence* (1946), *Diritto e giustizia* (*On Law and Justice*, 1958), il saggio *Tû-tû* sui concetti giuridici come strumenti di collegamento, e *On Self-Reference and a Puzzle in Constitutional Law* (1969).\n\nIdee chiave:\n- il diritto **valido** è l'insieme delle norme che i giudici di fatto applicano perché si sentono vincolati: per la scienza giuridica, affermare il diritto vigente comporta una **previsione** delle decisioni dei tribunali, sostenuta anche dall'atteggiamento con cui i giudici si sentono vincolati;\n- critica l'uso della «giustizia» come giustificazione assoluta, non controllabile razionalmente;\n- nel saggio del 1969 discute il **paradosso della revisione costituzionale**: la norma che regola la revisione (l'art. 88 della Costituzione danese) è la più alta dell'ordinamento positivo e non può validamente modificare sé stessa, perché l'autoriferimento genera un circolo logico simile al paradosso del mentitore. [[hart|Hart]] aveva affrontato lo stesso problema nel saggio *Self-referring Laws* (1964).",
+      "daSapere": [
+        "Copenaghen 1899–1979; realismo giuridico scandinavo",
+        "*On Law and Justice* (1958); *On Self-Reference and a Puzzle in Constitutional Law* (1969)",
+        "Diritto valido = previsione delle decisioni dei giudici",
+        "Paradosso dell'autorevisione: art. 88 della Costituzione danese"
+      ],
+      "collegamenti": [
+        {
+          "da": "kelsen",
+          "a": "alf-ross",
+          "tipo": "influenza",
+          "etichetta": "è il maestro viennese, poi criticato, di"
+        },
+        {
+          "da": "alf-ross",
+          "a": "grundnorm",
+          "tipo": "contrasta",
+          "etichetta": "sostituisce con una norma posta la"
+        }
+      ]
+    },
+    {
+      "id": "dalla-struttura-alla-funzione",
+      "oltre": "*Dalla struttura alla funzione. Nuovi studi di teoria del diritto* (Milano, Edizioni di Comunità, 1977) raccoglie saggi scritti da [[norberto-bobbio|Bobbio]] tra la fine degli anni Sessanta e la metà degli anni Settanta, tra cui *Sulla funzione promozionale del diritto* e lo studio sulle sanzioni positive.\n\nLa tesi: la teoria del diritto del Novecento, culminata in [[kelsen|Kelsen]], ha studiato il diritto nella sua **struttura** (come sono fatte le norme e l'ordinamento) e lo ha visto soprattutto come strumento di **repressione**, che vieta e punisce. Nello **Stato sociale**, però, il diritto serve sempre più a **promuovere** comportamenti desiderati con incentivi, agevolazioni e premi: le **sanzioni positive**, accanto a quelle negative. Serve quindi un'analisi **funzionale**, che non sostituisce quella strutturale ma la completa.\n\nIl libro segna una svolta nel pensiero di Bobbio, fino ad allora legato all'approccio strutturale kelseniano, e ha influenzato la teoria e la sociologia del diritto italiane.",
+      "daSapere": [
+        "Bobbio, 1977 (Edizioni di Comunità)",
+        "Funzione repressiva (sanzioni negative) / promozionale (sanzioni positive)",
+        "Analisi funzionale come complemento di quella strutturale"
+      ],
+      "fonti": [
+        {
+          "titolo": "Bobbio, Dalla struttura alla funzione, presentazione e contenuti dell'editore Laterza",
+          "url": "https://bibliotecadigitale.laterza.it/scheda-libro/?isbn=9788842084587"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "dalla-struttura-alla-funzione",
+          "a": "kelsen",
+          "tipo": "interpreta",
+          "etichetta": "giudica solo strutturale la teoria di"
+        }
+      ]
+    },
+    {
+      "id": "zum-ewigen-frieden",
+      "oltre": "*Per la pace perpetua. Un progetto filosofico* (*Zum ewigen Frieden. Ein philosophischer Entwurf*) fu pubblicato da [[kant|Kant]] a Königsberg nel 1795, poco dopo la pace di Basilea tra Prussia e Francia; la seconda edizione, ampliata, è del 1796. Ha la forma, in parte ironica, di un trattato di pace.\n\n- **Sei articoli preliminari** vietano ciò che rende impossibile la pace: trattati con riserve segrete, acquisto di Stati come se fossero cose, eserciti permanenti (da abolire col tempo), debiti contratti per la guerra, ingerenza nella costituzione di altri Stati, mezzi di guerra che distruggono la fiducia futura.\n- **Tre articoli definitivi**: la costituzione di ogni Stato deve essere **repubblicana**; il diritto internazionale deve fondarsi su una **federazione di Stati liberi**, non su uno Stato mondiale; il **diritto cosmopolitico** si limita alle condizioni dell'**ospitalità universale**.\n- Seguono due supplementi (la garanzia offerta dalla natura e l'«articolo segreto» sul consiglio dei filosofi) e due appendici sul rapporto tra morale e politica, con la formula trascendentale.\n\nL'opera ha ispirato la Società delle Nazioni, l'ONU e la teoria della «pace democratica».",
+      "daSapere": [
+        "Kant, 1795 (2ª ed. ampliata 1796)",
+        "Sei articoli preliminari, tre definitivi, due supplementi, due appendici",
+        "Costituzione repubblicana; federazione di Stati liberi; ospitalità universale",
+        "Seconda appendice: formula trascendentale del diritto pubblico"
+      ],
+      "fonti": [
+        {
+          "titolo": "Kant, Per la pace perpetua, in particolare Appendice II (traduzione storica)",
+          "url": "https://www.gutenberg.org/files/50922/50922-h/50922-h.htm"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "kant",
+          "a": "zum-ewigen-frieden",
+          "tipo": "crea",
+          "etichetta": "scrive nel 1795"
+        }
+      ]
+    },
+    {
+      "id": "rousseau",
+      "oltre": "Jean-Jacques Rousseau (**Ginevra 1712–Ermenonville 1778**) fu filosofo, scrittore e teorico dell’educazione. Nel *Discorso sull’origine della disuguaglianza* (1755) ricostruisce in forma congetturale il passaggio verso dipendenza e diseguaglianze sociali: non è una cronaca storica, né la semplice tesi che ogni relazione sociale sia cattiva.\n\nNel *Contratto sociale* (**1762**) cerca una forma di associazione nella quale l’autorità politica sia compatibile con la libertà. La volontà generale è orientata al bene comune e va distinta dalla volonta di tutti, somma di interessi particolari. Nello stesso anno pubblica l’*Emilio*; il romanzo *Giulia o la nuova Eloisa* è del 1761.\n\nNella storia del diritto naturale è uno degli autori del [[contrattualismo|contrattualismo]] moderno e ispira la [[dichiarazione-dei-diritti-dell-uomo-e-del-cittadino|Dichiarazione del 1789]] (la legge come espressione della volontà generale).",
+      "daSapere": [
+        "Ginevra 1712 – Ermenonville 1778",
+        "*Discorso sulla disuguaglianza* (1755); *Giulia o la nuova Eloisa* (1761)",
+        "*Contratto sociale* ed *Emilio* (1762)",
+        "Volontà generale ≠ volontà di tutti; sovranità popolare inalienabile"
+      ],
+      "fonti": [
+        {
+          "titolo": "Rousseau: opere e filosofia politica, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/rousseau/"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "rousseau",
+          "a": "dichiarazione-dei-diritti-dell-uomo-e-del-cittadino",
+          "tipo": "influenza",
+          "etichetta": "contribuisce a preparare la"
+        }
+      ]
+    },
+    {
+      "id": "stato-etico",
+      "oltre": "L'espressione «Stato etico» richiede sempre di specificare l'autore. In [[hegel|Hegel]], nei *[[lineamenti-di-filosofia-del-diritto|Lineamenti di filosofia del diritto]]* (1820, con data 1821), lo Stato è il momento più alto dell'**eticità**, dopo famiglia e società civile: la «realtà dell'idea etica», in cui la libertà si realizza nelle istituzioni. Ridurlo a un apparato che assorbe ogni individuo nasconde la complessità della teoria.\n\nNel Novecento la formula è ripresa dal [[neohegelismo|neohegelismo]] italiano, soprattutto da [[giovanni-gentile|Giovanni Gentile]], che ne fa un fondamento dello Stato fascista. Proprio questo uso spiega la diffidenza della cultura giuridica del dopoguerra verso l'idea che lo Stato sia fonte di moralità: il [[giuspositivismo|giuspositivismo]] di Kelsen e di Bobbio separa invece diritto e morale.",
+      "daSapere": [
+        "Hegel: lo Stato come vertice dell'eticità (famiglia, società civile, Stato)",
+        "Lineamenti di filosofia del diritto (1820/1821)",
+        "Gentile e il fascismo non esauriscono Hegel"
+      ],
+      "fonti": [
+        {
+          "titolo": "Hegel: filosofia sociale e politica, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hegel/"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-etico",
+          "a": "hegel",
+          "tipo": "collegato",
+          "etichetta": "in Moro ha significato distinto da"
+        },
+        {
+          "da": "stato-etico",
+          "a": "stato-di-diritto",
+          "tipo": "collegato",
+          "etichetta": "è per Moro complementare allo"
+        }
+      ]
+    },
+    {
+      "id": "benedetto-croce",
+      "oltre": "Benedetto Croce (Pescasseroli 1866 – Napoli 1952) fu il maggiore filosofo italiano del primo Novecento, oltre che storico e critico letterario. Fondò nel 1903 la rivista «La Critica», inizialmente insieme a Giovanni Gentile; fu senatore e ministro della Pubblica istruzione (1920–21). Dopo un iniziale atteggiamento di attesa verso il fascismo, nel 1925 scrisse il *Manifesto degli intellettuali antifascisti* e divenne il punto di riferimento dell'antifascismo liberale; dopo la guerra guidò il Partito liberale e fu membro della Costituente.\n\nLa sua «filosofia dello spirito» distingue quattro forme dell'attività umana: estetica (il bello), logica (il vero), economia (l'utile) ed etica (il bene). Il diritto rientra nell'**economia**: il saggio *Riduzione della filosofia del diritto alla filosofia dell'economia* (1907) sostiene che le leggi sono volizioni dell'utile, prive di un valore morale proprio. Opere principali: *Estetica* (1902), *Logica* e *Filosofia della pratica* (1909), *La storia come pensiero e come azione* (1938), manifesto del suo storicismo assoluto.",
+      "daSapere": [
+        "Pescasseroli 1866 – Napoli 1952",
+        "Quattro forme dello spirito: bello, vero, utile, bene",
+        "*Riduzione della filosofia del diritto alla filosofia dell'economia* (1907)",
+        "*Manifesto degli intellettuali antifascisti* (1925)"
+      ],
+      "fonti": [
+        {
+          "titolo": "Camera dei deputati: Benedetto Croce",
+          "url": "https://storia.camera.it/deputato/benedetto-croce-18660225"
+        }
+      ]
+    },
+    {
+      "id": "santi-romano",
+      "oltre": "Santi Romano (Palermo 1875 – Roma 1947) fu un importante giuspubblicista italiano della prima metà del Novecento. Allievo di Vittorio Emanuele Orlando, insegnò diritto costituzionale e amministrativo in varie università (tra cui Pisa, Milano e Roma), fu senatore e presidente del Consiglio di Stato dal 1928 al 1944.\n\nNella prolusione pisana *Lo Stato moderno e la sua crisi* (1909) osservò che lo Stato liberale, costruito sull'individuo, non riusciva più a contenere le organizzazioni sociali emergenti, come sindacati e associazioni. La sua opera principale, *L'ordinamento giuridico* (1917–18; seconda edizione 1946), formula la teoria istituzionalistica: il diritto, prima di essere norma, è **istituzione**, cioè organizzazione di un corpo sociale, e ogni istituzione è un ordinamento giuridico. Ne deriva il [[pluralismo-giuridico|pluralismo]]: esistono tanti ordinamenti quante istituzioni (lo Stato, la Chiesa, la comunità internazionale, persino le organizzazioni illecite), e lo Stato è solo uno di essi. La tesi si contrappone al normativismo, che riduce il diritto a un insieme di norme.",
+      "daSapere": [
+        "Palermo 1875 – Roma 1947; presidente del Consiglio di Stato 1928–44",
+        "*Lo Stato moderno e la sua crisi* (1909)",
+        "*L'ordinamento giuridico* (1917–18): diritto = istituzione; pluralità degli ordinamenti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Consiglio di Stato: profilo storico di Santi Romano",
+          "url": "https://www.giustizia-amministrativa.it/documents/20142/38675/intra_034326.pdf/d581abf9-9a88-2558-3b51-4d17837216ee/intra_034326.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "santi-romano",
+          "a": "pluralismo-giuridico",
+          "tipo": "interpreta",
+          "etichetta": "elabora la teoria del"
+        }
+      ]
+    },
+    {
+      "id": "diritto-positivo",
+      "oltre": "Il diritto positivo è il diritto riconosciuto come operante in un determinato ordinamento storico. L’espressione *ius positum* richiama il diritto «posto», ma non significa soltanto norme deliberate da un legislatore: anche una consuetudine può far parte del diritto positivo quando l’ordinamento le riconosce tale ruolo.\n\nLa distinzione dal [[diritto-naturale]] riguarda il fondamento e i criteri di riconoscimento, non semplicemente l’opposizione fra diritto scritto e diritto non scritto. Il [[giuspositivismo]] studia il diritto senza assumere che la sua validità implichi giustizia morale; non comporta necessariamente il dovere di approvare qualsiasi legge.\n\nLa critica della sua ingiustizia resta quindi possibile. Occorre distinguere l’appartenenza di una norma all’ordinamento, il suo valore e la questione se sia moralmente doveroso obbedirle.",
+      "daSapere": [
+        "Diritto positivo: diritto riconosciuto in un ordinamento storico",
+        "Non coincide con il solo diritto scritto o legislativo",
+        "Validità giuridica e giustizia morale sono questioni distinte"
+      ],
+      "collegamenti": [
+        {
+          "da": "diritto-positivo",
+          "a": "diritto-naturale",
+          "tipo": "collegato",
+          "etichetta": "si distingue tradizionalmente dal"
+        },
+        {
+          "da": "giuspositivismo",
+          "a": "diritto-positivo",
+          "tipo": "interpreta",
+          "etichetta": "assume come oggetto il"
+        }
+      ]
+    },
+    {
+      "id": "diritto-naturale",
+      "oltre": "Il diritto naturale è un diritto che vale per natura, indipendentemente dalle leggi poste dagli uomini, e che serve come misura del [[diritto-positivo|diritto positivo]]. L'idea attraversa tutta la storia del pensiero. Nell'*Antigone* di Sofocle (circa 442 a.C.) la protagonista oppone all'editto del re le leggi non scritte degli dèi; [[aristotele|Aristotele]] distingue il giusto per natura da quello per legge; per gli stoici e per Cicerone la vera legge è la retta ragione conforme a natura. Per [[tommaso-d-aquino|Tommaso]] la legge naturale è la partecipazione della creatura razionale alla legge eterna. Ugo Grozio (*Il diritto della guerra e della pace*, 1625) è un autore centrale del [[giusnaturalismo]] moderno, fondato sulla ragione: varrebbe anche se Dio non esistesse.\n\nNell'Ottocento lo combattono lo storicismo e il [[giuspositivismo|positivismo giuridico]]; dopo il 1945 riceve nuovo impulso anche con [[gustav-radbruch|Radbruch]] e i processi ai crimini nazisti.",
+      "daSapere": [
+        "Sofocle, *Antigone*: le leggi non scritte",
+        "Cicerone: *recta ratio naturae congruens* («retta ragione conforme a natura»)",
+        "Grozio (1625): *etiamsi daremus non esse Deum* («anche se ammettessimo che Dio non esiste»)"
+      ],
+      "collegamenti": [
+        {
+          "da": "tommaso-d-aquino",
+          "a": "diritto-naturale",
+          "tipo": "interpreta",
+          "etichetta": "lo intende come partecipazione alla legge eterna"
+        },
+        {
+          "da": "giusnaturalismo",
+          "a": "diritto-naturale",
+          "tipo": "collegato",
+          "etichetta": "afferma l'esistenza del"
+        }
+      ]
+    },
+    {
+      "id": "thomas-hobbes",
+      "oltre": "Thomas Hobbes (Malmesbury 1588 – Hardwick Hall 1679) fu un filosofo inglese, testimone della guerra civile che divise l'Inghilterra a metà del Seicento. Opere principali: *Elementi di legge naturale e politica* (1640), *De cive* (1642), *Leviatano* (1651), *De corpore* (1655).\n\nIl suo punto di partenza è lo [[stato-di-natura|stato di natura]]: senza un potere comune gli uomini, uguali e mossi dalla paura e dal desiderio di potere, vivono in una guerra di tutti contro tutti, in cui la vita è solitaria, misera e breve; nel *De cive* riprende anche la formula homo homini lupus. Le leggi di natura sono teoremi della ragione che indicano come uscirne: cercare la pace e rinunciare al diritto su tutto. Con un patto di ciascuno con ciascuno gli uomini autorizzano un sovrano, il Leviatano, che non è parte del patto e ha potere assoluto e indivisibile, pur restando inalienabile il diritto all’autoconservazione. Il sovrano decide che cosa è giusto e interpreta la legge: *auctoritas, non veritas facit legem*.\n\nPer questo Hobbes è considerato un precursore del [[giuspositivismo|positivismo giuridico]] e della sovranità moderna.",
+      "daSapere": [
+        "Malmesbury 1588 – Hardwick Hall 1679",
+        "*De cive* (1642); *Leviatano* (1651)",
+        "*Bellum omnium contra omnes*; *homo homini lupus*",
+        "*Auctoritas, non veritas facit legem* («è l'autorità, non la verità, a fare la legge»)"
+      ],
+      "fonti": [
+        {
+          "titolo": "Hobbes: patto e limiti dell’obbligazione politica, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hobbes-moral/"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "thomas-hobbes",
+          "a": "giuspositivismo",
+          "tipo": "influenza",
+          "etichetta": "anticipa il"
+        },
+        {
+          "da": "thomas-hobbes",
+          "a": "carl-schmitt",
+          "tipo": "influenza",
+          "etichetta": "è studiato e ripreso da"
+        }
+      ]
+    },
+    {
+      "id": "carl-schmitt",
+      "oltre": "Carl Schmitt (Plettenberg 1888–1985) fu un giurista e politologo tedesco, tra i più influenti e discussi del Novecento. Opere principali: *Teologia politica* (1922), che si apre con la definizione «sovrano è chi decide sullo stato di eccezione»; *Il concetto del politico* (1927, poi 1932), per cui la politica si fonda sulla distinzione tra amico e nemico; *Dottrina della costituzione* (1928); *Il custode della costituzione* (1931), al centro di una celebre polemica con [[kelsen|Kelsen]] su chi debba garantire la costituzione (per Schmitt il presidente del Reich, per Kelsen una corte costituzionale); *Il nomos della terra* (1950), sul legame originario tra ordinamento e occupazione della terra.\n\nContro il normativismo kelseniano Schmitt sostiene il **decisionismo**: alla base dell'ordinamento non c'è una norma ma una decisione politica (più tardi parlerà di «ordine concreto» della comunità). Nel 1933 aderì al nazionalsocialismo e ne fu per alcuni anni un giurista di punta; dopo il 1945 non tornò più all'insegnamento.",
+      "daSapere": [
+        "Plettenberg 1888–1985",
+        "*Teologia politica* (1922): sovrano è chi decide sullo stato di eccezione",
+        "*Il concetto del politico* (1927/1932): amico e nemico",
+        "*Il custode della costituzione* (1931), contro Kelsen; *Il nomos della terra* (1950)"
+      ],
+      "collegamenti": [
+        {
+          "da": "carl-schmitt",
+          "a": "kelsen",
+          "tipo": "contrasta",
+          "etichetta": "polemizza sul custode della costituzione con"
+        }
+      ]
+    },
+    {
+      "id": "heidegger",
+      "oltre": "Martin Heidegger (**1889–1976**) fu un filosofo tedesco, attivo a Marburgo e Friburgo e legato alla fenomenologia di [[husserl|Husserl]]. In *Essere e tempo* (**1927**) indaga il senso dell’essere attraverso l’analisi del *Dasein*, l’«esserci» umano: non un soggetto isolato, ma un’esistenza già coinvolta in un mondo di pratiche e rapporti.\n\nIl *Mitsein*, «essere-con», indica una struttura di questa esistenza; il *Mitdasein*, «con-esserci», riguarda gli altri incontrati come altri esserci. La solitudine stessa presuppone un mondo condiviso.\n\nNel 1933 Heidegger aderì al partito nazista e fu rettore a Friburgo; lasciò il rettorato nel 1934, mantenendo l’iscrizione al partito fino alla fine del regime. Il fatto è documentato: il dibattito riguarda anche il suo rapporto con la filosofia, non l’esistenza dell’adesione.",
+      "daSapere": [
+        "1889–1976; Essere e tempo (1927)",
+        "Dasein: esserci; Mitsein: essere-con; Mitdasein: con-esserci",
+        "Adesione al partito nazista nel 1933; rettorato 1933–1934"
+      ],
+      "fonti": [
+        {
+          "titolo": "Heidegger: opera e adesione al nazismo, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/heidegger/"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "husserl",
+          "a": "heidegger",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        }
+      ]
+    },
+    {
+      "id": "diritto-sovralegale",
+      "oltre": "### Quando la legge diventa ingiustizia\nL'espressione viene da [[gustav-radbruch|Gustav Radbruch]], che nel 1946, nel saggio «Ingiustizia legale e diritto sovralegale», riflette sul nazismo. La sua formula: il diritto positivo prevale anche quando è ingiusto, salvo che il contrasto con la giustizia raggiunga una misura così intollerabile da far cedere la legge come «diritto ingiusto».\n\nLa formula fu usata dai tribunali tedeschi del dopoguerra e, dopo il 1990, nei processi per le uccisioni al muro di Berlino. Per l'esame è utile collegarla alla ingiustizia legale e ai crimini contro l umanita: non nega il valore della legge positiva, ma ne fissa un limite estremo.",
+      "daSapere": [
+        "Radbruch, 1946: «Gesetzliches Unrecht und übergesetzliches Recht»",
+        "Formula: cede solo l'ingiustizia intollerabile",
+        "Applicata ai processi del muro di Berlino"
+      ],
+      "fonti": [
+        {
+          "titolo": "G. Radbruch, Gesetzliches Unrecht und übergesetzliches Recht (1946)",
+          "url": "https://www.ub.uni-heidelberg.de/Englisch/ausstellungen/625jahre2011/exponate/sektion2/09_03.html"
+        }
+      ]
+    },
+    {
+      "id": "pluralismo-giuridico",
+      "oltre": "Il pluralismo giuridico è la tesi per cui in una stessa società coesistono **più ordinamenti giuridici**, non solo quello dello Stato. La formulazione classica è di [[santi-romano|Santi Romano]] nell'*Ordinamento giuridico* (1917–1918): ogni istituzione organizzata (la Chiesa, la comunità internazionale, perfino un'organizzazione illecita) è un ordinamento, e lo Stato è solo uno di essi, anche se il più importante. È l'alternativa istituzionalistica al normativismo di [[kelsen|Kelsen]].\n\nAlla fine del Novecento il tema ritorna con la crisi della sovranità statale: diritto internazionale ed europeo, regole prodotte da organizzazioni private e dal mercato globale, diritti di comunità religiose e culturali. Per questo il pluralismo giuridico compare accanto al [[postmodernismo-giuridico|postmodernismo giuridico]] fra le critiche all'idea che il diritto coincida con la legge dello Stato.",
+      "daSapere": [
+        "Santi Romano, L'ordinamento giuridico (1917–1918)",
+        "Ogni istituzione è un ordinamento; lo Stato è uno fra tanti",
+        "Ritorna con la crisi della sovranità statale"
+      ],
+      "fonti": [
+        {
+          "titolo": "S. Romano, L'ordinamento giuridico (1918)",
+          "url": "https://www.treccani.it/enciclopedia/santi-romano/"
+        }
+      ]
+    },
+    {
+      "id": "dichiarazione-dei-diritti-dell-uomo-e-del-cittadino",
+      "oltre": "### Il 26 agosto 1789\nL'Assemblea nazionale francese approvò la Dichiarazione il 26 agosto 1789. L'art. 1 afferma che gli uomini nascono e restano liberi e uguali nei diritti; l'art. 2 indica come diritti naturali e imprescrittibili la libertà, la proprietà, la sicurezza e la resistenza all'oppressione; l'art. 16 dice che una società senza garanzia dei diritti e separazione dei poteri non ha costituzione.\n\nVi confluiscono il [[giusnaturalismo|giusnaturalismo]], [[montesquieu|Montesquieu]] (la [[separazione-dei-poteri|separazione dei poteri]], art. 16) e [[rousseau|Rousseau]] (la legge come espressione della volontà generale, art. 6).",
+      "daSapere": [
+        "Approvata il 26 agosto 1789",
+        "Art. 2: libertà, proprietà, sicurezza, resistenza all'oppressione",
+        "Art. 16: garanzia dei diritti e separazione dei poteri"
+      ],
+      "fonti": [
+        {
+          "titolo": "Déclaration des droits de l'homme et du citoyen (1789)",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+        }
+      ]
+    },
+    {
+      "id": "eteronomia",
+      "oltre": "### La legge che viene da fuori\nPer [[kant|Kant]] la volontà è autonoma quando si dà da sé la legge morale, eteronoma quando la riceve da altro: un'inclinazione, un premio, un'autorità esterna. Solo l'autonomia fonda la moralità; l'eteronomia produce al più azioni conformi al dovere, non per dovere.\n\nIl diritto sembra eteronomo per definizione, perché le leggi sono poste da un'autorità e sostenute dalla forza. Kant ne trae la distinzione fra **legalità** e **moralità**: il diritto chiede solo la conformità esterna dell'azione alla legge, qualunque ne sia il movente; la morale chiede che si agisca **per dovere**. Per questo la coazione è compatibile con il diritto, non con la morale.",
+      "daSapere": [
+        "Kant: autonomia contro eteronomia della volontà",
+        "Eteronomia: legge ricevuta dall'esterno",
+        "Legalità (conformità esterna) e moralità (agire per dovere)"
+      ],
+      "fonti": [
+        {
+          "titolo": "I. Kant, Fondazione della metafisica dei costumi (1785), sezione II",
+          "url": "https://www.gutenberg.org/files/5682/5682-h/5682-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "hume",
+      "oltre": "David Hume (Edimburgo 1711–1776) è, con Locke e Berkeley, il grande nome dell'empirismo britannico: ogni conoscenza deriva dall'esperienza, e idee come quella di causa nascono dall'abitudine a vedere certi fatti seguirsi.\n\nIl passo che interessa i giuristi è nel *Trattato sulla natura umana* (1739–1740), libro III: Hume osserva che gli autori di morale passano senza avvertire da proposizioni con «è» a proposizioni con «deve», e chiede che di questo passaggio si dia una ragione. Da qui la legge di Hume, o «grande divisione» tra fatti e valori: da premesse soltanto descrittive non si ricavano logicamente conclusioni prescrittive.\n\nKant disse che Hume lo aveva svegliato dal «sonno dogmatico». Nel Novecento la sua tesi è la base del non cognitivismo etico e della separazione kelseniana tra essere e dover essere.",
+      "daSapere": [
+        "1711–1776, empirista scozzese",
+        "*Trattato sulla natura umana* (1739–1740): passaggio da «è» a «deve»",
+        "Legge di Hume = grande divisione tra fatti e valori"
+      ],
+      "collegamenti": [
+        {
+          "da": "hume",
+          "a": "kant",
+          "tipo": "influenza",
+          "etichetta": "risveglia dal sonno dogmatico"
+        }
+      ]
+    },
+    {
+      "id": "max-weber",
+      "oltre": "Max Weber (1864–1920), giurista di formazione, è uno dei fondatori della sociologia. In *Economia e società* (postumo, 1922) definisce lo Stato come l'istituzione che detiene il **monopolio della forza fisica legittima** e distingue tre tipi di potere legittimo: **tradizionale** (si obbedisce perché si è sempre fatto così), **carismatico** (si obbedisce alle qualità straordinarie di un capo) e **legale-razionale** (si obbedisce a regole generali poste secondo procedure). Lo Stato moderno, con la sua burocrazia, appartiene al terzo tipo.\n\nPer il metodo chiede alle scienze sociali di **comprendere** (*verstehen*) il senso che gli attori danno alle proprie azioni, restando però avalutative, cioè senza giudizi di valore. È il problema che Winch e poi Hart riprendono con il [[punto-di-vista-interno|punto di vista interno]].\n\n*L'etica protestante e lo spirito del capitalismo* (1904–1905) è la sua opera più nota.",
+      "daSapere": [
+        "1864–1920; *Economia e società* (1922)",
+        "Stato = monopolio della forza legittima",
+        "Potere tradizionale, carismatico, legale-razionale",
+        "Sociologia comprendente (*verstehen*) e avalutatività"
+      ]
+    },
+    {
+      "id": "jeremy-bentham",
+      "oltre": "Jeremy Bentham (Londra 1748–1832), giurista e riformatore, è il fondatore dell'[[utilitarismo]]: un'azione o una legge è giusta se produce «la massima felicità per il maggior numero», e piaceri e dolori si possono in linea di principio calcolare (*Introduzione ai principi della morale e della legislazione*, 1789).\n\nDa qui una critica radicale del diritto naturale: i diritti naturali della Dichiarazione francese sono per lui «sciocchezze sui trampoli»; esistono solo i diritti creati dalla legge. Il diritto è il **comando del sovrano**, tesi che il suo allievo John Austin svilupperà nel positivismo giuridico inglese e che Hart criticherà. Bentham chiedeva la codificazione del *common law* e una pena proporzionata e utile.\n\nIl Panopticon (1791), progettato con il fratello Samuel, è un edificio circolare con una torre centrale da cui un solo sorvegliante può vedere tutti senza essere visto.",
+      "daSapere": [
+        "1748–1832; padre dell'utilitarismo",
+        "«La massima felicità per il maggior numero»",
+        "Diritto come comando del sovrano; critica dei diritti naturali",
+        "Panopticon: progetto del 1791"
+      ],
+      "collegamenti": [
+        {
+          "da": "jeremy-bentham",
+          "a": "utilitarismo",
+          "tipo": "crea",
+          "etichetta": "fonda l'"
+        }
+      ]
+    },
+    {
+      "id": "karl-marx",
+      "oltre": "Karl Marx (Treviri 1818 – Londra 1883) studiò giurisprudenza e filosofia a Bonn e Berlino. Giovane giornalista della «Gazzetta renana», nel 1842 commentò i dibattiti della Dieta renana sulla legge contro i **furti di legna**: raccogliere la legna caduta era un uso antico dei poveri, e la nuova legge lo trasformava in reato a tutela dei proprietari dei boschi. Marx racconterà che proprio questi casi lo spinsero a occuparsi di questioni economiche.\n\nNe nasce il **materialismo storico**: i rapporti di produzione sono la «struttura» della società; diritto, Stato e idee ne sono la «sovrastruttura» e ne riflettono i rapporti di forza. Il diritto eguale borghese tratta come eguali individui che non lo sono.\n\nOpere: *Manifesto del partito comunista* (1848, con Engels), *Il capitale* (libro I, 1867). L'espressione «materialismo dialettico» si deve in realtà a Engels e ai marxisti successivi.",
+      "daSapere": [
+        "1818–1883; studi giuridici a Bonn e Berlino",
+        "1842: articoli sulla legge contro i furti di legna",
+        "Struttura economica e sovrastruttura giuridica",
+        "*Manifesto* (1848); *Il capitale* (1867)"
+      ],
+      "collegamenti": [
+        {
+          "da": "hegel",
+          "a": "karl-marx",
+          "tipo": "influenza",
+          "etichetta": "fornisce la dialettica a"
+        }
+      ]
+    },
+    {
+      "id": "friedrich-von-hayek",
+      "oltre": "Friedrich August von Hayek (Vienna 1899 – Friburgo 1992), economista della scuola austriaca, insegnò alla London School of Economics e a Chicago; premio Nobel per l'economia nel 1974. In *La via della schiavitù* (1944) sostiene che la pianificazione economica porta alla perdita delle libertà.\n\nLa sua tesi di fondo riguarda la **conoscenza**: le informazioni necessarie a coordinare una società sono disperse tra milioni di persone e nessuna autorità può raccoglierle; il sistema dei prezzi le trasmette da solo. Per questo distingue l'ordine spontaneo (*kosmos*) dall'organizzazione costruita per uno scopo (*taxis*).\n\nIn *Legge, legislazione e libertà* (1973–1979) applica la distinzione al diritto: le regole di giusta condotta (*nomos*) si formano per evoluzione, come nel *common law*, e sono generali e astratte; la legislazione (*thesis*) è il comando di chi organizza. Lo Stato deve garantire le prime, non dirigere l'economia.",
+      "daSapere": [
+        "1899–1992; Nobel per l'economia 1974",
+        "*La via della schiavitù* (1944)",
+        "Conoscenza dispersa; *kosmos* e *taxis*",
+        "*Legge, legislazione e libertà* (1973–1979)"
+      ]
+    },
+    {
+      "id": "jurgen-habermas",
+      "oltre": "Jürgen Habermas (Düsseldorf, 1929) è il maggiore esponente della seconda generazione della Scuola di Francoforte. Nella *Teoria dell'agire comunicativo* (1981) distingue l'agire **strumentale**, orientato al successo, dall'agire **comunicativo**, orientato all'intesa tra parlanti.\n\nLa società ha due facce: il **mondo della vita**, lo sfondo di significati condivisi in cui ci si intende parlando, e i **sistemi** (economia e amministrazione), coordinati da denaro e potere. La «colonizzazione» avviene quando i sistemi invadono ambiti che vivono di intesa, come famiglia e scuola; la **giuridificazione** (*Verrechtlichung*), cioè l'aumento delle materie regolate dal diritto, ne è uno strumento ambivalente, perché tutela e insieme burocratizza.\n\nIn *Fatti e norme* (1992) il diritto è legittimo solo se nasce da procedure democratiche di discussione a cui tutti gli interessati possano partecipare.",
+      "daSapere": [
+        "Nato nel 1929; Scuola di Francoforte",
+        "*Teoria dell'agire comunicativo* (1981): sistema e mondo della vita",
+        "Giuridificazione (*Verrechtlichung*)",
+        "*Fatti e norme* (1992): democrazia deliberativa"
+      ]
+    },
+    {
+      "id": "contrattualismo",
+      "oltre": "È la famiglia di teorie che fonda l'autorità politica su un accordo tra individui liberi ed eguali. Lo schema ha tre momenti: **stato di natura**, **patto**, **società civile**. Non è una ricostruzione storica: è un esperimento mentale per stabilire a quali condizioni un potere è legittimo.\n\nI tre classici divergono su tutto. [[thomas-hobbes|Hobbes]] (*Leviatano*, 1651): lo stato di natura è guerra di tutti contro tutti; gli individui cedono ogni diritto, salvo la vita, a un sovrano assoluto. Locke (1690): i diritti naturali preesistono e il governo è un mandato limitato e revocabile. Rousseau (1762): ciascuno si dà a tutti e la volontà generale è sovrana.\n\n[[kant|Kant]] fa del contratto un'idea della ragione: la pietra di paragone di ogni legge è se un popolo avrebbe potuto darsela. Nel Novecento John Rawls (*Una teoria della giustizia*, 1971) lo riprende con la «posizione originaria» e il «velo di ignoranza».",
+      "daSapere": [
+        "Stato di natura → patto → società civile",
+        "Hobbes: sovrano assoluto; Locke: governo limitato; Rousseau: volontà generale",
+        "Kant: il contratto come idea della ragione",
+        "Rawls (1971): velo di ignoranza"
+      ],
+      "collegamenti": [
+        {
+          "da": "thomas-hobbes",
+          "a": "contrattualismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il teorico assolutista del"
+        },
+        {
+          "da": "kant",
+          "a": "contrattualismo",
+          "tipo": "interpreta",
+          "etichetta": "riduce a idea della ragione il patto del"
+        }
+      ]
+    },
+    {
+      "id": "utilitarismo",
+      "oltre": "È la dottrina morale per cui la bontà di un'azione, di una regola o di un'istituzione dipende solo dalle sue **conseguenze** sul benessere di tutti gli interessati, ciascuno contando per uno. La fonda [[jeremy-bentham|Bentham]] (1789); John Stuart Mill (*Utilitarismo*, 1861) distingue piaceri superiori e inferiori.\n\nL'idea era già in Cesare Beccaria (*Dei delitti e delle pene*, 1764), che parla della «massima felicità divisa nel maggior numero»: la pena non deve vendicare ma **prevenire**, perciò deve essere certa, pronta e proporzionata, non crudele. È la base delle teorie della pena come deterrenza, opposte al retribuzionismo di [[kant|Kant]], per cui si punisce perché il colpevole lo merita.\n\nL'obiezione classica: sommando il benessere, l'utilitarismo può giustificare il sacrificio di un innocente o di una minoranza a vantaggio dei più. Contro questo esito John Rawls ha ripreso il contratto sociale e i diritti.",
+      "daSapere": [
+        "Bentham (1789), J. S. Mill (1861)",
+        "Conta il benessere complessivo: «ciascuno conta per uno»",
+        "Beccaria (1764): pena utile, certa, proporzionata",
+        "Obiezione: sacrificio dei diritti dei singoli"
+      ],
+      "collegamenti": [
+        {
+          "da": "utilitarismo",
+          "a": "kant",
+          "tipo": "contrasta",
+          "etichetta": "si oppone alla morale del dovere di"
+        }
+      ]
+    },
+    {
+      "id": "decisionismo",
+      "oltre": "[[carl-schmitt|Carl Schmitt]] (1888–1985) apre *Teologia politica* (1922) con la frase: «Sovrano è chi decide sullo stato di eccezione». L'eccezione è il caso che nessuna norma può prevedere: lì si vede che l'ordine giuridico riposa su una decisione, perché una norma presuppone una situazione normale e qualcuno deve stabilire se essa esiste. «L'eccezione è più interessante del caso normale».\n\nIl dibattito con [[kelsen|Kelsen]] culmina nel 1931 sulla domanda «chi è il custode della costituzione?»: per Schmitt il capo dello Stato eletto dal popolo, per Kelsen una corte costituzionale. Schmitt aderì al nazismo nel 1933 e lo giustificò giuridicamente: la sua opera va letta sapendolo.\n\nL'espressione «stato di eccezione» è stata ripresa da Giorgio Agamben (2003) per descrivere l'uso permanente di poteri d'emergenza nelle democrazie. In diritto positivo corrispondono figure come i decreti d'urgenza e gli stati d'emergenza.",
+      "daSapere": [
+        "*Teologia politica* (1922): «Sovrano è chi decide sullo stato di eccezione»",
+        "1931: disputa con Kelsen sul custode della costituzione",
+        "Schmitt aderisce al nazismo nel 1933",
+        "Agamben, *Stato di eccezione* (2003)"
+      ],
+      "collegamenti": [
+        {
+          "da": "carl-schmitt",
+          "a": "decisionismo",
+          "tipo": "crea",
+          "etichetta": "fonda il"
+        }
+      ]
+    },
+    {
+      "id": "critical-legal-studies",
+      "oltre": "Il movimento nasce negli Stati Uniti con un convegno all'Università del Wisconsin nel 1977; i nomi principali sono Duncan Kennedy, Roberto Mangabeira Unger, Mark Tushnet, Morton Horwitz, con centro alla Harvard Law School.\n\nEredita dal realismo americano la tesi dell'**indeterminatezza**: regole e precedenti non bastano a decidere i casi, perché ogni regola ha eccezioni e principi opposti a cui appellarsi. Aggiunge una critica politica, di ispirazione marxista e poi decostruzionista: «il diritto è politica» (*law is politics*). Il ragionamento giuridico presenta come neutrali e necessarie scelte che favoriscono assetti di potere esistenti; compito dello studioso è smontare questa apparenza.\n\nDal movimento derivano la *Critical Race Theory* e buona parte del femminismo giuridico americano. L'obiezione più comune: se tutto è politica, non resta un criterio per distinguere una buona decisione giuridica da una cattiva.",
+      "daSapere": [
+        "Stati Uniti, dal 1977; Kennedy, Unger, Tushnet",
+        "Indeterminatezza del diritto",
+        "*Law is politics*",
+        "Da qui: Critical Race Theory, femminismo giuridico"
+      ]
+    },
+    {
+      "id": "il-concetto-di-diritto",
+      "oltre": "*The Concept of Law* esce a Oxford nel 1961; la seconda edizione (1994) contiene un *Poscritto* postumo in cui Hart risponde alle critiche di Ronald Dworkin.\n\nIl libro parte dalla teoria di John Austin, per cui il diritto è il comando del sovrano sostenuto da minacce, e la confuta: non spiega le norme che conferiscono poteri (fare testamento, contrarre), né la continuità del diritto quando cambia il sovrano. La differenza tra il bandito e l'esattore sta nella distinzione tra «essere costretto» ed «avere un obbligo».\n\nLa proposta: il diritto è **unione di norme primarie e secondarie**. Una società con sole norme primarie soffre di incertezza, staticità e inefficienza; vi rimediano la norma di riconoscimento, le norme di mutamento e quelle di giudizio.\n\nGli ultimi capitoli trattano la «trama aperta» del linguaggio giuridico, il rapporto tra diritto e morale e il diritto internazionale. È il testo fondamentale del positivismo analitico del secondo Novecento.",
+      "daSapere": [
+        "1961; seconda edizione con *Poscritto* 1994",
+        "Critica ad Austin: il diritto non è il comando di un bandito",
+        "Unione di norme primarie e secondarie",
+        "Trama aperta (*open texture*) e discrezionalità"
+      ]
+    },
+    {
+      "id": "separazione-dei-poteri",
+      "oltre": "La formulazione classica è di **[[montesquieu|Montesquieu]]** (*[[lo-spirito-delle-leggi|Lo spirito delle leggi]]*, 1748): perché non si abusi del potere, occorre che «il potere arresti il potere». Prima di lui John Locke aveva distinto il potere legislativo da quello esecutivo.\n\nOggi il principio non significa che ogni funzione spetti a un solo organo. Il Governo adotta atti con forza di legge, il Parlamento controlla il Governo, la Corte costituzionale annulla le leggi. Si parla di **equilibrio** e di **controlli reciproci**. Accanto alla divisione **orizzontale** tra organi dello Stato c'è quella **verticale** tra Stato, Regioni ed enti locali. Il nucleo che resta fermo è l'**indipendenza dei giudici**.",
+      "daSapere": [
+        "Montesquieu, Lo spirito delle leggi, 1748.",
+        "Tre funzioni: legislativa, esecutiva, giudiziaria.",
+        "Oggi: equilibrio e controlli reciproci, non separazione rigida."
+      ],
+      "collegamenti": [
+        {
+          "da": "separazione-dei-poteri",
+          "a": "stato-di-diritto",
+          "tipo": "parte-di",
+          "etichetta": "è un pilastro dello"
+        }
+      ]
+    },
+    {
+      "id": "cicerone",
+      "oltre": "Marco Tullio Cicerone (**Arpino, 106 – 43 a.C.**) fu oratore, uomo politico e scrittore; console nel 63 a.C., contrastò la congiura di Catilina e morì durante le proscrizioni del secondo triumvirato. Fu protagonista della crisi della tarda Repubblica. Le sue opere sono essenziali per conoscere tribunali, magistrature, linguaggio politico e cultura giuridica.\n\nIl De re publica discute la migliore organizzazione della comunità; il De legibus collega la legge alla ragione e alla natura; il De officiis, composto nel 44 a.C., tratta dei doveri e del rapporto tra utile e onesto. I Topica applicano strumenti argomentativi anche al diritto. Per la storia del [[diritto-naturale|diritto naturale]] è decisiva la sua definizione della vera legge come retta ragione conforme a natura, che collega lo stoicismo greco alla tradizione romana e cristiana.",
+      "daSapere": [
+        "106–43 a.C.; console nel 63 a.C.",
+        "Oratore forense e politico, distinto dal giureconsulto",
+        "De re publica, De legibus, De officiis: comunità, legge, doveri"
+      ]
+    },
+    {
+      "id": "pandettistica",
+      "oltre": "La Pandettistica è soprattutto la scienza giuridica tedesca dell'**Ottocento** che rielabora i testi romani per costruire un sistema di diritto privato utilizzabile nel presente. Il nome deriva dalle *Pandectae*, cioè il Digesto. Si collega alla [[scuola-storica|Scuola storica]], ma non coincide con ogni forma di studio storico delle fonti.\n\nL'elaborazione di concetti generali, rapporti giuridici e diritti soggettivi permette di organizzare materiali originariamente casistici. [[savigny|Savigny]] e altri autori contribuiscono a questo ambiente intellettuale; il sistema influenzerà il BGB, entrato in vigore nel 1900. Non tutto ciò che la dottrina pandettistica presenta con terminologia latina apparteneva già ai giuristi classici nella stessa forma. Per lo storico è quindi essenziale distinguere **testo romano**, **ricostruzione sistematica ottocentesca** e **diritto codificato**. Una categoria moderna può essere feconda senza costituire una descrizione letterale delle idee dei Romani.",
+      "daSapere": [
+        "Ottocento tedesco; nome derivato dalle Pandette",
+        "Sistematizzazione moderna di testi antichi",
+        "1900: entrata in vigore del BGB"
+      ]
+    },
+    {
+      "id": "ius-naturale",
+      "oltre": "Il diritto naturale non ha un unico significato presso tutti gli autori romani. La riflessione filosofica di [[cicerone|Cicerone]] cerca nella natura razionale un criterio del giusto; Gaio richiama la ragione naturale per spiegare istituti comuni ai popoli. Ulpiano distingue invece ciò che la natura insegna a tutti gli animali dallo ius gentium, proprio degli uomini.\n\nNon è quindi corretto presentare sempre il diritto delle genti come semplice sottoinsieme del naturale. La schiavitù rende evidente la tensione: può essere ammessa dallo *ius gentium* pur essendo contraria alla libertà naturale. Queste elaborazioni preparano problemi ripresi dal [[giusnaturalismo]] successivo, senza coincidere già con una teoria moderna dei diritti universali dell'individuo.",
+      "daSapere": [
+        "Significato variabile: Cicerone, Gaio e Ulpiano",
+        "Ulpiano distingue naturale e diritto delle genti",
+        "Schiavitù: istituto umano in tensione con la libertà naturale"
+      ],
+      "fonti": [
+        {
+          "titolo": "Ulpiano e altri giuristi, D. 1.1",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/d-01.htm"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "cicerone",
+          "a": "ius-naturale",
+          "tipo": "interpreta",
+          "etichetta": "elabora una visione razionale dello"
+        }
+      ]
+    },
+    {
+      "id": "savigny",
+      "oltre": "Friedrich Carl von Savigny (**1779–1861**) fu un giurista tedesco, professore e studioso del diritto romano. È una figura centrale della [[scuola-storica]], secondo la quale il diritto si forma storicamente nella vita di una comunità e viene elaborato scientificamente dai giuristi: non può essere ricavato soltanto da principi razionali astratti.\n\nNel **1814**, con *Vom Beruf unserer Zeit für Gesetzgebung und Rechtswissenschaft* («Della vocazione del nostro tempo per la legislazione e la scienza giuridica»), intervenne contro il progetto di una codificazione tedesca immediata. La sua posizione non è il rifiuto di ogni legislazione possibile: contesta l’idea che un codice risolva da solo insufficienze della cultura giuridica. Fra le opere maggiori vi sono *Il diritto del possesso*, la *Storia del diritto romano nel Medioevo* e il *Sistema del diritto romano attuale*.",
+      "daSapere": [
+        "1779–1861; figura centrale della Scuola storica",
+        "1814: scritto sulla vocazione per legislazione e scienza giuridica",
+        "Storia del diritto romano nel Medioevo; Sistema del diritto romano attuale"
+      ],
+      "fonti": [
+        {
+          "titolo": "Savigny, biografia e opere, Università di Marburgo",
+          "url": "https://www.uni-marburg.de/de/ub/forschen/historische-bestaende-1/historische-bestaende/friedrich-carl-von-savigny/biographie"
+        },
+        {
+          "titolo": "Scuola storica, Max Planck Institute",
+          "url": "https://hwb-eup2009.mpipriv.de/index.php/Historische_Rechtsschule"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "savigny",
+          "a": "pandettistica",
+          "tipo": "influenza",
+          "etichetta": "influenza lo sviluppo della"
+        }
+      ]
+    },
+    {
+      "id": "corpus-iuris-civilis",
+      "oltre": "*Corpus iuris civilis* è il nome convenzionale dell'insieme formato da digesto, Istituzioni, Codice e Novelle giustinianee. Non fu pubblicato dall'imperatore come un solo volume con questo titolo: il nome viene consolidato nell'editoria moderna, soprattutto dall'edizione di Dionisio Gotofredo del **1583**.\n\nLe parti hanno funzioni e trasmissioni differenti. Il Digesto raccoglie estratti dei giuristi; il Codice costituzioni; le Istituzioni insegnano i fondamenti con forza di legge; le Novelle sono legislazione successiva conosciuta attraverso raccolte. Il Corpus è la base più influente della tradizione romanistica, ma la ricezione medievale non utilizza sempre le stesse parti nello stesso modo. Occorre distinguere il diritto del VI secolo d.C. dall'ordine dei libri e dalle interpretazioni creati da editori e giuristi successivi.",
+      "daSapere": [
+        "Quattro parti convenzionali con funzioni diverse",
+        "1583: edizione di Gotofredo che consolida il titolo",
+        "Esistono fonti romane indipendenti dal Corpus"
+      ]
+    },
+    {
+      "id": "francois-geny",
+      "oltre": "François Gény (**1861–1959**) fu un giurista francese, docente e protagonista del dibattito sul metodo nell'interpretazione del diritto privato. La sua opera più celebre, *Méthode d'interprétation et sources en droit privé positif*, fu pubblicata nel **1899**; sviluppò il programma della **libera ricerca scientifica**.\n\nIl problema di fondo è come trovare una soluzione quando la legge e le altre fonti formali non la forniscono da sole. Gény non propone semplicemente di ignorare i testi secondo preferenze personali: invita a una ricerca disciplinata di dati, interessi e criteri giuridici. Per questo la sua Scuola scientifica è contata fra le prime forme di [[neogiusnaturalismo|neogiusnaturalismo]]: la «natura delle cose» offre all'interprete criteri che la legge non dà.",
+      "daSapere": [
+        "1861–1959; giurista francese",
+        "1899: Méthode d’interprétation et sources en droit privé positif",
+        "Libera ricerca scientifica oltre la sola esegesi legislativa"
+      ],
+      "fonti": [
+        {
+          "titolo": "François Gény: identità e opere (Bibliothèque nationale de France)",
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb12358936d"
+        }
+      ]
+    },
+    {
+      "id": "giovanni-tarello",
+      "oltre": "Giovanni Tarello (**Genova, 1934–1987**) fu filosofo del diritto e storico della cultura giuridica, legato all'Università di Genova. Studiò dottrine, ideologie e attività degli interpreti, insistendo sul fatto che il diritto applicato non si ricostruisce soltanto leggendo le disposizioni legislative.\n\nTra le opere conta *Storia della cultura giuridica moderna*, il cui primo volume, **Assolutismo e codificazione del diritto**, uscì nel **1976**. L'analisi di chi interpreta e delle tecniche con cui attribuisce significati ai testi aiuta a capire perché una raccolta non elimini ogni controversia. Nella [[scuola-analitica-italiana|Scuola analitica italiana]] rappresenta il giusrealismo: il suo [[scetticismo-interpretativo|scetticismo interpretativo]] distingue le disposizioni del legislatore dalle norme prodotte dagli interpreti.",
+      "daSapere": [
+        "1934–1987; filosofia del diritto e storia della cultura giuridica",
+        "1976: Assolutismo e codificazione del diritto",
+        "Testi legislativi e attività interpretativa sono piani distinti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Mauro Barberis, profilo di Giovanni Tarello (Universidad de Alicante)",
+          "url": "https://iusfilosofiamundolatino.ua.es/download/Barberis%20-%20G.%20Tarello.pdf"
+        },
+        {
+          "titolo": "Storia della cultura giuridica moderna: edizione del 1976 (Biblioteca PUL)",
+          "url": "https://pul-vc.atcult.it/pul/resource?dcnr=3&uri=158263&v=l"
+        }
+      ]
+    }
+  ]
+}

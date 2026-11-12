@@ -1,0 +1,186 @@
+{
+  "voci": [
+    {
+      "id": "frederick-schauer",
+      "oltre": "Frederick Schauer (nato nel 1946) è un filosofo del diritto statunitense. Ha insegnato a lungo alla Kennedy School of Government di Harvard e dal 2008 alla University of Virginia; si è occupato di libertà di espressione (Primo emendamento), di teoria delle regole e di ragionamento giuridico.\n\nIl libro studiato nel corso è la traduzione italiana di *Thinking Like a Lawyer. A New Introduction to Legal Reasoning* (2009). Riprende la tesi del suo libro più noto, *Playing by the Rules* (1991): le [[regola|regole]] sono generalizzazioni che restano vincolanti anche quando, nel caso singolo, tradiscono la loro [[giustificazione-soggiacente|giustificazione]]. Schauer chiama questa posizione «positivismo presuntivo»: le regole valgono come presunzioni forti, superabili solo in casi eccezionali. Nel libro *The Force of Law* (2015) ha poi difeso, contro una parte della teoria analitica, l'importanza della coercizione per capire il diritto.",
+      "daSapere": ["Nato nel 1946; Harvard (Kennedy School), poi University of Virginia", "*Playing by the Rules* (1991): teoria delle regole, positivismo presuntivo", "*Thinking Like a Lawyer* (2009) = *Il ragionamento giuridico*", "*The Force of Law* (2015): il ruolo della coercizione"],
+      "collegamenti": [
+        { "da": "frederick-schauer", "a": "il-ragionamento-giuridico", "tipo": "crea", "etichetta": "scrive" },
+        { "da": "frederick-schauer", "a": "regola", "tipo": "interpreta", "etichetta": "costruisce una teoria della" }
+      ]
+    },
+    {
+      "id": "il-ragionamento-giuridico",
+      "oltre": "Il titolo originale è *Thinking Like a Lawyer. A New Introduction to Legal Reasoning* (Harvard University Press, 2009). «Pensare come un giurista» è l'espressione con cui nelle facoltà di legge statunitensi si indica ciò che il primo anno dovrebbe insegnare: il libro si chiede se questa abilità esista davvero e in che cosa consista.\n\nSi inserisce in una tradizione di introduzioni al ragionamento giuridico di common law, come *An Introduction to Legal Reasoning* di Edward Levi (1949), centrata sul ragionamento per esempi, e *Legal Reasoning and Legal Theory* di Neil MacCormick (1978). A differenza di molti manuali, Schauer non si limita a descrivere gli strumenti (regole, precedente, analogia, autorità, interpretazione, onere della prova) ma sostiene una tesi unitaria: ciò che li accomuna è la disponibilità del diritto ad accettare decisioni non ottimali nel caso singolo in nome di valori di lungo periodo ([[decisioni-subottimali|decisioni subottimali]]).",
+      "daSapere": ["Originale: *Thinking Like a Lawyer* (2009)", "Precedenti: E. Levi, *An Introduction to Legal Reasoning* (1949); N. MacCormick, *Legal Reasoning and Legal Theory* (1978)", "Tesi unitaria: il diritto accetta decisioni subottimali per valori istituzionali"],
+      "collegamenti": [
+        { "da": "il-ragionamento-giuridico", "a": "decisioni-subottimali", "tipo": "crea", "etichetta": "si conclude con la tesi delle" }
+      ]
+    },
+    {
+      "id": "edward-coke",
+      "oltre": "Sir Edward Coke (1552–1634) fu il più autorevole giurista inglese del suo tempo: Chief Justice della Court of Common Pleas dal 1606 e del King's Bench dal 1613, fu destituito da Giacomo I nel 1616. Le sue *Institutes of the Lawes of England* e i suoi *Reports* furono per secoli la base dello studio del [[common-law|common law]].\n\nÈ celebre per aver difeso il common law contro la prerogativa regia: nel confronto con Giacomo I (*Prohibitions del Roy*, 1607–1608) sostenne che il re, pur dotato di grande ragione naturale, non conosceva la [[ragione-artificiale|ragione artificiale]] del diritto, che si acquista solo con lungo studio ed esperienza. Nel *Bonham's Case* (1610) affermò che il common law può controllare gli atti del Parlamento contrari alla ragione, idea che influenzò il controllo di costituzionalità americano. Nel 1628 fu tra i promotori della *Petition of Right*.",
+      "daSapere": ["1552–1634; Chief Justice, destituito nel 1616", "*Institutes of the Lawes of England*", "Ragione artificiale contro Giacomo I (1607–1608)", "*Bonham's Case* (1610); *Petition of Right* (1628)"],
+      "collegamenti": [
+        { "da": "edward-coke", "a": "common-law", "tipo": "influenza", "etichetta": "difende il primato del" }
+      ]
+    },
+    {
+      "id": "patrick-atiyah",
+      "oltre": "Patrick Selim Atiyah (1918–2018) è stato un giurista inglese, professore a Oxford, tra i maggiori studiosi del diritto dei contratti e della responsabilità civile. Il suo libro più noto, *The Rise and Fall of Freedom of Contract* (1979), ricostruisce l'ascesa e il declino dell'idea di libertà contrattuale nell'Inghilterra dei secoli XVIII–XX d.C.; in *Accidents, Compensation and the Law* (1970) criticò il sistema della responsabilità per colpa.\n\nPer il ragionamento giuridico conta soprattutto *Form and Substance in Anglo-American Law* (1987), scritto con Robert Summers: confronta il diritto inglese, più legato alle ragioni formali (testo delle regole, precedente vincolante), con quello americano, più aperto alle ragioni sostanziali di giustizia e di opportunità. È la stessa tensione tra forma e sostanza che attraversa il libro di [[frederick-schauer|Schauer]].",
+      "daSapere": ["1918–2018, Oxford", "*The Rise and Fall of Freedom of Contract* (1979)", "Con R. Summers, *Form and Substance in Anglo-American Law* (1987)"],
+      "collegamenti": [
+        { "da": "patrick-atiyah", "a": "formalismo-giuridico", "tipo": "interpreta", "etichetta": "confronta ragioni formali e sostanziali nel" }
+      ]
+    },
+    {
+      "id": "louis-brandeis",
+      "oltre": "Louis Dembitz Brandeis (1856–1941) fu avvocato a Boston e giudice della [[corte-suprema-degli-stati-uniti|Corte Suprema]] dal 1916 al 1939, il primo di religione ebraica. Con Samuel Warren scrisse *The Right to Privacy* (1890), il saggio che fondò il diritto alla riservatezza come «diritto di essere lasciati in pace».\n\nDa avvocato inventò il cosiddetto *Brandeis brief*: nel caso *Muller v. Oregon* (1908) difese una legge sull'orario di lavoro delle donne con poche pagine di diritto e moltissime di dati sociali, medici ed economici. È l'opposto della «[[sociologia-da-poltrona|sociologia da poltrona]]»: portare in giudizio i fatti sociali con prove documentate. Da giudice è ricordato per opinioni dissenzienti o concorrenti poi diventate maggioritarie, come quella in *Olmstead v. United States* (1928) sulle intercettazioni e quella in *Whitney v. California* (1927) sulla libertà di parola.",
+      "daSapere": ["1856–1941; Corte Suprema 1916–1939", "*The Right to Privacy* (1890), con S. Warren", "*Brandeis brief*: *Muller v. Oregon* (1908)", "Opinioni in *Whitney* (1927) e *Olmstead* (1928)"],
+      "collegamenti": [
+        { "da": "louis-brandeis", "a": "sociologia-da-poltrona", "tipo": "contrasta", "etichetta": "porta prove documentate al posto della" },
+        { "da": "louis-brandeis", "a": "corte-suprema-degli-stati-uniti", "tipo": "parte-di", "etichetta": "è giudice della" }
+      ]
+    },
+    {
+      "id": "benjamin-cardozo",
+      "oltre": "Benjamin Nathan Cardozo (1870–1938) fu giudice della Court of Appeals di New York, che presiedette dal 1927 al 1932, e poi della [[corte-suprema-degli-stati-uniti|Corte Suprema]] dal 1932 al 1938, dove succedette a [[oliver-wendell-holmes|Holmes]]. È considerato uno dei più grandi giudici di common law.\n\nNel libro *The Nature of the Judicial Process* (1921) descrisse con franchezza come decide un giudice: di solito segue il precedente, ma nei casi difficili sceglie tra logica, storia, consuetudine e considerazioni di benessere sociale, e in questa scelta crea diritto. Le sue sentenze più celebri ampliarono il [[common-law|common law]] per piccoli passi: in *[[macpherson-v-buick|MacPherson v. Buick]]* (1916) e in *Palsgraf v. Long Island Railroad* (1928), sul nesso tra colpa e danno prevedibile.",
+      "daSapere": ["1870–1938", "Court of Appeals di New York (presidente 1927–1932); Corte Suprema 1932–1938", "*The Nature of the Judicial Process* (1921)", "*MacPherson v. Buick* (1916); *Palsgraf* (1928)"],
+      "collegamenti": [
+        { "da": "benjamin-cardozo", "a": "creazione-giudiziale-del-diritto", "tipo": "interpreta", "etichetta": "descrive con franchezza la" }
+      ]
+    },
+    {
+      "id": "arthur-goodhart",
+      "oltre": "Arthur Lehman Goodhart (1891–1978), nato a New York, insegnò *jurisprudence* a Oxford e fu a lungo direttore della *Law Quarterly Review*; fu poi Master dello University College di Oxford. È ricordato soprattutto per il saggio *Determining the Ratio Decidendi of a Case* (1930).\n\nLa sua tesi: la [[ratio-decidendi|ratio decidendi]] non si trova nelle parole con cui il giudice motiva, ma nella combinazione tra i **fatti materiali** (quelli che il giudice ha considerato rilevanti) e la decisione. Per individuarla occorre quindi chiedersi quali fatti il giudice abbia trattato come materiali e quali come irrilevanti. Il «test di Goodhart» fu criticato perché la scelta dei fatti materiali è a sua volta discutibile: proprio il problema della [[somiglianza-rilevante|somiglianza rilevante]] su cui insiste Schauer.",
+      "daSapere": ["1891–1978, statunitense a Oxford", "*Determining the Ratio Decidendi of a Case* (1930)", "Ratio = fatti materiali + decisione"],
+      "collegamenti": [
+        { "da": "arthur-goodhart", "a": "somiglianza-rilevante", "tipo": "collegato", "etichetta": "lega la ratio ai fatti materiali, cioè alla" }
+      ]
+    },
+    {
+      "id": "potter-stewart",
+      "oltre": "Potter Stewart (1915–1985) fu giudice della [[corte-suprema-degli-stati-uniti|Corte Suprema]] dal 1958 al 1981, nominato da Eisenhower. È ricordato come un giudice moderato, spesso decisivo tra le due ali della corte.\n\nLa sua frase più citata viene dal caso *Jacobellis v. Ohio* (1964): non sapeva definire la pornografia, ma «la riconosco quando la vedo». La frase è diventata l'esempio classico di un criterio che non si lascia ridurre a [[regola|regole]] precise. In *[[griswold-v-connecticut|Griswold v. Connecticut]]* (1965) dissentì: trovava la legge sui contraccettivi «straordinariamente sciocca», ma non contraria ad alcuna disposizione della Costituzione. Pochi anni dopo, in *[[roe-v-wade|Roe v. Wade]]* (1973), si unì alla maggioranza, considerando ormai il diritto alla riservatezza parte stabile della giurisprudenza.",
+      "daSapere": ["1915–1985; Corte Suprema 1958–1981", "*Jacobellis v. Ohio* (1964): «la riconosco quando la vedo»", "Dissente in *Griswold* (1965), vota con la maggioranza in *Roe* (1973)"]
+    },
+    {
+      "id": "richard-posner",
+      "oltre": "Richard Allen Posner (nato nel 1939) è un giurista statunitense, professore all'Università di Chicago e giudice della Corte d'appello federale del Settimo circuito dal 1981 al 2017. È il principale esponente dell'**analisi economica del diritto** (*law and economics*): il suo *Economic Analysis of Law* (1973) propone di spiegare e valutare le regole giuridiche in base all'efficienza, cioè alla massimizzazione della ricchezza.\n\nÈ uno degli autori più prolifici e polemici della cultura giuridica americana. In *How Judges Think* (2008) descrive i giudici come pragmatici, guidati da intuizioni, esperienza e valori più che dal materiale giuridico formale: una posizione vicina al [[realismo-giuridico-americano|realismo]]. È anche critico dell'enfasi tradizionale sull'[[analogia|analogia]], che considera un modo di presentare scelte di politica del diritto.",
+      "daSapere": ["Nato nel 1939; giudice del Settimo circuito 1981–2017", "*Economic Analysis of Law* (1973): analisi economica del diritto", "*How Judges Think* (2008): pragmatismo giudiziale"],
+      "collegamenti": [
+        { "da": "richard-posner", "a": "realismo-giuridico-americano", "tipo": "influenza", "etichetta": "riprende in chiave pragmatica il" }
+      ]
+    },
+    {
+      "id": "lord-mansfield",
+      "oltre": "William Murray, primo conte di Mansfield (1705–1793), di origine scozzese, fu Lord Chief Justice del King's Bench dal 1756 al 1788. È considerato il fondatore del diritto commerciale inglese: incorporò nel [[common-law|common law]] gli usi dei mercanti (*lex mercatoria*) in materia di assicurazioni, cambiali e contratti, adattando il diritto ai bisogni di un'economia in espansione.\n\nFu un giudice innovatore, disposto a usare principi di giustizia e di [[equita|equità]] per correggere le regole tradizionali; per questo fu criticato da chi temeva l'incertezza delle decisioni. Nel caso *Somerset v. Stewart* (1772) stabilì che uno schiavo condotto in Inghilterra non poteva essere costretto a lasciarla: una decisione divenuta un simbolo della lotta contro la schiavitù.",
+      "daSapere": ["1705–1793; Lord Chief Justice 1756–1788", "Fonda il diritto commerciale inglese (usi dei mercanti)", "*Somerset v. Stewart* (1772)"],
+      "collegamenti": [
+        { "da": "lord-mansfield", "a": "equita", "tipo": "collegato", "etichetta": "usa l'" }
+      ]
+    },
+    {
+      "id": "joseph-hutcheson",
+      "oltre": "Joseph Chappell Hutcheson Jr. (1879–1973) fu giudice federale in Texas e poi della Corte d'appello federale del Quinto circuito. È entrato nella storia della teoria del diritto per un solo saggio: *The Judgment Intuitive: The Function of the «Hunch» in Judicial Decision* (1929).\n\nCon franchezza insolita per un giudice, Hutcheson descrisse il proprio modo di decidere: dopo aver studiato il caso, attendeva l'intuizione (*hunch*) che gli indicava la soluzione giusta, e solo dopo cercava le norme e i precedenti per giustificarla. Il saggio divenne uno dei testi simbolo del [[realismo-giuridico-americano|realismo giuridico]] e della distinzione tra il modo in cui una decisione viene raggiunta e il modo in cui viene giustificata ([[giustificazione-ex-post|giustificazione ex post]]).",
+      "daSapere": ["1879–1973, giudice federale (Texas, Quinto circuito)", "*The Judgment Intuitive* (1929): l'intuizione (*hunch*) del giudice"],
+      "collegamenti": [
+        { "da": "joseph-hutcheson", "a": "giustificazione-ex-post", "tipo": "testimonia", "etichetta": "descrive dall'interno la" }
+      ]
+    },
+    {
+      "id": "underhill-moore",
+      "oltre": "Underhill Moore (1879–1949) fu professore alla Columbia e poi a Yale, ed è il più radicalmente empirico dei [[realismo-giuridico-americano|realisti americani]]. Voleva studiare il diritto come un fenomeno di comportamento, con i metodi della psicologia comportamentista.\n\nLa sua ricerca più nota, condotta con Charles Callahan e pubblicata nel 1943 (*Law and Learning Theory*), misurò come cambiava il comportamento degli automobilisti di New Haven quando venivano introdotti divieti di sosta e segnaletica: osservazioni sul campo, conteggi, tabelle. Lo studio fu criticato perché il dispendio di mezzi portava a risultati modesti, ma resta un esempio del programma realista di sostituire lo studio delle [[regole-di-carta|regole scritte]] con lo studio di ciò che le persone fanno davvero.",
+      "daSapere": ["1879–1949, Columbia e Yale", "Realismo empirico e comportamentista", "Con C. Callahan, *Law and Learning Theory* (1943): la sosta a New Haven"]
+    },
+    {
+      "id": "stephen-breyer",
+      "oltre": "Stephen Gerald Breyer (nato nel 1938) è stato giudice della [[corte-suprema-degli-stati-uniti|Corte Suprema]] dal 1994 al 2022, nominato dal presidente Clinton; al suo ritiro gli è succeduta Ketanji Brown Jackson. In precedenza era stato professore a Harvard, esperto di diritto amministrativo e della regolazione, e giudice della Corte d'appello del Primo circuito.\n\nNella Corte è stato uno dei principali esponenti dell'ala progressista e di un approccio **pragmatico**: guardare agli scopi delle leggi e alle conseguenze delle decisioni, più che al solo testo. Lo ha esposto nei libri *Active Liberty* (2005) e *Making Our Democracy Work* (2010). Coerentemente, le sue opinioni citano spesso studi empirici e scientifici: da qui l'attenzione di Schauer per il problema di come una corte d'appello possa accertare i fatti ([[sociologia-da-poltrona|sociologia da poltrona]]).",
+      "daSapere": ["Nato nel 1938; Corte Suprema 1994–2022 (nominato da Clinton)", "Approccio pragmatico, attento a scopi e conseguenze", "*Active Liberty* (2005)"],
+      "collegamenti": [
+        { "da": "stephen-breyer", "a": "scopo-della-norma", "tipo": "collegato", "etichetta": "privilegia lo" }
+      ]
+    },
+    {
+      "id": "william-blackstone",
+      "oltre": "Sir William Blackstone (1723–1780) fu giurista e giudice inglese. Nel 1758 divenne il primo titolare della cattedra Vineriana di diritto inglese a Oxford: per la prima volta il [[common-law|common law]] veniva insegnato all'università. Dalle sue lezioni nacquero i *Commentaries on the Laws of England* (4 volumi, 1765–1769), un'esposizione ordinata e leggibile del diritto inglese che ebbe enorme diffusione in Inghilterra e soprattutto nelle colonie americane, dove per decenni fu il principale libro di formazione dei giuristi.\n\n[[jeremy-bentham|Bentham]], che da studente ne aveva ascoltato le lezioni, attaccò Blackstone nel *Fragment on Government* (1776) come apologeta acritico del diritto esistente. La massima dei «dieci colpevoli» (nei *Commentaries*) è detta ancora oggi «rapporto di Blackstone».",
+      "daSapere": ["1723–1780; prima cattedra Vineriana a Oxford (1758)", "*Commentaries on the Laws of England* (1765–1769)", "Criticato da Bentham nel *Fragment on Government* (1776)", "«Rapporto di Blackstone»: dieci colpevoli liberi, un innocente"],
+      "collegamenti": [
+        { "da": "jeremy-bentham", "a": "william-blackstone", "tipo": "contrasta", "etichetta": "critica" }
+      ]
+    },
+    {
+      "id": "united-states-v-locke",
+      "oltre": "*United States v. Locke* (1985) riguardava una legge federale del 1976 sulla gestione delle terre pubbliche, che obbligava i titolari di concessioni minerarie a rinnovare ogni anno la registrazione «prima del 31 dicembre». La famiglia Locke, che sfruttava da decenni una cava di ghiaia nel Nevada, presentò i documenti proprio il 31 dicembre, e perse la concessione.\n\nLa [[corte-suprema-degli-stati-uniti|Corte Suprema]] applicò la lettera della legge: anche se il Congresso aveva forse voluto dire «entro il 31 dicembre», un termine è un termine e il giudice non può riscriverlo. Il caso è un esempio classico di rispetto del testo anche contro lo scopo probabile della norma, e di come una [[regola|regola]] precisa possa produrre esiti duri ([[lettera-e-spirito-della-legge|lettera e spirito della legge]]).",
+      "daSapere": ["1985, Corte Suprema", "Termine «prima del 31 dicembre»: documenti depositati il 31, concessione perduta", "Prevale la lettera della legge"],
+      "collegamenti": [
+        { "da": "united-states-v-locke", "a": "testualismo", "tipo": "esempio-di", "etichetta": "è un esempio di" }
+      ]
+    },
+    {
+      "id": "stewart-v-dutra",
+      "oltre": "*Stewart v. Dutra Construction Co.* (2005) nacque dai lavori del «Big Dig», il grande cantiere stradale di Boston. Willard Stewart, operaio su una draga chiamata *Super Scoop*, fu ferito sul lavoro e chiese il risarcimento previsto per i marittimi; per ottenerlo doveva dimostrare che la draga era una «nave» (*vessel*).\n\nLa definizione legale, risalente al XIX secolo d.C., considera nave ogni imbarcazione usata o utilizzabile come mezzo di trasporto sull'acqua. La [[corte-suprema-degli-stati-uniti|Corte Suprema]] decise all'unanimità che anche la draga, pur non essendo costruita principalmente per trasportare persone o cose, rientrava nella definizione. Il caso mostra il rapporto tra il significato ordinario di una parola e la sua definizione giuridica, e come una classe di una [[regola|regola]] possa estendersi oltre l'immagine tipica ([[nucleo-e-penombra|nucleo e penombra]]).",
+      "daSapere": ["2005, Corte Suprema, unanimità", "Draga *Super Scoop* del «Big Dig» di Boston", "Una draga è una «nave» per la legge federale"]
+    },
+    {
+      "id": "church-of-the-holy-trinity",
+      "oltre": "*Church of the Holy Trinity v. United States* (1892) riguardava una legge federale del 1885 che vietava di pagare il viaggio a stranieri per farli venire negli Stati Uniti a svolgere «lavoro o servizio di qualsiasi tipo». Una chiesa di New York aveva assunto in questo modo un pastore inglese.\n\nLa [[corte-suprema-degli-stati-uniti|Corte Suprema]], con l'opinione del giudice David Brewer, ammise che il caso rientrava nella lettera della legge, ma affermò che «una cosa può essere nella lettera di una legge e tuttavia non nella legge, perché non è nel suo spirito»: lo scopo era fermare l'importazione di manodopera a basso costo, non di pastori. È il caso simbolo della prevalenza dello [[scopo-della-norma|scopo]] e dell'[[intenzione-del-legislatore|intenzione del legislatore]] sul testo, ed è per questo uno dei bersagli preferiti del [[testualismo|testualismo]].",
+      "daSapere": ["1892, Corte Suprema (giudice Brewer)", "Legge del 1885 sul lavoro straniero a contratto; un pastore inglese", "«Nella lettera ma non nello spirito»"],
+      "collegamenti": [
+        { "da": "church-of-the-holy-trinity", "a": "lettera-e-spirito-della-legge", "tipo": "esempio-di", "etichetta": "fa prevalere lo spirito nella" }
+      ]
+    },
+    {
+      "id": "riggs-v-palmer",
+      "oltre": "*Riggs v. Palmer* (1889) fu deciso dalla Court of Appeals di New York. Elmer Palmer, erede designato nel testamento del nonno, lo avvelenò per evitare che cambiasse le disposizioni. Le leggi sulle successioni allora vigenti, lette alla lettera, non contenevano alcuna eccezione per l'erede omicida.\n\nLa corte negò comunque l'eredità, invocando un principio generale: nessuno può trarre vantaggio dal proprio illecito. Il caso è diventato celebre grazie a [[ronald-dworkin|Ronald Dworkin]], che nel saggio *The Model of Rules* (1967) lo usò contro il positivismo di [[hart|Hart]]: il diritto non è fatto solo di regole, ma anche di **principi**, che i giudici applicano pur non essendo stati posti da alcuna fonte formale. Per Schauer è un esempio di come le regole possano cedere davanti alla [[giustificazione-soggiacente|giustificazione]] o alla giustizia del caso.",
+      "daSapere": ["1889, Court of Appeals di New York", "Il nipote che uccide il nonno non eredita", "Principio: nessuno trae vantaggio dal proprio illecito", "Usato da Dworkin in *The Model of Rules* (1967)"],
+      "collegamenti": [
+        { "da": "ronald-dworkin", "a": "riggs-v-palmer", "tipo": "interpreta", "etichetta": "usa contro Hart il caso" }
+      ]
+    },
+    {
+      "id": "macpherson-v-buick",
+      "oltre": "*MacPherson v. Buick Motor Co.* (1916) fu deciso dalla Court of Appeals di New York con un'opinione di [[benjamin-cardozo|Benjamin Cardozo]]. Donald MacPherson aveva comprato un'auto Buick da un rivenditore; una ruota di legno difettosa si ruppe ed egli rimase ferito. Secondo la regola tradizionale il fabbricante rispondeva solo verso chi aveva concluso il contratto con lui (*privity of contract*), salvo che per i prodotti «intrinsecamente pericolosi», come veleni ed esplosivi.\n\nCardozo, esaminando i [[precedente-giudiziale|precedenti]], concluse che la categoria dei prodotti pericolosi comprendeva qualunque cosa che, se fabbricata con negligenza, mette a rischio la vita: anche un'automobile. Così il fabbricante rispondeva verso l'utilizzatore finale. È un esempio classico di cambiamento del [[common-law|common law]] attraverso la reinterpretazione dei precedenti, senza dichiararne l'abbandono.",
+      "daSapere": ["1916, Court of Appeals di New York (Cardozo)", "Ruota difettosa di un'auto Buick", "Supera il limite della *privity of contract*"],
+      "collegamenti": [
+        { "da": "macpherson-v-buick", "a": "cambiamento-incrementale", "tipo": "esempio-di", "etichetta": "è un esempio di" }
+      ]
+    },
+    {
+      "id": "international-shoe",
+      "oltre": "*International Shoe Co. v. Washington* (1945) è il caso fondamentale sulla competenza dei tribunali statunitensi verso soggetti di altri Stati. Lo Stato di Washington chiedeva i contributi al fondo statale contro la disoccupazione a una società calzaturiera del Delaware con sede nel Missouri, che a Washington aveva solo alcuni venditori.\n\nIn precedenza, secondo *Pennoyer v. Neff* (1878), un tribunale poteva giudicare un convenuto solo se questi era fisicamente presente nello Stato. La [[corte-suprema-degli-stati-uniti|Corte Suprema]] sostituì quel criterio con quello dei **«contatti minimi»**: basta che il convenuto abbia con lo Stato legami tali che sottoporlo a giudizio non offenda «le nozioni tradizionali di correttezza e giustizia sostanziale». È un esempio di [[standard|standard]] elastico che prende il posto di una [[regola|regola]] rigida in materia di [[competenza-giurisdizionale|competenza]].",
+      "daSapere": ["1945, Corte Suprema", "Criterio dei «contatti minimi»", "Supera la regola della presenza fisica di *Pennoyer v. Neff* (1878)"],
+      "collegamenti": [
+        { "da": "international-shoe", "a": "standard", "tipo": "esempio-di", "etichetta": "introduce uno" }
+      ]
+    },
+    {
+      "id": "brandenburg-v-ohio",
+      "oltre": "*Brandenburg v. Ohio* (1969) riguardava un capo del Ku Klux Klan condannato in base a una legge dell'Ohio che puniva l'apologia della violenza come mezzo di riforma politica. La [[corte-suprema-degli-stati-uniti|Corte Suprema]] annullò la condanna e fissò il criterio, tuttora vigente, per la protezione del discorso nel Primo emendamento: lo Stato può punire l'incitamento alla violenza o alla violazione della legge solo se è diretto a provocare un'**azione illegale imminente** ed è probabile che la provochi.\n\nLa sentenza superò il precedente *Whitney v. California* (1927), riprendendo l'opinione concorrente di [[louis-brandeis|Brandeis]] in quel caso. È un esempio del modo in cui un [[precedente-giudiziale|precedente]] della Corte Suprema fissa una regola vincolante per tutte le corti inferiori, anche quando un giudice ritiene che la soluzione migliore sia un'altra.",
+      "daSapere": ["1969, Corte Suprema", "Criterio dell'«azione illegale imminente»", "Supera *Whitney v. California* (1927)"],
+      "collegamenti": [
+        { "da": "brandenburg-v-ohio", "a": "overruling", "tipo": "esempio-di", "etichetta": "è un caso di" }
+      ]
+    },
+    {
+      "id": "loving-v-virginia",
+      "oltre": "*Loving v. Virginia* (1967) fu deciso all'unanimità dalla [[corte-suprema-degli-stati-uniti|Corte Suprema]]. Richard Loving, bianco, e Mildred Jeter, afroamericana e nativa americana, si erano sposati a Washington e, tornati in Virginia, erano stati condannati in base a una legge statale del 1924 che vietava i matrimoni interrazziali.\n\nLa Corte dichiarò queste leggi contrarie al Quattordicesimo emendamento, sia per violazione dell'eguale protezione delle leggi sia perché il matrimonio è una libertà fondamentale. Nel libro il caso compare tra le decisioni sul diritto alla riservatezza e sulla libertà personale ricostruite per [[analogia|analogia]]; il 12 giugno, data della sentenza, è ricordato negli Stati Uniti come «Loving Day».",
+      "daSapere": ["1967, Corte Suprema, unanimità", "Illegittimi i divieti di matrimonio interrazziale", "Quattordicesimo emendamento: eguale protezione e libertà"]
+    },
+    {
+      "id": "roe-v-wade",
+      "oltre": "*Roe v. Wade* (1973) riconobbe, sulla base del diritto alla riservatezza (*privacy*) ricavato dal Quattordicesimo emendamento, il diritto costituzionale della donna di interrompere la gravidanza, regolato con lo schema dei tre trimestri. In *Planned Parenthood v. Casey* (1992) la Corte confermò il nucleo di Roe, ma sostituì i trimestri con il criterio dell'«onere eccessivo».\n\nIl 24 giugno 2022, con *Dobbs v. Jackson Women's Health Organization*, la [[corte-suprema-degli-stati-uniti|Corte Suprema]] ha superato Roe e Casey: la Costituzione non conferisce un diritto all'aborto e la materia torna agli Stati. Dobbs è oggi l'esempio più discusso di [[overruling|overruling]] e del peso dello [[stare-decisis|stare decisis]] nelle questioni costituzionali: la maggioranza ha ritenuto che un precedente gravemente errato non meriti di essere conservato.",
+      "daSapere": ["1973: diritto all'aborto fondato sulla *privacy*", "1992, *Casey*: criterio dell'onere eccessivo", "24 giugno 2022, *Dobbs*: Roe superata"],
+      "collegamenti": [
+        { "da": "roe-v-wade", "a": "overruling", "tipo": "esempio-di", "etichetta": "è stata oggetto di" }
+      ]
+    },
+    {
+      "id": "griswold-v-connecticut",
+      "oltre": "*Griswold v. Connecticut* (1965) dichiarò illegittima una legge del Connecticut che vietava l'uso di contraccettivi anche alle coppie sposate. L'opinione di maggioranza del giudice William O. Douglas affermò che le garanzie del Bill of Rights hanno «penombre», formate da emanazioni che danno loro vita, e che queste penombre creano zone di riservatezza: tra queste il matrimonio.\n\n[[potter-stewart|Stewart]] e Hugo Black dissentirono, sostenendo che nessuna disposizione della Costituzione proteggeva un generale diritto alla riservatezza. La sentenza fu estesa alle persone non sposate in *Eisenstadt v. Baird* (1972) ed è il fondamento di *[[roe-v-wade|Roe v. Wade]]* (1973). Nel libro è un esempio di ragionamento per [[analogia|analogia]] dai precedenti costituzionali.",
+      "daSapere": ["1965, Corte Suprema (opinione di Douglas)", "«Penombre» del Bill of Rights e diritto alla riservatezza", "Dissenso di Stewart e Black; poi *Eisenstadt* (1972) e *Roe* (1973)"],
+      "collegamenti": [
+        { "da": "griswold-v-connecticut", "a": "roe-v-wade", "tipo": "causa", "etichetta": "è il fondamento di" }
+      ]
+    }
+  ]
+}

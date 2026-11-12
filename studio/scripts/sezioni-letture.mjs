@@ -20,7 +20,8 @@ const APPENDICI = {
   ],
 };
 const FONTE = { 'filosofia-incampo-v1': 'incampo', 'filosofia-moro-v1': 'moro', 'filosofia-cotta-v1': 'cotta',
-  'filosofia-ssg-lezioni-v1': 'lezioni', 'filosofia-ssg-incampo-v1': 'incampo' };
+  'filosofia-ssg-lezioni-v1': 'lezioni', 'filosofia-ssg-incampo-v1': 'incampo',
+  'filosofia-mz-barberis-v1': 'barberis', 'filosofia-mz-schauer-v1': 'schauer' };
 
 for (const doc of catalogo) {
   if (solo.length && !solo.includes(doc.id)) continue;

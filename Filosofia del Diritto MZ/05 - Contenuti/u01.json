@@ -1,0 +1,3807 @@
+{
+  "id": "u01",
+  "ordine": 1,
+  "fonte": "barberis",
+  "titolo": "Il diritto naturale: dal giusnaturalismo antico alla teoria della giustizia",
+  "capitolo": "Prefazione e Capitolo 1",
+  "pagine": [
+    2,
+    12
+  ],
+  "abstract": "Dopo la prefazione, che distingue i due sensi di «filosofia del diritto» e le sei fasi della sua storia, il capitolo segue la prima fase: il diritto naturale. Dal giusnaturalismo antico (greco, romano, cristiano) al giusrazionalismo moderno e all'illuminismo giuridico, fino alla codificazione, che fa nascere il positivismo giuridico; poi le sei «resurrezioni» del diritto naturale e la teoria della giustizia di Rawls. All'esame servono le distinzioni (antico/moderno, razionalisti/volontaristi, giuspositivismo tecnico/teorico) e gli autori con le loro tesi.",
+  "note": "Non confondere il giuspositivismo tecnico (Francia dei codici, Scuola dell'esegesi) con quello teorico (Inghilterra e Germania, dove la codificazione mancò o tardò). Il Code Napoléon è del 1804.",
+  "noteRedazione": "Fonte: riassunto di M. Barberis, Giuristi e filosofi, pp. 2–12 (p. 1 è la copertina). Refusi corretti nella sintesi: «refere legislatif» è il référé législatif; «ceti giuristi» = ceti dei giuristi; «Francois Gény» = François Gény; «Rawls ha sviluppa» = ha sviluppato. p. 6, su Pufendorf, la frase «il primo è una condizione di libertà creata dalla stipula del contratto sociale» è monca: la sintesi la ricostruisce (stato di natura = libertà naturale; stato civile = creato dal contratto che dà al sovrano il monopolio della forza). p. 7: il riassunto dice il codice prussiano del 1794 «opera di Federico II»: i lavori furono avviati da Federico II (morto nel 1786), il codice entrò in vigore nel 1794 sotto Federico Guglielmo II; la sintesi dice «voluto da Federico II». Il riassunto non dà le date di Grozio (De iure belli ac pacis, 1625), Beccaria (1764) e Rousseau (Contratto sociale, 1762): gli eventi le riportano perché certe. p. 10: gli otto requisiti di Fuller sono elencati come nel riassunto. I secoli sono scritti «Settecento», «Ottocento», «Novecento» (nel riassunto «700», «800», «900»).",
+  "lezioni": [
+    {
+      "id": "u01-l1",
+      "titolo": "Che cos'è la filosofia del diritto: due sensi e sei fasi",
+      "pagine": [
+        2,
+        3
+      ],
+      "minuti": 20,
+      "sintesi": "### Due sensi di «filosofia del diritto»\n[[mauro-barberis|Barberis]] apre il libro avvertendo che l'espressione **[[filosofia-del-diritto|filosofia del diritto]]** si può intendere in due modi.\n\n| Senso | Che cosa indica | Quando nasce |\n|---|---|---|\n| **[[filosofia-del-diritto-in-senso-stretto|in senso stretto]]** | materia *filosofica*, nata nelle università, che si limita ad **applicare al diritto una filosofia generale** (spesso l'idealismo) | Ottocento |\n| **[[filosofia-del-diritto-in-senso-ampio|in senso ampio]]** | materia *più giuridica*, nata dall'incontro fra la filosofia del diritto in senso stretto e altre materie: [[diritto-naturale|diritto naturale]], *[[jurisprudence|jurisprudence]]*, [[teoria-generale-del-diritto|teoria generale del diritto]], [[sociologia-del-diritto|sociologia del diritto]] | Novecento |\n\nLa filosofia del diritto in senso ampio **analizza il linguaggio giuridico** e riflette sui **presupposti conoscitivi e normativi** dell'attività del giurista.\n\n### Le sei fasi\nLa storia della materia si divide in sei fasi: in ciascuna cambia il **problema** affrontato e cambia il **nome** della disciplina.\n\n| Fase | Periodo | Problema | Nome |\n|---|---|---|---|\n| 1 | dall'Atene del V secolo a.C. al Settecento | la **giustizia** (diritto e morale indicati dalla stessa parola, [[dikaion|*dikaion*]]) | [[diritto-naturale|diritto naturale]] ([[giusnaturalismo]]) |\n| 2 | dalla fine del Settecento alla metà del Novecento | la **definizione del diritto**: che cosa lo distingue da etica e morale | [[filosofia-del-diritto-in-senso-stretto|filosofia del diritto in senso stretto]] |\n| 3 | dalla metà dell'Ottocento alla metà del Novecento | la **[[norma-giuridica|norma giuridica]]** (distinta da quella morale) | *jurisprudence* |\n| 4 | nel corso del Novecento | il **[[sistema-giuridico|sistema giuridico]]**: unità, coerenza, completezza | teoria generale del diritto |\n| 5 | inizia nell'Ottocento, riguarda la seconda metà del Novecento | i rapporti fra **sistema giuridico e sistema sociale** | sociologia del diritto |\n| 6 | gli ultimi trent'anni | l'**interpretazione** e il **[[ragionamento-giuridico|ragionamento giuridico]]** | [[filosofia-del-diritto-in-senso-ampio|filosofia del diritto in senso ampio]] |\n\nAlcune precisazioni del testo:\n- nella **prima fase** il diritto naturale entra spesso in crisi, soprattutto con le [[codificazione|codificazioni]] del Sette e dell'Ottocento, quando il [[giuspositivismo|positivismo giuridico]] gli nega la natura di autentico diritto;\n- nella **seconda fase** il diritto naturale viene qualificato come semplice *riflessione* sul diritto;\n- nella **quarta fase** si capisce che, per distinguere le norme giuridiche da quelle non giuridiche, non bisogna guardarle isolatamente ma **nelle loro relazioni reciproche**: si parla di *ordinamenti* o *sistemi normativi*;\n- nella **quinta fase** la sociologia del diritto è dapprima l'applicazione al diritto della sociologia generale del [[positivismo-filosofico|positivismo filosofico]]; i sociologi fanno ricerche particolari (*microsociologiche*) e teorie generali (*macrosociologiche*): almeno queste ultime sono una versione della filosofia del diritto;\n- nella **sesta fase** il dibattito si internazionalizza e tutte le materie precedenti **confluiscono in un'unica disciplina**; il problema del sistema riceve una soluzione strettamente giuridica: il sistema è il **prodotto dell'attività della dottrina**, che rientra nel ragionamento giuridico.",
+      "puntiChiave": [
+        "«Filosofia del diritto» in senso stretto: materia filosofica dell'Ottocento che applica al diritto una filosofia generale (spesso l'idealismo).",
+        "In senso ampio: materia più giuridica del Novecento, in cui confluiscono diritto naturale, filosofia del diritto in senso stretto, jurisprudence, teoria generale e sociologia del diritto.",
+        "Sei fasi, ognuna con un problema: giustizia, definizione del diritto, norma, sistema, rapporto diritto-società, interpretazione e ragionamento giuridico.",
+        "La prima fase (diritto naturale) va dall'Atene del V secolo a.C. al Settecento; diritto e morale sono indicati dallo stesso termine, dikaion.",
+        "Le codificazioni del Sette-Ottocento mettono in crisi il diritto naturale: il positivismo giuridico gli nega la natura di autentico diritto.",
+        "Nella sesta fase il sistema giuridico è visto come prodotto dell'attività della dottrina."
+      ],
+      "memoria": [
+        {
+          "voce": "Senso stretto / senso ampio",
+          "dettaglio": "filosofia applicata al diritto (Ottocento) / disciplina giuridica in cui confluiscono cinque materie (Novecento)"
+        },
+        {
+          "voce": "Sei fasi",
+          "dettaglio": "diritto naturale · filosofia del diritto in senso stretto · jurisprudence · teoria generale · sociologia del diritto · filosofia del diritto in senso ampio"
+        },
+        {
+          "voce": "Sei problemi",
+          "dettaglio": "giustizia · definizione del diritto · norma · sistema · diritto e società · interpretazione e ragionamento"
+        },
+        {
+          "voce": "Dikaion",
+          "dettaglio": "termine greco che indica insieme il diritto e il giusto"
+        }
+      ],
+      "concetti": [
+        "mauro-barberis",
+        "filosofia-del-diritto",
+        "filosofia-del-diritto-in-senso-stretto",
+        "filosofia-del-diritto-in-senso-ampio",
+        "diritto-naturale",
+        "giusnaturalismo",
+        "dikaion",
+        "codificazione",
+        "giuspositivismo"
+      ]
+    },
+    {
+      "id": "u01-l2",
+      "titolo": "Il giusnaturalismo antico: greco, romano, cristiano",
+      "pagine": [
+        3,
+        4
+      ],
+      "minuti": 25,
+      "sintesi": "### Che cos'è e da dove nasce\nIl **[[giusnaturalismo|giusnaturalismo antico]]** è l'insieme delle dottrine del [[diritto-naturale|diritto naturale]] elaborate nell'antichità greco-romana e nel medioevo. Comincia nell'Atene del V secolo a.C. come **riflessione sulla crisi dei valori tradizionali**, provocata dai contatti con gli altri popoli.\n\n### Il giusnaturalismo greco\nÈ soprattutto una risposta ai **[[sofisti]]**, per i quali il giusto ([[dikaion|*dikaion*]]) è **l'utile del più forte** e può quindi ridursi alla legge imposta dal potere politico. Barberis osserva che la tesi regge se *dikaion* significa [[diritto-positivo|diritto positivo]]; è criticabile se significa **giustizia**: la giustizia deriverebbe dalla forza e sarebbe inutile, perché ha senso solo se serve a **controllare il potere**.\n\nContro i sofisti stanno i sostenitori del «giusto per natura», incarnato da **Antigone**, il personaggio letterario che sacrifica la vita per obbedire alle leggi non scritte della *polis*.\n- **[[socrate|Socrate]]** intende la tesi dei sofisti come riferita alla giustizia, non al diritto positivo, e ne conclude che è insostenibile.\n- **[[aristotele|Aristotele]]** propone un compromesso: nell'*Etica Nicomachea* riconosce i due significati di *dikaion*, «giusto per legge» e «giusto per natura», e sostiene la **mutabilità** del primo contro l'**immutabilità** del secondo.\n\n### Il giusnaturalismo romano\nLo *ius* dei romani somiglia di più al nostro diritto perché, nelle parole, si distingue da *iustitia*, *mos* e *fas*. Il distacco è però solo terminologico: lo *ius* deriva dai *mores maiorum* (le consuetudini degli antenati) e regola anche le istituzioni religiose. La novità è un **ceto di giuristi** che scrive di diritto, anche naturale, in modo rigoroso e insegnabile.\n\nIl loro diritto naturale ci arriva dal **[[corpus-iuris-civilis|*Corpus Iuris Civilis*]]** di Giustiniano, perduto nel medioevo e riscoperto a Bologna dopo l'anno Mille. Ha quattro parti: **Codice** (leggi imperiali), **Novelle** (costituzioni successive al Codice), **Istituzioni** (manuale per l'insegnamento), **Digesto** (frammenti della dottrina).\n\n| | Giuristi (Digesto) | Filosofi ([[cicerone|Cicerone]]) |\n|---|---|---|\n| Concezione | **naturalista**, pratica | **razionalista** |\n| [[ius-naturale|*Ius naturale*]] | regole che la natura insegna a **tutti gli animali**, uomini compresi | diritto di **ragione**, uguale nello spazio e nel tempo, immutabile ed eterno |\n\nAccanto al diritto naturale stanno il **diritto delle genti** (comune a tutti gli uomini ma non agli animali: in qualche misura naturale) e il **diritto civile** (dei soli cittadini romani: leggi, decreti del principe, autorità dei giuristi).\n\n### Il giusnaturalismo cristiano\nQui avviene una rivoluzione: il diritto naturale, ricondotto a Dio, è **superiore** al diritto umano. Per **[[agostino|Agostino d'Ippona]]** la legge contraria alla volontà divina *non è legge*. Il senso di questa negazione si chiarisce con **[[tommaso-d-aquino|Tommaso d'Aquino]]**, caposcuola della Scolastica e fondatore del tomismo, che distingue quattro tipi di diritto:\n\n| Diritto | Contenuto |\n|---|---|\n| **eterno** | la legge della Provvidenza divina che regola tutto il creato |\n| **divino** | la volontà di Dio rivelata nelle Scritture |\n| **naturale** | i precetti della ragione divina conosciuti dalla ragione umana |\n| **positivo** | i precetti dettati dal legislatore per il bene comune |\n\nIl diritto naturale integra quello eterno e divino con precetti derivati dal principio «fa' e persegui il bene ed evita il male». Il [[diritto-positivo|diritto positivo]] integra a sua volta il naturale, cui è **subordinato**, e ne discende in due modi: per **determinazione** (da un diritto naturale generico si ricava un diritto positivo più specifico) o per **conclusione** (da un diritto naturale generale si deduce un diritto positivo particolare). Se non vi si conforma, non è più autentico diritto.\n\nNel medioevo, dopo l'oblio del diritto romano e la diffusione delle consuetudini germaniche, il diritto naturale si confonde con le altre fonti e funge da **modello di riforma** dell'intero diritto, come accadrà con il [[giusrazionalismo]].",
+      "puntiChiave": [
+        "Il giusnaturalismo antico nasce nell'Atene del V secolo a.C. come riflessione sulla crisi dei valori tradizionali.",
+        "Per i sofisti il giusto è l'utile del più forte: vero se dikaion è il diritto positivo, insostenibile se è la giustizia, che serve a controllare il potere.",
+        "Aristotele (Etica Nicomachea): giusto per legge, mutevole, e giusto per natura, immutabile.",
+        "A Roma i giuristi hanno una concezione naturalista (ciò che la natura insegna a tutti gli animali), Cicerone una razionalista (diritto di ragione, eterno).",
+        "Il Corpus Iuris Civilis ha quattro parti: Codice, Novelle, Istituzioni, Digesto.",
+        "Con il cristianesimo il diritto naturale diventa superiore a quello positivo: per Agostino la legge contraria alla volontà divina non è legge.",
+        "Tommaso distingue diritto eterno, divino, naturale e positivo; il positivo deriva dal naturale per determinazione o per conclusione."
+      ],
+      "memoria": [
+        {
+          "voce": "Sofisti",
+          "dettaglio": "il giusto è l'utile del più forte"
+        },
+        {
+          "voce": "Aristotele, Etica Nicomachea",
+          "dettaglio": "giusto per legge (mutevole) / giusto per natura (immutabile)"
+        },
+        {
+          "voce": "Corpus Iuris Civilis",
+          "dettaglio": "Codice, Novelle, Istituzioni, Digesto; riscoperto a Bologna dopo il Mille"
+        },
+        {
+          "voce": "Tommaso d'Aquino",
+          "dettaglio": "diritto eterno, divino, naturale, positivo"
+        },
+        {
+          "voce": "«Fa' e persegui il bene ed evita il male»",
+          "dettaglio": "principio da cui derivano i precetti del diritto naturale"
+        },
+        {
+          "voce": "Determinazione / conclusione",
+          "dettaglio": "i due modi in cui il diritto positivo discende dal naturale"
+        }
+      ],
+      "concetti": [
+        "diritto-naturale",
+        "giusnaturalismo",
+        "sofisti",
+        "dikaion",
+        "socrate",
+        "aristotele",
+        "ius-naturale",
+        "corpus-iuris-civilis",
+        "cicerone",
+        "agostino",
+        "tommaso-d-aquino",
+        "diritto-positivo",
+        "giusrazionalismo"
+      ]
+    },
+    {
+      "id": "u01-l3",
+      "titolo": "Il giusrazionalismo moderno e l'illuminismo giuridico",
+      "pagine": [
+        5,
+        7
+      ],
+      "minuti": 35,
+      "sintesi": "### Il diritto naturale diventa diritto razionale\nIl **[[giusrazionalismo|giusrazionalismo moderno]]** è l'insieme delle dottrine di diritto naturale che si affermano fra Sei e Settecento. Il [[diritto-naturale|diritto naturale]] viene reinterpretato come **diritto razionale** e insegnato nelle facoltà di filosofia e di giurisprudenza. I primi manuali sono di **[[ugo-grozio|Grozio]]**, iniziatore della corrente *razionalista*, e di **[[samuel-pufendorf|Pufendorf]]**, iniziatore di quella *volontarista*; l'[[illuminismo-giuridico|illuminismo giuridico]] ne divulgherà le idee nel Settecento.\n\n### La modernità e l'eredità degli antichi\nPer **[[modernita|modernità]]** si intende l'epoca che va dalla scoperta dell'America (1492) alla Rivoluzione francese (1789), ma anche il modo di pensare che oppone i moderni agli antichi. I moderni ereditano il diritto romano, riscoperto nelle università medievali, dove si insegnano il **diritto romano** (diritto universale dell'Impero) e il **diritto canonico** (diritto universale della Chiesa). Dalle università il diritto romano passa ai tribunali e diventa **diritto comune**: un diritto *suppletivo* rispetto a consuetudini locali, statuti cittadini e legislazione statale.\n\nIl diritto razionale deve svolgere tre funzioni: **colmare le lacune**, regolare i rapporti **fra gli Stati**, regolare i rapporti **fra governanti e governati**. Il diritto naturale degli antichi non poteva più farlo, per quattro grandi mutamenti.\n\n| Mutamento | Conseguenza per il diritto naturale |\n|---|---|\n| **Scoperte geografiche**: i costumi dei nativi americani sono diversi da quelli europei | non si può più ricavarlo da consuetudini «comuni a tutti i popoli»: va dedotto da **principi di ragione autoevidenti**, come un **sistema logico-deduttivo** |\n| **Riforma protestante** (Lutero): fine dell'unità religiosa, guerre di religione | gli Stati diventano neutrali e **si laicizzano**; il giusrazionalismo si separa dal [[giusnaturalismo|giusnaturalismo]] cristiano |\n| **Fine dell'unità politica**: tramonto dell'Impero, Stati nazionali | la società civile è un **ente artificiale**: [[stato-di-natura|stato di natura]] e [[contrattualismo|contratto sociale]] |\n| **Scoperte scientifiche** (Copernico, Newton) | i valori non stanno più nella [[natura-della-cosa|natura delle cose]]: si cercano **nell'uomo e nella ragione** |\n\nSul terzo punto: nello [[stato-di-natura|stato di natura]] gli individui vivono fuori da ogni associazione politica ma hanno già **diritti naturali**; per garantirli ne escono stipulando un **[[contrattualismo|contratto sociale]]**, cioè un patto di *unione* fra loro e di *soggezione* al sovrano. Col tempo la coppia stato di natura/società civile diventa quella società/Stato, e al contratto subentra l'idea di **Costituzione**. Sul quarto: i valori restano *oggettivi*, validi per ogni essere razionale, ma sono incardinati nella sola ragione umana. I volontaristi, però, dubitano che il diritto razionale si imponga da sé: solo il legislatore può imporlo, trasformandolo in [[diritto-positivo|diritto positivo]].\n\n### Razionalisti e volontaristi\n| | Corrente razionalista | Corrente volontarista |\n|---|---|---|\n| Iniziatore | [[ugo-grozio|Grozio]], *Il diritto della guerra e della pace* | [[thomas-hobbes|Hobbes]], poi [[samuel-pufendorf|Pufendorf]] |\n| Tesi | il diritto vigente è **già razionale**: ai giuristi tocca svilupparne la razionalità | senza la **volontà del sovrano** i giuristi possono poco: solo lo Stato rende vigente il diritto razionale |\n\nGrozio scrive il trattato nell'esilio parigino, lontano dai conflitti religiosi dell'Olanda; lo fonda sui tre pilastri della cultura occidentale (**Bibbia ebraica, filosofia greca, diritto romano**) e ne fa il manuale di *ius naturae et gentium*. Pufendorf, meno originale di Hobbes e meno coerente di Grozio, scrive il manuale per un certo tempo più diffuso: oppone lo **stato di natura**, condizione di libertà, allo **stato civile**, creato dal contratto che dà al sovrano il **monopolio della forza**. Le leggi positive sono **comandi sanzionati** che restringono la libertà naturale senza poterla eliminare. Nel Settecento altri volontaristi ne ricavano che la legge può disciplinare solo la **condotta esterna**, non la coscienza.\n\n### L'illuminismo giuridico\nÈ la **divulgazione** delle idee giusrazionaliste nel Settecento, dentro il movimento chiamato «rischiaramento» in Germania e «lumi» in Francia.\n- L'illuminismo **tedesco** è opera di professori e ispira **riforme dall'alto**, volute dai monarchi fra l'indifferenza o l'ostilità dei sudditi.\n- L'illuminismo **francese** circola nell'opinione pubblica con libelli che chiedono riforme ai sovrani.\n\nIl bersaglio è il **[[particolarismo-giuridico|particolarismo giuridico]]**: fonti diverse, soggetti distinti e regimi dei beni differenti nello stesso Stato. Piace ai giuristi e ai ceti privilegiati; è inviso alla **borghesia** (che vuole la fine dei privilegi) e al **monarca assoluto** (insofferente di nobiltà e clero). Ai monarchi illuminati si rivolgono Voltaire e **[[cesare-beccaria|Cesare Beccaria]]**, che in *Dei delitti e delle pene* rifiuta le fonti tradizionali, chiede una [[codificazione]] che permetta a ognuno di conoscere diritti e doveri e auspica l'abolizione della pena di morte e della tortura. Più radicale **[[rousseau|Rousseau]]**: nel *Contratto sociale* sovrano è il **popolo** e la democrazia può essere solo **diretta**.\n\nL'alleanza tacita fra monarca e borghesia finisce con la Rivoluzione francese. Le radici giusrazionaliste delle riforme si leggono nella **[[dichiarazione-dei-diritti-dell-uomo-e-del-cittadino|Dichiarazione dei diritti dell'uomo e del cittadino]]** del 1789, che pretende di chiarire i diritti naturali dell'uomo in generale.",
+      "puntiChiave": [
+        "Giusrazionalismo moderno: dottrine del diritto naturale fra Sei e Settecento, che lo reinterpretano come diritto razionale.",
+        "Modernità: dalla scoperta dell'America (1492) alla Rivoluzione francese (1789).",
+        "Quattro mutamenti: scoperte geografiche, Riforma protestante, fine dell'unità politica, scoperte scientifiche.",
+        "Il diritto naturale diventa un sistema logico-deduttivo ricavato da principi di ragione autoevidenti.",
+        "Stato di natura e contratto sociale (patto di unione e di soggezione): la società civile è un ente artificiale.",
+        "Razionalisti (Grozio): il diritto vigente è già razionale. Volontaristi (Hobbes, Pufendorf): serve la volontà del sovrano.",
+        "Illuminismo giuridico: divulgazione delle idee giusrazionaliste; critica del particolarismo giuridico (Voltaire, Beccaria, Rousseau).",
+        "La Dichiarazione dei diritti dell'uomo e del cittadino (1789) documenta le radici giusrazionaliste della Rivoluzione."
+      ],
+      "memoria": [
+        {
+          "voce": "1492–1789",
+          "dettaglio": "la modernità: dalla scoperta dell'America alla Rivoluzione francese"
+        },
+        {
+          "voce": "Tre funzioni del diritto razionale",
+          "dettaglio": "colmare le lacune; rapporti fra Stati; rapporti fra governanti e governati"
+        },
+        {
+          "voce": "Grozio",
+          "dettaglio": "Il diritto della guerra e della pace; corrente razionalista; ius naturae et gentium"
+        },
+        {
+          "voce": "Hobbes e Pufendorf",
+          "dettaglio": "corrente volontarista: solo lo Stato rende vigente il diritto razionale"
+        },
+        {
+          "voce": "Tre pilastri (Grozio)",
+          "dettaglio": "Bibbia ebraica, filosofia greca, diritto romano"
+        },
+        {
+          "voce": "Beccaria",
+          "dettaglio": "Dei delitti e delle pene: codificazione, no a pena di morte e tortura"
+        },
+        {
+          "voce": "Rousseau",
+          "dettaglio": "Contratto sociale: sovrano è il popolo, democrazia solo diretta"
+        },
+        {
+          "voce": "1789",
+          "dettaglio": "Dichiarazione dei diritti dell'uomo e del cittadino"
+        }
+      ],
+      "concetti": [
+        "giusrazionalismo",
+        "diritto-naturale",
+        "ugo-grozio",
+        "samuel-pufendorf",
+        "thomas-hobbes",
+        "modernita",
+        "stato-di-natura",
+        "contrattualismo",
+        "diritto-positivo",
+        "illuminismo-giuridico",
+        "particolarismo-giuridico",
+        "cesare-beccaria",
+        "rousseau",
+        "codificazione",
+        "dichiarazione-dei-diritti-dell-uomo-e-del-cittadino"
+      ]
+    },
+    {
+      "id": "u01-l4",
+      "titolo": "Codificazione e positivismo giuridico",
+      "pagine": [
+        7,
+        9
+      ],
+      "minuti": 30,
+      "sintesi": "### La codificazione\nL'esito più importante dell'[[illuminismo-giuridico|illuminismo giuridico]] e del [[giusrazionalismo]] è la **[[codificazione]]** del diritto continentale, che comincia nella seconda metà del Settecento e culmina in Francia. Codificare significa **redigere per iscritto il diritto di uno Stato** in documenti, i codici, con un duplice scopo: rappresentare la **legislazione generale** del paese e **sostituire il diritto previgente**. È opera di monarchi semiassoluti, come mostrano i tre grandi codici.\n\n| Codice | Anno | Caratteri |\n|---|---|---|\n| *Diritto territoriale generale prussiano* | 1794 | voluto da Federico II; conserva le distinzioni di ceto e il ricorso al [[diritto-naturale|diritto naturale]] |\n| **[[codice-napoleone|Code Napoléon]]** (codice civile francese) | 1804 | il codice «per antonomasia», nato dalla volontà politica di Napoleone |\n| *Codice civile generale austriaco* | 1811 | fatto redigere dall'imperatore d'Austria; legato alla tradizione |\n\nI rivoluzionari francesi volevano abolire l'*interpretatio* di dottrina e giudici e conservare solo la **legislazione** di un Parlamento rappresentativo. Per questo introdussero il **[[refere-legislatif|*référé législatif*]]**: i giudici dovevano rivolgersi al Parlamento, davanti a leggi oscure o lacunose, per averne l'interpretazione autentica. Dopo vari tentativi falliti, la codificazione riesce a Napoleone, insieme alla nascita dell'Impero e dell'università imperiale: al codice civile seguono quelli di procedura civile, di commercio, di procedura penale e penale.\n\nCiò che fa di questi testi la codificazione per antonomasia è l'**abolizione del [[particolarismo-giuridico|particolarismo giuridico]]**:\n- la pluralità delle **fonti** è cancellata e sostituita dai codici;\n- la pluralità dei **soggetti** è sostituita dal **soggetto unico di diritto**: fine dei privilegi di ceto, uguaglianza formale davanti alla legge;\n- i diversi **regimi proprietari** cedono a un regime unico, la proprietà, «diritto di godere e disporre delle cose nella maniera più assoluta».\n\n### Due positivismi giuridici\n| | [[giuspositivismo-tecnico|Giuspositivismo tecnico]] | [[giuspositivismo-teorico|Giuspositivismo teorico]] |\n|---|---|---|\n| Dove | Francia e paesi dei codici | paesi senza codificazione: Inghilterra, Germania |\n| Che cos'è | mutano **atteggiamenti e tecniche** dei giuristi | **teorie** o filosofie del diritto |\n| Che cosa lo spiega | la codificazione | il giusrazionalismo |\n\n### Il giuspositivismo tecnico e la Scuola dell'esegesi\nIn Francia i giuristi pratici si astengono perfino dal nominare il diritto naturale e usano solo il [[diritto-positivo|diritto positivo]] dei codici: è la civilistica dell'Ottocento, poi ribattezzata **[[scuola-dell-esegesi|Scuola dell'esegesi]]**. Per impedire che il suo codice fosse manipolato, Napoleone riorganizza la formazione: le facoltà giuridiche, chiuse dalla Rivoluzione, riaprono come **scuole professionali**; il diritto naturale esce dai programmi; il diritto positivo si insegna in modo **catechistico**, nell'ordine dei codici. L'interpretazione è **letterale** (la formulazione linguistica) o **psicologica** (l'[[intenzione-del-legislatore|intenzione del legislatore]] nei [[lavori-preparatori|lavori preparatori]]).\n\nEsempio decisivo è l'**art. 4 del titolo preliminare**: fallito il *référé législatif*, i redattori avevano tentato di permettere al giudice il ricorso all'**equità** in caso di lacuna; nella versione definitiva si impone invece ai giudici di trovare **sempre** la soluzione dentro il codice, cui si attribuisce **completezza**.\n\n### Il giuspositivismo teorico\nDove la codificazione manca, dal [[giusnaturalismo]] al [[giuspositivismo]] si passa per via di teoria: il passo decisivo, sulla strada della *positivizzazione* del diritto naturale, è ritenere che esso non stia nel mondo ma **nella ragione umana**.\n- In **Germania** la Scuola filosofica chiede il codice, la [[scuola-storica|Scuola storica]] si oppone: il diritto è prodotto della storia e del lavoro dei giuristi. Le accomuna l'idea del diritto come **sistema**; il codice tedesco arriverà solo agli inizi del Novecento, più simile a un trattato dottrinale che a una legge.\n- In **Inghilterra** i filosofi utilitaristi chiedono invano il codice (il *common law* non è codificato neppure oggi). Ottengono solo una riforma dell'istruzione giuridica: nasce la **[[jurisprudence|jurisprudence]]**, studio dei concetti giuridici fondamentali comuni a ogni diritto.\n\nPer un secolo il diritto positivo è padrone del campo. Il diritto naturale resta ai filosofi e riappare fra i giuristi solo verso la fine dell'Ottocento.",
+      "puntiChiave": [
+        "Codificazione: redazione scritta del diritto di uno Stato in codici, che rappresentano la legislazione generale e sostituiscono il diritto previgente.",
+        "Tre grandi codici: prussiano (1794), francese o Code Napoléon (1804), austriaco (1811).",
+        "Il référé législatif obbligava i giudici a chiedere al Parlamento l'interpretazione autentica delle leggi oscure o lacunose.",
+        "La codificazione napoleonica abolisce il particolarismo giuridico: fonti uniche, soggetto unico di diritto, proprietà unica.",
+        "Giuspositivismo tecnico (Francia): nuove tecniche dei giuristi, Scuola dell'esegesi, interpretazione letterale o psicologica.",
+        "Art. 4 del titolo preliminare: il giudice deve trovare sempre la soluzione nel codice, ritenuto completo.",
+        "Giuspositivismo teorico (Inghilterra, Germania): teorie del diritto, spiegate dal giusrazionalismo e non dalla codificazione.",
+        "In Germania il codice arriva agli inizi del Novecento; in Inghilterra nasce la jurisprudence."
+      ],
+      "memoria": [
+        {
+          "voce": "1794",
+          "dettaglio": "Diritto territoriale generale prussiano"
+        },
+        {
+          "voce": "1804",
+          "dettaglio": "Code Napoléon, codice civile francese"
+        },
+        {
+          "voce": "1811",
+          "dettaglio": "Codice civile generale austriaco"
+        },
+        {
+          "voce": "Référé législatif",
+          "dettaglio": "rinvio del giudice al Parlamento per l'interpretazione autentica"
+        },
+        {
+          "voce": "Proprietà (Code Napoléon)",
+          "dettaglio": "«diritto di godere e disporre delle cose nella maniera più assoluta»"
+        },
+        {
+          "voce": "Scuola dell'esegesi",
+          "dettaglio": "civilistica francese dell'Ottocento: interpretazione letterale o psicologica"
+        },
+        {
+          "voce": "Art. 4 titolo preliminare",
+          "dettaglio": "il giudice decide sempre in base al codice: dogma della completezza"
+        }
+      ],
+      "concetti": [
+        "codificazione",
+        "codice-napoleone",
+        "refere-legislatif",
+        "particolarismo-giuridico",
+        "giuspositivismo",
+        "giuspositivismo-tecnico",
+        "giuspositivismo-teorico",
+        "scuola-dell-esegesi",
+        "diritto-positivo",
+        "illuminismo-giuridico",
+        "giusrazionalismo",
+        "giusnaturalismo"
+      ]
+    },
+    {
+      "id": "u01-l5",
+      "titolo": "I neogiusnaturalismi: sei resurrezioni del diritto naturale",
+      "pagine": [
+        9,
+        10
+      ],
+      "minuti": 25,
+      "sintesi": "### Che cosa sono\nL'Ottocento è l'epoca dello **[[stato-di-diritto|Stato di diritto]] legislativo**. Verso la fine del secolo compaiono dottrine critiche del [[giuspositivismo]]: i **[[neogiusnaturalismo|neogiusnaturalismi]]**, vere «resurrezioni» del [[diritto-naturale|diritto naturale]] in età giuspositivista. Barberis ne conta almeno sei.\n\n### 1. La Scuola scientifica francese (Gény)\nA fine Ottocento, in Francia, una corrente di civilisti rivaluta il ruolo della dottrina e critica il culto dei codici. **[[francois-geny|François Gény]]** contesta la **completezza del codice**: le lacune si colmano non solo per *autointegrazione* ma anche per **eterointegrazione**, con la **libera ricerca scientifica** di una scienza giuridica che torni a usare la nozione di «natura delle cose». Altri legislatori europei accoglieranno la tesi, riconoscendo al giudice il potere di colmare le lacune. Sulle antinomie fra diritto positivo e naturale, però, Gény ammette che la **legge ingiusta va applicata** dal giudice così com'è, senza mitigarla neppure con l'interpretazione.\n\n### 2. La «natura delle cose» in Germania\nL'espressione **[[natura-della-cosa|«natura delle cose»]]** ha fra i giuristi due significati: indica i **concetti** (l'interpretazione di un vocabolo deve conformarsi alla definizione della dottrina) oppure i **fatti giuridici** (il mondo consta di fatti, non di norme). Nel Novecento la riscopre **[[gustav-radbruch|Radbruch]]**: non rinvia a un'immutabile natura del mondo, ma a **convenzioni sociali** che cambiano da un'epoca all'altra.\n\n### 3. Il neogiusnaturalismo postbellico\nDopo la Seconda guerra mondiale e la scoperta dei campi di sterminio, molti giuristi tedeschi attribuiscono le responsabilità del nazismo al giuspositivismo, riassunto nel motto «la legge è legge e ad essa si deve comunque obbedire». Il maggiore rappresentante è ancora [[gustav-radbruch|Radbruch]], ex ministro socialdemocratico, oppositore del nazismo e fino ad allora critico del [[giusnaturalismo|giusnaturalismo]]. Privato della cattedra dal regime, nel dopoguerra pubblica *Ingiustizia legale e diritto sovralegale*: esiste un **[[diritto-sovralegale|diritto sovralegale]]** che giustifica la disobbedienza alle leggi che rientrano nell'**ingiustizia legale**.\n\n### 4. Fuller e la morale interna del diritto\nLo statunitense **[[lon-fuller|Lon Fuller]]** polemizza con [[hart|Hart]], che aveva ripreso da Bentham la distinzione fra diritto *com'è* e diritto *come dovrebbe essere*, sostenendo che diritto e morale sono connessi solo contingentemente. Per Fuller il diritto non si separa dagli **obiettivi morali** che persegue: sono essi a farne autentico diritto. Il suo neogiusnaturalismo è però **procedurale**, non sostanziale, e la sua morale è **interna** al diritto. La **[[morale-interna-del-diritto|morale interna del diritto]]** indica procedure: le norme devono essere **generali, conoscibili a tutti, non retroattive, comprensibili, coerenti fra loro, di possibile adempimento, non mutate troppo in fretta, applicate fedelmente**.\n\n### 5. Finnis\n**[[john-finnis|John Finnis]]** critica la stessa distinzione: il diritto si conosce solo partendo dai **casi esemplari** in cui il diritto com'è coincide con il diritto come dovrebbe essere. Ammette una **pluralità di valori** che, concretizzandosi, legittimano il diritto positivo: esiste quindi una **presunzione di obbligatorietà** del diritto positivo.\n\n### 6. Il neocostituzionalismo\nNegli Stati occidentali di oggi il diritto positivo ingiusto può essere **annullato** se contrasta con i principi costituzionali. Per i giuspositivisti quei principi sono norme come le altre, solo gerarchicamente superiori; per i neocostituzionalisti sono **principi di diritto naturale** connessi al diritto dalle Costituzioni.\n\n### Bilancio\nNessun neogiusnaturalismo è una semplice riproposta del diritto naturale: tutti gli cercano un posto in un mondo dominato dal [[diritto-positivo|diritto positivo]]. Lo stesso si può dire della [[teoria-della-giustizia|teoria normativa della giustizia]] di [[john-rawls|Rawls]], quasi una **settima resurrezione**.",
+      "puntiChiave": [
+        "Neogiusnaturalismi: dottrine critiche del giuspositivismo, «resurrezioni» del diritto naturale dalla fine dell'Ottocento; Barberis ne conta sei.",
+        "Gény (Scuola scientifica): il codice non è completo; le lacune si colmano anche per eterointegrazione, con la libera ricerca scientifica. Ma la legge ingiusta va applicata.",
+        "«Natura delle cose»: concetti oppure fatti giuridici; per Radbruch rinvia a convenzioni sociali mutevoli.",
+        "Neogiusnaturalismo postbellico: Radbruch, Ingiustizia legale e diritto sovralegale; contro il motto «la legge è legge».",
+        "Fuller: neogiusnaturalismo procedurale; la morale interna del diritto elenca otto requisiti delle norme.",
+        "Finnis: il diritto si conosce dai casi esemplari; presunzione di obbligatorietà del diritto positivo.",
+        "Neocostituzionalismo: i principi costituzionali come principi di diritto naturale connessi al diritto.",
+        "La teoria della giustizia di Rawls è quasi una settima resurrezione."
+      ],
+      "memoria": [
+        {
+          "voce": "Sei resurrezioni",
+          "dettaglio": "Gény · natura delle cose · Radbruch postbellico · Fuller · Finnis · neocostituzionalismo"
+        },
+        {
+          "voce": "Autointegrazione / eterointegrazione",
+          "dettaglio": "colmare le lacune dall'interno del codice / dall'esterno, con la libera ricerca scientifica"
+        },
+        {
+          "voce": "«La legge è legge»",
+          "dettaglio": "motto giuspositivista accusato dopo Auschwitz"
+        },
+        {
+          "voce": "Radbruch",
+          "dettaglio": "Ingiustizia legale e diritto sovralegale"
+        },
+        {
+          "voce": "Morale interna del diritto (Fuller)",
+          "dettaglio": "norme generali, conoscibili, non retroattive, comprensibili, coerenti, adempibili, stabili, applicate fedelmente"
+        },
+        {
+          "voce": "Finnis",
+          "dettaglio": "casi esemplari; presunzione di obbligatorietà del diritto positivo"
+        }
+      ],
+      "concetti": [
+        "neogiusnaturalismo",
+        "giuspositivismo",
+        "diritto-naturale",
+        "francois-geny",
+        "natura-della-cosa",
+        "gustav-radbruch",
+        "diritto-sovralegale",
+        "lon-fuller",
+        "hart",
+        "morale-interna-del-diritto",
+        "john-finnis",
+        "diritto-positivo",
+        "john-rawls"
+      ]
+    },
+    {
+      "id": "u01-l6",
+      "titolo": "La teoria della giustizia di Rawls",
+      "pagine": [
+        10,
+        12
+      ],
+      "minuti": 25,
+      "sintesi": "### Una disciplina nuova per un problema antico\n«**[[teoria-della-giustizia|Teoria della giustizia]]**» è il nome della disciplina che, a partire dall'omonimo libro di **[[john-rawls|John Rawls]]**, studia la parte della morale che confina con la politica e con il diritto: i **principi normativi** e le **istituzioni** di una società giusta. È la versione odierna della ricerca del miglior regime politico, tipica della filosofia politica. Dagli anni Settanta del Novecento Rawls la sviluppa in tre fasi, segnate dai suoi tre libri.\n\n### *Una teoria della giustizia* (1971): tre svolte\n| Svolta | Da | A |\n|---|---|---|\n| 1 | **metaetica** (riflessione sui fondamenti dell'etica) | **etica normativa** (proposta di soluzioni giuste ai grandi problemi morali, politici, giuridici, economici) |\n| 2 | etica **sostanziale** (principi dati nella natura o nella ragione) | etica **procedurale** (principi costruiti e giustificati intersoggettivamente con una procedura di scelta, che riprende l'idea [[giusnaturalismo|giusnaturalista]] di [[contrattualismo|contratto sociale]]) |\n| 3 | etica **utilitarista** (massimizzare l'utilità collettiva) | etica **deontologica** (mirare alla giustizia) |\n\nSulla terza svolta: Rawls accusa l'[[utilitarismo|utilitarismo]] di ignorare la **separatezza degli individui**, i cui diritti rischiano di essere sacrificati alla massimizzazione dell'utilità collettiva.\n\n### Posizione originaria e velo di ignoranza\nPer scegliere i principi di una società pluralista Rawls riprende la coppia [[stato-di-natura|stato di natura]]/contratto sociale: immagina che la società sia ancora da costruire e che gli individui scelgano **imparzialmente** i principi che la regoleranno. Lo stato di natura è ribattezzato **[[posizione-originaria|posizione originaria]]** ed è caratterizzato dal **velo di ignoranza**: chi sceglie ignora quali saranno i suoi interessi nella società futura.\n\n### I due principi\nUna scelta così fatta costringerebbe i contraenti a concordare su **[[principi-di-giustizia-di-rawls|due principi]]**:\n1. **principio dell'eguale libertà**: ogni persona ha un eguale diritto al più ampio sistema di eguali libertà fondamentali;\n2. **principio di differenza**: le ineguaglianze economiche e sociali devono andare al più grande beneficio dei **meno avvantaggiati**.\n\nLi ordina l'**ordine lessicografico**: il secondo opera solo quando è soddisfatto il primo. Lo Stato può intervenire nell'economia e promuovere i diritti sociali solo **senza violare i diritti di libertà**; altrimenti gli individui baratterebbero la libertà con il soddisfacimento dei bisogni.\n\n### *Liberalismo politico* (1993)\nRiformula la teoria per le società contemporanee, dove gli individui hanno **concezioni diverse del bene**. Possono però accettare un liberalismo *soltanto politico*, che fissa le condizioni minime della convivenza senza pretendere di risolvere il problema filosofico, morale o religioso dei valori ultimi. Conseguenza giuridica: l'**esaltazione delle Corti costituzionali**, il cui controllo di legittimità delle leggi assicura l'applicazione più diretta dei principi di giustizia scelti nella posizione originaria e accolti nella Costituzione.\n\n### *Il diritto dei popoli* (1999)\nEstende la teoria al diritto internazionale: una **giustizia globale**. Anche qui si parte da una posizione originaria con velo di ignoranza, ma il contratto sociale internazionale è stipulato dai soli **popoli liberali**. Gli **otto principi**: libertà e indipendenza dei popoli; rispetto dei trattati; eguaglianza dei popoli e partecipazione agli accordi che li vincolano; dovere di non intervento bellico; diritto alla sola guerra difensiva; rispetto dei diritti umani; rispetto del diritto bellico; dovere di assistenza ai popoli poveri.\n\nPer Barberis la teoria di Rawls è quasi una settima resurrezione del [[diritto-naturale|diritto naturale]] (vedi i [[neogiusnaturalismo|neogiusnaturalismi]]).",
+      "puntiChiave": [
+        "Teoria della giustizia: disciplina che studia principi e istituzioni di una società giusta, a partire dal libro di Rawls del 1971.",
+        "Tre svolte: dalla metaetica all'etica normativa; dall'etica sostanziale a quella procedurale; dall'etica utilitarista a quella deontologica.",
+        "Rawls accusa l'utilitarismo di ignorare la separatezza degli individui.",
+        "Posizione originaria con velo di ignoranza: chi sceglie i principi ignora i propri interessi futuri.",
+        "Due principi: eguale libertà e differenza (le ineguaglianze a beneficio dei meno avvantaggiati), in ordine lessicografico.",
+        "Liberalismo politico (1993): condizioni minime di convivenza fra concezioni diverse del bene; esaltazione delle Corti costituzionali.",
+        "Il diritto dei popoli (1999): giustizia globale, otto principi, contratto fra i soli popoli liberali."
+      ],
+      "memoria": [
+        {
+          "voce": "1971",
+          "dettaglio": "Una teoria della giustizia"
+        },
+        {
+          "voce": "1993",
+          "dettaglio": "Liberalismo politico"
+        },
+        {
+          "voce": "1999",
+          "dettaglio": "Il diritto dei popoli"
+        },
+        {
+          "voce": "Posizione originaria",
+          "dettaglio": "lo stato di natura di Rawls, con il velo di ignoranza"
+        },
+        {
+          "voce": "Due principi",
+          "dettaglio": "eguale libertà; differenza"
+        },
+        {
+          "voce": "Ordine lessicografico",
+          "dettaglio": "il secondo principio opera solo se è soddisfatto il primo"
+        },
+        {
+          "voce": "Otto principi della giustizia globale",
+          "dettaglio": "indipendenza, trattati, eguaglianza, non intervento, guerra solo difensiva, diritti umani, diritto bellico, assistenza"
+        }
+      ],
+      "concetti": [
+        "teoria-della-giustizia",
+        "john-rawls",
+        "contrattualismo",
+        "stato-di-natura",
+        "posizione-originaria",
+        "principi-di-giustizia-di-rawls",
+        "diritto-naturale",
+        "neogiusnaturalismo"
+      ]
+    }
+  ],
+  "concetti": [
+    {
+      "id": "mauro-barberis",
+      "nome": "Mauro Barberis",
+      "tipo": "persona",
+      "breve": "Autore di «Giuristi e filosofi. Una storia della filosofia del diritto», il manuale riassunto in queste unità.",
+      "definizione": "Autore di *Giuristi e filosofi. Una storia della filosofia del diritto*, il libro su cui si basano queste unità. Barberis racconta la materia come una storia in **sei fasi** (diritto naturale, filosofia del diritto in senso stretto, *jurisprudence*, teoria generale, sociologia del diritto, filosofia del diritto in senso ampio), ciascuna con un proprio problema: giustizia, definizione del diritto, norma, sistema, rapporto fra diritto e società, interpretazione e ragionamento. La tesi di fondo è che oggi tutte confluiscono in un'unica [[filosofia-del-diritto-in-senso-ampio|filosofia del diritto in senso ampio]].",
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "filosofia-del-diritto",
+      "nome": "Filosofia del diritto",
+      "tipo": "concetto",
+      "breve": "Espressione con due sensi: stretto (filosofia applicata al diritto) e ampio (disciplina giuridica che riunisce più materie).",
+      "definizione": "Per Barberis l'espressione ha due sensi. In **senso stretto** è la materia filosofica nata nelle università dell'Ottocento, che applica al diritto una filosofia generale, spesso l'idealismo. In **senso ampio** è una materia più giuridica, nata nel Novecento dall'incontro con diritto naturale, *jurisprudence*, teoria generale e sociologia del diritto: analizza il linguaggio giuridico e riflette sui presupposti conoscitivi e normativi del lavoro del giurista. La sua storia si divide in sei fasi, ognuna con un problema e un nome diversi.",
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "filosofia-del-diritto-in-senso-stretto",
+      "nome": "Filosofia del diritto in senso stretto",
+      "tipo": "concetto",
+      "breve": "Materia filosofica e accademica nata in Germania fra Sette e Ottocento: applica al diritto una filosofia generale.",
+      "definizione": "Seconda fase della storia di Barberis, fra la fine del Settecento e la metà del Novecento. Nasce in Germania dalla crisi del [[diritto-naturale|diritto naturale]] come disciplina **filosofica** (coltivata dai filosofi) e **accademica** (insegnata all'università). Si pone per la prima volta il problema della **definizione del diritto**, cioè di ciò che lo distingue da etica e morale, insieme al problema normativo della giustizia. Le sue versioni applicano al diritto la filosofia generale di volta in volta dominante: kantismo, idealismo, ermeneutica, postmodernismo.",
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "filosofia-del-diritto-in-senso-ampio",
+      "nome": "Filosofia del diritto in senso ampio",
+      "tipo": "concetto",
+      "breve": "Disciplina degli ultimi decenni in cui confluiscono diritto naturale, filosofia in senso stretto, jurisprudence, teoria generale e sociologia.",
+      "definizione": "Sesta fase della storia di Barberis, riferita agli ultimi trent'anni. Il dibattito si internazionalizza e fa confluire in un'unica disciplina [[diritto-naturale|diritto naturale]], [[filosofia-del-diritto-in-senso-stretto|filosofia del diritto in senso stretto]], *jurisprudence*, teoria generale e sociologia del diritto. Il suo tema è l'**interpretazione** e il **ragionamento giuridico**; analizza il linguaggio giuridico e i presupposti conoscitivi e normativi dell'attività del giurista. Il problema del sistema riceve una soluzione strettamente giuridica: il sistema è il prodotto dell'attività della dottrina.",
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "diritto-naturale",
+      "nome": "Diritto naturale",
+      "tipo": "concetto",
+      "alias": [
+        "diritto di natura",
+        "giusto per natura"
+      ],
+      "breve": "Diritto fondato sulla natura o sulla ragione, non posto dagli uomini; è il tema della prima fase della filosofia del diritto.",
+      "definizione": "È la materia della prima fase della filosofia del diritto, che va dall'Atene del V secolo a.C. al Settecento e muove dal problema della **giustizia**. Gli antichi lo ricavano dalla natura o dalla volontà divina; i moderni lo reinterpretano come **diritto razionale**, dedotto da principi di ragione autoevidenti. Entra in crisi con le [[codificazione|codificazioni]], quando il [[giuspositivismo|positivismo giuridico]] gli nega la natura di autentico diritto, ma «risorge» più volte nei [[neogiusnaturalismo|neogiusnaturalismi]].",
+      "pagine": [
+        2,
+        10
+      ]
+    },
+    {
+      "id": "giusnaturalismo",
+      "nome": "Giusnaturalismo",
+      "tipo": "concetto",
+      "alias": [
+        "giusnaturalismo antico"
+      ],
+      "breve": "Dottrina del diritto naturale: prende il nome dalla materia che tratta. Antico (greco, romano, cristiano) e moderno.",
+      "definizione": "Nome che la filosofia del diritto prende nella sua prima fase, dalla materia che tratta: il [[diritto-naturale|diritto naturale]]. Il **giusnaturalismo antico** comprende le dottrine dell'antichità greco-romana e del medioevo: greco (risposta ai [[sofisti]]), romano (naturalista nei giuristi, razionalista in [[cicerone|Cicerone]]), cristiano ([[agostino|Agostino]], [[tommaso-d-aquino|Tommaso]]), che pone il diritto naturale sopra quello positivo. Quello moderno è il [[giusrazionalismo]]. Nella definizione di Hart il giusnaturalismo sostiene la connessione necessaria fra diritto e morale.",
+      "pagine": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "dikaion",
+      "nome": "Dikaion",
+      "tipo": "concetto",
+      "alias": [
+        "giusto",
+        "δίκαιον"
+      ],
+      "breve": "Termine greco che indica insieme il diritto e il giusto: per questo la riflessione antica parte dalla giustizia.",
+      "definizione": "Parola greca con cui nell'Atene del V secolo a.C. si indicano insieme **diritto e morale**, il giusto. È al centro della disputa con i [[sofisti]], per i quali il *dikaion* è l'utile del più forte: tesi accettabile, osserva Barberis, se la parola indica il diritto positivo, criticabile se indica la giustizia. [[aristotele|Aristotele]] ne riconosce il doppio significato: «giusto per legge», mutevole, e «giusto per natura», immutabile.",
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "sofisti",
+      "nome": "Sofisti",
+      "tipo": "gruppo",
+      "breve": "Pensatori dell'Atene del V secolo a.C. per i quali il giusto è l'utile del più forte.",
+      "definizione": "Pensatori dell'Atene del V secolo a.C. contro i quali nasce il giusnaturalismo greco. Sostengono che il giusto ([[dikaion|*dikaion*]]) è **l'utile del più forte** e può dunque ridursi alla legge imposta dal potere politico. Per Barberis la tesi è accoglibile se riferita al diritto positivo; se riferita alla giustizia la renderebbe inutile, perché la giustizia ha senso solo se serve a controllare il potere. Li criticano i sostenitori del «giusto per natura», [[socrate|Socrate]] e, con un compromesso, [[aristotele|Aristotele]].",
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "socrate",
+      "nome": "Socrate",
+      "tipo": "persona",
+      "breve": "Interpreta la tesi dei sofisti come riferita alla giustizia e ne conclude che è insostenibile.",
+      "definizione": "Nella ricostruzione di Barberis è il critico dei [[sofisti]]: intende la loro tesi (il giusto è l'utile del più forte) come se riguardasse non il diritto positivo ma la **giustizia**, e ne trae la conclusione che è insostenibile. Sta dunque dalla parte dei sostenitori del «giusto per natura», lo stesso ideale incarnato dal personaggio di Antigone, che obbedisce alle leggi non scritte della *polis* a costo della vita.",
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "aristotele",
+      "nome": "Aristotele",
+      "tipo": "persona",
+      "breve": "Nell'Etica Nicomachea distingue il giusto per legge, mutevole, dal giusto per natura, immutabile.",
+      "definizione": "Fra i [[sofisti]] e la tradizione propone una soluzione di compromesso. Nell'*Etica Nicomachea*, il suo principale testo etico, riconosce il duplice significato di [[dikaion|*dikaion*]]: **giusto per legge** e **giusto per natura**, e sostiene la mutabilità del primo contro l'immutabilità del secondo. Barberis lo richiama ancora per la tesi della naturale socialità dell'uomo, respinta da Hobbes, e per la tripartizione delle forme di governo (monarchia, aristocrazia, democrazia), rimaneggiata da Montesquieu.",
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "ius-naturale",
+      "nome": "Ius naturale (diritto naturale romano)",
+      "tipo": "concetto",
+      "latino": "ius naturale",
+      "breve": "Per i giuristi del Digesto ciò che la natura insegna a tutti gli animali; per Cicerone un diritto di ragione eterno.",
+      "definizione": "Il diritto naturale dei romani ha due versioni. Quella **naturalista** dei giuristi, conservata nel Digesto, ne sottolinea l'aspetto pratico: insieme di regole che la natura insegna a tutti gli animali, uomini compresi. Quella **razionalista** dei filosofi, espressa da [[cicerone|Cicerone]], ne fa un diritto di ragione, uguale nello spazio e nel tempo, immutabile ed eterno. Gli stanno accanto il diritto delle genti, comune a tutti gli uomini ma non agli animali, e il diritto civile dei soli cittadini romani.",
+      "pagine": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "corpus-iuris-civilis",
+      "nome": "Corpus Iuris Civilis",
+      "tipo": "opera",
+      "breve": "Compilazione di Giustiniano in quattro parti (Codice, Novelle, Istituzioni, Digesto), riscoperta a Bologna dopo il Mille.",
+      "definizione": "Compilazione voluta da Giustiniano, attraverso la quale ci è giunto il diritto naturale dei giuristi romani. Andata perduta nel medioevo, fu riscoperta dopo l'anno Mille a Bologna. Consta di quattro parti: il **Codice** (leggi imperiali), le **Novelle** (costituzioni emanate dopo il Codice), le **Istituzioni** (manuale per l'insegnamento) e il **Digesto** (frammenti della dottrina romana). Dalla sua riscoperta nasce l'insegnamento universitario del diritto romano, che diventerà diritto comune.",
+      "pagine": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "cicerone",
+      "nome": "Cicerone",
+      "tipo": "persona",
+      "breve": "Espone la concezione razionalista del diritto naturale: diritto di ragione, immutabile ed eterno.",
+      "definizione": "Rappresenta, per Barberis, la concezione **razionalista** dei filosofi, contrapposta a quella naturalista dei giuristi romani. Caratterizza lo [[ius-naturale|*ius naturale*]] come **diritto di ragione**, sempre uguale a se stesso nello spazio e nel tempo, immutabile ed eterno; per i giuristi del Digesto è invece l'insieme delle regole che la natura insegna a tutti gli animali. È il precedente antico dell'idea moderna di un diritto razionale.",
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "agostino",
+      "nome": "Agostino d'Ippona",
+      "tipo": "persona",
+      "alias": [
+        "sant'Agostino"
+      ],
+      "breve": "Padre della Chiesa: la legge contraria alla volontà divina non è legge.",
+      "definizione": "Uno dei Padri della Chiesa. Nei suoi scritti trova espressione la rivoluzione del giusnaturalismo cristiano: il [[diritto-naturale|diritto naturale]], ricondotto alla divinità, è **superiore** al diritto meramente umano o positivo. Ne segue la tesi per cui la legge che contrasta con la volontà divina **non è legge**. Il senso effettivo di questa negazione viene chiarito più tardi da [[tommaso-d-aquino|Tommaso d'Aquino]], con la subordinazione del diritto positivo a quello naturale.",
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "tommaso-d-aquino",
+      "nome": "Tommaso d'Aquino",
+      "tipo": "persona",
+      "alias": [
+        "san Tommaso"
+      ],
+      "breve": "Caposcuola della Scolastica: distingue diritto eterno, divino, naturale e positivo.",
+      "definizione": "Caposcuola della Scolastica e fondatore del tomismo. Distingue quattro tipi di diritto: **eterno** (la legge della Provvidenza che regola il creato), **divino** (la volontà di Dio rivelata nelle Scritture), **naturale** (precetti della ragione divina conosciuti dalla ragione umana), **positivo** (precetti del legislatore per il bene comune). Il diritto positivo è subordinato al naturale e ne discende per *determinazione* o per *conclusione*; se non vi si conforma non è autentico diritto. Il primo precetto è «fa' e persegui il bene ed evita il male».",
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "diritto-positivo",
+      "nome": "Diritto positivo",
+      "tipo": "concetto",
+      "breve": "Il diritto posto dagli uomini (leggi, codici, consuetudini), contrapposto al diritto naturale.",
+      "definizione": "È il diritto **posto** dal legislatore o dalla consuetudine. Per [[tommaso-d-aquino|Tommaso]] è l'insieme dei precetti dettati dal legislatore per il bene comune, subordinato al diritto naturale. Per i giusrazionalisti volontaristi è il solo modo in cui il diritto razionale può imporsi. Con i codici diventa l'unico diritto usato dai giuristi ([[giuspositivismo-tecnico|giuspositivismo tecnico]]) e per un secolo resta «padrone del campo». Per Kant sono positive le leggi che senza una legislazione esterna non creano obblighi.",
+      "pagine": [
+        3,
+        9
+      ]
+    },
+    {
+      "id": "giusrazionalismo",
+      "nome": "Giusrazionalismo moderno",
+      "tipo": "concetto",
+      "alias": [
+        "giusnaturalismo moderno",
+        "diritto razionale"
+      ],
+      "breve": "Dottrine del diritto naturale fra Sei e Settecento: il diritto naturale è un diritto razionale, dedotto da principi autoevidenti.",
+      "definizione": "Insieme delle dottrine di [[diritto-naturale|diritto naturale]] affermatesi fra Sei e Settecento, che lo reinterpretano come **diritto razionale** da insegnare nelle università. Nasce da quattro mutamenti: scoperte geografiche, Riforma protestante, fine dell'unità politica, scoperte scientifiche. Ricostruisce il diritto naturale come **sistema logico-deduttivo** e usa le nozioni di [[stato-di-natura|stato di natura]] e [[contrattualismo|contratto sociale]]. Ha una corrente razionalista ([[ugo-grozio|Grozio]]) e una volontarista ([[thomas-hobbes|Hobbes]], [[samuel-pufendorf|Pufendorf]]). Porta alla [[codificazione]].",
+      "pagine": [
+        5,
+        7
+      ]
+    },
+    {
+      "id": "modernita",
+      "nome": "Modernità",
+      "tipo": "periodo",
+      "breve": "L'epoca dalla scoperta dell'America (1492) alla Rivoluzione francese (1789) e il modo di pensare dei moderni.",
+      "definizione": "Per Barberis è l'epoca moderna, dalla **scoperta dell'America (1492)** alla **Rivoluzione francese (1789)**, ma anche l'insieme dei modi di pensare che oppongono i moderni agli antichi. In campo giuridico i moderni ereditano il diritto romano, divenuto diritto comune. Quattro mutamenti la separano dal medioevo: le scoperte geografiche, la Riforma protestante, la fine dell'unità politica con la nascita degli Stati nazionali, le scoperte scientifiche di Copernico e Newton. Da essi nasce il [[giusrazionalismo]].",
+      "pagine": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "stato-di-natura",
+      "nome": "Stato di natura",
+      "tipo": "concetto",
+      "breve": "Condizione in cui gli individui vivono fuori da associazioni politiche ma hanno già diritti naturali.",
+      "definizione": "Prima delle due fasi in cui, per i giusrazionalisti, si forma la società civile, concepita come ente artificiale. Gli individui vi vivrebbero fuori da ogni associazione politica, pur avendo già **diritti naturali** attribuiti dal diritto razionale; per garantirli ne escono con il [[contrattualismo|contratto sociale]]. Per [[samuel-pufendorf|Pufendorf]] è una condizione di libertà; per [[thomas-hobbes|Hobbes]] una situazione di guerra dominata dalla paura. [[john-rawls|Rawls]] lo ribattezza [[posizione-originaria|posizione originaria]].",
+      "pagine": [
+        5,
+        11
+      ]
+    },
+    {
+      "id": "contrattualismo",
+      "nome": "Contratto sociale e contrattualismo",
+      "tipo": "concetto",
+      "alias": [
+        "contratto sociale",
+        "patto sociale"
+      ],
+      "breve": "Idea che la società politica nasca da un patto di unione fra gli individui e di soggezione al sovrano.",
+      "definizione": "Dottrina per cui gli individui escono dallo [[stato-di-natura|stato di natura]] stipulando un **contratto sociale**: un patto di *unione* fra loro e di *soggezione* al sovrano, che difenderà i loro diritti. Col tempo l'idea di contratto lascia il posto a quella di **Costituzione**. In [[rousseau|Rousseau]] fonda la sovranità del popolo; in [[thomas-hobbes|Hobbes]] il potere assoluto dello Stato. Hume lo critica come storicamente dubbio e circolare. [[john-rawls|Rawls]] lo riprende come procedura di scelta dei principi di giustizia.",
+      "pagine": [
+        5,
+        11
+      ]
+    },
+    {
+      "id": "ugo-grozio",
+      "nome": "Ugo Grozio",
+      "tipo": "persona",
+      "alias": [
+        "Hugo Grotius",
+        "Huig de Groot"
+      ],
+      "breve": "Iniziatore della corrente razionalista del giusrazionalismo; autore del trattato sul diritto della guerra e della pace.",
+      "definizione": "Iniziatore della corrente **razionalista** del [[giusrazionalismo]] e autore di uno dei primi manuali della materia. Scrive *Il diritto della guerra e della pace* nell'esilio parigino, per sfuggire ai conflitti religiosi dell'Olanda protestante. L'opera ricava i suoi principi dai tre pilastri della cultura occidentale (Bibbia ebraica, filosofia greca, diritto romano) e serve da manuale universitario di *ius naturae et gentium*. Per i razionalisti il diritto vigente è già razionale e ai giuristi tocca svilupparne la razionalità.",
+      "pagine": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "samuel-pufendorf",
+      "nome": "Samuel Pufendorf",
+      "tipo": "persona",
+      "breve": "Giusrazionalista volontarista: oppone stato di natura e stato civile; le leggi sono comandi sanzionati.",
+      "definizione": "Iniziatore, con Hobbes da cui è fortemente influenzato, della corrente **volontarista** del [[giusrazionalismo]]; il suo manuale di diritto razionale è per qualche tempo il più diffuso nelle università. Oppone lo [[stato-di-natura|stato di natura]], condizione di libertà, allo stato civile, creato dal contratto sociale che attribuisce al sovrano il monopolio della forza. Le leggi positive sono **comandi sanzionati** che restringono la libertà naturale senza eliminarla. Da lui Kant riprende la distinzione fra diritto positivo e teologia morale.",
+      "pagine": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "thomas-hobbes",
+      "nome": "Thomas Hobbes",
+      "tipo": "persona",
+      "breve": "Filosofo inglese, iniziatore del giusrazionalismo volontarista e precursore della jurisprudence.",
+      "definizione": "Nel primo capitolo compare come iniziatore della corrente **volontarista** del [[giusrazionalismo]]: senza la volontà del sovrano i giuristi possono fare ben poco, perché solo lo Stato trasforma in diritto vigente i sistemi di diritto razionale. I razionalisti come [[ugo-grozio|Grozio]] ritengono invece che il diritto vigente sia già razionale di per sé. La sua influenza passa a [[samuel-pufendorf|Pufendorf]]. Barberis lo ritrova nel terzo capitolo come precursore della *jurisprudence*, per le idee di sovrano, comando e sanzione.",
+      "pagine": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "illuminismo-giuridico",
+      "nome": "Illuminismo giuridico",
+      "tipo": "concetto",
+      "breve": "Divulgazione settecentesca delle idee giusrazionaliste: chiede riforme e la fine del particolarismo giuridico.",
+      "definizione": "Divulgazione delle idee del [[giusrazionalismo]] da parte degli scrittori del Settecento, dentro il movimento chiamato «rischiaramento» in Germania e «lumi» in Francia. Quello tedesco è opera di professori e ispira riforme dall'alto; quello francese circola nell'opinione pubblica con libelli rivolti ai sovrani. Il suo bersaglio è il [[particolarismo-giuridico|particolarismo giuridico]]; i suoi autori sono Voltaire, [[cesare-beccaria|Beccaria]] e, più radicale, [[rousseau|Rousseau]]. Il suo esito è la [[codificazione]].",
+      "pagine": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "particolarismo-giuridico",
+      "nome": "Particolarismo giuridico",
+      "tipo": "concetto",
+      "breve": "Pluralità di fonti, di soggetti e di regimi dei beni dentro lo stesso Stato; lo abolisce la codificazione napoleonica.",
+      "definizione": "Situazione dell'antico regime in cui, nello stesso Stato, convivono **fonti diverse**, **soggetti distinti** e **differenti regimi dei beni**. È ben accetto ai giuristi e ai ceti privilegiati, inviso alla borghesia e al monarca assoluto. Voltaire ne chiede la fine ai monarchi illuminati. Lo aboliscono i codici napoleonici: le fonti previgenti sono sostituite dai codici, i soggetti dal soggetto unico di diritto (uguaglianza formale), i regimi proprietari dalla proprietà unica. È questo a fare del [[codice-napoleone|Code Napoléon]] la codificazione per antonomasia.",
+      "pagine": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "cesare-beccaria",
+      "nome": "Cesare Beccaria",
+      "tipo": "persona",
+      "breve": "Illuminista milanese, autore di «Dei delitti e delle pene»: chiede codici e l'abolizione di pena di morte e tortura.",
+      "definizione": "Illuminista milanese, autore di *Dei delitti e delle pene*. Come Voltaire si rivolge ai monarchi illuminati. Rifiuta le fonti tradizionali del diritto e chiede una [[codificazione]] che metta ognuno in grado di conoscere i propri diritti e i propri doveri; auspica inoltre l'abolizione della **pena di morte** e della **tortura**. È uno degli scrittori dell'[[illuminismo-giuridico|illuminismo giuridico]] attraverso i quali le idee giusrazionaliste diventano programma di riforma.",
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "rousseau",
+      "nome": "Jean-Jacques Rousseau",
+      "tipo": "persona",
+      "breve": "Nel «Contratto sociale» vuole rifondare lo Stato su basi democratiche: sovrano è il popolo, la democrazia è diretta.",
+      "definizione": "Fra gli scrittori dell'[[illuminismo-giuridico|illuminismo giuridico]] è quello dalle rivendicazioni più radicali. Nel *Contratto sociale* formula l'esigenza di rifondare lo Stato su basi **democratiche**: sovrano assoluto non è più il monarca ma il **popolo**, e la democrazia può essere solo **diretta**, non rappresentativa. Mentre Voltaire e Beccaria si rivolgono ai monarchi illuminati, Rousseau sposta la sovranità: le sue idee riemergono con la Rivoluzione francese.",
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "dichiarazione-dei-diritti-dell-uomo-e-del-cittadino",
+      "nome": "Dichiarazione dei diritti dell'uomo e del cittadino",
+      "tipo": "norma",
+      "alias": [
+        "Dichiarazione del 1789"
+      ],
+      "breve": "Testo del 1789 che pretende di chiarire i diritti naturali dell'uomo in generale: documento delle radici giusrazionaliste della Rivoluzione.",
+      "definizione": "Testo approvato nel **1789**, all'inizio della Rivoluzione francese. Per Barberis documenta le radici giusrazionaliste delle idee dei rivoluzionari, perché pretende di chiarire i **diritti naturali dell'uomo in generale**. Proprio questa pretesa universale la rende sospetta a Bentham, ostile all'universalismo illuminista, e a Comte, che vede nei diritti dell'uomo «entità astratte» tipiche dello stadio metafisico.",
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "codificazione",
+      "nome": "Codificazione",
+      "tipo": "concetto",
+      "breve": "Redazione scritta del diritto di uno Stato in codici che rappresentano la legislazione generale e sostituiscono il diritto previgente.",
+      "definizione": "Redazione per iscritto del diritto di uno Stato in documenti, i **codici**, con il duplice scopo di rappresentare la legislazione generale del paese e di **sostituire il diritto previgente**. È l'esito dell'[[illuminismo-giuridico|illuminismo giuridico]] e del [[giusrazionalismo]]; inizia nella seconda metà del Settecento ed è opera di monarchi semiassoluti: codice prussiano (1794), francese (1804), austriaco (1811). In Germania è rinviata fino al 1900 dalla polemica fra Thibaut e Savigny; in Inghilterra, chiesta da Bentham, non è mai avvenuta.",
+      "pagine": [
+        7,
+        9
+      ]
+    },
+    {
+      "id": "codice-napoleone",
+      "nome": "Code Napoléon",
+      "tipo": "norma",
+      "alias": [
+        "codice civile francese",
+        "Code civil",
+        "Codice Napoleone"
+      ],
+      "breve": "Codice civile francese del 1804: il codice per antonomasia, che abolisce il particolarismo giuridico.",
+      "definizione": "Codice civile francese del **1804**, così chiamato per rimarcarne l'origine nella volontà politica di Napoleone imperatore. È il codice per antonomasia perché abolisce il [[particolarismo-giuridico|particolarismo giuridico]]: sostituisce le fonti previgenti, introduce il soggetto unico di diritto e l'uguaglianza formale, unifica i regimi proprietari nella proprietà come «diritto di godere e disporre delle cose nella maniera più assoluta». Lo seguono gli altri quattro codici napoleonici. Sul suo testo lavora la [[scuola-dell-esegesi|Scuola dell'esegesi]].",
+      "pagine": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "refere-legislatif",
+      "nome": "Référé législatif",
+      "tipo": "istituto",
+      "alias": [
+        "refere legislatif"
+      ],
+      "breve": "Istituto rivoluzionario: il giudice, davanti a leggi oscure o lacunose, deve chiedere al Parlamento l'interpretazione autentica.",
+      "definizione": "Istituto della Rivoluzione francese pensato per debellare l'*interpretatio* dei giuristi e dei giudici: obbligava i giudici a rivolgersi al **Parlamento**, in caso di leggi poco chiare o lacunose, per averne un'**interpretazione autentica**. Esprime l'ideale illuminista per cui del diritto si conserva solo la legislazione di un'assemblea rappresentativa. Fallì; i redattori del codice tentarono allora, invano, di ammettere il ricorso all'equità, e il testo definitivo impose al giudice di decidere sempre in base al codice.",
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "giuspositivismo",
+      "nome": "Giuspositivismo (positivismo giuridico)",
+      "tipo": "concetto",
+      "alias": [
+        "positivismo giuridico"
+      ],
+      "breve": "Dottrina per cui è diritto solo quello positivo; nasce con i codici (tecnico) o con le teorie inglesi e tedesche (teorico).",
+      "definizione": "Dottrina che riconosce come diritto il solo [[diritto-positivo|diritto positivo]] e nega al diritto naturale la natura di autentico diritto. Barberis ne distingue due forme d'origine: il [[giuspositivismo-tecnico|giuspositivismo tecnico]], prodotto dalla [[codificazione]], e il [[giuspositivismo-teorico|giuspositivismo teorico]], prodotto dal [[giusrazionalismo]] nei paesi senza codice. Dopo Auschwitz gli si rimprovera il motto «la legge è legge». Nella definizione di Hart sostiene la **separabilità** fra diritto e morale; Bobbio ne distingue tre sensi: teoria, metodologia, ideologia.",
+      "pagine": [
+        2,
+        10
+      ]
+    },
+    {
+      "id": "giuspositivismo-tecnico",
+      "nome": "Giuspositivismo tecnico",
+      "tipo": "concetto",
+      "breve": "Le tecniche imposte ai giuristi dai codici: uso del solo diritto positivo, come nella Scuola dell'esegesi francese.",
+      "definizione": "Forma di [[giuspositivismo]] propria della Francia e dei paesi che hanno conosciuto la [[codificazione]]: è detto tecnico perché cambiano gli **atteggiamenti e le tecniche** dei giuristi pratici, che si astengono perfino dal nominare il diritto naturale e usano solo il diritto positivo dei codici. Caratterizza la [[scuola-dell-esegesi|Scuola dell'esegesi]]. Lo sancisce la redazione definitiva del codice, che impone al giudice di trovare sempre la soluzione al suo interno, attribuendogli completezza.",
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "giuspositivismo-teorico",
+      "nome": "Giuspositivismo teorico",
+      "tipo": "concetto",
+      "breve": "Le teorie del diritto positivo elaborate dove mancò la codificazione: Inghilterra e Germania.",
+      "definizione": "Forma di [[giuspositivismo]] rappresentata da **teorie o filosofie del diritto**, elaborate soprattutto nei paesi che non conobbero la [[codificazione]], come Inghilterra e Germania. Qui il passaggio dal giusnaturalismo è spiegato dal [[giusrazionalismo]]: decisivo è ritenere che il diritto naturale non stia nel mondo ma nella ragione umana. In Germania dà la disputa fra Scuola filosofica e Scuola storica; in Inghilterra la *jurisprudence* degli utilitaristi. Bobbio chiamerà «positivismo giuridico teorico» le tesi della teoria generale.",
+      "pagine": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "scuola-dell-esegesi",
+      "nome": "Scuola dell'esegesi",
+      "tipo": "gruppo",
+      "breve": "La dottrina civilistica francese dell'Ottocento: interpreta i codici in modo letterale o cercando l'intenzione del legislatore.",
+      "definizione": "Nome dato in seguito alla dottrina civilistica francese dell'Ottocento, espressione del [[giuspositivismo-tecnico|giuspositivismo tecnico]]. Nelle facoltà riaperte da Napoleone come scuole professionali il diritto si insegna in modo catechistico, nell'ordine dei codici. Civilisti e giudici praticano un'interpretazione **letterale**, basata sulla formulazione linguistica, o **psicologica**, che cerca l'intenzione del legislatore nei lavori preparatori. Legge l'art. 4 del titolo preliminare come obbligo di decidere sempre in base al codice, ritenuto completo.",
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "neogiusnaturalismo",
+      "nome": "Neogiusnaturalismi",
+      "tipo": "concetto",
+      "alias": [
+        "resurrezioni del diritto naturale",
+        "neogiusnaturalismo"
+      ],
+      "breve": "Dottrine critiche del giuspositivismo che dalla fine dell'Ottocento fanno «risorgere» il diritto naturale: Barberis ne conta sei.",
+      "definizione": "Dottrine critiche del [[giuspositivismo]] comparse dalla fine dell'Ottocento: «resurrezioni» del [[diritto-naturale|diritto naturale]] in età giuspositivista. Barberis ne conta almeno sei: la Scuola scientifica di [[francois-geny|Gény]]; la riscoperta tedesca della [[natura-della-cosa|natura delle cose]]; il neogiusnaturalismo postbellico di [[gustav-radbruch|Radbruch]]; la morale interna del diritto di [[lon-fuller|Fuller]]; [[john-finnis|Finnis]]; il neocostituzionalismo. Nessuna è una semplice riproposta: tutte cercano al diritto naturale un posto in un mondo dominato dal diritto positivo.",
+      "pagine": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "francois-geny",
+      "nome": "François Gény",
+      "tipo": "persona",
+      "breve": "Principale esponente della Scuola scientifica francese: contesta la completezza del codice e propone la libera ricerca scientifica.",
+      "definizione": "Principale esponente della **Scuola scientifica**, corrente di civilisti francesi di fine Ottocento che rivaluta la dottrina e critica il culto dei codici: è la prima resurrezione del diritto naturale. Contesta la completezza del codice: le lacune si colmano anche per **eterointegrazione**, con la **libera ricerca scientifica** e la nozione di natura delle cose. Sul conflitto fra diritto positivo e naturale, però, ammette che la legge ingiusta va applicata dal giudice così com'è, senza mitigarla con l'interpretazione.",
+      "pagine": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "natura-della-cosa",
+      "nome": "Natura delle cose",
+      "tipo": "concetto",
+      "alias": [
+        "natura della cosa",
+        "Natur der Sache"
+      ],
+      "breve": "Nozione riscoperta in Germania: indica i concetti della dottrina o i fatti giuridici; per Radbruch convenzioni sociali mutevoli.",
+      "definizione": "Nozione al centro della seconda resurrezione del diritto naturale, in Germania. Fra i giuristi ha due significati: indica i **concetti** (l'interpretazione di un vocabolo giuridico deve conformarsi alla definizione data dalla dottrina) oppure i **fatti giuridici** (il mondo consta di fatti, non di norme). Nel Novecento la riscopre [[gustav-radbruch|Radbruch]], per il quale non rinvia a un'immutabile natura del mondo ma a **convenzioni sociali** che cambiano da epoca a epoca. La usa già [[francois-geny|Gény]].",
+      "pagine": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "gustav-radbruch",
+      "nome": "Gustav Radbruch",
+      "tipo": "persona",
+      "breve": "Giurista tedesco: riscopre la «natura delle cose» e, dopo il nazismo, afferma l'esistenza di un diritto sovralegale.",
+      "definizione": "Ex ministro socialdemocratico, oppositore del nazismo, privato della cattedra dal regime. Prima critico del giusnaturalismo, riscopre nel Novecento la nozione di [[natura-della-cosa|natura delle cose]], intesa come insieme di convenzioni sociali mutevoli. Nel dopoguerra è il maggiore rappresentante del neogiusnaturalismo postbellico: in *Ingiustizia legale e diritto sovralegale* afferma l'esistenza di un [[diritto-sovralegale|diritto sovralegale]] che giustifica la disobbedienza alle leggi ingiuste, contro il motto giuspositivista «la legge è legge».",
+      "pagine": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "diritto-sovralegale",
+      "nome": "Diritto sovralegale e ingiustizia legale",
+      "tipo": "concetto",
+      "alias": [
+        "ingiustizia legale",
+        "diritto sovralegale"
+      ],
+      "breve": "Per Radbruch esiste un diritto al di sopra della legge, che giustifica la disobbedienza alle leggi gravemente ingiuste.",
+      "definizione": "Coppia di nozioni di [[gustav-radbruch|Radbruch]], dal titolo dell'opera pubblicata nel dopoguerra, *Ingiustizia legale e diritto sovralegale*. Esiste un diritto che sta **sopra la legge** e che giustifica la disobbedienza alle leggi rientranti nell'**ingiustizia legale**. È la risposta del neogiusnaturalismo postbellico al motto «la legge è legge e ad essa si deve comunque obbedire», con cui molti giuristi tedeschi, dopo Auschwitz, riassumono il giuspositivismo ritenuto responsabile del nazismo.",
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "lon-fuller",
+      "nome": "Lon Fuller",
+      "tipo": "persona",
+      "alias": [
+        "Lon L. Fuller"
+      ],
+      "breve": "Filosofo statunitense: contro Hart sostiene un neogiusnaturalismo procedurale, la morale interna del diritto.",
+      "definizione": "Filosofo statunitense, protagonista della quarta resurrezione del diritto naturale. Polemizza con [[hart|Hart]], per il quale diritto e morale sono connessi solo contingentemente: per Fuller il diritto non può essere separato dagli **obiettivi morali** che persegue, perché sono essi a farne autentico diritto. Il suo neogiusnaturalismo differisce da quello tradizionale: è **procedurale** e non sostanziale, e la sua morale è interna al diritto, la [[morale-interna-del-diritto|morale interna del diritto]].",
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "morale-interna-del-diritto",
+      "nome": "Morale interna del diritto",
+      "tipo": "concetto",
+      "breve": "Per Fuller, le procedure che il diritto positivo deve rispettare per essere autentico diritto: otto requisiti delle norme.",
+      "definizione": "Nozione di [[lon-fuller|Fuller]]. Non indica contenuti ma **procedure** che il diritto positivo deve rispettare se vuole essere autentico diritto. In base a essa il diritto deve essere formato da norme **generali**, **conoscibili a tutti**, **non retroattive**, **comprensibili** ai più, **coerenti** fra loro, di **possibile adempimento**, di **mutamento non troppo rapido**, di **applicazione fedele**. È una morale interna al diritto stesso, diversa dalla morale esterna e sostanziale del giusnaturalismo tradizionale.",
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "john-finnis",
+      "nome": "John Finnis",
+      "tipo": "persona",
+      "breve": "Esponente della quinta resurrezione del diritto naturale: il diritto si conosce dai casi esemplari.",
+      "definizione": "Esponente di spicco della quinta resurrezione del diritto naturale. Critica la distinzione fra diritto com'è e diritto come dovrebbe essere: il diritto si può conoscere solo partendo dai **casi esemplari** in cui il diritto com'è corrisponde a quello che dovrebbe essere. Ammette la **pluralità dei valori** che, concretizzandosi, legittimano il diritto positivo; ne segue una **presunzione di obbligatorietà** del diritto positivo stesso.",
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "john-rawls",
+      "nome": "John Rawls",
+      "tipo": "persona",
+      "breve": "Autore di «Una teoria della giustizia» (1971): posizione originaria, velo di ignoranza, due principi di giustizia.",
+      "definizione": "Filosofo dal cui libro *Una teoria della giustizia* (1971) prende nome la [[teoria-della-giustizia|teoria della giustizia]]. Segna tre svolte: dalla metaetica all'etica normativa, dall'etica sostanziale a quella procedurale, dall'etica utilitarista a quella deontologica. Fa scegliere i principi in una [[posizione-originaria|posizione originaria]] coperta dal velo di ignoranza: ne escono i [[principi-di-giustizia-di-rawls|due principi]]. Seguono *Liberalismo politico* (1993) e *Il diritto dei popoli* (1999). Per Barberis è quasi una settima resurrezione del diritto naturale.",
+      "pagine": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "teoria-della-giustizia",
+      "nome": "Teoria della giustizia",
+      "tipo": "concetto",
+      "alias": [
+        "teoria normativa della giustizia"
+      ],
+      "breve": "Disciplina che studia i principi e le istituzioni di una società giusta; versione odierna della ricerca del miglior regime.",
+      "definizione": "Disciplina che, a partire dall'omonimo libro di [[john-rawls|Rawls]], studia la parte della morale confinante con la politica e il diritto: i **principi normativi** e le **istituzioni** che dovrebbero caratterizzare una società giusta. È la versione odierna della ricerca del miglior regime politico propria della filosofia politica. È una teoria *normativa*, *procedurale* e *deontologica*, opposta all'utilitarismo. Anche Habermas ne elabora una, fondata sulla razionalità comunicativa.",
+      "pagine": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "posizione-originaria",
+      "nome": "Posizione originaria e velo di ignoranza",
+      "tipo": "concetto",
+      "alias": [
+        "velo di ignoranza",
+        "posizione originaria"
+      ],
+      "breve": "Lo stato di natura di Rawls: i contraenti scelgono i principi ignorando i loro futuri interessi.",
+      "definizione": "Nome con cui [[john-rawls|Rawls]] ribattezza lo [[stato-di-natura|stato di natura]]: si immagina che la società sia ancora da costruire e che gli individui scelgano imparzialmente i principi che la regoleranno. È caratterizzata dal **velo di ignoranza**: chi sceglie deve ignorare quali saranno i propri interessi nella società da costruire. Una scelta fatta così obbliga ad accordarsi sui [[principi-di-giustizia-di-rawls|due principi di giustizia]]. Ritorna nel *Diritto dei popoli*, dove contraenti sono i popoli liberali.",
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "principi-di-giustizia-di-rawls",
+      "nome": "Due principi di giustizia (Rawls)",
+      "tipo": "concetto",
+      "alias": [
+        "principio di differenza",
+        "principio dell'eguale libertà",
+        "ordine lessicografico"
+      ],
+      "breve": "Eguale libertà e principio di differenza, ordinati lessicograficamente: il secondo opera solo se è soddisfatto il primo.",
+      "definizione": "Principi su cui concorderebbero i contraenti nella [[posizione-originaria|posizione originaria]]. Il **principio dell'eguale libertà**: ogni persona ha eguale diritto al più ampio sistema di eguali libertà fondamentali. Il **principio di differenza**: le ineguaglianze economiche e sociali devono servire al maggior beneficio dei meno avvantaggiati. Li regola l'**ordine lessicografico**: il secondo opera solo quando è soddisfatto il primo, sicché lo Stato può promuovere i diritti sociali solo senza violare i diritti di libertà.",
+      "pagine": [
+        11,
+        11
+      ]
+    }
+  ],
+  "relazioni": [
+    {
+      "da": "mauro-barberis",
+      "a": "filosofia-del-diritto",
+      "tipo": "interpreta",
+      "etichetta": "ne racconta la storia in sei fasi"
+    },
+    {
+      "da": "filosofia-del-diritto-in-senso-stretto",
+      "a": "filosofia-del-diritto",
+      "tipo": "parte-di",
+      "etichetta": "è un senso di"
+    },
+    {
+      "da": "filosofia-del-diritto-in-senso-ampio",
+      "a": "filosofia-del-diritto",
+      "tipo": "parte-di",
+      "etichetta": "è un senso di"
+    },
+    {
+      "da": "filosofia-del-diritto-in-senso-stretto",
+      "a": "filosofia-del-diritto-in-senso-ampio",
+      "tipo": "evolve-in",
+      "etichetta": "confluisce nella"
+    },
+    {
+      "da": "diritto-naturale",
+      "a": "filosofia-del-diritto-in-senso-ampio",
+      "tipo": "evolve-in",
+      "etichetta": "confluisce nella"
+    },
+    {
+      "da": "giusnaturalismo",
+      "a": "diritto-naturale",
+      "tipo": "interpreta",
+      "etichetta": "è la dottrina del"
+    },
+    {
+      "da": "dikaion",
+      "a": "diritto-naturale",
+      "tipo": "collegato",
+      "etichetta": "è il termine greco per il giusto"
+    },
+    {
+      "da": "sofisti",
+      "a": "dikaion",
+      "tipo": "interpreta",
+      "etichetta": "lo riducono all'utile del più forte"
+    },
+    {
+      "da": "socrate",
+      "a": "sofisti",
+      "tipo": "contrasta",
+      "etichetta": "critica"
+    },
+    {
+      "da": "aristotele",
+      "a": "dikaion",
+      "tipo": "interpreta",
+      "etichetta": "ne distingue due significati"
+    },
+    {
+      "da": "aristotele",
+      "a": "sofisti",
+      "tipo": "contrasta",
+      "etichetta": "propone un compromesso rispetto ai"
+    },
+    {
+      "da": "ius-naturale",
+      "a": "giusnaturalismo",
+      "tipo": "parte-di",
+      "etichetta": "è la versione romana del"
+    },
+    {
+      "da": "cicerone",
+      "a": "ius-naturale",
+      "tipo": "interpreta",
+      "etichetta": "lo intende come diritto di ragione"
+    },
+    {
+      "da": "corpus-iuris-civilis",
+      "a": "ius-naturale",
+      "tipo": "testimonia",
+      "etichetta": "tramanda"
+    },
+    {
+      "da": "agostino",
+      "a": "diritto-naturale",
+      "tipo": "interpreta",
+      "etichetta": "lo pone sopra il diritto umano"
+    },
+    {
+      "da": "tommaso-d-aquino",
+      "a": "agostino",
+      "tipo": "interpreta",
+      "etichetta": "chiarisce la tesi di"
+    },
+    {
+      "da": "tommaso-d-aquino",
+      "a": "diritto-positivo",
+      "tipo": "interpreta",
+      "etichetta": "lo subordina al diritto naturale"
+    },
+    {
+      "da": "diritto-positivo",
+      "a": "diritto-naturale",
+      "tipo": "contrasta",
+      "etichetta": "si contrappone al"
+    },
+    {
+      "da": "giusnaturalismo",
+      "a": "giusrazionalismo",
+      "tipo": "evolve-in",
+      "etichetta": "diventa nella modernità"
+    },
+    {
+      "da": "modernita",
+      "a": "giusrazionalismo",
+      "tipo": "causa",
+      "etichetta": "con i suoi mutamenti produce il"
+    },
+    {
+      "da": "giusrazionalismo",
+      "a": "stato-di-natura",
+      "tipo": "crea",
+      "etichetta": "usa la nozione di"
+    },
+    {
+      "da": "stato-di-natura",
+      "a": "contrattualismo",
+      "tipo": "collegato",
+      "etichetta": "se ne esce con il contratto sociale"
+    },
+    {
+      "da": "ugo-grozio",
+      "a": "giusrazionalismo",
+      "tipo": "crea",
+      "etichetta": "inizia la corrente razionalista del"
+    },
+    {
+      "da": "samuel-pufendorf",
+      "a": "giusrazionalismo",
+      "tipo": "crea",
+      "etichetta": "inizia la corrente volontarista del"
+    },
+    {
+      "da": "thomas-hobbes",
+      "a": "samuel-pufendorf",
+      "tipo": "influenza",
+      "etichetta": "influenza fortemente"
+    },
+    {
+      "da": "thomas-hobbes",
+      "a": "ugo-grozio",
+      "tipo": "contrasta",
+      "etichetta": "al razionalismo oppone la volontà del sovrano"
+    },
+    {
+      "da": "samuel-pufendorf",
+      "a": "stato-di-natura",
+      "tipo": "interpreta",
+      "etichetta": "lo oppone allo stato civile"
+    },
+    {
+      "da": "giusrazionalismo",
+      "a": "illuminismo-giuridico",
+      "tipo": "evolve-in",
+      "etichetta": "è divulgato dal"
+    },
+    {
+      "da": "illuminismo-giuridico",
+      "a": "particolarismo-giuridico",
+      "tipo": "contrasta",
+      "etichetta": "combatte"
+    },
+    {
+      "da": "cesare-beccaria",
+      "a": "illuminismo-giuridico",
+      "tipo": "parte-di",
+      "etichetta": "è un autore del"
+    },
+    {
+      "da": "cesare-beccaria",
+      "a": "codificazione",
+      "tipo": "influenza",
+      "etichetta": "chiede"
+    },
+    {
+      "da": "rousseau",
+      "a": "contrattualismo",
+      "tipo": "interpreta",
+      "etichetta": "ne fa il fondamento della sovranità popolare"
+    },
+    {
+      "da": "rousseau",
+      "a": "illuminismo-giuridico",
+      "tipo": "parte-di",
+      "etichetta": "è la voce più radicale del"
+    },
+    {
+      "da": "dichiarazione-dei-diritti-dell-uomo-e-del-cittadino",
+      "a": "giusrazionalismo",
+      "tipo": "testimonia",
+      "etichetta": "documenta le radici giusrazionaliste della Rivoluzione"
+    },
+    {
+      "da": "illuminismo-giuridico",
+      "a": "codificazione",
+      "tipo": "causa",
+      "etichetta": "ha come esito"
+    },
+    {
+      "da": "codice-napoleone",
+      "a": "codificazione",
+      "tipo": "esempio-di",
+      "etichetta": "è il modello per antonomasia di"
+    },
+    {
+      "da": "codice-napoleone",
+      "a": "particolarismo-giuridico",
+      "tipo": "supera",
+      "etichetta": "abolisce"
+    },
+    {
+      "da": "refere-legislatif",
+      "a": "codificazione",
+      "tipo": "collegato",
+      "etichetta": "precede il codice nel combattere la interpretatio"
+    },
+    {
+      "da": "codificazione",
+      "a": "giuspositivismo-tecnico",
+      "tipo": "causa",
+      "etichetta": "produce"
+    },
+    {
+      "da": "giusrazionalismo",
+      "a": "giuspositivismo-teorico",
+      "tipo": "causa",
+      "etichetta": "produce nei paesi senza codice"
+    },
+    {
+      "da": "giuspositivismo-tecnico",
+      "a": "giuspositivismo",
+      "tipo": "parte-di",
+      "etichetta": "è una forma di"
+    },
+    {
+      "da": "giuspositivismo-teorico",
+      "a": "giuspositivismo",
+      "tipo": "parte-di",
+      "etichetta": "è una forma di"
+    },
+    {
+      "da": "scuola-dell-esegesi",
+      "a": "giuspositivismo-tecnico",
+      "tipo": "esempio-di",
+      "etichetta": "pratica"
+    },
+    {
+      "da": "scuola-dell-esegesi",
+      "a": "codice-napoleone",
+      "tipo": "interpreta",
+      "etichetta": "commenta"
+    },
+    {
+      "da": "giuspositivismo",
+      "a": "diritto-naturale",
+      "tipo": "contrasta",
+      "etichetta": "nega la giuridicità del"
+    },
+    {
+      "da": "neogiusnaturalismo",
+      "a": "giuspositivismo",
+      "tipo": "contrasta",
+      "etichetta": "critica"
+    },
+    {
+      "da": "neogiusnaturalismo",
+      "a": "diritto-naturale",
+      "tipo": "evolve-in",
+      "etichetta": "fa risorgere"
+    },
+    {
+      "da": "francois-geny",
+      "a": "neogiusnaturalismo",
+      "tipo": "parte-di",
+      "etichetta": "apre la prima resurrezione"
+    },
+    {
+      "da": "francois-geny",
+      "a": "scuola-dell-esegesi",
+      "tipo": "contrasta",
+      "etichetta": "ne critica il culto del codice"
+    },
+    {
+      "da": "francois-geny",
+      "a": "natura-della-cosa",
+      "tipo": "interpreta",
+      "etichetta": "la usa nella libera ricerca scientifica"
+    },
+    {
+      "da": "gustav-radbruch",
+      "a": "natura-della-cosa",
+      "tipo": "interpreta",
+      "etichetta": "la riscopre come convenzione sociale"
+    },
+    {
+      "da": "gustav-radbruch",
+      "a": "diritto-sovralegale",
+      "tipo": "crea",
+      "etichetta": "afferma"
+    },
+    {
+      "da": "diritto-sovralegale",
+      "a": "giuspositivismo",
+      "tipo": "contrasta",
+      "etichetta": "smentisce il motto «la legge è legge» del"
+    },
+    {
+      "da": "lon-fuller",
+      "a": "hart",
+      "tipo": "contrasta",
+      "etichetta": "polemizza con"
+    },
+    {
+      "da": "lon-fuller",
+      "a": "morale-interna-del-diritto",
+      "tipo": "crea",
+      "etichetta": "elabora"
+    },
+    {
+      "da": "morale-interna-del-diritto",
+      "a": "neogiusnaturalismo",
+      "tipo": "parte-di",
+      "etichetta": "è la versione procedurale del"
+    },
+    {
+      "da": "john-finnis",
+      "a": "neogiusnaturalismo",
+      "tipo": "parte-di",
+      "etichetta": "rappresenta la quinta resurrezione"
+    },
+    {
+      "da": "john-finnis",
+      "a": "diritto-positivo",
+      "tipo": "interpreta",
+      "etichetta": "ne afferma la presunzione di obbligatorietà"
+    },
+    {
+      "da": "john-rawls",
+      "a": "teoria-della-giustizia",
+      "tipo": "crea",
+      "etichetta": "fonda"
+    },
+    {
+      "da": "john-rawls",
+      "a": "posizione-originaria",
+      "tipo": "crea",
+      "etichetta": "immagina"
+    },
+    {
+      "da": "posizione-originaria",
+      "a": "stato-di-natura",
+      "tipo": "interpreta",
+      "etichetta": "ribattezza"
+    },
+    {
+      "da": "posizione-originaria",
+      "a": "principi-di-giustizia-di-rawls",
+      "tipo": "causa",
+      "etichetta": "porta a scegliere i"
+    },
+    {
+      "da": "teoria-della-giustizia",
+      "a": "contrattualismo",
+      "tipo": "interpreta",
+      "etichetta": "riprende come procedura di scelta"
+    },
+    {
+      "da": "teoria-della-giustizia",
+      "a": "neogiusnaturalismo",
+      "tipo": "collegato",
+      "etichetta": "è quasi una settima resurrezione"
+    },
+    {
+      "da": "principi-di-giustizia-di-rawls",
+      "a": "teoria-della-giustizia",
+      "tipo": "parte-di",
+      "etichetta": "sono il nucleo della"
+    },
+    {
+      "da": "corpus-iuris-civilis",
+      "a": "modernita",
+      "tipo": "influenza",
+      "etichetta": "diventa il diritto comune della"
+    }
+  ],
+  "eventi": [
+    {
+      "id": "ev-giusnaturalismo-antico",
+      "anno": -450,
+      "annoFine": -401,
+      "approssimato": true,
+      "data": "V secolo a.C.",
+      "titolo": "Atene: nasce la riflessione sul diritto naturale",
+      "descrizione": "Il giusnaturalismo antico comincia nell'Atene del V secolo a.C., come risposta ai sofisti e alla crisi dei valori tradizionali.",
+      "tipo": "periodo",
+      "concetti": [
+        "giusnaturalismo",
+        "sofisti",
+        "dikaion"
+      ],
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ev-modernita",
+      "anno": 1492,
+      "annoFine": 1789,
+      "data": "1492–1789",
+      "titolo": "La modernità",
+      "descrizione": "Dalla scoperta dell'America alla Rivoluzione francese: l'epoca del giusrazionalismo moderno.",
+      "tipo": "periodo",
+      "concetti": [
+        "modernita",
+        "giusrazionalismo"
+      ],
+      "pagine": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "ev-ugo-grozio",
+      "anno": 1625,
+      "data": "1625",
+      "titolo": "Grozio, Il diritto della guerra e della pace",
+      "descrizione": "Il trattato, scritto nell'esilio parigino, avvia la corrente razionalista del giusrazionalismo.",
+      "tipo": "opera",
+      "concetti": [
+        "ugo-grozio",
+        "giusrazionalismo"
+      ],
+      "pagine": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "ev-rousseau-contratto-sociale",
+      "anno": 1762,
+      "data": "1762",
+      "titolo": "Rousseau, Il contratto sociale",
+      "descrizione": "Sovrano è il popolo e la democrazia può essere solo diretta.",
+      "tipo": "opera",
+      "concetti": [
+        "rousseau",
+        "contrattualismo"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "ev-cesare-beccaria",
+      "anno": 1764,
+      "data": "1764",
+      "titolo": "Beccaria, Dei delitti e delle pene",
+      "descrizione": "Chiede la codificazione e l'abolizione della pena di morte e della tortura.",
+      "tipo": "opera",
+      "concetti": [
+        "cesare-beccaria",
+        "illuminismo-giuridico"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "ev-dichiarazione-dei-diritti-dell-uomo-e-del-cittadino",
+      "anno": 1789,
+      "data": "1789",
+      "titolo": "Dichiarazione dei diritti dell'uomo e del cittadino",
+      "descrizione": "Il testo rivoluzionario pretende di chiarire i diritti naturali dell'uomo in generale.",
+      "tipo": "legge",
+      "concetti": [
+        "dichiarazione-dei-diritti-dell-uomo-e-del-cittadino"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "ev-codice-prussiano",
+      "anno": 1794,
+      "data": "1794",
+      "titolo": "Diritto territoriale generale prussiano",
+      "descrizione": "Primo dei tre grandi codici: conserva le distinzioni di ceto e il ricorso al diritto naturale.",
+      "tipo": "codificazione",
+      "concetti": [
+        "codificazione"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "ev-codice-napoleone",
+      "anno": 1804,
+      "data": "1804",
+      "titolo": "Code Napoléon",
+      "descrizione": "Il codice civile francese, codice per antonomasia: abolisce il particolarismo giuridico.",
+      "tipo": "codificazione",
+      "concetti": [
+        "codice-napoleone",
+        "codificazione",
+        "particolarismo-giuridico"
+      ],
+      "pagine": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "ev-codice-austriaco",
+      "anno": 1811,
+      "data": "1811",
+      "titolo": "Codice civile generale austriaco",
+      "descrizione": "Fatto redigere dall'imperatore d'Austria, si riallaccia alla tradizione.",
+      "tipo": "codificazione",
+      "concetti": [
+        "codificazione"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "ev-john-rawls",
+      "anno": 1971,
+      "data": "1971",
+      "titolo": "Rawls, Una teoria della giustizia",
+      "descrizione": "Posizione originaria, velo di ignoranza e due principi di giustizia: nasce la teoria della giustizia.",
+      "tipo": "opera",
+      "concetti": [
+        "john-rawls",
+        "teoria-della-giustizia",
+        "posizione-originaria"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "ev-rawls-liberalismo-politico",
+      "anno": 1993,
+      "data": "1993",
+      "titolo": "Rawls, Liberalismo politico",
+      "descrizione": "La teoria è riformulata per società in cui convivono concezioni diverse del bene.",
+      "tipo": "opera",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "ev-rawls-diritto-dei-popoli",
+      "anno": 1999,
+      "data": "1999",
+      "titolo": "Rawls, Il diritto dei popoli",
+      "descrizione": "La teoria della giustizia è estesa alle relazioni internazionali: otto principi di giustizia globale.",
+      "tipo": "opera",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        11,
+        12
+      ]
+    }
+  ],
+  "mappa": {
+    "testo": "Il diritto naturale",
+    "figli": [
+      {
+        "testo": "Filosofia del diritto",
+        "concetto": "filosofia-del-diritto",
+        "figli": [
+          {
+            "testo": "in senso stretto",
+            "concetto": "filosofia-del-diritto-in-senso-stretto",
+            "nota": "filosofia generale applicata al diritto"
+          },
+          {
+            "testo": "in senso ampio",
+            "concetto": "filosofia-del-diritto-in-senso-ampio",
+            "nota": "vi confluiscono cinque materie"
+          },
+          {
+            "testo": "Sei fasi, sei problemi",
+            "nota": "giustizia, definizione, norma, sistema, società, interpretazione"
+          }
+        ]
+      },
+      {
+        "testo": "Giusnaturalismo antico",
+        "concetto": "giusnaturalismo",
+        "figli": [
+          {
+            "testo": "greco",
+            "nota": "contro i sofisti",
+            "figli": [
+              {
+                "testo": "Sofisti: utile del più forte",
+                "concetto": "sofisti"
+              },
+              {
+                "testo": "Aristotele: per legge / per natura",
+                "concetto": "aristotele"
+              }
+            ]
+          },
+          {
+            "testo": "romano",
+            "concetto": "ius-naturale",
+            "nota": "giuristi naturalisti, Cicerone razionalista"
+          },
+          {
+            "testo": "cristiano",
+            "nota": "diritto naturale superiore al positivo",
+            "figli": [
+              {
+                "testo": "Agostino",
+                "concetto": "agostino"
+              },
+              {
+                "testo": "Tommaso: quattro diritti",
+                "concetto": "tommaso-d-aquino"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "testo": "Giusrazionalismo moderno",
+        "concetto": "giusrazionalismo",
+        "figli": [
+          {
+            "testo": "Quattro mutamenti",
+            "concetto": "modernita",
+            "nota": "scoperte, Riforma, Stati, scienza"
+          },
+          {
+            "testo": "Stato di natura e contratto",
+            "concetto": "contrattualismo"
+          },
+          {
+            "testo": "Razionalisti: Grozio",
+            "concetto": "ugo-grozio"
+          },
+          {
+            "testo": "Volontaristi: Hobbes, Pufendorf",
+            "concetto": "samuel-pufendorf"
+          },
+          {
+            "testo": "Illuminismo giuridico",
+            "concetto": "illuminismo-giuridico",
+            "nota": "Voltaire, Beccaria, Rousseau"
+          }
+        ]
+      },
+      {
+        "testo": "Codificazione",
+        "concetto": "codificazione",
+        "figli": [
+          {
+            "testo": "Code Napoléon 1804",
+            "concetto": "codice-napoleone",
+            "nota": "fine del particolarismo giuridico"
+          },
+          {
+            "testo": "Giuspositivismo tecnico",
+            "concetto": "giuspositivismo-tecnico",
+            "nota": "Francia, Scuola dell'esegesi"
+          },
+          {
+            "testo": "Giuspositivismo teorico",
+            "concetto": "giuspositivismo-teorico",
+            "nota": "Inghilterra e Germania"
+          }
+        ]
+      },
+      {
+        "testo": "Neogiusnaturalismi",
+        "concetto": "neogiusnaturalismo",
+        "figli": [
+          {
+            "testo": "Gény: libera ricerca scientifica",
+            "concetto": "francois-geny"
+          },
+          {
+            "testo": "Natura delle cose",
+            "concetto": "natura-della-cosa"
+          },
+          {
+            "testo": "Radbruch: diritto sovralegale",
+            "concetto": "diritto-sovralegale"
+          },
+          {
+            "testo": "Fuller: morale interna",
+            "concetto": "morale-interna-del-diritto"
+          },
+          {
+            "testo": "Finnis: casi esemplari",
+            "concetto": "john-finnis"
+          },
+          {
+            "testo": "Neocostituzionalismo",
+            "nota": "principi costituzionali"
+          }
+        ]
+      },
+      {
+        "testo": "Teoria della giustizia",
+        "concetto": "teoria-della-giustizia",
+        "figli": [
+          {
+            "testo": "Rawls: tre svolte",
+            "concetto": "john-rawls"
+          },
+          {
+            "testo": "Posizione originaria",
+            "concetto": "posizione-originaria",
+            "nota": "velo di ignoranza"
+          },
+          {
+            "testo": "Due principi",
+            "concetto": "principi-di-giustizia-di-rawls",
+            "nota": "eguale libertà, differenza"
+          }
+        ]
+      }
+    ]
+  },
+  "domande": [
+    {
+      "id": "u01-q001",
+      "tipo": "flashcard",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "domanda": "Quali sono i due sensi di «filosofia del diritto» distinti da Barberis?",
+      "risposta": "In senso stretto è la materia filosofica nata nelle università dell'Ottocento, che si limita ad applicare al diritto una filosofia generale, spesso l'idealismo. In senso ampio è una materia più giuridica, nata nel Novecento dall'incontro fra la filosofia del diritto in senso stretto e diritto naturale, jurisprudence, teoria generale e sociologia del diritto.",
+      "concetti": [
+        "filosofia-del-diritto",
+        "filosofia-del-diritto-in-senso-stretto",
+        "filosofia-del-diritto-in-senso-ampio"
+      ],
+      "pagine": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "u01-q002",
+      "tipo": "flashcard",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "domanda": "Quali sono le sei fasi della filosofia del diritto secondo Barberis?",
+      "risposta": "Diritto naturale; filosofia del diritto in senso stretto; jurisprudence; teoria generale del diritto; sociologia del diritto; filosofia del diritto in senso ampio. A ogni fase corrisponde un problema: giustizia, definizione del diritto, norma, sistema, rapporto fra diritto e società, interpretazione e ragionamento giuridico.",
+      "concetti": [
+        "filosofia-del-diritto",
+        "mauro-barberis"
+      ],
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "u01-q003",
+      "tipo": "flashcard",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "domanda": "Quale problema si pone per la prima volta la filosofia del diritto in senso stretto?",
+      "risposta": "Il problema della definizione del diritto: individuare ciò che lo distingue dall'etica e dalla morale. In questa fase, fra la fine del Settecento e la metà del Novecento, il diritto naturale viene qualificato come semplice riflessione sul diritto.",
+      "concetti": [
+        "filosofia-del-diritto-in-senso-stretto"
+      ],
+      "pagine": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "u01-q004",
+      "tipo": "flashcard",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "domanda": "Come si risolve, nella fase della teoria generale del diritto, il problema di distinguere le norme giuridiche da quelle non giuridiche?",
+      "risposta": "Non considerando le norme isolatamente, ma nelle loro relazioni reciproche, anche dal punto di vista formale: per questo si parla di ordinamenti o sistemi normativi, di cui si studiano unità, coerenza e completezza.",
+      "concetti": [
+        "filosofia-del-diritto"
+      ],
+      "pagine": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "u01-q005",
+      "tipo": "flashcard",
+      "lezione": "u01-l1",
+      "livello": "avanzato",
+      "domanda": "Che soluzione riceve il problema del sistema giuridico nella filosofia del diritto in senso ampio?",
+      "risposta": "Una soluzione strettamente giuridica: il sistema è il prodotto dell'attività della dottrina, attività che rientra nel ragionamento giuridico. È la fase in cui tutte le materie precedenti confluiscono in un'unica disciplina centrata su interpretazione e ragionamento.",
+      "concetti": [
+        "filosofia-del-diritto-in-senso-ampio"
+      ],
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "u01-q006",
+      "tipo": "multipla",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "domanda": "Da quale problema parte la riflessione nella prima fase, quella del diritto naturale?",
+      "opzioni": [
+        "Dalla definizione del diritto",
+        "Dalla giustizia",
+        "Dalla norma giuridica",
+        "Dal sistema giuridico"
+      ],
+      "corretta": 1,
+      "spiegazione": "Nell'Atene del V secolo a.C. diritto e morale sono indicati con lo stesso termine, dikaion: la riflessione parte dalla giustizia. La definizione del diritto è il problema della seconda fase, la norma della terza, il sistema della quarta.",
+      "concetti": [
+        "diritto-naturale",
+        "dikaion"
+      ],
+      "pagine": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "u01-q007",
+      "tipo": "multipla",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "domanda": "In quale fase il problema affrontato è il rapporto fra sistema giuridico e sistema sociale?",
+      "opzioni": [
+        "Jurisprudence",
+        "Teoria generale del diritto",
+        "Sociologia del diritto",
+        "Filosofia del diritto in senso stretto"
+      ],
+      "corretta": 2,
+      "spiegazione": "È la quinta fase: inizia nell'Ottocento ma riguarda la seconda metà del Novecento. La jurisprudence si occupa della norma, la teoria generale del sistema, la filosofia in senso stretto della definizione del diritto.",
+      "concetti": [
+        "filosofia-del-diritto"
+      ],
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "u01-q008",
+      "tipo": "multipla",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "domanda": "La filosofia del diritto in senso stretto applica al diritto una filosofia generale, identificata spesso:",
+      "opzioni": [
+        "nell'utilitarismo",
+        "nell'idealismo",
+        "nel positivismo filosofico",
+        "nel neopositivismo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Barberis dice che la materia nata nelle università dell'Ottocento si limita ad applicare al diritto una filosofia generale, spesso l'idealismo.",
+      "concetti": [
+        "filosofia-del-diritto-in-senso-stretto"
+      ],
+      "pagine": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "u01-q009",
+      "tipo": "verofalso",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "affermazione": "Con le codificazioni del Sette e dell'Ottocento il positivismo giuridico nega al diritto naturale la natura di autentico diritto.",
+      "vero": true,
+      "spiegazione": "Vero: è la crisi più grave del diritto naturale, che entra in difficoltà soprattutto con le codificazioni.",
+      "concetti": [
+        "diritto-naturale",
+        "codificazione",
+        "giuspositivismo"
+      ],
+      "pagine": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "u01-q010",
+      "tipo": "verofalso",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "affermazione": "La filosofia del diritto in senso ampio riguarda soprattutto l'Ottocento.",
+      "vero": false,
+      "spiegazione": "Falso: interessa gli ultimi trent'anni, durante i quali si riflette sull'interpretazione e sul ragionamento giuridico. Ottocentesca è la filosofia del diritto in senso stretto.",
+      "concetti": [
+        "filosofia-del-diritto-in-senso-ampio"
+      ],
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "u01-q011",
+      "tipo": "verofalso",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "affermazione": "Per Barberis la sociologia del diritto, almeno quando elabora teorie macrosociologiche, può considerarsi una versione della filosofia del diritto.",
+      "vero": true,
+      "spiegazione": "Vero: i sociologi fanno ricerche particolari (microsociologiche) e teorie più generali (macrosociologiche); almeno queste ultime sono una versione della filosofia del diritto.",
+      "concetti": [
+        "filosofia-del-diritto"
+      ],
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "u01-q012",
+      "tipo": "completa",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "testo": "La prima fase comincia nell'Atene del {{V}} secolo a.C.: diritto e morale sono indicati con lo stesso termine, {{dikaion}}, e la filosofia del diritto prende il nome di {{giusnaturalismo}}.",
+      "concetti": [
+        "dikaion",
+        "giusnaturalismo"
+      ],
+      "pagine": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "u01-q013",
+      "tipo": "completa",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "testo": "La terza fase, dalla metà dell'Ottocento alla metà del Novecento, affronta il problema della {{norma}} giuridica e prende il nome inglese di {{jurisprudence}}.",
+      "concetti": [
+        "filosofia-del-diritto"
+      ],
+      "pagine": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "u01-q014",
+      "tipo": "aperta",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "domanda": "Illustri i due sensi di «filosofia del diritto» e le sei fasi in cui Barberis ne divide la storia.",
+      "traccia": "Barberis distingue la filosofia del diritto **in senso stretto**, materia filosofica e universitaria dell'Ottocento che applica al diritto una filosofia generale (spesso l'idealismo), e **in senso ampio**, materia più giuridica del Novecento che analizza il linguaggio giuridico e i presupposti conoscitivi e normativi del lavoro del giurista. La storia ha sei fasi, ognuna con un problema e un nome: 1) **diritto naturale**, dall'Atene del V secolo a.C. al Settecento, problema della *giustizia*; 2) **filosofia del diritto in senso stretto**, fra fine Settecento e metà Novecento, *definizione del diritto*; 3) ***jurisprudence***, la *norma*; 4) **teoria generale del diritto**, il *sistema* (unità, coerenza, completezza); 5) **sociologia del diritto**, rapporti fra *diritto e società*; 6) **filosofia del diritto in senso ampio**, negli ultimi trent'anni, *interpretazione e ragionamento giuridico*: qui tutte le materie precedenti confluiscono in un'unica disciplina.",
+      "punti": [
+        {
+          "testo": "senso stretto: filosofia generale applicata al diritto, Ottocento",
+          "chiavi": [
+            "stretto",
+            "idealism",
+            "applica"
+          ]
+        },
+        {
+          "testo": "senso ampio: materia giuridica in cui confluiscono più discipline",
+          "chiavi": [
+            "ampio",
+            "conflu",
+            "linguaggio"
+          ]
+        },
+        {
+          "testo": "le sei fasi nell'ordine",
+          "chiavi": [
+            "naturale",
+            "jurisprudence",
+            "teoria generale",
+            "sociologia"
+          ]
+        },
+        {
+          "testo": "a ogni fase un problema: giustizia, definizione, norma, sistema, società, interpretazione",
+          "chiavi": [
+            "giustizia",
+            "definizione",
+            "norma",
+            "sistema",
+            "interpretazione"
+          ]
+        }
+      ],
+      "concetti": [
+        "filosofia-del-diritto",
+        "filosofia-del-diritto-in-senso-stretto",
+        "filosofia-del-diritto-in-senso-ampio"
+      ],
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "u01-q015",
+      "tipo": "ordina",
+      "lezione": "u01-l1",
+      "livello": "base",
+      "consegna": "Metti in ordine le sei fasi della filosofia del diritto secondo Barberis.",
+      "elementi": [
+        "Diritto naturale",
+        "Filosofia del diritto in senso stretto",
+        "Jurisprudence",
+        "Teoria generale del diritto",
+        "Sociologia del diritto",
+        "Filosofia del diritto in senso ampio"
+      ],
+      "spiegazione": "È l'ordine della prefazione; i problemi corrispondenti sono giustizia, definizione del diritto, norma, sistema, rapporto diritto-società, interpretazione e ragionamento.",
+      "concetti": [
+        "filosofia-del-diritto"
+      ],
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "u01-q016",
+      "tipo": "abbina",
+      "lezione": "u01-l1",
+      "livello": "medio",
+      "consegna": "Abbina ogni fase al problema che affronta.",
+      "coppie": [
+        [
+          "Diritto naturale",
+          "la giustizia"
+        ],
+        [
+          "Filosofia del diritto in senso stretto",
+          "la definizione del diritto"
+        ],
+        [
+          "Jurisprudence",
+          "la norma giuridica"
+        ],
+        [
+          "Teoria generale del diritto",
+          "il sistema giuridico"
+        ],
+        [
+          "Sociologia del diritto",
+          "sistema giuridico e sistema sociale"
+        ],
+        [
+          "Filosofia del diritto in senso ampio",
+          "interpretazione e ragionamento"
+        ]
+      ],
+      "concetti": [
+        "filosofia-del-diritto"
+      ],
+      "pagine": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "u01-q017",
+      "tipo": "flashcard",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "domanda": "Che cosa sostengono i sofisti sul giusto e come valuta Barberis la loro tesi?",
+      "risposta": "Per i sofisti il giusto (dikaion) è l'utile del più forte e può ridursi alla legge imposta dal potere politico. La tesi è accoglibile se dikaion indica il diritto positivo; è criticabile se indica la giustizia, che deriverebbe dalla forza e sarebbe inutile, perché ha senso solo se serve a controllare il potere.",
+      "concetti": [
+        "sofisti",
+        "dikaion"
+      ],
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "u01-q018",
+      "tipo": "flashcard",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "domanda": "Quale soluzione propone Aristotele nell'Etica Nicomachea?",
+      "risposta": "Un compromesso fra le posizioni dei sofisti e quelle tradizionali: riconosce il duplice significato di dikaion, «giusto per legge» e «giusto per natura», e sostiene la mutabilità del primo contro l'immutabilità del secondo.",
+      "concetti": [
+        "aristotele",
+        "dikaion"
+      ],
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "u01-q019",
+      "tipo": "flashcard",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "domanda": "In che cosa la concezione del diritto naturale dei giuristi romani differisce da quella di Cicerone?",
+      "risposta": "I giuristi hanno una concezione naturalista e pratica: il diritto naturale è l'insieme delle regole che la natura insegna a tutti gli animali, uomini compresi. Cicerone ne ha una razionalista: lo ius naturale è un diritto di ragione, uguale nello spazio e nel tempo, immutabile ed eterno.",
+      "concetti": [
+        "ius-naturale",
+        "cicerone"
+      ],
+      "pagine": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "u01-q020",
+      "tipo": "flashcard",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "domanda": "Di quali parti consta il Corpus Iuris Civilis?",
+      "risposta": "Di quattro parti: il Codice, che raccoglie le leggi imperiali; le Novelle, cioè le costituzioni emanate dopo il Codice; le Istituzioni, manuale per l'insegnamento del diritto; il Digesto, che raccoglie frammenti della dottrina romana. Perduto nel medioevo, fu riscoperto a Bologna dopo l'anno Mille.",
+      "concetti": [
+        "corpus-iuris-civilis"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q021",
+      "tipo": "flashcard",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "domanda": "Quali tipi di diritto distingue Tommaso d'Aquino?",
+      "risposta": "Quattro: eterno (la legge della Provvidenza divina che regola il creato), divino (la volontà di Dio rivelata nelle Scritture), naturale (i precetti della ragione divina conosciuti dalla ragione umana), positivo (i precetti dettati dal legislatore per il bene comune).",
+      "concetti": [
+        "tommaso-d-aquino",
+        "diritto-positivo"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q022",
+      "tipo": "flashcard",
+      "lezione": "u01-l2",
+      "livello": "avanzato",
+      "domanda": "In quali due modi, per Tommaso, il diritto positivo discende dal diritto naturale?",
+      "risposta": "Per via di determinazione: da un diritto naturale generico il legislatore ricava un diritto positivo più specifico. Per via di conclusione: da un diritto naturale generale il legislatore deduce un diritto positivo particolare. Se non si conforma al naturale, il diritto positivo non è più autentico diritto.",
+      "concetti": [
+        "tommaso-d-aquino",
+        "diritto-positivo",
+        "diritto-naturale"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q023",
+      "tipo": "multipla",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "domanda": "Chi sostiene che la legge contrastante con la volontà divina non è legge?",
+      "opzioni": [
+        "Cicerone",
+        "Agostino d'Ippona",
+        "Aristotele",
+        "Giustiniano"
+      ],
+      "corretta": 1,
+      "spiegazione": "È Agostino, uno dei Padri della Chiesa; il senso della tesi sarà chiarito da Tommaso d'Aquino con la subordinazione del diritto positivo a quello naturale.",
+      "concetti": [
+        "agostino"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q024",
+      "tipo": "multipla",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "domanda": "Per i giuristi romani il diritto delle genti:",
+      "opzioni": [
+        "è comune a tutti gli animali",
+        "è comune a tutti gli uomini ma non agli animali",
+        "riguarda i soli cittadini romani",
+        "coincide con le costituzioni imperiali"
+      ],
+      "corretta": 1,
+      "spiegazione": "Il diritto delle genti si considera in qualche misura naturale perché comune a tutti gli uomini, ma non agli animali; il diritto civile riguarda i soli cittadini romani.",
+      "concetti": [
+        "ius-naturale"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q025",
+      "tipo": "multipla",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "domanda": "Come interpreta Socrate la tesi dei sofisti?",
+      "opzioni": [
+        "Come riferita al diritto positivo, e l'accetta",
+        "Come riferita alla giustizia, e la giudica insostenibile",
+        "Come una difesa del giusto per natura",
+        "Come un compromesso fra legge e natura"
+      ],
+      "corretta": 1,
+      "spiegazione": "Socrate la intende come se riguardasse la giustizia e non il diritto positivo, e ne trae la conclusione della sua insostenibilità. Il compromesso è di Aristotele.",
+      "concetti": [
+        "socrate",
+        "sofisti"
+      ],
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "u01-q026",
+      "tipo": "verofalso",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "affermazione": "Lo ius dei romani, pur distinto nelle parole da iustitia, mos e fas, resta legato alla morale e alla religione.",
+      "vero": true,
+      "spiegazione": "Vero: il distacco è solo terminologico, perché lo ius deriva dai mores maiorum e regola anche le istituzioni religiose.",
+      "concetti": [
+        "giusnaturalismo",
+        "ius-naturale"
+      ],
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "u01-q027",
+      "tipo": "verofalso",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "affermazione": "Per Tommaso il diritto naturale è la volontà di Dio rivelata nelle Scritture.",
+      "vero": false,
+      "spiegazione": "Falso: quello è il diritto divino. Il diritto naturale è costituito dai precetti della ragione divina conosciuti dalla ragione umana.",
+      "concetti": [
+        "tommaso-d-aquino"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q028",
+      "tipo": "verofalso",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "affermazione": "Barberis ritiene la tesi dei sofisti inaccettabile anche se riferita al diritto positivo.",
+      "vero": false,
+      "spiegazione": "Falso: la tesi è accoglibile se per dikaion si intende il diritto positivo; è criticabile solo se gli si dà il significato di giustizia.",
+      "concetti": [
+        "sofisti",
+        "diritto-positivo"
+      ],
+      "pagine": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "u01-q029",
+      "tipo": "completa",
+      "lezione": "u01-l2",
+      "livello": "base",
+      "testo": "Per Tommaso i precetti del diritto naturale derivano dal principio «fa' e persegui il {{bene}} ed evita il {{male}}».",
+      "concetti": [
+        "tommaso-d-aquino",
+        "diritto-naturale"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q030",
+      "tipo": "completa",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "testo": "Il Corpus Iuris Civilis di {{Giustiniano}}, perduto nel medioevo, fu riscoperto dopo l'anno Mille a {{Bologna}}.",
+      "concetti": [
+        "corpus-iuris-civilis"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q031",
+      "tipo": "aperta",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "domanda": "Esponga le tre forme del giusnaturalismo antico: greco, romano e cristiano.",
+      "traccia": "Il giusnaturalismo antico nasce nell'Atene del V secolo a.C. come riflessione sulla crisi dei valori tradizionali. Quello **greco** risponde ai **sofisti**, per i quali il giusto è l'utile del più forte: tesi accettabile per il diritto positivo, non per la giustizia, che serve a controllare il potere. Socrate la respinge; **Aristotele** distingue il giusto per legge, mutevole, dal giusto per natura, immutabile. Quello **romano** si deve a un ceto di giuristi: nel Digesto il diritto naturale è ciò che la natura insegna a tutti gli animali (concezione naturalista), mentre **Cicerone** ne fa un diritto di ragione, eterno (concezione razionalista); accanto stanno diritto delle genti e diritto civile. Quello **cristiano** rovescia i rapporti: il diritto naturale, ricondotto a Dio, è superiore al positivo. Per **Agostino** la legge contraria alla volontà divina non è legge; **Tommaso** distingue diritto eterno, divino, naturale e positivo e fa derivare il positivo dal naturale per determinazione o per conclusione.",
+      "punti": [
+        {
+          "testo": "greco: risposta ai sofisti (utile del più forte); Aristotele: giusto per legge e per natura",
+          "chiavi": [
+            "sofist",
+            "più forte",
+            "aristotel"
+          ]
+        },
+        {
+          "testo": "romano: giuristi naturalisti (Digesto), Cicerone razionalista",
+          "chiavi": [
+            "animali",
+            "cicerone",
+            "ragione",
+            "digesto"
+          ]
+        },
+        {
+          "testo": "cristiano: diritto naturale superiore al positivo; Agostino",
+          "chiavi": [
+            "superiore",
+            "agostin",
+            "non è legge"
+          ]
+        },
+        {
+          "testo": "Tommaso: quattro diritti; determinazione e conclusione",
+          "chiavi": [
+            "tommaso",
+            "eterno",
+            "determinazione",
+            "conclusione"
+          ]
+        }
+      ],
+      "concetti": [
+        "giusnaturalismo",
+        "ius-naturale",
+        "tommaso-d-aquino",
+        "agostino",
+        "sofisti"
+      ],
+      "pagine": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "u01-q032",
+      "tipo": "abbina",
+      "lezione": "u01-l2",
+      "livello": "medio",
+      "consegna": "Abbina ogni tipo di diritto distinto da Tommaso al suo contenuto.",
+      "coppie": [
+        [
+          "Diritto eterno",
+          "legge della Provvidenza che regola il creato"
+        ],
+        [
+          "Diritto divino",
+          "volontà di Dio rivelata nelle Scritture"
+        ],
+        [
+          "Diritto naturale",
+          "precetti della ragione divina conosciuti dalla ragione umana"
+        ],
+        [
+          "Diritto positivo",
+          "precetti del legislatore per il bene comune"
+        ]
+      ],
+      "concetti": [
+        "tommaso-d-aquino"
+      ],
+      "pagine": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "u01-q033",
+      "tipo": "flashcard",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "domanda": "Che cosa si intende per giusrazionalismo moderno?",
+      "risposta": "Le dottrine di diritto naturale che si sviluppano e si affermano fra Sei e Settecento: il diritto naturale viene reinterpretato come diritto razionale e insegnato nelle facoltà di filosofia e giurisprudenza. I primi manuali sono di Grozio (corrente razionalista) e di Pufendorf (corrente volontarista).",
+      "concetti": [
+        "giusrazionalismo"
+      ],
+      "pagine": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "u01-q034",
+      "tipo": "flashcard",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "domanda": "Come definisce Barberis la modernità?",
+      "risposta": "È l'epoca moderna, dalla scoperta dell'America (1492) alla Rivoluzione francese (1789), ma anche l'insieme dei modi di pensare che oppongono i moderni agli antichi.",
+      "concetti": [
+        "modernita"
+      ],
+      "pagine": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "u01-q035",
+      "tipo": "flashcard",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "domanda": "Quali sono i quattro grandi mutamenti che separano il diritto naturale moderno da quello antico?",
+      "risposta": "Le scoperte geografiche e l'incontro con i nativi americani; la Riforma protestante, che rompe l'unità religiosa e porta gli Stati a laicizzarsi; la fine dell'unità politica, con il tramonto dell'Impero e la nascita degli Stati nazionali; le scoperte scientifiche di Copernico e Newton.",
+      "concetti": [
+        "modernita",
+        "giusrazionalismo"
+      ],
+      "pagine": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "u01-q036",
+      "tipo": "flashcard",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "domanda": "Perché le scoperte geografiche cambiano il modo di ricavare il diritto naturale?",
+      "risposta": "Il diritto naturale antico era ricavato da consuetudini e leggi che sembravano comuni a tutti i popoli noti; i costumi dei nativi americani mostrano che non lo sono. Il diritto naturale va allora ricavato da principi di ragione autoevidenti, da cui dedurre tutte le conseguenze: un sistema logico-deduttivo.",
+      "concetti": [
+        "giusrazionalismo",
+        "modernita"
+      ],
+      "pagine": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "u01-q037",
+      "tipo": "flashcard",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "domanda": "Come si forma la società civile secondo i giusrazionalisti?",
+      "risposta": "In due fasi. Nello stato di natura gli individui vivono fuori da associazioni politiche ma hanno già diritti naturali; per garantirli entrano nello stato di società stipulando un contratto sociale, patto di unione fra loro e di soggezione al sovrano che difenderà i loro diritti.",
+      "concetti": [
+        "stato-di-natura",
+        "contrattualismo"
+      ],
+      "pagine": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "u01-q038",
+      "tipo": "flashcard",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "domanda": "Che cosa distingue razionalisti e volontaristi nel giusrazionalismo?",
+      "risposta": "Per i razionalisti (Grozio) il diritto vigente è già razionale di per sé e ai giuristi spetta svilupparne l'intrinseca razionalità. Per i volontaristi (Hobbes, Pufendorf) i giuristi possono fare poco senza la volontà del sovrano: solo lo Stato può trasformare in diritto vigente i sistemi di diritto razionale.",
+      "concetti": [
+        "ugo-grozio",
+        "thomas-hobbes",
+        "samuel-pufendorf"
+      ],
+      "pagine": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "u01-q039",
+      "tipo": "flashcard",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "domanda": "Che cos'è il particolarismo giuridico e a chi risultava inviso?",
+      "risposta": "È la situazione in cui nello stesso Stato vi sono fonti diverse, soggetti distinti e differenti regimi dei beni. Era accetto ai giuristi e ai ceti privilegiati, ma inviso alla borghesia, interessata alla fine dei privilegi, e al monarca assoluto, insofferente dei contropoteri di nobiltà e clero.",
+      "concetti": [
+        "illuminismo-giuridico",
+        "particolarismo-giuridico"
+      ],
+      "pagine": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "u01-q040",
+      "tipo": "multipla",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "domanda": "Su quali tre pilastri della cultura occidentale si fonda il trattato di Grozio?",
+      "opzioni": [
+        "Bibbia ebraica, filosofia greca, diritto romano",
+        "Diritto canonico, diritto romano, consuetudini germaniche",
+        "Filosofia greca, Scolastica, diritto comune",
+        "Vangeli, Digesto, Etica Nicomachea"
+      ],
+      "corretta": 0,
+      "spiegazione": "Il diritto della guerra e della pace si basa su principi tratti dalla Bibbia ebraica, dalla filosofia greca e dal diritto romano, e funge da manuale di ius naturae et gentium.",
+      "concetti": [
+        "ugo-grozio"
+      ],
+      "pagine": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "u01-q041",
+      "tipo": "multipla",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "domanda": "Per Pufendorf le leggi positive sono:",
+      "opzioni": [
+        "precetti della ragione divina",
+        "comandi sanzionati che restringono la libertà naturale senza eliminarla",
+        "convenzioni sociali mutevoli",
+        "il prodotto dello spirito del popolo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Pufendorf concepisce le leggi positive come comandi sanzionati: restringono la libertà naturale ma non possono eliminarla del tutto. Per questo, nel Settecento, altri volontaristi limitano la legge alla condotta esterna.",
+      "concetti": [
+        "samuel-pufendorf"
+      ],
+      "pagine": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "u01-q042",
+      "tipo": "multipla",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "domanda": "Chi formula nel «Contratto sociale» l'esigenza di rifondare lo Stato su basi democratiche?",
+      "opzioni": [
+        "Voltaire",
+        "Beccaria",
+        "Rousseau",
+        "Pufendorf"
+      ],
+      "corretta": 2,
+      "spiegazione": "Rousseau: sovrano assoluto non è più il monarca ma il popolo, e la democrazia può essere solo diretta e non rappresentativa.",
+      "concetti": [
+        "rousseau"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "u01-q043",
+      "tipo": "multipla",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "domanda": "Quale conseguenza giuridica ha, per Barberis, la Riforma protestante?",
+      "opzioni": [
+        "La riscoperta del Corpus Iuris",
+        "La laicizzazione degli Stati e la separazione del giusrazionalismo dal giusnaturalismo cristiano",
+        "La nascita del common law",
+        "La codificazione del diritto canonico"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le guerre di religione spingono gli Stati a diventare neutrali rispetto alla religione; la principale conseguenza giuridica è il giusrazionalismo moderno, sempre più distinto dal giusnaturalismo cristiano.",
+      "concetti": [
+        "modernita"
+      ],
+      "pagine": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "u01-q044",
+      "tipo": "verofalso",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "affermazione": "Beccaria, in «Dei delitti e delle pene», auspica l'abolizione della pena di morte e della tortura.",
+      "vero": true,
+      "spiegazione": "Vero: rifiuta inoltre le fonti tradizionali e chiede una codificazione che permetta a ognuno di conoscere i propri diritti e doveri.",
+      "concetti": [
+        "cesare-beccaria"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "u01-q045",
+      "tipo": "verofalso",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "affermazione": "L'illuminismo tedesco circola soprattutto presso l'opinione pubblica, in forma di libelli.",
+      "vero": false,
+      "spiegazione": "Falso: è quello francese a circolare così. L'illuminismo tedesco è elaborato quasi solo da professori universitari e ispira riforme dall'alto.",
+      "concetti": [
+        "illuminismo-giuridico"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "u01-q046",
+      "tipo": "verofalso",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "affermazione": "Dopo le scoperte scientifiche i giusrazionalisti rinunciano all'idea di valori oggettivi.",
+      "vero": false,
+      "spiegazione": "Falso: cercano nell'uomo e nella ragione i valori che non trovano più nella natura delle cose; restano valori oggettivi, validi per ogni essere razionale, ma incardinati nella sola ragione umana.",
+      "concetti": [
+        "giusrazionalismo"
+      ],
+      "pagine": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "u01-q047",
+      "tipo": "completa",
+      "lezione": "u01-l3",
+      "livello": "base",
+      "testo": "La modernità va dalla scoperta dell'America ({{1492}}) alla Rivoluzione francese ({{1789}}).",
+      "concetti": [
+        "modernita"
+      ],
+      "pagine": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "u01-q048",
+      "tipo": "completa",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "testo": "Le radici giusrazionaliste della Rivoluzione sono documentate nella {{Dichiarazione}} dei diritti dell'uomo e del cittadino del {{1789}}, che pretende di chiarire i diritti {{naturali}} dell'uomo in generale.",
+      "concetti": [
+        "dichiarazione-dei-diritti-dell-uomo-e-del-cittadino",
+        "giusrazionalismo"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "u01-q049",
+      "tipo": "aperta",
+      "lezione": "u01-l3",
+      "livello": "avanzato",
+      "domanda": "Spieghi come e perché, nella modernità, il diritto naturale diventa diritto razionale.",
+      "traccia": "Fra Sei e Settecento il diritto naturale è reinterpretato come **diritto razionale** (giusrazionalismo). Deve colmare le lacune e regolare i rapporti fra Stati e fra governanti e governati, compiti che il diritto naturale antico non può più svolgere per **quattro mutamenti**. Le **scoperte geografiche** mostrano che non esistono consuetudini comuni a tutti i popoli: il diritto naturale va dedotto da principi di ragione autoevidenti, come sistema logico-deduttivo. La **Riforma** rompe l'unità religiosa: gli Stati si laicizzano. La **fine dell'unità politica** fa concepire la società come ente artificiale: **stato di natura**, diritti naturali, **contratto sociale** di unione e soggezione. Le **scoperte scientifiche** spostano i valori dalla natura alla ragione umana. Ne nascono due correnti: i **razionalisti** (Grozio), per cui il diritto vigente è già razionale, e i **volontaristi** (Hobbes, Pufendorf), per cui serve la volontà del sovrano. L'**illuminismo giuridico** divulga queste idee e chiede la fine del particolarismo giuridico.",
+      "punti": [
+        {
+          "testo": "diritto naturale reinterpretato come diritto razionale, sistema logico-deduttivo",
+          "chiavi": [
+            "razionale",
+            "deduttiv",
+            "autoevident"
+          ]
+        },
+        {
+          "testo": "i quattro mutamenti",
+          "chiavi": [
+            "scoperte",
+            "riforma",
+            "stati",
+            "copernico",
+            "newton"
+          ]
+        },
+        {
+          "testo": "stato di natura e contratto sociale",
+          "chiavi": [
+            "stato di natura",
+            "contratto"
+          ]
+        },
+        {
+          "testo": "razionalisti e volontaristi",
+          "chiavi": [
+            "grozio",
+            "hobbes",
+            "pufendorf",
+            "volontà"
+          ]
+        },
+        {
+          "testo": "illuminismo giuridico e particolarismo",
+          "chiavi": [
+            "illuminism",
+            "particolarism"
+          ]
+        }
+      ],
+      "concetti": [
+        "giusrazionalismo",
+        "modernita",
+        "stato-di-natura",
+        "contrattualismo",
+        "illuminismo-giuridico"
+      ],
+      "pagine": [
+        5,
+        7
+      ]
+    },
+    {
+      "id": "u01-q050",
+      "tipo": "abbina",
+      "lezione": "u01-l3",
+      "livello": "medio",
+      "consegna": "Abbina ogni autore alla sua tesi o opera.",
+      "coppie": [
+        [
+          "Grozio",
+          "Il diritto della guerra e della pace, corrente razionalista"
+        ],
+        [
+          "Pufendorf",
+          "leggi come comandi sanzionati, corrente volontarista"
+        ],
+        [
+          "Beccaria",
+          "Dei delitti e delle pene"
+        ],
+        [
+          "Rousseau",
+          "sovranità del popolo e democrazia diretta"
+        ],
+        [
+          "Voltaire",
+          "appello ai monarchi illuminati contro il particolarismo"
+        ]
+      ],
+      "concetti": [
+        "ugo-grozio",
+        "samuel-pufendorf",
+        "cesare-beccaria",
+        "rousseau"
+      ],
+      "pagine": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "u01-q051",
+      "tipo": "flashcard",
+      "lezione": "u01-l4",
+      "livello": "base",
+      "domanda": "Che cosa si intende per codificazione?",
+      "risposta": "La redazione per iscritto del diritto di uno Stato in documenti chiamati codici, che hanno il duplice scopo di rappresentare la legislazione generale del paese e di sostituire il diritto previgente. È opera di monarchi semiassoluti e riguarda soprattutto il diritto civile e penale.",
+      "concetti": [
+        "codificazione"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "u01-q052",
+      "tipo": "flashcard",
+      "lezione": "u01-l4",
+      "livello": "base",
+      "domanda": "Quali sono i tre grandi codici sette-ottocenteschi?",
+      "risposta": "Il Diritto territoriale generale prussiano del 1794, che conserva le distinzioni di ceto e il ricorso al diritto naturale; il codice civile francese del 1804, o Code Napoléon, codice per antonomasia; il Codice civile generale austriaco del 1811, legato alla tradizione.",
+      "concetti": [
+        "codificazione",
+        "codice-napoleone"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "u01-q053",
+      "tipo": "flashcard",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "domanda": "Che cos'era il référé législatif?",
+      "risposta": "Un istituto rivoluzionario introdotto per debellare l'interpretatio: obbligava i giudici a rivolgersi al Parlamento, in caso di leggi poco chiare o lacunose, per averne un'interpretazione autentica.",
+      "concetti": [
+        "refere-legislatif"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q054",
+      "tipo": "flashcard",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "domanda": "In che senso i codici napoleonici aboliscono il particolarismo giuridico?",
+      "risposta": "La pluralità delle fonti previgenti è cancellata e sostituita dai codici; la pluralità dei soggetti è sostituita dal soggetto unico di diritto, con abolizione dei privilegi di ceto e uguaglianza formale davanti alla legge; i regimi proprietari sono soppressi a favore di un regime unico, la proprietà.",
+      "concetti": [
+        "codice-napoleone",
+        "particolarismo-giuridico"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q055",
+      "tipo": "flashcard",
+      "lezione": "u01-l4",
+      "livello": "base",
+      "domanda": "Che differenza c'è fra giuspositivismo tecnico e giuspositivismo teorico?",
+      "risposta": "Il tecnico si afferma nei paesi dei codici, soprattutto in Francia: cambiano gli atteggiamenti e le tecniche dei giuristi, che usano solo il diritto positivo. Il teorico si afferma nei paesi senza codificazione, come Inghilterra e Germania, ed è rappresentato da teorie o filosofie del diritto.",
+      "concetti": [
+        "giuspositivismo-tecnico",
+        "giuspositivismo-teorico"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q056",
+      "tipo": "flashcard",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "domanda": "Quali tipi di interpretazione pratica la Scuola dell'esegesi?",
+      "risposta": "Un'interpretazione letterale, basata sulla formulazione linguistica della norma, oppure un'interpretazione psicologica, che cerca l'intenzione del legislatore nei lavori preparatori.",
+      "concetti": [
+        "scuola-dell-esegesi"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q057",
+      "tipo": "flashcard",
+      "lezione": "u01-l4",
+      "livello": "avanzato",
+      "domanda": "Come si svolge la vicenda della codificazione in Germania e in Inghilterra?",
+      "risposta": "In Germania la Scuola filosofica chiede il codice e la Scuola storica si oppone, obiettando che il diritto è prodotto della storia e dei giuristi: il codice arriverà solo agli inizi del Novecento, più simile a un trattato dottrinale. In Inghilterra i filosofi utilitaristi lo chiedono invano: il common law non è codificato; ottengono solo l'introduzione della jurisprudence nell'istruzione giuridica.",
+      "concetti": [
+        "giuspositivismo-teorico",
+        "codificazione"
+      ],
+      "pagine": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "u01-q058",
+      "tipo": "multipla",
+      "lezione": "u01-l4",
+      "livello": "base",
+      "domanda": "In quale anno entra in vigore il codice civile francese?",
+      "opzioni": [
+        "1789",
+        "1794",
+        "1804",
+        "1811"
+      ],
+      "corretta": 2,
+      "spiegazione": "Il Code Napoléon è del 1804. Il 1794 è l'anno del codice prussiano, il 1811 di quello austriaco, il 1789 della Dichiarazione dei diritti.",
+      "concetti": [
+        "codice-napoleone"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "u01-q059",
+      "tipo": "multipla",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "domanda": "Che cosa impone ai giudici la redazione definitiva del codice, secondo la lettura dell'art. 4 del titolo preliminare?",
+      "opzioni": [
+        "Di ricorrere all'equità in caso di lacuna",
+        "Di rivolgersi al Parlamento",
+        "Di trovare sempre una soluzione all'interno del codice",
+        "Di applicare il diritto naturale"
+      ],
+      "corretta": 2,
+      "spiegazione": "Caduto il tentativo di ammettere l'equità, si impone ai giudici di trovare sempre e comunque la soluzione nel codice, al quale si attribuisce carattere di completezza: è l'avvento del giuspositivismo tecnico.",
+      "concetti": [
+        "scuola-dell-esegesi",
+        "giuspositivismo-tecnico"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q060",
+      "tipo": "multipla",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "domanda": "Come riorganizza Napoleone la formazione giuridica?",
+      "opzioni": [
+        "Affidandola alle facoltà di filosofia",
+        "Riaprendo le facoltà come scuole professionali, senza diritto naturale",
+        "Introducendo la jurisprudence",
+        "Sopprimendo le facoltà giuridiche"
+      ],
+      "corretta": 1,
+      "spiegazione": "Le facoltà, chiuse dalla Rivoluzione, riaprono come scuole professionali; il diritto naturale è escluso e il diritto positivo è insegnato in modo catechistico, nell'ordine dei codici.",
+      "concetti": [
+        "scuola-dell-esegesi"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q061",
+      "tipo": "verofalso",
+      "lezione": "u01-l4",
+      "livello": "base",
+      "affermazione": "Il Code Napoléon definisce la proprietà come «diritto di godere e disporre delle cose nella maniera più assoluta».",
+      "vero": true,
+      "spiegazione": "Vero: è il regime unico che sostituisce i diversi regimi proprietari immobiliari dell'antico regime.",
+      "concetti": [
+        "codice-napoleone"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q062",
+      "tipo": "verofalso",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "affermazione": "In Inghilterra e in Germania il passaggio al giuspositivismo è spiegato dalla codificazione.",
+      "vero": false,
+      "spiegazione": "Falso: lì la codificazione mancò o tardò; il passaggio al giuspositivismo teorico è spiegato dal giusrazionalismo, cioè dall'idea che il diritto naturale stia nella ragione umana.",
+      "concetti": [
+        "giuspositivismo-teorico"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q063",
+      "tipo": "verofalso",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "affermazione": "Il codice prussiano del 1794 abolisce le distinzioni di ceto e vieta il ricorso al diritto naturale.",
+      "vero": false,
+      "spiegazione": "Falso: conserva le tradizionali distinzioni cetuali e la possibilità di ricorrere al diritto naturale.",
+      "concetti": [
+        "codificazione"
+      ],
+      "pagine": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "u01-q064",
+      "tipo": "completa",
+      "lezione": "u01-l4",
+      "livello": "base",
+      "testo": "Il giuspositivismo tecnico caratterizza la dottrina civilistica francese dell'Ottocento, poi ribattezzata Scuola dell'{{esegesi}}.",
+      "concetti": [
+        "scuola-dell-esegesi",
+        "giuspositivismo-tecnico"
+      ],
+      "pagine": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "u01-q065",
+      "tipo": "completa",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "testo": "In Germania la Scuola {{filosofica}} chiede la codificazione e la Scuola {{storica}} si oppone: entrambe concepiscono il diritto come {{sistema}}.",
+      "concetti": [
+        "giuspositivismo-teorico"
+      ],
+      "pagine": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "u01-q066",
+      "tipo": "aperta",
+      "lezione": "u01-l4",
+      "livello": "medio",
+      "domanda": "Descriva la codificazione e il modo in cui ne nasce il positivismo giuridico, nelle sue due forme.",
+      "traccia": "La **codificazione** è la redazione scritta del diritto di uno Stato in codici, che rappresentano la legislazione generale e sostituiscono il diritto previgente. È l'esito del giusrazionalismo e dell'illuminismo giuridico: codice prussiano (1794), **Code Napoléon** (1804), codice austriaco (1811). I rivoluzionari volevano abolire l'*interpretatio* con il *référé législatif*; la codificazione riesce a Napoleone ed è «per antonomasia» perché **abolisce il particolarismo giuridico** (fonti, soggetti, proprietà). Ne nasce il **giuspositivismo tecnico**: i giuristi francesi usano solo il diritto positivo; la **Scuola dell'esegesi** interpreta in modo letterale o psicologico e legge l'art. 4 del titolo preliminare come obbligo di decidere sempre in base al codice, ritenuto completo. Dove il codice manca (Inghilterra, Germania) si ha il **giuspositivismo teorico**, fatto di teorie del diritto e spiegato dal giusrazionalismo: in Germania la disputa fra Scuola filosofica e Scuola storica, in Inghilterra la jurisprudence degli utilitaristi.",
+      "punti": [
+        {
+          "testo": "definizione di codificazione e i tre codici",
+          "chiavi": [
+            "codic",
+            "1804",
+            "previgente"
+          ]
+        },
+        {
+          "testo": "abolizione del particolarismo giuridico",
+          "chiavi": [
+            "particolarism",
+            "soggetto unico",
+            "proprietà"
+          ]
+        },
+        {
+          "testo": "giuspositivismo tecnico e Scuola dell'esegesi",
+          "chiavi": [
+            "tecnico",
+            "esegesi",
+            "letterale",
+            "completezza"
+          ]
+        },
+        {
+          "testo": "giuspositivismo teorico in Inghilterra e Germania",
+          "chiavi": [
+            "teorico",
+            "inghilterra",
+            "germania"
+          ]
+        }
+      ],
+      "concetti": [
+        "codificazione",
+        "codice-napoleone",
+        "giuspositivismo-tecnico",
+        "giuspositivismo-teorico",
+        "scuola-dell-esegesi"
+      ],
+      "pagine": [
+        7,
+        9
+      ]
+    },
+    {
+      "id": "u01-q067",
+      "tipo": "ordina",
+      "lezione": "u01-l4",
+      "livello": "base",
+      "consegna": "Metti in ordine cronologico.",
+      "elementi": [
+        "Dichiarazione dei diritti dell'uomo e del cittadino (1789)",
+        "Diritto territoriale generale prussiano (1794)",
+        "Code Napoléon (1804)",
+        "Codice civile generale austriaco (1811)",
+        "Codice civile tedesco (inizi del Novecento)"
+      ],
+      "spiegazione": "Le date sono quelle indicate nel testo.",
+      "concetti": [
+        "codificazione"
+      ],
+      "pagine": [
+        7,
+        9
+      ]
+    },
+    {
+      "id": "u01-q068",
+      "tipo": "flashcard",
+      "lezione": "u01-l5",
+      "livello": "base",
+      "domanda": "Che cosa sono i neogiusnaturalismi?",
+      "risposta": "Dottrine critiche del giuspositivismo che compaiono verso la fine dell'Ottocento, epoca dello Stato di diritto legislativo: sono considerate una sorta di resurrezione del diritto naturale in età giuspositivista. Barberis ne conta almeno sei.",
+      "concetti": [
+        "neogiusnaturalismo"
+      ],
+      "pagine": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "u01-q069",
+      "tipo": "flashcard",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "domanda": "Che cosa sostiene Gény sulle lacune del codice?",
+      "risposta": "Contesta la tesi della completezza: le lacune si possono colmare non solo per autointegrazione, ma anche per eterointegrazione, cioè con la libera ricerca scientifica di una scienza giuridica che torni a usare la nozione di natura delle cose.",
+      "concetti": [
+        "francois-geny"
+      ],
+      "pagine": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "u01-q070",
+      "tipo": "flashcard",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "domanda": "Quali significati ha «natura delle cose» e come la intende Radbruch?",
+      "risposta": "Fra i giuristi indica i concetti (l'interpretazione di un vocabolo deve conformarsi alla definizione della dottrina) oppure i fatti giuridici (il mondo consta di fatti, non di norme). Per Radbruch non si riferisce a un'immutabile natura del mondo, ma a convenzioni sociali che cambiano da epoca a epoca.",
+      "concetti": [
+        "natura-della-cosa",
+        "gustav-radbruch"
+      ],
+      "pagine": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "u01-q071",
+      "tipo": "flashcard",
+      "lezione": "u01-l5",
+      "livello": "base",
+      "domanda": "Che cosa afferma Radbruch in «Ingiustizia legale e diritto sovralegale»?",
+      "risposta": "L'esistenza di un diritto sovralegale che giustifica la disobbedienza alle leggi rientranti nell'ingiustizia legale. È la tesi centrale del neogiusnaturalismo postbellico, che attribuisce al giuspositivismo, con il motto «la legge è legge», le responsabilità del nazismo.",
+      "concetti": [
+        "gustav-radbruch",
+        "diritto-sovralegale"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q072",
+      "tipo": "flashcard",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "domanda": "In che cosa il neogiusnaturalismo di Fuller differisce da quello tradizionale?",
+      "risposta": "Il suo diritto naturale non è sostanziale ma procedurale, e la sua morale non è esterna ma interna al diritto stesso. La morale interna del diritto indica solo le procedure che il diritto positivo deve rispettare per essere autentico diritto.",
+      "concetti": [
+        "lon-fuller",
+        "morale-interna-del-diritto"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q073",
+      "tipo": "flashcard",
+      "lezione": "u01-l5",
+      "livello": "avanzato",
+      "domanda": "Quali requisiti deve avere il diritto secondo la morale interna di Fuller?",
+      "risposta": "Deve essere formato da norme generali, conoscibili a tutti, non retroattive, comprensibili ai più, coerenti tra loro, di possibile adempimento, di mutamento non troppo rapido, di applicazione fedele.",
+      "concetti": [
+        "morale-interna-del-diritto"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q074",
+      "tipo": "flashcard",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "domanda": "Qual è la posizione di Finnis?",
+      "risposta": "Critica la distinzione fra diritto com'è e diritto come dovrebbe essere: il diritto si può conoscere solo partendo dai casi esemplari in cui i due coincidono. Ammette la pluralità dei valori che legittimano il diritto positivo, del quale esisterebbe una presunzione di obbligatorietà.",
+      "concetti": [
+        "john-finnis"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q075",
+      "tipo": "multipla",
+      "lezione": "u01-l5",
+      "livello": "base",
+      "domanda": "Chi è il maggiore rappresentante del neogiusnaturalismo postbellico?",
+      "opzioni": [
+        "Gény",
+        "Radbruch",
+        "Finnis",
+        "Fuller"
+      ],
+      "corretta": 1,
+      "spiegazione": "Radbruch, ex ministro socialdemocratico e oppositore del nazismo, privato della cattedra dal regime.",
+      "concetti": [
+        "gustav-radbruch"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q076",
+      "tipo": "multipla",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "domanda": "Con chi polemizza Fuller?",
+      "opzioni": [
+        "Con Kelsen, sulla norma fondamentale",
+        "Con Hart, sulla separazione fra diritto e morale",
+        "Con Rawls, sul velo di ignoranza",
+        "Con Gény, sulla completezza del codice"
+      ],
+      "corretta": 1,
+      "spiegazione": "Hart aveva ripreso la distinzione di Bentham fra diritto com'è e diritto come dovrebbe essere, sostenendo una connessione solo contingente; per Fuller il diritto non può essere separato dagli obiettivi morali che persegue.",
+      "concetti": [
+        "lon-fuller",
+        "hart"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q077",
+      "tipo": "multipla",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "domanda": "Che cosa ammette Gény a proposito della legge ingiusta?",
+      "opzioni": [
+        "Che non è diritto",
+        "Che il giudice può disapplicarla",
+        "Che il giudice deve applicarla così com'è",
+        "Che va corretta con l'equità"
+      ],
+      "corretta": 2,
+      "spiegazione": "Pur criticando il culto dei codici, Gény finisce per ammettere che la legge contraria al diritto naturale va applicata dal giudice senza poterne mitigare l'ingiustizia neppure con l'interpretazione.",
+      "concetti": [
+        "francois-geny"
+      ],
+      "pagine": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "u01-q078",
+      "tipo": "multipla",
+      "lezione": "u01-l5",
+      "livello": "avanzato",
+      "domanda": "Come intendono i neocostituzionalisti i principi costituzionali?",
+      "opzioni": [
+        "Norme giuridiche come le altre, solo superiori",
+        "Principi di diritto naturale connessi al diritto dalle Costituzioni",
+        "Convenzioni sociali mutevoli",
+        "Regole procedurali interne al diritto"
+      ],
+      "corretta": 1,
+      "spiegazione": "Per i giuspositivisti sono norme giuridiche di livello gerarchico superiore; per i neocostituzionalisti sono principi di diritto naturale connessi al diritto tramite le Costituzioni: è la sesta resurrezione.",
+      "concetti": [
+        "neogiusnaturalismo"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q079",
+      "tipo": "verofalso",
+      "lezione": "u01-l5",
+      "livello": "base",
+      "affermazione": "Per Barberis i neogiusnaturalismi sono semplici riproposte del diritto naturale tradizionale.",
+      "vero": false,
+      "spiegazione": "Falso: non sono semplici riproposte, ma cercano al diritto naturale una collocazione in un mondo ormai dominato dal diritto positivo.",
+      "concetti": [
+        "neogiusnaturalismo"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q080",
+      "tipo": "verofalso",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "affermazione": "Prima del nazismo Radbruch era un critico del giusnaturalismo.",
+      "vero": true,
+      "spiegazione": "Vero: il testo lo presenta come oppositore del nazismo ma soprattutto critico del giusnaturalismo, al quale pare riavvicinarsi nel dopoguerra.",
+      "concetti": [
+        "gustav-radbruch"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q081",
+      "tipo": "verofalso",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "affermazione": "La Scuola scientifica francese difende la completezza del codice.",
+      "vero": false,
+      "spiegazione": "Falso: rivaluta il ruolo della dottrina, critica il culto dei codici e, con Gény, contesta proprio la tesi della completezza.",
+      "concetti": [
+        "francois-geny"
+      ],
+      "pagine": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "u01-q082",
+      "tipo": "completa",
+      "lezione": "u01-l5",
+      "livello": "base",
+      "testo": "Dopo Auschwitz il giuspositivismo viene riassunto nel motto «la legge è {{legge}} e ad essa si deve comunque {{obbedire}}».",
+      "concetti": [
+        "diritto-sovralegale"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q083",
+      "tipo": "completa",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "testo": "Per Gény le lacune si colmano anche per {{eterointegrazione}}, tramite la libera ricerca {{scientifica}}.",
+      "concetti": [
+        "francois-geny"
+      ],
+      "pagine": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "u01-q084",
+      "tipo": "aperta",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "domanda": "Quali sono le sei «resurrezioni» del diritto naturale individuate da Barberis?",
+      "traccia": "I neogiusnaturalismi sono dottrine critiche del giuspositivismo nate dalla fine dell'Ottocento. 1) La **Scuola scientifica** francese: **Gény** contesta la completezza del codice e propone l'eterointegrazione con la libera ricerca scientifica, pur ammettendo che la legge ingiusta va applicata. 2) La riscoperta tedesca della **natura delle cose** (concetti o fatti giuridici), che per Radbruch rinvia a convenzioni sociali mutevoli. 3) Il **neogiusnaturalismo postbellico**: contro il motto «la legge è legge», **Radbruch** afferma un diritto sovralegale che giustifica la disobbedienza alle leggi ingiuste. 4) **Fuller**, contro Hart: un diritto naturale procedurale, la **morale interna del diritto**, con i requisiti di generalità, conoscibilità, irretroattività, comprensibilità, coerenza, possibilità, stabilità, applicazione fedele. 5) **Finnis**: il diritto si conosce dai casi esemplari; presunzione di obbligatorietà del diritto positivo. 6) Il **neocostituzionalismo**: i principi costituzionali come principi di diritto naturale. Nessuna è una semplice riproposta; Rawls è quasi una settima.",
+      "punti": [
+        {
+          "testo": "Gény e la libera ricerca scientifica",
+          "chiavi": [
+            "gény",
+            "geny",
+            "lacune",
+            "ricerca scientifica"
+          ]
+        },
+        {
+          "testo": "natura delle cose",
+          "chiavi": [
+            "natura delle cose"
+          ]
+        },
+        {
+          "testo": "Radbruch: diritto sovralegale dopo il nazismo",
+          "chiavi": [
+            "radbruch",
+            "sovralegale",
+            "nazism"
+          ]
+        },
+        {
+          "testo": "Fuller: morale interna del diritto, procedurale",
+          "chiavi": [
+            "fuller",
+            "morale interna",
+            "procedural"
+          ]
+        },
+        {
+          "testo": "Finnis e neocostituzionalismo",
+          "chiavi": [
+            "finnis",
+            "neocostituzional",
+            "principi"
+          ]
+        }
+      ],
+      "concetti": [
+        "neogiusnaturalismo",
+        "francois-geny",
+        "gustav-radbruch",
+        "lon-fuller",
+        "john-finnis"
+      ],
+      "pagine": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "u01-q085",
+      "tipo": "ordina",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "consegna": "Metti nell'ordine del testo le sei resurrezioni del diritto naturale.",
+      "elementi": [
+        "Scuola scientifica francese (Gény)",
+        "Riscoperta tedesca della natura delle cose",
+        "Neogiusnaturalismo postbellico (Radbruch)",
+        "Morale interna del diritto (Fuller)",
+        "Finnis",
+        "Neocostituzionalismo"
+      ],
+      "concetti": [
+        "neogiusnaturalismo"
+      ],
+      "pagine": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "u01-q086",
+      "tipo": "abbina",
+      "lezione": "u01-l5",
+      "livello": "medio",
+      "consegna": "Abbina ogni autore alla sua tesi.",
+      "coppie": [
+        [
+          "Gény",
+          "libera ricerca scientifica per colmare le lacune"
+        ],
+        [
+          "Radbruch",
+          "diritto sovralegale contro l'ingiustizia legale"
+        ],
+        [
+          "Fuller",
+          "morale interna, procedurale, del diritto"
+        ],
+        [
+          "Finnis",
+          "conoscenza del diritto dai casi esemplari"
+        ]
+      ],
+      "concetti": [
+        "neogiusnaturalismo",
+        "francois-geny",
+        "gustav-radbruch",
+        "lon-fuller",
+        "john-finnis"
+      ],
+      "pagine": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "u01-q087",
+      "tipo": "flashcard",
+      "lezione": "u01-l6",
+      "livello": "base",
+      "domanda": "Che cosa studia la teoria della giustizia?",
+      "risposta": "La parte della morale che confina con la politica e il diritto: i principi normativi e le istituzioni che dovrebbero caratterizzare una società giusta. Prende il nome dal libro di John Rawls ed è la versione odierna della ricerca del miglior regime politico.",
+      "concetti": [
+        "teoria-della-giustizia",
+        "john-rawls"
+      ],
+      "pagine": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "u01-q088",
+      "tipo": "flashcard",
+      "lezione": "u01-l6",
+      "livello": "medio",
+      "domanda": "Quali tre svolte segna «Una teoria della giustizia» (1971)?",
+      "risposta": "Dalla metaetica (riflessione sui fondamenti dell'etica) all'etica normativa; da un'etica sostanziale, con principi dati nella natura o nella ragione, a un'etica procedurale, con principi costruiti tramite una procedura di scelta; da un'etica utilitarista a un'etica deontologica, che mira alla giustizia.",
+      "concetti": [
+        "john-rawls",
+        "teoria-della-giustizia"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q089",
+      "tipo": "flashcard",
+      "lezione": "u01-l6",
+      "livello": "base",
+      "domanda": "Che cosa sono la posizione originaria e il velo di ignoranza?",
+      "risposta": "La posizione originaria è il nome che Rawls dà allo stato di natura: la situazione in cui gli individui scelgono imparzialmente i principi della società da costruire. È caratterizzata dal velo di ignoranza: chi sceglie deve ignorare quali saranno i propri interessi in quella società.",
+      "concetti": [
+        "posizione-originaria"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q090",
+      "tipo": "flashcard",
+      "lezione": "u01-l6",
+      "livello": "base",
+      "domanda": "Quali sono i due principi di giustizia di Rawls?",
+      "risposta": "Il principio dell'eguale libertà: ogni persona ha un eguale diritto al più ampio sistema di eguali libertà fondamentali. Il principio di differenza: le ineguaglianze economiche e sociali devono servire al più grande beneficio dei meno avvantaggiati.",
+      "concetti": [
+        "principi-di-giustizia-di-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q091",
+      "tipo": "flashcard",
+      "lezione": "u01-l6",
+      "livello": "medio",
+      "domanda": "Che cosa comporta l'ordine lessicografico fra i due principi?",
+      "risposta": "Il secondo principio può operare solo quando è soddisfatto il primo: lo Stato può intervenire nell'economia e promuovere i diritti sociali solo a patto di non violare i diritti di libertà, altrimenti gli individui baratterebbero la libertà con il soddisfacimento dei bisogni.",
+      "concetti": [
+        "principi-di-giustizia-di-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q092",
+      "tipo": "flashcard",
+      "lezione": "u01-l6",
+      "livello": "avanzato",
+      "domanda": "Qual è la principale conseguenza giuridica di «Liberalismo politico»?",
+      "risposta": "L'esaltazione delle Corti costituzionali: il loro controllo di legittimità delle leggi assicura l'applicazione più diretta dei principi di giustizia elaborati nella posizione originaria e accolti nella Costituzione.",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q093",
+      "tipo": "multipla",
+      "lezione": "u01-l6",
+      "livello": "base",
+      "domanda": "Perché Rawls critica l'utilitarismo?",
+      "opzioni": [
+        "Perché è un'etica procedurale",
+        "Perché ignora la separatezza degli individui",
+        "Perché nega l'intervento dello Stato nell'economia",
+        "Perché si fonda sul contratto sociale"
+      ],
+      "corretta": 1,
+      "spiegazione": "Se l'obiettivo è massimizzare l'utilità collettiva, i diritti dei singoli rischiano di essere sacrificati: l'utilitarismo ignora la separatezza degli individui.",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q094",
+      "tipo": "multipla",
+      "lezione": "u01-l6",
+      "livello": "medio",
+      "domanda": "Chi stipula il contratto sociale internazionale nel «Diritto dei popoli»?",
+      "opzioni": [
+        "Tutti gli Stati",
+        "I soli popoli liberali",
+        "Le organizzazioni internazionali",
+        "Gli individui di tutto il mondo"
+      ],
+      "corretta": 1,
+      "spiegazione": "Anche qui si parte da una posizione originaria con velo di ignoranza, ma a stipulare il contratto internazionale sarebbero solo i popoli liberali.",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q095",
+      "tipo": "multipla",
+      "lezione": "u01-l6",
+      "livello": "medio",
+      "domanda": "In quale opera Rawls riformula la teoria per società in cui gli individui hanno diverse concezioni del bene?",
+      "opzioni": [
+        "Una teoria della giustizia (1971)",
+        "Liberalismo politico (1993)",
+        "Il diritto dei popoli (1999)",
+        "Ingiustizia legale e diritto sovralegale"
+      ],
+      "corretta": 1,
+      "spiegazione": "Liberalismo politico propone un liberalismo meramente politico, che fissa solo le condizioni minime per la convivenza.",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q096",
+      "tipo": "verofalso",
+      "lezione": "u01-l6",
+      "livello": "base",
+      "affermazione": "Per il principio di differenza le ineguaglianze economiche e sociali sono sempre inammissibili.",
+      "vero": false,
+      "spiegazione": "Falso: sono ammesse se servono al più grande beneficio dei meno avvantaggiati.",
+      "concetti": [
+        "principi-di-giustizia-di-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q097",
+      "tipo": "verofalso",
+      "lezione": "u01-l6",
+      "livello": "medio",
+      "affermazione": "L'etica procedurale di Rawls adotta l'idea giusnaturalista di contratto sociale.",
+      "vero": true,
+      "spiegazione": "Vero: i principi sono costruiti e giustificati intersoggettivamente con una procedura di scelta ispirata al contratto sociale.",
+      "concetti": [
+        "teoria-della-giustizia",
+        "contrattualismo"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q098",
+      "tipo": "verofalso",
+      "lezione": "u01-l6",
+      "livello": "medio",
+      "affermazione": "Fra gli otto principi della giustizia globale di Rawls c'è il diritto alla guerra preventiva.",
+      "vero": false,
+      "spiegazione": "Falso: c'è il diritto alla sola guerra difensiva, accanto al dovere di non intervento bellico e al rispetto del diritto bellico.",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        12,
+        12
+      ]
+    },
+    {
+      "id": "u01-q099",
+      "tipo": "completa",
+      "lezione": "u01-l6",
+      "livello": "base",
+      "testo": "Rawls pubblica «Una teoria della giustizia» nel {{1971}}, «Liberalismo politico» nel {{1993}} e «Il diritto dei popoli» nel {{1999}}.",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q100",
+      "tipo": "completa",
+      "lezione": "u01-l6",
+      "livello": "medio",
+      "testo": "Lo stato di natura è ribattezzato da Rawls «posizione {{originaria}}», caratterizzata dal velo di {{ignoranza}}.",
+      "concetti": [
+        "posizione-originaria"
+      ],
+      "pagine": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "u01-q101",
+      "tipo": "aperta",
+      "lezione": "u01-l6",
+      "livello": "medio",
+      "domanda": "Esponga la teoria della giustizia di Rawls nelle sue tre fasi.",
+      "traccia": "La teoria della giustizia studia principi e istituzioni di una società giusta. Nel primo libro, ***Una teoria della giustizia*** (1971), Rawls segna tre svolte: dalla metaetica all'**etica normativa**; dall'etica sostanziale all'**etica procedurale**; dall'etica utilitarista, che ignora la separatezza degli individui, all'**etica deontologica**. Riprende il contratto sociale: nella **posizione originaria**, sotto il **velo di ignoranza**, i contraenti sceglierebbero due principi, l'**eguale libertà** e il **principio di differenza** (ineguaglianze a beneficio dei meno avvantaggiati), in **ordine lessicografico**: i diritti sociali non possono violare le libertà. Nel secondo, ***Liberalismo politico*** (1993), la teoria è adattata a società con concezioni diverse del bene: un liberalismo solo politico, con le Corti costituzionali a garanzia dei principi. Nel terzo, ***Il diritto dei popoli*** (1999), è estesa alle relazioni internazionali: giustizia globale, otto principi, contratto fra i soli popoli liberali.",
+      "punti": [
+        {
+          "testo": "tre svolte: normativa, procedurale, deontologica",
+          "chiavi": [
+            "normativ",
+            "procedural",
+            "deontologic"
+          ]
+        },
+        {
+          "testo": "posizione originaria e velo di ignoranza",
+          "chiavi": [
+            "posizione originaria",
+            "velo"
+          ]
+        },
+        {
+          "testo": "due principi e ordine lessicografico",
+          "chiavi": [
+            "eguale libertà",
+            "differenza",
+            "lessicografic"
+          ]
+        },
+        {
+          "testo": "Liberalismo politico: pluralismo e Corti costituzionali",
+          "chiavi": [
+            "liberalismo politico",
+            "corti",
+            "concezioni del bene"
+          ]
+        },
+        {
+          "testo": "Il diritto dei popoli: giustizia globale",
+          "chiavi": [
+            "popoli",
+            "globale",
+            "internazional"
+          ]
+        }
+      ],
+      "concetti": [
+        "john-rawls",
+        "teoria-della-giustizia",
+        "posizione-originaria",
+        "principi-di-giustizia-di-rawls"
+      ],
+      "pagine": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "u01-q102",
+      "tipo": "ordina",
+      "lezione": "u01-l6",
+      "livello": "base",
+      "consegna": "Metti in ordine cronologico le opere di Rawls.",
+      "elementi": [
+        "Una teoria della giustizia",
+        "Liberalismo politico",
+        "Il diritto dei popoli"
+      ],
+      "spiegazione": "1971, 1993, 1999.",
+      "concetti": [
+        "john-rawls"
+      ],
+      "pagine": [
+        11,
+        12
+      ]
+    }
+  ]
+}

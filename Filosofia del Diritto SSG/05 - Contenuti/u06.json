@@ -189,7 +189,7 @@
       "tipo": "opera",
       "latino": "How to Do Things with Words",
       "breve": "Libro di Austin sugli atti linguistici: molte cose si fanno solo con le parole.",
-      "definizione": "Opera di [[john-l-austin|Austin]] (1962): la maggior parte dei nostri scambi sociali avviene attraverso azioni che possiamo compiere solo dicendole; da qui le enunciazioni performative.",
+      "definizione": "Opera di [[john-l-austin|Austin]] (1962): la maggior parte dei nostri scambi sociali avviene attraverso azioni che possiamo compiere solo dicendole; da qui le enunciazioni performative. Austin vi distingue anche le classi di verbi con cui si compiono atti: verdittivi, espositivi, esercitivi, commissivi, comportativi.",
       "pagine": [
         54,
         55
@@ -222,7 +222,7 @@
         "word e world"
       ],
       "breve": "Retiche (word): il linguaggio basta; tetiche (world): modificano la realtà e richiedono una legittimazione.",
-      "definizione": "Distinzione di [[john-l-austin|Austin]] (word/world) che i semiotici chiamano retiche/tetiche. Nelle **retiche** (ringraziare, affermare) il linguaggio è condizione necessaria e sufficiente; nelle **tetiche** (giudicare, disporre, dichiarare marito e moglie) è necessario ma non sufficiente: serve la **legittimazione** di chi parla, data da una norma valida. Al diritto interessano le tetiche.",
+      "definizione": "Distinzione di [[john-l-austin|Austin]] (word/world) che i semiotici chiamano retiche/tetiche. Nelle **retiche** (ringraziare, affermare) il linguaggio è condizione necessaria e sufficiente; nelle **tetiche** (giudicare, disporre, dichiarare marito e moglie) è necessario ma non sufficiente: serve la **legittimazione** di chi parla, data da una norma valida. Al diritto interessano le tetiche. Negli appunti di Incampo la stessa coppia è scritta «thetiche» e «rhetiche» ([[enunciazioni-thetiche-e-rhetiche]]).",
       "pagine": [
         63,
         68
@@ -263,7 +263,7 @@
         "abrogazione"
       ],
       "breve": "Norma che toglie validità a una norma precedente: esempio classico di norma costitutiva immediatamente operativa.",
-      "definizione": "Quando il legislatore abroga una norma (es. il divieto di fumare nelle aule), da quel giorno essa non esiste più nell'ordinamento: la norma abrogativa è valida ed efficace per il solo fatto di essere disposta, perché si rivolge al sistema. Può incidere indirettamente sulla libertà, facendo venir meno un permesso.",
+      "definizione": "Quando il legislatore abroga una norma (es. il divieto di fumare nelle aule), da quel giorno essa non esiste più nell'ordinamento: la norma abrogativa è valida ed efficace per il solo fatto di essere disposta, perché si rivolge al sistema. Può incidere indirettamente sulla libertà, facendo venir meno un permesso. È un esempio di [[norma-costitutiva|norma costitutiva]]: non prescrive un comportamento ai destinatari ma produce direttamente il suo effetto.",
       "pagine": [
         66,
         67
@@ -1340,6 +1340,22 @@
       ],
       "testo": "La prospettiva costitutiva attribuisce al diritto la costruzione della realtà {{sociale}}, oltre alla regolazione delle condotte.",
       "spiegazione": "Gli oggetti giuridici sono costituiti attraverso il linguaggio normativo."
+    },
+    {
+      "id": "u06-q043",
+      "tipo": "completa",
+      "lezione": "u06-l1",
+      "livello": "base",
+      "testo": "L'opera di John L. Austin da cui nasce la teoria delle enunciazioni performative si intitola «Come fare cose con {{parole|le parole}}».",
+      "spiegazione": "Il titolo dice la tesi: molte azioni si compiono soltanto dicendole.",
+      "concetti": [
+        "come-fare-cose-con-parole",
+        "john-l-austin"
+      ],
+      "pagine": [
+        54,
+        55
+      ]
     }
   ]
 }

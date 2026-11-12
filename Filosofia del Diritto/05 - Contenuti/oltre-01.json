@@ -2240,6 +2240,20 @@
           "url": "https://www.ghislieri.it/alunni-scomparsi/amedeo-giovanni-conte-1934-2019/"
         }
       ]
+    },
+    {
+      "id": "tractatus-logico-philosophicus",
+      "oltre": "Opera di [[wittgenstein|Ludwig Wittgenstein]], pubblicata in tedesco nel 1921 e in edizione bilingue nel 1922. Attraverso proposizioni numerate indaga la raffigurazione logica dei fatti e i limiti di ciò che può essere detto con senso. La riflessione successiva delle [[ricerche-filosofiche]] modifica profondamente il quadro, valorizzando usi e giochi linguistici.",
+      "daSapere": [
+        "Opera del primo Wittgenstein sulla relazione fra linguaggio, logica e mondo, pubblicata nel 1921."
+      ]
+    },
+    {
+      "id": "summa-theologiae",
+      "oltre": "Opera sistematica di [[tommaso-d-aquino|Tommaso d’Aquino]], composta nel XIII secolo d.C. e rimasta incompiuta. È articolata in questioni e articoli che presentano obiezioni, risposta e soluzioni. Il trattato sulla legge della prima sezione della seconda parte collega ragione, [[bene-comune]] e autorità; la discussione della giustizia prosegue nella seconda sezione della seconda parte.",
+      "daSapere": [
+        "Opera teologica incompiuta di Tommaso d’Aquino, con trattazioni fondamentali su legge, giustizia e azione."
+      ]
     }
   ],
   "nuovi": [
@@ -2256,20 +2270,6 @@
       "tipo": "concetto",
       "breve": "In Kant, prescrizione condizionata all’assunzione di un fine, distinta dall’imperativo categorico.",
       "definizione": "L’imperativo ipotetico comanda un’azione in vista di un fine presupposto: se si vuole un risultato, si deve seguire il mezzo necessario o appropriato. [[kant|Kant]] vi distingue gli imperativi dell’abilità e i consigli della prudenza. Si differenzia dall’[[imperativo-categorico]], che pretende validità indipendente da fini contingenti."
-    },
-    {
-      "id": "tractatus-logico-philosophicus",
-      "nome": "Tractatus logico-philosophicus",
-      "tipo": "opera",
-      "breve": "Opera del primo Wittgenstein sulla relazione fra linguaggio, logica e mondo, pubblicata nel 1921.",
-      "definizione": "Opera di [[wittgenstein|Ludwig Wittgenstein]], pubblicata in tedesco nel 1921 e in edizione bilingue nel 1922. Attraverso proposizioni numerate indaga la raffigurazione logica dei fatti e i limiti di ciò che può essere detto con senso. La riflessione successiva delle [[ricerche-filosofiche]] modifica profondamente il quadro, valorizzando usi e giochi linguistici."
-    },
-    {
-      "id": "summa-theologiae",
-      "nome": "Summa Theologiae",
-      "tipo": "opera",
-      "breve": "Opera teologica incompiuta di Tommaso d’Aquino, con trattazioni fondamentali su legge, giustizia e azione.",
-      "definizione": "Opera sistematica di [[tommaso-d-aquino|Tommaso d’Aquino]], composta nel XIII secolo d.C. e rimasta incompiuta. È articolata in questioni e articoli che presentano obiezioni, risposta e soluzioni. Il trattato sulla legge della prima sezione della seconda parte collega ragione, [[bene-comune]] e autorità; la discussione della giustizia prosegue nella seconda sezione della seconda parte."
     }
   ]
 }

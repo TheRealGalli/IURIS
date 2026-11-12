@@ -1,0 +1,652 @@
+{
+  "voci": [
+    {
+      "id": "organo",
+      "oltre": "La teoria dell'organo, sviluppata dalla dottrina tedesca dell'Ottocento (Gierke tra i primi), sostituisce quella della **rappresentanza**: l'organo non agisce *per conto* dell'ente, come un rappresentante, ma *è* l'ente stesso che agisce. Ne deriva che gli atti e la responsabilità sono imputati direttamente alla persona giuridica.\n\nLa Costituzione ne trae una conseguenza importante: i funzionari e i dipendenti dello Stato e degli enti pubblici sono **direttamente responsabili**, secondo le leggi penali, civili e amministrative, degli atti compiuti in violazione di diritti, e la responsabilità civile **si estende** allo Stato e agli enti pubblici (art. 28). Si distinguono organi individuali e collegiali, attivi, consultivi e di controllo, centrali e periferici.",
+      "daSapere": [
+        "Teoria organica ↔ rappresentanza",
+        "Art. 28: responsabilità del funzionario e dell'ente",
+        "Organi individuali, collegiali; attivi, consultivi, di controllo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 28",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "organo",
+          "a": "rapporto-organico",
+          "tipo": "collegato",
+          "etichetta": "è legato all'ente dal"
+        },
+        {
+          "da": "organo",
+          "a": "persona-giuridica",
+          "tipo": "collegato",
+          "etichetta": "agisce per la"
+        }
+      ]
+    },
+    {
+      "id": "organo-costituzionale",
+      "oltre": "Sono considerati organi costituzionali le **Camere** (e il Parlamento in seduta comune), il **Presidente della Repubblica**, il **Governo** e la **Corte costituzionale**. Il loro status comporta garanzie particolari: **autonomia regolamentare** (le Camere e la Corte si danno propri regolamenti), **autonomia contabile** e, entro certi limiti, **autodichia**, cioè il potere di giudicare da sé le controversie con i propri dipendenti.\n\nTra loro possono sorgere **conflitti di attribuzione** risolti dalla Corte costituzionale (art. 134). La nozione di «potere dello Stato» ai fini del conflitto è però più ampia di quella di organo costituzionale: vi rientrano anche ogni singolo giudice, il CSM, la Corte dei conti e perfino il comitato promotore di un referendum. È invece discussa la collocazione di organi come il CSM e il CNEL, spesso detti di **rilevanza costituzionale**.",
+      "daSapere": [
+        "Camere, Presidente della Repubblica, Governo, Corte costituzionale",
+        "Autonomia regolamentare e contabile; autodichia",
+        "Conflitti di attribuzione (art. 134)"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 134",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "organo-costituzionale",
+          "a": "conflitto-tra-poteri-dello-stato",
+          "tipo": "collegato",
+          "etichetta": "può essere parte di un"
+        },
+        {
+          "da": "organo-costituzionale",
+          "a": "autodichia",
+          "tipo": "collegato",
+          "etichetta": "gode dell'"
+        }
+      ]
+    },
+    {
+      "id": "rapporto-organico",
+      "oltre": "Occorre distinguere due rapporti. Il **rapporto organico** lega l'ufficio all'ente: grazie a esso l'atto del funzionario è giuridicamente atto dell'ente (immedesimazione). Il **rapporto di servizio** lega invece la persona fisica all'amministrazione: è il rapporto di lavoro, con diritti (retribuzione, carriera) e doveri (fedeltà, diligenza, disciplina).\n\nIl rapporto organico si **interrompe** quando il funzionario agisce per fini esclusivamente personali, del tutto estranei all'ufficio: in quel caso l'atto non è più imputabile all'ente. La giurisprudenza tende però a mantenere la responsabilità civile dell'ente quando la condotta del dipendente, pur illecita, è stata resa possibile dalle funzioni esercitate (occasionalità necessaria).",
+      "daSapere": [
+        "Rapporto organico ↔ rapporto di servizio",
+        "Interruzione: fini esclusivamente personali",
+        "Occasionalità necessaria e responsabilità dell'ente"
+      ],
+      "collegamenti": [
+        {
+          "da": "rapporto-organico",
+          "a": "funzionario-pubblico",
+          "tipo": "collegato",
+          "etichetta": "lega l'ufficio al"
+        }
+      ]
+    },
+    {
+      "id": "funzionario-di-fatto",
+      "oltre": "La figura serve a tutelare la **certezza dei rapporti** e l'**affidamento** dei terzi: chi si rivolge a un ufficio pubblico non può verificare la regolarità della nomina del funzionario e non deve subire le conseguenze di un vizio che non conosce. Perciò gli atti favorevoli ai terzi restano validi, purché il funzionario abbia agito pubblicamente e in buona fede apparente nell'esercizio dell'ufficio.\n\nVa distinto dall'**usurpatore** di pubbliche funzioni, che si impossessa di un ufficio senza alcun titolo e commette un reato (art. 347 c.p.): i suoi atti sono giuridicamente inesistenti. Una figura vicina è la **prorogatio**, in cui un organo scaduto continua a esercitare le funzioni per legge fino all'insediamento del successore.",
+      "daSapere": [
+        "Tutela dell'affidamento dei terzi",
+        "Usurpatore: atti inesistenti (art. 347 c.p.)",
+        "Figura vicina: prorogatio"
+      ],
+      "collegamenti": [
+        {
+          "da": "funzionario-di-fatto",
+          "a": "usurpatore-di-pubbliche-funzioni",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dall'"
+        },
+        {
+          "da": "funzionario-di-fatto",
+          "a": "prorogatio",
+          "tipo": "collegato",
+          "etichetta": "è affine alla"
+        }
+      ]
+    },
+    {
+      "id": "atto-giuridico",
+      "oltre": "Nella teoria generale si distinguono i **fatti giuridici** (eventi a cui l'ordinamento collega effetti, come la nascita o la morte) e gli **atti giuridici** (comportamenti volontari dell'uomo). Tra gli atti, i **negozi giuridici** sono quelli in cui la volontà è diretta anche agli effetti (il contratto, il testamento).\n\nGli atti dei pubblici poteri hanno forme tipiche: legge, decreto, sentenza. L'atto tipico dell'amministrazione è il **provvedimento amministrativo**, che è **imperativo** (produce effetti anche senza il consenso del destinatario), **tipico** (previsto dalla legge) e, nei casi previsti, **esecutorio**. Una categoria particolare sono gli **atti politici**, emanati dal Governo nell'esercizio del potere politico: secondo il codice del processo amministrativo (art. 7, d.lgs. 104/2010) non sono impugnabili davanti al giudice amministrativo.",
+      "daSapere": [
+        "Fatto ↔ atto ↔ negozio giuridico",
+        "Provvedimento: imperatività, tipicità, esecutorietà",
+        "Atti politici non impugnabili (art. 7 c.p.a.)"
+      ],
+      "collegamenti": [
+        {
+          "da": "atto-giuridico",
+          "a": "procedimento",
+          "tipo": "collegato",
+          "etichetta": "è preceduto da un"
+        }
+      ]
+    },
+    {
+      "id": "procedimento",
+      "oltre": "Il procedimento amministrativo è disciplinato in via generale dalla **legge n. 241 del 1990**, che ha introdotto principi fondamentali: ogni procedimento deve concludersi con un provvedimento espresso entro un **termine** (in mancanza di disposizioni, trenta giorni); va individuato un **responsabile del procedimento**; gli interessati hanno diritto alla **comunicazione di avvio**, a partecipare presentando memorie e documenti e ad **accedere** agli atti; i provvedimenti devono essere **motivati**.\n\nStrumenti di semplificazione sono la conferenza di servizi e il **silenzio-assenso**, per cui in molti casi la mancata risposta equivale ad accoglimento. Anche le leggi si formano attraverso un procedimento (iniziativa, istruttoria, approvazione, promulgazione, pubblicazione: artt. 71–74 Cost.).",
+      "daSapere": [
+        "Legge 241/1990",
+        "Termine, responsabile, partecipazione, motivazione",
+        "Silenzio-assenso e conferenza di servizi"
+      ],
+      "fonti": [
+        {
+          "titolo": "Legge 7 agosto 1990, n. 241 (procedimento amministrativo), testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "procedimento",
+          "a": "iniziativa-legislativa",
+          "tipo": "collegato",
+          "etichetta": "nel caso della legge si apre con l'"
+        }
+      ]
+    },
+    {
+      "id": "vizi-di-legittimita",
+      "oltre": "La legge sul procedimento amministrativo distingue due forme di invalidità. Il provvedimento è **annullabile** se adottato in violazione di legge, viziato da eccesso di potere o da incompetenza (art. 21-octies, legge 241/1990). È invece **nullo** se manca degli elementi essenziali, è viziato da difetto assoluto di attribuzione, viola o elude il giudicato o negli altri casi previsti dalla legge (art. 21-septies).\n\nL'atto annullabile produce effetti finché non è annullato: dal giudice amministrativo, su ricorso da proporre di regola entro **sessanta giorni**, o dalla stessa amministrazione in **autotutela** (annullamento d'ufficio, art. 21-nonies). Non è annullabile il provvedimento viziato solo nella forma o nel procedimento quando il suo contenuto non avrebbe potuto essere diverso.",
+      "daSapere": [
+        "Annullabilità: violazione di legge, eccesso di potere, incompetenza",
+        "Nullità: art. 21-septies",
+        "Ricorso entro 60 giorni; autotutela"
+      ],
+      "fonti": [
+        {
+          "titolo": "Legge 7 agosto 1990, n. 241 (procedimento amministrativo), testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "vizi-di-legittimita",
+          "a": "tar",
+          "tipo": "collegato",
+          "etichetta": "sono fatti valere davanti al"
+        },
+        {
+          "da": "vizi-di-legittimita",
+          "a": "vizi-di-merito",
+          "tipo": "contrasta",
+          "etichetta": "si distinguono dai"
+        }
+      ]
+    },
+    {
+      "id": "eccesso-di-potere",
+      "oltre": "L'eccesso di potere è il vizio tipico degli atti **discrezionali** ed è stato costruito soprattutto dalla giurisprudenza del **Consiglio di Stato**, dopo l'istituzione della sua IV Sezione giurisdizionale (1889). Poiché lo sviamento dal fine è difficile da provare direttamente, i giudici hanno individuato **figure sintomatiche** che lo rivelano: travisamento dei fatti, difetto di istruttoria, illogicità o contraddittorietà della motivazione, disparità di trattamento, ingiustizia manifesta, violazione delle circolari o della prassi senza ragione.\n\nIl giudice amministrativo non può sostituire la propria valutazione a quella dell'amministrazione (che resterebbe un controllo di **merito**), ma verifica che la scelta sia ragionevole, coerente e fondata sui fatti.",
+      "daSapere": [
+        "Vizio degli atti discrezionali",
+        "Figure sintomatiche elaborate dal Consiglio di Stato",
+        "Controllo di ragionevolezza, non di merito"
+      ],
+      "collegamenti": [
+        {
+          "da": "eccesso-di-potere",
+          "a": "consiglio-di-stato",
+          "tipo": "collegato",
+          "etichetta": "è stato elaborato dal"
+        },
+        {
+          "da": "eccesso-di-potere",
+          "a": "eccesso-di-potere-legislativo",
+          "tipo": "collegato",
+          "etichetta": "ha un corrispondente nell'"
+        }
+      ]
+    },
+    {
+      "id": "incompetenza",
+      "oltre": "Si distinguono due gravità. L'incompetenza **relativa** si ha quando l'atto è adottato da un organo dello stesso settore dell'amministrazione ma diverso da quello competente (per esempio per grado o per territorio): rende l'atto **annullabile**. Il **difetto assoluto di attribuzione**, cioè l'adozione dell'atto da parte di un'amministrazione del tutto priva di potere in quella materia, rende invece l'atto **nullo** (art. 21-septies, legge 241/1990).\n\nLa competenza è fissata dalla legge, e in Costituzione è collegata al principio di **legalità** e alla riserva di legge sull'organizzazione dei pubblici uffici (art. 97: nell'ordinamento degli uffici sono determinate le sfere di competenza, le attribuzioni e le responsabilità dei funzionari).",
+      "daSapere": [
+        "Relativa → annullabilità",
+        "Difetto assoluto di attribuzione → nullità",
+        "Art. 97: sfere di competenza fissate per legge"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 97",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Legge 7 agosto 1990, n. 241 (procedimento amministrativo), testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "incompetenza",
+          "a": "buon-andamento-e-imparzialita",
+          "tipo": "collegato",
+          "etichetta": "viola l'ordine degli uffici voluto dal"
+        }
+      ]
+    },
+    {
+      "id": "volontaria-giurisdizione",
+      "oltre": "La volontaria giurisdizione comprende i procedimenti in cui il giudice non decide una lite tra parti contrapposte, ma **tutela interessi** (spesso di soggetti deboli) che la legge non affida alla sola autonomia privata: l'autorizzazione a compiere atti per conto di un minore, la nomina di un tutore, di un curatore o di un **amministratore di sostegno**, molte decisioni del **giudice tutelare**.\n\nSi svolge di regola con il rito **camerale** (artt. 737 ss. c.p.c.): procedimento semplificato, decisione con decreto motivato. I provvedimenti non passano in **giudicato** e possono essere modificati o revocati se cambiano le circostanze. Per questo la dottrina li considera materialmente amministrativi, anche se adottati da un giudice.",
+      "daSapere": [
+        "Tutela di interessi, non decisione di liti",
+        "Rito camerale: artt. 737 ss. c.p.c.",
+        "Niente giudicato: provvedimenti revocabili"
+      ],
+      "collegamenti": [
+        {
+          "da": "volontaria-giurisdizione",
+          "a": "funzione-giurisdizionale",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dalla normale"
+        }
+      ]
+    },
+    {
+      "id": "costituzione",
+      "oltre": "Il costituzionalismo moderno ha un testo simbolo: l'art. 16 della **Dichiarazione dei diritti dell'uomo e del cittadino** (1789), secondo cui una società nella quale non è assicurata la garanzia dei diritti né determinata la separazione dei poteri non ha una costituzione. In questo senso «costituzione» non è qualsiasi assetto del potere, ma un assetto che **limita** il potere a garanzia della libertà.\n\nLe radici sono antiche e inglesi: la **Magna Charta** (1215), la Petizione dei diritti (1628), il **Bill of Rights** (1689). Le costituzioni del secondo dopoguerra aggiungono la rigidità garantita da un giudice e il catalogo dei diritti sociali. Oggi si parla anche di costituzionalismo **multilivello**, per indicare il concorso tra costituzione nazionale, Carta dei diritti dell'Unione e CEDU.",
+      "daSapere": [
+        "Art. 16 della Dichiarazione del 1789",
+        "Magna Charta 1215; Bill of Rights 1689",
+        "Costituzionalismo multilivello: Costituzione, Carta UE, CEDU"
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione",
+          "a": "separazione-dei-poteri",
+          "tipo": "collegato",
+          "etichetta": "garantisce la"
+        },
+        {
+          "da": "costituzione",
+          "a": "diritti-inviolabili",
+          "tipo": "collegato",
+          "etichetta": "garantisce i"
+        }
+      ]
+    },
+    {
+      "id": "costituzione-scritta",
+      "oltre": "Le prime costituzioni scritte in senso moderno sono quelle delle colonie americane e la **Costituzione federale degli Stati Uniti** (1787), seguite nel 1791 dalla Costituzione polacca del 3 maggio e da quella francese. La forma scritta risponde al bisogno di **certezza** e di **stabilità**: i principi fondamentali sono fissati in un documento conoscibile da tutti e distinto dalle leggi ordinarie.\n\nOggi quasi tutti gli Stati hanno una costituzione scritta; le eccezioni principali sono il **Regno Unito**, Israele e la Nuova Zelanda, che hanno un insieme di leggi fondamentali, consuetudini e convenzioni senza un testo unico. La forma scritta non garantisce da sola la rigidità: lo Statuto albertino era scritto ma flessibile.",
+      "daSapere": [
+        "Stati Uniti 1787; Polonia e Francia 1791",
+        "Certezza e stabilità",
+        "Senza testo unico: Regno Unito, Israele, Nuova Zelanda"
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione-scritta",
+          "a": "costituzione-rigida",
+          "tipo": "collegato",
+          "etichetta": "di regola è anche"
+        }
+      ]
+    },
+    {
+      "id": "costituzione-flessibile",
+      "oltre": "La distinzione tra costituzioni rigide e flessibili si deve al giurista inglese James Bryce (1901). Il caso tipico di costituzione flessibile è quella **britannica**, in cui vige la sovranità del Parlamento: qualunque principio può essere cambiato con un atto del Parlamento.\n\nIn Italia lo **Statuto albertino** mostrò i rischi della flessibilità: durante il fascismo le leggi ordinarie svuotarono l'assetto statutario senza modificarne il testo, per esempio con la legge del 1925 sulle attribuzioni del Capo del Governo, la soppressione dei partiti e la sostituzione della Camera elettiva con la Camera dei fasci e delle corporazioni (1939). Per reazione i costituenti scelsero una costituzione **rigida**.",
+      "daSapere": [
+        "Bryce (1901)",
+        "Regno Unito: sovranità del Parlamento",
+        "Statuto albertino svuotato dal fascismo con leggi ordinarie"
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione-flessibile",
+          "a": "costituzione-rigida",
+          "tipo": "contrasta",
+          "etichetta": "si oppone alla"
+        }
+      ]
+    },
+    {
+      "id": "costituzione-ottriata",
+      "oltre": "Il termine viene dal francese *octroyer*, «concedere». Il modello è la **Charte** concessa da Luigi XVIII nel 1814, dopo la caduta di Napoleone: il re, pur riconoscendo alcuni diritti e una rappresentanza, presentava la costituzione come un atto della propria sovranità, non del popolo.\n\nNel **1848** molti sovrani italiani concessero costituzioni sotto la pressione dei moti: Ferdinando II nel Regno delle Due Sicilie, Leopoldo II in Toscana, Pio IX nello Stato pontificio, Carlo Alberto nel Regno di Sardegna. Fu revocata o cadde ovunque tranne che in Piemonte, dove lo **Statuto albertino** sopravvisse e divenne nel 1861 la costituzione del Regno d'Italia. La costituzione ottriata si oppone a quella **votata** da un'assemblea eletta.",
+      "daSapere": [
+        "*Octroyer*: concedere; Charte del 1814",
+        "1848: costituzioni concesse negli Stati italiani",
+        "Sopravvisse solo lo Statuto albertino"
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione-ottriata",
+          "a": "costituzione-votata",
+          "tipo": "contrasta",
+          "etichetta": "si oppone alla"
+        },
+        {
+          "da": "costituzione-ottriata",
+          "a": "statuto-albertino",
+          "tipo": "collegato",
+          "etichetta": "ha come esempio lo"
+        }
+      ]
+    },
+    {
+      "id": "referendum-istituzionale",
+      "oltre": "Il referendum fu indetto con il decreto legislativo luogotenenziale n. 98 del 16 marzo 1946, che rimise al popolo la scelta della forma istituzionale (superando l'originaria attribuzione all'Assemblea costituente). Si votò il **2 giugno 1946**, insieme all'elezione della Costituente, a suffragio universale: fu il primo voto politico nazionale delle **donne**.\n\nLa Repubblica ottenne circa il **54%** dei voti validi contro circa il 46% della monarchia, con una netta divisione tra Nord (repubblicano) e Sud (monarchico). La Corte di cassazione proclamò i risultati definitivi il 18 giugno; il re Umberto II aveva già lasciato l'Italia il 13 giugno. Il 2 giugno è oggi la Festa della Repubblica.",
+      "daSapere": [
+        "D.lgs.lgt. 98/1946",
+        "2 giugno 1946: Repubblica circa 54%, monarchia circa 46%",
+        "Primo voto politico nazionale delle donne"
+      ],
+      "collegamenti": [
+        {
+          "da": "referendum-istituzionale",
+          "a": "forma-repubblicana",
+          "tipo": "crea",
+          "etichetta": "sceglie la"
+        },
+        {
+          "da": "referendum-istituzionale",
+          "a": "assemblea-costituente",
+          "tipo": "collegato",
+          "etichetta": "si tiene insieme all'elezione dell'"
+        }
+      ]
+    },
+    {
+      "id": "commissione-dei-75",
+      "oltre": "La Commissione per la Costituzione fu nominata dall'Assemblea costituente nel luglio 1946 ed era composta da 75 deputati scelti in proporzione ai gruppi; la presiedeva **Meuccio Ruini**. Si divise in **tre sottocommissioni**: diritti e doveri dei cittadini; ordinamento costituzionale della Repubblica; rapporti economici e sociali. Un **Comitato di redazione** (detto «dei diciotto») coordinò i testi.\n\nIl progetto fu presentato all'Assemblea il 31 gennaio 1947 e discusso in aula da marzo a dicembre 1947. Nel lavoro della Commissione si incontrarono le tre grandi culture politiche (cattolica, socialcomunista e liberale): ne derivò il carattere **compromissorio** della Costituzione, che Martines definisce «convenzionale».",
+      "daSapere": [
+        "Presieduta da Meuccio Ruini",
+        "Tre sottocommissioni e Comitato dei diciotto",
+        "Progetto presentato il 31 gennaio 1947"
+      ],
+      "collegamenti": [
+        {
+          "da": "commissione-dei-75",
+          "a": "meuccio-ruini",
+          "tipo": "collegato",
+          "etichetta": "è presieduta da"
+        },
+        {
+          "da": "commissione-dei-75",
+          "a": "costituzione-convenzionale",
+          "tipo": "causa",
+          "etichetta": "prepara la"
+        }
+      ]
+    },
+    {
+      "id": "enrico-de-nicola",
+      "oltre": "Enrico De Nicola (Napoli 1877 – Torre del Greco 1959), avvocato e giurista di orientamento liberale, era stato presidente della Camera dei deputati dal 1920 al 1924. Eletto **Capo provvisorio dello Stato** il 28 giugno 1946, firmò la Costituzione il 27 dicembre 1947 insieme a Terracini e De Gasperi. Dal 1° gennaio 1948 assunse il titolo di **Presidente della Repubblica** (I disposizione transitoria) e restò in carica fino all'elezione di Luigi Einaudi, nel maggio 1948.\n\nDivenne poi senatore a vita di diritto, fu presidente del Senato (1951–1952) e il primo **presidente della Corte costituzionale** (1956–1957). È l'unica persona ad aver presieduto Camera, Senato, Repubblica e Corte costituzionale.",
+      "daSapere": [
+        "Capo provvisorio dello Stato dal 28 giugno 1946",
+        "Primo Presidente della Repubblica (1948)",
+        "Primo presidente della Corte costituzionale (1956)"
+      ],
+      "collegamenti": [
+        {
+          "da": "enrico-de-nicola",
+          "a": "presidente-della-repubblica",
+          "tipo": "collegato",
+          "etichetta": "è il primo"
+        },
+        {
+          "da": "enrico-de-nicola",
+          "a": "corte-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "presiede per primo la"
+        }
+      ]
+    },
+    {
+      "id": "forma-repubblicana",
+      "oltre": "Repubblica significa anzitutto che il Capo dello Stato è **elettivo e temporaneo**, non ereditario. L'art. 139 la sottrae alla revisione costituzionale: è l'unico **limite espresso** alla revisione. La Corte costituzionale, con la sentenza 1146 del 1988, ha aggiunto i limiti **impliciti**: i principi supremi dell'ordinamento, che non possono essere sovvertiti neppure con legge costituzionale.\n\nLa scelta repubblicana è accompagnata da norme transitorie: la XIII disposizione vietava l'ingresso in Italia agli ex re di Casa Savoia e ai loro discendenti maschi; i primi due commi hanno esaurito i loro effetti con la legge costituzionale n. 1 del 2002. Secondo una lettura più ampia, «repubblicana» implica anche i caratteri democratici dello Stato.",
+      "daSapere": [
+        "Capo dello Stato elettivo e temporaneo",
+        "Art. 139: unico limite espresso; principi supremi (1988)",
+        "XIII disposizione: effetti esauriti nel 2002"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 139 e XIII disposizione transitoria",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 1146/1988",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1988/1146"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "forma-repubblicana",
+          "a": "limiti-alla-revisione-costituzionale",
+          "tipo": "esempio-di",
+          "etichetta": "è il primo dei"
+        },
+        {
+          "da": "forma-repubblicana",
+          "a": "principi-supremi",
+          "tipo": "collegato",
+          "etichetta": "si accompagna ai"
+        }
+      ]
+    },
+    {
+      "id": "principio-democratico",
+      "oltre": "L'art. 1 afferma che l'Italia è una Repubblica **democratica** e che la sovranità appartiene al popolo, che la esercita nelle forme e nei limiti della Costituzione. La democrazia costituzionale non coincide con il potere illimitato della maggioranza: comprende il **pluralismo**, il rispetto delle minoranze, i diritti inviolabili e il controllo di costituzionalità.\n\nIl principio si attua attraverso la **rappresentanza** (elezioni libere, periodiche, a suffragio universale e con voto eguale, personale, libero e segreto: art. 48), gli istituti di **democrazia diretta** e il ruolo dei **partiti**, che concorrono con **metodo democratico** a determinare la politica nazionale (art. 49). Martines lo descrive come continuo collegamento tra governanti e governati.",
+      "daSapere": [
+        "Art. 1: democrazia e sovranità popolare",
+        "Non è il potere illimitato della maggioranza",
+        "Artt. 48 e 49: voto e partiti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 1, 48 e 49",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "principio-democratico",
+          "a": "sovranita-popolare",
+          "tipo": "collegato",
+          "etichetta": "si fonda sulla"
+        },
+        {
+          "da": "principio-democratico",
+          "a": "metodo-democratico",
+          "tipo": "collegato",
+          "etichetta": "richiede ai partiti il"
+        }
+      ]
+    },
+    {
+      "id": "democrazia-diretta",
+      "oltre": "Gli istituti di democrazia diretta previsti dalla Costituzione sono: il **referendum abrogativo** (art. 75), richiesto da 500.000 elettori o cinque Consigli regionali, valido solo se vota la maggioranza degli aventi diritto e escluso per le leggi tributarie e di bilancio, di amnistia e indulto e di autorizzazione alla ratifica dei trattati; il **referendum costituzionale** (art. 138), senza quorum; l'**iniziativa legislativa popolare** (art. 71), con almeno 50.000 firme; la **petizione** alle Camere (art. 50); i referendum sulle variazioni territoriali (artt. 132–133).\n\nIl primo referendum abrogativo si tenne nel **1974**, sulla legge sul divorzio. La Corte costituzionale controlla l'ammissibilità dei quesiti, anche oltre i limiti espressi dell'art. 75.",
+      "daSapere": [
+        "Art. 75: 500.000 elettori, quorum, materie escluse",
+        "Art. 138 senza quorum; art. 71: 50.000 firme",
+        "Primo referendum abrogativo: 1974"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 50, 71, 75 e 138",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "democrazia-diretta",
+          "a": "iniziativa-legislativa-popolare",
+          "tipo": "collegato",
+          "etichetta": "comprende l'"
+        },
+        {
+          "da": "democrazia-diretta",
+          "a": "referendum-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "comprende il"
+        }
+      ]
+    },
+    {
+      "id": "democrazia-rappresentativa",
+      "oltre": "Nella democrazia rappresentativa il popolo non decide direttamente, ma elegge rappresentanti che decidono a nome di tutti. La teoria moderna della rappresentanza politica nasce tra il XVIII e il XIX secolo d.C.: Edmund Burke, nel celebre discorso agli elettori di Bristol (1774), sostenne che il deputato rappresenta l'intera nazione e non è vincolato alle istruzioni dei suoi elettori.\n\nIl principio è accolto dall'art. 67: ogni membro del Parlamento rappresenta la Nazione ed esercita le sue funzioni **senza vincolo di mandato**. Nelle democrazie contemporanee il legame tra elettori ed eletti passa però soprattutto per i **partiti politici**, che selezionano i candidati e organizzano i gruppi parlamentari: si parla per questo di democrazia dei partiti.",
+      "daSapere": [
+        "Burke, discorso di Bristol (1774)",
+        "Art. 67: senza vincolo di mandato",
+        "Ruolo dei partiti politici"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 67",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "democrazia-rappresentativa",
+          "a": "divieto-di-mandato-imperativo",
+          "tipo": "collegato",
+          "etichetta": "si fonda sul"
+        },
+        {
+          "da": "democrazia-rappresentativa",
+          "a": "rappresentanza-politica",
+          "tipo": "collegato",
+          "etichetta": "si realizza con la"
+        }
+      ]
+    },
+    {
+      "id": "principio-lavorista",
+      "oltre": "La formula «fondata sul lavoro» fu proposta all'Assemblea costituente da Amintore Fanfani, come compromesso rispetto alla formula «Repubblica democratica di lavoratori» sostenuta dalle sinistre. Il lavoro diventa così il fondamento della cittadinanza e della dignità sociale, al posto della nascita o della proprietà.\n\nIl principio si sviluppa in molti articoli: il **diritto al lavoro** e il dovere di svolgere un'attività utile alla società (art. 4); la tutela del lavoro in tutte le sue forme (art. 35); la **retribuzione proporzionata e sufficiente** e i limiti di orario, il riposo settimanale e le ferie irrinunciabili (art. 36); la parità della donna lavoratrice e la tutela dei minori (art. 37); l'assistenza e la previdenza (art. 38); la libertà sindacale e il diritto di sciopero (artt. 39–40).",
+      "daSapere": [
+        "Formula proposta da Fanfani",
+        "Artt. 1, 4, 35–40",
+        "Lavoro come fondamento della dignità sociale"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 1, 4 e 35–40",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "principio-lavorista",
+          "a": "diritto-al-lavoro",
+          "tipo": "collegato",
+          "etichetta": "si esprime nel"
+        },
+        {
+          "da": "principio-lavorista",
+          "a": "diritto-sciopero",
+          "tipo": "collegato",
+          "etichetta": "comprende il"
+        }
+      ]
+    },
+    {
+      "id": "principio-autonomista",
+      "oltre": "L'art. 5 unisce due affermazioni: la Repubblica è **una e indivisibile** e **riconosce e promuove** le autonomie locali; attua nei servizi dello Stato il più ampio **decentramento** amministrativo e adegua i principi e i metodi della sua legislazione alle esigenze dell'autonomia. Il verbo «riconosce» indica che le autonomie preesistono allo Stato (i Comuni hanno una lunga storia).\n\nLa riforma del Titolo V (2001) ha rafforzato il principio: Comuni, Province, Città metropolitane e Regioni sono, con lo Stato, elementi costitutivi della Repubblica (art. 114); le funzioni amministrative spettano di regola ai **Comuni**, secondo i principi di **sussidiarietà**, differenziazione e adeguatezza (art. 118). Il limite resta l'unità: lo Stato può esercitare un potere sostitutivo per tutelare l'unità giuridica o economica (art. 120).",
+      "daSapere": [
+        "Art. 5: unità e autonomie",
+        "Art. 114 e art. 118: sussidiarietà",
+        "Art. 120: potere sostitutivo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 5, 114, 118 e 120",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "principio-autonomista",
+          "a": "autonomia",
+          "tipo": "collegato",
+          "etichetta": "garantisce l'"
+        },
+        {
+          "da": "principio-autonomista",
+          "a": "decentramento-istituzionale",
+          "tipo": "collegato",
+          "etichetta": "si attua con il"
+        }
+      ]
+    },
+    {
+      "id": "laicita",
+      "oltre": "La parola «laicità» non compare nella Costituzione: la Corte costituzionale l'ha ricavata dagli artt. 2, 3, 7, 8, 19 e 20 e, con la **sentenza 203 del 1989** (sull'insegnamento della religione cattolica nelle scuole), l'ha definita **principio supremo** dell'ordinamento. Laicità non significa indifferenza verso la religione, ma **equidistanza e imparzialità** dello Stato verso tutte le confessioni e garanzia della libertà religiosa di ciascuno.\n\nCon l'**Accordo di Villa Madama** del 1984, che ha modificato il Concordato del 1929, il cattolicesimo ha cessato di essere religione dello Stato. Temi ricorrenti sono l'insegnamento della religione (facoltativo), i simboli religiosi negli spazi pubblici (sul crocifisso nelle aule si è pronunciata la Corte europea dei diritti dell'uomo, nel caso Lautsi, 2011) e le intese con le confessioni.",
+      "daSapere": [
+        "Corte cost. 203/1989: principio supremo",
+        "Equidistanza, non indifferenza",
+        "Accordo di Villa Madama 1984: niente religione di Stato"
+      ],
+      "fonti": [
+        {
+          "titolo": "Corte costituzionale, sentenza 203/1989",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1989/203"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "laicita",
+          "a": "accordo-di-villa-madama",
+          "tipo": "collegato",
+          "etichetta": "è rafforzata dall'"
+        },
+        {
+          "da": "laicita",
+          "a": "liberta-religiosa",
+          "tipo": "collegato",
+          "etichetta": "garantisce la"
+        }
+      ]
+    },
+    {
+      "id": "principio-internazionalista",
+      "oltre": "Il principio internazionalista nasce dal rifiuto della politica di potenza e di guerra del fascismo. L'art. 10 conforma l'ordinamento alle norme del diritto internazionale generalmente riconosciute e tutela lo straniero; l'art. 11 dichiara che l'Italia **ripudia la guerra** come strumento di offesa alla libertà degli altri popoli e come mezzo di risoluzione delle controversie internazionali, e consente in condizioni di parità le **limitazioni di sovranità** necessarie a un ordinamento di pace e giustizia, promuovendo le organizzazioni internazionali.\n\nSull'art. 11 si fondano l'adesione all'ONU e la partecipazione all'**integrazione europea**; dal 2001 l'art. 117, primo comma, vincola anche il legislatore al rispetto dei vincoli europei e degli **obblighi internazionali**. La guerra difensiva resta ammessa (artt. 52 e 78).",
+      "daSapere": [
+        "Art. 10: adattamento al diritto internazionale",
+        "Art. 11: ripudio della guerra, limitazioni di sovranità",
+        "Art. 117: vincoli europei e obblighi internazionali"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 10, 11 e 117",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "principio-internazionalista",
+          "a": "adattamento-automatico",
+          "tipo": "collegato",
+          "etichetta": "si attua con l'"
+        },
+        {
+          "da": "principio-internazionalista",
+          "a": "onu",
+          "tipo": "collegato",
+          "etichetta": "fonda l'adesione all'"
+        }
+      ]
+    },
+    {
+      "id": "disposizioni-programmatiche",
+      "oltre": "Nei primi anni dopo il 1948 la **Corte di cassazione** (Sezioni unite penali, 7 febbraio 1948) distinse le norme costituzionali in **precettive** di immediata applicazione, **precettive a efficacia differita** (che richiedono una legge di attuazione) e **programmatiche**, rivolte solo al legislatore. Ne seguiva che molte leggi fasciste contrarie ai principi costituzionali restavano in vigore.\n\nLa **Corte costituzionale**, con la sua prima sentenza (n. 1 del 1956), respinse la rilevanza di quella distinzione ai fini del giudizio di legittimità: anche le norme programmatiche sono **norme giuridiche** e possono rendere illegittima una legge che le contraddica, anteriore o successiva alla Costituzione. Fu un passaggio decisivo per l'**attuazione** della Costituzione.",
+      "daSapere": [
+        "Cassazione 1948: precettive, a efficacia differita, programmatiche",
+        "Corte cost. 1/1956: anche le programmatiche sono parametro",
+        "Svolta per l'attuazione della Costituzione"
+      ],
+      "fonti": [
+        {
+          "titolo": "Corte costituzionale, sentenza 1/1956",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1956/1"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "disposizioni-programmatiche",
+          "a": "disposizioni-precettive",
+          "tipo": "contrasta",
+          "etichetta": "si distinguono dalle"
+        },
+        {
+          "da": "disposizioni-programmatiche",
+          "a": "corte-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "sono applicate come parametro dalla"
+        }
+      ]
+    }
+  ]
+}

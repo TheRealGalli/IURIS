@@ -8,6 +8,8 @@ export interface DocumentoOriginale {
   file?: string;
   pagine: number;
   sha256?: string;
+  /** Documento solo testo, senza PDF pubblicato: testo ripulito in letture-src (sha256 è la sua impronta). */
+  testoFonte?: string;
   tipoFonte?: 'manuale-ricostruito';
 }
 

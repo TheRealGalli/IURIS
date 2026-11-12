@@ -1,0 +1,676 @@
+{
+  "voci": [
+    {
+      "id": "ragionamento-giuridico",
+      "oltre": "Con «ragionamento giuridico» si indicano i modi in cui i giuristi argomentano e giustificano le decisioni: applicazione di regole, uso dei precedenti, analogia, interpretazione, bilanciamento. La teoria dell'argomentazione giuridica si è sviluppata soprattutto dagli anni Cinquanta e Settanta del XX secolo d.C.: in Europa con la «nuova retorica» di Chaïm Perelman e la topica di Theodor Viehweg, poi con Robert Alexy (*Teoria dell'argomentazione giuridica*, 1978) e Neil MacCormick (*Legal Reasoning and Legal Theory*, 1978); negli Stati Uniti con Edward Levi (1949).\n\nUn tema classico è il **sillogismo giudiziale**: la norma come premessa maggiore, il fatto come premessa minore, la decisione come conclusione. Quasi tutti oggi riconoscono che lo schema descrive bene la giustificazione finale, ma non la scelta delle premesse, che richiede interpretazione e valutazione. [[frederick-schauer|Schauer]] si chiede se il ragionamento giuridico sia davvero diverso da quello comune: la sua risposta è che lo è per grado, per il peso che dà a regole, precedenti e autorità.",
+      "daSapere": [
+        "Perelman e Viehweg (anni Cinquanta); Alexy e MacCormick (1978)",
+        "Sillogismo giudiziale: norma, fatto, decisione",
+        "Schauer: differenza di grado, non di natura"
+      ],
+      "collegamenti": [
+        {
+          "da": "ragionamento-giuridico",
+          "a": "decisioni-subottimali",
+          "tipo": "collegato",
+          "etichetta": "accetta per valori istituzionali le"
+        }
+      ]
+    },
+    {
+      "id": "regola",
+      "oltre": "Nella teoria del diritto «regola» e «norma» sono spesso usate come sinonimi; alcuni autori distinguono però le **regole**, che si applicano «tutto o niente», dai **principi**, che hanno un peso e si bilanciano ([[ronald-dworkin|Dworkin]], *The Model of Rules*, 1967; poi Robert Alexy). Per [[hart|Hart]] il diritto è un'unione di [[norme-primarie-e-secondarie|norme primarie e secondarie]], e le regole sociali hanno un aspetto interno: chi le accetta le usa come criterio per criticare e giustificare.\n\nIn filosofia [[wittgenstein|Wittgenstein]] (*Ricerche filosofiche*, 1953) ha posto il problema di che cosa significhi «seguire una regola»: nessuna formulazione determina da sola le sue applicazioni, che dipendono da una pratica condivisa. La teoria di [[frederick-schauer|Schauer]] insiste su un aspetto diverso: la regola è una **generalizzazione trincerata**, che vincola anche quando la sua ragione, nel caso singolo, porterebbe altrove.",
+      "daSapere": [
+        "Regole (tutto o niente) e principi (peso): Dworkin, Alexy",
+        "Hart: aspetto interno delle regole",
+        "Wittgenstein: che cosa vuol dire seguire una regola",
+        "Schauer: generalizzazione trincerata"
+      ],
+      "collegamenti": [
+        {
+          "da": "regola",
+          "a": "trinceramento-delle-regole",
+          "tipo": "collegato",
+          "etichetta": "vincola grazie al"
+        },
+        {
+          "da": "regola",
+          "a": "generalita-delle-norme",
+          "tipo": "collegato",
+          "etichetta": "ha come tratto la"
+        }
+      ]
+    },
+    {
+      "id": "giustificazione-soggiacente",
+      "oltre": "L'idea che ogni regola abbia una ragione che la spiega è antica: i giuristi parlano di *ratio legis*, la ragione della legge, e di interpretazione teleologica. Il punto originale di [[frederick-schauer|Schauer]] (in *Playing by the Rules*, 1991) è distinguere la regola dalla sua giustificazione: la regola è una generalizzazione che serve la giustificazione **in media**, non in ogni caso.\n\nNe derivano due modelli di decisione. Nel modello **particolaristico** si guarda sempre direttamente alla giustificazione e la regola è solo un'indicazione di massima (una «regola empirica»); nel modello **basato su regole** la regola vincola anche quando la giustificazione indicherebbe un'altra soluzione. Il secondo produce errori nei casi di [[sovrainclusivita|sovrainclusività]] e [[sottoinclusivita|sottoinclusività]], ma in cambio offre prevedibilità, coordinamento e limiti al potere di chi decide.",
+      "daSapere": [
+        "Corrisponde alla *ratio legis*",
+        "Schauer: la regola serve la giustificazione in media",
+        "Modello particolaristico contro modello basato su regole"
+      ],
+      "collegamenti": [
+        {
+          "da": "giustificazione-soggiacente",
+          "a": "scopo-della-norma",
+          "tipo": "collegato",
+          "etichetta": "corrisponde allo"
+        }
+      ]
+    },
+    {
+      "id": "sovrainclusivita",
+      "oltre": "Il termine viene dalla teoria del diritto costituzionale americano, dove si dice che una classificazione legislativa è *over-inclusive* quando colpisce anche persone che non presentano il problema che la legge vuole affrontare. [[frederick-schauer|Schauer]] lo ha generalizzato a tutte le regole: poiché una regola usa una proprietà generale (l'età, il tipo di veicolo, una soglia di velocità) come indicatore di ciò che conta davvero, finirà sempre per includere alcuni casi in cui la sua ragione non si applica.\n\nEsempio classico: il limite di velocità colpisce anche il guidatore esperto che, su una strada deserta, procederebbe più veloce in piena sicurezza. Il diritto può tollerare questi errori, correggerli con eccezioni o sostituire la regola con uno [[standard|standard]]: è il problema delle [[regole-e-standard|regole e standard]].",
+      "daSapere": [
+        "Dall'inglese *over-inclusive*",
+        "Ogni regola usa un indicatore generale di ciò che conta",
+        "Esempio: limite di velocità per il guidatore esperto su strada deserta"
+      ],
+      "collegamenti": [
+        {
+          "da": "sovrainclusivita",
+          "a": "regole-e-standard",
+          "tipo": "causa",
+          "etichetta": "motiva la scelta tra"
+        }
+      ]
+    },
+    {
+      "id": "sottoinclusivita",
+      "oltre": "È il difetto speculare della [[sovrainclusivita|sovrainclusività]] (in inglese *under-inclusive*): la regola lascia fuori casi che la sua ragione vorrebbe coprire. Nel diritto costituzionale americano una classificazione sottoinclusiva può essere sospetta, perché colpisce solo alcuni dei soggetti che creano lo stesso problema e può nascondere una discriminazione.\n\nNella teoria delle regole di [[frederick-schauer|Schauer]] non è un'anomalia ma una conseguenza inevitabile della generalità: ogni regola, per essere chiara, deve scegliere una proprietà, e nessuna proprietà coincide perfettamente con la ragione della regola. Il rimedio tipico è l'[[analogia|analogia]], che estende la regola ai casi simili non previsti; ma nel diritto penale l'analogia a sfavore dell'imputato è vietata, e la sottoinclusività va accettata.",
+      "daSapere": [
+        "Dall'inglese *under-inclusive*",
+        "Conseguenza inevitabile della generalità delle regole",
+        "Rimedio tipico: l'analogia (non nel penale a sfavore dell'imputato)"
+      ]
+    },
+    {
+      "id": "generalita-delle-norme",
+      "oltre": "La generalità della legge è un tema antico. Già [[aristotele|Aristotele]], nel libro V dell'*Etica Nicomachea*, osserva che la legge parla in generale e non può prevedere tutti i casi: per questo serve l'**equità** (*epieikeia*), che corregge la legge dove sbaglia a causa della sua generalità. Nella tradizione moderna la generalità e l'astrattezza sono considerate caratteri tipici della norma giuridica e garanzie di uguaglianza: la legge vale per tutti, non per singoli individui.\n\nIl merito di [[frederick-schauer|Schauer]] è mostrare l'altro lato della generalità: proprio perché è generale, la norma è necessariamente imperfetta rispetto ai casi concreti ([[sovrainclusivita|sovrainclusività]] e [[sottoinclusivita|sottoinclusività]]). Scegliere di decidere per regole significa accettare questi errori.",
+      "daSapere": [
+        "Aristotele: la legge è generale, l'equità la corregge",
+        "Generalità e astrattezza come garanzia di uguaglianza",
+        "Schauer: la generalità rende la norma imperfetta nei casi singoli"
+      ],
+      "collegamenti": [
+        {
+          "da": "generalita-delle-norme",
+          "a": "equita",
+          "tipo": "causa",
+          "etichetta": "rende necessaria l'"
+        }
+      ]
+    },
+    {
+      "id": "nucleo-e-penombra",
+      "oltre": "La distinzione viene dal saggio di [[hart|Hart]] *Positivism and the Separation of Law and Morals*, pubblicato nella *Harvard Law Review* nel 1958. Ogni termine generale ha un **nucleo** di significato certo (*core of settled meaning*), in cui l'applicazione è pacifica, e una **penombra** (*penumbra*) di casi dubbi, in cui il linguaggio non decide e il giudice deve scegliere. Hart la sviluppò nel capitolo VII de *[[il-concetto-di-diritto|Il concetto di diritto]]* (1961) con la nozione di [[trama-aperta|trama aperta]].\n\nLa tesi fu contestata da [[lon-fuller|Fuller]] ([[dibattito-hart-fuller|dibattito Hart–Fuller]]), per il quale anche i casi «di nucleo» si capiscono solo alla luce dello scopo della regola, e da [[ronald-dworkin|Dworkin]], per il quale anche nella penombra i principi guidano il giudice verso una risposta corretta.",
+      "daSapere": [
+        "Hart, *Harvard Law Review*, 1958",
+        "Nucleo di significato certo / penombra di casi dubbi",
+        "Critiche: Fuller (lo scopo), Dworkin (i principi)"
+      ],
+      "collegamenti": [
+        {
+          "da": "nucleo-e-penombra",
+          "a": "trama-aperta",
+          "tipo": "evolve-in",
+          "etichetta": "è sviluppato nella"
+        }
+      ]
+    },
+    {
+      "id": "veicoli-nel-parco",
+      "oltre": "L'esempio compare nel saggio di [[hart|Hart]] del 1958: una regola vieta l'ingresso di veicoli nel parco. Un'automobile è chiaramente un veicolo (nucleo), ma che dire di biciclette, pattini a rotelle, automobili giocattolo, aeroplani? Sono i casi di penombra.\n\n[[lon-fuller|Fuller]], nella risposta pubblicata nello stesso numero della rivista, propose un controesempio: un gruppo di cittadini vuole collocare nel parco, come monumento ai caduti, un autocarro militare della Seconda guerra mondiale perfettamente funzionante. È senza dubbio un veicolo, eppure sembra assurdo che la regola lo vieti: per Fuller anche il «nucleo» dipende dallo scopo della norma. Da allora l'esempio è diventato il banco di prova di quasi tutte le teorie dell'interpretazione, compresa quella di [[frederick-schauer|Schauer]], che lo usa per mostrare la forza delle regole anche contro il loro scopo.",
+      "daSapere": [
+        "Hart (1958): il divieto di veicoli nel parco",
+        "Casi dubbi: biciclette, pattini, giocattoli",
+        "Fuller: l'autocarro come monumento ai caduti"
+      ],
+      "collegamenti": [
+        {
+          "da": "lon-fuller",
+          "a": "veicoli-nel-parco",
+          "tipo": "interpreta",
+          "etichetta": "oppone il monumento ai caduti ai"
+        }
+      ]
+    },
+    {
+      "id": "effetto-selettivo",
+      "oltre": "La formulazione più nota dell'effetto si deve a George Priest e Benjamin Klein, *The Selection of Disputes for Litigation* (*Journal of Legal Studies*, 1984). Poiché un processo costa, le parti transigono quando possono prevedere l'esito; arrivano a sentenza soprattutto le controversie in cui l'esito è incerto. Ne deriva l'ipotesi, molto discussa, che nei casi decisi l'attore vinca circa la metà delle volte.\n\nPer la teoria del diritto la conseguenza è importante: chi studia solo le sentenze, e in particolare quelle d'appello, vede un campione distorto in cui prevalgono i [[casi-difficili|casi difficili]]. Da qui l'impressione, alimentata dal [[realismo-giuridico-americano|realismo]], che il diritto sia sempre indeterminato, mentre nella grande maggioranza delle situazioni ([[casi-facili|casi facili]]) le regole decidono senza che nessuno vada in giudizio.",
+      "daSapere": [
+        "G. Priest e B. Klein, *Journal of Legal Studies*, 1984",
+        "Si va a sentenza soprattutto quando l'esito è incerto",
+        "Le sentenze sono un campione distorto del diritto"
+      ],
+      "collegamenti": [
+        {
+          "da": "effetto-selettivo",
+          "a": "casi-facili",
+          "tipo": "collegato",
+          "etichetta": "tiene fuori dai tribunali i"
+        }
+      ]
+    },
+    {
+      "id": "casi-difficili",
+      "oltre": "L'espressione è diventata centrale nella teoria del diritto con il saggio di [[ronald-dworkin|Ronald Dworkin]] *Hard Cases* (1975), poi raccolto in *I diritti presi sul serio* (1977). Per [[hart|Hart]], nei casi difficili le regole si esauriscono e il giudice ha discrezionalità; per Dworkin, invece, anche nei casi difficili esiste di regola una risposta giusta, che un giudice ideale («Ercole») troverebbe ricostruendo i principi che meglio giustificano l'intero diritto.\n\nUn caso può essere difficile per ragioni diverse: il linguaggio è vago, le norme sono in conflitto, manca una norma, oppure la regola è chiara ma la sua applicazione porterebbe a un risultato assurdo o ingiusto. [[frederick-schauer|Schauer]] ricorda che i casi difficili sono una minoranza, sovrarappresentata nelle aule giudiziarie dall'[[effetto-selettivo|effetto selettivo]].",
+      "daSapere": [
+        "Dworkin, *Hard Cases* (1975); *I diritti presi sul serio* (1977)",
+        "Hart: discrezionalità; Dworkin: risposta giusta (il giudice Ercole)",
+        "Fonti di difficoltà: vaghezza, conflitti, lacune, esiti assurdi"
+      ],
+      "collegamenti": [
+        {
+          "da": "ronald-dworkin",
+          "a": "casi-difficili",
+          "tipo": "interpreta",
+          "etichetta": "cerca la risposta giusta anche nei"
+        },
+        {
+          "da": "casi-facili",
+          "a": "casi-difficili",
+          "tipo": "contrasta",
+          "etichetta": "sono molto più numerosi dei"
+        }
+      ]
+    },
+    {
+      "id": "lettera-e-spirito-della-legge",
+      "oltre": "La contrapposizione tra lettera e spirito ha radici antiche: nella retorica romana si discuteva se seguire le parole (*scriptum*) o la volontà (*voluntas*) di chi aveva scritto un testo, e la formula «la lettera uccide, lo spirito vivifica» viene dalla Seconda lettera ai Corinzi di san Paolo. In età moderna *Lo spirito delle leggi* di [[montesquieu|Montesquieu]] (1748) usa «spirito» in senso diverso: l'insieme dei rapporti che le leggi hanno con il clima, i costumi, la forma di governo.\n\nNel diritto italiano l'art. 12 delle disposizioni preliminari al codice civile chiede di attribuire alla legge il senso «fatto palese dal significato proprio delle parole secondo la connessione di esse, e dalla intenzione del legislatore»: lettera e spirito insieme. Negli Stati Uniti il conflitto è illustrato da *[[church-of-the-holy-trinity|Holy Trinity]]* (prevale lo spirito) e da *[[united-states-v-locke|Locke]]* (prevale la lettera).",
+      "daSapere": [
+        "Retorica romana: *scriptum* e *voluntas*",
+        "San Paolo: «la lettera uccide, lo spirito vivifica»",
+        "Art. 12 preleggi: significato delle parole e intenzione del legislatore"
+      ],
+      "collegamenti": [
+        {
+          "da": "lettera-e-spirito-della-legge",
+          "a": "intenzione-del-legislatore",
+          "tipo": "collegato",
+          "etichetta": "richiama nello spirito l'"
+        }
+      ]
+    },
+    {
+      "id": "ragione-artificiale",
+      "oltre": "La formula è di [[edward-coke|Edward Coke]]. Secondo il resoconto da lui stesso pubblicato (*Prohibitions del Roy*, 1607–1608), Giacomo I sosteneva di poter decidere personalmente le cause, perché il diritto si fonda sulla ragione e anche il re possiede la ragione. Coke rispose che il re ha grandi doti naturali, ma le cause dei sudditi non si decidono con la ragione naturale, bensì con la ragione artificiale e il giudizio del diritto, che richiedono lungo studio ed esperienza.\n\nL'episodio è diventato il simbolo dell'indipendenza dei giudici e dell'idea che il diritto sia un sapere tecnico, accumulato nei secoli attraverso i [[precedente-giudiziale|precedenti]]. [[thomas-hobbes|Hobbes]], nel *Dialogo tra un filosofo e uno studioso del common law* (pubblicato postumo nel 1681), criticò proprio questa idea: per lui il diritto è comando del sovrano, non ragione dei giuristi.",
+      "daSapere": [
+        "Coke contro Giacomo I (1607–1608)",
+        "Ragione artificiale = sapere tecnico dei giuristi",
+        "Critica di Hobbes nel *Dialogo* (1681)"
+      ],
+      "collegamenti": [
+        {
+          "da": "thomas-hobbes",
+          "a": "ragione-artificiale",
+          "tipo": "contrasta",
+          "etichetta": "critica la"
+        }
+      ]
+    },
+    {
+      "id": "precedente-giudiziale",
+      "oltre": "Nei sistemi di [[common-law|common law]] il precedente è la fonte principale del diritto non scritto: le decisioni passate vincolano i giudici successivi secondo la regola dello [[stare-decisis|stare decisis]]. Si distinguono il precedente **vincolante** (*binding*), che il giudice deve seguire, e quello **persuasivo**, che può considerare.\n\nNei sistemi di [[civil-law|civil law]] come quello italiano il precedente non è formalmente fonte del diritto: il giudice è soggetto soltanto alla legge (art. 101 Cost.). Tuttavia ha un forte peso di fatto, e la legge lo ha rafforzato: la Corte di cassazione ha la funzione di assicurare l'uniforme interpretazione della legge (nomofilachia), e dal 2006 una sezione semplice che non condivide un principio affermato dalle Sezioni unite deve rimettere loro la questione (art. 374 c.p.c.). È una delle ragioni della [[convergenza-dei-sistemi|convergenza dei sistemi]].",
+      "daSapere": [
+        "Precedente vincolante e persuasivo",
+        "Italia: giudice soggetto solo alla legge (art. 101 Cost.)",
+        "Nomofilachia della Cassazione; art. 374 c.p.c."
+      ],
+      "collegamenti": [
+        {
+          "da": "precedente-giudiziale",
+          "a": "convergenza-dei-sistemi",
+          "tipo": "collegato",
+          "etichetta": "acquista peso anche nel civil law:"
+        }
+      ]
+    },
+    {
+      "id": "precedente-verticale",
+      "oltre": "Il vincolo verticale è il nucleo più solido dello [[stare-decisis|stare decisis]]: un tribunale inferiore deve seguire le decisioni delle corti superiori della stessa gerarchia. Negli Stati Uniti, ad esempio, le corti federali devono seguire le decisioni della [[corte-suprema-degli-stati-uniti|Corte Suprema]] e della Corte d'appello del proprio circuito; le decisioni di altri circuiti sono soltanto persuasive.\n\nIl vincolo è giustificato dall'uniformità del diritto, dalla prevedibilità e dall'economia dei giudizi: se il giudice inferiore decidesse diversamente, la sua sentenza verrebbe comunque riformata in appello. Proprio perché vale anche quando il giudice inferiore ritiene sbagliata la decisione superiore, è l'esempio più chiaro dell'[[autorita|autorità]] indipendente dal contenuto di cui parla Schauer.",
+      "daSapere": [
+        "Il giudice inferiore segue la corte superiore",
+        "USA: Corte Suprema e Corte d'appello del proprio circuito",
+        "Ragioni: uniformità, prevedibilità, economia"
+      ],
+      "collegamenti": [
+        {
+          "da": "precedente-verticale",
+          "a": "indipendenza-dal-contenuto",
+          "tipo": "esempio-di",
+          "etichetta": "è il caso più chiaro di"
+        }
+      ]
+    },
+    {
+      "id": "precedente-orizzontale",
+      "oltre": "Il vincolo orizzontale riguarda il rapporto di una corte con le proprie decisioni passate. La sua forza varia molto da un ordinamento all'altro. In Inghilterra la House of Lords si considerò vincolata ai propri precedenti dal caso *London Tramways* (1898) fino al *Practice Statement* del 1966, con cui si riservò di discostarsene «quando appaia giusto farlo»; la stessa facoltà spetta oggi alla Corte Suprema del Regno Unito, istituita nel 2009.\n\nLa [[corte-suprema-degli-stati-uniti|Corte Suprema]] americana non si è mai considerata del tutto vincolata, ma richiede una «speciale giustificazione» per l'[[overruling|overruling]], valutando la correttezza del precedente, la sua praticabilità e l'affidamento che ha generato. Il vincolo orizzontale è quindi più debole di quello [[precedente-verticale|verticale]].",
+      "daSapere": [
+        "House of Lords: *London Tramways* (1898), *Practice Statement* (1966)",
+        "Corte Suprema del Regno Unito dal 2009",
+        "USA: serve una «speciale giustificazione» per superare un precedente"
+      ],
+      "collegamenti": [
+        {
+          "da": "precedente-orizzontale",
+          "a": "overruling",
+          "tipo": "collegato",
+          "etichetta": "può cedere all'"
+        }
+      ]
+    },
+    {
+      "id": "stare-decisis",
+      "oltre": "L'espressione abbrevia la massima latina *stare decisis et non quieta movere*: «attenersi a ciò che è stato deciso e non smuovere ciò che è tranquillo». La dottrina del precedente vincolante si consolidò in Inghilterra soprattutto nel XIX secolo d.C., quando la pubblicazione sistematica delle sentenze (i *law reports*) e la riorganizzazione dei tribunali resero possibile una gerarchia chiara delle decisioni.\n\nLe ragioni tradizionali dello stare decisis sono la prevedibilità, l'uguaglianza di trattamento tra casi simili, l'economia dei giudizi e il contenimento del potere dei singoli giudici. Le critiche, da [[jeremy-bentham|Bentham]] in poi, osservano che vincola il presente agli errori del passato. Per [[frederick-schauer|Schauer]] questo è proprio il punto: seguire un precedente ha senso solo se si è disposti a seguirlo anche quando lo si ritiene sbagliato.",
+      "daSapere": [
+        "*Stare decisis et non quieta movere*",
+        "Consolidato in Inghilterra nel XIX secolo d.C.",
+        "Ragioni: prevedibilità, uguaglianza, economia, limiti al potere del giudice"
+      ],
+      "collegamenti": [
+        {
+          "da": "stare-decisis",
+          "a": "certezza-del-diritto",
+          "tipo": "causa",
+          "etichetta": "garantisce la"
+        }
+      ]
+    },
+    {
+      "id": "ratio-decidendi",
+      "oltre": "*Ratio decidendi* significa «ragione della decisione»: è la parte di una sentenza che costituisce precedente vincolante. Le teorie su come individuarla sono diverse: per alcuni è la regola che il giudice ha dichiarato necessaria per decidere; per [[arthur-goodhart|Goodhart]] (1930) è la combinazione tra i fatti che il giudice ha trattato come materiali e la decisione; per altri ancora è ciò che i giudici successivi riconoscono come tale.\n\nIn Italia il concetto più vicino è la **massima** della Cassazione, il principio di diritto estratto dalla sentenza dall'Ufficio del massimario. A differenza della ratio di common law, la massima è formulata in astratto e spesso separata dai fatti del caso: un limite segnalato da molti studiosi, perché lo stesso principio può avere portata diversa a seconda dei fatti da cui è nato.",
+      "daSapere": [
+        "«Ragione della decisione»: la parte vincolante della sentenza",
+        "Teorie: regola dichiarata; fatti materiali (Goodhart); riconoscimento successivo",
+        "Italia: la massima della Cassazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "ratio-decidendi",
+          "a": "obiter-dictum",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dall'"
+        }
+      ]
+    },
+    {
+      "id": "obiter-dictum",
+      "oltre": "*Obiter dictum* significa «detto per inciso» (al plurale *obiter dicta*): sono le affermazioni della sentenza non necessarie per decidere, come osservazioni su casi ipotetici, digressioni o principi enunciati più ampiamente del necessario. Non vincolano i giudici successivi, ma possono avere valore persuasivo, tanto maggiore quanto più autorevole è la corte.\n\nLa distinzione si giustifica perché la corte ha esaminato a fondo solo la questione che doveva decidere, ascoltando le parti; sul resto ha parlato senza contraddittorio. Nella pratica, però, il confine con la [[ratio-decidendi|ratio decidendi]] è spesso incerto, e i *dicta* delle corti supreme, in particolare, vengono seguiti di fatto dalle corti inferiori.",
+      "daSapere": [
+        "«Detto per inciso»: plurale *obiter dicta*",
+        "Non vincolante, ma persuasivo",
+        "Ragione: sul resto la corte non ha sentito le parti"
+      ]
+    },
+    {
+      "id": "distinguishing",
+      "oltre": "Il *distinguishing* è la tecnica con cui un giudice di common law evita di applicare un precedente vincolante mostrando che il caso presente differisce in un fatto rilevante: il precedente resta valido, ma non si applica. È la valvola di flessibilità dello [[stare-decisis|stare decisis]], perché permette al diritto di adattarsi senza dichiarare che le decisioni passate erano sbagliate.\n\nLa tecnica ha un limite: se il giudice distingue per differenze irrilevanti, solo per non applicare un precedente che non condivide, il vincolo diventa illusorio. Si parla allora di distinzioni «artificiose». Il giudizio su quali differenze contino rimanda al problema della [[somiglianza-rilevante|somiglianza rilevante]], centrale anche per l'[[analogia|analogia]], di cui il distinguishing è l'operazione inversa.",
+      "daSapere": [
+        "Non applicare un precedente per una differenza rilevante",
+        "Il precedente resta valido",
+        "Rischio: distinzioni artificiose"
+      ],
+      "collegamenti": [
+        {
+          "da": "distinguishing",
+          "a": "analogia",
+          "tipo": "contrasta",
+          "etichetta": "è l'operazione inversa dell'"
+        }
+      ]
+    },
+    {
+      "id": "overruling",
+      "oltre": "L'*overruling* è l'abbandono esplicito di un precedente da parte di una corte che ne ha il potere (la stessa corte o una superiore). Esempi celebri negli Stati Uniti: *Brown v. Board of Education* (1954), che superò la dottrina «separati ma uguali» di *Plessy v. Ferguson* (1896); *[[brandenburg-v-ohio|Brandenburg v. Ohio]]* (1969); *Dobbs* (2022), che superò *[[roe-v-wade|Roe v. Wade]]*.\n\nPoiché la regola nuova si applica di solito anche al caso in corso e a fatti avvenuti prima, l'overruling pone un problema di [[retroattivita-del-common-law|retroattività]]. Per attenuarlo alcune corti hanno usato il *prospective overruling*, che applica la nuova regola solo per il futuro. In Italia il fenomeno corrispondente è il **mutamento di giurisprudenza**, in particolare delle Sezioni unite della Cassazione.",
+      "daSapere": [
+        "*Brown* (1954) supera *Plessy* (1896)",
+        "*Dobbs* (2022) supera *Roe* (1973)",
+        "*Prospective overruling*: la nuova regola vale per il futuro"
+      ],
+      "collegamenti": [
+        {
+          "da": "overruling",
+          "a": "retroattivita-del-common-law",
+          "tipo": "causa",
+          "etichetta": "pone il problema della"
+        }
+      ]
+    },
+    {
+      "id": "tipi-naturali",
+      "oltre": "L'idea che la realtà abbia «articolazioni» naturali risale a Platone, che nel *Fedro* invita a dividere le cose «secondo le loro naturali articolazioni», come un buon macellaio. Nella filosofia del linguaggio del XX secolo d.C. Saul Kripke e Hilary Putnam (anni Settanta) hanno sostenuto che termini come «acqua» od «oro» si riferiscono a tipi naturali, la cui essenza (ad esempio la struttura chimica) è scoperta dalla scienza e non fissata dal linguaggio.\n\nPer il diritto la domanda è se le categorie giuridiche rispecchino tipi naturali o siano costruite dal diritto stesso. [[frederick-schauer|Schauer]] sostiene la seconda risposta: la [[somiglianza-rilevante|somiglianza rilevante]] tra i casi non è data dalla natura, ma dipende dagli scopi e dalle scelte dell'ordinamento.",
+      "daSapere": [
+        "Platone, *Fedro*: dividere secondo le articolazioni naturali",
+        "Kripke e Putnam: acqua, oro come tipi naturali",
+        "Schauer: le categorie giuridiche sono costruite"
+      ],
+      "collegamenti": [
+        {
+          "da": "tipi-naturali",
+          "a": "somiglianza-rilevante",
+          "tipo": "contrasta",
+          "etichetta": "non bastano a fondare la"
+        }
+      ]
+    },
+    {
+      "id": "somiglianza-rilevante",
+      "oltre": "Il principio di giustizia formale, che risale ad [[aristotele|Aristotele]], chiede di trattare in modo uguale i casi uguali e in modo diverso i casi diversi. Ma tutto è simile a tutto sotto qualche aspetto: il principio non dice quali somiglianze contano. La filosofia del diritto chiama talvolta *tertium comparationis* l'elemento comune che giustifica il confronto.\n\nNel diritto italiano l'analogia è ammessa quando c'è «somiglianza» con il caso regolato, cioè quando ricorre la stessa ragione (*eadem ratio*) che giustifica la norma (art. 12, comma 2, delle preleggi). Per [[frederick-schauer|Schauer]] la rilevanza è sempre fissata da una regola o da uno scopo, esplicito o implicito: per questo l'[[analogia|analogia]] non è mai un giudizio puramente neutrale.",
+      "daSapere": [
+        "Giustizia formale: casi uguali trattati in modo uguale",
+        "*Tertium comparationis*; *eadem ratio*",
+        "Art. 12, comma 2, preleggi: analogia per casi simili"
+      ],
+      "collegamenti": [
+        {
+          "da": "somiglianza-rilevante",
+          "a": "sfida-scettica-all-analogia",
+          "tipo": "collegato",
+          "etichetta": "è il punto attaccato dalla"
+        }
+      ]
+    },
+    {
+      "id": "indipendenza-dal-contenuto",
+      "oltre": "La nozione di ragione **indipendente dal contenuto** (*content-independent*) è stata formulata da [[hart|Hart]] in *Essays on Bentham* (1982): un comando autorevole è una ragione per agire non per ciò che prescrive, ma per il fatto che è stato dato da chi ne ha titolo. Hart la collegava alle ragioni «perentorie», che escludono la deliberazione sul merito.\n\nL'idea è stata sviluppata da [[joseph-raz|Joseph Raz]] con le ragioni escludenti ([[ragioni-di-primo-ordine|ragioni di primo e secondo ordine]]). Ha un ruolo centrale nella discussione sull'obbligo politico: se esiste un dovere di obbedire al diritto in quanto diritto, esso è per definizione indipendente dal contenuto. Molti filosofi (da Robert Paul Wolff in poi) negano che un tale dovere generale esista; [[frederick-schauer|Schauer]] si limita a mostrare che il ragionamento giuridico funziona come se esistesse.",
+      "daSapere": [
+        "Hart, *Essays on Bentham* (1982): ragioni indipendenti dal contenuto e perentorie",
+        "Raz: ragioni escludenti",
+        "Legata al problema dell'obbligo politico"
+      ],
+      "collegamenti": [
+        {
+          "da": "joseph-raz",
+          "a": "indipendenza-dal-contenuto",
+          "tipo": "interpreta",
+          "etichetta": "sviluppa l'"
+        }
+      ]
+    },
+    {
+      "id": "ragioni-di-primo-ordine",
+      "oltre": "La distinzione tra ragioni di primo e di secondo ordine è di [[joseph-raz|Joseph Raz]] (*Practical Reason and Norms*, 1975). Le ragioni di **primo ordine** sono ragioni per agire o non agire (la pioggia è una ragione per prendere l'ombrello). Le ragioni di **secondo ordine** sono ragioni per agire o non agire in base a certe ragioni; tra queste le ragioni **escludenti**, che impongono di non tener conto di alcune ragioni di primo ordine.\n\nPer Raz le regole e i comandi autorevoli sono ragioni escludenti: chi obbedisce non soppesa più il merito, ma agisce perché la regola glielo chiede. Nella «concezione dell'autorità come servizio» (*The Morality of Freedom*, 1986), l'autorità è legittima se seguendo le sue direttive i destinatari si conformano alle ragioni che già li riguardano meglio di quanto farebbero da soli.",
+      "daSapere": [
+        "Raz, *Practical Reason and Norms* (1975)",
+        "Ragioni di primo ordine; ragioni escludenti di secondo ordine",
+        "Concezione dell'autorità come servizio (1986)"
+      ],
+      "collegamenti": [
+        {
+          "da": "ragioni-di-primo-ordine",
+          "a": "autorita",
+          "tipo": "contrasta",
+          "etichetta": "sono escluse dall'"
+        }
+      ]
+    },
+    {
+      "id": "autorita",
+      "oltre": "L'autorità è una pretesa riconosciuta o giustificata di dirigere la condotta altrui, distinta dalla sola capacità materiale di ottenere obbedienza: il bandito che minaccia può costringere, ma non ha autorità. [[max-weber|Max Weber]] distingue tre tipi di legittimazione sociale del potere: tradizionale, carismatica e legale-razionale, tipica dello Stato moderno.\n\nNella filosofia analitica la discussione ruota intorno alla natura delle ragioni che l'autorità fornisce: per [[hart|Hart]] sono ragioni perentorie e [[indipendenza-dal-contenuto|indipendenti dal contenuto]], per [[joseph-raz|Raz]] ragioni escludenti, giustificate se aiutano a seguire meglio le ragioni che già si hanno. Nel diritto si distinguono poi l'autorità **teorica**, di chi è creduto perché sa (l'esperto), e l'autorità **pratica**, di chi è obbedito perché ha titolo per comandare. Le [[fonti-facoltative|fonti facoltative]] di Schauer stanno più vicino alla prima.",
+      "daSapere": [
+        "Potere di fatto e autorità sono diversi",
+        "Weber: autorità tradizionale, carismatica, legale-razionale",
+        "Hart e Raz: ragioni perentorie ed escludenti",
+        "Autorità teorica (sapere) e pratica (comando)"
+      ],
+      "collegamenti": [
+        {
+          "da": "max-weber",
+          "a": "autorita",
+          "tipo": "interpreta",
+          "etichetta": "classifica le forme di legittimazione dell'"
+        }
+      ]
+    },
+    {
+      "id": "autorita-persuasiva",
+      "oltre": "Nel linguaggio del common law si distingue l'autorità **vincolante** (*binding authority*), che il giudice deve seguire, dall'autorità **persuasiva** (*persuasive authority*): decisioni di altre giurisdizioni, di corti di pari grado o inferiori, *obiter dicta*, opere dottrinali, che il giudice può citare se lo convincono.\n\nUn dibattito molto acceso negli Stati Uniti ha riguardato la citazione di sentenze straniere e di diritto internazionale da parte della [[corte-suprema-degli-stati-uniti|Corte Suprema]], ad esempio in *Roper v. Simmons* (2005) sulla pena di morte per i minorenni: alcuni giudici la consideravano legittima, altri un'indebita apertura a fonti estranee. [[frederick-schauer|Schauer]] osserva che l'espressione è contraddittoria: se una fonte vale solo perché persuade, non è autorità; per questo preferisce parlare di [[fonti-facoltative|fonti facoltative]].",
+      "daSapere": [
+        "*Binding* e *persuasive authority*",
+        "Dibattito sulle fonti straniere: *Roper v. Simmons* (2005)",
+        "Schauer: meglio «fonti facoltative»"
+      ],
+      "collegamenti": [
+        {
+          "da": "autorita-persuasiva",
+          "a": "fonti-facoltative",
+          "tipo": "evolve-in",
+          "etichetta": "è ripensata da Schauer come"
+        }
+      ]
+    },
+    {
+      "id": "regole-di-non-citazione",
+      "oltre": "Dagli anni Settanta del XX secolo d.C., per far fronte all'aumento degli appelli, le corti d'appello federali statunitensi hanno pubblicato solo una parte delle loro decisioni, lasciando le altre «non pubblicate» e spesso vietando di citarle come precedente. La pratica fu molto criticata: in un'opinione del 2000 (*Anastasoff v. United States*) un giudice federale la definì contraria alla natura stessa della funzione giudiziaria.\n\nNel 2006 è stata adottata la regola federale di procedura d'appello 32.1, che dal 1° gennaio 2007 vieta alle corti federali di proibire la citazione delle decisioni non pubblicate; le corti restano però libere di stabilire quale valore dare loro. Il tema mostra il legame tra [[decisioni-sommarie|decisioni sommarie]], [[creazione-giudiziale-del-diritto|creazione giudiziale del diritto]] e controllo del proprio carico di lavoro.",
+      "daSapere": [
+        "Decisioni «non pubblicate» dagli anni Settanta",
+        "*Anastasoff v. United States* (2000)",
+        "Regola federale 32.1: citabili le decisioni emesse dal 1° gennaio 2007"
+      ],
+      "collegamenti": [
+        {
+          "da": "regole-di-non-citazione",
+          "a": "creazione-giudiziale-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "permettono di scegliere quando fare"
+        }
+      ]
+    },
+    {
+      "id": "regola-di-riconoscimento",
+      "oltre": "La regola di riconoscimento è la nozione centrale de *[[il-concetto-di-diritto|Il concetto di diritto]]* di [[hart|Hart]] (1961). Insieme alle regole di mutamento e di giudizio è una delle [[norme-primarie-e-secondarie|norme secondarie]], che rimediano ai difetti di una società regolata solo da norme primarie: la regola di riconoscimento cura l'incertezza, indicando i criteri per identificare le norme valide del sistema.\n\nA differenza della *Grundnorm* di [[kelsen|Kelsen]], che è presupposta, la regola di riconoscimento è un **fatto sociale**: esiste perché giudici e funzionari la accettano e la usano dal punto di vista interno. Non è né valida né invalida; semplicemente esiste. Nel dibattito successivo si è discusso se possa includere criteri morali (giuspositivismo inclusivo) o no (esclusivo, [[joseph-raz|Raz]]).",
+      "daSapere": [
+        "Hart, *Il concetto di diritto* (1961)",
+        "Norme secondarie: riconoscimento, mutamento, giudizio",
+        "Fatto sociale accettato dai funzionari, a differenza della *Grundnorm*"
+      ],
+      "collegamenti": [
+        {
+          "da": "regola-di-riconoscimento",
+          "a": "grundnorm",
+          "tipo": "contrasta",
+          "etichetta": "è un fatto sociale, a differenza della"
+        }
+      ]
+    },
+    {
+      "id": "analogia",
+      "oltre": "L'analogia estende la disciplina di un caso regolato a un caso non regolato simile, quando una somiglianza giuridicamente rilevante giustifica la stessa soluzione. Nel diritto italiano è prevista dall'art. 12, comma 2, delle disposizioni preliminari al codice civile: se una controversia non può essere decisa con una precisa disposizione, si ha riguardo alle disposizioni che regolano casi simili o materie analoghe (*analogia legis*) e, se il caso rimane dubbio, ai principi generali dell'ordinamento (*analogia iuris*).\n\nL'analogia è vietata per le leggi penali e per quelle che fanno eccezione a regole generali (art. 14 preleggi; art. 25 Cost. per il penale). Nel common law il ragionamento per analogia tra precedenti è stato descritto da Edward Levi (1949) come «ragionamento per esempi», che procede da caso a caso.",
+      "daSapere": [
+        "Art. 12, comma 2, preleggi: *analogia legis* e *analogia iuris*",
+        "Vietata per leggi penali ed eccezionali (art. 14 preleggi)",
+        "E. Levi (1949): ragionamento per esempi"
+      ],
+      "collegamenti": [
+        {
+          "da": "analogia",
+          "a": "somiglianza-rilevante",
+          "tipo": "collegato",
+          "etichetta": "richiede una"
+        }
+      ]
+    },
+    {
+      "id": "sfida-scettica-all-analogia",
+      "oltre": "Lo scetticismo verso l'analogia ha avuto sostenitori autorevoli negli Stati Uniti: tra gli altri Larry Alexander, che con Emily Sherwin ha sostenuto che l'analogia non è un modo autonomo di ragionare, e [[richard-posner|Richard Posner]], per il quale è soprattutto un modo di presentare decisioni di politica del diritto. Per questi autori ogni giudizio di somiglianza presuppone una regola o uno scopo che stabilisce che cosa conta.\n\nIn difesa dell'analogia hanno scritto, tra gli altri, Cass Sunstein, che vi vede un modo di decidere senza teorie generali, e Lloyd Weinreb (*Legal Reason. The Use of Analogy in Legal Argument*, 2005), che la considera una forma di ragionamento razionale e insostituibile. [[frederick-schauer|Schauer]] accetta parte della critica ma lascia aperta la questione psicologica.",
+      "daSapere": [
+        "Scettici: L. Alexander ed E. Sherwin; R. Posner",
+        "Difensori: C. Sunstein; L. Weinreb (2005)",
+        "Il punto: chi fissa la somiglianza rilevante"
+      ],
+      "collegamenti": [
+        {
+          "da": "richard-posner",
+          "a": "sfida-scettica-all-analogia",
+          "tipo": "influenza",
+          "etichetta": "sostiene la"
+        }
+      ]
+    },
+    {
+      "id": "caso-fonte-e-caso-obiettivo",
+      "oltre": "I termini *source* e *target* vengono dalle scienze cognitive, che studiano l'analogia come processo mentale generale: si trasferisce una struttura di relazioni da un dominio noto (la fonte) a uno meno noto (l'obiettivo). La teoria più influente è quella della «corrispondenza strutturale» (*structure-mapping*) di Dedre Gentner (1983): un'analogia è buona quando conserva relazioni profonde, non semplici somiglianze superficiali.\n\nEsempio classico: l'atomo come un piccolo sistema solare. Nel diritto il caso fonte è il precedente o la norma che regola un caso noto; il caso obiettivo è quello da decidere. La lezione delle scienze cognitive coincide con quella dei giuristi: decisiva è la scelta delle somiglianze rilevanti, non il numero delle somiglianze.",
+      "daSapere": [
+        "Dalle scienze cognitive: *source* e *target*",
+        "D. Gentner (1983): *structure-mapping*",
+        "Conta la struttura delle relazioni, non le somiglianze superficiali"
+      ]
+    },
+    {
+      "id": "cambiamento-incrementale",
+      "oltre": "L'elogio del cambiamento per piccoli passi ha una lunga tradizione nel pensiero conservatore inglese, da Edmund Burke in poi, e nell'idea che il [[common-law|common law]] si sviluppi «da precedente a precedente». Nella teoria del diritto americana la difesa più nota è il **minimalismo giudiziale** di Cass Sunstein (*One Case at a Time*, 1999): le corti dovrebbero decidere il minimo necessario, con motivazioni strette e poco teoriche, lasciando le grandi scelte al processo democratico.\n\nI critici osservano che l'incrementalismo può perpetuare a lungo ingiustizie che una decisione netta eliminerebbe, come mostra il superamento della segregazione razziale nel 1954. [[frederick-schauer|Schauer]] ricorda che non sempre procedere lentamente è un bene.",
+      "daSapere": [
+        "Tradizione: Burke, sviluppo del common law da caso a caso",
+        "C. Sunstein, *One Case at a Time* (1999): minimalismo giudiziale",
+        "Critica: può ritardare correzioni necessarie"
+      ],
+      "collegamenti": [
+        {
+          "da": "cambiamento-incrementale",
+          "a": "un-caso-per-volta",
+          "tipo": "collegato",
+          "etichetta": "è difeso dalla tesi del"
+        }
+      ]
+    },
+    {
+      "id": "corte-suprema-degli-stati-uniti",
+      "oltre": "La Corte Suprema è prevista dall'articolo III della Costituzione degli Stati Uniti (1787) ed è stata organizzata dal *Judiciary Act* del 1789. Dal 1869 è composta da nove giudici (un *Chief Justice* e otto *Associate Justices*), nominati a vita dal Presidente con il consenso del Senato.\n\nCon *Marbury v. Madison* (1803) la Corte affermò il proprio potere di dichiarare incostituzionali le leggi (*judicial review*), pur senza una previsione espressa. Oggi sceglie quasi liberamente i casi da decidere tramite il *writ of certiorari*: tra alcune migliaia di ricorsi all'anno ne accoglie poche decine. Questa selezione spiega perché le sue decisioni riguardino quasi solo casi difficili, e perché le sue motivazioni abbiano il peso di regole generali per tutto il paese.",
+      "daSapere": [
+        "Art. III della Costituzione; *Judiciary Act* 1789",
+        "Nove giudici dal 1869, nominati a vita",
+        "*Marbury v. Madison* (1803): *judicial review*",
+        "*Certiorari*: poche decine di casi all'anno"
+      ],
+      "collegamenti": [
+        {
+          "da": "corte-suprema-degli-stati-uniti",
+          "a": "precedente-verticale",
+          "tipo": "crea",
+          "etichetta": "vincola tutte le corti con il"
+        }
+      ]
+    },
+    {
+      "id": "civil-law",
+      "oltre": "Si chiamano di *civil law* (o romano-germanici) i sistemi dell'Europa continentale e quelli che ne derivano, in America latina e altrove. Si sono formati sulla base del diritto romano giustinianeo, studiato nelle università medievali, e della [[codificazione|codificazione]] moderna: il [[codice-napoleone|Codice Napoleone]] (1804), il codice civile tedesco (*BGB*, in vigore dal 1900), il codice civile italiano del 1942.\n\nI loro tratti tradizionali sono il primato della legge scritta, il ruolo della dottrina universitaria nel costruire concetti generali e una carriera dei giudici di tipo burocratico. Il precedente non è formalmente vincolante, ma ha un peso crescente; il [[common-law|common law]], dal canto suo, è sempre più fatto di leggi. Da qui la tesi della [[convergenza-dei-sistemi|convergenza dei sistemi]].",
+      "daSapere": [
+        "Base: diritto romano e codificazioni",
+        "Codice Napoleone 1804; *BGB* 1900; codice civile italiano 1942",
+        "Primato della legge, ruolo della dottrina, giudice di carriera"
+      ],
+      "collegamenti": [
+        {
+          "da": "codice-napoleone",
+          "a": "civil-law",
+          "tipo": "influenza",
+          "etichetta": "è il modello del"
+        }
+      ]
+    },
+    {
+      "id": "equity",
+      "oltre": "L'*equity* nacque in Inghilterra nel tardo Medioevo: chi non otteneva giustizia dalle corti di common law, troppo rigide nelle forme, si rivolgeva al re, che delegava le suppliche al Cancelliere. Si formò così la Court of Chancery, che decideva secondo coscienza e sviluppò istituti propri: il *trust*, l'esecuzione in forma specifica, l'ingiunzione.\n\nCon il tempo anche l'*equity* divenne un sistema di regole e precedenti, e la sua lentezza fu proverbiale (la descrive Dickens in *Casa desolata*). I *Judicature Acts* del 1873–1875 fusero le due giurisdizioni: oggi gli stessi tribunali applicano common law ed equity, ma i rimedi di equity restano discrezionali. È l'esempio che Schauer usa per mostrare come l'[[equita|equità]] tenda a trasformarsi in regole.",
+      "daSapere": [
+        "Corte del Cancelliere (Court of Chancery)",
+        "Istituti: *trust*, esecuzione specifica, ingiunzione",
+        "*Judicature Acts* 1873–1875: fusione delle giurisdizioni"
+      ],
+      "collegamenti": [
+        {
+          "da": "equity",
+          "a": "trinceramento-delle-regole",
+          "tipo": "evolve-in",
+          "etichetta": "si irrigidisce fino al"
+        }
+      ]
+    },
+    {
+      "id": "equita",
+      "oltre": "Il concetto filosofico di equità viene da [[aristotele|Aristotele]] (*Etica Nicomachea*, V): l'*epieikeia* è la correzione della legge là dove essa sbaglia a causa della sua generalità; l'equo è giusto, ma non secondo la legge, bensì come correzione del giusto legale. La tradizione romana parlava di *aequitas*, e quella medievale la definiva «giustizia del caso concreto».\n\nNel diritto italiano l'equità ha ruoli limitati e precisi: integra il contratto (art. 1374 c.c.), permette al giudice di liquidare il danno che non può essere provato nel suo preciso ammontare (art. 1226 c.c.) e consente al giudice di pace di decidere secondo equità le cause di modesto valore (art. 113 c.p.c.). Fuori da questi casi il giudice decide secondo diritto. Nel common law l'equità ha dato vita a un intero sistema, l'[[equity|equity]].",
+      "daSapere": [
+        "Aristotele: *epieikeia*, correzione della legge generale",
+        "Art. 1374 e 1226 c.c.; art. 113 c.p.c.",
+        "Nel common law: l'equity"
+      ],
+      "collegamenti": [
+        {
+          "da": "equita",
+          "a": "equity",
+          "tipo": "evolve-in",
+          "etichetta": "nel common law diventa l'"
+        }
+      ]
+    },
+    {
+      "id": "defettibilita",
+      "oltre": "Il termine *defeasibility* fu introdotto nella teoria del diritto da [[hart|Hart]] nel saggio *The Ascription of Responsibility and Rights* (1949): molti concetti giuridici, come quello di contratto, non si definiscono con condizioni necessarie e sufficienti, ma con condizioni che valgono «a meno che» non intervenga un'eccezione (violenza, errore, incapacità).\n\nLa nozione è stata ripresa dalla logica e dall'intelligenza artificiale, dove si parla di ragionamento **non monotono**: una conclusione tratta da certe premesse può cadere quando si aggiungono informazioni nuove (dal fatto che Tweety è un uccello si conclude che vola, finché non si scopre che è un pinguino). Nel diritto la defettibilità spiega le eccezioni implicite e il ruolo dei principi; per [[frederick-schauer|Schauer]] il problema è quanto facilmente una regola debba cedere senza perdere la sua funzione.",
+      "daSapere": [
+        "Hart, *The Ascription of Responsibility and Rights* (1949)",
+        "Concetti che valgono «a meno che»",
+        "Logica non monotona: l'esempio del pinguino"
+      ],
+      "collegamenti": [
+        {
+          "da": "defettibilita",
+          "a": "trinceramento-delle-regole",
+          "tipo": "contrasta",
+          "etichetta": "attenua il"
+        }
+      ]
+    },
+    {
+      "id": "consuetudine",
+      "oltre": "La consuetudine è la fonte non scritta formata da un comportamento ripetuto nel tempo (*diuturnitas*) accompagnato dalla convinzione di osservare una regola giuridica obbligatoria (*opinio iuris ac necessitatis*). Nel diritto italiano è l'ultima delle fonti (art. 1 e 8 delle preleggi): vale solo se richiamata dalla legge (*secundum legem*) o nelle materie non regolate (*praeter legem*), mai contro la legge.\n\nNel diritto internazionale la consuetudine ha invece un ruolo primario. Per [[hart|Hart]] le società primitive sono regolate da norme consuetudinarie, e l'esistenza di una norma sociale dipende dal punto di vista interno di chi la segue. Il [[common-law|common law]] era tradizionalmente presentato come «consuetudine generale del regno», anche se, come osserva Schauer, è in realtà diritto di origine giudiziale.",
+      "daSapere": [
+        "*Diuturnitas* e *opinio iuris ac necessitatis*",
+        "Art. 1 e 8 preleggi: solo *secundum* o *praeter legem*",
+        "Il common law come «consuetudine generale del regno»"
+      ]
+    },
+    {
+      "id": "stato-di-diritto",
+      "oltre": "L'espressione traduce il tedesco *Rechtsstaat*, elaborato nel XIX secolo d.C.: uno Stato in cui il potere è soggetto alla legge, l'amministrazione agisce secondo il principio di legalità, i diritti sono garantiti da giudici indipendenti e i poteri sono separati. Nel mondo anglosassone si parla di *rule of law*, resa celebre da Albert Venn Dicey (1885).\n\nNel XX secolo d.C. [[lon-fuller|Fuller]] (*The Morality of Law*, 1964) ne ha indicato otto requisiti formali (leggi generali, pubbliche, non retroattive, chiare, coerenti, possibili da osservare, stabili, applicate in modo conforme): la [[morale-interna-del-diritto|morale interna del diritto]]. Nel libro di Schauer lo Stato di diritto è soprattutto il valore della prevedibilità e del limite alla discrezionalità che le regole garantiscono.",
+      "daSapere": [
+        "*Rechtsstaat*, XIX secolo d.C.; *rule of law* (Dicey, 1885)",
+        "Fuller (1964): otto requisiti della legalità",
+        "Schauer: prevedibilità e limiti alla discrezionalità"
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-di-diritto",
+          "a": "morale-interna-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "è descritto da Fuller come"
+        }
+      ]
+    },
+    {
+      "id": "retroattivita-del-common-law",
+      "oltre": "La critica più famosa è di [[jeremy-bentham|Bentham]], che paragonò il modo in cui i giudici fanno il common law al modo in cui si educa un cane: si aspetta che faccia qualcosa di sbagliato e poi lo si bastona. Il cane non sapeva che fosse vietato prima di essere punito; allo stesso modo il cittadino scopre la regola solo quando il giudice la applica al suo caso (*dog-law*, «diritto del cane»).\n\nIl principio di irretroattività è oggi garantito in modo assoluto nel diritto penale (art. 25, comma 2, Cost.; art. 7 della Convenzione europea dei diritti dell'uomo), e in via generale per la legge (art. 11 preleggi). Per i mutamenti di giurisprudenza la Corte europea dei diritti dell'uomo ha affermato che anche un'interpretazione nuova e imprevedibile non può essere applicata a danno dell'imputato.",
+      "daSapere": [
+        "Bentham: il *dog-law*",
+        "Art. 25, comma 2, Cost.; art. 7 CEDU; art. 11 preleggi",
+        "Anche i mutamenti imprevedibili di giurisprudenza penale non retroagiscono"
+      ],
+      "collegamenti": [
+        {
+          "da": "jeremy-bentham",
+          "a": "retroattivita-del-common-law",
+          "tipo": "contrasta",
+          "etichetta": "denuncia la"
+        }
+      ]
+    },
+    {
+      "id": "trinceramento-delle-regole",
+      "oltre": "Il termine *entrenchment* (trinceramento) è usato da [[frederick-schauer|Schauer]] in *Playing by the Rules* (1991) per indicare la caratteristica che rende una generalizzazione una vera regola: resiste anche ai casi in cui la sua applicazione tradisce la ragione per cui è stata fatta. Una regola non trincerata, invece, è solo una «regola empirica» (*rule of thumb*), un suggerimento che si abbandona appena il caso concreto lo sconsiglia.\n\nNel diritto costituzionale la parola indica le disposizioni protette contro la modifica: in Italia, ad esempio, la forma repubblicana non può essere oggetto di revisione costituzionale (art. 139 Cost.). Entrambi gli usi esprimono la stessa idea: sottrarre una scelta alla rinegoziazione del momento.",
+      "daSapere": [
+        "Schauer, *Playing by the Rules* (1991): *entrenchment*",
+        "Regola trincerata contro regola empirica (*rule of thumb*)",
+        "In costituzionale: clausole immodificabili (art. 139 Cost.)"
+      ]
+    }
+  ]
+}

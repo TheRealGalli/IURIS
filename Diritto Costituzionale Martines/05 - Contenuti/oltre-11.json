@@ -1,0 +1,835 @@
+{
+  "voci": [
+    {
+      "id": "diritto-positivo",
+      "oltre": "Diritto positivo viene dal latino *ius positum*, «diritto posto»: è il diritto creato da atti umani (leggi, regolamenti, sentenze) o da fatti riconosciuti (consuetudine), in un certo luogo e tempo. Si contrappone al **diritto naturale**, che si pretende valido ovunque perché fondato sulla natura o sulla ragione.\n\nIl **giuspositivismo** sostiene che il giurista debba studiare solo il diritto positivo e che la validità di una norma non dipenda dalla sua giustizia: tra i suoi esponenti Bentham, John Austin e Kelsen; in Italia Norberto Bobbio, che ne distinse tre aspetti (metodo, teoria, ideologia) nelle lezioni del 1961 sul *Positivismo giuridico*. Nello Stato costituzionale molti principi di giustizia sono stati «positivizzati» nelle costituzioni, attenuando l'antica contrapposizione.",
+      "daSapere": [
+        "*Ius positum*: diritto posto",
+        "Giuspositivismo: Bentham, Austin, Kelsen, Bobbio",
+        "Le costituzioni positivizzano principi di giustizia"
+      ],
+      "collegamenti": [
+        {
+          "da": "diritto-positivo",
+          "a": "fonti-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "è prodotto dalle"
+        }
+      ]
+    },
+    {
+      "id": "norma-giuridica",
+      "oltre": "Una distinzione fondamentale, elaborata in Italia da Vezio Crisafulli, è quella tra **disposizione** (il testo, l'enunciato scritto) e **norma** (il significato che l'interprete ne ricava). Da una disposizione possono ricavarsi più norme e una norma può risultare da più disposizioni.\n\nNella struttura della norma si distinguono una **fattispecie** (il fatto previsto in astratto: «chiunque cagiona ad altri un danno ingiusto…») e un **effetto** (la conseguenza giuridica: «…è obbligato a risarcire»). Le norme si classificano poi in norme di **condotta**, che regolano comportamenti, e norme di **organizzazione** o di competenza, che istituiscono organi e procedure: una distinzione vicina a quella di Martines tra regole istituzionali e organizzative.",
+      "daSapere": [
+        "Disposizione (testo) ↔ norma (significato): Crisafulli",
+        "Fattispecie + effetto",
+        "Norme di condotta ↔ di organizzazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "norma-giuridica",
+          "a": "disposizione",
+          "tipo": "collegato",
+          "etichetta": "si ricava dalla"
+        },
+        {
+          "da": "norma-giuridica",
+          "a": "regole-organizzative",
+          "tipo": "collegato",
+          "etichetta": "comprende le"
+        }
+      ]
+    },
+    {
+      "id": "effettivita",
+      "oltre": "Il principio di effettività ha un ruolo decisivo soprattutto nel **diritto internazionale**: un nuovo Stato o un nuovo governo è considerato tale se esercita **effettivamente** il potere su un territorio e una popolazione. Anche per Kelsen la norma fondamentale presuppone un ordinamento nel complesso efficace: una rivoluzione riuscita fonda un nuovo ordinamento.\n\nNel diritto interno il rapporto tra validità ed effettività è più delicato. Una legge non osservata resta valida: secondo l'opinione prevalente la **desuetudine** non abroga le leggi scritte, perché l'art. 15 delle preleggi indica come modi di abrogazione solo le leggi posteriori. La scarsa effettività è però un segnale importante per il legislatore e per l'interprete.",
+      "daSapere": [
+        "Diritto internazionale: Stato e governo effettivi",
+        "Validità ≠ effettività",
+        "La desuetudine non abroga la legge scritta"
+      ],
+      "collegamenti": [
+        {
+          "da": "effettivita",
+          "a": "desuetudine",
+          "tipo": "collegato",
+          "etichetta": "non basta, con la sola"
+        }
+      ]
+    },
+    {
+      "id": "generalita-e-astrattezza",
+      "oltre": "**Generale** è la norma rivolta a una classe di destinatari, non a persone determinate; **astratta** quella che regola un tipo di situazione ripetibile, non un caso singolo. Questi caratteri sono stati a lungo considerati essenziali alla legge, perché garantiscono uguaglianza e prevedibilità: la legge tratta allo stesso modo tutti quelli che si trovano nella stessa situazione.\n\nLa Costituzione però non li impone alla legge: accanto alle leggi normative esistono **leggi-provvedimento**, rivolte a destinatari determinati. Generalità e astrattezza restano invece un criterio per distinguere i **regolamenti** (atti normativi) dagli atti amministrativi generali, che si rivolgono a una pluralità di soggetti ma per un caso concreto (per esempio un bando di concorso).",
+      "daSapere": [
+        "Generale: classe di destinatari; astratta: casi ripetibili",
+        "Garantiscono uguaglianza e prevedibilità",
+        "Distinguono regolamenti e atti amministrativi generali"
+      ],
+      "collegamenti": [
+        {
+          "da": "generalita-e-astrattezza",
+          "a": "principio-di-uguaglianza",
+          "tipo": "collegato",
+          "etichetta": "garantiscono il"
+        },
+        {
+          "da": "generalita-e-astrattezza",
+          "a": "legge-provvedimento",
+          "tipo": "contrasta",
+          "etichetta": "mancano nella"
+        }
+      ]
+    },
+    {
+      "id": "legge-provvedimento",
+      "oltre": "La Corte costituzionale ammette le leggi-provvedimento, perché la Costituzione non riserva l'attività amministrativa alla sola pubblica amministrazione. Le sottopone però a uno **scrutinio stretto** di **ragionevolezza** e non arbitrarietà, perché possono aggirare le garanzie del procedimento amministrativo e ridurre la tutela dei destinatari: contro una legge non si può ricorrere al TAR, ma solo sollevare una questione di legittimità costituzionale in un giudizio.\n\nUn caso noto è quello delle norme del 2012 sullo stabilimento siderurgico **Ilva** di Taranto, che autorizzavano la prosecuzione dell'attività: la Corte (sentenza 85/2013) le ritenne legittime come bilanciamento tra salute, ambiente e lavoro, sottolineando che nessun diritto può diventare «tiranno» sugli altri.",
+      "daSapere": [
+        "Ammessa ma con scrutinio stretto di ragionevolezza",
+        "Riduce la tutela: niente ricorso al TAR",
+        "Caso Ilva: Corte cost. 85/2013"
+      ],
+      "fonti": [
+        {
+          "titolo": "Corte costituzionale, sentenza 85/2013",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2013/85"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "legge-provvedimento",
+          "a": "ragionevolezza",
+          "tipo": "collegato",
+          "etichetta": "è sottoposta a uno scrutinio di"
+        }
+      ]
+    },
+    {
+      "id": "fonti-di-produzione",
+      "oltre": "La distinzione classica è tra **fonti-atto** (atti volontari di organi competenti: Costituzione, leggi, regolamenti) e **fonti-fatto** (comportamenti ai quali l'ordinamento riconosce efficacia normativa: la consuetudine). Le fonti si ordinano su più livelli: **costituzionali** (Costituzione e leggi costituzionali), **primarie** (leggi e atti con forza di legge, leggi regionali), **secondarie** (regolamenti) e infine consuetudine.\n\nIl sistema italiano è **chiuso** per le fonti primarie (le può istituire solo la Costituzione) e relativamente **aperto** per quelle secondarie, che una legge può prevedere. A esse si aggiungono fonti esterne riconosciute: il diritto internazionale e quello dell'Unione europea.",
+      "daSapere": [
+        "Fonti-atto ↔ fonti-fatto",
+        "Livelli: costituzionale, primario, secondario, consuetudine",
+        "Sistema chiuso per le fonti primarie"
+      ],
+      "collegamenti": [
+        {
+          "da": "fonti-di-produzione",
+          "a": "fonti-atto",
+          "tipo": "collegato",
+          "etichetta": "comprendono le"
+        },
+        {
+          "da": "fonti-di-produzione",
+          "a": "fonti-fatto",
+          "tipo": "collegato",
+          "etichetta": "comprendono le"
+        }
+      ]
+    },
+    {
+      "id": "fonti-sulla-produzione",
+      "oltre": "Le fonti sulla produzione sono «norme sulle norme»: stabiliscono **chi** può produrre diritto, **con quale procedimento** e **entro quali limiti**. Nella Costituzione sono, per esempio, gli artt. 70–74 (procedimento legislativo), 76 e 77 (atti del Governo con forza di legge), 75 e 138 (referendum e revisione), 117 (riparto tra Stato e Regioni).\n\nIl filosofo Herbert Hart le chiama «norme secondarie» di mutamento, distinte dalle norme primarie che regolano i comportamenti. Il loro rispetto è condizione di **validità** degli atti: una legge approvata violando il procedimento dell'art. 72 ha un vizio formale e può essere dichiarata illegittima dalla Corte costituzionale.",
+      "daSapere": [
+        "Chi, come, entro quali limiti",
+        "Artt. 70–77, 117, 138 Cost.",
+        "Hart: norme secondarie di mutamento"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 70–77, 117 e 138",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "fonti-sulla-produzione",
+          "a": "vizio-formale",
+          "tipo": "causa",
+          "etichetta": "se violate producono un"
+        }
+      ]
+    },
+    {
+      "id": "fonti-di-cognizione",
+      "oltre": "La fonte di cognizione principale è la **Gazzetta Ufficiale** della Repubblica, dove sono pubblicati leggi e decreti; accanto a essa la **Raccolta ufficiale degli atti normativi**, i bollettini regionali e la Gazzetta ufficiale dell'Unione europea. Oggi i testi vigenti si consultano gratuitamente nel portale pubblico **Normattiva**.\n\nLa pubblicazione serve a rendere conoscibile la norma: per l'art. 73 Cost. le leggi entrano in vigore il **quindicesimo giorno** successivo alla pubblicazione (*vacatio legis*), salvo che stabiliscano un termine diverso. Dalla pubblicazione deriva la presunzione di conoscenza: l'ignoranza della legge non scusa (art. 5 c.p.), salvo i casi di ignoranza inevitabile riconosciuti dalla Corte costituzionale nel 1988.",
+      "daSapere": [
+        "Gazzetta Ufficiale, Raccolta ufficiale, Normattiva",
+        "Art. 73: *vacatio legis* di 15 giorni",
+        "Ignoranza inevitabile: Corte cost. 364/1988"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 73",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 364/1988",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1988/364"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "fonti-di-cognizione",
+          "a": "vacatio-legis",
+          "tipo": "collegato",
+          "etichetta": "fanno decorrere la"
+        },
+        {
+          "da": "fonti-di-cognizione",
+          "a": "pubblicazione-della-legge",
+          "tipo": "collegato",
+          "etichetta": "si realizzano con la"
+        }
+      ]
+    },
+    {
+      "id": "criterio-gerarchico",
+      "oltre": "Il criterio gerarchico deriva dalla costruzione a gradi dell'ordinamento. Il suo effetto è diverso da quello del criterio cronologico: la fonte inferiore contrastante con la superiore è **invalida** e va eliminata con un **annullamento**, che opera di regola anche per il passato. Chi annulla dipende dal tipo di fonte: la **Corte costituzionale** per leggi e atti con forza di legge contrari alla Costituzione; il **giudice amministrativo** per i regolamenti illegittimi, che il giudice ordinario può comunque disapplicare nel singolo caso.\n\nOrdine essenziale: Costituzione e leggi costituzionali; leggi e atti con forza di legge; regolamenti; consuetudine. Il diritto dell'Unione europea e le norme internazionali si inseriscono con regole proprie (primato, art. 117, primo comma).",
+      "daSapere": [
+        "Invalidità → annullamento",
+        "Corte costituzionale ↔ giudice amministrativo",
+        "Ordine: Costituzione, leggi, regolamenti, consuetudine"
+      ],
+      "collegamenti": [
+        {
+          "da": "criterio-gerarchico",
+          "a": "vizi-di-legittimita-costituzionale",
+          "tipo": "causa",
+          "etichetta": "rende la legge contraria alla Costituzione affetta da"
+        },
+        {
+          "da": "criterio-gerarchico",
+          "a": "stufenbau",
+          "tipo": "collegato",
+          "etichetta": "deriva dalla"
+        }
+      ]
+    },
+    {
+      "id": "criterio-cronologico",
+      "oltre": "Il criterio cronologico (*lex posterior derogat priori*) è regolato dall'art. 15 delle preleggi, che indica tre forme di abrogazione: **espressa** (la legge nuova dichiara abrogata la vecchia), **tacita** (per incompatibilità tra le nuove disposizioni e le precedenti) e **implicita** (la nuova legge regola l'intera materia già regolata dalla legge anteriore).\n\nL'abrogazione opera per il futuro (*ex nunc*): la legge abrogata continua a regolare i fatti avvenuti quando era in vigore. Vale tra fonti dello **stesso grado**; quando le fonti hanno grado diverso prevale il criterio gerarchico, e quando una delle due è speciale si applica il criterio di **specialità**: la legge generale successiva non abroga, di regola, la legge speciale anteriore.",
+      "daSapere": [
+        "Art. 15 preleggi: espressa, tacita, implicita",
+        "Effetto *ex nunc*",
+        "Cede a gerarchia e specialità"
+      ],
+      "fonti": [
+        {
+          "titolo": "Disposizioni sulla legge in generale (preleggi), r.d. 16 marzo 1942, n. 262",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=042U0262&atto.dataPubblicazioneGazzetta=1942-04-04&atto.tipoProvvedimento=REGIO%20DECRETO"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "criterio-cronologico",
+          "a": "abrogazione",
+          "tipo": "causa",
+          "etichetta": "porta all'"
+        },
+        {
+          "da": "criterio-cronologico",
+          "a": "criterio-gerarchico",
+          "tipo": "contrasta",
+          "etichetta": "cede al"
+        }
+      ]
+    },
+    {
+      "id": "consuetudine",
+      "oltre": "La consuetudine richiede due elementi: la **ripetizione** generale e costante di un comportamento (*diuturnitas*) e la convinzione che quel comportamento sia giuridicamente doveroso (*opinio iuris ac necessitatis*). Secondo l'art. 8 delle preleggi, nelle materie regolate da leggi e regolamenti gli usi hanno efficacia solo se richiamati: è ammessa la consuetudine **secondo la legge** (*secundum legem*) e quella **oltre la legge** (*praeter legem*) in materie non disciplinate, non quella **contro la legge** (*contra legem*).\n\nGli usi sono raccolti dalle Camere di commercio, ma la raccolta ne prova soltanto l'esistenza. La consuetudine ha un ruolo molto più ampio nel diritto internazionale e nel diritto costituzionale, per i rapporti tra organi.",
+      "daSapere": [
+        "*Diuturnitas* + *opinio iuris*",
+        "Ammesse *secundum* e *praeter legem*, non *contra legem*",
+        "Art. 8 preleggi; raccolte delle Camere di commercio"
+      ],
+      "fonti": [
+        {
+          "titolo": "Disposizioni sulla legge in generale (preleggi), r.d. 16 marzo 1942, n. 262",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=042U0262&atto.dataPubblicazioneGazzetta=1942-04-04&atto.tipoProvvedimento=REGIO%20DECRETO"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "consuetudine",
+          "a": "opinio-iuris",
+          "tipo": "collegato",
+          "etichetta": "richiede l'"
+        },
+        {
+          "da": "consuetudine",
+          "a": "fonti-fatto",
+          "tipo": "esempio-di",
+          "etichetta": "è la principale fra le"
+        }
+      ]
+    },
+    {
+      "id": "consuetudine-costituzionale",
+      "oltre": "Nel diritto costituzionale le consuetudini riguardano soprattutto i rapporti tra organi supremi, che la Costituzione disciplina solo in parte. L'esempio più citato è il procedimento di formazione del Governo: la Costituzione dice soltanto che il Presidente della Repubblica nomina il Presidente del Consiglio e, su sua proposta, i ministri (art. 92), mentre le **consultazioni**, il conferimento dell'**incarico**, l'accettazione con riserva e lo scioglimento della riserva sono frutto di consuetudine.\n\nData la rigidità della Costituzione, è discusso che una consuetudine possa davvero derogare a norme costituzionali scritte (*contra constitutionem*): la dottrina prevalente ammette solo consuetudini integrative o interpretative.",
+      "daSapere": [
+        "Formazione del Governo: consultazioni e incarico",
+        "Art. 92 Cost. regola solo nomina e proposta",
+        "Discussa la consuetudine *contra constitutionem*"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 92",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "consuetudine-costituzionale",
+          "a": "presidente-della-repubblica",
+          "tipo": "collegato",
+          "etichetta": "regola i poteri del"
+        }
+      ]
+    },
+    {
+      "id": "convenzioni-costituzionali",
+      "oltre": "L'espressione viene dall'Inghilterra: il giurista Albert Venn Dicey, nel 1885, chiamò *conventions of the constitution* le regole che reggono la vita politica britannica senza essere applicate dai giudici (per esempio che il sovrano non neghi l'assenso a una legge approvata dal Parlamento).\n\nLe convenzioni si distinguono dalla consuetudine perché manca l'*opinio iuris*: sono **accordi politici**, rispettati per convenienza o lealtà, la cui violazione produce conseguenze politiche e non giuridiche. In Italia sono convenzioni, per esempio, molti accordi tra partiti sulla distribuzione delle presidenze delle Camere o delle commissioni. Dalle convenzioni si distinguono anche le regole di **correttezza costituzionale**.",
+      "daSapere": [
+        "Dicey (1885): *conventions of the constitution*",
+        "Manca l'*opinio iuris*: accordi politici",
+        "Violazione → conseguenze politiche"
+      ],
+      "collegamenti": [
+        {
+          "da": "convenzioni-costituzionali",
+          "a": "consuetudine-costituzionale",
+          "tipo": "contrasta",
+          "etichetta": "si distinguono dalla"
+        },
+        {
+          "da": "convenzioni-costituzionali",
+          "a": "correttezza-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "sono affini alle regole di"
+        }
+      ]
+    },
+    {
+      "id": "prassi-costituzionale",
+      "oltre": "La prassi è il comportamento concreto degli organi costituzionali; può diventare consuetudine solo se si consolida e si accompagna alla convinzione di doverosità. Molte prassi sono importanti per capire come funziona davvero la Costituzione: per esempio le **dimissioni «di cortesia»** del Governo dopo l'elezione di un nuovo Presidente della Repubblica, i **messaggi** e le esternazioni presidenziali, l'uso della **questione di fiducia** sui maxiemendamenti.\n\nIl valore della prassi è anche interpretativo: la Corte costituzionale ne tiene conto per ricostruire il significato delle norme sui rapporti tra organi, ma una prassi contraria alla Costituzione non diventa legittima perché ripetuta.",
+      "daSapere": [
+        "Comportamento degli organi, senza *opinio iuris*",
+        "Esempi: dimissioni di cortesia, esternazioni, fiducia",
+        "Una prassi contraria non diventa legittima"
+      ],
+      "collegamenti": [
+        {
+          "da": "prassi-costituzionale",
+          "a": "questione-di-fiducia",
+          "tipo": "collegato",
+          "etichetta": "riguarda l'uso della"
+        },
+        {
+          "da": "prassi-costituzionale",
+          "a": "consuetudine-costituzionale",
+          "tipo": "evolve-in",
+          "etichetta": "può consolidarsi in"
+        }
+      ]
+    },
+    {
+      "id": "necessita-fonte",
+      "oltre": "La tesi della necessità come fonte del diritto fu sostenuta da Santi Romano nel 1909, a proposito dei provvedimenti adottati dal Governo dopo il **terremoto di Messina e Reggio Calabria** (dicembre 1908), quando fu proclamato lo stato d'assedio senza una base legislativa: la necessità, per Romano, è la fonte prima di tutto il diritto, anteriore alla legge.\n\nNella Costituzione repubblicana la necessità è stata **«costituzionalizzata»** e disciplinata: il decreto-legge si adotta in «casi straordinari di necessità e d'urgenza» e perde efficacia se non convertito in legge entro sessanta giorni (art. 77); lo stato di guerra è deliberato dalle Camere (art. 78). Resta discusso se esistano poteri di necessità al di fuori di queste previsioni.",
+      "daSapere": [
+        "Santi Romano, 1909: terremoto di Messina",
+        "Art. 77: necessità e urgenza, conversione entro 60 giorni",
+        "Art. 78: stato di guerra"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 77 e 78",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "necessita-fonte",
+          "a": "santi-romano",
+          "tipo": "collegato",
+          "etichetta": "fu teorizzata da"
+        },
+        {
+          "da": "necessita-fonte",
+          "a": "stato-di-guerra",
+          "tipo": "collegato",
+          "etichetta": "si manifesta nello"
+        }
+      ]
+    },
+    {
+      "id": "taglia-leggi",
+      "oltre": "Il meccanismo, previsto dall'art. 14 della legge n. 246 del 2005, nasce dal problema dell'**inflazione normativa**: decine di migliaia di leggi statali accumulate in un secolo e mezzo, spesso non più applicate ma formalmente vigenti. Il Governo doveva individuare le leggi da conservare con decreti legislativi «salva-leggi»; le altre, anteriori al 1970, sarebbero state abrogate in blocco.\n\nIl metodo (detto anche «ghigliottina») ha dato risultati parziali: le abrogazioni hanno colpito soprattutto atti già privi di effetti, e la semplificazione si è spostata verso la redazione di **codici di settore** e **testi unici**. Resta un tema centrale la **qualità della legislazione**: chiarezza, coordinamento, analisi d'impatto.",
+      "daSapere": [
+        "Legge 246/2005, art. 14",
+        "Salva-leggi e abrogazione in blocco (anteriori al 1970)",
+        "Semplificazione: codici di settore e testi unici"
+      ],
+      "collegamenti": [
+        {
+          "da": "taglia-leggi",
+          "a": "abrogazione",
+          "tipo": "collegato",
+          "etichetta": "produce una massiccia"
+        },
+        {
+          "da": "taglia-leggi",
+          "a": "delegificazione",
+          "tipo": "collegato",
+          "etichetta": "condivide gli obiettivi della"
+        }
+      ]
+    },
+    {
+      "id": "giurisprudenza",
+      "oltre": "In Italia, ordinamento di *civil law*, il precedente giudiziario **non è vincolante** come negli ordinamenti di *common law* (*stare decisis*): l'art. 101 Cost. dice che i giudici sono soggetti **soltanto alla legge**. Ogni giudice può quindi discostarsi motivatamente da decisioni precedenti, anche della Cassazione.\n\nDi fatto, però, la giurisprudenza orienta fortemente l'applicazione del diritto. La legge ha rafforzato il valore dei precedenti delle **Sezioni unite**: se una sezione semplice non condivide un loro principio di diritto deve rimettere la decisione alle Sezioni unite (art. 374 c.p.c.). Un ruolo speciale hanno le sentenze della **Corte costituzionale**, che eliminano le leggi illegittime con effetto per tutti, e quelle della Corte di giustizia dell'Unione europea.",
+      "daSapere": [
+        "Civil law: niente *stare decisis*",
+        "Art. 101: giudici soggetti soltanto alla legge",
+        "Art. 374 c.p.c.: peso delle Sezioni unite"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 101",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "giurisprudenza",
+          "a": "corte-di-cassazione",
+          "tipo": "collegato",
+          "etichetta": "è orientata dalla"
+        },
+        {
+          "da": "giurisprudenza",
+          "a": "precedente",
+          "tipo": "collegato",
+          "etichetta": "si esprime nel"
+        }
+      ]
+    },
+    {
+      "id": "nomofilachia",
+      "oltre": "Il termine viene dal greco *nómos* («legge») e *phylássein* («custodire»): la Cassazione «custodisce la legge». La funzione è affidata alla Corte dall'art. 65 dell'ordinamento giudiziario (r.d. 12/1941): assicurare l'esatta osservanza e l'uniforme interpretazione della legge e l'unità del diritto oggettivo nazionale. La Costituzione garantisce sempre il ricorso in Cassazione per violazione di legge contro sentenze e provvedimenti sulla libertà personale (art. 111, settimo comma).\n\nStrumenti più recenti la rafforzano: il **principio di diritto nell'interesse della legge** (art. 363 c.p.c.) e il **rinvio pregiudiziale** con cui, dal 2023, il giudice di merito può chiedere direttamente alla Cassazione la soluzione di una questione di diritto nuova e difficile (art. 363-bis c.p.c.).",
+      "daSapere": [
+        "Greco: custodia della legge",
+        "Art. 65 ordinamento giudiziario; art. 111 Cost.",
+        "Art. 363 e 363-bis c.p.c."
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 111",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "nomofilachia",
+          "a": "giurisprudenza",
+          "tipo": "collegato",
+          "etichetta": "rende uniforme la"
+        }
+      ]
+    },
+    {
+      "id": "contratto-collettivo",
+      "oltre": "L'art. 39 Cost. prevedeva un sistema in cui i sindacati **registrati**, rappresentati unitariamente in proporzione degli iscritti, avrebbero stipulato contratti collettivi con efficacia obbligatoria per tutti gli appartenenti alla categoria. Quel sistema **non è mai stato attuato**: i sindacati hanno preferito non registrarsi.\n\nI contratti collettivi sono perciò contratti di **diritto comune**, vincolanti in linea di principio solo per gli iscritti alle organizzazioni stipulanti. Il legislatore tentò di estenderne l'efficacia con la legge «Vigorelli» n. 741 del 1959, ma la Corte costituzionale ne bocciò la proroga (1962). Di fatto i giudici usano i minimi retributivi dei contratti nazionali per attuare l'art. 36 (retribuzione **proporzionata e sufficiente**), dando loro una efficacia generale indiretta.",
+      "daSapere": [
+        "Art. 39, commi 2–4: mai attuato",
+        "Contratti di diritto comune",
+        "Art. 36: i giudici usano i minimi contrattuali"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 36 e 39",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "contratto-collettivo",
+          "a": "liberta-sindacale",
+          "tipo": "collegato",
+          "etichetta": "è espressione della"
+        }
+      ]
+    },
+    {
+      "id": "diritto-internazionale-generale",
+      "oltre": "Il diritto internazionale generale è formato soprattutto da **consuetudini** (pratica degli Stati accompagnata da *opinio iuris*) e dai principi generali riconosciuti dalle nazioni civili. Ne sono esempi la libertà dei mari, l'immunità degli agenti diplomatici, il principio *pacta sunt servanda*. Alcune norme sono **imperative** (*ius cogens*): il divieto di genocidio, di tortura, di schiavitù, di aggressione; secondo la Convenzione di Vienna del 1969 un trattato che vi contrasti è nullo.\n\nLe norme generali entrano automaticamente nel nostro ordinamento (art. 10), ma con il limite dei **principi supremi**: nel 2014 la Corte costituzionale (sentenza 238) ha escluso l'ingresso della norma sull'immunità degli Stati per i crimini di guerra nazisti, perché avrebbe negato la tutela giurisdizionale delle vittime.",
+      "daSapere": [
+        "Consuetudini e principi generali",
+        "*Ius cogens*: Convenzione di Vienna 1969",
+        "Corte cost. 238/2014: limite dei principi supremi"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 10",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 238/2014",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2014/238"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "diritto-internazionale-generale",
+          "a": "controlimiti",
+          "tipo": "collegato",
+          "etichetta": "incontra i"
+        },
+        {
+          "da": "diritto-internazionale-generale",
+          "a": "consuetudine",
+          "tipo": "collegato",
+          "etichetta": "nasce soprattutto dalla"
+        }
+      ]
+    },
+    {
+      "id": "adattamento-automatico",
+      "oltre": "L'art. 10, primo comma, fu formulato all'Assemblea costituente dall'internazionalista Tomaso Perassi, che lo descrisse come un **«trasformatore permanente»**: ogni volta che sorge, si modifica o si estingue una norma internazionale generale, nasce, si modifica o si estingue automaticamente una norma interna corrispondente, senza bisogno di una legge.\n\nLe norme così introdotte hanno **rango costituzionale** e prevalgono sulle leggi ordinarie: una legge contraria è illegittima per violazione dell'art. 10. Il meccanismo vale solo per il diritto internazionale **generale**; per i trattati serve invece un **ordine di esecuzione** (adattamento speciale), di regola contenuto nella legge di autorizzazione alla ratifica.",
+      "daSapere": [
+        "Perassi: «trasformatore permanente»",
+        "Rango costituzionale",
+        "Solo per le norme generali; i trattati richiedono un ordine di esecuzione"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 10",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "adattamento-automatico",
+          "a": "ordine-di-esecuzione",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dall'"
+        }
+      ]
+    },
+    {
+      "id": "diritto-internazionale-pattizio",
+      "oltre": "Le regole sui trattati sono codificate nella **Convenzione di Vienna** sul diritto dei trattati del 1969. Il procedimento interno è fissato dalla Costituzione: il Presidente della Repubblica **ratifica** i trattati (art. 87), previa autorizzazione delle Camere con legge quando sono di natura politica, prevedono arbitrati o regolamenti giudiziari, importano variazioni del territorio, oneri alle finanze o modificazioni di leggi (art. 80). Le leggi di autorizzazione alla ratifica sono escluse dal **referendum abrogativo** (art. 75).\n\nDal 2001 l'art. 117, primo comma, obbliga il legislatore a rispettare gli **obblighi internazionali**: con le sentenze 348 e 349 del 2007 la Corte costituzionale ha chiarito che la CEDU funziona come **norma interposta**, superiore alle leggi ordinarie ma subordinata alla Costituzione.",
+      "daSapere": [
+        "Convenzione di Vienna 1969",
+        "Artt. 80 e 87: autorizzazione e ratifica; art. 75: niente referendum",
+        "Art. 117: CEDU norma interposta (2007)"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 75, 80, 87 e 117",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 348/2007",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2007/348"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "diritto-internazionale-pattizio",
+          "a": "legge-di-autorizzazione-alla-ratifica",
+          "tipo": "collegato",
+          "etichetta": "entra con la"
+        },
+        {
+          "da": "diritto-internazionale-pattizio",
+          "a": "cedu",
+          "tipo": "esempio-di",
+          "etichetta": "comprende la"
+        }
+      ]
+    },
+    {
+      "id": "ordine-di-esecuzione",
+      "oltre": "La formula tipica è: **«Piena ed intera esecuzione è data al Trattato…, a decorrere dalla data della sua entrata in vigore»**, con il testo del trattato allegato. È un **rinvio**: la legge non riscrive le norme del trattato, ma le rende applicabili nell'ordinamento interno così come sono, nel loro significato internazionale.\n\nDi solito l'ordine di esecuzione si trova nella stessa **legge di autorizzazione alla ratifica**, ma può essere dato anche con un atto diverso (per esempio un decreto, quando il trattato non richiede legge). Le norme del trattato acquistano il rango dell'atto che contiene l'ordine; dal 2001, però, l'art. 117, primo comma, impone a tutte le leggi il rispetto degli obblighi internazionali, rafforzandone la posizione.",
+      "daSapere": [
+        "«Piena ed intera esecuzione»",
+        "È un rinvio al testo del trattato",
+        "Di solito nella legge di autorizzazione alla ratifica"
+      ],
+      "collegamenti": [
+        {
+          "da": "ordine-di-esecuzione",
+          "a": "legge-di-autorizzazione-alla-ratifica",
+          "tipo": "parte-di",
+          "etichetta": "è contenuto di solito nella"
+        },
+        {
+          "da": "ordine-di-esecuzione",
+          "a": "rinvio-fisso",
+          "tipo": "esempio-di",
+          "etichetta": "opera come un"
+        }
+      ]
+    },
+    {
+      "id": "legge-rinforzata",
+      "oltre": "Esempi di leggi rinforzate nella Costituzione: le leggi che regolano i rapporti con le **confessioni** acatoliche sulla base di **intese** (art. 8, terzo comma); le modificazioni dei Patti lateranensi accettate dalle due parti (art. 7); le leggi sul passaggio di Comuni e Province da una Regione all'altra, che richiedono referendum e pareri (art. 132); l'**autonomia differenziata**, approvata a maggioranza assoluta sulla base di un'intesa con la Regione (art. 116, terzo comma); la legge sull'**equilibrio di bilancio**, approvata a maggioranza assoluta (art. 81, sesto comma; legge 243/2012); l'**amnistia** e l'indulto, che richiedono i due terzi (art. 79).\n\nIl procedimento aggravato rende la legge **resistente** all'abrogazione da parte di una legge ordinaria successiva: questa sarebbe illegittima per violazione della norma costituzionale che prevede l'aggravamento.",
+      "daSapere": [
+        "Intese (art. 8), autonomia differenziata (art. 116), bilancio (art. 81)",
+        "Amnistia e indulto: due terzi (art. 79)",
+        "Resistente all'abrogazione da legge ordinaria"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 7, 8, 79, 81, 116 e 132",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "legge-rinforzata",
+          "a": "intese-con-le-confessioni",
+          "tipo": "esempio-di",
+          "etichetta": "comprende le leggi sulle"
+        },
+        {
+          "da": "legge-rinforzata",
+          "a": "amnistia-e-indulto",
+          "tipo": "esempio-di",
+          "etichetta": "comprende la legge di"
+        }
+      ]
+    },
+    {
+      "id": "preleggi",
+      "oltre": "Le «Disposizioni sulla legge in generale» furono approvate con il r.d. 16 marzo 1942, n. 262, insieme al Codice civile: 31 articoli divisi in due capi (fonti del diritto; applicazione della legge in generale). Sono una fonte **ordinaria** e risentono dell'epoca: l'art. 1 elencava tra le fonti le norme corporative, cadute con la soppressione dell'ordinamento corporativo, e non menziona la Costituzione, che oggi sta al vertice.\n\nRestano attuali soprattutto l'art. 11 (irretroattività), l'art. 12 (interpretazione e analogia), l'art. 14 (divieto di analogia per leggi penali ed eccezionali) e l'art. 15 (abrogazione). Le norme di **diritto internazionale privato** (artt. 17–31) sono state sostituite dalla legge n. 218 del 1995.",
+      "daSapere": [
+        "R.d. 16 marzo 1942, n. 262: 31 articoli",
+        "Artt. 11, 12, 14, 15 ancora centrali",
+        "Diritto internazionale privato: legge 218/1995"
+      ],
+      "fonti": [
+        {
+          "titolo": "Disposizioni sulla legge in generale (preleggi), r.d. 16 marzo 1942, n. 262",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=042U0262&atto.dataPubblicazioneGazzetta=1942-04-04&atto.tipoProvvedimento=REGIO%20DECRETO"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "preleggi",
+          "a": "interpretazione-giuridica",
+          "tipo": "collegato",
+          "etichetta": "regolano l'"
+        },
+        {
+          "da": "preleggi",
+          "a": "analogia",
+          "tipo": "collegato",
+          "etichetta": "disciplinano l'"
+        }
+      ]
+    },
+    {
+      "id": "interpretazione-letterale",
+      "oltre": "L'art. 12 delle preleggi stabilisce che nell'applicare la legge non si può attribuirle altro senso che quello fatto palese dal **significato proprio delle parole** secondo la connessione di esse, e dall'**intenzione del legislatore**. L'interpretazione letterale è quindi il punto di partenza, ma non basta da sola.\n\nIl brocardo *in claris non fit interpretatio* («quando il testo è chiaro non serve interpretare») è oggi considerato ingannevole: anche la chiarezza è il risultato di un'interpretazione, e le parole giuridiche hanno spesso un significato tecnico diverso da quello comune. La lettera va combinata con il criterio **sistematico** (il contesto delle altre norme), con quello **teleologico** (lo scopo, la *ratio legis*) e con l'interpretazione conforme a Costituzione.",
+      "daSapere": [
+        "Art. 12 preleggi: parole, connessione, intenzione",
+        "*In claris non fit interpretatio*: formula ingannevole",
+        "Da combinare con sistematica e *ratio legis*"
+      ],
+      "fonti": [
+        {
+          "titolo": "Disposizioni sulla legge in generale (preleggi), r.d. 16 marzo 1942, n. 262",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=042U0262&atto.dataPubblicazioneGazzetta=1942-04-04&atto.tipoProvvedimento=REGIO%20DECRETO"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "interpretazione-letterale",
+          "a": "interpretazione-sistematica",
+          "tipo": "collegato",
+          "etichetta": "va combinata con l'"
+        },
+        {
+          "da": "interpretazione-letterale",
+          "a": "ratio-legis",
+          "tipo": "collegato",
+          "etichetta": "va completata dalla"
+        }
+      ]
+    },
+    {
+      "id": "analogia",
+      "oltre": "L'analogia si usa quando un caso **non è regolato** da alcuna norma. Si distinguono l'**analogia legis**, che applica la norma prevista per casi simili o materie analoghe, e l'**analogia iuris**, che, se il caso rimane dubbio, ricorre ai **principi generali dell'ordinamento giuridico dello Stato** (art. 12, secondo comma, preleggi).\n\nIl presupposto è la somiglianza rilevante (*eadem ratio*). L'analogia è **vietata** per le leggi penali e per quelle eccezionali, cioè che fanno eccezione a regole generali o ad altre leggi (art. 14 preleggi). Il divieto in materia penale è rafforzato dal principio di legalità dell'art. 25 Cost. (*nullum crimen sine lege*). L'analogia si distingue dall'interpretazione estensiva, che resta dentro il significato possibile del testo.",
+      "daSapere": [
+        "*Analogia legis* ↔ *analogia iuris*",
+        "Vietata per leggi penali ed eccezionali (art. 14)",
+        "Diversa dall'interpretazione estensiva"
+      ],
+      "fonti": [
+        {
+          "titolo": "Disposizioni sulla legge in generale (preleggi), r.d. 16 marzo 1942, n. 262",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=042U0262&atto.dataPubblicazioneGazzetta=1942-04-04&atto.tipoProvvedimento=REGIO%20DECRETO"
+        },
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 25",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "analogia",
+          "a": "lacuna-normativa",
+          "tipo": "collegato",
+          "etichetta": "colma la"
+        },
+        {
+          "da": "analogia",
+          "a": "interpretazione-estensiva",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dall'"
+        }
+      ]
+    },
+    {
+      "id": "interpretazione-autentica",
+      "oltre": "La legge di interpretazione autentica è per sua natura **retroattiva**: fissa il significato di una legge precedente fin dalla sua entrata in vigore. Proprio per questo la Corte costituzionale la controlla con attenzione: deve essere **ragionevole**, scegliere un significato già compatibile con il testo interpretato e non ledere il legittimo **affidamento** dei cittadini né interferire indebitamente con i processi in corso.\n\nAnche la Corte europea dei diritti dell'uomo ha più volte censurato leggi italiane «interpretative» adottate per influire su controversie pendenti in cui era parte lo Stato, in violazione del diritto all'equo processo (art. 6 CEDU). Una legge che si presenta come interpretativa ma introduce una disciplina nuova è in realtà una legge retroattiva innovativa.",
+      "daSapere": [
+        "Retroattiva per natura",
+        "Limiti: ragionevolezza, affidamento, giusto processo",
+        "Corte EDU: art. 6 CEDU"
+      ],
+      "collegamenti": [
+        {
+          "da": "interpretazione-autentica",
+          "a": "irretroattivita",
+          "tipo": "contrasta",
+          "etichetta": "deroga all'"
+        },
+        {
+          "da": "interpretazione-autentica",
+          "a": "giusto-processo",
+          "tipo": "collegato",
+          "etichetta": "incontra il limite del"
+        }
+      ]
+    },
+    {
+      "id": "lacuna-normativa",
+      "oltre": "Il problema delle lacune è legato all'idea di **completezza** dell'ordinamento: un ordinamento è completo se per ogni caso esiste una norma che lo regola. Norberto Bobbio, nella *Teoria dell'ordinamento giuridico* (1960), mostrò che la completezza non è un dato ma un'esigenza, soddisfatta attraverso strumenti di integrazione.\n\nIl giudice non può rifiutarsi di decidere per mancanza di norme (divieto di *non liquet*): deve usare l'**analogia** e, in ultima istanza, i **principi generali**. Si distinguono lacune **tecniche** (manca una norma necessaria per applicarne un'altra) e lacune **ideologiche** (manca una norma giusta: in questo caso non c'è vera lacuna, ma un problema di politica legislativa o di legittimità costituzionale).",
+      "daSapere": [
+        "Completezza dell'ordinamento: Bobbio (1960)",
+        "Divieto di *non liquet*",
+        "Lacune tecniche ↔ ideologiche"
+      ],
+      "collegamenti": [
+        {
+          "da": "lacuna-normativa",
+          "a": "analogia",
+          "tipo": "collegato",
+          "etichetta": "si colma con l'"
+        }
+      ]
+    },
+    {
+      "id": "irretroattivita",
+      "oltre": "L'art. 11 delle preleggi afferma che la legge non dispone che per l'avvenire: ma è una norma di legge ordinaria, che un'altra legge può derogare. Ha rango **costituzionale** soltanto in materia penale: nessuno può essere punito se non in forza di una legge entrata in vigore **prima** del fatto commesso (art. 25, secondo comma; art. 7 CEDU).\n\nVale invece la retroattività della legge penale **più favorevole**: se la legge successiva abolisce il reato o prevede una pena più mite, si applica al reo (art. 2 c.p.). Nelle altre materie la retroattività è ammessa, ma la Corte costituzionale richiede che sia **ragionevole** e rispetti l'affidamento, la certezza dei rapporti e le funzioni del giudice.",
+      "daSapere": [
+        "Art. 11 preleggi: norma ordinaria",
+        "Costituzionale solo in materia penale (art. 25)",
+        "Retroattività favorevole: art. 2 c.p."
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 25",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Disposizioni sulla legge in generale (preleggi), r.d. 16 marzo 1942, n. 262",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=042U0262&atto.dataPubblicazioneGazzetta=1942-04-04&atto.tipoProvvedimento=REGIO%20DECRETO"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "irretroattivita",
+          "a": "responsabilita-penale-personale",
+          "tipo": "collegato",
+          "etichetta": "rafforza le garanzie della"
+        }
+      ]
+    },
+    {
+      "id": "abrogazione",
+      "oltre": "Si distinguono abrogazione e **annullamento**. L'abrogazione è un fenomeno **fisiologico**: una legge valida cessa di avere effetto perché il legislatore ha cambiato idea; opera per il futuro. L'annullamento colpisce invece un atto **invalido** (per esempio una legge incostituzionale) e opera anche per il passato, salvo i rapporti esauriti.\n\nOltre che da una legge successiva, l'abrogazione può derivare da un **referendum abrogativo** (art. 75). In genere l'abrogazione di una legge abrogatrice non fa «rivivere» la legge abrogata (**reviviscenza**): nel 2012 la Corte costituzionale (sentenza 13) dichiarò inammissibile un referendum sulla legge elettorale proprio perché la reviviscenza della legge precedente non si sarebbe prodotta, lasciando il Parlamento senza legge elettorale.",
+      "daSapere": [
+        "Abrogazione (fisiologica, *ex nunc*) ↔ annullamento (invalidità)",
+        "Anche per referendum (art. 75)",
+        "Reviviscenza esclusa: Corte cost. 13/2012"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 75",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 13/2012",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2012/13"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "abrogazione",
+          "a": "sentenza-di-accoglimento",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dall'effetto della"
+        },
+        {
+          "da": "abrogazione",
+          "a": "reviviscenza",
+          "tipo": "collegato",
+          "etichetta": "di regola esclude la"
+        }
+      ]
+    },
+    {
+      "id": "territorialita-della-legge",
+      "oltre": "Il principio di territorialità è assoluto in **materia penale**: la legge penale italiana obbliga tutti coloro che si trovano nel territorio dello Stato, cittadini o stranieri (art. 3 c.p.), e si applica ai reati commessi nel territorio (art. 6 c.p.), con alcune estensioni ai fatti commessi all'estero. Fanno eccezione le **immunità** riconosciute dal diritto internazionale, come quelle degli agenti diplomatici (Convenzione di Vienna del 1961).\n\nNei rapporti privati con elementi di estraneità (un matrimonio tra cittadini di Stati diversi, un contratto internazionale) quale legge si applica lo stabilisce il **diritto internazionale privato** (legge n. 218 del 1995 e regolamenti dell'Unione europea), che può rinviare a una legge straniera.",
+      "daSapere": [
+        "Penale: artt. 3 e 6 c.p.",
+        "Immunità diplomatiche (Vienna 1961)",
+        "Diritto internazionale privato: legge 218/1995"
+      ],
+      "collegamenti": [
+        {
+          "da": "territorialita-della-legge",
+          "a": "diritto-internazionale-privato",
+          "tipo": "collegato",
+          "etichetta": "è temperata dal"
+        },
+        {
+          "da": "territorialita-della-legge",
+          "a": "territorio",
+          "tipo": "collegato",
+          "etichetta": "si riferisce al"
+        }
+      ]
+    },
+    {
+      "id": "legge-delegazione-europea",
+      "oltre": "La legge n. 234 del 2012 ha diviso la vecchia **legge comunitaria** annuale (prevista prima dalla legge «La Pergola» del 1989 e poi dalla legge «Buttiglione» del 2005) in due leggi distinte:\n- la **legge di delegazione europea**, che contiene soprattutto le **deleghe** al Governo per recepire le direttive con decreti legislativi;\n- la **legge europea**, che modifica direttamente le norme interne in contrasto con il diritto dell'Unione, anche per chiudere procedure d'infrazione.\n\nLo scopo era rendere più rapido e puntuale l'adeguamento, che in passato tardava spesso. La legge 234/2012 disciplina anche la partecipazione del Parlamento e delle Regioni alla formazione delle decisioni europee (fase **ascendente**).",
+      "daSapere": [
+        "Legge 234/2012",
+        "Delegazione europea (deleghe) + legge europea (modifiche dirette)",
+        "Prima: legge La Pergola (1989) e Buttiglione (2005)"
+      ],
+      "collegamenti": [
+        {
+          "da": "legge-delegazione-europea",
+          "a": "direttiva-ue",
+          "tipo": "collegato",
+          "etichetta": "serve a recepire la"
+        }
+      ]
+    }
+  ]
+}

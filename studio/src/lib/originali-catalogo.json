@@ -84,5 +84,36 @@
     "file": "originali/diritto-privato-torrente-dispense.pdf",
     "pagine": 238,
     "sha256": "1a9b5de50abded0851a6cc674976d207161b07db94a732db4f5c89a81bd25dec"
+  },
+  {
+    "id": "costituzionale-martines-v1",
+    "materia": "diritto-costituzionale-martines",
+    "titolo": "Martines · riassunto",
+    "descrizione": "Riassunto del manuale di T. Martines, Diritto costituzionale (edizione 2024), autore del riassunto non indicato. Materiale di partenza del Percorso, non il manuale integrale: per gli aggiornamenti successivi fa fede il Percorso.",
+    "file": "originali/costituzionale-martines.pdf",
+    "pagine": 267,
+    "sha256": "50afb453a8244cc39c37bb0dd49dcf76f9eb444227c81e0391ce7a0873728e28",
+    "dividiTitoli": true,
+    "pagineOmesse": [
+      1
+    ]
+  },
+  {
+    "id": "filosofia-mz-barberis-v1",
+    "materia": "filosofia-del-diritto-mz",
+    "titolo": "Barberis · Giuristi e filosofi, riassunto",
+    "descrizione": "Riassunto di M. Barberis, Giuristi e filosofi. Una storia della filosofia del diritto, autore del riassunto non indicato. Solo il testo, ripulito: materiale di partenza del Percorso, non il volume integrale.",
+    "testoFonte": "testi/filosofia-mz-barberis.txt",
+    "pagine": 56,
+    "sha256": "257cba2b8654c54188c548b5cc4c1f4d2319951730c109d3069b9459055efbe2"
+  },
+  {
+    "id": "filosofia-mz-schauer-v1",
+    "materia": "filosofia-del-diritto-mz",
+    "titolo": "Schauer · Il ragionamento giuridico, riassunto",
+    "descrizione": "Riassunto di F. Schauer, Il ragionamento giuridico. Una nuova introduzione, autore del riassunto non indicato. Solo il testo, ripulito: materiale di partenza del Percorso, non il volume integrale.",
+    "testoFonte": "testi/filosofia-mz-schauer.txt",
+    "pagine": 76,
+    "sha256": "317545f696d4e1b5aee3893239209ec13f983e729bc10749fa8889e437b26f92"
   }
 ]

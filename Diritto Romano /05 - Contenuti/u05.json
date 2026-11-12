@@ -942,7 +942,7 @@
       "nome": "Homines novi",
       "tipo": "gruppo",
       "breve": "Uomini di origine più modesta che, con il cursus honorum, arrivano a cariche come il consolato e nobilitano la stirpe.",
-      "definizione": "Uomini di **estrazione sociale più bassa** che, svolgendo il [[cursus-honorum]], riescono a rivestire cariche importanti come il **consolato**, nobilitando la propria stirpe (nobiltà degli onori) e portando nella [[nobilitas]] le istanze dei ceti inferiori.",
+      "definizione": "Uomini di **estrazione sociale più bassa** che, svolgendo il [[cursus-honorum]], riescono a rivestire cariche importanti come il **consolato**, nobilitando la propria stirpe (nobiltà degli onori, accanto a quella di sangue) e portando nella [[nobilitas]] le istanze dei ceti inferiori. Sono un segno della trasformazione della società repubblicana dopo le Leges Liciniae Sextiae, insieme all'affermarsi del ceto degli [[equites]].",
       "pagine": [
         56,
         56
@@ -953,7 +953,7 @@
       "nome": "Cursus honorum",
       "tipo": "concetto",
       "breve": "La carriera delle magistrature: dopo 10 anni di servizio militare, questura, edilità curule, pretura, consolato.",
-      "definizione": "La sequenza delle cariche repubblicane: dopo **10 anni di servizio nell'esercito**, **[[questore|questura]] → [[edile-curule|edilità curule]] → [[pretore|pretura]] → [[console|consolato]]**, la carica più elevata. Percorrendolo gli [[homines-novi]] entrano nella nobilitas.",
+      "definizione": "La sequenza delle cariche repubblicane: dopo **10 anni di servizio nell'esercito**, **[[questore|questura]] → [[edile-curule|edilità curule]] → [[pretore|pretura]] → [[console|consolato]]**, la carica più elevata. Le cariche sono elettive, temporanee e collegiali. Percorrendolo gli [[homines-novi]], partiti da un'estrazione sociale più bassa, entrano nella nobilitas e nobilitano la propria stirpe; gli ex magistrati confluiscono poi nel Senato. Così il cursus è anche una via di ricambio sociale.",
       "pagine": [
         56,
         60
@@ -1012,7 +1012,7 @@
       "nome": "Lex curiata de imperio",
       "tipo": "norma",
       "breve": "Atto con cui, in origine, l'assemblea curiata riconosceva formalmente l'imperium al magistrato.",
-      "definizione": "In origine era l'atto con cui l'**assemblea curiata** ([[comizi-curiati]]) **ratificava**, riconosceva formalmente, il potere del magistrato, cioè l'[[imperium]]. Da non confondere con la *lex de imperio* d'età imperiale.",
+      "definizione": "In origine era l'atto con cui l'**assemblea curiata** ([[comizi-curiati]]) **ratificava**, riconosceva formalmente, il potere del magistrato, cioè l'[[imperium]], il comando militare su cui si fondava la sua forza. In età repubblicana i comizi curiati conservano importanza proprio riunendosi per questa investitura dei magistrati eletti. Nel principato la [[lex-de-imperio|lex de imperio]] diventerà l'investitura del principe. Con il tempo i comizi curiati si estinguono.",
       "pagine": [
         58,
         58
@@ -1034,7 +1034,7 @@
       "nome": "Coercitio",
       "tipo": "concetto",
       "breve": "Potere del magistrato di infliggere sanzioni punitive; compresa nell'imperium in senso ampio.",
-      "definizione": "Parte dei poteri civili del magistrato, compresa nell'[[imperium]] in senso ampio: la possibilità di **infliggere sanzioni punitive**, pene. Ne sono simbolo i fasci dei littori, con verghe e scuri (fustigazione e decapitazione).",
+      "definizione": "Parte dei poteri civili del magistrato, compresa nell'[[imperium]] in senso ampio insieme alla *iurisdictio*: la possibilità di **infliggere sanzioni punitive**, pene. Ne sono simbolo i fasci dei littori, con verghe e scuri (fustigazione e decapitazione). In città la incontra un limite: il cittadino colpito dalla *coercitio* può ricorrere alla [[provocatio-ad-populum]], l'appello al popolo riunito nei comizi centuriati.",
       "pagine": [
         58,
         60
@@ -1056,7 +1056,7 @@
       "nome": "Ius agendi cum populo",
       "tipo": "concetto",
       "breve": "Facoltà del magistrato di convocare il popolo in assemblea e proporgli candidature o leggi.",
-      "definizione": "Facoltà di **convocare il popolo in assemblea** e di proporre la votazione delle **candidature** di altri magistrati o delle **leggi**. Spetta per esempio ai [[console|consoli]].",
+      "definizione": "Facoltà di **convocare il popolo in assemblea** e di proporre la votazione delle **candidature** di altri magistrati o delle **leggi**. È lo strumento con cui i magistrati portano le proposte davanti ai comizi, in particolare ai [[comizi-centuriati]], che votano la *lex rogata*: perciò è alla base della [[lex-publica]], «comando generale del popolo su proposta del magistrato interrogante». Spetta per esempio ai [[console|consoli]].",
       "pagine": [
         58,
         59
@@ -1067,7 +1067,7 @@
       "nome": "Ius agendi cum senatu",
       "tipo": "concetto",
       "breve": "Facoltà del magistrato di convocare il Senato e interrogarlo su determinate questioni.",
-      "definizione": "Facoltà di **convocare il [[senato|Senato]]** e di **interrogarlo** su determinate questioni. Spetta per esempio ai [[console|consoli]].",
+      "definizione": "Facoltà di **convocare il [[senato|Senato]]** e di **interrogarlo** su determinate questioni, sottoponendogli una proposta perché esprima il suo parere. È uno degli strumenti che, accanto all'[[ius-agendi-cum-populo]], si aggiungono ai poteri civili del magistrato ([[coercitio]] e *iurisdictio*). Spetta per esempio ai [[console|consoli]], che possono convocare il Senato oltre ai comizi. Il Senato, in cui confluiscono gli ex magistrati, ha un ruolo di direzione politica e le sue deliberazioni sono i [[senatus-consulta]].",
       "pagine": [
         58,
         59
@@ -1078,7 +1078,7 @@
       "nome": "Imperium militiae",
       "tipo": "concetto",
       "breve": "Imperium esercitato fuori Roma, nelle operazioni militari: consente punizioni discrezionali fino alla morte.",
-      "definizione": "L'[[imperium]] esercitato **non a Roma**, nel campo e nelle operazioni militari: il magistrato può punire **a propria discrezione** il cittadino colpevole di trasgressioni, con pene corporali e persino con la **morte**.",
+      "definizione": "L'[[imperium]] esercitato **non a Roma**, nel campo e nelle operazioni militari: il magistrato può punire **a propria discrezione** il cittadino colpevole di trasgressioni, con pene corporali e persino con la **morte**. Si contrappone all'[[imperium-domi]], esercitato in città, dove il cittadino minacciato di una pena grave può appellarsi al popolo. La differenza mostra quanto fosse ampio il potere militare del magistrato.",
       "pagine": [
         58,
         58
@@ -1089,7 +1089,7 @@
       "nome": "Imperium domi",
       "tipo": "concetto",
       "breve": "Imperium esercitato a Roma, con limiti maggiori: il cittadino può appellarsi al popolo (Lex Valeria).",
-      "definizione": "L'[[imperium]] esercitato **nella circoscrizione di Roma**, con **limiti maggiori**: il cittadino minacciato di una punizione grave può **appellarsi al popolo** riunito in assemblea, in base alla [[lex-valeria-de-provocatione|Lex Valeria de provocatione]].",
+      "definizione": "L'[[imperium]] esercitato **nella circoscrizione di Roma**, con **limiti maggiori** rispetto all'[[imperium-militiae]]: il cittadino minacciato di una punizione grave da un magistrato può **appellarsi al popolo** riunito in assemblea, in base alla [[lex-valeria-de-provocatione|Lex Valeria de provocatione]], per sottrarsi alla pena. È quindi un potere temperato dalla [[provocatio-ad-populum]], mentre fuori città il magistrato può punire a propria discrezione.",
       "pagine": [
         58,
         58
@@ -1122,7 +1122,7 @@
       "nome": "Intercessio",
       "tipo": "concetto",
       "breve": "Diritto di veto di un magistrato sulle decisioni del collega: impone l'unanimità e il controllo reciproco.",
-      "definizione": "Il **diritto di veto** che ciascun magistrato ha sulle decisioni del collega, conseguenza della [[collegialita|collegialità]]: serve l'**unanimità** e nessuno può prevalere totalmente sull'altro.",
+      "definizione": "Il **diritto di veto** che ciascun magistrato ha sulle decisioni del collega, conseguenza della [[collegialita|collegialità]]: poiché ci sono almeno due magistrati per carica, serve l'**unanimità** e nessuno può prevalere totalmente sull'altro. Insieme alla durata annuale ([[annualita]]) è il bilanciamento che contiene i poteri dei magistrati repubblicani, perché nessuno detenga troppo a lungo un potere che diventi personale. È uno dei limiti tipici della repubblica.",
       "pagine": [
         59,
         59
@@ -1172,7 +1172,7 @@
         "praetor peregrinus"
       ],
       "breve": "Istituito nel 242 a.C. per le liti tra romani e stranieri: davanti a lui nasce il processo formulare.",
-      "definizione": "Istituito nel **242 a.C.**, accanto al pretore urbano, nell'età dell'espansione commerciale; vi accede anche la plebe. Ha la **iurisdictio** sulle liti **tra cives e peregrini** o **tra stranieri** (su suolo italico). Davanti a lui si inaugura il [[processo-formulare]], così che i rapporti di diritto commerciale e i [[nova-negotia]] non restano senza tutela.",
+      "definizione": "Istituito nel **242 a.C.**, accanto al pretore urbano, nell'età dell'espansione commerciale; vi accede anche la plebe. Ha la **iurisdictio** sulle liti **tra cives e peregrini** o **tra stranieri** (su suolo italico). Davanti a lui si inaugura il [[processo-formulare]], così che i rapporti di diritto commerciale e i [[nova-negotia]] non restano senza tutela. Il nuovo processo sarà poi esteso al [[pretore-urbano|pretore urbano]].",
       "pagine": [
         59,
         69
@@ -1183,7 +1183,7 @@
       "nome": "Dittatore",
       "tipo": "magistratura",
       "breve": "Magistrato straordinario cum imperio, nominato nelle crisi per riportare la repubblica alla normalità.",
-      "definizione": "Magistratura **straordinaria *cum imperio***: nominato solo in circostanze eccezionali, assume determinati poteri nelle situazioni critiche per **traghettare la repubblica** fino al ritorno alla normalità. Gli è subordinato il [[magister-equitum]].",
+      "definizione": "Magistratura **straordinaria *cum imperio***: nominato solo in circostanze eccezionali, per esempio in una crisi generale della stabilità della repubblica, assume determinati poteri nelle situazioni critiche per **traghettare la repubblica** fino al ritorno alla normalità. Gli è subordinato il [[magister-equitum]]. Le magistrature straordinarie si contrappongono a quelle ordinarie, che funzionano nella normalità della vita repubblicana e si rinnovano ogni anno.",
       "pagine": [
         59,
         59
@@ -1194,7 +1194,7 @@
       "nome": "Magister equitum",
       "tipo": "magistratura",
       "breve": "Magistrato straordinario cum imperio, subordinato al dittatore.",
-      "definizione": "Magistratura **straordinaria *cum imperio***, **subordinata al [[dittatore]]**. Subito dopo gli appunti citano, come esempio di magistrati con compiti specifici in situazioni straordinarie, i decemviri che redassero le XII Tavole.",
+      "definizione": "Magistratura **straordinaria *cum imperio***, **subordinata al [[dittatore]]**, nominata come lui solo in situazioni eccezionali di crisi della repubblica, fuori dal ricambio annuale delle magistrature ordinarie. Subito dopo, gli appunti citano come esempio di magistrati con compiti specifici in situazioni straordinarie i [[decemviri-legibus-scribundis|decemviri]] che redassero le XII Tavole, anch'essi magistratura straordinaria. Come il dittatore, esce di scena quando la situazione torna normale.",
       "pagine": [
         59,
         59
@@ -1205,7 +1205,7 @@
       "nome": "Questori",
       "tipo": "magistratura",
       "breve": "Magistrati sine imperio che amministrano l'aerarium; da 2 diventano 20. Primo gradino del cursus honorum.",
-      "definizione": "Magistrati ***sine imperio*** (ma con *aliqua potestas*) che amministrano l'***aerarium***: patrimonio dello Stato, fisco, riscossione dei tributi. Col tempo il loro numero cresce **da 2 a 20**. La questura è il primo gradino del [[cursus-honorum]].",
+      "definizione": "Magistrati ***sine imperio*** (ma con *aliqua potestas*) che amministrano l'***aerarium***: patrimonio dello Stato, fisco, riscossione dei tributi. Col tempo il loro numero cresce **da 2 a 20**. Sono eletti dai [[comizi-tributi]], competenti per i magistrati minori. La questura è il primo gradino del [[cursus-honorum]], a cui si accede dopo dieci anni di servizio nell'esercito; seguono edilità, pretura e consolato.",
       "pagine": [
         60,
         60
@@ -1252,7 +1252,7 @@
       "nome": "Sacrosanctitas",
       "tipo": "concetto",
       "breve": "Inviolabilità dei tribuni della plebe per la durata della carica, garantita dal giuramento dei plebei.",
-      "definizione": "L'**inviolabilità** della persona dei [[tribuno-della-plebe|tribuni della plebe]] per tutta la durata della carica, assicurata dal **giuramento solenne** con cui i plebei si impegnavano a vendicare con la morte qualsiasi offesa ai tribuni.",
+      "definizione": "L'**inviolabilità** della persona dei [[tribuno-della-plebe|tribuni della plebe]] per tutta la durata della carica, assicurata dal **giuramento solenne** con cui i plebei si impegnavano a vendicare con la morte qualsiasi offesa ai tribuni. Grazie a essa i tribuni, eletti dai [[concilia-plebis]], potevano difendere la plebe contro le genti patrizie dominanti e prestare aiuto a ogni cittadino vittima di soprusi.",
       "pagine": [
         60,
         60
@@ -1310,7 +1310,7 @@
       "nome": "Ius commercium",
       "tipo": "istituto",
       "breve": "Facoltà, concessa allo straniero, di compiere negozi civilistici patrimoniali.",
-      "definizione": "Facoltà di compiere **negozi civilistici patrimoniali**: una delle poche eccezioni (con i trattati e il [[conubium]]) per cui lo straniero, altrimenti escluso dal [[ius-civile]], poteva avere tutela.",
+      "definizione": "Facoltà di compiere **negozi civilistici patrimoniali**: una delle poche eccezioni (con i trattati internazionali e il [[conubium]]) per cui lo straniero, altrimenti escluso dal [[ius-civile]], riservato ai cittadini (il *ius Quiritium*), poteva avere tutela. Con la nascita del diritto commerciale e del [[ius-gentium]], aperto a tutti i popoli in rapporto con Roma, la tutela degli stranieri diventa la regola e non più l'eccezione.",
       "pagine": [
         61,
         61
@@ -1321,7 +1321,7 @@
       "nome": "Conubium",
       "tipo": "istituto",
       "breve": "Facoltà di concludere un valido matrimonio: eccezione che apriva il ius civile allo straniero.",
-      "definizione": "Facoltà di concludere un **valido matrimonio**: con i trattati e lo [[ius-commercium]], uno dei casi in cui lo straniero poteva godere di tutela nel [[ius-civile]].",
+      "definizione": "Facoltà di concludere un **valido matrimonio** secondo il [[ius-civile]]. Il *ius civile* era riservato ai cittadini e lo straniero ne restava privo di tutela, salvo casi particolari: i trattati internazionali, la concessione dello [[ius-commercium]] o del *conubium*. Il [[ius-gentium]], diritto commerciale aperto a cittadini e stranieri, nasce proprio per superare questo limite nei rapporti economici del Mediterraneo.",
       "pagine": [
         61,
         61
@@ -1369,7 +1369,7 @@
       "nome": "Contratti consensuali",
       "tipo": "istituto",
       "breve": "Contratti in cui le obbligazioni nascono dal solo consenso manifestato delle parti, senza forme.",
-      "definizione": "Contratti che si perfezionano con il **consenso liberamente manifestato** dalle parti: gli effetti nascono dalla **volontà**, la parola è solo uno strumento per esprimerla, e le obbligazioni sorgono quando le volontà convergono. Sono i quattro [[nova-negotia]]. La loro astrazione è la **tipicità del rapporto**, legata alla funzione pratico-economica. Si contrappongono anche ai [[contratti-reali]].",
+      "definizione": "Contratti che si perfezionano con il **consenso liberamente manifestato** dalle parti: gli effetti nascono dalla **volontà**, la parola è solo uno strumento per esprimerla, e le obbligazioni sorgono quando le volontà convergono. Sono i quattro [[nova-negotia]]. La loro astrazione è la **tipicità del rapporto**, legata alla funzione pratico-economica. Si contrappongono anche ai [[contratti-reali]]. Sono [[emptio-venditio]], [[locatio-conductio]], [[mandatum]] e [[societas]].",
       "pagine": [
         62,
         66
@@ -1434,7 +1434,7 @@
       "nome": "Locatio conductio rei",
       "tipo": "istituto",
       "breve": "Locazione della cosa: il locatore cede il temporaneo godimento di una res inconsumabile dietro mercede.",
-      "definizione": "Species della [[locatio-conductio]]: il locatore cede al conduttore il **temporaneo uso o godimento** di una *res* mobile o immobile, purché inconsumabile, dietro pagamento della **mercede**.",
+      "definizione": "Species della [[locatio-conductio]], contratto consensuale, sinallagmatico e a titolo oneroso: il locatore cede al conduttore il **temporaneo uso o godimento** di una *res* mobile o immobile, purché inconsumabile, dietro pagamento della **mercede**; il conduttore deve restituirla dopo il tempo stabilito. Le altre species sono la [[locatio-conductio-operarum]] (i servigi) e la [[locatio-conductio-operis]] (un risultato da raggiungere).",
       "pagine": [
         65,
         65
@@ -1445,7 +1445,7 @@
       "nome": "Locatio conductio operarum",
       "tipo": "istituto",
       "breve": "Locazione delle opere: il locatore mette a disposizione i propri servigi dietro corrispettivo; origine del lavoro.",
-      "definizione": "Species della [[locatio-conductio]]: il locatore mette a disposizione del conduttore i **propri servigi**, le proprie *operae*, sempre dietro corrispettivo. È considerata l'**origine dei rapporti di lavoro**.",
+      "definizione": "Species della [[locatio-conductio]]: il locatore mette a disposizione del conduttore i **propri servigi**, le proprie *operae*, e riceve un corrispettivo, la mercede. Il rapporto è quindi rovesciato rispetto alla [[locatio-conductio-rei]], dove si cede l'uso di una cosa, e diverso dalla [[locatio-conductio-operis]], dove si promette un risultato. È considerata l'**origine dei rapporti di lavoro**. Come le altre species è un contratto consensuale e oneroso.",
       "pagine": [
         65,
         65
@@ -1653,7 +1653,7 @@
         "Lex Gulia"
       ],
       "breve": "Legge d'età augustea che abolisce quasi del tutto le legis actiones (negli appunti «Lex Gulia»).",
-      "definizione": "Legge d'**età augustea** che **abolisce quasi del tutto** l'antico processo per [[legis-actiones]], completando l'affermazione del [[processo-formulare]] avviata dalla [[lex-aebutia|Lex Aebutia]]. Negli appunti compare come «Lex Gulia».",
+      "definizione": "Legge d'**età augustea** che **abolisce quasi del tutto** l'antico processo per [[legis-actiones]], completando l'affermazione del [[processo-formulare]] avviata dalla [[lex-aebutia|Lex Aebutia]], che aveva solo reso facoltativo il ricorso alla formula. Così la procedura nata davanti al pretore peregrino diventa il processo ordinario anche tra cittadini. Negli appunti compare come «Lex Gulia». Così si chiude l'età delle azioni di legge.",
       "pagine": [
         69,
         69
@@ -1689,7 +1689,7 @@
       "nome": "Denegatio actionis",
       "tipo": "procedura",
       "breve": "Rifiuto dell'azione da parte del pretore, se ne mancano i presupposti; mezzo anche per imporre stipulazioni.",
-      "definizione": "Nella [[fase-in-iure]] il pretore può **negare l'azione** se non ne riscontra i presupposti e la ritiene infondata. È anche uno dei mezzi con cui il pretore impone la conclusione delle [[stipulationes-praetoriae]].",
+      "definizione": "Nella [[fase-in-iure]] del [[processo-formulare]] il pretore, che dirige con discrezionalità l'impostazione della lite, può **negare l'azione** se non ne riscontra i presupposti e la ritiene infondata; altrimenti accoglie la formula proposta dall'attore o ne suggerisce un'altra. È anche uno dei mezzi, insieme alla *missio in possessionem*, con cui il pretore impone la conclusione delle [[stipulationes-praetoriae]].",
       "pagine": [
         70,
         77
@@ -1722,7 +1722,7 @@
       "nome": "Iudicis nominatio",
       "tipo": "procedura",
       "breve": "Parte iniziale della formula: la nomina del giudice («Iudex Titius esto»).",
-      "definizione": "Apre la [[formula]]: è la **nomina del giudice** che conoscerà il caso ed emanerà la sentenza: *Iudex Titius esto*, «Tizio sia giudice».",
+      "definizione": "Prima parte della [[formula]] del [[processo-formulare]]: la **nomina del giudice**, il privato scelto e incaricato di conoscere il caso e di emanare la sentenza nella fase *apud iudicem*. Si esprime con l'imperativo *Iudex Titius esto*, «Tizio sia giudice». Seguono, a seconda dei casi, la [[demonstratio]] (i presupposti dell'azione), l'[[intentio]] (la pretesa dell'attore) e la [[condemnatio]] (l'ordine di condannare o assolvere).",
       "pagine": [
         72,
         82
@@ -1744,7 +1744,7 @@
       "nome": "Intentio",
       "tipo": "procedura",
       "breve": "Parte della formula che contiene la pretesa dell'attore (es. dare oportere, ex iure Quiritium esse).",
-      "definizione": "Parte della [[formula]] che contiene la **pretesa dell'attore**, il rapporto sulla base del quale chiede il provvedimento: *si paret N. Negidium A. Agerio sestertium decem milia dare oportere*; *quidquid… dare facere oportere*; *si paret hominem ex iure Quiritium A. Agerii esse*. Il verbo ***oportere*** indica un'obbligazione civilistica; manca nelle formule [[actio-in-factum|in factum]].",
+      "definizione": "Parte della [[formula]] che contiene la **pretesa dell'attore**, il rapporto sulla base del quale chiede il provvedimento: *si paret N. Negidium A. Agerio sestertium decem milia dare oportere*; *quidquid… dare facere oportere*; *si paret hominem ex iure Quiritium A. Agerii esse*. Il verbo ***oportere*** indica un'obbligazione civilistica; manca nelle formule [[actio-in-factum|in factum]]. Le formule costruite sull'oportere sono dette [[actio-in-ius-concepta|in ius conceptae]].",
       "pagine": [
         72,
         82
@@ -1830,7 +1830,7 @@
       "tipo": "fonte",
       "latino": "album",
       "breve": "Tavole di legno imbiancate esposte nel foro, con lettere nere e rosse, su cui era pubblicato l'editto.",
-      "definizione": "Il testo dell'[[editto-del-pretore|editto]] era riportato a caratteri medio-grandi, **neri e rossi**, su **tavole di legno imbiancate** (*album*, da cui «albo») esposte nel **foro**, perché fosse accessibile a tutti. Chi voleva agire poteva condurre il convenuto davanti all'albo e mostrargli la formula che avrebbe chiesto. Nessun esemplare autentico ci è giunto.",
+      "definizione": "Il testo dell'[[editto-del-pretore|editto]] era riportato a caratteri medio-grandi, **neri e rossi**, su **tavole di legno imbiancate** (*album*, da cui «albo») esposte nel **foro**, perché fosse accessibile a tutti. Chi voleva agire poteva condurre il convenuto davanti all'albo e mostrargli la formula che avrebbe chiesto. Nessun esemplare autentico ci è giunto. L'editto resta così un testo «fragile ma persistente».",
       "pagine": [
         74,
         76
@@ -1852,7 +1852,7 @@
       "nome": "Lex Cornelia (67 a.C.)",
       "tipo": "norma",
       "breve": "Legge del 67 a.C. che obbliga i pretori a rispettare il proprio editto.",
-      "definizione": "Emanata nel **67 a.C.** perché nulla, eccetto la *fides* e la *dignitas*, vincolava il pretore al proprio editto (si pensi agli abusi di [[verre|Verre]]): stabilisce l'**obbligo dei pretori di rispettare l'editto**.",
+      "definizione": "Emanata nel **67 a.C.** perché nulla, eccetto la *fides* e la *dignitas*, vincolava il pretore al proprio editto, che «non legava le mani al magistrato» (si pensi agli abusi di [[verre|Verre]] in Sicilia): stabilisce l'**obbligo dei pretori di rispettare l'editto** pubblicato all'inizio della carica. Riduce così la discrezionalità pretoria e accresce la certezza delle regole processuali annunciate nell'[[albo-pretorio|albo]].",
       "pagine": [
         75,
         75
@@ -2018,7 +2018,7 @@
         "Ateio Capitone"
       ],
       "breve": "Giurista d'età augustea che definisce la lex publica come comando generale del popolo.",
-      "definizione": "Giurista d'**età augustea**: definisce la [[lex-publica|lex publica]] come il **comando generale del popolo su proposta del magistrato interrogante**, definizione che riflette l'iter della legge repubblicana.",
+      "definizione": "Ateio Capitone, giurista d'**età augustea**, sostenitore del principe: definisce la [[lex-publica|lex publica]] come il **comando generale del popolo su proposta del magistrato interrogante**, definizione che riflette l'iter della legge repubblicana. Fu contrapposto a [[labeone|Labeone]], di cui disse che era invaso da un'idea «folle e smisurata» della libertà; [[pomponio|Pomponio]] lo pone all'origine della scuola dei [[sabiniani]], come Labeone di quella dei [[proculiani]].",
       "pagine": [
         78,
         78
@@ -2062,7 +2062,7 @@
       "nome": "Contratti reali",
       "tipo": "istituto",
       "breve": "Contratti che si perfezionano con la consegna della cosa: deposito e comodato.",
-      "definizione": "Contratti che si **perfezionano con la consegna della *res***: [[deposito]] e [[comodato]]. Si distinguono dai [[contratti-consensuali]], in cui basta il consenso.",
+      "definizione": "Contratti che si **perfezionano con la consegna della *res***: negli appunti il [[deposito]], che ha per funzione la custodia gratuita della cosa, e il [[comodato]], che ne consente l'uso gratuito; in entrambi c'è l'obbligo di restituire la cosa. Prima erano praticati senza tutela; il pretore li protegge nel suo editto con un'[[actio-in-factum]]. Si distinguono dai [[contratti-consensuali]], in cui basta il consenso delle parti.",
       "pagine": [
         80,
         80
@@ -2086,7 +2086,7 @@
       "tipo": "istituto",
       "latino": "commodatum",
       "breve": "Contratto reale di uso gratuito di una cosa, da restituire integra; tutelato come il deposito.",
-      "definizione": "Contratto **reale** con funzione di **uso gratuito** della cosa secondo quanto concordato, con obbligo di restituirla **integra**. Va di pari passo con il [[deposito]]: tutelato prima da un'[[actio-in-factum]], poi da un'azione di buona fede.",
+      "definizione": "Contratto **reale**, che si perfeziona con la consegna della cosa, con funzione di **uso gratuito** della cosa secondo quanto concordato, con obbligo di restituirla **integra** al concedente dopo l'uso. Va di pari passo con il [[deposito]]: prima era praticato senza una vera tutela; il pretore, riconoscendone la rilevanza economica, lo protegge con un'[[actio-in-factum]] e poi con un'azione di buona fede. È un esempio della funzione creativa del pretore.",
       "pagine": [
         80,
         83
@@ -4172,6 +4172,9 @@
       "pagine": [
         61,
         63
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -4736,6 +4739,9 @@
       "pagine": [
         65,
         66
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -5036,6 +5042,9 @@
       "pagine": [
         66,
         68
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -5338,6 +5347,9 @@
       "pagine": [
         69,
         71
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -5632,6 +5644,9 @@
       "pagine": [
         71,
         73
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -5933,6 +5948,9 @@
       "pagine": [
         74,
         76
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -6522,6 +6540,9 @@
       "pagine": [
         78,
         80
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -6829,6 +6850,9 @@
       "pagine": [
         80,
         83
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -7006,6 +7030,132 @@
       "pagine": [
         77,
         77
+      ]
+    },
+    {
+      "id": "u05-q184",
+      "tipo": "flashcard",
+      "lezione": "u05-l2",
+      "livello": "base",
+      "domanda": "Che cos'è lo ius agendi cum populo?",
+      "risposta": "È la facoltà del magistrato di convocare il popolo in assemblea e di proporgli la votazione delle candidature di altri magistrati o delle leggi. Spetta per esempio ai consoli.",
+      "concetti": [
+        "ius-agendi-cum-populo",
+        "console"
+      ],
+      "pagine": [
+        58,
+        59
+      ]
+    },
+    {
+      "id": "u05-q185",
+      "tipo": "flashcard",
+      "lezione": "u05-l2",
+      "livello": "medio",
+      "domanda": "Che cos'era, in origine, la lex curiata de imperio?",
+      "risposta": "L'atto con cui l'assemblea curiata ratificava, cioè riconosceva formalmente, il potere del magistrato (l'imperium). Non va confusa con la lex de imperio dell'età imperiale.",
+      "concetti": [
+        "lex-curiata-de-imperio",
+        "comizi-curiati",
+        "imperium"
+      ],
+      "pagine": [
+        58,
+        58
+      ]
+    },
+    {
+      "id": "u05-q186",
+      "tipo": "flashcard",
+      "lezione": "u05-l10",
+      "livello": "medio",
+      "domanda": "Che cos'è la missio in possessionem?",
+      "risposta": "È il provvedimento con cui il pretore immette una parte nel possesso dei beni della controparte: serve a imporre le stipulazioni pretorie ed è, per esempio, la conseguenza del rifiuto della cautio damni infecti.",
+      "concetti": [
+        "missio-in-possessionem",
+        "cautio-damni-infecti",
+        "stipulationes-praetoriae"
+      ],
+      "pagine": [
+        77,
+        77
+      ]
+    },
+    {
+      "id": "u05-q187",
+      "tipo": "flashcard",
+      "lezione": "u05-l4",
+      "livello": "base",
+      "domanda": "Su che cosa può fondarsi l'amicizia secondo Aristotele, e dove rileva soprattutto la pistis?",
+      "risposta": "Sull'utile, sul piacere reciproco e, nella forma più rara e duratura, sulla virtù (tra uomini il cui amore è rivolto al bene). La pistis, la fiducia, rileva soprattutto nell'amicizia utilitaristica, che è morale o legale.",
+      "concetti": [
+        "bona-fides",
+        "aristotele"
+      ],
+      "pagine": [
+        63,
+        64
+      ]
+    },
+    {
+      "id": "u05-q188",
+      "tipo": "aperta",
+      "lezione": "u05-l7",
+      "livello": "base",
+      "domanda": "Chi è il pretore peregrino e perché la sua istituzione è decisiva per il processo formulare?",
+      "traccia": "Il **[[pretore-peregrino|praetor peregrinus]]** è istituito nel **242 a.C.**, accanto al pretore urbano (367 a.C.). È una magistratura accessibile anche alla plebe e, come l'urbano, ha la *iurisdictio*, che rientra nell'*imperium*.\n\nNasce dalle esigenze dell'espansione commerciale: abbandonare il **formalismo**, tutelare lo **straniero**, tutelare i ***nova negotia***. Le legis actiones erano riservate ai cittadini romani e inadatte a negozi privi di forme. Davanti al pretore peregrino diventa possibile un processo **tra stranieri e romani o tra stranieri** (su suolo italico): prima i rapporti con gli stranieri si regolavano caso per caso, con *hospitium* e *foedera*.\n\nÈ davanti a lui che si inaugura il **[[processo-formulare|processo formulare]]** (*litigare per formulas*): le parti discutono liberamente e il magistrato, con ampia discrezionalità, fissa la lite in una **formula scritta**. Vale il principio per cui non c'è *ius* senza *actio*.\n\nIl nuovo processo si estende poi al pretore urbano: la **lex Aebutia** (II sec. a.C.) lo rende facoltativo per i cittadini, la **lex Iulia** augustea abolisce quasi del tutto le legis actiones.",
+      "punti": [
+        {
+          "testo": "Istituito nel 242 a.C. accanto al pretore urbano; ha la iurisdictio",
+          "chiavi": [
+            "242",
+            "iurisdictio",
+            "urbano"
+          ]
+        },
+        {
+          "testo": "Esigenze: tutela dello straniero e dei nova negotia, abbandono del formalismo",
+          "chiavi": [
+            "stranier",
+            "nova negotia",
+            "formalismo"
+          ]
+        },
+        {
+          "testo": "Processo tra stranieri e romani o tra stranieri",
+          "chiavi": [
+            "stranier",
+            "peregrin"
+          ]
+        },
+        {
+          "testo": "Davanti a lui nasce il processo formulare",
+          "chiavi": [
+            "formular",
+            "formula"
+          ]
+        },
+        {
+          "testo": "Estensione al pretore urbano: lex Aebutia e lex Iulia",
+          "chiavi": [
+            "aebutia",
+            "iulia"
+          ]
+        }
+      ],
+      "concetti": [
+        "pretore-peregrino",
+        "processo-formulare",
+        "peregrini",
+        "nova-negotia"
+      ],
+      "pagine": [
+        69,
+        71
+      ],
+      "esame": [
+        "starace"
       ]
     }
   ]

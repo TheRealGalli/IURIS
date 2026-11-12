@@ -1,0 +1,300 @@
+{
+  "fonti": [
+    {
+      "id": "incampo",
+      "docente": "Antonio Incampo",
+      "corsi": [
+        "uniba-lmg-1-al"
+      ],
+      "file": "domande-esame/Incampo e Cotta, domande d'esame.pdf"
+    },
+    {
+      "id": "cotta",
+      "docente": "Antonio Incampo",
+      "corsi": [
+        "uniba-lmg-1-al"
+      ],
+      "file": "domande-esame/Incampo e Cotta, domande d'esame.pdf"
+    }
+  ],
+  "tracce": [
+    {
+      "id": "esame-incampo-01",
+      "fonte": "incampo",
+      "testo": "Norma fondamentale",
+      "lezioni": [
+        "u06-l2",
+        "u06-l5",
+        "u06-l6",
+        "u07-l1"
+      ],
+      "concetti": [
+        "grundnorm",
+        "metro-campione",
+        "teoria-dei-tipi"
+      ]
+    },
+    {
+      "id": "esame-incampo-02",
+      "fonte": "incampo",
+      "testo": "Doveri sintattici e pragmatici",
+      "lezioni": [
+        "u06-l1",
+        "u05-l1"
+      ],
+      "concetti": [
+        "validita-sintattica",
+        "validita-pragmatica",
+        "sintattica",
+        "pragmatica"
+      ]
+    },
+    {
+      "id": "esame-incampo-03",
+      "fonte": "incampo",
+      "testo": "Norme costitutive",
+      "lezioni": [
+        "u03-l4"
+      ],
+      "concetti": [
+        "regola-costitutiva",
+        "teoria-della-costitutivita"
+      ]
+    },
+    {
+      "id": "esame-incampo-04",
+      "fonte": "incampo",
+      "testo": "Norme prescrittive",
+      "lezioni": [
+        "u03-l4",
+        "u03-l5"
+      ],
+      "concetti": [
+        "norma-prescrittiva",
+        "teoria-della-costitutivita"
+      ]
+    },
+    {
+      "id": "esame-incampo-05",
+      "fonte": "incampo",
+      "testo": "Validità secondo Kelsen",
+      "lezioni": [
+        "u06-l2"
+      ],
+      "concetti": [
+        "validita",
+        "kelsen",
+        "stufenbau",
+        "grundnorm"
+      ]
+    },
+    {
+      "id": "esame-incampo-06",
+      "fonte": "incampo",
+      "testo": "Norma giuridica per Kelsen",
+      "lezioni": [
+        "u03-l4"
+      ],
+      "concetti": [
+        "norma-giuridica",
+        "kelsen",
+        "norma-primaria",
+        "sanzione"
+      ]
+    },
+    {
+      "id": "esame-incampo-07",
+      "fonte": "incampo",
+      "testo": "Ius Publicum",
+      "lezioni": [
+        "u07-l6"
+      ],
+      "concetti": [
+        "ius-publicum",
+        "pubblicita"
+      ]
+    },
+    {
+      "id": "esame-incampo-08",
+      "fonte": "incampo",
+      "testo": "Thesis e Rhesis",
+      "lezioni": [
+        "u03-l3"
+      ],
+      "concetti": [
+        "enunciazione-thetica",
+        "enunciazione-rhetica"
+      ]
+    },
+    {
+      "id": "esame-incampo-09",
+      "fonte": "incampo",
+      "testo": "Performatività del linguaggio",
+      "lezioni": [
+        "u03-l2"
+      ],
+      "concetti": [
+        "enunciato-performativo",
+        "condizioni-di-felicita"
+      ]
+    },
+    {
+      "id": "esame-incampo-10",
+      "fonte": "incampo",
+      "testo": "Principi di teoreticità ed effettività",
+      "lezioni": [
+        "u06-l6"
+      ],
+      "concetti": [
+        "teoreticita",
+        "effettivita",
+        "grundnorm"
+      ]
+    },
+    {
+      "id": "esame-incampo-11",
+      "fonte": "incampo",
+      "testo": "Norme primarie e secondarie per Hart",
+      "lezioni": [
+        "u01-l3"
+      ],
+      "concetti": [
+        "norma-primaria",
+        "norma-secondaria",
+        "hart"
+      ]
+    },
+    {
+      "id": "esame-incampo-12",
+      "fonte": "incampo",
+      "testo": "Validità sintattica",
+      "lezioni": [
+        "u06-l1"
+      ],
+      "concetti": [
+        "validita-sintattica",
+        "validita-sintasseologica",
+        "validita-sintasseonomica",
+        "norme-di-struttura"
+      ]
+    },
+    {
+      "id": "esame-incampo-13",
+      "fonte": "incampo",
+      "testo": "Le metaregole",
+      "lezioni": [
+        "u06-l2"
+      ],
+      "concetti": [
+        "metaregole",
+        "norma-di-chiusura"
+      ]
+    },
+    {
+      "id": "esame-incampo-14",
+      "fonte": "incampo",
+      "testo": "Pace perpetua di Kant",
+      "lezioni": [
+        "u07-l4",
+        "u07-l5"
+      ],
+      "concetti": [
+        "zum-ewigen-frieden",
+        "formula-trascendentale-del-diritto-pubblico",
+        "kant",
+        "pubblicita"
+      ]
+    },
+    {
+      "id": "esame-incampo-15",
+      "fonte": "incampo",
+      "testo": "Verità ontica e verità sintattica",
+      "lezioni": [
+        "u04-l2"
+      ],
+      "concetti": [
+        "verita-ontica",
+        "verita-semantica",
+        "validita"
+      ]
+    },
+    {
+      "id": "esame-incampo-16",
+      "fonte": "incampo",
+      "testo": "Differenza tra Grundwert e Grundnorm",
+      "lezioni": [
+        "u07-l6"
+      ],
+      "concetti": [
+        "grundwert",
+        "grundnorm",
+        "formula-trascendentale-del-diritto-pubblico"
+      ]
+    },
+    {
+      "id": "esame-incampo-17",
+      "fonte": "incampo",
+      "testo": "Norme di revisione della costituzione",
+      "lezioni": [
+        "u06-l4"
+      ],
+      "concetti": [
+        "revisione-costituzionale",
+        "alf-ross",
+        "paradosso-del-mentitore"
+      ]
+    },
+    {
+      "id": "esame-incampo-18",
+      "fonte": "incampo",
+      "testo": "Regole eidetico-costitutive",
+      "lezioni": [
+        "u07-l1"
+      ],
+      "concetti": [
+        "regola-eidetico-costitutiva",
+        "grundnorm"
+      ]
+    },
+    {
+      "id": "esame-incampo-19",
+      "fonte": "incampo",
+      "testo": "Condizioni di struttura e di funzione",
+      "lezioni": [
+        "u05-l3",
+        "u05-l4"
+      ],
+      "concetti": [
+        "regole-di-struttura",
+        "regole-di-funzione",
+        "struttura-e-funzione"
+      ]
+    },
+    {
+      "id": "esame-cotta-01",
+      "fonte": "cotta",
+      "testo": "Funzione del diritto",
+      "lezioni": [
+        "u13-l4"
+      ],
+      "concetti": [
+        "funzione-del-diritto",
+        "riduzionismo-giuridico"
+      ]
+    },
+    {
+      "id": "esame-cotta-02",
+      "fonte": "cotta",
+      "testo": "Obbligatorietà della regola",
+      "lezioni": [
+        "u14-l3"
+      ],
+      "concetti": [
+        "obbligo",
+        "principio-di-giustificazione",
+        "funzionalita-coesistenziale",
+        "regola-giuridica"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "fonti": [
+    {
+      "id": "lobuono",
+      "docente": "Michele Lobuono",
+      "corsi": ["uniba-lmg-1-al", "uniba-ssg-1"],
+      "file": "domande-esame/Lobuono, domande d'esame.pdf"
+    },
+    {
+      "id": "pennasilico",
+      "docente": "Mauro Pennasilico",
+      "corsi": ["uniba-lmg-1-mz"],
+      "file": "domande-esame/Pennasilico, domande d'esame.pdf"
+    }
+  ],
+  "tracce": [
+    {
+      "id": "esame-lobuono-01",
+      "fonte": "lobuono",
+      "testo": "La rappresentanza e la procura",
+      "lezioni": ["u17-l4"],
+      "concetti": ["rappresentanza", "procura"]
+    },
+    {
+      "id": "esame-lobuono-02",
+      "fonte": "lobuono",
+      "testo": "Usucapione",
+      "lezioni": ["u11-l2"],
+      "concetti": ["usucapione", "usucapione-abbreviata", "interruzione-dell-usucapione"]
+    },
+    {
+      "id": "esame-lobuono-03",
+      "fonte": "lobuono",
+      "testo": "Conseguenze della separazione e del divorzio",
+      "lezioni": ["u25-l2"],
+      "concetti": ["separazione-personale", "divorzio", "assegno-divorzile"]
+    },
+    {
+      "id": "esame-lobuono-04",
+      "fonte": "lobuono",
+      "testo": "Usufrutto",
+      "lezioni": ["u09-l1"],
+      "concetti": ["usufrutto", "nuda-proprieta", "quasi-usufrutto"]
+    },
+    {
+      "id": "esame-lobuono-05",
+      "fonte": "lobuono",
+      "testo": "Cessione del credito e factoring",
+      "lezioni": ["u13-l1"],
+      "concetti": ["cessione-del-credito", "cessione-pro-soluto-e-pro-solvendo", "factoring"]
+    },
+    {
+      "id": "esame-lobuono-06",
+      "fonte": "lobuono",
+      "testo": "Fondazione",
+      "lezioni": ["u05-l2"],
+      "concetti": ["fondazione", "atto-di-fondazione"]
+    },
+    {
+      "id": "esame-lobuono-07",
+      "fonte": "lobuono",
+      "testo": "Comunione legale dei coniugi",
+      "lezioni": ["u25-l3"],
+      "concetti": ["comunione-legale"]
+    },
+    {
+      "id": "esame-lobuono-08",
+      "fonte": "lobuono",
+      "testo": "Risoluzione del contratto",
+      "lezioni": ["u20-l4", "u20-l5"],
+      "concetti": ["risoluzione-per-inadempimento", "risoluzione-per-impossibilita", "eccessiva-onerosita-sopravvenuta"]
+    },
+    {
+      "id": "esame-lobuono-09",
+      "fonte": "lobuono",
+      "testo": "Servitù prediali",
+      "lezioni": ["u09-l2"],
+      "concetti": ["servitu", "fondo-dominante-e-servente", "servitu-coattive"]
+    },
+    {
+      "id": "esame-lobuono-10",
+      "fonte": "lobuono",
+      "testo": "Contratto preliminare",
+      "lezioni": ["u18-l1"],
+      "concetti": ["contratto-preliminare", "esecuzione-specifica-dell-obbligo-di-contrarre", "trascrizione-del-preliminare"]
+    },
+    {
+      "id": "esame-lobuono-11",
+      "fonte": "lobuono",
+      "testo": "Azione di riduzione",
+      "lezioni": ["u26-l4"],
+      "concetti": ["azione-di-riduzione", "legittimari", "quota-di-legittima"]
+    },
+    {
+      "id": "esame-lobuono-12",
+      "fonte": "lobuono",
+      "testo": "Contratti in forma scritta a pena di nullità",
+      "lezioni": ["u17-l3"],
+      "concetti": ["forma-ad-substantiam", "scrittura-privata-e-atto-pubblico"]
+    },
+    {
+      "id": "esame-lobuono-13",
+      "fonte": "lobuono",
+      "testo": "Prescrizione e decadenza",
+      "lezioni": ["u07-l1"],
+      "concetti": ["prescrizione", "decadenza"]
+    },
+    {
+      "id": "esame-lobuono-14",
+      "fonte": "lobuono",
+      "testo": "Adempimento delle obbligazioni (in generale)",
+      "lezioni": ["u13-l3"],
+      "concetti": ["adempimento", "adempimento-del-terzo", "imputazione-del-pagamento"]
+    },
+    {
+      "id": "esame-lobuono-15",
+      "fonte": "lobuono",
+      "testo": "Azione surrogatoria e revocatoria",
+      "lezioni": ["u15-l4"],
+      "concetti": ["azione-surrogatoria", "azione-revocatoria"]
+    },
+    {
+      "id": "esame-lobuono-16",
+      "fonte": "lobuono",
+      "testo": "Azione di reintegrazione",
+      "lezioni": ["u11-l3"],
+      "concetti": ["azione-di-reintegrazione", "spoglio"]
+    },
+    {
+      "id": "esame-lobuono-17",
+      "fonte": "lobuono",
+      "testo": "Rescissione",
+      "lezioni": ["u20-l3"],
+      "concetti": ["rescissione", "stato-di-pericolo-contrattuale", "rescissione-per-lesione"]
+    },
+    {
+      "id": "esame-lobuono-18",
+      "fonte": "lobuono",
+      "testo": "Azioni petitorie",
+      "lezioni": ["u08-l4"],
+      "concetti": ["azioni-petitorie", "azione-di-rivendicazione", "azione-negatoria"]
+    },
+    {
+      "id": "esame-lobuono-19",
+      "fonte": "lobuono",
+      "testo": "Interdizione ed emancipazione",
+      "lezioni": ["u04-l2"],
+      "concetti": ["interdizione-giudiziale", "interdizione-legale", "emancipazione"]
+    },
+    {
+      "id": "esame-lobuono-20",
+      "fonte": "lobuono",
+      "testo": "Nullità del contratto",
+      "lezioni": ["u20-l1"],
+      "concetti": ["nullita", "nullita-parziale", "conversione-del-contratto-nullo"]
+    },
+    {
+      "id": "esame-lobuono-21",
+      "fonte": "lobuono",
+      "testo": "Trascrizione",
+      "lezioni": ["u27-l2", "u27-l3"],
+      "concetti": ["trascrizione", "efficacia-dichiarativa-trascrizione", "continuita-trascrizioni"]
+    },
+    {
+      "id": "esame-lobuono-22",
+      "fonte": "lobuono",
+      "testo": "Azioni possessorie",
+      "lezioni": ["u11-l3"],
+      "concetti": ["azioni-possessorie", "azione-di-reintegrazione", "azione-di-manutenzione"]
+    },
+    {
+      "id": "esame-lobuono-23",
+      "fonte": "lobuono",
+      "testo": "Mora del debitore",
+      "lezioni": ["u14-l2"],
+      "concetti": ["mora-del-debitore"]
+    },
+    {
+      "id": "esame-lobuono-24",
+      "fonte": "lobuono",
+      "testo": "Mora del creditore",
+      "lezioni": ["u13-l4"],
+      "concetti": ["mora-del-creditore"]
+    },
+    {
+      "id": "esame-lobuono-25",
+      "fonte": "lobuono",
+      "testo": "Modi di risoluzione del contratto",
+      "lezioni": ["u20-l4", "u20-l5"],
+      "concetti": ["risoluzione-per-inadempimento", "diffida-ad-adempiere", "clausola-risolutiva-espressa", "termine-essenziale"]
+    },
+    {
+      "id": "esame-lobuono-26",
+      "fonte": "lobuono",
+      "testo": "Risoluzione per inadempimento",
+      "lezioni": ["u20-l4"],
+      "concetti": ["risoluzione-per-inadempimento"]
+    },
+    {
+      "id": "esame-lobuono-27",
+      "fonte": "lobuono",
+      "testo": "Possesso",
+      "lezioni": ["u11-l1"],
+      "concetti": ["possesso", "detenzione"]
+    },
+    {
+      "id": "esame-lobuono-28",
+      "fonte": "lobuono",
+      "testo": "Danno extracontrattuale",
+      "lezioni": ["u24-l1", "u24-l3"],
+      "concetti": ["responsabilita-extracontrattuale", "danno-patrimoniale", "danno-non-patrimoniale"]
+    },
+    {
+      "id": "esame-lobuono-29",
+      "fonte": "lobuono",
+      "testo": "Associazione non riconosciuta",
+      "lezioni": ["u05-l1"],
+      "concetti": ["associazione-non-riconosciuta", "fondo-comune"]
+    },
+    {
+      "id": "esame-lobuono-30",
+      "fonte": "lobuono",
+      "testo": "Responsabilità contrattuale",
+      "lezioni": ["u14-l1"],
+      "concetti": ["responsabilita-da-inadempimento", "inadempimento", "danno-da-inadempimento"]
+    },
+    {
+      "id": "esame-lobuono-31",
+      "fonte": "lobuono",
+      "testo": "Concorso del creditore",
+      "lezioni": ["u14-l1", "u14-l2"],
+      "concetti": ["concorso-di-colpa-del-creditore", "par-condicio-creditorum"]
+    },
+    {
+      "id": "esame-lobuono-32",
+      "fonte": "lobuono",
+      "testo": "Compensazione",
+      "lezioni": ["u13-l4"],
+      "concetti": ["compensazione"]
+    },
+    {
+      "id": "esame-lobuono-33",
+      "fonte": "lobuono",
+      "testo": "Successione legittima",
+      "lezioni": ["u26-l3"],
+      "concetti": ["successione-legittima", "quota-successoria-coniuge", "successione-parenti"]
+    },
+    {
+      "id": "esame-lobuono-34",
+      "fonte": "lobuono",
+      "testo": "Termine a favore del debitore",
+      "lezioni": ["u13-l3"],
+      "concetti": ["termine-di-adempimento", "adempimento"]
+    },
+    {
+      "id": "esame-lobuono-35",
+      "fonte": "lobuono",
+      "testo": "Decadenza del termine",
+      "lezioni": ["u13-l3"],
+      "concetti": ["termine-di-adempimento", "adempimento"]
+    },
+    {
+      "id": "esame-lobuono-36",
+      "fonte": "lobuono",
+      "testo": "Elementi accidentali del contratto",
+      "lezioni": ["u19-l3"],
+      "concetti": ["condizione-contrattuale", "termine-di-efficacia", "modo-onere-modale"]
+    },
+    {
+      "id": "esame-lobuono-37",
+      "fonte": "lobuono",
+      "testo": "Elementi essenziali del contratto",
+      "lezioni": ["u16-l1"],
+      "concetti": ["requisiti-del-contratto", "contratto"]
+    },
+    {
+      "id": "esame-lobuono-38",
+      "fonte": "lobuono",
+      "testo": "Novazione",
+      "lezioni": ["u13-l4"],
+      "concetti": ["novazione"]
+    },
+    {
+      "id": "esame-lobuono-39",
+      "fonte": "lobuono",
+      "testo": "Affidamento dei figli",
+      "lezioni": ["u25-l2", "u25-l4"],
+      "concetti": ["affidamento-dei-figli", "responsabilita-genitoriale"]
+    },
+    {
+      "id": "esame-pennasilico-01",
+      "fonte": "pennasilico",
+      "testo": "Situazioni soggettive attive e passive",
+      "lezioni": ["u03-l1", "u03-l2"],
+      "concetti": ["diritto-soggettivo", "potesta", "obbligo", "soggezione", "onere"]
+    },
+    {
+      "id": "esame-pennasilico-02",
+      "fonte": "pennasilico",
+      "testo": "Capacità giuridica e d'agire della persona fisica",
+      "lezioni": ["u04-l1"],
+      "concetti": ["capacita-giuridica", "capacita-di-agire"]
+    },
+    {
+      "id": "esame-pennasilico-03",
+      "fonte": "pennasilico",
+      "testo": "Interdizione legale e giudiziale",
+      "lezioni": ["u04-l2"],
+      "concetti": ["interdizione-giudiziale", "interdizione-legale"]
+    },
+    {
+      "id": "esame-pennasilico-04",
+      "fonte": "pennasilico",
+      "testo": "Inabilitazione",
+      "lezioni": ["u04-l2"],
+      "concetti": ["inabilitazione"]
+    },
+    {
+      "id": "esame-pennasilico-05",
+      "fonte": "pennasilico",
+      "testo": "Emancipazione",
+      "lezioni": ["u04-l2"],
+      "concetti": ["emancipazione"]
+    },
+    {
+      "id": "esame-pennasilico-06",
+      "fonte": "pennasilico",
+      "testo": "Minore età",
+      "lezioni": ["u04-l1"],
+      "concetti": ["minore-eta", "negozio-claudicante"]
+    },
+    {
+      "id": "esame-pennasilico-07",
+      "fonte": "pennasilico",
+      "testo": "Amministrazione di sostegno",
+      "lezioni": ["u04-l2"],
+      "concetti": ["amministrazione-di-sostegno", "giudice-tutelare"]
+    },
+    {
+      "id": "esame-pennasilico-08",
+      "fonte": "pennasilico",
+      "testo": "Incapacità naturale",
+      "lezioni": ["u04-l2"],
+      "concetti": ["incapacita-naturale"]
+    },
+    {
+      "id": "esame-pennasilico-09",
+      "fonte": "pennasilico",
+      "testo": "Gli enti (soggettività giuridica e personalità giuridica)",
+      "lezioni": ["u05-l1"],
+      "concetti": ["ente", "personalita-giuridica", "autonomia-patrimoniale"]
+    },
+    {
+      "id": "esame-pennasilico-10",
+      "fonte": "pennasilico",
+      "testo": "Associazione riconosciuta e non riconosciuta",
+      "lezioni": ["u05-l1"],
+      "concetti": ["associazione-riconosciuta", "associazione-non-riconosciuta"]
+    },
+    {
+      "id": "esame-pennasilico-11",
+      "fonte": "pennasilico",
+      "testo": "Terzo settore",
+      "lezioni": ["u05-l2"],
+      "concetti": ["terzo-settore"]
+    },
+    {
+      "id": "esame-pennasilico-12",
+      "fonte": "pennasilico",
+      "testo": "La prescrizione",
+      "lezioni": ["u07-l1"],
+      "concetti": ["prescrizione", "sospensione-della-prescrizione", "interruzione-della-prescrizione"]
+    },
+    {
+      "id": "esame-pennasilico-13",
+      "fonte": "pennasilico",
+      "testo": "Diritti reali in generale e la proprietà",
+      "lezioni": ["u08-l1"],
+      "concetti": ["diritti-reali", "proprieta", "funzione-sociale"]
+    },
+    {
+      "id": "esame-pennasilico-14",
+      "fonte": "pennasilico",
+      "testo": "I rapporti di vicinato e gli atti emulativi (immissioni, distanze legali, luci e vedute)",
+      "lezioni": ["u08-l2"],
+      "concetti": ["atti-emulativi", "immissioni", "distanze-legali", "luci-e-vedute"]
+    },
+    {
+      "id": "esame-pennasilico-15",
+      "fonte": "pennasilico",
+      "testo": "Modi di acquisto della proprietà e perdita",
+      "lezioni": ["u08-l3"],
+      "concetti": ["modi-di-acquisto-della-proprieta", "occupazione", "accessione"]
+    },
+    {
+      "id": "esame-pennasilico-16",
+      "fonte": "pennasilico",
+      "testo": "Azione a difesa della proprietà",
+      "lezioni": ["u08-l4"],
+      "concetti": ["azioni-petitorie", "azione-di-rivendicazione", "azione-negatoria"]
+    },
+    {
+      "id": "esame-pennasilico-17",
+      "fonte": "pennasilico",
+      "testo": "Diritti reali di godimento (superficie, enfiteusi, usufrutto, uso, abitazione, servitù)",
+      "lezioni": ["u09-l1", "u09-l2"],
+      "concetti": ["diritti-reali-di-godimento", "superficie", "enfiteusi", "usufrutto", "uso-e-abitazione", "servitu"]
+    },
+    {
+      "id": "esame-pennasilico-18",
+      "fonte": "pennasilico",
+      "testo": "Il possesso e la detenzione",
+      "lezioni": ["u11-l1"],
+      "concetti": ["possesso", "detenzione"]
+    },
+    {
+      "id": "esame-pennasilico-19",
+      "fonte": "pennasilico",
+      "testo": "Acquisto e perdita del possesso",
+      "lezioni": ["u11-l1"],
+      "concetti": ["possesso", "interversione-del-possesso", "accessione-del-possesso"]
+    },
+    {
+      "id": "esame-pennasilico-20",
+      "fonte": "pennasilico",
+      "testo": "Azioni possessorie (azione di reintegrazione, azione di manutenzione)",
+      "lezioni": ["u11-l3"],
+      "concetti": ["azioni-possessorie", "azione-di-reintegrazione", "azione-di-manutenzione"]
+    },
+    {
+      "id": "esame-pennasilico-21",
+      "fonte": "pennasilico",
+      "testo": "L'acquisto della proprietà in forza del possesso (possesso vale titolo, usucapione)",
+      "lezioni": ["u11-l2"],
+      "concetti": ["possesso-vale-titolo", "usucapione"]
+    },
+    {
+      "id": "esame-pennasilico-22",
+      "fonte": "pennasilico",
+      "testo": "L'azione di reintegrazione",
+      "lezioni": ["u11-l3"],
+      "concetti": ["azione-di-reintegrazione", "spoglio"]
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "fonti": [
+    {
+      "id": "torre",
+      "docente": "A. Torre",
+      "corsi": [
+        "uniba-lmg-1-al"
+      ],
+      "file": "domande-esame/Torre, domande d'esame.pdf"
+    }
+  ],
+  "tracce": [
+    {
+      "id": "esame-torre-01",
+      "fonte": "torre",
+      "testo": "Corte Costituzionale: processo per via incidentale e per via principale",
+      "lezioni": [
+        "u17-l2"
+      ],
+      "concetti": [
+        "giudizio-incidentale",
+        "giudizio-in-via-principale",
+        "corte-costituzionale"
+      ]
+    },
+    {
+      "id": "esame-torre-02",
+      "fonte": "torre",
+      "testo": "Funzioni della Corte Costituzionale, in particolare il conflitto di attribuzioni tra i poteri dello Stato e la questione di legittimità",
+      "lezioni": [
+        "u17-l3",
+        "u17-l1"
+      ],
+      "concetti": [
+        "corte-costituzionale",
+        "conflitto-di-attribuzione",
+        "questione-di-legittimita"
+      ]
+    },
+    {
+      "id": "esame-torre-03",
+      "fonte": "torre",
+      "testo": "Sentenze Corte Costituzionale",
+      "lezioni": [
+        "u17-l2"
+      ],
+      "concetti": [
+        "sentenza-di-accoglimento",
+        "sentenza-di-rigetto",
+        "sentenza-interpretativa",
+        "sentenza-manipolativa"
+      ]
+    },
+    {
+      "id": "esame-torre-04",
+      "fonte": "torre",
+      "testo": "Il presidente della Repubblica",
+      "lezioni": [
+        "u09-l1",
+        "u09-l2"
+      ],
+      "concetti": [
+        "presidente-della-repubblica",
+        "controfirma"
+      ]
+    },
+    {
+      "id": "esame-torre-05",
+      "fonte": "torre",
+      "testo": "Il sistema elettorale",
+      "lezioni": [
+        "u06-l1"
+      ],
+      "concetti": [
+        "sistema-elettorale",
+        "sistema-maggioritario",
+        "sistema-proporzionale"
+      ]
+    },
+    {
+      "id": "esame-torre-06",
+      "fonte": "torre",
+      "testo": "Rapporto tra Stato e regioni (riforma del Titolo V)",
+      "lezioni": [
+        "u10-l1"
+      ],
+      "concetti": [
+        "regioni",
+        "leale-collaborazione",
+        "autonomia-differenziata"
+      ]
+    },
+    {
+      "id": "esame-torre-07",
+      "fonte": "torre",
+      "testo": "Principio di sussidiarietà",
+      "lezioni": [
+        "u10-l1",
+        "u02-l2"
+      ],
+      "concetti": [
+        "sussidiarieta",
+        "terzo-settore",
+        "sussidiarieta-ue"
+      ]
+    },
+    {
+      "id": "esame-torre-08",
+      "fonte": "torre",
+      "testo": "Libertà personale",
+      "lezioni": [
+        "u18-l2"
+      ],
+      "concetti": [
+        "liberta-personale",
+        "riserva-di-giurisdizione"
+      ]
+    },
+    {
+      "id": "esame-torre-09",
+      "fonte": "torre",
+      "testo": "Referendum abrogativo (casi ammissibili e casi non ammissibili)",
+      "lezioni": [
+        "u14-l2"
+      ],
+      "concetti": [
+        "referendum-abrogativo",
+        "ammissibilita-referendum"
+      ]
+    },
+    {
+      "id": "esame-torre-10",
+      "fonte": "torre",
+      "testo": "Legge elettorale (anche vigente)",
+      "lezioni": [
+        "u06-l2"
+      ],
+      "concetti": [
+        "sistema-elettorale",
+        "premio-di-maggioranza",
+        "soglia-di-sbarramento"
+      ]
+    },
+    {
+      "id": "esame-torre-11",
+      "fonte": "torre",
+      "testo": "Gruppi parlamentari",
+      "lezioni": [
+        "u08-l1"
+      ],
+      "concetti": [
+        "gruppi-parlamentari"
+      ]
+    },
+    {
+      "id": "esame-torre-12",
+      "fonte": "torre",
+      "testo": "Democrazia all’interno dei partiti",
+      "lezioni": [
+        "u02-l2"
+      ],
+      "concetti": [
+        "partiti-politici",
+        "pluralismo"
+      ]
+    },
+    {
+      "id": "esame-torre-13",
+      "fonte": "torre",
+      "testo": "Messaggi presidenziali",
+      "lezioni": [
+        "u09-l2"
+      ],
+      "concetti": [
+        "messaggio-presidenziale",
+        "rinvio-presidenziale"
+      ]
+    },
+    {
+      "id": "esame-torre-14",
+      "fonte": "torre",
+      "testo": "Premiership",
+      "lezioni": [
+        "u07-l2",
+        "u05-l1"
+      ],
+      "concetti": [
+        "presidente-del-consiglio",
+        "governo-parlamentare"
+      ]
+    },
+    {
+      "id": "esame-torre-15",
+      "fonte": "torre",
+      "testo": "Presidente del Consiglio",
+      "lezioni": [
+        "u07-l2"
+      ],
+      "concetti": [
+        "presidente-del-consiglio",
+        "presidenza-del-consiglio",
+        "consiglio-dei-ministri"
+      ]
+    },
+    {
+      "id": "esame-torre-16",
+      "fonte": "torre",
+      "testo": "Fonti comunitarie (trattative, direttive e regolamenti)",
+      "lezioni": [
+        "u16-l1"
+      ],
+      "concetti": [
+        "regolamento-ue",
+        "direttiva-ue",
+        "decisione-ue"
+      ]
+    },
+    {
+      "id": "esame-torre-17",
+      "fonte": "torre",
+      "testo": "Rapporto Stato-Chiesa (riferimenti specifici ad avvenimenti storici, in particolare alla presa di Roma con le relative conseguenze)",
+      "lezioni": [
+        "u18-l3"
+      ],
+      "concetti": [
+        "questione-romana",
+        "liberta-religiosa"
+      ]
+    },
+    {
+      "id": "esame-torre-18",
+      "fonte": "torre",
+      "testo": "Regolamenti parlamentari",
+      "lezioni": [
+        "u14-l1",
+        "u08-l1"
+      ],
+      "concetti": [
+        "regolamenti-parlamentari",
+        "autodichia"
+      ]
+    },
+    {
+      "id": "esame-torre-19",
+      "fonte": "torre",
+      "testo": "Fonti Regionali (es. Statuto Regionale)",
+      "lezioni": [
+        "u15-l1",
+        "u15-l2",
+        "u15-l3"
+      ],
+      "concetti": [
+        "statuto-regionale",
+        "legge-regionale",
+        "regolamento-regionale"
+      ]
+    },
+    {
+      "id": "esame-torre-20",
+      "fonte": "torre",
+      "testo": "Il rapporto di fiducia tra Parlamento e Governo",
+      "lezioni": [
+        "u07-l1"
+      ],
+      "concetti": [
+        "rapporto-di-fiducia",
+        "mozione-di-sfiducia",
+        "questione-di-fiducia"
+      ]
+    },
+    {
+      "id": "esame-torre-21",
+      "fonte": "torre",
+      "testo": "Art. 117 Cost.",
+      "lezioni": [
+        "u15-l2",
+        "u10-l1"
+      ],
+      "concetti": [
+        "legge-regionale",
+        "potesta-legislativa-concorrente",
+        "competenza-residuale-regionale"
+      ]
+    },
+    {
+      "id": "esame-torre-22",
+      "fonte": "torre",
+      "testo": "Legge di delega",
+      "lezioni": [
+        "u13-l2"
+      ],
+      "concetti": [
+        "legge-delega",
+        "decreto-legislativo",
+        "eccesso-di-delega"
+      ]
+    },
+    {
+      "id": "esame-torre-23",
+      "fonte": "torre",
+      "testo": "Riserva di legge",
+      "lezioni": [
+        "u12-l3"
+      ],
+      "concetti": [
+        "riserva-di-legge",
+        "principio-di-legalita"
+      ]
+    },
+    {
+      "id": "esame-torre-24",
+      "fonte": "torre",
+      "testo": "Il caso Granital",
+      "lezioni": [
+        "u16-l2"
+      ],
+      "concetti": [
+        "sentenza-granital",
+        "primato-del-diritto-ue",
+        "non-applicazione-diritto-ue"
+      ]
+    },
+    {
+      "id": "esame-torre-25",
+      "fonte": "torre",
+      "testo": "Sentenza Mancuso",
+      "lezioni": [
+        "u07-l1"
+      ],
+      "concetti": [
+        "mozione-di-sfiducia",
+        "ministri"
+      ]
+    },
+    {
+      "id": "esame-torre-26",
+      "fonte": "torre",
+      "testo": "L’assemblea costituente del ’48 (quali erano i maggior partiti)",
+      "lezioni": [
+        "u04-l1"
+      ],
+      "concetti": [
+        "assemblea-costituente",
+        "costituzione-italiana"
+      ]
+    },
+    {
+      "id": "esame-torre-27",
+      "fonte": "torre",
+      "testo": "Il procedimento di formazione delle leggi",
+      "lezioni": [
+        "u13-l1"
+      ],
+      "concetti": [
+        "legge-ordinaria",
+        "iniziativa-legislativa",
+        "navetta-parlamentare"
+      ]
+    },
+    {
+      "id": "esame-torre-28",
+      "fonte": "torre",
+      "testo": "Consiglio superiore della Magistratura",
+      "lezioni": [
+        "u11-l2"
+      ],
+      "concetti": [
+        "csm",
+        "magistratura"
+      ]
+    },
+    {
+      "id": "esame-torre-29",
+      "fonte": "torre",
+      "testo": "Gerarchia delle fonti (in particolare confronto tra Legge dell’UE e Costituzione)",
+      "lezioni": [
+        "u12-l2",
+        "u16-l2",
+        "u16-l3"
+      ],
+      "concetti": [
+        "criterio-gerarchico",
+        "primato-del-diritto-ue",
+        "controlimiti"
+      ]
+    },
+    {
+      "id": "esame-torre-30",
+      "fonte": "torre",
+      "testo": "Fonti-fatto (consuetudini)",
+      "lezioni": [
+        "u12-l1"
+      ],
+      "concetti": [
+        "fonti-fatto",
+        "consuetudine"
+      ]
+    }
+  ]
+}

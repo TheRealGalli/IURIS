@@ -1,0 +1,906 @@
+{
+  "voci": [
+    {
+      "id": "ordinamento-giuridico",
+      "oltre": "### L'unità del sistema non elimina la pluralità delle fonti\nL'ordinamento costituzionale collega soggetti, istituzioni e fonti entro un quadro di attribuzioni. L'unità della Repubblica non richiede che ogni decisione provenga dallo stesso centro: la Costituzione riconosce autonomie territoriali e distribuisce competenze legislative e amministrative. Un conflitto non si risolve quindi chiedendo soltanto quale atto sia cronologicamente più recente.\n\nUna legge regionale non è invalida perché regionale, ma può esserlo se invade una competenza che non le spetta o viola un parametro superiore. Occorre combinare [[criterio-di-competenza]] e gerarchia. Il sistema comprende inoltre i vincoli europei e internazionali richiamati dall'art. 117, senza trasformare tutte le diverse fonti in gradini perfettamente equivalenti di una sola piramide.",
+      "daSapere": [
+        "Unità e pluralità istituzionale coesistono",
+        "Competenza e gerarchia sono controlli distinti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 5, 114 e 117–118",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "ordinamento-giuridico",
+          "a": "stato",
+          "tipo": "collegato",
+          "etichetta": "è proprio dello"
+        },
+        {
+          "da": "ordinamento-giuridico",
+          "a": "norma-giuridica",
+          "tipo": "collegato",
+          "etichetta": "comprende la"
+        },
+        {
+          "da": "ordinamento-giuridico",
+          "a": "unione-europea",
+          "tipo": "collegato",
+          "etichetta": "si coordina con quello dell'"
+        }
+      ]
+    },
+    {
+      "id": "pluralismo",
+      "oltre": "### La maggioranza non assorbe tutte le differenze\nIl pluralismo costituzionale riconosce una società articolata in gruppi, convinzioni e forme di partecipazione differenti. Non si esaurisce nel numero dei partiti: associazioni, confessioni, autonomie e libertà di espressione rendono possibile la presenza pubblica di interessi non coincidenti. La decisione maggioritaria opera entro questo quadro.\n\nUna vittoria elettorale non attribuisce il potere di eliminare le condizioni che permettono alle opposizioni di organizzarsi e competere. La [[tutela-delle-minoranze]] è quindi collegata al funzionamento democratico, non una concessione facoltativa del vincitore. Nel caso concreto occorre distinguere un disaccordo politico dalla violazione delle garanzie che rendono quel disaccordo esprimibile e contendibile.",
+      "daSapere": [
+        "Pluralità sociale oltre quella partitica",
+        "La maggioranza resta vincolata alle garanzie costituzionali"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 2, 8, 18, 21 e 49",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "formazioni-sociali",
+          "a": "pluralismo",
+          "tipo": "collegato",
+          "etichetta": "esprimono il"
+        },
+        {
+          "da": "liberta-religiosa",
+          "a": "pluralismo",
+          "tipo": "collegato",
+          "etichetta": "esprime il"
+        },
+        {
+          "da": "pluralismo",
+          "a": "partiti-politici",
+          "tipo": "collegato",
+          "etichetta": "si esprime nei"
+        }
+      ]
+    },
+    {
+      "id": "disposizione",
+      "oltre": "### Un testo può esprimere più significati normativi\nLa disposizione è il testo che l'interprete legge; la norma è il significato ricavato e applicato. La distinzione spiega perché una controversia possa riguardare un'interpretazione del testo senza che tutte le altre letture siano necessariamente coinvolte nello stesso modo. Non è un semplice problema di numerazione degli articoli.\n\nUn articolo può contenere più disposizioni, e una norma può risultare dal collegamento di più testi. Il controllo costituzionale deve quindi individuare quale significato sia rilevante per il giudizio. Le [[sentenza-interpretativa|sentenze interpretative]] rendono visibile questa operazione: testo legislativo e regola applicata non sono sempre oggetti coincidenti. All'esame occorre spiegare il passaggio interpretativo, non limitarsi a sostituire una parola con l'altra.",
+      "daSapere": [
+        "Testo distinto dal significato",
+        "Una norma può risultare da più testi"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 101 e 134",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "disposizione",
+          "a": "norma-giuridica",
+          "tipo": "contrasta",
+          "etichetta": "è il testo da cui l'interpretazione ricava la"
+        },
+        {
+          "da": "analogia",
+          "a": "disposizione",
+          "tipo": "collegato",
+          "etichetta": "si usa quando nessuna"
+        }
+      ]
+    },
+    {
+      "id": "fonti-del-diritto",
+      "oltre": "Le fonti si ordinano su più livelli. In cima le fonti **costituzionali**: Costituzione, leggi di revisione e leggi costituzionali. Poi le fonti **primarie**: legge ordinaria, decreto-legge, decreto legislativo, referendum abrogativo, regolamenti parlamentari, statuti e leggi regionali. Poi le fonti **secondarie**: regolamenti del Governo, dei ministri, delle Regioni e degli enti locali. In fondo la **consuetudine**.\n\nLa gerarchia non spiega tutto. Molti rapporti sono regolati dalla **competenza**: legge statale e legge regionale, legge e regolamenti parlamentari, diritto interno e diritto dell'Unione europea. L'art. 1 delle **preleggi** elenca ancora le fonti come nel 1942: va letto alla luce della Costituzione, che ha un sistema **chiuso** per le fonti primarie (le prevede solo la Costituzione) e **aperto** per le secondarie.",
+      "daSapere": [
+        "Livelli: costituzionale, primario, secondario, consuetudine.",
+        "Criteri: gerarchia, competenza, cronologia, specialità.",
+        "Le fonti primarie sono un numero chiuso: le istituisce solo la Costituzione."
+      ],
+      "collegamenti": [
+        {
+          "da": "rinvio-mobile",
+          "a": "fonti-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "richiama dinamicamente altre"
+        },
+        {
+          "da": "consuetudine",
+          "a": "fonti-del-diritto",
+          "tipo": "esempio-di",
+          "etichetta": "è una delle"
+        },
+        {
+          "da": "rinvio-fisso",
+          "a": "fonti-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "richiama in modo statico altre"
+        }
+      ]
+    },
+    {
+      "id": "fonti-atto",
+      "oltre": "### Il procedimento collega autore, forma e forza dell'atto\nLe fonti-atto derivano da manifestazioni di volontà normativa inserite in un procedimento riconosciuto. Individuare chi ha scritto un testo non basta: competenza, forma e percorso di produzione ne determinano il tipo. Una deliberazione del Governo può precedere atti con valore diverso, senza renderli tutti leggi.\n\nIl confronto tra [[decreto-legislativo]] e [[regolamenti-governativi]] mostra il punto: entrambi coinvolgono l'esecutivo, ma il primo ha forza di legge nei limiti della delega e il secondo segue un diverso regime. La collocazione della fonte non dipende soltanto dalla generalità delle frasi contenute. Prima di risolvere un conflitto occorre quindi qualificare correttamente l'atto e ricostruire la base del suo potere normativo.",
+      "daSapere": [
+        "Autore non sufficiente a determinare il rango",
+        "Qualificare procedimento e competenza"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 70, 76, 77 e 87",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "fonti-atto",
+          "a": "fonti-fatto",
+          "tipo": "contrasta",
+          "etichetta": "si distinguono dalle"
+        },
+        {
+          "da": "legge-ordinaria",
+          "a": "fonti-atto",
+          "tipo": "esempio-di",
+          "etichetta": "è una delle"
+        }
+      ]
+    },
+    {
+      "id": "fonti-fatto",
+      "oltre": "### Il riconoscimento di una fonte non coincide con una scelta legislativa\nLe fonti-fatto producono norme attraverso fatti o comportamenti cui l'ordinamento riconosce rilevanza, anziché attraverso un atto deliberato secondo il procedimento di una fonte-atto. La consuetudine è l'esempio tipico, ma la frequenza di una pratica non ne dimostra da sola il valore normativo.\n\nBisogna inoltre distinguere la formazione della regola dalla sua successiva documentazione in una raccolta: scriverla non la trasforma necessariamente in una legge. Nel diritto costituzionale il riconoscimento delle norme internazionali generalmente riconosciute dell'art. 10 pone un ulteriore piano di analisi. Il caso richiede di identificare il meccanismo di produzione o ingresso, non soltanto di constatare che una prassi sia seguita spesso.",
+      "daSapere": [
+        "Comportamento ripetuto distinto da regola riconosciuta",
+        "Documentazione e produzione della norma sono diverse"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 10",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Codice civile, disposizioni sulla legge in generale, artt. 8–9",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=042U0262&atto.dataPubblicazioneGazzetta=1942-04-04&atto.tipoProvvedimento=REGIO%20DECRETO"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "fonti-atto",
+          "a": "fonti-fatto",
+          "tipo": "contrasta",
+          "etichetta": "si distinguono dalle"
+        }
+      ]
+    },
+    {
+      "id": "delegificazione",
+      "oltre": "Significa trasferire una materia dalla legge al **regolamento**, fonte più rapida da modificare. Il meccanismo è nell'art. 17, secondo comma, della legge 400/1988: una legge autorizza il Governo ad adottare un regolamento, fissa le **norme generali** della materia e dispone l'**abrogazione** delle leggi vigenti con effetto dall'entrata in vigore del regolamento.\n\nL'abrogazione è dunque voluta dalla legge, non dal regolamento, che resta fonte secondaria: così il principio di gerarchia è formalmente rispettato. La delegificazione è esclusa nelle materie coperte da **riserva assoluta** di legge. È stata lo strumento principale delle politiche di semplificazione degli anni Novanta; il rischio, segnalato dalla dottrina, è una legge di autorizzazione troppo generica, che lascia al Governo una scelta in bianco.",
+      "daSapere": [
+        "Art. 17, secondo comma, legge 400/1988",
+        "L'abrogazione la dispone la legge",
+        "Esclusa nelle riserve assolute"
+      ],
+      "collegamenti": [
+        {
+          "da": "delegificazione",
+          "a": "regolamenti-governativi",
+          "tipo": "collegato",
+          "etichetta": "allarga lo spazio dei"
+        },
+        {
+          "da": "delegificazione",
+          "a": "abrogazione",
+          "tipo": "collegato",
+          "etichetta": "produce l'"
+        },
+        {
+          "da": "delegificazione",
+          "a": "legge-ordinaria",
+          "tipo": "collegato",
+          "etichetta": "è autorizzata dalla"
+        }
+      ]
+    },
+    {
+      "id": "criterio-di-competenza",
+      "oltre": "### La fonte successiva può non avere il potere di intervenire\nIl criterio di competenza distribuisce ambiti materiali o funzionali tra fonti differenti. Non si risolve chiedendo soltanto quale sia più recente. Una fonte che interviene fuori dal proprio ambito non acquista il potere necessario perché approvata dopo quella che ha invaso.\n\nIl riparto legislativo tra Stato e Regioni dell'art. 117 offre un esempio, ma la competenza può riguardare anche procedimenti e funzioni riservate ad altre fonti. Il confronto con i [[regolamenti-parlamentari]] impedisce di rappresentare ogni rapporto come una semplice scala gerarchica. Nel caso concreto bisogna identificare materia, funzione e parametro applicabile; solo successivamente si individuano vizio e rimedio, senza chiamare abrogazione qualsiasi forma di prevalenza.",
+      "daSapere": [
+        "Posteriorità distinta da attribuzione del potere",
+        "Individuare ambito e parametro prima del rimedio"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 64, 117 e 127",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ]
+    },
+    {
+      "id": "regolamenti-governativi",
+      "oltre": "### La forma secondaria non acquista forza di legge per il contenuto\nI regolamenti governativi disciplinano materie e compiti secondo la base legislativa e il procedimento previsti. L'art. 17 della legge 400/1988 distingue esecuzione, attuazione e altre figure, con limiti legati alle riserve di legge. Una disciplina generale e astratta non diventa per questo un atto con forza di legge.\n\nAnche il procedimento conta: il modello ordinario comprende deliberazione del Consiglio dei ministri, parere del Consiglio di Stato ed emanazione presidenziale, con i controlli previsti. La [[delegificazione]] richiede una specifica legge che ne stabilisca condizioni ed effetti sulle norme anteriori. Non si può ricavare da un comune potere regolamentare la facoltà di abrogare liberamente qualsiasi legge.",
+      "daSapere": [
+        "Fonte secondaria e base legislativa",
+        "Delegificazione richiede una previsione specifica"
+      ],
+      "fonti": [
+        {
+          "titolo": "Legge 23 agosto 1988, n. 400, art. 17",
+          "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+17&codiceOrdinamento=200001700000000&id=%7BA037524A-6217-4833-A6B2-77BAE9E1E915%7D"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "governo",
+          "a": "regolamenti-governativi",
+          "tipo": "crea",
+          "etichetta": "delibera i"
+        },
+        {
+          "da": "riserva-di-legge",
+          "a": "regolamenti-governativi",
+          "tipo": "contrasta",
+          "etichetta": "esclude o limita i"
+        },
+        {
+          "da": "delegificazione",
+          "a": "regolamenti-governativi",
+          "tipo": "collegato",
+          "etichetta": "allarga lo spazio dei"
+        }
+      ]
+    },
+    {
+      "id": "regolamenti-ministeriali",
+      "oltre": "### La competenza del ministro non basta senza autorizzazione\nIl regolamento ministeriale richiede un potere espressamente conferito dalla legge nelle materie di competenza. Se coinvolge più ministri può assumere forma interministeriale, sempre con la necessaria autorizzazione. Non ogni decreto firmato da un ministro è un regolamento e non ogni atto denominato decreto ha lo stesso rango.\n\nL'art. 17 della legge 400/1988 vieta di dettare norme contrarie ai regolamenti governativi e prevede comunicazione al Presidente del Consiglio e passaggi procedurali. Il confronto con la circolare amministrativa è utile: indirizzare gli uffici nell'interpretazione di una disciplina non equivale a produrre liberamente nuove norme verso tutti. Occorre quindi leggere base del potere, contenuto ed effettivo procedimento.",
+      "daSapere": [
+        "Autorizzazione legislativa espressa",
+        "Distinguere regolamento, decreto non regolamentare e circolare"
+      ],
+      "fonti": [
+        {
+          "titolo": "Legge 23 agosto 1988, n. 400, art. 17, commi 3–4",
+          "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+17&codiceOrdinamento=200001700000000&id=%7BA037524A-6217-4833-A6B2-77BAE9E1E915%7D"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "regolamenti-ministeriali",
+          "a": "riserva-di-legge",
+          "tipo": "collegato",
+          "etichetta": "non possono disciplinare da soli una materia coperta da"
+        }
+      ]
+    },
+    {
+      "id": "unione-europea",
+      "oltre": "L'integrazione europea comincia con la **CECA** (1951) e con i **Trattati di Roma** (1957), che istituiscono la Comunità economica europea. Il Trattato di **Maastricht** (1992) crea l'Unione europea e la moneta unica; il Trattato di **Lisbona** (in vigore dal 2009) le dà l'assetto attuale, fondato su due testi: il **TUE** e il **TFUE**. Gli Stati membri sono **27**.\n\nL'Unione agisce secondo tre principi: **attribuzione** (ha solo le competenze che i Trattati le danno), **sussidiarietà** (nelle materie non esclusive interviene solo se l'obiettivo si raggiunge meglio a livello europeo) e **proporzionalità**. Il suo diritto si distingue in **primario** (Trattati, Carta dei diritti) e **derivato** (regolamenti, direttive, decisioni).",
+      "daSapere": [
+        "1957 Trattati di Roma, 1992 Maastricht, 2009 Lisbona.",
+        "TUE e TFUE; 27 Stati membri.",
+        "Principi: attribuzione, sussidiarietà, proporzionalità."
+      ],
+      "collegamenti": [
+        {
+          "da": "unione-europea",
+          "a": "sovranita",
+          "tipo": "contrasta",
+          "etichetta": "limita la"
+        },
+        {
+          "da": "principio-internazionalista",
+          "a": "unione-europea",
+          "tipo": "collegato",
+          "etichetta": "consente l'adesione all'"
+        },
+        {
+          "da": "cittadinanza-europea",
+          "a": "unione-europea",
+          "tipo": "parte-di",
+          "etichetta": "è riconosciuta dall'"
+        }
+      ]
+    },
+    {
+      "id": "regolamento-ue",
+      "oltre": "### La fonte entra senza una legge nazionale di recepimento\nIl regolamento UE ha portata generale, è obbligatorio in tutti i suoi elementi ed è direttamente applicabile negli Stati membri. Questa caratteristica non esclude che possano servire misure organizzative o applicative nazionali, quando previste o necessarie, ma impedisce di confondere il suo ingresso con il recepimento di una direttiva.\n\nPrima di applicarlo bisogna comunque controllare ambito materiale, destinatari, entrata in vigore e decorrenza delle disposizioni. Un regolamento già pubblicato può prevedere una data successiva di applicazione. Anche la possibilità di invocare una specifica disposizione richiede di considerarne il contenuto. Il confronto con l'effetto diretto del diritto ue chiarisce perché applicabilità della fonte e idoneità della singola norma a fondare una pretesa siano concetti distinti.",
+      "daSapere": [
+        "Nessun recepimento nazionale costitutivo",
+        "Controllare anche date e ambito della disciplina"
+      ],
+      "fonti": [
+        {
+          "titolo": "Trattato sul funzionamento dell’Unione europea, art. 288",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12012E288"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "regolamento-ue",
+          "a": "diretta-applicabilita",
+          "tipo": "collegato",
+          "etichetta": "ha"
+        },
+        {
+          "da": "regolamento-ue",
+          "a": "unione-europea",
+          "tipo": "parte-di",
+          "etichetta": "è un atto dell'"
+        }
+      ]
+    },
+    {
+      "id": "direttiva-ue",
+      "oltre": "### Il risultato vincola lo Stato e il recepimento ha un termine\nLa direttiva lascia agli organi nazionali la scelta di forma e mezzi per raggiungere il risultato prescritto. Non è quindi un regolamento soltanto meno dettagliato. Il termine di attuazione e il contenuto delle singole disposizioni contano per valutarne le conseguenze nei rapporti concreti.\n\nDopo la scadenza, disposizioni precise e incondizionate possono assumere rilievo diretto contro lo Stato nei presupposti riconosciuti dalla Corte di giustizia. Non ne deriva un generale potere di imporre obblighi a un altro privato sulla sola direttiva non attuata: la decisione Faccini Dori distingue questo piano da interpretazione conforme e altri rimedi. Il caso richiede quindi di identificare anche contro chi si invoca la regola.",
+      "daSapere": [
+        "Risultato vincolante e termine di recepimento",
+        "Distinguere rapporti verticali e orizzontali"
+      ],
+      "fonti": [
+        {
+          "titolo": "Trattato sul funzionamento dell’Unione europea, art. 288",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12012E288"
+        },
+        {
+          "titolo": "Corte di giustizia, Faccini Dori, C-91/92, punti 20–26",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:61992CJ0091"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "direttiva-ue",
+          "a": "legge-delegazione-europea",
+          "tipo": "collegato",
+          "etichetta": "è recepita con la"
+        }
+      ]
+    },
+    {
+      "id": "diretta-applicabilita",
+      "oltre": "### L'ingresso della fonte e la pretesa individuale sono distinti\nLa diretta applicabilità indica che una fonte, come il regolamento europeo, opera nell'ordinamento nazionale senza un recepimento legislativo costitutivo. Non significa che ogni sua disposizione sia immediatamente completa per qualunque controversia, né che siano impossibili misure applicative previste dalla stessa fonte.\n\nPer esempio, una disciplina può richiedere di individuare autorità competenti o procedure senza perdere la propria natura di regolamento. L'effetto diretto del diritto ue riguarda invece la possibilità di invocare una specifica norma con i requisiti necessari. Un buon confronto separa quindi il tipo di fonte dal contenuto della regola: confonderli porta a negare ogni effetto alle direttive o ad attribuire automaticamente a qualsiasi frase regolamentare una pretesa individuale autosufficiente.",
+      "daSapere": [
+        "Applicabilità della fonte distinta da contenuto della norma",
+        "Misure applicative non uguali a recepimento costitutivo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Trattato sul funzionamento dell’Unione europea, art. 288",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12012E288"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "regolamento-ue",
+          "a": "diretta-applicabilita",
+          "tipo": "collegato",
+          "etichetta": "ha"
+        },
+        {
+          "da": "diretta-applicabilita",
+          "a": "primato-del-diritto-ue",
+          "tipo": "collegato",
+          "etichetta": "si accompagna al"
+        }
+      ]
+    },
+    {
+      "id": "primato-del-diritto-ue",
+      "oltre": "### La prevalenza opera insieme alle condizioni di applicazione\nIl primato riguarda il rapporto tra diritto dell'Unione e diritto nazionale incompatibile nel rispettivo ambito. Non autorizza a usare qualsiasi testo europeo come motivo indistinto per ignorare una legge interna. Occorre verificare competenza, applicabilità della disciplina e caratteristiche della disposizione rilevante.\n\nNel quadro italiano la sentenza granital chiarisce il ruolo del giudice comune davanti al contrasto con una norma europea direttamente applicabile. La soluzione non coincide con una generale abrogazione della legge nazionale né rende inutile ogni controllo costituzionale. Restano distinti anche i [[controlimiti]], che riguardano le garanzie supreme dell'ordinamento. L'esercizio deve quindi indicare quale contrasto si presenta e quale tecnica sia effettivamente utilizzabile.",
+      "daSapere": [
+        "Prevalenza nel campo della disciplina europea",
+        "Non confondere non applicazione, abrogazione e annullamento"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 11 e 117",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 170/1984 (Granital)",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1984/170"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "primato-del-diritto-ue",
+          "a": "non-applicazione-diritto-ue",
+          "tipo": "causa",
+          "etichetta": "impone la"
+        },
+        {
+          "da": "controlimiti",
+          "a": "primato-del-diritto-ue",
+          "tipo": "contrasta",
+          "etichetta": "limitano il"
+        },
+        {
+          "da": "diretta-applicabilita",
+          "a": "primato-del-diritto-ue",
+          "tipo": "collegato",
+          "etichetta": "si accompagna al"
+        }
+      ]
+    },
+    {
+      "id": "non-applicazione-diritto-ue",
+      "oltre": "### Il giudice risolve il caso senza eliminare in generale la legge\nNel contrasto rilevante con una norma europea direttamente efficace, la non applicazione della disciplina interna incompatibile permette al giudice di decidere il caso secondo il diritto prevalente. La legge nazionale non viene per questo cancellata dall'ordinamento per ogni situazione. Il meccanismo è distinto dall'annullamento da parte della Corte costituzionale.\n\nPrima di utilizzarlo occorre verificare che la disposizione europea abbia i requisiti necessari e rientri nell'ambito del rapporto. Una direttiva non attuata invocata tra privati pone un problema diverso, che non si risolve con una formula automatica di disapplicazione. Possono servire interpretazione conforme, rinvio pregiudiziale o altri rimedi nei rispettivi presupposti. La tecnica segue la qualificazione del caso.",
+      "daSapere": [
+        "Effetto nel caso distinto da eliminazione generale",
+        "Verificare prima la norma europea utilizzabile"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 11 e 117",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 170/1984 (Granital)",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1984/170"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "primato-del-diritto-ue",
+          "a": "non-applicazione-diritto-ue",
+          "tipo": "causa",
+          "etichetta": "impone la"
+        }
+      ]
+    },
+    {
+      "id": "controlimiti",
+      "oltre": "### Apertura dell’ordinamento e garanzie fondamentali\nI controlimiti descrivono la salvaguardia dei principi supremi e dei diritti inviolabili nell’apertura verso altri ordinamenti. La Corte ha affrontato il problema con riferimento sia al diritto dell’Unione sia al diritto internazionale, entro meccanismi e parametri differenti.\n\nLa sentenza 238/2014 offre un caso importante: il riconoscimento della consuetudine internazionale sull’immunità degli Stati incontra il limite della tutela giurisdizionale dei diritti fondamentali nelle vicende esaminate. Questo esempio non autorizza ogni giudice a ignorare liberamente una fonte esterna sulla base di un dissenso personale. Il confronto con il [[primato-del-diritto-ue]] richiede di identificare norma esterna, canale di ingresso, diritto coinvolto e autorità competente. Apertura e garanzia costituzionale operano attraverso procedure, oltre le formule generali sulla prevalenza.",
+      "daSapere": [
+        "Salvaguardia di principi supremi e diritti inviolabili",
+        "Corte cost. 238/2014: immunità e tutela giurisdizionale",
+        "Distinguere diritto UE e diritto internazionale"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 2, 10, 11 e 24",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 238/2014",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2014/238"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "controlimiti",
+          "a": "primato-del-diritto-ue",
+          "tipo": "contrasta",
+          "etichetta": "limitano il"
+        },
+        {
+          "da": "controlimiti",
+          "a": "corte-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "sono fatti valere dalla"
+        },
+        {
+          "da": "principio-internazionalista",
+          "a": "controlimiti",
+          "tipo": "contrasta",
+          "etichetta": "incontra i"
+        }
+      ]
+    },
+    {
+      "id": "interpretazione-giuridica",
+      "oltre": "### Ricostruire il significato richiede connessioni e limiti\nL'interpretazione non consiste soltanto nel leggere una parola isolata. Le preleggi richiamano significato nella connessione e intenzione del legislatore; nel sistema costituzionale occorre inoltre confrontare la soluzione con i parametri superiori. La presenza di un risultato desiderabile non autorizza qualsiasi riscrittura del testo.\n\nQuando una disposizione ammette più letture, il problema di una lettura conforme alla Costituzione va distinto dall'eliminazione giudiziale della legge. Il giudice ordinario non dispone in generale dello stesso potere della Corte costituzionale. Anche [[analogia]] e interpretazione hanno presupposti differenti: colmare una lacuna non coincide con scegliere il significato di una regola che già disciplina il caso.",
+      "daSapere": [
+        "Parole nel contesto e rapporto con le fonti superiori",
+        "Interpretare diverso da annullare o colmare una lacuna"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 101 e 134",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Codice civile, disposizioni sulla legge in generale, art. 12",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=042U0262&atto.dataPubblicazioneGazzetta=1942-04-04&atto.tipoProvvedimento=REGIO%20DECRETO"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "analogia",
+          "a": "interpretazione-giuridica",
+          "tipo": "collegato",
+          "etichetta": "integra l'"
+        },
+        {
+          "da": "interpretazione-autentica",
+          "a": "interpretazione-giuridica",
+          "tipo": "esempio-di",
+          "etichetta": "è una forma di"
+        },
+        {
+          "da": "sentenza-interpretativa",
+          "a": "interpretazione-giuridica",
+          "tipo": "collegato",
+          "etichetta": "indica la corretta"
+        }
+      ]
+    },
+    {
+      "id": "diritto-soggettivo",
+      "oltre": "### La posizione individuale e le garanzie del potere\nUn diritto soggettivo individua una posizione tutelata del titolare, non soltanto un interesse di fatto. Nell'ordinamento costituzionale occorre distinguere riconoscimento del diritto e strumenti per farlo valere: l'art. 24 garantisce l'azione e la difesa, mentre l'art. 113 riguarda la tutela contro gli atti della pubblica amministrazione.\n\nLa presenza di un potere pubblico non elimina automaticamente ogni diritto del cittadino. Anche nei rapporti con l'amministrazione bisogna qualificare la posizione e individuare il giudice competente, considerando le materie di giurisdizione esclusiva. Il confronto con l'interesse legittimo serve a scegliere la tutela, non a descrivere una gerarchia per cui una posizione sarebbe sempre protetta e l'altra soltanto sperata.",
+      "daSapere": [
+        "Posizione riconosciuta diversa da interesse di fatto",
+        "Tutela e giurisdizione vanno individuate"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 24, 103 e 113",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "diritto-soggettivo",
+          "a": "diritti-inviolabili",
+          "tipo": "collegato",
+          "etichetta": "ha la forma più alta nei"
+        }
+      ]
+    },
+    {
+      "id": "forma-di-stato",
+      "oltre": "### Il modello guarda al rapporto tra potere e società\nLa forma di Stato permette di confrontare come si organizzino autorità, libertà e finalità pubbliche. Non coincide con la distribuzione delle funzioni tra Parlamento, Governo e capo dello Stato, che riguarda la [[forma-di-governo]]. Lo stesso assetto dei vertici può collocarsi in contesti sociali e costituzionali differenti.\n\nNella Costituzione italiana il riconoscimento dei diritti e il compito di rimuovere gli ostacoli alla partecipazione impediscono di leggere lo Stato come semplice custode di un ordine già eguale. Anche pluralismo e autonomie entrano nel modello. Per una risposta d'esame occorre quindi indicare il criterio del confronto, anziché usare liberale, sociale e parlamentare come etichette collocate tutte sullo stesso piano.",
+      "daSapere": [
+        "Rapporto autorità-società",
+        "Non confondere con i rapporti tra organi di governo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 1–5",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "forma-di-stato",
+          "a": "forma-di-governo",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dalla"
+        },
+        {
+          "da": "stato-sociale",
+          "a": "forma-di-stato",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        },
+        {
+          "da": "stato-liberale",
+          "a": "forma-di-stato",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        }
+      ]
+    },
+    {
+      "id": "stato-di-diritto",
+      "oltre": "L'espressione traduce il tedesco *Rechtsstaat*, nato nell'Ottocento per indicare lo Stato che agisce attraverso la legge e ne è a sua volta limitato. Il modello inglese arriva allo stesso risultato per un'altra via, il *rule of law*: nessuno è sopra la legge e i diritti sono garantiti dai giudici ordinari (Dicey, 1885).\n\nNello Stato di diritto dell'Ottocento la garanzia era la **legge**: bastava che il potere fosse esercitato secondo una norma del Parlamento. Le dittature del Novecento hanno mostrato che la legge può essere essa stessa strumento di oppressione. Di qui lo **Stato costituzionale di diritto**: anche il legislatore è vincolato, da una costituzione rigida e da un giudice che può annullare le leggi.",
+      "daSapere": [
+        "*Rechtsstaat* (Germania) e *rule of law* (Inghilterra)",
+        "Dallo Stato legislativo allo Stato costituzionale",
+        "Tre pilastri: legalità, separazione dei poteri, tutela giurisdizionale dei diritti"
+      ],
+      "collegamenti": [
+        {
+          "da": "separazione-dei-poteri",
+          "a": "stato-di-diritto",
+          "tipo": "parte-di",
+          "etichetta": "è un pilastro dello"
+        },
+        {
+          "da": "principio-di-legalita",
+          "a": "stato-di-diritto",
+          "tipo": "parte-di",
+          "etichetta": "è un pilastro dello"
+        },
+        {
+          "da": "stato-liberale",
+          "a": "stato-di-diritto",
+          "tipo": "crea",
+          "etichetta": "afferma lo"
+        }
+      ]
+    },
+    {
+      "id": "stato-sociale",
+      "oltre": "Tre tappe ne segnano la nascita. La **Costituzione di Weimar** (1919) è la prima a elencare diritti sociali accanto alle libertà. Il **Rapporto Beveridge** (1942) disegna in Gran Bretagna un sistema di protezione «dalla culla alla tomba». Le costituzioni del dopoguerra, tra cui quella italiana, ne fanno un compito dello Stato.\n\nLa differenza con lo Stato liberale è nel tipo di diritti. Le libertà chiedono allo Stato di **astenersi**; i diritti sociali (salute, istruzione, previdenza) gli chiedono di **fare**, e quindi di spendere. Per questo la Corte costituzionale li considera diritti «finanziariamente condizionati»: il legislatore può graduarli secondo le risorse, ma non può scendere sotto il loro **nucleo essenziale**.",
+      "daSapere": [
+        "Weimar 1919; Rapporto Beveridge 1942",
+        "Art. 3, secondo comma: rimuovere gli ostacoli",
+        "Diritti condizionati dalle risorse, salvo il nucleo essenziale"
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-sociale",
+          "a": "diritti-sociali",
+          "tipo": "collegato",
+          "etichetta": "garantisce i"
+        },
+        {
+          "da": "uguaglianza-sostanziale",
+          "a": "stato-sociale",
+          "tipo": "causa",
+          "etichetta": "fonda lo"
+        },
+        {
+          "da": "stato-sociale",
+          "a": "forma-di-stato",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        }
+      ]
+    },
+    {
+      "id": "cittadinanza",
+      "oltre": "La legge 91/1992 si fonda sullo ***ius sanguinis***: è cittadino il figlio di un cittadino, ovunque nasca. Lo *ius soli* opera solo in casi marginali (figlio di ignoti o di apolidi). Lo straniero nato in Italia può diventare cittadino se vi ha risieduto legalmente e senza interruzioni fino ai diciotto anni e lo dichiara entro un anno. Gli altri modi sono il matrimonio con un cittadino e la naturalizzazione per residenza, di regola dopo dieci anni.\n\nIl criterio favorisce i discendenti degli emigrati, anche lontani, rispetto ai figli degli immigrati cresciuti in Italia. Nel 2025 il legislatore è intervenuto sul primo versante, limitando la trasmissione automatica per discendenza ai nati all'estero. Sul secondo, il referendum abrogativo del giugno 2025 che avrebbe dimezzato il tempo di residenza richiesto non ha raggiunto il quorum.",
+      "daSapere": [
+        "Legge 5 febbraio 1992, n. 91: *ius sanguinis*",
+        "Naturalizzazione: di regola dieci anni di residenza",
+        "2025: limiti alla discendenza; referendum senza quorum"
+      ],
+      "collegamenti": [
+        {
+          "da": "cittadinanza",
+          "a": "elettorato-attivo",
+          "tipo": "collegato",
+          "etichetta": "è requisito dell'"
+        },
+        {
+          "da": "cittadinanza",
+          "a": "stato",
+          "tipo": "collegato",
+          "etichetta": "lega la persona allo"
+        }
+      ]
+    },
+    {
+      "id": "sovranita-popolare",
+      "oltre": "L'art. 1 dice che la sovranità «appartiene» al popolo, non che «emana» dal popolo, come proponevano alcuni costituenti: il popolo non la cede una volta per tutte ai rappresentanti, ne resta titolare. Ma aggiunge subito che la esercita «nelle forme e nei limiti della Costituzione». È la differenza tra democrazia costituzionale e democrazia plebiscitaria: neppure la maggioranza può tutto.\n\nLe forme sono il voto, i referendum, l'iniziativa legislativa, la petizione, e in senso più ampio i partiti e le libertà politiche. I limiti sono i diritti inviolabili, la rigidità della Costituzione, il controllo della Corte costituzionale. Per questo si dice che nello Stato costituzionale non esiste un sovrano nel senso classico: sovrana è la Costituzione.",
+      "daSapere": [
+        "«Appartiene», non «emana»",
+        "Nelle forme e nei limiti della Costituzione",
+        "Democrazia costituzionale, non plebiscitaria"
+      ],
+      "collegamenti": [
+        {
+          "da": "legittimazione",
+          "a": "sovranita-popolare",
+          "tipo": "collegato",
+          "etichetta": "nelle democrazie deriva dalla"
+        },
+        {
+          "da": "sovranita-popolare",
+          "a": "democrazia-diretta",
+          "tipo": "collegato",
+          "etichetta": "si esercita anche con la"
+        },
+        {
+          "da": "sovranita-popolare",
+          "a": "rappresentanza-politica",
+          "tipo": "collegato",
+          "etichetta": "si esercita con la"
+        }
+      ]
+    },
+    {
+      "id": "forma-di-governo",
+      "oltre": "### Le regole sui vertici e il funzionamento politico\nLa forma di governo riguarda i rapporti tra gli organi che partecipano all'indirizzo politico. Per l'Italia sono decisivi nomina del Governo, fiducia delle due Camere e competenze del Presidente della Repubblica. Il peso dei partiti e delle coalizioni incide sul funzionamento, ma non modifica da solo le regole costituzionali.\n\nAll'11 novembre 2026 il progetto di elezione diretta del Presidente del Consiglio, A.C. 1921, risulta ancora all'esame della Commissione: non è la disciplina vigente. Un'indicazione politica del candidato alla guida del Governo non equivale quindi a una nomina costituzionale diretta degli elettori. Il confronto deve separare testo vigente, prassi e progetto di revisione.",
+      "daSapere": [
+        "Distinguere norme, prassi e progetti",
+        "Premierato A.C. 1921 ancora in esame alla verifica"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 88, 92–95",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Camera dei deputati, A.C. 1921: iter della proposta sul premierato",
+          "url": "https://www.camera.it/leg19/126?idDocumento=1921&leg=19&tab="
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "governo-parlamentare",
+          "a": "forma-di-governo",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        },
+        {
+          "da": "governo-presidenziale",
+          "a": "forma-di-governo",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        },
+        {
+          "da": "governo-semipresidenziale",
+          "a": "forma-di-governo",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        }
+      ]
+    },
+    {
+      "id": "governo-parlamentare",
+      "oltre": "Nasce in **Inghilterra** per evoluzione: tra il XVIII e il XIX secolo d.C. i ministri del re cominciano a dipendere dalla maggioranza della Camera dei Comuni. È la forma di governo più diffusa in Europa.\n\nSi distinguono varianti. Nel parlamentarismo **maggioritario** (modello Westminster) il sistema dei partiti è bipolare e il capo del Governo è di fatto scelto dagli elettori. Nel parlamentarismo **compromissorio** i partiti sono molti, i governi sono di coalizione e nascono da accordi dopo il voto. L'Italia repubblicana ha conosciuto a lungo il secondo tipo. La Costituzione italiana **razionalizza poco** il rapporto di fiducia: l'ordine del giorno Perassi, alla Costituente, chiedeva correttivi contro l'instabilità che in gran parte non furono introdotti.",
+      "daSapere": [
+        "Elemento che lo definisce: il rapporto di fiducia.",
+        "Varianti: maggioritario (Westminster) e compromissorio.",
+        "In Italia: artt. 92–95, razionalizzazione debole."
+      ],
+      "collegamenti": [
+        {
+          "da": "governo-parlamentare",
+          "a": "forma-di-governo",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        },
+        {
+          "da": "rapporto-di-fiducia",
+          "a": "governo-parlamentare",
+          "tipo": "parte-di",
+          "etichetta": "definisce il"
+        },
+        {
+          "da": "governo-presidenziale",
+          "a": "governo-parlamentare",
+          "tipo": "contrasta",
+          "etichetta": "si oppone al"
+        }
+      ]
+    },
+    {
+      "id": "separazione-dei-poteri",
+      "oltre": "La formulazione classica è di **Montesquieu** (*Lo spirito delle leggi*, 1748): perché non si abusi del potere, occorre che «il potere arresti il potere». Prima di lui John Locke aveva distinto il potere legislativo da quello esecutivo.\n\nOggi il principio non significa che ogni funzione spetti a un solo organo. Il Governo adotta atti con forza di legge, il Parlamento controlla il Governo, la Corte costituzionale annulla le leggi. Si parla di **equilibrio** e di **controlli reciproci**. Accanto alla divisione **orizzontale** tra organi dello Stato c'è quella **verticale** tra Stato, Regioni ed enti locali. Il nucleo che resta fermo è l'**indipendenza dei giudici**.",
+      "daSapere": [
+        "Montesquieu, Lo spirito delle leggi, 1748.",
+        "Tre funzioni: legislativa, esecutiva, giudiziaria.",
+        "Oggi: equilibrio e controlli reciproci, non separazione rigida."
+      ],
+      "collegamenti": [
+        {
+          "da": "separazione-dei-poteri",
+          "a": "stato-di-diritto",
+          "tipo": "parte-di",
+          "etichetta": "è un pilastro dello"
+        },
+        {
+          "da": "separazione-dei-poteri",
+          "a": "forma-di-governo",
+          "tipo": "collegato",
+          "etichetta": "orienta la"
+        },
+        {
+          "da": "separazione-dei-poteri",
+          "a": "stato-liberale",
+          "tipo": "collegato",
+          "etichetta": "nasce con lo"
+        }
+      ]
+    },
+    {
+      "id": "costituzione-rigida",
+      "oltre": "La distinzione tra costituzioni rigide e flessibili è dello studioso inglese James Bryce (1901). **Flessibile** è la costituzione che può essere modificata con legge ordinaria, come lo Statuto albertino. **Rigida** è quella che richiede un procedimento più gravoso.\n\nLa rigidità da sola non basta: una costituzione che nessun giudice può far rispettare resta una dichiarazione politica. Per questo è **garantita** solo se esiste un controllo di costituzionalità delle leggi. I modelli sono due. Quello americano, **diffuso**: ogni giudice può disapplicare la legge incostituzionale (*Marbury contro Madison*, 1803). Quello europeo, **accentrato**, ideato da Hans Kelsen per la costituzione austriaca del 1920: un tribunale apposito annulla la legge con effetto per tutti. L'Italia ha un sistema accentrato con accesso diffuso: ogni giudice può sollevare la questione.",
+      "daSapere": [
+        "Bryce, 1901: rigide e flessibili",
+        "Modello diffuso: *Marbury v. Madison* (1803)",
+        "Modello accentrato: Kelsen, Austria 1920"
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione-rigida",
+          "a": "costituzione-flessibile",
+          "tipo": "contrasta",
+          "etichetta": "si oppone a"
+        },
+        {
+          "da": "corte-costituzionale",
+          "a": "costituzione-rigida",
+          "tipo": "collegato",
+          "etichetta": "garantisce la"
+        },
+        {
+          "da": "costituzione",
+          "a": "costituzione-rigida",
+          "tipo": "esempio-di",
+          "etichetta": "può essere una"
+        }
+      ]
+    },
+    {
+      "id": "statuto-albertino",
+      "oltre": "Concesso da **Carlo Alberto** il **4 marzo 1848** al Regno di Sardegna, divenne nel 1861 la carta del Regno d'Italia e restò formalmente in vigore fino al 1948. Era una carta **ottriata** (concessa dal sovrano), **breve** e **flessibile**.\n\nDisegnava una **monarchia costituzionale pura**: il potere esecutivo apparteneva al re, i ministri rispondevano a lui, il Senato era di nomina regia e solo la Camera era elettiva, con suffragio ristretto. Per **prassi**, già con Cavour, il Governo cominciò a dipendere dalla fiducia della Camera: la forma di governo divenne di fatto **parlamentare**. La stessa flessibilità permise al fascismo di svuotarlo dall'interno.",
+      "daSapere": [
+        "4 marzo 1848, Carlo Alberto di Savoia.",
+        "Concesso, breve, flessibile.",
+        "Monarchia costituzionale nel testo, governo parlamentare nella prassi."
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione-italiana",
+          "a": "statuto-albertino",
+          "tipo": "supera",
+          "etichetta": "sostituisce"
+        },
+        {
+          "da": "statuto-albertino",
+          "a": "costituzione-flessibile",
+          "tipo": "esempio-di",
+          "etichetta": "è un esempio di"
+        },
+        {
+          "da": "assemblea-costituente",
+          "a": "statuto-albertino",
+          "tipo": "supera",
+          "etichetta": "sostituisce lo"
+        }
+      ]
+    },
+    {
+      "id": "costituzione-italiana",
+      "oltre": "La Costituzione ha **139 articoli** e **XVIII disposizioni transitorie e finali**. Si apre con i **Principi fondamentali** (artt. 1–12), prosegue con la **Parte prima** sui diritti e doveri dei cittadini (artt. 13–54: rapporti civili, etico-sociali, economici, politici) e con la **Parte seconda** sull'ordinamento della Repubblica (artt. 55–139: Parlamento, Presidente, Governo, Magistratura, Regioni ed enti locali, garanzie costituzionali).\n\nÈ una Costituzione **votata**, **rigida**, **lunga** e **programmatica**: non si limita a organizzare i poteri, ma indica obiettivi da realizzare. È anche una Costituzione di **compromesso** tra le culture cattolica, socialcomunista e liberale presenti nell'[[assemblea-costituente]]. All'esame conviene saper collocare ogni istituto nella parte e nel titolo in cui si trova.",
+      "daSapere": [
+        "Approvata il 22 dicembre 1947, promulgata il 27 dicembre, in vigore dal 1° gennaio 1948.",
+        "Principi fondamentali: artt. 1–12. Parte prima: artt. 13–54. Parte seconda: artt. 55–139.",
+        "Caratteri: votata, rigida, lunga, programmatica, di compromesso."
+      ],
+      "collegamenti": [
+        {
+          "da": "costituzione-italiana",
+          "a": "statuto-albertino",
+          "tipo": "supera",
+          "etichetta": "sostituisce"
+        },
+        {
+          "da": "assemblea-costituente",
+          "a": "costituzione-italiana",
+          "tipo": "crea",
+          "etichetta": "approva"
+        },
+        {
+          "da": "attentato-alla-costituzione",
+          "a": "costituzione-italiana",
+          "tipo": "collegato",
+          "etichetta": "offende la"
+        }
+      ]
+    },
+    {
+      "id": "assemblea-costituente",
+      "oltre": "Fu eletta il **2 giugno 1946** con sistema proporzionale e a suffragio universale: per la prima volta in un'elezione politica nazionale votarono le **donne**. Lo stesso giorno il referendum istituzionale scelse la **Repubblica**. Aveva **556 componenti**; i tre partiti maggiori erano Democrazia cristiana, Partito socialista e Partito comunista.\n\nIl progetto fu preparato dalla **Commissione dei 75**, presieduta da Meuccio Ruini e divisa in tre sottocommissioni. L'Assemblea, presieduta prima da Giuseppe Saragat e poi da **Umberto Terracini**, approvò il testo il **22 dicembre 1947** a larghissima maggioranza. Il Capo provvisorio dello Stato era **Enrico De Nicola**.",
+      "daSapere": [
+        "2 giugno 1946: referendum istituzionale ed elezione della Costituente.",
+        "Commissione dei 75, presieduta da Meuccio Ruini.",
+        "La Costituzione porta le firme di De Nicola, Terracini e De Gasperi."
+      ],
+      "collegamenti": [
+        {
+          "da": "assemblea-costituente",
+          "a": "costituzione-italiana",
+          "tipo": "crea",
+          "etichetta": "approva"
+        },
+        {
+          "da": "assemblea-costituente",
+          "a": "statuto-albertino",
+          "tipo": "supera",
+          "etichetta": "sostituisce lo"
+        }
+      ]
+    }
+  ]
+}

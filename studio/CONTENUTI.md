@@ -6,6 +6,7 @@ Ogni materia ha una cartella `05 - Contenuti/` con:
 - `u01.json`, `u02.json`, … — una **unità di studio** per file (di norma un capitolo degli appunti).
 - `schede-inverse.json` — facoltativo: definizioni selezionate per ricordare i termini del glossario.
 - `glossario.json` — facoltativo: domanda di glossario e inizio della risposta adatti alla voce (persone, opere…).
+- `esame.json` — facoltativo: tracce d'esame dei docenti, legate a lezioni, voci e domande (vedi «Domande d'esame dei docenti»).
 
 Lo script `scripts/sync-content.mjs` unisce tutte le unità in un solo file per materia
 (`public/content/<slug>/corso.json`) e costruisce glossario, cronologia e mappa globale.
@@ -217,7 +218,8 @@ Etichette brevi (max ~45 caratteri), `nota` facoltativa (max ~90), `concetto` fa
 ### Domanda
 
 Campi comuni: `id` (`u03-q001`, progressivo), `tipo`, `lezione` (id della lezione), `livello` (`base` | `medio` | `avanzato`),
-`concetti` (facoltativo), `pagine` ([da, a]).
+`concetti` (facoltativo), `pagine` ([da, a]), `esame` (facoltativo: `["lobuono"]`, id delle fonti di `esame.json` — la
+domanda risponde a una traccia d'esame di quel docente; vedi «Domande d'esame dei docenti»).
 
 | tipo | campi |
 |---|---|
@@ -356,6 +358,37 @@ Compaiono in **Mappa → Quadro**, accanto al Programma (che è automatico: unit
 - `fasce`: linea del tempo a corsie (`da`, `a`, `periodi`, `corsie` con `barre`: `testo`, `da`, `a`, `concetto`).
 
 I `concetto` inesistenti vengono tolti dal sync con un avviso.
+
+### Domande d'esame dei docenti (`esame.json` e campo `esame` delle domande)
+
+Le tracce che i docenti danno all'esame sono **domande d'esame certificate**: l'app le mette in evidenza e porta
+dove se ne parla negli appunti.
+
+```jsonc
+{
+  "fonti": [{ "id": "lobuono", "docente": "Michele Lobuono", "corsi": ["uniba-lmg-1-al", "uniba-ssg-1"],
+              "file": "domande-esame/Lobuono, domande d'esame.pdf" }],
+  "tracce": [{ "id": "esame-lobuono-01", "fonte": "lobuono", "testo": "La rappresentanza e la procura",
+               "lezioni": ["u08-l2"], "concetti": ["rappresentanza", "procura"] }]
+}
+```
+
+- `fonti`: `id` kebab-case, `docente` (nome e cognome, senza «prof.»), `corsi` = id dei corsi di `src/data/corsi.ts`
+  in cui quel docente insegna la materia (`uniba-lmg-1-al`, `uniba-lmg-1-mz`, `uniba-ssg-1`), `file` = il PDF dentro
+  `00 - Appunti e fonti/` (resta nel file sorgente, non viene pubblicato).
+- `tracce`: `id` `esame-<fonte>-NN`, `testo` **come nel PDF** (solo refusi evidenti corretti, niente link),
+  `lezioni` e `concetti` obbligatori ed esistenti. Una traccia di cui gli appunti non parlano va coperta con una
+  lezione o un approfondimento, oppure segnalata nel resoconto: non si lascia senza `lezioni`.
+- Per **ogni traccia** almeno una domanda `aperta` con `"esame": ["<fonte>"]` in una delle sue `lezioni` (o almeno
+  nella stessa unità): `domanda` in stile orale, `traccia`, `punti` con `chiavi` come le altre. La stessa domanda può
+  valere per più docenti: `"esame": ["lobuono", "pennasilico"]`. Il campo è ammesso anche sugli altri tipi di domanda.
+- Controllo: `node studio/scripts/validate-content.mjs ".../05 - Contenuti/esame.json"` (legge anche le unità della
+  cartella: errori per fonti, corsi, lezioni o voci inesistenti e per le tracce senza domanda aperta). Il sync non si
+  ferma: avvisa, pubblica le tracce valide in `corso.json` (`esame: { fonti, tracce }`, ogni traccia con le sue
+  `domande`) e ignora il campo `esame` delle domande se `esame.json` manca.
+- Nell'app: badge «Chiesta all'esame (prof. X)» sulla lezione e sulla voce; nel Percorso, in ogni unità, le tracce
+  collegate; in **Allenamento → Domande d'esame** prima le tracce del docente del corso scelto, poi quelle «di
+  un'altra classe» (una materia comune a più classi, come Diritto romano o Diritto privato, ha tracce di docenti diversi).
 
 ### Serie di esercizi (`serie` nelle domande)
 

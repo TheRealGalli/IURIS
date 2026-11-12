@@ -6,8 +6,9 @@ import { href } from '../lib/router';
 import { ETICHETTA_STATO, padronanza, statoLezione } from '../lib/srs';
 import { aggiungiTempo, apriLezione, DOMANDE_VERIFICA_INIZIALE, segnaStudiata, useProgresso } from '../lib/store';
 import { useConceptPop } from '../components/ConceptPop';
-import { DOCUMENTI_LETTURA, linkTesto } from '../lib/letture-client';
+import { collegaArticoliHtml, DOCUMENTI_LETTURA, linkTesto } from '../lib/letture-client';
 import { Icon, LivelloDot, Pagine } from '../components/ui';
+import { BadgeEsame, RiquadroEsame } from '../components/Esame';
 
 export default function LezioneView({ id }: { id: string }) {
   const idx = useCorso();
@@ -42,7 +43,8 @@ export default function LezioneView({ id }: { id: string }) {
     };
   }, [l?.id]);
 
-  const html = useMemo(() => (l ? renderMd(l.sintesi, idx.concettoById) : ''), [l, idx]);
+  // «art. 3 Cost.», «art. 1321 c.c.»: scheda dell'articolo al passaggio del mouse, clic per aprirlo (anche in un'altra materia)
+  const html = useMemo(() => (l ? collegaArticoliHtml(renderMd(l.sintesi, idx.concettoById), idx.corso.norme) : ''), [l, idx]);
 
   if (!l) return <div className="empty"><h3>Lezione non trovata</h3><a className="btn" href={href('/percorso')}>Al percorso</a></div>;
 
@@ -61,6 +63,7 @@ export default function LezioneView({ id }: { id: string }) {
 
   // articoli dell'atto (sezione Norme) citati in questa lezione
   const articoli = articoliCollegati(idx.corso.norme).filter((a) => a.lezioni?.includes(l.id)).map((a) => a.n);
+  const tracce = idx.traccePerLezione.get(l.id) ?? [];
   return (
     <div className="page fade-in">
       <div className="row small faint" style={{ gap: 6, marginBottom: 10 }}>
@@ -75,6 +78,7 @@ export default function LezioneView({ id }: { id: string }) {
             <span className="chip">{l.minuti} min</span>
             <span className="chip">{qs.length} domande</span>
             <span className={`chip ${st === 'padroneggiata' ? 'chip-ok' : st === 'in-ripasso' ? 'chip-mid' : st === 'studiata' ? 'chip-gold' : ''}`}>{ETICHETTA_STATO[st]}</span>
+            <BadgeEsame fonti={tracce.map((t) => t.fonte)} />
             {articoli.map((n) => <a key={n} className="chip chip-accent" style={{ textDecoration: 'none' }} href={href(`/norme/${n}`)} title="Apri il testo dell'articolo">art. {n}</a>)}
           </div>
 
@@ -136,6 +140,7 @@ export default function LezioneView({ id }: { id: string }) {
             )}
             {!studiata && <div className="faint tiny">Quando la segni come studiata, le sue {qs.length} domande entrano nel programma di ripasso: fino a {DOMANDE_VERIFICA_INIZIALE} subito, anche oltre il limite giornaliero. Le altre verranno introdotte nei giorni successivi.</div>}
           </div>
+          <RiquadroEsame tracce={tracce} />
           {concetti.length > 0 && (
             <div className="card">
               <div className="eyebrow" style={{ marginBottom: 8 }}>Concetti della lezione</div>

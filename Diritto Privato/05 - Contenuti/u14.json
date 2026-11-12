@@ -11,7 +11,9 @@
   "note": "Aggiornato: i ritardi nelle transazioni commerciali hanno un tasso moratorio speciale e una disciplina diversa dal normale interesse legale.",
   "noteRedazione": [
     "Fonte: dispensa pp. 113–116, con riquadri illeggibili ricostruiti dagli artt. 1218–1229, 1382–1384 e 2740–2748 c.c. Corretto il passaggio che sembra consentire liquidazione equitativa senza prova del danno e precisata la prova liberatoria, senza generalizzare gli esempi di caso fortuito. Ritardi commerciali: d.lgs. 231/2002, modificato dal d.lgs. 192/2012, artt. 2–7, verifica su testo MEF https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Selezione_normativa/D-Lgs-/Dlgs-2002-10-09-n231.pdf e portale documentazione tributaria, 10 novembre 2026. Non sono fissati tassi di riferimento semestrali destinati a scadere.",
-    "Passo 4, 10 novembre 2026: precisati soggetti, termini ed effetti al posto dei rinvii generici; riscontro nel Codice civile locale allineato a Normattiva e nelle fonti ufficiali. Riferimenti: 1219, 1384 c.c.; art. 4 d.lgs. 231/2002 (decorrenza, termini fra imprese e PA)."
+    "Passo 4, 10 novembre 2026: precisati soggetti, termini ed effetti al posto dei rinvii generici; riscontro nel Codice civile locale allineato a Normattiva e nelle fonti ufficiali. Riferimenti: 1219, 1384 c.c.; art. 4 d.lgs. 231/2002 (decorrenza, termini fra imprese e PA).",
+    "Fase 2 (novembre 2026): definizioni riscritte dalla dispensa (pp. 113–116); u14-l1 integrata con gli esempi della dispensa (tipi di inadempimento, responsabilità senza colpa, prova nelle obbligazioni negative, interessi moratori). Il riquadro decifrato di p. 113 riporta soltanto il testo dell'art. 1218 c.c., già nella lezione.",
+    "Fase 2 (novembre 2026): definita la voce concorso-di-colpa-del-creditore (traccia Lobuono 31, art. 1227 c.c., p. 114), che esame.json citava ma mancava nell'unità; aggiunte una flashcard e un'aperta d'esame che copre entrambe le letture della traccia."
   ],
   "lezioni": [
     {
@@ -22,7 +24,7 @@
         114
       ],
       "minuti": 25,
-      "sintesi": "### Prestazione mancata e responsabilità\nL'[[inadempimento]] è la mancata, inesatta o tardiva esecuzione della prestazione. È **totale** se manca tutta la prestazione, **parziale** se manca una parte o l'esecuzione è difettosa; è **definitivo** se non è più possibile o utile adempiere, **temporaneo** se l'interesse del creditore può ancora essere soddisfatto. Il fotografo assente alle nozze non può recuperare la prestazione il giorno dopo; un pagamento tardivo, invece, può restare utile.\n\nLa [[responsabilita-da-inadempimento]], detta contrattuale, riguarda la violazione di un'**[[obbligazione|obbligazione]] preesistente**, anche nata da fonti diverse dal contratto. L'art. 1218 c.c. impone il risarcimento salvo prova che inadempimento o ritardo dipendano da impossibilità della prestazione derivante da causa non imputabile. La sola affermazione di avere fatto il possibile non basta: si individua la prestazione dovuta, il criterio di responsabilità e la causa impeditiva.\n\nLa diligenza dell'art. 1176 c.c. si valuta secondo l'attività; il professionista deve quella professionale. Non tutti i rapporti hanno però identico regime: alcune discipline imputano al debitore rischi ulteriori. Il debitore risponde, salvo diversa volontà, anche del dolo e della colpa degli ausiliari (art. 1228 c.c.). Sono nulli gli esoneri preventivi per dolo o colpa grave e quelli contrari alle norme di [[ordine-pubblico-internazionale|ordine pubblico]] (art. 1229 c.c.).\n\n### Prova e causalità\nIn via generale il creditore prova il titolo e l'esigibilità del credito e allega l'inadempimento; il debitore prova l'esatto [[adempimento|adempimento]] o la causa liberatoria. Nell'obbligazione negativa il creditore deve provare la condotta vietata. Il creditore deve comunque provare **danno e nesso causale**: non si presumono automaticamente perché il debito è rimasto inadempiuto.\n\nIl [[danno-da-inadempimento]] comprende **danno emergente** e **lucro cessante**, conseguenze immediate e dirette dell'inadempimento (art. 1223 c.c.). Se il fornitore non consegna, la maggiore spesa per comprare altrove può essere perdita; l'utile di una rivendita sfumata può essere mancato guadagno, se provato. Per il [[danno-non-patrimoniale|danno non patrimoniale]] occorrono i presupposti riconosciuti dall'ordinamento: il semplice fastidio non basta.\n\n| Limite | Regola |\n|---|---|\n| Prevedibilità | senza dolo, danni prevedibili quando sorse l'obbligazione (art. 1225 c.c.) |\n| Prova dell'ammontare | equità se l'importo non è provabile con precisione, non per supplire alla mancata prova dell'esistenza (art. 1226 c.c.) |\n| Concorso del creditore | riduzione secondo colpa e conseguenze (art. 1227 c.c.) |\n| Danni evitabili | esclusi quelli evitabili con ordinaria diligenza |\n\nLa [[clausola-penale]] predetermina la prestazione dovuta per inadempimento o ritardo, dispensando dalla prova del danno; limita il risarcimento alla misura pattuita salvo accordo sul maggior danno. Il giudice può ridurla per adempimento parziale o manifesta eccessività (artt. 1382 e 1384 c.c.). Non si cumula con la prestazione principale, salvo che riguardi il semplice ritardo.",
+      "sintesi": "### Prestazione mancata e responsabilità\nL'[[inadempimento]] è la mancata, inesatta o tardiva esecuzione della [[prestazione|prestazione]]. È **totale** se manca tutta la prestazione, **parziale** se manca una parte o l'esecuzione è difettosa; è **definitivo** se non è più possibile o utile adempiere, **temporaneo** se l'interesse del creditore può ancora essere soddisfatto. Il fotografo assente alle nozze non può recuperare la prestazione il giorno dopo; un pagamento tardivo, invece, può restare utile.\n\nLa [[responsabilita-da-inadempimento]], detta contrattuale, riguarda la violazione di un'**[[obbligazione|obbligazione]] preesistente**, anche nata da fonti diverse dal [[contratto|contratto]]. L'art. 1218 c.c. impone il risarcimento salvo prova che inadempimento o ritardo dipendano da impossibilità della prestazione derivante da causa non imputabile. La sola affermazione di avere fatto il possibile non basta: si individua la prestazione dovuta, il criterio di responsabilità e la causa impeditiva.\n\nLa diligenza dell'art. 1176 c.c. si valuta secondo l'attività; il professionista deve quella professionale. Non tutti i rapporti hanno però identico regime: alcune discipline imputano al debitore rischi ulteriori. Il debitore risponde, salvo diversa volontà, anche del dolo e della colpa degli ausiliari (art. 1228 c.c.). Sono nulli gli esoneri preventivi per dolo o colpa grave e quelli contrari alle norme di ordine pubblico (art. 1229 c.c.).\n\n### Prova e causalità\nIn via generale il creditore prova il titolo e l'esigibilità del credito e allega l'inadempimento; il debitore prova l'esatto [[adempimento|adempimento]] o la causa liberatoria. Nell'obbligazione negativa il creditore deve provare la condotta vietata. Il creditore deve comunque provare **danno e nesso causale**: non si presumono automaticamente perché il debito è rimasto inadempiuto.\n\nIl [[danno-da-inadempimento]] comprende **danno emergente** e **lucro cessante**, conseguenze immediate e dirette dell'inadempimento (art. 1223 c.c.). Se il fornitore non consegna, la maggiore spesa per comprare altrove può essere perdita; l'utile di una rivendita sfumata può essere mancato guadagno, se provato. Per il [[danno-non-patrimoniale|danno non patrimoniale]] occorrono i presupposti riconosciuti dall'[[ordinamento-giuridico|ordinamento]]: il semplice fastidio non basta.\n\n| Limite | Regola |\n|---|---|\n| Prevedibilità | senza dolo, danni prevedibili quando sorse l'obbligazione (art. 1225 c.c.) |\n| Prova dell'ammontare | [[equita|equità]] se l'importo non è provabile con precisione, non per supplire alla mancata prova dell'esistenza (art. 1226 c.c.) |\n| Concorso del creditore | riduzione secondo colpa e conseguenze (art. 1227 c.c.) |\n| Danni evitabili | esclusi quelli evitabili con ordinaria diligenza |\n\nLa [[clausola-penale]] predetermina la prestazione dovuta per inadempimento o ritardo, dispensando dalla prova del danno; limita il risarcimento alla misura pattuita salvo accordo sul maggior danno. Il giudice può ridurla per adempimento parziale o manifesta eccessività (artt. 1382 e 1384 c.c.). Non si cumula con la prestazione principale, salvo che riguardi il semplice ritardo.\n\n### Gli esempi degli appunti\n- Inadempimento **parziale**: l'ingegnere impreparato che sbaglia i calcoli del cemento armato; **assoluto**: il fotografo che non si presenta il giorno delle nozze; **relativo**: il debitore che non si presenta a pagare, ma può ancora farlo.\n- Il **vettore** risponde della perdita della merce anche se distrutta in un incidente causato da terzi, e si libera solo provando il caso fortuito estraneo alla sua impresa (un attentato); l'**albergatore** risponde delle cose portate dal cliente; il debitore di **denaro** risponde anche del crack della propria banca, salvo eventi straordinari e imprevedibili.\n- Nelle obbligazioni **negative** (il lavoratore che non deve fare concorrenza) il creditore deve provare anche l'inadempimento; nelle altre gli basta provare il credito e **allegare** l'inadempimento, mentre il debitore deve provare di aver adempiuto o la causa che lo giustifica.\n- Nei debiti di denaro dal giorno della mora sono dovuti gli **[[interessi-moratori|interessi moratori]]** (al tasso convenuto o, in mancanza, a quello legale) senza prova del danno; chi pretende un danno maggiore deve provarlo (art. 1224 c.c.).",
       "puntiChiave": [
         "L’inadempimento può essere totale o parziale, definitivo o temporaneo.",
         "La responsabilità contrattuale presuppone un’obbligazione preesistente, non necessariamente un contratto.",
@@ -48,7 +50,8 @@
         "inadempimento",
         "responsabilita-da-inadempimento",
         "danno-da-inadempimento",
-        "clausola-penale"
+        "clausola-penale",
+        "concorso-di-colpa-del-creditore"
       ]
     },
     {
@@ -59,7 +62,7 @@
         116
       ],
       "minuti": 25,
-      "sintesi": "### Quando il ritardo diventa mora\nLa [[mora-del-debitore]] è il ritardo imputabile nell'esecuzione di una prestazione esigibile, con gli effetti degli artt. 1221 e 1224 c.c. Di regola richiede **intimazione o richiesta scritta** di adempiere (mora *ex persona*, art. 1219 c.c.). Non occorrono formule solenni: deve risultare chiara la richiesta della prestazione dovuta. La richiesta idonea può anche interrompere la [[prescrizione|prescrizione]].\n\nLa mora è automatica, *ex re*, quando il debito deriva da **fatto illecito**, quando il debitore dichiara **per iscritto di non volere adempiere**, oppure quando scade il termine di una prestazione da eseguire **al [[domicilio|domicilio]] del creditore**. Se il termine scade dopo la morte del debitore, per gli eredi occorrono richiesta scritta e otto giorni (art. 1219 c.c.). Per le obbligazioni negative non si parla di ritardo: ogni violazione è già [[inadempimento|inadempimento]] (art. 1222 c.c.). Un'offerta tempestiva e seria, anche non formale, esclude la mora del debitore salvo rifiuto legittimo del creditore (art. 1220 c.c.).\n\n| Effetto | Contenuto |\n|---|---|\n| [[interessi-moratori|Interessi moratori]] | nelle obbligazioni pecuniarie, senza prova del danno (art. 1224 c.c.) |\n| Rischio | l'impossibilità non imputabile non libera il debitore in mora, salvo prova che la cosa sarebbe ugualmente perita presso il creditore (art. 1221 c.c.) |\n\nIl semplice ritardo può comunque avere conseguenze, anche prima della costituzione in mora: non va trattato come giuridicamente irrilevante. La mora del **creditore**, invece, nasce dal suo rifiuto ingiustificato di cooperare e produce effetti diversi, già studiati nell'unità precedente.\n\n### Le transazioni commerciali\nLa disciplina dei [[ritardi-nelle-transazioni-commerciali]] riguarda pagamenti per merci o servizi fra imprese, compresi i professionisti, oppure fra imprese e pubbliche amministrazioni (d.lgs. 231/2002). Non riguarda il normale acquisto di un [[consumatore|consumatore]]. Gli interessi decorrono automaticamente dal giorno successivo alla scadenza; in difetto di diversa valida previsione, si paga entro **30 giorni dal ricevimento della fattura** o, se incerto o anteriore, dalla ricezione dei beni o servizi; se prevista, rileva la verifica di conformità. Fra imprese termini oltre 60 giorni richiedono patto espresso non gravemente iniquo. Per la PA il termine non supera 60 giorni, con pattuizione motivata; è già di 60 per enti sanitari e imprese pubbliche soggette agli obblighi di trasparenza (art. 4).\n\nIl tasso legale moratorio commerciale è il tasso di riferimento maggiorato di **otto punti percentuali**, non il tasso legale ordinario del Codice. Si aggiunge il rimborso forfettario di 40 euro per il recupero, salvo maggiori costi provati. Le clausole gravemente inique per il creditore sono nulle secondo l'art. 7. Perciò una fattura non pagata non si studia applicando automaticamente soltanto il [[codice-civile|Codice civile]].\n\n### Su quali beni si soddisfa il creditore\nLa [[responsabilita-patrimoniale]] rende il debitore responsabile con tutti i beni **presenti e futuri** (art. 2740 c.c.), salvo limitazioni di legge. Il patrimonio è una garanzia generica: non attribuisce proprietà né indiscriminato diritto di appropriarsi dei beni.\n\nLa [[par-condicio-creditorum]] riconosce pari diritto sul ricavato, salve cause legittime di prelazione: **privilegio, pegno e ipoteca** (art. 2741 c.c.). Il [[privilegio]] dipende dalla causa del credito ed è stabilito dalla legge; è generale sui mobili o speciale su beni determinati. Il creditore senza prelazione è chirografario. L'ordine delle preferenze dipende dalle norme, non semplicemente dall'anzianità del credito.",
+      "sintesi": "### Quando il ritardo diventa mora\nLa [[mora-del-debitore]] è il ritardo imputabile nell'esecuzione di una [[prestazione|prestazione]] esigibile, con gli effetti degli artt. 1221 e 1224 c.c. Di regola richiede **intimazione o richiesta scritta** di adempiere (mora *ex persona*, art. 1219 c.c.). Non occorrono formule solenni: deve risultare chiara la richiesta della prestazione dovuta. La richiesta idonea può anche interrompere la [[prescrizione|prescrizione]].\n\nLa mora è automatica, *ex re*, quando il debito deriva da **fatto illecito**, quando il debitore dichiara **per iscritto di non volere adempiere**, oppure quando scade il termine di una prestazione da eseguire **al [[domicilio|domicilio]] del creditore**. Se il termine scade dopo la morte del debitore, per gli eredi occorrono richiesta scritta e otto giorni (art. 1219 c.c.). Per le obbligazioni negative non si parla di ritardo: ogni violazione è già [[inadempimento|inadempimento]] (art. 1222 c.c.). Un'offerta tempestiva e seria, anche non formale, esclude la mora del debitore salvo rifiuto legittimo del creditore (art. 1220 c.c.).\n\n| Effetto | Contenuto |\n|---|---|\n| [[interessi-moratori|Interessi moratori]] | nelle obbligazioni pecuniarie, senza prova del danno (art. 1224 c.c.) |\n| Rischio | l'impossibilità non imputabile non libera il debitore in mora, salvo prova che la [[bene|cosa]] sarebbe ugualmente perita presso il creditore (art. 1221 c.c.) |\n\nIl semplice ritardo può comunque avere conseguenze, anche prima della costituzione in mora: non va trattato come giuridicamente irrilevante. La mora del **creditore**, invece, nasce dal suo rifiuto ingiustificato di cooperare e produce effetti diversi, già studiati nell'unità precedente.\n\n### Le transazioni commerciali\nLa disciplina dei [[ritardi-nelle-transazioni-commerciali]] riguarda pagamenti per merci o servizi fra imprese, compresi i professionisti, oppure fra imprese e pubbliche amministrazioni (d.lgs. 231/2002). Non riguarda il normale acquisto di un [[consumatore|consumatore]]. Gli [[interessi|interessi]] decorrono automaticamente dal giorno successivo alla scadenza; in difetto di diversa valida previsione, si paga entro **30 giorni dal ricevimento della fattura** o, se incerto o anteriore, dalla ricezione dei beni o servizi; se prevista, rileva la verifica di conformità. Fra imprese termini oltre 60 giorni richiedono patto espresso non gravemente iniquo. Per la PA il termine non supera 60 giorni, con pattuizione motivata; è già di 60 per enti sanitari e imprese pubbliche soggette agli obblighi di trasparenza (art. 4).\n\nIl tasso legale moratorio commerciale è il tasso di riferimento maggiorato di **otto punti percentuali**, non il tasso legale ordinario del Codice. Si aggiunge il rimborso forfettario di 40 euro per il recupero, salvo maggiori costi provati. Le clausole gravemente inique per il creditore sono nulle secondo l'art. 7. Perciò una fattura non pagata non si studia applicando automaticamente soltanto il [[codice-civile|Codice civile]].\n\n### Su quali beni si soddisfa il creditore\nLa [[responsabilita-patrimoniale]] rende il debitore responsabile con tutti i beni **presenti e futuri** (art. 2740 c.c.), salvo limitazioni di legge. Il [[patrimonio|patrimonio]] è una garanzia generica: non attribuisce [[proprieta|proprietà]] né indiscriminato diritto di appropriarsi dei beni.\n\nLa [[par-condicio-creditorum]] riconosce pari diritto sul ricavato, salve cause legittime di prelazione: **privilegio, [[pegno|pegno]] e [[ipoteca|ipoteca]]** (art. 2741 c.c.). Il [[privilegio]] dipende dalla causa del credito ed è stabilito dalla legge; è generale sui [[beni-mobili|mobili]] o speciale su beni determinati. Il creditore senza prelazione è chirografario. L'ordine delle preferenze dipende dalle norme, non semplicemente dall'anzianità del credito.",
       "puntiChiave": [
         "La mora richiede di regola richiesta scritta, salve le ipotesi automatiche.",
         "La mora aggrava il rischio e genera interessi pecuniari.",
@@ -101,7 +104,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Mancata, inesatta o tardiva esecuzione della prestazione dovuta.",
-      "definizione": "Mancata, inesatta o tardiva esecuzione della prestazione dovuta. Può essere totale o parziale e definitivo o temporaneo, secondo l’estensione e la persistente utilità della prestazione.",
+      "definizione": "Mancata o inesatta esecuzione della prestazione dovuta, una volta maturato il tempo dell'adempimento; talvolta si ha già prima, se il debitore non compie le attività preparatorie, se è certo che alla scadenza non potrà adempiere (ha venduto il bene da consegnare) o se dichiara di non voler adempiere. È **totale** se la prestazione manca del tutto, **parziale** se differisce per quantità o qualità da quella dovuta; **assoluto** (definitivo) se non può più essere eseguita utilmente (il fotografo che non si presenta alle nozze), **relativo** (ritardo) se può ancora esserlo. Se il debitore non prova che dipende da impossibilità per causa a lui non imputabile, lo obbliga al risarcimento del danno (art. 1218 c.c.) e, nei contratti a prestazioni corrispettive, consente la risoluzione.",
       "pagine": [
         113,
         114
@@ -115,7 +118,7 @@
         "responsabilità contrattuale"
       ],
       "breve": "Responsabilità per violazione di un’obbligazione preesistente, qualunque ne sia la fonte.",
-      "definizione": "Responsabilità per violazione di un’obbligazione preesistente, qualunque ne sia la fonte. Il debitore risarcisce il danno salvo prova della causa liberatoria richiesta dall’art. 1218 c.c.",
+      "definizione": "Responsabilità che deriva dall'inadempimento o dal ritardo nell'adempimento di un'obbligazione **preesistente**, qualunque ne sia la fonte diversa dal fatto illecito: contratto, legge, titoli di credito, indebito, gestione di affari, contatto sociale. Per questo l'espressione «responsabilità contrattuale» è impropria; si contrappone alla [[responsabilita-extracontrattuale]], che nasce dalla violazione del dovere generico di non ledere altri. Il debitore risponde se non prova che l'inadempimento è dovuto a impossibilità per causa a lui non imputabile (art. 1218 c.c.); di regola risponde se non ha usato la **diligenza** dovuta (art. 1176 c.c.), più elevata per il professionista, ma in alcuni casi anche senza colpa (vettore, albergatore, debitore di denaro). Risponde anche del fatto degli ausiliari (art. 1228 c.c.).",
       "pagine": [
         113,
         114
@@ -127,7 +130,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Pregiudizio causalmente derivato dalla violazione dell’obbligazione, comprendente perdita subita e mancato guadagno secondo l’art.",
-      "definizione": "Pregiudizio causalmente derivato dalla violazione dell’obbligazione, comprendente perdita subita e mancato guadagno secondo l’art. 1223 c.c. Si applicano i limiti di prevedibilità, causalità e concorso del creditore.",
+      "definizione": "Pregiudizio che il creditore subisce per l'inadempimento e che il debitore deve risarcire. Se l'inadempimento è **assoluto** il risarcimento sostituisce la prestazione; se è un **ritardo** si aggiunge a essa. Comprende la **perdita subita** (danno emergente) e il **mancato guadagno** (lucro cessante) che siano conseguenza **immediata e diretta** dell'inadempimento (art. 1223 c.c.) e, quando sono lesi diritti inviolabili della persona, anche il danno **non patrimoniale** (il paziente che perde l'uso di un arto per negligenza del chirurgo). Se non c'è dolo, è risarcibile solo il danno **prevedibile** quando l'obbligazione è sorta (art. 1225 c.c.). Si riduce se vi ha concorso il fatto colposo del creditore e non comprende i danni che questi poteva evitare con l'ordinaria diligenza (art. 1227 c.c.). Il creditore deve provarne le voci.",
       "pagine": [
         113,
         114
@@ -139,7 +142,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Patto che predetermina una prestazione dovuta per inadempimento o ritardo, senza necessità di provare il danno.",
-      "definizione": "Patto che predetermina una prestazione dovuta per inadempimento o ritardo, senza necessità di provare il danno. Limita il risarcimento salvo patto sul maggior danno e può essere ridotto dal giudice se vi è adempimento parziale o se è manifestamente eccessivo (art. 1384 c.c.).",
+      "definizione": "Clausola con cui le parti stabiliscono in anticipo, al momento del contratto, quanto il debitore dovrà in caso di inadempimento o di ritardo (artt. 1382 ss. c.c.). Ha la funzione di liquidare **forfettariamente** il danno, esonerando il creditore dall'onere di provare di aver subito un pregiudizio di pari ammontare: la penale è dovuta indipendentemente dalla prova del danno. Limita il risarcimento alla prestazione promessa, salvo che le parti abbiano convenuto la risarcibilità del **danno ulteriore**. Il creditore non può chiedere insieme la prestazione principale e la penale, salvo che questa sia stipulata per il semplice ritardo. Il giudice può **ridurla** equamente se l'obbligazione principale è stata eseguita in parte o se l'ammontare è **manifestamente eccessivo** (art. 1384 c.c.).",
       "pagine": [
         113,
         114
@@ -151,7 +154,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Ritardo qualificato nell’adempimento, di regola conseguente a richiesta scritta, salvo casi automatici.",
-      "definizione": "Ritardo qualificato nell’adempimento, di regola conseguente a richiesta scritta, salvo casi automatici. Produce interessi nelle obbligazioni pecuniarie e aggrava il rischio dell’impossibilità sopravvenuta.",
+      "definizione": "Ritardo qualificato nell'adempimento (*mora debendi*), che richiede tre presupposti: il **ritardo**, la sua **imputabilità** al debitore e, di regola, l'**intimazione scritta** del creditore ad adempiere (mora *ex persona*), che interrompe anche la prescrizione. La mora è invece **automatica** (*ex re*) per i debiti da fatto illecito, quando il debitore ha dichiarato per iscritto di non voler adempiere, quando è scaduto il termine per una prestazione da eseguire al domicilio del creditore (come i pagamenti in denaro) e nelle transazioni commerciali. Non si applica alle obbligazioni di non fare, in cui ogni violazione è inadempimento (art. 1222 c.c.). Effetti: interessi moratori sulle somme dovute (art. 1224 c.c.) e passaggio del **rischio** sul debitore, che risponde anche dell'impossibilità sopravvenuta non imputabile, salvo provare che la cosa sarebbe perita anche presso il creditore (art. 1221 c.c.).",
       "pagine": [
         115,
         116
@@ -163,7 +166,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Disciplina speciale dei ritardi di pagamento nei corrispettivi commerciali prevista dal d.lgs.",
-      "definizione": "Disciplina speciale dei ritardi di pagamento nei corrispettivi commerciali prevista dal d.lgs. 231/2002. Prevede decorrenza automatica degli interessi, tasso speciale, rimborso dei costi e contrasto alle clausole gravemente inique.",
+      "definizione": "Disciplina speciale del decreto legislativo 231 del 2002, di attuazione di una direttiva europea, per i pagamenti in denaro dovuti come corrispettivo di merci o servizi nelle **transazioni commerciali** tra imprese, tra imprese e professionisti e tra imprese e pubblica amministrazione. Vuole contrastare gli abusi che colpiscono soprattutto le piccole e medie imprese di fronte allo strapotere contrattuale della controparte. Gli interessi moratori decorrono **automaticamente** dalla scadenza del termine, senza bisogno di costituzione in mora, a un **tasso** maggiorato rispetto a quello legale; il creditore ha diritto al rimborso dei costi di recupero; sono **nulli** i patti sulla data di pagamento o sulle conseguenze del ritardo gravemente iniqui in danno del creditore.",
       "pagine": [
         115,
         116
@@ -175,7 +178,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Soggezione dei beni presenti e futuri del debitore alla soddisfazione coattiva dei crediti secondo l’art.",
-      "definizione": "Soggezione dei beni presenti e futuri del debitore alla soddisfazione coattiva dei crediti secondo l’art. 2740 c.c. Le limitazioni sono ammesse soltanto nei casi stabiliti dalla legge.",
+      "definizione": "Principio per cui il debitore risponde dell'adempimento delle sue obbligazioni con **tutti i suoi beni, presenti e futuri** (art. 2740 c.c.): il suo patrimonio è in soggezione rispetto al potere del creditore di soddisfarsi con l'esecuzione forzata, e costituisce perciò la **garanzia generica** di tutti i creditori, distinta dalle garanzie specifiche (reali e personali). Le limitazioni della responsabilità sono ammesse solo nei casi previsti dalla legge (patrimoni separati, fondo patrimoniale). Rispondono i beni che il debitore ha quando il creditore agisce: quelli alienati prima, con le formalità di opponibilità compiute prima del pignoramento, sfuggono all'esecuzione. Quando l'attività o l'inerzia del debitore mette a rischio la garanzia, il creditore ha i mezzi di conservazione: [[azione-surrogatoria]], [[azione-revocatoria]] e [[sequestro-conservativo]].",
       "pagine": [
         115,
         116
@@ -187,7 +190,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Principio di pari diritto dei creditori a soddisfarsi sui beni del debitore, salve le cause legittime di prelazione: privilegio, pegno e ipoteca (art.",
-      "definizione": "Principio di pari diritto dei creditori a soddisfarsi sui beni del debitore, salve le cause legittime di prelazione: privilegio, pegno e ipoteca (art. 2741 c.c.).",
+      "definizione": "Principio per cui tutti i creditori hanno **pari diritto** di soddisfarsi sui beni del debitore, a prescindere dalla causa e dalla data del loro credito, salve le **cause legittime di prelazione** (art. 2741 c.c.). Nell'esecuzione forzata, se il ricavato non basta a pagare tutti, i creditori sono soddisfatti in proporzione ai rispettivi crediti. Solo la legge può derogarvi: cause legittime di prelazione sono il [[privilegio]], il [[pegno]] e l'[[ipoteca]], mentre è **nullo** il patto con cui i privati creassero preferenze diverse. I creditori privi di prelazione si dicono **chirografari**. Il principio governa soprattutto il concorso dei creditori nelle procedure esecutive e concorsuali.",
       "pagine": [
         115,
         116
@@ -199,10 +202,21 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Causa legittima di prelazione stabilita dalla legge in ragione della causa del credito.",
-      "definizione": "Causa legittima di prelazione stabilita dalla legge in ragione della causa del credito. Può essere generale sui beni mobili o speciale su determinati beni mobili o immobili.",
+      "definizione": "Causa legittima di prelazione che la **legge** accorda a certi crediti in considerazione della loro **causa**, ritenuta degna di maggior tutela (art. 2745 c.c.): a differenza di pegno e ipoteca non è pattuito dalle parti. Il creditore privilegiato è preferito ai chirografari nella distribuzione del ricavato della vendita forzata; tra i privilegi l'ordine è fissato dalla legge, che protegge soprattutto i crediti di lavoro. È **generale** quando grava su tutti i beni mobili del debitore e allora è solo una qualità del credito, senza diritto di seguito; **speciale** quando grava su determinati beni mobili o immobili, ed è un vero diritto reale di garanzia opponibile a chi acquista il bene dopo. Il pegno prevale sul privilegio speciale sui mobili, mentre il privilegio speciale sugli immobili prevale sull'ipoteca.",
       "pagine": [
         115,
         116
+      ]
+    },
+    {
+      "id": "concorso-di-colpa-del-creditore",
+      "nome": "Concorso del fatto colposo del creditore",
+      "tipo": "istituto",
+      "breve": "Riduzione del risarcimento quando il creditore ha contribuito con colpa a causare il danno o non lo ha evitato con l'ordinaria diligenza.",
+      "definizione": "Regola dell'art. 1227 c.c. che limita il risarcimento dovuto dal debitore quando il **fatto colposo del creditore** ha concorso a cagionare il danno: il risarcimento è **diminuito** secondo la gravità della colpa e l'entità delle conseguenze che ne sono derivate (primo comma). Inoltre il risarcimento **non è dovuto** per i danni che il creditore avrebbe potuto **evitare usando l'ordinaria diligenza** (secondo comma): il creditore ha il dovere di non aggravare il pregiudizio subito. La regola vale per l'inadempimento e, per richiamo dell'art. 2056 c.c., anche per il fatto illecito, dove si parla di concorso di colpa del danneggiato. Va distinta dal **concorso dei creditori** sul patrimonio del debitore, regolato dalla *par condicio creditorum* (art. 2741 c.c.).",
+      "pagine": [
+        114,
+        114
       ]
     }
   ],
@@ -242,6 +256,36 @@
       "a": "par-condicio-creditorum",
       "tipo": "collegato",
       "etichetta": "si attua secondo la"
+    },
+    {
+      "da": "clausola-penale",
+      "a": "onere-della-prova",
+      "tipo": "contrasta",
+      "etichetta": "esonera il creditore dall'"
+    },
+    {
+      "da": "privilegio",
+      "a": "pegno",
+      "tipo": "collegato",
+      "etichetta": "sui mobili cede al"
+    },
+    {
+      "da": "danno-da-inadempimento",
+      "a": "danno-non-patrimoniale",
+      "tipo": "collegato",
+      "etichetta": "comprende anche il"
+    },
+    {
+      "da": "concorso-di-colpa-del-creditore",
+      "a": "danno-da-inadempimento",
+      "tipo": "collegato",
+      "etichetta": "riduce il"
+    },
+    {
+      "da": "concorso-di-colpa-del-creditore",
+      "a": "par-condicio-creditorum",
+      "tipo": "contrasta",
+      "etichetta": "da non confondere con la"
     }
   ],
   "eventi": [
@@ -499,6 +543,9 @@
             "riduzione"
           ]
         }
+      ],
+      "esame": [
+        "lobuono"
       ]
     },
     {
@@ -720,6 +767,9 @@
             "ipoteca"
           ]
         }
+      ],
+      "esame": [
+        "lobuono"
       ]
     },
     {
@@ -952,6 +1002,77 @@
       "tipo": "completa",
       "testo": "Il principio di parità dei creditori si esprime con la formula {{par condicio creditorum}}.",
       "spiegazione": "Le cause legittime di prelazione costituiscono eccezioni a tale parità."
+    },
+    {
+      "id": "u14-q031",
+      "lezione": "u14-l1",
+      "livello": "base",
+      "pagine": [
+        114,
+        114
+      ],
+      "concetti": [
+        "concorso-di-colpa-del-creditore"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Che effetto ha sul risarcimento il fatto colposo del creditore?",
+      "risposta": "Se il fatto colposo del creditore ha concorso a cagionare il danno, il risarcimento è diminuito secondo la gravità della colpa e l'entità delle conseguenze (art. 1227, primo comma, c.c.). Non sono risarcibili i danni che il creditore avrebbe potuto evitare usando l'ordinaria diligenza (secondo comma)."
+    },
+    {
+      "id": "u14-q032",
+      "lezione": "u14-l1",
+      "livello": "medio",
+      "pagine": [
+        114,
+        116
+      ],
+      "concetti": [
+        "concorso-di-colpa-del-creditore",
+        "danno-da-inadempimento",
+        "par-condicio-creditorum"
+      ],
+      "esame": [
+        "lobuono"
+      ],
+      "tipo": "aperta",
+      "domanda": "Mi parli del concorso del creditore: il concorso del suo fatto colposo nel danno e il concorso dei creditori sul patrimonio del debitore.",
+      "traccia": "L'espressione può indicare due istituti diversi.\n\nIl **concorso del fatto colposo del creditore** (art. 1227 c.c.) riguarda la misura del risarcimento da inadempimento. Se il creditore ha contribuito con la propria colpa a causare il danno, il risarcimento è **diminuito** secondo la gravità della colpa e l'entità delle conseguenze. Inoltre il risarcimento non è dovuto per i danni che il creditore avrebbe potuto **evitare con l'ordinaria diligenza**: egli non deve aggravare il pregiudizio. La regola si aggiunge agli altri limiti del danno risarcibile: conseguenze immediate e dirette (art. 1223 c.c.) e, senza dolo, prevedibilità (art. 1225 c.c.); vale anche nell'illecito (art. 2056 c.c.).\n\nIl **concorso dei creditori** riguarda invece l'esecuzione sul patrimonio del debitore, che risponde con tutti i suoi beni presenti e futuri (art. 2740 c.c.). I creditori hanno **pari diritto** di soddisfarsi su quei beni (*par condicio creditorum*, art. 2741 c.c.): se il ricavato non basta, sono pagati in proporzione. Fanno eccezione le **cause legittime di prelazione**: privilegio, pegno e ipoteca. Gli altri creditori sono chirografari.",
+      "punti": [
+        {
+          "testo": "Il fatto colposo del creditore riduce il risarcimento (art. 1227 c.c.)",
+          "chiavi": [
+            "1227",
+            "colpa",
+            "dimin",
+            "ridu"
+          ]
+        },
+        {
+          "testo": "Non si risarciscono i danni evitabili con l'ordinaria diligenza",
+          "chiavi": [
+            "evitar",
+            "diligenza",
+            "aggrav"
+          ]
+        },
+        {
+          "testo": "Il concorso dei creditori segue la par condicio (art. 2741 c.c.)",
+          "chiavi": [
+            "par condicio",
+            "2741",
+            "pari"
+          ]
+        },
+        {
+          "testo": "Eccezioni: privilegio, pegno, ipoteca",
+          "chiavi": [
+            "prelazion",
+            "privileg",
+            "pegno",
+            "ipotec"
+          ]
+        }
+      ]
     }
   ],
   "mappa": {

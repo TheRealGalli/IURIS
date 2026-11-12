@@ -5,7 +5,7 @@ import { livello, padronanza, pagineStudiate, pianoEsame, ripassoDiOggi, serieGi
 import { impostaEsame, useProgresso } from '../lib/store';
 import type { Concetto } from '../lib/types';
 import { fmtData, fmtMinuti, oggiISO, plurale, rifPagine } from '../lib/util';
-import { Bar, Calendario, Icon, LivelloDot, Ring } from '../components/ui';
+import { Bar, Calendario, Icon, LivelloDot, Ring, SceltaData } from '../components/ui';
 import { useCompact } from '../components/MobileSheet';
 import './Oggi.css';
 
@@ -217,37 +217,13 @@ function RigaLezione({ id, evidenzia }: { id: string; evidenzia?: boolean }) {
 function EsameBox({ slug, esame, giorni, perGiorno, restano }: {
   slug: string; esame?: string; giorni: number | null; perGiorno: number | null; restano: number;
 }) {
-  const compact = useCompact();
-  const [modifica, setModifica] = useState(false);
-  const [data, setData] = useState(esame ?? '');
-  useEffect(() => { if (!modifica) setData(esame ?? ''); }, [esame, modifica]);
-
-  // Il calendario di iOS può emettere valori intermedi mentre è ancora aperto.
-  // Manteniamo il campo montato e scriviamo nell'archivio solo alla conferma.
-  if (compact && (!esame || modifica)) return (
-    <form className="stack" style={{ gap: 8 }} data-esame-mobile onSubmit={(e) => {
-      e.preventDefault();
-      const scelta = String(new FormData(e.currentTarget).get('esame') ?? '');
-      if (!scelta || !e.currentTarget.reportValidity()) return;
-      impostaEsame(slug, scelta); setModifica(false);
-    }}>
-      <label className="row small muted" style={{ gap: 8 }}>
-        <Icon n="calendario" size={16} /> Data dell'esame:
-        <input className="input" type="date" min={oggiISO()} required name="esame" value={data} onChange={(e) => setData(e.currentTarget.value)} style={{ padding: '5px 8px' }} />
-      </label>
-      <div className="row" style={{ gap: 6 }}>
-        <button className="btn btn-sm btn-primary" type="submit" disabled={!data}>Salva data</button>
-        {(data || esame) && <button className="btn btn-sm btn-ghost" type="button" onClick={() => { setData(esame ?? ''); setModifica(false); }}>Annulla</button>}
-        {esame && <button className="btn btn-sm btn-ghost" type="button" onClick={() => { impostaEsame(slug, undefined); setData(''); setModifica(false); }}>Rimuovi data</button>}
-      </div>
-    </form>
-  );
+  // Un solo selettore per PC, iPad e telefono: la data si salva quando si sceglie il giorno, non mentre si girano i mesi.
   if (!esame) {
     return (
-      <label className="row small muted" style={{ gap: 8 }}>
-        <Icon n="calendario" size={16} /> Data dell'esame:
-        <input className="input" type="date" min={oggiISO()} onChange={(e) => impostaEsame(slug, e.target.value || undefined)} style={{ padding: '5px 8px' }} />
-      </label>
+      <div className="row small muted" style={{ gap: 8 }} data-esame>
+        <span>Data dell'esame:</span>
+        <SceltaData etichetta="Data dell'esame" min={oggiISO()} onChange={(d) => impostaEsame(slug, d)} />
+      </div>
     );
   }
   return (
@@ -258,7 +234,7 @@ function EsameBox({ slug, esame, giorni, perGiorno, restano }: {
           <b>{giorni! > 0 ? `${giorni} giorni all'esame` : giorni === 0 ? 'Esame oggi!' : 'Esame passato'}</b>
           <span className="faint small">· {fmtData(esame, { day: 'numeric', month: 'long', year: 'numeric' })}</span>
         </div>
-        <button className="btn btn-sm btn-ghost" onClick={() => { if (compact) { setData(esame); setModifica(true); } else impostaEsame(slug, undefined); }}>Cambia</button>
+        <SceltaData etichetta="Data dell'esame" testo="Cambia" value={esame} min={oggiISO()} onChange={(d) => impostaEsame(slug, d)} />
       </div>
       {giorni! > 0 && restano > 0 && (
         <div className="small muted" style={{ marginTop: 4 }}>

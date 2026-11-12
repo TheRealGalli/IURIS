@@ -810,7 +810,7 @@
       "nome": "Bluhme",
       "tipo": "persona",
       "breve": "Giurista tedesco autore della teoria delle masse sulla redazione dei Digesta.",
-      "definizione": "Giurista tedesco che, studiando l'organigramma dei [[digesto|Digesta]], formulò la [[masse-bluhmiane|teoria delle masse]]: quattro sottocommissioni, quattro masse di opere.",
+      "definizione": "Giurista tedesco che, studiando l'organigramma dei [[digesto|Digesta]], formulò la [[masse-bluhmiane|teoria delle masse]]: per spogliare in soli tre anni circa 2000 opere, la commissione di Giustiniano si sarebbe divisa in **quattro sottocommissioni**, ciascuna con una massa di opere: **Sabiniana** (Sabino e i commentari alla sua opera), **Papinianea**, **Edittale** (i commentari all'editto) e **Appendix** (il resto). La teoria spiega la rapidità del lavoro, concluso nel 533 d.C.",
       "pagine": [
         206,
         206
@@ -822,7 +822,7 @@
       "tipo": "concetto",
       "latino": "reverentia antiquitatis",
       "breve": "La riverenza di Giustiniano per l'antico: conservare i nomi dei giuristi nei frammenti del Digesto.",
-      "definizione": "Atteggiamento proclamato nella [[constitutio-tanta|Tanta]]: la reverenza verso l'antico è tale da non voler «abbandonare al silenzio» i nomi dei giuristi, che compaiono nell'[[inscriptio]] di ogni frammento. È però una riverenza filtrata dall'autorità imperiale: i testi sono stati modificati e valgono per volontà dell'imperatore; si accompagna al [[classicismo-giustinianeo]] e al [[divieto-dei-commentari]].",
+      "definizione": "Atteggiamento proclamato nella [[constitutio-tanta|Tanta]]: la reverenza verso l'antico è tale da non voler «abbandonare al silenzio» i nomi dei giuristi, che compaiono nell'[[inscriptio]] di ogni frammento. È però una riverenza filtrata dall'autorità imperiale: i testi sono stati modificati e valgono per volontà dell'imperatore; si accompagna al [[classicismo-giustinianeo]] e al [[divieto-dei-commentari]]. Per questo nel [[digesto|Digesto]] ogni frammento porta il nome dell'autore, l'opera e il libro.",
       "pagine": [
         206,
         207
@@ -2371,6 +2371,9 @@
       "pagine": [
         203,
         206
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -3522,6 +3525,77 @@
       "pagine": [
         200,
         208
+      ]
+    },
+    {
+      "id": "u12-q087",
+      "tipo": "aperta",
+      "lezione": "u12-l1",
+      "livello": "medio",
+      "domanda": "Ripercorra le tappe della compilazione giustinianea, dalla Haec quae necessario alla Cordi, soffermandosi sulla constitutio Deo auctore.",
+      "traccia": "La compilazione nasce in **Oriente** e si compie in circa **sei anni**. Ogni tappa è segnata da due costituzioni: una **programmatica**, che fissa i criteri e nomina la commissione, e una **di pubblicazione**.\n\n1. **Febbraio 528**, *[[constitutio-haec-quae-necessario|Haec quae necessario]]*: commissione (per la prima volta mista) per il **Novus Codex**, contro la *prolixitas litium*. **Aprile 529**, *Summa rei publicae*: il Codice è pubblicato.\n2. **Dicembre 530**, *[[constitutio-deo-auctore|Deo auctore]]*: avvia i **Digesta**, raccolta degli *iura* affidata a una commissione guidata da Triboniano. Fissa il programma: scegliere e ordinare in 50 libri gli scritti dei giuristi, eliminando ripetizioni e contraddizioni, e superare la legge delle citazioni.\n3. **Novembre 533**, *Imperatoriam*: pubblica le **Institutiones**. **Dicembre 533**, *[[constitutio-tanta|Tanta/Dédōken]]*: pubblica i Digesta; *Omnem*: riforma degli studi.\n4. **Novembre 534**, *Cordi*: pubblica il ***[[codex-repetitae-praelectionis|Codex repetitae praelectionis]]***, revisione del primo Codice ormai superato.\n5. **535–565**: la legislazione corrente, le **Novellae**.\n\nNe risultano le quattro parti del futuro *Corpus Iuris Civilis*: Codice, Digesto, Istituzioni, Novelle.",
+      "punti": [
+        {
+          "testo": "528 Haec quae necessario e 529 Summa rei publicae: il Novus Codex",
+          "chiavi": [
+            "528",
+            "529",
+            "haec",
+            "novus codex"
+          ]
+        },
+        {
+          "testo": "530 Deo auctore: avvio dei Digesta, raccolta degli iura",
+          "chiavi": [
+            "530",
+            "deo auctore",
+            "digest"
+          ]
+        },
+        {
+          "testo": "533 Imperatoriam (Institutiones), Tanta (Digesta), Omnem (studi)",
+          "chiavi": [
+            "533",
+            "tanta",
+            "institutiones",
+            "omnem"
+          ]
+        },
+        {
+          "testo": "534 Cordi: Codex repetitae praelectionis",
+          "chiavi": [
+            "534",
+            "cordi",
+            "repetitae"
+          ]
+        },
+        {
+          "testo": "Novellae (535–565)",
+          "chiavi": [
+            "novell"
+          ]
+        },
+        {
+          "testo": "Schema: costituzione programmatica e di pubblicazione",
+          "chiavi": [
+            "programmatic",
+            "pubblicazione"
+          ]
+        }
+      ],
+      "concetti": [
+        "compilazione-giustinianea",
+        "constitutio-deo-auctore",
+        "digesto",
+        "novus-codex",
+        "codex-repetitae-praelectionis"
+      ],
+      "pagine": [
+        200,
+        203
+      ],
+      "esame": [
+        "starace"
       ]
     }
   ]

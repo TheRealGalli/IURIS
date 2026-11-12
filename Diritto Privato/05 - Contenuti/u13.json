@@ -11,7 +11,9 @@
   "note": "Aggiornato: nelle transazioni commerciali valgono termini e interessi moratori speciali. Il pagamento a chi è indicato dal creditore è liberatorio.",
   "noteRedazione": [
     "Fonte: dispensa pp. 102–112 e artt. 1176–1276 c.c. Corretti i passaggi su pagamento a persona designata, luogo della consegna, insolvenza del delegato e cessione solutoria: questa non coincide con la garanzia di solvenza. Ricostruiti i riquadri illeggibili con il Codice. Factoring: l. 52/1991; cartolarizzazione: l. 130/1999, senza riprodurre gli elenchi amministrativi e le classificazioni inesatte della dispensa. TUB: d.lgs. 385/1993, non 230/1993. La disciplina speciale dei ritardi è trattata in u14. Le soglie del contante, estranee ai requisiti civilistici del pagamento, non sono riprodotte perché variabili.",
-    "Passo 4, 10 novembre 2026: precisati soggetti, termini ed effetti al posto dei rinvii generici; riscontro nel Codice civile locale allineato a Normattiva e nelle fonti ufficiali. Riferimenti: 1182, 1202, 1208–1210, 1216, 1234, 1246, 1263, 1267 e 1271 c.c."
+    "Passo 4, 10 novembre 2026: precisati soggetti, termini ed effetti al posto dei rinvii generici; riscontro nel Codice civile locale allineato a Normattiva e nelle fonti ufficiali. Riferimenti: 1182, 1202, 1208–1210, 1216, 1234, 1246, 1263, 1267 e 1271 c.c.",
+    "Fase 2 (novembre 2026): definizioni riscritte dalla dispensa (pp. 102–112); u13-l1 e u13-l2 arricchite (tipi di factoring e trasparenza bancaria, struttura della cartolarizzazione, delegazione di pagamento e sua revoca, esempi di delegazione attiva ed espromissione). La dispensa a p. 103 cita il TUB come «D.Lgs. 230 del 1993»: è il d.lgs. 385/1993 (già annotato). Il riquadro di p. 109 rinvia soltanto alla trattazione della mora del debitore.",
+    "Fase 2 (novembre 2026): definita la voce termine-di-adempimento (tracce Lobuono 34 e 35, artt. 1183–1186 c.c., pp. 107–108), che esame.json citava ma mancava nell'unità; aggiunte una flashcard e un'aperta d'esame comune alle due tracce."
   ],
   "lezioni": [
     {
@@ -22,7 +24,7 @@
         104
       ],
       "minuti": 25,
-      "sintesi": "### Il credito cambia titolare\nLa [[cessione-del-credito]] trasferisce il credito dal **cedente** al **cessionario** mediante accordo fra loro: il debitore ceduto non deve consentire (art. 1260 c.c.). Non sono cedibili i crediti strettamente personali e quelli vietati dalla legge; un patto di incedibilità è opponibile al cessionario soltanto se si prova che lo conosceva al momento della cessione. La cessione può avere funzione di vendita, liberalità, garanzia o pagamento: è un negozio a **causa variabile**.\n\nIl trasferimento fra le parti va distinto dall'**opponibilità al debitore**: occorrono notificazione o accettazione (art. 1264 c.c.). Prima, il pagamento al cedente libera, salvo prova che il debitore conoscesse la cessione. Se lo stesso credito è ceduto più volte, prevale la cessione notificata per prima o prima accettata con atto di [[data-certa|data certa]] (art. 1265 c.c.), anche se stipulata dopo. Per esempio, Caio che acquista il credito dopo Sempronio può prevalere notificandolo prima.\n\n### Accessori e garanzie\nPassano privilegi, garanzie personali e reali e altri accessori; i frutti scaduti restano esclusi, salvo patto contrario (art. 1263 c.c.). Il debitore conserva le eccezioni inerenti al rapporto ceduto. L'accettazione della cessione non equivale quindi a riconoscere che il credito sia valido e incontestabile.\n\n| Garanzia | Regola ordinaria |\n|---|---|\n| Esistenza del credito | dovuta nella cessione onerosa, salvo patto e responsabilità per fatto proprio |\n| Solvenza del debitore | non dovuta, salvo assunzione della garanzia |\n| Cessione gratuita | garanzia nei casi e limiti dell'evizione nella donazione |\n\nLa garanzia di solvenza copre quanto il cedente ha ricevuto, oltre a interessi, spese della cessione e dell'escussione e danni; cessa se la mancata riscossione dipende da negligenza del cessionario (art. 1267 c.c.). Si distingue inoltre la **cessione in pagamento**: salvo diversa volontà, il debito del cedente si estingue con la riscossione del credito ceduto (art. 1198 c.c.). La distinzione [[cessione-pro-soluto-e-pro-solvendo]] va dunque letta secondo la funzione dell'operazione.\n\n### Operazioni d'impresa\nIl [[factoring]] combina gestione e riscossione dei crediti con eventuale finanziamento e garanzia del rischio d'insolvenza. La l. 52/1991 detta una disciplina speciale per le cessioni onerose di crediti d'impresa che ne soddisfano i requisiti: ammette anche cessioni in massa e crediti futuri, con regole proprie sull'opponibilità e sulla garanzia di solvenza. Non trasforma ogni cessione in factoring.\n\nLa [[cartolarizzazione]] disciplinata dalla l. 130/1999 consente di finanziare l'acquisto di crediti attraverso titoli emessi nell'operazione: i flussi dei debitori servono a remunerarli e rimborsarli. I crediti dell'operazione formano un **[[patrimonio-separato|patrimonio separato]]**, destinato ai soggetti protetti dalla legge. Non è esatto dire che i titoli rendano necessariamente di più: rendimento e rischio dipendono dall'operazione concreta.",
+      "sintesi": "### Il credito cambia titolare\nLa [[cessione-del-credito]] trasferisce il credito dal **cedente** al **cessionario** mediante accordo fra loro: il debitore ceduto non deve consentire (art. 1260 c.c.). Non sono cedibili i crediti strettamente personali e quelli vietati dalla legge; un patto di incedibilità è opponibile al cessionario soltanto se si prova che lo conosceva al momento della cessione. La cessione può avere funzione di vendita, liberalità, garanzia o pagamento: è un negozio a **causa variabile**.\n\nIl trasferimento fra le parti va distinto dall'**opponibilità al debitore**: occorrono notificazione o accettazione (art. 1264 c.c.). Prima, il pagamento al cedente libera, salvo prova che il debitore conoscesse la cessione. Se lo stesso credito è ceduto più volte, prevale la cessione notificata per prima o prima accettata con atto di [[data-certa|data certa]] (art. 1265 c.c.), anche se stipulata dopo. Per esempio, Caio che acquista il credito dopo Sempronio può prevalere notificandolo prima.\n\n### Accessori e garanzie\nPassano privilegi, garanzie personali e reali e altri accessori; i [[frutti|frutti]] scaduti restano esclusi, salvo patto contrario (art. 1263 c.c.). Il debitore conserva le eccezioni inerenti al rapporto ceduto. L'accettazione della cessione non equivale quindi a riconoscere che il credito sia valido e incontestabile.\n\n| Garanzia | Regola ordinaria |\n|---|---|\n| Esistenza del credito | dovuta nella cessione onerosa, salvo patto e responsabilità per fatto proprio |\n| Solvenza del debitore | non dovuta, salvo assunzione della garanzia |\n| Cessione gratuita | garanzia nei casi e limiti dell'[[evizione|evizione]] nella [[donazione|donazione]] |\n\nLa garanzia di solvenza copre quanto il cedente ha ricevuto, oltre a [[interessi|interessi]], spese della cessione e dell'escussione e danni; cessa se la mancata riscossione dipende da negligenza del cessionario (art. 1267 c.c.). Si distingue inoltre la **cessione in pagamento**: salvo diversa volontà, il debito del cedente si estingue con la riscossione del credito ceduto (art. 1198 c.c.). La distinzione [[cessione-pro-soluto-e-pro-solvendo]] va dunque letta secondo la funzione dell'operazione.\n\n### Operazioni d'impresa\nIl [[factoring]] combina gestione e riscossione dei crediti con eventuale finanziamento e garanzia del rischio d'insolvenza. La l. 52/1991 detta una disciplina speciale per le cessioni onerose di crediti d'impresa che ne soddisfano i requisiti: ammette anche cessioni in massa e crediti futuri, con regole proprie sull'opponibilità e sulla garanzia di solvenza. Non trasforma ogni cessione in factoring.\n\nNella prassi si distinguono il **full factoring** (il factor acquista continuativamente i crediti commerciali man mano che sorgono), il **maturity factoring** (restano gestione e garanzia, ma il factor non anticipa denaro) e l'**international factoring** (clienti e debitori di Paesi diversi). Le società di factoring sono soggette alla disciplina della trasparenza bancaria del testo unico bancario (d.lgs. 385/1993), perché esercitano professionalmente attività di finanziamento; le cessioni della l. 52/1991 si considerano, salvo patto, **pro solvendo**.\n\nLa [[cartolarizzazione]] disciplinata dalla l. 130/1999 consente di finanziare l'acquisto di crediti attraverso titoli emessi nell'operazione: i flussi dei debitori servono a remunerarli e rimborsarli. I crediti dell'operazione formano un **[[patrimonio-separato|patrimonio separato]]**, destinato ai soggetti protetti dalla legge. Non è esatto dire che i titoli rendano necessariamente di più: rendimento e rischio dipendono dall'operazione concreta.\n\nNella cartolarizzazione chi cede i crediti è l'**originator**; il cessionario è una **società veicolo**, società di capitali che si dedica soltanto a queste operazioni e trasforma i crediti in titoli (*asset-backed securities*) collocati sul mercato. I crediti ceduti possono essere commerciali o finanziari, regolari o in sofferenza.",
       "puntiChiave": [
         "La cessione si perfeziona senza consenso del debitore.",
         "Notifica e accettazione hanno funzione distinta dal consenso traslativo.",
@@ -54,7 +56,7 @@
         106
       ],
       "minuti": 25,
-      "sintesi": "### Perché serve la volontà del creditore\nCambiare debitore modifica il rischio di insolvenza: l'aggiunta di un nuovo obbligato non comporta automaticamente la liberazione del precedente. Nella [[delegazione-passiva]] il debitore, **delegante**, incarica un terzo, **delegato**, di obbligarsi verso il creditore, **delegatario** (art. 1268 c.c.). La delegazione di pagamento ordina invece di pagare, senza necessariamente assumere una nuova [[obbligazione|obbligazione]] (art. 1269 c.c.). Promettere e adempiere sono atti diversi.\n\nLa delegazione a promettere è normalmente **cumulativa**. Il creditore che accetta il nuovo obbligato deve prima chiedere l'[[adempimento|adempimento]] al delegato e solo poi rivolgersi al delegante: è un beneficio d'ordine, non di preventiva esecuzione forzata. È **liberatoria** se il creditore libera espressamente il debitore originario. Se il nuovo debitore diventa successivamente insolvente, il creditore non può ritornare sul precedente salvo riserva; è diversa l'insolvenza già esistente all'assunzione (art. 1274 c.c.).\n\n### I rapporti sottostanti\nIl rapporto di **provvista** collega delegante e delegato; quello di **valuta** delegante e delegatario. La delegazione è titolata se richiama uno o entrambi, pura se ne prescinde. Il regime delle eccezioni dipende dal richiamo e dall'art. 1271 c.c.; restano opponibili le eccezioni del rapporto diretto con il delegatario. Nella delegazione pura, se il rapporto di valuta è nullo, il delegato può opporre le eccezioni del rapporto di provvista; non può ordinariamente invocare la sola nullità della valuta.\n\nLa **delegazione attiva**, non disciplinata come figura generale dal Codice, è l'accordo in cui il creditore incarica il debitore di obbligarsi verso un terzo: l'effetto cumulativo o liberatorio dipende dall'accordo. Non va confusa con la cessione, che trasferisce il credito.\n\n### Il confronto decisivo\n| Figura | Struttura essenziale | Origine dell'iniziativa |\n|---|---|---|\n| Delegazione | incarico del debitore al terzo | debitore |\n| Espromissione | accordo fra terzo e creditore | terzo senza delegazione |\n| Accollo | accordo fra terzo e debitore | convenzione con il debitore |\n\nNell'[[espromissione]] il terzo assume il debito senza delegazione del debitore (art. 1272 c.c.). Di regola è obbligato in solido, salvo liberazione espressa. Può opporre le eccezioni del debitore originario, escluse quelle personali, quelle da fatti successivi e la [[compensazione|compensazione]] spettante al debitore.\n\nNell'[[accollo]] il terzo assume il debito mediante accordo con il debitore (art. 1273 c.c.). L'accollo **interno** non dà azione al creditore. Quello **esterno** attribuisce un beneficio al creditore, la cui adesione rende irrevocabile la stipulazione: libera il debitore solo se la liberazione è condizione espressa o il creditore la dichiara espressamente. Chi compra una casa accollandosi un mutuo non libera quindi automaticamente il venditore verso la banca.",
+      "sintesi": "### Perché serve la volontà del creditore\nCambiare debitore modifica il rischio di insolvenza: l'aggiunta di un nuovo obbligato non comporta automaticamente la liberazione del precedente. Nella [[delegazione-passiva]] il debitore, **delegante**, incarica un terzo, **delegato**, di obbligarsi verso il creditore, **delegatario** (art. 1268 c.c.). La delegazione di pagamento ordina invece di pagare, senza necessariamente assumere una nuova [[obbligazione|obbligazione]] (art. 1269 c.c.). Promettere e adempiere sono atti diversi.\n\nLa delegazione a promettere è normalmente **cumulativa**. Il creditore che accetta il nuovo obbligato deve prima chiedere l'[[adempimento|adempimento]] al delegato e solo poi rivolgersi al delegante: è un beneficio d'ordine, non di preventiva [[processo-esecutivo|esecuzione forzata]]. È **liberatoria** se il creditore libera espressamente il debitore originario. Se il nuovo debitore diventa successivamente insolvente, il creditore non può ritornare sul precedente salvo riserva; è diversa l'insolvenza già esistente all'assunzione (art. 1274 c.c.).\n\nNella **delegazione di pagamento** il pagamento del delegato vale, tra delegante e delegatario, come fatto dal delegante e, tra delegante e delegato, come fatto dal delegante al delegato: con un solo atto si estinguono due rapporti. Il delegante può **revocare** la delegazione finché il delegato non si è obbligato verso il delegatario o non ha pagato (art. 1270 c.c.). La delegazione **liberatoria** comporta, salvo patto, l'estinzione delle garanzie del credito.\n\n### I rapporti sottostanti\nIl rapporto di **provvista** collega delegante e delegato; quello di **valuta** delegante e delegatario. La delegazione è titolata se richiama uno o entrambi, pura se ne prescinde. Il regime delle eccezioni dipende dal richiamo e dall'art. 1271 c.c.; restano opponibili le eccezioni del rapporto diretto con il delegatario. Nella delegazione pura, se il rapporto di valuta è nullo, il delegato può opporre le eccezioni del rapporto di provvista; non può ordinariamente invocare la sola [[nullita|nullità]] della valuta.\n\nLa **delegazione attiva**, non disciplinata come figura generale dal Codice, è l'accordo in cui il creditore incarica il debitore di obbligarsi verso un terzo: l'effetto cumulativo o liberatorio dipende dall'accordo. Non va confusa con la cessione, che trasferisce il credito.\n\nEsempio di delegazione attiva negli appunti: Tizio, creditore di Caio, vuole gratificare il figlio Sempronio e incarica Caio di pagare a lui; al creditore originario si aggiunge il terzo, e se il debitore non paga può agire anche il primo creditore (effetto cumulativo).\n\n### Il confronto decisivo\n| Figura | Struttura essenziale | Origine dell'iniziativa |\n|---|---|---|\n| Delegazione | incarico del debitore al terzo | debitore |\n| Espromissione | accordo fra terzo e creditore | terzo senza delegazione |\n| Accollo | accordo fra terzo e debitore | convenzione con il debitore |\n\nNell'[[espromissione]] il terzo assume il debito senza delegazione del debitore (art. 1272 c.c.). Di regola è obbligato in solido, salvo liberazione espressa. Può opporre le eccezioni del debitore originario, escluse quelle personali, quelle da fatti successivi e la [[compensazione|compensazione]] spettante al debitore.\n\nEsempio di espromissione: il **padre** che si fa carico del debito del figlio. L'espromittente subentra nella stessa posizione del debitore: non può opporre al creditore le eccezioni dei propri rapporti con il debitore (il padre non può opporre in compensazione un credito che ha verso il figlio). L'iniziativa **spontanea** del terzo è ciò che distingue l'espromissione dalla delegazione.\n\nNell'[[accollo]] il terzo assume il debito mediante accordo con il debitore (art. 1273 c.c.). L'accollo **interno** non dà [[azione|azione]] al creditore. Quello **esterno** attribuisce un beneficio al creditore, la cui adesione rende irrevocabile la stipulazione: libera il debitore solo se la liberazione è condizione espressa o il creditore la dichiara espressamente. Chi compra una casa accollandosi un [[mutuo|mutuo]] non libera quindi automaticamente il venditore verso la banca.",
       "puntiChiave": [
         "Delegazione ed espromissione liberano il debitore solo per dichiarazione espressa del creditore; nell'accollo rileva anche la condizione espressa di liberazione.",
         "Nella delegazione il debitore incarica il terzo.",
@@ -90,7 +92,7 @@
         109
       ],
       "minuti": 25,
-      "sintesi": "### Chi, dove e quando\nL'[[adempimento]] è l'esatta esecuzione della prestazione. Occorre la diligenza ordinaria e, nell'attività professionale, quella adeguata alla natura dell'attività (art. 1176 c.c.). L'incapacità del debitore non consente di impugnare il pagamento dovuto (art. 1191 c.c.). Il creditore può rifiutare il pagamento parziale anche se la prestazione è divisibile, salvo legge o usi (art. 1181 c.c.).\n\nIl pagamento si fa al creditore, al suo rappresentante o a chi sia indicato o autorizzato a riceverlo (art. 1188 c.c.). A un estraneo non legittimato libera solo se il creditore ratifica o ne approfitta. Il pagamento al **creditore apparente** libera se l'[[apparenza|apparenza]] deriva da circostanze univoche e il debitore prova la buona fede (art. 1189 c.c.). Se il destinatario è incapace, occorre provare il vantaggio ricevuto (art. 1190 c.c.).\n\nIn mancanza di accordo, usi o indicazioni della natura del rapporto, l'art. 1182 c.c. distingue:\n\n| Oggetto | Luogo |\n|---|---|\n| Cosa determinata | dove si trovava quando sorse l'[[obbligazione|obbligazione]] |\n| Somma di denaro liquida | [[domicilio|domicilio]] del creditore alla scadenza; se è cambiato e il pagamento diventa più gravoso, il debitore può dichiarare di pagare al proprio domicilio |\n| Altri casi | domicilio del debitore alla scadenza |\n\nSe manca un termine, il credito è immediatamente esigibile, salvo che natura o usi richiedano un termine da determinare anche giudizialmente (art. 1183 c.c.). Il termine si presume a favore del debitore: impedisce l'esazione anticipata, non il pagamento anticipato. Insolvenza o diminuzione delle garanzie possono causare [[decadenza|decadenza]] dal termine (art. 1186 c.c.).\n\n### Terzo e prestazione diversa\nL'[[adempimento-del-terzo]] è ammesso anche contro la volontà del creditore, se questi non ha interesse all'esecuzione personale; il creditore può tuttavia rifiutare se il debitore gli ha manifestato opposizione (art. 1180 c.c.). Non coincide con l'assunzione del debito: qui si paga davvero.\n\nLa [[prestazione-in-luogo-dell-adempimento]], o *datio in solutum*, richiede consenso del creditore e libera quando la prestazione diversa è **eseguita** (art. 1197 c.c.). Se Tizio deve denaro e offre un computer, il creditore può rifiutare anche se vale di più. Non è [[novazione|novazione]], che estingue il vecchio debito sostituendolo con uno nuovo.\n\n### Più debiti e subingresso\nL'[[imputazione-del-pagamento]] segue la dichiarazione del debitore e, in mancanza, i criteri dell'art. 1193 c.c.: debito scaduto, meno garantito, più oneroso, più antico, infine proporzione. Senza consenso non si preferisce il capitale a interessi e spese (art. 1194 c.c.). La quietanza documenta il pagamento.\n\nIl [[pagamento-con-surrogazione]] soddisfa il creditore ma fa subentrare il solvens nei suoi diritti: per volontà del creditore espressa e contemporanea al pagamento, per mutuo del debitore destinato al pagamento, con [[data-certa|data certa]] degli atti e indicazione della provenienza della somma nella quietanza (art. 1202 c.c.), oppure per legge (art. 1203 c.c.). Non ogni terzo che paga è automaticamente surrogato.",
+      "sintesi": "### Chi, dove e quando\nL'[[adempimento]] è l'esatta esecuzione della [[prestazione|prestazione]]. Occorre la diligenza ordinaria e, nell'attività professionale, quella adeguata alla natura dell'attività (art. 1176 c.c.). L'incapacità del debitore non consente di impugnare il pagamento dovuto (art. 1191 c.c.). Il creditore può rifiutare il pagamento parziale anche se la prestazione è divisibile, salvo legge o usi (art. 1181 c.c.).\n\nIl pagamento si fa al creditore, al suo rappresentante o a chi sia indicato o autorizzato a riceverlo (art. 1188 c.c.). A un estraneo non legittimato libera solo se il creditore ratifica o ne approfitta. Il pagamento al **creditore apparente** libera se l'[[apparenza|apparenza]] deriva da circostanze univoche e il debitore prova la buona fede (art. 1189 c.c.). Se il destinatario è incapace, occorre provare il vantaggio ricevuto (art. 1190 c.c.).\n\nIn mancanza di accordo, usi o indicazioni della natura del rapporto, l'art. 1182 c.c. distingue:\n\n| Oggetto | Luogo |\n|---|---|\n| [[bene|Cosa]] determinata | dove si trovava quando sorse l'[[obbligazione|obbligazione]] |\n| Somma di denaro liquida | [[domicilio|domicilio]] del creditore alla scadenza; se è cambiato e il pagamento diventa più gravoso, il debitore può dichiarare di pagare al proprio domicilio |\n| Altri casi | domicilio del debitore alla scadenza |\n\nSe manca un termine, il credito è immediatamente esigibile, salvo che natura o usi richiedano un termine da determinare anche giudizialmente (art. 1183 c.c.). Il termine si presume a favore del debitore: impedisce l'esazione anticipata, non il pagamento anticipato. Insolvenza o diminuzione delle garanzie possono causare [[decadenza|decadenza]] dal termine (art. 1186 c.c.).\n\n### Terzo e prestazione diversa\nL'[[adempimento-del-terzo]] è ammesso anche contro la volontà del creditore, se questi non ha interesse all'esecuzione personale; il creditore può tuttavia rifiutare se il debitore gli ha manifestato opposizione (art. 1180 c.c.). Non coincide con l'assunzione del debito: qui si paga davvero.\n\nLa [[prestazione-in-luogo-dell-adempimento]], o *datio in solutum*, richiede consenso del creditore e libera quando la prestazione diversa è **eseguita** (art. 1197 c.c.). Se Tizio deve denaro e offre un computer, il creditore può rifiutare anche se vale di più. Non è [[novazione|novazione]], che estingue il vecchio debito sostituendolo con uno nuovo.\n\n### Più debiti e subingresso\nL'[[imputazione-del-pagamento]] segue la dichiarazione del debitore e, in mancanza, i criteri dell'art. 1193 c.c.: debito scaduto, meno garantito, più oneroso, più antico, infine proporzione. Senza consenso non si preferisce il capitale a [[interessi|interessi]] e spese (art. 1194 c.c.). La quietanza documenta il pagamento.\n\nIl [[pagamento-con-surrogazione]] soddisfa il creditore ma fa subentrare il solvens nei suoi diritti: per volontà del creditore espressa e contemporanea al pagamento, per [[mutuo|mutuo]] del debitore destinato al pagamento, con [[data-certa|data certa]] degli atti e indicazione della provenienza della somma nella quietanza (art. 1202 c.c.), oppure per legge (art. 1203 c.c.). Non ogni terzo che paga è automaticamente surrogato.",
       "puntiChiave": [
         "Adempiere significa eseguire esattamente quanto dovuto.",
         "La persona indicata dal creditore è legittimata a ricevere.",
@@ -116,7 +118,8 @@
         "adempimento-del-terzo",
         "prestazione-in-luogo-dell-adempimento",
         "pagamento-con-surrogazione",
-        "imputazione-del-pagamento"
+        "imputazione-del-pagamento",
+        "termine-di-adempimento"
       ]
     },
     {
@@ -127,7 +130,7 @@
         112
       ],
       "minuti": 25,
-      "sintesi": "### La cooperazione del creditore\nLa [[mora-del-creditore]] ricorre quando, senza motivo legittimo, il creditore non riceve la prestazione offerta nelle forme di legge o non coopera a renderla possibile (art. 1206 c.c.). Occorre offrire l'intera prestazione esigibile al destinatario legittimato tramite pubblico ufficiale. L'offerta è **reale** per denaro, titoli e mobili da consegnare al [[domicilio|domicilio]] del creditore; è **per intimazione** per mobili da consegnare altrove o immobili (artt. 1208–1209 e 1216 c.c.).\n\nL'effetto non è ancora l'estinzione del debito: il rischio dell'impossibilità sopravvenuta non imputabile passa al creditore; cessano interessi e frutti non percepiti; il creditore risponde di danni e spese (art. 1207 c.c.). La liberazione può avvenire mediante deposito accettato o dichiarato valido con sentenza definitiva per denaro e mobili (art. 1210 c.c.); per immobili, con consegna al sequestratario nominato dal giudice (art. 1216 c.c.). L'offerta non formale può invece impedire la [[mora-del-debitore|mora del debitore]] ai sensi dell'art. 1220 c.c.\n\n### Estinguere senza eseguire la prestazione\n| Modo | Meccanismo |\n|---|---|\n| Compensazione | due crediti reciproci si elidono fino alla concorrenza |\n| Confusione | creditore e debitore diventano la stessa persona |\n| Novazione | una nuova [[obbligazione|obbligazione]] sostituisce la precedente |\n| [[rinunzia|Remissione]] | il creditore rinuncia al credito con gli effetti dell'art. 1236 c.c. |\n| Impossibilità non imputabile | la prestazione non può più essere eseguita |\n\nLa [[compensazione]] **legale** richiede debiti omogenei, liquidi ed esigibili; opera dalla coesistenza, ma non è rilevabile d'ufficio. Quella **giudiziale** riguarda un controcredito di facile e pronta liquidazione; quella **volontaria** dipende dall'accordo anche senza i requisiti delle altre (artt. 1242–1252 c.c.). Tizio deve 100 e vanta 60 verso Caio: alle condizioni richieste residuano 40. Sono esclusi, fra gli altri, alimenti impignorabili e restituzione del deposito (art. 1246 c.c.).\n\nLa **confusione** estingue quando debitore e creditore coincidono (art. 1253 c.c.), salve le tutele dei terzi. La [[novazione]] richiede un nuovo oggetto o titolo e una volontà **non equivoca** di estinguere il precedente debito (art. 1230 c.c.): cambiare soltanto una scadenza non basta. È senza effetto se il debito originario non esiste; se deriva da titolo annullabile, occorre che il debitore conosca il vizio assumendo il nuovo debito (art. 1234 c.c.).\n\nLa [[remissione-del-debito]] opera quando la dichiarazione del creditore giunge al debitore, salvo rifiuto in un termine congruo (art. 1236 c.c.). Non è un pagamento e non presuppone un credito reciproco.\n\n### L'impossibilità sopravvenuta\nL'[[impossibilita-sopravvenuta]] non imputabile estingue se definitiva (art. 1256 c.c.). Se temporanea, esclude la responsabilità per il ritardo finché dura, ma estingue quando il debitore non può più ritenersi obbligato o il creditore perde interesse. Se parziale, il debitore esegue quanto resta possibile (art. 1258 c.c.), ferme le regole dei contratti corrispettivi. La semplice difficoltà economica non equivale a impossibilità: non basta affermare di non avere denaro.",
+      "sintesi": "### La cooperazione del creditore\nLa [[mora-del-creditore]] ricorre quando, senza motivo legittimo, il creditore non riceve la [[prestazione|prestazione]] offerta nelle forme di legge o non coopera a renderla possibile (art. 1206 c.c.). Occorre offrire l'intera prestazione esigibile al destinatario legittimato tramite pubblico ufficiale. L'offerta è **reale** per denaro, titoli e [[beni-mobili|mobili]] da consegnare al [[domicilio|domicilio]] del creditore; è **per intimazione** per mobili da consegnare altrove o [[beni-immobili|immobili]] (artt. 1208–1209 e 1216 c.c.).\n\nL'effetto non è ancora l'estinzione del debito: il rischio dell'impossibilità sopravvenuta non imputabile passa al creditore; cessano [[interessi|interessi]] e [[frutti|frutti]] non percepiti; il creditore risponde di danni e spese (art. 1207 c.c.). La liberazione può avvenire mediante deposito accettato o dichiarato valido con sentenza definitiva per denaro e mobili (art. 1210 c.c.); per immobili, con consegna al sequestratario nominato dal giudice (art. 1216 c.c.). L'offerta non formale può invece impedire la [[mora-del-debitore|mora del debitore]] ai sensi dell'art. 1220 c.c.\n\n### Estinguere senza eseguire la prestazione\n| Modo | Meccanismo |\n|---|---|\n| Compensazione | due crediti reciproci si elidono fino alla concorrenza |\n| Confusione | creditore e debitore diventano la stessa persona |\n| Novazione | una nuova [[obbligazione|obbligazione]] sostituisce la precedente |\n| [[remissione-del-debito|Remissione]] | il creditore rinuncia al credito con gli effetti dell'art. 1236 c.c. |\n| Impossibilità non imputabile | la prestazione non può più essere eseguita |\n\nLa [[compensazione]] **legale** richiede debiti omogenei, liquidi ed esigibili; opera dalla coesistenza, ma non è rilevabile d'ufficio. Quella **giudiziale** riguarda un controcredito di facile e pronta liquidazione; quella **volontaria** dipende dall'accordo anche senza i requisiti delle altre (artt. 1242–1252 c.c.). Tizio deve 100 e vanta 60 verso Caio: alle condizioni richieste residuano 40. Sono esclusi, fra gli altri, [[alimenti|alimenti]] impignorabili e restituzione del deposito (art. 1246 c.c.).\n\nLa **confusione** estingue quando debitore e creditore coincidono (art. 1253 c.c.), salve le tutele dei terzi. La [[novazione]] richiede un nuovo oggetto o titolo e una volontà **non equivoca** di estinguere il precedente debito (art. 1230 c.c.): cambiare soltanto una scadenza non basta. È senza effetto se il debito originario non esiste; se deriva da titolo annullabile, occorre che il debitore conosca il vizio assumendo il nuovo debito (art. 1234 c.c.).\n\nLa [[remissione-del-debito]] opera quando la dichiarazione del creditore giunge al debitore, salvo rifiuto in un termine congruo (art. 1236 c.c.). Non è un pagamento e non presuppone un credito reciproco.\n\n### L'impossibilità sopravvenuta\nL'[[impossibilita-sopravvenuta]] non imputabile estingue se definitiva (art. 1256 c.c.). Se temporanea, esclude la responsabilità per il ritardo finché dura, ma estingue quando il debitore non può più ritenersi obbligato o il creditore perde interesse. Se parziale, il debitore esegue quanto resta possibile (art. 1258 c.c.), ferme le regole dei contratti corrispettivi. La semplice difficoltà economica non equivale a impossibilità: non basta affermare di non avere denaro.",
       "puntiChiave": [
         "La mora del creditore presuppone rifiuto ingiustificato o mancata cooperazione e offerta idonea.",
         "La mora non libera automaticamente il debitore.",
@@ -164,7 +167,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Contratto che trasferisce il credito dal cedente al cessionario senza necessità del consenso del debitore.",
-      "definizione": "Contratto che trasferisce il credito dal cedente al cessionario senza necessità del consenso del debitore. Notifica o accettazione rendono il trasferimento efficace verso il debitore (artt. 1260 e 1264 c.c.).",
+      "definizione": "Contratto con cui il creditore (**cedente**) trasferisce a un terzo (**cessionario**) il proprio credito verso il debitore (art. 1260 c.c.); il termine indica anche l'effetto del contratto, cioè il trasferimento. Si perfeziona con l'accordo tra cedente e cessionario, senza il consenso del **debitore ceduto**, a cui di regola è indifferente chi pagare. Sono cedibili tutti i crediti, salvo quelli strettamente personali (alimenti), quelli vietati dalla legge e quelli resi incedibili da un patto conosciuto dal cessionario; i crediti futuri solo a titolo oneroso. È un contratto a **causa variabile** (vendita, donazione, garanzia, pagamento). Il credito passa con privilegi, garanzie e accessori; il debitore conserva le sue eccezioni. Verso il debitore e i terzi la cessione è efficace con la **notificazione** o l'**accettazione** (artt. 1264–1265 c.c.).",
       "pagine": [
         102,
         104
@@ -176,7 +179,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Distinzione fra cessioni con rischio di insolvenza a carico del cessionario o con garanzia del cedente.",
-      "definizione": "Distinzione fra cessioni con rischio di insolvenza a carico del cessionario o con garanzia del cedente. Nella cessione in pagamento, salvo diversa volontà, il debito originario si estingue con la riscossione del credito ceduto.",
+      "definizione": "Distinzione che riguarda chi sopporta il rischio che il debitore ceduto non paghi. Nella cessione **pro soluto** il cedente garantisce solo l'**esistenza** del credito (se la cessione è onerosa) e il rischio di insolvenza grava sul cessionario: è la regola (art. 1266 c.c.). Nella cessione **pro solvendo** il cedente, con apposito patto, garantisce anche la **solvenza** del debitore: se questi non paga, deve restituire quanto ricevuto, con interessi, spese della cessione e dell'escussione e danni, salvo che la mancata riscossione dipenda da negligenza del cessionario (art. 1267 c.c.). Quando il credito è ceduto **in luogo dell'adempimento** di un debito del cedente, salvo diversa volontà il debito si estingue solo con la riscossione (art. 1198 c.c.). Le cessioni d'impresa della l. 52/1991 sono, salvo patto, pro solvendo.",
       "pagine": [
         102,
         104
@@ -188,7 +191,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Operazione contrattuale di gestione e riscossione dei crediti d’impresa, eventualmente accompagnata da finanziamento e garanzia di solvenza.",
-      "definizione": "Operazione contrattuale di gestione e riscossione dei crediti d’impresa, eventualmente accompagnata da finanziamento e garanzia di solvenza. La cessione dei crediti è uno strumento dell’operazione.",
+      "definizione": "Contratto di origine anglosassone, **atipico**, con cui un imprenditore cede a un soggetto professionale (il **factor**, banca o intermediario finanziario) i crediti presenti e futuri nati dalla sua attività, e il factor, dietro una commissione, fornisce una serie di servizi: contabilizzazione, gestione e riscossione dei crediti, garanzia contro l'insolvenza dei debitori e, soprattutto, **finanziamento** dell'impresa con anticipi sui crediti. La cessione non è il fine ma lo strumento dell'operazione; può essere pro soluto o pro solvendo. La legge 52 del 1991 non ha tipizzato il contratto, ma ha adattato alla cessione dei crediti d'impresa la disciplina del Codice: ammette la cessione di crediti futuri e **in massa** e ne regola l'opponibilità ai terzi; si applica alle cessioni onerose di crediti pecuniari d'impresa a banche e intermediari.",
       "pagine": [
         102,
         104
@@ -200,7 +203,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Operazione di finanziamento nella quale i flussi di crediti acquistati sono destinati al servizio dei titoli emessi nell’operazione.",
-      "definizione": "Operazione di finanziamento nella quale i flussi di crediti acquistati sono destinati al servizio dei titoli emessi nell’operazione. La l. 130/1999 prevede la separazione patrimoniale dei crediti.",
+      "definizione": "Operazione di finanziamento (in inglese *securitisation*) con cui un'impresa o una banca (*originator*) cede a titolo oneroso un insieme di crediti, in bonis o in sofferenza, a una **società veicolo**, che li trasforma in **titoli** (*asset-backed securities*) e li colloca sul mercato: il prezzo dei crediti è pagato con il ricavato dei titoli, e le somme riscosse dai debitori ceduti servono a remunerare e rimborsare i sottoscrittori. È regolata dalla legge 130 del 1999, per cui i crediti di ciascuna operazione costituiscono un [[patrimonio-separato]], destinato esclusivamente ai portatori dei titoli e a chi ha finanziato l'operazione, e non aggredibile dagli altri creditori della società veicolo. Rendimento e rischio dei titoli dipendono dalla qualità dei crediti ceduti.",
       "pagine": [
         102,
         104
@@ -212,7 +215,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Operazione nella quale il debitore incarica un terzo di obbligarsi o pagare al creditore.",
-      "definizione": "Operazione nella quale il debitore incarica un terzo di obbligarsi o pagare al creditore. La delegazione a promettere è di regola cumulativa; la liberazione richiede dichiarazione espressa del creditore.",
+      "definizione": "Operazione con cui il debitore (**delegante**) incarica un terzo (**delegato**) di obbligarsi o di pagare verso il proprio creditore (**delegatario**) (artt. 1268–1271 c.c.). Nella delegazione **a promettere** il delegato assume un nuovo debito; nella delegazione **di pagamento** esegue direttamente la prestazione, e il pagamento vale come fatto dal delegante al delegatario e dal delegato al delegante; il delegante può revocarla finché il delegato non si è obbligato o non ha pagato (art. 1270 c.c.). La delegazione a promettere è di regola **cumulativa**: il delegante resta obbligato e il creditore deve prima rivolgersi al delegato; è **liberatoria** solo se il creditore libera espressamente il delegante. Le eccezioni opponibili dipendono dal richiamo dei rapporti di [[provvista-e-valuta]].",
       "pagine": [
         104,
         106
@@ -224,7 +227,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Contratto fra terzo e creditore con cui il terzo assume il debito altrui senza delegazione del debitore.",
-      "definizione": "Contratto fra terzo e creditore con cui il terzo assume il debito altrui senza delegazione del debitore. Il debitore originario resta obbligato in solido salvo liberazione espressa (art. 1272 c.c.).",
+      "definizione": "Contratto tra il creditore (**espromissario**) e un terzo (**espromittente**) con cui il terzo, **spontaneamente** e senza incarico del debitore originario (**espromesso**), si obbliga a pagare un debito altrui già esistente (art. 1272 c.c.): per esempio il padre che si fa carico del debito del figlio. Non serve il consenso del debitore perché l'atto gli è vantaggioso; la spontaneità dell'iniziativa del terzo distingue l'espromissione dalla [[delegazione-passiva]]. Di regola è **cumulativa** (il terzo è obbligato in solido con il debitore), **liberatoria** solo se il creditore libera espressamente il debitore. L'espromittente non può opporre le eccezioni personali del debitore, quelle derivanti da fatti successivi né la compensazione che spetterebbe a questi; non può opporre neppure le eccezioni dei suoi rapporti con il debitore.",
       "pagine": [
         104,
         106
@@ -236,7 +239,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Accordo fra debitore e terzo con cui quest’ultimo assume il debito.",
-      "definizione": "Accordo fra debitore e terzo con cui quest’ultimo assume il debito. Può restare interno o attribuire un diritto al creditore; l’adesione non libera automaticamente il debitore originario.",
+      "definizione": "Contratto tra il debitore (**accollato**) e un terzo (**accollante**) con cui il terzo assume il debito verso il creditore (**accollatario**) (art. 1273 c.c.): per esempio chi compra una casa ipotecata e si accolla il mutuo del venditore. A differenza dell'[[espromissione]], l'accordo è tra terzo e debitore. L'accollo **interno** obbliga l'accollante solo verso il debitore e non dà azione al creditore. L'accollo **esterno** è una stipulazione a favore del creditore, che può aderirvi: fino all'adesione le parti possono modificarlo, dopo diventa **irrevocabile** e l'accollante risponde anche verso il creditore. È **cumulativo** se il debitore resta obbligato in solido; **liberatorio** solo se la liberazione è condizione espressa dell'accordo o il creditore la dichiara espressamente.",
       "pagine": [
         104,
         106
@@ -248,7 +251,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Rapporti sottostanti alla delegazione: la provvista intercorre fra delegante e delegato, la valuta fra delegante e delegatario.",
-      "definizione": "Rapporti sottostanti alla delegazione: la provvista intercorre fra delegante e delegato, la valuta fra delegante e delegatario. Il loro richiamo incide sulle eccezioni opponibili.",
+      "definizione": "I due rapporti sottostanti alla [[delegazione-passiva]]. Il rapporto di **provvista** intercorre tra delegante e delegato (spiega perché il delegato accetta di pagare: per esempio è debitore del delegante); quello di **valuta** tra delegante e delegatario (spiega perché il delegante vuole far pagare il delegatario: di solito ne è debitore). La delegazione è **titolata** se l'accordo richiama uno o entrambi i rapporti, **pura** se non li richiama. Il richiamo decide le eccezioni opponibili: se il delegato ha promesso con riferimento alla provvista, oppone le eccezioni che aveva verso il delegante; se con riferimento alla valuta, quelle che il delegante aveva verso il delegatario; nella delegazione pura non oppone né le une né le altre, ma solo quelle del proprio rapporto con il delegatario (art. 1271 c.c.).",
       "pagine": [
         104,
         106
@@ -260,7 +263,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Esatta esecuzione della prestazione dovuta, che normalmente estingue l’obbligazione soddisfacendo il creditore.",
-      "definizione": "Esatta esecuzione della prestazione dovuta, che normalmente estingue l’obbligazione soddisfacendo il creditore. Richiede rispetto di contenuto, destinatario, luogo, tempo e diligenza dovuti.",
+      "definizione": "Esatta esecuzione della prestazione dovuta: è il modo tipico e principale di estinzione dell'obbligazione, perché soddisfa l'interesse del creditore. Il debitore deve usare la diligenza del **buon padre di famiglia** (art. 1176 c.c.), che le parti possono modulare, ma è nullo il patto che lo esoneri in anticipo per dolo o colpa grave. Può valersi di ausiliari, di cui risponde (art. 1228 c.c.). Il creditore può rifiutare un adempimento **parziale** o una prestazione **diversa**, anche di valore maggiore. Deve pagarsi al creditore capace o al suo rappresentante; libera anche il pagamento in buona fede al **creditore apparente**. Luogo e tempo sono fissati dal titolo o dalla legge (art. 1182 c.c.); il termine si presume a favore del debitore. Il debitore può chiedere la **quietanza** (art. 1199 c.c.).",
       "pagine": [
         107,
         109
@@ -272,7 +275,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Esecuzione della prestazione da parte di un soggetto diverso dal debitore.",
-      "definizione": "Esecuzione della prestazione da parte di un soggetto diverso dal debitore. Il creditore può rifiutarla se ha interesse all’esecuzione personale o se il debitore gli ha manifestato opposizione.",
+      "definizione": "Esecuzione della prestazione da parte di un terzo, invece che del debitore (art. 1180 c.c.). Di regola al creditore è indifferente chi adempie: se la prestazione è **fungibile** (pagare una somma) non può rifiutare l'offerta del terzo, e il rifiuto ingiustificato lo mette in mora. Può rifiutarla solo se ha interesse a che il debitore esegua **personalmente** la prestazione (prestazione infungibile: l'attore scritturato per una parte) o se il debitore gli ha comunicato la propria **opposizione**, ma anche in questo caso può accettarla. Va distinto dalla **promessa** di adempiere il debito altrui (accollo, espromissione). Il terzo che ha pagato, salvo che abbia agito per liberalità, può rivalersi sul debitore, per esempio con l'azione di arricchimento, o ottenere la surrogazione.",
       "pagine": [
         107,
         109
@@ -286,7 +289,7 @@
         "datio in solutum"
       ],
       "breve": "Accordo che consente al debitore di liberarsi eseguendo una prestazione diversa da quella dovuta.",
-      "definizione": "Accordo che consente al debitore di liberarsi eseguendo una prestazione diversa da quella dovuta. L’estinzione avviene con l’esecuzione della prestazione sostitutiva (art. 1197 c.c.).",
+      "definizione": "Accordo con cui il creditore consente che il debitore si liberi eseguendo una prestazione **diversa** da quella dovuta (*datio in solutum*, art. 1197 c.c.): di regola il creditore può rifiutare una prestazione diversa anche se di valore uguale o maggiore. L'obbligazione si estingue solo quando la prestazione diversa è **eseguita**: fino ad allora il debitore resta obbligato alla prestazione originaria, e per questo non va confusa con la novazione. Se la prestazione diversa consiste nel trasferimento di una cosa, il debitore deve la garanzia per evizione e vizi, ma il creditore può preferire la prestazione originaria e il risarcimento; se consiste nella **cessione di un credito**, l'obbligazione si estingue, salvo diversa volontà, con la riscossione (art. 1198 c.c.).",
       "pagine": [
         107,
         109
@@ -298,7 +301,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Pagamento che soddisfa il creditore facendo subentrare un altro soggetto nei diritti del creditore stesso.",
-      "definizione": "Pagamento che soddisfa il creditore facendo subentrare un altro soggetto nei diritti del creditore stesso. Può dipendere da volontà del creditore, volontà del debitore o legge.",
+      "definizione": "Subingresso di un terzo nei diritti del creditore verso il debitore per effetto del pagamento del debito da parte del terzo (artt. 1201–1205 c.c.). Come la cessione del credito, modifica il lato attivo del rapporto, ma presuppone che il creditore originario sia stato **soddisfatto**, mentre la cessione presuppone che non lo sia ancora. Le figure sono tre: surrogazione **per volontà del creditore**, che ricevendo il pagamento dal terzo lo surroga espressamente e contestualmente nei suoi diritti (art. 1201 c.c.); **per volontà del debitore**, che prende a mutuo una somma per pagare e surroga il mutuante anche senza il consenso del creditore (art. 1202 c.c.); **legale**, nei casi tassativi dell'art. 1203 c.c. (per esempio il coobbligato che paga per altri).",
       "pagine": [
         107,
         109
@@ -310,7 +313,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Individuazione del debito estinto quando il debitore ha più debiti della stessa specie verso lo stesso creditore.",
-      "definizione": "Individuazione del debito estinto quando il debitore ha più debiti della stessa specie verso lo stesso creditore. Opera anzitutto la dichiarazione del debitore, poi i criteri legali.",
+      "definizione": "Operazione con cui si stabilisce quale debito si estingue quando chi ha **più debiti della stessa specie** verso lo stesso creditore paga una somma che non li copre tutti; la questione conta perché i debiti possono avere interessi o garanzie diversi. Decide anzitutto il **debitore**, dichiarando, quando paga, quale debito intende soddisfare (art. 1193 c.c.). In mancanza si applicano i criteri legali, in ordine: debito **scaduto**; tra più scaduti, il **meno garantito**; tra più ugualmente garantiti, il **più oneroso** per il debitore; tra più ugualmente onerosi, il **più antico**; se nessun criterio soccorre, l'imputazione è **proporzionale**. Se il debitore accetta una quietanza che imputa il pagamento a un certo debito, non può pretendere un'imputazione diversa (art. 1195 c.c.).",
       "pagine": [
         107,
         109
@@ -322,7 +325,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Situazione del creditore che senza motivo legittimo rifiuta la prestazione offerta secondo legge o omette la cooperazione necessaria.",
-      "definizione": "Situazione del creditore che senza motivo legittimo rifiuta la prestazione offerta secondo legge o omette la cooperazione necessaria. Trasferisce il rischio e produce gli effetti dell’art. 1207 c.c., senza liberare da sola il debitore.",
+      "definizione": "Situazione del creditore (*mora credendi*) che senza motivo legittimo rifiuta il pagamento offertogli o non compie quanto è necessario perché il debitore possa adempiere (per esempio non tiene aperto il magazzino dove le merci vanno consegnate). Il rifiuto è legittimo solo se l'offerta non è valida, perché parziale o inesatta. Il debitore costituisce in mora il creditore con un'**offerta** dell'intera prestazione (capitale, interessi, spese): **solenne**, per mezzo di un pubblico ufficiale, o **secondo gli usi**, con effetti dal deposito; l'offerta informale (una lettera) non basta. La mora trasferisce sul creditore il rischio dell'impossibilità sopravvenuta e lo obbliga a risarcire i danni e le spese di custodia (art. 1207 c.c.); per liberarsi il debitore deve **depositare** i mobili o consegnare l'immobile a un sequestratario (artt. 1210 e 1216 c.c.).",
       "pagine": [
         110,
         112
@@ -334,7 +337,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Estinzione di debiti reciproci fino alla concorrenza dei rispettivi importi.",
-      "definizione": "Estinzione di debiti reciproci fino alla concorrenza dei rispettivi importi. Può essere legale, giudiziale o volontaria, con presupposti differenti secondo gli artt. 1241–1252 c.c.",
+      "definizione": "Modo di estinzione delle obbligazioni diverso dall'adempimento che opera quando due persone sono obbligate l'una verso l'altra in rapporti **autonomi**: i debiti si estinguono per le quantità corrispondenti (artt. 1241–1252 c.c.), senza bisogno dei due adempimenti. È **legale** tra debiti **omogenei** (somme di denaro o cose fungibili della stessa specie), **liquidi** ed **esigibili**, e opera dal giorno della loro coesistenza; **giudiziale** quando un credito non è liquido ma è di pronta e facile liquidazione, e la dichiara il giudice; **volontaria** quando le parti la convengono anche senza i requisiti legali (art. 1252 c.c.). Non opera per i crediti indicati dall'art. 1246 c.c. (per esempio il credito alimentare), tra obbligazione civile e naturale, né tra poste che nascono da un unico rapporto.",
       "pagine": [
         110,
         112
@@ -346,7 +349,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Accordo che estingue un’obbligazione sostituendola con una nuova avente oggetto o titolo diverso.",
-      "definizione": "Accordo che estingue un’obbligazione sostituendola con una nuova avente oggetto o titolo diverso. La volontà estintiva deve risultare in modo non equivoco (art. 1230 c.c.).",
+      "definizione": "Contratto con cui le parti di un rapporto obbligatorio estinguono l'obbligazione originaria **sostituendola** con una nuova (artt. 1230–1235 c.c.). È **oggettiva** quando cambia l'oggetto o il titolo (dovevo denaro e conveniamo che darò grano); **soggettiva** quando un nuovo debitore sostituisce quello originario, liberato, e si applicano allora le norme su delegazione, espromissione e accollo. La novazione oggettiva richiede un elemento oggettivo (il mutamento dell'oggetto o del titolo) e uno soggettivo, la comune volontà di estinguere l'obbligazione precedente (*animus novandi*), che deve risultare in modo non equivoco, anche tacitamente. Se l'obbligazione originaria era inesistente o nulla la novazione è senza effetto; si può novare quella annullabile se il debitore conosceva il vizio.",
       "pagine": [
         110,
         112
@@ -358,7 +361,7 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Dichiarazione del creditore che estingue il debito quando è comunicata al debitore, salvo che questi rifiuti di profittarne in un termine congruo (art.",
-      "definizione": "Dichiarazione del creditore che estingue il debito quando è comunicata al debitore, salvo che questi rifiuti di profittarne in un termine congruo (art. 1236 c.c.).",
+      "definizione": "Negozio con cui il creditore **rinuncia gratuitamente** al proprio credito, estinguendo l'obbligazione senza che il creditore sia soddisfatto (artt. 1236–1240 c.c.). Secondo la tesi prevalente è un negozio **unilaterale**, perché basta la volontà del creditore, e **recettizio**, perché ha effetto quando la dichiarazione giunge a conoscenza del debitore; questi può però **rifiutare** di profittarne, comunicando il rifiuto entro un termine congruo (per questo alcuni lo considerano un contratto concluso con il silenzio del debitore). Può avvenire con una dichiarazione espressa del creditore o con la **restituzione volontaria del titolo** originale del credito, che fa presumere la liberazione (art. 1237 c.c.).",
       "pagine": [
         110,
         112
@@ -370,10 +373,21 @@
       "tipo": "istituto",
       "alias": [],
       "breve": "Impedimento sopravvenuto della prestazione che, se non imputabile e definitivo, estingue l’obbligazione.",
-      "definizione": "Impedimento sopravvenuto della prestazione che, se non imputabile e definitivo, estingue l’obbligazione. Se temporaneo esclude la responsabilità per il ritardo e può estinguere nei casi dell’art. 1256 c.c.",
+      "definizione": "Evento successivo al sorgere dell'obbligazione che rende impossibile la prestazione per causa **non imputabile** al debitore e la estingue, liberandolo (art. 1256 c.c.); l'impossibilità originaria impedisce invece che l'obbligazione nasca. La prova spetta al debitore (art. 1218 c.c.). Tradizionalmente occorre un'impossibilità **oggettiva e assoluta** (l'incendio che distrugge la cosa, una legge che ne vieta il commercio); la giurisprudenza ritiene però non responsabile anche il debitore per il quale l'adempimento richiederebbe uno sforzo oltre la diligenza dovuta (lo sciopero dei marittimi che impedisce la spedizione del carbone). L'impossibilità **temporanea** esclude la responsabilità per il ritardo ed estingue l'obbligazione se dura finché il debitore non è più tenuto o il creditore non ha più interesse; quella **parziale** libera eseguendo la parte possibile (art. 1258 c.c.).",
       "pagine": [
         110,
         112
+      ]
+    },
+    {
+      "id": "termine-di-adempimento",
+      "nome": "Termine di adempimento",
+      "tipo": "istituto",
+      "breve": "Momento in cui la prestazione dev'essere eseguita; si presume a favore del debitore, che ne decade se insolvente o se diminuisce le garanzie.",
+      "definizione": "Il momento entro il quale, o dal quale, il debitore deve eseguire la prestazione. È fissato dal titolo, dagli usi o dalla natura della prestazione; se manca, il creditore può esigere subito la prestazione, e se occorre un termine lo fissa il giudice (art. 1183 c.c.). Il termine si **presume a favore del debitore** (art. 1184 c.c.): il creditore non può pretendere la prestazione prima della scadenza, mentre il debitore può adempiere prima, salvo che il termine sia stabilito anche nell'interesse del creditore. Il debitore **decade dal beneficio del termine** e il creditore può esigere subito la prestazione se il debitore è divenuto **insolvente**, ha **diminuito** per fatto proprio le garanzie date o non ha dato quelle promesse (art. 1186 c.c.). Si distingue dal termine di efficacia del contratto e dal termine essenziale.",
+      "pagine": [
+        107,
+        108
       ]
     }
   ],
@@ -425,6 +439,48 @@
       "a": "adempimento",
       "tipo": "collegato",
       "etichetta": "ostacola l’"
+    },
+    {
+      "da": "cartolarizzazione",
+      "a": "factoring",
+      "tipo": "collegato",
+      "etichetta": "come il factoring, mobilizza crediti d'impresa"
+    },
+    {
+      "da": "remissione-del-debito",
+      "a": "negozio-unilaterale",
+      "tipo": "esempio-di",
+      "etichetta": "è un"
+    },
+    {
+      "da": "adempimento-del-terzo",
+      "a": "mora-del-creditore",
+      "tipo": "collegato",
+      "etichetta": "il rifiuto ingiustificato dà luogo a"
+    },
+    {
+      "da": "compensazione",
+      "a": "credito-alimentare",
+      "tipo": "contrasta",
+      "etichetta": "esclusa per il"
+    },
+    {
+      "da": "imputazione-del-pagamento",
+      "a": "norme-suppletive",
+      "tipo": "esempio-di",
+      "etichetta": "è regolata da"
+    },
+    {
+      "da": "termine-di-adempimento",
+      "a": "adempimento",
+      "tipo": "parte-di",
+      "etichetta": "fissa il tempo dell'"
+    },
+    {
+      "da": "termine-di-adempimento",
+      "a": "termine-di-efficacia",
+      "tipo": "contrasta",
+      "etichetta": "si distingue dal"
     }
   ],
   "eventi": [
@@ -673,6 +729,9 @@
             "cartolarizzazione"
           ]
         }
+      ],
+      "esame": [
+        "lobuono"
       ]
     },
     {
@@ -1108,6 +1167,9 @@
             "creditore"
           ]
         }
+      ],
+      "esame": [
+        "lobuono"
       ]
     },
     {
@@ -1338,6 +1400,9 @@
             "definitiva"
           ]
         }
+      ],
+      "esame": [
+        "lobuono"
       ]
     },
     {
@@ -1748,6 +1813,74 @@
       "tipo": "completa",
       "testo": "L'accordo che estingue l'obbligazione sostituendola con una nuova, diversa per oggetto o titolo, è la {{novazione}}.",
       "spiegazione": "Le semplici modifiche accessorie non bastano."
+    },
+    {
+      "id": "u13-q059",
+      "lezione": "u13-l3",
+      "livello": "base",
+      "pagine": [
+        107,
+        108
+      ],
+      "concetti": [
+        "termine-di-adempimento"
+      ],
+      "tipo": "flashcard",
+      "domanda": "Quando il debitore decade dal beneficio del termine?",
+      "risposta": "Quando è divenuto insolvente, quando ha diminuito per fatto proprio le garanzie che aveva dato o non ha dato quelle promesse (art. 1186 c.c.): il creditore può allora esigere immediatamente la prestazione, anche se il termine non è scaduto."
+    },
+    {
+      "id": "u13-q060",
+      "lezione": "u13-l3",
+      "livello": "medio",
+      "pagine": [
+        107,
+        108
+      ],
+      "concetti": [
+        "termine-di-adempimento",
+        "adempimento"
+      ],
+      "esame": [
+        "lobuono"
+      ],
+      "tipo": "aperta",
+      "domanda": "Mi parli del termine di adempimento: il termine a favore del debitore e la decadenza dal beneficio del termine.",
+      "traccia": "Il **termine di adempimento** indica quando la prestazione deve essere eseguita. Lo fissano il titolo, gli usi o la natura della prestazione; se manca, il creditore può esigere subito, e se un termine è necessario lo stabilisce il giudice (art. 1183 c.c.).\n\nIl termine si **presume a favore del debitore** (art. 1184 c.c.): il creditore non può pretendere l'adempimento prima della scadenza, mentre il debitore può adempiere anticipatamente. Se il termine è stabilito a favore di entrambi, nessuno dei due può anticipare o pretendere la prestazione prima del tempo convenuto. Nelle transazioni commerciali la legge sanziona con la nullità i termini di pagamento gravemente iniqui per il creditore (d.lgs. 231/2002).\n\nIl debitore **decade dal beneficio del termine** (art. 1186 c.c.) se è divenuto **insolvente**, se ha **diminuito** per fatto proprio le garanzie date o se non ha dato le garanzie promesse: la fiducia su cui si fondava la dilazione è venuta meno e il creditore può esigere subito. La decadenza dal termine va distinta dalla decadenza come estinzione di un diritto per mancato esercizio entro un termine perentorio (art. 2964 c.c.).",
+      "punti": [
+        {
+          "testo": "Il termine è fissato dal titolo o, se manca, dal giudice",
+          "chiavi": [
+            "1183",
+            "titolo",
+            "giudice"
+          ]
+        },
+        {
+          "testo": "Si presume a favore del debitore (art. 1184 c.c.)",
+          "chiavi": [
+            "1184",
+            "favore",
+            "debitore"
+          ]
+        },
+        {
+          "testo": "Il debitore può adempiere prima, il creditore non può esigere prima",
+          "chiavi": [
+            "prima",
+            "anticip",
+            "scadenza"
+          ]
+        },
+        {
+          "testo": "Decadenza dal beneficio per insolvenza o diminuzione delle garanzie (art. 1186 c.c.)",
+          "chiavi": [
+            "1186",
+            "insolven",
+            "garanzi"
+          ]
+        }
+      ]
     }
   ],
   "mappa": {

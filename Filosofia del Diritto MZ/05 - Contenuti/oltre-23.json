@@ -1,0 +1,302 @@
+{
+  "voci": [
+    {
+      "id": "standard",
+      "oltre": "Nel diritto italiano gli standard corrispondono in gran parte alle **clausole generali** e ai concetti elastici: la buona fede e la correttezza (artt. 1175 e 1375 c.c.), la diligenza del buon padre di famiglia (art. 1176 c.c.), il buon costume e l'ordine pubblico, la «giusta causa» di licenziamento. Sono formule che il legislatore lascia volutamente aperte, affidando al giudice il compito di concretizzarle caso per caso, spesso con l'aiuto di valori sociali e di principi costituzionali.\n\nIl rischio è l'imprevedibilità; per ridurlo la giurisprudenza tende a trasformare gli standard in elenchi di casi tipici e in criteri sempre più precisi. È lo stesso movimento che [[frederick-schauer|Schauer]] descrive per l'[[equity|equity]]: lo standard tende, con il tempo, a produrre regole.",
+      "daSapere": [
+        "Clausole generali: buona fede (artt. 1175, 1375 c.c.), diligenza (art. 1176 c.c.), buon costume, giusta causa",
+        "Concretizzate dal giudice caso per caso",
+        "Con il tempo tendono a generare regole"
+      ],
+      "collegamenti": [
+        {
+          "da": "standard",
+          "a": "equita",
+          "tipo": "collegato",
+          "etichetta": "condivide la flessibilità dell'"
+        }
+      ]
+    },
+    {
+      "id": "discrezionalita",
+      "oltre": "Nel dibattito tra [[hart|Hart]] e [[ronald-dworkin|Dworkin]] la discrezionalità del giudice è un tema centrale. Dworkin, in *The Model of Rules* (1967), distinse una discrezionalità in senso **debole** (chi decide deve usare il giudizio, perché le regole non si applicano meccanicamente) da una in senso **forte** (chi decide non è vincolato da alcuno standard): sostenne che il giudice ha solo la prima, perché anche dove le regole tacciono lo vincolano i principi. Hart, nel *Poscritto* pubblicato postumo nel 1994, ribadì che nei casi non regolati il giudice crea diritto, ma entro limiti e in modo «interstiziale».\n\nNel diritto amministrativo italiano si distingue l'attività **vincolata** da quella **discrezionale**, in cui la pubblica amministrazione sceglie tra più soluzioni lecite ponderando gli interessi; il giudice ne controlla i vizi (eccesso di potere), non il merito.",
+      "daSapere": [
+        "Dworkin (1967): discrezionalità debole e forte",
+        "Hart, *Poscritto* (1994): creazione interstiziale",
+        "Diritto amministrativo: attività vincolata e discrezionale; eccesso di potere"
+      ],
+      "collegamenti": [
+        {
+          "da": "ronald-dworkin",
+          "a": "discrezionalita",
+          "tipo": "contrasta",
+          "etichetta": "nega al giudice la forte"
+        },
+        {
+          "da": "hart",
+          "a": "discrezionalita",
+          "tipo": "interpreta",
+          "etichetta": "ammette nella penombra la"
+        }
+      ]
+    },
+    {
+      "id": "superiore-interesse-del-minore",
+      "oltre": "Il principio del superiore interesse del minore (*best interests of the child*) è sancito dall'art. 3 della Convenzione delle Nazioni Unite sui diritti del fanciullo, approvata a New York il 20 novembre 1989 e ratificata dall'Italia con la legge 27 maggio 1991, n. 176: in tutte le decisioni che riguardano i minori il loro interesse deve essere «una considerazione preminente». Lo ripete l'art. 24 della Carta dei diritti fondamentali dell'Unione europea.\n\nNel diritto di famiglia italiano guida le decisioni sull'affidamento dei figli in caso di separazione (art. 337-ter c.c.), con la regola dell'affidamento condiviso e il diritto del minore alla bigenitorialità. È un esempio tipico di [[standard|standard]]: non dice quale soluzione adottare, ma indica il criterio con cui il giudice deve valutare il caso concreto.",
+      "daSapere": [
+        "Convenzione ONU sui diritti del fanciullo, art. 3 (New York, 20 novembre 1989)",
+        "Ratifica italiana: legge 176/1991",
+        "Art. 337-ter c.c.: affidamento dei figli"
+      ],
+      "collegamenti": [
+        {
+          "da": "superiore-interesse-del-minore",
+          "a": "discrezionalita",
+          "tipo": "causa",
+          "etichetta": "lascia al giudice dell'affidamento la"
+        }
+      ]
+    },
+    {
+      "id": "quarto-emendamento",
+      "oltre": "Il Quarto emendamento fa parte del *Bill of Rights*, i primi dieci emendamenti della Costituzione degli Stati Uniti, entrati in vigore nel 1791. Protegge il diritto delle persone alla sicurezza nella propria persona, casa, carte ed effetti contro perquisizioni e sequestri irragionevoli, e richiede per i mandati una «causa probabile» sostenuta da giuramento.\n\nLa [[corte-suprema-degli-stati-uniti|Corte Suprema]] ne ha fatto discendere la **regola di esclusione**: le prove ottenute con una perquisizione illegittima non possono essere usate nel processo (*Weeks v. United States*, 1914, per le corti federali; *Mapp v. Ohio*, 1961, per quelle statali). Con *Katz v. United States* (1967) ha stabilito che l'emendamento protegge le persone, non i luoghi, e ogni «ragionevole aspettativa di riservatezza». L'aggettivo «irragionevoli» è il classico [[standard|standard]] che ha richiesto un secolo di giurisprudenza per essere precisato.",
+      "daSapere": [
+        "*Bill of Rights*, 1791",
+        "Perquisizioni e sequestri «irragionevoli»; mandato con causa probabile",
+        "Regola di esclusione: *Weeks* (1914), *Mapp* (1961); *Katz* (1967)"
+      ],
+      "collegamenti": [
+        {
+          "da": "quarto-emendamento",
+          "a": "regole-di-esclusione",
+          "tipo": "causa",
+          "etichetta": "fonda una delle"
+        }
+      ]
+    },
+    {
+      "id": "un-caso-per-volta",
+      "oltre": "La formula riprende il titolo del libro di Cass Sunstein *One Case at a Time: Judicial Minimalism on the Supreme Court* (1999). Il **minimalismo giudiziale** chiede alle corti decisioni **strette** (che risolvono il caso senza stabilire regole per molti altri) e **superficiali** (che si basano su ragioni accettabili da persone con teorie diverse, senza prendere posizione sulle grandi questioni filosofiche). I vantaggi: meno errori su casi non ancora visti e più spazio al dibattito democratico.\n\nI critici osservano che il minimalismo lascia incertezza, moltiplica le liti e trasferisce potere alle corti future. La scelta, come dice Schauer, somiglia a quella tra [[regole-e-standard|regole e standard]] e non ha una risposta valida per ogni corte e ogni materia.",
+      "daSapere": [
+        "C. Sunstein, *One Case at a Time* (1999)",
+        "Minimalismo: decisioni strette e superficiali",
+        "Critica: incertezza e più liti"
+      ]
+    },
+    {
+      "id": "certezza-del-diritto",
+      "oltre": "La certezza del diritto è l'esigenza che i destinatari possano conoscere in anticipo le regole e prevedere le conseguenze delle proprie azioni. Ne derivano principi come l'irretroattività della legge (art. 11 preleggi; art. 25 Cost. per il penale), la pubblicazione delle leggi, la stabilità delle sentenze passate in giudicato. Un classico della letteratura italiana è *La certezza del diritto* di Flavio Lopez de Oñate (1942).\n\nLa certezza non è un valore assoluto: va bilanciata con la giustizia del caso e con l'adattamento del diritto ai mutamenti sociali. Il libro di [[frederick-schauer|Schauer]] ne fa uno dei valori «di lungo periodo» per cui il diritto accetta di sbagliare nel caso singolo ([[decisioni-subottimali|decisioni subottimali]]).",
+      "daSapere": [
+        "Prevedibilità delle conseguenze giuridiche",
+        "Irretroattività, pubblicazione, giudicato",
+        "F. Lopez de Oñate, *La certezza del diritto* (1942)"
+      ],
+      "collegamenti": [
+        {
+          "da": "certezza-del-diritto",
+          "a": "decisioni-subottimali",
+          "tipo": "causa",
+          "etichetta": "giustifica le"
+        }
+      ]
+    },
+    {
+      "id": "oltre-ogni-ragionevole-dubbio",
+      "oltre": "Negli Stati Uniti lo standard è richiesto dalla Costituzione: con *In re Winship* (1970) la Corte Suprema ha stabilito che la clausola del giusto processo impone di provare oltre ogni ragionevole dubbio ogni elemento del reato. Nel processo civile vale invece la «preponderanza della prova» (*more likely than not*).\n\nIn Italia la formula è entrata nel codice di procedura penale con la legge 20 febbraio 2006, n. 46: il giudice pronuncia sentenza di condanna «se l'imputato risulta colpevole del reato contestatogli al di là di ogni ragionevole dubbio» (art. 533, comma 1, c.p.p.). Nel processo civile la Cassazione applica il criterio del «più probabile che non». Il principio si collega alla presunzione di non colpevolezza (art. 27, comma 2, Cost.).",
+      "daSapere": [
+        "USA: *In re Winship* (1970)",
+        "Italia: art. 533, comma 1, c.p.p. (legge 46/2006)",
+        "Civile: «più probabile che non»",
+        "Presunzione di non colpevolezza: art. 27, comma 2, Cost."
+      ],
+      "collegamenti": [
+        {
+          "da": "oltre-ogni-ragionevole-dubbio",
+          "a": "presunzione",
+          "tipo": "collegato",
+          "etichetta": "presuppone la presunzione di non colpevolezza, una"
+        }
+      ]
+    },
+    {
+      "id": "onere-della-prova",
+      "oltre": "Nel diritto italiano la regola generale è l'art. 2697 c.c.: «chi vuol far valere un diritto in giudizio deve provare i fatti che ne costituiscono il fondamento»; chi eccepisce l'inefficacia, la modifica o l'estinzione del diritto deve provare i fatti su cui l'eccezione si fonda. L'onere della prova è anche una **regola di giudizio**: se alla fine il fatto resta incerto, il giudice decide contro la parte che aveva l'onere di provarlo.\n\nLa dottrina distingue l'onere in senso **soggettivo** (quale parte deve attivarsi) e **oggettivo** (chi sopporta il rischio del fatto non provato). È la stessa coppia che il common law chiama *burden of production* e *burden of persuasion*. Le [[presunzione|presunzioni]] e le regole sulla vicinanza della prova spostano l'onere sulla parte che ha più facile accesso alle informazioni.",
+      "daSapere": [
+        "Art. 2697 c.c.: fatti costitutivi ed eccezioni",
+        "Regola di giudizio sul fatto incerto",
+        "Onere soggettivo e oggettivo = *production* e *persuasion*"
+      ],
+      "collegamenti": [
+        {
+          "da": "onere-della-prova",
+          "a": "certezza-del-diritto",
+          "tipo": "causa",
+          "etichetta": "permette di decidere anche nell'incertezza, a garanzia della"
+        }
+      ]
+    },
+    {
+      "id": "presunzione",
+      "oltre": "Il codice civile italiano definisce le presunzioni come «le conseguenze che la legge o il giudice trae da un fatto noto per risalire a un fatto ignorato» (art. 2727 c.c.). Si distinguono:\n- presunzioni **legali**, stabilite dalla legge: **relative** (*iuris tantum*), che ammettono prova contraria e spostano l'onere della prova, e **assolute** (*iuris et de iure*), che non la ammettono (art. 2728 c.c.);\n- presunzioni **semplici**, lasciate al prudente apprezzamento del giudice, che deve ammetterle solo se «gravi, precise e concordanti» (art. 2729 c.c.).\n\nUn esempio di presunzione relativa è la presunzione di paternità del marito per il figlio nato nel matrimonio (art. 231 c.c.), equivalente moderno della presunzione di legittimità di cui parla Schauer.",
+      "daSapere": [
+        "Art. 2727 c.c.: dal fatto noto al fatto ignorato",
+        "Legali relative (*iuris tantum*) e assolute (*iuris et de iure*), art. 2728 c.c.",
+        "Semplici: gravi, precise e concordanti (art. 2729 c.c.)",
+        "Art. 231 c.c.: paternità del marito"
+      ],
+      "collegamenti": [
+        {
+          "da": "presunzione",
+          "a": "res-ipsa-loquitur",
+          "tipo": "collegato",
+          "etichetta": "ha come esempio celebre la"
+        }
+      ]
+    },
+    {
+      "id": "res-ipsa-loquitur",
+      "oltre": "La dottrina nasce in Inghilterra con il caso *Byrne v. Boadle* (1863): un barile di farina cadde da una finestra del magazzino del convenuto e colpì un passante. Il passante non poteva sapere come fosse accaduto, ma il giudice Pollock osservò che i barili non cadono dalle finestre senza negligenza di qualcuno: «la cosa parla da sola».\n\nPerché operi servono di solito tre condizioni: l'evento normalmente non accade senza negligenza; il mezzo che ha causato il danno era sotto il controllo esclusivo del convenuto; il danneggiato non vi ha contribuito. Il campo tipico di applicazione è la responsabilità medica. Nel diritto italiano non esiste una regola con questo nome, ma ragionamenti simili si fondano sulle [[presunzione|presunzioni]] semplici e sui criteri di distribuzione dell'[[onere-della-prova|onere della prova]].",
+      "daSapere": [
+        "*Byrne v. Boadle* (1863): il barile di farina",
+        "Tre condizioni: evento tipico di negligenza, controllo esclusivo, nessun concorso",
+        "Campo tipico: responsabilità medica"
+      ]
+    },
+    {
+      "id": "presunzione-assoluta",
+      "oltre": "Le presunzioni assolute (*iuris et de iure*) non ammettono prova contraria (art. 2728, comma 1, c.c.). Molti studiosi osservano che, più che presunzioni, sono **norme sostanziali** travestite: invece di dire «si presume che X», la legge potrebbe dire direttamente che a certe condizioni si applica una certa disciplina. È la stessa osservazione che fa [[frederick-schauer|Schauer]] quando le paragona a qualsiasi [[regola|regola]].\n\nLe presunzioni assolute sono sotto controllo costituzionale: la Corte costituzionale ha dichiarato illegittime diverse presunzioni assolute in materia penale (ad esempio quelle di adeguatezza della sola custodia in carcere per alcuni reati), perché impedivano al giudice di valutare il caso concreto quando la generalizzazione poteva rivelarsi falsa. È il problema della [[sovrainclusivita|sovrainclusività]] delle regole.",
+      "daSapere": [
+        "*Iuris et de iure*: nessuna prova contraria (art. 2728 c.c.)",
+        "Sono norme sostanziali travestite",
+        "Corte costituzionale: illegittime alcune presunzioni assolute in materia cautelare"
+      ],
+      "collegamenti": [
+        {
+          "da": "presunzione-assoluta",
+          "a": "sovrainclusivita",
+          "tipo": "collegato",
+          "etichetta": "ne condivide il rischio di"
+        }
+      ]
+    },
+    {
+      "id": "deferenza",
+      "oltre": "Nel diritto amministrativo americano la forma più nota di deferenza era la **dottrina Chevron**, dal caso *Chevron U.S.A. v. Natural Resources Defense Council* (1984): se una legge era ambigua, le corti dovevano accettare l'interpretazione ragionevole dell'agenzia amministrativa competente, anche se ne avrebbero preferita un'altra. Il 28 giugno 2024, con *Loper Bright Enterprises v. Raimondo*, la Corte Suprema ha superato Chevron: interpretare le leggi spetta ai giudici, che possono solo tenere conto dell'opinione delle agenzie.\n\nNel diritto europeo un'idea simile è il **margine di apprezzamento** riconosciuto agli Stati dalla Corte europea dei diritti dell'uomo, a partire da *Handyside c. Regno Unito* (1976): le autorità nazionali, più vicine alla realtà del paese, sono in principio meglio collocate per valutare certe esigenze.",
+      "daSapere": [
+        "*Chevron* (1984): deferenza alle agenzie",
+        "*Loper Bright* (28 giugno 2024): Chevron superata",
+        "CEDU: margine di apprezzamento, *Handyside* (1976)"
+      ],
+      "collegamenti": [
+        {
+          "da": "deferenza",
+          "a": "discrezionalita",
+          "tipo": "causa",
+          "etichetta": "lascia all'organo inferiore la"
+        }
+      ]
+    },
+    {
+      "id": "standard-di-revisione",
+      "oltre": "Nel processo americano gli standard di revisione indicano con quanta intensità il giudice superiore controlla la decisione inferiore. I principali sono tre: **de novo** per le questioni di diritto (il giudice d'appello decide da capo, senza deferenza); **clear error** (errore evidente) per gli accertamenti di fatto del giudice di primo grado; **abuse of discretion** (abuso di discrezionalità) per le decisioni discrezionali, come l'ammissione delle prove. Per gli atti amministrativi l'*Administrative Procedure Act* del 1946 prevede l'annullamento di quelli «arbitrari, capricciosi» o comunque illegittimi.\n\nNel processo italiano un ruolo simile hanno i limiti del ricorso per cassazione, che controlla le questioni di diritto e solo in modo molto ristretto la motivazione sui fatti (art. 360 c.p.c.).",
+      "daSapere": [
+        "*De novo* (diritto), *clear error* (fatti), *abuse of discretion* (scelte discrezionali)",
+        "*Administrative Procedure Act* (1946): atti «arbitrari, capricciosi»",
+        "Italia: limiti del ricorso per cassazione (art. 360 c.p.c.)"
+      ],
+      "collegamenti": [
+        {
+          "da": "standard-di-revisione",
+          "a": "questioni-di-fatto-e-di-diritto",
+          "tipo": "collegato",
+          "etichetta": "varia secondo le"
+        }
+      ]
+    },
+    {
+      "id": "giuria",
+      "oltre": "La giuria ha radici medievali inglesi; la Magna Carta (1215) garantiva il giudizio «dei pari». Negli Stati Uniti è un diritto costituzionale: il Sesto emendamento la garantisce nei processi penali, il Settimo nelle cause civili di common law. Nel processo penale americano la giuria è tradizionalmente composta da dodici cittadini e, per i reati gravi, il verdetto deve essere unanime; non è motivato.\n\nIn Italia la partecipazione popolare alla giustizia è prevista dall'art. 102 Cost. e si realizza nella **corte d'assise**, competente per i reati più gravi, composta da due giudici togati e sei giudici popolari che decidono insieme e la cui sentenza è motivata. Non esiste quindi la separazione netta tra giudici dei fatti e giudici del diritto tipica del common law.",
+      "daSapere": [
+        "Magna Carta (1215): giudizio dei pari",
+        "USA: Sesto e Settimo emendamento; verdetto non motivato",
+        "Italia: corte d'assise, 2 togati e 6 giudici popolari (art. 102 Cost.)"
+      ],
+      "collegamenti": [
+        {
+          "da": "giuria",
+          "a": "questioni-di-fatto-e-di-diritto",
+          "tipo": "collegato",
+          "etichetta": "decide tradizionalmente le"
+        }
+      ]
+    },
+    {
+      "id": "principio-del-contraddittorio",
+      "oltre": "Il contraddittorio è il principio per cui il giudice decide solo dopo aver sentito entrambe le parti (*audiatur et altera pars*). Nel processo **accusatorio**, tipico del common law, le prove sono raccolte e presentate dalle parti davanti a un giudice terzo, e il testimone è sottoposto all'**esame incrociato** (*cross-examination*); nel processo **inquisitorio** tradizionale il giudice stesso ricerca le prove.\n\nIn Italia il codice di procedura penale del 1988 ha adottato un modello tendenzialmente accusatorio, e la legge costituzionale 23 novembre 1999, n. 2 ha riscritto l'art. 111 Cost. sul **giusto processo**: ogni processo si svolge nel contraddittorio tra le parti, davanti a un giudice terzo e imparziale, e nel processo penale la prova si forma nel contraddittorio.",
+      "daSapere": [
+        "*Audiatur et altera pars*",
+        "Accusatorio e inquisitorio; esame incrociato",
+        "Italia: c.p.p. 1988; art. 111 Cost. riscritto nel 1999"
+      ],
+      "collegamenti": [
+        {
+          "da": "principio-del-contraddittorio",
+          "a": "giuria",
+          "tipo": "collegato",
+          "etichetta": "si svolge davanti alla"
+        }
+      ]
+    },
+    {
+      "id": "diritto-probatorio",
+      "oltre": "Negli Stati Uniti le regole sulle prove nei tribunali federali sono raccolte nelle *Federal Rules of Evidence*, in vigore dal 1975 e modello per molti Stati. Contengono, tra l'altro, la definizione e il divieto della testimonianza *de relato* (*hearsay*), con numerose eccezioni, e la regola della **migliore prova** (*best evidence rule*), che richiede l'originale di un documento.\n\nIl grande critico storico è [[jeremy-bentham|Bentham]], con il *Rationale of Judicial Evidence* (1827, curato da John Stuart Mill). Nel diritto italiano le regole sulle prove stanno nel codice civile (artt. 2697 e seguenti) e nei codici di procedura; la testimonianza indiretta è ammessa con limiti, e il giudice valuta le prove secondo il suo prudente apprezzamento.",
+      "daSapere": [
+        "*Federal Rules of Evidence* (1975)",
+        "*Hearsay* e *best evidence rule*",
+        "Bentham, *Rationale of Judicial Evidence* (1827)"
+      ],
+      "collegamenti": [
+        {
+          "da": "jeremy-bentham",
+          "a": "diritto-probatorio",
+          "tipo": "contrasta",
+          "etichetta": "critica il"
+        }
+      ]
+    },
+    {
+      "id": "prova-libera",
+      "oltre": "Il sistema della prova libera si contrappone storicamente a quello della **prova legale**, diffuso nel processo europeo di diritto comune, in cui la legge fissava in anticipo il valore di ciascuna prova (ad esempio quanti testimoni servivano per provare un fatto, e il valore pieno della confessione). Con l'Illuminismo e le codificazioni prevalse il principio del **libero convincimento** del giudice.\n\nNel diritto italiano vale come regola generale: il giudice valuta le prove «secondo il suo prudente apprezzamento, salvo che la legge disponga altrimenti» (art. 116 c.p.c.) e, nel penale, dà conto nella motivazione dei risultati acquisiti e dei criteri adottati (art. 192 c.p.p.). Restano prove legali, come la confessione e il giuramento nel processo civile. Libero convincimento non significa arbitrio: la valutazione deve essere motivata.",
+      "daSapere": [
+        "Contrapposta alla prova legale del diritto comune",
+        "Art. 116 c.p.c.: prudente apprezzamento",
+        "Art. 192 c.p.p.: obbligo di motivare la valutazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "prova-libera",
+          "a": "motivazione-della-sentenza",
+          "tipo": "collegato",
+          "etichetta": "richiede una"
+        }
+      ]
+    },
+    {
+      "id": "competenza-giurisdizionale",
+      "oltre": "Nel lessico processuale italiano si distingue la **giurisdizione** (il potere di decidere, che spetta ai giudici ordinari o speciali, come quelli amministrativi) dalla **competenza** (la ripartizione delle cause tra i giudici dello stesso tipo, per materia, valore e territorio). L'art. 25, comma 1, Cost. garantisce che nessuno possa essere distolto dal **giudice naturale precostituito per legge**: le regole sulla competenza servono anche a impedire che si scelga il giudice dopo il fatto.\n\nNel diritto americano si distinguono la *subject-matter jurisdiction* (competenza per materia, ad esempio delle corti federali) e la *personal jurisdiction* (sul convenuto), regolata dal criterio dei contatti minimi di *[[international-shoe|International Shoe]]* (1945). Per [[frederick-schauer|Schauer]] l'attenzione a «chi decide» è un tratto tipico del ragionamento giuridico.",
+      "daSapere": [
+        "Giurisdizione e competenza (materia, valore, territorio)",
+        "Art. 25 Cost.: giudice naturale precostituito per legge",
+        "USA: *subject-matter* e *personal jurisdiction*"
+      ],
+      "collegamenti": [
+        {
+          "da": "competenza-giurisdizionale",
+          "a": "parlamento",
+          "tipo": "collegato",
+          "etichetta": "è fissata dalla legge del"
+        }
+      ]
+    }
+  ]
+}

@@ -11,8 +11,10 @@
     {
       "id": "p003-b002",
       "pagina": 3,
-      "markdown": "La filosofia è scienza dell’universale, la politica del particolare. La prima è scienza della possibilità dei fenomeni, la seconda dei fenomeni solo possibili. La politica ha a che fare con la filosofia perché ne è n suo oggetto essendo la politica un momento necessario del processo giuridico. Non v’è diritto senza politica.",
-      "concetti": []
+      "markdown": "La filosofia è scienza dell’universale, la politica del particolare. La prima è scienza della possibilità dei fenomeni, la seconda dei fenomeni solo possibili. La politica ha a che fare con la filosofia perché ne è n suo oggetto essendo la politica un momento necessario del [[processo-giuridico|processo giuridico]]. Non v’è diritto senza politica.",
+      "concetti": [
+        "processo-giuridico"
+      ]
     },
     {
       "id": "p003-b003",
@@ -22,7 +24,8 @@
         "franz-kafka",
         "ordinamento-giuridico",
         "sistema-dinamico",
-        "repubblica-di-weimar"
+        "repubblica-di-weimar",
+        "processo-giuridico"
       ]
     },
     {

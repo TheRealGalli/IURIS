@@ -2,6 +2,7 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { blocchiDaPercorso, improntaMaterialePercorso } from './lib/lettura-percorso.mjs';
 
@@ -13,7 +14,7 @@ const report = await read('letture-src/estrazione-verifica.json');
 const plain = (s) => s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, id, label) => label || id.replace(/-/g, ' ')).replace(/^#{1,6}\s+/gm, '');
 const tokens = (s) => s.match(/[\p{L}\p{N}_]+/gu) ?? [];
 let pages = 0, blocks = 0, sections = 0, pilot = 0;
-let integrazioni = 0;
+let integrazioni = 0, soloTesto = 0;
 const lezioniCorso = new Map();
 for (const doc of docs) {
   if (doc.tipoFonte === 'manuale-ricostruito') {
@@ -45,6 +46,14 @@ for (const doc of docs) {
   const audit = report.documenti.find((d) => d.id === doc.id);
   assert(pdf && audit, 'una fonte dichiarata per ogni testo');
   assert.equal(doc.fonteSha256, pdf.sha256); assert.equal(doc.pagine, pdf.pagine);
+  if (pdf.testoFonte) {
+    // Documento solo testo: nessun PDF pubblicato, l'impronta è quella del testo ripulito in letture-src.
+    assert(!pdf.file, `${doc.id}: un documento solo testo non dichiara un PDF`);
+    const testo = await readFile(path.join(root, 'letture-src', pdf.testoFonte));
+    assert.equal(createHash('sha256').update(testo).digest('hex'), pdf.sha256, `${doc.id}: testo cambiato senza aggiornare il catalogo`);
+    assert(!/@|studocu|scaricato da|downloaded by/i.test(testo.toString('utf8')), `${doc.id}: nessun dato di chi ha scaricato il file`);
+    soloTesto++;
+  }
   assert.equal(audit.coperturaToken, true);
   const corso = await read(`public/content/${doc.materia}/corso.json`);
   const known = new Set(corso.concetti.map((c) => c.id));
@@ -98,8 +107,8 @@ for (const doc of docs) {
   assert.equal(seen.size, audit.blocchi);
   pages += doc.pagine;
 }
-assert.equal(docs.length, 9); assert.equal(pages, 1101); assert.equal(integrazioni, 12); assert(pilot >= 2);
-for (const materia of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg', 'diritto-costituzionale', 'diritto-privato']) {
+assert.equal(docs.length, 12); assert.equal(pages, 1500); assert.equal(soloTesto, 2); assert.equal(integrazioni, 12); assert(pilot >= 2);
+for (const materia of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg', 'diritto-costituzionale', 'diritto-privato', 'diritto-costituzionale-martines', 'filosofia-del-diritto-mz']) {
   const corso = await read(`public/content/${materia}/corso.json`);
   for (const l of corso.unita.flatMap((u) => u.lezioni)) assert(lezioniCorso.has(`${materia}:${l.id}`), `testo completo accessibile per ${materia}/${l.id}`);
 }
@@ -112,4 +121,4 @@ assert(p1.blocchi.find((b) => b.id === 'p001-b008').testoFonte.includes('non è'
 const p2 = await read('public/letture/filosofia-incampo-v1/u01-l2.json');
 assert(p2.blocchi.find((b) => b.id === 'p006-b001').markdown.includes('nullum crimen sine lege'));
 assert(p2.blocchi.find((b) => b.id === 'p005-b004').notaRevisione.includes('resta da verificare'));
-console.log(`Estrazione verificata: 8 PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);
+console.log(`Estrazione verificata: 9 PDF e ${soloTesto} testi senza PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);

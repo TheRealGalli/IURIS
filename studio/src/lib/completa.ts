@@ -11,7 +11,9 @@ export function rispostaCompletaGiusta(alternative: string[], scritta: string): 
   if (n >= 0) x = String(n);
   const avantiCristo = alternative.some((a) => /\d\s*a\.?\s*c\.?$/i.test(a.trim()));
   return alternative.some((a) => {
-    const y = pulisci(a);
+    let y = pulisci(a);
+    // soluzione scritta in lettere («cinque»): vale anche la cifra, come per la risposta
+    if (NUMERI.includes(y)) y = String(NUMERI.indexOf(y));
     return y === x || (/^\d+$/.test(y) && ((!avantiCristo && x === `${y}dc`) || NUMERI[Number(y)] === x));
   });
 }

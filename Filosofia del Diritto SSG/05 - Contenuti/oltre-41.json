@@ -1,194 +1,434 @@
 {
-  "voci": [],
-  "nuovi": [
+  "voci": [
     {
-      "id": "costruzionismo-sociale",
-      "nome": "Costruzionismo sociale",
-      "tipo": "concetto",
-      "breve": "La prospettiva che spiega oggetti e istituzioni sociali attraverso pratiche, linguaggio e riconoscimento condiviso.",
-      "definizione": "In [[john-searle|Searle]] la costruzione della [[realta-istituzionale|realtà istituzionale]] avviene mediante regole, linguaggio performativo e [[intenzionalita-collettiva|intenzionalità collettiva]]. Nella versione discussa a lezione la base materiale di X non limiterebbe da sola le funzioni assegnabili. Le obiezioni realiste e le [[affordance]] ricordano però che gli oggetti offrono vincoli e possibilità non interamente disponibili dalla convenzione."
+      "id": "fallacia-naturalistica",
+      "oltre": "L'espressione è di [[george-edward-moore|G. E. Moore]] (*Principia Ethica*, 1903): è l'errore di chi definisce «buono» con una proprietà naturale, come piacevole o utile. Nell'uso corrente indica più in generale il passaggio indebito dall'essere al dover essere, che è propriamente la [[legge-di-hume|legge di Hume]]. Le due tesi sono diverse (una riguarda le definizioni, l'altra le deduzioni), ma colpiscono lo stesso bersaglio.\n\nUn esempio: «l'uomo è per natura socievole, dunque deve vivere in società». La conclusione contiene un «deve» che nelle premesse non c'era: per essere valida serve una premessa prescrittiva nascosta («si deve seguire la natura»).\n\nLe risposte possibili sono tre: accettare la divisione e separare diritto e morale ([[kelsen|Kelsen]]); negarla, sostenendo che la natura umana contiene già dei fini; oppure cercare ponti particolari, come fa [[john-searle|Searle]] con la promessa, un fatto istituzionale da cui deriva un obbligo.",
+      "daSapere": [
+        "Nome: Moore, *Principia Ethica* (1903)",
+        "Contenuto corrente: non si deduce il dover essere dall'essere",
+        "Obiezione classica al giusnaturalismo",
+        "Searle: dall'«è» al «deve» attraverso la promessa"
+      ],
+      "collegamenti": [
+        {
+          "da": "fallacia-naturalistica",
+          "a": "giusnaturalismo",
+          "tipo": "contrasta",
+          "etichetta": "è l'obiezione logica al"
+        },
+        {
+          "da": "legge-di-hume",
+          "a": "fallacia-naturalistica",
+          "tipo": "collegato",
+          "etichetta": "è il principio logico alla base della"
+        }
+      ]
     },
     {
-      "id": "materialismo-dialettico",
-      "nome": "Materialismo dialettico",
-      "tipo": "concetto",
-      "breve": "La prospettiva marxiana che legge i rapporti sociali a partire dalle condizioni materiali e dalle loro contraddizioni storiche.",
-      "definizione": "Nel corso è richiamato a proposito del giovane [[karl-marx|Marx]] e del dibattito sul furto di legna. La qualificazione giuridica non può prescindere dal modo concreto in cui la materia si presenta e dai rapporti sociali che la circondano. Il riferimento serve a criticare un [[costruzionismo-sociale|costruzionismo]] che consideri indifferente la base materiale di X rispetto alla funzione giuridica assegnata."
+      "id": "formule-di-radbruch",
+      "oltre": "[[gustav-radbruch|Gustav Radbruch]] (1878–1949), ministro della giustizia nella Repubblica di Weimar e positivista, fu allontanato dalla cattedra nel 1933. Nel saggio del **1946** *Ingiustizia legale e diritto sovralegale* rivede le proprie posizioni: il positivismo, con il principio «la legge è la legge», avrebbe lasciato i giuristi tedeschi indifesi.\n\nLe formule sono due. **Intollerabilità**: la legge positiva prevale anche se ingiusta, per la certezza del diritto, salvo che il contrasto con la giustizia giunga a un grado intollerabile; allora cede. **Negazione**: dove l'eguaglianza, nucleo della giustizia, è negata di proposito, la legge non è nemmeno diritto.\n\nNon sono rimaste teoria: i tribunali tedeschi le hanno applicate dopo il 1945 e di nuovo negli anni Novanta, nei processi alle guardie di frontiera della Germania Est che sparavano a chi fuggiva oltre il Muro. Robert Alexy le sintetizza così: l'ingiustizia estrema non è diritto.",
+      "daSapere": [
+        "Saggio del 1946: *Ingiustizia legale e diritto sovralegale*",
+        "Formula dell'intollerabilità e formula della negazione",
+        "Applicate ai crimini nazisti e ai processi del Muro di Berlino",
+        "«L'ingiustizia estrema non è diritto»"
+      ],
+      "collegamenti": [
+        {
+          "da": "gustav-radbruch",
+          "a": "formule-di-radbruch",
+          "tipo": "crea",
+          "etichetta": "enuncia nel 1946 le"
+        },
+        {
+          "da": "formule-di-radbruch",
+          "a": "terzo-reich",
+          "tipo": "contrasta",
+          "etichetta": "negano il carattere di diritto alle leggi del"
+        }
+      ]
     },
     {
-      "id": "approccio-ecologico-alla-percezione",
-      "nome": "Approccio ecologico alla percezione",
-      "tipo": "concetto",
-      "breve": "La teoria di Gibson per cui percepire l'ambiente significa cogliere anche le possibilità d'azione che esso offre.",
-      "definizione": "[[james-gibson|James J. Gibson]] studia la percezione nel rapporto diretto fra organismo e ambiente, senza ridurla alla sola elaborazione interna di sensazioni. Le [[affordance]] sono le possibilità d'uso offerte dagli oggetti in relazione alle capacità di chi agisce. Nella critica a [[john-searle|Searle]] mostrano che la materia del fatto bruto orienta e limita le funzioni che possiamo attribuirle."
+      "id": "processo-di-norimberga",
+      "oltre": "Il Tribunale militare internazionale fu istituito dalle quattro potenze vincitrici con l'Accordo di Londra dell'8 agosto 1945. Il processo principale si tenne a Norimberga dal 20 novembre 1945 al 1° ottobre 1946, contro ventiquattro alti dirigenti nazisti: dodici furono condannati a morte, tre assolti.\n\nI capi d'accusa erano crimini contro la pace, crimini di guerra e, categoria nuova, **crimini contro l'umanità**. Le difese sollevarono due obiezioni: la «giustizia dei vincitori» e la violazione del principio *nullum crimen sine lege*, perché alcuni reati erano stati definiti dopo i fatti ([[irretroattivita|irretroattività]]). Il Tribunale rispose che quel principio è una regola di giustizia e che sarebbe ingiusto lasciare impuniti atti la cui criminalità era evidente a chi li compiva. Respinse anche la difesa dell'**obbedienza agli ordini** superiori.\n\nÈ l'origine del diritto penale internazionale, fino alla Corte penale internazionale (Statuto di Roma, 1998).",
+      "daSapere": [
+        "20 novembre 1945 – 1° ottobre 1946",
+        "Crimini contro la pace, di guerra, contro l'umanità",
+        "Obiezioni: irretroattività e giustizia dei vincitori",
+        "Niente scusa dell'ordine superiore"
+      ],
+      "collegamenti": [
+        {
+          "da": "processo-di-norimberga",
+          "a": "irretroattivita",
+          "tipo": "collegato",
+          "etichetta": "solleva il problema della"
+        },
+        {
+          "da": "processo-di-norimberga",
+          "a": "giuspositivismo",
+          "tipo": "contrasta",
+          "etichetta": "mette in crisi il"
+        }
+      ]
     },
     {
-      "id": "decostruzionismo",
-      "nome": "Decostruzionismo",
-      "tipo": "concetto",
-      "breve": "La strategia critica di Derrida che interroga opposizioni e presupposti stabilizzati nei testi e nelle istituzioni.",
-      "definizione": "[[jacques-derrida|Derrida]] analizza come un discorso ottenga apparente stabilità e quali elementi restino esclusi o rimossi. Nel confronto con [[john-searle|Searle]] il problema riguarda la persistenza dei fatti istituzionali: senza tracce e archivi, il riconoscimento collettivo non potrebbe conservarsi attraverso il tempo. La critica prepara la [[documentalita|documentalità]] di [[maurizio-ferraris|Ferraris]]."
+      "id": "realismo-giuridico",
+      "oltre": "Sotto questo nome stanno due correnti del primo Novecento, entrambe contrarie a vedere il diritto come sistema di norme da cui dedurre le decisioni.\n\nIl realismo **americano** nasce dal giudice Oliver W. Holmes: «le profezie su ciò che i tribunali faranno in concreto, e niente di più pretenzioso, sono ciò che intendo per diritto» (*The Path of the Law*, 1897). Karl Llewellyn e Jerome Frank ne traggono uno scetticismo sulle regole: i giudici decidono in base a fatti, valori e intuizioni, e poi motivano.\n\nIl realismo **scandinavo** (Axel Hägerström, Karl Olivecrona, [[alf-ross|Alf Ross]]) è più filosofico: concetti come «diritto soggettivo» o «validità» non corrispondono a nulla di osservabile e vanno ridotti a fatti psicologici e sociali. Ross (*Diritto e giustizia*, 1953) unisce i due aspetti: una norma è vigente se i giudici la sentono vincolante e perciò la applicheranno.",
+      "daSapere": [
+        "Americano: Holmes (1897), Llewellyn, Frank",
+        "Scandinavo: Hägerström, Olivecrona, Ross",
+        "Diritto = previsione delle decisioni dei giudici",
+        "Ross, *Diritto e giustizia* (1953)"
+      ],
+      "collegamenti": [
+        {
+          "da": "alf-ross",
+          "a": "realismo-giuridico",
+          "tipo": "esempio-di",
+          "etichetta": "è l'esponente scandinavo del"
+        },
+        {
+          "da": "realismo-giuridico",
+          "a": "normativismo",
+          "tipo": "contrasta",
+          "etichetta": "si oppone al"
+        }
+      ]
     },
     {
-      "id": "memoria-collettiva",
-      "nome": "Memoria collettiva",
-      "tipo": "concetto",
-      "breve": "La conservazione condivisa di atti e riconoscimenti sociali, resa durevole da documenti, archivi e pratiche comuni.",
-      "definizione": "Nel passaggio da [[jacques-derrida|Derrida]] a [[maurizio-ferraris|Ferraris]] spiega perché le istituzioni non possano dipendere soltanto dal ricordo attuale dei partecipanti. Un atto registrato resta richiamabile e permette la continuità di diritti e doveri. La [[documentalita|documentalità]] studia proprio questa forza delle tracce, senza confondere automaticamente conservazione, prova e validità."
+      "id": "normativismo",
+      "oltre": "È la concezione per cui il diritto è essenzialmente un insieme di **norme** e la scienza giuridica ha il compito di descriverle, non di spiegare fatti né di valutare. Il suo massimo esponente è [[kelsen|Kelsen]] con la [[dottrina-pura-del-diritto|dottrina pura]] (prima edizione 1934, seconda 1960): «pura» perché esclude dalla conoscenza del diritto sociologia, psicologia, politica e morale.\n\nSi distingue da tre concezioni rivali. L'**istituzionalismo** (Santi Romano, *L'ordinamento giuridico*, 1918): il diritto è prima di tutto organizzazione sociale, e le norme ne sono un prodotto. Il [[decisionismo]] di [[carl-schmitt|Schmitt]]: alla base dell'ordine sta una decisione. Il [[realismo-giuridico|realismo]]: il diritto è ciò che i giudici fanno.\n\nIn Italia il normativismo è stato difeso e rielaborato soprattutto da [[norberto-bobbio|Bobbio]], che ne ha valorizzato il rigore analitico.",
+      "daSapere": [
+        "Diritto = sistema di norme",
+        "Kelsen, *Dottrina pura del diritto* (1934; 1960)",
+        "Rivali: istituzionalismo (Santi Romano), decisionismo (Schmitt), realismo (Ross)"
+      ],
+      "collegamenti": [
+        {
+          "da": "kelsen",
+          "a": "normativismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il massimo esponente del"
+        },
+        {
+          "da": "normativismo",
+          "a": "decisionismo",
+          "tipo": "contrasta",
+          "etichetta": "si oppone al"
+        }
+      ]
     },
     {
-      "id": "communitas",
-      "nome": "Communitas",
-      "tipo": "concetto",
-      "breve": "La comunità dei partecipanti che, nel modello di Searle, costruisce e riconosce insieme la realtà istituzionale.",
-      "definizione": "Il termine latino evidenzia il carattere collettivo dell'osservante di [[john-searle|Searle]]. Le regole non sono seguite soltanto perché imposte dall'alto: i soggetti partecipano alla loro costruzione mediante [[intenzionalita-collettiva|intenzionalità collettiva]] e [[regola-costitutiva|regole costitutive]]. Nel corso questa dimensione dal basso avvicina il modello searleano alla [[governance]]."
+      "id": "interpretazione-giuridica",
+      "oltre": "Interpretare significa attribuire un significato a un testo normativo. La teoria distingue la **disposizione**, cioè l'enunciato scritto, dalla **norma**, cioè il significato che se ne ricava: da una disposizione si possono trarre più norme.\n\nI criteri tradizionali risalgono a Savigny: letterale, logico-sistematico, storico, e poi teleologico (lo scopo). In Italia li fissa l'[[articolo-12-preleggi|art. 12 delle preleggi]]: senso «fatto palese dal significato proprio delle parole secondo la connessione di esse, e dalla intenzione del legislatore»; in mancanza, analogia e principi generali. Oggi si aggiunge l'interpretazione conforme a Costituzione.\n\nSecondo il risultato, l'interpretazione è dichiarativa, estensiva o restrittiva; secondo l'autore, autentica (del legislatore), giudiziale o dottrinale.\n\nSulla sua natura si scontrano formalisti (c'è un solo significato corretto da scoprire), scettici (interpretare è decidere) e posizioni intermedie come quella di [[herbert-hart|Hart]]: casi chiari al centro, discrezionalità nella zona di penombra.",
+      "daSapere": [
+        "Disposizione (testo) ≠ norma (significato)",
+        "Criteri: letterale, sistematico, storico, teleologico (Savigny)",
+        "Art. 12 preleggi",
+        "Hart: nucleo certo e zona di penombra"
+      ],
+      "collegamenti": [
+        {
+          "da": "articolo-12-preleggi",
+          "a": "interpretazione-giuridica",
+          "tipo": "collegato",
+          "etichetta": "fissa i criteri dell'"
+        },
+        {
+          "da": "herbert-hart",
+          "a": "interpretazione-giuridica",
+          "tipo": "interpreta",
+          "etichetta": "distingue nucleo certo e penombra nell'"
+        }
+      ]
     },
     {
-      "id": "bottom-up",
-      "nome": "Bottom-up",
-      "tipo": "concetto",
-      "breve": "Un processo di costruzione dell'ordine che parte dalla partecipazione diffusa invece che da una gerarchia verticale.",
-      "definizione": "L'espressione significa «dal basso verso l'alto». Si oppone al modello *top-down* della piramide e descrive la produzione di regole attraverso interazioni e riconoscimenti dei partecipanti. Nelle lezioni collega la [[communitas]] di [[john-searle|Searle]] alla [[governance]], ma non garantisce da sola parità effettiva: anche una rete può contenere nodi nascosti e rapporti di forza."
+      "id": "contrattualismo",
+      "oltre": "È la famiglia di teorie che fonda l'autorità politica su un accordo tra individui liberi ed eguali. Lo schema ha tre momenti: **stato di natura**, **patto**, **società civile**. Non è una ricostruzione storica: è un esperimento mentale per stabilire a quali condizioni un potere è legittimo.\n\nI tre classici divergono su tutto. [[thomas-hobbes|Hobbes]] (*Leviatano*, 1651): lo stato di natura è guerra di tutti contro tutti; gli individui cedono ogni diritto, salvo la vita, a un sovrano assoluto. [[john-locke|Locke]] (1690): i diritti naturali preesistono e il governo è un mandato limitato e revocabile. [[jean-jacques-rousseau|Rousseau]] (1762): ciascuno si dà a tutti e la volontà generale è sovrana.\n\n[[kant|Kant]] fa del contratto un'idea della ragione: la pietra di paragone di ogni legge è se un popolo avrebbe potuto darsela. Nel Novecento John Rawls (*Una teoria della giustizia*, 1971) lo riprende con la «posizione originaria» e il «velo di ignoranza».",
+      "daSapere": [
+        "Stato di natura → patto → società civile",
+        "Hobbes: sovrano assoluto; Locke: governo limitato; Rousseau: volontà generale",
+        "Kant: il contratto come idea della ragione",
+        "Rawls (1971): velo di ignoranza"
+      ],
+      "collegamenti": [
+        {
+          "da": "thomas-hobbes",
+          "a": "contrattualismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il teorico assolutista del"
+        },
+        {
+          "da": "kant",
+          "a": "contrattualismo",
+          "tipo": "interpreta",
+          "etichetta": "riduce a idea della ragione il patto del"
+        }
+      ]
     },
     {
-      "id": "teorie-non-oggettualiste",
-      "nome": "Teorie non oggettualiste",
-      "tipo": "concetto",
-      "breve": "Le teorie che comprendono il diritto come processo e pratica a cui si partecipa, non soltanto come oggetto esterno.",
-      "definizione": "Si oppongono alle [[teorie-oggettualiste|teorie oggettualiste]] perché ricostruiscono il diritto dal punto di vista dei soggetti che lo usano e lo interpretano. [[peter-winch|Winch]], [[herbert-hart|Hart]] e [[john-searle|Searle]] offrono nel corso diverse versioni di questa prospettiva. Non negano l'esistenza di norme e istituzioni, ma negano che siano pienamente conoscibili ignorandone la dimensione partecipativa."
+      "id": "postmoderno",
+      "oltre": "Il termine nasce nella critica letteraria e in architettura (Charles Jencks, 1977), dove indica il rifiuto del funzionalismo e il gusto per la citazione e la mescolanza degli stili. In filosofia lo impone [[jean-francois-lyotard|Lyotard]] nel 1979. In Italia Gianni Vattimo parla di «pensiero debole»; Jean Baudrillard descrive un mondo di simulacri; Zygmunt Bauman preferisce l'immagine della «modernità liquida».\n\nI tratti comuni: sfiducia nelle fondazioni ultime e nell'idea di progresso; pluralità dei punti di vista; attenzione al linguaggio e alle immagini; fine dei confini netti tra cultura alta e popolare.\n\nNel diritto il postmoderno designa insieme un fatto e un metodo. Il fatto: pluralità delle fonti, diritto sovranazionale, *soft law*, contratti e arbitrati al posto della legge. Il metodo: i movimenti che studiano il diritto con strumenti di altre discipline. Paolo Grossi, storico del diritto, ha parlato di «pos-moderno giuridico» per il tramonto del monopolio statale della legge.",
+      "daSapere": [
+        "Lyotard, 1979: fine delle metanarrazioni",
+        "Vattimo: pensiero debole; Bauman: modernità liquida",
+        "Diritto: pluralità delle fonti, soft law, crisi della legge statale"
+      ],
+      "collegamenti": [
+        {
+          "da": "postmoderno",
+          "a": "critical-legal-studies",
+          "tipo": "influenza",
+          "etichetta": "ispira i"
+        },
+        {
+          "da": "postmoderno",
+          "a": "law-and-literature",
+          "tipo": "influenza",
+          "etichetta": "favorisce il movimento"
+        }
+      ]
     },
     {
-      "id": "lotta-per-il-riconoscimento",
-      "nome": "Lotta per il riconoscimento",
-      "tipo": "concetto",
-      "breve": "La prospettiva di Honneth che collega identità, rapporti sociali e conflitti alla richiesta di riconoscimento reciproco.",
-      "definizione": "[[axel-honneth|Axel Honneth]] interpreta molti conflitti sociali come richieste di rispetto, stima e considerazione, non soltanto come contese su risorse materiali. Nel corso la teoria aiuta a comprendere i diritti delle minoranze e dei migranti dentro una [[sovranita-limitata|sovranità limitata]]. Il riconoscimento riguarda qui lo status sociale e giuridico delle persone, distinto dalla [[norme-di-riconoscimento|regola di riconoscimento]] di Hart."
+      "id": "utilitarismo",
+      "oltre": "È la dottrina morale per cui la bontà di un'azione, di una regola o di un'istituzione dipende solo dalle sue **conseguenze** sul benessere di tutti gli interessati, ciascuno contando per uno. La fonda [[jeremy-bentham|Bentham]] (1789); John Stuart Mill (*Utilitarismo*, 1861) distingue piaceri superiori e inferiori.\n\nL'idea era già in Cesare Beccaria (*Dei delitti e delle pene*, 1764), che parla della «massima felicità divisa nel maggior numero»: la pena non deve vendicare ma **prevenire**, perciò deve essere certa, pronta e proporzionata, non crudele. È la base delle teorie della pena come deterrenza, opposte al retribuzionismo di [[kant|Kant]], per cui si punisce perché il colpevole lo merita.\n\nL'obiezione classica: sommando il benessere, l'utilitarismo può giustificare il sacrificio di un innocente o di una minoranza a vantaggio dei più. Contro questo esito John Rawls ha ripreso il contratto sociale e i diritti.",
+      "daSapere": [
+        "Bentham (1789), J. S. Mill (1861)",
+        "Conta il benessere complessivo: «ciascuno conta per uno»",
+        "Beccaria (1764): pena utile, certa, proporzionata",
+        "Obiezione: sacrificio dei diritti dei singoli"
+      ],
+      "collegamenti": [
+        {
+          "da": "utilitarismo",
+          "a": "panopticon",
+          "tipo": "collegato",
+          "etichetta": "ispira il progetto del"
+        },
+        {
+          "da": "utilitarismo",
+          "a": "kant",
+          "tipo": "contrasta",
+          "etichetta": "si oppone alla morale del dovere di"
+        }
+      ]
     },
     {
-      "id": "ordine-spontaneo",
-      "nome": "Ordine spontaneo",
-      "tipo": "concetto",
-      "breve": "L'ordine che secondo Hayek emerge da interazioni decentralizzate senza essere interamente progettato da un'unica autorità.",
-      "definizione": "[[friedrich-von-hayek|Hayek]] distingue gli ordini formatisi mediante regole generali e adattamenti distribuiti dalle organizzazioni dirette verso un piano unitario. Nel corso è una matrice del [[neoliberismo]] e della fiducia nell'autoregolazione dei mercati. Non significa assenza di ogni regola: pone piuttosto limiti alla pretesa di conoscere e dirigere centralmente tutte le informazioni disperse nella società."
+      "id": "leviatano",
+      "oltre": "Il *Leviatano* di [[thomas-hobbes|Hobbes]] esce a Londra nel 1651, alla fine delle guerre civili inglesi. Il titolo viene dal mostro marino del libro di Giobbe, di cui si dice che «non c'è potere sulla terra che gli sia pari».\n\nL'argomento: nello stato di natura gli uomini sono eguali nella capacità di nuocersi; ne segue la guerra di tutti contro tutti, in cui la vita è «solitaria, povera, sgradevole, brutale e breve». La ragione suggerisce di cercare la pace: ciascuno rinuncia al proprio diritto su tutto, a patto che lo facciano gli altri, e autorizza un sovrano. Il sovrano non è parte del patto e non può violarlo; la legge è il suo comando: *auctoritas, non veritas facit legem*.\n\nIl **frontespizio** inciso da Abraham Bosse mostra un gigante coronato, con spada e pastorale, il cui corpo è composto da centinaia di piccoli uomini rivolti verso il suo volto, sopra una città ordinata.",
+      "daSapere": [
+        "1651; il nome viene dal libro di Giobbe",
+        "Stato di natura: guerra di tutti contro tutti",
+        "*Auctoritas, non veritas facit legem*",
+        "Frontespizio di Abraham Bosse: il corpo del sovrano fatto di sudditi"
+      ],
+      "collegamenti": [
+        {
+          "da": "thomas-hobbes",
+          "a": "leviatano",
+          "tipo": "crea",
+          "etichetta": "scrive nel 1651 il"
+        },
+        {
+          "da": "leviatano",
+          "a": "spettatore-acclamante",
+          "tipo": "collegato",
+          "etichetta": "mostra nel frontespizio i sudditi come"
+        }
+      ]
     },
     {
-      "id": "anarco-capitalismo",
-      "nome": "Anarco-capitalismo",
-      "tipo": "concetto",
-      "breve": "La posizione che estende il mercato alla produzione di sicurezza e diritto, riducendo fino a eliminare il monopolio statale.",
-      "definizione": "È una forma radicale di liberalismo libertario, non un semplice sinonimo del [[neoliberismo]]. I suoi sostenitori immaginano servizi di protezione e risoluzione delle controversie offerti in competizione sul mercato. Nelle lezioni è citato come estremizzazione dell'[[ordine-spontaneo|ordine spontaneo]] e va distinto sia dal [[liberalismo-classico|liberalismo classico]] sia dall'anarchismo di tradizione socialista."
+      "id": "neoliberismo",
+      "oltre": "Con questo nome si indica l'indirizzo economico-politico affermatosi dalla fine degli anni Settanta: privatizzazioni, deregolazione dei mercati, riduzione della spesa pubblica e delle imposte, liberalizzazione dei movimenti di capitali. I riferimenti teorici sono [[friedrich-von-hayek|Hayek]] e Milton Friedman (scuola di Chicago); quelli politici i governi di Margaret Thatcher (dal 1979) e Ronald Reagan (dal 1981).\n\nÈ diverso dal liberismo ottocentesco del *laissez-faire*. Come ha mostrato [[michel-foucault|Foucault]] nel corso *Nascita della biopolitica* (1978–1979), per i neoliberali il mercato non è un fatto naturale da lasciare in pace: è un ordine da **costruire** e proteggere con regole, e la concorrenza diventa il modello per ogni ambito, compresi Stato e individuo («imprenditore di se stesso»). L'ordoliberalismo tedesco è la versione che più insiste sul quadro giuridico.\n\nPer il diritto significa passare dalla legge che comanda alla regolazione, alle autorità indipendenti, agli standard.",
+      "daSapere": [
+        "Dagli anni Settanta: privatizzazioni, deregolazione",
+        "Hayek, Friedman; Thatcher (1979), Reagan (1981)",
+        "Foucault, *Nascita della biopolitica*: mercato da costruire",
+        "Dalla legge alla regolazione"
+      ],
+      "collegamenti": [
+        {
+          "da": "neoliberismo",
+          "a": "governance",
+          "tipo": "influenza",
+          "etichetta": "favorisce il modello della"
+        },
+        {
+          "da": "michel-foucault",
+          "a": "neoliberismo",
+          "tipo": "interpreta",
+          "etichetta": "analizza come arte di governo il"
+        }
+      ]
     },
     {
-      "id": "liberalismo-classico",
-      "nome": "Liberalismo classico",
-      "tipo": "concetto",
-      "breve": "La tradizione che collega libertà individuale, limitazione del potere, proprietà e garanzie giuridiche.",
-      "definizione": "Non coincide con la massima deregolazione: la libertà richiede un quadro di regole e istituzioni che limitino anche il potere pubblico. Nel corso serve a evitare la confusione con il [[neoliberismo]], che enfatizza l'autoregolazione economica e la rinuncia dello Stato a interventi di pianificazione. [[friedrich-von-hayek|Hayek]] è una figura di raccordo, ma le sue posizioni non esauriscono l'intera tradizione liberale."
+      "id": "paradosso-del-mentitore",
+      "oltre": "È il più antico paradosso logico: lo si attribuisce a Eubulide di Mileto (IV secolo a.C.). Nella forma più semplice: «questa frase è falsa». Se è vera, allora è falsa; se è falsa, allora è vera. La versione di Epimenide («tutti i cretesi mentono», detto da un cretese) è meno rigorosa, perché può essere semplicemente falsa.\n\nLa causa è l'**autoriferimento**: una frase che parla di se stessa attribuendosi un valore di verità. Le soluzioni moderne lo vietano distinguendo livelli. [[bertrand-russell|Russell]] con la teoria dei tipi; Alfred Tarski (1933) con la distinzione tra **linguaggio oggetto** e **metalinguaggio**: «vero» e «falso» si possono predicare solo da un linguaggio di livello superiore.\n\nIn diritto il problema torna con le norme che parlano di se stesse, come quelle sulla revisione costituzionale: [[alf-ross|Ross]] si chiese se la norma sulla revisione possa essere usata per modificare se stessa.",
+      "daSapere": [
+        "«Questa frase è falsa»: Eubulide, IV secolo a.C.",
+        "Causa: autoriferimento",
+        "Russell: tipi logici; Tarski: linguaggio oggetto e metalinguaggio",
+        "Ross: l'autoriferimento delle norme di revisione"
+      ],
+      "collegamenti": [
+        {
+          "da": "paradosso-del-mentitore",
+          "a": "teoria-dei-tipi-logici",
+          "tipo": "collegato",
+          "etichetta": "è risolto dalla"
+        },
+        {
+          "da": "paradosso-del-mentitore",
+          "a": "norme-di-revisione-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "si ripresenta, per Ross, nelle"
+        }
+      ]
     },
     {
-      "id": "decodificazione",
-      "nome": "Decodificazione",
-      "tipo": "concetto",
-      "breve": "Il processo descritto da Irti per cui materie un tempo unite nel codice vengono trasferite in leggi speciali.",
-      "definizione": "[[natalino-irti|Natalino Irti]] osserva lo spostamento di settori importanti, soprattutto economici, fuori dal codice civile e verso discipline speciali. Il fenomeno indebolisce la pretesa del codice di offrire un sistema unitario e generalmente accessibile. Nelle lezioni diventa un segno interno della crisi dell'[[ordinamento-giuridico|ordinamento]], accanto alle pressioni esterne della [[globalizzazione]]."
+      "id": "teoria-dei-tipi-logici",
+      "oltre": "[[bertrand-russell|Russell]] la propone nel 1908 e la sviluppa nei *Principia Mathematica*. L'idea è ordinare gli oggetti in una gerarchia: al livello zero gli individui, al primo le classi di individui, al secondo le classi di classi, e così via. Una classe può avere come membri solo oggetti del livello immediatamente inferiore: dire che una classe appartiene o non appartiene a se stessa non è falso, è **privo di senso**. Cade così il paradosso dell'insieme di tutti gli insiemi che non contengono se stessi.\n\nLo stesso principio, applicato al linguaggio, distingue un discorso dal discorso su quel discorso (metalinguaggio).\n\nL'applicazione al diritto è intuitiva: la norma che conferisce validità a un insieme di norme sta a un livello superiore rispetto a esse. Lo [[stufenbau|Stufenbau]] è una gerarchia di tipi, e al vertice occorre qualcosa che non sia una norma posta come le altre: la [[grundnorm|norma fondamentale]].",
+      "daSapere": [
+        "Russell, 1908; *Principia Mathematica* (1910–1913)",
+        "Gerarchia di livelli: individui, classi, classi di classi",
+        "Una classe non può essere membro di se stessa",
+        "Analogia con la costruzione a gradi di Kelsen"
+      ],
+      "collegamenti": [
+        {
+          "da": "teoria-dei-tipi-logici",
+          "a": "stufenbau",
+          "tipo": "collegato",
+          "etichetta": "offre il modello logico dello"
+        },
+        {
+          "da": "teoria-dei-tipi-logici",
+          "a": "grundnorm",
+          "tipo": "collegato",
+          "etichetta": "giustifica il livello a sé della"
+        }
+      ]
     },
     {
-      "id": "l-eta-della-decodificazione",
-      "nome": "L'età della decodificazione",
-      "tipo": "opera",
-      "breve": "Il saggio di Natalino Irti che interpreta la crisi del codice attraverso la proliferazione delle leggi speciali.",
-      "definizione": "Pubblicato nel 1979, il testo di [[natalino-irti|Irti]] dà il nome alla [[decodificazione]] come trasformazione dell'ordine legislativo. La perdita di centralità del codice non è soltanto quantitativa: modifica il modo di rappresentare l'unità e la sistematicità del diritto. Il corso vi collega l'immagine del barocco giuridico."
+      "id": "decisionismo",
+      "oltre": "[[carl-schmitt|Carl Schmitt]] (1888–1985) apre *Teologia politica* (1922) con la frase: «Sovrano è chi decide sullo stato di eccezione». L'eccezione è il caso che nessuna norma può prevedere: lì si vede che l'ordine giuridico riposa su una decisione, perché una norma presuppone una situazione normale e qualcuno deve stabilire se essa esiste. «L'eccezione è più interessante del caso normale».\n\nIl dibattito con [[kelsen|Kelsen]] culmina nel 1931 sulla domanda «chi è il custode della costituzione?»: per Schmitt il capo dello Stato eletto dal popolo, per Kelsen una corte costituzionale. Schmitt aderì al nazismo nel 1933 e lo giustificò giuridicamente: la sua opera va letta sapendolo.\n\nL'espressione «stato di eccezione» è stata ripresa da Giorgio Agamben (2003) per descrivere l'uso permanente di poteri d'emergenza nelle democrazie. In diritto positivo corrispondono figure come i decreti d'urgenza e gli stati d'emergenza.",
+      "daSapere": [
+        "*Teologia politica* (1922): «Sovrano è chi decide sullo stato di eccezione»",
+        "1931: disputa con Kelsen sul custode della costituzione",
+        "Schmitt aderisce al nazismo nel 1933",
+        "Agamben, *Stato di eccezione* (2003)"
+      ],
+      "collegamenti": [
+        {
+          "da": "carl-schmitt",
+          "a": "decisionismo",
+          "tipo": "crea",
+          "etichetta": "fonda il"
+        },
+        {
+          "da": "decisionismo",
+          "a": "teologia-politica",
+          "tipo": "parte-di",
+          "etichetta": "è esposto nella"
+        }
+      ]
     },
     {
-      "id": "post-fordismo",
-      "nome": "Post-fordismo",
-      "tipo": "periodo",
-      "breve": "La trasformazione successiva al modello fordista, segnata da produzione flessibile, reti e dislocazione transnazionale.",
-      "definizione": "Rispetto al [[fordismo]] la grande fabbrica verticalmente organizzata perde centralità, mentre le attività si distribuiscono fra imprese e territori diversi. La [[globalizzazione]] sposta l'attenzione dai soli costi di produzione ai [[costi-di-transazione|costi di transazione]] e al coordinamento delle reti. Nel corso questo modello economico fornisce immagini e categorie alla [[governance]] giuridica."
+      "id": "repubblica-di-weimar",
+      "oltre": "Dopo la sconfitta del 1918 e l'abdicazione dell'imperatore, un'assemblea riunita a Weimar approvò nell'agosto **1919** la nuova costituzione. Era tra le più avanzate del tempo: suffragio universale maschile e femminile, diritti sociali accanto a quelli di libertà, sistema proporzionale.\n\nIl punto debole fu l'**art. 48**: in caso di grave turbamento dell'ordine pubblico il presidente del Reich poteva adottare misure d'emergenza e sospendere diritti fondamentali. Dal 1930, senza maggioranze in parlamento, i governi vissero di decreti presidenziali. Crisi economica, inflazione del 1923 e disoccupazione dopo il 1929 fecero il resto.\n\nIl 30 gennaio **1933** il presidente Hindenburg nominò Hitler cancelliere; dopo l'incendio del Reichstag un decreto sospese le libertà, e il 23 marzo la legge dei pieni poteri consentì al governo di legiferare senza parlamento. La costituzione non fu mai formalmente abrogata. La Legge fondamentale tedesca del 1949 fu scritta pensando a questi errori.",
+      "daSapere": [
+        "1919–1933; costituzione dell'agosto 1919",
+        "Art. 48: poteri d'emergenza del presidente",
+        "30 gennaio 1933: Hitler cancelliere; 23 marzo: legge dei pieni poteri",
+        "La costituzione non fu mai formalmente abrogata"
+      ],
+      "collegamenti": [
+        {
+          "da": "repubblica-di-weimar",
+          "a": "terzo-reich",
+          "tipo": "evolve-in",
+          "etichetta": "cede legalmente il passo al"
+        },
+        {
+          "da": "gustav-radbruch",
+          "a": "repubblica-di-weimar",
+          "tipo": "collegato",
+          "etichetta": "è ministro della giustizia nella"
+        }
+      ]
     },
     {
-      "id": "costi-di-transazione",
-      "nome": "Costi di transazione",
-      "tipo": "concetto",
-      "breve": "I costi di cercare informazioni, negoziare, concludere e far rispettare gli accordi, oltre al costo materiale di produzione.",
-      "definizione": "Nell'analisi economica associata a [[oliver-williamson|Williamson]] aiutano a spiegare perché alcuni rapporti siano organizzati nel mercato e altri dentro un'impresa o in forme intermedie. Comprendono le difficoltà di coordinamento, controllo e adattamento degli impegni. Nel corso segnano il passaggio dal [[fordismo]] al [[post-fordismo]] e offrono un'origine economica al concetto di [[governance]]."
+      "id": "critical-legal-studies",
+      "oltre": "Il movimento nasce negli Stati Uniti con un convegno all'Università del Wisconsin nel 1977; i nomi principali sono Duncan Kennedy, Roberto Mangabeira Unger, Mark Tushnet, Morton Horwitz, con centro alla Harvard Law School.\n\nEredita dal realismo americano la tesi dell'**indeterminatezza**: regole e precedenti non bastano a decidere i casi, perché ogni regola ha eccezioni e principi opposti a cui appellarsi. Aggiunge una critica politica, di ispirazione marxista e poi decostruzionista: «il diritto è politica» (*law is politics*). Il ragionamento giuridico presenta come neutrali e necessarie scelte che favoriscono assetti di potere esistenti; compito dello studioso è smontare questa apparenza.\n\nDal movimento derivano la *Critical Race Theory* e buona parte del femminismo giuridico americano. L'obiezione più comune: se tutto è politica, non resta un criterio per distinguere una buona decisione giuridica da una cattiva.",
+      "daSapere": [
+        "Stati Uniti, dal 1977; Kennedy, Unger, Tushnet",
+        "Indeterminatezza del diritto",
+        "*Law is politics*",
+        "Da qui: Critical Race Theory, femminismo giuridico"
+      ],
+      "collegamenti": [
+        {
+          "da": "critical-legal-studies",
+          "a": "femminismo-giuridico",
+          "tipo": "influenza",
+          "etichetta": "aprono la strada al"
+        },
+        {
+          "da": "realismo-giuridico",
+          "a": "critical-legal-studies",
+          "tipo": "influenza",
+          "etichetta": "trasmette lo scetticismo sulle regole ai"
+        }
+      ]
     },
     {
-      "id": "governance-europea",
-      "nome": "Governance europea",
-      "tipo": "concetto",
-      "breve": "Il coordinamento fra istituzioni dell'Unione, Stati, agenzie e altri soggetti attraverso livelli e strumenti differenti.",
-      "definizione": "L'espressione descrive un governo multilivello che non coincide con una semplice piramide statale. Nel corso l'[[unione-europea|Unione Europea]] esemplifica una rete nella quale istituzioni sovranazionali, Stati membri, corti e agenzie partecipano alla produzione e applicazione delle regole. La metafora della [[governance]] aiuta a descrivere il coordinamento, ma non sostituisce l'analisi delle competenze e delle fonti giuridiche."
+      "id": "law-and-literature",
+      "oltre": "Un precursore è il giurista americano John H. Wigmore, che nel 1908 pubblicò un elenco di «romanzi giuridici» utili alla formazione dell'avvocato; il giudice Benjamin Cardozo scrisse nel 1925 *Law and Literature*. Il movimento vero e proprio comincia con *The Legal Imagination* di [[james-boyd-white|James Boyd White]] (1973).\n\nSi distinguono due indirizzi. **Diritto nella letteratura**: come romanzi e drammi rappresentano giudici, processi, leggi (da [[sofocle|Sofocle]] a [[william-shakespeare|Shakespeare]], Dostoevskij, [[franz-kafka|Kafka]], Dürrenmatt). **Diritto come letteratura**: leggi, sentenze e arringhe sono testi, e si possono studiare con gli strumenti della critica: retorica, narrazione, interpretazione. Ronald Dworkin ha paragonato i giudici agli autori di un «romanzo a catena».\n\nIl giudice Richard Posner (*Law and Literature*, 1988) ne ha criticato le pretese. Martha Nussbaum (*Giustizia poetica*, 1995) sostiene invece che leggere romanzi educa il giudice a immaginare le vite altrui.",
+      "daSapere": [
+        "Wigmore (1908), Cardozo (1925); White, *The Legal Imagination* (1973)",
+        "Diritto *nella* letteratura e diritto *come* letteratura",
+        "Dworkin: il romanzo a catena",
+        "Nussbaum, *Giustizia poetica* (1995)"
+      ],
+      "collegamenti": [
+        {
+          "da": "james-boyd-white",
+          "a": "law-and-literature",
+          "tipo": "crea",
+          "etichetta": "avvia il movimento"
+        },
+        {
+          "da": "law-and-literature",
+          "a": "law-and-film",
+          "tipo": "evolve-in",
+          "etichetta": "si estende alle immagini con"
+        }
+      ]
     },
     {
-      "id": "felix-guattari",
-      "nome": "Félix Guattari",
-      "tipo": "persona",
-      "breve": "Psicoanalista e filosofo francese, coautore con Gilles Deleuze di Mille piani e della teoria del rizoma.",
-      "definizione": "Con [[gilles-deleuze|Gilles Deleuze]] elabora una riflessione su desiderio, capitalismo e organizzazione sociale. Nel corso è ricordato soprattutto per [[mille-piani|*Mille piani*]] e per il [[rizoma]], immagine di connessioni orizzontali non riducibili a un albero gerarchico. Questa figura concorre alla descrizione della [[governance]] come rete."
-    },
-    {
-      "id": "mille-piani",
-      "nome": "Mille piani",
-      "tipo": "opera",
-      "breve": "L'opera di Deleuze e Guattari del 1980 che sviluppa, fra gli altri temi, le immagini del rizoma e della molteplicità.",
-      "definizione": "*Mille plateaux*, secondo volume di *Capitalismo e schizofrenia*, è scritto da [[gilles-deleuze|Deleuze]] e [[felix-guattari|Guattari]]. Il [[rizoma]] propone un modello di connessione senza un'unica radice o un vertice ordinatore. Nelle lezioni il testo offre strumenti per pensare il [[piano-di-immanenza|piano di immanenza]] e il capovolgimento della piramide nella [[governance]]."
-    },
-    {
-      "id": "deus-sive-natura",
-      "nome": "Deus sive Natura",
-      "tipo": "concetto",
-      "breve": "La formula spinoziana «Dio ossia Natura», che esprime l'identità fra Dio e l'unica sostanza infinita.",
-      "definizione": "In [[spinoza|Spinoza]] Dio non è un legislatore esterno e trascendente rispetto al mondo: Dio e natura nominano la medesima sostanza. L'[[immanenza]] esclude quindi un fondamento separato dall'ordine della realtà. Nel corso la formula è il riferimento filosofico per il [[piano-di-immanenza|piano di immanenza]] contrapposto alla verticalità del [[leviatano|Leviatano]]."
-    },
-    {
-      "id": "immanenza",
-      "nome": "Immanenza",
-      "tipo": "concetto",
-      "breve": "L'appartenenza del principio ordinatore alla stessa realtà che organizza, senza un vertice esterno e trascendente.",
-      "definizione": "Si oppone alla trascendenza e, nel confronto del corso, anche alla fondazione logico-trascendentale dell'ordinamento. [[spinoza|Spinoza]] pensa una realtà unitaria espressa dal [[deus-sive-natura|Deus sive Natura]]; [[gilles-deleuze|Deleuze]] riprende questa prospettiva nel [[piano-di-immanenza|piano di immanenza]]. Applicata alla [[governance]], l'immagine descrive relazioni orizzontali e autoorganizzazione, non una specifica costituzione giuridica."
-    },
-    {
-      "id": "autolegittimazione",
-      "nome": "Autolegittimazione",
-      "tipo": "concetto",
-      "breve": "La pretesa di una struttura di fondare la propria legittimità nel funzionamento interno, senza un criterio esterno.",
-      "definizione": "Nel modello di [[governance]] descritto a lezione il [[piano-di-immanenza|piano di immanenza]] non rinvia a una norma superiore o a un fondamento trascendente. La rete tende a giustificarsi mediante espansione, inclusione ed [[efficienza]]. Proprio per questo resta un problema critico: il funzionamento efficace non equivale automaticamente a [[legittimita|legittimità]] democratica."
-    },
-    {
-      "id": "potere-di-indirizzo",
-      "nome": "Potere di indirizzo",
-      "tipo": "concetto",
-      "breve": "Il potere che orienta continuamente i comportamenti verso gli scopi della struttura, invece di limitarsi a vietare e sanzionare.",
-      "definizione": "Nella riflessione di [[jacques-lenoble|Jacques Lenoble]] la [[governance]] agisce segnalando direzioni e coordinando i partecipanti. Il corso lo chiama anche potere dolce e lo avvicina al [[potere-disciplinare|potere disciplinare]] e al [[pastorato]]. A differenza del [[potere-prescrittivo-sanzionatorio|potere prescrittivo-sanzionatorio]], cerca di includere e rendere funzionali piuttosto che escludere il trasgressore."
-    },
-    {
-      "id": "pastorato",
-      "nome": "Pastorato",
-      "tipo": "concetto",
-      "breve": "La figura del potere che guida e cura il gregge, usata per comprendere un governo continuo delle condotte.",
-      "definizione": "L'immagine del pastore descrive un potere che non abbandona i singoli né si limita a punirli, ma li accompagna e li rende funzionali alla vita collettiva. [[michel-foucault|Foucault]] studia il potere pastorale nella lunga storia delle tecniche di governo. Nelle lezioni aiuta a comprendere il [[potere-di-indirizzo|potere di indirizzo]] della [[governance]] e la sua componente educativa."
-    },
-    {
-      "id": "responsabilita-diffusa",
-      "nome": "Responsabilità diffusa",
-      "tipo": "concetto",
-      "breve": "La dispersione delle decisioni fra molti nodi di una rete, che rende difficile attribuire a qualcuno la risposta finale.",
-      "definizione": "Nella [[governance]] il coordinamento reticolare può oscurare chi abbia effettivamente deciso e chi debba rispondere degli esiti. Si contrappone alla delega di competenza dell'[[ordinamento-giuridico|ordinamento]], che individua organi e poteri. Il problema non è la pluralità in sé, ma la possibile perdita di controllabilità e [[legittimita|legittimazione]] quando i nodi decisori restano nascosti."
-    },
-    {
-      "id": "logica-amico-nemico",
-      "nome": "Logica amico-nemico",
-      "tipo": "concetto",
-      "breve": "La distinzione schmittiana che qualifica il politico attraverso l'opposizione fra appartenenza e ostilità.",
-      "definizione": "Per [[carl-schmitt|Schmitt]] il criterio specifico del politico è la distinzione fra amico e nemico, distinta da quelle fra bene e male o giusto e ingiusto. Il corso la collega alla struttura escludente dell'[[ordinamento-giuridico|ordinamento]] e al frontespizio del [[leviatano|Leviatano]], dove la città murata separa dentro e fuori. Non va ridotta alla semplice inimicizia privata."
-    },
-    {
-      "id": "hard-power",
-      "nome": "Hard power",
-      "tipo": "concetto",
-      "breve": "Il potere che ottiene conformità mediante comando, coercizione, sanzione o forza materiale.",
-      "definizione": "Nel lessico delle relazioni internazionali si contrappone al [[soft-power|soft power]], che opera mediante attrazione e orientamento. Nelle lezioni la coppia è trasferita al confronto fra [[potere-prescrittivo-sanzionatorio|potere prescrittivo-sanzionatorio]] e [[potere-di-indirizzo|potere di indirizzo]]. La distinzione è analitica: istituzioni concrete possono combinare coercizione, consenso e disciplinamento."
+      "id": "antigone",
+      "oltre": "Antigone è figlia di Edipo. I suoi fratelli, Eteocle e Polinice, si uccidono a vicenda combattendo per Tebe: il primo difendeva la città, il secondo la assaliva. Lo zio Creonte, nuovo re, ordina che Polinice resti insepolto. Antigone lo seppellisce, è scoperta e rivendica il gesto; Creonte la condanna a essere murata viva. L'indovino Tiresia lo convince a cedere, ma troppo tardi: Antigone si è impiccata, e si uccidono anche Emone, figlio di Creonte e suo promesso sposo, e la regina Euridice.\n\nLe letture sono molte. Quella **giusnaturalista**: una legge superiore contro la legge ingiusta, modello della disobbedienza civile. Quella di [[hegel|Hegel]]: famiglia contro Stato, due diritti parziali che si distruggono. Nel Novecento la riscrivono Jean Anouilh (1944, nella Francia occupata) e Bertolt Brecht (1948). Gustavo Zagrebelsky vi vede il conflitto tra *ius* e *lex*, tra diritto e legge.",
+      "daSapere": [
+        "Figlia di Edipo; seppellisce il fratello Polinice contro l'editto",
+        "Muoiono Antigone, Emone ed Euridice",
+        "Letture: giusnaturalista, hegeliana (famiglia contro Stato)",
+        "Riscritture: Anouilh (1944), Brecht (1948)"
+      ],
+      "collegamenti": [
+        {
+          "da": "antigone",
+          "a": "diritto-naturale",
+          "tipo": "esempio-di",
+          "etichetta": "è l'immagine classica del"
+        },
+        {
+          "da": "hegel",
+          "a": "antigone",
+          "tipo": "interpreta",
+          "etichetta": "legge come conflitto tra famiglia e Stato la vicenda di"
+        }
+      ]
     }
   ]
 }

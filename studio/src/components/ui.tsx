@@ -1,4 +1,5 @@
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { livello, type Livello } from '../lib/srs';
 import type { Progresso } from '../lib/store';
 import { fmtMinuti, intervallo, isoDi } from '../lib/util';
@@ -54,6 +55,7 @@ const PATHS: Record<string, ReactNode> = {
   altro: <><circle cx="5" cy="12" r="1.6" /><circle cx="12" cy="12" r="1.6" /><circle cx="19" cy="12" r="1.6" /></>,
   scarica: <path d="M12 4v11M7 10l5 5 5-5M5 20h14" />,
   carica: <path d="M12 20V9M7 14l5-5 5 5M5 4h14" />,
+  esame: <><path d="M12 4 2 9l10 5 10-5-10-5Z" /><path d="M6 11.2V16c2.2 2 9.8 2 12 0v-4.8M22 9v5.5" /></>,
   avviso: <><path d="M10.3 4.2 2.4 18a2 2 0 0 0 1.7 3h15.8a2 2 0 0 0 1.7-3L13.7 4.2a2 2 0 0 0-3.4 0Z" /><path d="M12 9.5v4M12 17.2h.01" /></>,
 };
 
@@ -186,5 +188,148 @@ export function Pagine({ x }: { x: { pagine?: [number, number]; manuale?: [numbe
       {x.pagine && <span className="chip" title="Pagine del PDF degli appunti">{x.fonteNome ? `${x.fonteNome} ` : ''}pp. {intervallo(x.pagine)}</span>}
       {x.manuale && <span className="chip" title="Pagine del manuale (Laterza, ed. 1992)">manuale pp. {intervallo(x.manuale)}</span>}
     </>
+  );
+}
+
+const isoLocale = (iso: string) => new Date(`${iso}T12:00:00`);
+const meseDi = (iso: string) => { const d = isoLocale(iso); return d.getFullYear() * 12 + d.getMonth(); };
+const sposta = (iso: string, giorni: number) => { const d = isoLocale(iso); d.setDate(d.getDate() + giorni); return isoDi(d); };
+const spostaMese = (iso: string, mesi: number) => {
+  const d = isoLocale(iso), giorno = d.getDate();
+  d.setDate(1); d.setMonth(d.getMonth() + mesi);
+  d.setDate(Math.min(giorno, new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate()));
+  return isoDi(d);
+};
+
+/**
+ * Selettore di data unico (data dell'esame in Oggi e in Progressi), uguale su PC, iPad e telefono.
+ * La data si salva **solo** quando si sceglie un giorno (clic, tocco, Invio o Spazio): girare i mesi, spostarsi con
+ * le frecce o chiudere non cambia niente. «Rimuovi data» toglie la data; Esc o «Annulla» chiudono senza toccarla.
+ * Tastiera: frecce = giorno/settimana, Pag↑/Pag↓ = mese, Home/Fine = inizio/fine settimana.
+ */
+export function SceltaData({ value, onChange, min, etichetta = 'Data', vuoto = 'Scegli la data', rimuovi = true, testo, classe = '' }: {
+  value?: string; onChange: (iso: string | undefined) => void; min?: string; etichetta?: string; vuoto?: string;
+  /** mostra «Rimuovi data» quando una data c'è */
+  rimuovi?: boolean;
+  /** testo del pulsante al posto della data (es. «Cambia») */
+  testo?: string; classe?: string;
+}) {
+  const oggi = isoDi(new Date());
+  const valido = value && /^\d{4}-\d{2}-\d{2}$/.test(value) && Number.isFinite(isoLocale(value).getTime()) ? value : undefined;
+  const partenza = () => { const d = valido ?? oggi; return min && d < min ? min : d; };
+  const [aperto, setAperto] = useState(false);
+  const [fuoco, setFuoco] = useState(partenza);
+  const [dove, setDove] = useState<{ left: number; top?: number; bottom?: number }>({ left: 0, top: 0 });
+  const bottone = useRef<HTMLButtonElement>(null), pop = useRef<HTMLDivElement>(null);
+  const daTastiera = useRef(false);
+
+  const apri = () => {
+    const r = bottone.current!.getBoundingClientRect();
+    const w = Math.min(316, window.innerWidth - 16);
+    const left = Math.max(8, Math.min(r.left, window.innerWidth - w - 8));
+    const sotto = r.bottom + 372 < window.innerHeight || r.top < 372;
+    setDove(sotto ? { left, top: r.bottom + 6 } : { left, bottom: window.innerHeight - r.top + 6 });
+    setFuoco(partenza()); daTastiera.current = true; setAperto(true);
+  };
+  const chiudi = (ridaiFuoco = true) => { setAperto(false); if (ridaiFuoco) bottone.current?.focus(); };
+  const scegli = (iso: string | undefined) => { if (iso && min && iso < min) return; onChange(iso); chiudi(); };
+
+  // all'apertura e a ogni spostamento da tastiera il fuoco va sul giorno indicato
+  useLayoutEffect(() => {
+    if (!aperto || !daTastiera.current) return;
+    daTastiera.current = false;
+    pop.current?.querySelector<HTMLButtonElement>(`[data-date="${fuoco}"]`)?.focus({ preventScroll: true });
+  }, [aperto, fuoco]);
+  useEffect(() => {
+    if (!aperto) return;
+    const fuori = (e: MouseEvent | TouchEvent) => {
+      const t = e.target as Node;
+      if (!pop.current?.contains(t) && !bottone.current?.contains(t)) chiudi(false);
+    };
+    // su schermo largo il riquadro è ancorato al pulsante: se la pagina scorre si chiude (sul telefono è un foglio fisso)
+    const inizio = bottone.current?.getBoundingClientRect();
+    const scorre = (e: Event) => {
+      if (pop.current?.contains(e.target as Node) || window.innerWidth <= 560) return;
+      const ora = bottone.current?.getBoundingClientRect();
+      if (!inizio || !ora || Math.abs(ora.top - inizio.top) > 2 || Math.abs(ora.left - inizio.left) > 2) chiudi(false);
+    };
+    // Esc chiude anche se il fuoco non è nel riquadro: in Safari toccare o cliccare un pulsante non gli dà il fuoco
+    const esc = (e: KeyboardEvent) => { if (e.key === 'Escape' && !pop.current?.contains(document.activeElement)) { e.preventDefault(); chiudi(); } };
+    document.addEventListener('mousedown', fuori);
+    document.addEventListener('touchstart', fuori, { passive: true });
+    document.addEventListener('keydown', esc);
+    window.addEventListener('scroll', scorre, { passive: true, capture: true });
+    window.addEventListener('resize', scorre);
+    return () => {
+      document.removeEventListener('mousedown', fuori); document.removeEventListener('touchstart', fuori); document.removeEventListener('keydown', esc);
+      window.removeEventListener('scroll', scorre, true); window.removeEventListener('resize', scorre);
+    };
+  }, [aperto]);
+
+  const muovi = (iso: string) => { daTastiera.current = true; setFuoco(min && iso < min ? min : iso); };
+  const tasti = (e: React.KeyboardEvent) => {
+    const giorno = (isoLocale(fuoco).getDay() + 6) % 7;
+    const mosse: Record<string, () => void> = {
+      ArrowLeft: () => muovi(sposta(fuoco, -1)), ArrowRight: () => muovi(sposta(fuoco, 1)),
+      ArrowUp: () => muovi(sposta(fuoco, -7)), ArrowDown: () => muovi(sposta(fuoco, 7)),
+      Home: () => muovi(sposta(fuoco, -giorno)), End: () => muovi(sposta(fuoco, 6 - giorno)),
+      PageUp: () => muovi(spostaMese(fuoco, e.shiftKey ? -12 : -1)), PageDown: () => muovi(spostaMese(fuoco, e.shiftKey ? 12 : 1)),
+      Escape: () => chiudi(),
+    };
+    const f = mosse[e.key];
+    if (!f) return;
+    // le frecce valgono solo sulla griglia dei giorni; Esc ovunque nel riquadro
+    if (e.key !== 'Escape' && !(e.target as HTMLElement).closest('.sd-griglia')) return;
+    e.preventDefault(); e.stopPropagation(); f();
+  };
+
+  const mese = meseDi(fuoco), anno = Math.floor(mese / 12), m = mese % 12;
+  const primo = new Date(anno, m, 1);
+  const nGiorni = new Date(anno, m + 1, 0).getDate();
+  const vuoti = (primo.getDay() + 6) % 7;
+  const meseMin = min ? meseDi(min) : -Infinity;
+  const nomeMese = primo.toLocaleDateString('it-IT', { month: 'long', year: 'numeric' });
+  const lunga = (iso: string) => isoLocale(iso).toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  const cambiaMese = (d: number) => setFuoco((f) => { const n = spostaMese(f, d); return min && n < min ? min : n; });
+
+  return (
+    <span className={`scelta-data ${classe}`}>
+      <button ref={bottone} type="button" className={testo ? 'btn btn-sm btn-ghost' : 'input sd-bottone'} aria-haspopup="dialog" aria-expanded={aperto}
+        aria-label={testo ? `${testo}: ${etichetta.toLowerCase()}` : `${etichetta}: ${valido ? lunga(valido) : 'nessuna data'}. Apri il calendario`}
+        data-scelta-data onClick={() => (aperto ? chiudi() : apri())}>
+        {testo ?? <><Icon n="calendario" size={16} /><span className={valido ? '' : 'faint'}>{valido ? isoLocale(valido).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }) : vuoto}</span></>}
+      </button>
+      {aperto && createPortal(
+        <>
+          <div className="sd-velo" onClick={() => chiudi(false)} />
+          <div ref={pop} className="sd-pop fade-in" role="dialog" aria-modal="true" aria-label={etichetta} style={dove} onKeyDown={tasti}>
+            <div className="sd-testa">
+              <button type="button" className="btn btn-sm btn-ghost" aria-label="Mese precedente" disabled={mese <= meseMin} onClick={() => cambiaMese(-1)}><Icon n="indietro" size={16} /></button>
+              <b aria-live="polite">{nomeMese}</b>
+              <button type="button" className="btn btn-sm btn-ghost" aria-label="Mese successivo" onClick={() => cambiaMese(1)}><Icon n="freccia" size={16} /></button>
+            </div>
+            <div className="sd-griglia" role="grid" aria-label={nomeMese}>
+              {['lun', 'mar', 'mer', 'gio', 'ven', 'sab', 'dom'].map((g) => <span key={g} className="sd-gg" role="columnheader" aria-label={g}>{g[0].toUpperCase()}</span>)}
+              {Array.from({ length: vuoti }, (_, k) => <span key={`v${k}`} />)}
+              {Array.from({ length: nGiorni }, (_, k) => {
+                const iso = isoDi(new Date(anno, m, k + 1));
+                const cls = `sd-g${iso === valido ? ' on' : ''}${iso === oggi ? ' oggi' : ''}`;
+                return (
+                  <button key={iso} type="button" role="gridcell" className={cls} data-date={iso} tabIndex={iso === fuoco ? 0 : -1}
+                    disabled={!!min && iso < min} aria-pressed={iso === valido} aria-current={iso === oggi ? 'date' : undefined}
+                    aria-label={`${lunga(iso)}${iso === valido ? ', data scelta' : ''}`} onClick={() => scegli(iso)}>{k + 1}</button>
+                );
+              })}
+            </div>
+            <div className="sd-piede">
+              <span className="faint tiny">Scegli un giorno per salvare</span>
+              <span className="row" style={{ gap: 4 }}>
+                {valido && rimuovi && <button type="button" className="btn btn-sm btn-ghost" onClick={() => scegli(undefined)}>Rimuovi data</button>}
+                <button type="button" className="btn btn-sm btn-ghost" onClick={() => chiudi()}>Annulla</button>
+              </span>
+            </div>
+          </div>
+        </>, document.body)}
+    </span>
   );
 }

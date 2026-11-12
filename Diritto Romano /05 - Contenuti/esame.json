@@ -1,0 +1,509 @@
+{
+  "fonti": [
+    {
+      "id": "starace",
+      "docente": "Pia Starace",
+      "corsi": [
+        "uniba-lmg-1-mz",
+        "uniba-ssg-1"
+      ],
+      "file": "domande-esame/Starace, domande d'esame (elenco A).pdf"
+    }
+  ],
+  "tracce": [
+    {
+      "id": "esame-starace-01",
+      "fonte": "starace",
+      "testo": "Cicerone e le XII Tavole",
+      "lezioni": [
+        "u02-l2",
+        "u02-l6"
+      ],
+      "concetti": [
+        "cicerone",
+        "xii-tavole",
+        "de-officiis",
+        "de-oratore"
+      ]
+    },
+    {
+      "id": "esame-starace-02",
+      "fonte": "starace",
+      "testo": "Polibio e la costituzione mista",
+      "lezioni": [
+        "u02-l3"
+      ],
+      "concetti": [
+        "polibio",
+        "costituzione-mista"
+      ]
+    },
+    {
+      "id": "esame-starace-03",
+      "fonte": "starace",
+      "testo": "Assemblee (comizi)",
+      "lezioni": [
+        "u02-l3"
+      ],
+      "concetti": [
+        "comizi-curiati",
+        "comizi-centuriati",
+        "comizi-tributi",
+        "concilia-plebis"
+      ]
+    },
+    {
+      "id": "esame-starace-04",
+      "fonte": "starace",
+      "testo": "Formalismo giuridico (processuale, negoziale, interpretativo)",
+      "lezioni": [
+        "u03-l5",
+        "u03-l8"
+      ],
+      "concetti": [
+        "formalismo",
+        "formalismo-interpretativo",
+        "legis-actiones",
+        "mancipatio"
+      ]
+    },
+    {
+      "id": "esame-starace-05",
+      "fonte": "starace",
+      "testo": "Legis actiones (legis actio per sacramentum in rem)",
+      "lezioni": [
+        "u03-l5",
+        "u03-l6"
+      ],
+      "concetti": [
+        "legis-actiones",
+        "legis-actio-per-sacramentum-in-rem"
+      ]
+    },
+    {
+      "id": "esame-starace-06",
+      "fonte": "starace",
+      "testo": "Modalità di vendita delle res mancipi (mancipatio)",
+      "lezioni": [
+        "u03-l8"
+      ],
+      "concetti": [
+        "mancipatio",
+        "res-mancipi"
+      ]
+    },
+    {
+      "id": "esame-starace-07",
+      "fonte": "starace",
+      "testo": "Emancipatio",
+      "lezioni": [
+        "u03-l9"
+      ],
+      "concetti": [
+        "emancipatio",
+        "formalismo-interpretativo"
+      ]
+    },
+    {
+      "id": "esame-starace-08",
+      "fonte": "starace",
+      "testo": "Giuristi-pontefici (laconicità oracolare)",
+      "lezioni": [
+        "u04-l1"
+      ],
+      "concetti": [
+        "pontefici",
+        "monopolio-pontificale",
+        "responso"
+      ]
+    },
+    {
+      "id": "esame-starace-09",
+      "fonte": "starace",
+      "testo": "Laicizzazione della giurisprudenza",
+      "lezioni": [
+        "u06-l1"
+      ],
+      "concetti": [
+        "laicizzazione-della-giurisprudenza"
+      ]
+    },
+    {
+      "id": "esame-starace-10",
+      "fonte": "starace",
+      "testo": "Superamento del formalismo",
+      "lezioni": [
+        "u05-l6"
+      ],
+      "concetti": [
+        "formalismo",
+        "emptio-venditio",
+        "ius-gentium"
+      ]
+    },
+    {
+      "id": "esame-starace-11",
+      "fonte": "starace",
+      "testo": "Ius gentium (e ius civile)",
+      "lezioni": [
+        "u05-l3"
+      ],
+      "concetti": [
+        "ius-gentium",
+        "ius-civile"
+      ]
+    },
+    {
+      "id": "esame-starace-12",
+      "fonte": "starace",
+      "testo": "Il pretore e l'editto",
+      "lezioni": [
+        "u05-l9"
+      ],
+      "concetti": [
+        "pretore",
+        "editto-del-pretore"
+      ]
+    },
+    {
+      "id": "esame-starace-13",
+      "fonte": "starace",
+      "testo": "Ius honorarium o ius pretorium",
+      "lezioni": [
+        "u05-l11"
+      ],
+      "concetti": [
+        "ius-honorarium",
+        "pretore"
+      ]
+    },
+    {
+      "id": "esame-starace-14",
+      "fonte": "starace",
+      "testo": "Pretore peregrino",
+      "lezioni": [
+        "u05-l7"
+      ],
+      "concetti": [
+        "pretore-peregrino",
+        "peregrini",
+        "processo-formulare"
+      ]
+    },
+    {
+      "id": "esame-starace-15",
+      "fonte": "starace",
+      "testo": "Actio in factum",
+      "lezioni": [
+        "u05-l12"
+      ],
+      "concetti": [
+        "actio-in-factum",
+        "funzioni-del-pretore"
+      ]
+    },
+    {
+      "id": "esame-starace-16",
+      "fonte": "starace",
+      "testo": "Nova negotia (locazione-conduzione, mandato, societas, emptio venditio)",
+      "lezioni": [
+        "u05-l5",
+        "u05-l6"
+      ],
+      "concetti": [
+        "nova-negotia",
+        "locatio-conductio",
+        "mandatum",
+        "societas",
+        "emptio-venditio"
+      ]
+    },
+    {
+      "id": "esame-starace-17",
+      "fonte": "starace",
+      "testo": "Processo formulare e struttura della formula",
+      "lezioni": [
+        "u05-l7",
+        "u05-l8"
+      ],
+      "concetti": [
+        "processo-formulare",
+        "formula",
+        "intentio"
+      ]
+    },
+    {
+      "id": "esame-starace-18",
+      "fonte": "starace",
+      "testo": "Giurista e principe",
+      "lezioni": [
+        "u08-l3",
+        "u08-l5"
+      ],
+      "concetti": [
+        "giuristi",
+        "princeps",
+        "consilium-principis"
+      ]
+    },
+    {
+      "id": "esame-starace-19",
+      "fonte": "starace",
+      "testo": "Ius respondendi ex auctoritate principis",
+      "lezioni": [
+        "u08-l3"
+      ],
+      "concetti": [
+        "ius-respondendi",
+        "auctoritas"
+      ]
+    },
+    {
+      "id": "esame-starace-20",
+      "fonte": "starace",
+      "testo": "Giureconsulto laico",
+      "lezioni": [
+        "u06-l2"
+      ],
+      "concetti": [
+        "giuristi",
+        "respondere-cavere-agere"
+      ]
+    },
+    {
+      "id": "esame-starace-21",
+      "fonte": "starace",
+      "testo": "Professione aristocratica (Schulz, Weber, Machiavelli)",
+      "lezioni": [
+        "u06-l3"
+      ],
+      "concetti": [
+        "professione-aristocratica",
+        "fritz-schulz"
+      ]
+    },
+    {
+      "id": "esame-starace-22",
+      "fonte": "starace",
+      "testo": "Atteggiamento oracolare (testo Pomponio)",
+      "lezioni": [
+        "u06-l6"
+      ],
+      "concetti": [
+        "atteggiamento-oracolare",
+        "pomponio",
+        "quinto-mucio-scevola"
+      ]
+    },
+    {
+      "id": "esame-starace-23",
+      "fonte": "starace",
+      "testo": "Servio Sulpicio Rufo (responso)",
+      "lezioni": [
+        "u07-l4"
+      ],
+      "concetti": [
+        "servio-sulpicio-rufo",
+        "responso"
+      ]
+    },
+    {
+      "id": "esame-starace-24",
+      "fonte": "starace",
+      "testo": "Tradizione civilistica",
+      "lezioni": [
+        "u06-l7"
+      ],
+      "concetti": [
+        "tradizione-civilistica"
+      ]
+    },
+    {
+      "id": "esame-starace-25",
+      "fonte": "starace",
+      "testo": "Quinto Mucio Scevola (diairesis)",
+      "lezioni": [
+        "u06-l7"
+      ],
+      "concetti": [
+        "quinto-mucio-scevola",
+        "diairesis",
+        "libri-iuris-civilis-di-quinto-mucio"
+      ]
+    },
+    {
+      "id": "esame-starace-26",
+      "fonte": "starace",
+      "testo": "Labeone",
+      "lezioni": [
+        "u08-l2"
+      ],
+      "concetti": [
+        "labeone"
+      ]
+    },
+    {
+      "id": "esame-starace-27",
+      "fonte": "starace",
+      "testo": "Consiglio imperiale (codicilli e fedecommessi)",
+      "lezioni": [
+        "u08-l4"
+      ],
+      "concetti": [
+        "consilium-principis",
+        "codicilli",
+        "fedecommesso"
+      ]
+    },
+    {
+      "id": "esame-starace-28",
+      "fonte": "starace",
+      "testo": "Cataloghi normativi",
+      "lezioni": [
+        "u07-l2"
+      ],
+      "concetti": [
+        "cataloghi-normativi"
+      ]
+    },
+    {
+      "id": "esame-starace-29",
+      "fonte": "starace",
+      "testo": "Costituzioni imperiali",
+      "lezioni": [
+        "u08-l6"
+      ],
+      "concetti": [
+        "costituzioni-imperiali",
+        "edicta",
+        "mandata"
+      ]
+    },
+    {
+      "id": "esame-starace-30",
+      "fonte": "starace",
+      "testo": "Lex de imperio Vespasiani (clausola discrezionale)",
+      "lezioni": [
+        "u08-l8"
+      ],
+      "concetti": [
+        "lex-de-imperio",
+        "legibus-solutus"
+      ]
+    },
+    {
+      "id": "esame-starace-31",
+      "fonte": "starace",
+      "testo": "Proculiani e sabiniani",
+      "lezioni": [
+        "u09-l1"
+      ],
+      "concetti": [
+        "proculiani",
+        "sabiniani",
+        "scuole-giuridiche"
+      ]
+    },
+    {
+      "id": "esame-starace-32",
+      "fonte": "starace",
+      "testo": "Il giurista filosofo (Ulpiano)",
+      "lezioni": [
+        "u09-l4"
+      ],
+      "concetti": [
+        "giurista-filosofo",
+        "ulpiano"
+      ]
+    },
+    {
+      "id": "esame-starace-33",
+      "fonte": "starace",
+      "testo": "Giuristi severiani",
+      "lezioni": [
+        "u10-l3"
+      ],
+      "concetti": [
+        "giurisprudenza-tardo-classica",
+        "papiniano",
+        "paolo",
+        "ulpiano",
+        "modestino"
+      ]
+    },
+    {
+      "id": "esame-starace-34",
+      "fonte": "starace",
+      "testo": "Movimento codificatorio",
+      "lezioni": [
+        "u11-l8"
+      ],
+      "concetti": [
+        "movimento-codificatorio",
+        "codex"
+      ]
+    },
+    {
+      "id": "esame-starace-35",
+      "fonte": "starace",
+      "testo": "Mentalità legalistica",
+      "lezioni": [
+        "u11-l4"
+      ],
+      "concetti": [
+        "mentalita-legalistica"
+      ]
+    },
+    {
+      "id": "esame-starace-36",
+      "fonte": "starace",
+      "testo": "Codici Gregoriano, Ermogeniano e Teodosiano",
+      "lezioni": [
+        "u11-l8",
+        "u11-l9"
+      ],
+      "concetti": [
+        "codex-gregorianus",
+        "codex-hermogenianus",
+        "codex-theodosianus"
+      ]
+    },
+    {
+      "id": "esame-starace-37",
+      "fonte": "starace",
+      "testo": "Legge delle citazioni",
+      "lezioni": [
+        "u11-l7"
+      ],
+      "concetti": [
+        "legge-delle-citazioni"
+      ]
+    },
+    {
+      "id": "esame-starace-38",
+      "fonte": "starace",
+      "testo": "Letteratura tardo-antica (leges et iura)",
+      "lezioni": [
+        "u11-l6"
+      ],
+      "concetti": [
+        "leges-et-iura",
+        "fragmenta-vaticana"
+      ]
+    },
+    {
+      "id": "esame-starace-39",
+      "fonte": "starace",
+      "testo": "Tappe della compilazione giustinianea (constitutio Deo auctore)",
+      "lezioni": [
+        "u12-l1",
+        "u12-l2"
+      ],
+      "concetti": [
+        "compilazione-giustinianea",
+        "constitutio-deo-auctore",
+        "digesto"
+      ]
+    }
+  ]
+}

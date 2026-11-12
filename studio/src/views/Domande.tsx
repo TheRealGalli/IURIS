@@ -10,6 +10,8 @@ import type { Domanda } from '../lib/types';
 import { TIPI_DOMANDA } from '../lib/types';
 import { rifPagine, shuffle } from '../lib/util';
 import { Icon } from '../components/ui';
+import { BadgeEsame } from '../components/Esame';
+import { tracceDellaDomanda } from '../lib/esame';
 
 export interface PropsDomanda { q: Domanda; onVoto: (v: Voto) => void; orale?: boolean }
 
@@ -20,7 +22,9 @@ export default function DomandaView({ q, onVoto, orale }: PropsDomanda) {
         <span className="chip">{q.inversa ? 'Scheda inversa' : TIPI_DOMANDA[q.tipo]}</span>
         <span className={`chip ${q.livello === 'avanzato' ? 'chip-accent' : q.livello === 'medio' ? 'chip-gold' : ''}`}>{q.livello}</span>
         {q.pagine && <span className="chip faint">{rifPagine(q)}</span>}
+        {q.esame && <BadgeEsame fonti={q.esame} />}
       </div>
+      {q.esame && <TracciaOriginale q={q} />}
       {q.tipo === 'flashcard' && <Flashcard q={q} onVoto={onVoto} />}
       {q.tipo === 'multipla' && <Multipla q={q} onVoto={onVoto} />}
       {q.tipo === 'verofalso' && <VeroFalso q={q} onVoto={onVoto} />}
@@ -30,6 +34,14 @@ export default function DomandaView({ q, onVoto, orale }: PropsDomanda) {
       {q.tipo === 'aperta' && <Aperta q={q} onVoto={onVoto} orale={orale} />}
     </div>
   );
+}
+
+/** Il testo della traccia come l'ha data il docente, sopra la domanda che la sviluppa. */
+function TracciaOriginale({ q }: { q: Domanda }) {
+  const idx = useCorso();
+  const tracce = tracceDellaDomanda(idx, q);
+  if (!tracce.length) return null;
+  return <p className="traccia-originale small muted">Traccia del docente: {tracce.map((t) => `«${t.testo}»`).join(' · ')}</p>;
 }
 
 type Q<T extends Domanda['tipo']> = Extract<Domanda, { tipo: T }>;

@@ -62,6 +62,39 @@ try {
     for (const s of slugs) assert(CORSI.some((c) => c.materie.includes(s)), `materia senza corso, resterebbe invisibile: ${s}`);
   });
 
+  // Tracce d'esame (esame.json): le fonti indicano corsi veri che hanno quella materia, così ogni classe vede
+  // prima le tracce del proprio docente e le altre come «di un'altra classe».
+  let fontiEsame = 0;
+  await check('tracce d\'esame e corsi', async () => {
+    const { domandeEsame, delCorso } = await server.ssrLoadModule('/src/lib/esame.ts');
+    const { indicizza } = await server.ssrLoadModule('/src/lib/data.ts');
+    for (const m of manifest.materie) {
+      const dati = JSON.parse(fs.readFileSync(new URL(`../public/content/${m.slug}/corso.json`, import.meta.url), 'utf8'));
+      if (!dati.esame) continue;
+      const idx = indicizza(dati);
+      for (const f of dati.esame.fonti) {
+        fontiEsame++;
+        assert(f.corsi.length > 0, `${m.slug}: la fonte ${f.id} non indica nessun corso`);
+        for (const id of f.corsi) {
+          const c = CORSI.find((x) => x.id === id);
+          assert(c, `${m.slug}: la fonte ${f.id} cita il corso inesistente ${id}`);
+          assert(c.materie.includes(m.slug), `${m.slug}: la fonte ${f.id} vale per ${id}, che non ha questa materia`);
+          assert(domandeEsame(idx, id).mie.length > 0, `${m.slug}: nessuna domanda d'esame di ${f.docente} per ${id}`);
+        }
+      }
+      for (const c of CORSI.filter((x) => x.materie.includes(m.slug))) {
+        const { mie, altre } = domandeEsame(idx, c.id);
+        const mieFonti = dati.esame.fonti.filter((f) => delCorso(f, c.id));
+        assert.equal(mie.length > 0, mieFonti.length > 0, `${m.slug}/${c.id}: domande del docente del corso incoerenti con le fonti`);
+        assert(!mie.some((q) => altre.includes(q)), `${m.slug}/${c.id}: una domanda non può essere sia del corso sia di un'altra classe`);
+      }
+    }
+    const allena = fs.readFileSync(new URL('../src/views/Allena.tsx', import.meta.url), 'utf8');
+    assert(allena.includes("k: 'docenti', t: 'Domande d\\'esame'") && allena.includes('esame.mie') && allena.includes('esame.altre'), 'Allenamento: filtro «Domande d\'esame», prima il docente del corso scelto');
+    const comp = fs.readFileSync(new URL('../src/components/Esame.tsx', import.meta.url), 'utf8');
+    assert(comp.includes("Chiesta all'esame (") && comp.includes("di un'altra classe"), 'badge «Chiesta all\'esame (prof. X)» e tracce «di un\'altra classe»');
+  });
+
   await check('corso attuale', () => {
     const c = corsoDi('uniba-lmg-1-al');
     assert.equal(c.breve, 'LMG · I anno · A-L'); assert.equal(c.sigla, 'LMG · I anno'); assert.equal(c.lettere, 'A-L');
@@ -77,16 +110,16 @@ try {
     assert.equal(corsoDi(undefined), CORSO_PREDEFINITO);
     assert.equal(corsoDi('corso-tolto'), CORSO_PREDEFINITO);
     assert(corsi.corsoDisponibile(CORSO_PREDEFINITO), 'il corso predefinito deve essere selezionabile');
-    assert.deepEqual(CORSI.filter(corsi.corsoDisponibile).map((c) => c.id), ['uniba-lmg-1-al', 'uniba-ssg-1'], 'per ora sono selezionabili A-L e SSG');
+    assert.deepEqual(CORSI.filter(corsi.corsoDisponibile).map((c) => c.id), ['uniba-lmg-1-al', 'uniba-lmg-1-mz', 'uniba-ssg-1'], 'le tre classi sono selezionabili');
     const ssg = corsoDi('uniba-ssg-1');
     assert.equal(ssg.id, 'uniba-ssg-1', 'SSG salvato resta SSG');
-    assert.deepEqual(ssg.materie, ['filosofia-del-diritto-ssg', 'diritto-romano', 'diritto-privato'], 'SSG: filosofia propria, romano e privato condivisi con LMG');
-    assert.deepEqual(ssg.inArrivo.map((m) => m.nome), ['Diritto costituzionale', 'Storia del diritto italiano', 'Abilità informatiche per giuristi', 'Lingua inglese'], 'SSG: costituzionale con appunti propri e le altre materie del primo anno, in arrivo');
+    assert.deepEqual(ssg.materie, ['filosofia-del-diritto-ssg', 'diritto-romano', 'diritto-costituzionale-martines', 'diritto-privato'], 'SSG: filosofia propria, costituzionale Martines come M-Z, romano e privato condivisi');
+    assert.deepEqual(ssg.inArrivo.map((m) => m.nome), ['Storia del diritto italiano', 'Abilità informatiche per giuristi', 'Lingua inglese'], 'SSG: le altre materie del primo anno, in arrivo');
     assert.equal(corsi.docenteDi(ssg, 'diritto-romano'), 'Pia Starace', 'romano condiviso, docente del corso');
-    for (const id of ['uniba-lmg-1-mz']) {
-      assert(CORSI.some((c) => c.id === id), `${id} deve restare visibile nell'elenco`);
-      assert.equal(corsoDi(id), CORSO_PREDEFINITO, `${id} salvato: si torna ad A-L`);
-    }
+    const mz = corsoDi('uniba-lmg-1-mz');
+    assert.equal(mz.id, 'uniba-lmg-1-mz', 'M-Z salvato resta M-Z');
+    assert.deepEqual(mz.materie, ['filosofia-del-diritto-mz', 'diritto-romano', 'diritto-costituzionale-martines', 'diritto-privato'], 'M-Z: filosofia e costituzionale proprie, romano e privato condivisi');
+    assert.equal(corsi.docenteDi(mz, 'diritto-privato'), 'Mauro Pennasilico');
     storage.values.set('iuris:v1:pref', JSON.stringify({ materia: 'diritto-romano', tema: 'scuro' }));
   });
 
@@ -142,7 +175,7 @@ try {
     assert(new Set(['Storia del diritto romano', 'Istituzioni di diritto romano', 'Storia del diritto italiano', 'Abilità informatiche per giuristi', 'Lingua inglese', 'Diritto privato', 'Diritto costituzionale', 'Filosofia del diritto'].map((n) => griglia.match(/if \(n\.includes\('([^']+)'\)\) return '([^']+)'/g).map((r) => r.match(/includes\('([^']+)'\)\) return '([^']+)'/)).find((m) => n.toLocaleLowerCase('it').includes(m[1]))?.[2])).size === 8, 'ogni materia ha un simbolo diverso');
   });
 
-  console.log(`Corsi verificati: ${checks} controlli su configurazione, corso predefinito, filtro delle materie e backup (${CORSI.length} ${CORSI.length === 1 ? 'corso' : 'corsi'}).`);
+  console.log(`Corsi verificati: ${checks} controlli su configurazione, corso predefinito, filtro delle materie, tracce d'esame (${fontiEsame} fonti) e backup (${CORSI.length} ${CORSI.length === 1 ? 'corso' : 'corsi'}).`);
 } finally {
   await server?.close();
   if (original) Object.defineProperty(globalThis, 'localStorage', original); else delete globalThis.localStorage;

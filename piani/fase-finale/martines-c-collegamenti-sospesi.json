@@ -1,0 +1,146 @@
+[
+ {
+  "file": "oltre-30.json",
+  "voce": "magistratura",
+  "da": "pubblico-ministero",
+  "a": "obbligatorieta-azione-penale",
+  "tipo": "collegato",
+  "etichetta": "è vincolato dall'"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "giudice-naturale",
+  "da": "giudice-naturale",
+  "a": "riserva-di-legge",
+  "tipo": "collegato",
+  "etichetta": "è garantito dalla"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "consiglio-di-stato",
+  "da": "consiglio-di-stato",
+  "a": "tutela-giurisdizionale",
+  "tipo": "collegato",
+  "etichetta": "assicura contro la pubblica amministrazione la"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "ministro-della-giustizia",
+  "da": "ministro-della-giustizia",
+  "a": "ministri",
+  "tipo": "esempio-di",
+  "etichetta": "è uno dei"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "presidente-della-repubblica",
+  "da": "presidente-della-repubblica",
+  "a": "presidente-del-consiglio",
+  "tipo": "crea",
+  "etichetta": "nomina il"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "controfirma",
+  "da": "controfirma",
+  "a": "ministri",
+  "tipo": "collegato",
+  "etichetta": "è apposta dai"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "corte-costituzionale",
+  "da": "corte-costituzionale",
+  "a": "ammissibilita-referendum",
+  "tipo": "collegato",
+  "etichetta": "giudica l'"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "corte-costituzionale",
+  "da": "sentenza-di-accoglimento",
+  "a": "annullamento",
+  "tipo": "causa",
+  "etichetta": "produce l'"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "giudizio-in-via-principale",
+  "da": "giudizio-in-via-principale",
+  "a": "regioni",
+  "tipo": "collegato",
+  "etichetta": "può essere promosso dalle"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "giudizio-in-via-principale",
+  "da": "giudizio-in-via-principale",
+  "a": "legge-regionale",
+  "tipo": "collegato",
+  "etichetta": "può impugnare la"
+ },
+ {
+  "file": "oltre-30.json",
+  "voce": "conflitto-di-attribuzione",
+  "da": "conflitto-di-attribuzione",
+  "a": "regioni",
+  "tipo": "collegato",
+  "etichetta": "può opporre Stato e"
+ },
+ {
+  "file": "oltre-31.json",
+  "voce": "funzione-giurisdizionale",
+  "da": "funzione-giurisdizionale",
+  "a": "tutela-giurisdizionale",
+  "tipo": "collegato",
+  "etichetta": "rende effettiva la"
+ },
+ {
+  "file": "oltre-31.json",
+  "voce": "interesse-legittimo",
+  "da": "interesse-legittimo",
+  "a": "tutela-giurisdizionale",
+  "tipo": "collegato",
+  "etichetta": "è oggetto della"
+ },
+ {
+  "file": "oltre-31.json",
+  "voce": "tar",
+  "da": "tar",
+  "a": "tutela-giurisdizionale",
+  "tipo": "collegato",
+  "etichetta": "assicurano in primo grado la"
+ },
+ {
+  "file": "oltre-31.json",
+  "voce": "elezione-del-presidente-della-repubblica",
+  "da": "regioni",
+  "a": "elezione-del-presidente-della-repubblica",
+  "tipo": "collegato",
+  "etichetta": "partecipano con i delegati alla"
+ },
+ {
+  "file": "oltre-31.json",
+  "voce": "reviviscenza",
+  "da": "reviviscenza",
+  "a": "referendum-abrogativo",
+  "tipo": "contrasta",
+  "etichetta": "non segue al"
+ },
+ {
+  "file": "oltre-31.json",
+  "voce": "sentenza-monito",
+  "da": "sentenza-monito",
+  "a": "leale-collaborazione",
+  "tipo": "collegato",
+  "etichetta": "presuppone la"
+ },
+ {
+  "file": "oltre-31.json",
+  "voce": "conflitto-tra-stato-e-regioni",
+  "da": "conflitto-tra-stato-e-regioni",
+  "a": "leale-collaborazione",
+  "tipo": "collegato",
+  "etichetta": "si decide spesso in base alla"
+ }
+]

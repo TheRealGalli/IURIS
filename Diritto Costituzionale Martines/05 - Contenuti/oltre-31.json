@@ -1,0 +1,720 @@
+{
+  "voci": [
+    {
+      "id": "funzione-giurisdizionale",
+      "oltre": "L’idea moderna di giurisdizione nasce con la separazione dei poteri: per Montesquieu il giudice è la «bocca della legge», un potere «in certo senso nullo» perché si limita ad applicare norme poste da altri. Oggi si riconosce che interpretare è anche scegliere, ma restano i caratteri che distinguono il giudice dall’amministrazione: è **terzo** rispetto agli interessi in gioco, decide **su domanda** di qualcuno e non di propria iniziativa, e la sua decisione, esauriti i mezzi di impugnazione, diventa **giudicato**, cioè non può più essere rimessa in discussione.",
+      "daSapere": [
+        "Terzietà, domanda di parte, giudicato",
+        "Montesquieu: il giudice «bocca della legge»",
+        "Art. 24: tutti possono agire in giudizio per i propri diritti e interessi legittimi"
+      ],
+      "collegamenti": [
+        {
+          "da": "funzione-giurisdizionale",
+          "a": "separazione-dei-poteri",
+          "tipo": "parte-di",
+          "etichetta": "è una delle tre funzioni della"
+        }
+      ]
+    },
+    {
+      "id": "unicita-della-giurisdizione",
+      "oltre": "Il principio è una reazione all’esperienza fascista. Nel 1926 era stato istituito il **Tribunale speciale per la difesa dello Stato**, composto in gran parte da ufficiali della Milizia, che giudicava gli oppositori politici senza le garanzie ordinarie e fu soppresso nel 1943. I costituenti vollero impedire che il potere politico potesse di nuovo crearsi giudici «su misura»: di qui la riserva ai magistrati ordinari, il divieto di giudici straordinari e speciali e la regola del giudice naturale. Le giurisdizioni speciali rimaste sono soltanto quelle che la Costituzione nomina.",
+      "daSapere": [
+        "1926–1943: Tribunale speciale per la difesa dello Stato",
+        "Artt. 25, 102, 103: il sistema delle garanzie sul giudice"
+      ],
+      "collegamenti": [
+        {
+          "da": "unicita-della-giurisdizione",
+          "a": "giudice-naturale",
+          "tipo": "collegato",
+          "etichetta": "condivide la funzione di garanzia del"
+        }
+      ]
+    },
+    {
+      "id": "giudici-speciali",
+      "oltre": "Il panorama odierno è cambiato rispetto agli appunti in due punti. La **giustizia tributaria** è stata riformata nel 2022: le commissioni sono diventate Corti di giustizia tributaria di primo e di secondo grado e vi lavorano magistrati tributari professionali assunti per concorso. Il **processo amministrativo** ha dal 2010 un proprio codice (d.lgs. 104/2010), che ha riordinato poteri e azioni davanti a TAR e Consiglio di Stato. Resta ferma la regola di chiusura: contro le decisioni del Consiglio di Stato e della Corte dei conti il ricorso in Cassazione è ammesso solo per motivi inerenti alla giurisdizione (art. 111).",
+      "daSapere": [
+        "2010: codice del processo amministrativo",
+        "2022: Corti di giustizia tributaria",
+        "Art. 111: ricorso in Cassazione solo per motivi di giurisdizione"
+      ],
+      "collegamenti": [
+        {
+          "da": "corte-di-cassazione",
+          "a": "giudici-speciali",
+          "tipo": "collegato",
+          "etichetta": "controlla i limiti della giurisdizione dei"
+        }
+      ]
+    },
+    {
+      "id": "interesse-legittimo",
+      "oltre": "È una figura tipica del diritto italiano: la posizione di chi, di fronte a un potere dell’amministrazione, non ha la garanzia di ottenere un certo risultato ma ha diritto a che il potere sia esercitato **legittimamente**. Esempi classici: il partecipante a un concorso pubblico, chi chiede un permesso di costruire. Per molto tempo la sua lesione non dava diritto al risarcimento; la svolta è la sentenza delle sezioni unite della Cassazione n. 500 del 1999, che ha ammesso il **risarcimento del danno** anche per gli interessi legittimi. La Costituzione lo nomina tre volte: artt. 24, 103 e 113.",
+      "daSapere": [
+        "Artt. 24, 103, 113",
+        "Cass. sez. un. 500/1999: risarcibilità",
+        "Esempi: concorso pubblico, permesso di costruire"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "tar",
+      "oltre": "Ce n’è uno per Regione, con sede nel capoluogo; alcune Regioni hanno anche sezioni staccate (per esempio Catania, Brescia, Salerno, Lecce). Il TAR del **Lazio**, con sede a Roma, ha una competenza particolare sugli atti delle amministrazioni centrali e di molte autorità nazionali, compresi i provvedimenti del CSM. Davanti al TAR si chiede di regola l’**annullamento** dell’atto entro sessanta giorni dalla sua conoscenza; il giudice può anche sospenderlo in via cautelare e condannare l’amministrazione al risarcimento. Il processo è regolato dal codice del processo amministrativo del 2010.",
+      "daSapere": [
+        "Uno per Regione; art. 125 Cost.",
+        "Ricorso entro 60 giorni",
+        "TAR Lazio: atti delle amministrazioni centrali e del CSM"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "tribunali-militari",
+      "oltre": "Dopo la riforma del 2007 i tribunali militari sono tre – Verona, Roma e Napoli – con una sola Corte militare d’appello a Roma; contro le sentenze è ammesso ricorso alla Corte di cassazione. Sono composti da magistrati militari, che hanno garanzie analoghe a quelle dei magistrati ordinari e un proprio organo di autogoverno, il Consiglio della magistratura militare. La pena di morte, che la Costituzione ammetteva solo nei casi previsti dalle leggi militari di guerra, è stata eliminata dal codice nel 1994 e dalla Costituzione nel 2007.",
+      "daSapere": [
+        "Tre sedi: Verona, Roma, Napoli",
+        "Art. 103, terzo comma",
+        "Pena di morte: cancellata dall’art. 27 nel 2007"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "corte-d-assise",
+      "oltre": "Giudica i delitti più gravi, come l’omicidio volontario e gli altri reati puniti con l’ergastolo o con pene molto elevate. I sei **giudici popolari** sono estratti a sorte da appositi elenchi di cittadini fra i 30 e i 65 anni, di buona condotta e con un titolo di studio minimo (scuola media per il primo grado, scuola superiore per l’appello); decidono insieme ai due magistrati togati, con voto di pari valore, sia sul fatto sia sulla pena. Contro le sentenze si ricorre alla **Corte d’assise d’appello**, composta nello stesso modo.",
+      "daSapere": [
+        "2 togati + 6 popolari",
+        "Giudici popolari: 30–65 anni, estratti a sorte",
+        "Appello: Corte d’assise d’appello"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "giurisdizione-esclusiva",
+      "oltre": "La Corte costituzionale ne ha fissato i limiti con la sentenza n. 204 del 2004: il legislatore non può attribuire al giudice amministrativo interi «blocchi di materie» solo perché vi è coinvolta un’amministrazione. La giurisdizione esclusiva è legittima se la pubblica amministrazione agisce **come autorità**, esercitando un potere, e se diritti e interessi sono così intrecciati da rendere difficile separarli. Quando invece l’amministrazione si comporta come un privato qualsiasi (per esempio non paga un debito), giudica il giudice ordinario.",
+      "daSapere": [
+        "Art. 103: «particolari materie indicate dalla legge»",
+        "Corte cost. 204/2004: serve l’esercizio di un potere"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "ricorso-straordinario-al-presidente-della-repubblica",
+      "oltre": "È un rimedio antico, erede della giustizia «ritenuta» del sovrano. Oggi è regolato dal d.P.R. 1199/1971: si propone entro **120 giorni** (il doppio del termine per il TAR), solo per **vizi di legittimità** e solo contro atti definitivi; costa poco e non richiede l’avvocato. Vale la regola dell’**alternatività**: chi ha scelto il TAR non può più proporlo, e viceversa. Dal 2009 il parere del Consiglio di Stato è **vincolante**: il decreto presidenziale deve conformarvisi, e per questo il rimedio è ormai considerato sostanzialmente giurisdizionale.",
+      "daSapere": [
+        "120 giorni; solo legittimità",
+        "Alternativo al ricorso al TAR",
+        "Dal 2009 parere vincolante del Consiglio di Stato"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "ricorso-gerarchico",
+      "oltre": "Ha perso importanza da quando non è più un passaggio obbligato: dal 1971 si può ricorrere al giudice amministrativo anche contro atti non definitivi, senza attendere la decisione del superiore. Resta utile perché è gratuito, non richiede avvocato e permette di far valere anche i vizi di **merito**, che il giudice di regola non esamina. Se l’amministrazione non decide entro novanta giorni, il ricorso si intende respinto (silenzio-rigetto) e l’interessato può rivolgersi al giudice o proporre ricorso straordinario.",
+      "daSapere": [
+        "30 giorni per proporlo",
+        "90 giorni di silenzio = rigetto",
+        "Unico rimedio che copre anche il merito"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "arbitrato",
+      "oltre": "Nasce da un accordo: la **clausola compromissoria**, inserita in un contratto per le liti future, o il **compromesso**, stipulato a lite già sorta. Non si possono affidare agli arbitri le controversie su diritti indisponibili (per esempio lo stato delle persone). Si distingue l’arbitrato **rituale**, il cui lodo ha gli effetti di una sentenza, da quello **irrituale**, che resta sul piano del contratto. La Corte costituzionale ha riconosciuto agli arbitri rituali la possibilità di sollevare questioni di legittimità costituzionale, perché svolgono una funzione di giudizio.",
+      "daSapere": [
+        "Clausola compromissoria ↔ compromesso",
+        "No diritti indisponibili",
+        "Rituale ↔ irrituale"
+      ],
+      "collegamenti": [
+        {
+          "da": "arbitrato",
+          "a": "giudice-a-quo",
+          "tipo": "collegato",
+          "etichetta": "può essere sede in cui opera un"
+        }
+      ]
+    },
+    {
+      "id": "corte-internazionale-di-giustizia",
+      "oltre": "È il principale organo giudiziario delle Nazioni Unite, istituito nel 1945. È composta da **quindici giudici** di nazionalità diverse, eletti per nove anni dall’Assemblea generale e dal Consiglio di sicurezza. Giudica soltanto le controversie fra **Stati** e solo se questi ne hanno accettato la giurisdizione; rende inoltre pareri consultivi agli organi dell’ONU. Non va confusa con la Corte penale internazionale, che ha sede anch’essa all’Aja ma giudica **individui** accusati di crimini internazionali come genocidio e crimini di guerra.",
+      "daSapere": [
+        "L’Aja, 1945, 15 giudici",
+        "Solo Stati, con il loro consenso",
+        "Diversa dalla Corte penale internazionale"
+      ],
+      "collegamenti": [
+        {
+          "da": "corte-internazionale-di-giustizia",
+          "a": "principio-internazionalista",
+          "tipo": "collegato",
+          "etichetta": "è una delle sedi in cui opera il"
+        }
+      ]
+    },
+    {
+      "id": "corte-europea-dei-diritti-dell-uomo",
+      "oltre": "Ha sede a **Strasburgo** ed è l’organo del **Consiglio d’Europa**, organizzazione distinta dall’Unione europea. Applica la Convenzione europea dei diritti dell’uomo, firmata a Roma nel 1950 e resa esecutiva in Italia nel 1955. Ha un giudice per ciascuno Stato parte. Chiunque si ritenga vittima di una violazione può ricorrere, ma solo dopo aver **esaurito i ricorsi interni** ed entro quattro mesi dalla decisione definitiva. Le sue sentenze obbligano lo Stato condannato; in Italia la Convenzione, come la interpreta la Corte, è norma interposta per il giudizio di costituzionalità (sentenze 348 e 349 del 2007).",
+      "daSapere": [
+        "Strasburgo, Consiglio d’Europa",
+        "CEDU: Roma, 1950",
+        "Ricorso individuale dopo i rimedi interni"
+      ],
+      "collegamenti": [
+        {
+          "da": "corte-europea-dei-diritti-dell-uomo",
+          "a": "norma-interposta",
+          "tipo": "collegato",
+          "etichetta": "interpreta la Convenzione che funge da"
+        }
+      ]
+    },
+    {
+      "id": "estradizione",
+      "oltre": "Fra gli Stati dell’Unione europea l’estradizione è stata sostituita dal **mandato d’arresto europeo** (2002, attuato in Italia nel 2005): la consegna avviene direttamente fra autorità giudiziarie, senza valutazione politica dei Governi. L’eccezione per il **genocidio** fu introdotta con la legge costituzionale n. 1 del 1967. Quanto alla pena di morte, la Corte costituzionale (sentenza n. 223 del 1996) ha stabilito che non bastano le «garanzie» offerte dallo Stato richiedente: se per quel reato è prevista la pena capitale, la consegna è vietata in modo assoluto.",
+      "daSapere": [
+        "Artt. 10 e 26",
+        "Legge cost. 1/1967: eccezione per il genocidio",
+        "Corte cost. 223/1996: divieto assoluto se c’è la pena di morte",
+        "Nell’UE: mandato d’arresto europeo"
+      ],
+      "collegamenti": [
+        {
+          "da": "estradizione",
+          "a": "cittadinanza",
+          "tipo": "collegato",
+          "etichetta": "è limitata in ragione della"
+        }
+      ]
+    },
+    {
+      "id": "responsabilita-penale-personale",
+      "oltre": "La lettura minima dell’art. 27 è il divieto di responsabilità **per fatto altrui**: nessuno paga per il reato di un altro. La Corte costituzionale è andata oltre con la sentenza n. 364 del 1988: responsabilità «personale» significa responsabilità **colpevole**, cioè per un fatto che si possa rimproverare all’autore almeno a titolo di colpa. Per questo ha dichiarato illegittimo l’art. 5 del codice penale nella parte in cui non scusava l’ignoranza **inevitabile** della legge penale: non si può rimproverare chi non era in condizione di conoscere il divieto.",
+      "daSapere": [
+        "Art. 27, primo comma",
+        "Corte cost. 364/1988: principio di colpevolezza",
+        "Ignoranza inevitabile della legge penale: scusa"
+      ],
+      "collegamenti": [
+        {
+          "da": "responsabilita-penale-personale",
+          "a": "sentenza-additiva",
+          "tipo": "collegato",
+          "etichetta": "è stata sviluppata da una celebre"
+        }
+      ]
+    },
+    {
+      "id": "presunzione-di-non-colpevolezza",
+      "oltre": "La formula italiana («non è considerato colpevole») è più cauta di quella della Convenzione europea, che parla di **presunzione d’innocenza** (art. 6 CEDU); la sostanza è la stessa. Ne derivano due regole. Una di **giudizio**: l’onere della prova è dell’accusa e nel dubbio si assolve (la condanna richiede la colpevolezza «al di là di ogni ragionevole dubbio»). Una di **trattamento**: prima della condanna definitiva l’imputato non può essere trattato come colpevole, sicché la custodia cautelare non può servire ad anticipare la pena ma solo a esigenze cautelari.",
+      "daSapere": [
+        "Art. 27, secondo comma; art. 6 CEDU",
+        "Regola di giudizio: nel dubbio si assolve",
+        "Regola di trattamento: la custodia non è pena anticipata"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "funzione-rieducativa-della-pena",
+      "oltre": "Il principio ha guidato la riforma dell’**ordinamento penitenziario** del 1975, che ha introdotto le misure alternative al carcere (affidamento in prova, semilibertà) e i permessi. La Corte costituzionale ha chiarito che la rieducazione non riguarda solo l’esecuzione ma la pena in ogni suo momento, da quando la legge la prevede a quando il giudice la applica (sentenza n. 313 del 1990). Lo stesso art. 27 vieta la **pena di morte**: dal 2007 senza più eccezioni, nemmeno per le leggi militari di guerra.",
+      "daSapere": [
+        "Art. 27, terzo comma",
+        "1975: ordinamento penitenziario e misure alternative",
+        "Pena di morte: vietata senza eccezioni dal 2007"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "responsabilita-civile-dei-magistrati",
+      "oltre": "La disciplina nasce dal **referendum del 1987**, che abrogò le vecchie norme del codice di procedura civile, quasi mai applicate. Seguì la legge n. 117 del 1988 (legge Vassalli): azione contro lo Stato, non contro il giudice. La legge n. 18 del 2015, anche per adeguarsi al diritto dell’Unione europea, ha eliminato il «filtro» preliminare di ammissibilità, ha esteso la colpa grave alla violazione manifesta della legge e al travisamento del fatto o delle prove e ha reso **obbligatoria** la rivalsa. Resta la «clausola di salvaguardia»: di regola l’interpretazione delle norme non è fonte di responsabilità.",
+      "daSapere": [
+        "Referendum 1987 → legge 117/1988",
+        "Legge 18/2015: niente filtro, rivalsa obbligatoria",
+        "Azione contro lo Stato, non contro il magistrato"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "elezione-del-presidente-della-repubblica",
+      "oltre": "I delegati regionali sono 58. Con la riduzione dei parlamentari (400 deputati e 200 senatori elettivi dal 2022) il collegio conta poco più di 650 elettori; all’ultima elezione, nel gennaio 2022, erano ancora 1.009. Si vota a Montecitorio, per chiamata nominale e scheda segreta. Le elezioni possono essere rapidissime – Cossiga (1985) e Ciampi (1999) furono eletti al primo scrutinio – o molto lunghe: per Leone, nel 1971, servirono 23 votazioni. Non esistono candidature ufficiali.",
+      "daSapere": [
+        "58 delegati regionali",
+        "Primo scrutinio: Cossiga 1985, Ciampi 1999",
+        "23 scrutini: Leone 1971"
+      ],
+      "collegamenti": [
+        {
+          "da": "regioni",
+          "a": "elezione-del-presidente-della-repubblica",
+          "tipo": "collegato",
+          "etichetta": "partecipano con i delegati alla"
+        }
+      ]
+    },
+    {
+      "id": "antonio-segni",
+      "oltre": "Sassarese (1891–1972), professore di diritto processuale civile, fu uno dei maggiori esponenti della Democrazia cristiana: ministro dell’agricoltura e autore della riforma agraria del 1950, due volte Presidente del Consiglio, fu eletto Presidente della Repubblica nel 1962. Nel 1963 inviò alle Camere un messaggio in cui proponeva di vietare la rielezione del Presidente e di abolire, di conseguenza, il semestre bianco. Colpito da ictus nell’agosto 1964, fu supplito dal Presidente del Senato Cesare Merzagora; dopo le dimissioni gli succedette Giuseppe Saragat.",
+      "daSapere": [
+        "1891–1972; Presidente dal 1962 al 1964",
+        "Supplente: Cesare Merzagora",
+        "Messaggio del 1963 su rielezione e semestre bianco"
+      ],
+      "collegamenti": [
+        {
+          "da": "antonio-segni",
+          "a": "presidente-della-repubblica",
+          "tipo": "esempio-di",
+          "etichetta": "è stato il quarto"
+        },
+        {
+          "da": "antonio-segni",
+          "a": "semestre-bianco",
+          "tipo": "collegato",
+          "etichetta": "propose di abolire il"
+        }
+      ]
+    },
+    {
+      "id": "irresponsabilita-presidenziale",
+      "oltre": "Due sentenze hanno precisato i confini. La n. 154 del 2004 (caso Cossiga) ha chiarito che l’irresponsabilità copre soltanto gli atti e le dichiarazioni **legati alle funzioni**: per le opinioni espresse fuori da esse il Presidente risponde come ogni cittadino, e a valutare il nesso funzionale è il giudice comune. La n. 1 del 2013 (conflitto fra il Presidente Napolitano e la Procura di Palermo) ha riconosciuto la **riservatezza assoluta** delle comunicazioni del Capo dello Stato: le intercettazioni casuali delle sue conversazioni vanno distrutte.",
+      "daSapere": [
+        "Art. 90",
+        "Corte cost. 154/2004: serve il nesso con le funzioni",
+        "Corte cost. 1/2013: riservatezza delle comunicazioni"
+      ],
+      "collegamenti": [
+        {
+          "da": "irresponsabilita-presidenziale",
+          "a": "conflitto-tra-poteri-dello-stato",
+          "tipo": "collegato",
+          "etichetta": "è stata difesa con un"
+        }
+      ]
+    },
+    {
+      "id": "potere-neutro",
+      "oltre": "L’espressione viene da **Benjamin Constant**, che all’inizio del XIX secolo d.C. teorizzò un *pouvoir neutre* del re costituzionale: un potere che non governa, ma sta sopra gli altri tre e interviene per riportarli in equilibrio quando entrano in conflitto. Trasferita al Presidente di una repubblica parlamentare, l’idea spiega perché i suoi poteri più incisivi (scioglimento, rinvio delle leggi, nomina del Presidente del Consiglio) siano poteri di **garanzia** e di **intermediazione**, non di governo. Un’immagine diffusa è quella della «fisarmonica»: i poteri presidenziali si espandono quando il sistema dei partiti è debole e si contraggono quando è forte.",
+      "daSapere": [
+        "Benjamin Constant: pouvoir neutre",
+        "Poteri di garanzia, non di governo",
+        "La «fisarmonica» dei poteri presidenziali"
+      ],
+      "collegamenti": [
+        {
+          "da": "potere-neutro",
+          "a": "governo-parlamentare",
+          "tipo": "collegato",
+          "etichetta": "è la posizione del Capo dello Stato nel"
+        }
+      ]
+    },
+    {
+      "id": "messaggi-presidenziali",
+      "oltre": "I messaggi formali alle Camere sono stati pochi: fra i più noti quello di Segni del 1963, quello di Leone del 1975 e quello di Cossiga del 1991 sulle riforme istituzionali, quello di Ciampi del 2002 sul pluralismo dell’informazione e quello di Napolitano del 2013 sulla situazione delle carceri. Le Camere non sono obbligate a discuterli né a darvi seguito. Molto più frequente è il **messaggio di rinvio** di una legge (art. 74), che obbliga invece le Camere a una nuova deliberazione.",
+      "daSapere": [
+        "Art. 87, secondo comma; art. 74 per il rinvio",
+        "Pochi messaggi formali nella storia repubblicana"
+      ],
+      "collegamenti": [
+        {
+          "da": "messaggi-presidenziali",
+          "a": "rinvio-presidenziale",
+          "tipo": "collegato",
+          "etichetta": "comprendono il messaggio motivato del"
+        }
+      ]
+    },
+    {
+      "id": "potere-di-esternazione",
+      "oltre": "La forma più conosciuta è il **messaggio di fine anno**, inaugurato da Einaudi nel 1949 e trasmesso prima alla radio e poi in televisione. Il potere si è ampliato soprattutto con Pertini, che parlava direttamente ai cittadini, e con Cossiga, le cui «picconate» degli ultimi anni di mandato aprirono un acceso dibattito sui limiti del ruolo. La Corte costituzionale (sentenza n. 154 del 2004) ha distinto le esternazioni legate alle funzioni, coperte dall’irresponsabilità, da quelle personali, per le quali il Presidente risponde come ogni cittadino.",
+      "daSapere": [
+        "Messaggio di fine anno: dal 1949",
+        "Pertini e Cossiga: l’espansione delle esternazioni",
+        "Corte cost. 154/2004"
+      ],
+      "collegamenti": [
+        {
+          "da": "potere-di-esternazione",
+          "a": "irresponsabilita-presidenziale",
+          "tipo": "collegato",
+          "etichetta": "è coperto, se funzionale, dall’"
+        }
+      ]
+    },
+    {
+      "id": "senatori-a-vita",
+      "oltre": "L’art. 59 richiede «altissimi meriti nel campo sociale, scientifico, artistico e letterario». Sono stati nominati, fra gli altri, Eugenio Montale, Rita Levi-Montalcini, Renzo Piano e Liliana Segre; Arturo Toscanini, nominato nel 1949, rinunciò. Per decenni si è discusso se il limite di cinque valesse per ogni Presidente o in totale: alcuni Presidenti seguirono la prima lettura. La legge costituzionale n. 1 del 2020 ha chiuso la questione: cinque **in tutto**. I senatori a vita votano come gli altri, anche la fiducia, e partecipano all’elezione del Capo dello Stato.",
+      "daSapere": [
+        "Art. 59",
+        "Massimo cinque in carica (legge cost. 1/2020)",
+        "Gli ex Presidenti sono senatori di diritto"
+      ],
+      "collegamenti": [
+        {
+          "da": "senatori-a-vita",
+          "a": "atti-presidenziali",
+          "tipo": "esempio-di",
+          "etichetta": "sono nominati con uno degli"
+        }
+      ]
+    },
+    {
+      "id": "atti-presidenziali",
+      "oltre": "La Costituzione non contiene questa classificazione: l’art. 89 tratta tutti gli atti allo stesso modo e parla di «ministri proponenti». È stata la dottrina, seguita dalla prassi e dalla Corte costituzionale, a distinguere secondo chi decide davvero, dando alla controfirma significati diversi: negli atti governativi è la **decisione** e la firma del Presidente è controllo; negli atti presidenziali è la firma del Presidente la decisione e la controfirma è **attestazione** di regolarità. Gli atti con valore legislativo e gli altri indicati dalla legge sono controfirmati anche dal Presidente del Consiglio.",
+      "daSapere": [
+        "Art. 89",
+        "Chi decide: Governo, Presidente o entrambi",
+        "Corte cost. 200/2006: la grazia è atto presidenziale"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "costantino-mortati",
+      "oltre": "Calabrese (1891–1985), fu tra i più influenti costituzionalisti italiani del XX secolo d.C. All’Assemblea costituente, eletto con la Democrazia cristiana, fece parte della Commissione dei 75 e contribuì in particolare alle norme su Parlamento, partiti e referendum. Fu giudice della Corte costituzionale dal 1960 al 1972. La sua opera più nota, *La costituzione in senso materiale* (1940), sostiene che dietro il testo scritto opera un nucleo di fini e valori imposto dalle forze politiche dominanti. Le sue *Istituzioni di diritto pubblico* hanno formato generazioni di studenti.",
+      "daSapere": [
+        "1891–1985",
+        "La costituzione in senso materiale (1940)",
+        "Costituente e giudice costituzionale (1960–1972)"
+      ],
+      "collegamenti": [
+        {
+          "da": "costantino-mortati",
+          "a": "assemblea-costituente",
+          "tipo": "parte-di",
+          "etichetta": "fu membro dell’"
+        },
+        {
+          "da": "costantino-mortati",
+          "a": "corte-costituzionale",
+          "tipo": "parte-di",
+          "etichetta": "fu giudice della"
+        }
+      ]
+    },
+    {
+      "id": "carlo-esposito",
+      "oltre": "Costituzionalista (1902–1964), professore a Padova, Napoli e Roma. I suoi saggi raccolti in *La Costituzione italiana* (1954) sono fra le prime grandi letture della Carta: celebri quelli sull’eguaglianza, sull’art. 1 e sui partiti. Nella voce «Capo dello Stato» dell’Enciclopedia del diritto (1960) respinge l’immagine del Presidente come puro custode neutrale: nei momenti di crisi del sistema, quando gli organi di indirizzo non funzionano, il Capo dello Stato diventa di fatto il **reggitore** dello Stato. È la tesi che gli appunti richiamano.",
+      "daSapere": [
+        "1902–1964",
+        "La Costituzione italiana. Saggi (1954)",
+        "Il Capo dello Stato «reggitore dello Stato nelle crisi»"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "meuccio-ruini",
+      "oltre": "Emiliano (1877–1970), politico di formazione radicale e riformista, antifascista. All’Assemblea costituente presiedette la **Commissione dei 75**, che scrisse il progetto di Costituzione, e ne firmò la relazione di presentazione: per questo le sue parole sono citate spesso per ricostruire le intenzioni dei costituenti. Fu poi Presidente del Senato nel 1953, primo presidente del CNEL e, dal 1963, senatore a vita.",
+      "daSapere": [
+        "1877–1970",
+        "Presidente della Commissione dei 75",
+        "Senatore a vita dal 1963"
+      ],
+      "collegamenti": [
+        {
+          "da": "meuccio-ruini",
+          "a": "assemblea-costituente",
+          "tipo": "parte-di",
+          "etichetta": "presiedette la Commissione dei 75 dell’"
+        }
+      ]
+    },
+    {
+      "id": "giustizia-costituzionale",
+      "oltre": "Esistono due modelli storici. Nel sistema **diffuso**, nato negli Stati Uniti con la sentenza *Marbury v. Madison* (1803), ogni giudice disapplica la legge incostituzionale nel caso che decide. Nel sistema **accentrato**, ideato da Hans Kelsen per la Costituzione austriaca del 1920, un solo tribunale apposito annulla la legge con effetti per tutti. L’Italia ha scelto un sistema accentrato con un elemento diffuso: decide solo la Corte, ma l’iniziativa spetta a ogni giudice. La Corte cominciò a funzionare solo nel 1956; fino ad allora il controllo fu esercitato, in via transitoria, dai giudici comuni.",
+      "daSapere": [
+        "Diffuso: USA, 1803",
+        "Accentrato: Kelsen, Austria 1920",
+        "Italia: Corte in funzione dal 1956"
+      ],
+      "collegamenti": [
+        {
+          "da": "giustizia-costituzionale",
+          "a": "costituzione-rigida",
+          "tipo": "collegato",
+          "etichetta": "è la garanzia della"
+        }
+      ]
+    },
+    {
+      "id": "giudici-aggregati",
+      "oltre": "L’elenco da cui si sorteggia è formato da **quarantacinque** cittadini, eletti dal Parlamento in seduta comune ogni nove anni con le stesse maggioranze richieste per i giudici costituzionali. La composizione integrata ha funzionato una sola volta, nel processo Lockheed (1977–1979), quando la Corte giudicava anche i ministri. Nessun Presidente della Repubblica è mai stato messo in stato d’accusa: nei casi in cui se n’è discusso (Leone nel 1978, Cossiga nel 1991) non si è arrivati al voto del Parlamento in seduta comune.",
+      "daSapere": [
+        "16 sorteggiati da un elenco di 45",
+        "Unico precedente: processo Lockheed",
+        "Mai un Presidente messo in stato d’accusa"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "presidente-della-corte-costituzionale",
+      "oltre": "Poiché il mandato presidenziale non può superare la scadenza dei nove anni da giudice, e per prassi la Corte elegge spesso il giudice più anziano di nomina, molte presidenze durano pochi mesi. Il Presidente è una delle più alte cariche dello Stato e tiene ogni anno una relazione pubblica sull’attività della Corte. Nel 2019 è stata eletta la prima donna Presidente, Marta Cartabia.",
+      "daSapere": [
+        "3 anni, entro i 9 da giudice",
+        "Prassi: presidenze brevi per anzianità",
+        "2019: prima Presidente donna"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "vizio-formale",
+      "oltre": "Sono pochissime le leggi annullate per vizi formali. La ragione è la dottrina degli ***interna corporis***: ciò che avviene dentro le Camere è tradizionalmente sottratto al controllo esterno. La sentenza n. 9 del 1959 ha aperto una breccia, ammettendo il controllo sul rispetto delle norme costituzionali (per esempio gli artt. 64 e 72), ma lasciando alle Camere l’interpretazione dei propri regolamenti. Un terreno recente è quello dei maxi-emendamenti con questione di fiducia, che comprimono l’esame articolo per articolo.",
+      "daSapere": [
+        "Interna corporis acta",
+        "Corte cost. 9/1959",
+        "Parametro: solo le norme costituzionali sul procedimento"
+      ],
+      "collegamenti": [
+        {
+          "da": "vizio-formale",
+          "a": "regolamenti-parlamentari",
+          "tipo": "collegato",
+          "etichetta": "non può fondarsi sulla sola violazione dei"
+        }
+      ]
+    },
+    {
+      "id": "eccesso-di-potere-legislativo",
+      "oltre": "Il controllo di **ragionevolezza** è nato dall’art. 3: una legge che tratta in modo diverso situazioni uguali, o in modo uguale situazioni diverse, senza una giustificazione, è irragionevole. La Corte confronta la norma impugnata con un’altra presa a paragone (il *tertium comparationis*). Col tempo il canone si è reso autonomo: una legge può essere incostituzionale perché intrinsecamente incoerente, contraddittoria rispetto al proprio scopo o **sproporzionata**. È oggi il parametro più usato dalla Corte, e il più discusso, perché avvicina il giudizio di legittimità a una valutazione delle scelte del legislatore.",
+      "daSapere": [
+        "Radice: art. 3",
+        "Tertium comparationis",
+        "Ragionevolezza e proporzionalità"
+      ],
+      "collegamenti": [
+        {
+          "da": "eccesso-di-potere-legislativo",
+          "a": "principio-di-uguaglianza",
+          "tipo": "collegato",
+          "etichetta": "si fonda sul"
+        }
+      ]
+    },
+    {
+      "id": "self-restraint",
+      "oltre": "Il limite è scritto nella legge: l’art. 28 della legge n. 87 del 1953 stabilisce che il controllo di legittimità «esclude ogni valutazione di natura politica e ogni sindacato sull’uso del potere discrezionale del Parlamento». L’espressione inglese viene dalla giurisprudenza della Corte suprema degli Stati Uniti, dove indica la deferenza dei giudici verso le scelte degli organi eletti, e si contrappone all’*activism* dei giudici che usano la costituzione per orientare la politica. Nella prassi italiana il limite si traduce spesso in decisioni di inammissibilità «per discrezionalità del legislatore».",
+      "daSapere": [
+        "Art. 28 legge 87/1953",
+        "Self-restraint ↔ judicial activism",
+        "Inammissibilità per discrezionalità del legislatore"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "questione-di-legittimita",
+      "oltre": "Sul sindacato delle leggi costituzionali la Corte ha preso posizione con la sentenza n. 1146 del 1988: esistono **principi supremi** che non possono essere modificati nemmeno con il procedimento dell’art. 138, e la Corte è competente a giudicare le leggi di revisione che li violino. Quanto ai regolamenti parlamentari, la sentenza n. 154 del 1985 li ha esclusi dal giudizio in nome dell’indipendenza delle Camere; resta però possibile il conflitto di attribuzione se la loro applicazione lede altri poteri.",
+      "daSapere": [
+        "Corte cost. 1146/1988: principi supremi",
+        "Corte cost. 154/1985: regolamenti parlamentari non sindacabili"
+      ],
+      "collegamenti": [
+        {
+          "da": "questione-di-legittimita",
+          "a": "principi-supremi",
+          "tipo": "collegato",
+          "etichetta": "può avere per parametro i"
+        }
+      ]
+    },
+    {
+      "id": "giudice-a-quo",
+      "oltre": "La Corte interpreta la nozione in modo largo, per non lasciare «zone franche» sottratte al controllo: è giudice *a quo* chiunque, in posizione di terzietà, applichi obiettivamente la legge con una decisione destinata a diventare definitiva. Per questo ha ammesso la Corte dei conti in sede di controllo e di parifica, la sezione disciplinare del CSM, gli arbitri rituali. Non può invece sollevare la questione il pubblico ministero, che è parte e può soltanto chiederlo al giudice.",
+      "daSapere": [
+        "Nozione ampia di «giudice» e di «giudizio»",
+        "Scopo: evitare zone franche",
+        "Il PM non può sollevare da solo"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "norma-interposta",
+      "oltre": "La figura segna la differenza fra il diritto dell’Unione europea e la CEDU. Se una legge contrasta con una norma europea direttamente applicabile, il giudice comune **non la applica** senza rivolgersi alla Corte costituzionale. Se invece contrasta con la Convenzione europea dei diritti dell’uomo, il giudice non può disapplicarla: deve prima tentare un’interpretazione conforme e, se non è possibile, sollevare questione di legittimità per violazione dell’art. 117, primo comma. La norma interposta, a sua volta, deve essere conforme alla Costituzione.",
+      "daSapere": [
+        "Esempi: legge di delega, principi statali, CEDU",
+        "CEDU: niente disapplicazione, si va alla Corte",
+        "Sentenze 348 e 349 del 2007"
+      ],
+      "collegamenti": [
+        {
+          "da": "norma-interposta",
+          "a": "primato-del-diritto-ue",
+          "tipo": "contrasta",
+          "etichetta": "opera diversamente dal"
+        }
+      ]
+    },
+    {
+      "id": "interpretazione-conforme-a-costituzione",
+      "oltre": "La formula classica è della sentenza n. 356 del 1996: «le leggi non si dichiarano costituzionalmente illegittime perché è possibile darne interpretazioni incostituzionali, ma perché è impossibile darne interpretazioni costituzionali». Se il giudice non dimostra di aver cercato una lettura conforme, la Corte dichiara la questione inammissibile. Il limite è il testo: l’interpretazione conforme non può forzare la lettera della legge. Negli ultimi anni la Corte ha attenuato l’onere: basta che il giudice motivi in modo plausibile perché esclude la lettura conforme.",
+      "daSapere": [
+        "Corte cost. 356/1996",
+        "Limite: la lettera della legge",
+        "Omesso tentativo → inammissibilità"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "piero-calamandrei",
+      "oltre": "Fiorentino (1889–1956), avvocato e professore di diritto processuale civile, fu tra gli autori del codice di procedura civile del 1940 e fondò la rivista «Il Ponte». Antifascista, alla Costituente sedette per il Partito d’Azione e intervenne soprattutto su magistratura e Corte costituzionale. Negli anni successivi denunciò i ritardi nell’attuazione della Carta (la Corte costituzionale entrò in funzione solo nel 1956). Restano celebri l’*Elogio dei giudici scritto da un avvocato* e il discorso agli studenti milanesi del 1955 sulla Costituzione.",
+      "daSapere": [
+        "1889–1956",
+        "Costituente per il Partito d’Azione",
+        "Discorso sulla Costituzione, Milano 1955"
+      ],
+      "collegamenti": [
+        {
+          "da": "piero-calamandrei",
+          "a": "assemblea-costituente",
+          "tipo": "parte-di",
+          "etichetta": "fu membro dell’"
+        }
+      ]
+    },
+    {
+      "id": "reviviscenza",
+      "oltre": "La reviviscenza opera dopo l’annullamento perché la sentenza elimina la norma fin dall’origine, e con essa il suo effetto abrogativo. Non vale lo stesso per l’abrogazione: se una legge che ne aveva abrogata un’altra viene a sua volta abrogata, la più antica non torna in vigore, salvo che il legislatore lo disponga. La Corte lo ha ribadito per il **referendum abrogativo** (sentenza n. 13 del 2012): l’abrogazione popolare di una legge elettorale non fa rivivere quella precedente, e per questo dichiarò inammissibili i quesiti che puntavano a quel risultato.",
+      "daSapere": [
+        "Annullamento: sì reviviscenza",
+        "Abrogazione e referendum: di regola no",
+        "Corte cost. 13/2012"
+      ],
+      "collegamenti": [
+        {
+          "da": "reviviscenza",
+          "a": "referendum-abrogativo",
+          "tipo": "contrasta",
+          "etichetta": "non segue al"
+        }
+      ]
+    },
+    {
+      "id": "diritto-vivente",
+      "oltre": "A formare il diritto vivente è soprattutto la **Corte di cassazione**, cui l’ordinamento giudiziario affida il compito di assicurare «l’esatta osservanza e l’uniforme interpretazione della legge» (funzione nomofilattica), specialmente con le sezioni unite. La dottrina del diritto vivente ha chiuso la cosiddetta «guerra fra le due Corti» degli anni Sessanta, quando la Cassazione rifiutava di seguire le interpretazioni suggerite dalla Corte costituzionale: da allora la Corte costituzionale giudica la norma come vive nella giurisprudenza e, se è incostituzionale, la annulla.",
+      "daSapere": [
+        "Cassazione: funzione nomofilattica",
+        "Anni Sessanta: «guerra fra le due Corti»"
+      ],
+      "collegamenti": [
+        {
+          "da": "corte-di-cassazione",
+          "a": "diritto-vivente",
+          "tipo": "crea",
+          "etichetta": "forma con la sua giurisprudenza il"
+        }
+      ]
+    },
+    {
+      "id": "giuseppe-branca",
+      "oltre": "Giurista (1907–1987), professore di diritto romano a Bologna e a Roma. Fu giudice della Corte costituzionale dal 1959 e ne fu Presidente dal 1969 al 1971; in seguito fu senatore della Sinistra indipendente. Ideò e diresse il *Commentario della Costituzione*, opera collettiva in molti volumi che analizza la Carta articolo per articolo. Le sue osservazioni sulle sentenze interpretative vengono dall’esperienza diretta di giudice e Presidente negli anni in cui la Corte affinava le proprie tecniche di decisione.",
+      "daSapere": [
+        "1907–1987",
+        "Presidente della Corte costituzionale 1969–1971",
+        "Commentario della Costituzione"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "sentenza-additiva",
+      "oltre": "Il limite classico è quello delle «**rime obbligate**» (Crisafulli): la Corte può aggiungere solo la norma che discende necessariamente dalla Costituzione; se le soluzioni possibili sono più d’una, la scelta spetta al legislatore. Le additive di prestazione pongono il problema dei **costi**, perché l’art. 81 impone la copertura finanziaria alle leggi ma non alle sentenze. In anni recenti la Corte ha allentato il limite, accontentandosi di una soluzione «costituzionalmente adeguata» già presente nell’ordinamento, soprattutto in materia penale.",
+      "daSapere": [
+        "«Nella parte in cui non prevede»",
+        "Rime obbligate (Crisafulli)",
+        "Esempio: Corte cost. 364/1988 sull’art. 5 c.p."
+      ],
+      "collegamenti": [
+        {
+          "da": "sentenza-additiva",
+          "a": "copertura-finanziaria",
+          "tipo": "collegato",
+          "etichetta": "pone problemi di"
+        }
+      ]
+    },
+    {
+      "id": "sentenza-monito",
+      "oltre": "Una variante recente è la tecnica usata nel **caso Cappato**: con l’ordinanza n. 207 del 2018 la Corte ha riconosciuto l’incostituzionalità di una norma sull’aiuto al suicidio, ma ha rinviato la decisione di un anno per dare al Parlamento il tempo di legiferare; rimasto inerte il legislatore, ha deciso con la sentenza n. 242 del 2019. È un monito «a termine», che rende più stringente l’invito. Mostra bene il problema di fondo: il monito funziona solo se il Parlamento collabora.",
+      "daSapere": [
+        "Monito: invito al legislatore, senza annullamento",
+        "Ord. 207/2018 e sent. 242/2019 (caso Cappato)"
+      ],
+      "collegamenti": [
+        {
+          "da": "sentenza-monito",
+          "a": "leale-collaborazione",
+          "tipo": "collegato",
+          "etichetta": "presuppone la"
+        }
+      ]
+    },
+    {
+      "id": "conflitto-tra-poteri-dello-stato",
+      "oltre": "Il giudizio si svolge in due fasi. Prima la Corte decide in camera di consiglio, con ordinanza e senza contraddittorio, se il conflitto è **ammissibile** (se esistono i requisiti soggettivi e oggettivi); solo dopo il ricorso è notificato alla controparte e si passa al **merito**. Non ci sono termini per ricorrere. Conflitti celebri: quello sul potere di grazia (sentenza n. 200 del 2006), quello sulla sfiducia al singolo ministro (caso Mancuso, sentenza n. 7 del 1996), quello sulle intercettazioni del Presidente della Repubblica (sentenza n. 1 del 2013).",
+      "daSapere": [
+        "Due fasi: ammissibilità e merito",
+        "Nessun termine",
+        "Casi: Mancuso 1996, grazia 2006, intercettazioni 2013"
+      ],
+      "collegamenti": [
+        {
+          "da": "conflitto-tra-poteri-dello-stato",
+          "a": "grazia",
+          "tipo": "collegato",
+          "etichetta": "ha deciso la titolarità della"
+        }
+      ]
+    },
+    {
+      "id": "poteri-dello-stato",
+      "oltre": "L’elenco resta aperto. Con l’ordinanza n. 17 del 2019 la Corte ha ammesso, in linea di principio, che anche il **singolo parlamentare** possa sollevare conflitto a difesa delle proprie prerogative (diritto di parola, di proposta e di voto), ma solo per violazioni manifeste. Non sono invece poteri dello Stato i gruppi parlamentari in quanto tali, i partiti (ordinanza n. 79 del 2006), i singoli cittadini elettori. Il potere giudiziario è l’esempio tipico di potere «diffuso»: ogni giudice lo esprime in modo definitivo.",
+      "daSapere": [
+        "Ord. 17/2019: il singolo parlamentare",
+        "Partiti: esclusi (ord. 79/2006)",
+        "Potere giudiziario: potere diffuso"
+      ],
+      "collegamenti": []
+    },
+    {
+      "id": "conflitto-tra-stato-e-regioni",
+      "oltre": "A differenza del conflitto fra poteri, qui c’è un termine: il ricorso va proposto entro **sessanta giorni** dalla notificazione, pubblicazione o conoscenza dell’atto. La Corte può sospendere l’atto impugnato per gravi ragioni. Dopo la riforma del Titolo V il contenzioso fra Stato e Regioni è molto cresciuto, soprattutto nel giudizio in via principale; nei conflitti la Corte ha valorizzato il principio di **leale collaborazione**, annullando gli atti statali adottati senza la prevista intesa con le Regioni.",
+      "daSapere": [
+        "60 giorni dalla conoscenza dell’atto",
+        "Atto non legislativo",
+        "Leale collaborazione e intese"
+      ],
+      "collegamenti": [
+        {
+          "da": "conflitto-tra-stato-e-regioni",
+          "a": "leale-collaborazione",
+          "tipo": "collegato",
+          "etichetta": "si decide spesso in base alla"
+        }
+      ]
+    },
+    {
+      "id": "forza-politica-della-corte-costituzionale",
+      "oltre": "Il punto di partenza è la **sentenza n. 1 del 1956**: la Corte affermò di poter giudicare anche le leggi anteriori alla Costituzione e dichiarò illegittima una norma del testo unico di pubblica sicurezza del 1931. Da lì iniziò la «bonifica» della legislazione fascista che il Parlamento non aveva compiuto. La legittimazione di un organo non eletto che annulla le leggi del Parlamento è il problema classico della giustizia costituzionale (la «difficoltà contromaggioritaria»): la risposta sta nella Costituzione rigida, che pone limiti anche alle maggioranze.",
+      "daSapere": [
+        "Sent. 1/1956: sindacabili anche le leggi anteriori al 1948",
+        "Difficoltà contromaggioritaria"
+      ],
+      "collegamenti": [
+        {
+          "da": "forza-politica-della-corte-costituzionale",
+          "a": "costituzione-rigida",
+          "tipo": "collegato",
+          "etichetta": "trova legittimazione nella"
+        }
+      ]
+    },
+    {
+      "id": "alta-corte-per-la-regione-siciliana",
+      "oltre": "Lo Statuto siciliano è del 1946, anteriore alla Costituzione: l’Alta Corte fu pensata come garante «paritario» del patto fra lo Stato e la Regione, quando la Corte costituzionale ancora non esisteva. Funzionò dal 1948 al 1955. Entrata in funzione la Corte costituzionale, questa affermò con la sentenza n. 38 del 1957 che la giurisdizione costituzionale è unica e ne assorbì le competenze; l’Alta Corte non fu più ricostituita. Le norme dello Statuto non sono state formalmente abrogate.",
+      "daSapere": [
+        "Statuto siciliano: 1946",
+        "Operò dal 1948 al 1955",
+        "Corte cost. 38/1957: unicità della giurisdizione costituzionale"
+      ],
+      "collegamenti": []
+    }
+  ]
+}

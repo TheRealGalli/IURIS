@@ -492,7 +492,7 @@
         "uxor sine manu"
       ],
       "breve": "Matrimonio fondato sulla sola volontà reciproca dei coniugi: la moglie conserva il suo stato originario.",
-      "definizione": "Matrimonio che si fonda sulla **semplice reciproca volontà** dei coniugi di essere marito e moglie, senza acquisto della [[manus]]. La moglie (***uxor sine manu***) **conserva il suo stato originario**. Si contrappone al [[matrimonio-cum-manu]].",
+      "definizione": "Matrimonio che si fonda sulla **semplice reciproca volontà** dei coniugi di essere marito e moglie, senza acquisto della [[manus]], il potere del marito sulla moglie. La moglie (***uxor sine manu***) **conserva il suo stato originario** e resta legata alla famiglia d'origine. Si contrappone al [[matrimonio-cum-manu]], accompagnato dalla [[conventio-in-manum]], che avveniva per [[coemptio]], [[usus]] o [[confarreatio]].",
       "pagine": [
         53,
         53
@@ -531,7 +531,7 @@
       "tipo": "istituto",
       "latino": "usus",
       "breve": "Modo di conventio in manum: applicazione dell'usucapione che dopo un anno ripara errori od omissioni della coemptio.",
-      "definizione": "Secondo modo della [[conventio-in-manum]]: un caso di applicazione dell'**usucapione**, che **dopo un anno** ripara a un **errore od omissione** della [[coemptio]]. Come la coemptio, rientra nella sfera esclusiva del [[ius-civile|diritto civile]].",
+      "definizione": "Secondo modo della [[conventio-in-manum]], con cui la moglie entrava nella sfera di potere del marito: un caso di applicazione dell'**usucapione**, che **dopo un anno** ripara a un **errore od omissione** della [[coemptio]], la vendita fittizia della donna mediante mancipatio. Come la coemptio, rientra nella sfera esclusiva del [[ius-civile|diritto civile]]; il terzo modo, sacrale, è la [[confarreatio]].",
       "pagine": [
         53,
         53
@@ -1463,6 +1463,9 @@
       "pagine": [
         49,
         51
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -2264,6 +2267,40 @@
       ],
       "pagine": [
         51,
+        54
+      ]
+    },
+    {
+      "id": "u04-q054",
+      "tipo": "flashcard",
+      "lezione": "u04-l1",
+      "livello": "base",
+      "domanda": "Che posto occupa il collegio dei pontefici nella gerarchia sacerdotale e qual è il suo peso reale?",
+      "risposta": "Occupa il quinto posto nella gerarchia degli ordini sacerdotali, ma ha una preminenza di fatto sulla vita cittadina: al suo vertice sta il pontefice massimo e detiene il monopolio della conoscenza giuridica.",
+      "concetti": [
+        "collegio-dei-pontefici",
+        "pontefice-massimo",
+        "monopolio-pontificale"
+      ],
+      "pagine": [
+        49,
+        49
+      ]
+    },
+    {
+      "id": "u04-q055",
+      "tipo": "flashcard",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "domanda": "Che cos'era il testamentum calatis comitiis?",
+      "risposta": "Un'antica forma di testamento, spesso abbinata all'adrogatio, celebrata davanti all'assemblea delle curie presieduta dal pontefice massimo («nei comizi convocati»). Il pontefice pronunciava una formula solenne, tramandata da Aulo Gellio.",
+      "concetti": [
+        "testamentum-calatis-comitiis",
+        "comizi-curiati",
+        "pontefice-massimo"
+      ],
+      "pagine": [
+        54,
         54
       ]
     }

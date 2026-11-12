@@ -12,7 +12,7 @@ export interface MateriaInfo {
   file?: string;
   stats?: {
     unita: number; lezioni: number; pagine: number; paginePdf: number | null;
-    concetti: number; eventi: number; domande: number;
+    concetti: number; eventi: number; domande: number; tracceEsame?: number;
   };
 }
 export interface Manifest {
@@ -131,6 +131,8 @@ interface DomandaBase {
   cronologia?: string;
   /** Nei quiz Ordina devono essere stati studiati tutti questi eventi. */
   eventiCronologia?: string[];
+  /** Tracce d'esame dei docenti a cui la domanda risponde: id delle fonti di esame.json. */
+  esame?: string[];
   /** Serie di esercizi a cui la domanda appartiene (es. «procedimenti»): ha una modalità propria in Allenamento. */
   serie?: string;
 }
@@ -162,6 +164,19 @@ export interface Corso {
   norme?: Norme;
   /** schemi d'insieme per la vista Quadro della Mappa (quadro.json) */
   quadro?: { schemi: SchemaQuadro[] };
+  /** tracce d'esame dei docenti (esame.json), legate a lezioni, voci e domande */
+  esame?: { fonti: FonteEsame[]; tracce: TracciaEsame[] };
+}
+
+/** Docente di cui si conoscono le tracce d'esame; `corsi` = id dei corsi (classi) in cui insegna la materia. */
+export interface FonteEsame { id: string; docente: string; corsi: string[] }
+export interface TracciaEsame {
+  id: string; fonte: string;
+  /** testo della traccia come lo ha dato il docente */
+  testo: string;
+  lezioni: string[]; concetti: string[];
+  /** domande aperte che rispondono alla traccia */
+  domande: string[];
 }
 
 export interface Articolo {

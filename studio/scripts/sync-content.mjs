@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY } from 'd3-force';
-import { idsNoti, idsNuoviOltre, validateGlossario, validateOltre, validateSchedeInverse, validateUnit } from './validate-content.mjs';
+import { domandeDellaTraccia, idCorsi, idsNoti, idsNuoviOltre, validateEsame, validateGlossario, validateOltre, validateSchedeInverse, validateUnit } from './validate-content.mjs';
 import { spaceGraphNodes } from './graph-layout.mjs';
 
 const studioRoot = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -350,6 +350,46 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
     corso.norme = norme;
   }
 
+  // esame.json: tracce d'esame dei docenti, legate a lezioni, voci e domande aperte (vedi CONTENUTI.md).
+  // Un file mancante o sbagliato non ferma il sync: si avvisa e si pubblica ciò che è valido.
+  const conEsame = domande.filter((q) => Array.isArray(q.esame) && q.esame.length);
+  const esameFile = path.join(dir, 'esame.json');
+  if (fs.existsSync(esameFile)) {
+    let e = null;
+    try { e = readJson(esameFile); } catch (err) { avvisi.push(`esame.json: JSON non valido (${err.message})`); }
+    if (e && (!Array.isArray(e.fonti) || !Array.isArray(e.tracce))) { avvisi.push('esame.json: servono "fonti" e "tracce"'); e = null; }
+    if (e) {
+      const lezIds = new Set(lezioni.map((l) => l.id));
+      for (const t of e.tracce) if (Array.isArray(t?.concetti)) t.concetti = [...new Set(t.concetti.map(id))];
+      const { errors, senzaDomanda } = validateEsame(e, { lezioni: lezIds, concetti: new Set(concetti.keys()), domande, corsi: idCorsi() });
+      for (const m of errors.slice(0, 12)) avvisi.push(`esame.json: ${m}`);
+      if (errors.length > 12) avvisi.push(`esame.json: altri ${errors.length - 12} errori (node scripts/validate-content.mjs ".../esame.json")`);
+      if (senzaDomanda.length) avvisi.push(`esame.json: ${senzaDomanda.length} tracce senza domanda aperta con "esame": ${senzaDomanda.join(', ')}`);
+      const fontiEsame = e.fonti.filter((f) => f?.id && f.docente && Array.isArray(f.corsi))
+        .map((f) => ({ id: f.id, docente: f.docente, corsi: f.corsi }));
+      const idFonti = new Set(fontiEsame.map((f) => f.id));
+      const viste = new Set();
+      const tracce = [];
+      for (const t of e.tracce) {
+        if (!t?.id || viste.has(t.id) || !idFonti.has(t.fonte) || !t.testo) continue;
+        viste.add(t.id);
+        const pulita = {
+          id: t.id, fonte: t.fonte, testo: String(t.testo).trim(),
+          lezioni: (Array.isArray(t.lezioni) ? t.lezioni : []).filter((l) => lezIds.has(l)),
+          concetti: (Array.isArray(t.concetti) ? t.concetti : []).filter((c) => concetti.has(c)),
+        };
+        pulita.domande = domandeDellaTraccia(pulita, domande).map((q) => q.id);
+        tracce.push(pulita);
+      }
+      corso.esame = { fonti: fontiEsame, tracce };
+      // le domande citano solo fonti esistenti: le altre si tolgono (già segnalate sopra)
+      for (const q of conEsame) { q.esame = q.esame.filter((f) => idFonti.has(f)); if (!q.esame.length) delete q.esame; }
+    }
+  } else if (conEsame.length) {
+    avvisi.push(`${conEsame.length} domande hanno "esame" ma manca esame.json: il campo viene ignorato`);
+  }
+  if (!corso.esame) for (const q of conEsame) delete q.esame;
+
   const quadro = facoltativo('quadro.json');
   if (quadro) {
     const pulisci = (x, dove) => { if (x && typeof x === 'object') { if ('concetto' in x) x.concetto = voce(x.concetto, dove); for (const v of Object.values(x)) (Array.isArray(v) ? v : [v]).forEach((y) => pulisci(y, dove)); } };
@@ -364,13 +404,17 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
     concetti: corso.concetti.length,
     eventi: corso.eventi.length,
     domande: domande.length,
+    ...(corso.esame ? { tracceEsame: corso.esame.tracce.length } : {}),
   };
   return { corso, stats, avvisi };
 }
 
-fs.rmSync(outRoot, { recursive: true, force: true });
+// La cartella di uscita non si svuota prima: se una materia ha un errore (per esempio mentre qualcuno la sta
+// modificando) le altre vengono aggiornate, quella resta com'era nell'ultimo sync riuscito e lo script esce con errore.
 fs.mkdirSync(outRoot, { recursive: true });
 const manifest = { generatedAt: new Date().toISOString(), materie: [] };
+const precedente = (() => { try { return readJson(path.join(outRoot, 'manifest.json')).materie ?? []; } catch { return []; } })();
+const falliti = [];
 
 for (const entry of fs.readdirSync(iurisRoot, { withFileTypes: true })) {
   if (!entry.isDirectory() || SKIP.has(entry.name) || entry.name.startsWith('.')) continue;
@@ -386,7 +430,16 @@ for (const entry of fs.readdirSync(iurisRoot, { withFileTypes: true })) {
     console.log(`[sync] ${entry.name.trim()}: in preparazione, nessuna unità`);
     continue;
   }
-  const { corso, stats, avvisi } = buildCorso(materiaDir, materiaSlug, entry.name.trim());
+  let esito;
+  try { esito = buildCorso(materiaDir, materiaSlug, entry.name.trim()); }
+  catch (e) {
+    falliti.push(`${entry.name.trim()}: ${e.message}`);
+    const vecchia = precedente.find((m) => m.slug === materiaSlug);
+    if (vecchia && fs.existsSync(path.join(outRoot, materiaSlug, 'corso.json'))) manifest.materie.push(vecchia);
+    continue;
+  }
+  const { corso, stats, avvisi } = esito;
+  fs.rmSync(path.join(outRoot, materiaSlug), { recursive: true, force: true });
   fs.mkdirSync(path.join(outRoot, materiaSlug), { recursive: true });
   for (const [file, dati] of corso.normeFile ?? []) {
     const dest = path.join(outRoot, materiaSlug, file);
@@ -405,5 +458,13 @@ for (const entry of fs.readdirSync(iurisRoot, { withFileTypes: true })) {
 }
 
 manifest.materie.sort((a, b) => Number(b.disponibile) - Number(a.disponibile) || a.nome.localeCompare(b.nome, 'it'));
+// materie tolte o tornate «in preparazione»: la loro cartella non deve restare pubblicata
+for (const d of fs.readdirSync(outRoot, { withFileTypes: true })) {
+  if (d.isDirectory() && !manifest.materie.some((m) => m.slug === d.name)) fs.rmSync(path.join(outRoot, d.name), { recursive: true, force: true });
+}
 fs.writeFileSync(path.join(outRoot, 'manifest.json'), JSON.stringify(manifest, null, 2));
 console.log(`[sync] ${manifest.materie.length} materie in public/content`);
+if (falliti.length) {
+  for (const f of falliti) console.error(`[sync] ERRORE ${f}\n[sync]   (resta pubblicata la versione dell'ultimo sync riuscito, se c'era)`);
+  process.exit(1);
+}

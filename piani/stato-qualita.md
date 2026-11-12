@@ -1,4 +1,31 @@
-# Stato e qualità dei contenuti (11 novembre 2026)
+# Stato e qualità dei contenuti
+
+## Aggiornamento al 12 novembre 2026 (piano finale, fasi 0–5)
+
+Misure sul corso generato (`studio/public/content/*/corso.json`, parole contate con `\w+`; «relazioni per voce» =
+archi della mappa / voci). Tutte le materie delle tre classi raggiungono le misure obiettivo del piano finale; le
+eccezioni sono spiegate sotto la tabella. Resoconti per area in [`fase-finale/`](fase-finale/).
+
+| Materia | Classi | Voci | Definizione mediana (parole) | Sotto 40 parole | Relazioni per voce | Collegamenti ogni 100 parole di sintesi | Approfondimenti | Schede inverse | Domande per lezione (min) | Voci con domande | Tracce d'esame | Eventi |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Diritto romano | tutte | 553 | 64 | 2% | 2,52 | 2,46 | 57% | 18% | 14 | 100% | 39 (Starace) | 166 |
+| Filosofia LMG | A-L | 483 | 60 | 12% | 2,03 | 2,07 | 50% | 42% | 14 | 99% | 21 (Incampo, Cotta) | 44 |
+| Filosofia M-Z | M-Z | 332 | 95 | 0% | 2,21 | 2,34 | 71% | 42% | 14 | 100% | — (nessun elenco) | 53 |
+| Filosofia SSG | SSG | 379 | 64 | 12% | 2,03 | 2,44 | 55% | 44% | 10 (solo u17, fuori programma) | 100% | — (nessun elenco) | 47 |
+| Diritto costituzionale | A-L | 280 | 111 | 0% | 2,03 | 2,11 | 51% | 64% | 14 | 100% | 30 (Torre) | 82 |
+| Diritto costituzionale Martines | M-Z, SSG | 623 | 88 | 0% | 2,41 | 2,66 | 59% | 37% | 14 | 100% | — (nessun elenco) | 219 |
+| Diritto privato | tutte | 506 | 113 | 0% | 2,02 | 2,72 | 53% | 66% | 14 | 100% | 61 (Lobuono, Pennasilico) | 70 |
+
+- Filosofia LMG e SSG: il 12% di definizioni sotto 40 parole riguarda voci minori; la mediana è nell'obiettivo.
+- Filosofia SSG, u17: fuori programma per il docente, domande al minimo del validatore.
+- Tracce d'esame: mancano gli elenchi per Martines (M-Z e SSG), Filosofia M-Z e Siniscalchi. Pennasilico: il PDF
+  è tagliato dopo «I diritti di credito» (22 tracce).
+- Originali: 12 documenti, 1.500 pagine; Martines dal PDF, Filosofia M-Z solo testo (Barberis e Schauer).
+- Verifica dei fatti scritti a memoria: [`fase-finale/verifica-fatti.md`](fase-finale/verifica-fatti.md).
+
+---
+
+## Stato all'11 novembre 2026 (punto di partenza)
 
 Resoconto pensato come punto di partenza per il prossimo giro (nuovi PDF con le domande dei docenti, lavoro con Fable).
 Le percentuali «rispetto a Diritto romano» in `consegne-prossimi-passi.md` sono **solo numeriche**: misurano quanto

@@ -1,0 +1,225 @@
+{
+  "voci": [
+    {
+      "id": "ugo-grozio",
+      "oltre": "Ugo Grozio (Huig de Groot, Delft 1583 – Rostock 1645) fu giurista, teologo e diplomatico olandese. Coinvolto nei conflitti religiosi delle Province Unite, fu condannato al carcere a vita e nel 1621 evase dal castello di Loevestein nascosto in una cassa di libri; visse poi in esilio, soprattutto a Parigi, dove fu ambasciatore della Svezia.\n\nOpere principali: *Mare liberum* (1609), a favore della libertà dei mari, e *De iure belli ac pacis* (1625), considerato il testo fondativo del diritto internazionale moderno.\n\nÈ il padre del [[giusrazionalismo|giusnaturalismo moderno]]: il diritto naturale deriva dalla ragione e dalla natura sociale dell'uomo (*appetitus societatis*) e varrebbe «anche se ammettessimo che Dio non esiste» (*etiamsi daremus non esse Deum*), formula con cui il diritto naturale si emancipa dalla teologia.",
+      "daSapere": [
+        "Delft 1583 – Rostock 1645",
+        "Mare liberum (1609); De iure belli ac pacis (1625)",
+        "Diritto naturale razionale, valido etiamsi daremus non esse Deum"
+      ],
+      "collegamenti": [
+        {
+          "da": "ugo-grozio",
+          "a": "samuel-pufendorf",
+          "tipo": "influenza",
+          "etichetta": "apre la strada a"
+        }
+      ]
+    },
+    {
+      "id": "samuel-pufendorf",
+      "oltre": "Samuel Pufendorf (1632–1694) fu giurista e storico tedesco. Nel 1661 ottenne a Heidelberg la prima cattedra di diritto naturale e delle genti in Germania; insegnò poi a Lund, in Svezia, e lavorò come storiografo alle corti di Stoccolma e di Berlino.\n\nOpere principali: *De iure naturae et gentium* (1672) e il compendio *De officio hominis et civis* (1673), a lungo manuale universitario in tutta Europa.\n\nSistematizza il [[giusrazionalismo|giusnaturalismo razionalista]] dopo [[ugo-grozio|Grozio]] e [[thomas-hobbes|Hobbes]]: il fondamento del diritto naturale è la **socialità** (*socialitas*), cioè il dovere di coltivare la vita sociale imposto dalla debolezza dell'uomo isolato. Distingue gli enti fisici dagli **enti morali**, imposti dagli uomini alle cose e alle azioni. La sua sistematica influenza le codificazioni del Settecento, a cominciare dal Codice prussiano.",
+      "daSapere": [
+        "1632–1694; prima cattedra di diritto naturale (Heidelberg, 1661)",
+        "De iure naturae et gentium (1672); De officio hominis et civis (1673)",
+        "Socialitas come fondamento del diritto naturale"
+      ],
+      "collegamenti": [
+        {
+          "da": "samuel-pufendorf",
+          "a": "codificazione",
+          "tipo": "influenza",
+          "etichetta": "con la sua sistematica prepara la"
+        }
+      ]
+    },
+    {
+      "id": "cesare-beccaria",
+      "oltre": "Cesare Beccaria (Milano 1738–1794) è il più noto esponente dell'[[illuminismo-giuridico|illuminismo giuridico]] italiano. Vicino ai fratelli Pietro e Alessandro Verri e al circolo della rivista «Il Caffè», pubblicò anonimo a Livorno nel **1764** *Dei delitti e delle pene*, tradotto in francese nel 1766 e lodato da Voltaire e dagli enciclopedisti. Più tardi insegnò economia pubblica a Milano e fu funzionario dell'amministrazione austriaca.\n\nIl libro sostiene che le pene devono essere stabilite solo dalla **legge** (principio di legalità), proporzionate ai delitti, pronte e certe più che severe; condanna la **tortura** e la **pena di morte**, che il contratto sociale non può giustificare. Contro l'arbitrio dei giudici chiede leggi chiare e un'interpretazione ridotta al sillogismo. Nel 1786 il Granducato di Toscana di Pietro Leopoldo abolì per primo la pena di morte.",
+      "daSapere": [
+        "Milano 1738–1794; «Il Caffè», fratelli Verri",
+        "Dei delitti e delle pene (1764)",
+        "Legalità e proporzionalità delle pene; contro tortura e pena di morte",
+        "1786: la Toscana abolisce la pena di morte"
+      ]
+    },
+    {
+      "id": "john-finnis",
+      "oltre": "John Finnis (Adelaide, 1940) è un filosofo del diritto australiano, a lungo professore a Oxford, dove fu allievo di [[hart|Hart]]. La sua opera principale, *Natural Law and Natural Rights* (1980), rinnova il diritto naturale di tradizione tomista nel linguaggio della filosofia analitica.\n\nIl punto di partenza non è una natura umana descritta come fatto, da cui si dedurrebbero doveri, ma alcuni **beni fondamentali** evidenti alla ragione pratica: vita, conoscenza, gioco, esperienza estetica, socialità o amicizia, ragionevolezza pratica, religione (più tardi aggiunge il matrimonio). Le esigenze della ragionevolezza pratica ne ricavano i principi morali; il diritto positivo è il modo in cui l'autorità coordina la comunità per il **bene comune**. Il diritto ingiusto resta diritto in un senso descrittivo, ma è un caso difettoso e non obbliga moralmente come il diritto giusto.",
+      "daSapere": [
+        "Nato nel 1940; Oxford, allievo di Hart",
+        "Natural Law and Natural Rights (1980)",
+        "Beni fondamentali e ragionevolezza pratica",
+        "Il diritto ingiusto è un caso difettoso di diritto"
+      ],
+      "collegamenti": [
+        {
+          "da": "john-finnis",
+          "a": "tommaso-d-aquino",
+          "tipo": "interpreta",
+          "etichetta": "rinnova il diritto naturale di"
+        },
+        {
+          "da": "john-finnis",
+          "a": "hart",
+          "tipo": "contrasta",
+          "etichetta": "pur allievo, discute il positivismo di"
+        }
+      ]
+    },
+    {
+      "id": "john-rawls",
+      "oltre": "John Rawls (Baltimora 1921 – Lexington 2002) fu filosofo politico statunitense, professore a Harvard. *Una teoria della giustizia* (*A Theory of Justice*, **1971**) è considerata l'opera che ha rilanciato la filosofia politica normativa nel secondo Novecento.\n\nRawls propone la «**giustizia come equità**» (*justice as fairness*): i principi giusti sono quelli che sceglierebbero persone libere ed eguali nella [[posizione-originaria|posizione originaria]], sotto un **velo d'ignoranza** che nasconde loro la propria posizione sociale e i propri talenti. Ne derivano due principi: eguali libertà fondamentali per tutti; disuguaglianze economiche ammesse solo con eguaglianza di opportunità e a vantaggio dei meno avvantaggiati (**principio di differenza**). Il metodo è l'**equilibrio riflessivo** fra principi e giudizi ponderati.\n\nOpere successive: *Liberalismo politico* (1993) e *Il diritto dei popoli* (1999). Lo criticano da destra Nozick (*Anarchia, Stato e utopia*, 1974) e i comunitaristi.",
+      "daSapere": [
+        "Baltimora 1921 – 2002; Harvard",
+        "A Theory of Justice (1971); Political Liberalism (1993); The Law of Peoples (1999)",
+        "Velo d'ignoranza; principio di differenza; equilibrio riflessivo"
+      ],
+      "collegamenti": [
+        {
+          "da": "john-rawls",
+          "a": "contrattualismo",
+          "tipo": "interpreta",
+          "etichetta": "rinnova il"
+        },
+        {
+          "da": "john-rawls",
+          "a": "utilitarismo",
+          "tipo": "contrasta",
+          "etichetta": "critica l'"
+        }
+      ]
+    },
+    {
+      "id": "giovanni-gentile",
+      "oltre": "Giovanni Gentile (Castelvetrano 1875 – Firenze 1944) fu, con [[benedetto-croce|Croce]], il maggiore esponente del [[neohegelismo|neoidealismo]] italiano. La sua filosofia, detta **attualismo**, risolve tutta la realtà nell'atto del pensiero che pensa.\n\nMinistro della Pubblica istruzione nel primo governo Mussolini, firmò la riforma della scuola del **1923**; nel 1925 scrisse il *Manifesto degli intellettuali fascisti*, a cui Croce rispose con il manifesto antifascista. Diresse l'*Enciclopedia italiana* e aderì alla Repubblica sociale; fu ucciso a Firenze nel 1944 da partigiani dei GAP.\n\nPer il diritto conta la sua concezione dello [[stato-etico|Stato etico]]: lo Stato non è un limite esterno alla libertà degli individui, ma la loro stessa volontà universale, *interiore* all'individuo. È la versione della formula hegeliana che il fascismo utilizzò, e che spiega la diffidenza del dopoguerra verso ogni identificazione fra diritto e morale.",
+      "daSapere": [
+        "Castelvetrano 1875 – Firenze 1944",
+        "Attualismo; riforma della scuola (1923)",
+        "Manifesto degli intellettuali fascisti (1925)",
+        "Stato etico interiore all'individuo"
+      ]
+    },
+    {
+      "id": "gottlob-frege",
+      "oltre": "Gottlob Frege (Wismar 1848 – Bad Kleinen 1925), matematico e logico tedesco, insegnò a Jena. È considerato il fondatore della **logica moderna** e il padre della [[filosofia-analitica|filosofia analitica]].\n\nNell'*Ideografia* (*Begriffsschrift*, 1879) costruisce il primo linguaggio formale con quantificatori; nei *Fondamenti dell'aritmetica* (1884) tenta di ridurre la matematica alla logica (logicismo), progetto messo in crisi nel 1902 dal paradosso scoperto da Bertrand Russell. Nel saggio *Senso e significato* (1892) distingue il **senso** di un'espressione (il modo in cui presenta l'oggetto) dal suo **significato** o riferimento (l'oggetto stesso): «stella del mattino» e «stella della sera» hanno sensi diversi ma indicano lo stesso pianeta, Venere.\n\nDa lui nasce l'idea che i problemi filosofici si chiariscano analizzando il linguaggio, ripresa da [[wittgenstein|Wittgenstein]] e, nel diritto, da Hart e dalla Scuola analitica.",
+      "daSapere": [
+        "Wismar 1848 – 1925; Jena",
+        "Ideografia (1879); Fondamenti dell'aritmetica (1884)",
+        "Senso e significato (1892): stella del mattino / della sera"
+      ]
+    },
+    {
+      "id": "hans-georg-gadamer",
+      "oltre": "Hans-Georg Gadamer (Marburgo 1900 – Heidelberg 2002), allievo di [[heidegger|Heidegger]], insegnò a Lipsia, Francoforte e Heidelberg. La sua opera principale, *Verità e metodo* (**1960**), è il testo fondamentale dell'[[ermeneutica|ermeneutica]] filosofica.\n\nContro l'idea che comprendere significhi applicare un metodo neutrale, Gadamer sostiene che ogni comprensione parte da **pregiudizi** (la [[precomprensione|precomprensione]]) che non vanno eliminati ma messi alla prova nel dialogo con il testo. Comprendere è una **fusione di orizzonti** fra quello dell'interprete e quello del testo, dentro la «storia degli effetti» della tradizione. Ogni comprensione è anche **applicazione** al presente.\n\nPer questo Gadamer indica proprio l'**ermeneutica giuridica**, in cui il giudice applica la legge al caso, come modello esemplare di ogni interpretazione: un'idea ripresa dai giuristi tedeschi, a cominciare da [[josef-esser|Esser]].",
+      "daSapere": [
+        "Marburgo 1900 – Heidelberg 2002; allievo di Heidegger",
+        "Verità e metodo (1960)",
+        "Pregiudizi, fusione di orizzonti, applicazione",
+        "L'ermeneutica giuridica come modello"
+      ],
+      "collegamenti": [
+        {
+          "da": "hans-georg-gadamer",
+          "a": "heidegger",
+          "tipo": "interpreta",
+          "etichetta": "sviluppa l'ermeneutica di"
+        },
+        {
+          "da": "hans-georg-gadamer",
+          "a": "josef-esser",
+          "tipo": "influenza",
+          "etichetta": "ispira"
+        }
+      ]
+    },
+    {
+      "id": "john-austin",
+      "oltre": "John Austin (1790–1859), giurista inglese, fu allievo e amico di [[jeremy-bentham|Bentham]]. Nel 1826 ebbe la prima cattedra di *jurisprudence* dello University College di Londra; le sue lezioni, pubblicate in parte come *The Province of Jurisprudence Determined* (**1832**), fondano la [[analytical-jurisprudence|jurisprudence analitica]] inglese.\n\nIl diritto positivo è l'insieme dei **comandi** del **sovrano**, cioè di chi è abitualmente obbedito dalla maggior parte di una società e non obbedisce abitualmente a nessuno; il comando è sostenuto dalla minaccia di una **sanzione**. Austin separa nettamente il diritto com'è dal diritto come dovrebbe essere: l'esistenza del diritto è una cosa, il suo merito un'altra. Le norme non comandate dal sovrano sono [[morale-positiva|morale positiva]].\n\nVa distinto da John L. Austin (1911–1960), filosofo di Oxford degli atti linguistici. [[hart|Hart]] criticherà l'[[imperativismo|imperativismo]] di Austin con l'esempio del bandito che ordina «o la borsa o la vita».",
+      "daSapere": [
+        "1790–1859; allievo di Bentham",
+        "The Province of Jurisprudence Determined (1832)",
+        "Diritto = comandi del sovrano sostenuti da sanzione",
+        "Da non confondere con John L. Austin degli atti linguistici"
+      ]
+    },
+    {
+      "id": "wesley-hohfeld",
+      "oltre": "Wesley Newcomb Hohfeld (1879–1918), giurista statunitense, insegnò a Stanford e a Yale. Morì giovane, lasciando soprattutto due saggi intitolati *Fundamental Legal Conceptions as Applied in Judicial Reasoning* (1913 e 1917).\n\nHohfeld mostra che la parola «diritto» copre posizioni diverse e propone **otto concetti fondamentali**, ordinati in coppie di **correlativi** (ciò che uno ha, l'altro subisce):\n- **pretesa** (*right*) / **dovere** (*duty*);\n- **libertà** o privilegio (*privilege*) / **non-pretesa** (*no-right*);\n- **potere** (*power*) / **soggezione** (*liability*);\n- **immunità** (*immunity*) / **incompetenza** (*disability*).\n\nOgni concetto ha anche un **opposto** (per esempio pretesa e non-pretesa). Lo schema serve a evitare equivoci nelle sentenze e resta uno strumento classico della teoria dei diritti soggettivi; il [[realismo-giuridico-americano|realismo giuridico americano]] lo considera un modello di analisi dei concetti giuridici.",
+      "daSapere": [
+        "1879–1918; Stanford e Yale",
+        "Fundamental Legal Conceptions (1913, 1917)",
+        "Otto concetti: pretesa/dovere, libertà/non-pretesa, potere/soggezione, immunità/incompetenza"
+      ]
+    },
+    {
+      "id": "roscoe-pound",
+      "oltre": "Roscoe Pound (1870–1964), giurista statunitense, fu preside della Harvard Law School dal 1916 al 1936. È il fondatore della **sociological jurisprudence**, la giurisprudenza sociologica americana.\n\nNel saggio *Law in Books and Law in Action* (1910) distingue il diritto scritto nei libri da quello che opera davvero nei tribunali e nella società, anticipando un tema del [[realismo-giuridico-americano|realismo]]. Per Pound il diritto è uno strumento di **ingegneria sociale** (*social engineering*): deve bilanciare gli **interessi** individuali, pubblici e sociali, e la scienza giuridica deve studiarne gli effetti concreti invece di limitarsi alla logica dei concetti.\n\nSi ispira alla giurisprudenza degli interessi tedesca e a [[rudolf-von-jhering|Jhering]], ma resta più moderato dei realisti: polemizzò con [[karl-llewellyn|Llewellyn]] all'inizio degli anni Trenta.",
+      "daSapere": [
+        "1870–1964; preside di Harvard Law School 1916–1936",
+        "Law in Books and Law in Action (1910)",
+        "Diritto come ingegneria sociale e bilanciamento di interessi"
+      ],
+      "collegamenti": [
+        {
+          "da": "roscoe-pound",
+          "a": "rudolf-von-jhering",
+          "tipo": "interpreta",
+          "etichetta": "riprende il diritto come tutela di interessi di"
+        },
+        {
+          "da": "roscoe-pound",
+          "a": "karl-llewellyn",
+          "tipo": "contrasta",
+          "etichetta": "polemizza con"
+        }
+      ]
+    },
+    {
+      "id": "hermann-kantorowicz",
+      "oltre": "Hermann Kantorowicz (Posen 1877 – Cambridge 1940), giurista tedesco, fu tra i promotori del [[movimento-del-diritto-libero|movimento del diritto libero]] (*Freirechtsbewegung*). Il suo manifesto, *La lotta per la scienza del diritto* (*Der Kampf um die Rechtswissenschaft*), uscì nel **1906** con lo pseudonimo **Gnaeus Flavius**, il nome dello scriba romano che secondo la tradizione rese pubbliche le formule del processo.\n\nIl manifesto sostiene che la legge ha inevitabilmente lacune e che accanto al diritto statale esiste un **diritto libero**, prodotto dall'opinione giuridica dei membri della società, dai giudici e dalla scienza; il giudice, quando la legge tace o è dubbia, deve decidere secondo questo diritto e secondo il proprio senso di giustizia. Kantorowicz fu anche storico del diritto medievale. Di origine ebraica, dopo il 1933 fu allontanato dall'insegnamento e riparò negli Stati Uniti e poi in Inghilterra.",
+      "daSapere": [
+        "Posen 1877 – Cambridge 1940",
+        "La lotta per la scienza del diritto (1906), firmata Gnaeus Flavius",
+        "Diritto libero accanto al diritto statale"
+      ],
+      "collegamenti": [
+        {
+          "da": "hermann-kantorowicz",
+          "a": "formalismo-giuridico",
+          "tipo": "contrasta",
+          "etichetta": "attacca il"
+        }
+      ]
+    },
+    {
+      "id": "axel-hagerstrom",
+      "oltre": "Axel Hägerström (1868–1939), filosofo svedese, insegnò a Uppsala ed è il fondatore della **scuola di Uppsala**, da cui nasce il [[realismo-giuridico-scandinavo|realismo giuridico scandinavo]].\n\nLa sua filosofia è un **antimetafisico** radicale: reale è solo ciò che sta nello spazio e nel tempo. Ne derivano due tesi. In etica, il **nichilismo dei valori**: i giudizi di valore non sono veri né falsi, ma espressione di sentimenti. Nel diritto, la critica dei concetti di diritto soggettivo, dovere e validità: non corrispondono a nulla di reale, ma a forze «mistiche». Nei suoi studi sul diritto romano (*Der römische Obligationsbegriff*, 1927) sostiene che gli atti formali del diritto antico avevano un'origine **magica**: le parole solenni dovevano produrre effetti soprannaturali.\n\nAllievi e continuatori furono Lundstedt, [[karl-olivecrona|Olivecrona]] e, in Danimarca, [[alf-ross|Ross]].",
+      "daSapere": [
+        "1868–1939; Uppsala",
+        "Antimetafisica e nichilismo dei valori",
+        "Origine magica dei concetti giuridici romani",
+        "Allievi: Lundstedt, Olivecrona; Ross"
+      ]
+    },
+    {
+      "id": "karl-olivecrona",
+      "oltre": "Karl Olivecrona (1897–1980), giurista svedese allievo di [[axel-hagerstrom|Hägerström]], insegnò a Lund ed è, con [[alf-ross|Ross]], il più noto esponente del [[realismo-giuridico-scandinavo|realismo giuridico scandinavo]].\n\nLa sua opera principale è *Il diritto come fatto* (*Law as Fact*, 1939; seconda edizione molto rielaborata 1971). Le norme giuridiche non sono comandi di un sovrano, perché nessuna persona reale comanda davvero a tutti: sono **imperativi indipendenti**, formule linguistiche che influenzano psicologicamente la condotta delle persone senza provenire da un soggetto determinato. La «forza vincolante» del diritto è un'idea priva di riferimento reale; ciò che esiste è un apparato organizzato che usa la forza in modo regolare e l'abitudine psicologica all'obbedienza.\n\nSi colloca quindi contro il giusnaturalismo e contro l'[[imperativismo|imperativismo]] di Austin.",
+      "daSapere": [
+        "1897–1980; Lund; allievo di Hägerström",
+        "Law as Fact (1939; 2ª ed. 1971)",
+        "Le norme come imperativi indipendenti"
+      ]
+    },
+    {
+      "id": "maurice-hauriou",
+      "oltre": "Maurice Hauriou (1856–1929), giurista francese, fu a lungo preside della facoltà di diritto di Tolosa ed è uno dei fondatori del diritto amministrativo francese moderno, noto per i commenti alle decisioni del Consiglio di Stato.\n\nÈ il padre dell'[[istituzionalismo|istituzionalismo]]: nel saggio *La teoria dell'istituzione e della fondazione* (1925) definisce l'**istituzione** come un'idea d'opera o d'impresa (*idée d'œuvre*) che si realizza e dura in un ambiente sociale; per realizzarla si organizza un potere che le procura degli organi, e fra i membri del gruppo interessati alla realizzazione dell'idea si producono manifestazioni di comunione. Lo Stato, i sindacati, le associazioni sono istituzioni; il diritto nasce da esse e non soltanto dalla legge.\n\nIn Italia la teoria fu ripensata da [[santi-romano|Santi Romano]], che identificò istituzione e ordinamento giuridico.",
+      "daSapere": [
+        "1856–1929; Tolosa; diritto amministrativo",
+        "La teoria dell'istituzione e della fondazione (1925)",
+        "Istituzione come idea d'opera che dura in un ambiente sociale"
+      ]
+    }
+  ]
+}

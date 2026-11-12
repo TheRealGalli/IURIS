@@ -771,7 +771,7 @@
         "imperium maius et infinitum"
       ],
       "breve": "Il comando del principe su tutte le forze armate e le province, senza limiti di tempo e di spazio.",
-      "definizione": "Forma di potestas che spetta al princeps, assunta da Augusto dopo la seduta del Senato del **27 a.C.**: il comando su **tutte le forze armate**, in tutte le province, soprattutto quelle strategiche. Non ha limiti né di tempo né di spazio (Plinio parla di *omnium rerum potestas*). È una delle basi degli [[edicta|editti]] del principe.",
+      "definizione": "Forma di potestas che spetta al princeps, assunta da Augusto dopo la seduta del Senato del **27 a.C.**: il comando su **tutte le forze armate**, in tutte le province, soprattutto quelle strategiche. Non ha limiti né di tempo né di spazio (Plinio parla di *omnium rerum potestas*). È una delle basi degli [[edicta|editti]] del principe. Si affianca alla [[tribunicia-potestas]] tra le forme del potere del principe.",
       "pagine": [
         125,
         139
@@ -1107,7 +1107,7 @@
         "divo Antonino"
       ],
       "breve": "Imperatore antonino: per aequitas fa concedere l'in integrum restitutio e decide sul legato vindicatorio secondo Proculo.",
-      "definizione": "Imperatore della dinastia degli Antonini, padre adottivo di Marco Aurelio. In nome dell'[[aequitas]] invita il pretore a concedere l'[[in-integrum-restitutio]] al convenuto che non aveva udito l'araldo; con un rescritto impone che il figlio sobrio sia curatore del padre, contro [[celso|Celso]]; con una costituzione fa prevalere sul legato vindicatorio il regime dei [[proculiani]].",
+      "definizione": "Imperatore della dinastia degli Antonini, padre adottivo di Marco Aurelio. In nome dell'[[aequitas]] invita il pretore a concedere l'[[in-integrum-restitutio]] al convenuto che non aveva udito l'araldo; con un rescritto impone che il figlio sobrio sia curatore del padre, contro [[celso|Celso]]; con una costituzione fa prevalere sul legato vindicatorio il regime dei [[proculiani]]. Sotto di lui visse il giurista [[pomponio|Pomponio]], autore dell'[[enchiridion|Enchiridion]].",
       "pagine": [
         134,
         151
@@ -1349,7 +1349,7 @@
         "passività"
       ],
       "breve": "Il principe interviene normativamente solo su sollecitazione esterna: tratto comune degli atti imperiali.",
-      "definizione": "Minimo comun denominatore degli atti imperiali: il principe non interviene di sua iniziativa ma **su sollecitazione** di sudditi, magistrati e funzionari, perché ha il dovere regale di ascoltare («l'aver tempo e il concedere la parola» sono il modo del regnare). Radici: il **patronato** aristocratico-repubblicano e il **sovrano macedonico-ellenistico**. Si vede soprattutto nei [[rescripta]] e nei [[decreta]].",
+      "definizione": "Minimo comun denominatore degli atti imperiali: il principe non interviene di sua iniziativa ma **su sollecitazione** di sudditi, magistrati e funzionari, perché ha il dovere regale di ascoltare («l'aver tempo e il concedere la parola» sono il modo del regnare). Radici: il **patronato** aristocratico-repubblicano e il **sovrano macedonico-ellenistico**. Si vede soprattutto nei [[rescripta]] e nei [[decreta]]. Rescritti e decreti nascono infatti da un caso singolo.",
       "pagine": [
         142,
         145
@@ -3134,6 +3134,9 @@
       "pagine": [
         127,
         129
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -3381,6 +3384,9 @@
       "pagine": [
         129,
         130
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -3662,6 +3668,9 @@
       "pagine": [
         131,
         133
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -3942,6 +3951,9 @@
       "pagine": [
         133,
         137
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -4269,6 +4281,9 @@
       "pagine": [
         138,
         141
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -4837,6 +4852,9 @@
       "pagine": [
         145,
         146
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -5554,6 +5572,87 @@
       "concetti": [
         "humanitas",
         "aequitas"
+      ],
+      "pagine": [
+        147,
+        149
+      ]
+    },
+    {
+      "id": "u08-q147",
+      "tipo": "flashcard",
+      "lezione": "u08-l1",
+      "livello": "medio",
+      "domanda": "Che cos'è l'imperium proconsulare maius et infinitum?",
+      "risposta": "È il comando che spetta al principe su tutte le forze armate e in tutte le province, soprattutto quelle strategiche, senza limiti di tempo né di spazio. Augusto lo assume dopo la seduta del Senato del 27 a.C.",
+      "concetti": [
+        "imperium-proconsulare-maius",
+        "augusto",
+        "princeps"
+      ],
+      "pagine": [
+        125,
+        127
+      ]
+    },
+    {
+      "id": "u08-q148",
+      "tipo": "multipla",
+      "lezione": "u08-l3",
+      "livello": "base",
+      "domanda": "Secondo Pomponio, a quale scopo Augusto stabilì che alcuni giuristi rispondessero in base alla sua autorità?",
+      "opzioni": [
+        "Per ridurre il numero dei giuristi",
+        "Perché vi fosse una maggiore autorità del diritto",
+        "Per abolire i responsi orali",
+        "Per sottrarre le liti al pretore"
+      ],
+      "corretta": 1,
+      "spiegazione": "Pomponio, nell'Enchiridion, dice che Augusto lo stabilì per primo «affinché vi fosse una maggiore autorità del diritto».",
+      "concetti": [
+        "ius-respondendi",
+        "augusto",
+        "enchiridion"
+      ],
+      "pagine": [
+        129,
+        129
+      ]
+    },
+    {
+      "id": "u08-q149",
+      "tipo": "verofalso",
+      "lezione": "u08-l3",
+      "livello": "medio",
+      "affermazione": "Nella Repubblica l'autorità del giurista derivava da un'autorizzazione dei magistrati.",
+      "vero": false,
+      "spiegazione": "Falso: era un'autorità personale, che derivava per esempio dal suo talento. Solo con lo ius respondendi l'autorità del principe si sovrappone a quella del giurista.",
+      "concetti": [
+        "auctoritas",
+        "ius-respondendi"
+      ],
+      "pagine": [
+        129,
+        130
+      ]
+    },
+    {
+      "id": "u08-q150",
+      "tipo": "multipla",
+      "lezione": "u08-l9",
+      "livello": "medio",
+      "domanda": "Da quale opera proviene il decreto del «divino Marco» sulla violenza?",
+      "opzioni": [
+        "Dai Pensieri di Marco Aurelio",
+        "Dal de cognitionibus di Callistrato",
+        "Dall'Enchiridion di Pomponio",
+        "Dalle Institutiones di Gaio"
+      ],
+      "corretta": 1,
+      "spiegazione": "Lo riferisce Callistrato nel de cognitionibus: è violenza ogni volta che si cerca di ottenere, senza ricorrere al giudice, ciò che si afferma dovuto.",
+      "concetti": [
+        "callistrato",
+        "marco-aurelio"
       ],
       "pagine": [
         147,

@@ -1,0 +1,511 @@
+{
+  "voci": [
+    {
+      "id": "inadempimento",
+      "oltre": "### Una regola, quattro rimedi\nL'art. 1218 c.c. pone la regola generale: il debitore che non esegue esattamente la prestazione risarcisce il danno se non prova che l'inadempimento o il ritardo derivano da impossibilità per causa a lui non imputabile. La colpa non va quindi provata dal creditore: è il debitore a dover dimostrare la causa che lo libera.\n\nSul riparto della prova le Sezioni Unite della Cassazione (sentenza n. 13533 del 2001) hanno fissato un criterio unico per adempimento, risoluzione e risarcimento: il creditore prova la fonte del suo diritto e si limita ad **allegare** l'inadempimento; spetta al debitore provare di avere adempiuto.\n\nDi fronte all'inadempimento il creditore, nei contratti corrispettivi, può scegliere tra rimedi diversi: chiedere l'adempimento, chiedere la [[risoluzione-per-inadempimento]] se l'inadempimento non è di scarsa importanza (art. 1455 c.c.), sospendere la propria prestazione con l'[[eccezione-di-inadempimento]] e, in ogni caso, chiedere il risarcimento del danno.",
+      "daSapere": [
+        "Art. 1218 c.c.: il debitore prova la causa non imputabile",
+        "Cass. S.U. 13533/2001: il creditore allega l'inadempimento",
+        "Risoluzione solo se l'inadempimento non è di scarsa importanza"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1218, 1453–1460",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "inadempimento",
+          "a": "risoluzione-per-inadempimento",
+          "tipo": "collegato",
+          "etichetta": "può giustificare la"
+        },
+        {
+          "da": "inadempimento",
+          "a": "eccezione-di-inadempimento",
+          "tipo": "collegato",
+          "etichetta": "consente di opporre l'"
+        }
+      ]
+    },
+    {
+      "id": "famiglia",
+      "oltre": "### Dalla famiglia gerarchica alla famiglia paritaria\nLa Costituzione riconosce i diritti della famiglia come società naturale fondata sul [[matrimonio]] e ne fonda l'ordinamento sull'eguaglianza morale e giuridica dei coniugi (art. 29 Cost.); l'art. 30 impone ai genitori di mantenere, istruire ed educare i figli, anche se nati fuori del matrimonio.\n\nIl Codice del 1942 conservava però una famiglia gerarchica, con il marito capo della famiglia e la patria potestà. Il cambiamento decisivo è la **riforma del diritto di famiglia** (legge 19 maggio 1975, n. 151): parità dei coniugi, comunione legale come regime patrimoniale ordinario, potestà di entrambi i genitori.\n\nDue interventi successivi completano il quadro. La legge 10 dicembre 2012, n. 219, e il d.lgs. 28 dicembre 2013, n. 154, hanno stabilito che tutti i figli hanno lo stesso stato giuridico e hanno sostituito la potestà con la [[responsabilita-genitoriale]]. La legge 20 maggio 2016, n. 76, ha introdotto l'[[unione-civile]] tra persone dello stesso sesso e ha disciplinato la [[convivenza-di-fatto]].",
+      "daSapere": [
+        "Art. 29 Cost.: eguaglianza morale e giuridica dei coniugi",
+        "Riforma del diritto di famiglia: l. 151/1975",
+        "Unico stato di figlio: l. 219/2012 e d.lgs. 154/2013",
+        "Unioni civili e convivenze: l. 76/2016"
+      ],
+      "fonti": [
+        {
+          "titolo": "Legge 19 maggio 1975, n. 151",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1975-05-19;151"
+        },
+        {
+          "titolo": "Legge 20 maggio 2016, n. 76",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2016-05-20;76"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "unione-civile",
+          "a": "famiglia",
+          "tipo": "collegato",
+          "etichetta": "è una forma riconosciuta di"
+        },
+        {
+          "da": "responsabilita-genitoriale",
+          "a": "famiglia",
+          "tipo": "parte-di",
+          "etichetta": "regola i rapporti tra genitori e figli nella"
+        }
+      ]
+    },
+    {
+      "id": "divorzio",
+      "oltre": "### Dalla legge del 1970 al divorzio «breve»\nIl divorzio è stato introdotto dalla legge 1° dicembre 1970, n. 898, che parla di **scioglimento** del matrimonio civile e di **cessazione degli effetti civili** del matrimonio concordatario. Il referendum abrogativo del 12–13 maggio 1974 ha confermato la legge.\n\nLa causa più frequente è la [[separazione-personale]] protratta nel tempo. Con la legge 6 maggio 2015, n. 55, il periodo si è ridotto a **dodici mesi** per la separazione giudiziale e a **sei mesi** per quella consensuale. La riforma del processo civile (d.lgs. 10 ottobre 2022, n. 149) consente di proporre nello stesso giudizio la domanda di separazione e quella di divorzio, che però può essere decisa solo quando ne ricorrono i presupposti. Separazione e divorzio consensuali possono anche passare per la [[negoziazione-assistita-familiare]].\n\nDopo il divorzio l'ex coniuge economicamente più debole può ottenere l'[[assegno-divorzile]]: dalla sentenza delle Sezioni Unite n. 18287 del 2018 ha funzione insieme assistenziale, compensativa e perequativa, e non mira a conservare il tenore di vita matrimoniale.",
+      "daSapere": [
+        "Legge 898/1970; referendum confermativo del 1974",
+        "Divorzio breve (l. 55/2015): 12 mesi giudiziale, 6 consensuale",
+        "Cass. S.U. 18287/2018: assegno assistenziale, compensativo e perequativo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Legge 1° dicembre 1970, n. 898",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-12-01;898"
+        },
+        {
+          "titolo": "Legge 6 maggio 2015, n. 55",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2015-05-06;55"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "separazione-personale",
+          "a": "divorzio",
+          "tipo": "collegato",
+          "etichetta": "è di regola il presupposto del"
+        },
+        {
+          "da": "divorzio",
+          "a": "assegno-divorzile",
+          "tipo": "collegato",
+          "etichetta": "può dare diritto all'"
+        }
+      ]
+    },
+    {
+      "id": "titolo-di-credito",
+      "oltre": "### Incorporazione, letteralità, autonomia\nIl titolo di credito è un documento che **incorpora** un diritto: per esercitarlo occorre presentare il titolo, e chi lo trasferisce trasferisce anche il diritto. La dottrina ne indica tre caratteri: **letteralità** (il contenuto del diritto è quello che risulta dal documento), **autonomia** (chi acquista in buona fede secondo le regole di circolazione ha una posizione propria, non pregiudicata dai rapporti tra i precedenti possessori), **astrattezza** in molti titoli, che prescindono dal rapporto che ne ha giustificato l'emissione.\n\nIl Codice civile ne detta la disciplina generale (artt. 1992–2027). Il debitore che paga senza dolo o colpa grave al possessore legittimato è liberato (art. 1992). Al possessore si possono opporre solo le eccezioni personali verso di lui, quelle di forma, quelle fondate sul testo del titolo, la falsità della firma e il difetto di capacità o di rappresentanza al momento dell'emissione (art. 1993). Secondo la legge di circolazione i titoli sono **al portatore**, **all'ordine** o **nominativi**. Oggi gran parte degli strumenti finanziari è dematerializzata: circola mediante registrazioni contabili e non più con la consegna di un documento.",
+      "daSapere": [
+        "Letteralità, autonomia, incorporazione",
+        "Eccezioni opponibili: art. 1993 c.c.",
+        "Al portatore, all'ordine, nominativi"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1992–2027",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "cambiale",
+          "a": "titolo-di-credito",
+          "tipo": "esempio-di",
+          "etichetta": "è un"
+        },
+        {
+          "da": "assegno-bancario",
+          "a": "titolo-di-credito",
+          "tipo": "esempio-di",
+          "etichetta": "è un"
+        }
+      ]
+    },
+    {
+      "id": "cambiale",
+      "oltre": "### Tratta e pagherò\nLa cambiale è regolata dal regio decreto 14 dicembre 1933, n. 1669 (legge cambiaria). Ne esistono due forme: la **cambiale tratta**, ordine scritto con cui il traente invita il trattario a pagare una somma al prenditore, e il **pagherò** (vaglia cambiario), promessa con cui l'emittente si obbliga a pagare egli stesso.\n\nÈ un titolo **formale**: deve contenere i requisiti fissati dalla legge, tra cui la denominazione di cambiale, l'ordine o la promessa incondizionata di pagare una somma determinata, la scadenza, il luogo e la data di emissione e la sottoscrizione. Circola mediante [[girata-cambiaria]], e il pagamento può essere garantito con l'[[avallo]].\n\nLa cambiale regolare anche nel bollo è **titolo esecutivo** (art. 474 c.p.c.): il portatore può agire esecutivamente senza un previo giudizio. Se non è pagata, il **protesto** documenta il mancato pagamento e conserva l'azione di regresso contro giranti e traente. L'azione diretta contro l'accettante o l'emittente si prescrive in tre anni dalla scadenza.",
+      "daSapere": [
+        "R.d. 1669/1933 (legge cambiaria)",
+        "Tratta: ordine di pagare; pagherò: promessa di pagare",
+        "Titolo esecutivo se regolare anche nel bollo"
+      ],
+      "fonti": [
+        {
+          "titolo": "Regio decreto 14 dicembre 1933, n. 1669",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-12-14;1669"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "avallo",
+          "a": "cambiale",
+          "tipo": "parte-di",
+          "etichetta": "garantisce il pagamento della"
+        },
+        {
+          "da": "girata-cambiaria",
+          "a": "cambiale",
+          "tipo": "collegato",
+          "etichetta": "fa circolare la"
+        }
+      ]
+    },
+    {
+      "id": "assegno-bancario",
+      "oltre": "### Un ordine di pagamento a vista\nL'assegno bancario è disciplinato dal regio decreto 21 dicembre 1933, n. 1736 (legge assegni). Il traente, correntista di una banca, ordina alla banca trattaria di pagare una somma al beneficiario; presuppone che il traente abbia presso la banca fondi disponibili (**provvista**) e una convenzione che gli consenta di emettere assegni.\n\nL'assegno è **pagabile a vista**: l'eventuale data posteriore a quella reale non ne impedisce il pagamento al momento della presentazione. Va presentato entro **otto giorni** se pagabile nello stesso comune di emissione, entro **quindici** se pagabile in un comune diverso; il rispetto del termine conserva l'azione di regresso.\n\nPer la normativa antiriciclaggio (d.lgs. 21 novembre 2007, n. 231) gli assegni di importo pari o superiore a 1.000 euro devono recare la clausola di [[non-trasferibilita-assegno|non trasferibilità]]. L'emissione senza provvista non è più reato dal 1999, ma comporta sanzioni amministrative e l'iscrizione nella [[centrale-allarme-interbancaria]]. Diverso è l'[[assegno-circolare]], emesso dalla banca stessa sulla base di fondi già versati.",
+      "daSapere": [
+        "R.d. 1736/1933 (legge assegni)",
+        "Presentazione: 8 giorni stesso comune, 15 comune diverso",
+        "Dai 1.000 euro: clausola «non trasferibile» obbligatoria"
+      ],
+      "fonti": [
+        {
+          "titolo": "Regio decreto 21 dicembre 1933, n. 1736",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-12-21;1736"
+        },
+        {
+          "titolo": "D.lgs. 21 novembre 2007, n. 231, art. 49",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-11-21;231"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "assegno-bancario",
+          "a": "assegno-circolare",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dall'"
+        }
+      ]
+    },
+    {
+      "id": "assicurazione",
+      "oltre": "### Danni e vita\nCon il contratto di assicurazione l'assicuratore, verso il pagamento di un **premio**, si obbliga a rivalere l'assicurato del danno prodotto da un sinistro oppure a pagare un capitale o una rendita al verificarsi di un evento attinente alla vita umana (art. 1882 c.c.). Si distinguono quindi l'**assicurazione contro i danni**, governata dal principio indennitario (l'indennità non può superare il danno subito: art. 1905 c.c.), e l'**assicurazione sulla vita**.\n\nIl rischio deve essere descritto con esattezza: le dichiarazioni inesatte o reticenti rese con dolo o colpa grave rendono il contratto annullabile (art. 1892 c.c.); se non c'è dolo o colpa grave, l'assicuratore può recedere (art. 1893 c.c.). Se il premio non è pagato, l'assicurazione resta sospesa dalle ore 24 del quindicesimo giorno dopo la scadenza (art. 1901 c.c.).\n\nLa disciplina speciale si trova nel Codice delle assicurazioni private (d.lgs. 7 settembre 2005, n. 209), che rende obbligatoria l'assicurazione della responsabilità civile per la circolazione dei veicoli e dà al danneggiato un'**azione diretta** contro l'assicuratore del responsabile.",
+      "daSapere": [
+        "Art. 1882 c.c.: danni e vita",
+        "Dichiarazioni inesatte: artt. 1892–1893 c.c.",
+        "Codice delle assicurazioni: d.lgs. 209/2005"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1882–1932",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        },
+        {
+          "titolo": "D.lgs. 7 settembre 2005, n. 209",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "assicurazione",
+          "a": "responsabilita-circolazione-veicoli",
+          "tipo": "collegato",
+          "etichetta": "è obbligatoria per la"
+        }
+      ]
+    },
+    {
+      "id": "leasing-finanziario",
+      "oltre": "### Da contratto atipico a contratto regolato\nPer decenni il leasing finanziario è stato un contratto **atipico**, costruito dalla prassi bancaria e dalla giurisprudenza: il concedente (banca o intermediario finanziario) acquista o fa costruire un bene scelto dall'utilizzatore e glielo concede in godimento per un tempo determinato, contro canoni periodici; alla scadenza l'utilizzatore può acquistarlo pagando il prezzo di riscatto pattuito.\n\nLa legge 4 agosto 2017, n. 124 (art. 1, commi 136–140) ne ha dato una definizione legislativa e ha regolato l'inadempimento dell'utilizzatore. La legge stabilisce quando l'inadempimento è grave, in base al numero di canoni non pagati, e prevede che, in caso di risoluzione, il concedente recuperi il bene, lo venda o lo ricollochi a valori di mercato e restituisca all'utilizzatore quanto ricavato oltre il credito residuo.\n\nIl leasing va tenuto distinto dalla [[locazione]], dove manca la funzione di finanziamento, e dalla [[vendita-con-riserva-di-proprieta]], dove il trasferimento è già voluto dalle parti fin dall'inizio.",
+      "daSapere": [
+        "Contratto tipizzato dalla l. 124/2017, art. 1, commi 136–140",
+        "Tre soggetti: fornitore, concedente, utilizzatore",
+        "In caso di risoluzione: vendita del bene e restituzione dell'eccedenza"
+      ],
+      "fonti": [
+        {
+          "titolo": "Legge 4 agosto 2017, n. 124, art. 1, commi 136–140",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-08-04;124"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "leasing-finanziario",
+          "a": "locazione",
+          "tipo": "contrasta",
+          "etichetta": "ha funzione di finanziamento, a differenza della"
+        },
+        {
+          "da": "leasing-finanziario",
+          "a": "vendita-con-riserva-di-proprieta",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dalla"
+        }
+      ]
+    },
+    {
+      "id": "successione-mortis-causa",
+      "oltre": "### Apertura, delazione, acquisto\nLa successione si apre al momento della morte, nel luogo dell'ultimo domicilio del defunto (art. 456 c.c.). L'eredità è devoluta per legge o per testamento; la successione legittima ha luogo solo quando manca, in tutto o in parte, quella testamentaria, e le disposizioni testamentarie non possono pregiudicare i diritti che la legge riserva ai [[legittimari]] (art. 457 c.c.).\n\nIl chiamato non diventa erede automaticamente: deve accettare, e il diritto di accettare si prescrive in dieci anni (art. 480 c.c.). Fino all'accettazione la [[delazione-ereditaria]] gli offre soltanto la possibilità di acquistare.\n\nL'art. 458 c.c. vieta i **patti successori**: è nulla ogni convenzione con cui si dispone della propria successione, o dei diritti che possono spettare su una successione non ancora aperta. L'eccezione più importante è il **patto di famiglia** (artt. 768-bis ss. c.c., introdotti dalla legge 14 febbraio 2006, n. 55), con cui l'imprenditore trasferisce in vita l'azienda o le partecipazioni a uno o più discendenti.",
+      "daSapere": [
+        "Apertura: morte, ultimo domicilio (art. 456 c.c.)",
+        "Accettazione entro dieci anni (art. 480 c.c.)",
+        "Divieto dei patti successori (art. 458 c.c.), salvo patto di famiglia"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 456–480, 768-bis ss.",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "successione-mortis-causa",
+          "a": "delazione-ereditaria",
+          "tipo": "parte-di",
+          "etichetta": "si realizza attraverso la"
+        }
+      ]
+    },
+    {
+      "id": "testamento-pubblico",
+      "oltre": "### La forma più sicura\nIl testamento pubblico è ricevuto dal notaio **in presenza di due testimoni** (art. 603 c.c.). Il testatore dichiara la propria volontà al notaio, che la riduce in iscritto a sua cura; il notaio dà lettura del testamento al testatore davanti ai testimoni, e l'atto è sottoscritto dal testatore, dai testimoni e dal notaio. Se il testatore non può sottoscrivere, deve dichiararne la causa e il notaio la menziona. Il testamento indica il luogo, la data del ricevimento e l'ora della sottoscrizione.\n\nRispetto al [[testamento-olografo]] offre più garanzie: il notaio verifica l'identità del testatore e la sua capacità apparente, la volontà è redatta in forma tecnicamente corretta e l'originale è conservato tra gli atti del notaio, così che non può andare perduto o essere distrutto da terzi.\n\nAccanto ai due testamenti ordinari più usati il Codice prevede il **testamento segreto** (artt. 604–605 c.c.), scritto dal testatore o da un terzo e consegnato sigillato al notaio, e alcune forme speciali per circostanze eccezionali.",
+      "daSapere": [
+        "Notaio e due testimoni (art. 603 c.c.)",
+        "Originale conservato dal notaio",
+        "Testamento segreto: artt. 604–605 c.c."
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 601–608",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "testamento-pubblico",
+          "a": "testamento-olografo",
+          "tipo": "contrasta",
+          "etichetta": "offre più garanzie del"
+        },
+        {
+          "da": "testamento-pubblico",
+          "a": "atto-pubblico",
+          "tipo": "esempio-di",
+          "etichetta": "è un"
+        }
+      ]
+    },
+    {
+      "id": "adozione-del-minore",
+      "oltre": "### Il diritto del minore a una famiglia\nL'adozione dei minori è regolata dalla legge 4 maggio 1983, n. 184, intitolata, dopo la riforma della legge 28 marzo 2001, n. 149, «Diritto del minore ad una famiglia». Il minore ha diritto anzitutto di crescere nella propria famiglia; l'adozione è il rimedio quando si trova in **stato di abbandono**, cioè privo di assistenza morale e materiale da parte dei genitori o dei parenti tenuti a provvedervi, per cause non transitorie.\n\nLo **stato di adottabilità** è dichiarato dal tribunale per i minorenni. Possono adottare i coniugi uniti in matrimonio da almeno tre anni, o che abbiano convissuto stabilmente prima del matrimonio per un periodo che, sommato, raggiunga i tre anni; l'età degli adottanti deve superare quella dell'adottando di almeno diciotto e non più di quarantacinque anni. Segue un periodo di affidamento preadottivo di un anno.\n\nCon l'adozione l'adottato acquista lo [[stato-di-figlio]] degli adottanti e cessano i suoi rapporti con la famiglia d'origine, salvi i divieti matrimoniali. Diverso è l'[[affidamento-familiare]], che è temporaneo e non recide quei rapporti.",
+      "daSapere": [
+        "L. 184/1983, riformata dalla l. 149/2001",
+        "Coniugi da almeno tre anni; differenza d'età tra 18 e 45 anni",
+        "Affidamento preadottivo di un anno"
+      ],
+      "fonti": [
+        {
+          "titolo": "Legge 4 maggio 1983, n. 184",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1983-05-04;184"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "adozione-del-minore",
+          "a": "affidamento-familiare",
+          "tipo": "contrasta",
+          "etichetta": "è definitiva, a differenza dell'"
+        },
+        {
+          "da": "adozione-del-minore",
+          "a": "stato-di-figlio",
+          "tipo": "collegato",
+          "etichetta": "attribuisce lo"
+        }
+      ]
+    },
+    {
+      "id": "diritto-alla-riservatezza",
+      "oltre": "### Dalla riservatezza alla protezione dei dati\nIl diritto alla riservatezza è nato come diritto a non vedere divulgate le vicende della propria vita privata, senza un consenso o un interesse pubblico che lo giustifichi. Oggi si è sviluppato nel più ampio diritto alla **protezione dei dati personali**, riconosciuto dall'art. 8 della Carta dei diritti fondamentali dell'Unione europea.\n\nLa disciplina principale è il Regolamento (UE) 2016/679 (**GDPR**), applicabile dal 25 maggio 2018: ogni trattamento deve avere una base giuridica (consenso, contratto, obbligo legale, interesse legittimo…) e rispettare i principi di liceità, minimizzazione ed esattezza. L'interessato ha diritto di accesso, rettifica, cancellazione (il cosiddetto **diritto all'oblio**, art. 17), limitazione e opposizione. In Italia il Codice della privacy (d.lgs. 30 giugno 2003, n. 196) è stato adeguato al Regolamento dal d.lgs. 10 agosto 2018, n. 101; vigila il **Garante per la protezione dei dati personali**.\n\nLa riservatezza va bilanciata con il diritto di cronaca e la libertà di informazione, secondo i criteri di verità, interesse pubblico e continenza.",
+      "daSapere": [
+        "GDPR: Reg. (UE) 2016/679, applicabile dal 25 maggio 2018",
+        "Codice privacy: d.lgs. 196/2003, adeguato dal d.lgs. 101/2018",
+        "Diritto all'oblio: art. 17 GDPR"
+      ],
+      "fonti": [
+        {
+          "titolo": "Regolamento (UE) 2016/679",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "titolo": "D.lgs. 30 giugno 2003, n. 196",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "diritto-alla-riservatezza",
+          "a": "diritto-all-immagine",
+          "tipo": "collegato",
+          "etichetta": "si affianca al"
+        }
+      ]
+    },
+    {
+      "id": "negozio-giuridico",
+      "oltre": "### Una categoria della dottrina\nIl negozio giuridico è una costruzione della dottrina, elaborata dalla pandettistica tedesca del XIX secolo d.C. (*Rechtsgeschäft*) e accolta dal Codice civile tedesco (BGB) del 1900. Il Codice civile italiano del 1942 **non lo disciplina** come categoria generale: regola il [[contratto]], il testamento e altri atti, e con l'art. 1324 c.c. estende le norme sui contratti agli **atti unilaterali tra vivi a contenuto patrimoniale**, in quanto compatibili.\n\nLa categoria serve a riunire gli atti con cui i privati regolano i propri interessi e producono effetti giuridici perché li hanno voluti: è l'espressione dell'autonomia privata. Il negozio si distingue così dall'[[atto-giuridico]] in senso stretto, i cui effetti sono stabiliti dalla legge indipendentemente dalla volontà di produrli.\n\nLe classificazioni (unilaterali e bilaterali, tra vivi e a causa di morte, a titolo oneroso e gratuito, patrimoniali e familiari) servono a individuare la disciplina applicabile caso per caso, partendo dalle regole sul contratto.",
+      "daSapere": [
+        "Il Codice civile non lo definisce",
+        "Art. 1324 c.c.: norme sui contratti agli atti unilaterali patrimoniali",
+        "Effetti voluti, a differenza dell'atto giuridico in senso stretto"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, art. 1324",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "negozio-giuridico",
+          "a": "atto-giuridico",
+          "tipo": "contrasta",
+          "etichetta": "produce effetti voluti, a differenza dell'"
+        }
+      ]
+    },
+    {
+      "id": "patto-commissorio",
+      "oltre": "### Perché è vietato e dove si apre la strada al patto marciano\nL'art. 2744 c.c. dichiara **nullo** il patto con cui si conviene che, in mancanza di pagamento del credito nel termine fissato, la proprietà della cosa ipotecata o data in pegno passi al creditore; il patto è nullo anche se posteriore alla costituzione della garanzia. Il divieto protegge il debitore, che nel momento del bisogno potrebbe accettare di perdere un bene di valore molto superiore al debito, e tutela la [[par-condicio-creditorum]].\n\nLa giurisprudenza applica il divieto anche agli strumenti che ottengono lo stesso risultato con forme diverse, come la vendita con patto di riscatto stipulata a scopo di garanzia.\n\nÈ invece lecito il **patto marciano**, che prevede il trasferimento del bene con stima del suo valore al momento dell'inadempimento e restituzione al debitore dell'eventuale eccedenza. Il legislatore lo ha regolato per il credito immobiliare ai consumatori (d.lgs. 21 aprile 2016, n. 72) e per i finanziamenti alle imprese (art. 48-bis del Testo unico bancario, introdotto dal d.l. 3 maggio 2016, n. 59).",
+      "daSapere": [
+        "Art. 2744 c.c.: nullità anche del patto successivo",
+        "Vale anche per la vendita a scopo di garanzia",
+        "Patto marciano lecito: stima e restituzione dell'eccedenza"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, art. 2744",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        },
+        {
+          "titolo": "D.lgs. 1° settembre 1993, n. 385 (Testo unico bancario), art. 48-bis",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1993-09-01;385"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "patto-marciano",
+          "a": "patto-commissorio",
+          "tipo": "contrasta",
+          "etichetta": "è lecito, a differenza del"
+        }
+      ]
+    },
+    {
+      "id": "privilegio",
+      "oltre": "### Una preferenza che dipende dalla causa del credito\nIl privilegio è accordato dalla **legge** in considerazione della causa del credito (art. 2745 c.c.): le parti non possono crearlo per contratto. È **generale** quando si esercita su tutti i beni mobili del debitore, **speciale** quando riguarda determinati beni mobili o immobili (art. 2746 c.c.).\n\nPer i rapporti con le altre garanzie l'art. 2748 c.c. stabilisce che, salvo diversa disposizione, il privilegio speciale su mobili non prevale sul [[pegno]], mentre i privilegi speciali sugli immobili prevalgono sull'[[ipoteca]], anche se iscritta prima. Tra più crediti privilegiati l'ordine di preferenza è fissato dagli artt. 2777 ss. c.c.\n\nTra i privilegi generali hanno posizione di rilievo i crediti di lavoro (retribuzioni e trattamento di fine rapporto: art. 2751-bis c.c.) e i crediti dello Stato per tributi. Il privilegio è una delle cause legittime di prelazione che derogano alla [[par-condicio-creditorum]] (art. 2741 c.c.).",
+      "daSapere": [
+        "Nasce solo dalla legge (art. 2745 c.c.)",
+        "Generale su mobili; speciale su mobili o immobili",
+        "Il privilegio speciale immobiliare prevale sull'ipoteca"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2741, 2745–2783",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "privilegio",
+          "a": "ipoteca",
+          "tipo": "contrasta",
+          "etichetta": "se speciale su immobili prevale sull'"
+        },
+        {
+          "da": "privilegio",
+          "a": "par-condicio-creditorum",
+          "tipo": "contrasta",
+          "etichetta": "deroga alla"
+        }
+      ]
+    },
+    {
+      "id": "vendita-di-cosa-altrui",
+      "oltre": "### Un contratto valido con effetto rinviato\nLa vendita di cosa altrui è **valida**: il venditore si obbliga a procurare al compratore l'acquisto della cosa, e il compratore ne diventa proprietario nel momento in cui il venditore la acquista dal titolare (art. 1478 c.c.). È quindi una [[vendita-obbligatoria]], perché l'effetto traslativo non si produce con il consenso.\n\nLa tutela del compratore dipende da ciò che sapeva. Se **ignorava** che la cosa non era del venditore, può chiedere la risoluzione del contratto e il risarcimento, salvo che nel frattempo il venditore gliene abbia fatto acquistare la proprietà (art. 1479 c.c.); il venditore deve restituire il prezzo e rimborsare le spese. Se il compratore **sapeva** che la cosa era altrui, si applicano le regole generali sull'inadempimento dell'obbligo di procurarne l'acquisto. Se la cosa è altrui solo in parte, il compratore può chiedere la risoluzione o una riduzione del prezzo (art. 1480 c.c.).\n\nLa vendita di cosa altrui va distinta dall'acquisto a non domino di beni mobili con il [[possesso-vale-titolo]], dove il compratore in buona fede diventa proprietario subito, con la consegna.",
+      "daSapere": [
+        "Contratto valido, effetto traslativo differito (art. 1478 c.c.)",
+        "Compratore ignaro: risoluzione e risarcimento (art. 1479 c.c.)",
+        "Cosa parzialmente altrui: art. 1480 c.c."
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1478–1480",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "vendita-di-cosa-altrui",
+          "a": "vendita-obbligatoria",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        },
+        {
+          "da": "vendita-di-cosa-altrui",
+          "a": "possesso-vale-titolo",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dall'acquisto con il"
+        }
+      ]
+    },
+    {
+      "id": "pignoramento",
+      "oltre": "### L'atto che vincola i beni\nCon il pignoramento comincia l'[[espropriazione-forzata]] (art. 491 c.p.c.). Deve essere preceduto dalla notificazione del titolo esecutivo e del **precetto**, cioè l'intimazione ad adempiere entro un termine non minore di dieci giorni. Il pignoramento consiste in un'ingiunzione dell'ufficiale giudiziario al debitore di astenersi da qualsiasi atto diretto a sottrarre alla garanzia del credito i beni pignorati e i loro frutti (art. 492 c.p.c.).\n\nLe forme cambiano secondo l'oggetto: per i mobili l'ufficiale giudiziario ricerca i beni presso il debitore; per gli immobili l'atto si notifica e si **trascrive** nei registri immobiliari; per i crediti e i beni presso terzi si notifica anche al terzo debitore.\n\nIl debitore non perde subito la proprietà, ma gli atti di disposizione dei beni pignorati non hanno effetto in pregiudizio del creditore pignorante e dei creditori intervenuti (art. 2913 c.c.). Il pignoramento perde efficacia se entro quarantacinque giorni non è chiesta la vendita o l'assegnazione (art. 497 c.p.c.).",
+      "daSapere": [
+        "Inizio dell'espropriazione forzata (art. 491 c.p.c.)",
+        "Prima: titolo esecutivo e precetto",
+        "Alienazioni successive inefficaci verso i creditori (art. 2913 c.c.)"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 2910–2918",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        },
+        {
+          "titolo": "Codice di procedura civile, artt. 491–497",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "pignoramento",
+          "a": "espropriazione-forzata",
+          "tipo": "parte-di",
+          "etichetta": "dà inizio all'"
+        }
+      ]
+    },
+    {
+      "id": "trasporto",
+      "oltre": "### Responsabilità del vettore\nCon il contratto di trasporto il vettore si obbliga, verso corrispettivo, a trasferire persone o cose da un luogo a un altro (art. 1678 c.c.). Il Codice civile detta la disciplina generale; il trasporto per mare e per aria è regolato anche dal Codice della navigazione, e quello internazionale da convenzioni e regolamenti europei.\n\nLa responsabilità del vettore è severa. Nel **trasporto di persone** risponde dei sinistri che colpiscono il viaggiatore durante il viaggio e della perdita o avaria delle cose che questi porta con sé, se non prova di aver adottato tutte le misure idonee a evitare il danno (art. 1681 c.c.). Nel **trasporto di cose** risponde della perdita e dell'avaria dalla consegna alla riconsegna, salvo che provi il caso fortuito, la natura o i vizi delle cose o del loro imballaggio, o il fatto del mittente o del destinatario (art. 1693 c.c.).\n\nPer il trasporto aereo internazionale vale la Convenzione di Montreal del 1999; il Regolamento (CE) n. 261/2004 riconosce ai passeggeri compensazioni e assistenza per negato imbarco, cancellazione e grandi ritardi dei voli.",
+      "daSapere": [
+        "Art. 1681 c.c.: trasporto di persone",
+        "Art. 1693 c.c.: trasporto di cose, prova del caso fortuito",
+        "Voli: Convenzione di Montreal 1999 e Reg. CE 261/2004"
+      ],
+      "fonti": [
+        {
+          "titolo": "Codice civile, artt. 1678–1702",
+          "url": "https://www.gazzettaufficiale.it/anteprima/codici/codiceCivile"
+        },
+        {
+          "titolo": "Regolamento (CE) n. 261/2004",
+          "url": "https://eur-lex.europa.eu/eli/reg/2004/261/oj"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "trasporto",
+          "a": "responsabilita-da-inadempimento",
+          "tipo": "collegato",
+          "etichetta": "comporta una severa"
+        }
+      ]
+    }
+  ]
+}

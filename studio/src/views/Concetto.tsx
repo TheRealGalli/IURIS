@@ -1,6 +1,7 @@
 import { useMemo, useRef } from 'react';
 import { useCorso } from '../lib/data';
-import { renderMd } from '../lib/md';
+import { renderMd as renderMdBase } from '../lib/md';
+import { collegaArticoliHtml } from '../lib/letture-client';
 import { href } from '../lib/router';
 import { padronanza } from '../lib/srs';
 import { useProgresso } from '../lib/store';
@@ -8,10 +9,13 @@ import { TIPO_SINGOLARE, VERBO_RELAZIONE } from '../lib/types';
 import { useConceptPop } from '../components/ConceptPop';
 import { rifPagine } from '../lib/util';
 import { Icon, LivelloDot, Ring } from '../components/ui';
+import { BadgeEsame, RiquadroEsame } from '../components/Esame';
 
 
 export default function ConcettoView({ id }: { id: string }) {
   const idx = useCorso();
+  // le citazioni di articoli nelle definizioni si aprono come nelle lezioni
+  const renderMd: typeof renderMdBase = (md, concetti) => collegaArticoliHtml(renderMdBase(md, concetti), idx.corso.norme);
   const p = useProgresso(idx.corso.materia.slug);
   const c = idx.concettoById.get(id);
   const ref = useRef<HTMLDivElement>(null);
@@ -28,6 +32,7 @@ export default function ConcettoView({ id }: { id: string }) {
   const entranti = rel.filter((r) => r.a === c.id);
   const eventi = idx.eventiPerConcetto.get(c.id) ?? [];
   const lezioni = c.lezioni.map((l) => idx.lezioneById.get(l)).filter(Boolean);
+  const tracce = idx.traccePerConcetto.get(c.id) ?? [];
 
   // ogni collegamento è una frase completa «soggetto – verbo – oggetto»; la voce che si sta leggendo è in grassetto, l'altra è cliccabile
   const Rel = ({ r }: { r: typeof rel[number] }) => {
@@ -57,6 +62,7 @@ export default function ConcettoView({ id }: { id: string }) {
           <h1 className="title-xl">{c.nome}</h1>
           {c.latino && c.latino !== c.nome && <div className="muted" style={{ fontStyle: 'italic', fontFamily: 'var(--serif)', fontSize: 19, marginTop: 4 }}>{c.latino}</div>}
           {c.alias.length > 0 && <div className="faint small" style={{ marginTop: 6 }}>Anche: {c.alias.join(', ')}</div>}
+          {tracce.length > 0 && <div className="row" style={{ gap: 6, marginTop: 8 }}><BadgeEsame fonti={tracce.map((t) => t.fonte)} /></div>}
           {c.oltreAppunti && <div style={{ marginTop: 8 }}><span className="chip oltre-chip">voce aggiunta: negli appunti non c'è</span></div>}
           {c.rettificato && <div style={{ marginTop: 8 }}><span className="chip oltre-chip">definizione corretta · spiegazione e fonti qui sotto</span></div>}
           <p className="title-s muted" style={{ fontFamily: 'var(--sans)', fontWeight: 500, margin: '16px 0' }}>{c.breve}</p>
@@ -132,6 +138,7 @@ export default function ConcettoView({ id }: { id: string }) {
             ) : <p className="small muted" style={{ margin: 0 }}>Nessuna domanda collegata direttamente.</p>}
             {c.schedaInversa && <a className="btn" href={href(`/allena?modo=inverse&c=${c.id}`)} style={{ width: '100%', marginTop: 10 }}><Icon n="glossario" size={16} /> Ricorda il termine</a>}
           </div>
+          <RiquadroEsame tracce={tracce} lezioni />
           {lezioni.length > 0 && (
             <div className="card">
               <div className="eyebrow" style={{ marginBottom: 6 }}>Dove se ne parla</div>

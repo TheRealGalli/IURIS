@@ -100,8 +100,9 @@
     {
       "id": "p008-b001",
       "pagina": 8,
-      "markdown": "Un enunciato performativo falso è un falso performativo. La verità di un enunciato performativo viene meno se manca una condizione necessaria per la validità dell’atto stesso (esempio del battesimo). Non ci troviamo di fronte ad un enunciato performativo falso ma, ad un falso performativo. Allo stesso modo, non sono parole che hanno un senso performativo quelle di un’eventuale [[promessa|promessa]] di cosa passata.",
+      "markdown": "Un enunciato performativo falso è un [[falso-performativo|falso performativo]]. La verità di un enunciato performativo viene meno se manca una condizione necessaria per la validità dell’atto stesso (esempio del battesimo). Non ci troviamo di fronte ad un enunciato performativo falso ma, ad un falso performativo. Allo stesso modo, non sono parole che hanno un senso performativo quelle di un’eventuale [[promessa|promessa]] di cosa passata.",
       "concetti": [
+        "falso-performativo",
         "promessa",
         "enunciato-performativo",
         "validita",
@@ -153,8 +154,10 @@
     {
       "id": "p008-b007",
       "pagina": 8,
-      "markdown": "Dei fatti non si dice che sono veri o falsi, ma che vi sono oppure no. Il senso ontico di verità di un fatto o di un oggetto sta ad indicarne l’esistenza. Verità ontica e verità semantica sono tra loro prive di connessione. Esempio: si pensi ad una banconota che è un oggetto che sta per un’obbligazione di pagamento; una banconota americano nello specifico. Sulla banconota sono stampati due enunciati:",
+      "markdown": "Dei fatti non si dice che sono veri o falsi, ma che vi sono oppure no. Il senso ontico di verità di un fatto o di un oggetto sta ad indicarne l’esistenza. [[verita-ontica|Verità ontica]] e [[verita-semantica|verità semantica]] sono tra loro prive di connessione. Esempio: si pensi ad una banconota che è un oggetto che sta per un’obbligazione di pagamento; una banconota americano nello specifico. Sulla banconota sono stampati due enunciati:",
       "concetti": [
+        "verita-ontica",
+        "verita-semantica",
         "verita"
       ]
     },
@@ -169,6 +172,7 @@
       "pagina": 8,
       "markdown": "Il valore di verità di enunciati (verità semantica) sulla banconota non è di per sé condizionato dall’eventuale falsità ontica della banconota stessa. L’eventuale falsità ontica della banconota non è condizione sufficiente affinché l’enunciato (1) “noi confidiamo in dio” sia semanticamente falso. Al contrario dell’altro enunciato (2) “questa banconota è mezzo legale di pagamento per debiti, pubblici o privati”. In questo caso l’eventuale falsità della banconota è sufficiente affinché",
       "concetti": [
+        "verita-semantica",
         "verita"
       ]
     },
@@ -177,6 +181,8 @@
       "pagina": 9,
       "markdown": "quell’enunciato sia semanticamente falso. Le condizioni per cui verità semantica e verità ontica siano tra loro collegate sono allora:",
       "concetti": [
+        "verita-semantica",
+        "verita-ontica",
         "verita"
       ]
     },
@@ -193,6 +199,8 @@
       "pagina": 9,
       "markdown": "Verità ontica e verità semantica non sono, dunque, la stessa cosa. Nel linguaggio giuridico il senso ontico di verità è la validità giuridica.",
       "concetti": [
+        "verita-semantica",
+        "verita-ontica",
         "validita",
         "verita"
       ]

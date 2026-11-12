@@ -5,7 +5,7 @@ import { livello, padronanza, pagineStudiate, prossimaScadenza, serieGiorni } fr
 import { azzera, DOMANDE_VERIFICA_INIZIALE, haAttivita, impostaEsame, impostaNuove, scriviPref, usePref, useProgresso } from '../lib/store';
 import { TIPI_DOMANDA, type TipoDomanda } from '../lib/types';
 import { fmtData, fmtMinuti, isoDi, oggiISO } from '../lib/util';
-import { Bar, Calendario, Icon, LivelloDot, useToast } from '../components/ui';
+import { Bar, Calendario, Icon, LivelloDot, SceltaData, useToast } from '../components/ui';
 
 export default function Progressi() {
   const idx = useCorso();
@@ -144,9 +144,9 @@ export default function Progressi() {
 
       <div className="card stack" style={{ marginTop: 16, gap: 14 }}>
           <h3 className="title-s">Impostazioni</h3>
-          <label className="row-between small">Data dell'esame
-            <input className="input" type="date" value={p.esame ?? ''} onChange={(e) => impostaEsame(slug, e.target.value || undefined)} />
-          </label>
+          <div className="row-between small">Data dell'esame
+            <SceltaData etichetta="Data dell'esame" value={p.esame} onChange={(d) => impostaEsame(slug, d)} />
+          </div>
           <label className="row-between small">Domande nuove al giorno
             <select className="select" value={p.nuovePerGiorno} onChange={(e) => impostaNuove(slug, Number(e.target.value))}>
               {[10, 15, 25, 35, 40, 60, 100].map((n) => <option key={n} value={n}>{n}</option>)}

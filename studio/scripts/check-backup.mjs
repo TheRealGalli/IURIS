@@ -1,4 +1,5 @@
 // Backup reale dell'app, su storage isolato: nessun dato personale viene letto o scritto.
+// Prima la logica dell'archivio (senza browser), poi il giro tra dispositivi nel browser (scripts/backup-dispositivi.mjs).
 import assert from 'node:assert/strict';
 import { fileURLToPath } from 'node:url';
 import { createServer } from 'vite';
@@ -233,6 +234,14 @@ try {
     assert.throws(() => store.importaTutto(JSON.stringify(b)));
   });
   console.log(`Backup verificato: ${checks} scenari su tutte le materie, sessioni, Originali, preferenze, validazione e rollback.`);
+  // Giro completo nel browser, sull'app costruita: PC → backup → telefono → si continua a studiare → backup → PC.
+  if (process.env.SOLO_ARCHIVIO === '1') console.log('Giro tra dispositivi saltato (SOLO_ARCHIVIO=1).');
+  else {
+    await server?.close(); server = undefined;
+    const { giroDispositivi } = await import('./backup-dispositivi.mjs');
+    const g = await giroDispositivi();
+    console.log(`Backup tra dispositivi verificato: ${g.passi} passi, PC (Chromium) → telefono (WebKit, iPhone) → PC e backup di una sola materia; corso ${g.corso}, materie ${g.materie.join(', ')}.`);
+  }
 } finally {
   await server?.close();
   if (original) Object.defineProperty(globalThis, 'localStorage', original); else delete globalThis.localStorage;

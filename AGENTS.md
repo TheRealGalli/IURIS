@@ -3,7 +3,10 @@
 Questo file raccoglie quello che serve per lavorare bene sul progetto senza dover riscoprire tutto.
 Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usalo e aggiorna questo file.
 
-## Lavoro in corso: PIANO FINALE (dall'11 novembre 2026)
+## PIANO FINALE (dall'11 novembre 2026) — completato il 12 novembre 2026
+
+Stato: fasi 0–5 completate, tre classi selezionabili, `check:build` verde. Misure in `piani/stato-qualita.md`,
+resoconto in fondo a `piani/consegne-prossimi-passi.md`. Il testo qui sotto resta come riferimento.
 
 Obiettivo: chiudere **tutte e tre le classi** (LMG A-L, LMG M-Z, SSG) con materie complete e fedeli agli appunti,
 domande d'esame dei docenti integrate, app uniforme e collaudata. Lo esegue un coordinatore con subagenti, fase per
@@ -266,6 +269,9 @@ IURIS/
 
 1. Copia il PDF in `studio/public/originali/<slug-breve>.pdf`, aggiungi l'eccezione in `.gitignore` e una voce in
    `studio/src/lib/originali-catalogo.json` (id `…-v1`, `materia`, `titolo`, `descrizione`, `file`, `sha256`, `pagine`).
+   PDF non pubblicabile (es. StuDocu con i dati di chi ha scaricato): documento **solo testo**, senza `file`, con
+   `testoFonte` che punta al testo pulito in `studio/letture-src/testi/` (`sha256` = impronta del testo); vedi
+   Filosofia M-Z. Testo giustificato senza righe vuote: opzione `dividiTitoli` (vedi Martines).
 2. `cd studio && python3 scripts/extract-letture.py --solo <id-documento>`: estrae solo quel PDF, senza
    toccare i documenti già revisionati.
 3. In `scripts/sezioni-letture.mjs` aggiungi al dizionario `FONTE` la fonte del documento (se la materia ne ha più

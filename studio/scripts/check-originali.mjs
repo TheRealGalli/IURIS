@@ -51,6 +51,10 @@ try {
     assert.equal(lib.originaliMateria('filosofia-del-diritto').length, 3);
     assert.equal(lib.originaliMateria('filosofia-del-diritto-ssg').length, 2, 'SSG: sbobinature e riassunto di Incampo');
     assert.equal(lib.originaliMateria('diritto-costituzionale').length, 1, 'Costituzionale: riassunto del Bin–Pitruzzella');
+    assert.equal(lib.originaliMateria('diritto-costituzionale-martines').length, 1, 'Costituzionale M-Z e SSG: riassunto del Martines');
+    // Filosofia M-Z: riassunti di Barberis e Schauer pubblicati solo come testo (i PDF portano i dati di chi li ha scaricati).
+    assert.equal(lib.originaliMateria('filosofia-del-diritto-mz').length, 2, 'Filosofia M-Z: Barberis e Schauer');
+    assert(lib.originaliMateria('filosofia-del-diritto-mz').every((d) => !d.file && d.testoFonte), 'Filosofia M-Z: solo testo, nessun PDF');
     assert.equal(lib.paginaValida(-3, doc.pagine), 1);
     assert.equal(lib.paginaValida(99999, doc.pagine), doc.pagine);
     assert.equal(lib.paginaValida(NaN, doc.pagine), 1);

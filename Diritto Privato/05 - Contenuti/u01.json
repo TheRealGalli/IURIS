@@ -10,8 +10,9 @@
   "abstract": "Che cos'è un ordinamento giuridico, come è fatta una norma, che cosa distingue il diritto privato da quello pubblico e da quali fonti nascono le sue regole, fino al Codice civile del 1942.",
   "note": "Aggiornato: oggi si parla di diritto dell'Unione europea, non più «comunitario». La Costituzione europea firmata a Roma nel 2004 non è mai entrata in vigore; il Trattato di Lisbona è in vigore dal 2009.",
   "noteRedazione": [
-    "Fonte: dispensa Petrullo–Mainieri sul manuale Torrente–Schlesinger (2012), pp. 1–8. Alle pp. 2 e 6 tre riquadri di approfondimento sono illeggibili nel PDF (caratteri codificati): riguardano i fatti giuridici complessi, la rigidità della Costituzione con il controllo della Corte costituzionale e il fondamento delle fonti comunitarie nell'art. 11 Cost. Sono stati ricostruiti solo con nozioni pacifiche.",
-    "p. 1–2: la dispensa elenca il Trattato costituzionale del 2004 senza dire che non è mai entrato in vigore; «fonti comunitarie» aggiornato a «fonti dell'Unione europea» (Trattato di Lisbona, in vigore dal 1° dicembre 2009). p. 7: tra le fonti secondarie la dispensa mette insieme regolamenti del Governo e delle autorità indipendenti; la sintesi li tiene distinti."
+    "Fonte: dispensa Petrullo–Mainieri sul manuale Torrente–Schlesinger (2012), pp. 1–8. I riquadri delle pp. 2 e 6 (fattispecie semplice, complessa e a formazione progressiva; rigidità della Costituzione e controllo della Corte costituzionale; fondamento delle fonti europee nell'art. 11 Cost.), illeggibili nel PDF per i caratteri codificati, sono stati decifrati (letture-src/revisioni.json) e integrati nelle lezioni u01-l1 e u01-l3 e nelle voci fattispecie e costituzione.",
+    "p. 1–2: la dispensa elenca il Trattato costituzionale del 2004 senza dire che non è mai entrato in vigore; «fonti comunitarie» aggiornato a «fonti dell'Unione europea» (Trattato di Lisbona, in vigore dal 1° dicembre 2009). p. 7: tra le fonti secondarie la dispensa mette insieme regolamenti del Governo e delle autorità indipendenti; la sintesi li tiene distinti.",
+    "Fase 2 (novembre 2026): definizioni delle voci riscritte dalla dispensa (pp. 1–8); u01-l3 arricchita con gli atti delle fonti europee e le fonti secondarie (p. 6–7); eventi Trattato di Amsterdam (2 ottobre 1997) e Trattato di Lisbona (13 dicembre 2007), date citate a p. 1–2."
   ],
   "lezioni": [
     {
@@ -22,7 +23,7 @@
         3
       ],
       "minuti": 25,
-      "sintesi": "### Che cos'è un ordinamento\nL'[[ordinamento-giuridico]] è il complesso di **norme e istituzioni** che regolano la vita sociale e i rapporti tra i singoli. Perché un gruppo sia organizzato servono tre condizioni: **regole di condotta** che coordinino gli apporti di ciascuno; **organi** che le decidano secondo regole di struttura o di competenza; l'**effettiva osservanza** delle une e delle altre.\n\nGli ordinamenti sono molti (chiese, partiti, sindacati): è la **pluralità degli ordinamenti giuridici**. Tra tutti prevale la società politica, che assicura le condizioni perché ogni altra attività si svolga in modo ordinato e pacifico. Un ordinamento è **originario** quando non è soggetto al controllo di validità di un'altra organizzazione (*superiorem non recognoscit*). Lo **Stato** è un ordinamento a fini generali, indipendente e originario, sovrano sul proprio territorio.\n\n### Ordinamenti sovranazionali\nL'art. 10 della Costituzione conforma l'ordinamento italiano alle norme del diritto internazionale generalmente riconosciute; l'art. 11 ammette **limitazioni di sovranità** a favore di organizzazioni che assicurino pace e giustizia tra le Nazioni. Su questa base l'Italia partecipa all'integrazione europea: Trattato di Roma (1957), Maastricht (1992), Amsterdam (1997), Nizza (2001), Lisbona (2007, in vigore dal 2009).\n\n### La norma giuridica\nOgni regola dell'ordinamento è una [[norma-giuridica]]. Non va confusa con la **norma morale**, nemmeno quando ha lo stesso contenuto: la regola morale trae validità dal suo contenuto; quella giuridica dal fatto di essere posta da un **atto dotato di autorità**. Gli atti e i fatti che producono norme sono le **fonti**.\n\nTre distinzioni da tenere ferme:\n- **disposizione e norma**: il testo (la formula) non coincide con il significato (il precetto) che l'interprete ne ricava;\n- **norma e legge**: la legge è il documento che contiene norme, come un contenente e il suo contenuto; una legge può contenere molte norme, e una norma può risultare dal **combinato disposto** di più disposizioni;\n- [[diritto-positivo]] **e** [[diritto-naturale]]: il primo è l'insieme delle norme poste dalle fonti di un ordinamento; il secondo è invocato come fondamento obiettivo o criterio di critica del diritto positivo (giusnaturalismo: Grozio, Hobbes, Locke).\n\n### La struttura: fattispecie ed effetto\nLa norma è un periodo ipotetico: **se A, allora B**. A è la [[fattispecie]], B la conseguenza giuridica: l'acquisto di un diritto (art. 1158 c.c., [[usucapione|usucapione]] ventennale), la nascita di un'[[obbligazione|obbligazione]] (art. 2043 c.c., risarcimento del danno ingiusto), l'estinzione o la modifica di un diritto.\n\n| | Fattispecie astratta | Fattispecie concreta |\n|---|---|---|\n| che cos'è | i fatti descritti in ipotesi dalla norma | i fatti realmente accaduti |\n| come si individua | interpretando il testo | accertando il fatto nel processo |\n\nSe due norme collegano alla stessa fattispecie effetti incompatibili c'è un'[[antinomia]]; se nessuna norma la prevede c'è una [[lacuna-del-diritto]]. Il complesso delle norme che regolano la stessa fattispecie è un [[istituto-giuridico]].\n\n### La sanzione\nLe norme giuridiche sono suscettibili di **attuazione forzata** o comunque garantite da una **sanzione**, conseguenza sfavorevole per chi trasgredisce. Accanto alle norme di condotta (primarie) stanno quelle sanzionatorie (secondarie). L'ordinamento si difende anche con misure preventive, con norme di principio e con **premi e incentivi**. Nel [[diritto-privato|diritto privato]] la sanzione opera di regola in modo **indiretto**: il pittore che non dipinge il quadro non può esservi costretto (*nemo ad factum cogi potest*), ma risponde dei danni.",
+      "sintesi": "### Che cos'è un ordinamento\nL'[[ordinamento-giuridico]] è il complesso di **norme e istituzioni** che regolano la vita sociale e i rapporti tra i singoli. Perché un gruppo sia organizzato servono tre condizioni: **regole di condotta** che coordinino gli apporti di ciascuno; **organi** che le decidano secondo regole di struttura o di competenza; l'**effettiva osservanza** delle une e delle altre.\n\nGli ordinamenti sono molti (chiese, partiti, sindacati): è la **pluralità degli ordinamenti giuridici**. Tra tutti prevale la società politica, che assicura le condizioni perché ogni altra attività si svolga in modo ordinato e pacifico. Un ordinamento è **originario** quando non è soggetto al controllo di validità di un'altra organizzazione (*superiorem non recognoscit*). Lo **Stato** è un ordinamento a fini generali, indipendente e originario, sovrano sul proprio territorio.\n\n### Ordinamenti sovranazionali\nL'art. 10 della [[costituzione|Costituzione]] conforma l'ordinamento italiano alle norme del diritto internazionale generalmente riconosciute; l'art. 11 ammette **limitazioni di sovranità** a favore di organizzazioni che assicurino pace e giustizia tra le Nazioni. Su questa base l'Italia partecipa all'integrazione europea: Trattato di Roma (1957), Maastricht (1992), Amsterdam (1997), Nizza (2001), Lisbona (2007, in vigore dal 2009).\n\n### La norma giuridica\nOgni regola dell'ordinamento è una [[norma-giuridica]]. Non va confusa con la **norma morale**, nemmeno quando ha lo stesso contenuto: la regola morale trae validità dal suo contenuto; quella giuridica dal fatto di essere posta da un **atto dotato di autorità**. Gli atti e i fatti che producono norme sono le **fonti**.\n\nTre distinzioni da tenere ferme:\n- **disposizione e norma**: il testo (la formula) non coincide con il significato (il precetto) che l'interprete ne ricava;\n- **norma e legge**: la legge è il documento che contiene norme, come un contenente e il suo contenuto; una legge può contenere molte norme, e una norma può risultare dal **combinato disposto** di più disposizioni;\n- [[diritto-positivo]] **e** [[diritto-naturale]]: il primo è l'insieme delle norme poste dalle fonti di un ordinamento; il secondo è invocato come fondamento obiettivo o criterio di critica del diritto positivo (giusnaturalismo: Grozio, Hobbes, Locke).\n\n### La struttura: fattispecie ed effetto\nLa norma è un periodo ipotetico: **se A, allora B**. A è la [[fattispecie]], B la conseguenza giuridica: l'acquisto di un diritto (art. 1158 c.c., [[usucapione|usucapione]] ventennale), la nascita di un'[[obbligazione|obbligazione]] (art. 2043 c.c., risarcimento del danno ingiusto), l'estinzione o la modifica di un diritto.\n\n| | Fattispecie astratta | Fattispecie concreta |\n|---|---|---|\n| che cos'è | i fatti descritti in ipotesi dalla norma | i fatti realmente accaduti |\n| come si individua | interpretando il testo | accertando il fatto nel processo |\n\nSe due norme collegano alla stessa fattispecie effetti incompatibili c'è un'[[antinomia]]; se nessuna norma la prevede c'è una [[lacuna-del-diritto]]. Il complesso delle norme che regolano la stessa fattispecie è un [[istituto-giuridico]].\n\nSecondo il numero e la successione dei fatti, la fattispecie può essere **semplice** (un unico fatto), **complessa** (più fatti giuridici: l'effetto si produce solo quando si sono realizzati tutti) o **a formazione progressiva** (una serie di fatti che si succedono nel tempo).\n\n### La sanzione\nLe norme giuridiche sono suscettibili di **attuazione forzata** o comunque garantite da una **sanzione**, conseguenza sfavorevole per chi trasgredisce. Accanto alle norme di condotta (primarie) stanno quelle sanzionatorie (secondarie). L'ordinamento si difende anche con misure preventive, con norme di principio e con **premi e incentivi**. Nel [[diritto-privato|diritto privato]] la sanzione opera di regola in modo **indiretto**: il pittore che non dipinge il quadro non può esservi costretto (*nemo ad factum cogi potest*), ma risponde dei danni.",
       "puntiChiave": [
         "Tre condizioni del gruppo organizzato: regole di condotta, organi che le pongono, osservanza effettiva.",
         "La norma giuridica vale perché posta da un atto dotato di autorità, non per il suo contenuto.",
@@ -72,7 +73,7 @@
         5
       ],
       "minuti": 20,
-      "sintesi": "### Generalità e astrattezza\nLa norma con forza di legge è **generale**, perché si rivolge a tutti i consociati o a classi di soggetti, e **astratta**, perché regola situazioni ipotetiche e non casi determinati ([[generalita-e-astrattezza]]). Sono però ammesse le **leggi-provvedimento**, leggi in senso formale che dispongono per un caso concreto, come l'istituzione di un ente pubblico.\n\n### Il principio di uguaglianza\nOggi la legge è caratterizzata soprattutto dal [[principio-di-uguaglianza]] dell'art. 3 della Costituzione, da non confondere con l'**imparzialità** dei pubblici uffici (art. 97 Cost.), che è l'obbligo di applicare la legge in modo uguale.\n- Profilo **formale** (primo comma): pari dignità sociale e uguaglianza davanti alla legge, senza distinzioni di sesso, razza, lingua, religione, opinioni politiche, condizioni personali e sociali.\n- Profilo **sostanziale** (secondo comma): la Repubblica rimuove gli ostacoli economici e sociali che limitano di fatto libertà e uguaglianza.\n\nIl controllo spetta alla **Corte costituzionale**, che dichiara illegittima la norma quando tratta in modo diverso situazioni omogenee o in modo uguale situazioni diverse, cioè quando la distinzione è **irragionevole**.\n\n### L'equità\nL'applicazione di una norma al caso concreto può urtare il senso di giustizia. L'[[equita]] è la **giustizia del caso singolo**. L'ordinamento però preferisce la **certezza del diritto**: chi agisce deve poter prevedere le conseguenze, e non dipendere dalla valutazione soggettiva del giudice (*summum ius, summa iniuria* è il rischio opposto). Perciò il giudice decide secondo equità solo quando la legge lo consente (art. 113 c.p.c.). Dall'equità come **criterio di decisione** si distingue l'equità **integrativa**, con cui il giudice determina, su rinvio della legge, un elemento della [[fattispecie|fattispecie]].\n\n### Diritto pubblico e diritto privato\n| | [[diritto-pubblico]] | [[diritto-privato]] |\n|---|---|---|\n| oggetto | organizzazione e azione dello Stato e degli enti pubblici | relazioni tra i singoli e tra enti privati |\n| posizione delle parti | [[soggezione|soggezione]] a un potere pubblico | parità |\n| attuazione | affidata a organi pubblici | lasciata all'iniziativa degli interessati |\n\nIl confine è **variabile**: lo Stato può assumere compiti prima lasciati ai privati, gli enti pubblici possono agire secondo il diritto privato, i privati possono gestire servizi pubblici, e lo stesso fatto può essere regolato da entrambi.\n\n### Norme derogabili, inderogabili, suppletive\n- [[norme-derogabili]] (dispositive): gli interessati possono escluderne l'applicazione con un accordo. Il legislatore vi enuncia la regola che le parti di solito adottano.\n- [[norme-inderogabili]] (cogenti o imperative): si applicano a prescindere dalla volontà dei singoli. Esempio: l'art. 147 c.c., obbligo dei coniugi di mantenere, istruire ed educare i figli.\n- [[norme-suppletive]]: operano solo se i privati non hanno regolato un aspetto del rapporto. Esempio: l'art. 1193 c.c. sull'[[imputazione-del-pagamento|imputazione del pagamento]]: sceglie il debitore; se tace, decide la legge.\n\nLe norme di diritto pubblico sono quasi sempre cogenti, quelle di diritto privato in maggioranza dispositive, ma esistono eccezioni in entrambi i sensi.",
+      "sintesi": "### Generalità e astrattezza\nLa [[norma-giuridica|norma]] con forza di legge è **generale**, perché si rivolge a tutti i consociati o a classi di soggetti, e **astratta**, perché regola situazioni ipotetiche e non casi determinati ([[generalita-e-astrattezza]]). Sono però ammesse le **leggi-provvedimento**, leggi in senso formale che dispongono per un caso concreto, come l'istituzione di un [[ente|ente]] pubblico.\n\n### Il principio di uguaglianza\nOggi la legge è caratterizzata soprattutto dal [[principio-di-uguaglianza]] dell'art. 3 della [[costituzione|Costituzione]], da non confondere con l'**imparzialità** dei pubblici uffici (art. 97 Cost.), che è l'obbligo di applicare la legge in modo uguale.\n- Profilo **formale** (primo comma): pari dignità sociale e uguaglianza davanti alla legge, senza distinzioni di sesso, razza, lingua, religione, opinioni politiche, condizioni personali e sociali.\n- Profilo **sostanziale** (secondo comma): la Repubblica rimuove gli ostacoli economici e sociali che limitano di fatto libertà e uguaglianza.\n\nIl controllo spetta alla **Corte costituzionale**, che dichiara illegittima la norma quando tratta in modo diverso situazioni omogenee o in modo uguale situazioni diverse, cioè quando la distinzione è **irragionevole**.\n\n### L'equità\nL'applicazione di una norma al caso concreto può urtare il senso di giustizia. L'[[equita]] è la **giustizia del caso singolo**. L'[[ordinamento-giuridico|ordinamento]] però preferisce la **certezza del diritto**: chi agisce deve poter prevedere le conseguenze, e non dipendere dalla valutazione soggettiva del giudice (*summum ius, summa iniuria* è il rischio opposto). Perciò il giudice decide secondo equità solo quando la legge lo consente (art. 113 c.p.c.). Dall'equità come **criterio di decisione** si distingue l'equità **integrativa**, con cui il giudice determina, su rinvio della legge, un elemento della [[fattispecie|fattispecie]].\n\n### Diritto pubblico e diritto privato\n| | [[diritto-pubblico]] | [[diritto-privato]] |\n|---|---|---|\n| oggetto | organizzazione e azione dello Stato e degli enti pubblici | relazioni tra i singoli e tra enti privati |\n| posizione delle parti | [[soggezione|soggezione]] a un potere pubblico | parità |\n| attuazione | affidata a organi pubblici | lasciata all'iniziativa degli interessati |\n\nIl confine è **variabile**: lo Stato può assumere compiti prima lasciati ai privati, gli enti pubblici possono agire secondo il diritto privato, i privati possono gestire servizi pubblici, e lo stesso fatto può essere regolato da entrambi.\n\n### Norme derogabili, inderogabili, suppletive\n- [[norme-derogabili]] (dispositive): gli interessati possono escluderne l'applicazione con un accordo. Il legislatore vi enuncia la regola che le parti di solito adottano.\n- [[norme-inderogabili]] (cogenti o imperative): si applicano a prescindere dalla volontà dei singoli. Esempio: l'art. 147 c.c., obbligo dei coniugi di mantenere, istruire ed educare i figli.\n- [[norme-suppletive]]: operano solo se i privati non hanno regolato un aspetto del rapporto. Esempio: l'art. 1193 c.c. sull'[[imputazione-del-pagamento|imputazione del pagamento]]: sceglie il debitore; se tace, decide la legge.\n\nLe norme di diritto pubblico sono quasi sempre cogenti, quelle di diritto privato in maggioranza dispositive, ma esistono eccezioni in entrambi i sensi.",
       "puntiChiave": [
         "Generalità: destinatari indeterminati; astrattezza: situazioni ipotetiche. Eccezione: le leggi-provvedimento.",
         "Art. 3 Cost.: uguaglianza formale (primo comma) e sostanziale (secondo comma); controllo di ragionevolezza della Corte costituzionale.",
@@ -121,7 +122,7 @@
         8
       ],
       "minuti": 25,
-      "sintesi": "### Fonti di produzione e di cognizione\nLe [[fonti-del-diritto]] di **produzione** sono gli atti e i fatti idonei a produrre norme; le [[fonti-di-cognizione]] sono i documenti da cui si conosce il testo, come la Gazzetta Ufficiale. Di ogni fonte-atto si distinguono l'**autorità** che la emana, il **procedimento**, il **documento** e i **precetti** che se ne ricavano. Ogni ordinamento stabilisce anzitutto le **norme sulla produzione giuridica**: chi pone le norme, come, e con quale grado.\n\n### La gerarchia\nLa [[gerarchia-delle-fonti]] indica la norma applicabile quando fonti diverse sono in contrasto.\n\n| Grado | Fonti |\n|---|---|\n| costituzionale | principi supremi (non modificabili nemmeno con revisione); [[costituzione]] e consuetudini costituzionali; leggi di revisione e altre leggi costituzionali (art. 138 Cost.) |\n| Unione europea | regolamenti (generali, obbligatori, direttamente applicabili); direttive (vincolano al risultato, vanno recepite); decisioni (obbligatorie per i destinatari); raccomandazioni e pareri non vincolano |\n| primario | leggi ordinarie; decreti-legge e decreti legislativi (artt. 76 e 77 Cost.); referendum abrogativo; statuti regionali; leggi regionali |\n| secondario | regolamenti del Governo, dei ministri e di altre autorità; statuti e regolamenti degli enti locali |\n| consuetudine | usi normativi |\n\nLa Costituzione è **rigida**: una legge ordinaria non può modificarla né contraddirla, e sul rispetto vigila la **Corte costituzionale**, a cui la questione arriva in via incidentale da un giudice o in via principale da Stato e Regioni. Le fonti dell'Unione prevalgono sulle leggi interne in forza delle limitazioni di sovranità dell'art. 11 Cost. Tra legge statale e legge regionale vale il criterio della **competenza**, non la gerarchia; nelle materie concorrenti lo Stato fissa i principi fondamentali. La legge ordinaria è abrogata solo da una legge successiva (art. 15 preleggi).\n\n### La consuetudine\nLa [[consuetudine]] nasce dalla **ripetizione generale e costante** di un comportamento, accompagnata dalla convinzione che sia **doveroso**. Può essere *secundum legem* (richiamata dalla legge), *praeter legem* (in materie non regolate) o *contra legem*, che non è ammessa. Non è scritta: il giudice la applica d'ufficio se la conosce (*iura novit curia*); altrimenti deve provarla la parte interessata. Esistono raccolte ufficiali di usi, come quelle delle Camere di commercio.\n\n### Il Codice civile\nUn codice non è una raccolta di testi precedenti, ma una legge nuova, **organica** (disciplina un intero settore), **sistematica**, **uguale per tutti**, che **abroga il diritto anteriore** e accentra la disciplina. Il [[codice-civile]] vigente è del **1942** ed è diviso in sei libri:\n\n| Libro | Artt. | Contenuto |\n|---|---|---|\n| I. Persone e famiglia | 1–455 | capacità, [[diritti-della-personalita|diritti della personalità]], enti, famiglia |\n| II. Successioni | 456–809 | successioni a causa di morte, donazione |\n| III. Proprietà | 810–1172 | proprietà, [[diritti-reali|diritti reali]], possesso |\n| IV. Obbligazioni | 1173–2059 | obbligazioni, contratti, fatti illeciti |\n| V. Lavoro | 2060–2642 | impresa, lavoro, società, concorrenza |\n| VI. Tutela dei diritti | 2643–2969 | [[trascrizione|trascrizione]], prove, garanzie, [[prescrizione|prescrizione]] |\n\nIl Codice ha il rango di legge ordinaria: è soggetto al giudizio della Corte costituzionale e può essere modificato da leggi successive, spesso con la tecnica della [[novella]], che sostituisce il testo di un articolo conservandone il numero o aggiunge articoli nuovi (bis, ter).",
+      "sintesi": "### Fonti di produzione e di cognizione\nLe [[fonti-del-diritto]] di **produzione** sono gli atti e i fatti idonei a produrre norme; le [[fonti-di-cognizione]] sono i documenti da cui si conosce il testo, come la Gazzetta Ufficiale. Di ogni fonte-atto si distinguono l'**autorità** che la emana, il **procedimento**, il **documento** e i **precetti** che se ne ricavano. Ogni [[ordinamento-giuridico|ordinamento]] stabilisce anzitutto le **norme sulla produzione giuridica**: chi pone le norme, come, e con quale grado.\n\n### La gerarchia\nLa [[gerarchia-delle-fonti]] indica la [[norma-giuridica|norma]] applicabile quando fonti diverse sono in contrasto.\n\n| Grado | Fonti |\n|---|---|\n| costituzionale | principi supremi (non modificabili nemmeno con revisione); [[costituzione]] e consuetudini costituzionali; leggi di revisione e altre leggi costituzionali (art. 138 Cost.) |\n| Unione europea | regolamenti (generali, obbligatori, direttamente applicabili); direttive (vincolano al risultato, vanno recepite); decisioni (obbligatorie per i destinatari); raccomandazioni e pareri non vincolano |\n| primario | leggi ordinarie; decreti-legge e decreti legislativi (artt. 76 e 77 Cost.); referendum abrogativo; statuti regionali; leggi regionali |\n| secondario | regolamenti del Governo, dei ministri e di altre autorità; statuti e regolamenti degli enti locali |\n| consuetudine | usi normativi |\n\nLa Costituzione è **rigida**: una legge ordinaria non può modificarla né contraddirla, e sul rispetto vigila la **Corte costituzionale**, a cui la questione arriva in via incidentale da un giudice o in via principale da Stato e Regioni. Le fonti dell'Unione prevalgono sulle leggi interne in forza delle limitazioni di sovranità dell'art. 11 Cost. Tra legge statale e legge regionale vale il criterio della **competenza**, non la gerarchia; nelle materie concorrenti lo Stato fissa i principi fondamentali. La legge ordinaria è abrogata solo da una legge successiva (art. 15 preleggi).\n\n### Le fonti dell'Unione europea\nLa fonte europea interferisce con l'ordinamento interno perché l'adesione ai Trattati ha comportato una **limitazione della sovranità** e il trasferimento di potere normativo a organi esterni allo Stato, consentiti dall'art. 11 Cost. Tra gli atti **vincolanti**, i **regolamenti** hanno portata generale, sono obbligatori in tutti i loro elementi e direttamente applicabili in ogni Stato membro; le **direttive** vincolano lo Stato quanto al risultato da raggiungere, lasciandogli la scelta della forma e dei mezzi, e quindi devono essere recepite; le **decisioni** sono obbligatorie in tutti i loro elementi, ma solo per i destinatari che designano. **Raccomandazioni** (esortazioni agli Stati) e **pareri** (opinioni su una questione) non sono vincolanti.\n\n### Le fonti secondarie\nSono subordinate alla legge (art. 1 preleggi): regolamenti del Governo, regolamenti ministeriali e di altre autorità, comprese le autorità indipendenti come la Consob; statuti e regolamenti degli enti locali; ordinanze. Non possono contrastare con le fonti primarie.\n\n### La consuetudine\nLa [[consuetudine]] nasce dalla **ripetizione generale e costante** di un comportamento, accompagnata dalla convinzione che sia **doveroso**. Può essere *secundum legem* (richiamata dalla legge), *praeter legem* (in materie non regolate) o *contra legem*, che non è ammessa. Non è scritta: il giudice la applica d'ufficio se la conosce (*iura novit curia*); altrimenti deve provarla la parte interessata. Esistono raccolte ufficiali di usi, come quelle delle Camere di commercio.\n\n### Il Codice civile\nUn codice non è una raccolta di testi precedenti, ma una legge nuova, **organica** (disciplina un intero settore), **sistematica**, **uguale per tutti**, che **abroga il diritto anteriore** e accentra la disciplina. Il [[codice-civile]] vigente è del **1942** ed è diviso in sei libri:\n\n| Libro | Artt. | Contenuto |\n|---|---|---|\n| I. Persone e [[famiglia|famiglia]] | 1–455 | capacità, [[diritti-della-personalita|diritti della personalità]], enti, famiglia |\n| II. Successioni | 456–809 | successioni a causa di morte, [[donazione|donazione]] |\n| III. [[proprieta|Proprietà]] | 810–1172 | proprietà, [[diritti-reali|diritti reali]], [[possesso|possesso]] |\n| IV. Obbligazioni | 1173–2059 | obbligazioni, contratti, fatti illeciti |\n| V. Lavoro | 2060–2642 | impresa, lavoro, società, concorrenza |\n| VI. Tutela dei diritti | 2643–2969 | [[trascrizione|trascrizione]], prove, garanzie, [[prescrizione|prescrizione]] |\n\nIl Codice ha il rango di legge ordinaria: è soggetto al giudizio della Corte costituzionale e può essere modificato da leggi successive, spesso con la tecnica della [[novella]], che sostituisce il testo di un articolo conservandone il numero o aggiunge articoli nuovi (bis, ter).",
       "puntiChiave": [
         "Fonti di produzione creano le norme; fonti di cognizione le fanno conoscere.",
         "Gradi: costituzionale, Unione europea, primario, secondario, consuetudine.",
@@ -172,7 +173,7 @@
         "ordinamento"
       ],
       "breve": "Complesso di norme e istituzioni che regolano la vita di una collettività organizzata.",
-      "definizione": "Sistema di regole di condotta e di struttura, poste da organi a ciò competenti ed effettivamente osservate, con cui una collettività organizza la propria vita. Gli ordinamenti sono molti; è **originario** quello che non dipende da un'altra organizzazione, come lo Stato.",
+      "definizione": "Complesso di norme e di istituzioni con cui una collettività regola e dirige la vita sociale e i rapporti tra i singoli. Perché ci sia un gruppo organizzato occorrono tre condizioni: **regole di condotta** che coordinano gli apporti individuali; **regole di struttura** (o di competenza) che affidano a organi appositi il compito di porre quelle regole; **effettiva osservanza** delle une e delle altre. Gli ordinamenti sono molti (chiese, partiti, sindacati); è **originario** quello che non è soggetto al controllo di validità di un'altra organizzazione (*superiorem non recognoscit*), come lo Stato, ordinamento a fini generali dotato di potere sovrano sul proprio territorio.",
       "pagine": [
         1,
         2
@@ -187,7 +188,7 @@
         "regola giuridica"
       ],
       "breve": "Regola dell'ordinamento, vincolante perché posta da un atto dotato di autorità.",
-      "definizione": "Regola che concorre a disciplinare la vita della comunità. Si distingue dalla norma morale perché la sua forza non dipende dal contenuto ma dalla **fonte** che la pone. Ha la struttura di un periodo ipotetico: a una [[fattispecie]] collega un effetto giuridico. Di regola è generale e astratta.",
+      "definizione": "Ciascuna delle regole che compongono l'[[ordinamento-giuridico]] e concorrono a disciplinare la vita organizzata della comunità. Non va confusa con la **norma morale**, che vale per il suo contenuto: la norma giuridica trae forza vincolante dalla **fonte** che la pone, cioè da un atto dotato di autorità. Va distinta anche dalla **legge**, che è il documento che la contiene: una legge può contenere molte norme e una norma può risultare dal «combinato disposto» di più disposizioni; e il testo (la formula) non coincide con il precetto che l'interprete ne ricava. Ha la struttura di un periodo ipotetico: a una [[fattispecie]] collega un effetto giuridico.",
       "pagine": [
         2,
         3
@@ -201,7 +202,7 @@
         "ius positum"
       ],
       "breve": "L'insieme delle norme poste dalle fonti di un determinato ordinamento.",
-      "definizione": "Il diritto effettivamente posto in una società, cioè le regole che scaturiscono dalle sue fonti. Si contrappone al [[diritto-naturale]].",
+      "definizione": "Il complesso delle norme che costituiscono un determinato ordinamento giuridico, cioè l'insieme delle regole che scaturiscono effettivamente dalle sue [[fonti-del-diritto|fonti]] (*ius positum*, diritto «posto»). È il diritto vigente in una società in un certo momento, quello che il giudice applica e che il giurista interpreta. Gli appunti lo contrappongono al [[diritto-naturale]], che invece pretende di valere indipendentemente da ogni atto di volontà del potere e viene invocato come suo fondamento o come metro per giudicarlo. Anche il diritto privato, pur lasciando l'iniziativa ai singoli, fa parte del diritto positivo dell'ordinamento.",
       "pagine": [
         2,
         2
@@ -215,7 +216,7 @@
         "giusnaturalismo"
       ],
       "breve": "Complesso di principi invocati come fondamento o criterio di critica del diritto positivo.",
-      "definizione": "Inteso ora come matrice dei diritti positivi, ora come misura per valutarli, ora come insieme di principi eterni e universali. Risponde all'esigenza di dare al diritto un fondamento obiettivo che limiti l'arbitrio del potere (Grozio, Hobbes, Locke).",
+      "definizione": "Insieme di principi che si pretendono superiori al [[diritto-positivo]], inteso a seconda delle concezioni ora come **matrice** da cui derivano i singoli diritti positivi, ora come **criterio di valutazione critica** degli ordinamenti concreti, ora come complesso di principi **eterni e universali** (giusnaturalismo). In ogni sua versione il richiamo al diritto naturale risponde all'aspirazione di dare al diritto positivo un **fondamento obiettivo**, che elimini il rischio dell'arbitrio del potere. Gli appunti lo collegano alle teorie del contratto sociale di Grozio, Hobbes e Locke (XVII secolo d.C.).",
       "pagine": [
         2,
         2
@@ -230,7 +231,7 @@
         "fattispecie concreta"
       ],
       "breve": "Il fatto, o l'insieme di fatti, a cui la norma collega un effetto giuridico.",
-      "definizione": "È la parte ipotetica della norma («se A»). **Astratta** è quella descritta in ipotesi dal testo; **concreta** è il fatto realmente accaduto, da accertare nel processo e da confrontare con l'ipotesi legale.",
+      "definizione": "L'ipotesi di fatto prevista da una norma, al cui verificarsi la norma ricollega un effetto giuridico (acquisto, modificazione o estinzione di un diritto, nascita di un obbligo, sanzione): nella formula «se A allora B», A è la fattispecie e B la statuizione. La fattispecie **astratta** è descritta in ipotesi dal testo e si ricava interpretandolo; quella **concreta** è il fatto realmente accaduto, che va accertato (nel processo, con le prove) e confrontato con l'ipotesi legale. Può essere **semplice** (un solo fatto), **complessa** (più fatti, e l'effetto si produce solo quando ci sono tutti) o **a formazione progressiva** (fatti che si succedono nel tempo).",
       "pagine": [
         2,
         3
@@ -242,7 +243,7 @@
       "tipo": "concetto",
       "alias": [],
       "breve": "Contrasto tra due norme che collegano alla stessa fattispecie effetti incompatibili.",
-      "definizione": "Si risolve con i criteri di gerarchia, competenza, cronologia e specialità.",
+      "definizione": "Contrasto tra norme: si ha quando la stessa [[fattispecie]] è presa in considerazione da norme diverse che le ricollegano effetti giuridici tra loro logicamente incompatibili, sicché non è possibile applicarle entrambe. Poiché l'ordinamento deve dare una sola risposta, l'antinomia va risolta individuando la norma applicabile con i criteri **gerarchico** (prevale la fonte superiore), **di competenza** (prevale la fonte competente in quella materia, come nei rapporti tra legge statale e regionale), **cronologico** (la legge successiva abroga quella anteriore, art. 15 preleggi) e **di specialità** (la norma speciale prevale su quella generale).",
       "pagine": [
         3,
         3
@@ -256,7 +257,7 @@
         "lacuna del diritto"
       ],
       "breve": "Mancanza di una norma che regoli una determinata fattispecie.",
-      "definizione": "Si colma con l'analogia e i principi generali (art. 12 preleggi).",
+      "definizione": "Situazione in cui una fattispecie non è prevista da alcuna norma giuridica, sicché il testo delle leggi non offre la regola del caso. Il giudice non può rifiutarsi di decidere: la lacuna si colma con gli strumenti dell'art. 12 delle preleggi, cioè anzitutto con l'[[analogia]] (*analogia legis*), applicando la disposizione che regola casi simili o materie analoghe quando ricorre la stessa ragione giustificatrice, e, se il caso rimane ancora dubbio, con i **principi generali dell'ordinamento** (*analogia iuris*). Le norme penali ed eccezionali non si applicano per analogia (art. 14 preleggi).",
       "pagine": [
         3,
         3
@@ -270,7 +271,7 @@
         "istituto"
       ],
       "breve": "Complesso di norme che regolano la stessa fattispecie o lo stesso fenomeno sociale.",
-      "definizione": "Esempi: la proprietà, il matrimonio, il contratto.",
+      "definizione": "Il complesso delle norme che regolano la medesima [[fattispecie]] o lo stesso tipo di rapporto, considerato come un insieme unitario e coordinato. Lo studio del diritto procede per istituti: la **proprietà**, il **matrimonio**, il **contratto**, il testamento, l'ipoteca sono istituti, ciascuno formato da molte disposizioni (spesso sparse nel Codice e nelle leggi speciali) che ne fissano presupposti, effetti e limiti. La nozione serve a ricostruire la disciplina di un fenomeno nel suo insieme, al di là delle singole norme, e a interpretarle in modo sistematico.",
       "pagine": [
         3,
         3
@@ -285,7 +286,7 @@
         "astrattezza"
       ],
       "breve": "Caratteri della norma di legge: destinatari indeterminati e situazioni ipotetiche.",
-      "definizione": "La legge è **generale** perché non è dettata per singoli individui e **astratta** perché regola fattispecie ipotetiche. Fanno eccezione le leggi-provvedimento.",
+      "definizione": "Caratteri essenziali della norma che ha forza di legge. La **generalità** significa che la legge non è dettata per singoli individui ma per tutti i consociati o per classi generiche di soggetti; l'**astrattezza** significa che non regola situazioni concrete già verificate ma fattispecie ipotetiche, che potranno ripetersi un numero indefinito di volte. Oggi si ammettono anche **leggi-provvedimento**, leggi in senso formale prive di questi caratteri (per esempio quella che istituisce un ente pubblico). Per caratterizzare la legge ha perciò acquistato importanza il [[principio-di-uguaglianza]] dell'art. 3 Cost.",
       "pagine": [
         3,
         3
@@ -300,7 +301,7 @@
         "art. 3 Cost."
       ],
       "breve": "Art. 3 Cost.: uguaglianza davanti alla legge e rimozione degli ostacoli di fatto.",
-      "definizione": "Ha un profilo **formale** (primo comma) e uno **sostanziale** (secondo comma). La Corte costituzionale lo applica come giudizio di **ragionevolezza** delle distinzioni fatte dal legislatore.",
+      "definizione": "Principio dell'art. 3 Cost., che ha due profili. Quello **formale** (primo comma): tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge, senza distinzioni di sesso, razza, lingua, religione, opinioni politiche, condizioni personali e sociali. Quello **sostanziale** (secondo comma): la Repubblica deve rimuovere gli ostacoli economici e sociali che limitano di fatto libertà ed eguaglianza. La Corte costituzionale lo applica come giudizio di **ragionevolezza**: dichiara illegittime le differenze di trattamento arbitrarie tra situazioni omogenee e le assimilazioni di situazioni diverse. Va distinto dall'**imparzialità** della pubblica amministrazione (art. 97 Cost.).",
       "pagine": [
         3,
         4
@@ -314,7 +315,7 @@
         "giustizia del caso singolo"
       ],
       "breve": "La giustizia del caso singolo, ammessa solo dove la legge vi rinvia.",
-      "definizione": "Criterio di decisione che adatta la regola alle particolarità del caso. Per tutelare la certezza del diritto è ammessa solo nei casi previsti (art. 113 c.p.c.). L'equità **integrativa** serve invece a determinare un elemento della fattispecie.",
+      "definizione": "La «giustizia del caso singolo»: criterio di decisione che adatta la regola alle particolarità del caso concreto, quando l'applicazione rigida della norma darebbe un risultato contrario al sentimento di giustizia (*summum ius, summa iniuria*). Poiché affidarsi alla valutazione soggettiva del giudice nuocerebbe alla **certezza del diritto**, nel diritto privato il giudizio di equità è ammesso solo nei casi in cui la legge vi rinvia (art. 113 c.p.c.). Diversa è l'**equità integrativa**, con cui il giudice, su indicazione della legge, determina o completa un singolo elemento di una fattispecie (per esempio l'ammontare di un'indennità).",
       "pagine": [
         4,
         4
@@ -326,7 +327,7 @@
       "tipo": "concetto",
       "alias": [],
       "breve": "Ramo del diritto che regola i rapporti tra soggetti in posizione di parità.",
-      "definizione": "Disciplina le relazioni tra i singoli e tra enti privati, lasciando agli interessati l'iniziativa per l'attuazione delle norme. Il confine con il [[diritto-pubblico]] è variabile.",
+      "definizione": "Branca del diritto che disciplina le relazioni tra i singoli e tra gli enti privati, senza affidarne la cura a organi pubblici ma lasciando all'iniziativa degli interessati anche l'attuazione delle norme: chi vuole far valere un proprio diritto deve agire. Nel diritto privato il singolo opera **su un piano di uguaglianza** con gli altri, non in posizione di soggezione a un potere pubblico. Le sue norme sono per lo più **derogabili**, ma non mancano norme cogenti. Il confine con il [[diritto-pubblico]] è variabile: lo Stato può assumere funzioni un tempo private, gli enti pubblici possono agire secondo il diritto privato.",
       "pagine": [
         5,
         5
@@ -338,7 +339,7 @@
       "tipo": "concetto",
       "alias": [],
       "breve": "Ramo del diritto che regola organizzazione e azione dello Stato e degli enti pubblici.",
-      "definizione": "Comprende il diritto costituzionale, amministrativo e penale. Il privato vi si trova di regola in posizione di soggezione rispetto al potere pubblico.",
+      "definizione": "Branca del diritto che disciplina l'organizzazione dello Stato e degli altri enti pubblici, ne regola l'azione (all'interno e di fronte ai privati) e impone ai privati i comportamenti dovuti per la vita associata e per il reperimento dei mezzi finanziari necessari ai fini pubblici. Si articola nel diritto costituzionale, amministrativo e penale. Il privato vi si trova di regola in posizione di **soggezione** rispetto al potere pubblico e le norme sono quasi sempre cogenti. La distinzione dal [[diritto-privato]], un tempo ritenuta fondamentale, ha confini incerti: uno stesso fatto può essere regolato da norme dell'uno e dell'altro.",
       "pagine": [
         5,
         5
@@ -352,7 +353,7 @@
         "norme dispositive"
       ],
       "breve": "Norme la cui applicazione può essere esclusa dall'accordo degli interessati.",
-      "definizione": "Enunciano la regola che le parti adottano di solito e valgono se queste non dispongono diversamente.",
+      "definizione": "Norme (dette anche **dispositive**) la cui applicazione può essere evitata da un accordo degli interessati, che sono liberi di regolare diversamente il loro rapporto. Sono la maggior parte delle norme di diritto privato. Con esse il legislatore, a fini di certezza, enuncia la regola che le parti adottano di solito e che può dirsi «tipica»: si presume che, se le parti avessero previsto il punto, lo avrebbero regolato proprio così. Si contrappongono alle [[norme-inderogabili]]; una loro specie sono le [[norme-suppletive]], che intervengono solo quando le parti non hanno disposto nulla su un aspetto del rapporto.",
       "pagine": [
         5,
         5
@@ -367,7 +368,7 @@
         "norme imperative"
       ],
       "breve": "Norme che si applicano a prescindere dalla volontà dei singoli.",
-      "definizione": "Esempio: l'art. 147 c.c. sui doveri dei coniugi verso i figli.",
+      "definizione": "Norme (dette anche **cogenti** o imperative) la cui applicazione è imposta dall'ordinamento indipendentemente dalla volontà dei singoli, che non possono escluderla con un accordo. Il loro carattere risulta spesso dalla formulazione stessa: per esempio l'art. 147 c.c., per cui il matrimonio impone a entrambi i coniugi l'obbligo di mantenere, istruire ed educare i figli. Le norme di diritto pubblico sono quasi sempre cogenti, ma anche nel diritto privato ve ne sono molte (famiglia, tutela del contraente debole); il contratto contrario a una norma imperativa è di regola nullo (art. 1418 c.c.). Si contrappongono alle [[norme-derogabili]].",
       "pagine": [
         5,
         5
@@ -379,7 +380,7 @@
       "tipo": "norma",
       "alias": [],
       "breve": "Norme che operano solo se i privati non hanno regolato un aspetto del rapporto.",
-      "definizione": "Esempio: l'art. 1193 c.c. sull'imputazione del pagamento.",
+      "definizione": "Norme destinate ad applicarsi solo quando i privati non hanno provveduto a regolare un determinato aspetto del loro rapporto: la legge colma la lacuna lasciata dalle parti, disciplinando ciò che esse hanno lasciato senza regola. Sono una specie delle [[norme-derogabili]], perché le parti possono sempre disporre diversamente. Esempio degli appunti: l'art. 1193 c.c. attribuisce al debitore che ha più debiti verso lo stesso creditore la facoltà di dichiarare, quando paga, quale debito intende soddisfare; se non lo fa, il secondo comma stabilisce a quale debito si imputa il pagamento ([[imputazione-del-pagamento]]).",
       "pagine": [
         5,
         5
@@ -393,7 +394,7 @@
         "fonti di produzione"
       ],
       "breve": "Atti e fatti idonei a produrre norme giuridiche.",
-      "definizione": "Si ordinano per gradi: costituzionale, dell'Unione europea, primario, secondario, consuetudine.",
+      "definizione": "Gli atti e i fatti che producono o sono idonei a produrre norme giuridiche (fonti **di produzione**), da distinguere dalle [[fonti-di-cognizione]], che servono solo a conoscerne il testo. Si distinguono fonti **materiali** e **formali**; per ogni fonte-atto si individuano l'autorità che la emana, il procedimento, il documento e i precetti che se ne ricavano. Ogni ordinamento fissa anzitutto le norme sulla produzione giuridica e il loro valore gerarchico: in Italia le fonti si ordinano in fonti costituzionali, dell'Unione europea, primarie (leggi e atti con forza di legge), secondarie (regolamenti) e consuetudine ([[gerarchia-delle-fonti]]).",
       "pagine": [
         5,
         7
@@ -405,7 +406,7 @@
       "tipo": "fonte",
       "alias": [],
       "breve": "Documenti ufficiali da cui si conosce il testo delle norme, come la Gazzetta Ufficiale.",
-      "definizione": "Si distinguono dalle fonti di produzione, che creano le norme.",
+      "definizione": "I documenti e le pubblicazioni ufficiali da cui si può prendere conoscenza del testo di un atto normativo: il caso tipico è la **Gazzetta Ufficiale** della Repubblica, in cui sono pubblicate leggi e regolamenti, a cui si aggiungono le raccolte ufficiali (per gli usi, quelle delle Camere di commercio). Non creano diritto: si distinguono dalle [[fonti-del-diritto|fonti di produzione]], che sono gli atti e i fatti idonei a produrre norme. La pubblicazione nella fonte di cognizione è però il presupposto perché la legge entri in vigore e si presuma conosciuta da tutti.",
       "pagine": [
         5,
         5
@@ -417,7 +418,7 @@
       "tipo": "concetto",
       "alias": [],
       "breve": "Ordine per gradi delle fonti, che indica la norma applicabile in caso di contrasto.",
-      "definizione": "La fonte superiore prevale su quella inferiore. Tra legge statale e regionale opera invece il criterio di competenza.",
+      "definizione": "Regola sulla produzione giuridica che ordina le fonti per gradi e indica quale norma si applica quando fonti diverse sono in contrasto: la fonte superiore prevale su quella inferiore, che non può modificarla né contraddirla. Al vertice stanno i principi supremi, la [[costituzione]] e le leggi costituzionali; seguono le fonti dell'Unione europea, che prevalgono sulle leggi interne; poi le fonti primarie (leggi ordinarie, decreti-legge e legislativi, leggi regionali), le secondarie (regolamenti) e infine gli usi. Tra legge statale e regionale vale invece il criterio di **competenza**; la gerarchia torna nelle materie concorrenti, dove lo Stato fissa i principi.",
       "pagine": [
         6,
         7
@@ -431,7 +432,7 @@
         "Costituzione della Repubblica italiana"
       ],
       "breve": "Legge fondamentale e rigida, al vertice delle fonti.",
-      "definizione": "Non può essere modificata né contraddetta da una legge ordinaria; sul rispetto vigila la Corte costituzionale.",
+      "definizione": "La legge fondamentale della Repubblica italiana, in vigore dal 1° gennaio 1948, al vertice della [[gerarchia-delle-fonti]] insieme alle leggi costituzionali; sopra di essa stanno solo i principi supremi, non modificabili nemmeno con la revisione. È **rigida**: una legge ordinaria non può modificarla né contenere disposizioni in contrasto con essa; per cambiarla serve il procedimento aggravato dell'art. 138 Cost. Sul rispetto vigila la **Corte costituzionale**, a cui la questione giunge in via incidentale (dal giudice di un processo) o in via principale (da Stato e Regioni); le norme dichiarate illegittime cessano di avere efficacia dal giorno dopo la pubblicazione della sentenza (art. 136 Cost.).",
       "pagine": [
         6,
         6
@@ -446,7 +447,7 @@
         "uso"
       ],
       "breve": "Fonte non scritta: comportamento costante ritenuto giuridicamente doveroso.",
-      "definizione": "Richiede la ripetizione generale e costante e la convinzione della doverosità. Può essere secundum o praeter legem, mai contra legem.",
+      "definizione": "Fonte non scritta del diritto (usi normativi), all'ultimo grado della [[gerarchia-delle-fonti]]. Esiste quando ricorrono due elementi: la **ripetizione generale e costante** di un comportamento in un certo ambiente e la convinzione che esso sia **doveroso**. La dottrina distingue consuetudini *secundum legem* (in accordo con la legge), *praeter legem* (in materie non disciplinate) e *contra legem*, che non sono ammesse. Il giudice applica d'ufficio la consuetudine che conosce (*iura novit curia*); altrimenti deve provarla la parte interessata, anche con le raccolte ufficiali degli usi, come quelle delle Camere di commercio.",
       "pagine": [
         7,
         7
@@ -461,7 +462,7 @@
         "codice del 1942"
       ],
       "breve": "Legge organica e sistematica del 1942 che disciplina il diritto privato, in sei libri.",
-      "definizione": "Ha rango di legge ordinaria. Libri: persone e famiglia; successioni; proprietà; obbligazioni; lavoro; tutela dei diritti.",
+      "definizione": "La legge del 1942 che raccoglie in modo organico la disciplina dei rapporti privati. Come ogni codice moderno non è una raccolta di testi precedenti ma una legge nuova, **organica**, **sistematica**, uguale per tutti, che abroga il diritto anteriore e accentra la disciplina. È diviso in sei libri: persone e famiglia (artt. 1–455), successioni (456–809), proprietà (810–1172), obbligazioni (1173–2059), lavoro (2060–2642), tutela dei diritti (2643–2969). Ha il rango di **legge ordinaria**: è soggetto al controllo della Corte costituzionale e può essere modificato o abrogato da leggi successive, spesso con la tecnica della [[novella]].",
       "pagine": [
         8,
         8
@@ -475,7 +476,7 @@
         "novellazione"
       ],
       "breve": "Tecnica che modifica un codice sostituendo il testo di un articolo o aggiungendone di nuovi.",
-      "definizione": "La numerazione originaria resta ferma: gli articoli aggiunti prendono il suffisso bis, ter e così via.",
+      "definizione": "Tecnica con cui il legislatore modifica un codice o una legge intervenendo direttamente sul testo: sostituisce la formulazione di un articolo mantenendone ferma la numerazione originaria, oppure aggiunge articoli nuovi, che prendono il numero di quello precedente seguito da **bis, ter, quater** e così via (per esempio gli artt. 1469-bis ss. c.c. o il 2645-ter). La numerazione del [[codice-civile]] resta così stabile nonostante le molte riforme, e i riferimenti delle altre leggi continuano a funzionare. Con «novella» si indica anche la legge che apporta la modifica (la «novella» del 1975 sulla famiglia).",
       "pagine": [
         8,
         8
@@ -634,6 +635,36 @@
       "concetti": [
         "fonti-del-diritto",
         "costituzione"
+      ]
+    },
+    {
+      "id": "ev-trattato-di-amsterdam",
+      "anno": 1997,
+      "data": "2 ottobre 1997",
+      "titolo": "Trattato di Amsterdam",
+      "descrizione": "Modifica il Trattato sull'Unione europea e i Trattati istitutivi delle Comunità; segue il Trattato di Maastricht (1992) nel processo di integrazione europea.",
+      "tipo": "legge",
+      "concetti": [
+        "fonti-del-diritto"
+      ],
+      "pagine": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "ev-trattato-di-lisbona",
+      "anno": 2007,
+      "data": "13 dicembre 2007",
+      "titolo": "Trattato di Lisbona",
+      "descrizione": "Modifica il Trattato sull'Unione europea e il Trattato istitutivo della Comunità europea (che diventa Trattato sul funzionamento dell'Unione); è in vigore dal 1° dicembre 2009.",
+      "tipo": "legge",
+      "concetti": [
+        "fonti-del-diritto"
+      ],
+      "pagine": [
+        2,
+        2
       ]
     }
   ],

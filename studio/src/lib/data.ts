@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react';
-import type { Concetto, Corso, Domanda, Evento, Lezione, Manifest, Relazione, Unita } from './types';
+import type { Concetto, Corso, Domanda, Evento, FonteEsame, Lezione, Manifest, Relazione, TracciaEsame, Unita } from './types';
 import { creaDomandeGlossario, creaSchedeInverse } from './inverse';
 import { creaDomandeCronologia } from './domande-eventi';
 
@@ -24,6 +24,11 @@ export interface Indice {
   domandePerConcetto: Map<string, Domanda[]>;
   relazioniPerConcetto: Map<string, Relazione[]>;
   eventiPerConcetto: Map<string, Evento[]>;
+  /** tracce d'esame dei docenti: per lezione, per voce, per unità (nell'ordine del file) */
+  fontiEsame: Map<string, FonteEsame>;
+  traccePerLezione: Map<string, TracciaEsame[]>;
+  traccePerConcetto: Map<string, TracciaEsame[]>;
+  traccePerUnita: Map<string, TracciaEsame[]>;
   /** pagine totali coperte dalle lezioni (unione) */
   pagineTotali: number;
 }
@@ -71,6 +76,15 @@ export function indicizza(corso: Corso): Indice {
   for (const q of domandeCronologia) requisitiDomanda.set(q.id, q.eventiCronologia
     ? { lezioni: [], unita: [q.unita], tutti: q.eventiCronologia.map((id) => requisitoEvento(eventiById.get(id)!)) }
     : requisitoEvento(eventiById.get(q.cronologia!)!));
+  const traccePerLezione = new Map<string, TracciaEsame[]>();
+  const traccePerConcetto = new Map<string, TracciaEsame[]>();
+  const traccePerUnita = new Map<string, TracciaEsame[]>();
+  const unitaDiLezione = new Map(lezioni.map((l) => [l.id, l.unita]));
+  for (const t of corso.esame?.tracce ?? []) {
+    for (const l of t.lezioni) push(traccePerLezione, l, t);
+    for (const c of t.concetti) push(traccePerConcetto, c, t);
+    for (const u of new Set(t.lezioni.map((l) => unitaDiLezione.get(l)).filter((u): u is string => !!u))) push(traccePerUnita, u, t);
+  }
   const pagine = new Set<string>();
   for (const l of lezioni) if (l.pagine) for (let p = l.pagine[0]; p <= l.pagine[1]; p++) pagine.add(`${l.fonte ?? ''}:${p}`);
   return {
@@ -82,6 +96,8 @@ export function indicizza(corso: Corso): Indice {
     domandaById: new Map(domande.map((q) => [q.id, q])),
     schedeInverse, domandeGlossario, domandeCronologia, requisitiDomanda,
     domandePerLezione, domandePerConcetto, relazioniPerConcetto, eventiPerConcetto,
+    fontiEsame: new Map((corso.esame?.fonti ?? []).map((f) => [f.id, f])),
+    traccePerLezione, traccePerConcetto, traccePerUnita,
     pagineTotali: pagine.size,
   };
 }

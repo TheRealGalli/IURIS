@@ -730,7 +730,7 @@
       "nome": "Annualità",
       "tipo": "concetto",
       "breve": "Le magistrature durano un anno: garantisce il ricambio costante del potere.",
-      "definizione": "Uno dei due tratti che, per [[polibio|Polibio]], tengono in equilibrio la [[costituzione-mista]]: le magistrature hanno **durata annuale**, e questo assicura un **ricambio costante** al potere.",
+      "definizione": "Uno dei due tratti che, per [[polibio|Polibio]], tengono in equilibrio la [[costituzione-mista]]: le magistrature hanno **durata annuale**, e questo assicura un **ricambio costante** al potere. È un limite voluto: in una repubblica nessuno deve detenere il potere tanto a lungo da renderlo personale. L'altro tratto è la [[collegialita|collegialità]], con il veto reciproco ([[intercessio]]). Anche l'editto del pretore durava un anno, quanto la sua carica.",
       "pagine": [
         13,
         13
@@ -843,7 +843,7 @@
       "tipo": "norma",
       "latino": "lex de imperio",
       "breve": "Investitura dei magistrati eletti, votata dai comizi curiati: il riconoscimento formale del loro potere.",
-      "definizione": "In età repubblicana i [[comizi-curiati]] conservano importanza riunendosi per la cosiddetta *lex de imperio*: l'**investitura** dei magistrati, la cerimonia in cui i magistrati, una volta eletti, ricevono il **riconoscimento formale del loro potere**.",
+      "definizione": "In età repubblicana i [[comizi-curiati]] conservano importanza riunendosi per la cosiddetta *lex de imperio*: l'**investitura** dei magistrati, la cerimonia in cui i magistrati, una volta eletti, ricevono il **riconoscimento formale del loro potere** (l'[[imperium]]). Nel [[principato]] la *lex de imperio* diventa la **legge di investitura del principe**, con cui Senato e popolo gli conferiscono il potere: ne è testimone la **Lex de imperio Vespasiani**, con la clausola discrezionale da cui nasce l'idea del principe [[legibus-solutus|legibus solutus]].",
       "pagine": [
         14,
         14
@@ -1208,7 +1208,7 @@
       "tipo": "opera",
       "latino": "libri posteriores",
       "breve": "Opera di Labeone pubblicata dopo la sua morte: vi si ricavano criteri interpretativi dalle XII Tavole.",
-      "definizione": "Opera di [[labeone|Labeone]] pubblicata *post mortem*. I suoi testi provano che l'analisi linguistica delle [[xii-tavole|XII Tavole]] serviva a fissare criteri ermeneutici generali: [[sesto-pomponio|Sesto Pomponio]] ne riproduce il ragionamento sul *videbitur* nella [[manumissio]] condizionale.",
+      "definizione": "Opera di [[labeone|Labeone]] pubblicata *post mortem*. I suoi testi provano che l'analisi linguistica delle [[xii-tavole|XII Tavole]] non era mera erudizione ma serviva a fissare criteri ermeneutici generali: [[sesto-pomponio|Sesto Pomponio]] ne riproduce il ragionamento sul *videbitur* nella [[manumissio]] condizionale, inteso come «potrà apparire», sul modello del *si aqua pluvia nocet* dell'[[actio-aquae-pluviae-arcendae]], dove basta il pericolo del danno.",
       "pagine": [
         21,
         21
@@ -1238,7 +1238,7 @@
         "manumissio testamentaria"
       ],
       "breve": "Atto che rende libero uno schiavo; può essere disposta per testamento e sottoposta a condizione.",
-      "definizione": "L'atto (negozio manomissorio) con cui uno schiavo diventa libero. Nel caso discusso da [[labeone|Labeone]] e riportato da [[sesto-pomponio|Pomponio]] è una manumissio **testamentaria condizionale**, con un legato allo schiavo manomesso: Caleno sarà libero «se apparirà» che abbia tenuto diligentemente i conti; la condizione si considera avverata se l'accertamento è obiettivamente possibile, anche se non compiuto.",
+      "definizione": "L'atto (negozio manomissorio) con cui uno schiavo diventa libero. Nel caso discusso da [[labeone|Labeone]] e riportato da [[sesto-pomponio|Pomponio]] è una manumissio **testamentaria condizionale**, con un legato allo schiavo manomesso: Caleno sarà libero «se apparirà» che abbia tenuto diligentemente i conti; la condizione si considera avverata se l'accertamento è obiettivamente possibile, anche se non compiuto. Per [[ulpiano|Ulpiano]] le manomissioni vengono dallo [[ius-gentium]], perché per diritto naturale tutti nascevano liberi.",
       "pagine": [
         21,
         21
@@ -1279,7 +1279,7 @@
         "Notti attiche"
       ],
       "breve": "Opera di Aulo Gellio (II sec. d.C.) che riporta un dibattito sulle XII Tavole tra un filosofo e un giurista.",
-      "definizione": "Opera di [[aulo-gellio|Aulo Gellio]] (II sec. d.C.): vi si riporta un dibattito tra un filosofo accademico e un giurista sull'analisi storico-linguistica delle [[xii-tavole|XII Tavole]], anche in chiave critica.",
+      "definizione": "Opera di [[aulo-gellio|Aulo Gellio]] (II sec. d.C.): vi si riporta un dibattito tra un filosofo accademico e un giurista della sua epoca sull'analisi storico-linguistica delle [[xii-tavole|XII Tavole]], anche in chiave critica. Mostra che, secoli dopo la loro redazione, le XII Tavole sono ancora una realtà presente, «viva», con cui ci si confronta, e che l'analisi delle parole antiche serviva a chiarirne i dettagli dimenticati.",
       "pagine": [
         22,
         22
@@ -2893,6 +2893,9 @@
       "pagine": [
         11,
         12
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -3224,6 +3227,9 @@
       "pagine": [
         13,
         15
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -4167,6 +4173,9 @@
       "pagine": [
         18,
         20
+      ],
+      "esame": [
+        "starace"
       ]
     },
     {
@@ -4654,6 +4663,105 @@
       "pagine": [
         13,
         22
+      ]
+    },
+    {
+      "id": "u02-q117",
+      "tipo": "verofalso",
+      "lezione": "u02-l2",
+      "livello": "base",
+      "affermazione": "Il disegno dei «gradi della società umana» che Cicerone traccia nel De officiis è di ispirazione paneziana.",
+      "vero": true,
+      "spiegazione": "Vero: Cicerone si ispira a Panezio, e il paragrafo del manuale si intitola appunto «Da Panezio a Cicerone».",
+      "concetti": [
+        "panezio",
+        "cicerone",
+        "de-officiis"
+      ],
+      "pagine": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "u02-q118",
+      "tipo": "flashcard",
+      "lezione": "u02-l3",
+      "livello": "base",
+      "domanda": "Quale assemblea comincia a formarsi dall'età di Servio Tullio?",
+      "risposta": "I comizi centuriati: si formano gradualmente a partire dall'età di Servio Tullio, tra VI e IV secolo a.C., con impronta militare e origine timocratica.",
+      "concetti": [
+        "servio-tullio",
+        "comizi-centuriati"
+      ],
+      "pagine": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "u02-q119",
+      "tipo": "aperta",
+      "lezione": "u02-l3",
+      "livello": "medio",
+      "domanda": "Mi parli delle assemblee popolari romane: i comizi curiati, centuriati e tributi e i concilia plebis.",
+      "traccia": "Le assemblee sono la componente **democratica** della costituzione mista di Polibio, ma non hanno potere di iniziativa: le convoca il magistrato.\n\n**[[comizi-curiati|Comizi curiati]]**: i più antichi, fondati sulle **30 curie** (10 per tribù gentilizia). Hanno funzioni di diritto sacro, sotto la presidenza del pontefice, e in età repubblicana votano la *lex de imperio*, investitura formale dei magistrati; poi si estinguono.\n\n**[[comizi-centuriati|Comizi centuriati]]** (*maximus comitiatus*): nascono dall'età di Servio Tullio, hanno impronta **militare** e base **[[timocrazia|timocratica]]**. Le centurie sono **193**: 170 delle cinque classi di censo (80 della prima), 18 di cavalieri, 5 di inermi. Prima classe e cavalieri (98) fanno già la maggioranza. Votano le leggi, eleggono consoli, pretori e censori, giudicano i crimini capitali.\n\n**[[comizi-tributi|Comizi tributi]]**: il popolo diviso per **tribù territoriali** (35 dal 241 a.C.); eleggono edili curuli e questori e votano leggi.\n\n**[[concilia-plebis|Concilia plebis]]**: la plebe convocata dal tribuno; deliberano i **plebisciti**, equiparati alle leggi dalla **lex Hortensia del 286 a.C.**",
+      "punti": [
+        {
+          "testo": "Curiati: 30 curie, diritto sacro, lex de imperio",
+          "chiavi": [
+            "curi",
+            "30",
+            "de imperio"
+          ]
+        },
+        {
+          "testo": "Centuriati: origine militare e timocratica, 193 centurie",
+          "chiavi": [
+            "centuri",
+            "193",
+            "censo",
+            "timocra"
+          ]
+        },
+        {
+          "testo": "Funzioni dei centuriati: leggi, consoli pretori censori, processi capitali",
+          "chiavi": [
+            "consoli",
+            "censori",
+            "capital"
+          ]
+        },
+        {
+          "testo": "Tributi: tribù territoriali, 35; edili curuli e questori",
+          "chiavi": [
+            "tribù",
+            "35",
+            "questori",
+            "edili"
+          ]
+        },
+        {
+          "testo": "Concilia plebis, plebisciti e lex Hortensia (286 a.C.)",
+          "chiavi": [
+            "plebiscit",
+            "hortensia",
+            "286"
+          ]
+        }
+      ],
+      "concetti": [
+        "comizi-curiati",
+        "comizi-centuriati",
+        "comizi-tributi",
+        "concilia-plebis"
+      ],
+      "pagine": [
+        13,
+        15
+      ],
+      "esame": [
+        "starace"
       ]
     }
   ]

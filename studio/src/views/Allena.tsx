@@ -10,8 +10,10 @@ import { plurale, shuffle } from '../lib/util';
 import { Bar, Icon } from '../components/ui';
 import MobileSheet, { useCompact } from '../components/MobileSheet';
 import DomandaView from './Domande';
+import { useCorsoScelto } from '../components/Esame';
+import { classiDi, delCorso, domandeEsame, fontiOrdinate, prof } from '../lib/esame';
 
-type Modo = 'ripasso' | 'libero' | 'deboli' | 'orale' | 'cronologia' | 'inverse' | 'procedimenti' | 'principi' | 'esame';
+type Modo = 'ripasso' | 'libero' | 'deboli' | 'orale' | 'docenti' | 'cronologia' | 'inverse' | 'procedimenti' | 'principi' | 'esame';
 interface Sessione { titolo: string; domande: Domanda[]; orale?: boolean; registra: boolean }
 
 /* La sessione in corso è salvata nel browser a ogni risposta: se la pagina si ricarica o si chiude, si riprende da lì. */
@@ -55,6 +57,7 @@ const MODI: { k: Modo; t: string; d: string; icon: string }[] = [
   { k: 'inverse', t: 'Schede inverse', d: 'Dalla definizione al termine del glossario. Nel ripasso si attivano studiando le lezioni pertinenti; qui puoi anticiparle.', icon: 'glossario' },
   { k: 'deboli', t: 'Punti deboli', d: 'Solo le domande che hai sbagliato o che stai dimenticando.', icon: 'fiamma' },
   { k: 'orale', t: 'Simulazione d\'orale', d: 'Domande d\'esame lette ad alta voce: rispondi a voce e confronta con la traccia.', icon: 'mic' },
+  { k: 'docenti', t: 'Domande d\'esame', d: 'Le tracce che i docenti hanno dato all\'esame: prima quelle del docente del tuo corso, poi quelle delle altre classi.', icon: 'esame' },
   { k: 'cronologia', t: 'Sfida cronologica', d: 'Date, periodi e sequenze: ricorda quando avvengono gli eventi e mettili in ordine. Le risposte entrano nel ripasso spaziato.', icon: 'cronologia' },
   { k: 'procedimenti', t: 'Procedimenti e confronti', d: 'Rimetti in ordine le fasi di un procedimento, racconta l\'iter come all\'orale e abbina a ogni istituto le sue caratteristiche.', icon: 'rami' },
   { k: 'principi', t: 'Commento ai principi', d: 'Gli articoli dei Principi fondamentali da commentare a voce, uno alla volta, con la traccia per confrontarti.', icon: 'materia-costituzionale' },
@@ -89,7 +92,13 @@ export default function Allena({ query }: { query: URLSearchParams }) {
     setInSospeso(salvata);
     setRipresa(null);
     const l = query.get('l'), u = query.get('u'), c = query.get('c'), modo = query.get('modo') as Modo | null;
-    if (modo === 'inverse' && c) {
+    const traccia = query.get('traccia');
+    if (traccia) {
+      // una traccia d'esame, aperta dalla lezione, dalla voce o dal Percorso
+      const t = idx.corso.esame?.tracce.find((x) => x.id === traccia);
+      const qs = (t?.domande ?? []).map((id) => idx.domandaById.get(id)).filter((q): q is Domanda => !!q);
+      setSessione(qs.length ? { titolo: 'Domande d\'esame', domande: qs, registra: true } : null);
+    } else if (modo === 'inverse' && c) {
       const q = idx.schedeInverse.find((q) => q.inversa === c);
       setSessione(q ? { titolo: 'Schede inverse', domande: [q], registra: true } : null);
     } else if (query.get('art') && idx.corso.norme) {
@@ -115,7 +124,7 @@ export default function Allena({ query }: { query: URLSearchParams }) {
   const iniziale = (query.get('modo') as Modo | null) ?? 'ripasso';
 
   if (sessione) {
-    return <Runner key={sessione.titolo + sessione.domande.length} s={sessione} origine={ripresa?.origine ?? origine} ripresa={ripresa}
+    return <Runner key={`${sessione.titolo}|${sessione.domande.length}|${sessione.domande[0]?.id ?? ''}`} s={sessione} origine={ripresa?.origine ?? origine} ripresa={ripresa}
       onFine={() => { scriviSalvata(slug, null); setInSospeso(null); avvia(null); vai('/allena'); }} />;
   }
   return (
@@ -145,6 +154,8 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
   const compact = useCompact();
   const [chooserOpen, setChooserOpen] = useState(false), [filtersOpen, setFiltersOpen] = useState(false);
   const idx = useCorso();
+  const corsoScelto = useCorsoScelto();
+  const esame = useMemo(() => domandeEsame(idx, corsoScelto), [idx, corsoScelto]);
   const p = useProgresso(idx.corso.materia.slug);
   const [modo, setModo] = useState<Modo>(MODI.some((m) => m.k === iniziale) ? iniziale : 'ripasso');
   const [unita, setUnita] = useState<string[]>([]);
@@ -155,7 +166,8 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
 
   const pool = useMemo(() => {
     let qs = modo === 'inverse' ? idx.schedeInverse : modo === 'cronologia' ? idx.domandeCronologia
-      : modo === 'procedimenti' || modo === 'principi' ? idx.corso.domande.filter((q) => q.serie === SERIE[modo]) : [...idx.domandaById.values()];
+      : modo === 'procedimenti' || modo === 'principi' ? idx.corso.domande.filter((q) => q.serie === SERIE[modo])
+      : modo === 'docenti' ? [...esame.mie, ...esame.altre] : [...idx.domandaById.values()];
     if (unita.length) qs = qs.filter((q) => q.inversa
       ? idx.concettoById.get(q.inversa)?.unita.some((u) => unita.includes(u))
       : unita.includes(q.unita));
@@ -167,7 +179,7 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
         .sort((a, b) => (padronanzaDomanda(p, a.id, now) ?? 0) - (padronanzaDomanda(p, b.id, now) ?? 0));
     }
     return qs;
-  }, [idx, p, modo, unita, tipi]);
+  }, [idx, p, modo, unita, tipi, esame]);
 
   const avvia = () => {
     if (modo === 'ripasso') return onStart(sessioneRipasso(idx, p));
@@ -176,6 +188,12 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
       const principio = shuffle(pool.filter((q) => q.serie === 'principi')).slice(0, 1);
       const altre = shuffle(pool.filter((q) => q.serie !== 'principi')).slice(0, 3 - principio.length);
       return onStart({ titolo: 'Tre quesiti', domande: [...principio, ...altre], orale: true, registra: true });
+    }
+    if (modo === 'docenti') {
+      // prima le tracce del docente del corso scelto (in ordine casuale), poi quelle delle altre classi
+      const mie = new Set(esame.mie.map((q) => q.id));
+      const ordinate = [...shuffle(pool.filter((q) => mie.has(q.id))), ...shuffle(pool.filter((q) => !mie.has(q.id)))];
+      return onStart({ titolo: 'Domande d\'esame', domande: ordinate.slice(0, n), registra: true });
     }
     const qs = modo === 'deboli' ? pool.slice(0, n) : shuffle(pool).slice(0, n);
     onStart({ titolo: MODI.find((m) => m.k === modo)!.t, domande: modo === 'deboli' ? shuffle(qs) : qs, orale: modo === 'orale' || modo === 'principi', registra: true });
@@ -187,7 +205,7 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
 
   const scelto = MODI.find((m) => m.k === modo)!;
   const modes = (<div className="grid g2" style={{ marginBottom: 20 }}>
-        {MODI.filter((m) => (m.k !== 'inverse' || idx.schedeInverse.length > 0) && (!SERIE[m.k] || idx.corso.domande.some((q) => q.serie === SERIE[m.k]))).map((m) => (
+        {MODI.filter((m) => (m.k !== 'inverse' || idx.schedeInverse.length > 0) && (m.k !== 'docenti' || esame.mie.length + esame.altre.length > 0) && (!SERIE[m.k] || idx.corso.domande.some((q) => q.serie === SERIE[m.k]))).map((m) => (
           <button key={m.k} className={`setup-opt ${modo === m.k ? 'on' : ''}`} onClick={() => { setModo(m.k); setChooserOpen(false); }}>
             <span className="row" style={{ gap: 8 }}><Icon n={m.icon} /> <b>{m.t}</b>
               {m.k === 'ripasso' && nRip > 0 && <span className="chip chip-accent" style={{ marginLeft: 'auto' }}>{nRip}</span>}
@@ -263,12 +281,28 @@ function Setup({ onStart, iniziale }: { onStart: (s: Sessione) => void; iniziale
           {modo === 'cronologia' && `${pool.length} quiz cronologia disponibili`}
           {(modo === 'procedimenti' || modo === 'principi') && `${pool.length} esercizi disponibili`}
           {modo === 'esame' && 'Tre domande a voce, scelte a caso'}
+          {modo === 'docenti' && <RiepilogoEsame pool={pool} />}
         </span>
         <button className="btn btn-accent btn-lg" disabled={!pronto} onClick={avvia}>Inizia <Icon n="freccia" size={17} /></button>
       </div>
       {modo === 'ripasso' && !nRip && <div style={{ marginTop: 14 }}><a className="btn" href={href('/percorso')}>Vai al percorso</a></div>}
     </div>
   );
+}
+
+/** Quante domande d'esame ci sono, di chi: prima il docente del corso scelto, poi le altre classi. */
+function RiepilogoEsame({ pool }: { pool: Domanda[] }) {
+  const idx = useCorso();
+  const corso = useCorsoScelto();
+  // per docente: due fonti dello stesso docente (tracce su due libri) contano insieme
+  const fonti = fontiOrdinate(idx, pool.flatMap((q) => q.esame ?? []), corso);
+  const docenti = fonti.filter((f, i) => fonti.findIndex((x) => x.docente === f.docente) === i);
+  if (!pool.length) return <>Nessuna domanda d'esame nelle unità scelte.</>;
+  return <span data-riepilogo-esame>{pool.length} domande d'esame: {docenti.map((f, i) => {
+    const sue = new Set(fonti.filter((x) => x.docente === f.docente).map((x) => x.id));
+    const n = pool.filter((q) => q.esame?.some((id) => sue.has(id))).length;
+    return <span key={f.id}>{i > 0 && ', '}{n} di {prof(f.docente)}{!delCorso(f, corso) && <i> (di un'altra classe{classiDi(f) ? `: ${classiDi(f)}` : ''})</i>}</span>;
+  })}</span>;
 }
 
 function Runner({ s, origine, ripresa, onFine }: { s: Sessione; origine: string; ripresa: Salvata | null; onFine: () => void }) {

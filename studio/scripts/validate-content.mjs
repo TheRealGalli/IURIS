@@ -1,6 +1,7 @@
 /**
  * validate-content.mjs
- * Controlla una o più unità di studio (uNN.json) secondo il formato descritto in CONTENUTI.md.
+ * Controlla una o più unità di studio (uNN.json), gli ampliamenti (oltre-NN.json) e le tracce d'esame (esame.json)
+ * secondo il formato descritto in CONTENUTI.md.
  *   node scripts/validate-content.mjs "<Materia>/05 - Contenuti/u03.json" [altri file…]
  * Esce con codice 1 se ci sono errori. Gli avvisi non bloccano.
  */
@@ -198,6 +199,10 @@ export function validateUnit(u, fileName, canon = canonicalIds()) {
     if (!LIVELLI.has(q.livello)) E(`${w}: livello "${q.livello}" non valido`);
     if (q.pagine) inUnit(q.pagine, w);
     for (const id of q.concetti || []) ref(id, w);
+    // domanda legata alle tracce d'esame di un docente: "esame": ["id-fonte"] (le fonti stanno in esame.json)
+    if (q.esame != null && (!Array.isArray(q.esame) || !q.esame.length || q.esame.some((f) => typeof f !== 'string' || !ID_RE.test(f)))) {
+      E(`${w}: "esame" deve essere un elenco di id di fonti di esame.json (es. ["lobuono"])`);
+    }
     perTipo[q.tipo] = (perTipo[q.tipo] || 0) + 1;
     const pl = perLez.get(q.lezione) || {};
     pl[q.tipo] = (pl[q.tipo] || 0) + 1;
@@ -319,6 +324,95 @@ export function validateOltre(o, canon) {
   return { errors, warns, stats: { voci: o.voci.length, nuovi: nuovi.size, collegamenti } };
 }
 
+/** Id dei corsi di studio (classi) dichiarati in src/data/corsi.ts: servono a controllare `corsi` delle fonti d'esame. */
+export function idCorsi() {
+  try {
+    const ts = fs.readFileSync(path.join(studioRoot, 'src', 'data', 'corsi.ts'), 'utf8');
+    return new Set([...ts.matchAll(/^\s*id:\s*'([a-z0-9-]+)'/gm)].map((m) => m[1]));
+  } catch { return new Set(); }
+}
+
+/** Domande aperte che coprono una traccia: stessa fonte in "esame" e lezione tra quelle della traccia
+ *  (in mancanza, una lezione della stessa unità). `domande` = [{ id, tipo, lezione, esame }]. */
+export function domandeDellaTraccia(t, domande) {
+  const adatte = domande.filter((q) => q.tipo === 'aperta' && Array.isArray(q.esame) && q.esame.includes(t.fonte));
+  const lez = new Set(t.lezioni ?? []);
+  const precise = adatte.filter((q) => lez.has(q.lezione));
+  const unita = new Set([...lez].map((l) => String(l).split('-l')[0]));
+  const candidate = precise.length ? precise : adatte.filter((q) => unita.has(String(q.lezione).split('-l')[0]));
+  if (candidate.length < 2) return candidate;
+  // Più domande d'esame nella stessa lezione: restano quelle più vicine alla traccia (parole e voci in comune).
+  const parole = (s) => new Set(String(s ?? '').toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').split(/[^a-z0-9]+/).filter((w) => w.length > 3).map((w) => w.slice(0, 6)));
+  const pt = parole(t.testo), ct = new Set(t.concetti ?? []);
+  const punti = candidate.map((q) => [...parole(q.domanda)].filter((w) => pt.has(w)).length + 2 * (q.concetti ?? []).filter((c) => ct.has(c)).length);
+  const max = Math.max(...punti);
+  return max > 0 ? candidate.filter((_, i) => punti[i] === max) : candidate;
+}
+
+/**
+ * esame.json: tracce d'esame dei docenti, legate a lezioni, voci e domande aperte (vedi CONTENUTI.md).
+ * `ctx` = { lezioni: Set di id, concetti: Set di id, domande: [{ id, tipo, lezione, esame }], corsi: Set di id }.
+ * Gli errori riguardano il formato e i riferimenti; `senzaDomanda` elenca le tracce ancora senza domanda aperta.
+ */
+export function validateEsame(e, ctx) {
+  const errors = [];
+  const warns = [];
+  const E = (m) => errors.push(m);
+  const W = (m) => warns.push(m);
+  if (!e || !Array.isArray(e.fonti) || !Array.isArray(e.tracce)) return { errors: ['servono "fonti" (array) e "tracce" (array)'], warns, senzaDomanda: [], stats: {} };
+  const corsi = ctx.corsi ?? idCorsi();
+  const fonti = new Set();
+  for (const f of e.fonti) {
+    const w = `fonte "${f?.id ?? '?'}"`;
+    if (!f?.id || !ID_RE.test(f.id)) { E(`${w}: id non valido (kebab-case)`); continue; }
+    if (fonti.has(f.id)) E(`${w}: ripetuta`);
+    fonti.add(f.id);
+    if (!f.docente || typeof f.docente !== 'string') E(`${w}: manca "docente" (nome e cognome)`);
+    if (!Array.isArray(f.corsi) || !f.corsi.length) E(`${w}: "corsi" deve elencare almeno un corso (es. "uniba-lmg-1-al")`);
+    else for (const c of f.corsi) if (corsi.size && !corsi.has(c)) E(`${w}: corso "${c}" inesistente (corsi: ${[...corsi].join(', ')})`);
+    if (f.file != null && typeof f.file !== 'string') E(`${w}: "file" deve essere il percorso del PDF dentro «00 - Appunti e fonti»`);
+    else if (!f.file) W(`${w}: manca "file" (da quale PDF vengono le tracce)`);
+    else if (/@/.test(f.file)) E(`${w}: "file" contiene un indirizzo email`);
+  }
+  const ids = new Set();
+  const senzaDomanda = [];
+  for (const t of e.tracce) {
+    const w = `traccia "${t?.id ?? '?'}"`;
+    if (!t?.id || !ID_RE.test(t.id)) { E(`${w}: id non valido (es. "esame-lobuono-01")`); continue; }
+    if (ids.has(t.id)) E(`${w}: id ripetuto`);
+    ids.add(t.id);
+    if (!t.id.startsWith('esame-')) W(`${w}: l'id dovrebbe iniziare con "esame-<fonte>-"`);
+    if (!fonti.has(t.fonte)) E(`${w}: fonte "${t.fonte}" non elencata in "fonti"`);
+    if (!t.testo || typeof t.testo !== 'string' || !t.testo.trim()) E(`${w}: manca "testo"`);
+    else if (/\[\[|\{\{/.test(t.testo)) E(`${w}: "testo" è la traccia com'è nel PDF, senza link`);
+    if (!Array.isArray(t.lezioni) || !t.lezioni.length) E(`${w}: "lezioni" obbligatorio (dove se ne parla negli appunti)`);
+    else for (const l of t.lezioni) if (!ctx.lezioni.has(l)) E(`${w}: lezione "${l}" inesistente`);
+    if (!Array.isArray(t.concetti) || !t.concetti.length) E(`${w}: "concetti" obbligatorio (le voci collegate)`);
+    else for (const c of t.concetti) if (!ctx.concetti.has(c)) E(`${w}: concetto "${c}" inesistente`);
+    if (fonti.has(t.fonte) && Array.isArray(t.lezioni) && !domandeDellaTraccia(t, ctx.domande).length) senzaDomanda.push(t.id);
+  }
+  for (const q of ctx.domande) for (const f of Array.isArray(q.esame) ? q.esame : []) {
+    if (!fonti.has(f)) E(`domanda "${q.id}": "esame" cita la fonte "${f}", che non è in esame.json`);
+  }
+  return { errors, warns, senzaDomanda, stats: { fonti: fonti.size, tracce: e.tracce.length, senzaDomanda: senzaDomanda.length } };
+}
+
+/** Lezioni, voci e domande di una cartella «05 - Contenuti», per controllare esame.json da solo. */
+export function contestoEsame(dir) {
+  const lezioni = new Set(), domande = [];
+  let alias = {};
+  try { alias = JSON.parse(fs.readFileSync(path.join(dir, 'alias.json'), 'utf8')); } catch { /* facoltativo */ }
+  const concetti = new Set([...idsNoti(dir, false), ...idsNuoviOltre(dir, null), ...Object.keys(alias)]);
+  for (const f of fs.readdirSync(dir).filter((f) => /^u\d+\.json$/.test(f))) {
+    try {
+      const u = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      for (const l of u.lezioni ?? []) lezioni.add(l.id);
+      for (const q of u.domande ?? []) domande.push({ id: q.id, tipo: q.tipo, lezione: q.lezione, esame: q.esame, domanda: q.domanda, concetti: (q.concetti ?? []).map((c) => alias[c] ?? c) });
+    } catch { /* segnalato quando si valida l'unità */ }
+  }
+  return { lezioni, concetti, domande, corsi: idCorsi() };
+}
+
 /** Definizioni curate per l'allenamento inverso del glossario; controllate da sync-content. */
 export function validateSchedeInverse(schede, concetti) {
   const errors = [];
@@ -377,6 +471,17 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     try { u = JSON.parse(fs.readFileSync(f, 'utf8')); }
     catch (e) { console.log(`\n✗ ${f}\n  JSON non valido: ${e.message}`); bad = true; continue; }
     const dir = path.dirname(path.resolve(f));
+    if (path.basename(f) === 'esame.json') {
+      // Una traccia senza domanda aperta è un errore qui (va coperta), solo un avviso nel sync.
+      const { errors, warns, senzaDomanda, stats } = validateEsame(u, contestoEsame(dir));
+      for (const id of senzaDomanda) errors.push(`traccia "${id}": nessuna domanda "aperta" con "esame": ["${u.tracce.find((t) => t.id === id)?.fonte}"] nelle sue lezioni (o nella stessa unità)`);
+      console.log(`\n${errors.length ? '✗' : '✓'} esame.json — ${errors.length} errori, ${warns.length} avvisi`);
+      console.log('  ' + JSON.stringify(stats));
+      for (const m of errors) console.log(`  ERRORE  ${m}`);
+      for (const m of warns) console.log(`  avviso  ${m}`);
+      if (errors.length) bad = true;
+      continue;
+    }
     const oltre = path.basename(f).startsWith('oltre');
     const noti = new Set([...idsNoti(dir, !oltre), ...(oltre ? idsNuoviOltre(dir, path.basename(f)) : [])]);
     const { errors, warns, stats } = oltre ? validateOltre(u, noti) : validateUnit(u, f, noti);

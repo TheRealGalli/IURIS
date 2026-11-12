@@ -37,6 +37,9 @@ def page_edges(text: str) -> list[str]:
     return list(dict.fromkeys(lines[:2] + lines[-3:]))
 
 
+TITOLO_RIGA = re.compile(r'^\s*(?:\d{1,2}\s?[-.–]\s*(?:[a-z]\)\s*\w|[A-ZÀÈÉÌÒÙ“"«])|(?:Parte|PARTE|Capitolo|CAPITOLO)\b|(?:Sezione|SEZIONE)\s+[IVX]+\b)')
+
+
 def strip_boilerplate(text: str, repeated: set[str]) -> tuple[str, list[str]]:
     lines = text.splitlines()
     nonempty = [i for i, line in enumerate(lines) if line.strip()]
@@ -129,19 +132,29 @@ def main() -> None:
             continue
         if args.solo and doc['id'] not in args.solo:
             continue
-        path = ROOT / 'public' / doc['file']
-        digest = hashlib.sha256(path.read_bytes()).hexdigest()
-        if digest != doc['sha256']:
-            raise ValueError(f"La fonte {doc['id']} è cambiata: aggiornare il catalogo e l'edizione prima dell'estrazione")
-        reader = PdfReader(path)
-        if len(reader.pages) != doc['pagine']:
-            raise ValueError(f"Numero pagine inatteso: {doc['id']}")
-        if doc.get('testoOcr'):
-            # PDF con font cifrati (es. StuDocu): il testo viene dall'OCR, una pagina per blocco «=== pagina N ===».
-            layouts = ocr_layouts(SRC / doc['testoOcr'], doc['pagine'])
+        if doc.get('testoFonte'):
+            # Documento solo testo (es. riassunti StuDocu con nome ed email di chi ha scaricato in ogni pagina):
+            # nessun PDF pubblicato; la fonte è il testo già ripulito in letture-src, diviso «=== pagina N ===»
+            # come quello dell'OCR (righe vuote = capoversi). sha256 è l'impronta di quel testo.
+            path = SRC / doc['testoFonte']
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            if digest != doc['sha256']:
+                raise ValueError(f"Il testo {doc['id']} è cambiato: aggiornare il catalogo e l'edizione prima dell'estrazione")
+            layouts = ocr_layouts(path, doc['pagine'])
         else:
-            # Le pagine bianche (senza flusso di contenuto) valgono come pagine senza testo.
-            layouts = [(page.extract_text(extraction_mode='layout') or '') if '/Contents' in page else '' for page in reader.pages]
+            path = ROOT / 'public' / doc['file']
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            if digest != doc['sha256']:
+                raise ValueError(f"La fonte {doc['id']} è cambiata: aggiornare il catalogo e l'edizione prima dell'estrazione")
+            reader = PdfReader(path)
+            if len(reader.pages) != doc['pagine']:
+                raise ValueError(f"Numero pagine inatteso: {doc['id']}")
+            if doc.get('testoOcr'):
+                # PDF con font cifrati (es. StuDocu): il testo viene dall'OCR, una pagina per blocco «=== pagina N ===».
+                layouts = ocr_layouts(SRC / doc['testoOcr'], doc['pagine'])
+            else:
+                # Le pagine bianche (senza flusso di contenuto) valgono come pagine senza testo.
+                layouts = [(page.extract_text(extraction_mode='layout') or '') if '/Contents' in page else '' for page in reader.pages]
         # Pagine da non mostrare nel lettore (es. indici: le sezioni fanno già da indice). Restano nel PDF.
         for n in doc.get('pagineOmesse', []):
             layouts[n - 1] = ''
@@ -152,6 +165,10 @@ def main() -> None:
         pages, page_report = {}, []
         for number, layout in enumerate(layouts, 1):
             cleaned, removed = strip_boilerplate(layout, repeated)
+            if doc.get('dividiTitoli'):
+                # Testo giustificato senza righe vuote (es. riassunto di Martines): un capoverso nuovo
+                # comincia a ogni titolo di paragrafo numerato («12. …», «3- …») o di parte, capitolo, sezione.
+                cleaned = '\n'.join(('\n' + line) if TITOLO_RIGA.match(line) else line for line in cleaned.splitlines()).strip()
             paragraphs = re.split(r'\n\s*\n', cleaned)
             blocks = []
             for paragraph in paragraphs:

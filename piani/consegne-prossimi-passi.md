@@ -491,3 +491,24 @@ per pagina PDF (dipendono molto dalla materia e dalla qualità del PDF).
 
 Per corso (media delle materie): **LMG A-L** 92% (studio) / 77% (tutte); **SSG** 90% / 77% sulle materie presenti,
 58% contando Costituzionale SSG ancora a zero; **LMG M-Z** 0% di materiale proprio (oggi mostra quello di A-L).
+
+
+## Piano finale completato (12 novembre 2026)
+
+Tre classi complete e selezionabili: **LMG A-L** (Filosofia Incampo/Moro/Cotta, Romano, Costituzionale
+Bin-Pitruzzella, Privato), **LMG M-Z** (Filosofia Barberis + Schauer, Romano, Costituzionale Martines, Privato),
+**SSG** (Filosofia Siniscalchi + Incampo, Romano, Costituzionale Martines, Privato). Misure in
+[`stato-qualita.md`](stato-qualita.md); resoconti per area in [`fase-finale/`](fase-finale/).
+
+- **Domande d'esame dei docenti**: `esame.json` per Privato (Lobuono 39, Pennasilico 22), Costituzionale A-L (Torre 30),
+  Filosofia LMG (Incampo e Cotta 21), Romano (Starace 39): 151 tracce, ognuna con lezioni, voci e domanda aperta.
+  Badge «Chiesta all'esame», tracce nel Percorso, filtro «Domande d'esame» in Allenamento.
+- **App**: articoli tra materie scelti per corso con scheda al passaggio del mouse; «Indietro» ritrova materia e punto;
+  nuovo selettore della data d'esame (salva solo alla scelta del giorno); giro di backup PC → telefono → PC collaudato.
+- **Difetti trovati e corretti nel collaudo**: ripristino del backup senza messaggio di esito (la pagina veniva
+  rimontata); completamenti con soluzione in lettere («cinque») che non accettavano la risposta; Esc che non chiudeva il
+  calendario in Safari dopo un tocco; due sessioni di Allenamento uguali di seguito mostravano l'esito della prima.
+- **Da fare quando arrivano i materiali**: elenchi di domande d'esame per Martines (Rodio, Bonomi), Filosofia M-Z
+  (Mangini) e Siniscalchi; la parte mancante del PDF di Pennasilico.
+- **Da confermare** (vedi i resoconti): interpretazione delle tracce Lobuono 31, 35, 39; date in conflitto negli
+  appunti di Romano (Lex Hortensia, Lex Valeria); alcune sentenze sulla delega citate solo negli approfondimenti.

@@ -28,6 +28,11 @@ for (const d of originali) {
     assert(!d.file && !d.sha256, 'Le ricostruzioni non devono dichiarare un PDF originale');
     continue;
   }
+  if (d.testoFonte) {
+    // Documento solo testo (es. riassunti StuDocu con i dati di chi li ha scaricati): nessun PDF nel sito.
+    assert(!d.file, `Un documento solo testo non deve dichiarare un PDF: ${d.id}`);
+    continue;
+  }
   assert(d.file.startsWith('originali/') && d.file.endsWith('.pdf'), `Percorso originale non valido: ${d.id}`);
   const bytes = fs.readFileSync(file(d.file));
   assert.equal(bytes.subarray(0, 5).toString(), '%PDF-', `PDF non valido: ${d.id}`);

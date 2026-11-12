@@ -518,7 +518,7 @@ try {
   });
 
   const catalogoLetture = JSON.parse(await readFile(new URL('../src/lib/letture-catalogo.json', import.meta.url), 'utf8'));
-  for (const slug of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg', 'diritto-costituzionale']) {
+  for (const slug of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg', 'diritto-costituzionale', 'diritto-costituzionale-martines', 'filosofia-del-diritto-mz']) {
     const corso = JSON.parse(await readFile(new URL(`../public/content/${slug}/corso.json`, import.meta.url), 'utf8'));
     if (catalogoLetture.some((d) => d.materia === slug)) check(`Studio reale Originali ${slug}: tutte le lezioni da sezioni complete, nessun titolo scambiato per testo`, () => {
       const idx = indicizza(corso), p = read(`sezioni-${slug}`);

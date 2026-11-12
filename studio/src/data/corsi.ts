@@ -53,8 +53,8 @@ export const CORSI: CorsoDiStudio[] = [
       { ...STORIA_ITALIANO, cfu: 10 },
     ],
   },
-  // M-Z: visibile ma non selezionabile finché non ci sono i suoi contenuti. Avrà appunti e materie propri (docenti diversi):
-  // le materie di A-L qui sotto sono solo un segnaposto. Sostituire `materie` e `inArrivo` quando arriva il materiale.
+  // M-Z: appunti e materie propri per filosofia (Barberis + Schauer) e costituzionale (Martines, comune con SSG);
+  // Diritto romano e Diritto privato sono comuni alle tre classi.
   {
     id: 'uniba-lmg-1-mz',
     breve: 'LMG · I anno · M-Z',
@@ -64,11 +64,8 @@ export const CORSI: CorsoDiStudio[] = [
     laurea: 'Giurisprudenza (magistrale a ciclo unico, LMG/01)',
     anno: 1,
     classe: 'cognomi M-Z',
-    disponibile: false,
-    materie: ['filosofia-del-diritto', 'diritto-romano', 'diritto-costituzionale', 'diritto-privato'],
-    // I docenti sono quelli di M-Z per la stessa disciplina (le materie restano un segnaposto, tranne Diritto privato,
-    // che è comune alle tre classi).
-    docenti: { 'filosofia-del-diritto': 'M. Mangini', 'diritto-romano': 'Pia Starace', 'diritto-costituzionale': 'R.G. Rodio', 'diritto-privato': 'Mauro Pennasilico' },
+    materie: ['filosofia-del-diritto-mz', 'diritto-romano', 'diritto-costituzionale-martines', 'diritto-privato'],
+    docenti: { 'filosofia-del-diritto-mz': 'M. Mangini', 'diritto-romano': 'Pia Starace', 'diritto-costituzionale-martines': 'R.G. Rodio', 'diritto-privato': 'Mauro Pennasilico' },
     inArrivo: [
       // Catalogo: Piacente; elenco docenti UniBa: Gonzalez Roldan. Da verificare.
       { ...IST_ROMANO, docente: 'Daniele Vittorio Piacente' },
@@ -84,13 +81,11 @@ export const CORSI: CorsoDiStudio[] = [
     anno: 1,
     // Filosofia del diritto ha un programma proprio (lezioni di Siniscalchi e Incampo); Diritto romano usa gli stessi appunti di LMG,
     // quindi la stessa materia e gli stessi progressi.
-    // Diritto costituzionale SSG avrà appunti diversi da quelli di LMG A-L: sarà una materia a sé
-    // (cartella e slug propri), non quella di LMG. Finché non c'è, resta una card disattivata.
-    materie: ['filosofia-del-diritto-ssg', 'diritto-romano', 'diritto-privato'],
+    // Diritto costituzionale: manuale Martines, la stessa materia di LMG M-Z (stessi appunti e progressi).
+    materie: ['filosofia-del-diritto-ssg', 'diritto-romano', 'diritto-costituzionale-martines', 'diritto-privato'],
     // Romano: a SSG insegna Starace (Bretone ed. 2024, senza i capp. I e XII); gli appunti sono quelli di A-L.
-    docenti: { 'filosofia-del-diritto-ssg': 'Guglielmo Siniscalchi', 'diritto-romano': 'Pia Starace', 'diritto-privato': 'Michele Lobuono' },
+    docenti: { 'filosofia-del-diritto-ssg': 'Guglielmo Siniscalchi', 'diritto-romano': 'Pia Starace', 'diritto-costituzionale-martines': 'Andrea Bonomi', 'diritto-privato': 'Michele Lobuono' },
     inArrivo: [
-      { nome: 'Diritto costituzionale', colore: '#4f7f3a', docente: 'Andrea Bonomi', cfu: 12, semestre: 'Annuale' },
       { ...STORIA_ITALIANO, cfu: 9 },
       // Catalogo: Lopez; elenco docenti UniBa: Buonamassa. Da verificare.
       { nome: 'Abilità informatiche per giuristi', colore: '#2f7f86', docente: 'Ugo Lopez', cfu: 3, semestre: 'I' },

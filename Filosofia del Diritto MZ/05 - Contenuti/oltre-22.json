@@ -1,0 +1,191 @@
+{
+  "voci": [
+    {
+      "id": "bad-man",
+      "oltre": "La figura dell'«uomo cattivo» viene dal discorso di [[oliver-wendell-holmes|Oliver Wendell Holmes]] *The Path of the Law*, pronunciato a Boston e pubblicato nella *Harvard Law Review* nel 1897. Per capire che cos'è il diritto, dice Holmes, bisogna guardarlo come lo guarda un uomo cattivo, al quale importano solo le conseguenze materiali che i giudici faranno seguire alle sue azioni, non le ragioni morali.\n\nLa provocazione serviva a separare il diritto dalla morale, non a lodare il cinismo. È stata criticata da [[hart|Hart]], che ne *Il concetto di diritto* (1961) osserva che il punto di vista dell'uomo cattivo è solo **esterno**: ignora il [[punto-di-vista-interno|punto di vista interno]] di chi usa le regole come ragioni e criteri di critica, senza il quale non si capisce che cosa sia un obbligo giuridico.",
+      "daSapere": ["Holmes, *The Path of the Law* (1897)", "Conta solo ciò che i giudici faranno davvero", "Critica di Hart: manca il punto di vista interno"],
+      "collegamenti": [
+        { "da": "hart", "a": "bad-man", "tipo": "contrasta", "etichetta": "oppone il punto di vista interno al" }
+      ]
+    },
+    {
+      "id": "teoria-predittiva-del-diritto",
+      "oltre": "La formula classica è di [[oliver-wendell-holmes|Holmes]] (*The Path of the Law*, 1897): «le profezie di ciò che i tribunali faranno in concreto, e niente di più pretenzioso, sono ciò che intendo per diritto». La tesi fu ripresa dai [[realismo-giuridico-americano|realisti americani]] e, in forma diversa, dal realista scandinavo [[alf-ross|Alf Ross]], per il quale le proposizioni giuridiche sono previsioni sul comportamento dei giudici.\n\nL'obiezione più nota è di [[hart|Hart]]: la teoria funziona per l'avvocato che consiglia un cliente, ma non per il giudice, che non può decidere prevedendo la propria decisione; quando applica una regola, la usa come ragione e criterio, non come previsione. Per questo la teoria predittiva descrive bene un punto di vista, quello esterno, ma non il diritto nel suo insieme.",
+      "daSapere": ["Holmes (1897): il diritto come profezia delle decisioni", "Ripresa dai realisti americani e da Alf Ross", "Hart: il giudice non può prevedere sé stesso"],
+      "collegamenti": [
+        { "da": "alf-ross", "a": "teoria-predittiva-del-diritto", "tipo": "influenza", "etichetta": "riformula la" }
+      ]
+    },
+    {
+      "id": "giustificazione-ex-post",
+      "oltre": "La distinzione tra il modo in cui si arriva a una conclusione e il modo in cui la si giustifica ha un'origine nella filosofia della scienza: Hans Reichenbach (*Experience and Prediction*, 1938) separò il **contesto della scoperta**, che riguarda la psicologia, dal **contesto della giustificazione**, che riguarda la logica. Applicata al diritto (ad esempio da Richard Wasserstrom, *The Judicial Decision*, 1961), la distinzione permette di rispondere ai realisti: anche se il giudice trova la soluzione per intuizione, la decisione è corretta se può essere giustificata con buone ragioni giuridiche.\n\nIl problema resta quello della sincerità: se la motivazione non dice le vere ragioni, il controllo sulla decisione è più debole ([[onesta-delle-motivazioni|onestà delle motivazioni]]).",
+      "daSapere": ["Reichenbach (1938): contesto della scoperta e della giustificazione", "Wasserstrom, *The Judicial Decision* (1961)", "Risposta ai realisti, ma resta il problema della sincerità"],
+      "collegamenti": [
+        { "da": "giustificazione-ex-post", "a": "motivazione-della-sentenza", "tipo": "collegato", "etichetta": "spiega la funzione della" }
+      ]
+    },
+    {
+      "id": "regole-di-carta",
+      "oltre": "La distinzione tra *paper rules* (regole di carta) e *real rules* (regole reali) si deve a [[karl-llewellyn|Karl Llewellyn]], nel saggio *A Realistic Jurisprudence: The Next Step* (1930) e nel libro *The Bramble Bush* (1930), scritto per gli studenti di Columbia. Le regole di carta sono quelle scritte nei codici, nelle leggi e nelle massime; le regole reali sono le regolarità effettive del comportamento dei giudici, che solo l'osservazione può scoprire.\n\nPer Llewellyn il compito della scienza giuridica era descrivere le seconde. Più tardi, in *The Common Law Tradition* (1960), egli stesso riconobbe che le regole scritte, insieme allo stile e alla professionalità dei giudici d'appello, rendono le decisioni molto più prevedibili di quanto i primi realisti avessero sostenuto.",
+      "daSapere": ["Llewellyn (1930): *paper rules* e *real rules*", "*The Bramble Bush* (1930)", "*The Common Law Tradition* (1960): più prevedibilità del previsto"],
+      "collegamenti": [
+        { "da": "karl-llewellyn", "a": "regole-di-carta", "tipo": "crea", "etichetta": "distingue le" }
+      ]
+    },
+    {
+      "id": "indeterminatezza-del-diritto",
+      "oltre": "La tesi dell'indeterminatezza ha versioni di forza diversa. Nella versione **moderata**, condivisa anche da [[hart|Hart]], il diritto è indeterminato solo in alcuni casi, quelli di penombra. Nella versione **radicale**, sostenuta da alcuni [[realismo-giuridico-americano|realisti]] e soprattutto dai [[critical-legal-studies|Critical Legal Studies]] negli anni Settanta e Ottanta del XX secolo d.C., il materiale giuridico è così ricco di regole, eccezioni e principi in conflitto da giustificare quasi qualunque decisione: la scelta è quindi sempre politica.\n\nContro la tesi radicale si è osservato che confonde i casi che arrivano in giudizio con il diritto nel suo insieme ([[effetto-selettivo|effetto selettivo]]); [[ronald-dworkin|Dworkin]] ha sostenuto addirittura la tesi opposta della «risposta giusta».",
+      "daSapere": ["Versione moderata (Hart) e radicale (realisti, CLS)", "Radicale: ogni decisione è una scelta politica", "Obiezione: l'effetto selettivo; Dworkin: la risposta giusta"],
+      "collegamenti": [
+        { "da": "critical-legal-studies", "a": "indeterminatezza-del-diritto", "tipo": "interpreta", "etichetta": "radicalizzano la" }
+      ]
+    },
+    {
+      "id": "modello-degli-atteggiamenti",
+      "oltre": "Il modello degli atteggiamenti (*attitudinal model*) è stato sistematizzato dai politologi Jeffrey Segal e Harold Spaeth in *The Supreme Court and the Attitudinal Model* (1993; nuova edizione 2002). Sostiene che i giudici della Corte Suprema decidono secondo le proprie preferenze ideologiche, liberali o conservatrici, applicate ai fatti del caso; il diritto formale avrebbe un peso minimo.\n\nIl modello si basa su studi statistici di migliaia di voti ed è considerato l'erede empirico del [[realismo-giuridico-americano|realismo]]. È stato criticato per aver studiato quasi solo la Corte Suprema, dove l'[[effetto-selettivo|effetto selettivo]] porta i casi più controversi e ideologici; nelle corti inferiori il peso del diritto formale appare molto maggiore.",
+      "daSapere": ["J. Segal e H. Spaeth (1993; 2002)", "I giudici votano secondo l'ideologia", "Critica: vale soprattutto per la Corte Suprema"]
+    },
+    {
+      "id": "interpretazione-della-legge",
+      "oltre": "Nel diritto italiano le regole sull'interpretazione sono nell'art. 12 delle disposizioni preliminari al codice civile: alla legge si deve attribuire il senso fatto palese dal significato proprio delle parole secondo la connessione di esse, e dall'intenzione del legislatore. La dottrina distingue interpretazione **letterale**, **sistematica** (alla luce delle altre norme), **teleologica** (secondo lo scopo) e **storica**; e, per gli effetti, interpretazione **dichiarativa**, **estensiva** e **restrittiva**.\n\nDal punto di vista teorico si discute se interpretare sia conoscere un significato già dato (cognitivismo) o scegliere tra significati possibili (scetticismo); la [[teoria-mista-dell-interpretazione|teoria mista]] di [[hart|Hart]] sostiene che vale l'una cosa nei casi chiari e l'altra nei casi di penombra.",
+      "daSapere": ["Art. 12 preleggi: parole e intenzione del legislatore", "Letterale, sistematica, teleologica, storica", "Cognitivismo, scetticismo, teoria mista"],
+      "collegamenti": [
+        { "da": "interpretazione-della-legge", "a": "teoria-mista-dell-interpretazione", "tipo": "collegato", "etichetta": "è spiegata da Hart con la" }
+      ]
+    },
+    {
+      "id": "stato-regolatore",
+      "oltre": "Con «Stato regolatore» si indica lo Stato che governa l'economia e la società soprattutto con regole dettagliate e agenzie indipendenti, più che con la proprietà pubblica delle imprese. Negli Stati Uniti si sviluppò con la creazione delle agenzie federali, dalla *Interstate Commerce Commission* (1887) al *New Deal* degli anni Trenta e alla legislazione ambientale e sociale degli anni Sessanta e Settanta del XX secolo d.C. In Europa il politologo Giandomenico Majone ne ha descritto l'ascesa a partire dagli anni Ottanta, con le privatizzazioni e le autorità indipendenti.\n\nPer [[frederick-schauer|Schauer]] lo Stato regolatore smentisce la speranza di [[jeremy-bentham|Bentham]]: più leggi dettagliate non significano meno interpretazione, ma più contenzioso sul significato delle parole.",
+      "daSapere": ["Regole dettagliate e agenzie indipendenti", "USA: dalla *Interstate Commerce Commission* (1887) al *New Deal*", "Europa: G. Majone, l'ascesa dello Stato regolatore"],
+      "collegamenti": [
+        { "da": "stato-regolatore", "a": "interpretazione-della-legge", "tipo": "causa", "etichetta": "moltiplica l'" }
+      ]
+    },
+    {
+      "id": "dibattito-hart-fuller",
+      "oltre": "Nel 1958 la *Harvard Law Review* pubblicò nello stesso numero il saggio di [[hart|Hart]] *Positivism and the Separation of Law and Morals* e la risposta di [[lon-fuller|Fuller]] *Positivism and Fidelity to Law*. I temi erano due: l'interpretazione ([[veicoli-nel-parco|veicoli nel parco]], nucleo e penombra) e il rapporto tra diritto e morale, discusso a partire dai processi del dopoguerra contro i delatori del regime nazista, come il caso della moglie che aveva denunciato il marito per frasi contro Hitler.\n\nPer Hart quelle leggi erano diritto valido benché ingiusto, e meglio sarebbe stata una legge retroattiva dichiarata; per Fuller un sistema che viola le condizioni minime della legalità perde il carattere di diritto. Fuller sviluppò la tesi in *The Morality of Law* (1964), con la [[morale-interna-del-diritto|morale interna del diritto]].",
+      "daSapere": ["*Harvard Law Review*, 1958", "Temi: interpretazione e diritto ingiusto (il caso della delatrice)", "Fuller, *The Morality of Law* (1964)"],
+      "collegamenti": [
+        { "da": "dibattito-hart-fuller", "a": "morale-interna-del-diritto", "tipo": "causa", "etichetta": "porta Fuller alla" }
+      ]
+    },
+    {
+      "id": "vaghezza",
+      "oltre": "In filosofia del linguaggio un termine è vago quando ha casi limite, per i quali non è chiaro se si applica: «calvo», «alto», «mucchio». Il problema è antichissimo: il **paradosso del sorite** (dal greco *sorós*, mucchio), attribuito a Eubulide di Mileto (IV secolo a.C.), mostra che togliendo un granello alla volta da un mucchio non si sa mai quando cessa di essere un mucchio.\n\nNel diritto la vaghezza non è solo un difetto: a volte è voluta, come nelle clausole generali («buona fede», «diligenza del buon padre di famiglia», «ragionevole»), che lasciano al giudice il compito di adattare la norma ai casi ([[standard|standard]]). Va distinta dall'**ambiguità**, in cui una parola ha più significati distinti, e dalla [[trama-aperta|trama aperta]], che è vaghezza potenziale.",
+      "daSapere": ["Casi limite: «calvo», «alto», «mucchio»", "Paradosso del sorite (Eubulide, IV secolo a.C.)", "Vaghezza voluta: le clausole generali; diversa dall'ambiguità"],
+      "collegamenti": [
+        { "da": "vaghezza", "a": "ampiezza-e-vaghezza", "tipo": "parte-di", "etichetta": "è uno dei due aspetti di" }
+      ]
+    },
+    {
+      "id": "trama-aperta",
+      "oltre": "L'espressione *open texture* (in tedesco *Porosität der Begriffe*) è del filosofo austriaco Friedrich Waismann, nel saggio *Verifiability* (1945): anche i concetti empirici più precisi non possono prevedere tutte le situazioni future. Il suo esempio è un oggetto che sembra un gatto, ma poi cresce a dismisura o scompare e ricompare: è ancora un gatto? Le nostre definizioni non lo dicono, perché nessuno aveva pensato a quel caso.\n\n[[hart|Hart]] portò la nozione nel diritto nel capitolo VII de *[[il-concetto-di-diritto|Il concetto di diritto]]* (1961): le regole giuridiche, espresse in linguaggio generale, hanno sempre una trama aperta, e nei casi imprevisti il giudice deve scegliere. A differenza della [[vaghezza|vaghezza]] attuale, la trama aperta riguarda anche parole che oggi applichiamo senza dubbi.",
+      "daSapere": ["F. Waismann, *Verifiability* (1945)", "Esempio del gatto che si comporta in modo imprevisto", "Hart, *Il concetto di diritto*, cap. VII (1961)"],
+      "collegamenti": [
+        { "da": "trama-aperta", "a": "casi-difficili", "tipo": "causa", "etichetta": "genera" }
+      ]
+    },
+    {
+      "id": "lavori-preparatori",
+      "oltre": "I lavori preparatori sono i documenti che accompagnano la formazione di una legge: progetti, relazioni illustrative, resoconti dei dibattiti parlamentari. In Italia sono usati come strumento di interpretazione storica e per ricostruire l'intenzione del legislatore (art. 12 preleggi), ma la giurisprudenza li considera un criterio sussidiario: la legge vale per ciò che dice, una volta approvata.\n\nIn Inghilterra vigeva il divieto di consultare i resoconti parlamentari (*Hansard*), finché la House of Lords, in *Pepper v. Hart* (1993), ne ammise l'uso quando la legge è ambigua e le dichiarazioni del proponente sono chiare. Negli Stati Uniti la *legislative history* è molto usata, ma contestata dal [[testualismo|testualismo]], per il quale il [[parlamento|Parlamento]] approva testi, non relazioni.",
+      "daSapere": ["Progetti, relazioni, dibattiti parlamentari", "Italia: criterio sussidiario (art. 12 preleggi)", "Inghilterra: *Pepper v. Hart* (1993)", "USA: *legislative history*, contestata dai testualisti"],
+      "collegamenti": [
+        { "da": "testualismo", "a": "lavori-preparatori", "tipo": "contrasta", "etichetta": "rifiuta l'uso dei" }
+      ]
+    },
+    {
+      "id": "intenzione-del-legislatore",
+      "oltre": "L'art. 12 delle preleggi italiane nomina espressamente l'intenzione del legislatore come criterio di interpretazione. La dottrina si divide tra una lettura **soggettiva** (la volontà storica di chi fece la legge, *voluntas legislatoris*) e una lettura **oggettiva** (lo scopo che la legge esprime oggi, nel sistema, *voluntas legis*), che prevale nella giurisprudenza.\n\nLe obiezioni all'intenzione soggettiva sono note: un'assemblea di centinaia di persone non ha un'unica intenzione; chi vota spesso non conosce il dettaglio del testo; le intenzioni non sono pubblicate come le leggi. Per questo il [[testualismo|testualismo]] americano la rifiuta, mentre chi la difende parla di intenzione «istituzionale» o «ragionevole», ricavata dal testo e dal contesto ([[scopo-della-norma|scopo della norma]]).",
+      "daSapere": ["Art. 12 preleggi", "Lettura soggettiva (*voluntas legislatoris*) e oggettiva (*voluntas legis*)", "Obiezione: un'assemblea non ha un'unica intenzione"],
+      "collegamenti": [
+        { "da": "intenzione-del-legislatore", "a": "parlamento", "tipo": "parte-di", "etichetta": "si attribuisce al" }
+      ]
+    },
+    {
+      "id": "testualismo",
+      "oltre": "Il testualismo è la teoria dell'interpretazione per cui le leggi vanno lette secondo il significato ordinario delle loro parole nel contesto, come le avrebbe capite un lettore ragionevole al momento dell'approvazione, senza cercare l'intenzione dei legislatori nei [[lavori-preparatori|lavori preparatori]]. Il suo principale esponente è stato Antonin Scalia (1936–2016), giudice della Corte Suprema dal 1986 al 2016, autore di *A Matter of Interpretation* (1997) e, con Bryan Garner, di *Reading Law* (2012).\n\nIl testualismo va distinto dal letteralismo ingenuo: guarda al significato in contesto, non alla parola isolata. Per la Costituzione ha un parente stretto nell'**originalismo**, che lega il significato della Costituzione al momento della sua adozione. Oggi è la corrente dominante nella Corte Suprema.",
+      "daSapere": ["Significato ordinario delle parole, senza *legislative history*", "Antonin Scalia (1936–2016): *A Matter of Interpretation* (1997)", "Parente costituzionale: l'originalismo"],
+      "collegamenti": [
+        { "da": "testualismo", "a": "lettera-e-spirito-della-legge", "tipo": "collegato", "etichetta": "difende la lettera nella tensione tra" }
+      ]
+    },
+    {
+      "id": "scopo-della-norma",
+      "oltre": "Guardare allo scopo della norma è il cuore dell'**interpretazione teleologica**. Nella cultura giuridica europea l'idea fu sviluppata da [[rudolf-von-jhering|Rudolf von Jhering]] (*Lo scopo nel diritto*, 1877–1883), per il quale lo scopo è il creatore di tutto il diritto, e poi dalla [[giurisprudenza-degli-interessi|giurisprudenza degli interessi]]. In Inghilterra un'antica regola, la *mischief rule* dello *Heydon's Case* (1584), chiede di capire quale «male» la legge volesse rimediare.\n\nIl rischio dell'interpretazione teleologica è che lo scopo può essere ricostruito a diversi livelli di generalità, lasciando al giudice ampio margine. Per [[frederick-schauer|Schauer]] lo scopo coincide con la [[giustificazione-soggiacente|giustificazione soggiacente]] della regola, e il diritto spesso sceglie di non seguirlo quando il testo è chiaro.",
+      "daSapere": ["Interpretazione teleologica", "Jhering, *Lo scopo nel diritto* (1877–1883)", "*Mischief rule*: *Heydon's Case* (1584)"],
+      "collegamenti": [
+        { "da": "rudolf-von-jhering", "a": "scopo-della-norma", "tipo": "influenza", "etichetta": "fa dello scopo il centro del diritto:" }
+      ]
+    },
+    {
+      "id": "golden-rule",
+      "oltre": "Nell'interpretazione delle leggi inglese si insegnano tradizionalmente tre regole. La **literal rule**: le parole vanno prese nel loro significato ordinario, anche se il risultato è sgradevole. La **golden rule**: il significato letterale va seguito salvo che conduca a un'assurdità o a un'incoerenza, nel qual caso si può modificare quanto basta per evitarla; è formulata da Lord Wensleydale in *Grey v. Pearson* (1857). La **mischief rule**: si interpreta la legge alla luce del male che voleva rimediare (*Heydon's Case*, 1584).\n\nLa golden rule è quindi un compromesso tra fedeltà al testo e ragionevolezza del risultato: lo stesso equilibrio che [[frederick-schauer|Schauer]] descrive come [[defettibilita|defettibilità]] dell'interpretazione letterale.",
+      "daSapere": ["*Literal*, *golden* e *mischief rule*", "Lord Wensleydale, *Grey v. Pearson* (1857)", "Il testo cede solo davanti all'assurdo"],
+      "collegamenti": [
+        { "da": "golden-rule", "a": "defettibilita", "tipo": "esempio-di", "etichetta": "rende defettibile il testo:" }
+      ]
+    },
+    {
+      "id": "canoni-interpretativi",
+      "oltre": "I canoni (o massime) dell'interpretazione sono criteri tradizionali, spesso in latino: *expressio unius est exclusio alterius*, *ejusdem generis* (le parole generali che seguono un elenco si riferiscono a cose dello stesso genere), *lex specialis derogat generali*, *lex posterior derogat priori*, la regola per cui le leggi penali si interpretano restrittivamente.\n\nIn un celebre articolo del 1950 [[karl-llewellyn|Karl Llewellyn]] mise in colonna 28 coppie di canoni opposti, ciascuno con il suo «colpo» e la sua «parata» (*thrust and parry*), per mostrare che per quasi ogni canone ne esiste uno contrario: i canoni non decidono i casi, ma servono a giustificare una scelta fatta per altre ragioni. Il testualismo ha in parte rivalutato i canoni come regole di lettura condivise.",
+      "daSapere": ["*Expressio unius*, *ejusdem generis*, *lex specialis*, *lex posterior*", "Llewellyn (1950): 28 coppie di canoni opposti, *thrust and parry*"],
+      "collegamenti": [
+        { "da": "karl-llewellyn", "a": "canoni-interpretativi", "tipo": "contrasta", "etichetta": "mostra le contraddizioni dei" }
+      ]
+    },
+    {
+      "id": "expressio-unius",
+      "oltre": "La massima completa è *expressio unius est exclusio alterius*: «menzionare una cosa significa escluderne un'altra». Se una legge esenta da un'imposta «le chiese e le scuole», si presume che non esenti gli ospedali, perché il legislatore, potendo nominarli, non l'ha fatto.\n\nNella teoria dell'argomentazione italiana corrisponde in buona parte all'**argomento a contrario**: dove la legge ha voluto, ha detto; dove non ha detto, non ha voluto. È l'opposto dell'[[analogia|analogia]], che invece estende la norma ai casi simili non menzionati. Scegliere tra i due argomenti non è possibile con la logica: dipende dal giudizio sullo scopo della norma e sul carattere dell'elenco, tassativo o esemplificativo.",
+      "daSapere": ["«Menzionare una cosa significa escluderne un'altra»", "Corrisponde all'argomento a contrario", "Opposto dell'analogia: elenco tassativo o esemplificativo?"],
+      "collegamenti": [
+        { "da": "expressio-unius", "a": "analogia", "tipo": "contrasta", "etichetta": "porta all'opposto dell'" },
+        { "da": "expressio-unius", "a": "canoni-interpretativi", "tipo": "parte-di", "etichetta": "è uno dei" }
+      ]
+    },
+    {
+      "id": "motivazione-della-sentenza",
+      "oltre": "Nel diritto italiano l'obbligo di motivazione ha rango costituzionale: «tutti i provvedimenti giurisdizionali devono essere motivati» (art. 111, sesto comma, Cost.). La motivazione permette alle parti di impugnare e alla collettività di controllare l'esercizio del potere giudiziario. La sentenza civile contiene la «concisa esposizione delle ragioni di fatto e di diritto della decisione» (art. 132 c.p.c.).\n\nNei sistemi di common law la motivazione ha anche un'altra funzione, più importante: è il luogo in cui nasce il [[precedente-giudiziale|precedente]], e quindi il diritto stesso. Per questo i giudici di common law scrivono motivazioni lunghe e argomentate, mentre quelle di alcune corti di civil law, come la Cassazione francese, sono tradizionalmente brevissime.",
+      "daSapere": ["Art. 111, comma 6, Cost.: obbligo di motivazione", "Art. 132 c.p.c.: ragioni di fatto e di diritto", "Nel common law la motivazione crea il precedente"],
+      "collegamenti": [
+        { "da": "motivazione-della-sentenza", "a": "creazione-giudiziale-del-diritto", "tipo": "causa", "etichetta": "è lo strumento della" }
+      ]
+    },
+    {
+      "id": "motivazione-della-corte",
+      "oltre": "Nei primi anni della Corte Suprema americana i giudici, come quelli inglesi, scrivevano ciascuno la propria opinione (*seriatim*). Fu John Marshall, presidente dal 1801 al 1835, a imporre la prassi di un'unica **opinione della corte**, per rafforzarne l'autorità. Accanto a essa possono esserci opinioni **concorrenti** (d'accordo sul risultato ma non sulle ragioni) e **dissenzienti**.\n\nIn Italia, come in molti paesi di civil law, la sentenza è del collegio e non sono pubblicate opinioni dissenzienti, neppure alla Corte costituzionale, dove la proposta di introdurle è stata discussa più volte. Le opinioni dissenzienti sono invece previste, ad esempio, alla Corte europea dei diritti dell'uomo e al Tribunale costituzionale tedesco.",
+      "daSapere": ["John Marshall (presidente 1801–1835): l'opinione unica della corte", "Opinioni concorrenti e dissenzienti", "Italia: niente opinioni dissenzienti pubblicate"],
+      "collegamenti": [
+        { "da": "motivazione-della-corte", "a": "corte-suprema-degli-stati-uniti", "tipo": "parte-di", "etichetta": "è la prassi della" }
+      ]
+    },
+    {
+      "id": "onesta-delle-motivazioni",
+      "oltre": "Il dibattito sulla sincerità giudiziale (*judicial candor*) è vivo negli Stati Uniti dalla fine del XX secolo d.C. Chi la difende sostiene che il giudice ha il dovere di dichiarare le vere ragioni della decisione, perché solo così le parti possono criticarla e i giudici futuri capirne la portata; chi ammette eccezioni osserva che a volte una motivazione prudente, che non dice tutto, protegge l'autorità della corte o rende possibile un accordo nel collegio.\n\nIl tema si collega alla distinzione tra contesto della scoperta e della giustificazione ([[giustificazione-ex-post|giustificazione ex post]]): una motivazione può essere sincera anche se non racconta la storia psicologica della decisione, purché le ragioni dichiarate siano quelle che il giudice ritiene davvero sufficienti a sostenerla.",
+      "daSapere": ["*Judicial candor*: sincerità giudiziale", "Pro: controllo e portata del precedente", "Contro: prudenza e accordo nel collegio"]
+    },
+    {
+      "id": "generalita-delle-ragioni",
+      "oltre": "[[frederick-schauer|Schauer]] ha sviluppato questa tesi nell'articolo *Giving Reasons* (*Stanford Law Review*, 1995). Dire «ho deciso così perché…» significa indicare una proprietà del caso che varrebbe anche per altri casi: perciò dare ragioni è un modo di impegnarsi. Chi decide senza ragioni («perché lo dico io») conserva invece la massima libertà.\n\nLa tesi spiega perché in certi contesti non si motiva: le giurie popolari pronunciano verdetti senza ragioni, le corti supreme rifiutano i ricorsi senza spiegare, gli organi amministrativi a volte preferiscono decisioni caso per caso. Collega la motivazione all'**universalizzabilità**, che il filosofo Richard Hare considerava il tratto distintivo dei giudizi morali: chi giudica un caso deve giudicare allo stesso modo i casi uguali.",
+      "daSapere": ["Schauer, *Giving Reasons* (1995)", "Dare ragioni = impegnarsi per casi futuri", "Legata all'universalizzabilità (R. Hare)"],
+      "collegamenti": [
+        { "da": "generalita-delle-ragioni", "a": "generalita-delle-norme", "tipo": "collegato", "etichetta": "estende alle motivazioni la" }
+      ]
+    },
+    {
+      "id": "decisioni-sommarie",
+      "oltre": "Il fenomeno è noto negli Stati Uniti come *crisis of volume*: dagli anni Sessanta e Settanta del XX secolo d.C. il numero degli appelli federali è cresciuto molto più del numero dei giudici. Le corti hanno risposto riducendo le udienze orali, affidando molto lavoro ai *law clerks* e agli *staff attorneys*, e decidendo la maggior parte dei casi con decisioni non pubblicate, oggi la grande maggioranza delle decisioni delle corti d'appello federali.\n\nI critici parlano di una giustizia «a due livelli»: decisioni accurate e motivate per i casi delle parti più forti, decisioni rapide per gli altri, in particolare per i ricorsi dei detenuti e degli immigrati. In Italia un problema simile ha portato a forme di motivazione semplificata e a filtri per i ricorsi in Cassazione.",
+      "daSapere": ["*Crisis of volume* delle corti d'appello federali", "Decisioni non pubblicate: la grande maggioranza", "Critica: giustizia a due livelli"],
+      "collegamenti": [
+        { "da": "decisioni-sommarie", "a": "effetto-selettivo", "tipo": "collegato", "etichetta": "colpiscono i casi che sfuggono all'" }
+      ]
+    },
+    {
+      "id": "regole-e-standard",
+      "oltre": "Nella teoria giuridica americana la distinzione tra *rules* e *standards* è stata studiata soprattutto da Louis Kaplow, *Rules versus Standards: An Economic Analysis* (*Duke Law Journal*, 1992), e da Kathleen Sullivan, *The Justices of Rules and Standards* (*Harvard Law Review*, 1992). Per Kaplow la differenza sta nel momento in cui si definisce il contenuto della norma: prima dell'azione (regola) o dopo, da parte di chi giudica (standard). Le regole costano di più da scrivere e meno da applicare: convengono quando la condotta è frequente e uniforme; gli standard convengono per situazioni rare e varie.\n\nNella cultura giuridica europea la distinzione corrisponde in parte a quella tra norme a fattispecie determinata e **clausole generali** (buona fede, ordine pubblico, buon costume), che il giudice deve concretizzare.",
+      "daSapere": ["L. Kaplow (1992): analisi economica; regole definite prima, standard dopo", "K. Sullivan (1992): regole e standard nella Corte Suprema", "In Europa: clausole generali"],
+      "collegamenti": [
+        { "da": "regole-e-standard", "a": "certezza-del-diritto", "tipo": "collegato", "etichetta": "bilancia con la flessibilità la" }
+      ]
+    }
+  ]
+}

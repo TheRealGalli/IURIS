@@ -3,6 +3,8 @@ import { caricaCorso, CorsoContext, fetchManifest, useCorso, type Indice } from 
 import { href, useRotta, vai } from './lib/router';
 import { ripassoDiOggi } from './lib/srs';
 import { impostaMaterieCorso } from './lib/materie-corso';
+import { inDemo } from './lib/archivio';
+import { ricordaScroll, ripristinaScroll, timbraMateria } from './lib/ritorno';
 import { finisciDemo, iniziaDemo, leggiPref, scriviPref, usePref, useProgresso } from './lib/store';
 import type { Manifest, MateriaInfo } from './lib/types';
 import { Icon } from './components/ui';
@@ -77,7 +79,7 @@ export default function App() {
   const materie = delCorso.length ? delCorso : manifest.materie;
   const disponibili = materie.filter((m) => m.disponibile);
   const materia = materie.find((m) => m.slug === pref.materia) ?? disponibili[0] ?? materie[0];
-  impostaMaterieCorso(disponibili.map((m) => m.slug));
+  impostaMaterieCorso(disponibili.map((m) => m.slug), manifest.materie.filter((m) => m.disponibile).map((m) => m.slug));
   return <Guscio manifest={manifest} materie={materie} corso={corso} materia={materia} />;
 }
 
@@ -123,22 +125,45 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
     return () => window.removeEventListener('keydown', onKey);
   }, [demo]);
 
-  // collegamento a una sezione di un'altra materia del corso (un articolo della Costituzione citato nel privato)
+  // collegamento a un articolo (a.ax), anche di un'altra materia del corso (la Costituzione citata nel privato):
+  // prima di partire la pagina ricorda dov'era, così «indietro» nel browser riporta nello stesso punto.
   useEffect(() => {
     const apri = (e: MouseEvent) => {
-      const a = (e.target as Element | null)?.closest?.('a[data-materia]') as HTMLAnchorElement | null;
-      if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey) return;
+      const a = (e.target as Element | null)?.closest?.('a.ax, a[data-materia]') as HTMLAnchorElement | null;
+      if (!a || e.metaKey || e.ctrlKey) return;
+      // atto di una materia fuori dal corso scelto: si legge nella scheda, non si cambia materia
+      if (a.dataset.fuori) { e.preventDefault(); return; }
+      if (e.defaultPrevented) return;
+      ricordaScroll();
+      const altra = a.dataset.materia;
+      if (!altra || altra === leggiPref().materia) return;
       e.preventDefault();
-      scriviPref({ materia: a.dataset.materia });
+      scriviPref({ materia: altra });
       location.hash = a.getAttribute('href') ?? '#/';
     };
     document.addEventListener('click', apri);
     return () => document.removeEventListener('click', apri);
   }, []);
 
+  // Ogni pagina della cronologia del browser ricorda la materia in cui è stata aperta: tornando indietro da un
+  // articolo di un'altra materia si ritrovano la materia, la pagina e il punto in cui si era.
+  useEffect(() => { if (!demo) timbraMateria(materia.slug); }, [rotta.hash]);
+  useEffect(() => {
+    const torna = (e: PopStateEvent) => {
+      if (inDemo()) return;
+      const stato = e.state as { iurisMateria?: string; iurisScroll?: number } | null;
+      const m = stato?.iurisMateria;
+      if (m && m !== leggiPref().materia && materie.some((x) => x.slug === m && x.disponibile)) scriviPref({ materia: m });
+      if (typeof stato?.iurisScroll === 'number') ripristinaScroll(stato.iurisScroll);
+    };
+    window.addEventListener('popstate', torna);
+    return () => window.removeEventListener('popstate', torna);
+  }, [materie]);
+
   const scegliMateria = (slug: string) => {
     scriviPref({ materia: slug });
-    if (!['backup', 'demo'].includes(rotta.parti[0])) location.hash = '#/';
+    if (!['backup', 'demo'].includes(rotta.parti[0]) && !['', '#', '#/'].includes(location.hash)) location.hash = '#/';
+    else timbraMateria(slug);   // stessa pagina, altra materia
   };
 
   let contenuto;
@@ -195,7 +220,9 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
       {palette && idx && <Palette onClose={() => setPalette(false)} />}
     </div>
   );
-  return <MobileNavigation.Provider value={{ openMenu: () => setMobilePanel('menu') }}>{idx ? <CorsoContext.Provider value={idx}>{body}</CorsoContext.Provider> : body}</MobileNavigation.Provider>;
+  // Il Provider c'è sempre (anche con idx nullo): se comparisse e sparisse, il cambio di materia dopo un ripristino
+  // smonterebbe l'intera pagina e farebbe perdere l'esito del backup.
+  return <MobileNavigation.Provider value={{ openMenu: () => setMobilePanel('menu') }}><CorsoContext.Provider value={idx}>{body}</CorsoContext.Provider></MobileNavigation.Provider>;
 }
 
 /** Invito a mandare sbobine o materiale su WhatsApp, con il corso scelto già scritto nel messaggio. */
@@ -216,7 +243,8 @@ function SceltaCorso({ corso, classe = '' }: { corso: CorsoDiStudio; classe?: st
     const nuovo = corsoDi(id);
     // La materia aperta resta solo se fa parte del nuovo corso.
     scriviPref({ corso: nuovo.id, ...(nuovo.materie.includes(leggiPref().materia ?? '') ? {} : { materia: nuovo.materie[0] }) });
-    if (!['backup', 'demo'].includes(location.hash.replace(/^#\/?/, '').split(/[/?]/)[0])) location.hash = '#/';
+    if (!['backup', 'demo'].includes(location.hash.replace(/^#\/?/, '').split(/[/?]/)[0]) && !['', '#', '#/'].includes(location.hash)) location.hash = '#/';
+    else if (leggiPref().materia) timbraMateria(leggiPref().materia!);
   };
   return (
     <label className={`corso-switch ${classe}`} title={descriviCorso(corso)}>

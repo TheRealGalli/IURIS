@@ -1,428 +1,273 @@
 {
- "voci": [],
- "nuovi": [
-  {
-   "id": "james-boyd-white",
-   "nome": "James Boyd White",
-   "tipo": "persona",
-   "breve": "Giurista statunitense, iniziatore degli studi di *Law and Literature*: il diritto è una forma di narrazione.",
-   "definizione": "Con *The Legal Imagination* (1973) apre il filone [[law-and-literature|Law and Literature]]: il diritto non è solo un insieme di comandi ma un linguaggio e un insieme di storie, una delle grandi narrazioni della cultura occidentale. Nel corso è citato due volte: per l'idea che ogni processo e ogni sentenza raccontino una storia, e per la tesi che la dimensione narrativa e letteraria sia l'«inconscio» del razionalismo giuridico moderno, rimosso ma ancora attivo dietro le quinte."
-  },
-  {
-   "id": "richard-sherwin",
-   "nome": "Richard Sherwin",
-   "tipo": "persona",
-   "breve": "Giurista statunitense, teorico del *visual legal realism*: la pressione a seguire le norme passa dalle immagini della cultura di massa.",
-   "definizione": "Riprende il realismo di [[alf-ross|Ross]] e lo sposta sulle immagini: la pressione psicosociale non viene tanto dalla norma quanto dalla **percezione della norma** che ci formiamo attraverso cinema e televisione. È il [[visual-legal-realism|visual legal realism]]. Ne derivano le tre figure del giurista viste a lezione (sceneggiatore, attore, regista del processo) e l'attenzione alle giurie popolari, formate da persone che conoscono il diritto soprattutto dagli schermi."
-  },
-  {
-   "id": "david-bordwell",
-   "nome": "David Bordwell",
-   "tipo": "persona",
-   "breve": "Teorico statunitense del cinema; i suoi manuali di narrazione filmica sono usati negli Stati Uniti anche per scrivere gli atti processuali.",
-   "definizione": "Storico e teorico del cinema, autore con Kristin Thompson del manuale *Film Art* (1979). Nel corso è l'esempio di come il [[law-and-film|Law and Film]] sia entrato nella pratica: gli avvocati americani costruiscono le difese come piccole sceneggiature (*storytelling*, *storyboard*) e i manuali di argomentazione citano i teorici del cinema, perché lo sceneggiatore sa come catturare l'attenzione di chi guarda, cioè della giuria."
-  },
-  {
-   "id": "william-shakespeare",
-   "nome": "William Shakespeare",
-   "tipo": "persona",
-   "breve": "Drammaturgo inglese, autore del *Mercante di Venezia*, da cui il corso trae la figura di Porzia.",
-   "definizione": "Il suo teatro è pieno di processi, patti e giuramenti, e per questo è un classico degli studi su diritto e letteratura. Nel corso interessa per [[il-mercante-di-venezia|*Il mercante di Venezia*]]: [[porzia|Porzia]] rappresenta, nell'accostamento di [[tullio-ascarelli|Ascarelli]] con [[antigone|Antigone]], la giustizia che si ottiene **dentro** il diritto positivo, attraverso l'interpretazione. Le sue arringhe sono usate ancora oggi nei corsi di retorica giuridica.",
-   "alias": [
-    "Shakespeare"
-   ]
-  },
-  {
-   "id": "il-mercante-di-venezia",
-   "nome": "Il mercante di Venezia",
-   "tipo": "opera",
-   "breve": "Commedia di Shakespeare sul patto della libbra di carne: Porzia salva Antonio interpretando alla lettera il contratto.",
-   "definizione": "Bassanio ha bisogno di denaro per sposare [[porzia|Porzia]]; l'amico Antonio, mercante, lo chiede in prestito all'usuraio Shylock, che pone una condizione: se la somma non sarà restituita in tempo, potrà tagliare una libbra della carne di Antonio. Alla scadenza Shylock pretende ciò che il patto gli riconosce. Porzia, travestita da giurista, non contesta il contratto: lo **rilegge**. Il patto dà diritto alla carne, ma non a una goccia di sangue. È la giustizia **formale-procedurale**: un solo ordine, quello positivo, e l'[[interpretazione-giuridica|interpretazione]] come strumento. Il patto macabro è anche l'esempio usato per l'interpretazione sistematica.",
-   "alias": [
-    "Mercante di Venezia",
-    "Shylock"
-   ]
-  },
-  {
-   "id": "sofocle",
-   "nome": "Sofocle",
-   "tipo": "persona",
-   "breve": "Tragediografo ateniese, autore dell'*Antigone*.",
-   "definizione": "Con Eschilo ed Euripide è uno dei tre grandi tragici greci. Nell'*Antigone* mette in scena il conflitto, senza mediazione possibile, tra la legge non scritta degli dei e della famiglia e l'editto del re [[creonte|Creonte]]: la tragedia finisce con la morte di [[antigone|Antigone]]. Per il corso è l'immagine della giustizia **sostanziale** e dello scontro tra [[diritto-naturale|ordine naturale]] e [[diritto-positivo|diritto positivo]]."
-  },
-  {
-   "id": "creonte",
-   "nome": "Creonte",
-   "tipo": "persona",
-   "breve": "Re di Tebe nell'*Antigone* di Sofocle: vieta con un editto la sepoltura di Polinice.",
-   "definizione": "È il legislatore: il suo editto vieta di seppellire Polinice, morto combattendo contro la città. [[antigone|Antigone]] disobbedisce in nome della legge degli dei e dei doveri verso il fratello. Creonte rappresenta il [[diritto-positivo|diritto positivo]], la giustizia imposta da chi ha il potere di porre norme; il conflitto con la coscienza di Antigone non trova mediazione. [[hegel|Hegel]] legge lo scontro come quello tra la legge della città e la legge della famiglia, e giudica la colpa di Antigone più grave di quella di Edipo, che non sapeva di violare la legge."
-  },
-  {
-   "id": "franz-kafka",
-   "nome": "Franz Kafka",
-   "tipo": "persona",
-   "breve": "Scrittore praghese; nel *Processo* il potere che giudica è anonimo e inaccessibile.",
-   "definizione": "Nel romanzo *Il processo* (pubblicato postumo nel 1925) Josef K. è arrestato e processato senza sapere mai di che cosa è accusato né da chi. Nel corso è l'immagine di un potere **anonimo**, che governa l'ordine sociale senza mostrarsi: come la torre del [[panopticon]] e, oggi, come i poteri nascosti dietro gli [[algoritmi]]. La versione cinematografica di [[orson-welles|Orson Welles]] (1962) è citata tra i generi del *law in film* come esempio di paradosso surreale.",
-   "alias": [
-    "Kafka",
-    "Il processo"
-   ]
-  },
-  {
-   "id": "orson-welles",
-   "nome": "Orson Welles",
-   "tipo": "persona",
-   "breve": "Regista statunitense; ha portato al cinema *Il processo* di Kafka.",
-   "definizione": "Regista di *Quarto potere* (1941). Nel corso è citato, con [[stanley-kubrick|Kubrick]], per la tradizione di cinema che **decostruisce** concetti e apparati giuridici: il suo *Processo* (1962), tratto da [[franz-kafka|Kafka]], mostra una giustizia labirintica e senza volto."
-  },
-  {
-   "id": "stanley-kubrick",
-   "nome": "Stanley Kubrick",
-   "tipo": "persona",
-   "breve": "Regista statunitense; nei suoi film il diritto e le istituzioni sono spesso messi sotto accusa.",
-   "definizione": "Nel corso è l'esempio del film di guerra come modo di raccontare il diritto: in *Orizzonti di gloria* (1957) una corte marziale condanna a morte tre soldati per coprire l'errore di un generale. Con [[orson-welles|Welles]] rappresenta la funzione **critica** del cinema, uno dei significati del [[law-and-film|Law and Film]].",
-   "alias": [
-    "Kubrick"
-   ]
-  },
-  {
-   "id": "philip-k-dick",
-   "nome": "Philip K. Dick",
-   "tipo": "persona",
-   "breve": "Scrittore statunitense di fantascienza; dai suoi racconti vengono *Minority Report* e *Un oscuro scrutare*.",
-   "definizione": "I suoi mondi distopici servono al corso per due problemi. Il racconto *The Minority Report* (1956), da cui il film [[minority-report|*Minority Report*]], immagina una polizia che arresta i colpevoli **prima** del reato: se il «deve» della norma fosse una necessità naturale, nessuno potrebbe sfuggire al proprio destino. *Un oscuro scrutare* (1977) riguarda invece l'osservazione e il condizionamento, accanto a *1984* di [[george-orwell|Orwell]], tra le figure del [[panopticon]] novecentesco."
-  },
-  {
-   "id": "minority-report",
-   "nome": "Minority Report",
-   "tipo": "opera",
-   "breve": "Film di Steven Spielberg (2002) in cui i crimini sono previsti e puniti prima di essere commessi.",
-   "definizione": "Tratto da un racconto di [[philip-k-dick|Philip K. Dick]]. Creature veggenti prevedono gli omicidi e una polizia speciale arresta i futuri colpevoli. Il corso lo usa per chiarire il «deve» della norma: se fosse il [[muessen|*müssen*]] delle leggi naturali, cioè una necessità causale, il comportamento sarebbe inevitabile e non avrebbe senso né la norma né la responsabilità. Il «deve» giuridico è invece [[sollen|*sollen*]]: lega l'illecito alla sanzione con il [[nesso-di-imputazione|nesso di imputazione]] e presuppone che si possa agire diversamente ([[libero-arbitrio]])."
-  },
-  {
-   "id": "george-orwell",
-   "nome": "George Orwell",
-   "tipo": "persona",
-   "breve": "Scrittore inglese; in *1984* descrive una società in cui tutti sono osservati dal Grande Fratello.",
-   "definizione": "*1984* (1949) racconta uno Stato totalitario che sorveglia ogni cittadino attraverso i teleschermi. Per il corso è la grande figura novecentesca del [[panopticon]]: un potere che non ha bisogno di punire sempre, perché chi si sente osservato si controlla da sé.",
-   "alias": [
-    "Orwell",
-    "1984"
-   ]
-  },
-  {
-   "id": "watchmen",
-   "nome": "Watchmen",
-   "tipo": "opera",
-   "breve": "Graphic novel di Alan Moore e Dave Gibbons: i supereroi sono diventati i controllori della società. Chi controlla loro?",
-   "definizione": "Pubblicata nel 1986–1987. In un mondo distopico sospeso nella guerra fredda i supereroi, persi tra nevrosi e psicofarmaci, sorvegliano la società. Il titolo riprende il verso di Giovenale *quis custodiet ipsos custodes?*, «chi sorveglierà i sorveglianti?». È la domanda che il corso pone al [[potere-disciplinare|potere disciplinare]] e, oggi, agli [[algoritmi]]: un problema insieme di [[legalita|legalità]] e di [[legittimita|legittimità]], che già [[platone|Platone]] si poneva nella *Repubblica*."
-  },
-  {
-   "id": "platone",
-   "nome": "Platone",
-   "tipo": "persona",
-   "breve": "Filosofo ateniese; nella *Repubblica* si chiede chi controlla i controllori e descrive, con il mito della caverna, la prima figura di spettatore.",
-   "definizione": "Allievo di Socrate e maestro di [[aristotele|Aristotele]]. Il corso lo richiama due volte. Nella *Repubblica* i custodi governano la città: ma chi sorveglia i custodi? Ed è suo il **mito della caverna** (libro VII): prigionieri incatenati vedono solo le ombre proiettate su una parete e le scambiano per la realtà. È la prima grande immagine dello [[spettatore]], che conosce passivamente non le cose ma le loro rappresentazioni; alcuni teorici del cinema vi leggono l'anticipazione dello schermo.",
-   "alias": [
-    "mito della caverna"
-   ]
-  },
-  {
-   "id": "martin-heidegger",
-   "nome": "Martin Heidegger",
-   "tipo": "persona",
-   "breve": "Filosofo tedesco, allievo di Husserl; nel corso è citato per i molti sensi di *logos* e per la nozione di intenzionalità.",
-   "definizione": "Autore di *Essere e tempo* (1927), sviluppa la fenomenologia di [[edmund-husserl|Husserl]] in un'analisi dell'esistenza. Nel corso compare ai margini: per ricordare che *logos* è un termine dai molti significati (qui vale «pensiero, ragione») e che «intenzionalità», la parola usata da [[john-searle|Searle]], ha una lunga storia dalla filosofia medievale alla fenomenologia del Novecento.",
-   "alias": [
-    "Heidegger"
-   ]
-  },
-  {
-   "id": "diego-velazquez",
-   "nome": "Diego Velázquez",
-   "tipo": "persona",
-   "breve": "Pittore spagnolo del Seicento, autore di *Las Meninas*.",
-   "definizione": "Pittore di corte di Filippo IV. In [[las-meninas|*Las Meninas*]] (1656) dipinge se stesso mentre dipinge, e pone chi guarda il quadro nel posto dei sovrani riflessi nello specchio. [[michel-foucault|Foucault]] ne fa l'apertura di *Le parole e le cose*; il corso ne ricava i ruoli di [[osservatore]] e [[spettatore]] e la domanda sul [[punto-di-vista|punto di vista]].",
-   "alias": [
-    "Velázquez"
-   ]
-  },
-  {
-   "id": "repubblica-di-weimar",
-   "nome": "Repubblica di Weimar",
-   "tipo": "periodo",
-   "breve": "La Germania democratica tra il 1919 e il 1933, dalle cui istituzioni nasce legalmente il regime nazista.",
-   "definizione": "Prende il nome dalla città in cui fu scritta la costituzione del 1919. Nel 1933 Hitler diventa cancelliere **secondo le regole**: il [[terzo-reich|Terzo Reich]] non nasce da un colpo di Stato. È il fatto storico che mette in crisi il [[giuspositivismo]]: uno Stato che rispetta i presupposti di [[legalita|legalità]] e [[validita|validità]] può porre norme dal contenuto aberrante. Da qui [[processo-di-norimberga|Norimberga]] e le [[formule-di-radbruch|formule di Radbruch]]. In un altro punto del corso Weimar è l'esempio di un ordinamento che perde effettività.",
-   "alias": [
-    "Weimar"
-   ]
-  },
-  {
-   "id": "leggi-razziali",
-   "nome": "Leggi razziali",
-   "tipo": "norma",
-   "breve": "Norme del Terzo Reich che privavano gli ebrei della cittadinanza e dei diritti: valide secondo l'ordinamento, intollerabili nel contenuto.",
-   "definizione": "Le leggi di Norimberga (1935) tolsero agli ebrei la cittadinanza e vietarono i matrimoni misti. Erano poste da organi competenti con le procedure previste: per [[kelsen|Kelsen]] dunque **valide**. Per [[gustav-radbruch|Radbruch]] sono il caso in cui la validità non basta: un'ingiustizia così intollerabile travolge la [[giuridicita|giuridicità]] dell'intero ordinamento, come un contenuto corrosivo scioglie il [[calice-di-cristallo|calice]]. Anche l'Italia fascista emanò leggi razziali nel 1938.",
-   "alias": [
-    "leggi di Norimberga"
-   ]
-  },
-  {
-   "id": "codice-rocco",
-   "nome": "Codice Rocco",
-   "tipo": "norma",
-   "breve": "Il codice penale italiano del 1930: alcune sue norme, mai abrogate, smisero di essere applicate dopo la Costituzione.",
-   "definizione": "Prende il nome dal ministro Alfredo Rocco; in vigore dal 1931, è ancora il codice penale italiano, più volte modificato. Nel corso è l'esempio di [[alf-ross|Ross]] sulla differenza tra [[validita|validità]] ed [[efficacia]]: all'inizio della Repubblica alcune norme discriminatorie, per esempio verso le donne, non furono abrogate, ma nessun giudice le applicava più perché contrarie ai nuovi valori costituzionali. Erano valide ma non efficaci: per il [[realismo-giuridico|realismo]] non erano più diritto."
-  },
-  {
-   "id": "decisionismo",
-   "nome": "Decisionismo",
-   "tipo": "concetto",
-   "breve": "Teoria di Carl Schmitt: il diritto si fonda su una decisione, non su una norma. Sovrano è chi decide nello stato di eccezione.",
-   "definizione": "Per [[carl-schmitt|Schmitt]] (*Teologia politica*, 1922) ogni ordine giuridico riposa su una **decisione**: quando la situazione normale viene meno, qualcuno deve decidere come ristabilire l'ordine, e chi lo fa è il sovrano. È l'opposto del [[normativismo]] di [[kelsen|Kelsen]], per cui una norma si fonda solo su un'altra norma. Il corso ricorda che l'ultimo Kelsen, definendo le norme «atti di decisione», si avvicina a questa posizione, e che la forza del diritto sta nel decidere, mentre la [[governance]] funziona [[decidere-di-non-decidere|decidendo di non decidere]].",
-   "alias": [
-    "stato di eccezione"
-   ]
-  },
-  {
-   "id": "globalizzazione",
-   "nome": "Globalizzazione",
-   "tipo": "concetto",
-   "breve": "Integrazione mondiale di mercati, produzione e comunicazioni, che toglie allo Stato il controllo esclusivo del diritto.",
-   "definizione": "Dagli anni Ottanta le imprese spostano parti della produzione dove il lavoro costa meno e le regole sono più deboli, e i capitali si muovono senza confini. Per il diritto significa la crisi dello [[stato-nazione|Stato-nazione]] e della [[sovranita|sovranità]]: gli Stati diventano a [[sovranita-limitata|sovranità limitata]], le [[multinazionali]] trattano con loro da pari e le controversie finiscono davanti a corti e arbitri internazionali. È lo sfondo del passaggio dall'ordinamento alla [[governance]] e del [[postmoderno]] giuridico."
-  },
-  {
-   "id": "stato-nazione",
-   "nome": "Stato-nazione",
-   "tipo": "concetto",
-   "breve": "Forma politica moderna in cui un solo Stato esercita la sovranità su un territorio e un popolo, ed è la fonte principale del diritto.",
-   "definizione": "È il presupposto della teoria di [[kelsen|Kelsen]], per cui Stato e [[ordinamento-giuridico|ordinamento]] coincidono. Oggi è in crisi dall'alto e dal basso: ordinamenti sovraordinati come l'[[unione-europea|Unione Europea]] e il diritto internazionale, [[multinazionali]], mercati. [[michel-foucault|Foucault]] ne aveva intuito il declino descrivendo poteri che non passano per la legge; il [[postmoderno]] ne celebra la fine come [[grandi-narrazioni|grande narrazione]].",
-   "alias": [
-    "Stato nazionale"
-   ]
-  },
-  {
-   "id": "sovranita",
-   "nome": "Sovranità",
-   "tipo": "concetto",
-   "breve": "Potere supremo di porre il diritto su un territorio, senza dipendere da altri: è il carattere proprio degli ordinamenti statali.",
-   "definizione": "Nel corso è il polo opposto alla [[governance]]. La sovranità appartiene all'[[ordinamento-giuridico|ordinamento]]: un potere unitario, verticale, che **decide** e sanziona. La governance è una rete orizzontale in cui diritto, economia e società si intrecciano e nessuno decide in ultima istanza. Con la [[globalizzazione]] gli Stati diventano a [[sovranita-limitata|sovranità limitata]]. Per [[carl-schmitt|Schmitt]] sovrano è chi decide nello stato di eccezione ([[decisionismo]])."
-  },
-  {
-   "id": "unione-europea",
-   "nome": "Unione Europea",
-   "tipo": "organo",
-   "breve": "Organizzazione sovranazionale il cui diritto prevale su quello degli Stati membri: esempio di ordinamento sovraordinato a quello nazionale.",
-   "definizione": "Nasce con i Trattati di Roma del 1957 come Comunità economica europea e prende il nome attuale con il Trattato di Maastricht (1992). Per il corso è la prova che l'ordinamento statale non è più il vertice: le norme nazionali dipendono gerarchicamente da norme europee, e il giudice deve interpretare tenendo conto di più livelli. È uno dei segni della crisi dello [[stato-nazione|Stato-nazione]].",
-   "alias": [
-    "UE"
-   ]
-  },
-  {
-   "id": "multinazionali",
-   "nome": "Multinazionali",
-   "tipo": "gruppo",
-   "breve": "Grandi imprese che operano in più Stati e trattano con essi quasi da pari, fuori dal controllo di un solo ordinamento.",
-   "definizione": "Con la [[globalizzazione]] spostano la produzione dove conviene e scelgono le regole più favorevoli. Le loro controversie con gli Stati sono decise da tribunali e arbitri internazionali, le cui decisioni valgono come legge tra le parti: per questo il linguaggio del giudice ha acquistato un peso prima impensabile. Sono tra gli attori della [[governance]]; le grandi fabbriche del [[fordismo]] erano già «città-Stato nello Stato».",
-   "alias": [
-    "imprese multinazionali"
-   ]
-  },
-  {
-   "id": "anni-di-piombo",
-   "nome": "Anni di piombo",
-   "tipo": "periodo",
-   "breve": "Gli anni del terrorismo politico in Italia, tra la fine degli anni Sessanta e i primi anni Ottanta.",
-   "definizione": "Stragi, attentati e sequestri portano a una legislazione d'emergenza (la legge Reale del 1975, il decreto Cossiga del 1979) che restringe le garanzie conquistate negli anni Settanta. Nel corso segnano la fine di un genere: il [[poliziottesco]] e il cinema carcerario si esauriscono quando «la realtà supera la finzione». Mostrano come il cinema registri realtà politiche e sociali che i testi giuridici non dicono.",
-   "alias": [
-    "leggi speciali"
-   ]
-  },
-  {
-   "id": "poliziottesco",
-   "nome": "Poliziottesco",
-   "tipo": "concetto",
-   "breve": "Genere del cinema italiano degli anni Settanta: bande violente, cittadini che chiedono giustizia, istituzioni impotenti.",
-   "definizione": "Oltre cento film di grande successo (per esempio *Napoli violenta*) raccontano rapine, rapimenti e commissari che agiscono fuori dalle regole. Per il corso è un esempio di *film as law*: il cinema ha un potere normativo, perché costruisce l'immaginario giuridico. Qui alimenta sfiducia nelle istituzioni e nei giudici e una domanda di repressione; il genere finisce con gli [[anni-di-piombo|anni di piombo]]."
-  },
-  {
-   "id": "attrazione-fatale",
-   "nome": "Attrazione fatale",
-   "tipo": "opera",
-   "breve": "Film del 1987 su una persecuzione amorosa: contribuì a far nascere negli Stati Uniti il reato di stalking.",
-   "definizione": "Regia di Adrian Lyne. Una donna perseguita l'uomo sposato con cui ha avuto una relazione e la sua famiglia. Negli stessi anni alcune celebrità subiscono persecuzioni e attentati, e l'opinione pubblica chiede di «non finire come nel film»: nel 1990 la California approva la prima legge sullo stalking. È l'esempio principale di *film as law*: il legislatore risponde a un immaginario cinematografico più che alla realtà sociale, in cui il persecutore di solito non somiglia a quello del film."
-  },
-  {
-   "id": "orange-is-the-new-black",
-   "nome": "Orange Is the New Black",
-   "tipo": "opera",
-   "breve": "Serie televisiva (2013–2019) su un carcere femminile, che ha rovesciato l'immagine cinematografica della detenzione.",
-   "definizione": "Creata da Jenji Kohan dal libro autobiografico di Piper Kerman. Nei *prison movies* degli anni Sessanta–Ottanta il carcere femminile era raccontato con uno sguardo maschile e alterato; qui i corpi e le storie delle detenute sono al centro. Per il corso è un caso di **epistemologia filmica**: il carcere è l'unico luogo istituzionale di cui quasi nessuno ha esperienza diretta, e la nostra idea viene dalle immagini. Tocca i temi del femminismo giuridico."
-  },
-  {
-   "id": "la-parola-ai-giurati",
-   "nome": "La parola ai giurati",
-   "tipo": "opera",
-   "breve": "Film di Sidney Lumet (1957): dodici giurati chiusi in una stanza devono decidere all'unanimità su un'accusa di omicidio.",
-   "definizione": "È il modello del dramma processuale hollywoodiano. Un solo giurato dubita e, discutendo, porta gli altri a rivedere le prove. Mostra che il processo penale americano si regge sul convincimento della **giuria popolare**, fatta di persone estranee al diritto: per questo gli avvocati studiano come si costruisce un racconto e come lo si mette in scena ([[law-and-film|Law and Film]], [[cultura-giuridica-esterna|cultura giuridica esterna]])."
-  },
-  {
-   "id": "omero",
-   "nome": "Omero",
-   "tipo": "persona",
-   "breve": "Poeta a cui la tradizione attribuisce *Iliade* e *Odissea*: per il corso una delle prime fonti, letterarie, del diritto.",
-   "definizione": "I poemi omerici descrivono come si fanno i sacrifici, come si regolano i rapporti familiari, come si risolvono le contese: sono modelli da imitare, e vi compare l'origine dell'idea di *nomos*. L'*Iliade* si apre con un sentimento, l'ira di Achille. Il corso ne ricava che il diritto non nasce dalla logica ma dal racconto e dalla [[messa-in-scena|messa in scena]], un'origine che il razionalismo moderno ha rimosso ([[james-boyd-white|J. B. White]]).",
-   "alias": [
-    "Iliade",
-    "poemi omerici"
-   ]
-  },
-  {
-   "id": "la-condizione-postmoderna",
-   "nome": "La condizione postmoderna",
-   "tipo": "opera",
-   "breve": "Saggio di Lyotard (1979) che definisce il postmoderno come fine delle grandi narrazioni.",
-   "definizione": "[[jean-francois-lyotard|Lyotard]] sostiene che le società avanzate non credono più ai grandi racconti che davano un senso unitario alla storia e al sapere: il progresso, l'emancipazione, lo Spirito. Restano saperi parziali e linguaggi locali. Nel diritto, dagli anni Ottanta, entrano in crisi le categorie unitarie di Stato, [[sovranita|sovranità]], [[ordinamento-giuridico|ordinamento]] e cittadinanza, e con esse la piramide di [[kelsen|Kelsen]]."
-  },
-  {
-   "id": "grandi-narrazioni",
-   "nome": "Grandi narrazioni",
-   "tipo": "concetto",
-   "breve": "I racconti complessivi con cui la modernità dava senso alla storia e al sapere; per Lyotard il postmoderno ne segna la fine.",
-   "definizione": "Espressione di [[jean-francois-lyotard|Lyotard]] ([[la-condizione-postmoderna|*La condizione postmoderna*]]). Sono le visioni unitarie, da [[hegel|Hegel]] in poi, che pretendevano di spiegare tutto. Per il diritto la grande narrazione è lo [[stato-nazione|Stato-nazione]] con il suo ordinamento chiuso e gerarchico. Quando cade, la realtà giuridica appare scomposta in frammenti: reti, saperi ibridi, [[governance]]. Di qui i movimenti critici ([[critical-legal-studies|Critical Legal Studies]], [[law-and-literature|Law and Literature]], [[law-and-film|Law and Film]]).",
-   "alias": [
-    "metanarrazioni"
-   ]
-  },
-  {
-   "id": "schema-di-previsione",
-   "nome": "Schema di previsione",
-   "tipo": "concetto",
-   "breve": "Per Ross la norma è uno schema che permette di prevedere come decideranno le corti.",
-   "definizione": "È la seconda definizione di norma del corso, dal punto di vista dei [[custodi-dell-osservanza|custodi dell'osservanza]]. Per [[alf-ross|Ross]] dire che una norma è diritto vigente significa prevedere, con ragionevole certezza, che i giudici la applicheranno. Come negli scacchi conoscere le regole è necessario ma non basta e bisogna conoscere le strategie dei giocatori, così nel diritto bisogna conoscere le strategie delle corti. Si oppone allo [[schema-di-qualificazione|schema di qualificazione]] trascendentale di [[kelsen|Kelsen]]: conta l'[[efficacia]], non la forma.",
-   "alias": [
-    "schemi di previsione"
-   ]
-  },
-  {
-   "id": "fatto-psicosociale",
-   "nome": "Fatto psicosociale",
-   "tipo": "concetto",
-   "breve": "Per Ross la norma è un fatto: la pressione che sentiamo a comportarci in un certo modo perché prevediamo la reazione delle corti.",
-   "definizione": "[[alf-ross|Ross]] elimina ogni elemento metafisico: la norma non è un dover essere ideale ma un fatto empirico, psicologico e sociale insieme. Esiste se è sentita come vincolante e se i giudici la applicano ([[schema-di-previsione|schema di previsione]]). Gli esempi del corso: le strisce pedonali lontane, il semaforo, la [[fotocellula]]. [[richard-sherwin|Sherwin]] aggiorna la tesi: oggi la pressione passa dalle immagini ([[visual-legal-realism|visual legal realism]]).",
-   "alias": [
-    "norma come fatto psicosociale"
-   ]
-  },
-  {
-   "id": "fotocellula",
-   "nome": "Strisce, semaforo, fotocellula",
-   "tipo": "concetto",
-   "breve": "Tre esempi del corso per mostrare che la forza di una norma dipende da quanto ne prevediamo l'applicazione.",
-   "definizione": "1. Il pedone lontano dalle strisce attraversa comunque: la regola ha una forza minima perché non si prevede che venga applicata. 2. L'automobilista davanti a un semaforo rosso valuta il rischio. 3. Davanti a una **fotocellula** o a una telecamera ci si ferma: la sanzione è quasi certa. E se fosse spenta? Ci fermiamo lo stesso: basta la presenza del dispositivo. È il [[fatto-psicosociale|fatto psicosociale]] di [[alf-ross|Ross]] e anticipa il [[panopticon]]: chi può essere osservato in ogni momento si controlla da solo.",
-   "alias": [
-    "fotocellula"
-   ]
-  },
-  {
-   "id": "cappuccetto-rosso",
-   "nome": "Esempio di Cappuccetto Rosso",
-   "tipo": "concetto",
-   "breve": "Esempio del corso: come Cappuccetto Rosso esiste solo nella fiaba, la norma esiste solo dentro l'ordinamento.",
-   "definizione": "Nessuno si chiede quanto pesi Cappuccetto Rosso: la sua esistenza dipende interamente dalla favola. Allo stesso modo la norma ha un'esistenza **specifica**: esiste *in* e *per* un ordinamento. Questa esistenza è la [[validita|validità]], predicato ontologico della norma. Ne segue che non ci sono norme fuori dall'ordinamento né norme invalide: o sono valide o non sono norme.",
-   "alias": [
-    "Cappuccetto Rosso"
-   ]
-  },
-  {
-   "id": "regresso-all-infinito",
-   "nome": "Regresso all'infinito",
-   "tipo": "concetto",
-   "breve": "Difetto di una giustificazione che rinvia sempre a un fondamento ulteriore senza mai fermarsi.",
-   "definizione": "Se ogni norma è valida perché autorizzata da una norma superiore, chi valida la costituzione? Risalire senza fine renderebbe il sistema non chiuso e quindi non pensabile. L'altra via, cercare il fondamento fuori dal diritto (Dio, la natura, la giustizia), riporterebbe al [[giusnaturalismo]]. [[kelsen|Kelsen]] evita entrambe con la [[grundnorm|norma fondamentale]]: non posta ma presupposta, non ha bisogno di essere validata."
-  },
-  {
-   "id": "trascendentale",
-   "nome": "Trascendentale",
-   "tipo": "concetto",
-   "breve": "In Kant, ciò che riguarda le condizioni che rendono possibile la conoscenza; da non confondere con «trascendente».",
-   "definizione": "**Trascendente** è ciò che sta oltre l'esperienza (Dio, l'anima). **Trascendentale** è, per [[kant|Kant]], la condizione *a priori* che rende possibile conoscere qualcosa: non un oggetto, ma una forma del pensiero. [[kelsen|Kelsen]], neokantiano, usa il termine due volte: la [[grundnorm|norma fondamentale]] è il presupposto logico-trascendentale che permette di pensare l'ordinamento come sistema; la norma è uno [[schema-di-qualificazione|schema di qualificazione]] trascendentale, cioè la forma attraverso cui un fatto diventa giuridicamente rilevante."
-  },
-  {
-   "id": "diritto-positivo",
-   "nome": "Diritto positivo",
-   "tipo": "concetto",
-   "breve": "Il diritto posto da un'autorità umana in un certo tempo e luogo, distinto dal diritto naturale.",
-   "definizione": "«Positivo» viene da *positum*, posto. È il diritto che vale perché qualcuno competente lo ha stabilito, non perché sia giusto. Per il [[giuspositivismo]] è l'unico diritto; per il [[giusnaturalismo]] deve conformarsi al [[diritto-naturale|diritto naturale]]. Nel corso [[creonte|Creonte]] ne è la figura tragica; [[porzia|Porzia]] mostra invece che si può ottenere giustizia restando al suo interno, con l'interpretazione.",
-   "alias": [
-    "ius positum"
-   ]
-  },
-  {
-   "id": "diritti-umani",
-   "nome": "Diritti umani",
-   "tipo": "concetto",
-   "breve": "Diritti riconosciuti a ogni persona in quanto tale; per Bobbio hanno una storia e cambiano contenuto nel tempo.",
-   "definizione": "[[norberto-bobbio|Bobbio]], in *L'età dei diritti* (1990), mostra che anche i diritti fondamentali sono **storici**: nascono in certe circostanze, si moltiplicano, cambiano significato. Il problema, dice, non è più fondarli ma proteggerli. Per il corso questo è un ostacolo a chi cerca un contenuto minimo di giustizia valido sempre: se anche i diritti umani variano, su che cosa fondare un limite al diritto positivo?",
-   "alias": [
-    "diritti fondamentali",
-    "L'età dei diritti"
-   ]
-  },
-  {
-   "id": "status-deontico",
-   "nome": "Status deontico",
-   "tipo": "concetto",
-   "breve": "La qualificazione di un comportamento come obbligatorio, vietato o permesso.",
-   "definizione": "Obbligo, divieto e permesso sono le [[modalita-deontica|modalità deontiche]]. Lo status deontico è il risultato: «è obbligatorio p». L'enunciazione **thetica** del legislatore lo costituisce, e l'enunciato che lo esprime è per questo sempre vero; l'enunciazione **rhetica** del giurista lo descrive, e può essere falsa ([[enunciazioni-thetiche-e-rhetiche]]). Per [[georges-kalinowski|Kalinowski]] una norma è valida se corrisponde a uno status deontico già esistente, la *réalité déontique*: tesi che il corso critica perché dimentica la funzione pragmatica delle norme.",
-   "alias": [
-    "stati deontici"
-   ]
-  },
-  {
-   "id": "legalita",
-   "nome": "Legalità",
-   "tipo": "concetto",
-   "breve": "Conformità dell'esercizio di un potere alle regole che lo limitano; diversa dalla legittimità, che riguarda il titolo del potere.",
-   "definizione": "Il corso le distingue così: la legalità è la giustificazione dei **limiti** entro cui un potere si esercita; la [[legittimita|legittimità]] è la giustificazione del potere **stesso**. Il potere giuridico delle democrazie liberali è legittimo e legale. Il [[potere-disciplinare|potere disciplinare]] e quello degli [[algoritmi]] pongono problemi su entrambi i piani: chi li ha autorizzati, e entro quali limiti operano? Il [[terzo-reich|Terzo Reich]] mostra che legalità e validità non garantiscono la giustizia."
-  },
-  {
-   "id": "algoritmi",
-   "nome": "Algoritmi",
-   "tipo": "concetto",
-   "breve": "Procedure automatiche che raccolgono ed elaborano dati sui comportamenti: forma attuale del potere che osserva senza farsi vedere.",
-   "definizione": "Nel corso sono l'esempio contemporaneo del [[panopticon]]: un potere **anonimo e inclusivo**, che tende a catturare più soggetti possibile e orienta le scelte senza comandare né punire. Pongono la domanda di [[watchmen|*Watchmen*]]: chi ci controlla attraverso gli algoritmi, e chi ci tutela dal controllore? Il diritto cerca strumenti nuovi per regolare questi [[potere-disciplinare|poteri disciplinari]], che in realtà sono poteri politici.",
-   "alias": [
-    "algoritmo"
-   ]
-  },
-  {
-   "id": "immedesimazione",
-   "nome": "Immedesimazione",
-   "tipo": "concetto",
-   "breve": "Il mettersi nei panni di un altro: nel corso, sia il modo di capire le regole dall'interno, sia il meccanismo del potere che seduce.",
-   "definizione": "Ha due usi. Per [[herbert-hart|Hart]] capire il diritto richiede il [[punto-di-vista-interno|punto di vista interno]]: immedesimarsi nelle ragioni di chi partecipa al gioco. Ma condividere ragioni significa condividere valori, e così si torna al contenuto. Nel [[synopticon]] l'immedesimazione è invece il meccanismo del potere: i molti guardano l'uno (la star, il leader) e vogliono somigliargli. È il rovescio della sorveglianza, ed è così che funzionano [[soft-power|soft power]] e [[acclamazione]].",
-   "alias": [
-    "identificazione"
-   ]
-  },
-  {
-   "id": "messa-in-scena",
-   "nome": "Diritto come messa in scena",
-   "tipo": "concetto",
-   "breve": "Tesi del corso: il diritto nasce come rappresentazione davanti a un terzo, e il processo è una rappresentazione di una rappresentazione.",
-   "definizione": "Il diritto nasce «nelle piazze», quando due persone ricostruiscono davanti a un terzo ciò che è accaduto, ciascuna a suo modo, per ottenere ragione. Già il [[leviatano|*Leviatano*]] di [[thomas-hobbes|Hobbes]] lo paragona al teatro. Il processo racconta un fatto che nessuno dei presenti ha visto: è una rappresentazione al quadrato. Per questo [[antigone|Antigone]] e [[porzia|Porzia]], figure teatrali, spiegano la giustizia meglio di un trattato, e il cinema è uno strumento per capire il diritto ([[law-and-film|Law and Film]]).",
-   "alias": [
-    "messa in scena",
-    "rappresentazione"
-   ]
-  },
-  {
-   "id": "stato",
-   "nome": "Stato",
-   "tipo": "concetto",
-   "breve": "Organizzazione politica che esercita la sovranità su un territorio; per Kelsen coincide con l'ordinamento giuridico.",
-   "definizione": "Per [[kelsen|Kelsen]] lo Stato non è qualcosa che sta dietro il diritto: **è** l'[[ordinamento-giuridico|ordinamento]], visto come unità. Per [[thomas-hobbes|Hobbes]] nasce da un patto con cui gli individui cedono il potere al sovrano per avere sicurezza ([[contrattualismo]]). Lo [[stato-di-diritto|Stato di diritto]] è lo Stato che sottopone se stesso alle proprie leggi. Il corso segue la sua parabola: dal monopolio del diritto alla crisi dello [[stato-nazione|Stato-nazione]] e alla [[governance]]."
-  }
- ]
+  "voci": [
+    {
+      "id": "trascendentale",
+      "oltre": "«Trascendentale» non significa semplicemente qualcosa che non ha bisogno di essere dimostrato. In [[kant|Kant]] indica la ricerca delle condizioni *a priori* che rendono possibile una conoscenza o un'esperienza. «Trascendente» riguarda invece ciò che supera i limiti dell'esperienza possibile: i due termini non sono sinonimi, e all'esame la confusione è frequente.\n\nLa tradizione scolastica medievale chiama «trascendentali» anche le proprietà generali di ogni ente, come uno, vero e buono: è un significato diverso da quello kantiano.\n\n[[kelsen|Kelsen]] si forma nel [[neokantismo]] e applica al diritto lo stesso schema: non chiede da dove vengano di fatto le norme, ma a quale condizione sia possibile pensarle come un sistema valido. La risposta è la [[grundnorm|norma fondamentale]]. Per [[alf-ross|Ross]] proprio questo è il punto debole: un presupposto non empirico resta, ai suoi occhi, metafisica.",
+      "daSapere": [
+        "Trascendentale ≠ trascendente",
+        "Kant: condizioni a priori della conoscenza (*Critica della ragion pura*, 1781)",
+        "Kelsen: norma fondamentale come presupposto logico-trascendentale"
+      ],
+      "collegamenti": [
+        {
+          "da": "kant",
+          "a": "trascendentale",
+          "tipo": "interpreta",
+          "etichetta": "dà il significato moderno al termine"
+        },
+        {
+          "da": "trascendentale",
+          "a": "neokantismo",
+          "tipo": "collegato",
+          "etichetta": "è la parola chiave del"
+        }
+      ]
+    },
+    {
+      "id": "diritto-positivo",
+      "oltre": "Il diritto positivo è il diritto riconosciuto come operante in un determinato ordinamento storico. *Ius positum* significa diritto «posto», ma non indica soltanto le norme deliberate da un legislatore: anche una consuetudine fa parte del diritto positivo quando l'ordinamento le riconosce questo ruolo.\n\nLa distinzione dal [[diritto-naturale|diritto naturale]] riguarda il fondamento e i criteri di riconoscimento, non la semplice opposizione fra diritto scritto e non scritto. Il [[giuspositivismo]] studia il diritto senza assumere che la sua validità implichi la giustizia morale; non comporta di per sé il dovere di approvare o di obbedire a qualsiasi legge.\n\nConviene tenere distinte tre domande: se una norma appartiene all'ordinamento (validità), se è giusta (valore) e se è moralmente doveroso obbedirle. Il dibattito del dopoguerra, con le [[formule-di-radbruch|formule di Radbruch]], nasce proprio dal loro intreccio.",
+      "daSapere": [
+        "*Ius positum*: diritto posto, valido in un ordinamento storico",
+        "Non coincide con il solo diritto scritto",
+        "Validità, giustizia e obbligo di obbedienza sono questioni distinte"
+      ],
+      "collegamenti": [
+        {
+          "da": "giuspositivismo",
+          "a": "diritto-positivo",
+          "tipo": "interpreta",
+          "etichetta": "assume come unico oggetto il"
+        },
+        {
+          "da": "diritto-positivo",
+          "a": "diritto-naturale",
+          "tipo": "contrasta",
+          "etichetta": "si distingue tradizionalmente dal"
+        }
+      ]
+    },
+    {
+      "id": "diritti-umani",
+      "oltre": "I diritti umani sono rivendicati come diritti spettanti a ogni essere umano. La loro giustificazione filosofica e le loro forme di protezione giuridica vanno distinte: dichiarazioni, costituzioni e trattati non hanno tutti la stessa funzione né la stessa efficacia.\n\nLe prime grandi proclamazioni sono la Dichiarazione d'indipendenza americana (1776) e la Dichiarazione dei diritti dell'uomo e del cittadino (1789). La Dichiarazione universale del **1948** è il riferimento fondamentale del dopoguerra; la Convenzione europea del 1950 e i Patti internazionali del 1966 creano forme pattizie di tutela. Si parla di «generazioni» di diritti (civili e politici, sociali, poi diritti legati all'ambiente e alle tecnologie): la classificazione aiuta a orientarsi, ma non stabilisce una gerarchia.\n\n[[norberto-bobbio|Bobbio]] ne ricava la tesi ricordata a lezione: i diritti sono storici, nascono gradualmente da lotte per nuove libertà, e il problema principale non è più fondarli ma proteggerli.",
+      "daSapere": [
+        "1789: Dichiarazione dei diritti dell'uomo e del cittadino",
+        "1948: Dichiarazione universale; 1950: CEDU; 1966: Patti internazionali",
+        "Bobbio, *L'età dei diritti* (1990): diritti storici, problema della protezione"
+      ],
+      "collegamenti": [
+        {
+          "da": "norberto-bobbio",
+          "a": "diritti-umani",
+          "tipo": "interpreta",
+          "etichetta": "mostra la storicità dei"
+        },
+        {
+          "da": "formule-di-radbruch",
+          "a": "diritti-umani",
+          "tipo": "collegato",
+          "etichetta": "si affidano al contenuto dei"
+        }
+      ]
+    },
+    {
+      "id": "sovranita",
+      "oltre": "La sovranità designa il potere supremo all'interno di un ordinamento politico e la sua indipendenza verso l'esterno. Jean Bodin, nei *Sei libri della Repubblica* (**1576**), la definisce potere assoluto e perpetuo; [[thomas-hobbes|Hobbes]] e [[jean-jacques-rousseau|Rousseau]] la giustificano con teorie diverse del patto: il primo la attribuisce al sovrano, il secondo al popolo, come volontà generale inalienabile.\n\nSi usa collegare il sistema degli Stati sovrani alla pace di Vestfalia (1648), ma è una semplificazione: quel sistema si è formato lungo un periodo più ampio.\n\nLa Costituzione italiana attribuisce la sovranità al popolo, che la esercita «nelle forme e nei limiti della Costituzione» (art. 1), e consente limitazioni di sovranità necessarie a un ordinamento che assicuri pace e giustizia fra le Nazioni (art. 11): è la base giuridica della partecipazione all'[[unione-europea|Unione Europea]], cioè di quella [[sovranita-limitata|sovranità limitata]] di cui parla il corso.",
+      "daSapere": [
+        "Bodin, 1576: potere assoluto e perpetuo",
+        "Hobbes: sovranità del sovrano; Rousseau: sovranità del popolo",
+        "Art. 1 e art. 11 Cost.: sovranità popolare e sue limitazioni"
+      ],
+      "collegamenti": [
+        {
+          "da": "thomas-hobbes",
+          "a": "sovranita",
+          "tipo": "interpreta",
+          "etichetta": "attribuisce al sovrano assoluto la"
+        },
+        {
+          "da": "sovranita",
+          "a": "sovranita-limitata",
+          "tipo": "evolve-in",
+          "etichetta": "con la globalizzazione diventa"
+        },
+        {
+          "da": "sovranita",
+          "a": "stato",
+          "tipo": "parte-di",
+          "etichetta": "è un elemento costitutivo dello"
+        }
+      ]
+    },
+    {
+      "id": "stato",
+      "oltre": "In senso generale lo **Stato** è l'organizzazione politica di un popolo su un territorio, dotata di [[sovranita|sovranità]]: sono i tre elementi classici della dottrina di Georg Jellinek (*Dottrina generale dello Stato*, 1900). [[max-weber|Max Weber]] lo definisce come l'istituzione che rivendica con successo il **monopolio della forza fisica legittima**. La parola nel senso moderno si afferma con Machiavelli (*Il Principe*, scritto nel 1513); la teoria della sovranità con Jean Bodin (1576) e con [[thomas-hobbes|Hobbes]] (*[[leviatano|Leviatano]]*, 1651), per il quale lo Stato nasce da un patto.\n\nLe concezioni filosofiche divergono: per [[hegel|Hegel]] è la realtà dell'idea etica; per [[kelsen|Kelsen]] coincide con l'[[ordinamento-giuridico|ordinamento giuridico]], e parlare di uno Stato «dietro» il diritto è un doppione inutile. Storicamente si passa dallo Stato assoluto allo [[stato-di-diritto|Stato di diritto]] liberale e poi allo Stato sociale e costituzionale.",
+      "daSapere": [
+        "Elementi: popolo, territorio, sovranità (Jellinek, 1900)",
+        "Weber: monopolio della forza fisica legittima",
+        "Hobbes, *Leviatano* (1651); Kelsen: Stato = ordinamento"
+      ],
+      "collegamenti": [
+        {
+          "da": "kelsen",
+          "a": "stato",
+          "tipo": "interpreta",
+          "etichetta": "identifica con l'ordinamento giuridico lo"
+        },
+        {
+          "da": "thomas-hobbes",
+          "a": "stato",
+          "tipo": "interpreta",
+          "etichetta": "fonda sul patto sociale lo"
+        },
+        {
+          "da": "stato",
+          "a": "stato-nazione",
+          "tipo": "evolve-in",
+          "etichetta": "prende in età moderna la forma dello"
+        }
+      ]
+    },
+    {
+      "id": "platone",
+      "oltre": "Platone visse fra il V e il IV secolo a.C., tradizionalmente **427–347 a.C.** Fu allievo di Socrate e fondò ad Atene l'Accademia, dove studiò [[aristotele|Aristotele]]. Scrisse dialoghi su conoscenza, realtà, educazione, giustizia e organizzazione politica.\n\nNella *Repubblica* la giustizia è esaminata attraverso il rapporto tra anima e città: la città giusta è governata dai filosofi-custodi, e da qui nasce la domanda su chi controlli i custodi. Nel libro VII il **mito della caverna** descrive prigionieri che scambiano per realtà le ombre proiettate su una parete: conoscere davvero significa uscire dalla caverna, verso le idee. Nello stesso dialogo Platone critica i poeti e il teatro perché imitano le apparenze: è l'inizio della tradizione, ripresa da [[jean-jacques-rousseau|Rousseau]], che diffida dello [[spettatore]].\n\nNelle *Leggi*, opera della vecchiaia, il governo dei sapienti lascia più spazio al vincolo della legge.",
+      "daSapere": [
+        "427–347 a.C.; allievo di Socrate, maestro di Aristotele; Accademia",
+        "*Repubblica*: filosofi-custodi, mito della caverna (libro VII)",
+        "Critica dell'imitazione poetica e teatrale"
+      ],
+      "collegamenti": [
+        {
+          "da": "platone",
+          "a": "aristotele",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        },
+        {
+          "da": "platone",
+          "a": "spettatore",
+          "tipo": "interpreta",
+          "etichetta": "dà con la caverna la prima immagine dello"
+        }
+      ]
+    },
+    {
+      "id": "status-deontico",
+      "oltre": "Obbligatorio, vietato e permesso sono le [[modalita-deontica|modalità deontiche]] studiate dalla logica deontica, fondata da Georg Henrik von Wright con il saggio *Deontic Logic* (1951) e, negli stessi anni, da [[georges-kalinowski|Kalinowski]]. Come le modalità aletiche (necessario, possibile, impossibile), sono **interdefinibili**: il divieto di p equivale all'obbligo di non-p; il permesso di p equivale all'assenza dell'obbligo di non-p. Basta quindi un operatore, di solito O («è obbligatorio»), per definire gli altri.\n\n«Deontico» viene dal greco *déon*, «ciò che si deve», la stessa radice di *deontologia*, termine coniato da [[jeremy-bentham|Bentham]]. Oggi «status deontico» si usa anche nella filosofia sociale di [[john-searle|Searle]], per il quale le istituzioni attribuiscono **poteri deontici**: diritti, doveri, autorizzazioni.\n\nIl problema discusso negli appunti è se questi status esistano prima delle norme, come vuole il realismo di Kalinowski, o siano costituiti dall'enunciazione del legislatore.",
+      "daSapere": [
+        "*Déon* = il dovere, ciò che è necessario fare",
+        "Obbligo, divieto e permesso sono interdefinibili",
+        "Logica deontica: von Wright, *Deontic Logic* (1951)"
+      ],
+      "collegamenti": [
+        {
+          "da": "modalita-deontica",
+          "a": "status-deontico",
+          "tipo": "crea",
+          "etichetta": "qualifica un comportamento producendo uno"
+        },
+        {
+          "da": "georges-kalinowski",
+          "a": "status-deontico",
+          "tipo": "interpreta",
+          "etichetta": "considera precostituito alle norme lo"
+        }
+      ]
+    },
+    {
+      "id": "accidentalia-contractus",
+      "oltre": "### Le clausole che decidono le parti\nSono gli elementi che le parti possono aggiungere a un contratto senza cambiarne il tipo: la condizione (art. 1353 c.c.), il termine e il modo o onere. Se mancano, il contratto resta valido e appartiene allo stesso tipo; se ci sono, ne modificano gli effetti.\n\nUna volta inseriti, però, vincolano come il resto: non sono «accessori» nel senso di poco importanti. Una condizione sospensiva, per esempio, fa dipendere l'efficacia dell'intero contratto da un evento futuro e incerto. Vanno distinti dagli [[essentialia-negotii|essentialia negotii]], la cui mancanza fa venir meno il contratto o il tipo, e dai *naturalia*, effetti che la legge collega al tipo salvo patto contrario.",
+      "daSapere": [
+        "Esempi: condizione, termine, modo",
+        "La loro mancanza non cambia il tipo di contratto",
+        "Una volta pattuiti vincolano come le altre clausole"
+      ],
+      "collegamenti": [
+        {
+          "da": "accidentalia-contractus",
+          "a": "essentialia-negotii",
+          "tipo": "contrasta",
+          "etichetta": "si distinguono dagli"
+        }
+      ]
+    },
+    {
+      "id": "essentialia-negotii",
+      "oltre": "### Senza questi elementi il contratto non esiste\nLa tripartizione risale ai giuristi del diritto comune e fu sistemata dalla pandettistica tedesca: *essentialia* (elementi essenziali), *naturalia* (effetti che la legge collega al tipo salvo patto contrario) e *accidentalia* (clausole aggiunte dalle parti). [[emilio-betti|Betti]] la riprende nella *Teoria generale del negozio giuridico* (1943).\n\nNel diritto italiano l'art. 1325 c.c. elenca i requisiti di ogni contratto: accordo, causa, oggetto e forma, quando è richiesta a pena di nullità. Gli elementi essenziali del singolo tipo si aggiungono a questi: nella compravendita, la cosa e il prezzo. Se manca un requisito essenziale il contratto è nullo (art. 1418 c.c.).",
+      "daSapere": [
+        "Tripartizione: essentialia, naturalia, accidentalia",
+        "Art. 1325 c.c.: accordo, causa, oggetto, forma",
+        "Betti, *Teoria generale del negozio giuridico* (1943)"
+      ],
+      "collegamenti": [
+        {
+          "da": "emilio-betti",
+          "a": "essentialia-negotii",
+          "tipo": "interpreta",
+          "etichetta": "riprende nella teoria del negozio gli"
+        }
+      ]
+    },
+    {
+      "id": "metaregole",
+      "oltre": "### Regole sulle regole\nLe metaregole non dicono che cosa fare, ma come riconoscere, produrre o modificare le regole. In [[herbert-hart|Hart]] (*[[il-concetto-di-diritto|The Concept of Law]]*, 1961) corrispondono alle norme secondarie: di riconoscimento, di mutamento e di giudizio. In [[kelsen|Kelsen]] la catena delle norme che autorizzano altre norme termina nella [[grundnorm|norma fondamentale]].\n\n[[antonio-incampo|Incampo]] insiste sul fatto che le metaregole più importanti non sono poste ma presupposte: nessun legislatore ha scritto la [[norma-di-chiusura|norma di chiusura]], eppure senza di essa non si saprebbe quali comportamenti l'ordinamento lascia liberi.",
+      "daSapere": [
+        "Regole che riguardano altre regole",
+        "Hart: norme secondarie (riconoscimento, mutamento, giudizio)",
+        "Incampo: le più importanti sono presupposte, non poste"
+      ],
+      "collegamenti": [
+        {
+          "da": "norme-primarie-e-secondarie-hart",
+          "a": "metaregole",
+          "tipo": "esempio-di",
+          "etichetta": "offrono, con le norme secondarie, un esempio di"
+        }
+      ]
+    },
+    {
+      "id": "stato-di-diritto",
+      "oltre": "### Il potere sottoposto alle regole\nL'espressione traduce il tedesco *Rechtsstaat*, elaborato nell'Ottocento (Robert von Mohl). Indica uno Stato in cui l'amministrazione agisce secondo la legge (principio di legalità), i diritti dei cittadini sono garantiti da giudici indipendenti e i poteri sono separati. Nel mondo anglosassone si parla di *rule of law*.\n\nNon va confuso lo Stato di diritto «formale» dell'Ottocento, in cui basta che il potere agisca nelle forme della legge, con lo Stato costituzionale del secondo Novecento, in cui anche la legge è vincolata da principi superiori e controllata da una corte costituzionale. L'esperienza del [[terzo-reich|Terzo Reich]], nato rispettando le forme della [[legalita|legalità]], è una delle ragioni di questo passaggio.",
+      "daSapere": [
+        "*Rechtsstaat*, Ottocento tedesco; in inglese *rule of law*",
+        "Legalità, giudici indipendenti, separazione dei poteri",
+        "Stato di diritto formale ≠ Stato costituzionale"
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-di-diritto",
+          "a": "legalita",
+          "tipo": "collegato",
+          "etichetta": "si fonda sul principio di"
+        }
+      ]
+    },
+    {
+      "id": "felix-kaufmann",
+      "oltre": "Felix Kaufmann (Vienna 1895 – New York 1949) fu un filosofo del diritto e metodologo delle scienze sociali austriaco. Allievo di [[kelsen|Hans Kelsen]] a Vienna, appartenne alla scuola della dottrina pura del diritto, ma la combinò con la fenomenologia di [[edmund-husserl|Husserl]]; frequentò anche il Circolo di Vienna. Di origine ebraica, nel 1938 emigrò negli Stati Uniti e insegnò alla New School for Social Research di New York.\n\nOpere principali: *Logik und Rechtswissenschaft* («Logica e scienza del diritto», 1922), *Die Kriterien des Rechts* («I criteri del diritto», 1924), *Methodenlehre der Sozialwissenschaften* (1936).\n\nL'idea che [[antonio-incampo|Incampo]] riprende è che il giurista non trova i fenomeni giuridici «già fatti» nel mondo: un fatto diventa giuridico solo attraverso lo schema di qualificazione offerto dalle norme e, in ultima analisi, dalla [[grundnorm|norma fondamentale]].",
+      "daSapere": [
+        "Vienna 1895 – New York 1949; allievo di Kelsen, vicino a Husserl",
+        "*Logik und Rechtswissenschaft* (1922); *Die Kriterien des Rechts* (1924)"
+      ],
+      "collegamenti": [
+        {
+          "da": "kelsen",
+          "a": "felix-kaufmann",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        },
+        {
+          "da": "felix-kaufmann",
+          "a": "grundnorm",
+          "tipo": "interpreta",
+          "etichetta": "analizza la funzione costitutiva della"
+        },
+        {
+          "da": "edmund-husserl",
+          "a": "felix-kaufmann",
+          "tipo": "influenza",
+          "etichetta": "ispira la fenomenologia giuridica di"
+        }
+      ]
+    }
+  ]
 }

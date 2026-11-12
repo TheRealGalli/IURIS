@@ -1,179 +1,652 @@
 {
-  "voci": [],
-  "nuovi": [
+  "voci": [
     {
-      "id": "potere-prescrittivo-sanzionatorio",
-      "nome": "Potere prescrittivo-sanzionatorio",
-      "tipo": "concetto",
-      "breve": "Il potere che qualifica un comportamento come illecito e gli collega una sanzione, intervenendo dopo la violazione.",
-      "definizione": "È il modello di potere che il corso riconosce in [[kelsen|Kelsen]] e, pur nella diversa impostazione realistica, in [[alf-ross|Ross]]. La norma prescrive una condotta e predispone una conseguenza per chi la viola: l'intervento avviene **a valle** rispetto all'illecito e ha anche funzione deterrente. Si distingue dal [[potere-disciplinare|potere disciplinare]], che agisce a monte formando disposizioni e comportamenti."
+      "id": "hume",
+      "oltre": "David Hume (Edimburgo 1711–1776) è, con Locke e Berkeley, il grande nome dell'empirismo britannico: ogni conoscenza deriva dall'esperienza, e idee come quella di causa nascono dall'abitudine a vedere certi fatti seguirsi.\n\nIl passo che interessa i giuristi è nel *Trattato sulla natura umana* (1739–1740), libro III: Hume osserva che gli autori di morale passano senza avvertire da proposizioni con «è» a proposizioni con «deve», e chiede che di questo passaggio si dia una ragione. Da qui la [[legge-di-hume|legge di Hume]], o «grande divisione» tra fatti e valori: da premesse soltanto descrittive non si ricavano logicamente conclusioni prescrittive.\n\nKant disse che Hume lo aveva svegliato dal «sonno dogmatico». Nel Novecento la sua tesi è la base del [[non-cognitivismo-etico|non cognitivismo etico]] e della separazione kelseniana tra [[sein|essere]] e [[sollen|dover essere]].",
+      "daSapere": [
+        "1711–1776, empirista scozzese",
+        "*Trattato sulla natura umana* (1739–1740): passaggio da «è» a «deve»",
+        "Legge di Hume = grande divisione tra fatti e valori"
+      ],
+      "collegamenti": [
+        {
+          "da": "hume",
+          "a": "legge-di-hume",
+          "tipo": "crea",
+          "etichetta": "formula nel Trattato la"
+        },
+        {
+          "da": "hume",
+          "a": "kant",
+          "tipo": "influenza",
+          "etichetta": "risveglia dal sonno dogmatico"
+        }
+      ]
     },
     {
-      "id": "societa-disciplinare",
-      "nome": "Società disciplinare",
-      "tipo": "concetto",
-      "breve": "La società descritta da Foucault in cui istituzioni e dispositivi formano continuamente i comportamenti, oltre a punire gli illeciti.",
-      "definizione": "[[michel-foucault|Foucault]] affianca alla società regolata dal solo potere giuridico una società attraversata da pratiche di osservazione, correzione e [[normalizzazione]]. Scuola, caserma, fabbrica e carcere non si limitano a proibire: organizzano spazi e tempi e producono [[corpi-docili|corpi docili]]. Nel corso questa figura prepara il passaggio dall'[[ordinamento-giuridico|ordinamento]] alla [[governance]].",
-      "alias": ["società della disciplina", "società disciplinari"]
+      "id": "george-edward-moore",
+      "oltre": "George Edward Moore (1873–1958), professore a Cambridge, è con [[bertrand-russell|Russell]] tra gli iniziatori della filosofia analitica. Nei *Principia Ethica* (1903) sostiene che «buono» è una proprietà semplice e non definibile: chi lo identifica con una proprietà naturale (il piacevole, l'utile, ciò che favorisce l'evoluzione) commette la [[fallacia-naturalistica|fallacia naturalistica]].\n\nIl suo strumento è l'**argomento della domanda aperta**: di qualunque cosa definita buona perché, per esempio, piacevole, ha ancora senso chiedere «ma è davvero buona?»; quindi i due concetti non coincidono.\n\nLa tesi di Moore riguarda la definizione dei termini morali, quella di [[hume|Hume]] la deduzione del dover essere dall'essere: sono distinte, ma nei manuali di filosofia del diritto vengono di solito presentate insieme come obiezione al [[giusnaturalismo]].",
+      "daSapere": [
+        "1873–1958, Cambridge; *Principia Ethica* (1903)",
+        "«Buono» è indefinibile: argomento della domanda aperta",
+        "Fallacia naturalistica: definire il bene con proprietà naturali"
+      ],
+      "collegamenti": [
+        {
+          "da": "george-edward-moore",
+          "a": "fallacia-naturalistica",
+          "tipo": "crea",
+          "etichetta": "dà il nome alla"
+        },
+        {
+          "da": "george-edward-moore",
+          "a": "bertrand-russell",
+          "tipo": "collegato",
+          "etichetta": "fonda la filosofia analitica con"
+        }
+      ]
     },
     {
-      "id": "pratiche-di-soggettivazione",
-      "nome": "Pratiche di soggettivazione",
-      "tipo": "concetto",
-      "breve": "Pratiche con cui il soggetto lavora su di sé e costruisce un margine di libertà rispetto ai condizionamenti del potere.",
-      "definizione": "Nell'ultimo [[michel-foucault|Foucault]] indicano i modi in cui una persona si rapporta a sé e si costituisce come soggetto etico. Il corso le collega alle [[tecniche-del-se|tecniche del sé]] e alla possibilità di resistere all'omologazione disciplinare. Non cancellano il [[potere-disciplinare|potere disciplinare]], ma mostrano che la soggettività non è soltanto un effetto subito passivamente.",
-      "alias": ["pratica di soggettivazione"]
+      "id": "bertrand-russell",
+      "oltre": "Bertrand Russell (1872–1970), logico e filosofo inglese, premio Nobel per la letteratura nel 1950, scrisse con Alfred N. Whitehead i *Principia Mathematica* (1910–1913), tentativo di ricondurre la matematica alla logica.\n\nNel 1901 scoprì il paradosso che porta il suo nome: l'insieme di tutti gli insiemi che non appartengono a se stessi appartiene a se stesso? Se sì, no; se no, sì. La versione popolare è il **barbiere** che rade tutti e soli quelli che non si radono da sé. Per evitarlo Russell elabora la [[teoria-dei-tipi-logici|teoria dei tipi]]: un insieme sta a un livello superiore rispetto ai suoi elementi e non può contenere se stesso.\n\nÈ lo schema che il corso ritrova in [[kelsen|Kelsen]]: la norma che fonda la validità di tutte le norme non può essere una norma dello stesso livello.",
+      "daSapere": [
+        "1872–1970; *Principia Mathematica* (1910–1913) con Whitehead",
+        "Paradosso di Russell (1901) e paradosso del barbiere",
+        "Teoria dei tipi: una classe non è membro di se stessa"
+      ],
+      "collegamenti": [
+        {
+          "da": "bertrand-russell",
+          "a": "teoria-dei-tipi-logici",
+          "tipo": "crea",
+          "etichetta": "elabora la"
+        },
+        {
+          "da": "bertrand-russell",
+          "a": "paradosso-del-mentitore",
+          "tipo": "collegato",
+          "etichetta": "studia i paradossi dell'autoriferimento come il"
+        }
+      ]
     },
     {
-      "id": "estetica-dell-esistenza",
-      "nome": "Estetica dell'esistenza",
-      "tipo": "concetto",
-      "breve": "La cura di sé come elaborazione della propria vita, proposta dall'ultimo Foucault come forma di resistenza all'omologazione.",
-      "definizione": "L'espressione appartiene alla ricerca di [[michel-foucault|Foucault]] sulle [[tecniche-del-se|tecniche del sé]] e sulle [[pratiche-di-soggettivazione|pratiche di soggettivazione]]. La vita diventa materia di un lavoro consapevole su condotte, desideri e rapporti con gli altri. Nel corso è una risposta individuale al potere che costituisce i soggetti, non un programma collettivo di riforma delle istituzioni."
+      "id": "sigmund-freud",
+      "oltre": "Sigmund Freud (1856–1939), medico viennese, è il fondatore della psicoanalisi: una parte decisiva della vita psichica è inconscia, e si manifesta nei sogni (*L'interpretazione dei sogni*, 1899), nei lapsus e nei sintomi. Nella sua seconda teoria la psiche è divisa in Es, Io e Super-io: il **Super-io** è l'interiorizzazione dei divieti dei genitori e della società, cioè la legge che ciascuno porta dentro di sé.\n\nPer la filosofia del diritto contano soprattutto *Totem e tabù* (1913), che fa nascere legge e morale dal senso di colpa per l'uccisione del padre primordiale, e *Il disagio della civiltà* (1930): la civiltà si regge sulla rinuncia alle pulsioni.\n\n[[kelsen|Kelsen]], viennese come lui, frequentò il suo ambiente e discusse la sua psicologia delle masse in un saggio del 1922 sul concetto di Stato.",
+      "daSapere": [
+        "1856–1939, Vienna; fondatore della psicoanalisi",
+        "Es, Io, Super-io: la legge interiorizzata",
+        "*Totem e tabù* (1913); *Il disagio della civiltà* (1930)"
+      ],
+      "collegamenti": [
+        {
+          "da": "sigmund-freud",
+          "a": "jacques-lacan",
+          "tipo": "influenza",
+          "etichetta": "è il maestro a cui «ritorna»"
+        }
+      ]
     },
     {
-      "id": "parrhesia",
-      "nome": "Parrhesia",
-      "tipo": "concetto",
-      "breve": "Il dire la verità assumendosene il rischio, anche davanti al potere; pratica antica studiata dall'ultimo Foucault.",
-      "definizione": "Il termine greco indica il parlare franco. [[michel-foucault|Foucault]] studia il *parrhesiastes* come colui che dice ciò che ritiene vero legando la parola alla propria persona e accettandone il rischio. Nel corso è una delle [[pratiche-di-soggettivazione|pratiche di soggettivazione]] che aprono uno spazio critico davanti al potere, senza confondersi con la semplice libertà di esprimere un'opinione.",
-      "alias": ["dire la verità al potere", "parlare franco"]
+      "id": "tullio-ascarelli",
+      "oltre": "Tullio Ascarelli (Roma 1903–1959) è stato uno dei maggiori giuristi italiani del Novecento, studioso di diritto commerciale. Professore giovanissimo, dopo le leggi razziali del 1938 dovette lasciare l'Italia perché ebreo e insegnò a lungo in Brasile, a San Paolo; tornò nel dopoguerra.\n\nIl saggio *Antigone e Porzia* (1955) è un classico della teoria dell'interpretazione. Per Ascarelli il testo della legge non contiene già la norma: è l'interprete che, applicandolo ai casi, lo fa vivere e lo adegua a una realtà che cambia. L'interpretazione è perciò sempre in parte **creativa**, pur presentandosi come fedeltà al testo: è ciò che fa [[porzia|Porzia]], che vince restando dentro il contratto.\n\nSi oppone così al formalismo che vede nel giudice un semplice applicatore; le sue tesi anticipano la distinzione, oggi corrente, tra disposizione (il testo) e norma (il significato).",
+      "daSapere": [
+        "1903–1959; commercialista; esilio in Brasile dopo il 1938",
+        "*Antigone e Porzia* (1955)",
+        "L'interpretazione è creativa: il testo non contiene già la norma"
+      ],
+      "collegamenti": [
+        {
+          "da": "tullio-ascarelli",
+          "a": "interpretazione-giuridica",
+          "tipo": "interpreta",
+          "etichetta": "considera creativa l'"
+        },
+        {
+          "da": "tullio-ascarelli",
+          "a": "il-mercante-di-venezia",
+          "tipo": "interpreta",
+          "etichetta": "rilegge in chiave giuridica"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Ascarelli, Tullio, Encyclopaedia Judaica (encyclopedia.com)",
+          "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/ascarelli-tullio"
+        }
+      ]
     },
     {
-      "id": "storia-della-sessualita",
-      "nome": "Storia della sessualità",
-      "tipo": "opera",
-      "breve": "L'opera di Foucault che studia come discorsi e pratiche producano la sessualità moderna, oltre a reprimerla.",
-      "definizione": "[[michel-foucault|Foucault]] contesta l'idea che il potere moderno agisca sulla sessualità soltanto mediante silenzio e censura. Il primo volume, *La volontà di sapere* (1976), mostra invece una moltiplicazione di discorsi che incitano a parlare, classificare e confessare. Per il corso è un esempio decisivo del [[sapere-potere|sapere-potere]] e del carattere produttivo del [[potere-disciplinare|potere disciplinare]]."
+      "id": "jacques-lacan",
+      "oltre": "Jacques Lacan (1901–1981), psichiatra e psicoanalista francese, propose un «ritorno a [[sigmund-freud|Freud]]» letto con la linguistica strutturale: l'inconscio è strutturato come un linguaggio. Tenne per quasi trent'anni un Seminario a Parigi, pubblicato a cura del genero [[jacques-alain-miller|Jacques-Alain Miller]].\n\nDistingue tre registri: l'**immaginario** (le immagini in cui l'io si riconosce, a partire dallo «stadio dello specchio»), il **simbolico** (il linguaggio e la legge, in cui ogni soggetto entra accettando un limite) e il **reale** (ciò che resiste a ogni simbolizzazione).\n\nAll'*Antigone* dedica alcune lezioni del Seminario VII, *L'etica della psicoanalisi* (1959–1960): Antigone è la figura di chi non cede sul proprio desiderio e si pone così ai limiti dell'[[ordine-simbolico|ordine simbolico]], tra la vita e la morte.",
+      "daSapere": [
+        "1901–1981; «ritorno a Freud»",
+        "Immaginario, simbolico, reale",
+        "Seminario VII (1959–1960): lettura dell'Antigone"
+      ],
+      "collegamenti": [
+        {
+          "da": "jacques-lacan",
+          "a": "ordine-simbolico",
+          "tipo": "crea",
+          "etichetta": "teorizza l'"
+        },
+        {
+          "da": "jacques-alain-miller",
+          "a": "jacques-lacan",
+          "tipo": "collegato",
+          "etichetta": "è allievo ed editore di"
+        }
+      ]
     },
     {
-      "id": "jacques-alain-miller",
-      "nome": "Jacques-Alain Miller",
-      "tipo": "persona",
-      "breve": "Psicoanalista francese, allievo e genero di Lacan, citato nel corso per una lettura psicoanalitica del Panopticon.",
-      "definizione": "Nel percorso SSG compare prima della ripresa foucaultiana del [[panopticon|Panopticon]], per l'attenzione al disciplinamento come condizionamento anche psicologico. Il richiamo serve a distinguere il controllo esteriore dei comportamenti dalla sua interiorizzazione. [[michel-foucault|Foucault]] sviluppa il problema parlando della formazione dell'anima e dei [[corpi-docili|corpi docili]].",
-      "alias": ["Jacques Alain Miller", "Miller"]
+      "id": "max-weber",
+      "oltre": "Max Weber (1864–1920), giurista di formazione, è uno dei fondatori della sociologia. In *Economia e società* (postumo, 1922) definisce lo Stato come l'istituzione che detiene il **monopolio della forza fisica legittima** e distingue tre tipi di potere legittimo: **tradizionale** (si obbedisce perché si è sempre fatto così), **carismatico** (si obbedisce alle qualità straordinarie di un capo) e **legale-razionale** (si obbedisce a regole generali poste secondo procedure). Lo Stato moderno, con la sua burocrazia, appartiene al terzo tipo.\n\nPer il metodo chiede alle scienze sociali di **comprendere** (*verstehen*) il senso che gli attori danno alle proprie azioni, restando però avalutative, cioè senza giudizi di valore. È il problema che [[peter-winch|Winch]] e poi [[herbert-hart|Hart]] riprendono con il [[punto-di-vista-interno|punto di vista interno]].\n\n*L'etica protestante e lo spirito del capitalismo* (1904–1905) è la sua opera più nota.",
+      "daSapere": [
+        "1864–1920; *Economia e società* (1922)",
+        "Stato = monopolio della forza legittima",
+        "Potere tradizionale, carismatico, legale-razionale",
+        "Sociologia comprendente (*verstehen*) e avalutatività"
+      ],
+      "collegamenti": [
+        {
+          "da": "max-weber",
+          "a": "legittimita",
+          "tipo": "interpreta",
+          "etichetta": "distingue tre tipi di"
+        },
+        {
+          "da": "max-weber",
+          "a": "peter-winch",
+          "tipo": "influenza",
+          "etichetta": "anticipa con la sociologia comprendente"
+        }
+      ]
     },
     {
-      "id": "norma-individuale",
-      "nome": "Norma individuale",
-      "tipo": "concetto",
-      "breve": "La determinazione della regola generale sul caso concreto, prodotta attraverso l'uso e l'interpretazione della fattispecie.",
-      "definizione": "Nel percorso su [[herbert-hart|Hart]] nasce quando l'osservante applica una [[norma-giuridica|norma]] generale e astratta a una situazione determinata. L'[[interpretazione-giuridica|interpretazione]] specifica lo [[schema-semanticamente-aperto|schema semanticamente aperto]] senza identificarsi con una creazione arbitraria. La distinzione aiuta a capire perché usare una regola non significhi soltanto ripeterne il testo."
+      "id": "peter-winch",
+      "oltre": "Peter Winch (1926–1997), filosofo inglese, pubblicò nel 1958 *The Idea of a Social Science and its Relation to Philosophy*. Applicando l'ultimo [[wittgenstein|Wittgenstein]], sostiene che le azioni umane hanno senso solo dentro pratiche governate da regole («giochi linguistici», «forme di vita»): per capire che cosa sta facendo qualcuno bisogna conoscere la regola che segue, e il criterio per dire se la segue correttamente appartiene ai partecipanti, non all'osservatore.\n\nNe viene una critica alle scienze sociali che imitano le scienze naturali: registrare regolarità di comportamento dall'esterno non basta, perché non distingue chi segue una regola da chi ha soltanto un'abitudine.\n\n[[herbert-hart|Hart]], che lo cita in *The Concept of Law*, ne ricava la distinzione tra [[punto-di-vista-esterno|punto di vista esterno]] e [[punto-di-vista-interno|interno]] alle regole.",
+      "daSapere": [
+        "1926–1997; *The Idea of a Social Science* (1958)",
+        "Capire un'azione = conoscere la regola seguita",
+        "Fonte di Hart per il punto di vista interno"
+      ],
+      "collegamenti": [
+        {
+          "da": "wittgenstein",
+          "a": "peter-winch",
+          "tipo": "influenza",
+          "etichetta": "ispira con il seguire una regola"
+        },
+        {
+          "da": "peter-winch",
+          "a": "punto-di-vista-interno",
+          "tipo": "influenza",
+          "etichetta": "prepara la nozione di"
+        }
+      ]
     },
     {
-      "id": "significato-e-uso",
-      "nome": "Significato e uso",
-      "tipo": "concetto",
-      "breve": "Il nesso wittgensteiniano fra significato di un'espressione e suo impiego nelle pratiche linguistiche.",
-      "definizione": "Il richiamo a [[wittgenstein|Wittgenstein]] sposta l'attenzione da un significato interamente fissato in astratto agli usi condivisi del linguaggio. Nelle lezioni [[herbert-hart|Hart]] lo applica alla norma: gli osservanti ne determinano il senso utilizzandola e interpretandola nei casi concreti. Da qui derivano la [[norma-individuale|norma individuale]] e la possibilità di mutamenti interpretativi senza modificazione formale del testo."
+      "id": "spinoza",
+      "oltre": "Baruch Spinoza (Amsterdam 1632 – L'Aia 1677), di famiglia ebraica portoghese, fu espulso dalla comunità nel 1656 per le sue idee e visse molando lenti. Nell'*Etica dimostrata secondo l'ordine geometrico* (postuma, 1677) sostiene che esiste un'unica sostanza infinita, Dio ossia la natura: tutto ciò che esiste ne è un modo, e nulla sta fuori o sopra di essa. È il modello della filosofia dell'[[immanenza]].\n\nNel *Trattato teologico-politico* (1670, anonimo) difende la libertà di pensiero: il fine dello Stato è la libertà. Il diritto naturale di ciascuno si estende quanto la sua potenza; con il patto gli individui uniscono le loro potenze, e la democrazia è il regime più naturale perché nessuno trasferisce il proprio diritto in modo da non essere più consultato.\n\n[[gilles-deleuze|Deleuze]], che gli dedicò due libri, ne fa il maestro del [[piano-di-immanenza|piano di immanenza]].",
+      "daSapere": [
+        "1632–1677; *Etica* (1677), *Trattato teologico-politico* (1670)",
+        "*Deus sive Natura*: un'unica sostanza",
+        "Il diritto di ciascuno si estende quanto la sua potenza; democrazia"
+      ],
+      "collegamenti": [
+        {
+          "da": "spinoza",
+          "a": "deus-sive-natura",
+          "tipo": "crea",
+          "etichetta": "formula nell'Etica il"
+        },
+        {
+          "da": "spinoza",
+          "a": "gilles-deleuze",
+          "tipo": "influenza",
+          "etichetta": "è il filosofo di riferimento di"
+        }
+      ]
     },
     {
-      "id": "sociologia-descrittiva",
-      "nome": "Sociologia descrittiva",
-      "tipo": "concetto",
-      "breve": "Il metodo di Hart che chiarisce i concetti giuridici osservandone l'uso nelle pratiche sociali e linguistiche.",
-      "definizione": "[[herbert-hart|Hart]] presenta *The Concept of Law* come un saggio di sociologia descrittiva. Non prescrive come il diritto dovrebbe essere, ma ricostruisce concetti come obbligo, regola e validità a partire dalle pratiche dei partecipanti. Il [[punto-di-vista-interno-hart|punto di vista interno]] è essenziale: descrivere soltanto comportamenti esteriori perderebbe l'uso delle regole come standard di condotta e di critica."
+      "id": "kurt-godel",
+      "oltre": "Kurt Gödel (1906–1978), nato a Brno e formatosi a Vienna, dove frequentò il Circolo di Vienna, emigrò nel 1940 a Princeton, dove fu amico di Einstein.\n\nNel 1931 dimostrò i due **teoremi di incompletezza**. Primo: in ogni sistema formale coerente capace di esprimere l'aritmetica esistono proposizioni vere che il sistema non può dimostrare. Secondo: un tale sistema non può dimostrare dall'interno la propria coerenza. Cadeva così il programma di Hilbert di fondare tutta la matematica su un sistema completo e autosufficiente.\n\nI teoremi valgono per sistemi formali in senso tecnico: applicarli al diritto è un'**analogia**, usata a lezione per illustrare l'idea di [[kelsen|Kelsen]] che un ordinamento non può fondare la propria validità con una delle sue norme e ha bisogno di un presupposto, la [[grundnorm|norma fondamentale]].",
+      "daSapere": [
+        "1906–1978; Vienna, poi Princeton",
+        "1931: teoremi di incompletezza",
+        "Un sistema formale non dimostra dall'interno la propria coerenza"
+      ],
+      "collegamenti": [
+        {
+          "da": "kurt-godel",
+          "a": "neoempirismo-logico",
+          "tipo": "collegato",
+          "etichetta": "frequenta a Vienna il circolo del"
+        }
+      ]
     },
     {
-      "id": "convenzionalismo-giuridico",
-      "nome": "Convenzionalismo giuridico",
-      "tipo": "concetto",
-      "breve": "L'idea che criteri e istituzioni giuridiche poggino su pratiche condivise, non su proprietà naturali degli oggetti.",
-      "definizione": "Nel corso è illustrato dal [[metro-campione|metro campione]]: il campione non deve la propria funzione a una qualità autosufficiente, ma al suo impiego convenzionale. In [[herbert-hart|Hart]] le [[norme-di-riconoscimento|regole di riconoscimento]] rimandano a pratiche accettate e consentono di identificare il diritto del sistema. La convenzione non equivale a un contratto firmato da tutti né all'arbitrio del singolo."
+      "id": "jeremy-bentham",
+      "oltre": "Jeremy Bentham (Londra 1748–1832), giurista e riformatore, è il fondatore dell'[[utilitarismo]]: un'azione o una legge è giusta se produce «la massima felicità per il maggior numero», e piaceri e dolori si possono in linea di principio calcolare (*Introduzione ai principi della morale e della legislazione*, 1789).\n\nDa qui una critica radicale del diritto naturale: i diritti naturali della Dichiarazione francese sono per lui «sciocchezze sui trampoli»; esistono solo i diritti creati dalla legge. Il diritto è il **comando del sovrano**, tesi che il suo allievo John Austin svilupperà nel positivismo giuridico inglese e che [[herbert-hart|Hart]] criticherà. Bentham chiedeva la codificazione del *common law* e una pena proporzionata e utile.\n\nIl [[panopticon|Panopticon]] (1791), progettato con il fratello Samuel, è un edificio circolare con una torre centrale da cui un solo sorvegliante può vedere tutti senza essere visto.",
+      "daSapere": [
+        "1748–1832; padre dell'utilitarismo",
+        "«La massima felicità per il maggior numero»",
+        "Diritto come comando del sovrano; critica dei diritti naturali",
+        "Panopticon: progetto del 1791"
+      ],
+      "collegamenti": [
+        {
+          "da": "jeremy-bentham",
+          "a": "utilitarismo",
+          "tipo": "crea",
+          "etichetta": "fonda l'"
+        },
+        {
+          "da": "jeremy-bentham",
+          "a": "panopticon",
+          "tipo": "crea",
+          "etichetta": "progetta il"
+        }
+      ]
     },
     {
-      "id": "insurrezione",
-      "nome": "Insurrezione",
-      "tipo": "concetto",
-      "breve": "Il rifiuto dei principi che identificano un ordinamento, distinto dalla singola violazione delle sue regole.",
-      "definizione": "Nella metafora del [[gioco-sociale|gioco sociale]] il criminale resta dentro il gioco pur violandone una regola; l'insorto contesta i criteri che lo definiscono. Il contrasto chiarisce il ruolo delle [[norme-di-riconoscimento|regole di riconoscimento]] in [[herbert-hart|Hart]]: non basta osservare una condotta deviante per capire se essa presupponga ancora il sistema o miri a sostituirlo."
+      "id": "jacques-derrida",
+      "oltre": "Jacques Derrida (El Biar, Algeria, 1930 – Parigi 2004) è il filosofo della **decostruzione**: leggere un testo mostrando le opposizioni su cui si regge (voce/scrittura, presenza/assenza, originale/copia) e come il termine svalutato sia in realtà indispensabile all'altro. Opere principali: *Della grammatologia* e *La scrittura e la differenza* (1967).\n\nLa sua tesi sulla **scrittura** spiega la polemica con [[john-searle|Searle]] negli anni Settanta: un atto linguistico funziona solo perché può essere ripetuto e citato fuori dal contesto e dall'intenzione di chi lo compie (*iterabilità*); la traccia conta più dell'intenzione. [[maurizio-ferraris|Ferraris]] ne ricava la [[documentalita|documentalità]].\n\nPer i giuristi sono importanti *Forza di legge* (1990), dove distingue il diritto, che si può decostruire, dalla giustizia, che non si può, e *Spettri di Marx* (1993).",
+      "daSapere": [
+        "1930–2004; decostruzione",
+        "*Della grammatologia* (1967): primato della traccia scritta",
+        "Polemica con Searle sugli atti linguistici",
+        "*Forza di legge* (1990): diritto e giustizia"
+      ],
+      "collegamenti": [
+        {
+          "da": "jacques-derrida",
+          "a": "decostruzionismo",
+          "tipo": "crea",
+          "etichetta": "è il padre del"
+        },
+        {
+          "da": "jacques-derrida",
+          "a": "maurizio-ferraris",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        }
+      ]
     },
     {
-      "id": "il-concetto-di-diritto",
-      "nome": "Il concetto di diritto",
-      "tipo": "opera",
-      "breve": "L'opera di Hart del 1961 che ricostruisce il diritto come unione di regole primarie e secondarie.",
-      "definizione": "*The Concept of Law* è il testo centrale di [[herbert-hart|Hart]]. Il libro critica il modello del diritto come ordine sostenuto dalla minaccia e sviluppa il [[punto-di-vista-interno-hart|punto di vista interno]], le [[norme-di-riconoscimento|regole di riconoscimento]] e il [[contenuto-minimo-di-diritto-naturale|contenuto minimo di diritto naturale]]. Nel corso è anche il riferimento per lo [[schema-semanticamente-aperto|schema semanticamente aperto]] e la [[sociologia-descrittiva|sociologia descrittiva]].",
-      "alias": ["The Concept of Law"]
+      "id": "edmund-husserl",
+      "oltre": "Edmund Husserl (1859–1938), matematico di formazione, è il fondatore della **fenomenologia**: un metodo che descrive le cose così come si danno alla coscienza, mettendo tra parentesi (*epoché*) i presupposti del senso comune e delle scienze. Il concetto centrale è l'**intenzionalità**, ripreso dal suo maestro Franz Brentano: la coscienza è sempre coscienza *di* qualcosa.\n\nOpere principali: *Ricerche logiche* (1900–1901), *Idee per una fenomenologia pura* (1913), *La crisi delle scienze europee* (1936), dove compare il «mondo della vita» (*Lebenswelt*), poi ripreso da [[jurgen-habermas|Habermas]]. Di origine ebraica, fu allontanato dall'università sotto il nazismo.\n\nTra i suoi allievi [[martin-heidegger|Heidegger]] e [[adolf-reinach|Reinach]], che applicò il metodo al diritto studiando la promessa. [[john-searle|Searle]] usa «intenzionalità» in un senso vicino ma autonomo.",
+      "daSapere": [
+        "1859–1938; fondatore della fenomenologia",
+        "Intenzionalità: la coscienza è sempre coscienza di qualcosa",
+        "*Ricerche logiche* (1900–1901); *Lebenswelt* nella *Crisi* (1936)"
+      ],
+      "collegamenti": [
+        {
+          "da": "edmund-husserl",
+          "a": "martin-heidegger",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        },
+        {
+          "da": "edmund-husserl",
+          "a": "adolf-reinach",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        }
+      ]
     },
     {
-      "id": "realta-istituzionale",
-      "nome": "Realtà istituzionale",
-      "tipo": "concetto",
-      "breve": "La parte della realtà sociale che esiste grazie a status, regole e poteri riconosciuti collettivamente.",
-      "definizione": "Per [[john-searle|Searle]] comprende denaro, matrimoni, governi, diritti e altri fatti che non si esauriscono nelle loro basi materiali. La formula [[x-conta-come-y-in-c|«X conta come Y in C»]] spiega l'attribuzione di uno status entro un contesto, mentre l'[[intenzionalita-collettiva|intenzionalità collettiva]] ne sorregge il riconoscimento. Il diritto è una regione particolarmente organizzata di questa realtà."
+      "id": "karl-marx",
+      "oltre": "Karl Marx (Treviri 1818 – Londra 1883) studiò giurisprudenza e filosofia a Bonn e Berlino. Giovane giornalista della «Gazzetta renana», nel 1842 commentò i dibattiti della Dieta renana sulla legge contro i **furti di legna**: raccogliere la legna caduta era un uso antico dei poveri, e la nuova legge lo trasformava in reato a tutela dei proprietari dei boschi. Marx racconterà che proprio questi casi lo spinsero a occuparsi di questioni economiche.\n\nNe nasce il **materialismo storico**: i rapporti di produzione sono la «struttura» della società; diritto, Stato e idee ne sono la «sovrastruttura» e ne riflettono i rapporti di forza. Il diritto eguale borghese tratta come eguali individui che non lo sono.\n\nOpere: *Manifesto del partito comunista* (1848, con Engels), *Il capitale* (libro I, 1867). L'espressione «materialismo dialettico» si deve in realtà a Engels e ai marxisti successivi.",
+      "daSapere": [
+        "1818–1883; studi giuridici a Bonn e Berlino",
+        "1842: articoli sulla legge contro i furti di legna",
+        "Struttura economica e sovrastruttura giuridica",
+        "*Manifesto* (1848); *Il capitale* (1867)"
+      ],
+      "collegamenti": [
+        {
+          "da": "karl-marx",
+          "a": "materialismo-dialettico",
+          "tipo": "crea",
+          "etichetta": "pone le basi del"
+        },
+        {
+          "da": "hegel",
+          "a": "karl-marx",
+          "tipo": "influenza",
+          "etichetta": "fornisce la dialettica a"
+        }
+      ]
     },
     {
-      "id": "ontologia-giuridica",
-      "nome": "Ontologia giuridica",
-      "tipo": "concetto",
-      "breve": "Lo studio delle condizioni di esistenza degli atti, delle norme e degli altri oggetti propri del diritto.",
-      "definizione": "È l'applicazione dell'[[ontologia-sociale|ontologia sociale]] al campo giuridico. Domanda che cosa renda possibile una promessa vincolante, una sentenza o una norma, senza ridurli ai soli supporti fisici. Nel percorso su [[john-searle|Searle]] il problema è affrontato mediante i [[fatti-bruti-e-istituzionali|fatti istituzionali]] e le [[funzioni-agentive-di-status|funzioni di status]]."
+      "id": "friedrich-von-hayek",
+      "oltre": "Friedrich August von Hayek (Vienna 1899 – Friburgo 1992), economista della scuola austriaca, insegnò alla London School of Economics e a Chicago; premio Nobel per l'economia nel 1974. In *La via della schiavitù* (1944) sostiene che la pianificazione economica porta alla perdita delle libertà.\n\nLa sua tesi di fondo riguarda la **conoscenza**: le informazioni necessarie a coordinare una società sono disperse tra milioni di persone e nessuna autorità può raccoglierle; il sistema dei prezzi le trasmette da solo. Per questo distingue l'ordine spontaneo (*kosmos*) dall'organizzazione costruita per uno scopo (*taxis*).\n\nIn *Legge, legislazione e libertà* (1973–1979) applica la distinzione al diritto: le regole di giusta condotta (*nomos*) si formano per evoluzione, come nel *common law*, e sono generali e astratte; la legislazione (*thesis*) è il comando di chi organizza. Lo Stato deve garantire le prime, non dirigere l'economia.",
+      "daSapere": [
+        "1899–1992; Nobel per l'economia 1974",
+        "*La via della schiavitù* (1944)",
+        "Conoscenza dispersa; *kosmos* e *taxis*",
+        "*Legge, legislazione e libertà* (1973–1979)"
+      ],
+      "collegamenti": [
+        {
+          "da": "friedrich-von-hayek",
+          "a": "ordine-spontaneo",
+          "tipo": "crea",
+          "etichetta": "teorizza l'"
+        },
+        {
+          "da": "friedrich-von-hayek",
+          "a": "neoliberismo",
+          "tipo": "influenza",
+          "etichetta": "è tra gli ispiratori del"
+        }
+      ]
     },
     {
-      "id": "diritto-ed-economia",
-      "nome": "Diritto ed economia",
-      "tipo": "concetto",
-      "breve": "L'area di studi che analizza regole e istituzioni giuridiche attraverso incentivi, costi, efficienza e conseguenze economiche.",
-      "definizione": "Nel quadro delle teorie postmoderne il diritto non viene isolato come un sapere puro, ma letto insieme ai processi economici. L'analisi può riguardare gli effetti di una regola, i costi delle transazioni o l'organizzazione delle imprese. Il collegamento con [[oliver-williamson|Williamson]] e la [[governance]] mostra anche il passaggio inverso: categorie economiche diventano modelli per comprendere il diritto.",
-      "alias": ["Law and Economics", "analisi economica del diritto"]
+      "id": "gilles-deleuze",
+      "oltre": "Gilles Deleuze (Parigi 1925–1995) cominciò con monografie su Hume, Nietzsche, Bergson e [[spinoza|Spinoza]], poi espose una filosofia propria in *Differenza e ripetizione* (1968): pensare la differenza senza ridurla a un'identità che la preceda.\n\nCon lo psicoanalista [[felix-guattari|Félix Guattari]] scrisse *L'anti-Edipo* (1972) e *[[mille-piani|Mille piani]]* (1980), i due volumi di *Capitalismo e schizofrenia*: qui compaiono il [[rizoma]] (una rete senza centro, opposta all'albero con radice e tronco) e il piano di immanenza.\n\nPer i giuristi è prezioso il breve *Poscritto sulle società di controllo* (1990): alle società disciplinari descritte dall'amico [[michel-foucault|Foucault]], fatte di luoghi chiusi (scuola, fabbrica, prigione), succedono società in cui il controllo è continuo, all'aperto, affidato a codici e tecnologie.",
+      "daSapere": [
+        "1925–1995; *Differenza e ripetizione* (1968)",
+        "Con Guattari: *L'anti-Edipo* (1972), *Mille piani* (1980)",
+        "Rizoma contro albero",
+        "*Poscritto sulle società di controllo* (1990)"
+      ],
+      "collegamenti": [
+        {
+          "da": "gilles-deleuze",
+          "a": "rizoma",
+          "tipo": "crea",
+          "etichetta": "propone con Guattari il"
+        },
+        {
+          "da": "gilles-deleuze",
+          "a": "societa-disciplinare",
+          "tipo": "interpreta",
+          "etichetta": "vede succedere le società di controllo alla"
+        }
+      ]
     },
     {
-      "id": "femminismo-giuridico",
-      "nome": "Femminismo giuridico",
-      "tipo": "concetto",
-      "breve": "Il campo critico che esamina come diritto e istituzioni producano o riproducano differenze e gerarchie di genere.",
-      "definizione": "Non si limita a chiedere l'uguaglianza formale fra uomini e donne: interroga categorie, linguaggi e pratiche che possono incorporare un punto di vista parziale. Nelle lezioni è collocato fra gli approcci che decostruiscono il discorso giuridico a partire dalla differenza sessuale. Il richiamo al carcere femminile e a [[orange-is-the-new-black|*Orange Is the New Black*]] mostra anche il ruolo delle rappresentazioni nella conoscenza delle istituzioni."
+      "id": "guy-debord",
+      "oltre": "Guy Debord (Parigi 1931–1994), scrittore e cineasta, fondò nel 1957 l'Internazionale situazionista, gruppo d'avanguardia che voleva superare l'arte trasformando la vita quotidiana, e che influenzò il Maggio francese del 1968.\n\n*La società dello spettacolo* (1967) è composta di 221 tesi. La prima riscrive l'inizio del *Capitale* di [[karl-marx|Marx]]: tutta la vita delle società moderne si presenta come un'immensa accumulazione di spettacoli. Lo spettacolo non è un insieme di immagini, ma «un rapporto sociale tra persone mediato dalle immagini»: è lo stadio in cui la merce ha occupato l'intera vita sociale.\n\nDebord distingue lo spettacolare **concentrato** (regimi burocratici e dittature, intorno a un capo) e **diffuso** (democrazie dei consumi); nei *Commentari* del 1988 aggiunge lo spettacolare **integrato**, che li combina. Dal libro trasse un film nel 1973.",
+      "daSapere": [
+        "1931–1994; Internazionale situazionista (1957–1972)",
+        "*La società dello spettacolo* (1967), 221 tesi",
+        "Spettacolo = rapporto sociale mediato da immagini",
+        "Concentrato, diffuso e (1988) integrato"
+      ],
+      "collegamenti": [
+        {
+          "da": "guy-debord",
+          "a": "situazionismo",
+          "tipo": "crea",
+          "etichetta": "fonda il"
+        },
+        {
+          "da": "karl-marx",
+          "a": "guy-debord",
+          "tipo": "influenza",
+          "etichetta": "offre la critica della merce a"
+        }
+      ]
     },
     {
-      "id": "law-in-film",
-      "nome": "Law in film",
-      "tipo": "concetto",
-      "breve": "Lo studio delle rappresentazioni cinematografiche del diritto, dei processi, dei giuristi e delle istituzioni.",
-      "definizione": "È il primo dei tre approcci del [[law-and-film|Law and Film]]. Può avere funzione didattica, perché favorisce un approccio empatico ai casi; critica, quando il cinema discute apparati e categorie giuridiche; epistemologica, quando offre immagini di luoghi normalmente sottratti all'esperienza diretta. Le rappresentazioni non vanno però confuse con una documentazione neutrale della realtà."
+      "id": "jacques-ranciere",
+      "oltre": "Jacques Rancière (Algeri, 1940), allievo di Louis Althusser, se ne staccò dopo il 1968 criticando l'idea che gli intellettuali debbano spiegare agli oppressi la loro condizione.\n\nIn *Il maestro ignorante* (1987) racconta l'esperienza del pedagogo Joseph Jacotot e ne ricava il principio dell'**eguaglianza delle intelligenze**: l'eguaglianza non è un traguardo, ma il punto di partenza da presupporre. In *Il disaccordo* (1995) distingue la «polizia», cioè l'ordine che assegna a ciascuno il suo posto, dalla «politica», che nasce quando chi non conta prende la parola.\n\n*[[lo-spettatore-emancipato|Lo spettatore emancipato]]* (2008) applica queste tesi a chi guarda: opporre l'attività dell'attore alla passività del pubblico è lo stesso pregiudizio che oppone il maestro all'ignorante. Guardare è già interpretare. È una risposta diretta a [[guy-debord|Debord]] e alla tradizione che viene da [[platone|Platone]].",
+      "daSapere": [
+        "Nato nel 1940; allievo di Althusser",
+        "*Il maestro ignorante* (1987): eguaglianza delle intelligenze",
+        "*Il disaccordo* (1995): polizia e politica",
+        "*Lo spettatore emancipato* (2008)"
+      ],
+      "collegamenti": [
+        {
+          "da": "jacques-ranciere",
+          "a": "lo-spettatore-emancipato",
+          "tipo": "crea",
+          "etichetta": "scrive"
+        },
+        {
+          "da": "jacques-ranciere",
+          "a": "guy-debord",
+          "tipo": "contrasta",
+          "etichetta": "critica la visione dello spettatore di"
+        }
+      ]
     },
     {
-      "id": "law-as-film",
-      "nome": "Law as film",
-      "tipo": "concetto",
-      "breve": "La lettura del diritto come rappresentazione: atti, processi e prove sono costruiti e organizzati davanti a un pubblico.",
-      "definizione": "Il secondo approccio del [[law-and-film|Law and Film]] considera la [[messa-in-scena|messa in scena]] del processo, la narrazione degli atti e il [[montaggio]] delle prove. La prospettiva riguarda il funzionamento del diritto, non soltanto il suo riflesso nei film. Il [[visual-legal-realism|visual legal realism]] aggiunge che la forza percepita della norma dipende anche dalle immagini attraverso cui il pubblico la conosce."
+      "id": "jean-francois-lyotard",
+      "oltre": "Jean-François Lyotard (Versailles 1924 – Parigi 1998) scrisse *La condizione postmoderna. Rapporto sul sapere* (1979) su incarico del governo del Québec, come studio sullo stato del sapere nelle società informatizzate.\n\nLa tesi: il sapere moderno si legittimava con **metanarrazioni**, grandi racconti che davano un senso e un fine alla storia (l'emancipazione dell'umanità nell'Illuminismo, il cammino dello Spirito in [[hegel|Hegel]], la società senza classi nel marxismo). Il postmoderno è «l'incredulità nei confronti delle metanarrazioni». Restano molti giochi linguistici diversi, ciascuno con regole proprie, e il sapere tende a essere giudicato per la sua efficienza («performatività»).\n\nIn *Il dissidio* (1983) chiama così il conflitto che non si può decidere equamente perché manca una regola comune alle due parti: un tema vicino a quello di [[antigone|Antigone]].",
+      "daSapere": [
+        "1924–1998; *La condizione postmoderna* (1979)",
+        "Postmoderno = incredulità verso le metanarrazioni",
+        "Pluralità dei giochi linguistici; *Il dissidio* (1983)"
+      ],
+      "collegamenti": [
+        {
+          "da": "jean-francois-lyotard",
+          "a": "la-condizione-postmoderna",
+          "tipo": "crea",
+          "etichetta": "scrive"
+        },
+        {
+          "da": "jean-francois-lyotard",
+          "a": "grandi-narrazioni",
+          "tipo": "interpreta",
+          "etichetta": "dichiara la fine delle"
+        }
+      ]
     },
     {
-      "id": "film-as-law",
-      "nome": "Film as law",
-      "tipo": "concetto",
-      "breve": "Lo studio del cinema come forza normativa capace di formare aspettative, modelli di condotta e rappresentazioni della giustizia.",
-      "definizione": "Il terzo approccio del [[law-and-film|Law and Film]] attribuisce alle immagini un ruolo nella produzione della cultura giuridica. Il cinema può influenzare giuristi, giurie, opinione pubblica e legislatore, come mostrano nel corso [[attrazione-fatale|*Attrazione fatale*]] e il [[poliziottesco]]. Riconoscere questo potere non significa equiparare formalmente un film a una legge."
+      "id": "john-locke",
+      "oltre": "John Locke (1632–1704), medico e filosofo inglese, è il padre dell'empirismo moderno (*Saggio sull'intelletto umano*, 1690) e del liberalismo politico.\n\nNel secondo dei *Due trattati sul governo* (1690) lo stato di natura non è, come in [[thomas-hobbes|Hobbes]], guerra di tutti contro tutti: gli uomini vi hanno già diritti naturali alla **vita, alla libertà e alla proprietà**, che nasce dal lavoro. Manca però un giudice imparziale. Con il patto gli individui non cedono i loro diritti: affidano al governo il compito di proteggerli. Il potere è quindi **limitato**, diviso (legislativo ed esecutivo) e fondato sul consenso; se tradisce il mandato, il popolo ha diritto di resistere.\n\nLa *Lettera sulla tolleranza* (1689) separa Stato e Chiese. Le sue idee ispirano la Dichiarazione d'indipendenza americana del 1776.",
+      "daSapere": [
+        "1632–1704; *Due trattati sul governo* (1690)",
+        "Diritti naturali: vita, libertà, proprietà",
+        "Governo limitato, consenso, diritto di resistenza",
+        "*Lettera sulla tolleranza* (1689)"
+      ],
+      "collegamenti": [
+        {
+          "da": "john-locke",
+          "a": "contrattualismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il teorico liberale del"
+        },
+        {
+          "da": "john-locke",
+          "a": "liberalismo-classico",
+          "tipo": "crea",
+          "etichetta": "pone le basi del"
+        }
+      ]
     },
     {
-      "id": "epistemologia-filmica",
-      "nome": "Epistemologia filmica",
-      "tipo": "concetto",
-      "breve": "L'analisi del cinema come fonte di conoscenza di ambienti e pratiche giuridiche non direttamente accessibili.",
-      "definizione": "Il carcere è l'esempio centrale: per molti spettatori la sua immagine deriva soprattutto da film e serie televisive. L'epistemologia filmica studia questa mediazione, senza presumere che lo schermo restituisca la realtà senza selezioni. Si collega al [[law-in-film|law in film]] e al [[visual-legal-realism|visual legal realism]], perché ciò che si conosce attraverso le immagini può orientare anche il giudizio sulle istituzioni."
+      "id": "jurgen-habermas",
+      "oltre": "Jürgen Habermas (Düsseldorf, 1929) è il maggiore esponente della seconda generazione della Scuola di Francoforte. Nella *Teoria dell'agire comunicativo* (1981) distingue l'agire **strumentale**, orientato al successo, dall'agire **comunicativo**, orientato all'intesa tra parlanti.\n\nLa società ha due facce: il **mondo della vita**, lo sfondo di significati condivisi in cui ci si intende parlando, e i **sistemi** (economia e amministrazione), coordinati da denaro e potere. La «colonizzazione» avviene quando i sistemi invadono ambiti che vivono di intesa, come famiglia e scuola; la **giuridificazione** (*Verrechtlichung*), cioè l'aumento delle materie regolate dal diritto, ne è uno strumento ambivalente, perché tutela e insieme burocratizza.\n\nIn *Fatti e norme* (1992) il diritto è legittimo solo se nasce da procedure democratiche di discussione a cui tutti gli interessati possano partecipare.",
+      "daSapere": [
+        "Nato nel 1929; Scuola di Francoforte",
+        "*Teoria dell'agire comunicativo* (1981): sistema e mondo della vita",
+        "Giuridificazione (*Verrechtlichung*)",
+        "*Fatti e norme* (1992): democrazia deliberativa"
+      ],
+      "collegamenti": [
+        {
+          "da": "jurgen-habermas",
+          "a": "axel-honneth",
+          "tipo": "influenza",
+          "etichetta": "è il maestro di"
+        },
+        {
+          "da": "edmund-husserl",
+          "a": "jurgen-habermas",
+          "tipo": "influenza",
+          "etichetta": "fornisce la nozione di mondo della vita a"
+        }
+      ]
     },
     {
-      "id": "cerchio-magico-del-diritto",
-      "nome": "Cerchio magico del diritto",
-      "tipo": "concetto",
-      "breve": "L'insieme degli operatori e dei partecipanti specialistici che usano direttamente il linguaggio e le procedure giuridiche.",
-      "definizione": "L'espressione è associata nel corso a [[lawrence-friedman|Lawrence M. Friedman]] e serve a distinguere gli addetti ai lavori dal pubblico esterno. Letteratura e cinema permettono a chi sta fuori dal cerchio di formarsi una conoscenza del diritto, ma attraverso rappresentazioni selezionate. Il problema investe la [[cultura-giuridica-esterna|cultura giuridica esterna]] e i luoghi istituzionali interdetti allo sguardo ordinario."
+      "id": "sofocle",
+      "oltre": "Sofocle (Colono, circa 496 – Atene 406 a.C.) è, con Eschilo ed Euripide, uno dei tre grandi tragici ateniesi. Ci restano sette tragedie intere, tra cui *Antigone* (rappresentata intorno al 442 a.C.), *Edipo re* ed *Edipo a Colono*. Fu anche uomo pubblico: stratego accanto a Pericle.\n\nLa tragedia era un evento civico, rappresentato davanti alla città durante le feste di Dioniso: metteva in scena conflitti che la polis non sapeva risolvere. Nell'*Antigone* la protagonista oppone all'editto le «leggi non scritte e incrollabili degli dei», che «non sono di oggi né di ieri, ma vivono da sempre»: è il passo che la tradizione legge come prima formulazione del [[diritto-naturale|diritto naturale]].\n\nMa anche [[creonte|Creonte]] ha le sue ragioni, la salvezza della città: per [[hegel|Hegel]] il tragico sta nello scontro tra due diritti entrambi legittimi e unilaterali.",
+      "daSapere": [
+        "Circa 496–406 a.C.; Atene",
+        "*Antigone* (circa 442 a.C.), *Edipo re*",
+        "Le «leggi non scritte» degli dei",
+        "Hegel: scontro tra due diritti unilaterali"
+      ],
+      "collegamenti": [
+        {
+          "da": "sofocle",
+          "a": "antigone",
+          "tipo": "crea",
+          "etichetta": "porta sulla scena"
+        },
+        {
+          "da": "sofocle",
+          "a": "creonte",
+          "tipo": "crea",
+          "etichetta": "porta sulla scena"
+        }
+      ]
     },
     {
-      "id": "effetto-csi",
-      "nome": "Effetto CSI",
-      "tipo": "concetto",
-      "breve": "L'espressione con cui si discute l'influenza delle serie forensi sulle aspettative del pubblico verso le prove scientifiche.",
-      "definizione": "Nel corso segnala il rischio di attribuire alle prove tecniche una certezza automatica per abitudine alle rappresentazioni televisive. Anche un risultato scientifico richiede selezione, contesto e [[interpretazione-giuridica|interpretazione]], come ogni elemento valutato nel processo. Il tema appartiene al [[law-as-film|law as film]] e ricorda che immagini e montaggio non eliminano il problema della prova."
+      "id": "william-shakespeare",
+      "oltre": "William Shakespeare (Stratford-upon-Avon 1564–1616) è il maggiore drammaturgo inglese. Scrisse circa trentasette drammi tra commedie, tragedie e drammi storici; *Il mercante di Venezia* è composto intorno al 1596–1598.\n\nIl suo teatro è pieno di diritto: contratti e garanzie nel *Mercante*, il rigore di una legge dimenticata e riesumata in *Misura per misura*, la legittimità del re e la deposizione nel *Riccardo II*, il processo e la follia in *Re Lear*. Nell'Inghilterra elisabettiana le scuole dei giuristi di Londra, gli *Inns of Court*, erano anche luoghi di spettacolo.\n\nPer questo è l'autore più studiato dal movimento [[law-and-literature|Law and Literature]]: il discorso di [[porzia|Porzia]] sulla clemenza («la qualità della misericordia non si impone…») è un classico della retorica giudiziaria.",
+      "daSapere": [
+        "1564–1616; drammaturgo inglese",
+        "*Il mercante di Venezia* (circa 1596–1598)",
+        "Diritto in scena: *Misura per misura*, *Riccardo II*",
+        "Autore centrale per Law and Literature"
+      ],
+      "collegamenti": [
+        {
+          "da": "william-shakespeare",
+          "a": "il-mercante-di-venezia",
+          "tipo": "crea",
+          "etichetta": "scrive"
+        },
+        {
+          "da": "william-shakespeare",
+          "a": "porzia",
+          "tipo": "crea",
+          "etichetta": "porta sulla scena"
+        },
+        {
+          "da": "law-and-literature",
+          "a": "william-shakespeare",
+          "tipo": "interpreta",
+          "etichetta": "studia il diritto nel teatro di"
+        }
+      ]
     },
     {
-      "id": "fuoricampo",
-      "nome": "Fuoricampo",
-      "tipo": "concetto",
-      "breve": "Ciò che resta fuori dall'immagine inquadrata ma può essere essenziale per comprendere la scena rappresentata.",
-      "definizione": "Nel cinema è lo spazio non visibile entro i margini dell'inquadratura. Nelle lezioni diventa un avvertimento per l'uso processuale delle immagini: ogni sequenza seleziona che cosa mostrare e che cosa escludere, e il [[montaggio]] organizza il significato del visibile. Valutare una prova visiva richiede quindi attenzione anche al contesto non mostrato."
+      "id": "jean-jacques-rousseau",
+      "oltre": "Jean-Jacques Rousseau (Ginevra 1712 – Ermenonville 1778) è il terzo grande teorico del contratto sociale dopo [[thomas-hobbes|Hobbes]] e [[john-locke|Locke]]. Nel *Discorso sull'origine della disuguaglianza* (1755) l'uomo naturale è buono; la disuguaglianza nasce con la proprietà privata.\n\nNel *Contratto sociale* (1762) cerca una forma di associazione in cui ciascuno, unendosi a tutti, obbedisca solo a se stesso. La soluzione è la **volontà generale**: ognuno cede tutti i suoi diritti alla comunità di cui è parte, e la legge è espressione della volontà del corpo sovrano, il popolo. La sovranità è inalienabile e indivisibile: non può essere rappresentata.\n\nSi capisce così la diffidenza verso il teatro: lo spettacolo separa il pubblico dalla scena, mentre la festa civica, in cui i cittadini sono insieme attori e spettatori, unisce. *Emilio* (1762) è il suo trattato sull'educazione.",
+      "daSapere": [
+        "1712–1778, Ginevra",
+        "*Contratto sociale* (1762): volontà generale",
+        "Sovranità popolare inalienabile e indivisibile",
+        "Festa civica contro teatro"
+      ],
+      "collegamenti": [
+        {
+          "da": "jean-jacques-rousseau",
+          "a": "contrattualismo",
+          "tipo": "esempio-di",
+          "etichetta": "è il teorico democratico del"
+        },
+        {
+          "da": "jean-jacques-rousseau",
+          "a": "lettera-sugli-spettacoli",
+          "tipo": "crea",
+          "etichetta": "scrive la"
+        }
+      ]
+    },
+    {
+      "id": "franz-kafka",
+      "oltre": "Franz Kafka (Praga 1883 – Kierling 1924), ebreo praghese di lingua tedesca, era un giurista: laureato in legge nel 1906, lavorò fino alla malattia in un istituto di assicurazione contro gli infortuni sul lavoro, dove redigeva pareri e ricorsi. Quasi tutta la sua opera fu pubblicata postuma dall'amico Max Brod, contro la sua volontà.\n\nNel *Processo* (1925) è inserita la parabola **«Davanti alla legge»**: un uomo di campagna chiede di entrare nella legge; il guardiano gli dice che ora non può. L'uomo aspetta tutta la vita davanti alla porta aperta; morendo apprende che quell'ingresso era destinato solo a lui. La legge è insieme aperta e inaccessibile.\n\n*Nella colonia penale* (1919) descrive una macchina che incide la sentenza sul corpo del condannato, che non conosce né l'accusa né la condanna. *Il castello* (1926) riprende il tema di un'autorità irraggiungibile. Da qui l'aggettivo «kafkiano».",
+      "daSapere": [
+        "1883–1924, Praga; laureato in legge",
+        "*Il processo* (1925, postumo)",
+        "Parabola «Davanti alla legge»",
+        "*Nella colonia penale* (1919)"
+      ],
+      "collegamenti": [
+        {
+          "da": "orson-welles",
+          "a": "franz-kafka",
+          "tipo": "interpreta",
+          "etichetta": "porta al cinema Il processo di"
+        },
+        {
+          "da": "law-and-literature",
+          "a": "franz-kafka",
+          "tipo": "interpreta",
+          "etichetta": "studia l'immagine della legge in"
+        }
+      ]
+    },
+    {
+      "id": "lawrence-friedman",
+      "oltre": "Lawrence M. Friedman (nato nel 1930), professore a Stanford, è uno dei principali storici e sociologi del diritto americani, esponente del movimento *Law and Society*. *A History of American Law* (1973) racconta il diritto non come evoluzione interna di dottrine, ma come prodotto di forze sociali ed economiche.\n\nIn *The Legal System. A Social Science Perspective* (1975; trad. it. *Il sistema giuridico nella prospettiva delle scienze sociali*) scompone ogni sistema giuridico in tre elementi: **struttura** (istituzioni e procedure), **sostanza** (le regole) e **cultura giuridica**, cioè idee, atteggiamenti e aspettative verso il diritto. Distingue la cultura **interna**, propria dei professionisti, da quella **esterna**, della popolazione.\n\nÈ la cultura esterna, per Friedman, a tradurre i bisogni sociali in domande rivolte al sistema: senza di essa il diritto è «un pesce morto in un cesto».",
+      "daSapere": [
+        "Nato nel 1930; Stanford; *Law and Society*",
+        "*The Legal System* (1975): struttura, sostanza, cultura",
+        "Cultura giuridica interna (giuristi) ed esterna (popolazione)"
+      ],
+      "collegamenti": [
+        {
+          "da": "lawrence-friedman",
+          "a": "cultura-giuridica-esterna",
+          "tipo": "crea",
+          "etichetta": "introduce il concetto di"
+        },
+        {
+          "da": "lawrence-friedman",
+          "a": "cerchio-magico-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "distingue i profani dal"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Lawrence M. Friedman, Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Lawrence_M._Friedman"
+        }
+      ]
+    },
+    {
+      "id": "francesco-carnelutti",
+      "oltre": "Francesco Carnelutti (Udine 1879 – Milano 1965) è stato tra i giuristi italiani più influenti del Novecento: professore a Padova, Milano e Roma, e grande avvocato. Con Giuseppe Chiovenda fondò nel 1924 la «Rivista di diritto processuale civile» ed ebbe una parte importante nella preparazione del codice di procedura civile del 1940.\n\nScrisse su quasi ogni ramo del diritto: il *Sistema del diritto processuale civile* (1936–1939), la *Teoria generale del diritto* (1940). Il suo concetto più noto è la **lite**: un conflitto di interessi qualificato dalla pretesa di una parte e dalla resistenza dell'altra; il processo serve alla «giusta composizione della lite».\n\nNegli ultimi anni si rivolse a un pubblico largo con libri come *Le miserie del processo penale* (1957), dove il processo è già una pena e il giudicare è un compito che supera l'uomo.",
+      "daSapere": [
+        "1879–1965; processualista e avvocato",
+        "Concetto di lite; processo come composizione della lite",
+        "*Teoria generale del diritto* (1940)",
+        "*Le miserie del processo penale* (1957)"
+      ],
+      "collegamenti": [
+        {
+          "da": "francesco-carnelutti",
+          "a": "law-and-film",
+          "tipo": "collegato",
+          "etichetta": "anticipa in Italia gli studi di"
+        },
+        {
+          "da": "francesco-carnelutti",
+          "a": "messa-in-scena",
+          "tipo": "collegato",
+          "etichetta": "riflette sul processo come"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Francesco Carnelutti, Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Francesco_Carnelutti"
+        }
+      ]
     }
   ]
 }

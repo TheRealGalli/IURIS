@@ -1,0 +1,544 @@
+{
+  "voci": [
+    {
+      "id": "stato",
+      "oltre": "La dottrina tradizionale, a partire dal tedesco Georg Jellinek (*Dottrina generale dello Stato*, 1900), descrive lo Stato con **tre elementi**: popolo, territorio e sovranità (o governo). Max Weber, nella conferenza *La politica come professione* (1919), lo definisce come la comunità umana che, entro un territorio, rivendica con successo il **monopolio della forza fisica legittima**.\n\nLo Stato moderno nasce in Europa tra il XV e il XVII secolo d.C., superando il frazionamento feudale: la **pace di Westfalia** (1648) consacra un sistema di Stati sovrani e indipendenti. Nella Costituzione la parola «Stato» indica talvolta l'intero ordinamento (Stato-comunità), talvolta solo l'ente centrale distinto da Regioni ed enti locali (art. 114), come osserva Martines.",
+      "daSapere": [
+        "Jellinek (1900): popolo, territorio, sovranità",
+        "Weber (1919): monopolio della forza legittima",
+        "Westfalia 1648: sistema degli Stati sovrani"
+      ],
+      "collegamenti": [
+        {
+          "da": "stato",
+          "a": "territorio",
+          "tipo": "collegato",
+          "etichetta": "ha come elemento il"
+        },
+        {
+          "da": "stato",
+          "a": "popolo",
+          "tipo": "collegato",
+          "etichetta": "ha come elemento il"
+        },
+        {
+          "da": "stato",
+          "a": "sovranita",
+          "tipo": "collegato",
+          "etichetta": "è caratterizzato dalla"
+        }
+      ]
+    },
+    {
+      "id": "stato-assoluto",
+      "oltre": "La teoria dello Stato assoluto si forma nel XVI e XVII secolo d.C. Jean Bodin, nei *Sei libri della Repubblica* (1576), definisce la sovranità come potere **assoluto e perpetuo**; Thomas Hobbes, nel *Leviatano* (1651), giustifica un potere illimitato come unico rimedio alla guerra di tutti contro tutti. Il principio giuridico è *princeps legibus solutus* («il principe non è vincolato dalle leggi»), formula che risale a un passo di Ulpiano.\n\nIl modello storico è la Francia di Luigi XIV. Lo Stato assoluto accentra il potere, crea un esercito permanente e una burocrazia, unifica il diritto; ma non riconosce diritti dei sudditi opponibili al sovrano. Le rivoluzioni inglese (1688–1689), americana e francese ne segnano il superamento.",
+      "daSapere": [
+        "Bodin (1576) e Hobbes (1651)",
+        "*Princeps legibus solutus*",
+        "Superato dalle rivoluzioni del XVII–XVIII secolo d.C."
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-assoluto",
+          "a": "ulpiano",
+          "tipo": "collegato",
+          "etichetta": "riprende una formula di"
+        },
+        {
+          "da": "stato-assoluto",
+          "a": "stato-di-polizia",
+          "tipo": "evolve-in",
+          "etichetta": "si razionalizza nello"
+        }
+      ]
+    },
+    {
+      "id": "stato-di-polizia",
+      "oltre": "«Polizia» qui non significa forze dell'ordine, ma **buona amministrazione** della comunità (dal greco *politeía*). È lo Stato del **dispotismo illuminato** del XVIII secolo d.C.: Federico II di Prussia, Maria Teresa e Giuseppe II d'Austria, Pietro Leopoldo in Toscana. Il sovrano promuove riforme (codici, scuole, catasti, abolizione della tortura) per il benessere dei sudditi, ma senza la loro partecipazione: «tutto per il popolo, niente per mezzo del popolo».\n\nUn elemento di garanzia nasce dalla **teoria del fisco**: il patrimonio dello Stato è considerato un soggetto distinto dal sovrano e sottoposto al diritto privato, per cui il suddito può citarlo in giudizio per ottenere un risarcimento. È un primo passo verso lo Stato di diritto.",
+      "daSapere": [
+        "*Politeía*: buona amministrazione",
+        "Dispotismo illuminato: Federico II, Maria Teresa, Giuseppe II",
+        "Teoria del fisco: primo nucleo di garanzia"
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-di-polizia",
+          "a": "stato-di-diritto",
+          "tipo": "evolve-in",
+          "etichetta": "prepara lo"
+        }
+      ]
+    },
+    {
+      "id": "stato-socialista",
+      "oltre": "Il modello nasce con la Rivoluzione d'ottobre (1917) in Russia ed è codificato nelle costituzioni sovietiche (1918, 1924, 1936, 1977). Si fonda sulla **proprietà collettiva** dei mezzi di produzione, sulla **pianificazione** economica, sul ruolo guida del **partito unico** e sul principio dell'**unità del potere** (opposto alla separazione dei poteri) organizzato secondo il «centralismo democratico».\n\nI diritti sono intesi soprattutto come diritti sociali garantiti dallo Stato, mentre le libertà politiche sono subordinate agli obiettivi del socialismo. Dopo il crollo del muro di Berlino (1989) e la dissoluzione dell'Unione Sovietica (dicembre 1991) il modello è sopravvissuto, con forti trasformazioni economiche, in pochi paesi come la Cina, il Vietnam e Cuba.",
+      "daSapere": [
+        "1917; costituzioni sovietiche 1918–1977",
+        "Partito unico, unità del potere, pianificazione",
+        "Fine dell'URSS: dicembre 1991"
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-socialista",
+          "a": "separazione-dei-poteri",
+          "tipo": "contrasta",
+          "etichetta": "rifiuta la"
+        }
+      ]
+    },
+    {
+      "id": "stato-federale",
+      "oltre": "Il primo Stato federale moderno sono gli **Stati Uniti** (Costituzione del 1787); seguono la Svizzera (1848) e la Germania (oggi con la Legge fondamentale del 1949). Elementi tipici: una costituzione federale **rigida**, che gli Stati membri contribuiscono a modificare; un **riparto delle competenze** tra federazione e Stati, di solito con le competenze residue agli Stati (negli Stati Uniti lo stabilisce il X emendamento); una **seconda Camera** che rappresenta gli Stati (il Senato statunitense, il Bundesrat tedesco); una **corte** che risolve i conflitti tra i livelli.\n\nGli Stati membri hanno una propria costituzione e propri organi legislativi, esecutivi e giudiziari. Dopo il 2001 il regionalismo italiano si è avvicinato a questo modello (competenza residuale delle Regioni, art. 117, quarto comma), ma manca una vera Camera delle Regioni.",
+      "daSapere": [
+        "Stati Uniti 1787, Svizzera 1848, Germania 1949",
+        "Competenze residue agli Stati; seconda Camera federale",
+        "Italia: competenza residuale regionale dal 2001"
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-federale",
+          "a": "stato-regionale",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dallo"
+        }
+      ]
+    },
+    {
+      "id": "stato-regionale",
+      "oltre": "Lo Stato regionale è una via intermedia tra Stato unitario e federale: le Regioni hanno **autonomia legislativa** ma non **sovranità**, e la loro esistenza dipende dalla Costituzione dello Stato. Oltre all'Italia, ne è un esempio la Spagna della Costituzione del 1978 («Stato delle autonomie»).\n\nIn Italia le cinque Regioni a **statuto speciale** nacquero per prime (Sicilia nel 1946, poi Sardegna, Valle d'Aosta e Trentino-Alto Adige nel 1948, Friuli-Venezia Giulia nel 1963); i loro statuti sono leggi costituzionali, modificati anche di recente (leggi costituzionali n. 1 e 2 del 2026). Le Regioni **ordinarie** furono attuate solo nel 1970, con le prime elezioni regionali. La riforma del Titolo V (2001) ne ha molto ampliato le competenze.",
+      "daSapere": [
+        "Autonomia legislativa senza sovranità",
+        "Statuti speciali: 1946, 1948, 1963; modifiche 2026",
+        "Regioni ordinarie dal 1970; riforma 2001"
+      ],
+      "collegamenti": [
+        {
+          "da": "stato-regionale",
+          "a": "statuto-speciale",
+          "tipo": "collegato",
+          "etichetta": "comprende Regioni a"
+        },
+        {
+          "da": "stato-regionale",
+          "a": "autonomia",
+          "tipo": "collegato",
+          "etichetta": "si fonda sull'"
+        }
+      ]
+    },
+    {
+      "id": "onu",
+      "oltre": "La **Carta delle Nazioni Unite** fu firmata a San Francisco il 26 giugno 1945 ed entrò in vigore il 24 ottobre 1945. Gli scopi sono il mantenimento della pace e della sicurezza internazionale, lo sviluppo di relazioni amichevoli tra le nazioni e la cooperazione per i diritti umani. Oggi ne fanno parte 193 Stati; l'Italia è membro dal 14 dicembre 1955.\n\nGli organi principali sono l'**Assemblea generale** (tutti gli Stati, un voto ciascuno), il **Consiglio di sicurezza** (15 membri, di cui 5 permanenti con diritto di veto: Stati Uniti, Russia, Cina, Francia e Regno Unito), il Segretario generale e la **Corte internazionale di giustizia** dell'Aia. L'adesione italiana trova fondamento nell'art. 11 Cost., che consente limitazioni di sovranità per un ordinamento che assicuri la pace e la giustizia fra le Nazioni.",
+      "daSapere": [
+        "Carta di San Francisco: 26 giugno 1945",
+        "Italia membro dal 1955; 193 Stati",
+        "Consiglio di sicurezza: 5 membri permanenti con veto"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 11",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "onu",
+          "a": "principio-internazionalista",
+          "tipo": "collegato",
+          "etichetta": "attua il"
+        },
+        {
+          "da": "onu",
+          "a": "corte-internazionale-di-giustizia",
+          "tipo": "crea",
+          "etichetta": "ha come organo giudiziario la"
+        }
+      ]
+    },
+    {
+      "id": "trattato-di-maastricht",
+      "oltre": "Il Trattato sull'Unione europea fu firmato a Maastricht il 7 febbraio 1992 ed entrò in vigore il 1° novembre 1993. Istituì l'Unione europea con una struttura a **tre pilastri**: le Comunità europee; la politica estera e di sicurezza comune; la cooperazione in materia di giustizia e affari interni.\n\nLe sue novità principali furono l'**Unione economica e monetaria**, con i parametri di convergenza (deficit e debito pubblico) che portarono all'**euro** (moneta scritturale dal 1999, banconote e monete dal 2002); la **cittadinanza europea**; il principio di **sussidiarietà**; maggiori poteri al Parlamento europeo (codecisione). La ratifica fu contrastata: in Danimarca un primo referendum la respinse nel 1992.",
+      "daSapere": [
+        "Firmato il 7 febbraio 1992, in vigore dal 1° novembre 1993",
+        "Tre pilastri",
+        "Euro, cittadinanza europea, sussidiarietà"
+      ],
+      "collegamenti": [
+        {
+          "da": "trattato-di-maastricht",
+          "a": "unione-europea",
+          "tipo": "crea",
+          "etichetta": "istituisce l'"
+        },
+        {
+          "da": "trattato-di-maastricht",
+          "a": "cittadinanza-europea",
+          "tipo": "crea",
+          "etichetta": "introduce la"
+        }
+      ]
+    },
+    {
+      "id": "trattato-di-lisbona",
+      "oltre": "Il Trattato di Lisbona nasce dopo il fallimento del **Trattato che adotta una Costituzione per l'Europa** (firmato a Roma nel 2004), respinto dai referendum francese e olandese del 2005. Ne riprende gran parte dei contenuti senza la forma «costituzionale».\n\nLe novità principali: l'Unione ha **personalità giuridica** e i tre pilastri sono superati; i trattati sono il **TUE** e il **TFUE**; la **Carta dei diritti fondamentali** ha lo stesso valore giuridico dei trattati (art. 6 TUE); nascono il **Presidente stabile del Consiglio europeo** e l'Alto rappresentante per la politica estera; si estendono il voto a maggioranza qualificata e la procedura legislativa ordinaria; i parlamenti nazionali controllano la sussidiarietà; l'art. 50 TUE disciplina il **recesso**, usato dal Regno Unito nel 2020.",
+      "daSapere": [
+        "Dopo il fallimento del Trattato costituzionale (2004–2005)",
+        "TUE e TFUE; Carta dei diritti con valore giuridico",
+        "Art. 50 TUE: recesso (Regno Unito, 2020)"
+      ],
+      "collegamenti": [
+        {
+          "da": "trattato-di-lisbona",
+          "a": "carta-diritti-ue",
+          "tipo": "collegato",
+          "etichetta": "dà valore giuridico alla"
+        },
+        {
+          "da": "trattato-di-lisbona",
+          "a": "trattato-di-maastricht",
+          "tipo": "supera",
+          "etichetta": "riforma il"
+        }
+      ]
+    },
+    {
+      "id": "territorio",
+      "oltre": "Il territorio dello Stato comprende la **terraferma** delimitata dai confini, le acque interne, il **mare territoriale**, lo **spazio aereo** sovrastante e il **sottosuolo**. Il diritto internazionale del mare, codificato dalla Convenzione di Montego Bay (1982), prevede inoltre zone in cui lo Stato costiero ha solo **diritti funzionali**, senza piena sovranità: la zona contigua (fino a 24 miglia), la **zona economica esclusiva** (fino a 200 miglia) e la piattaforma continentale.\n\nPer la Costituzione la Repubblica è «una e indivisibile» (art. 5): l'unità territoriale è un principio fondamentale. Le variazioni interne (nuove Regioni, passaggio di Comuni e Province da una Regione all'altra) seguono gli artt. 132 e 133, con il coinvolgimento delle popolazioni interessate.",
+      "daSapere": [
+        "Terraferma, mare, spazio aereo, sottosuolo",
+        "Montego Bay 1982: zona contigua, ZEE, piattaforma",
+        "Art. 5: Repubblica una e indivisibile"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 5, 132 e 133",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "territorio",
+          "a": "mare-territoriale",
+          "tipo": "collegato",
+          "etichetta": "comprende il"
+        },
+        {
+          "da": "territorio",
+          "a": "piattaforma-continentale",
+          "tipo": "collegato",
+          "etichetta": "si estende in parte alla"
+        }
+      ]
+    },
+    {
+      "id": "mare-territoriale",
+      "oltre": "L'Italia ha esteso il mare territoriale da 6 a **12 miglia marine** con la legge n. 359 del 1974, che ha modificato l'art. 2 del codice della navigazione; la misura corrisponde al limite massimo fissato dalla Convenzione delle Nazioni Unite sul diritto del mare (Montego Bay, 1982). Le miglia si contano da **linee di base**, che possono essere linee rette nei tratti di costa frastagliata o per chiudere golfi e baie.\n\nNel mare territoriale lo Stato ha piena sovranità, con un limite importante: le navi straniere godono del diritto di **passaggio inoffensivo**, cioè possono attraversarlo purché non pregiudichino la pace, il buon ordine e la sicurezza dello Stato costiero.",
+      "daSapere": [
+        "12 miglia: legge 359/1974",
+        "Linee di base",
+        "Diritto di passaggio inoffensivo"
+      ],
+      "collegamenti": [
+        {
+          "da": "mare-territoriale",
+          "a": "sovranita",
+          "tipo": "collegato",
+          "etichetta": "è soggetto alla"
+        }
+      ]
+    },
+    {
+      "id": "popolo",
+      "oltre": "Occorre distinguere tre nozioni vicine. Il **popolo** è l'insieme dei cittadini, legati allo Stato dal vincolo della cittadinanza ovunque si trovino. La **popolazione** comprende tutti coloro che si trovano stabilmente sul territorio, compresi stranieri e apolidi. La **nazione** è una comunità culturale (lingua, storia, tradizioni) che può non coincidere con lo Stato.\n\nNella Costituzione il popolo è il titolare della **sovranità** (art. 1) e la esercita soprattutto come **corpo elettorale**: elezioni, referendum, iniziativa legislativa popolare. Il popolo non ha soggettività giuridica, ma i suoi poteri si esprimono attraverso frazioni organizzate: i 500.000 elettori del referendum abrogativo (art. 75), i 50.000 dell'iniziativa legislativa (art. 71).",
+      "daSapere": [
+        "Popolo ↔ popolazione ↔ nazione",
+        "Titolare della sovranità (art. 1)",
+        "Agisce come corpo elettorale: artt. 71 e 75"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 1, 71 e 75",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "popolo",
+          "a": "sovranita-popolare",
+          "tipo": "collegato",
+          "etichetta": "è titolare della"
+        },
+        {
+          "da": "popolo",
+          "a": "popolazione",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dalla"
+        },
+        {
+          "da": "popolo",
+          "a": "nazione",
+          "tipo": "contrasta",
+          "etichetta": "non coincide con la"
+        }
+      ]
+    },
+    {
+      "id": "cittadinanza-europea",
+      "oltre": "Istituita dal Trattato di Maastricht, la cittadinanza dell'Unione **si aggiunge** a quella nazionale **senza sostituirla** (art. 20 TFUE): è cittadino europeo chiunque abbia la cittadinanza di uno Stato membro, e ogni Stato decide da sé come attribuire la propria.\n\nI diritti principali sono: **circolare e soggiornare** liberamente nel territorio degli Stati membri; **votare ed essere eletti** alle elezioni comunali e del Parlamento europeo nello Stato in cui si risiede; la **tutela diplomatica e consolare** di qualsiasi Stato membro in un paese terzo dove il proprio non è rappresentato; la petizione al Parlamento europeo e il ricorso al Mediatore europeo; l'**iniziativa dei cittadini europei** (almeno un milione di firme da un numero significativo di Stati).",
+      "daSapere": [
+        "Si aggiunge, non sostituisce (art. 20 TFUE)",
+        "Circolazione, voto locale ed europeo, tutela diplomatica",
+        "Iniziativa dei cittadini europei: un milione di firme"
+      ],
+      "fonti": [
+        {
+          "titolo": "Trattato sul funzionamento dell’Unione europea, artt. 20–24",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12012E020"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "cittadinanza-europea",
+          "a": "cittadinanza",
+          "tipo": "collegato",
+          "etichetta": "presuppone la"
+        },
+        {
+          "da": "cittadinanza-europea",
+          "a": "trattato-di-maastricht",
+          "tipo": "collegato",
+          "etichetta": "nasce con il"
+        }
+      ]
+    },
+    {
+      "id": "straniero",
+      "oltre": "L'art. 10 Cost. dedica allo straniero tre regole: la sua condizione giuridica è regolata dalla **legge in conformità delle norme e dei trattati internazionali** (riserva di legge rinforzata); ha **diritto d'asilo** se nel suo paese gli è impedito l'effettivo esercizio delle libertà democratiche garantite dalla Costituzione; non è ammessa l'**estradizione** per reati politici. La disciplina generale è nel **Testo unico sull'immigrazione** (d.lgs. 286/1998).\n\nMolti articoli della Costituzione parlano di «cittadini», ma la Corte costituzionale ha chiarito, già nel 1967 (sentenza 120), che i **diritti inviolabili** spettano anche agli stranieri: l'uguaglianza vale per tutti quando si tratta dei diritti fondamentali della persona. Restano riservati ai cittadini soprattutto i diritti politici nazionali.",
+      "daSapere": [
+        "Art. 10: riserva di legge, asilo, niente estradizione per reati politici",
+        "Testo unico immigrazione: d.lgs. 286/1998",
+        "Corte cost. 120/1967: diritti inviolabili anche agli stranieri"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, art. 10",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza 120/1967",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1967/120"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "straniero",
+          "a": "diritto-di-asilo",
+          "tipo": "collegato",
+          "etichetta": "può godere del"
+        },
+        {
+          "da": "straniero",
+          "a": "condizione-giuridica-dello-straniero",
+          "tipo": "collegato",
+          "etichetta": "ha una disciplina nella"
+        }
+      ]
+    },
+    {
+      "id": "apolide",
+      "oltre": "L'apolidia può derivare dalla nascita (figli di apolidi), dalla perdita della cittadinanza senza acquisto di un'altra o da vicende storiche (dissoluzione di Stati, revoche di massa della cittadinanza nel XX secolo d.C.). La **Convenzione di New York del 1954** sullo status degli apolidi garantisce loro un trattamento minimo e documenti di viaggio.\n\nLa legge italiana sulla cittadinanza (legge 91/1992) cerca di prevenire l'apolidia: è cittadino per nascita chi è nato in Italia da genitori ignoti o apolidi (art. 1). L'apolide residente legalmente può inoltre ottenere la naturalizzazione dopo **cinque anni** di residenza, anziché i dieci richiesti agli stranieri non comunitari. Per la Costituzione l'apolide, come lo straniero, gode dei diritti inviolabili.",
+      "daSapere": [
+        "Convenzione di New York, 1954",
+        "Legge 91/1992: cittadino chi nasce in Italia da genitori apolidi",
+        "Naturalizzazione dopo cinque anni"
+      ],
+      "collegamenti": [
+        {
+          "da": "apolide",
+          "a": "cittadinanza",
+          "tipo": "contrasta",
+          "etichetta": "è privo di"
+        },
+        {
+          "da": "apolide",
+          "a": "ius-soli",
+          "tipo": "collegato",
+          "etichetta": "in Italia può diventare cittadino per"
+        }
+      ]
+    },
+    {
+      "id": "nazione",
+      "oltre": "L'idea di nazione come fondamento dello Stato si afferma nel XIX secolo d.C. Pasquale Stanislao Mancini, nella prolusione torinese del 1851, fece della **nazionalità** il fondamento del diritto delle genti; Ernest Renan (1882) definì la nazione un «plebiscito di tutti i giorni», cioè una volontà di vivere insieme, più che un dato etnico.\n\nNella Costituzione la parola compare in punti significativi: ogni membro del Parlamento **rappresenta la Nazione** ed esercita le sue funzioni senza vincolo di mandato (art. 67); i pubblici impiegati sono al servizio esclusivo della Nazione (art. 98); la Repubblica tutela il patrimonio storico e artistico della Nazione (art. 9). La Nazione indica qui la comunità nazionale nel suo insieme, al di là dei singoli elettori e degli interessi di parte.",
+      "daSapere": [
+        "Mancini (1851); Renan (1882)",
+        "Art. 67: il parlamentare rappresenta la Nazione",
+        "Artt. 9 e 98"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 9, 67 e 98",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "nazione",
+          "a": "divieto-di-mandato-imperativo",
+          "tipo": "collegato",
+          "etichetta": "è rappresentata grazie al"
+        },
+        {
+          "da": "nazione",
+          "a": "minoranze-linguistiche",
+          "tipo": "contrasta",
+          "etichetta": "non esclude le"
+        }
+      ]
+    },
+    {
+      "id": "sovranita",
+      "oltre": "Il concetto moderno di sovranità è elaborato da Jean Bodin (1576) come potere supremo, perpetuo e indivisibile. Ha due facce: **interna** (supremazia su ogni altro potere nel territorio) ed **esterna** (indipendenza da ogni altro Stato, cioè parità nella comunità internazionale).\n\nNella Costituzione italiana la sovranità è limitata da due lati. Verso l'**alto**: l'art. 11 consente, in condizioni di parità con gli altri Stati, le **limitazioni di sovranità** necessarie a un ordinamento che assicuri la pace e la giustizia fra le Nazioni; su questa base l'Italia partecipa all'ONU e all'Unione europea. Verso l'**interno**: la sovranità appartiene al popolo, che la esercita «nelle forme e nei limiti» della Costituzione (art. 1). Si parla perciò di sovranità della Costituzione.",
+      "daSapere": [
+        "Bodin: potere supremo e perpetuo",
+        "Interna (supremazia) ed esterna (indipendenza)",
+        "Art. 11: limitazioni di sovranità; art. 1: nelle forme e nei limiti"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 1 e 11",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "sovranita",
+          "a": "sovranita-popolare",
+          "tipo": "collegato",
+          "etichetta": "appartiene al popolo come"
+        },
+        {
+          "da": "sovranita",
+          "a": "principio-internazionalista",
+          "tipo": "collegato",
+          "etichetta": "è limitata dal"
+        }
+      ]
+    },
+    {
+      "id": "indirizzo-politico",
+      "oltre": "Il concetto è stato elaborato dalla dottrina italiana tra gli anni Trenta e Sessanta del XX secolo d.C. (Mortati, Crisafulli, Martines stesso, che vi dedicò una nota voce enciclopedica). Indica la determinazione dei **fini** dell'azione statale e dei **mezzi** per raggiungerli.\n\nNella forma di governo parlamentare l'indirizzo politico nasce dal **rapporto di fiducia**: il Governo presenta il programma alle Camere, che lo approvano con la fiducia (art. 94), e il Presidente del Consiglio «dirige la politica generale del Governo e ne è responsabile», mantenendo l'unità di indirizzo politico e amministrativo (art. 95). I partiti concorrono a determinare la **politica nazionale** (art. 49); la legge di bilancio ne è uno strumento essenziale.",
+      "daSapere": [
+        "Fini e mezzi dell'azione statale",
+        "Art. 95: il Presidente del Consiglio dirige la politica generale",
+        "Art. 49: i partiti concorrono alla politica nazionale"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 49, 94 e 95",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "indirizzo-politico",
+          "a": "rapporto-di-fiducia",
+          "tipo": "collegato",
+          "etichetta": "nasce dal"
+        },
+        {
+          "da": "indirizzo-politico",
+          "a": "partiti-politici",
+          "tipo": "collegato",
+          "etichetta": "è determinato anche dai"
+        }
+      ]
+    },
+    {
+      "id": "governo-presidenziale",
+      "oltre": "Negli **Stati Uniti** il Presidente è eletto per quattro anni da un collegio di 538 grandi elettori, scelti Stato per Stato dal voto popolare; dopo il XXII emendamento (1951) può essere rieletto una sola volta. È insieme capo dello Stato e del Governo e sceglie i segretari (ministri), che rispondono solo a lui.\n\nLa separazione è **rigida** ma con **pesi e contrappesi** (*checks and balances*): il Presidente ha il **veto** sulle leggi, superabile dal Congresso con i due terzi; il Senato approva le nomine e, con i due terzi, i trattati; il Congresso può rimuovere il Presidente con l'**impeachment** (accusa della Camera, giudizio del Senato a maggioranza di due terzi). Non c'è rapporto di fiducia né scioglimento delle Camere. Il modello è diffuso anche in America Latina.",
+      "daSapere": [
+        "Stati Uniti: mandato di 4 anni, una sola rielezione (1951)",
+        "Veto, approvazione delle nomine, impeachment",
+        "Niente fiducia né scioglimento"
+      ],
+      "collegamenti": [
+        {
+          "da": "governo-presidenziale",
+          "a": "governo-parlamentare",
+          "tipo": "contrasta",
+          "etichetta": "si oppone al"
+        },
+        {
+          "da": "governo-presidenziale",
+          "a": "separazione-dei-poteri",
+          "tipo": "collegato",
+          "etichetta": "applica in modo rigido la"
+        }
+      ]
+    },
+    {
+      "id": "governo-semipresidenziale",
+      "oltre": "Il modello è la **V Repubblica francese**, nata con la Costituzione del 1958 voluta da Charles de Gaulle; l'elezione diretta del Presidente fu introdotta con il referendum del 1962 e il mandato ridotto da sette a **cinque anni** nel 2000. Il Presidente nomina il Primo ministro, presiede il Consiglio dei ministri, può sciogliere l'Assemblea nazionale e, in caso di grave crisi, assumere poteri eccezionali (art. 16). Il Governo deve però avere la fiducia dell'Assemblea.\n\nQuando la maggioranza parlamentare è di colore opposto al Presidente si ha la **coabitazione** (1986–1988, 1993–1995, 1997–2002): il Presidente perde gran parte del suo peso politico a favore del Primo ministro. Il politologo Maurice Duverger coniò l'espressione «semipresidenziale».",
+      "daSapere": [
+        "Francia, 1958; elezione diretta dal 1962; quinquennato dal 2000",
+        "Presidente forte ma Governo con la fiducia dell'Assemblea",
+        "Coabitazione: 1986, 1993, 1997"
+      ],
+      "collegamenti": [
+        {
+          "da": "governo-semipresidenziale",
+          "a": "governo-parlamentare",
+          "tipo": "collegato",
+          "etichetta": "combina elementi del"
+        }
+      ]
+    },
+    {
+      "id": "governo-direttoriale",
+      "oltre": "La forma di governo direttoriale esiste oggi solo in **Svizzera**. Il **Consiglio federale**, organo collegiale di sette membri, è eletto dall'Assemblea federale (le due Camere riunite) per quattro anni e **non può essere sfiduciato**: dura in carica per tutta la legislatura. Ogni anno uno dei sette assume la carica di Presidente della Confederazione, come *primus inter pares*, senza poteri superiori agli altri.\n\nPer lunghi decenni i seggi del Consiglio sono stati distribuiti tra i maggiori partiti secondo una «formula magica», espressione di una **democrazia consociativa**. Il sistema è bilanciato da un forte uso della **democrazia diretta**: referendum su leggi e trattati e iniziativa popolare per modificare la Costituzione federale.",
+      "daSapere": [
+        "Svizzera: Consiglio federale di 7 membri",
+        "Eletto per 4 anni, senza rapporto di fiducia",
+        "Presidente annuale *primus inter pares*; democrazia diretta"
+      ],
+      "collegamenti": [
+        {
+          "da": "governo-direttoriale",
+          "a": "democrazia-diretta",
+          "tipo": "collegato",
+          "etichetta": "è bilanciato da una forte"
+        },
+        {
+          "da": "governo-direttoriale",
+          "a": "rapporto-di-fiducia",
+          "tipo": "contrasta",
+          "etichetta": "non conosce il"
+        }
+      ]
+    },
+    {
+      "id": "confederazione-di-stati",
+      "oltre": "Esempi storici di confederazione sono gli **Stati Uniti** sotto gli Articoli di Confederazione (1781–1789), la **Confederazione germanica** (1815–1866) e la Svizzera prima della Costituzione del 1848 (che conserva il nome di «Confederazione» pur essendo oggi uno Stato federale).\n\nCaratteri tipici: gli Stati membri restano **sovrani**; l'organo comune (una dieta o un congresso di delegati) decide di regola all'**unanimità** e le sue decisioni vincolano gli Stati, non direttamente i cittadini; gli Stati conservano il diritto di **recesso**. La debolezza di questo modello spinse gli americani a scrivere la Costituzione federale del 1787. L'Unione europea non è né una confederazione né uno Stato federale: è un ordinamento sovranazionale *sui generis*.",
+      "daSapere": [
+        "Stati Uniti 1781–1789; Confederazione germanica 1815–1866",
+        "Unanimità, decisioni rivolte agli Stati, diritto di recesso",
+        "L'Unione europea è *sui generis*"
+      ],
+      "collegamenti": [
+        {
+          "da": "confederazione-di-stati",
+          "a": "stato-federale",
+          "tipo": "evolve-in",
+          "etichetta": "può trasformarsi in uno"
+        },
+        {
+          "da": "confederazione-di-stati",
+          "a": "unione-europea",
+          "tipo": "contrasta",
+          "etichetta": "non coincide con l'"
+        }
+      ]
+    }
+  ]
+}

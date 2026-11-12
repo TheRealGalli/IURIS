@@ -124,41 +124,66 @@ try {
     p.on('pageerror', (e) => pagina.push(e.message));
     await p.goto(BASE + '#/'); await p.waitForSelector('.main', { timeout: 20000 });
     if (!SOLO_LETTORE) {
-      const campo = p.locator('[data-esame-mobile] input[type="date"]');
-      await campo.waitFor();
-      const originale = await campo.elementHandle();
+      // Data dell'esame: un solo selettore su ogni dispositivo. Si salva alla scelta del giorno, mai girando i mesi.
+      const apriData = p.locator('.hero-main [data-scelta-data]');
+      await apriData.waitFor();
+      assert.equal(await p.locator('.hero-main input[type="date"]').count(), 0, `${etichetta}: niente più campo data nativo`);
       const date = await p.evaluate(() => {
         const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-        const oggi = new Date(), futura = new Date(), alternativa = new Date();
-        futura.setDate(oggi.getDate() + 90); alternativa.setDate(oggi.getDate() + 110);
-        return { oggi: iso(oggi), futura: iso(futura), alternativa: iso(alternativa) };
+        const oggi = new Date(), ieri = new Date(), futura = new Date(oggi.getFullYear(), oggi.getMonth() + 3, 15), alternativa = new Date(oggi.getFullYear(), oggi.getMonth() + 4, 20);
+        ieri.setDate(oggi.getDate() - 1);
+        return { oggi: iso(oggi), ieri: iso(ieri), futura: iso(futura), alternativa: iso(alternativa) };
       });
       const salvata = () => p.evaluate(() => JSON.parse(localStorage.getItem('iuris:v1:prog:diritto-romano') ?? '{}').esame);
-      // iOS può emettere oggi quando apre il picker: il campo deve restare lo stesso.
-      await campo.fill(date.oggi);
-      assert(await originale.evaluate(el => el.isConnected && el === document.querySelector('[data-esame-mobile] input')), `${etichetta}: campo smontato al primo aggiornamento`);
-      assert.equal(await salvata(), undefined, `${etichetta}: valore intermedio salvato come esame`);
-      // Anche se l'ultimo valore nativo arriva prima dell'evento React, conta la scelta effettiva.
-      await originale.evaluate((el, valore) => { el.value = valore; }, date.futura);
-      await p.locator('.hero-main .kpi').first().tap();
-      assert(await originale.evaluate(el => el.isConnected), `${etichetta}: la perdita di focus ha smontato il campo`);
-      assert.equal(await salvata(), undefined, `${etichetta}: data salvata senza conferma`);
-      await p.getByRole('button', { name: 'Salva data', exact: true }).tap();
+      const tocca = (l) => (d.hasTouch ? l.tap() : l.click());
+      const avanti = p.locator('.sd-pop').getByRole('button', { name: 'Mese successivo', exact: true });
+      await tocca(apriData);
+      const riquadro = p.locator('.sd-pop');
+      await riquadro.waitFor();
+      // si misura a animazione d'entrata finita (fade-in sposta di 4px durante la comparsa)
+      await riquadro.evaluate((el) => Promise.all(el.getAnimations().map((a) => a.finished)));
+      const box = await riquadro.boundingBox();
+      assert(box.x >= 0 && box.x + box.width <= vw + 1 && box.y >= 0 && box.y + box.height <= d.viewport.height + 1, `${etichetta}: calendario fuori dallo schermo (${JSON.stringify(box)} in ${vw}×${d.viewport.height})`);
+      if (d.hasTouch) for (const g of await riquadro.locator('.sd-g').all().then((x) => x.slice(0, 7))) {
+        const r = await g.boundingBox(); assert(r.width >= 36 && r.height >= 36, `${etichetta}: giorni troppo piccoli da toccare (${Math.round(r.width)}×${Math.round(r.height)})`);
+      }
+      assert.equal(await riquadro.locator(`[data-date="${date.oggi}"]`).evaluate((el) => el === document.activeElement), true, `${etichetta}: all'apertura il fuoco va su oggi`);
+      if (await riquadro.locator(`[data-date="${date.ieri}"]`).count()) assert(await riquadro.locator(`[data-date="${date.ieri}"]`).isDisabled(), `${etichetta}: i giorni passati non si scelgono`);
+      // girare i mesi non salva niente
+      for (let k = 0; k < 3; k++) await tocca(avanti);
+      assert.equal(await salvata(), undefined, `${etichetta}: girare il mese ha salvato una data`);
+      // nemmeno chiudere senza scegliere
+      await tocca(p.getByRole('button', { name: 'Annulla', exact: true }));
+      assert.equal(await riquadro.count(), 0); assert.equal(await salvata(), undefined, `${etichetta}: Annulla ha salvato una data`);
+      await tocca(apriData);
+      for (let k = 0; k < 3; k++) await tocca(avanti);
+      await tocca(riquadro.locator(`[data-date="${date.futura}"]`));
       assert.equal(await salvata(), date.futura, `${etichetta}: data finale diversa da quella scelta`);
-      assert.equal(await campo.count(), 0);
+      assert.equal(await riquadro.count(), 0, `${etichetta}: il calendario resta aperto dopo la scelta`);
       await p.reload(); await p.waitForSelector('.hero-main');
       assert.equal(await salvata(), date.futura, `${etichetta}: data persa dopo il ricaricamento`);
-      await p.locator('.hero-main').getByRole('button', { name: 'Cambia', exact: true }).tap();
-      assert.equal(await campo.inputValue(), date.futura);
-      await campo.fill(date.alternativa);
-      await p.getByRole('button', { name: 'Annulla', exact: true }).tap();
-      assert.equal(await salvata(), date.futura, `${etichetta}: Annulla ha modificato la data salvata`);
-      await p.locator('.hero-main').getByRole('button', { name: 'Cambia', exact: true }).tap();
-      await p.getByRole('button', { name: 'Rimuovi data', exact: true }).tap();
+      const cambia = p.locator('.hero-main').getByRole('button', { name: /^Cambia/ });
+      await tocca(cambia);
+      assert.equal(await riquadro.locator('.sd-g.on').getAttribute('data-date'), date.futura, `${etichetta}: il calendario non si apre sulla data salvata`);
+      await tocca(avanti);
+      assert.equal(await salvata(), date.futura, `${etichetta}: girare il mese ha cambiato la data salvata`);
+      await p.keyboard.press('Escape');
+      await riquadro.waitFor({ state: 'detached', timeout: 3000 }).catch(() => {});
+      assert.equal(await riquadro.count(), 0, `${etichetta}: Esc non chiude il calendario`); assert.equal(await salvata(), date.futura, `${etichetta}: Esc ha modificato la data salvata`);
+      // tastiera: frecce e Pag↓ spostano soltanto, Invio sceglie
+      await tocca(cambia);
+      await p.keyboard.press('PageDown'); await p.keyboard.press('ArrowRight'); await p.keyboard.press('ArrowDown');
+      assert.equal(await salvata(), date.futura, `${etichetta}: le frecce hanno cambiato la data salvata`);
+      const sulFuoco = await p.evaluate(() => document.activeElement?.getAttribute('data-date'));
+      assert(sulFuoco && sulFuoco !== date.futura, `${etichetta}: le frecce non spostano il giorno`);
+      await p.keyboard.press('Enter');
+      assert.equal(await salvata(), sulFuoco, `${etichetta}: Invio non ha scelto il giorno indicato`);
+      await tocca(cambia);
+      await tocca(p.getByRole('button', { name: 'Rimuovi data', exact: true }));
       assert.equal(await salvata(), undefined);
-      assert.equal(await campo.inputValue(), '');
+      await apriData.waitFor();
       assert.deepEqual(pagina, []);
-      controlli += 10;
+      controlli += 14;
       if (SOLO_ESAME) {
         await ctx.close(); console.log(`Data esame verificata: ${etichetta}`);
         continue;
