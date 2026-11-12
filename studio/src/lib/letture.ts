@@ -117,6 +117,13 @@ function occorrenzeElastiche(testo: string, citazione: string): { inizio: number
   return trovate;
 }
 
+/** Occorrenze di una citazione nel testo (offset sul testo originale): esatte a meno di maiuscole e spazi, altrimenti
+ *  ignorando impaginazione e numeri delle voci. Serve anche alla migrazione dei segni tra versioni di un Originale. */
+export function occorrenzeCitazione(testo: string, citazione: string): { inizio: number; fine: number }[] {
+  const esatte = occorrenze(testo, citazione);
+  return esatte.length ? esatte : occorrenzeElastiche(testo, citazione);
+}
+
 export function creaAncoraTesto(blocco: BloccoTestoLettura, inizio: number, fine: number, edizione: number): AncoraTesto | null {
   if (!Number.isSafeInteger(inizio) || !Number.isSafeInteger(fine) || inizio < 0 || fine > blocco.testo.length || fine <= inizio || !Number.isSafeInteger(edizione) || edizione < 1) return null;
   const parte = blocco.testo.slice(inizio, fine);

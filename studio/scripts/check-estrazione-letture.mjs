@@ -18,8 +18,9 @@ const plain = (s) => senzaLink(s).replace(/^#{1,6}\s+/gm, '');
 const tokens = (s) => s.match(/[\p{L}\p{N}_]+/gu) ?? [];
 let pages = 0, blocks = 0, sections = 0, pilot = 0;
 let integrazioni = 0, soloTesto = 0;
-let titoliIuris = 0, capoversiIuris = 0, tabelleIuris = 0;
-const paroleIuris = [];
+// Testi scritti da IURIS (testoMarkdown nel catalogo): misure dell'impaginazione per documento.
+const iuris = new Map();
+const titoliFonte = new Map();
 const lezioniCorso = new Map();
 for (const doc of docs) {
   if (doc.tipoFonte === 'manuale-ricostruito') {
@@ -57,6 +58,7 @@ for (const doc of docs) {
     const testo = await readFile(path.join(root, 'letture-src', pdf.testoFonte));
     assert.equal(createHash('sha256').update(testo).digest('hex'), pdf.sha256, `${doc.id}: testo cambiato senza aggiornare il catalogo`);
     assert(!/@|studocu|scaricato da|downloaded by/i.test(testo.toString('utf8')), `${doc.id}: nessun dato di chi ha scaricato il file`);
+    if (pdf.testoMarkdown) titoliFonte.set(doc.id, (testo.toString('utf8').match(/^#{1,6} /gm) ?? []).length);
     soloTesto++;
   }
   assert.equal(audit.coperturaToken, true);
@@ -74,9 +76,9 @@ for (const doc of docs) {
     assert.equal(sec.file, `letture/${doc.id}/${sec.id}.json`);
     const data = await read(`public/${sec.file}`);
     // La copertura della fonte da sola non rileva una pagina intera fusa in un capoverso.
-    // Per il testo IURIS di costituzionale (già in Markdown) controlliamo anche il testo pubblicato
+    // Per i testi IURIS (già in Markdown: costituzionale, romano) controlliamo anche il testo pubblicato
     // e gli elementi che vede chi legge: titoli distinti, capoversi brevi, nessuna parola persa.
-    const baseIuris = doc.id === 'costituzionale-iuris-v1'
+    const baseIuris = pdf.testoMarkdown
       ? new Map([...(await readFile(path.join(root, 'letture-src', doc.id, `${sec.id}.md`), 'utf8'))
         .matchAll(/<!-- blocco:([^\s]+) pagina:\d+ -->\s*\n([\s\S]*?)(?=\n\s*<!-- blocco:|$)/g)]
         .map((m) => [m[1], m[2].trim()])) : null;
@@ -89,6 +91,8 @@ for (const doc of docs) {
       assert(docs.find((d) => d.id === sec.integrazione.documento).sezioni.some((s) => s.id === sec.integrazione.sezione));
     }
     assert(data.blocchi.length > 0);
+    // Testo IURIS di romano: ogni sezione si apre con il titolo della sua lezione (confini-sezioni.json).
+    if (doc.id === 'romano-iuris-v1') assert.match(data.blocchi[0].markdown, /^#{2,3} /, `${doc.id}/${sec.id}: la sezione deve cominciare con un titolo`);
     for (const b of data.blocchi) {
       assert(!seen.has(b.id), 'ID del blocco unico nel documento'); seen.add(b.id);
       assert.match(b.id, /^p\d{3}-b\d{3}$/); assert.equal(Number(b.id.slice(1, 4)), b.pagina);
@@ -98,13 +102,15 @@ for (const doc of docs) {
         assert.deepEqual(tokens(plain(b.markdown).replace(/<[^>]+>/g, '')), tokens(plain(baseIuris.get(b.id) ?? '')),
           `${doc.id}/${b.id}: l'impaginazione conserva tutte le parole della fonte, nello stesso ordine`);
         const html = documento.createElement('div'); html.innerHTML = marked.parse(senzaLink(b.markdown));
+        if (!iuris.has(doc.id)) iuris.set(doc.id, { titoli: 0, tabelle: 0, capoversi: 0, voci: 0, parole: [] });
+        const m = iuris.get(doc.id);
         const visita = (n) => {
-          if (/^H[1-6]$/.test(n.tagName ?? '')) titoliIuris++;
-          if (n.tagName === 'TABLE') tabelleIuris++;
+          if (/^H[1-6]$/.test(n.tagName ?? '')) m.titoli++;
+          if (n.tagName === 'TABLE') m.tabelle++;
           if (n.tagName === 'P' || (n.tagName === 'LI' && !n.children.some((c) => c.tagName === 'P'))) {
             const parole = n.textContent.trim().split(/\s+/).filter(Boolean).length;
             assert(parole > 0 && parole <= 200, `${doc.id}/${b.id}: capoverso o voce d'elenco vuota o troppo lunga (${parole} parole)`);
-            capoversiIuris++; if (n.tagName === 'P') paroleIuris.push(parole);
+            if (n.tagName === 'P') { m.capoversi++; m.parole.push(parole); } else m.voci++;
           }
           for (const c of n.children ?? []) visita(c);
         };
@@ -135,12 +141,25 @@ for (const doc of docs) {
   assert.equal(seen.size, audit.blocchi);
   pages += doc.pagine;
 }
-assert.equal(docs.length, 11); assert.equal(pages, 1242); assert.equal(soloTesto, 3); assert.equal(integrazioni, 12); assert(pilot >= 2);
-assert.equal(originali.filter((d) => d.file).length, 7, '7 PDF pubblicati');
-assert(titoliIuris >= 1200, 'Testo IURIS: i titoli «###» devono restare distinti dal corpo del testo');
-assert(tabelleIuris >= 5, 'Testo IURIS: le tabelle restano tabelle');
-const medianaIuris = paroleIuris.sort((x, y) => x - y)[Math.floor(paroleIuris.length / 2)];
-assert(capoversiIuris >= 3500 && medianaIuris <= 80, `Testo IURIS: capoversi separati (${capoversiIuris}, mediana ${medianaIuris} parole)`);
+assert.equal(docs.length, 11); assert.equal(pages, 1242); assert.equal(soloTesto, 4); assert.equal(integrazioni, 12); assert(pilot >= 2);
+assert.equal(originali.filter((d) => d.file).length, 6, '6 PDF pubblicati');
+// Soglie minime per testo IURIS: titoli distinti dal corpo, capoversi e voci separati, mediana breve.
+// Costituzionale: 1.297 titoli, 6 tabelle, ~4.080 capoversi e voci. Romano: vedi piani/fase-romano/originali.md.
+const SOGLIE_IURIS = {
+  'costituzionale-iuris-v1': { titoli: 1200, tabelle: 5, capoversiEVoci: 3500, mediana: 80 },
+  'romano-iuris-v1': { titoli: 650, tabelle: 1, capoversiEVoci: 2800, mediana: 60 },
+};
+assert.deepEqual([...iuris.keys()].sort(), Object.keys(SOGLIE_IURIS).sort(), 'testi IURIS attesi: costituzionale e romano');
+const misureIuris = [];
+for (const [id, m] of iuris) {
+  const s = SOGLIE_IURIS[id];
+  const mediana = m.parole.sort((x, y) => x - y)[Math.floor(m.parole.length / 2)];
+  assert.equal(m.titoli, titoliFonte.get(id), `${id}: ogni titolo «#» del testo resta un titolo nel testo pubblicato`);
+  assert(m.titoli >= s.titoli, `${id}: i titoli «###» devono restare distinti dal corpo del testo (${m.titoli})`);
+  assert(m.tabelle >= s.tabelle, `${id}: le tabelle restano tabelle`);
+  assert(m.capoversi + m.voci >= s.capoversiEVoci && mediana <= s.mediana, `${id}: capoversi separati (${m.capoversi + m.voci}, mediana ${mediana} parole)`);
+  misureIuris.push(`${id}: ${m.titoli} titoli, ${m.tabelle} tabelle, ${m.capoversi} capoversi e ${m.voci} voci d'elenco (mediana dei capoversi ${mediana} parole)`);
+}
 for (const materia of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del-diritto-ssg', 'diritto-costituzionale', 'diritto-privato', 'filosofia-del-diritto-mz']) {
   const corso = await read(`public/content/${materia}/corso.json`);
   for (const l of corso.unita.flatMap((u) => u.lezioni)) assert(lezioniCorso.has(`${materia}:${l.id}`), `testo completo accessibile per ${materia}/${l.id}`);
@@ -155,4 +174,4 @@ const p2 = await read('public/letture/filosofia-incampo-v1/u01-l2.json');
 assert(p2.blocchi.find((b) => b.id === 'p006-b001').markdown.includes('nullum crimen sine lege'));
 assert(p2.blocchi.find((b) => b.id === 'p005-b004').notaRevisione.includes('resta da verificare'));
 console.log(`Estrazione verificata: ${originali.filter((d) => d.file).length} PDF e ${soloTesto} testi senza PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);
-console.log(`Impaginazione del testo IURIS verificata: ${titoliIuris} titoli, ${tabelleIuris} tabelle, ${capoversiIuris} capoversi e voci d'elenco (mediana dei capoversi ${medianaIuris} parole, nessuno oltre 200); testo integrale conservato.`);
+console.log(`Impaginazione dei testi IURIS verificata (nessun capoverso o voce oltre 200 parole, testo integrale conservato): ${misureIuris.join('; ')}.`);

@@ -43,9 +43,17 @@ for (const doc of catalogo) {
     const md = await readFile(path.join(source, doc.id, `${sec.id}.md`), 'utf8');
     for (const m of md.matchAll(/<!-- blocco:([^\s]+) pagina:(\d+) -->\s*\n([\s\S]*?)(?=\n\s*<!-- blocco:|$)/g)) blocchi.push({ id: m[1], pagina: Number(m[2]), testo: m[3].trim() });
   }
+  // Lezioni il cui testo completo sta in una raccolta ricostruita dal Percorso della stessa materia (Romano, u14–u15):
+  // nel documento restano solo i titoli e la sezione rimanda alla raccolta.
+  const integrazione = (s) => {
+    const prima = doc.sezioni.find((p) => p.id === s.id);
+    if (prima?.soloTitolo) return prima.integrazione;
+    const r = catalogo.find((d) => d.tipoFonte === 'manuale-ricostruito' && d.materia === doc.materia && d.sezioni.some((x) => x.lezione === s.lezione));
+    return r && s.lezioni.length === 1 ? { documento: r.id, sezione: r.sezioni.find((x) => x.lezione === s.lezione).id } : null;
+  };
   const nuove = sezioni.map((s) => ({ id: s.id, titolo: s.titolo, da: s.da, a: s.a, ...(s.lezione ? { lezione: s.lezione } : {}),
     ...(s.lezioni.length > 1 ? { lezioni: s.lezioni } : {}), revisionata: true, file: `letture/${doc.id}/${s.id}.json`,
-    ...(doc.sezioni.find((p) => p.id === s.id)?.soloTitolo ? { soloTitolo: true, integrazione: doc.sezioni.find((p) => p.id === s.id).integrazione } : {}) }));
+    ...(integrazione(s) ? { soloTitolo: true, integrazione: integrazione(s) } : {}) }));
   let usati = 0;
   const testi = nuove.map((s) => {
     const parte = blocchi.filter((b) => b.pagina >= s.da && b.pagina <= s.a); usati += parte.length;

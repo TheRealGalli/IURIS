@@ -1,12 +1,13 @@
 [
   {
-    "id": "romano-pennacchio-2021-22-v1",
+    "id": "romano-iuris-v1",
     "materia": "diritto-romano",
-    "titolo": "Appunti di Storia del diritto romano",
-    "descrizione": "Appunti a cura di Sabrina Pennacchio, A.A. 2021–22. Materiale di partenza del Percorso, non il manuale integrale.",
-    "file": "originali/romano-pennacchio-2021-22.pdf",
+    "titolo": "Storia del diritto romano · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma del manuale di M. Bretone, Storia del diritto romano, comune alle tre classi (LMG A-L, LMG M-Z e SSG): stessa divisione in lezioni del Percorso.",
+    "testoFonte": "testi/romano-iuris.txt",
+    "testoMarkdown": true,
     "pagine": 223,
-    "sha256": "146073db34d1a58f991a8aaabe0a7ccd2aff69f28b6273b075aade8a98552241"
+    "sha256": "ce26c11616e3f17b228d7c7528ffbe7bed267cee24072368fd244a21256bb2e2"
   },
   {
     "id": "romano-manuale-integrazioni-v1",

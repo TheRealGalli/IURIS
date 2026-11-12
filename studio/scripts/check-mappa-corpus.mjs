@@ -7,7 +7,11 @@ import { apriCorpus } from './lib/corpus-letture.mjs';
 const C = await apriCorpus();
 const campione = JSON.parse(await readFile(new URL('./fixtures/segni-campione.json', import.meta.url), 'utf8'));
 // Soglie: quanti segni del backup di prova si ritrovavano prima di questa tornata di revisioni (mai meno).
-const MINIMO_STRESS = { 'romano-pennacchio-2021-22-v1': 287, 'filosofia-incampo-v1': 154, 'filosofia-moro-v1': 30 };
+// Romano: il testo IURIS (romano-iuris-v1) ha sostituito gli appunti; campione e stress sono stati rigenerati sul testo nuovo
+// (12 novembre 2026, stesse forme del backup di prova: capoversi interi, prime frasi, titoli, voci, 6 segni su due blocchi).
+const MINIMO_STRESS = { 'romano-iuris-v1': 287, 'filosofia-incampo-v1': 154, 'filosofia-moro-v1': 30 };
+// Documenti che devono avere segni di prova: un documento nuovo senza campione non deve passare in silenzio.
+for (const id of Object.keys(MINIMO_STRESS)) assert(campione.documenti[id]?.length && campione.stress?.[id]?.length, `${id}: segni di prova mancanti in fixtures/segni-campione.json`);
 const pag = (s) => s.ancoreTesto?.length ? s.ancoreTesto.map((a) => Number(/^p(\d+)-/.exec(a.blocco)?.[1] ?? s.pagina)) : [s.pagina];
 let controlli = 0;
 const conti = {};

@@ -45,9 +45,13 @@ try {
   const check = (name, fn) => { try { fn(); checks++; } catch (e) { e.message = `${name}: ${e.message}`; throw e; } };
 
   check('Catalogo per materia e limiti delle pagine', () => {
-    // Romano: appunti di Pennacchio più la raccolta integrativa ricostruita dal Percorso, senza PDF.
+    // Romano: testo scritto da IURIS (stessa numerazione degli appunti che ha sostituito) più la raccolta integrativa
+    // ricostruita dal Percorso (unità 14 e 15); nessun PDF di terzi.
     assert.equal(lib.originaliMateria('diritto-romano').length, 2);
     assert(lib.originaliMateria('diritto-romano').some((d) => d.tipoFonte === 'manuale-ricostruito' && !d.file));
+    assert(lib.originaliMateria('diritto-romano').every((d) => !d.file), 'Romano: nessun PDF pubblicato');
+    assert.equal(doc.id, 'romano-iuris-v1', 'Romano: il primo originale è il testo IURIS');
+    assert(doc.testoFonte && doc.testoMarkdown && doc.pagine === 223, 'Romano: testo IURIS di 223 pagine, solo testo');
     assert.equal(lib.originaliMateria('filosofia-del-diritto').length, 3);
     assert.equal(lib.originaliMateria('filosofia-del-diritto-ssg').length, 2, 'SSG: sbobinature e riassunto di Incampo');
     // Costituzionale (unica per le tre classi): solo il testo scritto da IURIS, nessun PDF o riassunto di terzi.

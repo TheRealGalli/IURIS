@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Controllo del testo IURIS (Originale scritto da noi) contro le fonti.
 
-Uso: python3 piani/strumenti/controlla-iuris.py <file.txt> [<file.txt> …]  [--json]
+Uso: python3 piani/strumenti/controlla-iuris.py <file.txt> [<file.txt> …]  [--json] [--fonte=<testo.txt>] [--extra=<testo.txt>]
+Romano: --fonte="Diritto Romano /00 - Appunti e fonti/testo/pennacchio.txt" --extra=(stessa)
 
 Il testo IURIS è diviso «=== pagina N ===»: la pagina N riscrive la pagina N del riassunto Martines
 (stessa numerazione), con dentro i temi del percorso A-L (Bin-Pitruzzella) che le appartengono.
@@ -41,10 +42,16 @@ def riferimenti(t):
     for m in re.finditer(r'\bartt?\.\s*(\d+(?:\s*(?:,|e|-|–)\s*\d+)*)', t, re.I):
         refs.update(re.findall(r'\d+', m.group(1)))
     refs.update(re.findall(r'\b(1[6-9]\d\d|20[0-2]\d)\b', t))
+    refs.update(re.findall(r'\b(\d{2,4})\s*(?:a\.\s?C|d\.\s?C)', t))  # date avanti/dopo Cristo (romano)
     refs.update(re.findall(r'\b\d{1,4}/(?:19|20)?\d{2,4}\b', t))
     return refs
 
 def main():
+    global MART, BINP
+    for a in sys.argv[1:]:
+        # --fonte=<testo per pagina della materia> (default: Martines) e --extra=<altra fonte per l'originalità>
+        if a.startswith('--fonte='): MART = Path(a.split('=', 1)[1])
+        if a.startswith('--extra='): BINP = Path(a.split('=', 1)[1])
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     if not args:
         print(__doc__); sys.exit(2)

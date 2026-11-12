@@ -1,37 +1,64 @@
 {
-  "_nota": "Blocchi iniziali di una sezione che continuano l'argomento della precedente (riportati in coda a quella) e, in «avanti», blocchi finali che aprono l'argomento della successiva. node scripts/sposta-blocchi.mjs --scrivi, dopo sezioni-letture.mjs. «verificati»: inizi giusti che il controllo segnalerebbe (paragrafi numerati del manuale). Nelle sbobinature SSG alcune pagine sono un solo paragrafo continuo: la sezione può aprirsi solo al cambio pagina. Testo IURIS di costituzionale (testoFonte e testoMarkdown nel catalogo): un blocco per capoverso, titolo o tabella; ogni sezione comincia dal titolo «###» con cui si apre la sua lezione. Filosofia M-Z (Barberis, Schauer): documenti solo testo (testoFonte nel catalogo), capoversi già divisi nel testo pubblicato; i confini seguono i titoli di capitolo e paragrafo che aprono le lezioni.",
-  "romano-pennacchio-2021-22-v1": {
+  "_nota": "Blocchi iniziali di una sezione che continuano l'argomento della precedente (riportati in coda a quella) e, in «avanti», blocchi finali che aprono l'argomento della successiva. node scripts/sposta-blocchi.mjs --scrivi, dopo sezioni-letture.mjs. «verificati»: inizi giusti che il controllo segnalerebbe (paragrafi numerati del manuale). Nelle sbobinature SSG alcune pagine sono un solo paragrafo continuo: la sezione può aprirsi solo al cambio pagina. Testo IURIS di costituzionale (testoFonte e testoMarkdown nel catalogo): un blocco per capoverso, titolo o tabella; ogni sezione comincia dal titolo «###» con cui si apre la sua lezione. Filosofia M-Z (Barberis, Schauer): documenti solo testo (testoFonte nel catalogo), capoversi già divisi nel testo pubblicato; i confini seguono i titoli di capitolo e paragrafo che aprono le lezioni. Testo IURIS di Romano (romano-iuris-v1, stessa impostazione di costituzionale): ogni sezione comincia dal titolo «###» con cui si apre la sua lezione; le pp. 170–175 (unità 14) sono solo titoli e rimandano alle integrazioni dal Percorso.",
+  "romano-iuris-v1": {
     "u01-l3": [
       "p005-b001"
     ],
     "u01-l4": [
       "p006-b001",
       "p006-b002",
-      "p006-b003"
+      "p006-b003",
+      "p006-b004"
     ],
     "u02-l2": [
-      "p011-b001"
+      "p011-b001",
+      "p011-b002",
+      "p011-b003",
+      "p011-b004",
+      "p011-b005"
     ],
     "u02-l4": [
       "p015-b001",
       "p015-b002",
-      "p015-b003"
+      "p015-b003",
+      "p015-b004",
+      "p015-b005",
+      "p015-b006"
     ],
     "u02-l6": [
-      "p018-b001"
+      "p018-b001",
+      "p018-b002",
+      "p018-b003",
+      "p018-b004"
     ],
     "u03-l8": [
-      "p041-b001"
+      "p041-b001",
+      "p041-b002",
+      "p041-b003",
+      "p041-b004",
+      "p041-b005",
+      "p041-b006"
     ],
     "u04-l2": [
       "p051-b001"
     ],
     "u05-l6": [
-      "p066-b001"
+      "p066-b001",
+      "p066-b002",
+      "p066-b003",
+      "p066-b004",
+      "p066-b005",
+      "p066-b006",
+      "p066-b007",
+      "p066-b008"
     ],
     "u05-l8": [
       "p071-b001",
-      "p071-b002"
+      "p071-b002",
+      "p071-b003",
+      "p071-b004",
+      "p071-b005",
+      "p071-b006"
     ],
     "u05-l10": [
       "p076-b001"
@@ -39,12 +66,28 @@
     "u05-l12": [
       "p080-b001"
     ],
+    "u06-l3": [
+      "p088-b001",
+      "p088-b002",
+      "p088-b003",
+      "p088-b004",
+      "p088-b005",
+      "p088-b006",
+      "p088-b007",
+      "p088-b008",
+      "p088-b009"
+    ],
     "u06-l4": [
       "p091-b001",
-      "p091-b002"
+      "p091-b002",
+      "p091-b003",
+      "p091-b004",
+      "p091-b005"
     ],
     "u07-l2": [
-      "p113-b001"
+      "p113-b001",
+      "p113-b002",
+      "p113-b003"
     ],
     "u07-l5": [
       "p122-b001",
@@ -52,39 +95,86 @@
       "p122-b003"
     ],
     "u08-l2": [
-      "p127-b001"
+      "p127-b001",
+      "p127-b002"
     ],
     "u08-l3": [
-      "p129-b001"
+      "p129-b001",
+      "p129-b002",
+      "p129-b003",
+      "p129-b004",
+      "p129-b005"
     ],
     "u08-l5": [
-      "p133-b001"
+      "p133-b001",
+      "p133-b002",
+      "p133-b003",
+      "p133-b004",
+      "p133-b005",
+      "p133-b006",
+      "p133-b007",
+      "p133-b008",
+      "p133-b009",
+      "p133-b010",
+      "p133-b011"
     ],
     "u08-l10": [
       "p149-b001",
       "p149-b002",
       "p149-b003",
-      "p150-b001"
+      "p149-b004",
+      "p149-b005",
+      "p149-b006",
+      "p149-b007",
+      "p149-b008",
+      "p149-b009",
+      "p149-b010",
+      "p149-b011",
+      "p149-b012",
+      "p149-b013",
+      "p150-b001",
+      "p150-b002",
+      "p150-b003"
     ],
     "u11-l2": [
-      "p178-b001"
+      "p178-b001",
+      "p178-b002"
     ],
     "u11-l7": [
-      "p189-b001"
+      "p189-b001",
+      "p189-b002",
+      "p189-b003",
+      "p189-b004"
+    ],
+    "u11-l9": [
+      "p194-b001"
     ],
     "u12-l2": [
       "p203-b001",
       "p203-b002",
-      "p203-b003"
+      "p203-b003",
+      "p203-b004",
+      "p203-b005",
+      "p203-b006",
+      "p203-b007",
+      "p203-b008",
+      "p203-b009"
     ],
     "u12-l3": [
       "p206-b001"
     ],
     "u12-l4": [
-      "p208-b001"
+      "p208-b001",
+      "p208-b002",
+      "p208-b003"
     ],
     "u13-l2": [
-      "p215-b001"
+      "p215-b001",
+      "p215-b002",
+      "p215-b003",
+      "p215-b004",
+      "p215-b005",
+      "p215-b006"
     ]
   },
   "filosofia-incampo-v1": {
@@ -600,20 +690,6 @@
       ],
       "u15-l4": [
         "p125-b001"
-      ]
-    },
-    "romano-pennacchio-2021-22-v1": {
-      "u03-l7": [
-        "p040-b001"
-      ],
-      "u06-l7": [
-        "p102-b001"
-      ],
-      "u10-l2": [
-        "p167-b001"
-      ],
-      "u12-l3": [
-        "p206-b002"
       ]
     },
     "filosofia-ssg-lezioni-v1": {

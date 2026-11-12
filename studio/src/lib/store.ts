@@ -83,7 +83,16 @@ export function registraMigrazione(materia: string, m: Migrazione | undefined): 
 /** Riesegue le migrazioni note: dopo un ripristino o la fine della demo (dati vecchi rientrati nell'archivio). */
 export function eseguiMigrazioni() {
   for (const materia of migrazioni.keys()) eseguiMigrazione(materia);
+  for (const fn of dopoMigrazioni) try { fn(); } catch { /* si riprova al prossimo avvio */ }
 }
+
+/** Passi da ripetere dopo ogni migrazione dei progressi (es. i segni degli Originali sostituiti, migrazione-segni.ts):
+ *  registrati da fuori, così questo modulo non dipende da chi carica i testi. */
+const dopoMigrazioni = new Set<() => void>();
+export function dopoOgniMigrazione(fn: () => void) { dopoMigrazioni.add(fn); }
+
+/** Progressi salvati di una materia, senza crearli (`null` se non ce ne sono). Da non modificare: si scrive con `aggiorna`. */
+export const progressoSalvato = (slug: string): Progresso | null => salvati(slug);
 
 function eseguiMigrazione(materia: string): 'nulla' | 'rimandata' | 'fatta' {
   const m = migrazioni.get(materia);

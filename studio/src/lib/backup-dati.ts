@@ -69,6 +69,7 @@ function lettura(v: unknown, dove: string) {
   if (l.bloccoTesto !== undefined && (!idSezioneTestoValido(l.bloccoTesto) || l.sezioneTesto === undefined)) errore(`${dove}.bloccoTesto`);
   const segni = array(l.segni, `${dove}.segni`).map((s, i) => segno(s, `${dove}.segni[${i}]`));
   if (new Set(segni.map((s) => s.id)).size !== segni.length) errore(`${dove}: ID dei segni duplicati`);
+  if (l.segniMigrati !== undefined) mappa(l.segniMigrati, `${dove}.segniMigrati`, (v, d) => array(v, d).forEach((id) => testo(id, d)));
   if (l.storiaSegni === undefined) return;
   const storia = oggetto(l.storiaSegni, `${dove}.storiaSegni`);
   const pile = ['indietro', 'avanti'] as const;

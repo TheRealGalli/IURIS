@@ -581,3 +581,19 @@ manuale a scelta). Le due costituzionali sono diventate **una materia** (`Diritt
 - **Da sapere**: i segni fatti sui due Originali vecchi restano salvati ma non si vedono sul testo nuovo.
 - **Per privato e romano**: stesso schema (gruppi per capitoli, testo IURIS pagina per pagina, `controlla-iuris.py`),
   senza unione di materie perché sono già uniche.
+
+
+## Storia del diritto romano: testo IURIS e migrazione dei segni (12 novembre 2026)
+
+- **Originale «testo IURIS»** (`romano-iuris-v1`, `studio/letture-src/testi/romano-iuris.txt`): 223 pagine scritte da noi
+  con la stessa numerazione e la stessa divisione degli appunti; Percorso invariato. 10 gruppi (istruzioni in
+  [`fase-romano/brief.md`](fase-romano/brief.md)); `controlla-iuris.py` senza sequenze copiate; verifica a campione di 28
+  pagine e correzioni ([`fase-romano/verifica.md`](fase-romano/verifica.md)). 680 titoli, capoversi di 34 parole in
+  mediana, nessuno oltre 200. Il PDF degli appunti non è più pubblicato.
+- **Segni migrati**: `scripts/allinea-originali.mjs` allinea frase per frase il testo vecchio al nuovo; l'app sposta i
+  segni sulle frasi corrispondenti (stesso tipo e colore), quelli incerti restano «da ricollocare», i dati vecchi
+  restano nel backup ([`fase-costituzionale/segni.md`](fase-costituzionale/segni.md)). Frasi con corrispondenza sicura:
+  Romano 97,3% (4 frasi su 3.893 senza corrispondenza: il testo nuovo copre gli appunti), Martines 95,8%,
+  Bin-Pitruzzella 17,5% (il testo IURIS di costituzionale segue il Martines: i segni A-L arrivano quasi tutti da ricollocare).
+- **Prossimi passi**: glossario di costituzionale (voci mancanti come «interesse individuale»); testo IURIS di privato;
+  titoli negli Originali di Filosofia M-Z e capoversi delle sbobinature di Filosofia SSG.

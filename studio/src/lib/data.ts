@@ -2,7 +2,12 @@ import { createContext, useContext } from 'react';
 import type { Concetto, Corso, Domanda, Evento, FonteEsame, Lezione, Manifest, Relazione, TracciaEsame, Unita } from './types';
 import { creaDomandeGlossario, creaSchedeInverse } from './inverse';
 import { creaDomandeCronologia } from './domande-eventi';
-import { registraMigrazione } from './store';
+import { dopoOgniMigrazione, registraMigrazione } from './store';
+import { migraSegniOriginali } from './migrazione-segni';
+
+// Dopo ogni migrazione dei progressi (ripristino di un backup, fine della demo) si riportano anche i segni degli
+// Originali sostituiti sul testo nuovo (lib/migrazione-segni.ts).
+dopoOgniMigrazione(() => { void migraSegniOriginali(); });
 
 export async function fetchManifest(): Promise<Manifest> {
   const r = await fetch('content/manifest.json', { cache: 'no-store' });
@@ -114,6 +119,8 @@ export function caricaCorso(file: string): Promise<Indice> {
       .then((c: Corso) => {
         // Progressi salvati con id vecchi: si rinominano prima che la materia si apra (prima di ogni nuova risposta).
         if (c.migrazione) try { registraMigrazione(c.materia.slug, c.migrazione); } catch (e) { console.warn('Migrazione dei progressi non riuscita', e); }
+        // Segni degli Originali sostituiti da un testo nuovo: in sottofondo, dopo la migrazione dei progressi.
+        void migraSegniOriginali(c.materia.slug);
         return indicizza(c);
       }));
   }

@@ -56,6 +56,9 @@ export interface LetturaOriginale {
   storiaSegni?: StoriaSegniOriginali;
   sezioneTesto?: string;
   bloccoTesto?: string;
+  /** Segni già portati qui da un documento sostituito (id del documento vecchio → id dei suoi segni già trattati,
+   *  anche quelli non ricreati): la migrazione (lib/migrazione-segni.ts) non li ripete. */
+  segniMigrati?: Record<string, string[]>;
 }
 
 export const idSezioneTestoValido = (id: unknown): id is string => typeof id === 'string' && /^[a-z0-9][a-z0-9._-]{0,159}$/i.test(id);

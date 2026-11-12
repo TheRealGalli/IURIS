@@ -1,0 +1,419 @@
+{
+  "documento": "romano-iuris-v1",
+  "edizione": 1,
+  "id": "u03-l6",
+  "titolo": "Le legis actiones di accertamento: sacramentum, iudicis arbitrive postulatio, condictio",
+  "da": 36,
+  "a": 39,
+  "lezione": "u03-l6",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p036-b001",
+      "pagina": 36,
+      "markdown": "### 1. Le legis actiones di accertamento",
+      "concetti": []
+    },
+    {
+      "id": "p036-b002",
+      "pagina": 36,
+      "markdown": "Sono le azioni che servono ad **accertare** determinate situazioni giuridiche controverse, e per questo si dicono «di cognizione»: il loro scopo è far emergere dal processo la verità giuridica.",
+      "concetti": []
+    },
+    {
+      "id": "p036-b003",
+      "pagina": 36,
+      "markdown": "- Possono, per esempio, accertare a chi spetti un diritto: chi si dichiara proprietario rivendica una certa cosa e l'azione mira a verificare il suo titolo di proprietà.",
+      "concetti": []
+    },
+    {
+      "id": "p036-b004",
+      "pagina": 36,
+      "markdown": "### I protagonisti",
+      "concetti": []
+    },
+    {
+      "id": "p036-b005",
+      "pagina": 36,
+      "markdown": "Nel processo compaiono:",
+      "concetti": []
+    },
+    {
+      "id": "p036-b006",
+      "pagina": 36,
+      "markdown": "- le **due parti**, la cui presenza è indispensabile: l'**attore**, che prende l'iniziativa e avanza la pretesa avviando l'azione (tecnicamente, «azione» indica appunto questa iniziativa dell'attore nel processo), e il **convenuto**, che viene chiamato in giudizio (*vocatus in ius*);\n- il **pretore**, che dirige la fase *in iure*, e il **giudice**, che conduce la fase *apud iudicem*;\n- almeno **due testimoni**, alla cui presenza le parti si scambiano le dichiarazioni.",
+      "concetti": []
+    },
+    {
+      "id": "p036-b007",
+      "pagina": 36,
+      "markdown": "### La fase in iure",
+      "concetti": [
+        "fase-in-iure"
+      ]
+    },
+    {
+      "id": "p036-b008",
+      "pagina": 36,
+      "markdown": "Si svolge davanti al **pretore**, che non decide la lite ma ha soltanto un ruolo di direzione e di controllo: verifica che le parti agiscano correttamente sul piano formale, poiché occorre pronunciare parole solenni e compiere gesti prestabiliti.",
+      "concetti": []
+    },
+    {
+      "id": "p036-b009",
+      "pagina": 36,
+      "markdown": "**[[in-ius-vocatio|In ius vocatio]].** L'attore deve chiamare l'avversario in giudizio, ordinandogli di seguirlo davanti al magistrato, se necessario anche trascinandolo a forza, ma sempre secondo modalità rigorosamente fissate. Le XII Tavole lo prevedono espressamente:",
+      "concetti": [
+        "in-ius-vocatio"
+      ]
+    },
+    {
+      "id": "p036-b010",
+      "pagina": 36,
+      "markdown": "- se il convenuto rifiuta di presentarsi, l'attore lo afferra;\n- se esita o resiste, l'attore gli «impone la mano»;\n- se malattia o età gli impediscono di recarsi dal magistrato, l'attore deve procurargli un giumento, ma non è obbligato, se non vuole, a fornirgli un carro coperto.",
+      "concetti": []
+    },
+    {
+      "id": "p036-b011",
+      "pagina": 36,
+      "markdown": "**[[litis-contestatio|Litis contestatio]].** Il nome di ***litis contestatio*** indica il confronto delle dichiarazioni delle parti, che e avviene davanti a testimoni: le parti chiamano i presenti a testimoniare e li invitano a ricordare bene quanto detto, per poterlo riferire al giudice. Tutto ciò serve a garantire il rispetto corretto e rigoroso delle formule. Con la *litis contestatio* le parti espongono in breve le ragioni che faranno valere davanti allo *iudex*, il quale le valuterà per decidere.",
+      "concetti": [
+        "litis-contestatio"
+      ]
+    },
+    {
+      "id": "p036-b012",
+      "pagina": 36,
+      "markdown": "### La fase apud iudicem",
+      "concetti": [
+        "fase-apud-iudicem"
+      ]
+    },
+    {
+      "id": "p036-b013",
+      "pagina": 36,
+      "markdown": "Si svolge davanti al **giudice**, che può essere un singolo o un collegio. Ricevute le dichiarazioni delle parti, dopo aver raccolto e vagliato le prove, il giudice pronuncia la **sentenza**, esito finale dell'azione; contro di essa non si poteva esperire nessun'altra *legis actio*.",
+      "concetti": []
+    },
+    {
+      "id": "p037-b001",
+      "pagina": 37,
+      "markdown": "### La legis actio sacramento",
+      "concetti": [
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p037-b002",
+      "pagina": 37,
+      "markdown": "È la *legis actio* sulla quale le informazioni sono più abbondanti, grazie soprattutto a [[gaio|Gaio]].",
+      "concetti": [
+        "gaio"
+      ]
+    },
+    {
+      "id": "p037-b003",
+      "pagina": 37,
+      "markdown": "Poteva essere esperita in due forme, secondo la natura del rapporto da tutelare:",
+      "concetti": []
+    },
+    {
+      "id": "p037-b004",
+      "pagina": 37,
+      "markdown": "- ***in rem***, per i **rapporti reali**, cioè relativi alle cose (*res*). Serviva a perseguire la cosa presso chiunque si trovasse: l'azione si poteva rivolgere contro chiunque fosse in relazione con la *res*.\n- ***in personam***, per i **rapporti obbligatori**. Serviva a far valere un'obbligazione, cioè la responsabilità che nasce dal mancato adempimento. Poiché tutela un rapporto sorto da un vincolo tra le parti, l'azione colpisce l'inadempimento e si può quindi proporre soltanto contro il soggetto inadempiente.",
+      "concetti": []
+    },
+    {
+      "id": "p037-b005",
+      "pagina": 37,
+      "markdown": "### Il sacramentum in rem: la fase in iure",
+      "concetti": [
+        "fase-in-iure",
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p037-b006",
+      "pagina": 37,
+      "markdown": "Della forma *in rem* sappiamo di più, ma lo schema della forma *in personam* è analogo: conviene perciò descrivere la prima nel dettaglio e poi indicare le differenze della seconda.",
+      "concetti": []
+    },
+    {
+      "id": "p037-b007",
+      "pagina": 37,
+      "markdown": "Sono necessarie la presenza delle parti e quella materiale della **cosa contesa**, sulla quale si compiono i gesti del rito: se la lite riguardava un fondo, ad esempio, il processo si celebrava sul fondo stesso.",
+      "concetti": []
+    },
+    {
+      "id": "p037-b008",
+      "pagina": 37,
+      "markdown": "- Si apre con la ***in ius vocatio***: l'attore chiama il convenuto davanti al magistrato.\n- Segue la ***litis contestatio***: le parti si scambiano, davanti ai testimoni, dichiarazioni formali e solenni.",
+      "concetti": [
+        "litis-contestatio",
+        "in-ius-vocatio"
+      ]
+    },
+    {
+      "id": "p037-b009",
+      "pagina": 37,
+      "markdown": "### Vindicatio e contravindicatio",
+      "concetti": [
+        "vindicatio"
+      ]
+    },
+    {
+      "id": "p037-b010",
+      "pagina": 37,
+      "markdown": "Le dichiarazioni scambiate fanno sembrare entrambe le parti attrici, poste su un piano di perfetta parità:",
+      "concetti": []
+    },
+    {
+      "id": "p037-b011",
+      "pagina": 37,
+      "markdown": "- l'attore pronuncia la **[[vindicatio|formula vindicatoria]]**, ad esempio: «Io dico che questa cosa è mia secondo il diritto dei Quiriti»;\n- il convenuto risponde con una ***contravindicatio***: «Anch'io dico che questa cosa è mia».",
+      "concetti": [
+        "vindicatio"
+      ]
+    },
+    {
+      "id": "p037-b012",
+      "pagina": 37,
+      "markdown": "Ognuno afferma, in termini identici ma opposti, di essere titolare del diritto sulla cosa contesa. A differenza del processo moderno, dunque, non c'è una parte che pretende e una che si limita a difendersi: entrambe rivendicano.",
+      "concetti": []
+    },
+    {
+      "id": "p037-b013",
+      "pagina": 37,
+      "markdown": "### Il rito della festuca",
+      "concetti": []
+    },
+    {
+      "id": "p037-b014",
+      "pagina": 37,
+      "markdown": "La *litis contestatio* si accompagna a un simbolismo di gesti. La cosa, che come si è visto doveva essere presente, viene toccata con la ***festuca***, una verga che rappresenta la lancia, simbolo di ogni dominio e di ogni *potestas*.",
+      "concetti": [
+        "litis-contestatio"
+      ]
+    },
+    {
+      "id": "p037-b015",
+      "pagina": 37,
+      "markdown": "- Subito dopo il magistrato, sempre con parole solenni, ordina alle parti di lasciare la cosa.\n- Ne assegna poi il **possesso provvisorio** alla parte che offre maggiori garanzie di restituirla dopo la sentenza. Durante il processo, infatti, la cosa può dare frutti o crescere di valore (si pensi a un fondo), e alla fine dovrà essere restituita per intero, compreso ciò che si è aggiunto.\n- Intervengono a tal fine dei garanti della restituzione della cosa e dei frutti, i ***[[praedes|praedes litis et vindiciarum]]***.",
+      "concetti": [
+        "praedes"
+      ]
+    },
+    {
+      "id": "p037-b016",
+      "pagina": 37,
+      "markdown": "### La sfida al sacramentum",
+      "concetti": [
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p037-b017",
+      "pagina": 37,
+      "markdown": "A questo punto le parti si sfidano al ***[[legis-actio-per-sacramentum|sacramentum]]***: un giuramento, o una scommessa. In origine era un giuramento religioso, poi sostituito da una scommessa in denaro: chi giurava il falso, o perdeva la scommessa, doveva pagare. Ciascuna parte si impegna, con parole solenni, a versare all'erario una certa somma se risulterà soccombente.",
+      "concetti": [
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p037-b018",
+      "pagina": 37,
+      "markdown": "- Anche qui intervengono dei garanti, chiamati ***praedes sacramenti***.",
+      "concetti": [
+        "praedes"
+      ]
+    },
+    {
+      "id": "p038-b001",
+      "pagina": 38,
+      "markdown": "### Il sacramentum in rem: la fase apud iudicem",
+      "concetti": [
+        "fase-apud-iudicem",
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p038-b002",
+      "pagina": 38,
+      "markdown": "Il *sacramentum* chiude la fase *in iure*, caratterizzata dal gesto della festuca, dalla presenza dei garanti e dal ruolo direttivo e di controllo del magistrato. Se tutto si è svolto regolarmente, si passa alla fase *apud iudicem*.",
+      "concetti": [
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p038-b003",
+      "pagina": 38,
+      "markdown": "- Qui il compito del giudice è decidere la lite con una **sentenza**.\n- Probabilmente si procedeva anche all'**assunzione delle prove**, cioè all'esame di quanto le parti portavano a sostegno delle proprie ragioni.",
+      "concetti": []
+    },
+    {
+      "id": "p038-b004",
+      "pagina": 38,
+      "markdown": "Il giudice non dice direttamente di chi sia la cosa: stabilisce quale dei due *sacramenta* (le affermazioni oggetto della sfida) sia giusto, *iustum*, e quale ingiusto, *iniustum*. La sua formula è: «utrius sacramentum iustum, utrius iniustum sit», cioè quale dei due giuramenti sia conforme al diritto e quale no.",
+      "concetti": [
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p038-b005",
+      "pagina": 38,
+      "markdown": "- In questo modo si decreta, indirettamente, la **soccombenza** di una delle parti; e soccombere significa pagare la somma pattuita.\n- L'esito finale è dunque la condanna a versare la somma fissata con il *sacramentum*.",
+      "concetti": [
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p038-b006",
+      "pagina": 38,
+      "markdown": "### Il sacramentum in personam",
+      "concetti": [
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p038-b007",
+      "pagina": 38,
+      "markdown": "Lo schema è il medesimo.",
+      "concetti": []
+    },
+    {
+      "id": "p038-b008",
+      "pagina": 38,
+      "markdown": "- Nella fase *in iure* l'attore, con parole solenni e secondo una formula rigida, dichiarava che il convenuto aveva contratto un debito verso di lui, indicandone l'importo, e lo invitava a confermare o a negare.\n- Se il convenuto negava, si passava alla sfida reciproca del *sacramentum*, e il procedimento continuava come nella forma *in rem*.\n- La ***summa sacramenti*** era versata da chi aveva sostenuto una tesi infondata e finiva nelle casse dell'**erario**, non in quelle dell'avversario.",
+      "concetti": [
+        "legis-actio-per-sacramentum"
+      ]
+    },
+    {
+      "id": "p039-b001",
+      "pagina": 39,
+      "markdown": "### La legis actio per iudicis arbitrive postulationem",
+      "concetti": [
+        "legis-actio-per-iudicis-arbitrive-postulationem"
+      ]
+    },
+    {
+      "id": "p039-b002",
+      "pagina": 39,
+      "markdown": "Ciò che caratterizza questa *legis actio* è la domanda, rivolta al magistrato, di nominare un **giudice** o un **arbitro**.",
+      "concetti": []
+    },
+    {
+      "id": "p039-b003",
+      "pagina": 39,
+      "markdown": "Le si ricorreva in tre casi:",
+      "concetti": []
+    },
+    {
+      "id": "p039-b004",
+      "pagina": 39,
+      "markdown": "- per la **divisione di cose comuni**, ad esempio in una coeredità;\n- per il **regolamento dei confini**;\n- per far valere un **credito nato da stipulazione**, cioè dalla *[[stipulatio|sponsio]]*.",
+      "concetti": [
+        "stipulatio"
+      ]
+    },
+    {
+      "id": "p039-b005",
+      "pagina": 39,
+      "markdown": "Le parti che volevano regolare la divisione dei beni comuni chiedevano la nomina di un giudice, oppure di un arbitro quando la lite richiedeva competenze tecniche o capacità di stima economica.",
+      "concetti": []
+    },
+    {
+      "id": "p039-b006",
+      "pagina": 39,
+      "markdown": "Poiché tutte le parti hanno lo stesso interesse, e nessuna contesta davvero il diritto dell'altra, ottenere ciascuna la propria quota del bene prima comune, in questa *legis actio* manca quasi una vera controversia, ed è difficile distinguere attori e convenuti.",
+      "concetti": []
+    },
+    {
+      "id": "p039-b007",
+      "pagina": 39,
+      "markdown": "### La sponsio",
+      "concetti": [
+        "stipulatio"
+      ]
+    },
+    {
+      "id": "p039-b008",
+      "pagina": 39,
+      "markdown": "Da Gaio sappiamo che questa azione si usava anche per le obbligazioni nate da ***sponsio***.",
+      "concetti": [
+        "stipulatio",
+        "gaio"
+      ]
+    },
+    {
+      "id": "p039-b009",
+      "pagina": 39,
+      "markdown": "La *sponsio* (o *stipulatio*) è, all'epoca delle XII Tavole, un **contratto verbale** molto semplice: una domanda e una risposta solenni, pronunciate l'una subito dopo l'altra:",
+      "concetti": [
+        "stipulatio"
+      ]
+    },
+    {
+      "id": "p039-b010",
+      "pagina": 39,
+      "markdown": "- chi diventerà creditore chiede: «*Spondes?*» («prometti?»);\n- chi diventerà debitore risponde: «*Spondeo*» («prometto»).",
+      "concetti": []
+    },
+    {
+      "id": "p039-b011",
+      "pagina": 39,
+      "markdown": "Bastavano quelle parole, pronunciate nella forma prevista, a far nascere l'obbligazione. Se chi si era obbligato con questa promessa solenne non adempiva, si poteva agire contro di lui con la *[[legis-actio-per-iudicis-arbitrive-postulationem|legis actio per iudicis arbitrive postulationem]]*:",
+      "concetti": [
+        "legis-actio-per-iudicis-arbitrive-postulationem"
+      ]
+    },
+    {
+      "id": "p039-b012",
+      "pagina": 39,
+      "markdown": "- l'attore affermava, con una formula apposita, il proprio credito e dichiarava che il convenuto era obbligato verso di lui in forza di una *sponsio*;\n- come nel *sacramentum in personam*, il creditore invitava il debitore, sempre con formule solenni, ad ammettere o a negare;\n- se il convenuto negava, le parti domandavano che fosse designato un giudice o un arbitro, e si procedeva ad accertare se la *sponsio*, cioè la promessa, esistesse davvero.",
+      "concetti": [
+        "legis-actio-per-sacramentum",
+        "stipulatio"
+      ]
+    },
+    {
+      "id": "p039-b013",
+      "pagina": 39,
+      "markdown": "### La legis actio per condictionem",
+      "concetti": [
+        "legis-actio-per-condictionem"
+      ]
+    },
+    {
+      "id": "p039-b014",
+      "pagina": 39,
+      "markdown": "Questa *legis actio* non compare nelle XII Tavole: è più recente, e la si deve a leggi del III–II secolo a.C. La **legge Silia** la previde per i debiti di una somma di denaro determinata; la **legge Calpurnia** la estese ai debiti di altre cose determinate, individualmente o per quantità.",
+      "concetti": []
+    },
+    {
+      "id": "p039-b015",
+      "pagina": 39,
+      "markdown": "Si poteva quindi proporre per:",
+      "concetti": []
+    },
+    {
+      "id": "p039-b016",
+      "pagina": 39,
+      "markdown": "- debiti di una somma certa di denaro (***certa pecunia***);\n- debiti di una cosa determinata (***certa res***).",
+      "concetti": []
+    },
+    {
+      "id": "p039-b017",
+      "pagina": 39,
+      "markdown": "Lo svolgimento:",
+      "concetti": []
+    },
+    {
+      "id": "p039-b018",
+      "pagina": 39,
+      "markdown": "- l'attore afferma solennemente l'esistenza del debito, dichiarando che il convenuto deve dargli, ad esempio, centomila sesterzi (*certa pecunia*), e precisa così la somma o la cosa dovuta;\n- invita poi il convenuto a prendere posizione, ammettendo o negando;\n- se il convenuto nega, l'attore gli **intima** di presentarsi davanti al magistrato entro trenta giorni per la nomina dello *iudex* che deciderà la causa: da questa intimazione viene il nome *[[legis-actio-per-condictionem|condictio]]*. Al procedimento si ricorreva nei casi previsti dalla legge;\n- il trentesimo giorno le parti tornano dal pretore per scegliere il giudice, il cui compito è accertare se il debito esista.",
+      "concetti": [
+        "legis-actio-per-condictionem"
+      ]
+    }
+  ]
+}
