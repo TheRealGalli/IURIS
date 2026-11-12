@@ -367,7 +367,7 @@ try {
     controlli += 3;
     await vaiA(p, '/mappa?personale=1');
     await p.waitForSelector('.mobile-geo-toolbar');
-    if (!(await p.isVisible('.mg-schema'))) errori.push(`${etichetta}: la mappa personale deve aprirsi nello schema leggibile`);
+    if (!(await p.isVisible('.mg-fasce .mg-scheda, .mg-vuota'))) errori.push(`${etichetta}: la mappa personale deve aprirsi nelle schede compatte`);
     await p.tap('button[aria-label="Visualizza mappa personale"]');
     await p.waitForSelector('.mobile-geo-sheet');
     await p.tap('button[aria-label="Chiudi mappa personale"]');

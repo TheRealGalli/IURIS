@@ -49,6 +49,7 @@ const PATHS: Record<string, ReactNode> = {
   espandi: <path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />,
   albero: <><rect x="2.5" y="10" width="6" height="4" rx="1" /><rect x="15.5" y="4" width="6" height="4" rx="1" /><rect x="15.5" y="16" width="6" height="4" rx="1" /><path d="M8.5 12H12M12 6v12M12 6h3.5M12 18h3.5" /></>,
   schema: <><path d="M4 5h11M8 10h12M8 15h12M4 20h11M4 5v15" /></>,
+  fasce: <><path d="M3.5 4.5h17" /><rect x="3.5" y="8" width="4.5" height="4" rx="1" /><rect x="9.75" y="8" width="4.5" height="4" rx="1" /><rect x="16" y="8" width="4.5" height="4" rx="1" /><path d="M3.5 15.5h17" /><rect x="3.5" y="18.5" width="4.5" height="2.5" rx="1" /><rect x="9.75" y="18.5" width="4.5" height="2.5" rx="1" /></>,
   legami: <><circle cx="6" cy="6" r="2.5" /><circle cx="6" cy="18" r="2.5" /><path d="M8.5 6c9 0 9 12 0 12" /></>,
   rami: <><path d="M4 12h6M10 12l4-6h6M10 12l4 6h6M10 12h10" /></>,
   occhio: <><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" /><circle cx="12" cy="12" r="3" /></>,

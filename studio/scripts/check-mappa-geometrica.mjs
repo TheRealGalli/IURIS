@@ -5,7 +5,7 @@ import ts from 'typescript';
 
 const src = await readFile(new URL('../src/lib/mappa-geometrica.ts', import.meta.url), 'utf8');
 const js = ts.transpileModule(src, { compilerOptions: { target: ts.ScriptTarget.ES2020, module: ts.ModuleKind.ESNext } }).outputText;
-const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto, corsieArchi, accensione, daRicollocare, inquadra, altezzaVista, inLocale, tracciaArco } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
+const { alberoGeometrico, primoSegno, semanticaGeometrica, etichetteConcetto, corsieArchi, accensione, daRicollocare, inquadra, altezzaVista, inLocale, tracciaArco, fasceGeometriche, aspettoSegno, scalaTitoli, curvaFra, posaEtichetta, SCHEDE_PER_RIGA } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
 
 // Pagina «Premesse» degli appunti: titolo, frase che introduce l'elenco, cinque voci, due paragrafi.
 const testi = [['titolo', 2, 'Premesse'], ['paragrafo', 0, 'I cinque significati di Diritto Romano'],
@@ -161,9 +161,14 @@ let checks = 0;
   // Albero ↔ schema, concetti spenti/accesi, cambio lezione: lo strato delle linee trova il contenitore dal proprio svg
   // (al primo montaggio il ref del genitore non è ancora assegnato: era il motivo delle linee sparite).
   const comp = await readFile(new URL('../src/components/MappaGeometrica.tsx', import.meta.url), 'utf8');
-  const archiSrc = comp.slice(comp.indexOf('function Archi('), comp.indexOf('function Vista('));
+  const archiSrc = comp.slice(comp.indexOf('function Strato('), comp.indexOf('function Collegamenti('));
   assert(/svgRef\.current\?\.parentElement/.test(archiSrc) && !/dentro\.current/.test(archiSrc), 'gli archi non dipendono dal ref del contenitore');
-  assert(/return \(\) => segna\(false\)/.test(archiSrc), 'spegnendo i concetti non restano contorni sui nodi');
+  assert(/classList\.remove\('mg-n-centro', 'mg-n-collegato', 'mg-c-acceso'\)/.test(comp), 'spegnendo i concetti non restano contorni sui nodi');
+  // Collegamenti: di base nessuna freccia, solo quelle accese (o tutte a richiesta); le misure non dipendono dal passaggio.
+  assert(/const visibili = useMemo\(\(\) => tutti \? presenti : luce \? presenti\.filter/.test(comp), 'di base nessuna freccia: solo quelle accese o, a richiesta, tutte');
+  const misure = comp.slice(comp.indexOf('// Misure delle schede'), comp.indexOf('// Evidenza dei nodi'));
+  assert(/\[s, modo, chiusi, significato\]\);/.test(misure) && !/fuoco|luce/.test(misure), 'le schede si misurano una volta per layout, non a ogni passaggio');
+  assert(/aria-label="Mostra tutti i collegamenti"/.test(comp), 'interruttore «Mostra tutti i collegamenti»');
   assert(/inquadrata\.current !== chiave/.test(comp), 'lo zoom scelto resta finché non cambia lezione, forma o strato');
   // Una lezione per volta, senza testo di spiegazione né tasti: lo zoom si usa con i gesti, come nelle altre mappe.
   assert(!/Tutte le lezioni/.test(comp), 'niente modalità «tutte le lezioni»');
@@ -178,8 +183,47 @@ let checks = 0;
   const altezza = (css, sel) => css.match(new RegExp(sel.replace(/[.]/g, '\\.') + ' \\{[^}]*height: (calc\\([^)]*\\))'))?.[1];
   assert(altezza(geoCss, '.mappa-geo.mg-pagina') && altezza(geoCss, '.mappa-geo.mg-pagina') === altezza(stili, '.map-shell'), 'la mappa personale ha la stessa altezza delle altre mappe');
   assert(/const piena = pagina && !compatta && !compact/.test(comp) && /className="map-tools mg-strumenti"/.test(comp), 'sul computer i comandi stanno dentro la mappa, come nelle altre');
-  assert(/<Vista piena comandi=\{comandi\}/.test(comp) && !/if \(piena\)[^]*mg-lezione-titolo[^]*return <section className=\{`mappa-geo\$\{compatta/.test(comp), 'sul computer nessun secondo titolo sopra la mappa personale');
+  assert(/<Lezione key=\{s\.chiave\}[^>]*piena compatta=\{false\} comandi=\{comandi\}/.test(comp) && /<Vista piena=\{piena\} comandi=\{comandi\}/.test(comp) && !/if \(piena\)[^]*mg-lezione-titolo[^]*return <section className=\{`mappa-geo\$\{compatta/.test(comp), 'sul computer nessun secondo titolo sopra la mappa personale');
   assert(/\{compact && <p className="small muted"/.test(personale) && /<MappaGeometrica pagina /.test(personale), 'sul computer niente paragrafo sopra la mappa personale');
+  checks++;
+}
+{
+  // Layout a fasce: i titoli in verticale, le parti segnate dello stesso titolo in una riga; l'elenco con le sue voci.
+  const segni = [segno('tit', 0, 'sottolineato', 'verde'), segno('intro', 1), ...[2, 3, 4, 5, 6].map((i) => segno(`v${i}`, i, i % 2 ? 'sottolineato' : 'evidenziato', 'azzurro')), segno('p7', 7), segno('p8', 8, 'evidenziato', 'rosa')];
+  const m = alberoGeometrico(unita, segni);
+  const f = fasceGeometriche(m.radici);
+  assert.equal(f.length, 1); assert.equal(f[0].tipo, 'titolo'); assert.equal(f[0].nodo.unita.testo, 'Premesse');
+  const [elenco, riga] = f[0].figli;
+  assert.equal(elenco.tipo, 'elenco', 'la frase che introduce l’elenco apre un sotto-gruppo');
+  assert.equal(elenco.figli.length, 1); assert.equal(elenco.figli[0].tipo, 'schede');
+  assert.deepEqual(elenco.figli[0].nodi.map((n) => n.unita.numero), ['1.', '2.', '3.', '4.', '5.'], 'le cinque voci in una sola riga di schede, in ordine');
+  assert.equal(riga.tipo, 'schede'); assert.deepEqual(riga.nodi.map((n) => n.id), ['b7#0', 'b8#0'], 'i due capoversi segnati dello stesso titolo nella stessa riga');
+  assert.equal(f[0].schede, 8, 'conteggio delle schede sotto il titolo (intro compresa)');
+  assert.equal(SCHEDE_PER_RIGA, 4);
+  assert.deepEqual(fasceGeometriche(m.radici), f, 'stesso albero, stesse fasce');
+  // due titoli: due fasce una sotto l'altra, nell'ordine del testo
+  const due = fasceGeometriche(alberoGeometrico(unita, [segno('a', 7), segno('b', 10)]).radici);
+  assert.deepEqual(due.map((x) => x.nodo.unita.testo), ['Premesse', 'Le fonti']);
+  assert.deepEqual(aspettoSegno(m.radici[0].figli[0].figli[1]), { colore: 'azzurro', tipo: 'sottolineato' });
+  // Titoli da lontano: ingranditi quanto basta per restare sui 11 px e oltre (19 px alla scala 1).
+  assert.equal(scalaTitoli(1), 1); assert.equal(scalaTitoli(0.85), 1);
+  for (const k of [0.3, 0.4, 0.5, 0.6, 0.7]) assert(15.5 * k * scalaTitoli(k) >= 11, `titolo di gruppo leggibile a zoom ${k}`);
+  assert.equal(scalaTitoli(0.01), 3, 'ingrandimento massimo');
+  // Etichette: lungo la freccia, mai sopra una scheda né sopra un'altra etichetta.
+  const griglia = []; for (let r = 0; r < 3; r++) for (let c = 0; c < 4; c++) griglia.push({ l: c * 214, t: r * 148, r: c * 214 + 200, b: r * 148 + 118 });
+  const sopra = (a, b) => a.l < b.r && a.r > b.l && a.t < b.b && a.b > b.t;
+  const posate = [];
+  for (const [i, j] of [[0, 10], [1, 2], [4, 7], [0, 5], [3, 8], [6, 9]]) {
+    const c = curvaFra(griglia[i], griglia[j]);
+    assert(/^M[\d.,-]+ C/.test(c.d), 'curva di Bézier');
+    const q = posaEtichetta(c.punto, 150, 22, griglia, posate, [[ (griglia[j].l + griglia[j].r) / 2, griglia[j].t - 15 ]]);
+    assert(q, `posto per l’etichetta ${i}→${j}`);
+    assert(!griglia.some((g) => sopra(q, g)), 'etichetta sopra una scheda'); assert(!posate.some((g) => sopra(q, g)), 'etichette sovrapposte');
+    posate.push(q);
+  }
+  const stessa = curvaFra(griglia[0], griglia[2]);
+  assert(stessa.punto(0.5)[1] < griglia[0].t, 'sulla stessa riga la freccia passa sopra le schede');
+  assert.equal(posaEtichetta(() => [100, 59], 150, 22, [{ l: 0, t: 0, r: 1000, b: 1000 }], []), null, 'nessun posto libero: niente etichetta (resta il numero nell’elenco)');
   checks++;
 }
 {
@@ -191,4 +235,4 @@ let checks = 0;
   assert.deepEqual(daRicollocare([], 1), { unita: [], segni: [] });
   checks++;
 }
-console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse, affidabilità dei legami, zoom, ridisegno delle linee, riquadro attivo e segni da ricollocare.`);
+console.log(`Mappa geometrica verificata: ${checks} scenari su gerarchia, ordine del testo, doppio segno, frammenti, potatura, concetti collegati, instradamento, passaggio del mouse, affidabilità dei legami, zoom, ridisegno delle linee, riquadro attivo, layout a fasce, etichette fuori dalle schede e segni da ricollocare.`);

@@ -186,6 +186,8 @@ export interface ArcoConcetto {
 }
 export interface SemanticaGeo {
   perNodo: Map<string, string[]>; archi: ArcoConcetto[]; concetti: string[]; nomi: Record<string, string>;
+  /** Concetti nominati da ogni nodo (al più 3, nell'ordine del testo), anche senza collegamenti: i chip delle schede. */
+  menzioni: Map<string, string[]>;
   /** Legami possibili scartati perché dubbi: relazioni non confermate, ripetizioni di concetti troppo generici. */
   scartati: { relazioni: number; ripetizioni: number };
 }
@@ -288,8 +290,19 @@ export function semanticaGeometrica(radici: NodoGeo[], concetti: ConcettoGeo[], 
     else { aggiungi(a.da, a.concetto); aggiungi(a.a, a.altro!); }
   }
   const usati = [...new Set(archi.flatMap((a) => [a.concetto, ...(a.altro ? [a.altro] : [])]))];
-  const nomi = Object.fromEntries(concetti.filter((c) => usati.includes(c.id)).map((c) => [c.id, c.nome]));
-  return { perNodo, archi, concetti: usati, nomi, scartati };
+  // Chip delle schede: prima i concetti con collegamenti, poi gli altri nominati per esteso, esclusi quelli generici
+  // (nominati in mezza lezione, come per le ripetizioni).
+  const generici = new Set(concetti.filter((c) => !usati.includes(c.id) && conConcetto(c.id).length > tetto).map((c) => c.id));
+  const menzioni = new Map<string, string[]>();
+  for (const { n } of nodi) {
+    const m = nomina.get(n.id)!;
+    const ids = [...m.keys()].filter((c) => !generici.has(c) && ((lunghezza.get(`${n.id}|${c}`) ?? 0) >= 5 || usati.includes(c)));
+    const scelti = [...new Set([...(perNodo.get(n.id) ?? []), ...ids.sort((x, y) => m.get(x)! - m.get(y)! || x.localeCompare(y))])].slice(0, 3);
+    if (scelti.length) menzioni.set(n.id, scelti);
+  }
+  const conNome = new Set([...usati, ...[...menzioni.values()].flat()]);
+  const nomi = Object.fromEntries(concetti.filter((c) => conNome.has(c.id)).map((c) => [c.id, c.nome]));
+  return { perNodo, archi, concetti: usati, nomi, menzioni, scartati };
 }
 
 // ── Instradamento: una porta per arco sul bordo del nodo, una corsia per arco nel margine ──
@@ -363,4 +376,89 @@ export const inLocale = (r: { left: number; top: number; right: number; bottom: 
 export function tracciaArco(x1: number, y1: number, x2: number, y2: number, xl: number): string {
   const su = y2 < y1 ? -1 : 1, rr = Math.min(12, Math.abs(y2 - y1) / 2);
   return `M${x1},${y1} H${xl - rr} Q${xl},${y1} ${xl},${y1 + su * rr} V${y2 - su * rr} Q${xl},${y2} ${xl - rr},${y2} H${x2 + 1}`;
+}
+
+
+/* ───────── layout a fasce: titoli in verticale, schede della stessa sezione in orizzontale ───────── */
+
+/**
+ * Pezzi del layout a fasce, nell'ordine del testo. Un titolo apre una fascia (## e sopra) o un gruppo (### e sotto);
+ * le parti segnate consecutive dello stesso titolo stanno in una riga di schede (a capo dopo 4); un capoverso che
+ * introduce un elenco apre un sotto-gruppo con le sue voci in riga («i cinque significati» su una riga).
+ */
+export type PezzoFascia =
+  | { tipo: 'titolo' | 'elenco'; nodo: NodoGeo; figli: PezzoFascia[]; schede: number }
+  | { tipo: 'schede'; nodi: NodoGeo[] };
+export const SCHEDE_PER_RIGA = 4;
+export function fasceGeometriche(nodi: NodoGeo[]): PezzoFascia[] {
+  const out: PezzoFascia[] = [];
+  let riga: NodoGeo[] = [];
+  const chiudi = () => { if (riga.length) out.push({ tipo: 'schede', nodi: riga }); riga = []; };
+  for (const n of nodi) {
+    if (n.unita.tipo !== 'titolo' && !n.figli.length) { riga.push(n); continue; }
+    chiudi();
+    const figli = fasceGeometriche(n.figli);
+    out.push({ tipo: n.unita.tipo === 'titolo' ? 'titolo' : 'elenco', nodo: n, figli, schede: contaSchede(figli) });
+  }
+  chiudi();
+  return out;
+}
+const contaSchede = (p: PezzoFascia[]): number => p.reduce((t, x) => t + (x.tipo === 'schede' ? x.nodi.length : (x.nodo.segnato && x.tipo === 'elenco' ? 1 : 0) + x.schede), 0);
+
+/** Colore e tipo del segno di una scheda: il primo tratto segnato. */
+export function aspettoSegno(n: NodoGeo): { colore?: ColoreSegno; tipo: 'evidenziato' | 'sottolineato' | 'entrambi' } {
+  const p = n.pezzi.find((x) => x.segnato) as Extract<PezzoGeo, { segnato: true }> | undefined;
+  const ev = n.pezzi.some((x) => x.segnato && x.colore), so = n.pezzi.some((x) => x.segnato && x.linea);
+  return { colore: p?.colore ?? p?.linea, tipo: ev && so ? 'entrambi' : so ? 'sottolineato' : 'evidenziato' };
+}
+
+/** Ingrandimento dei titoli quando la mappa è lontana: a ogni zoom restano leggibili (almeno ~11 px a schermo). */
+export const scalaTitoli = (k: number) => Math.round(Math.min(3, Math.max(1, 0.85 / Math.max(0.05, k))) * 10) / 10;
+
+export interface Rett { l: number; t: number; r: number; b: number }
+const sovrapposti = (a: Rett, b: Rett, m = 0) => a.l < b.r + m && a.r > b.l - m && a.t < b.b + m && a.b > b.t - m;
+
+/**
+ * Curva fra due schede: dal bordo inferiore a quello superiore se stanno su righe diverse, sopra la riga se stanno
+ * sulla stessa. Restituisce il tracciato SVG e la funzione dei punti (per posare l'etichetta lungo la freccia).
+ */
+export function curvaFra(A: Rett, B: Rett): { d: string; punto: (t: number) => [number, number] } {
+  const ax = (A.l + A.r) / 2, bx = (B.l + B.r) / 2, ay = (A.t + A.b) / 2, by = (B.t + B.b) / 2;
+  let p0: [number, number], p1: [number, number], p2: [number, number], p3: [number, number];
+  if (Math.abs(by - ay) < Math.min(A.b - A.t, B.b - B.t) / 2) {
+    // stessa riga: arco sopra le schede, nello spazio fra le righe
+    const y = Math.min(A.t, B.t), alza = Math.min(46, 18 + Math.abs(bx - ax) * 0.06);
+    p0 = [ax + (bx > ax ? 10 : -10), A.t]; p3 = [bx + (bx > ax ? -10 : 10), B.t];
+    p1 = [p0[0], y - alza]; p2 = [p3[0], y - alza];
+  } else if (by > ay) {
+    const h = Math.max(26, (B.t - A.b) * 0.4);
+    p0 = [ax, A.b]; p3 = [bx, B.t]; p1 = [ax, A.b + h]; p2 = [bx, B.t - h];
+  } else {
+    const h = Math.max(26, (A.t - B.b) * 0.4);
+    p0 = [ax, A.t]; p3 = [bx, B.b]; p1 = [ax, A.t - h]; p2 = [bx, B.b + h];
+  }
+  const r = (x: number) => Math.round(x * 10) / 10;
+  const d = `M${r(p0[0])},${r(p0[1])} C${r(p1[0])},${r(p1[1])} ${r(p2[0])},${r(p2[1])} ${r(p3[0])},${r(p3[1])}`;
+  const punto = (t: number): [number, number] => {
+    const u = 1 - t, a = u * u * u, b = 3 * u * u * t, c = 3 * u * t * t, e = t * t * t;
+    return [a * p0[0] + b * p1[0] + c * p2[0] + e * p3[0], a * p0[1] + b * p1[1] + c * p2[1] + e * p3[1]];
+  };
+  return { d, punto };
+}
+
+/**
+ * Posa un'etichetta lungo la freccia senza coprire schede né altre etichette: prova dal centro verso gli estremi,
+ * poi negli spazi sopra e sotto le due schede. `null` se non c'è posto (resta il numero nell'elenco dei collegamenti).
+ */
+export function posaEtichetta(punto: (t: number) => [number, number], w: number, h: number, ostacoli: Rett[], posate: Rett[], extra: [number, number][] = [], limiti?: Rett): Rett | null {
+  const prove: [number, number][] = [];
+  for (const t of [0.5, 0.42, 0.58, 0.34, 0.66, 0.26, 0.74, 0.18, 0.82, 0.12, 0.88, 0.06, 0.94]) prove.push(punto(t));
+  prove.push(...extra);
+  for (const [x, y] of prove) {
+    const q = { l: x - w / 2, t: y - h / 2, r: x + w / 2, b: y + h / 2 };
+    if (limiti && (q.l < limiti.l || q.t < limiti.t || q.r > limiti.r || q.b > limiti.b)) continue;
+    if (ostacoli.some((o) => sovrapposti(q, o, 2)) || posate.some((o) => sovrapposti(q, o, 3))) continue;
+    return q;
+  }
+  return null;
 }
