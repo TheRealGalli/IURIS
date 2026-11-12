@@ -156,7 +156,8 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   applicaRef.current = applica;
   const attivaGomma = useCallback(() => {
     setTipo('gomma'); const scelta = cattura() ?? bozzaRef.current;
-    if (scelta) cancella(scelta); else setMessaggio('Gomma attiva: seleziona il passaggio da cancellare.');
+    // La gomma non cancella da sola: con un passaggio già scelto aspetta Invio, Spazio o «Cancella».
+    if (scelta) { setHaBozza(true); setMessaggio('Gomma attiva: premi Invio per cancellare i segni del passaggio.'); } else setMessaggio('Gomma attiva: seleziona il passaggio da cancellare, poi premi Invio.');
   }, [cattura, cancella]);
   const storia = useCallback((direzione: 'indietro' | 'avanti') => {
     annullaSelezione(); const r = direzione === 'indietro' ? annullaSegnoOriginale(slug, doc) : ripristinaSegnoOriginale(slug, doc);
@@ -169,7 +170,8 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
       fineGesto.current = setTimeout(() => {
         const s = cattura(false);
         gesto.current = false; setSelezionando(false); setHaBozza(!!bozzaRef.current);
-        if (e.type === 'pointerup' && strumento.current === 'gomma' && s && (!automatico || (e as PointerEvent).pointerType === 'pen')) cancella(s);
+        // Con il mouse la gomma aspetta Invio (o «Cancella»); solo con Apple Pencil cancella al sollevare la punta.
+        if (e.type === 'pointerup' && strumento.current === 'gomma' && s && (e as PointerEvent).pointerType === 'pen') cancella(s);
       }, 0);
     };
     const selezione = () => {

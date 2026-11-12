@@ -145,7 +145,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .nav a:hover { background: var(--bg-2); color: var(--ink); }
 .nav a.on { background: var(--ink); color: var(--bg); }
 .nav a .count { margin-left: auto; font-size: 11px; background: var(--accent); color: var(--accent-ink); border-radius: 99px; padding: 0 7px; font-weight: 600; }
-.side-foot { margin-top: auto; display: flex; flex-direction: column; gap: 8px; }
+.side-foot { margin-top: 14px; margin-bottom: 18px; display: flex; flex-direction: column; gap: 8px; }  /* vicino a Backup, con aria sotto: non si taglia sugli schermi bassi */
 .nav-archivio { border-top: 1px solid var(--line); padding-top: 16px; }
 .demo-link { text-decoration: none; color: var(--ink-2); }
 .demo-link:hover, .demo-link.on { background: var(--bg-2); color: var(--ink); }
