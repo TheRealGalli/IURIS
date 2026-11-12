@@ -31,7 +31,7 @@ export async function verificaVisita(browser, opzioni, BASE, etichetta, { telefo
       const r = () => JSON.stringify(document.querySelector('.tour-bubble')?.getBoundingClientRect());
       const a = r(); setTimeout(() => ok(a === r()), 150);
     }), null, { timeout: 5000 }).catch(() => {});
-    const t = await p.evaluate(() => {
+    const misura = () => p.evaluate(() => {
       const b = document.querySelector('.tour-bubble').getBoundingClientRect(), s = document.querySelector('.tour-spot')?.getBoundingClientRect();
       const inter = s ? Math.max(0, Math.min(b.right, s.right) - Math.max(b.left, s.left)) * Math.max(0, Math.min(b.bottom, s.bottom) - Math.max(b.top, s.top)) : 0;
       return {
@@ -39,6 +39,7 @@ export async function verificaVisita(browser, opzioni, BASE, etichetta, { telefo
         hash: location.hash, select: document.querySelectorAll('.tour-layer select').length,
         controlli: [...document.querySelectorAll('.tour-controls button')].map((x) => x.getAttribute('aria-label') || x.textContent.trim()),
         dentro: b.left >= 0 && b.top >= 0 && b.right <= innerWidth + 1 && b.bottom <= innerHeight + 1,
+        riquadro: [Math.round(b.left), Math.round(b.top), Math.round(b.right), Math.round(b.bottom)], vista: `${innerWidth}×${innerHeight}`,
         spot: s ? { area: s.width * s.height, coperta: inter / Math.max(1, s.width * s.height), y: s.top, h: s.height } : null, schermo: innerWidth * innerHeight,
         segni: document.querySelectorAll('.lettura-segno').length, selezione: String(getSelection()).length,
         spotSel: (() => { const r = getSelection().rangeCount && !getSelection().isCollapsed ? getSelection().getRangeAt(0).getBoundingClientRect() : null; return r && s ? Math.abs(r.top - s.top) < 12 && Math.abs(r.height - s.height) < 16 : false; })(),
@@ -46,6 +47,11 @@ export async function verificaVisita(browser, opzioni, BASE, etichetta, { telefo
         menuIlluminato: (() => { const m = document.querySelector('.mobile-tabs button[aria-label="Apri menu"]')?.getBoundingClientRect(); return !!(m && s && m.left >= s.left - 1 && m.right <= s.right + 1 && m.top >= s.top - 1 && m.bottom <= s.bottom + 1); })(),
       };
     });
+    let t = await misura();
+    // Su macchine lente (CI) il riquadro e l'evidenziazione possono essere ancora in movimento: conta lo stato finale
+    // che vede lo studente, quindi si riprova per al massimo 2 s prima di dichiarare l'errore.
+    for (let k = 0; k < 10 && (!t.dentro || (/^Verso /.test(t.passo) && !t.menuIlluminato)); k++) { await p.waitForTimeout(200); t = await misura(); }
+    if (!t.dentro) t.titolo += ` [riquadro ${JSON.stringify(t.riquadro)} in ${t.vista}]`;
     tappe.push(t);
     const dove = `tappa ${tappe.length} «${t.titolo}»`;
     verifica(!/Aspettiamo/.test(t.titolo), `${dove}: la tappa non trova la pagina`);
