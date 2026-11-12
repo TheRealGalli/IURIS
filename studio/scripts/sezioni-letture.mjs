@@ -12,13 +12,8 @@ const source = path.join(root, 'letture-src');
 const scrivi = process.argv.includes('--scrivi');
 const solo = process.argv.flatMap((a, i, all) => (all[i - 1] === '--solo' ? [a] : []));
 const catalogo = JSON.parse(await readFile(path.join(source, 'catalogo.json'), 'utf8'));
-const APPENDICI = {
-  'costituzionale-bin-pitruzzella-v1': [
-    { id: 'appendice-errata', titolo: 'Errata corrige della VII edizione', da: 172 },
-    { id: 'appendice-domande', titolo: 'Domande e risposte', da: 173 },
-    { id: 'appendice-costituzione', titolo: 'Testo della Costituzione (versione dell’epoca)', da: 205 },
-  ],
-};
+// Pagine in fondo a un documento che non appartengono a nessuna lezione: { 'doc-v1': [{ id, titolo, da }] }.
+const APPENDICI = {};
 const FONTE = { 'filosofia-incampo-v1': 'incampo', 'filosofia-moro-v1': 'moro', 'filosofia-cotta-v1': 'cotta',
   'filosofia-ssg-lezioni-v1': 'lezioni', 'filosofia-ssg-incampo-v1': 'incampo',
   'filosofia-mz-barberis-v1': 'barberis', 'filosofia-mz-schauer-v1': 'schauer' };

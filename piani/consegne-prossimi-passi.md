@@ -560,3 +560,24 @@ La modifica locale preesistente di Carlo a `Percorso.tsx` non è stata toccata. 
 **Lettura dello stato finale:** la base di contenuti e funzioni è completa secondo il piano; le percentuali
 e i conteggi storici non vanno usati per dichiarare perfetta tutta la presentazione. Per eventuali altre
 rifiniture degli Originali occorre guardare anche il testo reso nel lettore e confrontarlo con la fonte.
+
+
+## Diritto costituzionale unico e testo IURIS (12 novembre 2026)
+
+Il syllabus mostra lo stesso programma nelle tre classi (Rodio e Bonomi identici, testo Martines; Torre stessi temi,
+manuale a scelta). Le due costituzionali sono diventate **una materia** (`Diritto Costituzionale/`, slug
+`diritto-costituzionale`) per LMG A-L, M-Z e SSG. Metodo e gruppi: [`costituzionale-unica.md`](costituzionale-unica.md).
+
+- **Percorso**: ossatura Martines (28 unità, id invariati) con i temi del percorso A-L integrati: 116 lezioni,
+  2.511 domande, 653 voci, 251 eventi (A-L ne aveva 82), 30 tracce di Torre. Le 50 lezioni e le 795 domande A-L
+  hanno ciascuna una destinazione (`migrazione.json`): l'app rinomina i progressi al primo avvio e fonde quelli di
+  Martines; vale anche per i backup vecchi.
+- **Originale «testo IURIS»**: 267 pagine scritte da noi (145.000 parole), stessa numerazione del Martines, temi A-L
+  nei capoversi «Nel percorso A-L.». `piani/strumenti/controlla-iuris.py`: 0 sequenze di 8 parole copiate dalle fonti,
+  tutti gli articoli, anni e numeri presenti. 1.297 titoli, capoversi di 39 parole in mediana, nessuno oltre 200.
+  I due riassunti di terzi (PDF Bin-Pitruzzella e Martines) non sono più pubblicati; restano in `00 - Appunti e fonti/`.
+- **Verifica**: lettura a campione di 25 pagine e 10 lezioni ([`fase-costituzionale/verifica.md`](fase-costituzionale/verifica.md)):
+  nessun errore giuridico; corrette note redazionali rimaste nel testo, due risposte, sette domande doppie.
+- **Da sapere**: i segni fatti sui due Originali vecchi restano salvati ma non si vedono sul testo nuovo.
+- **Per privato e romano**: stesso schema (gruppi per capitoli, testo IURIS pagina per pagina, `controlla-iuris.py`),
+  senza unione di materie perché sono già uniche.

@@ -1,1580 +1,2803 @@
 {
-  "id": "u14",
-  "ordine": 14,
-  "titolo": "Referendum, autonomia degli organi e regolamenti",
-  "capitolo": "Le altre fonti statali",
-  "pagine": [
-    125,
-    130
-  ],
-  "abstract": "Atti speciali, regolamenti degli organi costituzionali, referendum abrogativo e fonti secondarie dell’esecutivo.",
-  "note": "Il divieto di riproporre lo stesso referendum per cinque anni scatta solo se vincono i «no», non se manca il quorum.",
-  "noteRedazione": [
-    "p. 125: i poteri necessari in guerra non sono presentati come una facoltà illimitata di sospensione della Costituzione; distinti testo degli artt. 11, 78 e 87 e ricostruzioni dottrinali.",
-    "pp. 126–127: aggiornata l’autodichia con Corte cost. 262/2017 e 65/2024; https://www.cortecostituzionale.it/scheda-pronuncia/2017/262 e https://www.cortecostituzionale.it/scheda-pronuncia/2024/65 .",
-    "pp. 127–128: corrette le esclusioni assolute degli appunti; per le leggi elettorali conta la normativa residua immediatamente applicabile: Corte cost. 16/2008 e 10/2020, https://www.cortecostituzionale.it/scheda-pronuncia/2020/10 . Il mancato quorum non determina il divieto quinquennale di ripresentazione: https://documenti.camera.it/leg18/dossier/Testi/AC0168.htm .",
-    "pp. 129–130: corretto art. 85 in art. 87; la vecchia lettera e) dell’art. 17 l. 400/1988 sul pubblico impiego è abrogata; distinti delegificazione e delega legislativa. Testo: https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+17&codiceOrdinamento=200001700000000&id=%7BA037524A-6217-4833-A6B2-77BAE9E1E915%7D .",
-    "Confrontate le risposte integrative pp. 178 e 180 su delegazione/delegificazione ed esecuzione/attuazione; le distinzioni sono riprese nelle lezioni e nelle domande, mantenendo i limiti delle riserve di legge."
-  ],
-  "lezioni": [
+ "id": "u14",
+ "ordine": 14,
+ "titolo": "Il Governo: struttura, amministrazione e formazione",
+ "capitolo": "Parte II · Capitolo III · §§ 1–7",
+ "pagine": [
+  119,
+  128
+ ],
+ "abstract": "Il Governo è un organo complesso: Presidente del Consiglio, ministri e Consiglio dei ministri (art. 92), con figure aggiunte dalla legge 400/1988 (vicepresidenti, Consiglio di gabinetto, sottosegretari, viceministri). Al vertice della pubblica amministrazione, deve rispettarne i principi (legalità, buon andamento, imparzialità, concorso). Si forma con un procedimento in gran parte convenzionale: consultazioni, incarico, nomina, giuramento, fiducia. Il Presidente del Consiglio dirige la politica generale come primus inter pares.",
+ "note": "Aggiornato: il CIPE si chiama CIPESS dal 2021; i ministeri oggi sono 15, non i 13 dell'elenco del 1999. La legge elettorale vigente è la 180/2026; il premierato non è stato approvato.",
+ "noteRedazione": [
+  "p. 120: l'elenco dei 13 ministeri è quello originario del d.lgs. 300/1999. Il numero è cambiato più volte: oggi i ministeri con portafoglio sono 15 (tra le modifiche: Università e ricerca separato dall'Istruzione con d.l. 1/2020, Turismo con d.l. 22/2021, nuove denominazioni con d.l. 173/2022). La sintesi non riproduce l'elenco storico.",
+  "p. 122: la frase «Contro gli atti della pubblica amministrazione è sempre ammessa la tutela…» è l'art. 113, primo comma, non l'art. 111: corretto. Dopo la l. cost. 1/2012 l'art. 97 ha un nuovo primo comma (equilibrio dei bilanci e sostenibilità del debito): l'organizzazione dei pubblici uffici è ora nel secondo comma e il concorso nel quarto. La sintesi cita l'art. 97 senza numerare i commi vecchi.",
+  "p. 123: la legge elettorale con premio di 340 seggi è la l. 270/2005, non «207 del 2005». Il premio è stato dichiarato illegittimo dalla Corte cost. 1/2014; la legge vigente è la 180/2026 (vedi u08). La sintesi riporta la convenzione sul leader vincente come tendenza dei sistemi a vocazione maggioritaria.",
+  "p. 127: il CIPE è diventato CIPESS (Comitato interministeriale per la programmazione economica e lo sviluppo sostenibile) dal 1° gennaio 2021 (d.l. 111/2019); il CISR è previsto dalla l. 124/2007.",
+  "p. 128: il d.lgs. 80/1998 è confluito nel d.lgs. 165/2001 (testo unico sul pubblico impiego), che resta la fonte della separazione tra indirizzo politico e gestione.",
+  "p. 124: il riassunto dice che l'incarico si conferisce verbalmente «e non più mediante un apposito decreto, come è avvenuto sino al 1958»: mantenuto come nel testo.",
+  "Premierato: il progetto di revisione costituzionale sull'elezione diretta del Presidente del Consiglio non è stato approvato (verifiche del passo 3, piani/diritto-costituzionale.md).",
+  "Verifica di Fase 5: «oggi 15 ministeri» confermato (15 ministeri con portafoglio nel Governo Meloni); negli approfondimenti verificati UPB (tre membri, sei anni non rinnovabili), prima «ghigliottina» (29 gennaio 2014), sent. 233/2006 (leggi regionali sullo spoil system: testo precisato) e 118/2015, ultima amnistia 1990 e ultimo indulto 2006.",
+  "Unione con il percorso A-L (12 novembre 2026): integrate le lezioni A-L u07-l2 (in u14-l1, u14-l3, u14-l4) e parte di u07-l3 (indirizzo politico, difesa, informazione per la sicurezza in u14-l4); domande A-L u14-q501 e seguenti. Voce nuova informazione-per-la-sicurezza (dalla A-L u07). Le date e i numeri A-L (legge 124/2007, legge 145/2016, d.lgs. 303/1999, legge 624/1950) sono quelli già verificati nel percorso A-L."
+ ],
+ "lezioni": [
+  {
+   "id": "u14-l1",
+   "titolo": "Il potere esecutivo e la struttura del Governo",
+   "pagine": [
+    119,
+    120
+   ],
+   "minuti": 30,
+   "sintesi": "### Funzione amministrativa e indirizzo\nCon la **funzione amministrativa** lo Stato-apparato svolge un'attività effettiva e concreta per raggiungere i suoi fini immediati: rapporti internazionali, difesa, ordine pubblico, salute, sviluppo economico. La svolgono il [[governo|Governo]], gli organi che ne dipendono e gli uffici degli enti territoriali minori, secondo le direttive e nei limiti posti da [[costituzione-italiana|Costituzione]] e legge ([[principio-di-legalita|principio di legalità]]). Accanto all'amministrazione in senso proprio, gli organi di governo determinano e attuano l'[[indirizzo-politico|indirizzo politico-amministrativo]].\n\n### Un «governo a ministeri»\nIl potere esecutivo è un complesso di organi, centrali e periferici, al cui vertice sta il Governo come [[organo-costituzionale|organo costituzionale]]. L'apparato statale è diviso in **ministeri**, apparati di settore che fanno capo a un organo costituzionale, il **ministro**. Alcuni settori (politiche europee, protezione civile, rapporti con il [[parlamento|Parlamento]], con le [[regioni|Regioni]]) non sono organizzati in ministero: fanno capo a **dipartimenti** della Presidenza del Consiglio. Chi li dirige è:\n\n| Figura | Siede nel Consiglio dei ministri? | Compiti |\n|---|---|---|\n| [[ministri-senza-portafoglio|ministro senza portafoglio]] | sì | partecipa alla direzione politica; funzioni delegate dal Presidente del Consiglio (art. 9 l. 400/1988) |\n| commissario straordinario del Governo | no | solo attività amministrativa |\n\n### La composizione: art. 92\n«Il Governo della Repubblica è composto del Presidente del Consiglio e dei ministri, che costituiscono insieme il Consiglio dei ministri». Il Governo è dunque un [[organo-complesso|organo complesso]]: più organi individuali ([[presidente-del-consiglio|Presidente del Consiglio]] e [[ministri|ministri]]) e un organo collegiale ([[consiglio-dei-ministri|Consiglio dei ministri]]).\n\nL'art. 92 sembra presupporre tanti ministri quanti ministeri: non contempla componenti con compiti solo politici. Per questo sollevano dubbi:\n- i **vicepresidenti del Consiglio**, nati nella prassi e ora previsti dall'art. 8 della **legge 23 agosto 1988, n. 400** (disciplina dell'attività di Governo e ordinamento della Presidenza del Consiglio);\n- i **ministri senza portafoglio**, giustificati però dalla complessità dei compiti, che può lasciare «spazi vuoti» da affidare a un ministro.\n\n### Il Consiglio di gabinetto\nIstituito la prima volta con deliberazione del Consiglio dei ministri nell'agosto 1983, è ora previsto dall'art. 6 della legge 400: un comitato di ministri designati dal Presidente del Consiglio, sentito il Consiglio, che lo coadiuva nelle funzioni dell'art. 95. Il [[consiglio-di-gabinetto|Consiglio di gabinetto]] rischia di dividere i ministri in serie A («superministri», con un «plusvalore politico») e serie B, e di diventare un «supergabinetto» in cui i [[partiti-politici|partiti]] decidono ciò che il Consiglio si limita a ratificare. Il rimedio è farne una struttura **aperta** ai ministri interessati (art. 6, comma 2). Negli ultimi anni i Presidenti del Consiglio non l'hanno formato, per evitare squilibri.\n\n### Le altre figure e la legge 400\nI [[sottosegretari-di-stato|sottosegretari]] e i viceministri non fanno parte del Governo in senso stretto. La legge 400 disciplina le attribuzioni di Consiglio, Presidente e sottosegretari, i rapporti con Regioni e Province autonome, la potestà normativa del Governo e l'organizzazione della [[presidenza-del-consiglio|Presidenza del Consiglio]]. Numero e attribuzioni dei ministeri sono fissati con legge (art. 95, terzo comma): il **d.lgs. 300/1999** ne previde 13, ma il numero è cambiato più volte e oggi sono 15. Per snellire l'apparato sono nate le **agenzie**, con compiti tecnico-operativi di carattere nazionale al servizio delle amministrazioni.\n\n### Dal percorso A-L: un organo complesso e «ineguale»\nIl [[governo|Governo]] è complesso perché le sue componenti hanno attribuzioni proprie, e **ineguale** perché non sono copie della stessa figura. L'art. 95 combina direzione monocratica, decisione collegiale e responsabilità ministeriale:\n\n| Componente | Compito centrale | Responsabilità |\n|---|---|---|\n| [[presidente-del-consiglio|Presidente del Consiglio]] | Dirige la politica generale e ne mantiene l'unità | Della politica generale |\n| [[consiglio-dei-ministri|Consiglio dei ministri]] | Determina collegialmente la politica e le decisioni comuni | Collegiale dei ministri |\n| Singoli [[ministri]] | Guidano il proprio settore e partecipano al collegio | Individuale per il dicastero |\n\nLa [[presidenza-del-consiglio|Presidenza del Consiglio]] (Segretariato generale, dipartimenti, uffici; riordinata dal d.lgs. 303/1999) è l'apparato che rende possibile il coordinamento: non coincide con la persona del Presidente e non è un quarto organo dell'art. 92. Il Presidente può reggere un ministero *ad interim* e **non deve essere parlamentare**. Il vicepresidente è un ministro con **funzione vicaria**, non una seconda presidenza. I [[ministri-senza-portafoglio|ministri senza portafoglio]] sono ministri a pieno titolo e **votano** nel Consiglio. Il [[consiglio-di-gabinetto|Consiglio di gabinetto]] è una sede preparatoria: non può sostituire il Consiglio dei ministri nelle decisioni che gli spettano. I commissari straordinari agiscono entro il mandato ricevuto: il nome comune non comporta poteri identici.",
+   "puntiChiave": [
+    "La funzione amministrativa è attività concreta per i fini immediati dello Stato, nei limiti della legge.",
+    "Governo a ministeri: ogni ministero fa capo a un ministro; altri settori sono dipartimenti della Presidenza.",
+    "Art. 92: Presidente del Consiglio e ministri formano il Consiglio dei ministri; il Governo è organo complesso.",
+    "Vicepresidenti e ministri senza portafoglio non sono previsti dall'art. 92 ma dalla legge 400/1988.",
+    "Il Consiglio di gabinetto (1983, art. 6 l. 400) rischia di creare ministri di serie A e B.",
+    "Numero e attribuzioni dei ministeri si fissano con legge (d.lgs. 300/1999).",
+    "Presidenza del Consiglio ≠ Presidente: è l'apparato di supporto, non un quarto organo dell'art. 92."
+   ],
+   "memoria": [
     {
-      "titolo": "Poteri straordinari e autonomia normativa degli organi costituzionali",
-      "pagine": [
-        125,
-        127
-      ],
-      "sintesi": "### La forza di legge non ha un solo procedimento\nAccanto alla delegazione ordinaria esistono atti governativi riconducibili a discipline speciali. L'art. 78 prevede che le [[parlamento|Camere]] deliberino lo stato di guerra e conferiscano al [[governo|Governo]] i poteri necessari; l'art. 87 attribuisce al [[presidente-della-repubblica|Presidente della Repubblica]] la dichiarazione dello stato di guerra deliberato dalle Camere. Bisogna collegare queste [[disposizione|disposizioni]] al ripudio della guerra dell'art. 11. La situazione straordinaria non equivale a un'autorizzazione permanente a sospendere qualsiasi garanzia costituzionale.\n\nGli appunti presentano una ricostruzione molto ampia dei poteri bellici, comprendente atti militari e [[deroga|deroghe]]. Per l'esame occorre distinguere il testo costituzionale dalle ricostruzioni dottrinali della sua applicazione: il conferimento dei poteri necessari non è una revisione informale della [[costituzione|Costituzione]] e non cancella i [[principi-supremi|principi supremi]]. Non si deve neppure confondere una missione internazionale disciplinata dalla legge con la deliberazione dello stato di guerra.\n\nLe [[norme-attuazione-statuti-speciali]] sono normalmente [[decreto-legislativo|decreti legislativi]] adottati secondo procedimenti stabiliti dagli [[statuto-speciale|statuti speciali]], con l'intervento delle commissioni paritetiche previste. La loro base costituzionale e la competenza riservata le differenziano dai decreti legislativi fondati su una comune [[legge-delega|legge delega]] dell'art. 76. Non occorre dunque cercare per ognuna una delega parlamentare ordinaria: occorre leggere lo statuto e il procedimento speciale pertinente. Anche queste fonti incontrano i limiti costituzionali.\n\n### Il regolamento parlamentare\nCiascuna Camera adotta il proprio [[regolamenti-parlamentari|regolamento]] a maggioranza assoluta dei componenti, secondo l'art. 64. La fonte organizza l'assemblea, i suoi procedimenti e l'esercizio delle attribuzioni parlamentari nel rispetto della Costituzione. Il nome regolamento non la rende subordinata alla [[legge-ordinaria|legge ordinaria]] come un regolamento ministeriale.\n\nIl rapporto con la legge si comprende soprattutto attraverso la [[criterio-di-competenza|competenza]]: una legge non può liberamente sostituire il regolamento nel suo ambito costituzionalmente riservato. Simmetricamente, il regolamento non può invadere qualsiasi rapporto esterno solo perché approvato da una Camera. La [[corte-costituzionale|Corte costituzionale]] non lo considera un atto con forza di legge sindacabile nel giudizio sulle leggi dell'art. 134. Ciò non significa che ogni comportamento parlamentare sia sottratto alla Costituzione: restano gli strumenti pertinenti, fra cui i [[conflitto-di-attribuzione|conflitti di attribuzione]] quando ne ricorrano i presupposti.\n\n### Autonomia e tutela dei diritti\nGli [[organo-costituzionale|organi costituzionali]] dispongono di strumenti di autonomia per funzionare senza dipendere dall'esecutivo. Occorre però distinguere le differenti basi normative: l'art. 64 riguarda le Camere; Presidenza della Repubblica e Corte costituzionale hanno proprie fonti organizzative, non un generico potere identico a quello parlamentare.\n\nL'[[autodichia]] è la decisione di alcune controversie da parte di organi interni. Non coincide né con l'autonomia normativa né con l'immunità generale da ogni giudice. La sentenza n. 262/2017 ha riconosciuto l'autodichia relativa ai dipendenti del [[senato|Senato]] e della Presidenza della Repubblica, richiedendo organi indipendenti e tutela effettiva. La sentenza n. 65/2024 ha escluso l'estensione ai terzi estranei, nel caso di un appalto della Camera.\n\nPerciò, davanti a una controversia, le domande corrette sono: chi è il soggetto coinvolto, quale rapporto è in discussione, quale autonomia è necessaria alla funzione e quali garanzie giurisdizionali restano assicurate? Non basta dire che il fatto avviene dentro un palazzo costituzionale per sottrarlo alla giurisdizione comune.",
-      "concetti": [
-        "norme-attuazione-statuti-speciali",
-        "regolamenti-parlamentari",
-        "autodichia",
-        "criterio-di-competenza"
-      ],
-      "puntiChiave": [
-        "Poteri necessari in guerra non significano cancellazione dei principi costituzionali.",
-        "Il regolamento parlamentare ha competenza riservata e non è un regolamento governativo.",
-        "Autodichia limitata: distinguere dipendenti e terzi estranei."
-      ],
-      "memoria": [
-        {
-          "voce": "64",
-          "dettaglio": "Ogni Camera approva il proprio regolamento a maggioranza assoluta dei componenti."
-        },
-        {
-          "voce": "Autonomia",
-          "dettaglio": "Non equivale a un’esenzione generale dalla Costituzione e dalla tutela dei diritti."
-        }
-      ],
-      "id": "u14-l1",
-      "minuti": 25
+     "voce": "Art. 92",
+     "dettaglio": "composizione del Governo"
     },
     {
-      "titolo": "Referendum abrogativo: quesito, controlli e quorum",
-      "pagine": [
-        127,
-        128
-      ],
-      "sintesi": "### Una decisione popolare sulla permanenza della legge\nIl [[referendum-abrogativo]] dell'art. 75 permette al corpo elettorale di eliminare totalmente o parzialmente una legge o un atto con forza di legge dello [[stato|Stato]]. Possono richiederlo cinquecentomila elettori oppure cinque [[consiglio-regionale|Consigli regionali]]. Un quinto dei parlamentari è invece una delle iniziative previste per il [[referendum-costituzionale|referendum costituzionale]] dell'art. 138, non per questo referendum.\n\nIl voto favorevole significa sì all'[[abrogazione|abrogazione]]: non approva da zero il testo di una nuova legge. Tuttavia eliminare alcune parole può cambiare molto la disciplina residua. Perciò l'operazione deve restare nei limiti del referendum abrogativo, senza trasformarsi in una libera scrittura legislativa attraverso ritagli arbitrari.\n\n### I limiti al quesito\nL'art. 75 esclude le leggi tributarie e di bilancio, di amnistia e indulto, di autorizzazione alla ratifica dei trattati internazionali. [[costituzione|Costituzione]] e [[legge-costituzionale|leggi costituzionali]] non sono abrogabili con questo procedimento, che non riguarda neppure [[regolamenti-governativi|regolamenti governativi]] e atti dell'[[unione-europea|Unione europea]].\n\nLa [[corte-costituzionale|Corte costituzionale]] ha ricostruito ulteriori limiti a garanzia della Costituzione e della libertà di voto. Il quesito deve essere chiaro, omogeneo e univoco: non si può costringere l'elettore a dare un unico sì o no a domande prive di una matrice unitaria. Il controllo di ammissibilità non equivale a dichiarare costituzionalmente perfetta tutta la disciplina che rimarrà.\n\nNon è corretto affermare che tutte le leggi elettorali siano sempre escluse. La legge necessaria al rinnovo di un [[organo-costituzionale|organo costituzionale]] non può essere eliminata lasciando un vuoto che lo paralizzi. È possibile un'abrogazione parziale se la disciplina residua è coerente e immediatamente applicabile. La distinzione è fra tutela della continuità dell'organo e intangibilità assoluta di qualunque regola elettorale.\n\n### Due controlli diversi\n| Organo | Compito principale |\n|---|---|\n| Ufficio centrale per il referendum presso la Cassazione | Regolarità e legittimità della richiesta secondo la legge n. 352/1970 |\n| Corte costituzionale | Ammissibilità del quesito rispetto ai limiti costituzionali |\n| [[presidente-della-repubblica|Presidente della Repubblica]] | Indizione con decreto, previa deliberazione del [[consiglio-dei-ministri|Consiglio dei ministri]] |\n\nRaccolta, deposito e controlli seguono termini legali: le richieste non si presentano liberamente in ogni momento della [[legislatura|legislatura]]. Nel regime ordinario la votazione è fissata in una domenica fra il 15 aprile e il 15 giugno. Lo [[scioglimento-anticipato|scioglimento anticipato]] determina la sospensione prevista dalla legge, con ripresa dei termini dal trecentosessantacinquesimo giorno successivo alle elezioni. Non si tratta di una bocciatura del quesito.\n\n### Validità ed esito\nPerché l'abrogazione sia approvata devono partecipare la maggioranza degli aventi diritto e votare sì la maggioranza dei voti validamente espressi. Sono due condizioni differenti: molte schede bianche possono lasciare raggiunto il [[quorum-referendario|quorum di partecipazione]] senza contribuire ai sì o ai no. La vittoria dei sì fra pochi partecipanti non basta.\n\nSe l'esito è favorevole, il Presidente dichiara l'abrogazione con decreto. L'effetto decorre normalmente dal giorno successivo alla pubblicazione; nel decreto può essere differito fino a sessanta giorni, su proposta del ministro interessato e previa deliberazione del Consiglio dei ministri. Se prevale validamente il no, la stessa richiesta non può essere ripresentata prima di cinque anni. Il mancato quorum non equivale a questo esito negativo valido e non produce quel divieto quinquennale.\n\nIl confronto con l'art. 138 va ripetuto esplicitamente: il referendum costituzionale si svolge prima della [[promulgazione|promulgazione]] del testo, serve a confermarlo o respingerlo e non ha quorum di partecipazione. Qui invece è in gioco l'abrogazione di una fonte primaria già vigente.",
-      "concetti": [
-        "referendum-abrogativo",
-        "quorum-referendario",
-        "ammissibilita-referendum",
-        "regolarita-referendum"
-      ],
-      "puntiChiave": [
-        "500.000 elettori o cinque Consigli regionali; oggetto: fonti primarie statali.",
-        "Cassazione e Corte costituzionale compiono controlli diversi.",
-        "Servono partecipazione della maggioranza degli aventi diritto e maggioranza dei sì sui voti validi."
-      ],
-      "memoria": [
-        {
-          "voce": "75 / 138",
-          "dettaglio": "Abrogazione di fonte vigente con quorum / conferma di testo costituzionale senza quorum."
-        },
-        {
-          "voce": "Necessaria non intangibile",
-          "dettaglio": "Per le leggi elettorali una parziale abrogazione deve lasciare una disciplina immediatamente applicabile."
-        }
-      ],
-      "id": "u14-l2",
-      "minuti": 25
+     "voce": "L. 400/1988",
+     "dettaglio": "attività di Governo e Presidenza del Consiglio"
     },
     {
-      "titolo": "Regolamenti dell’esecutivo e delegificazione",
-      "pagine": [
-        129,
-        130
-      ],
-      "sintesi": "### Fonti secondarie e legge\nI [[regolamenti-governativi]] sono fonti secondarie: devono rispettare [[costituzione|Costituzione]] e fonti primarie e non hanno forza di legge. Il procedimento ordinario dell'art. 17 della legge n. 400/1988 comprende deliberazione del [[consiglio-dei-ministri|Consiglio dei ministri]], parere del [[consiglio-di-stato|Consiglio di Stato]], emanazione con decreto del [[presidente-della-repubblica|Presidente della Repubblica]], controllo e registrazione della [[corte-dei-conti|Corte dei conti]] e pubblicazione. Il fondamento costituzionale dell'emanazione presidenziale è l'art. 87, non l'art. 85 indicato per errore negli appunti.\n\nIl nome decreto non basta per riconoscere il rango. Un [[decreto-legislativo|decreto legislativo]] e un decreto del Presidente della Repubblica contenente un regolamento possono condividere la forma presidenziale, ma il primo ha forza di legge e il secondo resta subordinato alla legge. Conta il potere esercitato e la relativa disciplina, non soltanto la sigla DPR.\n\n### Le principali categorie\n| Tipo | Funzione e limite |\n|---|---|\n| Esecuzione | Rende operativa la legge senza sostituirne le scelte |\n| Attuazione e integrazione | Sviluppa norme legislative di principio, nei limiti delle competenze e delle riserve |\n| Indipendente | Interviene dove manca disciplina primaria, purché la materia non sia comunque riservata alla legge |\n| Organizzazione | Disciplina strutture e funzionamento amministrativo nel quadro legislativo |\n| Delegificazione | Sostituisce la precedente disciplina legislativa attraverso un meccanismo autorizzato dalla legge |\n\nIl regolamento indipendente non è indipendente dalla Costituzione: l'assenza di una legge dettagliata non elimina la [[riserva-di-legge|riserva di legge]]. La riserva assoluta impedisce che il nucleo riservato sia disciplinato da un regolamento; quella relativa richiede una base legislativa sufficiente. La disciplina generale del pubblico impiego non va ricostruita sulla vecchia lettera e) dell'art. 17, abrogata nel processo di privatizzazione: occorre distinguere organizzazione pubblica e rapporti di lavoro contrattualizzati.\n\n### Come opera la delegificazione\nLa [[delegificazione]] consente di alleggerire la disciplina primaria in settori non coperti da riserva assoluta. La legge autorizzatrice stabilisce le norme generali regolatrici e dispone l'[[abrogazione|abrogazione]] delle norme legislative precedenti con effetto dall'entrata in vigore del regolamento.\n\nL'effetto abrogativo è imputato alla legge, mentre il regolamento completa la condizione temporale prevista. Non si attribuisce per questo al [[governo|Governo]] una fonte primaria. Il nuovo regolamento resta modificabile con atti di pari rango nel rispetto della legge e resta soggetto ai controlli propri delle fonti secondarie.\n\nEsempio: una legge stabilisce i criteri generali di una procedura amministrativa, individua le vecchie [[disposizione|disposizioni]] da superare e rinvia a un regolamento la disciplina operativa. Il giorno in cui entra in vigore il regolamento opera l'abrogazione predisposta dalla legge. Non è la medesima operazione di una [[legge-delega|legge delega]] che autorizza un decreto legislativo ai sensi dell'art. 76.\n\n### Regolamenti ministeriali e circolari\nI [[regolamenti-ministeriali]] richiedono un'esplicita autorizzazione legislativa e riguardano le materie di competenza del ministro; se coinvolgono più ministri sono interministeriali. Non possono contraddire i regolamenti governativi. Hanno la forma del decreto ministeriale, seguono le garanzie procedurali previste e sono comunicati al [[presidente-del-consiglio|Presidente del Consiglio]] prima dell'emanazione. La denominazione regolamento deve permettere di riconoscere la natura normativa dell'atto.\n\nLa [[circolare-amministrativa]] è invece normalmente uno strumento di istruzione, interpretazione o indirizzo interno. Può orientare il lavoro degli uffici e avere conseguenze pratiche sugli atti adottati, ma non diventa per questo una fonte capace di imporre nuovi obblighi ai cittadini o derogare alla legge. Un giudice non è vincolato dall'interpretazione ministeriale solo perché contenuta in una circolare. La distinzione finale è quindi fra norma secondaria adottata con il potere e il procedimento necessari e istruzione organizzativa che opera nei limiti dell'ordinamento.",
-      "concetti": [
-        "regolamenti-governativi",
-        "delegificazione",
-        "regolamenti-ministeriali",
-        "circolare-amministrativa",
-        "riserva-di-legge"
-      ],
-      "puntiChiave": [
-        "Il regolamento governativo è secondario anche se emanato con DPR.",
-        "Nella delegificazione l’abrogazione è predisposta dalla legge e opera con l’entrata in vigore del regolamento.",
-        "Una circolare non può creare obblighi esterni in contrasto con la legge."
-      ],
-      "memoria": [
-        {
-          "voce": "Delegificazione ≠ delega",
-          "dettaglio": "Regolamento secondario ex art. 17, comma 2 / decreto legislativo primario ex art. 76."
-        },
-        {
-          "voce": "DPR",
-          "dettaglio": "La forma non dimostra da sola la forza di legge."
-        }
-      ],
-      "id": "u14-l3",
-      "minuti": 25
+     "voce": "Art. 6 l. 400",
+     "dettaglio": "Consiglio di gabinetto"
+    },
+    {
+     "voce": "Art. 8 l. 400",
+     "dettaglio": "vicepresidenti del Consiglio"
+    },
+    {
+     "voce": "D.lgs. 300/1999",
+     "dettaglio": "organizzazione dei ministeri"
+    },
+    {
+     "voce": "Commissario straordinario",
+     "dettaglio": "dirige un settore ma non siede in Consiglio"
     }
-  ],
-  "concetti": [
-    {
-      "id": "norme-attuazione-statuti-speciali",
-      "nome": "Norme di attuazione degli statuti speciali",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Fonti attuative adottate con procedimenti statutari speciali.",
-      "definizione": "Sono **decreti legislativi** del tutto particolari, previsti dagli statuti delle cinque Regioni speciali per dare attuazione alle loro disposizioni e trasferire uffici e funzioni dallo Stato alla Regione. Non si fondano su una legge delega del Parlamento (art. 76), ma **direttamente sullo statuto**, che è una legge costituzionale: per questo la delega è permanente. Li adotta il **Governo**, su proposta di una **commissione paritetica** composta da rappresentanti dello Stato e della Regione, e li emana il Presidente della Repubblica; il Parlamento non interviene. Hanno una **competenza riservata**: la legge ordinaria non può modificarli. Stanno quindi tra gli atti con forza di legge, ma con una posizione propria.",
-      "pagine": [
-        125,
-        126
-      ]
-    },
-    {
-      "id": "regolamenti-parlamentari",
-      "nome": "Regolamenti parlamentari",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Fonti di autonomia normativa di ciascuna Camera.",
-      "definizione": "Regolamenti approvati da ciascuna Camera a maggioranza assoluta dei componenti ex art. 64, che ne disciplinano organizzazione e procedimenti nel rispetto della Costituzione e della sfera di competenza riservata.",
-      "pagine": [
-        126,
-        127
-      ]
-    },
-    {
-      "id": "autodichia",
-      "nome": "Autodichia",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Decisione interna di determinate controversie degli organi costituzionali.",
-      "definizione": "Potere di organi interni indipendenti di decidere determinate controversie funzionali all’autonomia costituzionale, riconosciuto per il rapporto con i dipendenti; non è un’esenzione generale dalla giurisdizione né si estende indistintamente ai terzi.",
-      "pagine": [
-        126,
-        127
-      ]
-    },
-    {
-      "id": "referendum-abrogativo",
-      "nome": "Referendum abrogativo",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Voto popolare per abrogare una fonte primaria statale vigente.",
-      "definizione": "Referendum dell’art. 75 su una legge o atto statale con forza di legge, richiesto da 500.000 elettori o cinque Consigli regionali; approvazione con partecipazione della maggioranza degli aventi diritto e maggioranza dei voti validi favorevoli, nei limiti costituzionali.",
-      "pagine": [
-        127,
-        128
-      ]
-    },
-    {
-      "id": "quorum-referendario",
-      "nome": "Quorum del referendum abrogativo",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Partecipazione necessaria alla validità del referendum ex art. 75.",
-      "definizione": "È il **quorum di partecipazione** richiesto dall'art. 75, quarto comma, Cost. per la validità del [[referendum-abrogativo]]: la proposta è approvata solo se ha partecipato alla votazione la **maggioranza degli aventi diritto** e se è raggiunta la **maggioranza dei voti validamente espressi**. Le condizioni sono dunque due: affluenza superiore al 50% e più sì che no. Il quorum impedisce che una minoranza attiva abroghi una legge approvata dal Parlamento; ma consente ai contrari di far fallire il referendum **astenendosi**, sommandosi a chi non vota comunque: dal 1997 la maggior parte dei referendum non l'ha raggiunto. Il [[referendum-costituzionale]] dell'art. 138, invece, **non ha quorum**.",
-      "pagine": [
-        128,
-        128
-      ]
-    },
-    {
-      "id": "ammissibilita-referendum",
-      "nome": "Ammissibilità del referendum",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Controllo costituzionale sui limiti del quesito abrogativo.",
-      "definizione": "È il giudizio con cui la **Corte costituzionale** decide se una richiesta di [[referendum-abrogativo]] può essere sottoposta al voto. La competenza le è stata attribuita dalla legge costituzionale 1/1953; il giudizio segue il controllo dell'Ufficio centrale ([[regolarita-referendum]]) e si chiude con sentenza entro il 10 febbraio. La Corte verifica i **limiti espressi** dell'art. 75 (leggi tributarie e di bilancio, amnistia e indulto, ratifica dei trattati) e i **limiti impliciti** che ha ricavato dal sistema a partire dalla sentenza **16/1978**: non sono ammessi quesiti su norme costituzionali o a contenuto costituzionalmente vincolato, quesiti **non omogenei**, non chiari o manipolativi; per le leggi costituzionalmente necessarie, come quelle elettorali, deve restare una disciplina applicabile.",
-      "pagine": [
-        127,
-        128
-      ]
-    },
-    {
-      "id": "regolarita-referendum",
-      "nome": "Regolarità della richiesta referendaria",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Controllo legale affidato all’Ufficio centrale della Cassazione.",
-      "definizione": "È il primo controllo sulla richiesta di [[referendum-abrogativo]], affidato dalla legge **352/1970** all'**Ufficio centrale per il referendum**, costituito presso la **Corte di cassazione**. L'Ufficio verifica la **legittimità** della richiesta: che sia stata presentata nei termini, che le firme valide siano almeno cinquecentomila (o che le delibere dei cinque Consigli regionali siano regolari), che l'atto indicato sia una legge o un atto con forza di legge ancora in vigore. Può riunire i quesiti simili e dà loro una denominazione. Se nel frattempo la legge è abrogata, dichiara chiuse le operazioni, o trasferisce il quesito sulla nuova disciplina se questa non cambia nella sostanza. Segue il giudizio di [[ammissibilita-referendum|ammissibilità]] della Corte costituzionale.",
-      "pagine": [
-        128,
-        128
-      ]
-    },
-    {
-      "id": "regolamenti-governativi",
-      "nome": "Regolamenti governativi",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Fonti secondarie emanate secondo il procedimento governativo.",
-      "definizione": "Sono atti normativi **secondari** adottati dal **Governo**: subordinati alla legge, non possono contrastarla né intervenire nelle materie coperte da riserva assoluta. La Costituzione li menziona appena (art. 87: li emana il Presidente della Repubblica); la disciplina è nell'**art. 17 della legge 400/1988**. Sono deliberati dal **Consiglio dei ministri**, sentito il **Consiglio di Stato**, emanati con decreto del Presidente della Repubblica, registrati dalla Corte dei conti e pubblicati. I tipi: di **esecuzione** delle leggi; di **attuazione e integrazione** di leggi di principio; **indipendenti**, in materie non regolate dalla legge; di **organizzazione** delle amministrazioni; **delegati**, nella [[delegificazione]]. Se illegittimi li annulla il giudice amministrativo, non la Corte costituzionale. Dopo il 2001 spettano allo Stato solo nelle materie esclusive (art. 117).",
-      "pagine": [
-        129,
-        130
-      ]
-    },
-    {
-      "id": "delegificazione",
-      "nome": "Delegificazione",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Passaggio dalla disciplina legislativa a quella regolamentare autorizzato dalla legge.",
-      "definizione": "È il trasferimento della disciplina di una materia **dalla legge al regolamento**: una materia finora regolata da norme di legge viene d'ora in poi regolata da una fonte secondaria, più facile da modificare. Poiché un regolamento non può abrogare una legge, l'art. 17, secondo comma, della legge 400/1988 usa questo schema: una **legge autorizza** il Governo ad adottare il regolamento, fissa le **norme generali regolatrici della materia** e dispone l'**abrogazione delle norme di legge vigenti**, con effetto dall'entrata in vigore del regolamento. È dunque la legge ad abrogare, non il regolamento. Non è ammessa nelle materie coperte da **riserva assoluta di legge**. Serve a semplificare e a sfoltire la legislazione. Il regolamento resta fonte secondaria.",
-      "pagine": [
-        129,
-        130
-      ]
-    },
-    {
-      "id": "regolamenti-ministeriali",
-      "nome": "Regolamenti ministeriali",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Fonti secondarie ministeriali con espressa autorizzazione legislativa.",
-      "definizione": "Sono regolamenti adottati da un **singolo ministro**, con decreto ministeriale, nelle materie di competenza del suo ministero; se la materia riguarda più ministeri sono **interministeriali**. Per l'art. 17, terzo comma, della legge 400/1988 possono essere adottati solo quando **la legge conferisce espressamente** questo potere. Sono subordinati alla legge e anche ai [[regolamenti-governativi]], con cui non possono contrastare: stanno un gradino sotto. Devono essere comunicati al Presidente del Consiglio prima dell'emanazione; come i regolamenti governativi richiedono il parere del Consiglio di Stato, la registrazione della Corte dei conti e la pubblicazione nella Gazzetta Ufficiale, e devono recare la denominazione «regolamento». Non vanno confusi con le [[circolare-amministrativa|circolari]].",
-      "pagine": [
-        130,
-        130
-      ]
-    },
-    {
-      "id": "circolare-amministrativa",
-      "nome": "Circolare amministrativa",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Istruzione o indirizzo interno agli uffici.",
-      "definizione": "È l'atto con cui un'autorità amministrativa superiore dà agli uffici dipendenti **istruzioni** su come interpretare e applicare le norme o su come organizzare il lavoro. È un atto **interno** all'amministrazione: vincola i funzionari in forza del rapporto gerarchico, ma **non è una fonte del diritto**. Non può creare obblighi per i cittadini, non può derogare alla legge o ai regolamenti, non vincola il giudice, che interpreta la legge liberamente. Il cittadino può contestare l'atto che applica una circolare illegittima. Nella pratica le circolari hanno grande importanza, perché orientano il comportamento concreto degli uffici. Si distinguono dai [[regolamenti-ministeriali]], che sono invece atti normativi.",
-      "pagine": [
-        130,
-        130
-      ]
-    }
-  ],
-  "relazioni": [
-    {
-      "da": "regolamenti-parlamentari",
-      "a": "criterio-di-competenza",
-      "tipo": "esempio-di",
-      "etichetta": "rapporto con la legge"
-    },
-    {
-      "da": "autodichia",
-      "a": "regolamenti-parlamentari",
-      "tipo": "collegato",
-      "etichetta": "autonomia e tutela"
-    },
-    {
-      "da": "referendum-abrogativo",
-      "a": "abrogazione",
-      "tipo": "causa",
-      "etichetta": "elimina norme vigenti"
-    },
-    {
-      "da": "ammissibilita-referendum",
-      "a": "referendum-abrogativo",
-      "tipo": "parte-di",
-      "etichetta": "controllo costituzionale"
-    },
-    {
-      "da": "regolarita-referendum",
-      "a": "referendum-abrogativo",
-      "tipo": "parte-di",
-      "etichetta": "controllo legale"
-    },
-    {
-      "da": "quorum-referendario",
-      "a": "referendum-abrogativo",
-      "tipo": "parte-di",
-      "etichetta": "condizione di validità"
-    },
-    {
-      "da": "delegificazione",
-      "a": "regolamenti-governativi",
-      "tipo": "collegato",
-      "etichetta": "disciplina secondaria autorizzata"
-    },
-    {
-      "da": "regolamenti-ministeriali",
-      "a": "regolamenti-governativi",
-      "tipo": "collegato",
-      "etichetta": "non possono contraddirli"
-    },
-    {
-      "da": "circolare-amministrativa",
-      "a": "regolamenti-governativi",
-      "tipo": "collegato",
-      "etichetta": "da distinguere"
-    }
-  ],
-  "eventi": [
-    {
-      "id": "ev-legge-n-352-1970-sui-referendum",
-      "anno": 1970,
-      "data": "25 maggio 1970",
-      "titolo": "Legge n. 352/1970 sui referendum",
-      "descrizione": "Attua gli istituti di democrazia diretta: solo da qui il referendum abrogativo diventa utilizzabile.",
-      "tipo": "legge",
-      "pagine": [
-        125,
-        130
-      ],
-      "concetti": [
-        "referendum-abrogativo",
-        "regolarita-referendum"
-      ]
-    },
-    {
-      "id": "ev-primo-referendum-abrogativo",
-      "anno": 1974,
-      "data": "12–13 maggio 1974",
-      "titolo": "Primo referendum abrogativo",
-      "descrizione": "Gli elettori respingono l'abrogazione della legge sul divorzio.",
-      "tipo": "politica",
-      "pagine": [
-        125,
-        130
-      ],
-      "concetti": [
-        "referendum-abrogativo",
-        "quorum-referendario"
-      ]
-    }
-  ],
-  "mappa": {
-    "testo": "Altre fonti statali",
-    "figli": [
-      {
-        "testo": "Autonomie costituzionali",
-        "figli": [
-          {
-            "testo": "Regolamento parlamentare",
-            "concetto": "regolamenti-parlamentari"
-          },
-          {
-            "testo": "Autodichia limitata",
-            "concetto": "autodichia"
-          }
-        ]
-      },
-      {
-        "testo": "Abrogazione popolare",
-        "concetto": "referendum-abrogativo",
-        "figli": [
-          {
-            "testo": "Regolarità",
-            "concetto": "regolarita-referendum"
-          },
-          {
-            "testo": "Ammissibilità",
-            "concetto": "ammissibilita-referendum"
-          },
-          {
-            "testo": "Quorum",
-            "concetto": "quorum-referendario"
-          }
-        ]
-      },
-      {
-        "testo": "Fonti secondarie",
-        "concetto": "regolamenti-governativi",
-        "figli": [
-          {
-            "testo": "Delegificazione",
-            "concetto": "delegificazione"
-          },
-          {
-            "testo": "Ministeriali",
-            "concetto": "regolamenti-ministeriali"
-          },
-          {
-            "testo": "Circolari distinte",
-            "concetto": "circolare-amministrativa"
-          }
-        ]
-      }
-    ]
+   ],
+   "concetti": [
+    "governo",
+    "consiglio-dei-ministri",
+    "ministri",
+    "ministri-senza-portafoglio",
+    "consiglio-di-gabinetto",
+    "presidenza-del-consiglio",
+    "principio-di-legalita",
+    "presidente-del-consiglio",
+    "sottosegretari-di-stato",
+    "organo-costituzionale"
+   ]
   },
-  "domande": [
+  {
+   "id": "u14-l2",
+   "titolo": "La pubblica amministrazione e i suoi principi costituzionali",
+   "pagine": [
+    120,
+    122
+   ],
+   "minuti": 35,
+   "sintesi": "### Che cos'è la pubblica amministrazione\nIn prima approssimazione la [[pubblica-amministrazione|pubblica amministrazione]] è l'insieme dei pubblici uffici che compongono l'apparato dello Stato e degli altri enti pubblici. Svolge tre tipi di attività:\n\n| Attività | Contenuto |\n|---|---|\n| **attiva** | realizza i fini che l'amministrazione deve perseguire |\n| **consultiva** | pareri agli organi attivi: **facoltativi** (chiesti per scelta), **obbligatori** (da chiedere per legge), **vincolanti** (l'organo deve uniformarvisi) |\n| **di controllo** | sindaca gli atti: di **legittimità** (regole giuridiche) o di **merito** (buona amministrazione) |\n\nNe fanno parte gli uffici centrali e periferici dello Stato, divisi per ministero, e quelli degli enti territoriali ([[regioni|Regioni]], Province, Comuni) e non territoriali (enti parastatali, consorzi, camere di commercio): i loro atti hanno la stessa forza degli atti statali verso i cittadini (è l'**autarchia**). Più in generale vi rientrano tutti gli uffici che svolgono funzioni **sostanzialmente** amministrative. Questa nozione estensiva dà unità ai principi e rafforza la tutela del cittadino, garantita dagli artt. 103 e 113 qualunque sia l'ente che ha emanato l'atto lesivo.\n\n### I principi costituzionali\n- **Riserva di legge sull'organizzazione** (art. 97): i pubblici uffici sono organizzati secondo disposizioni di legge; con legge si provvede anche all'ordinamento della [[presidenza-del-consiglio|Presidenza del Consiglio]] e al numero, alle attribuzioni e all'organizzazione dei ministeri (art. 95, terzo comma).\n- **Equilibrio dei bilanci**: dal 2012 il nuovo primo comma dell'art. 97 impone a tutte le pubbliche amministrazioni, in coerenza con l'ordinamento europeo, di assicurare l'equilibrio dei bilanci e la sostenibilità del debito pubblico.\n- **[[buon-andamento-e-imparzialita|Buon andamento e imparzialità]]** (art. 97): l'organizzazione deve garantirli. L'imparzialità è ribadita dall'art. 98: «I pubblici impiegati sono al servizio esclusivo della Nazione», non di un partito o di una fazione.\n- **Legalità**, in senso **formale** (l'amministrazione agisce nei limiti della legge, libera nelle sue scelte) e **sostanziale** (agisce in conformità alla legge, che ne indirizza il contenuto).\n- **Democraticità**: l'attività amministrativa deve rispondere alle esigenze della collettività ed essere controllata dai rappresentanti del popolo, attraverso il [[rapporto-di-fiducia|rapporto fiduciario]]. Vi si collega l'art. 5: la Repubblica riconosce le autonomie locali e attua il più ampio [[decentramento-burocratico|decentramento amministrativo]]. Ne è un'applicazione il diritto generalizzato di **accesso ai documenti**, per la trasparenza.\n- **Concorso** (art. 97): agli impieghi pubblici si accede per concorso, salvo i casi stabiliti dalla legge; il principio si integra con l'art. 51 sull'[[accesso-ai-pubblici-uffici|accesso agli uffici pubblici]] in condizioni di [[principio-di-uguaglianza|eguaglianza]], al quale la [[legge-costituzionale|legge costituzionale]] 1/2003 ha aggiunto la promozione delle pari opportunità tra donne e uomini ([[azioni-positive|azioni positive]]). Le [[commissioni-parlamentari|commissioni]] di concorso devono essere composte in modo esclusivo o almeno prevalente da tecnici ed esperti (Corte cost. 453/1990 e 333/1993).\n\n### Lo spoil system\nIl [[spoil-system|sistema delle spoglie]], di origine americana, fa cambiare i dirigenti pubblici al cambiare dei Governi. La Corte (sentenze 103 e 104/2007) lo ha limitato agli incarichi di diretta collaborazione con gli organi politici: non può estendersi a tutta la dirigenza, che deve restare imparziale.\n\n### Responsabilità e tutela\nI funzionari e i dipendenti dello Stato e degli enti pubblici sono **direttamente responsabili**, secondo le leggi penali, civili e amministrative, degli atti compiuti in violazione di diritti (art. 28). Contro gli atti della pubblica amministrazione è **sempre** ammessa la tutela giurisdizionale dei diritti e degli interessi legittimi davanti al giudice ordinario o amministrativo, e non può essere esclusa o limitata a particolari mezzi di impugnazione o categorie di atti (art. 113).\n\n### Autorità e libertà\nLa [[costituzione-italiana|Costituzione]] mantiene la **supremazia** delle pubbliche autorità sui privati, a differenza di sistemi come quello inglese che li pongono sullo stesso piano. Questo principio non si concilierebbe con eguaglianza e democraticità se non fosse temperato dalle norme poste a tutela della libertà.",
+   "puntiChiave": [
+    "L'amministrazione svolge attività attiva, consultiva (pareri facoltativi, obbligatori, vincolanti) e di controllo (legittimità e merito).",
+    "Nozione estensiva: tutti gli uffici che svolgono funzioni sostanzialmente amministrative.",
+    "Art. 97: organizzazione per legge, buon andamento e imparzialità, concorso; art. 98: impiegati al servizio della Nazione.",
+    "Legalità formale e sostanziale; democraticità e decentramento (art. 5).",
+    "Spoil system limitato agli incarichi di collaborazione politica (sent. 103 e 104/2007).",
+    "Responsabilità diretta dei funzionari (art. 28) e tutela sempre ammessa (art. 113)."
+   ],
+   "memoria": [
     {
-      "id": "u14-q001",
-      "tipo": "flashcard",
-      "lezione": "u14-l1",
-      "livello": "base",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "norme-attuazione-statuti-speciali"
-      ],
-      "domanda": "Qual è la base delle norme di attuazione degli statuti speciali?",
-      "risposta": "Il singolo statuto speciale e il procedimento da esso previsto, normalmente con una commissione paritetica; non una comune delega ex art. 76."
+     "voce": "Art. 97",
+     "dettaglio": "organizzazione per legge, buon andamento, imparzialità, concorso"
     },
     {
-      "id": "u14-q002",
-      "tipo": "flashcard",
-      "lezione": "u14-l1",
-      "livello": "base",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "regolamenti-parlamentari"
-      ],
-      "domanda": "Quale maggioranza approva il regolamento di ciascuna Camera?",
-      "risposta": "La maggioranza assoluta dei suoi componenti, ai sensi dell’art. 64."
+     "voce": "Art. 98",
+     "dettaglio": "impiegati al servizio esclusivo della Nazione"
     },
     {
-      "id": "u14-q003",
-      "tipo": "flashcard",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "regolamenti-parlamentari"
-      ],
-      "domanda": "Perché il regolamento parlamentare non è un regolamento ministeriale?",
-      "risposta": "La Costituzione gli riserva l’organizzazione e i procedimenti della Camera; il rapporto con la legge si fonda sulla competenza."
+     "voce": "Art. 28",
+     "dettaglio": "responsabilità diretta dei funzionari"
     },
     {
-      "id": "u14-q004",
-      "tipo": "flashcard",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "autodichia"
-      ],
-      "domanda": "L’autodichia comprende ogni controversia con terzi?",
-      "risposta": "No. L’autonomia funzionale non giustifica una sottrazione generale dei terzi alla giurisdizione; la sentenza n. 65/2024 lo ha chiarito per un appalto della Camera."
+     "voce": "Art. 113",
+     "dettaglio": "tutela giurisdizionale contro gli atti della PA"
     },
     {
-      "id": "u14-q005",
-      "tipo": "multipla",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "regolamenti-parlamentari",
-        "criterio-di-competenza"
-      ],
-      "domanda": "Una legge vuole sostituire integralmente il regolamento interno della Camera. Quale criterio rileva soprattutto?",
-      "opzioni": [
-        "Cronologico",
-        "Specialità",
-        "Competenza",
-        "Consuetudine"
-      ],
-      "corretta": 2,
-      "spiegazione": "L’art. 64 riserva una sfera normativa alla Camera."
+     "voce": "L. cost. 1/2003",
+     "dettaglio": "pari opportunità nell'art. 51"
     },
     {
-      "id": "u14-q006",
-      "tipo": "multipla",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "principi-supremi"
-      ],
-      "domanda": "L’art. 78 consente di affermare che il Governo può sempre sospendere tutti i principi supremi?",
-      "opzioni": [
-        "Sì, basta un decreto ministeriale",
-        "No, il conferimento dei poteri necessari resta nel quadro costituzionale",
-        "Sì, anche in tempo di pace",
-        "Sì, senza deliberazione parlamentare"
-      ],
-      "corretta": 1,
-      "spiegazione": "La straordinarietà non è un potere costituente illimitato."
-    },
-    {
-      "id": "u14-q007",
-      "tipo": "verofalso",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "regolamenti-parlamentari"
-      ],
-      "affermazione": "Tutti gli atti chiamati regolamento occupano lo stesso posto nel sistema delle fonti.",
-      "vero": false,
-      "spiegazione": "Il regolamento parlamentare e quello governativo hanno basi e competenze differenti."
-    },
-    {
-      "id": "u14-q008",
-      "tipo": "verofalso",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "autodichia"
-      ],
-      "affermazione": "L’autodichia deve rispettare le esigenze di indipendenza del giudicante e di tutela effettiva.",
-      "vero": true,
-      "spiegazione": "L’autonomia non elimina le garanzie costituzionali della tutela."
-    },
-    {
-      "id": "u14-q009",
-      "tipo": "completa",
-      "lezione": "u14-l1",
-      "livello": "base",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "regolamenti-parlamentari"
-      ],
-      "testo": "Ogni Camera adotta il proprio regolamento a maggioranza {{assoluta}} dei componenti.",
-      "spiegazione": "È la maggioranza prescritta dall’art. 64."
-    },
-    {
-      "id": "u14-q010",
-      "tipo": "aperta",
-      "lezione": "u14-l1",
-      "livello": "avanzato",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "norme-attuazione-statuti-speciali",
-        "regolamenti-parlamentari",
-        "autodichia",
-        "criterio-di-competenza"
-      ],
-      "domanda": "Spiega perché autonomia parlamentare non significa assenza di limiti costituzionali.",
-      "traccia": "Il regolamento di ciascuna Camera trova nell’art. 64 una base diretta e una sfera di competenza riservata: non è una fonte secondaria governativa. La legge non può sostituirlo liberamente nell’organizzazione e nei procedimenti parlamentari, ma il regolamento deve rispettare la Costituzione e non può disciplinare ogni rapporto esterno. L’esclusione dal giudizio sulle leggi non rende costituzionalmente irrilevante ogni atto parlamentare: possono operare gli strumenti appropriati, come il conflitto di attribuzione. Anche l’autodichia, cioè la decisione interna di alcune controversie, va ricondotta alle esigenze funzionali dell’organo e alle garanzie di tutela. La sentenza n. 262/2017 ha riconosciuto quella relativa ai dipendenti del Senato e della Presidenza della Repubblica; la n. 65/2024 ha escluso la sua estensione a terzi estranei in una controversia di appalto della Camera. Autonomia normativa e giustizia interna restano concetti distinti.",
-      "punti": [
-        {
-          "testo": "Base e competenza",
-          "chiavi": [
-            "64",
-            "competenza"
-          ]
-        },
-        {
-          "testo": "Limite costituzionale",
-          "chiavi": [
-            "costituzione",
-            "conflitto"
-          ]
-        },
-        {
-          "testo": "Autodichia circoscritta",
-          "chiavi": [
-            "dipendenti",
-            "terzi"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u14-q011",
-      "tipo": "flashcard",
-      "lezione": "u14-l2",
-      "livello": "base",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "referendum-abrogativo"
-      ],
-      "domanda": "Chi può chiedere il referendum abrogativo nazionale?",
-      "risposta": "Cinquecentomila elettori oppure cinque Consigli regionali."
-    },
-    {
-      "id": "u14-q012",
-      "tipo": "flashcard",
-      "lezione": "u14-l2",
-      "livello": "base",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "ammissibilita-referendum"
-      ],
-      "domanda": "Quali leggi esclude espressamente l’art. 75?",
-      "risposta": "Leggi tributarie e di bilancio, di amnistia e indulto, di autorizzazione a ratificare trattati internazionali."
-    },
-    {
-      "id": "u14-q013",
-      "tipo": "flashcard",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "regolarita-referendum",
-        "ammissibilita-referendum"
-      ],
-      "domanda": "Qual è la differenza fra controllo della Cassazione e della Corte costituzionale?",
-      "risposta": "L’Ufficio centrale controlla la regolarità legale della richiesta; la Corte giudica l’ammissibilità costituzionale del quesito."
-    },
-    {
-      "id": "u14-q014",
-      "tipo": "flashcard",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "quorum-referendario"
-      ],
-      "domanda": "Quali condizioni permettono l’approvazione dell’abrogazione?",
-      "risposta": "Partecipazione della maggioranza degli aventi diritto e maggioranza dei sì fra i voti validamente espressi."
-    },
-    {
-      "id": "u14-q015",
-      "tipo": "multipla",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "quorum-referendario"
-      ],
-      "domanda": "Vota il 40% degli aventi diritto e il 90% dei voti validi è sì. Che cosa accade?",
-      "opzioni": [
-        "La legge è abrogata",
-        "Manca il quorum di partecipazione",
-        "Il quorum non esiste",
-        "Decide il Presidente senza voto"
-      ],
-      "corretta": 1,
-      "spiegazione": "La maggioranza dei sì non sostituisce la partecipazione richiesta dall’art. 75."
-    },
-    {
-      "id": "u14-q016",
-      "tipo": "multipla",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "ammissibilita-referendum"
-      ],
-      "domanda": "Un referendum elettorale parziale lascia una disciplina incoerente che impedisce nuove elezioni. Qual è il problema?",
-      "opzioni": [
-        "Non è mai ammessa alcuna domanda elettorale",
-        "La normativa residua non è immediatamente applicabile",
-        "Il quesito deve essere deciso dai ministri",
-        "Bastano più firme per superarlo"
-      ],
-      "corretta": 1,
-      "spiegazione": "La continuità degli organi costituzionali impone una normativa residua idonea al loro rinnovo."
-    },
-    {
-      "id": "u14-q017",
-      "tipo": "verofalso",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "referendum-abrogativo"
-      ],
-      "affermazione": "Un quinto dei membri di una Camera è un promotore previsto dall’art. 75.",
-      "vero": false,
-      "spiegazione": "Quella iniziativa appartiene all’art. 138, non al referendum abrogativo."
-    },
-    {
-      "id": "u14-q018",
-      "tipo": "verofalso",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "quorum-referendario"
-      ],
-      "affermazione": "Il mancato quorum equivale a un no valido e blocca automaticamente la stessa richiesta per cinque anni.",
-      "vero": false,
-      "spiegazione": "Il divieto quinquennale riguarda l’esito negativo con quorum raggiunto."
-    },
-    {
-      "id": "u14-q019",
-      "tipo": "completa",
-      "lezione": "u14-l2",
-      "livello": "base",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "ammissibilita-referendum",
-        "regolarita-referendum"
-      ],
-      "testo": "La {{Corte costituzionale}} decide sull’ammissibilità, mentre l’Ufficio centrale presso la {{Cassazione}} controlla la regolarità della richiesta.",
-      "spiegazione": "I controlli sono distinti e non intercambiabili."
-    },
-    {
-      "id": "u14-q020",
-      "tipo": "aperta",
-      "lezione": "u14-l2",
-      "livello": "avanzato",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "referendum-abrogativo",
-        "quorum-referendario",
-        "ammissibilita-referendum",
-        "regolarita-referendum"
-      ],
-      "domanda": "Ricostruisci il referendum abrogativo e confrontalo con quello costituzionale.",
-      "traccia": "Il referendum dell’art. 75 è richiesto da cinquecentomila elettori o cinque Consigli regionali e mira all’abrogazione totale o parziale di una fonte primaria statale vigente. Incontra le esclusioni espresse, fra cui tributi e bilancio, e i limiti ricostruiti dalla Corte, come chiarezza, omogeneità e continuità degli organi costituzionali. L’Ufficio centrale della Cassazione controlla la regolarità legale; la Corte costituzionale l’ammissibilità. Il Presidente lo indice previa deliberazione del Consiglio dei ministri. L’esito abrogativo richiede sia la partecipazione della maggioranza degli aventi diritto sia la maggioranza dei sì fra i voti validi. Segue il decreto dichiarativo dell’abrogazione, con efficacia normalmente dal giorno successivo alla pubblicazione. Il referendum dell’art. 138 riguarda invece un testo costituzionale prima della promulgazione, può essere chiesto anche da un quinto dei membri di una Camera e non richiede un quorum di partecipazione.",
-      "punti": [
-        {
-          "testo": "Oggetto e iniziativa",
-          "chiavi": [
-            "primaria",
-            "cinquecentomila",
-            "cinque"
-          ]
-        },
-        {
-          "testo": "Controlli",
-          "chiavi": [
-            "cassazione",
-            "corte"
-          ]
-        },
-        {
-          "testo": "Due maggioranze",
-          "chiavi": [
-            "partecipazione",
-            "validi"
-          ]
-        },
-        {
-          "testo": "Confronto 138",
-          "chiavi": [
-            "promulgazione",
-            "quorum"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u14-q021",
-      "tipo": "flashcard",
-      "lezione": "u14-l3",
-      "livello": "base",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "regolamenti-governativi"
-      ],
-      "domanda": "Quale rango ha un regolamento governativo?",
-      "risposta": "Secondario: deve rispettare le fonti primarie e la Costituzione."
-    },
-    {
-      "id": "u14-q022",
-      "tipo": "flashcard",
-      "lezione": "u14-l3",
-      "livello": "base",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "delegificazione"
-      ],
-      "domanda": "Che cosa deve predisporre la legge di delegificazione?",
-      "risposta": "Autorizzazione, norme generali regolatrici e abrogazione delle norme precedenti con effetto dall’entrata in vigore del regolamento."
-    },
-    {
-      "id": "u14-q023",
-      "tipo": "flashcard",
-      "lezione": "u14-l3",
-      "livello": "medio",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "regolamenti-ministeriali"
-      ],
-      "domanda": "Un regolamento ministeriale può contraddire un regolamento governativo?",
-      "risposta": "No; richiede inoltre un’esplicita autorizzazione legislativa."
-    },
-    {
-      "id": "u14-q024",
-      "tipo": "flashcard",
-      "lezione": "u14-l3",
-      "livello": "medio",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "circolare-amministrativa"
-      ],
-      "domanda": "Una circolare obbliga il giudice ad applicare l’interpretazione del ministro?",
-      "risposta": "No. È normalmente un’istruzione interna e non una fonte che vincola il giudice o deroga alla legge."
-    },
-    {
-      "id": "u14-q025",
-      "tipo": "multipla",
-      "lezione": "u14-l3",
-      "livello": "medio",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "delegificazione",
-        "legge-delega"
-      ],
-      "domanda": "Quale affermazione distingue correttamente delegificazione e delegazione legislativa?",
-      "opzioni": [
-        "Entrambe producono sempre decreti legislativi",
-        "La prima porta a un regolamento secondario, la seconda a un decreto legislativo primario",
-        "La prima sospende la Costituzione",
-        "La seconda non richiede una legge"
-      ],
-      "corretta": 1,
-      "spiegazione": "La diversa fonte finale determina rango e limiti."
-    },
-    {
-      "id": "u14-q026",
-      "tipo": "multipla",
-      "lezione": "u14-l3",
-      "livello": "medio",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "riserva-di-legge",
-        "regolamenti-governativi"
-      ],
-      "domanda": "Una materia è coperta da riserva assoluta di legge. Il Governo può disciplinarne liberamente il nucleo con regolamento indipendente?",
-      "opzioni": [
-        "Sì, se non trova una legge recente",
-        "Sì, se usa un DPR",
-        "No, l’assenza di una legge non elimina la riserva",
-        "Sì, basta una circolare"
-      ],
-      "corretta": 2,
-      "spiegazione": "I regolamenti indipendenti sono esclusi nelle materie comunque riservate alla legge."
-    },
-    {
-      "id": "u14-q027",
-      "tipo": "verofalso",
-      "lezione": "u14-l3",
-      "livello": "medio",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "regolamenti-governativi"
-      ],
-      "affermazione": "Il DPR contenente un regolamento ha forza di legge solo perché firmato dal Presidente.",
-      "vero": false,
-      "spiegazione": "Rango e forza dipendono dal potere esercitato, non dalla sola forma."
-    },
-    {
-      "id": "u14-q028",
-      "tipo": "verofalso",
-      "lezione": "u14-l3",
-      "livello": "medio",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "delegificazione"
-      ],
-      "affermazione": "La delegificazione opera nelle materie non coperte da riserva assoluta, secondo le condizioni legislative.",
-      "vero": true,
-      "spiegazione": "Il regolamento non può sostituire il nucleo costituzionalmente riservato alla fonte primaria."
-    },
-    {
-      "id": "u14-q029",
-      "tipo": "completa",
-      "lezione": "u14-l3",
-      "livello": "base",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "delegificazione"
-      ],
-      "testo": "Nella delegificazione il regolamento resta una fonte {{secondaria}}, mentre l’effetto abrogativo è predisposto dalla {{legge}}.",
-      "spiegazione": "L’autorizzazione non conferisce forza di legge al regolamento."
-    },
-    {
-      "id": "u14-q030",
-      "tipo": "aperta",
-      "lezione": "u14-l3",
-      "livello": "avanzato",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "regolamenti-governativi",
-        "delegificazione",
-        "regolamenti-ministeriali",
-        "circolare-amministrativa",
-        "riserva-di-legge"
-      ],
-      "domanda": "Spiega rango, procedimento e limiti della delegificazione.",
-      "traccia": "La delegificazione sostituisce una precedente disciplina legislativa con una regolamentare nelle materie non coperte da riserva assoluta di legge. In base all’art. 17, comma 2, della legge n. 400/1988, una legge autorizza l’esercizio della potestà regolamentare, stabilisce le norme generali regolatrici e dispone l’abrogazione della disciplina precedente a partire dall’entrata in vigore del regolamento. L’abrogazione è quindi imputata alla legge: il regolamento non acquista forza primaria. Il procedimento conserva le garanzie dei regolamenti governativi, con deliberazione del Consiglio dei ministri, parere del Consiglio di Stato, emanazione presidenziale, controllo e pubblicazione. La delegificazione va distinta dalla delegazione legislativa, che conduce a un decreto legislativo con forza di legge secondo i criteri dell’art. 76. Il regolamento resta subordinato alla legge e non può superare i limiti costituzionali alla disciplina secondaria.",
-      "punti": [
-        {
-          "testo": "Ambito",
-          "chiavi": [
-            "riserva",
-            "assoluta"
-          ]
-        },
-        {
-          "testo": "Contenuto della legge",
-          "chiavi": [
-            "autorizza",
-            "generali",
-            "abrogazione"
-          ]
-        },
-        {
-          "testo": "Rango e procedimento",
-          "chiavi": [
-            "secondaria",
-            "stato",
-            "presidenziale"
-          ]
-        },
-        {
-          "testo": "Distinzione dalla delega",
-          "chiavi": [
-            "76",
-            "legislativo"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u14-q031",
-      "tipo": "ordina",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "referendum-abrogativo",
-        "quorum-referendario",
-        "ammissibilita-referendum",
-        "regolarita-referendum"
-      ],
-      "consegna": "Ordina le fasi ordinarie di una richiesta di referendum abrogativo che supera i controlli.",
-      "elementi": [
-        "Presentazione della richiesta con i requisiti prescritti",
-        "Controllo dell’Ufficio centrale della Cassazione",
-        "Giudizio di ammissibilità della Corte costituzionale",
-        "Indizione e voto popolare",
-        "Decreto dichiarativo dell’abrogazione se approvata"
-      ],
-      "spiegazione": "I due controlli precedono indizione e voto; il decreto finale dichiara l’abrogazione approvata."
-    },
-    {
-      "id": "u14-q032",
-      "tipo": "abbina",
-      "lezione": "u14-l3",
-      "livello": "base",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "regolamenti-governativi",
-        "delegificazione",
-        "regolamenti-ministeriali",
-        "circolare-amministrativa"
-      ],
-      "consegna": "Abbina la fonte alla caratteristica.",
-      "coppie": [
-        [
-          "Regolamento parlamentare",
-          "Competenza riservata ex art. 64"
-        ],
-        [
-          "Regolamento di delegificazione",
-          "Resta secondario e attiva l’abrogazione predisposta dalla legge"
-        ],
-        [
-          "Regolamento ministeriale",
-          "Richiede espressa autorizzazione legislativa"
-        ],
-        [
-          "Circolare",
-          "Istruzione normalmente interna agli uffici"
-        ]
-      ]
-    },
-    {
-      "id": "u14-q033",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "regolamenti-parlamentari"
-      ],
-      "tipo": "multipla",
-      "domanda": "Con quale maggioranza ciascuna Camera adotta il proprio regolamento?",
-      "opzioni": [
-        "Maggioranza dei presenti",
-        "Maggioranza assoluta dei componenti",
-        "Due terzi dei componenti",
-        "Unanimità"
-      ],
-      "corretta": 1,
-      "spiegazione": "Art. 64, primo comma."
-    },
-    {
-      "id": "u14-q034",
-      "lezione": "u14-l1",
-      "livello": "avanzato",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "regolamenti-parlamentari",
-        "criterio-di-competenza"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "I regolamenti parlamentari sono subordinati alla legge ordinaria, che può modificarli.",
-      "vero": false,
-      "spiegazione": "Il rapporto è di competenza, non di gerarchia: la Costituzione riserva a ciascuna Camera la disciplina della propria organizzazione e dei propri lavori."
-    },
-    {
-      "id": "u14-q035",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "autodichia"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Che cos'è l'autodichia?",
-      "risposta": "È il potere degli organi costituzionali (Camere, Presidenza della Repubblica, Corte costituzionale) di decidere con propri organi interni le controversie con i propri dipendenti, al posto del giudice comune."
-    },
-    {
-      "id": "u14-q036",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "ammissibilita-referendum",
-        "referendum-abrogativo"
-      ],
-      "tipo": "multipla",
-      "domanda": "Si raccolgono le firme per abrogare una legge che autorizza la ratifica di un trattato internazionale. Il referendum è ammissibile?",
-      "opzioni": [
-        "Sì, con 500.000 firme",
-        "Sì, se lo chiedono cinque Consigli regionali",
-        "No: è uno dei limiti dell'art. 75, secondo comma",
-        "No, perché i trattati sono fonti dell'Unione europea"
-      ],
-      "corretta": 2,
-      "spiegazione": "Non è ammesso il referendum per le leggi tributarie e di bilancio, di amnistia e di indulto, di autorizzazione a ratificare trattati internazionali. La Corte ha aggiunto limiti impliciti."
-    },
-    {
-      "id": "u14-q037",
-      "lezione": "u14-l2",
-      "livello": "base",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "quorum-referendario"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Il referendum abrogativo è valido qualunque sia il numero dei votanti.",
-      "vero": false,
-      "spiegazione": "La proposta è approvata se ha partecipato la maggioranza degli aventi diritto e se è raggiunta la maggioranza dei voti validamente espressi (art. 75)."
-    },
-    {
-      "id": "u14-q038",
-      "lezione": "u14-l2",
-      "livello": "medio",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "regolarita-referendum",
-        "ammissibilita-referendum"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Quali controlli subisce la richiesta di referendum abrogativo, e da parte di chi?",
-      "risposta": "L'Ufficio centrale per il referendum presso la Corte di cassazione controlla la regolarità: firme, termini, oggetto. La Corte costituzionale giudica poi l'ammissibilità: limiti dell'art. 75 e requisiti del quesito, che deve essere chiaro, omogeneo e univoco."
-    },
-    {
-      "id": "u14-q039",
-      "lezione": "u14-l3",
-      "livello": "medio",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "regolamenti-governativi",
-        "riserva-di-legge"
-      ],
-      "tipo": "multipla",
-      "domanda": "Il Governo vuole disciplinare con regolamento una materia coperta da riserva assoluta di legge. Può farlo?",
-      "opzioni": [
-        "Sì, se il regolamento è deliberato dal Consiglio dei ministri",
-        "Sì, sentito il Consiglio di Stato",
-        "No: la riserva assoluta esclude le fonti secondarie",
-        "No, salvo che il Presidente della Repubblica lo autorizzi"
-      ],
-      "corretta": 2,
-      "spiegazione": "Nella riserva assoluta tutta la disciplina spetta alla legge o agli atti con forza di legge."
-    },
-    {
-      "id": "u14-q040",
-      "lezione": "u14-l3",
-      "livello": "avanzato",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "delegificazione"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Nella delegificazione è il regolamento ad abrogare direttamente la legge.",
-      "vero": false,
-      "spiegazione": "L'effetto abrogativo è disposto dalla legge che autorizza il regolamento, ed è rinviato al momento in cui questo entra in vigore: così il criterio gerarchico è rispettato."
-    },
-    {
-      "id": "u14-q041",
-      "lezione": "u14-l3",
-      "livello": "base",
-      "pagine": [
-        129,
-        130
-      ],
-      "concetti": [
-        "circolare-amministrativa"
-      ],
-      "tipo": "flashcard",
-      "domanda": "La circolare amministrativa è una fonte del diritto?",
-      "risposta": "No. È un atto interno con cui un'amministrazione dà istruzioni ai propri uffici: non vincola i cittadini né i giudici e non può derogare a leggi o regolamenti."
-    },
-    {
-      "id": "u14-q042",
-      "lezione": "u14-l2",
-      "livello": "avanzato",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "referendum-abrogativo",
-        "referendum-costituzionale",
-        "quorum-referendario",
-        "ammissibilita-referendum"
-      ],
-      "tipo": "aperta",
-      "domanda": "Referendum abrogativo e referendum costituzionale a confronto.",
-      "traccia": "Il **referendum abrogativo** (art. 75) ha per oggetto una **legge o un atto con forza di legge già in vigore**, da eliminare in tutto o in parte. Lo chiedono **500.000 elettori** o **cinque Consigli regionali**. Non è ammesso per le leggi **tributarie e di bilancio**, di **amnistia e indulto**, di **autorizzazione a ratificare trattati**; la Corte costituzionale, che giudica l'**ammissibilità**, ha aggiunto limiti impliciti e richiede un quesito **omogeneo**. È valido solo se vota la **maggioranza degli aventi diritto**. Se vince il sì, il Presidente della Repubblica dichiara l'abrogazione con decreto.\n\nIl **referendum costituzionale** (art. 138) riguarda una **legge di revisione o costituzionale non ancora in vigore**. È **eventuale**: si può chiedere, entro tre mesi dalla pubblicazione, solo se nella seconda votazione non si sono raggiunti i **due terzi** in ciascuna Camera. Lo chiedono un **quinto dei membri di una Camera**, 500.000 elettori o cinque Consigli regionali. **Non ha quorum** di partecipazione: basta la maggioranza dei voti validi. Non ci sono materie escluse né giudizio di ammissibilità.\n\nIl primo è uno strumento di legislazione negativa del popolo; il secondo è una **garanzia delle minoranze** dentro il procedimento di revisione.",
-      "punti": [
-        {
-          "testo": "Abrogativo: legge in vigore; costituzionale: legge non ancora in vigore",
-          "chiavi": [
-            "in vigore",
-            "abrog"
-          ]
-        },
-        {
-          "testo": "Chi lo chiede: 500.000 elettori, cinque Consigli, un quinto di una Camera",
-          "chiavi": [
-            "500",
-            "cinque consigli",
-            "quinto"
-          ]
-        },
-        {
-          "testo": "Quorum di partecipazione solo nell'abrogativo",
-          "chiavi": [
-            "quorum",
-            "maggioranza degli aventi"
-          ]
-        },
-        {
-          "testo": "Limiti di materia e giudizio di ammissibilità solo nell'abrogativo",
-          "chiavi": [
-            "ammissibil",
-            "tributar",
-            "trattati"
-          ]
-        },
-        {
-          "testo": "Il costituzionale è eventuale: solo senza i due terzi",
-          "chiavi": [
-            "due terzi",
-            "eventual"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u14-q043",
-      "lezione": "u14-l2",
-      "pagine": [
-        127,
-        128
-      ],
-      "serie": "procedimenti",
-      "tipo": "ordina",
-      "livello": "medio",
-      "consegna": "Il referendum abrogativo (art. 75 · legge 352/1970): metti i passi nell'ordine giusto.",
-      "elementi": [
-        "Richiesta",
-        "Controllo di regolarità",
-        "Giudizio di ammissibilità",
-        "Indizione",
-        "Voto"
-      ],
-      "spiegazione": "1. **Richiesta** (500.000 elettori o cinque Consigli regionali): Il quesito indica la legge, o la parte di legge, da abrogare.\n2. **Controllo di regolarità** (Ufficio centrale presso la Corte di cassazione): Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata.\n3. **Giudizio di ammissibilità** (Corte costituzionale): Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei.\n4. **Indizione** (Presidente della Repubblica): Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno.\n5. **Voto** (Corpo elettorale): Votano gli elettori della Camera.\n   - Vota la maggioranza degli aventi diritto e prevalgono i sì → il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni\n   - Prevalgono i no → lo stesso quesito non può essere riproposto per cinque anni\n   - Non si raggiunge il quorum → il referendum non è valido",
-      "concetti": [
-        "referendum-abrogativo",
-        "regolarita-referendum",
-        "ammissibilita-referendum",
-        "quorum-referendario"
-      ]
-    },
-    {
-      "id": "u14-q044",
-      "lezione": "u14-l2",
-      "pagine": [
-        127,
-        128
-      ],
-      "serie": "procedimenti",
-      "tipo": "aperta",
-      "livello": "avanzato",
-      "domanda": "Descriva l'iter del referendum abrogativo, dalla richiesta al voto.",
-      "traccia": "Dalle firme al voto ci sono due controlli: uno sulla regolarità, uno sull'ammissibilità.\n\n**Richiesta** (500.000 elettori o cinque Consigli regionali). Il quesito indica la legge, o la parte di legge, da abrogare.\n\n**Controllo di regolarità** (Ufficio centrale presso la Corte di cassazione). Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata.\n\n**Giudizio di ammissibilità** (Corte costituzionale). Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei.\n\n**Indizione** (Presidente della Repubblica). Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno.\n\n**Voto** (Corpo elettorale). Votano gli elettori della Camera. Vota la maggioranza degli aventi diritto e prevalgono i sì: il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni. Prevalgono i no: lo stesso quesito non può essere riproposto per cinque anni. Non si raggiunge il quorum: il referendum non è valido.",
-      "punti": [
-        {
-          "testo": "Richiesta: Il quesito indica la legge, o la parte di legge, da abrogare",
-          "chiavi": [
-            "richies",
-            "quesito",
-            "indica"
-          ]
-        },
-        {
-          "testo": "Controllo di regolarità: Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata",
-          "chiavi": [
-            "control",
-            "regolar",
-            "verific"
-          ]
-        },
-        {
-          "testo": "Giudizio di ammissibilità: Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei",
-          "chiavi": [
-            "giudizi",
-            "ammissi",
-            "esclude"
-          ]
-        },
-        {
-          "testo": "Indizione: Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno",
-          "chiavi": [
-            "indizio",
-            "domenic",
-            "15"
-          ]
-        },
-        {
-          "testo": "Voto: Votano gli elettori della Camera",
-          "chiavi": [
-            "votano",
-            "elettor",
-            "camera"
-          ]
-        }
-      ],
-      "concetti": [
-        "referendum-abrogativo",
-        "regolarita-referendum",
-        "ammissibilita-referendum",
-        "quorum-referendario"
-      ]
-    },
-    {
-      "id": "u14-q045",
-      "lezione": "u14-l2",
-      "pagine": [
-        127,
-        128
-      ],
-      "serie": "procedimenti",
-      "tipo": "flashcard",
-      "livello": "medio",
-      "domanda": "Il referendum abrogativo, passo «Voto»: quali esiti sono possibili?",
-      "risposta": "Vota la maggioranza degli aventi diritto e prevalgono i sì: il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni. Prevalgono i no: lo stesso quesito non può essere riproposto per cinque anni. Non si raggiunge il quorum: il referendum non è valido.",
-      "concetti": [
-        "quorum-referendario"
-      ]
-    },
-    {
-      "id": "u14-q046",
-      "lezione": "u14-l2",
-      "pagine": [
-        127,
-        128
-      ],
-      "serie": "procedimenti",
-      "tipo": "abbina",
-      "livello": "medio",
-      "consegna": "Referendum abrogativo e referendum costituzionale. Abrogativo: abbina ogni aspetto alla sua caratteristica.",
-      "coppie": [
-        [
-          "Norma",
-          "art. 75"
-        ],
-        [
-          "Oggetto",
-          "Legge già in vigore"
-        ],
-        [
-          "Chi lo chiede",
-          "500.000 elettori o 5 Consigli regionali"
-        ],
-        [
-          "Quando",
-          "Sempre, salvo i limiti di materia"
-        ],
-        [
-          "Quorum di partecipazione",
-          "Sì: maggioranza degli aventi diritto"
-        ],
-        [
-          "Controllo della Corte",
-          "Giudizio di ammissibilità"
-        ]
-      ]
-    },
-    {
-      "id": "u14-q047",
-      "lezione": "u14-l2",
-      "pagine": [
-        127,
-        128
-      ],
-      "serie": "procedimenti",
-      "tipo": "abbina",
-      "livello": "medio",
-      "consegna": "Referendum abrogativo e referendum costituzionale. Costituzionale: abbina ogni aspetto alla sua caratteristica.",
-      "coppie": [
-        [
-          "Norma",
-          "art. 138"
-        ],
-        [
-          "Oggetto",
-          "Legge costituzionale non ancora in vigore"
-        ],
-        [
-          "Chi lo chiede",
-          "Un quinto di una Camera, 500.000 elettori o 5 Consigli regionali"
-        ],
-        [
-          "Quando",
-          "Solo se non ci sono stati i due terzi"
-        ],
-        [
-          "Quorum di partecipazione",
-          "No"
-        ],
-        [
-          "Controllo della Corte",
-          "Nessuno"
-        ]
-      ]
-    },
-    {
-      "id": "u14-q048",
-      "lezione": "u14-l2",
-      "livello": "avanzato",
-      "pagine": [
-        127,
-        128
-      ],
-      "concetti": [
-        "referendum-abrogativo",
-        "ammissibilita-referendum",
-        "quorum-referendario"
-      ],
-      "tipo": "aperta",
-      "domanda": "Referendum abrogativo: quali richieste sono ammissibili e quali no?",
-      "traccia": "Per l'**art. 75** il referendum abrogativo può essere chiesto da **cinquecentomila elettori** o da **cinque Consigli regionali** per l'abrogazione, totale o parziale, di una legge o di un atto avente valore di legge.\n\n**Limiti espressi** (art. 75, secondo comma): non è ammesso per le leggi **tributarie e di bilancio**, di **amnistia e di indulto**, di **autorizzazione a ratificare trattati internazionali**.\n\n**Limiti ricavati dalla Corte costituzionale** a partire dalla sentenza 16/1978: non sono ammissibili le richieste che colpiscono la **Costituzione e le leggi costituzionali**, le leggi **a contenuto costituzionalmente vincolato** (l'unica attuazione possibile di una norma costituzionale) e quelle **costituzionalmente necessarie** se l'abrogazione lascia l'organo o l'istituto senza disciplina, le leggi strettamente collegate a quelle escluse dall'art. 75. Il **quesito** deve inoltre essere **omogeneo, chiaro e univoco**, perché l'elettore può rispondere solo sì o no; non può trasformarsi in una proposta di legge nuova. Per le **leggi elettorali** il referendum è ammesso solo se la normativa che resta è immediatamente applicabile.\n\n**Chi controlla**: l'Ufficio centrale presso la Cassazione verifica la **regolarità** della richiesta (firme, termini); la **Corte costituzionale** giudica l'**ammissibilità** (legge cost. 1/1953, legge 352/1970).\n\nIl referendum è valido se vota la **maggioranza degli aventi diritto** e passa con la maggioranza dei voti validi.",
-      "punti": [
-        {
-          "testo": "Art. 75: 500.000 elettori o cinque Consigli regionali",
-          "chiavi": [
-            "500",
-            "cinquecentomila",
-            "cinque consigli"
-          ]
-        },
-        {
-          "testo": "Limiti espressi: tributarie e di bilancio, amnistia e indulto, ratifica dei trattati",
-          "chiavi": [
-            "tributari",
-            "amnistia",
-            "trattati"
-          ]
-        },
-        {
-          "testo": "Limiti impliciti dalla sent. 16/1978: Costituzione, leggi a contenuto vincolato o necessarie",
-          "chiavi": [
-            "16/1978",
-            "vincolat",
-            "necessari"
-          ]
-        },
-        {
-          "testo": "Quesito omogeneo, chiaro e univoco",
-          "chiavi": [
-            "omogene",
-            "chiar",
-            "univoc"
-          ]
-        },
-        {
-          "testo": "Cassazione per la regolarità, Corte costituzionale per l'ammissibilità",
-          "chiavi": [
-            "cassazione",
-            "ammissibil"
-          ]
-        },
-        {
-          "testo": "Quorum: maggioranza degli aventi diritto e dei voti validi",
-          "chiavi": [
-            "quorum",
-            "maggioranza degli aventi"
-          ]
-        }
-      ],
-      "esame": [
-        "torre"
-      ]
-    },
-    {
-      "id": "u14-q049",
-      "lezione": "u14-l1",
-      "livello": "medio",
-      "pagine": [
-        125,
-        127
-      ],
-      "concetti": [
-        "regolamenti-parlamentari",
-        "autodichia",
-        "criterio-di-competenza"
-      ],
-      "tipo": "aperta",
-      "domanda": "Che posto hanno i regolamenti parlamentari nel sistema delle fonti?",
-      "traccia": "L'**art. 64** stabilisce che ciascuna Camera adotta il proprio regolamento **a maggioranza assoluta dei suoi componenti**: la maggioranza qualificata serve a coinvolgere le minoranze nelle regole del gioco.\n\nSono **fonti primarie**, direttamente previste dalla Costituzione, e hanno una **competenza riservata**: l'organizzazione interna di ciascuna Camera e i suoi procedimenti (l'art. 72 rinvia al regolamento per l'esame delle leggi). Il rapporto con la legge non è di gerarchia ma di **competenza**: la legge non può disciplinare ciò che spetta al regolamento, e il regolamento è subordinato soltanto alla Costituzione.\n\n**Contenuto**: organi della Camera (Presidente, Ufficio di presidenza, gruppi, commissioni, giunte), programmazione dei lavori, procedimento legislativo, strumenti di indirizzo e di controllo, modi di votazione. I regolamenti in vigore sono del 1971, più volte modificati (gli appunti ricordano le riforme del 1997 alla Camera e del 1999 al Senato; le ultime seguono la riduzione del numero dei parlamentari).\n\n**Controllo**: la Corte costituzionale ha escluso di poterli giudicare in sede di legittimità, perché l'art. 134 parla solo di leggi e atti con forza di legge e perché va rispettata l'indipendenza delle Camere. Ma l'autonomia parlamentare non è una zona senza Costituzione: le lesioni di attribuzioni altrui possono essere fatte valere con il **conflitto tra poteri**.\n\nAccanto ai regolamenti generali esistono i regolamenti minori e, come espressione della stessa autonomia, l'**autodichia**.",
-      "punti": [
-        {
-          "testo": "Art. 64: approvati da ciascuna Camera a maggioranza assoluta dei componenti",
-          "chiavi": [
-            "64",
-            "maggioranza assoluta"
-          ]
-        },
-        {
-          "testo": "Fonti primarie a competenza riservata",
-          "chiavi": [
-            "primari",
-            "riserv",
-            "competenz"
-          ]
-        },
-        {
-          "testo": "Rapporto con la legge: competenza, non gerarchia",
-          "chiavi": [
-            "competenza",
-            "gerarchi"
-          ]
-        },
-        {
-          "testo": "Contenuto: organizzazione e procedimenti delle Camere",
-          "chiavi": [
-            "organizzazion",
-            "procediment"
-          ]
-        },
-        {
-          "testo": "Non sindacabili nel giudizio di legittimità; resta il conflitto tra poteri",
-          "chiavi": [
-            "134",
-            "sindac",
-            "conflitto"
-          ]
-        }
-      ],
-      "esame": [
-        "torre"
-      ]
+     "voce": "Sent. 103 e 104/2007",
+     "dettaglio": "limiti allo spoil system"
     }
+   ],
+   "concetti": [
+    "pubblica-amministrazione",
+    "buon-andamento-e-imparzialita",
+    "principio-di-legalita",
+    "spoil-system",
+    "presidenza-del-consiglio"
+   ]
+  },
+  {
+   "id": "u14-l3",
+   "titolo": "La formazione del Governo",
+   "pagine": [
+    123,
+    126
+   ],
+   "minuti": 40,
+   "sintesi": "### Un procedimento quasi tutto non scritto\nLa formazione del [[governo|Governo]] è un **procedimento**: una serie di atti coordinati diretti all'atto finale di nomina. Si apre ogni volta che un Governo si dimette e il Presidente della Repubblica accetta le dimissioni, o dopo le elezioni. La [[costituzione-italiana|Costituzione]] dice poco: «Il Presidente della Repubblica nomina il [[presidente-del-consiglio|Presidente del Consiglio]] dei [[ministri|ministri]] e, su proposta di questo, i ministri» (art. 92, secondo comma). Le altre regole sono [[convenzioni-costituzionali|convenzioni costituzionali]], che possono cambiare nel tempo entro i principi della [[governo-parlamentare|forma di governo parlamentare]].\n\n### Il margine del Capo dello Stato\nIl [[presidente-della-repubblica|Presidente della Repubblica]] deve nominare il Governo con le maggiori probabilità di ottenere e mantenere la [[rapporto-di-fiducia|fiducia]]. Nel funzionamento fisiologico ha un margine **ristretto** nella scelta del Presidente del Consiglio e nessun potere sulla scelta dei ministri, formalmente rimessa al Presidente del Consiglio. Con il passaggio a sistemi a vocazione maggioritaria (dal 1993 e poi con la legge 270/2005 e il suo premio di maggioranza) si è affermata la convenzione che l'incarico vada al leader dello schieramento vincente. Il Presidente può comunque influire davvero sulla nascita di una nuova maggioranza, per esempio dopo una crisi dovuta alla frantumazione di quella uscita dalle urne: agisce allora come **moderatore** tra i [[partiti-politici|partiti]] che possono concorrere a formare il Governo. Resta un ruolo più attivo nelle **crisi di sistema**: alcuni Presidenti hanno conferito l'incarico delimitando la formula politica, fissando linee di programma, dando indicazioni sui ministri o termini all'incaricato, sempre fuori dagli interessi di partito.\n\n### Le tappe\n1. **Consultazioni** del Capo dello Stato (non previste in Costituzione): presidenti dei [[gruppi-parlamentari|gruppi parlamentari]] con i segretari dei partiti, Presidenti delle Camere, ex Presidenti della Repubblica, altre personalità utili.\n2. Nei casi difficili, **[[mandato-esplorativo|mandato esplorativo]]** a una personalità (spesso il Presidente di una [[camera-dei-deputati|Camera]]) che svolge ulteriori consultazioni; diverso è il **preincarico**, affidato a chi probabilmente riceverà l'incarico, perché chiarisca la situazione.\n3. **Incarico**, conferito oralmente (con decreto fino al 1958). L'incaricato accetta **con riserva** e svolge consultazioni «minori» per verificare la maggioranza e il programma e poi comporre la lista dei ministri.\n4. Se fallisce, **rinuncia**. Se la maggioranza è obiettivamente impossibile, il Presidente può rinviare alle Camere il Governo dimissionario (non dopo una crisi parlamentare), perché i partiti chiariscano pubblicamente le posizioni, oppure sciogliere le Camere.\n5. Se riesce, **scioglie la riserva** e presenta la lista dei ministri.\n6. **Nomina** con decreti del Presidente della Repubblica.\n7. **Giuramento** nelle mani del Presidente della Repubblica prima di assumere le funzioni (art. 93).\n8. Entro **dieci giorni** dal giuramento, presentazione alle Camere per la **fiducia** (art. 94), con l'esposizione del programma.\n\nCon il sistema maggioritario la lista dei ministri è stata spesso definita dal leader della coalizione prima delle consultazioni (Prodi nella XIII [[legislatura|legislatura]], Berlusconi nella XIV); anche con la legge 270/2005 il nome del Presidente del Consiglio era di fatto indicato dagli elettori (Prodi nella XV, Berlusconi nella XVI). Oggi la legge elettorale è la 180/2026; il progetto di **premierato** (elezione diretta del Presidente del Consiglio) non è stato approvato.\n\n### Il programma\nNessuna norma costituzionale prevede espressamente il programma, ma è implicito nel sistema e consacrato dalla consuetudine: le Camere votano la fiducia sugli obiettivi del Governo. Dopo la fiducia il programma diventa l'**indirizzo politico** dello Stato e vincola Governo e [[parlamento|Parlamento]]. Pesa meno quando la maggioranza è disomogenea o il Governo è monocolore: allora i programmi sono vaghi e senza scadenze. Anche il programma presentato agli elettori può essere modificato dopo il voto, per nuovi accordi tra le componenti della coalizione o per le esigenze dei rapporti con l'opposizione.\n\n### Che cosa resta al Presidente della Repubblica\nIl potere di nomina è formalmente del Capo dello Stato, ma la scelta dei ministri è rimessa al Presidente del Consiglio, che li propone. Il Presidente della Repubblica deve evitare Governi destinati a non ottenere la fiducia, perché la stabilità serve a prevenire nuove crisi; per lo stesso motivo il Governo nasce già con la lista dei ministri concordata nella fase dell'incarico.\n\n### Prima della fiducia\nTra giuramento e fiducia il Governo è nella pienezza delle funzioni (art. 93), ma non può svolgere attività di [[indirizzo-politico|indirizzo politico]] prima che le Camere approvino il programma: i dieci giorni servono proprio a perfezionarlo.\n\n### Sottosegretari e viceministri\nTra i primi atti del [[consiglio-dei-ministri|Consiglio dei ministri]] c'è la designazione dei [[sottosegretari-di-stato|sottosegretari di Stato]], nominati con decreto del Presidente della Repubblica. Non sono menzionati dalla Costituzione, non fanno parte del Governo e non sono organi costituzionali: hanno solo le attribuzioni delegate dal ministro, ma possono intervenire alle sedute delle Camere e delle [[commissioni-parlamentari|commissioni]] e rispondere a interrogazioni e interpellanze. Il sottosegretario alla [[presidenza-del-consiglio|Presidenza del Consiglio]] è segretario del Consiglio dei ministri e ne segue le sedute **senza diritto di voto**. La legge 81/2001 ha introdotto i [[viceministri|viceministri]]: al massimo dieci sottosegretari con deleghe su aree o progetti di più strutture, approvate dal Consiglio su proposta del Presidente del Consiglio; possono essere invitati alle sedute del Consiglio, sempre senza voto.\n\n### Dal percorso A-L: passaggi da non confondere\n- **Consultazioni**: non esiste un elenco costituzionale rigido di chi convocare; servono a capire quale soluzione può ottenere il [[rapporto-di-fiducia|fiducia]].\n- Il [[mandato-esplorativo|mandato esplorativo]] obbliga a riferire al Capo dello Stato e non equivale alla nomina.\n- L'**incaricato** che ha accettato con riserva non è ancora Presidente del Consiglio: fino alla nomina resta in funzione il Governo uscente. La **proposta** dei ministri non è già una nomina efficace: servono entrambi gli organi dell'art. 92.\n- **Nomina e giuramento** precedono la fiducia: il Governo esiste prima del voto, ma con limiti politici; se la fiducia è negata deve dimettersi.\n- Una nuova maggioranza si può cercare nella **stessa legislatura**: la Costituzione non impone elezioni a ogni cambio di Presidente del Consiglio; se nessuna maggioranza è praticabile resta lo scioglimento dell'art. 88.\n\nI [[sottosegretari-di-stato|sottosegretari]] sono proposti dal Presidente del Consiglio, **di concerto** con il ministro interessato e sentito il Consiglio, e giurano nelle mani del Presidente del Consiglio. La delega ne fissa l'ambito e non crea una competenza politica autonoma; le nomine servono spesso anche a bilanciare la coalizione. Il sottosegretario-segretario del Consiglio cura verbalizzazione e conservazione delle delibere.",
+   "puntiChiave": [
+    "L'art. 92 dice solo che il Presidente della Repubblica nomina il Presidente del Consiglio e, su sua proposta, i ministri: il resto sono convenzioni.",
+    "Il Capo dello Stato ha un margine ristretto; più ampio nelle crisi di sistema.",
+    "Tappe: consultazioni, eventuale mandato esplorativo o preincarico, incarico con riserva, lista dei ministri, nomina, giuramento, fiducia entro dieci giorni.",
+    "Il programma, dopo la fiducia, diventa indirizzo politico dello Stato.",
+    "Prima della fiducia il Governo è in carica ma non fa indirizzo politico.",
+    "Sottosegretari e viceministri non fanno parte del Governo; i viceministri (l. 81/2001) sono al massimo dieci.",
+    "La proposta dei ministri non è una nomina: servono Presidente della Repubblica e Presidente del Consiglio (art. 92)."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 92, secondo comma",
+     "dettaglio": "nomina del Presidente del Consiglio e dei ministri"
+    },
+    {
+     "voce": "Art. 93",
+     "dettaglio": "giuramento prima di assumere le funzioni"
+    },
+    {
+     "voce": "Mandato esplorativo",
+     "dettaglio": "consultazioni affidate di solito al Presidente di una Camera"
+    },
+    {
+     "voce": "Incarico con riserva",
+     "dettaglio": "l'incaricato verifica maggioranza e programma"
+    },
+    {
+     "voce": "L. 81/2001",
+     "dettaglio": "viceministri, al massimo dieci"
+    },
+    {
+     "voce": "Premierato",
+     "dettaglio": "progetto di revisione non approvato"
+    }
+   ],
+   "concetti": [
+    "mandato-esplorativo",
+    "sottosegretari-di-stato",
+    "viceministri",
+    "formazione-del-governo",
+    "governo",
+    "presidente-del-consiglio",
+    "ministri",
+    "consiglio-dei-ministri",
+    "presidenza-del-consiglio",
+    "rapporto-di-fiducia",
+    "legislatura"
+   ]
+  },
+  {
+   "id": "u14-l4",
+   "titolo": "Comitati, funzione amministrativa e direzione politica",
+   "pagine": [
+    126,
+    128
+   ],
+   "minuti": 35,
+   "sintesi": "### Comitati interministeriali e comitati di ministri\nI [[comitati-interministeriali|comitati interministeriali]] sono formati da più ministri e, a volte, da funzionari ed esperti. Preparano e coordinano l'attività del [[consiglio-dei-ministri|Consiglio dei ministri]] in singoli settori, secondo il criterio di **efficienza** che la [[costituzione-italiana|Costituzione]] impone all'amministrazione. Sorgono dubbi di costituzionalità quando ricevono poteri decisionali riservati al Consiglio: la politica del [[governo|Governo]] non sarebbe più decisa collegialmente ma da pochi ministri. Esempi:\n\n- il **CIPE**, comitato per la programmazione economica (dal 2021 **CIPESS**, anche per lo sviluppo sostenibile);\n- il [[consiglio-supremo-di-difesa|Consiglio supremo di difesa]], presieduto dal [[presidente-della-repubblica|Presidente della Repubblica]];\n- il **CISR**, Comitato interministeriale per la sicurezza della Repubblica.\n\nIl Presidente del Consiglio può inoltre istituire con proprio decreto **comitati di ministri** per esaminare in via preliminare questioni di comune competenza, anche con esperti esterni (art. 5, comma 2, l. 400/1988).\n\n### La funzione amministrativa del Governo\nMinistri e Presidente del Consiglio hanno una **duplice veste**:\n\n| Veste | Significato |\n|---|---|\n| **organi burocratici** | al vertice gerarchico del proprio dicastero (o del settore affidato al ministro senza portafoglio) |\n| **organi di governo** | determinano collegialmente l'indirizzo amministrativo |\n\nLe due funzioni sono interdipendenti: l'indirizzo di ogni ministero deve armonizzarsi con la politica generale decisa dal Consiglio. Al confine tra [[indirizzo-politico|indirizzo politico]] e amministrazione sta l'**[[alta-amministrazione|alta amministrazione]]**: nomina ai vertici dello Stato, degli enti pubblici e delle amministrazioni speciali; dichiarazione di pericolo pubblico; preparazione dei trattati politici e militari; atti sui rapporti con la Chiesa cattolica e con le altre confessioni. Sono deliberati dal Consiglio dei ministri ed emanati con decreto del Presidente della Repubblica (art. 2, comma 3, l. 400).\n\n### La direzione politica: il Presidente del Consiglio\nLa politica del Governo è **determinata collegialmente** dal Consiglio, ma la Costituzione riserva al [[presidente-del-consiglio|Presidente del Consiglio]] una posizione di preminenza, da **primus inter pares** (primo tra pari). Art. 95: «Il Presidente del Consiglio dei ministri **dirige** la politica generale del Governo e **ne è responsabile**. Mantiene l'unità di indirizzo politico ed amministrativo, promuovendo e coordinando l'attività dei ministri».\n\nLa **direzione** non comprende il potere di **determinare** la politica, che spetta al Consiglio come organo collegiale. Comprende però i poteri dell'art. 5 della legge 400: indirizzare ai ministri le direttive politiche e amministrative in attuazione delle deliberazioni del Consiglio, coordinarne e promuoverne l'attività. Il Presidente è l'organo che assicura che il programma presentato alle [[parlamento|Camere]] sia realizzato. Il suo triplice potere di **direzione, impulso e coordinamento** ha come contrappeso una **responsabilità politica** verso le Camere, che può essere fatta valere quando esse ritengono che il Governo non rispetti gli impegni presi al momento della sua formazione. Non si tratta di una supremazia gerarchica: il Presidente indirizza e coordina i ministri perché l'azione resti unitaria, senza sostituirsi a loro nella guida dei dicasteri.\n\nAccanto c'è la responsabilità dei [[ministri|ministri]], sia come organi di governo sia come organi burocratici: «I ministri sono responsabili collegialmente degli atti del Consiglio dei ministri, e individualmente degli atti dei loro dicasteri» (art. 95, secondo comma).\n\n### Separazione tra politica e amministrazione\nIl d.lgs. 80/1998, poi confluito nel **d.lgs. 165/2001** (testo unico sul pubblico impiego), ha definito la [[separazione-politica-amministrazione|separazione tra indirizzo politico e gestione amministrativa]]: agli organi legittimati, direttamente o indirettamente, dal voto popolare spettano programmazione e controllo; ai dirigenti, organi tecnico-amministrativi, l'attuazione di programmi e direttive. Così si distinguono anche la responsabilità politica e quella amministrativa. È lo stesso principio che spiega i limiti allo [[spoil-system|spoil system]].\n\n### Dal percorso A-L: preminenza e collegialità\nIl Presidente del Consiglio è un *primus inter pares*, non il superiore gerarchico dei ministri: **non può revocarli** né sostituirsi a loro. Per assicurare coerenza dispone di direttive, convoca il Consiglio, gli deferisce le questioni che richiedono una decisione comune e può **sospendere un atto ministeriale** per sottoporlo al collegio. Il [[consiglio-dei-ministri|Consiglio]] delibera su programma e dichiarazioni per la fiducia, [[questione-di-fiducia|questioni di fiducia]], disegni di legge, [[decreto-legge|decreti-legge]], [[decreto-legislativo|decreti legislativi]], [[regolamenti-governativi|regolamenti governativi]], conflitti tra ministri e nomine più alte; non adotta ogni atto di ogni ministero. Il peso reale del Presidente dipende dalla coalizione; il «premierato» con elezione diretta non è stato approvato.\n\n### Dal percorso A-L: indirizzo politico, difesa e sicurezza\nL'[[indirizzo-politico|indirizzo politico]] si attua con la direzione dell'amministrazione, l'iniziativa legislativa, la partecipazione ai lavori parlamentari e i poteri normativi del Governo. In politica estera la ratifica dei trattati dell'art. 80 richiede l'autorizzazione delle Camere; nella politica di bilancio il Parlamento approva le scelte legislative.\n\nPer la guerra, l'art. 78 affida alle Camere la deliberazione e il conferimento al Governo dei poteri necessari, l'art. 87 al Capo dello Stato la dichiarazione e la presidenza del [[consiglio-supremo-di-difesa|Consiglio supremo di difesa]]; tutto va letto con il ripudio della guerra dell'art. 11. Le **missioni internazionali** sono regolate dalla legge 145/2016 (deliberazione del Governo, autorizzazione e controllo parlamentare, copertura finanziaria). Il sistema di [[informazione-per-la-sicurezza|informazione per la sicurezza]] (legge 124/2007) fa capo al Presidente del Consiglio, con CISR, DIS, AISE e AISI e il controllo del COPASIR; il **segreto di Stato** non può coprire fatti eversivi dell'ordine costituzionale.",
+   "puntiChiave": [
+    "I comitati interministeriali preparano e coordinano il lavoro del Consiglio; dubbi se ricevono poteri decisionali (CIPE, oggi CIPESS; Consiglio supremo di difesa; CISR).",
+    "Ministri e Presidente del Consiglio sono insieme organi burocratici e organi di governo.",
+    "L'alta amministrazione sta tra indirizzo politico e amministrazione: nomine di vertice, trattati politici, rapporti con le confessioni.",
+    "Il Presidente del Consiglio dirige la politica generale ma non la determina: è primus inter pares (art. 95).",
+    "Responsabilità collegiale per gli atti del Consiglio, individuale per quelli del dicastero.",
+    "Il d.lgs. 165/2001 separa indirizzo politico e gestione amministrativa.",
+    "Il Presidente del Consiglio non può revocare i ministri: è primus inter pares, non superiore gerarchico."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 95, primo comma",
+     "dettaglio": "il Presidente del Consiglio dirige la politica generale"
+    },
+    {
+     "voce": "Art. 95, secondo comma",
+     "dettaglio": "responsabilità collegiale e individuale dei ministri"
+    },
+    {
+     "voce": "Art. 5 l. 400",
+     "dettaglio": "poteri di direttiva e coordinamento"
+    },
+    {
+     "voce": "CIPESS",
+     "dettaglio": "nuovo nome del CIPE dal 2021"
+    },
+    {
+     "voce": "Primus inter pares",
+     "dettaglio": "primo tra pari"
+    },
+    {
+     "voce": "D.lgs. 165/2001",
+     "dettaglio": "separazione tra politica e gestione"
+    }
+   ],
+   "concetti": [
+    "comitati-interministeriali",
+    "alta-amministrazione",
+    "presidente-del-consiglio",
+    "separazione-politica-amministrazione",
+    "consiglio-supremo-di-difesa",
+    "consiglio-dei-ministri",
+    "governo",
+    "ministri",
+    "spoil-system",
+    "indirizzo-politico",
+    "informazione-per-la-sicurezza",
+    "questione-di-fiducia",
+    "regolamenti-governativi"
+   ]
+  }
+ ],
+ "concetti": [
+  {
+   "id": "governo",
+   "nome": "Governo",
+   "tipo": "organo",
+   "alias": [
+    "esecutivo",
+    "potere esecutivo"
+   ],
+   "breve": "Organo costituzionale complesso al vertice del potere esecutivo: Presidente del Consiglio, ministri, Consiglio dei ministri.",
+   "definizione": "Secondo l'art. 92 è composto dal Presidente del Consiglio e dai ministri, che insieme formano il Consiglio dei ministri: è perciò un organo complesso, fatto di organi individuali e di un organo collegiale. Sta al vertice della pubblica amministrazione, organizzata in ministeri («governo a ministeri»), e determina con il Parlamento l'indirizzo politico. Nasce con la nomina presidenziale e il giuramento, deve ottenere la fiducia di entrambe le Camere entro dieci giorni e cessa con le dimissioni. La legge 400/1988 ne disciplina l'attività. È l'organo costituzionale titolare del **potere esecutivo**; oltre ai componenti necessari comprende figure non necessarie (vicepresidenti, ministri senza portafoglio, sottosegretari, comitati). Presenta disegni di legge e bilancio, adotta decreti-legge, decreti legislativi e regolamenti, conduce la politica estera.",
+   "pagine": [
+    119,
+    128
+   ]
+  },
+  {
+   "id": "consiglio-dei-ministri",
+   "nome": "Consiglio dei ministri",
+   "tipo": "organo",
+   "alias": [
+    "CdM"
+   ],
+   "breve": "Organo collegiale formato dal Presidente del Consiglio e dai ministri, che determina la politica generale del Governo.",
+   "definizione": "È l'organo collegiale del Governo (art. 92). Determina la politica generale, mentre il Presidente del Consiglio la dirige; delibera i decreti-legge, i decreti legislativi, i regolamenti governativi e gli atti di alta amministrazione, poi emanati dal Presidente della Repubblica. I ministri ne rispondono collegialmente (art. 95). Vi siedono con voto anche i ministri senza portafoglio; sottosegretario alla Presidenza e viceministri possono assistere senza voto. Comitati interministeriali e Consiglio di gabinetto ne preparano il lavoro, ma non devono sostituirlo. Delibera anche sul programma e sulle dichiarazioni per la fiducia, sulla questione di fiducia, sui conflitti di competenza tra ministri, sull'impugnazione delle leggi regionali e sulle nomine più alte; non adotta però ogni singolo atto dei ministeri.",
+   "pagine": [
+    119,
+    127
+   ]
+  },
+  {
+   "id": "presidente-del-consiglio",
+   "nome": "Presidente del Consiglio dei ministri",
+   "tipo": "organo",
+   "alias": [
+    "premier",
+    "Presidente del Consiglio"
+   ],
+   "breve": "Organo che dirige la politica generale del Governo e ne è responsabile; primus inter pares tra i ministri.",
+   "definizione": "Nominato dal Presidente della Repubblica dopo consultazioni e incarico, propone i ministri (art. 92). L'art. 95 gli attribuisce la direzione della politica generale, di cui è responsabile, e il compito di mantenere l'unità di indirizzo politico e amministrativo promuovendo e coordinando i ministri. Non determina da solo la politica, che spetta al Consiglio, ma dispone dei poteri di direttiva, impulso e coordinamento dell'art. 5 della legge 400/1988 e garantisce l'attuazione del programma. Controfirma gli atti con valore legislativo. Pone la questione di fiducia e rappresenta il Governo. Non è un superiore gerarchico: non può revocare i ministri né sostituirsi a loro; non deve essere parlamentare e può reggere un ministero ad interim. Le sue dimissioni fanno cadere l'intero Governo; il «premierato» con elezione diretta non è stato approvato.",
+   "pagine": [
+    119,
+    128
+   ]
+  },
+  {
+   "id": "ministri",
+   "nome": "Ministri",
+   "tipo": "organo",
+   "alias": [
+    "ministro"
+   ],
+   "breve": "Organi individuali del Governo, a capo dei ministeri; responsabili collegialmente e individualmente.",
+   "definizione": "Nominati dal Presidente della Repubblica su proposta del Presidente del Consiglio, giurano prima di assumere le funzioni (art. 93). Hanno una duplice veste: organi burocratici, al vertice gerarchico del proprio dicastero, e organi di governo, che concorrono nel Consiglio a determinare l'indirizzo. Rispondono collegialmente degli atti del Consiglio e individualmente di quelli del dicastero (art. 95); controfirmano gli atti presidenziali che propongono. Numero, attribuzioni e organizzazione dei ministeri sono stabiliti per legge (d.lgs. 300/1999). Dalla responsabilità individuale deriva l'ammissibilità della sfiducia al singolo ministro (caso Mancuso, sent. 7/1996); per i reati commessi nell'esercizio delle funzioni vale l'art. 96.",
+   "pagine": [
+    119,
+    128
+   ]
+  },
+  {
+   "id": "ministri-senza-portafoglio",
+   "nome": "Ministri senza portafoglio",
+   "tipo": "organo",
+   "alias": [],
+   "breve": "Ministri che non guidano un ministero ma un dipartimento della Presidenza del Consiglio, con voto in Consiglio.",
+   "definizione": "Dirigono settori dell'amministrazione centrale non organizzati in ministero (politiche europee, rapporti con il Parlamento, con le Regioni, protezione civile), che fanno capo a dipartimenti della Presidenza del Consiglio. Si distinguono dai commissari straordinari del Governo perché entrano nel Consiglio dei ministri e partecipano alla direzione politica. L'art. 92 non li prevede in modo espresso, ma la complessità dei compiti di governo li giustifica; svolgono le funzioni delegate dal Presidente del Consiglio, sentito il Consiglio (art. 9 l. 400/1988). Sono ministri a pieno titolo: «portafoglio» indica il dicastero con il suo bilancio. Fanno parte del Consiglio e vi votano; il loro numero varia da un Governo all'altro.",
+   "pagine": [
+    119,
+    120
+   ]
+  },
+  {
+   "id": "consiglio-di-gabinetto",
+   "nome": "Consiglio di gabinetto",
+   "tipo": "organo",
+   "alias": [
+    "Gabinetto"
+   ],
+   "breve": "Comitato di ministri designati dal Presidente del Consiglio che lo coadiuva nella direzione politica (art. 6 l. 400/1988).",
+   "definizione": "Istituito la prima volta con deliberazione del Consiglio dei ministri nell'agosto 1983, è previsto dall'art. 6 della legge 400/1988: il Presidente del Consiglio, sentito il Consiglio, designa i ministri che lo compongono. La dottrina teme che crei ministri di serie A («superministri» con un plusvalore politico) e di serie B, o che diventi un «supergabinetto» in cui i partiti decidono e il Consiglio ratifica; il rimedio è tenerlo aperto ai ministri interessati. Negli ultimi anni non è stato formato, per evitare squilibri.",
+   "pagine": [
+    119,
+    120
+   ]
+  },
+  {
+   "id": "pubblica-amministrazione",
+   "nome": "Pubblica amministrazione",
+   "tipo": "organo",
+   "alias": [
+    "PA",
+    "amministrazione pubblica"
+   ],
+   "breve": "Insieme degli uffici dello Stato e degli altri enti pubblici che svolgono funzioni sostanzialmente amministrative.",
+   "definizione": "Comprende l'apparato statale, centrale e periferico, diviso per ministeri, e quello di Regioni, Province, Comuni ed enti pubblici non territoriali; in senso più ampio ogni ufficio che svolge funzioni sostanzialmente amministrative. Svolge attività attiva, consultiva (pareri facoltativi, obbligatori, vincolanti) e di controllo (di legittimità e di merito). È soggetta ai principi degli artt. 97 e 98: organizzazione per legge, buon andamento, imparzialità, accesso per concorso. Contro i suoi atti la tutela giurisdizionale è sempre ammessa (art. 113).",
+   "pagine": [
+    120,
+    122
+   ]
+  },
+  {
+   "id": "buon-andamento-e-imparzialita",
+   "nome": "Buon andamento e imparzialità",
+   "tipo": "concetto",
+   "alias": [
+    "imparzialità",
+    "buon andamento"
+   ],
+   "breve": "Principi dell'art. 97 a cui deve ispirarsi l'organizzazione dei pubblici uffici.",
+   "definizione": "L'art. 97 chiede che i pubblici uffici siano organizzati secondo disposizioni di legge, in modo che siano assicurati il buon andamento, cioè efficienza ed efficacia, e l'imparzialità dell'amministrazione. L'imparzialità è ribadita dall'art. 98, per cui i pubblici impiegati sono al servizio esclusivo della Nazione e non di una parte politica. Ne discendono l'accesso agli impieghi per concorso, commissioni composte in prevalenza da tecnici, i limiti allo spoil system e la separazione tra indirizzo politico e gestione amministrativa.",
+   "pagine": [
+    121,
+    122
+   ]
+  },
+  {
+   "id": "principio-di-legalita",
+   "nome": "Principio di legalità",
+   "tipo": "concetto",
+   "alias": [
+    "legalità"
+   ],
+   "breve": "Principio per cui l'amministrazione agisce sulla base della legge e nei limiti da essa stabiliti.",
+   "definizione": "Nell'attività amministrativa si presenta in due accezioni: formale, per cui l'amministrazione deve agire nei limiti posti dalla legge, restando libera nelle proprie scelte; sostanziale, per cui deve agire in conformità alla legge, che ne indirizza anche il contenuto. È la regola dello Stato di diritto: anche il potere esecutivo è sottoposto alla legge, votata dai rappresentanti del popolo. Si collega alla riserva di legge, che indica quali materie solo la legge può disciplinare, e allo schema dei regolamenti di delegificazione. Si ricava da più disposizioni (artt. 23, 97, 101, 113); in materia penale vale nella forma più rigorosa (art. 25: legge anteriore, determinatezza, irretroattività sfavorevole). È vicino, ma non identico, alla riserva di legge.",
+   "pagine": [
+    119,
+    121
+   ]
+  },
+  {
+   "id": "spoil-system",
+   "nome": "Spoil system",
+   "tipo": "istituto",
+   "alias": [
+    "sistema delle spoglie"
+   ],
+   "breve": "Sistema, di origine americana, per cui i dirigenti pubblici cambiano al cambiare della maggioranza di governo.",
+   "definizione": "L'espressione indica la pratica, nata negli Stati Uniti, di sostituire i vertici dell'amministrazione quando cambia il Governo, assegnando gli incarichi ai fedeli del vincitore. In Italia la Corte costituzionale (sentenze 103 e 104 del 2007) l'ha ammessa solo per gli incarichi di diretta collaborazione con l'organo politico: estesa alla generalità dei dirigenti violerebbe imparzialità e buon andamento (art. 97) e la separazione tra indirizzo politico e gestione amministrativa.",
+   "pagine": [
+    122,
+    122
+   ]
+  },
+  {
+   "id": "formazione-del-governo",
+   "nome": "Formazione del Governo",
+   "tipo": "procedura",
+   "alias": [
+    "nomina del Governo",
+    "incarico"
+   ],
+   "breve": "Procedimento, regolato in gran parte da convenzioni, che porta alla nomina e al giuramento del Governo.",
+   "definizione": "La Costituzione dice solo che il Presidente della Repubblica nomina il Presidente del Consiglio e, su sua proposta, i ministri (art. 92), che giurano prima di assumere le funzioni (art. 93) e chiedono la fiducia entro dieci giorni (art. 94). Il resto è convenzionale: consultazioni del Capo dello Stato, eventuale mandato esplorativo o preincarico, incarico accettato con riserva, consultazioni dell'incaricato, scioglimento della riserva con la lista dei ministri, decreti di nomina. Il Presidente deve scegliere il Governo con più probabilità di ottenere la fiducia.",
+   "pagine": [
+    122,
+    125
+   ]
+  },
+  {
+   "id": "mandato-esplorativo",
+   "nome": "Mandato esplorativo",
+   "tipo": "procedura",
+   "alias": [
+    "preincarico"
+   ],
+   "breve": "Incarico di svolgere consultazioni, affidato dal Capo dello Stato quando i partiti non trovano un accordo.",
+   "definizione": "Nelle crisi più difficili il Presidente della Repubblica affida a una personalità, spesso il Presidente del Senato o della Camera, il compito di consultare le forze politiche per chiarirne gli orientamenti, senza che questa sia destinata a guidare il Governo. Si distingue dal preincarico, affidato a chi con ogni probabilità riceverà l'incarico, e dall'incarico vero e proprio, che l'incaricato accetta con riserva. Nessuna di queste figure è prevista dalla Costituzione: sono convenzioni costituzionali.",
+   "pagine": [
+    123,
+    123
+   ]
+  },
+  {
+   "id": "sottosegretari-di-stato",
+   "nome": "Sottosegretari di Stato",
+   "tipo": "organo",
+   "alias": [
+    "sottosegretari"
+   ],
+   "breve": "Collaboratori dei ministri, nominati con decreto presidenziale; non fanno parte del Governo.",
+   "definizione": "Designati dal Consiglio dei ministri tra i suoi primi atti e nominati con decreto del Presidente della Repubblica, non sono menzionati dalla Costituzione, non fanno parte del Governo e non sono organi costituzionali. Hanno solo le attribuzioni delegate dal ministro, ma possono intervenire alle sedute delle Camere e delle commissioni e rispondere a interrogazioni e interpellanze. Il sottosegretario alla Presidenza del Consiglio è segretario del Consiglio dei ministri e assiste alle sedute senza diritto di voto. Sono proposti dal Presidente del Consiglio di concerto con il ministro interessato, sentito il Consiglio, e giurano nelle mani del Presidente del Consiglio; le nomine servono spesso anche a equilibrare la coalizione.",
+   "pagine": [
+    120,
+    125
+   ]
+  },
+  {
+   "id": "viceministri",
+   "nome": "Viceministri",
+   "tipo": "organo",
+   "alias": [
+    "viceministro"
+   ],
+   "breve": "Sottosegretari con deleghe ampie, al massimo dieci, introdotti dalla legge 81/2001.",
+   "definizione": "La legge 81/2001 consente di attribuire il titolo di viceministro a non più di dieci sottosegretari, quando ricevono deleghe su aree o progetti che riguardano più strutture dipartimentali o più direzioni generali. La delega è conferita dal ministro e approvata dal Consiglio dei ministri su proposta del Presidente del Consiglio. La figura non è prevista dalla Costituzione e non cambia la struttura del Governo: i viceministri possono essere invitati alle sedute del Consiglio dei ministri, ma senza diritto di voto.",
+   "pagine": [
+    125,
+    125
+   ]
+  },
+  {
+   "id": "presidenza-del-consiglio",
+   "nome": "Presidenza del Consiglio dei ministri",
+   "tipo": "organo",
+   "alias": [
+    "Palazzo Chigi"
+   ],
+   "breve": "Struttura di supporto del Presidente del Consiglio, ordinata dalla legge 400/1988 e articolata in dipartimenti.",
+   "definizione": "È l'apparato che sostiene il Presidente del Consiglio nella direzione della politica generale e nel coordinamento dei ministri. L'art. 95, terzo comma, ne riserva l'ordinamento alla legge: oggi la legge 400/1988 e il d.lgs. 303/1999. Vi sono incardinati i dipartimenti che curano settori non organizzati in ministero (politiche europee, protezione civile, rapporti con il Parlamento e con le Regioni), affidati a ministri senza portafoglio o a commissari straordinari. Il sottosegretario alla Presidenza è segretario del Consiglio dei ministri. Non va confusa con la carica di Presidente: è articolata in Segretariato generale, dipartimenti e uffici, ha autonomia organizzativa e contabile e presso di essa operano le Conferenze con le Regioni e gli enti locali.",
+   "pagine": [
+    119,
+    120
+   ]
+  },
+  {
+   "id": "consiglio-supremo-di-difesa",
+   "nome": "Consiglio supremo di difesa",
+   "tipo": "organo",
+   "alias": [],
+   "breve": "Organo presieduto dal Presidente della Repubblica che esamina i problemi generali della difesa nazionale.",
+   "definizione": "Previsto dall'art. 87, che ne affida la presidenza al Presidente della Repubblica come comandante delle Forze armate, riunisce il Presidente del Consiglio e i ministri competenti (esteri, interno, economia, difesa, imprese) con il capo di stato maggiore della difesa. Esamina i problemi politici e tecnici della sicurezza e della difesa e ne determina i criteri e le direttive di organizzazione e coordinamento. Il manuale lo ricorda tra i comitati interministeriali, con la particolarità della presidenza affidata al Capo dello Stato. Lo ha istituito la legge 624/1950 (oggi nel Codice dell'ordinamento militare). È organo di informazione e raccordo: le decisioni restano al Governo, che ne risponde in Parlamento, e lo stato di guerra lo deliberano le Camere (art. 78).",
+   "pagine": [
+    126,
+    126
+   ]
+  },
+  {
+   "id": "comitati-interministeriali",
+   "nome": "Comitati interministeriali",
+   "tipo": "organo",
+   "alias": [
+    "CIPE",
+    "CIPESS"
+   ],
+   "breve": "Collegi di più ministri che preparano e coordinano l'attività del Consiglio in singoli settori.",
+   "definizione": "Formati da più ministri e talvolta da funzionari ed esperti, rispondono all'esigenza di efficienza dell'amministrazione preparando e coordinando il lavoro del Consiglio dei ministri. Esempi: il CIPE (dal 2021 CIPESS), il Consiglio supremo di difesa presieduto dal Presidente della Repubblica, il Comitato interministeriale per la sicurezza della Repubblica. Sono dubbi i casi in cui ricevono poteri decisionali riservati al Consiglio, perché la politica del Governo non sarebbe più collegiale. Diversi sono i comitati di ministri istituiti dal Presidente del Consiglio (art. 5 l. 400).",
+   "pagine": [
+    125,
+    126
+   ]
+  },
+  {
+   "id": "alta-amministrazione",
+   "nome": "Alta amministrazione",
+   "tipo": "concetto",
+   "alias": [
+    "atti di alta amministrazione"
+   ],
+   "breve": "Atti al confine tra indirizzo politico e amministrazione, deliberati dal Consiglio dei ministri.",
+   "definizione": "Si collocano a metà strada tra la determinazione dell'indirizzo politico e l'amministrazione in senso proprio. Vi rientrano il conferimento degli uffici più alti dello Stato, degli enti pubblici e delle amministrazioni speciali, la dichiarazione di pericolo pubblico, la preparazione dei trattati e degli accordi internazionali di natura politica e militare, gli atti sui rapporti con la Chiesa cattolica e con le altre confessioni. Di regola sono deliberati dal Consiglio dei ministri ed emanati con decreto del Presidente della Repubblica (art. 2, comma 3, l. 400/1988).",
+   "pagine": [
+    126,
+    126
+   ]
+  },
+  {
+   "id": "separazione-politica-amministrazione",
+   "nome": "Separazione tra politica e amministrazione",
+   "tipo": "concetto",
+   "alias": [
+    "separazione tra indirizzo politico e gestione"
+   ],
+   "breve": "Principio che affida agli organi politici indirizzo e controllo e ai dirigenti la gestione amministrativa.",
+   "definizione": "Definito dal d.lgs. 80/1998 e oggi dal d.lgs. 165/2001 sul pubblico impiego, distingue la funzione di programmazione e controllo, spettante agli organi legittimati direttamente o indirettamente dal voto popolare, dall'attuazione di programmi e direttive, affidata ai dirigenti come organi tecnico-amministrativi. Ne derivano due responsabilità diverse, politica e amministrativa. È un'applicazione dell'imparzialità dell'art. 97 e spiega i limiti posti dalla Corte costituzionale allo spoil system.",
+   "pagine": [
+    127,
+    127
+   ]
+  },
+  {
+   "id": "informazione-per-la-sicurezza",
+   "nome": "Informazione per la sicurezza",
+   "tipo": "istituto",
+   "alias": [],
+   "breve": "Sistema di tutela informativa della Repubblica e delle istituzioni.",
+   "definizione": "È il sistema dei servizi di informazione (i «servizi segreti») che tutelano la sicurezza della Repubblica. SISMI e SISDE erano i nomi del sistema precedente: oggi vale la **legge 124/2007**. La responsabilità generale e l'alta direzione spettano al **Presidente del Consiglio**, che può delegare un'Autorità; il **CISR** è il comitato interministeriale; il **DIS** coordina le due agenzie operative, l'**AISE** per l'estero e l'**AISI** per l'interno. Il Presidente del Consiglio appone e conferma il **segreto di Stato**, che non può coprire fatti eversivi dell'ordine costituzionale. Il controllo parlamentare spetta al **COPASIR**, comitato bicamerale presieduto da un esponente dell'opposizione.",
+   "pagine": [
+    127,
+    127
+   ]
+  }
+ ],
+ "relazioni": [
+  {
+   "da": "governo",
+   "a": "consiglio-dei-ministri",
+   "tipo": "parte-di",
+   "etichetta": "comprende il"
+  },
+  {
+   "da": "governo",
+   "a": "organo-complesso",
+   "tipo": "esempio-di",
+   "etichetta": "è un"
+  },
+  {
+   "da": "presidente-del-consiglio",
+   "a": "consiglio-dei-ministri",
+   "tipo": "parte-di",
+   "etichetta": "presiede il"
+  },
+  {
+   "da": "ministri",
+   "a": "consiglio-dei-ministri",
+   "tipo": "parte-di",
+   "etichetta": "compongono il"
+  },
+  {
+   "da": "ministri-senza-portafoglio",
+   "a": "ministri",
+   "tipo": "esempio-di",
+   "etichetta": "sono"
+  },
+  {
+   "da": "ministri-senza-portafoglio",
+   "a": "presidenza-del-consiglio",
+   "tipo": "collegato",
+   "etichetta": "guidano dipartimenti della"
+  },
+  {
+   "da": "consiglio-di-gabinetto",
+   "a": "presidente-del-consiglio",
+   "tipo": "collegato",
+   "etichetta": "coadiuva il"
+  },
+  {
+   "da": "consiglio-di-gabinetto",
+   "a": "consiglio-dei-ministri",
+   "tipo": "contrasta",
+   "etichetta": "rischia di svuotare il"
+  },
+  {
+   "da": "governo",
+   "a": "pubblica-amministrazione",
+   "tipo": "collegato",
+   "etichetta": "è al vertice della"
+  },
+  {
+   "da": "pubblica-amministrazione",
+   "a": "buon-andamento-e-imparzialita",
+   "tipo": "collegato",
+   "etichetta": "deve assicurare"
+  },
+  {
+   "da": "pubblica-amministrazione",
+   "a": "principio-di-legalita",
+   "tipo": "collegato",
+   "etichetta": "è soggetta al"
+  },
+  {
+   "da": "buon-andamento-e-imparzialita",
+   "a": "accesso-ai-pubblici-uffici",
+   "tipo": "collegato",
+   "etichetta": "richiede il concorso per l'"
+  },
+  {
+   "da": "spoil-system",
+   "a": "buon-andamento-e-imparzialita",
+   "tipo": "contrasta",
+   "etichetta": "è limitato da"
+  },
+  {
+   "da": "spoil-system",
+   "a": "separazione-politica-amministrazione",
+   "tipo": "contrasta",
+   "etichetta": "contraddice la"
+  },
+  {
+   "da": "formazione-del-governo",
+   "a": "governo",
+   "tipo": "crea",
+   "etichetta": "dà vita al"
+  },
+  {
+   "da": "presidente-della-repubblica",
+   "a": "formazione-del-governo",
+   "tipo": "collegato",
+   "etichetta": "guida la"
+  },
+  {
+   "da": "formazione-del-governo",
+   "a": "convenzioni-costituzionali",
+   "tipo": "collegato",
+   "etichetta": "è regolata da"
+  },
+  {
+   "da": "mandato-esplorativo",
+   "a": "formazione-del-governo",
+   "tipo": "parte-di",
+   "etichetta": "è una fase eventuale della"
+  },
+  {
+   "da": "mandato-esplorativo",
+   "a": "presidente-della-repubblica",
+   "tipo": "collegato",
+   "etichetta": "è affidato dal"
+  },
+  {
+   "da": "formazione-del-governo",
+   "a": "rapporto-di-fiducia",
+   "tipo": "evolve-in",
+   "etichetta": "si chiude con il"
+  },
+  {
+   "da": "sottosegretari-di-stato",
+   "a": "ministri",
+   "tipo": "collegato",
+   "etichetta": "coadiuvano i"
+  },
+  {
+   "da": "viceministri",
+   "a": "sottosegretari-di-stato",
+   "tipo": "evolve-in",
+   "etichetta": "sono scelti tra i"
+  },
+  {
+   "da": "viceministri",
+   "a": "consiglio-dei-ministri",
+   "tipo": "collegato",
+   "etichetta": "possono assistere senza voto al"
+  },
+  {
+   "da": "comitati-interministeriali",
+   "a": "consiglio-dei-ministri",
+   "tipo": "collegato",
+   "etichetta": "preparano il lavoro del"
+  },
+  {
+   "da": "comitati-interministeriali",
+   "a": "consiglio-supremo-di-difesa",
+   "tipo": "esempio-di",
+   "etichetta": "comprendono il"
+  },
+  {
+   "da": "consiglio-supremo-di-difesa",
+   "a": "presidente-della-repubblica",
+   "tipo": "collegato",
+   "etichetta": "è presieduto dal"
+  },
+  {
+   "da": "presidenza-del-consiglio",
+   "a": "presidente-del-consiglio",
+   "tipo": "collegato",
+   "etichetta": "sostiene il"
+  },
+  {
+   "da": "presidenza-del-consiglio",
+   "a": "governo",
+   "tipo": "parte-di",
+   "etichetta": "è la struttura di supporto del"
+  },
+  {
+   "da": "alta-amministrazione",
+   "a": "consiglio-dei-ministri",
+   "tipo": "collegato",
+   "etichetta": "è deliberata dal"
+  },
+  {
+   "da": "alta-amministrazione",
+   "a": "indirizzo-politico",
+   "tipo": "collegato",
+   "etichetta": "sta al confine con l'"
+  },
+  {
+   "da": "presidente-del-consiglio",
+   "a": "indirizzo-politico",
+   "tipo": "collegato",
+   "etichetta": "mantiene l'unità dell'"
+  },
+  {
+   "da": "separazione-politica-amministrazione",
+   "a": "pubblica-amministrazione",
+   "tipo": "parte-di",
+   "etichetta": "organizza la"
+  },
+  {
+   "da": "separazione-politica-amministrazione",
+   "a": "buon-andamento-e-imparzialita",
+   "tipo": "esempio-di",
+   "etichetta": "attua"
+  },
+  {
+   "da": "principio-di-legalita",
+   "a": "stato-di-diritto",
+   "tipo": "parte-di",
+   "etichetta": "caratterizza lo"
+  },
+  {
+   "da": "presidente-del-consiglio",
+   "a": "governo",
+   "tipo": "parte-di",
+   "etichetta": "è componente del"
+  },
+  {
+   "da": "informazione-per-la-sicurezza",
+   "a": "presidente-del-consiglio",
+   "tipo": "collegato",
+   "etichetta": "è diretta dal"
+  }
+ ],
+ "eventi": [
+  {
+   "id": "ev-consiglio-di-gabinetto-1983",
+   "anno": 1983,
+   "data": "agosto 1983",
+   "titolo": "Primo Consiglio di gabinetto",
+   "descrizione": "Il Consiglio dei ministri istituisce per la prima volta con delibera formale un Consiglio di gabinetto; la legge 400/1988 lo prevede poi all'art. 6.",
+   "tipo": "istituzione",
+   "concetti": [
+    "consiglio-di-gabinetto"
+   ],
+   "pagine": [
+    119,
+    119
+   ]
+  },
+  {
+   "id": "ev-legge-n-400-1988-sulla-presidenza-del-consiglio",
+   "anno": 1988,
+   "data": "23 agosto 1988",
+   "titolo": "Legge n. 400/1988 sulla Presidenza del Consiglio",
+   "descrizione": "Disciplina l'attività di Governo, l'ordinamento della Presidenza del Consiglio e la potestà normativa del Governo (decreti-legge, regolamenti).",
+   "tipo": "legge",
+   "concetti": [
+    "governo",
+    "consiglio-dei-ministri",
+    "presidente-del-consiglio"
+   ],
+   "pagine": [
+    119,
+    127
+   ]
+  },
+  {
+   "id": "ev-dlgs-300-1999",
+   "anno": 1999,
+   "data": "30 luglio 1999",
+   "titolo": "D.lgs. n. 300/1999 sull'organizzazione del Governo",
+   "descrizione": "Riordina i ministeri e ne fissa numero e attribuzioni; il numero è stato poi cambiato più volte.",
+   "tipo": "legge",
+   "concetti": [
+    "ministri"
+   ],
+   "pagine": [
+    119,
+    119
+   ]
+  },
+  {
+   "id": "ev-legge-81-2001-viceministri",
+   "anno": 2001,
+   "data": "2001",
+   "titolo": "Legge n. 81/2001: i viceministri",
+   "descrizione": "Consente di attribuire il titolo di viceministro a non più di dieci sottosegretari con deleghe ampie.",
+   "tipo": "legge",
+   "concetti": [
+    "viceministri"
+   ],
+   "pagine": [
+    125,
+    125
+   ]
+  },
+  {
+   "id": "ev-dlgs-165-2001",
+   "anno": 2001,
+   "data": "30 marzo 2001",
+   "titolo": "D.lgs. n. 165/2001 sul pubblico impiego",
+   "descrizione": "Raccoglie le norme del d.lgs. 80/1998 sulla separazione tra indirizzo politico e gestione amministrativa.",
+   "tipo": "legge",
+   "concetti": [
+    "separazione-politica-amministrazione"
+   ],
+   "pagine": [
+    127,
+    127
+   ]
+  },
+  {
+   "id": "ev-sentenze-103-104-2007",
+   "anno": 2007,
+   "data": "2007",
+   "titolo": "Sentenze n. 103 e 104/2007 sullo spoil system",
+   "descrizione": "La Corte costituzionale limita la decadenza automatica dei dirigenti agli incarichi di diretta collaborazione politica.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "spoil-system"
+   ],
+   "pagine": [
+    122,
+    122
+   ]
+  }
+ ],
+ "mappa": {
+  "testo": "Il Governo",
+  "concetto": "governo",
+  "figli": [
+   {
+    "testo": "Struttura (art. 92)",
+    "figli": [
+     {
+      "testo": "Presidente del Consiglio",
+      "concetto": "presidente-del-consiglio",
+      "nota": "primus inter pares"
+     },
+     {
+      "testo": "Ministri",
+      "concetto": "ministri"
+     },
+     {
+      "testo": "Consiglio dei ministri",
+      "concetto": "consiglio-dei-ministri"
+     },
+     {
+      "testo": "Senza portafoglio",
+      "concetto": "ministri-senza-portafoglio"
+     },
+     {
+      "testo": "Consiglio di gabinetto",
+      "concetto": "consiglio-di-gabinetto",
+      "nota": "art. 6 l. 400"
+     },
+     {
+      "testo": "Sottosegretari",
+      "concetto": "sottosegretari-di-stato"
+     },
+     {
+      "testo": "Viceministri",
+      "concetto": "viceministri",
+      "nota": "l. 81/2001"
+     }
+    ]
+   },
+   {
+    "testo": "Pubblica amministrazione",
+    "concetto": "pubblica-amministrazione",
+    "figli": [
+     {
+      "testo": "Legalità",
+      "concetto": "principio-di-legalita"
+     },
+     {
+      "testo": "Buon andamento e imparzialità",
+      "concetto": "buon-andamento-e-imparzialita",
+      "nota": "artt. 97–98"
+     },
+     {
+      "testo": "Spoil system",
+      "concetto": "spoil-system",
+      "nota": "sent. 103–104/2007"
+     }
+    ]
+   },
+   {
+    "testo": "Formazione",
+    "concetto": "formazione-del-governo",
+    "figli": [
+     {
+      "testo": "Consultazioni"
+     },
+     {
+      "testo": "Mandato esplorativo",
+      "concetto": "mandato-esplorativo"
+     },
+     {
+      "testo": "Incarico con riserva"
+     },
+     {
+      "testo": "Nomina e giuramento",
+      "nota": "art. 93"
+     },
+     {
+      "testo": "Fiducia entro 10 giorni",
+      "concetto": "rapporto-di-fiducia"
+     }
+    ]
+   },
+   {
+    "testo": "Funzioni",
+    "figli": [
+     {
+      "testo": "Comitati interministeriali",
+      "concetto": "comitati-interministeriali"
+     },
+     {
+      "testo": "Alta amministrazione",
+      "concetto": "alta-amministrazione"
+     },
+     {
+      "testo": "Direzione politica",
+      "concetto": "presidente-del-consiglio",
+      "nota": "art. 95"
+     },
+     {
+      "testo": "Politica e gestione",
+      "concetto": "separazione-politica-amministrazione"
+     }
+    ]
+   }
   ]
+ },
+ "domande": [
+  {
+   "id": "u14-q001",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "base",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "governo"
+   ],
+   "domanda": "Come è composto il Governo secondo l'art. 92?",
+   "risposta": "Dal Presidente del Consiglio e dai ministri, che costituiscono insieme il Consiglio dei ministri. È quindi un organo complesso, formato da organi individuali e da un organo collegiale."
+  },
+  {
+   "id": "u14-q002",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "ministri-senza-portafoglio"
+   ],
+   "domanda": "Che differenza c'è tra un ministro senza portafoglio e un commissario straordinario del Governo?",
+   "risposta": "Entrambi dirigono settori non organizzati in ministero, ma il ministro senza portafoglio entra nel Consiglio dei ministri e partecipa alla direzione politica; il commissario straordinario svolge solo attività amministrativa e non siede in Consiglio."
+  },
+  {
+   "id": "u14-q003",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "governo"
+   ],
+   "domanda": "Perché vicepresidenti del Consiglio e ministri senza portafoglio pongono un problema rispetto all'art. 92?",
+   "risposta": "L'art. 92 sembra richiedere tanti ministri quanti ministeri, senza componenti con compiti solo politici. I vicepresidenti sono ora previsti dall'art. 8 della legge 400/1988; i ministri senza portafoglio si giustificano con la complessità dei compiti di governo."
+  },
+  {
+   "id": "u14-q004",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "consiglio-di-gabinetto"
+   ],
+   "domanda": "Che cos'è il Consiglio di gabinetto e quali rischi presenta?",
+   "risposta": "Un comitato di ministri designati dal Presidente del Consiglio, sentito il Consiglio, che lo coadiuva (art. 6 l. 400/1988). Può dividere i ministri in serie A e B e diventare un «supergabinetto» in cui i partiti decidono e il Consiglio ratifica; il rimedio è tenerlo aperto ai ministri interessati."
+  },
+  {
+   "id": "u14-q005",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "base",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "ministri"
+   ],
+   "domanda": "Con quale fonte si stabiliscono numero e attribuzioni dei ministeri?",
+   "risposta": "Con legge (art. 95, terzo comma). Il d.lgs. 300/1999 ne previde 13; il numero è stato cambiato più volte e oggi sono 15."
+  },
+  {
+   "id": "u14-q006",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "presidenza-del-consiglio"
+   ],
+   "domanda": "Che cosa si trova presso la Presidenza del Consiglio dei ministri?",
+   "risposta": "I dipartimenti che curano settori non organizzati in ministero, come politiche europee, protezione civile, rapporti con il Parlamento e con le Regioni, affidati a ministri senza portafoglio o a commissari straordinari. Il suo ordinamento è riservato alla legge (art. 95, terzo comma; legge 400/1988)."
+  },
+  {
+   "id": "u14-q007",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "base",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "governo"
+   ],
+   "domanda": "Che cosa disciplina la legge 400/1988?",
+   "risposta": "L'attività di Governo e l'ordinamento della Presidenza del Consiglio: attribuzioni del Consiglio, del Presidente e dei sottosegretari, rapporti con Regioni e Province autonome, potestà normativa del Governo, organizzazione della Presidenza."
+  },
+  {
+   "id": "u14-q008",
+   "tipo": "multipla",
+   "lezione": "u14-l1",
+   "livello": "base",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "governo"
+   ],
+   "domanda": "Il Governo, secondo l'art. 92, è:",
+   "opzioni": [
+    "Un organo individuale",
+    "Un organo complesso",
+    "Un organo ausiliario",
+    "Un ente pubblico"
+   ],
+   "corretta": 1,
+   "spiegazione": "Comprende organi individuali (Presidente, ministri) e un organo collegiale (Consiglio)."
+  },
+  {
+   "id": "u14-q009",
+   "tipo": "multipla",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "consiglio-di-gabinetto"
+   ],
+   "domanda": "In quale anno fu istituito per la prima volta il Consiglio di gabinetto?",
+   "opzioni": [
+    "1948",
+    "1983",
+    "1988",
+    "1999"
+   ],
+   "corretta": 1,
+   "spiegazione": "Con deliberazione del Consiglio dei ministri dell'agosto 1983; la legge 400 è del 1988."
+  },
+  {
+   "id": "u14-q010",
+   "tipo": "multipla",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "ministri-senza-portafoglio"
+   ],
+   "domanda": "Da chi ricevono le loro funzioni i ministri senza portafoglio?",
+   "opzioni": [
+    "Dal Parlamento",
+    "Dal Presidente della Repubblica",
+    "Dal Presidente del Consiglio, sentito il Consiglio dei ministri",
+    "Dal ministro dell'economia"
+   ],
+   "corretta": 2,
+   "spiegazione": "Art. 9, comma 1, l. 400/1988."
+  },
+  {
+   "id": "u14-q011",
+   "tipo": "verofalso",
+   "lezione": "u14-l1",
+   "livello": "base",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "ministri-senza-portafoglio"
+   ],
+   "affermazione": "I ministri senza portafoglio fanno parte del Consiglio dei ministri.",
+   "vero": true,
+   "spiegazione": "È ciò che li distingue dai commissari straordinari del Governo."
+  },
+  {
+   "id": "u14-q012",
+   "tipo": "verofalso",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "consiglio-di-gabinetto"
+   ],
+   "affermazione": "Il Consiglio di gabinetto è previsto dalla Costituzione.",
+   "vero": false,
+   "spiegazione": "È previsto dall'art. 6 della legge 400/1988."
+  },
+  {
+   "id": "u14-q013",
+   "tipo": "verofalso",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "governo"
+   ],
+   "affermazione": "Alcuni settori dell'amministrazione centrale non sono ministeri ma dipartimenti della Presidenza del Consiglio.",
+   "vero": true,
+   "spiegazione": "Per esempio politiche europee, protezione civile, rapporti con il Parlamento."
+  },
+  {
+   "id": "u14-q014",
+   "tipo": "completa",
+   "lezione": "u14-l1",
+   "livello": "base",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "governo"
+   ],
+   "testo": "Il Presidente del Consiglio e i ministri costituiscono insieme il {{Consiglio dei ministri}} (art. {{92}})."
+  },
+  {
+   "id": "u14-q015",
+   "tipo": "completa",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "consiglio-di-gabinetto"
+   ],
+   "testo": "Il Consiglio di gabinetto è previsto dall'art. {{6}} della legge {{400}}/1988."
+  },
+  {
+   "id": "u14-q016",
+   "tipo": "aperta",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "governo",
+    "consiglio-dei-ministri",
+    "ministri",
+    "ministri-senza-portafoglio",
+    "consiglio-di-gabinetto"
+   ],
+   "domanda": "Descriva la struttura del Governo e le figure previste dalla legge 400/1988.",
+   "traccia": "Il Governo è al vertice del potere esecutivo ed è un «governo a ministeri»: l'apparato statale è diviso in ministeri guidati da ministri. L'art. 92 lo compone del Presidente del Consiglio e dei ministri, che insieme formano il Consiglio dei ministri: è un organo complesso, con organi individuali e uno collegiale. La legge 400/1988 disciplina l'attività di Governo e la Presidenza del Consiglio e prevede figure che l'art. 92 non contempla: i vicepresidenti (art. 8), i ministri senza portafoglio, che dirigono dipartimenti della Presidenza e siedono in Consiglio a differenza dei commissari straordinari, e il Consiglio di gabinetto (art. 6), istituito nel 1983, che rischia di creare ministri di serie A e un supergabinetto dei partiti. Sottosegretari e viceministri non fanno parte del Governo. Numero e attribuzioni dei ministeri si fissano con legge (d.lgs. 300/1999).",
+   "punti": [
+    {
+     "testo": "Art. 92 e organo complesso",
+     "chiavi": [
+      "92",
+      "complesso"
+     ]
+    },
+    {
+     "testo": "Governo a ministeri",
+     "chiavi": [
+      "ministeri",
+      "ministro"
+     ]
+    },
+    {
+     "testo": "Senza portafoglio e commissari",
+     "chiavi": [
+      "portafoglio",
+      "commissari"
+     ]
+    },
+    {
+     "testo": "Consiglio di gabinetto",
+     "chiavi": [
+      "gabinetto",
+      "serie"
+     ]
+    },
+    {
+     "testo": "Legge 400/1988",
+     "chiavi": [
+      "400"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u14-q017",
+   "tipo": "flashcard",
+   "lezione": "u14-l2",
+   "livello": "base",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "pubblica-amministrazione"
+   ],
+   "domanda": "Quali tipi di attività svolge la pubblica amministrazione?",
+   "risposta": "Attiva (realizza i fini dell'amministrazione), consultiva (pareri agli organi attivi) e di controllo (sindacato sugli atti, di legittimità o di merito)."
+  },
+  {
+   "id": "u14-q018",
+   "tipo": "flashcard",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "pubblica-amministrazione"
+   ],
+   "domanda": "Come si distinguono i pareri?",
+   "risposta": "Facoltativi, se l'organo attivo li chiede per sua scelta; obbligatori, se la legge impone di chiederli; vincolanti, se l'organo attivo deve uniformarvisi."
+  },
+  {
+   "id": "u14-q019",
+   "tipo": "flashcard",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "pubblica-amministrazione"
+   ],
+   "domanda": "Perché il manuale preferisce una nozione estensiva di pubblica amministrazione?",
+   "risposta": "Comprendere tutti gli uffici che svolgono funzioni sostanzialmente amministrative dà unità ai principi e rafforza la tutela del cittadino, che (artt. 103 e 113) è garantita qualunque sia l'ente che ha emanato l'atto lesivo."
+  },
+  {
+   "id": "u14-q020",
+   "tipo": "flashcard",
+   "lezione": "u14-l2",
+   "livello": "base",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "buon-andamento-e-imparzialita"
+   ],
+   "domanda": "Che cosa chiedono gli artt. 97 e 98 all'amministrazione?",
+   "risposta": "L'art. 97 vuole i pubblici uffici organizzati per legge in modo da assicurare buon andamento e imparzialità e l'accesso agli impieghi per concorso; l'art. 98 stabilisce che i pubblici impiegati sono al servizio esclusivo della Nazione."
+  },
+  {
+   "id": "u14-q021",
+   "tipo": "flashcard",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "principio-di-legalita"
+   ],
+   "domanda": "Che differenza c'è tra legalità formale e sostanziale?",
+   "risposta": "Nella legalità formale l'amministrazione agisce nei limiti della legge ma è libera nelle scelte; nella legalità sostanziale deve agire in conformità alla legge, che ne indirizza il contenuto."
+  },
+  {
+   "id": "u14-q022",
+   "tipo": "flashcard",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "spoil-system"
+   ],
+   "domanda": "Che cosa ha stabilito la Corte costituzionale sullo spoil system?",
+   "risposta": "Con le sentenze 103 e 104 del 2007 ha ammesso la decadenza legata al cambio di Governo solo per gli incarichi di diretta collaborazione con gli organi politici, non per tutta la dirigenza, che deve restare imparziale."
+  },
+  {
+   "id": "u14-q023",
+   "tipo": "flashcard",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "buon-andamento-e-imparzialita"
+   ],
+   "domanda": "Come deve essere composta una commissione di concorso pubblico?",
+   "risposta": "In modo esclusivo o almeno prevalente da tecnici ed esperti, perché la selezione si basi su parametri neutrali e oggettivi (Corte cost. 453/1990 e 333/1993)."
+  },
+  {
+   "id": "u14-q024",
+   "tipo": "multipla",
+   "lezione": "u14-l2",
+   "livello": "base",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "buon-andamento-e-imparzialita"
+   ],
+   "domanda": "Secondo l'art. 98, i pubblici impiegati sono al servizio esclusivo:",
+   "opzioni": [
+    "Del Governo",
+    "Del ministro",
+    "Della Nazione",
+    "Del partito di maggioranza"
+   ],
+   "corretta": 2,
+   "spiegazione": "È una garanzia di imparzialità."
+  },
+  {
+   "id": "u14-q025",
+   "tipo": "multipla",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "pubblica-amministrazione"
+   ],
+   "domanda": "Un parere che l'organo attivo deve chiedere per legge ma da cui può discostarsi è:",
+   "opzioni": [
+    "Facoltativo",
+    "Obbligatorio",
+    "Vincolante",
+    "Di merito"
+   ],
+   "corretta": 1,
+   "spiegazione": "Il parere vincolante obbliga anche a uniformarvisi."
+  },
+  {
+   "id": "u14-q026",
+   "tipo": "multipla",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "pubblica-amministrazione"
+   ],
+   "domanda": "Quale articolo stabilisce che la tutela contro gli atti della PA non può essere esclusa o limitata?",
+   "opzioni": [
+    "Art. 28",
+    "Art. 97",
+    "Art. 98",
+    "Art. 113"
+   ],
+   "corretta": 3,
+   "spiegazione": "Art. 113; l'art. 28 riguarda la responsabilità diretta dei funzionari."
+  },
+  {
+   "id": "u14-q027",
+   "tipo": "verofalso",
+   "lezione": "u14-l2",
+   "livello": "base",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "buon-andamento-e-imparzialita"
+   ],
+   "affermazione": "Agli impieghi nelle pubbliche amministrazioni si accede, salvo i casi stabiliti dalla legge, mediante concorso.",
+   "vero": true,
+   "spiegazione": "Art. 97."
+  },
+  {
+   "id": "u14-q028",
+   "tipo": "verofalso",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "spoil-system"
+   ],
+   "affermazione": "Lo spoil system può applicarsi liberamente a tutti i dirigenti pubblici.",
+   "vero": false,
+   "spiegazione": "Solo agli incarichi di diretta collaborazione politica (sent. 103 e 104/2007)."
+  },
+  {
+   "id": "u14-q029",
+   "tipo": "verofalso",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "pubblica-amministrazione"
+   ],
+   "affermazione": "Nel nostro ordinamento autorità pubbliche e privati sono sullo stesso piano nei rapporti di diritto amministrativo, come nel sistema inglese.",
+   "vero": false,
+   "spiegazione": "La Costituzione mantiene la supremazia delle autorità, temperata dalle garanzie di libertà."
+  },
+  {
+   "id": "u14-q030",
+   "tipo": "completa",
+   "lezione": "u14-l2",
+   "livello": "base",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "buon-andamento-e-imparzialita"
+   ],
+   "testo": "I pubblici uffici sono organizzati in modo che siano assicurati il {{buon andamento}} e l'{{imparzialità}} dell'amministrazione (art. {{97}})."
+  },
+  {
+   "id": "u14-q031",
+   "tipo": "completa",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "pubblica-amministrazione"
+   ],
+   "testo": "Il controllo che usa regole giuridiche è di {{legittimità}}; quello che usa regole di buona amministrazione è di {{merito}}."
+  },
+  {
+   "id": "u14-q032",
+   "tipo": "aperta",
+   "lezione": "u14-l2",
+   "livello": "medio",
+   "pagine": [
+    120,
+    122
+   ],
+   "concetti": [
+    "pubblica-amministrazione",
+    "buon-andamento-e-imparzialita",
+    "principio-di-legalita",
+    "spoil-system"
+   ],
+   "domanda": "Illustri i principi costituzionali sulla pubblica amministrazione.",
+   "traccia": "La pubblica amministrazione comprende gli uffici dello Stato e degli altri enti pubblici che svolgono funzioni sostanzialmente amministrative, con attività attiva, consultiva e di controllo. La Costituzione riserva alla legge l'organizzazione dei pubblici uffici (art. 97) e dei ministeri (art. 95), che deve assicurare buon andamento e imparzialità; l'art. 98 mette gli impiegati al servizio esclusivo della Nazione. Vale il principio di legalità, formale e sostanziale. La democraticità richiede controllo dei rappresentanti del popolo, decentramento (art. 5) e trasparenza con il diritto di accesso. Si accede agli impieghi per concorso (art. 97), con l'eguaglianza dell'art. 51 e le pari opportunità aggiunte nel 2003; le commissioni sono tecniche. La Corte ha limitato lo spoil system agli incarichi di collaborazione politica (2007). I funzionari rispondono direttamente (art. 28) e la tutela giurisdizionale è sempre ammessa (art. 113).",
+   "punti": [
+    {
+     "testo": "Riserva di legge sull'organizzazione",
+     "chiavi": [
+      "97",
+      "legge"
+     ]
+    },
+    {
+     "testo": "Buon andamento e imparzialità",
+     "chiavi": [
+      "buon andamento",
+      "imparzial",
+      "98"
+     ]
+    },
+    {
+     "testo": "Legalità e democraticità",
+     "chiavi": [
+      "legalità",
+      "decentramento"
+     ]
+    },
+    {
+     "testo": "Concorso",
+     "chiavi": [
+      "concorso",
+      "51"
+     ]
+    },
+    {
+     "testo": "Spoil system e tutela",
+     "chiavi": [
+      "spoil",
+      "113"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u14-q033",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "domanda": "Che cosa dice la Costituzione sulla formazione del Governo?",
+   "risposta": "Poco: il Presidente della Repubblica nomina il Presidente del Consiglio e, su sua proposta, i ministri (art. 92); questi giurano prima di assumere le funzioni (art. 93) e chiedono la fiducia entro dieci giorni (art. 94). Il resto è regolato da convenzioni."
+  },
+  {
+   "id": "u14-q034",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "domanda": "Quanto è ampio il margine del Presidente della Repubblica nella scelta del Presidente del Consiglio?",
+   "risposta": "Nel funzionamento fisiologico è ristretto: deve nominare chi ha più probabilità di ottenere la fiducia e tenere conto delle indicazioni parlamentari; con sistemi a vocazione maggioritaria si è affermata la convenzione di incaricare il leader vincente. Nelle crisi di sistema può avere un ruolo più attivo. Sui ministri non ha potere di scelta."
+  },
+  {
+   "id": "u14-q035",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "mandato-esplorativo"
+   ],
+   "domanda": "Che differenza c'è tra mandato esplorativo e preincarico?",
+   "risposta": "Il mandato esplorativo è affidato a una personalità (spesso il Presidente di una Camera) per consultare i partiti, senza che debba guidare il Governo; il preincarico è dato a chi probabilmente riceverà l'incarico, perché chiarisca le condizioni della nuova maggioranza."
+  },
+  {
+   "id": "u14-q036",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "domanda": "Che cosa significa che l'incaricato accetta «con riserva»?",
+   "risposta": "Che prima di accettare verifica, con consultazioni non ufficiali, se esiste una maggioranza su un programma concordato e compone la lista dei ministri; poi scioglie la riserva accettando, oppure rinuncia."
+  },
+  {
+   "id": "u14-q037",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "domanda": "Che cosa può fare il Presidente della Repubblica se l'incaricato rinuncia perché una maggioranza è impossibile?",
+   "risposta": "Può rinviare il Governo dimissionario alle Camere (non dopo una crisi parlamentare), perché partiti e parlamentari chiariscano pubblicamente la loro posizione, oppure sciogliere le Camere e rimettere la decisione agli elettori."
+  },
+  {
+   "id": "u14-q038",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "domanda": "Che cosa può fare il Governo tra il giuramento e la fiducia?",
+   "risposta": "È in carica a tutti gli effetti (art. 93), ma non può svolgere attività di indirizzo politico prima che le Camere ne approvino il programma."
+  },
+  {
+   "id": "u14-q039",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "sottosegretari-di-stato"
+   ],
+   "domanda": "I sottosegretari di Stato fanno parte del Governo?",
+   "risposta": "No: non sono menzionati dalla Costituzione e non sono organi costituzionali. Hanno le attribuzioni delegate dal ministro, ma possono intervenire in Parlamento e rispondere a interrogazioni e interpellanze."
+  },
+  {
+   "id": "u14-q040",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "viceministri"
+   ],
+   "domanda": "Chi sono i viceministri?",
+   "risposta": "Sottosegretari, al massimo dieci, che ricevono deleghe su aree o progetti di più strutture (l. 81/2001); possono essere invitati alle sedute del Consiglio dei ministri, ma senza voto."
+  },
+  {
+   "id": "u14-q041",
+   "tipo": "multipla",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "domanda": "Entro quanto tempo dal giuramento il Governo si presenta alle Camere per la fiducia?",
+   "opzioni": [
+    "5 giorni",
+    "10 giorni",
+    "20 giorni",
+    "60 giorni"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 94, terzo comma."
+  },
+  {
+   "id": "u14-q042",
+   "tipo": "multipla",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "domanda": "Le consultazioni del Presidente della Repubblica sono:",
+   "opzioni": [
+    "Previste dall'art. 92",
+    "Previste dalla legge 400/1988",
+    "Una convenzione costituzionale",
+    "Un atto controfirmato"
+   ],
+   "corretta": 2,
+   "spiegazione": "Non sono previste dal testo costituzionale."
+  },
+  {
+   "id": "u14-q043",
+   "tipo": "multipla",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "viceministri"
+   ],
+   "domanda": "Quanti viceministri possono essere nominati al massimo?",
+   "opzioni": [
+    "Cinque",
+    "Dieci",
+    "Quindici",
+    "Nessun limite"
+   ],
+   "corretta": 1,
+   "spiegazione": "Legge 81/2001."
+  },
+  {
+   "id": "u14-q044",
+   "tipo": "multipla",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "sottosegretari-di-stato"
+   ],
+   "domanda": "Il sottosegretario alla Presidenza del Consiglio partecipa alle sedute del Consiglio dei ministri:",
+   "opzioni": [
+    "Con diritto di voto",
+    "Senza diritto di voto",
+    "Solo su invito del Presidente della Repubblica",
+    "Mai"
+   ],
+   "corretta": 1,
+   "spiegazione": "È segretario del Consiglio dei ministri."
+  },
+  {
+   "id": "u14-q045",
+   "tipo": "verofalso",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "affermazione": "Il programma di governo è espressamente previsto dalla Costituzione.",
+   "vero": false,
+   "spiegazione": "È implicito nel sistema e consacrato dalla consuetudine."
+  },
+  {
+   "id": "u14-q046",
+   "tipo": "verofalso",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "affermazione": "I ministri giurano nelle mani del Presidente della Repubblica prima di assumere le funzioni.",
+   "vero": true,
+   "spiegazione": "Art. 93."
+  },
+  {
+   "id": "u14-q047",
+   "tipo": "verofalso",
+   "lezione": "u14-l3",
+   "livello": "avanzato",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "affermazione": "Il progetto di revisione costituzionale sul premierato è entrato in vigore.",
+   "vero": false,
+   "spiegazione": "Non è stato approvato."
+  },
+  {
+   "id": "u14-q048",
+   "tipo": "completa",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo"
+   ],
+   "testo": "Il Presidente della Repubblica nomina il {{Presidente del Consiglio}} e, su proposta di questo, i {{ministri}}."
+  },
+  {
+   "id": "u14-q049",
+   "tipo": "completa",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "mandato-esplorativo"
+   ],
+   "testo": "Il mandato {{esplorativo}} è affidato di solito al Presidente di una delle {{Camere}}."
+  },
+  {
+   "id": "u14-q050",
+   "tipo": "aperta",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo",
+    "mandato-esplorativo",
+    "sottosegretari-di-stato",
+    "viceministri"
+   ],
+   "domanda": "Descriva il procedimento di formazione del Governo.",
+   "traccia": "La Costituzione si limita a dire che il Presidente della Repubblica nomina il Presidente del Consiglio e, su sua proposta, i ministri (art. 92), che giurano (art. 93) e chiedono la fiducia entro dieci giorni (art. 94); il resto sono convenzioni. Aperta la crisi o dopo le elezioni, il Capo dello Stato svolge le consultazioni (gruppi, segretari di partito, Presidenti delle Camere, ex Presidenti). Nei casi difficili affida un mandato esplorativo o un preincarico. Poi conferisce l'incarico, che l'incaricato accetta con riserva, verificando maggioranza e programma e componendo la lista dei ministri; se fallisce rinuncia, e il Presidente può rinviare il Governo alle Camere o sciogliere. Seguono la nomina con decreto, il giuramento e la fiducia sul programma, che diventa indirizzo politico. Il margine presidenziale è ristretto; con i sistemi maggioritari si incarica il leader vincente. Dopo la nomina si designano sottosegretari e viceministri.",
+   "punti": [
+    {
+     "testo": "Fonti scarne e convenzioni",
+     "chiavi": [
+      "92",
+      "convenzion"
+     ]
+    },
+    {
+     "testo": "Consultazioni e mandato esplorativo",
+     "chiavi": [
+      "consultazion",
+      "esplorativ"
+     ]
+    },
+    {
+     "testo": "Incarico con riserva",
+     "chiavi": [
+      "riserva",
+      "lista"
+     ]
+    },
+    {
+     "testo": "Giuramento e fiducia",
+     "chiavi": [
+      "giura",
+      "fiducia",
+      "dieci"
+     ]
+    },
+    {
+     "testo": "Margine del Presidente",
+     "chiavi": [
+      "margine",
+      "leader"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u14-q051",
+   "tipo": "ordina",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "formazione-del-governo",
+    "mandato-esplorativo"
+   ],
+   "consegna": "Ordina le tappe della formazione del Governo.",
+   "elementi": [
+    "Dimissioni del Governo o elezioni",
+    "Consultazioni del Presidente della Repubblica",
+    "Conferimento dell'incarico, accettato con riserva",
+    "Scioglimento della riserva e presentazione della lista dei ministri",
+    "Decreti di nomina",
+    "Giuramento nelle mani del Presidente della Repubblica",
+    "Voto di fiducia delle Camere entro dieci giorni"
+   ],
+   "spiegazione": "Il mandato esplorativo, se c'è, si colloca tra consultazioni e incarico.",
+   "serie": "procedimenti"
+  },
+  {
+   "id": "u14-q052",
+   "tipo": "flashcard",
+   "lezione": "u14-l4",
+   "livello": "base",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "comitati-interministeriali"
+   ],
+   "domanda": "Che cosa sono i comitati interministeriali e quando diventano problematici?",
+   "risposta": "Collegi di più ministri, a volte con funzionari ed esperti, che preparano e coordinano il lavoro del Consiglio dei ministri. Sono dubbi quando ricevono poteri decisionali riservati al Consiglio, perché la politica non sarebbe più decisa collegialmente."
+  },
+  {
+   "id": "u14-q053",
+   "tipo": "flashcard",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "comitati-interministeriali"
+   ],
+   "domanda": "Quali esempi di comitati interministeriali ricorda il manuale?",
+   "risposta": "Il CIPE (programmazione economica, dal 2021 CIPESS), il Consiglio supremo di difesa presieduto dal Presidente della Repubblica, il Comitato interministeriale per la sicurezza della Repubblica (CISR)."
+  },
+  {
+   "id": "u14-q054",
+   "tipo": "flashcard",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "ministri"
+   ],
+   "domanda": "In che senso ministri e Presidente del Consiglio hanno una duplice veste?",
+   "risposta": "Sono organi burocratici, al vertice gerarchico del proprio dicastero, e organi di governo, che determinano collegialmente l'indirizzo amministrativo; le due funzioni sono interdipendenti."
+  },
+  {
+   "id": "u14-q055",
+   "tipo": "flashcard",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "alta-amministrazione"
+   ],
+   "domanda": "Quali atti rientrano nell'alta amministrazione?",
+   "risposta": "Nomine ai vertici dello Stato e degli enti pubblici, dichiarazione di pericolo pubblico, preparazione dei trattati politici e militari, atti sui rapporti con la Chiesa cattolica e le altre confessioni. Li delibera il Consiglio dei ministri e li emana il Presidente della Repubblica."
+  },
+  {
+   "id": "u14-q056",
+   "tipo": "flashcard",
+   "lezione": "u14-l4",
+   "livello": "base",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio"
+   ],
+   "domanda": "Che cosa stabilisce l'art. 95, primo comma?",
+   "risposta": "Che il Presidente del Consiglio dirige la politica generale del Governo e ne è responsabile, mantiene l'unità di indirizzo politico e amministrativo, promuove e coordina l'attività dei ministri."
+  },
+  {
+   "id": "u14-q057",
+   "tipo": "flashcard",
+   "lezione": "u14-l4",
+   "livello": "avanzato",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio"
+   ],
+   "domanda": "Il Presidente del Consiglio determina la politica generale del Governo?",
+   "risposta": "No: la determina il Consiglio dei ministri come organo collegiale. Il Presidente la dirige, con poteri di direzione, impulso e coordinamento (art. 5 l. 400/1988), ed è primus inter pares; ne risponde politicamente davanti alle Camere."
+  },
+  {
+   "id": "u14-q058",
+   "tipo": "flashcard",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "separazione-politica-amministrazione"
+   ],
+   "domanda": "Che cosa prevede il principio di separazione tra politica e amministrazione?",
+   "risposta": "Agli organi politici spettano programmazione, indirizzo e controllo; ai dirigenti l'attuazione e la gestione. Introdotto dal d.lgs. 80/1998, è oggi nel d.lgs. 165/2001 e distingue responsabilità politica e amministrativa."
+  },
+  {
+   "id": "u14-q059",
+   "tipo": "multipla",
+   "lezione": "u14-l4",
+   "livello": "base",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio"
+   ],
+   "domanda": "L'espressione primus inter pares indica che il Presidente del Consiglio:",
+   "opzioni": [
+    "È superiore gerarchico dei ministri",
+    "È il primo tra pari",
+    "È eletto dal popolo",
+    "Non vota in Consiglio"
+   ],
+   "corretta": 1,
+   "spiegazione": "Ha una preminenza, non una supremazia gerarchica."
+  },
+  {
+   "id": "u14-q060",
+   "tipo": "multipla",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "consiglio-supremo-di-difesa"
+   ],
+   "domanda": "Chi presiede il Consiglio supremo di difesa?",
+   "opzioni": [
+    "Il ministro della difesa",
+    "Il Presidente del Consiglio",
+    "Il Presidente della Repubblica",
+    "Il capo di stato maggiore"
+   ],
+   "corretta": 2,
+   "spiegazione": "Art. 87: il Presidente ha il comando delle Forze armate e presiede il Consiglio supremo di difesa."
+  },
+  {
+   "id": "u14-q061",
+   "tipo": "multipla",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "comitati-interministeriali"
+   ],
+   "domanda": "Come si chiama oggi il CIPE?",
+   "opzioni": [
+    "CNEL",
+    "CIPESS",
+    "CISR",
+    "CONSOB"
+   ],
+   "corretta": 1,
+   "spiegazione": "Comitato interministeriale per la programmazione economica e lo sviluppo sostenibile, dal 2021."
+  },
+  {
+   "id": "u14-q062",
+   "tipo": "multipla",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "ministri"
+   ],
+   "domanda": "Secondo l'art. 95, secondo comma, i ministri sono responsabili:",
+   "opzioni": [
+    "Solo individualmente",
+    "Solo collegialmente",
+    "Collegialmente per gli atti del Consiglio, individualmente per quelli del dicastero",
+    "Solo davanti al Presidente del Consiglio"
+   ],
+   "corretta": 2,
+   "spiegazione": "Responsabilità collegiale e individuale."
+  },
+  {
+   "id": "u14-q063",
+   "tipo": "multipla",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "separazione-politica-amministrazione"
+   ],
+   "domanda": "Quale fonte raccoglie oggi la separazione tra indirizzo politico e gestione?",
+   "opzioni": [
+    "L. 400/1988",
+    "D.lgs. 165/2001",
+    "D.lgs. 300/1999",
+    "L. 81/2001"
+   ],
+   "corretta": 1,
+   "spiegazione": "Vi sono confluite le norme del d.lgs. 80/1998."
+  },
+  {
+   "id": "u14-q064",
+   "tipo": "verofalso",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "alta-amministrazione"
+   ],
+   "affermazione": "Gli atti di alta amministrazione sono di regola deliberati dal Consiglio dei ministri ed emanati con decreto del Presidente della Repubblica.",
+   "vero": true,
+   "spiegazione": "Art. 2, comma 3, l. 400/1988."
+  },
+  {
+   "id": "u14-q065",
+   "tipo": "verofalso",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "comitati-interministeriali"
+   ],
+   "affermazione": "Il Presidente del Consiglio può istituire con proprio decreto comitati di ministri per questioni di comune competenza.",
+   "vero": true,
+   "spiegazione": "Art. 5, comma 2, l. 400/1988."
+  },
+  {
+   "id": "u14-q066",
+   "tipo": "verofalso",
+   "lezione": "u14-l4",
+   "livello": "base",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio"
+   ],
+   "affermazione": "Il Presidente del Consiglio non risponde politicamente davanti alle Camere.",
+   "vero": false,
+   "spiegazione": "Alla preminenza corrisponde una parallela responsabilità politica."
+  },
+  {
+   "id": "u14-q067",
+   "tipo": "completa",
+   "lezione": "u14-l4",
+   "livello": "base",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio"
+   ],
+   "testo": "Il Presidente del Consiglio {{dirige}} la politica generale del Governo e ne è {{responsabile}} (art. 95)."
+  },
+  {
+   "id": "u14-q068",
+   "tipo": "completa",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio"
+   ],
+   "testo": "I poteri del Presidente del Consiglio sono di direzione, {{impulso}} e {{coordinamento}}."
+  },
+  {
+   "id": "u14-q069",
+   "tipo": "aperta",
+   "lezione": "u14-l4",
+   "livello": "avanzato",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "consiglio-dei-ministri",
+    "comitati-interministeriali",
+    "separazione-politica-amministrazione"
+   ],
+   "domanda": "Illustri il ruolo del Presidente del Consiglio nella direzione politica del Governo.",
+   "traccia": "La politica del Governo è determinata collegialmente dal Consiglio dei ministri, ma l'art. 95 riserva al Presidente del Consiglio una preminenza da primus inter pares: dirige la politica generale e ne è responsabile, mantiene l'unità di indirizzo politico e amministrativo, promuove e coordina i ministri. La direzione non comprende la determinazione della politica, che resta del Consiglio; comprende però i poteri dell'art. 5 della legge 400/1988, come le direttive politiche e amministrative ai ministri in attuazione delle deliberazioni del Consiglio, e la possibilità di istituire comitati di ministri. È l'organo che assicura l'attuazione del programma presentato alle Camere: al triplice potere di direzione, impulso e coordinamento corrisponde la responsabilità politica. I ministri rispondono collegialmente degli atti del Consiglio e individualmente del dicastero; la gestione amministrativa spetta ai dirigenti (d.lgs. 165/2001).",
+   "punti": [
+    {
+     "testo": "Art. 95 e primus inter pares",
+     "chiavi": [
+      "95",
+      "primus"
+     ]
+    },
+    {
+     "testo": "Dirige ma non determina",
+     "chiavi": [
+      "dirige",
+      "determina",
+      "collegial"
+     ]
+    },
+    {
+     "testo": "Poteri dell'art. 5 l. 400",
+     "chiavi": [
+      "direttiv",
+      "coordina"
+     ]
+    },
+    {
+     "testo": "Responsabilità",
+     "chiavi": [
+      "responsabil"
+     ]
+    },
+    {
+     "testo": "Separazione politica e gestione",
+     "chiavi": [
+      "dirigenti",
+      "165"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u14-q070",
+   "tipo": "abbina",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "governo",
+    "presidente-del-consiglio",
+    "ministri",
+    "formazione-del-governo",
+    "buon-andamento-e-imparzialita",
+    "sottosegretari-di-stato"
+   ],
+   "consegna": "Abbina l'articolo della Costituzione al suo contenuto.",
+   "coppie": [
+    [
+     "Art. 92",
+     "Composizione e nomina del Governo"
+    ],
+    [
+     "Art. 93",
+     "Giuramento"
+    ],
+    [
+     "Art. 94",
+     "Fiducia"
+    ],
+    [
+     "Art. 95",
+     "Direzione della politica generale"
+    ],
+    [
+     "Art. 97",
+     "Buon andamento e imparzialità"
+    ],
+    [
+     "Art. 98",
+     "Impiegati al servizio della Nazione"
+    ]
+   ]
+  },
+  {
+   "id": "u14-q501",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "presidente-del-consiglio"
+   ],
+   "domanda": "L’incaricato che accetta con riserva è già Presidente del Consiglio in carica?",
+   "risposta": "No. Sta verificando la possibilità di formare il Governo; la titolarità deriva dalla successiva nomina, seguita dal giuramento prima delle funzioni."
+  },
+  {
+   "id": "u14-q502",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "ministri-senza-portafoglio",
+    "consiglio-dei-ministri"
+   ],
+   "domanda": "I ministri senza portafoglio votano nel Consiglio dei ministri?",
+   "risposta": "Sì. Sono ministri a pieno titolo, pur non essendo titolari di un proprio ministero e svolgendo funzioni delegate."
+  },
+  {
+   "id": "u14-q503",
+   "tipo": "flashcard",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "presidenza-del-consiglio"
+   ],
+   "domanda": "Che differenza c’è tra Presidente e Presidenza del Consiglio?",
+   "risposta": "Il Presidente è l’organo politico; la Presidenza è la struttura amministrativa che lo supporta mediante uffici, dipartimenti e Segretariato generale."
+  },
+  {
+   "id": "u14-q504",
+   "tipo": "multipla",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "consiglio-dei-ministri"
+   ],
+   "domanda": "Quale sequenza è costituzionalmente corretta?",
+   "opzioni": [
+    "Fiducia, poi nomina, poi incarico",
+    "Nomina, giuramento, presentazione alle Camere per la fiducia",
+    "Giuramento, consultazioni, poi nomina",
+    "Elezione diretta, poi ratifica notarile"
+   ],
+   "corretta": 1,
+   "spiegazione": "Gli artt. 92, 93 e 94 distinguono i passaggi."
+  },
+  {
+   "id": "u14-q505",
+   "tipo": "verofalso",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "presidente-del-consiglio"
+   ],
+   "affermazione": "Il Presidente del Consiglio deve necessariamente essere membro di una Camera.",
+   "vero": false,
+   "spiegazione": "La titolarità della carica governativa non richiede il mandato parlamentare."
+  },
+  {
+   "id": "u14-q506",
+   "tipo": "verofalso",
+   "lezione": "u14-l1",
+   "livello": "medio",
+   "pagine": [
+    119,
+    120
+   ],
+   "concetti": [
+    "consiglio-dei-ministri"
+   ],
+   "affermazione": "Il Consiglio di gabinetto può sostituire liberamente il Consiglio dei ministri nelle decisioni riservate.",
+   "vero": false,
+   "spiegazione": "È una struttura di supporto; le competenze collegiali restano al Consiglio dei ministri."
+  },
+  {
+   "id": "u14-q507",
+   "tipo": "completa",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "ministri",
+    "consiglio-dei-ministri",
+    "presidenza-del-consiglio"
+   ],
+   "testo": "L’art. {{92}} riguarda composizione e nomina; il {{93}} il giuramento; il {{95}} la direzione e le responsabilità interne del Governo.",
+   "spiegazione": "Le disposizioni svolgono funzioni complementari."
+  },
+  {
+   "id": "u14-q508",
+   "tipo": "aperta",
+   "lezione": "u14-l4",
+   "livello": "avanzato",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "ministri",
+    "consiglio-dei-ministri",
+    "presidenza-del-consiglio",
+    "ministri-senza-portafoglio"
+   ],
+   "domanda": "Come si conciliano preminenza del Presidente e collegialità del Governo?",
+   "traccia": "L’art. 95 attribuisce al Presidente del Consiglio la direzione della politica generale, la responsabilità e il compito di mantenerne l’unità, promuovendo e coordinando l’attività dei ministri. Questa preminenza non comporta un potere gerarchico illimitato su qualsiasi atto ministeriale. Il Consiglio dei ministri determina collegialmente politica e decisioni comuni e delibera sugli atti riservati dalla legge, come disegni di legge e decreti con forza di legge. I singoli ministri partecipano alla responsabilità collegiale e rispondono individualmente dei propri dicasteri. La legge n. 400/1988 organizza strumenti di coordinamento e soluzione dei conflitti. I ministri senza portafoglio, se nominati, votano nel Consiglio come gli altri. Le strutture della Presidenza assistono il capo del Governo senza sostituire gli organi politici. Il sistema combina così direzione, confronto collegiale e responsabilità settoriale, mentre coalizioni e rapporti politici ne condizionano il funzionamento concreto.",
+   "punti": [
+    {
+     "testo": "Direzione unitaria",
+     "chiavi": [
+      "95",
+      "dirige",
+      "coordina"
+     ]
+    },
+    {
+     "testo": "Competenza collegiale",
+     "chiavi": [
+      "consiglio",
+      "delibera"
+     ]
+    },
+    {
+     "testo": "Responsabilità dei ministri",
+     "chiavi": [
+      "individuale",
+      "collegiale"
+     ]
+    },
+    {
+     "testo": "Limiti della preminenza",
+     "chiavi": [
+      "gerarchico",
+      "competenze"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u14-q509",
+   "tipo": "flashcard",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "sottosegretari-di-stato"
+   ],
+   "domanda": "I viceministri partecipano con voto al Consiglio dei ministri?",
+   "risposta": "No. Sono sottosegretari con deleghe ampie; possono essere invitati secondo la disciplina, ma senza voto."
+  },
+  {
+   "id": "u14-q510",
+   "tipo": "multipla",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    128,
+    128
+   ],
+   "concetti": [
+    "indirizzo-politico",
+    "governo",
+    "consiglio-supremo-di-difesa"
+   ],
+   "domanda": "Nella politica di difesa, come si distinguono la deliberazione dello stato di guerra e le missioni internazionali?",
+   "opzioni": [
+    "Ogni missione internazionale richiede la deliberazione dello stato di guerra (art. 78)",
+    "Lo stato di guerra lo delibera il Governo con un regolamento; le missioni le decide il Presidente della Repubblica",
+    "Lo stato di guerra lo deliberano le Camere (art. 78); le missioni le delibera il Governo con autorizzazione e controllo del Parlamento (l. 145/2016)",
+    "Entrambe sono decise dal Consiglio supremo di difesa"
+   ],
+   "corretta": 2,
+   "spiegazione": "Art. 78: le Camere deliberano lo stato di guerra e conferiscono al Governo i poteri necessari; il Presidente della Repubblica lo dichiara (art. 87). Le missioni internazionali sono altra cosa: la legge 145/2016 prevede deliberazione del Governo, autorizzazione e controllo parlamentare, copertura finanziaria. Il Consiglio supremo di difesa non decide: le decisioni restano a Governo e Camere."
+  },
+  {
+   "id": "u14-q511",
+   "tipo": "verofalso",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "informazione-per-la-sicurezza"
+   ],
+   "affermazione": "Il sistema di informazione per la sicurezza comprende DIS, AISE e AISI.",
+   "vero": true,
+   "spiegazione": "È l’assetto introdotto dalla legge n. 124/2007, distinto dalle precedenti denominazioni SISMI e SISDE."
+  },
+  {
+   "id": "u14-q512",
+   "tipo": "ordina",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "ministri",
+    "consiglio-dei-ministri",
+    "presidenza-del-consiglio"
+   ],
+   "consegna": "Ordina i passaggi ordinari dalla verifica della maggioranza alla fiducia.",
+   "elementi": [
+    "Consultazioni del Presidente della Repubblica",
+    "Conferimento e svolgimento dell’incarico di formare il Governo",
+    "Nomina del Presidente del Consiglio e, su sua proposta, dei ministri",
+    "Giuramento prima dell’assunzione delle funzioni",
+    "Presentazione alle due Camere entro dieci giorni per la fiducia"
+   ],
+   "spiegazione": "Le prassi preparatorie non anticipano gli effetti della nomina e la fiducia segue l’insediamento."
+  },
+  {
+   "id": "u14-q513",
+   "tipo": "abbina",
+   "lezione": "u14-l3",
+   "livello": "base",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "ministri",
+    "consiglio-dei-ministri",
+    "presidenza-del-consiglio"
+   ],
+   "consegna": "Abbina la disposizione alla funzione.",
+   "coppie": [
+    [
+     "Art. 92",
+     "Composizione e nomina del Governo"
+    ],
+    [
+     "Art. 93",
+     "Giuramento"
+    ],
+    [
+     "Art. 94",
+     "Rapporto di fiducia"
+    ],
+    [
+     "Art. 95",
+     "Direzione e responsabilità interne"
+    ]
+   ]
+  },
+  {
+   "id": "u14-q514",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "governo",
+    "rapporto-di-fiducia"
+   ],
+   "tipo": "verofalso",
+   "affermazione": "Il Governo entra nell'esercizio delle sue funzioni soltanto dopo aver ottenuto la fiducia delle Camere.",
+   "vero": false,
+   "spiegazione": "Entra in carica con il giuramento nelle mani del Presidente della Repubblica (art. 93); entro dieci giorni dalla formazione si presenta alle Camere per la fiducia (art. 94)."
+  },
+  {
+   "id": "u14-q515",
+   "lezione": "u14-l3",
+   "livello": "medio",
+   "pagine": [
+    123,
+    126
+   ],
+   "concetti": [
+    "governo",
+    "presidente-del-consiglio"
+   ],
+   "tipo": "flashcard",
+   "domanda": "Quali sono le tappe della formazione del Governo?",
+   "risposta": "Consultazioni del Presidente della Repubblica; conferimento dell'incarico (di solito accettato con riserva); scioglimento della riserva e nomina del Presidente del Consiglio e dei ministri; giuramento; entro dieci giorni, voto di fiducia di entrambe le Camere su mozione motivata e per appello nominale."
+  },
+  {
+   "id": "u14-q516",
+   "lezione": "u14-l3",
+   "pagine": [
+    123,
+    126
+   ],
+   "serie": "procedimenti",
+   "tipo": "flashcard",
+   "livello": "medio",
+   "domanda": "La formazione del Governo, passo «Fiducia»: quali esiti sono possibili?",
+   "risposta": "Entrambe le Camere votano la fiducia: il Governo è nella pienezza dei poteri. Una Camera la nega: il Governo si dimette e resta in carica per gli affari correnti.",
+   "concetti": [
+    "rapporto-di-fiducia"
+   ]
+  },
+  {
+   "id": "u14-q517",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "consiglio-dei-ministri",
+    "presidenza-del-consiglio"
+   ],
+   "tipo": "aperta",
+   "domanda": "Il Presidente del Consiglio dei ministri: nomina, poteri e limiti.",
+   "traccia": "**Nomina.** Dopo le consultazioni, il Presidente della Repubblica **nomina** il Presidente del Consiglio e, **su proposta di questo**, i ministri (art. 92). Il Governo giura (art. 93) ed entro dieci giorni chiede la fiducia alle Camere (art. 94).\n\n**Posizione costituzionale.** Per l'**art. 95** il Presidente del Consiglio **dirige la politica generale del Governo e ne è responsabile**; mantiene l'**unità di indirizzo politico e amministrativo**, **promuovendo e coordinando** l'attività dei ministri. La formula è un compromesso tra tre principi: quello monocratico (la direzione del Presidente), quello collegiale (il Consiglio dei ministri determina la politica generale) e la responsabilità individuale dei ministri.\n\n**Poteri**, precisati dalla **legge 400/1988**: convoca e presiede il Consiglio dei ministri e ne fissa l'ordine del giorno; espone alle Camere il programma e pone, con l'assenso del Consiglio, la **questione di fiducia**; **controfirma** le leggi e gli atti con forza di legge; indirizza direttive ai ministri e può **sospendere** l'adozione di loro atti sottoponendoli al Consiglio; cura i rapporti con l'Unione europea e con le Regioni; dirige la politica dell'informazione per la sicurezza. Si avvale della **Presidenza del Consiglio**.\n\n**Limiti.** Non è il superiore gerarchico dei ministri e **non può revocarli**: è un *primus inter pares*. La sua forza reale dipende dalla coalizione. Le sue dimissioni provocano la caduta dell'intero Governo. Per i reati ministeriali risponde davanti al giudice ordinario, previa autorizzazione parlamentare (art. 96).",
+   "punti": [
+    {
+     "testo": "Nominato dal Presidente della Repubblica; propone i ministri (art. 92)",
+     "chiavi": [
+      "92",
+      "nomina",
+      "propo"
+     ]
+    },
+    {
+     "testo": "Art. 95: dirige la politica generale e ne è responsabile",
+     "chiavi": [
+      "95",
+      "dirige",
+      "politica generale"
+     ]
+    },
+    {
+     "testo": "Mantiene l'unità di indirizzo, promuove e coordina i ministri",
+     "chiavi": [
+      "unità di indirizzo",
+      "coordina",
+      "promuov"
+     ]
+    },
+    {
+     "testo": "Legge 400/1988: presiede il Consiglio, questione di fiducia, direttive, sospensione di atti",
+     "chiavi": [
+      "400",
+      "ordine del giorno",
+      "sospend"
+     ]
+    },
+    {
+     "testo": "Non può revocare i ministri: primus inter pares",
+     "chiavi": [
+      "revoc",
+      "primus"
+     ]
+    },
+    {
+     "testo": "Le sue dimissioni fanno cadere il Governo",
+     "chiavi": [
+      "dimission",
+      "cade",
+      "intero governo"
+     ]
+    }
+   ],
+   "esame": [
+    "torre"
+   ]
+  },
+  {
+   "id": "u14-q518",
+   "lezione": "u14-l4",
+   "livello": "avanzato",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "presidente-del-consiglio",
+    "governo-parlamentare",
+    "forma-di-governo"
+   ],
+   "tipo": "aperta",
+   "domanda": "Che cosa si intende per premiership? In Italia il Presidente del Consiglio è un «premier»?",
+   "traccia": "**Premiership** indica la variante della forma di governo parlamentare in cui il capo dell'esecutivo, il **Primo ministro**, è il vero titolare dell'indirizzo politico. Il modello è il **Regno Unito**: sistema elettorale maggioritario e tendenziale bipartitismo fanno sì che l'elettore, votando il partito, scelga di fatto anche il Premier, che è il **leader del partito vincitore**. Il Premier sceglie e **revoca i ministri**, guida una maggioranza coesa e in pratica dispone della durata della legislatura. In Germania il Cancelliere è eletto dal Bundestag, fissa le direttive della politica ed è protetto dalla **sfiducia costruttiva**.\n\n**In Italia** la Costituzione non disegna un premier. L'**art. 95** affida al Presidente del Consiglio la **direzione della politica generale**, ma accanto alla collegialità del Consiglio e alla responsabilità dei singoli ministri: non può revocarli e deve mediare tra i partiti della coalizione. Per decenni i governi sono nati **dopo** le elezioni, da accordi tra partiti.\n\nDal **1994**, con leggi elettorali che spingono a formare coalizioni **prima** del voto, il leader della coalizione vincente è stato di regola incaricato: la carica si è rafforzata **di fatto**, senza modifiche costituzionali. La legge elettorale **180/2026** fa indicare alle forze politiche la persona proposta come Presidente del Consiglio, ma lascia intatti il potere di nomina del capo dello Stato (art. 92) e la fiducia (art. 94).\n\nIl progetto di revisione costituzionale sul cosiddetto **premierato** (elezione diretta del Presidente del Consiglio) **non è stato approvato**. L'unico precedente di elezione diretta del Primo ministro, in Israele, è durato dal 1996 al 2001.",
+   "punti": [
+    {
+     "testo": "Premiership: parlamentarismo a prevalenza del Primo ministro",
+     "chiavi": [
+      "primo ministro",
+      "premier",
+      "prevalenz"
+     ]
+    },
+    {
+     "testo": "Modello britannico: maggioritario, bipartitismo, leader del partito vincitore",
+     "chiavi": [
+      "regno unito",
+      "britann",
+      "bipartit"
+     ]
+    },
+    {
+     "testo": "In Italia art. 95: direzione senza potere di revoca dei ministri",
+     "chiavi": [
+      "95",
+      "revoc"
+     ]
+    },
+    {
+     "testo": "Dal 1994 coalizioni pre-elettorali e rafforzamento di fatto",
+     "chiavi": [
+      "1994",
+      "coalizion"
+     ]
+    },
+    {
+     "testo": "Legge 180/2026: indicazione del candidato, senza elezione diretta",
+     "chiavi": [
+      "180",
+      "2026",
+      "indica"
+     ]
+    },
+    {
+     "testo": "Premierato: revisione non approvata",
+     "chiavi": [
+      "premierato",
+      "non approvat",
+      "elezione diretta"
+     ]
+    }
+   ],
+   "esame": [
+    "torre"
+   ]
+  },
+  {
+   "id": "u14-q519",
+   "tipo": "flashcard",
+   "lezione": "u14-l4",
+   "livello": "medio",
+   "pagine": [
+    126,
+    128
+   ],
+   "concetti": [
+    "informazione-per-la-sicurezza"
+   ],
+   "domanda": "Come è organizzato il sistema di informazione per la sicurezza della legge n. 124/2007?",
+   "risposta": "Il Presidente del Consiglio ha l’alta direzione e la responsabilità generale; il DIS coordina, l’AISE si occupa della sicurezza esterna e l’AISI di quella interna."
+  }
+ ]
 }

@@ -62,19 +62,14 @@
     "sha256": "467e642e9587a109fbc025cfa1556be069ecaa0d297fe5715835f3a205f58742"
   },
   {
-    "id": "costituzionale-bin-pitruzzella-v1",
+    "id": "costituzionale-iuris-v1",
     "materia": "diritto-costituzionale",
-    "titolo": "Bin–Pitruzzella · riassunto",
-    "descrizione": "Riassunto del manuale di R. Bin e G. Pitruzzella, Diritto costituzionale (VII edizione), autore del riassunto non indicato. È datato: per la disciplina in vigore fa fede il Percorso. In fondo, domande e risposte e il testo della Costituzione di allora.",
-    "file": "originali/costituzionale-bin-pitruzzella.pdf",
-    "pagine": 258,
-    "sha256": "b38d7a4c9d62cdadd13070decd61915f14009667d5eff955cf20ec39f8bede5e",
-    "testoOcr": "testi/costituzionale-bin-pitruzzella.txt",
-    "pagineOmesse": [
-      2,
-      207,
-      208
-    ]
+    "titolo": "Diritto costituzionale · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma comune alle tre classi (LMG A-L, LMG M-Z e SSG): segue l’ordine del manuale di T. Martines, integra i temi del percorso A-L ed è aggiornato al diritto vigente.",
+    "testoFonte": "testi/costituzionale-iuris.txt",
+    "testoMarkdown": true,
+    "pagine": 267,
+    "sha256": "13bfa40dbe6aad4bec67bb713ad5124b9945b02e554b6bb2451251a9127372ab"
   },
   {
     "id": "diritto-privato-torrente-dispense-v1",
@@ -84,19 +79,6 @@
     "file": "originali/diritto-privato-torrente-dispense.pdf",
     "pagine": 238,
     "sha256": "1a9b5de50abded0851a6cc674976d207161b07db94a732db4f5c89a81bd25dec"
-  },
-  {
-    "id": "costituzionale-martines-v1",
-    "materia": "diritto-costituzionale-martines",
-    "titolo": "Martines · riassunto",
-    "descrizione": "Riassunto del manuale di T. Martines, Diritto costituzionale (edizione 2024), autore del riassunto non indicato. Materiale di partenza del Percorso, non il manuale integrale: per gli aggiornamenti successivi fa fede il Percorso.",
-    "file": "originali/costituzionale-martines.pdf",
-    "pagine": 267,
-    "sha256": "50afb453a8244cc39c37bb0dd49dcf76f9eb444227c81e0391ce7a0873728e28",
-    "dividiTitoli": true,
-    "pagineOmesse": [
-      1
-    ]
   },
   {
     "id": "filosofia-mz-barberis-v1",

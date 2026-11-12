@@ -1,1299 +1,2661 @@
 {
-  "id": "u10",
-  "ordine": 10,
-  "titolo": "Regioni e governo locale",
-  "capitolo": "Capitolo VI",
-  "pagine": [
-    88,
-    95
-  ],
-  "abstract": "Competenze e risorse delle autonomie, cooperazione fra livelli e forme di governo regionali e locali.",
-  "note": "Aggiornato: le Province sono enti di secondo grado (dal 2014); l'autonomia differenziata va letta con la sentenza della Corte costituzionale 192/2024.",
-  "noteRedazione": [
-    "p. 88: art. 115 abrogato nel 2001; l’art. 114 non implica identità di poteri o sovranità degli enti.",
-    "pp. 89–90: autonomia differenziata ricostruita nel quadro dell’art. 116 e di Corte cost. 192/2024, https://www.cortecostituzionale.it/scheda-pronuncia/2024/192 . Commissione integrata prevista, non assimilata a una Camera delle Regioni già funzionante.",
-    "p. 91: armonizzazione dei bilanci passata alla competenza esclusiva dello Stato con l. cost. 1/2012; coordinamento resta concorrente, https://www.camera.it/temiap/documentazione/temi/pdf/1105334.pdf . Aggiunti equilibrio e condizioni al debito, art. 119; insularità introdotta con l. cost. 2/2022.",
-    "pp. 92–94: la disciplina transitoria non è presentata come unica legge attuale; procedura della sfiducia verificata sull’art. 126: https://www.senato.it/node/223/printable/print .",
-    "pp. 94–95: Province ordinarie aggiornate al secondo grado, l. 56/2014; corretto premio comunale al primo turno (40% alle liste collegate, con condizioni art. 73 TUEL), preferenze e limiti ai mandati dopo il d.l. 7/2024 conv. l. 38/2024. Fonti https://dait.interno.gov.it/elezioni/faq/faq-elezioni-amministrative-2026 e https://www.camera.it/leg19/410?idSeduta=0716&tipo=atti_indirizzo_controllo ."
-  ],
-  "lezioni": [
+ "id": "u10",
+ "ordine": 10,
+ "titolo": "L'organizzazione e il funzionamento delle Camere",
+ "capitolo": "Parte II · Capitolo I · Sezione III",
+ "pagine": [
+  79,
+  88
+ ],
+ "abstract": "Come sono organizzate e come lavorano le Camere: regolamenti parlamentari, Presidente e Ufficio di presidenza, gruppi, commissioni, giunte e organi bicamerali; poi legislatura, prorogatio, convocazione, numero legale, maggioranze, votazioni, interna corporis e ostruzionismo. È la parte «tecnica» del Parlamento, da cui escono molte domande di dettaglio.",
+ "note": "Aggiornato: le commissioni permanenti sono 14 alla Camera e 10 al Senato; per formare un gruppo servono 20 deputati (14 dalla XX legislatura) o 6 senatori; dal 2017 anche al Senato gli astenuti non contano tra i votanti. Non confondere prorogatio (art. 61) e proroga (art. 60).",
+ "noteRedazione": [
+  "p. 80: «regolamenti approvati dalle Camere nel 1791» è un refuso per 1971.",
+  "p. 82: gruppi: il riassunto indica 20 deputati e 10 senatori. Camera: 20 nella XIX legislatura, 14 dalla XX (come in Diritto Costituzionale u08, fonte lì indicata). Senato: 6 senatori dopo la riforma del regolamento del 27 luglio 2022 (dato da riverificare sul testo vigente dell'art. 14 reg. Senato).",
+  "p. 83: il riassunto indica 14 commissioni permanenti in entrambe le Camere: oggi 14 alla Camera e 10 al Senato (XIX legislatura), come in Diritto Costituzionale u08. Le «questioni comunitarie» sono oggi le politiche dell'Unione europea.",
+  "p. 84: la Commissione per le questioni regionali è prevista dall'art. 126 (primo comma nel testo vigente; il riassunto cita il quarto).",
+  "p. 86: il riassunto scrive che lo scioglimento «può» essere esercitato nel semestre bianco: è un refuso, l'art. 88 lo vieta salvo coincidenza con gli ultimi sei mesi della legislatura.",
+  "p. 86: astenuti: la differenza Camera/Senato descritta dal riassunto è superata dalla riforma del regolamento del Senato del 2017 (art. 107), che ha allineato il computo a quello della Camera; riportata come storia. Le soglie per la verifica del numero legale (20 deputati, 12 senatori) sono quelle del riassunto: quella del Senato è stata ridotta nel 2022, numero non riportato perché non verificato. «Riserva di legge assoluta» dei regolamenti è reso come riserva di regolamento.",
+  "pp. 86–87: sul sindacato dei regolamenti parlamentari aggiunta in una riga Corte cost. 120/2014 (non sindacabili nel giudizio sulle leggi, ma l'autonomia non è priva di limiti: conflitto di attribuzione), come in Diritto Costituzionale u08.",
+  "p. 85: la sent. 468/1991 è citata come nel riassunto; il rinvio di Cossiga è del 1° febbraio 1992; la riforma dell'obiezione di coscienza è la l. 230/1998.",
+  "Fusione con il percorso A-L (12/11/2026): integrati quorum, astenuti, strumenti di controllo (in u10-l1, p. 80) e inchieste (in u10-l2) della lezione A-L u08-l2 e legislatura, gruppi e commissioni della u08-l1. Voce A-L «quorum-funzionale» definita qui come sinonimo del quorum deliberativo (da valutare se unirla con un alias). Domande A-L con id u10-q5NN."
+ ],
+ "lezioni": [
+  {
+   "id": "u10-l1",
+   "titolo": "I regolamenti parlamentari, il Presidente e l'Ufficio di presidenza",
+   "pagine": [
+    79,
+    81
+   ],
+   "minuti": 30,
+   "sintesi": "### Una fonte riservata\nL'organizzazione e il funzionamento delle Camere sono regolati in parte dalla [[costituzione-italiana|Costituzione]] (regole comuni) e in parte dai [[regolamenti-parlamentari|regolamenti parlamentari]], che possono differire tra le due assemblee. Per l'art. 64 «ciascuna [[camera-dei-deputati|Camera]] adotta il proprio regolamento a **maggioranza assoluta** dei suoi componenti». Il regolamento è l'atto con cui la Camera, nell'esercizio del suo potere di **autonormazione**, disciplina i lavori, l'organizzazione, i rapporti con gli altri organi costituzionali (anzitutto il [[governo|Governo]]) e con gli estranei ammessi nelle sedi. La maggioranza assoluta serve a coinvolgere anche parte delle minoranze nella scrittura delle regole del gioco.\n\nBenché detti «interni», i regolamenti contengono norme costitutive dell'ordinamento: sono **fonti del diritto**. In forza della *riserva di regolamento* dell'art. 64 sfuggono alla gerarchia: sono fonti **separate**, a competenza riservata, sicché la legge non può disciplinare l'organizzazione interna delle Camere. Nel loro campo sono fonti di primo grado, subordinate soltanto alla Costituzione. Ne è indice il fatto che i regolamenti del **1971** sono pubblicati nella Gazzetta Ufficiale e hanno un periodo di *vacatio*.\n\n### Il problema del controllo\nI regolamenti non sono menzionati nell'art. 134 e perciò **non sono soggetti al sindacato di legittimità** della [[corte-costituzionale|Corte costituzionale]], che ne ha tratto conferma dalla centralità del [[parlamento|Parlamento]] e dalla sua indipendenza da ogni altro potere. Il manuale ne ricava una critica: le Camere potrebbero inserirvi norme contrarie alla Costituzione senza che nessuno possa annullarle, e la loro subordinazione alla Costituzione rischia di restare un'astrazione. La giurisprudenza più recente (sent. n. 120/2014) ha confermato l'esclusione dal giudizio sulle leggi, ma ha precisato che l'autonomia delle Camere non è senza limiti e può essere fatta valere con il conflitto di attribuzione.\n\n### Contenuto e tipi\nI regolamenti di Camera e [[senato|Senato]] hanno uno schema quasi uguale: organizzazione e funzionamento; **procedimento legislativo** (norme direttamente esecutive dell'art. 72); procedure di indirizzo, controllo e informazione ([[rapporto-di-fiducia|fiducia]] e sfiducia, interrogazioni, interpellanze). Quelli del 1971 non sono solo *esecutivi* ma anche *attuativi* della Costituzione: svolgono principi impliciti e contribuiscono a comporre la struttura politico-istituzionale dello Stato, rivalutando il ruolo del Parlamento (si è parlato di «[[indirizzo-politico|indirizzo politico]]» dei regolamenti).\n\nGli strumenti di controllo regolati dai regolamenti si distinguono per ciò che chiedono al Governo:\n\n| Strumento | Oggetto |\n|---|---|\n| [[interrogazione-parlamentare|Interrogazione]] | se un fatto sia vero, se il Governo ne sia informato, quali provvedimenti abbia preso; risposta scritta o orale |\n| [[interpellanza|Interpellanza]] | motivi e intendimenti della condotta del Governo su questioni di politica generale |\n| [[mozione-parlamentare|Mozione]] | promuove discussione e deliberazione su un indirizzo; non è necessariamente di fiducia o sfiducia |\n| [[risoluzione-parlamentare|Risoluzione]] | orientamenti e impegni, in commissione o in assemblea |\n| Ordine del giorno | indirizzi legati all'esame di un altro atto |\n\nUn impegno politico non modifica da solo una legge o uno stanziamento. Accanto ai regolamenti **generali** esistono regolamenti **di settore** (Giunta delle elezioni, servizi e personale, amministrazione e contabilità, concorsi) e, dal 1989, il regolamento parlamentare per i procedimenti d'accusa, approvato dalle due Camere nello stesso testo.\n\n### Il Presidente d'Assemblea\nPer l'art. 63 ciascuna Camera elegge tra i suoi componenti il Presidente e l'Ufficio di presidenza. Il [[presidente-di-assemblea|Presidente]] rappresenta la Camera ed è organo ***super partes***: garante delle [[tutela-delle-minoranze|minoranze]] e del corretto svolgimento dei lavori nel rapporto maggioranza-opposizione, custode delle prerogative dell'assemblea. Per Manzella è «uomo della Costituzione», titolare di precisi interessi politico-costituzionali. Assicura l'applicazione del regolamento: dà e toglie la parola, dirige le discussioni, mantiene l'ordine, pone le questioni, stabilisce l'ordine delle votazioni e ne annuncia il risultato.\n\nI regolamenti danno al Presidente del Senato poteri più ampi: l'assegnazione di un progetto alla [[commissione-deliberante|sede deliberante]] è da lui *disposta* e comunicata all'Assemblea, mentre alla Camera è solo *proposta* dal Presidente e decisa dall'Assemblea. Non ne deriva una diversa posizione costituzionale dei due organi, né una maggiore democraticità della Camera. Il Presidente della Camera presiede anche il [[parlamento-in-seduta-comune|Parlamento in seduta comune]]; quello del Senato supplisce il [[presidente-della-repubblica|Presidente della Repubblica]] (art. 86).\n\n### L'Ufficio di presidenza\nL'[[ufficio-di-presidenza|Ufficio di presidenza]] (al Senato **Consiglio di presidenza**) comprende quattro vicepresidenti, tre questori e i segretari (otto secondo i regolamenti). Delibera il progetto di bilancio e il rendiconto della Camera e nomina, su proposta del Presidente, il Segretario generale.\n\n| Componente | Compito |\n|---|---|\n| Vicepresidenti | sostituiscono il Presidente assente |\n| Segretari | curano il processo verbale, lo leggono, scrutinano le votazioni |\n| Questori | sovrintendono ai servizi, al cerimoniale e all'ordine, secondo le disposizioni del Presidente |",
+   "puntiChiave": [
+    "Ogni Camera adotta il proprio regolamento a maggioranza assoluta dei componenti (art. 64).",
+    "I regolamenti sono fonti separate, a competenza riservata, subordinate solo alla Costituzione.",
+    "Non sono sindacabili dalla Corte costituzionale nel giudizio sulle leggi (art. 134).",
+    "I regolamenti del 1971 sono esecutivi e attuativi della Costituzione.",
+    "Il Presidente è organo super partes, garante delle minoranze e del regolamento.",
+    "L'Ufficio di presidenza: vicepresidenti, questori, segretari; al Senato si chiama Consiglio di presidenza."
+   ],
+   "memoria": [
     {
-      "titolo": "La Repubblica delle autonomie: competenze, raccordi e risorse",
-      "pagine": [
-        88,
-        91
-      ],
-      "sintesi": "### Unità e pluralità dei livelli territoriali\nLo [[stato-regionale|Stato regionale]] italiano si comprende insieme agli artt. 5 e 114: la Repubblica è una e indivisibile, ma riconosce autonomie territoriali. Comuni, Province, Città metropolitane, [[regioni]] e [[stato|Stato]] concorrono alla sua articolazione. L'elenco non attribuisce loro identici poteri o [[sovranita|sovranità]] separate: i Comuni non possiedono per questo la stessa potestà legislativa delle Regioni, né la Regione può disporre liberamente dell'unità nazionale.\n\nLe Regioni ordinarie sono quindici; cinque hanno forme particolari di autonomia fondate su [[statuto-speciale|statuti speciali]] adottati con [[legge-costituzionale|legge costituzionale]]: Friuli Venezia Giulia, Sardegna, Sicilia, Trentino-Alto Adige/Südtirol e Valle d'Aosta/Vallée d'Aoste. L'autonomia delle Province di Trento e Bolzano deriva dall'assetto speciale del Trentino-Alto Adige. Il termine Provincia autonoma non va confuso con le Province ordinarie disciplinate come [[enti-locali|enti locali]].\n\nLe prime elezioni regionali ordinarie si tennero nel 1970, seguite dai trasferimenti di funzioni degli anni Settanta. Il decentramento amministrativo degli anni Novanta e le leggi costituzionali n. 1/1999 e n. 3/2001 trasformarono [[forma-di-governo|forma di governo]], statuti e riparto delle competenze. L'art. 115 citato negli appunti è stato abrogato nel 2001: non è oggi la [[disposizione|disposizione]] da indicare come fondamento testuale vigente dell'autonomia regionale.\n\n### Tre categorie di legislazione, un'amministrazione da allocare\nL'art. 117 distingue legislazione esclusiva statale, concorrente e residuale regionale. Nella prima lo Stato disciplina le materie elencate, come difesa, [[cittadinanza|cittadinanza]] e ordinamento civile; nella concorrente lo Stato pone i principi fondamentali e la Regione le altre regole; la residuale riguarda le materie non riservate. Tutti i legislatori rispettano [[costituzione|Costituzione]], vincoli europei e obblighi internazionali. La riserva statale di materie trasversali, come i livelli essenziali delle prestazioni, può incidere su settori regionali: non basta leggere un'etichetta per escludere ogni intervento statale.\n\nLa competenza legislativa non si identifica automaticamente con la titolarità amministrativa. L'art. 118 attribuisce in via generale le funzioni amministrative ai Comuni, salvo conferimento a livelli superiori per assicurarne esercizio unitario secondo [[sussidiarieta]], differenziazione e adeguatezza. Occorre scegliere il livello idoneo a svolgere la specifica funzione, non trasferire sempre tutto verso il basso. L'esigenza unitaria non è però una clausola che consente allo Stato di ignorare competenze e collaborazione.\n\n### Differenziazione senza disgregazione\nL'[[autonomia-differenziata]] dell'art. 116, terzo comma, permette a Regioni ordinarie ulteriori forme di autonomia nei settori indicati. Richiede iniziativa regionale, ascolto degli enti locali, intesa tra Stato e Regione e legge approvata a maggioranza assoluta dei componenti delle [[parlamento|Camere]], nel rispetto dei principi dell'art. 119. Non basta un accordo politico del Presidente regionale per modificare la Costituzione o acquistare competenze.\n\nLa legge n. 86/2024 ha disciplinato l'attuazione, ma la [[corte-costituzionale|Corte costituzionale]], con sentenza n. 192/2024, ne ha annullato diverse disposizioni e chiarito i limiti: la devoluzione va giustificata per specifiche funzioni, non come trasferimento indiscriminato di interi blocchi di materie. Unità, solidarietà ed eguaglianza nel godimento dei diritti restano parte del quadro. La differenziazione non trasforma ogni Regione in una Regione a statuto speciale. Per valutare un trasferimento concreto occorre verificare la disciplina e gli atti pertinenti, non supporlo già avvenuto sulla base della sola disposizione costituzionale.\n\n### Collaborare fra istituzioni\nLa [[leale-collaborazione]] cerca soluzioni quando attribuzioni diverse concorrono nella stessa decisione. Il [[sistema-delle-conferenze]] offre sedi di confronto: Conferenza Stato-Regioni e Province autonome, Conferenza Stato-Città ed autonomie locali e Conferenza unificata. Secondo le leggi, possono esprimere pareri, accordi e intese. Non ogni consultazione ha il medesimo effetto e non ogni parere equivale a un diritto di veto.\n\nLa Commissione parlamentare per le questioni regionali esercita i compiti previsti, fra cui il parere sullo scioglimento e rimozione dell'art. 126. La legge costituzionale n. 3/2001 ha previsto la possibilità di integrarla con rappresentanti territoriali mediante [[regolamenti-parlamentari|regolamenti parlamentari]]: non si deve descrivere questa previsione come se una Camera delle Regioni fosse già stata istituita. Anche il particolare aggravamento deliberativo previsto per determinati pareri della Commissione integrata non è un requisito generale di maggioranza assoluta per qualsiasi legge sull'autonomia finanziaria.\n\n### Autonomia finanziaria e solidarietà\nL'art. 119 riconosce autonomia di entrata e di spesa nel rispetto dell'equilibrio e dei vincoli europei. Tributi ed entrate propri e compartecipazioni al gettito erariale finanziano le funzioni, con le condizioni costituzionali e di coordinamento. L'[[armonizzazione-dei-bilanci]] è competenza esclusiva statale dopo il 2012; il coordinamento della finanza pubblica e del sistema tributario resta materia concorrente. Gli appunti mantengono unite due voci che oggi vanno distinte.\n\nIl [[fondo-perequativo]] aiuta i territori con minore capacità fiscale per abitante, senza vincoli di destinazione secondo la previsione costituzionale. Ulteriori risorse e interventi speciali perseguono sviluppo, coesione, solidarietà, rimozione degli squilibri ed effettività dei diritti. Non sono tutti indistintamente trasferimenti che lo Stato può usare per dirigere ogni spesa locale. Dal 2022 l'art. 119 riconosce anche peculiarità delle isole e promuove misure contro gli svantaggi dell'insularità.\n\nLe autonomie possono indebitarsi soltanto per investimenti, con piani di ammortamento e nel rispetto dell'equilibrio complessivo degli enti della Regione; è esclusa la garanzia statale sui prestiti. Autonomia non significa quindi libera produzione di debito per qualsiasi spesa corrente. La disponibilità di risorse deve accompagnare le funzioni, mentre la perequazione impedisce che il luogo di residenza svuoti l'eguaglianza dei diritti.",
-      "concetti": [
-        "regioni",
-        "sussidiarieta",
-        "autonomia-differenziata",
-        "leale-collaborazione",
-        "sistema-delle-conferenze",
-        "armonizzazione-dei-bilanci",
-        "fondo-perequativo"
-      ],
-      "puntiChiave": [
-        "Art. 114 riconosce autonomie, non identità di poteri o sovranità separate.",
-        "Art. 117 distribuisce legislazione; art. 118 alloca amministrazione.",
-        "Autonomia finanziaria opera con equilibrio, perequazione e condizioni per il debito."
-      ],
-      "memoria": [
-        {
-          "voce": "116.3",
-          "dettaglio": "Iniziativa, enti locali, intesa, legge a maggioranza assoluta; limiti di unità e diritti."
-        },
-        {
-          "voce": "119",
-          "dettaglio": "Autonomia finanziaria; perequazione; investimenti e ammortamento per il debito; insularità dal 2022."
-        }
-      ],
-      "id": "u10-l1",
-      "minuti": 35
+     "voce": "Art. 64",
+     "dettaglio": "regolamento adottato a maggioranza assoluta dei componenti"
     },
     {
-      "titolo": "Governo regionale ed enti locali: elezioni e stabilità",
-      "pagine": [
-        92,
-        95
-      ],
-      "sintesi": "### La forma regionale ordinaria\nLa [[legge-costituzionale|legge costituzionale]] n. 1/1999 ha rafforzato autonomia statutaria e posizione del [[presidente-della-giunta]]. Gli organi dell'art. 121 sono [[consiglio-regionale]], [[giunta-regionale]] e Presidente. Il Consiglio esercita la potestà legislativa regionale e le altre funzioni attribuite; la Giunta è l'esecutivo; il Presidente rappresenta la [[regioni|Regione]] e dirige la politica della Giunta, assumendone la responsabilità. Se eletto direttamente nomina e revoca i componenti della Giunta.\n\nL'art. 122 prevede l'elezione a suffragio universale e diretto del Presidente, salvo che lo [[statuto-regionale|statuto regionale]] disponga diversamente. La fonte statutaria può scegliere un modello differente nei limiti costituzionali. Non è corretto presentare oggi la disciplina transitoria del 1999 come l'unica legge elettorale vigente in tutte le Regioni ordinarie: le Regioni hanno adottato statuti e discipline elettorali nel quadro dei principi statali. Quote, preferenze e premi si verificano nella [[legge-regionale|legge regionale]] pertinente.\n\n### La regola del simul stabunt, simul cadent\nNel modello con elezione diretta la stabilità è sostenuta dal [[simul-stabunt-simul-cadent]]: cessazione del Presidente e scioglimento del Consiglio sono collegati nei casi dell'art. 126. La [[mozione-di-sfiducia|sfiducia]] è una mozione motivata sottoscritta da almeno un quinto dei consiglieri, non discussa prima di tre giorni e approvata per appello nominale a maggioranza assoluta dei componenti. Se passa, il Presidente non viene sostituito conservando il vecchio Consiglio: si dimette la Giunta e si scioglie il Consiglio.\n\nGli stessi effetti seguono rimozione, impedimento permanente, morte o dimissioni volontarie del Presidente eletto direttamente. In ogni caso la [[costituzione|Costituzione]] collega analoghi effetti alle dimissioni contestuali della maggioranza dei consiglieri. Un dissenso di un singolo assessore, invece, non comporta di per sé la cessazione di tutti gli organi. Il collegamento disincentiva una maggioranza che voglia cambiare Presidente senza affrontare nuove elezioni, ma non impedisce il controllo politico.\n\nLa rimozione e lo scioglimento sanzionatori sono distinti dalla sfiducia: l'art. 126 li prevede con decreto motivato del [[presidente-della-repubblica|Presidente della Repubblica]] per atti contrari alla Costituzione, gravi violazioni di legge o ragioni di sicurezza nazionale, sentita la Commissione parlamentare per le questioni regionali. La ragione del provvedimento e il suo procedimento non coincidono con la scelta politica dei consiglieri.\n\n### Comuni: due regimi elettorali principali\nGli [[enti-locali]] hanno autonomia secondo Costituzione, statuti e leggi; il TUEL, d.lgs. n. 267/2000, è il riferimento generale, con le discipline speciali e successive modifiche. Nel Comune gli organi principali sono [[sindaco]], Consiglio e Giunta. Il sindaco è eletto direttamente e nomina gli assessori nei modi previsti, mentre il Consiglio ha funzioni d'indirizzo e controllo politico-amministrativo. La relazione fra vertice esecutivo e assemblea mira a rendere riconoscibile la responsabilità.\n\nNei Comuni fino a quindicimila abitanti, salvo il regime dei capoluoghi di provincia e altre discipline speciali, il sindaco è collegato a una lista e vince chi ottiene più voti; il ballottaggio opera in caso di parità secondo la legge. Alla lista vincente sono assegnati due terzi dei seggi, con arrotondamento previsto, e il resto alle altre liste. La scelta del sindaco e della lista è collegata: non si applica il voto disgiunto del regime maggiore.\n\nNei Comuni oltre quindicimila abitanti, e nei capoluoghi cui si applica tale regime, serve la maggioranza assoluta dei voti validi al primo turno; se manca, si procede al ballottaggio fra i due candidati più votati. È ammesso il [[voto-disgiunto]]: si può scegliere un sindaco e una lista non collegata. Un voto al solo sindaco non si trasferisce automaticamente a una lista; il voto alla lista vale anche per il candidato sindaco collegato.\n\nIl premio del 60% alle liste collegate al sindaco dipende dalle condizioni del TUEL e dai risultati delle liste. Non è sempre automatico. Per il sindaco eletto al primo turno opera, fra l'altro, il requisito del 40% per le liste collegate e l'assenza di una lista o gruppo concorrente oltre il 50%; al ballottaggio la presenza al primo turno di un'altra lista o gruppo oltre il 50% impedisce il premio. Gli appunti richiedono impropriamente sempre il 50% alle liste del vincitore al primo turno. La diversità fra consenso al candidato e alle liste può produrre una maggioranza consiliare diversa.\n\nI limiti ai mandati consecutivi non sono più sempre due: nel regime generale non c'è limite fino a cinquemila abitanti, sono tre fra 5.001 e quindicimila e due oltre quindicimila, ferme le ulteriori regole applicabili. Anche preferenze e parità di genere sono state aggiornate: secondo il regime generale si possono esprimere due preferenze di genere diverso nei Comuni con almeno cinquemila abitanti. Numeri storici non vanno applicati indistintamente a qualsiasi elezione locale.\n\n### Province e Città metropolitane\nLa legge n. 56/2014 ha modificato profondamente gli enti di area vasta. Nel regime generale delle Province ordinarie Presidente e Consiglio sono scelti con elezioni di secondo grado da sindaci e consiglieri comunali secondo la disciplina legale; l'assemblea dei sindaci svolge i compiti previsti. Non si insegna quindi l'elezione diretta del Presidente provinciale del 1993 come regola generale vigente.\n\nNelle Città metropolitane la disciplina generale attribuisce al sindaco del capoluogo la funzione di sindaco metropolitano e prevede Consiglio e Conferenza metropolitana. Esistono condizioni e discipline particolari da verificare per i singoli territori, soprattutto speciali. Province ordinarie e Province autonome restano categorie diverse: l'ordinamento di secondo grado non riassume quello di Trento e Bolzano. Il confronto fra livelli deve quindi indicare sempre di quale ente e regime si sta parlando.",
-      "concetti": [
-        "presidente-della-giunta",
-        "consiglio-regionale",
-        "giunta-regionale",
-        "simul-stabunt-simul-cadent",
-        "enti-locali",
-        "sindaco",
-        "voto-disgiunto"
-      ],
-      "puntiChiave": [
-        "Nel modello regionale diretto la sfiducia porta anche allo scioglimento del Consiglio.",
-        "Le formule regionali si verificano nella legge della Regione; non si estende il transitorio del 1999 a tutte.",
-        "Il regime provinciale ordinario è oggi di secondo grado, distinto dalle Province autonome."
-      ],
-      "memoria": [
-        {
-          "voce": "126",
-          "dettaglio": "1/5 di firme, tre giorni, maggioranza assoluta e appello nominale."
-        },
-        {
-          "voce": "Sindaci",
-          "dettaglio": "Regime generale dei mandati: nessun limite fino a 5.000; tre fino a 15.000; due oltre."
-        }
-      ],
-      "id": "u10-l2",
-      "minuti": 35
+     "voce": "Art. 63",
+     "dettaglio": "ogni Camera elegge Presidente e Ufficio di presidenza"
+    },
+    {
+     "voce": "1971",
+     "dettaglio": "regolamenti generali vigenti di Camera e Senato"
+    },
+    {
+     "voce": "1989",
+     "dettaglio": "regolamento parlamentare per i procedimenti d'accusa"
+    },
+    {
+     "voce": "4 – 3 – 8",
+     "dettaglio": "vicepresidenti, questori e segretari"
+    },
+    {
+     "voce": "Manzella",
+     "dettaglio": "il Presidente come «uomo della Costituzione»"
     }
-  ],
-  "concetti": [
-    {
-      "id": "regioni",
-      "nome": "Regioni",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Enti territoriali dotati di autonomia politica, legislativa, amministrativa e finanziaria.",
-      "definizione": "Sono enti territoriali **autonomi**, con propri statuti, poteri e funzioni secondo i principi fissati dalla Costituzione (art. 114). Sono venti: **quindici a statuto ordinario** e **cinque a statuto speciale** (Sicilia, Sardegna, Valle d'Aosta, Trentino-Alto Adige, Friuli-Venezia Giulia), i cui statuti sono leggi costituzionali (art. 116). Previste nel 1948, le ordinarie sono nate solo nel **1970**. Hanno autonomia **politica**: organi elettivi ([[consiglio-regionale]], [[presidente-della-giunta]], [[giunta-regionale]]), potestà **legislativa** (art. 117), **statutaria** (art. 123), **amministrativa** (art. 118) e **finanziaria** (art. 119). La riforma del Titolo V (1999–2001) ne ha molto ampliato i poteri. Non sono sovrane: la Repubblica resta una e indivisibile (art. 5).",
-      "pagine": [
-        88,
-        95
-      ]
-    },
-    {
-      "id": "sussidiarieta",
-      "nome": "Sussidiarietà",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Attribuzione delle funzioni al livello adeguato, privilegiando la prossimità quando idonea.",
-      "definizione": "L’art. 118 parte dai Comuni per l’amministrazione, salvo esigenze unitarie di livelli superiori. Si accompagna a differenziazione e adeguatezza. Non impone il trasferimento di ogni compito sempre verso il basso.",
-      "pagine": [
-        89,
-        90
-      ]
-    },
-    {
-      "id": "autonomia-differenziata",
-      "nome": "Autonomia differenziata",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Ulteriori forme di autonomia delle Regioni ordinarie ai sensi dell’art. 116, terzo comma.",
-      "definizione": "È la possibilità, prevista dall'art. 116, terzo comma, Cost. (introdotto nel 2001), che una Regione **ordinaria** ottenga **ulteriori forme e condizioni particolari di autonomia** in tutte le materie di legislazione concorrente e in alcune di competenza esclusiva statale (giustizia di pace, istruzione, ambiente). Il procedimento: **iniziativa della Regione**, sentiti gli enti locali; **intesa** tra Stato e Regione; **legge dello Stato approvata a maggioranza assoluta** dei componenti delle Camere, nel rispetto dei principi dell'art. 119. La legge 86/2024 ne ha regolato l'attuazione, legandola alla definizione dei livelli essenziali delle prestazioni; la Corte costituzionale (sent. 192/2024) ne ha dichiarato illegittime parti importanti. Non trasforma la Regione in speciale.",
-      "pagine": [
-        89,
-        90
-      ]
-    },
-    {
-      "id": "leale-collaborazione",
-      "nome": "Leale collaborazione",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Raccordo rispettoso delle attribuzioni fra livelli territoriali.",
-      "definizione": "È il principio per cui Stato, Regioni ed enti locali, nell'esercitare le proprie competenze, devono **cooperare** e tenere conto degli interessi degli altri livelli di governo, invece di agire come poteri separati e ostili. La Corte costituzionale lo ha ricavato dall'art. 5; dopo il 2001 è scritto nell'art. 120 a proposito del potere sostitutivo. Opera soprattutto quando le competenze si **intrecciano** e non si riesce a separarle. Si realizza con strumenti procedurali: **pareri**, **intese**, accordi, scambio di informazioni, che si svolgono nel [[sistema-delle-conferenze]]. L'intensità della collaborazione richiesta varia: dal semplice parere all'intesa «forte», senza la quale lo Stato non può decidere da solo. Vale anche tra poteri dello Stato.",
-      "pagine": [
-        90,
-        91
-      ]
-    },
-    {
-      "id": "sistema-delle-conferenze",
-      "nome": "Sistema delle Conferenze",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Sedi di confronto fra Stato, Regioni e autonomie locali.",
-      "definizione": "È l'insieme delle sedi in cui il Governo si confronta stabilmente con le autonomie territoriali; è lo strumento principale della [[leale-collaborazione]]. Comprende la **Conferenza Stato-Regioni** (presieduta dal Presidente del Consiglio, con i Presidenti delle Regioni e delle Province autonome), la **Conferenza Stato-Città e autonomie locali** e la **Conferenza unificata**, che le riunisce. Esprimono pareri, raggiungono intese e stipulano accordi sugli atti statali che toccano interessi regionali e locali. Supplisce alla mancanza di una **Camera delle Regioni**: la Commissione parlamentare per le questioni regionali, che la riforma del 2001 voleva integrare con rappresentanti delle autonomie, non è mai stata integrata. Sono organi di raccordo tra esecutivi, non assemblee legislative.",
-      "pagine": [
-        90,
-        91
-      ]
-    },
-    {
-      "id": "armonizzazione-dei-bilanci",
-      "nome": "Armonizzazione dei bilanci",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Regole comuni per rendere coerenti e confrontabili i bilanci pubblici.",
-      "definizione": "È la materia che riguarda le **regole comuni** con cui lo Stato, le Regioni e gli enti locali redigono i propri bilanci: stessi schemi, stessi criteri contabili, stessi termini, in modo che i conti di tutte le amministrazioni siano confrontabili e si possano sommare. È necessaria per rispettare i vincoli europei, che riguardano l'insieme delle pubbliche amministrazioni. La legge costituzionale **1/2012** l'ha spostata dalla competenza concorrente alla competenza **esclusiva dello Stato** (art. 117, secondo comma, lett. e). Resta invece **concorrente** il **coordinamento della finanza pubblica**, in cui lo Stato detta solo i principi fondamentali. Si collega all'[[equilibrio-di-bilancio]], che l'art. 119 impone anche a Regioni ed enti locali.",
-      "pagine": [
-        91,
-        92
-      ]
-    },
-    {
-      "id": "fondo-perequativo",
-      "nome": "Fondo perequativo",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Risorse per i territori con minore capacità fiscale per abitante.",
-      "definizione": "È il fondo che la **legge dello Stato** istituisce a favore dei **territori con minore capacità fiscale per abitante** (art. 119, terzo comma, Cost.). Le Regioni e gli enti locali hanno autonomia finanziaria: tributi ed entrate propri e compartecipazioni al gettito dei tributi erariali riferibile al loro territorio. Ma i territori più poveri raccolgono meno: il fondo serve a compensare la differenza, perché tutti possano **finanziare integralmente le funzioni** loro attribuite. È **senza vincoli di destinazione**: l'ente decide come usarlo. È uno strumento di solidarietà tra territori. Si distingue dalle **risorse aggiuntive** e dagli **interventi speciali** del quinto comma, che lo Stato destina a determinati enti per scopi specifici, come lo sviluppo e la coesione.",
-      "pagine": [
-        91,
-        92
-      ]
-    },
-    {
-      "id": "presidente-della-giunta",
-      "nome": "Presidente della Giunta",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Vertice regionale che rappresenta la Regione e dirige la politica della Giunta.",
-      "definizione": "È il vertice dell'esecutivo regionale, detto anche Presidente della Regione. Per l'art. 121 Cost. **rappresenta la Regione**, **dirige la politica della Giunta** e ne è responsabile, **promulga le leggi** ed **emana i regolamenti** regionali, dirige le funzioni amministrative delegate dallo Stato. Dopo la legge costituzionale **1/1999**, salvo che lo statuto disponga diversamente, è **eletto a suffragio universale e diretto** (art. 122) e **nomina e revoca** i componenti della [[giunta-regionale]]. La sua posizione è legata a quella del Consiglio dalla regola [[simul-stabunt-simul-cadent]]: sfiducia, dimissioni, morte o impedimento permanente comportano lo scioglimento del Consiglio. Può essere rimosso per atti contrari alla Costituzione (art. 126).",
-      "pagine": [
-        92,
-        94
-      ]
-    },
-    {
-      "id": "consiglio-regionale",
-      "nome": "Consiglio regionale",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Assemblea rappresentativa con potestà legislativa regionale.",
-      "definizione": "È l'assemblea elettiva della Regione, eletta dai cittadini per cinque anni. Per l'art. 121 Cost. esercita la **potestà legislativa** attribuita alla Regione e le altre funzioni conferitegli dalla Costituzione e dalle leggi; può presentare **proposte di legge alle Camere**; approva lo [[statuto-regionale|statuto]]. Controlla la Giunta e può votare la **sfiducia** al Presidente, con mozione motivata, sottoscritta da almeno un quinto dei componenti e approvata a maggioranza assoluta (art. 126): ma nel modello a elezione diretta la sfiducia comporta anche il suo stesso scioglimento. Il sistema elettorale è fissato dalla legge regionale nei limiti dei principi statali (art. 122). Cinque Consigli possono chiedere un referendum abrogativo o costituzionale.",
-      "pagine": [
-        92,
-        94
-      ]
-    },
-    {
-      "id": "giunta-regionale",
-      "nome": "Giunta regionale",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Organo esecutivo della Regione.",
-      "definizione": "È l'**organo esecutivo** della Regione (art. 121 Cost.). È composta dal [[presidente-della-giunta|Presidente]] e dagli **assessori**, ciascuno preposto a un settore dell'amministrazione regionale. Dà attuazione alle leggi e agli indirizzi del Consiglio, predispone il bilancio, presenta disegni di legge, adotta gli atti di amministrazione e, se lo statuto lo prevede, i regolamenti. Prima del 1999 era eletta dal Consiglio; oggi, nel modello dell'elezione diretta, gli assessori sono **nominati e revocati dal Presidente**, che può sceglierli anche fuori dal Consiglio. È l'equivalente regionale del Governo, ma con un Presidente molto più forte rispetto al Presidente del Consiglio. Cade insieme al Presidente.",
-      "pagine": [
-        92,
-        94
-      ]
-    },
-    {
-      "id": "simul-stabunt-simul-cadent",
-      "nome": "Simul stabunt, simul cadent",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Collegamento della durata di Presidente regionale diretto e Consiglio.",
-      "definizione": "Espressione latina («insieme staranno, insieme cadranno») che riassume la regola dell'art. 126, terzo comma, Cost.: nelle Regioni in cui il Presidente è eletto direttamente, l'approvazione della **mozione di sfiducia**, la **rimozione**, l'**impedimento permanente**, la **morte** o le **dimissioni volontarie** del Presidente comportano le **dimissioni della Giunta e lo scioglimento del Consiglio**; lo stesso accade se si dimette contestualmente la maggioranza dei consiglieri. Presidente e Consiglio, eletti insieme, durano e cadono insieme: si torna a votare. La regola scoraggia le crisi, perché chi sfiducia il Presidente perde il proprio seggio, e garantisce la **stabilità** degli esecutivi. Vale anche per i Comuni. Lo statuto può evitarla solo rinunciando all'elezione diretta.",
-      "pagine": [
-        93,
-        94
-      ]
-    },
-    {
-      "id": "enti-locali",
-      "nome": "Enti locali",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Autonomie territoriali locali con funzioni e organizzazione disciplinate dalla legge.",
-      "definizione": "Sono i **Comuni**, le **Province** e le **Città metropolitane**: enti autonomi con propri statuti, poteri e funzioni, che con le Regioni e lo Stato costituiscono la Repubblica (art. 114 Cost.). Il **Comune** è l'ente di base: a esso spettano in via generale le funzioni amministrative ([[sussidiarieta]], art. 118). Hanno autonomia statutaria, regolamentare e finanziaria, ma **non legislativa**. Lo Stato ne disciplina con legge esclusiva organi di governo, legislazione elettorale e funzioni fondamentali; la disciplina è nel Testo unico del 2000 (TUEL). Aggiornamento: la legge **56/2014** ha istituito le Città metropolitane e reso le Province enti di secondo grado, i cui organi sono eletti da sindaci e consiglieri comunali.",
-      "pagine": [
-        94,
-        95
-      ]
-    },
-    {
-      "id": "sindaco",
-      "nome": "Sindaco",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Vertice del Comune eletto direttamente secondo il regime applicabile.",
-      "definizione": "È l'organo che **rappresenta il Comune** e ne guida l'amministrazione. Dalla riforma del **1993** (legge 81) è **eletto direttamente dai cittadini**, insieme al Consiglio comunale, per cinque anni: nei Comuni fino a 15.000 abitanti a turno unico, in quelli maggiori con eventuale **ballottaggio** tra i due candidati più votati. Nomina e revoca gli **assessori**, che formano la Giunta. Se il Consiglio gli vota la sfiducia, decadono entrambi ([[simul-stabunt-simul-cadent]]). Ha una doppia veste: capo dell'amministrazione comunale e **ufficiale del Governo** per alcune funzioni statali (stato civile, anagrafe, ordinanze urgenti per la sicurezza). La legge fissa limiti al numero dei mandati consecutivi, variabili secondo la popolazione.",
-      "pagine": [
-        94,
-        95
-      ]
-    },
-    {
-      "id": "voto-disgiunto",
-      "nome": "Voto disgiunto",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Scelta di un candidato sindaco e di una lista non collegata nel regime che lo consente.",
-      "definizione": "È la possibilità, per l'elettore, di votare per un **candidato alla carica monocratica** (sindaco o Presidente della Regione) e, sulla stessa scheda, per una **lista che non è collegata** a quel candidato. È ammesso nelle elezioni dei Comuni con più di 15.000 abitanti e in quelle regionali, dove la legge regionale lo prevede. Può produrre un sindaco o un Presidente eletto senza una maggioranza propria in Consiglio, anche se i premi di maggioranza riducono questo rischio. Mostra che l'elettore può distinguere il giudizio sulla persona da quello sul partito. Non esiste nei Comuni più piccoli, dove ogni candidato sindaco è collegato a una sola lista, né nelle elezioni politiche.",
-      "pagine": [
-        95,
-        95
-      ]
-    }
-  ],
-  "relazioni": [
-    {
-      "da": "autonomia-differenziata",
-      "a": "regioni",
-      "tipo": "collegato",
-      "etichetta": "può ampliare le funzioni delle"
-    },
-    {
-      "da": "leale-collaborazione",
-      "a": "sistema-delle-conferenze",
-      "tipo": "collegato",
-      "etichetta": "si realizza anche nel"
-    },
-    {
-      "da": "fondo-perequativo",
-      "a": "regioni",
-      "tipo": "collegato",
-      "etichetta": "sostiene le risorse delle"
-    },
-    {
-      "da": "presidente-della-giunta",
-      "a": "giunta-regionale",
-      "tipo": "collegato",
-      "etichetta": "dirige la politica della"
-    },
-    {
-      "da": "consiglio-regionale",
-      "a": "simul-stabunt-simul-cadent",
-      "tipo": "collegato",
-      "etichetta": "è coinvolto nel"
-    },
-    {
-      "da": "sindaco",
-      "a": "enti-locali",
-      "tipo": "collegato",
-      "etichetta": "è vertice di uno degli"
-    },
-    {
-      "da": "sussidiarieta",
-      "a": "enti-locali",
-      "tipo": "collegato",
-      "etichetta": "orienta le funzioni degli"
-    }
-  ],
-  "eventi": [
-    {
-      "id": "ev-prime-elezioni-delle-regioni-ordinarie",
-      "anno": 1970,
-      "data": "7 giugno 1970",
-      "titolo": "Prime elezioni delle Regioni ordinarie",
-      "descrizione": "Le Regioni a statuto ordinario, previste dal 1948, cominciano a funzionare solo ventidue anni dopo.",
-      "tipo": "istituzione",
-      "pagine": [
-        88,
-        95
-      ],
-      "concetti": [
-        "regioni",
-        "consiglio-regionale"
-      ]
-    },
-    {
-      "id": "ev-primo-trasferimento-funzioni-alle-regioni",
-      "anno": 1972,
-      "data": "gennaio 1972",
-      "titolo": "Primo trasferimento di funzioni amministrative alle Regioni",
-      "descrizione": "Con i decreti delegati del gennaio 1972 lo Stato trasferisce alle Regioni ordinarie le prime funzioni amministrative; un secondo trasferimento, più ampio, segue nel 1977. Resta però parziale, perché i ministeri conservano molte competenze.",
-      "tipo": "istituzione",
-      "concetti": [
-        "regioni"
-      ],
-      "pagine": [
-        88,
-        88
-      ]
-    },
-    {
-      "id": "ev-legge-elettorale-regionale-1995",
-      "anno": 1995,
-      "data": "23 febbraio 1995",
-      "titolo": "Legge n. 43/1995 sull'elezione dei Consigli regionali",
-      "descrizione": "Riforma il sistema elettorale delle Regioni ordinarie con un premio di maggioranza: è il primo tentativo di rafforzare la stabilità dei governi regionali.",
-      "tipo": "legge",
-      "concetti": [
-        "consiglio-regionale",
-        "premio-di-maggioranza",
-        "regioni"
-      ],
-      "pagine": [
-        92,
-        93
-      ]
-    },
-    {
-      "id": "ev-legge-bassanini",
-      "anno": 1997,
-      "data": "15 marzo 1997",
-      "titolo": "Legge n. 59/1997 (Bassanini)",
-      "descrizione": "Delega il Governo a conferire a Regioni ed enti locali tutte le funzioni amministrative non riservate allo Stato, secondo il principio di sussidiarietà: il cosiddetto federalismo amministrativo a Costituzione invariata.",
-      "tipo": "legge",
-      "concetti": [
-        "sussidiarieta",
-        "regioni",
-        "enti-locali"
-      ],
-      "pagine": [
-        88,
-        88
-      ]
-    },
-    {
-      "id": "ev-legge-costituzionale-n-1-1999",
-      "anno": 1999,
-      "data": "22 novembre 1999",
-      "titolo": "Legge costituzionale n. 1/1999",
-      "descrizione": "Introduce l'elezione diretta del Presidente della Regione e la nuova autonomia statutaria.",
-      "tipo": "legge",
-      "pagine": [
-        88,
-        95
-      ],
-      "concetti": [
-        "presidente-della-giunta",
-        "statuto-regionale",
-        "simul-stabunt-simul-cadent"
-      ]
-    },
-    {
-      "id": "ev-titolo-v-2001",
-      "anno": 2001,
-      "data": "18 ottobre 2001",
-      "titolo": "Legge costituzionale n. 3/2001",
-      "descrizione": "La revisione del Titolo V ridisegna competenze e autonomie territoriali.",
-      "tipo": "legge",
-      "concetti": [
-        "regioni",
-        "autonomia-differenziata"
-      ],
-      "pagine": [
-        88,
-        89
-      ]
-    }
-  ],
-  "mappa": {
-    "testo": "Autonomie",
-    "concetto": "regioni",
-    "figli": [
-      {
-        "testo": "Competenze e funzioni",
-        "figli": [
-          {
-            "testo": "Sussidiarietà",
-            "concetto": "sussidiarieta"
-          },
-          {
-            "testo": "Differenziazione",
-            "concetto": "autonomia-differenziata"
-          }
-        ]
-      },
-      {
-        "testo": "Raccordi",
-        "concetto": "leale-collaborazione",
-        "figli": [
-          {
-            "testo": "Conferenze",
-            "concetto": "sistema-delle-conferenze"
-          }
-        ]
-      },
-      {
-        "testo": "Risorse",
-        "figli": [
-          {
-            "testo": "Armonizzazione",
-            "concetto": "armonizzazione-dei-bilanci"
-          },
-          {
-            "testo": "Perequazione",
-            "concetto": "fondo-perequativo"
-          }
-        ]
-      },
-      {
-        "testo": "Governo regionale",
-        "figli": [
-          {
-            "testo": "Presidente",
-            "concetto": "presidente-della-giunta"
-          },
-          {
-            "testo": "Consiglio",
-            "concetto": "consiglio-regionale"
-          },
-          {
-            "testo": "Giunta",
-            "concetto": "giunta-regionale"
-          },
-          {
-            "testo": "Durata collegata",
-            "concetto": "simul-stabunt-simul-cadent"
-          }
-        ]
-      },
-      {
-        "testo": "Governo locale",
-        "concetto": "enti-locali",
-        "figli": [
-          {
-            "testo": "Sindaco",
-            "concetto": "sindaco"
-          },
-          {
-            "testo": "Voto disgiunto nel regime maggiore",
-            "concetto": "voto-disgiunto"
-          }
-        ]
-      }
-    ]
+   ],
+   "concetti": [
+    "regolamenti-parlamentari",
+    "presidente-di-assemblea",
+    "ufficio-di-presidenza",
+    "tutela-delle-minoranze",
+    "interrogazione-parlamentare",
+    "interpellanza",
+    "mozione-parlamentare",
+    "risoluzione-parlamentare",
+    "parlamento-in-seduta-comune"
+   ]
   },
-  "domande": [
+  {
+   "id": "u10-l2",
+   "titolo": "Gruppi, commissioni e giunte",
+   "pagine": [
+    81,
+    83
+   ],
+   "minuti": 30,
+   "sintesi": "### I gruppi parlamentari\nI [[gruppi-parlamentari|gruppi parlamentari]] sono organi interni delle [[parlamento|Camere]] che assicurano il collegamento con i [[partiti-politici|partiti]]. Ogni parlamentare deve dichiarare a quale gruppo appartiene (entro due giorni dalla prima seduta alla [[camera-dei-deputati|Camera]], tre al [[senato|Senato]]). Di regola ci sono tanti gruppi quanti sono i partiti rappresentati; chi non aderisce ad alcun gruppo confluisce nel **gruppo misto**.\n\nIl gruppo è la «proiezione» del partito nella Camera, ma non coincide con esso: è un'entità distinta e i suoi membri sono protetti dal [[divieto-di-mandato-imperativo|divieto di mandato imperativo]]. Autonomia non significa contrapposizione, ma un margine di discrezionalità. Quanto alla **natura giuridica**, il manuale respinge la tesi dell'associazione di diritto privato (le Camere non possono avvalersi in via istituzionale di associazioni private) e li qualifica **associazioni necessarie di diritto pubblico**, il che li distingue ulteriormente dai partiti. La Costituzione li presuppone: gli artt. 72 e 82 chiedono che commissioni e commissioni d'inchiesta ne rispecchino la proporzione. Il gruppo può allontanare il dissenziente, non revocargli il seggio.\n\n**Numeri.** Il manuale indica almeno 20 deputati e 10 senatori; oggi alla Camera la soglia di 20 scende a 14 dalla XX [[legislatura|legislatura]] e al Senato bastano 6 senatori. Nel gruppo misto della Camera si possono formare *componenti politiche* di almeno dieci deputati, o anche di tre se rappresentano un partito che ha presentato liste o una minoranza linguistica tutelata. Ogni gruppo ha un presidente, uno o più vicepresidenti e un organo direttivo, e riceve locali, mezzi e contributi dalla Camera in proporzione alla consistenza.\n\n### La Conferenza dei presidenti di gruppo\nLa [[conferenza-dei-capigruppo|Conferenza dei presidenti dei gruppi]] delibera il **programma dei lavori**. Alla Camera il Presidente la convoca quando lo ritiene utile, anche su richiesta del [[governo|Governo]] o di un presidente di gruppo.\n\n### Le commissioni permanenti\nLe [[commissioni-parlamentari|commissioni permanenti]] sono organi interni composti in modo da **rispecchiare la proporzione dei gruppi**: ciascuna riproduce in piccolo la composizione politica dell'Assemblea, perché esercita funzioni di grande rilievo, anzitutto legislative. I gruppi designano i propri componenti e il Presidente distribuisce i parlamentari rimasti fuori. Oggi sono **14 alla Camera e 10 al Senato** (il manuale ne conta 14 in entrambe), distinte per materia e in parte corrispondenti ai ministeri. Le modifiche regolamentari del luglio 1987 hanno istituito le commissioni per le politiche europee; nel 1997 la Camera ha creato il *Comitato per la legislazione*, che dà pareri sulla qualità dei testi. Ogni commissione elegge un presidente, due vicepresidenti e due segretari ed è rinnovata ogni biennio.\n\n| Sede | Che cosa fa la commissione |\n|---|---|\n| **referente** | esamina i progetti e riferisce all'Assemblea |\n| **consultiva** | esprime pareri |\n| **legislativa o deliberante** | esamina e approva i progetti di legge |\n| **redigente** | formula gli articoli, lasciando all'Assemblea il voto |\n| **politica** | ascolta il Governo, esercita indirizzo, controllo e informazione |\n\nLe commissioni preparano il lavoro dell'Assemblea, ma in sede deliberante e politica arrivano a **sostituirla**: ne guadagna la speditezza (pochi componenti, scontro attenuato, compromesso più facile), ma sorge un problema di equilibrio. Per il manuale non va incoraggiata la «parcellizzazione» che fa delle commissioni la sede effettiva delle decisioni.\n\n### Giunte, commissioni d'inchiesta, deputazioni\nLe [[giunte-parlamentari|giunte]] sono organi permanenti i cui membri sono **nominati dal Presidente** rispettando la proporzione dei gruppi. Alla Camera: giunta per il regolamento, delle elezioni, delle autorizzazioni (art. 68). Al Senato: giunta per il regolamento e giunta delle elezioni e delle immunità parlamentari. Sono invece organi **straordinari**, creati al bisogno, le commissioni d'[[inchieste-parlamentari|inchiesta]] (art. 82) e le deputazioni (non più previste dal regolamento della Camera). L'[[inchieste-parlamentari|inchiesta]] riguarda materie di pubblico interesse: la commissione procede con gli stessi poteri e limiti dell'autorità giudiziaria, ma accerta fatti e non pronuncia condanne; le sue finalità sono conoscitive, legislative o di controllo politico. Diverse sono le [[indagine-conoscitiva|indagini conoscitive]] delle commissioni permanenti, prive dei poteri dell'art. 82.",
+   "puntiChiave": [
+    "I gruppi sono organi interni che collegano Camere e partiti; chi non aderisce va nel gruppo misto.",
+    "Per il manuale i gruppi sono associazioni necessarie di diritto pubblico, distinte dai partiti.",
+    "La Conferenza dei presidenti di gruppo delibera il programma dei lavori.",
+    "Le commissioni permanenti rispecchiano la proporzione dei gruppi: 14 alla Camera, 10 al Senato.",
+    "Sedi: referente, consultiva, deliberante, redigente, politica.",
+    "Le giunte sono permanenti e nominate dal Presidente; le commissioni d'inchiesta sono organi straordinari."
+   ],
+   "memoria": [
     {
-      "id": "u10-q001",
-      "tipo": "flashcard",
-      "lezione": "u10-l1",
-      "livello": "base",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "regioni"
-      ],
-      "domanda": "Quali sono le tre categorie principali di competenza legislativa dell’art. 117?",
-      "risposta": "Esclusiva statale; concorrente con principi fondamentali statali; residuale regionale per le materie non riservate."
+     "voce": "20 (14 dalla XX leg.) / 6",
+     "dettaglio": "deputati e senatori per formare un gruppo"
     },
     {
-      "id": "u10-q002",
-      "tipo": "flashcard",
-      "lezione": "u10-l1",
-      "livello": "base",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "sussidiarieta"
-      ],
-      "domanda": "La titolarità legislativa determina sempre chi amministra?",
-      "risposta": "No. L’art. 118 alloca le funzioni amministrative secondo sussidiarietà, differenziazione e adeguatezza, partendo dai Comuni salvo esigenze unitarie."
+     "voce": "10 o 3 deputati",
+     "dettaglio": "componenti politiche del gruppo misto alla Camera"
     },
     {
-      "id": "u10-q003",
-      "tipo": "flashcard",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "autonomia-differenziata"
-      ],
-      "domanda": "Che cosa richiede l’art. 116, terzo comma, per forme ulteriori di autonomia?",
-      "risposta": "Iniziativa regionale, consultazione degli enti locali, intesa e legge statale a maggioranza assoluta dei componenti, nel rispetto dell’art. 119."
+     "voce": "14 e 10",
+     "dettaglio": "commissioni permanenti di Camera e Senato"
     },
     {
-      "id": "u10-q004",
-      "tipo": "flashcard",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "armonizzazione-dei-bilanci"
-      ],
-      "domanda": "A quale competenza appartiene oggi l’armonizzazione dei bilanci pubblici?",
-      "risposta": "Alla competenza esclusiva dello Stato, distinta dal coordinamento della finanza pubblica che resta concorrente."
+     "voce": "Biennio",
+     "dettaglio": "durata delle commissioni prima del rinnovo"
     },
     {
-      "id": "u10-q005",
-      "tipo": "multipla",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "regioni"
-      ],
-      "domanda": "L’art. 114 elenca Comuni, Province, Città metropolitane, Regioni e Stato. Che cosa ne deriva?",
-      "opzioni": [
-        "Identici poteri legislativi per tutti",
-        "Autonomie costituzionali diverse entro l’unità repubblicana",
-        "Sovranità indipendente di ogni Comune",
-        "Abolizione delle competenze statali"
-      ],
-      "corretta": 1,
-      "spiegazione": "Il riconoscimento costituzionale non annulla le diverse attribuzioni."
+     "voce": "1997",
+     "dettaglio": "Comitato per la legislazione alla Camera"
     },
     {
-      "id": "u10-q006",
-      "tipo": "multipla",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "autonomia-differenziata"
-      ],
-      "domanda": "La Corte costituzionale consente di intendere l’autonomia differenziata come trasferimento indiscriminato di intere materie?",
-      "opzioni": [
-        "Sì, senza motivazione",
-        "No, occorre ragionare per specifiche funzioni e rispettare unità e diritti",
-        "Solo per accordo privato",
-        "Sì, basta un referendum regionale"
-      ],
-      "corretta": 1,
-      "spiegazione": "È un chiarimento centrale della sentenza n. 192/2024."
-    },
-    {
-      "id": "u10-q007",
-      "tipo": "verofalso",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "fondo-perequativo"
-      ],
-      "affermazione": "La perequazione serve a sostenere territori con minore capacità fiscale per abitante.",
-      "vero": true,
-      "spiegazione": "Riduce squilibri che potrebbero compromettere l’effettività delle funzioni e dei diritti."
-    },
-    {
-      "id": "u10-q008",
-      "tipo": "verofalso",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "regioni"
-      ],
-      "affermazione": "Una Regione può indebitarsi senza limiti per finanziare qualsiasi spesa corrente.",
-      "vero": false,
-      "spiegazione": "L’art. 119 ammette il debito solo per investimenti, con ulteriori condizioni e senza garanzia dello Stato."
-    },
-    {
-      "id": "u10-q009",
-      "tipo": "completa",
-      "lezione": "u10-l1",
-      "livello": "base",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "regioni",
-        "sussidiarieta",
-        "autonomia-differenziata",
-        "leale-collaborazione"
-      ],
-      "testo": "L’art. {{117}} riguarda il riparto legislativo, il {{118}} l’amministrazione e il {{119}} l’autonomia finanziaria.",
-      "spiegazione": "Le tre dimensioni vanno coordinate, non identificate."
-    },
-    {
-      "id": "u10-q010",
-      "tipo": "aperta",
-      "lezione": "u10-l1",
-      "livello": "avanzato",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "regioni",
-        "sussidiarieta",
-        "autonomia-differenziata",
-        "leale-collaborazione",
-        "sistema-delle-conferenze",
-        "armonizzazione-dei-bilanci",
-        "fondo-perequativo"
-      ],
-      "domanda": "Come si tengono insieme autonomia e uguaglianza dei diritti nei territori?",
-      "traccia": "L’autonomia permette alle comunità territoriali scelte proprie entro l’unità della Repubblica. L’art. 114 riconosce diversi livelli, ma non attribuisce identici poteri. L’art. 117 distribuisce la legislazione e riserva allo Stato competenze che possono attraversare i settori regionali, fra cui i livelli essenziali delle prestazioni. L’art. 118 richiede di allocare l’amministrazione al livello adeguato con sussidiarietà e collaborazione. La finanza dell’art. 119 accompagna le funzioni attraverso risorse proprie, compartecipazioni e perequazione per i territori meno forti fiscalmente, entro equilibrio e limiti al debito. Anche la differenziazione dell’art. 116 deve essere giustificata per specifiche funzioni e non compromettere unità, solidarietà ed eguaglianza, come ha chiarito la Corte nel 2024. Il sistema non sceglie quindi tra autonomia e diritti: richiede che il decentramento produca una gestione adeguata senza rendere il territorio causa di esclusione dalle garanzie comuni.",
-      "punti": [
-        {
-          "testo": "Autonomie differenziate",
-          "chiavi": [
-            "114",
-            "unità"
-          ]
-        },
-        {
-          "testo": "Competenze e diritti",
-          "chiavi": [
-            "117",
-            "livelli essenziali"
-          ]
-        },
-        {
-          "testo": "Amministrazione adeguata",
-          "chiavi": [
-            "118",
-            "sussidiarietà"
-          ]
-        },
-        {
-          "testo": "Risorse e solidarietà",
-          "chiavi": [
-            "119",
-            "perequazione"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u10-q011",
-      "tipo": "flashcard",
-      "lezione": "u10-l2",
-      "livello": "base",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "consiglio-regionale",
-        "giunta-regionale",
-        "presidente-della-giunta"
-      ],
-      "domanda": "Quali sono gli organi principali della Regione ai sensi dell’art. 121?",
-      "risposta": "Consiglio regionale, Giunta e Presidente della Giunta, con rispettive funzioni legislative, esecutive e di direzione/rappresentanza."
-    },
-    {
-      "id": "u10-q012",
-      "tipo": "flashcard",
-      "lezione": "u10-l2",
-      "livello": "base",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "simul-stabunt-simul-cadent"
-      ],
-      "domanda": "Come si vota la sfiducia al Presidente regionale?",
-      "risposta": "Mozione motivata di almeno un quinto dei consiglieri; discussione non prima di tre giorni e voto per appello nominale a maggioranza assoluta dei componenti."
-    },
-    {
-      "id": "u10-q013",
-      "tipo": "flashcard",
-      "lezione": "u10-l2",
-      "livello": "medio",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "voto-disgiunto"
-      ],
-      "domanda": "Che cosa permette il voto disgiunto nel regime comunale maggiore?",
-      "risposta": "Scegliere un candidato sindaco e una lista non collegata a lui; i due consensi restano distinti."
-    },
-    {
-      "id": "u10-q014",
-      "tipo": "flashcard",
-      "lezione": "u10-l2",
-      "livello": "medio",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "enti-locali"
-      ],
-      "domanda": "Come vengono eletti generalmente Presidente e Consiglio delle Province ordinarie dopo la legge n. 56/2014?",
-      "risposta": "Con elezioni di secondo grado fra sindaci e consiglieri comunali secondo i requisiti legali, non mediante la generale elezione popolare diretta descritta negli appunti."
-    },
-    {
-      "id": "u10-q015",
-      "tipo": "multipla",
-      "lezione": "u10-l2",
-      "livello": "medio",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "simul-stabunt-simul-cadent"
-      ],
-      "domanda": "Il Presidente regionale eletto direttamente riceve una sfiducia approvata regolarmente. Il Consiglio resta in carica per scegliere un altro Presidente?",
-      "opzioni": [
-        "Sì, sempre",
-        "No: dimissioni della Giunta e scioglimento del Consiglio",
-        "Sì, se lo vuole un assessore",
-        "Il Presidente diventa senatore"
-      ],
-      "corretta": 1,
-      "spiegazione": "Il modello diretto applica il collegamento dell’art. 126."
-    },
-    {
-      "id": "u10-q016",
-      "tipo": "multipla",
-      "lezione": "u10-l2",
-      "livello": "medio",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "sindaco",
-        "voto-disgiunto"
-      ],
-      "domanda": "Nel regime comunale maggiore un elettore vota soltanto il sindaco. Il voto vale automaticamente anche per una sua lista?",
-      "opzioni": [
-        "Sì, per quella più grande",
-        "No, resta voto al candidato sindaco",
-        "Sì, per tutte insieme",
-        "È sempre nullo"
-      ],
-      "corretta": 1,
-      "spiegazione": "Il voto al solo candidato è distinto da quello alle liste."
-    },
-    {
-      "id": "u10-q017",
-      "tipo": "verofalso",
-      "lezione": "u10-l2",
-      "livello": "medio",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "regioni"
-      ],
-      "affermazione": "La vecchia legge elettorale transitoria regionale del 1995–1999 è l’unica disciplina attuale di tutte le Regioni.",
-      "vero": false,
-      "spiegazione": "Statuti e leggi regionali hanno sviluppato il modello entro i limiti costituzionali e i principi statali."
-    },
-    {
-      "id": "u10-q018",
-      "tipo": "verofalso",
-      "lezione": "u10-l2",
-      "livello": "medio",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "sindaco"
-      ],
-      "affermazione": "Il limite generale di due mandati consecutivi vale oggi indistintamente per ogni sindaco.",
-      "vero": false,
-      "spiegazione": "Nel regime generale varia con la popolazione comunale."
-    },
-    {
-      "id": "u10-q019",
-      "tipo": "completa",
-      "lezione": "u10-l2",
-      "livello": "base",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "simul-stabunt-simul-cadent"
-      ],
-      "testo": "La mozione di sfiducia regionale richiede almeno {{un quinto|1/5}} delle firme e la maggioranza {{assoluta}} dei componenti per essere approvata.",
-      "spiegazione": "Le firme non coincidono con la maggioranza deliberativa."
-    },
-    {
-      "id": "u10-q020",
-      "tipo": "aperta",
-      "lezione": "u10-l2",
-      "livello": "avanzato",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "presidente-della-giunta",
-        "consiglio-regionale",
-        "giunta-regionale",
-        "simul-stabunt-simul-cadent",
-        "enti-locali",
-        "sindaco",
-        "voto-disgiunto"
-      ],
-      "domanda": "Perché il modello regionale con elezione diretta è diverso dal parlamentarismo nazionale?",
-      "traccia": "Nel sistema nazionale il Governo deve ottenere la fiducia di entrambe le Camere e la crisi non comporta automaticamente scioglimento: si può cercare una nuova maggioranza. Nel modello regionale con Presidente eletto direttamente, invece, il vertice esecutivo ha una legittimazione popolare propria ed è collegato alla durata del Consiglio. L’art. 126 consente la sfiducia con mozione motivata firmata da un quinto, discussa dopo almeno tre giorni e approvata per appello nominale a maggioranza assoluta. Se passa, si dimette la Giunta e si scioglie il Consiglio. Analoghi effetti seguono le altre cessazioni previste del Presidente diretto. Questo collegamento, detto simul stabunt, simul cadent, favorisce stabilità ma non elimina la responsabilità politica. Lo statuto può scegliere una diversa modalità di elezione nei limiti costituzionali: non si può però mantenere il modello diretto cancellandone liberamente le conseguenze previste.",
-      "punti": [
-        {
-          "testo": "Confronto nazionale",
-          "chiavi": [
-            "fiducia",
-            "nuova maggioranza"
-          ]
-        },
-        {
-          "testo": "Legittimazione diretta",
-          "chiavi": [
-            "elezione",
-            "diretta"
-          ]
-        },
-        {
-          "testo": "Procedura di sfiducia",
-          "chiavi": [
-            "quinto",
-            "tre",
-            "assoluta"
-          ]
-        },
-        {
-          "testo": "Collegamento e statuto",
-          "chiavi": [
-            "scioglimento",
-            "statuto"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u10-q021",
-      "tipo": "ordina",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "regioni",
-        "sussidiarieta",
-        "autonomia-differenziata",
-        "leale-collaborazione"
-      ],
-      "consegna": "Ordina i passaggi essenziali della differenziazione costituzionale.",
-      "elementi": [
-        "Iniziativa della Regione interessata e coinvolgimento degli enti locali",
-        "Definizione dell’intesa tra Stato e Regione",
-        "Approvazione della legge statale a maggioranza assoluta dei componenti delle Camere"
-      ],
-      "spiegazione": "Il procedimento opera nei settori e nei limiti costituzionali, non sulla sola decisione della Regione."
-    },
-    {
-      "id": "u10-q022",
-      "tipo": "abbina",
-      "lezione": "u10-l2",
-      "livello": "base",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "presidente-della-giunta",
-        "consiglio-regionale",
-        "giunta-regionale",
-        "simul-stabunt-simul-cadent"
-      ],
-      "consegna": "Abbina il livello o l’organo alla caratteristica.",
-      "coppie": [
-        [
-          "Consiglio regionale",
-          "Potestà legislativa regionale"
-        ],
-        [
-          "Giunta regionale",
-          "Organo esecutivo"
-        ],
-        [
-          "Presidente regionale diretto",
-          "Nomina e revoca gli assessori"
-        ],
-        [
-          "Provincia ordinaria nel regime generale",
-          "Organi eletti di secondo grado"
-        ]
-      ]
-    },
-    {
-      "id": "u10-q023",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "potesta-legislativa-concorrente",
-        "regioni"
-      ],
-      "tipo": "multipla",
-      "domanda": "La «tutela della salute» è materia di legislazione concorrente. Come si ripartisce la competenza?",
-      "opzioni": [
-        "Lo Stato fissa i principi fondamentali, la Regione detta la disciplina di dettaglio",
-        "Legifera solo lo Stato",
-        "Legifera solo la Regione",
-        "Decide caso per caso la Conferenza Stato-Regioni"
-      ],
-      "corretta": 0,
-      "spiegazione": "Art. 117, terzo comma: nelle materie concorrenti la potestà legislativa spetta alle Regioni, salvo la determinazione dei principi fondamentali riservata allo Stato."
-    },
-    {
-      "id": "u10-q024",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "competenza-residuale-regionale"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Dopo la riforma del 2001 le materie non elencate nell'art. 117 spettano allo Stato.",
-      "vero": false,
-      "spiegazione": "Spettano alle Regioni: è la competenza residuale del quarto comma. Prima del 2001 valeva il criterio opposto."
-    },
-    {
-      "id": "u10-q025",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "leale-collaborazione",
-        "sistema-delle-conferenze"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Che cos'è il principio di leale collaborazione e dove si realizza?",
-      "risposta": "È il dovere di Stato, Regioni ed enti locali di coordinarsi lealmente quando le loro competenze si intrecciano, con intese, pareri e accordi. La sede principale è il sistema delle Conferenze: Stato-Regioni, Stato-città e Unificata."
-    },
-    {
-      "id": "u10-q026",
-      "lezione": "u10-l2",
-      "livello": "avanzato",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "simul-stabunt-simul-cadent",
-        "presidente-della-giunta"
-      ],
-      "tipo": "multipla",
-      "domanda": "Il Consiglio regionale approva la sfiducia contro il Presidente della Giunta eletto direttamente dai cittadini. Che cosa accade?",
-      "opzioni": [
-        "Il Consiglio elegge un nuovo Presidente",
-        "Si dimette la Giunta e si scioglie il Consiglio",
-        "Il Presidente resta in carica fino a fine legislatura",
-        "Decide il Governo nazionale"
-      ],
-      "corretta": 1,
-      "spiegazione": "È la regola «simul stabunt, simul cadent» dell'art. 126: Presidente e Consiglio, eletti insieme, cadono insieme. Lo stesso accade per dimissioni, morte o impedimento permanente del Presidente."
-    },
-    {
-      "id": "u10-q027",
-      "lezione": "u10-l2",
-      "livello": "medio",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "presidente-della-giunta"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Il Presidente della Giunta regionale è sempre eletto dal Consiglio regionale.",
-      "vero": false,
-      "spiegazione": "È eletto a suffragio universale e diretto, salvo che lo statuto regionale disponga diversamente (art. 122, ultimo comma)."
-    },
-    {
-      "id": "u10-q028",
-      "lezione": "u10-l2",
-      "livello": "base",
-      "pagine": [
-        92,
-        95
-      ],
-      "concetti": [
-        "voto-disgiunto"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Che cos'è il voto disgiunto?",
-      "risposta": "È la possibilità di votare un candidato alla carica di vertice (sindaco o presidente) e, sulla stessa scheda, una lista che non è collegata a lui."
-    },
-    {
-      "id": "u10-q029",
-      "lezione": "u10-l1",
-      "livello": "avanzato",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "regioni",
-        "potesta-legislativa-concorrente",
-        "competenza-residuale-regionale",
-        "sussidiarieta"
-      ],
-      "tipo": "aperta",
-      "domanda": "Come ripartisce la Costituzione la potestà legislativa e le funzioni amministrative tra Stato e Regioni?",
-      "traccia": "Dopo la riforma del **2001** l'**art. 117** mette sullo stesso piano legge statale e legge regionale: entrambe rispettano la Costituzione, l'ordinamento dell'Unione europea e gli obblighi internazionali. Le competenze sono divise per **materie**.\n\n**Esclusiva dello Stato** (secondo comma): politica estera, immigrazione, difesa, moneta, ordine pubblico, giurisdizione, ordinamento civile e penale, **livelli essenziali delle prestazioni**, ambiente. Alcune sono materie **trasversali**, che tagliano le competenze regionali.\n\n**Concorrente** (terzo comma): lo Stato fissa i **principi fondamentali**, la Regione la disciplina di **dettaglio**. Esempi: tutela della salute, istruzione, governo del territorio.\n\n**Residuale delle Regioni** (quarto comma): tutto ciò che non è elencato.\n\nLe **funzioni amministrative** (art. 118) spettano in via generale ai **Comuni**, salvo che per assicurarne l'esercizio unitario salgano a livelli superiori, secondo **sussidiarietà, differenziazione e adeguatezza**. La Corte (sent. 303/2003) ha ammesso che lo Stato, attraendo una funzione amministrativa, ne attragga anche la disciplina legislativa, purché ci sia un'**intesa** con la Regione: è la **chiamata in sussidiarietà**. I conflitti si compongono con la **leale collaborazione**.",
-      "punti": [
-        {
-          "testo": "Tre tipi di potestà: esclusiva statale, concorrente, residuale",
-          "chiavi": [
-            "esclusiv",
-            "concorrent",
-            "residual"
-          ]
-        },
-        {
-          "testo": "Nella concorrente lo Stato fissa i principi fondamentali",
-          "chiavi": [
-            "principi fondamentali",
-            "dettaglio"
-          ]
-        },
-        {
-          "testo": "Materie trasversali e livelli essenziali",
-          "chiavi": [
-            "trasversal",
-            "livelli essenziali"
-          ]
-        },
-        {
-          "testo": "Funzioni amministrative ai Comuni secondo sussidiarietà",
-          "chiavi": [
-            "comuni",
-            "sussidiariet",
-            "118"
-          ]
-        },
-        {
-          "testo": "Leale collaborazione e intese",
-          "chiavi": [
-            "leale",
-            "intes"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u10-q030",
-      "lezione": "u10-l1",
-      "livello": "avanzato",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "principio-autonomista",
-        "regioni",
-        "sussidiarieta"
-      ],
-      "tipo": "aperta",
-      "domanda": "Commenti l'art. 5 della Costituzione.",
-      "traccia": "L'art. 5 tiene insieme due valori. Da un lato la Repubblica è «**una e indivisibile**»: è un limite assoluto, che esclude la secessione e si considera sottratto anche alla revisione. Dall'altro la Repubblica «**riconosce e promuove le autonomie locali**»: come per i diritti dell'art. 2, il verbo «riconosce» indica che le comunità territoriali preesistono allo Stato.\n\nL'articolo contiene poi due direttive. Il **decentramento amministrativo** «più ampio» nei servizi che dipendono dallo Stato: gli uffici statali vanno avvicinati ai cittadini. E l'adeguamento dei principi e dei metodi della legislazione alle esigenze dell'**autonomia** e del decentramento.\n\nL'**autonomia** è cosa diversa dal decentramento: significa che enti rappresentativi della propria comunità hanno un **indirizzo politico** proprio, non che eseguono compiti dello Stato in periferia.\n\nIl principio è svolto dal **Titolo V**, riscritto nel 2001: art. 114 (la Repubblica è costituita da Comuni, Province, Città metropolitane, Regioni e Stato), art. 117 (riparto della legislazione), art. 118 (sussidiarietà). L'unità è garantita dai poteri sostitutivi, dai livelli essenziali delle prestazioni e dalla leale collaborazione.",
-      "punti": [
-        {
-          "testo": "Unità e indivisibilità come limite",
-          "chiavi": [
-            "una e indivisibile",
-            "indivisibil"
-          ]
-        },
-        {
-          "testo": "Riconosce e promuove le autonomie locali",
-          "chiavi": [
-            "autonomi",
-            "riconosc"
-          ]
-        },
-        {
-          "testo": "Decentramento amministrativo",
-          "chiavi": [
-            "decentrament"
-          ]
-        },
-        {
-          "testo": "Autonomia come indirizzo politico proprio, diversa dal decentramento",
-          "chiavi": [
-            "indirizzo"
-          ]
-        },
-        {
-          "testo": "Attuazione nel Titolo V",
-          "chiavi": [
-            "titolo v",
-            "114",
-            "117"
-          ]
-        }
-      ],
-      "serie": "principi"
-    },
-    {
-      "id": "u10-q031",
-      "lezione": "u10-l1",
-      "livello": "avanzato",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "regioni",
-        "sussidiarieta",
-        "leale-collaborazione",
-        "autonomia-differenziata"
-      ],
-      "tipo": "aperta",
-      "domanda": "Come ha cambiato i rapporti tra Stato e Regioni la riforma del Titolo V?",
-      "traccia": "La riforma è stata fatta in due tempi: la **legge costituzionale 1/1999** (elezione diretta del Presidente della Regione e autonomia statutaria) e la **legge costituzionale 3/2001**, confermata dal referendum del 7 ottobre 2001, che ha riscritto il Titolo V.\n\n**Art. 114**: la Repubblica «è costituita» da Comuni, Province, Città metropolitane, Regioni e Stato: enti autonomi con propri statuti, poteri e funzioni.\n\n**Art. 117**: Stato e Regioni legiferano entrambi nel rispetto della Costituzione, dei vincoli dell'ordinamento europeo e degli obblighi internazionali. L'elenco delle materie è rovesciato: sono enumerate le materie **esclusive dello Stato** e quelle **concorrenti** (allo Stato i soli principi fondamentali); tutto il resto è competenza **residuale delle Regioni**.\n\n**Art. 118**: le funzioni amministrative spettano in via generale ai **Comuni**, salvo che esigenze unitarie le portino più in alto, secondo **sussidiarietà, differenziazione e adeguatezza**.\n\n**Art. 119**: autonomia finanziaria di entrata e di spesa, con un fondo perequativo per i territori con minore capacità fiscale.\n\n**Controlli**: scompaiono il visto preventivo del Commissario del Governo sulle leggi regionali e i controlli sugli atti amministrativi; il Governo può solo **impugnare** la legge regionale davanti alla Corte entro sessanta giorni dalla pubblicazione (art. 127). Restano il **potere sostitutivo** dell'art. 120 e l'obbligo di **leale collaborazione**, che si realizza nel sistema delle Conferenze. L'art. 116, terzo comma, consente forme di **autonomia differenziata**.",
-      "punti": [
-        {
-          "testo": "Leggi costituzionali 1/1999 e 3/2001",
-          "chiavi": [
-            "1999",
-            "2001"
-          ]
-        },
-        {
-          "testo": "Art. 114: la Repubblica è costituita da Comuni, Province, Città metropolitane, Regioni e Stato",
-          "chiavi": [
-            "114",
-            "costituita"
-          ]
-        },
-        {
-          "testo": "Art. 117: competenza esclusiva statale, concorrente e residuale regionale",
-          "chiavi": [
-            "esclusiv",
-            "concorrent",
-            "residual"
-          ]
-        },
-        {
-          "testo": "Art. 118: funzioni amministrative ai Comuni e sussidiarietà",
-          "chiavi": [
-            "118",
-            "sussidiariet",
-            "comuni"
-          ]
-        },
-        {
-          "testo": "Controllo solo successivo: impugnazione entro sessanta giorni (art. 127)",
-          "chiavi": [
-            "127",
-            "sessanta",
-            "impugn"
-          ]
-        },
-        {
-          "testo": "Potere sostitutivo e leale collaborazione",
-          "chiavi": [
-            "sostitutiv",
-            "leale collaborazione"
-          ]
-        }
-      ],
-      "esame": [
-        "torre"
-      ]
-    },
-    {
-      "id": "u10-q032",
-      "lezione": "u10-l1",
-      "livello": "medio",
-      "pagine": [
-        88,
-        91
-      ],
-      "concetti": [
-        "sussidiarieta",
-        "terzo-settore",
-        "sussidiarieta-ue"
-      ],
-      "tipo": "aperta",
-      "domanda": "Illustri il principio di sussidiarietà nelle sue diverse applicazioni.",
-      "traccia": "La sussidiarietà è un criterio di **distribuzione dei compiti**: decide e agisce il livello più vicino ai cittadini; il livello superiore interviene solo quando quello inferiore non è in grado di provvedere in modo adeguato.\n\n**Sussidiarietà verticale** (art. 118, primo comma): le funzioni amministrative sono attribuite ai **Comuni**, salvo che, per assicurarne l'esercizio unitario, siano conferite a Province, Città metropolitane, Regioni e Stato, sulla base dei principi di sussidiarietà, **differenziazione** e **adeguatezza**. Il principio era già nella legge 59/1997 ed è entrato in Costituzione con la riforma del 2001. La Corte costituzionale ne ha ricavato anche un criterio dinamico: quando lo Stato attrae una funzione amministrativa per esigenze unitarie può disciplinarla con legge, purché d'intesa con le Regioni («chiamata in sussidiarietà», sent. 303/2003).\n\n**Sussidiarietà orizzontale** (art. 118, quarto comma): Stato, Regioni ed enti locali favoriscono l'**autonoma iniziativa dei cittadini**, singoli e associati, per attività di interesse generale. È il fondamento costituzionale del terzo settore.\n\nIl principio guida anche il **potere sostitutivo** del Governo (art. 120), da esercitare nel rispetto della sussidiarietà e della leale collaborazione.\n\nNell'**Unione europea** (art. 5 TUE), nelle materie che non sono di sua competenza esclusiva, l'Unione interviene solo se gli obiettivi non possono essere raggiunti in misura sufficiente dagli Stati membri; i Parlamenti nazionali vigilano sul rispetto del principio.",
-      "punti": [
-        {
-          "testo": "Criterio: agisce il livello più vicino ai cittadini, il superiore solo se necessario",
-          "chiavi": [
-            "vicin",
-            "superior"
-          ]
-        },
-        {
-          "testo": "Verticale: art. 118, funzioni amministrative ai Comuni",
-          "chiavi": [
-            "vertical",
-            "118",
-            "comuni"
-          ]
-        },
-        {
-          "testo": "Differenziazione e adeguatezza",
-          "chiavi": [
-            "differenziazion",
-            "adeguatezz"
-          ]
-        },
-        {
-          "testo": "Orizzontale: autonoma iniziativa dei cittadini singoli e associati",
-          "chiavi": [
-            "orizzontal",
-            "iniziativa",
-            "cittadini"
-          ]
-        },
-        {
-          "testo": "Sussidiarietà europea: art. 5 TUE, competenze non esclusive",
-          "chiavi": [
-            "union",
-            "europe",
-            "esclusiv"
-          ]
-        }
-      ],
-      "esame": [
-        "torre"
-      ]
+     "voce": "Art. 82",
+     "dettaglio": "commissioni d'inchiesta"
     }
+   ],
+   "concetti": [
+    "gruppi-parlamentari",
+    "conferenza-dei-capigruppo",
+    "commissioni-parlamentari",
+    "giunte-parlamentari",
+    "commissione-referente",
+    "commissione-deliberante",
+    "legislatura",
+    "inchieste-parlamentari",
+    "indagine-conoscitiva",
+    "divieto-di-mandato-imperativo"
+   ]
+  },
+  {
+   "id": "u10-l3",
+   "titolo": "Organi bicamerali, legislatura, prorogatio e convocazione",
+   "pagine": [
+    84,
+    86
+   ],
+   "minuti": 30,
+   "sintesi": "### Gli organi bicamerali\nAccanto agli organi di una sola [[camera-dei-deputati|Camera]] esistono [[commissioni-bicamerali|organi bicamerali]], composti **pariteticamente** da deputati e senatori. La [[costituzione-italiana|Costituzione]] ne prevede uno solo, la Commissione per le questioni regionali (art. 126), ma non vieta di istituirne altri; l'art. 26 del regolamento del [[senato|Senato]] li contempla e alla Camera sono ammessi per consuetudine. Se ne è discussa la legittimità per il loro «distacco» dalle [[parlamento|Camere]] e la posizione di terzietà, difficile da conciliare con il bicameralismo: per il manuale i dubbi riguardano piuttosto i modi di formazione, le regole di funzionamento e l'opportunità. In un sistema bicamerale perfetto la regola è che ogni Camera operi separatamente: l'operare in comune è una **deroga**.\n\n| Permanenti | Temporanei |\n|---|---|\n| Commissione per le questioni regionali; Commissione di indirizzo e vigilanza sui servizi radiotelevisivi; Comitato parlamentare per la sicurezza della Repubblica (oggi COPASIR) | [[commissioni-parlamentari|commissioni]] chiamate a dare pareri sui [[decreto-legislativo|decreti legislativi]] del [[governo|Governo]] |\n\n### La legislatura e la decadenza dei progetti\nLa [[legislatura|legislatura]] è il periodo che va dalla prima riunione delle Camere al loro scioglimento, **naturale** (dopo cinque anni) o **anticipato** (art. 88). La legislatura in corso è la XIX. Tre termini da non sommare: cinque anni di durata (art. 60), elezioni entro **settanta giorni** dalla fine delle Camere, prima riunione entro **venti giorni** dalle elezioni (art. 61); se intanto è adottato un [[decreto-legge|decreto-legge]], le Camere anche sciolte si riuniscono entro cinque giorni (art. 77). Con la fine della legislatura **decadono** i progetti di legge non approvati da entrambe le Camere. I regolamenti attenuano la regola: i progetti ripresentati entro sei mesi nell'identico testo già approvato da una Camera, o già esaminato in commissione, seguono una procedura abbreviata. Fa eccezione l'[[iniziativa-legislativa-popolare|iniziativa popolare]]: i suoi progetti non devono essere ripresentati.\n\n### Prorogatio e proroga\n| | [[prorogatio|Prorogatio]] (art. 61) | Proroga (art. 60) |\n|---|---|---|\n| Che cos'è | i poteri delle Camere scadute continuano finché non si riuniscono le nuove | prolungamento della durata della legislatura |\n| Quando | sempre, automaticamente | solo in caso di **guerra** |\n| Come | di diritto | con **legge** |\n\nIn regime di prorogatio le Camere si limitano all'ordinaria amministrazione costituzionale (controllo sul Governo, garanzia) e legiferano solo per atti **indifferibili e urgenti**: conversione dei [[decreto-legge|decreti-legge]], legge di bilancio, deliberazione dello stato di guerra, riesame delle leggi rinviate. La prorogatio non allunga la vecchia legislatura: assicura la continuità con poteri adeguati a un mandato ormai esaurito.\n\nSull'ultimo punto il manuale ragiona così. Il riesame di una legge rinviata può non essere urgente, ma è **indifferibile**: l'art. 74 chiede una *nuova* deliberazione alle Camere che hanno approvato la legge; se decidessero le Camere neoelette sarebbe una prima lettura, non un riesame. Vietare il riesame in prorogatio significherebbe dare al [[presidente-della-repubblica|Presidente della Repubblica]] un **veto sostanziale**, perché la legge decadrebbe con lo scioglimento. Il caso è quello della legge sull'obiezione di coscienza, rinviata da Cossiga nel febbraio 1992 a Camere sciolte: benché la Corte (sent. n. 468/1991) avesse riconosciuto alle assemblee in scadenza la piena disponibilità degli atti indifferibili e necessari, la riforma fu approvata solo nel 1998.\n\n### La convocazione\nLe Camere si riuniscono **di diritto**:\n\n- entro 20 giorni dalle elezioni (art. 61), nella data fissata dal decreto che le indice;\n- il primo giorno non festivo di febbraio e di ottobre (art. 62).\n\nCiascuna può essere convocata **in via straordinaria** dal suo Presidente, dal Presidente della Repubblica o da un terzo dei componenti; quando si riunisce una Camera è convocata di diritto anche l'altra, per consentire lavori contemporanei.\n\n### La fine: scadenza e scioglimento anticipato\nLe Camere cessano per fine del mandato o per [[scioglimento-anticipato|scioglimento anticipato]], disposto dal Presidente della Repubblica **sentiti i Presidenti delle Camere** (art. 88). Il potere **non** può essere esercitato negli ultimi sei mesi del mandato presidenziale ([[semestre-bianco|semestre bianco]]), salvo che coincidano in tutto o in parte con gli ultimi sei mesi della legislatura.",
+   "puntiChiave": [
+    "Gli organi bicamerali sono composti pariteticamente; la Costituzione prevede solo la Commissione per le questioni regionali.",
+    "La legislatura dura cinque anni; alla sua fine i progetti di legge decadono, tranne quelli di iniziativa popolare.",
+    "Prorogatio (art. 61): i poteri continuano fino alle nuove Camere; proroga (art. 60): solo in guerra e con legge.",
+    "In prorogatio si compiono solo atti indifferibili e urgenti, compreso il riesame delle leggi rinviate.",
+    "Convocazione di diritto: entro 20 giorni dalle elezioni e il primo giorno non festivo di febbraio e ottobre.",
+    "Scioglimento anticipato: Presidente della Repubblica, sentiti i Presidenti delle Camere; vietato nel semestre bianco."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 126",
+     "dettaglio": "Commissione bicamerale per le questioni regionali"
+    },
+    {
+     "voce": "Art. 60",
+     "dettaglio": "5 anni; proroga solo per legge e in caso di guerra"
+    },
+    {
+     "voce": "Art. 61",
+     "dettaglio": "elezioni entro 70 giorni, prima riunione entro 20, prorogatio"
+    },
+    {
+     "voce": "Art. 62",
+     "dettaglio": "riunione di diritto a febbraio e ottobre; convocazione straordinaria"
+    },
+    {
+     "voce": "Art. 88",
+     "dettaglio": "scioglimento anticipato e semestre bianco"
+    },
+    {
+     "voce": "Febbraio 1992",
+     "dettaglio": "rinvio di Cossiga della legge sull'obiezione di coscienza a Camere sciolte"
+    }
+   ],
+   "concetti": [
+    "commissioni-bicamerali",
+    "legislatura",
+    "prorogatio",
+    "scioglimento-anticipato",
+    "commissioni-parlamentari"
+   ]
+  },
+  {
+   "id": "u10-l4",
+   "titolo": "Sedute, numero legale, votazioni, interna corporis e ostruzionismo",
+   "pagine": [
+    86,
+    88
+   ],
+   "minuti": 30,
+   "sintesi": "### Pubblicità delle sedute\nLe sedute sono **pubbliche**, ma ciascuna [[camera-dei-deputati|Camera]] e il [[parlamento|Parlamento]] in seduta comune possono deliberare di riunirsi in seduta segreta (art. 64). La pubblicità si attua con le tribune per il pubblico, la stampa, la trasmissione televisiva e la pubblicazione degli atti e dei resoconti stenografici.\n\n### Numero legale e maggioranze\n| Regola | Contenuto | Fonte |\n|---|---|---|\n| [[quorum-strutturale|Numero legale]] | presenza della maggioranza dei componenti | art. 64 |\n| [[quorum-deliberativo|Maggioranza per deliberare]] | [[principio-di-maggioranza|maggioranza]] dei presenti (semplice), salvo che la [[costituzione-italiana|Costituzione]] chieda quella assoluta (metà più uno dei componenti) o qualificata (2/3, 3/5) | art. 64 |\n\nI regolamenti attenuano la prima regola: il numero legale è **presunto**, salvo che ne chieda la verifica un certo numero di parlamentari (20 deputati; al [[senato|Senato]] 12 nel testo seguito dal manuale). Sono due verifiche distinte: il [[quorum-strutturale|quorum strutturale]] riguarda la presenza, il [[quorum-funzionale|quorum funzionale]] (o deliberativo) i voti per approvare.\n\n**Gli astenuti.** Alla Camera (art. 48 reg.) si considerano presenti solo i deputati che votano a favore o contro: l'astenuto non conta. Al Senato l'astenuto era invece computato tra i presenti, sicché l'astensione equivaleva a un voto contrario; dal 2017 anche il Senato segue la regola della Camera. Se però è richiesta la maggioranza dei **componenti**, le astensioni non riducono i voti favorevoli necessari. Per il manuale la regola della Camera contrasta con l'art. 64, che parla di maggioranza dei *presenti*: è un caso di norma regolamentare illegittima che non può essere annullata, perché la Corte (sent. n. 78/1984) ha riconosciuto l'autonomia delle Camere sulle proprie procedure. Per la stessa ragione i cosiddetti «pianisti», che votano anche per i colleghi assenti, sono perseguibili solo all'interno della Camera.\n\n### Le votazioni\nLe [[votazioni-parlamentari|votazioni]] sono palesi o segrete.\n\n| Palesi | Segrete |\n|---|---|\n| alzata di mano; divisione (favorevoli da una parte, contrari dall'altra); procedimento elettronico con registrazione dei nomi; **appello nominale** | per **schede** (elezione di persone: [[presidente-della-repubblica|Presidente della Repubblica]], giudici costituzionali); a **scrutinio segreto** (un tempo con le palline, oggi con dispositivo elettronico) |\n\nL'appello nominale è obbligatorio per accordare o revocare la [[rapporto-di-fiducia|fiducia]] (art. 94) e, alla Camera, per la questione di fiducia. Il voto segreto garantisce la libertà del votante, ma consente di sottrarsi alla disciplina di partito; il voto palese è elemento di chiarezza e di moralizzazione. Oggi il voto palese è la regola e lo scrutinio segreto è ammesso solo nei casi previsti dai regolamenti. Pubblicità delle sedute significa conoscibilità dei lavori, non assenza di segreti legittimi.\n\n### Ordine del giorno e programmazione\nLe Camere non possono deliberare su materie che non siano all'**ordine del giorno**, reso noto con almeno un giorno di anticipo: regola democratica contro le decisioni di sorpresa. I lavori seguono il metodo della [[programmazione-dei-lavori|programmazione]] (programma e calendario), predisposti dalla Conferenza dei presidenti di gruppo. I regolamenti del 1971 chiedevano l'**unanimità**, per coinvolgere le [[tutela-delle-minoranze|minoranze]]: ma l'accordo era raro e il metodo non funzionò. Nel 1997 la Camera ha sostituito l'unanimità con i **tre quarti**; se manca, decide il Presidente, tenendo conto delle indicazioni del [[governo|Governo]] e riservando una quota alle proposte delle minoranze. Al Senato il Presidente predispone uno schema di lavori sulla base di quanto emerso in Conferenza.\n\n### Gli interna corporis\nGli [[interna-corporis|*interna corporis*]] sono gli atti e le attività compiuti all'interno delle Camere: per la speciale indipendenza delle assemblee non sono sindacabili (modo di calcolo della maggioranza, esito delle votazioni). La Corte ha però affermato la propria competenza quando si tratta di accertare il rispetto delle **norme costituzionali sul procedimento legislativo**: può verificare che il testo trasmesso da una Camera all'altra corrisponda a quello approvato (sent. n. 9/1959). L'autonomia copre i comportamenti dei parlamentari riconducibili a fattispecie disciplinate dai regolamenti (sent. n. 379/1996).\n\n### L'ostruzionismo\nL'[[ostruzionismo|ostruzionismo]] è l'uso esasperato degli strumenti procedurali per ritardare o impedire la formazione della volontà della Camera.\n\n- **Tecnico**: valanghe di emendamenti, richieste di verifica del numero legale, discorsi interminabili, abbandono dell'aula. È lecito entro certi limiti.\n- **Fisico**: fa ricorso alla violenza ed è illecito.\n\nI rimedi sono il **contingentamento** dei tempi, la votazione riassuntiva o per principi degli emendamenti, la [[questione-di-fiducia|questione di fiducia]], che fa decadere gli emendamenti. Rientra nelle regole del gioco democratico? Per il manuale è legittimo quando è l'ultima difesa contro misure liberticide (una sorta di «diritto di resistenza»), non quando persegue fini di parte. Esiste anche un ostruzionismo **di maggioranza**, denunciato da Calamandrei nel 1953: la deliberata volontà della maggioranza di non attuare la Costituzione.",
+   "puntiChiave": [
+    "Sedute pubbliche, salvo deliberazione di seduta segreta (art. 64).",
+    "Numero legale: maggioranza dei componenti; è presunto finché non se ne chiede la verifica.",
+    "Si delibera a maggioranza dei presenti, salvo maggioranze speciali; gli astenuti non contano tra i votanti.",
+    "Votazioni palesi e segrete; l'appello nominale è obbligatorio per la fiducia.",
+    "Gli interna corporis non sono sindacabili, salvo il rispetto delle norme costituzionali sul procedimento legislativo (sent. n. 9/1959).",
+    "Ostruzionismo tecnico lecito entro certi limiti, fisico illecito; rimedi: contingentamento e questione di fiducia.",
+    "Ostruzionismo di maggioranza: la mancata attuazione della Costituzione (Calamandrei, 1953)."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 64",
+     "dettaglio": "pubblicità delle sedute, numero legale, maggioranza dei presenti"
+    },
+    {
+     "voce": "Sent. 78/1984",
+     "dettaglio": "autonomia delle Camere sulle proprie procedure"
+    },
+    {
+     "voce": "Sent. 9/1959",
+     "dettaglio": "la Corte controlla il rispetto delle norme costituzionali sul procedimento legislativo"
+    },
+    {
+     "voce": "3/4",
+     "dettaglio": "maggioranza per il programma dei lavori alla Camera dal 1997"
+    },
+    {
+     "voce": "Calamandrei, 1953",
+     "dettaglio": "denuncia dell'ostruzionismo di maggioranza"
+    },
+    {
+     "voce": "Art. 94",
+     "dettaglio": "appello nominale per fiducia e sfiducia"
+    }
+   ],
+   "concetti": [
+    "quorum-strutturale",
+    "quorum-deliberativo",
+    "votazioni-parlamentari",
+    "programmazione-dei-lavori",
+    "interna-corporis",
+    "ostruzionismo",
+    "conferenza-dei-capigruppo",
+    "principio-di-maggioranza",
+    "tutela-delle-minoranze",
+    "quorum-funzionale"
+   ]
+  }
+ ],
+ "concetti": [
+  {
+   "id": "regolamenti-parlamentari",
+   "nome": "Regolamenti parlamentari",
+   "tipo": "fonte",
+   "alias": [
+    "regolamento della Camera",
+    "regolamento del Senato"
+   ],
+   "breve": "Atti con cui ciascuna Camera disciplina la propria organizzazione e i propri lavori (art. 64).",
+   "definizione": "Sono il complesso di disposizioni che ciascuna Camera adotta a maggioranza assoluta dei componenti (art. 64), nell'esercizio del potere di autonormazione, per regolare lavori, organizzazione e rapporti con gli altri organi. Sono fonti del diritto separate, a competenza riservata: la legge non può invadere il loro campo ed essi sono subordinati solo alla Costituzione. Non essendo citati nell'art. 134, sfuggono al sindacato della Corte costituzionale. Quelli vigenti, del 1971, sono esecutivi e attuativi della Costituzione; accanto ai generali esistono regolamenti di settore. La maggioranza assoluta serve a coinvolgere anche le minoranze. La Corte costituzionale non li giudica nel controllo sulle leggi, ma ne può conoscere nei conflitti di attribuzione (sentenza n. 120/2014).",
+   "pagine": [
+    79,
+    80
+   ]
+  },
+  {
+   "id": "presidente-di-assemblea",
+   "nome": "Presidente d'Assemblea",
+   "tipo": "organo",
+   "alias": [
+    "Presidente della Camera",
+    "Presidente del Senato"
+   ],
+   "breve": "Organo super partes che rappresenta la Camera, ne dirige i lavori e applica il regolamento.",
+   "definizione": "Eletto da ciascuna Camera tra i suoi componenti (art. 63), rappresenta l'assemblea ed è organo imparziale: garante delle minoranze e del corretto svolgimento dei lavori, custode delle prerogative della Camera; per Manzella è «uomo della Costituzione». Dà e toglie la parola, dirige le discussioni, mantiene l'ordine, stabilisce l'ordine delle votazioni e ne proclama l'esito. Il Presidente del Senato ha poteri più incisivi (dispone l'assegnazione in sede deliberante, che alla Camera è solo proposta) e supplisce il Presidente della Repubblica; quello della Camera presiede la seduta comune.",
+   "pagine": [
+    80,
+    81
+   ]
+  },
+  {
+   "id": "ufficio-di-presidenza",
+   "nome": "Ufficio di presidenza",
+   "tipo": "organo",
+   "alias": [
+    "Consiglio di presidenza",
+    "questori"
+   ],
+   "breve": "Collegio di vicepresidenti, questori e segretari che affianca il Presidente di ciascuna Camera.",
+   "definizione": "Previsto dall'art. 63 ed eletto da ciascuna Camera, è composto dal Presidente, da quattro vicepresidenti, tre questori e dai segretari; al Senato si chiama Consiglio di presidenza. Delibera il progetto di bilancio e il rendiconto della Camera, nomina il Segretario generale su proposta del Presidente e irroga le sanzioni disciplinari più gravi. I vicepresidenti sostituiscono il Presidente, i segretari curano il processo verbale e lo scrutinio dei voti, i questori sovrintendono ai servizi, al cerimoniale e all'ordine. Quello della Camera presiede anche la seduta comune.",
+   "pagine": [
+    80,
+    81
+   ]
+  },
+  {
+   "id": "gruppi-parlamentari",
+   "nome": "Gruppi parlamentari",
+   "tipo": "gruppo",
+   "alias": [
+    "gruppo misto",
+    "gruppo parlamentare"
+   ],
+   "breve": "Organi interni delle Camere che riuniscono i parlamentari secondo l'appartenenza politica.",
+   "definizione": "Assicurano il collegamento tra le Camere e i partiti, di cui sono la proiezione senza coincidere con essi: restano entità distinte e i loro membri sono coperti dal divieto di mandato imperativo. Il manuale li qualifica associazioni necessarie di diritto pubblico, respingendo la tesi dell'associazione privata. Ogni parlamentare deve dichiarare il gruppo di appartenenza; chi non lo fa entra nel gruppo misto, dove alla Camera si formano componenti politiche. Occorrono 20 deputati (14 dalla XX legislatura) o 6 senatori. Designano i membri delle commissioni. La Costituzione li presuppone: commissioni legislative e d'inchiesta devono rispecchiarne la proporzione (artt. 72 e 82).",
+   "pagine": [
+    81,
+    82
+   ]
+  },
+  {
+   "id": "conferenza-dei-capigruppo",
+   "nome": "Conferenza dei presidenti di gruppo",
+   "tipo": "organo",
+   "alias": [
+    "Conferenza dei capigruppo"
+   ],
+   "breve": "Organo che riunisce i presidenti dei gruppi e delibera il programma dei lavori.",
+   "definizione": "È l'organo interno, presieduto dal Presidente della Camera, che riunisce i presidenti dei gruppi parlamentari. Ha assunto grande importanza perché predispone il programma e il calendario dei lavori dell'Assemblea. I regolamenti del 1971 chiedevano l'unanimità, per rendere le minoranze compartecipi; dal 1997 alla Camera bastano i tre quarti e, in mancanza, decide il Presidente tenendo conto delle indicazioni del Governo e riservando spazio alle minoranze. Alla Camera è convocata quando il Presidente lo ritiene utile, anche su richiesta del Governo o di un gruppo.",
+   "pagine": [
+    82,
+    87
+   ]
+  },
+  {
+   "id": "commissioni-parlamentari",
+   "nome": "Commissioni permanenti",
+   "tipo": "organo",
+   "alias": [
+    "commissioni permanenti",
+    "commissioni legislative"
+   ],
+   "breve": "Organi interni competenti per materia, composti in proporzione ai gruppi.",
+   "definizione": "Sono organi interni di ciascuna Camera, distinti per materia e composti in modo da rispecchiare la proporzione dei gruppi, così che ogni commissione riproduca in piccolo l'Assemblea. Sono 14 alla Camera e 10 al Senato e si rinnovano ogni biennio. Lavorano in sede referente (esame e relazione), consultiva (pareri), deliberante o legislativa (approvazione), redigente (formulazione degli articoli) e politica (indirizzo, controllo, informazione). In sede deliberante e politica sostituiscono l'Assemblea: di qui il rischio di una parcellizzazione delle decisioni. Esistono anche commissioni speciali o temporanee e commissioni bicamerali, come quella di vigilanza sulla RAI e il COPASIR.",
+   "pagine": [
+    82,
+    83
+   ]
+  },
+  {
+   "id": "giunte-parlamentari",
+   "nome": "Giunte parlamentari",
+   "tipo": "organo",
+   "alias": [
+    "giunta per il regolamento",
+    "giunta delle autorizzazioni"
+   ],
+   "breve": "Organi permanenti delle Camere nominati dal Presidente con compiti di garanzia interna.",
+   "definizione": "Si distinguono dalle commissioni permanenti perché i loro componenti non sono designati dai gruppi ma nominati dal Presidente, pur rispettando la proporzione dei gruppi, e perché non hanno competenze legislative per materia ma compiti tecnici e di garanzia. Alla Camera sono la giunta per il regolamento, la giunta delle elezioni e la giunta delle autorizzazioni richieste ai sensi dell'art. 68; al Senato la giunta per il regolamento e la giunta delle elezioni e delle immunità parlamentari. Sono organi permanenti, a differenza delle commissioni d'inchiesta.",
+   "pagine": [
+    83,
+    83
+   ]
+  },
+  {
+   "id": "commissioni-bicamerali",
+   "nome": "Organi bicamerali",
+   "tipo": "organo",
+   "alias": [
+    "commissioni bicamerali",
+    "Commissione per le questioni regionali"
+   ],
+   "breve": "Commissioni e comitati composti pariteticamente da deputati e senatori.",
+   "definizione": "Sono organi formati in numero uguale da deputati e senatori. La Costituzione prevede soltanto la Commissione per le questioni regionali (art. 126), ma altri sono istituiti per legge o in via di prassi: la Commissione di vigilanza sui servizi radiotelevisivi, il Comitato parlamentare per la sicurezza della Repubblica e, tra i temporanei, le commissioni che danno pareri sui decreti legislativi. Sono una deroga al bicameralismo perfetto, in cui ogni Camera opera separatamente; se ne discutono i modi di formazione e l'opportunità più che la legittimità.",
+   "pagine": [
+    84,
+    84
+   ]
+  },
+  {
+   "id": "legislatura",
+   "nome": "Legislatura",
+   "tipo": "periodo",
+   "alias": [
+    "decadenza dei progetti di legge"
+   ],
+   "breve": "Periodo che va dalla prima riunione delle Camere al loro scioglimento: di regola cinque anni.",
+   "definizione": "È il periodo di durata in carica delle Camere, dalla prima riunione allo scioglimento naturale, dopo cinque anni (art. 60), o anticipato (art. 88). Con la sua fine decadono i progetti di legge non ancora approvati da entrambe le Camere, salvo quelli di iniziativa popolare; i regolamenti prevedono una procedura abbreviata per i progetti ripresentati entro sei mesi nell'identico testo. La durata può essere prorogata solo con legge e in caso di guerra. Tra una legislatura e l'altra i poteri continuano in regime di prorogatio. Le elezioni delle nuove Camere si tengono entro settanta giorni dalla fine delle precedenti e la prima riunione entro venti giorni dalle elezioni (art. 61). Quella in corso è la XIX.",
+   "pagine": [
+    84,
+    85
+   ]
+  },
+  {
+   "id": "prorogatio",
+   "nome": "Prorogatio",
+   "tipo": "istituto",
+   "alias": [
+    "proroga delle Camere"
+   ],
+   "breve": "Continuazione dei poteri delle Camere scadute finché non si riuniscono le nuove (art. 61).",
+   "definizione": "Per l'art. 61 «finché non siano riunite le nuove Camere sono prorogati i poteri delle precedenti»: è un effetto automatico che evita vuoti di potere. Non va confusa con la proroga dell'art. 60, che allunga la legislatura e richiede una legge in caso di guerra. Durante la prorogatio le Camere si attengono all'ordinaria amministrazione costituzionale e legiferano solo per atti indifferibili e urgenti: conversione dei decreti-legge, bilancio, stato di guerra, riesame delle leggi rinviate dal Presidente della Repubblica. Le Camere sciolte sono comunque convocate per convertire i decreti-legge (art. 77); lo stesso principio di continuità vale per il Governo dimissionario.",
+   "pagine": [
+    84,
+    85
+   ],
+   "latino": "prorogatio"
+  },
+  {
+   "id": "scioglimento-anticipato",
+   "nome": "Scioglimento anticipato",
+   "tipo": "procedura",
+   "alias": [
+    "scioglimento delle Camere"
+   ],
+   "breve": "Atto con cui il Presidente della Repubblica pone fine alla legislatura prima dei cinque anni.",
+   "definizione": "È il potere, attribuito dall'art. 88 al Presidente della Repubblica, di sciogliere le Camere o una di esse prima della scadenza naturale, sentiti i loro Presidenti. Non può essere esercitato negli ultimi sei mesi del mandato presidenziale (semestre bianco), salvo che coincidano in tutto o in parte con gli ultimi sei mesi della legislatura. È il rimedio estremo quando non si riesce a formare una maggioranza: rimette la decisione al corpo elettorale. Apre il periodo di prorogatio e il procedimento elettorale.",
+   "pagine": [
+    85,
+    86
+   ]
+  },
+  {
+   "id": "quorum-strutturale",
+   "nome": "Numero legale",
+   "tipo": "istituto",
+   "alias": [
+    "quorum strutturale"
+   ],
+   "breve": "Presenza minima perché la seduta sia valida: la maggioranza dei componenti (art. 64).",
+   "definizione": "È il quorum strutturale: per l'art. 64, terzo comma, le deliberazioni di ciascuna Camera non sono valide se non è presente la maggioranza dei componenti. I regolamenti ne attenuano la rigidità: il numero legale si presume, a meno che ne chieda la verifica un numero minimo di parlamentari (venti deputati). La richiesta di verifica e l'abbandono dell'aula per farlo mancare sono tipici strumenti dell'ostruzionismo. Si distingue dal quorum deliberativo, che riguarda i voti necessari per approvare.",
+   "pagine": [
+    86,
+    86
+   ]
+  },
+  {
+   "id": "quorum-deliberativo",
+   "nome": "Maggioranza per deliberare",
+   "tipo": "istituto",
+   "alias": [
+    "quorum deliberativo",
+    "maggioranza semplice",
+    "maggioranza assoluta",
+    "maggioranza qualificata"
+   ],
+   "breve": "Numero di voti necessario per approvare: di regola la maggioranza dei presenti.",
+   "definizione": "Per l'art. 64 le Camere deliberano a maggioranza dei presenti (maggioranza semplice), salvo che la Costituzione prescriva la maggioranza assoluta, cioè la metà più uno dei componenti, o una maggioranza qualificata (due terzi, tre quinti). Problema classico è il computo degli astenuti: alla Camera non contano tra i presenti, al Senato equivalevano a voto contrario fino alla riforma del 2017. Per il manuale la regola della Camera contrasta con l'art. 64, ma non è sindacabile (sent. n. 78/1984). Si distingue dal numero legale. Se è richiesta la maggioranza dei componenti, le astensioni non riducono il numero di voti favorevoli necessari.",
+   "pagine": [
+    86,
+    86
+   ]
+  },
+  {
+   "id": "votazioni-parlamentari",
+   "nome": "Votazioni parlamentari",
+   "tipo": "procedura",
+   "alias": [
+    "voto palese",
+    "voto segreto",
+    "appello nominale",
+    "scrutinio segreto"
+   ],
+   "breve": "Modi di voto nelle Camere: palesi (fino all'appello nominale) o segreti.",
+   "definizione": "Le votazioni sono palesi o segrete. Palesi: per alzata di mano, per divisione, con procedimento elettronico e registrazione dei nomi, per appello nominale; quest'ultimo è obbligatorio per accordare o revocare la fiducia (art. 94). Segrete: per schede, quando si eleggono persone, o a scrutinio segreto, oggi con dispositivo elettronico. Il voto segreto tutela la libertà del parlamentare ma favorisce i franchi tiratori; il voto palese è fattore di chiarezza e di moralizzazione. La votazione presuppone un argomento iscritto all'ordine del giorno.",
+   "pagine": [
+    86,
+    87
+   ]
+  },
+  {
+   "id": "programmazione-dei-lavori",
+   "nome": "Programmazione dei lavori",
+   "tipo": "procedura",
+   "alias": [
+    "calendario dei lavori",
+    "ordine del giorno"
+   ],
+   "breve": "Metodo con cui le Camere organizzano l'attività secondo programma e calendario.",
+   "definizione": "È il metodo, introdotto dai regolamenti del 1971, per cui le Camere organizzano i lavori con un programma e un calendario predisposti dalla Conferenza dei presidenti di gruppo. In origine occorreva l'unanimità, per associare le minoranze; poiché raramente si raggiungeva, nel 1997 la Camera l'ha sostituita con la maggioranza dei tre quarti, affidando in mancanza la decisione al Presidente, che tiene conto delle priorità del Governo e riserva una quota alle minoranze. Si collega alla regola dell'ordine del giorno, che vieta decisioni di sorpresa.",
+   "pagine": [
+    87,
+    87
+   ]
+  },
+  {
+   "id": "interna-corporis",
+   "nome": "Interna corporis",
+   "tipo": "concetto",
+   "alias": [
+    "interna corporis acta"
+   ],
+   "breve": "Atti e attività compiuti all'interno delle Camere, sottratti al sindacato esterno.",
+   "definizione": "Sono gli atti e le attività interne alle Camere (calcolo della maggioranza, modo ed esito delle votazioni), insindacabili da altri poteri in ragione della speciale indipendenza delle assemblee, al pari delle norme dei regolamenti. La Corte costituzionale ha però affermato la propria competenza ad accertare l'osservanza delle norme costituzionali sul procedimento di formazione della legge: può verificare la conformità del testo trasmesso a quello approvato (sent. n. 9/1959). L'autonomia copre i comportamenti dei parlamentari disciplinati dai regolamenti (sent. n. 379/1996).",
+   "pagine": [
+    87,
+    88
+   ],
+   "latino": "interna corporis"
+  },
+  {
+   "id": "principio-di-maggioranza",
+   "nome": "Principio di maggioranza",
+   "tipo": "concetto",
+   "alias": [
+    "maggioranza"
+   ],
+   "breve": "Regola per cui le decisioni di un organo collegiale sono adottate con il voto della maggioranza.",
+   "definizione": "Per l'art. 64 le Camere deliberano a maggioranza dei presenti, salvo che la Costituzione richieda una maggioranza speciale: assoluta (metà più uno dei componenti, per esempio per i regolamenti o la seconda deliberazione di revisione) o qualificata (due terzi o tre quinti, per esempio per amnistia e indulto o per l'elezione del Presidente della Repubblica nei primi scrutini). È la regola di decisione della democrazia rappresentativa, ma incontra limiti nella Costituzione rigida e nella tutela delle minoranze, che i regolamenti e le maggioranze qualificate proteggono.",
+   "pagine": [
+    86,
+    87
+   ]
+  },
+  {
+   "id": "tutela-delle-minoranze",
+   "nome": "Tutela delle minoranze",
+   "tipo": "concetto",
+   "alias": [
+    "minoranze",
+    "opposizione"
+   ],
+   "breve": "Insieme delle garanzie che permettono alle minoranze parlamentari di partecipare, controllare e opporsi.",
+   "definizione": "Nel funzionamento delle Camere la maggioranza decide, ma le minoranze devono poter esprimere il dissenso e controllare il Governo. Le garanzie sono il Presidente d'Assemblea super partes, i regolamenti approvati a maggioranza assoluta, le maggioranze qualificate per le scelte di sistema, i tempi riservati all'opposizione, gli strumenti ispettivi, la possibilità per un quinto dei membri di una Camera di chiedere il referendum costituzionale. L'ostruzionismo ne è la forma estrema, che le regole sul contingentamento cercano di contenere senza soffocarla. Dalle minoranze politiche, che possono diventare maggioranza, vanno distinte le minoranze permanenti, come quelle linguistiche, tutelate dall'art. 6.",
+   "pagine": [
+    79,
+    88
+   ]
+  },
+  {
+   "id": "ostruzionismo",
+   "nome": "Ostruzionismo",
+   "tipo": "concetto",
+   "alias": [
+    "ostruzionismo di maggioranza",
+    "contingentamento"
+   ],
+   "breve": "Uso esasperato degli strumenti procedurali per ritardare o impedire le decisioni della Camera.",
+   "definizione": "È lecito entro certi limiti quando è tecnico (emendamenti a valanga, verifiche del numero legale, discorsi fiume, abbandono dell'aula), illecito quando è fisico, cioè violento. Vi ricorre di solito l'opposizione; i regolamenti reagiscono con il contingentamento dei tempi, la votazione riassuntiva degli emendamenti e la questione di fiducia. Per il manuale è legittimo come ultima difesa contro misure liberticide, non per fini di parte. Esiste anche un ostruzionismo di maggioranza: la volontà di non attuare la Costituzione, denunciata da Calamandrei nel 1953.",
+   "pagine": [
+    88,
+    88
+   ]
+  },
+  {
+   "id": "quorum-funzionale",
+   "nome": "Quorum funzionale",
+   "tipo": "concetto",
+   "alias": [
+    "maggioranza per deliberare"
+   ],
+   "breve": "Numero di voti favorevoli necessario perché una deliberazione sia approvata: altro nome del quorum deliberativo.",
+   "definizione": "È la maggioranza di voti necessaria perché una proposta sia **approvata**, e coincide con il [[quorum-deliberativo|quorum deliberativo]]. Per l'art. 64, terzo comma, le Camere deliberano di regola a maggioranza dei presenti, salvo che la Costituzione chieda la maggioranza assoluta dei componenti o una maggioranza qualificata (due terzi, tre quinti). Va tenuto distinto dal [[quorum-strutturale|quorum strutturale]], cioè la presenza della maggioranza dei componenti necessaria perché la seduta possa deliberare: sono due verifiche successive. Gli astenuti contano per il numero legale ma, nelle regole attuali di Camera e Senato, non per la maggioranza dei presenti; quando invece serve la maggioranza dei componenti, le astensioni non abbassano i voti favorevoli richiesti.",
+   "pagine": [
+    86,
+    86
+   ]
+  }
+ ],
+ "relazioni": [
+  {
+   "da": "regolamenti-parlamentari",
+   "a": "parlamento",
+   "tipo": "collegato",
+   "etichetta": "organizzano il"
+  },
+  {
+   "da": "regolamenti-parlamentari",
+   "a": "fonti-del-diritto",
+   "tipo": "esempio-di",
+   "etichetta": "sono"
+  },
+  {
+   "da": "corte-costituzionale",
+   "a": "regolamenti-parlamentari",
+   "tipo": "contrasta",
+   "etichetta": "non può sindacare i"
+  },
+  {
+   "da": "presidente-di-assemblea",
+   "a": "regolamenti-parlamentari",
+   "tipo": "interpreta",
+   "etichetta": "applica i"
+  },
+  {
+   "da": "principio-di-maggioranza",
+   "a": "quorum-deliberativo",
+   "tipo": "collegato",
+   "etichetta": "si esprime nel"
+  },
+  {
+   "da": "tutela-delle-minoranze",
+   "a": "principio-di-maggioranza",
+   "tipo": "contrasta",
+   "etichetta": "limita il"
+  },
+  {
+   "da": "presidente-di-assemblea",
+   "a": "tutela-delle-minoranze",
+   "tipo": "collegato",
+   "etichetta": "è garante della"
+  },
+  {
+   "da": "ostruzionismo",
+   "a": "tutela-delle-minoranze",
+   "tipo": "esempio-di",
+   "etichetta": "è la forma estrema della"
+  },
+  {
+   "da": "presidente-di-assemblea",
+   "a": "ufficio-di-presidenza",
+   "tipo": "parte-di",
+   "etichetta": "presiede l'"
+  },
+  {
+   "da": "ufficio-di-presidenza",
+   "a": "parlamento-in-seduta-comune",
+   "tipo": "collegato",
+   "etichetta": "quello della Camera presiede il"
+  },
+  {
+   "da": "presidente-di-assemblea",
+   "a": "tutela-delle-minoranze",
+   "tipo": "collegato",
+   "etichetta": "garantisce la"
+  },
+  {
+   "da": "gruppi-parlamentari",
+   "a": "partiti-politici",
+   "tipo": "collegato",
+   "etichetta": "proiettano nelle Camere i"
+  },
+  {
+   "da": "gruppi-parlamentari",
+   "a": "commissioni-parlamentari",
+   "tipo": "crea",
+   "etichetta": "designano i membri delle"
+  },
+  {
+   "da": "conferenza-dei-capigruppo",
+   "a": "gruppi-parlamentari",
+   "tipo": "parte-di",
+   "etichetta": "riunisce i presidenti dei"
+  },
+  {
+   "da": "conferenza-dei-capigruppo",
+   "a": "programmazione-dei-lavori",
+   "tipo": "crea",
+   "etichetta": "delibera la"
+  },
+  {
+   "da": "commissioni-parlamentari",
+   "a": "commissione-referente",
+   "tipo": "collegato",
+   "etichetta": "lavorano in"
+  },
+  {
+   "da": "commissioni-parlamentari",
+   "a": "commissione-deliberante",
+   "tipo": "collegato",
+   "etichetta": "possono riunirsi in"
+  },
+  {
+   "da": "giunte-parlamentari",
+   "a": "commissioni-parlamentari",
+   "tipo": "contrasta",
+   "etichetta": "si distinguono dalle"
+  },
+  {
+   "da": "presidente-di-assemblea",
+   "a": "giunte-parlamentari",
+   "tipo": "crea",
+   "etichetta": "nomina i membri delle"
+  },
+  {
+   "da": "commissioni-bicamerali",
+   "a": "bicameralismo-paritario",
+   "tipo": "contrasta",
+   "etichetta": "derogano al"
+  },
+  {
+   "da": "commissioni-bicamerali",
+   "a": "inchieste-parlamentari",
+   "tipo": "collegato",
+   "etichetta": "possono svolgere"
+  },
+  {
+   "da": "legislatura",
+   "a": "prorogatio",
+   "tipo": "evolve-in",
+   "etichetta": "è seguita dalla"
+  },
+  {
+   "da": "scioglimento-anticipato",
+   "a": "legislatura",
+   "tipo": "supera",
+   "etichetta": "chiude prima del termine la"
+  },
+  {
+   "da": "presidente-della-repubblica",
+   "a": "scioglimento-anticipato",
+   "tipo": "crea",
+   "etichetta": "dispone lo"
+  },
+  {
+   "da": "semestre-bianco",
+   "a": "scioglimento-anticipato",
+   "tipo": "contrasta",
+   "etichetta": "vieta lo"
+  },
+  {
+   "da": "prorogatio",
+   "a": "rinvio-presidenziale",
+   "tipo": "collegato",
+   "etichetta": "consente il riesame dopo il"
+  },
+  {
+   "da": "prorogatio",
+   "a": "decreto-legge",
+   "tipo": "collegato",
+   "etichetta": "consente la conversione del"
+  },
+  {
+   "da": "quorum-strutturale",
+   "a": "quorum-deliberativo",
+   "tipo": "contrasta",
+   "etichetta": "si distingue dalla"
+  },
+  {
+   "da": "quorum-deliberativo",
+   "a": "principio-di-maggioranza",
+   "tipo": "esempio-di",
+   "etichetta": "applica il"
+  },
+  {
+   "da": "votazioni-parlamentari",
+   "a": "quorum-deliberativo",
+   "tipo": "collegato",
+   "etichetta": "si concludono secondo la"
+  },
+  {
+   "da": "votazioni-parlamentari",
+   "a": "rapporto-di-fiducia",
+   "tipo": "collegato",
+   "etichetta": "sono per appello nominale sul"
+  },
+  {
+   "da": "interna-corporis",
+   "a": "regolamenti-parlamentari",
+   "tipo": "collegato",
+   "etichetta": "condividono l'insindacabilità dei"
+  },
+  {
+   "da": "corte-costituzionale",
+   "a": "interna-corporis",
+   "tipo": "interpreta",
+   "etichetta": "controlla solo il procedimento legislativo negli"
+  },
+  {
+   "da": "ostruzionismo",
+   "a": "quorum-strutturale",
+   "tipo": "collegato",
+   "etichetta": "sfrutta la verifica del"
+  },
+  {
+   "da": "questione-di-fiducia",
+   "a": "ostruzionismo",
+   "tipo": "supera",
+   "etichetta": "fa cadere l'"
+  },
+  {
+   "da": "programmazione-dei-lavori",
+   "a": "ostruzionismo",
+   "tipo": "contrasta",
+   "etichetta": "argina l'"
+  },
+  {
+   "da": "ufficio-di-presidenza",
+   "a": "autonomia-contabile-camere",
+   "tipo": "collegato",
+   "etichetta": "delibera il bilancio interno, espressione dell'"
+  },
+  {
+   "da": "interrogazione-parlamentare",
+   "a": "interpellanza",
+   "tipo": "contrasta",
+   "etichetta": "si distingue dall'"
+  },
+  {
+   "da": "inchieste-parlamentari",
+   "a": "commissioni-parlamentari",
+   "tipo": "collegato",
+   "etichetta": "sono svolte da apposite"
+  },
+  {
+   "da": "quorum-funzionale",
+   "a": "quorum-deliberativo",
+   "tipo": "collegato",
+   "etichetta": "è un altro nome del"
+  },
+  {
+   "da": "quorum-strutturale",
+   "a": "quorum-funzionale",
+   "tipo": "contrasta",
+   "etichetta": "si distingue dal"
+  }
+ ],
+ "eventi": [
+  {
+   "id": "ev-calamandrei-ostruzionismo-di-maggioranza",
+   "anno": 1953,
+   "data": "1953",
+   "titolo": "Calamandrei denuncia l'ostruzionismo di maggioranza",
+   "descrizione": "In uno scritto del 1953 Piero Calamandrei denuncia la volontà della maggioranza di non attuare la Costituzione.",
+   "tipo": "opera",
+   "concetti": [
+    "ostruzionismo"
+   ],
+   "pagine": [
+    88,
+    88
+   ]
+  },
+  {
+   "id": "ev-sentenza-9-1959",
+   "anno": 1959,
+   "data": "1959",
+   "titolo": "Sentenza n. 9/1959 sugli interna corporis",
+   "descrizione": "La Corte costituzionale si riconosce competente a verificare il rispetto delle norme costituzionali sul procedimento legislativo.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "interna-corporis"
+   ],
+   "pagine": [
+    87,
+    87
+   ]
+  },
+  {
+   "id": "ev-regolamenti-parlamentari-1971",
+   "anno": 1971,
+   "data": "febbraio 1971",
+   "titolo": "Nuovi regolamenti di Camera e Senato",
+   "descrizione": "Le Camere approvano i regolamenti generali tuttora vigenti, pubblicati nella Gazzetta Ufficiale: programmazione dei lavori e nuove procedure di indirizzo e controllo.",
+   "tipo": "legge",
+   "concetti": [
+    "regolamenti-parlamentari",
+    "programmazione-dei-lavori"
+   ],
+   "pagine": [
+    79,
+    80
+   ]
+  },
+  {
+   "id": "ev-sentenza-78-1984",
+   "anno": 1984,
+   "data": "1984",
+   "titolo": "Sentenza n. 78/1984",
+   "descrizione": "La Corte costituzionale riconosce l'autonomia delle Camere sulle proprie procedure, a proposito del computo degli astenuti.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "quorum-deliberativo",
+    "interna-corporis"
+   ],
+   "pagine": [
+    86,
+    86
+   ]
+  },
+  {
+   "id": "ev-modifiche-regolamenti-1987",
+   "anno": 1987,
+   "data": "23 e 30 luglio 1987",
+   "titolo": "Modifiche ai regolamenti parlamentari",
+   "descrizione": "Camera e Senato ridefiniscono le competenze delle commissioni e istituiscono quelle per le politiche europee.",
+   "tipo": "legge",
+   "concetti": [
+    "commissioni-parlamentari",
+    "regolamenti-parlamentari"
+   ],
+   "pagine": [
+    83,
+    83
+   ]
+  },
+  {
+   "id": "ev-regolamento-procedimenti-accusa",
+   "anno": 1989,
+   "data": "1989",
+   "titolo": "Regolamento parlamentare per i procedimenti d'accusa",
+   "descrizione": "Le due Camere approvano separatamente, nello stesso testo, il regolamento per i procedimenti d'accusa.",
+   "tipo": "legge",
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "pagine": [
+    80,
+    80
+   ]
+  },
+  {
+   "id": "ev-rinvio-cossiga-obiezione-di-coscienza",
+   "anno": 1992,
+   "data": "1° febbraio 1992",
+   "titolo": "Rinvio della legge sull'obiezione di coscienza",
+   "descrizione": "Il Presidente Cossiga rinvia la legge a Camere già sciolte: si discute se il riesame sia possibile in prorogatio.",
+   "tipo": "politica",
+   "concetti": [
+    "prorogatio"
+   ],
+   "pagine": [
+    85,
+    85
+   ]
+  },
+  {
+   "id": "ev-sentenza-379-1996",
+   "anno": 1996,
+   "data": "1996",
+   "titolo": "Sentenza n. 379/1996",
+   "descrizione": "L'autonomia delle Camere copre i comportamenti dei parlamentari disciplinati dai regolamenti (caso dei «pianisti»).",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "interna-corporis"
+   ],
+   "pagine": [
+    87,
+    88
+   ]
+  },
+  {
+   "id": "ev-riforma-regolamento-camera-1997",
+   "anno": 1997,
+   "data": "1997",
+   "titolo": "Riforma del regolamento della Camera",
+   "descrizione": "Il programma dei lavori si approva con i tre quarti anziché all'unanimità; nasce il Comitato per la legislazione.",
+   "tipo": "legge",
+   "concetti": [
+    "programmazione-dei-lavori",
+    "conferenza-dei-capigruppo"
+   ],
+   "pagine": [
+    83,
+    87
+   ]
+  },
+  {
+   "id": "ev-riforma-obiezione-di-coscienza",
+   "anno": 1998,
+   "data": "8 luglio 1998",
+   "titolo": "Riforma dell'obiezione di coscienza",
+   "descrizione": "La legge n. 230/1998 è approvata sei anni dopo il rinvio presidenziale del 1992.",
+   "tipo": "legge",
+   "concetti": [
+    "prorogatio"
+   ],
+   "pagine": [
+    85,
+    85
+   ]
+  }
+ ],
+ "mappa": {
+  "testo": "Organizzazione e funzionamento delle Camere",
+  "concetto": "parlamento",
+  "figli": [
+   {
+    "testo": "Regole",
+    "concetto": "regolamenti-parlamentari",
+    "figli": [
+     {
+      "testo": "Art. 64: maggioranza assoluta"
+     },
+     {
+      "testo": "Fonti separate e riservate"
+     },
+     {
+      "testo": "Non sindacabili dalla Corte",
+      "nota": "art. 134"
+     }
+    ]
+   },
+   {
+    "testo": "Organi interni",
+    "figli": [
+     {
+      "testo": "Presidente",
+      "concetto": "presidente-di-assemblea",
+      "nota": "super partes"
+     },
+     {
+      "testo": "Ufficio di presidenza",
+      "concetto": "ufficio-di-presidenza"
+     },
+     {
+      "testo": "Gruppi",
+      "concetto": "gruppi-parlamentari",
+      "figli": [
+       {
+        "testo": "Conferenza dei capigruppo",
+        "concetto": "conferenza-dei-capigruppo"
+       }
+      ]
+     },
+     {
+      "testo": "Commissioni permanenti",
+      "concetto": "commissioni-parlamentari",
+      "nota": "referente, deliberante, redigente…"
+     },
+     {
+      "testo": "Giunte",
+      "concetto": "giunte-parlamentari"
+     },
+     {
+      "testo": "Organi bicamerali",
+      "concetto": "commissioni-bicamerali"
+     }
+    ]
+   },
+   {
+    "testo": "Durata",
+    "concetto": "legislatura",
+    "figli": [
+     {
+      "testo": "Prorogatio (art. 61)",
+      "concetto": "prorogatio"
+     },
+     {
+      "testo": "Proroga (art. 60)",
+      "nota": "solo guerra, con legge"
+     },
+     {
+      "testo": "Scioglimento anticipato",
+      "concetto": "scioglimento-anticipato"
+     },
+     {
+      "testo": "Convocazione",
+      "nota": "artt. 61 e 62"
+     }
+    ]
+   },
+   {
+    "testo": "Lavori",
+    "figli": [
+     {
+      "testo": "Numero legale",
+      "concetto": "quorum-strutturale"
+     },
+     {
+      "testo": "Maggioranze",
+      "concetto": "quorum-deliberativo"
+     },
+     {
+      "testo": "Votazioni",
+      "concetto": "votazioni-parlamentari"
+     },
+     {
+      "testo": "Programmazione",
+      "concetto": "programmazione-dei-lavori"
+     }
+    ]
+   },
+   {
+    "testo": "Limiti e patologie",
+    "figli": [
+     {
+      "testo": "Interna corporis",
+      "concetto": "interna-corporis",
+      "nota": "sent. 9/1959"
+     },
+     {
+      "testo": "Ostruzionismo",
+      "concetto": "ostruzionismo",
+      "nota": "tecnico, fisico, di maggioranza"
+     }
+    ]
+   }
   ]
+ },
+ "domande": [
+  {
+   "id": "u10-q001",
+   "tipo": "flashcard",
+   "lezione": "u10-l1",
+   "livello": "base",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "domanda": "Come sono adottati i regolamenti parlamentari?",
+   "risposta": "Ciascuna Camera adotta il proprio regolamento a maggioranza assoluta dei suoi componenti (art. 64, primo comma)."
+  },
+  {
+   "id": "u10-q002",
+   "tipo": "flashcard",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "domanda": "Che posto occupano i regolamenti parlamentari nel sistema delle fonti?",
+   "risposta": "Sono fonti separate, a competenza riservata dall'art. 64: nel loro campo sono fonti esclusive di primo grado, subordinate solo alla Costituzione, e la legge non può disciplinare l'organizzazione interna delle Camere."
+  },
+  {
+   "id": "u10-q003",
+   "tipo": "flashcard",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "domanda": "Perché i regolamenti parlamentari non sono soggetti al giudizio di legittimità costituzionale?",
+   "risposta": "Perché non sono menzionati nell'art. 134, che riguarda le leggi e gli atti con forza di legge; la Corte ha inoltre valorizzato l'indipendenza delle Camere da ogni altro potere. Il manuale ne critica la conseguenza: la subordinazione alla Costituzione resta senza controllo esterno."
+  },
+  {
+   "id": "u10-q004",
+   "tipo": "flashcard",
+   "lezione": "u10-l1",
+   "livello": "base",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "presidente-di-assemblea"
+   ],
+   "domanda": "Qual è la posizione del Presidente di ciascuna Camera?",
+   "risposta": "È organo super partes: rappresenta la Camera, è garante delle minoranze e del corretto svolgimento dei lavori, custode delle prerogative dell'assemblea; assicura l'applicazione del regolamento e dirige le discussioni e le votazioni."
+  },
+  {
+   "id": "u10-q005",
+   "tipo": "flashcard",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "ufficio-di-presidenza"
+   ],
+   "domanda": "Da chi è composto l'Ufficio di presidenza e che cosa fa?",
+   "risposta": "Da quattro vicepresidenti, tre questori e dai segretari (al Senato si chiama Consiglio di presidenza). Delibera il progetto di bilancio e il rendiconto della Camera e nomina il Segretario generale su proposta del Presidente."
+  },
+  {
+   "id": "u10-q006",
+   "tipo": "multipla",
+   "lezione": "u10-l1",
+   "livello": "base",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "domanda": "Con quale maggioranza ciascuna Camera adotta il proprio regolamento?",
+   "opzioni": [
+    "Maggioranza dei presenti",
+    "Maggioranza assoluta dei componenti",
+    "Due terzi dei componenti",
+    "Unanimità"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 64, primo comma."
+  },
+  {
+   "id": "u10-q007",
+   "tipo": "multipla",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "presidente-di-assemblea"
+   ],
+   "domanda": "In che cosa differiscono i poteri dei due Presidenti sull'assegnazione in sede deliberante?",
+   "opzioni": [
+    "Alla Camera decide il Presidente, al Senato l'Assemblea",
+    "Al Senato il Presidente la dispone, alla Camera la propone e decide l'Assemblea",
+    "In entrambe decide la Conferenza dei capigruppo",
+    "In entrambe decide il Governo"
+   ],
+   "corretta": 1,
+   "spiegazione": "Il Presidente del Senato ha attribuzioni più ampie, senza che cambi la posizione costituzionale dell'organo."
+  },
+  {
+   "id": "u10-q008",
+   "tipo": "multipla",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "domanda": "Quale elemento conferma la natura di fonte del diritto dei regolamenti del 1971?",
+   "opzioni": [
+    "Sono approvati con legge",
+    "Sono pubblicati nella Gazzetta Ufficiale con un periodo di vacatio",
+    "Sono emanati dal Presidente della Repubblica",
+    "Sono soggetti a referendum"
+   ],
+   "corretta": 1,
+   "spiegazione": "Pubblicazione e vacatio sono tipiche delle fonti-atto."
+  },
+  {
+   "id": "u10-q009",
+   "tipo": "verofalso",
+   "lezione": "u10-l1",
+   "livello": "base",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "affermazione": "Una legge ordinaria può disciplinare l'organizzazione interna delle Camere.",
+   "vero": false,
+   "spiegazione": "L'art. 64 pone una riserva di regolamento parlamentare: la materia è sottratta alla legge."
+  },
+  {
+   "id": "u10-q010",
+   "tipo": "verofalso",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "ufficio-di-presidenza"
+   ],
+   "affermazione": "Al Senato l'Ufficio di presidenza prende il nome di Consiglio di presidenza.",
+   "vero": true,
+   "spiegazione": "È la denominazione usata dal regolamento del Senato."
+  },
+  {
+   "id": "u10-q011",
+   "tipo": "verofalso",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "presidente-di-assemblea"
+   ],
+   "affermazione": "Per il manuale la presidenza della Camera è più democratica di quella del Senato perché ha minori poteri.",
+   "vero": false,
+   "spiegazione": "I poteri diversi riflettono solo un diverso modo di intendere il ruolo, senza incidere sulla posizione costituzionale."
+  },
+  {
+   "id": "u10-q012",
+   "tipo": "completa",
+   "lezione": "u10-l1",
+   "livello": "base",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "testo": "Ciascuna Camera adotta il proprio regolamento a maggioranza {{assoluta}} dei suoi componenti (art. {{64}})."
+  },
+  {
+   "id": "u10-q013",
+   "tipo": "completa",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "ufficio-di-presidenza"
+   ],
+   "testo": "L'Ufficio di presidenza comprende {{4|quattro}} vicepresidenti e {{3|tre}} questori, oltre ai segretari."
+  },
+  {
+   "id": "u10-q014",
+   "tipo": "aperta",
+   "lezione": "u10-l1",
+   "livello": "avanzato",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "regolamenti-parlamentari"
+   ],
+   "domanda": "Illustri la natura dei regolamenti parlamentari e il problema del loro controllo.",
+   "traccia": "I regolamenti parlamentari sono il complesso di disposizioni che ciascuna Camera vota, a maggioranza assoluta dei componenti (art. 64), nell'esercizio del potere di autonormazione, per disciplinare i propri lavori, l'organizzazione e i rapporti con gli altri organi. Benché detti interni, contengono norme costitutive dell'ordinamento: sono fonti del diritto, come conferma la pubblicazione in Gazzetta Ufficiale dei regolamenti del 1971. In virtù della riserva di regolamento sfuggono alla gerarchia: sono fonti separate, a competenza riservata, subordinate soltanto alla Costituzione, sicché la legge non può regolare la vita interna delle Camere. Poiché l'art. 134 non li menziona, non sono soggetti al sindacato della Corte costituzionale, che ha valorizzato l'indipendenza del Parlamento. Il manuale ne trae una critica: le Camere potrebbero adottare norme regolamentari incostituzionali senza alcun controllo esterno, come accade per il computo degli astenuti alla Camera. I regolamenti del 1971 sono non solo esecutivi (art. 72) ma attuativi della Costituzione.",
+   "punti": [
+    {
+     "testo": "Adozione a maggioranza assoluta",
+     "chiavi": [
+      "assoluta",
+      "64"
+     ]
+    },
+    {
+     "testo": "Fonti del diritto",
+     "chiavi": [
+      "fonti",
+      "gazzetta"
+     ]
+    },
+    {
+     "testo": "Fonti separate, riserva di regolamento",
+     "chiavi": [
+      "riserva",
+      "separat",
+      "competenza"
+     ]
+    },
+    {
+     "testo": "Non sindacabili: art. 134",
+     "chiavi": [
+      "134",
+      "corte"
+     ]
+    },
+    {
+     "testo": "Critica: assenza di controllo",
+     "chiavi": [
+      "controllo",
+      "astenuti"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u10-q015",
+   "tipo": "flashcard",
+   "lezione": "u10-l2",
+   "livello": "base",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "gruppi-parlamentari"
+   ],
+   "domanda": "Che cosa sono i gruppi parlamentari?",
+   "risposta": "Organi interni delle Camere che riuniscono i parlamentari secondo l'appartenenza politica e assicurano il collegamento con i partiti. Chi non aderisce ad alcun gruppo confluisce nel gruppo misto."
+  },
+  {
+   "id": "u10-q016",
+   "tipo": "flashcard",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "gruppi-parlamentari"
+   ],
+   "domanda": "Qual è la natura giuridica dei gruppi parlamentari secondo il manuale?",
+   "risposta": "Sono associazioni necessarie di diritto pubblico: è respinta la tesi dell'associazione di diritto privato, perché le Camere non possono avvalersi in via istituzionale di associazioni private. Ciò li distingue anche dai partiti."
+  },
+  {
+   "id": "u10-q017",
+   "tipo": "flashcard",
+   "lezione": "u10-l2",
+   "livello": "base",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "commissioni-parlamentari"
+   ],
+   "domanda": "Come sono composte le commissioni permanenti e perché?",
+   "risposta": "In modo da rispecchiare la proporzione dei gruppi parlamentari: ogni commissione riproduce in piccolo l'Assemblea, perché svolge funzioni di grande rilievo, anche legislative, e i suoi orientamenti devono corrispondere a quelli dell'Assemblea."
+  },
+  {
+   "id": "u10-q018",
+   "tipo": "flashcard",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "commissioni-parlamentari",
+    "commissione-referente",
+    "commissione-deliberante"
+   ],
+   "domanda": "In quali sedi possono riunirsi le commissioni permanenti?",
+   "risposta": "In sede referente (esame e relazione all'Assemblea), consultiva (pareri), legislativa o deliberante (esame e approvazione), redigente (formulazione degli articoli) e politica (comunicazioni del Governo, indirizzo, controllo e informazione)."
+  },
+  {
+   "id": "u10-q019",
+   "tipo": "flashcard",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "giunte-parlamentari"
+   ],
+   "domanda": "In che cosa le giunte si distinguono dalle commissioni permanenti?",
+   "risposta": "Sono anch'esse organi permanenti, ma i loro componenti sono nominati dal Presidente (rispettando la proporzione dei gruppi) e hanno compiti di garanzia: giunta per il regolamento, delle elezioni, delle autorizzazioni alla Camera; per il regolamento e delle elezioni e immunità al Senato."
+  },
+  {
+   "id": "u10-q020",
+   "tipo": "multipla",
+   "lezione": "u10-l2",
+   "livello": "base",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "commissioni-parlamentari"
+   ],
+   "domanda": "Quante sono oggi le commissioni permanenti?",
+   "opzioni": [
+    "14 alla Camera e 14 al Senato",
+    "14 alla Camera e 10 al Senato",
+    "10 alla Camera e 14 al Senato",
+    "12 in entrambe"
+   ],
+   "corretta": 1,
+   "spiegazione": "Il manuale ne indica 14 in entrambe; il Senato le ha ridotte a 10."
+  },
+  {
+   "id": "u10-q021",
+   "tipo": "multipla",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "conferenza-dei-capigruppo"
+   ],
+   "domanda": "Quale organo delibera il programma dei lavori dell'Assemblea?",
+   "opzioni": [
+    "L'Ufficio di presidenza",
+    "La Conferenza dei presidenti dei gruppi parlamentari",
+    "La giunta per il regolamento",
+    "La commissione bilancio"
+   ],
+   "corretta": 1,
+   "spiegazione": "È il compito che ha dato rilievo alla Conferenza."
+  },
+  {
+   "id": "u10-q022",
+   "tipo": "multipla",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "gruppi-parlamentari"
+   ],
+   "domanda": "Perché il gruppo parlamentare non coincide perfettamente con il partito?",
+   "opzioni": [
+    "Perché è eletto direttamente dal popolo",
+    "Perché è un'entità distinta e i suoi membri sono coperti dal divieto di mandato imperativo",
+    "Perché è nominato dal Presidente della Camera",
+    "Perché non può ricevere contributi"
+   ],
+   "corretta": 1,
+   "spiegazione": "L'autonomia non è contrapposizione, ma margine di discrezionalità."
+  },
+  {
+   "id": "u10-q023",
+   "tipo": "verofalso",
+   "lezione": "u10-l2",
+   "livello": "base",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "commissioni-parlamentari"
+   ],
+   "affermazione": "In sede deliberante la commissione approva il progetto di legge al posto dell'Assemblea.",
+   "vero": true,
+   "spiegazione": "È la sede legislativa o deliberante."
+  },
+  {
+   "id": "u10-q024",
+   "tipo": "verofalso",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "giunte-parlamentari"
+   ],
+   "affermazione": "Le commissioni d'inchiesta sono organi permanenti delle Camere, come le giunte.",
+   "vero": false,
+   "spiegazione": "Sono organi straordinari, creati in caso di necessità (art. 82)."
+  },
+  {
+   "id": "u10-q025",
+   "tipo": "verofalso",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "gruppi-parlamentari"
+   ],
+   "affermazione": "Un deputato che non dichiara alcuna appartenenza resta fuori da ogni gruppo.",
+   "vero": false,
+   "spiegazione": "Confluisce nel gruppo misto."
+  },
+  {
+   "id": "u10-q026",
+   "tipo": "completa",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "commissioni-parlamentari"
+   ],
+   "testo": "Le commissioni permanenti sono rinnovate ogni {{biennio|due anni}} e rispecchiano la {{proporzione}} dei gruppi parlamentari."
+  },
+  {
+   "id": "u10-q027",
+   "tipo": "completa",
+   "lezione": "u10-l2",
+   "livello": "base",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "gruppi-parlamentari"
+   ],
+   "testo": "I parlamentari che non aderiscono ad alcun gruppo confluiscono nel gruppo {{misto}}."
+  },
+  {
+   "id": "u10-q028",
+   "tipo": "aperta",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "gruppi-parlamentari",
+    "commissioni-parlamentari",
+    "giunte-parlamentari",
+    "conferenza-dei-capigruppo"
+   ],
+   "domanda": "Descriva l'articolazione interna delle Camere: gruppi, commissioni e giunte.",
+   "traccia": "I gruppi parlamentari sono organi interni che collegano le Camere ai partiti: ogni parlamentare dichiara il gruppo di appartenenza e chi non ne sceglie alcuno entra nel gruppo misto. Il gruppo è la proiezione del partito, ma resta un'entità distinta, anche per il divieto di mandato imperativo; il manuale lo qualifica associazione necessaria di diritto pubblico. I presidenti dei gruppi formano la Conferenza, che delibera il programma dei lavori. Le commissioni permanenti, competenti per materia (14 alla Camera, 10 al Senato), sono composte in proporzione ai gruppi e lavorano in sede referente, consultiva, deliberante, redigente e politica: preparano il lavoro dell'Assemblea e, in sede deliberante, la sostituiscono, con vantaggi di speditezza ma rischi di parcellizzazione. Le giunte sono organi permanenti nominati dal Presidente, con compiti di garanzia (regolamento, elezioni, autorizzazioni). Le commissioni d'inchiesta sono invece organi straordinari.",
+   "punti": [
+    {
+     "testo": "Gruppi: collegamento con i partiti, gruppo misto",
+     "chiavi": [
+      "partit",
+      "misto"
+     ]
+    },
+    {
+     "testo": "Natura: associazioni di diritto pubblico",
+     "chiavi": [
+      "diritto pubblico",
+      "associazion"
+     ]
+    },
+    {
+     "testo": "Commissioni proporzionali ai gruppi",
+     "chiavi": [
+      "proporzion"
+     ]
+    },
+    {
+     "testo": "Sedi delle commissioni",
+     "chiavi": [
+      "referente",
+      "deliberante",
+      "redigente"
+     ]
+    },
+    {
+     "testo": "Giunte nominate dal Presidente",
+     "chiavi": [
+      "giunt",
+      "nominat"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u10-q029",
+   "tipo": "abbina",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "commissioni-parlamentari",
+    "commissione-referente",
+    "commissione-deliberante"
+   ],
+   "consegna": "Abbina ogni sede della commissione alla sua funzione.",
+   "coppie": [
+    [
+     "Referente",
+     "Esamina e riferisce all'Assemblea"
+    ],
+    [
+     "Consultiva",
+     "Esprime pareri"
+    ],
+    [
+     "Deliberante",
+     "Esamina e approva il progetto"
+    ],
+    [
+     "Redigente",
+     "Formula gli articoli"
+    ],
+    [
+     "Politica",
+     "Indirizzo, controllo e informazione"
+    ]
+   ]
+  },
+  {
+   "id": "u10-q030",
+   "tipo": "flashcard",
+   "lezione": "u10-l3",
+   "livello": "base",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "legislatura"
+   ],
+   "domanda": "Che cos'è la legislatura e che cosa accade ai progetti di legge alla sua fine?",
+   "risposta": "È il periodo che va dalla prima riunione delle Camere al loro scioglimento, naturale (dopo cinque anni) o anticipato. Alla fine decadono i progetti non ancora approvati da entrambe le Camere, salvo quelli di iniziativa popolare."
+  },
+  {
+   "id": "u10-q031",
+   "tipo": "flashcard",
+   "lezione": "u10-l3",
+   "livello": "base",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "prorogatio"
+   ],
+   "domanda": "Che differenza c'è tra prorogatio e proroga?",
+   "risposta": "La prorogatio (art. 61) è la continuazione automatica dei poteri delle Camere scadute fino alla riunione delle nuove. La proroga (art. 60) è il prolungamento della durata della legislatura: è ammessa solo in caso di guerra e deve essere deliberata con legge."
+  },
+  {
+   "id": "u10-q032",
+   "tipo": "flashcard",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "prorogatio"
+   ],
+   "domanda": "Quali atti possono compiere le Camere in regime di prorogatio?",
+   "risposta": "Quelli di ordinaria amministrazione costituzionale (controllo sul Governo, garanzia) e, sul piano legislativo, solo gli atti indifferibili e urgenti: conversione dei decreti-legge, legge di bilancio, deliberazione dello stato di guerra, riesame delle leggi rinviate."
+  },
+  {
+   "id": "u10-q033",
+   "tipo": "flashcard",
+   "lezione": "u10-l3",
+   "livello": "avanzato",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "prorogatio"
+   ],
+   "domanda": "Perché, secondo il manuale, le Camere in prorogatio devono poter riesaminare una legge rinviata dal Presidente della Repubblica?",
+   "risposta": "Perché l'art. 74 chiede una nuova deliberazione alle Camere che hanno approvato la legge: davanti alle nuove sarebbe una prima lettura. Negare il riesame darebbe al Presidente un veto sostanziale, poiché la legge decadrebbe con la fine della legislatura."
+  },
+  {
+   "id": "u10-q034",
+   "tipo": "flashcard",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "commissioni-bicamerali"
+   ],
+   "domanda": "Che cosa sono gli organi bicamerali e quale è previsto dalla Costituzione?",
+   "risposta": "Sono organi composti pariteticamente da deputati e senatori. La Costituzione prevede solo la Commissione per le questioni regionali (art. 126); altri, come la Commissione di vigilanza sui servizi radiotelevisivi e il Comitato per la sicurezza della Repubblica, sono stati istituiti in seguito."
+  },
+  {
+   "id": "u10-q035",
+   "tipo": "flashcard",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "scioglimento-anticipato"
+   ],
+   "domanda": "Chi scioglie anticipatamente le Camere e con quali limiti?",
+   "risposta": "Il Presidente della Repubblica, sentiti i Presidenti delle Camere (art. 88). Non può farlo negli ultimi sei mesi del suo mandato (semestre bianco), salvo che coincidano in tutto o in parte con gli ultimi sei mesi della legislatura."
+  },
+  {
+   "id": "u10-q036",
+   "tipo": "multipla",
+   "lezione": "u10-l3",
+   "livello": "base",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "prorogatio"
+   ],
+   "domanda": "La proroga della durata delle Camere è ammessa:",
+   "opzioni": [
+    "con decreto del Presidente della Repubblica, in ogni caso di urgenza",
+    "con legge e soltanto in caso di guerra",
+    "con deliberazione dei Presidenti delle Camere",
+    "mai"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 60, secondo comma."
+  },
+  {
+   "id": "u10-q037",
+   "tipo": "multipla",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "legislatura"
+   ],
+   "domanda": "Quali progetti di legge non decadono con la fine della legislatura?",
+   "opzioni": [
+    "Quelli del Governo",
+    "Quelli già approvati da una Camera",
+    "Quelli di iniziativa popolare",
+    "Quelli in materia costituzionale"
+   ],
+   "corretta": 2,
+   "spiegazione": "Per i progetti di iniziativa popolare non occorre una nuova presentazione."
+  },
+  {
+   "id": "u10-q038",
+   "tipo": "multipla",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "scioglimento-anticipato"
+   ],
+   "domanda": "Quando le Camere si riuniscono di diritto?",
+   "opzioni": [
+    "Il primo giorno non festivo di febbraio e di ottobre",
+    "Il primo giorno di ogni mese",
+    "Solo su convocazione del Governo",
+    "Il 1° gennaio e il 1° luglio"
+   ],
+   "corretta": 0,
+   "spiegazione": "Art. 62; inoltre entro 20 giorni dalle elezioni (art. 61)."
+  },
+  {
+   "id": "u10-q039",
+   "tipo": "verofalso",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "commissioni-bicamerali"
+   ],
+   "affermazione": "Gli organi bicamerali sono la regola in un sistema bicamerale perfetto.",
+   "vero": false,
+   "spiegazione": "La regola è che ciascuna Camera operi separatamente: l'operare in comune è una deroga."
+  },
+  {
+   "id": "u10-q040",
+   "tipo": "verofalso",
+   "lezione": "u10-l3",
+   "livello": "base",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "prorogatio"
+   ],
+   "affermazione": "Durante la prorogatio le Camere possono convertire in legge i decreti-legge.",
+   "vero": true,
+   "spiegazione": "È uno degli atti indifferibili e urgenti."
+  },
+  {
+   "id": "u10-q041",
+   "tipo": "verofalso",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "scioglimento-anticipato"
+   ],
+   "affermazione": "Quando una Camera è convocata in via straordinaria, è convocata di diritto anche l'altra.",
+   "vero": true,
+   "spiegazione": "Art. 62: serve a consentire il contemporaneo svolgimento dei lavori."
+  },
+  {
+   "id": "u10-q042",
+   "tipo": "completa",
+   "lezione": "u10-l3",
+   "livello": "base",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "prorogatio"
+   ],
+   "testo": "Finché non siano riunite le nuove Camere sono {{prorogati}} i poteri delle precedenti (art. {{61}})."
+  },
+  {
+   "id": "u10-q043",
+   "tipo": "completa",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "scioglimento-anticipato"
+   ],
+   "testo": "Una Camera può essere convocata in via straordinaria dal suo Presidente, dal Presidente della Repubblica o da {{un terzo|1/3}} dei suoi componenti."
+  },
+  {
+   "id": "u10-q044",
+   "tipo": "aperta",
+   "lezione": "u10-l3",
+   "livello": "avanzato",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "legislatura",
+    "prorogatio",
+    "scioglimento-anticipato"
+   ],
+   "domanda": "Spieghi che cosa accade tra la fine di una legislatura e l'insediamento delle nuove Camere.",
+   "traccia": "La legislatura è il periodo che va dalla prima riunione delle Camere al loro scioglimento, naturale dopo cinque anni o anticipato, disposto dal Presidente della Repubblica sentiti i Presidenti delle Camere (art. 88), ma non nel semestre bianco. Con la fine della legislatura decadono i progetti di legge non approvati, salvo quelli di iniziativa popolare. Per evitare vuoti di potere l'art. 61 prevede la prorogatio: i poteri delle Camere scadute sono prorogati finché non si riuniscono le nuove, entro venti giorni dalle elezioni. È cosa diversa dalla proroga dell'art. 60, che allunga la legislatura solo in caso di guerra e con legge. In prorogatio le Camere si limitano all'ordinaria amministrazione costituzionale e legiferano solo per atti indifferibili e urgenti: conversione dei decreti-legge, bilancio, stato di guerra e, secondo il manuale, riesame delle leggi rinviate, altrimenti il rinvio diventerebbe un veto, come mostrò il caso della legge sull'obiezione di coscienza rinviata nel 1992.",
+   "punti": [
+    {
+     "testo": "Scioglimento naturale o anticipato",
+     "chiavi": [
+      "scioglimento",
+      "88"
+     ]
+    },
+    {
+     "testo": "Decadenza dei progetti",
+     "chiavi": [
+      "decad"
+     ]
+    },
+    {
+     "testo": "Prorogatio dell'art. 61",
+     "chiavi": [
+      "prorogatio",
+      "61"
+     ]
+    },
+    {
+     "testo": "Differenza dalla proroga",
+     "chiavi": [
+      "proroga",
+      "guerra"
+     ]
+    },
+    {
+     "testo": "Atti indifferibili e urgenti; riesame",
+     "chiavi": [
+      "indifferibil",
+      "urgent",
+      "rinvi"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u10-q045",
+   "tipo": "flashcard",
+   "lezione": "u10-l4",
+   "livello": "base",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "quorum-strutturale",
+    "quorum-deliberativo"
+   ],
+   "domanda": "Che cosa sono il numero legale e la maggioranza richiesta per deliberare?",
+   "risposta": "Il numero legale è la presenza della maggioranza dei componenti, necessaria per la validità della seduta. Le deliberazioni sono poi prese a maggioranza dei presenti, salvo che la Costituzione richieda una maggioranza assoluta o qualificata (art. 64)."
+  },
+  {
+   "id": "u10-q046",
+   "tipo": "flashcard",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "quorum-deliberativo"
+   ],
+   "domanda": "Come si computano gli astenuti?",
+   "risposta": "Alla Camera sono considerati presenti solo i deputati che votano a favore o contro: l'astenuto non conta. Al Senato l'astenuto era computato tra i presenti e l'astensione valeva come voto contrario; dal 2017 anche il Senato segue la regola della Camera."
+  },
+  {
+   "id": "u10-q047",
+   "tipo": "flashcard",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "votazioni-parlamentari"
+   ],
+   "domanda": "Quali sono le forme di votazione palese e segreta?",
+   "risposta": "Palesi: alzata di mano, divisione, procedimento elettronico con registrazione dei nomi, appello nominale. Segrete: per schede (elezioni di persone) e a scrutinio segreto, oggi con dispositivo elettronico."
+  },
+  {
+   "id": "u10-q048",
+   "tipo": "flashcard",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "interna-corporis"
+   ],
+   "domanda": "Che cosa sono gli interna corporis e fino a che punto sono insindacabili?",
+   "risposta": "Sono gli atti e le attività compiuti all'interno delle Camere, sottratti al sindacato esterno per l'indipendenza delle assemblee. La Corte costituzionale può però accertare il rispetto delle norme costituzionali sul procedimento legislativo (sent. n. 9/1959)."
+  },
+  {
+   "id": "u10-q049",
+   "tipo": "flashcard",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "principio-di-maggioranza"
+   ],
+   "domanda": "Che cosa prevede l'art. 64 sulle maggioranze e quali eccezioni conosce?",
+   "risposta": "Le Camere deliberano a maggioranza dei presenti, salvo che la Costituzione richieda una maggioranza speciale: assoluta (regolamenti, seconda deliberazione di revisione) o qualificata, come i due terzi per amnistia e indulto."
+  },
+  {
+   "id": "u10-q050",
+   "tipo": "flashcard",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "tutela-delle-minoranze"
+   ],
+   "domanda": "Con quali strumenti le minoranze parlamentari sono tutelate?",
+   "risposta": "Con il Presidente d'Assemblea super partes, i regolamenti approvati a maggioranza assoluta, le maggioranze qualificate, i tempi riservati all'opposizione, gli strumenti di controllo e la richiesta del referendum costituzionale da parte di un quinto dei membri di una Camera."
+  },
+  {
+   "id": "u10-q051",
+   "tipo": "verofalso",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "principio-di-maggioranza",
+    "tutela-delle-minoranze"
+   ],
+   "affermazione": "Nella Costituzione rigida la maggioranza parlamentare può decidere su qualsiasi materia con la maggioranza dei presenti.",
+   "vero": false,
+   "spiegazione": "Molte decisioni richiedono maggioranze speciali e la maggioranza incontra i limiti della Costituzione e le garanzie delle minoranze."
+  },
+  {
+   "id": "u10-q052",
+   "tipo": "flashcard",
+   "lezione": "u10-l4",
+   "livello": "base",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "ostruzionismo"
+   ],
+   "domanda": "Che cos'è l'ostruzionismo e quali forme assume?",
+   "risposta": "È l'uso esasperato degli strumenti procedurali per ritardare o impedire la decisione della Camera. È tecnico (emendamenti a valanga, verifiche del numero legale, discorsi lunghissimi), lecito entro certi limiti, o fisico, cioè violento e illecito. Esiste anche un ostruzionismo di maggioranza."
+  },
+  {
+   "id": "u10-q053",
+   "tipo": "flashcard",
+   "lezione": "u10-l4",
+   "livello": "avanzato",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "ostruzionismo"
+   ],
+   "domanda": "Che cosa intendeva Calamandrei per ostruzionismo di maggioranza?",
+   "risposta": "La deliberata volontà della maggioranza di governo di non dare attuazione ai punti più qualificanti della Costituzione, nei periodi di immobilismo: lo denunciò in uno scritto del 1953."
+  },
+  {
+   "id": "u10-q054",
+   "tipo": "multipla",
+   "lezione": "u10-l4",
+   "livello": "base",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "votazioni-parlamentari"
+   ],
+   "domanda": "Quale forma di votazione è obbligatoria per accordare o revocare la fiducia al Governo?",
+   "opzioni": [
+    "Scrutinio segreto",
+    "Alzata di mano",
+    "Appello nominale",
+    "Votazione per schede"
+   ],
+   "corretta": 2,
+   "spiegazione": "Art. 94: la mozione è votata per appello nominale."
+  },
+  {
+   "id": "u10-q055",
+   "tipo": "multipla",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "programmazione-dei-lavori"
+   ],
+   "domanda": "Dal 1997, con quale maggioranza la Conferenza dei capigruppo della Camera approva il programma dei lavori?",
+   "opzioni": [
+    "Unanimità",
+    "Tre quarti",
+    "Maggioranza assoluta",
+    "Due terzi"
+   ],
+   "corretta": 1,
+   "spiegazione": "L'unanimità prevista nel 1971 si raggiungeva raramente."
+  },
+  {
+   "id": "u10-q056",
+   "tipo": "multipla",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "ostruzionismo"
+   ],
+   "domanda": "Quale di questi è un rimedio contro l'ostruzionismo?",
+   "opzioni": [
+    "La verifica del numero legale",
+    "Il contingentamento dei tempi di discussione",
+    "La seduta segreta",
+    "Il rinvio in commissione"
+   ],
+   "corretta": 1,
+   "spiegazione": "Con la votazione riassuntiva degli emendamenti e la questione di fiducia."
+  },
+  {
+   "id": "u10-q057",
+   "tipo": "multipla",
+   "lezione": "u10-l4",
+   "livello": "avanzato",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "interna-corporis"
+   ],
+   "domanda": "Che cosa ha affermato la Corte costituzionale nella sentenza n. 9/1959?",
+   "opzioni": [
+    "Che i regolamenti parlamentari sono leggi",
+    "Che può verificare se il testo trasmesso da una Camera all'altra è conforme a quello approvato",
+    "Che gli astenuti contano come presenti",
+    "Che l'ostruzionismo è sempre illecito"
+   ],
+   "corretta": 1,
+   "spiegazione": "La Corte è competente sul rispetto delle norme costituzionali sul procedimento legislativo."
+  },
+  {
+   "id": "u10-q058",
+   "tipo": "verofalso",
+   "lezione": "u10-l4",
+   "livello": "base",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "quorum-strutturale"
+   ],
+   "affermazione": "Il numero legale deve essere verificato all'inizio di ogni votazione.",
+   "vero": false,
+   "spiegazione": "È presunto, salvo che ne chieda la verifica un numero minimo di parlamentari."
+  },
+  {
+   "id": "u10-q059",
+   "tipo": "verofalso",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "votazioni-parlamentari"
+   ],
+   "affermazione": "Le sedute delle Camere possono essere segrete se la Camera lo delibera.",
+   "vero": true,
+   "spiegazione": "Art. 64, secondo comma."
+  },
+  {
+   "id": "u10-q060",
+   "tipo": "verofalso",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "ostruzionismo"
+   ],
+   "affermazione": "Per il manuale l'ostruzionismo è sempre contrario alle regole del gioco democratico.",
+   "vero": false,
+   "spiegazione": "È legittimo quando è l'ultima difesa contro misure liberticide; non lo è se persegue fini di parte."
+  },
+  {
+   "id": "u10-q061",
+   "tipo": "completa",
+   "lezione": "u10-l4",
+   "livello": "base",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "quorum-strutturale",
+    "quorum-deliberativo"
+   ],
+   "testo": "Le deliberazioni non sono valide se non è presente la maggioranza dei {{componenti}} e se non sono adottate a maggioranza dei {{presenti}} (art. {{64}})."
+  },
+  {
+   "id": "u10-q062",
+   "tipo": "completa",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "programmazione-dei-lavori"
+   ],
+   "testo": "Le Camere non possono deliberare su materie che non siano all'{{ordine del giorno}}."
+  },
+  {
+   "id": "u10-q063",
+   "tipo": "aperta",
+   "lezione": "u10-l4",
+   "livello": "avanzato",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "interna-corporis",
+    "regolamenti-parlamentari",
+    "quorum-deliberativo",
+    "ostruzionismo"
+   ],
+   "domanda": "Fino a che punto l'attività interna delle Camere è sottratta al controllo di altri poteri?",
+   "traccia": "Per la speciale indipendenza di cui godono le Camere, gli interna corporis, cioè gli atti e le attività compiuti al loro interno, non sono sindacabili: così il modo di determinare la maggioranza o l'esito delle votazioni. Lo stesso vale per i regolamenti parlamentari, che l'art. 134 non comprende tra gli atti sottoposti alla Corte costituzionale. Il manuale ne indica un effetto criticabile: la regola della Camera che esclude gli astenuti dal computo contrasta con l'art. 64, ma non può essere annullata, perché la Corte (sent. n. 78/1984) ha riconosciuto l'autonomia delle Camere sulle proprie procedure; anche i «pianisti» rispondono solo all'interno della Camera (sent. n. 379/1996). L'insindacabilità ha però un limite: la Corte è competente ad accertare l'osservanza delle norme costituzionali sul procedimento di formazione della legge, e può verificare che il testo trasmesso da una Camera all'altra sia quello effettivamente approvato (sent. n. 9/1959).",
+   "punti": [
+    {
+     "testo": "Nozione di interna corporis",
+     "chiavi": [
+      "intern",
+      "atti"
+     ]
+    },
+    {
+     "testo": "Indipendenza delle Camere",
+     "chiavi": [
+      "indipendenza",
+      "autonomia"
+     ]
+    },
+    {
+     "testo": "Regolamenti fuori dall'art. 134",
+     "chiavi": [
+      "134",
+      "regolament"
+     ]
+    },
+    {
+     "testo": "Esempio degli astenuti",
+     "chiavi": [
+      "astenut"
+     ]
+    },
+    {
+     "testo": "Limite: norme costituzionali sul procedimento legislativo",
+     "chiavi": [
+      "procedimento",
+      "9/1959",
+      "1959"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u10-q064",
+   "tipo": "ordina",
+   "lezione": "u10-l3",
+   "livello": "medio",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "legislatura",
+    "prorogatio",
+    "scioglimento-anticipato"
+   ],
+   "consegna": "Ordina i passaggi dalla fine di una legislatura all'inizio della successiva.",
+   "elementi": [
+    "Scadenza dei cinque anni o decreto di scioglimento anticipato",
+    "Prorogatio dei poteri delle Camere scadute",
+    "Elezioni entro settanta giorni",
+    "Prima riunione delle nuove Camere entro venti giorni dalle elezioni",
+    "Elezione dei Presidenti e degli Uffici di presidenza"
+   ],
+   "spiegazione": "La prorogatio copre l'intero intervallo fino alla prima riunione.",
+   "serie": "procedimenti"
+  },
+  {
+   "id": "u10-q065",
+   "tipo": "abbina",
+   "lezione": "u10-l4",
+   "livello": "base",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "quorum-strutturale",
+    "prorogatio",
+    "regolamenti-parlamentari",
+    "scioglimento-anticipato"
+   ],
+   "consegna": "Abbina l'articolo al contenuto.",
+   "coppie": [
+    [
+     "Art. 60",
+     "Durata e proroga in caso di guerra"
+    ],
+    [
+     "Art. 61",
+     "Prorogatio"
+    ],
+    [
+     "Art. 62",
+     "Riunioni di diritto e straordinarie"
+    ],
+    [
+     "Art. 63",
+     "Presidente e Ufficio di presidenza"
+    ],
+    [
+     "Art. 64",
+     "Regolamenti, numero legale, maggioranze"
+    ],
+    [
+     "Art. 88",
+     "Scioglimento anticipato"
+    ]
+   ]
+  },
+  {
+   "id": "u10-q501",
+   "tipo": "aperta",
+   "lezione": "u10-l1",
+   "livello": "avanzato",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "parlamento",
+    "camera-dei-deputati",
+    "senato",
+    "bicameralismo-paritario",
+    "legislatura",
+    "prorogatio",
+    "parlamento-in-seduta-comune",
+    "regolamenti-parlamentari",
+    "gruppi-parlamentari",
+    "commissioni-parlamentari"
+   ],
+   "domanda": "Come si conciliano autonomia delle Camere e bicameralismo paritario?",
+   "traccia": "Le due Camere sono organi distinti e normalmente lavorano separatamente. Ognuna adotta il proprio regolamento a maggioranza assoluta, organizza gruppi, commissioni e giunte e dispone di un Presidente che ne dirige i lavori. Questa autonomia non elimina la parità delle funzioni: per una legge occorre approvare lo stesso testo e il Governo deve avere la fiducia di entrambe. Le differenze di composizione e organizzazione non attribuiscono a una Camera una prevalenza generale. Il Parlamento in seduta comune svolge invece soltanto compiti tassativi, soprattutto elettorali e di garanzia, e non sostituisce le assemblee nella funzione fiduciaria o legislativa ordinaria. Anche la continuità segue regole comuni: la legislatura dura cinque anni, mentre la prorogatio mantiene i poteri fino alla riunione delle nuove Camere. L’organizzazione interna serve quindi a rendere possibile l’esercizio di attribuzioni costituzionali che restano coordinate ma distinte.",
+   "punti": [
+    {
+     "testo": "Autonomia regolamentare",
+     "chiavi": [
+      "regolamento",
+      "assoluta"
+     ]
+    },
+    {
+     "testo": "Parità di funzioni",
+     "chiavi": [
+      "testo",
+      "fiducia"
+     ]
+    },
+    {
+     "testo": "Seduta comune tassativa",
+     "chiavi": [
+      "seduta comune",
+      "tassativi"
+     ]
+    },
+    {
+     "testo": "Continuità",
+     "chiavi": [
+      "prorogatio",
+      "nuove camere"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u10-q502",
+   "tipo": "multipla",
+   "lezione": "u10-l1",
+   "livello": "medio",
+   "pagine": [
+    79,
+    81
+   ],
+   "concetti": [
+    "interpellanza"
+   ],
+   "domanda": "Un parlamentare domanda al Governo perché abbia adottato una scelta di politica generale. Quale strumento è particolarmente coerente?",
+   "opzioni": [
+    "Interpellanza",
+    "Sentenza di condanna",
+    "Promulgazione",
+    "Proroga della legislatura"
+   ],
+   "corretta": 0,
+   "spiegazione": "L’interpellanza riguarda motivi e intendimenti della condotta del Governo."
+  },
+  {
+   "id": "u10-q503",
+   "tipo": "flashcard",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "gruppi-parlamentari"
+   ],
+   "domanda": "Perché il gruppo parlamentare non può revocare il mandato del dissenziente?",
+   "risposta": "Il divieto di mandato imperativo protegge il parlamentare: le conseguenze possono riguardare gruppo o partito, non una decadenza dal seggio per il dissenso."
+  },
+  {
+   "id": "u10-q504",
+   "tipo": "flashcard",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "inchieste-parlamentari"
+   ],
+   "domanda": "Perché un’inchiesta parlamentare non è un processo penale?",
+   "risposta": "Può usare i poteri e incontra i limiti dell’autorità giudiziaria per indagini ed esami, ma esercita una funzione parlamentare e non emette condanne giudiziarie."
+  },
+  {
+   "id": "u10-q505",
+   "tipo": "verofalso",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "inchieste-parlamentari"
+   ],
+   "affermazione": "Una commissione d’inchiesta può infliggere una condanna penale come il tribunale.",
+   "vero": false,
+   "spiegazione": "I poteri d’indagine non la trasformano in un giudice penale."
+  },
+  {
+   "id": "u10-q506",
+   "lezione": "u10-l2",
+   "livello": "medio",
+   "pagine": [
+    81,
+    83
+   ],
+   "concetti": [
+    "gruppi-parlamentari",
+    "divieto-di-mandato-imperativo",
+    "commissioni-parlamentari"
+   ],
+   "tipo": "aperta",
+   "domanda": "Che cosa sono i gruppi parlamentari e quale ruolo hanno nelle Camere?",
+   "traccia": "I gruppi parlamentari riuniscono i deputati o i senatori che aderiscono alla **stessa formazione politica**. La Costituzione li presuppone quando chiede che le commissioni siano composte **in proporzione ai gruppi** (artt. 72 e 82); la disciplina sta nei **regolamenti parlamentari**.\n\n**Costituzione del gruppo.** Ogni parlamentare deve dichiarare a quale gruppo appartiene (alla Camera entro due giorni dalla prima seduta); chi non sceglie entra nel **gruppo misto**. Serve un numero minimo di iscritti: gli appunti indicano venti deputati, con possibili deroghe autorizzate dall'Ufficio di presidenza per i partiti organizzati nel Paese; dopo la riduzione dei parlamentari la soglia della Camera scende a quattordici dalla prossima legislatura e al Senato bastano sei senatori.\n\n**Doppia natura.** Il gruppo è insieme **organo della Camera** e **proiezione del partito** in Parlamento: è l'anello di collegamento tra partiti e istituzioni.\n\n**Funzioni.** I gruppi designano i propri rappresentanti nelle commissioni e nelle giunte; i loro presidenti, nella **Conferenza dei capigruppo**, programmano i lavori; devono essere rappresentati nell'Ufficio di presidenza.\n\n**Disciplina di gruppo e libero mandato.** Il gruppo fa valere in aula la linea del partito, ma l'**art. 67** vieta il mandato imperativo: il parlamentare che vota in dissenso non perde il seggio. La sanzione più grave è l'**espulsione** dal gruppo, che pesa sulla futura candidatura. Da qui il fenomeno delle «migrazioni» da un gruppo all'altro.",
+   "punti": [
+    {
+     "testo": "Parlamentari della stessa formazione politica; base negli artt. 72 e 82 e nei regolamenti",
+     "chiavi": [
+      "72",
+      "82",
+      "regolament"
+     ]
+    },
+    {
+     "testo": "Dichiarazione di appartenenza e gruppo misto",
+     "chiavi": [
+      "misto",
+      "dichiara"
+     ]
+    },
+    {
+     "testo": "Numero minimo di iscritti, con deroghe",
+     "chiavi": [
+      "minimo",
+      "venti",
+      "derog"
+     ]
+    },
+    {
+     "testo": "Doppia natura: organo della Camera e proiezione del partito",
+     "chiavi": [
+      "partito",
+      "organo"
+     ]
+    },
+    {
+     "testo": "Designano i membri delle commissioni; Conferenza dei capigruppo",
+     "chiavi": [
+      "commissioni",
+      "capigruppo"
+     ]
+    },
+    {
+     "testo": "Art. 67: disciplina di gruppo senza perdita del seggio; espulsione",
+     "chiavi": [
+      "67",
+      "mandato",
+      "espulsion"
+     ]
+    }
+   ],
+   "esame": [
+    "torre"
+   ]
+  },
+  {
+   "id": "u10-q507",
+   "lezione": "u10-l3",
+   "livello": "avanzato",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "prorogatio",
+    "legislatura"
+   ],
+   "tipo": "multipla",
+   "domanda": "Sono passati i cinque anni della legislatura e le nuove Camere non si sono ancora riunite. Che cosa succede ai poteri delle Camere uscenti?",
+   "opzioni": [
+    "Cessano del tutto: decide il Governo con decreti",
+    "Sono prorogati finché non si riuniscono le nuove Camere",
+    "Passano al Presidente della Repubblica",
+    "Sono prorogati solo se lo stabilisce una legge"
+   ],
+   "corretta": 1,
+   "spiegazione": "È la prorogatio dell'art. 61, secondo comma. Non va confusa con la proroga della durata delle Camere, possibile solo per legge e in caso di guerra (art. 60)."
+  },
+  {
+   "id": "u10-q508",
+   "tipo": "completa",
+   "lezione": "u10-l3",
+   "livello": "base",
+   "pagine": [
+    84,
+    86
+   ],
+   "concetti": [
+    "legislatura"
+   ],
+   "testo": "La legislatura dura normalmente {{cinque|5}} anni; le elezioni seguono entro {{settanta|70}} giorni dalla fine e la prima riunione entro {{venti|20}} giorni dalle elezioni.",
+   "spiegazione": "I due termini dell’art. 61 decorrono da eventi diversi."
+  },
+  {
+   "id": "u10-q509",
+   "tipo": "multipla",
+   "lezione": "u10-l4",
+   "livello": "medio",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "quorum-funzionale"
+   ],
+   "domanda": "Una proposta richiede la maggioranza assoluta dei componenti. Molti si astengono: il numero di voti favorevoli necessario diminuisce?",
+   "opzioni": [
+    "Sì, sempre",
+    "No, il riferimento resta ai componenti",
+    "Sì, se lo richiede il Governo",
+    "Solo perché il voto è palese"
+   ],
+   "corretta": 1,
+   "spiegazione": "Il quorum speciale riferito ai componenti non si trasforma in maggioranza dei soli votanti."
+  },
+  {
+   "id": "u10-q510",
+   "tipo": "completa",
+   "lezione": "u10-l4",
+   "livello": "base",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "quorum-strutturale",
+    "quorum-funzionale"
+   ],
+   "testo": "Il quorum {{strutturale}} riguarda il numero legale; quello {{funzionale|deliberativo}} la maggioranza per approvare. Entrambi sono regolati dall'art. {{64}}.",
+   "spiegazione": "Non si confonde validità della deliberazione con esito del voto."
+  },
+  {
+   "id": "u10-q511",
+   "tipo": "abbina",
+   "lezione": "u10-l4",
+   "livello": "base",
+   "pagine": [
+    86,
+    88
+   ],
+   "concetti": [
+    "quorum-strutturale",
+    "quorum-funzionale",
+    "votazioni-parlamentari",
+    "interna-corporis"
+   ],
+   "consegna": "Abbina la norma o la sentenza al suo oggetto.",
+   "coppie": [
+    [
+     "Art. 64",
+     "Numero legale e maggioranza per deliberare"
+    ],
+    [
+     "Art. 88",
+     "Scioglimento anticipato e semestre bianco"
+    ],
+    [
+     "Art. 94",
+     "Fiducia votata per appello nominale"
+    ],
+    [
+     "Sent. n. 9/1959",
+     "Controllo sul testo trasmesso da una Camera all'altra"
+    ]
+   ]
+  }
+ ]
 }

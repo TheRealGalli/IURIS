@@ -1,0 +1,58 @@
+{
+  "voci": [
+    {
+      "id": "giudizio-incidentale",
+      "oltre": "### Un controllo costituzionale dentro un processo\nIl giudizio incidentale nasce quando un giudice deve applicare una disposizione legislativa rilevante per decidere una controversia e dubita della sua compatibilità costituzionale. Il giudice valuta rilevanza e non manifesta infondatezza, motivando la rimessione alla Corte.\n\nLa parte può sollecitare la questione, ma non dispone di un ricorso diretto generalizzato alla Corte per ogni lesione lamentata. La [[rilevanza-costituzionale]] collega il controllo al processo di origine: una norma estranea alla decisione non diventa scrutinabile soltanto perché appare ingiusta. Il giudice deve inoltre confrontarsi con le possibilità interpretative consentite dal testo. Il processo comune e quello costituzionale svolgono così funzioni diverse e coordinate: la Corte risolve la questione di legittimità, mentre la controversia torna al giudice competente per la decisione.",
+      "daSapere": [
+        "Giudice rimettente: rilevanza e non manifesta infondatezza",
+        "La richiesta della parte non basta da sola",
+        "Controllo sulla legge distinto dalla decisione della controversia"
+      ],
+      "collegamenti": [
+        {
+          "da": "giudizio-incidentale",
+          "a": "rilevanza-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "richiede la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 134 e 137",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "Legge 87/1953, art. 23",
+          "url": "https://www.normattiva.it/eli/id/1953/03/14/053U0087/CONSOLIDATED"
+        }
+      ]
+    },
+    {
+      "id": "rinvio-pregiudiziale-ue",
+      "oltre": "### Cooperare per applicare il diritto dell’Unione\nIl rinvio permette al giudice nazionale di interrogare la giurisdizione dell’Unione sull’interpretazione del diritto UE o sulla validità di atti dell’Unione, quando la risposta sia necessaria alla decisione. Il processo nazionale offre il contesto concreto, ma la questione sottoposta riguarda il significato o la validità della norma europea.\n\nLa pronuncia pregiudiziale non sostituisce ordinariamente il giudice nella ricostruzione dei fatti e nella soluzione finale della controversia. Il confronto con il [[giudizio-incidentale]] italiano chiarisce che cambiano oggetto, parametro e autorità competente. Il rinvio contribuisce all’applicazione uniforme del diritto UE e tutela la cooperazione fra giudici: non è un normale grado di appello contro la sentenza nazionale. Per valutarlo occorre formulare la questione giuridica che serve al giudice, oltre a descrivere l’esito desiderato dalla parte.",
+      "daSapere": [
+        "Interpretazione del diritto UE o validità dei suoi atti",
+        "Il giudice nazionale decide la controversia",
+        "Rinvio pregiudiziale e giudizio costituzionale hanno oggetti diversi"
+      ],
+      "collegamenti": [
+        {
+          "da": "rinvio-pregiudiziale-ue",
+          "a": "corte-di-giustizia-ue",
+          "tipo": "collegato",
+          "etichetta": "attiva la cooperazione con la"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 11 e 117",
+          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+        },
+        {
+          "titolo": "TFUE, art. 267, EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12012E267"
+        }
+      ]
+    }
+  ]
+}

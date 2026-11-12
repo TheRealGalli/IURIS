@@ -3,6 +3,13 @@
 Questo file raccoglie quello che serve per lavorare bene sul progetto senza dover riscoprire tutto.
 Sono consigli e scorciatoie, non vincoli rigidi: se trovi un modo migliore, usalo e aggiorna questo file.
 
+## Costituzionale unica e testo IURIS (12 novembre 2026)
+
+Le due costituzionali sono state unite in `Diritto Costituzionale/` (ossatura Martines, temi A-L integrati,
+id Martines invariati, `migrazione.json` per i progressi A-L) e l'Originale è un testo scritto da noi
+(`studio/letture-src/testi/costituzionale-iuris.txt`, controllato con `piani/strumenti/controlla-iuris.py`).
+Metodo e gruppi in `piani/costituzionale-unica.md`: è lo schema da riusare per privato e romano.
+
 ## PIANO FINALE (dall'11 novembre 2026) — completato il 12 novembre 2026
 
 Stato: fasi 0–5 completate, tre classi selezionabili, `check:build` verde. Misure in `piani/stato-qualita.md`,
@@ -20,7 +27,7 @@ fase, finché la «Definizione di fatto» in fondo è vera per ogni materia. Sta
 |---|---|---|---|---|
 | Storia del diritto romano | ✔ (Alessandrì) | ✔ (Starace) | ✔ (Starace) | `Diritto Romano ` (**una sola materia, comune**) |
 | Diritto privato | ✔ (Lobuono) | ✔ (Pennasilico) | ✔ (Lobuono) | `Diritto Privato` (**comune**) |
-| Diritto costituzionale | Bin-Pitruzzella (Torre) | **Martines** (Rodio) | **Martines** (Bonomi) | `Diritto Costituzionale` (A-L) · **`Diritto Costituzionale Martines`** (M-Z e SSG, nuova, comune alle due) |
+| Diritto costituzionale | Torre (manuale a scelta) | Martines (Rodio) | Martines (Bonomi) | `Diritto Costituzionale` (**una sola materia, comune** dal 12 novembre 2026: vedi `piani/costituzionale-unica.md`) |
 | Filosofia del diritto | Incampo/Moro/Cotta | **Barberis + Schauer** (Mangini) | Siniscalchi + Incampo | `Filosofia del Diritto` · **`Filosofia del Diritto MZ`** (nuova) · `Filosofia del Diritto SSG` |
 
 Docenti come in `studio/src/data/corsi.ts`; Carlo ha indicato che Martines vale per M-Z **e** SSG: una sola materia

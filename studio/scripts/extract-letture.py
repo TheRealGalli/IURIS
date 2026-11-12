@@ -83,6 +83,28 @@ def format_paragraph(lines: list[str], first: bool) -> str:
     return f'## {result}' if heading else result
 
 
+def markdown_blocks(text: str) -> list[str]:
+    """Testo già scritto in Markdown (opzione `testoMarkdown`, es. il testo IURIS di costituzionale).
+
+    Un blocco per capoverso (righe vuote); titoli `#`, tabelle `|` e capoversi restano come sono, «• » diventa «- ».
+    Una voce d'elenco seguita senza riga vuota da una riga normale: quella riga apre un blocco nuovo
+    (altrimenti finirebbe dentro l'ultima voce). Nessuna riga viene tolta come intestazione o piè di pagina.
+    """
+    blocks = []
+    for paragraph in re.split(r'\n\s*\n', text.strip()):
+        lines = [line.rstrip() for line in paragraph.splitlines() if line.strip()]
+        current: list[str] = []
+        for line in lines:
+            bullet = re.match(r'^[•●▪◦-]\s+', line)
+            if current and not bullet and not line.startswith('|') and re.match(r'^- ', current[-1]):
+                blocks.append('\n'.join(current))
+                current = []
+            current.append(re.sub(r'^[•●▪◦]\s+', '- ', line) if bullet else line)
+        if current:
+            blocks.append('\n'.join(current))
+    return blocks
+
+
 def ocr_layouts(path: Path, pagine: int) -> list[str]:
     """Legge il testo OCR diviso per pagina; le righe vuote separano i paragrafi."""
     parts = re.split(r'^=== pagina (\d+) ===\n', path.read_text(), flags=re.M)
@@ -164,6 +186,16 @@ def main() -> None:
         # Il riferimento completo resta nel catalogo; non serve ripeterlo ad ogni pagina.
         pages, page_report = {}, []
         for number, layout in enumerate(layouts, 1):
+            if doc.get('testoMarkdown'):
+                cleaned, removed = layout.strip(), []
+                blocks = [{'id': f'p{number:03d}-b{i:03d}', 'pagina': number, 'markdown': md}
+                          for i, md in enumerate(markdown_blocks(cleaned), 1)]
+                source_tokens = tokens(cleaned)
+                if source_tokens != tokens('\n'.join(b['markdown'] for b in blocks)):
+                    raise ValueError(f"Contenuto perso o spostato in {doc['id']} pagina {number}")
+                pages[number] = blocks
+                page_report.append({'pagina': number, 'blocchi': len(blocks), 'parole': len(source_tokens), 'caratteri': len(compact(cleaned)), 'rimossi': [], 'coperturaToken': True})
+                continue
             cleaned, removed = strip_boilerplate(layout, repeated)
             if doc.get('dividiTitoli'):
                 # Testo giustificato senza righe vuote (es. riassunto di Martines): un capoverso nuovo

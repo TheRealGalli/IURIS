@@ -390,6 +390,29 @@ function buildCorso(materiaDir, materiaSlug, nomeCartella) {
   }
   if (!corso.esame) for (const q of conEsame) delete q.esame;
 
+  // migrazione.json: come portare i progressi salvati con id vecchi o sotto un'altra materia (vedi CONTENUTI.md).
+  // Un file sbagliato ferma la materia: senza la tabella giusta i progressi di chi studia si mescolerebbero.
+  const migrazione = facoltativo('migrazione.json');
+  if (migrazione) {
+    const tab = (t) => t === 'uguali' || (t && typeof t === 'object' && !Array.isArray(t)
+      && Object.entries(t).every(([k, v]) => k && (v === null || typeof v === 'string')));
+    const valida = Number.isSafeInteger(migrazione.versione) && migrazione.versione >= 2 && Array.isArray(migrazione.da)
+      && migrazione.da.length > 0 && migrazione.da.every((d) => d && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(d.materia ?? '')
+        && (d.finoAVersione === undefined || Number.isSafeInteger(d.finoAVersione)) && tab(d.lezioni) && tab(d.domande));
+    if (!valida) throw new Error('migrazione.json non valido: servono "versione" (intero ≥ 2) e "da" [{ materia, lezioni, domande }] con "uguali" o una tabella { vecchio id: nuovo id | null }');
+    const lezIds = new Set(lezioni.map((l) => l.id)), domIds = new Set(domande.map((q) => q.id));
+    for (const d of migrazione.da) {
+      const verso = (t, ids, cosa) => {
+        if (t === 'uguali') return;
+        const ignoti = [...new Set(Object.values(t).filter((v) => v !== null && /^u\d+[-_]/.test(v) && !ids.has(v)))];
+        if (ignoti.length) avvisi.push(`migrazione.json (${d.materia}): ${ignoti.length} ${cosa} di destinazione inesistenti: ${ignoti.slice(0, 8).join(', ')}${ignoti.length > 8 ? '…' : ''}`);
+      };
+      verso(d.lezioni, lezIds, 'lezioni'); verso(d.domande, domIds, 'domande');
+    }
+    corso.migrazione = { versione: migrazione.versione, da: migrazione.da.map((d) => ({ materia: d.materia,
+      ...(d.finoAVersione !== undefined ? { finoAVersione: d.finoAVersione } : {}), lezioni: d.lezioni, domande: d.domande })) };
+  }
+
   const quadro = facoltativo('quadro.json');
   if (quadro) {
     const pulisci = (x, dove) => { if (x && typeof x === 'object') { if ('concetto' in x) x.concetto = voce(x.concetto, dove); for (const v of Object.values(x)) (Array.isArray(v) ? v : [v]).forEach((y) => pulisci(y, dove)); } };
@@ -452,6 +475,10 @@ for (const entry of fs.readdirSync(iurisRoot, { withFileTypes: true })) {
     slug: materiaSlug, nome: corso.materia.nome, breve: corso.materia.breve ?? corso.materia.nome,
     colore: corso.materia.colore ?? null, disponibile: true, fonti,
     file: `content/${materiaSlug}/corso.json`, stats,
+    // Nel manifest solo la descrizione (le tabelle stanno in corso.json): serve all'avvio per la materia scelta
+    // e per fondere le materie confluite.
+    ...(corso.migrazione ? { migrazione: { versione: corso.migrazione.versione, da: corso.migrazione.da.map((d) => ({ ...d,
+      lezioni: d.lezioni === 'uguali' ? 'uguali' : 'tabella', domande: d.domande === 'uguali' ? 'uguali' : 'tabella' })) } } : {}),
   });
   console.log(`[sync] ${corso.materia.nome}: ${stats.unita} unità, ${stats.lezioni} lezioni, ${stats.pagine} pagine, ${stats.concetti} concetti, ${stats.domande} domande`);
   for (const a of avvisi) console.warn(`[sync]   avviso: ${a}`);

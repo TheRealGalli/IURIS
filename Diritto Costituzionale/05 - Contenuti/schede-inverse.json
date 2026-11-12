@@ -1,11 +1,939 @@
 [
   {
-    "concetto": "legittimazione",
-    "definizione": "Giustificazione riconosciuta dell'autorità, che spiega perché i governati obbediscono ai comandi senza bisogno della forza."
+    "concetto": "interesse-collettivo",
+    "definizione": "Interesse che il singolo non può soddisfare da solo ma soltanto, prevalentemente o esclusivamente, in forma associata, come quello degli iscritti a un sindacato."
+  },
+  {
+    "concetto": "interesse-generale",
+    "definizione": "Interesse del gruppo considerato come entità a sé stante, che trascende i singoli e racchiude tutti gli altri: proprio delle società politiche e soprattutto dello Stato."
+  },
+  {
+    "concetto": "principio-ordinatore",
+    "definizione": "Principio che, senza annullarlo, disciplina il conflitto fra gli interessi e assicura la coesione interna del gruppo; può operare come tirannia, oligarchia o democrazia."
+  },
+  {
+    "concetto": "ubi-societas-ibi-ius",
+    "definizione": "Brocardo latino secondo cui il fenomeno giuridico è connaturato al fenomeno associativo: dove c'è un gruppo sociale organizzato, lì c'è anche un ordinamento."
+  },
+  {
+    "concetto": "regole-organizzative",
+    "definizione": "Regole che fissano strutture e procedure per comporre gli interessi senza esprimere giudizi di valore: per esempio l'art. 70 Cost. sull'esercizio della funzione legislativa."
+  },
+  {
+    "concetto": "regole-istituzionali",
+    "definizione": "Regole con cui il gruppo esprime un giudizio di valore, stabilendo quali interessi vanno tutelati a preferenza di altri, per esempio attribuendo diritti ai soggetti."
+  },
+  {
+    "concetto": "teoria-istituzionale",
+    "definizione": "Concezione per cui ogni gruppo sociale organizzato crea un proprio ordinamento: il diritto non si esaurisce nelle norme ed è anzitutto organizzazione (Gierke, Santi Romano)."
+  },
+  {
+    "concetto": "dottrina-pura-del-diritto",
+    "definizione": "Teoria kelseniana per cui il diritto si esaurisce in un sistema di norme intese come comandi, studiate separandole da sociologia, politica e morale."
+  },
+  {
+    "concetto": "grundnorm",
+    "definizione": "Nella teoria di Kelsen, la norma suprema non posta ma presupposta, con riferimento a una costituzione statuita ed efficace, da cui deriva la validità di tutte le altre."
+  },
+  {
+    "concetto": "stufenbau",
+    "definizione": "Struttura dell'ordinamento in cui ogni norma è condizionata da una superiore e condiziona una inferiore, fino alla norma fondamentale presupposta (Merkl e Kelsen)."
+  },
+  {
+    "concetto": "costituzione-materiale",
+    "definizione": "Per Mortati, il nucleo essenziale di fini e di forze che regge un ordinamento positivo: le forze politiche dominanti e lo scopo unificatore che esse perseguono."
+  },
+  {
+    "concetto": "costituzione-come-processo",
+    "definizione": "Lettura dinamica della carta fondamentale come catena di anelli, dal testo originario all'assetto effettivo, per cui dall'ultimo anello si può sempre risalire al primo."
+  },
+  {
+    "concetto": "pluralismo-giuridico",
+    "definizione": "Tesi che riconosce, accanto a quello statale, ordinamenti di altri gruppi sociali (enti territoriali, confessioni religiose), opponendosi alla statualità del diritto."
+  },
+  {
+    "concetto": "stato-costituzionale",
+    "definizione": "Lo Stato inteso oggi come unione di popolo, autorità e valori posti a fondamento dell'ordinamento, unica società con interessi veramente generali."
+  },
+  {
+    "concetto": "pubblicizzazione-del-diritto-privato",
+    "definizione": "Tendenza per cui la disciplina dei rapporti fra privati diventa sempre più di interesse generale, sfumando la distinzione risalente a Ulpiano."
+  },
+  {
+    "concetto": "diritto-positivo",
+    "definizione": "Il diritto effettivamente vigente in un dato luogo e tempo, posto dagli organi che l'ordinamento incarica di produrlo, contrapposto a quello fondato sulla natura."
+  },
+  {
+    "concetto": "effettivita",
+    "definizione": "Concreta efficacia di una norma, che è osservata dalla maggior parte dei destinatari; nel diritto internazionale è il criterio per riconoscere un nuovo Stato."
+  },
+  {
+    "concetto": "coattivita",
+    "definizione": "Carattere della norma giuridica il cui precetto può essere eseguito anche contro la volontà del destinatario, attraverso l'applicazione di sanzioni."
+  },
+  {
+    "concetto": "generalita-e-astrattezza",
+    "definizione": "Caratteri della norma che si rivolge a una classe indeterminata di destinatari e regola un tipo di situazione ripetibile, non un caso singolo."
+  },
+  {
+    "concetto": "legge-provvedimento",
+    "definizione": "Atto approvato dal Parlamento con forza di legge ma rivolto a destinatari determinati per un caso concreto; la Corte lo sottopone a uno scrutinio stretto di ragionevolezza."
+  },
+  {
+    "concetto": "disposizione",
+    "definizione": "Il testo dell'atto normativo, cioè l'enunciato scritto in uno o più articoli, dal quale l'interprete ricava uno o più significati applicabili."
+  },
+  {
+    "concetto": "fonti-sulla-produzione",
+    "definizione": "Norme che stabiliscono quali organi possono produrre diritto, con quale procedimento ed entro quali limiti; stanno di regola nella Costituzione."
+  },
+  {
+    "concetto": "fonti-di-cognizione",
+    "definizione": "Documenti ufficiali, come la Gazzetta Ufficiale, che raccolgono e fanno conoscere i testi normativi senza produrre diritto."
+  },
+  {
+    "concetto": "criterio-gerarchico",
+    "definizione": "Criterio per risolvere i contrasti fra fonti per cui l'atto di grado superiore prevale su quello inferiore, che diventa invalido e va annullato."
+  },
+  {
+    "concetto": "criterio-cronologico",
+    "definizione": "Criterio per cui, tra fonti dello stesso grado, prevale la più recente, che fa cessare l'efficacia della precedente (art. 15 delle preleggi)."
+  },
+  {
+    "concetto": "consuetudine",
+    "definizione": "Fonte non scritta formata da un comportamento generale, costante e uniforme, tenuto con la convinzione che sia giuridicamente doveroso."
+  },
+  {
+    "concetto": "desuetudine",
+    "definizione": "Inosservanza diffusa e prolungata di una norma da parte dei destinatari; secondo l'opinione prevalente non basta a far cessare una legge scritta."
+  },
+  {
+    "concetto": "opinio-iuris",
+    "definizione": "Elemento soggettivo che, insieme alla ripetizione costante di un comportamento, forma una fonte non scritta: la convinzione di chi tiene un comportamento ripetuto che esso sia giuridicamente obbligatorio."
+  },
+  {
+    "concetto": "convenzioni-costituzionali",
+    "definizione": "Regole di condotta tra organi supremi nate da accordi politici, espressi o taciti, la cui violazione produce conseguenze politiche e non giuridiche."
+  },
+  {
+    "concetto": "prassi-costituzionale",
+    "definizione": "Serie di comportamenti concreti con cui gli organi supremi mostrano come intendono le proprie funzioni, senza la continuità e la convinzione di obbligatorietà della consuetudine."
+  },
+  {
+    "concetto": "precedente",
+    "definizione": "Fatto o atto singolo al quale un organo si uniforma in circostanze uguali: modello di comportamento che, in Italia, non vincola come nei sistemi di common law."
+  },
+  {
+    "concetto": "taglia-leggi",
+    "definizione": "Meccanismo della legge n. 246 del 2005 che ha abrogato in blocco le leggi statali anteriori al 1970 non espressamente salvate dal Governo."
+  },
+  {
+    "concetto": "necessita-fonte",
+    "definizione": "Fatto normativo che giustificherebbe misure altrimenti contrarie al sistema delle fonti; Santi Romano lo teorizzò dopo il terremoto di Messina del 1908."
+  },
+  {
+    "concetto": "nomofilachia",
+    "definizione": "Funzione della Corte di cassazione di assicurare l'esatta osservanza e l'uniforme interpretazione della legge e l'unità del diritto oggettivo nazionale."
+  },
+  {
+    "concetto": "equita",
+    "definizione": "Potere eccezionale del giudice di decidere creando la regola del caso concreto secondo giustizia e ragionevolezza, nei soli casi ammessi dalla legge."
+  },
+  {
+    "concetto": "adattamento-automatico",
+    "definizione": "Meccanismo dell'art. 10 Cost. per cui le norme internazionali generalmente riconosciute entrano da sole nel nostro ordinamento: un «trasformatore permanente»."
+  },
+  {
+    "concetto": "ordine-di-esecuzione",
+    "definizione": "Formula, di solito contenuta nella legge di autorizzazione alla ratifica, con cui lo Stato rende applicabile nell'ordinamento interno un trattato internazionale, rinviando al suo testo."
+  },
+  {
+    "concetto": "rinvio-mobile",
+    "definizione": "Rinvio a una norma straniera di cui si indicano solo i criteri per individuarla, così che si applica come vige nel suo ordinamento, seguendone le modifiche."
+  },
+  {
+    "concetto": "rinvio-fisso",
+    "definizione": "Rinvio con cui la norma interna fa proprio il contenuto di una norma straniera, che viene così nazionalizzata e resta ferma anche se l'originale cambia."
+  },
+  {
+    "concetto": "legge-rinforzata",
+    "definizione": "Legge ordinaria che richiede un iter più gravoso o la partecipazione di altri soggetti (intese, maggioranze speciali) e resiste all'abrogazione da parte di leggi comuni."
+  },
+  {
+    "concetto": "preleggi",
+    "definizione": "Trentuno articoli premessi al Codice civile del 1942 (r.d. n. 262), con le regole su fonti, interpretazione, irretroattività e abrogazione."
+  },
+  {
+    "concetto": "ratio-legis",
+    "definizione": "Lo scopo oggettivo di una norma, ricavato dal testo e dal sistema, che guida l'interprete al di là della volontà storica di chi la scrisse."
+  },
+  {
+    "concetto": "analogia",
+    "definizione": "Procedimento con cui il giudice decide un caso non regolato applicando la norma prevista per casi simili o, in mancanza, i principi generali dell'ordinamento."
+  },
+  {
+    "concetto": "interpretazione-autentica",
+    "definizione": "Legge con cui il legislatore stesso fissa il significato di un testo precedente, vincolando tutti con effetto retroattivo, entro i limiti della ragionevolezza."
+  },
+  {
+    "concetto": "lacuna-normativa",
+    "definizione": "Mancanza di una norma che regoli il caso concreto; il giudice non può rifiutarsi di decidere e la colma con l'analogia o i principi generali."
+  },
+  {
+    "concetto": "irretroattivita",
+    "definizione": "Principio per cui la legge dispone solo per l'avvenire; ha rango costituzionale soltanto in materia penale (art. 25)."
+  },
+  {
+    "concetto": "abrogazione",
+    "definizione": "Cessazione dell'efficacia di una legge, per il futuro, a opera di una legge successiva, per dichiarazione espressa, incompatibilità o nuova disciplina dell'intera materia, o per referendum."
+  },
+  {
+    "concetto": "territorialita-della-legge",
+    "definizione": "Principio per cui le norme dello Stato si applicano nell'ambito in cui esso esercita la sovranità, temperato dal diritto internazionale privato e dalle immunità."
+  },
+  {
+    "concetto": "legge-delegazione-europea",
+    "definizione": "Legge annuale, prevista dalla legge n. 234 del 2012, con cui il Parlamento delega il Governo a recepire le direttive europee."
+  },
+  {
+    "concetto": "diretta-applicabilita",
+    "definizione": "Carattere del regolamento europeo, efficace negli Stati membri per il solo fatto della sua emanazione, senza bisogno di atti nazionali di recepimento."
+  },
+  {
+    "concetto": "controlimiti",
+    "definizione": "Principi fondamentali della Costituzione e diritti inalienabili della persona che il diritto europeo e internazionale non può violare."
+  },
+  {
+    "concetto": "soggettivita-giuridica",
+    "definizione": "Complesso delle situazioni attive e passive che le norme attribuiscono a un centro di imputazione di interessi, rendendolo titolare di diritti e doveri."
+  },
+  {
+    "concetto": "capacita-giuridica",
+    "definizione": "Attitudine a essere titolari di situazioni giuridiche attive e passive, che si acquista al momento della nascita (art. 1 c.c.)."
+  },
+  {
+    "concetto": "capacita-di-agire",
+    "definizione": "Attitudine a compiere direttamente atti produttivi di effetti giuridici, che si acquista al compimento del diciottesimo anno (art. 2 c.c.)."
+  },
+  {
+    "concetto": "persona-giuridica",
+    "definizione": "Ente collettivo, associazione o fondazione, cui l'ordinamento riconosce soggettività: creazione del diritto, pubblica o privata secondo i fini."
+  },
+  {
+    "concetto": "potere-giuridico",
+    "definizione": "Situazione attiva astratta e potenziale, riconosciuta a tutti o a categorie di soggetti per un interesse proprio o altrui, come la facoltà di fare testamento o di eleggere i rappresentanti."
+  },
+  {
+    "concetto": "diritto-affievolito",
+    "definizione": "Diritto pieno e azionabile che, quando sorge un interesse pubblico attuale, può essere sacrificato o convertito, come la proprietà espropriata con indennizzo."
+  },
+  {
+    "concetto": "dovere-giuridico",
+    "definizione": "Situazione passiva che grava su una generalità di soggetti, determinabili solo in seguito, come la difesa della Patria."
+  },
+  {
+    "concetto": "obbligo",
+    "definizione": "Situazione passiva di un soggetto determinato tenuto a un comportamento verso un altro, che ha il diritto soggettivo di pretenderlo."
+  },
+  {
+    "concetto": "rapporto-giuridico",
+    "definizione": "Relazione tra il titolare di una situazione attiva e quello della corrispondente situazione passiva; è pubblica se vi partecipa un soggetto pubblico regolato da norme pubblicistiche."
+  },
+  {
+    "concetto": "stato-di-polizia",
+    "definizione": "Forma razionalizzata dello Stato assoluto, propria del dispotismo illuminato, che promuove dall'alto il benessere dei sudditi senza la loro partecipazione."
+  },
+  {
+    "concetto": "stato-federale",
+    "definizione": "Stato composto in cui più Stati membri, dotati di propria costituzione, danno vita a un ente centrale sovrapposto e preminente, come negli Stati Uniti o in Germania."
+  },
+  {
+    "concetto": "stato-regionale",
+    "definizione": "Stato unitario decentrato in cui enti territoriali intermedi hanno potestà legislativa e amministrativa, ma non sovranità, nei limiti della Costituzione."
+  },
+  {
+    "concetto": "confederazione-di-stati",
+    "definizione": "Unione fondata su un trattato fra Stati che restano sovrani, con organi comuni che deliberano di regola all'unanimità, soprattutto per la difesa."
+  },
+  {
+    "concetto": "mare-territoriale",
+    "definizione": "Fascia di acque adiacente alle coste soggetta alla sovranità dello Stato, ampia in Italia 12 miglia, dove le navi straniere hanno diritto di passaggio inoffensivo."
+  },
+  {
+    "concetto": "ius-sanguinis",
+    "definizione": "Criterio di attribuzione della cittadinanza per filiazione: è cittadino chi nasce da padre o madre cittadini, ovunque nasca."
+  },
+  {
+    "concetto": "ius-soli",
+    "definizione": "Criterio di attribuzione della cittadinanza per nascita nel territorio dello Stato; in Italia opera solo in casi residuali, come i figli di genitori ignoti."
+  },
+  {
+    "concetto": "apolide",
+    "definizione": "Persona che non ha la cittadinanza di alcuno Stato; in Italia gode dei diritti inviolabili e può naturalizzarsi dopo cinque anni di residenza legale."
+  },
+  {
+    "concetto": "nazione",
+    "definizione": "Comunità fondata su lingua, cultura, storia e tradizioni comuni, che può preesistere allo Stato; secondo l'art. 67 Cost. ogni parlamentare la rappresenta."
   },
   {
     "concetto": "sovranita",
-    "definizione": "Carattere dello Stato che unisce la supremazia su ogni altro potere all'interno e l'indipendenza verso l'esterno."
+    "definizione": "Carattere dell'ordinamento statale che unisce la supremazia su ogni altro potere all'interno e l'indipendenza verso gli altri Stati."
+  },
+  {
+    "concetto": "governo-presidenziale",
+    "definizione": "Forma di governo a separazione rigida dei poteri in cui un capo dello Stato eletto dal popolo guida anche l'esecutivo, senza rapporto di fiducia con le Camere."
+  },
+  {
+    "concetto": "governo-semipresidenziale",
+    "definizione": "Forma di governo, tipica della Francia, in cui un capo dello Stato eletto dal popolo convive con un Primo ministro che deve avere la fiducia dell'Assemblea."
+  },
+  {
+    "concetto": "governo-direttoriale",
+    "definizione": "Forma di governo svizzera in cui un collegio di sette membri eletto dalle Camere guida l'esecutivo per tutta la legislatura, senza poter essere sfiduciato."
+  },
+  {
+    "concetto": "extraterritorialita",
+    "definizione": "Finzione per cui navi e aeromobili militari che si trovano in territorio altrui restano soggetti alla legge dello Stato di bandiera."
+  },
+  {
+    "concetto": "decentramento-burocratico",
+    "definizione": "Distribuzione della funzione amministrativa fra organi centrali e periferici dello stesso Stato, senza creare enti autonomi."
+  },
+  {
+    "concetto": "interferenze-funzionali",
+    "definizione": "Casi, previsti dalla Costituzione, in cui un potere esercita funzioni materialmente proprie di un altro, come i decreti-legge del Governo o il giudizio delle Camere sulle elezioni contestate."
+  },
+  {
+    "concetto": "volontaria-giurisdizione",
+    "definizione": "Provvedimenti con cui il giudice non decide liti ma amministra interessi, come l'autorizzazione a vendere beni di un minore o la nomina di un tutore."
+  },
+  {
+    "concetto": "rapporto-organico",
+    "definizione": "Immedesimazione dell'ufficio nell'ente, per cui l'atto compiuto dal titolare dell'ufficio è direttamente imputato alla persona giuridica."
+  },
+  {
+    "concetto": "funzionario-di-fatto",
+    "definizione": "Titolare di un ufficio con investitura irregolare, scaduta o venuta meno, i cui atti restano di regola validi a tutela dei terzi in buona fede."
+  },
+  {
+    "concetto": "organo-complesso",
+    "definizione": "Organo composto a sua volta da più organi, come il Governo, formato da Presidente del Consiglio, ministri e Consiglio dei ministri."
+  },
+  {
+    "concetto": "atto-complesso",
+    "definizione": "Atto che risulta dalla fusione delle volontà omogenee di più organi verso lo stesso fine, come la legge approvata dalle due Camere."
+  },
+  {
+    "concetto": "eccesso-di-potere",
+    "definizione": "Vizio dell'atto amministrativo discrezionale usato per un fine diverso da quello per cui il potere è attribuito, rivelato da figure sintomatiche."
+  },
+  {
+    "concetto": "incompetenza",
+    "definizione": "Vizio dell'atto adottato da un organo diverso da quello cui la legge attribuisce il potere; se l'amministrazione è del tutto priva di attribuzione l'atto è nullo."
+  },
+  {
+    "concetto": "vizi-di-merito",
+    "definizione": "Difetti di opportunità e convenienza di un atto che resta conforme alla legge; li controllano solo l'amministrazione o, in casi limitati, il giudice."
+  },
+  {
+    "concetto": "costituzione-flessibile",
+    "definizione": "Carta fondamentale modificabile con il procedimento delle leggi ordinarie, di cui ha la stessa forza, come lo Statuto albertino o l'assetto britannico."
+  },
+  {
+    "concetto": "costituzione-ottriata",
+    "definizione": "Carta fondamentale concessa dal sovrano ai sudditi come atto della propria volontà, come la Charte francese del 1814 o lo Statuto albertino."
+  },
+  {
+    "concetto": "costituzione-programma",
+    "definizione": "Carta fondamentale che non si limita a fotografare la realtà sociale esistente, ma indica obiettivi e strumenti per trasformarla."
+  },
+  {
+    "concetto": "costituzione-convenzionale",
+    "definizione": "Carta fondamentale nata dalle reciproche concessioni di forze politiche in contrasto, come quella italiana del 1948 tra culture cattolica, socialcomunista e liberale."
+  },
+  {
+    "concetto": "disposizioni-programmatiche",
+    "definizione": "Norme della Costituzione che indicano i fini che lo Stato deve perseguire; la Corte costituzionale dal 1956 le usa comunque come parametro di legittimità."
+  },
+  {
+    "concetto": "forma-repubblicana",
+    "definizione": "Carattere dello Stato con un capo elettivo e temporaneo, non ereditario, che l'art. 139 sottrae alla revisione costituzionale."
+  },
+  {
+    "concetto": "principio-lavorista",
+    "definizione": "Principio per cui il lavoro è il valore fondante dell'ordinamento e della dignità sociale: art. 1, art. 4 e artt. 35–40 Cost."
+  },
+  {
+    "concetto": "laicita",
+    "definizione": "Principio supremo, affermato dalla Corte costituzionale nel 1989, per cui lo Stato è equidistante e imparziale verso tutte le confessioni religiose."
+  },
+  {
+    "concetto": "parlamento-in-seduta-comune",
+    "definizione": "Collegio formato da tutti i deputati e senatori insieme, convocato solo nei casi previsti dalla Costituzione, per esempio per eleggere il Capo dello Stato."
+  },
+  {
+    "concetto": "bicameralismo-paritario",
+    "definizione": "Assetto in cui due assemblee elettive hanno le stesse funzioni: ogni legge va approvata da entrambe nello stesso testo e il Governo deve avere la fiducia di tutte e due."
+  },
+  {
+    "concetto": "circoscrizione-estero",
+    "definizione": "Ripartizione territoriale che consente ai cittadini residenti fuori dall'Italia di eleggere otto deputati e quattro senatori."
+  },
+  {
+    "concetto": "premio-di-maggioranza",
+    "definizione": "Seggi aggiuntivi attribuiti dalla legge elettorale a chi vince, per garantirgli una maggioranza in Parlamento."
+  },
+  {
+    "concetto": "soglia-di-sbarramento",
+    "definizione": "Percentuale minima di voti al di sotto della quale una lista o una coalizione non partecipa alla ripartizione dei seggi."
+  },
+  {
+    "concetto": "par-condicio",
+    "definizione": "Regola di parità di accesso ai mezzi di informazione per partiti e candidati durante la campagna elettorale (leggi del 1993 e del 2000)."
+  },
+  {
+    "concetto": "ineleggibilita",
+    "definizione": "Causa che impedisce di essere validamente eletti e rende nulla l'elezione, se non rimossa prima della candidatura."
+  },
+  {
+    "concetto": "incompatibilita",
+    "definizione": "Situazione che non impedisce l'elezione ma obbliga l'eletto a scegliere tra il seggio e un'altra carica."
+  },
+  {
+    "concetto": "incandidabilita",
+    "definizione": "Divieto di presentarsi alle elezioni per chi ha riportato condanne definitive per alcuni gravi reati (legge del 2012)."
+  },
+  {
+    "concetto": "verifica-dei-poteri",
+    "definizione": "Controllo, affidato a ciascuna Camera, sui titoli di ammissione dei propri membri e sulla regolarità della loro elezione."
+  },
+  {
+    "concetto": "insindacabilita-parlamentare",
+    "definizione": "Garanzia per cui i membri delle Camere non rispondono delle opinioni espresse e dei voti dati nell'esercizio delle funzioni."
+  },
+  {
+    "concetto": "divieto-di-mandato-imperativo",
+    "definizione": "Regola dell'art. 67 per cui il parlamentare rappresenta la Nazione e non può essere vincolato da istruzioni di elettori o partiti."
+  },
+  {
+    "concetto": "indennita-parlamentare",
+    "definizione": "Compenso stabilito dalla legge che l'art. 69 riconosce ai membri delle Camere, per consentire anche ai meno abbienti di svolgere il mandato."
+  },
+  {
+    "concetto": "giuri-d-onore",
+    "definizione": "Commissione che accerta, su richiesta del deputato o senatore offeso, la fondatezza di accuse lesive della sua onorabilità mosse in aula."
+  },
+  {
+    "concetto": "conferenza-dei-capigruppo",
+    "definizione": "Organo interno che riunisce i presidenti dei gruppi con il Presidente della Camera per fissare programma e calendario dei lavori."
+  },
+  {
+    "concetto": "prorogatio",
+    "definizione": "Prolungamento dei poteri delle Camere scadute o sciolte finché non si riuniscono le nuove (art. 61)."
+  },
+  {
+    "concetto": "quorum-strutturale",
+    "definizione": "Presenza della maggioranza dei componenti, necessaria perché una seduta delle Camere sia valida (art. 64, terzo comma)."
+  },
+  {
+    "concetto": "interna-corporis",
+    "definizione": "Atti e attività interni alle Camere, come il computo dei voti o l'applicazione dei regolamenti, sottratti di regola a controlli esterni."
+  },
+  {
+    "concetto": "ostruzionismo",
+    "definizione": "Uso esasperato degli strumenti procedurali per ritardare o impedire una deliberazione parlamentare."
+  },
+  {
+    "concetto": "commissione-deliberante",
+    "definizione": "Procedimento in cui una commissione permanente esamina e approva definitivamente un disegno di legge senza passare dall'Assemblea."
+  },
+  {
+    "concetto": "commissione-redigente",
+    "definizione": "Procedimento intermedio: la commissione approva i singoli articoli e l'Assemblea vota solo il testo finale."
+  },
+  {
+    "concetto": "navetta-parlamentare",
+    "definizione": "Passaggio ripetuto di un disegno di legge da una Camera all'altra finché entrambe approvano lo stesso testo."
+  },
+  {
+    "concetto": "promulgazione",
+    "definizione": "Atto con cui il Presidente della Repubblica, entro un mese dall'approvazione, dichiara che la legge è stata approvata e ne ordina l'osservanza."
+  },
+  {
+    "concetto": "vacatio-legis",
+    "definizione": "Intervallo, di regola di quindici giorni, che separa la pubblicazione di una legge dal momento in cui diventa obbligatoria."
+  },
+  {
+    "concetto": "rottura-della-costituzione",
+    "definizione": "Deroga posta da una norma costituzionale a un'altra norma o a un principio della stessa Costituzione, come la XII disposizione finale."
+  },
+  {
+    "concetto": "rapporto-di-fiducia",
+    "definizione": "Legame politico per cui il Governo può restare in carica solo se ha il sostegno di entrambe le Camere."
+  },
+  {
+    "concetto": "governo-di-minoranza",
+    "definizione": "Esecutivo che si regge su astensioni o appoggi esterni, senza una maggioranza precostituita, come il III Andreotti del 1976."
+  },
+  {
+    "concetto": "esercizio-provvisorio",
+    "definizione": "Autorizzazione, concessa con legge e per non più di quattro mesi, a riscuotere e spendere quando il bilancio non è approvato in tempo."
+  },
+  {
+    "concetto": "copertura-finanziaria",
+    "definizione": "Obbligo per ogni legge che importa nuovi o maggiori oneri di indicare i mezzi per farvi fronte."
+  },
+  {
+    "concetto": "amnistia-e-indulto",
+    "definizione": "Provvedimenti di clemenza generale che estinguono il reato o condonano la pena, approvati con legge a maggioranza dei due terzi."
+  },
+  {
+    "concetto": "interpellanza",
+    "definizione": "Domanda scritta al Governo sui motivi e gli intendimenti della sua condotta, che può sfociare in una mozione."
+  },
+  {
+    "concetto": "questione-di-fiducia",
+    "definizione": "Strumento con cui il Governo lega la propria permanenza in carica all'approvazione di un provvedimento da parte delle Camere."
+  },
+  {
+    "concetto": "mozione-di-sfiducia",
+    "definizione": "Atto parlamentare motivato, firmato da un decimo dei componenti di una Camera, con cui si revoca il sostegno al Governo."
+  },
+  {
+    "concetto": "quorum-referendario",
+    "definizione": "Partecipazione della maggioranza degli aventi diritto, senza la quale il voto popolare abrogativo non è valido."
+  },
+  {
+    "concetto": "divieto-di-ripristino",
+    "definizione": "Limite per cui il legislatore non può reintrodurre subito la disciplina che gli elettori hanno abrogato (sent. 199/2012)."
+  },
+  {
+    "concetto": "referendum-di-indirizzo",
+    "definizione": "Consultazione popolare del 1989 sul mandato costituente al Parlamento europeo, indetta con apposita legge costituzionale."
+  },
+  {
+    "concetto": "consiglio-di-gabinetto",
+    "definizione": "Comitato ristretto di ministri, designati dal Presidente del Consiglio, che lo aiuta nella direzione politica (art. 6 l. 400/1988)."
+  },
+  {
+    "concetto": "spoil-system",
+    "definizione": "Prassi di origine americana per cui i vertici dell'amministrazione cambiano quando cambia la maggioranza di governo."
+  },
+  {
+    "concetto": "mandato-esplorativo",
+    "definizione": "Compito affidato dal Capo dello Stato, spesso al Presidente di una Camera, di sondare i partiti quando una maggioranza non è evidente."
+  },
+  {
+    "concetto": "viceministri",
+    "definizione": "Sottosegretari, al massimo dieci, che ricevono deleghe ampie su aree di più strutture del ministero (l. 81/2001)."
+  },
+  {
+    "concetto": "alta-amministrazione",
+    "definizione": "Atti al confine tra indirizzo politico e amministrazione, come le nomine ai vertici dello Stato, deliberati dal Consiglio dei ministri."
+  },
+  {
+    "concetto": "reiterazione-decreti-legge",
+    "definizione": "Prassi, vietata dalla Corte nel 1996, di riadottare un provvedimento d'urgenza non convertito entro sessanta giorni."
+  },
+  {
+    "concetto": "legge-di-sanatoria",
+    "definizione": "Legge con cui le Camere regolano i rapporti giuridici sorti su decreti d'urgenza non convertiti (art. 77, terzo comma)."
+  },
+  {
+    "concetto": "eccesso-di-delega",
+    "definizione": "Vizio dell'atto governativo con forza di legge che supera oggetto, termine o principi fissati dal Parlamento."
+  },
+  {
+    "concetto": "decreti-correttivi",
+    "definizione": "Atti legislativi del Governo con cui, entro un ulteriore termine fissato dal Parlamento, si integrano o si correggono decreti già emanati."
+  },
+  {
+    "concetto": "regolamenti-indipendenti",
+    "definizione": "Atti normativi secondari del Governo in materie non disciplinate dalla legge e non riservate a essa."
+  },
+  {
+    "concetto": "regolamenti-di-esecuzione",
+    "definizione": "Atti normativi secondari che dettano norme di dettaglio per applicare una legge già completa."
+  },
+  {
+    "concetto": "riserva-di-regolamento",
+    "definizione": "Ambito, l'organizzazione degli uffici dei ministeri, che la legge 59/1997 ha affidato alla normazione secondaria del Governo."
+  },
+  {
+    "concetto": "riserva-assoluta",
+    "definizione": "Vincolo per cui una materia, come quella penale, può essere disciplinata soltanto dalla legge e dagli atti con forza di legge."
+  },
+  {
+    "concetto": "riserva-relativa",
+    "definizione": "Vincolo per cui la legge deve fissare le linee essenziali di una materia, lasciando il dettaglio a fonti secondarie, come per l'art. 23."
+  },
+  {
+    "concetto": "rimpasto",
+    "definizione": "Sostituzione di uno o più ministri decisa dal Presidente del Consiglio senza aprire una crisi."
+  },
+  {
+    "concetto": "governo-dimissionario",
+    "definizione": "Esecutivo che, dopo aver rassegnato le dimissioni, resta in carica solo per l'ordinaria amministrazione e gli atti urgenti fino al giuramento del successore."
+  },
+  {
+    "concetto": "crisi-extraparlamentare",
+    "definizione": "Caduta del Governo dovuta a scelte dei partiti fuori dalle Camere, senza un voto di sfiducia."
+  },
+  {
+    "concetto": "reati-ministeriali",
+    "definizione": "Reati commessi dai membri del Governo nell'esercizio delle funzioni, giudicati da un collegio speciale previa autorizzazione parlamentare."
+  },
+  {
+    "concetto": "avvocatura-dello-stato",
+    "definizione": "Organo che rappresenta e difende in giudizio lo Stato e le amministrazioni pubbliche, anche davanti alla Corte costituzionale."
+  },
+  {
+    "concetto": "funzione-giurisdizionale",
+    "definizione": "Funzione con cui lo Stato accerta la volontà della norma in un caso concreto, risolvendo il dubbio sulla sua qualificazione o applicando le sanzioni previste."
+  },
+  {
+    "concetto": "unicita-della-giurisdizione",
+    "definizione": "Principio dell'art. 102 per cui la funzione di giudicare spetta di regola ai magistrati ordinari, salve le eccezioni ammesse dalla Costituzione."
+  },
+  {
+    "concetto": "giudice-naturale",
+    "definizione": "Garanzia dell'art. 25 per cui nessuno può essere sottratto all'organo giudicante individuato dalla legge prima del fatto."
+  },
+  {
+    "concetto": "sezioni-specializzate",
+    "definizione": "Articolazioni degli uffici giudiziari ordinari integrate da cittadini esperti estranei alla magistratura, ammesse dall'art. 102 per determinate materie."
+  },
+  {
+    "concetto": "interesse-legittimo",
+    "definizione": "Posizione del privato di fronte al potere della pubblica amministrazione, protetta davanti al giudice amministrativo."
+  },
+  {
+    "concetto": "autodichia",
+    "definizione": "Potere degli organi costituzionali di decidere con giudici interni le controversie con i propri dipendenti."
+  },
+  {
+    "concetto": "giurisdizione-esclusiva",
+    "definizione": "Competenza del giudice amministrativo che, in certe materie indicate dalla legge, si estende anche ai diritti soggettivi."
+  },
+  {
+    "concetto": "giurisdizione-di-merito",
+    "definizione": "Potere del giudice amministrativo, in casi tassativi, di valutare anche l'opportunità e la convenienza dell'atto e di sostituirsi all'amministrazione."
+  },
+  {
+    "concetto": "interessi-diffusi",
+    "definizione": "Interessi di uguale contenuto comuni a una pluralità indeterminata di persone, come quelli all'ambiente o alla salute."
+  },
+  {
+    "concetto": "arbitrato",
+    "definizione": "Decisione di una lite affidata per scelta delle parti a privati, che pronunciano un lodo invece della sentenza di un giudice."
+  },
+  {
+    "concetto": "csm",
+    "definizione": "Organo di garanzia dell'autonomia della magistratura ordinaria, presieduto dal Capo dello Stato e competente per assunzioni, assegnazioni, trasferimenti, promozioni e provvedimenti disciplinari."
+  },
+  {
+    "concetto": "inamovibilita",
+    "definizione": "Garanzia per cui un magistrato non può essere trasferito o destinato ad altre funzioni se non con il suo consenso o per decisione del CSM con le garanzie di difesa."
+  },
+  {
+    "concetto": "giusto-processo",
+    "definizione": "Modello dell'art. 111: procedimento regolato dalla legge, confronto tra le parti in condizioni di parità, davanti a un giudice terzo e imparziale e in tempi non eccessivi."
+  },
+  {
+    "concetto": "presunzione-di-non-colpevolezza",
+    "definizione": "Principio dell'art. 27 per cui l'imputato non può essere trattato come colpevole finché la condanna non è definitiva."
+  },
+  {
+    "concetto": "corte-di-cassazione",
+    "definizione": "Giudice al vertice della giurisdizione ordinaria, civile e penale, che assicura l'uniforme interpretazione del diritto e decide i conflitti tra giurisdizioni."
+  },
+  {
+    "concetto": "supplenza-presidenziale",
+    "definizione": "Esercizio delle funzioni del Capo dello Stato da parte del Presidente del Senato quando il titolare non può adempierle, secondo l'art. 86."
+  },
+  {
+    "concetto": "impedimento-permanente",
+    "definizione": "Impossibilità duratura del Capo dello Stato di esercitare le funzioni, che porta alla cessazione dalla carica e a una nuova elezione."
+  },
+  {
+    "concetto": "controfirma",
+    "definizione": "Sottoscrizione del ministro proponente, senza la quale l'atto del Capo dello Stato non è valido e con cui il ministro se ne assume la responsabilità."
+  },
+  {
+    "concetto": "alto-tradimento",
+    "definizione": "Reato presidenziale previsto dall'art. 90 che consiste nella violazione dolosa del giuramento di fedeltà alla Repubblica, come l'attacco all'integrità e all'indipendenza dello Stato."
+  },
+  {
+    "concetto": "attentato-alla-costituzione",
+    "definizione": "Reato presidenziale previsto dall'art. 90: comportamento doloso diretto a sovvertire le istituzioni e l'ordine fissati dalla Carta."
+  },
+  {
+    "concetto": "potere-di-esternazione",
+    "definizione": "Facoltà del Capo dello Stato di manifestare il proprio pensiero con discorsi, interviste e dichiarazioni, in forme diverse dai messaggi formali alle Camere."
+  },
+  {
+    "concetto": "semestre-bianco",
+    "definizione": "Ultimi sei mesi del mandato del Capo dello Stato, durante i quali di regola non può sciogliere le Camere."
+  },
+  {
+    "concetto": "grazia",
+    "definizione": "Provvedimento individuale di clemenza con cui il Capo dello Stato condona o commuta la pena inflitta a un condannato."
+  },
+  {
+    "concetto": "giudici-aggregati",
+    "definizione": "Sedici cittadini estratti a sorte da un elenco compilato dal Parlamento ogni nove anni, che integrano la Corte costituzionale nei giudizi sui reati presidenziali."
+  },
+  {
+    "concetto": "vizio-formale",
+    "definizione": "Difetto di una legge che riguarda il procedimento seguito per approvarla, non il suo contenuto."
+  },
+  {
+    "concetto": "self-restraint",
+    "definizione": "Atteggiamento di autolimitazione con cui la Corte costituzionale evita di sindacare le scelte discrezionali del legislatore."
+  },
+  {
+    "concetto": "giudice-a-quo",
+    "definizione": "Giudice del processo nel quale sorge il dubbio di costituzionalità e che lo trasmette alla Corte: per Calamandrei, il suo «portiere»."
+  },
+  {
+    "concetto": "norma-interposta",
+    "definizione": "Norma non costituzionale la cui violazione da parte di una legge comporta una violazione indiretta della Costituzione."
+  },
+  {
+    "concetto": "rilevanza-costituzionale",
+    "definizione": "Requisito per cui la soluzione del dubbio sulla legge è necessaria per decidere il processo in cui il giudice intende rivolgersi alla Corte."
+  },
+  {
+    "concetto": "non-manifesta-infondatezza",
+    "definizione": "Requisito per cui il giudice solleva la questione davanti alla Corte se ha almeno un dubbio serio sulla costituzionalità della norma."
+  },
+  {
+    "concetto": "ordinanza-rimessione",
+    "definizione": "Atto motivato con cui il giudice sospende il processo e trasmette la questione alla Corte costituzionale."
+  },
+  {
+    "concetto": "reviviscenza",
+    "definizione": "Ritorno in vigore delle norme che erano state abrogate da una disposizione poi dichiarata incostituzionale."
+  },
+  {
+    "concetto": "diritto-vivente",
+    "definizione": "Significato che la giurisprudenza consolidata, specie della Cassazione, attribuisce stabilmente a una disposizione di legge."
+  },
+  {
+    "concetto": "sentenza-additiva",
+    "definizione": "Decisione della Corte che dichiara illegittima una legge «nella parte in cui non prevede» qualcosa che la Costituzione impone, aggiungendo così una norma."
+  },
+  {
+    "concetto": "illegittimita-consequenziale",
+    "definizione": "Estensione della dichiarazione di incostituzionalità ad altre norme legate a quella impugnata, prevista dall'art. 27 della legge 87 del 1953."
+  },
+  {
+    "concetto": "conflitto-da-menomazione",
+    "definizione": "Controversia davanti alla Corte in cui un organo lamenta non che l'altro gli abbia sottratto la competenza, ma che un atto o un'omissione altrui gliene impedisca l'esercizio."
+  },
+  {
+    "concetto": "autarchia",
+    "definizione": "Potere di un ente di emanare provvedimenti concreti dotati della stessa esecutorietà degli atti amministrativi dello Stato-soggetto."
+  },
+  {
+    "concetto": "unita-e-indivisibilita-della-repubblica",
+    "definizione": "Principio supremo dell'art. 5 che segna il confine dell'autonomia regionale e fa degli ordinamenti regionali ordinamenti derivati."
+  },
+  {
+    "concetto": "variazioni-territoriali-regionali",
+    "definizione": "Procedimenti costituzionali per fondere Regioni, crearne di nuove o spostare Province e Comuni da una Regione all'altra."
+  },
+  {
+    "concetto": "statuto-speciale",
+    "definizione": "Atto con forza di legge costituzionale che regola l'ordinamento di Sicilia, Sardegna, Valle d'Aosta, Trentino-Alto Adige e Friuli-Venezia Giulia."
+  },
+  {
+    "concetto": "autonomia-differenziata",
+    "definizione": "Ulteriori forme di autonomia che una Regione ordinaria può ottenere con legge dello Stato, secondo la clausola aggiunta all'art. 116 nel 2001."
+  },
+  {
+    "concetto": "legge-statutaria",
+    "definizione": "Fonte regionale aggravata con cui le Regioni ad autonomia speciale, dal 2001, disciplinano la propria forma di governo."
+  },
+  {
+    "concetto": "riforma-del-titolo-v",
+    "definizione": "Legge costituzionale del 2001, confermata con referendum, che ha riscritto i rapporti fra Stato, Regioni ed enti locali."
+  },
+  {
+    "concetto": "corpo-elettorale-regionale",
+    "definizione": "Insieme dei cittadini iscritti nelle liste elettorali dei Comuni di una Regione, che ne eleggono il Consiglio."
+  },
+  {
+    "concetto": "consiglio-regionale",
+    "definizione": "Massimo organo deliberativo-rappresentativo della Regione, eletto per cinque anni, titolare della potestà legislativa."
+  },
+  {
+    "concetto": "giunta-regionale",
+    "definizione": "Organo esecutivo della Regione, formato dal Presidente e dagli assessori da lui nominati e revocati."
+  },
+  {
+    "concetto": "presidente-della-giunta",
+    "definizione": "Capo dell'ente Regione, di regola eletto a suffragio diretto, che promulga le leggi regionali e rappresenta l'ente."
+  },
+  {
+    "concetto": "forma-di-governo-regionale",
+    "definizione": "Assetto dei rapporti fra gli organi regionali che, dal 1999, prevede di regola l'elezione diretta del Presidente e la possibile sfiducia del Consiglio."
+  },
+  {
+    "concetto": "simul-stabunt-simul-cadent",
+    "definizione": "Formula latina per cui Presidente eletto e Consiglio regionale restano insieme o cadono insieme."
+  },
+  {
+    "concetto": "insindacabilita-dei-consiglieri-regionali",
+    "definizione": "Garanzia dell'art. 122 comma IV per opinioni e voti dei membri del Consiglio regionale, senza le immunità dell'art. 68."
+  },
+  {
+    "concetto": "regionalismo-cooperativo",
+    "definizione": "Modello che orienta i rapporti fra Stato e Regioni alla collaborazione, oltre che alla separazione delle competenze."
+  },
+  {
+    "concetto": "sistema-delle-conferenze",
+    "definizione": "Organo istituito dall'art. 12 della legge 400/1988 per intese, accordi e pareri fra Governo, Regioni e Province autonome."
+  },
+  {
+    "concetto": "funzione-di-indirizzo-e-coordinamento",
+    "definizione": "Potere statale di orientare le attività regionali per esigenze unitarie, escluso nelle materie regionali dalla legge 131/2003."
+  },
+  {
+    "concetto": "rappresentante-dello-stato",
+    "definizione": "Organo statale previsto dalla legge 131/2003 nel capoluogo di Regione per curare la leale collaborazione e indire le elezioni regionali."
+  },
+  {
+    "concetto": "leale-collaborazione",
+    "definizione": "Principio che impone a Stato e Regioni intese, pareri e informazioni reciproche, senza renderli paritari."
+  },
+  {
+    "concetto": "consiglio-autonomie-locali",
+    "definizione": "Organo di consultazione fra la Regione e Comuni, Province e Città metropolitane, che lo statuto deve disciplinare dal 2001."
+  },
+  {
+    "concetto": "legge-regionale",
+    "definizione": "Atto semplice ma legge formale, approvato dal Consiglio, promulgato dal Presidente e pubblicato nel Bollettino Ufficiale della Regione."
+  },
+  {
+    "concetto": "competenza-residuale-regionale",
+    "definizione": "Potestà legislativa delle Regioni nelle materie non riservate allo Stato né concorrenti, detta anche primaria o esclusiva."
+  },
+  {
+    "concetto": "potesta-legislativa-concorrente",
+    "definizione": "Potestà in cui lo Stato fissa i principi fondamentali con leggi di principio e la Regione detta la disciplina di dettaglio."
+  },
+  {
+    "concetto": "interesse-nazionale",
+    "definizione": "Limite generale indeterminato che, nel vecchio art. 117, giustificò molte leggi statali di dettaglio nelle materie regionali."
+  },
+  {
+    "concetto": "riforma-bassanini",
+    "definizione": "Leggi del 1997 che attribuirono alle autonomie tutte le funzioni amministrative non riservate allo Stato, a Costituzione invariata."
+  },
+  {
+    "concetto": "sussidiarieta",
+    "definizione": "Principio per cui le funzioni spettano anzitutto ai Comuni e salgono ai livelli superiori solo per esigenze di esercizio unitario."
+  },
+  {
+    "concetto": "parallelismo-delle-funzioni",
+    "definizione": "Criterio originario per cui la Regione amministrava solo nelle materie in cui aveva potestà legislativa."
+  },
+  {
+    "concetto": "materie-trasversali",
+    "definizione": "Competenze statali come la tutela dell'ambiente e della concorrenza, che attraversano anche le materie delle Regioni."
+  },
+  {
+    "concetto": "commissione-per-le-questioni-regionali",
+    "definizione": "Organo bicamerale sentito sullo scioglimento dei Consigli regionali, mai integrato con i rappresentanti delle autonomie."
+  },
+  {
+    "concetto": "potere-sostitutivo",
+    "definizione": "Potere del Governo, previsto dall'art. 120, di agire al posto degli organi di Regioni ed enti locali."
+  },
+  {
+    "concetto": "autonomia-finanziaria",
+    "definizione": "Autonomia di entrata e di spesa di Regioni ed enti locali, che Mortati chiamava la «pietra angolare» dell'autonomia."
+  },
+  {
+    "concetto": "fondo-perequativo",
+    "definizione": "Fondo statale senza vincoli di destinazione per i territori con minore capacità fiscale per abitante."
+  },
+  {
+    "concetto": "federalismo-fiscale",
+    "definizione": "Attuazione dell'art. 119 avviata con la legge delega n. 42 del 2009: tributi propri, costi standard e perequazione."
+  },
+  {
+    "concetto": "scioglimento-del-consiglio-regionale",
+    "definizione": "Misura dell'art. 126 disposta con decreto motivato del Capo dello Stato per atti contrari alla Costituzione o sicurezza nazionale."
+  },
+  {
+    "concetto": "citta-metropolitane",
+    "definizione": "Enti di area vasta attivati nel 2015 nelle maggiori aree urbane, guidati dal sindaco del capoluogo."
+  },
+  {
+    "concetto": "provincia",
+    "definizione": "Ente locale intermedio fra Comune e Regione, che dal 2014 è un ente di secondo grado senza Giunta."
+  },
+  {
+    "concetto": "sindaco",
+    "definizione": "Capo dell'amministrazione comunale eletto direttamente, che è anche ufficiale del Governo per anagrafe e stato civile."
+  },
+  {
+    "concetto": "difensore-civico",
+    "definizione": "Organo di garanzia previsto dagli statuti che segnala abusi, disfunzioni e ritardi dell'amministrazione."
+  },
+  {
+    "concetto": "armonizzazione-dei-bilanci",
+    "definizione": "Materia che la legge costituzionale n. 1 del 2012 ha spostato dalla competenza concorrente a quella esclusiva statale."
+  },
+  {
+    "concetto": "attivita-internazionale-delle-regioni",
+    "definizione": "Accordi con Stati e intese con enti territoriali esteri che le Regioni possono concludere nelle loro materie, con pieni poteri di firma."
+  },
+  {
+    "concetto": "referendum-regionale",
+    "definizione": "Voto popolare previsto dagli statuti su leggi e provvedimenti della Regione, e dalla Costituzione sullo statuto."
+  },
+  {
+    "concetto": "legge-elettorale-regionale",
+    "definizione": "Legge della Regione che regola l'elezione del Consiglio e del Presidente nei limiti dei principi fissati dallo Stato."
+  },
+  {
+    "concetto": "pari-dignita-sociale",
+    "definizione": "Prima affermazione dell'art. 3 comma I: non esistono più distinzioni fondate su titoli nobiliari o condizioni sociali."
+  },
+  {
+    "concetto": "liberta-negative",
+    "definizione": "Diritti di libertà che chiedono ai pubblici poteri un comportamento di astensione."
+  },
+  {
+    "concetto": "liberta-positive",
+    "definizione": "Diritti che chiedono ai pubblici poteri un comportamento attivo, una prestazione."
+  },
+  {
+    "concetto": "fermo-di-polizia",
+    "definizione": "Misura provvisoria di privazione della libertà adottata dalla polizia giudiziaria in casi eccezionali di necessità e urgenza."
+  },
+  {
+    "concetto": "riserva-di-legge-rinforzata",
+    "definizione": "Riserva in cui la Costituzione, oltre ad affidare una materia alla legge, ne vincola il contenuto o il procedimento."
+  },
+  {
+    "concetto": "serrata",
+    "definizione": "Sospensione temporanea del lavoro decisa dal datore per fare pressione sui lavoratori."
+  },
+  {
+    "concetto": "principio-concordatario",
+    "definizione": "Principio per cui i rapporti fra Stato e Chiesa cattolica si regolano con accordi bilaterali, modificabili senza revisione costituzionale se accettati da entrambe le parti."
+  },
+  {
+    "concetto": "buon-costume",
+    "definizione": "Unico limite espresso dell'art. 21, che vale anche per i riti religiosi dell'art. 19."
+  },
+  {
+    "concetto": "legittimazione",
+    "definizione": "Giustificazione riconosciuta dell'autorità, che spiega perché i governati obbediscono ai comandi senza bisogno della forza."
   },
   {
     "concetto": "cittadinanza-europea",
@@ -32,28 +960,12 @@
     "definizione": "Forma di Stato che interviene nell'economia e fornisce prestazioni come istruzione, sanità e previdenza per ridurre le disuguaglianze di fatto."
   },
   {
-    "concetto": "sussidiarieta",
-    "definizione": "Principio per cui le funzioni spettano al livello di governo più vicino ai cittadini, e quello superiore interviene solo se l'inferiore non basta."
-  },
-  {
-    "concetto": "divieto-di-mandato-imperativo",
-    "definizione": "Regola dell'art. 67 per cui il parlamentare rappresenta la Nazione e non è giuridicamente tenuto a seguire le istruzioni degli elettori o del partito."
-  },
-  {
-    "concetto": "quorum-strutturale",
-    "definizione": "Numero minimo di componenti che devono essere presenti perché la seduta di un collegio sia valida."
-  },
-  {
     "concetto": "quorum-deliberativo",
     "definizione": "Numero di voti favorevoli necessario perché una proposta sia approvata da un collegio."
   },
   {
     "concetto": "costituzione-rigida",
     "definizione": "Carta fondamentale che può essere modificata solo con un procedimento più gravoso di quello previsto per la legge ordinaria."
-  },
-  {
-    "concetto": "costituzione-flessibile",
-    "definizione": "Carta fondamentale che può essere modificata con una semplice legge ordinaria, come lo Statuto albertino."
   },
   {
     "concetto": "potere-costituente",
@@ -64,48 +976,8 @@
     "definizione": "Nucleo di valori della Costituzione che non può essere modificato nemmeno con legge costituzionale, secondo la sentenza 1146/1988."
   },
   {
-    "concetto": "rapporto-di-fiducia",
-    "definizione": "Legame per cui l'esecutivo resta in carica solo finché ha il sostegno della maggioranza delle Camere."
-  },
-  {
     "concetto": "coabitazione",
     "definizione": "Situazione del sistema semipresidenziale in cui il Presidente e la maggioranza parlamentare appartengono a schieramenti opposti."
-  },
-  {
-    "concetto": "governo-direttoriale",
-    "definizione": "Forma di governo, tipica della Svizzera, in cui l'esecutivo è un collegio eletto dal Parlamento per un tempo fisso e non può essere sfiduciato."
-  },
-  {
-    "concetto": "ineleggibilita",
-    "definizione": "Condizione che impedisce di essere validamente eletti, perché la posizione ricoperta potrebbe influenzare gli elettori."
-  },
-  {
-    "concetto": "incompatibilita",
-    "definizione": "Divieto di ricoprire insieme due cariche: l'eletto deve scegliere quale tenere."
-  },
-  {
-    "concetto": "incandidabilita",
-    "definizione": "Impedimento a presentarsi alle elezioni per chi ha riportato condanne definitive per determinati reati."
-  },
-  {
-    "concetto": "soglia-di-sbarramento",
-    "definizione": "Percentuale minima di voti che una lista deve raggiungere per partecipare alla ripartizione dei seggi."
-  },
-  {
-    "concetto": "premio-di-maggioranza",
-    "definizione": "Quota aggiuntiva di seggi assegnata alla lista o alla coalizione che ottiene più voti."
-  },
-  {
-    "concetto": "verifica-dei-poteri",
-    "definizione": "Giudizio con cui ciascuna Camera controlla i titoli di ammissione dei propri componenti, secondo l'art. 66."
-  },
-  {
-    "concetto": "mozione-di-sfiducia",
-    "definizione": "Atto motivato, firmato da un decimo dei componenti di una Camera e votato per appello nominale dopo tre giorni, che obbliga l'esecutivo a dimettersi."
-  },
-  {
-    "concetto": "questione-di-fiducia",
-    "definizione": "Strumento con cui l'esecutivo lega la propria permanenza in carica all'approvazione di un testo: se la Camera vota contro, deve dimettersi."
   },
   {
     "concetto": "ministri-senza-portafoglio",
@@ -120,108 +992,20 @@
     "definizione": "Organo che controlla in via preventiva la legittimità degli atti del Governo e in via successiva la gestione del bilancio, e giudica in materia di contabilità pubblica."
   },
   {
-    "concetto": "bicameralismo-paritario",
-    "definizione": "Assetto in cui i due rami del Parlamento hanno gli stessi poteri: ogni legge va approvata da entrambi nello stesso testo."
-  },
-  {
-    "concetto": "prorogatio",
-    "definizione": "Continuazione dei poteri delle Camere scadute finché non si riuniscono le nuove, prevista dall'art. 61."
-  },
-  {
-    "concetto": "insindacabilita-parlamentare",
-    "definizione": "Garanzia per cui deputati e senatori non rispondono delle opinioni espresse e dei voti dati nell'esercizio delle funzioni."
-  },
-  {
-    "concetto": "autodichia",
-    "definizione": "Potere degli organi costituzionali di decidere con giudici interni le controversie con i propri dipendenti."
-  },
-  {
-    "concetto": "interpellanza",
-    "definizione": "Domanda scritta rivolta al Governo sui motivi e sugli intendimenti della sua condotta in una questione determinata."
-  },
-  {
-    "concetto": "esercizio-provvisorio",
-    "definizione": "Autorizzazione, data con legge e per non più di quattro mesi, a gestire le finanze dello Stato quando il bilancio non è stato approvato entro l'anno."
-  },
-  {
-    "concetto": "semestre-bianco",
-    "definizione": "Ultimi sei mesi del mandato del capo dello Stato, durante i quali di regola non può sciogliere le Camere."
-  },
-  {
-    "concetto": "controfirma",
-    "definizione": "Sottoscrizione del ministro proponente, senza la quale l'atto del capo dello Stato non è valido e con cui il ministro se ne assume la responsabilità."
-  },
-  {
-    "concetto": "promulgazione",
-    "definizione": "Atto con cui il Presidente della Repubblica attesta che la legge è stata approvata dalle Camere e ne ordina l'osservanza, entro un mese."
-  },
-  {
     "concetto": "rinvio-presidenziale",
     "definizione": "Potere del capo dello Stato di chiedere alle Camere, con messaggio motivato, una nuova deliberazione su una legge prima di firmarla."
-  },
-  {
-    "concetto": "grazia",
-    "definizione": "Provvedimento individuale di clemenza con cui il capo dello Stato condona o commuta la pena inflitta a un condannato."
-  },
-  {
-    "concetto": "leale-collaborazione",
-    "definizione": "Dovere di Stato, Regioni ed enti locali di coordinarsi con intese e pareri quando le loro competenze si intrecciano."
-  },
-  {
-    "concetto": "simul-stabunt-simul-cadent",
-    "definizione": "Regola per cui il Presidente della Regione e il Consiglio, eletti insieme, cessano insieme: la sfiducia o le dimissioni dell'uno comportano lo scioglimento dell'altro."
-  },
-  {
-    "concetto": "giudice-naturale",
-    "definizione": "Garanzia per cui nessuno può essere sottratto all'organo giudicante individuato dalla legge prima del fatto."
-  },
-  {
-    "concetto": "inamovibilita",
-    "definizione": "Garanzia per cui un magistrato non può essere trasferito o sospeso se non per decisione del CSM, con le garanzie di difesa o con il suo consenso."
   },
   {
     "concetto": "obbligatorieta-azione-penale",
     "definizione": "Dovere del pubblico ministero di chiedere il processo ogni volta che una notizia di reato risulta fondata, senza valutazioni di opportunità."
   },
   {
-    "concetto": "vacatio-legis",
-    "definizione": "Periodo, di regola quindici giorni, tra la pubblicazione di una legge e la sua entrata in vigore."
-  },
-  {
-    "concetto": "consuetudine",
-    "definizione": "Fonte non scritta che nasce dalla ripetizione costante di un comportamento, accompagnata dalla convinzione che sia giuridicamente dovuto."
-  },
-  {
     "concetto": "antinomia",
     "definizione": "Contrasto tra due norme che regolano lo stesso caso in modo incompatibile."
   },
   {
-    "concetto": "criterio-cronologico",
-    "definizione": "Regola per cui, tra norme di pari grado in contrasto, prevale quella successiva, che abroga la precedente."
-  },
-  {
-    "concetto": "criterio-gerarchico",
-    "definizione": "Regola per cui, tra norme in contrasto, prevale quella posta dalla fonte di grado superiore, e l'altra è invalida."
-  },
-  {
     "concetto": "criterio-di-specialita",
     "definizione": "Regola per cui la norma dettata per un caso particolare prevale su quella generale, che resta valida per tutti gli altri casi."
-  },
-  {
-    "concetto": "abrogazione",
-    "definizione": "Effetto per cui una norma cessa di valere per il futuro perché una fonte successiva la elimina o la sostituisce."
-  },
-  {
-    "concetto": "analogia",
-    "definizione": "Procedimento con cui il giudice colma una lacuna applicando la norma prevista per un caso simile o i principi generali dell'ordinamento."
-  },
-  {
-    "concetto": "interpretazione-autentica",
-    "definizione": "Chiarimento del significato di una disposizione dato dallo stesso legislatore con una legge successiva, di regola retroattiva."
-  },
-  {
-    "concetto": "navetta-parlamentare",
-    "definizione": "Passaggio ripetuto di un progetto di legge da una Camera all'altra finché entrambe non approvano lo stesso testo."
   },
   {
     "concetto": "legge-delega",
@@ -236,40 +1020,12 @@
     "definizione": "Atto provvisorio con forza di legge che il Governo adotta in casi straordinari di necessità e urgenza e che decade se non è convertito entro sessanta giorni."
   },
   {
-    "concetto": "eccesso-di-delega",
-    "definizione": "Vizio dell'atto del Governo che va oltre l'oggetto, i principi o il termine fissati dal Parlamento, e viola così l'art. 76."
-  },
-  {
-    "concetto": "legge-di-sanatoria",
-    "definizione": "Legge con cui le Camere regolano i rapporti giuridici sorti sulla base di un decreto del Governo non convertito."
-  },
-  {
     "concetto": "testo-unico",
     "definizione": "Atto che raccoglie e coordina in un solo documento le norme vigenti su una stessa materia."
   },
   {
     "concetto": "delegificazione",
     "definizione": "Passaggio della disciplina di una materia dalla legge al regolamento, autorizzato da una legge che fissa le norme generali e dispone l'abrogazione di quelle vigenti."
-  },
-  {
-    "concetto": "quorum-referendario",
-    "definizione": "Partecipazione della maggioranza degli aventi diritto, necessaria perché la consultazione popolare abrogativa sia valida."
-  },
-  {
-    "concetto": "statuto-speciale",
-    "definizione": "Atto, adottato con legge costituzionale, che assicura forme e condizioni particolari di autonomia a cinque Regioni."
-  },
-  {
-    "concetto": "potesta-legislativa-concorrente",
-    "definizione": "Competenza in cui lo Stato fissa i principi fondamentali e la Regione detta la disciplina di dettaglio."
-  },
-  {
-    "concetto": "competenza-residuale-regionale",
-    "definizione": "Competenza legislativa delle Regioni su tutte le materie che l'art. 117 non elenca."
-  },
-  {
-    "concetto": "diretta-applicabilita",
-    "definizione": "Qualità del regolamento europeo, che produce effetti in tutti gli Stati membri senza bisogno di un atto di recepimento."
   },
   {
     "concetto": "primato-del-diritto-ue",
@@ -280,24 +1036,12 @@
     "definizione": "Domanda con cui un giudice nazionale chiede alla Corte di giustizia di interpretare una norma europea o di giudicarne la validità."
   },
   {
-    "concetto": "controlimiti",
-    "definizione": "Principi supremi e diritti inviolabili della Costituzione che resistono anche al diritto dell'Unione e alle norme internazionali."
-  },
-  {
     "concetto": "sentenza-granital",
     "definizione": "Decisione della Corte costituzionale n. 170 del 1984: il giudice comune non applica la legge interna in contrasto con un regolamento comunitario."
   },
   {
     "concetto": "parametro-costituzionale",
     "definizione": "Norma della Costituzione rispetto alla quale la Corte valuta la legittimità di una legge."
-  },
-  {
-    "concetto": "non-manifesta-infondatezza",
-    "definizione": "Requisito per cui il giudice solleva la questione davanti alla Corte se ha almeno un dubbio serio sulla costituzionalità della norma."
-  },
-  {
-    "concetto": "ordinanza-rimessione",
-    "definizione": "Atto motivato con cui il giudice sospende il processo e trasmette la questione alla Corte costituzionale."
   },
   {
     "concetto": "sentenza-manipolativa",
@@ -320,36 +1064,16 @@
     "definizione": "Gruppi intermedi tra individuo e Stato, come famiglia, partiti, sindacati e confessioni religiose, in cui si svolge la personalità di ciascuno."
   },
   {
-    "concetto": "espropriazione",
-    "definizione": "Trasferimento coattivo di un bene privato alla mano pubblica, ammesso per motivi di interesse generale, nei casi previsti dalla legge e con indennizzo."
-  },
-  {
     "concetto": "capacita-contributiva",
     "definizione": "Forza economica effettiva di ciascuno, che misura e limita il dovere di concorrere alle spese pubbliche."
-  },
-  {
-    "concetto": "diritti-inviolabili",
-    "definizione": "Posizioni fondamentali riconosciute dall’art. 2 alla persona, come singolo e nelle formazioni sociali, il cui nucleo non può essere soppresso."
   },
   {
     "concetto": "principio-di-uguaglianza",
     "definizione": "Regola dell’art. 3 che vieta discriminazioni arbitrarie e richiede alla Repubblica di rimuovere gli ostacoli economici e sociali alla piena partecipazione."
   },
   {
-    "concetto": "liberta-personale",
-    "definizione": "Garanzia dell’art. 13 contro restrizioni della sfera fisica della persona, ammesse nei casi e modi di legge con atto motivato dell’autorità giudiziaria."
-  },
-  {
-    "concetto": "liberta-di-domicilio",
-    "definizione": "Inviolabilità dello spazio della vita privata, tutelato dall’art. 14 contro ispezioni, perquisizioni e sequestri con le garanzie costituzionali previste."
-  },
-  {
     "concetto": "liberta-di-circolazione",
     "definizione": "Facoltà del cittadino di spostarsi e stabilirsi nel territorio nazionale, limitabile dalla legge in via generale per sanità o sicurezza, mai per ragioni politiche."
-  },
-  {
-    "concetto": "liberta-di-corrispondenza",
-    "definizione": "Garanzia dell’art. 15 per lo scambio riservato di messaggi, limitabile con atto motivato dell’autorità giudiziaria e con le garanzie stabilite dalla legge."
   },
   {
     "concetto": "trattamento-sanitario-obbligatorio",
@@ -358,18 +1082,6 @@
   {
     "concetto": "liberta-di-riunione",
     "definizione": "Facoltà di incontrarsi pacificamente e senza armi: per gli incontri in luogo pubblico è richiesto preavviso, con divieto ammesso solo per comprovati motivi di sicurezza o incolumità."
-  },
-  {
-    "concetto": "liberta-di-associazione",
-    "definizione": "Facoltà di costituire organizzazioni senza autorizzazione per fini non vietati ai singoli dalla legge penale, con i divieti specifici posti dall’art. 18."
-  },
-  {
-    "concetto": "liberta-religiosa",
-    "definizione": "Facoltà, garantita dall’art. 19, di professare una fede, diffonderla ed esercitarne il culto individualmente o collettivamente, purché i riti non siano contrari al buon costume."
-  },
-  {
-    "concetto": "liberta-di-manifestazione-del-pensiero",
-    "definizione": "Garanzia dell’art. 21 di esprimere e diffondere le proprie idee con la parola, lo scritto e ogni altro mezzo, nel rispetto dei limiti costituzionali."
   },
   {
     "concetto": "pluralismo-informazione",
@@ -384,36 +1096,12 @@
     "definizione": "Possibilità di rivolgersi a un giudice per far valere diritti e interessi legittimi, garantita anche contro gli atti della pubblica amministrazione."
   },
   {
-    "concetto": "diritto-istruzione",
-    "definizione": "Garanzia dell’art. 34 che apre la scuola a tutti e sostiene l’accesso dei capaci e meritevoli privi di mezzi ai gradi più alti degli studi."
-  },
-  {
-    "concetto": "diritto-salute",
-    "definizione": "Posizione tutelata dall’art. 32 come fondamentale interesse individuale e collettivo, con cure gratuite agli indigenti e limiti costituzionali ai trattamenti imposti."
-  },
-  {
-    "concetto": "liberta-sindacale",
-    "definizione": "Garanzia dell’art. 39 per la costituzione e l’attività delle organizzazioni che rappresentano gli interessi dei lavoratori, senza subordinazione a un’autorizzazione pubblica."
-  },
-  {
-    "concetto": "diritto-sciopero",
-    "definizione": "Facoltà riconosciuta dall’art. 40 di astenersi collettivamente dal lavoro per tutelare interessi, esercitata nell’ambito delle leggi che la regolano."
-  },
-  {
     "concetto": "progressivita-tributaria",
     "definizione": "Criterio dell’art. 53 secondo cui il sistema del prelievo deve far crescere l’incidenza dell’onere al crescere della capacità economica, senza imporre aliquote crescenti a ogni singolo tributo."
   },
   {
-    "concetto": "liberta-di-iniziativa-economica",
-    "definizione": "Garanzia dell’art. 41 per l’attività imprenditoriale privata, che non può svolgersi contro l’utilità sociale o danneggiare salute, ambiente, sicurezza, dignità e libertà umana."
-  },
-  {
     "concetto": "fonti-del-diritto",
     "definizione": "Atti e fatti ai quali l’ordinamento riconosce l’idoneità a produrre regole giuridiche, secondo competenze, procedimenti e limiti previsti."
-  },
-  {
-    "concetto": "fonti-di-cognizione",
-    "definizione": "Strumenti ufficiali o informativi attraverso i quali si conosce il testo delle regole, distinti dagli atti o fatti che le producono."
   },
   {
     "concetto": "fonti-atto",
@@ -422,18 +1110,6 @@
   {
     "concetto": "fonti-fatto",
     "definizione": "Comportamenti o accadimenti cui l’ordinamento attribuisce effetti di produzione normativa, senza richiedere una deliberazione intenzionalmente rivolta a creare la regola."
-  },
-  {
-    "concetto": "rinvio-fisso",
-    "definizione": "Tecnica che richiama il contenuto di una disposizione esterna nella versione individuata, senza seguirne automaticamente le successive modifiche."
-  },
-  {
-    "concetto": "rinvio-mobile",
-    "definizione": "Tecnica che richiama una fonte esterna seguendone le modifiche nel tempo, invece di incorporare soltanto la versione inizialmente individuata."
-  },
-  {
-    "concetto": "disposizione",
-    "definizione": "Enunciato linguistico contenuto in un testo normativo, dal quale l’interprete ricava una o più regole applicabili."
   },
   {
     "concetto": "norma-giuridica",
@@ -508,10 +1184,6 @@
     "definizione": "Riconoscimento della molteplicità di gruppi, interessi e orientamenti, con possibilità di esprimersi e concorrere alla vita collettiva entro il quadro costituzionale."
   },
   {
-    "concetto": "partiti-politici",
-    "definizione": "Associazioni attraverso cui i cittadini concorrono con metodo democratico a determinare la politica nazionale, secondo l’art. 49."
-  },
-  {
     "concetto": "rappresentanza-politica",
     "definizione": "Meccanismo con cui soggetti eletti assumono decisioni pubbliche per la collettività, senza ridursi a esecutori delle istruzioni dei propri elettori."
   },
@@ -556,10 +1228,6 @@
     "definizione": "Ramo del Parlamento con duecento membri elettivi, oltre a quelli a vita previsti dalla Costituzione, la cui eleggibilità richiede quarant’anni."
   },
   {
-    "concetto": "parlamento-in-seduta-comune",
-    "definizione": "Riunione dei membri delle due Camere nei soli casi stabiliti dalla Costituzione, presieduta dal Presidente del ramo di Montecitorio."
-  },
-  {
     "concetto": "regolamenti-parlamentari",
     "definizione": "Fonti con cui ciascuna Camera disciplina la propria organizzazione e i propri procedimenti, approvate a maggioranza assoluta dei componenti ai sensi dell’art. 64."
   },
@@ -576,16 +1244,8 @@
     "definizione": "Raggruppamenti dei membri di ciascuna Camera che organizzano la partecipazione ai lavori e assumono rilievo nella composizione delle commissioni."
   },
   {
-    "concetto": "copertura-finanziaria",
-    "definizione": "Obbligo per la legge che comporta nuovi o maggiori oneri di indicare i mezzi per farvi fronte, secondo l’art. 81."
-  },
-  {
     "concetto": "legge-di-bilancio",
     "definizione": "Atto con cui le Camere approvano annualmente il quadro delle entrate e delle spese dello Stato, nel rispetto dei vincoli dell’art. 81."
-  },
-  {
-    "concetto": "supplenza-presidenziale",
-    "definizione": "Esercizio delle funzioni del Capo dello Stato da parte del Presidente del Senato quando il titolare non può adempierle, secondo l’art. 86."
   },
   {
     "concetto": "scioglimento-anticipato",
@@ -616,20 +1276,8 @@
     "definizione": "Organo della magistratura che esercita l’azione penale e svolge le funzioni requirenti previste dalla legge, distinto dal giudice che decide."
   },
   {
-    "concetto": "corte-di-cassazione",
-    "definizione": "Giudice al vertice della giurisdizione ordinaria che assicura l’uniforme interpretazione del diritto e controlla la legittimità delle decisioni nei limiti processuali."
-  },
-  {
-    "concetto": "csm",
-    "definizione": "Organo di garanzia dell’autonomia della magistratura ordinaria, presieduto dal Capo dello Stato e competente per assunzioni, assegnazioni, trasferimenti, promozioni e disciplina."
-  },
-  {
     "concetto": "diritto-di-difesa",
     "definizione": "Garanzia inviolabile dell’art. 24 che consente di far valere le proprie ragioni in ogni stato e grado del procedimento, con strumenti effettivi anche per chi non ha mezzi."
-  },
-  {
-    "concetto": "giusto-processo",
-    "definizione": "Modello dell’art. 111 fondato su contraddittorio, parità delle parti, giudice terzo e imparziale e ragionevole durata del procedimento."
   },
   {
     "concetto": "responsabilita-disciplinare-magistrati",
@@ -638,10 +1286,6 @@
   {
     "concetto": "statuto-regionale",
     "definizione": "Fonte dell’autonomia ordinaria che determina forma di governo e principi di organizzazione della Regione, con doppia deliberazione consiliare a distanza non inferiore a due mesi."
-  },
-  {
-    "concetto": "legge-regionale",
-    "definizione": "Fonte primaria adottata dal Consiglio territoriale nell’ambito delle attribuzioni costituzionali, soggetta ai limiti dell’art. 117 e al controllo previsto dall’art. 127."
   },
   {
     "concetto": "regolamento-regionale",
@@ -688,10 +1332,6 @@
     "definizione": "Via di accesso alla Corte costituzionale attraverso una questione sollevata da un giudice nel corso di un processo, dopo le verifiche di rilevanza e non manifesta infondatezza."
   },
   {
-    "concetto": "rilevanza-costituzionale",
-    "definizione": "Requisito per cui la soluzione del dubbio sulla legge è necessaria per decidere il processo in cui il giudice intende rivolgersi alla Corte."
-  },
-  {
     "concetto": "giudizio-in-via-principale",
     "definizione": "Ricorso diretto dello Stato contro una legge regionale o della Regione contro una legge statale o di un’altra Regione, nei casi e termini dell’art. 127."
   },
@@ -710,10 +1350,6 @@
   {
     "concetto": "accusa-presidente-repubblica",
     "definizione": "Procedimento davanti alla Corte costituzionale in composizione integrata, dopo la deliberazione parlamentare prevista dall’art. 90 per alto tradimento o attentato alla Costituzione."
-  },
-  {
-    "concetto": "reati-ministeriali",
-    "definizione": "Illeciti penali commessi dal Presidente del Consiglio o dai titolari dei dicasteri nell’esercizio delle funzioni, attribuiti alla giurisdizione ordinaria con le garanzie dell’art. 96."
   },
   {
     "concetto": "principio-personalistico",

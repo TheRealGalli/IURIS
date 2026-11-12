@@ -1,0 +1,50 @@
+{
+  "voci": [
+    {
+      "id": "questione-romana",
+      "oltre": "### Dalla presa di Roma ai Patti\nIl **20 settembre 1870** l'esercito italiano entra a Roma dalla breccia di **Porta Pia**: finisce lo Stato pontificio e, con esso, il potere temporale dei papi. Un plebiscito conferma l'annessione e nel 1871 Roma diventa capitale del Regno.\n\nLo Stato prova a regolare da solo la nuova situazione con la **legge delle Guarentigie** (13 maggio 1871): al Pontefice sono garantiti l'inviolabilità della persona, gli onori sovrani, una rendita annua e il godimento dei palazzi vaticani e lateranense. È però un atto **unilaterale**, una legge ordinaria che il Parlamento può cambiare: Pio IX la respinge e si dichiara prigioniero in Vaticano. Con il *non expedit* la Santa Sede sconsiglia ai cattolici di partecipare alle elezioni politiche; il divieto si attenua solo all'inizio del XX secolo d.C.\n\nLa «questione romana» si chiude l'**11 febbraio 1929** con i **Patti lateranensi**, firmati da Mussolini e dal cardinale Gasparri: un **Trattato** (nasce lo Stato della Città del Vaticano e la Santa Sede riconosce il Regno d'Italia con Roma capitale), un **Concordato** (matrimonio religioso con effetti civili, insegnamento della religione, condizione del clero) e una **convenzione finanziaria**.\n\n### Dalla Costituzione a oggi\nL'**art. 7** richiama i Patti: per modificarli basta un accordo tra le due parti, senza revisione costituzionale; una modifica unilaterale richiederebbe invece il procedimento dell'art. 138. I Patti non sono però «costituzionalizzati»: non possono derogare ai principi supremi (Corte cost. 30/1971). L'**Accordo di Villa Madama** (18 febbraio 1984, legge 121/1985) ha riscritto il Concordato e dichiarato non più in vigore il principio della religione di Stato.",
+      "daSapere": [
+        "20 settembre 1870: breccia di Porta Pia",
+        "1871: legge delle Guarentigie, atto unilaterale rifiutato dal Papa",
+        "11 febbraio 1929: Patti lateranensi (Trattato, Concordato, convenzione finanziaria)",
+        "Art. 7 Cost.; Accordo di Villa Madama, 18 febbraio 1984"
+      ],
+      "fonti": [
+        {
+          "titolo": "Costituzione della Repubblica italiana, artt. 7, 8, 19 e 20",
+          "url": "https://www.senato.it/istituzione/la-costituzione"
+        },
+        {
+          "titolo": "Legge 13 maggio 1871, n. 214 (legge delle Guarentigie)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1871-05-13;214"
+        },
+        {
+          "titolo": "Legge 27 maggio 1929, n. 810 (esecuzione dei Patti lateranensi)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1929-05-27;810"
+        },
+        {
+          "titolo": "Legge 25 marzo 1985, n. 121 (ratifica dell'Accordo di Villa Madama)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1985-03-25;121"
+        },
+        {
+          "titolo": "Corte costituzionale, sentenza n. 30/1971",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1971/30"
+        }
+      ],
+      "collegamenti": [
+        {
+          "da": "questione-romana",
+          "a": "principi-supremi",
+          "tipo": "collegato",
+          "etichetta": "si chiude con Patti che non possono derogare ai"
+        },
+        {
+          "da": "revisione-costituzionale",
+          "a": "questione-romana",
+          "tipo": "collegato",
+          "etichetta": "non serve per le modifiche concordate dei Patti che chiusero la"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "voci": [
+    {
+      "id": "potesta-pubblica",
+      "collegamenti": [
+        {
+          "da": "potesta-pubblica",
+          "a": "principio-di-legalita",
+          "tipo": "collegato",
+          "etichetta": "è limitata dal"
+        }
+      ]
+    },
+    {
+      "id": "petizione",
+      "collegamenti": [
+        {
+          "da": "petizione",
+          "a": "democrazia-diretta",
+          "tipo": "esempio-di",
+          "etichetta": "è uno strumento di"
+        }
+      ]
+    },
+    {
+      "id": "parlamento-europeo",
+      "collegamenti": [
+        {
+          "da": "parlamento-europeo",
+          "a": "unione-europea",
+          "tipo": "parte-di",
+          "etichetta": "è un'istituzione dell'"
+        }
+      ]
+    },
+    {
+      "id": "consiglio-ue",
+      "collegamenti": [
+        {
+          "da": "consiglio-ue",
+          "a": "unione-europea",
+          "tipo": "parte-di",
+          "etichetta": "è un'istituzione dell'"
+        }
+      ]
+    },
+    {
+      "id": "consiglio-europeo",
+      "collegamenti": [
+        {
+          "da": "consiglio-europeo",
+          "a": "unione-europea",
+          "tipo": "parte-di",
+          "etichetta": "è un'istituzione dell'"
+        }
+      ]
+    },
+    {
+      "id": "principio-personalistico",
+      "collegamenti": [
+        {
+          "da": "principio-personalistico",
+          "a": "diritti-inviolabili",
+          "tipo": "crea",
+          "etichetta": "fonda i"
+        }
+      ]
+    },
+    {
+      "id": "principio-solidaristico",
+      "collegamenti": [
+        {
+          "da": "principio-solidaristico",
+          "a": "doveri-costituzionali",
+          "tipo": "crea",
+          "etichetta": "fonda i"
+        }
+      ]
+    },
+    {
+      "id": "razionalizzazione-del-parlamentarismo",
+      "collegamenti": [
+        {
+          "da": "razionalizzazione-del-parlamentarismo",
+          "a": "governo-parlamentare",
+          "tipo": "collegato",
+          "etichetta": "stabilizza il"
+        }
+      ]
+    },
+    {
+      "id": "ineleggibilita",
+      "collegamenti": [
+        {
+          "da": "ineleggibilita",
+          "a": "incompatibilita",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dall'"
+        }
+      ]
+    },
+    {
+      "id": "incandidabilita",
+      "collegamenti": [
+        {
+          "da": "incandidabilita",
+          "a": "elettorato-passivo",
+          "tipo": "contrasta",
+          "etichetta": "limita l'"
+        }
+      ]
+    },
+    {
+      "id": "sistema-maggioritario",
+      "collegamenti": [
+        {
+          "da": "sistema-maggioritario",
+          "a": "sistema-proporzionale",
+          "tipo": "contrasta",
+          "etichetta": "si oppone al"
+        }
+      ]
+    },
+    {
+      "id": "verifica-dei-poteri",
+      "collegamenti": [
+        {
+          "da": "verifica-dei-poteri",
+          "a": "parlamento",
+          "tipo": "parte-di",
+          "etichetta": "è una prerogativa del"
+        }
+      ]
+    },
+    {
+      "id": "sottosegretari-di-stato",
+      "collegamenti": [
+        {
+          "da": "sottosegretari-di-stato",
+          "a": "governo",
+          "tipo": "collegato",
+          "etichetta": "coadiuvano i ministri del"
+        }
+      ]
+    },
+    {
+      "id": "coalizione-di-governo",
+      "collegamenti": [
+        {
+          "da": "coalizione-di-governo",
+          "a": "governo",
+          "tipo": "collegato",
+          "etichetta": "sostiene il"
+        }
+      ]
+    },
+    {
+      "id": "gruppi-parlamentari",
+      "collegamenti": [
+        {
+          "da": "gruppi-parlamentari",
+          "a": "partiti-politici",
+          "tipo": "collegato",
+          "etichetta": "sono la proiezione in Parlamento dei"
+        }
+      ]
+    },
+    {
+      "id": "inchieste-parlamentari",
+      "collegamenti": [
+        {
+          "da": "inchieste-parlamentari",
+          "a": "parlamento",
+          "tipo": "parte-di",
+          "etichetta": "sono uno strumento di controllo del"
+        }
+      ]
+    },
+    {
+      "id": "esercizio-provvisorio",
+      "collegamenti": [
+        {
+          "da": "esercizio-provvisorio",
+          "a": "legge-di-bilancio",
+          "tipo": "collegato",
+          "etichetta": "supplisce al ritardo della"
+        }
+      ]
+    },
+    {
+      "id": "prorogatio",
+      "collegamenti": [
+        {
+          "da": "prorogatio",
+          "a": "legislatura",
+          "tipo": "collegato",
+          "etichetta": "prolunga i poteri oltre la"
+        }
+      ]
+    },
+    {
+      "id": "alto-tradimento",
+      "collegamenti": [
+        {
+          "da": "alto-tradimento",
+          "a": "accusa-presidente-repubblica",
+          "tipo": "causa",
+          "etichetta": "dà luogo alla messa in stato d'"
+        }
+      ]
+    },
+    {
+      "id": "attentato-alla-costituzione",
+      "collegamenti": [
+        {
+          "da": "attentato-alla-costituzione",
+          "a": "accusa-presidente-repubblica",
+          "tipo": "causa",
+          "etichetta": "dà luogo alla messa in stato d'"
+        }
+      ]
+    },
+    {
+      "id": "criterio-di-specialita",
+      "collegamenti": [
+        {
+          "da": "criterio-di-specialita",
+          "a": "antinomia",
+          "tipo": "collegato",
+          "etichetta": "risolve l'"
+        }
+      ]
+    },
+    {
+      "id": "rinvio-fisso",
+      "collegamenti": [
+        {
+          "da": "rinvio-fisso",
+          "a": "rinvio-mobile",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dal"
+        }
+      ]
+    },
+    {
+      "id": "legge-costituzionale",
+      "collegamenti": [
+        {
+          "da": "legge-costituzionale",
+          "a": "revisione-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "segue lo stesso procedimento della"
+        }
+      ]
+    },
+    {
+      "id": "commissione-referente",
+      "collegamenti": [
+        {
+          "da": "commissione-referente",
+          "a": "commissione-deliberante",
+          "tipo": "contrasta",
+          "etichetta": "si distingue dalla"
+        }
+      ]
+    },
+    {
+      "id": "promulgazione",
+      "collegamenti": [
+        {
+          "da": "promulgazione",
+          "a": "legge-ordinaria",
+          "tipo": "parte-di",
+          "etichetta": "è una fase del procedimento della"
+        }
+      ]
+    },
+    {
+      "id": "circolare-amministrativa",
+      "collegamenti": [
+        {
+          "da": "circolare-amministrativa",
+          "a": "fonti-del-diritto",
+          "tipo": "contrasta",
+          "etichetta": "non rientra tra le"
+        }
+      ]
+    },
+    {
+      "id": "reati-ministeriali",
+      "collegamenti": [
+        {
+          "da": "reati-ministeriali",
+          "a": "ministri",
+          "tipo": "collegato",
+          "etichetta": "riguardano i"
+        }
+      ]
+    },
+    {
+      "id": "tutela-giurisdizionale",
+      "collegamenti": [
+        {
+          "da": "tutela-giurisdizionale",
+          "a": "diritto-di-difesa",
+          "tipo": "collegato",
+          "etichetta": "comprende il"
+        }
+      ]
+    }
+  ]
+}

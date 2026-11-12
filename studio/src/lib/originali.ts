@@ -10,6 +10,8 @@ export interface DocumentoOriginale {
   sha256?: string;
   /** Documento solo testo, senza PDF pubblicato: testo ripulito in letture-src (sha256 è la sua impronta). */
   testoFonte?: string;
+  /** Il testo è già in Markdown (titoli `### `, elenchi «• », tabelle): l'estrazione lo divide solo ai capoversi. */
+  testoMarkdown?: boolean;
   tipoFonte?: 'manuale-ricostruito';
 }
 

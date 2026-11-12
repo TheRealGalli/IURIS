@@ -1,0 +1,665 @@
+{
+  "voci": [
+    {
+      "id": "regolarita-referendum",
+      "collegamenti": [
+        {
+          "da": "regolarita-referendum",
+          "a": "corte-di-cassazione",
+          "tipo": "collegato",
+          "etichetta": "è verificata dall'Ufficio centrale presso la"
+        },
+        {
+          "da": "regolarita-referendum",
+          "a": "ammissibilita-referendum",
+          "tipo": "contrasta",
+          "etichetta": "precede il controllo di"
+        }
+      ]
+    },
+    {
+      "id": "annullamento",
+      "collegamenti": [
+        {
+          "da": "annullamento",
+          "a": "abrogazione",
+          "tipo": "contrasta",
+          "etichetta": "colpisce l'invalidità, non la successione nel tempo come l'"
+        }
+      ]
+    },
+    {
+      "id": "autonomia-privata",
+      "collegamenti": [
+        {
+          "da": "autonomia-privata",
+          "a": "liberta-di-iniziativa-economica",
+          "tipo": "collegato",
+          "etichetta": "si esprime nella"
+        },
+        {
+          "da": "autonomia-privata",
+          "a": "diritto-soggettivo",
+          "tipo": "collegato",
+          "etichetta": "può creare un"
+        }
+      ]
+    },
+    {
+      "id": "commissione-europea",
+      "collegamenti": [
+        {
+          "da": "commissione-europea",
+          "a": "parlamento-europeo",
+          "tipo": "collegato",
+          "etichetta": "risponde politicamente al"
+        },
+        {
+          "da": "commissione-europea",
+          "a": "corte-di-giustizia-ue",
+          "tipo": "collegato",
+          "etichetta": "può portare gli Stati inadempienti davanti alla"
+        }
+      ]
+    },
+    {
+      "id": "commissione-deliberante",
+      "collegamenti": [
+        {
+          "da": "commissione-deliberante",
+          "a": "commissioni-parlamentari",
+          "tipo": "esempio-di",
+          "etichetta": "è una funzione delle"
+        }
+      ]
+    },
+    {
+      "id": "consiglio-di-stato",
+      "collegamenti": [
+        {
+          "da": "consiglio-di-stato",
+          "a": "regolamenti-governativi",
+          "tipo": "collegato",
+          "etichetta": "dà parere sui"
+        },
+        {
+          "da": "consiglio-di-stato",
+          "a": "tutela-giurisdizionale",
+          "tipo": "collegato",
+          "etichetta": "assicura contro la pubblica amministrazione la"
+        }
+      ]
+    },
+    {
+      "id": "corte-dei-conti",
+      "collegamenti": [
+        {
+          "da": "corte-dei-conti",
+          "a": "equilibrio-di-bilancio",
+          "tipo": "collegato",
+          "etichetta": "controlla l'"
+        },
+        {
+          "da": "corte-dei-conti",
+          "a": "magistratura",
+          "tipo": "collegato",
+          "etichetta": "è una giurisdizione speciale accanto alla"
+        }
+      ]
+    },
+    {
+      "id": "deroga",
+      "collegamenti": [
+        {
+          "da": "deroga",
+          "a": "antinomia",
+          "tipo": "collegato",
+          "etichetta": "evita l'"
+        },
+        {
+          "da": "deroga",
+          "a": "abrogazione",
+          "tipo": "contrasta",
+          "etichetta": "non elimina la regola generale, a differenza dell'"
+        }
+      ]
+    },
+    {
+      "id": "diritto-oggettivo",
+      "collegamenti": [
+        {
+          "da": "diritto-oggettivo",
+          "a": "diritto-soggettivo",
+          "tipo": "contrasta",
+          "etichetta": "è l'insieme delle norme, a differenza del"
+        },
+        {
+          "da": "diritto-oggettivo",
+          "a": "ordinamento-giuridico",
+          "tipo": "collegato",
+          "etichetta": "forma l'"
+        },
+        {
+          "da": "diritto-oggettivo",
+          "a": "norma-giuridica",
+          "tipo": "collegato",
+          "etichetta": "è composto da"
+        }
+      ]
+    },
+    {
+      "id": "legge-ordinaria",
+      "collegamenti": [
+        {
+          "da": "legge-ordinaria",
+          "a": "fonti-atto",
+          "tipo": "esempio-di",
+          "etichetta": "è una delle"
+        }
+      ]
+    },
+    {
+      "id": "informazione-per-la-sicurezza",
+      "collegamenti": [
+        {
+          "da": "informazione-per-la-sicurezza",
+          "a": "presidente-del-consiglio",
+          "tipo": "collegato",
+          "etichetta": "fa capo al"
+        },
+        {
+          "da": "informazione-per-la-sicurezza",
+          "a": "parlamento",
+          "tipo": "collegato",
+          "etichetta": "è controllata da un comitato del"
+        },
+        {
+          "da": "informazione-per-la-sicurezza",
+          "a": "governo",
+          "tipo": "collegato",
+          "etichetta": "è diretta dal"
+        }
+      ]
+    },
+    {
+      "id": "iniziativa-legislativa",
+      "collegamenti": [
+        {
+          "da": "iniziativa-legislativa",
+          "a": "governo",
+          "tipo": "collegato",
+          "etichetta": "spetta anche al"
+        }
+      ]
+    },
+    {
+      "id": "interpellanza",
+      "collegamenti": [
+        {
+          "da": "interpellanza",
+          "a": "governo",
+          "tipo": "collegato",
+          "etichetta": "è rivolta al"
+        },
+        {
+          "da": "interpellanza",
+          "a": "parlamento",
+          "tipo": "collegato",
+          "etichetta": "è uno strumento di controllo del"
+        }
+      ]
+    },
+    {
+      "id": "legge-atipica",
+      "collegamenti": [
+        {
+          "da": "legge-atipica",
+          "a": "legge-ordinaria",
+          "tipo": "contrasta",
+          "etichetta": "ha forza o ambito diversi dalla"
+        }
+      ]
+    },
+    {
+      "id": "legge-di-bilancio",
+      "collegamenti": [
+        {
+          "da": "legge-di-bilancio",
+          "a": "legge-atipica",
+          "tipo": "esempio-di",
+          "etichetta": "è una"
+        }
+      ]
+    },
+    {
+      "id": "legge-europea",
+      "collegamenti": [
+        {
+          "da": "legge-europea",
+          "a": "unione-europea",
+          "tipo": "collegato",
+          "etichetta": "adegua l'ordinamento agli obblighi dell'"
+        }
+      ]
+    },
+    {
+      "id": "ministro-della-giustizia",
+      "collegamenti": [
+        {
+          "da": "ministro-della-giustizia",
+          "a": "ministri",
+          "tipo": "esempio-di",
+          "etichetta": "è uno dei"
+        }
+      ]
+    },
+    {
+      "id": "mozione-parlamentare",
+      "collegamenti": [
+        {
+          "da": "mozione-parlamentare",
+          "a": "indirizzo-politico",
+          "tipo": "collegato",
+          "etichetta": "orienta l'"
+        }
+      ]
+    },
+    {
+      "id": "risoluzione-parlamentare",
+      "collegamenti": [
+        {
+          "da": "risoluzione-parlamentare",
+          "a": "indirizzo-politico",
+          "tipo": "collegato",
+          "etichetta": "esprime un"
+        },
+        {
+          "da": "risoluzione-parlamentare",
+          "a": "mozione-parlamentare",
+          "tipo": "collegato",
+          "etichetta": "è vicina alla"
+        },
+        {
+          "da": "risoluzione-parlamentare",
+          "a": "governo",
+          "tipo": "collegato",
+          "etichetta": "orienta il"
+        }
+      ]
+    },
+    {
+      "id": "non-manifesta-infondatezza",
+      "collegamenti": [
+        {
+          "da": "non-manifesta-infondatezza",
+          "a": "rilevanza-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "si affianca alla"
+        }
+      ]
+    },
+    {
+      "id": "par-condicio",
+      "collegamenti": [
+        {
+          "da": "par-condicio",
+          "a": "liberta-di-manifestazione-del-pensiero",
+          "tipo": "collegato",
+          "etichetta": "regola nella campagna elettorale la"
+        },
+        {
+          "da": "par-condicio",
+          "a": "pluralismo-informazione",
+          "tipo": "collegato",
+          "etichetta": "serve al"
+        },
+        {
+          "da": "par-condicio",
+          "a": "partiti-politici",
+          "tipo": "collegato",
+          "etichetta": "garantisce parità ai"
+        }
+      ]
+    },
+    {
+      "id": "potere-politico",
+      "collegamenti": [
+        {
+          "da": "potere-politico",
+          "a": "potesta-pubblica",
+          "tipo": "collegato",
+          "etichetta": "si esprime giuridicamente nella"
+        }
+      ]
+    },
+    {
+      "id": "premio-di-maggioranza",
+      "collegamenti": [
+        {
+          "da": "premio-di-maggioranza",
+          "a": "sistema-elettorale",
+          "tipo": "parte-di",
+          "etichetta": "è un correttivo del"
+        },
+        {
+          "da": "premio-di-maggioranza",
+          "a": "corte-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "è stato limitato dalla"
+        }
+      ]
+    },
+    {
+      "id": "quorum-funzionale",
+      "collegamenti": [
+        {
+          "da": "quorum-funzionale",
+          "a": "quorum-deliberativo",
+          "tipo": "collegato",
+          "etichetta": "coincide con il"
+        },
+        {
+          "da": "quorum-funzionale",
+          "a": "quorum-strutturale",
+          "tipo": "contrasta",
+          "etichetta": "riguarda i voti, non le presenze come il"
+        }
+      ]
+    },
+    {
+      "id": "rinvio-mobile",
+      "collegamenti": [
+        {
+          "da": "rinvio-mobile",
+          "a": "fonti-del-diritto",
+          "tipo": "collegato",
+          "etichetta": "richiama dinamicamente altre"
+        }
+      ]
+    },
+    {
+      "id": "supplenza-presidenziale",
+      "collegamenti": [
+        {
+          "da": "supplenza-presidenziale",
+          "a": "senato",
+          "tipo": "collegato",
+          "etichetta": "è affidata al Presidente del"
+        }
+      ]
+    },
+    {
+      "id": "sussidiarieta-ue",
+      "collegamenti": [
+        {
+          "da": "sussidiarieta-ue",
+          "a": "sussidiarieta",
+          "tipo": "collegato",
+          "etichetta": "applica all'Unione il principio di"
+        }
+      ]
+    },
+    {
+      "id": "testo-unico",
+      "collegamenti": [
+        {
+          "da": "testo-unico",
+          "a": "fonti-di-cognizione",
+          "tipo": "collegato",
+          "etichetta": "può essere solo una delle"
+        },
+        {
+          "da": "testo-unico",
+          "a": "legge-ordinaria",
+          "tipo": "collegato",
+          "etichetta": "riordina le disposizioni di"
+        }
+      ]
+    },
+    {
+      "id": "vacatio-legis",
+      "collegamenti": [
+        {
+          "da": "vacatio-legis",
+          "a": "legge-ordinaria",
+          "tipo": "collegato",
+          "etichetta": "precede l'entrata in vigore della"
+        }
+      ]
+    },
+    {
+      "id": "voto-disgiunto",
+      "collegamenti": [
+        {
+          "da": "voto-disgiunto",
+          "a": "sistema-elettorale",
+          "tipo": "parte-di",
+          "etichetta": "è previsto in un tipo di"
+        }
+      ]
+    },
+    {
+      "id": "coabitazione",
+      "collegamenti": [
+        {
+          "da": "coabitazione",
+          "a": "forma-di-governo",
+          "tipo": "collegato",
+          "etichetta": "dipende dalla"
+        }
+      ]
+    },
+    {
+      "id": "consiglio-supremo-di-difesa",
+      "collegamenti": [
+        {
+          "da": "consiglio-supremo-di-difesa",
+          "a": "governo",
+          "tipo": "collegato",
+          "etichetta": "raccorda il Presidente con il"
+        }
+      ]
+    },
+    {
+      "id": "corte-di-giustizia-ue",
+      "collegamenti": [
+        {
+          "da": "corte-di-giustizia-ue",
+          "a": "primato-del-diritto-ue",
+          "tipo": "collegato",
+          "etichetta": "ha affermato il"
+        }
+      ]
+    },
+    {
+      "id": "incompatibilita",
+      "collegamenti": [
+        {
+          "da": "incompatibilita",
+          "a": "parlamento",
+          "tipo": "collegato",
+          "etichetta": "riguarda i membri del"
+        }
+      ]
+    },
+    {
+      "id": "legge-di-sanatoria",
+      "collegamenti": [
+        {
+          "da": "legge-di-sanatoria",
+          "a": "legge-di-conversione",
+          "tipo": "contrasta",
+          "etichetta": "regola gli effetti del decreto non convertito, a differenza della"
+        },
+        {
+          "da": "legge-di-sanatoria",
+          "a": "parlamento",
+          "tipo": "collegato",
+          "etichetta": "è approvata dal"
+        }
+      ]
+    },
+    {
+      "id": "max-weber",
+      "collegamenti": [
+        {
+          "da": "max-weber",
+          "a": "potere-politico",
+          "tipo": "collegato",
+          "etichetta": "ha studiato il"
+        },
+        {
+          "da": "max-weber",
+          "a": "stato",
+          "tipo": "collegato",
+          "etichetta": "ha definito lo"
+        }
+      ]
+    },
+    {
+      "id": "ministri-senza-portafoglio",
+      "collegamenti": [
+        {
+          "da": "ministri-senza-portafoglio",
+          "a": "consiglio-dei-ministri",
+          "tipo": "parte-di",
+          "etichetta": "fanno parte del"
+        },
+        {
+          "da": "ministri-senza-portafoglio",
+          "a": "presidente-del-consiglio",
+          "tipo": "collegato",
+          "etichetta": "ricevono deleghe dal"
+        }
+      ]
+    },
+    {
+      "id": "monarchia-costituzionale",
+      "collegamenti": [
+        {
+          "da": "monarchia-costituzionale",
+          "a": "stato-liberale",
+          "tipo": "collegato",
+          "etichetta": "fu una forma dello"
+        }
+      ]
+    },
+    {
+      "id": "navetta-parlamentare",
+      "collegamenti": [
+        {
+          "da": "navetta-parlamentare",
+          "a": "camera-dei-deputati",
+          "tipo": "collegato",
+          "etichetta": "coinvolge la"
+        }
+      ]
+    },
+    {
+      "id": "parametro-costituzionale",
+      "collegamenti": [
+        {
+          "da": "parametro-costituzionale",
+          "a": "corte-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "è usato dalla"
+        },
+        {
+          "da": "parametro-costituzionale",
+          "a": "giudizio-incidentale",
+          "tipo": "parte-di",
+          "etichetta": "serve nel"
+        }
+      ]
+    },
+    {
+      "id": "prerogative-parlamentari",
+      "collegamenti": [
+        {
+          "da": "prerogative-parlamentari",
+          "a": "parlamento",
+          "tipo": "collegato",
+          "etichetta": "proteggono il"
+        }
+      ]
+    },
+    {
+      "id": "sentenza-di-rigetto",
+      "collegamenti": [
+        {
+          "da": "sentenza-di-rigetto",
+          "a": "giudizio-incidentale",
+          "tipo": "collegato",
+          "etichetta": "chiude spesso il"
+        }
+      ]
+    },
+    {
+      "id": "sentenza-interpretativa",
+      "collegamenti": [
+        {
+          "da": "sentenza-interpretativa",
+          "a": "interpretazione-giuridica",
+          "tipo": "collegato",
+          "etichetta": "indica la corretta"
+        }
+      ]
+    },
+    {
+      "id": "soglia-di-sbarramento",
+      "collegamenti": [
+        {
+          "da": "soglia-di-sbarramento",
+          "a": "sistema-elettorale",
+          "tipo": "parte-di",
+          "etichetta": "è un correttivo del"
+        }
+      ]
+    },
+    {
+      "id": "terzo-settore",
+      "collegamenti": [
+        {
+          "da": "terzo-settore",
+          "a": "formazioni-sociali",
+          "tipo": "esempio-di",
+          "etichetta": "è composto da"
+        },
+        {
+          "da": "terzo-settore",
+          "a": "principio-solidaristico",
+          "tipo": "collegato",
+          "etichetta": "attua il"
+        }
+      ]
+    },
+    {
+      "id": "tutela-delle-minoranze",
+      "collegamenti": [
+        {
+          "da": "tutela-delle-minoranze",
+          "a": "parlamento",
+          "tipo": "collegato",
+          "etichetta": "vale nel"
+        },
+        {
+          "da": "tutela-delle-minoranze",
+          "a": "corte-costituzionale",
+          "tipo": "collegato",
+          "etichetta": "è garantita anche dalla"
+        }
+      ]
+    },
+    {
+      "id": "ufficio",
+      "collegamenti": [
+        {
+          "da": "ufficio",
+          "a": "ente-pubblico",
+          "tipo": "parte-di",
+          "etichetta": "compone l'organizzazione dell'"
+        }
+      ]
+    }
+  ]
+}

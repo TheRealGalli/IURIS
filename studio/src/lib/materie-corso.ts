@@ -11,9 +11,8 @@ const PRIVATO = (s: string) => s === 'diritto-privato' || s.startsWith('diritto-
 
 /**
  * Dove si legge la Costituzione e dove il Codice civile per il corso scelto.
- * La materia costituzionale è quella **del corso** (A-L: `diritto-costituzionale`; M-Z e SSG: `diritto-costituzionale-martines`);
- * se il corso non ne ha ancora una pronta si ripiega su quella presente nel manifest (di preferenza Martines, che è
- * la materia delle classi senza una costituzionale propria), ma solo per leggere l'articolo nella scheda.
+ * Diritto costituzionale è una sola materia (`diritto-costituzionale`) per le tre classi, come Diritto privato;
+ * se il corso non la elenca si ripiega su quella presente nel manifest, ma solo per leggere l'articolo nella scheda.
  */
 export function attiDelCorso(delCorso: string[], tutte: string[] = delCorso): AttiCorso {
   const scegli = (pred: (s: string) => boolean, preferita?: string): AttoCorso | undefined => {
@@ -23,7 +22,7 @@ export function attiDelCorso(delCorso: string[], tutte: string[] = delCorso): At
     const slug = fuori.find((s) => s === preferita) ?? fuori[0];
     return slug ? { slug, inCorso: false } : undefined;
   };
-  return { costituzione: scegli(COSTITUZIONALE, 'diritto-costituzionale-martines'), codice: scegli(PRIVATO) };
+  return { costituzione: scegli(COSTITUZIONALE, 'diritto-costituzionale'), codice: scegli(PRIVATO, 'diritto-privato') };
 }
 
 type Globale = { __iurisMaterieCorso?: Set<string>; __iurisAtti?: AttiCorso };

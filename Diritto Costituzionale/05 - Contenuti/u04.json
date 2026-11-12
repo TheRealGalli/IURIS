@@ -1,1709 +1,1898 @@
 {
   "id": "u04",
   "ordine": 4,
-  "titolo": "La Costituzione: significati, origini e principi",
-  "capitolo": "Capitolo III",
+  "titolo": "Il soggetto di diritto e le situazioni giuridiche soggettive",
+  "capitolo": "Parte I · Capitolo III",
   "pagine": [
     33,
-    38
+    36
   ],
-  "abstract": "Dalle classificazioni delle costituzioni alla carta repubblicana: rigidità, revisione, limiti e principi fondamentali.",
-  "note": "I limiti alla revisione proteggono i principi supremi della Costituzione, non ogni sua parola.",
+  "abstract": "Chi è soggetto di diritto e quali posizioni l'ordinamento gli attribuisce: capacità giuridica e di agire, persone fisiche e giuridiche, entità prive di soggettività; le situazioni attive (potere, diritto soggettivo, interesse legittimo, diritto affievolito) e passive (dovere, obbligo); il problema dell'effettività dei diritti, tra libertà dallo Stato e libertà nello Stato. Sono nozioni che tornano in tutta la parte sui diritti e sulla giustizia.",
+  "note": "Aggiornato: la «potestà dei genitori» si chiama oggi responsabilità genitoriale e il «fallimento» liquidazione giudiziale. Non confondere dovere (di una generalità di soggetti) e obbligo (di un soggetto determinato verso chi ha il diritto di pretenderlo).",
   "noteRedazione": [
-    "pp. 33–34: non si assume che un ordinamento privo di un unico testo sia composto solo da consuetudini, né che sia sempre integralmente flessibile.",
-    "p. 34: i limiti alla revisione riguardano il contenuto essenziale dei principi supremi, non l’immodificabilità letterale di ogni disposizione; Corte cost. 1146/1988, confermata da https://www.cortecostituzionale.it/scheda-pronuncia/2025/125 .",
-    "Art. 138 verificato su https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-vi/sezione-ii/articolo-138 .",
-    "p. 38: corretto il divieto generico di estradizione dello straniero: art. 10 riguarda reati politici, con eccezione per genocidio, l. cost. 1/1967. Fonti: https://www.senato.it/istituzione/la-costituzione/principi-fondamentali/articolo-10 e https://www.senato.it/sites/default/files/media-documents/Costituzione_e_Regolamento.pdf .",
-    "Piano finale (11 nov. 2026): gli eventi del 1882, 1912, 1918 e 1944 e i dati sulla composizione della Costituente (traccia d'esame di Torre) vengono dall'appendice storica degli appunti, pp. 209–212, fuori dalle pagine dell'unità: per questo non hanno «pagine». A p. 211 la nota sulla legge del 1882 riporta «n. 999» e «23% della popolazione» in modo confuso (la legge è del 22 gennaio 1882; nel testo: dal 2% al 7%); la legge del 1912 è la 30 giugno 1912, n. 666; il decreto n. 151/1944 è un decreto-legge luogotenenziale (la XV disposizione finale lo chiama «decreto legislativo luogotenenziale»). Seggi dei partiti alla Costituente (DC 207, PSIUP 115, PCI 104): dati storici consolidati, non presenti negli appunti, che nominano solo i partiti."
+    "Unità scritta dal testo per pagina (pp. 33–36, Parte prima, Capitolo III, §§ 1–4). La p. 32 è la coda del capitolo sulle fonti (u03); la p. 37 apre il Capitolo IV (u05).",
+    "p. 34: «potestà dei genitori» è oggi «responsabilità genitoriale» (d.lgs. 28 dicembre 2013, n. 154, in vigore dal 7 febbraio 2014): aggiunto tra parentesi nella sintesi.",
+    "p. 34: il «fallimento» è oggi la «liquidazione giudiziale» (Codice della crisi d'impresa e dell'insolvenza, d.lgs. 12 gennaio 2019, n. 14, in vigore dal 15 luglio 2022): aggiunto tra parentesi.",
+    "p. 34: «famiglia legittima» reso con «famiglia fondata sul matrimonio» (art. 29), dopo l'unificazione dello stato di figlio (legge n. 219/2012).",
+    "p. 33: legge n. 40 del 2004 sulla «fecondazione medicalmente assistita»: il titolo della legge è «procreazione medicalmente assistita» (legge 19 febbraio 2004, n. 40); il riassunto dice che «si impegna al riconoscimento dei diritti del concepito» (l'art. 1 assicura i diritti di tutti i soggetti coinvolti, compreso il concepito).",
+    "p. 34: l'esempio del concorso pubblico parafrasa l'art. 51 Cost. (accesso ai pubblici uffici); p. 34 «concorrere alle spese pubbliche» è l'art. 53 Cost.; p. 35 la tutela in giudizio di diritti e interessi legittimi è l'art. 24 Cost.; p. 36 il dovere dei genitori di educare i figli è l'art. 30 e la difesa della Patria l'art. 52: i numeri degli articoli sono aggiunti nella sintesi.",
+    "p. 35: il riassunto parla genericamente di «Giudice amministrativo»: il link va alla voce TAR (giudice amministrativo di primo grado).",
+    "Id nuovi: soggettivita-giuridica, capacita-giuridica, capacita-di-agire, enti-senza-soggettivita, situazioni-giuridiche-soggettive, potere-giuridico, rapporto-giuridico, buon-andamento-e-imparzialita, diritto-affievolito, effettivita-dei-diritti. Canonici definiti qui per la prima volta in questa materia: persona-giuridica, ente-pubblico, diritto-soggettivo, stato-liberale (citato senza definizione da u05, u06, u07, u21, u25), dovere-giuridico, obbligo. Ridefinito con il contenuto di queste pagine: interesse-legittimo (u16).",
+    "Integrazione A-L (g01): u04-l2 accoglie potestà pubblica e autonomia privata (A-L u01-l4); voce nuova potesta-pubblica; diritto-soggettivo, persona-giuridica, ente-pubblico e stato-liberale integrate con le definizioni A-L."
   ],
   "lezioni": [
     {
-      "titolo": "Che cosa significa Costituzione: nascita, rigidità e limiti",
+      "id": "u04-l1",
+      "titolo": "Soggettività giuridica, capacità, persone fisiche e giuridiche",
       "pagine": [
         33,
-        35
+        34
       ],
-      "sintesi": "### Una parola, più significati\nLa [[costituzione]] descrive anzitutto l'assetto fondamentale di una comunità politica: chi esercita il potere, come si formano le decisioni, quali rapporti esistono tra autorità e persone. In questo senso anche un ordinamento privo di un unico documento scritto possiede una costituzione. Nel significato normativo indica invece le regole fondamentali che istituiscono e limitano i pubblici poteri, riconoscendo diritti e disciplinando la produzione delle altre norme. Il costituzionalismo aggiunge un preciso obiettivo: rendere il potere limitato e garantire le libertà, attraverso [[separazione-dei-poteri|separazione dei poteri]] e tutela giurisdizionale.\n\nNon bisogna confondere classificazioni che rispondono a domande differenti. La costituzione **concessa** proviene dal sovrano, quella **votata** da una deliberazione rappresentativa del popolo. La costituzione scritta raccoglie norme fondamentali in un testo; negli ordinamenti comunemente detti non scritti queste sono distribuite fra testi legislativi, precedenti e convenzioni. Non significa che ogni loro regola sia una [[consuetudine|consuetudine]]. Una costituzione breve regola soprattutto organizzazione e libertà; una lunga disciplina anche rapporti economici e sociali e obiettivi di trasformazione.\n\n| Distinzione | Criterio | Conseguenza |\n|---|---|---|\n| [[costituzione-flessibile|Flessibile]] / [[costituzione-rigida|rigida]] | Rapporto con la [[legge-ordinaria|legge ordinaria]] | Nella seconda la legge ordinaria non può derogare alla Costituzione |\n| Formale / materiale | Testo e assetto effettivo | La prassi aiuta a capire il funzionamento, senza rendere lecita una violazione |\n| Concessa / votata | Origine del documento | Differente legittimazione dell'atto fondativo |\n\nLo [[statuto-albertino]], concesso il 4 marzo 1848, è il riferimento italiano di costituzione flessibile: non prevedeva un procedimento aggravato di revisione e la successiva legislazione ordinaria ne modificò l'assetto. La rigidità della Costituzione repubblicana consiste invece in una superiorità giuridica, non nell'impossibilità di ogni cambiamento. La sua forza passiva la protegge dalle leggi ordinarie; la sua forza attiva condiziona validità e contenuti delle fonti subordinate.\n\n### Potere costituente e revisione\nIl [[potere-costituente]] fonda il nuovo ordinamento. Il potere di [[revisione-costituzionale]], invece, è costituito: opera entro procedure e limiti della Costituzione vigente. L'art. 138 richiede due deliberazioni di ciascuna Camera, con almeno tre mesi tra le due deliberazioni della medesima Camera. Nella seconda votazione occorre almeno la maggioranza assoluta dei componenti. Non basta quindi ripetere due volte una normale votazione a maggioranza dei presenti.\n\nSe entrambe le [[parlamento|Camere]] raggiungono i due terzi dei componenti nella seconda votazione, non si può chiedere il referendum. Se almeno una Camera rimane sotto i due terzi, pur raggiungendo la maggioranza assoluta, il testo viene pubblicato per consentire la richiesta referendaria. Entro tre mesi possono chiederla un quinto dei membri di una Camera, cinquecentomila elettori oppure cinque [[consiglio-regionale|Consigli regionali]]. Se nessuno la richiede si procede alla [[promulgazione|promulgazione]]; se è richiesta, decide la maggioranza dei voti validi. Il [[referendum-costituzionale|referendum costituzionale]] non richiede una partecipazione minima: non ha il [[quorum-strutturale|quorum strutturale]] del [[referendum-abrogativo|referendum abrogativo]]. Questa funzione di garanzia rende possibile alle minoranze sottoporre la modifica al corpo elettorale.\n\nL'art. 139 sottrae alla revisione la forma repubblicana. La [[corte-costituzionale|Corte costituzionale]], dalla sentenza n. 1146/1988, riconosce inoltre [[principi-supremi]] che non possono essere sovvertiti nel loro contenuto essenziale neppure da [[legge-costituzionale|leggi costituzionali]]: la Costituzione non autorizza la distruzione della propria identità mediante una procedura di modifica. Questo non congela ogni parola dei primi dodici articoli. [[disposizione|Disposizioni]] e modalità di tutela possono evolvere, mentre resta il nucleo essenziale dei principi. Anche le leggi costituzionali sono quindi soggette al controllo della Corte rispetto a tali limiti.\n\n### La fondazione repubblicana\nIl 2 giugno 1946 si svolsero il referendum istituzionale e l'elezione dell'[[assemblea-costituente]]. La Commissione dei 75 preparò il progetto, articolando il lavoro su diritti e doveri, organizzazione della Repubblica e rapporti economico-sociali. Seguì il confronto in Assemblea. Il testo fu approvato il 22 dicembre 1947, promulgato il 27 dicembre ed entrò in vigore il 1° gennaio 1948. Il compromesso fra culture liberale, cattolica e socialista non indica norme prive di valore: esprime la convergenza su garanzie comuni entro cui una pluralità di [[indirizzo-politico|indirizzi politici]] può competere.",
-      "concetti": [
-        "costituzione",
-        "costituzione-rigida",
-        "costituzione-flessibile",
-        "potere-costituente",
-        "revisione-costituzionale",
-        "principi-supremi",
-        "statuto-albertino",
-        "assemblea-costituente"
-      ],
+      "minuti": 25,
+      "sintesi": "### L'uomo come centro di imputazione\nLe norme giuridiche considerano ogni uomo **centro di imputazione di interessi** socialmente e giuridicamente rilevanti: l'uomo è insieme destinatario della [[norma-giuridica|norma]] e titolare degli interessi che essa riconosce. Il riconoscimento di questi interessi comporta l'attribuzione di una serie di **situazioni attive e passive**, che nel loro complesso formano la [[soggettivita-giuridica|soggettività giuridica]]; il loro titolare diventa **soggetto di diritto**.\n\n### Capacità giuridica e capacità di agire\n| | [[capacita-giuridica|Capacità giuridica]] | [[capacita-di-agire|Capacità di agire]] |\n|---|---|---|\n| Che cos'è | attitudine a essere potenzialmente destinatari delle norme che attribuiscono situazioni attive e passive | attitudine a porre in essere **direttamente** atti produttivi di effetti giuridici |\n| Quando si acquista | alla **nascita** (art. 1 c.c.) | al compimento del **diciottesimo anno** (art. 2 c.c.) |\n\nLa legge può riconoscere diritti anche ai **concepiti**, ma il loro acquisto è subordinato all'evento della nascita. Il riassunto ricorda la legge n. 40 del 2004 sulla procreazione medicalmente assistita, che si impegna a riconoscere i diritti del concepito.\n\nLa capacità giuridica acquista **rilievo nel diritto pubblico**, dove sorgono dubbi sul riconoscimento di alcuni diritti a certi soggetti. Si discute:\n- se lo [[straniero|straniero]] e l'[[apolide|apolide]] siano titolari dei diritti che la Costituzione sembrerebbe riservare ai cittadini;\n- se il riconoscimento e la tutela di alcuni diritti di libertà si estendano anche ai **minorenni**.\n\nInoltre il riconoscimento **formale** della capacità giuridica può non coincidere con l'effettiva attribuzione di situazioni attive, quando lo impediscono ostacoli di ordine economico e sociale: l'art. 4 Cost. riconosce a tutti i cittadini il [[diritto-al-lavoro|diritto al lavoro]], ma ostacoli economico-sociali impediscono di raggiungere la piena occupazione.\n\n### Persone fisiche e persone giuridiche\nOltre che alle persone fisiche, l'ordinamento attribuisce soggettività giuridica a entità collettive, le [[persona-giuridica|persone giuridiche]]:\n- **associazioni o corporazioni**: un'unione di persone costituita in vista di un interesse comune;\n- **fondazioni o istituzioni**: una struttura organizzativa idonea a soddisfare gli interessi di persone determinate o determinabili.\n\nSi chiamano persone giuridiche per sottolineare che sono una **creazione del diritto** e non esistono nel mondo reale. A differenza di quelle fisiche, possono essere **pubbliche o private**, in base alla natura dei fini che perseguono ([[ente-pubblico|enti pubblici]]). La distinzione non è sempre facile: ci sono enti a struttura privatistica che perseguono interessi pubblici e la natura del fine non è sempre determinata o determinabile.\n\n### I «diritti senza soggetto»\nDestinatarie delle norme possono essere anche [[enti-senza-soggettivita|entità cui l'ordinamento non riconosce la soggettività giuridica]]. Il fenomeno riguarda sia il diritto privato sia quello pubblico:\n- nel diritto privato: le **associazioni non riconosciute** (che non hanno chiesto o non hanno ancora ottenuto il riconoscimento), la comunione legale tra coniugi, il condominio negli edifici, l'eredità giacente, il fallimento (oggi liquidazione giudiziale), l'impresa;\n- nella Costituzione: oltre al riferimento alle [[formazioni-sociali|formazioni sociali]] come sedi in cui l'uomo svolge la sua personalità (art. 2), norme che hanno per destinatari entità non soggettivizzate o non soggettivizzabili, come il [[popolo]], la [[famiglia]] fondata sul matrimonio, i [[partiti-politici|partiti politici]] e i [[liberta-sindacale|sindacati]] non registrati.\n\nNon sono veri e propri soggetti di diritto, ma l'ordinamento attribuisce loro **situazioni giuridiche attive e passive**, forme di tutela e **legittimazioni processuali**.",
       "puntiChiave": [
-        "La rigidità è superiorità rispetto alla legge ordinaria, accompagnata da garanzie.",
-        "Art. 138: doppia deliberazione, tre mesi, maggioranza assoluta; referendum eventuale.",
-        "I principi supremi limitano anche le leggi costituzionali."
+        "Ogni uomo è centro di imputazione di interessi: le situazioni attive e passive che gli sono attribuite formano la soggettività giuridica.",
+        "Capacità giuridica: si acquista con la nascita (art. 1 c.c.); i diritti del concepito dipendono dalla nascita.",
+        "Capacità di agire: attitudine a compiere direttamente atti con effetti giuridici, a diciotto anni (art. 2 c.c.).",
+        "Nel diritto pubblico si discute della titolarità dei diritti di stranieri, apolidi e minorenni; il riconoscimento formale può non coincidere con quello effettivo (art. 4).",
+        "Persone giuridiche: associazioni (unione di persone) e fondazioni (struttura organizzativa), creazioni del diritto, pubbliche o private secondo i fini.",
+        "Entità senza soggettività (associazioni non riconosciute, condominio, popolo, partiti) ricevono comunque situazioni giuridiche e legittimazioni processuali."
       ],
       "memoria": [
         {
-          "voce": "138",
-          "dettaglio": "Due deliberazioni per Camera; almeno tre mesi; maggioranza assoluta alla seconda."
+          "voce": "Art. 1 c.c.",
+          "dettaglio": "la capacità giuridica si acquista al momento della nascita"
         },
         {
-          "voce": "Referendum costituzionale",
-          "dettaglio": "1/5 di una Camera, 500.000 elettori o 5 Consigli regionali; richiesta entro tre mesi; nessun quorum di partecipazione."
+          "voce": "Art. 2 c.c.",
+          "dettaglio": "la capacità di agire si acquista a diciotto anni"
+        },
+        {
+          "voce": "Legge n. 40/2004",
+          "dettaglio": "procreazione medicalmente assistita: riconoscimento dei diritti del concepito"
+        },
+        {
+          "voce": "Associazioni ↔ fondazioni",
+          "dettaglio": "unione di persone per un interesse comune ↔ struttura organizzativa al servizio di persone determinate o determinabili"
+        },
+        {
+          "voce": "Entità non soggettivizzate nella Costituzione",
+          "dettaglio": "popolo, famiglia, partiti politici, sindacati non registrati"
         }
       ],
-      "id": "u04-l1",
-      "minuti": 30
+      "concetti": [
+        "norma-giuridica",
+        "soggettivita-giuridica",
+        "capacita-giuridica",
+        "capacita-di-agire",
+        "straniero",
+        "apolide",
+        "diritto-al-lavoro",
+        "persona-giuridica",
+        "ente-pubblico",
+        "enti-senza-soggettivita",
+        "formazioni-sociali",
+        "popolo",
+        "famiglia",
+        "partiti-politici",
+        "liberta-sindacale"
+      ]
     },
     {
-      "titolo": "La Costituzione italiana: struttura e principi che si tengono insieme",
+      "id": "u04-l2",
+      "titolo": "Potere giuridico, diritto soggettivo, interesse legittimo",
       "pagine": [
-        36,
-        38
+        34,
+        35
       ],
-      "sintesi": "### Leggere la carta per parti, senza separare i principi\nLa [[costituzione-italiana]] è scritta, votata, rigida e lunga. È convenzionale nel senso storico di un accordo fra forze politiche differenti, non nel senso di una convenzione priva di efficacia giuridica. Non si limita a distribuire cariche: riconosce diritti, impone doveri e affida alla Repubblica compiti di trasformazione sociale. Le sue norme vincolano legislazione e amministrazione; l'attuazione può richiedere leggi, strutture e risorse, ma non per questo gli obiettivi costituzionali sono semplici consigli politici.\n\n| Sezione | Articoli | Funzione |\n|---|---|---|\n| Principi fondamentali | 1–12 | Valori e criteri che attraversano l'intero ordinamento |\n| Parte I: diritti e doveri dei cittadini | 13–54 | Rapporti civili, etico-sociali, economici e politici |\n| Parte II: ordinamento della Repubblica | 55–139 | Organi, autonomie e garanzie costituzionali |\n| [[disposizione|Disposizioni]] transitorie e finali | I–XVIII | Passaggio al nuovo ordinamento e ulteriori regole, alcune tuttora operative |\n\nLa denominazione della Parte I non implica che ogni diritto appartenga soltanto ai cittadini: alcune disposizioni proteggono ogni persona. Né la collocazione nei primi dodici articoli è l'unico criterio per individuare i [[principi-supremi|principi supremi]]. Occorre ricostruire contenuto e funzione delle garanzie nell'intero sistema.\n\n### Democrazia, persona e solidarietà\nL'art. 1 collega Repubblica democratica, lavoro e [[sovranita-popolare|sovranità popolare]]. Il popolo esercita la [[sovranita|sovranità]] nelle forme e nei limiti costituzionali: il consenso elettorale non rende il vincitore libero di violare i diritti o eliminare le opposizioni. Rappresentanza e strumenti di partecipazione diretta operano entro questa cornice. Gli artt. 1 e 4 attribuiscono al lavoro un ruolo nella partecipazione e nella dignità sociale. Il diritto al lavoro impegna la Repubblica a promuoverne le condizioni; non è la promessa automatica di uno specifico posto a ciascuno.\n\nIl [[principio-personalistico]], espresso dall'art. 2, pone al centro la persona: la Repubblica riconosce e garantisce [[diritti-inviolabili|diritti inviolabili]] tanto al singolo quanto nelle [[formazioni-sociali|formazioni sociali]] in cui sviluppa la personalità. Le comunità intermedie, come famiglie e associazioni, non assorbono la libertà dell'individuo e non sostituiscono lo [[stato|Stato]]. Il [[principio-solidaristico]] completa questa tutela con doveri inderogabili di solidarietà politica, economica e sociale. Diritti e doveri non sono due elenchi separati: rendono possibile una convivenza in cui la libertà di ciascuno sia effettiva.\n\n### Due dimensioni dell'uguaglianza\nIl [[principio-di-uguaglianza]] contiene una garanzia formale e un compito sostanziale. L'art. 3, primo comma, afferma pari dignità sociale ed eguaglianza davanti alla legge, vietando discriminazioni fondate sui fattori indicati nel testo. Trattare allo stesso modo situazioni diverse può però riprodurre una disuguaglianza. La ragionevolezza impone che distinzioni e trattamenti abbiano una giustificazione coerente, proporzionata alle finalità perseguite.\n\nIl secondo comma impegna la Repubblica a rimuovere ostacoli economici e sociali che limitano di fatto libertà ed eguaglianza, impediscono il pieno sviluppo della persona e la partecipazione dei lavoratori. Il patrocinio per i non abbienti dell'art. 24 rende concreta la difesa in giudizio; la tutela della lavoratrice nell'art. 37 combatte disuguaglianze nel lavoro; l'accesso alle cariche dell'art. 51 e l'eguaglianza del voto dell'art. 48 collegano pari opportunità e democrazia. L'eguaglianza sostanziale non autorizza qualsiasi privilegio: gli interventi devono essere giustificati dalla rimozione degli svantaggi.\n\n### Autonomie e apertura internazionale\nIl [[principio-autonomista]] dell'art. 5 tiene insieme unità e indivisibilità della Repubblica, riconoscimento delle autonomie locali e decentramento amministrativo. L'autonomia consente agli enti territoriali di esprimere proprie scelte entro le competenze costituzionali; il decentramento distribuisce l'esercizio di funzioni. Non sono sinonimi di separazione dello Stato. La [[tutela-delle-minoranze|tutela delle minoranze]] linguistiche dell'art. 6 integra il [[pluralismo|pluralismo]] e riguarda l'intera Repubblica, non soltanto le regioni speciali.\n\nIl [[principio-internazionalista]] emerge dagli artt. 10 e 11. Il primo prevede l'adattamento alle norme internazionali generalmente riconosciute e una disciplina legislativa della condizione dello straniero conforme a norme e trattati internazionali. Riconosce il diritto d'asilo a chi nel proprio paese non può esercitare effettivamente le libertà democratiche garantite dalla [[costituzione|Costituzione]], secondo le condizioni di legge. Il divieto di estradizione riguarda i reati politici: non vieta ogni estradizione dello straniero; la [[legge-costituzionale|legge costituzionale]] n. 1/1967 esclude dall'applicazione di tale divieto i delitti di genocidio. L'art. 11 ripudia la guerra di aggressione e come mezzo di soluzione delle controversie, e consente limitazioni di sovranità, in condizioni di parità, per pace e giustizia tra le nazioni. Questa apertura non elimina l'identità costituzionale, ma colloca la Repubblica in un sistema di cooperazione.",
-      "concetti": [
-        "costituzione-italiana",
-        "principio-personalistico",
-        "principio-solidaristico",
-        "principio-di-uguaglianza",
-        "principio-autonomista",
-        "principio-internazionalista"
-      ],
+      "minuti": 30,
+      "sintesi": "### Posizioni attive e passive\nAlla posizione di chi è titolare di interessi (**posizione attiva**) si contrappone quella di coloro ai quali l'ordinamento impone di collaborare al loro soddisfacimento, o di non opporvisi (**posizione passiva**): ogni volta che si realizza un interesse, di regola, se ne comprime un altro. Esempio: all'interesse della comunità a disporre di denaro per i propri fini corrisponde la posizione dei cittadini tenuti a concorrere alle spese pubbliche ([[capacita-contributiva|art. 53]]).\n\nLe [[situazioni-giuridiche-soggettive|situazioni giuridiche]] **attive** sono essenzialmente tre: potere, diritto soggettivo, interesse legittimo.\n\n### Il potere giuridico\nIl [[potere-giuridico|potere giuridico]] è una situazione **astratta**, riconosciuta dall'ordinamento a tutti i soggetti o a determinate categorie, in ordine al soddisfacimento di un interesse giuridicamente rilevante, **proprio o altrui**. È astratta perché non è collegata a un interesse già presente nel soggetto e ha bisogno di specificarsi quando il titolare intende perseguire il suo interesse. Il potere (o potestà) esiste in entrambi i campi:\n- **diritto privato**: la potestà dei genitori sui figli minori (oggi «responsabilità genitoriale»), la potestà di testare;\n- **diritto pubblico**: il potere dei cittadini di eleggere i loro rappresentanti, il potere di agire in giudizio.\n\n### Potestà pubblica e autonomia privata\nNel diritto pubblico il potere prende la forma della [[potesta-pubblica|potestà pubblica]]: il potere, attribuito dalla legge, di produrre effetti giuridici anche senza il consenso del destinatario, come accade con un provvedimento autoritativo (un'espropriazione, un ordine). Va esercitato nei casi e per i fini previsti, non secondo la libera volontà del titolare. L'[[autonomia-privata|autonomia privata]] consente invece ai soggetti di regolare da sé i propri interessi entro i limiti dell'ordinamento; anche un ente pubblico può usare strumenti consensuali.\n\n### Dal potere al diritto soggettivo\nDall'astrattezza del potere (**potenziale**) si passa alla concretezza del [[diritto-soggettivo|diritto soggettivo]] (**attuale**): dall'astratta potestà di eleggere al diritto di [[elettorato-attivo|elettorato attivo]], dal potere di agire in giudizio al **diritto di azione**. Perché la situazione diventi attuale, l'ordinamento deve riconoscere a un soggetto la **titolarità di un interesse**, con la capacità di farlo valere e tutelarlo nei confronti di altri soggetti, tenuti a un comportamento **omissivo o commissivo**.\n\n### Il rapporto giuridico\nIl diritto soggettivo presuppone una relazione tra due o più soggetti, il [[rapporto-giuridico|rapporto giuridico]]: da una parte il titolare (o i titolari) della situazione attiva, dall'altra quello della situazione passiva.\n\n| Rapporto | Quando | Esempi |\n|---|---|---|\n| di diritto pubblico | entrambi i soggetti, o uno di essi, sono soggetti pubblici | Stato ed ente pubblico; Stato e cittadino |\n| di diritto privato | entrambi i soggetti sono privati, oppure uno è pubblico ma il rapporto è disciplinato da norme di diritto privato | creditore e debitore; privato proprietario di un alloggio dato in locazione a una pubblica amministrazione |\n\n### L'interesse legittimo\nSi ha [[interesse-legittimo|interesse legittimo]] quando l'interesse protetto di un soggetto è **inscindibilmente connesso** alla tutela di un interesse altrui, generalmente pubblico. L'ordinamento non tutela l'interesse del singolo direttamente, come per i diritti soggettivi, ma solo **di riflesso**, se e in quanto si connetta a interessi prevalenti.\n\n**L'esempio del concorso pubblico.** Tutti i cittadini dell'uno e dell'altro sesso possono accedere ai pubblici uffici in condizioni di uguaglianza, secondo i requisiti stabiliti dalla legge ([[accesso-ai-pubblici-uffici|art. 51]]). Nel concorso convivono:\n1. il **potere giuridico** di accedere ai pubblici uffici;\n2. il **diritto soggettivo** di partecipare al concorso;\n3. il **diritto soggettivo** di ricoprire il pubblico ufficio, se vincitori;\n4. l'**interesse legittimo** di ogni partecipante al regolare svolgimento del concorso.\n\nChi ha partecipato e ritiene che vi siano state irregolarità può ricorrere contro i risultati davanti al **giudice amministrativo** ([[tar|TAR]]): il suo interesse legittimo è all'annullamento delle prove.\n\nL'interesse legittimo si può definire come **interesse qualificato alla legittimità dell'attività amministrativa**. Di qui il collegamento con l'art. 97, per cui i pubblici uffici sono organizzati in modo da garantire il [[buon-andamento-e-imparzialita|buon andamento e l'imparzialità]] dell'amministrazione, e con l'art. 98, per cui i pubblici impiegati sono al servizio esclusivo della Nazione. Buon andamento e imparzialità sono i canoni cui deve uniformarsi l'attività amministrativa.",
       "puntiChiave": [
-        "Principi fondamentali, diritti e organizzazione formano un sistema unitario.",
-        "Art. 3: pari dignità e divieto di discriminazioni, insieme alla rimozione degli ostacoli di fatto.",
-        "Gli artt. 10 e 11 aprono l’ordinamento alla comunità internazionale, con condizioni e garanzie."
+        "Alla posizione attiva di chi è titolare di un interesse corrisponde la posizione passiva di chi deve collaborare o non opporsi.",
+        "Le situazioni attive sono tre: potere giuridico, diritto soggettivo, interesse legittimo.",
+        "Il potere è astratto e potenziale (potestà di eleggere, di agire in giudizio); il diritto soggettivo è concreto e attuale (elettorato attivo, diritto di azione).",
+        "Il diritto soggettivo presuppone un rapporto giuridico, pubblico o privato secondo i soggetti e le norme che lo regolano.",
+        "L'interesse legittimo è tutelato solo di riflesso, perché connesso a un interesse pubblico prevalente: esempio del concorso pubblico.",
+        "È l'interesse qualificato alla legittimità dell'azione amministrativa, legato agli artt. 97 e 98 (buon andamento e imparzialità)."
       ],
       "memoria": [
         {
-          "voce": "Struttura",
-          "dettaglio": "1–12 principi; 13–54 diritti e doveri; 55–139 ordinamento; 18 disposizioni transitorie e finali."
+          "voce": "Tre situazioni attive",
+          "dettaglio": "potere giuridico, diritto soggettivo, interesse legittimo"
         },
         {
-          "voce": "Art. 2",
-          "dettaglio": "Diritti inviolabili del singolo e nelle formazioni sociali; doveri inderogabili di solidarietà."
+          "voce": "Potere → diritto",
+          "dettaglio": "potestà di eleggere → elettorato attivo; potere di agire → diritto di azione"
+        },
+        {
+          "voce": "Concorso pubblico",
+          "dettaglio": "potere di accedere; diritto di partecipare; diritto all'ufficio se vincitori; interesse legittimo alla regolarità"
+        },
+        {
+          "voce": "Art. 97 Cost.",
+          "dettaglio": "buon andamento e imparzialità dell'amministrazione"
+        },
+        {
+          "voce": "Art. 98 Cost.",
+          "dettaglio": "i pubblici impiegati sono al servizio esclusivo della Nazione"
         }
       ],
-      "id": "u04-l2",
-      "minuti": 30
+      "concetti": [
+        "capacita-contributiva",
+        "situazioni-giuridiche-soggettive",
+        "potere-giuridico",
+        "diritto-soggettivo",
+        "elettorato-attivo",
+        "rapporto-giuridico",
+        "ente-pubblico",
+        "interesse-legittimo",
+        "accesso-ai-pubblici-uffici",
+        "tar",
+        "buon-andamento-e-imparzialita",
+        "potesta-pubblica",
+        "autonomia-privata"
+      ]
+    },
+    {
+      "id": "u04-l3",
+      "titolo": "Diritti affievoliti, effettività dei diritti, dovere e obbligo",
+      "pagine": [
+        35,
+        36
+      ],
+      "minuti": 25,
+      "sintesi": "### I diritti affievoliti\nIl [[diritto-affievolito|diritto affievolito]] è un diritto pieno e azionabile in giudizio che, **all'insorgere di un pubblico interesse**, può essere sacrificato o convertito in un diritto di altra natura. Due esempi:\n- se una pubblica amministrazione, per ragioni di pubblica utilità, **sopprime un ufficio**, il diritto del titolare al suo mantenimento viene meno senza che egli possa avanzare pretese;\n- se per le stesse ragioni **espropria** una proprietà privata ([[espropriazione]]), il diritto di proprietà viene meno, ma sorge un **diritto all'indennizzo**.\n\nL'interesse pubblico finisce per prevalere; ma i diritti affievoliti sono **uguali agli altri** finché le esigenze del pubblico interesse non diventano attuali.\n\n### La Costituzione e le situazioni attive\nLa Costituzione si occupa delle situazioni giuridiche attive sotto due profili:\n- **sostanziale**: riconosce e garantisce alcuni [[diritto-soggettivo|diritti soggettivi]];\n- **processuale**: dispone la [[tutela-giurisdizionale|tutela in giudizio]] dei diritti soggettivi **e** degli [[interesse-legittimo|interessi legittimi]] (art. 24).\n\n### L'effettività dei diritti soggettivi\nIl riconoscimento o il disconoscimento delle situazioni giuridiche soggettive è affidato alle **forze politiche dominanti**: lo mostrano le vicende storiche dei diritti di libertà e l'evoluzione dello Stato moderno verso lo [[stato-sociale|Stato sociale]].\n\n| | [[stato-liberale|Democrazie liberali]] | Società politica «perfetta» (Stato sociale) |\n|---|---|---|\n| Eguaglianza | formale | sostanziale: canoni di giustizia ed eguaglianza |\n| Libertà | sfera di autonomia verso i pubblici poteri: [[liberta-negative|libertà dallo Stato]] o **negativa** | stesse opportunità di partecipazione attiva alla vita della comunità: [[liberta-positive|libertà nello Stato]] o **positiva** |\n\nNon basta riconoscere alcuni diritti se esistono **ostacoli** che ne impediscono il concreto esercizio ([[effettivita-dei-diritti|effettività dei diritti]]). Per questo la Repubblica si impegna a promuovere le condizioni per passare dal piano **formale** a quello dell'**effettivo esercizio** ([[uguaglianza-sostanziale|uguaglianza sostanziale]]): ne sono esempi l'art. 4 (lavoro), l'art. 24 (difesa in giudizio) e l'art. 32 ([[diritto-salute|salute]]).\n\n### Le situazioni giuridiche passive: dovere e obbligo\nAlle situazioni di vantaggio corrispondono, di regola, quelle **passive** o di svantaggio: dovere e obbligo.\n\n| | [[dovere-giuridico|Dovere]] | [[obbligo|Obbligo]] |\n|---|---|---|\n| A chi si imputa | a una **generalità di soggetti**, determinabili solo in seguito | a un **soggetto determinato** |\n| Verso chi | verso nessuno in particolare | verso un altro soggetto, titolare del diritto soggettivo di pretenderne l'osservanza |\n| Contenuto | comportamento richiesto in generale | comportamento commissivo o omissivo, attivo o passivo |\n\nFinché la situazione di svantaggio non si specifica si ha la figura del **dovere**; quando si instaura un rapporto tra due o più soggetti si ha l'**obbligo**. Esempi di [[doveri-costituzionali|doveri]]: il dovere di ogni cittadino di svolgere un'attività che concorra al progresso materiale o spirituale della società (art. 4), il dovere dei genitori di educare i figli (art. 30), la [[difesa-della-patria|difesa della Patria]] (art. 52).",
+      "puntiChiave": [
+        "Il diritto affievolito è pieno finché non insorge un interesse pubblico attuale, che può sacrificarlo o convertirlo (soppressione dell'ufficio, espropriazione con indennizzo).",
+        "La Costituzione garantisce i diritti sul piano sostanziale e tutela in giudizio diritti e interessi legittimi.",
+        "Il riconoscimento dei diritti dipende dalle forze politiche dominanti: dallo Stato liberale allo Stato sociale.",
+        "Libertà dallo Stato (negativa, eguaglianza formale) e libertà nello Stato (positiva, pari opportunità di partecipazione).",
+        "La Repubblica promuove il passaggio dal piano formale all'effettivo esercizio dei diritti (artt. 4, 24, 32).",
+        "Dovere: riferito a una generalità di soggetti; obbligo: di un soggetto determinato verso il titolare di un diritto."
+      ],
+      "memoria": [
+        {
+          "voce": "Diritto affievolito",
+          "dettaglio": "soppressione dell'ufficio (nessuna pretesa); espropriazione (diritto all'indennizzo)"
+        },
+        {
+          "voce": "Libertà dallo Stato",
+          "dettaglio": "negativa: sfera di autonomia verso i pubblici poteri"
+        },
+        {
+          "voce": "Libertà nello Stato",
+          "dettaglio": "positiva: pari opportunità di partecipare alla vita della comunità"
+        },
+        {
+          "voce": "Artt. 4, 24, 32",
+          "dettaglio": "esempi di impegno della Repubblica per l'effettività dei diritti"
+        },
+        {
+          "voce": "Doveri d'esempio",
+          "dettaglio": "attività per il progresso della società (art. 4), educare i figli (art. 30), difesa della Patria (art. 52)"
+        }
+      ],
+      "concetti": [
+        "diritto-affievolito",
+        "espropriazione",
+        "diritto-soggettivo",
+        "tutela-giurisdizionale",
+        "interesse-legittimo",
+        "stato-sociale",
+        "stato-liberale",
+        "liberta-negative",
+        "liberta-positive",
+        "effettivita-dei-diritti",
+        "uguaglianza-sostanziale",
+        "diritto-salute",
+        "dovere-giuridico",
+        "obbligo",
+        "doveri-costituzionali",
+        "difesa-della-patria"
+      ]
     }
   ],
   "concetti": [
     {
-      "id": "costituzione",
-      "nome": "Costituzione",
+      "id": "soggettivita-giuridica",
+      "nome": "Soggettività giuridica",
+      "tipo": "concetto",
+      "alias": [
+        "soggetto di diritto",
+        "soggetti di diritto"
+      ],
+      "breve": "Complesso delle situazioni attive e passive che l'ordinamento attribuisce a un soggetto, che diventa soggetto di diritto.",
+      "definizione": "Le norme considerano ogni uomo **centro di imputazione di interessi** socialmente e giuridicamente rilevanti. Riconoscere questi interessi significa attribuirgli una serie di situazioni attive e passive: il loro complesso è la soggettività giuridica e il titolare diventa **soggetto di diritto**. Spetta alle persone fisiche e, per creazione del diritto, alle [[persona-giuridica|persone giuridiche]]. Presuppone la [[capacita-giuridica|capacità giuridica]]. Esistono però anche [[enti-senza-soggettivita|entità prive di soggettività]] a cui l'ordinamento attribuisce comunque situazioni giuridiche e forme di tutela.",
+      "pagine": [
+        33,
+        34
+      ]
+    },
+    {
+      "id": "capacita-giuridica",
+      "nome": "Capacità giuridica",
       "tipo": "concetto",
       "alias": [],
-      "breve": "Regole fondamentali che istituiscono e limitano i pubblici poteri.",
-      "definizione": "La parola ha più significati. In senso **descrittivo** indica il modo in cui una comunità politica è di fatto organizzata: in questo senso ogni Stato ha una costituzione. In senso **formale** è il documento scritto, la legge fondamentale che sta al vertice delle fonti. In senso **prescrittivo**, proprio del costituzionalismo, è l'atto che **limita il potere** e garantisce i diritti: per l'art. 16 della Dichiarazione francese del 1789, una società senza garanzia dei diritti e separazione dei poteri «non ha costituzione». Le costituzioni si classificano in scritte o consuetudinarie, concesse (ottriate) o votate, brevi o lunghe, [[costituzione-flessibile|flessibili]] o [[costituzione-rigida|rigide]]. Quella [[costituzione-italiana|italiana]] è scritta, votata, lunga e rigida.",
+      "breve": "Attitudine a essere destinatari delle norme che attribuiscono situazioni attive e passive: si acquista con la nascita.",
+      "definizione": "È la capacità delle persone fisiche di essere **potenzialmente destinatarie** delle norme che attribuiscono situazioni giuridiche attive e passive. Si acquista al momento della **nascita** (art. 1 c.c.); la legge può riconoscere diritti ai concepiti, ma il loro acquisto è subordinato alla nascita (il riassunto ricorda la legge n. 40/2004). Nel diritto pubblico si discute se stranieri e apolidi abbiano i diritti che la Costituzione sembra riservare ai cittadini e se i minorenni godano di alcune libertà. Il riconoscimento formale può non tradursi in situazioni effettive: è il caso del diritto al lavoro. Si distingue dalla [[capacita-di-agire|capacità di agire]].",
       "pagine": [
         33,
-        35
+        33
       ]
     },
     {
-      "id": "costituzione-rigida",
-      "nome": "Costituzione rigida",
+      "id": "capacita-di-agire",
+      "nome": "Capacità di agire",
       "tipo": "concetto",
       "alias": [],
-      "breve": "Costituzione superiore alla legge ordinaria e modificabile con procedimento aggravato.",
-      "definizione": "È la Costituzione che non può essere modificata con una legge ordinaria: per cambiarla serve un **procedimento aggravato**, più complesso di quello legislativo (in Italia l'art. 138). Ne deriva che la Costituzione è **superiore alla legge**: una legge che la contraddice è invalida. Perché la rigidità sia effettiva occorre un giudice che controlli le leggi: in Italia la [[corte-costituzionale]]. La rigidità protegge le minoranze e i diritti dalle maggioranze del momento. Esistono inoltre limiti assoluti alla [[revisione-costituzionale|revisione]]: la forma repubblicana (art. 139) e i [[principi-supremi]]. Si contrappone alla [[costituzione-flessibile]], come lo Statuto albertino.",
+      "breve": "Attitudine a compiere direttamente atti produttivi di effetti giuridici: si acquista a diciotto anni.",
+      "definizione": "È l'attitudine di un soggetto a porre in essere **direttamente** atti produttivi di effetti giuridici, cioè ad agire da sé per acquistare diritti e assumere obblighi. Si acquista con il compimento del **diciottesimo anno di età** (art. 2 c.c.). Va distinta dalla [[capacita-giuridica|capacità giuridica]], che si acquista con la nascita e consiste nella semplice attitudine a essere titolari di situazioni giuridiche: un minore ha la capacità giuridica, ma non ancora quella di agire. Entrambe sono aspetti della [[soggettivita-giuridica|soggettività giuridica]].",
       "pagine": [
         33,
-        35
+        33
       ]
     },
     {
-      "id": "costituzione-flessibile",
-      "nome": "Costituzione flessibile",
+      "id": "persona-giuridica",
+      "nome": "Persona giuridica",
       "tipo": "concetto",
-      "alias": [],
-      "breve": "Costituzione modificabile mediante legislazione ordinaria.",
-      "definizione": "È la Costituzione che può essere modificata, derogata o integrata con una **legge ordinaria**, senza procedure speciali: ha quindi la stessa forza della legge e non esiste un giudice che possa annullare le leggi in suo nome. L'esempio italiano è lo [[statuto-albertino]]: proprio perché flessibile, permise prima il passaggio dalla monarchia costituzionale a quella parlamentare, poi lo svuotamento delle libertà a opera delle leggi fasciste, senza che fosse mai formalmente abrogato. Da questa esperienza nasce la scelta dei Costituenti per una [[costituzione-rigida]]. Flessibile non significa priva di valore: anche lo Statuto fissava le regole fondamentali dello Stato.",
+      "alias": [
+        "persone giuridiche",
+        "associazioni e fondazioni"
+      ],
+      "breve": "Ente collettivo (associazione o fondazione) cui l'ordinamento attribuisce soggettività: creazione del diritto, pubblica o privata.",
+      "definizione": "Oltre alle persone fisiche, l'ordinamento attribuisce la [[soggettivita-giuridica|soggettività giuridica]] a entità composte da un'**unione di persone** costituitasi per un interesse comune (associazioni o corporazioni) o da una **struttura organizzativa** idonea a soddisfare gli interessi di persone determinate o determinabili (fondazioni o istituzioni). Sono dette persone giuridiche per sottolineare che sono una **creazione del diritto** e non esistono nel mondo reale. A differenza delle persone fisiche possono essere pubbliche ([[ente-pubblico|enti pubblici]]) o private, secondo la natura dei fini; la distinzione non è sempre facile. Ha un proprio patrimonio, è titolare di diritti e obblighi e sta in giudizio; opera attraverso i propri [[organo|organi]]. Anche lo Stato-apparato è persona giuridica: per questo gli atti dei funzionari si imputano allo Stato, che continua anche quando cambiano i governanti.",
       "pagine": [
         33,
-        35
+        34
       ]
     },
     {
-      "id": "statuto-albertino",
-      "nome": "Statuto albertino",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Carta concessa da Carlo Alberto il 4 marzo 1848.",
-      "definizione": "È la Carta costituzionale concessa da Carlo Alberto al Regno di Sardegna il **4 marzo 1848** e divenuta nel 1861 la Costituzione del Regno d'Italia; è rimasta formalmente in vigore fino al 1948. Era una Costituzione **ottriata** (concessa dal sovrano, non votata da un'assemblea), **breve** e [[costituzione-flessibile|flessibile]]. Disegnava una [[monarchia-costituzionale]]: il re titolare del potere esecutivo, un Parlamento con Camera elettiva e Senato di nomina regia, poche libertà affidate alla legge, la religione cattolica come religione dello Stato. Per via di prassi evolse verso il governo parlamentare. La sua flessibilità consentì al fascismo di trasformare lo Stato con leggi ordinarie.",
-      "pagine": [
-        33,
-        35
-      ]
-    },
-    {
-      "id": "potere-costituente",
-      "nome": "Potere costituente",
+      "id": "ente-pubblico",
+      "nome": "Ente pubblico",
       "tipo": "concetto",
-      "alias": [],
-      "breve": "Potere che fonda un nuovo ordinamento costituzionale.",
-      "definizione": "È il potere di **dare una Costituzione** a un popolo, fondando un nuovo ordinamento. È un potere originario e libero nel contenuto: non deriva da norme precedenti e si manifesta di solito nei momenti di rottura (rivoluzioni, guerre, nascita di uno Stato). In Italia lo ha esercitato l'[[assemblea-costituente]] eletta il 2 giugno 1946. Una volta approvata la Costituzione, il potere costituente si esaurisce: restano i **poteri costituiti**, che esistono e agiscono solo in base alla Costituzione. Tra questi c'è il potere di [[revisione-costituzionale]], che deve rispettare la procedura dell'art. 138 e non può toccare i [[principi-supremi]]: modificare la Costituzione non significa rifarla.",
+      "alias": [
+        "enti pubblici",
+        "persona giuridica pubblica"
+      ],
+      "breve": "Persona giuridica pubblica: si distingue da quella privata per la natura pubblica dei fini che persegue.",
+      "definizione": "È la [[persona-giuridica|persona giuridica]] pubblica. Nel capitolo sul soggetto di diritto Martines spiega che le persone giuridiche, a differenza di quelle fisiche, possono essere pubbliche o private **in base alla natura dei fini** che perseguono. La distinzione però non è sempre facile, sia perché esistono enti a struttura privatistica che perseguono interessi pubblici, sia perché la natura del fine non è sempre determinata o determinabile. Quando uno dei soggetti di un rapporto è un ente pubblico (per esempio un rapporto fra Stato ed ente pubblico) il [[rapporto-giuridico|rapporto]] è di regola di diritto pubblico. Lo si riconosce da alcuni indici: istituzione o riconoscimento per legge, controlli e finanziamenti pubblici, [[potesta-pubblica|poteri autoritativi]]. Si distinguono enti territoriali (Regioni, Province, Città metropolitane, Comuni), con autonomia garantita dalla Costituzione, ed enti non territoriali o funzionali. Uno scopo socialmente utile non basta a rendere pubblica un'associazione privata.",
       "pagine": [
         33,
         35
       ]
     },
     {
-      "id": "revisione-costituzionale",
-      "nome": "Revisione costituzionale",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Modifica della Costituzione con il procedimento aggravato dell’art. 138.",
-      "definizione": "È il procedimento con cui si modifica la Costituzione o si approvano le altre [[legge-costituzionale|leggi costituzionali]] (art. 138). Ogni Camera delibera **due volte**, a distanza di almeno **tre mesi**; nella seconda votazione serve la **maggioranza assoluta** dei componenti. Se in entrambe le Camere si raggiungono i **due terzi**, la legge è promulgata; altrimenti è pubblicata e, entro tre mesi, un quinto dei membri di una Camera, cinquecentomila elettori o cinque Consigli regionali possono chiedere il [[referendum-costituzionale]]. Incontra **limiti**: la forma repubblicana (art. 139) e i [[principi-supremi]]. È un potere costituito, non [[potere-costituente|costituente]]. Esempi recenti: riduzione dei parlamentari (2020); nel marzo 2026 il referendum ha respinto la riforma della magistratura.",
-      "pagine": [
-        33,
-        35
-      ]
-    },
-    {
-      "id": "principi-supremi",
-      "nome": "Principi supremi",
+      "id": "enti-senza-soggettivita",
+      "nome": "Entità prive di soggettività giuridica",
       "tipo": "concetto",
-      "alias": [],
-      "breve": "Nucleo essenziale dell’identità costituzionale sottratto al sovvertimento.",
-      "definizione": "Sono i principi che formano il **nucleo essenziale** della Costituzione e che non possono essere sovvertiti o modificati nel loro contenuto essenziale neppure con il procedimento di [[revisione-costituzionale]]. Li ha individuati la Corte costituzionale (sent. **1146/1988**), che si è riconosciuta competente a giudicare anche le leggi costituzionali. Comprendono il limite espresso dell'art. 139 (forma repubblicana) e limiti impliciti: sovranità popolare, [[diritti-inviolabili]] della persona, uguaglianza, laicità, tutela giurisdizionale, unità della Repubblica. Non coincidono con il testo dei primi dodici articoli. Valgono anche come limite all'ingresso di norme esterne: del diritto dell'Unione europea ([[controlimiti]]), concordatarie e internazionali.",
+      "alias": [
+        "diritti senza soggetto",
+        "entità non soggettivizzate",
+        "associazioni non riconosciute"
+      ],
+      "breve": "Entità senza personalità a cui l'ordinamento attribuisce comunque situazioni giuridiche, tutela e legittimazione processuale.",
+      "definizione": "Sono destinatari di norme giuridiche cui l'ordinamento **non riconosce la soggettività giuridica**. Nel diritto privato: associazioni non riconosciute (che non hanno chiesto o non hanno ancora ottenuto il riconoscimento), comunione legale tra coniugi, condominio negli edifici, eredità giacente, fallimento (oggi liquidazione giudiziale), impresa. Nella Costituzione: il [[popolo]], la [[famiglia]], i [[partiti-politici|partiti politici]], i sindacati non registrati. Non sono veri soggetti di diritto, ma ricevono situazioni attive e passive, forme di tutela e legittimazioni processuali. Il riassunto li chiama anche «diritti senza soggetto».",
       "pagine": [
-        33,
-        35
+        34,
+        34
       ]
     },
     {
-      "id": "assemblea-costituente",
-      "nome": "Assemblea Costituente",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Assemblea eletta il 2 giugno 1946 che elaborò la Costituzione repubblicana.",
-      "definizione": "È l'assemblea eletta il **2 giugno 1946**, insieme al referendum tra monarchia e repubblica, con il compito di scrivere la nuova Costituzione. Fu eletta a suffragio universale (per la prima volta votarono le donne) con sistema proporzionale: 556 membri. Vi prevalsero tre grandi partiti, Democrazia cristiana, Partito socialista e Partito comunista, e la Costituzione nacque da un **compromesso** tra le loro culture e quella liberale. Il progetto fu preparato dalla **Commissione dei 75**, divisa in tre sottocommissioni, e poi discusso in aula. Il testo fu approvato il **22 dicembre 1947**, promulgato il 27 dicembre ed entrò in vigore il 1° gennaio 1948. Esercitò il [[potere-costituente]].",
+      "id": "situazioni-giuridiche-soggettive",
+      "nome": "Situazioni giuridiche soggettive",
+      "tipo": "concetto",
+      "alias": [
+        "situazioni giuridiche attive",
+        "situazioni giuridiche passive"
+      ],
+      "breve": "Posizioni attive (potere, diritto soggettivo, interesse legittimo) e passive (dovere, obbligo) attribuite ai soggetti.",
+      "definizione": "Sono le posizioni che l'ordinamento attribuisce ai soggetti in relazione agli interessi. Alla posizione **attiva** di chi è titolare di un interesse si contrappone quella **passiva** di chi deve collaborare al suo soddisfacimento o non opporvisi: realizzare un interesse, di regola, ne comprime un altro (all'interesse della comunità ad avere risorse corrisponde il dovere di concorrere alle spese pubbliche). Le attive sono tre: [[potere-giuridico|potere]], [[diritto-soggettivo|diritto soggettivo]], [[interesse-legittimo|interesse legittimo]]; le passive sono [[dovere-giuridico|dovere]] e [[obbligo]]. Il loro riconoscimento dipende dalle forze politiche dominanti.",
       "pagine": [
-        35,
+        34,
         36
       ]
     },
     {
-      "id": "costituzione-italiana",
-      "nome": "Costituzione italiana",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Carta repubblicana in vigore dal 1° gennaio 1948.",
-      "definizione": "È la legge fondamentale della Repubblica, in vigore dal **1° gennaio 1948**. È **scritta**, **votata** (dall'Assemblea costituente), **rigida** (art. 138), **lunga** (non si limita all'organizzazione dello Stato, ma disciplina diritti e rapporti sociali) e **programmatica** (indica obiettivi da realizzare). È frutto del compromesso tra le forze cattolica, socialista e comunista, liberale. È composta da 139 articoli: **Principi fondamentali** (artt. 1–12); **Parte prima**, diritti e doveri dei cittadini (artt. 13–54); **Parte seconda**, ordinamento della Repubblica (artt. 55–139); più 18 disposizioni transitorie e finali. Si fonda sui principi democratico, [[principio-personalistico|personalistico]], pluralistico, lavorista, [[principio-solidaristico|solidaristico]], di [[principio-di-uguaglianza|uguaglianza]], [[principio-autonomista|autonomista]] e [[principio-internazionalista|internazionalista]].",
+      "id": "potere-giuridico",
+      "nome": "Potere giuridico",
+      "tipo": "concetto",
+      "alias": [
+        "potestà",
+        "potere"
+      ],
+      "breve": "Situazione attiva astratta e potenziale, riconosciuta a tutti o a categorie di soggetti, per soddisfare un interesse proprio o altrui.",
+      "definizione": "È la situazione attiva **astratta** che l'ordinamento riconosce a tutti i soggetti o a determinate categorie per il soddisfacimento di un interesse giuridicamente rilevante, **proprio o altrui**. È astratta perché non è collegata a un interesse già presente nel soggetto e deve specificarsi quando il titolare intende perseguirlo. Esiste nel diritto privato (potestà dei genitori, oggi responsabilità genitoriale; potestà di testare) e nel diritto pubblico (potere di eleggere i rappresentanti, di agire in giudizio). È **potenziale**: diventa concreto e attuale nel [[diritto-soggettivo|diritto soggettivo]], per esempio nell'elettorato attivo o nel diritto di azione.",
+      "pagine": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": "diritto-soggettivo",
+      "nome": "Diritto soggettivo",
+      "tipo": "concetto",
+      "alias": [
+        "diritti soggettivi"
+      ],
+      "breve": "Situazione attiva concreta e attuale: titolarità di un interesse che si può far valere verso altri soggetti.",
+      "definizione": "È la situazione attiva **concreta e attuale** in cui si specifica il [[potere-giuridico|potere giuridico]]: dalla potestà di eleggere si passa al diritto di elettorato attivo, dal potere di agire in giudizio al diritto di azione. Si ha quando l'ordinamento riconosce a un soggetto la **titolarità di un interesse**, con la capacità di farlo valere e tutelarlo verso altri soggetti, tenuti a un comportamento omissivo o commissivo. Presuppone perciò un [[rapporto-giuridico|rapporto giuridico]]. A differenza dell'[[interesse-legittimo|interesse legittimo]] è tutelato direttamente. La Costituzione lo riconosce sul piano sostanziale e ne garantisce la tutela in giudizio (art. 24). Esempi: la pretesa del creditore al pagamento, il diritto del proprietario sulla cosa, le libertà costituzionali. Si distingue dal [[diritto-oggettivo|diritto oggettivo]], l'insieme delle norme: il primo è il diritto «di qualcuno», il secondo quello «di un ordinamento»; senza una norma che lo preveda non c'è diritto soggettivo.",
+      "pagine": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": "rapporto-giuridico",
+      "nome": "Rapporto giuridico",
+      "tipo": "concetto",
+      "alias": [
+        "rapporti giuridici"
+      ],
+      "breve": "Relazione tra il titolare di una situazione attiva e il titolare della corrispondente situazione passiva.",
+      "definizione": "È la relazione tra due o più soggetti che il [[diritto-soggettivo|diritto soggettivo]] presuppone: da una parte il titolare (o i titolari) della situazione attiva, dall'altra il titolare della situazione passiva, per esempio dell'[[obbligo]]. È **di diritto pubblico** quando entrambi i soggetti, o uno di essi, sono soggetti pubblici (Stato ed ente pubblico, Stato e cittadino); è **di diritto privato** quando entrambi sono privati o quando, pur essendo pubblico uno dei soggetti, quel rapporto è disciplinato da norme di diritto privato (creditore e debitore; privato che dà in locazione un alloggio a una pubblica amministrazione).",
+      "pagine": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": "interesse-legittimo",
+      "nome": "Interesse legittimo",
+      "tipo": "concetto",
+      "alias": [
+        "interessi legittimi"
+      ],
+      "breve": "Interesse tutelato solo di riflesso, perché connesso a un interesse pubblico: interesse qualificato alla legittimità dell'azione amministrativa.",
+      "definizione": "Si ha quando l'interesse protetto di un soggetto è **inscindibilmente connesso** alla tutela di un interesse altrui, generalmente pubblico: l'ordinamento lo tutela non direttamente, come il [[diritto-soggettivo|diritto soggettivo]], ma **di riflesso**, se e in quanto si connetta a interessi prevalenti. Esempio: nel concorso pubblico ogni partecipante ha un interesse legittimo al regolare svolgimento delle prove e può chiederne l'annullamento al giudice amministrativo. È l'interesse qualificato alla **legittimità dell'attività amministrativa**, legato ai canoni di [[buon-andamento-e-imparzialita|buon andamento e imparzialità]] (art. 97) e all'art. 98. La Costituzione ne garantisce la tutela in giudizio.",
       "pagine": [
         35,
-        38
+        35
       ]
     },
     {
-      "id": "principio-personalistico",
-      "nome": "Principio personalistico",
+      "id": "buon-andamento-e-imparzialita",
+      "nome": "Buon andamento e imparzialità",
       "tipo": "concetto",
-      "alias": [],
-      "breve": "Centralità della persona e dei suoi diritti inviolabili.",
-      "definizione": "È il principio dell'art. 2 Cost.: la Repubblica **riconosce e garantisce** i [[diritti-inviolabili]] dell'uomo, sia come singolo sia nelle formazioni sociali in cui si svolge la sua personalità. «Riconosce» significa che i diritti preesistono allo Stato: non è lo Stato a concederli. La persona viene prima dello Stato, che è al suo servizio: è il rovesciamento della concezione fascista, in cui l'individuo era strumento dei fini dello Stato. La persona non è però l'individuo isolato del liberalismo: è considerata nei suoi legami sociali (famiglia, scuola, associazioni, partiti, sindacati), e ai diritti corrispondono i doveri di solidarietà del [[principio-solidaristico]].",
+      "alias": [
+        "imparzialità",
+        "buon andamento",
+        "art. 97"
+      ],
+      "breve": "Canoni dell'attività amministrativa fissati dall'art. 97 Cost., cui si collega l'interesse legittimo.",
+      "definizione": "Sono i canoni cui deve uniformarsi l'attività amministrativa: l'art. 97 Cost. prescrive che i pubblici uffici siano organizzati secondo disposizioni di legge, in modo da garantire il **buon andamento** e l'**imparzialità** dell'amministrazione. Vi si collega l'art. 98, per cui i pubblici impiegati sono al servizio esclusivo della Nazione. Martines li richiama per spiegare l'[[interesse-legittimo|interesse legittimo]], definito come interesse qualificato alla legittimità dell'attività amministrativa: chi partecipa a un concorso pubblico ha interesse che l'amministrazione agisca in modo imparziale e corretto.",
       "pagine": [
-        37,
-        38
+        35,
+        35
       ]
     },
     {
-      "id": "principio-solidaristico",
-      "nome": "Principio solidaristico",
+      "id": "diritto-affievolito",
+      "nome": "Diritto affievolito",
       "tipo": "concetto",
-      "alias": [],
-      "breve": "Doveri inderogabili di solidarietà politica, economica e sociale.",
-      "definizione": "È enunciato nella seconda parte dell'art. 2 Cost.: la Repubblica «richiede l'adempimento dei **doveri inderogabili** di solidarietà politica, economica e sociale». Completa il [[principio-personalistico]]: la persona è titolare di diritti ma anche di doveri verso la comunità. Si traduce nei [[doveri-costituzionali|doveri]] previsti dalla Costituzione (difesa della Patria, concorso alle spese pubbliche secondo la capacità contributiva, fedeltà alla Repubblica, lavoro), ma ispira anche la funzione sociale della proprietà, i [[diritti-sociali]] e la valorizzazione del volontariato e del [[terzo-settore]]. Si collega all'uguaglianza sostanziale dell'art. 3: la solidarietà giustifica la redistribuzione delle risorse a favore di chi è in difficoltà.",
+      "alias": [
+        "diritti affievoliti"
+      ],
+      "breve": "Diritto pieno che, quando sorge un interesse pubblico attuale, può essere sacrificato o convertito (esproprio con indennizzo).",
+      "definizione": "È un diritto pieno e azionabile in giudizio che, **all'insorgere di un pubblico interesse**, può essere sacrificato o convertito in un diritto di altra natura. Se un'amministrazione sopprime un ufficio per ragioni di pubblica utilità, il diritto del titolare al mantenimento dell'ufficio viene meno senza che possa avanzare pretese; se espropria una proprietà privata ([[espropriazione]]), il diritto di proprietà viene meno ma sorge un diritto all'indennizzo. L'interesse pubblico finisce per prevalere; tuttavia i diritti affievoliti sono uguali agli altri [[diritto-soggettivo|diritti soggettivi]] finché le esigenze pubbliche non diventano attuali.",
       "pagine": [
-        37,
-        38
+        35,
+        35
       ]
     },
     {
-      "id": "principio-di-uguaglianza",
-      "nome": "Principio di uguaglianza",
+      "id": "stato-liberale",
+      "nome": "Stato liberale",
       "tipo": "concetto",
-      "alias": [],
-      "breve": "Pari dignità, uguaglianza davanti alla legge e rimozione degli ostacoli di fatto.",
-      "definizione": "L’art. 3 contiene uguaglianza formale e sostanziale. La prima vieta discriminazioni irragionevoli, la seconda impegna la Repubblica a rimuovere ostacoli economici e sociali. Trattamenti differenziati richiedono giustificazioni ragionevoli e proporzionate.",
+      "alias": [
+        "Stato liberale di diritto",
+        "democrazie liberali"
+      ],
+      "breve": "Stato delle democrazie liberali: riconosce eguaglianza formale e una sfera di libertà dai pubblici poteri.",
+      "definizione": "È lo Stato delle democrazie liberali, che ha riconosciuto ai cittadini, in una posizione di **eguaglianza formale**, una sfera di autonomia nei confronti dei pubblici poteri: la libertà **dallo Stato** o negativa ([[liberta-negative|libertà negative]]). Martines osserva però che il riconoscimento dei diritti non basta se esistono ostacoli economici e sociali al loro concreto esercizio: di qui l'evoluzione verso lo [[stato-sociale|Stato sociale]], che cerca di garantire a tutti le stesse opportunità di partecipazione (libertà nello Stato o positiva). Ha superato l'accentramento del potere affermando la separazione dei poteri. È uno **Stato minimo** (ordine pubblico, difesa, giustizia), fondato su [[principio-di-legalita|legalità]] e [[separazione-dei-poteri|separazione dei poteri]], con un Parlamento eletto a **suffragio ristretto** per censo: perciò è **monoclasse**, espressione della borghesia. Suffragio allargato e partiti di massa lo trasformano nello [[stato-democratico-pluralista|Stato democratico pluralista]].",
       "pagine": [
-        37,
-        38
+        36,
+        36
       ]
     },
     {
-      "id": "principio-autonomista",
-      "nome": "Principio autonomista",
+      "id": "effettivita-dei-diritti",
+      "nome": "Effettività dei diritti",
       "tipo": "concetto",
       "alias": [],
-      "breve": "Unità della Repubblica insieme a riconoscimento delle autonomie.",
-      "definizione": "È il principio dell'art. 5 Cost.: la Repubblica, «una e indivisibile», **riconosce e promuove le autonomie locali**, attua nei servizi che dipendono dallo Stato il più ampio **decentramento** amministrativo e adegua la sua legislazione alle esigenze dell'autonomia. Tiene insieme due valori: l'unità politica dello Stato, che esclude ogni secessione, e il pluralismo territoriale, per cui Regioni, Province, Città metropolitane e Comuni sono enti con indirizzo politico proprio, espressione delle rispettive comunità. È sviluppato dal Titolo V della Parte seconda (artt. 114–133), riscritto nel 2001. Autonomia non significa sovranità: gli enti agiscono entro le competenze fissate dalla Costituzione. Rovescia il centralismo dello Stato liberale e fascista.",
+      "breve": "Passaggio dal riconoscimento formale dei diritti al loro concreto esercizio, rimuovendo gli ostacoli economici e sociali.",
+      "definizione": "È il problema del passaggio dal **riconoscimento formale** dei diritti al loro **effettivo esercizio**. Il riconoscimento o il disconoscimento delle situazioni soggettive dipende dalle forze politiche dominanti, come mostrano la storia dei diritti di libertà e il passaggio dallo [[stato-liberale|Stato liberale]] allo [[stato-sociale|Stato sociale]]. Non basta proclamare un diritto se ostacoli economici e sociali ne impediscono l'esercizio (il diritto al lavoro non garantisce la piena occupazione). Per questo la Repubblica si impegna a promuovere le condizioni dell'effettivo esercizio ([[uguaglianza-sostanziale|uguaglianza sostanziale]]): artt. 4, 24 e 32.",
       "pagine": [
-        38,
-        38
+        33,
+        36
       ]
     },
     {
-      "id": "principio-internazionalista",
-      "nome": "Principio internazionalista",
+      "id": "dovere-giuridico",
+      "nome": "Dovere",
       "tipo": "concetto",
-      "alias": [],
-      "breve": "Apertura alla comunità internazionale per diritti, pace e cooperazione.",
-      "definizione": "È l'apertura dell'ordinamento italiano alla comunità internazionale, espressa dagli artt. 10 e 11 Cost. Per l'**art. 10** l'ordinamento si conforma automaticamente alle norme del diritto internazionale generalmente riconosciute (le consuetudini); la condizione dello straniero è regolata dalla legge in conformità ai trattati; è garantito il diritto d'asilo. Per l'**art. 11** l'Italia ripudia la guerra come strumento di offesa e come mezzo per risolvere le controversie, e consente, in condizioni di parità con gli altri Stati, alle **limitazioni di sovranità** necessarie a un ordinamento che assicuri pace e giustizia tra le Nazioni: su questa norma si fonda la partecipazione all'ONU e all'[[unione-europea|Unione europea]]. Il limite sono i [[principi-supremi]].",
+      "alias": [
+        "dovere",
+        "doveri"
+      ],
+      "breve": "Situazione passiva imputata a una generalità di soggetti, determinabili solo in seguito.",
+      "definizione": "È una delle due situazioni giuridiche **passive** o di svantaggio. Si imputa non a soggetti determinati ma a una **generalità di soggetti**, che saranno determinati solo successivamente; non è rivolto verso un titolare preciso. Finché la situazione di svantaggio non si specifica si ha il dovere; quando si instaura un rapporto tra soggetti determinati diventa [[obbligo]]. Martines fa gli esempi del dovere di ogni cittadino di svolgere un'attività che concorra al progresso materiale o spirituale della società (art. 4), del dovere dei genitori di educare i figli e della difesa della Patria ([[doveri-costituzionali|doveri costituzionali]]).",
       "pagine": [
-        38,
-        38
+        36,
+        36
+      ]
+    },
+    {
+      "id": "obbligo",
+      "nome": "Obbligo",
+      "tipo": "concetto",
+      "alias": [
+        "obblighi"
+      ],
+      "breve": "Situazione passiva di un soggetto determinato, tenuto a un comportamento verso chi ha il diritto di pretenderlo.",
+      "definizione": "È la situazione passiva in forza della quale un **soggetto determinato** è tenuto a osservare un comportamento commissivo o omissivo, attivo o passivo, verso un altro soggetto, al quale l'ordinamento riconosce il [[diritto-soggettivo|diritto soggettivo]] di pretenderne l'osservanza. Presuppone quindi un [[rapporto-giuridico|rapporto giuridico]] tra due o più soggetti. Si distingue dal [[dovere-giuridico|dovere]], che riguarda una generalità di soggetti e diventa obbligo solo quando la situazione di svantaggio si specifica in un rapporto (come quello tra creditore e debitore).",
+      "pagine": [
+        36,
+        36
+      ]
+    },
+    {
+      "id": "potesta-pubblica",
+      "nome": "Potestà pubblica",
+      "tipo": "istituto",
+      "alias": [],
+      "breve": "Potere giuridico di produrre effetti anche senza il consenso del destinatario.",
+      "definizione": "È il potere, attribuito dalla legge a un soggetto pubblico, di produrre effetti giuridici nella sfera altrui **senza il consenso** dell'interessato: imporre un tributo, espropriare un bene, ordinare o vietare. È la caratteristica del diritto pubblico, in cui l'amministrazione agisce in posizione di supremazia. Proprio per questo è circondata da garanzie: deve avere una base nella legge ([[principio-di-legalita]]), può essere esercitata solo per il fine previsto e i suoi atti sono impugnabili davanti al giudice. Si contrappone all'[[autonomia-privata]], dove gli effetti nascono dall'accordo tra pari. Non tutta l'attività degli enti pubblici è autoritativa: possono anche stipulare contratti.",
+      "pagine": [
+        34,
+        34
       ]
     }
   ],
   "relazioni": [
     {
-      "da": "costituzione-italiana",
-      "a": "costituzione-rigida",
+      "da": "soggettivita-giuridica",
+      "a": "capacita-giuridica",
       "tipo": "collegato",
+      "etichetta": "presuppone la"
+    },
+    {
+      "da": "capacita-giuridica",
+      "a": "capacita-di-agire",
+      "tipo": "contrasta",
+      "etichetta": "si distingue dalla"
+    },
+    {
+      "da": "persona-giuridica",
+      "a": "soggettivita-giuridica",
+      "tipo": "esempio-di",
+      "etichetta": "riceve per creazione del diritto la"
+    },
+    {
+      "da": "ente-pubblico",
+      "a": "persona-giuridica",
+      "tipo": "esempio-di",
       "etichetta": "è una"
     },
     {
-      "da": "revisione-costituzionale",
-      "a": "costituzione-rigida",
-      "tipo": "collegato",
-      "etichetta": "consente di modificare la"
+      "da": "enti-senza-soggettivita",
+      "a": "soggettivita-giuridica",
+      "tipo": "contrasta",
+      "etichetta": "sono privi di"
     },
     {
-      "da": "principi-supremi",
-      "a": "revisione-costituzionale",
-      "tipo": "collegato",
-      "etichetta": "limitano la"
+      "da": "popolo",
+      "a": "enti-senza-soggettivita",
+      "tipo": "esempio-di",
+      "etichetta": "è un esempio di"
     },
     {
-      "da": "assemblea-costituente",
-      "a": "costituzione-italiana",
-      "tipo": "collegato",
-      "etichetta": "approvò la"
+      "da": "partiti-politici",
+      "a": "enti-senza-soggettivita",
+      "tipo": "esempio-di",
+      "etichetta": "sono un esempio di"
     },
     {
-      "da": "principio-personalistico",
-      "a": "principio-solidaristico",
-      "tipo": "collegato",
-      "etichetta": "si integra con il"
+      "da": "famiglia",
+      "a": "enti-senza-soggettivita",
+      "tipo": "esempio-di",
+      "etichetta": "è un esempio di"
     },
     {
-      "da": "principio-di-uguaglianza",
-      "a": "principio-personalistico",
+      "da": "formazioni-sociali",
+      "a": "enti-senza-soggettivita",
       "tipo": "collegato",
-      "etichetta": "rende effettivo il"
+      "etichetta": "comprendono molte"
+    },
+    {
+      "da": "capacita-giuridica",
+      "a": "straniero",
+      "tipo": "collegato",
+      "etichetta": "pone dubbi sui diritti dello"
+    },
+    {
+      "da": "capacita-giuridica",
+      "a": "diritto-al-lavoro",
+      "tipo": "collegato",
+      "etichetta": "non garantisce da sola il"
+    },
+    {
+      "da": "soggettivita-giuridica",
+      "a": "situazioni-giuridiche-soggettive",
+      "tipo": "collegato",
+      "etichetta": "è il complesso delle"
+    },
+    {
+      "da": "potere-giuridico",
+      "a": "situazioni-giuridiche-soggettive",
+      "tipo": "parte-di",
+      "etichetta": "è una delle"
+    },
+    {
+      "da": "diritto-soggettivo",
+      "a": "situazioni-giuridiche-soggettive",
+      "tipo": "parte-di",
+      "etichetta": "è una delle"
+    },
+    {
+      "da": "interesse-legittimo",
+      "a": "situazioni-giuridiche-soggettive",
+      "tipo": "parte-di",
+      "etichetta": "è una delle"
+    },
+    {
+      "da": "dovere-giuridico",
+      "a": "situazioni-giuridiche-soggettive",
+      "tipo": "parte-di",
+      "etichetta": "è una delle"
+    },
+    {
+      "da": "obbligo",
+      "a": "situazioni-giuridiche-soggettive",
+      "tipo": "parte-di",
+      "etichetta": "è una delle"
+    },
+    {
+      "da": "potere-giuridico",
+      "a": "diritto-soggettivo",
+      "tipo": "evolve-in",
+      "etichetta": "si concretizza nel"
+    },
+    {
+      "da": "potere-giuridico",
+      "a": "elettorato-attivo",
+      "tipo": "evolve-in",
+      "etichetta": "diventa, per il voto, l'"
+    },
+    {
+      "da": "diritto-soggettivo",
+      "a": "rapporto-giuridico",
+      "tipo": "collegato",
+      "etichetta": "presuppone un"
+    },
+    {
+      "da": "rapporto-giuridico",
+      "a": "obbligo",
+      "tipo": "collegato",
+      "etichetta": "lega il diritto all'"
+    },
+    {
+      "da": "diritto-soggettivo",
+      "a": "obbligo",
+      "tipo": "contrasta",
+      "etichetta": "ha per controparte l'"
+    },
+    {
+      "da": "ente-pubblico",
+      "a": "rapporto-giuridico",
+      "tipo": "collegato",
+      "etichetta": "rende di regola pubblico il"
+    },
+    {
+      "da": "interesse-legittimo",
+      "a": "diritto-soggettivo",
+      "tipo": "contrasta",
+      "etichetta": "è tutelato solo di riflesso, a differenza del"
+    },
+    {
+      "da": "interesse-legittimo",
+      "a": "buon-andamento-e-imparzialita",
+      "tipo": "collegato",
+      "etichetta": "esige il rispetto di"
+    },
+    {
+      "da": "accesso-ai-pubblici-uffici",
+      "a": "interesse-legittimo",
+      "tipo": "esempio-di",
+      "etichetta": "nel concorso fa sorgere un"
+    },
+    {
+      "da": "interesse-legittimo",
+      "a": "tar",
+      "tipo": "collegato",
+      "etichetta": "si fa valere davanti al"
+    },
+    {
+      "da": "diritto-affievolito",
+      "a": "diritto-soggettivo",
+      "tipo": "esempio-di",
+      "etichetta": "è un"
+    },
+    {
+      "da": "espropriazione",
+      "a": "diritto-affievolito",
+      "tipo": "esempio-di",
+      "etichetta": "affievolisce la proprietà in un"
+    },
+    {
+      "da": "tutela-giurisdizionale",
+      "a": "interesse-legittimo",
+      "tipo": "collegato",
+      "etichetta": "protegge anche l'"
+    },
+    {
+      "da": "tutela-giurisdizionale",
+      "a": "diritto-soggettivo",
+      "tipo": "collegato",
+      "etichetta": "protegge il"
+    },
+    {
+      "da": "stato-liberale",
+      "a": "liberta-negative",
+      "tipo": "crea",
+      "etichetta": "riconosce le"
+    },
+    {
+      "da": "stato-liberale",
+      "a": "stato-sociale",
+      "tipo": "evolve-in",
+      "etichetta": "si evolve nello"
+    },
+    {
+      "da": "stato-sociale",
+      "a": "liberta-positive",
+      "tipo": "crea",
+      "etichetta": "promuove le"
+    },
+    {
+      "da": "effettivita-dei-diritti",
+      "a": "uguaglianza-sostanziale",
+      "tipo": "collegato",
+      "etichetta": "si persegue con l'"
+    },
+    {
+      "da": "effettivita-dei-diritti",
+      "a": "diritto-al-lavoro",
+      "tipo": "esempio-di",
+      "etichetta": "manca, per esempio, nel"
+    },
+    {
+      "da": "effettivita-dei-diritti",
+      "a": "stato-sociale",
+      "tipo": "collegato",
+      "etichetta": "è il compito dello"
+    },
+    {
+      "da": "dovere-giuridico",
+      "a": "obbligo",
+      "tipo": "evolve-in",
+      "etichetta": "specificandosi diventa"
+    },
+    {
+      "da": "doveri-costituzionali",
+      "a": "dovere-giuridico",
+      "tipo": "esempio-di",
+      "etichetta": "sono esempi di"
+    },
+    {
+      "da": "difesa-della-patria",
+      "a": "dovere-giuridico",
+      "tipo": "esempio-di",
+      "etichetta": "è un"
+    },
+    {
+      "da": "potesta-pubblica",
+      "a": "autonomia-privata",
+      "tipo": "contrasta",
+      "etichetta": "si distingue dal regime di"
     }
   ],
   "eventi": [
     {
-      "id": "ev-statuto-albertino",
-      "anno": 1848,
-      "data": "4 marzo 1848",
-      "titolo": "Concessione dello Statuto albertino",
-      "descrizione": "Carlo Alberto concede lo Statuto del Regno di Sardegna.",
-      "tipo": "politica",
-      "concetti": [
-        "statuto-albertino"
-      ],
-      "pagine": [
-        33,
-        35
-      ]
-    },
-    {
-      "id": "ev-proclamazione-del-regno-d-italia",
-      "anno": 1861,
-      "data": "17 marzo 1861",
-      "titolo": "Proclamazione del Regno d'Italia",
-      "descrizione": "Lo Statuto albertino, nato per il Regno di Sardegna, diventa la carta costituzionale del nuovo Stato unitario.",
-      "tipo": "politica",
-      "pagine": [
-        33,
-        38
-      ],
-      "concetti": [
-        "statuto-albertino"
-      ]
-    },
-    {
-      "id": "ev-riforma-elettorale-1882",
-      "anno": 1882,
-      "data": "22 gennaio 1882",
-      "titolo": "Riforma elettorale del 1882",
-      "descrizione": "Allarga il diritto di voto, fino ad allora limitato a circa il 2% della popolazione, portandolo a circa il 7%: resta un suffragio ristretto, tipico dello Stato liberale.",
-      "tipo": "legge",
-      "concetti": [
-        "elettorato-attivo",
-        "statuto-albertino",
-        "stato-liberale"
-      ]
-    },
-    {
-      "id": "ev-suffragio-maschile-1912",
-      "anno": 1912,
-      "data": "30 giugno 1912",
-      "titolo": "Suffragio quasi universale maschile",
-      "descrizione": "La legge n. 666/1912 estende il voto a quasi tutti i cittadini maschi: è il passaggio che apre la strada ai partiti di massa.",
-      "tipo": "legge",
-      "concetti": [
-        "elettorato-attivo",
-        "stato-liberale",
-        "partiti-politici"
-      ]
-    },
-    {
-      "id": "ev-suffragio-universale-maschile-1918",
-      "anno": 1918,
-      "data": "16 dicembre 1918",
-      "titolo": "Suffragio universale maschile",
-      "descrizione": "Alla fine della prima guerra mondiale la legge n. 1985/1918 dà il voto a tutti i cittadini maschi di 21 anni e a chi ha prestato servizio militare.",
-      "tipo": "legge",
-      "concetti": [
-        "elettorato-attivo",
-        "stato-liberale"
-      ]
-    },
-    {
-      "id": "ev-marcia-su-roma",
-      "anno": 1922,
-      "data": "28 ottobre 1922",
-      "titolo": "Marcia su Roma",
-      "descrizione": "Inizia il regime fascista, che con leggi ordinarie svuota le garanzie dello Statuto senza abrogarlo.",
-      "tipo": "politica",
-      "pagine": [
-        33,
-        38
-      ],
-      "concetti": [
-        "statuto-albertino",
-        "costituzione-flessibile"
-      ]
-    },
-    {
-      "id": "ev-caduta-del-fascismo",
-      "anno": 1943,
-      "data": "25 luglio 1943",
-      "titolo": "Caduta del fascismo",
-      "descrizione": "Il re revoca Mussolini: si apre il periodo transitorio che porterà alla Costituente.",
-      "tipo": "politica",
-      "pagine": [
-        33,
-        38
-      ],
-      "concetti": [
-        "statuto-albertino"
-      ]
-    },
-    {
-      "id": "ev-decreto-luogotenenziale-151-1944",
-      "anno": 1944,
-      "data": "25 giugno 1944",
-      "titolo": "Decreto luogotenenziale n. 151/1944",
-      "descrizione": "La «costituzione provvisoria»: dopo la liberazione del territorio il popolo eleggerà a suffragio universale un'Assemblea costituente per dare al Paese una nuova Costituzione. La questione istituzionale è rinviata.",
-      "tipo": "legge",
-      "concetti": [
-        "assemblea-costituente",
-        "potere-costituente"
-      ]
-    },
-    {
-      "id": "ev-liberazione",
-      "anno": 1945,
-      "data": "25 aprile 1945",
-      "titolo": "Liberazione",
-      "descrizione": "Fine dell'occupazione nazifascista: l'anno dopo gli italiani scelgono la Repubblica ed eleggono la Costituente.",
-      "tipo": "politica",
-      "pagine": [
-        33,
-        38
-      ],
-      "concetti": [
-        "assemblea-costituente"
-      ]
-    },
-    {
-      "id": "ev-costituente",
-      "anno": 1946,
-      "data": "2 giugno 1946",
-      "titolo": "Referendum istituzionale ed elezione della Costituente",
-      "descrizione": "Il corpo elettorale sceglie la Repubblica ed elegge l’Assemblea Costituente.",
-      "tipo": "politica",
-      "concetti": [
-        "assemblea-costituente"
-      ],
-      "pagine": [
-        35,
-        35
-      ]
-    },
-    {
-      "id": "ev-approvazione-costituzione",
-      "anno": 1947,
-      "data": "22 dicembre 1947",
-      "titolo": "Approvazione della Costituzione",
-      "descrizione": "L’Assemblea Costituente approva il testo definitivo della carta repubblicana.",
-      "tipo": "legge",
-      "concetti": [
-        "costituzione-italiana"
-      ],
-      "pagine": [
-        35,
-        36
-      ]
-    },
-    {
-      "id": "ev-promulgazione-della-costituzione",
-      "anno": 1947,
-      "data": "27 dicembre 1947",
-      "titolo": "Promulgazione della Costituzione",
-      "descrizione": "Il Capo provvisorio dello Stato Enrico De Nicola promulga la Costituzione, che entra in vigore il 1° gennaio 1948.",
+      "id": "ev-entrata-in-vigore-del-codice-civile",
+      "anno": 1942,
+      "data": "21 aprile 1942",
+      "titolo": "Entrata in vigore del Codice civile",
+      "descrizione": "Con il Codice entrano in vigore le «Disposizioni sulla legge in generale» (preleggi): artt. 11, 12 e 15 su irretroattività, interpretazione e abrogazione.",
       "tipo": "codificazione",
+      "concetti": [
+        "capacita-giuridica",
+        "capacita-di-agire"
+      ],
       "pagine": [
         33,
-        38
-      ],
-      "concetti": [
-        "costituzione-italiana"
+        33
       ]
     },
     {
-      "id": "ev-sentenza-n-1146-1988-sui-principi-supremi",
-      "anno": 1988,
-      "data": "1988",
-      "titolo": "Sentenza n. 1146/1988 sui principi supremi",
-      "descrizione": "La Corte costituzionale afferma che i principi supremi non possono essere modificati nemmeno con legge costituzionale.",
-      "tipo": "giurisprudenza",
+      "id": "ev-legge-40-2004",
+      "anno": 2004,
+      "data": "19 febbraio 2004",
+      "titolo": "Legge n. 40 sulla procreazione medicalmente assistita",
+      "descrizione": "Detta le norme sulla procreazione medicalmente assistita e assicura i diritti di tutti i soggetti coinvolti, compreso il concepito: Martines la cita a proposito della capacità giuridica.",
+      "tipo": "legge",
+      "concetti": [
+        "capacita-giuridica"
+      ],
       "pagine": [
         33,
-        38
-      ],
-      "concetti": [
-        "principi-supremi",
-        "revisione-costituzionale"
+        33
       ]
     }
   ],
   "mappa": {
-    "testo": "Costituzione",
-    "concetto": "costituzione",
+    "testo": "Il soggetto di diritto e le situazioni giuridiche soggettive",
     "figli": [
       {
-        "testo": "Rigida e garantita",
-        "concetto": "costituzione-rigida",
+        "testo": "Soggettività giuridica",
+        "concetto": "soggettivita-giuridica",
         "figli": [
           {
-            "testo": "Revisione: art. 138",
-            "concetto": "revisione-costituzionale"
+            "testo": "Capacità giuridica",
+            "concetto": "capacita-giuridica",
+            "nota": "dalla nascita (art. 1 c.c.); concepito"
           },
           {
-            "testo": "Limiti: art. 139 e principi supremi",
-            "concetto": "principi-supremi"
+            "testo": "Capacità di agire",
+            "concetto": "capacita-di-agire",
+            "nota": "a 18 anni (art. 2 c.c.)"
+          },
+          {
+            "testo": "Persone giuridiche",
+            "concetto": "persona-giuridica",
+            "figli": [
+              {
+                "testo": "Associazioni ↔ fondazioni",
+                "nota": "persone ↔ struttura organizzativa"
+              },
+              {
+                "testo": "Pubbliche ↔ private",
+                "concetto": "ente-pubblico",
+                "nota": "secondo i fini"
+              }
+            ]
+          },
+          {
+            "testo": "Entità senza soggettività",
+            "concetto": "enti-senza-soggettivita",
+            "nota": "condominio, popolo, partiti…"
           }
         ]
       },
       {
-        "testo": "Origine repubblicana",
-        "concetto": "assemblea-costituente"
-      },
-      {
-        "testo": "Persona e solidarietà",
-        "concetto": "principio-personalistico",
+        "testo": "Situazioni attive",
+        "concetto": "situazioni-giuridiche-soggettive",
         "figli": [
           {
-            "testo": "Uguaglianza effettiva",
-            "concetto": "principio-di-uguaglianza"
+            "testo": "Potere giuridico",
+            "concetto": "potere-giuridico",
+            "nota": "astratto, potenziale"
+          },
+          {
+            "testo": "Diritto soggettivo",
+            "concetto": "diritto-soggettivo",
+            "nota": "concreto, attuale",
+            "figli": [
+              {
+                "testo": "Rapporto giuridico",
+                "concetto": "rapporto-giuridico",
+                "nota": "pubblico ↔ privato"
+              },
+              {
+                "testo": "Diritto affievolito",
+                "concetto": "diritto-affievolito",
+                "nota": "cede all'interesse pubblico"
+              }
+            ]
+          },
+          {
+            "testo": "Interesse legittimo",
+            "concetto": "interesse-legittimo",
+            "nota": "tutela di riflesso; concorso pubblico",
+            "figli": [
+              {
+                "testo": "Buon andamento e imparzialità",
+                "concetto": "buon-andamento-e-imparzialita",
+                "nota": "artt. 97 e 98"
+              }
+            ]
           }
         ]
       },
       {
-        "testo": "Unità e autonomie",
-        "concetto": "principio-autonomista"
+        "testo": "Effettività dei diritti",
+        "concetto": "effettivita-dei-diritti",
+        "figli": [
+          {
+            "testo": "Libertà dallo Stato",
+            "concetto": "liberta-negative",
+            "nota": "Stato liberale, eguaglianza formale"
+          },
+          {
+            "testo": "Libertà nello Stato",
+            "concetto": "liberta-positive",
+            "nota": "Stato sociale, pari opportunità"
+          },
+          {
+            "testo": "Artt. 4, 24, 32",
+            "nota": "dal piano formale all'effettivo esercizio"
+          }
+        ]
       },
       {
-        "testo": "Apertura internazionale",
-        "concetto": "principio-internazionalista"
+        "testo": "Situazioni passive",
+        "figli": [
+          {
+            "testo": "Dovere",
+            "concetto": "dovere-giuridico",
+            "nota": "generalità di soggetti"
+          },
+          {
+            "testo": "Obbligo",
+            "concetto": "obbligo",
+            "nota": "soggetto determinato verso un titolare"
+          }
+        ]
       }
     ]
   },
   "domande": [
     {
-      "id": "u04-q001",
       "tipo": "flashcard",
       "lezione": "u04-l1",
       "livello": "base",
       "pagine": [
         33,
-        35
+        33
       ],
       "concetti": [
-        "costituzione-rigida",
-        "costituzione-flessibile"
+        "soggettivita-giuridica"
       ],
-      "domanda": "Che differenza c’è tra Costituzione rigida e flessibile?",
-      "risposta": "Nella rigida la legge ordinaria non può modificare o contraddire la Costituzione; occorre il procedimento aggravato. Nella flessibile la legislazione ordinaria può modificarne le regole."
+      "domanda": "Che cos'è la soggettività giuridica?",
+      "risposta": "Le norme considerano ogni uomo centro di imputazione di interessi giuridicamente rilevanti e gli attribuiscono una serie di situazioni attive e passive: il loro complesso è la soggettività giuridica e il titolare diventa soggetto di diritto.",
+      "id": "u04-q001"
     },
     {
-      "id": "u04-q002",
       "tipo": "flashcard",
       "lezione": "u04-l1",
       "livello": "base",
       "pagine": [
         33,
-        35
+        33
       ],
       "concetti": [
-        "assemblea-costituente"
+        "capacita-giuridica",
+        "capacita-di-agire"
       ],
-      "domanda": "Chi preparò il progetto della Costituzione repubblicana?",
-      "risposta": "La Commissione dei 75 dell’Assemblea Costituente; il testo venne poi discusso e approvato dall’Assemblea."
+      "domanda": "Qual è la differenza tra capacità giuridica e capacità di agire?",
+      "risposta": "La capacità giuridica è l'attitudine a essere potenzialmente destinatari delle norme che attribuiscono situazioni attive e passive e si acquista con la nascita (art. 1 c.c.). La capacità di agire è l'attitudine a porre in essere direttamente atti produttivi di effetti giuridici e si acquista a diciotto anni (art. 2 c.c.).",
+      "id": "u04-q002"
     },
     {
-      "id": "u04-q003",
       "tipo": "flashcard",
       "lezione": "u04-l1",
       "livello": "medio",
       "pagine": [
         33,
-        35
+        33
       ],
       "concetti": [
-        "revisione-costituzionale",
-        "principi-supremi"
+        "capacita-giuridica",
+        "straniero",
+        "apolide"
       ],
-      "domanda": "Quali sono i limiti alla revisione costituzionale?",
-      "risposta": "La forma repubblicana, espressamente protetta dall’art. 139, e i principi supremi nel loro contenuto essenziale, secondo la Corte costituzionale."
+      "domanda": "Quali dubbi pone la capacità giuridica nel diritto pubblico?",
+      "risposta": "Si discute se stranieri e apolidi siano titolari dei diritti che la Costituzione sembrerebbe riservare ai cittadini e se il riconoscimento e la tutela di alcuni diritti di libertà si estendano ai minorenni. Inoltre il riconoscimento formale della capacità può non coincidere con l'effettiva attribuzione di situazioni attive.",
+      "id": "u04-q003"
     },
     {
-      "id": "u04-q004",
       "tipo": "flashcard",
       "lezione": "u04-l1",
       "livello": "medio",
       "pagine": [
         33,
-        35
+        33
       ],
       "concetti": [
-        "revisione-costituzionale"
+        "capacita-giuridica",
+        "diritto-al-lavoro"
       ],
-      "domanda": "Quando è escluso il referendum dell’art. 138?",
-      "risposta": "Quando ciascuna Camera ha approvato la legge nella seconda votazione con almeno due terzi dei propri componenti."
+      "domanda": "Con quale esempio Martines mostra che il riconoscimento formale della capacità giuridica può non bastare?",
+      "risposta": "Con l'art. 4 Cost., che riconosce a tutti i cittadini il diritto al lavoro: ostacoli economici e sociali impediscono di raggiungere la piena occupazione, sicché il diritto riconosciuto non si traduce per tutti in una situazione effettiva.",
+      "id": "u04-q004"
     },
     {
-      "id": "u04-q005",
+      "tipo": "flashcard",
+      "lezione": "u04-l1",
+      "livello": "base",
+      "pagine": [
+        33,
+        33
+      ],
+      "concetti": [
+        "persona-giuridica"
+      ],
+      "domanda": "Perché le persone giuridiche si chiamano così e quali tipi ne esistono?",
+      "risposta": "Perché sono una creazione del diritto e non esistono nel mondo reale. Sono associazioni o corporazioni (unione di persone costituita per un interesse comune) e fondazioni o istituzioni (struttura organizzativa idonea a soddisfare gli interessi di persone determinate o determinabili).",
+      "id": "u04-q005"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "enti-senza-soggettivita",
+        "popolo",
+        "partiti-politici"
+      ],
+      "domanda": "Quali entità prive di soggettività giuridica sono destinatarie di norme costituzionali, e che cosa ricevono?",
+      "risposta": "Il popolo, la famiglia, i partiti politici e i sindacati non registrati, oltre alle formazioni sociali dell'art. 2. Non sono veri soggetti di diritto, ma l'ordinamento attribuisce loro situazioni giuridiche attive e passive, forme di tutela e legittimazioni processuali.",
+      "id": "u04-q006"
+    },
+    {
       "tipo": "multipla",
       "lezione": "u04-l1",
-      "livello": "medio",
+      "livello": "base",
       "pagine": [
         33,
-        35
+        33
       ],
       "concetti": [
-        "revisione-costituzionale"
+        "capacita-di-agire"
       ],
-      "domanda": "Alla seconda deliberazione una Camera approva con il 60% dei componenti. Che cosa comporta?",
+      "domanda": "A norma dell'art. 2 c.c., la capacità di agire si acquista:",
       "opzioni": [
-        "La legge è respinta",
-        "Il referendum è obbligatorio",
-        "Il requisito della maggioranza assoluta è soddisfatto e resta possibile richiedere il referendum",
-        "La legge è subito promulgata senza possibilità di referendum"
+        "al momento della nascita",
+        "al momento del concepimento",
+        "al compimento del diciottesimo anno",
+        "al compimento del ventunesimo anno"
       ],
       "corretta": 2,
-      "spiegazione": "Il 60% supera la maggioranza assoluta ma non raggiunge i due terzi. Il referendum è eventuale, se richiesto dai soggetti legittimati."
+      "spiegazione": "La nascita segna l'acquisto della capacità giuridica (art. 1 c.c.); la capacità di agire si acquista a diciotto anni (art. 2 c.c.).",
+      "id": "u04-q007"
     },
     {
-      "id": "u04-q006",
       "tipo": "multipla",
       "lezione": "u04-l1",
       "livello": "medio",
       "pagine": [
         33,
-        35
+        34
       ],
       "concetti": [
-        "potere-costituente",
-        "revisione-costituzionale"
+        "persona-giuridica",
+        "ente-pubblico"
       ],
-      "domanda": "Quale affermazione sul potere di revisione è corretta?",
+      "domanda": "In base a che cosa una persona giuridica è pubblica o privata?",
       "opzioni": [
-        "È illimitato perché vota il Parlamento",
-        "È un potere disciplinato dalla Costituzione vigente",
-        "Può essere esercitato con decreto-legge",
-        "Coincide sempre con il potere costituente"
+        "In base al numero dei suoi componenti",
+        "In base alla natura dei fini che persegue",
+        "In base alla presenza di un patrimonio",
+        "In base all'atto con cui è stata riconosciuta"
       ],
       "corretta": 1,
-      "spiegazione": "Il potere di revisione è costituito e soggetto ai limiti formali e sostanziali della Costituzione."
+      "spiegazione": "Le persone giuridiche sono pubbliche o private in base alla natura dei fini; la distinzione però non è sempre facile, perché esistono enti a struttura privatistica che perseguono interessi pubblici.",
+      "id": "u04-q008"
     },
     {
-      "id": "u04-q007",
-      "tipo": "verofalso",
-      "lezione": "u04-l1",
-      "livello": "medio",
-      "pagine": [
-        33,
-        35
-      ],
-      "concetti": [
-        "revisione-costituzionale"
-      ],
-      "affermazione": "Il referendum costituzionale richiede che voti la maggioranza degli aventi diritto.",
-      "vero": false,
-      "spiegazione": "L’art. 138 richiede la maggioranza dei voti validi, senza quorum di partecipazione."
-    },
-    {
-      "id": "u04-q008",
-      "tipo": "verofalso",
-      "lezione": "u04-l1",
-      "livello": "medio",
-      "pagine": [
-        33,
-        35
-      ],
-      "concetti": [
-        "costituzione-rigida"
-      ],
-      "affermazione": "La rigidità impedisce ogni modifica del testo costituzionale.",
-      "vero": false,
-      "spiegazione": "Consente modifiche con procedura aggravata, nel rispetto dei limiti alla revisione."
-    },
-    {
-      "id": "u04-q009",
-      "tipo": "completa",
-      "lezione": "u04-l1",
-      "livello": "base",
-      "pagine": [
-        33,
-        35
-      ],
-      "concetti": [
-        "revisione-costituzionale"
-      ],
-      "testo": "L’art. {{138}} richiede almeno {{tre|3}} mesi tra le due deliberazioni della stessa Camera e la maggioranza {{assoluta}} nella seconda votazione.",
-      "spiegazione": "Termini e maggioranza sono garanzie contro modifiche costituzionali occasionali."
-    },
-    {
-      "id": "u04-q010",
-      "tipo": "aperta",
-      "lezione": "u04-l1",
-      "livello": "avanzato",
-      "pagine": [
-        33,
-        35
-      ],
-      "concetti": [
-        "costituzione",
-        "costituzione-rigida",
-        "costituzione-flessibile",
-        "potere-costituente",
-        "revisione-costituzionale",
-        "principi-supremi",
-        "statuto-albertino",
-        "assemblea-costituente"
-      ],
-      "domanda": "Spiega perché il procedimento di revisione non è esercizio di un potere illimitato.",
-      "traccia": "Il potere costituente fonda un ordinamento nuovo, mentre il potere di revisione esiste perché la Costituzione lo prevede. Deve rispettare l’art. 138: ogni Camera delibera due volte, con intervallo minimo di tre mesi e maggioranza assoluta dei componenti alla seconda votazione. Se entrambe raggiungono i due terzi non è ammesso referendum; altrimenti, entro tre mesi dalla pubblicazione, possono richiederlo un quinto dei membri di una Camera, cinquecentomila elettori o cinque Consigli regionali. Il referendum decide a maggioranza dei voti validi, senza quorum di partecipazione. Le garanzie procedurali non esauriscono i limiti: l’art. 139 protegge la forma repubblicana e la Corte costituzionale riconosce principi supremi non sovvertibili nel nucleo essenziale. Anche la legge costituzionale può essere controllata dalla Corte. La rigidità consente quindi cambiamenti, ma non attribuisce alla maggioranza il potere di distruggere l’identità costituzionale.",
-      "punti": [
-        {
-          "testo": "Distinzione fra potere originario e costituito",
-          "chiavi": [
-            "costituente",
-            "revisione"
-          ]
-        },
-        {
-          "testo": "Garanzie procedurali",
-          "chiavi": [
-            "due deliberazioni",
-            "tre mesi",
-            "assoluta"
-          ]
-        },
-        {
-          "testo": "Referendum eventuale senza quorum",
-          "chiavi": [
-            "referendum",
-            "due terzi"
-          ]
-        },
-        {
-          "testo": "Limiti sostanziali",
-          "chiavi": [
-            "139",
-            "principi supremi"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u04-q011",
-      "tipo": "flashcard",
-      "lezione": "u04-l2",
-      "livello": "base",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-personalistico"
-      ],
-      "domanda": "Che cosa significa principio personalistico?",
-      "risposta": "La persona è al centro dell’ordinamento: l’art. 2 riconosce diritti inviolabili al singolo e nelle formazioni sociali in cui sviluppa la personalità."
-    },
-    {
-      "id": "u04-q012",
-      "tipo": "flashcard",
-      "lezione": "u04-l2",
-      "livello": "base",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-di-uguaglianza"
-      ],
-      "domanda": "Come si distinguono uguaglianza formale e sostanziale?",
-      "risposta": "La prima afferma pari dignità e uguaglianza davanti alla legge; la seconda richiede di rimuovere ostacoli economici e sociali che rendono libertà e partecipazione ineffettive."
-    },
-    {
-      "id": "u04-q013",
-      "tipo": "flashcard",
-      "lezione": "u04-l2",
-      "livello": "medio",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-autonomista"
-      ],
-      "domanda": "In che modo l’art. 5 concilia unità e autonomie?",
-      "risposta": "Dichiara la Repubblica una e indivisibile e insieme riconosce e promuove autonomie locali e decentramento amministrativo."
-    },
-    {
-      "id": "u04-q014",
-      "tipo": "flashcard",
-      "lezione": "u04-l2",
-      "livello": "medio",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-internazionalista"
-      ],
-      "domanda": "L’art. 10 vieta ogni estradizione dello straniero?",
-      "risposta": "No. Il divieto costituzionale riguarda i reati politici; la legge costituzionale n. 1/1967 ne esclude i delitti di genocidio. Restano le altre garanzie costituzionali e normative."
-    },
-    {
-      "id": "u04-q015",
       "tipo": "multipla",
-      "lezione": "u04-l2",
+      "lezione": "u04-l1",
       "livello": "medio",
       "pagine": [
-        36,
-        38
+        34,
+        34
       ],
       "concetti": [
-        "principio-di-uguaglianza"
+        "enti-senza-soggettivita"
       ],
-      "domanda": "Il patrocinio per chi non può sostenere le spese giudiziarie rende concreta soprattutto quale esigenza?",
+      "domanda": "Quale di queste è un'entità che il riassunto indica come priva di soggettività giuridica nel diritto privato?",
       "opzioni": [
-        "La sovranità assoluta del Parlamento",
-        "L’uguaglianza sostanziale nell’esercizio della difesa",
-        "L’eliminazione delle autonomie",
-        "La flessibilità costituzionale"
+        "Una fondazione riconosciuta",
+        "Il condominio negli edifici",
+        "Un ente pubblico economico",
+        "Una società per azioni"
       ],
       "corretta": 1,
-      "spiegazione": "Rimuove un ostacolo economico all’effettivo esercizio di un diritto."
+      "spiegazione": "Il riassunto elenca associazioni non riconosciute, comunione legale tra coniugi, condominio, eredità giacente, fallimento e impresa.",
+      "id": "u04-q009"
     },
     {
-      "id": "u04-q016",
-      "tipo": "multipla",
-      "lezione": "u04-l2",
-      "livello": "medio",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "costituzione-italiana"
-      ],
-      "domanda": "Quale descrizione della sovranità popolare è corretta?",
-      "opzioni": [
-        "La maggioranza può ignorare ogni limite",
-        "Il popolo la esercita nelle forme e nei limiti della Costituzione",
-        "È esercitata soltanto mediante referendum",
-        "Appartiene al Governo dopo le elezioni"
-      ],
-      "corretta": 1,
-      "spiegazione": "Democrazia e limiti costituzionali operano insieme."
-    },
-    {
-      "id": "u04-q017",
       "tipo": "verofalso",
-      "lezione": "u04-l2",
-      "livello": "medio",
+      "lezione": "u04-l1",
+      "livello": "base",
       "pagine": [
-        36,
-        38
+        33,
+        33
       ],
       "concetti": [
-        "costituzione-italiana"
+        "capacita-giuridica"
       ],
-      "affermazione": "Le disposizioni transitorie e finali sono tutte prive di effetti attuali.",
-      "vero": false,
-      "spiegazione": "Alcune hanno esaurito la loro funzione, altre conservano efficacia."
-    },
-    {
-      "id": "u04-q018",
-      "tipo": "verofalso",
-      "lezione": "u04-l2",
-      "livello": "medio",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-personalistico",
-        "principio-solidaristico"
-      ],
-      "affermazione": "L’art. 2 riconosce diritti e richiede doveri di solidarietà.",
+      "affermazione": "La legge può riconoscere diritti anche ai concepiti, ma il loro acquisto è subordinato alla nascita.",
       "vero": true,
-      "spiegazione": "Il principio personalistico si accompagna alla solidarietà politica, economica e sociale."
+      "spiegazione": "Vero: il riassunto lo ricorda citando anche la legge n. 40 del 2004 sulla procreazione medicalmente assistita.",
+      "id": "u04-q010"
     },
     {
-      "id": "u04-q019",
-      "tipo": "completa",
-      "lezione": "u04-l2",
-      "livello": "base",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "costituzione-italiana",
-        "principio-personalistico",
-        "principio-solidaristico",
-        "principio-di-uguaglianza"
-      ],
-      "testo": "L’art. {{3}} distingue uguaglianza formale e sostanziale; l’art. {{5}} riconosce le autonomie; l’art. {{11}} ripudia la guerra nei termini indicati dalla Costituzione.",
-      "spiegazione": "Sono coordinate fondamentali per collegare diritti, organizzazione e apertura internazionale."
-    },
-    {
-      "id": "u04-q020",
-      "tipo": "aperta",
-      "lezione": "u04-l2",
-      "livello": "avanzato",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "costituzione-italiana",
-        "principio-personalistico",
-        "principio-solidaristico",
-        "principio-di-uguaglianza",
-        "principio-autonomista",
-        "principio-internazionalista"
-      ],
-      "domanda": "Collega principio personalistico, solidarietà e uguaglianza sostanziale.",
-      "traccia": "L’art. 2 riconosce la persona come titolare di diritti inviolabili, sia individualmente sia nelle formazioni sociali. Questa centralità non isola l’individuo: la stessa disposizione richiede doveri inderogabili di solidarietà politica, economica e sociale. L’art. 3 completa il disegno. Il primo comma garantisce pari dignità ed uguaglianza davanti alla legge, mentre il secondo affida alla Repubblica la rimozione degli ostacoli economici e sociali che limitano di fatto libertà e partecipazione. Per esempio, un diritto di difesa formalmente uguale sarebbe poco effettivo se chi non ha mezzi non potesse accedere alla giustizia: l’art. 24 prevede apposite garanzie. Gli interventi sociali non sono quindi concessioni arbitrarie, ma strumenti per rendere reali diritti e dignità. Devono comunque rispettare ragionevolezza e proporzionalità, perché l’uguaglianza sostanziale non legittima privilegi ingiustificati.",
-      "punti": [
-        {
-          "testo": "Persona e formazioni sociali",
-          "chiavi": [
-            "art. 2",
-            "diritti inviolabili"
-          ]
-        },
-        {
-          "testo": "Doveri solidali",
-          "chiavi": [
-            "solidarietà",
-            "doveri"
-          ]
-        },
-        {
-          "testo": "Due dimensioni dell’uguaglianza",
-          "chiavi": [
-            "formale",
-            "sostanziale",
-            "ostacoli"
-          ]
-        },
-        {
-          "testo": "Esempio di attuazione",
-          "chiavi": [
-            "difesa",
-            "mezzi"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u04-q021",
-      "tipo": "ordina",
+      "tipo": "verofalso",
       "lezione": "u04-l1",
       "livello": "medio",
       "pagine": [
         33,
+        33
+      ],
+      "concetti": [
+        "persona-giuridica"
+      ],
+      "affermazione": "Come le persone giuridiche, anche le persone fisiche si distinguono in pubbliche e private secondo i fini.",
+      "vero": false,
+      "spiegazione": "Falso: la distinzione tra pubblico e privato vale solo per le persone giuridiche, «a differenza di quelle fisiche».",
+      "id": "u04-q011"
+    },
+    {
+      "tipo": "verofalso",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "enti-senza-soggettivita"
+      ],
+      "affermazione": "Le entità prive di soggettività giuridica non possono essere titolari di alcuna situazione giuridica.",
+      "vero": false,
+      "spiegazione": "Falso: pur non essendo soggetti di diritto, ricevono dall'ordinamento situazioni attive e passive, forme di tutela e legittimazioni processuali.",
+      "id": "u04-q012"
+    },
+    {
+      "tipo": "completa",
+      "lezione": "u04-l1",
+      "livello": "base",
+      "pagine": [
+        33,
+        33
+      ],
+      "concetti": [
+        "capacita-giuridica",
+        "capacita-di-agire"
+      ],
+      "testo": "La capacità giuridica si acquista con la {{nascita}} (art. {{1}} c.c.); la capacità di agire al compimento del {{diciottesimo|18°|18}} anno (art. 2 c.c.).",
+      "id": "u04-q013"
+    },
+    {
+      "tipo": "completa",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        33
+      ],
+      "concetti": [
+        "persona-giuridica"
+      ],
+      "testo": "Le persone giuridiche formate da un'unione di persone sono le {{associazioni}}; quelle formate da una struttura organizzativa sono le {{fondazioni}}.",
+      "id": "u04-q014"
+    },
+    {
+      "tipo": "aperta",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        34
+      ],
+      "concetti": [
+        "soggettivita-giuridica",
+        "capacita-giuridica",
+        "capacita-di-agire",
+        "persona-giuridica",
+        "enti-senza-soggettivita"
+      ],
+      "domanda": "Parli della soggettività giuridica: capacità giuridica e di agire, persone fisiche e giuridiche, entità prive di soggettività.",
+      "traccia": "Ogni uomo è **centro di imputazione di interessi**: le situazioni attive e passive che le norme gli attribuiscono formano la **soggettività giuridica** e ne fanno un soggetto di diritto. La **capacità giuridica** è l'attitudine a essere destinatari di tali norme e si acquista con la **nascita** (art. 1 c.c.); i diritti del concepito dipendono dalla nascita. Nel diritto pubblico si discute dei diritti di **stranieri, apolidi e minorenni**, e il riconoscimento formale può restare ineffettivo (diritto al lavoro, art. 4). La **capacità di agire**, attitudine a compiere direttamente atti con effetti giuridici, si acquista a **diciotto anni** (art. 2 c.c.). L'ordinamento attribuisce soggettività anche alle **persone giuridiche**: **associazioni** (unione di persone) e **fondazioni** (struttura organizzativa), creazioni del diritto, **pubbliche o private** secondo i fini. Infine vi sono **entità senza soggettività** (associazioni non riconosciute, condominio, eredità giacente; nella Costituzione popolo, famiglia, partiti, sindacati non registrati) che ricevono comunque situazioni giuridiche, tutela e legittimazione processuale.",
+      "punti": [
+        {
+          "testo": "Centro di imputazione di interessi",
+          "chiavi": [
+            "imputazion",
+            "soggetto di diritto"
+          ]
+        },
+        {
+          "testo": "Capacità giuridica dalla nascita",
+          "chiavi": [
+            "nascita",
+            "art. 1"
+          ]
+        },
+        {
+          "testo": "Capacità di agire a diciotto anni",
+          "chiavi": [
+            "diciotto",
+            "18",
+            "agire"
+          ]
+        },
+        {
+          "testo": "Associazioni e fondazioni, pubbliche o private",
+          "chiavi": [
+            "associazion",
+            "fondazion"
+          ]
+        },
+        {
+          "testo": "Entità prive di soggettività",
+          "chiavi": [
+            "condominio",
+            "non riconosciut",
+            "popolo"
+          ]
+        }
+      ],
+      "id": "u04-q015"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l2",
+      "livello": "base",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "situazioni-giuridiche-soggettive"
+      ],
+      "domanda": "Quali sono le situazioni giuridiche attive?",
+      "risposta": "Sono essenzialmente tre: il potere giuridico, il diritto soggettivo e l'interesse legittimo. A esse si contrappongono le situazioni passive, dovere e obbligo, di chi deve collaborare al soddisfacimento dell'interesse altrui o non opporvisi.",
+      "id": "u04-q016"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "potere-giuridico"
+      ],
+      "domanda": "Perché il potere giuridico è definito una situazione «astratta»?",
+      "risposta": "Perché non è collegato a un interesse già presente nel soggetto e ha bisogno di specificarsi quando il titolare intende perseguire il suo interesse. È riconosciuto a tutti o a categorie di soggetti per soddisfare un interesse proprio o altrui: per esempio la potestà di testare o il potere di eleggere i rappresentanti.",
+      "id": "u04-q017"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "potere-giuridico",
+        "diritto-soggettivo",
+        "elettorato-attivo"
+      ],
+      "domanda": "Come si passa dal potere giuridico al diritto soggettivo? Faccia degli esempi.",
+      "risposta": "Dall'astrattezza del potere (potenziale) si passa alla concretezza del diritto (attuale) quando l'ordinamento riconosce a un soggetto la titolarità di un interesse e la capacità di farlo valere verso altri, tenuti a un comportamento omissivo o commissivo. Così dalla potestà di eleggere si passa al diritto di elettorato attivo, dal potere di agire in giudizio al diritto di azione.",
+      "id": "u04-q018"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        34,
         35
       ],
       "concetti": [
-        "costituzione",
-        "costituzione-rigida",
-        "costituzione-flessibile",
-        "potere-costituente"
+        "rapporto-giuridico"
       ],
-      "consegna": "Ordina le tappe della formazione della carta repubblicana.",
-      "elementi": [
-        "Elezione dell’Assemblea Costituente: 2 giugno 1946",
-        "Preparazione del progetto nella Commissione dei 75",
-        "Approvazione in Assemblea: 22 dicembre 1947",
-        "Promulgazione: 27 dicembre 1947",
-        "Entrata in vigore: 1° gennaio 1948"
-      ],
-      "spiegazione": "La preparazione e il voto costituente precedono promulgazione ed efficacia."
+      "domanda": "Quando un rapporto giuridico è di diritto pubblico e quando di diritto privato?",
+      "risposta": "È di diritto pubblico quando entrambi i soggetti, o uno di essi, sono soggetti pubblici (Stato ed ente pubblico, Stato e cittadino). È di diritto privato quando entrambi sono privati o quando, pur essendo pubblico uno dei soggetti, il rapporto è disciplinato da norme di diritto privato, come la locazione di un alloggio privato a una pubblica amministrazione.",
+      "id": "u04-q019"
     },
     {
-      "id": "u04-q022",
+      "tipo": "flashcard",
+      "lezione": "u04-l2",
+      "livello": "base",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "interesse-legittimo"
+      ],
+      "domanda": "Che cos'è l'interesse legittimo?",
+      "risposta": "È l'interesse di un soggetto inscindibilmente connesso alla tutela di un interesse altrui, generalmente pubblico: l'ordinamento lo tutela non direttamente ma di riflesso, se e in quanto si connetta a interessi prevalenti. Si può definire interesse qualificato alla legittimità dell'attività amministrativa.",
+      "id": "u04-q020"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l2",
+      "livello": "avanzato",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "interesse-legittimo",
+        "accesso-ai-pubblici-uffici",
+        "diritto-soggettivo",
+        "potere-giuridico"
+      ],
+      "domanda": "Quali situazioni giuridiche convivono in un concorso pubblico?",
+      "risposta": "Il potere giuridico di accedere ai pubblici uffici; il diritto soggettivo di partecipare al concorso; il diritto soggettivo di ricoprire l'ufficio, se vincitori; l'interesse legittimo di ogni partecipante al regolare svolgimento del concorso, che può essere fatto valere davanti al giudice amministrativo chiedendo l'annullamento delle prove.",
+      "id": "u04-q021"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "interesse-legittimo",
+        "buon-andamento-e-imparzialita"
+      ],
+      "domanda": "A quali articoli della Costituzione si collega l'interesse legittimo e perché?",
+      "risposta": "All'art. 97, per cui i pubblici uffici sono organizzati in modo da garantire il buon andamento e l'imparzialità dell'amministrazione, e all'art. 98, per cui i pubblici impiegati sono al servizio esclusivo della Nazione. L'interesse legittimo è infatti l'interesse alla legittimità dell'azione amministrativa, che deve uniformarsi a quei canoni.",
+      "id": "u04-q022"
+    },
+    {
+      "tipo": "multipla",
+      "lezione": "u04-l2",
+      "livello": "base",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "potere-giuridico"
+      ],
+      "domanda": "Quale di questi è un esempio di potere giuridico nel diritto pubblico?",
+      "opzioni": [
+        "La potestà di testare",
+        "Il potere dei cittadini di eleggere i loro rappresentanti",
+        "Il diritto del creditore al pagamento",
+        "L'obbligo di pagare le imposte"
+      ],
+      "corretta": 1,
+      "spiegazione": "La potestà di testare è un esempio di diritto privato; il potere di eleggere e quello di agire in giudizio sono esempi di diritto pubblico.",
+      "id": "u04-q023"
+    },
+    {
+      "tipo": "multipla",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "interesse-legittimo"
+      ],
+      "domanda": "Nel concorso pubblico, qual è l'interesse legittimo del partecipante che ricorre al giudice amministrativo?",
+      "opzioni": [
+        "Ricoprire l'ufficio a prescindere dal risultato",
+        "L'annullamento delle prove svolte irregolarmente",
+        "Partecipare al concorso",
+        "Ottenere un risarcimento automatico"
+      ],
+      "corretta": 1,
+      "spiegazione": "Partecipare al concorso e ricoprire l'ufficio se vincitori sono diritti soggettivi; l'interesse legittimo riguarda il regolare svolgimento e, in caso di irregolarità, l'annullamento delle prove.",
+      "id": "u04-q024"
+    },
+    {
+      "tipo": "multipla",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        34,
+        35
+      ],
+      "concetti": [
+        "rapporto-giuridico"
+      ],
+      "domanda": "Un privato proprietario dà in locazione un alloggio a una pubblica amministrazione. Il rapporto è:",
+      "opzioni": [
+        "di diritto pubblico, perché una parte è pubblica",
+        "di diritto privato, perché è disciplinato da norme di diritto privato",
+        "di diritto pubblico, perché riguarda un bene di interesse generale",
+        "né pubblico né privato, ma misto"
+      ],
+      "corretta": 1,
+      "spiegazione": "Anche se uno dei soggetti è pubblico, il rapporto è privato quando è disciplinato da norme di diritto privato.",
+      "id": "u04-q025"
+    },
+    {
+      "tipo": "verofalso",
+      "lezione": "u04-l2",
+      "livello": "base",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "diritto-soggettivo",
+        "rapporto-giuridico"
+      ],
+      "affermazione": "Il diritto soggettivo presuppone un rapporto giuridico tra il titolare della situazione attiva e quello della situazione passiva.",
+      "vero": true,
+      "spiegazione": "Vero: il diritto soggettivo si fa valere nei confronti di altri soggetti, tenuti a un comportamento omissivo o commissivo.",
+      "id": "u04-q026"
+    },
+    {
+      "tipo": "verofalso",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "interesse-legittimo",
+        "diritto-soggettivo"
+      ],
+      "affermazione": "L'interesse legittimo è tutelato in modo diretto, esattamente come il diritto soggettivo.",
+      "vero": false,
+      "spiegazione": "Falso: l'interesse legittimo è tutelato solo di riflesso, se e in quanto si connetta a interessi prevalenti, generalmente pubblici.",
+      "id": "u04-q027"
+    },
+    {
+      "tipo": "verofalso",
+      "lezione": "u04-l2",
+      "livello": "avanzato",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "potere-giuridico"
+      ],
+      "affermazione": "Il potere giuridico può essere riconosciuto anche per soddisfare un interesse altrui.",
+      "vero": true,
+      "spiegazione": "Vero: è riconosciuto in ordine al soddisfacimento di un interesse giuridicamente rilevante, proprio o altrui (si pensi alla potestà dei genitori sui figli).",
+      "id": "u04-q028"
+    },
+    {
+      "tipo": "completa",
+      "lezione": "u04-l2",
+      "livello": "base",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "situazioni-giuridiche-soggettive"
+      ],
+      "testo": "Le situazioni giuridiche attive sono il {{potere}} giuridico, il {{diritto soggettivo}} e l'{{interesse legittimo}}.",
+      "id": "u04-q029"
+    },
+    {
+      "tipo": "completa",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "buon-andamento-e-imparzialita"
+      ],
+      "testo": "L'art. {{97}} Cost. vuole che i pubblici uffici garantiscano il {{buon andamento}} e l'{{imparzialità}} dell'amministrazione.",
+      "id": "u04-q030"
+    },
+    {
+      "tipo": "aperta",
+      "lezione": "u04-l2",
+      "livello": "avanzato",
+      "pagine": [
+        34,
+        35
+      ],
+      "concetti": [
+        "potere-giuridico",
+        "diritto-soggettivo",
+        "rapporto-giuridico",
+        "interesse-legittimo",
+        "buon-andamento-e-imparzialita"
+      ],
+      "domanda": "Distingua potere giuridico, diritto soggettivo e interesse legittimo, anche con l'esempio del concorso pubblico.",
+      "traccia": "Le situazioni **attive** sono tre. Il **potere giuridico** è astratto e potenziale: è riconosciuto a tutti o a categorie di soggetti per un interesse proprio o altrui, senza legarsi a un interesse già presente (potestà di testare, potere di eleggere o di agire in giudizio). Il **diritto soggettivo** è concreto e attuale: l'ordinamento riconosce a un soggetto la titolarità di un interesse e la capacità di farlo valere verso altri, tenuti a un comportamento; presuppone un **rapporto giuridico**, pubblico o privato. Dalla potestà di eleggere si passa così all'elettorato attivo, dal potere di agire al diritto di azione. L'**interesse legittimo** è connesso a un interesse altrui, generalmente pubblico, ed è tutelato solo **di riflesso**: è l'interesse alla **legittimità dell'azione amministrativa** (artt. 97 e 98, **buon andamento e imparzialità**). Nel **concorso pubblico** ci sono il potere di accedere agli uffici (art. 51), il diritto di partecipare, il diritto all'ufficio se vincitori e l'interesse legittimo al regolare svolgimento, fatto valere davanti al giudice amministrativo chiedendo l'annullamento delle prove.",
+      "punti": [
+        {
+          "testo": "Potere: astratto e potenziale",
+          "chiavi": [
+            "potere",
+            "astratt",
+            "potenzial"
+          ]
+        },
+        {
+          "testo": "Diritto soggettivo: concreto, attuale, rapporto giuridico",
+          "chiavi": [
+            "diritto soggettivo",
+            "concret",
+            "rapporto"
+          ]
+        },
+        {
+          "testo": "Interesse legittimo: tutela di riflesso",
+          "chiavi": [
+            "riflesso",
+            "interesse legittimo"
+          ]
+        },
+        {
+          "testo": "Artt. 97 e 98: buon andamento e imparzialità",
+          "chiavi": [
+            "97",
+            "imparzial"
+          ]
+        },
+        {
+          "testo": "Esempio del concorso pubblico",
+          "chiavi": [
+            "concorso"
+          ]
+        }
+      ],
+      "id": "u04-q031"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l3",
+      "livello": "base",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "diritto-affievolito"
+      ],
+      "domanda": "Che cos'è un diritto affievolito?",
+      "risposta": "È un diritto pieno e azionabile in giudizio che, all'insorgere di un pubblico interesse, può essere sacrificato o convertito in un diritto di altra natura. Finché le esigenze pubbliche non diventano attuali è uguale agli altri diritti.",
+      "id": "u04-q032"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "diritto-affievolito",
+        "espropriazione"
+      ],
+      "domanda": "Quali esempi di diritto affievolito fa Martines e che cosa li distingue?",
+      "risposta": "La soppressione di un ufficio per pubblica utilità: il diritto del titolare al mantenimento viene meno senza che possa avanzare pretese. L'espropriazione di una proprietà privata: il diritto di proprietà viene meno, ma sorge un diritto all'indennizzo, cioè il diritto si converte in un diritto di altra natura.",
+      "id": "u04-q033"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "tutela-giurisdizionale",
+        "diritto-soggettivo",
+        "interesse-legittimo"
+      ],
+      "domanda": "Sotto quali profili la Costituzione si occupa delle situazioni giuridiche attive?",
+      "risposta": "Sotto il profilo sostanziale, riconoscendo e garantendo alcuni diritti soggettivi; sotto quello processuale, disponendo la tutela in giudizio sia dei diritti soggettivi sia degli interessi legittimi.",
+      "id": "u04-q034"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l3",
+      "livello": "base",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "liberta-negative",
+        "liberta-positive",
+        "stato-liberale"
+      ],
+      "domanda": "Che differenza c'è tra libertà dallo Stato e libertà nello Stato?",
+      "risposta": "La libertà dallo Stato, o negativa, è la sfera di autonomia verso i pubblici poteri riconosciuta dalle democrazie liberali, con un'eguaglianza formale. La libertà nello Stato, o positiva, è la possibilità per tutti i cittadini di avere dall'ordinamento le stesse opportunità di partecipazione attiva alla vita della comunità, secondo canoni di giustizia ed eguaglianza.",
+      "id": "u04-q035"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "effettivita-dei-diritti",
+        "uguaglianza-sostanziale"
+      ],
+      "domanda": "Perché non basta riconoscere un diritto, e che cosa fa la Repubblica?",
+      "risposta": "Perché possono esistere ostacoli che ne impediscono il concreto esercizio; inoltre il riconoscimento dei diritti dipende dalle forze politiche dominanti. La Repubblica si impegna a promuovere le condizioni per passare dal piano formale a quello dell'effettivo esercizio: ne sono esempi gli artt. 4, 24 e 32.",
+      "id": "u04-q036"
+    },
+    {
+      "tipo": "flashcard",
+      "lezione": "u04-l3",
+      "livello": "base",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "dovere-giuridico",
+        "obbligo"
+      ],
+      "domanda": "Qual è la differenza tra dovere e obbligo?",
+      "risposta": "Il dovere si imputa a una generalità di soggetti, determinabili solo in seguito. L'obbligo grava su un soggetto determinato, tenuto a un comportamento commissivo o omissivo verso un altro soggetto che ha il diritto soggettivo di pretenderlo. Finché lo svantaggio non si specifica c'è un dovere; quando si instaura un rapporto tra soggetti c'è un obbligo.",
+      "id": "u04-q037"
+    },
+    {
+      "tipo": "multipla",
+      "lezione": "u04-l3",
+      "livello": "base",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "dovere-giuridico"
+      ],
+      "domanda": "Quale di questi è indicato da Martines come esempio di dovere?",
+      "opzioni": [
+        "Il pagamento di un debito al proprio creditore",
+        "La difesa della Patria",
+        "La consegna della cosa venduta",
+        "Il pagamento del canone di locazione"
+      ],
+      "corretta": 1,
+      "spiegazione": "Gli esempi di dovere sono l'attività che concorre al progresso della società (art. 4), l'educazione dei figli e la difesa della Patria; gli altri sono obblighi verso un soggetto determinato.",
+      "id": "u04-q038"
+    },
+    {
+      "tipo": "multipla",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "diritto-affievolito",
+        "espropriazione"
+      ],
+      "domanda": "In caso di espropriazione per pubblica utilità, che cosa accade al diritto di proprietà?",
+      "opzioni": [
+        "Resta intatto finché il proprietario non acconsente",
+        "Viene meno senza alcuna pretesa del proprietario",
+        "Viene meno, ma sorge un diritto all'indennizzo",
+        "Si trasforma in un interesse legittimo all'uso del bene"
+      ],
+      "corretta": 2,
+      "spiegazione": "È l'esempio di diritto affievolito che si converte in un diritto di altra natura: l'indennizzo.",
+      "id": "u04-q039"
+    },
+    {
+      "tipo": "multipla",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "effettivita-dei-diritti",
+        "stato-sociale"
+      ],
+      "domanda": "A chi è affidato, secondo Martines, il riconoscimento o il disconoscimento delle situazioni giuridiche soggettive?",
+      "opzioni": [
+        "Alla Corte costituzionale",
+        "Alle forze politiche dominanti",
+        "Al diritto naturale",
+        "Ai giudici ordinari"
+      ],
+      "corretta": 1,
+      "spiegazione": "Lo mostrano le vicende storiche dei diritti di libertà e l'evoluzione dallo Stato moderno allo Stato sociale.",
+      "id": "u04-q040"
+    },
+    {
+      "tipo": "verofalso",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        35,
+        35
+      ],
+      "concetti": [
+        "diritto-affievolito"
+      ],
+      "affermazione": "I diritti affievoliti sono più deboli degli altri diritti fin dal momento in cui nascono.",
+      "vero": false,
+      "spiegazione": "Falso: sono uguali agli altri fino a quando le esigenze del pubblico interesse non diventano attuali.",
+      "id": "u04-q041"
+    },
+    {
+      "tipo": "verofalso",
+      "lezione": "u04-l3",
+      "livello": "base",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "obbligo",
+        "diritto-soggettivo"
+      ],
+      "affermazione": "All'obbligo corrisponde il diritto soggettivo di un altro soggetto di pretenderne l'osservanza.",
+      "vero": true,
+      "spiegazione": "Vero: l'obbligo presuppone un rapporto tra soggetti determinati.",
+      "id": "u04-q042"
+    },
+    {
+      "tipo": "verofalso",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "stato-liberale",
+        "liberta-negative"
+      ],
+      "affermazione": "Nelle democrazie liberali ai cittadini è stata riconosciuta un'eguaglianza sostanziale e la libertà nello Stato.",
+      "vero": false,
+      "spiegazione": "Falso: le democrazie liberali hanno riconosciuto un'eguaglianza formale e la libertà dallo Stato (negativa); la libertà nello Stato (positiva) è un traguardo successivo.",
+      "id": "u04-q043"
+    },
+    {
+      "tipo": "completa",
+      "lezione": "u04-l3",
+      "livello": "base",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "liberta-negative",
+        "liberta-positive"
+      ],
+      "testo": "La libertà {{dallo Stato}} è detta negativa; la libertà {{nello Stato}} è detta positiva.",
+      "id": "u04-q044"
+    },
+    {
+      "tipo": "completa",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        36,
+        36
+      ],
+      "concetti": [
+        "dovere-giuridico",
+        "obbligo"
+      ],
+      "testo": "Finché la situazione di svantaggio non si specifica si ha il {{dovere}}; quando si ha un rapporto tra due o più soggetti si ha l'{{obbligo}}.",
+      "id": "u04-q045"
+    },
+    {
+      "tipo": "aperta",
+      "lezione": "u04-l3",
+      "livello": "medio",
+      "pagine": [
+        35,
+        36
+      ],
+      "concetti": [
+        "diritto-affievolito",
+        "effettivita-dei-diritti",
+        "liberta-negative",
+        "liberta-positive",
+        "dovere-giuridico",
+        "obbligo"
+      ],
+      "domanda": "Che cosa si intende per effettività dei diritti soggettivi? Colleghi il tema ai diritti affievoliti e alle situazioni passive.",
+      "traccia": "Il **riconoscimento** delle situazioni soggettive dipende dalle **forze politiche dominanti**, come mostrano la storia dei diritti di libertà e il passaggio allo **Stato sociale**. Le democrazie liberali hanno garantito un'**eguaglianza formale** e la libertà **dallo Stato** (negativa); ma non basta riconoscere i diritti se ci sono ostacoli al loro esercizio. In una società politica perfetta tutti dovrebbero avere le stesse opportunità di partecipazione: è la libertà **nello Stato** (positiva). La Repubblica si impegna perciò a passare dal piano formale all'**effettivo esercizio** (artt. 4, 24, 32). La Costituzione garantisce i diritti sul piano sostanziale e tutela in giudizio diritti e interessi legittimi. I diritti possono però cedere all'interesse pubblico: il **diritto affievolito** è pieno finché l'interesse pubblico non diventa attuale (soppressione dell'ufficio; espropriazione con indennizzo). Alle situazioni attive corrispondono quelle **passive**: il **dovere**, riferito a una generalità di soggetti (art. 4, educazione dei figli, difesa della Patria), e l'**obbligo**, di un soggetto determinato verso chi ha il diritto di pretenderlo.",
+      "punti": [
+        {
+          "testo": "Riconoscimento affidato alle forze politiche dominanti",
+          "chiavi": [
+            "forze politiche",
+            "dominant"
+          ]
+        },
+        {
+          "testo": "Libertà dallo Stato e nello Stato",
+          "chiavi": [
+            "negativ",
+            "positiv",
+            "dallo stato"
+          ]
+        },
+        {
+          "testo": "Dal piano formale all'effettivo esercizio: artt. 4, 24, 32",
+          "chiavi": [
+            "effettiv",
+            "formale"
+          ]
+        },
+        {
+          "testo": "Diritto affievolito",
+          "chiavi": [
+            "affievol",
+            "indennizz"
+          ]
+        },
+        {
+          "testo": "Dovere e obbligo",
+          "chiavi": [
+            "dovere",
+            "obbligo"
+          ]
+        }
+      ],
+      "id": "u04-q046"
+    },
+    {
+      "tipo": "ordina",
+      "lezione": "u04-l2",
+      "livello": "medio",
+      "pagine": [
+        34,
+        34
+      ],
+      "concetti": [
+        "potere-giuridico",
+        "diritto-soggettivo",
+        "rapporto-giuridico"
+      ],
+      "consegna": "Ordina i passaggi con cui una situazione astratta diventa un diritto soggettivo concreto.",
+      "elementi": [
+        "L'ordinamento riconosce a tutti un potere giuridico astratto",
+        "Il titolare intende perseguire un suo interesse",
+        "L'ordinamento gli riconosce la titolarità dell'interesse e la capacità di farlo valere",
+        "Sorge un rapporto con altri soggetti tenuti a un comportamento"
+      ],
+      "spiegazione": "È il passaggio dal potere (potenziale) al diritto soggettivo (attuale): per esempio dalla potestà di eleggere all'elettorato attivo.",
+      "id": "u04-q047"
+    },
+    {
       "tipo": "abbina",
       "lezione": "u04-l2",
       "livello": "base",
       "pagine": [
-        36,
-        38
+        34,
+        36
       ],
       "concetti": [
-        "costituzione-italiana",
-        "principio-personalistico",
-        "principio-solidaristico",
-        "principio-di-uguaglianza"
+        "potere-giuridico",
+        "diritto-soggettivo",
+        "interesse-legittimo",
+        "dovere-giuridico",
+        "obbligo"
       ],
-      "consegna": "Abbina la disposizione al suo contenuto.",
+      "consegna": "Abbina ogni situazione giuridica alla sua caratteristica.",
       "coppie": [
         [
-          "Art. 2",
-          "Diritti inviolabili e doveri di solidarietà"
+          "Potere giuridico",
+          "Astratto e potenziale"
         ],
         [
-          "Art. 3",
-          "Uguaglianza formale e sostanziale"
+          "Diritto soggettivo",
+          "Concreto e attuale, fatto valere verso altri"
         ],
         [
-          "Art. 5",
-          "Unità e autonomie"
+          "Interesse legittimo",
+          "Tutelato di riflesso, connesso a un interesse pubblico"
         ],
         [
-          "Art. 138",
-          "Revisione costituzionale"
+          "Dovere",
+          "Imputato a una generalità di soggetti"
+        ],
+        [
+          "Obbligo",
+          "Di un soggetto determinato verso il titolare di un diritto"
         ]
-      ]
+      ],
+      "id": "u04-q048"
     },
     {
-      "id": "u04-q023",
+      "tipo": "abbina",
       "lezione": "u04-l1",
       "livello": "medio",
       "pagine": [
         33,
-        35
+        36
       ],
       "concetti": [
-        "costituzione-rigida",
-        "costituzione-flessibile"
+        "capacita-giuridica",
+        "capacita-di-agire",
+        "buon-andamento-e-imparzialita",
+        "dovere-giuridico"
       ],
-      "tipo": "multipla",
-      "domanda": "Il Parlamento approva con legge ordinaria una norma contraria alla Costituzione. Che cosa accade in un sistema a Costituzione rigida?",
-      "opzioni": [
-        "La legge modifica la Costituzione, perché è più recente",
-        "La legge è invalida e può essere annullata dal giudice costituzionale",
-        "La legge è inesistente e nessuno deve osservarla",
-        "La legge vale solo se il Capo dello Stato la controfirma"
+      "consegna": "Abbina ogni articolo al suo contenuto.",
+      "coppie": [
+        [
+          "Art. 1 c.c.",
+          "Capacità giuridica dalla nascita"
+        ],
+        [
+          "Art. 2 c.c.",
+          "Capacità di agire a diciotto anni"
+        ],
+        [
+          "Art. 97 Cost.",
+          "Buon andamento e imparzialità dell'amministrazione"
+        ],
+        [
+          "Art. 98 Cost.",
+          "Pubblici impiegati al servizio esclusivo della Nazione"
+        ],
+        [
+          "Art. 4 Cost.",
+          "Diritto al lavoro e dovere di concorrere al progresso della società"
+        ]
       ],
-      "corretta": 1,
-      "spiegazione": "La rigidità pone la Costituzione sopra la legge ordinaria: per modificarla serve un procedimento aggravato. La legge contraria resta efficace finché la Corte non la dichiara illegittima."
+      "id": "u04-q049"
     },
     {
-      "id": "u04-q024",
-      "lezione": "u04-l1",
+      "id": "u04-q501",
+      "tipo": "flashcard",
+      "lezione": "u04-l2",
       "livello": "base",
       "pagine": [
-        33,
-        35
+        34,
+        34
       ],
       "concetti": [
-        "statuto-albertino",
-        "costituzione-flessibile"
+        "potesta-pubblica"
       ],
+      "domanda": "Che cosa caratterizza la potestà pubblica?",
+      "risposta": "È un potere attribuito dal diritto di produrre effetti giuridici anche senza il consenso del destinatario. Deve essere esercitato secondo le condizioni, i limiti e i fini stabiliti dall’ordinamento."
+    },
+    {
+      "id": "u04-q502",
       "tipo": "verofalso",
-      "affermazione": "Lo Statuto albertino era una Costituzione rigida, modificabile solo con un procedimento speciale.",
+      "lezione": "u04-l1",
+      "livello": "medio",
+      "pagine": [
+        33,
+        33
+      ],
+      "concetti": [
+        "ente-pubblico",
+        "autonomia-privata"
+      ],
+      "affermazione": "Basta che un’associazione privata persegua un fine utile alla collettività perché diventi un ente pubblico.",
       "vero": false,
-      "spiegazione": "Era una Costituzione flessibile, concessa dal re nel 1848: poteva essere modificata con legge ordinaria, e così il fascismo ne svuotò le garanzie senza abrogarla."
-    },
-    {
-      "id": "u04-q025",
-      "lezione": "u04-l1",
-      "livello": "avanzato",
-      "pagine": [
-        33,
-        35
-      ],
-      "concetti": [
-        "revisione-costituzionale",
-        "principi-supremi"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Quali limiti incontra la revisione della Costituzione?",
-      "risposta": "Un limite espresso: la forma repubblicana (art. 139). E limiti impliciti: i principi supremi dell'ordinamento e i diritti inviolabili, che secondo la Corte costituzionale (sent. 1146/1988) non possono essere toccati nemmeno da una legge costituzionale."
-    },
-    {
-      "id": "u04-q026",
-      "lezione": "u04-l2",
-      "livello": "medio",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-autonomista"
-      ],
-      "tipo": "multipla",
-      "domanda": "Quali due esigenze tiene insieme l'art. 5 della Costituzione?",
-      "opzioni": [
-        "Unità e indivisibilità della Repubblica; autonomie locali e decentramento",
-        "Sovranità popolare; limiti di sovranità per l'Europa",
-        "Libertà individuale; doveri di solidarietà",
-        "Separazione dei poteri; collaborazione tra gli organi"
-      ],
-      "corretta": 0,
-      "spiegazione": "La Repubblica è «una e indivisibile» ma riconosce e promuove le autonomie locali e attua il più ampio decentramento amministrativo."
-    },
-    {
-      "id": "u04-q027",
-      "lezione": "u04-l2",
-      "livello": "medio",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-internazionalista"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "L'art. 11 vieta all'Italia qualunque impiego delle forze armate.",
-      "vero": false,
-      "spiegazione": "L'Italia ripudia la guerra come strumento di offesa e come mezzo per risolvere le controversie internazionali; resta la difesa della Patria (art. 52) e la partecipazione a organizzazioni che assicurano pace e giustizia."
-    },
-    {
-      "id": "u04-q028",
-      "lezione": "u04-l2",
-      "livello": "medio",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-personalistico",
-        "diritti-inviolabili"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Perché l'art. 2 dice che la Repubblica «riconosce» i diritti inviolabili e non che li «attribuisce»?",
-      "risposta": "Perché esprime il principio personalista: la persona viene prima dello Stato e i suoi diritti preesistono all'ordinamento, che li riconosce e li garantisce. Lo Stato è al servizio della persona, non il contrario."
-    },
-    {
-      "id": "u04-q029",
-      "lezione": "u04-l1",
-      "livello": "avanzato",
-      "pagine": [
-        33,
-        35
-      ],
-      "concetti": [
-        "costituzione-rigida",
-        "costituzione-flessibile",
-        "statuto-albertino",
-        "revisione-costituzionale"
-      ],
-      "tipo": "aperta",
-      "domanda": "Costituzione rigida e Costituzione flessibile: spieghi la differenza con l'esempio dello Statuto albertino e della Costituzione del 1948.",
-      "traccia": "Una Costituzione è **flessibile** quando può essere modificata con **legge ordinaria**: sta sullo stesso piano della legge e non può esserne il limite. È **rigida** quando per modificarla serve un **procedimento aggravato**: sta sopra la legge, e la legge contraria è invalida.\n\nLo **Statuto albertino** (1848) era una carta **concessa** dal re e flessibile. Questo permise prima l'evoluzione dalla monarchia costituzionale al governo parlamentare, per prassi; poi permise al **fascismo** di svuotarne le garanzie con leggi ordinarie, senza abrogarlo.\n\nLa **Costituzione del 1948**, votata dall'Assemblea costituente, è **rigida**: l'**art. 138** chiede due deliberazioni di ciascuna Camera a distanza di almeno tre mesi, la maggioranza assoluta nella seconda e un referendum eventuale se non si raggiungono i due terzi. La rigidità è **garantita** dalla **Corte costituzionale**, che annulla le leggi contrarie. Esistono infine limiti alla revisione stessa: la **forma repubblicana** (art. 139) e i **principi supremi**.",
-      "punti": [
-        {
-          "testo": "Flessibile: modificabile con legge ordinaria",
-          "chiavi": [
-            "flessibil",
-            "legge ordinaria"
-          ]
-        },
-        {
-          "testo": "Rigida: procedimento aggravato e superiorità sulla legge",
-          "chiavi": [
-            "rigida",
-            "aggravat"
-          ]
-        },
-        {
-          "testo": "Lo Statuto albertino era concesso e flessibile",
-          "chiavi": [
-            "statuto",
-            "albertino",
-            "concess"
-          ]
-        },
-        {
-          "testo": "Art. 138: doppia deliberazione, maggioranze, referendum eventuale",
-          "chiavi": [
-            "138",
-            "due deliberazion",
-            "referendum"
-          ]
-        },
-        {
-          "testo": "La Corte costituzionale garantisce la rigidità",
-          "chiavi": [
-            "corte"
-          ]
-        },
-        {
-          "testo": "Limiti alla revisione: forma repubblicana e principi supremi",
-          "chiavi": [
-            "139",
-            "repubblicana",
-            "principi supremi"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u04-q030",
-      "lezione": "u04-l1",
-      "pagine": [
-        33,
-        35
-      ],
-      "serie": "procedimenti",
-      "tipo": "ordina",
-      "livello": "medio",
-      "consegna": "La revisione della Costituzione (artt. 138–139): metti i passi nell'ordine giusto.",
-      "elementi": [
-        "Prima deliberazione",
-        "Intervallo",
-        "Seconda deliberazione",
-        "Referendum eventuale"
-      ],
-      "spiegazione": "1. **Prima deliberazione** (Camera e Senato): Ciascuna Camera approva il testo a maggioranza relativa, con la procedura normale.\n2. **Intervallo**: Devono passare almeno tre mesi tra la prima e la seconda deliberazione della stessa Camera.\n3. **Seconda deliberazione** (Camera e Senato): Serve almeno la maggioranza assoluta dei componenti di ciascuna Camera. Il testo non è più emendabile.\n   - Due terzi in entrambe le Camere → la legge è promulgata: il referendum non si può chiedere\n   - Maggioranza assoluta ma meno dei due terzi → la legge è pubblicata a scopo notiziale e per tre mesi si può chiedere il referendum\n4. **Referendum eventuale** (Un quinto dei membri di una Camera, 500.000 elettori o cinque Consigli regionali): Non c'è quorum di partecipazione: la legge è promulgata se ottiene la maggioranza dei voti validi.\n5. **Limiti** (Corte costituzionale): Non si possono modificare la forma repubblicana e i principi supremi.",
-      "concetti": [
-        "revisione-costituzionale",
-        "legge-costituzionale",
-        "referendum-costituzionale",
-        "principi-supremi"
-      ]
-    },
-    {
-      "id": "u04-q031",
-      "lezione": "u04-l1",
-      "pagine": [
-        33,
-        35
-      ],
-      "serie": "procedimenti",
-      "tipo": "aperta",
-      "livello": "avanzato",
-      "domanda": "Descriva il procedimento di revisione costituzionale e i suoi limiti.",
-      "traccia": "Due letture per Camera, maggioranze più alte e un referendum possibile: è ciò che rende rigida la Costituzione.\n\n**Prima deliberazione** (Camera e Senato). Ciascuna Camera approva il testo a maggioranza relativa, con la procedura normale.\n\n**Intervallo**. Devono passare almeno tre mesi tra la prima e la seconda deliberazione della stessa Camera.\n\n**Seconda deliberazione** (Camera e Senato). Serve almeno la maggioranza assoluta dei componenti di ciascuna Camera. Il testo non è più emendabile. Due terzi in entrambe le Camere: la legge è promulgata: il referendum non si può chiedere. Maggioranza assoluta ma meno dei due terzi: la legge è pubblicata a scopo notiziale e per tre mesi si può chiedere il referendum.\n\n**Referendum eventuale** (Un quinto dei membri di una Camera, 500.000 elettori o cinque Consigli regionali). Non c'è quorum di partecipazione: la legge è promulgata se ottiene la maggioranza dei voti validi.\n\n**Limiti** (Corte costituzionale). Non si possono modificare la forma repubblicana e i principi supremi.",
-      "punti": [
-        {
-          "testo": "Prima deliberazione: Ciascuna Camera approva il testo a maggioranza relativa, con la procedura normale",
-          "chiavi": [
-            "deliber",
-            "camera",
-            "approva"
-          ]
-        },
-        {
-          "testo": "Intervallo: Devono passare almeno tre mesi tra la prima e la seconda deliberazione della stessa Camera",
-          "chiavi": [
-            "interva",
-            "devono",
-            "passare"
-          ]
-        },
-        {
-          "testo": "Seconda deliberazione: Serve almeno la maggioranza assoluta dei componenti di ciascuna Camera",
-          "chiavi": [
-            "seconda",
-            "deliber",
-            "maggior"
-          ]
-        },
-        {
-          "testo": "Referendum eventuale: Non c'è quorum di partecipazione: la legge è promulgata se ottiene la maggioranza dei voti validi",
-          "chiavi": [
-            "referen",
-            "eventua",
-            "quorum"
-          ]
-        },
-        {
-          "testo": "Limiti: Non si possono modificare la forma repubblicana e i principi supremi",
-          "chiavi": [
-            "limiti",
-            "modific",
-            "repubbl"
-          ]
-        }
-      ],
-      "concetti": [
-        "revisione-costituzionale",
-        "legge-costituzionale",
-        "referendum-costituzionale",
-        "principi-supremi"
-      ]
-    },
-    {
-      "id": "u04-q032",
-      "lezione": "u04-l1",
-      "pagine": [
-        33,
-        35
-      ],
-      "serie": "procedimenti",
-      "tipo": "flashcard",
-      "livello": "medio",
-      "domanda": "La revisione della Costituzione, passo «Seconda deliberazione»: quali esiti sono possibili?",
-      "risposta": "Due terzi in entrambe le Camere: la legge è promulgata: il referendum non si può chiedere. Maggioranza assoluta ma meno dei due terzi: la legge è pubblicata a scopo notiziale e per tre mesi si può chiedere il referendum.",
-      "concetti": [
-        "legge-costituzionale"
-      ]
-    },
-    {
-      "id": "u04-q033",
-      "lezione": "u04-l2",
-      "livello": "avanzato",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "costituzione-italiana",
-        "sovranita-popolare"
-      ],
-      "tipo": "aperta",
-      "domanda": "Commenti l'art. 1 della Costituzione.",
-      "traccia": "L'art. 1 contiene tre scelte. La prima è la **forma repubblicana**, decisa dal referendum del 2 giugno 1946 e sottratta alla revisione dall'art. 139. La seconda è il carattere **democratico**: il potere viene dal basso e si esercita con il metodo della maggioranza, nel rispetto delle minoranze.\n\nLa terza è il **fondamento sul lavoro**. Non è una formula di classe: indica che il titolo per partecipare alla vita del Paese è il contributo che ciascuno dà con la propria attività, non la nascita o la ricchezza. Si collega all'art. 4 e ai rapporti economici degli artt. 35 e seguenti.\n\nIl secondo comma attribuisce la **sovranità al popolo**: non allo Stato né alla Nazione. Il popolo però la esercita «nelle **forme** e nei **limiti** della Costituzione»: con il voto, i referendum, i partiti. È il principio dello **Stato costituzionale**: nemmeno il sovrano è sciolto dalle regole, e la maggioranza non può tutto.",
-      "punti": [
-        {
-          "testo": "Forma repubblicana, non rivedibile",
-          "chiavi": [
-            "repubblic",
-            "139"
-          ]
-        },
-        {
-          "testo": "Carattere democratico",
-          "chiavi": [
-            "democratic"
-          ]
-        },
-        {
-          "testo": "Fondata sul lavoro: partecipazione attraverso il contributo di ciascuno",
-          "chiavi": [
-            "lavoro"
-          ]
-        },
-        {
-          "testo": "La sovranità appartiene al popolo",
-          "chiavi": [
-            "sovranit",
-            "popolo"
-          ]
-        },
-        {
-          "testo": "Forme e limiti: anche il popolo è vincolato dalla Costituzione",
-          "chiavi": [
-            "forme",
-            "limiti"
-          ]
-        }
-      ],
-      "serie": "principi"
-    },
-    {
-      "id": "u04-q034",
-      "lezione": "u04-l2",
-      "livello": "avanzato",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-personalistico",
-        "principio-solidaristico",
-        "diritti-inviolabili",
-        "formazioni-sociali"
-      ],
-      "tipo": "aperta",
-      "domanda": "Commenti l'art. 2 della Costituzione.",
-      "traccia": "L'art. 2 esprime tre principi. Il principio **personalista**: la Repubblica «**riconosce** e garantisce» i diritti inviolabili dell'uomo. Il verbo dice che i diritti preesistono allo Stato, che è al servizio della persona. Sono diritti dell'**uomo**, non del solo cittadino, e **inviolabili**: appartengono ai principi supremi che neppure una revisione costituzionale può eliminare.\n\nIl principio **pluralista**: i diritti sono garantiti all'uomo «sia come singolo sia nelle **formazioni sociali** ove si svolge la sua personalità»: famiglia, scuola, partiti, sindacati, confessioni religiose. La persona è vista nelle sue relazioni, e i gruppi intermedi sono protetti, ma anche il singolo è protetto dentro il gruppo.\n\nIl principio **solidarista**: la Repubblica richiede l'adempimento dei **doveri inderogabili** di solidarietà politica, economica e sociale. Diritti e doveri stanno insieme.\n\nSi discute se l'art. 2 sia una clausola **aperta**, capace di fondare **nuovi diritti** non scritti (riservatezza, identità personale): la Corte costituzionale ha dato in più occasioni una lettura aperta.",
-      "punti": [
-        {
-          "testo": "Personalista: i diritti sono riconosciuti, preesistono allo Stato",
-          "chiavi": [
-            "riconosc",
-            "personalis"
-          ]
-        },
-        {
-          "testo": "Diritti dell'uomo, inviolabili",
-          "chiavi": [
-            "inviolabil",
-            "uomo"
-          ]
-        },
-        {
-          "testo": "Pluralista: formazioni sociali",
-          "chiavi": [
-            "formazioni",
-            "pluralis"
-          ]
-        },
-        {
-          "testo": "Solidarista: doveri inderogabili",
-          "chiavi": [
-            "doveri",
-            "solidariet"
-          ]
-        },
-        {
-          "testo": "Clausola aperta e nuovi diritti",
-          "chiavi": [
-            "aperta",
-            "nuovi diritti"
-          ]
-        }
-      ],
-      "serie": "principi"
-    },
-    {
-      "id": "u04-q035",
-      "lezione": "u04-l2",
-      "livello": "avanzato",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "diritti-sociali",
-        "doveri-costituzionali"
-      ],
-      "tipo": "aperta",
-      "domanda": "Commenti l'art. 4 della Costituzione.",
-      "traccia": "L'art. 4 svolge il fondamento lavorista dell'art. 1. Il **primo comma** riconosce a tutti i cittadini il **diritto al lavoro** e impegna la Repubblica a promuovere le condizioni che lo rendono effettivo. Non è il diritto a ottenere un posto: è una norma che indirizza i pubblici poteri verso politiche di **piena occupazione** e che, secondo la Corte costituzionale, protegge anche la **libertà** di scegliere il proprio lavoro e pone limiti ai licenziamenti arbitrari.\n\nIl **secondo comma** stabilisce il **dovere** di svolgere, secondo le proprie possibilità e la propria scelta, un'attività o una funzione che concorra al **progresso materiale o spirituale** della società. È un dovere civico, senza sanzione, e il «lavoro» è inteso in senso largo: anche l'attività di cura, di studio, artistica.\n\nL'articolo va letto con l'art. 3, secondo comma (il lavoro come via di partecipazione) e con gli artt. 35–40, che tutelano il lavoro in tutte le sue forme: retribuzione sufficiente, riposo, parità, previdenza, libertà sindacale e sciopero.",
-      "punti": [
-        {
-          "testo": "Diritto al lavoro: impegno della Repubblica, non pretesa a un posto",
-          "chiavi": [
-            "diritto al lavoro",
-            "promuov"
-          ]
-        },
-        {
-          "testo": "Libertà di scelta del lavoro",
-          "chiavi": [
-            "libert",
-            "scelta"
-          ]
-        },
-        {
-          "testo": "Dovere di concorrere al progresso materiale o spirituale",
-          "chiavi": [
-            "dovere",
-            "progresso"
-          ]
-        },
-        {
-          "testo": "Collegamento con gli artt. 1, 3 e 35–40",
-          "chiavi": [
-            "art. 1",
-            "35",
-            "art. 3"
-          ]
-        }
-      ],
-      "serie": "principi"
-    },
-    {
-      "id": "u04-q036",
-      "lezione": "u04-l2",
-      "livello": "avanzato",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-di-uguaglianza"
-      ],
-      "tipo": "aperta",
-      "domanda": "Commenti l'art. 6 della Costituzione.",
-      "traccia": "«La Repubblica tutela con apposite norme le minoranze linguistiche». È una scelta di rottura rispetto al fascismo, che aveva imposto l'italianizzazione forzata nelle zone di confine.\n\nLa norma va oltre il divieto di discriminare per la **lingua**, già scritto nell'art. 3: chiede una tutela **positiva**, cioè norme speciali che permettano alla minoranza di conservare lingua e cultura. È un'applicazione dell'**uguaglianza sostanziale** e del **pluralismo**.\n\nLa tutela più forte è negli **statuti speciali**: i tedeschi e i ladini in Trentino-Alto Adige, i francofoni in Valle d'Aosta, gli sloveni in Friuli-Venezia Giulia, con bilinguismo negli uffici, scuole nella lingua madre e garanzie di rappresentanza. Per le altre minoranze storiche (albanesi, catalani, greci, croati, occitani, friulani, sardi e altre) è intervenuta la **legge 482 del 1999**.\n\nLa Corte costituzionale considera la tutela delle minoranze linguistiche un **principio fondamentale** dell'ordinamento.",
-      "punti": [
-        {
-          "testo": "Tutela positiva, con norme apposite",
-          "chiavi": [
-            "apposite",
-            "positiv"
-          ]
-        },
-        {
-          "testo": "Oltre il divieto di discriminazione dell'art. 3",
-          "chiavi": [
-            "art. 3",
-            "discriminaz"
-          ]
-        },
-        {
-          "testo": "Statuti speciali: Alto Adige, Valle d'Aosta, Friuli-Venezia Giulia",
-          "chiavi": [
-            "statut",
-            "alto adige",
-            "valle"
-          ]
-        },
-        {
-          "testo": "Legge 482/1999 sulle minoranze storiche",
-          "chiavi": [
-            "482",
-            "1999"
-          ]
-        }
-      ],
-      "serie": "principi"
-    },
-    {
-      "id": "u04-q037",
-      "lezione": "u04-l2",
-      "livello": "avanzato",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "costituzione-italiana",
-        "revisione-costituzionale"
-      ],
-      "tipo": "aperta",
-      "domanda": "Commenti l'art. 9 della Costituzione, anche alla luce della riforma del 2022.",
-      "traccia": "Nel testo originario l'art. 9 ha due commi. La Repubblica **promuove** lo sviluppo della **cultura** e la **ricerca** scientifica e tecnica; e **tutela il paesaggio** e il **patrimonio storico e artistico** della Nazione. È la base dello «Stato di cultura» e, fin dagli anni Ottanta, la Corte costituzionale ne aveva ricavato, insieme all'art. 32, la tutela dell'**ambiente** come valore costituzionale.\n\nLa **legge costituzionale 1 del 2022** ha aggiunto un terzo comma: la Repubblica tutela «l'**ambiente**, la **biodiversità** e gli **ecosistemi**, anche nell'interesse delle **future generazioni**», e la legge dello Stato disciplina i modi e le forme di tutela degli **animali**. La stessa legge ha modificato l'art. 41: l'iniziativa economica non può recare danno alla salute e all'ambiente.\n\nÈ la **prima modifica** a uno dei dodici Principi fondamentali. Si è ritenuta ammissibile perché **amplia** le tutele e non le riduce. Le novità più discusse sono il riferimento alle generazioni future, che introduce una responsabilità nel tempo, e il rapporto con la competenza statale sulla tutela dell'ambiente (art. 117).",
-      "punti": [
-        {
-          "testo": "Cultura e ricerca",
-          "chiavi": [
-            "cultura",
-            "ricerca"
-          ]
-        },
-        {
-          "testo": "Paesaggio e patrimonio storico e artistico",
-          "chiavi": [
-            "paesaggio",
-            "patrimonio"
-          ]
-        },
-        {
-          "testo": "Riforma del 2022: ambiente, biodiversità, ecosistemi",
-          "chiavi": [
-            "ambiente",
-            "biodiversit",
-            "2022"
-          ]
-        },
-        {
-          "testo": "Interesse delle future generazioni",
-          "chiavi": [
-            "future generazioni",
-            "generazion"
-          ]
-        },
-        {
-          "testo": "Prima modifica ai Principi fondamentali, in senso ampliativo",
-          "chiavi": [
-            "prima modifica",
-            "ampli"
-          ]
-        }
-      ],
-      "serie": "principi"
-    },
-    {
-      "id": "u04-q038",
-      "lezione": "u04-l2",
-      "livello": "avanzato",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-internazionalista",
-        "rinvio-mobile"
-      ],
-      "tipo": "aperta",
-      "domanda": "Commenti l'art. 10 della Costituzione.",
-      "traccia": "Il **primo comma** stabilisce che l'ordinamento italiano «si conforma alle norme del diritto internazionale **generalmente riconosciute**». Sono le **consuetudini** internazionali: entrano nell'ordinamento in modo **automatico** e continuo, senza un atto di recepimento (per questo si parla di «trasformatore permanente» e di rinvio mobile). Hanno rango costituzionale, con il limite dei principi supremi (sent. 238/2014). I **trattati**, invece, richiedono un ordine di esecuzione.\n\nIl **secondo comma** riguarda lo **straniero**: la sua condizione giuridica è regolata dalla **legge**, in conformità delle norme e dei trattati internazionali. È una riserva di legge **rinforzata**.\n\nIl **terzo comma** riconosce il **diritto d'asilo** allo straniero al quale sia impedito nel suo paese l'effettivo esercizio delle **libertà democratiche** garantite dalla Costituzione italiana. È una formula molto ampia: non richiede una persecuzione individuale.\n\nIl **quarto comma** vieta l'**estradizione** dello straniero per **reati politici**; lo stesso vale per il cittadino (art. 26). La legge costituzionale 1/1967 esclude dal divieto i delitti di genocidio.",
-      "punti": [
-        {
-          "testo": "Adattamento automatico alle consuetudini internazionali",
-          "chiavi": [
-            "consuetudin",
-            "automatic",
-            "generalmente"
-          ]
-        },
-        {
-          "testo": "I trattati richiedono un ordine di esecuzione",
-          "chiavi": [
-            "trattati",
-            "esecuzione"
-          ]
-        },
-        {
-          "testo": "Condizione dello straniero: riserva di legge rinforzata",
-          "chiavi": [
-            "stranier",
-            "riserva"
-          ]
-        },
-        {
-          "testo": "Diritto d'asilo",
-          "chiavi": [
-            "asilo"
-          ]
-        },
-        {
-          "testo": "Divieto di estradizione per reati politici",
-          "chiavi": [
-            "estradizion",
-            "politici"
-          ]
-        }
-      ],
-      "serie": "principi"
-    },
-    {
-      "id": "u04-q039",
-      "lezione": "u04-l2",
-      "livello": "avanzato",
-      "pagine": [
-        36,
-        38
-      ],
-      "concetti": [
-        "principio-internazionalista",
-        "unione-europea",
-        "sovranita"
-      ],
-      "tipo": "aperta",
-      "domanda": "Commenti l'art. 11 della Costituzione.",
-      "traccia": "L'art. 11 ha tre proposizioni. La prima: l'Italia «**ripudia la guerra**» come strumento di offesa alla libertà degli altri popoli e come mezzo di risoluzione delle controversie internazionali. «Ripudia» è più forte di «rinuncia»: esprime una condanna, nata dall'esperienza del fascismo e della guerra. Resta lecita la **difesa** (art. 52: la difesa della Patria è sacro dovere; artt. 78 e 87 sullo stato di guerra).\n\nLa seconda: l'Italia consente, «**in condizioni di parità** con gli altri Stati», alle **limitazioni di sovranità** necessarie a un ordinamento che assicuri la pace e la giustizia fra le Nazioni. Pensata per l'**ONU**, la norma è diventata il fondamento costituzionale della partecipazione alle Comunità e poi all'**Unione europea**: ha permesso di dare efficacia al diritto europeo con legge ordinaria, senza revisione costituzionale.\n\nLa terza: l'Italia promuove e favorisce le **organizzazioni internazionali** rivolte a tale scopo.\n\nLe limitazioni non sono illimitate: si arrestano davanti ai **controlimiti**, cioè ai principi supremi e ai diritti inviolabili.",
-      "punti": [
-        {
-          "testo": "Ripudio della guerra di aggressione; resta la difesa",
-          "chiavi": [
-            "ripudi",
-            "guerra",
-            "difesa"
-          ]
-        },
-        {
-          "testo": "Limitazioni di sovranità in condizioni di parità",
-          "chiavi": [
-            "limitazion",
-            "parit"
-          ]
-        },
-        {
-          "testo": "Fondamento della partecipazione all'ONU e all'Unione europea",
-          "chiavi": [
-            "onu",
-            "unione europea",
-            "europe"
-          ]
-        },
-        {
-          "testo": "Controlimiti",
-          "chiavi": [
-            "controlimit",
-            "principi supremi"
-          ]
-        }
-      ],
-      "serie": "principi"
-    },
-    {
-      "id": "u04-q040",
-      "lezione": "u04-l1",
-      "livello": "medio",
-      "pagine": [
-        33,
-        35
-      ],
-      "concetti": [
-        "assemblea-costituente",
-        "costituzione-italiana",
-        "potere-costituente"
-      ],
-      "tipo": "aperta",
-      "domanda": "Come fu formata l'Assemblea costituente e quali erano i maggiori partiti?",
-      "traccia": "**Le premesse.** Caduto il fascismo nel 1943, i partiti antifascisti del Comitato di liberazione nazionale e la monarchia raggiungono una «tregua istituzionale»: il decreto luogotenenziale **n. 151 del 25 giugno 1944** stabilisce che, finita la guerra, il popolo eleggerà un'Assemblea costituente a suffragio universale. Nel 1945 il voto è esteso alle **donne**; nel 1946 si decide che la scelta tra monarchia e repubblica sia affidata a un **referendum**.\n\n**Il 2 giugno 1946** si vota insieme per il referendum istituzionale (vince la Repubblica con circa 12,7 milioni di voti contro 10,7) e per l'Assemblea, eletta con sistema **proporzionale**: **556** seggi.\n\n**I partiti.** Dominano tre partiti di massa: la **Democrazia cristiana** (circa il 35%, 207 seggi), il **Partito socialista** (PSIUP, circa il 21%, 115 seggi) e il **Partito comunista** (circa il 19%, 104 seggi). Seguono i liberali dell'Unione democratica nazionale, l'Uomo qualunque, i repubblicani, i monarchici e il Partito d'azione. Nessuno ha la maggioranza: la Costituzione nasce da un **compromesso** tra cultura cattolica, socialista e comunista, e liberale.\n\n**I lavori.** Il progetto è preparato dalla **Commissione dei 75**, divisa in tre sottocommissioni, e poi discusso in aula. La Costituzione è approvata il **22 dicembre 1947**, promulgata il 27 dicembre dal capo provvisorio dello Stato De Nicola ed entra in vigore il **1° gennaio 1948**. L'Assemblea esercita il **potere costituente**; la legislazione ordinaria resta di regola al Governo.",
-      "punti": [
-        {
-          "testo": "Decreto del 25 giugno 1944: Costituente eletta a suffragio universale dopo la guerra",
-          "chiavi": [
-            "1944",
-            "151",
-            "suffragio universale"
-          ]
-        },
-        {
-          "testo": "2 giugno 1946: referendum istituzionale ed elezione con sistema proporzionale",
-          "chiavi": [
-            "2 giugno",
-            "1946",
-            "proporzional"
-          ]
-        },
-        {
-          "testo": "Tre partiti di massa: DC, socialisti, comunisti",
-          "chiavi": [
-            "democrazia cristiana",
-            "dc",
-            "socialist",
-            "comunist"
-          ]
-        },
-        {
-          "testo": "Compromesso costituzionale tra culture politiche diverse",
-          "chiavi": [
-            "compromess"
-          ]
-        },
-        {
-          "testo": "Commissione dei 75",
-          "chiavi": [
-            "75",
-            "settantacinque"
-          ]
-        },
-        {
-          "testo": "Approvata il 22 dicembre 1947, in vigore dal 1° gennaio 1948",
-          "chiavi": [
-            "22 dicembre",
-            "1947",
-            "1948"
-          ]
-        }
-      ],
-      "esame": [
-        "torre"
-      ]
+      "spiegazione": "Falso: un fine ritenuto utile non basta; per qualificare un ente come pubblico occorre considerarne il regime giuridico."
     }
   ]
 }

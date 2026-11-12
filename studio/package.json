@@ -15,7 +15,7 @@
     "check:originali": "node scripts/check-originali.mjs",
     "check:letture": "node scripts/check-estrazione-letture.mjs && node scripts/check-confini-letture.mjs && node scripts/check-letture.mjs && node scripts/check-ordine-segni.mjs && node scripts/check-mappa-geometrica.mjs && node scripts/check-mappa-corpus.mjs && node scripts/check-letture-selection.mjs",
     "check:responsive": "node scripts/check-responsive.mjs",
-    "check:backup": "node scripts/check-backup.mjs && node scripts/check-corsi.mjs",
+    "check:backup": "node scripts/check-backup.mjs && node scripts/check-migrazione.mjs && node scripts/check-corsi.mjs",
     "preview": "vite preview",
     "studio": "npm run build && vite preview"
   },

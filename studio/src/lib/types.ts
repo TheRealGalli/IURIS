@@ -14,7 +14,16 @@ export interface MateriaInfo {
     unita: number; lezioni: number; pagine: number; paginePdf: number | null;
     concetti: number; eventi: number; domande: number; tracceEsame?: number;
   };
+  /** versione dei contenuti e materie da cui migrare i progressi (senza tabelle) */
+  migrazione?: Migrazione;
 }
+/** Tabella di migrazione degli id: `"uguali"` = stessi id; `"tabella"` = c'è, ma si legge in corso.json (nel manifest);
+ *  altrimenti vecchio id → nuovo id (`null` = scartato). */
+export type TabellaMigrazione = 'uguali' | 'tabella' | Record<string, string | null>;
+export interface FonteMigrazione { materia: string; finoAVersione?: number; lezioni: TabellaMigrazione; domande: TabellaMigrazione }
+/** Migrazione dei progressi verso questa materia (migrazione.json; vedi CONTENUTI.md e lib/migrazione.ts). */
+export interface Migrazione { versione: number; da: FonteMigrazione[] }
+
 export interface Manifest {
   generatedAt: string;
   materie: MateriaInfo[];
@@ -158,6 +167,8 @@ export interface Corso {
   eventi: Evento[];
   domande: Domanda[];
   mancanti: string[];
+  /** migrazione dei progressi salvati con id vecchi o sotto un'altra materia (migrazione.json) */
+  migrazione?: Migrazione;
   /** posizioni della mappa di tutti i concetti, calcolate da sync-content.mjs */
   grafo?: Record<string, [number, number]>;
   /** testo di un atto normativo, articolo per articolo (norme.json) */

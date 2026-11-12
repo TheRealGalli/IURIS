@@ -1,1272 +1,1363 @@
 {
-  "id": "u09",
-  "ordine": 9,
-  "titolo": "Il Presidente della Repubblica",
-  "capitolo": "Capitolo V · § 4",
-  "pagine": [
-    80,
-    87
-  ],
-  "abstract": "Elezione e garanzie del mandato, responsabilità funzionale e diverse attribuzioni del capo dello Stato.",
-  "note": "Il semestre bianco vieta lo scioglimento delle Camere, non le elezioni. La grazia è un potere sostanzialmente del Presidente (Corte cost. 200/2006).",
-  "noteRedazione": [
-    "p. 84: il semestre bianco riguarda lo scioglimento, non il divieto assoluto di indire elezioni; aggiunta l’eccezione della coincidenza con gli ultimi sei mesi della legislatura (art. 88).",
-    "p. 86: corretto il potere di grazia come sostanzialmente presidenziale, Corte cost. 200/2006: https://www.cortecostituzionale.it/scheda-pronuncia/2006/200 e https://new.quirinale.it/page/notagrazia .",
-    "p. 85: il limite di cinque senatori di nomina presidenziale riguarda il totale in carica, non ciascun mandato: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-i/articolo-59 .",
-    "pp. 82–83: distinta irresponsabilità funzionale da responsabilità extrafunzionale. La messa in stato d’accusa non è una semplice autorizzazione al processo ordinario.",
-    "pp. 86–87: Consiglio supremo di difesa come sede di raccordo, con disciplina nel d.lgs. 66/2010: https://www.quirinale.it/it/pagine/consiglio-supremo-difesa . Supplenza e termini verificati su https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-ii/articolo-86 .",
-    "Piano finale (11 nov. 2026): aggiunta la voce «messaggio-presidenziale» (p. 85) per la traccia d'esame di Torre. L'evento del 1991 (l. cost. 1/1991 sull'art. 88) viene dall'elenco delle leggi di revisione nell'appendice degli appunti (pp. 217, 224, 241), fuori dalle pagine dell'unità: per questo non ha «pagine»."
-  ],
-  "lezioni": [
+ "id": "u09",
+ "ordine": 9,
+ "titolo": "Lo status di membro del Parlamento",
+ "capitolo": "Parte II · Capitolo I · Sezione II",
+ "pagine": [
+  75,
+  78
+ ],
+ "abstract": "Le garanzie che accompagnano l'ufficio di deputato e senatore: insindacabilità per opinioni e voti, immunità dell'art. 68, divieto di mandato imperativo, indennità, e le guarentigie delle Camere nel loro insieme. All'esame si chiede soprattutto l'art. 68 prima e dopo il 1993 e il rapporto tra parlamentare e partito.",
+ "note": "Dal 1993 non serve più l'autorizzazione per processare un parlamentare: serve solo per arresti, perquisizioni e intercettazioni. Le leggi che sospendevano i processi delle alte cariche (2003 e 2008) sono state entrambe annullate dalla Corte costituzionale.",
+ "noteRedazione": [
+  "p. 75: il riassunto parla ancora di Camere che «non concedono l'autorizzazione a procedere» per le opinioni: dopo la l. cost. 3/1993 l'autorizzazione a procedere non esiste più; la Camera delibera sull'insindacabilità (l. 140/2003) e il giudice può sollevare conflitto di attribuzione. Formulazione ripresa da Diritto Costituzionale u08.",
+  "p. 76: art. 68 completato con il testo vigente: l'autorizzazione non occorre nemmeno per l'esecuzione di una sentenza irrevocabile di condanna (il riassunto cita solo la flagranza).",
+  "p. 76: «contrasto con gli art. 24 e 4» è un refuso: la sent. 24/2004 dichiarò l'illegittimità per violazione degli artt. 3 e 24.",
+  "p. 78: «art. 88 Cost.» per i parlamentari pubblici impiegati è l'art. 98; «assegno vitalizio» aggiornato: dal 2012 trattamento previdenziale contributivo (65 anni, almeno cinque anni di mandato), dato da riverificare sui regolamenti delle Camere.",
+  "p. 78: gli importi e i criteri di dettaglio dell'indennità (l. 1261/1965) sono riportati come nel riassunto, senza cifre.",
+  "Fusione con il percorso A-L (12/11/2026): integrata la parte su prerogative, autodichia e sent. 120/2014 della lezione A-L u08-l2 e il divieto di mandato della u03-l1. Domande A-L con id u09-q5NN."
+ ],
+ "lezioni": [
+  {
+   "id": "u09-l1",
+   "titolo": "Insindacabilità e immunità: l'art. 68",
+   "pagine": [
+    75,
+    77
+   ],
+   "minuti": 30,
+   "sintesi": "### Che cos'è lo status di parlamentare\nLo *status* di parlamentare è la posizione complessiva in cui deputati e senatori si trovano per la loro appartenenza alle Camere. Si acquista con la **proclamazione** (per i [[senatori-a-vita|senatori a vita]], con la comunicazione della nomina). Le sue garanzie, le [[prerogative-parlamentari|guarentigie]] dell'art. 68, sono legate alla funzione: tutelano il singolo e, insieme, l'assemblea contro ingerenze che ne limitino l'indipendenza. Come mostra la loro origine storica, le assemblee sono indipendenti solo se lo sono i loro componenti. Non sono privilegi personali: il parlamentare non può rinunciarvi e, poiché derogano all'eguaglianza, vanno interpretate in modo rigoroso.\n\n### L'insindacabilità (art. 68, primo comma)\n«I membri del [[parlamento|Parlamento]] non possono essere chiamati a rispondere delle opinioni espresse e dei voti dati nell'esercizio delle loro funzioni». L'[[insindacabilita-parlamentare|insindacabilità]] esclude ogni responsabilità **civile, penale, amministrativa e disciplinare** e **dura anche dopo la fine del mandato**. Ha due limiti:\n\n- copre **opinioni e voti**, non i fatti materiali: per questi il parlamentare è perseguibile;\n- copre le opinioni espresse **nell'esercizio della funzione**, non in altra sede (ad esempio sui giornali).\n\nLe Camere hanno teso ad allargare la garanzia alle dichiarazioni esterne; la [[corte-costituzionale|Corte costituzionale]] ha reagito con rigore crescente:\n\n| Sentenza | Principio |\n|---|---|\n| n. 58/2000 | occorre un **nesso funzionale**: la dichiarazione deve essere identificabile come espressione dell'attività parlamentare |\n| n. 137/2001 | la garanzia non copre gli **insulti** e il turpiloquio, benché legati a tesi politiche |\n| n. 509/2002 | sono sindacabili anche opinioni espresse **dentro** le sedi parlamentari se manca il nesso con la funzione |\n\nNon ogni dichiarazione di un eletto è coperta: chi insulta un vicino in una lite privata ne risponde come chiunque. Oggi è la Camera a deliberare che un fatto è insindacabile (legge n. 140/2003); il giudice che non è d'accordo può sollevare [[conflitto-di-attribuzione|conflitto di attribuzione]] davanti alla Corte.\n\nIl parlamentare accusato in aula di fatti che ledono la sua onorabilità può chiedere al Presidente la nomina di una commissione, il [[giuri-d-onore|giurì d'onore]] (art. 58 reg. [[camera-dei-deputati|Camera]], art. 88 reg. [[senato|Senato]]), che accerta i fatti e riferisce; l'Assemblea ne prende atto senza dibattito. L'insindacabilità è estesa ai consiglieri regionali (art. 122).\n\n### Le immunità (art. 68, secondo e terzo comma)\nSenza **autorizzazione della Camera di appartenenza** nessun parlamentare può essere:\n\n- sottoposto a perquisizione personale o domiciliare;\n- arrestato, privato della libertà personale o mantenuto in detenzione, salvo che sia colto in **flagranza** di un delitto per cui è obbligatorio l'arresto o che si esegua una sentenza irrevocabile di condanna;\n- sottoposto a intercettazioni di conversazioni o comunicazioni e a sequestro di corrispondenza.\n\nLa [[legge-costituzionale|legge costituzionale]] n. 3/1993 ha **abolito l'autorizzazione a procedere**, cioè quella necessaria per sottoporre il parlamentare a processo penale, che si era prestata a notevoli abusi (era negata anche per truffe o assegni a vuoto). Le [[immunita-parlamentari|immunità]] rimaste garantiscono la continuità della funzione e l'integrità numerica della Camera, evitando che l'assenza forzata di parlamentari alteri i rapporti tra le forze politiche. La legge n. 140/2003 disciplina nel dettaglio i rapporti tra autorità giudiziaria e Camera di appartenenza. A differenza dell'insindacabilità, le immunità valgono solo durante il mandato e non escludono la responsabilità: subordinano soltanto certi atti al consenso della Camera.\n\n### La sospensione dei processi per le alte cariche\nDue leggi ordinarie hanno tentato di introdurre una [[sospensione-processi-alte-cariche|sospensione dei processi penali]] per le più alte cariche dello Stato, anche per fatti anteriori all'assunzione della carica:\n\n| | Legge n. 140/2003, art. 1 | Legge n. 124/2008 |\n|---|---|---|\n| Cariche | [[presidente-della-repubblica|Presidente della Repubblica]], Presidenti delle Camere, [[presidente-del-consiglio|Presidente del Consiglio]], Presidente della Corte costituzionale | le stesse, **escluso** il Presidente della Corte |\n| Regole | processi sospesi fino alla cessazione dalla carica | sospensione per la durata della carica, non reiterabile; sospesa anche la prescrizione |\n| Esito | illegittima: sent. **n. 24/2004** | illegittima: sent. **n. 262/2009** |\n\nNel 2004 la Corte ha ritenuto lesi il diritto di difesa dell'imputato e il diritto di azione della parte civile (art. 24), costretti ad attendere un tempo indeterminato, e il principio di [[principio-di-uguaglianza|eguaglianza]] (art. 3): si accomunavano cariche diverse per fonte d'investitura e funzioni e si distinguevano per la prima volta i Presidenti dagli altri componenti degli stessi organi. Nel 2009 ha rilevato la violazione degli artt. 3 e 138: una deroga al regime processuale comune a favore dei titolari di quattro cariche crea un'evidente disparità di trattamento rispetto agli altri cittadini e, toccando le prerogative degli organi costituzionali, non può essere introdotta con legge ordinaria.",
+   "puntiChiave": [
+    "Lo status si acquista con la proclamazione; le guarentigie dell'art. 68 tutelano il parlamentare e l'assemblea.",
+    "Insindacabilità: nessuna responsabilità per opinioni e voti nell'esercizio delle funzioni, anche dopo il mandato.",
+    "Serve un nesso funzionale tra dichiarazione e attività parlamentare (sent. n. 58/2000); gli insulti non sono coperti (n. 137/2001).",
+    "Autorizzazione della Camera per perquisizioni, arresto e intercettazioni; non per il processo (dal 1993).",
+    "Eccezioni: flagranza con arresto obbligatorio e sentenza irrevocabile di condanna.",
+    "Le sospensioni dei processi per le alte cariche (2003, 2008) sono state dichiarate illegittime nel 2004 e nel 2009."
+   ],
+   "memoria": [
     {
-      "titolo": "Il capo dello Stato: elezione, mandato, supplenza e responsabilità",
-      "pagine": [
-        80,
-        83
-      ],
-      "sintesi": "### Garanzia e unità nazionale\nIl [[presidente-della-repubblica]] è il capo dello Stato e rappresenta l'unità nazionale, secondo l'art. 87. Opera in una forma parlamentare: non dirige un [[governo|Governo]] eletto dal popolo e non dipende dalla [[rapporto-di-fiducia|fiducia]] delle [[parlamento|Camere]]. La sua funzione di garanzia non è soltanto cerimoniale. Attraverso nomine, controllo sugli atti, messaggi e gestione delle crisi concorre al funzionamento dell'ordinamento, preservando la distinzione dall'indirizzo della maggioranza.\n\nL'intensità dell'intervento può variare con il contesto politico: quando una maggioranza è coesa, le scelte governative sono più riconoscibili; quando è incerta, cresce il rilievo delle verifiche presidenziali. Questo spazio non autorizza il Presidente a scegliere un proprio programma e imporlo al Parlamento. Le attribuzioni restano finalizzate alla continuità e agli equilibri costituzionali.\n\n### Il collegio elettorale e le maggioranze\nL'art. 83 affida l'elezione al [[parlamento-in-seduta-comune|Parlamento in seduta comune]], integrato da tre delegati per ogni regione eletti dal [[consiglio-regionale|Consiglio regionale]] in modo da assicurare le minoranze; la Valle d'Aosta ha un delegato. Lo scrutinio è segreto. Nei primi tre scrutini occorrono i due terzi dell'assemblea; dal quarto basta la maggioranza assoluta. Le soglie ampie cercano un consenso che superi la maggioranza governativa, senza rendere indefinita la ricerca del candidato.\n\nL'art. 84 richiede [[cittadinanza|cittadinanza]] italiana, almeno cinquanta anni e godimento dei diritti civili e politici. La carica è incompatibile con qualsiasi altra carica. Assegno e dotazione sono determinati dalla legge. Il Presidente non deve essere previamente parlamentare: il collegio sceglie fra i cittadini con i requisiti, non soltanto tra i suoi membri.\n\nIl mandato dura sette anni. Prima di assumere le funzioni il Presidente presta giuramento di fedeltà alla Repubblica e osservanza della [[costituzione|Costituzione]] davanti al Parlamento in seduta comune, secondo l'art. 91. La durata maggiore della [[legislatura|legislatura]] favorisce continuità e indipendenza dalla singola maggioranza che lo ha eletto, ma non garantisce matematicamente che un'eventuale rielezione avvenga con un collegio interamente diverso. La Costituzione non vieta la rielezione.\n\n### Successione ordinaria e impedimento\nTrenta giorni prima della scadenza il Presidente della Camera convoca il collegio per eleggere il successore. Se le Camere sono sciolte o manca meno di tre mesi alla loro cessazione, l'elezione si svolge entro quindici giorni dalla riunione delle nuove; nel frattempo i poteri del Presidente in carica sono prorogati. Questa proroga evita che un Parlamento a fine mandato scelga il nuovo capo dello Stato e garantisce continuità.\n\nLa [[supplenza-presidenziale]] dell'art. 86 opera quando il Presidente non può adempiere le funzioni: le esercita il Presidente del [[senato|Senato]]. Il supplente non è eletto per un proprio settennato e non subentra automaticamente in modo definitivo. Nell'impedimento temporaneo la sostituzione dura quanto necessario; in caso di impedimento permanente, morte o dimissioni il Presidente della Camera indice l'elezione entro quindici giorni, salva la dilazione costituzionale per Camere sciolte o prossime alla cessazione. Quindici giorni indica il termine per indire, non la garanzia che entro quel giorno il nuovo Presidente sia già eletto.\n\nLa fine del mandato può dipendere da scadenza, dimissioni, morte o altre vicende costituzionalmente rilevanti. Chi è stato Presidente è senatore di diritto e a vita, salvo rinuncia, secondo l'art. 59. Questa previsione va distinta dal potere di nominare senatori per altissimi meriti: in quel secondo gruppo il numero complessivo in carica non può superare cinque, dopo la revisione del 2020. Non sono cinque nuove nomine disponibili a ogni Presidente in aggiunta a quelle precedenti ancora efficaci.\n\n### L'irresponsabilità è funzionale\nL'art. 90 esclude la responsabilità per gli atti compiuti nell'esercizio delle funzioni, salvo [[alto-tradimento]] e [[attentato-alla-costituzione]]. Non è una generale immunità per qualsiasi condotta privata. La responsabilità extrafunzionale resta distinta, con le questioni procedurali che la posizione costituzionale può porre. Il Parlamento non può usare una [[mozione-di-sfiducia|mozione di sfiducia]] per imporre le dimissioni al Presidente come farebbe con il Governo.\n\nLe due fattispecie eccezionali proteggono la lealtà all'ordinamento e la sua integrità. L'alto tradimento richiama una grave violazione della fedeltà costituzionale, anche attraverso intese ostili; l'attentato riguarda condotte dirette a sovvertire l'ordine costituzionale. Non ogni dissenso interpretativo o irregolarità è automaticamente un attentato. La loro precisa ricostruzione è questione costituzionale e non si esaurisce in una formula penalistica generica.\n\nLa messa in stato d'accusa spetta al Parlamento in seduta comune a maggioranza assoluta dei membri, dopo l'istruttoria prevista. Il giudizio è della [[corte-costituzionale|Corte costituzionale]] integrata da sedici giudici aggregati estratti dall'elenco formato dal Parlamento. La decisione parlamentare non è una condanna e non va chiamata semplice autorizzazione per un processo ordinario. La separazione fra accusa e giudizio e la composizione speciale tutelano la rilevanza costituzionale della vicenda.",
-      "concetti": [
-        "presidente-della-repubblica",
-        "supplenza-presidenziale",
-        "alto-tradimento",
-        "attentato-alla-costituzione"
-      ],
-      "puntiChiave": [
-        "Presidente come organo di garanzia, distinto dall’indirizzo del Governo.",
-        "Elezione indiretta: due terzi per tre scrutini, maggioranza assoluta dal quarto.",
-        "Art. 90 riguarda gli atti funzionali, non un’impunità personale generale."
-      ],
-      "memoria": [
-        {
-          "voce": "Requisiti e durata",
-          "dettaglio": "Cittadino italiano, 50 anni, diritti civili e politici; mandato di 7 anni."
-        },
-        {
-          "voce": "86",
-          "dettaglio": "Supplisce il Presidente del Senato; il Presidente della Camera indice la nuova elezione nei casi previsti."
-        }
-      ],
-      "id": "u09-l1",
-      "minuti": 30
+     "voce": "Art. 68",
+     "dettaglio": "insindacabilità (c. 1) e immunità (c. 2 e 3)"
     },
     {
-      "titolo": "Controfirma, tipi di atti e gestione delle crisi",
-      "pagine": [
-        82,
-        87
-      ],
-      "sintesi": "### La forma dell'atto non rivela sempre chi decide\nL'art. 89 richiede la [[controfirma]] ministeriale per la validità degli atti presidenziali; per quelli con valore legislativo e gli altri indicati dalla legge interviene anche il [[presidente-del-consiglio|Presidente del Consiglio]]. La firma del [[presidente-della-repubblica|capo dello Stato]] e quella del ministro manifestano un concorso costituzionalmente regolato. La controfirma non va ridotta a una formalità grafica, né letta come prova che ogni contenuto sia deciso dal [[governo|Governo]].\n\nLa dottrina distingue atti formalmente presidenziali ma sostanzialmente governativi, atti propriamente presidenziali e atti complessi o a partecipazione necessaria di più organi. La classificazione serve a capire proposta, decisione e controllo; alcuni casi sono discussi. La responsabilità e il ruolo della controfirma vanno ricostruiti per ogni attribuzione, evitando l'idea di un identico trasferimento automatico di qualunque responsabilità civile o penale.\n\n| Categoria descrittiva | Centro della decisione | Esempi e funzione della partecipazione |\n|---|---|---|\n| Sostanzialmente governativa | Governo | Decreti-legge e legislativi: deliberazione governativa ed emanazione presidenziale con controllo costituzionale |\n| Sostanzialmente presidenziale | Capo dello Stato | Nomine di garanzia e rinvio delle leggi: controfirma non significa scelta di programma del Governo |\n| Partecipazione complessa | Concorso di più organi | Nomina del Governo e scioglimento richiedono raccordi e valutazioni costituzionali |\n\nGli atti personalissimi, come le dimissioni, non sono soggetti alla medesima regola di controfirma. Anche discorsi e altre esternazioni atipiche hanno una forma differente dai decreti. Gli appunti chiamano **esternazioni atipiche** le manifestazioni del pensiero presidenziale rivolte all'opinione pubblica: messaggi alla nazione, discorsi pubblici, lettere ufficiali, interviste e conferenze stampa, che per loro natura si sottraggono alla controfirma ministeriale. Il Presidente deve comunque mantenersi entro il proprio ruolo di garanzia: l'assenza di controfirma su un discorso non crea una competenza generale a dirigere la maggioranza.\n\n### Nomine, messaggi e leggi\nIl Presidente nomina cinque giudici costituzionali e può nominare senatori a vita per altissimi meriti entro il tetto complessivo di cinque in carica. I [[messaggio-presidenziale|messaggi alle Camere]] possono richiamare questioni costituzionali o istituzionali senza avere l'effetto di una legge o di una direttiva gerarchica. La convocazione straordinaria delle [[parlamento|Camere]] prevista dall'art. 62 è un'altra garanzia di funzionamento.\n\nLa [[promulgazione]] attesta il perfezionamento della fase parlamentare e dispone la pubblicazione e l'osservanza della legge. Prima di promulgare, il Presidente può chiedere alle Camere una nuova deliberazione mediante [[rinvio-presidenziale]] motivato, ai sensi dell'art. 74. Se le Camere approvano nuovamente, la legge deve essere promulgata secondo la regola costituzionale. Il rinvio non è un veto politico definitivo; le ipotesi estreme di radicale violazione costituzionale non vanno confuse con una libera opposizione presidenziale al programma della maggioranza.\n\nLa formula di promulgazione, secondo gli appunti, fa quattro cose: **accerta** che la legge è stata approvata nel medesimo testo da entrambe le Camere, **manifesta** la volontà di promulgarla, ne **ordina** la pubblicazione e obbliga chiunque a osservarla e a farla osservare come legge dello [[stato|Stato]].\n\nIl Presidente autorizza inoltre la presentazione dei disegni di legge governativi ed emana gli atti normativi del Governo. Sui [[decreto-legislativo|decreti legislativi]] e sui decreti-legge esercita un controllo di legittimità costituzionale. Con la forma del **decreto del Presidente della Repubblica** (d.P.R.) sono adottati gli atti governativi più importanti indicati dalla legge, come lo scioglimento anticipato dei Consigli comunali e provinciali, la decisione dei ricorsi straordinari al Presidente e gli atti deliberati dal [[consiglio-dei-ministri|Consiglio dei ministri]]; molti altri atti hanno ormai la forma del d.P.C.M. o del decreto ministeriale. L'art. 87 gli affida anche di indire le elezioni delle nuove Camere fissandone la prima riunione, di indire il referendum, di conferire le onorificenze; l'art. 126 prevede il suo decreto di scioglimento del [[consiglio-regionale|Consiglio regionale]] e di rimozione del [[presidente-della-giunta|Presidente della Giunta]] per atti contrari alla [[costituzione|Costituzione]] o gravi violazioni di legge. L'emanazione non trasforma il [[decreto-legge|decreto-legge]] in una legge parlamentare: restano presupposti d'urgenza e conversione. In politica estera accredita e riceve diplomatici e ratifica i trattati, previa autorizzazione delle Camere quando richiesta dall'art. 80. Funzioni collegate non coincidono con la negoziazione quotidiana dell'indirizzo governativo.\n\n### La grazia: un errore importante da correggere\nLa [[grazia]] è un provvedimento individuale di clemenza sulla pena, distinto da amnistia e indulto disciplinati dall'art. 79. La [[corte-costituzionale|Corte costituzionale]], con sentenza n. 200/2006, ha riconosciuto la titolarità sostanziale del potere al Presidente, in relazione alle sue finalità umanitarie. Il [[ministro-della-giustizia|ministro della giustizia]] cura istruttoria e adempimenti e può rappresentare ragioni contrarie; non possiede un potere di veto politico che annulli la determinazione presidenziale. Gli appunti che attraggono la grazia nella sfera governativa devono quindi essere corretti. La controfirma opera, ma con una funzione coerente con la titolarità presidenziale.\n\n### Nomina del Governo e scioglimento\nNelle crisi il capo dello Stato consulta le forze politiche per verificare una maggioranza, può conferire un mandato esplorativo e poi l'incarico. Il Presidente del Consiglio è nominato ai sensi dell'art. 92 e propone i ministri; giuramento e [[rapporto-di-fiducia|fiducia]] seguono con le rispettive funzioni. La scelta presidenziale non è libera come quella di un elettore fra programmi: deve costruire una soluzione compatibile con il circuito fiduciario. Né un Governo definito tecnico è sottratto alla necessità della fiducia.\n\nGli appunti descrivono la prassi in dettaglio. Alle **consultazioni** sono ricevuti i Presidenti delle Camere, gli ex Presidenti della Repubblica, gli ex Presidenti del Consiglio, i presidenti dei [[gruppi-parlamentari|gruppi parlamentari]] e i leader dei [[partiti-politici|partiti]]. L'incaricato accetta di regola **con riserva**: svolge a sua volta consultazioni e, se trova l'accordo su programma e composizione, scioglie la riserva e presenta la lista dei ministri. Seguono nomina (art. 92) e **giuramento** nelle mani del Presidente (art. 93); entro **dieci giorni** il Governo si presenta alle Camere per la fiducia (art. 94). Nell'intervallo, come il Governo dimissionario, cura l'ordinaria amministrazione. Se l'incaricato rinuncia, il Presidente può conferire un nuovo incarico o prendere atto che servono elezioni; sarebbe scorretto nominare un Governo che si sa privo di maggioranza.\n\nLo [[scioglimento-anticipato]] è previsto dall'art. 88, sentiti i Presidenti delle Camere, e può riguardare entrambe o una sola. Nel sistema è lo strumento per rimettere la decisione agli elettori quando non si trova una soluzione parlamentare praticabile, secondo la valutazione costituzionale. Non è un diritto del capo del Governo di ottenere sempre elezioni a richiesta, né un'arma del capo dello Stato per imporre il proprio indirizzo.\n\nIl [[semestre-bianco]] limita il potere di scioglimento negli ultimi sei mesi del mandato presidenziale. Il limite non opera quando tali mesi coincidono in tutto o in parte con gli ultimi sei mesi della [[legislatura|legislatura]]. Riguarda il potere di scioglimento, non il divieto assoluto di indire qualunque elezione o di compiere le altre funzioni presidenziali. L'eccezione, introdotta nel 1991, evita che la coincidenza delle scadenze produca un blocco istituzionale.\n\n### Presiedere organi di garanzia\nIl Presidente presiede il [[csm|CSM]] per contribuire all'equilibrio e all'indipendenza della [[magistratura|magistratura]]. Non diventa così superiore gerarchico dei giudici e non decide le controversie al loro posto. Presiede anche il [[consiglio-supremo-di-difesa]], sede di esame dei problemi generali politici e tecnici della difesa e di raccordo fra responsabili istituzionali. L'organo favorisce conoscenza e coordinamento, senza sostituire le competenze di Governo e Parlamento. La disciplina oggi è ricompresa nel Codice dell'ordinamento militare, d.lgs. n. 66/2010; non basta citare la legge istitutiva del 1950 come unico testo attuale. Secondo gli appunti ne fanno parte, oltre al Presidente della Repubblica, il Presidente del Consiglio, i ministri degli esteri, dell'interno, dell'economia, della difesa e quello competente per l'industria (gli appunti usano ancora i vecchi nomi «tesoro» e «industria e commercio») e il Capo di Stato maggiore della difesa; si riunisce almeno due volte l'anno. Quanto al CSM, la prassi riconosce al Presidente un potere di rinvio per irregolarità formali nel procedimento di conferimento degli incarichi direttivi.",
-      "concetti": [
-        "controfirma",
-        "promulgazione",
-        "rinvio-presidenziale",
-        "grazia",
-        "scioglimento-anticipato",
-        "semestre-bianco",
-        "consiglio-supremo-di-difesa",
-        "messaggio-presidenziale"
-      ],
-      "puntiChiave": [
-        "Controfirma e titolarità sostanziale della decisione si ricostruiscono per ciascun tipo di atto.",
-        "La grazia è un potere sostanzialmente presidenziale, secondo Corte cost. 200/2006.",
-        "Il semestre bianco limita lo scioglimento con una precisa eccezione."
-      ],
-      "memoria": [
-        {
-          "voce": "74",
-          "dettaglio": "Rinvio motivato; dopo nuova approvazione la legge deve essere promulgata."
-        },
-        {
-          "voce": "88",
-          "dettaglio": "Scioglimento sentiti i Presidenti; limite degli ultimi sei mesi con eccezione per coincidenza con fine legislatura."
-        }
-      ],
-      "id": "u09-l2",
-      "minuti": 35
+     "voce": "L. cost. 3/1993",
+     "dettaglio": "abolisce l'autorizzazione a procedere"
+    },
+    {
+     "voce": "Sent. 58/2000",
+     "dettaglio": "nesso funzionale tra opinione e attività parlamentare"
+    },
+    {
+     "voce": "Sent. 24/2004",
+     "dettaglio": "illegittimo l'art. 1 della l. 140/2003 (artt. 3 e 24)"
+    },
+    {
+     "voce": "Sent. 262/2009",
+     "dettaglio": "illegittima la l. 124/2008 (artt. 3 e 138)"
+    },
+    {
+     "voce": "Giurì d'onore",
+     "dettaglio": "art. 58 reg. Camera, art. 88 reg. Senato"
     }
-  ],
-  "concetti": [
-    {
-      "id": "presidente-della-repubblica",
-      "nome": "Presidente della Repubblica",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Capo dello Stato e rappresentante dell’unità nazionale.",
-      "definizione": "È il **capo dello Stato** e rappresenta l'**unità nazionale** (art. 87 Cost.). Lo elegge il [[parlamento-in-seduta-comune]], integrato da tre delegati per Regione (uno per la Valle d'Aosta), a scrutinio segreto: servono i due terzi nei primi tre scrutini, poi la maggioranza assoluta. Deve avere cinquant'anni; resta in carica **sette anni**. Non è titolare dell'indirizzo politico: è un organo di **garanzia** e di equilibrio, con poteri verso tutti gli altri organi (promulga le leggi e può rinviarle, nomina il Governo, scioglie le Camere, presiede CSM e Consiglio supremo di difesa, nomina cinque giudici costituzionali). I suoi atti richiedono la [[controfirma]]. Non è responsabile, salvo [[alto-tradimento]] e [[attentato-alla-costituzione]] (art. 90).",
-      "pagine": [
-        80,
-        87
-      ]
-    },
-    {
-      "id": "supplenza-presidenziale",
-      "nome": "Supplenza presidenziale",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Esercizio delle funzioni presidenziali da parte del Presidente del Senato.",
-      "definizione": "È l'istituto dell'art. 86 Cost.: quando il Presidente della Repubblica **non può adempiere** le sue funzioni, queste sono esercitate dal **Presidente del Senato**. Se l'impedimento è **temporaneo** (malattia, viaggio all'estero), il supplente lo sostituisce finché dura, limitandosi di regola agli atti di ordinaria amministrazione. Se l'impedimento è **permanente**, o in caso di morte o di dimissioni, il Presidente della Camera indice l'elezione del nuovo Presidente **entro quindici giorni**, salvo il maggior termine se le Camere sono sciolte o manca meno di tre mesi alla loro cessazione. La Costituzione non dice chi accerti l'impedimento permanente. Il supplente non diventa Presidente: esercita le funzioni in via provvisoria.",
-      "pagine": [
-        87,
-        87
-      ]
-    },
-    {
-      "id": "alto-tradimento",
-      "nome": "Alto tradimento",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Eccezionale responsabilità funzionale del Presidente prevista dall’art. 90.",
-      "definizione": "È uno dei due soli reati per cui il [[presidente-della-repubblica]] risponde degli atti compiuti nell'esercizio delle funzioni (art. 90 Cost.), in deroga alla sua irresponsabilità. La Costituzione non lo definisce: si intende un comportamento **doloso** con cui il Presidente, violando il dovere di fedeltà alla Repubblica, si accorda con Stati esteri o comunque agisce per sovvertire le istituzioni o pregiudicare gli interessi nazionali. Il Presidente è messo in **stato d'accusa** dal [[parlamento-in-seduta-comune]] a maggioranza assoluta ed è giudicato dalla **Corte costituzionale** integrata da sedici giudici aggregati, estratti a sorte ([[accusa-presidente-repubblica]]). Non è mai stato applicato. Si affianca all'[[attentato-alla-costituzione]].",
-      "pagine": [
-        82,
-        84
-      ]
-    },
-    {
-      "id": "attentato-alla-costituzione",
-      "nome": "Attentato alla Costituzione",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Condotte presidenziali rivolte a sovvertire l’ordine costituzionale.",
-      "definizione": "È, con l'[[alto-tradimento]], uno dei due reati **propri** del [[presidente-della-repubblica]], per i quali cade l'irresponsabilità dell'art. 90 Cost. Consiste in comportamenti **dolosi** diretti a **sovvertire l'ordinamento costituzionale** o a violarne gravemente le regole fondamentali: per esempio un colpo di Stato, o il rifiuto di rispettare limiti essenziali posti ai suoi poteri. Non basta un atto illegittimo o un errore di interpretazione: occorre la volontà di rovesciare la Costituzione. L'accusa è deliberata dal Parlamento in seduta comune a **maggioranza assoluta**, su relazione di un comitato parlamentare; giudica la Corte costituzionale in composizione integrata. Le sanzioni sono stabilite dalla Corte stessa. Non si è mai arrivati a un giudizio.",
-      "pagine": [
-        82,
-        84
-      ]
-    },
-    {
-      "id": "controfirma",
-      "nome": "Controfirma",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Firma ministeriale richiesta per la validità degli atti presidenziali.",
-      "definizione": "È la firma che un membro del Governo appone accanto a quella del Presidente della Repubblica. Per l'art. 89 Cost. **nessun atto del Presidente è valido se non è controfirmato dai ministri proponenti, che ne assumono la responsabilità**; gli atti con valore legislativo e gli altri indicati dalla legge sono controfirmati anche dal Presidente del Consiglio. Spiega l'irresponsabilità del capo dello Stato (art. 90): di ciò che firma risponde il Governo. Il suo significato cambia secondo l'atto: negli atti **sostanzialmente governativi** (decreti) decide il ministro e il Presidente controlla; negli atti **sostanzialmente presidenziali** (rinvio, nomine, [[messaggio-presidenziale|messaggi]], [[grazia]]) decide il Presidente e il ministro attesta la regolarità; negli atti **complessi** le volontà concorrono.",
-      "pagine": [
-        82,
-        86
-      ]
-    },
-    {
-      "id": "promulgazione",
-      "nome": "Promulgazione",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Atto presidenziale che completa la fase di formazione della legge e ne dispone la pubblicazione.",
-      "definizione": "È l'atto con cui il Presidente della Repubblica **attesta** che la legge è stata regolarmente approvata dalle due Camere e ne **ordina l'osservanza**. Deve avvenire **entro un mese** dall'approvazione, o nel termine più breve stabilito dalle Camere se ne dichiarano l'urgenza (art. 73 Cost.). Appartiene alla fase **integrativa dell'efficacia**: la legge è già perfetta, ma non può entrare in vigore senza. È un atto **dovuto**: il Presidente può solo, per una volta, chiedere una nuova deliberazione con il [[rinvio-presidenziale]]; se le Camere riapprovano, deve promulgare (art. 74). Segue la pubblicazione nella Gazzetta Ufficiale e, dopo la [[vacatio-legis]], l'entrata in vigore.",
-      "pagine": [
-        85,
-        86
-      ]
-    },
-    {
-      "id": "rinvio-presidenziale",
-      "nome": "Rinvio presidenziale",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Richiesta motivata di una nuova deliberazione parlamentare prima della promulgazione.",
-      "definizione": "È il potere del Presidente della Repubblica, prima di promulgare una legge, di **chiedere alle Camere una nuova deliberazione** con [[messaggio-presidenziale|messaggio motivato]] (art. 74 Cost.). È un **veto sospensivo**, non definitivo: se le Camere approvano di nuovo la legge, anche nello stesso testo e a maggioranza semplice, questa **deve essere promulgata**. Si può esercitare **una sola volta** per ciascuna legge. Serve soprattutto a segnalare dubbi di **legittimità costituzionale** (molto spesso la mancanza di copertura finanziaria); il rinvio per ragioni di puro merito politico è ritenuto estraneo al ruolo di garanzia. È un atto sostanzialmente presidenziale, pur controfirmato. Si collega alla [[promulgazione]].",
-      "pagine": [
-        85,
-        85
-      ]
-    },
-    {
-      "id": "grazia",
-      "nome": "Grazia",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Provvedimento individuale di clemenza sulla pena, di titolarità presidenziale.",
-      "definizione": "È il provvedimento di **clemenza individuale** con cui il Presidente della Repubblica **condona** in tutto o in parte, o commuta, la pena inflitta a una persona determinata con sentenza definitiva (art. 87 Cost.). Si distingue dall'**amnistia**, che estingue il reato, e dall'**indulto**, che condona la pena: questi sono provvedimenti generali, concessi con legge approvata a maggioranza dei due terzi (art. 79). La Corte costituzionale (sent. **200/2006**, nata dal conflitto tra il Presidente Ciampi e il ministro Castelli) ha chiarito che è un potere **sostanzialmente presidenziale**, da usare per ragioni **umanitarie**: il ministro della giustizia cura l'istruttoria e controfirma, ma non può opporsi alla decisione.",
-      "pagine": [
-        86,
-        86
-      ]
-    },
-    {
-      "id": "scioglimento-anticipato",
-      "nome": "Scioglimento anticipato",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Cessazione delle Camere prima della scadenza nelle forme dell’art. 88.",
-      "definizione": "È il potere del Presidente della Repubblica di **sciogliere le Camere**, o anche una sola, prima della scadenza naturale della [[legislatura]], dopo aver **sentito i loro Presidenti** (art. 88 Cost.); il parere è obbligatorio ma non vincolante. Il decreto è controfirmato dal Presidente del Consiglio. È considerato un atto **complesso** o comunque non libero: nella prassi vi si ricorre quando, aperta la [[crisi-di-governo]], il Parlamento non riesce a esprimere una maggioranza (scioglimento «funzionale»). Non è un potere del Governo, come nel Regno Unito. Non può essere esercitato negli ultimi sei mesi del mandato ([[semestre-bianco]]). Seguono nuove elezioni entro settanta giorni.",
-      "pagine": [
-        84,
-        87
-      ]
-    },
-    {
-      "id": "semestre-bianco",
-      "nome": "Semestre bianco",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Limite al potere di scioglimento negli ultimi sei mesi del mandato presidenziale.",
-      "definizione": "È il periodo degli **ultimi sei mesi del mandato** del Presidente della Repubblica, durante il quale egli **non può sciogliere le Camere** (art. 88, secondo comma, Cost.). Il divieto serve a evitare che il Presidente uscente usi lo [[scioglimento-anticipato]] per ottenere un Parlamento più favorevole alla propria rielezione. La legge costituzionale **1/1991** ha aggiunto un'eccezione: il divieto non vale se gli ultimi sei mesi del mandato coincidono, in tutto o in parte, con gli **ultimi sei mesi della legislatura** (l'«ingorgo istituzionale»), perché altrimenti le Camere in scadenza non potrebbero essere sciolte in tempo utile. Riguarda solo lo scioglimento: gli altri poteri presidenziali restano intatti.",
-      "pagine": [
-        84,
-        84
-      ]
-    },
-    {
-      "id": "consiglio-supremo-di-difesa",
-      "nome": "Consiglio supremo di difesa",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Sede costituzionale di esame e raccordo sui problemi della difesa nazionale.",
-      "definizione": "È l'organo previsto dall'art. 87 Cost., che ne affida la **presidenza al Presidente della Repubblica**, insieme al comando delle Forze armate. Lo ha istituito la legge **624/1950** (oggi nel Codice dell'ordinamento militare). Ne fanno parte il Presidente del Consiglio, i ministri degli esteri, dell'interno, dell'economia, della difesa e dello sviluppo economico e il Capo di stato maggiore della difesa. **Esamina** i problemi generali politici e tecnici della difesa nazionale e fissa i criteri per l'organizzazione e il coordinamento delle attività che la riguardano. È un organo di informazione e di raccordo: le decisioni restano al Governo, che ne risponde in Parlamento, e lo stato di guerra è deliberato dalle Camere (art. 78).",
-      "pagine": [
-        86,
-        87
-      ]
-    },
-    {
-      "id": "messaggio-presidenziale",
-      "nome": "Messaggio presidenziale",
-      "tipo": "istituto",
-      "alias": [
-        "messaggi presidenziali",
-        "messaggi alle Camere",
-        "messaggio alle Camere"
-      ],
-      "breve": "Atto con cui il Presidente della Repubblica si rivolge alle Camere (artt. 74 e 87).",
-      "definizione": "Atto con cui il [[presidente-della-repubblica|Presidente della Repubblica]] si rivolge formalmente alle Camere. L'art. 87 gli consente di inviare messaggi «liberi», cioè non vincolati nel contenuto: richiamano l'attenzione del Parlamento su un problema istituzionale, ma non aprono necessariamente un dibattito e non obbligano a provvedere. Diverso è il messaggio **motivato** dell'art. 74, che accompagna il [[rinvio-presidenziale|rinvio di una legge]] e ne indica le ragioni. Entrambi sono atti formali, soggetti a [[controfirma]], ma il contenuto è deciso dal Presidente. Non vanno confusi con le **esternazioni atipiche** (discorsi, interviste, messaggi alla nazione), rivolte all'opinione pubblica e prive di controfirma.",
-      "pagine": [
-        85,
-        85
-      ]
-    }
-  ],
-  "relazioni": [
-    {
-      "da": "supplenza-presidenziale",
-      "a": "presidente-della-repubblica",
-      "tipo": "collegato",
-      "etichetta": "garantisce continuità alle funzioni del"
-    },
-    {
-      "da": "controfirma",
-      "a": "presidente-della-repubblica",
-      "tipo": "collegato",
-      "etichetta": "concorre alla validità degli atti del"
-    },
-    {
-      "da": "rinvio-presidenziale",
-      "a": "promulgazione",
-      "tipo": "collegato",
-      "etichetta": "può precedere la"
-    },
-    {
-      "da": "grazia",
-      "a": "presidente-della-repubblica",
-      "tipo": "collegato",
-      "etichetta": "è attribuzione del"
-    },
-    {
-      "da": "semestre-bianco",
-      "a": "scioglimento-anticipato",
-      "tipo": "collegato",
-      "etichetta": "limita lo"
-    },
-    {
-      "da": "alto-tradimento",
-      "a": "attentato-alla-costituzione",
-      "tipo": "collegato",
-      "etichetta": "è distinto dall’"
-    },
-    {
-      "da": "consiglio-supremo-di-difesa",
-      "a": "presidente-della-repubblica",
-      "tipo": "collegato",
-      "etichetta": "è presieduto dal"
-    },
-    {
-      "da": "presidente-della-repubblica",
-      "a": "messaggio-presidenziale",
-      "tipo": "crea",
-      "etichetta": "invia alle Camere il"
-    },
-    {
-      "da": "messaggio-presidenziale",
-      "a": "rinvio-presidenziale",
-      "tipo": "collegato",
-      "etichetta": "accompagna, se motivato, il"
-    },
-    {
-      "da": "controfirma",
-      "a": "messaggio-presidenziale",
-      "tipo": "collegato",
-      "etichetta": "è richiesta anche per il"
-    }
-  ],
-  "eventi": [
-    {
-      "id": "ev-elezione-di-luigi-einaudi",
-      "anno": 1948,
-      "data": "11 maggio 1948",
-      "titolo": "Elezione di Luigi Einaudi",
-      "descrizione": "È il primo Presidente eletto dal Parlamento secondo le regole della Costituzione.",
-      "tipo": "politica",
-      "pagine": [
-        80,
-        87
-      ],
-      "concetti": [
-        "presidente-della-repubblica"
-      ]
-    },
-    {
-      "id": "ev-consiglio-supremo-di-difesa",
-      "anno": 1950,
-      "data": "28 luglio 1950",
-      "titolo": "Legge istitutiva del Consiglio supremo di difesa",
-      "descrizione": "La legge n. 624/1950 attua l'art. 87 e istituisce il Consiglio supremo di difesa, presieduto dal Presidente della Repubblica.",
-      "tipo": "legge",
-      "concetti": [
-        "consiglio-supremo-di-difesa",
-        "presidente-della-repubblica"
-      ],
-      "pagine": [
-        86,
-        86
-      ]
-    },
-    {
-      "id": "ev-legge-costituzionale-n-1-1991",
-      "anno": 1991,
-      "data": "4 novembre 1991",
-      "titolo": "Legge costituzionale n. 1/1991 sul semestre bianco",
-      "descrizione": "Modifica l'art. 88: il divieto di sciogliere le Camere negli ultimi sei mesi del mandato non vale se coincidono, in tutto o in parte, con gli ultimi sei mesi della legislatura.",
-      "tipo": "legge",
-      "concetti": [
-        "semestre-bianco",
-        "scioglimento-anticipato"
-      ]
-    },
-    {
-      "id": "ev-grazia-2006",
-      "anno": 2006,
-      "data": "18 maggio 2006",
-      "titolo": "Sentenza n. 200/2006 sul potere di grazia",
-      "descrizione": "La Corte costituzionale riconosce la titolarità sostanziale del potere di grazia al capo dello Stato.",
-      "tipo": "giurisprudenza",
-      "concetti": [
-        "grazia",
-        "controfirma"
-      ],
-      "pagine": [
-        86,
-        86
-      ]
-    }
-  ],
-  "mappa": {
-    "testo": "Presidente della Repubblica",
-    "concetto": "presidente-della-repubblica",
-    "figli": [
-      {
-        "testo": "Mandato e continuità",
-        "figli": [
-          {
-            "testo": "Supplenza",
-            "concetto": "supplenza-presidenziale"
-          },
-          {
-            "testo": "Limite allo scioglimento",
-            "concetto": "semestre-bianco"
-          }
-        ]
-      },
-      {
-        "testo": "Atti e partecipazione",
-        "concetto": "controfirma",
-        "figli": [
-          {
-            "testo": "Promulgazione",
-            "concetto": "promulgazione"
-          },
-          {
-            "testo": "Rinvio",
-            "concetto": "rinvio-presidenziale"
-          },
-          {
-            "testo": "Grazia",
-            "concetto": "grazia"
-          }
-        ]
-      },
-      {
-        "testo": "Responsabilità eccezionale",
-        "figli": [
-          {
-            "testo": "Alto tradimento",
-            "concetto": "alto-tradimento"
-          },
-          {
-            "testo": "Attentato",
-            "concetto": "attentato-alla-costituzione"
-          }
-        ]
-      },
-      {
-        "testo": "Raccordo nella difesa",
-        "concetto": "consiglio-supremo-di-difesa"
-      }
-    ]
+   ],
+   "concetti": [
+    "prerogative-parlamentari",
+    "insindacabilita-parlamentare",
+    "immunita-parlamentari",
+    "giuri-d-onore",
+    "sospensione-processi-alte-cariche",
+    "conflitto-di-attribuzione",
+    "autodichia"
+   ]
   },
-  "domande": [
+  {
+   "id": "u09-l2",
+   "titolo": "Disciplina, libero mandato, indennità e guarentigie delle Camere",
+   "pagine": [
+    77,
+    78
+   ],
+   "minuti": 20,
+   "sintesi": "### Le sanzioni disciplinari\nLe [[sanzioni-disciplinari-parlamentari|sanzioni disciplinari]] sono irrogate dal Presidente dell'Assemblea o dall'Ufficio di presidenza (Consiglio di presidenza al [[senato|Senato]]), in ordine di gravità:\n\n1. **richiamo all'ordine**, se il parlamentare pronuncia parole sconvenienti o turba i lavori;\n2. **esclusione dall'aula**, dopo il secondo richiamo o subito nei casi più gravi (ingiurie a colleghi o a membri del [[governo|Governo]], vie di fatto, appello alla violenza);\n3. **censura**, con interdizione dai lavori per un tempo determinato: da 2 a 15 giorni di seduta alla [[camera-dei-deputati|Camera]], non più di 10 al Senato.\n\n### Il divieto di mandato imperativo\nPer l'art. 67 «ogni membro del [[parlamento|Parlamento]] rappresenta la Nazione ed esercita le sue funzioni senza vincolo di mandato». Il parlamentare rappresenta l'intera Nazione e non gli elettori del suo collegio: non può riceverne istruzioni vincolanti, anche se di fatto ne interpreterà i bisogni. Dal [[divieto-di-mandato-imperativo|divieto di mandato imperativo]] discende l'**irresponsabilità politica** durante il mandato: l'eletto **non può essere revocato**.\n\nIl divieto è però attenuato dalla presenza dei [[partiti-politici|partiti]], le cui direttive i parlamentari seguono. Due letture si fronteggiano:\n\n| Tesi | Autori | Argomento |\n|---|---|---|\n| il divieto è di fatto violato | Virga | il parlamentare diventa mero portavoce del partito |\n| il divieto resta fermo | Biscaretti, Mazziotti, Mortati | il parlamentare non è tenuto all'obbedienza e può sempre votare in modo difforme |\n\nA conferma della seconda tesi, i regolamenti danno al dissenziente il diritto di parlare in difformità dal gruppo (artt. 83 e 116 reg. Camera; art. 84 reg. Senato). Nella realtà la disciplina di partito si impone, perché i «ribelli» rischiano sanzioni politiche, fino all'espulsione dal partito o all'esclusione dalle liste: ma si tratta di conseguenze politiche, non della perdita del seggio. Il giudizio degli elettori arriva con la mancata rielezione, e per la stessa ragione i cambi di gruppo durante la legislatura sono leciti: il rappresentante non è né del tutto indipendente dalla società né un portavoce senza scelta.\n\n### Indennità e parlamentari pubblici impiegati\nPer l'art. 69 i parlamentari ricevono un'[[indennita-parlamentare|indennità]] stabilita dalla legge. La legge n. 1261/1965 la compone di quote mensili, comprensive dei rimborsi per segreteria e rappresentanza, fissate dagli Uffici di presidenza entro un tetto ancorato al trattamento dei [[magistratura|magistrati]] presidenti di sezione della Corte di cassazione; si aggiungono una diaria per il soggiorno a Roma, le agevolazioni di viaggio e un collaboratore. Al termine del mandato spetta un trattamento previdenziale (il vecchio «vitalizio», oggi calcolato con metodo contributivo). I parlamentari **pubblici impiegati** sono collocati in aspettativa e, per l'art. 98, non possono conseguire promozioni se non per anzianità.\n\n### Le guarentigie delle Camere nel loro complesso\nLe garanzie dell'assemblea si riflettono sui singoli (Romano):\n\n- **tutela penale** dell'esercizio delle funzioni (art. 289 c.p.) e contro il vilipendio (art. 290 c.p.), comune al [[presidente-della-repubblica|Presidente della Repubblica]] e al Governo;\n- [[immunita-della-sede|immunità della sede]]: la forza pubblica non può entrare nelle Camere se non autorizzata dal Presidente e dopo che la seduta è stata sospesa; l'ordine in aula dipende dal Presidente, che si avvale dei questori;\n- [[autonomia-contabile-camere|autonomia contabile]]: le Camere determinano da sé il proprio fabbisogno e gestiscono direttamente il fondo fornito dal Tesoro, senza controlli esterni.\n- [[autodichia|autodichia]]: le Camere decidono con propri organi le controversie con i loro dipendenti. L'autonomia non è però una zona franca: con la sentenza n. 120/2014 la Corte ha ricordato che i regolamenti non si impugnano nel giudizio sulle leggi, ma i confini dell'autonomia si fanno valere con il conflitto di attribuzione.",
+   "puntiChiave": [
+    "Sanzioni disciplinari: richiamo all'ordine, esclusione dall'aula, censura con interdizione dai lavori.",
+    "Art. 67: il parlamentare rappresenta la Nazione senza vincolo di mandato e non può essere revocato.",
+    "Per Virga la disciplina di partito viola il divieto; per Biscaretti, Mazziotti e Mortati no, perché il parlamentare può sempre dissentire.",
+    "Art. 69: indennità stabilita dalla legge (l. n. 1261/1965).",
+    "I parlamentari pubblici impiegati avanzano solo per anzianità (art. 98).",
+    "Guarentigie delle Camere: tutela penale, immunità della sede, autonomia contabile."
+   ],
+   "memoria": [
     {
-      "id": "u09-q001",
-      "tipo": "flashcard",
-      "lezione": "u09-l1",
-      "livello": "base",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica"
-      ],
-      "domanda": "Chi elegge il Presidente della Repubblica?",
-      "risposta": "Il Parlamento in seduta comune integrato dai delegati regionali: tre per regione, uno per la Valle d’Aosta, con rappresentanza delle minoranze."
+     "voce": "Art. 67",
+     "dettaglio": "rappresentanza della Nazione senza vincolo di mandato"
     },
     {
-      "id": "u09-q002",
-      "tipo": "flashcard",
-      "lezione": "u09-l1",
-      "livello": "base",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica"
-      ],
-      "domanda": "Quali maggioranze servono per eleggere il Presidente?",
-      "risposta": "Due terzi dell’assemblea nei primi tre scrutini; maggioranza assoluta dal quarto, sempre a scrutinio segreto."
+     "voce": "Art. 69",
+     "dettaglio": "indennità parlamentare"
     },
     {
-      "id": "u09-q003",
-      "tipo": "flashcard",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "supplenza-presidenziale"
-      ],
-      "domanda": "Chi esercita la supplenza del capo dello Stato?",
-      "risposta": "Il Presidente del Senato, quando il Presidente della Repubblica non può adempiere le proprie funzioni, ai sensi dell’art. 86."
+     "voce": "2–15 giorni / 10 giorni",
+     "dettaglio": "durata massima dell'interdizione dai lavori alla Camera / al Senato"
     },
     {
-      "id": "u09-q004",
-      "tipo": "flashcard",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "alto-tradimento",
-        "attentato-alla-costituzione"
-      ],
-      "domanda": "Chi accusa e chi giudica per i reati dell’art. 90?",
-      "risposta": "Accusa il Parlamento in seduta comune a maggioranza assoluta; giudica la Corte costituzionale integrata dai sedici giudici aggregati previsti."
+     "voce": "Artt. 289 e 290 c.p.",
+     "dettaglio": "tutela penale delle Camere"
     },
     {
-      "id": "u09-q005",
-      "tipo": "multipla",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica"
-      ],
-      "domanda": "Al quarto scrutinio quale maggioranza elegge il Presidente?",
-      "opzioni": [
-        "Relativa",
-        "Assoluta dell’assemblea",
-        "Due terzi dei votanti",
-        "Unanimità"
-      ],
-      "corretta": 1,
-      "spiegazione": "Dopo i primi tre scrutini la soglia scende dai due terzi alla maggioranza assoluta."
-    },
-    {
-      "id": "u09-q006",
-      "tipo": "multipla",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "supplenza-presidenziale"
-      ],
-      "domanda": "Il Presidente è temporaneamente impedito. Chi ne esercita le funzioni?",
-      "opzioni": [
-        "Il Presidente della Camera",
-        "Il Presidente del Senato",
-        "Il ministro dell’interno",
-        "Il presidente della Corte dei conti"
-      ],
-      "corretta": 1,
-      "spiegazione": "È la supplenza dell’art. 86; non si elegge automaticamente un nuovo titolare."
-    },
-    {
-      "id": "u09-q007",
-      "tipo": "verofalso",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica"
-      ],
-      "affermazione": "Il Presidente della Repubblica può essere sfiduciato come il Governo.",
-      "vero": false,
-      "spiegazione": "Non è legato da un rapporto fiduciario alle Camere."
-    },
-    {
-      "id": "u09-q008",
-      "tipo": "verofalso",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "alto-tradimento",
-        "attentato-alla-costituzione"
-      ],
-      "affermazione": "L’art. 90 esonera il Presidente da qualsiasi responsabilità anche per condotte private.",
-      "vero": false,
-      "spiegazione": "L’irresponsabilità è riferita agli atti funzionali, con le eccezioni costituzionali."
-    },
-    {
-      "id": "u09-q009",
-      "tipo": "completa",
-      "lezione": "u09-l1",
-      "livello": "base",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica"
-      ],
-      "testo": "Il Presidente deve avere almeno {{cinquanta|50}} anni e dura {{sette|7}} anni; dal {{quarto|4°}} scrutinio basta la maggioranza assoluta.",
-      "spiegazione": "Requisiti, durata e soglie sono distinti negli artt. 83–85."
-    },
-    {
-      "id": "u09-q010",
-      "tipo": "aperta",
-      "lezione": "u09-l1",
-      "livello": "avanzato",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica",
-        "supplenza-presidenziale",
-        "alto-tradimento",
-        "attentato-alla-costituzione"
-      ],
-      "domanda": "Quali garanzie assicurano autonomia e continuità alla Presidenza della Repubblica?",
-      "traccia": "L’elezione da parte del Parlamento in seduta comune integrato dai delegati regionali e le maggioranze ampie favoriscono un consenso più largo di quello governativo. Lo scrutinio segreto e il mandato di sette anni rafforzano l’autonomia rispetto alla singola legislatura. Il Presidente non dipende dalla fiducia e rappresenta l’unità nazionale, ma resta vincolato alla Costituzione. La continuità è garantita dalle regole sulla successione e dalla supplenza del Presidente del Senato quando il titolare non può svolgere le funzioni. Nei casi permanenti il Presidente della Camera indice l’elezione secondo i termini costituzionali. L’irresponsabilità dell’art. 90 protegge gli atti funzionali, senza creare impunità per qualsiasi condotta. Per alto tradimento o attentato alla Costituzione il Parlamento in seduta comune può accusare a maggioranza assoluta, mentre il giudizio spetta alla Corte costituzionale integrata. Le garanzie accompagnano quindi responsabilità e limiti, non un potere personale illimitato.",
-      "punti": [
-        {
-          "testo": "Elezione e mandato",
-          "chiavi": [
-            "maggioranze",
-            "sette"
-          ]
-        },
-        {
-          "testo": "Assenza di fiducia",
-          "chiavi": [
-            "fiducia",
-            "unità"
-          ]
-        },
-        {
-          "testo": "Continuità",
-          "chiavi": [
-            "supplenza",
-            "senato"
-          ]
-        },
-        {
-          "testo": "Responsabilità eccezionale",
-          "chiavi": [
-            "90",
-            "corte"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u09-q011",
-      "tipo": "flashcard",
-      "lezione": "u09-l2",
-      "livello": "base",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "controfirma"
-      ],
-      "domanda": "Che cosa garantisce e perché varia la funzione della controfirma?",
-      "risposta": "È requisito di validità e collega l’atto alla responsabilità ministeriale; il suo ruolo cambia secondo chi determina sostanzialmente il contenuto e quali controlli spettano ai partecipanti."
-    },
-    {
-      "id": "u09-q012",
-      "tipo": "flashcard",
-      "lezione": "u09-l2",
-      "livello": "base",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "rinvio-presidenziale",
-        "promulgazione"
-      ],
-      "domanda": "Il Presidente ha un veto definitivo sulle leggi?",
-      "risposta": "No. Può rinviare con messaggio motivato; se le Camere approvano nuovamente, l’art. 74 impone la promulgazione."
-    },
-    {
-      "id": "u09-q013",
-      "tipo": "flashcard",
-      "lezione": "u09-l2",
-      "livello": "medio",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "grazia"
-      ],
-      "domanda": "Chi decide sostanzialmente la grazia secondo la Corte costituzionale?",
-      "risposta": "Il Presidente della Repubblica. Il ministro della giustizia cura istruttoria e adempimenti, senza veto politico sulla determinazione presidenziale, secondo la sentenza n. 200/2006."
-    },
-    {
-      "id": "u09-q014",
-      "tipo": "flashcard",
-      "lezione": "u09-l2",
-      "livello": "medio",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "semestre-bianco",
-        "scioglimento-anticipato"
-      ],
-      "domanda": "Qual è l’eccezione al semestre bianco?",
-      "risposta": "Il divieto di scioglimento non opera se gli ultimi sei mesi del mandato presidenziale coincidono in tutto o in parte con gli ultimi sei mesi della legislatura."
-    },
-    {
-      "id": "u09-q015",
-      "tipo": "multipla",
-      "lezione": "u09-l2",
-      "livello": "medio",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "grazia",
-        "controfirma"
-      ],
-      "domanda": "Il ministro dissente politicamente da una grazia presidenziale. Può bloccarla per questo motivo?",
-      "opzioni": [
-        "Sì, la grazia è un suo potere esclusivo",
-        "No, la titolarità sostanziale è presidenziale e il ministro deve svolgere i compiti previsti",
-        "Sì, basta non aprire l’istruttoria",
-        "Decide il CNEL"
-      ],
-      "corretta": 1,
-      "spiegazione": "La sentenza n. 200/2006 distingue ruolo ministeriale e determinazione presidenziale."
-    },
-    {
-      "id": "u09-q016",
-      "tipo": "multipla",
-      "lezione": "u09-l2",
-      "livello": "medio",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "semestre-bianco"
-      ],
-      "domanda": "Il semestre bianco è un limite a quale potere?",
-      "opzioni": [
-        "Scioglimento delle Camere",
-        "Ogni discorso pubblico",
-        "Concessione di ogni grazia",
-        "Presidenza del CSM"
-      ],
-      "corretta": 0,
-      "spiegazione": "L’art. 88 riguarda la facoltà di scioglimento e prevede un’eccezione per le scadenze coincidenti."
-    },
-    {
-      "id": "u09-q017",
-      "tipo": "verofalso",
-      "lezione": "u09-l2",
-      "livello": "medio",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "controfirma"
-      ],
-      "affermazione": "La forma di decreto presidenziale prova sempre che il contenuto è stato deciso autonomamente dal Presidente.",
-      "vero": false,
-      "spiegazione": "Molti atti formalmente presidenziali hanno contenuto governativo e un controllo presidenziale."
-    },
-    {
-      "id": "u09-q018",
-      "tipo": "verofalso",
-      "lezione": "u09-l2",
-      "livello": "medio",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "consiglio-supremo-di-difesa"
-      ],
-      "affermazione": "Il Consiglio supremo di difesa sostituisce il Parlamento nella deliberazione dello stato di guerra.",
-      "vero": false,
-      "spiegazione": "Restano le attribuzioni delle Camere e degli altri organi previste dalla Costituzione."
-    },
-    {
-      "id": "u09-q019",
-      "tipo": "completa",
-      "lezione": "u09-l2",
-      "livello": "base",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "controfirma",
-        "promulgazione",
-        "rinvio-presidenziale",
-        "grazia"
-      ],
-      "testo": "La controfirma è regolata dall’art. {{89}}; il rinvio delle leggi dal {{74}}; lo scioglimento dal {{88}}.",
-      "spiegazione": "La presenza di più organi negli atti serve a regolare decisione, controllo e responsabilità."
-    },
-    {
-      "id": "u09-q020",
-      "tipo": "aperta",
-      "lezione": "u09-l2",
-      "livello": "avanzato",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "controfirma",
-        "promulgazione",
-        "rinvio-presidenziale",
-        "grazia",
-        "scioglimento-anticipato",
-        "semestre-bianco",
-        "consiglio-supremo-di-difesa"
-      ],
-      "domanda": "Spiega come la controfirma possa operare anche in un atto sostanzialmente presidenziale.",
-      "traccia": "L’art. 89 richiede la controfirma per la validità degli atti presidenziali nelle forme previste, ma non stabilisce che ogni contenuto sia deciso dal Governo. Negli atti sostanzialmente governativi il Governo determina la scelta e il capo dello Stato esercita le proprie funzioni di controllo. Negli atti propriamente presidenziali la controfirma ministeriale ha invece un ruolo coerente con la competenza del Presidente e non si trasforma automaticamente in un veto politico. La grazia lo mostra chiaramente: la sentenza n. 200/2006 attribuisce al Presidente la decisione sostanziale per le finalità umanitarie dell’istituto; il ministro cura istruttoria e adempimenti e può indicare obiezioni, ma non vanificare la determinazione presidenziale per dissenso. Altri atti richiedono il concorso di più organi e sono classificati come complessi. La classificazione va quindi usata per ricostruire competenze e responsabilità, evitando di considerare la firma una formalità o un identico trasferimento di ogni responsabilità.",
-      "punti": [
-        {
-          "testo": "Validità",
-          "chiavi": [
-            "89",
-            "controfirma"
-          ]
-        },
-        {
-          "testo": "Contenuto e funzione variabili",
-          "chiavi": [
-            "governativi",
-            "presidenziali"
-          ]
-        },
-        {
-          "testo": "Esempio della grazia",
-          "chiavi": [
-            "2006",
-            "istruttoria"
-          ]
-        },
-        {
-          "testo": "Concorso fra organi",
-          "chiavi": [
-            "competenze",
-            "responsabilità"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u09-q021",
-      "tipo": "ordina",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica",
-        "supplenza-presidenziale",
-        "alto-tradimento",
-        "attentato-alla-costituzione"
-      ],
-      "consegna": "Ordina le fasi di una successione presidenziale ordinaria senza dilazioni.",
-      "elementi": [
-        "Convocazione del collegio da parte del Presidente della Camera prima della scadenza",
-        "Votazioni a scrutinio segreto con le maggioranze dell’art. 83",
-        "Elezione del nuovo Presidente",
-        "Giuramento davanti al Parlamento in seduta comune e assunzione delle funzioni"
-      ],
-      "spiegazione": "L’elezione precede il giuramento dell’art. 91."
-    },
-    {
-      "id": "u09-q022",
-      "tipo": "abbina",
-      "lezione": "u09-l1",
-      "livello": "base",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica",
-        "supplenza-presidenziale",
-        "alto-tradimento",
-        "attentato-alla-costituzione"
-      ],
-      "consegna": "Abbina l’articolo all’attribuzione.",
-      "coppie": [
-        [
-          "Art. 83",
-          "Elezione presidenziale"
-        ],
-        [
-          "Art. 86",
-          "Supplenza"
-        ],
-        [
-          "Art. 89",
-          "Controfirma"
-        ],
-        [
-          "Art. 90",
-          "Responsabilità funzionale eccezionale"
-        ]
-      ]
-    },
-    {
-      "id": "u09-q023",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica"
-      ],
-      "tipo": "multipla",
-      "domanda": "Quale maggioranza serve per eleggere il Presidente della Repubblica dal quarto scrutinio?",
-      "opzioni": [
-        "Due terzi dell'assemblea",
-        "Maggioranza assoluta dell'assemblea",
-        "Maggioranza dei presenti",
-        "Tre quinti dei votanti"
-      ],
-      "corretta": 1,
-      "spiegazione": "Art. 83: due terzi nei primi tre scrutini, maggioranza assoluta dal quarto. Vota il Parlamento in seduta comune integrato dai delegati regionali."
-    },
-    {
-      "id": "u09-q024",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica",
-        "alto-tradimento",
-        "attentato-alla-costituzione"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Il Presidente della Repubblica risponde penalmente di tutti gli atti compiuti nell'esercizio delle sue funzioni.",
-      "vero": false,
-      "spiegazione": "Per gli atti funzionali non è responsabile, tranne che per alto tradimento e attentato alla Costituzione (art. 90). La responsabilità è assunta dai ministri che controfirmano."
-    },
-    {
-      "id": "u09-q025",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "supplenza-presidenziale"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Chi sostituisce il Presidente della Repubblica quando non può adempiere le sue funzioni?",
-      "risposta": "Il Presidente del Senato (art. 86). Se l'impedimento è permanente, o in caso di morte o dimissioni, il Presidente della Camera indice l'elezione del nuovo Presidente entro quindici giorni."
-    },
-    {
-      "id": "u09-q026",
-      "lezione": "u09-l2",
-      "livello": "medio",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "rinvio-presidenziale",
-        "promulgazione"
-      ],
-      "tipo": "multipla",
-      "domanda": "Il Presidente della Repubblica ritiene che una legge appena approvata sia priva di copertura finanziaria. Che cosa può fare?",
-      "opzioni": [
-        "Rifiutare definitivamente la promulgazione",
-        "Annullare la legge",
-        "Rinviarla alle Camere con messaggio motivato; se è riapprovata deve promulgarla",
-        "Sottoporla a referendum"
-      ],
-      "corretta": 2,
-      "spiegazione": "Art. 74: il rinvio è un veto solo sospensivo e si può esercitare una volta sola sulla stessa legge."
-    },
-    {
-      "id": "u09-q027",
-      "lezione": "u09-l2",
-      "livello": "avanzato",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "semestre-bianco",
-        "scioglimento-anticipato"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Negli ultimi sei mesi del mandato il Presidente non può mai sciogliere le Camere.",
-      "vero": false,
-      "spiegazione": "Il divieto del semestre bianco cade se quei mesi coincidono, in tutto o in parte, con gli ultimi sei mesi della legislatura (art. 88, modificato nel 1991)."
-    },
-    {
-      "id": "u09-q028",
-      "lezione": "u09-l2",
-      "livello": "avanzato",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "controfirma"
-      ],
-      "tipo": "flashcard",
-      "domanda": "A che cosa serve la controfirma e che cosa cambia secondo il tipo di atto?",
-      "risposta": "Nessun atto del Presidente è valido senza la controfirma del ministro proponente, che ne assume la responsabilità (art. 89). Negli atti sostanzialmente governativi il contenuto è deciso dal Governo e il Presidente controlla; in quelli sostanzialmente presidenziali decide il Presidente e la controfirma attesta la regolarità; negli atti complessi le due volontà concorrono."
-    },
-    {
-      "id": "u09-q029",
-      "lezione": "u09-l2",
-      "livello": "avanzato",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "controfirma",
-        "presidente-della-repubblica",
-        "grazia",
-        "scioglimento-anticipato"
-      ],
-      "tipo": "aperta",
-      "domanda": "Classifichi gli atti del Presidente della Repubblica in base al ruolo della controfirma.",
-      "traccia": "Per l'**art. 89** nessun atto del Presidente è valido se non è **controfirmato** dai ministri proponenti, che ne assumono la **responsabilità**; gli atti con valore legislativo e gli altri indicati dalla legge sono controfirmati anche dal Presidente del Consiglio. La regola nasce dall'**irresponsabilità** politica del capo dello Stato (art. 90). La dottrina distingue tre gruppi.\n\n**Atti formalmente presidenziali e sostanzialmente governativi**: il contenuto è deciso dal Governo; il Presidente esercita un **controllo** e può chiedere un riesame. Esempi: emanazione di decreti-legge, decreti legislativi e regolamenti; nomina dei funzionari.\n\n**Atti formalmente e sostanzialmente presidenziali**: decide il Presidente, e la controfirma attesta solo la **regolarità** del procedimento. Esempi: nomina dei cinque giudici costituzionali e dei senatori a vita, **rinvio** delle leggi, messaggi alle Camere, **grazia** (Corte cost. 200/2006).\n\n**Atti complessi**: le due volontà **concorrono**. Esempi: nomina del Presidente del Consiglio, **scioglimento anticipato** delle Camere.",
-      "punti": [
-        {
-          "testo": "La controfirma è condizione di validità e sposta la responsabilità",
-          "chiavi": [
-            "valid",
-            "responsabil"
-          ]
-        },
-        {
-          "testo": "Atti sostanzialmente governativi: il Presidente controlla",
-          "chiavi": [
-            "governativ",
-            "controll"
-          ]
-        },
-        {
-          "testo": "Atti sostanzialmente presidenziali: giudici costituzionali, senatori a vita, rinvio, grazia",
-          "chiavi": [
-            "presidenzial",
-            "grazia",
-            "rinvio"
-          ]
-        },
-        {
-          "testo": "Atti complessi: nomina del Presidente del Consiglio e scioglimento",
-          "chiavi": [
-            "compless",
-            "scioglimento"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u09-q030",
-      "lezione": "u09-l1",
-      "pagine": [
-        80,
-        83
-      ],
-      "serie": "procedimenti",
-      "tipo": "ordina",
-      "livello": "medio",
-      "consegna": "L'elezione del Presidente della Repubblica (artt. 83–86): metti i passi nell'ordine giusto.",
-      "elementi": [
-        "Convocazione",
-        "Chi vota",
-        "Votazione",
-        "Giuramento"
-      ],
-      "spiegazione": "1. **Convocazione** (Presidente della Camera): Trenta giorni prima della scadenza del mandato convoca il Parlamento in seduta comune e i delegati regionali.\n2. **Chi vota** (Deputati, senatori, delegati regionali): Ogni Consiglio regionale elegge tre delegati, in modo da rappresentare le minoranze; la Valle d'Aosta ne ha uno.\n3. **Votazione** (Assemblea): Scrutinio segreto.\n   - Primi tre scrutini → servono i due terzi dell'assemblea\n   - Dal quarto scrutinio → basta la maggioranza assoluta\n4. **Giuramento** (Presidente eletto): Prima di assumere le funzioni giura fedeltà alla Repubblica e osservanza della Costituzione davanti al Parlamento in seduta comune (art. 91).\n5. **Mandato**: Sette anni. In caso di impedimento le funzioni sono esercitate dal Presidente del Senato.",
-      "concetti": [
-        "parlamento-in-seduta-comune",
-        "regioni",
-        "presidente-della-repubblica",
-        "supplenza-presidenziale"
-      ]
-    },
-    {
-      "id": "u09-q031",
-      "lezione": "u09-l1",
-      "pagine": [
-        80,
-        83
-      ],
-      "serie": "procedimenti",
-      "tipo": "aperta",
-      "livello": "avanzato",
-      "domanda": "Come viene eletto il Presidente della Repubblica?",
-      "traccia": "Maggioranze alte per avere un Presidente che non sia solo della maggioranza di governo.\n\n**Convocazione** (Presidente della Camera). Trenta giorni prima della scadenza del mandato convoca il Parlamento in seduta comune e i delegati regionali.\n\n**Chi vota** (Deputati, senatori, delegati regionali). Ogni Consiglio regionale elegge tre delegati, in modo da rappresentare le minoranze; la Valle d'Aosta ne ha uno.\n\n**Votazione** (Assemblea). Scrutinio segreto. Primi tre scrutini: servono i due terzi dell'assemblea. Dal quarto scrutinio: basta la maggioranza assoluta.\n\n**Giuramento** (Presidente eletto). Prima di assumere le funzioni giura fedeltà alla Repubblica e osservanza della Costituzione davanti al Parlamento in seduta comune (art. 91).\n\n**Mandato**. Sette anni. In caso di impedimento le funzioni sono esercitate dal Presidente del Senato.",
-      "punti": [
-        {
-          "testo": "Convocazione: Trenta giorni prima della scadenza del mandato convoca il Parlamento in seduta comune e i delegati regionali",
-          "chiavi": [
-            "convoca",
-            "trenta",
-            "scadenz"
-          ]
-        },
-        {
-          "testo": "Chi vota: Ogni Consiglio regionale elegge tre delegati, in modo da rappresentare le minoranze; la Valle d'Aosta ne ha uno",
-          "chiavi": [
-            "consigl",
-            "regiona",
-            "elegge"
-          ]
-        },
-        {
-          "testo": "Votazione: Scrutinio segreto",
-          "chiavi": [
-            "votazio",
-            "scrutin",
-            "segreto"
-          ]
-        },
-        {
-          "testo": "Giuramento: Prima di assumere le funzioni giura fedeltà alla Repubblica e osservanza della Costituzione davanti al Parlamento in seduta comune (art",
-          "chiavi": [
-            "giurame",
-            "assumer",
-            "funzion"
-          ]
-        },
-        {
-          "testo": "Mandato: Sette anni",
-          "chiavi": [
-            "mandato",
-            "impedim",
-            "funzion"
-          ]
-        }
-      ],
-      "concetti": [
-        "parlamento-in-seduta-comune",
-        "regioni",
-        "presidente-della-repubblica",
-        "supplenza-presidenziale"
-      ]
-    },
-    {
-      "id": "u09-q032",
-      "lezione": "u09-l1",
-      "pagine": [
-        80,
-        83
-      ],
-      "serie": "procedimenti",
-      "tipo": "flashcard",
-      "livello": "medio",
-      "domanda": "L'elezione del Presidente della Repubblica, passo «Votazione»: quali esiti sono possibili?",
-      "risposta": "Primi tre scrutini: servono i due terzi dell'assemblea. Dal quarto scrutinio: basta la maggioranza assoluta.",
-      "concetti": [
-        "presidente-della-repubblica"
-      ]
-    },
-    {
-      "id": "u09-q033",
-      "lezione": "u09-l1",
-      "livello": "medio",
-      "pagine": [
-        80,
-        83
-      ],
-      "concetti": [
-        "presidente-della-repubblica",
-        "controfirma",
-        "supplenza-presidenziale"
-      ],
-      "tipo": "aperta",
-      "domanda": "Parli del Presidente della Repubblica: elezione, ruolo, atti e responsabilità.",
-      "traccia": "Per l'**art. 87** il Presidente è il **capo dello Stato** e rappresenta l'**unità nazionale**: non partecipa all'indirizzo politico di maggioranza, ma garantisce il funzionamento del sistema.\n\n**Elezione** (artt. 83–85): lo elegge il **Parlamento in seduta comune**, integrato da tre delegati per ogni Regione (uno per la Valle d'Aosta), a **scrutinio segreto**; servono i **due terzi** dell'assemblea nei primi tre scrutini, poi la **maggioranza assoluta**. Può essere eletto ogni cittadino che abbia **cinquant'anni** e goda dei diritti civili e politici. Il mandato dura **sette anni**; in caso di impedimento lo supplisce il **Presidente del Senato** (art. 86).\n\n**Atti**: nessun atto è valido senza la **controfirma** del ministro proponente, che ne assume la responsabilità (art. 89). Si distinguono atti formalmente presidenziali ma sostanzialmente governativi (emanazione dei decreti), atti sostanzialmente presidenziali (nomina di cinque giudici costituzionali e dei senatori a vita, rinvio delle leggi, messaggi) e atti complessi (nomina del Presidente del Consiglio, scioglimento delle Camere, vietato nel **semestre bianco**). Presiede il CSM e il Consiglio supremo di difesa.\n\n**Responsabilità** (art. 90): non risponde degli atti compiuti nell'esercizio delle funzioni, salvo **alto tradimento** e **attentato alla Costituzione**; lo accusa il Parlamento in seduta comune a maggioranza assoluta e lo giudica la Corte costituzionale integrata.",
-      "punti": [
-        {
-          "testo": "Capo dello Stato, rappresenta l'unità nazionale (art. 87)",
-          "chiavi": [
-            "unità nazionale",
-            "capo dello stato",
-            "87"
-          ]
-        },
-        {
-          "testo": "Elezione: Parlamento in seduta comune con i delegati regionali",
-          "chiavi": [
-            "seduta comune",
-            "delegati"
-          ]
-        },
-        {
-          "testo": "Maggioranze: due terzi, poi maggioranza assoluta dal quarto scrutinio",
-          "chiavi": [
-            "due terzi",
-            "assoluta"
-          ]
-        },
-        {
-          "testo": "Sette anni, cinquant'anni di età, supplenza del Presidente del Senato",
-          "chiavi": [
-            "sette",
-            "cinquant",
-            "supplenz"
-          ]
-        },
-        {
-          "testo": "Controfirma e tipi di atti presidenziali",
-          "chiavi": [
-            "controfirma",
-            "sostanzialmente"
-          ]
-        },
-        {
-          "testo": "Irresponsabilità salvo alto tradimento e attentato alla Costituzione",
-          "chiavi": [
-            "alto tradimento",
-            "attentato",
-            "90"
-          ]
-        }
-      ],
-      "esame": [
-        "torre"
-      ]
-    },
-    {
-      "id": "u09-q034",
-      "lezione": "u09-l2",
-      "livello": "medio",
-      "pagine": [
-        82,
-        87
-      ],
-      "concetti": [
-        "messaggio-presidenziale",
-        "presidente-della-repubblica",
-        "rinvio-presidenziale"
-      ],
-      "tipo": "aperta",
-      "domanda": "Che cosa sono i messaggi presidenziali e in che cosa si distinguono dalle esternazioni?",
-      "traccia": "La Costituzione conosce due tipi di messaggi del Presidente della Repubblica alle Camere.\n\nIl primo è il **messaggio «libero»** dell'**art. 87**: il Presidente «può inviare messaggi alle Camere». Il contenuto non è vincolato: di solito richiama l'attenzione del Parlamento su un problema istituzionale. L'invio non apre necessariamente un dibattito e non obbliga le Camere a provvedere. È un potere usato di rado, proprio perché solenne.\n\nIl secondo è il **messaggio motivato** dell'**art. 74**: prima di promulgare una legge il Presidente può chiedere alle Camere una **nuova deliberazione**, indicando i motivi del rinvio. Se le Camere approvano di nuovo la legge, questa deve essere promulgata.\n\nEntrambi sono **atti formali**: richiedono la **controfirma** (art. 89), ma appartengono agli atti **sostanzialmente presidenziali**, perché il contenuto è deciso dal capo dello Stato e il Governo si limita a certificarne la regolarità.\n\nDiverse sono le **esternazioni atipiche**: messaggi alla nazione, discorsi pubblici, lettere, interviste, conferenze stampa. Hanno come destinatario l'opinione pubblica e, per loro natura, **non sono controfirmate**. Con messaggi ed esternazioni il Presidente esercita una funzione di stimolo e di garanzia, non un indirizzo politico di parte.",
-      "punti": [
-        {
-          "testo": "Messaggi liberi alle Camere: art. 87",
-          "chiavi": [
-            "87",
-            "liber"
-          ]
-        },
-        {
-          "testo": "Messaggio motivato di rinvio delle leggi: art. 74",
-          "chiavi": [
-            "74",
-            "rinvio",
-            "motivat"
-          ]
-        },
-        {
-          "testo": "Non aprono necessariamente un dibattito né obbligano le Camere",
-          "chiavi": [
-            "dibattito",
-            "obblig"
-          ]
-        },
-        {
-          "testo": "Atti formali controfirmati ma sostanzialmente presidenziali",
-          "chiavi": [
-            "controfirma",
-            "sostanzialmente"
-          ]
-        },
-        {
-          "testo": "Esternazioni atipiche: rivolte all'opinione pubblica, senza controfirma",
-          "chiavi": [
-            "esternazion",
-            "opinione pubblica",
-            "atipich"
-          ]
-        }
-      ],
-      "esame": [
-        "torre"
-      ]
+     "voce": "Art. 98",
+     "dettaglio": "parlamentari pubblici impiegati: promozioni solo per anzianità"
     }
+   ],
+   "concetti": [
+    "sanzioni-disciplinari-parlamentari",
+    "divieto-di-mandato-imperativo",
+    "indennita-parlamentare",
+    "immunita-della-sede",
+    "autonomia-contabile-camere",
+    "prerogative-parlamentari",
+    "autodichia",
+    "rappresentanza-politica"
+   ]
+  }
+ ],
+ "concetti": [
+  {
+   "id": "prerogative-parlamentari",
+   "nome": "Guarentigie parlamentari",
+   "tipo": "istituto",
+   "alias": [
+    "prerogative parlamentari",
+    "status di parlamentare",
+    "guarentigie"
+   ],
+   "breve": "Garanzie dello status di deputato e senatore previste dall'art. 68 a tutela della funzione.",
+   "definizione": "Sono le garanzie che accompagnano lo status di parlamentare, cioè la posizione complessiva di deputati e senatori, acquistata con la proclamazione. Previste dall'art. 68, comprendono l'insindacabilità per le opinioni e i voti e le immunità relative alla libertà personale, domiciliare e di comunicazione. Sono strettamente connesse alla funzione: tutelano il singolo e insieme l'assemblea, perché le Camere sono indipendenti solo se lo sono i loro componenti. Vi si affiancano le guarentigie delle Camere nel loro complesso (tutela penale, immunità della sede, autonomia contabile). Non sono privilegi personali ma tutele della funzione: il parlamentare non può rinunciarvi e, poiché derogano all'eguaglianza, vanno interpretate in modo rigoroso.",
+   "pagine": [
+    75,
+    78
+   ]
+  },
+  {
+   "id": "insindacabilita-parlamentare",
+   "nome": "Insindacabilità parlamentare",
+   "tipo": "istituto",
+   "alias": [
+    "irresponsabilità per le opinioni e i voti"
+   ],
+   "breve": "Irresponsabilità dei parlamentari per le opinioni espresse e i voti dati nell'esercizio delle funzioni.",
+   "definizione": "Prevista dall'art. 68, primo comma, esenta deputati e senatori da ogni responsabilità civile, penale, amministrativa e disciplinare per le opinioni e i voti, e permane dopo la fine del mandato. Non copre i fatti materiali né le opinioni estranee alla funzione. La Corte costituzionale richiede un nesso funzionale tra dichiarazione e attività parlamentare (sent. n. 58/2000), esclude gli insulti (n. 137/2001) e ammette il sindacato anche su opinioni rese in sede parlamentare prive di quel nesso (n. 509/2002). Vale anche per i consiglieri regionali (art. 122). Se la Camera delibera che un fatto è insindacabile, il giudice che non è d'accordo può sollevare conflitto di attribuzione davanti alla Corte costituzionale.",
+   "pagine": [
+    75,
+    76
+   ]
+  },
+  {
+   "id": "immunita-parlamentari",
+   "nome": "Immunità parlamentari",
+   "tipo": "istituto",
+   "alias": [
+    "autorizzazione a procedere",
+    "inviolabilità"
+   ],
+   "breve": "Necessità dell'autorizzazione della Camera per arresti, perquisizioni e intercettazioni dei parlamentari.",
+   "definizione": "Per l'art. 68, secondo e terzo comma, senza autorizzazione della Camera di appartenenza il parlamentare non può essere perquisito, arrestato o privato della libertà personale (salvo flagranza di un delitto con arresto obbligatorio o sentenza irrevocabile di condanna), né sottoposto a intercettazioni o a sequestro di corrispondenza. La legge costituzionale n. 3/1993 ha abolito l'autorizzazione a procedere, cioè quella per il processo penale, fonte di abusi. Le immunità garantiscono la continuità della funzione e l'integrità numerica delle Camere; la legge n. 140/2003 ne regola l'attuazione. Dette anche inviolabilità, valgono solo durante il mandato e non escludono la responsabilità, a differenza dell'insindacabilità.",
+   "pagine": [
+    76,
+    76
+   ]
+  },
+  {
+   "id": "giuri-d-onore",
+   "nome": "Giurì d'onore",
+   "tipo": "organo",
+   "alias": [],
+   "breve": "Commissione nominata dal Presidente per accertare accuse lesive dell'onorabilità di un parlamentare.",
+   "definizione": "È la commissione che il parlamentare, accusato nel corso di una discussione di fatti che ledono la sua onorabilità, può chiedere al Presidente dell'Assemblea di nominare (art. 58 del regolamento della Camera, art. 88 di quello del Senato). Il giurì accerta la fondatezza dei fatti e riferisce al Presidente; l'Assemblea prende atto delle conclusioni senza dibattito. È il rimedio interno che bilancia l'insindacabilità: chi è offeso in aula non può agire in giudizio contro il collega, ma può ottenere un accertamento parlamentare.",
+   "pagine": [
+    75,
+    76
+   ]
+  },
+  {
+   "id": "sospensione-processi-alte-cariche",
+   "nome": "Sospensione dei processi per le alte cariche",
+   "tipo": "norma",
+   "alias": [
+    "lodo Schifani",
+    "lodo Alfano"
+   ],
+   "breve": "Leggi del 2003 e del 2008 che sospendevano i processi penali delle più alte cariche: entrambe illegittime.",
+   "definizione": "L'art. 1 della legge n. 140/2003 sospendeva i processi penali, anche per fatti anteriori, a carico dei Presidenti della Repubblica, delle Camere, del Consiglio e della Corte costituzionale: la sentenza n. 24/2004 lo ha dichiarato illegittimo per contrasto con gli artt. 3 e 24. La legge n. 124/2008 ha riproposto la sospensione per quattro cariche, escluso il Presidente della Corte: la sentenza n. 262/2009 l'ha annullata per violazione degli artt. 3 e 138, perché una simile deroga al regime processuale comune non può farsi con legge ordinaria.",
+   "pagine": [
+    76,
+    77
+   ]
+  },
+  {
+   "id": "sanzioni-disciplinari-parlamentari",
+   "nome": "Sanzioni disciplinari dei parlamentari",
+   "tipo": "istituto",
+   "alias": [
+    "richiamo all'ordine",
+    "censura"
+   ],
+   "breve": "Richiamo all'ordine, esclusione dall'aula e censura irrogati dal Presidente o dall'Ufficio di presidenza.",
+   "definizione": "Sono le misure con cui ciascuna Camera reagisce ai comportamenti che turbano i lavori. Il richiamo all'ordine colpisce le parole sconvenienti; l'esclusione dall'aula segue al secondo richiamo o ai casi più gravi (ingiurie, vie di fatto, appello alla violenza); la censura comporta l'interdizione dai lavori per un tempo determinato, da 2 a 15 giorni di seduta alla Camera e fino a 10 al Senato. Le dispone il Presidente o l'Ufficio (al Senato Consiglio) di presidenza: sono espressione dell'autonomia interna delle Camere.",
+   "pagine": [
+    77,
+    77
+   ]
+  },
+  {
+   "id": "divieto-di-mandato-imperativo",
+   "nome": "Divieto di mandato imperativo",
+   "tipo": "istituto",
+   "alias": [
+    "libero mandato",
+    "senza vincolo di mandato"
+   ],
+   "breve": "Regola dell'art. 67: il parlamentare rappresenta la Nazione e non riceve istruzioni vincolanti.",
+   "definizione": "Per l'art. 67 ogni membro del Parlamento rappresenta la Nazione ed esercita le funzioni senza vincolo di mandato: non può ricevere dagli elettori del collegio disposizioni vincolanti e non può essere revocato (irresponsabilità politica durante il mandato). La disciplina di partito lo attenua di fatto: per Virga lo viola, riducendo l'eletto a portavoce; per Biscaretti, Mazziotti e Mortati no, perché il parlamentare può sempre dissentire, come riconoscono i regolamenti. Le sanzioni del partito (espulsione, esclusione dalle liste) sono politiche e non toccano il seggio. Per la stessa ragione sono leciti i cambi di gruppo durante la legislatura; la sanzione più grave della disciplina di partito resta politica (espulsione dal gruppo, mancata ricandidatura).",
+   "pagine": [
+    77,
+    78
+   ]
+  },
+  {
+   "id": "indennita-parlamentare",
+   "nome": "Indennità parlamentare",
+   "tipo": "istituto",
+   "alias": [
+    "diaria",
+    "vitalizio"
+   ],
+   "breve": "Compenso dei parlamentari stabilito dalla legge (art. 69).",
+   "definizione": "L'art. 69 dispone che i membri del Parlamento ricevano un'indennità stabilita dalla legge: serve a garantire che chiunque possa esercitare il mandato, indipendentemente dal reddito. La legge n. 1261/1965 la compone di quote mensili, comprensive dei rimborsi di segreteria e rappresentanza, fissate dagli Uffici di presidenza entro il limite del trattamento dei magistrati presidenti di sezione della Corte di cassazione. Si aggiungono una diaria di soggiorno, agevolazioni di viaggio, un collaboratore e, a fine mandato, un trattamento previdenziale oggi contributivo.",
+   "pagine": [
+    78,
+    78
+   ]
+  },
+  {
+   "id": "immunita-della-sede",
+   "nome": "Immunità della sede",
+   "tipo": "istituto",
+   "alias": [],
+   "breve": "Divieto per la forza pubblica di entrare nelle Camere senza autorizzazione del Presidente.",
+   "definizione": "È una delle guarentigie delle Camere nel loro complesso: la polizia e ogni altra forza dell'ordine o giudiziaria non possono entrare nelle sedi parlamentari se non autorizzate dal Presidente della Camera interessata e solo dopo che la seduta è stata sospesa. I poteri per mantenere l'ordine in aula spettano al Presidente, che li esercita direttamente o li delega ai questori, con l'ausilio della guardia di servizio. Insieme alla tutela penale (artt. 289 e 290 c.p.) e all'autonomia contabile protegge l'indipendenza dell'assemblea.",
+   "pagine": [
+    78,
+    78
+   ]
+  },
+  {
+   "id": "autonomia-contabile-camere",
+   "nome": "Autonomia contabile delle Camere",
+   "tipo": "istituto",
+   "alias": [],
+   "breve": "Potere delle Camere di determinare e gestire da sé le proprie risorse senza controlli esterni.",
+   "definizione": "È la guarentigia per cui ciascuna Camera determina da sé il proprio fabbisogno finanziario e gestisce direttamente il fondo che le è somministrato dal Tesoro dello Stato, senza essere sottoposta ad alcun controllo esterno, nemmeno della Corte dei conti. Il progetto di bilancio e il rendiconto sono deliberati dall'Ufficio di presidenza. Come l'immunità della sede e la tutela penale, è una garanzia dell'assemblea nel suo insieme che si riflette sui singoli componenti, e rientra nella più ampia indipendenza delle Camere dagli altri poteri.",
+   "pagine": [
+    78,
+    78
+   ]
+  }
+ ],
+ "relazioni": [
+  {
+   "da": "insindacabilita-parlamentare",
+   "a": "prerogative-parlamentari",
+   "tipo": "parte-di",
+   "etichetta": "è una delle"
+  },
+  {
+   "da": "immunita-parlamentari",
+   "a": "prerogative-parlamentari",
+   "tipo": "parte-di",
+   "etichetta": "sono una delle"
+  },
+  {
+   "da": "insindacabilita-parlamentare",
+   "a": "immunita-parlamentari",
+   "tipo": "contrasta",
+   "etichetta": "si distingue dalle"
+  },
+  {
+   "da": "giuri-d-onore",
+   "a": "insindacabilita-parlamentare",
+   "tipo": "collegato",
+   "etichetta": "bilancia l'"
+  },
+  {
+   "da": "corte-costituzionale",
+   "a": "insindacabilita-parlamentare",
+   "tipo": "interpreta",
+   "etichetta": "delimita l'"
+  },
+  {
+   "da": "sospensione-processi-alte-cariche",
+   "a": "immunita-parlamentari",
+   "tipo": "collegato",
+   "etichetta": "tentava di affiancarsi alle"
+  },
+  {
+   "da": "corte-costituzionale",
+   "a": "sospensione-processi-alte-cariche",
+   "tipo": "supera",
+   "etichetta": "ha annullato la"
+  },
+  {
+   "da": "sospensione-processi-alte-cariche",
+   "a": "principio-di-uguaglianza",
+   "tipo": "contrasta",
+   "etichetta": "violava il"
+  },
+  {
+   "da": "sanzioni-disciplinari-parlamentari",
+   "a": "prerogative-parlamentari",
+   "tipo": "collegato",
+   "etichetta": "limitano dall'interno le"
+  },
+  {
+   "da": "sanzioni-disciplinari-parlamentari",
+   "a": "giuri-d-onore",
+   "tipo": "collegato",
+   "etichetta": "appartengono come il"
+  },
+  {
+   "da": "divieto-di-mandato-imperativo",
+   "a": "rappresentanza-politica",
+   "tipo": "parte-di",
+   "etichetta": "qualifica la"
+  },
+  {
+   "da": "partiti-politici",
+   "a": "divieto-di-mandato-imperativo",
+   "tipo": "contrasta",
+   "etichetta": "attenuano di fatto il"
+  },
+  {
+   "da": "divieto-di-mandato-imperativo",
+   "a": "gruppi-parlamentari",
+   "tipo": "influenza",
+   "etichetta": "limita la disciplina dei"
+  },
+  {
+   "da": "indennita-parlamentare",
+   "a": "prerogative-parlamentari",
+   "tipo": "collegato",
+   "etichetta": "completa le"
+  },
+  {
+   "da": "indennita-parlamentare",
+   "a": "divieto-di-mandato-imperativo",
+   "tipo": "collegato",
+   "etichetta": "sostiene l'indipendenza garantita dal"
+  },
+  {
+   "da": "immunita-della-sede",
+   "a": "parlamento",
+   "tipo": "collegato",
+   "etichetta": "protegge il"
+  },
+  {
+   "da": "immunita-della-sede",
+   "a": "prerogative-parlamentari",
+   "tipo": "collegato",
+   "etichetta": "si affianca alle"
+  },
+  {
+   "da": "autonomia-contabile-camere",
+   "a": "parlamento",
+   "tipo": "collegato",
+   "etichetta": "garantisce l'indipendenza del"
+  },
+  {
+   "da": "autonomia-contabile-camere",
+   "a": "immunita-della-sede",
+   "tipo": "collegato",
+   "etichetta": "si affianca all'"
+  },
+  {
+   "da": "prerogative-parlamentari",
+   "a": "parlamento",
+   "tipo": "collegato",
+   "etichetta": "tutelano l'indipendenza del"
+  },
+  {
+   "da": "autodichia",
+   "a": "prerogative-parlamentari",
+   "tipo": "parte-di",
+   "etichetta": "è una delle"
+  }
+ ],
+ "eventi": [
+  {
+   "id": "ev-legge-indennita-1965",
+   "anno": 1965,
+   "data": "31 ottobre 1965",
+   "titolo": "Legge n. 1261/1965 sull'indennità parlamentare",
+   "descrizione": "Determina la composizione dell'indennità spettante ai membri del Parlamento in attuazione dell'art. 69.",
+   "tipo": "legge",
+   "concetti": [
+    "indennita-parlamentare"
+   ],
+   "pagine": [
+    78,
+    78
+   ]
+  },
+  {
+   "id": "ev-riforma-dell-art-68",
+   "anno": 1993,
+   "data": "29 ottobre 1993",
+   "titolo": "Riforma dell'art. 68",
+   "descrizione": "La legge costituzionale n. 3/1993 abolisce l'autorizzazione a procedere contro i parlamentari.",
+   "tipo": "legge",
+   "concetti": [
+    "immunita-parlamentari",
+    "insindacabilita-parlamentare"
+   ],
+   "pagine": [
+    75,
+    76
+   ]
+  },
+  {
+   "id": "ev-sentenza-58-2000",
+   "anno": 2000,
+   "data": "2000",
+   "titolo": "Sentenza n. 58/2000 sul nesso funzionale",
+   "descrizione": "La Corte costituzionale richiede un nesso funzionale tra le dichiarazioni del parlamentare e la sua attività.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "pagine": [
+    75,
+    75
+   ]
+  },
+  {
+   "id": "ev-sentenza-137-2001",
+   "anno": 2001,
+   "data": "2001",
+   "titolo": "Sentenza n. 137/2001 sugli insulti",
+   "descrizione": "L'insindacabilità non copre gli insulti, anche se collegati a posizioni politiche.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "pagine": [
+    75,
+    75
+   ]
+  },
+  {
+   "id": "ev-legge-140-2003",
+   "anno": 2003,
+   "data": "20 giugno 2003",
+   "titolo": "Legge n. 140/2003",
+   "descrizione": "Attua l'art. 68 e, all'art. 1, sospende i processi penali delle alte cariche dello Stato.",
+   "tipo": "legge",
+   "concetti": [
+    "immunita-parlamentari",
+    "sospensione-processi-alte-cariche"
+   ],
+   "pagine": [
+    76,
+    76
+   ]
+  },
+  {
+   "id": "ev-sentenza-24-2004",
+   "anno": 2004,
+   "data": "2004",
+   "titolo": "Sentenza n. 24/2004",
+   "descrizione": "La Corte costituzionale dichiara illegittima la sospensione dei processi per le alte cariche prevista dalla legge n. 140/2003.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "sospensione-processi-alte-cariche"
+   ],
+   "pagine": [
+    76,
+    76
+   ]
+  },
+  {
+   "id": "ev-legge-124-2008",
+   "anno": 2008,
+   "data": "23 luglio 2008",
+   "titolo": "Legge n. 124/2008",
+   "descrizione": "Reintroduce la sospensione dei processi penali per quattro alte cariche dello Stato.",
+   "tipo": "legge",
+   "concetti": [
+    "sospensione-processi-alte-cariche"
+   ],
+   "pagine": [
+    76,
+    77
+   ]
+  },
+  {
+   "id": "ev-sentenza-262-2009",
+   "anno": 2009,
+   "data": "ottobre 2009",
+   "titolo": "Sentenza n. 262/2009",
+   "descrizione": "La Corte costituzionale dichiara illegittima la legge n. 124/2008 per violazione degli artt. 3 e 138.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "sospensione-processi-alte-cariche"
+   ],
+   "pagine": [
+    77,
+    77
+   ]
+  }
+ ],
+ "mappa": {
+  "testo": "Status di parlamentare",
+  "concetto": "prerogative-parlamentari",
+  "figli": [
+   {
+    "testo": "Art. 68",
+    "figli": [
+     {
+      "testo": "Insindacabilità",
+      "concetto": "insindacabilita-parlamentare",
+      "figli": [
+       {
+        "testo": "Opinioni e voti nella funzione"
+       },
+       {
+        "testo": "Nesso funzionale",
+        "nota": "sent. 58/2000"
+       },
+       {
+        "testo": "Giurì d'onore",
+        "concetto": "giuri-d-onore"
+       }
+      ]
+     },
+     {
+      "testo": "Immunità",
+      "concetto": "immunita-parlamentari",
+      "figli": [
+       {
+        "testo": "Perquisizioni, arresto, intercettazioni"
+       },
+       {
+        "testo": "Niente autorizzazione a procedere",
+        "nota": "dal 1993"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "testo": "Alte cariche",
+    "concetto": "sospensione-processi-alte-cariche",
+    "figli": [
+     {
+      "testo": "L. 140/2003 → sent. 24/2004"
+     },
+     {
+      "testo": "L. 124/2008 → sent. 262/2009"
+     }
+    ]
+   },
+   {
+    "testo": "Art. 67: libero mandato",
+    "concetto": "divieto-di-mandato-imperativo",
+    "figli": [
+     {
+      "testo": "Nessuna revoca dell'eletto"
+     },
+     {
+      "testo": "Disciplina di partito",
+      "nota": "Virga contro Mortati"
+     }
+    ]
+   },
+   {
+    "testo": "Disciplina e indennità",
+    "figli": [
+     {
+      "testo": "Sanzioni disciplinari",
+      "concetto": "sanzioni-disciplinari-parlamentari"
+     },
+     {
+      "testo": "Indennità (art. 69)",
+      "concetto": "indennita-parlamentare"
+     }
+    ]
+   },
+   {
+    "testo": "Guarentigie delle Camere",
+    "figli": [
+     {
+      "testo": "Tutela penale",
+      "nota": "artt. 289 e 290 c.p."
+     },
+     {
+      "testo": "Immunità della sede",
+      "concetto": "immunita-della-sede"
+     },
+     {
+      "testo": "Autonomia contabile",
+      "concetto": "autonomia-contabile-camere"
+     }
+    ]
+   }
   ]
+ },
+ "domande": [
+  {
+   "id": "u09-q001",
+   "tipo": "flashcard",
+   "lezione": "u09-l1",
+   "livello": "base",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "prerogative-parlamentari"
+   ],
+   "domanda": "Che cosa si intende per status di parlamentare e quando si acquista?",
+   "risposta": "È la posizione complessiva in cui deputati e senatori si trovano in ragione dell'appartenenza alle Camere. Si acquista con la proclamazione e, per i senatori a vita, con la comunicazione della nomina."
+  },
+  {
+   "id": "u09-q002",
+   "tipo": "flashcard",
+   "lezione": "u09-l1",
+   "livello": "base",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "domanda": "Che cosa prevede l'art. 68, primo comma?",
+   "risposta": "I membri del Parlamento non possono essere chiamati a rispondere delle opinioni espresse e dei voti dati nell'esercizio delle loro funzioni: sono esenti da responsabilità civile, penale, amministrativa e disciplinare, anche dopo la fine del mandato."
+  },
+  {
+   "id": "u09-q003",
+   "tipo": "flashcard",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "domanda": "Quali limiti incontra l'insindacabilità?",
+   "risposta": "Copre solo opinioni e voti, non i fatti materiali; e solo le opinioni espresse nell'esercizio della funzione parlamentare. Per le dichiarazioni esterne la Corte costituzionale richiede un nesso funzionale con l'attività parlamentare e ne esclude gli insulti."
+  },
+  {
+   "id": "u09-q004",
+   "tipo": "flashcard",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "immunita-parlamentari"
+   ],
+   "domanda": "Per quali atti serve l'autorizzazione della Camera di appartenenza?",
+   "risposta": "Per la perquisizione personale o domiciliare, per l'arresto o altra privazione della libertà personale (salvo flagranza di delitto con arresto obbligatorio o sentenza irrevocabile di condanna) e per intercettazioni e sequestro di corrispondenza."
+  },
+  {
+   "id": "u09-q005",
+   "tipo": "flashcard",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "immunita-parlamentari"
+   ],
+   "domanda": "Che cosa ha cambiato la legge costituzionale n. 3/1993?",
+   "risposta": "Ha abolito l'autorizzazione a procedere, cioè quella necessaria per sottoporre il parlamentare a processo penale, che si era prestata a notevoli abusi; ha mantenuto l'autorizzazione per le limitazioni della libertà personale, le perquisizioni e le intercettazioni."
+  },
+  {
+   "id": "u09-q006",
+   "tipo": "flashcard",
+   "lezione": "u09-l1",
+   "livello": "avanzato",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "sospensione-processi-alte-cariche"
+   ],
+   "domanda": "Perché la Corte costituzionale ha dichiarato illegittime le leggi sulla sospensione dei processi per le alte cariche?",
+   "risposta": "La sent. n. 24/2004 (legge n. 140/2003) per violazione del diritto di difesa e di azione (art. 24) e del principio di eguaglianza (art. 3); la sent. n. 262/2009 (legge n. 124/2008) per violazione degli artt. 3 e 138: una deroga al regime processuale comune a favore di quattro cariche crea disparità e non può farsi con legge ordinaria."
+  },
+  {
+   "id": "u09-q007",
+   "tipo": "multipla",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "domanda": "Che cosa ha stabilito la sentenza n. 58/2000 della Corte costituzionale?",
+   "opzioni": [
+    "Che l'insindacabilità vale solo in aula",
+    "Che occorre un nesso funzionale tra la dichiarazione e l'attività parlamentare",
+    "Che gli insulti sono sempre coperti",
+    "Che l'autorizzazione a procedere è ancora necessaria"
+   ],
+   "corretta": 1,
+   "spiegazione": "La dichiarazione deve essere identificabile come espressione dell'attività del parlamentare."
+  },
+  {
+   "id": "u09-q008",
+   "tipo": "multipla",
+   "lezione": "u09-l1",
+   "livello": "base",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "immunita-parlamentari"
+   ],
+   "domanda": "Dopo il 1993, per sottoporre un parlamentare a processo penale:",
+   "opzioni": [
+    "serve l'autorizzazione della Camera di appartenenza",
+    "serve l'autorizzazione del Presidente della Repubblica",
+    "non serve alcuna autorizzazione",
+    "serve il parere della Corte costituzionale"
+   ],
+   "corretta": 2,
+   "spiegazione": "La l. cost. n. 3/1993 ha abolito l'autorizzazione a procedere."
+  },
+  {
+   "id": "u09-q009",
+   "tipo": "multipla",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "sospensione-processi-alte-cariche"
+   ],
+   "domanda": "Quale carica era compresa nella legge n. 140/2003 ma esclusa dalla legge n. 124/2008?",
+   "opzioni": [
+    "Presidente della Repubblica",
+    "Presidente del Consiglio",
+    "Presidente del Senato",
+    "Presidente della Corte costituzionale"
+   ],
+   "corretta": 3,
+   "spiegazione": "La legge del 2008 riguardava quattro cariche, senza il Presidente della Corte costituzionale."
+  },
+  {
+   "id": "u09-q010",
+   "tipo": "verofalso",
+   "lezione": "u09-l1",
+   "livello": "base",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "affermazione": "L'insindacabilità cessa quando il parlamentare termina il mandato.",
+   "vero": false,
+   "spiegazione": "L'irresponsabilità per le opinioni e i voti permane anche dopo la scadenza della carica."
+  },
+  {
+   "id": "u09-q011",
+   "tipo": "verofalso",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "affermazione": "Secondo la Corte costituzionale gli insulti sono coperti dall'insindacabilità se collegati a una posizione politica.",
+   "vero": false,
+   "spiegazione": "La sent. n. 137/2001 esclude insulti e turpiloquio dalla garanzia."
+  },
+  {
+   "id": "u09-q012",
+   "tipo": "verofalso",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "immunita-parlamentari"
+   ],
+   "affermazione": "Il parlamentare colto in flagranza di un delitto per cui è obbligatorio l'arresto può essere arrestato senza autorizzazione.",
+   "vero": true,
+   "spiegazione": "È l'eccezione prevista dall'art. 68, secondo comma."
+  },
+  {
+   "id": "u09-q013",
+   "tipo": "completa",
+   "lezione": "u09-l1",
+   "livello": "base",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "testo": "I membri del Parlamento non possono essere chiamati a rispondere delle {{opinioni}} espresse e dei {{voti}} dati nell'esercizio delle loro funzioni (art. {{68}})."
+  },
+  {
+   "id": "u09-q014",
+   "tipo": "completa",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "sospensione-processi-alte-cariche"
+   ],
+   "testo": "La sospensione dei processi per le alte cariche è stata dichiarata illegittima con le sentenze n. {{24}}/2004 e n. {{262}}/2009."
+  },
+  {
+   "id": "u09-q015",
+   "tipo": "aperta",
+   "lezione": "u09-l1",
+   "livello": "avanzato",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "prerogative-parlamentari",
+    "insindacabilita-parlamentare",
+    "immunita-parlamentari"
+   ],
+   "domanda": "Illustri le guarentigie previste dall'art. 68 della Costituzione e la loro evoluzione.",
+   "traccia": "Le guarentigie dell'art. 68 sono connesse alla funzione parlamentare: tutelano il singolo e l'indipendenza delle assemblee. Il primo comma prevede l'insindacabilità: i parlamentari non rispondono delle opinioni espresse e dei voti dati nell'esercizio delle funzioni, sul piano civile, penale, amministrativo e disciplinare, anche dopo la fine del mandato. La garanzia non copre i fatti materiali né le opinioni estranee alla funzione: la Corte costituzionale richiede un nesso funzionale tra dichiarazione e attività parlamentare (sent. n. 58/2000) ed esclude gli insulti (n. 137/2001). Il secondo e il terzo comma prevedono le immunità: senza autorizzazione della Camera di appartenenza il parlamentare non può essere perquisito, arrestato (salvo flagranza con arresto obbligatorio o sentenza irrevocabile), intercettato. La legge costituzionale n. 3/1993 ha abolito l'autorizzazione a procedere per il processo penale, fonte di abusi. Le leggi n. 140/2003 e n. 124/2008, che sospendevano i processi delle alte cariche, sono state annullate dalle sentenze n. 24/2004 e n. 262/2009.",
+   "punti": [
+    {
+     "testo": "Funzione delle guarentigie",
+     "chiavi": [
+      "indipendenza",
+      "funzione"
+     ]
+    },
+    {
+     "testo": "Insindacabilità per opinioni e voti",
+     "chiavi": [
+      "opinioni",
+      "voti"
+     ]
+    },
+    {
+     "testo": "Nesso funzionale",
+     "chiavi": [
+      "nesso"
+     ]
+    },
+    {
+     "testo": "Immunità: autorizzazione per arresto, perquisizioni, intercettazioni",
+     "chiavi": [
+      "autorizzazione",
+      "arrest",
+      "intercett"
+     ]
+    },
+    {
+     "testo": "Riforma del 1993",
+     "chiavi": [
+      "1993",
+      "procedere"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u09-q016",
+   "tipo": "flashcard",
+   "lezione": "u09-l2",
+   "livello": "base",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "divieto-di-mandato-imperativo"
+   ],
+   "domanda": "Che cosa dispone l'art. 67?",
+   "risposta": "Ogni membro del Parlamento rappresenta la Nazione ed esercita le sue funzioni senza vincolo di mandato: non riceve istruzioni vincolanti dagli elettori e non può essere revocato."
+  },
+  {
+   "id": "u09-q017",
+   "tipo": "flashcard",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "divieto-di-mandato-imperativo"
+   ],
+   "domanda": "Quali tesi si confrontano sul rapporto tra disciplina di partito e divieto di mandato imperativo?",
+   "risposta": "Per Virga il parlamentare diventa mero portavoce del partito e il divieto è violato. Per Biscaretti, Mazziotti e Mortati il divieto resta fermo, perché il parlamentare non è tenuto all'obbedienza e può sempre orientarsi in modo difforme."
+  },
+  {
+   "id": "u09-q018",
+   "tipo": "flashcard",
+   "lezione": "u09-l2",
+   "livello": "base",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "sanzioni-disciplinari-parlamentari"
+   ],
+   "domanda": "Quali sono le sanzioni disciplinari a carico dei parlamentari?",
+   "risposta": "Il richiamo all'ordine, l'esclusione dall'aula (dopo il secondo richiamo o nei casi più gravi) e la censura con interdizione dai lavori: da 2 a 15 giorni di seduta alla Camera, fino a 10 giorni al Senato."
+  },
+  {
+   "id": "u09-q019",
+   "tipo": "flashcard",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "immunita-della-sede",
+    "autonomia-contabile-camere"
+   ],
+   "domanda": "Quali sono le guarentigie delle Camere nel loro complesso?",
+   "risposta": "La tutela penale dell'esercizio delle funzioni e contro il vilipendio (artt. 289 e 290 c.p.), l'immunità della sede e l'autonomia contabile, cioè la gestione diretta delle proprie risorse senza controlli esterni."
+  },
+  {
+   "id": "u09-q020",
+   "tipo": "flashcard",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "indennita-parlamentare"
+   ],
+   "domanda": "Come è regolata l'indennità parlamentare?",
+   "risposta": "L'art. 69 la rimette alla legge. La legge n. 1261/1965 la compone di quote mensili, comprensive dei rimborsi di segreteria e rappresentanza, fissate dagli Uffici di presidenza entro il limite del trattamento dei magistrati presidenti di sezione della Cassazione; si aggiunge una diaria di soggiorno."
+  },
+  {
+   "id": "u09-q021",
+   "tipo": "multipla",
+   "lezione": "u09-l2",
+   "livello": "base",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "divieto-di-mandato-imperativo"
+   ],
+   "domanda": "Quale conseguenza discende dal divieto di mandato imperativo?",
+   "opzioni": [
+    "Il parlamentare decade se cambia gruppo",
+    "Il parlamentare eletto non può essere revocato",
+    "Il partito può sostituire l'eletto",
+    "Gli elettori del collegio possono dargli istruzioni vincolanti"
+   ],
+   "corretta": 1,
+   "spiegazione": "Ne discende l'irresponsabilità politica durante il mandato."
+  },
+  {
+   "id": "u09-q022",
+   "tipo": "multipla",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "immunita-della-sede"
+   ],
+   "domanda": "A quale condizione la forza pubblica può entrare in una Camera?",
+   "opzioni": [
+    "Con mandato del giudice",
+    "Su ordine del Ministro dell'interno",
+    "Con autorizzazione del Presidente della Camera e a seduta sospesa",
+    "Mai, in nessun caso"
+   ],
+   "corretta": 2,
+   "spiegazione": "È l'immunità della sede."
+  },
+  {
+   "id": "u09-q023",
+   "tipo": "multipla",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "sanzioni-disciplinari-parlamentari"
+   ],
+   "domanda": "Chi irroga le sanzioni disciplinari ai parlamentari?",
+   "opzioni": [
+    "La Giunta delle elezioni",
+    "Il Presidente dell'Assemblea o l'Ufficio di presidenza",
+    "La magistratura ordinaria",
+    "Il gruppo di appartenenza"
+   ],
+   "corretta": 1,
+   "spiegazione": "Al Senato l'Ufficio prende il nome di Consiglio di presidenza."
+  },
+  {
+   "id": "u09-q024",
+   "tipo": "verofalso",
+   "lezione": "u09-l2",
+   "livello": "base",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "divieto-di-mandato-imperativo"
+   ],
+   "affermazione": "Il parlamentare espulso dal proprio partito perde il seggio.",
+   "vero": false,
+   "spiegazione": "Le sanzioni del partito sono politiche: per l'art. 67 l'eletto non può essere revocato."
+  },
+  {
+   "id": "u09-q025",
+   "tipo": "verofalso",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "autonomia-contabile-camere"
+   ],
+   "affermazione": "Il bilancio interno delle Camere è sottoposto al controllo della Corte dei conti.",
+   "vero": false,
+   "spiegazione": "Le Camere gestiscono il proprio fondo senza alcun controllo esterno (autonomia contabile)."
+  },
+  {
+   "id": "u09-q026",
+   "tipo": "verofalso",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "indennita-parlamentare"
+   ],
+   "affermazione": "I parlamentari pubblici impiegati, durante il mandato, possono conseguire promozioni solo per anzianità.",
+   "vero": true,
+   "spiegazione": "Lo dispone l'art. 98; sono collocati in aspettativa."
+  },
+  {
+   "id": "u09-q027",
+   "tipo": "completa",
+   "lezione": "u09-l2",
+   "livello": "base",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "divieto-di-mandato-imperativo"
+   ],
+   "testo": "Ogni membro del Parlamento rappresenta la {{Nazione}} ed esercita le sue funzioni senza vincolo di {{mandato}} (art. {{67}})."
+  },
+  {
+   "id": "u09-q028",
+   "tipo": "completa",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "sanzioni-disciplinari-parlamentari"
+   ],
+   "testo": "La censura comporta l'interdizione dai lavori da {{2|due}} a {{15|quindici}} giorni di seduta alla Camera e per non più di {{10|dieci}} giorni al Senato."
+  },
+  {
+   "id": "u09-q029",
+   "tipo": "aperta",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "divieto-di-mandato-imperativo",
+    "indennita-parlamentare"
+   ],
+   "domanda": "Spieghi il divieto di mandato imperativo e come si concilia con il ruolo dei partiti.",
+   "traccia": "L'art. 67 stabilisce che ogni membro del Parlamento rappresenta la Nazione ed esercita le sue funzioni senza vincolo di mandato. Il parlamentare rappresenta dunque l'intera Nazione, non gli elettori del suo collegio: non può ricevere da loro disposizioni vincolanti, anche se di fatto si farà interprete delle loro esigenze. Ne discende l'irresponsabilità politica durante il mandato: l'eletto non può essere revocato. Il divieto è però attenuato dalla presenza dei partiti, le cui direttive i parlamentari seguono. Per Virga il parlamentare diventa un mero portavoce del partito e il divieto è violato; per Biscaretti, Mazziotti e Mortati resta fermo, perché il parlamentare non è tenuto all'obbedienza e può sempre votare in modo difforme: i regolamenti gli riconoscono infatti il diritto di parlare in dissenso dal gruppo. Nella realtà la disciplina di partito si impone, perché i ribelli rischiano l'espulsione o l'esclusione dalle liste: sono però sanzioni politiche, che non toccano il seggio.",
+   "punti": [
+    {
+     "testo": "Art. 67: rappresentanza della Nazione",
+     "chiavi": [
+      "nazione",
+      "67"
+     ]
+    },
+    {
+     "testo": "Nessuna istruzione vincolante né revoca",
+     "chiavi": [
+      "revoc",
+      "vincol"
+     ]
+    },
+    {
+     "testo": "Tesi di Virga",
+     "chiavi": [
+      "virga",
+      "portavoce"
+     ]
+    },
+    {
+     "testo": "Tesi contraria: libertà di dissentire",
+     "chiavi": [
+      "mortati",
+      "dissen",
+      "difforme"
+     ]
+    },
+    {
+     "testo": "Sanzioni solo politiche",
+     "chiavi": [
+      "espulsione",
+      "liste",
+      "politic"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u09-q030",
+   "tipo": "ordina",
+   "lezione": "u09-l2",
+   "livello": "base",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "sanzioni-disciplinari-parlamentari"
+   ],
+   "consegna": "Ordina le sanzioni disciplinari dalla meno grave alla più grave.",
+   "elementi": [
+    "Richiamo all'ordine",
+    "Esclusione dall'aula",
+    "Censura con interdizione dai lavori per più giorni"
+   ]
+  },
+  {
+   "id": "u09-q031",
+   "tipo": "abbina",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare",
+    "immunita-parlamentari",
+    "sospensione-processi-alte-cariche",
+    "giuri-d-onore"
+   ],
+   "consegna": "Abbina l'atto al suo contenuto.",
+   "coppie": [
+    [
+     "L. cost. 3/1993",
+     "Abolizione dell'autorizzazione a procedere"
+    ],
+    [
+     "Sent. 58/2000",
+     "Nesso funzionale"
+    ],
+    [
+     "Sent. 137/2001",
+     "Gli insulti non sono coperti"
+    ],
+    [
+     "Sent. 24/2004",
+     "Illegittima la sospensione dei processi del 2003"
+    ],
+    [
+     "Sent. 262/2009",
+     "Illegittima la legge n. 124/2008"
+    ],
+    [
+     "Art. 58 reg. Camera",
+     "Giurì d'onore"
+    ]
+   ]
+  },
+  {
+   "id": "u09-q501",
+   "tipo": "verofalso",
+   "lezione": "u09-l1",
+   "livello": "medio",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "affermazione": "Ogni opinione espressa da un parlamentare è automaticamente insindacabile.",
+   "vero": false,
+   "spiegazione": "Occorre il nesso funzionale con il mandato."
+  },
+  {
+   "id": "u09-q502",
+   "tipo": "aperta",
+   "lezione": "u09-l1",
+   "livello": "avanzato",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "prerogative-parlamentari",
+    "insindacabilita-parlamentare",
+    "immunita-parlamentari",
+    "autodichia"
+   ],
+   "domanda": "Qual è il fondamento delle prerogative e quali sono i loro limiti?",
+   "traccia": "Le prerogative garantiscono il libero esercizio della funzione e l’indipendenza delle Camere, non l’impunità personale. L’art. 68 distingue l’insindacabilità delle opinioni e dei voti funzionali dalle autorizzazioni necessarie per determinate misure. Nel primo caso occorre un nesso con l’esercizio parlamentare: il solo mandato non copre qualsiasi dichiarazione. Nel secondo la Camera tutela l’organo da specifiche interferenze, ma non concede più una generale autorizzazione per ogni procedimento penale. Per la detenzione esistono le eccezioni della condanna irrevocabile e dell’arresto obbligatorio in flagranza. Anche l’autonomia interna e l’autodichia hanno limiti costituzionali. I regolamenti non sono normalmente sindacabili come leggi, ma la Corte costituzionale può intervenire mediante conflitti di attribuzione sui confini fra poteri. La garanzia dell’indipendenza deve quindi convivere con i diritti e con la responsabilità giuridica.",
+   "punti": [
+    {
+     "testo": "Garanzia funzionale",
+     "chiavi": [
+      "indipendenza",
+      "funzione"
+     ]
+    },
+    {
+     "testo": "Insindacabilità e nesso",
+     "chiavi": [
+      "opinioni",
+      "nesso"
+     ]
+    },
+    {
+     "testo": "Misure e autorizzazioni",
+     "chiavi": [
+      "misure",
+      "autorizzazione"
+     ]
+    },
+    {
+     "testo": "Limiti costituzionali",
+     "chiavi": [
+      "conflitti",
+      "diritti"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u09-q503",
+   "lezione": "u09-l1",
+   "livello": "avanzato",
+   "pagine": [
+    75,
+    77
+   ],
+   "concetti": [
+    "insindacabilita-parlamentare"
+   ],
+   "tipo": "multipla",
+   "domanda": "Un deputato insulta un vicino durante una lite privata. Può invocare l'insindacabilità dell'art. 68, primo comma?",
+   "opzioni": [
+    "Sì, perché è parlamentare",
+    "Sì, ma solo se la Camera lo autorizza",
+    "No, perché manca il collegamento con l'esercizio delle funzioni",
+    "No, perché l'insindacabilità vale solo per i senatori"
+   ],
+   "corretta": 2,
+   "spiegazione": "L'insindacabilità copre le opinioni espresse e i voti dati nell'esercizio delle funzioni. Per la Corte costituzionale serve un nesso funzionale con l'attività parlamentare."
+  },
+  {
+   "id": "u09-q504",
+   "tipo": "flashcard",
+   "lezione": "u09-l2",
+   "livello": "base",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "rappresentanza-politica",
+    "divieto-di-mandato-imperativo"
+   ],
+   "domanda": "Perché il parlamentare non è un semplice mandatario dei propri elettori?",
+   "risposta": "L’art. 67 lo considera rappresentante della nazione e gli permette di esercitare la funzione senza vincolo di mandato. Gli elettori possono giudicarlo politicamente, ma non impartirgli istruzioni giuridicamente vincolanti per conservare il seggio."
+  },
+  {
+   "id": "u09-q505",
+   "lezione": "u09-l2",
+   "livello": "medio",
+   "pagine": [
+    77,
+    78
+   ],
+   "concetti": [
+    "divieto-di-mandato-imperativo"
+   ],
+   "tipo": "multipla",
+   "domanda": "Il partito ordina a un suo deputato di votare a favore di una legge; il deputato vota contro. Qual è la conseguenza giuridica sul suo mandato?",
+   "opzioni": [
+    "Decade dal seggio",
+    "Il voto è nullo",
+    "Nessuna: conserva il seggio",
+    "Deve dimettersi se lo chiedono gli elettori del collegio"
+   ],
+   "corretta": 2,
+   "spiegazione": "Per l'art. 67 ogni parlamentare rappresenta la Nazione ed esercita le funzioni senza vincolo di mandato. Il partito può reagire solo con sanzioni politiche interne, fino all'espulsione."
+  }
+ ]
 }

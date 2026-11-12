@@ -13,8 +13,7 @@ Le materie si scelgono da una griglia di simboli su due colonne, nella barra lat
 | LMG · I anno · M–Z | Filosofia del diritto | Disponibile: 16 unità su Barberis, *Giuristi e filosofi*, e Schauer, *Il ragionamento giuridico*; 58 lezioni, 947 domande, 237 approfondimenti e 138 schede inverse; Originali in solo testo |
 | SSG | Filosofia del diritto | Disponibile, programma dedicato, 1.204 domande (almeno 14 per lezione d’esame), 210 approfondimenti e Quadro con 9 schemi |
 | LMG e SSG | Diritto romano | Disponibile, condivisa fra i corsi; 39 tracce d'esame di Starace (M-Z e SSG) |
-| LMG · I anno · A–L | Diritto costituzionale | Disponibile: 18 unità, 50 lezioni, 795 domande, 142 approfondimenti e 180 schede inverse, testo della Costituzione, quadro d'insieme; 30 tracce d'esame di Torre |
-| LMG · I anno · M–Z e SSG | Diritto costituzionale (Martines) | Disponibile: 28 unità sul riassunto del Martines (ed. 2024), 111 lezioni, 1.897 domande, 365 approfondimenti e 233 schede inverse, testo della Costituzione, Quadro con 4 schemi, Originali |
+| LMG A–L, M–Z e SSG | Diritto costituzionale | Disponibile, **materia unica per le tre classi** (stesso programma, manuali diversi): 28 unità, 116 lezioni, 2.517 domande, 653 voci, 251 eventi; Originale «testo IURIS» scritto da noi (ordine del Martines con i temi del percorso A-L), Costituzione, Quadro; 30 tracce d'esame di Torre |
 | LMG e SSG | Diritto privato | Disponibile: 27 unità, 98 lezioni e 1.467 domande, almeno 14 per lezione, più 333 schede inverse del glossario, Codice civile completo consultabile; Quadro con 8 schemi; 268 approfondimenti; 61 tracce d'esame di Lobuono e Pennasilico |
 
 Progetto di Carlo Galli ([@TheRealGalli](https://github.com/TheRealGalli)), realizzato con l'aiuto di tre assistenti IA: **Claude** (Anthropic), **ChatGPT/Codex** (OpenAI) e **Grok** (xAI).

@@ -141,6 +141,7 @@ export function validaProgresso(v: unknown, dove: string): Progresso {
   });
   for (const k of Object.keys(p.giorni as Oggetto)) giorno(k, `${dove}.giorni`);
   opzionale(p, 'esame', giorno, dove); opzionale(p, 'ultimaLezione', testo, dove);
+  opzionale(p, 'versioneContenuto', positivo, dove);
   if (p.originali !== undefined) mappa(p.originali, `${dove}.originali`, lettura);
   return p as unknown as Progresso;
 }

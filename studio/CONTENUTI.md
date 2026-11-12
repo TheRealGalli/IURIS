@@ -7,6 +7,7 @@ Ogni materia ha una cartella `05 - Contenuti/` con:
 - `schede-inverse.json` — facoltativo: definizioni selezionate per ricordare i termini del glossario.
 - `glossario.json` — facoltativo: domanda di glossario e inizio della risposta adatti alla voce (persone, opere…).
 - `esame.json` — facoltativo: tracce d'esame dei docenti, legate a lezioni, voci e domande (vedi «Domande d'esame dei docenti»).
+- `migrazione.json` — facoltativo: come portare i progressi salvati con id vecchi o sotto un'altra materia (vedi «Migrazione dei progressi»).
 
 Lo script `scripts/sync-content.mjs` unisce tutte le unità in un solo file per materia
 (`public/content/<slug>/corso.json`) e costruisce glossario, cronologia e mappa globale.
@@ -389,6 +390,35 @@ dove se ne parla negli appunti.
 - Nell'app: badge «Chiesta all'esame (prof. X)» sulla lezione e sulla voce; nel Percorso, in ogni unità, le tracce
   collegate; in **Allenamento → Domande d'esame** prima le tracce del docente del corso scelto, poi quelle «di
   un'altra classe» (una materia comune a più classi, come Diritto romano o Diritto privato, ha tracce di docenti diversi).
+
+### Migrazione dei progressi (`migrazione.json`)
+
+Serve quando una materia cambia gli id di lezioni e domande o ne assorbe un'altra (novembre 2026: Diritto
+costituzionale A-L e Martines diventano `diritto-costituzionale`). Senza, chi studia perderebbe lezioni segnate e carte.
+
+```jsonc
+{ "versione": 2,                       // versione dei contenuti dopo la migrazione (intero ≥ 2; poi 3, 4…)
+  "da": [
+    { "materia": "diritto-costituzionale", "finoAVersione": 1,     // progressi propri salvati su contenuti ≤ 1
+      "lezioni": { "u01-l1": "u02-l3" },                           // vecchio id → nuovo id (null = scartato)
+      "domande": { "u01-q001": "u02-q501", "u01-q009": null } },
+    { "materia": "diritto-costituzionale-martines", "lezioni": "uguali", "domande": "uguali" } ] }  // materia confluita
+```
+
+- Il sync la pubblica in `corso.json` (campo `migrazione`, con le tabelle) e nel manifest (solo la descrizione: le
+  tabelle diventano `"tabella"`). Un file malformato ferma la materia (resta l'ultimo sync riuscito); id di
+  destinazione inesistenti sono un avviso.
+- Nell'app (`src/lib/migrazione.ts`, `registraMigrazione` in `store.ts`): all'avvio dal manifest la preferenza
+  `materia` passa alla materia nuova e le materie con `"uguali"` si fondono subito se non serve una tabella; il resto
+  quando arriva `corso.json`, prima che la materia si apra. I progressi ricevono `versioneContenuto`; quelli nuovi
+  nascono già sulla versione corrente, quindi una seconda esecuzione non fa nulla. Vale anche dopo il ripristino di
+  un backup vecchio e alla fine della demo.
+- Id di unità (`uNN-…`) assenti dalla tabella si scartano (fuori dal ripasso); gli altri (schede del glossario e
+  della cronologia, che derivano da voci ed eventi) restano. Più vecchi id verso lo stesso nuovo: resta il dato più
+  avanzato. Fusione di due materie: per ogni carta, esito, lezione e giorno vince il dato più avanzato o più recente
+  (niente somme: rifondere non raddoppia); data d'esame e ultima lezione della materia di arrivo; segni degli
+  Originali conservati per documento. La sessione d'allenamento in corso di una materia rinominata si scarta.
+- Prova: `node scripts/check-migrazione.mjs` (in `npm run check:backup`).
 
 ### Serie di esercizi (`serie` nelle domande)
 

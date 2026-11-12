@@ -106,19 +106,24 @@ try {
     assert.equal(CORSO_PREDEFINITO.id, c.id, 'i dati esistenti devono ricadere in questo corso');
   });
 
-  await check('dati precedenti e corso sconosciuto', () => {
+  await check('dati precedenti e corso sconosciuto', async () => {
     assert.equal(corsoDi(undefined), CORSO_PREDEFINITO);
     assert.equal(corsoDi('corso-tolto'), CORSO_PREDEFINITO);
     assert(corsi.corsoDisponibile(CORSO_PREDEFINITO), 'il corso predefinito deve essere selezionabile');
     assert.deepEqual(CORSI.filter(corsi.corsoDisponibile).map((c) => c.id), ['uniba-lmg-1-al', 'uniba-lmg-1-mz', 'uniba-ssg-1'], 'le tre classi sono selezionabili');
     const ssg = corsoDi('uniba-ssg-1');
     assert.equal(ssg.id, 'uniba-ssg-1', 'SSG salvato resta SSG');
-    assert.deepEqual(ssg.materie, ['filosofia-del-diritto-ssg', 'diritto-romano', 'diritto-costituzionale-martines', 'diritto-privato'], 'SSG: filosofia propria, costituzionale Martines come M-Z, romano e privato condivisi');
+    assert.deepEqual(ssg.materie, ['filosofia-del-diritto-ssg', 'diritto-romano', 'diritto-costituzionale', 'diritto-privato'], 'SSG: filosofia propria, costituzionale, romano e privato condivisi');
+    assert.equal(corsi.docenteDi(ssg, 'diritto-costituzionale'), 'Andrea Bonomi', 'costituzionale condiviso, docente del corso');
     assert.deepEqual(ssg.inArrivo.map((m) => m.nome), ['Storia del diritto italiano', 'Abilità informatiche per giuristi', 'Lingua inglese'], 'SSG: le altre materie del primo anno, in arrivo');
     assert.equal(corsi.docenteDi(ssg, 'diritto-romano'), 'Pia Starace', 'romano condiviso, docente del corso');
     const mz = corsoDi('uniba-lmg-1-mz');
     assert.equal(mz.id, 'uniba-lmg-1-mz', 'M-Z salvato resta M-Z');
-    assert.deepEqual(mz.materie, ['filosofia-del-diritto-mz', 'diritto-romano', 'diritto-costituzionale-martines', 'diritto-privato'], 'M-Z: filosofia e costituzionale proprie, romano e privato condivisi');
+    assert.deepEqual(mz.materie, ['filosofia-del-diritto-mz', 'diritto-romano', 'diritto-costituzionale', 'diritto-privato'], 'M-Z: filosofia propria, costituzionale, romano e privato condivisi');
+    assert.equal(corsi.docenteDi(mz, 'diritto-costituzionale'), 'R.G. Rodio');
+    for (const x of CORSI) assert(!x.materie.includes('diritto-costituzionale-martines'), `${x.id}: la materia Martines è confluita in diritto-costituzionale`);
+    const { attiDelCorso } = await server.ssrLoadModule('/src/lib/materie-corso.ts');
+    for (const x of CORSI) assert.equal(attiDelCorso(x.materie).costituzione?.slug, 'diritto-costituzionale', `${x.id}: Costituzione nella materia comune`);
     assert.equal(corsi.docenteDi(mz, 'diritto-privato'), 'Mauro Pennasilico');
     storage.values.set('iuris:v1:pref', JSON.stringify({ materia: 'diritto-romano', tema: 'scuro' }));
   });

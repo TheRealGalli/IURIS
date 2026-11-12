@@ -2,11 +2,15 @@ import { createContext, useContext } from 'react';
 import type { Concetto, Corso, Domanda, Evento, FonteEsame, Lezione, Manifest, Relazione, TracciaEsame, Unita } from './types';
 import { creaDomandeGlossario, creaSchedeInverse } from './inverse';
 import { creaDomandeCronologia } from './domande-eventi';
+import { registraMigrazione } from './store';
 
 export async function fetchManifest(): Promise<Manifest> {
   const r = await fetch('content/manifest.json', { cache: 'no-store' });
   if (!r.ok) throw new Error('manifest non trovato');
-  return r.json();
+  const manifest: Manifest = await r.json();
+  // Prima di mostrare le materie: preferenza e materie confluite (le tabelle degli id arrivano con corso.json).
+  for (const m of manifest.materie) if (m.migrazione) try { registraMigrazione(m.slug, m.migrazione); } catch { /* si riprova con corso.json */ }
+  return manifest;
 }
 
 export interface Indice {
@@ -107,7 +111,11 @@ export function caricaCorso(file: string): Promise<Indice> {
   if (!cache.has(file)) {
     cache.set(file, fetch(file, { cache: 'no-store' })
       .then((r) => { if (!r.ok) throw new Error(`corso non trovato: ${file}`); return r.json(); })
-      .then((c: Corso) => indicizza(c)));
+      .then((c: Corso) => {
+        // Progressi salvati con id vecchi: si rinominano prima che la materia si apra (prima di ogni nuova risposta).
+        if (c.migrazione) try { registraMigrazione(c.materia.slug, c.migrazione); } catch (e) { console.warn('Migrazione dei progressi non riuscita', e); }
+        return indicizza(c);
+      }));
   }
   return cache.get(file)!;
 }

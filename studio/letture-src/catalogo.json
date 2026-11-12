@@ -2184,491 +2184,6 @@
     ]
   },
   {
-    "id": "costituzionale-bin-pitruzzella-v1",
-    "edizione": 1,
-    "materia": "diritto-costituzionale",
-    "titolo": "Bin–Pitruzzella · riassunto",
-    "descrizione": "Riassunto del manuale di R. Bin e G. Pitruzzella, Diritto costituzionale (VII edizione), autore del riassunto non indicato. È datato: per la disciplina in vigore fa fede il Percorso. In fondo, domande e risposte e il testo della Costituzione di allora.",
-    "fonteSha256": "b38d7a4c9d62cdadd13070decd61915f14009667d5eff955cf20ec39f8bede5e",
-    "pagine": 258,
-    "sezioni": [
-      {
-        "id": "u01-l1",
-        "titolo": "Diritto, potere politico e legittimazione",
-        "da": 1,
-        "a": 7,
-        "lezione": "u01-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u01-l1.json"
-      },
-      {
-        "id": "u01-l2",
-        "titolo": "Sovranità, territorio e limiti dello Stato",
-        "da": 7,
-        "a": 10,
-        "lezione": "u01-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u01-l2.json"
-      },
-      {
-        "id": "u01-l3",
-        "titolo": "Cittadinanza italiana ed europea",
-        "da": 10,
-        "a": 11,
-        "lezione": "u01-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u01-l3.json"
-      },
-      {
-        "id": "u01-l4",
-        "titolo": "Lo Stato-apparato: enti, uffici e organi",
-        "da": 12,
-        "a": 14,
-        "lezione": "u01-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u01-l4.json"
-      },
-      {
-        "id": "u02-l1",
-        "titolo": "Dallo Stato assoluto allo Stato liberale",
-        "da": 15,
-        "a": 18,
-        "lezione": "u02-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u02-l1.json"
-      },
-      {
-        "id": "u02-l2",
-        "titolo": "Democrazia pluralista, partiti e Stato sociale",
-        "da": 19,
-        "a": 22,
-        "lezione": "u02-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u02-l2.json"
-      },
-      {
-        "id": "u03-l1",
-        "titolo": "Rappresentanza politica e partecipazione diretta",
-        "da": 22,
-        "a": 25,
-        "lezione": "u03-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u03-l1.json"
-      },
-      {
-        "id": "u03-l2",
-        "titolo": "Separazione dei poteri, indirizzo e regola di maggioranza",
-        "da": 25,
-        "a": 28,
-        "lezione": "u03-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u03-l2.json"
-      },
-      {
-        "id": "u03-l3",
-        "titolo": "Decentramento politico e istituzioni dell’Unione europea",
-        "da": 29,
-        "a": 32,
-        "lezione": "u03-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u03-l3.json"
-      },
-      {
-        "id": "u04-l1",
-        "titolo": "Che cosa significa Costituzione: nascita, rigidità e limiti",
-        "da": 33,
-        "a": 35,
-        "lezione": "u04-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u04-l1.json"
-      },
-      {
-        "id": "u04-l2",
-        "titolo": "La Costituzione italiana: struttura e principi che si tengono insieme",
-        "da": 36,
-        "a": 38,
-        "lezione": "u04-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u04-l2.json"
-      },
-      {
-        "id": "u05-l1",
-        "titolo": "Dal dualismo monarchico al parlamentarismo: fiducia e partiti",
-        "da": 39,
-        "a": 41,
-        "lezione": "u05-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u05-l1.json"
-      },
-      {
-        "id": "u05-l2",
-        "titolo": "Presidenziale, semipresidenziale e direttoriale: chi dipende da chi?",
-        "da": 42,
-        "a": 44,
-        "lezione": "u05-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u05-l2.json"
-      },
-      {
-        "id": "u06-l1",
-        "titolo": "Voto, candidature e formule: come si trasformano i voti in seggi",
-        "da": 45,
-        "a": 49,
-        "lezione": "u06-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u06-l1.json"
-      },
-      {
-        "id": "u06-l2",
-        "titolo": "Le elezioni parlamentari italiane: storia e disciplina dal 2026",
-        "da": 50,
-        "a": 53,
-        "lezione": "u06-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u06-l2.json"
-      },
-      {
-        "id": "u07-l1",
-        "titolo": "Fiducia, maggioranza e crisi di governo",
-        "da": 54,
-        "a": 58,
-        "lezione": "u07-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u07-l1.json"
-      },
-      {
-        "id": "u07-l2",
-        "titolo": "Formazione e organi del Governo: direzione, collegialità e responsabilità",
-        "da": 59,
-        "a": 65,
-        "lezione": "u07-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u07-l2.json"
-      },
-      {
-        "id": "u07-l3",
-        "titolo": "Attuare l’indirizzo politico e controllare l’amministrazione",
-        "da": 65,
-        "a": 69,
-        "lezione": "u07-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u07-l3.json"
-      },
-      {
-        "id": "u08-l1",
-        "titolo": "Due Camere: struttura, durata e organizzazione",
-        "da": 69,
-        "a": 73,
-        "lezione": "u08-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u08-l1.json"
-      },
-      {
-        "id": "u08-l2",
-        "titolo": "Votazioni, prerogative e strumenti di controllo",
-        "da": 74,
-        "a": 77,
-        "lezione": "u08-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u08-l2.json"
-      },
-      {
-        "id": "u08-l3",
-        "titolo": "Finanza pubblica: imposte, equilibrio e legge di bilancio",
-        "da": 78,
-        "a": 80,
-        "lezione": "u08-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u08-l3.json"
-      },
-      {
-        "id": "u09-l1",
-        "titolo": "Il capo dello Stato: elezione, mandato, supplenza e responsabilità",
-        "da": 80,
-        "a": 81,
-        "lezione": "u09-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u09-l1.json"
-      },
-      {
-        "id": "u09-l2",
-        "titolo": "Controfirma, tipi di atti e gestione delle crisi",
-        "da": 82,
-        "a": 87,
-        "lezione": "u09-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u09-l2.json"
-      },
-      {
-        "id": "u10-l1",
-        "titolo": "La Repubblica delle autonomie: competenze, raccordi e risorse",
-        "da": 88,
-        "a": 92,
-        "lezione": "u10-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u10-l1.json"
-      },
-      {
-        "id": "u10-l2",
-        "titolo": "Governo regionale ed enti locali: elezioni e stabilità",
-        "da": 92,
-        "a": 95,
-        "lezione": "u10-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u10-l2.json"
-      },
-      {
-        "id": "u11-l1",
-        "titolo": "Giurisdizioni e garanzie del processo",
-        "da": 96,
-        "a": 97,
-        "lezione": "u11-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u11-l1.json"
-      },
-      {
-        "id": "u11-l2",
-        "titolo": "Indipendenza, CSM e Ministro della giustizia",
-        "da": 98,
-        "a": 100,
-        "lezione": "u11-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u11-l2.json"
-      },
-      {
-        "id": "u12-l1",
-        "titolo": "Riconoscere le fonti: produzione, conoscenza e rinvio",
-        "da": 101,
-        "a": 104,
-        "lezione": "u12-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u12-l1.json"
-      },
-      {
-        "id": "u12-l2",
-        "titolo": "Interpretare e risolvere i conflitti fra norme",
-        "da": 105,
-        "a": 110,
-        "lezione": "u12-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u12-l2.json"
-      },
-      {
-        "id": "u12-l3",
-        "titolo": "Competenza, riserve e legalità: chi può fare che cosa",
-        "da": 110,
-        "a": 112,
-        "lezione": "u12-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u12-l3.json"
-      },
-      {
-        "id": "u13-l1",
-        "titolo": "Come nasce una legge: iniziativa, Camere, promulgazione",
-        "da": 113,
-        "a": 118,
-        "lezione": "u13-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u13-l1.json"
-      },
-      {
-        "id": "u13-l2",
-        "titolo": "Leggi particolari, delega e testi unici",
-        "da": 118,
-        "a": 122,
-        "lezione": "u13-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u13-l2.json"
-      },
-      {
-        "id": "u13-l3",
-        "titolo": "Decreto-legge: urgenza, conversione e decadenza",
-        "da": 122,
-        "a": 125,
-        "lezione": "u13-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u13-l3.json"
-      },
-      {
-        "id": "u14-l1",
-        "titolo": "Poteri straordinari e autonomia normativa degli organi costituzionali",
-        "da": 125,
-        "a": 127,
-        "lezione": "u14-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u14-l1.json"
-      },
-      {
-        "id": "u14-l2",
-        "titolo": "Referendum abrogativo: quesito, controlli e quorum",
-        "da": 127,
-        "a": 129,
-        "lezione": "u14-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u14-l2.json"
-      },
-      {
-        "id": "u14-l3",
-        "titolo": "Regolamenti dell’esecutivo e delegificazione",
-        "da": 129,
-        "a": 130,
-        "lezione": "u14-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u14-l3.json"
-      },
-      {
-        "id": "u15-l1",
-        "titolo": "Statuti ordinari e speciali: fonti e procedimenti diversi",
-        "da": 131,
-        "a": 131,
-        "lezione": "u15-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u15-l1.json"
-      },
-      {
-        "id": "u15-l2",
-        "titolo": "Leggi regionali: competenze, limiti e controlli",
-        "da": 132,
-        "a": 134,
-        "lezione": "u15-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u15-l2.json"
-      },
-      {
-        "id": "u15-l3",
-        "titolo": "Regolamenti regionali e fonti degli enti locali",
-        "da": 134,
-        "a": 137,
-        "lezione": "u15-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u15-l3.json"
-      },
-      {
-        "id": "u16-l1",
-        "titolo": "Diritto primario e derivato: regolamenti, direttive e decisioni",
-        "da": 138,
-        "a": 139,
-        "lezione": "u16-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u16-l1.json"
-      },
-      {
-        "id": "u16-l2",
-        "titolo": "Primato, non applicazione e rinvio pregiudiziale",
-        "da": 140,
-        "a": 144,
-        "lezione": "u16-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u16-l2.json"
-      },
-      {
-        "id": "u16-l3",
-        "titolo": "Attuazione nazionale, diritti europei e controlimiti",
-        "da": 144,
-        "a": 146,
-        "lezione": "u16-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u16-l3.json"
-      },
-      {
-        "id": "u17-l1",
-        "titolo": "La Corte costituzionale: composizione, indipendenza e oggetto del controllo",
-        "da": 147,
-        "a": 150,
-        "lezione": "u17-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u17-l1.json"
-      },
-      {
-        "id": "u17-l2",
-        "titolo": "Accesso alla Corte e decisioni: dalla questione agli effetti",
-        "da": 150,
-        "a": 153,
-        "lezione": "u17-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u17-l2.json"
-      },
-      {
-        "id": "u17-l3",
-        "titolo": "Conflitti di attribuzione, accuse presidenziali e reati ministeriali",
-        "da": 154,
-        "a": 157,
-        "lezione": "u17-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u17-l3.json"
-      },
-      {
-        "id": "u18-l1",
-        "titolo": "Persona, formazioni sociali, uguaglianza e garanzie",
-        "da": 158,
-        "a": 160,
-        "lezione": "u18-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l1.json"
-      },
-      {
-        "id": "u18-l2",
-        "titolo": "Libertà personale, domicilio, circolazione e comunicazioni",
-        "da": 161,
-        "a": 162,
-        "lezione": "u18-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l2.json"
-      },
-      {
-        "id": "u18-l3",
-        "titolo": "Riunione, associazione, religione e manifestazione del pensiero",
-        "da": 163,
-        "a": 167,
-        "lezione": "u18-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l3.json"
-      },
-      {
-        "id": "u18-l4",
-        "titolo": "Diritti sociali, istruzione, salute, lavoro e tutela giudiziaria",
-        "da": 167,
-        "a": 169,
-        "lezione": "u18-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l4.json"
-      },
-      {
-        "id": "u18-l5",
-        "titolo": "Costituzione economica e doveri di solidarietà",
-        "da": 170,
-        "a": 171,
-        "lezione": "u18-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/u18-l5.json"
-      },
-      {
-        "id": "appendice-errata",
-        "titolo": "Errata corrige della VII edizione",
-        "da": 172,
-        "a": 172,
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/appendice-errata.json"
-      },
-      {
-        "id": "appendice-domande",
-        "titolo": "Domande e risposte",
-        "da": 173,
-        "a": 204,
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/appendice-domande.json"
-      },
-      {
-        "id": "appendice-costituzione",
-        "titolo": "Testo della Costituzione (versione dell’epoca)",
-        "da": 205,
-        "a": 258,
-        "revisionata": true,
-        "file": "letture/costituzionale-bin-pitruzzella-v1/appendice-costituzione.json"
-      }
-    ]
-  },
-  {
     "id": "diritto-privato-torrente-dispense-v1",
     "edizione": 1,
     "materia": "diritto-privato",
@@ -3557,1016 +3072,6 @@
     ]
   },
   {
-    "id": "costituzionale-martines-v1",
-    "edizione": 1,
-    "materia": "diritto-costituzionale-martines",
-    "titolo": "Martines · riassunto",
-    "descrizione": "Riassunto del manuale di T. Martines, Diritto costituzionale (edizione 2024), autore del riassunto non indicato. Materiale di partenza del Percorso, non il manuale integrale: per gli aggiornamenti successivi fa fede il Percorso.",
-    "fonteSha256": "50afb453a8244cc39c37bb0dd49dcf76f9eb444227c81e0391ce7a0873728e28",
-    "pagine": 267,
-    "sezioni": [
-      {
-        "id": "u01-l1",
-        "titolo": "Gruppi sociali, interessi e principio ordinatore",
-        "da": 1,
-        "a": 4,
-        "lezione": "u01-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u01-l1.json"
-      },
-      {
-        "id": "u01-l2",
-        "titolo": "Romano, Kelsen, Mortati: istituzione, norma e socialità del diritto",
-        "da": 5,
-        "a": 6,
-        "lezione": "u01-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u01-l2.json"
-      },
-      {
-        "id": "u01-l3",
-        "titolo": "Costituzione formale e materiale; la costituzione come processo",
-        "da": 6,
-        "a": 7,
-        "lezione": "u01-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u01-l3.json"
-      },
-      {
-        "id": "u01-l4",
-        "titolo": "Diritto naturale, pluralità degli ordinamenti, diritto pubblico e privato",
-        "da": 7,
-        "a": 8,
-        "lezione": "u01-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u01-l4.json"
-      },
-      {
-        "id": "u02-l1",
-        "titolo": "Dai valori alle regole: la norma giuridica e i suoi caratteri",
-        "da": 9,
-        "a": 11,
-        "lezione": "u02-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u02-l1.json"
-      },
-      {
-        "id": "u02-l2",
-        "titolo": "Fonti di produzione e sulla produzione, fonti-atto e fonti-fatto",
-        "da": 11,
-        "a": 12,
-        "lezione": "u02-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u02-l2.json"
-      },
-      {
-        "id": "u02-l3",
-        "titolo": "Il quadro delle fonti italiane, la delegificazione e il taglia-leggi",
-        "da": 13,
-        "a": 15,
-        "lezione": "u02-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u02-l3.json"
-      },
-      {
-        "id": "u02-l4",
-        "titolo": "I criteri per comporre le fonti in sistema e il primato della legge",
-        "da": 15,
-        "a": 17,
-        "lezione": "u02-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u02-l4.json"
-      },
-      {
-        "id": "u02-l5",
-        "titolo": "I regolamenti, i regolamenti degli organi costituzionali e la consuetudine",
-        "da": 17,
-        "a": 18,
-        "lezione": "u02-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u02-l5.json"
-      },
-      {
-        "id": "u02-l6",
-        "titolo": "Opinio iuris, consuetudine costituzionale, convenzioni, correttezza, prassi e precedente",
-        "da": 19,
-        "a": 21,
-        "lezione": "u02-l6",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u02-l6.json"
-      },
-      {
-        "id": "u03-l1",
-        "titolo": "Giurisprudenza, equità, contratti collettivi e dottrina",
-        "da": 21,
-        "a": 22,
-        "lezione": "u03-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u03-l1.json"
-      },
-      {
-        "id": "u03-l2",
-        "titolo": "Le fonti di ordinamenti esterni: diritto internazionale, rinvio e trattati europei",
-        "da": 22,
-        "a": 25,
-        "lezione": "u03-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u03-l2.json"
-      },
-      {
-        "id": "u03-l3",
-        "titolo": "Regolamenti e direttive europee, primato; fonti atipiche e leggi rinforzate",
-        "da": 26,
-        "a": 28,
-        "lezione": "u03-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u03-l3.json"
-      },
-      {
-        "id": "u03-l4",
-        "titolo": "L'interpretazione dei testi normativi e delle disposizioni costituzionali",
-        "da": 28,
-        "a": 30,
-        "lezione": "u03-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u03-l4.json"
-      },
-      {
-        "id": "u03-l5",
-        "titolo": "L'efficacia delle norme nel tempo e nello spazio",
-        "da": 31,
-        "a": 32,
-        "lezione": "u03-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u03-l5.json"
-      },
-      {
-        "id": "u04-l1",
-        "titolo": "Soggettività giuridica, capacità, persone fisiche e giuridiche",
-        "da": 33,
-        "a": 34,
-        "lezione": "u04-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u04-l1.json"
-      },
-      {
-        "id": "u04-l2",
-        "titolo": "Potere giuridico, diritto soggettivo, interesse legittimo",
-        "da": 34,
-        "a": 34,
-        "lezione": "u04-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u04-l2.json"
-      },
-      {
-        "id": "u04-l3",
-        "titolo": "Diritti affievoliti, effettività dei diritti, dovere e obbligo",
-        "da": 35,
-        "a": 36,
-        "lezione": "u04-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u04-l3.json"
-      },
-      {
-        "id": "u05-l1",
-        "titolo": "Lo Stato-istituzione e le forme di Stato",
-        "da": 37,
-        "a": 40,
-        "lezione": "u05-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u05-l1.json"
-      },
-      {
-        "id": "u05-l2",
-        "titolo": "Stati unitari e composti, decentramento, unioni di Stati e Unione europea",
-        "da": 40,
-        "a": 43,
-        "lezione": "u05-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u05-l2.json"
-      },
-      {
-        "id": "u05-l3",
-        "titolo": "Gli elementi costitutivi dello Stato: il territorio",
-        "da": 44,
-        "a": 46,
-        "lezione": "u05-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u05-l3.json"
-      },
-      {
-        "id": "u05-l4",
-        "titolo": "Il popolo, la cittadinanza e la sovranità",
-        "da": 46,
-        "a": 49,
-        "lezione": "u05-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u05-l4.json"
-      },
-      {
-        "id": "u05-l5",
-        "titolo": "Stato-apparato, comunità statale, funzioni dello Stato e forme di governo",
-        "da": 49,
-        "a": 52,
-        "lezione": "u05-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u05-l5.json"
-      },
-      {
-        "id": "u06-l1",
-        "titolo": "Separazione dei poteri e interferenze funzionali",
-        "da": 52,
-        "a": 53,
-        "lezione": "u06-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u06-l1.json"
-      },
-      {
-        "id": "u06-l2",
-        "titolo": "Gli organi: nozione, rapporto organico e classificazione",
-        "da": 53,
-        "a": 55,
-        "lezione": "u06-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u06-l2.json"
-      },
-      {
-        "id": "u06-l3",
-        "titolo": "Gli atti giuridici: tipi, perfezione, validità, efficacia e vizi",
-        "da": 55,
-        "a": 57,
-        "lezione": "u06-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u06-l3.json"
-      },
-      {
-        "id": "u07-l1",
-        "titolo": "Concetto e tipi di costituzione",
-        "da": 57,
-        "a": 60,
-        "lezione": "u07-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u07-l1.json"
-      },
-      {
-        "id": "u07-l2",
-        "titolo": "La Costituzione italiana: caratteri, origini e forma repubblicana",
-        "da": 60,
-        "a": 61,
-        "lezione": "u07-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u07-l2.json"
-      },
-      {
-        "id": "u07-l3",
-        "titolo": "Stato democratico, fondato sul lavoro e sociale",
-        "da": 61,
-        "a": 63,
-        "lezione": "u07-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u07-l3.json"
-      },
-      {
-        "id": "u07-l4",
-        "titolo": "Stato parlamentare, decentrato, laico, internazionalista; la Costituzione vigente",
-        "da": 63,
-        "a": 64,
-        "lezione": "u07-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u07-l4.json"
-      },
-      {
-        "id": "u08-l1",
-        "titolo": "Il bicameralismo perfetto e il Parlamento in seduta comune",
-        "da": 65,
-        "a": 66,
-        "lezione": "u08-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u08-l1.json"
-      },
-      {
-        "id": "u08-l2",
-        "titolo": "Rappresentanza, elettorato, sistemi elettorali e caratteri del voto",
-        "da": 67,
-        "a": 69,
-        "lezione": "u08-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u08-l2.json"
-      },
-      {
-        "id": "u08-l3",
-        "titolo": "Il procedimento elettorale, le leggi elettorali e le differenze tra le Camere",
-        "da": 69,
-        "a": 72,
-        "lezione": "u08-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u08-l3.json"
-      },
-      {
-        "id": "u08-l4",
-        "titolo": "Ineleggibilità, incompatibilità, incandidabilità e verifica delle elezioni",
-        "da": 73,
-        "a": 74,
-        "lezione": "u08-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u08-l4.json"
-      },
-      {
-        "id": "u09-l1",
-        "titolo": "Insindacabilità e immunità: l'art. 68",
-        "da": 75,
-        "a": 77,
-        "lezione": "u09-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u09-l1.json"
-      },
-      {
-        "id": "u09-l2",
-        "titolo": "Disciplina, libero mandato, indennità e guarentigie delle Camere",
-        "da": 77,
-        "a": 78,
-        "lezione": "u09-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u09-l2.json"
-      },
-      {
-        "id": "u10-l1",
-        "titolo": "I regolamenti parlamentari, il Presidente e l'Ufficio di presidenza",
-        "da": 78,
-        "a": 81,
-        "lezione": "u10-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u10-l1.json"
-      },
-      {
-        "id": "u10-l2",
-        "titolo": "Gruppi, commissioni e giunte",
-        "da": 81,
-        "a": 83,
-        "lezione": "u10-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u10-l2.json"
-      },
-      {
-        "id": "u10-l3",
-        "titolo": "Organi bicamerali, legislatura, prorogatio e convocazione",
-        "da": 84,
-        "a": 86,
-        "lezione": "u10-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u10-l3.json"
-      },
-      {
-        "id": "u10-l4",
-        "titolo": "Sedute, numero legale, votazioni, interna corporis e ostruzionismo",
-        "da": 86,
-        "a": 88,
-        "lezione": "u10-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u10-l4.json"
-      },
-      {
-        "id": "u11-l1",
-        "titolo": "La legge formale e l'iniziativa legislativa",
-        "da": 88,
-        "a": 90,
-        "lezione": "u11-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u11-l1.json"
-      },
-      {
-        "id": "u11-l2",
-        "titolo": "L'approvazione: procedimento ordinario, decentrato e misto",
-        "da": 91,
-        "a": 94,
-        "lezione": "u11-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u11-l2.json"
-      },
-      {
-        "id": "u11-l3",
-        "titolo": "Promulgazione, rinvio presidenziale e pubblicazione",
-        "da": 94,
-        "a": 96,
-        "lezione": "u11-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u11-l3.json"
-      },
-      {
-        "id": "u11-l4",
-        "titolo": "Il procedimento aggravato: leggi costituzionali e di revisione",
-        "da": 96,
-        "a": 99,
-        "lezione": "u11-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u11-l4.json"
-      },
-      {
-        "id": "u11-l5",
-        "titolo": "Rottura della Costituzione e limiti alla revisione",
-        "da": 100,
-        "a": 102,
-        "lezione": "u11-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u11-l5.json"
-      },
-      {
-        "id": "u12-l1",
-        "titolo": "L'indirizzo politico e la mozione di fiducia",
-        "da": 102,
-        "a": 105,
-        "lezione": "u12-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u12-l1.json"
-      },
-      {
-        "id": "u12-l2",
-        "titolo": "Le leggi di indirizzo politico: bilancio e programmi economici",
-        "da": 105,
-        "a": 109,
-        "lezione": "u12-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u12-l2.json"
-      },
-      {
-        "id": "u12-l3",
-        "titolo": "Trattati, amnistia e indulto, stato di guerra, direttive parlamentari",
-        "da": 109,
-        "a": 111,
-        "lezione": "u12-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u12-l3.json"
-      },
-      {
-        "id": "u12-l4",
-        "titolo": "Il controllo e l'informazione: interrogazioni, interpellanze, inchieste",
-        "da": 111,
-        "a": 113,
-        "lezione": "u12-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u12-l4.json"
-      },
-      {
-        "id": "u12-l5",
-        "titolo": "Sfiducia, questione di fiducia e altre funzioni delle Camere",
-        "da": 113,
-        "a": 114,
-        "lezione": "u12-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u12-l5.json"
-      },
-      {
-        "id": "u13-l1",
-        "titolo": "Il referendum abrogativo: disciplina, quorum e ammissibilità",
-        "da": 114,
-        "a": 115,
-        "lezione": "u13-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u13-l1.json"
-      },
-      {
-        "id": "u13-l2",
-        "titolo": "Limiti impliciti, procedimento e referendum d'indirizzo",
-        "da": 116,
-        "a": 118,
-        "lezione": "u13-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u13-l2.json"
-      },
-      {
-        "id": "u14-l1",
-        "titolo": "Il potere esecutivo e la struttura del Governo",
-        "da": 119,
-        "a": 119,
-        "lezione": "u14-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u14-l1.json"
-      },
-      {
-        "id": "u14-l2",
-        "titolo": "La pubblica amministrazione e i suoi principi costituzionali",
-        "da": 120,
-        "a": 123,
-        "lezione": "u14-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u14-l2.json"
-      },
-      {
-        "id": "u14-l3",
-        "titolo": "La formazione del Governo",
-        "da": 123,
-        "a": 126,
-        "lezione": "u14-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u14-l3.json"
-      },
-      {
-        "id": "u14-l4",
-        "titolo": "Comitati, funzione amministrativa e direzione politica",
-        "da": 126,
-        "a": 128,
-        "lezione": "u14-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u14-l4.json"
-      },
-      {
-        "id": "u15-l1",
-        "titolo": "Le funzioni normative del Governo e il decreto-legge",
-        "da": 128,
-        "a": 130,
-        "lezione": "u15-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u15-l1.json"
-      },
-      {
-        "id": "u15-l2",
-        "titolo": "Limiti, conversione e decadenza del decreto-legge",
-        "da": 131,
-        "a": 133,
-        "lezione": "u15-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u15-l2.json"
-      },
-      {
-        "id": "u15-l3",
-        "titolo": "Il decreto legislativo e la legge di delegazione",
-        "da": 133,
-        "a": 135,
-        "lezione": "u15-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u15-l3.json"
-      },
-      {
-        "id": "u15-l4",
-        "titolo": "I regolamenti dell'esecutivo",
-        "da": 135,
-        "a": 138,
-        "lezione": "u15-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u15-l4.json"
-      },
-      {
-        "id": "u15-l5",
-        "titolo": "La riserva di legge",
-        "da": 138,
-        "a": 141,
-        "lezione": "u15-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u15-l5.json"
-      },
-      {
-        "id": "u15-l6",
-        "titolo": "La cessazione del Governo e le crisi",
-        "da": 141,
-        "a": 143,
-        "lezione": "u15-l6",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u15-l6.json"
-      },
-      {
-        "id": "u15-l7",
-        "titolo": "La responsabilità dei ministri e gli organi ausiliari",
-        "da": 143,
-        "a": 145,
-        "lezione": "u15-l7",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u15-l7.json"
-      },
-      {
-        "id": "u16-l1",
-        "titolo": "Funzione giurisdizionale e unicità della giurisdizione",
-        "da": 145,
-        "a": 147,
-        "lezione": "u16-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u16-l1.json"
-      },
-      {
-        "id": "u16-l2",
-        "titolo": "Le giurisdizioni speciali e l’indipendenza dei loro giudici",
-        "da": 147,
-        "a": 150,
-        "lezione": "u16-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u16-l2.json"
-      },
-      {
-        "id": "u16-l3",
-        "titolo": "Il riparto fra giudici, i ricorsi amministrativi e le giurisdizioni non statali",
-        "da": 150,
-        "a": 153,
-        "lezione": "u16-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u16-l3.json"
-      },
-      {
-        "id": "u16-l4",
-        "titolo": "Il CSM e l’indipendenza della magistratura ordinaria",
-        "da": 153,
-        "a": 156,
-        "lezione": "u16-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u16-l4.json"
-      },
-      {
-        "id": "u16-l5",
-        "titolo": "Processo, pena e responsabilità dei giudici",
-        "da": 156,
-        "a": 158,
-        "lezione": "u16-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u16-l5.json"
-      },
-      {
-        "id": "u17-l1",
-        "titolo": "Elezione, mandato, supplenza",
-        "da": 158,
-        "a": 161,
-        "lezione": "u17-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u17-l1.json"
-      },
-      {
-        "id": "u17-l2",
-        "titolo": "Irresponsabilità, controfirma, attribuzioni ed esternazioni",
-        "da": 161,
-        "a": 164,
-        "lezione": "u17-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u17-l2.json"
-      },
-      {
-        "id": "u17-l3",
-        "titolo": "Scioglimento delle Camere, atti presidenziali e potere neutro",
-        "da": 164,
-        "a": 167,
-        "lezione": "u17-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u17-l3.json"
-      },
-      {
-        "id": "u18-l1",
-        "titolo": "La Corte costituzionale: funzioni, composizione, status dei giudici",
-        "da": 168,
-        "a": 171,
-        "lezione": "u18-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u18-l1.json"
-      },
-      {
-        "id": "u18-l2",
-        "titolo": "I vizi delle leggi e gli atti sottoposti al giudizio",
-        "da": 171,
-        "a": 174,
-        "lezione": "u18-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u18-l2.json"
-      },
-      {
-        "id": "u19-l1",
-        "titolo": "Il giudizio in via incidentale",
-        "da": 174,
-        "a": 177,
-        "lezione": "u19-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u19-l1.json"
-      },
-      {
-        "id": "u19-l2",
-        "titolo": "Il giudizio in via principale e le decisioni della Corte",
-        "da": 177,
-        "a": 179,
-        "lezione": "u19-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u19-l2.json"
-      },
-      {
-        "id": "u19-l3",
-        "titolo": "Sentenze di accoglimento e di rigetto",
-        "da": 179,
-        "a": 182,
-        "lezione": "u19-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u19-l3.json"
-      },
-      {
-        "id": "u19-l4",
-        "titolo": "Sentenze interpretative, manipolative e monito",
-        "da": 182,
-        "a": 184,
-        "lezione": "u19-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u19-l4.json"
-      },
-      {
-        "id": "u20-l1",
-        "titolo": "I conflitti di attribuzione fra i poteri dello Stato",
-        "da": 184,
-        "a": 187,
-        "lezione": "u20-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u20-l1.json"
-      },
-      {
-        "id": "u20-l2",
-        "titolo": "Conflitti fra Stato e Regioni, giudizio d’accusa e ruolo della Corte",
-        "da": 187,
-        "a": 190,
-        "lezione": "u20-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u20-l2.json"
-      },
-      {
-        "id": "u21-l1",
-        "titolo": "Libertà, autonomia ed eguaglianza formale",
-        "da": 191,
-        "a": 193,
-        "lezione": "u21-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u21-l1.json"
-      },
-      {
-        "id": "u21-l2",
-        "titolo": "Eguaglianza sostanziale e diritti pubblici soggettivi",
-        "da": 193,
-        "a": 197,
-        "lezione": "u21-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u21-l2.json"
-      },
-      {
-        "id": "u21-l3",
-        "titolo": "I doveri costituzionali",
-        "da": 197,
-        "a": 198,
-        "lezione": "u21-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u21-l3.json"
-      },
-      {
-        "id": "u22-l1",
-        "titolo": "Garanzie delle libertà negative e libertà personale",
-        "da": 198,
-        "a": 200,
-        "lezione": "u22-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u22-l1.json"
-      },
-      {
-        "id": "u22-l2",
-        "titolo": "Domicilio, riservatezza e corrispondenza",
-        "da": 200,
-        "a": 202,
-        "lezione": "u22-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u22-l2.json"
-      },
-      {
-        "id": "u22-l3",
-        "titolo": "Circolazione, soggiorno ed espatrio",
-        "da": 202,
-        "a": 204,
-        "lezione": "u22-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u22-l3.json"
-      },
-      {
-        "id": "u22-l4",
-        "titolo": "Riunione e associazione",
-        "da": 204,
-        "a": 207,
-        "lezione": "u22-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u22-l4.json"
-      },
-      {
-        "id": "u23-l1",
-        "titolo": "La libertà religiosa",
-        "da": 207,
-        "a": 208,
-        "lezione": "u23-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u23-l1.json"
-      },
-      {
-        "id": "u23-l2",
-        "titolo": "Manifestazione del pensiero e libertà di stampa",
-        "da": 208,
-        "a": 212,
-        "lezione": "u23-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u23-l2.json"
-      },
-      {
-        "id": "u23-l3",
-        "titolo": "Spettacolo, radiotelevisione e internet",
-        "da": 212,
-        "a": 215,
-        "lezione": "u23-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u23-l3.json"
-      },
-      {
-        "id": "u23-l4",
-        "titolo": "Diritto all'informazione, arte, scienza e insegnamento",
-        "da": 215,
-        "a": 217,
-        "lezione": "u23-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u23-l4.json"
-      },
-      {
-        "id": "u24-l1",
-        "titolo": "Libertà positive e diritti sociali",
-        "da": 217,
-        "a": 218,
-        "lezione": "u24-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u24-l1.json"
-      },
-      {
-        "id": "u24-l2",
-        "titolo": "Le libertà economiche e i nuovi diritti",
-        "da": 218,
-        "a": 220,
-        "lezione": "u24-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u24-l2.json"
-      },
-      {
-        "id": "u24-l3",
-        "titolo": "La protezione internazionale ed europea dei diritti",
-        "da": 220,
-        "a": 223,
-        "lezione": "u24-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u24-l3.json"
-      },
-      {
-        "id": "u24-l4",
-        "titolo": "La condizione giuridica dello straniero e il diritto di asilo",
-        "da": 223,
-        "a": 224,
-        "lezione": "u24-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u24-l4.json"
-      },
-      {
-        "id": "u24-l5",
-        "titolo": "Diritti inviolabili e formazioni sociali",
-        "da": 224,
-        "a": 227,
-        "lezione": "u24-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u24-l5.json"
-      },
-      {
-        "id": "u25-l1",
-        "titolo": "Costituzione e formazioni sociali; la famiglia",
-        "da": 227,
-        "a": 229,
-        "lezione": "u25-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u25-l1.json"
-      },
-      {
-        "id": "u25-l2",
-        "titolo": "La scuola",
-        "da": 229,
-        "a": 231,
-        "lezione": "u25-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u25-l2.json"
-      },
-      {
-        "id": "u25-l3",
-        "titolo": "Le confessioni religiose",
-        "da": 231,
-        "a": 233,
-        "lezione": "u25-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u25-l3.json"
-      },
-      {
-        "id": "u25-l4",
-        "titolo": "La comunità del lavoro: sindacati, contratto collettivo, sciopero",
-        "da": 233,
-        "a": 237,
-        "lezione": "u25-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u25-l4.json"
-      },
-      {
-        "id": "u25-l5",
-        "titolo": "Partiti politici e minoranze linguistiche",
-        "da": 237,
-        "a": 239,
-        "lezione": "u25-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u25-l5.json"
-      },
-      {
-        "id": "u26-l1",
-        "titolo": "La nascita delle Regioni e i significati di autonomia",
-        "da": 239,
-        "a": 241,
-        "lezione": "u26-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u26-l1.json"
-      },
-      {
-        "id": "u26-l2",
-        "titolo": "Natura giuridica ed elementi costitutivi della Regione",
-        "da": 241,
-        "a": 244,
-        "lezione": "u26-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u26-l2.json"
-      },
-      {
-        "id": "u26-l3",
-        "titolo": "Regioni ordinarie e speciali; gli statuti",
-        "da": 244,
-        "a": 246,
-        "lezione": "u26-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u26-l3.json"
-      },
-      {
-        "id": "u27-l1",
-        "titolo": "Corpo elettorale e Consiglio regionale",
-        "da": 247,
-        "a": 249,
-        "lezione": "u27-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u27-l1.json"
-      },
-      {
-        "id": "u27-l2",
-        "titolo": "Giunta, Presidente e forma di governo regionale",
-        "da": 250,
-        "a": 252,
-        "lezione": "u27-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u27-l2.json"
-      },
-      {
-        "id": "u27-l3",
-        "titolo": "I raccordi fra lo Stato e le Regioni",
-        "da": 252,
-        "a": 255,
-        "lezione": "u27-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u27-l3.json"
-      },
-      {
-        "id": "u28-l1",
-        "titolo": "Lo statuto nel sistema delle fonti regionali",
-        "da": 255,
-        "a": 256,
-        "lezione": "u28-l1",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u28-l1.json"
-      },
-      {
-        "id": "u28-l2",
-        "titolo": "La legge regionale: procedimento, limiti e tipi di potestà",
-        "da": 256,
-        "a": 259,
-        "lezione": "u28-l2",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u28-l2.json"
-      },
-      {
-        "id": "u28-l3",
-        "titolo": "Riparto delle materie e sussidiarietà",
-        "da": 260,
-        "a": 262,
-        "lezione": "u28-l3",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u28-l3.json"
-      },
-      {
-        "id": "u28-l4",
-        "titolo": "Fonti e funzioni amministrative; l'autonomia finanziaria",
-        "da": 262,
-        "a": 264,
-        "lezione": "u28-l4",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u28-l4.json"
-      },
-      {
-        "id": "u28-l5",
-        "titolo": "Fondo perequativo, controlli ed enti locali",
-        "da": 264,
-        "a": 267,
-        "lezione": "u28-l5",
-        "revisionata": true,
-        "file": "letture/costituzionale-martines-v1/u28-l5.json"
-      }
-    ]
-  },
-  {
     "id": "filosofia-mz-barberis-v1",
     "edizione": 1,
     "materia": "filosofia-del-diritto-mz",
@@ -5107,6 +3612,1046 @@
         "lezione": "u19-l4",
         "revisionata": true,
         "file": "letture/filosofia-mz-schauer-v1/u19-l4.json"
+      }
+    ]
+  },
+  {
+    "id": "costituzionale-iuris-v1",
+    "edizione": 1,
+    "materia": "diritto-costituzionale",
+    "titolo": "Diritto costituzionale · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma comune alle tre classi (LMG A-L, LMG M-Z e SSG): segue l’ordine del manuale di T. Martines, integra i temi del percorso A-L ed è aggiornato al diritto vigente.",
+    "fonteSha256": "13bfa40dbe6aad4bec67bb713ad5124b9945b02e554b6bb2451251a9127372ab",
+    "pagine": 267,
+    "sezioni": [
+      {
+        "id": "u01-l1",
+        "titolo": "Gruppi sociali, interessi e principio ordinatore",
+        "da": 1,
+        "a": 4,
+        "lezione": "u01-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u01-l1.json"
+      },
+      {
+        "id": "u01-l2",
+        "titolo": "Romano, Kelsen, Mortati: istituzione, norma e socialità del diritto",
+        "da": 5,
+        "a": 6,
+        "lezione": "u01-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u01-l2.json"
+      },
+      {
+        "id": "u01-l3",
+        "titolo": "Costituzione formale e materiale; la costituzione come processo",
+        "da": 6,
+        "a": 7,
+        "lezione": "u01-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u01-l3.json"
+      },
+      {
+        "id": "u01-l4",
+        "titolo": "Diritto naturale, pluralità degli ordinamenti, diritto pubblico e privato",
+        "da": 7,
+        "a": 8,
+        "lezione": "u01-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u01-l4.json"
+      },
+      {
+        "id": "u02-l1",
+        "titolo": "Dai valori alle regole: la norma giuridica e i suoi caratteri",
+        "da": 9,
+        "a": 11,
+        "lezione": "u02-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u02-l1.json"
+      },
+      {
+        "id": "u02-l2",
+        "titolo": "Fonti di produzione e sulla produzione, fonti-atto e fonti-fatto",
+        "da": 11,
+        "a": 12,
+        "lezione": "u02-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u02-l2.json"
+      },
+      {
+        "id": "u02-l3",
+        "titolo": "Il quadro delle fonti italiane, la delegificazione e il taglia-leggi",
+        "da": 13,
+        "a": 15,
+        "lezione": "u02-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u02-l3.json"
+      },
+      {
+        "id": "u02-l4",
+        "titolo": "I criteri per comporre le fonti in sistema e il primato della legge",
+        "da": 15,
+        "a": 16,
+        "lezione": "u02-l4",
+        "lezioni": [
+          "u02-l4",
+          "u02-l7"
+        ],
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u02-l4.json"
+      },
+      {
+        "id": "u02-l8",
+        "titolo": "Competenza, riserva di legge e principio di legalità",
+        "da": 16,
+        "a": 17,
+        "lezione": "u02-l8",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u02-l8.json"
+      },
+      {
+        "id": "u02-l5",
+        "titolo": "I regolamenti, i regolamenti degli organi costituzionali e la consuetudine",
+        "da": 17,
+        "a": 18,
+        "lezione": "u02-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u02-l5.json"
+      },
+      {
+        "id": "u02-l6",
+        "titolo": "Opinio iuris, consuetudine costituzionale, convenzioni, correttezza, prassi e precedente",
+        "da": 19,
+        "a": 21,
+        "lezione": "u02-l6",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u02-l6.json"
+      },
+      {
+        "id": "u03-l1",
+        "titolo": "Giurisprudenza, equità, contratti collettivi e dottrina",
+        "da": 21,
+        "a": 22,
+        "lezione": "u03-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u03-l1.json"
+      },
+      {
+        "id": "u03-l2",
+        "titolo": "Le fonti di ordinamenti esterni: diritto internazionale, rinvio e trattati europei",
+        "da": 22,
+        "a": 25,
+        "lezione": "u03-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u03-l2.json"
+      },
+      {
+        "id": "u03-l7",
+        "titolo": "Le istituzioni dell'Unione europea e lo Stato federale",
+        "da": 25,
+        "a": 25,
+        "lezione": "u03-l7",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u03-l7.json"
+      },
+      {
+        "id": "u03-l3",
+        "titolo": "Regolamenti e direttive europee, primato; fonti atipiche e leggi rinforzate",
+        "da": 25,
+        "a": 28,
+        "lezione": "u03-l3",
+        "lezioni": [
+          "u03-l3",
+          "u03-l6"
+        ],
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u03-l3.json"
+      },
+      {
+        "id": "u03-l4",
+        "titolo": "L'interpretazione dei testi normativi e delle disposizioni costituzionali",
+        "da": 28,
+        "a": 30,
+        "lezione": "u03-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u03-l4.json"
+      },
+      {
+        "id": "u03-l5",
+        "titolo": "L'efficacia delle norme nel tempo e nello spazio",
+        "da": 31,
+        "a": 32,
+        "lezione": "u03-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u03-l5.json"
+      },
+      {
+        "id": "u04-l1",
+        "titolo": "Soggettività giuridica, capacità, persone fisiche e giuridiche",
+        "da": 33,
+        "a": 34,
+        "lezione": "u04-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u04-l1.json"
+      },
+      {
+        "id": "u04-l2",
+        "titolo": "Potere giuridico, diritto soggettivo, interesse legittimo",
+        "da": 34,
+        "a": 35,
+        "lezione": "u04-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u04-l2.json"
+      },
+      {
+        "id": "u04-l3",
+        "titolo": "Diritti affievoliti, effettività dei diritti, dovere e obbligo",
+        "da": 35,
+        "a": 36,
+        "lezione": "u04-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u04-l3.json"
+      },
+      {
+        "id": "u05-l1",
+        "titolo": "Lo Stato-istituzione e le forme di Stato",
+        "da": 37,
+        "a": 40,
+        "lezione": "u05-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u05-l1.json"
+      },
+      {
+        "id": "u05-l2",
+        "titolo": "Stati unitari e composti, decentramento, unioni di Stati e Unione europea",
+        "da": 40,
+        "a": 43,
+        "lezione": "u05-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u05-l2.json"
+      },
+      {
+        "id": "u05-l3",
+        "titolo": "Gli elementi costitutivi dello Stato: il territorio",
+        "da": 44,
+        "a": 46,
+        "lezione": "u05-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u05-l3.json"
+      },
+      {
+        "id": "u05-l4",
+        "titolo": "Il popolo, la cittadinanza e la sovranità",
+        "da": 46,
+        "a": 49,
+        "lezione": "u05-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u05-l4.json"
+      },
+      {
+        "id": "u05-l5",
+        "titolo": "Stato-apparato, comunità statale, funzioni dello Stato e forme di governo",
+        "da": 49,
+        "a": 52,
+        "lezione": "u05-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u05-l5.json"
+      },
+      {
+        "id": "u06-l1",
+        "titolo": "Separazione dei poteri e interferenze funzionali",
+        "da": 52,
+        "a": 53,
+        "lezione": "u06-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u06-l1.json"
+      },
+      {
+        "id": "u06-l2",
+        "titolo": "Gli organi: nozione, rapporto organico e classificazione",
+        "da": 53,
+        "a": 55,
+        "lezione": "u06-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u06-l2.json"
+      },
+      {
+        "id": "u06-l3",
+        "titolo": "Gli atti giuridici: tipi, perfezione, validità, efficacia e vizi",
+        "da": 55,
+        "a": 57,
+        "lezione": "u06-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u06-l3.json"
+      },
+      {
+        "id": "u07-l1",
+        "titolo": "Concetto e tipi di costituzione",
+        "da": 57,
+        "a": 60,
+        "lezione": "u07-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u07-l1.json"
+      },
+      {
+        "id": "u07-l2",
+        "titolo": "La Costituzione italiana: caratteri, origini e forma repubblicana",
+        "da": 60,
+        "a": 61,
+        "lezione": "u07-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u07-l2.json"
+      },
+      {
+        "id": "u07-l3",
+        "titolo": "Stato democratico, fondato sul lavoro e sociale",
+        "da": 61,
+        "a": 63,
+        "lezione": "u07-l3",
+        "lezioni": [
+          "u07-l3",
+          "u07-l5"
+        ],
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u07-l3.json"
+      },
+      {
+        "id": "u07-l4",
+        "titolo": "Stato parlamentare, decentrato, laico, internazionalista; la Costituzione vigente",
+        "da": 63,
+        "a": 64,
+        "lezione": "u07-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u07-l4.json"
+      },
+      {
+        "id": "u08-l1",
+        "titolo": "Il bicameralismo perfetto e il Parlamento in seduta comune",
+        "da": 65,
+        "a": 66,
+        "lezione": "u08-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u08-l1.json"
+      },
+      {
+        "id": "u08-l2",
+        "titolo": "Rappresentanza, elettorato, sistemi elettorali e caratteri del voto",
+        "da": 67,
+        "a": 69,
+        "lezione": "u08-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u08-l2.json"
+      },
+      {
+        "id": "u08-l3",
+        "titolo": "Il procedimento elettorale, le leggi elettorali e le differenze tra le Camere",
+        "da": 69,
+        "a": 72,
+        "lezione": "u08-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u08-l3.json"
+      },
+      {
+        "id": "u08-l4",
+        "titolo": "Ineleggibilità, incompatibilità, incandidabilità e verifica delle elezioni",
+        "da": 73,
+        "a": 74,
+        "lezione": "u08-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u08-l4.json"
+      },
+      {
+        "id": "u09-l1",
+        "titolo": "Insindacabilità e immunità: l'art. 68",
+        "da": 75,
+        "a": 77,
+        "lezione": "u09-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u09-l1.json"
+      },
+      {
+        "id": "u09-l2",
+        "titolo": "Disciplina, libero mandato, indennità e guarentigie delle Camere",
+        "da": 77,
+        "a": 78,
+        "lezione": "u09-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u09-l2.json"
+      },
+      {
+        "id": "u10-l1",
+        "titolo": "I regolamenti parlamentari, il Presidente e l'Ufficio di presidenza",
+        "da": 79,
+        "a": 81,
+        "lezione": "u10-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u10-l1.json"
+      },
+      {
+        "id": "u10-l2",
+        "titolo": "Gruppi, commissioni e giunte",
+        "da": 81,
+        "a": 83,
+        "lezione": "u10-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u10-l2.json"
+      },
+      {
+        "id": "u10-l3",
+        "titolo": "Organi bicamerali, legislatura, prorogatio e convocazione",
+        "da": 84,
+        "a": 86,
+        "lezione": "u10-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u10-l3.json"
+      },
+      {
+        "id": "u10-l4",
+        "titolo": "Sedute, numero legale, votazioni, interna corporis e ostruzionismo",
+        "da": 86,
+        "a": 88,
+        "lezione": "u10-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u10-l4.json"
+      },
+      {
+        "id": "u11-l1",
+        "titolo": "La legge formale e l'iniziativa legislativa",
+        "da": 88,
+        "a": 91,
+        "lezione": "u11-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u11-l1.json"
+      },
+      {
+        "id": "u11-l2",
+        "titolo": "L'approvazione: procedimento ordinario, decentrato e misto",
+        "da": 91,
+        "a": 94,
+        "lezione": "u11-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u11-l2.json"
+      },
+      {
+        "id": "u11-l3",
+        "titolo": "Promulgazione, rinvio presidenziale e pubblicazione",
+        "da": 94,
+        "a": 96,
+        "lezione": "u11-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u11-l3.json"
+      },
+      {
+        "id": "u11-l4",
+        "titolo": "Il procedimento aggravato: leggi costituzionali e di revisione",
+        "da": 96,
+        "a": 100,
+        "lezione": "u11-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u11-l4.json"
+      },
+      {
+        "id": "u11-l5",
+        "titolo": "Rottura della Costituzione e limiti alla revisione",
+        "da": 100,
+        "a": 102,
+        "lezione": "u11-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u11-l5.json"
+      },
+      {
+        "id": "u12-l1",
+        "titolo": "L'indirizzo politico e la mozione di fiducia",
+        "da": 102,
+        "a": 105,
+        "lezione": "u12-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u12-l1.json"
+      },
+      {
+        "id": "u12-l2",
+        "titolo": "Le leggi di indirizzo politico: bilancio e programmi economici",
+        "da": 105,
+        "a": 109,
+        "lezione": "u12-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u12-l2.json"
+      },
+      {
+        "id": "u12-l3",
+        "titolo": "Trattati, amnistia e indulto, stato di guerra, direttive parlamentari",
+        "da": 109,
+        "a": 111,
+        "lezione": "u12-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u12-l3.json"
+      },
+      {
+        "id": "u12-l4",
+        "titolo": "Il controllo e l'informazione: interrogazioni, interpellanze, inchieste",
+        "da": 111,
+        "a": 113,
+        "lezione": "u12-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u12-l4.json"
+      },
+      {
+        "id": "u12-l5",
+        "titolo": "Sfiducia, questione di fiducia e altre funzioni delle Camere",
+        "da": 113,
+        "a": 114,
+        "lezione": "u12-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u12-l5.json"
+      },
+      {
+        "id": "u13-l1",
+        "titolo": "Il referendum abrogativo: disciplina, quorum e ammissibilità",
+        "da": 114,
+        "a": 115,
+        "lezione": "u13-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u13-l1.json"
+      },
+      {
+        "id": "u13-l2",
+        "titolo": "Limiti impliciti, procedimento e referendum d'indirizzo",
+        "da": 116,
+        "a": 118,
+        "lezione": "u13-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u13-l2.json"
+      },
+      {
+        "id": "u14-l1",
+        "titolo": "Il potere esecutivo e la struttura del Governo",
+        "da": 119,
+        "a": 120,
+        "lezione": "u14-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u14-l1.json"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "La pubblica amministrazione e i suoi principi costituzionali",
+        "da": 120,
+        "a": 123,
+        "lezione": "u14-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u14-l2.json"
+      },
+      {
+        "id": "u14-l3",
+        "titolo": "La formazione del Governo",
+        "da": 123,
+        "a": 126,
+        "lezione": "u14-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u14-l3.json"
+      },
+      {
+        "id": "u14-l4",
+        "titolo": "Comitati, funzione amministrativa e direzione politica",
+        "da": 126,
+        "a": 128,
+        "lezione": "u14-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u14-l4.json"
+      },
+      {
+        "id": "u15-l1",
+        "titolo": "Le funzioni normative del Governo e il decreto-legge",
+        "da": 128,
+        "a": 130,
+        "lezione": "u15-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u15-l1.json"
+      },
+      {
+        "id": "u15-l2",
+        "titolo": "Limiti, conversione e decadenza del decreto-legge",
+        "da": 131,
+        "a": 133,
+        "lezione": "u15-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u15-l2.json"
+      },
+      {
+        "id": "u15-l3",
+        "titolo": "Il decreto legislativo e la legge di delegazione",
+        "da": 133,
+        "a": 135,
+        "lezione": "u15-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u15-l3.json"
+      },
+      {
+        "id": "u15-l4",
+        "titolo": "I regolamenti dell'esecutivo",
+        "da": 135,
+        "a": 138,
+        "lezione": "u15-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u15-l4.json"
+      },
+      {
+        "id": "u15-l5",
+        "titolo": "La riserva di legge",
+        "da": 138,
+        "a": 141,
+        "lezione": "u15-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u15-l5.json"
+      },
+      {
+        "id": "u15-l6",
+        "titolo": "La cessazione del Governo e le crisi",
+        "da": 141,
+        "a": 143,
+        "lezione": "u15-l6",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u15-l6.json"
+      },
+      {
+        "id": "u15-l7",
+        "titolo": "La responsabilità dei ministri e gli organi ausiliari",
+        "da": 143,
+        "a": 145,
+        "lezione": "u15-l7",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u15-l7.json"
+      },
+      {
+        "id": "u16-l1",
+        "titolo": "Funzione giurisdizionale e unicità della giurisdizione",
+        "da": 145,
+        "a": 147,
+        "lezione": "u16-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u16-l1.json"
+      },
+      {
+        "id": "u16-l2",
+        "titolo": "Le giurisdizioni speciali e l’indipendenza dei loro giudici",
+        "da": 147,
+        "a": 150,
+        "lezione": "u16-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u16-l2.json"
+      },
+      {
+        "id": "u16-l3",
+        "titolo": "Il riparto fra giudici, i ricorsi amministrativi e le giurisdizioni non statali",
+        "da": 150,
+        "a": 153,
+        "lezione": "u16-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u16-l3.json"
+      },
+      {
+        "id": "u16-l4",
+        "titolo": "Il CSM e l’indipendenza della magistratura ordinaria",
+        "da": 153,
+        "a": 156,
+        "lezione": "u16-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u16-l4.json"
+      },
+      {
+        "id": "u16-l5",
+        "titolo": "Processo, pena e responsabilità dei giudici",
+        "da": 156,
+        "a": 158,
+        "lezione": "u16-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u16-l5.json"
+      },
+      {
+        "id": "u17-l1",
+        "titolo": "Elezione, mandato, supplenza",
+        "da": 158,
+        "a": 161,
+        "lezione": "u17-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u17-l1.json"
+      },
+      {
+        "id": "u17-l2",
+        "titolo": "Irresponsabilità, controfirma, attribuzioni ed esternazioni",
+        "da": 161,
+        "a": 164,
+        "lezione": "u17-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u17-l2.json"
+      },
+      {
+        "id": "u17-l3",
+        "titolo": "Scioglimento delle Camere, atti presidenziali e potere neutro",
+        "da": 164,
+        "a": 167,
+        "lezione": "u17-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u17-l3.json"
+      },
+      {
+        "id": "u18-l1",
+        "titolo": "La Corte costituzionale: funzioni, composizione, status dei giudici",
+        "da": 168,
+        "a": 171,
+        "lezione": "u18-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u18-l1.json"
+      },
+      {
+        "id": "u18-l2",
+        "titolo": "I vizi delle leggi e gli atti sottoposti al giudizio",
+        "da": 171,
+        "a": 174,
+        "lezione": "u18-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u18-l2.json"
+      },
+      {
+        "id": "u19-l1",
+        "titolo": "Il giudizio in via incidentale",
+        "da": 174,
+        "a": 177,
+        "lezione": "u19-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u19-l1.json"
+      },
+      {
+        "id": "u19-l2",
+        "titolo": "Il giudizio in via principale e le decisioni della Corte",
+        "da": 177,
+        "a": 179,
+        "lezione": "u19-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u19-l2.json"
+      },
+      {
+        "id": "u19-l3",
+        "titolo": "Sentenze di accoglimento e di rigetto",
+        "da": 179,
+        "a": 182,
+        "lezione": "u19-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u19-l3.json"
+      },
+      {
+        "id": "u19-l4",
+        "titolo": "Sentenze interpretative, manipolative e monito",
+        "da": 182,
+        "a": 184,
+        "lezione": "u19-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u19-l4.json"
+      },
+      {
+        "id": "u20-l1",
+        "titolo": "I conflitti di attribuzione fra i poteri dello Stato",
+        "da": 184,
+        "a": 187,
+        "lezione": "u20-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u20-l1.json"
+      },
+      {
+        "id": "u20-l2",
+        "titolo": "Conflitti fra Stato e Regioni, giudizio d’accusa e ruolo della Corte",
+        "da": 187,
+        "a": 190,
+        "lezione": "u20-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u20-l2.json"
+      },
+      {
+        "id": "u21-l1",
+        "titolo": "Libertà, autonomia ed eguaglianza formale",
+        "da": 191,
+        "a": 193,
+        "lezione": "u21-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u21-l1.json"
+      },
+      {
+        "id": "u21-l2",
+        "titolo": "Eguaglianza sostanziale e diritti pubblici soggettivi",
+        "da": 193,
+        "a": 197,
+        "lezione": "u21-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u21-l2.json"
+      },
+      {
+        "id": "u21-l3",
+        "titolo": "I doveri costituzionali",
+        "da": 197,
+        "a": 198,
+        "lezione": "u21-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u21-l3.json"
+      },
+      {
+        "id": "u22-l1",
+        "titolo": "Garanzie delle libertà negative e libertà personale",
+        "da": 198,
+        "a": 200,
+        "lezione": "u22-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u22-l1.json"
+      },
+      {
+        "id": "u22-l2",
+        "titolo": "Domicilio, riservatezza e corrispondenza",
+        "da": 200,
+        "a": 202,
+        "lezione": "u22-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u22-l2.json"
+      },
+      {
+        "id": "u22-l3",
+        "titolo": "Circolazione, soggiorno ed espatrio",
+        "da": 202,
+        "a": 204,
+        "lezione": "u22-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u22-l3.json"
+      },
+      {
+        "id": "u22-l4",
+        "titolo": "Riunione e associazione",
+        "da": 204,
+        "a": 207,
+        "lezione": "u22-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u22-l4.json"
+      },
+      {
+        "id": "u23-l1",
+        "titolo": "La libertà religiosa",
+        "da": 207,
+        "a": 208,
+        "lezione": "u23-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u23-l1.json"
+      },
+      {
+        "id": "u23-l2",
+        "titolo": "Manifestazione del pensiero e libertà di stampa",
+        "da": 208,
+        "a": 212,
+        "lezione": "u23-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u23-l2.json"
+      },
+      {
+        "id": "u23-l3",
+        "titolo": "Spettacolo, radiotelevisione e internet",
+        "da": 212,
+        "a": 215,
+        "lezione": "u23-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u23-l3.json"
+      },
+      {
+        "id": "u23-l4",
+        "titolo": "Diritto all'informazione, arte, scienza e insegnamento",
+        "da": 215,
+        "a": 217,
+        "lezione": "u23-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u23-l4.json"
+      },
+      {
+        "id": "u24-l1",
+        "titolo": "Libertà positive e diritti sociali",
+        "da": 217,
+        "a": 218,
+        "lezione": "u24-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u24-l1.json"
+      },
+      {
+        "id": "u24-l2",
+        "titolo": "Le libertà economiche e i nuovi diritti",
+        "da": 218,
+        "a": 220,
+        "lezione": "u24-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u24-l2.json"
+      },
+      {
+        "id": "u24-l3",
+        "titolo": "La protezione internazionale ed europea dei diritti",
+        "da": 220,
+        "a": 223,
+        "lezione": "u24-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u24-l3.json"
+      },
+      {
+        "id": "u24-l4",
+        "titolo": "La condizione giuridica dello straniero e il diritto di asilo",
+        "da": 223,
+        "a": 224,
+        "lezione": "u24-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u24-l4.json"
+      },
+      {
+        "id": "u24-l5",
+        "titolo": "Diritti inviolabili e formazioni sociali",
+        "da": 224,
+        "a": 227,
+        "lezione": "u24-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u24-l5.json"
+      },
+      {
+        "id": "u25-l1",
+        "titolo": "Costituzione e formazioni sociali; la famiglia",
+        "da": 227,
+        "a": 229,
+        "lezione": "u25-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u25-l1.json"
+      },
+      {
+        "id": "u25-l2",
+        "titolo": "La scuola",
+        "da": 229,
+        "a": 231,
+        "lezione": "u25-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u25-l2.json"
+      },
+      {
+        "id": "u25-l3",
+        "titolo": "Le confessioni religiose",
+        "da": 231,
+        "a": 233,
+        "lezione": "u25-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u25-l3.json"
+      },
+      {
+        "id": "u25-l4",
+        "titolo": "La comunità del lavoro: sindacati, contratto collettivo, sciopero",
+        "da": 233,
+        "a": 237,
+        "lezione": "u25-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u25-l4.json"
+      },
+      {
+        "id": "u25-l5",
+        "titolo": "Partiti politici e minoranze linguistiche",
+        "da": 237,
+        "a": 239,
+        "lezione": "u25-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u25-l5.json"
+      },
+      {
+        "id": "u26-l1",
+        "titolo": "La nascita delle Regioni e i significati di autonomia",
+        "da": 239,
+        "a": 241,
+        "lezione": "u26-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u26-l1.json"
+      },
+      {
+        "id": "u26-l2",
+        "titolo": "Natura giuridica ed elementi costitutivi della Regione",
+        "da": 242,
+        "a": 244,
+        "lezione": "u26-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u26-l2.json"
+      },
+      {
+        "id": "u26-l3",
+        "titolo": "Regioni ordinarie e speciali; gli statuti",
+        "da": 244,
+        "a": 246,
+        "lezione": "u26-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u26-l3.json"
+      },
+      {
+        "id": "u27-l1",
+        "titolo": "Corpo elettorale e Consiglio regionale",
+        "da": 247,
+        "a": 249,
+        "lezione": "u27-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u27-l1.json"
+      },
+      {
+        "id": "u27-l2",
+        "titolo": "Giunta, Presidente e forma di governo regionale",
+        "da": 250,
+        "a": 252,
+        "lezione": "u27-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u27-l2.json"
+      },
+      {
+        "id": "u27-l3",
+        "titolo": "I raccordi fra lo Stato e le Regioni",
+        "da": 252,
+        "a": 255,
+        "lezione": "u27-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u27-l3.json"
+      },
+      {
+        "id": "u28-l1",
+        "titolo": "Lo statuto nel sistema delle fonti regionali",
+        "da": 255,
+        "a": 256,
+        "lezione": "u28-l1",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u28-l1.json"
+      },
+      {
+        "id": "u28-l2",
+        "titolo": "La legge regionale: procedimento, limiti e tipi di potestà",
+        "da": 256,
+        "a": 259,
+        "lezione": "u28-l2",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u28-l2.json"
+      },
+      {
+        "id": "u28-l3",
+        "titolo": "Riparto delle materie e sussidiarietà",
+        "da": 260,
+        "a": 262,
+        "lezione": "u28-l3",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u28-l3.json"
+      },
+      {
+        "id": "u28-l4",
+        "titolo": "Fonti e funzioni amministrative; l'autonomia finanziaria",
+        "da": 262,
+        "a": 264,
+        "lezione": "u28-l4",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u28-l4.json"
+      },
+      {
+        "id": "u28-l5",
+        "titolo": "Fondo perequativo, controlli ed enti locali",
+        "da": 265,
+        "a": 267,
+        "lezione": "u28-l5",
+        "revisionata": true,
+        "file": "letture/costituzionale-iuris-v1/u28-l5.json"
       }
     ]
   },

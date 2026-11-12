@@ -1,1083 +1,3397 @@
 {
-  "id": "u11",
-  "ordine": 11,
-  "titolo": "La giustizia e l’indipendenza della magistratura",
-  "capitolo": "Capitolo VII",
-  "pagine": [
+ "id": "u11",
+ "ordine": 11,
+ "titolo": "La funzione legislativa delle Camere",
+ "capitolo": "Parte II · Capitolo I · Sezione IV",
+ "pagine": [
+  88,
+  102
+ ],
+ "abstract": "Il cuore del diritto parlamentare: che cos'è la legge formale, le tre fasi del procedimento legislativo (iniziativa, approvazione, promulgazione e pubblicazione), i tre procedimenti di approvazione, e poi il procedimento aggravato dell'art. 138 con i limiti alla revisione costituzionale. Sono tra le domande più frequenti all'esame.",
+ "note": "Aggiornato: dopo quello del 2006 ci sono stati altri referendum costituzionali: 2016 (riforma respinta), 2020 (riduzione dei parlamentari approvata) e marzo 2026 (riforma della magistratura respinta). Nel referendum costituzionale non c'è quorum di partecipazione.",
+ "noteRedazione": [
+  "p. 89: «legge finanziaria» e rapporti «comunitari» aggiornati a legge di bilancio e rapporti con l'Unione europea.",
+  "p. 91 e p. 93: il riassunto elenca tra i casi di procedimento ordinario obbligatorio anche la conversione dei decreti-legge e le leggi rinviate: l'art. 72, quarto comma, indica solo materia costituzionale ed elettorale, delegazione, ratifica dei trattati, bilanci e consuntivi; gli altri casi derivano dai regolamenti (così anche p. 132 per l'art. 35 reg. Senato). Distinto nella sintesi.",
+  "p. 94: sede redigente «sempre meno utilizzata»: al Senato la riforma regolamentare del 2017 ha invece fatto delle sedi deliberante e redigente la regola di assegnazione (dato da riverificare sull'art. 34 reg. Senato); segnalato in una riga.",
+  "p. 95: i rinvii citati (Ciampi 2003, legge Gasparri; Napolitano 2010) sono riportati come nel riassunto; date: 15 dicembre 2003 e 31 marzo 2010. «Ministero di grazia» aggiornato a Ministro della giustizia.",
+  "p. 97: il riassunto dà per il referendum del 25–26 giugno 2006 affluenza 53,6% e No 61,7%; i dati ufficiali sono leggermente diversi (affluenza poco sopra il 52%, No circa 61,3%): la sintesi usa formule approssimate.",
+  "p. 98: «elezioni del 18 aprile 1848» è refuso per 1948; la DC ottenne circa il 48,5% dei voti e la maggioranza assoluta dei seggi (il riassunto scrive 48,8%). «Sentenza 740 del 2000» non è stata identificata con certezza: il passo sulla procedura «razionale» è riportato senza numero di sentenza. «Quorum strumentale» è il quorum strutturale. Il referendum del 2001 si tenne il 7 ottobre.",
+  "p. 100: «Half Ross» è Alf Ross. p. 101: «diritto alla difesa personale» (art. 24) è il diritto di difesa; «habeas mentes» reso come libertà di pensiero.",
+  "pp. 97–98: aggiunti i referendum costituzionali successivi (4 dicembre 2016; 20–21 settembre 2020; marzo 2026) secondo le verifiche di piani/diritto-costituzionale.md."
+ ],
+ "lezioni": [
+  {
+   "id": "u11-l1",
+   "titolo": "La legge formale e l'iniziativa legislativa",
+   "pagine": [
+    88,
+    90
+   ],
+   "minuti": 30,
+   "sintesi": "### Legge formale, forza e valore di legge\nPer il principio della [[separazione-dei-poteri|separazione dei poteri]] spetta alle [[parlamento|Camere]] (e ai [[consiglio-regionale|Consigli regionali]]) il potere di legiferare, cioè di porre le norme costitutive dell'ordinamento. Anche il [[governo|Governo]] adotta atti normativi ([[decreto-legislativo|decreti legislativi]], [[decreto-legge|decreti-legge]], regolamenti) e, per converso, le Camere svolgono attività non legislative. Gli atti normativi delle Camere sono le [[legge-formale|leggi formali]], dotate di una particolare efficacia: l'idoneità a **innovare** l'ordine legislativo, integrandolo o abrogando leggi precedenti.\n\n| Nozione | Significato |\n|---|---|\n| [[forza-di-legge|Forza di legge]] **attiva** | la legge *prevale* sugli atti gerarchicamente subordinati |\n| Forza di legge **passiva** | la legge *resiste* agli atti subordinati che la contraddicono |\n| **Valore di legge** | regime giuridico della legge e degli atti equiparati: sono soggetti soltanto al [[corte-costituzionale|sindacato della Corte costituzionale]] |\n\n### Un atto complesso in tre fasi\nLa [[legge-ordinaria|legge]] è un **atto complesso eguale**: le due Camere vi partecipano in posizione di parità approvando il medesimo testo (art. 70: «La funzione legislativa è esercitata collettivamente dalle due Camere»). Il procedimento ha tre fasi:\n\n1. **iniziativa** (fase introduttiva);\n2. **approvazione** delle Camere (fase costitutiva);\n3. **promulgazione e pubblicazione** (fase integrativa dell'efficacia).\n\n### L'iniziativa legislativa\nL'[[iniziativa-legislativa|iniziativa]] è la presentazione di un progetto di legge a una [[camera-dei-deputati|Camera]]. Spetta a cinque soggetti (art. 71):\n\n| Titolare | Caratteri |\n|---|---|\n| **Governo** | la più rilevante: i *disegni di legge* sono deliberati dal [[consiglio-dei-ministri|Consiglio dei ministri]] e presentati con decreto di autorizzazione del [[presidente-della-repubblica|Presidente della Repubblica]] |\n| **Parlamentari** | *proposte di legge* presentate alla Camera di appartenenza |\n| **Popolo** | almeno **50.000 elettori**, con progetto redatto in articoli |\n| **CNEL** | in sostanza nel solo campo economico-sociale |\n| **Consigli regionali** | da soli o congiuntamente, su materie d'interesse regionale |\n\nL'iniziativa **governativa** pesa di più per due ragioni: il Governo, attraverso l'amministrazione, valuta meglio le necessità d'intervento; e gli spetta l'iniziativa della [[legge-di-bilancio|legge di bilancio]] e nei rapporti internazionali ed europei. I suoi disegni di legge hanno più probabilità di passare, perché di regola dispone della maggioranza; se questa è poco omogenea deve patteggiare, accogliere emendamenti o porre la [[questione-di-fiducia|questione di fiducia]]. Di qui la richiesta di una «corsia preferenziale», in parte accolta: i regolamenti fissano termini per l'esame di alcuni disegni di legge (bilancio, conversione dei decreti-legge) e il programma dei lavori tiene conto delle priorità del Governo.\n\nL'[[iniziativa-legislativa-popolare|iniziativa popolare]] è, con referendum e petizione, un istituto tradizionale di [[democrazia-diretta|democrazia diretta]]; la legge n. 352/1970 (artt. 48 e 49) vuole che la proposta, con una relazione illustrativa, sia presentata al Presidente di una Camera. Quanto alle [[regioni|Regioni]], non si esclude che propongano leggi sui loro rapporti con lo Stato, e nella prassi non si sono attenute al criterio restrittivo dell'interesse regionale, difficile da delimitare. Un'iniziativa particolare spetta ai **Comuni** per il mutamento delle circoscrizioni provinciali (art. 133).\n\n### Iniziativa vincolata, riservata, condizionata\n- **Vincolata**: la presentazione è obbligatoria (la legge di bilancio, ogni anno, art. 81).\n- **Riservata**: spetta a un solo soggetto (al Governo le leggi sulle intese con le confessioni acattoliche, art. 8).\n- **Preceduta da atti**: accordo con la Santa Sede per modificare i Patti lateranensi (art. 7), intese con le confessioni; richiesta degli enti, parere dei Consigli regionali e referendum per il passaggio di Province e Comuni ad altra Regione (art. 132).\n\nInfine, i regolamenti vietano di assegnare alle [[commissioni-parlamentari|commissioni]] progetti che riproducono nella sostanza progetti respinti, se non sono passati **sei mesi** dalla reiezione.\n\n### Leggi rinforzate e leggi atipiche\nNon tutte le leggi ordinarie seguono lo stesso schema. La [[legge-rinforzata|legge rinforzata]] richiede, oltre al procedimento normale, un aggravio voluto dalla Costituzione: una maggioranza speciale (i due terzi dei componenti per [[amnistia-e-indulto|amnistia e indulto]], art. 79) o un atto che deve precederla (le intese con le confessioni diverse dalla cattolica, art. 8). La [[legge-atipica|legge atipica]] ha invece una forza o un ambito particolari, per cui il suo rapporto con le altre fonti non dipende solo dalla veste di legge. Nessuna delle due diventa per questo una [[legge-costituzionale|legge costituzionale]], e l'atipicità non sottrae da sola al [[referendum-abrogativo|referendum]]: contano i limiti dell'art. 75 e quelli motivati dalla Corte caso per caso.\n\n### Quando a legiferare è il Governo: la delega\nCon la [[legge-delega|legge delega]] (art. 76) le Camere autorizzano il [[governo|Governo]] a legiferare indicando **oggetti definiti**, **tempo limitato** e **principi e criteri direttivi**. La delega si approva in aula ([[riserva-di-assemblea|riserva di assemblea]]) e non spoglia il [[parlamento|Parlamento]]: può sempre legiferare nella materia delegata. Il Governo la esercita con il [[decreto-legislativo|decreto legislativo]], deliberato dal [[consiglio-dei-ministri|Consiglio dei ministri]] ed emanato dal Presidente della Repubblica **entro il termine**, dopo gli eventuali pareri richiesti. Se il decreto esce dai confini si ha [[eccesso-di-delega|eccesso di delega]]: la legge delega fa da **parametro interposto** nel giudizio della [[corte-costituzionale|Corte costituzionale]] per violazione dell'art. 76, e il contrasto non si risolve con il criterio cronologico. Il [[testo-unico|testo unico]] normativo, che riordina una materia con forza di legge, ha bisogno di una delega; quello solo compilativo serve a conoscere e non può abrogare né far rivivere norme.",
+   "puntiChiave": [
+    "Legge formale: atto delle Camere capace di innovare l'ordine legislativo.",
+    "Forza di legge: prevalenza (attiva) e resistenza (passiva); valore di legge: soggezione al solo sindacato della Corte costituzionale.",
+    "La legge è un atto complesso eguale (art. 70): iniziativa, approvazione, promulgazione e pubblicazione.",
+    "Iniziativa: Governo, parlamentari, 50.000 elettori, CNEL, Consigli regionali (più i Comuni nell'art. 133).",
+    "L'iniziativa governativa è la più rilevante; il disegno di legge è presentato con autorizzazione del Presidente della Repubblica.",
+    "Iniziativa vincolata (bilancio) e riservata (intese con le confessioni acattoliche)."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 70",
+     "dettaglio": "la funzione legislativa è esercitata collettivamente dalle due Camere"
+    },
+    {
+     "voce": "Art. 71",
+     "dettaglio": "titolari dell'iniziativa; 50.000 elettori per quella popolare"
+    },
+    {
+     "voce": "Disegno / proposta di legge",
+     "dettaglio": "progetto del Governo / dei parlamentari"
+    },
+    {
+     "voce": "Art. 133",
+     "dettaglio": "iniziativa dei Comuni sulle circoscrizioni provinciali"
+    },
+    {
+     "voce": "6 mesi",
+     "dettaglio": "divieto di riassegnare progetti sostanzialmente identici a quelli respinti"
+    }
+   ],
+   "concetti": [
+    "legge-formale",
+    "forza-di-legge",
+    "legge-ordinaria",
+    "iniziativa-legislativa",
+    "iniziativa-legislativa-popolare",
+    "legge-rinforzata",
+    "legge-atipica",
+    "legge-delega",
+    "decreto-legislativo",
+    "eccesso-di-delega",
+    "testo-unico"
+   ]
+  },
+  {
+   "id": "u11-l2",
+   "titolo": "L'approvazione: procedimento ordinario, decentrato e misto",
+   "pagine": [
+    91,
+    94
+   ],
+   "minuti": 35,
+   "sintesi": "L'approvazione di un progetto di legge può seguire tre procedimenti: **ordinario**, **decentrato** (o per [[commissioni-parlamentari|commissioni]]), **misto**.\n\n### Il procedimento ordinario\nÈ disegnato dall'art. 72, primo comma.\n\n1. Il progetto è esaminato da una commissione competente per materia, in [[commissione-referente|sede referente]]: non si limita all'istruttoria, può proporre modifiche e fondere più progetti in un testo unificato.\n2. La commissione trasmette il testo all'Assemblea con una o più **relazioni** (anche di minoranza).\n3. **Discussione generale**, che si chiude con il voto di eventuali ordini del giorno; se è approvato un ordine del giorno di *non passaggio agli articoli* il procedimento si arresta.\n4. Discussione e voto **articolo per articolo**, con emendamenti e subemendamenti.\n5. **Votazione finale** sul progetto nel suo complesso, a scrutinio palese salvo eccezioni.\n\nLa votazione finale è necessaria perché gli articoli possono essere stati approvati da maggioranze diverse o con emendamenti che hanno mutato il significato politico o il contenuto del progetto.\n\n### La riserva di assemblea\nPer l'art. 72, quarto comma, il procedimento ordinario è **sempre** adottato per i disegni di legge:\n\n- in materia costituzionale ed elettorale;\n- di delegazione legislativa;\n- di autorizzazione a ratificare trattati internazionali;\n- di approvazione di bilanci e consuntivi.\n\nÈ la [[riserva-di-assemblea|riserva di assemblea]]; i regolamenti vi aggiungono la conversione dei [[decreto-legge|decreti-legge]] e le leggi rinviate dal [[presidente-della-repubblica|Presidente della Repubblica]]. La ragione: bilancio e trattati sono materie di **indirizzo politico** (non a caso sottratte anche al [[referendum-abrogativo|referendum abrogativo]] dall'art. 75) e si vuole che siano decise coralmente, con il procedimento che dà più garanzie alle [[tutela-delle-minoranze|minoranze]] e la parola a tutti i parlamentari. La nozione di «materia costituzionale» è incerta: per la Corte (sent. n. 168/1963) coincide con le leggi dell'art. 138, sicché tutto il resto può andare in commissione; ma così cade la riserva per leggi che pure vertono su materia costituzionale, come quelle sul [[csm|CSM]] o sulla [[corte-costituzionale|Corte costituzionale]].\n\nIl **procedimento abbreviato** per i progetti dichiarati urgenti (art. 72, secondo comma) non è un procedimento distinto: riduce i termini (alla metà, al [[senato|Senato]]). L'urgenza può essere chiesta alla [[camera-dei-deputati|Camera]] dal [[governo|Governo]], da un presidente di gruppo o da dieci deputati; al Senato dal proponente, dal presidente della commissione o da otto senatori.\n\n### Il procedimento decentrato\nQui la commissione non solo esamina, ma **approva** la legge: lavora in [[commissione-deliberante|sede deliberante]] (o legislativa) e l'Assemblea non interviene. Alla Camera l'assegnazione è proposta dal Presidente e approvata dall'Assemblea; al Senato è decisa dal Presidente. È un istituto quasi solo italiano (e spagnolo), nato con la legge del 1939 che istituì la Camera dei fasci e delle corporazioni, allora per depotenziare le assemblee più che per snellire i lavori.\n\nGaranzie (art. 72, terzo comma):\n\n- commissioni composte in proporzione ai gruppi;\n- **rimessione all'Assemblea** se lo chiedono il Governo, un decimo dei componenti della Camera o un quinto della commissione;\n- esclusione delle materie coperte da riserva di assemblea.\n\nIl bilancio è negativo: in commissione passano soprattutto **«leggine»** settoriali, perché il compromesso tra maggioranza e opposizione vi è più facile. Il criterio dell'art. 92 del regolamento della Camera (solo questioni «che non hanno speciale rilevanza di ordine generale») è rimasto in gran parte inapplicato e la rimessione è stata chiesta di rado. Il crescente ricorso alla delega legislativa ha poi ridotto l'uso del procedimento.\n\n### Il procedimento misto\nIn [[commissione-redigente|sede redigente]] il lavoro è **ripartito**: alla Camera (art. 96 reg.) l'Assemblea affida alla commissione la formulazione degli articoli entro un termine e riserva a sé la loro approvazione senza emendamenti e il voto finale; al Senato il Presidente assegna il progetto alla commissione per la deliberazione degli articoli, lasciando all'Assemblea la votazione finale. Il manuale lo dice poco usato (al Senato è stato rilanciato dalla riforma regolamentare del 2017).\n\n### La navetta e i pareri\nLe [[parlamento|Camere]] devono approvare lo **stesso testo**: se una emenda il testo dell'altra, il progetto torna indietro, e così di seguito fino all'accordo. È la [[navetta-parlamentare|navetta]]. Il procedimento scelto da una Camera non vincola l'altra.\n\nSul progetto assegnato a una commissione possono pronunciarsi altre commissioni, dette «filtro»: bilancio (obbligatorio se vi sono nuove entrate o spese), affari costituzionali (legittimità costituzionale), politiche dell'[[unione-europea|Unione europea]], giustizia (sanzioni). In sede deliberante i loro pareri sono **vincolanti**.\n\n### Le tre sedi a confronto\n| Sede | Commissione | Assemblea |\n|---|---|---|\n| Referente | esamina e riferisce | discussione generale, articoli, voto finale |\n| Deliberante | approva la legge | solo se c'è rimessione |\n| Redigente | formula o vota gli articoli | voti riservati dal regolamento, sempre il voto finale |\n\nLe tre discussioni in aula (generale, sugli articoli, finale) sono passaggi **interni** a ciascuna Camera, non tre approvazioni del Parlamento. Un esempio di [[navetta-parlamentare|navetta]]: la Camera approva gli articoli A e B, il Senato modifica B; l'accordo su A non basta e il testo torna alla Camera. Se questa accetta, l'iter parlamentare è chiuso; se cambia ancora B, si torna al Senato. Né l'urgenza politica né il nome del proponente eliminano la regola del **testo identico**. Le soglie per la rimessione (Governo, un decimo della Camera, un quinto della commissione) proteggono l'intera rappresentanza contro un decentramento che la escluda.",
+   "puntiChiave": [
+    "Tre procedimenti: ordinario (sede referente), decentrato (sede deliberante), misto (sede redigente).",
+    "Ordinario: commissione referente, discussione generale, voto articolo per articolo, votazione finale.",
+    "Riserva di assemblea (art. 72, c. 4): materia costituzionale ed elettorale, delegazione, ratifica dei trattati, bilanci e consuntivi.",
+    "In sede deliberante la commissione approva la legge; rimessione all'Assemblea su richiesta di Governo, 1/10 della Camera o 1/5 della commissione.",
+    "Il procedimento decentrato nasce nel 1939 e produce soprattutto «leggine».",
+    "Navetta: il testo passa da una Camera all'altra finché non è identico."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 72",
+     "dettaglio": "procedimento legislativo; c. 4 riserva di assemblea"
+    },
+    {
+     "voce": "1/10 – 1/5",
+     "dettaglio": "quote che possono chiedere la rimessione all'Assemblea"
+    },
+    {
+     "voce": "1939",
+     "dettaglio": "legge sulla Camera dei fasci: nasce il procedimento per commissioni"
+    },
+    {
+     "voce": "Sent. 168/1963",
+     "dettaglio": "«materia costituzionale» = leggi dell'art. 138"
+    },
+    {
+     "voce": "Art. 92 reg. Camera",
+     "dettaglio": "sede deliberante solo per questioni senza speciale rilevanza generale"
+    },
+    {
+     "voce": "Art. 96 reg. Camera",
+     "dettaglio": "sede redigente"
+    }
+   ],
+   "concetti": [
+    "commissione-referente",
+    "commissione-deliberante",
+    "commissione-redigente",
+    "riserva-di-assemblea",
+    "navetta-parlamentare",
+    "legge-ordinaria"
+   ]
+  },
+  {
+   "id": "u11-l3",
+   "titolo": "Promulgazione, rinvio presidenziale e pubblicazione",
+   "pagine": [
+    94,
+    96
+   ],
+   "minuti": 25,
+   "sintesi": "### La promulgazione\nLa legge approvata è trasmessa al [[presidente-della-repubblica|Presidente della Repubblica]] dal Presidente della [[camera-dei-deputati|Camera]] che l'ha votata per ultima. [[promulgazione|Promulgazione]] e pubblicazione formano la fase **integrativa dell'efficacia**. La promulgazione non è la *sanzione regia* dello [[statuto-albertino|Statuto albertino]]: quella era una vera approvazione, che faceva del re un terzo organo legislativo; questa non tocca il contenuto della legge, già perfetta.\n\nDeve avvenire **entro un mese** dall'approvazione (o nel termine più breve fissato dalle [[parlamento|Camere]] a maggioranza assoluta, se dichiarano l'urgenza: art. 73). È un decreto con cui il Presidente:\n\n1. **attesta** che la legge è stata approvata dalle due Camere;\n2. **dichiara** la volontà di promulgarla;\n3. **ordina** la pubblicazione e vi appone la clausola esecutiva («È fatto obbligo a chiunque spetti di osservarla…»).\n\n### Il rinvio alle Camere\nEntro lo stesso termine il Presidente può invece, con **messaggio motivato**, chiedere alle Camere una nuova deliberazione (art. 74): è il [[rinvio-presidenziale|rinvio]]. I motivi possono riguardare:\n\n| Tipo di rilievo | Contenuto |\n|---|---|\n| legittimità **formale** | il procedimento non è stato quello costituzionale |\n| legittimità **sostanziale** | la norma contrasta con una norma costituzionale |\n| **merito costituzionale** | la legge è contraria allo spirito della [[costituzione-italiana|Costituzione]] o non più adeguata alla situazione; mai una valutazione strettamente politica, perché il Presidente è organo di garanzia e non di indirizzo |\n\nLa maggior parte dei rinvii ha riguardato leggi di spesa prive di [[copertura-finanziaria|copertura]] (art. 81). Il rinvio è un **veto sospensivo**: le Camere sono libere di accogliere i rilievi o no e, se riapprovano la legge, questa **deve** essere promulgata; tra le due valutazioni prevale quella parlamentare. Resta l'ipotesi di scuola del rifiuto di promulgare una legge che integri un attentato alla Costituzione. Esempi: il rinvio di Ciampi della legge di riordino del sistema radiotelevisivo (legge Gasparri, 2003); l'unico rinvio del primo mandato di Napolitano (2010).\n\n### La pubblicazione\nLa [[pubblicazione-della-legge|pubblicazione]] avviene a cura e sotto la responsabilità del **Ministro della giustizia** (Guardasigilli), che appone il *visto* (regolarità formale) e il sigillo dello Stato (autenticazione). Consiste in due operazioni:\n\n- **inserzione nella Raccolta ufficiale degli atti normativi**: garantisce la certezza del diritto;\n- **pubblicazione nella Gazzetta Ufficiale**: rende conoscibile la legge.\n\nIn caso di difformità fa fede l'originale. Si provvede subito dopo la promulgazione e comunque **entro 30 giorni**. La legge entra in vigore il **quindicesimo giorno** successivo alla pubblicazione, salvo che essa stessa stabilisca un termine diverso: è la [[vacatio-legis|*vacatio legis*]] (art. 73).\n\nDecorsa la *vacatio*, la legge si presume conosciuta da tutti: *ignorantia legis non excusat*. Il rigore del principio è stato attenuato dalla [[corte-costituzionale|Corte costituzionale]]: la sentenza **n. 364/1988** ha dichiarato illegittimo l'art. 5 del codice penale nella parte in cui non esclude l'ignoranza **inevitabile**. Leggendo insieme il primo e il terzo comma dell'art. 27 (con gli artt. 2, 3, 25 e 73), la Corte ha osservato che punire chi non poteva conoscere la legge, senza prova di una sua consapevole ribellione o indifferenza all'ordinamento, scardina le garanzie che lo Stato democratico offre al cittadino.\n\n| | Promulgazione | Pubblicazione |\n|---|---|---|\n| Effetto | esecutorietà dell'atto | obbligatorietà *erga omnes* |\n| Dà alla legge | la **data** | il **numero** (quello della Raccolta) |",
+   "puntiChiave": [
+    "La promulgazione avviene entro un mese: attesta l'approvazione, dichiara la volontà di promulgare, ordina la pubblicazione.",
+    "Non è la sanzione regia: il Presidente non partecipa alla funzione legislativa.",
+    "Il rinvio (art. 74) è un veto sospensivo: se le Camere riapprovano, la legge deve essere promulgata.",
+    "Motivi del rinvio: legittimità formale, sostanziale, merito costituzionale; mai valutazioni strettamente politiche.",
+    "La pubblicazione è curata dal Ministro della giustizia: Raccolta ufficiale e Gazzetta Ufficiale.",
+    "Entrata in vigore: quindicesimo giorno dalla pubblicazione, salvo termine diverso.",
+    "Sent. n. 364/1988: l'ignoranza inevitabile della legge penale scusa."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 73",
+     "dettaglio": "promulgazione entro un mese; entrata in vigore dopo 15 giorni"
+    },
+    {
+     "voce": "Art. 74",
+     "dettaglio": "rinvio con messaggio motivato; obbligo di promulgare se riapprovata"
+    },
+    {
+     "voce": "30 giorni",
+     "dettaglio": "termine massimo per la pubblicazione dopo la promulgazione"
+    },
+    {
+     "voce": "Sent. 364/1988",
+     "dettaglio": "illegittimo l'art. 5 c.p. dove non esclude l'ignoranza inevitabile"
+    },
+    {
+     "voce": "2003",
+     "dettaglio": "Ciampi rinvia la legge Gasparri"
+    },
+    {
+     "voce": "Data / numero",
+     "dettaglio": "la data è della promulgazione, il numero è della Raccolta ufficiale"
+    }
+   ],
+   "concetti": [
+    "promulgazione",
+    "rinvio-presidenziale",
+    "pubblicazione-della-legge",
+    "vacatio-legis"
+   ]
+  },
+  {
+   "id": "u11-l4",
+   "titolo": "Il procedimento aggravato: leggi costituzionali e di revisione",
+   "pagine": [
+    96,
+    99
+   ],
+   "minuti": 35,
+   "sintesi": "### Perché un procedimento aggravato\nPoiché la [[costituzione-italiana|Costituzione]] è **rigida**, le sue disposizioni possono essere integrate, modificate o abrogate solo con una procedura **aggravata** rispetto a quella delle leggi ordinarie. Con questa ha in comune l'iniziativa e, con adattamenti, promulgazione e pubblicazione; cambia la fase dell'approvazione (art. 138).\n\n### Le fasi\n1. **Prima deliberazione** di ciascuna [[camera-dei-deputati|Camera]], con il procedimento ordinario.\n2. **Intervallo** di almeno **tre mesi**.\n3. **Seconda deliberazione** di ciascuna Camera, a **maggioranza assoluta** dei componenti. I regolamenti (1957 e 1958, confermati nel 1971) hanno scelto il metodo *alternato*: dopo la prima deliberazione il testo va all'altra Camera. Nella seconda lettura si discute solo sulle linee generali e si vota il testo nel complesso: **non sono ammessi emendamenti**.\n4. Pubblicazione del testo nella [[pubblicazione-della-legge|Gazzetta Ufficiale]], a soli fini di conoscenza: non è ancora legge.\n5. Entro **tre mesi** possono chiedere il [[referendum-costituzionale|referendum]] **500.000 elettori**, **un quinto** dei membri di una Camera o **cinque Consigli regionali**.\n6. Se il referendum non è chiesto, il progetto si intende tacitamente approvato; se è chiesto, è approvato con la **maggioranza dei voti validi**.\n7. [[promulgazione|Promulgazione]].\n\nSe nella seconda votazione ciascuna Camera approva a **due terzi** dei componenti, il referendum **non può essere chiesto**: si presume che anche il [[popolo|corpo elettorale]], i cui rappresentanti hanno approvato con un consenso così largo, sia d'accordo.\n\n### Il referendum costituzionale\nÈ una fase **eventuale** e ha natura *oppositiva*: serve alle [[tutela-delle-minoranze|minoranze]]. Per questo **non è previsto un quorum di partecipazione**, a differenza del [[referendum-abrogativo|referendum abrogativo]] dell'art. 75: un numero minimo di votanti ne vanificherebbe la funzione di garanzia. Fino al 1970 non poté essere chiesto, perché mancava la legge di attuazione (legge n. 352/1970, titolo I): fino ad allora ogni legge costituzionale fu approvata con i due terzi. Le leggi costituzionali n. 1/1993 e n. 1/1997 ([[commissioni-parlamentari|commissioni]] bicamerali per le riforme) avevano previsto, in deroga, un referendum obbligatorio.\n\n| Anno | Oggetto | Esito |\n|---|---|---|\n| 2001 | riforma del Titolo V (l. cost. n. 3/2001): primo referendum costituzionale | approvata |\n| 2006 | riforma della Parte II (XIV [[legislatura|legislatura]]) | respinta: ha votato poco più della metà degli elettori e il No ha superato il 61% |\n| 2016 | superamento del bicameralismo paritario | respinta |\n| 2020 | riduzione del numero dei parlamentari | approvata |\n| 2026 | riforma della magistratura | respinta |\n\nIl procedimento è dunque aggravato perché richiede **più tempo**, **maggioranze più alte** e un'**eventuale consultazione popolare**. Il popolo resta però ai margini: la revisione è pensata come una procedura «razionale», depurata dagli umori contingenti. Tutto si svolge in Assemblea (c'è [[riserva-di-assemblea|riserva di assemblea]]).\n\n### Il problema della maggioranza\nL'art. 138 nacque in un contesto proporzionale, in cui nessun partito poteva da solo raggiungere quelle maggioranze (solo il 18 aprile 1948 la DC ottenne la maggioranza assoluta dei seggi). Ma la maggioranza assoluta coincide con la **maggioranza di governo**: con le leggi elettorali maggioritarie o con premio, ogni governo può rivedere la Costituzione con relativa facilità. Il problema si è posto dal 1993; prima era pacifico che le revisioni si approvassero insieme all'opposizione. Per il manuale la Costituzione, fonte al vertice dell'ordinamento ed espressione dell'atto costituente, non può essere lasciata «in balia» delle forze di governo del momento.\n\n### Potere di revisione e potere costituente\nTitolare della [[revisione-costituzionale|revisione]] è il [[parlamento|Parlamento]], che non può sostituire la Costituzione nella sua interezza né eliminarla: deve conservarne la struttura (le Costituzioni spagnola e svizzera ammettono invece la revisione totale). Il potere costituente apparteneva all'[[assemblea-costituente|Assemblea costituente]].\n\n### Leggi di revisione e «altre leggi costituzionali»\nPer il criterio **formale** sono tali tutte le leggi approvate con l'art. 138 (sent. n. 168/1963): ma così non si sa *quando* la procedura vada usata. Serve il criterio **sostanziale**:\n\n| Tipo | Che cosa fa |\n|---|---|\n| **Leggi di revisione** | disciplinano una materia in modo difforme dalla Costituzione: ne modificano il testo e vi si incorporano |\n| **Altre [[legge-costituzionale|leggi costituzionali]]** | integrano la Costituzione senza modificarne il testo: sono quelle che essa stessa richiede (nuovi titolari dell'iniziativa, art. 71; statuti speciali, art. 116; giudizi davanti alla Corte e garanzie dei giudici, art. 137) |\n\nLa scelta tra legge ordinaria «in materia costituzionale» e legge costituzionale è di fatto rimessa al Parlamento e dipende anche da criteri politici; in generale, una legge che aggiunge competenze agli organi costituzionali richiede la procedura aggravata.",
+   "puntiChiave": [
+    "Art. 138: due deliberazioni di ciascuna Camera a distanza di almeno tre mesi; maggioranza assoluta nella seconda.",
+    "Nella seconda deliberazione non sono ammessi emendamenti.",
+    "Referendum entro tre mesi su richiesta di 500.000 elettori, 1/5 dei membri di una Camera o 5 Consigli regionali.",
+    "Con i due terzi in seconda votazione il referendum è escluso.",
+    "Il referendum costituzionale non ha quorum di partecipazione: vince la maggioranza dei voti validi.",
+    "Leggi di revisione modificano il testo; le altre leggi costituzionali lo integrano.",
+    "La maggioranza assoluta coincide con quella di governo: rischio di revisioni «di maggioranza»."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 138",
+     "dettaglio": "procedimento di revisione costituzionale"
+    },
+    {
+     "voce": "3 mesi + 3 mesi",
+     "dettaglio": "intervallo tra le deliberazioni; termine per chiedere il referendum"
+    },
+    {
+     "voce": "500.000 – 1/5 – 5",
+     "dettaglio": "elettori, membri di una Camera, Consigli regionali"
+    },
+    {
+     "voce": "2/3",
+     "dettaglio": "maggioranza che esclude il referendum"
+    },
+    {
+     "voce": "L. 352/1970",
+     "dettaglio": "attua il referendum costituzionale: prima non poteva essere chiesto"
+    },
+    {
+     "voce": "2001, 2006, 2016, 2020, 2026",
+     "dettaglio": "referendum costituzionali: sì, no, no, sì, no"
+    }
+   ],
+   "concetti": [
+    "revisione-costituzionale",
+    "legge-costituzionale",
+    "referendum-costituzionale",
+    "riserva-di-assemblea",
+    "pubblicazione-della-legge",
+    "promulgazione"
+   ]
+  },
+  {
+   "id": "u11-l5",
+   "titolo": "Rottura della Costituzione e limiti alla revisione",
+   "pagine": [
+    100,
+    102
+   ],
+   "minuti": 25,
+   "sintesi": "### La rottura della Costituzione\nDalla revisione va distinta la [[rottura-della-costituzione|rottura della Costituzione]]: una norma del testo costituzionale che **deroga** a un'altra norma o a un principio dello stesso testo. Esempi:\n\n- la **XII disposizione** transitoria e finale, che in deroga all'art. 49 vieta la riorganizzazione del partito fascista e, in deroga all'art. 48, consentiva limitazioni temporanee (non oltre cinque anni) al voto e all'eleggibilità dei capi del regime;\n- l'**art. 68**, che in deroga all'[[principio-di-uguaglianza|eguaglianza]] formale (art. 3) riserva speciali garanzie ai parlamentari.\n\n### Rigidità non significa immodificabilità\nLa legge di revisione può modificare la [[costituzione-italiana|Costituzione]], ma incontra [[limiti-alla-revisione-costituzionale|limiti]] espressi e impliciti (Alf Ross: la norma che dispone la rigidità è più [[costituzione-rigida|rigida]] delle altre). In premessa, la rigidità non è immodificabilità: la società cambia e la Costituzione, per restare vigente, deve poter cambiare con essa. Le modifiche sono:\n\n| Modifiche | Come avvengono |\n|---|---|\n| **Espresse** | assemblea appositamente eletta, [[parlamento|Camere]] riunite, referendum, oppure (Italia) organi legislativi ordinari con procedura aggravata |\n| **Tacite** | attuazione data alla Costituzione da leggi ordinarie, [[consuetudine|consuetudini]] e [[convenzioni-costituzionali|convenzioni costituzionali]], sentenze, prassi |\n\nLe modifiche tacite sono legittime finché restano entro l'**elasticità** (o duttilità) del testo: formule generali, concetti indeterminati («[[concetti-valvola|concetti valvola]]»), spazi vuoti che ammettono attuazioni diverse da parte delle forze politiche che si succedono al governo. Il problema non è ammettere la revisione, ma stabilirne **grado e misura**.\n\n### I limiti impliciti\nSono le **norme-principio** su cui il sistema si fonda e si identifica:\n\n- il [[principio-democratico|principio democratico]] (art. 1) e il lavoro come fondamento della Repubblica;\n- l'[[diritti-inviolabili|inviolabilità della persona]] (art. 2);\n- l'eguaglianza formale e sostanziale (art. 3);\n- l'unità e indivisibilità della Repubblica (art. 5);\n- il principio di libertà, con la tutela delle [[tutela-delle-minoranze|minoranze]].\n\nLi riassume l'art. 2: la Repubblica *riconosce* e garantisce i diritti inviolabili. Il potere pubblico, quando sorge, li «trova già sul terreno» e si limita a riconoscerli: la Costituzione è *servente* dei diritti, non se ne serve. Nel loro **contenuto essenziale** essi non possono essere modificati. Lo ha affermato la Corte nella sentenza **n. 1146/1988**: la Costituzione contiene [[principi-supremi|principi supremi]] che non possono essere sovvertiti o modificati nel loro contenuto essenziale neppure da leggi di revisione; sono tali sia i limiti espliciti, come la [[forma-repubblicana|forma repubblicana]], sia i principi che appartengono all'essenza dei valori supremi su cui la Costituzione si fonda.\n\nIl vero limite implicito è dunque l'**inviolabilità dei diritti**: quelli che la Costituzione definisce espressamente inviolabili (libertà personale, art. 13; domicilio, art. 14; corrispondenza, art. 15; difesa, art. 24) e quelli che lo sono senza essere così qualificati (salute, lavoro, libertà di coscienza e di religione, libertà di pensiero, art. 21). Vale il criterio di **non regressione**: le tutele non possono essere ridotte. Altrimenti non avremmo una Costituzione modificata, ma una **nuova Costituzione**, frutto di un diverso modo di intendere i rapporti sociali.\n\n### Il limite espresso: l'art. 139\n«La forma repubblicana non può essere oggetto di revisione costituzionale». È un limite **assoluto** (sent. n. 1146/1988): la forma repubblicana è connessa alla struttura della società e al sistema costituzionale. Una restaurazione monarchica potrebbe avvenire solo per via di fatto, **extragiuridica e rivoluzionaria**.\n\nL'intangibilità delle norme-principio dipende dal loro radicamento e dalla capacità delle forze politiche e sociali di salvaguardare quel nucleo adattandolo alle esigenze della comunità: in una società non omogenea è la garanzia dell'equilibrio raggiunto con il compromesso costituente. Limiti simili valevano anche per le Costituzioni flessibili: dello [[statuto-albertino|Statuto albertino]] si ritenevano immodificabili la forma monarchico-rappresentativa, la posizione della Corona e l'unità dello Stato.",
+   "puntiChiave": [
+    "Rottura della Costituzione: una norma costituzionale deroga a un'altra (XII disposizione, art. 68).",
+    "Rigidità non è immodificabilità: modifiche espresse e modifiche tacite, entro l'elasticità del testo.",
+    "Limite espresso: la forma repubblicana (art. 139), limite assoluto.",
+    "Limiti impliciti: le norme-principio (artt. 1, 2, 3, 5) e i diritti inviolabili nel loro contenuto essenziale.",
+    "Sent. n. 1146/1988: i principi supremi non possono essere sovvertiti neppure da leggi di revisione.",
+    "Criterio di non regressione: violarlo darebbe una nuova Costituzione, non una Costituzione modificata."
+   ],
+   "memoria": [
+    {
+     "voce": "Art. 139",
+     "dettaglio": "la forma repubblicana non può essere oggetto di revisione"
+    },
+    {
+     "voce": "Sent. 1146/1988",
+     "dettaglio": "principi supremi come limiti alla revisione"
+    },
+    {
+     "voce": "XII disposizione",
+     "dettaglio": "divieto di riorganizzare il partito fascista: deroga all'art. 49"
+    },
+    {
+     "voce": "Art. 2",
+     "dettaglio": "norma-principio che riassume i limiti impliciti"
+    },
+    {
+     "voce": "Concetti valvola",
+     "dettaglio": "formule elastiche che consentono modifiche tacite"
+    },
+    {
+     "voce": "Alf Ross",
+     "dettaglio": "la norma sulla rigidità è più rigida delle altre"
+    }
+   ],
+   "concetti": [
+    "rottura-della-costituzione",
+    "limiti-alla-revisione-costituzionale",
+    "principi-supremi",
+    "revisione-costituzionale"
+   ]
+  }
+ ],
+ "concetti": [
+  {
+   "id": "legge-formale",
+   "nome": "Legge formale",
+   "tipo": "fonte",
+   "alias": [
+    "legge in senso formale",
+    "leggi formali"
+   ],
+   "breve": "Atto normativo approvato dalle Camere con il procedimento legislativo.",
+   "definizione": "È l'atto con cui le Camere pongono le norme costitutive dell'ordinamento: si definisce per la forma, cioè per il procedimento degli artt. 70 e seguenti, non per il contenuto. Ha una particolare efficacia, l'idoneità a innovare l'ordine legislativo preesistente integrandolo o abrogando leggi anteriori. È un atto complesso eguale, a cui le due Camere partecipano in posizione di parità. Si distingue dalla legge in senso solo materiale, cioè da ogni atto che contenga norme giuridiche, come i decreti e i regolamenti del Governo.",
+   "pagine": [
+    88,
+    89
+   ]
+  },
+  {
+   "id": "forza-di-legge",
+   "nome": "Forza e valore di legge",
+   "tipo": "concetto",
+   "alias": [
+    "forza di legge",
+    "valore di legge",
+    "forza attiva e passiva"
+   ],
+   "breve": "Efficacia tipica della legge: prevale sugli atti subordinati e resiste ad essi.",
+   "definizione": "La forza di legge è l'efficacia propria della legge formale e degli atti equiparati. È attiva quando indica la prevalenza della legge sugli atti gerarchicamente subordinati, che può modificare o abrogare; è passiva quando indica la resistenza della legge agli atti subordinati che la contraddicono. Diverso è il valore di legge: il particolare regime giuridico della legge e degli atti equiparati, sottoposti soltanto al sindacato di legittimità della Corte costituzionale (art. 134). Hanno forza di legge anche decreti-legge e decreti legislativi.",
+   "pagine": [
+    88,
+    89
+   ]
+  },
+  {
+   "id": "legge-ordinaria",
+   "nome": "Legge ordinaria",
+   "tipo": "fonte",
+   "alias": [
+    "procedimento legislativo",
+    "legge"
+   ],
+   "breve": "Legge approvata dalle due Camere con il procedimento degli artt. 70–74.",
+   "definizione": "È la legge formale dello Stato, atto complesso eguale approvato nel medesimo testo dalle due Camere (art. 70). Il suo procedimento di formazione ha tre fasi: iniziativa (introduttiva), approvazione (costitutiva), promulgazione e pubblicazione (integrativa dell'efficacia). L'approvazione può seguire il procedimento ordinario, decentrato o misto. Entra in vigore, di regola, il quindicesimo giorno dalla pubblicazione. Si distingue dalle leggi costituzionali, che richiedono il procedimento aggravato dell'art. 138, e dagli atti del Governo con forza di legge. È la fonte primaria per eccellenza, con competenza generale: sta sotto la Costituzione e le leggi costituzionali e sopra i regolamenti, può essere giudicata dalla Corte costituzionale e abrogata con referendum.",
+   "pagine": [
+    89,
+    96
+   ]
+  },
+  {
+   "id": "iniziativa-legislativa",
+   "nome": "Iniziativa legislativa",
+   "tipo": "procedura",
+   "alias": [
+    "disegno di legge",
+    "proposta di legge",
+    "iniziativa vincolata",
+    "iniziativa riservata"
+   ],
+   "breve": "Presentazione di un progetto di legge a una Camera: fase introduttiva del procedimento.",
+   "definizione": "Per l'art. 71 spetta al Governo, a ciascun parlamentare, al popolo (50.000 elettori), al CNEL e ai Consigli regionali; l'art. 133 la riconosce ai Comuni per le circoscrizioni provinciali. La più rilevante è quella governativa: il disegno di legge è deliberato dal Consiglio dei ministri e presentato con autorizzazione del Presidente della Repubblica. È vincolata quando la presentazione è obbligatoria (legge di bilancio), riservata quando spetta a un solo soggetto (intese con le confessioni acattoliche). Talvolta deve essere preceduta da accordi, pareri o referendum. Chi presenta un progetto non ha diritto alla sua approvazione né, di regola, all'esame entro un termine, e le Camere possono modificarlo liberamente; i progetti decadono a fine legislatura, salvo quelli d'iniziativa popolare.",
+   "pagine": [
+    89,
+    91
+   ]
+  },
+  {
+   "id": "iniziativa-legislativa-popolare",
+   "nome": "Iniziativa legislativa popolare",
+   "tipo": "procedura",
+   "alias": [
+    "iniziativa popolare"
+   ],
+   "breve": "Proposta di legge presentata da almeno 50.000 elettori con un progetto redatto in articoli.",
+   "definizione": "Prevista dall'art. 71, secondo comma, è uno dei tradizionali istituti di democrazia diretta, con il referendum e la petizione: il popolo interviene nella fase introduttiva del procedimento legislativo. Gli artt. 48 e 49 della legge n. 352/1970 richiedono che la proposta, accompagnata da una relazione che ne illustri finalità e norme, sia presentata al Presidente di una delle Camere. Ha un privilegio: i progetti di iniziativa popolare non decadono con la fine della legislatura. Non obbliga però le Camere ad approvarli.",
+   "pagine": [
+    90,
+    90
+   ]
+  },
+  {
+   "id": "commissione-referente",
+   "nome": "Procedimento ordinario (sede referente)",
+   "tipo": "procedura",
+   "alias": [
+    "sede referente",
+    "procedimento ordinario",
+    "commissione in sede referente"
+   ],
+   "breve": "Procedimento in cui la commissione esamina e riferisce e l'Assemblea discute e vota.",
+   "definizione": "È il procedimento normale di approvazione (art. 72, primo comma). La commissione competente, in sede referente, esamina il progetto, può modificarlo o unificare più testi e lo trasmette all'Assemblea con una o più relazioni. Seguono la discussione generale, il voto articolo per articolo con gli emendamenti e la votazione finale sull'insieme. È obbligatorio nelle materie coperte da riserva di assemblea ed è quello che offre le maggiori garanzie alle minoranze. Il procedimento abbreviato per i progetti urgenti ne riduce soltanto i termini. In questa sede la commissione acquisisce anche i pareri delle altre commissioni competenti; si distingue dalla sede deliberante, in cui la commissione approva la legge, e dalla redigente, in cui ne formula gli articoli.",
+   "pagine": [
+    91,
+    92
+   ]
+  },
+  {
+   "id": "commissione-deliberante",
+   "nome": "Procedimento decentrato (sede deliberante)",
+   "tipo": "procedura",
+   "alias": [
+    "sede deliberante",
+    "sede legislativa",
+    "procedimento decentrato",
+    "procedimento per commissioni"
+   ],
+   "breve": "Procedimento in cui la commissione esamina e approva la legge al posto dell'Assemblea.",
+   "definizione": "Detto anche per commissioni o in sede legislativa (art. 72, terzo comma): la commissione, composta in proporzione ai gruppi, approva definitivamente il progetto. Il Governo, un decimo dei componenti della Camera o un quinto della commissione possono chiederne la rimessione all'Assemblea. È escluso nelle materie riservate all'Assemblea. Nato con la legge del 1939 sulla Camera dei fasci e delle corporazioni, è proprio quasi solo dell'Italia e della Spagna; ha favorito le «leggine» settoriali, perché in commissione il compromesso è più facile.",
+   "pagine": [
+    92,
+    93
+   ]
+  },
+  {
+   "id": "commissione-redigente",
+   "nome": "Procedimento misto (sede redigente)",
+   "tipo": "procedura",
+   "alias": [
+    "sede redigente",
+    "procedimento misto"
+   ],
+   "breve": "Procedimento in cui la commissione formula gli articoli e l'Assemblea li vota senza emendarli.",
+   "definizione": "È il terzo procedimento di approvazione, intermedio tra ordinario e decentrato: il lavoro è ripartito tra commissione e Assemblea. Alla Camera (art. 96 del regolamento) l'Assemblea, prima di passare agli articoli, può affidare alla commissione la formulazione degli articoli entro un termine, riservando a sé la loro approvazione e il voto finale. Al Senato è il Presidente ad assegnare il progetto alla commissione per la deliberazione degli articoli, con la sola votazione finale in Assemblea. Vale la stessa esclusione delle materie riservate all'Assemblea.",
+   "pagine": [
+    93,
+    94
+   ]
+  },
+  {
+   "id": "riserva-di-assemblea",
+   "nome": "Riserva di assemblea",
+   "tipo": "istituto",
+   "alias": [
+    "riserva di legge di assemblea",
+    "riserva d'assemblea"
+   ],
+   "breve": "Obbligo di approvare certe leggi con il procedimento ordinario, in Assemblea.",
+   "definizione": "Per l'art. 72, quarto comma, la procedura normale di esame e approvazione diretta da parte della Camera è sempre adottata per i disegni di legge in materia costituzionale ed elettorale, di delegazione legislativa, di autorizzazione a ratificare trattati internazionali e di approvazione di bilanci e consuntivi; i regolamenti aggiungono la conversione dei decreti-legge e le leggi rinviate. La ragione sta nell'incidenza di queste materie sull'indirizzo politico: si vuole la partecipazione di tutti i parlamentari e la massima garanzia per le minoranze. Vale anche per le leggi dell'art. 138. Non va confusa con la riserva di legge: questa riguarda il rapporto tra la legge e le altre fonti, la riserva di assemblea il modo in cui la legge è approvata.",
+   "pagine": [
+    91,
+    98
+   ]
+  },
+  {
+   "id": "navetta-parlamentare",
+   "nome": "Navetta parlamentare",
+   "tipo": "procedura",
+   "alias": [
+    "navette"
+   ],
+   "breve": "Passaggio del progetto da una Camera all'altra finché non è approvato nello stesso testo.",
+   "definizione": "È la conseguenza del bicameralismo perfetto e dell'art. 70: le Camere devono approvare il progetto in un identico testo. Se una Camera approva e l'altra emenda, il testo torna alla prima, che lo riesamina; se questa lo modifica ancora, torna all'altra, e così via fino all'accordo. Ogni Camera sceglie liberamente il procedimento (ordinario, decentrato o misto), senza vincolare l'altra. La navetta è una delle cause di lentezza del procedimento che alimentano le critiche al bicameralismo. A ogni passaggio la Camera esamina solo le parti modificate dall'altra; la Costituzione non prevede né un organo di conciliazione né la prevalenza finale di un ramo, e nella prassi la maggioranza concorda spesso il testo in anticipo.",
+   "pagine": [
+    94,
+    94
+   ]
+  },
+  {
+   "id": "promulgazione",
+   "nome": "Promulgazione",
+   "tipo": "procedura",
+   "alias": [
+    "clausola esecutiva"
+   ],
+   "breve": "Atto del Presidente della Repubblica che attesta l'approvazione della legge e ne ordina la pubblicazione.",
+   "definizione": "È il decreto con cui il Presidente della Repubblica, entro un mese dall'approvazione (art. 73), attesta che la legge è stata approvata dalle due Camere, dichiara la volontà di promulgarla, ne ordina la pubblicazione e vi appone la clausola esecutiva. Appartiene alla fase integrativa dell'efficacia e dà alla legge la data e l'esecutorietà. Non è la sanzione regia dello Statuto albertino, che era una vera approvazione. Il Presidente può, anziché promulgare, rinviare la legge alle Camere una sola volta.",
+   "pagine": [
+    94,
+    96
+   ]
+  },
+  {
+   "id": "rinvio-presidenziale",
+   "nome": "Rinvio presidenziale",
+   "tipo": "procedura",
+   "alias": [
+    "veto sospensivo",
+    "rinvio delle leggi"
+   ],
+   "breve": "Richiesta motivata del Presidente della Repubblica alle Camere di deliberare di nuovo su una legge.",
+   "definizione": "Previsto dall'art. 74: prima di promulgare, il Presidente può, con messaggio motivato, chiedere alle Camere una nuova deliberazione. I rilievi possono riguardare la legittimità formale, quella sostanziale o il merito costituzionale, mai una valutazione strettamente politica, perché il Presidente è organo di garanzia. È un veto solo sospensivo: se le Camere riapprovano la legge, questa deve essere promulgata. La maggior parte dei rinvii ha colpito leggi prive di copertura finanziaria. Esempi: Ciampi sulla legge Gasparri (2003), Napolitano nel 2010.",
+   "pagine": [
+    95,
+    95
+   ]
+  },
+  {
+   "id": "pubblicazione-della-legge",
+   "nome": "Pubblicazione della legge",
+   "tipo": "procedura",
+   "alias": [
+    "Gazzetta Ufficiale",
+    "Raccolta ufficiale degli atti normativi"
+   ],
+   "breve": "Inserzione della legge nella Raccolta ufficiale e sua pubblicazione nella Gazzetta Ufficiale.",
+   "definizione": "Conclude la fase integrativa dell'efficacia. Avviene a cura e sotto la responsabilità del Ministro della giustizia, che appone il visto e il sigillo dello Stato, subito dopo la promulgazione e comunque entro trenta giorni (art. 73). L'inserzione nella Raccolta ufficiale degli atti normativi serve alla certezza del diritto e dà alla legge il numero; la pubblicazione nella Gazzetta Ufficiale la rende conoscibile. Dalla pubblicazione decorre la vacatio legis, al termine della quale la legge è obbligatoria per tutti.",
+   "pagine": [
+    95,
+    96
+   ]
+  },
+  {
+   "id": "vacatio-legis",
+   "nome": "Vacatio legis",
+   "tipo": "istituto",
+   "alias": [
+    "ignorantia legis non excusat",
+    "entrata in vigore"
+   ],
+   "breve": "Intervallo tra pubblicazione ed entrata in vigore della legge: di regola quindici giorni.",
+   "definizione": "Per l'art. 73 la legge entra in vigore il quindicesimo giorno successivo alla pubblicazione nella Gazzetta Ufficiale, salvo che essa stessa stabilisca un termine diverso. Decorso il termine opera la presunzione di conoscenza: nessuno può invocare a propria scusa di ignorare la legge (ignorantia legis non excusat). La Corte costituzionale ha attenuato il principio con la sentenza n. 364/1988, che ha dichiarato illegittimo l'art. 5 del codice penale nella parte in cui non esclude l'ignoranza inevitabile.",
+   "pagine": [
+    96,
+    96
+   ],
+   "latino": "vacatio legis"
+  },
+  {
+   "id": "legge-costituzionale",
+   "nome": "Legge costituzionale",
+   "tipo": "fonte",
+   "alias": [
+    "leggi di revisione costituzionale",
+    "altre leggi costituzionali"
+   ],
+   "breve": "Legge approvata con il procedimento aggravato dell'art. 138.",
+   "definizione": "L'art. 138 parla di leggi di revisione della Costituzione e di altre leggi costituzionali. Secondo il criterio sostanziale, le prime disciplinano una materia in modo difforme dalla Costituzione, modificandone il testo e incorporandovisi; le seconde lo integrano senza modificarlo, nei casi in cui la Costituzione stessa le richiede (nuovi titolari dell'iniziativa legislativa, statuti speciali, giudizi davanti alla Corte costituzionale). Secondo il criterio formale (sent. n. 168/1963) sono tali tutte le leggi approvate con quella procedura. Non sono sottoponibili a referendum abrogativo. Ha lo stesso rango della Costituzione, ma incontra i limiti della forma repubblicana (art. 139) e dei principi supremi: per questo anche le leggi costituzionali possono essere giudicate dalla Corte costituzionale.",
+   "pagine": [
     96,
     100
-  ],
-  "abstract": "Giurisdizioni e garanzie processuali; CSM e ministro nel sistema di autonomia e responsabilità.",
-  "note": "Aggiornato: il CSM ha 33 componenti; le commissioni tributarie sono Corti di giustizia tributaria. La riforma della giustizia è stata respinta nel referendum di marzo 2026: vale ancora la disciplina descritta qui.",
-  "noteRedazione": [
-    "p. 97: corretta l’inversione della frase sull’irretroattività: la legge incriminatrice deve essere entrata in vigore prima del fatto. Eliminata l’eccezione alla pena di morte per leggi militari di guerra, soppressa dalla l. cost. 1/2007.",
-    "p. 96: obbligatorietà non significa automatico processo per ogni denuncia; il tribunale del riesame non è un normale appello sul merito delle condanne. Giurisdizione amministrativa include i diritti soggettivi nelle materie esclusive.",
-    "p. 97: commissioni tributarie denominate Corti di giustizia tributaria dalla l. 130/2022; fonte https://def.giustiziatributaria.gov.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000000620000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B023DA408-25FE-45FE-9B88-5B428CF2ECA6%7D&idAttoNormativo=%7BECD81E71-D37B-4722-AA36-116B5BCB2232%7D&numeroArticolo=Articolo+62 .",
-    "p. 98: composizione CSM aggiornata a 33 (30 elettivi), l. 71/2022; superato il necessario concorso di secondo grado del 2007: https://temi.camera.it/leg19DIL/temi/riforma-ordinamento-giudiziario-csm e https://www.senato.it/show-doc?id=1375618&idoggetto=0&leg=19&part=dossier_dossier1-sezione_sezione1&tipodoc=DOSSIER .",
-    "Revisione giustizia respinta nel referendum 22–23 marzo 2026: risultato ufficiale https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=26A02490&atto.dataPubblicazioneGazzetta=2026-05-18&tipoSerie=serie_generale&tipoVigenza=originario . Non insegnata come vigente. Inamovibilità: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-iv/sezione-i/articolo-107 .",
-    "Piano finale (11 nov. 2026): p. 98 dice che gli elettivi del CSM sono 27 «a mente della riforma del 2002»: la legge 28 marzo 2002, n. 44 li ha fissati a 24 (16 togati e 8 laici, come indica la stessa pagina con «1/3 … (8)»), 27 con i tre di diritto; oggi sono 30 (l. 71/2022)."
-  ],
-  "lezioni": [
-    {
-      "titolo": "Giurisdizioni e garanzie del processo",
-      "pagine": [
-        96,
-        97
-      ],
-      "sintesi": "### Chi giudica e chi promuove l'azione\nLa [[magistratura]] ordinaria comprende funzioni giudicanti e requirenti. Il giudice decide in posizione di terzietà; il [[pubblico-ministero]] esercita l'azione penale e svolge le altre attribuzioni previste. Non è il superiore del giudice e non può pronunciare una condanna al posto suo. L'art. 112 pone l'[[obbligatorieta-azione-penale]]: la persecuzione dei reati non dipende da una scelta politica discrezionale del [[governo|Governo]]. Ciò non significa che ogni notizia determini automaticamente un processo e una condanna; indagini e valutazioni possono condurre alla richiesta di archiviazione nei casi di legge, sotto il controllo previsto.\n\nLa giurisdizione ordinaria riguarda principalmente cause civili e penali. In ambito civile il giudice di pace e il tribunale esercitano competenze di primo grado secondo la legge; l'appello contro il giudice di pace spetta normalmente al tribunale e quello contro le sentenze di primo grado del tribunale alla Corte d'appello. Anche in materia penale competenze e impugnazioni seguono procedimenti specifici: il tribunale del riesame controlla misure cautelari e non è semplicemente una corte d'appello ordinaria di tutte le condanne.\n\nLa [[corte-di-cassazione]] garantisce il controllo di legittimità e l'uniforme interpretazione del diritto nei limiti del ricorso. Non è un terzo giudizio generale in cui si ripete liberamente l'accertamento di ogni fatto. Le regole processuali definiscono motivi e oggetto del controllo, compresi i vizi della motivazione ammessi. Le Sezioni unite svolgono anche le attribuzioni sui conflitti di giurisdizione.\n\n### Giudici speciali e giudici straordinari\nL'art. 102 vieta l'istituzione di giudici straordinari e nuovi giudici speciali, consentendo sezioni specializzate degli organi ordinari. Le giurisdizioni speciali ammesse dalla [[costituzione|Costituzione]] comprendono quella amministrativa, contabile e militare; opera inoltre la giurisdizione tributaria nel quadro costituzionale. Il giudice speciale ha una competenza distinta per materia; quello straordinario è creato per un caso sottratto alle regole precostituite. Non sono sinonimi.\n\nTAR e [[consiglio-di-stato|Consiglio di Stato]] tutelano gli interessi legittimi nei confronti della pubblica amministrazione e, nelle particolari materie di giurisdizione esclusiva previste dalla legge, anche diritti soggettivi. Non è quindi assoluta l'equazione «ogni [[diritto-soggettivo|diritto soggettivo]] va al giudice ordinario». La [[corte-dei-conti|Corte dei conti]] giudica nelle materie dell'art. 103 e della legge, fra cui contabilità pubblica. Le vecchie commissioni tributarie sono oggi denominate Corti di giustizia tributaria di primo e secondo grado dopo la riforma del 2022. I tribunali militari in pace giudicano reati militari commessi da appartenenti alle forze armate. La pena di morte non è ammessa neppure dalle leggi militari di guerra: l'eccezione costituzionale è stata eliminata nel 2007.\n\n### Giudice naturale e difesa\nIl [[giudice-naturale]] dell'art. 25 è precostituito per legge: la competenza non si costruisce dopo il fatto per scegliere un giudice gradito. Lo stesso articolo contiene altre garanzie distinte: nessuna punizione senza una legge entrata in vigore **prima** del fatto e nessuna misura di sicurezza fuori dai casi di legge. Gli appunti invertono per errore la frase sull'irretroattività: è la legge penale incriminatrice successiva che non può punire retroattivamente il fatto, non la precedente a essere vietata.\n\nIl [[diritto-di-difesa]] dell'art. 24 tutela accesso alla giustizia e difesa in ogni stato e grado. La Repubblica assicura ai non abbienti i mezzi necessari e la legge disciplina la riparazione degli errori giudiziari. L'art. 113 garantisce tutela contro gli atti amministrativi per diritti e interessi legittimi; l'organizzazione della protezione segue il riparto giurisdizionale. Il [[giusto-processo]] dell'art. 111 richiede contraddittorio, parità delle parti, giudice terzo e imparziale e ragionevole durata; nel penale specifica garanzie dell'accusa e della prova. La motivazione dei provvedimenti giurisdizionali rende controllabile la decisione. Velocità ed efficienza non possono essere ottenute eliminando le possibilità effettive di difesa.",
-      "concetti": [
-        "magistratura",
-        "pubblico-ministero",
-        "obbligatorieta-azione-penale",
-        "corte-di-cassazione",
-        "giudice-naturale",
-        "diritto-di-difesa",
-        "giusto-processo"
-      ],
-      "puntiChiave": [
-        "Giudicante e requirente hanno compiti differenti.",
-        "Il divieto di giudici straordinari non equivale all’abolizione di tutte le giurisdizioni speciali ammesse.",
-        "Art. 25: legge penale incriminatrice precedente al fatto, giudice precostituito e misure di sicurezza legali."
-      ],
-      "memoria": [
-        {
-          "voce": "24–25–111",
-          "dettaglio": "Difesa; giudice e legalità penale; garanzie del giusto processo."
-        },
-        {
-          "voce": "27",
-          "dettaglio": "Pena di morte esclusa senza l’antica eccezione bellica."
-        }
-      ],
-      "id": "u11-l1",
-      "minuti": 25
-    },
-    {
-      "titolo": "Indipendenza, CSM e Ministro della giustizia",
-      "pagine": [
-        98,
-        100
-      ],
-      "sintesi": "### Indipendenza esterna e interna\nL'art. 101 afferma che i giudici sono soggetti soltanto alla legge; l'art. 104 qualifica la [[magistratura|magistratura]] come ordine autonomo e indipendente da ogni altro potere. L'indipendenza esterna protegge soprattutto da interferenze politiche; quella interna impedisce che la funzione decisoria sia trattata come esecuzione di ordini gerarchici sul merito dei casi. L'art. 107 distingue i magistrati per diversità di funzioni, non come una catena amministrativa che autorizza un superiore a decidere le sentenze degli altri.\n\nL'[[inamovibilita]] protegge sede e funzioni: dispensa, sospensione o destinazione ad altra sede o funzione richiedono decisioni del [[csm]] con motivi e garanzie di difesa stabiliti dall'ordinamento, oppure il consenso. Non è l'impossibilità assoluta di qualsiasi trasferimento e non sottrae il magistrato a responsabilità disciplinare. La protezione serve a evitare che una decisione sgradita sia seguita da un trasferimento punitivo deciso dall'esecutivo.\n\n### Composizione e mandato del CSM\nIl Consiglio superiore della magistratura è un organo di garanzia dell'autonomia della magistratura ordinaria, non una corte superiore cui chiedere di correggere qualsiasi sentenza. Lo presiede il [[presidente-della-repubblica|Presidente della Repubblica]]; sono membri di diritto anche il primo Presidente e il Procuratore generale della [[corte-di-cassazione|Cassazione]]. Gli elettivi sono due terzi magistrati scelti dai magistrati e un terzo laici eletti dal [[parlamento-in-seduta-comune|Parlamento in seduta comune]] tra professori ordinari giuridici e avvocati con almeno quindici anni di esercizio.\n\nLa legge n. 71/2022 ha portato gli elettivi a trenta: venti togati e dieci laici, per un totale di trentatré con i membri di diritto. Non valgono più i vecchi numeri sedici e otto; gli appunti confondono inoltre totale ed elettivi. Il vicepresidente è scelto dal Consiglio fra i laici. Gli elettivi durano quattro anni e non sono immediatamente rieleggibili. La composizione mista protegge l'indipendenza senza chiudere l'organo nella sola autorappresentanza professionale.\n\nNel marzo 2026 la [[revisione-costituzionale|revisione costituzionale]] sull'ordinamento giurisdizionale e sulla Corte disciplinare è stata respinta dal [[referendum-costituzionale|referendum]], come attesta la pubblicazione ufficiale del risultato. Non si deve quindi insegnare quella proposta come un sistema vigente di due Consigli o di una nuova Corte disciplinare. La lezione segue il testo costituzionale rimasto in vigore e distingue le riforme ordinarie già efficaci dalle revisioni non entrate nell'ordinamento.\n\n### Che cosa decide e come si controlla\nL'art. 105 attribuisce al CSM assunzioni, assegnazioni, trasferimenti, promozioni e provvedimenti disciplinari, secondo l'ordinamento giudiziario. Ciò sottrae scelte decisive sulla carriera alla direzione politica del ministro. Le deliberazioni amministrative restano sindacabili nelle forme della giustizia amministrativa; le decisioni della Sezione disciplinare sono invece impugnabili davanti alle Sezioni unite della Cassazione. La diversa tutela dipende dalla funzione esercitata, non dalla semplice presenza della sigla CSM.\n\nLa [[responsabilita-disciplinare-magistrati]] riguarda illeciti tipizzati e doveri professionali. Non è un controllo politico sulla correttezza ideologica delle sentenze e non coincide con la responsabilità penale o civile. L'indipendenza non significa immunità dall'ordinamento; la disciplina non può però diventare uno strumento per imporre un indirizzo giudiziario di maggioranza.\n\nL'accesso ordinario avviene tramite concorso secondo l'art. 106, con le eccezioni costituzionali e le condizioni della legge. Il vecchio quadro del 2007 come concorso necessariamente di secondo grado è superato: le riforme dal 2022 hanno consentito l'accesso ai laureati in giurisprudenza senza rendere sempre obbligatorio un ulteriore titolo postuniversitario. Requisiti concreti e procedure si verificano nel bando vigente; non si trasferiscono senza controllo numero di passaggi di funzione o altri dettagli della nota storica degli appunti.\n\n### I compiti del ministro\nIl [[ministro-della-giustizia]] cura organizzazione e funzionamento dei servizi, ferme le competenze del CSM, ai sensi dell'art. 110. Ha facoltà di promuovere l'azione disciplinare e dispone degli strumenti ispettivi e dei raccordi previsti dalla legge. Non può impartire ordini sul contenuto di una sentenza, assumere la decisione disciplinare al posto del CSM o trasformare l'ispezione in una revisione del processo.\n\nIl riparto distingue risorse e servizi, garanzie di carriera e decisione giurisdizionale. Un ufficio senza mezzi può rendere ineffettiva la giustizia; una gestione efficiente ma sottoposta al controllo politico sui casi violerebbe l'indipendenza. Ministro, CSM e giudici svolgono compiti diversi che devono concorrere al servizio della giustizia entro i limiti costituzionali.",
-      "concetti": [
-        "csm",
-        "inamovibilita",
-        "responsabilita-disciplinare-magistrati",
-        "ministro-della-giustizia"
-      ],
-      "puntiChiave": [
-        "Il CSM garantisce autonomia e carriere ma non è giudice d’appello sulle sentenze.",
-        "Composizione attuale: 30 elettivi e 3 membri di diritto.",
-        "Ministro: servizi e iniziativa disciplinare, senza ordini sul merito dei giudizi."
-      ],
-      "memoria": [
-        {
-          "voce": "104–105",
-          "dettaglio": "Autonomia, composizione del CSM e competenze sulle carriere."
-        },
-        {
-          "voce": "107–110",
-          "dettaglio": "Inamovibilità, iniziativa disciplinare e organizzazione dei servizi."
-        }
-      ],
-      "id": "u11-l2",
-      "minuti": 30
-    }
-  ],
-  "concetti": [
-    {
-      "id": "magistratura",
-      "nome": "Magistratura",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Ordine autonomo e indipendente che esercita le funzioni giudiziarie previste.",
-      "definizione": "È l'insieme dei magistrati che esercitano la **funzione giurisdizionale**: applicare la legge ai casi concreti, in posizione di terzietà. Per l'art. 104 Cost. «costituisce un **ordine autonomo e indipendente** da ogni altro potere»; i giudici sono **soggetti soltanto alla legge** (art. 101) e si distinguono tra loro solo per diversità di funzioni (art. 107). La magistratura **ordinaria** (civile e penale) comprende giudici e [[pubblico-ministero|pubblici ministeri]], reclutati per **concorso** (art. 106); non possono essere istituiti giudici straordinari o speciali (art. 102), salvo quelli previsti dalla Costituzione: Consiglio di Stato e TAR, Corte dei conti, tribunali militari. L'indipendenza è garantita dal [[csm|CSM]] e dall'[[inamovibilita]]. La separazione delle carriere è stata respinta dal referendum del marzo 2026.",
-      "pagine": [
-        96,
-        100
-      ]
-    },
-    {
-      "id": "pubblico-ministero",
-      "nome": "Pubblico ministero",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Magistrato che esercita funzioni requirenti e l’azione penale.",
-      "definizione": "È il magistrato che **esercita l'azione penale**: dirige le indagini, chiede il rinvio a giudizio e sostiene l'accusa nel processo; non giudica. In Italia appartiene all'ordine giudiziario come i giudici: è reclutato con lo stesso concorso e gode delle garanzie stabilite dalle norme sull'ordinamento giudiziario (art. 107 Cost.); è indipendente dal Governo, a differenza di quanto accade in altri Paesi. Ha l'**obbligo** di esercitare l'azione penale (art. 112: [[obbligatorieta-azione-penale]]) e dispone direttamente della polizia giudiziaria (art. 109). Gli uffici del PM (procure) hanno un'organizzazione gerarchica al loro interno. La riforma che voleva separarne la carriera da quella dei giudici non è stata approvata nel 2026.",
-      "pagine": [
-        96,
-        98
-      ]
-    },
-    {
-      "id": "obbligatorieta-azione-penale",
-      "nome": "Obbligatorietà dell’azione penale",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Esclusione di una scelta politica discrezionale sulla persecuzione dei reati.",
-      "definizione": "È il principio dell'art. 112 Cost.: «Il [[pubblico-ministero]] ha l'**obbligo** di esercitare l'azione penale». Quando riceve una notizia di reato, il PM deve svolgere le indagini e, se gli elementi raccolti lo giustificano, chiedere il processo: non può scegliere **per ragioni di opportunità** quali reati perseguire. Il principio garantisce l'**uguaglianza** dei cittadini davanti alla legge penale e l'**indipendenza** del PM dal potere politico: è la ragione per cui non può dipendere dal Governo. Non significa che ogni denuncia porti a un processo: se la notizia è infondata il PM chiede l'**archiviazione**, ma decide un giudice. Nella pratica il numero dei procedimenti impone criteri di priorità.",
-      "pagine": [
-        96,
-        96
-      ]
-    },
-    {
-      "id": "corte-di-cassazione",
-      "nome": "Corte di cassazione",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Giudice di legittimità e di uniforme interpretazione del diritto nei limiti del ricorso.",
-      "definizione": "È l'organo al **vertice della giurisdizione ordinaria**, con sede a Roma. Non è un terzo grado di merito: non riesamina i fatti, ma controlla che i giudici abbiano applicato correttamente il diritto (giudizio di **legittimità**). Assicura l'esatta osservanza e l'**uniforme interpretazione** della legge (funzione nomofilattica). Per l'art. 111 Cost. contro le sentenze e contro i provvedimenti sulla **libertà personale** è **sempre ammesso** il ricorso in Cassazione per violazione di legge. Le **Sezioni unite** risolvono i contrasti tra le sezioni e decidono le questioni di giurisdizione tra giudici ordinari e speciali. Il Primo presidente e il Procuratore generale sono membri di diritto del [[csm|CSM]].",
-      "pagine": [
-        96,
-        97
-      ]
-    },
-    {
-      "id": "giudice-naturale",
-      "nome": "Giudice naturale",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Giudice individuato secondo regole legali precostituite.",
-      "definizione": "È la garanzia dell'art. 25, primo comma, Cost.: «Nessuno può essere distolto dal **giudice naturale precostituito per legge**». Significa che il giudice competente a decidere una causa deve essere individuato **in anticipo**, da criteri generali fissati dalla **legge** (riserva assoluta), e non scelto dopo il fatto, da un'autorità, in vista di un determinato processo. Tutela l'**imparzialità**: né il Governo né i capi degli uffici possono assegnare o togliere un processo a un giudice a seconda del risultato che si aspettano. Vi si collega il divieto di istituire **giudici straordinari** (art. 102), creati apposta per giudicare fatti già accaduti. Completa il [[diritto-di-difesa]] e il [[giusto-processo]].",
-      "pagine": [
-        97,
-        97
-      ]
-    },
-    {
-      "id": "diritto-di-difesa",
-      "nome": "Diritto di difesa",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Garanzia di agire e difendersi in giudizio in ogni stato e grado.",
-      "definizione": "È garantito dall'art. 24 Cost. **Tutti** possono **agire in giudizio** per la tutela dei propri diritti e interessi legittimi (diritto di azione). La **difesa** è «diritto **inviolabile** in ogni stato e grado del procedimento»: comprende la difesa tecnica di un avvocato e la possibilità di far valere le proprie ragioni. Ai **non abbienti** sono assicurati i mezzi per agire e difendersi davanti a ogni giurisdizione (patrocinio a spese dello Stato). La legge determina condizioni e modi per la **riparazione degli errori giudiziari**. La Corte costituzionale lo considera un principio supremo. Si salda con il [[giudice-naturale]], con il [[giusto-processo]] dell'art. 111 e con la tutela contro gli atti della pubblica amministrazione (art. 113).",
-      "pagine": [
-        97,
-        97
-      ]
-    },
-    {
-      "id": "giusto-processo",
-      "nome": "Giusto processo",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Metodo legale del giudizio basato su contraddittorio, parità e giudice imparziale.",
-      "definizione": "È l'insieme delle garanzie inserite nell'art. 111 Cost. dalla legge costituzionale **2/1999**. La giurisdizione si attua mediante il giusto processo **regolato dalla legge**. Ogni processo si svolge nel **contraddittorio tra le parti**, in condizioni di **parità**, davanti a un **giudice terzo e imparziale**; la legge ne assicura la **ragionevole durata**. Nel processo **penale** l'accusato deve essere informato dell'accusa, avere tempo e modo di difendersi, poter interrogare chi lo accusa; la **prova si forma nel contraddittorio**, e la colpevolezza non può fondarsi su dichiarazioni di chi si è sempre sottratto all'interrogatorio della difesa. Tutti i provvedimenti giurisdizionali devono essere **motivati**. Riprende l'art. 6 della Convenzione europea dei diritti dell'uomo.",
-      "pagine": [
-        97,
-        98
-      ]
-    },
-    {
-      "id": "csm",
-      "nome": "Consiglio superiore della magistratura",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Organo di garanzia dell’autonomia della magistratura ordinaria.",
-      "definizione": "Il Consiglio superiore della magistratura è l'organo di **governo autonomo** dei magistrati ordinari, voluto dalla Costituzione per sottrarne la carriera al Governo (artt. 104–105). Lo **presiede il Presidente della Repubblica**; ne fanno parte di diritto il Primo presidente e il Procuratore generale della Cassazione; gli altri membri sono eletti per **due terzi dai magistrati** («togati») e per **un terzo dal Parlamento in seduta comune** («laici») tra professori di diritto e avvocati con quindici anni di esercizio. Oggi gli elettivi sono trenta (legge 71/2022; gli appunti riportano i numeri del 2002). Durano quattro anni. Gli spettano **assunzioni, assegnazioni, trasferimenti, promozioni e provvedimenti disciplinari**. È in funzione dal 1958. Non giudica le sentenze.",
-      "pagine": [
-        98,
-        100
-      ]
-    },
-    {
-      "id": "inamovibilita",
-      "nome": "Inamovibilità",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Protezione di sede e funzioni dei magistrati contro spostamenti arbitrari.",
-      "definizione": "È la garanzia dell'art. 107, primo comma, Cost.: i magistrati **non possono essere dispensati o sospesi dal servizio né destinati ad altre sedi o funzioni** se non in seguito a **decisione del CSM**, adottata per i motivi e con le garanzie di difesa stabiliti dall'ordinamento giudiziario, oppure **con il loro consenso**. Protegge l'indipendenza del singolo magistrato: nessuno, né il Governo né i capi degli uffici, può «punire» un giudice per una decisione sgradita trasferendolo o togliendogli le funzioni. Non è un privilegio assoluto: il trasferimento d'ufficio resta possibile per incompatibilità o come sanzione disciplinare, ma solo attraverso il [[csm|CSM]]. Si collega alla [[responsabilita-disciplinare-magistrati]].",
-      "pagine": [
-        97,
-        99
-      ]
-    },
-    {
-      "id": "responsabilita-disciplinare-magistrati",
-      "nome": "Responsabilità disciplinare dei magistrati",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Responsabilità per gli illeciti professionali previsti dalla legge.",
-      "definizione": "È la responsabilità del magistrato che viola i **doveri del proprio ufficio** (imparzialità, correttezza, diligenza, riserbo), con comportamenti tipizzati dalla legge (d.lgs. 109/2006). L'**azione disciplinare** può essere promossa dal **Ministro della giustizia** (art. 107 Cost.), che ne ha la facoltà, e dal **Procuratore generale presso la Cassazione**, che ne ha l'obbligo. Giudica la **Sezione disciplinare del CSM**, con un procedimento di tipo giurisdizionale; le sanzioni vanno dall'ammonimento alla rimozione. Contro la decisione si ricorre alle Sezioni unite della Cassazione. Si distingue dalla responsabilità **penale** e da quella **civile** per i danni causati nell'esercizio delle funzioni (legge 117/1988). Non riguarda il merito delle sentenze.",
-      "pagine": [
-        99,
-        100
-      ]
-    },
-    {
-      "id": "ministro-della-giustizia",
-      "nome": "Ministro della giustizia",
-      "tipo": "organo",
-      "alias": [],
-      "breve": "Responsabile dell’organizzazione e del funzionamento dei servizi della giustizia.",
-      "definizione": "È l'unico ministro di cui la Costituzione indica le funzioni. Per l'art. 110, ferme le competenze del [[csm|CSM]], gli spettano «l'**organizzazione e il funzionamento dei servizi** relativi alla giustizia»: uffici, personale amministrativo, edifici, mezzi, carceri. Per l'art. 107 ha **facoltà di promuovere l'azione disciplinare** contro i magistrati; dispone inoltre di poteri ispettivi e dà il proprio concerto sul conferimento degli incarichi direttivi. Non può interferire nelle decisioni dei giudici né nella loro carriera. Istruisce le domande di [[grazia]]. Gli appunti lo chiamano ancora «Ministro di grazia e giustizia», denominazione abbandonata nel 1999. È detto anche guardasigilli, perché custodisce il sigillo dello Stato.",
-      "pagine": [
-        100,
-        100
-      ]
-    }
-  ],
-  "relazioni": [
-    {
-      "da": "pubblico-ministero",
-      "a": "magistratura",
-      "tipo": "parte-di",
-      "etichetta": "esercita funzioni nell’ordine della"
-    },
-    {
-      "da": "giudice-naturale",
-      "a": "giusto-processo",
-      "tipo": "collegato",
-      "etichetta": "garantisce il"
-    },
-    {
-      "da": "diritto-di-difesa",
-      "a": "giusto-processo",
-      "tipo": "collegato",
-      "etichetta": "è garanzia del"
-    },
-    {
-      "da": "csm",
-      "a": "inamovibilita",
-      "tipo": "collegato",
-      "etichetta": "garantisce l’"
-    },
-    {
-      "da": "ministro-della-giustizia",
-      "a": "responsabilita-disciplinare-magistrati",
-      "tipo": "collegato",
-      "etichetta": "può promuovere l’azione per la"
-    },
-    {
-      "da": "responsabilita-disciplinare-magistrati",
-      "a": "corte-di-cassazione",
-      "tipo": "collegato",
-      "etichetta": "ha controllo nelle Sezioni unite della"
-    }
-  ],
-  "eventi": [
-    {
-      "id": "ev-istituzione-del-csm",
-      "anno": 1958,
-      "data": "24 marzo 1958",
-      "titolo": "Istituzione del CSM",
-      "descrizione": "La legge 195/1958 attua l'art. 104: il Consiglio si insedia l'anno seguente.",
-      "tipo": "istituzione",
-      "pagine": [
-        96,
-        100
-      ],
-      "concetti": [
-        "csm",
-        "magistratura"
-      ]
-    },
-    {
-      "id": "ev-giusto-processo-in-costituzione",
-      "anno": 1999,
-      "data": "23 novembre 1999",
-      "titolo": "Giusto processo in Costituzione",
-      "descrizione": "La legge costituzionale 2/1999 riscrive l'art. 111: contraddittorio, parità delle parti, giudice terzo, ragionevole durata.",
-      "tipo": "legge",
-      "pagine": [
-        96,
-        100
-      ],
-      "concetti": [
-        "giusto-processo"
-      ]
-    },
-    {
-      "id": "ev-legge-44-2002-csm",
-      "anno": 2002,
-      "data": "28 marzo 2002",
-      "titolo": "Legge n. 44/2002 sul CSM",
-      "descrizione": "Riduce i componenti elettivi del Consiglio superiore da trenta a ventiquattro e ne cambia il sistema di elezione. La legge n. 71/2022 li ha riportati a trenta.",
-      "tipo": "legge",
-      "concetti": [
-        "csm",
-        "magistratura"
-      ],
-      "pagine": [
-        98,
-        98
-      ]
-    },
-    {
-      "id": "ev-riforma-ordinamento-giudiziario-2007",
-      "anno": 2007,
-      "data": "30 luglio 2007",
-      "titolo": "Legge n. 111/2007 sull'ordinamento giudiziario",
-      "descrizione": "La «riforma Mastella» modifica l'ordinamento giudiziario: accesso alla magistratura, valutazioni di professionalità, limiti al passaggio tra funzioni giudicanti e requirenti.",
-      "tipo": "legge",
-      "concetti": [
-        "magistratura",
-        "csm",
-        "pubblico-ministero"
-      ],
-      "pagine": [
-        98,
-        98
-      ]
-    }
-  ],
-  "mappa": {
-    "testo": "Giustizia",
-    "concetto": "magistratura",
-    "figli": [
-      {
-        "testo": "Funzioni",
-        "figli": [
-          {
-            "testo": "Azione penale",
-            "concetto": "pubblico-ministero"
-          },
-          {
-            "testo": "Legittimità",
-            "concetto": "corte-di-cassazione"
-          }
-        ]
-      },
-      {
-        "testo": "Garanzie del giudizio",
-        "concetto": "giusto-processo",
-        "figli": [
-          {
-            "testo": "Giudice naturale",
-            "concetto": "giudice-naturale"
-          },
-          {
-            "testo": "Difesa",
-            "concetto": "diritto-di-difesa"
-          }
-        ]
-      },
-      {
-        "testo": "Autonomia e carriere",
-        "concetto": "csm",
-        "figli": [
-          {
-            "testo": "Inamovibilità",
-            "concetto": "inamovibilita"
-          },
-          {
-            "testo": "Disciplina",
-            "concetto": "responsabilita-disciplinare-magistrati"
-          }
-        ]
-      },
-      {
-        "testo": "Organizzazione dei servizi",
-        "concetto": "ministro-della-giustizia"
-      }
-    ]
+   ]
   },
-  "domande": [
-    {
-      "id": "u11-q001",
-      "tipo": "flashcard",
-      "lezione": "u11-l1",
-      "livello": "base",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "obbligatorieta-azione-penale"
-      ],
-      "domanda": "L’obbligatorietà dell’azione penale impone sempre un processo per ogni denuncia?",
-      "risposta": "No. Esclude una selezione politica discrezionale della persecuzione; la legge prevede indagini, valutazioni e archiviazione con i controlli competenti."
-    },
-    {
-      "id": "u11-q002",
-      "tipo": "flashcard",
-      "lezione": "u11-l1",
-      "livello": "base",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "giudice-naturale"
-      ],
-      "domanda": "Che cosa garantisce il giudice naturale precostituito per legge?",
-      "risposta": "Che la competenza sia stabilita da regole legali anteriori e non si scelga un giudice appositamente per il caso."
-    },
-    {
-      "id": "u11-q003",
-      "tipo": "flashcard",
-      "lezione": "u11-l1",
-      "livello": "medio",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "magistratura"
-      ],
-      "domanda": "Il giudice amministrativo tutela mai diritti soggettivi?",
-      "risposta": "Sì, nelle particolari materie di giurisdizione esclusiva previste dalla legge, oltre alla tutela degli interessi legittimi."
-    },
-    {
-      "id": "u11-q004",
-      "tipo": "flashcard",
-      "lezione": "u11-l1",
-      "livello": "medio",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "giusto-processo"
-      ],
-      "domanda": "Quali sono le coordinate generali del giusto processo?",
-      "risposta": "Contraddittorio e parità fra le parti, giudice terzo e imparziale, ragionevole durata e motivazione; nel penale ulteriori garanzie specifiche dell’accusa e della prova."
-    },
-    {
-      "id": "u11-q005",
-      "tipo": "multipla",
-      "lezione": "u11-l1",
-      "livello": "medio",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "giudice-naturale"
-      ],
-      "domanda": "Un fatto non era reato quando è stato commesso. Una legge successiva lo incrimina: può punirlo retroattivamente?",
-      "opzioni": [
-        "Sì, sempre",
-        "No, opera la garanzia dell’art. 25",
-        "Sì, se decide il ministro",
-        "Solo con un giudice straordinario"
-      ],
-      "corretta": 1,
-      "spiegazione": "La legge incriminatrice deve precedere il fatto."
-    },
-    {
-      "id": "u11-q006",
-      "tipo": "multipla",
-      "lezione": "u11-l1",
-      "livello": "medio",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "corte-di-cassazione"
-      ],
-      "domanda": "Quale descrizione della Cassazione è corretta?",
-      "opzioni": [
-        "Ripete sempre da capo ogni prova",
-        "Esercita il controllo di legittimità nei limiti dei motivi previsti",
-        "È un ufficio del Governo",
-        "Sostituisce il pubblico ministero nelle indagini"
-      ],
-      "corretta": 1,
-      "spiegazione": "Non è un terzo grado generale di merito."
-    },
-    {
-      "id": "u11-q007",
-      "tipo": "verofalso",
-      "lezione": "u11-l1",
-      "livello": "medio",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "magistratura"
-      ],
-      "affermazione": "La Costituzione consente ancora la pena di morte nelle leggi militari di guerra.",
-      "vero": false,
-      "spiegazione": "L’eccezione è stata eliminata dalla legge costituzionale n. 1/2007."
-    },
-    {
-      "id": "u11-q008",
-      "tipo": "verofalso",
-      "lezione": "u11-l1",
-      "livello": "medio",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "pubblico-ministero",
-        "giusto-processo"
-      ],
-      "affermazione": "Pubblico ministero e giudice svolgono la stessa funzione decisionale.",
-      "vero": false,
-      "spiegazione": "Il primo esercita l’azione e le attribuzioni requirenti; il secondo decide in posizione terza."
-    },
-    {
-      "id": "u11-q009",
-      "tipo": "completa",
-      "lezione": "u11-l1",
-      "livello": "base",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "magistratura",
-        "pubblico-ministero",
-        "obbligatorieta-azione-penale",
-        "corte-di-cassazione"
-      ],
-      "testo": "La difesa è garantita dall’art. {{24}}, il giudice naturale dall’art. {{25}} e il giusto processo dall’art. {{111}}.",
-      "spiegazione": "Le garanzie operano insieme e non si escludono a vicenda."
-    },
-    {
-      "id": "u11-q010",
-      "tipo": "aperta",
-      "lezione": "u11-l1",
-      "livello": "avanzato",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "magistratura",
-        "pubblico-ministero",
-        "obbligatorieta-azione-penale",
-        "corte-di-cassazione",
-        "giudice-naturale",
-        "diritto-di-difesa",
-        "giusto-processo"
-      ],
-      "domanda": "Collega giudice naturale, diritto di difesa e giusto processo.",
-      "traccia": "Il giudice naturale dell’art. 25 impedisce di scegliere dopo il fatto l’organo chiamato a decidere: competenze e regole devono essere precostituite dalla legge. L’art. 24 assicura che ciascuno possa agire e difendersi in ogni stato e grado e che i non abbienti abbiano i mezzi necessari. L’art. 111 organizza l’esercizio della giurisdizione attraverso contraddittorio, parità, terzietà e imparzialità del giudice e ragionevole durata. La motivazione rende la decisione controllabile. Nel penale la legge incriminatrice deve precedere il fatto, mentre accusa e prova incontrano ulteriori garanzie. Questi principi non promettono che ogni domanda venga accolta: garantiscono un metodo legale ed equo per decidere. La diversità delle giurisdizioni non li elimina, e le esigenze di efficienza devono essere perseguite preservando la reale possibilità di partecipare e difendersi nel processo.",
-      "punti": [
-        {
-          "testo": "Competenza anteriore",
-          "chiavi": [
-            "25",
-            "precostituito"
-          ]
-        },
-        {
-          "testo": "Difesa effettiva",
-          "chiavi": [
-            "24",
-            "mezzi"
-          ]
-        },
-        {
-          "testo": "Metodo del giudizio",
-          "chiavi": [
-            "111",
-            "contraddittorio",
-            "terzietà"
-          ]
-        },
-        {
-          "testo": "Legalità e controllo",
-          "chiavi": [
-            "precedere",
-            "motivazione"
-          ]
-        }
+  {
+   "id": "revisione-costituzionale",
+   "nome": "Revisione costituzionale",
+   "tipo": "istituto",
+   "alias": [
+    "procedimento aggravato",
+    "art. 138"
+   ],
+   "breve": "Modifica della Costituzione con il procedimento aggravato dell'art. 138.",
+   "definizione": "È lo strumento con cui la Costituzione rigida si adatta ai mutamenti sociali e politici. Richiede due deliberazioni di ciascuna Camera a intervallo non minore di tre mesi, la maggioranza assoluta nella seconda e un eventuale referendum, escluso se si raggiungono i due terzi. Ne è titolare il Parlamento, che non può sostituire l'intera Costituzione: il potere costituente spettava all'Assemblea costituente. Poiché la maggioranza assoluta coincide con quella di governo, dal 1993 si discute del rischio di revisioni di sola maggioranza. Incontra limiti espressi e impliciti.",
+   "pagine": [
+    96,
+    102
+   ]
+  },
+  {
+   "id": "referendum-costituzionale",
+   "nome": "Referendum costituzionale",
+   "tipo": "procedura",
+   "alias": [
+    "referendum confermativo",
+    "referendum oppositivo"
+   ],
+   "breve": "Referendum eventuale sulle leggi costituzionali approvate senza i due terzi.",
+   "definizione": "Previsto dall'art. 138: entro tre mesi dalla pubblicazione del testo approvato in seconda deliberazione a maggioranza assoluta, possono chiederlo 500.000 elettori, un quinto dei membri di una Camera o cinque Consigli regionali. La legge è promulgata solo se approvata dalla maggioranza dei voti validi; non è richiesto alcun quorum di partecipazione, perché è uno strumento di garanzia delle minoranze. È disciplinato dalla legge n. 352/1970. Si è tenuto nel 2001, 2006, 2016, 2020 e 2026, con esito favorevole solo nel 2001 e nel 2020.",
+   "pagine": [
+    97,
+    98
+   ]
+  },
+  {
+   "id": "rottura-della-costituzione",
+   "nome": "Rottura della Costituzione",
+   "tipo": "concetto",
+   "alias": [
+    "deroga costituzionale"
+   ],
+   "breve": "Deroga di una norma costituzionale a un'altra norma o a un principio della stessa Costituzione.",
+   "definizione": "Si ha quando una norma contenuta nel testo costituzionale si pone in contrasto con un'altra norma o con un principio del medesimo testo, derogandovi per un caso particolare. Il manuale ne trova esempi nelle disposizioni transitorie e finali: la XII vieta la riorganizzazione del partito fascista in deroga all'art. 49 e consentiva limiti temporanei al voto dei capi del regime in deroga all'art. 48. Anche l'art. 68 deroga all'eguaglianza formale. Va distinta dalla revisione, che modifica stabilmente il testo.",
+   "pagine": [
+    100,
+    100
+   ]
+  },
+  {
+   "id": "limiti-alla-revisione-costituzionale",
+   "nome": "Limiti alla revisione costituzionale",
+   "tipo": "concetto",
+   "alias": [
+    "limiti espressi e impliciti",
+    "art. 139",
+    "forma repubblicana"
+   ],
+   "breve": "Confini che neppure una legge di revisione può superare: forma repubblicana e principi supremi.",
+   "definizione": "Sono espressi o impliciti. L'unico limite espresso è l'art. 139: la forma repubblicana non può essere oggetto di revisione. I limiti impliciti sono le norme-principio in cui il sistema si identifica: democrazia, lavoro, inviolabilità della persona, eguaglianza, unità della Repubblica, libertà; in sintesi i diritti inviolabili nel loro contenuto essenziale, per i quali vale il criterio di non regressione. Li ha riconosciuti la Corte costituzionale con la sentenza n. 1146/1988. Superarli significherebbe dar vita a una nuova Costituzione, per via extragiuridica.",
+   "pagine": [
+    100,
+    102
+   ]
+  },
+  {
+   "id": "principi-supremi",
+   "nome": "Principi supremi",
+   "tipo": "concetto",
+   "alias": [
+    "norme-principio",
+    "valori supremi"
+   ],
+   "breve": "Principi che appartengono all'essenza della Costituzione e resistono anche alla revisione.",
+   "definizione": "Secondo la sentenza n. 1146/1988 della Corte costituzionale, la Costituzione contiene alcuni principi supremi che non possono essere sovvertiti o modificati nel loro contenuto essenziale neppure da leggi di revisione costituzionale o da altre leggi costituzionali. Sono tali sia i principi che la Costituzione pone espressamente come limite assoluto, come la forma repubblicana (art. 139), sia quelli che, pur non menzionati, appartengono all'essenza dei valori supremi su cui essa si fonda: anzitutto i diritti inviolabili dell'art. 2.",
+   "pagine": [
+    101,
+    102
+   ]
+  }
+ ],
+ "relazioni": [
+  {
+   "da": "legge-formale",
+   "a": "forza-di-legge",
+   "tipo": "collegato",
+   "etichetta": "possiede"
+  },
+  {
+   "da": "legge-ordinaria",
+   "a": "legge-formale",
+   "tipo": "esempio-di",
+   "etichetta": "è la tipica"
+  },
+  {
+   "da": "forza-di-legge",
+   "a": "corte-costituzionale",
+   "tipo": "collegato",
+   "etichetta": "comporta il sindacato della"
+  },
+  {
+   "da": "forza-di-legge",
+   "a": "decreto-legge",
+   "tipo": "collegato",
+   "etichetta": "è propria anche del"
+  },
+  {
+   "da": "iniziativa-legislativa",
+   "a": "legge-ordinaria",
+   "tipo": "parte-di",
+   "etichetta": "apre il procedimento della"
+  },
+  {
+   "da": "governo",
+   "a": "iniziativa-legislativa",
+   "tipo": "crea",
+   "etichetta": "esercita la più rilevante"
+  },
+  {
+   "da": "iniziativa-legislativa-popolare",
+   "a": "iniziativa-legislativa",
+   "tipo": "esempio-di",
+   "etichetta": "è una forma di"
+  },
+  {
+   "da": "iniziativa-legislativa-popolare",
+   "a": "democrazia-diretta",
+   "tipo": "esempio-di",
+   "etichetta": "è un istituto di"
+  },
+  {
+   "da": "cnel",
+   "a": "iniziativa-legislativa",
+   "tipo": "collegato",
+   "etichetta": "è titolare dell'"
+  },
+  {
+   "da": "commissione-referente",
+   "a": "legge-ordinaria",
+   "tipo": "parte-di",
+   "etichetta": "è il procedimento normale della"
+  },
+  {
+   "da": "commissione-deliberante",
+   "a": "commissione-referente",
+   "tipo": "contrasta",
+   "etichetta": "si distingue dalla"
+  },
+  {
+   "da": "commissione-redigente",
+   "a": "commissione-deliberante",
+   "tipo": "collegato",
+   "etichetta": "è intermedia tra referente e"
+  },
+  {
+   "da": "commissione-redigente",
+   "a": "legge-ordinaria",
+   "tipo": "parte-di",
+   "etichetta": "è un modo di approvare la"
+  },
+  {
+   "da": "riserva-di-assemblea",
+   "a": "commissione-deliberante",
+   "tipo": "contrasta",
+   "etichetta": "esclude la"
+  },
+  {
+   "da": "riserva-di-assemblea",
+   "a": "commissione-referente",
+   "tipo": "collegato",
+   "etichetta": "impone la"
+  },
+  {
+   "da": "navetta-parlamentare",
+   "a": "bicameralismo-paritario",
+   "tipo": "esempio-di",
+   "etichetta": "deriva dal"
+  },
+  {
+   "da": "navetta-parlamentare",
+   "a": "legge-ordinaria",
+   "tipo": "parte-di",
+   "etichetta": "può prolungare l'approvazione della"
+  },
+  {
+   "da": "promulgazione",
+   "a": "legge-ordinaria",
+   "tipo": "parte-di",
+   "etichetta": "integra l'efficacia della"
+  },
+  {
+   "da": "presidente-della-repubblica",
+   "a": "promulgazione",
+   "tipo": "crea",
+   "etichetta": "compie la"
+  },
+  {
+   "da": "rinvio-presidenziale",
+   "a": "promulgazione",
+   "tipo": "contrasta",
+   "etichetta": "sospende la"
+  },
+  {
+   "da": "presidente-della-repubblica",
+   "a": "rinvio-presidenziale",
+   "tipo": "crea",
+   "etichetta": "dispone il"
+  },
+  {
+   "da": "pubblicazione-della-legge",
+   "a": "promulgazione",
+   "tipo": "collegato",
+   "etichetta": "segue la"
+  },
+  {
+   "da": "pubblicazione-della-legge",
+   "a": "vacatio-legis",
+   "tipo": "causa",
+   "etichetta": "fa decorrere la"
+  },
+  {
+   "da": "vacatio-legis",
+   "a": "legge-ordinaria",
+   "tipo": "collegato",
+   "etichetta": "precede l'entrata in vigore della"
+  },
+  {
+   "da": "legge-costituzionale",
+   "a": "revisione-costituzionale",
+   "tipo": "collegato",
+   "etichetta": "è lo strumento della"
+  },
+  {
+   "da": "revisione-costituzionale",
+   "a": "costituzione-rigida",
+   "tipo": "esempio-di",
+   "etichetta": "esprime la"
+  },
+  {
+   "da": "referendum-costituzionale",
+   "a": "revisione-costituzionale",
+   "tipo": "parte-di",
+   "etichetta": "è fase eventuale della"
+  },
+  {
+   "da": "referendum-costituzionale",
+   "a": "tutela-delle-minoranze",
+   "tipo": "collegato",
+   "etichetta": "serve alla"
+  },
+  {
+   "da": "referendum-costituzionale",
+   "a": "referendum-abrogativo",
+   "tipo": "contrasta",
+   "etichetta": "non ha il quorum del"
+  },
+  {
+   "da": "rottura-della-costituzione",
+   "a": "revisione-costituzionale",
+   "tipo": "contrasta",
+   "etichetta": "si distingue dalla"
+  },
+  {
+   "da": "rottura-della-costituzione",
+   "a": "immunita-parlamentari",
+   "tipo": "collegato",
+   "etichetta": "ha un esempio nelle"
+  },
+  {
+   "da": "limiti-alla-revisione-costituzionale",
+   "a": "revisione-costituzionale",
+   "tipo": "contrasta",
+   "etichetta": "circoscrivono la"
+  },
+  {
+   "da": "principi-supremi",
+   "a": "limiti-alla-revisione-costituzionale",
+   "tipo": "parte-di",
+   "etichetta": "sono"
+  },
+  {
+   "da": "principi-supremi",
+   "a": "diritti-inviolabili",
+   "tipo": "collegato",
+   "etichetta": "comprendono i"
+  },
+  {
+   "da": "legge-costituzionale",
+   "a": "legge-ordinaria",
+   "tipo": "contrasta",
+   "etichetta": "si distingue dalla"
+  },
+  {
+   "da": "legge-formale",
+   "a": "parlamento",
+   "tipo": "collegato",
+   "etichetta": "è l'atto tipico del"
+  },
+  {
+   "da": "legge-delega",
+   "a": "decreto-legislativo",
+   "tipo": "crea",
+   "etichetta": "abilita il"
+  },
+  {
+   "da": "eccesso-di-delega",
+   "a": "decreto-legislativo",
+   "tipo": "collegato",
+   "etichetta": "può viziare il"
+  }
+ ],
+ "eventi": [
+  {
+   "id": "ev-camera-dei-fasci-e-delle-corporazioni",
+   "anno": 1939,
+   "data": "19 gennaio 1939",
+   "titolo": "Istituzione della Camera dei fasci e delle corporazioni",
+   "descrizione": "La legge che sopprime la Camera dei deputati introduce per la prima volta l'approvazione delle leggi in commissione.",
+   "tipo": "legge",
+   "concetti": [
+    "commissione-deliberante"
+   ],
+   "pagine": [
+    93,
+    93
+   ]
+  },
+  {
+   "id": "ev-elezioni-18-aprile-1948",
+   "anno": 1948,
+   "data": "18 aprile 1948",
+   "titolo": "Prime elezioni politiche repubblicane",
+   "descrizione": "La Democrazia cristiana ottiene la maggioranza assoluta dei seggi: caso unico, ricordato a proposito delle maggioranze dell'art. 138.",
+   "tipo": "politica",
+   "concetti": [
+    "revisione-costituzionale"
+   ],
+   "pagine": [
+    98,
+    98
+   ]
+  },
+  {
+   "id": "ev-regolamenti-revisione-1957-1958",
+   "anno": 1957,
+   "data": "1957–1958",
+   "titolo": "I regolamenti scelgono la doppia deliberazione alternata",
+   "descrizione": "I regolamenti della Camera (1957) e del Senato (1958) stabiliscono che dopo la prima deliberazione il progetto di legge costituzionale passi all'altra Camera.",
+   "tipo": "legge",
+   "concetti": [
+    "revisione-costituzionale",
+    "legge-costituzionale"
+   ],
+   "pagine": [
+    97,
+    97
+   ],
+   "annoFine": 1958
+  },
+  {
+   "id": "ev-sentenza-168-1963",
+   "anno": 1963,
+   "data": "1963",
+   "titolo": "Sentenza n. 168/1963 sulla materia costituzionale",
+   "descrizione": "Per la Corte le leggi «in materia costituzionale» dell'art. 72 coincidono con le leggi dell'art. 138.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "riserva-di-assemblea",
+    "legge-costituzionale"
+   ],
+   "pagine": [
+    92,
+    99
+   ]
+  },
+  {
+   "id": "ev-legge-n-352-1970-sui-referendum",
+   "anno": 1970,
+   "data": "25 maggio 1970",
+   "titolo": "Legge n. 352/1970 sui referendum",
+   "descrizione": "Disciplina referendum e iniziativa legislativa popolare: da allora può essere chiesto il referendum costituzionale.",
+   "tipo": "legge",
+   "concetti": [
+    "referendum-costituzionale",
+    "iniziativa-legislativa-popolare"
+   ],
+   "pagine": [
+    90,
+    98
+   ]
+  },
+  {
+   "id": "ev-sentenza-364-1988",
+   "anno": 1988,
+   "data": "1988",
+   "titolo": "Sentenza n. 364/1988 sull'ignoranza della legge penale",
+   "descrizione": "La Corte costituzionale dichiara illegittimo l'art. 5 del codice penale nella parte in cui non esclude l'ignoranza inevitabile.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "vacatio-legis"
+   ],
+   "pagine": [
+    96,
+    96
+   ]
+  },
+  {
+   "id": "ev-sentenza-n-1146-1988-sui-principi-supremi",
+   "anno": 1988,
+   "data": "1988",
+   "titolo": "Sentenza n. 1146/1988 sui principi supremi",
+   "descrizione": "La Corte costituzionale afferma che i principi supremi non possono essere sovvertiti neppure da leggi di revisione.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "principi-supremi",
+    "limiti-alla-revisione-costituzionale"
+   ],
+   "pagine": [
+    101,
+    102
+   ]
+  },
+  {
+   "id": "ev-bicamerali-1993-1997",
+   "anno": 1993,
+   "data": "1993 e 1997",
+   "titolo": "Leggi costituzionali sulle commissioni bicamerali per le riforme",
+   "descrizione": "Le leggi costituzionali n. 1/1993 e n. 1/1997 prevedono, in deroga all'art. 138, un referendum obbligatorio sulle riforme.",
+   "tipo": "legge",
+   "concetti": [
+    "revisione-costituzionale",
+    "referendum-costituzionale"
+   ],
+   "pagine": [
+    98,
+    98
+   ],
+   "annoFine": 1997
+  },
+  {
+   "id": "ev-referendum-costituzionale-2001",
+   "anno": 2001,
+   "data": "7 ottobre 2001",
+   "titolo": "Primo referendum costituzionale",
+   "descrizione": "Il corpo elettorale approva la riforma del Titolo V; la legge costituzionale n. 3/2001 è promulgata il 18 ottobre.",
+   "tipo": "politica",
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "pagine": [
+    98,
+    98
+   ]
+  },
+  {
+   "id": "ev-rinvio-legge-gasparri",
+   "anno": 2003,
+   "data": "15 dicembre 2003",
+   "titolo": "Rinvio della legge Gasparri",
+   "descrizione": "Il Presidente Ciampi rinvia alle Camere la legge di riordino del sistema radiotelevisivo.",
+   "tipo": "politica",
+   "concetti": [
+    "rinvio-presidenziale"
+   ],
+   "pagine": [
+    95,
+    95
+   ]
+  },
+  {
+   "id": "ev-referendum-costituzionale-2006",
+   "anno": 2006,
+   "data": "25–26 giugno 2006",
+   "titolo": "Referendum costituzionale sulla riforma della Parte II",
+   "descrizione": "Il corpo elettorale respinge la riforma approvata nella XIV legislatura.",
+   "tipo": "politica",
+   "concetti": [
+    "referendum-costituzionale",
+    "revisione-costituzionale"
+   ],
+   "pagine": [
+    97,
+    98
+   ]
+  },
+  {
+   "id": "ev-rinvio-napolitano-2010",
+   "anno": 2010,
+   "data": "31 marzo 2010",
+   "titolo": "Rinvio di una legge da parte di Napolitano",
+   "descrizione": "È l'unico rinvio del primo mandato del Presidente Napolitano.",
+   "tipo": "politica",
+   "concetti": [
+    "rinvio-presidenziale"
+   ],
+   "pagine": [
+    95,
+    95
+   ]
+  },
+  {
+   "id": "ev-referendum-costituzionale-2016",
+   "anno": 2016,
+   "data": "4 dicembre 2016",
+   "titolo": "Referendum costituzionale sul bicameralismo",
+   "descrizione": "Il corpo elettorale respinge la riforma che superava il bicameralismo paritario.",
+   "tipo": "politica",
+   "concetti": [
+    "referendum-costituzionale",
+    "bicameralismo-paritario"
+   ],
+   "pagine": [
+    97,
+    98
+   ]
+  },
+  {
+   "id": "ev-referendum-costituzionale-2026",
+   "anno": 2026,
+   "data": "marzo 2026",
+   "titolo": "Referendum costituzionale sulla magistratura",
+   "descrizione": "Il corpo elettorale respinge la riforma costituzionale della magistratura: resta in vigore il testo precedente.",
+   "tipo": "politica",
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "pagine": [
+    97,
+    98
+   ]
+  }
+ ],
+ "mappa": {
+  "testo": "La funzione legislativa",
+  "concetto": "legge-ordinaria",
+  "figli": [
+   {
+    "testo": "La legge",
+    "concetto": "legge-formale",
+    "figli": [
+     {
+      "testo": "Forza attiva e passiva",
+      "concetto": "forza-di-legge"
+     },
+     {
+      "testo": "Valore di legge",
+      "nota": "solo sindacato della Corte"
+     },
+     {
+      "testo": "Atto complesso eguale",
+      "nota": "art. 70"
+     }
+    ]
+   },
+   {
+    "testo": "1. Iniziativa",
+    "concetto": "iniziativa-legislativa",
+    "figli": [
+     {
+      "testo": "Governo",
+      "nota": "disegno di legge"
+     },
+     {
+      "testo": "Parlamentari"
+     },
+     {
+      "testo": "Popolo: 50.000",
+      "concetto": "iniziativa-legislativa-popolare"
+     },
+     {
+      "testo": "CNEL e Consigli regionali"
+     },
+     {
+      "testo": "Vincolata o riservata"
+     }
+    ]
+   },
+   {
+    "testo": "2. Approvazione",
+    "figli": [
+     {
+      "testo": "Ordinario",
+      "concetto": "commissione-referente"
+     },
+     {
+      "testo": "Decentrato",
+      "concetto": "commissione-deliberante",
+      "nota": "rimessione: Governo, 1/10, 1/5"
+     },
+     {
+      "testo": "Misto",
+      "concetto": "commissione-redigente"
+     },
+     {
+      "testo": "Riserva di assemblea",
+      "concetto": "riserva-di-assemblea"
+     },
+     {
+      "testo": "Navetta",
+      "concetto": "navetta-parlamentare"
+     }
+    ]
+   },
+   {
+    "testo": "3. Efficacia",
+    "figli": [
+     {
+      "testo": "Promulgazione",
+      "concetto": "promulgazione",
+      "nota": "entro un mese"
+     },
+     {
+      "testo": "Rinvio",
+      "concetto": "rinvio-presidenziale",
+      "nota": "veto sospensivo"
+     },
+     {
+      "testo": "Pubblicazione",
+      "concetto": "pubblicazione-della-legge"
+     },
+     {
+      "testo": "Vacatio legis",
+      "concetto": "vacatio-legis",
+      "nota": "15 giorni"
+     }
+    ]
+   },
+   {
+    "testo": "Art. 138",
+    "concetto": "revisione-costituzionale",
+    "figli": [
+     {
+      "testo": "Doppia deliberazione",
+      "concetto": "legge-costituzionale",
+      "nota": "3 mesi, maggioranza assoluta"
+     },
+     {
+      "testo": "Referendum eventuale",
+      "concetto": "referendum-costituzionale",
+      "nota": "senza quorum"
+     },
+     {
+      "testo": "Limiti",
+      "concetto": "limiti-alla-revisione-costituzionale",
+      "figli": [
+       {
+        "testo": "Art. 139"
+       },
+       {
+        "testo": "Principi supremi",
+        "concetto": "principi-supremi"
+       }
       ]
-    },
-    {
-      "id": "u11-q011",
-      "tipo": "flashcard",
-      "lezione": "u11-l2",
-      "livello": "base",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm"
-      ],
-      "domanda": "Com’è composto oggi il CSM?",
-      "risposta": "Tre membri di diritto e trenta elettivi: venti togati e dieci laici, secondo la legge n. 71/2022 e il rapporto costituzionale di due terzi e un terzo."
-    },
-    {
-      "id": "u11-q012",
-      "tipo": "flashcard",
-      "lezione": "u11-l2",
-      "livello": "base",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "inamovibilita"
-      ],
-      "domanda": "L’inamovibilità esclude ogni trasferimento?",
-      "risposta": "No. Sono possibili decisioni del CSM con motivi e garanzie dell’ordinamento, oppure il consenso, nelle forme dell’art. 107."
-    },
-    {
-      "id": "u11-q013",
-      "tipo": "flashcard",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "responsabilita-disciplinare-magistrati",
-        "csm"
-      ],
-      "domanda": "Dove si impugnano le decisioni della Sezione disciplinare del CSM?",
-      "risposta": "Davanti alle Sezioni unite della Corte di cassazione, diversamente dalle deliberazioni amministrative del Consiglio."
-    },
-    {
-      "id": "u11-q014",
-      "tipo": "flashcard",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "ministro-della-giustizia"
-      ],
-      "domanda": "Qual è il limite centrale ai poteri del Ministro della giustizia?",
-      "risposta": "Organizza servizi e può promuovere l’azione disciplinare, ma non può dettare il contenuto delle decisioni giudiziarie né sostituire le competenze del CSM."
-    },
-    {
-      "id": "u11-q015",
-      "tipo": "multipla",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "inamovibilita",
-        "csm"
-      ],
-      "domanda": "Un ministro vuole trasferire un giudice perché non approva una sua sentenza. Quale garanzia è direttamente rilevante?",
-      "opzioni": [
-        "Inamovibilità e competenza del CSM",
-        "Voto disgiunto",
-        "Premio elettorale",
-        "Proroga della legislatura"
-      ],
-      "corretta": 0,
-      "spiegazione": "Il trasferimento non è una sanzione politica liberamente disponibile al Governo."
-    },
-    {
-      "id": "u11-q016",
-      "tipo": "multipla",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm"
-      ],
-      "domanda": "La proposta costituzionale respinta nel referendum del marzo 2026 va descritta come vigente?",
-      "opzioni": [
-        "Sì, basta l’approvazione parlamentare",
-        "No, l’esito negativo impedisce l’entrata in vigore del testo sottoposto al voto",
-        "Sì, se il Governo la sostiene",
-        "Solo nelle Regioni"
-      ],
-      "corretta": 1,
-      "spiegazione": "La pubblicazione ufficiale attesta un risultato non favorevole all’approvazione."
-    },
-    {
-      "id": "u11-q017",
-      "tipo": "verofalso",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm"
-      ],
-      "affermazione": "Il CSM è l’organo d’appello cui ricorrere contro qualsiasi sentenza di un tribunale.",
-      "vero": false,
-      "spiegazione": "Gestisce le attribuzioni di garanzia previste dall’art. 105; le sentenze seguono i propri mezzi d’impugnazione."
-    },
-    {
-      "id": "u11-q018",
-      "tipo": "verofalso",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "ministro-della-giustizia",
-        "responsabilita-disciplinare-magistrati"
-      ],
-      "affermazione": "Il Ministro può promuovere l’azione disciplinare ma non decide al posto della Sezione disciplinare.",
-      "vero": true,
-      "spiegazione": "Iniziativa, accertamento e decisione hanno titolari e garanzie distinti."
-    },
-    {
-      "id": "u11-q019",
-      "tipo": "completa",
-      "lezione": "u11-l2",
-      "livello": "base",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm"
-      ],
-      "testo": "Gli elettivi del CSM sono {{trenta|30}}: {{venti|20}} togati e {{dieci|10}} laici, oltre ai tre membri di diritto.",
-      "spiegazione": "La legge n. 71/2022 ha aggiornato i numeri degli appunti."
-    },
-    {
-      "id": "u11-q020",
-      "tipo": "aperta",
-      "lezione": "u11-l2",
-      "livello": "avanzato",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm",
-        "inamovibilita",
-        "responsabilita-disciplinare-magistrati",
-        "ministro-della-giustizia"
-      ],
-      "domanda": "Come si distribuiscono le attribuzioni fra CSM, ministro e giudice?",
-      "traccia": "Il giudice esercita la giurisdizione ed è soggetto soltanto alla legge, senza ordini politici sul merito delle cause. Il CSM tutela l’autonomia della magistratura ordinaria attraverso le competenze dell’art. 105 su assunzioni, sedi, funzioni, promozioni e disciplina. Non è però una corte d’appello sulle sentenze. L’inamovibilità richiede che le vicende di sede e funzione seguano decisioni e garanzie previste, impedendo trasferimenti punitivi del Governo. Il ministro della giustizia cura organizzazione e funzionamento dei servizi e può promuovere l’azione disciplinare, ma non giudica al posto della Sezione competente. Anche gli atti del CSM hanno forme di controllo: quelli amministrativi nella giustizia amministrativa e le decisioni disciplinari nelle Sezioni unite della Cassazione. Indipendenza non equivale quindi a irresponsabilità, e amministrazione dei servizi non equivale a direzione politica del contenuto delle decisioni.",
-      "punti": [
-        {
-          "testo": "Giurisdizione indipendente",
-          "chiavi": [
-            "legge",
-            "giudice"
-          ]
-        },
-        {
-          "testo": "Garanzia del CSM",
-          "chiavi": [
-            "105",
-            "carriere"
-          ]
-        },
-        {
-          "testo": "Servizi e iniziativa ministeriale",
-          "chiavi": [
-            "servizi",
-            "disciplinare"
-          ]
-        },
-        {
-          "testo": "Controlli differenziati",
-          "chiavi": [
-            "amministrativi",
-            "cassazione"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u11-q021",
-      "tipo": "ordina",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm",
-        "inamovibilita",
-        "responsabilita-disciplinare-magistrati",
-        "ministro-della-giustizia"
-      ],
-      "consegna": "Ordina le fasi essenziali del procedimento disciplinare fino all’eventuale controllo.",
-      "elementi": [
-        "Promozione dell’azione disciplinare",
-        "Accertamento nel procedimento con le garanzie previste",
-        "Decisione della Sezione disciplinare del CSM",
-        "Eventuale ricorso alle Sezioni unite della Cassazione"
-      ],
-      "spiegazione": "L’iniziativa precede accertamento e decisione; il controllo giurisdizionale segue il provvedimento impugnato."
-    },
-    {
-      "id": "u11-q022",
-      "tipo": "abbina",
-      "lezione": "u11-l1",
-      "livello": "base",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "magistratura",
-        "pubblico-ministero",
-        "obbligatorieta-azione-penale",
-        "corte-di-cassazione"
-      ],
-      "consegna": "Abbina l’articolo alla garanzia.",
-      "coppie": [
-        [
-          "Art. 24",
-          "Diritto di difesa"
-        ],
-        [
-          "Art. 25",
-          "Giudice naturale e legalità penale"
-        ],
-        [
-          "Art. 107",
-          "Inamovibilità"
-        ],
-        [
-          "Art. 111",
-          "Giusto processo"
-        ]
-      ]
-    },
-    {
-      "id": "u11-q023",
-      "lezione": "u11-l1",
-      "livello": "medio",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "giudice-naturale"
-      ],
-      "tipo": "multipla",
-      "domanda": "Dopo un grave fatto di cronaca una legge istituisce un tribunale apposito per giudicare i responsabili. Quale garanzia è violata?",
-      "opzioni": [
-        "Il giudice naturale precostituito per legge e il divieto di giudici straordinari",
-        "L'obbligatorietà dell'azione penale",
-        "L'inamovibilità dei magistrati",
-        "La riserva di legge in materia penale"
-      ],
-      "corretta": 0,
-      "spiegazione": "Artt. 25, primo comma, e 102, secondo comma: il giudice deve essere individuato da regole fissate prima del fatto."
-    },
-    {
-      "id": "u11-q024",
-      "lezione": "u11-l1",
-      "livello": "base",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "pubblico-ministero",
-        "obbligatorieta-azione-penale"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Il pubblico ministero sceglie liberamente, secondo opportunità, se esercitare l'azione penale.",
-      "vero": false,
-      "spiegazione": "L'art. 112 gli impone l'obbligo di esercitarla quando ne ricorrono i presupposti: è una garanzia di uguaglianza davanti alla legge e di indipendenza del PM."
-    },
-    {
-      "id": "u11-q025",
-      "lezione": "u11-l1",
-      "livello": "medio",
-      "pagine": [
-        96,
-        97
-      ],
-      "concetti": [
-        "giusto-processo"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Quali sono i caratteri del giusto processo secondo l'art. 111?",
-      "risposta": "Contraddittorio tra le parti, in condizioni di parità, davanti a un giudice terzo e imparziale; ragionevole durata; nel processo penale, formazione della prova in contraddittorio. Tutti i provvedimenti giurisdizionali devono essere motivati."
-    },
-    {
-      "id": "u11-q026",
-      "lezione": "u11-l2",
-      "livello": "base",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm"
-      ],
-      "tipo": "multipla",
-      "domanda": "Chi presiede il Consiglio superiore della magistratura?",
-      "opzioni": [
-        "Il Ministro della giustizia",
-        "Il primo presidente della Corte di cassazione",
-        "Il Presidente della Repubblica",
-        "Il vicepresidente, eletto tra i magistrati"
-      ],
-      "corretta": 2,
-      "spiegazione": "Art. 104. Il vicepresidente è eletto dal Consiglio tra i componenti designati dal Parlamento."
-    },
-    {
-      "id": "u11-q027",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "inamovibilita",
-        "ministro-della-giustizia"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Il Ministro della giustizia può trasferire d'ufficio un magistrato ad altra sede.",
-      "vero": false,
-      "spiegazione": "I magistrati sono inamovibili: trasferimenti e sospensioni spettano al CSM, con le garanzie di difesa o con il consenso dell'interessato (art. 107). Il Ministro può promuovere l'azione disciplinare e cura l'organizzazione dei servizi (art. 110)."
-    },
-    {
-      "id": "u11-q028",
-      "lezione": "u11-l2",
-      "livello": "avanzato",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Perché il CSM è composto per due terzi da magistrati e per un terzo da membri eletti dal Parlamento?",
-      "risposta": "La prevalenza dei togati garantisce l'autonomia dell'ordine giudiziario dal potere politico; la presenza dei laici (professori ordinari di materie giuridiche e avvocati con quindici anni di esercizio) evita che la magistratura diventi un corpo chiuso e la collega alle istituzioni rappresentative."
-    },
-    {
-      "id": "u11-q029",
-      "lezione": "u11-l2",
-      "livello": "avanzato",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm",
-        "inamovibilita",
-        "magistratura",
-        "ministro-della-giustizia"
-      ],
-      "tipo": "aperta",
-      "domanda": "Quali garanzie assicurano l'indipendenza della magistratura?",
-      "traccia": "L'**art. 104** definisce la magistratura un **ordine autonomo e indipendente da ogni altro potere**. Si distinguono due profili.\n\nL'**indipendenza esterna** protegge l'ordine giudiziario dal potere politico. La garantisce il **CSM**, a cui spettano assunzioni, assegnazioni, trasferimenti, promozioni e provvedimenti disciplinari (art. 105). È presieduto dal **Presidente della Repubblica** e composto per **due terzi da magistrati** eletti dai colleghi e per **un terzo da laici** eletti dal Parlamento in seduta comune. Al **Ministro della giustizia** restano l'organizzazione dei servizi (art. 110) e la facoltà di promuovere l'azione disciplinare.\n\nL'**indipendenza interna** protegge il singolo giudice anche dagli altri magistrati: i giudici sono **soggetti soltanto alla legge** (art. 101) e si distinguono tra loro solo per **diversità di funzioni** (art. 107), non per gerarchia.\n\nCompletano il quadro l'accesso per **concorso** (art. 106), l'**inamovibilità** (art. 107), il **giudice naturale** precostituito per legge (art. 25) e, per il pubblico ministero, l'**obbligatorietà dell'azione penale** (art. 112).",
-      "punti": [
-        {
-          "testo": "Ordine autonomo e indipendente da ogni altro potere",
-          "chiavi": [
-            "autonom",
-            "indipendent"
-          ]
-        },
-        {
-          "testo": "Il CSM gestisce la carriera dei magistrati",
-          "chiavi": [
-            "csm",
-            "consiglio superiore"
-          ]
-        },
-        {
-          "testo": "Composizione: due terzi togati, un terzo laici",
-          "chiavi": [
-            "due terzi",
-            "laici",
-            "togati"
-          ]
-        },
-        {
-          "testo": "Soggezione soltanto alla legge e distinzione per funzioni",
-          "chiavi": [
-            "soltanto alla legge",
-            "funzioni"
-          ]
-        },
-        {
-          "testo": "Concorso, inamovibilità, giudice naturale",
-          "chiavi": [
-            "concorso",
-            "inamovibil",
-            "giudice naturale"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u11-q030",
-      "lezione": "u11-l2",
-      "livello": "medio",
-      "pagine": [
-        98,
-        100
-      ],
-      "concetti": [
-        "csm",
-        "magistratura",
-        "ministro-della-giustizia",
-        "responsabilita-disciplinare-magistrati"
-      ],
-      "tipo": "aperta",
-      "domanda": "Il Consiglio superiore della magistratura: composizione e funzioni.",
-      "traccia": "Il CSM è l'organo che garantisce l'**autonomia e l'indipendenza** della magistratura «da ogni altro potere» (art. 104): toglie al Governo le decisioni sulla carriera dei magistrati.\n\n**Composizione** (art. 104). È presieduto dal **Presidente della Repubblica**. Ne fanno parte **di diritto** il Primo presidente e il Procuratore generale della Corte di cassazione. Gli altri componenti sono **elettivi**: per **due terzi** eletti da tutti i magistrati ordinari tra gli appartenenti alle varie categorie (membri «togati»), per **un terzo** eletti dal **Parlamento in seduta comune** tra professori ordinari di università in materie giuridiche e avvocati con almeno quindici anni di esercizio (membri «laici»). Gli appunti riportano i numeri della legge 44/2002 (ventiquattro elettivi); oggi, dopo la legge 71/2022, gli elettivi sono **trenta**: venti togati e dieci laici. Durano in carica **quattro anni** e non sono immediatamente rieleggibili. Il **vicepresidente** è eletto dal Consiglio tra i laici.\n\n**Funzioni** (art. 105): **assunzioni, assegnazioni, trasferimenti, promozioni e provvedimenti disciplinari** nei riguardi dei magistrati. I provvedimenti disciplinari sono decisi da un'apposita **sezione disciplinare**; l'azione è promossa dal Ministro della giustizia (art. 107) o dal Procuratore generale della Cassazione. Il CSM dà inoltre pareri sui disegni di legge in materia di giustizia.\n\n**Rapporto con il Ministro**: al Ministro della giustizia restano l'**organizzazione e il funzionamento dei servizi** (art. 110).\n\nLa revisione costituzionale che prevedeva due Consigli distinti per giudici e pubblici ministeri è stata **respinta dal referendum** del marzo 2026: la disciplina resta questa.",
-      "punti": [
-        {
-          "testo": "Garantisce autonomia e indipendenza della magistratura (art. 104)",
-          "chiavi": [
-            "autonomia",
-            "indipendenz",
-            "104"
-          ]
-        },
-        {
-          "testo": "Presieduto dal Presidente della Repubblica; due membri di diritto dalla Cassazione",
-          "chiavi": [
-            "presidente della repubblica",
-            "di diritto",
-            "cassazione"
-          ]
-        },
-        {
-          "testo": "Due terzi togati eletti dai magistrati, un terzo laici eletti dal Parlamento in seduta comune",
-          "chiavi": [
-            "due terzi",
-            "togat",
-            "laic",
-            "seduta comune"
-          ]
-        },
-        {
-          "testo": "Quattro anni, non immediatamente rieleggibili; vicepresidente laico",
-          "chiavi": [
-            "quattro anni",
-            "vicepresident"
-          ]
-        },
-        {
-          "testo": "Art. 105: assunzioni, assegnazioni, trasferimenti, promozioni, provvedimenti disciplinari",
-          "chiavi": [
-            "105",
-            "trasferiment",
-            "promozion",
-            "disciplinar"
-          ]
-        },
-        {
-          "testo": "Al Ministro l'organizzazione e il funzionamento dei servizi (art. 110)",
-          "chiavi": [
-            "110",
-            "servizi",
-            "ministro"
-          ]
-        }
-      ],
-      "esame": [
-        "torre"
-      ]
-    }
+     },
+     {
+      "testo": "Rottura",
+      "concetto": "rottura-della-costituzione"
+     }
+    ]
+   }
   ]
+ },
+ "domande": [
+  {
+   "id": "u11-q001",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "legge-formale"
+   ],
+   "domanda": "Che cos'è la legge formale?",
+   "risposta": "È l'atto normativo posto in essere dalle Camere con il procedimento legislativo. Ha una particolare efficacia: l'idoneità a innovare l'ordine legislativo preesistente, integrandolo o abrogando leggi precedenti."
+  },
+  {
+   "id": "u11-q002",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "forza-di-legge"
+   ],
+   "domanda": "Che differenza c'è tra forza di legge e valore di legge?",
+   "risposta": "La forza di legge è l'efficacia della legge: attiva (prevalenza sugli atti subordinati) e passiva (resistenza agli atti subordinati contrastanti). Il valore di legge è il regime giuridico della legge e degli atti equiparati: la sottoposizione al solo sindacato della Corte costituzionale."
+  },
+  {
+   "id": "u11-q003",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "legge-ordinaria"
+   ],
+   "domanda": "Quali sono le fasi del procedimento di formazione della legge?",
+   "risposta": "Iniziativa (fase introduttiva), approvazione delle Camere (fase costitutiva), promulgazione e pubblicazione (fase integrativa dell'efficacia)."
+  },
+  {
+   "id": "u11-q004",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa"
+   ],
+   "domanda": "A chi spetta l'iniziativa legislativa?",
+   "risposta": "Al Governo, a ciascun membro delle Camere, al popolo (almeno 50.000 elettori), al CNEL e ai Consigli regionali (art. 71); ai Comuni per il mutamento delle circoscrizioni provinciali (art. 133)."
+  },
+  {
+   "id": "u11-q005",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa"
+   ],
+   "domanda": "Perché l'iniziativa governativa è la più rilevante?",
+   "risposta": "Perché il Governo, tramite l'amministrazione, valuta meglio le necessità d'intervento; perché gli spetta l'iniziativa della legge di bilancio e in materia internazionale; e perché i suoi disegni di legge possono contare, di regola, sulla maggioranza parlamentare."
+  },
+  {
+   "id": "u11-q006",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa"
+   ],
+   "domanda": "Che cosa sono l'iniziativa vincolata e l'iniziativa riservata?",
+   "risposta": "È vincolata quando la presentazione del progetto è obbligatoria, come per la legge di bilancio che il Governo deve presentare ogni anno. È riservata quando spetta a un solo soggetto, come al Governo per le leggi sulle intese con le confessioni acattoliche (art. 8)."
+  },
+  {
+   "id": "u11-q007",
+   "tipo": "multipla",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa-popolare"
+   ],
+   "domanda": "Quanti elettori occorrono per l'iniziativa legislativa popolare?",
+   "opzioni": [
+    "10.000",
+    "50.000",
+    "500.000",
+    "800.000"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 71: cinquantamila elettori, con un progetto redatto in articoli."
+  },
+  {
+   "id": "u11-q008",
+   "tipo": "multipla",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa"
+   ],
+   "domanda": "Che cosa occorre perché un disegno di legge del Governo sia presentato alle Camere?",
+   "opzioni": [
+    "Il parere del Consiglio di Stato",
+    "La deliberazione del Consiglio dei ministri e il decreto di autorizzazione del Presidente della Repubblica",
+    "Il voto di fiducia",
+    "La firma di dieci parlamentari"
+   ],
+   "corretta": 1,
+   "spiegazione": "L'autorizzazione alla presentazione è uno dei poteri del Presidente (art. 87)."
+  },
+  {
+   "id": "u11-q009",
+   "tipo": "multipla",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "legge-ordinaria"
+   ],
+   "domanda": "Perché la legge è definita «atto complesso eguale»?",
+   "opzioni": [
+    "Perché richiede la firma di più ministri",
+    "Perché le due Camere vi partecipano in posizione di parità approvando lo stesso testo",
+    "Perché è approvata anche dal Presidente della Repubblica",
+    "Perché ha la stessa forza dei regolamenti"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 70: la funzione legislativa è esercitata collettivamente dalle due Camere."
+  },
+  {
+   "id": "u11-q010",
+   "tipo": "verofalso",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa"
+   ],
+   "affermazione": "Il CNEL può esercitare l'iniziativa legislativa.",
+   "vero": true,
+   "spiegazione": "Art. 99; di fatto nel campo economico-sociale."
+  },
+  {
+   "id": "u11-q011",
+   "tipo": "verofalso",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa"
+   ],
+   "affermazione": "I progetti di legge del Governo si chiamano proposte di legge.",
+   "vero": false,
+   "spiegazione": "Si chiamano disegni di legge; proposte di legge sono quelle dei parlamentari."
+  },
+  {
+   "id": "u11-q012",
+   "tipo": "verofalso",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "forza-di-legge"
+   ],
+   "affermazione": "La forza passiva della legge è la sua capacità di resistere agli atti subordinati che la contraddicono.",
+   "vero": true,
+   "spiegazione": "Quella attiva è la prevalenza sugli atti subordinati."
+  },
+  {
+   "id": "u11-q013",
+   "tipo": "completa",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "legge-ordinaria"
+   ],
+   "testo": "La funzione legislativa è esercitata {{collettivamente}} dalle due Camere (art. {{70}})."
+  },
+  {
+   "id": "u11-q014",
+   "tipo": "completa",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa"
+   ],
+   "testo": "Un progetto che riproduce nella sostanza un progetto respinto non può essere assegnato alle commissioni prima di {{6|sei}} mesi dalla reiezione."
+  },
+  {
+   "id": "u11-q015",
+   "tipo": "aperta",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    88,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa",
+    "iniziativa-legislativa-popolare",
+    "legge-ordinaria"
+   ],
+   "domanda": "Parli dell'iniziativa legislativa: titolari, forme e limiti.",
+   "traccia": "L'iniziativa legislativa è la fase introduttiva del procedimento e consiste nella presentazione di un progetto di legge a una delle Camere. Per l'art. 71 spetta al Governo, ai singoli parlamentari, al popolo, al CNEL e ai Consigli regionali; l'art. 133 la attribuisce ai Comuni per le circoscrizioni provinciali. La più rilevante è quella governativa: il disegno di legge è deliberato dal Consiglio dei ministri e presentato con decreto di autorizzazione del Presidente della Repubblica; ha più probabilità di essere approvato perché il Governo dispone di regola della maggioranza. L'iniziativa parlamentare si esercita con proposte di legge. Quella popolare richiede 50.000 elettori e un progetto redatto in articoli ed è un istituto di democrazia diretta. Il CNEL opera nel campo economico-sociale, i Consigli regionali su materie d'interesse regionale. L'iniziativa può essere vincolata, come per il bilancio, o riservata, come per le intese con le confessioni acattoliche, e talvolta deve essere preceduta da accordi, pareri o referendum (artt. 7, 8, 132).",
+   "punti": [
+    {
+     "testo": "Nozione e art. 71",
+     "chiavi": [
+      "71",
+      "presentazione"
+     ]
+    },
+    {
+     "testo": "Governo: disegno di legge autorizzato dal Presidente",
+     "chiavi": [
+      "disegno",
+      "autorizzazione"
+     ]
+    },
+    {
+     "testo": "Popolare: 50.000 elettori",
+     "chiavi": [
+      "50.000",
+      "cinquantamila"
+     ]
+    },
+    {
+     "testo": "CNEL e Consigli regionali",
+     "chiavi": [
+      "cnel",
+      "regional"
+     ]
+    },
+    {
+     "testo": "Vincolata e riservata",
+     "chiavi": [
+      "vincolat",
+      "riservat"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u11-q016",
+   "tipo": "flashcard",
+   "lezione": "u11-l2",
+   "livello": "base",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente",
+    "commissione-deliberante",
+    "commissione-redigente"
+   ],
+   "domanda": "Quali sono i tre procedimenti di approvazione di una legge?",
+   "risposta": "Il procedimento ordinario (commissione in sede referente e voto dell'Assemblea), il procedimento decentrato o per commissioni (commissione in sede deliberante, che approva la legge) e il procedimento misto (commissione in sede redigente, con voto dell'Assemblea)."
+  },
+  {
+   "id": "u11-q017",
+   "tipo": "flashcard",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente"
+   ],
+   "domanda": "Come si svolge il procedimento ordinario?",
+   "risposta": "La commissione in sede referente esamina il progetto e lo trasmette all'Assemblea con le relazioni; segue la discussione generale, poi la discussione e il voto articolo per articolo con gli emendamenti, infine la votazione finale sul progetto nel suo complesso."
+  },
+  {
+   "id": "u11-q018",
+   "tipo": "flashcard",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente"
+   ],
+   "domanda": "Perché è necessaria la votazione finale sul progetto nel suo complesso?",
+   "risposta": "Perché i singoli articoli potrebbero essere stati approvati da maggioranze diverse o con emendamenti sostanziali, sicché il significato politico o il contenuto del progetto risulterebbero mutati."
+  },
+  {
+   "id": "u11-q019",
+   "tipo": "flashcard",
+   "lezione": "u11-l2",
+   "livello": "base",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "riserva-di-assemblea"
+   ],
+   "domanda": "Per quali leggi l'art. 72 impone il procedimento ordinario?",
+   "risposta": "Per i disegni di legge in materia costituzionale ed elettorale, di delegazione legislativa, di autorizzazione a ratificare trattati internazionali, di approvazione di bilanci e consuntivi: è la riserva di assemblea."
+  },
+  {
+   "id": "u11-q020",
+   "tipo": "flashcard",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-deliberante"
+   ],
+   "domanda": "Quali garanzie accompagnano il procedimento in sede deliberante?",
+   "risposta": "Le commissioni rispecchiano la proporzione dei gruppi; il Governo, un decimo dei componenti della Camera o un quinto della commissione possono chiedere la rimessione all'Assemblea; sono escluse le materie coperte da riserva di assemblea."
+  },
+  {
+   "id": "u11-q021",
+   "tipo": "flashcard",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "navetta-parlamentare"
+   ],
+   "domanda": "Che cos'è la navetta?",
+   "risposta": "È il passaggio del progetto di legge da una Camera all'altra: poiché le Camere devono approvare lo stesso testo, se una lo emenda il progetto torna all'altra, e così via finché non si raggiunge l'accordo."
+  },
+  {
+   "id": "u11-q022",
+   "tipo": "multipla",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-deliberante"
+   ],
+   "domanda": "Chi può chiedere che un progetto in sede deliberante sia rimesso all'Assemblea?",
+   "opzioni": [
+    "Solo il Presidente della Camera",
+    "Il Governo, un decimo dei componenti della Camera o un quinto della commissione",
+    "Un terzo dei componenti della Camera",
+    "Cinquantamila elettori"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 72, terzo comma."
+  },
+  {
+   "id": "u11-q023",
+   "tipo": "multipla",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-deliberante"
+   ],
+   "domanda": "Quando nacque il procedimento di approvazione in commissione?",
+   "opzioni": [
+    "Con lo Statuto albertino",
+    "Con la legge del 1939 sulla Camera dei fasci e delle corporazioni",
+    "Con la Costituzione del 1948",
+    "Con i regolamenti del 1971"
+   ],
+   "corretta": 1,
+   "spiegazione": "Allora serviva soprattutto a depotenziare le assemblee."
+  },
+  {
+   "id": "u11-q024",
+   "tipo": "multipla",
+   "lezione": "u11-l2",
+   "livello": "avanzato",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "riserva-di-assemblea"
+   ],
+   "domanda": "Come ha interpretato la Corte costituzionale la «materia costituzionale» dell'art. 72 (sent. n. 168/1963)?",
+   "opzioni": [
+    "Come ogni legge che attua la Costituzione",
+    "Come le sole leggi di revisione e le altre leggi costituzionali dell'art. 138",
+    "Come le leggi sugli organi costituzionali",
+    "Come le leggi elettorali"
+   ],
+   "corretta": 1,
+   "spiegazione": "Ne segue che le altre leggi, anche se vertono su materia costituzionale, possono essere approvate in commissione."
+  },
+  {
+   "id": "u11-q025",
+   "tipo": "multipla",
+   "lezione": "u11-l2",
+   "livello": "base",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-redigente"
+   ],
+   "domanda": "Nel procedimento misto la commissione lavora in sede:",
+   "opzioni": [
+    "referente",
+    "deliberante",
+    "redigente",
+    "consultiva"
+   ],
+   "corretta": 2,
+   "spiegazione": "Formula gli articoli; il voto resta all'Assemblea."
+  },
+  {
+   "id": "u11-q026",
+   "tipo": "verofalso",
+   "lezione": "u11-l2",
+   "livello": "base",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-deliberante"
+   ],
+   "affermazione": "Una legge di delegazione legislativa può essere approvata in commissione in sede deliberante.",
+   "vero": false,
+   "spiegazione": "È coperta da riserva di assemblea (art. 72, quarto comma)."
+  },
+  {
+   "id": "u11-q027",
+   "tipo": "verofalso",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "navetta-parlamentare"
+   ],
+   "affermazione": "Se la Camera approva una legge con il procedimento ordinario, anche il Senato deve usare lo stesso procedimento.",
+   "vero": false,
+   "spiegazione": "Il procedimento adottato da una Camera non vincola l'altra."
+  },
+  {
+   "id": "u11-q028",
+   "tipo": "verofalso",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente"
+   ],
+   "affermazione": "Il procedimento abbreviato per i progetti urgenti è un quarto tipo di procedimento, distinto dall'ordinario.",
+   "vero": false,
+   "spiegazione": "È solo una riduzione dei termini del procedimento ordinario."
+  },
+  {
+   "id": "u11-q029",
+   "tipo": "completa",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-deliberante"
+   ],
+   "testo": "Il progetto in sede deliberante è rimesso all'Assemblea se lo chiedono il Governo, {{un decimo|1/10}} dei componenti della Camera o {{un quinto|1/5}} della commissione."
+  },
+  {
+   "id": "u11-q030",
+   "tipo": "completa",
+   "lezione": "u11-l2",
+   "livello": "base",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente",
+    "commissione-deliberante",
+    "commissione-redigente"
+   ],
+   "testo": "Procedimento ordinario: sede {{referente}}; decentrato: sede {{deliberante}}; misto: sede {{redigente}}."
+  },
+  {
+   "id": "u11-q031",
+   "tipo": "aperta",
+   "lezione": "u11-l2",
+   "livello": "avanzato",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente",
+    "commissione-deliberante",
+    "commissione-redigente",
+    "riserva-di-assemblea",
+    "navetta-parlamentare"
+   ],
+   "domanda": "Illustri i procedimenti di approvazione della legge e la riserva di assemblea.",
+   "traccia": "L'approvazione di un progetto di legge può avvenire con tre procedimenti. In quello ordinario (art. 72, primo comma) la commissione competente, in sede referente, esamina il progetto, può modificarlo e lo trasmette all'Assemblea con le relazioni; l'Assemblea lo discute nelle linee generali, lo vota articolo per articolo con gli emendamenti e infine nel suo complesso. Nel procedimento decentrato la commissione, in sede deliberante, approva essa stessa la legge; il Governo, un decimo della Camera o un quinto della commissione possono però chiedere la rimessione all'Assemblea. Nato nel 1939, ha prodotto soprattutto leggine. Nel procedimento misto la commissione, in sede redigente, formula gli articoli e l'Assemblea li approva e vota il testo finale. L'art. 72, quarto comma, impone sempre il procedimento ordinario per le leggi in materia costituzionale ed elettorale, di delegazione, di ratifica dei trattati e di bilancio: è la riserva di assemblea, giustificata dal rilievo di queste materie per l'indirizzo politico. Le due Camere devono approvare lo stesso testo: di qui la navetta.",
+   "punti": [
+    {
+     "testo": "Ordinario: sede referente e voto dell'Assemblea",
+     "chiavi": [
+      "referente",
+      "articolo"
+     ]
+    },
+    {
+     "testo": "Decentrato: sede deliberante",
+     "chiavi": [
+      "deliberante",
+      "approva"
+     ]
+    },
+    {
+     "testo": "Rimessione all'Assemblea",
+     "chiavi": [
+      "rimessione",
+      "decimo",
+      "quinto"
+     ]
+    },
+    {
+     "testo": "Misto: sede redigente",
+     "chiavi": [
+      "redigente"
+     ]
+    },
+    {
+     "testo": "Riserva di assemblea e sue materie",
+     "chiavi": [
+      "riserva",
+      "costituzional",
+      "bilanc",
+      "delega"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u11-q032",
+   "tipo": "ordina",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente",
+    "legge-ordinaria"
+   ],
+   "consegna": "Ordina le tappe del procedimento legislativo ordinario.",
+   "elementi": [
+    "Presentazione del progetto di legge a una Camera",
+    "Esame in commissione in sede referente",
+    "Discussione generale in Assemblea",
+    "Discussione e voto articolo per articolo",
+    "Votazione finale sul progetto nel suo complesso",
+    "Approvazione dello stesso testo da parte dell'altra Camera",
+    "Promulgazione e pubblicazione"
+   ],
+   "spiegazione": "Iniziativa, fase costitutiva, fase integrativa dell'efficacia.",
+   "serie": "procedimenti"
+  },
+  {
+   "id": "u11-q033",
+   "tipo": "flashcard",
+   "lezione": "u11-l3",
+   "livello": "base",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "promulgazione"
+   ],
+   "domanda": "Che cosa fa il Presidente della Repubblica con la promulgazione?",
+   "risposta": "Con un decreto attesta che la legge è stata approvata dalle due Camere, dichiara la volontà di promulgarla, ne ordina la pubblicazione e vi appone la clausola esecutiva. Deve farlo entro un mese dall'approvazione (art. 73)."
+  },
+  {
+   "id": "u11-q034",
+   "tipo": "flashcard",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "promulgazione"
+   ],
+   "domanda": "In che cosa la promulgazione differisce dalla sanzione regia dello Statuto albertino?",
+   "risposta": "La sanzione regia era una vera approvazione: la legge non era perfetta senza l'assenso del re, terzo organo legislativo. La promulgazione non attiene all'approvazione ma all'integrazione dell'efficacia di una legge già perfetta."
+  },
+  {
+   "id": "u11-q035",
+   "tipo": "flashcard",
+   "lezione": "u11-l3",
+   "livello": "base",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "rinvio-presidenziale"
+   ],
+   "domanda": "Che cos'è il rinvio presidenziale e che effetti ha?",
+   "risposta": "È la richiesta, con messaggio motivato, di una nuova deliberazione delle Camere prima della promulgazione (art. 74). È un veto sospensivo: se le Camere riapprovano la legge, il Presidente deve promulgarla."
+  },
+  {
+   "id": "u11-q036",
+   "tipo": "flashcard",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "rinvio-presidenziale"
+   ],
+   "domanda": "Per quali motivi il Presidente può rinviare una legge?",
+   "risposta": "Per motivi di legittimità formale (procedimento non conforme), di legittimità sostanziale (contrasto con norme costituzionali) o di merito costituzionale; non per una valutazione strettamente politica, perché il Presidente è organo di garanzia e non di indirizzo politico."
+  },
+  {
+   "id": "u11-q037",
+   "tipo": "flashcard",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "pubblicazione-della-legge"
+   ],
+   "domanda": "In che cosa consiste la pubblicazione della legge?",
+   "risposta": "È curata dal Ministro della giustizia, che appone visto e sigillo. Consiste nell'inserzione nella Raccolta ufficiale degli atti normativi, a garanzia della certezza del diritto, e nella pubblicazione nella Gazzetta Ufficiale, che rende conoscibile la legge; avviene entro 30 giorni dalla promulgazione."
+  },
+  {
+   "id": "u11-q038",
+   "tipo": "flashcard",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "vacatio-legis"
+   ],
+   "domanda": "Che cosa ha stabilito la sentenza n. 364/1988?",
+   "risposta": "Ha dichiarato illegittimo l'art. 5 del codice penale nella parte in cui non esclude dall'inescusabilità dell'ignoranza della legge penale l'ignoranza inevitabile, attenuando il principio ignorantia legis non excusat."
+  },
+  {
+   "id": "u11-q039",
+   "tipo": "multipla",
+   "lezione": "u11-l3",
+   "livello": "base",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "vacatio-legis"
+   ],
+   "domanda": "Quando entra in vigore, di regola, una legge?",
+   "opzioni": [
+    "Il giorno della promulgazione",
+    "Il giorno della pubblicazione",
+    "Il quindicesimo giorno successivo alla pubblicazione",
+    "Trenta giorni dopo la promulgazione"
+   ],
+   "corretta": 2,
+   "spiegazione": "Art. 73, salvo che la legge stessa stabilisca un termine diverso."
+  },
+  {
+   "id": "u11-q040",
+   "tipo": "multipla",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "rinvio-presidenziale"
+   ],
+   "domanda": "Quale vizio ha motivato la maggior parte dei rinvii presidenziali?",
+   "opzioni": [
+    "La mancanza di copertura finanziaria",
+    "La violazione della riserva di assemblea",
+    "Il mancato parere del CNEL",
+    "L'eccesso di delega"
+   ],
+   "corretta": 0,
+   "spiegazione": "Leggi che comportavano nuove o maggiori spese senza indicare i mezzi per farvi fronte (art. 81)."
+  },
+  {
+   "id": "u11-q041",
+   "tipo": "multipla",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "promulgazione",
+    "pubblicazione-della-legge"
+   ],
+   "domanda": "Da che cosa dipendono la data e il numero di una legge?",
+   "opzioni": [
+    "Entrambi dalla pubblicazione in Gazzetta",
+    "La data dal decreto di promulgazione, il numero dalla Raccolta ufficiale",
+    "La data dall'approvazione, il numero dalla Camera",
+    "Entrambi dal Ministro della giustizia"
+   ],
+   "corretta": 1,
+   "spiegazione": "La data è quella della promulgazione; il numero quello d'inserzione nella Raccolta."
+  },
+  {
+   "id": "u11-q042",
+   "tipo": "verofalso",
+   "lezione": "u11-l3",
+   "livello": "base",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "rinvio-presidenziale"
+   ],
+   "affermazione": "Se le Camere riapprovano la legge rinviata, il Presidente può rinviarla una seconda volta.",
+   "vero": false,
+   "spiegazione": "Deve promulgarla (art. 74); resta solo l'ipotesi di scuola dell'attentato alla Costituzione."
+  },
+  {
+   "id": "u11-q043",
+   "tipo": "verofalso",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "pubblicazione-della-legge"
+   ],
+   "affermazione": "La pubblicazione della legge avviene sotto la responsabilità del Ministro della giustizia.",
+   "vero": true,
+   "spiegazione": "È il Guardasigilli ad apporre il visto e il sigillo dello Stato."
+  },
+  {
+   "id": "u11-q044",
+   "tipo": "verofalso",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "promulgazione"
+   ],
+   "affermazione": "La promulgazione rende la legge obbligatoria per tutti i cittadini.",
+   "vero": false,
+   "spiegazione": "Dà esecutorietà all'atto; l'obbligatorietà erga omnes consegue alla pubblicazione e al decorso della vacatio."
+  },
+  {
+   "id": "u11-q045",
+   "tipo": "completa",
+   "lezione": "u11-l3",
+   "livello": "base",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "promulgazione"
+   ],
+   "testo": "Le leggi sono promulgate dal Presidente della Repubblica entro {{un mese|1 mese|30 giorni}} dall'approvazione (art. {{73}})."
+  },
+  {
+   "id": "u11-q046",
+   "tipo": "completa",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "rinvio-presidenziale"
+   ],
+   "testo": "Il Presidente può, con {{messaggio}} motivato alle Camere, chiedere una nuova deliberazione (art. {{74}})."
+  },
+  {
+   "id": "u11-q047",
+   "tipo": "aperta",
+   "lezione": "u11-l3",
+   "livello": "medio",
+   "pagine": [
+    94,
+    96
+   ],
+   "concetti": [
+    "promulgazione",
+    "rinvio-presidenziale",
+    "pubblicazione-della-legge",
+    "vacatio-legis"
+   ],
+   "domanda": "Descriva la fase integrativa dell'efficacia della legge.",
+   "traccia": "Approvata dalle due Camere, la legge è perfetta ma non ancora efficace: occorrono promulgazione e pubblicazione. Il Presidente della Repubblica promulga entro un mese (art. 73) con un decreto in cui attesta l'approvazione, dichiara la volontà di promulgare e ordina la pubblicazione, apponendo la clausola esecutiva. Non è la sanzione regia: il Presidente non partecipa alla funzione legislativa. Può però, entro lo stesso termine, rinviare la legge alle Camere con messaggio motivato (art. 74), per vizi di legittimità formale o sostanziale o per ragioni di merito costituzionale; è un veto sospensivo, perché se le Camere riapprovano la legge deve promulgarla. La pubblicazione, a cura del Ministro della giustizia, consiste nell'inserzione nella Raccolta ufficiale e nella pubblicazione in Gazzetta Ufficiale, entro trenta giorni. La legge entra in vigore il quindicesimo giorno successivo (vacatio legis), salvo termine diverso; da allora vale il principio ignorantia legis non excusat, attenuato dalla sentenza n. 364/1988 per l'ignoranza inevitabile.",
+   "punti": [
+    {
+     "testo": "Promulgazione entro un mese e suo contenuto",
+     "chiavi": [
+      "mese",
+      "attesta",
+      "promulg"
+     ]
+    },
+    {
+     "testo": "Rinvio con messaggio motivato",
+     "chiavi": [
+      "rinvi",
+      "messaggio"
+     ]
+    },
+    {
+     "testo": "Veto sospensivo",
+     "chiavi": [
+      "sospensiv",
+      "riapprov"
+     ]
+    },
+    {
+     "testo": "Pubblicazione: Raccolta e Gazzetta",
+     "chiavi": [
+      "gazzetta",
+      "raccolta"
+     ]
+    },
+    {
+     "testo": "Vacatio di 15 giorni",
+     "chiavi": [
+      "quindic",
+      "15",
+      "vacatio"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u11-q048",
+   "tipo": "flashcard",
+   "lezione": "u11-l4",
+   "livello": "base",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "revisione-costituzionale"
+   ],
+   "domanda": "Come si approva una legge costituzionale secondo l'art. 138?",
+   "risposta": "Con due successive deliberazioni di ciascuna Camera a intervallo non minore di tre mesi; nella seconda votazione occorre la maggioranza assoluta dei componenti di ciascuna Camera. Segue un eventuale referendum, escluso se si raggiungono i due terzi."
+  },
+  {
+   "id": "u11-q049",
+   "tipo": "flashcard",
+   "lezione": "u11-l4",
+   "livello": "base",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "domanda": "Chi può chiedere il referendum costituzionale ed entro quando?",
+   "risposta": "Entro tre mesi dalla pubblicazione del testo: 500.000 elettori, un quinto dei membri di una Camera o cinque Consigli regionali."
+  },
+  {
+   "id": "u11-q050",
+   "tipo": "flashcard",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "domanda": "Perché nel referendum costituzionale non è previsto un quorum di partecipazione?",
+   "risposta": "Perché, a differenza del referendum abrogativo, è uno strumento di garanzia delle minoranze: richiedere un numero minimo di votanti ne vanificherebbe la funzione. Basta la maggioranza dei voti validi."
+  },
+  {
+   "id": "u11-q051",
+   "tipo": "flashcard",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "legge-costituzionale"
+   ],
+   "domanda": "Che differenza c'è tra leggi di revisione e «altre leggi costituzionali»?",
+   "risposta": "Secondo il criterio sostanziale, le leggi di revisione disciplinano una materia in modo difforme dalla Costituzione, modificandone il testo; le altre leggi costituzionali lo integrano senza modificarlo, nei casi in cui la Costituzione le richiede (artt. 71, 116, 137)."
+  },
+  {
+   "id": "u11-q052",
+   "tipo": "flashcard",
+   "lezione": "u11-l4",
+   "livello": "avanzato",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "revisione-costituzionale"
+   ],
+   "domanda": "Perché il manuale ritiene problematica la maggioranza assoluta richiesta dall'art. 138?",
+   "risposta": "Perché coincide con la maggioranza di governo: con sistemi elettorali non proporzionali ogni governo può rivedere la Costituzione con relativa facilità. La Costituzione, espressione dell'atto costituente, non dovrebbe essere in balia delle forze di governo contingenti."
+  },
+  {
+   "id": "u11-q053",
+   "tipo": "flashcard",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "domanda": "Quali referendum costituzionali si sono svolti e con quale esito?",
+   "risposta": "2001: approvata la riforma del Titolo V; 2006: respinta la riforma della Parte II; 2016: respinta la riforma del bicameralismo; 2020: approvata la riduzione dei parlamentari; 2026: respinta la riforma della magistratura."
+  },
+  {
+   "id": "u11-q054",
+   "tipo": "multipla",
+   "lezione": "u11-l4",
+   "livello": "base",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "revisione-costituzionale"
+   ],
+   "domanda": "Quale intervallo minimo deve passare tra le due deliberazioni di ciascuna Camera?",
+   "opzioni": [
+    "Un mese",
+    "Tre mesi",
+    "Sei mesi",
+    "Un anno"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 138, primo comma."
+  },
+  {
+   "id": "u11-q055",
+   "tipo": "multipla",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "domanda": "Quando il referendum costituzionale non può essere chiesto?",
+   "opzioni": [
+    "Quando la legge riguarda i diritti fondamentali",
+    "Quando la legge è stata approvata nella seconda votazione da ciascuna Camera a maggioranza di due terzi",
+    "Quando lo esclude il Presidente della Repubblica",
+    "Quando mancano meno di sei mesi alle elezioni"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 138, terzo comma."
+  },
+  {
+   "id": "u11-q056",
+   "tipo": "multipla",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "domanda": "Perché fino al 1970 tutte le leggi costituzionali furono approvate con i due terzi?",
+   "opzioni": [
+    "Perché lo imponeva la Costituzione",
+    "Perché mancava la legge di attuazione del referendum",
+    "Perché esisteva un solo partito",
+    "Perché la Corte costituzionale lo richiedeva"
+   ],
+   "corretta": 1,
+   "spiegazione": "La legge n. 352/1970 ha reso possibile la richiesta di referendum."
+  },
+  {
+   "id": "u11-q057",
+   "tipo": "multipla",
+   "lezione": "u11-l4",
+   "livello": "avanzato",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "revisione-costituzionale"
+   ],
+   "domanda": "Che cosa accade nella seconda deliberazione di una legge costituzionale?",
+   "opzioni": [
+    "Si ridiscutono e si votano gli articoli con emendamenti",
+    "Si discute sulle linee generali e si vota il testo nel complesso, senza emendamenti",
+    "Votano le Camere in seduta comune",
+    "Vota solo la Camera che ha deliberato per prima"
+   ],
+   "corretta": 1,
+   "spiegazione": "Così dispongono i regolamenti parlamentari."
+  },
+  {
+   "id": "u11-q058",
+   "tipo": "verofalso",
+   "lezione": "u11-l4",
+   "livello": "base",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "affermazione": "Il referendum costituzionale è una fase obbligatoria del procedimento di revisione.",
+   "vero": false,
+   "spiegazione": "È eventuale: se nessuno lo chiede entro tre mesi, il progetto si intende tacitamente approvato."
+  },
+  {
+   "id": "u11-q059",
+   "tipo": "verofalso",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "affermazione": "Il referendum costituzionale è valido solo se vota la maggioranza degli aventi diritto.",
+   "vero": false,
+   "spiegazione": "Non è previsto alcun quorum di partecipazione."
+  },
+  {
+   "id": "u11-q060",
+   "tipo": "verofalso",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "revisione-costituzionale"
+   ],
+   "affermazione": "Il Parlamento, con la procedura dell'art. 138, può sostituire l'intera Costituzione.",
+   "vero": false,
+   "spiegazione": "Deve conservarne la struttura: il potere costituente spettava all'Assemblea costituente."
+  },
+  {
+   "id": "u11-q061",
+   "tipo": "completa",
+   "lezione": "u11-l4",
+   "livello": "base",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "referendum-costituzionale"
+   ],
+   "testo": "Il referendum costituzionale può essere chiesto da {{500.000|500000|cinquecentomila}} elettori, da {{un quinto|1/5}} dei membri di una Camera o da {{5|cinque}} Consigli regionali."
+  },
+  {
+   "id": "u11-q062",
+   "tipo": "completa",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "revisione-costituzionale"
+   ],
+   "testo": "Le leggi costituzionali sono approvate a maggioranza {{assoluta}} nella seconda votazione; non si fa luogo a referendum se approvate a maggioranza di {{due terzi|2/3}}."
+  },
+  {
+   "id": "u11-q063",
+   "tipo": "aperta",
+   "lezione": "u11-l4",
+   "livello": "avanzato",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "revisione-costituzionale",
+    "legge-costituzionale",
+    "referendum-costituzionale"
+   ],
+   "domanda": "Esponga il procedimento di revisione costituzionale e spieghi perché si dice aggravato.",
+   "traccia": "Poiché la Costituzione è rigida, può essere modificata o integrata solo con la procedura dell'art. 138. Le leggi di revisione e le altre leggi costituzionali sono adottate da ciascuna Camera con due deliberazioni a intervallo non minore di tre mesi e sono approvate a maggioranza assoluta dei componenti nella seconda votazione, nella quale non sono ammessi emendamenti. Il testo è pubblicato nella Gazzetta Ufficiale a soli fini di conoscenza; entro tre mesi 500.000 elettori, un quinto dei membri di una Camera o cinque Consigli regionali possono chiedere il referendum. La legge è promulgata se il referendum non è chiesto o se è approvata dalla maggioranza dei voti validi: non è previsto un quorum di partecipazione, perché il referendum tutela le minoranze. Se in seconda votazione si raggiungono i due terzi, il referendum è escluso. Il procedimento è aggravato perché richiede più tempo, maggioranze più alte e un'eventuale consultazione popolare. Il manuale segnala che la maggioranza assoluta coincide con quella di governo.",
+   "punti": [
+    {
+     "testo": "Doppia deliberazione con intervallo di tre mesi",
+     "chiavi": [
+      "due",
+      "tre mesi"
+     ]
+    },
+    {
+     "testo": "Maggioranza assoluta in seconda votazione",
+     "chiavi": [
+      "assoluta"
+     ]
+    },
+    {
+     "testo": "Referendum: chi lo chiede",
+     "chiavi": [
+      "500.000",
+      "quinto",
+      "consigli"
+     ]
+    },
+    {
+     "testo": "Nessun quorum; maggioranza dei voti validi",
+     "chiavi": [
+      "quorum",
+      "voti validi"
+     ]
+    },
+    {
+     "testo": "Due terzi escludono il referendum",
+     "chiavi": [
+      "due terzi",
+      "2/3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u11-q064",
+   "tipo": "ordina",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    96,
+    99
+   ],
+   "concetti": [
+    "revisione-costituzionale",
+    "referendum-costituzionale"
+   ],
+   "consegna": "Ordina le fasi del procedimento dell'art. 138.",
+   "elementi": [
+    "Prima deliberazione di ciascuna Camera",
+    "Intervallo di almeno tre mesi",
+    "Seconda deliberazione a maggioranza assoluta",
+    "Pubblicazione del testo nella Gazzetta Ufficiale a fini di conoscenza",
+    "Tre mesi per l'eventuale richiesta di referendum",
+    "Promulgazione"
+   ],
+   "spiegazione": "Se in seconda deliberazione si raggiungono i due terzi, si passa direttamente alla promulgazione.",
+   "serie": "procedimenti"
+  },
+  {
+   "id": "u11-q065",
+   "tipo": "flashcard",
+   "lezione": "u11-l5",
+   "livello": "base",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale"
+   ],
+   "domanda": "Qual è il limite espresso alla revisione costituzionale?",
+   "risposta": "L'art. 139: la forma repubblicana non può essere oggetto di revisione costituzionale. È un limite assoluto: la monarchia potrebbe tornare solo per via di fatto, extragiuridica e rivoluzionaria."
+  },
+  {
+   "id": "u11-q066",
+   "tipo": "flashcard",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale",
+    "principi-supremi"
+   ],
+   "domanda": "Quali sono i limiti impliciti alla revisione?",
+   "risposta": "Le norme-principio su cui il sistema si fonda: principio democratico, lavoro, inviolabilità della persona, eguaglianza, unità e indivisibilità della Repubblica, libertà e tutela delle minoranze. In sintesi i diritti inviolabili (art. 2) nel loro contenuto essenziale."
+  },
+  {
+   "id": "u11-q067",
+   "tipo": "flashcard",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "principi-supremi"
+   ],
+   "domanda": "Che cosa ha affermato la sentenza n. 1146/1988?",
+   "risposta": "Che la Costituzione contiene principi supremi che non possono essere sovvertiti o modificati nel loro contenuto essenziale neppure da leggi di revisione: sia quelli espressamente previsti come limiti (forma repubblicana), sia quelli che appartengono all'essenza dei valori supremi su cui la Costituzione si fonda."
+  },
+  {
+   "id": "u11-q068",
+   "tipo": "flashcard",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "rottura-della-costituzione"
+   ],
+   "domanda": "Che cos'è la rottura della Costituzione? Faccia un esempio.",
+   "risposta": "È la deroga di una norma costituzionale a un'altra norma o a un principio dello stesso testo. Esempio: la XII disposizione transitoria e finale, che vieta la riorganizzazione del partito fascista in deroga all'art. 49; oppure l'art. 68, che deroga all'eguaglianza formale."
+  },
+  {
+   "id": "u11-q069",
+   "tipo": "flashcard",
+   "lezione": "u11-l5",
+   "livello": "avanzato",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale"
+   ],
+   "domanda": "Che differenza c'è tra modifiche espresse e modifiche tacite della Costituzione?",
+   "risposta": "Le espresse avvengono con atti formali (in Italia, leggi approvate con procedura aggravata). Le tacite derivano dal modo in cui la Costituzione è attuata da leggi ordinarie, consuetudini e convenzioni, sentenze e prassi: sono legittime entro l'elasticità del testo (formule generali, «concetti valvola»)."
+  },
+  {
+   "id": "u11-q070",
+   "tipo": "multipla",
+   "lezione": "u11-l5",
+   "livello": "base",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale"
+   ],
+   "domanda": "Quale articolo vieta di rivedere la forma repubblicana?",
+   "opzioni": [
+    "Art. 1",
+    "Art. 138",
+    "Art. 139",
+    "XII disposizione finale"
+   ],
+   "corretta": 2,
+   "spiegazione": "«La forma repubblicana non può essere oggetto di revisione costituzionale»."
+  },
+  {
+   "id": "u11-q071",
+   "tipo": "multipla",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale"
+   ],
+   "domanda": "Che cosa significa il criterio di «non regressione»?",
+   "opzioni": [
+    "Che le leggi non possono essere retroattive",
+    "Che le tutele dei diritti inviolabili non possono essere ridotte o abrogate",
+    "Che la revisione non può essere ripetuta",
+    "Che il referendum non può essere riproposto"
+   ],
+   "corretta": 1,
+   "spiegazione": "Altrimenti verrebbe meno la parte dell'ordinamento che su quei diritti si fonda."
+  },
+  {
+   "id": "u11-q072",
+   "tipo": "multipla",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "rottura-della-costituzione"
+   ],
+   "domanda": "A quale articolo deroga la XII disposizione finale vietando la riorganizzazione del partito fascista?",
+   "opzioni": [
+    "Art. 3",
+    "Art. 18",
+    "Art. 49",
+    "Art. 139"
+   ],
+   "corretta": 2,
+   "spiegazione": "L'art. 49 garantisce a tutti i cittadini il diritto di associarsi in partiti."
+  },
+  {
+   "id": "u11-q073",
+   "tipo": "verofalso",
+   "lezione": "u11-l5",
+   "livello": "base",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale"
+   ],
+   "affermazione": "Una Costituzione rigida è una Costituzione immodificabile.",
+   "vero": false,
+   "spiegazione": "La rigidità non esclude la modifica: richiede una procedura aggravata e pone limiti."
+  },
+  {
+   "id": "u11-q074",
+   "tipo": "verofalso",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "principi-supremi"
+   ],
+   "affermazione": "I diritti inviolabili possono essere soppressi con una legge approvata a maggioranza dei due terzi.",
+   "vero": false,
+   "spiegazione": "Nel loro contenuto essenziale sono limiti impliciti alla revisione (sent. n. 1146/1988)."
+  },
+  {
+   "id": "u11-q075",
+   "tipo": "verofalso",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale"
+   ],
+   "affermazione": "Anche per lo Statuto albertino, Costituzione flessibile, si riteneva esistessero principi immodificabili.",
+   "vero": true,
+   "spiegazione": "La forma monarchico-rappresentativa, la posizione della Corona, l'unità dello Stato."
+  },
+  {
+   "id": "u11-q076",
+   "tipo": "completa",
+   "lezione": "u11-l5",
+   "livello": "base",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale"
+   ],
+   "testo": "La forma {{repubblicana}} non può essere oggetto di revisione costituzionale (art. {{139}})."
+  },
+  {
+   "id": "u11-q077",
+   "tipo": "completa",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "principi-supremi"
+   ],
+   "testo": "Con la sentenza n. {{1146}} del 1988 la Corte ha affermato che i principi {{supremi}} non possono essere sovvertiti neppure da leggi di revisione."
+  },
+  {
+   "id": "u11-q078",
+   "tipo": "aperta",
+   "lezione": "u11-l5",
+   "livello": "avanzato",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "limiti-alla-revisione-costituzionale",
+    "principi-supremi",
+    "rottura-della-costituzione",
+    "revisione-costituzionale"
+   ],
+   "domanda": "Quali limiti incontra la revisione della Costituzione?",
+   "traccia": "La rigidità non significa immodificabilità: la Costituzione può subire modifiche espresse, con la procedura aggravata, e tacite, attraverso l'attuazione che ne danno leggi, consuetudini, sentenze e prassi entro l'elasticità del testo. La revisione incontra però limiti assoluti. Il limite espresso è l'art. 139: la forma repubblicana non può essere oggetto di revisione; una restaurazione monarchica sarebbe possibile solo per via extragiuridica. I limiti impliciti sono le norme-principio in cui il sistema si identifica: principio democratico, lavoro, inviolabilità della persona, eguaglianza formale e sostanziale, unità della Repubblica, libertà e tutela delle minoranze. Li riassume l'art. 2, che riconosce diritti preesistenti al potere pubblico: nel loro contenuto essenziale i diritti inviolabili non possono essere ridotti (criterio di non regressione). La Corte costituzionale lo ha affermato nella sentenza n. 1146/1988 sui principi supremi. Superare questi limiti significherebbe avere non una Costituzione modificata, ma una nuova Costituzione.",
+   "punti": [
+    {
+     "testo": "Rigidità non è immodificabilità",
+     "chiavi": [
+      "rigid",
+      "immodific"
+     ]
+    },
+    {
+     "testo": "Limite espresso: art. 139",
+     "chiavi": [
+      "139",
+      "repubblican"
+     ]
+    },
+    {
+     "testo": "Limiti impliciti: norme-principio",
+     "chiavi": [
+      "princip",
+      "implicit"
+     ]
+    },
+    {
+     "testo": "Diritti inviolabili e non regressione",
+     "chiavi": [
+      "inviolabil",
+      "regressione"
+     ]
+    },
+    {
+     "testo": "Sentenza 1146/1988",
+     "chiavi": [
+      "1146"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u11-q079",
+   "tipo": "abbina",
+   "lezione": "u11-l5",
+   "livello": "medio",
+   "pagine": [
+    100,
+    102
+   ],
+   "concetti": [
+    "legge-ordinaria",
+    "promulgazione",
+    "rinvio-presidenziale",
+    "revisione-costituzionale",
+    "limiti-alla-revisione-costituzionale",
+    "riserva-di-assemblea"
+   ],
+   "consegna": "Abbina l'articolo al contenuto.",
+   "coppie": [
+    [
+     "Art. 70",
+     "Funzione legislativa esercitata collettivamente"
+    ],
+    [
+     "Art. 72",
+     "Procedimenti di approvazione e riserva di assemblea"
+    ],
+    [
+     "Art. 73",
+     "Promulgazione e vacatio legis"
+    ],
+    [
+     "Art. 74",
+     "Rinvio presidenziale"
+    ],
+    [
+     "Art. 138",
+     "Revisione costituzionale"
+    ],
+    [
+     "Art. 139",
+     "Forma repubblicana"
+    ]
+   ]
+  },
+  {
+   "id": "u11-q501",
+   "tipo": "flashcard",
+   "lezione": "u11-l2",
+   "livello": "base",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente"
+   ],
+   "domanda": "Qual è il compito della commissione in sede referente?",
+   "risposta": "Istruire ed esaminare il progetto e riferire all’assemblea, che conserva discussione e deliberazione."
+  },
+  {
+   "id": "u11-q502",
+   "tipo": "multipla",
+   "lezione": "u11-l4",
+   "livello": "medio",
+   "pagine": [
+    97,
+    98
+   ],
+   "concetti": [
+    "legge-costituzionale"
+   ],
+   "domanda": "Nel referendum dell’art. 138, la richiesta territoriale proviene da chi?",
+   "opzioni": [
+    "Cinque singoli consiglieri regionali",
+    "Cinque Consigli regionali",
+    "Qualsiasi assessore",
+    "Due sindaci"
+   ],
+   "corretta": 1,
+   "spiegazione": "Gli appunti contengono un errore fra consiglieri e Consigli."
+  },
+  {
+   "id": "u11-q503",
+   "tipo": "verofalso",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    89,
+    90
+   ],
+   "concetti": [
+    "iniziativa-legislativa"
+   ],
+   "affermazione": "La presentazione popolare del progetto lo rende automaticamente legge.",
+   "vero": false,
+   "spiegazione": "Avvia il procedimento; serve l’approvazione delle Camere e il completamento delle fasi successive."
+  },
+  {
+   "id": "u11-q504",
+   "tipo": "verofalso",
+   "lezione": "u11-l2",
+   "livello": "medio",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "commissione-referente"
+   ],
+   "affermazione": "La sede redigente ha ogni dettaglio regolato in modo identico nelle due Camere.",
+   "vero": false,
+   "spiegazione": "I rispettivi regolamenti ne disciplinano diversamente i passaggi e le riserve di voto."
+  },
+  {
+   "id": "u11-q505",
+   "tipo": "aperta",
+   "lezione": "u11-l2",
+   "livello": "avanzato",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "legge-ordinaria",
+    "legge-costituzionale",
+    "iniziativa-legislativa",
+    "commissione-referente",
+    "commissione-deliberante",
+    "riserva-di-assemblea",
+    "navetta-parlamentare"
+   ],
+   "domanda": "Ricostruisci il procedimento ordinario della legge distinguendo le funzioni di ciascun passaggio.",
+   "traccia": "L’iniziativa presenta un progetto articolato alla Camera competente e non ne garantisce l’approvazione. La commissione in sede referente lo esamina e riferisce all’assemblea. Questa discute, vota articoli ed emendamenti e approva il testo complessivo. Il progetto passa all’altra Camera, che deve approvare lo stesso contenuto; le modifiche producono la navetta. Con il consenso identico dei due rami si completa la fase parlamentare. Il Presidente della Repubblica promulga entro il termine costituzionale, salvo il rinvio motivato per un nuovo esame. Dopo la nuova approvazione opera il dovere dell’art. 74. Segue pubblicazione e decorso della vacatio, ordinariamente fino al quindicesimo giorno successivo, salvo diversa previsione. La riserva d’assemblea impedisce il pieno decentramento in commissione per certe materie. La sequenza garantisce rappresentanza, correttezza del testo, controllo e conoscibilità.",
+   "punti": [
+    {
+     "testo": "Avvio e istruttoria",
+     "chiavi": [
+      "iniziativa",
+      "commissione"
+     ]
+    },
+    {
+     "testo": "Doppia approvazione identica",
+     "chiavi": [
+      "testo",
+      "navetta"
+     ]
+    },
+    {
+     "testo": "Controllo e promulgazione",
+     "chiavi": [
+      "presidente",
+      "rinvio"
+     ]
+    },
+    {
+     "testo": "Efficacia",
+     "chiavi": [
+      "pubblicazione",
+      "vacatio"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u11-q506",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-delega"
+   ],
+   "domanda": "Quali contenuti necessari deve avere una legge delega?",
+   "risposta": "Oggetti definiti, tempo limitato, principi e criteri direttivi, secondo l’art. 76."
+  },
+  {
+   "id": "u11-q507",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-delega"
+   ],
+   "domanda": "Il Parlamento perde il potere di legiferare nella materia delegata?",
+   "risposta": "No. Abilita un esercizio governativo circoscritto e conserva la propria potestà legislativa."
+  },
+  {
+   "id": "u11-q509",
+   "tipo": "flashcard",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "testo-unico"
+   ],
+   "domanda": "Perché conta distinguere testo unico normativo e compilativo?",
+   "risposta": "Il primo può coordinare e innovare con adeguato fondamento normativo; il secondo agevola la conoscenza senza creare un autonomo potere di abrogare o far rivivere norme."
+  },
+  {
+   "id": "u11-q510",
+   "tipo": "multipla",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "eccesso-di-delega",
+    "decreto-legislativo"
+   ],
+   "domanda": "Un decreto legislativo proroga da solo il termine della propria delega per ampliare l’intervento. È sufficiente la sua forza di legge?",
+   "opzioni": [
+    "Sì, perché è successivo",
+    "No, deve rispettare la fonte che abilita l’esercizio",
+    "Sì, se è molto lungo",
+    "Non occorre mai un termine"
+   ],
+   "corretta": 1,
+   "spiegazione": "La relazione con la delega non è una semplice successione cronologica fra leggi."
+  },
+  {
+   "id": "u11-q511",
+   "tipo": "multipla",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-atipica"
+   ],
+   "domanda": "Tutte le leggi dette atipiche sono automaticamente sottratte al referendum?",
+   "opzioni": [
+    "Sì, per definizione",
+    "No, occorre individuare lo specifico limite costituzionale e giurisprudenziale",
+    "Solo quelle con titolo breve",
+    "Il referendum riguarda solo regolamenti"
+   ],
+   "corretta": 1,
+   "spiegazione": "La categoria descrittiva non sostituisce l’art. 75 e i limiti di ammissibilità."
+  },
+  {
+   "id": "u11-q512",
+   "tipo": "verofalso",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "decreto-legislativo"
+   ],
+   "affermazione": "Il parere delle commissioni su uno schema di decreto legislativo coincide con la conversione dell’art. 77.",
+   "vero": false,
+   "spiegazione": "È un passaggio della delega quando previsto; la conversione riguarda il decreto-legge."
+  },
+  {
+   "id": "u11-q513",
+   "tipo": "verofalso",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-rinforzata"
+   ],
+   "affermazione": "Il rinforzo procedurale rende sempre la legge di rango costituzionale.",
+   "vero": false,
+   "spiegazione": "Una legge può restare ordinaria pur richiedendo maggioranze o passaggi particolari."
+  },
+  {
+   "id": "u11-q514",
+   "tipo": "completa",
+   "lezione": "u11-l1",
+   "livello": "base",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-delega"
+   ],
+   "testo": "L’art. {{76}} richiede oggetti {{definiti}}, tempo {{limitato}} e principi e criteri {{direttivi}}.",
+   "spiegazione": "Sono limiti al conferimento e all’esercizio governativo."
+  },
+  {
+   "id": "u11-q515",
+   "tipo": "aperta",
+   "lezione": "u11-l1",
+   "livello": "avanzato",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-rinforzata",
+    "legge-atipica",
+    "legge-delega",
+    "decreto-legislativo",
+    "eccesso-di-delega",
+    "testo-unico"
+   ],
+   "domanda": "Come si controlla che un decreto legislativo rispetti la Costituzione?",
+   "traccia": "Il decreto legislativo ha forza primaria ma nasce da una delega parlamentare. Occorre verificare la validità del conferimento e i requisiti dell’art. 76: oggetti definiti, tempo limitato, principi e criteri direttivi. Il procedimento deve rispettare anche eventuali pareri e consultazioni imposti dalla delega, la deliberazione del Consiglio e l’emanazione entro il termine. Il contenuto va poi confrontato con il settore e gli orientamenti autorizzati. Se il Governo esce da questi limiti si pone un eccesso di delega: la legge delega opera come parametro interposto del giudizio costituzionale, in collegamento con l’art. 76. Non basta che il decreto sia più recente per autorizzarlo a modificare il proprio fondamento. Restano inoltre tutti gli altri limiti costituzionali della legislazione primaria. Il Parlamento conserva il potere di legiferare e l’eventuale facoltà correttiva del Governo richiede un’apposita autorizzazione.",
+   "punti": [
+    {
+     "testo": "Fondamento parlamentare",
+     "chiavi": [
+      "delega",
+      "76"
+     ]
+    },
+    {
+     "testo": "Contenuti necessari",
+     "chiavi": [
+      "oggetti",
+      "tempo",
+      "criteri"
+     ]
+    },
+    {
+     "testo": "Procedimento e termine",
+     "chiavi": [
+      "pareri",
+      "emanazione"
+     ]
+    },
+    {
+     "testo": "Parametro e controllo",
+     "chiavi": [
+      "interposto",
+      "eccesso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u11-q516",
+   "tipo": "ordina",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-rinforzata",
+    "legge-atipica",
+    "legge-delega",
+    "decreto-legislativo"
+   ],
+   "consegna": "Ordina le fasi essenziali della delegazione legislativa.",
+   "elementi": [
+    "Approvazione parlamentare della legge delega",
+    "Preparazione dello schema e adempimenti consultivi richiesti",
+    "Deliberazione finale del Consiglio dei ministri",
+    "Emanazione presidenziale entro il termine della delega",
+    "Pubblicazione ed entrata in vigore secondo la disciplina"
+   ],
+   "spiegazione": "Il fondamento parlamentare precede l’esercizio governativo e il decreto non richiede conversione."
+  },
+  {
+   "id": "u11-q517",
+   "lezione": "u11-l2",
+   "livello": "avanzato",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "riserva-di-assemblea",
+    "commissione-deliberante"
+   ],
+   "tipo": "multipla",
+   "domanda": "Un disegno di legge in materia elettorale può essere approvato in via definitiva da una commissione in sede deliberante?",
+   "opzioni": [
+    "Sì, se lo decide il presidente della Camera",
+    "Sì, con il consenso del Governo",
+    "No: è coperto dalla riserva di assemblea",
+    "No, salvo che sia dichiarato urgente"
+   ],
+   "corretta": 2,
+   "spiegazione": "Art. 72, quarto comma: procedura normale obbligatoria per le leggi in materia costituzionale ed elettorale, di delegazione legislativa, di autorizzazione a ratificare trattati e di bilancio."
+  },
+  {
+   "id": "u11-q518",
+   "lezione": "u11-l2",
+   "livello": "base",
+   "pagine": [
+    91,
+    94
+   ],
+   "concetti": [
+    "navetta-parlamentare"
+   ],
+   "tipo": "verofalso",
+   "affermazione": "Se Camera e Senato approvano due testi diversi della stessa legge, prevale il testo della Camera.",
+   "vero": false,
+   "spiegazione": "Il testo fa la spola tra le due Camere (navetta) finché entrambe non lo approvano identico: è una conseguenza del bicameralismo paritario."
+  },
+  {
+   "id": "u11-q519",
+   "lezione": "u11-l1",
+   "livello": "avanzato",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "eccesso-di-delega",
+    "decreto-legislativo"
+   ],
+   "tipo": "multipla",
+   "domanda": "Il Governo adotta un decreto legislativo dopo la scadenza del termine fissato dalla legge delega. Qual è la conseguenza?",
+   "opzioni": [
+    "Il decreto è valido, perché ha forza di legge",
+    "Il decreto è costituzionalmente illegittimo per violazione dell'art. 76",
+    "Il decreto vale come regolamento",
+    "Il decreto decade dopo sessanta giorni"
+   ],
+   "corretta": 1,
+   "spiegazione": "La legge delega è norma interposta: violarne oggetto, principi o termine significa violare l'art. 76, e la Corte costituzionale può dichiarare illegittimo il decreto."
+  },
+  {
+   "id": "u11-q520",
+   "lezione": "u11-l1",
+   "livello": "medio",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-delega"
+   ],
+   "tipo": "verofalso",
+   "affermazione": "La legge delega può lasciare al Governo la scelta degli oggetti da disciplinare.",
+   "vero": false,
+   "spiegazione": "L'art. 76 chiede oggetti definiti, principi e criteri direttivi e un tempo limitato: una delega in bianco sarebbe incostituzionale."
+  },
+  {
+   "id": "u11-q521",
+   "lezione": "u11-l1",
+   "livello": "avanzato",
+   "pagine": [
+    89,
+    89
+   ],
+   "concetti": [
+    "legge-rinforzata"
+   ],
+   "tipo": "flashcard",
+   "domanda": "Che cos'è una legge rinforzata? Faccia un esempio.",
+   "risposta": "È una legge per la quale la Costituzione prevede un procedimento più gravoso di quello ordinario. Esempi: la legge di amnistia e indulto, approvata a maggioranza dei due terzi (art. 79); le leggi che regolano i rapporti con le confessioni religiose sulla base di intese (art. 8)."
+  },
+  {
+   "id": "u11-q522",
+   "lezione": "u11-l2",
+   "pagine": [
+    91,
+    94
+   ],
+   "serie": "procedimenti",
+   "tipo": "ordina",
+   "livello": "medio",
+   "consegna": "Come nasce una legge (artt. 70–74): metti i passi nell'ordine giusto.",
+   "elementi": [
+    "Iniziativa",
+    "Esame in commissione",
+    "Approvazione della prima Camera",
+    "Approvazione dell'altra Camera",
+    "Promulgazione",
+    "Pubblicazione",
+    "Entrata in vigore"
+   ],
+   "spiegazione": "1. **Iniziativa** (Governo, ogni parlamentare, 50.000 elettori, Consigli regionali, CNEL): Il progetto, redatto in articoli, è presentato a una delle due Camere (art. 71).\n2. **Esame in commissione** (Commissione permanente competente): In sede referente la commissione prepara il testo per l'aula. In sede redigente l'aula vota solo gli articoli e il testo finale senza emendarli. In sede deliberante la commissione approva essa stessa la legge.\n   - Leggi costituzionali ed elettorali, di delega, di ratifica dei trattati, di bilancio → è obbligatoria la procedura normale in aula (riserva di assemblea)\n   - Lo chiedono il Governo, un decimo della Camera o un quinto della commissione → il progetto torna in aula\n3. **Approvazione della prima Camera** (Assemblea): Discussione generale, voto articolo per articolo, votazione finale (art. 72).\n4. **Approvazione dell'altra Camera** (Assemblea): L'altra Camera ripete il procedimento.\n   - Approva lo stesso testo → la legge è perfetta\n   - Modifica il testo → si torna alla prima Camera, solo sulle parti modificate (navetta)\n5. **Promulgazione** (Presidente della Repubblica): Entro un mese dall'approvazione (art. 73).\n   - Il Presidente ha dubbi → può rinviare la legge alle Camere con messaggio motivato, una sola volta; se è riapprovata deve promulgarla (art. 74)\n6. **Pubblicazione** (Ministro della giustizia): La legge è pubblicata nella Gazzetta Ufficiale subito dopo la promulgazione.\n7. **Entrata in vigore**: Il quindicesimo giorno dopo la pubblicazione, salvo che la legge stabilisca un termine diverso.",
+   "concetti": [
+    "iniziativa-legislativa",
+    "commissione-referente",
+    "legge-ordinaria",
+    "navetta-parlamentare",
+    "promulgazione"
+   ]
+  },
+  {
+   "id": "u11-q523",
+   "lezione": "u11-l2",
+   "pagine": [
+    91,
+    94
+   ],
+   "serie": "procedimenti",
+   "tipo": "aperta",
+   "livello": "avanzato",
+   "domanda": "Descriva il procedimento di formazione della legge ordinaria.",
+   "traccia": "La funzione legislativa è esercitata collettivamente dalle due Camere: serve lo stesso testo, approvato da entrambe.\n\n**Iniziativa** (Governo, ogni parlamentare, 50.000 elettori, Consigli regionali, CNEL). Il progetto, redatto in articoli, è presentato a una delle due Camere (art. 71).\n\n**Esame in commissione** (Commissione permanente competente). In sede referente la commissione prepara il testo per l'aula. In sede redigente l'aula vota solo gli articoli e il testo finale senza emendarli. In sede deliberante la commissione approva essa stessa la legge. Leggi costituzionali ed elettorali, di delega, di ratifica dei trattati, di bilancio: è obbligatoria la procedura normale in aula (riserva di assemblea). Lo chiedono il Governo, un decimo della Camera o un quinto della commissione: il progetto torna in aula.\n\n**Approvazione della prima Camera** (Assemblea). Discussione generale, voto articolo per articolo, votazione finale (art. 72).\n\n**Approvazione dell'altra Camera** (Assemblea). L'altra Camera ripete il procedimento. Approva lo stesso testo: la legge è perfetta. Modifica il testo: si torna alla prima Camera, solo sulle parti modificate (navetta).\n\n**Promulgazione** (Presidente della Repubblica). Entro un mese dall'approvazione (art. 73). Il Presidente ha dubbi: può rinviare la legge alle Camere con messaggio motivato, una sola volta; se è riapprovata deve promulgarla (art. 74).\n\n**Pubblicazione** (Ministro della giustizia). La legge è pubblicata nella Gazzetta Ufficiale subito dopo la promulgazione.\n\n**Entrata in vigore**. Il quindicesimo giorno dopo la pubblicazione, salvo che la legge stabilisca un termine diverso.",
+   "punti": [
+    {
+     "testo": "Iniziativa: Il progetto, redatto in articoli, è presentato a una delle due Camere (art",
+     "chiavi": [
+      "iniziat",
+      "progett",
+      "redatto"
+     ]
+    },
+    {
+     "testo": "Esame in commissione: In sede referente la commissione prepara il testo per l'aula",
+     "chiavi": [
+      "commiss",
+      "referen",
+      "prepara"
+     ]
+    },
+    {
+     "testo": "Approvazione della prima Camera: Discussione generale, voto articolo per articolo, votazione finale (art",
+     "chiavi": [
+      "approva",
+      "camera",
+      "discuss"
+     ]
+    },
+    {
+     "testo": "Approvazione dell'altra Camera: L'altra Camera ripete il procedimento",
+     "chiavi": [
+      "approva",
+      "camera",
+      "ripete"
+     ]
+    },
+    {
+     "testo": "Promulgazione: Entro un mese dall'approvazione (art",
+     "chiavi": [
+      "promulg",
+      "approva",
+      "73"
+     ]
+    },
+    {
+     "testo": "Pubblicazione: La legge è pubblicata nella Gazzetta Ufficiale subito dopo la promulgazione",
+     "chiavi": [
+      "pubblic",
+      "gazzett",
+      "ufficia"
+     ]
+    }
+   ],
+   "concetti": [
+    "iniziativa-legislativa",
+    "commissione-referente",
+    "legge-ordinaria",
+    "navetta-parlamentare",
+    "promulgazione"
+   ],
+   "esame": [
+    "torre"
+   ]
+  },
+  {
+   "id": "u11-q524",
+   "lezione": "u11-l2",
+   "pagine": [
+    91,
+    94
+   ],
+   "serie": "procedimenti",
+   "tipo": "flashcard",
+   "livello": "medio",
+   "domanda": "Come nasce una legge, passo «Esame in commissione»: quali esiti sono possibili?",
+   "risposta": "Leggi costituzionali ed elettorali, di delega, di ratifica dei trattati, di bilancio: è obbligatoria la procedura normale in aula (riserva di assemblea). Lo chiedono il Governo, un decimo della Camera o un quinto della commissione: il progetto torna in aula.",
+   "concetti": [
+    "commissione-referente"
+   ]
+  },
+  {
+   "id": "u11-q525",
+   "lezione": "u11-l2",
+   "pagine": [
+    91,
+    94
+   ],
+   "serie": "procedimenti",
+   "tipo": "flashcard",
+   "livello": "medio",
+   "domanda": "Come nasce una legge, passo «Approvazione dell'altra Camera»: quali esiti sono possibili?",
+   "risposta": "Approva lo stesso testo: la legge è perfetta. Modifica il testo: si torna alla prima Camera, solo sulle parti modificate (navetta).",
+   "concetti": [
+    "navetta-parlamentare"
+   ]
+  },
+  {
+   "id": "u11-q526",
+   "lezione": "u11-l3",
+   "pagine": [
+    94,
+    95
+   ],
+   "serie": "procedimenti",
+   "tipo": "flashcard",
+   "livello": "medio",
+   "domanda": "Come nasce una legge, passo «Promulgazione»: quali esiti sono possibili?",
+   "risposta": "Il Presidente ha dubbi: può rinviare la legge alle Camere con messaggio motivato, una sola volta; se è riapprovata deve promulgarla (art. 74).",
+   "concetti": [
+    "promulgazione"
+   ]
+  },
+  {
+   "id": "u11-q527",
+   "lezione": "u11-l1",
+   "pagine": [
+    89,
+    89
+   ],
+   "serie": "procedimenti",
+   "tipo": "ordina",
+   "livello": "medio",
+   "consegna": "La delega legislativa (art. 76): metti i passi nell'ordine giusto.",
+   "elementi": [
+    "Legge delega",
+    "Schema di decreto",
+    "Emanazione",
+    "Controllo"
+   ],
+   "spiegazione": "1. **Legge delega** (Parlamento): Approvata in aula con procedura normale. Deve indicare oggetti definiti, principi e criteri direttivi e un tempo limitato.\n2. **Schema di decreto** (Governo): Il Consiglio dei ministri delibera lo schema. Spesso la delega chiede il parere delle commissioni parlamentari.\n3. **Emanazione** (Presidente della Repubblica): Il decreto legislativo è emanato entro il termine della delega e pubblicato.\n4. **Controllo** (Corte costituzionale): Se il decreto esce dall'oggetto, dai principi o dal termine, viola l'art. 76 attraverso la legge delega.",
+   "concetti": [
+    "legge-delega",
+    "consiglio-dei-ministri",
+    "decreto-legislativo",
+    "eccesso-di-delega"
+   ]
+  },
+  {
+   "id": "u11-q528",
+   "lezione": "u11-l1",
+   "pagine": [
+    89,
+    89
+   ],
+   "serie": "procedimenti",
+   "tipo": "aperta",
+   "livello": "avanzato",
+   "domanda": "Come si svolge la delegazione legislativa, dalla legge delega al controllo della Corte costituzionale?",
+   "traccia": "Il Parlamento fissa la cornice prima, il Governo scrive le norme dopo.\n\n**Legge delega** (Parlamento). Approvata in aula con procedura normale. Deve indicare oggetti definiti, principi e criteri direttivi e un tempo limitato.\n\n**Schema di decreto** (Governo). Il Consiglio dei ministri delibera lo schema. Spesso la delega chiede il parere delle commissioni parlamentari.\n\n**Emanazione** (Presidente della Repubblica). Il decreto legislativo è emanato entro il termine della delega e pubblicato.\n\n**Controllo** (Corte costituzionale). Se il decreto esce dall'oggetto, dai principi o dal termine, viola l'art. 76 attraverso la legge delega.",
+   "punti": [
+    {
+     "testo": "Legge delega: Approvata in aula con procedura normale",
+     "chiavi": [
+      "delega",
+      "approva",
+      "procedu"
+     ]
+    },
+    {
+     "testo": "Schema di decreto: Il Consiglio dei ministri delibera lo schema",
+     "chiavi": [
+      "schema",
+      "decreto",
+      "consigl"
+     ]
+    },
+    {
+     "testo": "Emanazione: Il decreto legislativo è emanato entro il termine della delega e pubblicato",
+     "chiavi": [
+      "emanazi",
+      "decreto",
+      "legisla"
+     ]
+    },
+    {
+     "testo": "Controllo: Se il decreto esce dall'oggetto, dai principi o dal termine, viola l'art",
+     "chiavi": [
+      "control",
+      "decreto",
+      "oggetto"
+     ]
+    }
+   ],
+   "concetti": [
+    "legge-delega",
+    "consiglio-dei-ministri",
+    "decreto-legislativo",
+    "eccesso-di-delega"
+   ],
+   "esame": [
+    "torre"
+   ]
+  }
+ ]
 }

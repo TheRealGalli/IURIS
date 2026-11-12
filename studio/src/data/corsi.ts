@@ -53,8 +53,8 @@ export const CORSI: CorsoDiStudio[] = [
       { ...STORIA_ITALIANO, cfu: 10 },
     ],
   },
-  // M-Z: appunti e materie propri per filosofia (Barberis + Schauer) e costituzionale (Martines, comune con SSG);
-  // Diritto romano e Diritto privato sono comuni alle tre classi.
+  // M-Z: filosofia propria (Barberis + Schauer); Diritto costituzionale (impianto Martines, una sola materia per le tre
+  // classi), Diritto romano e Diritto privato sono comuni alle tre classi.
   {
     id: 'uniba-lmg-1-mz',
     breve: 'LMG · I anno · M-Z',
@@ -64,8 +64,8 @@ export const CORSI: CorsoDiStudio[] = [
     laurea: 'Giurisprudenza (magistrale a ciclo unico, LMG/01)',
     anno: 1,
     classe: 'cognomi M-Z',
-    materie: ['filosofia-del-diritto-mz', 'diritto-romano', 'diritto-costituzionale-martines', 'diritto-privato'],
-    docenti: { 'filosofia-del-diritto-mz': 'M. Mangini', 'diritto-romano': 'Pia Starace', 'diritto-costituzionale-martines': 'R.G. Rodio', 'diritto-privato': 'Mauro Pennasilico' },
+    materie: ['filosofia-del-diritto-mz', 'diritto-romano', 'diritto-costituzionale', 'diritto-privato'],
+    docenti: { 'filosofia-del-diritto-mz': 'M. Mangini', 'diritto-romano': 'Pia Starace', 'diritto-costituzionale': 'R.G. Rodio', 'diritto-privato': 'Mauro Pennasilico' },
     inArrivo: [
       // Catalogo: Piacente; elenco docenti UniBa: Gonzalez Roldan. Da verificare.
       { ...IST_ROMANO, docente: 'Daniele Vittorio Piacente' },
@@ -81,10 +81,10 @@ export const CORSI: CorsoDiStudio[] = [
     anno: 1,
     // Filosofia del diritto ha un programma proprio (lezioni di Siniscalchi e Incampo); Diritto romano usa gli stessi appunti di LMG,
     // quindi la stessa materia e gli stessi progressi.
-    // Diritto costituzionale: manuale Martines, la stessa materia di LMG M-Z (stessi appunti e progressi).
-    materie: ['filosofia-del-diritto-ssg', 'diritto-romano', 'diritto-costituzionale-martines', 'diritto-privato'],
+    // Diritto costituzionale: una sola materia per le tre classi (impianto Martines, stessi progressi).
+    materie: ['filosofia-del-diritto-ssg', 'diritto-romano', 'diritto-costituzionale', 'diritto-privato'],
     // Romano: a SSG insegna Starace (Bretone ed. 2024, senza i capp. I e XII); gli appunti sono quelli di A-L.
-    docenti: { 'filosofia-del-diritto-ssg': 'Guglielmo Siniscalchi', 'diritto-romano': 'Pia Starace', 'diritto-costituzionale-martines': 'Andrea Bonomi', 'diritto-privato': 'Michele Lobuono' },
+    docenti: { 'filosofia-del-diritto-ssg': 'Guglielmo Siniscalchi', 'diritto-romano': 'Pia Starace', 'diritto-costituzionale': 'Andrea Bonomi', 'diritto-privato': 'Michele Lobuono' },
     inArrivo: [
       { ...STORIA_ITALIANO, cfu: 9 },
       // Catalogo: Lopez; elenco docenti UniBa: Buonamassa. Da verificare.

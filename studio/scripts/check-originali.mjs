@@ -50,8 +50,10 @@ try {
     assert(lib.originaliMateria('diritto-romano').some((d) => d.tipoFonte === 'manuale-ricostruito' && !d.file));
     assert.equal(lib.originaliMateria('filosofia-del-diritto').length, 3);
     assert.equal(lib.originaliMateria('filosofia-del-diritto-ssg').length, 2, 'SSG: sbobinature e riassunto di Incampo');
-    assert.equal(lib.originaliMateria('diritto-costituzionale').length, 1, 'Costituzionale: riassunto del Bin–Pitruzzella');
-    assert.equal(lib.originaliMateria('diritto-costituzionale-martines').length, 1, 'Costituzionale M-Z e SSG: riassunto del Martines');
+    // Costituzionale (unica per le tre classi): solo il testo scritto da IURIS, nessun PDF o riassunto di terzi.
+    assert.equal(lib.originaliMateria('diritto-costituzionale').length, 1, 'Costituzionale: testo IURIS');
+    assert(lib.originaliMateria('diritto-costituzionale').every((d) => d.id === 'costituzionale-iuris-v1' && !d.file && d.testoFonte), 'Costituzionale: solo testo, nessun PDF');
+    assert.equal(lib.originaliMateria('diritto-costituzionale-martines').length, 0, 'la materia Martines è confluita in diritto-costituzionale');
     // Filosofia M-Z: riassunti di Barberis e Schauer pubblicati solo come testo (i PDF portano i dati di chi li ha scaricati).
     assert.equal(lib.originaliMateria('filosofia-del-diritto-mz').length, 2, 'Filosofia M-Z: Barberis e Schauer');
     assert(lib.originaliMateria('filosofia-del-diritto-mz').every((d) => !d.file && d.testoFonte), 'Filosofia M-Z: solo testo, nessun PDF');

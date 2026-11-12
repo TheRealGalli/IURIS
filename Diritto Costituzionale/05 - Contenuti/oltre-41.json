@@ -1,116 +1,924 @@
 {
-  "voci": [
+ "voci": [
+  {
+   "id": "simul-stabunt-simul-cadent",
+   "oltre": "### Perché lo si volle\nNei primi venticinque anni di vita delle Regioni ordinarie le Giunte, elette dai Consigli, cambiavano spesso: crisi frequenti e governi deboli. Già la legge elettorale regionale del 1995 aveva introdotto una lista regionale con premio di maggioranza, il cui capolista diventava di fatto Presidente. La legge costituzionale n. 1 del 1999 ha trasformato quella prassi in regola: elezione diretta e destino comune di Presidente e Consiglio.\n\nIl principio serve a scoraggiare i «ribaltoni»: un Consiglio che volesse cambiare Presidente senza passare dagli elettori deve sciogliersi. Per questo la Corte ha censurato ogni meccanismo che consenta di sostituire il Presidente eletto senza nuove elezioni. Lo stesso schema vale, con regole proprie, per Sindaco e Consiglio comunale.",
+   "daSapere": [
+    "Regola nata dalla l. cost. 1/1999",
+    "Contro i cambi di maggioranza senza voto",
+    "Schema analogo nei Comuni"
+   ],
+   "collegamenti": [
     {
-      "id": "rappresentanza-politica",
-      "oltre": "### Il mandato elettivo non è un incarico civilistico\nIl rappresentante politico partecipa alla formazione della volontà pubblica senza essere giuridicamente vincolato a ogni istruzione degli elettori. L'art. 67 assegna al parlamentare la rappresentanza della Nazione e il libero mandato. La responsabilità politica verso elettori e partito non coincide con un potere giuridico di revocarlo per una singola scelta.\n\nUn cambiamento di posizione può essere criticato e avere conseguenze politiche, ma non rende automaticamente nullo il voto parlamentare. Il sistema collega rappresentanza e competizione tra programmi, mantenendo le garanzie della funzione. Il [[divieto-di-mandato-imperativo]] non significa assenza di doveri o libertà di ignorare la Costituzione: delimita uno specifico rapporto tra eletto e soggetti che lo hanno sostenuto.",
-      "daSapere": [
-        "Responsabilità politica distinta da vincolo giuridico di istruzioni",
-        "Il parlamentare rappresenta la Nazione"
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 49 e 67",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
+     "da": "simul-stabunt-simul-cadent",
+     "a": "presidente-della-giunta",
+     "tipo": "collegato",
+     "etichetta": "lega il Consiglio al"
     },
     {
-      "id": "iniziativa-legislativa-popolare",
-      "oltre": "### Presentare un progetto non significa approvarlo\nL'iniziativa popolare consente a cinquantamila elettori di presentare un progetto redatto in articoli. È uno strumento di partecipazione alla produzione legislativa, ma non trasferisce ai sottoscrittori il potere di approvare direttamente la legge. Esame e decisione restano inseriti nel procedimento parlamentare secondo le regole applicabili.\n\nLa raccolta delle firme non va quindi confusa con il voto di un [[referendum-abrogativo]], che ha oggetto e condizioni diversi. Neppure equivale a una semplice petizione, per la quale la Costituzione prevede una diversa forma di sollecitazione. Per qualificare il caso bisogna considerare titolari, contenuto richiesto e risultato giuridico: proposta articolata, richiesta rivolta alle Camere e decisione popolare non sono passaggi intercambiabili.",
-      "daSapere": [
-        "Cinquantamila elettori e testo in articoli",
-        "Iniziativa diversa da approvazione della legge"
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 50, 71–72 e 75",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "petizione",
-      "oltre": "### Una sollecitazione alle Camere con finalità definite\nL'art. 50 riconosce ai cittadini la possibilità di rivolgere petizioni alle Camere per chiedere provvedimenti legislativi o esporre comuni necessità. Non richiede il medesimo progetto articolato e la stessa soglia di sottoscrizioni previsti per l'iniziativa legislativa popolare. Il suo effetto è una sollecitazione istituzionale, non l'approvazione della misura richiesta.\n\nUn gruppo che segnala un bisogno collettivo può quindi scegliere un canale diverso dalla proposta di legge. La qualificazione dipende dalla forma e dall'oggetto della richiesta, non dal solo numero dei partecipanti. Il confronto con l'[[iniziativa-legislativa-popolare]] aiuta a spiegare come strumenti diversi permettano partecipazione senza attribuire automaticamente lo stesso peso nel procedimento legislativo.",
-      "daSapere": [
-        "Richiesta di provvedimenti o esposizione di comuni necessità",
-        "Non occorre il progetto articolato dell'iniziativa popolare"
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 50 e 71",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "principio-di-maggioranza",
-      "oltre": "### Il criterio di decisione incontra quorum e limiti\nLa maggioranza permette di assumere una decisione collettiva quando non tutti condividono la stessa scelta. Non dice da sola quale base numerica si debba usare: presenti, votanti e componenti sono grandezze diverse. Per una deliberazione occorre prima identificare quorum di validità e maggioranza richiesta per quell'oggetto.\n\nUna regola che impone la maggioranza dei componenti non è soddisfatta soltanto perché i favorevoli superano i contrari tra pochi presenti. Inoltre, vincere una votazione non consente di violare diritti e garanzie costituzionali. La [[tutela-delle-minoranze]] e i procedimenti aggravati mostrano che il metodo maggioritario funziona entro un sistema di limiti, non come fonte illimitata di qualsiasi potere.",
-      "daSapere": [
-        "Identificare il denominatore della maggioranza",
-        "La decisione resta soggetta ai limiti costituzionali"
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 1, 64 e 138",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "quorum-strutturale",
-      "oltre": "### Prima accertare se il collegio può deliberare\nIl quorum strutturale riguarda la presenza necessaria perché il collegio possa assumere validamente una decisione. È diverso dal numero di voti favorevoli richiesto per approvare la proposta. L'art. 64 stabilisce per le Camere la presenza della maggioranza dei componenti, con le regole parlamentari sul relativo accertamento.\n\nUn'aula può essere sufficientemente partecipata e respingere comunque la proposta; viceversa, una larga prevalenza di favorevoli tra pochissimi presenti non risolve il problema della costituzione del collegio. Nel calcolo occorre distinguere il totale dei membri dalla specifica base usata per il voto. Il confronto con il [[quorum-deliberativo]] rende visibili due controlli che spesso vengono confusi nelle domande numeriche.",
-      "daSapere": [
-        "Presenze per validità del collegio",
-        "Distinto dai voti necessari per approvare"
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, art. 64",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "quorum-deliberativo",
-      "oltre": "### Il numero dei favorevoli dipende dalla regola applicabile\nIl quorum deliberativo indica il sostegno necessario perché una proposta venga approvata. Non coincide con la sola presenza richiesta per poter votare. La Costituzione distingue la regola generale e maggioranze particolari: per la revisione costituzionale, per esempio, la seconda deliberazione richiede almeno la maggioranza assoluta dei componenti.\n\nSe alcuni partecipanti si astengono, l'effetto sul conteggio dipende dalle regole del collegio e dalla specifica maggioranza prescritta. Non è corretto applicare indistintamente una formula a ogni votazione. Per risolvere il caso conviene scrivere separatamente componenti, presenti, votanti e favorevoli, poi individuare quale numero costituisca il riferimento della norma. Solo dopo si può verificare l'approvazione.",
-      "daSapere": [
-        "Contare i favorevoli rispetto alla base prescritta",
-        "Le maggioranze speciali prevalgono sulla formula generale"
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 64 e 138",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "elettorato-attivo",
-      "oltre": "### Il diritto di votare non coincide con quello di essere eletti\nL'elettorato attivo riguarda la partecipazione al voto e va distinto dall'[[elettorato-passivo]]. Le età richieste non devono essere ricavate automaticamente dalle condizioni per candidarsi. Dopo la modifica dell'art. 58, per l'elezione del Senato non opera più la precedente soglia costituzionale di venticinque anni per gli elettori.\n\nUn cittadino maggiorenne può quindi avere diritto di votare senza possedere l'età necessaria a essere eletto in quella Camera. Occorre poi verificare cittadinanza e altre condizioni previste, comprese le limitazioni ammesse dall'art. 48. Anche il modo di esercizio, come il voto fuori sede, segue una disciplina distinta: la titolarità del diritto non risolve da sola dove e come esprimerlo.",
-      "daSapere": [
-        "Voto distinto da candidatura",
-        "Soglia attiva del Senato modificata nel 2021"
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 48, 56 e 58",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "elettorato-passivo",
-      "oltre": "### L'accesso alla carica richiede requisiti propri\nEssere elettore non comporta automaticamente l'idoneità a ricoprire ogni carica elettiva. La Costituzione richiede venticinque anni per essere eletti alla Camera e quaranta al Senato; altre figure seguono condizioni differenti. I requisiti positivi vanno poi distinti dalle cause di ineleggibilità, incompatibilità e incandidabilità.\n\nUn candidato può superare il requisito di età e incontrare comunque un ostacolo legato alla sua situazione. Viceversa, un'[[incompatibilita]] non coincide necessariamente con il difetto originario di eleggibilità: può richiedere un'opzione tra cariche. Il caso pratico deve separare possesso dei requisiti, regolarità dell'elezione e possibilità di mantenere contemporaneamente determinate funzioni, anziché chiamare tutti questi problemi con lo stesso nome.",
-      "daSapere": [
-        "Camera: venticinque anni; Senato: quaranta",
-        "Requisiti distinti dalle cause ostative e dal cumulo di cariche"
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 51, 56, 58 e 65–66",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
+     "da": "simul-stabunt-simul-cadent",
+     "a": "sindaco",
+     "tipo": "collegato",
+     "etichetta": "vale in forma analoga per il"
     }
-  ]
+   ]
+  },
+  {
+   "id": "enti-locali",
+   "oltre": "### Un quadro ridisegnato più volte\nComuni, Province e Città metropolitane hanno solo autonomia statutaria, regolamentare, amministrativa e finanziaria: non fanno leggi. La loro disciplina di base spetta allo Stato, che per l'art. 117 comma II, lettera p) ha competenza esclusiva su legislazione elettorale, organi di governo e funzioni fondamentali degli enti locali. Il testo unico del 2000 (d.lgs. 267/2000) raccoglie queste regole.\n\nLa legge Delrio (n. 56/2014) ha trasformato le Province in enti di secondo grado e ha avviato le Città metropolitane, in attesa di una riforma costituzionale che avrebbe eliminato le Province dalla Costituzione. Quella riforma è stata respinta dal referendum del 4 dicembre 2016: le Province restano enti costituzionalmente necessari, anche se con organi non eletti direttamente.",
+   "daSapere": [
+    "Art. 117 c. II lett. p): organi e funzioni fondamentali allo Stato",
+    "Testo unico: d.lgs. 267/2000",
+    "Referendum 2016: le Province restano in Costituzione"
+   ],
+   "collegamenti": [
+    {
+     "da": "enti-locali",
+     "a": "principio-autonomista",
+     "tipo": "esempio-di",
+     "etichetta": "sono espressione del"
+    }
+   ]
+  },
+  {
+   "id": "consiglio-autonomie-locali",
+   "oltre": "### Un raccordo dentro la Regione\nIl Consiglio delle autonomie locali (CAL) porta la voce di Comuni, Province e Città metropolitane nelle decisioni regionali. La Costituzione si limita a imporne la previsione nello statuto (art. 123, ultimo comma): composizione e poteri variano da Regione a Regione. Di regola esprime pareri sui progetti di legge e sugli atti regionali che toccano le funzioni e le risorse degli enti locali; alcuni statuti prevedono che, se il parere è negativo, il Consiglio regionale debba deliberare con una maggioranza più ampia o motivare.\n\nÈ il corrispondente regionale delle Conferenze che, a livello nazionale, riuniscono Stato, Regioni ed enti locali: un'applicazione della leale collaborazione fra livelli di governo.",
+   "daSapere": [
+    "Previsto dall'art. 123, ultimo comma, dal 2001",
+    "Pareri su leggi e atti che toccano gli enti locali",
+    "Composizione e poteri decisi dallo statuto"
+   ],
+   "collegamenti": [
+    {
+     "da": "consiglio-autonomie-locali",
+     "a": "enti-locali",
+     "tipo": "collegato",
+     "etichetta": "rappresenta gli"
+    },
+    {
+     "da": "consiglio-autonomie-locali",
+     "a": "consiglio-regionale",
+     "tipo": "collegato",
+     "etichetta": "affianca il"
+    },
+    {
+     "da": "consiglio-autonomie-locali",
+     "a": "leale-collaborazione",
+     "tipo": "esempio-di",
+     "etichetta": "applica la"
+    }
+   ]
+  },
+  {
+   "id": "liberta-sindacale",
+   "oltre": "### Una Costituzione attuata a metà\nL'art. 39 ha due parti. Il primo comma, «l'organizzazione sindacale è libera», è pienamente operante. I commi successivi prevedevano la registrazione dei sindacati e contratti collettivi con efficacia per tutti gli appartenenti alla categoria: non sono mai stati attuati, anche per il timore dei sindacati di controlli sulla loro organizzazione interna.\n\nNe è nato il sistema dei contratti collettivi di diritto comune, che vincolano formalmente solo gli iscritti alle organizzazioni firmatarie. La giurisprudenza ne ha esteso di fatto la portata, per esempio usando i minimi retributivi come parametro della retribuzione sufficiente dell'art. 36. Lo Statuto dei lavoratori (l. 300/1970) ha rafforzato la presenza del sindacato nei luoghi di lavoro con le rappresentanze sindacali aziendali.",
+   "daSapere": [
+    "Art. 39 c. I attuato; commi II-IV mai attuati",
+    "Contratti collettivi di diritto comune",
+    "Statuto dei lavoratori: l. 300/1970"
+   ],
+   "collegamenti": [
+    {
+     "da": "liberta-sindacale",
+     "a": "liberta-di-associazione",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    },
+    {
+     "da": "liberta-sindacale",
+     "a": "formazioni-sociali",
+     "tipo": "esempio-di",
+     "etichetta": "dà vita a"
+    },
+    {
+     "da": "liberta-sindacale",
+     "a": "contratto-collettivo",
+     "tipo": "crea",
+     "etichetta": "rende possibile il"
+    }
+   ]
+  },
+  {
+   "id": "formazioni-sociali",
+   "oltre": "### Dal pluralismo alla sussidiarietà orizzontale\nL'art. 2 non elenca le formazioni sociali: la formula è aperta e comprende famiglia, confessioni religiose, sindacati, partiti, associazioni, scuole, comunità locali. Il loro riconoscimento esprime il principio pluralista: lo Stato non è l'unico luogo della vita collettiva e la persona si realizza anche nei gruppi intermedi.\n\nLa protezione vale però anche **contro** il gruppo: le formazioni sociali sono tutelate in quanto luoghi in cui si svolge la personalità, non come poteri sottratti ai diritti dei loro membri. Con la riforma del 2001 l'art. 118 ultimo comma ha aggiunto la sussidiarietà orizzontale, che impegna gli enti pubblici a favorire le iniziative dei cittadini associati; il Codice del Terzo settore (d.lgs. 117/2017) ne è uno sviluppo legislativo.",
+   "daSapere": [
+    "Formula aperta dell'art. 2",
+    "Tutela nel gruppo e anche verso il gruppo",
+    "Art. 118 ultimo comma: sussidiarietà orizzontale"
+   ],
+   "collegamenti": [
+    {
+     "da": "formazioni-sociali",
+     "a": "pluralismo",
+     "tipo": "collegato",
+     "etichetta": "esprimono il"
+    },
+    {
+     "da": "formazioni-sociali",
+     "a": "sussidiarieta",
+     "tipo": "collegato",
+     "etichetta": "sono valorizzate dalla"
+    }
+   ]
+  },
+  {
+   "id": "armonizzazione-dei-bilanci",
+   "oltre": "### Regole contabili comuni\nArmonizzare i bilanci significa far parlare la stessa lingua contabile a Stato, Regioni ed enti locali: schemi, principi e classificazioni uniformi, così che i conti siano confrontabili e si possa verificare il rispetto dei vincoli europei. La riforma è stata avviata dal d.lgs. 118/2011 per Regioni ed enti locali.\n\nLa legge costituzionale n. 1 del 2012 ha tolto la materia dalla competenza concorrente e l'ha attribuita alla competenza esclusiva dello Stato (art. 117 comma II, lettera e). Resta concorrente il coordinamento della finanza pubblica e del sistema tributario: lo Stato fissa i principi, le Regioni li svolgono, ma le regole contabili sono uguali per tutti.",
+   "daSapere": [
+    "D.lgs. 118/2011: armonizzazione contabile",
+    "Dal 2012: competenza esclusiva statale",
+    "Coordinamento della finanza pubblica resta concorrente"
+   ],
+   "collegamenti": [
+    {
+     "da": "armonizzazione-dei-bilanci",
+     "a": "equilibrio-di-bilancio",
+     "tipo": "collegato",
+     "etichetta": "rende verificabile l'"
+    },
+    {
+     "da": "armonizzazione-dei-bilanci",
+     "a": "regioni",
+     "tipo": "collegato",
+     "etichetta": "vale anche per le"
+    },
+    {
+     "da": "armonizzazione-dei-bilanci",
+     "a": "legge-di-bilancio",
+     "tipo": "collegato",
+     "etichetta": "riguarda documenti come la"
+    }
+   ]
+  },
+  {
+   "id": "competenza-residuale-regionale",
+   "oltre": "### Ampia sulla carta, compressa nella pratica\nIl quarto comma dell'art. 117 non elenca le materie residuali: si ricavano per esclusione. La Corte vi ha ricondotto, per esempio, turismo, commercio, artigianato, industria e agricoltura. Nella pratica la competenza è stata però ridimensionata da tre fattori: le materie trasversali dello Stato (concorrenza, ambiente, livelli essenziali delle prestazioni), che possono incidere su qualunque settore; la «chiamata in sussidiarietà» (sent. 303/2003), con cui lo Stato attrae funzioni amministrative e la relativa disciplina, purché con intesa; il criterio della prevalenza, che riconduce una legge alla materia in cui ricade il suo nucleo essenziale.\n\nPer questo si dice che dopo il 2001 il riparto si è spostato dagli elenchi delle materie alla giurisprudenza della Corte.",
+   "daSapere": [
+    "Art. 117 comma IV: competenza per esclusione",
+    "Materie trasversali e chiamata in sussidiarietà",
+    "Corte cost. 303/2003"
+   ],
+   "collegamenti": [
+    {
+     "da": "competenza-residuale-regionale",
+     "a": "potesta-legislativa-concorrente",
+     "tipo": "contrasta",
+     "etichetta": "non richiede principi statali, a differenza della"
+    },
+    {
+     "da": "competenza-residuale-regionale",
+     "a": "regioni",
+     "tipo": "collegato",
+     "etichetta": "spetta alle"
+    },
+    {
+     "da": "competenza-residuale-regionale",
+     "a": "materie-trasversali",
+     "tipo": "contrasta",
+     "etichetta": "è ridotta dalle"
+    }
+   ]
+  },
+  {
+   "id": "consiglio-regionale",
+   "oltre": "### Un'assemblea legislativa vera\nIl Consiglio regionale è l'unico organo, oltre alle Camere, a esercitare una potestà legislativa primaria: per questo la Corte lo ha riconosciuto come organo di rappresentanza politica, pur negando che i consiglieri abbiano le stesse prerogative dei parlamentari. Dal 2011 la legge statale ha fissato tetti al numero dei consiglieri e ai loro costi, in proporzione agli abitanti, come principi di coordinamento della finanza pubblica.\n\nDopo l'elezione diretta del Presidente il Consiglio ha perso centralità: l'indirizzo politico è guidato dal Presidente e dalla Giunta, mentre il Consiglio conserva leggi, bilancio, controllo e la possibilità estrema della sfiducia, che però ne comporta lo scioglimento.",
+   "daSapere": [
+    "Unica assemblea legislativa oltre alle Camere",
+    "Tetti ai consiglieri dal 2011",
+    "Sfiducia al Presidente = scioglimento"
+   ],
+   "collegamenti": [
+    {
+     "da": "consiglio-regionale",
+     "a": "legge-regionale",
+     "tipo": "crea",
+     "etichetta": "approva la"
+    }
+   ]
+  },
+  {
+   "id": "espropriazione",
+   "oltre": "### Indennizzo serio, non simbolico\nL'art. 42 comma III ammette l'espropriazione della proprietà privata nei casi previsti dalla legge, per motivi d'interesse generale e **salvo indennizzo**. La Corte ha sempre escluso un indennizzo meramente simbolico, ma per decenni ha accettato criteri molto inferiori al valore di mercato.\n\nLa svolta è venuta con le sentenze n. 348 e 349 del 2007: la Corte ha dichiarato illegittimo il criterio di indennizzo per le aree edificabili perché contrastava con la CEDU, come interpretata dalla Corte di Strasburgo, che richiede un ristoro ragionevolmente collegato al valore venale del bene. Oggi la disciplina generale sta nel testo unico sulle espropriazioni (d.P.R. 327/2001).",
+   "daSapere": [
+    "Art. 42 c. III: legge, interesse generale, indennizzo",
+    "Sentt. 348 e 349/2007: valore venale e CEDU",
+    "Testo unico espropri: d.P.R. 327/2001"
+   ],
+   "collegamenti": [
+    {
+     "da": "espropriazione",
+     "a": "riserva-di-legge",
+     "tipo": "collegato",
+     "etichetta": "è coperta da"
+    },
+    {
+     "da": "espropriazione",
+     "a": "cedu",
+     "tipo": "collegato",
+     "etichetta": "è stata ridisegnata alla luce della"
+    },
+    {
+     "da": "espropriazione",
+     "a": "proprieta-privata",
+     "tipo": "contrasta",
+     "etichetta": "sacrifica la"
+    }
+   ]
+  },
+  {
+   "id": "fondo-perequativo",
+   "oltre": "### Dalla spesa storica ai costi standard\nLa perequazione è il correttivo dell'autonomia finanziaria: senza di essa le Regioni più ricche avrebbero servizi migliori solo perché hanno più gettito. L'attuazione dell'art. 119 (legge n. 42/2009 e decreti successivi) distingue fra spese per i livelli essenziali delle prestazioni, come sanità, assistenza e istruzione, da finanziare integralmente secondo costi e fabbisogni standard, e altre spese, per le quali la perequazione riduce soltanto le differenze di capacità fiscale.\n\nL'obiettivo è superare il criterio della **spesa storica**, che premiava chi aveva speso di più. L'attuazione è stata lenta e parziale.",
+   "daSapere": [
+    "Correttivo dell'autonomia finanziaria",
+    "LEP finanziati integralmente; altre spese parzialmente",
+    "Dalla spesa storica ai costi standard"
+   ],
+   "collegamenti": [
+    {
+     "da": "fondo-perequativo",
+     "a": "uguaglianza-sostanziale",
+     "tipo": "collegato",
+     "etichetta": "serve all'"
+    },
+    {
+     "da": "fondo-perequativo",
+     "a": "capacita-contributiva",
+     "tipo": "collegato",
+     "etichetta": "compensa la minore"
+    }
+   ]
+  },
+  {
+   "id": "leale-collaborazione",
+   "oltre": "### Un principio di creazione giurisprudenziale\nLa Costituzione nomina la leale collaborazione solo nell'art. 120 (a proposito del potere sostitutivo), ma la Corte costituzionale ne ha fatto il criterio generale dei rapporti fra Stato e Regioni. Si attua con strumenti di diversa intensità: dal semplice parere all'intesa «debole», superabile dallo Stato dopo reiterate trattative, fino all'intesa «forte», senza la quale l'atto non si adotta.\n\nÈ decisiva quando le competenze si intrecciano: con la sentenza 303/2003 la Corte ha richiesto l'intesa per la chiamata in sussidiarietà; con la sentenza 251/2016 ha imposto l'intesa in Conferenza per i decreti legislativi che toccano materie statali e regionali inestricabilmente connesse.",
+   "daSapere": [
+    "Nominata nell'art. 120, costruita dalla Corte",
+    "Pareri, intese deboli e intese forti",
+    "Sentt. 303/2003 e 251/2016"
+   ],
+   "collegamenti": [
+    {
+     "da": "leale-collaborazione",
+     "a": "regioni",
+     "tipo": "collegato",
+     "etichetta": "regola i rapporti fra Stato e"
+    },
+    {
+     "da": "leale-collaborazione",
+     "a": "enti-locali",
+     "tipo": "collegato",
+     "etichetta": "coinvolge gli"
+    },
+    {
+     "da": "leale-collaborazione",
+     "a": "sistema-delle-conferenze",
+     "tipo": "collegato",
+     "etichetta": "si esercita soprattutto nella"
+    }
+   ]
+  },
+  {
+   "id": "sindaco",
+   "oltre": "### Dal 1993 il volto dell'amministrazione locale\nL'elezione diretta del Sindaco risale alla legge n. 81 del 1993, nata in una stagione di crisi dei partiti: ha dato ai Comuni esecutivi stabili e ha fatto da modello per l'elezione diretta dei Presidenti di Regione nel 1999. Nei Comuni più grandi si vota a doppio turno, con premio di maggioranza alle liste collegate al vincitore.\n\nIl Sindaco ha una doppia veste: capo dell'amministrazione comunale e ufficiale del Governo. In questa seconda veste può adottare ordinanze contingibili e urgenti per prevenire ed eliminare gravi pericoli per l'incolumità pubblica e la sicurezza urbana; la Corte ha precisato che non possono derogare stabilmente alla legge.",
+   "daSapere": [
+    "Elezione diretta dal 1993 (l. 81/1993)",
+    "Capo dell'amministrazione e ufficiale del Governo",
+    "Ordinanze contingibili e urgenti"
+   ],
+   "collegamenti": [
+    {
+     "da": "sindaco",
+     "a": "comune",
+     "tipo": "collegato",
+     "etichetta": "guida il"
+    },
+    {
+     "da": "sindaco",
+     "a": "presidente-della-giunta",
+     "tipo": "influenza",
+     "etichetta": "ha fatto da modello per il"
+    }
+   ]
+  },
+  {
+   "id": "sistema-delle-conferenze",
+   "oltre": "### Tre Conferenze\nIl «sistema delle Conferenze» comprende la Conferenza Stato-Regioni, la Conferenza Stato-città e autonomie locali e la Conferenza unificata, che le riunisce per le questioni comuni; il d.lgs. 281/1997 ne disciplina compiti e procedure. Sono sedi del Governo, presiedute dal Presidente del Consiglio o da un ministro delegato.\n\nIn assenza di una Camera delle Regioni, le Conferenze sono diventate il luogo principale in cui Stato e autonomie negoziano su leggi, decreti, riparto di fondi e piani nazionali. Il loro limite è di essere organi esecutivi: il Parlamento ne resta fuori. Va distinta dalla Conferenza delle Regioni, associazione fra i Presidenti regionali che coordina le posizioni delle Regioni prima del confronto con il Governo.",
+   "daSapere": [
+    "Stato-Regioni, Stato-città, unificata",
+    "D.lgs. 281/1997",
+    "Supplenza di una Camera delle Regioni"
+   ],
+   "collegamenti": [
+    {
+     "da": "sistema-delle-conferenze",
+     "a": "enti-locali",
+     "tipo": "collegato",
+     "etichetta": "coinvolge gli"
+    },
+    {
+     "da": "sistema-delle-conferenze",
+     "a": "regioni",
+     "tipo": "collegato",
+     "etichetta": "coinvolge le"
+    }
+   ]
+  },
+  {
+   "id": "legge-statutaria",
+   "oltre": "### Specialità anche nella forma di governo\nLa legge statutaria è una fonte rinforzata: approvata a maggioranza assoluta, soggetta a impugnazione preventiva del Governo e a possibile referendum. Le Regioni speciali l'hanno usata in modi diversi: la Sicilia elegge direttamente il Presidente dal 2001, mentre in Valle d'Aosta e nella Provincia autonoma di Bolzano il Presidente è eletto dal Consiglio, secondo un modello parlamentare legato alla tutela delle minoranze linguistiche.\n\nNel sistema delle fonti si colloca sotto lo statuto speciale, che è legge costituzionale, e sopra le leggi regionali ordinarie, che non possono modificarla.",
+   "daSapere": [
+    "Maggioranza assoluta e referendum eventuale",
+    "Valle d'Aosta e Bolzano: Presidente eletto dal Consiglio",
+    "Sotto lo statuto speciale, sopra le leggi ordinarie"
+   ],
+   "collegamenti": [
+    {
+     "da": "legge-statutaria",
+     "a": "legge-regionale",
+     "tipo": "esempio-di",
+     "etichetta": "è una"
+    }
+   ]
+  },
+  {
+   "id": "pluralismo-informazione",
+   "oltre": "### Il pluralismo come limite alle concentrazioni\nPer la Corte costituzionale l'informazione è un valore fondamentale della democrazia, e il pluralismo delle fonti ne è la condizione: non basta la libertà di chi trasmette, serve che i cittadini possano accedere a voci diverse. Su questa base la Corte ha più volte giudicato insufficienti le leggi sul sistema radiotelevisivo che consentivano posizioni dominanti (per esempio con le sentenze 420/1994 e 466/2002).\n\nIl pluralismo ha due facce: **esterno**, cioè concorrenza fra più emittenti e editori, e **interno**, cioè apertura del servizio pubblico alle diverse opinioni. Nei periodi elettorali la legge sulla par condicio (l. 28/2000) garantisce parità di accesso ai mezzi di informazione.",
+   "daSapere": [
+    "Pluralismo esterno e interno",
+    "Corte cost. 420/1994 e 466/2002",
+    "Par condicio: l. 28/2000"
+   ],
+   "collegamenti": [
+    {
+     "da": "pluralismo-informazione",
+     "a": "par-condicio",
+     "tipo": "collegato",
+     "etichetta": "nelle elezioni è garantito dalla"
+    },
+    {
+     "da": "pluralismo-informazione",
+     "a": "agcom",
+     "tipo": "collegato",
+     "etichetta": "è vigilato dall'"
+    }
+   ]
+  },
+  {
+   "id": "proprieta-privata",
+   "oltre": "### Un diritto garantito, non inviolabile\nLa Costituzione colloca la proprietà fra i rapporti economici (art. 42) e non fra i diritti inviolabili: la riconosce e la garantisce, ma rimette alla legge i modi di acquisto, di godimento e i limiti, per assicurarne la funzione sociale e renderla accessibile a tutti. È una scelta lontana dallo Statuto albertino, che la dichiarava «inviolabile».\n\nOggi la tutela si è rafforzata per l'influenza della CEDU: il Protocollo addizionale n. 1 protegge il rispetto dei beni e ha spinto la Corte costituzionale a pretendere indennizzi espropriativi vicini al valore di mercato. La proprietà resta comunque conformabile dal legislatore, purché il limite sia ragionevole e non svuoti il diritto.",
+   "daSapere": [
+    "Art. 42: riconosciuta e garantita dalla legge",
+    "Funzione sociale",
+    "CEDU, Protocollo n. 1"
+   ],
+   "collegamenti": [
+    {
+     "da": "proprieta-privata",
+     "a": "riserva-di-legge",
+     "tipo": "collegato",
+     "etichetta": "è disciplinata secondo la"
+    },
+    {
+     "da": "proprieta-privata",
+     "a": "funzione-sociale-della-proprieta",
+     "tipo": "collegato",
+     "etichetta": "è conformata dalla"
+    },
+    {
+     "da": "proprieta-privata",
+     "a": "statuto-albertino",
+     "tipo": "contrasta",
+     "etichetta": "non è più inviolabile come nello"
+    }
+   ]
+  },
+  {
+   "id": "riforma-del-titolo-v",
+   "oltre": "### La prima revisione confermata dal popolo\nLa legge costituzionale n. 3 del 2001 fu approvata dalla sola maggioranza di centrosinistra alla fine della XIII legislatura e confermata dal referendum del 7 ottobre 2001: fu il primo referendum costituzionale della storia repubblicana. L'attuazione legislativa venne con la legge La Loggia (n. 131/2003).\n\nIl nuovo riparto, senza una Camera delle Regioni e con elenchi di materie spesso vaghi, ha prodotto per anni un forte contenzioso fra Stato e Regioni davanti alla Corte. La revisione costituzionale del 2016, che avrebbe riportato molte materie allo Stato, eliminato la competenza concorrente e trasformato il Senato in camera delle autonomie, è stata respinta dal referendum del 4 dicembre 2016.",
+   "daSapere": [
+    "Referendum confermativo del 7 ottobre 2001",
+    "Attuazione: l. 131/2003",
+    "Riforma del 2016 respinta"
+   ],
+   "collegamenti": [
+    {
+     "da": "riforma-del-titolo-v",
+     "a": "referendum-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "fu confermata dal primo"
+    },
+    {
+     "da": "riforma-del-titolo-v",
+     "a": "potesta-legislativa-concorrente",
+     "tipo": "crea",
+     "etichetta": "ridisegna la"
+    }
+   ]
+  },
+  {
+   "id": "giunta-regionale",
+   "oltre": "### Una squadra del Presidente\nCon l'elezione diretta del Presidente la Giunta è diventata un organo fiduciario del Presidente, non del Consiglio: il Presidente ne sceglie e ne revoca gli assessori e ne dirige la politica. Molti statuti consentono di nominare assessori **esterni** al Consiglio; alcuni prevedono che il consigliere nominato assessore lasci il seggio a un supplente.\n\nPer questo la Corte ha escluso la sfiducia del Consiglio ai singoli assessori: se il Consiglio potesse far cadere un assessore, interferirebbe con il potere di nomina e revoca che l'art. 122 comma V affida al Presidente. Il Consiglio può contestare l'operato della Giunta solo colpendo il Presidente, cioè sciogliendosi.",
+   "daSapere": [
+    "Assessori nominati e revocati dal Presidente",
+    "Possibili assessori esterni",
+    "No sfiducia individuale agli assessori"
+   ],
+   "collegamenti": [
+    {
+     "da": "giunta-regionale",
+     "a": "regolamento-regionale",
+     "tipo": "crea",
+     "etichetta": "adotta il"
+    },
+    {
+     "da": "giunta-regionale",
+     "a": "forma-di-governo-regionale",
+     "tipo": "parte-di",
+     "etichetta": "è un elemento della"
+    }
+   ]
+  },
+  {
+   "id": "presidente-della-giunta",
+   "oltre": "### Il «governatore»\nDopo l'elezione diretta i Presidenti di Regione sono spesso chiamati, impropriamente, «governatori»: la formula segnala il peso politico acquisito, non un cambiamento della loro natura giuridica. Il Presidente rappresenta la Regione anche nella Conferenza Stato-Regioni ed è il protagonista dei rapporti con il Governo.\n\nLa legge statale di principio (l. 165/2004) prevede la non immediata rieleggibilità dopo due mandati consecutivi del Presidente eletto direttamente. Con la sentenza 64/2025 la Corte costituzionale ha dichiarato illegittima una legge della Campania (l.r. 16/2024) che, aggirando questo limite, consentiva un terzo mandato consecutivo: il divieto è un principio fondamentale che vincola anche le Regioni.",
+   "daSapere": [
+    "Detto impropriamente «governatore»",
+    "Limite dei due mandati consecutivi",
+    "Corte cost. 64/2025: terzo mandato illegittimo"
+   ],
+   "collegamenti": [
+    {
+     "da": "presidente-della-giunta",
+     "a": "sistema-delle-conferenze",
+     "tipo": "collegato",
+     "etichetta": "rappresenta la Regione nella"
+    },
+    {
+     "da": "presidente-della-giunta",
+     "a": "legge-elettorale-regionale",
+     "tipo": "collegato",
+     "etichetta": "è eletto secondo la"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Corte costituzionale, sentenza 64/2025",
+     "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2025/64"
+    }
+   ]
+  },
+  {
+   "id": "forma-di-governo-regionale",
+   "oltre": "### Un nome preso in prestito\nIl termine «neoparlamentare» viene dal politologo francese Maurice Duverger, che proponeva di eleggere direttamente il capo del governo mantenendo il rapporto di fiducia con l'assemblea. Le Regioni italiane sono uno dei pochi casi in cui il modello è stato applicato: lo stesso schema, con varianti, regola i Comuni dal 1993.\n\nI critici osservano che, legando la sopravvivenza del Consiglio a quella del Presidente, il modello sbilancia il potere verso l'esecutivo e riduce il Consiglio a ratificare. I sostenitori ne sottolineano la stabilità: i governi regionali durano di regola l'intera legislatura. Il dibattito sul premierato nazionale ha ripreso questi argomenti, ma la revisione proposta non è stata approvata.",
+   "daSapere": [
+    "Neoparlamentarismo: Maurice Duverger",
+    "Modello anche dei Comuni",
+    "Stabilità contro centralità del Consiglio"
+   ],
+   "collegamenti": [
+    {
+     "da": "forma-di-governo-regionale",
+     "a": "governo-presidenziale",
+     "tipo": "contrasta",
+     "etichetta": "non adotta la separazione rigida del"
+    },
+    {
+     "da": "forma-di-governo-regionale",
+     "a": "presidente-della-giunta",
+     "tipo": "collegato",
+     "etichetta": "ruota attorno al"
+    }
+   ]
+  },
+  {
+   "id": "provincia",
+   "oltre": "### L'ente che doveva scomparire\nLe Province sono le circoscrizioni amministrative più antiche dello Stato unitario. La legge Delrio (n. 56/2014) le ha trasformate in enti di area vasta di secondo grado, in vista della loro eliminazione dalla Costituzione; respinta la revisione nel 2016, sono rimaste con funzioni ridotte e organi non eletti dai cittadini: il Presidente, scelto fra i sindaci della Provincia; il Consiglio provinciale; l'Assemblea dei sindaci.\n\nLe funzioni fondamentali riguardano soprattutto pianificazione territoriale di coordinamento, strade provinciali e trasporti, ambiente ed edilizia scolastica superiore. Da distinguere le Province autonome di Trento e di Bolzano, che hanno potestà legislativa e sono di fatto enti con autonomia speciale.",
+   "daSapere": [
+    "L. 56/2014: ente di secondo grado",
+    "Organi: Presidente, Consiglio, Assemblea dei sindaci",
+    "Trento e Bolzano: Province autonome"
+   ],
+   "collegamenti": [
+    {
+     "da": "provincia",
+     "a": "citta-metropolitane",
+     "tipo": "collegato",
+     "etichetta": "nelle grandi aree è sostituita dalle"
+    }
+   ]
+  },
+  {
+   "id": "comune",
+   "oltre": "### L'ente necessario\nIl Comune è l'ente locale più antico e l'unico presente ovunque: la Costituzione lo pone per primo nell'art. 114 e, con la sussidiarietà, al centro delle funzioni amministrative. I Comuni italiani sono molto numerosi e in gran parte piccoli: per questo la legge favorisce le **unioni di comuni** per gestire insieme i servizi e le **fusioni**, che richiedono una legge regionale e la consultazione delle popolazioni (art. 133).\n\nLa legge statale fissa le funzioni fondamentali dei Comuni (art. 117 comma II, lett. p), come polizia locale, pianificazione urbanistica, servizi sociali, edilizia scolastica e, per conto dello Stato, anagrafe e stato civile; le Regioni possono conferire altre funzioni nelle proprie materie.",
+   "daSapere": [
+    "Art. 114: primo fra gli enti della Repubblica",
+    "Unioni e fusioni di comuni",
+    "Funzioni fondamentali fissate dallo Stato"
+   ],
+   "collegamenti": [
+    {
+     "da": "comune",
+     "a": "variazioni-territoriali-regionali",
+     "tipo": "collegato",
+     "etichetta": "può cambiare Regione con le"
+    },
+    {
+     "da": "comune",
+     "a": "legge-regionale",
+     "tipo": "collegato",
+     "etichetta": "nasce o si fonde con"
+    }
+   ]
+  },
+  {
+   "id": "citta-metropolitane",
+   "oltre": "### Quattordici aree metropolitane\nLe Città metropolitane sono 14: dieci nelle Regioni ordinarie (Torino, Milano, Venezia, Genova, Bologna, Firenze, Roma Capitale, Napoli, Bari, Reggio Calabria) e quattro istituite dalle Regioni speciali (Palermo, Catania, Messina, Cagliari). Sono subentrate alle Province corrispondenti, ereditandone le funzioni e aggiungendo compiti di pianificazione strategica, mobilità e sviluppo economico dell'area.\n\nIl sindaco metropolitano è di diritto il sindaco del capoluogo; il Consiglio metropolitano è eletto da sindaci e consiglieri dei Comuni dell'area. Per la Corte (sent. 240/2021, che ha dichiarato inammissibile la questione rivolgendo però un monito al legislatore) questa designazione automatica, che esclude gli elettori degli altri Comuni, richiede un intervento del legislatore.",
+   "daSapere": [
+    "14 Città metropolitane",
+    "Sindaco metropolitano = sindaco del capoluogo",
+    "Operative dal 1° gennaio 2015"
+   ],
+   "collegamenti": [
+    {
+     "da": "citta-metropolitane",
+     "a": "enti-locali",
+     "tipo": "parte-di",
+     "etichetta": "sono tra gli"
+    },
+    {
+     "da": "citta-metropolitane",
+     "a": "sindaco",
+     "tipo": "collegato",
+     "etichetta": "sono guidate dal"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Corte costituzionale, sentenza 240/2021",
+     "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2021/240"
+    }
+   ]
+  },
+  {
+   "id": "autonomia-finanziaria",
+   "oltre": "### Quali tributi\nAll'autonomia finanziaria corrispondono tributi concreti. Le Regioni hanno soprattutto l'IRAP (imposta regionale sulle attività produttive) e l'addizionale regionale all'IRPEF; i Comuni l'IMU sugli immobili e l'addizionale comunale. Si tratta però in larga parte di tributi istituiti dalla legge statale, sui quali gli enti possono solo variare le aliquote entro certi margini: per la Corte, senza una legge statale di coordinamento le Regioni non possono istituire tributi propri sugli stessi presupposti di quelli statali.\n\nLa sanità assorbe la parte maggiore dei bilanci regionali; il suo finanziamento è legato al fabbisogno nazionale fissato dallo Stato e ripartito d'intesa con le Regioni.",
+   "daSapere": [
+    "Regioni: IRAP e addizionale IRPEF",
+    "Comuni: IMU e addizionale comunale",
+    "La sanità è la prima voce di spesa regionale"
+   ],
+   "collegamenti": [
+    {
+     "da": "autonomia-finanziaria",
+     "a": "federalismo-fiscale",
+     "tipo": "collegato",
+     "etichetta": "è attuata dal"
+    }
+   ]
+  },
+  {
+   "id": "federalismo-fiscale",
+   "oltre": "### Una riforma lunga\nLa legge delega n. 42 del 2009 ha disegnato il federalismo fiscale secondo alcuni capisaldi: superamento della spesa storica, fabbisogni e costi standard, finanziamento integrale dei livelli essenziali delle prestazioni, autonomia tributaria e responsabilità degli amministratori. Ne sono seguiti numerosi decreti legislativi, tra cui il federalismo municipale (d.lgs. 23/2011) e quello regionale e provinciale (d.lgs. 68/2011).\n\nL'attuazione è stata più volte rinviata, anche per la crisi finanziaria e i vincoli di bilancio successivi al 2011. Il tema si intreccia con l'autonomia differenziata: senza la definizione dei livelli essenziali non si possono trasferire le risorse in modo equo.",
+   "daSapere": [
+    "Legge delega 42/2009",
+    "D.lgs. 23/2011 e 68/2011",
+    "Costi standard e LEP"
+   ],
+   "collegamenti": [
+    {
+     "da": "federalismo-fiscale",
+     "a": "autonomia-differenziata",
+     "tipo": "collegato",
+     "etichetta": "è presupposto dell'"
+    },
+    {
+     "da": "federalismo-fiscale",
+     "a": "fondo-perequativo",
+     "tipo": "crea",
+     "etichetta": "disciplina il"
+    }
+   ]
+  },
+  {
+   "id": "potere-sostitutivo",
+   "oltre": "### Come si esercita\nLa legge n. 131/2003 (art. 8) ha disciplinato il procedimento: il Governo assegna all'ente un congruo termine per adottare gli atti dovuti; se l'ente resta inerte, il Consiglio dei ministri, sentito l'organo interessato, adotta i provvedimenti necessari o nomina un commissario. Nei casi di assoluta urgenza si può provvedere subito, informando la Conferenza competente.\n\nLa Corte ha precisato che la sostituzione deve rispettare la leale collaborazione e la proporzionalità ed è riservata a organi di governo, a garanzia dell'autonomia. Accanto al potere straordinario dell'art. 120 esistono poteri sostitutivi previsti dalle leggi di settore, anche delle Regioni verso gli enti locali.",
+   "daSapere": [
+    "Art. 8 l. 131/2003: termine, poi Consiglio dei ministri",
+    "Leale collaborazione e proporzionalità",
+    "Possibile nomina di un commissario"
+   ],
+   "collegamenti": [
+    {
+     "da": "potere-sostitutivo",
+     "a": "leale-collaborazione",
+     "tipo": "collegato",
+     "etichetta": "rispetta la"
+    },
+    {
+     "da": "potere-sostitutivo",
+     "a": "consiglio-dei-ministri",
+     "tipo": "collegato",
+     "etichetta": "è deliberato dal"
+    }
+   ]
+  },
+  {
+   "id": "materie-trasversali",
+   "oltre": "### Le materie-valore\nLa prima sentenza importante è la n. 407 del 2002 sulla tutela dell'ambiente: per la Corte non è una materia in senso tecnico, ma un **valore** costituzionalmente protetto, che consente allo Stato di fissare standard uniformi di tutela anche dove le Regioni hanno competenza. Lo stesso schema vale per la tutela della concorrenza (dalla sent. 14/2004) e per la determinazione dei livelli essenziali delle prestazioni concernenti i diritti civili e sociali (sent. 282/2002).\n\nLe Regioni possono di regola innalzare il livello di tutela fissato dallo Stato, non abbassarlo. Il risultato è un riparto mobile, che dipende dagli obiettivi della legge più che dalla sua materia.",
+   "daSapere": [
+    "Ambiente: sent. 407/2002",
+    "Concorrenza: sent. 14/2004",
+    "LEP: competenza trasversale"
+   ],
+   "collegamenti": [
+    {
+     "da": "materie-trasversali",
+     "a": "unita-e-indivisibilita-della-repubblica",
+     "tipo": "collegato",
+     "etichetta": "garantiscono l'"
+    }
+   ]
+  },
+  {
+   "id": "riforma-bassanini",
+   "oltre": "### Più leggi, un solo disegno\nCon il nome del ministro della Funzione pubblica Franco Bassanini si indicano la legge n. 59/1997 (decentramento e semplificazione) e la n. 127/1997 (snellimento dell'attività amministrativa), seguite da numerosi decreti legislativi, il più importante dei quali è il d.lgs. 112/1998 sul conferimento di funzioni a Regioni ed enti locali.\n\nLe leggi Bassanini hanno inciso anche sull'organizzazione dello Stato e sulla semplificazione amministrativa (autocertificazione, sportello unico). Il loro limite fu di operare a Costituzione invariata: per questo la riforma del Titolo V del 2001 ne costituzionalizzò i principi, a cominciare dalla sussidiarietà.",
+   "daSapere": [
+    "L. 59/1997 e l. 127/1997",
+    "D.lgs. 112/1998: conferimento di funzioni",
+    "Principi poi costituzionalizzati nel 2001"
+   ],
+   "collegamenti": [
+    {
+     "da": "riforma-bassanini",
+     "a": "enti-locali",
+     "tipo": "collegato",
+     "etichetta": "conferisce funzioni agli"
+    }
+   ]
+  },
+  {
+   "id": "cedu",
+   "oltre": "### Una Convenzione con un giudice\nLa Convenzione europea dei diritti dell'uomo è stata firmata a Roma il 4 novembre 1950 nell'ambito del Consiglio d'Europa, organizzazione distinta dall'Unione europea, e resa esecutiva in Italia con la legge n. 848/1955. La sua forza sta nel ricorso individuale alla Corte europea dei diritti dell'uomo di Strasburgo, possibile dopo aver esaurito i rimedi interni.\n\nCon le sentenze n. 348 e 349 del 2007 la Corte costituzionale ha chiarito che la CEDU, nell'interpretazione della Corte di Strasburgo, integra il parametro dell'art. 117 comma I come norma interposta: il giudice non può disapplicare la legge contrastante, ma deve sollevare la questione di legittimità. Diversamente dal diritto UE, non c'è primato con effetto diretto.",
+   "daSapere": [
+    "Roma, 4 novembre 1950; l. 848/1955",
+    "Ricorso individuale a Strasburgo",
+    "Sentt. 348 e 349/2007: norma interposta"
+   ],
+   "collegamenti": [
+    {
+     "da": "cedu",
+     "a": "parametro-interposto",
+     "tipo": "esempio-di",
+     "etichetta": "è un"
+    },
+    {
+     "da": "cedu",
+     "a": "corte-europea-dei-diritti-dell-uomo",
+     "tipo": "crea",
+     "etichetta": "istituisce la"
+    }
+   ]
+  },
+  {
+   "id": "famiglia",
+   "oltre": "### Il diritto di famiglia oggi\nDopo la riforma del 1975 il diritto di famiglia è cambiato ancora. La legge n. 219 del 2012 e il d.lgs. 154 del 2013 hanno eliminato la distinzione fra figli legittimi e naturali: tutti i figli hanno lo stesso stato giuridico e si parla di **responsabilità genitoriale** invece che di potestà. La legge n. 76 del 2016 ha introdotto le **unioni civili** fra persone dello stesso sesso e ha disciplinato le convivenze di fatto.\n\nLa Corte costituzionale ha ricondotto le unioni omosessuali all'art. 2, come formazioni sociali, e non all'art. 29, riferito al matrimonio (sent. 138/2010). La nozione costituzionale di famiglia resta dunque plurale: la famiglia fondata sul matrimonio ha una tutela specifica, ma non è l'unica protetta.",
+   "daSapere": [
+    "L. 219/2012 e d.lgs. 154/2013: un solo stato di figlio",
+    "L. 76/2016: unioni civili e convivenze",
+    "Sent. 138/2010: unioni omosessuali nell'art. 2"
+   ],
+   "collegamenti": [
+    {
+     "da": "famiglia",
+     "a": "formazioni-sociali",
+     "tipo": "esempio-di",
+     "etichetta": "è la prima delle"
+    },
+    {
+     "da": "famiglia",
+     "a": "tutela-dei-figli",
+     "tipo": "collegato",
+     "etichetta": "comprende la"
+    }
+   ]
+  },
+  {
+   "id": "patti-lateranensi",
+   "oltre": "### Tre atti in uno\nI Patti dell'11 febbraio 1929 comprendono il **Trattato**, che riconosce la sovranità della Santa Sede e crea lo Stato della Città del Vaticano, il **Concordato**, che regola i rapporti fra Stato e Chiesa in Italia, e una **Convenzione finanziaria**. L'art. 7 della Costituzione li richiama e stabilisce che le loro modifiche accettate dalle due parti non richiedono revisione costituzionale.\n\nIl Concordato è stato sostituito dall'Accordo di Villa Madama del 18 febbraio 1984 (reso esecutivo con la l. 121/1985), che ha abbandonato la religione di Stato e reso facoltativo l'insegnamento della religione cattolica; la l. 222/1985 ha introdotto l'otto per mille. Per la Corte i Patti hanno una resistenza particolare, ma non prevalgono sui principi supremi dell'ordinamento.",
+   "daSapere": [
+    "Trattato, Concordato, Convenzione finanziaria",
+    "Accordo di Villa Madama: 1984",
+    "Limite dei principi supremi"
+   ],
+   "collegamenti": [
+    {
+     "da": "patti-lateranensi",
+     "a": "principi-supremi",
+     "tipo": "contrasta",
+     "etichetta": "non prevalgono sui"
+    },
+    {
+     "da": "patti-lateranensi",
+     "a": "accordo-di-villa-madama",
+     "tipo": "evolve-in",
+     "etichetta": "sono modificati dall'"
+    }
+   ]
+  },
+  {
+   "id": "liberta-di-stampa",
+   "oltre": "### La stampa e le sue regole\nLa legge sulla stampa n. 47 del 1948, approvata dalla Costituente, regola ancora oggi la registrazione delle testate presso il tribunale, la figura del direttore responsabile e la rettifica. L'ordine dei giornalisti è disciplinato dalla legge n. 69 del 1963.\n\nIl divieto di autorizzazioni e censure e le garanzie sul sequestro valgono per la stampa in senso stretto. Con la diffusione di Internet si è posto il problema di estenderle ai giornali online: la Cassazione a Sezioni unite penali (sentenza 31022 del 2015) ha esteso alle testate giornalistiche telematiche registrate le garanzie sul sequestro, ma non a blog e social network. Il diritto di rettifica e la responsabilità per diffamazione restano i principali contrappesi della libertà di stampa.",
+   "daSapere": [
+    "Legge sulla stampa: n. 47/1948",
+    "Ordine dei giornalisti: l. 69/1963",
+    "Testate online registrate equiparate per il sequestro"
+   ],
+   "collegamenti": [
+    {
+     "da": "liberta-di-stampa",
+     "a": "liberta-di-manifestazione-del-pensiero",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma della"
+    },
+    {
+     "da": "liberta-di-stampa",
+     "a": "sequestro-della-stampa",
+     "tipo": "collegato",
+     "etichetta": "è protetta dai limiti al"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Cass. pen., Sez. un., sent. 31022/2015 (massima)",
+     "url": "https://brocardi.it/massimario/42504.html"
+    }
+   ]
+  },
+  {
+   "id": "obiezione-di-coscienza",
+   "oltre": "### Dalla leva alla sanità\nIl primo riconoscimento legislativo dell'obiezione al servizio militare risale alla legge n. 772 del 1972; la legge n. 230 del 1998 l'ha trasformata in un diritto soggettivo, con il servizio civile sostitutivo. Dal 2005 la leva obbligatoria è sospesa e il servizio civile è volontario, ma l'istituto resta per l'eventuale ripristino della leva.\n\nL'obiezione è prevista anche in altri campi, per esempio per il personale sanitario nelle procedure di interruzione volontaria della gravidanza (l. 194/1978) e nella sperimentazione animale. La Corte ritiene che non esista un diritto generale all'obiezione: serve una legge che bilanci la libertà di coscienza con i doveri e i diritti altrui.",
+   "daSapere": [
+    "L. 772/1972 e l. 230/1998",
+    "Leva sospesa dal 2005",
+    "Serve una legge: nessun diritto generale"
+   ],
+   "collegamenti": [
+    {
+     "da": "obiezione-di-coscienza",
+     "a": "difesa-della-patria",
+     "tipo": "contrasta",
+     "etichetta": "esonera dal servizio armato per la"
+    }
+   ]
+  },
+  {
+   "id": "diritto-di-asilo",
+   "oltre": "### Asilo costituzionale e protezione internazionale\nL'art. 10 comma III garantisce l'asilo allo straniero al quale nel suo Paese è impedito l'effettivo esercizio delle libertà democratiche garantite dalla Costituzione italiana: una formula più ampia di quella della Convenzione di Ginevra del 1951, che riconosce lo status di **rifugiato** a chi ha un fondato timore di persecuzione personale.\n\nOggi il diritto d'asilo si attua soprattutto attraverso le forme di protezione internazionale di origine europea, cioè lo status di rifugiato e la protezione sussidiaria, affiancate da forme nazionali di protezione. La competenza a esaminare la domanda è regolata dal sistema di Dublino dell'Unione europea.",
+   "daSapere": [
+    "Art. 10 c. III: asilo costituzionale",
+    "Ginevra 1951: status di rifugiato",
+    "Protezione sussidiaria e sistema di Dublino"
+   ],
+   "collegamenti": [
+    {
+     "da": "diritto-di-asilo",
+     "a": "condizione-giuridica-dello-straniero",
+     "tipo": "parte-di",
+     "etichetta": "è un aspetto della"
+    }
+   ]
+  },
+  {
+   "id": "minoranze-linguistiche",
+   "oltre": "### Minoranze storiche e statuti speciali\nL'art. 6 è stato attuato in due modi. Le minoranze delle Regioni speciali (tedeschi e ladini in Trentino-Alto Adige, francesi in Valle d'Aosta, sloveni in Friuli-Venezia Giulia) hanno una tutela forte, fondata sugli statuti e, per l'Alto Adige, sull'accordo De Gasperi-Gruber del 1946.\n\nLa legge n. 482 del 1999 ha poi riconosciuto dodici minoranze linguistiche storiche: albanesi, catalane, germaniche, greche, slovene, croate e le popolazioni che parlano francese, franco-provenzale, friulano, ladino, occitano e sardo. Prevede l'uso della lingua nelle scuole, negli enti locali e nei mezzi di informazione, nei territori delimitati dalle Province su richiesta dei Comuni.",
+   "daSapere": [
+    "Art. 6 della Costituzione",
+    "L. 482/1999: dodici minoranze storiche",
+    "Accordo De Gasperi-Gruber: 1946"
+   ],
+   "collegamenti": [
+    {
+     "da": "minoranze-linguistiche",
+     "a": "statuto-speciale",
+     "tipo": "collegato",
+     "etichetta": "sono tutelate dallo"
+    },
+    {
+     "da": "minoranze-linguistiche",
+     "a": "formazioni-sociali",
+     "tipo": "esempio-di",
+     "etichetta": "sono tra le"
+    }
+   ]
+  },
+  {
+   "id": "condizione-giuridica-dello-straniero",
+   "oltre": "### Riserva di legge rinforzata e diritti fondamentali\nL'art. 10 comma II prevede che la condizione giuridica dello straniero sia regolata dalla legge «in conformità delle norme e dei trattati internazionali»: una riserva di legge rinforzata, perché la legge deve rispettare il diritto internazionale. La disciplina generale è nel testo unico sull'immigrazione (d.lgs. 286/1998).\n\nLa Corte costituzionale ha chiarito che i diritti inviolabili spettano anche allo straniero, perché spettano all'uomo in quanto tale: il principio di eguaglianza, pur riferito ai «cittadini», vale per lo straniero quando sono in gioco diritti fondamentali. Il legislatore può invece distinguere, se in modo ragionevole, per l'ingresso, il soggiorno e alcune prestazioni.",
+   "daSapere": [
+    "Art. 10 c. II: riserva rinforzata",
+    "Testo unico immigrazione: d.lgs. 286/1998",
+    "Diritti inviolabili anche agli stranieri"
+   ],
+   "collegamenti": [
+    {
+     "da": "condizione-giuridica-dello-straniero",
+     "a": "diritti-inviolabili",
+     "tipo": "collegato",
+     "etichetta": "comprende i"
+    },
+    {
+     "da": "condizione-giuridica-dello-straniero",
+     "a": "riserva-di-legge-rinforzata",
+     "tipo": "esempio-di",
+     "etichetta": "è regolata da una"
+    }
+   ]
+  },
+  {
+   "id": "diritto-al-lavoro",
+   "oltre": "### Un diritto e un dovere\nL'art. 1 fonda la Repubblica sul lavoro e l'art. 4 riconosce a tutti i cittadini il diritto al lavoro, impegnando la Repubblica a promuovere le condizioni che lo rendano effettivo. Non è un diritto a ottenere un posto dallo Stato: è un impegno per politiche di occupazione e una garanzia contro restrizioni ingiustificate all'accesso al lavoro e contro licenziamenti arbitrari.\n\nLo stesso art. 4 prevede il **dovere** di svolgere un'attività o una funzione che concorra al progresso materiale o spirituale della società, secondo le proprie possibilità e la propria scelta: un dovere morale e civico, non sanzionato. La tutela del lavoro si completa con gli artt. 35–38 (retribuzione, riposo, parità della donna lavoratrice, previdenza).",
+   "daSapere": [
+    "Artt. 1 e 4",
+    "Non un diritto al posto ma alle condizioni",
+    "Dovere di concorrere al progresso della società"
+   ],
+   "collegamenti": [
+    {
+     "da": "diritto-al-lavoro",
+     "a": "principio-lavorista",
+     "tipo": "collegato",
+     "etichetta": "attua il"
+    }
+   ]
+  },
+  {
+   "id": "diritto-alla-riservatezza",
+   "oltre": "### Dalla privacy alla protezione dei dati\nIl diritto alla riservatezza non è nominato dalla Costituzione: la giurisprudenza lo ha ricavato dagli artt. 2, 14 e 15. Con la diffusione dell'informatica si è trasformato in diritto alla **protezione dei dati personali**, riconosciuto dall'art. 8 della Carta dei diritti fondamentali dell'UE.\n\nOggi la disciplina principale è il Regolamento generale sulla protezione dei dati (Regolamento UE 2016/679, GDPR), applicabile dal 25 maggio 2018, insieme al Codice privacy (d.lgs. 196/2003) adeguato nel 2018. Il Garante per la protezione dei dati personali vigila sul rispetto delle regole. Il bilanciamento più frequente è con la libertà di cronaca e con il diritto all'oblio.",
+   "daSapere": [
+    "Fondamento negli artt. 2, 14, 15",
+    "GDPR: Reg. UE 2016/679, dal 25 maggio 2018",
+    "Codice privacy: d.lgs. 196/2003"
+   ],
+   "collegamenti": [
+    {
+     "da": "diritto-alla-riservatezza",
+     "a": "garante-privacy",
+     "tipo": "collegato",
+     "etichetta": "è tutelato dal"
+    },
+    {
+     "da": "diritto-alla-riservatezza",
+     "a": "liberta-di-cronaca",
+     "tipo": "contrasta",
+     "etichetta": "va bilanciato con la"
+    }
+   ]
+  },
+  {
+   "id": "laicita-dello-stato",
+   "oltre": "### Laicità «all'italiana»\nLa Corte costituzionale ha ricavato la laicità dagli artt. 2, 3, 7, 8, 19 e 20 e l'ha qualificata principio supremo con la sentenza 203/1989 sull'insegnamento della religione cattolica: non indifferenza verso le religioni, ma equidistanza e garanzia del pluralismo confessionale e culturale. Ne sono derivate, per esempio, la facoltatività dell'ora di religione e l'illegittimità di tutele penali differenziate a favore della sola religione cattolica.\n\nLa questione del crocifisso nelle aule è giunta alla Corte europea dei diritti dell'uomo: nel caso Lautsi c. Italia la Grande Camera (2011) ha ritenuto che la sua esposizione rientri nel margine di apprezzamento dello Stato.",
+   "daSapere": [
+    "Principio supremo: sent. 203/1989",
+    "Equidistanza, non indifferenza",
+    "Lautsi c. Italia, Grande Camera 2011"
+   ],
+   "collegamenti": [
+    {
+     "da": "laicita-dello-stato",
+     "a": "principi-supremi",
+     "tipo": "esempio-di",
+     "etichetta": "è uno dei"
+    },
+    {
+     "da": "laicita-dello-stato",
+     "a": "liberta-religiosa",
+     "tipo": "collegato",
+     "etichetta": "garantisce la"
+    }
+   ]
+  },
+  {
+   "id": "agcom",
+   "oltre": "### Un'autorità indipendente convergente\nL'Autorità per le garanzie nelle comunicazioni (AGCOM), istituita dalla legge n. 249 del 1997, è un'autorità amministrativa indipendente con competenze su telecomunicazioni, radiotelevisione, editoria e servizi postali: un'unica autorità per settori che la tecnologia ha reso convergenti.\n\nVigila sul rispetto del pluralismo e sui limiti alle posizioni dominanti, applica le regole della par condicio nelle campagne elettorali insieme alla Commissione di vigilanza per i servizi radiotelevisivi, tutela gli utenti e regola i mercati delle comunicazioni. Come le altre autorità indipendenti, è sottratta all'indirizzo politico del Governo e risponde al Parlamento, che ne elegge in parte i componenti.",
+   "daSapere": [
+    "Istituita dalla l. 249/1997",
+    "Telecomunicazioni, radiotelevisione, editoria, poste",
+    "Vigila su pluralismo e par condicio"
+   ],
+   "collegamenti": [
+    {
+     "da": "agcom",
+     "a": "pluralismo-informazione",
+     "tipo": "collegato",
+     "etichetta": "tutela il"
+    },
+    {
+     "da": "agcom",
+     "a": "par-condicio",
+     "tipo": "collegato",
+     "etichetta": "applica la"
+    }
+   ]
+  }
+ ]
 }

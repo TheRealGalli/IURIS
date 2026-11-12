@@ -1,1844 +1,1747 @@
 {
-  "id": "u13",
-  "ordine": 13,
-  "titolo": "La legge e gli atti con forza di legge",
-  "capitolo": "Capitolo IX · §§ 1–5",
-  "pagine": [
-    113,
-    125
-  ],
-  "abstract": "Procedimento parlamentare, fonti particolari, delega legislativa e decretazione d’urgenza con le rispettive garanzie.",
-  "note": "Il decreto-legge va presentato alle Camere il giorno stesso. La conversione non sana la mancanza evidente di necessità e urgenza.",
-  "noteRedazione": [
-    "p. 113: corretti cinque consiglieri in cinque Consigli regionali per la richiesta dell’art. 138.",
-    "p. 117: autorizzazione alla ratifica, non a modificare i trattati. La sede redigente varia fra le Camere; non confuse le fasi interne con successive letture bicamerali.",
-    "pp. 118–119: non tutte le leggi atipiche sono automaticamente sottratte al referendum. Aggiornati bilancio e statuti ordinari, senza mantenere qualificazioni di discipline superate.",
-    "p. 121: il testo unico richiede distinzione fra natura normativa e compilativa; omissione o riproduzione non comportano sempre automaticamente abrogazione o reviviscenza.",
-    "p. 122: decreto presentato il giorno stesso, non il giorno dopo; la decadenza non rende automaticamente ogni condotta penalmente illecita. Testo: https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-ii/articolo-77 .",
-    "pp. 123–125: corretta la sanatoria generale della conversione; evidente mancanza dei presupposti non sanata, Corte cost. 171/2007 https://www.cortecostituzionale.it/scheda-pronuncia/2007/171 . Omogeneità della conversione: Corte cost. 22/2012 e quadro https://www.cortecostituzionale.it/settantesimo/volumi/i-limiti-del-legislatore.html . Incluse le prime righe di p. 125 che completano gli emendamenti.",
-    "Confrontate anche le risposte integrative pp. 178–180: distinte riserva di assemblea e riserva di legge formale; il vecchio esempio di legge di bilancio depotenziata va letto alla luce del nuovo art. 81 e della l. 163/2016, non riprodotto come disciplina vigente."
-  ],
-  "lezioni": [
+ "id": "u13",
+ "ordine": 13,
+ "titolo": "Il potere legislativo del popolo: il referendum",
+ "capitolo": "Parte II · Capitolo II",
+ "pagine": [
+  114,
+  118
+ ],
+ "abstract": "Il popolo partecipa alla funzione legislativa con l'iniziativa, il referendum costituzionale e soprattutto il referendum abrogativo dell'art. 75: richiesta di 500.000 elettori o cinque Consigli regionali, materie escluse, doppio quorum, giudizio di ammissibilità della Corte costituzionale e controllo dell'Ufficio centrale. Chiude il referendum d'indirizzo del 1989. Limiti di ammissibilità e quorum sono domande classiche.",
+ "note": "Il divieto di riproporre lo stesso referendum per cinque anni scatta solo se vincono i «no», non se manca il quorum. La sentenza capostipite sui limiti impliciti è la n. 16 del 1978.",
+ "noteRedazione": [
+  "p. 115: la legge costituzionale sul giudizio di ammissibilità è la l. cost. 11 marzo 1953, n. 1 (il riassunto scrive «22 marzo 1953»): corretto.",
+  "p. 116: la sentenza sui limiti impliciti è la n. 16 del 1978 (il riassunto scrive «sent. n. 6 del 1978»): corretto, come nella giurisprudenza nota e in Diritto Costituzionale u14.",
+  "p. 117: «Tale disposizione è stata giudicata incostituzionale» si riferisce all'art. 39 della l. 352/1970, dichiarato illegittimo in parte dalla Corte cost. n. 68/1978: se la nuova legge non cambia i principi ispiratori né i contenuti essenziali, il referendum si trasferisce sulle nuove disposizioni. La sintesi lo spiega così; il riassunto lo dice in modo confuso.",
+  "p. 116: il riassunto colloca nella stessa sentenza del 1978 anche i limiti delle disposizioni a contenuto costituzionalmente vincolato e della chiarezza del quesito; sono criteri sviluppati dalla giurisprudenza successiva a partire dalla n. 16/1978: la sintesi li presenta come «giurisprudenza della Corte» senza attribuirli tutti a quella sentenza.",
+  "p. 115: il riassunto riporta il quorum raggiunto nel 2011 «dopo 16 anni» (l'ultimo era del 1995): corretto. Dopo il 2011 il quorum non è stato raggiunto nei referendum del 2016, 2022 e 2025: dato non presente negli appunti, ricordato solo nell'approfondimento.",
+  "Aggiornamento: dal 2021 le firme per referendum e proposte di legge popolari si possono raccogliere anche online con firma elettronica, sulla piattaforma pubblica prevista dalla l. 178/2020 (art. 1, commi 341–344). Riportato in una riga.",
+  "p. 118: il referendum d'indirizzo fu indetto con l. cost. 3 aprile 1989, n. 2 e si svolse il 18 giugno 1989, insieme alle elezioni europee."
+ ],
+ "lezioni": [
+  {
+   "id": "u13-l1",
+   "titolo": "Il referendum abrogativo: disciplina, quorum e ammissibilità",
+   "pagine": [
+    114,
+    115
+   ],
+   "minuti": 30,
+   "sintesi": "### Il popolo legislatore\nIl popolo esercita la funzione legislativa non solo attraverso i suoi rappresentanti ma anche **in modo diretto**, in tre momenti del procedimento:\n\n| Momento | Strumento | Dove si studia |\n|---|---|---|\n| fase introduttiva | [[iniziativa-legislativa-popolare|iniziativa legislativa popolare]] (50.000 elettori, art. 71) | procedimento legislativo |\n| fase costitutiva | [[referendum-costituzionale|referendum costituzionale]] (art. 138) | revisione costituzionale |\n| in via diretta ed esclusiva | [[referendum-abrogativo|referendum abrogativo]] (art. 75) | qui |\n\nIn questo modo la [[sovranita-popolare|sovranità popolare]] si rende operante e concreta.\n\n### La disciplina dell'art. 75\nIl referendum abrogativo è disciplinato dall'art. 75 Cost. e dagli artt. 27–40 della **legge 352/1970** (attuata ventidue anni dopo la [[costituzione-italiana|Costituzione]]). È indetto dal [[presidente-della-repubblica|Presidente della Repubblica]] (art. 87) per deliberare l'abrogazione, **totale o parziale**, di una legge o di un atto avente forza di legge, quando lo chiedono:\n\n- **500.000 elettori**, oppure\n- **cinque Consigli regionali**.\n\nIl secondo comma esclude il referendum per quattro categorie di leggi: **tributarie e di bilancio**, di **amnistia e indulto**, di **autorizzazione a ratificare trattati internazionali**. La ragione è di opportunità politica: il Costituente ha voluto riservare al [[parlamento|Parlamento]] la tutela di alcuni interessi fondamentali dello Stato, sottraendoli a decisioni emotive o demagogiche.\n\n### Il voto: diritto o dovere?\nPartecipa l'intero [[popolo|corpo elettorale]] della [[camera-dei-deputati|Camera]]. Si discute se votare sia anche un dovere: per **Fois** e **Barile** il dovere civico dell'art. 48 vale solo nelle elezioni in senso proprio, che scelgono i membri degli organi rappresentativi; per **Bassanini** il voto è sempre espressione della volontà popolare e quindi un dovere costituzionale, il cui adempimento è però rimesso alla sensibilità democratica del cittadino.\n\n### Il doppio quorum\nLa proposta è approvata se:\n1. partecipa al voto la **maggioranza degli aventi diritto** ([[quorum-referendario|quorum di validità]]);\n2. si raggiunge la **maggioranza dei voti validamente espressi**.\n\nLa regola, già presente nella Costituzione di Weimar del 1919, può neutralizzare il referendum: chi si oppone all'abrogazione può invitare all'**astensione** e farlo fallire, come è accaduto più volte in Italia. Nel 2011, dopo sedici anni, il quorum fu di nuovo raggiunto.\n\n### Il giudizio di ammissibilità\nSull'ammissibilità decide la [[corte-costituzionale|Corte costituzionale]] (art. 2 l. cost. 1/1953): accerta se l'atto oggetto della richiesta rientri tra quelli esclusi dall'art. 75. È un controllo distinto da quello di legittimità delle leggi: riguarda la richiesta, non la legge ([[ammissibilita-referendum|giudizio di ammissibilità]]).\n\n### I referendum del 2011 e il vincolo che ne deriva\nIl **12 e 13 giugno 2011** gli elettori abrogarono norme su: affidamento e gestione dei servizi pubblici locali di rilevanza economica; tariffa del servizio idrico; produzione di energia nucleare; legittimo impedimento del [[presidente-del-consiglio|Presidente del Consiglio]] a comparire nelle udienze penali. Poco dopo il [[governo|Governo]] adottò un [[decreto-legge|decreto-legge]] che dettava di nuovo una disciplina dei servizi pubblici locali sostanzialmente uguale. Alcune [[regioni|Regioni]] lo impugnarono e la Corte, con la **sentenza 199/2012**, lo dichiarò illegittimo: il legislatore non può ripristinare la normativa abrogata dalla volontà popolare ([[divieto-di-ripristino|divieto di ripristino]]), almeno finché non mutino le circostanze di fatto o di diritto.\n\nDal 2021 le firme si possono raccogliere anche online, con firma elettronica, su una piattaforma pubblica.\n\n### Precisazioni utili\n- Il [[referendum-abrogativo|referendum]] colpisce solo leggi e atti con forza di legge **dello Stato**: non la Costituzione e le leggi costituzionali, non i regolamenti governativi, non gli atti dell'[[unione-europea|Unione europea]].\n- **Un quinto dei parlamentari** può chiedere il [[referendum-costituzionale|referendum costituzionale]] dell'art. 138, non quello abrogativo.\n- Le schede bianche contano per il [[quorum-referendario|quorum]] ma non come sì: molte bianche possono rendere valido un voto senza far vincere l'abrogazione.\n- Il **mancato quorum** non equivale alla vittoria del no e non fa scattare il divieto quinquennale di riproposizione.\n- Il referendum costituzionale si vota **prima** della promulgazione e **non ha quorum**; quello abrogativo elimina una fonte già in vigore.\n\nIl primo referendum abrogativo si tenne il 12–13 maggio 1974, sulla legge che aveva introdotto il divorzio: prevalsero i no e la legge rimase.",
+   "puntiChiave": [
+    "Il popolo interviene nella fase introduttiva (iniziativa), costitutiva (referendum costituzionale) e in via diretta (referendum abrogativo).",
+    "Art. 75: abrogazione totale o parziale su richiesta di 500.000 elettori o cinque Consigli regionali.",
+    "Esclusi: leggi tributarie e di bilancio, amnistia e indulto, autorizzazione alla ratifica.",
+    "Doppio quorum: maggioranza degli aventi diritto al voto e maggioranza dei voti validi.",
+    "L'ammissibilità è giudicata dalla Corte costituzionale (l. cost. 1/1953).",
+    "Sent. 199/2012: il legislatore non può ripristinare la normativa abrogata dal referendum."
+   ],
+   "memoria": [
     {
-      "titolo": "Come nasce una legge: iniziativa, Camere, promulgazione",
-      "pagine": [
-        113,
-        118
-      ],
-      "sintesi": "### Legge ordinaria e rango costituzionale\nLa [[legge-ordinaria]] è deliberata dal [[parlamento|Parlamento]] nel procedimento costituzionale e ha forza primaria, subordinata alla [[costituzione|Costituzione]]. Può modificare precedenti leggi nei limiti di competenza, ma non cambiare la carta con una votazione ordinaria. Per la [[legge-costituzionale]] e la revisione si applica l'art. 138: due deliberazioni di ogni Camera, intervallo minimo di tre mesi nella medesima Camera e almeno maggioranza assoluta nella seconda. L'eventuale referendum e i limiti dell'art. 139 e dei [[principi-supremi|principi supremi]] completano la garanzia.\n\nLe [[revisione-costituzionale|leggi di revisione]] modificano il testo costituzionale; le altre leggi costituzionali possono introdurre discipline di rango costituzionale senza riscriverne direttamente un articolo. La distinzione non cambia la necessità del procedimento aggravato. Il referendum dell'art. 138 può essere richiesto da un quinto dei membri di una Camera, cinquecentomila elettori oppure **cinque [[consiglio-regionale|Consigli regionali]]**, non cinque singoli consiglieri. È escluso se entrambe le Camere raggiungono i due terzi nella seconda votazione e non richiede un [[quorum-referendario|quorum di partecipazione]].\n\nNella prima deliberazione le Camere devono anzitutto raggiungere un testo concorde; la seconda deliberazione serve a confermare una scelta già definita dopo il periodo di riflessione. Il requisito della maggioranza assoluta si misura sui componenti, non soltanto sui votanti. Se una Camera raggiunge i due terzi e l'altra soltanto la maggioranza assoluta, la possibilità del referendum resta aperta: l'esclusione richiede i due terzi in entrambe. La pubblicazione destinata ad aprire i tre mesi per la richiesta non è ancora la normale pubblicazione di una legge già promulgata ed efficace. Solo dopo il completamento del percorso possono seguire [[promulgazione|promulgazione]] ed entrata in vigore. Questa distinzione evita di pensare che il referendum abroghi una revisione già operativa: in questa procedura il voto popolare interviene prima del suo perfezionamento.\n+\n+### L'iniziativa apre il procedimento\nL'[[iniziativa-legislativa]] presenta a una Camera un progetto articolato con una relazione illustrativa. Ne sono titolari [[governo|Governo]], ciascun parlamentare, popolo e gli altri organi o enti cui la Costituzione attribuisce il potere. Il [[cnel|CNEL]] opera nelle materie proprie; i Consigli regionali possono presentare proposte alle Camere. I [[enti-locali|Comuni]] intervengono nella specifica iniziativa territoriale dell'art. 133: non ne deriva un generale potere identico a quello parlamentare.\n\nPer l'iniziativa governativa il [[consiglio-dei-ministri|Consiglio dei ministri]] approva il disegno e il [[presidente-della-repubblica|Presidente della Repubblica]] ne autorizza la presentazione. Il parlamentare presenta alla Camera cui appartiene. L'iniziativa popolare richiede almeno cinquantamila elettori e un progetto redatto in articoli: non è un referendum e non fa entrare automaticamente in vigore la proposta. Il numero dei firmatari non sostituisce esame, discussione e voto.\n\nIl linguaggio non va usato come criterio assoluto: alla Camera si distingue usualmente disegno governativo e proposta parlamentare o popolare; al [[senato|Senato]] è comune chiamare disegni di legge anche altri progetti. Quel che conta è individuare titolare dell'iniziativa e procedimento, non dedurre l'origine soltanto da una denominazione redazionale.\n\nIl progetto deve distinguere la regola proposta dalle ragioni che la giustificano. La relazione aiuta a comprendere obiettivi, effetti e problemi, ma non sostituisce gli articoli: ciò che viene votato deve poter essere identificato come testo normativo. La scelta dell'iniziativa non attribuisce al proponente il controllo esclusivo sulle fasi successive. Una proposta parlamentare può essere modificata, così come un disegno governativo; la condivisione politica degli scopi non elimina il potere delle Camere di intervenire sul contenuto.\n+\n+### Tre sedi del lavoro in commissione\nL'art. 72 richiede esame in commissione e successiva decisione secondo le procedure previste. Nella [[commissione-referente]] il collegio istruisce il progetto, propone un testo e riferisce all'assemblea, che discute, esamina articoli ed emendamenti e vota il complesso. Gli emendamenti possono sopprimere, sostituire o aggiungere [[disposizione|disposizioni]]; la votazione finale riguarda il testo risultante, che può essere molto diverso dalla proposta iniziale.\n\n| Sede | Ruolo della commissione | Ruolo dell'assemblea |\n|---|---|---|\n| Referente | Esame e relazione | Discussione, articoli e voto finale |\n| Deliberante o legislativa | Anche approvazione secondo le regole | Possibile rimessione nei casi previsti |\n| Redigente | Formulazione del testo secondo il regolamento | Restano le votazioni che il regolamento riserva all'aula |\n\nLa [[commissione-deliberante]] consente un decentramento più forte, ma non per ogni materia. La [[riserva-di-assemblea]] dell'art. 72 impone il procedimento normale per progetti costituzionali ed elettorali, delegazione legislativa, autorizzazione alla ratifica dei trattati e approvazione di bilanci e consuntivi. Gli appunti scrivono per errore autorizzazione a modificare i trattati: l'istituto è la ratifica.\n\nFino all'approvazione definitiva il Governo, un decimo dei componenti della Camera interessata o un quinto della commissione può chiedere la rimessione all'assemblea nelle forme dell'art. 72. Sono soglie di garanzia contro un decentramento che escluda l'intera rappresentanza dal confronto. La sede redigente ha regole differenti nei due rami: non va descritta come una sequenza identica in ogni dettaglio.\n\n### Due Camere, un testo\nLa [[navetta-parlamentare]] deriva dal [[bicameralismo-paritario|bicameralismo paritario]]. Dopo l'approvazione in un ramo, il progetto passa all'altro; una modifica impone un nuovo esame del testo modificato nel primo. La legge richiede un contenuto identico approvato da entrambi. Le discussioni generale, sugli articoli e sul complesso non sono tre approvazioni bicamerali: sono fasi del lavoro interno di ciascuna assemblea.\n\nL'approvazione parlamentare non coincide con la pubblicazione. Il Presidente promulga entro un mese, salvo il termine più breve consentito dall'art. 73 in caso di urgenza dichiarata dalle Camere a maggioranza assoluta. Può prima rinviare motivatamente per una nuova deliberazione ai sensi dell'art. 74. Dopo la nuova approvazione opera il dovere costituzionale di promulgazione. Il controllo presidenziale non è un giudizio preventivo ordinario della [[corte-costituzionale|Corte costituzionale]] su ogni legge.\n\nUn esempio rende visibile il requisito del testo identico. La Camera approva gli articoli A e B; il Senato modifica B. Il consenso su A non permette di pubblicare l'intero progetto ignorando il dissenso su B: il testo torna alla Camera. Se questa accetta la modifica, il passaggio parlamentare si conclude; se la cambia ancora, serve un ulteriore esame. La navetta non dipende dal nome del proponente e non viene eliminata dall'urgenza politica. Il confronto può essere organizzato e accelerato secondo le regole, ma la maggioranza di un ramo non vale giuridicamente anche come voto dell'altro. Per questo è utile tenere distinta la durata del negoziato dalla sequenza degli atti necessari.\n+\n+### Efficacia e conoscibilità\nLa legge è pubblicata subito dopo la promulgazione e, salvo termine diverso, entra in vigore il quindicesimo giorno successivo alla pubblicazione. La vacatio rende conoscibile la nuova disciplina; disposizioni transitorie e decorrenze specifiche possono distribuire nel tempo la sua applicazione. Per ricostruire la regola di un caso bisogna quindi distinguere data della legge, pubblicazione, entrata in vigore ed eventuale applicabilità differita.\n\nLa corretta sequenza assicura confronto, identità del testo, controllo istituzionale e conoscibilità. Non è una serie di formalità intercambiabili: mancare una votazione richiesta o alterare il testo dopo l'approvazione incide sulla validità della fonte. Iniziativa, formazione e integrazione dell'efficacia restano piani diversi del medesimo procedimento.",
-      "concetti": [
-        "legge-ordinaria",
-        "legge-costituzionale",
-        "iniziativa-legislativa",
-        "commissione-referente",
-        "commissione-deliberante",
-        "riserva-di-assemblea",
-        "navetta-parlamentare"
-      ],
-      "puntiChiave": [
-        "Iniziativa non è approvazione, e approvazione non è ancora pubblicazione.",
-        "Commissione referente e deliberante hanno poteri diversi, entro riserve e garanzie.",
-        "Due Camere devono approvare lo stesso testo."
-      ],
-      "memoria": [
-        {
-          "voce": "72",
-          "dettaglio": "Esame, sedi e riserva d’assemblea; rimessione chiesta da Governo, 1/10 della Camera o 1/5 della commissione."
-        },
-        {
-          "voce": "73–74",
-          "dettaglio": "Promulgazione, rinvio e pubblicazione; vacatio ordinaria di 15 giorni."
-        }
-      ],
-      "id": "u13-l1",
-      "minuti": 45
+     "voce": "Art. 75",
+     "dettaglio": "referendum abrogativo"
     },
     {
-      "titolo": "Leggi particolari, delega e testi unici",
-      "pagine": [
-        118,
-        121
-      ],
-      "sintesi": "### Rinforzo e atipicità non significano un rango costituzionale\nUna [[legge-rinforzata]] richiede un procedimento ulteriore rispetto a quello ordinario, come maggioranze qualificate o un accordo costituzionalmente necessario. L'art. 79 richiede i due terzi dei componenti per amnistia e indulto; l'art. 8 collega la legge sui rapporti con confessioni diverse dalla cattolica alle intese. Questi vincoli proteggono interessi o consensi che la maggioranza ordinaria non può ignorare. Non trasformano automaticamente la legge in una [[revisione-costituzionale|revisione costituzionale]].\n\nLa [[legge-atipica]] presenta una forza o un ambito di disciplina peculiare: la relazione con altre fonti non dipende soltanto dalla veste esterna di legge. La categoria comprende casi diversi e non autorizza a concludere che tutte siano sottratte al referendum. L'art. 75 esclude specifiche materie, come tributi, bilanci, amnistia, indulto e autorizzazione alla ratifica; altri limiti derivano dalla giurisprudenza e vanno motivati per ciascuna ipotesi. L'atipicità è una chiave descrittiva, non una clausola costituzionale unica.\n\nLa [[legge-di-bilancio|legge di bilancio]] non è più soltanto formale dopo il 2012 e la riforma del 2016; gli [[statuto-regionale|statuti regionali]] ordinari non sono oggi approvati con legge statale secondo la vecchia procedura. Questi esempi degli appunti richiedono aggiornamenti prima di utilizzarli per spiegare le fonti particolari.\n\n### Il Parlamento autorizza un esercizio limitato\nLa [[legge-delega]] permette al [[governo|Governo]] di esercitare una funzione legislativa entro confini prefissati. L'art. 76 richiede oggetti definiti, tempo limitato e principi e criteri direttivi. Oggetto indica il settore preciso da disciplinare; il termine delimita il periodo d'esercizio; principi e criteri orientano le scelte. Una delega generale e indeterminata svuoterebbe la funzione parlamentare e violerebbe la [[costituzione|Costituzione]].\n\nLa delega deve essere approvata con il procedimento normale, per la [[riserva-di-assemblea|riserva d'assemblea]]. Il [[parlamento|Parlamento]] non perde la propria potestà: può legiferare anche sulla materia delegata e intervenire sui limiti del conferimento. Non trasferisce definitivamente la [[sovranita|sovranità]] legislativa a un altro organo. Il Governo non può invece ampliare o prorogare da solo la delega mediante lo stesso decreto che dovrebbe rispettarla.\n\nLa legge può richiedere passaggi ulteriori: pareri delle commissioni, consultazioni, intese o esercizio con più decreti su oggetti distinti. Questi adempimenti vanno verificati nel testo concreto. Il parere parlamentare sullo schema non equivale alla [[legge-di-conversione|legge di conversione]]: non è il procedimento del [[decreto-legge|decreto-legge]] e non introduce un termine costituzionale generale di sessanta giorni. Gli eventuali decreti integrativi o correttivi richiedono una delega che li autorizzi nei propri termini; non sono un potere permanente implicito.\n\n### Il decreto legislativo e il controllo dei limiti\nIl [[decreto-legislativo]] ha forza di legge ma forma governativa. Il procedimento comprende proposta ministeriale, eventuali consultazioni e pareri richiesti, deliberazione del [[consiglio-dei-ministri|Consiglio dei ministri]], emanazione del [[presidente-della-repubblica|Presidente della Repubblica]] e pubblicazione. Lo schema può avere passaggi intermedi e una successiva deliberazione dopo i pareri. La denominazione ufficiale è decreto legislativo, secondo la legge n. 400/1988.\n\nL'emanazione deve rispettare il termine della delega: una semplice deliberazione governativa entro la scadenza non consente di ignorare la data richiesta dalla legge per esercitarla. La premessa documenta il fondamento costituzionale, la delega e i passaggi effettuati. Non basta citare un numero di legge se il contenuto o il procedimento escono dai suoi limiti.\n\nL'[[eccesso-di-delega]] si verifica quando il decreto viola oggetti, criteri, termini o vincoli del conferimento. La legge delega opera come parametro interposto del controllo costituzionale, in collegamento con l'art. 76. L'invalidità non viene risolta dal giudice comune applicando semplicemente il [[criterio-cronologico|criterio cronologico]] a favore del decreto più recente: le due fonti sono legate da una relazione costituzionale specifica. Anche l'illegittimità della delega può riflettersi sull'atto delegato nei termini del giudizio della [[corte-costituzionale|Corte]].\n\n### Testo unico normativo o semplice raccolta?\nIl [[testo-unico]] riunisce e coordina disposizioni di una materia. Quando ha carattere normativo e innova il quadro legislativo richiede un fondamento adeguato, normalmente una delega, e assume la forza dell'atto adottato. La finalità di coordinamento può limitare le scelte, ma non esenta dai requisiti dell'art. 76. Dire che un testo unico non contiene mai principi e criteri perché basta il riordino sarebbe una conclusione troppo ampia.\n\nUn testo di mera compilazione serve invece alla conoscenza e non attribuisce all'autore la libertà di abrogare o far rivivere norme. La diversa natura incide anche sulle omissioni: una [[disposizione|disposizione]] non riprodotta non si considera sempre automaticamente abrogata, senza verificare fonte e disciplina del riordino. Per lo stesso motivo una vecchia norma inserita per errore in una raccolta non riacquista necessariamente vigore. Occorre leggere la delega, il testo e le clausole di [[abrogazione|abrogazione]] e coordinamento, distinguendo funzione normativa e documentale.",
-      "concetti": [
-        "legge-rinforzata",
-        "legge-atipica",
-        "legge-delega",
-        "decreto-legislativo",
-        "eccesso-di-delega",
-        "testo-unico"
-      ],
-      "puntiChiave": [
-        "Delega: oggetti, tempo, principi e criteri direttivi; il Parlamento conserva il proprio potere.",
-        "Il decreto delegato non converte e non amplia la propria fonte abilitante.",
-        "Testo unico normativo e raccolta compilativa hanno effetti diversi."
-      ],
-      "memoria": [
-        {
-          "voce": "76",
-          "dettaglio": "Oggetti definiti, tempo limitato, principi e criteri direttivi."
-        },
-        {
-          "voce": "Controllo",
-          "dettaglio": "La legge delega è parametro interposto: violarla può violare l’art. 76."
-        }
-      ],
-      "id": "u13-l2",
-      "minuti": 30
+     "voce": "500.000 / 5",
+     "dettaglio": "elettori o Consigli regionali"
     },
     {
-      "titolo": "Decreto-legge: urgenza, conversione e decadenza",
-      "pagine": [
-        122,
-        125
-      ],
-      "sintesi": "### Un potere provvisorio, senza delega preventiva\nIl [[decreto-legge]] è il provvedimento provvisorio con forza di legge che il [[governo|Governo]] adotta sotto la propria responsabilità nei casi straordinari di necessità e urgenza dell'art. 77. È diverso dal [[decreto-legislativo|decreto legislativo]]: non esiste una delega preventiva che definisca l'intervento, ma un controllo parlamentare successivo attraverso la [[legge-di-conversione]]. La forza primaria immediata deve essere giustificata dalla necessità di produrre effetti senza attendere il procedimento ordinario.\n\nStraordinarietà, necessità e urgenza si valutano nel caso concreto. Non occorre identificare ogni situazione con una calamità imprevedibile: anche una scadenza nota può richiedere una valutazione sulle ragioni effettive dell'intervento. Ma la semplice preferenza del Governo per una via più rapida non sostituisce i presupposti costituzionali. La relazione, il preambolo e il contenuto devono consentire di ricostruire il collegamento fra situazione e misure.\n\nIl [[consiglio-dei-ministri|Consiglio dei ministri]] delibera; il [[presidente-della-repubblica|Presidente della Repubblica]] emana; segue pubblicazione e l'entrata in vigore stabilita, normalmente immediata o molto ravvicinata. Emanazione presidenziale e responsabilità governativa non eliminano il controllo della [[corte-costituzionale|Corte costituzionale]]. Anche una norma inserita in un decreto che contiene altre misure urgenti può essere viziata se è evidentemente estranea e priva del necessario fondamento.\n\n### Tre termini da non scambiare\n| Passaggio | Termine costituzionale |\n|---|---|\n| Presentazione alle [[parlamento|Camere]] per la conversione | Il giorno stesso, non il giorno dopo |\n| Riunione delle Camere appositamente convocate, anche se sciolte | Entro cinque giorni |\n| Conversione del decreto | Entro sessanta giorni dalla pubblicazione |\n\nL'art. 77 tutela quindi sia la rapidità dell'intervento sia il pronto coinvolgimento delle Camere. La fine della [[legislatura|legislatura]] non consente al Governo di mantenere un decreto fuori dal controllo parlamentare. I sessanta giorni decorrono dalla pubblicazione del decreto, non dal momento in cui una commissione decide di iniziare l'esame.\n\n### Se non è convertito\nLa [[decadenza-decreto-legge]] comporta perdita di efficacia fin dall'inizio. È più forte della normale [[abrogazione|abrogazione]] per il futuro: viene meno il fondamento provvisorio degli effetti prodotti. Non ne segue che ogni comportamento di ogni destinatario diventi automaticamente un reato. Le conseguenze devono essere ricostruite per ciascun rapporto e secondo le garanzie applicabili.\n\nLe Camere possono regolare con legge i rapporti sorti sulla base del decreto non convertito. Questa [[legge-di-sanatoria]] non è automatica e non rende il Governo titolare di una facoltà illimitata di conservare i propri atti. Deve rispettare [[costituzione|Costituzione]], diritti e limiti della retroattività. La responsabilità governativa dell'art. 77 resta politica e, dove ne ricorrano i presupposti, giuridica secondo le forme competenti: non è una sanzione penale automatica per ogni mancata conversione.\n\nLa [[reiterazione-decreti-legge]] ripropone sostanzialmente il contenuto di un decreto scaduto per prolungarne gli effetti. La sentenza n. 360/1996 ha censurato la riproduzione senza nuovi autonomi presupposti: altrimenti la provvisorietà diventerebbe una legislazione governativa stabile priva del voto richiesto. Un nuovo intervento deve fondarsi su una situazione nuova o su contenuti sostanzialmente differenti e sui propri requisiti, non sulla sola volontà di aggirare la scadenza.\n\n### Contenuto e limiti\nLa legge n. 400/1988 richiede misure di immediata applicazione, contenuto specifico e omogeneo e corrispondenza al titolo. Prevede inoltre limiti rispetto, fra l'altro, a deleghe legislative e materie riservate alla decisione parlamentare. La decretazione non può diventare uno strumento con cui il Governo si conferisce da solo la delega o si autorizza il bilancio. Le questioni elettorali e gli altri settori incontrano i limiti costituzionali e la ricostruzione della giurisprudenza, senza ridurre tutto a un divieto indifferenziato di qualsiasi [[disposizione|disposizione]] che menzioni elezioni.\n\nLa [[omogeneita-decreto-legge]] è un requisito anche del collegamento fra decreto e conversione. Un titolo generico non rende omogenee misure senza rapporto di oggetto o finalità. Il controllo non sostituisce ogni valutazione politica con quella della Corte: verifica il rispetto dei limiti costituzionali alla fonte straordinaria.\n\n### Conversione ed emendamenti\nLa legge di conversione è una legge parlamentare collegata al decreto. Le Camere possono convertirlo, respingerlo o modificarlo, ma non usare la procedura accelerata per aggiungere contenuti totalmente estranei. La sentenza n. 22/2012 ha chiarito il rilievo costituzionale del nesso funzionale. La conversione non è dunque un contenitore capace di sanare qualunque problema o far passare ogni altra legge.\n\nL'evidente mancanza dei presupposti di necessità e urgenza non viene guarita dal voto parlamentare: può viziare anche la conversione, come nella sentenza n. 171/2007. Gli appunti sostengono prima una sanatoria generale e poi, nella nota, riportano una giurisprudenza che la smentisce. Va seguita la distinzione corretta, non l'affermazione più semplificata del testo.\n\nGli emendamenti possono aggiungere, sostituire o sopprimere. Le modifiche operano normalmente dal giorno successivo alla pubblicazione della conversione, salvo disciplina diversa, ma occorre distinguere la modifica per il futuro dalla mancata conversione di una disposizione e dalla sua perdita di efficacia originaria. La sorte dei rapporti anteriori non si risolve con la sola etichetta emendamento. Bisogna verificare testo, effetto e norme transitorie nel quadro dell'art. 77.",
-      "concetti": [
-        "decreto-legge",
-        "legge-di-conversione",
-        "decadenza-decreto-legge",
-        "legge-di-sanatoria",
-        "reiterazione-decreti-legge",
-        "omogeneita-decreto-legge"
-      ],
-      "puntiChiave": [
-        "Art. 77: stesso giorno, cinque giorni, sessanta giorni.",
-        "La mancata conversione produce perdita di efficacia originaria, non semplice abrogazione.",
-        "Conversione non sana l’evidente mancanza di necessità e urgenza né consente emendamenti del tutto estranei."
-      ],
-      "memoria": [
-        {
-          "voce": "77",
-          "dettaglio": "Presupposti straordinari; forza provvisoria; conversione parlamentare entro 60 giorni."
-        },
-        {
-          "voce": "Giurisprudenza",
-          "dettaglio": "360/1996 reiterazione; 171/2007 presupposti; 22/2012 omogeneità della conversione."
-        }
-      ],
-      "id": "u13-l3",
-      "minuti": 35
+     "voce": "L. 352/1970",
+     "dettaglio": "legge di attuazione dei referendum"
+    },
+    {
+     "voce": "Weimar 1919",
+     "dettaglio": "modello del quorum di partecipazione"
+    },
+    {
+     "voce": "12–13 giugno 2011",
+     "dettaglio": "acqua, servizi pubblici locali, nucleare, legittimo impedimento"
+    },
+    {
+     "voce": "Sent. 199/2012",
+     "dettaglio": "divieto di ripristino della normativa abrogata"
     }
-  ],
-  "concetti": [
-    {
-      "id": "legge-ordinaria",
-      "nome": "Legge ordinaria",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Fonte primaria deliberata dal Parlamento secondo la Costituzione.",
-      "definizione": "È l'atto normativo approvato dal **Parlamento** con il procedimento degli artt. 70–74 Cost.: la funzione legislativa è esercitata **collettivamente dalle due Camere**, che devono approvare lo stesso testo. È la [[fonti-atto|fonte]] **primaria** per eccellenza: sta sotto la Costituzione e le leggi costituzionali e sopra i regolamenti. Ha competenza **generale**: può disciplinare qualsiasi materia non riservata ad altre fonti (leggi regionali, regolamenti parlamentari) e può abrogare leggi precedenti e resistere all'abrogazione da parte di fonti inferiori (forza di legge). Il procedimento ha quattro fasi: iniziativa, approvazione, promulgazione, pubblicazione. Hanno la stessa forza il [[decreto-legge]] e il [[decreto-legislativo]]. È sottoposta al controllo della Corte costituzionale e al referendum abrogativo.",
-      "pagine": [
-        113,
-        118
-      ]
-    },
-    {
-      "id": "legge-costituzionale",
-      "nome": "Legge costituzionale",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Fonte di rango costituzionale adottata con l’art. 138.",
-      "definizione": "È la legge approvata con il **procedimento aggravato** dell'art. 138 Cost. ([[revisione-costituzionale]]): due deliberazioni di ciascuna Camera a distanza di almeno tre mesi, maggioranza assoluta nella seconda, eventuale referendum se non si raggiungono i due terzi. Ha lo **stesso rango della Costituzione**. Si distinguono le **leggi di revisione**, che modificano il testo della Costituzione, e le **altre leggi costituzionali**, che la Costituzione stessa prevede in certe materie (statuti delle Regioni speciali, art. 116; norme sulla Corte costituzionale, art. 137) o che derogano a singole disposizioni. Incontrano i limiti della forma repubblicana (art. 139) e dei [[principi-supremi]]: per questo anch'esse possono essere giudicate dalla Corte costituzionale.",
-      "pagine": [
-        113,
-        114
-      ]
-    },
-    {
-      "id": "iniziativa-legislativa",
-      "nome": "Iniziativa legislativa",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Presentazione di un progetto articolato a una Camera da un soggetto abilitato.",
-      "definizione": "È il potere di **presentare un progetto di legge** a una Camera, mettendo in moto il procedimento legislativo; il progetto deve essere redatto in articoli. Per l'art. 71 Cost. spetta al **Governo** (disegni di legge deliberati dal Consiglio dei ministri e autorizzati dal Presidente della Repubblica: è l'iniziativa più importante, e l'unica possibile per il bilancio e la conversione dei decreti-legge), a **ciascun parlamentare**, al **popolo** (cinquantamila elettori: [[iniziativa-legislativa-popolare]]), al **CNEL** (art. 99) e ai **Consigli regionali** (art. 121). Chi ha l'iniziativa non ha diritto all'approvazione, né di regola all'esame entro un termine. Le proposte decadono a fine legislatura, salvo quelle popolari.",
-      "pagine": [
-        115,
-        116
-      ]
-    },
-    {
-      "id": "commissione-referente",
-      "nome": "Commissione in sede referente",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Esame istruttorio del progetto con relazione all’assemblea.",
-      "definizione": "È il modo **ordinario** di esame di un progetto di legge (art. 72, primo comma, Cost.). La commissione permanente competente per materia, in **sede referente**, **istruisce** il progetto: lo discute, lo modifica con emendamenti, acquisisce i pareri di altre commissioni e prepara per l'aula un testo accompagnato da una relazione. L'**assemblea** poi lo discute e lo vota articolo per articolo e con votazione finale. È il procedimento **obbligatorio** per le materie coperte dalla [[riserva-di-assemblea]]. Si distingue dalla sede **deliberante** ([[commissione-deliberante]]), in cui la commissione approva direttamente la legge, e dalla sede **redigente**, in cui la commissione vota gli articoli e l'aula solo il testo finale.",
-      "pagine": [
-        116,
-        117
-      ]
-    },
-    {
-      "id": "commissione-deliberante",
-      "nome": "Commissione in sede deliberante",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Approvazione del progetto in commissione nei limiti ammessi.",
-      "definizione": "È il procedimento **decentrato** previsto dall'art. 72, terzo comma, Cost. (sede **legislativa** alla Camera): la commissione permanente non si limita a istruire il progetto, ma lo **approva in via definitiva**, senza passare dall'aula. Serve ad alleggerire il lavoro dell'assemblea per le leggi minori. Le garanzie sono due. La commissione è composta in **proporzione ai gruppi**. Fino all'approvazione finale il progetto è **rimesso all'aula** se lo chiedono il **Governo**, **un decimo** dei componenti della Camera o **un quinto** della commissione. Non è ammessa nelle materie della [[riserva-di-assemblea]]. Si distingue dalla [[commissione-referente]], che è la procedura normale. Fu molto usata fino agli anni Ottanta.",
-      "pagine": [
-        117,
-        117
-      ]
-    },
-    {
-      "id": "riserva-di-assemblea",
-      "nome": "Riserva d’assemblea",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Obbligo del procedimento normale con deliberazione dell’aula per determinate leggi.",
-      "definizione": "È la regola dell'art. 72, quarto comma, Cost.: per alcune leggi è **sempre** adottata la **procedura normale** di esame e di approvazione diretta da parte dell'**aula**, con la commissione solo in sede referente. Riguarda i disegni di legge in **materia costituzionale ed elettorale**, quelli di **delegazione legislativa**, di **autorizzazione a ratificare trattati internazionali**, di **approvazione di bilanci e consuntivi**. Per queste decisioni, le più importanti, la Costituzione vuole il dibattito pubblico di tutta l'assemblea ed esclude la [[commissione-deliberante]]. Non va confusa con la [[riserva-di-legge]]: quella riguarda il rapporto tra la legge e le altre fonti; questa riguarda il **modo** in cui la legge viene approvata.",
-      "pagine": [
-        117,
-        117
-      ]
-    },
-    {
-      "id": "navetta-parlamentare",
-      "nome": "Navetta parlamentare",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Passaggi fra Camere finché non approvano un testo identico.",
-      "definizione": "È il **passaggio ripetuto** di un progetto di legge da una Camera all'altra, finché entrambe non lo approvano nell'**identico testo**. È una conseguenza del [[bicameralismo-paritario]] (art. 70): se la seconda Camera modifica il testo approvato dalla prima, il progetto deve tornare a questa, che esamina **solo le parti modificate**; e così via, senza un limite al numero dei passaggi. La Costituzione italiana non prevede un organo di conciliazione tra le Camere né la prevalenza finale di una delle due, come accade in altri ordinamenti. Nella prassi i gruppi di maggioranza concordano il testo in anticipo, e la seconda lettura è spesso solo una conferma.",
-      "pagine": [
-        117,
-        118
-      ]
-    },
-    {
-      "id": "legge-rinforzata",
-      "nome": "Legge rinforzata",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Legge che richiede maggioranze o passaggi ulteriori.",
-      "definizione": "È la legge ordinaria per la quale la Costituzione prescrive un **procedimento più complesso** di quello normale: un aggravamento nella formazione. Esempi: la legge di **amnistia e indulto**, approvata a maggioranza dei **due terzi** in ogni articolo e nella votazione finale (art. 79); le leggi che regolano i rapporti con le **confessioni religiose** diverse dalla cattolica, sulla base di **intese** (art. 8); la legge sull'**autonomia differenziata**, su intesa con la Regione e a maggioranza assoluta (art. 116); la legge sul contenuto del **bilancio**, a maggioranza assoluta (art. 81); la modifica dei territori regionali (art. 132). Una legge ordinaria comune non può modificarle: hanno una forza passiva maggiore. Non hanno rango costituzionale. Sono vicine alle [[legge-atipica|leggi atipiche]].",
-      "pagine": [
-        118,
-        119
-      ]
-    },
-    {
-      "id": "legge-atipica",
-      "nome": "Legge atipica",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Legge con forza o ambito peculiare rispetto al modello ordinario.",
-      "definizione": "È la legge che ha una **forza diversa** da quella tipica della legge ordinaria: una forza **attiva** minore (può fare meno) o una forza **passiva** maggiore (resiste di più all'abrogazione). Sono atipiche, per esempio, le leggi che l'art. 75 **sottrae al referendum abrogativo** (tributarie e di bilancio, di amnistia e indulto, di autorizzazione alla ratifica dei trattati): non possono essere abrogate dal corpo elettorale. Lo sono la legge di **bilancio** e quella di **autorizzazione alla ratifica**, che hanno un contenuto vincolato, e la legge di esecuzione dei **Patti lateranensi** (art. 7). La categoria, di origine dottrinale, è vicina a quella delle [[legge-rinforzata|leggi rinforzate]]: lì è speciale il procedimento, qui l'efficacia.",
-      "pagine": [
-        118,
-        119
-      ]
-    },
-    {
-      "id": "legge-delega",
-      "nome": "Legge delega",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Legge parlamentare che abilita un esercizio governativo limitato della legislazione.",
-      "definizione": "È la legge con cui il Parlamento **delega al Governo** l'esercizio della funzione legislativa su una materia (art. 76 Cost.). Deve contenere tre elementi: l'**oggetto definito** (non una delega in bianco); il **tempo limitato** entro cui il Governo deve provvedere; i **principi e criteri direttivi** a cui deve attenersi. È una legge **formale**: va approvata dall'aula con il procedimento ordinario ([[riserva-di-assemblea]]). Non trasferisce il potere legislativo: il Parlamento resta libero di legiferare sulla stessa materia e di revocare la delega. Il Governo la esercita con il [[decreto-legislativo]]. Serve per le discipline tecniche e complesse (codici, riforme organiche). I suoi contenuti sono il metro per giudicare l'[[eccesso-di-delega]].",
-      "pagine": [
-        119,
-        120
-      ]
-    },
-    {
-      "id": "decreto-legislativo",
-      "nome": "Decreto legislativo",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Atto governativo con forza di legge adottato sulla base di una delega.",
-      "definizione": "È l'atto **con forza di legge** che il Governo adotta in base a una [[legge-delega]] del Parlamento (artt. 76 e 77, primo comma, Cost.); è detto anche decreto delegato. Lo **delibera il Consiglio dei ministri** e lo **emana il Presidente della Repubblica**; nel preambolo richiama la legge di delegazione. Spesso la delega richiede il parere delle commissioni parlamentari. Deve rispettare oggetto, termine, principi e criteri direttivi: altrimenti è incostituzionale per [[eccesso-di-delega]]. A differenza del [[decreto-legge]], non nasce dall'urgenza, non è provvisorio e **non deve essere convertito**: l'intervento del Parlamento è preventivo, non successivo. È sottoposto al controllo della Corte costituzionale e al referendum abrogativo. Con esso si fanno i [[testo-unico|testi unici]] e i codici.",
-      "pagine": [
-        120,
-        121
-      ]
-    },
-    {
-      "id": "eccesso-di-delega",
-      "nome": "Eccesso di delega",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Violazione dei limiti del conferimento da parte del decreto legislativo.",
-      "definizione": "È il vizio del [[decreto-legislativo]] che **non rispetta i limiti** posti dalla [[legge-delega]]: disciplina un oggetto diverso, viola i principi e i criteri direttivi, è adottato dopo la scadenza del termine o senza i pareri prescritti. Poiché la delega è imposta dall'art. 76 Cost., il decreto che la viola viola **indirettamente la Costituzione**: la legge delega funziona come **norma interposta** tra la Costituzione e il decreto. Il vizio è perciò fatto valere davanti alla **Corte costituzionale**, che dichiara illegittimo il decreto. La Corte interpreta la delega con una certa elasticità, riconoscendo al Governo un margine di riempimento. Anche la legge delega può essere incostituzionale, se troppo generica.",
-      "pagine": [
-        120,
-        121
-      ]
-    },
-    {
-      "id": "testo-unico",
-      "nome": "Testo unico",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Coordinamento in un testo delle disposizioni su una materia.",
-      "definizione": "È l'atto che **raccoglie e riordina in un unico testo** le disposizioni che regolano una stessa materia, sparse in molte leggi diverse. Può avere natura diversa. È **innovativo** (o normativo) quando il Governo lo adotta in base a una delega, con decreto legislativo: ha forza di legge, sostituisce e abroga le fonti raccolte e può coordinarle e modificarle. È **compilativo** quando si limita a riprodurre le norme esistenti per comodità di consultazione: non è una fonte, e in caso di differenze prevale il testo originale. Esempi: il Testo unico degli enti locali (d.lgs. 267/2000) e quello sull'immigrazione. Serve alla semplificazione e alla certezza del diritto.",
-      "pagine": [
-        121,
-        122
-      ]
-    },
-    {
-      "id": "decreto-legge",
-      "nome": "Decreto-legge",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Provvedimento governativo provvisorio con forza di legge nei casi dell’art. 77.",
-      "definizione": "È l'atto **con forza di legge** che il Governo adotta sotto la propria responsabilità «in **casi straordinari di necessità e d'urgenza**» (art. 77 Cost.). Deliberato dal Consiglio dei ministri ed emanato dal Presidente della Repubblica, entra subito in vigore. È un provvedimento **provvisorio**: il giorno stesso deve essere presentato alle Camere, che, anche se sciolte, si riuniscono entro cinque giorni; deve essere **convertito in legge entro sessanta giorni** dalla pubblicazione ([[legge-di-conversione]]), altrimenti **perde efficacia sin dall'inizio** ([[decadenza-decreto-legge]]). Non può essere reiterato (sent. 360/1996) e deve avere contenuto omogeneo; la legge 400/1988 ne vieta l'uso in alcune materie. La Corte controlla l'evidente mancanza dei presupposti (sentt. 29/1995 e 171/2007). Si distingue dal [[decreto-legislativo]].",
-      "pagine": [
-        122,
-        125
-      ]
-    },
-    {
-      "id": "legge-di-conversione",
-      "nome": "Legge di conversione",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Legge parlamentare che converte il decreto-legge entro il termine costituzionale.",
-      "definizione": "È la legge con cui il Parlamento, **entro sessanta giorni**, fa proprio il [[decreto-legge]], stabilizzandone gli effetti (art. 77 Cost.). Il disegno di legge è presentato dal Governo il giorno stesso dell'adozione del decreto e segue un percorso accelerato. Le Camere possono convertire il decreto **con modificazioni**: gli emendamenti valgono di regola dal giorno successivo alla pubblicazione della legge. La conversione **non sana** i vizi del decreto: se mancavano in modo evidente i presupposti di necessità e urgenza, il vizio si trasmette alla legge (sentt. 29/1995 e 171/2007). Gli emendamenti devono essere **omogenei** al contenuto del decreto ([[omogeneita-decreto-legge]], sent. 22/2012). È una legge a competenza tipica.",
-      "pagine": [
-        124,
-        125
-      ]
-    },
-    {
-      "id": "decadenza-decreto-legge",
-      "nome": "Decadenza del decreto-legge",
-      "tipo": "istituto",
-      "alias": [],
-      "breve": "Perdita di efficacia originaria in mancanza di conversione.",
-      "definizione": "È la conseguenza della **mancata conversione** del [[decreto-legge]] entro sessanta giorni, o del rifiuto espresso di una Camera: per l'art. 77, terzo comma, Cost. il decreto **perde efficacia sin dall'inizio** (*ex tunc*). È come se non fosse mai esistito: gli effetti che ha prodotto restano senza base giuridica e devono essere rimossi. Non è un'abrogazione, che opera solo per il futuro. Per i rapporti ormai sorti e non più reversibili le Camere possono intervenire con la [[legge-di-sanatoria]]. Del decreto decaduto il Governo risponde: politicamente davanti alle Camere e, i ministri, anche giuridicamente per i danni. La decadenza è il motivo del divieto di [[reiterazione-decreti-legge|reiterazione]].",
-      "pagine": [
-        122,
-        124
-      ]
-    },
-    {
-      "id": "legge-di-sanatoria",
-      "nome": "Legge sui rapporti del decreto non convertito",
-      "tipo": "fonte",
-      "alias": [],
-      "breve": "Legge che regola i rapporti sorti sulla base di un decreto decaduto.",
-      "definizione": "È la legge prevista dall'ultima frase dell'art. 77 Cost.: «Le Camere possono tuttavia **regolare con legge i rapporti giuridici sorti** sulla base dei decreti non convertiti». Quando un [[decreto-legge]] decade, i suoi effetti cadono retroattivamente; ma nei sessanta giorni di vigenza possono essersi prodotte situazioni che sarebbe ingiusto o impossibile cancellare (pagamenti eseguiti, atti compiuti in buona fede). Il Parlamento, e non il Governo, può allora decidere di **far salvi** quegli effetti, in tutto o in parte. È una facoltà, non un obbligo. La sanatoria non può essere usata per aggirare la [[decadenza-decreto-legge|decadenza]] riproducendo stabilmente il contenuto del decreto, e resta soggetta al controllo della Corte costituzionale.",
-      "pagine": [
-        122,
-        122
-      ]
-    },
-    {
-      "id": "reiterazione-decreti-legge",
-      "nome": "Reiterazione dei decreti-legge",
-      "tipo": "procedura",
-      "alias": [],
-      "breve": "Riproduzione di un decreto scaduto per prolungarne la disciplina.",
-      "definizione": "È la prassi, molto diffusa fino al 1996, per cui il Governo, alla scadenza dei sessanta giorni, **ripresentava un nuovo decreto-legge con lo stesso contenuto** di quello non convertito, anche più volte di seguito: una disciplina «provvisoria» poteva così durare anni. La Corte costituzionale l'ha dichiarata **illegittima** con la sentenza **360/1996**: altera la natura provvisoria del decreto, toglie valore al termine di sessanta giorni e alla sanzione della [[decadenza-decreto-legge|decadenza]], espropria il Parlamento della funzione legislativa e lede la certezza del diritto. Il Governo può adottare un nuovo decreto sulla stessa materia solo se fondato su **presupposti nuovi** di necessità e urgenza o con contenuto sostanzialmente diverso.",
-      "pagine": [
-        122,
-        123
-      ]
-    },
-    {
-      "id": "omogeneita-decreto-legge",
-      "nome": "Omogeneità del decreto-legge",
-      "tipo": "concetto",
-      "alias": [],
-      "breve": "Collegamento coerente di oggetto o finalità delle misure straordinarie.",
-      "definizione": "È il requisito per cui il [[decreto-legge]] deve avere un **contenuto specifico, omogeneo e corrispondente al titolo** (art. 15 della legge 400/1988): le sue disposizioni devono essere legate dalla stessa materia o dallo stesso scopo, perché è la situazione di urgenza a giustificarle. La Corte costituzionale l'ha collegato all'art. 77 Cost. e l'ha esteso alla [[legge-di-conversione]]: gli emendamenti approvati dalle Camere devono avere un **nesso** con l'oggetto o con la finalità del decreto; le norme «intruse», del tutto estranee, sono illegittime (sentt. 22/2012 e 32/2014), perché sfruttano un procedimento accelerato pensato per altro. Limita i decreti «omnibus» e i «milleproroghe» dal contenuto eterogeneo.",
-      "pagine": [
-        124,
-        125
-      ]
-    }
-  ],
-  "relazioni": [
-    {
-      "da": "iniziativa-legislativa",
-      "a": "legge-ordinaria",
-      "tipo": "collegato",
-      "etichetta": "avvia il procedimento della"
-    },
-    {
-      "da": "commissione-referente",
-      "a": "legge-ordinaria",
-      "tipo": "collegato",
-      "etichetta": "istruisce la"
-    },
-    {
-      "da": "riserva-di-assemblea",
-      "a": "commissione-deliberante",
-      "tipo": "collegato",
-      "etichetta": "limita l’approvazione in"
-    },
-    {
-      "da": "navetta-parlamentare",
-      "a": "legge-ordinaria",
-      "tipo": "collegato",
-      "etichetta": "assicura il testo identico della"
-    },
-    {
-      "da": "legge-delega",
-      "a": "decreto-legislativo",
-      "tipo": "crea",
-      "etichetta": "abilita il"
-    },
-    {
-      "da": "eccesso-di-delega",
-      "a": "decreto-legislativo",
-      "tipo": "collegato",
-      "etichetta": "può viziare il"
-    },
-    {
-      "da": "legge-di-conversione",
-      "a": "decreto-legge",
-      "tipo": "collegato",
-      "etichetta": "converte il"
-    },
-    {
-      "da": "decadenza-decreto-legge",
-      "a": "legge-di-sanatoria",
-      "tipo": "collegato",
-      "etichetta": "può richiedere una"
-    },
-    {
-      "da": "omogeneita-decreto-legge",
-      "a": "legge-di-conversione",
-      "tipo": "collegato",
-      "etichetta": "vincola la"
-    }
-  ],
-  "eventi": [
-    {
-      "id": "ev-sentenza-29-1995",
-      "anno": 1995,
-      "data": "gennaio 1995",
-      "titolo": "Sentenza n. 29/1995 sui presupposti del decreto-legge",
-      "descrizione": "La Corte costituzionale afferma di poter controllare l'«evidente mancanza» dei casi straordinari di necessità e urgenza: il vizio del decreto si trasmette alla legge di conversione.",
-      "tipo": "giurisprudenza",
-      "concetti": [
-        "decreto-legge",
-        "legge-di-conversione"
-      ],
-      "pagine": [
-        123,
-        123
-      ]
-    },
-    {
-      "id": "ev-stop-reiterazione",
-      "anno": 1996,
-      "data": "24 ottobre 1996",
-      "titolo": "Sentenza n. 360/1996 sulla reiterazione",
-      "descrizione": "La Corte censura la riproduzione dei decreti non convertiti senza nuovi autonomi presupposti.",
-      "tipo": "giurisprudenza",
-      "concetti": [
-        "reiterazione-decreti-legge"
-      ],
-      "pagine": [
-        122,
-        123
-      ]
-    },
-    {
-      "id": "ev-sentenza-171-2007",
-      "anno": 2007,
-      "data": "23 maggio 2007",
-      "titolo": "Sentenza n. 171/2007",
-      "descrizione": "Per la prima volta la Corte dichiara illegittima una norma di un decreto-legge convertito perché adottata in evidente mancanza dei presupposti di necessità e urgenza.",
-      "tipo": "giurisprudenza",
-      "concetti": [
-        "decreto-legge",
-        "legge-di-conversione"
-      ],
-      "pagine": [
-        123,
-        123
-      ]
-    }
-  ],
-  "mappa": {
-    "testo": "Legge e forza di legge",
-    "concetto": "legge-ordinaria",
-    "figli": [
-      {
-        "testo": "Procedimento",
-        "figli": [
-          {
-            "testo": "Iniziativa",
-            "concetto": "iniziativa-legislativa"
-          },
-          {
-            "testo": "Commissione referente",
-            "concetto": "commissione-referente"
-          },
-          {
-            "testo": "Riserva d’assemblea",
-            "concetto": "riserva-di-assemblea"
-          },
-          {
-            "testo": "Navetta",
-            "concetto": "navetta-parlamentare"
-          }
-        ]
-      },
-      {
-        "testo": "Rango e particolarità",
-        "figli": [
-          {
-            "testo": "Costituzionale",
-            "concetto": "legge-costituzionale"
-          },
-          {
-            "testo": "Rinforzata",
-            "concetto": "legge-rinforzata"
-          },
-          {
-            "testo": "Atipica",
-            "concetto": "legge-atipica"
-          }
-        ]
-      },
-      {
-        "testo": "Delega preventiva",
-        "concetto": "legge-delega",
-        "figli": [
-          {
-            "testo": "Decreto legislativo",
-            "concetto": "decreto-legislativo"
-          },
-          {
-            "testo": "Limiti",
-            "concetto": "eccesso-di-delega"
-          }
-        ]
-      },
-      {
-        "testo": "Urgenza provvisoria",
-        "concetto": "decreto-legge",
-        "figli": [
-          {
-            "testo": "Conversione",
-            "concetto": "legge-di-conversione"
-          },
-          {
-            "testo": "Decadenza",
-            "concetto": "decadenza-decreto-legge"
-          },
-          {
-            "testo": "Omogeneità",
-            "concetto": "omogeneita-decreto-legge"
-          }
-        ]
-      }
-    ]
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "quorum-referendario",
+    "ammissibilita-referendum",
+    "divieto-di-ripristino",
+    "referendum-costituzionale"
+   ]
   },
-  "domande": [
+  {
+   "id": "u13-l2",
+   "titolo": "Limiti impliciti, procedimento e referendum d'indirizzo",
+   "pagine": [
+    116,
+    118
+   ],
+   "minuti": 35,
+   "sintesi": "### Oltre i limiti espressi\nUn'interpretazione **restrittiva** del secondo comma dell'art. 75 porterebbe ad ammettere il [[referendum-abrogativo|referendum]] su ogni legge non elencata. Non è da condividere: esistono **limiti impliciti** all'abrogazione popolare.\n\n- **Leggi costituzionali e di revisione**: il procedimento di revisione o di integrazione della [[costituzione-italiana|Costituzione]] è riservato al [[parlamento|Parlamento]] dall'art. 138, con il suo eventuale [[referendum-costituzionale|referendum confermativo]].\n- **Decreti-legge**: data la brevità del termine di conversione (sessanta giorni), il referendum sembra escluso.\n- **Leggi di delegazione**: alcuni lo escludono perché immettono norme che non operano all'esterno prima dei decreti delegati; si può però obiettare che l'abrogazione popolare impedirebbe proprio che diventino operanti.\n- **Leggi attuative della Costituzione** e leggi su [[diritti-inviolabili|diritti fondamentali]] di libertà, la cui abrogazione romperebbe il sistema costituzionale.\n\n### La giurisprudenza della Corte\nCon la **sentenza 16/1978** la [[corte-costituzionale|Corte costituzionale]] ha riconosciuto questi limiti. Sono inammissibili le richieste che riguardano la Costituzione, le leggi di revisione e le altre [[legge-costituzionale|leggi costituzionali]], oltre alle materie escluse in modo espresso. Nella stessa sentenza e nelle successive sono state individuate altre cause di inammissibilità:\n\n| Causa | Perché |\n|---|---|\n| pluralità **eterogenea** di disposizioni, senza matrice unitaria | l'elettore non potrebbe esprimere un voto consapevole |\n| materie di «rilevanza» o «copertura» costituzionale | l'abrogazione toccherebbe interessi garantiti dalla Costituzione |\n| disposizioni a **contenuto costituzionalmente vincolato** | riproducono o attuano direttamente norme costituzionali |\n| quesito privo di **chiarezza, semplicità e coerenza** | la domanda deve consentire una scelta netta |\n\nCon la **sentenza 13/2012** la Corte ha dichiarato inammissibili due richieste di abrogazione della legge elettorale n. 270/2005: le [[sistema-elettorale|leggi elettorali]], necessarie al funzionamento degli organi costituzionali, possono essere toccate solo se resta una disciplina immediatamente applicabile.\n\n### Il procedimento (artt. 27–40 l. 352/1970)\n1. La richiesta dei **Consigli regionali** va approvata a maggioranza assoluta.\n2. Nessuna richiesta può essere depositata nell'anno che precede la scadenza di una [[camera-dei-deputati|Camera]] né nei sei mesi successivi alla convocazione dei comizi per eleggerla.\n3. Le richieste si depositano **dal 1° gennaio al 30 settembre** presso la [[corte-di-cassazione|Corte di cassazione]], con le firme vidimate da non più di tre mesi.\n4. L'**Ufficio centrale per il referendum** presso la Cassazione controlla la [[regolarita-referendum|regolarità]] delle richieste (anche in contraddittorio con promotori e delegati regionali) e ne stabilisce la denominazione da stampare sulla scheda.\n5. Dopo il giudizio della Corte, il referendum è indetto con **decreto del Presidente della Repubblica**, su deliberazione del [[consiglio-dei-ministri|Consiglio dei ministri]], in una domenica **tra il 15 aprile e il 15 giugno**; lo scioglimento anticipato delle Camere lo sospende automaticamente, e i termini riprendono dal trecentosessantacinquesimo giorno dopo le elezioni (non è una bocciatura del quesito).\n6. L'abrogazione è dichiarata con **decreto del Presidente della Repubblica**, pubblicato in Gazzetta Ufficiale e inserito nella Raccolta ufficiale degli atti normativi (segno della natura di **fonte** del referendum); ha effetto dal giorno successivo, ma il Presidente, su proposta del ministro interessato e previa deliberazione del Consiglio dei ministri, può ritardarlo **fino a sessanta giorni**.\n7. Se prevalgono validamente i «no», la stessa richiesta non può essere riproposta per **cinque anni**; il mancato quorum non produce questo divieto.\n\n| Controllo | Organo | Oggetto |\n|---|---|---|\n| [[regolarita-referendum|Regolarità]] | Ufficio centrale presso la Cassazione (l. 352/1970) | firme, termini, atto ancora in vigore |\n| [[ammissibilita-referendum|Ammissibilità]] | Corte costituzionale (l. cost. 1/1953) | limiti dell'art. 75 e limiti impliciti |\n\nLe leggi elettorali non sono escluse in blocco: si può abrogarne una parte se ciò che resta è coerente e subito applicabile, perché un [[organo-costituzionale|organo costituzionale]] non può restare senza regole per rinnovarsi.\n\nSe prima del voto la legge è abrogata, l'Ufficio centrale dichiara che le operazioni non hanno più corso. Con la **sentenza 68/1978** la Corte ha però corretto la regola: se la nuova legge non cambia i principi ispiratori né i contenuti essenziali della disciplina, il referendum si trasferisce sulle nuove disposizioni. Lo stesso vale se la norma è dichiarata illegittima dalla Corte: gli effetti li valuta sempre l'Ufficio centrale.\n\n### Riflessioni conclusive\nSolo di rado l'elettore decide in piena autonomia: più spesso segue le valutazioni dei [[partiti-politici|partiti]]. Di qui la tesi della sostanziale **subordinazione del referendum alla democrazia rappresentativa**.\n\n### Il referendum d'indirizzo del 1989\nLa legge costituzionale 2/1989 sottopose agli elettori un quesito sul conferimento al Parlamento europeo di un mandato costituente, per trasformare le Comunità in un'[[unione-europea|Unione europea]] con un governo responsabile davanti al Parlamento. Servì una legge costituzionale perché la Costituzione non prevede referendum consultivi nazionali. La legge non ha introdotto l'istituto in via generale: ha indetto **un solo** [[referendum-di-indirizzo|referendum d'indirizzo]], celebrato il 18 giugno 1989; svolta la consultazione, la temporanea [[rottura-della-costituzione|rottura della Costituzione]] si è chiusa.",
+   "puntiChiave": [
+    "Oltre ai limiti dell'art. 75 esistono limiti impliciti: leggi costituzionali, decreti-legge, leggi attuative della Costituzione.",
+    "Sent. 16/1978: inammissibili quesiti eterogenei, su materie di rilevanza costituzionale, su norme a contenuto costituzionalmente vincolato, non chiari.",
+    "Sent. 13/2012: leggi elettorali abrogabili solo se resta una disciplina applicabile.",
+    "Deposito dal 1° gennaio al 30 settembre in Cassazione; controllo dell'Ufficio centrale; voto tra 15 aprile e 15 giugno.",
+    "Effetto dal giorno dopo la pubblicazione del decreto, differibile fino a 60 giorni; se vincono i no, cinque anni di attesa.",
+    "Il referendum d'indirizzo del 1989 fu un caso unico, voluto con legge costituzionale."
+   ],
+   "memoria": [
     {
-      "id": "u13-q001",
-      "tipo": "flashcard",
-      "lezione": "u13-l1",
-      "livello": "base",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "iniziativa-legislativa"
-      ],
-      "domanda": "Chi può presentare un progetto di legge d’iniziativa popolare?",
-      "risposta": "Almeno cinquantamila elettori, con un progetto redatto in articoli; l’iniziativa non sostituisce l’approvazione parlamentare."
+     "voce": "Sent. 16/1978",
+     "dettaglio": "limiti impliciti e omogeneità del quesito"
     },
     {
-      "id": "u13-q002",
-      "tipo": "flashcard",
-      "lezione": "u13-l1",
-      "livello": "base",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "commissione-referente"
-      ],
-      "domanda": "Qual è il compito della commissione in sede referente?",
-      "risposta": "Istruire ed esaminare il progetto e riferire all’assemblea, che conserva discussione e deliberazione."
+     "voce": "Sent. 68/1978",
+     "dettaglio": "trasferimento del quesito sulla nuova legge"
     },
     {
-      "id": "u13-q003",
-      "tipo": "flashcard",
-      "lezione": "u13-l1",
-      "livello": "medio",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "commissione-deliberante"
-      ],
-      "domanda": "Quali soggetti possono chiedere il ritorno dalla commissione deliberante all’assemblea?",
-      "risposta": "Governo, un decimo dei componenti della Camera interessata o un quinto della commissione, fino all’approvazione definitiva nelle forme dell’art. 72."
+     "voce": "1° gennaio – 30 settembre",
+     "dettaglio": "finestra per depositare le richieste"
     },
     {
-      "id": "u13-q004",
-      "tipo": "flashcard",
-      "lezione": "u13-l1",
-      "livello": "medio",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "navetta-parlamentare"
-      ],
-      "domanda": "Perché una modifica del secondo ramo causa la navetta?",
-      "risposta": "Perché la legge richiede l’approvazione dello stesso testo da entrambe le Camere."
+     "voce": "15 aprile – 15 giugno",
+     "dettaglio": "domenica del voto"
     },
     {
-      "id": "u13-q005",
-      "tipo": "multipla",
-      "lezione": "u13-l1",
-      "livello": "medio",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "riserva-di-assemblea"
-      ],
-      "domanda": "Un progetto di delegazione legislativa può essere definitivamente approvato in sola commissione deliberante?",
-      "opzioni": [
-        "Sì, sempre",
-        "No, opera la riserva d’assemblea",
-        "Solo se lo chiede il ministro",
-        "Solo perché è tecnico"
-      ],
-      "corretta": 1,
-      "spiegazione": "L’art. 72 riserva questi progetti al procedimento normale."
+     "voce": "5 anni",
+     "dettaglio": "divieto di ripresentazione se vince il no"
     },
     {
-      "id": "u13-q006",
-      "tipo": "multipla",
-      "lezione": "u13-l1",
-      "livello": "medio",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "legge-costituzionale"
-      ],
-      "domanda": "Nel referendum dell’art. 138, la richiesta territoriale proviene da chi?",
-      "opzioni": [
-        "Cinque singoli consiglieri regionali",
-        "Cinque Consigli regionali",
-        "Qualsiasi assessore",
-        "Due sindaci"
-      ],
-      "corretta": 1,
-      "spiegazione": "Gli appunti contengono un errore fra consiglieri e Consigli."
-    },
-    {
-      "id": "u13-q007",
-      "tipo": "verofalso",
-      "lezione": "u13-l1",
-      "livello": "medio",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "iniziativa-legislativa"
-      ],
-      "affermazione": "La presentazione popolare del progetto lo rende automaticamente legge.",
-      "vero": false,
-      "spiegazione": "Avvia il procedimento; serve l’approvazione delle Camere e il completamento delle fasi successive."
-    },
-    {
-      "id": "u13-q008",
-      "tipo": "verofalso",
-      "lezione": "u13-l1",
-      "livello": "medio",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "commissione-referente"
-      ],
-      "affermazione": "La sede redigente ha ogni dettaglio regolato in modo identico nelle due Camere.",
-      "vero": false,
-      "spiegazione": "I rispettivi regolamenti ne disciplinano diversamente i passaggi e le riserve di voto."
-    },
-    {
-      "id": "u13-q009",
-      "tipo": "completa",
-      "lezione": "u13-l1",
-      "livello": "base",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "commissione-deliberante"
-      ],
-      "testo": "La rimessione all’aula può essere chiesta da {{un decimo|1/10}} della Camera o {{un quinto|1/5}} della commissione, oltre che dal Governo.",
-      "spiegazione": "Le soglie tutelano la partecipazione dell’assemblea."
-    },
-    {
-      "id": "u13-q010",
-      "tipo": "aperta",
-      "lezione": "u13-l1",
-      "livello": "avanzato",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "legge-ordinaria",
-        "legge-costituzionale",
-        "iniziativa-legislativa",
-        "commissione-referente",
-        "commissione-deliberante",
-        "riserva-di-assemblea",
-        "navetta-parlamentare"
-      ],
-      "domanda": "Ricostruisci il procedimento ordinario della legge distinguendo le funzioni di ciascun passaggio.",
-      "traccia": "L’iniziativa presenta un progetto articolato alla Camera competente e non ne garantisce l’approvazione. La commissione in sede referente lo esamina e riferisce all’assemblea. Questa discute, vota articoli ed emendamenti e approva il testo complessivo. Il progetto passa all’altra Camera, che deve approvare lo stesso contenuto; le modifiche producono la navetta. Con il consenso identico dei due rami si completa la fase parlamentare. Il Presidente della Repubblica promulga entro il termine costituzionale, salvo il rinvio motivato per un nuovo esame. Dopo la nuova approvazione opera il dovere dell’art. 74. Segue pubblicazione e decorso della vacatio, ordinariamente fino al quindicesimo giorno successivo, salvo diversa previsione. La riserva d’assemblea impedisce il pieno decentramento in commissione per certe materie. La sequenza garantisce rappresentanza, correttezza del testo, controllo e conoscibilità.",
-      "punti": [
-        {
-          "testo": "Avvio e istruttoria",
-          "chiavi": [
-            "iniziativa",
-            "commissione"
-          ]
-        },
-        {
-          "testo": "Doppia approvazione identica",
-          "chiavi": [
-            "testo",
-            "navetta"
-          ]
-        },
-        {
-          "testo": "Controllo e promulgazione",
-          "chiavi": [
-            "presidente",
-            "rinvio"
-          ]
-        },
-        {
-          "testo": "Efficacia",
-          "chiavi": [
-            "pubblicazione",
-            "vacatio"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u13-q011",
-      "tipo": "flashcard",
-      "lezione": "u13-l2",
-      "livello": "base",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-delega"
-      ],
-      "domanda": "Quali contenuti necessari deve avere una legge delega?",
-      "risposta": "Oggetti definiti, tempo limitato, principi e criteri direttivi, secondo l’art. 76."
-    },
-    {
-      "id": "u13-q012",
-      "tipo": "flashcard",
-      "lezione": "u13-l2",
-      "livello": "base",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-delega"
-      ],
-      "domanda": "Il Parlamento perde il potere di legiferare nella materia delegata?",
-      "risposta": "No. Abilita un esercizio governativo circoscritto e conserva la propria potestà legislativa."
-    },
-    {
-      "id": "u13-q013",
-      "tipo": "flashcard",
-      "lezione": "u13-l2",
-      "livello": "medio",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "eccesso-di-delega"
-      ],
-      "domanda": "Che cos’è l’eccesso di delega?",
-      "risposta": "La violazione da parte del decreto dei limiti di oggetto, criteri, termine o procedimento fissati nel conferimento, con rilievo costituzionale tramite l’art. 76."
-    },
-    {
-      "id": "u13-q014",
-      "tipo": "flashcard",
-      "lezione": "u13-l2",
-      "livello": "medio",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "testo-unico"
-      ],
-      "domanda": "Perché conta distinguere testo unico normativo e compilativo?",
-      "risposta": "Il primo può coordinare e innovare con adeguato fondamento normativo; il secondo agevola la conoscenza senza creare un autonomo potere di abrogare o far rivivere norme."
-    },
-    {
-      "id": "u13-q015",
-      "tipo": "multipla",
-      "lezione": "u13-l2",
-      "livello": "medio",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "eccesso-di-delega",
-        "decreto-legislativo"
-      ],
-      "domanda": "Un decreto legislativo proroga da solo il termine della propria delega per ampliare l’intervento. È sufficiente la sua forza di legge?",
-      "opzioni": [
-        "Sì, perché è successivo",
-        "No, deve rispettare la fonte che abilita l’esercizio",
-        "Sì, se è molto lungo",
-        "Non occorre mai un termine"
-      ],
-      "corretta": 1,
-      "spiegazione": "La relazione con la delega non è una semplice successione cronologica fra leggi."
-    },
-    {
-      "id": "u13-q016",
-      "tipo": "multipla",
-      "lezione": "u13-l2",
-      "livello": "medio",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-atipica"
-      ],
-      "domanda": "Tutte le leggi dette atipiche sono automaticamente sottratte al referendum?",
-      "opzioni": [
-        "Sì, per definizione",
-        "No, occorre individuare lo specifico limite costituzionale e giurisprudenziale",
-        "Solo quelle con titolo breve",
-        "Il referendum riguarda solo regolamenti"
-      ],
-      "corretta": 1,
-      "spiegazione": "La categoria descrittiva non sostituisce l’art. 75 e i limiti di ammissibilità."
-    },
-    {
-      "id": "u13-q017",
-      "tipo": "verofalso",
-      "lezione": "u13-l2",
-      "livello": "medio",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "decreto-legislativo"
-      ],
-      "affermazione": "Il parere delle commissioni su uno schema di decreto legislativo coincide con la conversione dell’art. 77.",
-      "vero": false,
-      "spiegazione": "È un passaggio della delega quando previsto; la conversione riguarda il decreto-legge."
-    },
-    {
-      "id": "u13-q018",
-      "tipo": "verofalso",
-      "lezione": "u13-l2",
-      "livello": "medio",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-rinforzata"
-      ],
-      "affermazione": "Il rinforzo procedurale rende sempre la legge di rango costituzionale.",
-      "vero": false,
-      "spiegazione": "Una legge può restare ordinaria pur richiedendo maggioranze o passaggi particolari."
-    },
-    {
-      "id": "u13-q019",
-      "tipo": "completa",
-      "lezione": "u13-l2",
-      "livello": "base",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-delega"
-      ],
-      "testo": "L’art. {{76}} richiede oggetti {{definiti}}, tempo {{limitato}} e principi e criteri {{direttivi}}.",
-      "spiegazione": "Sono limiti al conferimento e all’esercizio governativo."
-    },
-    {
-      "id": "u13-q020",
-      "tipo": "aperta",
-      "lezione": "u13-l2",
-      "livello": "avanzato",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-rinforzata",
-        "legge-atipica",
-        "legge-delega",
-        "decreto-legislativo",
-        "eccesso-di-delega",
-        "testo-unico"
-      ],
-      "domanda": "Come si controlla che un decreto legislativo rispetti la Costituzione?",
-      "traccia": "Il decreto legislativo ha forza primaria ma nasce da una delega parlamentare. Occorre verificare la validità del conferimento e i requisiti dell’art. 76: oggetti definiti, tempo limitato, principi e criteri direttivi. Il procedimento deve rispettare anche eventuali pareri e consultazioni imposti dalla delega, la deliberazione del Consiglio e l’emanazione entro il termine. Il contenuto va poi confrontato con il settore e gli orientamenti autorizzati. Se il Governo esce da questi limiti si pone un eccesso di delega: la legge delega opera come parametro interposto del giudizio costituzionale, in collegamento con l’art. 76. Non basta che il decreto sia più recente per autorizzarlo a modificare il proprio fondamento. Restano inoltre tutti gli altri limiti costituzionali della legislazione primaria. Il Parlamento conserva il potere di legiferare e l’eventuale facoltà correttiva del Governo richiede un’apposita autorizzazione.",
-      "punti": [
-        {
-          "testo": "Fondamento parlamentare",
-          "chiavi": [
-            "delega",
-            "76"
-          ]
-        },
-        {
-          "testo": "Contenuti necessari",
-          "chiavi": [
-            "oggetti",
-            "tempo",
-            "criteri"
-          ]
-        },
-        {
-          "testo": "Procedimento e termine",
-          "chiavi": [
-            "pareri",
-            "emanazione"
-          ]
-        },
-        {
-          "testo": "Parametro e controllo",
-          "chiavi": [
-            "interposto",
-            "eccesso"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u13-q021",
-      "tipo": "flashcard",
-      "lezione": "u13-l3",
-      "livello": "base",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decreto-legge"
-      ],
-      "domanda": "Quando il Governo deve presentare il decreto alle Camere per convertirlo?",
-      "risposta": "Il giorno stesso; le Camere anche sciolte sono appositamente convocate e si riuniscono entro cinque giorni."
-    },
-    {
-      "id": "u13-q022",
-      "tipo": "flashcard",
-      "lezione": "u13-l3",
-      "livello": "base",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decadenza-decreto-legge",
-        "legge-di-sanatoria"
-      ],
-      "domanda": "Che cosa accade se non è convertito entro sessanta giorni dalla pubblicazione?",
-      "risposta": "Perde efficacia fin dall’inizio; le Camere possono regolare con legge i rapporti sorti sulla sua base."
-    },
-    {
-      "id": "u13-q023",
-      "tipo": "flashcard",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "legge-di-conversione"
-      ],
-      "domanda": "La conversione sana l’evidente mancanza di necessità e urgenza?",
-      "risposta": "No. Il vizio può riflettersi sulla legge di conversione, come chiarito dalla Corte costituzionale."
-    },
-    {
-      "id": "u13-q024",
-      "tipo": "flashcard",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "reiterazione-decreti-legge"
-      ],
-      "domanda": "Perché la reiterazione senza nuovi presupposti è illegittima?",
-      "risposta": "Elude provvisorietà, termine di conversione e controllo parlamentare, trasformando il decreto in legislazione governativa stabile."
-    },
-    {
-      "id": "u13-q025",
-      "tipo": "multipla",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "reiterazione-decreti-legge"
-      ],
-      "domanda": "Il Governo ripubblica identico un decreto scaduto solo per riavere sessanta giorni. Quale problema emerge?",
-      "opzioni": [
-        "Reiterazione elusiva dei limiti dell’art. 77",
-        "Normale esercizio di una delega permanente",
-        "Nessuno, basta cambiare il numero",
-        "Solo un errore tipografico"
-      ],
-      "corretta": 0,
-      "spiegazione": "La sentenza n. 360/1996 censura la riproduzione senza nuovi autonomi presupposti."
-    },
-    {
-      "id": "u13-q026",
-      "tipo": "multipla",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "omogeneita-decreto-legge",
-        "legge-di-conversione"
-      ],
-      "domanda": "In conversione viene aggiunta una norma totalmente estranea all’oggetto e alle finalità del decreto. Che cosa si deve verificare?",
-      "opzioni": [
-        "Solo il titolo della legge",
-        "Il limite di omogeneità e il nesso funzionale",
-        "La cittadinanza dei ministri",
-        "Il quorum del referendum"
-      ],
-      "corretta": 1,
-      "spiegazione": "La procedura di conversione non è una via ordinaria per qualsiasi materia."
-    },
-    {
-      "id": "u13-q027",
-      "tipo": "verofalso",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decreto-legge"
-      ],
-      "affermazione": "I sessanta giorni decorrono dall’inizio dell’esame in commissione.",
-      "vero": false,
-      "spiegazione": "Decorrono dalla pubblicazione del decreto."
-    },
-    {
-      "id": "u13-q028",
-      "tipo": "verofalso",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decadenza-decreto-legge"
-      ],
-      "affermazione": "La decadenza rende automaticamente penalmente illecita ogni condotta tenuta sulla base del decreto.",
-      "vero": false,
-      "spiegazione": "La perdita del fondamento va valutata per ciascun rapporto e con le garanzie applicabili; non crea automaticamente reati."
-    },
-    {
-      "id": "u13-q029",
-      "tipo": "completa",
-      "lezione": "u13-l3",
-      "livello": "base",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decreto-legge"
-      ],
-      "testo": "Il decreto è presentato il giorno {{stesso}}, le Camere si riuniscono entro {{cinque|5}} giorni e la conversione deve intervenire entro {{sessanta|60}} giorni dalla pubblicazione.",
-      "spiegazione": "Sono termini dell’art. 77 con oggetti e decorrenze differenti."
-    },
-    {
-      "id": "u13-q030",
-      "tipo": "aperta",
-      "lezione": "u13-l3",
-      "livello": "avanzato",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decreto-legge",
-        "legge-di-conversione",
-        "decadenza-decreto-legge",
-        "legge-di-sanatoria",
-        "reiterazione-decreti-legge",
-        "omogeneita-decreto-legge"
-      ],
-      "domanda": "Perché il voto di conversione non rende il decreto-legge uno strumento senza limiti?",
-      "traccia": "Il decreto-legge nasce soltanto nei casi straordinari di necessità e urgenza e deve essere presentato il giorno stesso alle Camere. Il controllo successivo e la conversione entro sessanta giorni non rendono irrilevanti i presupposti originari: la loro evidente mancanza può viziare anche la legge di conversione, secondo la sentenza n. 171/2007. Il Parlamento può modificare il testo, ma la procedura mantiene un nesso funzionale con il decreto e non ammette contenuti totalmente estranei, come chiarito dalla sentenza n. 22/2012. Se manca conversione, gli effetti vengono meno fin dall’inizio; una legge può regolare i rapporti sorti, senza sanare automaticamente ogni violazione. Nemmeno la reiterazione identica senza nuovi presupposti consente di riaprire liberamente il termine, secondo la sentenza n. 360/1996. Le garanzie tutelano la distinzione fra legislazione parlamentare e intervento governativo straordinario.",
-      "punti": [
-        {
-          "testo": "Presupposti e termini",
-          "chiavi": [
-            "necessità",
-            "urgenza",
-            "sessanta"
-          ]
-        },
-        {
-          "testo": "Conversione non sanante",
-          "chiavi": [
-            "171",
-            "vizio"
-          ]
-        },
-        {
-          "testo": "Omogeneità",
-          "chiavi": [
-            "22",
-            "estranei"
-          ]
-        },
-        {
-          "testo": "Decadenza e reiterazione",
-          "chiavi": [
-            "inizio",
-            "360"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u13-q031",
-      "tipo": "ordina",
-      "lezione": "u13-l2",
-      "livello": "medio",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-rinforzata",
-        "legge-atipica",
-        "legge-delega",
-        "decreto-legislativo"
-      ],
-      "consegna": "Ordina le fasi essenziali della delegazione legislativa.",
-      "elementi": [
-        "Approvazione parlamentare della legge delega",
-        "Preparazione dello schema e adempimenti consultivi richiesti",
-        "Deliberazione finale del Consiglio dei ministri",
-        "Emanazione presidenziale entro il termine della delega",
-        "Pubblicazione ed entrata in vigore secondo la disciplina"
-      ],
-      "spiegazione": "Il fondamento parlamentare precede l’esercizio governativo e il decreto non richiede conversione."
-    },
-    {
-      "id": "u13-q032",
-      "tipo": "abbina",
-      "lezione": "u13-l3",
-      "livello": "base",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decreto-legge",
-        "legge-di-conversione",
-        "decadenza-decreto-legge",
-        "legge-di-sanatoria"
-      ],
-      "consegna": "Abbina disposizione e procedimento.",
-      "coppie": [
-        [
-          "Art. 72",
-          "Sedi e riserva d’assemblea"
-        ],
-        [
-          "Art. 73",
-          "Promulgazione e pubblicazione"
-        ],
-        [
-          "Art. 76",
-          "Delega legislativa"
-        ],
-        [
-          "Art. 77",
-          "Decreto-legge e conversione"
-        ]
-      ]
-    },
-    {
-      "id": "u13-q033",
-      "lezione": "u13-l1",
-      "livello": "avanzato",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "riserva-di-assemblea",
-        "commissione-deliberante"
-      ],
-      "tipo": "multipla",
-      "domanda": "Un disegno di legge in materia elettorale può essere approvato in via definitiva da una commissione in sede deliberante?",
-      "opzioni": [
-        "Sì, se lo decide il presidente della Camera",
-        "Sì, con il consenso del Governo",
-        "No: è coperto dalla riserva di assemblea",
-        "No, salvo che sia dichiarato urgente"
-      ],
-      "corretta": 2,
-      "spiegazione": "Art. 72, quarto comma: procedura normale obbligatoria per le leggi in materia costituzionale ed elettorale, di delegazione legislativa, di autorizzazione a ratificare trattati e di bilancio."
-    },
-    {
-      "id": "u13-q034",
-      "lezione": "u13-l1",
-      "livello": "base",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "navetta-parlamentare"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Se Camera e Senato approvano due testi diversi della stessa legge, prevale il testo della Camera.",
-      "vero": false,
-      "spiegazione": "Il testo fa la spola tra le due Camere (navetta) finché entrambe non lo approvano identico: è una conseguenza del bicameralismo paritario."
-    },
-    {
-      "id": "u13-q035",
-      "lezione": "u13-l1",
-      "livello": "base",
-      "pagine": [
-        113,
-        118
-      ],
-      "concetti": [
-        "legge-ordinaria",
-        "iniziativa-legislativa"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Quali sono le fasi del procedimento legislativo ordinario?",
-      "risposta": "Iniziativa; esame in commissione e approvazione di ciascuna Camera, articolo per articolo e con votazione finale, nello stesso testo; promulgazione del Presidente della Repubblica entro un mese; pubblicazione nella Gazzetta Ufficiale; entrata in vigore dopo la vacatio legis."
-    },
-    {
-      "id": "u13-q036",
-      "lezione": "u13-l2",
-      "livello": "avanzato",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "eccesso-di-delega",
-        "decreto-legislativo"
-      ],
-      "tipo": "multipla",
-      "domanda": "Il Governo adotta un decreto legislativo dopo la scadenza del termine fissato dalla legge delega. Qual è la conseguenza?",
-      "opzioni": [
-        "Il decreto è valido, perché ha forza di legge",
-        "Il decreto è costituzionalmente illegittimo per violazione dell'art. 76",
-        "Il decreto vale come regolamento",
-        "Il decreto decade dopo sessanta giorni"
-      ],
-      "corretta": 1,
-      "spiegazione": "La legge delega è norma interposta: violarne oggetto, principi o termine significa violare l'art. 76, e la Corte costituzionale può dichiarare illegittimo il decreto."
-    },
-    {
-      "id": "u13-q037",
-      "lezione": "u13-l2",
-      "livello": "medio",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-delega"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "La legge delega può lasciare al Governo la scelta degli oggetti da disciplinare.",
-      "vero": false,
-      "spiegazione": "L'art. 76 chiede oggetti definiti, principi e criteri direttivi e un tempo limitato: una delega in bianco sarebbe incostituzionale."
-    },
-    {
-      "id": "u13-q038",
-      "lezione": "u13-l2",
-      "livello": "avanzato",
-      "pagine": [
-        118,
-        121
-      ],
-      "concetti": [
-        "legge-rinforzata"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Che cos'è una legge rinforzata? Faccia un esempio.",
-      "risposta": "È una legge per la quale la Costituzione prevede un procedimento più gravoso di quello ordinario. Esempi: la legge di amnistia e indulto, approvata a maggioranza dei due terzi (art. 79); le leggi che regolano i rapporti con le confessioni religiose sulla base di intese (art. 8)."
-    },
-    {
-      "id": "u13-q039",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decadenza-decreto-legge",
-        "legge-di-sanatoria"
-      ],
-      "tipo": "multipla",
-      "domanda": "Un decreto-legge non viene convertito entro sessanta giorni. Che cosa accade?",
-      "opzioni": [
-        "Resta in vigore finché una legge non lo abroga",
-        "Perde efficacia solo per il futuro",
-        "Perde efficacia sin dall'inizio; le Camere possono regolare con legge i rapporti sorti",
-        "Si trasforma in disegno di legge"
-      ],
-      "corretta": 2,
-      "spiegazione": "Art. 77, terzo comma. La decadenza è retroattiva; la legge che regola i rapporti nati dal decreto si chiama legge di sanatoria."
-    },
-    {
-      "id": "u13-q040",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "reiterazione-decreti-legge"
-      ],
-      "tipo": "verofalso",
-      "affermazione": "Il Governo può riprodurre in un nuovo decreto-legge il contenuto di un decreto non convertito, anche senza nuovi motivi di urgenza.",
-      "vero": false,
-      "spiegazione": "La Corte costituzionale (sent. 360/1996) ha dichiarato illegittima la reiterazione: aggira il termine di sessanta giorni e altera il ruolo del Parlamento."
-    },
-    {
-      "id": "u13-q041",
-      "lezione": "u13-l3",
-      "livello": "medio",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decreto-legge",
-        "omogeneita-decreto-legge"
-      ],
-      "tipo": "flashcard",
-      "domanda": "Quali limiti incontra la legge di conversione di un decreto-legge?",
-      "risposta": "Deve restare omogenea all'oggetto e allo scopo del decreto: gli emendamenti del tutto estranei sono illegittimi (Corte cost. 22/2012 e 32/2014). I presupposti di necessità e urgenza, se mancano in modo evidente, viziano anche la legge di conversione."
-    },
-    {
-      "id": "u13-q042",
-      "lezione": "u13-l3",
-      "livello": "avanzato",
-      "pagine": [
-        122,
-        125
-      ],
-      "concetti": [
-        "decreto-legge",
-        "decreto-legislativo",
-        "legge-delega",
-        "legge-di-conversione"
-      ],
-      "tipo": "aperta",
-      "domanda": "Confronti il decreto-legge e il decreto legislativo.",
-      "traccia": "Sono entrambi **atti con forza di legge** del Governo, emanati dal Presidente della Repubblica e soggetti al giudizio della Corte costituzionale. Cambia il **momento** in cui interviene il Parlamento.\n\nNel **decreto legislativo** (art. 76) il Parlamento interviene **prima**: con la **legge delega** fissa **oggetti definiti**, **principi e criteri direttivi** e un **tempo limitato**. Il Governo adotta poi il decreto, che è stabile. Se va oltre la delega c'è **eccesso di delega**: il decreto viola indirettamente l'art. 76, perché la legge delega è **norma interposta**.\n\nNel **decreto-legge** (art. 77) il Parlamento interviene **dopo**. Il Governo, in **casi straordinari di necessità e urgenza**, adotta sotto la propria responsabilità un provvedimento **provvisorio**, che entra subito in vigore e va presentato il giorno stesso alle Camere. Se non è **convertito in legge entro sessanta giorni** perde efficacia **sin dall'inizio**; le Camere possono regolare con legge i rapporti sorti. Non è ammessa la **reiterazione** (sent. 360/1996) e la legge di conversione deve restare **omogenea**.",
-      "punti": [
-        {
-          "testo": "Entrambi sono atti del Governo con forza di legge",
-          "chiavi": [
-            "forza di legge"
-          ]
-        },
-        {
-          "testo": "Decreto legislativo: delega preventiva con oggetto, principi e termine",
-          "chiavi": [
-            "delega",
-            "principi",
-            "criteri"
-          ]
-        },
-        {
-          "testo": "Eccesso di delega e norma interposta",
-          "chiavi": [
-            "eccesso",
-            "interpost"
-          ]
-        },
-        {
-          "testo": "Decreto-legge: necessità e urgenza, provvisorio",
-          "chiavi": [
-            "necessità",
-            "urgenza",
-            "provvisor"
-          ]
-        },
-        {
-          "testo": "Conversione entro sessanta giorni, decadenza retroattiva",
-          "chiavi": [
-            "sessanta",
-            "convers",
-            "inizio"
-          ]
-        },
-        {
-          "testo": "Divieto di reiterazione",
-          "chiavi": [
-            "reiterazion"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u13-q043",
-      "lezione": "u13-l1",
-      "pagine": [
-        113,
-        118
-      ],
-      "serie": "procedimenti",
-      "tipo": "ordina",
-      "livello": "medio",
-      "consegna": "Come nasce una legge (artt. 70–74): metti i passi nell'ordine giusto.",
-      "elementi": [
-        "Iniziativa",
-        "Esame in commissione",
-        "Approvazione della prima Camera",
-        "Approvazione dell'altra Camera",
-        "Promulgazione",
-        "Pubblicazione",
-        "Entrata in vigore"
-      ],
-      "spiegazione": "1. **Iniziativa** (Governo, ogni parlamentare, 50.000 elettori, Consigli regionali, CNEL): Il progetto, redatto in articoli, è presentato a una delle due Camere (art. 71).\n2. **Esame in commissione** (Commissione permanente competente): In sede referente la commissione prepara il testo per l'aula. In sede redigente l'aula vota solo gli articoli e il testo finale senza emendarli. In sede deliberante la commissione approva essa stessa la legge.\n   - Leggi costituzionali ed elettorali, di delega, di ratifica dei trattati, di bilancio → è obbligatoria la procedura normale in aula (riserva di assemblea)\n   - Lo chiedono il Governo, un decimo della Camera o un quinto della commissione → il progetto torna in aula\n3. **Approvazione della prima Camera** (Assemblea): Discussione generale, voto articolo per articolo, votazione finale (art. 72).\n4. **Approvazione dell'altra Camera** (Assemblea): L'altra Camera ripete il procedimento.\n   - Approva lo stesso testo → la legge è perfetta\n   - Modifica il testo → si torna alla prima Camera, solo sulle parti modificate (navetta)\n5. **Promulgazione** (Presidente della Repubblica): Entro un mese dall'approvazione (art. 73).\n   - Il Presidente ha dubbi → può rinviare la legge alle Camere con messaggio motivato, una sola volta; se è riapprovata deve promulgarla (art. 74)\n6. **Pubblicazione** (Ministro della giustizia): La legge è pubblicata nella Gazzetta Ufficiale subito dopo la promulgazione.\n7. **Entrata in vigore**: Il quindicesimo giorno dopo la pubblicazione, salvo che la legge stabilisca un termine diverso.",
-      "concetti": [
-        "iniziativa-legislativa",
-        "commissione-referente",
-        "legge-ordinaria",
-        "navetta-parlamentare",
-        "promulgazione"
-      ]
-    },
-    {
-      "id": "u13-q044",
-      "lezione": "u13-l1",
-      "pagine": [
-        113,
-        118
-      ],
-      "serie": "procedimenti",
-      "tipo": "aperta",
-      "livello": "avanzato",
-      "domanda": "Descriva il procedimento di formazione della legge ordinaria.",
-      "traccia": "La funzione legislativa è esercitata collettivamente dalle due Camere: serve lo stesso testo, approvato da entrambe.\n\n**Iniziativa** (Governo, ogni parlamentare, 50.000 elettori, Consigli regionali, CNEL). Il progetto, redatto in articoli, è presentato a una delle due Camere (art. 71).\n\n**Esame in commissione** (Commissione permanente competente). In sede referente la commissione prepara il testo per l'aula. In sede redigente l'aula vota solo gli articoli e il testo finale senza emendarli. In sede deliberante la commissione approva essa stessa la legge. Leggi costituzionali ed elettorali, di delega, di ratifica dei trattati, di bilancio: è obbligatoria la procedura normale in aula (riserva di assemblea). Lo chiedono il Governo, un decimo della Camera o un quinto della commissione: il progetto torna in aula.\n\n**Approvazione della prima Camera** (Assemblea). Discussione generale, voto articolo per articolo, votazione finale (art. 72).\n\n**Approvazione dell'altra Camera** (Assemblea). L'altra Camera ripete il procedimento. Approva lo stesso testo: la legge è perfetta. Modifica il testo: si torna alla prima Camera, solo sulle parti modificate (navetta).\n\n**Promulgazione** (Presidente della Repubblica). Entro un mese dall'approvazione (art. 73). Il Presidente ha dubbi: può rinviare la legge alle Camere con messaggio motivato, una sola volta; se è riapprovata deve promulgarla (art. 74).\n\n**Pubblicazione** (Ministro della giustizia). La legge è pubblicata nella Gazzetta Ufficiale subito dopo la promulgazione.\n\n**Entrata in vigore**. Il quindicesimo giorno dopo la pubblicazione, salvo che la legge stabilisca un termine diverso.",
-      "punti": [
-        {
-          "testo": "Iniziativa: Il progetto, redatto in articoli, è presentato a una delle due Camere (art",
-          "chiavi": [
-            "iniziat",
-            "progett",
-            "redatto"
-          ]
-        },
-        {
-          "testo": "Esame in commissione: In sede referente la commissione prepara il testo per l'aula",
-          "chiavi": [
-            "commiss",
-            "referen",
-            "prepara"
-          ]
-        },
-        {
-          "testo": "Approvazione della prima Camera: Discussione generale, voto articolo per articolo, votazione finale (art",
-          "chiavi": [
-            "approva",
-            "camera",
-            "discuss"
-          ]
-        },
-        {
-          "testo": "Approvazione dell'altra Camera: L'altra Camera ripete il procedimento",
-          "chiavi": [
-            "approva",
-            "camera",
-            "ripete"
-          ]
-        },
-        {
-          "testo": "Promulgazione: Entro un mese dall'approvazione (art",
-          "chiavi": [
-            "promulg",
-            "approva",
-            "73"
-          ]
-        },
-        {
-          "testo": "Pubblicazione: La legge è pubblicata nella Gazzetta Ufficiale subito dopo la promulgazione",
-          "chiavi": [
-            "pubblic",
-            "gazzett",
-            "ufficia"
-          ]
-        }
-      ],
-      "concetti": [
-        "iniziativa-legislativa",
-        "commissione-referente",
-        "legge-ordinaria",
-        "navetta-parlamentare",
-        "promulgazione"
-      ],
-      "esame": [
-        "torre"
-      ]
-    },
-    {
-      "id": "u13-q045",
-      "lezione": "u13-l1",
-      "pagine": [
-        113,
-        118
-      ],
-      "serie": "procedimenti",
-      "tipo": "flashcard",
-      "livello": "medio",
-      "domanda": "Come nasce una legge, passo «Esame in commissione»: quali esiti sono possibili?",
-      "risposta": "Leggi costituzionali ed elettorali, di delega, di ratifica dei trattati, di bilancio: è obbligatoria la procedura normale in aula (riserva di assemblea). Lo chiedono il Governo, un decimo della Camera o un quinto della commissione: il progetto torna in aula.",
-      "concetti": [
-        "commissione-referente"
-      ]
-    },
-    {
-      "id": "u13-q046",
-      "lezione": "u13-l1",
-      "pagine": [
-        113,
-        118
-      ],
-      "serie": "procedimenti",
-      "tipo": "flashcard",
-      "livello": "medio",
-      "domanda": "Come nasce una legge, passo «Approvazione dell'altra Camera»: quali esiti sono possibili?",
-      "risposta": "Approva lo stesso testo: la legge è perfetta. Modifica il testo: si torna alla prima Camera, solo sulle parti modificate (navetta).",
-      "concetti": [
-        "navetta-parlamentare"
-      ]
-    },
-    {
-      "id": "u13-q047",
-      "lezione": "u13-l1",
-      "pagine": [
-        113,
-        118
-      ],
-      "serie": "procedimenti",
-      "tipo": "flashcard",
-      "livello": "medio",
-      "domanda": "Come nasce una legge, passo «Promulgazione»: quali esiti sono possibili?",
-      "risposta": "Il Presidente ha dubbi: può rinviare la legge alle Camere con messaggio motivato, una sola volta; se è riapprovata deve promulgarla (art. 74).",
-      "concetti": [
-        "promulgazione"
-      ]
-    },
-    {
-      "id": "u13-q048",
-      "lezione": "u13-l3",
-      "pagine": [
-        122,
-        125
-      ],
-      "serie": "procedimenti",
-      "tipo": "ordina",
-      "livello": "medio",
-      "consegna": "Il decreto-legge e la conversione (art. 77): metti i passi nell'ordine giusto.",
-      "elementi": [
-        "Presupposto",
-        "Deliberazione ed emanazione",
-        "Presentazione alle Camere",
-        "Sessanta giorni",
-        "Dopo la decadenza"
-      ],
-      "spiegazione": "1. **Presupposto** (Governo): Un caso straordinario di necessità e urgenza.\n2. **Deliberazione ed emanazione** (Consiglio dei ministri, Presidente della Repubblica): Il Consiglio dei ministri delibera, il Presidente emana. Il decreto è pubblicato ed entra subito in vigore.\n3. **Presentazione alle Camere** (Governo): Il giorno stesso il decreto è presentato per la conversione. Le Camere, anche se sciolte, sono convocate e si riuniscono entro cinque giorni.\n4. **Sessanta giorni** (Parlamento): Le Camere esaminano il disegno di legge di conversione e possono emendare il decreto, restando nell'oggetto.\n   - Conversione, anche con modifiche → il decreto è stabilizzato; gli emendamenti valgono di regola dal giorno dopo la pubblicazione della legge di conversione\n   - Mancata conversione o voto contrario → il decreto perde efficacia sin dall'inizio\n5. **Dopo la decadenza** (Parlamento): Le Camere possono regolare con legge i rapporti sorti in base al decreto non convertito. Il Governo non può reiterarlo.",
-      "concetti": [
-        "decreto-legge",
-        "consiglio-dei-ministri",
-        "legge-di-conversione",
-        "omogeneita-decreto-legge",
-        "legge-di-sanatoria"
-      ]
-    },
-    {
-      "id": "u13-q049",
-      "lezione": "u13-l3",
-      "pagine": [
-        122,
-        125
-      ],
-      "serie": "procedimenti",
-      "tipo": "aperta",
-      "livello": "avanzato",
-      "domanda": "Dal Consiglio dei ministri alla conversione: descriva il percorso di un decreto-legge.",
-      "traccia": "Il Governo decide subito, il Parlamento ha sessanta giorni per confermare.\n\n**Presupposto** (Governo). Un caso straordinario di necessità e urgenza.\n\n**Deliberazione ed emanazione** (Consiglio dei ministri, Presidente della Repubblica). Il Consiglio dei ministri delibera, il Presidente emana. Il decreto è pubblicato ed entra subito in vigore.\n\n**Presentazione alle Camere** (Governo). Il giorno stesso il decreto è presentato per la conversione. Le Camere, anche se sciolte, sono convocate e si riuniscono entro cinque giorni.\n\n**Sessanta giorni** (Parlamento). Le Camere esaminano il disegno di legge di conversione e possono emendare il decreto, restando nell'oggetto. Conversione, anche con modifiche: il decreto è stabilizzato; gli emendamenti valgono di regola dal giorno dopo la pubblicazione della legge di conversione. Mancata conversione o voto contrario: il decreto perde efficacia sin dall'inizio.\n\n**Dopo la decadenza** (Parlamento). Le Camere possono regolare con legge i rapporti sorti in base al decreto non convertito. Il Governo non può reiterarlo.",
-      "punti": [
-        {
-          "testo": "Presupposto: Un caso straordinario di necessità e urgenza",
-          "chiavi": [
-            "presupp",
-            "straord",
-            "necessi"
-          ]
-        },
-        {
-          "testo": "Deliberazione ed emanazione: Il Consiglio dei ministri delibera, il Presidente emana",
-          "chiavi": [
-            "deliber",
-            "emanazi",
-            "consigl"
-          ]
-        },
-        {
-          "testo": "Presentazione alle Camere: Il giorno stesso il decreto è presentato per la conversione",
-          "chiavi": [
-            "present",
-            "camere",
-            "decreto"
-          ]
-        },
-        {
-          "testo": "Sessanta giorni: Le Camere esaminano il disegno di legge di conversione e possono emendare il decreto, restando nell'oggetto",
-          "chiavi": [
-            "sessant",
-            "camere",
-            "esamina"
-          ]
-        },
-        {
-          "testo": "Dopo la decadenza: Le Camere possono regolare con legge i rapporti sorti in base al decreto non convertito",
-          "chiavi": [
-            "decaden",
-            "camere",
-            "regolar"
-          ]
-        }
-      ],
-      "concetti": [
-        "decreto-legge",
-        "consiglio-dei-ministri",
-        "legge-di-conversione",
-        "omogeneita-decreto-legge",
-        "legge-di-sanatoria"
-      ]
-    },
-    {
-      "id": "u13-q050",
-      "lezione": "u13-l3",
-      "pagine": [
-        122,
-        125
-      ],
-      "serie": "procedimenti",
-      "tipo": "flashcard",
-      "livello": "medio",
-      "domanda": "Il decreto-legge e la conversione, passo «Sessanta giorni»: quali esiti sono possibili?",
-      "risposta": "Conversione, anche con modifiche: il decreto è stabilizzato; gli emendamenti valgono di regola dal giorno dopo la pubblicazione della legge di conversione. Mancata conversione o voto contrario: il decreto perde efficacia sin dall'inizio.",
-      "concetti": [
-        "omogeneita-decreto-legge"
-      ]
-    },
-    {
-      "id": "u13-q051",
-      "lezione": "u13-l2",
-      "pagine": [
-        118,
-        121
-      ],
-      "serie": "procedimenti",
-      "tipo": "ordina",
-      "livello": "medio",
-      "consegna": "La delega legislativa (art. 76): metti i passi nell'ordine giusto.",
-      "elementi": [
-        "Legge delega",
-        "Schema di decreto",
-        "Emanazione",
-        "Controllo"
-      ],
-      "spiegazione": "1. **Legge delega** (Parlamento): Approvata in aula con procedura normale. Deve indicare oggetti definiti, principi e criteri direttivi e un tempo limitato.\n2. **Schema di decreto** (Governo): Il Consiglio dei ministri delibera lo schema. Spesso la delega chiede il parere delle commissioni parlamentari.\n3. **Emanazione** (Presidente della Repubblica): Il decreto legislativo è emanato entro il termine della delega e pubblicato.\n4. **Controllo** (Corte costituzionale): Se il decreto esce dall'oggetto, dai principi o dal termine, viola l'art. 76 attraverso la legge delega.",
-      "concetti": [
-        "legge-delega",
-        "consiglio-dei-ministri",
-        "decreto-legislativo",
-        "eccesso-di-delega"
-      ]
-    },
-    {
-      "id": "u13-q052",
-      "lezione": "u13-l2",
-      "pagine": [
-        118,
-        121
-      ],
-      "serie": "procedimenti",
-      "tipo": "aperta",
-      "livello": "avanzato",
-      "domanda": "Come si svolge la delegazione legislativa, dalla legge delega al controllo della Corte costituzionale?",
-      "traccia": "Il Parlamento fissa la cornice prima, il Governo scrive le norme dopo.\n\n**Legge delega** (Parlamento). Approvata in aula con procedura normale. Deve indicare oggetti definiti, principi e criteri direttivi e un tempo limitato.\n\n**Schema di decreto** (Governo). Il Consiglio dei ministri delibera lo schema. Spesso la delega chiede il parere delle commissioni parlamentari.\n\n**Emanazione** (Presidente della Repubblica). Il decreto legislativo è emanato entro il termine della delega e pubblicato.\n\n**Controllo** (Corte costituzionale). Se il decreto esce dall'oggetto, dai principi o dal termine, viola l'art. 76 attraverso la legge delega.",
-      "punti": [
-        {
-          "testo": "Legge delega: Approvata in aula con procedura normale",
-          "chiavi": [
-            "delega",
-            "approva",
-            "procedu"
-          ]
-        },
-        {
-          "testo": "Schema di decreto: Il Consiglio dei ministri delibera lo schema",
-          "chiavi": [
-            "schema",
-            "decreto",
-            "consigl"
-          ]
-        },
-        {
-          "testo": "Emanazione: Il decreto legislativo è emanato entro il termine della delega e pubblicato",
-          "chiavi": [
-            "emanazi",
-            "decreto",
-            "legisla"
-          ]
-        },
-        {
-          "testo": "Controllo: Se il decreto esce dall'oggetto, dai principi o dal termine, viola l'art",
-          "chiavi": [
-            "control",
-            "decreto",
-            "oggetto"
-          ]
-        }
-      ],
-      "concetti": [
-        "legge-delega",
-        "consiglio-dei-ministri",
-        "decreto-legislativo",
-        "eccesso-di-delega"
-      ],
-      "esame": [
-        "torre"
-      ]
-    },
-    {
-      "id": "u13-q053",
-      "lezione": "u13-l3",
-      "pagine": [
-        122,
-        125
-      ],
-      "serie": "procedimenti",
-      "tipo": "abbina",
-      "livello": "medio",
-      "consegna": "Decreto-legge e decreto legislativo. Decreto-legge: abbina ogni aspetto alla sua caratteristica.",
-      "coppie": [
-        [
-          "Norma",
-          "art. 77"
-        ],
-        [
-          "Presupposto",
-          "Casi straordinari di necessità e urgenza"
-        ],
-        [
-          "Il Parlamento interviene",
-          "Dopo: legge di conversione"
-        ],
-        [
-          "Durata",
-          "Provvisorio: 60 giorni"
-        ],
-        [
-          "Se qualcosa manca",
-          "Decade sin dall'inizio"
-        ],
-        [
-          "Chi lo adotta",
-          "Consiglio dei ministri; emana il Presidente della Repubblica"
-        ]
-      ]
-    },
-    {
-      "id": "u13-q054",
-      "lezione": "u13-l3",
-      "pagine": [
-        122,
-        125
-      ],
-      "serie": "procedimenti",
-      "tipo": "abbina",
-      "livello": "medio",
-      "consegna": "Decreto-legge e decreto legislativo. Decreto legislativo: abbina ogni aspetto alla sua caratteristica.",
-      "coppie": [
-        [
-          "Norma",
-          "art. 76"
-        ],
-        [
-          "Presupposto",
-          "Una legge delega"
-        ],
-        [
-          "Il Parlamento interviene",
-          "Prima: legge delega"
-        ],
-        [
-          "Durata",
-          "Stabile"
-        ],
-        [
-          "Se qualcosa manca",
-          "Eccesso di delega: illegittimo"
-        ],
-        [
-          "Chi lo adotta",
-          "Consiglio dei ministri; emana il Presidente della Repubblica"
-        ]
-      ]
+     "voce": "18 giugno 1989",
+     "dettaglio": "referendum d'indirizzo sull'Unione europea"
     }
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "ammissibilita-referendum",
+    "regolarita-referendum",
+    "referendum-di-indirizzo",
+    "organo-costituzionale"
+   ]
+  }
+ ],
+ "concetti": [
+  {
+   "id": "referendum-abrogativo",
+   "nome": "Referendum abrogativo",
+   "tipo": "istituto",
+   "alias": [
+    "referendum"
+   ],
+   "breve": "Voto popolare che abroga, in tutto o in parte, una legge o un atto con forza di legge (art. 75).",
+   "definizione": "Strumento di democrazia diretta con cui il corpo elettorale delibera l'abrogazione totale o parziale di una legge o di un atto avente forza di legge. Lo chiedono 500.000 elettori o cinque Consigli regionali; è escluso per le leggi tributarie e di bilancio, di amnistia e indulto, di autorizzazione alla ratifica dei trattati e per i limiti impliciti indicati dalla Corte. È valido se vota la maggioranza degli aventi diritto e approvato con la maggioranza dei voti validi. Disciplinato dalla l. 352/1970, è una vera fonte del diritto.",
+   "pagine": [
+    114,
+    117
+   ]
+  },
+  {
+   "id": "quorum-referendario",
+   "nome": "Quorum referendario",
+   "tipo": "istituto",
+   "alias": [
+    "quorum di validità"
+   ],
+   "breve": "Partecipazione della maggioranza degli aventi diritto, necessaria perché il referendum abrogativo sia valido.",
+   "definizione": "È il primo dei due quorum dell'art. 75: la proposta è approvata solo se ha partecipato al voto la maggioranza degli aventi diritto e se i sì sono la maggioranza dei voti validi. La regola, già nella Costituzione di Weimar del 1919, serve a evitare che una minoranza attiva abroghi leggi del Parlamento, ma permette a chi si oppone di puntare sull'astensione, come è accaduto più volte. Se il quorum manca non scatta il divieto quinquennale di riproporre la stessa richiesta. Il referendum costituzionale dell'art. 138, invece, non ha quorum di partecipazione.",
+   "pagine": [
+    115,
+    115
+   ]
+  },
+  {
+   "id": "ammissibilita-referendum",
+   "nome": "Giudizio di ammissibilità del referendum",
+   "tipo": "procedura",
+   "alias": [
+    "ammissibilità del referendum"
+   ],
+   "breve": "Controllo della Corte costituzionale sulla richiesta di referendum abrogativo, previsto dalla l. cost. 1/1953.",
+   "definizione": "La Corte costituzionale verifica che la richiesta non riguardi le leggi escluse dall'art. 75 e che rispetti i limiti impliciti: niente leggi costituzionali, niente norme a contenuto costituzionalmente vincolato o di rilevanza costituzionale, quesito omogeneo, chiaro e coerente (sentenza capostipite n. 16/1978). Per le leggi elettorali, dopo la sentenza 13/2012, conta che resti una disciplina immediatamente applicabile. È un giudizio sulla richiesta, distinto da quello sulla legittimità delle leggi, e precede l'indizione del voto. La Corte decide con sentenza entro il 10 febbraio, dopo il controllo dell'Ufficio centrale; sono inammissibili anche i quesiti manipolativi, che trasformerebbero l'abrogazione in una nuova norma.",
+   "pagine": [
+    115,
+    116
+   ]
+  },
+  {
+   "id": "regolarita-referendum",
+   "nome": "Controllo dell'Ufficio centrale per il referendum",
+   "tipo": "procedura",
+   "alias": [
+    "Ufficio centrale per il referendum"
+   ],
+   "breve": "Verifica di legittimità della richiesta referendaria svolta dall'Ufficio centrale presso la Corte di cassazione.",
+   "definizione": "L'Ufficio centrale per il referendum, costituito presso la Cassazione, controlla che le richieste depositate tra il 1° gennaio e il 30 settembre rispettino i requisiti dell'art. 75, primo comma (numero e validità delle firme, delibere regionali), anche in contraddittorio con promotori e delegati. Stabilisce la denominazione del quesito da stampare sulla scheda e, se la legge è abrogata o modificata prima del voto, decide se le operazioni proseguono sulle nuove disposizioni (sent. 68/1978) o non hanno più corso. Verifica anche che l'atto indicato sia una legge o un atto con forza di legge ancora in vigore e può riunire le richieste simili.",
+   "pagine": [
+    116,
+    117
+   ]
+  },
+  {
+   "id": "divieto-di-ripristino",
+   "nome": "Divieto di ripristino della normativa abrogata",
+   "tipo": "concetto",
+   "alias": [
+    "vincolo referendario"
+   ],
+   "breve": "Vincolo che impedisce al legislatore di riproporre subito la disciplina abrogata dal referendum (sent. 199/2012).",
+   "definizione": "Dopo i referendum del giugno 2011 il Governo dettò con decreto-legge una disciplina dei servizi pubblici locali di rilevanza economica analoga a quella abrogata. La Corte costituzionale, con la sentenza 199/2012, accolse i ricorsi di alcune Regioni: la volontà popolare espressa con il referendum abrogativo vincola il legislatore, che non può ripristinare formalmente o sostanzialmente la normativa abrogata, almeno finché non intervenga un mutamento del quadro politico o delle circostanze di fatto. È il riconoscimento della forza del referendum come fonte.",
+   "pagine": [
+    115,
+    115
+   ]
+  },
+  {
+   "id": "referendum-di-indirizzo",
+   "nome": "Referendum d'indirizzo",
+   "tipo": "istituto",
+   "alias": [
+    "referendum consultivo"
+   ],
+   "breve": "Consultazione popolare del 1989 sul mandato costituente al Parlamento europeo, indetta con legge costituzionale.",
+   "definizione": "Con la legge costituzionale 2/1989 gli elettori furono chiamati, il 18 giugno 1989, a pronunciarsi sulla trasformazione delle Comunità europee in un'Unione con un governo responsabile davanti al Parlamento europeo, incaricato di redigere un progetto di Costituzione europea. Fu necessaria una legge costituzionale perché la Costituzione non prevede referendum consultivi. La legge non ha creato un istituto generale: ha indetto un solo referendum, dopo il quale la temporanea rottura della Costituzione si è chiusa.",
+   "pagine": [
+    117,
+    118
+   ]
+  }
+ ],
+ "relazioni": [
+  {
+   "da": "referendum-abrogativo",
+   "a": "sovranita-popolare",
+   "tipo": "esempio-di",
+   "etichetta": "rende operante la"
+  },
+  {
+   "da": "referendum-abrogativo",
+   "a": "quorum-referendario",
+   "tipo": "collegato",
+   "etichetta": "è valido solo con il"
+  },
+  {
+   "da": "ammissibilita-referendum",
+   "a": "referendum-abrogativo",
+   "tipo": "collegato",
+   "etichetta": "filtra le richieste di"
+  },
+  {
+   "da": "corte-costituzionale",
+   "a": "ammissibilita-referendum",
+   "tipo": "crea",
+   "etichetta": "decide il"
+  },
+  {
+   "da": "regolarita-referendum",
+   "a": "referendum-abrogativo",
+   "tipo": "collegato",
+   "etichetta": "verifica le richieste di"
+  },
+  {
+   "da": "regolarita-referendum",
+   "a": "ammissibilita-referendum",
+   "tipo": "collegato",
+   "etichetta": "precede il"
+  },
+  {
+   "da": "divieto-di-ripristino",
+   "a": "referendum-abrogativo",
+   "tipo": "collegato",
+   "etichetta": "protegge l'esito del"
+  },
+  {
+   "da": "divieto-di-ripristino",
+   "a": "decreto-legge",
+   "tipo": "contrasta",
+   "etichetta": "ha colpito un"
+  },
+  {
+   "da": "referendum-di-indirizzo",
+   "a": "unione-europea",
+   "tipo": "collegato",
+   "etichetta": "riguardava la nascita dell'"
+  },
+  {
+   "da": "referendum-di-indirizzo",
+   "a": "rottura-della-costituzione",
+   "tipo": "esempio-di",
+   "etichetta": "fu una temporanea"
+  },
+  {
+   "da": "referendum-di-indirizzo",
+   "a": "referendum-abrogativo",
+   "tipo": "contrasta",
+   "etichetta": "non abroga leggi come il"
+  },
+  {
+   "da": "referendum-abrogativo",
+   "a": "iniziativa-legislativa-popolare",
+   "tipo": "collegato",
+   "etichetta": "è con l'"
+  },
+  {
+   "da": "referendum-abrogativo",
+   "a": "referendum-costituzionale",
+   "tipo": "contrasta",
+   "etichetta": "si distingue dal"
+  },
+  {
+   "da": "quorum-referendario",
+   "a": "partiti-politici",
+   "tipo": "collegato",
+   "etichetta": "è usato dai"
+  },
+  {
+   "da": "presidente-della-repubblica",
+   "a": "referendum-abrogativo",
+   "tipo": "collegato",
+   "etichetta": "indice e dichiara l'esito del"
+  },
+  {
+   "da": "referendum-abrogativo",
+   "a": "abrogazione",
+   "tipo": "causa",
+   "etichetta": "elimina norme vigenti"
+  },
+  {
+   "da": "quorum-referendario",
+   "a": "referendum-abrogativo",
+   "tipo": "parte-di",
+   "etichetta": "condizione di validità"
+  }
+ ],
+ "eventi": [
+  {
+   "id": "ev-referendum-di-indirizzo-1989",
+   "anno": 1989,
+   "data": "18 giugno 1989",
+   "titolo": "Referendum d'indirizzo sull'Unione europea",
+   "descrizione": "Indetto con la legge costituzionale 2/1989, si svolge insieme alle elezioni europee: unico referendum consultivo nazionale.",
+   "tipo": "politica",
+   "concetti": [
+    "referendum-di-indirizzo"
+   ],
+   "pagine": [
+    117,
+    118
+   ]
+  },
+  {
+   "id": "ev-sentenza-16-1978",
+   "anno": 1978,
+   "data": "1978",
+   "titolo": "Sentenza n. 16/1978 sull'ammissibilità",
+   "descrizione": "La Corte costituzionale riconosce limiti impliciti al referendum abrogativo e pretende quesiti omogenei.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "ammissibilita-referendum",
+    "referendum-abrogativo"
+   ],
+   "pagine": [
+    116,
+    116
+   ]
+  },
+  {
+   "id": "ev-referendum-2011",
+   "anno": 2011,
+   "data": "12–13 giugno 2011",
+   "titolo": "Referendum su acqua, nucleare e legittimo impedimento",
+   "descrizione": "Dopo sedici anni il quorum è raggiunto: abrogate le norme su servizi pubblici locali, tariffa idrica, energia nucleare e legittimo impedimento.",
+   "tipo": "politica",
+   "concetti": [
+    "referendum-abrogativo",
+    "quorum-referendario"
+   ],
+   "pagine": [
+    115,
+    115
+   ]
+  },
+  {
+   "id": "ev-sentenza-13-2012",
+   "anno": 2012,
+   "data": "2012",
+   "titolo": "Sentenza n. 13/2012 sui referendum elettorali",
+   "descrizione": "Inammissibili le richieste di abrogare la legge elettorale 270/2005: le leggi elettorali non possono restare senza disciplina applicabile.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "pagine": [
+    116,
+    116
+   ]
+  },
+  {
+   "id": "ev-sentenza-199-2012",
+   "anno": 2012,
+   "data": "2012",
+   "titolo": "Sentenza n. 199/2012 sul ripristino della normativa abrogata",
+   "descrizione": "La Corte annulla la disciplina dei servizi pubblici locali che riproduceva quella abrogata dal referendum del 2011.",
+   "tipo": "giurisprudenza",
+   "concetti": [
+    "divieto-di-ripristino"
+   ],
+   "pagine": [
+    115,
+    115
+   ]
+  },
+  {
+   "id": "ev-primo-referendum-abrogativo",
+   "anno": 1974,
+   "data": "12–13 maggio 1974",
+   "titolo": "Primo referendum abrogativo",
+   "descrizione": "Gli elettori respingono l'abrogazione della legge sul divorzio.",
+   "tipo": "politica",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "quorum-referendario"
+   ]
+  }
+ ],
+ "mappa": {
+  "testo": "Il popolo legislatore",
+  "concetto": "referendum-abrogativo",
+  "figli": [
+   {
+    "testo": "Tre strumenti",
+    "figli": [
+     {
+      "testo": "Iniziativa popolare",
+      "concetto": "iniziativa-legislativa-popolare",
+      "nota": "50.000 elettori"
+     },
+     {
+      "testo": "Referendum costituzionale",
+      "concetto": "referendum-costituzionale",
+      "nota": "art. 138"
+     },
+     {
+      "testo": "Referendum abrogativo",
+      "concetto": "referendum-abrogativo",
+      "nota": "art. 75"
+     }
+    ]
+   },
+   {
+    "testo": "Art. 75",
+    "figli": [
+     {
+      "testo": "500.000 elettori o 5 Consigli regionali"
+     },
+     {
+      "testo": "Materie escluse",
+      "nota": "tributi e bilancio, amnistia e indulto, ratifica"
+     },
+     {
+      "testo": "Doppio quorum",
+      "concetto": "quorum-referendario"
+     }
+    ]
+   },
+   {
+    "testo": "Controlli",
+    "figli": [
+     {
+      "testo": "Ufficio centrale",
+      "concetto": "regolarita-referendum",
+      "nota": "Cassazione"
+     },
+     {
+      "testo": "Corte costituzionale",
+      "concetto": "ammissibilita-referendum",
+      "nota": "sent. 16/1978"
+     }
+    ]
+   },
+   {
+    "testo": "Effetti",
+    "figli": [
+     {
+      "testo": "DPR di abrogazione",
+      "nota": "fino a 60 giorni di differimento"
+     },
+     {
+      "testo": "Divieto di ripristino",
+      "concetto": "divieto-di-ripristino",
+      "nota": "sent. 199/2012"
+     },
+     {
+      "testo": "5 anni se vince il no"
+     }
+    ]
+   },
+   {
+    "testo": "Referendum d'indirizzo 1989",
+    "concetto": "referendum-di-indirizzo",
+    "nota": "l. cost. 2/1989"
+   }
   ]
+ },
+ "domande": [
+  {
+   "id": "u13-q001",
+   "tipo": "flashcard",
+   "lezione": "u13-l1",
+   "livello": "base",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Chi può chiedere il referendum abrogativo e su quali atti?",
+   "risposta": "Lo chiedono 500.000 elettori o cinque Consigli regionali (art. 75). Ha per oggetto l'abrogazione, totale o parziale, di una legge o di un atto avente forza di legge."
+  },
+  {
+   "id": "u13-q002",
+   "tipo": "flashcard",
+   "lezione": "u13-l1",
+   "livello": "base",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Quali leggi sono escluse in modo espresso dal referendum abrogativo?",
+   "risposta": "Le leggi tributarie e di bilancio, di amnistia e indulto, di autorizzazione a ratificare trattati internazionali (art. 75, secondo comma): il Costituente ha voluto riservare al Parlamento questi interessi fondamentali dello Stato."
+  },
+  {
+   "id": "u13-q003",
+   "tipo": "flashcard",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "quorum-referendario"
+   ],
+   "domanda": "Quando è approvata la proposta sottoposta a referendum abrogativo?",
+   "risposta": "Quando ha partecipato al voto la maggioranza degli aventi diritto e la proposta ha ottenuto la maggioranza dei voti validamente espressi: è il doppio quorum, di partecipazione e di approvazione."
+  },
+  {
+   "id": "u13-q004",
+   "tipo": "flashcard",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "quorum-referendario"
+   ],
+   "domanda": "Quale effetto collaterale ha il quorum di partecipazione?",
+   "risposta": "Chi è contrario all'abrogazione può invitare all'astensione e far fallire il referendum sommando gli astenuti per scelta a quelli abituali; è accaduto più volte in Italia. La regola era già nella Costituzione di Weimar del 1919."
+  },
+  {
+   "id": "u13-q005",
+   "tipo": "flashcard",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "divieto-di-ripristino"
+   ],
+   "domanda": "Che cosa ha stabilito la Corte costituzionale con la sentenza 199/2012?",
+   "risposta": "Ha dichiarato illegittimo un decreto-legge che riproponeva la disciplina dei servizi pubblici locali abrogata dal referendum del 2011: il legislatore non può ripristinare la normativa abrogata dalla volontà popolare."
+  },
+  {
+   "id": "u13-q006",
+   "tipo": "flashcard",
+   "lezione": "u13-l1",
+   "livello": "avanzato",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Il voto al referendum è anche un dovere? Quali tesi si confrontano?",
+   "risposta": "Per Fois e Barile il dovere civico dell'art. 48 vale solo nelle elezioni dei membri degli organi rappresentativi, non nel referendum. Per Bassanini il voto è sempre espressione della volontà popolare e quindi dovere costituzionale, rimesso però alla sensibilità democratica del cittadino."
+  },
+  {
+   "id": "u13-q007",
+   "tipo": "flashcard",
+   "lezione": "u13-l1",
+   "livello": "base",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "domanda": "Chi giudica l'ammissibilità del referendum abrogativo e su quale base?",
+   "risposta": "La Corte costituzionale, in base all'art. 2 della legge costituzionale 1/1953: accerta se la legge oggetto della richiesta rientri tra quelle escluse dall'art. 75."
+  },
+  {
+   "id": "u13-q008",
+   "tipo": "multipla",
+   "lezione": "u13-l1",
+   "livello": "base",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Quanti Consigli regionali possono chiedere il referendum abrogativo?",
+   "opzioni": [
+    "Tre",
+    "Cinque",
+    "Dieci",
+    "La maggioranza"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 75: cinque Consigli regionali, in alternativa a 500.000 elettori."
+  },
+  {
+   "id": "u13-q009",
+   "tipo": "multipla",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Quale di queste leggi può essere sottoposta a referendum abrogativo?",
+   "opzioni": [
+    "Legge di amnistia",
+    "Legge di bilancio",
+    "Legge di autorizzazione alla ratifica di un trattato",
+    "Legge sulla caccia"
+   ],
+   "corretta": 3,
+   "spiegazione": "Le altre tre sono escluse in modo espresso dall'art. 75, secondo comma."
+  },
+  {
+   "id": "u13-q010",
+   "tipo": "multipla",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "quorum-referendario"
+   ],
+   "domanda": "Che cosa succede se al referendum vota il 40% degli aventi diritto e i sì sono il 90%?",
+   "opzioni": [
+    "L'abrogazione è approvata",
+    "Il referendum non è valido",
+    "Decide il Parlamento",
+    "Si ripete il voto"
+   ],
+   "corretta": 1,
+   "spiegazione": "Manca il quorum di partecipazione: la maggioranza degli aventi diritto."
+  },
+  {
+   "id": "u13-q011",
+   "tipo": "multipla",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Nel giugno 2011 il referendum abrogò, tra l'altro, norme sul:",
+   "opzioni": [
+    "Divorzio",
+    "Finanziamento dei partiti",
+    "Legittimo impedimento",
+    "Sistema elettorale del Senato"
+   ],
+   "corretta": 2,
+   "spiegazione": "Oltre al legittimo impedimento: servizi pubblici locali, tariffa idrica, nucleare."
+  },
+  {
+   "id": "u13-q012",
+   "tipo": "verofalso",
+   "lezione": "u13-l1",
+   "livello": "base",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "affermazione": "Il referendum abrogativo può abrogare anche solo una parte di una legge.",
+   "vero": true,
+   "spiegazione": "L'art. 75 parla di abrogazione totale o parziale."
+  },
+  {
+   "id": "u13-q013",
+   "tipo": "verofalso",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "quorum-referendario"
+   ],
+   "affermazione": "Per la validità del referendum basta la maggioranza dei voti validi, indipendentemente dall'affluenza.",
+   "vero": false,
+   "spiegazione": "Serve anche la partecipazione della maggioranza degli aventi diritto."
+  },
+  {
+   "id": "u13-q014",
+   "tipo": "verofalso",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "divieto-di-ripristino"
+   ],
+   "affermazione": "Dopo un referendum vittorioso il legislatore può subito riproporre la stessa disciplina abrogata.",
+   "vero": false,
+   "spiegazione": "La sentenza 199/2012 lo vieta."
+  },
+  {
+   "id": "u13-q015",
+   "tipo": "completa",
+   "lezione": "u13-l1",
+   "livello": "base",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "testo": "Il referendum abrogativo è chiesto da {{500.000}} elettori o da {{cinque}} Consigli regionali."
+  },
+  {
+   "id": "u13-q016",
+   "tipo": "completa",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "testo": "Sull'ammissibilità del referendum decide la {{Corte costituzionale}}, in base alla legge costituzionale n. 1 del {{1953}}."
+  },
+  {
+   "id": "u13-q017",
+   "tipo": "aperta",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    114,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "quorum-referendario",
+    "ammissibilita-referendum",
+    "divieto-di-ripristino"
+   ],
+   "domanda": "Illustri la disciplina costituzionale del referendum abrogativo.",
+   "traccia": "Il referendum abrogativo (art. 75 e l. 352/1970) è lo strumento con cui il popolo esercita in via diretta la funzione legislativa, abrogando in tutto o in parte una legge o un atto con forza di legge. Lo chiedono 500.000 elettori o cinque Consigli regionali e lo indice il Presidente della Repubblica. Sono escluse le leggi tributarie e di bilancio, di amnistia e indulto, di autorizzazione alla ratifica, per riservare al Parlamento interessi fondamentali dello Stato. Vota il corpo elettorale della Camera; la proposta passa se partecipa la maggioranza degli aventi diritto e vince la maggioranza dei voti validi: il quorum, preso da Weimar, favorisce le campagne per l'astensione. L'ammissibilità è giudicata dalla Corte costituzionale (l. cost. 1/1953). L'esito vincola il legislatore, che non può ripristinare la normativa abrogata (sent. 199/2012, dopo i referendum del 2011).",
+   "punti": [
+    {
+     "testo": "Soggetti e oggetto",
+     "chiavi": [
+      "500.000",
+      "cinque",
+      "forza di legge"
+     ]
+    },
+    {
+     "testo": "Materie escluse",
+     "chiavi": [
+      "tributari",
+      "amnistia",
+      "ratific"
+     ]
+    },
+    {
+     "testo": "Doppio quorum",
+     "chiavi": [
+      "maggioranza",
+      "aventi diritto",
+      "validi"
+     ]
+    },
+    {
+     "testo": "Ammissibilità alla Corte",
+     "chiavi": [
+      "corte",
+      "1953"
+     ]
+    },
+    {
+     "testo": "Vincolo per il legislatore",
+     "chiavi": [
+      "199",
+      "ripristin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u13-q018",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "domanda": "Quali limiti impliciti al referendum abrogativo indica il manuale?",
+   "risposta": "Le leggi costituzionali e di revisione (riservate al procedimento dell'art. 138); i decreti-legge, per la brevità del termine di conversione; secondo alcuni le leggi di delegazione; le leggi attuative della Costituzione e quelle su diritti fondamentali la cui abrogazione romperebbe il sistema."
+  },
+  {
+   "id": "u13-q019",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "domanda": "Quali cause di inammissibilità del quesito ha individuato la Corte a partire dalla sentenza 16/1978?",
+   "risposta": "Pluralità eterogenea di disposizioni senza matrice unitaria; materie di rilevanza o copertura costituzionale; disposizioni a contenuto costituzionalmente vincolato; quesiti privi di chiarezza, semplicità e coerenza."
+  },
+  {
+   "id": "u13-q020",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "avanzato",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "domanda": "Perché la Corte ha dichiarato inammissibili i referendum sulla legge elettorale 270/2005 (sent. 13/2012)?",
+   "risposta": "Perché le leggi elettorali sono necessarie al funzionamento degli organi costituzionali: possono essere oggetto di referendum solo se, dopo l'abrogazione, resta una disciplina immediatamente applicabile."
+  },
+  {
+   "id": "u13-q021",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "base",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "regolarita-referendum"
+   ],
+   "domanda": "Che cosa fa l'Ufficio centrale per il referendum?",
+   "risposta": "Costituito presso la Corte di cassazione, controlla la regolarità delle richieste (firme, delibere regionali) secondo l'art. 75, primo comma; stabilisce la denominazione del quesito; accerta se la legge è stata abrogata o modificata prima del voto."
+  },
+  {
+   "id": "u13-q022",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Entro quali date si depositano le richieste di referendum e quando si vota?",
+   "risposta": "Si depositano in Cassazione dal 1° gennaio al 30 settembre; il referendum si tiene in una domenica tra il 15 aprile e il 15 giugno, indetto con decreto del Presidente della Repubblica su deliberazione del Consiglio dei ministri."
+  },
+  {
+   "id": "u13-q023",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Come si producono gli effetti dell'abrogazione referendaria?",
+   "risposta": "Con decreto del Presidente della Repubblica pubblicato in Gazzetta Ufficiale e inserito nella Raccolta ufficiale degli atti normativi; l'abrogazione decorre dal giorno successivo, ma il Presidente può ritardarla fino a sessanta giorni."
+  },
+  {
+   "id": "u13-q024",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "avanzato",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "regolarita-referendum"
+   ],
+   "domanda": "Che cosa succede se il Parlamento modifica la legge prima del voto referendario?",
+   "risposta": "Se la nuova legge non cambia i principi ispiratori né i contenuti essenziali, il referendum si trasferisce sulle nuove disposizioni (sent. 68/1978); se la disciplina cambia davvero, l'Ufficio centrale dichiara che le operazioni non hanno più corso."
+  },
+  {
+   "id": "u13-q025",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-di-indirizzo"
+   ],
+   "domanda": "Perché per il referendum d'indirizzo del 1989 servì una legge costituzionale?",
+   "risposta": "Perché la Costituzione prevede solo referendum abrogativi e costituzionali, non consultivi: la l. cost. 2/1989 indisse un solo referendum, senza creare un istituto generale."
+  },
+  {
+   "id": "u13-q026",
+   "tipo": "multipla",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "domanda": "Quale sentenza ha riconosciuto per prima i limiti impliciti al referendum abrogativo?",
+   "opzioni": [
+    "N. 16/1978",
+    "N. 1146/1988",
+    "N. 29/1995",
+    "N. 199/2012"
+   ],
+   "corretta": 0,
+   "spiegazione": "La sentenza 16/1978 è la capostipite della giurisprudenza sull'ammissibilità."
+  },
+  {
+   "id": "u13-q027",
+   "tipo": "multipla",
+   "lezione": "u13-l2",
+   "livello": "base",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "In quale periodo si svolge il referendum abrogativo?",
+   "opzioni": [
+    "Tra il 1° gennaio e il 30 settembre",
+    "In una domenica tra il 15 aprile e il 15 giugno",
+    "Insieme alle elezioni politiche",
+    "Entro sessanta giorni dalla richiesta"
+   ],
+   "corretta": 1,
+   "spiegazione": "La prima finestra è quella del deposito delle richieste."
+  },
+  {
+   "id": "u13-q028",
+   "tipo": "multipla",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "domanda": "Che cosa sospende automaticamente un referendum già indetto?",
+   "opzioni": [
+    "Una crisi di governo",
+    "Lo scioglimento anticipato delle Camere",
+    "Un ricorso al TAR",
+    "Un messaggio del Presidente"
+   ],
+   "corretta": 1,
+   "spiegazione": "Art. 34 l. 352/1970."
+  },
+  {
+   "id": "u13-q029",
+   "tipo": "multipla",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-di-indirizzo"
+   ],
+   "domanda": "Su che cosa verteva il referendum d'indirizzo del 1989?",
+   "opzioni": [
+    "Sull'abolizione del Senato",
+    "Sul mandato costituente al Parlamento europeo",
+    "Sulla monarchia",
+    "Sull'ingresso nell'euro"
+   ],
+   "corretta": 1,
+   "spiegazione": "Si votò il 18 giugno 1989 insieme alle elezioni europee."
+  },
+  {
+   "id": "u13-q030",
+   "tipo": "verofalso",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "affermazione": "Una legge costituzionale può essere abrogata con referendum abrogativo.",
+   "vero": false,
+   "spiegazione": "Le leggi costituzionali sono un limite implicito: vale il procedimento dell'art. 138."
+  },
+  {
+   "id": "u13-q031",
+   "tipo": "verofalso",
+   "lezione": "u13-l2",
+   "livello": "base",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "affermazione": "Se nel referendum vincono i no, la stessa richiesta non può essere riproposta prima di cinque anni.",
+   "vero": true,
+   "spiegazione": "Il divieto non scatta se manca il quorum."
+  },
+  {
+   "id": "u13-q032",
+   "tipo": "verofalso",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "affermazione": "L'inserimento del decreto di abrogazione nella Raccolta ufficiale degli atti normativi conferma che il referendum è fonte del diritto.",
+   "vero": true,
+   "spiegazione": "Il manuale lo presenta proprio come conferma della natura normativa."
+  },
+  {
+   "id": "u13-q033",
+   "tipo": "completa",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "testo": "Il quesito referendario deve avere {{chiarezza}}, semplicità e {{coerenza}}, e una matrice {{unitaria}}."
+  },
+  {
+   "id": "u13-q034",
+   "tipo": "completa",
+   "lezione": "u13-l2",
+   "livello": "base",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "regolarita-referendum"
+   ],
+   "testo": "Le richieste di referendum si depositano presso la Corte di {{cassazione}} dal 1° gennaio al {{30 settembre}}."
+  },
+  {
+   "id": "u13-q035",
+   "tipo": "aperta",
+   "lezione": "u13-l2",
+   "livello": "avanzato",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "ammissibilita-referendum",
+    "referendum-abrogativo",
+    "regolarita-referendum"
+   ],
+   "domanda": "Illustri i limiti di ammissibilità del referendum abrogativo elaborati dalla Corte costituzionale.",
+   "traccia": "Una lettura restrittiva dell'art. 75 ammetterebbe il referendum su ogni legge non elencata nel secondo comma; la dottrina e la Corte riconoscono invece limiti impliciti. Con la sentenza 16/1978 la Corte ha escluso le richieste sulla Costituzione, sulle leggi di revisione e sulle altre leggi costituzionali, riservate al procedimento dell'art. 138, oltre alle materie espressamente escluse. Sono inoltre inammissibili i quesiti eterogenei, privi di matrice unitaria, che impediscono un voto consapevole; quelli su materie di rilevanza costituzionale; quelli su disposizioni a contenuto costituzionalmente vincolato; quelli privi di chiarezza, semplicità e coerenza. Per le leggi elettorali conta che resti una disciplina applicabile (sent. 13/2012). Si discute dei decreti-legge, esclusi per la brevità del termine di conversione, e delle leggi di delegazione. Il controllo della Corte si distingue da quello di regolarità dell'Ufficio centrale presso la Cassazione.",
+   "punti": [
+    {
+     "testo": "Limiti impliciti",
+     "chiavi": [
+      "implicit",
+      "costituzional"
+     ]
+    },
+    {
+     "testo": "Sentenza 16/1978",
+     "chiavi": [
+      "16",
+      "1978"
+     ]
+    },
+    {
+     "testo": "Omogeneità e chiarezza",
+     "chiavi": [
+      "eterogene",
+      "chiarezza",
+      "unitari"
+     ]
+    },
+    {
+     "testo": "Contenuto vincolato e rilevanza costituzionale",
+     "chiavi": [
+      "vincolat",
+      "rilevanza"
+     ]
+    },
+    {
+     "testo": "Leggi elettorali",
+     "chiavi": [
+      "elettoral",
+      "13"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u13-q036",
+   "tipo": "ordina",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "regolarita-referendum",
+    "ammissibilita-referendum"
+   ],
+   "consegna": "Ordina le tappe del referendum abrogativo.",
+   "elementi": [
+    "Raccolta delle firme o delibere di cinque Consigli regionali",
+    "Deposito della richiesta in Cassazione entro il 30 settembre",
+    "Controllo dell'Ufficio centrale per il referendum",
+    "Giudizio di ammissibilità della Corte costituzionale",
+    "Indizione con decreto del Presidente della Repubblica",
+    "Voto in una domenica tra il 15 aprile e il 15 giugno",
+    "Decreto presidenziale che dichiara l'abrogazione"
+   ],
+   "spiegazione": "Il controllo di regolarità precede quello di ammissibilità.",
+   "serie": "procedimenti"
+  },
+  {
+   "id": "u13-q037",
+   "tipo": "abbina",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    118
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "ammissibilita-referendum",
+    "divieto-di-ripristino",
+    "referendum-di-indirizzo",
+    "regolarita-referendum"
+   ],
+   "consegna": "Abbina il riferimento al suo contenuto.",
+   "coppie": [
+    [
+     "Art. 75",
+     "Referendum abrogativo"
+    ],
+    [
+     "L. 352/1970",
+     "Attuazione del referendum"
+    ],
+    [
+     "Sent. 16/1978",
+     "Limiti impliciti"
+    ],
+    [
+     "Sent. 68/1978",
+     "Trasferimento sulla nuova legge"
+    ],
+    [
+     "Sent. 199/2012",
+     "Divieto di ripristino"
+    ],
+    [
+     "L. cost. 2/1989",
+     "Referendum d'indirizzo"
+    ]
+   ]
+  },
+  {
+   "id": "u13-q501",
+   "tipo": "flashcard",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    117
+   ],
+   "concetti": [
+    "regolarita-referendum",
+    "ammissibilita-referendum"
+   ],
+   "domanda": "Qual è la differenza fra controllo della Cassazione e della Corte costituzionale?",
+   "risposta": "L’Ufficio centrale controlla la regolarità legale della richiesta; la Corte giudica l’ammissibilità costituzionale del quesito."
+  },
+  {
+   "id": "u13-q502",
+   "tipo": "multipla",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    117
+   ],
+   "concetti": [
+    "ammissibilita-referendum"
+   ],
+   "domanda": "Un referendum elettorale parziale lascia una disciplina incoerente che impedisce nuove elezioni. Qual è il problema?",
+   "opzioni": [
+    "Non è mai ammessa alcuna domanda elettorale",
+    "La normativa residua non è immediatamente applicabile",
+    "Il quesito deve essere deciso dai ministri",
+    "Bastano più firme per superarlo"
+   ],
+   "corretta": 1,
+   "spiegazione": "La continuità degli organi costituzionali impone una normativa residua idonea al loro rinnovo."
+  },
+  {
+   "id": "u13-q503",
+   "tipo": "verofalso",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    115,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo"
+   ],
+   "affermazione": "Un quinto dei membri di una Camera è un promotore previsto dall’art. 75.",
+   "vero": false,
+   "spiegazione": "Quella iniziativa appartiene all’art. 138, non al referendum abrogativo."
+  },
+  {
+   "id": "u13-q504",
+   "tipo": "verofalso",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    115,
+    115
+   ],
+   "concetti": [
+    "quorum-referendario"
+   ],
+   "affermazione": "Il mancato quorum equivale a un no valido e blocca automaticamente la stessa richiesta per cinque anni.",
+   "vero": false,
+   "spiegazione": "Il divieto quinquennale riguarda l’esito negativo con quorum raggiunto."
+  },
+  {
+   "id": "u13-q505",
+   "tipo": "completa",
+   "lezione": "u13-l2",
+   "livello": "base",
+   "pagine": [
+    116,
+    117
+   ],
+   "concetti": [
+    "ammissibilita-referendum",
+    "regolarita-referendum"
+   ],
+   "testo": "La {{Corte costituzionale}} decide sull’ammissibilità, mentre l’Ufficio centrale presso la {{Cassazione}} controlla la regolarità della richiesta.",
+   "spiegazione": "I controlli sono distinti e non intercambiabili."
+  },
+  {
+   "id": "u13-q506",
+   "tipo": "aperta",
+   "lezione": "u13-l1",
+   "livello": "avanzato",
+   "pagine": [
+    115,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "quorum-referendario",
+    "ammissibilita-referendum",
+    "regolarita-referendum"
+   ],
+   "domanda": "Ricostruisci il referendum abrogativo e confrontalo con quello costituzionale.",
+   "traccia": "Il referendum dell’art. 75 è richiesto da cinquecentomila elettori o cinque Consigli regionali e mira all’abrogazione totale o parziale di una fonte primaria statale vigente. Incontra le esclusioni espresse, fra cui tributi e bilancio, e i limiti ricostruiti dalla Corte, come chiarezza, omogeneità e continuità degli organi costituzionali. L’Ufficio centrale della Cassazione controlla la regolarità legale; la Corte costituzionale l’ammissibilità. Il Presidente lo indice previa deliberazione del Consiglio dei ministri. L’esito abrogativo richiede sia la partecipazione della maggioranza degli aventi diritto sia la maggioranza dei sì fra i voti validi. Segue il decreto dichiarativo dell’abrogazione, con efficacia normalmente dal giorno successivo alla pubblicazione. Il referendum dell’art. 138 riguarda invece un testo costituzionale prima della promulgazione, può essere chiesto anche da un quinto dei membri di una Camera e non richiede un quorum di partecipazione.",
+   "punti": [
+    {
+     "testo": "Oggetto e iniziativa",
+     "chiavi": [
+      "primaria",
+      "cinquecentomila",
+      "cinque"
+     ]
+    },
+    {
+     "testo": "Controlli",
+     "chiavi": [
+      "cassazione",
+      "corte"
+     ]
+    },
+    {
+     "testo": "Due maggioranze",
+     "chiavi": [
+      "partecipazione",
+      "validi"
+     ]
+    },
+    {
+     "testo": "Confronto 138",
+     "chiavi": [
+      "promulgazione",
+      "quorum"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u13-q507",
+   "tipo": "ordina",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    117
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "quorum-referendario",
+    "ammissibilita-referendum",
+    "regolarita-referendum"
+   ],
+   "consegna": "Ordina le fasi ordinarie di una richiesta di referendum abrogativo che supera i controlli.",
+   "elementi": [
+    "Presentazione della richiesta con i requisiti prescritti",
+    "Controllo dell’Ufficio centrale della Cassazione",
+    "Giudizio di ammissibilità della Corte costituzionale",
+    "Indizione e voto popolare",
+    "Decreto dichiarativo dell’abrogazione se approvata"
+   ],
+   "spiegazione": "I due controlli precedono indizione e voto; il decreto finale dichiara l’abrogazione approvata."
+  },
+  {
+   "id": "u13-q508",
+   "lezione": "u13-l1",
+   "livello": "medio",
+   "pagine": [
+    115,
+    115
+   ],
+   "concetti": [
+    "ammissibilita-referendum",
+    "referendum-abrogativo"
+   ],
+   "tipo": "multipla",
+   "domanda": "Si raccolgono le firme per abrogare una legge che autorizza la ratifica di un trattato internazionale. Il referendum è ammissibile?",
+   "opzioni": [
+    "Sì, con 500.000 firme",
+    "Sì, se lo chiedono cinque Consigli regionali",
+    "No: è uno dei limiti dell'art. 75, secondo comma",
+    "No, perché i trattati sono fonti dell'Unione europea"
+   ],
+   "corretta": 2,
+   "spiegazione": "Non è ammesso il referendum per le leggi tributarie e di bilancio, di amnistia e di indulto, di autorizzazione a ratificare trattati internazionali. La Corte ha aggiunto limiti impliciti."
+  },
+  {
+   "id": "u13-q509",
+   "lezione": "u13-l1",
+   "livello": "base",
+   "pagine": [
+    115,
+    115
+   ],
+   "concetti": [
+    "quorum-referendario"
+   ],
+   "tipo": "verofalso",
+   "affermazione": "Il referendum abrogativo è valido qualunque sia il numero dei votanti.",
+   "vero": false,
+   "spiegazione": "La proposta è approvata se ha partecipato la maggioranza degli aventi diritto e se è raggiunta la maggioranza dei voti validamente espressi (art. 75)."
+  },
+  {
+   "id": "u13-q510",
+   "lezione": "u13-l2",
+   "livello": "medio",
+   "pagine": [
+    116,
+    117
+   ],
+   "concetti": [
+    "regolarita-referendum",
+    "ammissibilita-referendum"
+   ],
+   "tipo": "flashcard",
+   "domanda": "Quali controlli subisce la richiesta di referendum abrogativo, e da parte di chi?",
+   "risposta": "L'Ufficio centrale per il referendum presso la Corte di cassazione controlla la regolarità: firme, termini, oggetto. La Corte costituzionale giudica poi l'ammissibilità: limiti dell'art. 75 e requisiti del quesito, che deve essere chiaro, omogeneo e univoco."
+  },
+  {
+   "id": "u13-q511",
+   "lezione": "u13-l1",
+   "livello": "avanzato",
+   "pagine": [
+    115,
+    115
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "referendum-costituzionale",
+    "quorum-referendario",
+    "ammissibilita-referendum"
+   ],
+   "tipo": "aperta",
+   "domanda": "Referendum abrogativo e referendum costituzionale a confronto.",
+   "traccia": "Il **referendum abrogativo** (art. 75) ha per oggetto una **legge o un atto con forza di legge già in vigore**, da eliminare in tutto o in parte. Lo chiedono **500.000 elettori** o **cinque Consigli regionali**. Non è ammesso per le leggi **tributarie e di bilancio**, di **amnistia e indulto**, di **autorizzazione a ratificare trattati**; la Corte costituzionale, che giudica l'**ammissibilità**, ha aggiunto limiti impliciti e richiede un quesito **omogeneo**. È valido solo se vota la **maggioranza degli aventi diritto**. Se vince il sì, il Presidente della Repubblica dichiara l'abrogazione con decreto.\n\nIl **referendum costituzionale** (art. 138) riguarda una **legge di revisione o costituzionale non ancora in vigore**. È **eventuale**: si può chiedere, entro tre mesi dalla pubblicazione, solo se nella seconda votazione non si sono raggiunti i **due terzi** in ciascuna Camera. Lo chiedono un **quinto dei membri di una Camera**, 500.000 elettori o cinque Consigli regionali. **Non ha quorum** di partecipazione: basta la maggioranza dei voti validi. Non ci sono materie escluse né giudizio di ammissibilità.\n\nIl primo è uno strumento di legislazione negativa del popolo; il secondo è una **garanzia delle minoranze** dentro il procedimento di revisione.",
+   "punti": [
+    {
+     "testo": "Abrogativo: legge in vigore; costituzionale: legge non ancora in vigore",
+     "chiavi": [
+      "in vigore",
+      "abrog"
+     ]
+    },
+    {
+     "testo": "Chi lo chiede: 500.000 elettori, cinque Consigli, un quinto di una Camera",
+     "chiavi": [
+      "500",
+      "cinque consigli",
+      "quinto"
+     ]
+    },
+    {
+     "testo": "Quorum di partecipazione solo nell'abrogativo",
+     "chiavi": [
+      "quorum",
+      "maggioranza degli aventi"
+     ]
+    },
+    {
+     "testo": "Limiti di materia e giudizio di ammissibilità solo nell'abrogativo",
+     "chiavi": [
+      "ammissibil",
+      "tributar",
+      "trattati"
+     ]
+    },
+    {
+     "testo": "Il costituzionale è eventuale: solo senza i due terzi",
+     "chiavi": [
+      "due terzi",
+      "eventual"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u13-q512",
+   "lezione": "u13-l2",
+   "pagine": [
+    116,
+    117
+   ],
+   "serie": "procedimenti",
+   "tipo": "ordina",
+   "livello": "medio",
+   "consegna": "Il referendum abrogativo (art. 75 · legge 352/1970): metti i passi nell'ordine giusto.",
+   "elementi": [
+    "Richiesta",
+    "Controllo di regolarità",
+    "Giudizio di ammissibilità",
+    "Indizione",
+    "Voto"
+   ],
+   "spiegazione": "1. **Richiesta** (500.000 elettori o cinque Consigli regionali): Il quesito indica la legge, o la parte di legge, da abrogare.\n2. **Controllo di regolarità** (Ufficio centrale presso la Corte di cassazione): Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata.\n3. **Giudizio di ammissibilità** (Corte costituzionale): Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei.\n4. **Indizione** (Presidente della Repubblica): Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno.\n5. **Voto** (Corpo elettorale): Votano gli elettori della Camera.\n   - Vota la maggioranza degli aventi diritto e prevalgono i sì → il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni\n   - Prevalgono i no → lo stesso quesito non può essere riproposto per cinque anni\n   - Non si raggiunge il quorum → il referendum non è valido",
+   "concetti": [
+    "referendum-abrogativo",
+    "regolarita-referendum",
+    "ammissibilita-referendum",
+    "quorum-referendario"
+   ]
+  },
+  {
+   "id": "u13-q513",
+   "lezione": "u13-l2",
+   "pagine": [
+    116,
+    117
+   ],
+   "serie": "procedimenti",
+   "tipo": "aperta",
+   "livello": "avanzato",
+   "domanda": "Descriva l'iter del referendum abrogativo, dalla richiesta al voto.",
+   "traccia": "Dalle firme al voto ci sono due controlli: uno sulla regolarità, uno sull'ammissibilità.\n\n**Richiesta** (500.000 elettori o cinque Consigli regionali). Il quesito indica la legge, o la parte di legge, da abrogare.\n\n**Controllo di regolarità** (Ufficio centrale presso la Corte di cassazione). Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata.\n\n**Giudizio di ammissibilità** (Corte costituzionale). Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei.\n\n**Indizione** (Presidente della Repubblica). Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno.\n\n**Voto** (Corpo elettorale). Votano gli elettori della Camera. Vota la maggioranza degli aventi diritto e prevalgono i sì: il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni. Prevalgono i no: lo stesso quesito non può essere riproposto per cinque anni. Non si raggiunge il quorum: il referendum non è valido.",
+   "punti": [
+    {
+     "testo": "Richiesta: Il quesito indica la legge, o la parte di legge, da abrogare",
+     "chiavi": [
+      "richies",
+      "quesito",
+      "indica"
+     ]
+    },
+    {
+     "testo": "Controllo di regolarità: Verifica firme, termini e oggetto; può concentrare i quesiti simili e trasferire il quesito sulla nuova legge se nel frattempo la disciplina è cambiata",
+     "chiavi": [
+      "control",
+      "regolar",
+      "verific"
+     ]
+    },
+    {
+     "testo": "Giudizio di ammissibilità: Esclude le leggi tributarie e di bilancio, di amnistia e indulto, di ratifica dei trattati, e i quesiti non omogenei",
+     "chiavi": [
+      "giudizi",
+      "ammissi",
+      "esclude"
+     ]
+    },
+    {
+     "testo": "Indizione: Fissa la data del voto in una domenica tra il 15 aprile e il 15 giugno",
+     "chiavi": [
+      "indizio",
+      "domenic",
+      "15"
+     ]
+    },
+    {
+     "testo": "Voto: Votano gli elettori della Camera",
+     "chiavi": [
+      "votano",
+      "elettor",
+      "camera"
+     ]
+    }
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "regolarita-referendum",
+    "ammissibilita-referendum",
+    "quorum-referendario"
+   ]
+  },
+  {
+   "id": "u13-q514",
+   "lezione": "u13-l1",
+   "pagine": [
+    115,
+    115
+   ],
+   "serie": "procedimenti",
+   "tipo": "flashcard",
+   "livello": "medio",
+   "domanda": "Il referendum abrogativo, passo «Voto»: quali esiti sono possibili?",
+   "risposta": "Vota la maggioranza degli aventi diritto e prevalgono i sì: il Presidente dichiara l'abrogazione con decreto; può ritardarne l'effetto fino a sessanta giorni. Prevalgono i no: lo stesso quesito non può essere riproposto per cinque anni. Non si raggiunge il quorum: il referendum non è valido.",
+   "concetti": [
+    "quorum-referendario"
+   ]
+  },
+  {
+   "id": "u13-q515",
+   "lezione": "u13-l2",
+   "pagine": [
+    116,
+    117
+   ],
+   "serie": "procedimenti",
+   "tipo": "abbina",
+   "livello": "medio",
+   "consegna": "Referendum abrogativo e referendum costituzionale. Abrogativo: abbina ogni aspetto alla sua caratteristica.",
+   "coppie": [
+    [
+     "Norma",
+     "art. 75"
+    ],
+    [
+     "Oggetto",
+     "Legge già in vigore"
+    ],
+    [
+     "Chi lo chiede",
+     "500.000 elettori o 5 Consigli regionali"
+    ],
+    [
+     "Quando",
+     "Sempre, salvo i limiti di materia"
+    ],
+    [
+     "Quorum di partecipazione",
+     "Sì: maggioranza degli aventi diritto"
+    ],
+    [
+     "Controllo della Corte",
+     "Giudizio di ammissibilità"
+    ]
+   ]
+  },
+  {
+   "id": "u13-q516",
+   "lezione": "u13-l2",
+   "pagine": [
+    116,
+    117
+   ],
+   "serie": "procedimenti",
+   "tipo": "abbina",
+   "livello": "medio",
+   "consegna": "Referendum abrogativo e referendum costituzionale. Costituzionale: abbina ogni aspetto alla sua caratteristica.",
+   "coppie": [
+    [
+     "Norma",
+     "art. 138"
+    ],
+    [
+     "Oggetto",
+     "Legge costituzionale non ancora in vigore"
+    ],
+    [
+     "Chi lo chiede",
+     "Un quinto di una Camera, 500.000 elettori o 5 Consigli regionali"
+    ],
+    [
+     "Quando",
+     "Solo se non ci sono stati i due terzi"
+    ],
+    [
+     "Quorum di partecipazione",
+     "No"
+    ],
+    [
+     "Controllo della Corte",
+     "Nessuno"
+    ]
+   ]
+  },
+  {
+   "id": "u13-q517",
+   "lezione": "u13-l2",
+   "livello": "avanzato",
+   "pagine": [
+    116,
+    117
+   ],
+   "concetti": [
+    "referendum-abrogativo",
+    "ammissibilita-referendum",
+    "quorum-referendario"
+   ],
+   "tipo": "aperta",
+   "domanda": "Referendum abrogativo: quali richieste sono ammissibili e quali no?",
+   "traccia": "Per l'**art. 75** il referendum abrogativo può essere chiesto da **cinquecentomila elettori** o da **cinque Consigli regionali** per l'abrogazione, totale o parziale, di una legge o di un atto avente valore di legge.\n\n**Limiti espressi** (art. 75, secondo comma): non è ammesso per le leggi **tributarie e di bilancio**, di **amnistia e di indulto**, di **autorizzazione a ratificare trattati internazionali**.\n\n**Limiti ricavati dalla Corte costituzionale** a partire dalla sentenza 16/1978: non sono ammissibili le richieste che colpiscono la **Costituzione e le leggi costituzionali**, le leggi **a contenuto costituzionalmente vincolato** (l'unica attuazione possibile di una norma costituzionale) e quelle **costituzionalmente necessarie** se l'abrogazione lascia l'organo o l'istituto senza disciplina, le leggi strettamente collegate a quelle escluse dall'art. 75. Il **quesito** deve inoltre essere **omogeneo, chiaro e univoco**, perché l'elettore può rispondere solo sì o no; non può trasformarsi in una proposta di legge nuova. Per le **leggi elettorali** il referendum è ammesso solo se la normativa che resta è immediatamente applicabile.\n\n**Chi controlla**: l'Ufficio centrale presso la Cassazione verifica la **regolarità** della richiesta (firme, termini); la **Corte costituzionale** giudica l'**ammissibilità** (legge cost. 1/1953, legge 352/1970).\n\nIl referendum è valido se vota la **maggioranza degli aventi diritto** e passa con la maggioranza dei voti validi.",
+   "punti": [
+    {
+     "testo": "Art. 75: 500.000 elettori o cinque Consigli regionali",
+     "chiavi": [
+      "500",
+      "cinquecentomila",
+      "cinque consigli"
+     ]
+    },
+    {
+     "testo": "Limiti espressi: tributarie e di bilancio, amnistia e indulto, ratifica dei trattati",
+     "chiavi": [
+      "tributari",
+      "amnistia",
+      "trattati"
+     ]
+    },
+    {
+     "testo": "Limiti impliciti dalla sent. 16/1978: Costituzione, leggi a contenuto vincolato o necessarie",
+     "chiavi": [
+      "16/1978",
+      "vincolat",
+      "necessari"
+     ]
+    },
+    {
+     "testo": "Quesito omogeneo, chiaro e univoco",
+     "chiavi": [
+      "omogene",
+      "chiar",
+      "univoc"
+     ]
+    },
+    {
+     "testo": "Cassazione per la regolarità, Corte costituzionale per l'ammissibilità",
+     "chiavi": [
+      "cassazione",
+      "ammissibil"
+     ]
+    },
+    {
+     "testo": "Quorum: maggioranza degli aventi diritto e dei voti validi",
+     "chiavi": [
+      "quorum",
+      "maggioranza degli aventi"
+     ]
+    }
+   ],
+   "esame": [
+    "torre"
+   ]
+  }
+ ]
 }

@@ -1,470 +1,1064 @@
 {
-  "voci": [
+ "voci": [
+  {
+   "id": "parlamento",
+   "oltre": "Il Parlamento ha tre grandi funzioni. La funzione **legislativa** (art. 70), esercitata collettivamente dalle due Camere. La funzione di **indirizzo politico**, che passa per la fiducia al Governo e per mozioni e risoluzioni. La funzione di **controllo**, con interrogazioni, interpellanze e inchieste.\n\nA queste si aggiungono funzioni **elettive** (Presidente della Repubblica, cinque giudici costituzionali, un terzo del CSM) e di **garanzia** (revisione costituzionale, messa in stato d'accusa). Dal 2020 i deputati sono **400** e i senatori elettivi **200**; dal 2021 per il Senato si vota a **18 anni**, come per la Camera. Restano diverse l'età per essere eletti (25 e 40 anni) e la presenza dei senatori a vita.",
+   "daSapere": [
+    "400 deputati, 200 senatori elettivi, più i senatori a vita.",
+    "Eleggibilità: 25 anni alla Camera, 40 al Senato.",
+    "Durata: cinque anni; prorogabile solo per legge e in caso di guerra."
+   ],
+   "collegamenti": [
     {
-      "id": "revisione-costituzionale",
-      "oltre": "### La rigidità come procedimento\nLa revisione richiede due deliberazioni di ciascuna Camera, separate da almeno tre mesi; nella seconda occorre la maggioranza assoluta dei componenti. La doppia lettura rende il cambiamento più meditato rispetto alla legge ordinaria e permette di distinguere la decisione iniziale dalla conferma.\n\nIl [[referendum-costituzionale]] può essere richiesto se nella seconda votazione non si raggiungono i due terzi in entrambe le Camere, entro tre mesi dalla pubblicazione, dai soggetti dell’art. 138. La rigidità procedurale convive con limiti sostanziali: la forma repubblicana è sottratta alla revisione e la Corte riconosce principi supremi che non possono essere sovvertiti. L’approvazione con una maggioranza elevata non trasforma quindi il potere costituito di revisione in un potere senza limiti sul fondamento della Costituzione.",
-      "daSapere": [
-        "Due deliberazioni per Camera e intervallo minimo di tre mesi",
-        "Seconda votazione: almeno maggioranza assoluta",
-        "Procedimento aggravato e limiti sostanziali"
-      ],
-      "collegamenti": [
-        {
-          "da": "revisione-costituzionale",
-          "a": "referendum-costituzionale",
-          "tipo": "collegato",
-          "etichetta": "può comprendere il"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 138–139",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
+     "da": "camera-dei-deputati",
+     "a": "parlamento",
+     "tipo": "parte-di",
+     "etichetta": "è un ramo del"
     },
     {
-      "id": "principi-supremi",
-      "oltre": "### Il limite al potere di cambiare la Costituzione\nLa sentenza 1146/1988 afferma che la Costituzione contiene principi supremi non sovvertibili nel loro contenuto essenziale neppure da leggi di revisione. Essi comprendono sia limiti espressi, come la forma repubblicana, sia principi che appartengono all’essenza dei valori fondanti dell’ordinamento.\n\nQuesto controllo distingue il potere di revisione dal potere costituente: il primo opera secondo la Costituzione che ne stabilisce competenze e limiti. Il richiamo ai principi supremi non coincide però con una lista liberamente scelta da ciascun interprete. Occorre ricostruire il significato della garanzia nel sistema e il ruolo della [[corte-costituzionale]]. Per ripetere, la domanda utile è quale elemento identitario sarebbe compromesso dalla modifica, oltre a verificare che il procedimento dell’art. 138 sia stato rispettato.",
-      "daSapere": [
-        "Corte cost. 1146/1988: limite anche alle revisioni",
-        "Forma repubblicana: limite espresso",
-        "Revisione costituita e potere costituente sono distinti"
-      ],
-      "collegamenti": [
-        {
-          "da": "principi-supremi",
-          "a": "corte-costituzionale",
-          "tipo": "collegato",
-          "etichetta": "sono garantiti anche dal controllo della"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 138–139",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        },
-        {
-          "titolo": "Corte costituzionale, sentenza 1146/1988",
-          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1988/1146"
-        }
-      ]
+     "da": "senato",
+     "a": "parlamento",
+     "tipo": "parte-di",
+     "etichetta": "è un ramo del"
     },
     {
-      "id": "riserva-di-legge",
-      "oltre": "### Chi deve decidere e con quale precisione\nLa riserva di legge attribuisce alla fonte legislativa la disciplina di una materia o dei suoi elementi essenziali. Il grado di spazio lasciato al regolamento distingue riserve assolute e relative; le riserve rinforzate aggiungono vincoli di contenuto o procedimento.\n\nLa libertà personale rende evidente il rapporto con la [[riserva-di-giurisdizione]]: la legge stabilisce casi e modi, mentre il giudice assume normalmente la decisione limitativa. Nelle prestazioni patrimoniali imposte l’art. 23 richiede una base legislativa, senza necessariamente affidare alla legge ogni dettaglio esecutivo. La riserva opera così come garanzia di competenza e prevedibilità. La sua esistenza non impedisce il controllo di costituzionalità della legge: scegliere la fonte corretta è una condizione diversa dal rispettare i limiti sostanziali sui diritti.",
-      "daSapere": [
-        "Assoluta, relativa, rinforzata: criteri differenti",
-        "Competenza della legge e legittimità del contenuto sono distinte",
-        "Art. 13: coordinamento con la giurisdizione"
-      ],
-      "collegamenti": [
-        {
-          "da": "riserva-di-legge",
-          "a": "riserva-di-giurisdizione",
-          "tipo": "collegato",
-          "etichetta": "può coordinarsi con la"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 13 e 23",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
+     "da": "parlamento",
+     "a": "governo",
+     "tipo": "collegato",
+     "etichetta": "dà e revoca la fiducia al"
     },
     {
-      "id": "decreto-legislativo",
-      "oltre": "### Una decisione governativa entro una cornice parlamentare\nLa legge delega deve determinare oggetto, tempo e principi e criteri direttivi. Il Parlamento definisce così una cornice per una fonte governativa con forza di legge; il Governo non riceve un’autorizzazione generale a regolare qualsiasi materia.\n\nL’[[eccesso-di-delega]] emerge confrontando il decreto con i limiti della delegazione, che funzionano da parametro interposto nel giudizio costituzionale. Il decreto legislativo si distingue dal decreto-legge: nasce da un conferimento preventivo e non richiede la conversione entro sessanta giorni. Anche delega e singoli decreti hanno ruoli differenti: la prima abilita e orienta, i secondi producono la disciplina autorizzata. Nell’analisi di un caso bisogna quindi cercare la legge delega pertinente prima di valutare la scelta adottata dal Governo.",
-      "daSapere": [
-        "Oggetto definito, tempo limitato, principi e criteri direttivi",
-        "Conferimento parlamentare preventivo",
-        "Delega ed esercizio sono controllabili separatamente"
-      ],
-      "collegamenti": [
-        {
-          "da": "decreto-legislativo",
-          "a": "eccesso-di-delega",
-          "tipo": "collegato",
-          "etichetta": "incontra il limite dell’"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 76–77",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
+     "da": "parlamento",
+     "a": "legge-delega",
+     "tipo": "crea",
+     "etichetta": "approva la"
     },
     {
-      "id": "referendum-abrogativo",
-      "oltre": "### Eliminare una norma e controllare l’ammissibilità\nIl referendum abrogativo permette al corpo elettorale di eliminare in tutto o in parte una legge o un atto con forza di legge. La richiesta proviene da cinquecentomila elettori o cinque Consigli regionali. Sono escluse le leggi indicate dall’art. 75, fra cui tributi e bilancio, amnistia e indulto e autorizzazione alla ratifica dei trattati internazionali.\n\nLa validità richiede la partecipazione della maggioranza degli aventi diritto; prevale poi la maggioranza dei voti validamente espressi. Il [[referendum-costituzionale]] segue invece una funzione e un procedimento differenti e non ha quel quorum di partecipazione. Occorre inoltre distinguere il controllo sulla regolarità della richiesta dal giudizio di ammissibilità: verificare firme e oggetto non esaurisce il problema dei limiti costituzionali del quesito.",
-      "daSapere": [
-        "Richiesta: 500.000 elettori o cinque Consigli regionali",
-        "Quorum di partecipazione e maggioranza dei voti validi",
-        "Regolarità e ammissibilità sono controlli distinti"
-      ],
-      "collegamenti": [
-        {
-          "da": "referendum-abrogativo",
-          "a": "quorum-referendario",
-          "tipo": "collegato",
-          "etichetta": "richiede il"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, art. 75",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "referendum-costituzionale",
-      "oltre": "### Confermare o respingere una revisione\nNel procedimento dell’art. 138 la richiesta referendaria può provenire da un quinto dei membri di una Camera, cinquecentomila elettori o cinque Consigli regionali. Il termine è di tre mesi dalla pubblicazione. Se entrambe le Camere approvano in seconda deliberazione a maggioranza dei due terzi, la richiesta non è ammessa.\n\nLa funzione è sottoporre alla decisione popolare il testo di revisione già deliberato dal Parlamento, non cancellare una legge ordinaria in vigore. Per l’approvazione basta la maggioranza dei voti validi e manca il quorum strutturale del referendum abrogativo. Nel confronto conviene seguire fonte oggetto del voto, soggetti legittimati, fase del procedimento ed effetti dell’esito. La comune partecipazione del corpo elettorale non rende infatti identici tutti gli strumenti di [[democrazia-diretta]].",
-      "daSapere": [
-        "Art. 138: referendum nel procedimento di revisione",
-        "Due terzi in entrambe le Camere: richiesta esclusa",
-        "Nessun quorum di partecipazione"
-      ],
-      "collegamenti": [
-        {
-          "da": "referendum-costituzionale",
-          "a": "democrazia-diretta",
-          "tipo": "collegato",
-          "etichetta": "è uno strumento di"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, art. 138",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "rapporto-di-fiducia",
-      "oltre": "### Sostegno politico e permanenza del Governo\nIl Governo deve avere la fiducia di entrambe le Camere e si presenta a esse entro dieci giorni dalla formazione. La mozione è motivata e votata per appello nominale, rendendo riconoscibile la responsabilità politica del voto.\n\nL’art. 94 distingue una votazione contraria su una proposta del Governo dalla sfiducia: la prima non comporta da sola obbligo di dimissioni. La [[mozione-di-sfiducia]] richiede almeno un decimo dei componenti della Camera e non può essere discussa prima di tre giorni dalla presentazione. La questione di fiducia posta dal Governo appartiene a un diverso meccanismo politico e regolamentare. Formazione, voti parlamentari e crisi devono quindi essere ricostruiti secondo l’atto specifico, evitando di attribuire a ogni sconfitta parlamentare lo stesso effetto sul rapporto fiduciario.",
-      "daSapere": [
-        "Fiducia di entrambe le Camere",
-        "Presentazione entro dieci giorni dalla formazione",
-        "Voto contrario e mozione di sfiducia non coincidono"
-      ],
-      "collegamenti": [
-        {
-          "da": "rapporto-di-fiducia",
-          "a": "mozione-di-sfiducia",
-          "tipo": "collegato",
-          "etichetta": "può cessare attraverso una"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, art. 94",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "bicameralismo-paritario",
-      "oltre": "### Due Camere con eguale partecipazione a funzioni decisive\nLa funzione legislativa è esercitata collettivamente dalle due Camere: per una legge ordinaria occorre l’approvazione del medesimo testo. Una modifica introdotta dalla seconda Camera impone un nuovo passaggio della prima, dando luogo alla navetta.\n\nLa parità si manifesta anche nel [[rapporto-di-fiducia]], che il Governo deve instaurare con entrambe. Questo non rende identici composizione, requisiti di eleggibilità e tutte le regole interne. L’approvazione di un atto da parte di una sola Camera può avere significato nel controllo politico senza equivalere all’approvazione della legge. Per leggere un procedimento occorre perciò domandarsi quale funzione sia esercitata: legislazione, fiducia, indirizzo o attività di una commissione. Il bicameralismo riguarda la distribuzione delle competenze e le condizioni di decisione, oltre al semplice numero delle assemblee.",
-      "daSapere": [
-        "Legge ordinaria: identico testo nelle due Camere",
-        "Entrambe partecipano al rapporto fiduciario",
-        "Parità funzionale non significa identità di ogni regola"
-      ],
-      "collegamenti": [
-        {
-          "da": "bicameralismo-paritario",
-          "a": "navetta-parlamentare",
-          "tipo": "collegato",
-          "etichetta": "può comportare la"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 70 e 94",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "divieto-di-mandato-imperativo",
-      "oltre": "### Rappresentare la Nazione con responsabilità politica\nL’art. 67 stabilisce che ogni parlamentare rappresenta la Nazione ed esercita le funzioni senza vincolo di mandato. L’elezione non produce un rapporto privatistico in cui l’elettore o il partito possano impartire istruzioni giuridicamente coercibili su ogni voto.\n\nRestano però relazioni politiche: programmi, gruppi e [[partiti-politici]] organizzano l’attività e gli elettori ne valutano i risultati. Il dissenso può avere conseguenze politiche senza trasformarsi nella perdita automatica del seggio per violazione di un ordine. Il confronto con la rappresentanza civile permette di spiegare l’autonomia della funzione pubblica: qui non si agisce semplicemente in nome di un mandante determinato. La responsabilità si esprime attraverso le forme costituzionali e il confronto elettorale, anziché mediante una normale azione per inadempimento del mandato.",
-      "daSapere": [
-        "Art. 67: rappresentanza della Nazione",
-        "Istruzioni politiche e obblighi giuridici sono distinti",
-        "Il seggio non appartiene al partito come un bene privato"
-      ],
-      "collegamenti": [
-        {
-          "da": "divieto-di-mandato-imperativo",
-          "a": "rappresentanza-politica",
-          "tipo": "collegato",
-          "etichetta": "caratterizza la"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 49 e 67",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "controfirma",
-      "oltre": "### Collegare atto presidenziale e responsabilità\nL’art. 89 richiede la controfirma dei ministri proponenti, che assumono la responsabilità; per gli atti con valore legislativo e gli altri indicati dalla legge serve anche quella del Presidente del Consiglio. Il meccanismo si coordina con la posizione costituzionale del Capo dello Stato.\n\nIl suo significato concreto dipende dall’atto: iniziativa, determinazione del contenuto e controllo non si distribuiscono sempre nello stesso modo fra Presidente e Governo. La [[grazia]], la nomina e gli atti legislativi appartengono perciò a categorie da ricostruire, senza usare la firma come prova automatica di una decisione interamente ministeriale. Occorre distinguere validità formale, titolarità sostanziale del potere e responsabilità: la controfirma collega questi piani, ma non li rende indistinguibili.",
-      "daSapere": [
-        "Art. 89: validità e assunzione di responsabilità",
-        "Per alcuni atti serve anche il Presidente del Consiglio",
-        "Il ruolo delle firme dipende dalla categoria dell’atto"
-      ],
-      "collegamenti": [],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 89–90",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "diritti-inviolabili",
-      "oltre": "### Proteggere la persona anche nelle relazioni sociali\nL’art. 2 riconosce e garantisce i diritti inviolabili dell’uomo, sia come singolo sia nelle formazioni sociali in cui si svolge la personalità. La tutela non riguarda soltanto la relazione isolata fra individuo e apparato statale: associazioni, famiglia e altri contesti possono essere luoghi di sviluppo e anche di conflitto.\n\nLa stessa disposizione richiede doveri inderogabili di solidarietà politica, economica e sociale. Il collegamento con il [[principio-solidaristico]] evita di descrivere i diritti come semplici spazi senza relazioni. La loro garanzia richiede di individuare titolari, contenuto e forme di tutela, confrontandoli con gli altri interessi costituzionali coinvolti. L’inviolabilità esprime un vincolo fondamentale per i poteri pubblici e per l’ordinamento, non una soluzione già pronta per ogni collisione fra pretese.",
-      "daSapere": [
-        "Tutela del singolo e nelle formazioni sociali",
-        "Diritti e solidarietà nello stesso art. 2",
-        "Individuare contenuto e strumenti della garanzia"
-      ],
-      "collegamenti": [
-        {
-          "da": "diritti-inviolabili",
-          "a": "principio-solidaristico",
-          "tipo": "collegato",
-          "etichetta": "si coordinano con il"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, art. 2",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "uguaglianza-sostanziale",
-      "oltre": "### Rimuovere ostacoli che la parità formale non elimina\nL’art. 3 affianca all’uguaglianza davanti alla legge il compito della Repubblica di rimuovere gli ostacoli economici e sociali che limitano di fatto libertà ed eguaglianza. La disposizione guarda alle condizioni effettive che impediscono sviluppo della persona e partecipazione.\n\nMisure differenziate possono quindi cercare di rendere reale una possibilità comune, come l’accesso all’istruzione per chi non dispone di mezzi. Questo non rende irrilevante il controllo sulla ragionevolezza delle distinzioni: occorre collegare trattamento, ostacolo e scopo costituzionale. Il confronto con i [[diritti-sociali]] chiarisce come prestazioni e organizzazione pubblica possano servire a rendere effettive le libertà. Parità di trattamento e intervento correttivo non sono formule da applicare senza contesto, ma aspetti da coordinare nell’analisi della situazione concreta.",
-      "daSapere": [
-        "Art. 3, secondo comma: ostacoli di fatto",
-        "Differenziare può servire a rendere effettiva la parità",
-        "Ragionevolezza e finalità della misura restano da verificare"
-      ],
-      "collegamenti": [
-        {
-          "da": "uguaglianza-sostanziale",
-          "a": "diritti-sociali",
-          "tipo": "collegato",
-          "etichetta": "orienta l’attuazione dei"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 3 e 34",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "diritto-salute",
-      "oltre": "### Diritto individuale e interesse collettivo\nL’art. 32 riconosce la salute come diritto fondamentale dell’individuo e interesse della collettività e garantisce cure gratuite agli indigenti. La protezione comprende condizioni personali e organizzazione delle prestazioni, senza ridursi alla sola assenza di malattia.\n\nLa legge può prevedere trattamenti obbligatori, ma deve rispettare i limiti imposti dalla persona umana. Il [[trattamento-sanitario-obbligatorio]] richiede quindi una base legale e garanzie proprie; l’interesse collettivo non attribuisce un potere sanitario indistinto. Nei casi pratici occorre separare consenso, accesso alle cure, organizzazione del servizio e obblighi eccezionali. Il riconoscimento di un diritto sociale non elimina la tutela della libertà e della dignità del destinatario: le diverse dimensioni della salute devono essere coordinate nella disciplina e nella sua applicazione.",
-      "daSapere": [
-        "Art. 32: individuo e collettività",
-        "Cure gratuite agli indigenti",
-        "Obbligatorietà prevista dalla legge e rispetto della persona"
-      ],
-      "collegamenti": [
-        {
-          "da": "diritto-salute",
-          "a": "trattamento-sanitario-obbligatorio",
-          "tipo": "collegato",
-          "etichetta": "pone limiti al"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, art. 32",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "giudizio-incidentale",
-      "oltre": "### Un controllo costituzionale dentro un processo\nIl giudizio incidentale nasce quando un giudice deve applicare una disposizione legislativa rilevante per decidere una controversia e dubita della sua compatibilità costituzionale. Il giudice valuta rilevanza e non manifesta infondatezza, motivando la rimessione alla Corte.\n\nLa parte può sollecitare la questione, ma non dispone di un ricorso diretto generalizzato alla Corte per ogni lesione lamentata. La [[rilevanza-costituzionale]] collega il controllo al processo di origine: una norma estranea alla decisione non diventa scrutinabile soltanto perché appare ingiusta. Il giudice deve inoltre confrontarsi con le possibilità interpretative consentite dal testo. Il processo comune e quello costituzionale svolgono così funzioni diverse e coordinate: la Corte risolve la questione di legittimità, mentre la controversia torna al giudice competente per la decisione.",
-      "daSapere": [
-        "Giudice rimettente: rilevanza e non manifesta infondatezza",
-        "La richiesta della parte non basta da sola",
-        "Controllo sulla legge distinto dalla decisione della controversia"
-      ],
-      "collegamenti": [
-        {
-          "da": "giudizio-incidentale",
-          "a": "rilevanza-costituzionale",
-          "tipo": "collegato",
-          "etichetta": "richiede la"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 134 e 137",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        },
-        {
-          "titolo": "Legge 87/1953, art. 23",
-          "url": "https://www.normattiva.it/eli/id/1953/03/14/053U0087/CONSOLIDATED"
-        }
-      ]
-    },
-    {
-      "id": "sentenza-di-accoglimento",
-      "oltre": "### Eliminare la norma incostituzionale\nLa dichiarazione di illegittimità impedisce l’applicazione della norma con gli effetti dell’art. 136 e della legge 87/1953. La garanzia supera il solo rapporto fra le parti del processo in cui la questione è sorta: il sistema non può continuare ordinariamente ad applicare una norma colpita dalla decisione.\n\nGli effetti sui rapporti ancora pendenti si distinguono da quelli ormai esauriti, con specifiche regole, in particolare per condanne penali fondate sulla norma illegittima. La [[sentenza-di-rigetto]] non produce il medesimo effetto di eliminazione: respinge la questione nei termini esaminati. Per leggere una decisione occorre perciò individuare disposizione impugnata, norma ricavata, dispositivo ed estensione temporale, evitando di assimilare ogni intervento della Corte a un’abrogazione legislativa o a una semplice risposta consultiva.",
-      "daSapere": [
-        "Accoglimento: effetti oltre il processo di origine",
-        "Rapporti pendenti ed esauriti vanno distinti",
-        "Il rigetto non certifica ogni possibile applicazione della legge"
-      ],
-      "collegamenti": [
-        {
-          "da": "sentenza-di-accoglimento",
-          "a": "sentenza-di-rigetto",
-          "tipo": "collegato",
-          "etichetta": "si distingue per effetti dalla"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, art. 136",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        },
-        {
-          "titolo": "Legge 87/1953, art. 30",
-          "url": "https://www.normattiva.it/eli/id/1953/03/14/053U0087/CONSOLIDATED"
-        }
-      ]
-    },
-    {
-      "id": "controlimiti",
-      "oltre": "### Apertura dell’ordinamento e garanzie fondamentali\nI controlimiti descrivono la salvaguardia dei principi supremi e dei diritti inviolabili nell’apertura verso altri ordinamenti. La Corte ha affrontato il problema con riferimento sia al diritto dell’Unione sia al diritto internazionale, entro meccanismi e parametri differenti.\n\nLa sentenza 238/2014 offre un caso importante: il riconoscimento della consuetudine internazionale sull’immunità degli Stati incontra il limite della tutela giurisdizionale dei diritti fondamentali nelle vicende esaminate. Questo esempio non autorizza ogni giudice a ignorare liberamente una fonte esterna sulla base di un dissenso personale. Il confronto con il [[primato-del-diritto-ue]] richiede di identificare norma esterna, canale di ingresso, diritto coinvolto e autorità competente. Apertura e garanzia costituzionale operano attraverso procedure, oltre le formule generali sulla prevalenza.",
-      "daSapere": [
-        "Salvaguardia di principi supremi e diritti inviolabili",
-        "Corte cost. 238/2014: immunità e tutela giurisdizionale",
-        "Distinguere diritto UE e diritto internazionale"
-      ],
-      "collegamenti": [],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 2, 10, 11 e 24",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        },
-        {
-          "titolo": "Corte costituzionale, sentenza 238/2014",
-          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2014/238"
-        }
-      ]
-    },
-    {
-      "id": "rinvio-pregiudiziale-ue",
-      "oltre": "### Cooperare per applicare il diritto dell’Unione\nIl rinvio permette al giudice nazionale di interrogare la giurisdizione dell’Unione sull’interpretazione del diritto UE o sulla validità di atti dell’Unione, quando la risposta sia necessaria alla decisione. Il processo nazionale offre il contesto concreto, ma la questione sottoposta riguarda il significato o la validità della norma europea.\n\nLa pronuncia pregiudiziale non sostituisce ordinariamente il giudice nella ricostruzione dei fatti e nella soluzione finale della controversia. Il confronto con il [[giudizio-incidentale]] italiano chiarisce che cambiano oggetto, parametro e autorità competente. Il rinvio contribuisce all’applicazione uniforme del diritto UE e tutela la cooperazione fra giudici: non è un normale grado di appello contro la sentenza nazionale. Per valutarlo occorre formulare la questione giuridica che serve al giudice, oltre a descrivere l’esito desiderato dalla parte.",
-      "daSapere": [
-        "Interpretazione del diritto UE o validità dei suoi atti",
-        "Il giudice nazionale decide la controversia",
-        "Rinvio pregiudiziale e giudizio costituzionale hanno oggetti diversi"
-      ],
-      "collegamenti": [
-        {
-          "da": "rinvio-pregiudiziale-ue",
-          "a": "corte-di-giustizia-ue",
-          "tipo": "collegato",
-          "etichetta": "attiva la cooperazione con la"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 11 e 117",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        },
-        {
-          "titolo": "TFUE, art. 267, EUR-Lex",
-          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12012E267"
-        }
-      ]
-    },
-    {
-      "id": "giusto-processo",
-      "oltre": "### Le condizioni della decisione giurisdizionale\nL’art. 111 richiede contraddittorio, parità delle parti, giudice terzo e imparziale e ragionevole durata, nel processo regolato dalla legge. La garanzia riguarda il modo di decidere, oltre alla correttezza sostanziale del risultato: una decisione favorevole non rende irrilevanti le condizioni con cui è stata ottenuta.\n\nIl [[diritto-di-difesa]] dell’art. 24 collega accesso al giudice e possibilità effettiva di tutelare la propria posizione. Nel processo penale l’art. 111 aggiunge specifiche garanzie sull’accusa, la preparazione della difesa e la prova, con eccezioni costituzionalmente previste alla formazione in contraddittorio. La durata ragionevole non giustifica l’eliminazione indiscriminata del confronto fra le parti. Le garanzie vanno coordinate per costruire un processo capace sia di decidere sia di rispettare chi vi partecipa.",
-      "daSapere": [
-        "Contraddittorio, parità, terzietà e durata ragionevole",
-        "Art. 24: difesa in ogni stato e grado",
-        "Le garanzie penali hanno specificazioni proprie"
-      ],
-      "collegamenti": [
-        {
-          "da": "giusto-processo",
-          "a": "diritto-di-difesa",
-          "tipo": "collegato",
-          "etichetta": "si coordina con il"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 24 e 111",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "capacita-contributiva",
-      "oltre": "### Fondare il prelievo e distribuire il carico\nL’art. 53 lega il concorso alle spese pubbliche alla capacità contributiva e orienta il sistema tributario alla progressività. La disposizione richiede di considerare un indice economicamente significativo della possibilità di contribuire: il tributo non è una prestazione patrimoniale priva di giustificazione costituzionale.\n\nLa [[progressivita-tributaria]] riguarda il sistema complessivo e non impone che ogni singolo tributo abbia una struttura progressiva. Il coordinamento con l’art. 23 richiede anche una base legislativa per la prestazione imposta. Per analizzare un prelievo conviene dunque distinguere fonte, presupposto economico, trattamento delle situazioni e posizione nel sistema. Il fatto che una misura produca entrate non esaurisce il controllo sulla sua legittimità, mentre la differenza fra contribuenti richiede un criterio ragionevole collegato alla capacità espressa.",
-      "daSapere": [
-        "Art. 53: concorso secondo capacità contributiva",
-        "Progressività del sistema complessivo",
-        "Art. 23: base legislativa della prestazione imposta"
-      ],
-      "collegamenti": [
-        {
-          "da": "capacita-contributiva",
-          "a": "progressivita-tributaria",
-          "tipo": "collegato",
-          "etichetta": "si coordina con la"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, artt. 23 e 53",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
-    },
-    {
-      "id": "questione-di-fiducia",
-      "oltre": "### Legare una decisione parlamentare alla permanenza del Governo\nLa questione di fiducia è posta dal Governo su una determinata decisione e collega politicamente l’esito del voto alla propria permanenza. Si inserisce nel funzionamento della forma parlamentare e nelle regole delle Camere, con effetti sul procedimento di esame che dipendono dall’atto e dalla disciplina applicabile.\n\nLa [[mozione-di-sfiducia]] parte invece dall’iniziativa parlamentare e segue le condizioni costituzionali dell’art. 94. Il confronto chiarisce chi attiva il meccanismo e quale decisione sia in gioco. Non ogni voto su una proposta governativa è perciò già un voto di fiducia: l’art. 94 esclude che una semplice votazione contraria comporti necessariamente dimissioni. La stabilità politica può risentirne, ma bisogna distinguere la qualificazione giuridica del voto dalle valutazioni della maggioranza e del Governo.",
-      "daSapere": [
-        "Iniziativa del Governo su una decisione",
-        "Distinta dalla mozione parlamentare di sfiducia",
-        "Un voto contrario non è sempre un voto fiduciario"
-      ],
-      "collegamenti": [
-        {
-          "da": "questione-di-fiducia",
-          "a": "mozione-di-sfiducia",
-          "tipo": "collegato",
-          "etichetta": "si distingue per iniziativa dalla"
-        }
-      ],
-      "fonti": [
-        {
-          "titolo": "Costituzione della Repubblica italiana, art. 94",
-          "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
-        }
-      ]
+     "da": "parlamento",
+     "a": "legge-di-conversione",
+     "tipo": "crea",
+     "etichetta": "approva la"
     }
-  ]
+   ]
+  },
+  {
+   "id": "camera-dei-deputati",
+   "oltre": "Dal 2020 i deputati sono **400** (erano 630) e i senatori elettivi **200** (erano 315): la legge costituzionale 1/2020 è stata confermata da un referendum. L'anno dopo la legge costituzionale 1/2021 ha abbassato a 18 anni l'età per votare al Senato, togliendo l'ultima differenza nel corpo elettorale delle due Camere.\n\nRestano diverse l'età per essere eletti (25 anni alla Camera, 40 al Senato) e la base regionale dell'elezione del Senato. Le funzioni sono identiche: è il [[bicameralismo-paritario|bicameralismo paritario]], che due tentativi di riforma (2006 e 2016) hanno cercato di superare, entrambi respinti dal referendum costituzionale.",
+   "daSapere": [
+    "Legge cost. 1/2020: 400 deputati, 200 senatori",
+    "Legge cost. 1/2021: voto a 18 anni anche per il Senato",
+    "Riforme del bicameralismo respinte nel 2006 e nel 2016"
+   ],
+   "collegamenti": [
+    {
+     "da": "camera-dei-deputati",
+     "a": "elettorato-passivo",
+     "tipo": "collegato",
+     "etichetta": "richiede per i suoi membri l'"
+    },
+    {
+     "da": "camera-dei-deputati",
+     "a": "legislatura",
+     "tipo": "collegato",
+     "etichetta": "dura per una"
+    }
+   ]
+  },
+  {
+   "id": "senato",
+   "oltre": "### Parità della funzione non significa identità di ogni regola\nIl Senato partecipa alla funzione legislativa e al rapporto fiduciario su un piano paritario con la Camera. Restano differenze costituzionali nella composizione, nei requisiti per l'elezione e nella base regionale dell'elezione. Il [[bicameralismo-paritario]] descrive quindi le funzioni principali, non l'identità di tutti i caratteri dei due rami.\n\nUn Governo non può considerare sufficiente la fiducia ottenuta soltanto alla Camera. Neppure una legge ordinaria è definitivamente approvata perché un ramo ha votato l'ultima versione prima che l'altro la esamini. I due procedimenti devono essere ricostruiti separatamente, distinguendo accordo sul testo legislativo e sostegno all'esecutivo. Le specificità della seconda Camera operano dentro questa struttura.",
+   "daSapere": [
+    "Parità legislativa e fiduciaria",
+    "Differenze nella composizione e nei requisiti"
+   ],
+   "collegamenti": [
+    {
+     "da": "senato",
+     "a": "elettorato-passivo",
+     "tipo": "collegato",
+     "etichetta": "richiede per i suoi membri l'"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 55–59, 70 e 94",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "bicameralismo-paritario",
+   "oltre": "### Due Camere con eguale partecipazione a funzioni decisive\nLa funzione legislativa è esercitata collettivamente dalle due Camere: per una legge ordinaria occorre l’approvazione del medesimo testo. Una modifica introdotta dalla seconda Camera impone un nuovo passaggio della prima, dando luogo alla navetta.\n\nLa parità si manifesta anche nel [[rapporto-di-fiducia]], che il Governo deve instaurare con entrambe. Questo non rende identici composizione, requisiti di eleggibilità e tutte le regole interne. L’approvazione di un atto da parte di una sola Camera può avere significato nel controllo politico senza equivalere all’approvazione della legge. Per leggere un procedimento occorre perciò domandarsi quale funzione sia esercitata: legislazione, fiducia, indirizzo o attività di una commissione. Il bicameralismo riguarda la distribuzione delle competenze e le condizioni di decisione, oltre al semplice numero delle assemblee.",
+   "daSapere": [
+    "Legge ordinaria: identico testo nelle due Camere",
+    "Entrambe partecipano al rapporto fiduciario",
+    "Parità funzionale non significa identità di ogni regola"
+   ],
+   "collegamenti": [
+    {
+     "da": "bicameralismo-paritario",
+     "a": "navetta-parlamentare",
+     "tipo": "collegato",
+     "etichetta": "può comportare la"
+    },
+    {
+     "da": "bicameralismo-paritario",
+     "a": "camera-dei-deputati",
+     "tipo": "collegato",
+     "etichetta": "dà pari poteri alla"
+    },
+    {
+     "da": "bicameralismo-paritario",
+     "a": "senato",
+     "tipo": "collegato",
+     "etichetta": "dà pari poteri al"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 70 e 94",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "parlamento-in-seduta-comune",
+   "oltre": "### Una composizione unitaria per attribuzioni determinate\nLe due Camere si riuniscono in seduta comune soltanto nei casi previsti dalla Costituzione. Non è una sede alternativa in cui far approvare una legge che incontra difficoltà nel normale procedimento bicamerale. Presiede il Presidente della Camera e opera l'ufficio di presidenza di quel ramo.\n\nTra le attribuzioni figurano elezioni di garanzia e la messa in stato d'accusa del Presidente della Repubblica. Per la sua elezione partecipano anche delegati regionali, che non diventano per questo membri permanenti del Parlamento. Occorre quindi distinguere composizione ordinaria, integrazioni per la specifica funzione e maggioranze richieste. La riunione comune non elimina il fatto che la fiducia al Governo si voti separatamente in ciascuna Camera.",
+   "daSapere": [
+    "Competenze tassative previste dalla Costituzione",
+    "Delegati regionali per l'elezione presidenziale"
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 55, 63, 83, 90, 104 e 135",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "rappresentanza-politica",
+   "oltre": "### Il mandato elettivo non è un incarico civilistico\nIl rappresentante politico partecipa alla formazione della volontà pubblica senza essere giuridicamente vincolato a ogni istruzione degli elettori. L'art. 67 assegna al parlamentare la rappresentanza della Nazione e il libero mandato. La responsabilità politica verso elettori e partito non coincide con un potere giuridico di revocarlo per una singola scelta.\n\nUn cambiamento di posizione può essere criticato e avere conseguenze politiche, ma non rende automaticamente nullo il voto parlamentare. Il sistema collega rappresentanza e competizione tra programmi, mantenendo le garanzie della funzione. Il [[divieto-di-mandato-imperativo]] non significa assenza di doveri o libertà di ignorare la Costituzione: delimita uno specifico rapporto tra eletto e soggetti che lo hanno sostenuto.",
+   "daSapere": [
+    "Responsabilità politica distinta da vincolo giuridico di istruzioni",
+    "Il parlamentare rappresenta la Nazione"
+   ],
+   "collegamenti": [
+    {
+     "da": "rappresentanza-politica",
+     "a": "sistema-elettorale",
+     "tipo": "collegato",
+     "etichetta": "si forma con il"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 49 e 67",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "elettorato-attivo",
+   "oltre": "### Il diritto di votare non coincide con quello di essere eletti\nL'elettorato attivo riguarda la partecipazione al voto e va distinto dall'[[elettorato-passivo]]. Le età richieste non devono essere ricavate automaticamente dalle condizioni per candidarsi. Dopo la modifica dell'art. 58, per l'elezione del Senato non opera più la precedente soglia costituzionale di venticinque anni per gli elettori.\n\nUn cittadino maggiorenne può quindi avere diritto di votare senza possedere l'età necessaria a essere eletto in quella Camera. Occorre poi verificare cittadinanza e altre condizioni previste, comprese le limitazioni ammesse dall'art. 48. Anche il modo di esercizio, come il voto fuori sede, segue una disciplina distinta: la titolarità del diritto non risolve da sola dove e come esprimerlo.",
+   "daSapere": [
+    "Voto distinto da candidatura",
+    "Soglia attiva del Senato modificata nel 2021"
+   ],
+   "collegamenti": [
+    {
+     "da": "elettorato-attivo",
+     "a": "elettorato-passivo",
+     "tipo": "contrasta",
+     "etichetta": "si distingue dall'"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 48, 56 e 58",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "elettorato-passivo",
+   "oltre": "### L'accesso alla carica richiede requisiti propri\nEssere elettore non comporta automaticamente l'idoneità a ricoprire ogni carica elettiva. La Costituzione richiede venticinque anni per essere eletti alla Camera e quaranta al Senato; altre figure seguono condizioni differenti. I requisiti positivi vanno poi distinti dalle cause di ineleggibilità, incompatibilità e incandidabilità.\n\nUn candidato può superare il requisito di età e incontrare comunque un ostacolo legato alla sua situazione. Viceversa, un'[[incompatibilita]] non coincide necessariamente con il difetto originario di eleggibilità: può richiedere un'opzione tra cariche. Il caso pratico deve separare possesso dei requisiti, regolarità dell'elezione e possibilità di mantenere contemporaneamente determinate funzioni, anziché chiamare tutti questi problemi con lo stesso nome.",
+   "daSapere": [
+    "Camera: venticinque anni; Senato: quaranta",
+    "Requisiti distinti dalle cause ostative e dal cumulo di cariche"
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 51, 56, 58 e 65–66",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sistema-elettorale",
+   "oltre": "### Dalla Repubblica dei partiti alla legge del 2026\nLa Costituzione non sceglie un sistema elettorale: lo lascia alla legge ordinaria. Fino al 1993 si è votato con il **proporzionale**; dopo il referendum del 1993 il **Mattarellum** assegnò tre quarti dei seggi in collegi uninominali. La **legge 270/2005** tornò al proporzionale con premio di maggioranza e liste bloccate; il **Rosatellum** (legge 165/2017) combinò collegi uninominali e quota proporzionale. Oggi vale la **legge 180/2026**: impianto proporzionale con soglie (3% per le liste, 10% per le coalizioni), preferenze e un premio eventuale solo per chi è primo in entrambe le Camere con almeno il 42% dei voti.\n\nDue sentenze della Corte costituzionale fanno da cornice: la **1/2014**, contro il premio senza soglia minima e le liste lunghe bloccate, e la **35/2017**, contro il ballottaggio dell'Italicum. Il principio: la governabilità è un fine legittimo, ma non può sacrificare in modo sproporzionato l'eguaglianza del voto e la rappresentatività.",
+   "daSapere": [
+    "1993 Mattarellum; 2005 legge 270; 2017 Rosatellum; 2026 legge 180",
+    "Corte cost. 1/2014 e 35/2017",
+    "Legge 180/2026: soglie 3% e 10%, premio eventuale con il 42%"
+   ]
+  },
+  {
+   "id": "insindacabilita-parlamentare",
+   "oltre": "L'art. 68, primo comma, protegge le opinioni espresse e i voti dati «nell'esercizio delle funzioni». Ma che cosa accade se il parlamentare diffama qualcuno in televisione? La Camera di appartenenza tendeva a coprire tutto. La Corte costituzionale, con le sentenze **10 e 11 del 2000**, ha fissato il criterio del **nesso funzionale**: la dichiarazione resa fuori dal Parlamento è insindacabile solo se riproduce nella sostanza il contenuto di un atto parlamentare tipico (un'interrogazione, un intervento in aula).\n\nSe la Camera delibera che le parole sono insindacabili, il giudice che non è d'accordo non può ignorarla: deve sollevare **conflitto di attribuzione** davanti alla Corte. La Corte europea dei diritti dell'uomo ha condannato l'Italia quando l'immunità ha privato il diffamato di ogni tutela.",
+   "daSapere": [
+    "Art. 68, primo comma",
+    "Corte cost. 10 e 11/2000: nesso funzionale",
+    "Contro la delibera della Camera: conflitto di attribuzione"
+   ],
+   "collegamenti": [
+    {
+     "da": "insindacabilita-parlamentare",
+     "a": "immunita-parlamentari",
+     "tipo": "parte-di",
+     "etichetta": "è una delle"
+    },
+    {
+     "da": "insindacabilita-parlamentare",
+     "a": "corte-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "può essere oggetto di conflitto davanti alla"
+    }
+   ]
+  },
+  {
+   "id": "immunita-parlamentari",
+   "oltre": "Fino al 1993 per sottoporre un parlamentare a procedimento penale serviva l'**autorizzazione a procedere** della Camera di appartenenza. L'abuso dell'istituto negli anni di Tangentopoli portò alla legge costituzionale 3/1993, che lo ha abolito. Oggi il parlamentare può essere indagato e processato come ogni cittadino.\n\nL'autorizzazione resta per gli atti che toccano la libertà personale e la riservatezza: arresto (salvo flagranza per reati gravi o sentenza definitiva), perquisizioni, intercettazioni, sequestro di corrispondenza (art. 68, secondo e terzo comma). La ragione non è un privilegio della persona ma la protezione dell'organo: evitare che un altro potere possa alterare la composizione o il funzionamento delle Camere.",
+   "daSapere": [
+    "Legge cost. 3/1993: abolita l'autorizzazione a procedere",
+    "Resta per arresto, perquisizioni, intercettazioni",
+    "Garanzia della funzione, non privilegio personale"
+   ]
+  },
+  {
+   "id": "divieto-di-mandato-imperativo",
+   "oltre": "### Rappresentare la Nazione con responsabilità politica\nL’art. 67 stabilisce che ogni parlamentare rappresenta la Nazione ed esercita le funzioni senza vincolo di mandato. L’elezione non produce un rapporto privatistico in cui l’elettore o il partito possano impartire istruzioni giuridicamente coercibili su ogni voto.\n\nRestano però relazioni politiche: programmi, gruppi e [[partiti-politici]] organizzano l’attività e gli elettori ne valutano i risultati. Il dissenso può avere conseguenze politiche senza trasformarsi nella perdita automatica del seggio per violazione di un ordine. Il confronto con la rappresentanza civile permette di spiegare l’autonomia della funzione pubblica: qui non si agisce semplicemente in nome di un mandante determinato. La responsabilità si esprime attraverso le forme costituzionali e il confronto elettorale, anziché mediante una normale azione per inadempimento del mandato.",
+   "daSapere": [
+    "Art. 67: rappresentanza della Nazione",
+    "Istruzioni politiche e obblighi giuridici sono distinti",
+    "Il seggio non appartiene al partito come un bene privato"
+   ],
+   "collegamenti": [
+    {
+     "da": "divieto-di-mandato-imperativo",
+     "a": "rappresentanza-politica",
+     "tipo": "collegato",
+     "etichetta": "caratterizza la"
+    },
+    {
+     "da": "divieto-di-mandato-imperativo",
+     "a": "partiti-politici",
+     "tipo": "contrasta",
+     "etichetta": "tutela il parlamentare anche dai"
+    },
+    {
+     "da": "divieto-di-mandato-imperativo",
+     "a": "parlamento",
+     "tipo": "collegato",
+     "etichetta": "vale per ogni membro del"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 49 e 67",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "regolamenti-parlamentari",
+   "oltre": "### L'autonomia delle Camere incontra il quadro costituzionale\nOgni Camera adotta il proprio regolamento a maggioranza assoluta dei componenti. La fonte disciplina organizzazione e procedimenti interni nell'ambito riservato dalla Costituzione, senza essere un regolamento governativo subordinato alla legge ordinaria come se appartenesse alla medesima categoria. La distribuzione delle competenze è qui decisiva.\n\nUna legge non può semplicemente sostituire ogni scelta procedurale riservata all'autonomia parlamentare. Al tempo stesso il regolamento non può eliminare una garanzia prevista dalla Costituzione, come i casi di [[riserva-di-assemblea]]. Il confronto tra fonti deve quindi verificare chi sia competente e quali limiti superiori valgano, evitando di risolvere tutto soltanto in base alla data dell'atto.",
+   "daSapere": [
+    "Maggioranza assoluta per l'adozione",
+    "Competenza riservata e rispetto della Costituzione"
+   ],
+   "collegamenti": [
+    {
+     "da": "regolamenti-parlamentari",
+     "a": "parlamento",
+     "tipo": "collegato",
+     "etichetta": "disciplinano l'organizzazione del"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 64 e 72",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "commissioni-parlamentari",
+   "oltre": "### La sede istruttoria non coincide sempre con quella decisoria\nLe commissioni rendono possibile il lavoro specializzato delle Camere, ma i loro poteri dipendono dalla funzione e dalla sede. Una commissione referente esamina il progetto e riferisce all'Assemblea; nei casi ammessi una commissione può approvare direttamente secondo il procedimento decentrato. Non ogni passaggio in commissione produce quindi una legge già approvata dal ramo.\n\nL'art. 72 riserva alcuni oggetti al procedimento normale e consente il ritorno all'Assemblea su richiesta dei soggetti indicati. Vanno distinte anche le commissioni d'inchiesta, che svolgono accertamenti con poteri specifici senza sostituire i giudici. Composizione proporzionale, funzione e procedura sono controlli complementari, non effetti automatici del solo nome commissione.",
+   "daSapere": [
+    "Sede referente distinta da deliberante",
+    "Inchiesta e legislazione sono funzioni diverse"
+   ],
+   "collegamenti": [
+    {
+     "da": "commissioni-parlamentari",
+     "a": "parlamento",
+     "tipo": "parte-di",
+     "etichetta": "sono articolazioni del"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 72 e 82",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "quorum-strutturale",
+   "oltre": "### Prima accertare se il collegio può deliberare\nIl quorum strutturale riguarda la presenza necessaria perché il collegio possa assumere validamente una decisione. È diverso dal numero di voti favorevoli richiesto per approvare la proposta. L'art. 64 stabilisce per le Camere la presenza della maggioranza dei componenti, con le regole parlamentari sul relativo accertamento.\n\nUn'aula può essere sufficientemente partecipata e respingere comunque la proposta; viceversa, una larga prevalenza di favorevoli tra pochissimi presenti non risolve il problema della costituzione del collegio. Nel calcolo occorre distinguere il totale dei membri dalla specifica base usata per il voto. Il confronto con il [[quorum-deliberativo]] rende visibili due controlli che spesso vengono confusi nelle domande numeriche.",
+   "daSapere": [
+    "Presenze per validità del collegio",
+    "Distinto dai voti necessari per approvare"
+   ],
+   "collegamenti": [
+    {
+     "da": "quorum-strutturale",
+     "a": "parlamento",
+     "tipo": "collegato",
+     "etichetta": "vale per le sedute del"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 64",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "quorum-deliberativo",
+   "oltre": "### Il numero dei favorevoli dipende dalla regola applicabile\nIl quorum deliberativo indica il sostegno necessario perché una proposta venga approvata. Non coincide con la sola presenza richiesta per poter votare. La Costituzione distingue la regola generale e maggioranze particolari: per la revisione costituzionale, per esempio, la seconda deliberazione richiede almeno la maggioranza assoluta dei componenti.\n\nSe alcuni partecipanti si astengono, l'effetto sul conteggio dipende dalle regole del collegio e dalla specifica maggioranza prescritta. Non è corretto applicare indistintamente una formula a ogni votazione. Per risolvere il caso conviene scrivere separatamente componenti, presenti, votanti e favorevoli, poi individuare quale numero costituisca il riferimento della norma. Solo dopo si può verificare l'approvazione.",
+   "daSapere": [
+    "Contare i favorevoli rispetto alla base prescritta",
+    "Le maggioranze speciali prevalgono sulla formula generale"
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 64 e 138",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "iniziativa-legislativa-popolare",
+   "oltre": "### Presentare un progetto non significa approvarlo\nL'iniziativa popolare consente a cinquantamila elettori di presentare un progetto redatto in articoli. È uno strumento di partecipazione alla produzione legislativa, ma non trasferisce ai sottoscrittori il potere di approvare direttamente la legge. Esame e decisione restano inseriti nel procedimento parlamentare secondo le regole applicabili.\n\nLa raccolta delle firme non va quindi confusa con il voto di un [[referendum-abrogativo]], che ha oggetto e condizioni diversi. Neppure equivale a una semplice petizione, per la quale la Costituzione prevede una diversa forma di sollecitazione. Per qualificare il caso bisogna considerare titolari, contenuto richiesto e risultato giuridico: proposta articolata, richiesta rivolta alle Camere e decisione popolare non sono passaggi intercambiabili.",
+   "daSapere": [
+    "Cinquantamila elettori e testo in articoli",
+    "Iniziativa diversa da approvazione della legge"
+   ],
+   "collegamenti": [
+    {
+     "da": "iniziativa-legislativa-popolare",
+     "a": "iniziativa-legislativa",
+     "tipo": "esempio-di",
+     "etichetta": "è una forma di"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 50, 71–72 e 75",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "riserva-di-assemblea",
+   "oltre": "### Alcune decisioni devono passare per il procedimento normale\nL'art. 72 impone esame e approvazione diretta dell'Assemblea per determinati progetti, tra cui quelli costituzionali ed elettorali, di delegazione legislativa, di autorizzazione alla ratifica dei trattati e di approvazione di bilanci e consuntivi. Non basta quindi una generica disponibilità della commissione a decidere per chiudere il procedimento.\n\nLa riserva non elimina il lavoro istruttorio della commissione, ma delimita la possibilità di trasferirle l'approvazione finale nel ramo. Va distinta dal potere di chiedere il ritorno in Assemblea nei procedimenti decentrati altrimenti ammessi. Nel caso pratico occorre identificare prima l'oggetto del progetto: il fatto che la maggioranza sia d'accordo non rende facoltativa una garanzia procedurale costituzionale.",
+   "daSapere": [
+    "Oggetto del progetto decisivo",
+    "Istruttoria in commissione distinta dall'approvazione finale"
+   ],
+   "collegamenti": [
+    {
+     "da": "riserva-di-assemblea",
+     "a": "legge-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "vale anche per la"
+    },
+    {
+     "da": "riserva-di-assemblea",
+     "a": "legge-delega",
+     "tipo": "collegato",
+     "etichetta": "vale anche per la"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 72, ultimo comma",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "rinvio-presidenziale",
+   "oltre": "Con il rinvio il Presidente chiede alle Camere, con messaggio motivato, una nuova deliberazione (art. 74). Non è un veto: se le Camere riapprovano la legge, anche identica e a maggioranza semplice, deve promulgarla. Per questo si parla di veto **sospensivo**.\n\nPer quali ragioni si rinvia? Di certo per vizi di **legittimità costituzionale**, soprattutto se evidenti; la mancanza di copertura finanziaria è stata il motivo più frequente. Più discusso è il rinvio per ragioni di merito costituzionale. I Presidenti lo hanno usato con parsimonia: tra i casi più noti il rinvio della legge Gasparri sul sistema radiotelevisivo (Ciampi, 2003) per contrasto con il pluralismo dell'informazione. Oggi è più frequente la promulgazione accompagnata da una lettera di rilievi.",
+   "daSapere": [
+    "Art. 74: messaggio motivato",
+    "Veto sospensivo: una seconda approvazione obbliga a promulgare",
+    "Motivo più frequente: copertura finanziaria"
+   ],
+   "collegamenti": [
+    {
+     "da": "rinvio-presidenziale",
+     "a": "presidente-della-repubblica",
+     "tipo": "collegato",
+     "etichetta": "è un potere del"
+    },
+    {
+     "da": "rinvio-presidenziale",
+     "a": "parlamento",
+     "tipo": "collegato",
+     "etichetta": "chiede una nuova deliberazione al"
+    }
+   ]
+  },
+  {
+   "id": "revisione-costituzionale",
+   "oltre": "### La rigidità come procedimento\nLa revisione richiede due deliberazioni di ciascuna Camera, separate da almeno tre mesi; nella seconda occorre la maggioranza assoluta dei componenti. La doppia lettura rende il cambiamento più meditato rispetto alla legge ordinaria e permette di distinguere la decisione iniziale dalla conferma.\n\nIl [[referendum-costituzionale]] può essere richiesto se nella seconda votazione non si raggiungono i due terzi in entrambe le Camere, entro tre mesi dalla pubblicazione, dai soggetti dell’art. 138. La rigidità procedurale convive con limiti sostanziali: la forma repubblicana è sottratta alla revisione e la Corte riconosce principi supremi che non possono essere sovvertiti. L’approvazione con una maggioranza elevata non trasforma quindi il potere costituito di revisione in un potere senza limiti sul fondamento della Costituzione.",
+   "daSapere": [
+    "Due deliberazioni per Camera e intervallo minimo di tre mesi",
+    "Seconda votazione: almeno maggioranza assoluta",
+    "Procedimento aggravato e limiti sostanziali"
+   ],
+   "collegamenti": [
+    {
+     "da": "revisione-costituzionale",
+     "a": "referendum-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "può comprendere il"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 138–139",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "referendum-costituzionale",
+   "oltre": "### Confermare o respingere una revisione\nNel procedimento dell’art. 138 la richiesta referendaria può provenire da un quinto dei membri di una Camera, cinquecentomila elettori o cinque Consigli regionali. Il termine è di tre mesi dalla pubblicazione. Se entrambe le Camere approvano in seconda deliberazione a maggioranza dei due terzi, la richiesta non è ammessa.\n\nLa funzione è sottoporre alla decisione popolare il testo di revisione già deliberato dal Parlamento, non cancellare una legge ordinaria in vigore. Per l’approvazione basta la maggioranza dei voti validi e manca il quorum strutturale del referendum abrogativo. Nel confronto conviene seguire fonte oggetto del voto, soggetti legittimati, fase del procedimento ed effetti dell’esito. La comune partecipazione del corpo elettorale non rende infatti identici tutti gli strumenti di [[democrazia-diretta]].",
+   "daSapere": [
+    "Art. 138: referendum nel procedimento di revisione",
+    "Due terzi in entrambe le Camere: richiesta esclusa",
+    "Nessun quorum di partecipazione"
+   ],
+   "collegamenti": [
+    {
+     "da": "referendum-costituzionale",
+     "a": "democrazia-diretta",
+     "tipo": "collegato",
+     "etichetta": "è uno strumento di"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 138",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "principi-supremi",
+   "oltre": "### Il limite al potere di cambiare la Costituzione\nLa sentenza 1146/1988 afferma che la Costituzione contiene principi supremi non sovvertibili nel loro contenuto essenziale neppure da leggi di revisione. Essi comprendono sia limiti espressi, come la forma repubblicana, sia principi che appartengono all’essenza dei valori fondanti dell’ordinamento.\n\nQuesto controllo distingue il potere di revisione dal potere costituente: il primo opera secondo la Costituzione che ne stabilisce competenze e limiti. Il richiamo ai principi supremi non coincide però con una lista liberamente scelta da ciascun interprete. Occorre ricostruire il significato della garanzia nel sistema e il ruolo della [[corte-costituzionale]]. Per ripetere, la domanda utile è quale elemento identitario sarebbe compromesso dalla modifica, oltre a verificare che il procedimento dell’art. 138 sia stato rispettato.",
+   "daSapere": [
+    "Corte cost. 1146/1988: limite anche alle revisioni",
+    "Forma repubblicana: limite espresso",
+    "Revisione costituita e potere costituente sono distinti"
+   ],
+   "collegamenti": [
+    {
+     "da": "principi-supremi",
+     "a": "corte-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "sono garantiti anche dal controllo della"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 138–139",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    },
+    {
+     "titolo": "Corte costituzionale, sentenza 1146/1988",
+     "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1988/1146"
+    }
+   ]
+  },
+  {
+   "id": "rapporto-di-fiducia",
+   "oltre": "### Sostegno politico e permanenza del Governo\nIl Governo deve avere la fiducia di entrambe le Camere e si presenta a esse entro dieci giorni dalla formazione. La mozione è motivata e votata per appello nominale, rendendo riconoscibile la responsabilità politica del voto.\n\nL’art. 94 distingue una votazione contraria su una proposta del Governo dalla sfiducia: la prima non comporta da sola obbligo di dimissioni. La [[mozione-di-sfiducia]] richiede almeno un decimo dei componenti della Camera e non può essere discussa prima di tre giorni dalla presentazione. La questione di fiducia posta dal Governo appartiene a un diverso meccanismo politico e regolamentare. Formazione, voti parlamentari e crisi devono quindi essere ricostruiti secondo l’atto specifico, evitando di attribuire a ogni sconfitta parlamentare lo stesso effetto sul rapporto fiduciario.",
+   "daSapere": [
+    "Fiducia di entrambe le Camere",
+    "Presentazione entro dieci giorni dalla formazione",
+    "Voto contrario e mozione di sfiducia non coincidono"
+   ],
+   "collegamenti": [
+    {
+     "da": "rapporto-di-fiducia",
+     "a": "mozione-di-sfiducia",
+     "tipo": "collegato",
+     "etichetta": "può cessare attraverso una"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 94",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "equilibrio-di-bilancio",
+   "oltre": "Il testo del 1948 chiedeva solo che ogni legge di spesa indicasse i mezzi per farvi fronte. Dopo la crisi dei debiti sovrani e il *Fiscal compact* europeo, la legge costituzionale **1/2012** ha riscritto l'art. 81: lo Stato assicura l'**equilibrio** tra entrate e spese «tenendo conto delle fasi avverse e favorevoli del ciclo economico».\n\nNon è il pareggio contabile anno per anno. Il ricorso al debito è ammesso per gli effetti del ciclo e, con voto a **maggioranza assoluta** delle Camere, per eventi eccezionali (recessioni gravi, calamità, come durante la pandemia). La riforma ha toccato anche gli artt. 97 e 119: il vincolo vale per tutte le amministrazioni e per le Regioni. Una legge «rinforzata» (legge 243/2012) ne detta l'attuazione.",
+   "daSapere": [
+    "Legge cost. 1/2012: nuovo art. 81",
+    "Equilibrio, non pareggio: conta il ciclo economico",
+    "Debito per eventi eccezionali: maggioranza assoluta"
+   ]
+  },
+  {
+   "id": "copertura-finanziaria",
+   "oltre": "### Indicare una spesa richiede anche il modo di sostenerla\nL'art. 81 impone alle leggi che comportano nuovi o maggiori oneri di provvedere ai mezzi per farvi fronte. La copertura non coincide con la semplice dichiarazione che l'intervento sia utile e non si esaurisce nel riportare un numero nel testo. Richiede un collegamento attendibile tra onere e risorse secondo la disciplina finanziaria.\n\nUna legge può perseguire un obiettivo costituzionalmente rilevante e porre comunque un problema di copertura. Viceversa, la presenza di risorse non rende automaticamente legittima ogni scelta di spesa. Il controllo finanziario va distinto dall'[[equilibrio-di-bilancio]] e dalla valutazione del contenuto sostanziale della misura: sono garanzie collegate, ma non una sola condizione numerica.",
+   "daSapere": [
+    "Nuovi o maggiori oneri e mezzi di finanziamento",
+    "Copertura distinta da equilibrio e legittimità del contenuto"
+   ],
+   "collegamenti": [
+    {
+     "da": "copertura-finanziaria",
+     "a": "equilibrio-di-bilancio",
+     "tipo": "collegato",
+     "etichetta": "serve all'"
+    },
+    {
+     "da": "copertura-finanziaria",
+     "a": "legge-ordinaria",
+     "tipo": "collegato",
+     "etichetta": "deve accompagnare la"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 81 e 97",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "mozione-di-sfiducia",
+   "oltre": "L'art. 94 la circonda di cautele, per evitare i «colpi di mano»: deve essere **motivata**, firmata da almeno **un decimo** dei componenti della Camera, votata per **appello nominale** e non prima di **tre giorni** dalla presentazione.\n\nLa Costituzione parla di sfiducia al Governo. Si può sfiduciare un solo ministro? Nel 1995 il Senato votò la sfiducia al ministro della giustizia Mancuso, che ricorse alla Corte. Con la **sentenza 7/1996** la Corte ha ritenuto la **sfiducia individuale** ammissibile: discende dalla responsabilità individuale dei ministri per gli atti dei loro dicasteri (art. 95) e dai regolamenti parlamentari. Il ministro sfiduciato ha l'obbligo di dimettersi.",
+   "daSapere": [
+    "Art. 94: motivata, un decimo, appello nominale, tre giorni",
+    "Corte cost. 7/1996 (caso Mancuso): ammessa la sfiducia individuale"
+   ],
+   "collegamenti": [
+    {
+     "da": "mozione-di-sfiducia",
+     "a": "mozione-parlamentare",
+     "tipo": "esempio-di",
+     "etichetta": "è una"
+    }
+   ]
+  },
+  {
+   "id": "questione-di-fiducia",
+   "oltre": "### Legare una decisione parlamentare alla permanenza del Governo\nLa questione di fiducia è posta dal Governo su una determinata decisione e collega politicamente l’esito del voto alla propria permanenza. Si inserisce nel funzionamento della forma parlamentare e nelle regole delle Camere, con effetti sul procedimento di esame che dipendono dall’atto e dalla disciplina applicabile.\n\nLa [[mozione-di-sfiducia]] parte invece dall’iniziativa parlamentare e segue le condizioni costituzionali dell’art. 94. Il confronto chiarisce chi attiva il meccanismo e quale decisione sia in gioco. Non ogni voto su una proposta governativa è perciò già un voto di fiducia: l’art. 94 esclude che una semplice votazione contraria comporti necessariamente dimissioni. La stabilità politica può risentirne, ma bisogna distinguere la qualificazione giuridica del voto dalle valutazioni della maggioranza e del Governo.",
+   "daSapere": [
+    "Iniziativa del Governo su una decisione",
+    "Distinta dalla mozione parlamentare di sfiducia",
+    "Un voto contrario non è sempre un voto fiduciario"
+   ],
+   "collegamenti": [
+    {
+     "da": "questione-di-fiducia",
+     "a": "mozione-di-sfiducia",
+     "tipo": "collegato",
+     "etichetta": "si distingue per iniziativa dalla"
+    },
+    {
+     "da": "questione-di-fiducia",
+     "a": "governo",
+     "tipo": "collegato",
+     "etichetta": "è posta dal"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 94",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "referendum-abrogativo",
+   "oltre": "### Eliminare una norma e controllare l’ammissibilità\nIl referendum abrogativo permette al corpo elettorale di eliminare in tutto o in parte una legge o un atto con forza di legge. La richiesta proviene da cinquecentomila elettori o cinque Consigli regionali. Sono escluse le leggi indicate dall’art. 75, fra cui tributi e bilancio, amnistia e indulto e autorizzazione alla ratifica dei trattati internazionali.\n\nLa validità richiede la partecipazione della maggioranza degli aventi diritto; prevale poi la maggioranza dei voti validamente espressi. Il [[referendum-costituzionale]] segue invece una funzione e un procedimento differenti e non ha quel quorum di partecipazione. Occorre inoltre distinguere il controllo sulla regolarità della richiesta dal giudizio di ammissibilità: verificare firme e oggetto non esaurisce il problema dei limiti costituzionali del quesito.",
+   "daSapere": [
+    "Richiesta: 500.000 elettori o cinque Consigli regionali",
+    "Quorum di partecipazione e maggioranza dei voti validi",
+    "Regolarità e ammissibilità sono controlli distinti"
+   ],
+   "collegamenti": [
+    {
+     "da": "referendum-abrogativo",
+     "a": "quorum-referendario",
+     "tipo": "collegato",
+     "etichetta": "richiede il"
+    },
+    {
+     "da": "referendum-abrogativo",
+     "a": "democrazia-diretta",
+     "tipo": "esempio-di",
+     "etichetta": "è uno strumento di"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 75",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "quorum-referendario",
+   "oltre": "### Partecipazione e maggioranza dei voti sono due condizioni\nIl referendum abrogativo richiede la partecipazione della maggioranza degli aventi diritto e la maggioranza dei voti validamente espressi a favore dell'abrogazione. Il primo requisito è distinto dal secondo: una netta prevalenza dei sì non produce l'abrogazione se manca il quorum di partecipazione.\n\nNon si deve poi trasferire la stessa regola al [[referendum-costituzionale]], per il quale l'art. 138 non prevede quel quorum. Anche l'astensione assume quindi significati diversi nei due procedimenti. Per risolvere un esercizio numerico occorre separare corpo elettorale, partecipanti e voti validi, identificando prima il tipo di referendum. La percentuale dei favorevoli, da sola, non riassume tutte le condizioni della consultazione.",
+   "daSapere": [
+    "Abrogativo: partecipazione e voti validi",
+    "Nessun medesimo quorum nell'art. 138"
+   ],
+   "collegamenti": [
+    {
+     "da": "quorum-referendario",
+     "a": "referendum-costituzionale",
+     "tipo": "contrasta",
+     "etichetta": "non è richiesto nel"
+    },
+    {
+     "da": "quorum-referendario",
+     "a": "democrazia-diretta",
+     "tipo": "collegato",
+     "etichetta": "limita gli effetti della"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 75 e 138",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "ammissibilita-referendum",
+   "oltre": "### Il controllo sul quesito è diverso dalla verifica delle firme\nLa richiesta di referendum abrogativo incontra limiti costituzionali sull'oggetto e controlli distinti. L'art. 75 esclude, tra l'altro, leggi tributarie e di bilancio, amnistia e indulto e autorizzazione alla ratifica dei trattati. Non basta quindi raccogliere le sottoscrizioni richieste per rendere votabile qualsiasi proposta.\n\nLa Corte costituzionale decide sull'ammissibilità secondo la competenza prevista dalla legge costituzionale 1/1953. Va distinta la verifica di regolarità della richiesta affidata all'Ufficio centrale per il referendum. Nel caso pratico occorre specificare quale controllo si stia discutendo: regolarità degli adempimenti e compatibilità costituzionale del quesito non sono due nomi dello stesso giudizio né un controllo preventivo generale sulla validità della legge.",
+   "daSapere": [
+    "Oggetto ammesso distinto da regolarità della richiesta",
+    "Ruolo della Corte costituzionale"
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 75",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    },
+    {
+     "titolo": "Corte costituzionale, le funzioni: ammissibilità dei referendum",
+     "url": "https://www.cortecostituzionale.it/contenuti/istituzioni/le-funzioni"
+    }
+   ]
+  },
+  {
+   "id": "governo",
+   "oltre": "È un organo **complesso**: lo compongono il **Presidente del Consiglio** e i **ministri**, che insieme formano il **Consiglio dei ministri** (art. 92). Tre principi ne regolano il funzionamento e convivono in tensione: il principio **monocratico** (il Presidente del Consiglio dirige la politica generale e ne è responsabile), il principio **collegiale** (le decisioni più importanti spettano al Consiglio) e la **responsabilità ministeriale** (ogni ministro risponde degli atti del proprio dicastero).\n\nIl Governo è titolare dell'**indirizzo politico** insieme al Parlamento, sta al vertice della **pubblica amministrazione** e ha poteri **normativi**: decreti-legge, decreti legislativi, regolamenti. La disciplina di dettaglio è nella **legge 400/1988**.",
+   "daSapere": [
+    "Organi necessari: Presidente del Consiglio, ministri, Consiglio dei ministri.",
+    "Art. 95: direzione, collegialità, responsabilità dei ministri.",
+    "Legge 23 agosto 1988, n. 400."
+   ],
+   "collegamenti": [
+    {
+     "da": "consiglio-dei-ministri",
+     "a": "governo",
+     "tipo": "parte-di",
+     "etichetta": "è l'organo collegiale del"
+    },
+    {
+     "da": "presidente-del-consiglio",
+     "a": "governo",
+     "tipo": "collegato",
+     "etichetta": "dirige la politica generale del"
+    },
+    {
+     "da": "governo",
+     "a": "decreto-legge",
+     "tipo": "crea",
+     "etichetta": "adotta il"
+    },
+    {
+     "da": "governo",
+     "a": "decreto-legislativo",
+     "tipo": "crea",
+     "etichetta": "adotta il"
+    },
+    {
+     "da": "governo",
+     "a": "regolamenti-governativi",
+     "tipo": "crea",
+     "etichetta": "delibera i"
+    }
+   ]
+  },
+  {
+   "id": "consiglio-dei-ministri",
+   "oltre": "### La collegialità coesiste con direzione e responsabilità individuali\nIl Governo comprende Presidente del Consiglio e ministri, che insieme costituiscono il Consiglio dei ministri. L'art. 95 combina direzione del Presidente, responsabilità collegiale per gli atti del Consiglio e responsabilità individuale per i dicasteri. Non si tratta quindi di tre descrizioni alternative dello stesso potere.\n\nUna divergenza tra ministri non si risolve assumendo che ogni scelta appartenga personalmente al Presidente oppure che ciascuno possa definire da solo l'indirizzo generale. Occorre individuare competenza, coordinamento e sede della decisione secondo la disciplina organizzativa. Anche la responsabilità politica davanti alle Camere va distinta dall'imputazione amministrativa di un atto. La struttura collegiale rende possibile un indirizzo comune senza cancellare le attribuzioni dei componenti.",
+   "daSapere": [
+    "Organo collegiale e componenti del Governo",
+    "Responsabilità collegiale distinta da quella del singolo dicastero"
+   ],
+   "collegamenti": [
+    {
+     "da": "consiglio-dei-ministri",
+     "a": "presidente-del-consiglio",
+     "tipo": "collegato",
+     "etichetta": "è presieduto dal"
+    },
+    {
+     "da": "consiglio-dei-ministri",
+     "a": "decreto-legge",
+     "tipo": "crea",
+     "etichetta": "delibera il"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 92 e 95",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "presidente-del-consiglio",
+   "oltre": "L'art. 95 lo descrive con una formula di compromesso: «dirige la politica generale del Governo e ne è responsabile», mantiene l'unità di indirizzo, **promuove e coordina** l'attività dei ministri. Non può dare ordini ai ministri né revocarli: per questo la dottrina parla di *primus inter pares*, a differenza del Cancelliere tedesco o del Primo ministro britannico.\n\nIl suo peso reale dipende dalla coalizione: è forte quando guida il partito maggiore, debole quando media tra alleati. La **legge 400/1988** ha dato per la prima volta una disciplina alla Presidenza del Consiglio e ai suoi poteri (direttive ai ministri, sospensione di atti, rapporti con le Regioni e con l'Unione Europea).",
+   "daSapere": [
+    "Art. 95: dirige, promuove, coordina",
+    "Non può revocare i ministri",
+    "Legge 400/1988: ordinamento della Presidenza del Consiglio"
+   ]
+  },
+  {
+   "id": "ministri",
+   "oltre": "### Il vertice del dicastero è anche componente del collegio\nLa posizione del ministro combina partecipazione alle decisioni del Governo e responsabilità per il settore affidato. La nomina richiede il concorso del Presidente della Repubblica e della proposta del Presidente del Consiglio secondo l'art. 92. Non è una semplice scelta privata del capo della coalizione.\n\nL'art. 95 distingue la responsabilità individuale per gli atti del dicastero da quella collegiale per gli atti del Consiglio. Ciò non autorizza a identificare ogni attività degli uffici con una decisione politica personale del ministro. Occorre considerare attribuzioni e disciplina dell'organizzazione amministrativa. Anche i [[ministri-senza-portafoglio]], quando nominati, appartengono al Governo: l'assenza di un ministero proprio non equivale all'assenza del ruolo politico.",
+   "daSapere": [
+    "Nomina secondo l'art. 92",
+    "Doppia dimensione: dicastero e partecipazione collegiale"
+   ],
+   "collegamenti": [
+    {
+     "da": "ministri",
+     "a": "governo",
+     "tipo": "parte-di",
+     "etichetta": "compongono il"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 92–95 e 97",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "principio-di-legalita",
+   "oltre": "### Un potere deve avere titolo e limiti\nLa legalità richiede di ricostruire la base giuridica del potere e il modo in cui può essere esercitato. Non significa semplicemente che esista una legge qualunque sul settore. L'art. 23 riserva alla legge la base delle prestazioni imposte; altre disposizioni costituzionali richiedono garanzie più intense per specifiche libertà.\n\nUn'amministrazione non può creare una prestazione personale o patrimoniale obbligatoria appellandosi soltanto all'utilità collettiva. Bisogna identificare attribuzione, presupposti e disciplina pertinente. La [[riserva-di-legge]] precisa il rapporto tra fonti in determinate materie; la legalità riguarda più ampiamente il fondamento e i limiti dell'azione pubblica. Le due figure si collegano senza essere sinonimi.",
+   "daSapere": [
+    "Base del potere e modalità di esercizio",
+    "Legalità distinta dalla singola riserva di fonte"
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 13, 23 e 97",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "presidenza-del-consiglio",
+   "oltre": "### Una struttura di supporto distinta dal titolare politico\nLa Presidenza del Consiglio è l'organizzazione che sostiene il Presidente nell'esercizio delle sue funzioni. Non è una persona diversa con lo stesso potere politico e non aggiunge un quarto componente necessario al Governo indicato dall'art. 92. La distinzione permette di capire il rapporto tra indirizzo e apparati che ne rendono possibile il coordinamento.\n\nUn dipartimento può svolgere attività istruttorie o amministrative senza diventare per questo un autonomo organo costituzionale di governo. Per attribuire un compito occorre individuare la fonte organizzativa e la competenza effettiva. L'art. 95 riserva alla legge l'ordinamento della Presidenza: il supporto amministrativo non nasce soltanto dalle preferenze contingenti del titolare della carica.",
+   "daSapere": [
+    "Struttura distinta dal Presidente",
+    "Organizzazione sottoposta alla disciplina legislativa"
+   ],
+   "collegamenti": [
+    {
+     "da": "presidenza-del-consiglio",
+     "a": "governo",
+     "tipo": "parte-di",
+     "etichetta": "sostiene il"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 92 e 95",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "decreto-legge",
+   "oltre": "Nato come strumento **eccezionale**, il decreto-legge è diventato una via ordinaria di legislazione: il Governo lo usa per avere tempi certi, spesso insieme al **maxiemendamento** e alla **questione di fiducia** in sede di conversione. La Corte costituzionale ha reagito con tre gruppi di decisioni.\n\nSul **presupposto**: l'evidente mancanza di necessità e urgenza vizia il decreto e anche la legge di conversione (sentt. 29/1995 e 171/2007). Sulla **reiterazione**: è vietato riprodurre un decreto non convertito (sent. 360/1996). Sull'**omogeneità**: la legge di conversione non può introdurre norme estranee all'oggetto del decreto (sentt. 22/2012 e 32/2014).\n\nLa legge 400/1988 elenca i limiti: il decreto non può conferire deleghe, intervenire nelle materie riservate all'assemblea, ripristinare norme dichiarate illegittime.",
+   "daSapere": [
+    "Art. 77: necessità e urgenza, conversione entro 60 giorni, decadenza retroattiva.",
+    "Sent. 360/1996: divieto di reiterazione.",
+    "Sentt. 22/2012 e 32/2014: omogeneità della legge di conversione."
+   ],
+   "collegamenti": [
+    {
+     "da": "decreto-legge",
+     "a": "decadenza-decreto-legge",
+     "tipo": "causa",
+     "etichetta": "se non convertito subisce la"
+    },
+    {
+     "da": "decreto-legge",
+     "a": "omogeneita-decreto-legge",
+     "tipo": "collegato",
+     "etichetta": "deve rispettare l'"
+    }
+   ]
+  },
+  {
+   "id": "reiterazione-decreti-legge",
+   "oltre": "Negli anni Novanta i decreti-legge non convertiti entro sessanta giorni venivano semplicemente **ripresentati**, anche dieci o venti volte, con una clausola che faceva salvi gli effetti dei precedenti. Una disciplina provvisoria diventava così stabile senza che il Parlamento l'avesse mai approvata.\n\nLa Corte costituzionale ha chiuso la prassi con la **sentenza 360/1996**: la reiterazione altera la natura provvisoria del decreto, toglie valore al termine di sessanta giorni e rende incerti i rapporti nati nel frattempo. Il Governo può adottare un nuovo decreto sulla stessa materia solo se ha un **contenuto diverso** o si fonda su **nuovi** presupposti di necessità e urgenza. Dopo la sentenza i decreti reiterati sono scomparsi; l'abuso si è spostato sui maxi-emendamenti in sede di conversione, con questione di fiducia.",
+   "daSapere": [
+    "Corte cost. 360/1996",
+    "Nuovo decreto solo con contenuto o presupposti diversi",
+    "Art. 77: sessanta giorni"
+   ],
+   "collegamenti": [
+    {
+     "da": "reiterazione-decreti-legge",
+     "a": "decreto-legge",
+     "tipo": "contrasta",
+     "etichetta": "è un abuso del"
+    },
+    {
+     "da": "reiterazione-decreti-legge",
+     "a": "corte-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "è stata vietata dalla"
+    }
+   ]
+  },
+  {
+   "id": "legge-di-conversione",
+   "oltre": "### Il Parlamento interviene su un atto provvisorio con forza di legge\nLa conversione stabilizza il decreto-legge entro il termine costituzionale e permette al Parlamento di intervenire sul testo secondo la disciplina del procedimento. Non è una nuova delega al Governo e non coincide con una ratifica di qualsiasi atto dell'esecutivo. L'art. 77 collega il potere iniziale a necessità e urgenza e ne impone l'immediata presentazione alle Camere.\n\nIl termine di sessanta giorni decorre dalla pubblicazione del decreto, non dall'inizio della discussione parlamentare. Anche gli effetti delle modifiche devono essere esaminati nel tempo, senza supporre che ogni frase della legge produca identico effetto retroattivo. Il mancato perfezionamento della conversione apre invece il problema della [[decadenza-decreto-legge]].",
+   "daSapere": [
+    "Sessanta giorni dalla pubblicazione del decreto",
+    "Conversione distinta da delega e da sanatoria dei rapporti"
+   ],
+   "collegamenti": [
+    {
+     "da": "legge-di-conversione",
+     "a": "legge-atipica",
+     "tipo": "esempio-di",
+     "etichetta": "è una"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 77",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "decadenza-decreto-legge",
+   "oltre": "### La perdita di efficacia risale all'inizio\nSe non viene convertito entro sessanta giorni, il decreto-legge perde efficacia sin dall'inizio. È una conseguenza diversa dall'abrogazione, che regola la successione di discipline nel tempo senza cancellare nello stesso modo l'efficacia originaria. Il termine non viene sospeso perché il Parlamento sta ancora discutendo.\n\nI rapporti sorti sulla base del decreto decaduto non sono però ignorati dalla Costituzione: le Camere possono regolarli con legge secondo l'art. 77. Questa possibilità non equivale a una conversione tardiva automatica né alla convalida indiscriminata di ogni effetto. Per il caso concreto occorre separare validità temporanea del decreto, scadenza e disciplina successiva dei rapporti eventualmente adottata dal legislatore.",
+   "daSapere": [
+    "Sessanta giorni e perdita di efficacia ex tunc",
+    "Possibile disciplina legislativa dei rapporti sorti"
+   ],
+   "collegamenti": [
+    {
+     "da": "decadenza-decreto-legge",
+     "a": "reiterazione-decreti-legge",
+     "tipo": "collegato",
+     "etichetta": "non può essere aggirata con la"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, art. 77",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "omogeneita-decreto-legge",
+   "oltre": "Il decreto-legge deve riguardare un oggetto **specifico e omogeneo** (legge 400/1988). La Corte ne ha fatto un requisito costituzionale. Con la **sentenza 22/2012** ha stabilito che la legge di conversione non è una legge qualunque: ha una competenza «tipica», e gli emendamenti del Parlamento devono essere **omogenei** all'oggetto o alla finalità del decreto. Quelli estranei sono illegittimi.\n\nL'applicazione più nota è la **sentenza 32/2014**: dichiara illegittima la disciplina degli stupefacenti (legge Fini-Giovanardi), inserita nel 2006 nella conversione di un decreto sulle Olimpiadi invernali di Torino. Già con la sentenza 171/2007 la Corte aveva affermato che l'evidente mancanza dei presupposti di necessità e urgenza vizia il decreto e non è sanata dalla conversione.",
+   "daSapere": [
+    "Corte cost. 22/2012: emendamenti omogenei",
+    "Corte cost. 32/2014: caso Fini-Giovanardi",
+    "Corte cost. 171/2007: la conversione non sana la mancanza dei presupposti"
+   ],
+   "collegamenti": [
+    {
+     "da": "omogeneita-decreto-legge",
+     "a": "corte-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "è controllata dalla"
+    }
+   ]
+  },
+  {
+   "id": "legge-delega",
+   "oltre": "### Il Parlamento definisce un compito legislativo delimitato\nLa delega attribuisce al Governo l'esercizio della funzione legislativa entro oggetti definiti, tempo limitato e principi e criteri direttivi. Non basta autorizzare genericamente a riformare un settore senza i limiti richiesti dall'art. 76. Il decreto adottato deve essere verificato rispetto a quella cornice, oltre che direttamente alla Costituzione.\n\nLa delega non va confusa con la [[delegificazione]], che riguarda il passaggio a una disciplina regolamentare secondo presupposti diversi. Né la legge delegante approva già ogni futuro contenuto del decreto. Il Parlamento mantiene il proprio ruolo e il Governo esercita un potere circoscritto: testo della delega, termine e scelte concretamente compiute devono essere letti insieme.",
+   "daSapere": [
+    "Oggetto, termine, principi e criteri",
+    "Delega legislativa distinta da delegificazione"
+   ],
+   "collegamenti": [
+    {
+     "da": "legge-delega",
+     "a": "legge-atipica",
+     "tipo": "esempio-di",
+     "etichetta": "è una"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 76 e 77, primo comma",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "decreto-legislativo",
+   "oltre": "### Una decisione governativa entro una cornice parlamentare\nLa legge delega deve determinare oggetto, tempo e principi e criteri direttivi. Il Parlamento definisce così una cornice per una fonte governativa con forza di legge; il Governo non riceve un’autorizzazione generale a regolare qualsiasi materia.\n\nL’[[eccesso-di-delega]] emerge confrontando il decreto con i limiti della delegazione, che funzionano da parametro interposto nel giudizio costituzionale. Il decreto legislativo si distingue dal decreto-legge: nasce da un conferimento preventivo e non richiede la conversione entro sessanta giorni. Anche delega e singoli decreti hanno ruoli differenti: la prima abilita e orienta, i secondi producono la disciplina autorizzata. Nell’analisi di un caso bisogna quindi cercare la legge delega pertinente prima di valutare la scelta adottata dal Governo.",
+   "daSapere": [
+    "Oggetto definito, tempo limitato, principi e criteri direttivi",
+    "Conferimento parlamentare preventivo",
+    "Delega ed esercizio sono controllabili separatamente"
+   ],
+   "collegamenti": [
+    {
+     "da": "decreto-legislativo",
+     "a": "eccesso-di-delega",
+     "tipo": "collegato",
+     "etichetta": "incontra il limite dell’"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 76–77",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "eccesso-di-delega",
+   "oltre": "### Il confronto riguarda anche la legge che delimita il potere\nUn decreto legislativo può risultare illegittimo perché supera oggetto, termine o criteri fissati dalla delega. Il controllo ricostruisce il rapporto tra decreto e legge delegante attraverso l'art. 76: la questione non è soltanto se il Governo abbia scelto una soluzione politicamente diversa da quella preferita dall'interprete.\n\nOccorre individuare il limite concreto e spiegare in quale punto la norma delegata lo oltrepassi. Una formula molto generale non rende automaticamente libera ogni scelta, ma nemmeno impone di riprodurre parola per parola la delega. Il vizio si traduce in una questione di legittimità costituzionale, distinta dall'abrogazione legislativa o dall'annullamento di un semplice provvedimento amministrativo.",
+   "daSapere": [
+    "Individuare il limite concretamente violato",
+    "Art. 76 come parametro del potere delegato"
+   ],
+   "collegamenti": [
+    {
+     "da": "eccesso-di-delega",
+     "a": "corte-costituzionale",
+     "tipo": "collegato",
+     "etichetta": "è sindacato dalla"
+    },
+    {
+     "da": "eccesso-di-delega",
+     "a": "legge-delega",
+     "tipo": "collegato",
+     "etichetta": "viola i limiti della"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 76 e 134",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "riserva-di-legge",
+   "oltre": "### Chi deve decidere e con quale precisione\nLa riserva di legge attribuisce alla fonte legislativa la disciplina di una materia o dei suoi elementi essenziali. Il grado di spazio lasciato al regolamento distingue riserve assolute e relative; le riserve rinforzate aggiungono vincoli di contenuto o procedimento.\n\nLa libertà personale rende evidente il rapporto con la [[riserva-di-giurisdizione]]: la legge stabilisce casi e modi, mentre il giudice assume normalmente la decisione limitativa. Nelle prestazioni patrimoniali imposte l’art. 23 richiede una base legislativa, senza necessariamente affidare alla legge ogni dettaglio esecutivo. La riserva opera così come garanzia di competenza e prevedibilità. La sua esistenza non impedisce il controllo di costituzionalità della legge: scegliere la fonte corretta è una condizione diversa dal rispettare i limiti sostanziali sui diritti.",
+   "daSapere": [
+    "Assoluta, relativa, rinforzata: criteri differenti",
+    "Competenza della legge e legittimità del contenuto sono distinte",
+    "Art. 13: coordinamento con la giurisdizione"
+   ],
+   "collegamenti": [
+    {
+     "da": "riserva-di-legge",
+     "a": "riserva-di-giurisdizione",
+     "tipo": "collegato",
+     "etichetta": "può coordinarsi con la"
+    }
+   ],
+   "fonti": [
+    {
+     "titolo": "Costituzione della Repubblica italiana, artt. 13 e 23",
+     "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf"
+    }
+   ]
+  },
+  {
+   "id": "crisi-di-governo",
+   "oltre": "La Costituzione prevede un solo modo per far cadere un Governo: la mozione di sfiducia. Nella storia repubblicana non ne è mai stata approvata una. Le crisi **parlamentari**, cioè nate da un voto, sono state pochissime: il primo Governo Prodi nel 1998 e il secondo nel 2008 caddero su una questione di fiducia; altri Governi non ottennero la fiducia iniziale.\n\nQuasi tutte le crisi sono **extraparlamentari**: il Presidente del Consiglio si dimette perché un partito della coalizione gli toglie l'appoggio, senza alcun voto. Per riportare la crisi in Parlamento i Presidenti della Repubblica hanno spesso rinviato il Governo dimissionario alle Camere («parlamentarizzazione» della crisi). Aperta la crisi, il Capo dello Stato svolge le **consultazioni** e può affidare un incarico, un pre-incarico o un mandato esplorativo.",
+   "daSapere": [
+    "Nessuna mozione di sfiducia mai approvata",
+    "Crisi parlamentari: Prodi 1998 e 2008",
+    "Crisi extraparlamentari: la regola nella prassi"
+   ],
+   "collegamenti": [
+    {
+     "da": "crisi-di-governo",
+     "a": "presidente-della-repubblica",
+     "tipo": "collegato",
+     "etichetta": "è gestita con le consultazioni del"
+    }
+   ]
+  },
+  {
+   "id": "cnel",
+   "oltre": "Il Consiglio nazionale dell'economia e del lavoro è composto da esperti e da rappresentanti delle categorie produttive. Ha funzioni di **consulenza** per le Camere e per il Governo e può presentare disegni di legge in materia economica e sociale (art. 99). I costituenti lo pensarono come sede di rappresentanza degli interessi, accanto a quella politica.\n\nNella pratica ha contato poco: i pareri non sono vincolanti e l'iniziativa legislativa è stata usata raramente. La riforma costituzionale del 2016 ne prevedeva la soppressione; respinta la riforma dal referendum, il CNEL è rimasto. Tiene l'archivio nazionale dei contratti collettivi di lavoro.",
+   "daSapere": [
+    "Art. 99: organo ausiliario",
+    "Consulenza e iniziativa legislativa",
+    "Soppressione prevista dalla riforma del 2016, respinta"
+   ],
+   "collegamenti": [
+    {
+     "da": "cnel",
+     "a": "parlamento",
+     "tipo": "collegato",
+     "etichetta": "è organo ausiliario del"
+    },
+    {
+     "da": "cnel",
+     "a": "iniziativa-legislativa",
+     "tipo": "collegato",
+     "etichetta": "ha l'"
+    },
+    {
+     "da": "cnel",
+     "a": "organo-costituzionale",
+     "tipo": "contrasta",
+     "etichetta": "è un organo di rilievo costituzionale, non un"
+    }
+   ]
+  }
+ ]
 }

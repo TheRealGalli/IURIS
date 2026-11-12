@@ -5,6 +5,7 @@ import type { Card } from 'ts-fsrs';
 import { isoDi, oggiISO } from './util';
 import { applicaAzioneSegno, idSezioneTestoValido, normalizzaSegno, paginaValida, segnoNellaSelezione, spostaCronologiaSegni, type DocumentoOriginale, type LetturaOriginale, type RettangoloSegno, type SegnoOriginale } from './originali';
 import { chiaveExtraValida, leggiBackup, preparaBackup, slugBackupValido, type BackupDati, type RiepilogoBackup } from './backup-dati';
+import { haTabelle, migraProgressi, migrazioneValida, type Migrazione } from './migrazione';
 
 export type { RiepilogoBackup } from './backup-dati';
 
@@ -28,6 +29,8 @@ export interface Progresso {
   nuovePerGiornoPersonalizzato?: boolean;
   ultimaLezione?: string;
   originali?: Record<string, LetturaOriginale>;
+  /** Versione dei contenuti della materia su cui valgono gli id (vedi lib/migrazione.ts); assente = 1. */
+  versioneContenuto?: number;
 }
 
 const vuoto = (): Progresso => ({ versione: 1, lezioni: {}, carte: {}, esiti: {}, giorni: {}, nuovePerGiorno: NUOVE_PER_GIORNO_DEFAULT });
@@ -40,16 +43,78 @@ const key = (slug: string) => `iuris:v1:prog:${slug}`;
 
 const mem = new Map<string, Progresso>();
 const listeners = new Set<() => void>();
+/** Migrazioni note per materia (dal manifest, poi con le tabelle da corso.json). */
+const migrazioni = new Map<string, Migrazione>();
 
 function leggi(slug: string): Progresso {
   if (mem.has(slug)) return mem.get(slug)!;
-  let p = vuoto();
+  let p = vuoto(), salvato = false;
   try {
     const raw = archivio().getItem(key(slug));
-    if (raw) p = migraLimiteNuove({ ...vuoto(), ...JSON.parse(raw) });
+    if (raw) { p = migraLimiteNuove({ ...vuoto(), ...JSON.parse(raw) }); salvato = true; }
   } catch { /* storage non disponibile: si lavora in memoria */ }
+  // Progressi nuovi nascono già sulla versione corrente dei contenuti: nessuna tabella vecchia li toccherà.
+  const versione = migrazioni.get(slug)?.versione;
+  if (!salvato && versione) p.versioneContenuto = versione;
   mem.set(slug, p);
   return p;
+}
+
+/** Progressi salvati di una materia (in memoria o nel browser), `null` se non ce ne sono. */
+function salvati(slug: string): Progresso | null {
+  if (mem.has(slug)) return mem.get(slug)!;
+  try {
+    const raw = archivio().getItem(key(slug));
+    return raw ? migraLimiteNuove({ ...vuoto(), ...JSON.parse(raw) }) : null;
+  } catch { return null; }
+}
+
+/**
+ * Registra la migrazione dei progressi verso `materia` (dal manifest senza tabelle, da corso.json con le tabelle) e
+ * la esegue. Idempotente; se serve una tabella non ancora caricata rimanda (si riprova con corso.json).
+ */
+export function registraMigrazione(materia: string, m: Migrazione | undefined): 'nulla' | 'rimandata' | 'fatta' {
+  if (!migrazioneValida(m)) return 'nulla';
+  const prima = migrazioni.get(materia);
+  if (!prima || m.versione > prima.versione || (m.versione === prima.versione && haTabelle(m))) migrazioni.set(materia, m);
+  return eseguiMigrazione(materia);
+}
+
+/** Riesegue le migrazioni note: dopo un ripristino o la fine della demo (dati vecchi rientrati nell'archivio). */
+export function eseguiMigrazioni() {
+  for (const materia of migrazioni.keys()) eseguiMigrazione(materia);
+}
+
+function eseguiMigrazione(materia: string): 'nulla' | 'rimandata' | 'fatta' {
+  const m = migrazioni.get(materia);
+  if (!m || inDemo()) return 'nulla';
+  const origini = m.da.map((d) => d.materia).filter((s) => s !== materia);
+  // La materia scelta non esiste più: si apre quella in cui è confluita (non serve la tabella).
+  const p = leggiPref();
+  if (p.materia && origini.includes(p.materia)) scriviPref({ materia });
+  const progressi = Object.fromEntries([materia, ...origini].map((s) => [s, salvati(s)]));
+  const esito = migraProgressi(materia, m, progressi);
+  if (esito.stato !== 'fatta') return esito.stato;
+  const sessione = (s: string) => `iuris:v1:sessione:${s}`;
+  let storage: Storage | null = null;
+  try { storage = archivio(); } catch { /* si lavora in memoria */ }
+  const salvato = persisti(materia, esito.progresso!);
+  if (!storage || !salvato) return 'fatta';  // le origini restano: al prossimo avvio si rifonde (senza doppioni)
+  try {
+    // La sessione in corso di una materia rinominata ha domande vecchie: si scarta. Quella di una materia con
+    // gli stessi id passa alla materia nuova, se lì non ce n'è già una.
+    if (esito.rinominata) storage.removeItem(sessione(materia));
+    for (const s of esito.assorbite) {
+      const d = m.da.find((x) => x.materia === s)!;
+      const sua = storage.getItem(sessione(s));
+      if (sua !== null && d.lezioni === 'uguali' && d.domande === 'uguali' && storage.getItem(sessione(materia)) === null) storage.setItem(sessione(materia), sua);
+      storage.removeItem(sessione(s));
+      storage.removeItem(key(s));
+      mem.delete(s);
+    }
+  } catch { /* al prossimo avvio */ }
+  listeners.forEach((l) => l());
+  return 'fatta';
 }
 
 function persisti(slug: string, next: Progresso): boolean {
@@ -229,10 +294,12 @@ export function importa(slug: string, json: string) {
   const p = data.progresso ?? data;
   if (p?.versione !== 1) throw new Error('file non riconosciuto');
   aggiorna(slug, () => migraLimiteNuove({ ...vuoto(), ...p }));
+  eseguiMigrazioni();
 }
 
 export function azzera(slug: string) {
-  aggiorna(slug, () => vuoto());
+  // La versione dei contenuti resta: i progressi nuovi usano già gli id correnti.
+  aggiorna(slug, (p) => ({ ...vuoto(), ...(p.versioneContenuto ? { versioneContenuto: p.versioneContenuto } : {}) }));
 }
 
 // Preferenze generali
@@ -343,6 +410,8 @@ export function importaTutto(json: string, materiaLegacy?: string): RiepilogoBac
   }
   for (const [slug, progresso] of Object.entries(dati.materie)) mem.set(slug, progresso);
   if (dati.preferenze !== undefined) pref = dati.preferenze;
+  // Un backup di prima di una migrazione (id vecchi, materie confluite) si allinea subito ai contenuti correnti.
+  try { eseguiMigrazioni(); } catch { /* i dati ripristinati restano: si migra al prossimo avvio */ }
   listeners.forEach((listener) => { try { listener(); } catch { /* un componente non deve invalidare un ripristino già concluso */ } });
   return riepilogo;
 }
@@ -363,5 +432,6 @@ export function finisciDemo() {
   chiudiArchivioDemo(); mem.clear();
   for (const [slug, p] of archivioPersonale.progressi) mem.set(slug, p);
   pref = archivioPersonale.preferenze; archivioPersonale = null;
+  eseguiMigrazioni();
   listeners.forEach((l) => l());
 }
