@@ -489,11 +489,13 @@
    "id": "ev-sentenza-183-1973",
    "anno": 1973,
    "data": "1973",
-   "titolo": "Sentenza 183/1973 sugli atti comunitari",
-   "descrizione": "La Corte esclude che gli atti normativi comunitari siano oggetto del giudizio di legittimità costituzionale; lo ribadirà nel 1984.",
+   "titolo": "Sentenza n. 183/1973 sul diritto comunitario",
+   "descrizione": "La Corte esclude che gli atti normativi comunitari siano oggetto del giudizio di legittimità costituzionale (lo ribadirà nel 1984) e afferma che l'ordinamento europeo non può mai comportare una restrizione dei diritti fondamentali garantiti dalla Costituzione.",
    "tipo": "giurisprudenza",
    "concetti": [
-    "questione-di-legittimita"
+    "questione-di-legittimita",
+    "controlimiti",
+    "carta-diritti-ue"
    ],
    "pagine": [
     173,
@@ -501,13 +503,15 @@
    ]
   },
   {
-   "id": "ev-sentenza-granital",
+   "id": "ev-granital",
    "anno": 1984,
    "data": "8 giugno 1984",
-   "titolo": "Sentenza 170/1984 (Granital)",
-   "descrizione": "Gli atti dell’ordinamento comunitario non sono atti aventi forza di legge dello Stato e non sono sottoposti al sindacato della Corte.",
+   "titolo": "Sentenza n. 170/1984 (Granital)",
+   "descrizione": "La Corte costituzionale affida al giudice comune l'applicazione del regolamento europeo al posto della legge interna incompatibile, anteriore o successiva: gli atti comunitari non sono atti aventi forza di legge dello Stato e non sono sottoposti al sindacato della Corte.",
    "tipo": "giurisprudenza",
    "concetti": [
+    "non-applicazione-diritto-ue",
+    "primato-del-diritto-ue",
     "questione-di-legittimita"
    ],
    "pagine": [

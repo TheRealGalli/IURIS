@@ -6,6 +6,7 @@ import { href } from '../lib/router';
 import type { Evento } from '../lib/types';
 import { fmtAnno, rifPagine, soloMouse } from '../lib/util';
 import { Icon } from '../components/ui';
+import { disponiEtichette, frequenzaVoci, MAX_VUOTO, puntiScala } from '../lib/cronologia-striscia.mjs';
 
 const TIPI: Record<string, string> = {
   legge: 'Leggi', istituzione: 'Istituzioni', giurisprudenza: 'Giuristi', politica: 'Politica',
@@ -17,7 +18,7 @@ const COLORE_TIPO: Record<string, string> = {
   codificazione: 'var(--t-codice)', opera: 'var(--t-opera)', altro: 'var(--t-altro)',
 };
 const coloreEv = (e: Evento) => COLORE_TIPO[e.tipo] ?? 'var(--t-altro)';
-/** Il colore di un gruppo di eventi dello stesso anno: uno solo, oppure spicchi (pallino) o fasce (barra dell'etichetta) */
+/** Il colore di un gruppo di eventi correlati: uno solo, oppure spicchi (pallino) o fasce (barra dell'etichetta) */
 function tinte(ev: Evento[], forma: 'spicchi' | 'fasce') {
   const c = ev.map(coloreEv);
   if (new Set(c).size === 1) return c[0];
@@ -29,7 +30,6 @@ const COLORI_PERIODO = ['var(--gold-soft)', 'var(--accent-soft)', 'var(--ok-soft
 
 // geometria della striscia (px)
 const K = 4;                       // pixel per anno
-const MAX_VUOTO = 140;             // un tratto senza eventi non supera questa larghezza: i secoli vuoti si comprimono
 const BORDO = 40;                  // margine a sinistra e a destra (la prima data resta intera)
 const ASSE = 30;                   // y dell'asse, sotto le fasce dei periodi
 const CORSIA0 = 60;                // y della prima riga di etichette
@@ -37,22 +37,8 @@ const CORSIA_H = 42;
 const MAX_CORSIE = 6;
 const ETICHETTA_W = 168;
 
-/** Punti della scala: per ogni anno notevole (A) la sua posizione in px (X), lineare a k px/anno,
- *  ma con i lunghi tratti vuoti accorciati a MAX_VUOTO (i loro indici in "vuoti") */
-function puntiScala(anni: number[], k: number) {
-  const A = [...new Set(anni)].sort((a, b) => a - b);
-  const X = [0];
-  const vuoti: number[] = [];
-  for (let i = 1; i < A.length; i++) {
-    const w = (A[i] - A[i - 1]) * k;
-    if (w > MAX_VUOTO) vuoti.push(i);
-    X.push(X[i - 1] + Math.min(w, MAX_VUOTO));
-  }
-  return { A, X, vuoti };
-}
-
 /** Funzioni anno → px e px → anno, interpolando fra i punti della scala */
-function costruisciScala(A: number[], X: number[], vuoti: number[], etichettaW = ETICHETTA_W) {
+function costruisciScala(A: number[], X: number[], vuoti: number[], etichettaW = ETICHETTA_W, destra = 0) {
   const x = (a: number) => {
     if (A.length < 2 || a <= A[0]) return BORDO;
     for (let i = 1; i < A.length; i++) {
@@ -69,7 +55,7 @@ function costruisciScala(A: number[], X: number[], vuoti: number[], etichettaW =
   };
   return {
     x, anno, inizio: A[0] ?? 0, fine: A[A.length - 1] ?? 0,
-    larghezza: (X[X.length - 1] ?? 0) + 2 * BORDO + etichettaW,
+    larghezza: Math.max(X[X.length - 1] ?? 0, destra) + 2 * BORDO + etichettaW,
     vuoti: vuoti.map((i) => BORDO + (X[i - 1] + X[i]) / 2),
   };
 }
@@ -100,39 +86,27 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
   const inizioStriscia = periodi[0]?.anno ?? -Infinity;
   const evStriscia = useMemo(() => eventi.filter((e) => e.anno >= inizioStriscia).sort((a, b) => a.anno - b.anno), [eventi, inizioStriscia]);
 
-  // etichette: gli eventi dello stesso anno ne condividono una, su al massimo MAX_CORSIE righe.
-  // Dove le date sono troppo fitte la striscia si allarga proprio lì, quanto basta perché ogni etichetta abbia il suo posto.
+  // etichette: gli eventi correlati dello stesso anno (stesso fatto, atto citato, voce specifica in comune) ne condividono
+  // una; quelli indipendenti hanno ciascuno pallino ed etichetta, su al massimo maxCorsie righe. Dove le date sono troppo
+  // fitte la striscia si allarga proprio lì, quanto basta perché ogni etichetta e ogni pallino abbiano il loro posto.
+  const freqVoci = useMemo(() => frequenzaVoci(idx.corso.eventi), [idx]);
   const { s, etichette, corsie } = useMemo(() => {
     const { A, X, vuoti } = puntiScala([
       ...idx.corso.eventi.filter((e) => e.tipo !== 'periodo' && e.anno >= inizioStriscia).map((e) => e.anno),
       ...periodi.flatMap((p) => [p.anno, p.annoFine!]),
-    ], K);
+    ], K, MAX_VUOTO);
     const indice = new Map(A.map((a, i) => [a, i]));
-    const fineCorsia: number[] = [];
-    const gruppi: { eventi: Evento[]; i: number; corsia: number }[] = [];
-    for (const e of evStriscia) {
-      const ultimo = gruppi[gruppi.length - 1];
-      if (ultimo && ultimo.eventi[0].anno === e.anno) { ultimo.eventi.push(e); continue; } // stesso anno: stesso pallino e stessa etichetta
-      const i = indice.get(e.anno)!;
-      let c = fineCorsia.findIndex((fine) => fine <= BORDO + X[i] - 8);
-      if (c < 0 && fineCorsia.length < maxCorsie) c = fineCorsia.push(-Infinity) - 1;
-      if (c < 0) {
-        c = fineCorsia.indexOf(Math.min(...fineCorsia));
-        const spazio = fineCorsia[c] + 8 - (BORDO + X[i]);
-        for (let j = i; j < X.length; j++) X[j] += spazio;
-      }
-      fineCorsia[c] = BORDO + X[i] + etichettaW;
-      gruppi.push({ eventi: [e], i, corsia: c });
-    }
+    const disp = disponiEtichette(evStriscia, X, indice, { bordo: BORDO, etichettaW, maxCorsie, freq: freqVoci });
+    const destra = Math.max(0, ...disp.etichette.map((g) => g.x - BORDO));
     return {
-      s: costruisciScala(A, X, vuoti, etichettaW),
-      etichette: gruppi.map((g) => ({
-        id: g.eventi[0].id, x: BORDO + X[g.i], corsia: g.corsia,
+      s: costruisciScala(A, X, vuoti, etichettaW, destra),
+      etichette: disp.etichette.map((g) => ({
+        id: g.eventi[0].id, x: g.x, corsia: g.corsia,
         eventi: [...g.eventi].sort((a, b) => a.tipo.localeCompare(b.tipo)),
       })),
-      corsie: fineCorsia.length,
+      corsie: disp.corsie,
     };
-  }, [idx, periodi, inizioStriscia, evStriscia, maxCorsie, etichettaW]);
+  }, [idx, periodi, inizioStriscia, evStriscia, maxCorsie, etichettaW, freqVoci]);
 
   const ticks = useMemo(() => {
     const passo = 50;
@@ -217,7 +191,6 @@ export default function Cronologia({ query }: { query: URLSearchParams }) {
               </span>
             ))}
             {s.vuoti.map((x) => <span key={x} className="tl-gap" style={{ left: x }} title="Tratto senza eventi, accorciato">≈</span>)}
-            {/* prima tutte le linee, poi le etichette: così nessuna linea passa sopra un testo */}
             {/* prima tutte le linee, poi le etichette: così nessuna linea passa sopra un testo (tranne quella illuminata) */}
             {etichette.map((g) => (
               <i key={g.id} className={`tl-stem ${luce === g.id ? 'hov' : ''}`} style={{ left: g.x, top: ASSE, height: CORSIA0 + g.corsia * CORSIA_H - ASSE }} />

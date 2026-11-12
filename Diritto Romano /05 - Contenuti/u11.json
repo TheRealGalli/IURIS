@@ -1887,13 +1887,15 @@
       "id": "ev-codici-gregoriano-ermogeniano",
       "anno": 291,
       "annoFine": 294,
+      "approssimato": true,
       "data": "291; 293–294 d.C.",
       "titolo": "Codici Gregoriano ed Ermogeniano",
-      "descrizione": "Raccolte private: il Gregoriano arriva al 291, l'Ermogeniano raccoglie le costituzioni di Diocleziano del 293–294.",
+      "descrizione": "Prime raccolte private di costituzioni imperiali: il Gregoriano arriva al 291, l'Ermogeniano raccoglie le costituzioni di Diocleziano del 293–294.",
       "tipo": "codificazione",
       "concetti": [
         "codex-gregorianus",
-        "codex-hermogenianus"
+        "codex-hermogenianus",
+        "codex"
       ],
       "pagine": [
         193,

@@ -943,13 +943,14 @@
       ]
     },
     {
-      "id": "ev-sentenza-n-183-1973",
+      "id": "ev-sentenza-183-1973",
       "anno": 1973,
       "data": "1973",
-      "titolo": "Sentenza n. 183/1973 sui diritti fondamentali e il diritto comunitario",
-      "descrizione": "La Corte costituzionale afferma che l'ordinamento europeo non può mai comportare una restrizione dei diritti fondamentali garantiti dalla Costituzione.",
+      "titolo": "Sentenza n. 183/1973 sul diritto comunitario",
+      "descrizione": "La Corte esclude che gli atti normativi comunitari siano oggetto del giudizio di legittimità costituzionale (lo ribadirà nel 1984) e afferma che l'ordinamento europeo non può mai comportare una restrizione dei diritti fondamentali garantiti dalla Costituzione.",
       "tipo": "giurisprudenza",
       "concetti": [
+        "questione-di-legittimita",
         "controlimiti",
         "carta-diritti-ue"
       ],
@@ -990,13 +991,15 @@
       ]
     },
     {
-      "id": "ev-sentenze-n-348-e-349-2007",
+      "id": "ev-sentenze-gemelle-2007",
       "anno": 2007,
-      "data": "ottobre 2007",
+      "data": "24 ottobre 2007",
       "titolo": "Sentenze n. 348 e 349/2007 sulla CEDU",
-      "descrizione": "La Corte costituzionale riconosce alle norme CEDU il ruolo di parametro interposto dell'art. 117 comma I.",
+      "descrizione": "La Corte costituzionale riconosce alle norme della CEDU (e dei trattati internazionali) il ruolo di norme interposte: integrano il parametro dell'art. 117, primo comma, nel giudizio di legittimità.",
       "tipo": "giurisprudenza",
       "concetti": [
+        "norma-interposta",
+        "parametro-costituzionale",
         "parametro-interposto",
         "cedu"
       ],

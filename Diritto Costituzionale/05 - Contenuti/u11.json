@@ -981,10 +981,11 @@
    "anno": 2003,
    "data": "15 dicembre 2003",
    "titolo": "Rinvio della legge Gasparri",
-   "descrizione": "Il Presidente Ciampi rinvia alle Camere la legge di riordino del sistema radiotelevisivo.",
+   "descrizione": "Il Presidente Ciampi non promulga la legge di riordino del sistema radiotelevisivo e la rinvia alle Camere con messaggio motivato (art. 74).",
    "tipo": "politica",
    "concetti": [
-    "rinvio-presidenziale"
+    "rinvio-presidenziale",
+    "legge-gasparri"
    ],
    "pagine": [
     95,
@@ -1039,14 +1040,17 @@
    ]
   },
   {
-   "id": "ev-referendum-costituzionale-2026",
+   "id": "ev-referendum-giustizia-2026",
    "anno": 2026,
-   "data": "marzo 2026",
+   "data": "22–23 marzo 2026",
    "titolo": "Referendum costituzionale sulla magistratura",
-   "descrizione": "Il corpo elettorale respinge la riforma costituzionale della magistratura: resta in vigore il testo precedente.",
+   "descrizione": "Il corpo elettorale respinge la riforma costituzionale della magistratura (separazione delle carriere e sdoppiamento del CSM): resta in vigore il Titolo IV vigente.",
    "tipo": "politica",
    "concetti": [
-    "referendum-costituzionale"
+    "referendum-costituzionale",
+    "magistratura",
+    "csm",
+    "pubblico-ministero"
    ],
    "pagine": [
     97,
