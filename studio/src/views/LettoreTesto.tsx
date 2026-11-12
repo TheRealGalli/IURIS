@@ -1,4 +1,4 @@
-import MobileSheet, { useCompact } from '../components/MobileSheet';
+import MobileSheet, { useCompact, useTelefono } from '../components/MobileSheet';
 import { inDemo } from '../lib/archivio';
 import { memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { Icon } from '../components/ui';
@@ -55,6 +55,8 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   indiceAperto: boolean; onIndice: (aperto: boolean) => void; meta: IndiceSezioneLettura; segni: SegnoOriginale[]; bloccoFocus?: string; segnoFocus?: string; paginaFocus?: number;
 }) {
   const compact = useCompact(), automatico = compact && !inDemo();
+  // Sul telefono la Mappa personale si apre solo dalla sezione Mappa: il lettore resta dedicato al testo.
+  const telefono = useTelefono();
   const idx = useCorso(), slug = idx.corso.materia.slug, p = useProgresso(slug), lettura = p.originali?.[doc.id];
   const [sezione, setSezione] = useState<SezioneLettura | null>(null), [errore, setErrore] = useState('');
   const [tentativo, setTentativo] = useState(0);
@@ -278,6 +280,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
     };
     document.addEventListener('keydown', tastiera); return () => document.removeEventListener('keydown', tastiera);
   }, [storia, annullaSelezione, attivaGomma, applica]);
+  useEffect(() => { if (telefono && pannello === 'mappa') setPannello(null); }, [telefono, pannello]);
   useEffect(() => {
     if (!pannello) return;
     const prima = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -401,9 +404,9 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
       <label className="mobile-field">Sezione<select className="select" aria-label="Sezione del testo" value={meta.id} onChange={(e) => scegliSezione(e.target.value)}>{documento.sezioni.map((s) => <option key={s.id} value={s.id}>{statoStudioSezione(s, p.lezioni).studiata ? '✓ ' : ''}{s.titolo}{s.soloTitolo ? ' · solo titolo nella fonte' : ''}</option>)}</select></label>
       <div className="row-between mobile-reader-pages"><button className="btn btn-sm" disabled={indice <= 0} onClick={() => scegliSezione(documento.sezioni[indice - 1].id)}><Icon n="indietro" size={17} />Precedente</button><span>{indice + 1} / {documento.sezioni.length}</span><button className="btn btn-sm" disabled={indice >= documento.sezioni.length - 1} onClick={() => scegliSezione(documento.sezioni[indice + 1].id)}>Successiva<Icon n="freccia" size={17} /></button></div>
       <p className="small muted">Tieni premuta una parola e allarga la selezione con le maniglie. Per salvare il segno, tocca un altro punto del testo. Puoi annullare con la freccia indietro.</p>
-      <div className="mobile-reader-extras">
+      <div className={`mobile-reader-extras${telefono ? ' mobile-reader-extras-telefono' : ''}`}>
         <button className="btn btn-sm" aria-label={`Segni salvati (${segni.length})`} onClick={() => { salvaBozza(); onIndice(false); setPannello('segni'); }}><Icon n="glossario" size={17} />Segni ({segni.length})</button>
-        <button className="btn btn-sm mobile-reader-icon" aria-label="Mappa personale" title="Mappa personale" aria-expanded={pannello === 'mappa'} onClick={() => { salvaBozza(); onIndice(false); setPannello('mappa'); }}><Icon n="mappa" size={18} /></button>
+        {!telefono && <button className="btn btn-sm mobile-reader-icon" aria-label="Mappa personale" title="Mappa personale" aria-expanded={pannello === 'mappa'} onClick={() => { salvaBozza(); onIndice(false); setPannello('mappa'); }}><Icon n="mappa" size={18} /></button>}
         <button className="btn btn-sm" aria-label="Fonti e scorciatoie" onClick={() => { salvaBozza(); onIndice(false); setPannello('fonti'); }}><Icon n="altro" size={18} />Fonte</button>
       </div>
     </MobileSheet>}

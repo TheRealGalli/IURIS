@@ -1,5 +1,5 @@
 import type { MateriaInfo } from '../lib/types';
-import { CORSI, corsoDi, corsoDisponibile, descriviCorso, linkMateriale, type CorsoDiStudio } from '../data/corsi';
+import { CORSI, corsoDi, corsoDisponibile, descriviCorso, type CorsoDiStudio } from '../data/corsi';
 import { leggiPref, scriviPref } from '../lib/store';
 import { href, vai } from '../lib/router';
 import { Icon } from './ui';
@@ -43,7 +43,6 @@ export function MobileMenu({ panel, onClose, onStudy, corso, materie, materia, i
       <div className="mobile-menu-utilities">
         <a href={href('/backup')} onClick={(e) => { e.preventDefault(); navigate('/backup'); }}><Icon n="backup" size={21} /><span>Backup completo<small>Tutte le materie</small></span><Icon n="freccia" size={16} /></a>
         <a href={href('/demo')} onClick={(e) => { e.preventDefault(); navigate('/demo'); }}><IurisMascot /><span>Demo interattiva</span><Icon n="freccia" size={16} /></a>
-        <a href={linkMateriale(corso)} target="_blank" rel="noopener noreferrer"><Icon n="whatsapp" size={21} /><span>Condividi materiale<small>Invia le tue sbobine su WhatsApp</small></span><Icon n="freccia" size={16} /></a>
       </div>
     </>}
   </MobileSheet>;

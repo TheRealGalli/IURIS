@@ -1,6 +1,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { useCorso } from '../lib/data';
-import { href } from '../lib/router';
+import { href, vai } from '../lib/router';
+import { primaVisita, segnaVisitaProposta } from '../lib/tour-avvio';
 import { livello, padronanza, pagineStudiate, pianoEsame, ripassoDiOggi, serieGiorni, statoLezione, ETICHETTA_STATO } from '../lib/srs';
 import { impostaEsame, useProgresso } from '../lib/store';
 import type { Concetto } from '../lib/types';
@@ -25,6 +26,8 @@ export default function Oggi() {
   const ultima = p.ultimaLezione ? idx.lezioneById.get(p.ultimaLezione) : undefined;
   const nRip = rip.scadute.length + rip.nuove.length;
   const [mostraDeboli, setMostraDeboli] = useState(false);
+  // Alla prima visita (nessun progresso, visita mai proposta) la visita guidata parte da sola, una volta.
+  useEffect(() => { if (primaVisita()) { segnaVisitaProposta(); vai('/demo'); } }, []);
 
   const deboli = useMemo(() => idx.corso.concetti
     .map((c) => {

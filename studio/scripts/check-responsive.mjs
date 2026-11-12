@@ -18,6 +18,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium, webkit, devices } from 'playwright';
+import { verificaVisita } from './visita-guidata-browser.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'dist');
 assert.ok(fs.existsSync(path.join(root, 'index.html')), 'Manca dist/: esegui prima npm run build.');
@@ -393,9 +394,9 @@ try {
     await p.tap('.mobile-glossary-sheet .mobile-map-done');
     controlli++;
 
-    // Altro: corso e invito WhatsApp raggiungibili anche senza barra laterale.
+    // Altro: corso raggiungibile anche senza barra laterale; l'invito WhatsApp per ora non c'è (tornerà come link al gruppo).
     await vaiA(p, '/altro');
-    if (!(await p.isVisible('.corso-switch-pagina')) || !(await p.isVisible('.invia-materiale-pagina'))) errori.push(`${etichetta}: in Altro mancano il corso o l'invito WhatsApp`);
+    if (!(await p.isVisible('.corso-switch-pagina')) || (await p.isVisible('.invia-materiale-pagina'))) errori.push(`${etichetta}: in Altro manca il corso o compare ancora l'invito WhatsApp`);
     controlli++;
 
     }
@@ -404,6 +405,21 @@ try {
     controlli++;
     await ctx.close();
     console.log(`Verificato ${etichetta}`);
+  }
+
+  // Visita guidata dall'inizio alla fine: PC, iPhone SE, iPhone 15 Pro, Pixel 7 e iPad (in parallelo).
+  if (!SOLO_LETTORE && !SOLO_ESAME) {
+    const giri = [['chromium', 'PC'], ['webkit', 'iPhone SE'], ['webkit', 'iPhone 15 Pro'], ['chromium', 'Pixel 7'], ['webkit', 'iPad Pro 11']]
+      .filter(([, n]) => !SOLO || SOLO.includes(n) || n === 'PC');
+    await avvia('chromium'); await avvia('webkit');
+    const esiti = await Promise.all(giri.map(async ([motore, nome], i) => {
+      const opz = nome === 'PC' ? { viewport: { width: 1366, height: 860 } } : devices[nome];
+      return verificaVisita(await avvia(motore), opz, BASE, `${nome} (${motore})`, {
+        telefono: opz.viewport.width < 700, touch: !!opz.hasTouch || opz.viewport.width <= 860, primaVisita: i < 2,
+      });
+    }));
+    for (const e of esiti) { errori.push(...e.errori); controlli += e.controlli; }
+    console.log(`Visita guidata verificata: ${giri.map(([, n], i) => `${n} ${esiti[i].tappe} tappe`).join(', ')}`);
   }
 
   // Movimento ridotto: transizioni e animazioni azzerate.

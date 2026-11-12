@@ -196,7 +196,6 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
           </a>
         </nav>
         <div className="side-foot">
-          <InviaMateriale corso={corso} />
           <a className={`search-btn demo-link${demo ? ' on' : ''}`} href={href('/demo')}><IurisMascot active={!demo} /> Demo interattiva</a>
         </div>
       </aside>
@@ -225,7 +224,9 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
   return <MobileNavigation.Provider value={{ openMenu: () => setMobilePanel('menu') }}><CorsoContext.Provider value={idx}>{body}</CorsoContext.Provider></MobileNavigation.Provider>;
 }
 
-/** Invito a mandare sbobine o materiale su WhatsApp, con il corso scelto già scritto nel messaggio. */
+/** Invito a mandare sbobine o materiale su WhatsApp, con il corso scelto già scritto nel messaggio.
+ *  Per ora non è mostrato: tornerà come link al gruppo della community, in alto a destra. */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function InviaMateriale({ corso, classe = '' }: { corso: CorsoDiStudio; classe?: string }) {
   return (
     <a className={`invia-materiale ${classe}`} href={linkMateriale(corso)} target="_blank" rel="noopener noreferrer"
@@ -325,7 +326,6 @@ function Altro({ corso, nav }: { corso: CorsoDiStudio; nav: typeof NAV }) {
     </nav>
     <h2 className="eyebrow" style={{ marginTop: 12 }}>Backup · tutte le materie</h2>
     <a className="card cta-card" href={href('/backup')}><Icon n="backup" size={22} /><b className="title-s">Backup completo</b><span className="small muted">Un solo file per progressi, segni e mappe personali di tutte le materie.</span></a>
-    <InviaMateriale corso={corso} classe="invia-materiale-pagina" />
     <a className="card cta-card" href={href('/demo')}><Icon n="demo" size={22} /><b className="title-s">Demo interattiva</b><span className="small muted">Scopri IURIS, dalle prime lezioni al backup.</span></a>
   </div>;
 }

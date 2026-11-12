@@ -226,8 +226,16 @@ try {
         }
         verifica(!pagina.length, `${dove}: errori in pagina: ${pagina.join(' | ')}`);
 
-        // Pannello della mappa nel lettore (anche nel foglio dal basso su iPad e telefono): stesso layout, schede in riga.
-        {
+        // Pannello della mappa nel lettore (PC e iPad, anche nel foglio dal basso): stesso layout, schede in riga.
+        // Sul telefono la Mappa personale si apre solo dalla sezione Mappa: nel lettore non c'è né il comando né il pannello.
+        if (cfg.telefono) {
+          await p.evaluate((d) => { location.hash = `#/originali?doc=${d}&modo=testo`; }, doc);
+          await p.waitForSelector('[data-lettura-block]', { timeout: 20000 });
+          await p.click('button[aria-label="Scegli testo e sezione"]'); await p.waitForTimeout(300);
+          verifica(await p.isVisible('.mobile-reader-sheet button[aria-label^="Segni salvati"]'), `${dove}: manca il foglio Testo del lettore`);
+          verifica(await p.locator('button[aria-label="Mappa personale"]').count() === 0, `${dove}: sul telefono il lettore non deve offrire la Mappa personale`);
+          verifica(await p.locator('.lettura-pannello-mappa').count() === 0, `${dove}: pannello della mappa aperto nel lettore del telefono`);
+        } else {
           await p.evaluate((d) => { location.hash = `#/originali?doc=${d}&modo=testo`; }, doc);
           await p.waitForSelector('[data-lettura-block]', { timeout: 20000 });
           if (!(await p.locator('button[aria-label="Mappa personale"]').first().isVisible())) { await p.click('button[aria-label="Scegli testo e sezione"]'); await p.waitForTimeout(300); }

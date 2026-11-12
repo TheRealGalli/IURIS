@@ -169,9 +169,8 @@ try {
     assert(app.includes("disabled={!corsoDisponibile(c)}") && app.includes("' · in arrivo'"), 'corsi in arrivo visibili ma non selezionabili');
     const piede = app.slice(app.indexOf('<div className="side-foot">'), app.indexOf('</aside>'));
     assert(!/Cerca|⌘K|setPalette/.test(piede), 'nella barra laterale non c\'è più il pulsante Cerca');
-    assert(piede.indexOf('<InviaMateriale') >= 0 && piede.indexOf('<InviaMateriale') < piede.indexOf('Demo interattiva'), 'invito al materiale sopra la demo');
+    assert(!piede.includes('<InviaMateriale'), 'invito WhatsApp tolto dalla barra laterale (tornerà come link al gruppo)');
     assert(/target="_blank" rel="noopener noreferrer"/.test(app), 'il link WhatsApp si apre in una nuova scheda');
-    assert(app.includes('<InviaMateriale corso={corso} classe="invia-materiale-pagina" />'), 'invito al materiale anche in Altro');
     assert(!/\{c\.universita\}<\/option>/.test(app), 'nell\'elenco dei corsi niente università');
     const css = fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
     assert(/\.materia-lista \{[^}]*display: grid;[^}]*grid-template-columns: repeat\(2,/.test(css), 'materie visibili in due colonne');

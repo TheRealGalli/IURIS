@@ -25,12 +25,12 @@
 .tour-bubble h2 { line-height: 1.25; font-size: 23px; }
 .tour-bubble h2:focus { outline: none; }
 .tour-copy { margin: 12px 0 18px; font-size: 14px; line-height: 1.65; color: var(--ink-2); }
-.tour-controls { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 8px; border-top: 1px solid var(--line); margin-top: 16px; padding-top: 12px; }
+.tour-controls { display: flex; justify-content: space-between; align-items: center; gap: 8px; border-top: 1px solid var(--line); margin-top: 16px; padding-top: 12px; }
 .tour-controls button, .tour-retry { display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-size: 12px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line-2); background: var(--surface); cursor: pointer; }
 .tour-controls button:disabled { opacity: .4; cursor: default; }
 .tour-controls .tour-next { margin-left: auto; background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .tour-retry { margin-bottom: 14px; }
-.tour-layer button:focus-visible, .tour-layer select:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.tour-layer button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 @media (max-width: 700px) {
   .shell-tour:not(.shell-reader) .main { padding-bottom: calc(60dvh + 96px); }
   .tour-bubble { max-height: min(58dvh, calc(100dvh - 100px)); padding: 16px; border-radius: 15px; }
@@ -43,8 +43,6 @@
 @media (prefers-reduced-motion: reduce) {
   .tour-layer * { animation: none !important; transition: none !important; }
 }
-
-.tour-chapters { width: 100%; min-width: 0; padding: 6px 4px; border: 0; border-radius: 5px; font: inherit; font-size: 12px; background: var(--surface); color: var(--ink-2); cursor: pointer; text-overflow: ellipsis; }
 
 /* Telefono e iPad: la pillola in alto copriva le barre degli strumenti; lo stato passa nella nuvoletta. */
 .tour-eyebrow-touch { display: none; }
@@ -63,3 +61,7 @@
   .tour-bubble h2 { font-size: 20px; }
   .tour-copy { margin: 8px 0 4px; }
 }
+
+/* Tappa «ponte» (telefono e iPad): indica il Menu in basso prima di cambiare sezione. */
+.tour-ponte .tour-spot { border-radius: 24px; animation: tour-ponte 1.4s ease-in-out infinite; }
+@keyframes tour-ponte { 50% { box-shadow: 0 0 0 9999px rgba(12,14,12,.48), 0 0 0 8px #ddb76b55; } }

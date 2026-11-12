@@ -6,6 +6,11 @@ export const COMPACT_QUERY = '(max-width: 860px), (max-width: 1280px) and (point
 const query = typeof window !== 'undefined' && typeof window.matchMedia === 'function' ? window.matchMedia(COMPACT_QUERY) : null;
 const subscribe = (cb: () => void) => { query?.addEventListener('change', cb); return () => query?.removeEventListener('change', cb); };
 export const useCompact = () => useSyncExternalStore(subscribe, () => query?.matches ?? false, () => false);
+/** Telefono: larghezza da telefono, o telefono in orizzontale (poco alto e touch). L'iPad resta fuori. */
+export const TELEFONO_QUERY = '(max-width: 700px), (max-height: 500px) and (pointer: coarse)';
+const queryTelefono = typeof window !== 'undefined' && typeof window.matchMedia === 'function' ? window.matchMedia(TELEFONO_QUERY) : null;
+const subscribeTelefono = (cb: () => void) => { queryTelefono?.addEventListener('change', cb); return () => queryTelefono?.removeEventListener('change', cb); };
+export const useTelefono = () => useSyncExternalStore(subscribeTelefono, () => queryTelefono?.matches ?? false, () => false);
 export const MobileNavigation = createContext({ openMenu: () => {} });
 export const useMobileNavigation = () => useContext(MobileNavigation);
 

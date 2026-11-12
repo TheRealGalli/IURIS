@@ -69,7 +69,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 /* ============ layout ============ */
 .shell { display: flex; min-height: 100vh; }
 .side {
-  width: 252px; flex: 0 0 252px; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  width: 252px; flex: 0 0 252px; position: sticky; top: 0; height: 100vh; overflow-y: auto; overscroll-behavior: contain;
   padding: 22px 14px 18px; border-right: 1px solid var(--line); background: var(--bg);
   display: flex; flex-direction: column; gap: 18px;
 }
@@ -701,3 +701,6 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
   .sd-testa .btn { min-width: 44px; min-height: 44px; }
   .sd-piede .btn { min-height: 44px; }
 }
+
+/* Barra laterale ferma: con finestre di altezza normale non scorre (solo l'elenco delle materie ha il suo scorrimento). */
+@media (min-height: 700px) { .side { overflow-y: hidden; } }
