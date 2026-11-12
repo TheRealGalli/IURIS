@@ -233,8 +233,10 @@
     {
       "id": "p054-b016",
       "pagina": 54,
-      "markdown": "- **Esterni**, che esprimono la volontà dell'ente o lo mettono in relazione con altri soggetti, e **interni**, la cui attività si esaurisce dentro l'ente.\n- Tra gli esterni, **primari**, con una competenza propria fissata dalla legge (il **prefetto**), e **secondari**, che sostituiscono altri organi assenti o impediti (il **viceprefetto**).\n- **Centrali**, con competenza su tutto il territorio nazionale (i **ministeri**), e **locali**, con competenza territorialmente limitata (gli **uffici periferici** dello Stato).\n- **Attivi**, che formano, manifestano o eseguono la volontà dell'ente (le **Camere**), e **consultivi**, che non decidono ma danno valutazioni tecniche attraverso **pareri**",
-      "concetti": []
+      "markdown": "- **Esterni**, che esprimono la volontà dell'ente o lo mettono in relazione con altri soggetti, e **interni**, la cui attività si esaurisce dentro l'ente.\n- Tra gli esterni, **primari**, con una competenza propria fissata dalla legge (il **prefetto**), e **secondari**, che sostituiscono altri organi assenti o impediti (il **viceprefetto**).\n- **Centrali**, con competenza su tutto il territorio nazionale (i **ministeri**), e **locali**, con competenza territorialmente limitata (gli **uffici periferici** dello Stato).\n- **Attivi**, che formano, manifestano o eseguono la volontà dell'ente (le **Camere**), e **consultivi**, che non decidono ma danno valutazioni tecniche attraverso **[[parere|pareri]]**",
+      "concetti": [
+        "parere"
+      ]
     },
     {
       "id": "p055-b001",
@@ -259,14 +261,19 @@
     {
       "id": "p055-b004",
       "pagina": 55,
-      "markdown": "- La conformità degli atti degli organi attivi alla legge (**controllo di legittimità**).\n- Oppure anche la loro opportunità e convenienza (**controllo di merito**).\n- Oppure il raggiungimento degli obiettivi fissati dalla legge, valutando costi, modi e tempi dell'azione amministrativa (**controllo di gestione**).",
-      "concetti": []
+      "markdown": "- La conformità degli atti degli organi attivi alla legge (**[[controllo-di-legittimita|controllo di legittimità]]**).\n- Oppure anche la loro opportunità e convenienza (**[[controllo-di-merito|controllo di merito]]**).\n- Oppure il raggiungimento degli obiettivi fissati dalla legge, valutando costi, modi e tempi dell'azione amministrativa (**controllo di gestione**).",
+      "concetti": [
+        "controllo-di-legittimita",
+        "controllo-di-merito"
+      ]
     },
     {
       "id": "p055-b005",
       "pagina": 55,
       "markdown": "**Nel percorso A-L.** Per i **pareri** si pongono due domande distinte: **va chiesto? va seguito?** Il parere **facoltativo** si può chiedere; quello **obbligatorio** si deve chiedere; quello **vincolante** si deve anche seguire. L'obbligo di chiederlo non comporta, da solo, quello di conformarvisi.",
-      "concetti": []
+      "concetti": [
+        "parere"
+      ]
     },
     {
       "id": "p055-b006",

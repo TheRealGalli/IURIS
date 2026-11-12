@@ -71,8 +71,9 @@
     {
       "id": "p002-b008",
       "pagina": 2,
-      "markdown": "- **Interessi individuali**: appartengono al singolo e possono essere anche del tutto egoistici.\n- **[[interesse-collettivo|Interessi collettivi]]**: si possono soddisfare soltanto, o soprattutto, attraverso l'azione associata di più persone.\n- **[[interesse-generale|Interesse generale]]**: si ottiene guardando al gruppo come a un'entità autonoma, separata dai singoli che lo compongono. Non appartiene a nessuno di loro e li supera, ma resta pur sempre riferito alla persona umana e all'ambiente in cui essa vive e opera.",
+      "markdown": "- **[[interesse-individuale|Interessi individuali]]**: appartengono al singolo e possono essere anche del tutto egoistici.\n- **[[interesse-collettivo|Interessi collettivi]]**: si possono soddisfare soltanto, o soprattutto, attraverso l'azione associata di più persone.\n- **[[interesse-generale|Interesse generale]]**: si ottiene guardando al gruppo come a un'entità autonoma, separata dai singoli che lo compongono. Non appartiene a nessuno di loro e li supera, ma resta pur sempre riferito alla persona umana e all'ambiente in cui essa vive e opera.",
       "concetti": [
+        "interesse-individuale",
         "interesse-collettivo",
         "interesse-generale"
       ]
@@ -129,6 +130,7 @@
       "pagina": 2,
       "markdown": "Gli interessi umani si possono quindi disporre su una scala: si parte dall'interesse individuale egoistico, si passa per quello collettivo e si arriva all'interesse generale, che comprende in sé tutti gli altri.",
       "concetti": [
+        "interesse-individuale",
         "interesse-generale"
       ]
     },

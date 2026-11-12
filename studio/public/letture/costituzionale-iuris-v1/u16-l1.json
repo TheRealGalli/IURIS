@@ -110,8 +110,9 @@
     {
       "id": "p146-b010",
       "pagina": 146,
-      "markdown": "L'art. 1 dell'ordinamento giudiziario elenca chi amministra la giustizia nelle materie civili e penali: **giudice di pace**, **tribunale ordinario**, **Corte d'appello**, **[[corte-di-cassazione|Corte di cassazione]]**, **tribunale per i minorenni**, **magistrato di sorveglianza** e **tribunale di sorveglianza**. Sono i **[[magistratura|magistrati ordinari]]**, civili e penali: gli organi giudicanti che fanno capo, per la loro carriera, al CSM.",
+      "markdown": "L'art. 1 dell'ordinamento giudiziario elenca chi amministra la giustizia nelle materie civili e penali: **[[giudice-di-pace|giudice di pace]]**, **tribunale ordinario**, **Corte d'appello**, **[[corte-di-cassazione|Corte di cassazione]]**, **tribunale per i minorenni**, **magistrato di sorveglianza** e **tribunale di sorveglianza**. Sono i **[[magistratura|magistrati ordinari]]**, civili e penali: gli organi giudicanti che fanno capo, per la loro carriera, al CSM.",
       "concetti": [
+        "giudice-di-pace",
         "corte-di-cassazione",
         "magistratura"
       ]
@@ -152,7 +153,9 @@
       "id": "p146-b015",
       "pagina": 146,
       "markdown": "**Nel percorso A-L.** Il sistema si presenta come un insieme di più giurisdizioni accanto a quella ordinaria: amministrativa, contabile, **tributaria** e militare, ciascuna con competenze fissate dalla legge. Il giudice ordinario opera con organi **giudicanti** e organi **requirenti** (i pubblici ministeri). In materia civile il primo grado spetta al giudice di pace o al tribunale; l'appello contro il giudice di pace va al tribunale, quello contro le sentenze di primo grado del tribunale alla Corte d'appello. In materia penale giudicano in primo grado giudice di pace, tribunale, tribunale per i minorenni e Corte d'assise; in secondo grado Corte d'appello e Corte d'assise d'appello. Il **tribunale del riesame** (o della libertà) controlla le misure cautelari e non è un ordinario giudice d'appello sulle condanne.",
-      "concetti": []
+      "concetti": [
+        "giudice-di-pace"
+      ]
     },
     {
       "id": "p146-b016",
@@ -310,9 +313,10 @@
     {
       "id": "p147-b015",
       "pagina": 147,
-      "markdown": "**Nel percorso A-L.** L'art. 25 contiene altre due garanzie, distinte dal [[giudice-naturale|giudice naturale]]. Nessuno può essere punito se non in base a una legge entrata in vigore **prima** del fatto commesso: una legge penale successiva non può rendere punibile all'indietro una condotta che, quando fu tenuta, era lecita (**irretroattività**). Inoltre nessuno può subire **misure di sicurezza** fuori dai casi previsti dalla legge.",
+      "markdown": "**Nel percorso A-L.** L'art. 25 contiene altre due garanzie, distinte dal [[giudice-naturale|giudice naturale]]. Nessuno può essere punito se non in base a una legge entrata in vigore **prima** del fatto commesso: una legge penale successiva non può rendere punibile all'indietro una condotta che, quando fu tenuta, era lecita (**irretroattività**). Inoltre nessuno può subire **[[misure-di-sicurezza|misure di sicurezza]]** fuori dai casi previsti dalla legge.",
       "concetti": [
-        "giudice-naturale"
+        "giudice-naturale",
+        "misure-di-sicurezza"
       ]
     },
     {

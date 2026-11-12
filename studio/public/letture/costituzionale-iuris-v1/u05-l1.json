@@ -48,8 +48,9 @@
     {
       "id": "p037-b006",
       "pagina": 37,
-      "markdown": "- **Originarietà.** L'ordinamento non deve dipendere da nessun altro per le sue regole istituzionali e organizzative. Se trae da un altro ordinamento, del tutto o in parte, la propria validità, non è uno Stato nel senso attuale del termine, ma un ente di altro tipo, come una Regione, una Provincia o un Comune.\n- **Apparato autoritario preminente.** Lo Stato deve disporre di un apparato capace di individuare e scegliere gli interessi da tutelare, di comporre quelli in conflitto e di garantire la convivenza pacifica dei consociati.\n- **Base territoriale.** Serve un elemento materiale al quale riferire gli interessi. Non si può concepire uno Stato privo di territorio: gli mancherebbe un fattore essenziale di coesione e di stabilità.",
+      "markdown": "- **[[originarieta|Originarietà]].** L'ordinamento non deve dipendere da nessun altro per le sue regole istituzionali e organizzative. Se trae da un altro ordinamento, del tutto o in parte, la propria validità, non è uno Stato nel senso attuale del termine, ma un ente di altro tipo, come una Regione, una Provincia o un Comune.\n- **Apparato autoritario preminente.** Lo Stato deve disporre di un apparato capace di individuare e scegliere gli interessi da tutelare, di comporre quelli in conflitto e di garantire la convivenza pacifica dei consociati.\n- **Base territoriale.** Serve un elemento materiale al quale riferire gli interessi. Non si può concepire uno Stato privo di territorio: gli mancherebbe un fattore essenziale di coesione e di stabilità.",
       "concetti": [
+        "originarieta",
         "stato"
       ]
     },
@@ -63,13 +64,16 @@
       "id": "p037-b008",
       "pagina": 37,
       "markdown": "### Gli Stati esigui",
-      "concetti": []
+      "concetti": [
+        "stati-esigui"
+      ]
     },
     {
       "id": "p037-b009",
       "pagina": 37,
-      "markdown": "Lo **Stato della Città del Vaticano**, la **Repubblica di San Marino** e il **Principato di Monaco** sono i cosiddetti **Stati esigui**. Il primo nasce da un **compromesso politico** volto a garantire alla Chiesa uno spazio di sovranità territoriale; gli altri due sono **residui storici** di antiche indipendenze.",
+      "markdown": "Lo **Stato della Città del Vaticano**, la **Repubblica di San Marino** e il **[[stati-esigui|Principato di Monaco]]** sono i cosiddetti **Stati esigui**. Il primo nasce da un **compromesso politico** volto a garantire alla Chiesa uno spazio di sovranità territoriale; gli altri due sono **residui storici** di antiche indipendenze.",
       "concetti": [
+        "stati-esigui",
         "stato"
       ]
     },
@@ -86,6 +90,7 @@
       "pagina": 37,
       "markdown": "In prima approssimazione, lo Stato si può descrivere come un **ordinamento originario, che persegue fini generali e dispone di un apparato autoritario sovraordinato** a quelli degli altri gruppi.",
       "concetti": [
+        "originarieta",
         "stato"
       ]
     },
@@ -366,9 +371,10 @@
     {
       "id": "p039-b015",
       "pagina": 39,
-      "markdown": "L'espressione **[[stato-di-diritto|Stato di diritto]]**, legata al pensiero di **Montesquieu** e al suo *Lo spirito delle leggi* (1748), indica che **ogni potere pubblico è soggetto al diritto**: è la fine del sovrano *legibus solutus*. Vi contribuirono le **dottrine liberali** sviluppate fra XVIII secolo d.C. e XIX secolo d.C., che volevano circoscrivere l'azione dello Stato verso il singolo e ripartire il potere tra più organi, per impedire gli abusi sempre possibili quando l'autorità è concentrata in un unico organo. Nello Stato di diritto nasce così la **[[separazione-dei-poteri|divisione dei poteri]]** in tre: quello legislativo, quello esecutivo e quello giudiziario.",
+      "markdown": "L'espressione **[[stato-di-diritto|Stato di diritto]]**, legata al pensiero di **[[montesquieu|Montesquieu]]** e al suo *Lo spirito delle leggi* (1748), indica che **ogni potere pubblico è soggetto al diritto**: è la fine del sovrano *legibus solutus*. Vi contribuirono le **dottrine liberali** sviluppate fra XVIII secolo d.C. e XIX secolo d.C., che volevano circoscrivere l'azione dello Stato verso il singolo e ripartire il potere tra più organi, per impedire gli abusi sempre possibili quando l'autorità è concentrata in un unico organo. Nello Stato di diritto nasce così la **[[separazione-dei-poteri|divisione dei poteri]]** in tre: quello legislativo, quello esecutivo e quello giudiziario.",
       "concetti": [
         "stato-di-diritto",
+        "montesquieu",
         "separazione-dei-poteri",
         "stato"
       ]
@@ -402,10 +408,11 @@
     {
       "id": "p040-b003",
       "pagina": 40,
-      "markdown": "**Nel percorso A-L.** Lo **[[stato-liberale|Stato liberale]]** nasce con l'ascesa della borghesia e del capitalismo: il mercato chiede proprietà protetta, scambi prevedibili, libertà contrattuale ed **eguaglianza giuridica** dei contraenti. Il modello dello **Stato minimo** affida ai poteri pubblici soprattutto sicurezza, giustizia, difesa e garanzia dell'ordine economico. Le **codificazioni** civili danno regole generali e astratte; il **[[principio-di-legalita|principio di legalità]]** vieta di restringere la libertà senza base giuridica; la legge votata dai rappresentanti della nazione ha funzione di garanzia. Il limite è il **suffragio ristretto**, spesso censitario: per questo lo si chiama Stato **monoclasse**.",
+      "markdown": "**Nel percorso A-L.** Lo **[[stato-liberale|Stato liberale]]** nasce con l'ascesa della borghesia e del capitalismo: il mercato chiede proprietà protetta, scambi prevedibili, libertà contrattuale ed **eguaglianza giuridica** dei contraenti. Il modello dello **Stato minimo** affida ai poteri pubblici soprattutto sicurezza, giustizia, difesa e garanzia dell'ordine economico. Le **codificazioni** civili danno regole generali e astratte; il **[[principio-di-legalita|principio di legalità]]** vieta di restringere la libertà senza base giuridica; la legge votata dai rappresentanti della nazione ha funzione di garanzia. Il limite è il **[[suffragio-universale|suffragio ristretto]]**, spesso censitario: per questo lo si chiama Stato **monoclasse**.",
       "concetti": [
         "stato-liberale",
         "principio-di-legalita",
+        "suffragio-universale",
         "stato"
       ]
     },
@@ -422,7 +429,9 @@
       "id": "p040-b005",
       "pagina": 40,
       "markdown": "- l'**estensione progressiva del suffragio**, fino al **suffragio universale**, che in Italia si applica a partire dalle elezioni del 1946;\n- la nascita, accanto ai partiti di notabili (di élite), dei **partiti di massa**.",
-      "concetti": []
+      "concetti": [
+        "suffragio-universale"
+      ]
     },
     {
       "id": "p040-b006",
@@ -493,6 +502,7 @@
         "stato-sociale",
         "sussidiarieta",
         "terzo-settore",
+        "suffragio-universale",
         "pluralismo",
         "stato"
       ]

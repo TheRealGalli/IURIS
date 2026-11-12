@@ -114,6 +114,16 @@ try {
     const q = lib.proiettaSegnoTesto(s, [b], 1, { da: 4, a: 6 });
     assert.equal(q.stato, 'proiettato'); assert.equal(q.ancore[0].blocco, b.id);
   });
+  await check('Pagina divisa fra due sezioni: il segno della prima è fuori sezione nella seconda, non da verificare', () => {
+    const a = blocco('Fine della lezione precedente.', 6, 'p006-b003'), b = blocco('Inizio della lezione.', 6, 'p006-b014');
+    const s = { ...legacy(a.testo, 6), rettangoli: [], ancoreTesto: [lib.creaAncoraTesto(a, 0, a.testo.length, 1)] };
+    const altrove = (id) => id < 'p006-b014';
+    assert.equal(lib.proiettaSegnoTesto(s, [b], 1, { da: 6, a: 7 }).stato, 'da-verificare', 'senza confini noti resta da verificare');
+    assert.equal(lib.proiettaSegnoTesto(s, [b], 1, { da: 6, a: 7 }, altrove).stato, 'fuori-sezione');
+    assert.equal(lib.proiettaSegniTesto([s], [a], 1, { da: 5, a: 6 }, (id) => id >= 'p006-b014')[0].stato, 'proiettato');
+    // un blocco della sezione che manca davvero resta da verificare
+    assert.equal(lib.proiettaSegnoTesto({ ...s, ancoreTesto: [{ ...s.ancoreTesto[0], blocco: 'p006-b020' }] }, [b], 1, { da: 6, a: 7 }, altrove).stato, 'da-verificare');
+  });
   await check('Intersezione della gomma e concetti di contesto ignorano bordi e segni non risolti', () => {
     const b = blocco('Dovere giuridico e relazione.'), a = lib.creaAncoraTesto(b, 0, 15, 1);
     const s = { ...legacy(a.citazione), rettangoli: [], ancoreTesto: [a] };

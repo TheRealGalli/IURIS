@@ -19,14 +19,16 @@
     {
       "id": "p150-b011",
       "pagina": 150,
-      "markdown": "| [[funzione-giurisdizionale|Giurisdizione]] | Organi |\n|---|---|\n| Civile | giudici di pace, tribunale, Corte d'appello, [[corte-di-cassazione|Corte di cassazione]] (tutti magistrati ordinari) |\n| Penale | giudici di pace, tribunale, Corte d'assise e Corte d'appello, Cassazione; inoltre tribunali militari, Camere in seduta comune (accusa) e [[corte-costituzionale|Corte costituzionale]] (giudizio) per i reati del [[presidente-della-repubblica|Presidente della Repubblica]] |\n| Amministrativa | [[consiglio-di-stato|Consiglio di Stato]], [[corte-dei-conti|Corte dei conti]], TAR, Consiglio di giustizia amministrativa siciliano, tribunale regionale di giustizia amministrativa del Trentino-Alto Adige |\n| Costituzionale | Corte costituzionale: legittimità di leggi e atti con forza di legge, conflitti di attribuzione, [[ammissibilita-referendum|ammissibilità del referendum]] abrogativo |",
+      "markdown": "| [[funzione-giurisdizionale|Giurisdizione]] | Organi |\n|---|---|\n| Civile | giudici di pace, tribunale, Corte d'appello, [[corte-di-cassazione|Corte di cassazione]] (tutti [[giurisdizione-ordinaria|magistrati ordinari]]) |\n| Penale | giudici di pace, tribunale, Corte d'assise e Corte d'appello, Cassazione; inoltre tribunali militari, Camere in seduta comune (accusa) e [[corte-costituzionale|Corte costituzionale]] (giudizio) per i reati del [[presidente-della-repubblica|Presidente della Repubblica]] |\n| Amministrativa | [[consiglio-di-stato|Consiglio di Stato]], [[corte-dei-conti|Corte dei conti]], TAR, Consiglio di [[giurisdizione-amministrativa|giustizia amministrativa]] siciliano, tribunale regionale di giustizia amministrativa del Trentino-Alto Adige |\n| Costituzionale | Corte costituzionale: legittimità di leggi e atti con forza di legge, conflitti di attribuzione, [[ammissibilita-referendum|ammissibilità del referendum]] abrogativo |",
       "concetti": [
         "funzione-giurisdizionale",
         "corte-di-cassazione",
+        "giurisdizione-ordinaria",
         "corte-costituzionale",
         "presidente-della-repubblica",
         "consiglio-di-stato",
         "corte-dei-conti",
+        "giurisdizione-amministrativa",
         "ammissibilita-referendum",
         "referendum-abrogativo"
       ]
@@ -37,6 +39,7 @@
       "markdown": "**Nel percorso A-L.** Al vertice della giurisdizione ordinaria sta la **[[corte-di-cassazione|Corte di cassazione]]**. È **giudice di legittimità**: conosce soltanto delle violazioni di legge e non riesamina liberamente i fatti, sicché non è un terzo grado di merito. Garantisce l'uniforme interpretazione del diritto e, a **Sezioni unite**, decide sia le questioni di competenza fra giudici ordinari sia quelle di giurisdizione tra giudice ordinario e giudici speciali.",
       "concetti": [
         "corte-di-cassazione",
+        "giurisdizione-ordinaria",
         "funzione-giurisdizionale"
       ]
     },
@@ -44,19 +47,27 @@
       "id": "p150-b013",
       "pagina": 150,
       "markdown": "### Il riparto tra giudice ordinario e giudice amministrativo",
-      "concetti": []
+      "concetti": [
+        "giurisdizione-amministrativa",
+        "giurisdizione-ordinaria"
+      ]
     },
     {
       "id": "p150-b014",
       "pagina": 150,
       "markdown": "Quando un cittadino lamenta che la pubblica amministrazione ha leso una sua situazione giuridica, occorre stabilire se debba rivolgersi al giudice ordinario (civile) o a quello amministrativo. Il criterio di fondo assegna al **giudice ordinario** le cause…",
-      "concetti": []
+      "concetti": [
+        "giurisdizione-ordinaria"
+      ]
     },
     {
       "id": "p151-b001",
       "pagina": 151,
       "markdown": "### Diritti al giudice ordinario, interessi al giudice amministrativo",
-      "concetti": []
+      "concetti": [
+        "giurisdizione-amministrativa",
+        "giurisdizione-ordinaria"
+      ]
     },
     {
       "id": "p151-b002",
@@ -64,7 +75,8 @@
       "markdown": "…in cui si lamenta la lesione di un **[[diritto-soggettivo|diritto soggettivo]]** da parte di un atto amministrativo, che si sostiene **illegittimo**; al **giudice amministrativo** quelle in cui è leso un **[[interesse-legittimo|interesse legittimo]]**.",
       "concetti": [
         "diritto-soggettivo",
-        "interesse-legittimo"
+        "interesse-legittimo",
+        "giurisdizione-amministrativa"
       ]
     },
     {
@@ -74,7 +86,8 @@
       "concetti": [
         "diritto-soggettivo",
         "separazione-dei-poteri",
-        "funzione-giurisdizionale"
+        "funzione-giurisdizionale",
+        "giurisdizione-ordinaria"
       ]
     },
     {
@@ -82,7 +95,8 @@
       "pagina": 151,
       "markdown": "La [[corte-costituzionale|Corte costituzionale]] (sent. 275 del 2001) ha però chiarito che questo divieto tradizionale **non ha rango costituzionale**: è il legislatore a scegliere, con discrezionalità, se dare il potere di annullare al giudice amministrativo o a quello ordinario.",
       "concetti": [
-        "corte-costituzionale"
+        "corte-costituzionale",
+        "giurisdizione-amministrativa"
       ]
     },
     {
@@ -120,7 +134,9 @@
       "id": "p151-b009",
       "pagina": 151,
       "markdown": "- all'opposto, al **giudice ordinario** spettano tutte le controversie sul **rapporto di lavoro dei dipendenti pubblici**.",
-      "concetti": []
+      "concetti": [
+        "giurisdizione-ordinaria"
+      ]
     },
     {
       "id": "p151-b010",
@@ -138,7 +154,9 @@
       "concetti": [
         "diritto-soggettivo",
         "giurisdizione-esclusiva",
+        "giurisdizione-amministrativa",
         "interesse-legittimo",
+        "giurisdizione-ordinaria",
         "funzione-giurisdizionale"
       ]
     },
@@ -158,6 +176,7 @@
       "concetti": [
         "consiglio-di-stato",
         "giurisdizione-di-merito",
+        "giurisdizione-amministrativa",
         "funzione-giurisdizionale"
       ]
     },
@@ -220,7 +239,10 @@
       "id": "p152-b002",
       "pagina": 152,
       "markdown": "…può essere fatto valere davanti al giudice ordinario; può trovare protezione anche davanti al giudice amministrativo, specie quando a farlo valere sono associazioni o comitati.",
-      "concetti": []
+      "concetti": [
+        "giurisdizione-amministrativa",
+        "giurisdizione-ordinaria"
+      ]
     },
     {
       "id": "p152-b003",
@@ -235,7 +257,8 @@
       "pagina": 152,
       "markdown": "Il cittadino non si difende dagli atti della pubblica amministrazione soltanto rivolgendosi ai giudici, ordinari o speciali. Esistono anche i **[[ricorsi-amministrativi|ricorsi amministrativi]]**. In senso ampio rientrano nella «giustizia amministrativa», ma **non sono giurisdizionali**: si presentano alla stessa amministrazione, e chi li decide non ha la posizione di **imparzialità** che è propria del giudice.",
       "concetti": [
-        "ricorsi-amministrativi"
+        "ricorsi-amministrativi",
+        "giurisdizione-amministrativa"
       ]
     },
     {

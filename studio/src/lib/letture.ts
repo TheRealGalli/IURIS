@@ -78,7 +78,10 @@ function indicizzaTesto(testo: string): TestoIndicizzato {
 export const normalizzaTestoLettura = (testo: string): string => indicizzaTesto(testo).testo;
 
 function occorrenze(testo: string, citazione: string): { inizio: number; fine: number }[] {
-  const indice = indicizzaTesto(testo), query = normalizzaTestoLettura(citazione);
+  return occorrenzeIn(indicizzaTesto(testo), normalizzaTestoLettura(citazione));
+}
+/** Come `occorrenze`, con testo già indicizzato e citazione già normalizzata (ricerche ripetute sugli stessi blocchi). */
+function occorrenzeIn(indice: TestoIndicizzato, query: string): { inizio: number; fine: number }[] {
   if (!query) return [];
   const trovate: { inizio: number; fine: number }[] = [];
   for (let da = 0; da <= indice.testo.length - query.length;) {
@@ -105,7 +108,9 @@ function compatta(testo: string): { car: string[]; pos: number[] } {
 }
 const compatti = new WeakMap<TestoIndicizzato, { car: string[]; pos: number[] }>();
 function occorrenzeElastiche(testo: string, citazione: string): { inizio: number; fine: number }[] {
-  const indice = indicizzaTesto(testo), q = compatta(normalizzaTestoLettura(citazione)).car.join('');
+  return occorrenzeElasticheIn(indicizzaTesto(testo), compatta(normalizzaTestoLettura(citazione)).car.join(''));
+}
+function occorrenzeElasticheIn(indice: TestoIndicizzato, q: string): { inizio: number; fine: number }[] {
   if (q.length < 8) return [];
   let c = compatti.get(indice); if (!c) { c = compatta(indice.testo); compatti.set(indice, c); }
   const { car, pos } = c;
@@ -154,25 +159,44 @@ function paginaBlocco(id: string): number | null {
   const m = /^(?:manuale-[a-z0-9-]+-)?p(\d+)-/.exec(id); return m ? Number(m[1]) : null;
 }
 
+type IntervalloSezione = { da: number; a: number; tipoFonte?: 'manuale-ricostruito' };
+/** Dati della sezione che non dipendono dal segno: calcolati una volta per tutti i segni (vedi `proiettaSegniTesto`). */
+interface ContestoProiezione {
+  blocchi: BloccoTestoLettura[]; byId: Map<string, BloccoTestoLettura>; range: { da: number; a: number } | null;
+  soloManuale: boolean; intervallo?: IntervalloSezione;
+  /** Il blocco (assente qui) sta in un'altra sezione che condivide la pagina: il segno è fuori sezione, non da verificare. */
+  altrove?: (blocco: string) => boolean;
+}
+function contestoProiezione(blocchi: BloccoTestoLettura[], intervallo?: IntervalloSezione, altrove?: (blocco: string) => boolean): ContestoProiezione {
+  let da = Infinity, a = -Infinity;
+  for (const b of blocchi) { if (b.pagina < da) da = b.pagina; if (b.pagina > a) a = b.pagina; }
+  return { blocchi, byId: new Map(blocchi.map((b) => [b.id, b])), range: intervallo ?? (blocchi.length ? { da, a } : null),
+    soloManuale: blocchi.length > 0 && blocchi.every((b) => b.id.startsWith('manuale-')), intervallo, altrove };
+}
+
 /**
  * Non migra né modifica il segno salvato: restituisce solo intervalli verificati
  * nel testo visibile. Se la citazione è stata rettificata, resta da verificare.
+ * `altrove`: vero per i blocchi di un'altra sezione dello stesso documento (pagine condivise tra due sezioni).
  */
-export function proiettaSegnoTesto(segno: SegnoOriginale, blocchi: BloccoTestoLettura[], edizione: number, intervallo?: { da: number; a: number; tipoFonte?: 'manuale-ricostruito' }): ProiezioneSegnoTesto {
+export function proiettaSegnoTesto(segno: SegnoOriginale, blocchi: BloccoTestoLettura[], edizione: number, intervallo?: IntervalloSezione, altrove?: (blocco: string) => boolean): ProiezioneSegnoTesto {
+  return proietta(segno, contestoProiezione(blocchi, intervallo, altrove), edizione);
+}
+function proietta(segno: SegnoOriginale, ctx: ContestoProiezione, edizione: number): ProiezioneSegnoTesto {
+  const { blocchi, range, intervallo } = ctx;
   const origine = segno.ancoreTesto?.length ? 'testo' : 'pdf';
-  const range = intervallo ?? (blocchi.length ? { da: Math.min(...blocchi.map((b) => b.pagina)), a: Math.max(...blocchi.map((b) => b.pagina)) } : null);
   const fuori = (pagina: number) => !!range && (pagina < range.da || pagina > range.a);
   const risultato = (stato: ProiezioneSegnoTesto['stato'], ancore: AncoraTesto[] = [], parziale = false): ProiezioneSegnoTesto => ({ stato, origine, ancore, ...(parziale ? { parziale: true } : {}) });
-  if (origine === 'pdf' && (intervallo?.tipoFonte === 'manuale-ricostruito' || blocchi.length > 0 && blocchi.every((b) => b.id.startsWith('manuale-')))) return risultato('fuori-sezione');
+  if (origine === 'pdf' && (intervallo?.tipoFonte === 'manuale-ricostruito' || ctx.soloManuale)) return risultato('fuori-sezione');
   if (origine === 'testo') {
-    const byId = new Map(blocchi.map((b) => [b.id, b]));
+    const byId = ctx.byId;
     const ancore: AncoraTesto[] = [];
     let fuoriSezione = 0;
     for (const a of segno.ancoreTesto!) {
       const blocco = byId.get(a.blocco);
       if (!blocco) {
         const pagina = paginaBlocco(a.blocco);
-        if (pagina !== null && fuori(pagina)) { fuoriSezione++; continue; }
+        if (pagina !== null && (fuori(pagina) || ctx.altrove?.(a.blocco))) { fuoriSezione++; continue; }
         return risultato('da-verificare');
       }
       const ritrovata = ritrovaAncora(blocco, a, edizione);
@@ -207,9 +231,12 @@ export function proiettaSegnoTesto(segno: SegnoOriginale, blocchi: BloccoTestoLe
  * paragrafi della sezione, anche se il blocco o il contesto sono cambiati. Solo occorrenze uniche; altrimenti null.
  */
 export function ritrovaNellaSezione(citazione: string, blocchi: BloccoTestoLettura[], edizione: number): AncoraTesto[] | null {
+  // Ogni blocco si indicizza una volta sola per tutte le ricerche (prima: una volta per blocco e per tratto cercato).
+  const indici = blocchi.map((b) => indicizzaTesto(b.testo));
   const cerca = (q: string) => {
-    const esatte = blocchi.flatMap((b) => occorrenze(b.testo, q).map((r) => ({ b, ...r })));
-    const trovate = esatte.length ? esatte : blocchi.flatMap((b) => occorrenzeElastiche(b.testo, q).map((r) => ({ b, ...r })));
+    const norm = normalizzaTestoLettura(q), compattata = compatta(norm).car.join('');
+    const esatte = blocchi.flatMap((b, i) => occorrenzeIn(indici[i], norm).map((r) => ({ b, ...r })));
+    const trovate = esatte.length ? esatte : blocchi.flatMap((b, i) => occorrenzeElasticheIn(indici[i], compattata).map((r) => ({ b, ...r })));
     return trovate.length === 1 ? creaAncoraTesto(trovate[0].b, trovate[0].inizio, trovate[0].fine, edizione) : null;
   };
   const pezzi = citazione.split(/\n\s*\n/).map((x) => x.trim()).filter((x) => x.length >= 3);
@@ -226,8 +253,9 @@ export function ritrovaNellaSezione(citazione: string, blocchi: BloccoTestoLettu
   return null;
 }
 
-export function proiettaSegniTesto(segni: SegnoOriginale[], blocchi: BloccoTestoLettura[], edizione: number, intervallo?: { da: number; a: number; tipoFonte?: 'manuale-ricostruito' }): SegnoTestoProiettato[] {
-  return segni.map((segno) => ({ segno, ...proiettaSegnoTesto(segno, blocchi, edizione, intervallo) }));
+export function proiettaSegniTesto(segni: SegnoOriginale[], blocchi: BloccoTestoLettura[], edizione: number, intervallo?: IntervalloSezione, altrove?: (blocco: string) => boolean): SegnoTestoProiettato[] {
+  const ctx = contestoProiezione(blocchi, intervallo, altrove);
+  return segni.map((segno) => ({ segno, ...proietta(segno, ctx, edizione) }));
 }
 
 export const ancoreSiToccano = (a: AncoraTesto, b: AncoraTesto): boolean => a.blocco === b.blocco && Math.min(a.fine, b.fine) > Math.max(a.inizio, b.inizio);

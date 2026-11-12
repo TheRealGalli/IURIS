@@ -8,7 +8,7 @@ import { href, vai } from '../lib/router';
 import { COLORI_SEGNO, cronologiaSegni, type DocumentoOriginale, type SegnoOriginale } from '../lib/originali';
 import { aggiungiSegnoTestoOriginale, annullaSegnoOriginale, ripristinaSegnoOriginale, rimuoviSegniOriginali, salvaSezioneTestoOriginale, segnaStudiata, useProgresso } from '../lib/store';
 import { idsSegniNellaSelezioneTesto, proiettaSegniTesto, statoStudioSezione, type DocumentoLettura, type SezioneLettura, type IndiceSezioneLettura } from '../lib/letture';
-import { caricaSezioneLettura, catturaAncoreTesto, creaAnteprimaTestoNativa, htmlConSegni, linkTesto, preparaBlocchi, rettangoliRangeTesto, sezionePerPagina, type BloccoPronto, type SegnoBlocco } from '../lib/letture-client';
+import { bloccoInAltraSezione, caricaSezioneLettura, catturaAncoreTesto, creaAnteprimaTestoNativa, htmlConSegni, linkTesto, preparaBlocchi, rettangoliRangeTesto, sezionePerPagina, type BloccoPronto, type SegnoBlocco } from '../lib/letture-client';
 import { useMappaGeometrica } from '../lib/letture-hooks';
 import MappaGeometrica from '../components/MappaGeometrica';
 import { ordinaSegniNelTesto } from '../lib/ordine-segni';
@@ -33,6 +33,12 @@ const Paragrafo = memo(function Paragrafo({ blocco, segni }: { blocco: BloccoPro
     {blocco.notaAggiornamento && !!blocco.testo.trim() && <details className="lettura-nota"><summary>Aggiornamento</summary><p>{blocco.notaAggiornamento}</p></details>}
   </section>;
 });
+
+/** La mappa personale si calcola solo a pannello aperto: carica e proietta i segni di tutte le sezioni annotate. */
+function PannelloMappa({ chiave, onApri }: { chiave: string; onApri: (h: string) => void }) {
+  const geo = useMappaGeometrica();
+  return <MappaGeometrica compatta sezioni={geo.sezioni} totale={geo.totale} nonCollegati={geo.nonCollegati} sezioneIniziale={chiave} onApri={onApri} />;
+}
 
 export default function LettoreTesto({ doc, documento, documenti, scegli, sezioneId, bloccoFocus, segnoFocus, paginaFocus, indiceAperto, onIndice }: {
   doc: DocumentoOriginale; documento: DocumentoLettura; documenti: DocumentoOriginale[];
@@ -70,7 +76,6 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
   const fineGesto = useRef<ReturnType<typeof setTimeout>>(), posizioneTimer = useRef<ReturnType<typeof setTimeout>>();
   const ultimoBlocco = useRef(lettura?.sezioneTesto === meta.id ? lettura.bloccoTesto : undefined);
   const scrollFrame = useRef(0), pronto = useRef(false), primaPosizione = useRef(ultimoBlocco.current);
-  const geo = useMappaGeometrica();
   const pop = useConceptPop(articolo, { rispettaSelezione: true });
 
   useEffect(() => {
@@ -79,7 +84,8 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
     return () => { annullato = true; };
   }, [meta, tentativo]);
   const blocchi = useMemo(() => sezione ? preparaBlocchi(sezione, idx.concettoById, idx.corso.norme) : [], [sezione, idx]);
-  const proiezioni = useMemo(() => proiettaSegniTesto(segniVisibili, blocchi, documento.edizione, meta), [segniVisibili, blocchi, documento.edizione, meta]);
+  const altrove = useMemo(() => bloccoInAltraSezione(documento, meta.id), [documento, meta.id]);
+  const proiezioni = useMemo(() => proiettaSegniTesto(segniVisibili, blocchi, documento.edizione, meta, altrove), [segniVisibili, blocchi, documento.edizione, meta, altrove]);
   const perBlocco = useMemo(() => {
     const m = new Map<string, SegnoBlocco[]>();
     for (const pr of proiezioni) if (pr.stato === 'proiettato') for (const a of pr.ancore) {
@@ -386,7 +392,7 @@ function SezioneTesto({ doc, documento, documenti, scegli, meta, segni, bloccoFo
       {pannello && <aside className={`lettura-pannello ${pannello === 'mappa' ? 'lettura-pannello-mappa' : ''}`} aria-label={pannello === 'mappa' ? 'Mappa personale della lettura' : pannello === 'segni' ? 'Segni salvati' : 'Fonti e scorciatoie'}>
         <header><h2 className="title-s">{pannello === 'mappa' ? 'Mappa personale' : pannello === 'segni' ? `Segni salvati (${segni.length})` : 'Fonte e comandi'}</h2><button ref={chiudiPannello} className="btn btn-sm btn-ghost originali-quadrato" aria-label="Chiudi pannello" onClick={() => setPannello(null)}><Icon n="x" size={17} /></button></header>
         <div className="lettura-pannello-body">
-          {pannello === 'mappa' ? <><a className="btn btn-sm" href={href('/mappa?personale=1')}>Apri la mappa completa<Icon n="freccia" size={14} /></a><MappaGeometrica compatta sezioni={geo.sezioni} totale={geo.totale} nonCollegati={geo.nonCollegati} sezioneIniziale={`${doc.id}/${meta.id}`} onApri={(h) => { vai(h); setPannello(null); }} /></>
+          {pannello === 'mappa' ? <><a className="btn btn-sm" href={href('/mappa?personale=1')}>Apri la mappa completa<Icon n="freccia" size={14} /></a><PannelloMappa chiave={`${doc.id}/${meta.id}`} onApri={(h) => { vai(h); setPannello(null); }} /></>
             : pannello === 'fonti' ? <><h3 className="title-s">{doc.titolo}</h3><p className="small muted">{doc.descrizione}</p><p className="small muted">Rielaborazione e revisione assistite dall’IA. La verifica umana integrale dei contenuti è ancora da completare.</p><p className="small muted">{doc.tipoFonte === 'manuale-ricostruito' ? 'Questa raccolta riprende le lezioni ricostruite del Percorso, con i riferimenti al manuale e le relative note. Evidenziazioni e stato Studiata funzionano come negli altri testi.' : 'Il testo è estratto dagli appunti. Le sezioni seguono le lezioni del Percorso, con correzioni puntuali documentate, impaginazione e collegamenti al glossario. Dove la fonte contiene solo un titolo, il rimando apre la lezione ricostruita nel fascicolo integrativo.'}</p>{doc.file && <><a className="btn btn-sm" href={`${import.meta.env.BASE_URL}${doc.file}`} download><Icon n="scarica" size={15} />Consulta la fonte PDF originale</a><p className="tiny faint">Il PDF scaricato non contiene i segni personali: sono nel backup completo.</p></>}<hr className="sep" /><h3 className="title-s">Su iPad e telefono</h3><p className="small muted">Con il dito tieni premuto su una parola, allarga la selezione con le maniglie e tocca un altro punto del testo per salvare il segno. Con Apple Pencil passa sopra il testo: il segno si salva appena sollevi la punta. La gomma funziona allo stesso modo.</p><div className="reader-mobile-history"><button className="btn btn-sm" disabled={!cronologia.indietro.length} onClick={() => storia('indietro')}><Icon n="annulla" size={17} />Annulla</button><button data-mobile-redo className="btn btn-sm" disabled={!cronologia.avanti.length} onClick={() => storia('avanti')}><Icon n="ripristina" size={17} />Ripristina</button></div><h3 className="title-s">Scorciatoie</h3><dl className="originali-scorciatoie"><dt>Invio / Spazio</dt><dd>Salva o applica la gomma</dd><dt>Esc / Canc / ⌫</dt><dd>Annulla la selezione</dd><dt>H / U / E</dt><dd>Evidenzia / sottolinea / gomma</dd><dt>1 – 6</dt><dd>Giallo, verde, rosa, azzurro, viola, arancio</dd><dt>⌘Z / Ctrl+Z</dt><dd>Annulla</dd><dt>⌘⇧Z / Ctrl+Y</dt><dd>Ripristina</dd></dl><p className="tiny faint">Le parole collegate mostrano la voce del glossario passandoci sopra con il mouse o con un clic. Le annotazioni aggiornano la mappa personale e restano nel backup unico.</p></>
               : <>{!ordinati.length ? <p className="small muted">Seleziona un passaggio e salvalo per ritrovarlo qui e nella mappa.</p> : <ol className="originali-lista">{ordinati.map((s) => <li key={s.id}><div className="row-between"><button className="btn btn-sm btn-ghost" onClick={() => apriSegno(s)}>{doc.tipoFonte === 'manuale-ricostruito' ? 'Sezione' : 'Pagina'} {s.pagina}<Icon n="freccia" size={13} /></button><button className="btn btn-sm btn-ghost originali-quadrato" aria-label={`Rimuovi segno: ${s.testo.slice(0, 45)}`} onClick={() => { annullaSelezione(); const r = rimuoviSegniOriginali(slug, doc, [s.id]); esito(r.salvato); setMessaggio('Segno rimosso. La mappa è aggiornata.'); }}><Icon n="x" size={14} /></button></div><p className={`originali-estratto ${s.colore}`}>{s.testo}</p><span className="tiny faint">{s.tipo === 'evidenziato' ? 'Evidenziato' : 'Sottolineato'} · {s.ancoreTesto?.length ? 'testo' : 'dal PDF'}</span></li>)}</ol>}</>}
         </div>

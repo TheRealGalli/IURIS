@@ -25,9 +25,11 @@
     {
       "id": "p069-b005",
       "pagina": 69,
-      "markdown": "**Nel percorso A-L.** Fino al 1993 si votava con un [[sistema-proporzionale|sistema proporzionale]]. Le leggi di quell'anno, note come **Mattarellum**, assegnavano circa tre quarti dei seggi in collegi uninominali a maggioranza relativa e il resto con un riparto proporzionale; lo **scorporo** sottraeva dal calcolo proporzionale una parte dei voti già serviti a vincere nei collegi, per attenuare l'effetto [[sistema-maggioritario|maggioritario]], con meccanismi diversi fra Camera e Senato. Con queste regole si votò per la prima volta nel 1994.",
+      "markdown": "**Nel percorso A-L.** Fino al 1993 si votava con un [[sistema-proporzionale|sistema proporzionale]]. Le leggi di quell'anno, note come **[[mattarellum|Mattarellum]]**, assegnavano circa tre quarti dei seggi in [[collegio-uninominale|collegi uninominali]] a maggioranza relativa e il resto con un riparto proporzionale; lo **scorporo** sottraeva dal calcolo proporzionale una parte dei voti già serviti a vincere nei collegi, per attenuare l'effetto [[sistema-maggioritario|maggioritario]], con meccanismi diversi fra Camera e Senato. Con queste regole si votò per la prima volta nel 1994.",
       "concetti": [
         "sistema-proporzionale",
+        "mattarellum",
+        "collegio-uninominale",
         "sistema-maggioritario",
         "senato"
       ]
@@ -35,8 +37,9 @@
     {
       "id": "p069-b006",
       "pagina": 69,
-      "markdown": "La legge del 2005 riportò l'Italia al **proporzionale**, abbandonato una decina d'anni prima a favore del maggioritario, ma lo corresse con **premi di maggioranza** calcolati in modo diverso per la Camera e per il Senato. Le liste erano **bloccate**: l'elettore sceglieva una lista senza poter indicare preferenze, a differenza di quanto avviene nelle elezioni europee, regionali (salvo allora la Toscana), provinciali e comunali. Chi entrava in [[parlamento|Parlamento]] dipendeva quindi interamente dall'ordine dei candidati deciso dai partiti.",
+      "markdown": "La legge del 2005 riportò l'Italia al **proporzionale**, abbandonato una decina d'anni prima a favore del maggioritario, ma lo corresse con **premi di maggioranza** calcolati in modo diverso per la Camera e per il Senato. Le liste erano **bloccate**: l'elettore sceglieva una lista senza poter indicare [[voto-di-preferenza|preferenze]], a differenza di quanto avviene nelle elezioni europee, regionali (salvo allora la Toscana), provinciali e comunali. Chi entrava in [[parlamento|Parlamento]] dipendeva quindi interamente dall'ordine dei candidati deciso dai partiti.",
       "concetti": [
+        "voto-di-preferenza",
         "parlamento",
         "sistema-proporzionale",
         "sistema-maggioritario",
@@ -61,7 +64,10 @@
       "markdown": "**Nel percorso A-L.** La legge del 2005 è caduta per altra via: la [[corte-costituzionale|Corte costituzionale]], con la sentenza n. 1/2014, ne ha dichiarato illegittimi il premio senza soglia minima e le liste bloccate lunghe. È seguita la legge n. 52/2015 (Italicum), valida per la sola Camera e colpita a sua volta dalla sentenza n. 35/2017 nella parte sul ballottaggio; poi la legge n. 165/2017 (Rosatellum), che combinava collegi uninominali e riparto proporzionale ed è stata adattata alla riduzione dei parlamentari. Oggi vale la legge n. 180/2026. Sono fasi diverse, da non confondere: lo scorporo appartiene al 1993, i premi senza soglia al 2005, i collegi misti al 2017.",
       "concetti": [
         "corte-costituzionale",
-        "sistema-proporzionale"
+        "collegio-uninominale",
+        "voto-di-preferenza",
+        "sistema-proporzionale",
+        "mattarellum"
       ]
     },
     {
@@ -254,6 +260,7 @@
       "concetti": [
         "presidente-del-consiglio",
         "rapporto-di-fiducia",
+        "voto-di-preferenza",
         "senato"
       ]
     },

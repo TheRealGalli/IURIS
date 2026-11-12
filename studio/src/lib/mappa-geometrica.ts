@@ -196,6 +196,16 @@ export function etichetteConcetto(c: { nome: string; latino?: string; alias?: st
   return [...new Set(tutte.map((x) => x.replace(/\s*\([^)]*\)\s*/g, ' ').trim()).filter((x) => x.length >= 4 && !/[«»"*[\]|]/.test(x)))];
 }
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+/** Caratteri la cui minuscola non coincide con la piegatura delle regex «iu» (ſ, ς, simboli greci, ẛ, ι): niente filtro rapido. */
+const PIEGA_SPECIALE = /[\u017F\u03C2\u03D0\u03D1\u03D5\u03D6\u03F0\u03F1\u03F5\u1E9B\u1FBE\u0130\u212A\u212B]/u;
+/** Espressione delle etichette di un concetto (compilata una volta: la mappa la usa in ogni sezione). Senza stato: niente `g`/`y`. */
+const regoleEtichette = new Map<string, RegExp>();
+function regolaEtichette(etichette: string[]): RegExp {
+  const chiave = etichette.join('\u0000');
+  let re = regoleEtichette.get(chiave);
+  if (!re) { re = new RegExp(`(?<![\\p{L}\\p{N}])(?:${etichette.map(esc).sort((x, y) => y.length - x.length).join('|')})(?![\\p{L}\\p{N}])`, 'iu'); regoleEtichette.set(chiave, re); }
+  return re;
+}
 const PRIORITA: Record<string, number> = { 'parte-di': 0, 'esempio-di': 1, contrasta: 2, supera: 3, 'evolve-in': 3, crea: 4, interpreta: 4, causa: 4, influenza: 5, testimonia: 5, collegato: 7 };
 export const MAX_ARCHI = 9;
 
@@ -208,16 +218,28 @@ export function semanticaGeometrica(radici: NodoGeo[], concetti: ConcettoGeo[], 
   const nodi: { n: NodoGeo; antenati: Set<string> }[] = [];
   const visita = (n: NodoGeo, antenati: string[]) => { nodi.push({ n, antenati: new Set(antenati) }); n.figli.forEach((f) => visita(f, [...antenati, n.id])); };
   radici.forEach((r) => visita(r, []));
-  const parentela = (a: string, b: string) => nodi.find((x) => x.n.id === a)!.antenati.has(b) || nodi.find((x) => x.n.id === b)!.antenati.has(a);
+  const antenatiDi = new Map(nodi.map((x) => [x.n.id, x.antenati]));
+  const parentela = (a: string, b: string) => antenatiDi.get(a)!.has(b) || antenatiDi.get(b)!.has(a);
   // Concetti nominati da ogni nodo, con la posizione: chi comincia col concetto lo «definisce».
   const nomina = new Map<string, Map<string, number>>(), lunghezza = new Map<string, number>();
-  const regole = concetti.map((c) => ({ c, re: new RegExp(`(?<![\\p{L}\\p{N}])(?:${c.etichette.map(esc).sort((x, y) => y.length - x.length).join('|')})(?![\\p{L}\\p{N}])`, 'iu') })).filter((r) => r.c.etichette.length);
+  const regole = concetti.filter((c) => c.etichette.length).map((c) => ({ c, re: regolaEtichette(c.etichette), minuscole: c.etichette.map((e) => e.toLowerCase()), sicure: !PIEGA_SPECIALE.test(c.etichette.join('')) }));
   for (const { n } of nodi) {
     const m = new Map<string, number>();
-    for (const { c, re } of regole) { const x = re.exec(n.unita.testo); if (x) { m.set(c.id, x.index); lunghezza.set(`${n.id}|${c.id}`, x[0].length); } }
+    // Filtro rapido prima dell'espressione (lenta: lookbehind Unicode): un'etichetta che non compare nemmeno come
+    // sottostringa in minuscolo non può corrispondere. Non si usa con i pochi caratteri che le minuscole non piegano come la regex.
+    const minuscolo = n.unita.testo.toLowerCase(), testoSicuro = !PIEGA_SPECIALE.test(n.unita.testo);
+    for (const { c, re, minuscole, sicure } of regole) {
+      if (testoSicuro && sicure && !minuscole.some((e) => minuscolo.includes(e))) continue;
+      const x = re.exec(n.unita.testo); if (x) { m.set(c.id, x.index); lunghezza.set(`${n.id}|${c.id}`, x[0].length); }
+    }
     nomina.set(n.id, m);
   }
-  const conConcetto = (id: string) => nodi.filter(({ n }) => nomina.get(n.id)!.has(id)).map(({ n }) => n);
+  const perConcettoNodi = new Map<string, NodoGeo[]>();
+  const conConcetto = (id: string) => {
+    let l = perConcettoNodi.get(id);
+    if (!l) { l = nodi.filter(({ n }) => nomina.get(n.id)!.has(id)).map(({ n }) => n); perConcettoNodi.set(id, l); }
+    return l;
+  };
   // Il nodo di riferimento di un concetto: un titolo o una voce che comincia col concetto, altrimenti la prima occorrenza.
   const riferimento = (id: string, escludi: string) => {
     const tutti = conConcetto(id).filter((n) => n.id !== escludi && !parentela(n.id, escludi));

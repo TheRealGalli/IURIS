@@ -142,7 +142,17 @@ export function collegaArticoliHtml(html: string, norme?: Norme): string {
   return root.innerHTML;
 }
 
+/** Blocchi già pronti per sezione: tornare su una sezione (o riaprire la mappa) non rifà Markdown, pulizia e collegamenti.
+ *  Vale finché non cambiano glossario, atto della materia o atti del corso (stessi oggetti). */
+const blocchiPronti = new WeakMap<SezioneLettura, { concetti: Map<string, Concetto>; norme?: Norme; atti: unknown; blocchi: BloccoPronto[] }>();
 export function preparaBlocchi(sezione: SezioneLettura, concetti: Map<string, Concetto>, norme?: Norme): BloccoPronto[] {
+  const atti = (globalThis as { __iurisAtti?: unknown }).__iurisAtti, pronti = blocchiPronti.get(sezione);
+  if (pronti && pronti.concetti === concetti && pronti.norme === norme && pronti.atti === atti) return pronti.blocchi;
+  const blocchi = preparaBlocchiOra(sezione, concetti, norme);
+  blocchiPronti.set(sezione, { concetti, norme, atti, blocchi });
+  return blocchi;
+}
+function preparaBlocchiOra(sezione: SezioneLettura, concetti: Map<string, Concetto>, norme?: Norme): BloccoPronto[] {
   return sezione.blocchi.map((b: BloccoLettura) => {
     const html = htmlSicuro(renderMd(b.markdown, concetti));
     collegaArticoli(html, norme);
@@ -309,6 +319,15 @@ export function sezionePerPagina(doc: DocumentoLettura, pagina: number, blocco?:
   if (candidate.length < 2) return candidate[0];
   const chiave = blocco && /^p\d{3}-b\d{3}$/.test(blocco) ? blocco : `p${String(pagina).padStart(3, '0')}-b999`;
   return candidate.filter((s, i) => i === 0 || (s.primo ?? '') <= chiave).pop();
+}
+/** Vero per un blocco («p006-b003») che sta in un'altra sezione del documento: due sezioni possono dividersi una pagina
+ *  (vedi «primo»), e un segno dell'una non è «da verificare» nell'altra. */
+export function bloccoInAltraSezione(doc: DocumentoLettura, sezione: string): (blocco: string) => boolean {
+  return (blocco) => {
+    if (!/^p\d{3}-b\d{3}$/.test(blocco)) return false;
+    const s = sezionePerPagina(doc, Number(blocco.slice(1, 4)), blocco);
+    return !!s && s.id !== sezione;
+  };
 }
 export function sezioniPerPagina(doc: DocumentoLettura, pagina: number) { return doc.sezioni.filter((s) => s.da <= pagina && s.a >= pagina); }
 export function paginaBlocco(id: string): number | null { const match = /^(?:manuale-[a-z0-9-]+-)?p(\d+)-/.exec(id); return match ? Number(match[1]) : null; }
