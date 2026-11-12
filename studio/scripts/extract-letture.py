@@ -117,12 +117,6 @@ def ocr_layouts(path: Path, pagine: int) -> list[str]:
 def sections(doc: dict) -> list[dict]:
     result = []
     start = 1
-    if doc['id'] == 'filosofia-incampo-v1':
-        result.extend([
-            {'id': 'u01-l1', 'titolo': 'La filosofia del diritto come scienza del dovere giuridico', 'da': 1, 'a': 3, 'lezione': 'u01-l1', 'pilota': True},
-            {'id': 'u01-l2', 'titolo': "L'ordinamento e la forza del dovere: norme necessarie e solo possibili", 'da': 4, 'a': 6, 'lezione': 'u01-l2', 'pilota': True},
-        ])
-        start = 7
     for da in range(start, doc['pagine'] + 1, 4):
         a = min(da + 3, doc['pagine'])
         result.append({'id': f'p{da:03d}-{a:03d}', 'titolo': f'Pagine {da}–{a}' if a > da else f'Pagina {da}', 'da': da, 'a': a})
@@ -138,7 +132,6 @@ def main() -> None:
                         help='Estrae solo questi documenti (ripetibile); gli altri restano come sono nel catalogo e nella verifica.')
     args = parser.parse_args()
     catalog = json.loads((ROOT / 'src/lib/originali-catalogo.json').read_text())
-    # I fascicoli riusati dal Percorso non sono PDF da estrarre e restano nel catalogo sorgente.
     previous_catalog = json.loads((SRC / 'catalogo.json').read_text()) if (SRC / 'catalogo.json').exists() else []
     SRC.mkdir(parents=True, exist_ok=True)
     output_catalog, report = [], {'versione': 1, 'documenti': []}
@@ -147,11 +140,11 @@ def main() -> None:
         if ignoti:
             raise ValueError(f"Documenti non in catalogo: {', '.join(sorted(ignoti))}")
         previous_report = json.loads((SRC / 'estrazione-verifica.json').read_text()) if (SRC / 'estrazione-verifica.json').exists() else report
-        output_catalog = [doc for doc in previous_catalog if doc['id'] not in args.solo and doc.get('tipoFonte') != 'manuale-ricostruito']
-        report['documenti'] = [doc for doc in previous_report['documenti'] if doc['id'] not in args.solo]
+        # Gli altri documenti restano come sono; quelli tolti dal catalogo degli Originali escono anche da qui.
+        attuali = {doc['id'] for doc in catalog}
+        output_catalog = [doc for doc in previous_catalog if doc['id'] not in args.solo and doc['id'] in attuali]
+        report['documenti'] = [doc for doc in previous_report['documenti'] if doc['id'] not in args.solo and doc['id'] in attuali]
     for doc in catalog:
-        if doc.get('tipoFonte') == 'manuale-ricostruito':
-            continue
         if args.solo and doc['id'] not in args.solo:
             continue
         if doc.get('testoFonte'):
@@ -233,7 +226,6 @@ def main() -> None:
                                    'parole': sum(p['parole'] for p in page_report), 'pagineSenzaTesto': [p['pagina'] for p in page_report if not p['parole']],
                                    'coperturaToken': all(p['coperturaToken'] for p in page_report), 'pagineDettaglio': page_report})
         print(f"[letture] {doc['id']}: {len(layouts)} pagine, {sum(len(b) for b in pages.values())} blocchi; testo conservato")
-    output_catalog.extend(doc for doc in previous_catalog if doc.get('tipoFonte') == 'manuale-ricostruito')
     (SRC / 'catalogo.json').write_text(json.dumps(output_catalog, ensure_ascii=False, indent=2) + '\n')
     (SRC / 'estrazione-verifica.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 

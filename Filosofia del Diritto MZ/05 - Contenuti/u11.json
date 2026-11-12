@@ -1,12 +1,11 @@
 {
   "id": "u11",
   "ordine": 11,
-  "fonte": "schauer",
   "titolo": "La pratica e i problemi del precedente",
   "capitolo": "Capitolo III",
   "pagine": [
-    11,
-    19
+    67,
+    75
   ],
   "abstract": "Il capitolo spiega che cosa significa essere vincolati da un precedente: seguire una decisione passata per il suo status, non perché convince. Distingue precedente verticale e orizzontale (stare decisis), discute le ragioni a favore e contro, e affronta i due problemi tecnici: come si individua il precedente rilevante e la sua ratio decidendi, e che differenza c'è tra principio decisionale e obiter dicta. Chiude con la forza del precedente: distinguere, annullare, «speciale giustificazione».",
   "note": "Da non confondere: farsi persuadere da una decisione passata non è seguire un precedente. Il precedente vincola anche, e soprattutto, quando il giudice lo ritiene sbagliato.",
@@ -16,8 +15,8 @@
       "id": "u11-l1",
       "titolo": "Precedente verticale e orizzontale: una strana idea",
       "pagine": [
-        11,
-        13
+        67,
+        69
       ],
       "minuti": 25,
       "sintesi": "### I precedenti in due direzioni\n\nIl legame del [[ragionamento-giuridico|ragionamento giuridico]] con il **[[precedente-giudiziale|precedente]]** è molto forte. L'obbligo di seguire i precedenti sorge in due modi:\n\n| | Tra chi | Contenuto |\n|---|---|---|\n| **[[precedente-verticale|Precedente verticale]]** | corti inferiori ↔ corti superiori | i tribunali di rango inferiore devono trattare come vincolanti le decisioni delle corti a essi superiori: è il modo in cui le corti superiori esercitano la loro [[autorita|autorità]] |\n| **[[precedente-orizzontale|Precedente orizzontale]]** | una corte oggi ↔ la stessa corte nel passato | i tribunali devono seguire i **propri** precedenti: è lo **[[stare-decisis|stare decisis]]**, «attenersi a quanto deciso» |\n\n### I concetti fondamentali\n\nIl principio centrale è che i tribunali devono dare alle questioni giuridiche **le stesse soluzioni** date in passato da corti superiori o da corti che hanno deciso prima. Il lessico: *corte attuale* e *caso attuale* sono l'organo che decide oggi e la controversia davanti a esso; *corte precedente* e *caso precedente* sono l'organo che ha deciso prima e la sua decisione.\n\n### Imparare dal passato non è obbedire a un precedente\n\nLa natura dell'obbligo si coglie distinguendo l'**imparare** dal **conformarsi**. La corte attuale può trarre insegnamento da un caso anteriore o esserne **persuasa**: è la normale capacità umana di imparare dagli altri e dal passato. Ma se la corte è persuasa, non sta obbedendo a un precedente: in quel caso lo status della decisione passata come decisione di un organo giudiziale non ha alcuna importanza.\n\nRagionare a partire da un precedente significa invece seguire una decisione passata **solo per il suo status** (decisione di un tribunale superiore, o dello stesso tribunale in un caso anteriore), e non perché si è stati convinti dal suo ragionamento. [[patrick-atiyah|Atiyah]] lo ha detto così: l'idea fondamentale di un sistema di precedenti è che esso **impone ai giudici, in taluni casi, di seguire decisioni che non condividono**. I tribunali vincolati devono seguire i precedenti non solo quando li credono corretti ma anche quando li reputano sbagliati: è la **fonte**, lo status del precedente, a dargli forza, non la correttezza del ragionamento.\n\n### Una strana idea\n\nIl vincolo del precedente è, per i giudici che lo subiscono, **controintuitivo**: spesso impone una conclusione che essi reputano scorretta.\n\n- Per il **precedente verticale** la cosa è meno strana: la forza vincolante delle sentenze della corte superiore è poco più della variante giuridica dell'**autorità gerarchica** che esiste in quasi tutte le istituzioni.\n- Per il **precedente orizzontale** gli argomenti sono meno evidenti. [[oliver-wendell-holmes|Holmes]] trovava ripugnante che le corti fossero obbligate a seguire precedenti che persistevano per il solo fatto di essere stati formulati ai tempi di Enrico IV. [[jeremy-bentham|Bentham]] riservò una speciale ferocia al sistema del precedente e allo stare decisis: un «agire senza ragione», che esclude esplicitamente la ragione e quindi le si oppone.\n\n### Le ragioni a favore dello stare decisis\n\nEppure, come riconobbe a volte lo stesso Holmes, le ragioni a favore ci sono.\n\n1. **Meglio deciso che deciso bene.** Il giudice [[louis-brandeis|Brandeis]], in una famosa opinione dissenziente: nella maggior parte dei casi è più importante che il caso sia risolto di quanto non lo sia che venga risolto correttamente.\n2. **Efficienza cognitiva e decisionale.** Trattare alcune questioni come già decise rende la vita più facile alla corte. Il giudice [[benjamin-cardozo|Cardozo]], quando sedeva alla Corte d'appello dello Stato di New York, osservò che il compito dei giudici arriverebbe al punto di rottura se ogni decisione passata potesse essere rimessa in discussione in ogni caso.\n3. **Stabilità.** Lo stare decisis serve i valori della stabilità, della coerenza, della definitività e del rispetto per il passato: esprime qualcosa di profondo di un sistema decisionale, quello giudiziario, diverso dalle altre branche del governo, che sono più flessibili, meno stabili, meno prevedibili e più rivolte al futuro.",
@@ -69,8 +68,8 @@
       "id": "u11-l2",
       "titolo": "Identificare il precedente: somiglianza e ratio decidendi",
       "pagine": [
-        14,
-        16
+        70,
+        72
       ],
       "minuti": 30,
       "sintesi": "### Due problemi connessi\n\nNon è facile dire che cosa sia una «decisione passata». Di solito non è chiaro quali casi valgano come [[precedente-giudiziale|precedente]] né quale disciplina giuridica se ne ricavi, perché **non esistono due eventi esattamente uguali**. Quando un precedente somiglia al caso attuale al punto che tutte le differenze sono irrilevanti, avvocati e giudici dicono che «calza a pennello» e il problema non si pone. Di solito però le differenze sono più marcate e sorgono due problemi:\n\n1. l'**identificazione iniziale** del precedente rilevante;\n2. stabilire **quale disciplina giuridica** ne derivi. Un caso è precedente non solo per i casi identici ma anche per quelli **simili**.\n\n### La somiglianza non è un fatto naturale\n\nSi potrebbe pensare che alcune cose siano semplicemente simili ad altre, in un senso profondo e pregiuridico, e che il diritto debba solo trattarle come tali. **Questo modo di concepire la [[somiglianza-rilevante|somiglianza]] non funziona.** I filosofi parlano di **[[tipi-naturali|tipi naturali]]**: cose diverse per natura e non per una classificazione umana. Ma anche rispetto a essi il diritto ha i suoi scopi: può trattare come simili cose naturalmente diverse (le stesse norme sulla responsabilità per prodotti difettosi valgono per la vendita di alberi da frutta e di acqua imbottigliata) e dettare norme diverse per cose naturalmente simili. Se neppure i tipi naturali sono simili per il diritto, allora nulla lo è «per natura».\n\nCiò non vuol dire che il diritto non usi mai le somiglianze del mondo pregiuridico: anzi, lo fa ogni giorno di più, e le categorie giuridiche sono costruite su quelle del mondo esterno più spesso di quanto immaginasse [[oliver-wendell-holmes|Holmes]]. Ma proprio perché a volte la somiglianza serve solo ai fini del diritto e a volte riflette giudizi esterni, non si può concludere che determinarla consista nel constatare se i fatti dei due casi siano «effettivamente» simili.\n\n### Fatti più soluzione? La proposta di Goodhart\n\nOccorre sapere non solo **che cosa** ha deciso la corte precedente ma **perché**. Per conoscere la **[[ratio-decidendi|ratio decidendi]]** il teorico [[arthur-goodhart|Goodhart]] propose di guardare ai **fatti** del caso, così come descritti dalla corte precedente, insieme alla **soluzione**.\n\nL'esempio è **[[macpherson-v-buick|MacPherson v. Buick Motor Company]]**: MacPherson comprò una Buick da un concessionario, che l'aveva comprata dal produttore; lo pneumatico si ruppe e lo ferì; MacPherson vinse contro la Buick Motor Company. Ma fatti e soluzione, da soli, **non dicono a quale livello di astrazione** leggere il caso: riguarda le Buick, le automobili in generale, le ruote, i prodotti di consumo o altro ancora? Senza le ragioni non lo sappiamo.\n\n### «Fatti rilevanti»: un'apparente via d'uscita\n\nLa somiglianza giuridica è determinata dal diritto stesso: perciò si parla non di fatti ma di **fatti rilevanti**, e il principio decisionale sarebbe la combinazione dei fatti rilevanti e della soluzione; un fatto è rilevante quando una [[norma-giuridica|norma giuridica]] lo rende giuridicamente significativo. Spesso è così, ma affidarsi a una norma per stabilire quali casi sono simili **elude il problema più che risolverlo**: se lo standard della rilevanza è **esterno** al precedente, è quella norma a imporsi e non siamo affatto davanti a un precedente vincolante. Dire che «il diritto stabilisce la somiglianza rilevante» non risponde alla domanda.\n\n### La risposta: leggere le ragioni della corte\n\nLa corte precedente non dà solo fatti e soluzione: dice anche **perché** ha deciso così. Non occorre «desumere» la ratio decidendi: basta **leggere ciò che la corte ha affermato**. E quando una corte spiega le sue ragioni descrive i fatti del caso come **esempio di una classe**, necessariamente più generale del caso concreto. È questa generalità a consentire l'uso futuro della decisione.\n\nIl **principio decisionale**, secondo la ricostruzione tradizionale, è la norma giuridica che determina la soluzione del caso. A volte la corte crea una norma nuova, altre volte riproduce una [[regola|regola]] tratta da uno o più casi anteriori. Così in **[[international-shoe|International Shoe]]** la corte stabilì che per la [[competenza-giurisdizionale|competenza]] territoriale servono **contatti minimi** con lo Stato del tribunale; e nel principio decisionale si possono includere anche le ragioni (sarebbe ingiusto costringere qualcuno a difendersi in uno Stato con cui non ha legami) e l'applicazione al caso (un agente della società aveva fatto affari nello Stato di Washington, quindi i contatti minimi c'erano).",
@@ -119,8 +118,8 @@
       "id": "u11-l3",
       "titolo": "Principio decisionale, obiter dicta e forza del precedente",
       "pagine": [
-        17,
-        19
+        73,
+        75
       ],
       "minuti": 25,
       "sintesi": "### Quando il principio decisionale non è formulato\n\nLa corte stabilisce la [[norma-giuridica|norma giuridica]] su cui basa la decisione e formula una soluzione: questo è il **principio decisionale** ([[ratio-decidendi|ratio decidendi]]). I problemi cominciano quando la corte **non lo formula esplicitamente**. Allora lo si ricostruisce combinando la descrizione dei fatti con la soluzione; ma se la corte non dice perché i fatti rilevanti sono tali, quella descrizione può essere letta **a diversi livelli di astrazione** e non si ha un'idea certa di ciò che è stato deciso. Solo formulando espressamente il principio la corte permette alle corti future di ricorrervi.\n\n### Gli obiter dicta\n\nTradizionalmente tutto ciò che non è descrizione dei fatti o formulazione del principio decisionale è **[[obiter-dictum|obiter dictum]]**, «qualcosa detto di passata»: qualcosa di ulteriore, **non strettamente necessario** per raggiungere, giustificare o spiegare la soluzione. I *dicta* comprendono:\n\n- osservazioni su questioni che non sono in discussione davanti alla corte;\n- argomentazioni su questioni non necessarie per la conclusione raggiunta;\n- ampie presentazioni di un intero corpus giuridico;\n- considerazioni a margine del tutto irrilevanti.\n\nLa distinzione è però **più problematica di quanto si creda**. Una ragione è necessariamente **più ampia** della soluzione che fonda: addurre una ragione equivale sempre a dire qualcosa di più di ciò che è strettamente necessario per il caso. Sotto questo profilo il *dictum* è proprio ciò che rende possibile **generalizzare** una decisione molto specifica per usarla come [[precedente-giudiziale|precedente]] in futuro.\n\n### Vincolante non significa senza margini\n\nLa distinzione tra [[precedente-verticale|precedente verticale]] e [[precedente-orizzontale|orizzontale]] serve a spiegare come vincolano. Dei precedenti si dice che sono **vincolanti**: una corte inferiore non può scegliere se obbedire a un precedente di una corte superiore. Ma ci sono margini di flessibilità:\n\n- a volte la decisione superiore è solo un insieme di *dicta* e non contiene principi decisionali da seguire;\n- una sentenza vincolante obbliga la corte inferiore a **seguirla oppure a [[distinguishing|distinguerla]]** dal caso attuale. Quando le fattispecie non sono suscettibili di distinzione, la corte inferiore deve giungere alla stessa soluzione.\n\n### Lo stare decisis: forte ma non assoluto\n\nPer lo [[stare-decisis|stare decisis]] le cose stanno diversamente. Anche quando non ci sono ragioni plausibili per distinguere, l'obbligo di seguire una propria decisione anteriore **raramente è assoluto** come quello verso la corte superiore: le corti hanno talora la competenza per **annullare** le proprie decisioni passate (*[[overruling|overruling]]*, mutamento di giurisprudenza).\n\nMa per annullare **non basta credere che la decisione passata fosse sbagliata**: se bastasse, lo stare decisis non esisterebbe. Occorre che la decisione sia ritenuta *estremamente* sbagliata o che le conseguenze dell'errore siano tanto gravi da esigere l'annullamento: un errore molto al di sopra del livello di normalità, per il suo tenore o per i suoi effetti.\n\n| Ordinamento | Criterio per annullare un proprio precedente |\n|---|---|\n| [[corte-suprema-degli-stati-uniti|Corte Suprema degli Stati Uniti]] | occorre una **«speciale giustificazione»** |\n| Inghilterra | la decisione anteriore dev'essere **«manifestamente erronea»** |\n\n«Speciale» e «manifestamente» chiariscono che lo stare decisis perderebbe la sua ragion d'essere se una corte fosse libera di annullare tutte le decisioni che reputa sbagliate. Queste specificazioni assicurano che l'obbligo di seguire i propri precedenti sia **genuinamente vincolante, benché non assoluto o insuperabile**.",
@@ -176,8 +175,8 @@
       "breve": "Decisione passata che una corte deve seguire per il suo status, non perché ne condivide il ragionamento.",
       "definizione": "Decisione giudiziale anteriore che la corte attuale ha l'obbligo di seguire: deve dare alla questione la stessa soluzione data da una corte superiore ([[precedente-verticale|precedente verticale]]) o da se stessa in passato ([[precedente-orizzontale|precedente orizzontale]] o [[stare-decisis|stare decisis]]). La sua forza non viene dalla correttezza ma dallo status della fonte: seguire un precedente è cosa diversa dal lasciarsi persuadere da una decisione passata, e il vincolo conta proprio quando il giudice la ritiene sbagliata. I problemi tecnici sono l'individuazione del caso rilevante e della sua [[ratio-decidendi|ratio decidendi]], distinta dagli [[obiter-dictum|obiter dicta]].",
       "pagine": [
-        11,
-        12
+        67,
+        68
       ]
     },
     {
@@ -187,8 +186,8 @@
       "breve": "Obbligo delle corti inferiori di trattare come vincolanti le decisioni delle corti superiori.",
       "definizione": "Relazione per cui i tribunali di rango inferiore seguono le decisioni passate delle corti a essi superiori e le trattano come vincolanti. È il modo in cui le corti superiori esercitano la loro autorità ed è la meno strana delle due forme di [[precedente-giudiziale|precedente]]: poco più della variante giuridica dell'autorità gerarchica presente in quasi tutte le istituzioni. La corte inferiore non può scegliere se obbedire: deve seguire la decisione oppure [[distinguishing|distinguerla]] dal caso attuale. Si distingue dal [[precedente-orizzontale|precedente orizzontale]], il cui vincolo è più debole.",
       "pagine": [
-        11,
-        18
+        67,
+        74
       ]
     },
     {
@@ -198,8 +197,8 @@
       "breve": "Obbligo di una corte di seguire i propri precedenti: è lo stare decisis.",
       "definizione": "Obbligo che lega una corte nel presente alla stessa corte nel passato: i tribunali devono seguire anche i propri [[precedente-giudiziale|precedenti]]. Prende il nome di [[stare-decisis|stare decisis]]. A differenza del [[precedente-verticale|precedente verticale]], non si spiega con la gerarchia e per questo è parso strano a [[oliver-wendell-holmes|Holmes]] e irrazionale a [[jeremy-bentham|Bentham]]. Il suo vincolo è reale ma non assoluto: la corte può annullare le proprie decisioni ([[overruling|overruling]]), ma solo con una speciale giustificazione, non perché oggi le ritiene semplicemente sbagliate.",
       "pagine": [
-        11,
-        18
+        67,
+        74
       ]
     },
     {
@@ -210,8 +209,8 @@
       "breve": "«Attenersi a quanto deciso»: principio per cui una corte segue i propri precedenti anche se oggi li ritiene sbagliati.",
       "definizione": "Espressione latina («attenersi a quanto deciso») che indica l'obbligo di una corte di seguire i propri precedenti ([[precedente-orizzontale|precedente orizzontale]]). Per [[patrick-atiyah|Atiyah]] impone ai giudici di seguire decisioni che non condividono. Criticato da [[oliver-wendell-holmes|Holmes]] e da [[jeremy-bentham|Bentham]], è difeso con tre argomenti: è più importante che un caso sia risolto che non che sia risolto bene ([[louis-brandeis|Brandeis]]); rende efficiente il lavoro delle corti ([[benjamin-cardozo|Cardozo]]); serve stabilità, coerenza, definitività e rispetto del passato. Ha peso solo quando la corte segue una soluzione che considera inadeguata; non è assoluto ([[overruling|overruling]]).",
       "pagine": [
-        11,
-        13
+        67,
+        69
       ]
     },
     {
@@ -224,8 +223,8 @@
       "breve": "Giurista citato da Schauer: un sistema di precedenti impone ai giudici di seguire decisioni che non condividono.",
       "definizione": "Giurista che [[frederick-schauer|Schauer]] cita per la definizione più netta dello [[stare-decisis|stare decisis]]: l'idea fondamentale di un sistema di precedenti è che esso impone ai giudici, in taluni casi, di seguire decisioni che non condividono. La frase coglie il punto essenziale del [[precedente-giudiziale|precedente]]: i tribunali vincolati devono seguire le decisioni passate non solo quando le credono corrette ma anche quando le reputano sbagliate, perché è lo status della fonte, e non la bontà del ragionamento, a dare forza al precedente.",
       "pagine": [
-        12,
-        12
+        68,
+        68
       ]
     },
     {
@@ -238,8 +237,8 @@
       "breve": "Giudice americano, precursore del realismo: «la vita del diritto non è stata logica ma esperienza»; il punto di vista del bad man.",
       "definizione": "Giudice e giurista statunitense che [[frederick-schauer|Schauer]] cita in più capitoli. Sul [[precedente-orizzontale|precedente orizzontale]]: trovava ripugnante che le corti seguissero regole solo perché formulate ai tempi di Enrico IV, pur riconoscendo ragioni a favore dello [[stare-decisis|stare decisis]]. Sul [[common-law|common law]]: prima risolve il caso e poi stabilisce il principio. Nei suoi scritti stragiudiziali affondano le radici del [[realismo-giuridico-americano|realismo giuridico]]: «la vita del diritto non è stata segnata dalla logica ma dall'esperienza»; il diritto va visto dal punto di vista del [[bad-man|bad man]], come predizione di ciò che le corti faranno. Resta però un precursore, non un realista.",
       "pagine": [
-        12,
-        14
+        68,
+        70
       ]
     },
     {
@@ -252,8 +251,8 @@
       "breve": "Giudice americano: nella maggior parte dei casi conta più che la questione sia risolta che non che sia risolta correttamente.",
       "definizione": "Giudice statunitense autore, in una famosa opinione dissenziente, dell'argomento classico a favore dello [[stare-decisis|stare decisis]]: nella maggior parte dei casi è più importante che il caso sia risolto di quanto non lo sia che venga risolto correttamente. L'argomento mette al primo posto il valore della certezza: una regola stabile, anche imperfetta, consente a tutti di fare affidamento su di essa, mentre la continua ricerca della soluzione migliore renderebbe il diritto instabile. È il nucleo della difesa del [[precedente-orizzontale|precedente orizzontale]] contro le critiche di Holmes e Bentham.",
       "pagine": [
-        13,
-        13
+        69,
+        69
       ]
     },
     {
@@ -266,8 +265,8 @@
       "breve": "Giudice della Corte d'appello di New York: senza precedenti stabili il lavoro dei giudici arriverebbe al punto di rottura.",
       "definizione": "Giudice statunitense che [[frederick-schauer|Schauer]] ricorda per l'argomento dell'efficienza a favore dello [[stare-decisis|stare decisis]]: quando sedeva alla Corte d'appello dello Stato di New York osservò che il compito dei giudici arriverebbe al punto di rottura se ogni decisione passata potesse essere rimessa in discussione in ogni caso. Trattare alcune questioni come già decise è dunque una condizione pratica del funzionamento delle corti: il [[precedente-giudiziale|precedente]] reca i vantaggi dell'efficienza cognitiva e decisionale, oltre a quelli della stabilità.",
       "pagine": [
-        13,
-        13
+        69,
+        69
       ]
     },
     {
@@ -282,8 +281,8 @@
       "breve": "La somiglianza tra casi che conta per il diritto: non è un dato naturale, ma dipende da una regola o da una ragione.",
       "definizione": "Poiché due casi qualsiasi sono simili sotto alcuni aspetti e diversi sotto altri, per applicare un [[precedente-giudiziale|precedente]] o tracciare un'[[analogia|analogia]] occorre stabilire quali somiglianze contano. Per [[frederick-schauer|Schauer]] la somiglianza non è un fatto naturale e pregiuridico: neppure i [[tipi-naturali|tipi naturali]] sono simili «per il diritto», che ha i suoi scopi. Si parla perciò di fatti rilevanti; ma dire che è una norma a renderli tali elude il problema. La via d'uscita è leggere le ragioni date dalla corte precedente, che presentano il caso come esempio di una classe più generale ([[ratio-decidendi|ratio decidendi]]).",
       "pagine": [
-        14,
-        16
+        70,
+        72
       ]
     },
     {
@@ -296,8 +295,8 @@
       "breve": "Per i filosofi: cose diverse tra loro per natura e non per una classificazione umana.",
       "definizione": "Espressione con cui i filosofi indicano cose sostanzialmente diverse le une dalle altre a causa della loro natura, e non per una classificazione o sistemazione realizzata dall'uomo. [[frederick-schauer|Schauer]] li usa per mostrare che la [[somiglianza-rilevante|somiglianza giuridica]] non è naturale: il diritto, che ha scopi e valori propri, può trattare come simili cose naturalmente diverse (la responsabilità per prodotti difettosi vale allo stesso modo per la vendita di alberi da frutta e di acqua imbottigliata) e dare regole diverse a cose naturalmente simili. Se neppure i tipi naturali sono simili per il diritto, nulla lo è per natura.",
       "pagine": [
-        14,
-        14
+        70,
+        70
       ]
     },
     {
@@ -312,8 +311,8 @@
       "breve": "Il principio decisionale di un caso: la norma giuridica che ne determina la soluzione e che vincola i casi futuri.",
       "definizione": "È il principio decisionale di una sentenza: secondo la ricostruzione tradizionale, la norma giuridica che determina la soluzione del caso, ciò che è necessario per sostenere il risultato. È la parte del [[precedente-giudiziale|precedente]] che vincola, a differenza degli [[obiter-dictum|obiter dicta]]. [[arthur-goodhart|Goodhart]] propose di ricavarla dai fatti del caso più la soluzione; ma, come mostra [[macpherson-v-buick|MacPherson v. Buick]], fatti e soluzione si possono leggere a diversi livelli di astrazione. Per [[frederick-schauer|Schauer]] bisogna leggere le ragioni formulate dalla corte: solo se il principio è espresso le corti future possono ricorrervi.",
       "pagine": [
-        15,
-        17
+        71,
+        73
       ]
     },
     {
@@ -326,8 +325,8 @@
       "breve": "Teorico del diritto: la ratio decidendi di un caso si ricava dai fatti, come descritti dalla corte, insieme alla soluzione.",
       "definizione": "Teorico del diritto che propose un metodo per individuare la [[ratio-decidendi|ratio decidendi]] di un caso: guardare ai fatti, così come descritti dalla corte precedente, e considerarli insieme alla soluzione. [[frederick-schauer|Schauer]] obietta che fatti e soluzione, da soli, non chiariscono le ragioni della decisione né il livello di generalità a cui leggerla: senza le ragioni non si sa se [[macpherson-v-buick|MacPherson]] riguardi le Buick, le automobili, le ruote o i prodotti di consumo. Anche correggere la proposta parlando di «fatti rilevanti» sposta soltanto il problema della [[somiglianza-rilevante|somiglianza]].",
       "pagine": [
-        15,
-        15
+        71,
+        71
       ]
     },
     {
@@ -341,8 +340,8 @@
       "breve": "Lo pneumatico di una Buick si rompe e ferisce l'acquirente, che vince contro il produttore: ma di che cosa è precedente?",
       "definizione": "Caso in cui MacPherson comprò una Buick da un concessionario, che l'aveva acquistata dalla Buick Motor Company; lo pneumatico si ruppe ferendolo, ed egli vinse il giudizio contro il produttore. [[frederick-schauer|Schauer]] lo usa contro la proposta di [[arthur-goodhart|Goodhart]]: i fatti e la soluzione, di per sé, non dicono le ragioni della decisione né il suo livello di astrazione, sicché non si sa se sia un [[precedente-giudiziale|precedente]] sulle Buick, sulle automobili in generale, sulle ruote, sui prodotti di consumo o su altro. Per conoscere la [[ratio-decidendi|ratio decidendi]] servono le ragioni della corte.",
       "pagine": [
-        15,
-        15
+        71,
+        71
       ]
     },
     {
@@ -356,8 +355,8 @@
       "breve": "Caso sui «contatti minimi» con lo Stato del tribunale come condizione della competenza territoriale.",
       "definizione": "Caso in cui la corte stabilì che, per fondare la competenza territoriale di un tribunale, devono esistere contatti minimi tra il convenuto e lo Stato in cui il tribunale opera. [[frederick-schauer|Schauer]] lo usa per mostrare che cosa entra nel principio decisionale ([[ratio-decidendi|ratio decidendi]]): la regola (l'esigenza di un contatto minimo), la ragione (sarebbe ingiusto costringere qualcuno a difendersi in uno Stato con cui non ha praticamente alcun legame) e l'applicazione al caso (un agente della società aveva fatto affari nello Stato di Washington, quindi i contatti c'erano).",
       "pagine": [
-        16,
-        17
+        72,
+        73
       ]
     },
     {
@@ -373,8 +372,8 @@
       "breve": "Ciò che la corte dice «di passata»: enunciati non necessari per la soluzione del caso e perciò non vincolanti.",
       "definizione": "Tradizionalmente è tutto ciò che, in una sentenza, non è descrizione dei fatti né formulazione della [[ratio-decidendi|ratio decidendi]]: qualcosa «detto di passata», non strettamente necessario per raggiungere, giustificare o spiegare la soluzione (osservazioni su questioni non in discussione, panoramiche su un intero settore, considerazioni a margine). I dicta sono più facili da scartare nei casi successivi. Per [[frederick-schauer|Schauer]] la distinzione è problematica: ogni ragione è più ampia della soluzione che fonda, e i dicta hanno comunque un effetto di inversione dell'onere della prova. Spesso il giudice chiama dicta ciò che non vuole seguire.",
       "pagine": [
-        17,
-        17
+        73,
+        73
       ]
     },
     {
@@ -389,8 +388,8 @@
       "breve": "Tecnica con cui una corte evita di applicare un precedente mostrando che il caso attuale è diverso in modo rilevante.",
       "definizione": "Operazione con cui una corte si sottrae a un [[precedente-giudiziale|precedente]] vincolante mostrando che il caso attuale ne differisce in modo rilevante. È il margine di flessibilità del [[precedente-verticale|precedente verticale]]: la corte inferiore non può disobbedire alla corte superiore, ma è obbligata a seguirne la decisione oppure a distinguerla; quando le fattispecie non sono suscettibili di essere distinte, deve giungere alla stessa soluzione. Presuppone un giudizio sulla [[somiglianza-rilevante|somiglianza rilevante]] tra i casi e si differenzia dall'[[overruling|overruling]], che elimina il precedente.",
       "pagine": [
-        18,
-        18
+        74,
+        74
       ]
     },
     {
@@ -405,8 +404,8 @@
       "breve": "Annullamento di un proprio precedente da parte di una corte: richiede più della convinzione che fosse sbagliato.",
       "definizione": "Annullamento, da parte di una corte, di una propria decisione anteriore: mostra che lo [[stare-decisis|stare decisis]] non è assoluto. Non basta però credere che la decisione passata fosse erronea, altrimenti il principio non esisterebbe: occorre un errore molto al di sopra della normalità, per il suo tenore o per le sue conseguenze. La Corte Suprema degli Stati Uniti richiede una «speciale giustificazione»; in Inghilterra la decisione dev'essere «manifestamente erronea». Queste formule garantiscono che l'obbligo di seguire i propri [[precedente-orizzontale|precedenti]] sia genuinamente vincolante, benché superabile. Si distingue dal [[distinguishing|distinguishing]].",
       "pagine": [
-        18,
-        19
+        74,
+        75
       ]
     }
   ],
@@ -713,8 +712,8 @@
         "precedente-orizzontale"
       ],
       "pagine": [
-        11,
-        11
+        67,
+        67
       ],
       "domanda": "Qual è la differenza tra precedente verticale e precedente orizzontale?",
       "risposta": "Nel precedente verticale i tribunali di rango inferiore devono seguire come vincolanti le decisioni delle corti superiori. Nel precedente orizzontale una corte ha l'obbligo di seguire i propri precedenti: l'obbligo sussiste tra la corte nel presente e la stessa corte nel passato e si chiama stare decisis."
@@ -728,8 +727,8 @@
         "stare-decisis"
       ],
       "pagine": [
-        11,
-        11
+        67,
+        67
       ],
       "domanda": "Che cosa significa stare decisis?",
       "risposta": "Significa «attenersi a quanto deciso»: è il nome dell'obbligo dei tribunali di seguire i propri precedenti, cioè del precedente orizzontale."
@@ -743,8 +742,8 @@
         "precedente-giudiziale"
       ],
       "pagine": [
-        11,
-        12
+        67,
+        68
       ],
       "domanda": "Perché farsi persuadere da una decisione passata non è ragionare a partire da un precedente?",
       "risposta": "Perché se la corte attuale è persuasa dal ragionamento di un caso anteriore, lo status di quella decisione come decisione di un organo giudiziale non ha alcuna importanza: è il normale imparare dal passato. Seguire un precedente vuol dire invece prestare obbedienza a una decisione solo per il suo status, anche se il suo ragionamento non convince."
@@ -760,8 +759,8 @@
         "jeremy-bentham"
       ],
       "pagine": [
-        12,
-        12
+        68,
+        68
       ],
       "domanda": "Quali critiche mossero Holmes e Bentham al precedente orizzontale?",
       "risposta": "Holmes osservò che era ripugnante che le corti fossero obbligate a seguire precedenti che persistevano solo perché formulati ai tempi di Enrico IV. Bentham descrisse lo stare decisis come un agire senza ragione, che esclude esplicitamente la ragione e di conseguenza le si oppone."
@@ -777,8 +776,8 @@
         "benjamin-cardozo"
       ],
       "pagine": [
-        13,
-        13
+        69,
+        69
       ],
       "domanda": "Quali sono gli argomenti a favore dello stare decisis?",
       "risposta": "Brandeis: nella maggior parte dei casi è più importante che il caso sia risolto di quanto non lo sia che venga risolto correttamente. Cardozo: il compito dei giudici arriverebbe al punto di rottura se ogni decisione passata potesse essere rimessa in discussione (efficienza cognitiva e decisionale). Inoltre lo stare decisis serve i valori di stabilità, coerenza, definitività e rispetto per il passato."
@@ -793,8 +792,8 @@
         "stare-decisis"
       ],
       "pagine": [
-        12,
-        12
+        68,
+        68
       ],
       "domanda": "Secondo Atiyah, qual è l'idea fondamentale di un sistema di precedenti?",
       "opzioni": [
@@ -815,8 +814,8 @@
         "precedente-verticale"
       ],
       "pagine": [
-        12,
-        12
+        68,
+        68
       ],
       "domanda": "Perché il precedente verticale appare a Schauer meno strano di quello orizzontale?",
       "opzioni": [
@@ -837,8 +836,8 @@
         "louis-brandeis"
       ],
       "pagine": [
-        13,
-        13
+        69,
+        69
       ],
       "domanda": "Chi ha scritto che nella maggior parte dei casi è più importante che il caso sia risolto di quanto non lo sia che venga risolto correttamente?",
       "opzioni": [
@@ -859,8 +858,8 @@
         "precedente-giudiziale"
       ],
       "pagine": [
-        12,
-        12
+        68,
+        68
       ],
       "affermazione": "Un tribunale vincolato da un precedente deve seguirlo solo se lo ritiene corretto.",
       "vero": false,
@@ -875,8 +874,8 @@
         "stare-decisis"
       ],
       "pagine": [
-        13,
-        13
+        69,
+        69
       ],
       "affermazione": "Per Schauer lo stare decisis esprime un sistema decisionale più stabile e rivolto al passato rispetto alle altre branche del governo.",
       "vero": true,
@@ -892,8 +891,8 @@
         "stare-decisis"
       ],
       "pagine": [
-        12,
-        13
+        68,
+        69
       ],
       "affermazione": "Holmes negò sempre che esistessero ragioni a favore dello stare decisis.",
       "vero": false,
@@ -909,8 +908,8 @@
         "precedente-orizzontale"
       ],
       "pagine": [
-        11,
-        11
+        67,
+        67
       ],
       "testo": "L'obbligo di una corte di seguire i propri precedenti si chiama {{stare decisis}}, cioè «{{attenersi}} a quanto deciso», ed è il precedente {{orizzontale}}."
     },
@@ -923,8 +922,8 @@
         "benjamin-cardozo"
       ],
       "pagine": [
-        13,
-        13
+        69,
+        69
       ],
       "testo": "Il giudice {{Cardozo}} osservò che il compito dei giudici arriverebbe al punto di {{rottura}} se ogni decisione passata potesse essere rimessa in discussione in ogni caso."
     },
@@ -941,8 +940,8 @@
         "louis-brandeis"
       ],
       "pagine": [
-        11,
-        13
+        67,
+        69
       ],
       "domanda": "Che cosa significa essere vincolati da un precedente? Distingui precedente verticale e orizzontale e discuti perché lo stare decisis è «una strana idea» e come lo si giustifica.",
       "traccia": "Seguire un **precedente** significa dare a una questione la stessa soluzione già data, **per lo status** della decisione passata e non perché convince: chi è persuaso impara dal passato, non obbedisce a un precedente. Atiyah: il sistema impone ai giudici di seguire decisioni che non condividono. Il precedente è **verticale** quando le corti inferiori sono vincolate dalle superiori (variante giuridica dell'autorità gerarchica) e **orizzontale** quando una corte è vincolata dalle proprie decisioni: è lo **stare decisis**, «attenersi a quanto deciso». Quest'ultimo è controintuitivo: obbliga a conclusioni ritenute scorrette. Holmes trovava ripugnante seguire regole dei tempi di Enrico IV; Bentham lo chiamò un agire senza ragione. **A favore**: Brandeis (è più importante che il caso sia risolto che non che sia risolto correttamente); Cardozo (senza questioni già decise il lavoro dei giudici arriverebbe al punto di rottura: efficienza); i valori di stabilità, coerenza, definitività e rispetto del passato, propri del sistema giudiziario rispetto alle altre branche del governo.",
@@ -1000,8 +999,8 @@
         "somiglianza-rilevante"
       ],
       "pagine": [
-        13,
-        14
+        69,
+        70
       ],
       "domanda": "Quali due problemi sorgono quando il precedente non «calza a pennello»?",
       "risposta": "Primo, l'identificazione iniziale del precedente rilevante. Secondo, stabilire quale sia la disciplina giuridica che deriva da quel caso. Un caso infatti è precedente non solo per i casi identici ma anche per quelli simili, e non esistono due eventi esattamente uguali."
@@ -1016,8 +1015,8 @@
         "somiglianza-rilevante"
       ],
       "pagine": [
-        14,
-        14
+        70,
+        70
       ],
       "domanda": "Perché i tipi naturali non risolvono il problema della somiglianza tra casi?",
       "risposta": "Perché il diritto ha i suoi scopi e valori: può trattare come simili cose diverse per natura (applica le stesse norme sulla responsabilità per prodotti difettosi alla vendita di alberi da frutta e di acqua imbottigliata) e dettare norme diverse per cose naturalmente simili. Se neppure i tipi naturali sono simili per il diritto, nulla lo è per natura."
@@ -1032,8 +1031,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        15,
-        15
+        71,
+        71
       ],
       "domanda": "Qual è la proposta di Goodhart per individuare la ratio decidendi?",
       "risposta": "Guardare ai fatti del caso, così come descritti dalla corte precedente, e considerarli insieme alla soluzione: fatti più soluzione darebbero la ratio decidendi."
@@ -1048,8 +1047,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        15,
-        15
+        71,
+        71
       ],
       "domanda": "Che cosa mostra il caso MacPherson v. Buick sui limiti della proposta di Goodhart?",
       "risposta": "Che i fatti e la soluzione, di per sé, non chiariscono le ragioni della decisione né il livello di astrazione a cui leggerla: senza le ragioni non si sa se il caso riguardi le Buick, le automobili in generale, le ruote, i prodotti di consumo o qualcosa di completamente diverso."
@@ -1064,8 +1063,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        15,
-        16
+        71,
+        72
       ],
       "domanda": "Perché, secondo Schauer, dire che una norma giuridica rende «rilevanti» certi fatti elude il problema del precedente?",
       "risposta": "Perché se lo standard per determinare la rilevanza è esterno al precedente, è quella norma a imporre la soluzione e non siamo affatto in presenza di un precedente vincolante. La soluzione è un'altra: la corte precedente dice anche perché ha deciso, e basta leggere ciò che ha affermato; le sue ragioni presentano il caso come esempio di una classe più generale."
@@ -1079,8 +1078,8 @@
         "international-shoe"
       ],
       "pagine": [
-        16,
-        17
+        72,
+        73
       ],
       "domanda": "Quale regola stabilì la corte nel caso International Shoe?",
       "opzioni": [
@@ -1101,8 +1100,8 @@
         "somiglianza-rilevante"
       ],
       "pagine": [
-        14,
-        15
+        70,
+        71
       ],
       "domanda": "Che cosa sostiene Schauer sul rapporto tra categorie giuridiche e somiglianze del mondo pregiuridico?",
       "opzioni": [
@@ -1123,8 +1122,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        16,
-        16
+        72,
+        72
       ],
       "domanda": "Quando una corte spiega perché ha deciso in un certo modo, come descrive i fatti del caso?",
       "opzioni": [
@@ -1145,8 +1144,8 @@
         "precedente-giudiziale"
       ],
       "pagine": [
-        14,
-        14
+        70,
+        70
       ],
       "affermazione": "Un caso costituisce un precedente soltanto per i casi futuri identici.",
       "vero": false,
@@ -1162,8 +1161,8 @@
         "tipi-naturali"
       ],
       "pagine": [
-        14,
-        14
+        70,
+        70
       ],
       "affermazione": "Per Schauer la somiglianza tra due casi è un dato naturale e pregiuridico che il diritto deve soltanto riconoscere.",
       "vero": false,
@@ -1178,8 +1177,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        16,
-        16
+        72,
+        72
       ],
       "affermazione": "Secondo Schauer, per conoscere la ratio decidendi spesso basta leggere ciò che la corte precedente ha affermato sulle ragioni della decisione.",
       "vero": true,
@@ -1195,8 +1194,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        15,
-        15
+        71,
+        71
       ],
       "testo": "Per {{Goodhart}} la ratio decidendi si ricava dai {{fatti}} del caso, come descritti dalla corte precedente, insieme alla {{soluzione}}."
     },
@@ -1209,8 +1208,8 @@
         "international-shoe"
       ],
       "pagine": [
-        16,
-        16
+        72,
+        72
       ],
       "testo": "Nel caso International Shoe la corte richiese l'esistenza di «{{contatti minimi|contatti}}» con lo Stato in cui opera il tribunale per fondare la {{competenza}} territoriale."
     },
@@ -1227,8 +1226,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        13,
-        16
+        69,
+        72
       ],
       "domanda": "Come si stabilisce che un caso passato è un precedente per il caso attuale? Ricostruisci l'argomento di Schauer sulla somiglianza e sulla ratio decidendi.",
       "traccia": "Poiché non esistono due casi uguali, occorre individuare il precedente rilevante e la disciplina che se ne ricava: un caso vale anche per i casi **simili**. Ma la somiglianza **non è un fatto naturale**: perfino rispetto ai **tipi naturali** il diritto tratta come simili cose diverse (alberi da frutta e acqua imbottigliata, per la responsabilità da prodotto) e viceversa. Bisogna sapere **perché** la corte precedente ha deciso. **Goodhart** propone: fatti (come descritti dalla corte) più soluzione. Ma in **MacPherson v. Buick** fatti e soluzione non dicono il livello di astrazione: Buick, automobili, ruote, prodotti di consumo? Parlare di «fatti rilevanti» perché resi tali da una norma **elude il problema**: se il criterio è esterno, non è più il precedente a vincolare. La risposta di Schauer: la corte dà anche le **ragioni**, e basta leggerle; nel darle descrive il caso come **esempio di una classe** più generale. Il principio decisionale è la norma che determina la soluzione (es. International Shoe: contatti minimi).",
@@ -1284,8 +1283,8 @@
         "obiter-dictum"
       ],
       "pagine": [
-        17,
-        17
+        73,
+        73
       ],
       "domanda": "Che cos'è un obiter dictum?",
       "risposta": "È qualcosa «detto di passata»: tradizionalmente, tutto ciò che in una sentenza non è descrizione dei fatti né formulazione del principio decisionale. È qualcosa di ulteriore, non strettamente necessario per raggiungere, giustificare o spiegare la soluzione del caso. Al plurale: dicta."
@@ -1300,8 +1299,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        17,
-        17
+        73,
+        73
       ],
       "domanda": "Perché la distinzione tra principio decisionale e obiter dicta è più problematica di quanto si creda?",
       "risposta": "Perché una ragione è necessariamente più ampia della soluzione cui dà fondamento: addurre una ragione equivale a dire qualcosa di più di ciò che è strettamente necessario per risolvere il caso. Sotto questo profilo il dictum è ciò che permette di generalizzare una decisione specifica per usarla come precedente in futuro."
@@ -1316,8 +1315,8 @@
         "precedente-verticale"
       ],
       "pagine": [
-        18,
-        18
+        74,
+        74
       ],
       "domanda": "Quali possibilità ha una corte inferiore davanti a una sentenza vincolante di una corte superiore?",
       "risposta": "Deve seguirla oppure distinguerla dal caso attuale. Se le fattispecie non sono suscettibili di essere distinte, è obbligata a giungere alla stessa soluzione del precedente. Un margine ulteriore esiste quando la decisione superiore contiene solo dicta e nessun principio decisionale."
@@ -1332,8 +1331,8 @@
         "stare-decisis"
       ],
       "pagine": [
-        18,
-        19
+        74,
+        75
       ],
       "domanda": "Che cosa occorre perché una corte annulli un proprio precedente?",
       "risposta": "Più della semplice convinzione che la decisione passata fosse erronea: un errore molto al di sopra del livello di normalità, per il suo tenore o per le sue conseguenze. La Corte Suprema degli Stati Uniti richiede una «speciale giustificazione»; in Inghilterra la decisione deve essere «manifestamente erronea»."
@@ -1347,8 +1346,8 @@
         "ratio-decidendi"
       ],
       "pagine": [
-        17,
-        17
+        73,
+        73
       ],
       "domanda": "Che cosa accade se una corte non formula esplicitamente il principio decisionale della sua sentenza?",
       "risposta": "Il principio va ricostruito combinando la descrizione dei fatti con la soluzione; ma se la corte non dice perché i fatti rilevanti sono tali, la descrizione può essere interpretata a diversi livelli di astrazione e non si ha un'idea certa di ciò che è stato deciso. Solo formulando espressamente il principio la corte consente alle corti future di ricorrervi."
@@ -1362,8 +1361,8 @@
         "overruling"
       ],
       "pagine": [
-        19,
-        19
+        75,
+        75
       ],
       "domanda": "Quale criterio usa la Corte Suprema degli Stati Uniti per annullare un proprio precedente?",
       "opzioni": [
@@ -1384,8 +1383,8 @@
         "obiter-dictum"
       ],
       "pagine": [
-        17,
-        17
+        73,
+        73
       ],
       "domanda": "Quale dei seguenti NON è un esempio di obiter dictum secondo la concezione tradizionale?",
       "opzioni": [
@@ -1407,8 +1406,8 @@
         "precedente-verticale"
       ],
       "pagine": [
-        18,
-        18
+        74,
+        74
       ],
       "domanda": "In che cosa l'obbligo dello stare decisis differisce da quello verso la corte superiore?",
       "opzioni": [
@@ -1429,8 +1428,8 @@
         "overruling"
       ],
       "pagine": [
-        18,
-        18
+        74,
+        74
       ],
       "affermazione": "Una corte può annullare un proprio precedente ogni volta che oggi lo ritiene sbagliato.",
       "vero": false,
@@ -1445,8 +1444,8 @@
         "stare-decisis"
       ],
       "pagine": [
-        19,
-        19
+        75,
+        75
       ],
       "affermazione": "Per Schauer l'obbligo di una corte di seguire i propri precedenti è genuinamente vincolante, benché non assoluto.",
       "vero": true,
@@ -1462,8 +1461,8 @@
         "distinguishing"
       ],
       "pagine": [
-        18,
-        18
+        74,
+        74
       ],
       "affermazione": "Una corte inferiore può decidere liberamente se obbedire o no a un precedente della corte superiore.",
       "vero": false,
@@ -1478,8 +1477,8 @@
         "obiter-dictum"
       ],
       "pagine": [
-        17,
-        17
+        73,
+        73
       ],
       "testo": "Tutto ciò che in una sentenza non è descrizione dei fatti o formulazione del principio decisionale è un {{obiter dictum|dictum}}, cioè qualcosa detto «di {{passata}}»."
     },
@@ -1492,8 +1491,8 @@
         "overruling"
       ],
       "pagine": [
-        19,
-        19
+        75,
+        75
       ],
       "testo": "Per annullare un proprio precedente la Corte Suprema richiede una «{{speciale}} giustificazione»; in Inghilterra la decisione deve essere «{{manifestamente}} erronea»."
     },
@@ -1510,8 +1509,8 @@
         "stare-decisis"
       ],
       "pagine": [
-        17,
-        19
+        73,
+        75
       ],
       "domanda": "Spiega la distinzione tra principio decisionale e obiter dicta e in che senso i precedenti sono «vincolanti» ma con margini di flessibilità.",
       "traccia": "Il **principio decisionale** (ratio decidendi) è la norma su cui la corte basa la soluzione; tutto il resto è **obiter dictum**, detto di passata e non necessario (osservazioni su questioni estranee, panoramiche, considerazioni a margine). La distinzione è però problematica: ogni ragione è più ampia della soluzione che fonda, sicché dare ragioni è sempre dire più del necessario; e se il principio non è formulato, i fatti si leggono a più livelli di astrazione. Quanto alla **forza**: il precedente **verticale** vincola, la corte inferiore non può disobbedire, ma può **distinguere** il caso o constatare che la decisione superiore contiene solo dicta. Lo **stare decisis** è meno rigido: la corte può **annullare** i propri precedenti, ma non perché li ritiene semplicemente sbagliati (altrimenti il principio non esisterebbe): serve una «speciale giustificazione» (Corte Suprema) o che la decisione sia «manifestamente erronea» (Inghilterra). Il vincolo è dunque genuino ma non assoluto.",
@@ -1569,8 +1568,8 @@
         "arthur-goodhart"
       ],
       "pagine": [
-        12,
-        15
+        68,
+        71
       ],
       "consegna": "Abbina ogni autore alla sua tesi sul precedente.",
       "coppie": [
@@ -1610,8 +1609,8 @@
         "somiglianza-rilevante"
       ],
       "pagine": [
-        14,
-        16
+        70,
+        72
       ],
       "consegna": "Ordina i passaggi dell'argomento di Schauer sull'identificazione del precedente.",
       "elementi": [

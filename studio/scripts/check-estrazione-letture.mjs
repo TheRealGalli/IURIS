@@ -5,7 +5,6 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { marked } from 'marked';
-import { blocchiDaPercorso, improntaMaterialePercorso } from './lib/lettura-percorso.mjs';
 import { documento } from './lib/mini-dom.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -17,37 +16,12 @@ const senzaLink = (s) => s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, id, 
 const plain = (s) => senzaLink(s).replace(/^#{1,6}\s+/gm, '');
 const tokens = (s) => s.match(/[\p{L}\p{N}_]+/gu) ?? [];
 let pages = 0, blocks = 0, sections = 0, pilot = 0;
-let integrazioni = 0, soloTesto = 0;
+let soloTesto = 0;
 // Testi scritti da IURIS (testoMarkdown nel catalogo): misure dell'impaginazione per documento.
 const iuris = new Map();
 const titoliFonte = new Map();
 const lezioniCorso = new Map();
 for (const doc of docs) {
-  if (doc.tipoFonte === 'manuale-ricostruito') {
-    const corso = await read(`public/content/${doc.materia}/corso.json`);
-    const units = corso.unita.filter((u) => ['u14', 'u15'].includes(u.id));
-    assert.equal(doc.id, 'romano-manuale-integrazioni-v1');
-    assert.equal(doc.fonteSha256, improntaMaterialePercorso(units));
-    assert.deepEqual(doc.manuale, [287, 352]); assert.equal(doc.pagine, 12);
-    assert.equal(doc.sezioni.length, 12);
-    const fonte = originali.find((d) => d.id === doc.id);
-    assert.equal(fonte.tipoFonte, 'manuale-ricostruito'); assert(!fonte.file && !fonte.sha256, 'nessun PDF o hash PDF inventato');
-    for (const [i, sec] of doc.sezioni.entries()) {
-      const u = units.find((u) => u.lezioni.some((l) => l.id === sec.lezione));
-      const l = u.lezioni.find((l) => l.id === sec.lezione);
-      assert.equal(sec.da, i + 1); assert.equal(sec.a, i + 1);
-      assert.deepEqual(sec.manuale, l.manuale); assert.equal(sec.tipoFonte, doc.tipoFonte);
-      const data = await read(`public/${sec.file}`);
-      assert.equal(data.lezione, l.id); assert.equal(data.tipoFonte, doc.tipoFonte); assert.deepEqual(data.manuale, l.manuale);
-      assert.deepEqual(data.blocchi, blocchiDaPercorso(l, u, i + 1), 'riuso integrale e identico del testo del Percorso');
-      assert.equal(data.blocchi.find((b) => b.id.endsWith('-sintesi')).markdown, l.sintesi);
-      assert(data.blocchi.every((b) => b.id.startsWith(`manuale-${u.id}-`) && b.pagina === i + 1));
-      assert(!lezioniCorso.has(`${doc.materia}:${l.id}`), 'una sola sezione completa per lezione');
-      lezioniCorso.set(`${doc.materia}:${l.id}`, sec.id);
-      sections++; integrazioni++; blocks += data.blocchi.length;
-    }
-    continue;
-  }
   const pdf = originali.find((d) => d.id === doc.id);
   const audit = report.documenti.find((d) => d.id === doc.id);
   assert(pdf && audit, 'una fonte dichiarata per ogni testo');
@@ -85,14 +59,9 @@ for (const doc of docs) {
     assert.equal(data.documento, doc.id); assert.equal(data.id, sec.id); assert.equal(data.edizione, doc.edizione);
     assert.equal(data.da, sec.da); assert.equal(data.a, sec.a);
     assert.equal(!!data.soloTitolo, !!sec.soloTitolo);
-    if (sec.soloTitolo) {
-      assert.deepEqual(data.integrazione, sec.integrazione);
-      assert.equal(sec.integrazione.documento, 'romano-manuale-integrazioni-v1');
-      assert(docs.find((d) => d.id === sec.integrazione.documento).sezioni.some((s) => s.id === sec.integrazione.sezione));
-    }
     assert(data.blocchi.length > 0);
-    // Testi IURIS di romano e privato: ogni sezione si apre con il titolo della sua lezione (confini-sezioni.json).
-    if (['romano-iuris-v1', 'privato-iuris-v1'].includes(doc.id)) assert.match(data.blocchi[0].markdown, /^#{2,3} /, `${doc.id}/${sec.id}: la sezione deve cominciare con un titolo`);
+    // Testi IURIS di romano, privato e filosofia A-L, M-Z e SSG: ogni sezione si apre con il titolo della sua lezione (confini-sezioni.json).
+    if (['romano-iuris-v1', 'privato-iuris-v1', 'filosofia-al-iuris-v1', 'filosofia-mz-iuris-v1', 'filosofia-ssg-iuris-v1'].includes(doc.id)) assert.match(data.blocchi[0].markdown, /^#{2,3} /, `${doc.id}/${sec.id}: la sezione deve cominciare con un titolo`);
     for (const b of data.blocchi) {
       assert(!seen.has(b.id), 'ID del blocco unico nel documento'); seen.add(b.id);
       assert.match(b.id, /^p\d{3}-b\d{3}$/); assert.equal(Number(b.id.slice(1, 4)), b.pagina);
@@ -141,17 +110,24 @@ for (const doc of docs) {
   assert.equal(seen.size, audit.blocchi);
   pages += doc.pagine;
 }
-assert.equal(docs.length, 11); assert.equal(pages, 1242); assert.equal(soloTesto, 5); assert.equal(integrazioni, 12); assert(pilot >= 2);
-assert.equal(originali.filter((d) => d.file).length, 5, '5 PDF pubblicati');
+assert.equal(docs.length, 6); assert.equal(pages, 1254); assert.equal(soloTesto, 6); assert(pilot >= 2);
+assert(!docs.some((d) => d.id === 'romano-manuale-integrazioni-v1'), 'Romano: un solo testo, le unità 14 e 15 sono nel testo IURIS');
+assert.deepEqual(docs.filter((d) => d.materia === 'filosofia-del-diritto').map((d) => d.id), ['filosofia-al-iuris-v1'], 'Filosofia A-L: un solo testo (Incampo pp. 1–100, Moro pp. 101–131, Cotta pp. 132–161)');
+assert.deepEqual(docs.filter((d) => d.materia === 'filosofia-del-diritto-mz').map((d) => d.id), ['filosofia-mz-iuris-v1'], 'Filosofia M-Z: un solo testo (Barberis pp. 1–56, Schauer pp. 57–132)');
+assert.deepEqual(docs.filter((d) => d.materia === 'filosofia-del-diritto-ssg').map((d) => d.id), ['filosofia-ssg-iuris-v1'], 'Filosofia SSG: un solo testo (lezioni del corso pp. 1–192, Incampo pp. 193–221)');
+assert.equal(originali.filter((d) => d.file).length, 0, 'nessun PDF pubblicato: tutti gli Originali sono testi IURIS');
 // Soglie minime per testo IURIS: titoli distinti dal corpo, capoversi e voci separati, mediana breve.
 // Costituzionale: 1.297 titoli, 6 tabelle, ~4.080 capoversi e voci. Romano: vedi piani/fase-romano/originali.md.
-// Privato: vedi piani/fase-privato/originali.md.
+// Privato: vedi piani/fase-privato/originali.md. Filosofia A-L, M-Z e SSG: piani/fase-filosofie/originali-al.md, originali-mz.md e originali-ssg.md.
 const SOGLIE_IURIS = {
   'costituzionale-iuris-v1': { titoli: 1200, tabelle: 5, capoversiEVoci: 3500, mediana: 80 },
   'romano-iuris-v1': { titoli: 650, tabelle: 1, capoversiEVoci: 2800, mediana: 60 },
   'privato-iuris-v1': { titoli: 900, tabelle: 2, capoversiEVoci: 3600, mediana: 60 },
+  'filosofia-al-iuris-v1': { titoli: 450, tabelle: 1, capoversiEVoci: 1900, mediana: 60 },
+  'filosofia-mz-iuris-v1': { titoli: 250, tabelle: 0, capoversiEVoci: 1100, mediana: 60 },
+  'filosofia-ssg-iuris-v1': { titoli: 600, tabelle: 0, capoversiEVoci: 1600, mediana: 60 },
 };
-assert.deepEqual([...iuris.keys()].sort(), Object.keys(SOGLIE_IURIS).sort(), 'testi IURIS attesi: costituzionale, romano e privato');
+assert.deepEqual([...iuris.keys()].sort(), Object.keys(SOGLIE_IURIS).sort(), 'testi IURIS attesi: costituzionale, romano, privato, filosofia A-L, M-Z e SSG');
 const misureIuris = [];
 for (const [id, m] of iuris) {
   const s = SOGLIE_IURIS[id];
@@ -166,14 +142,19 @@ for (const materia of ['diritto-romano', 'filosofia-del-diritto', 'filosofia-del
   const corso = await read(`public/content/${materia}/corso.json`);
   for (const l of corso.unita.flatMap((u) => u.lezioni)) assert(lezioniCorso.has(`${materia}:${l.id}`), `testo completo accessibile per ${materia}/${l.id}`);
 }
-const p1 = await read('public/letture/filosofia-incampo-v1/u01-l1.json');
-const opening = p1.blocchi.find((b) => b.id === 'p001-b002');
-assert.equal(plain(opening.markdown), 'A differenza delle altre scienze, che hanno un oggetto ben definito, la filosofia non possiede un contenuto determinato. La sua peculiarità non risiede nel suo oggetto, ma piuttosto nelle sue domande.', 'il passaggio del segno preesistente resta identico');
-assert(p1.blocchi.some((b) => b.markdown.includes('Ἔστιν') && b.markdown.includes('ὂν')), 'citazione greca conservata');
-assert(p1.blocchi.find((b) => b.id === 'p002-b010').markdown.includes('res cogitans'));
-assert(p1.blocchi.find((b) => b.id === 'p001-b008').testoFonte.includes('non è'));
-const p2 = await read('public/letture/filosofia-incampo-v1/u01-l2.json');
+// Filosofia A-L (filosofia-al-iuris-v1), il testo di chi usa l'app ogni giorno: apertura identica alla fonte, greco,
+// latino e collegamenti al glossario conservati.
+const testoAl = await readFile(path.join(root, 'letture-src/testi/filosofia-al-iuris.txt'), 'utf8');
+const p1 = await read('public/letture/filosofia-al-iuris-v1/u01-l1.json');
+assert.equal(p1.blocchi[0].markdown, '## Filosofia del diritto', 'Filosofia A-L: la prima sezione si apre con il titolo del testo');
+const opening = p1.blocchi.find((b) => b.id === 'p001-b006');
+const rigaApertura = testoAl.split('\n').find((r) => r.startsWith('Ogni scienza si riconosce dal suo oggetto'));
+assert(rigaApertura && plain(opening.markdown) === rigaApertura, 'il capoverso di apertura resta identico alla fonte');
+const greco = p1.blocchi.find((b) => b.id === 'p001-b007');
+assert(greco.markdown.includes('Ἔστιν ἐπιστήμη τις ἣ θεωρεῖ τὸ ὂν ᾗ ὂν'), 'citazione greca conservata');
+assert(greco.markdown.includes('[[aristotele|Aristotele]]'), 'collegamenti al glossario di Filosofia A-L');
+assert(p1.blocchi.find((b) => b.id === 'p002-b012').markdown.includes('res cogitans'));
+const p2 = await read('public/letture/filosofia-al-iuris-v1/u01-l2.json');
 assert(p2.blocchi.find((b) => b.id === 'p006-b001').markdown.includes('nullum crimen sine lege'));
-assert(p2.blocchi.find((b) => b.id === 'p005-b004').notaRevisione.includes('resta da verificare'));
-console.log(`Estrazione verificata: ${originali.filter((d) => d.file).length} PDF e ${soloTesto} testi senza PDF, ${pages} pagine originali, ${integrazioni} integrazioni dal Percorso; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);
+console.log(`Estrazione verificata: ${originali.filter((d) => d.file).length} PDF e ${soloTesto} testi senza PDF, ${pages} pagine originali; ${sections} sezioni, ${blocks} blocchi, copertura di ${lezioniCorso.size} lezioni; fonti, greco e ID conservati.`);
 console.log(`Impaginazione dei testi IURIS verificata (nessun capoverso o voce oltre 200 parole, testo integrale conservato): ${misureIuris.join('; ')}.`);

@@ -9,7 +9,10 @@ const campione = JSON.parse(await readFile(new URL('./fixtures/segni-campione.js
 // Soglie: quanti segni del backup di prova si ritrovavano prima di questa tornata di revisioni (mai meno).
 // Romano: il testo IURIS (romano-iuris-v1) ha sostituito gli appunti; campione e stress sono stati rigenerati sul testo nuovo
 // (12 novembre 2026, stesse forme del backup di prova: capoversi interi, prime frasi, titoli, voci, 6 segni su due blocchi).
-const MINIMO_STRESS = { 'romano-iuris-v1': 287, 'filosofia-incampo-v1': 154, 'filosofia-moro-v1': 30 };
+// Filosofia A-L: il testo IURIS (filosofia-al-iuris-v1) ha sostituito gli appunti di Incampo, Moro e Cotta; campione
+// rigenerato sul testo nuovo con le regole di genera-segni-campione.mjs e stress = i 184 segni del backup di prova di Incampo
+// (154) e Moro (30) portati sul testo nuovo dalla migrazione (12 novembre 2026; 6 restano «da ricollocare», in coda).
+const MINIMO_STRESS = { 'romano-iuris-v1': 287, 'filosofia-al-iuris-v1': 178 };
 // Documenti che devono avere segni di prova: un documento nuovo senza campione non deve passare in silenzio.
 for (const id of Object.keys(MINIMO_STRESS)) assert(campione.documenti[id]?.length && campione.stress?.[id]?.length, `${id}: segni di prova mancanti in fixtures/segni-campione.json`);
 // Privato: il testo IURIS (privato-iuris-v1) ha sostituito la dispensa, che non aveva segni di prova; campione generato

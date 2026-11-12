@@ -2,25 +2,9 @@
   "nome": "Filosofia del diritto",
   "breve": "Filosofia del diritto",
   "manuale": "M. Barberis, Giuristi e filosofi. Una storia della filosofia del diritto · F. Schauer, Il ragionamento giuridico. Una nuova introduzione",
-  "fonti": [
-    {
-      "id": "barberis",
-      "nome": "Barberis",
-      "file": "Barberis, Giuristi e filosofi (riassunto, 56 pp).pdf",
-      "descrizione": "Riassunto di M. Barberis, Giuristi e filosofi. Una storia della filosofia del diritto",
-      "pagine": 56
-    },
-    {
-      "id": "schauer",
-      "nome": "Schauer",
-      "file": "Schauer, Il ragionamento giuridico (riassunto, 76 pp).pdf",
-      "descrizione": "Riassunto di F. Schauer, Il ragionamento giuridico. Una nuova introduzione",
-      "pagine": 76
-    }
-  ],
   "fonte": {
-    "file": "due testi",
-    "descrizione": "Barberis, Schauer",
+    "file": "Testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma di Filosofia del diritto M-Z: storia della filosofia del diritto (M. Barberis, Giuristi e filosofi, pp. 1–56) e ragionamento giuridico (F. Schauer, Il ragionamento giuridico, pp. 57–132).",
     "pagine": 132
   },
   "colore": "#37679a"

@@ -1,7 +1,6 @@
 {
   "id": "u04",
   "ordine": 4,
-  "fonte": "incampo",
   "titolo": "Diritto e logica: verità o validità delle norme",
   "capitolo": "Capitolo 4",
   "pagine": [
@@ -703,7 +702,7 @@
         "testo": "Tre osservazioni di Incampo",
         "figli": [
           {
-            "testo": "1. Verità ontica ≠ semantica",
+            "testo": "Verità ontica ≠ semantica",
             "concetto": "verita-ontica",
             "figli": [
               {
@@ -728,11 +727,11 @@
             ]
           },
           {
-            "testo": "2. Un vero senza falso è anomalo",
+            "testo": "Un vero senza falso è anomalo",
             "nota": "Astaire e Rogers; diverso da «Ogni corpo è esteso»"
           },
           {
-            "testo": "3. Verità irrilevante nel processo",
+            "testo": "Verità irrilevante nel processo",
             "concetto": "sillogismo-giudiziale",
             "nota": "assolvere Tizio resta valido"
           }

@@ -1,12 +1,11 @@
 {
   "id": "u19",
   "ordine": 19,
-  "fonte": "schauer",
   "titolo": "Diritto e fatti; l'onere della prova e i suoi fratelli",
   "capitolo": "Capitoli XI–XII",
   "pagine": [
-    66,
-    76
+    122,
+    132
   ],
   "abstract": "Gli ultimi due capitoli spostano lo sguardo dal diritto ai fatti. Il capitolo XI mostra che accertare i fatti è parte del ragionamento giuridico: nel common law lo fanno giuria e giudice di primo grado, con il contraddittorio e un diritto probatorio pieno di regole di esclusione (criticate da Bentham); in appello i giudici si appoggiano spesso a fatti sociali non provati. Il capitolo XII studia gli strumenti con cui il diritto decide nell'incertezza: onere della prova, presunzioni, deferenza e standard di revisione, che accettano errori «del tipo giusto» in nome di valori istituzionali.",
   "note": "Distinzione da ricordare: onere della persuasione (convincere il giudice) e onere della produzione (portare i fatti che sollevano la questione). Le presunzioni assolute, per Schauer, funzionano come qualsiasi regola.",
@@ -16,8 +15,8 @@
       "id": "u19-l1",
       "titolo": "Diritto e fatti: accertare i fatti in giudizio",
       "pagine": [
-        66,
-        68
+        122,
+        124
       ],
       "minuti": 25,
       "sintesi": "### La nozione di fatto\n\nLe discussioni sul [[ragionamento-giuridico|ragionamento giuridico]] si concentrano quasi sempre sul **diritto** e dedicano poco spazio ai **fatti**. Eppure la sentenza tipica comincia spiegando **che cosa è successo** (la **questione di fatto**) e solo dopo stabilisce **come il diritto deve reagire** (la **questione di diritto**): sono le **[[questioni-di-fatto-e-di-diritto|questioni di fatto e di diritto]]**.\n\nLa distinzione non è semplice. Nelle questioni costituzionali, risolvere questioni di fatto è proprio ciò che vogliamo che i giudici facciano per tutelare i valori costituzionali. La confusione non nasce dalla mancanza di una distinzione tra fatti e diritto, ma dal modo in cui la cultura giuridica di [[common-law|common law]] ha sempre ripetuto che **i fatti sono per i giurati e il diritto per i giudici**, mentre in realtà:\n\n- molte cose che i **giurati** fanno applicando il diritto comportano la soluzione di **questioni di diritto**;\n- molte cose che i **giudici** fanno presuppongono la soluzione di **questioni di fatto**.\n\nPerciò risolvere questioni di fatto è una parte **cruciale** del ragionamento e dell'argomentazione dei giuristi, a tutti i livelli del sistema. Anche le decisioni dei giudici di legittimità contengono elementi fattuali e giuridici; le analisi si sono concentrate quasi solo sui secondi, assumendo che i fatti riguardino il **diritto delle prove** o non siano un problema di ragionamento giuridico. Ma poiché le questioni di diritto ruotano quasi sempre intorno a questioni di fatto, escluderle è **molto singolare**.\n\n### Chi accerta i fatti\n\nDi norma stabilire che cosa è successo spetta al **tribunale di primo grado**, al cosiddetto **«valutatore dei fatti»** ([[accertamento-dei-fatti|accertamento dei fatti]]). Nel common law è di regola la **[[giuria|giuria]]**, anche se in molti casi penali e nella **maggioranza dei casi civili** è il **giudice**.\n\nFuori dal diritto i fatti del passato si scoprono «**uscendo a cercare**»; nelle scienze naturali con l'**esperimento**; nelle scienze sociali raccogliendo e analizzando **dati**, anche con grandi **banche dati**. Il metodo del diritto **non è universale**: nei paesi di common law si fonda sulla credenza che i procedimenti basati sul **[[principio-del-contraddittorio|contraddittorio]]**, nei quali le **parti** hanno la responsabilità primaria di produrre le prove, siano strumenti apprezzabili (non gli unici) per accertare la verità. L'idea è che un buon modo di trovare la verità sia il **confronto tra opinioni opposte**.\n\n### Il diritto probatorio e le regole di esclusione\n\nL'accertamento giuridico dei fatti, oltre ai problemi del contraddittorio, è inquadrato dal **[[diritto-probatorio|diritto probatorio]]**. Per vari fattori si è sviluppato un insieme di norme la cui funzione principale è **tenere lontane da una giuria**, spesso ritenuta poco affidabile, prove talora **assai rilevanti**: le **[[regole-di-esclusione|regole di esclusione]]**, che spesso appaiono strane.\n\nQueste [[regola|regole]] fecero infuriare [[jeremy-bentham|Bentham]], che le avrebbe eliminate quasi del tutto a favore di un «**sistema naturale**», oggi detto della **[[prova-libera|prova libera]]**:\n\n| Regole di esclusione | Prova libera (Bentham) |\n|---|---|\n| alcune prove sono escluse **in via preliminare**, per classi | si ammettono **praticamente tutte** le prove |\n| la giuria non le vede affatto | le prove sono **vagliate, soppesate e valutate** alla luce delle altre e ricevono il peso che meritano |\n| si teme che la giuria le sopravvaluti | le inaffidabili si scartano, alle deboli si dà poco credito |\n\nL'idea di Bentham: quando cerchiamo di sapere che cosa è successo, non conviene **escludere** prove potenzialmente rilevanti solo perché appartengono a una **classe di prove imperfette**.\n\n### Le regole di esclusione oggi\n\n- I **giudici senza giuria** trattano spesso le norme sulle prove in modo **informale**.\n- Regole come quella sulla **testimonianza per sentito dire** e sui **documenti originali** sono soggette a sempre più **eccezioni**.\n- Altre regole di esclusione sono state **abolite** ufficialmente o vengono **trascurate**.\n\nCome altri strumenti del ragionamento giuridico, i metodi giuridici di accertamento dei fatti **non sono esclusivi del diritto**: ma è un errore non riconoscere che decidere dentro il sistema giuridico è almeno «**lievemente**» diverso.",
@@ -71,8 +70,8 @@
       "id": "u19-l2",
       "titolo": "I fatti nel processo d'appello e il diritto nell'incertezza",
       "pagine": [
-        69,
-        70
+        125,
+        126
       ],
       "minuti": 20,
       "sintesi": "### Fatti separati dalle conclusioni in diritto\n\nIl legame del diritto con i suoi metodi di [[accertamento-dei-fatti|accertamento dei fatti]] si vede anche nella struttura delle decisioni. Poiché il diritto distingue **chi valuta i fatti** da **chi determina il diritto**, l'accertamento dei fatti è di solito **separato** dalle conclusioni in diritto anche quando lo **stesso giudice** svolge entrambi i compiti.\n\nNel processo d'appello l'accertamento dei fatti è trattato come **«sacro»**: spetta alla [[giuria|giuria]] o al giudice di primo grado. Anche se i fatti ricostruiti in prima istanza sembrano **sbagliati** alla corte d'appello, quelle affermazioni fattuali **devono essere considerate vere**. Per secoli si è assunto che i **fatti** spettino alla prima istanza e che all'**appello** spetti solo il controllo sulla soluzione delle **questioni giuridiche** ([[questioni-di-fatto-e-di-diritto|questioni di fatto e di diritto]]).\n\n### La «sociologia da poltrona» delle corti d'appello\n\nMa le corti d'appello, soprattutto quando [[creazione-giudiziale-del-diritto|creano diritto]], poggiano spesso su **asserzioni fattuali** potenzialmente confutabili. La domanda rilevante è **in quale misura** un'asserzione fattuale discutibile sia stata **cruciale** per la conclusione giuridica. [[frederick-schauer|Schauer]] osserva che la creazione di una nuova [[regola|regola]] da parte di una corte può basarsi su una determinazione fattuale il cui sostegno principale sono **le credenze, le esperienze, le intuizioni, i presentimenti** e la **«[[sociologia-da-poltrona|sociologia da poltrona]]»** degli stessi giudici.\n\nSe le **proposizioni sociali** pesano tanto nelle decisioni d'appello, **come può una corte d'appello accertare i fatti** necessari? È la questione che il giudice **[[stephen-breyer|Breyer]]** della [[corte-suprema-degli-stati-uniti|Corte Suprema]] ha portato al centro del dibattito. Breyer non esita a **oltrepassare** gli accertamenti della prima istanza per compiere da sé gli accertamenti che ritiene necessari; per lui la gestione delle ricerche fattuali e scientifiche in appello è un problema pressante, ma la soluzione forse **non è ancora vicina**.\n\n### Fatti incorporati nel diritto «di nascosto»\n\nAnche quando il giudice **non cita** riviste accademiche non giuridiche, giornali o altre risorse, fa perno su **fonti informative fattuali**, discutibili, che finiscono incorporate nel diritto in modo un po' **surrettizio**. E ciò anche se possono danneggiare una parte che non ha avuto occasione di **contraddirle** con il normale processo in [[principio-del-contraddittorio|contraddittorio]], che comprende (ma non si esaurisce in) l'**esame incrociato**.\n\nI giudici che **creano** diritto, e spesso anche quelli che lo **applicano**, devono affidarsi a **conclusioni empiriche implicite**. Se non sono dichiarate con citazioni, c'è il rischio di ignorare quanto siano **confutabili**: ciò che i giudici ritengono **conoscenza comune** potrebbe essere discusso da altri.\n\n### Il diritto in condizioni di incertezza\n\nIl capitolo XII parte da qui: il diritto lavora **in condizioni di incertezza** ed è un sistema complesso dominato dalla **[[separazione-dei-poteri|separazione dei poteri]]** in senso tecnico:\n\n- le corti d'appello devono tener conto dei compiti di **giurati** e **corti di prima istanza**;\n- le corti **federali** devono rispettare le attribuzioni delle corti **statali**, e viceversa (dovere di origine costituzionale);\n- le corti che giudicano la costituzionalità di atti legislativi o amministrativi devono riconoscere le responsabilità dei **[[parlamento|parlamenti]]** e le competenze delle **amministrazioni**.\n\nLa **[[competenza-giurisdizionale|competenza]]** degli organi è una parte del diritto processuale civile, ma è ancora più **centrale per la nozione stessa di diritto**: il diritto si interessa non solo di **che cosa** si deve decidere, ma di **chi** deve decidere. In queste condizioni contano l'**[[onere-della-prova|onere della prova]]** e le nozioni correlate di **[[deferenza|deferenza]]** e **[[presunzione|presunzione]]**.",
@@ -126,8 +125,8 @@
       "id": "u19-l3",
       "titolo": "L'onere della prova e le presunzioni",
       "pagine": [
-        71,
-        73
+        127,
+        129
       ],
       "minuti": 30,
       "sintesi": "### L'onere della prova nel processo penale\n\nL'**[[onere-della-prova|onere della prova]]** riflette **valori sostanziali** profondi, non solo processuali, che cambiano a seconda delle conseguenze della decisione. Il caso più noto è il processo **penale**, dove l'accusa va provata **[[oltre-ogni-ragionevole-dubbio|oltre ogni ragionevole dubbio]]**: la [[giuria|giuria]] o il giudice devono avere un grado di certezza **molto alto** sulla colpa dell'imputato. Per esempio, se si chiede una certezza del **95%**, quando non si è sicuri almeno a quel livello si deve pronunciare un verdetto di «**innocenza**».\n\nUno standard così alto lascia **senza condanna** un gran numero di colpevoli e può sembrare una cattiva idea. La giustificazione canonica la diede **[[william-blackstone|Blackstone]]**: «è meglio che dieci colpevoli siano lasciati andare piuttosto che un innocente soffra». Lasciare liberi i colpevoli è inopportuno, ma **condannare un innocente è molto peggio**. Il sistema **calibra** quindi l'onere della prova per incarcerare i colpevoli mantenendo **molto basso** il numero di innocenti condannati.\n\nLa soluzione **non è perfetta**: per non condannare **mai** un innocente si dovrebbe fissare un onere altissimo, e si condannerebbero pochissimi colpevoli. Lo standard del [[common-law|common law]] è un **bilanciamento**: condannare un innocente è molto peggio che assolvere un colpevole, ma evitare la condanna degli innocenti **non è l'unico valore** in gioco.\n\n### Il processo civile e i diversi oneri\n\nNel processo **civile** lo standard è **molto diverso**: l'errore di un attore ingiustamente non risarcito **non è più grave** di quello di un convenuto ingiustamente ritenuto responsabile. Poiché gli errori **si equivalgono**, l'onere della prova riflette questa equivalenza.\n\n| Processo penale | Processo civile |\n|---|---|\n| condannare un innocente è molto peggio che assolvere un colpevole | i due errori si equivalgono |\n| prova **oltre ogni ragionevole dubbio** | standard **molto più basso** |\n\nSu molte questioni (prima del dibattimento, procedurali, probatorie e sostanziali) su una parte incombe l'**onere della persuasione**, da distinguere dall'onere «di portare avanti la prova», cioè l'**onere della produzione**: poiché spesso una parte possiede più probabilmente le informazioni rilevanti, il diritto le attribuisce l'onere di **apportare i fatti sufficienti** per sollevare una questione. Si chiamano «**oneri**» perché gran parte degli argomenti giuridici consiste nel convincere il giudice che l'onere **ricade sulla controparte**.\n\n### Le presunzioni\n\nLe **[[presunzione|presunzioni]]** sono il **punto di partenza** della ricerca empirica: stabiliscono quali fatti vanno **considerati veri** se la parte gravata dall'onere non lo soddisfa, e quali circostanze si considerano provate quando una parte prova un fatto particolare. In un certo senso la presunzione **precede** l'onere della prova: è essa a stabilire **chi** ne è gravato e che cosa accade se non lo soddisfa.\n\nEsempi:\n\n- la **presunzione di legittimità** del common law: il figlio si presume discendente legittimo dei suoi genitori; l'onere di provare il contrario grava su chi contesta;\n- la presunzione più famosa, «**la cosa parla da sola**» (**[[res-ipsa-loquitur|res ipsa loquitur]]**): il paziente che esce da un intervento con una **garza** o uno strumento nell'addome **non deve provare la negligenza** del chirurgo, che si presume dalla natura stessa dell'evento.\n\nSpesso le presunzioni non operano automaticamente: una parte deve provare **qualcosa** e, in base a ciò, si presume **qualcos'altro**.\n\n### Presunzioni relative e assolute\n\n| Presunzioni **relative** | Presunzioni **[[presunzione-assoluta|assolute]]** |\n|---|---|\n| **confutabili**, vicine all'onere della prova | **inconfutabili** |\n| distribuiscono l'onere della produzione e indicano che cosa provare | l'altra parte non può attaccare la conclusione |\n| fanno la vera differenza nel processo | restano isolate dalle questioni processuali |\n\nPer [[frederick-schauer|Schauer]] la presunzione **assoluta** non è molto diversa da una qualsiasi **[[regola|norma giuridica]]**: le regole funzionano proprio perché **non permettono di risalire alle ragioni** che le giustificano e restano dotate di forza anche quando danno risultati diversi da quelli che darebbe l'applicazione diretta di quelle ragioni ([[giustificazione-soggiacente|giustificazione soggiacente]]). Una presunzione assoluta è solo un altro modo di descrivere un aspetto **presente in tutte le regole**, e non c'è nulla di profondamente sbagliato in ciò.",
@@ -181,8 +180,8 @@
       "id": "u19-l4",
       "titolo": "Deferenza, competenza e la scelta di accettare errori",
       "pagine": [
-        74,
-        76
+        130,
+        132
       ],
       "minuti": 30,
       "sintesi": "### Le presunzioni relative e il diritto statunitense\n\nLe **presunzioni relative** sono quelle che fanno la vera differenza nel processo: sono elementi essenziali della struttura della lite e servono a non **sprecare** risorse giuridiche e giudiziarie **scarse**, costringendo le parti a spendere tempo e denaro per provare ciò che è **solitamente, ma non sempre, vero**.\n\nPer [[frederick-schauer|Schauer]] l'idea di **[[presunzione|presunzione]]** descrive bene gran parte del diritto statunitense e riconcilia orientamenti apparentemente opposti. La sua migliore ricostruzione è questa: si **presume** che il **diritto formale** detti la soluzione dei casi; ma quella soluzione può non essere definitiva se la parte che ne è gravata prova, o persuade la corte, che il risultato è **estremamente ingiusto**, non solo scorretto ma **molto scorretto**. Così la presunzione concilia le esigenze di **stabilità e [[certezza-del-diritto|prevedibilità]]**, soddisfatte da un approccio formale ([[formalismo-giuridico|formalismo]]), con il riconoscimento che il diritto formale non dà sempre la soluzione giusta e che a volte l'errore è così grave che sarebbe inaccettabile non fare nulla.\n\n### La competenza: chi deve decidere che cosa\n\nIl diritto si interessa molto della **[[competenza-giurisdizionale|competenza]]**, in senso tecnico e atecnico.\n\n- **In senso tecnico** si chiede se e quando una corte ha il potere di decidere e di far valere una sentenza verso certi individui od organi:\n  - **competenza in base alla persona**: se una corte possa giudicare un soggetto che ha pochi legami con il luogo in cui ha sede, o soggetti che ricoprono certe posizioni;\n  - **competenza per materia**: se una corte possa decidere casi **di un certo tipo**.\n- **In senso ampio** la competenza riguarda **chi deve decidere che cosa**: una preoccupazione costante della mente giuridica è se l'istituzione che ha deciso **avesse l'autorità** per farlo. Per il diritto **non basta che la decisione sia corretta**: chi decide deve averne la competenza.\n\n### Deferenza e autorità\n\nMolte di queste questioni si annidano nella **[[deferenza|deferenza]]**, che ricorda l'[[autorita|autorità]] ma funziona **in modo opposto**:\n\n| Autorità | Deferenza |\n|---|---|\n| relazione **dall'alto in basso**: chi la esercita dà ordini, chi è sottoposto obbedisce anche se in disaccordo | chi sta **più in alto** nella scala gerarchica rispetta decisioni di chi sta **più in basso**, anche se non le condivide |\n| obbedienza del sottoposto | libertà d'azione concessa all'inferiore |\n\nLa deferenza si concede per **efficienza, rispetto, specializzazione, diversità** e **[[separazione-dei-poteri|separazione dei poteri]]** in senso ampio. È strettamente connessa con presunzioni e onere della prova: l'idea che le accomuna è quella di uno **[[standard-di-revisione|standard di revisione]]**. Esempi:\n\n- un tribunale di solito **non annulla** un provvedimento amministrativo se non lo considera **arbitrario e irragionevole**;\n- una corte d'appello di solito non annulla la decisione del primo grado sull'**ammissione o esclusione di prove** se non c'è **abuso di [[discrezionalita|discrezionalità]]**.\n\nCon questi criteri le decisioni probatorie o amministrative sono **convalidate** anche quando i giudici **non sono d'accordo**, salvo che siano scorrette in modo **estremo o scandaloso**.\n\n### Quattro modi di dire la stessa cosa\n\n**Deferenza, presunzioni, onere della prova e criteri di revisione** operano insieme e, in certi contesti, sono **modi diversi di descrivere la stessa relazione** da angolature diverse. In tutti i casi il diritto **accetta errori**:\n\n- la corte deferente o con uno standard di revisione elevato si impegna a **tollerare** soluzioni che ritiene erronee;\n- le presunzioni, nell'incertezza, portano talora a conclusioni fattuali **semplicemente false**;\n- chi ha l'[[onere-della-prova|onere della prova]] talvolta non riesce a provare un fatto che è **davvero accaduto**.\n\nSi spera però che gli errori siano **«del tipo giusto»**.\n\n### Conclusione del libro\n\nIl diritto accetta **[[decisioni-subottimali|risposte subottimali]]** per soddisfare **valori istituzionali** più elevati o di più lungo periodo, e perché il modo migliore di ottenere **più decisioni corrette nel lungo periodo** spesso non è cercare la decisione migliore in ogni singola occasione. In questo il diritto **non differisce per natura** da altre istituzioni che decidono, ma **per grado**. Al cuore del [[ragionamento-giuridico|ragionamento giuridico]] sta l'accettazione che **la decisione migliore non sempre è la migliore decisione giuridica**. Non è irrazionalità: il diritto prende sul serio i valori istituzionali, sperando di avere nel lungo periodo **istituzioni migliori** di quelle che avremmo se ognuno cercasse la migliore decisione per il caso singolo.",
@@ -249,8 +248,8 @@
       "breve": "Che cosa è successo e come il diritto deve reagire: due parti di ogni decisione, meno separabili di quanto si dica.",
       "definizione": "La sentenza tipica spiega prima che cosa è successo (questione di fatto) e poi come il diritto deve reagire (questione di diritto). La cultura del [[common-law|common law]] ripete che i fatti sono per i giurati e il diritto per i giudici, ma in realtà la [[giuria|giuria]], applicando il diritto, risolve anche questioni di diritto e i giudici presuppongono questioni di fatto. Per [[frederick-schauer|Schauer]] risolvere questioni di fatto è parte cruciale del [[ragionamento-giuridico|ragionamento giuridico]], a tutti i livelli: le analisi tradizionali, concentrate solo sul diritto, trascurano che le questioni di diritto ruotano quasi sempre intorno ai fatti. In appello vale la regola opposta: i fatti accertati in primo grado sono considerati veri.",
       "pagine": [
-        66,
-        69
+        122,
+        125
       ]
     },
     {
@@ -265,8 +264,8 @@
       "breve": "Stabilire che cosa è successo: nel common law lo fa il «valutatore dei fatti» di primo grado, giuria o giudice.",
       "definizione": "Attività con cui il processo stabilisce che cosa è successo. Spetta di norma al tribunale di primo grado, cioè al «valutatore dei fatti»: nel [[common-law|common law]] la [[giuria|giuria]] o, in molti casi penali e nella maggioranza dei civili, il giudice. A differenza delle scienze (esperimento, raccolta di dati, banche dati) il diritto accerta i fatti con il [[principio-del-contraddittorio|contraddittorio]] ed entro le regole del [[diritto-probatorio|diritto probatorio]]. L'accertamento resta separato dalle conclusioni in diritto ed è «sacro» in appello: i fatti ricostruiti in prima istanza vanno considerati veri anche se sembrano errati. Le corti d'appello che creano diritto però si appoggiano spesso a fatti sociali non accertati ([[sociologia-da-poltrona|sociologia da poltrona]]).",
       "pagine": [
-        67,
-        69
+        123,
+        125
       ]
     },
     {
@@ -280,8 +279,8 @@
       "breve": "Collegio di cittadini che nel common law accerta di regola i fatti; ritenuto poco affidabile, è protetto da regole di esclusione.",
       "definizione": "Nei sistemi di [[common-law|common law]] è l'organo normalmente chiamato a selezionare e valutare i fatti, anche se in molti casi penali e nella maggioranza dei casi civili è il giudice a stabilire che cosa è accaduto. La massima tradizionale vuole che i fatti siano per i giurati e il diritto per i giudici, ma [[frederick-schauer|Schauer]] osserva che i giurati, applicando il diritto, risolvono anche [[questioni-di-fatto-e-di-diritto|questioni di diritto]]. Proprio perché la giuria è spesso ritenuta poco affidabile, il [[diritto-probatorio|diritto probatorio]] si è riempito di [[regole-di-esclusione|regole di esclusione]] che le tengono lontane anche prove rilevanti; nel penale deve essere convinta [[oltre-ogni-ragionevole-dubbio|oltre ogni ragionevole dubbio]].",
       "pagine": [
-        66,
-        71
+        122,
+        127
       ]
     },
     {
@@ -297,8 +296,8 @@
       "breve": "Metodo del common law per accertare la verità: le parti producono le prove e la verità emerge dal confronto.",
       "definizione": "Nella maggior parte dei paesi di [[common-law|common law]] l'[[accertamento-dei-fatti|accertamento dei fatti]] si fonda sulla credenza che i procedimenti basati sul contraddittorio, nei quali le parti hanno la responsabilità primaria di produrre le prove, siano strumenti apprezzabili, benché non unici, per trovare la verità: l'idea è che un buon modo di trovarla sia il confronto tra opinioni opposte. Il metodo non è universale e si distingue da quelli delle scienze. Comprende tra l'altro l'esame incrociato dei testimoni. [[frederick-schauer|Schauer]] nota che le asserzioni fattuali su cui si fondano molte decisioni d'appello ([[sociologia-da-poltrona|sociologia da poltrona]]) sfuggono al contraddittorio: la parte danneggiata non ha occasione di contestarle.",
       "pagine": [
-        67,
-        70
+        123,
+        126
       ]
     },
     {
@@ -313,8 +312,8 @@
       "breve": "Insieme delle norme sulle prove: nel common law è dominato da regole di esclusione pensate per proteggere la giuria.",
       "definizione": "Insieme peculiare di norme che inquadra l'[[accertamento-dei-fatti|accertamento dei fatti]] nel processo. Nel [[common-law|common law]] si è sviluppato per vari fattori con una funzione principale: tenere lontane da una [[giuria|giuria]], spesso ritenuta poco affidabile, prove talora assai rilevanti, mediante [[regole-di-esclusione|regole di esclusione]] che spesso appaiono strane. [[jeremy-bentham|Bentham]] lo attaccò proponendo la [[prova-libera|prova libera]]. Oggi i giudici senza giuria lo trattano spesso in modo informale e molte sue regole hanno eccezioni crescenti o sono trascurate. Per molti studiosi i fatti riguarderebbero solo il diritto probatorio e non il ragionamento giuridico: [[frederick-schauer|Schauer]] lo considera un errore.",
       "pagine": [
-        67,
-        68
+        123,
+        124
       ]
     },
     {
@@ -331,8 +330,8 @@
       "breve": "Norme che escludono in via preliminare intere classi di prove, come la testimonianza per sentito dire.",
       "definizione": "Norme del [[diritto-probatorio|diritto probatorio]] che escludono in via preliminare intere classi di prove, anche rilevanti, perché non arrivino a una [[giuria|giuria]] ritenuta incapace di valutarle. Esempi citati da [[frederick-schauer|Schauer]]: la regola sulle testimonianze per sentito dire e quella sui documenti originali. Fecero infuriare [[jeremy-bentham|Bentham]], che voleva eliminarle a favore della [[prova-libera|prova libera]]: escludere prove solo perché appartengono a una classe imperfetta danneggia la ricerca della verità. Oggi sono sempre più soggette a eccezioni, alcune sono state abolite ufficialmente o vengono trascurate, e i giudici che decidono senza giuria le applicano in modo informale. Sono un esempio di [[regola|regole]] che operano per classi.",
       "pagine": [
-        68,
-        68
+        124,
+        124
       ]
     },
     {
@@ -347,8 +346,8 @@
       "breve": "Il «sistema naturale» di Bentham: ammettere quasi tutte le prove e dare a ciascuna il peso che merita.",
       "definizione": "Metodo proposto da [[jeremy-bentham|Bentham]] con il nome di «sistema naturale», oggi detto della prova libera, in alternativa alle [[regole-di-esclusione|regole di esclusione]]. Le prove non vengono escluse in via preliminare mediante regole: si ammettono praticamente tutte e poi sono vagliate, soppesate e valutate alla luce delle altre, per dare a ciascuna il peso che merita; le inaffidabili si scartano, alle deboli si dà poco credito. L'idea è che, quando si cerca di sapere che cosa è successo, non conviene escludere prove potenzialmente rilevanti solo perché rientrano in una classe di prove imperfette. È il modo in cui, fuori dal diritto, si accertano normalmente i fatti; nei giudizi senza giuria il diritto vi si avvicina.",
       "pagine": [
-        68,
-        68
+        124,
+        124
       ]
     },
     {
@@ -363,8 +362,8 @@
       "breve": "Credenze, intuizioni e presentimenti dei giudici d'appello sui fatti sociali, usati per creare regole senza prova.",
       "definizione": "Espressione con cui [[frederick-schauer|Schauer]] indica le credenze, le esperienze, le intuizioni e i presentimenti su cui i giudici d'appello fondano le asserzioni fattuali necessarie per creare nuove [[regola|regole]]. Le proposizioni sociali hanno un grande ruolo nelle decisioni d'appello, ma la corte d'appello non ha strumenti per accertarle; il giudice [[stephen-breyer|Breyer]] ha posto il problema al centro del dibattito. Anche quando non cita riviste o giornali, il giudice si appoggia a conclusioni empiriche implicite che entrano nel diritto in modo surrettizio, senza che la parte danneggiata possa contestarle in [[principio-del-contraddittorio|contraddittorio]]; se non sono dichiarate, si rischia di ignorare quanto ciò che pare conoscenza comune sia confutabile.",
       "pagine": [
-        69,
-        70
+        125,
+        126
       ]
     },
     {
@@ -378,8 +377,8 @@
       "breve": "Giudice della Corte Suprema statunitense: ha posto al centro il problema dell'accertamento dei fatti in appello.",
       "definizione": "Giudice della [[corte-suprema-degli-stati-uniti|Corte Suprema degli Stati Uniti]] che, nel libro di [[frederick-schauer|Schauer]], ha portato al centro del dibattito giuridico la domanda su come una corte d'appello possa accertare i fatti sociali e scientifici su cui fonda le proprie conclusioni ([[sociologia-da-poltrona|sociologia da poltrona]]). Breyer è tutt'altro che restio a oltrepassare gli accertamenti della corte di prima istanza per compiere da sé quelli che ritiene necessari per risolvere il caso. Per lui la gestione delle ricerche fattuali e scientifiche nei processi d'appello è una questione pressante da tempo, ma la soluzione forse non è ancora vicina.",
       "pagine": [
-        69,
-        69
+        125,
+        125
       ]
     },
     {
@@ -396,8 +395,8 @@
       "breve": "Potere di un organo di decidere certi casi e certe persone; in senso ampio: chi deve decidere che cosa.",
       "definizione": "In senso tecnico è il potere di una corte di decidere e di far valere una sentenza: competenza in base alla persona (se la corte può giudicare un soggetto con pochi legami con il luogo in cui ha sede, o soggetti in certe posizioni) e competenza per materia (se può decidere casi di un certo tipo). In senso ampio riguarda chi deve decidere che cosa ed è, per [[frederick-schauer|Schauer]], centrale per la nozione stessa di diritto: per il diritto non basta che una decisione sia corretta, chi la prende deve averne l'[[autorita|autorità]]. Il diritto opera in un sistema di separazione dei poteri; da qui il peso della [[deferenza|deferenza]], dell'[[onere-della-prova|onere della prova]] e delle [[presunzione|presunzioni]].",
       "pagine": [
-        70,
-        75
+        126,
+        131
       ]
     },
     {
@@ -413,8 +412,8 @@
       "breve": "Regola che dice chi deve provare e con quale grado di certezza: distribuisce gli errori inevitabili nell'incertezza.",
       "definizione": "Strumento con cui il diritto decide in condizioni di incertezza: stabilisce quale parte deve provare e con quale grado di convinzione. Riflette valori sostanziali, non solo processuali: nel penale l'accusa va provata [[oltre-ogni-ragionevole-dubbio|oltre ogni ragionevole dubbio]], perché condannare un innocente è molto peggio che assolvere un colpevole ([[william-blackstone|Blackstone]]); nel civile i due errori si equivalgono e lo standard è molto più basso. [[frederick-schauer|Schauer]] distingue l'onere della persuasione dall'onere della produzione, cioè di apportare i fatti per sollevare una questione. Molti argomenti giuridici mirano a farlo ricadere sulla controparte. Con [[presunzione|presunzioni]] e [[deferenza|deferenza]] descrive la stessa relazione: accettare errori «del tipo giusto».",
       "pagine": [
-        70,
-        76
+        126,
+        132
       ]
     },
     {
@@ -429,8 +428,8 @@
       "breve": "Standard di prova del processo penale: per condannare occorre una certezza molto alta della colpa.",
       "definizione": "Standard dell'[[onere-della-prova|onere della prova]] nel processo penale: la giuria o il giudice possono condannare solo se hanno un grado di certezza molto alto sulla colpa dell'imputato; nell'esempio del riassunto, se non sono sicuri almeno al 95% devono pronunciare un verdetto di «innocenza». Lascia così senza condanna molti colpevoli, ma si giustifica con la massima di [[william-blackstone|Blackstone]]: è meglio che dieci colpevoli siano liberi piuttosto che un innocente soffra. Per [[frederick-schauer|Schauer]] è un bilanciamento imperfetto: un onere altissimo eviterebbe ogni condanna ingiusta ma assolverebbe quasi tutti i colpevoli, e evitare la condanna degli innocenti non è l'unico valore in gioco.",
       "pagine": [
-        71,
-        71
+        127,
+        127
       ]
     },
     {
@@ -444,8 +443,8 @@
       "breve": "Giurista inglese: «meglio che dieci colpevoli siano lasciati andare piuttosto che un innocente soffra».",
       "definizione": "Giurista inglese a cui [[frederick-schauer|Schauer]] attribuisce la giustificazione canonica dello standard penale [[oltre-ogni-ragionevole-dubbio|oltre ogni ragionevole dubbio]]: «il diritto ritiene che sia meglio che dieci persone colpevoli siano lasciate andare, piuttosto che un innocente soffra». Per Blackstone che i colpevoli restino liberi è inopportuno, ma è molto peggio che gli innocenti siano condannati. Ne deriva che il sistema giuridico calibra l'[[onere-della-prova|onere della prova]] per soddisfare l'interesse sociale a punire i colpevoli mantenendo molto basso il numero di innocenti condannati. La massima mostra che l'onere della prova esprime una scelta di valori su quale errore sia più grave.",
       "pagine": [
-        71,
-        71
+        127,
+        127
       ]
     },
     {
@@ -462,8 +461,8 @@
       "breve": "Punto di partenza della ricerca: dice quali fatti considerare veri se chi ha l'onere della prova non lo soddisfa.",
       "definizione": "Strumento con cui il diritto stabilisce quali fatti considerare veri se la parte gravata dall'[[onere-della-prova|onere della prova]] non lo soddisfa, e quali circostanze considerare provate quando una parte prova un certo fatto. In un senso precede l'onere della prova, perché dice chi ne è gravato. Esempi: la presunzione di legittimità dei figli e la [[res-ipsa-loquitur|res ipsa loquitur]]. Le presunzioni relative sono confutabili, fanno la vera differenza nel processo ed evitano di sprecare risorse per provare ciò che di solito è vero; quelle [[presunzione-assoluta|assolute]] sono inconfutabili. Per [[frederick-schauer|Schauer]] il diritto statunitense presume che decida il diritto formale, salvo prova di un risultato estremamente ingiusto.",
       "pagine": [
-        72,
-        74
+        128,
+        130
       ]
     },
     {
@@ -478,8 +477,8 @@
       "breve": "Presunzione che non ammette prova contraria: per Schauer funziona come qualsiasi regola giuridica.",
       "definizione": "[[presunzione|Presunzione]] inconfutabile: come quella relativa specifica lo stato di cose che il diritto assume come esistente, ma l'altra parte non può attaccarne la conclusione, sicché resta isolata da questioni processuali come l'onere della produzione o l'[[onere-della-prova|onere della prova]]. Per [[frederick-schauer|Schauer]] non è molto diversa da una qualsiasi [[regola|norma giuridica]]: le regole funzionano proprio perché non consentono di accedere alle ragioni che le sostengono e conservano forza anche quando danno risultati diversi da quelli della loro [[giustificazione-soggiacente|giustificazione soggiacente]]. La presunzione assoluta è solo un altro modo di descrivere un aspetto presente in tutte le regole, e non c'è nulla di sbagliato.",
       "pagine": [
-        73,
-        73
+        129,
+        129
       ]
     },
     {
@@ -494,8 +493,8 @@
       "breve": "«La cosa parla da sola»: la negligenza si presume dalla natura stessa dell'evento, come la garza lasciata nell'addome.",
       "definizione": "Per [[frederick-schauer|Schauer]] è la presunzione più famosa di tutte, «la cosa parla da sola» (in latino *res ipsa loquitur*). Il suo effetto è che il paziente che esce da un intervento chirurgico con una garza o uno strumento medico nell'addome non deve provare la negligenza del chirurgo: la negligenza si presume sulla base della natura stessa dell'evento. È un esempio di come le [[presunzione|presunzioni]] spesso non operino in modo automatico: una parte prova un fatto (la garza nell'addome) e in base a esso si presume qualcos'altro (la colpa). Sposta così l'[[onere-della-prova|onere della prova]] su chi è in grado di spiegare che cosa è accaduto.",
       "pagine": [
-        73,
-        73
+        129,
+        129
       ]
     },
     {
@@ -509,8 +508,8 @@
       "breve": "Rispetto che un organo superiore accorda alle decisioni di uno inferiore anche quando non le condivide.",
       "definizione": "Atteggiamento con cui chi sta più in alto in una scala gerarchica rispetta le decisioni di chi sta più in basso, anche quando non è d'accordo, e gli concede libertà d'azione per ragioni di efficienza, rispetto, specializzazione, diversità e separazione dei poteri. Ricorda l'[[autorita|autorità]] ma funziona in modo opposto: l'autorità va dall'alto in basso e chiede obbedienza al sottoposto. Si esprime negli [[standard-di-revisione|standard di revisione]]: annullare un atto amministrativo solo se arbitrario e irragionevole, una decisione probatoria solo se c'è abuso di [[discrezionalita|discrezionalità]]. Per [[frederick-schauer|Schauer]] deferenza, [[presunzione|presunzioni]] e [[onere-della-prova|onere della prova]] descrivono la stessa relazione; anche l'uso delle [[fonti-facoltative|fonti facoltative]] è una forma debole di deferenza.",
       "pagine": [
-        74,
-        76
+        130,
+        132
       ]
     },
     {
@@ -526,8 +525,8 @@
       "breve": "Criterio con cui un giudice controlla la decisione di un altro organo: di solito annulla solo errori estremi.",
       "definizione": "Criterio con cui una corte controlla le decisioni di un organo inferiore o di un'amministrazione, idea che accomuna [[deferenza|deferenza]], [[presunzione|presunzioni]] e [[onere-della-prova|onere della prova]]. Esempi del libro: un tribunale non annulla il provvedimento di un'autorità amministrativa a meno che non lo consideri arbitrario e irragionevole; una corte d'appello non annulla la decisione di primo grado sull'ammissione o esclusione di prove se non c'è abuso di [[discrezionalita|discrezionalità]]. Con questi criteri le decisioni sono convalidate anche quando il giudice non è d'accordo, salvo che siano scorrette in modo estremo o scandaloso: la corte si impegna a tollerare un certo numero di soluzioni che ritiene erronee.",
       "pagine": [
-        75,
-        76
+        131,
+        132
       ]
     },
     {
@@ -542,8 +541,8 @@
       "breve": "Tesi finale di Schauer: il diritto accetta risposte non ottimali nel caso singolo in nome di valori istituzionali.",
       "definizione": "Conclusione del libro di [[frederick-schauer|Schauer]]. [[deferenza|Deferenza]], [[presunzione|presunzioni]], [[onere-della-prova|onere della prova]] e [[standard-di-revisione|standard di revisione]] portano ad accettare errori: soluzioni ritenute erronee, conclusioni fattuali false, fatti realmente accaduti che non si riescono a provare. Si spera che siano errori «del tipo giusto». Il diritto accetta risposte subottimali per soddisfare valori istituzionali più elevati o di lungo periodo, perché il modo migliore di avere più decisioni corrette nel tempo spesso non è cercare la decisione migliore in ogni occasione. Al cuore del [[ragionamento-giuridico|ragionamento giuridico]] sta l'idea che la decisione migliore non sempre è la migliore decisione giuridica: differenza di grado, non di natura, dalle altre istituzioni.",
       "pagine": [
-        76,
-        76
+        132,
+        132
       ]
     }
   ],
@@ -841,8 +840,8 @@
         "questioni-di-fatto-e-di-diritto"
       ],
       "pagine": [
-        66,
-        66
+        122,
+        122
       ],
       "domanda": "Come è strutturata la tipica sentenza rispetto a fatti e diritto?",
       "risposta": "Comincia con una spiegazione di ciò che è successo, la questione di fatto, e poi stabilisce come il diritto deve reagire a quanto è successo, la questione di diritto."
@@ -858,8 +857,8 @@
         "common-law"
       ],
       "pagine": [
-        66,
-        66
+        122,
+        122
       ],
       "domanda": "Da dove nasce, per Schauer, la confusione tra questioni di fatto e di diritto nel common law?",
       "risposta": "Dalla massima tradizionale per cui i fatti sono per i giurati e il diritto per i giudici: in realtà i giurati, applicando il diritto, risolvono anche questioni di diritto, e molte attività dei giudici presuppongono la soluzione di questioni di fatto."
@@ -874,8 +873,8 @@
         "giuria"
       ],
       "pagine": [
-        67,
-        67
+        123,
+        123
       ],
       "domanda": "Chi è il «valutatore dei fatti» nei sistemi di common law?",
       "risposta": "Di regola la giuria, presso il tribunale di primo grado; ma in molti casi penali e nella maggioranza dei casi civili è il giudice a determinare quanto è accaduto."
@@ -889,8 +888,8 @@
         "principio-del-contraddittorio"
       ],
       "pagine": [
-        67,
-        67
+        123,
+        123
       ],
       "domanda": "Su quale credenza si fonda l'accertamento dei fatti nei paesi di common law?",
       "risposta": "Sulla credenza che i procedimenti basati sul contraddittorio, nei quali le parti hanno la responsabilità primaria di produrre le prove, siano strumenti apprezzabili, anche se non gli unici, per accertare la verità: un buon modo di trovarla è il confronto tra opinioni opposte."
@@ -906,8 +905,8 @@
         "regole-di-esclusione"
       ],
       "pagine": [
-        68,
-        68
+        124,
+        124
       ],
       "domanda": "Che cos'è il «sistema naturale» proposto da Bentham?",
       "risposta": "È il sistema oggi detto della prova libera: le prove non si escludono in via preliminare mediante regole, ma si ammettono praticamente tutte e poi si vagliano e si pesano alla luce delle altre. Non conviene escludere prove rilevanti solo perché appartengono a una classe di prove imperfette."
@@ -923,8 +922,8 @@
         "giuria"
       ],
       "pagine": [
-        68,
-        68
+        124,
+        124
       ],
       "domanda": "Qual è la funzione principale delle regole di esclusione del diritto probatorio di common law?",
       "opzioni": [
@@ -945,8 +944,8 @@
         "regole-di-esclusione"
       ],
       "pagine": [
-        68,
-        68
+        124,
+        124
       ],
       "domanda": "Quali regole di esclusione cita Schauer come sempre più soggette a eccezioni?",
       "opzioni": [
@@ -967,8 +966,8 @@
         "accertamento-dei-fatti"
       ],
       "pagine": [
-        67,
-        67
+        123,
+        123
       ],
       "domanda": "Con quale metodo, secondo Schauer, si scoprono tipicamente i fatti nelle scienze naturali?",
       "opzioni": [
@@ -990,8 +989,8 @@
         "ragionamento-giuridico"
       ],
       "pagine": [
-        66,
-        67
+        122,
+        123
       ],
       "affermazione": "Per Schauer risolvere questioni di fatto non riguarda il ragionamento giuridico, ma solo il diritto delle prove.",
       "vero": false,
@@ -1006,8 +1005,8 @@
         "regole-di-esclusione"
       ],
       "pagine": [
-        68,
-        68
+        124,
+        124
       ],
       "affermazione": "I giudici che operano senza giuria trattano spesso le norme sulle prove in modo informale.",
       "vero": true,
@@ -1022,8 +1021,8 @@
         "accertamento-dei-fatti"
       ],
       "pagine": [
-        68,
-        68
+        124,
+        124
       ],
       "affermazione": "Per Schauer i metodi giuridici di accertamento dei fatti sono del tutto esclusivi del diritto.",
       "vero": false,
@@ -1039,8 +1038,8 @@
         "giuria"
       ],
       "pagine": [
-        66,
-        66
+        122,
+        122
       ],
       "testo": "Secondo la massima tradizionale del common law, i fatti sono per i {{giurati}} e il diritto è per i {{giudici}}."
     },
@@ -1054,8 +1053,8 @@
         "jeremy-bentham"
       ],
       "pagine": [
-        68,
-        68
+        124,
+        124
       ],
       "testo": "Bentham voleva sostituire le regole di esclusione con un «sistema {{naturale}}», oggi chiamato della prova {{libera}}."
     },
@@ -1072,8 +1071,8 @@
         "prova-libera"
       ],
       "pagine": [
-        66,
-        68
+        122,
+        124
       ],
       "domanda": "Perché, secondo Schauer, l'accertamento dei fatti fa parte del ragionamento giuridico? Come si accertano i fatti nel common law?",
       "traccia": "La sentenza tipica espone la **questione di fatto** e poi la **questione di diritto**. Le analisi del ragionamento giuridico hanno guardato quasi solo al diritto, ma le questioni di diritto ruotano intorno ai fatti: escluderli è singolare. La massima «i **fatti ai giurati**, il **diritto ai giudici**» è fuorviante, perché i giurati risolvono anche questioni di diritto e i giudici questioni di fatto. Il **valutatore dei fatti** è di regola la **giuria**, ma spesso il giudice. Il metodo del common law non è universale (le scienze usano esperimenti e dati): si fonda sul **contraddittorio**, in cui le parti producono le prove e la verità nasce dal confronto. Il **diritto probatorio** contiene **regole di esclusione** che tengono lontane dalla giuria prove anche rilevanti; **Bentham** voleva sostituirle con il **sistema naturale** della **prova libera**, ammettendo tutto e pesando ogni prova. Oggi quelle regole (sentito dire, documenti originali) hanno molte **eccezioni** o sono trascurate, e senza giuria i giudici le trattano informalmente.",
@@ -1127,8 +1126,8 @@
         "questioni-di-fatto-e-di-diritto"
       ],
       "pagine": [
-        66,
-        66
+        122,
+        122
       ],
       "domanda": "Perché nelle questioni costituzionali la distinzione tra fatto e diritto è particolarmente difficile?",
       "risposta": "Perché in quelle questioni risolvere questioni di fatto è proprio parte di ciò che vogliamo che i giudici facciano, per garantire che i valori costituzionali siano tutelati: il giudice non può limitarsi al diritto."
@@ -1142,8 +1141,8 @@
         "accertamento-dei-fatti"
       ],
       "pagine": [
-        69,
-        69
+        125,
+        125
       ],
       "domanda": "Che cosa significa che in appello l'accertamento dei fatti è trattato come «sacro»?",
       "risposta": "Che i fatti accertati dalla giuria o dal giudice di primo grado devono essere considerati veri dalla corte d'appello, anche se le sembrano ricostruiti in modo scorretto: all'appello spetta il controllo sulle questioni giuridiche."
@@ -1157,8 +1156,8 @@
         "sociologia-da-poltrona"
       ],
       "pagine": [
-        69,
-        69
+        125,
+        125
       ],
       "domanda": "Che cosa intende Schauer con «sociologia da poltrona» dei giudici d'appello?",
       "risposta": "Le credenze, le esperienze, le intuizioni e i presentimenti dei giudici su cui si fondano le determinazioni fattuali necessarie a creare una nuova regola: asserzioni sui fatti sociali potenzialmente confutabili, che non sono state provate nel processo."
@@ -1173,8 +1172,8 @@
         "sociologia-da-poltrona"
       ],
       "pagine": [
-        69,
-        69
+        125,
+        125
       ],
       "domanda": "Quale problema ha portato al centro del dibattito il giudice Breyer?",
       "risposta": "Come una corte d'appello possa accertare i fatti sociali e scientifici necessari per le sue conclusioni. Breyer non esita a oltrepassare gli accertamenti di primo grado per compierne di propri, ma per lui la soluzione del problema forse non è ancora vicina."
@@ -1189,8 +1188,8 @@
         "principio-del-contraddittorio"
       ],
       "pagine": [
-        69,
-        70
+        125,
+        126
       ],
       "domanda": "Perché le conclusioni empiriche implicite dei giudici sono un rischio?",
       "risposta": "Perché entrano nel diritto in modo surrettizio e possono danneggiare una parte che non ha avuto occasione di contraddirle nel normale contraddittorio, esame incrociato compreso. Se non sono dichiarate con citazioni, si rischia di ignorare quanto siano confutabili: ciò che i giudici ritengono conoscenza comune potrebbe essere discusso."
@@ -1204,8 +1203,8 @@
         "competenza-giurisdizionale"
       ],
       "pagine": [
-        70,
-        70
+        126,
+        126
       ],
       "domanda": "Perché per Schauer la competenza è centrale per la nozione stessa di diritto?",
       "risposta": "Perché il diritto si caratterizza per l'interesse non solo a stabilire che cosa si deve decidere, ma anche a chi spetta decidere: opera in un sistema di separazione dei poteri tra corti d'appello e di primo grado, corti federali e statali, giudici, parlamenti e amministrazioni."
@@ -1220,8 +1219,8 @@
         "questioni-di-fatto-e-di-diritto"
       ],
       "pagine": [
-        69,
-        69
+        125,
+        125
       ],
       "domanda": "Che cosa spetta tradizionalmente alla corte d'appello?",
       "opzioni": [
@@ -1244,8 +1243,8 @@
         "presunzione"
       ],
       "pagine": [
-        70,
-        70
+        126,
+        126
       ],
       "domanda": "Quali strumenti assumono un ruolo importante, secondo Schauer, perché il diritto opera nell'incertezza e nella separazione dei poteri?",
       "opzioni": [
@@ -1267,8 +1266,8 @@
         "principio-del-contraddittorio"
       ],
       "pagine": [
-        70,
-        70
+        126,
+        126
       ],
       "domanda": "Quale strumento del contraddittorio cita Schauer come escluso quando i giudici usano fatti sociali non dichiarati?",
       "opzioni": [
@@ -1289,8 +1288,8 @@
         "accertamento-dei-fatti"
       ],
       "pagine": [
-        69,
-        69
+        125,
+        125
       ],
       "affermazione": "Quando lo stesso giudice accerta i fatti e decide il diritto, l'accertamento dei fatti è di solito comunque separato dalle conclusioni in diritto.",
       "vero": true,
@@ -1305,8 +1304,8 @@
         "stephen-breyer"
       ],
       "pagine": [
-        69,
-        69
+        125,
+        125
       ],
       "affermazione": "Il giudice Breyer è molto restio a oltrepassare gli accertamenti fattuali della corte di prima istanza.",
       "vero": false,
@@ -1321,8 +1320,8 @@
         "sociologia-da-poltrona"
       ],
       "pagine": [
-        70,
-        70
+        126,
+        126
       ],
       "affermazione": "Anche i giudici che si limitano ad applicare il diritto devono spesso fare affidamento su conclusioni empiriche implicite.",
       "vero": true,
@@ -1337,8 +1336,8 @@
         "sociologia-da-poltrona"
       ],
       "pagine": [
-        69,
-        69
+        125,
+        125
       ],
       "testo": "Le nuove regole delle corti d'appello poggiano spesso sulle credenze, sulle intuizioni e sulla «sociologia da {{poltrona}}» dei giudici."
     },
@@ -1351,8 +1350,8 @@
         "competenza-giurisdizionale"
       ],
       "pagine": [
-        70,
-        70
+        126,
+        126
       ],
       "testo": "Il diritto si interessa non solo di stabilire {{che cosa|cosa}} si deve decidere, ma anche di determinare a {{chi}} spetta decidere."
     },
@@ -1368,8 +1367,8 @@
         "competenza-giurisdizionale"
       ],
       "pagine": [
-        69,
-        70
+        125,
+        126
       ],
       "domanda": "Quale ruolo hanno i fatti nel processo d'appello e quali problemi pone l'uso di fatti sociali da parte delle corti?",
       "traccia": "Il diritto separa **chi valuta i fatti** da chi decide il diritto: in appello l'accertamento di primo grado è **«sacro»** e va considerato vero anche se sembra sbagliato; alla corte d'appello spettano le **questioni giuridiche**. Ma le corti d'appello, quando **creano regole**, si basano spesso su **asserzioni fattuali** confutabili, sostenute solo da credenze, esperienze, intuizioni, presentimenti: la **«sociologia da poltrona»** dei giudici. Il giudice **Breyer** ha posto al centro il problema di come una corte d'appello possa accertare fatti sociali e scientifici; lui stesso compie accertamenti propri, ma la soluzione non è vicina. Anche senza citare fonti, i giudici si appoggiano a **conclusioni empiriche implicite** che entrano nel diritto in modo **surrettizio**, senza **contraddittorio** né **esame incrociato**; non dichiararle fa ignorare quanto siano **confutabili**. Il tema introduce il capitolo XII: il diritto decide **nell'incertezza** e si chiede sempre **chi** deve decidere.",
@@ -1423,8 +1422,8 @@
         "competenza-giurisdizionale"
       ],
       "pagine": [
-        70,
-        70
+        126,
+        126
       ],
       "domanda": "Quali esempi di separazione dei poteri «in senso tecnico» fa Schauer per spiegare l'incertezza in cui opera il diritto?",
       "risposta": "Le corti d'appello devono tener conto dei compiti di giurati e corti di primo grado; le corti federali devono rispettare le attribuzioni delle corti statali, e viceversa; le corti che giudicano la costituzionalità di leggi e atti amministrativi devono riconoscere le responsabilità dei parlamenti e le competenze delle amministrazioni."
@@ -1439,8 +1438,8 @@
         "onere-della-prova"
       ],
       "pagine": [
-        71,
-        71
+        127,
+        127
       ],
       "domanda": "Che cosa richiede lo standard «oltre ogni ragionevole dubbio»?",
       "risposta": "Che la giuria o il giudice abbiano un grado di certezza molto alto sulla colpa dell'imputato per poterlo condannare. Nell'esempio del testo, se non sono sicuri almeno al 95% devono pronunciare un verdetto di «innocenza»."
@@ -1455,8 +1454,8 @@
         "oltre-ogni-ragionevole-dubbio"
       ],
       "pagine": [
-        71,
-        71
+        127,
+        127
       ],
       "domanda": "Con quale massima Blackstone giustifica lo standard penale, e che cosa significa?",
       "risposta": "«Il diritto ritiene che sia meglio che dieci persone colpevoli siano lasciate andare, piuttosto che un innocente soffra». Lasciare liberi dei colpevoli è inopportuno, ma condannare innocenti è molto peggio: perciò l'onere della prova è calibrato per tenere molto basso il numero di innocenti condannati."
@@ -1470,8 +1469,8 @@
         "onere-della-prova"
       ],
       "pagine": [
-        72,
-        72
+        128,
+        128
       ],
       "domanda": "Perché nel processo civile lo standard di prova è molto più basso che nel penale?",
       "risposta": "Perché nel civile si ritiene che l'errore di un attore ingiustamente non risarcito non sia più grave di quello di un convenuto ingiustamente ritenuto responsabile: gli errori si equivalgono e l'onere della prova riflette questa equivalenza."
@@ -1485,8 +1484,8 @@
         "onere-della-prova"
       ],
       "pagine": [
-        72,
-        72
+        128,
+        128
       ],
       "domanda": "Che cos'è l'onere della produzione e perché il diritto lo attribuisce a una parte?",
       "risposta": "È l'onere di apportare i fatti sufficienti per sollevare una certa questione, distinto dall'onere della persuasione. Il diritto lo attribuisce a una parte soprattutto perché è più probabile che sia lei a possedere le informazioni rilevanti."
@@ -1501,8 +1500,8 @@
         "presunzione"
       ],
       "pagine": [
-        73,
-        73
+        129,
+        129
       ],
       "domanda": "Qual è l'effetto della presunzione «la cosa parla da sola»?",
       "risposta": "Il paziente che esce da un intervento con una garza o uno strumento medico nell'addome non deve provare la negligenza del chirurgo: la negligenza si presume dalla natura stessa dell'evento."
@@ -1518,8 +1517,8 @@
         "giustificazione-soggiacente"
       ],
       "pagine": [
-        73,
-        73
+        129,
+        129
       ],
       "domanda": "Perché per Schauer una presunzione assoluta non è molto diversa da una qualsiasi regola giuridica?",
       "risposta": "Perché, come le regole, non consente di risalire alle ragioni che la giustificano e mantiene la sua forza anche quando produce risultati diversi da quelli della sua giustificazione. È solo un altro modo di descrivere un aspetto presente in tutte le regole, e non c'è nulla di profondamente sbagliato."
@@ -1533,8 +1532,8 @@
         "william-blackstone"
       ],
       "pagine": [
-        71,
-        71
+        127,
+        127
       ],
       "domanda": "Secondo la massima di Blackstone, quanti colpevoli è meglio lasciare liberi piuttosto che far soffrire un innocente?",
       "opzioni": [
@@ -1556,8 +1555,8 @@
         "onere-della-prova"
       ],
       "pagine": [
-        72,
-        72
+        128,
+        128
       ],
       "domanda": "In che senso, per Schauer, una presunzione «precede» l'onere della prova?",
       "opzioni": [
@@ -1579,8 +1578,8 @@
         "presunzione-assoluta"
       ],
       "pagine": [
-        73,
-        73
+        129,
+        129
       ],
       "domanda": "Quali presunzioni sono più vicine all'onere della prova?",
       "opzioni": [
@@ -1601,8 +1600,8 @@
         "oltre-ogni-ragionevole-dubbio"
       ],
       "pagine": [
-        71,
-        71
+        127,
+        127
       ],
       "affermazione": "Lo standard «oltre ogni ragionevole dubbio» lascia senza condanna un gran numero di colpevoli.",
       "vero": true,
@@ -1617,8 +1616,8 @@
         "onere-della-prova"
       ],
       "pagine": [
-        71,
-        71
+        127,
+        127
       ],
       "affermazione": "Per Schauer lo standard penale del common law ha come unico valore quello di evitare la condanna di un innocente.",
       "vero": false,
@@ -1633,8 +1632,8 @@
         "presunzione"
       ],
       "pagine": [
-        72,
-        73
+        128,
+        129
       ],
       "affermazione": "Nel common law tradizionale il figlio si presume discendente legittimo dei genitori e l'onere di provare il contrario grava su chi contesta la legittimità.",
       "vero": true,
@@ -1650,8 +1649,8 @@
         "presunzione-assoluta"
       ],
       "pagine": [
-        73,
-        73
+        129,
+        129
       ],
       "testo": "Le presunzioni {{relative}} sono confutabili, quelle {{assolute}} sono inconfutabili."
     },
@@ -1664,8 +1663,8 @@
         "onere-della-prova"
       ],
       "pagine": [
-        72,
-        72
+        128,
+        128
       ],
       "testo": "L'onere della {{persuasione}} va distinto dall'onere della {{produzione}}, cioè di apportare i fatti sufficienti per sollevare una questione."
     },
@@ -1683,8 +1682,8 @@
         "res-ipsa-loquitur"
       ],
       "pagine": [
-        71,
-        73
+        127,
+        129
       ],
       "domanda": "Spieghi come funzionano l'onere della prova e le presunzioni secondo Schauer, con gli esempi del testo.",
       "traccia": "L'**onere della prova** esprime **valori sostanziali**: dice quale errore è più grave. Nel **penale** si prova **oltre ogni ragionevole dubbio** (es. certezza del 95%): molti colpevoli restano liberi, ma per **Blackstone** è meglio che dieci colpevoli siano liberi piuttosto che un innocente soffra. È un **bilanciamento**: un onere altissimo eviterebbe ogni condanna ingiusta ma lascerebbe impuniti quasi tutti. Nel **civile** gli errori (attore non risarcito, convenuto condannato a torto) si equivalgono e lo standard è più basso. Si distinguono l'onere della **persuasione** e quello della **produzione** (portare i fatti per sollevare una questione); gli argomenti mirano spesso a far ricadere l'onere sulla controparte. Le **presunzioni** dicono quali fatti considerare veri se l'onere non è soddisfatto e chi ne è gravato: in questo senso lo **precedono**. Esempi: **legittimità** dei figli; **res ipsa loquitur** (la garza nell'addome). Le **relative** sono confutabili; le **assolute** inconfutabili e, per Schauer, funzionano come qualsiasi **regola**, che non lascia risalire alle sue ragioni.",
@@ -1739,8 +1738,8 @@
         "onere-della-prova"
       ],
       "pagine": [
-        72,
-        72
+        128,
+        128
       ],
       "domanda": "Perché, per Schauer, questi strumenti si chiamano proprio «oneri»?",
       "risposta": "Perché spesso gli argomenti giuridici consistono nel cercare di persuadere il giudice che l'onere della prova ricade sulla controparte: è un peso che ciascuna parte cerca di spostare sull'altra."
@@ -1754,8 +1753,8 @@
         "presunzione"
       ],
       "pagine": [
-        73,
-        74
+        129,
+        130
       ],
       "domanda": "A che cosa servono le presunzioni relative nel processo?",
       "risposta": "Sono elementi essenziali della struttura della lite: assicurano che risorse giuridiche e giudiziarie scarse non siano sprecate costringendo le parti a spendere tempo e denaro per provare ciò che è solitamente, ma non sempre, vero."
@@ -1770,8 +1769,8 @@
         "formalismo-giuridico"
       ],
       "pagine": [
-        74,
-        74
+        130,
+        130
       ],
       "domanda": "Qual è, per Schauer, la migliore ricostruzione di gran parte del diritto statunitense in termini di presunzione?",
       "risposta": "Si presume che il diritto formale detti la soluzione dei casi, ma questa può non essere definitiva se la parte che ne è gravata prova o persuade la corte che il risultato è estremamente ingiusto, non solo scorretto ma molto scorretto. Così si conciliano stabilità e prevedibilità con la correzione degli errori più gravi."
@@ -1785,8 +1784,8 @@
         "competenza-giurisdizionale"
       ],
       "pagine": [
-        74,
-        75
+        130,
+        131
       ],
       "domanda": "Che differenza c'è tra competenza in base alla persona e competenza per materia?",
       "risposta": "La competenza in base alla persona riguarda chi può essere raggiunto dalle decisioni della corte, per esempio un soggetto con pochi legami con il luogo in cui essa ha sede o soggetti in certe posizioni. La competenza per materia riguarda su che cosa la corte può decidere, cioè se può giudicare casi di un certo tipo."
@@ -1801,8 +1800,8 @@
         "autorita"
       ],
       "pagine": [
-        75,
-        75
+        131,
+        131
       ],
       "domanda": "In che cosa la deferenza è l'opposto dell'autorità?",
       "risposta": "L'autorità è una relazione dall'alto in basso: chi la esercita dà ordini e chi è sottoposto obbedisce anche se in disaccordo. Nella deferenza, invece, chi sta più in alto nella gerarchia rispetta le decisioni di chi sta più in basso, anche se non le condivide, concedendogli libertà d'azione."
@@ -1817,8 +1816,8 @@
         "ragionamento-giuridico"
       ],
       "pagine": [
-        76,
-        76
+        132,
+        132
       ],
       "domanda": "Qual è la tesi con cui si chiude il libro di Schauer?",
       "risposta": "Che al cuore del ragionamento giuridico sta l'accettazione del fatto che la decisione migliore non sempre è la migliore decisione giuridica: il diritto accetta risposte subottimali nel caso singolo per soddisfare valori istituzionali più elevati o di lungo periodo."
@@ -1832,8 +1831,8 @@
         "deferenza"
       ],
       "pagine": [
-        75,
-        75
+        131,
+        131
       ],
       "domanda": "Per quali ragioni, secondo Schauer, si concede deferenza?",
       "opzioni": [
@@ -1855,8 +1854,8 @@
         "discrezionalita"
       ],
       "pagine": [
-        75,
-        76
+        131,
+        132
       ],
       "domanda": "Quando una corte d'appello di solito annulla la decisione del primo grado sull'ammissione o esclusione di prove?",
       "opzioni": [
@@ -1880,8 +1879,8 @@
         "standard-di-revisione"
       ],
       "pagine": [
-        76,
-        76
+        132,
+        132
       ],
       "domanda": "Che cosa hanno in comune, per Schauer, deferenza, presunzioni, onere della prova e criteri di revisione?",
       "opzioni": [
@@ -1902,8 +1901,8 @@
         "competenza-giurisdizionale"
       ],
       "pagine": [
-        75,
-        75
+        131,
+        131
       ],
       "affermazione": "Per il diritto è sufficiente che una decisione sia corretta, indipendentemente da chi l'ha presa.",
       "vero": false,
@@ -1918,8 +1917,8 @@
         "standard-di-revisione"
       ],
       "pagine": [
-        75,
-        76
+        131,
+        132
       ],
       "affermazione": "Con i criteri basati sulla deferenza, le decisioni amministrative sono convalidate anche se i giudici non sono d'accordo, salvo che siano scorrette in modo estremo o scandaloso.",
       "vero": true,
@@ -1934,8 +1933,8 @@
         "decisioni-subottimali"
       ],
       "pagine": [
-        76,
-        76
+        132,
+        132
       ],
       "affermazione": "Per Schauer il diritto, accettando decisioni subottimali, si differenzia per natura da ogni altra istituzione che prende decisioni.",
       "vero": false,
@@ -1950,8 +1949,8 @@
         "decisioni-subottimali"
       ],
       "pagine": [
-        76,
-        76
+        132,
+        132
       ],
       "testo": "Al cuore del ragionamento giuridico sta l'accettazione che la decisione {{migliore}} non sempre è la migliore decisione {{giuridica}}."
     },
@@ -1964,8 +1963,8 @@
         "standard-di-revisione"
       ],
       "pagine": [
-        75,
-        75
+        131,
+        131
       ],
       "testo": "Un tribunale di solito non annulla il provvedimento di un'autorità amministrativa a meno che non lo consideri {{arbitrario}} e {{irragionevole}}."
     },
@@ -1982,8 +1981,8 @@
         "decisioni-subottimali"
       ],
       "pagine": [
-        74,
-        76
+        130,
+        132
       ],
       "domanda": "Che cos'è la deferenza per Schauer, come si collega a presunzioni e onere della prova, e quale tesi finale ne ricava?",
       "traccia": "Il diritto si interessa della **competenza**: in senso tecnico (per **persona** e per **materia**) e in senso ampio, **chi deve decidere che cosa**. Non basta che una decisione sia corretta: chi decide deve esserne competente. La **deferenza** ricorda l'**autorità** ma funziona all'opposto: l'autorità va dall'alto in basso e chiede obbedienza; nella deferenza chi sta **più in alto** rispetta decisioni di chi sta **più in basso** anche senza condividerle, per **efficienza, rispetto, specializzazione, diversità, separazione dei poteri**. Si esprime negli **standard di revisione**: si annulla un atto amministrativo solo se **arbitrario e irragionevole**, una decisione probatoria solo per **abuso di discrezionalità**. Deferenza, **presunzioni**, **onere della prova** e criteri di revisione sono **modi diversi di dire la stessa cosa**: accettano **errori** (decisioni ritenute sbagliate, fatti falsi presunti veri, fatti veri non provati), sperando che siano «**del tipo giusto**». Tesi finale: il diritto accetta risposte **subottimali** per **valori istituzionali** di lungo periodo; **la decisione migliore non sempre è la migliore decisione giuridica**.",
@@ -2044,8 +2043,8 @@
         "decisioni-subottimali"
       ],
       "pagine": [
-        76,
-        76
+        132,
+        132
       ],
       "domanda": "Quali errori accetta il diritto con deferenza, presunzioni e onere della prova?",
       "risposta": "Con la deferenza o uno standard di revisione elevato la corte tollera soluzioni che ritiene erronee; con le presunzioni giunge talora a conclusioni fattuali semplicemente false; chi ha l'onere della prova a volte non riesce a provare un fatto realmente accaduto. Si spera che siano errori «del tipo giusto»."
@@ -2061,8 +2060,8 @@
         "onere-della-prova"
       ],
       "pagine": [
-        73,
-        73
+        129,
+        129
       ],
       "consegna": "Ordina i passaggi con cui opera la presunzione «la cosa parla da sola» nel caso della garza dimenticata.",
       "elementi": [
@@ -2088,8 +2087,8 @@
         "presunzione-assoluta"
       ],
       "pagine": [
-        66,
-        76
+        122,
+        132
       ],
       "consegna": "Abbina ogni nozione alla sua descrizione.",
       "coppie": [
@@ -2131,8 +2130,8 @@
         "william-blackstone"
       ],
       "pagine": [
-        66,
-        71
+        122,
+        127
       ],
       "consegna": "Abbina ogni nome o organo al suo ruolo nei capitoli XI e XII.",
       "coppie": [

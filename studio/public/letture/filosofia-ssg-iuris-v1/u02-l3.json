@@ -1,0 +1,171 @@
+{
+  "documento": "filosofia-ssg-iuris-v1",
+  "edizione": 1,
+  "id": "u02-l3",
+  "titolo": "Chi valida la Costituzione? Paradossi, teoria dei tipi e norma fondamentale",
+  "da": 19,
+  "a": 20,
+  "lezione": "u02-l3",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p019-b001",
+      "pagina": 19,
+      "markdown": "## Lezione 5 · La norma fondamentale e la norma giuridica",
+      "concetti": [
+        "grundnorm",
+        "norma-giuridica"
+      ]
+    },
+    {
+      "id": "p019-b002",
+      "pagina": 19,
+      "markdown": "### Chi valida la Costituzione?",
+      "concetti": [
+        "costituzione"
+      ]
+    },
+    {
+      "id": "p019-b003",
+      "pagina": 19,
+      "markdown": "Su che cosa si fonda il sistema? La risposta è che il sistema è **indecidibile**: non si può stabilire su che cosa poggi la validità dell'[[ordinamento-giuridico|ordinamento]], a meno di ricorrere a un espediente logico.",
+      "concetti": [
+        "ordinamento-giuridico"
+      ]
+    },
+    {
+      "id": "p019-b004",
+      "pagina": 19,
+      "markdown": "### I paradossi dell'indecidibilità",
+      "concetti": []
+    },
+    {
+      "id": "p019-b005",
+      "pagina": 19,
+      "markdown": "Un esempio di indecidibilità è il **[[paradosso-del-mentitore|paradosso del mentitore]]**: «io sto mentendo». Se la frase è vera, allora è falsa, perché sto mentendo; se è falsa, allora è vera. Lo stesso vale per il fondamento di validità del sistema: ogni volta che pongo una norma più in alto, resta da chiedersi chi validi quella norma, chi decida. Per uscire dal paradosso della validità serve una soluzione **logico-formale**.",
+      "concetti": [
+        "paradosso-del-mentitore"
+      ]
+    },
+    {
+      "id": "p019-b006",
+      "pagina": 19,
+      "markdown": "Un altro esempio è il **paradosso del barbiere**: in un villaggio c'è un solo barbiere, che rade tutti e soli gli abitanti che non si radono da sé. Chi rade il barbiere?",
+      "concetti": [
+        "paradosso-del-mentitore"
+      ]
+    },
+    {
+      "id": "p019-b007",
+      "pagina": 19,
+      "markdown": "### La teoria dei tipi logici di Russell",
+      "concetti": [
+        "teoria-dei-tipi-logici"
+      ]
+    },
+    {
+      "id": "p019-b008",
+      "pagina": 19,
+      "markdown": "Come uscire dai paradossi della ricorsività? **[[bertrand-russell|Bertrand Russell]]** propone la **[[teoria-dei-tipi-logici|teoria dei tipi logici]]**: in un sistema di oggetti x, nessun oggetto della classe x può fondare la validità del sistema a cui appartiene. Bisogna postulare l'esistenza di un **oggetto di natura diversa**, esterno alla classe x, capace di legittimare il sistema.",
+      "concetti": [
+        "bertrand-russell",
+        "teoria-dei-tipi-logici"
+      ]
+    },
+    {
+      "id": "p019-b009",
+      "pagina": 19,
+      "markdown": "### L'applicazione di Kelsen",
+      "concetti": [
+        "kelsen"
+      ]
+    },
+    {
+      "id": "p019-b010",
+      "pagina": 19,
+      "markdown": "[[kelsen|Kelsen]] esce dal paradosso applicando al diritto la teoria di Russell. L'[[ordinamento-giuridico|ordinamento]] è un sistema che comprende una classe di oggetti tutti dello stesso tipo, gli oggetti x, cioè le **norme**: ciascuna è legittimata dalla norma immediatamente superiore e pone le condizioni di legittimità della norma successiva. Finché si resta dentro questo sistema, osserva Russell, non se ne esce: bisogna postulare un altro oggetto, **esterno al sistema**, che comprenda l'intera classe dei suoi oggetti.",
+      "concetti": [
+        "kelsen",
+        "ordinamento-giuridico"
+      ]
+    },
+    {
+      "id": "p019-b011",
+      "pagina": 19,
+      "markdown": "Secondo la teoria dei tipi, fondare il sistema è possibile in un solo modo: presupporre un oggetto diverso da quelli che compongono la classe, capace di comprenderli tutti e quindi di fondarne la validità. Ma così si rischia di ricadere nel ragionamento **giusnaturalistico**. I [[giusnaturalismo|giusnaturalisti]] hanno fatto proprio questo: il diritto è un insieme di regole, e per sapere se sono giuste le si confronta con un sistema di valori; si postula quel sistema, si fa il confronto e si stabilisce se le norme sono legittime. Sul fondamento di validità del sistema, l'intero giuspositivismo rischierebbe allora di ricadere in una visione giusnaturalistica.",
+      "concetti": [
+        "giusnaturalismo"
+      ]
+    },
+    {
+      "id": "p019-b012",
+      "pagina": 19,
+      "markdown": "### La norma fondamentale",
+      "concetti": [
+        "grundnorm"
+      ]
+    },
+    {
+      "id": "p019-b013",
+      "pagina": 19,
+      "markdown": "Come ne esce [[kelsen|Kelsen]]? Quale oggetto va postulato per dare un fondamento logico all'[[ordinamento-giuridico|ordinamento]] come sistema? La **[[grundnorm|norma fondamentale]]** (*Grundnorm*): un oggetto astratto, una norma che non richiede validazione da parte di altre norme (se no si ricadrebbe nel **[[regresso-all-infinito|regresso all'infinito]]**) e che al tempo stesso non deve scivolare nel giusnaturalismo. Per Kelsen",
+      "concetti": [
+        "kelsen",
+        "ordinamento-giuridico",
+        "grundnorm",
+        "regresso-all-infinito",
+        "giusnaturalismo"
+      ]
+    },
+    {
+      "id": "p020-b001",
+      "pagina": 20,
+      "markdown": "è una norma di cui si deve **postulare** l'esistenza, ma che non esiste realmente dentro l'[[ordinamento-giuridico|ordinamento]]. La si presuppone per **chiudere logicamente il sistema**, ma non vi esiste come norma. Per questo [[kelsen|Kelsen]] la definisce «un atto di pensiero e non un atto di linguaggio». Le altre norme sono prescrizioni valide in quanto parte del sistema; la [[grundnorm|norma fondamentale]], invece, la immaginiamo collocata fuori dall'ordinamento per validarne il primo livello, la **[[costituzione|Costituzione]]**.",
+      "concetti": [
+        "ordinamento-giuridico",
+        "kelsen",
+        "grundnorm",
+        "costituzione"
+      ]
+    },
+    {
+      "id": "p020-b002",
+      "pagina": 20,
+      "markdown": "### Un contenuto tautologico",
+      "concetti": []
+    },
+    {
+      "id": "p020-b003",
+      "pagina": 20,
+      "markdown": "Il suo contenuto è **tautologico**: ripete all'inizio del sistema ciò che già si fa, cioè seguire la Costituzione. Dice soltanto che occorre obbedire alla **Costituzione valida ed efficace**; serve unicamente a validarla. È un espediente, una norma immaginaria presupposta per chiudere e validare il sistema, un puro oggetto logico-formale. [[kelsen|Kelsen]] precisa che «non è un oggetto trascendente ma una condizione [[trascendentale|trascendentale]]»: ciò che rende possibile e pensabile l'[[ordinamento-giuridico|ordinamento]] come sistema logico-formale. Non esiste, perché se esistesse si dovrebbe a sua volta giustificarne la validità. Non fa parte della Costituzione ed è esterna all'ordinamento.",
+      "concetti": [
+        "kelsen",
+        "trascendentale",
+        "ordinamento-giuridico",
+        "costituzione"
+      ]
+    },
+    {
+      "id": "p020-b004",
+      "pagina": 20,
+      "markdown": "### Definizione",
+      "concetti": []
+    },
+    {
+      "id": "p020-b005",
+      "pagina": 20,
+      "markdown": "La [[grundnorm|norma fondamentale]] è il **presupposto logico-[[trascendentale|trascendentale]]** dell'[[ordinamento-giuridico|ordinamento giuridico]] inteso come sistema logico-formale. Appartiene al pensiero, non al linguaggio; non è innata, perché si riferisce sempre a un ordinamento determinato; rende possibile e pensabile l'ordinamento in quanto sistema di norme, e vive soltanto nella mente di chi lo pensa.",
+      "concetti": [
+        "grundnorm",
+        "trascendentale",
+        "ordinamento-giuridico"
+      ]
+    },
+    {
+      "id": "p020-b006",
+      "pagina": 20,
+      "markdown": "In che forma si presenta? Come una proposizione tautologica di cui immaginiamo l'esistenza. La si può raffigurare al **vertice della piramide**, ma quel vertice esiste e si impone in un modo ontologicamente diverso da tutti gli altri elementi. Non appartiene alla classe x delle norme del sistema: è un oggetto **y** che abbraccia e fonda l'intera classe degli oggetti x, collocandosi al suo esterno (esterno rispetto alla classe, pur riferito allo stesso sistema).",
+      "concetti": []
+    }
+  ]
+}

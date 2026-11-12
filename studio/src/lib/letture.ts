@@ -5,14 +5,12 @@ export interface SezioneCatalogoLettura {
   /** Primo blocco, quando la pagina d'inizio è condivisa con la sezione precedente (blocchi riportati indietro). */
   primo?: string;
   lezione?: string; lezioni?: string[]; revisionata?: boolean;
-  tipoFonte?: 'manuale-ricostruito'; manuale?: [number, number];
-  soloTitolo?: boolean; integrazione?: { documento: string; sezione: string };
+  soloTitolo?: boolean;
 }
 export type IndiceSezioneLettura = SezioneCatalogoLettura;
 export interface DocumentoLettura {
   id: string; edizione: number; materia: string; titolo: string;
   fonteSha256: string; pagine: number; sezioni: SezioneCatalogoLettura[];
-  tipoFonte?: 'manuale-ricostruito'; manuale?: [number, number];
 }
 export interface BloccoLettura {
   id: string; pagina: number; markdown: string; concetti: string[];
@@ -23,8 +21,7 @@ export interface BloccoLettura {
 export interface SezioneLettura {
   documento: string; edizione: number; id: string; titolo: string; da: number; a: number;
   lezione?: string; lezioni?: string[]; revisionata?: boolean; blocchi: BloccoLettura[];
-  tipoFonte?: 'manuale-ricostruito'; manuale?: [number, number];
-  soloTitolo?: boolean; integrazione?: { documento: string; sezione: string };
+  soloTitolo?: boolean;
 }
 /** `testo` deve essere il textContent reso dal lettore: gli offset non sono offset Markdown. */
 export interface BloccoTestoLettura {
@@ -159,11 +156,11 @@ function paginaBlocco(id: string): number | null {
   const m = /^(?:manuale-[a-z0-9-]+-)?p(\d+)-/.exec(id); return m ? Number(m[1]) : null;
 }
 
-type IntervalloSezione = { da: number; a: number; tipoFonte?: 'manuale-ricostruito' };
+type IntervalloSezione = { da: number; a: number };
 /** Dati della sezione che non dipendono dal segno: calcolati una volta per tutti i segni (vedi `proiettaSegniTesto`). */
 interface ContestoProiezione {
   blocchi: BloccoTestoLettura[]; byId: Map<string, BloccoTestoLettura>; range: { da: number; a: number } | null;
-  soloManuale: boolean; intervallo?: IntervalloSezione;
+  intervallo?: IntervalloSezione;
   /** Il blocco (assente qui) sta in un'altra sezione che condivide la pagina: il segno è fuori sezione, non da verificare. */
   altrove?: (blocco: string) => boolean;
 }
@@ -171,7 +168,7 @@ function contestoProiezione(blocchi: BloccoTestoLettura[], intervallo?: Interval
   let da = Infinity, a = -Infinity;
   for (const b of blocchi) { if (b.pagina < da) da = b.pagina; if (b.pagina > a) a = b.pagina; }
   return { blocchi, byId: new Map(blocchi.map((b) => [b.id, b])), range: intervallo ?? (blocchi.length ? { da, a } : null),
-    soloManuale: blocchi.length > 0 && blocchi.every((b) => b.id.startsWith('manuale-')), intervallo, altrove };
+    intervallo, altrove };
 }
 
 /**
@@ -187,7 +184,6 @@ function proietta(segno: SegnoOriginale, ctx: ContestoProiezione, edizione: numb
   const origine = segno.ancoreTesto?.length ? 'testo' : 'pdf';
   const fuori = (pagina: number) => !!range && (pagina < range.da || pagina > range.a);
   const risultato = (stato: ProiezioneSegnoTesto['stato'], ancore: AncoraTesto[] = [], parziale = false): ProiezioneSegnoTesto => ({ stato, origine, ancore, ...(parziale ? { parziale: true } : {}) });
-  if (origine === 'pdf' && (intervallo?.tipoFonte === 'manuale-ricostruito' || ctx.soloManuale)) return risultato('fuori-sezione');
   if (origine === 'testo') {
     const byId = ctx.byId;
     const ancore: AncoraTesto[] = [];

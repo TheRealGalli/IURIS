@@ -22,7 +22,10 @@ try {
   const lib = await server.ssrLoadModule('/src/lib/originali.ts');
   let store = await server.ssrLoadModule('/src/lib/store.ts');
   const doc = lib.originaliMateria('diritto-romano')[0];
-  const [altro, terzo] = lib.originaliMateria('filosofia-del-diritto');
+  const [altro] = lib.originaliMateria('filosofia-del-diritto');
+  // Ogni materia ha ormai un solo Originale: per provare che due documenti della stessa materia hanno storie
+  // indipendenti serve un secondo documento finto (lo store non consulta il catalogo, guarda solo id e materia).
+  const terzo = { ...altro, id: 'filosofia-al-prova-v1', titolo: 'Documento di prova' };
   const slug = doc.materia;
   const vuoto = { versione: 1, lezioni: {}, carte: {}, esiti: {}, giorni: {}, nuovePerGiorno: 25 };
   const read = (materia = slug) => JSON.parse(store.esporta(materia)).progresso;
@@ -45,15 +48,20 @@ try {
   const check = (name, fn) => { try { fn(); checks++; } catch (e) { e.message = `${name}: ${e.message}`; throw e; } };
 
   check('Catalogo per materia e limiti delle pagine', () => {
-    // Romano: testo scritto da IURIS (stessa numerazione degli appunti che ha sostituito) più la raccolta integrativa
-    // ricostruita dal Percorso (unità 14 e 15); nessun PDF di terzi.
-    assert.equal(lib.originaliMateria('diritto-romano').length, 2);
-    assert(lib.originaliMateria('diritto-romano').some((d) => d.tipoFonte === 'manuale-ricostruito' && !d.file));
+    // Romano: un solo testo, scritto da IURIS (stessa numerazione degli appunti che ha sostituito, pp. 1–223; le unità
+    // 14 e 15, che gli appunti non svolgono, alle pp. 224–235); nessun PDF di terzi.
+    assert.equal(lib.originaliMateria('diritto-romano').length, 1);
     assert(lib.originaliMateria('diritto-romano').every((d) => !d.file), 'Romano: nessun PDF pubblicato');
     assert.equal(doc.id, 'romano-iuris-v1', 'Romano: il primo originale è il testo IURIS');
-    assert(doc.testoFonte && doc.testoMarkdown && doc.pagine === 223, 'Romano: testo IURIS di 223 pagine, solo testo');
-    assert.equal(lib.originaliMateria('filosofia-del-diritto').length, 3);
-    assert.equal(lib.originaliMateria('filosofia-del-diritto-ssg').length, 2, 'SSG: sbobinature e riassunto di Incampo');
+    assert(doc.testoFonte && doc.testoMarkdown && doc.pagine === 235, 'Romano: testo IURIS di 235 pagine, solo testo');
+    // Filosofia A-L: un solo testo scritto da IURIS (Incampo alle pp. 1–100, Moro alle pp. 101–131, Cotta alle pp. 132–161),
+    // al posto dei tre PDF degli appunti.
+    assert.equal(lib.originaliMateria('filosofia-del-diritto').length, 1, 'Filosofia A-L: testo IURIS');
+    assert(lib.originaliMateria('filosofia-del-diritto').every((d) => d.id === 'filosofia-al-iuris-v1' && !d.file && d.testoFonte && d.testoMarkdown && d.pagine === 161), 'Filosofia A-L: testo IURIS di 161 pagine, solo testo, nessun PDF');
+    // Filosofia SSG: un solo testo scritto da IURIS (lezioni del corso alle pp. 1–192, Incampo alle pp. 193–221), al posto
+    // delle sbobinature e del riassunto di Incampo in PDF.
+    assert.equal(lib.originaliMateria('filosofia-del-diritto-ssg').length, 1, 'Filosofia SSG: testo IURIS');
+    assert(lib.originaliMateria('filosofia-del-diritto-ssg').every((d) => d.id === 'filosofia-ssg-iuris-v1' && !d.file && d.testoFonte && d.testoMarkdown && d.pagine === 221), 'Filosofia SSG: testo IURIS di 221 pagine, solo testo, nessun PDF');
     // Costituzionale (unica per le tre classi): solo il testo scritto da IURIS, nessun PDF o riassunto di terzi.
     assert.equal(lib.originaliMateria('diritto-costituzionale').length, 1, 'Costituzionale: testo IURIS');
     assert(lib.originaliMateria('diritto-costituzionale').every((d) => d.id === 'costituzionale-iuris-v1' && !d.file && d.testoFonte), 'Costituzionale: solo testo, nessun PDF');
@@ -61,9 +69,10 @@ try {
     // Privato (unico per le tre classi): solo il testo scritto da IURIS, stessa numerazione della dispensa che ha sostituito.
     assert.equal(lib.originaliMateria('diritto-privato').length, 1, 'Privato: testo IURIS');
     assert(lib.originaliMateria('diritto-privato').every((d) => d.id === 'privato-iuris-v1' && !d.file && d.testoFonte && d.testoMarkdown && d.pagine === 238), 'Privato: testo IURIS di 238 pagine, solo testo, nessun PDF');
-    // Filosofia M-Z: riassunti di Barberis e Schauer pubblicati solo come testo (i PDF portano i dati di chi li ha scaricati).
-    assert.equal(lib.originaliMateria('filosofia-del-diritto-mz').length, 2, 'Filosofia M-Z: Barberis e Schauer');
-    assert(lib.originaliMateria('filosofia-del-diritto-mz').every((d) => !d.file && d.testoFonte), 'Filosofia M-Z: solo testo, nessun PDF');
+    // Filosofia M-Z: un solo testo scritto da IURIS (Barberis alle pp. 1–56, Schauer alle pp. 57–132), al posto dei due
+    // riassunti; nessun PDF (quelli di partenza portano i dati di chi li ha scaricati).
+    assert.equal(lib.originaliMateria('filosofia-del-diritto-mz').length, 1, 'Filosofia M-Z: testo IURIS');
+    assert(lib.originaliMateria('filosofia-del-diritto-mz').every((d) => d.id === 'filosofia-mz-iuris-v1' && !d.file && d.testoFonte && d.testoMarkdown && d.pagine === 132), 'Filosofia M-Z: testo IURIS di 132 pagine, solo testo, nessun PDF');
     assert.equal(lib.paginaValida(-3, doc.pagine), 1);
     assert.equal(lib.paginaValida(99999, doc.pagine), doc.pagine);
     assert.equal(lib.paginaValida(NaN, doc.pagine), 1);

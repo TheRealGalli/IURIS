@@ -1,0 +1,273 @@
+{
+  "documento": "filosofia-ssg-iuris-v1",
+  "edizione": 1,
+  "id": "u01-l2",
+  "titolo": "Descrittive e prescrittive: la «madre di tutte le domande»",
+  "da": 4,
+  "a": 7,
+  "lezione": "u01-l2",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p004-b009",
+      "pagina": 4,
+      "markdown": "### Una prima definizione",
+      "concetti": []
+    },
+    {
+      "id": "p004-b010",
+      "pagina": 4,
+      "markdown": "Il diritto parla un linguaggio, e questo linguaggio è **prescrittivo**. Il diritto è quindi un insieme di regole, cioè di proposizioni linguistiche prescrittive: proposizioni che ci indicano che cosa fare e che cosa non fare.",
+      "concetti": []
+    },
+    {
+      "id": "p004-b011",
+      "pagina": 4,
+      "markdown": "Stabilito che queste proposizioni sono linguistiche e prescrittive, si aprono due questioni.",
+      "concetti": []
+    },
+    {
+      "id": "p005-b001",
+      "pagina": 5,
+      "markdown": "La prima è capire come si comportano e come funzionano queste proposizioni; la seconda, una volta compreso il loro funzionamento, è chiedersi quali effetti producano davvero su di noi. Questo porta a quella che si può chiamare «la [[perche-seguire-le-regole|madre di tutte le domande]]».",
+      "concetti": [
+        "perche-seguire-le-regole"
+      ]
+    },
+    {
+      "id": "p005-b002",
+      "pagina": 5,
+      "markdown": "### Prima questione: come funziona una proposizione prescrittiva",
+      "concetti": [
+        "proposizione-prescrittiva"
+      ]
+    },
+    {
+      "id": "p005-b003",
+      "pagina": 5,
+      "markdown": "Un esempio di regola espressa in una proposizione: «È vietato attraversare con il semaforo rosso». È una regola di comportamento, dunque una proposizione linguistica **[[proposizione-prescrittiva|prescrittiva]]**: stabilisce un obbligo, si può attraversare solo con il verde.",
+      "concetti": [
+        "proposizione-prescrittiva"
+      ]
+    },
+    {
+      "id": "p005-b004",
+      "pagina": 5,
+      "markdown": "### Il controesempio: «Oggi è una bella giornata»",
+      "concetti": []
+    },
+    {
+      "id": "p005-b005",
+      "pagina": 5,
+      "markdown": "Questa proposizione non prescrive nulla: è un'affermazione, una proposizione **descrittiva**. La prescrittiva impone un comportamento; la descrittiva rappresenta uno **stato di fatto**. Qui ci si limita a constatare che la giornata è bella.",
+      "concetti": [
+        "proposizione-descrittiva",
+        "proposizione-prescrittiva"
+      ]
+    },
+    {
+      "id": "p005-b006",
+      "pagina": 5,
+      "markdown": "Che cosa si può predicare, sul piano logico, di una [[proposizione-descrittiva|proposizione descrittiva]]? Prendiamo «oggi piove a dirotto»: è descrittiva, perché descrive il tempo fuori, ma se non sta piovendo è **falsa**.",
+      "concetti": [
+        "proposizione-descrittiva"
+      ]
+    },
+    {
+      "id": "p005-b007",
+      "pagina": 5,
+      "markdown": "### Vero e falso",
+      "concetti": []
+    },
+    {
+      "id": "p005-b008",
+      "pagina": 5,
+      "markdown": "«Oggi è una bella giornata», se il cielo è sereno, è invece una proposizione descrittiva **vera**, perché rappresenta correttamente lo stato di fatto.",
+      "concetti": [
+        "proposizione-descrittiva"
+      ]
+    },
+    {
+      "id": "p005-b009",
+      "pagina": 5,
+      "markdown": "Le proposizioni descrittive sono dunque quelle a cui si attribuisce **[[verita|verità]] o falsità**: tertium non datur, ciascuna è vera oppure falsa.",
+      "concetti": [
+        "verita",
+        "proposizione-descrittiva"
+      ]
+    },
+    {
+      "id": "p005-b010",
+      "pagina": 5,
+      "markdown": "E «è vietato attraversare con la luce rossa»: è vera o falsa?",
+      "concetti": []
+    },
+    {
+      "id": "p006-b001",
+      "pagina": 6,
+      "markdown": "## Lezione 2 · Prescrizioni, perché seguire le regole e giusnaturalismo",
+      "concetti": [
+        "giusnaturalismo"
+      ]
+    },
+    {
+      "id": "p006-b002",
+      "pagina": 6,
+      "markdown": "### Le prescrittive non sono né vere né false",
+      "concetti": []
+    },
+    {
+      "id": "p006-b003",
+      "pagina": 6,
+      "markdown": "Si può attraversare con il rosso? Materialmente sì: non si deve, ma capita di farlo. Se valesse lo schema del vero e falso, la proposizione sarebbe vera finché la rispettiamo e diventerebbe falsa appena qualcuno attraversa: dipenderebbe dal fatto che seguiamo o no la regola, il che non ha senso.",
+      "concetti": []
+    },
+    {
+      "id": "p006-b004",
+      "pagina": 6,
+      "markdown": "Le proposizioni prescrittive, dunque, **non funzionano come le descrittive**. La domanda giusta davanti a una regola è un'altra: **che cosa succede se non la rispetto?**",
+      "concetti": [
+        "proposizione-prescrittiva"
+      ]
+    },
+    {
+      "id": "p006-b005",
+      "pagina": 6,
+      "markdown": "### Il «perché?» davanti a ogni regola",
+      "concetti": []
+    },
+    {
+      "id": "p006-b006",
+      "pagina": 6,
+      "markdown": "Se in un'aula si annunciasse che è vietato alzarsi e uscire, pena il non poter più rientrare, la reazione immediata sarebbe chiedersi perché. Davanti a «oggi piove», detto mentre non piove, capiamo subito che la frase è falsa; davanti a «non potete aprire le finestre» ci chiediamo invece perché ci venga imposta quella regola.",
+      "concetti": []
+    },
+    {
+      "id": "p006-b007",
+      "pagina": 6,
+      "markdown": "Le proposizioni prescrittive non ci lasciano mai indifferenti, perché **restringono i nostri spazi di libertà**. L'ordine che ci circonda è intessuto da una fitta trama di regole, e ciascuno di noi si muove dentro una rete di obblighi e divieti, e quelle proposizioni incidono a fondo sui nostri comportamenti.",
+      "concetti": [
+        "proposizione-prescrittiva"
+      ]
+    },
+    {
+      "id": "p006-b008",
+      "pagina": 6,
+      "markdown": "### La domanda filosofica di fondo",
+      "concetti": []
+    },
+    {
+      "id": "p006-b009",
+      "pagina": 6,
+      "markdown": "Chi limita la mia libertà, chi mi dice che cosa fare, mi deve una ragione. La domanda che sta alla base di ogni concezione filosofica del diritto è dunque: **«perché mai devo seguire le regole?»**, quale ragione le rende legittime? Una risposta possibile è «per il bene comune». Kant risponderebbe che la natura dell'essere umano possiede un grado di razionalità tale da fondare sulla ragione una convivenza comune, che giustifica la limitazione dei miei diritti a favore dei diritti degli altri.",
+      "concetti": []
+    },
+    {
+      "id": "p006-b010",
+      "pagina": 6,
+      "markdown": "È una domanda terribile, inquietante. Nel nostro mondo non restano quasi più spazi privi di norme.",
+      "concetti": []
+    },
+    {
+      "id": "p006-b011",
+      "pagina": 6,
+      "markdown": "Oggi si tende a regolare ogni ambito: la sessualità, le questioni di genere, lo spazio virtuale, l'intelligenza artificiale, l'eutanasia, l'aborto. Sembra necessario",
+      "concetti": []
+    },
+    {
+      "id": "p007-b001",
+      "pagina": 7,
+      "markdown": "che ogni cosa abbia la sua norma. Per alcuni questo significa un mondo sempre più regolato e sempre meno libero; per altri è un bene, perché le regole aprono nuovi spazi di **libertà condivisa**.",
+      "concetti": []
+    },
+    {
+      "id": "p007-b002",
+      "pagina": 7,
+      "markdown": "### L'ipernormazione",
+      "concetti": [
+        "ipernormazione"
+      ]
+    },
+    {
+      "id": "p007-b003",
+      "pagina": 7,
+      "markdown": "Resta vero che viviamo in un mondo interamente normato. Un filosofo tedesco contemporaneo, [[jurgen-habermas|Jürgen Habermas]], ha parlato di **[[ipernormazione|colonizzazione del mondo della vita]]** da parte del diritto: le regole giuridiche hanno invaso e reso uniformi tutti i nostri spazi. L'evoluzione della società ha prodotto una vera **ipernormazione** degli spazi sociali. La domanda assume una sfumatura nuova, ma conserva tutta la sua carica provocatoria: per quale ragione obbedire a queste regole? Chi le pone? Che cosa giustifica l'imposizione?",
+      "concetti": [
+        "jurgen-habermas",
+        "ipernormazione"
+      ]
+    },
+    {
+      "id": "p007-b004",
+      "pagina": 7,
+      "markdown": "### Due grandi correnti",
+      "concetti": []
+    },
+    {
+      "id": "p007-b005",
+      "pagina": 7,
+      "markdown": "Dalle origini della riflessione filosofica fino all'età moderna, la [[filosofia-del-diritto|filosofia del diritto]] ha dato a questa domanda infinite risposte. Esse si possono però ricondurre a due grandi correnti, che hanno dominato la discussione:",
+      "concetti": [
+        "filosofia-del-diritto"
+      ]
+    },
+    {
+      "id": "p007-b006",
+      "pagina": 7,
+      "markdown": "- il **[[giusnaturalismo|giusnaturalismo]]**;\n- il **[[giuspositivismo|positivismo giuridico]]** o **giuspositivismo**.",
+      "concetti": [
+        "giusnaturalismo",
+        "giuspositivismo"
+      ]
+    },
+    {
+      "id": "p007-b007",
+      "pagina": 7,
+      "markdown": "Per ora basti anticipare che il giusnaturalismo, sul piano logico, non regge, e che tutto si gioca sulla distinzione tra proposizioni descrittive e prescrittive.",
+      "concetti": [
+        "proposizione-descrittiva",
+        "giusnaturalismo"
+      ]
+    },
+    {
+      "id": "p007-b008",
+      "pagina": 7,
+      "markdown": "### Il giusnaturalismo: il diritto che nasce dalla natura",
+      "concetti": [
+        "giusnaturalismo"
+      ]
+    },
+    {
+      "id": "p007-b009",
+      "pagina": 7,
+      "markdown": "Il nome dice già tutto: **[[diritto-naturale|diritto naturale]]**. Ci accorgiamo di avere dei bisogni (nutrirci, sopravvivere, allevare animali, coltivare i campi); chi coltiva il proprio campo non vuole che il vicino ne prenda i frutti, e allora traccia un confine. Il diritto è così legato all'esperienza concreta del vivere insieme: ci diamo regole perché esse scaturiscono dalla nostra natura. Qui sta il problema, e insieme il fascino, del giusnaturalismo: giustifica le regole della convivenza fondandole sulla **natura dell'uomo**, che avrebbe naturalmente bisogno di regole per vivere con gli altri.",
+      "concetti": [
+        "diritto-naturale",
+        "giusnaturalismo"
+      ]
+    },
+    {
+      "id": "p007-b010",
+      "pagina": 7,
+      "markdown": "### Un concetto di natura tutt'altro che univoco",
+      "concetti": []
+    },
+    {
+      "id": "p007-b011",
+      "pagina": 7,
+      "markdown": "Ogni [[filosofia-del-diritto|filosofia del diritto]] ha però dato alla parola «natura» un significato diverso. La natura degli stoici non è quella di Kant, e la natura di Spinoza è lontanissima dalla natura razionale kantiana. Tutti questi pensatori hanno risposto alla domanda «perché devo seguire le regole?» spiegando la necessità della regola a partire dalla natura; ma il concetto è cambiato secondo le concezioni e le ideologie di ciascuno.",
+      "concetti": [
+        "filosofia-del-diritto",
+        "perche-seguire-le-regole"
+      ]
+    },
+    {
+      "id": "p007-b012",
+      "pagina": 7,
+      "markdown": "Lo si è usato anche in chiave ideologica, per contenere lo strapotere del sovrano di turno: è il caso dell'**appello al cielo** di [[john-locke|John Locke]], che invoca la natura umana per frenare il potere del re. Ma l'argomento naturale funziona anche al contrario: il potere regio si è sempre legittimato richiamando la propria **natura divina**. In questo caso la natura serve a fondare il sovrano, non a limitarlo.",
+      "concetti": [
+        "john-locke"
+      ]
+    }
+  ]
+}

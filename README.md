@@ -9,9 +9,9 @@ Le materie si scelgono da una griglia di simboli su due colonne, nella barra lat
 
 | Corso | Materia | Contenuti |
 |---|---|---|
-| LMG · I anno · A–L | Filosofia del diritto | Disponibile: 14 unità, 1.030 domande, Quadro con 6 schemi su Incampo, Moro e Cotta; 21 tracce d'esame di Incampo e Cotta |
-| LMG · I anno · M–Z | Filosofia del diritto | Disponibile: 16 unità su Barberis, *Giuristi e filosofi*, e Schauer, *Il ragionamento giuridico*; 58 lezioni, 947 domande, 237 approfondimenti e 138 schede inverse; Originali in solo testo |
-| SSG | Filosofia del diritto | Disponibile, programma dedicato, 1.204 domande (almeno 14 per lezione d’esame), 210 approfondimenti e Quadro con 9 schemi |
+| LMG · I anno · A–L | Filosofia del diritto | Disponibile: 14 unità, 1.030 domande, Quadro con 6 schemi; Originale «testo IURIS» unico (Incampo, Moro e Cotta, 161 pagine); 21 tracce d'esame di Incampo e Cotta |
+| LMG · I anno · M–Z | Filosofia del diritto | Disponibile: 16 unità su Barberis, *Giuristi e filosofi*, e Schauer, *Il ragionamento giuridico*; 58 lezioni, 947 domande; Originale «testo IURIS» unico (132 pagine) |
+| SSG | Filosofia del diritto | Disponibile, programma dedicato, 1.204 domande, Quadro con 9 schemi; Originale «testo IURIS» unico sulle lezioni del corso e su Incampo, *Sul dovere giuridico* (221 pagine) |
 | LMG A–L, M–Z e SSG | Diritto romano | Disponibile, condivisa fra i corsi; Originale «testo IURIS» scritto da noi sugli appunti delle lezioni (manuale di M. Bretone), stessa divisione del Percorso; 39 tracce d'esame di Starace (M-Z e SSG) |
 | LMG A–L, M–Z e SSG | Diritto costituzionale | Disponibile, **materia unica per le tre classi** (stesso programma, manuali diversi): 28 unità, 116 lezioni, 2.517 domande, 653 voci, 251 eventi; Originale «testo IURIS» scritto da noi (ordine del Martines con i temi del percorso A-L), Costituzione, Quadro; 30 tracce d'esame di Torre |
 | LMG e SSG | Diritto privato | Disponibile: 27 unità, 98 lezioni e 1.467 domande, almeno 14 per lezione, più 333 schede inverse del glossario, Codice civile completo consultabile; Quadro con 8 schemi; 268 approfondimenti; Originale «testo IURIS» scritto da noi e aggiornato al diritto vigente (novembre 2026); 61 tracce d'esame di Lobuono e Pennasilico |
@@ -48,7 +48,7 @@ Cancellando i dati del sito si eliminano anche i progressi locali.
 
 Nel ripasso del giorno, le verifiche ancora nuove delle lezioni appena studiate precedono le domande in scadenza e le nuove ordinarie. La stessa priorità vale quando si riprende una sessione interrotta, conservando le risposte già date. Il valore iniziale è **35 nuove al giorno per materia**, condivise fra lezioni, glossario e cronologia, più i ripassi in scadenza e fino a sei verifiche per nuova lezione. Il vecchio valore iniziale di 25 passa a 35; le altre preferenze personalizzate restano valide.
 Segnare una lezione come **Studiata** nel Percorso o negli Originali attiva automaticamente anche i termini e le date pertinenti. Le famiglie si alternano in proporzione 3:1:1 quando disponibili, senza escludere definitivamente alcuna domanda: completando il corso tutto il catalogo diventa accessibile al ripasso. Una scheda provata in anticipo continua comunque il suo ciclo di ripasso spaziato.
-Gli Originali includono tutte le lezioni di Filosofia, Romano e Diritto privato. Il fascicolo **Romano · integrazioni dal Percorso** raccoglie le dodici lezioni delle unità 14 e 15, già ricostruite nel Percorso con riferimenti al manuale (pp. 287–352). Negli appunti l'unità 14 contiene solo i titoli, che rimandano alle ricostruzioni; l'unità 15 è assente. I titoli da soli non sbloccano lo stato Studiata: lo si imposta leggendo la lezione completa, nel fascicolo o nel Percorso.
+Ogni materia ha un solo Originale, il «testo IURIS»: un testo scritto da noi sul programma del corso, con la stessa numerazione di pagina usata da lezioni e domande, controllato con `piani/strumenti/controlla-iuris.py`. I segni fatti sui vecchi Originali (riassunti, dispense, sbobinature) vengono spostati da soli sulle frasi corrispondenti del testo nuovo.
 
 ## Originali
 

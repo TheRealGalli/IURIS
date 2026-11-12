@@ -3,20 +3,122 @@
   "edizione": 1,
   "id": "u14-l5",
   "titolo": "Dialoghi fuori del tempo",
-  "da": 174,
-  "a": 174,
+  "da": 228,
+  "a": 228,
   "lezione": "u14-l5",
   "revisionata": true,
-  "soloTitolo": true,
-  "integrazione": {
-    "documento": "romano-manuale-integrazioni-v1",
-    "sezione": "u14-l5"
-  },
   "blocchi": [
     {
-      "id": "p174-b001",
-      "pagina": 174,
+      "id": "p228-b001",
+      "pagina": 228,
       "markdown": "### 5. Dialoghi fuori del tempo",
+      "concetti": []
+    },
+    {
+      "id": "p228-b002",
+      "pagina": 228,
+      "markdown": "I giuristi romani lavorano in **dialogo continuo con i predecessori**, anche lontani di secoli (Bretone, pp. 309–313). Un giurista severiano discute con **Labeone** o con **Quinto Mucio** come con un collega vivo: ne riporta l'opinione, la approva, la corregge. La tradizione non è un archivio chiuso, ma una **conversazione aperta** che attraversa il tempo.",
+      "concetti": []
+    },
+    {
+      "id": "p228-b003",
+      "pagina": 228,
+      "markdown": "I giuristi classici chiamano ***veteres***, «gli antichi», i giuristi della Repubblica: un modo di riconoscerne l'autorità, ma anche di segnare la distanza. Citare un *vetus* non significa obbedirgli: la sua opinione è un argomento da pesare, che si può accogliere, adattare al caso o abbandonare.",
+      "concetti": []
+    },
+    {
+      "id": "p228-b004",
+      "pagina": 228,
+      "markdown": "### Le forme del dialogo",
+      "concetti": []
+    },
+    {
+      "id": "p228-b005",
+      "pagina": 228,
+      "markdown": "**Commentare l'opera di un altro.** Interi trattati sono costruiti sul testo di un predecessore:",
+      "concetti": []
+    },
+    {
+      "id": "p228-b006",
+      "pagina": 228,
+      "markdown": "- i commenti *ad Sabinum* di **Pomponio**, **Paolo** e **Ulpiano** seguono l'ordine dei *[[libri-tres-iuris-civilis|Libri tres iuris civilis]]* di **[[masurio-sabino|Sabino]]**;\n- Pomponio commenta anche l'opera di Quinto Mucio (*[[commentari-civilistici|ad Quintum Mucium]]*).",
+      "concetti": [
+        "libri-tres-iuris-civilis",
+        "masurio-sabino",
+        "commentari-civilistici"
+      ]
+    },
+    {
+      "id": "p228-b007",
+      "pagina": 228,
+      "markdown": "**Riassumere e criticare.** **Giavoleno** riassume con osservazioni critiche i *[[libri-posteriores|Libri posteriores]]* di Labeone; **Paolo** fa un'epitome dei ***[[pithana|Pithana]]*** di Labeone (le «affermazioni persuasive»), aggiungendo spesso il proprio dissenso.",
+      "concetti": [
+        "libri-posteriores",
+        "pithana"
+      ]
+    },
+    {
+      "id": "p228-b008",
+      "pagina": 228,
+      "markdown": "**Annotare.** Le ***[[notae|notae]]*** sono brevi osservazioni aggiunte da un giurista posteriore all'opera di uno precedente: **Marcello** e **Scevola** annotano i *[[digesta|Digesta]]* di **[[salvio-giuliano|Giuliano]]**; **Paolo** e **Ulpiano** annotano i *responsa* di **[[papiniano|Papiniano]]**.",
+      "concetti": [
+        "notae",
+        "digesta",
+        "salvio-giuliano",
+        "papiniano",
+        "digesto"
+      ]
+    },
+    {
+      "id": "p228-b009",
+      "pagina": 228,
+      "markdown": "### Quando il dialogo diventa un problema",
+      "concetti": []
+    },
+    {
+      "id": "p228-b010",
+      "pagina": 228,
+      "markdown": "Nel tardo antico, quando la giurisprudenza creativa si è spenta, il dialogo si trasforma in **incertezza**: chi deve seguire il giudice, se i testi si contraddicono?",
+      "concetti": []
+    },
+    {
+      "id": "p228-b011",
+      "pagina": 228,
+      "markdown": "- **[[costantino|Costantino]]** (CTh. 1.4.1, 321 d.C.) **toglie valore alle note di Paolo e Ulpiano a Papiniano**, per porre fine alle «interminabili contese dei giuristi»;\n- la **[[legge-delle-citazioni|legge delle citazioni]]** (426 d.C.) stabilisce quali giuristi si possono citare e come contare i loro pareri: un «tribunale dei morti» che vota.",
+      "concetti": [
+        "costantino",
+        "legge-delle-citazioni",
+        "papiniano"
+      ]
+    },
+    {
+      "id": "p228-b012",
+      "pagina": 228,
+      "markdown": "### Il Digesto: tutti contemporanei",
+      "concetti": [
+        "digesto"
+      ]
+    },
+    {
+      "id": "p228-b013",
+      "pagina": 228,
+      "markdown": "Il **[[digesto|Digesto]]** porta all'estremo il dialogo fuori del tempo: frammenti di giuristi vissuti a secoli di distanza sono messi **uno accanto all'altro**, come se parlassero nella stessa stanza.",
+      "concetti": [
+        "digesto"
+      ]
+    },
+    {
+      "id": "p228-b014",
+      "pagina": 228,
+      "markdown": "**Giustiniano** però vuole un testo **senza contraddizioni**: i compilatori scelgono tra le opinioni e tagliano le discussioni, sicché lo *[[ius-controversum|ius controversum]]* resta visibile solo in parte.",
+      "concetti": [
+        "ius-controversum"
+      ]
+    },
+    {
+      "id": "p228-b015",
+      "pagina": 228,
+      "markdown": "Il dialogo riprende con gli interpreti successivi: i glossatori medievali, i commentatori, la pandettistica, fino alla romanistica moderna, che continua a «interrogare» gli stessi testi.",
       "concetti": []
     }
   ]

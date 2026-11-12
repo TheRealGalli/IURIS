@@ -2,14 +2,19 @@
 // Allinea frase per frase un Originale vecchio al testo che lo sostituisce (stessa numerazione di pagina, frasi
 // riscritte), così i segni di chi studia si possono spostare sul testo nuovo (src/lib/migrazione-segni.ts).
 //
-//   node scripts/allinea-originali.mjs <vecchio-doc> <nuovo-doc> [--per-lezione] [--soglia N] [--commit <rev>]
+//   node scripts/allinea-originali.mjs <vecchio-doc> <nuovo-doc> [--per-lezione | --stesse-lezioni] [--soglia N] [--commit <rev>] [--scostamento N]
 //
 // - Il documento vecchio si legge da public/letture/<vecchio>/ se c'è ancora, altrimenti dalla storia git
 //   (ultima versione prima che fosse tolto, o `--commit`). Il nuovo dal repository attuale.
 // - Pagine: per ogni pagina p, frasi vecchie di p contro frasi nuove delle pagine p-1…p+1, con un allineamento
 //   monotono (programmazione dinamica, più frasi vecchie possono cadere sulla stessa frase nuova e una frase vecchia
 //   può prendere anche le vicine). `--per-lezione`: per ogni sezione vecchia (lezione), la lezione nuova dalla
-//   tabella `migrazione.json` della materia e le sezioni nuove che la contengono.
+//   tabella `migrazione.json` della materia e le sezioni nuove che la contengono. `--stesse-lezioni`: come
+//   `--per-lezione`, ma ogni lezione vecchia va nella lezione nuova con lo stesso id (stessa materia, testo spostato:
+//   le unità 14 e 15 di Romano dalle integrazioni dal Percorso al testo IURIS).
+// - `--scostamento N` (solo pagine): la pagina p del vecchio corrisponde alla pagina p+N del nuovo (un documento
+//   confluito in coda a un altro: Schauer, pp. 1–76, è alle pp. 57–132 del testo IURIS di Filosofia M-Z).
+//   La tabella conserva le pagine vecchie dei blocchi e dichiara `scostamento`, che l'app usa per le pagine stimate.
 // - Somiglianza su parole piene normalizzate (src/lib/allineamento.ts): pesi per tipo (numeri e date ×3, nomi propri
 //   e latino ×2) per rarità (idf); punteggio F2 (conta di più ritrovare il contenuto vecchio nel nuovo).
 // - Le frasi rimaste sotto soglia si cercano anche fuori dall'ordine (pagine vicine o, per lezione, tutto il testo).
@@ -25,10 +30,13 @@ const studio = fileURLToPath(new URL('../', import.meta.url));
 const repo = fileURLToPath(new URL('../../', import.meta.url));
 const args = process.argv.slice(2);
 const opz = (nome) => { const i = args.indexOf(nome); return i >= 0 ? args[i + 1] : undefined; };
-const [VECCHIO, NUOVO] = args.filter((a, i) => !a.startsWith('--') && !['--soglia', '--commit', '--report', '--debug'].includes(args[i - 1]));
-if (!VECCHIO || !NUOVO) { console.error('Uso: node scripts/allinea-originali.mjs <vecchio-doc> <nuovo-doc> [--per-lezione] [--soglia N] [--commit <rev>]'); process.exit(2); }
-const PER_LEZIONE = args.includes('--per-lezione');
+const [VECCHIO, NUOVO] = args.filter((a, i) => !a.startsWith('--') && !['--soglia', '--commit', '--report', '--debug', '--scostamento'].includes(args[i - 1]));
+if (!VECCHIO || !NUOVO) { console.error('Uso: node scripts/allinea-originali.mjs <vecchio-doc> <nuovo-doc> [--per-lezione | --stesse-lezioni] [--soglia N] [--commit <rev>]'); process.exit(2); }
+const STESSE_LEZIONI = args.includes('--stesse-lezioni');
+const PER_LEZIONE = args.includes('--per-lezione') || STESSE_LEZIONI;
 const SOGLIA = Number(opz('--soglia') ?? (PER_LEZIONE ? 55 : 40));
+const SCOSTAMENTO = Number(opz('--scostamento') ?? 0);
+if (!Number.isInteger(SCOSTAMENTO) || (SCOSTAMENTO && PER_LEZIONE)) { console.error('--scostamento: un intero, solo nel modo per pagine'); process.exit(2); }
 
 const server = await createServer({ root: studio, configFile: false, logLevel: 'error',
   server: { middlewareMode: true, hmr: false, ws: false, watch: null }, optimizeDeps: { noDiscovery: true } });
@@ -45,7 +53,8 @@ try {
   const REPORT = opz('--report') ?? `${repo}piani/fase-${docNuovo.materia.replace(/^diritto-/, '')}/allineamento-${VECCHIO}.md`;
   const bv = vecchio.blocchi, bn = nuovo.blocchi;
   const frasi = (blocchi) => blocchi.flatMap((b, bi) => b.frasi.map(([i, f]) => ({ b: bi, blocco: b, i, f, pagina: b.pagina, testo: b.testo.slice(i, f) })));
-  const V = frasi(bv), N = frasi(bn);
+  // Frasi vecchie con la pagina corrispondente nel nuovo (pagina vecchia + scostamento).
+  const V = frasi(bv).map((x) => ({ ...x, pagina: x.pagina + SCOSTAMENTO })), N = frasi(bn);
 
   // ---------- pesi (idf su tutte le frasi) e somiglianza ----------
   const df = new Map();
@@ -254,14 +263,14 @@ try {
     const conta = new Map();
     V.forEach((x, k) => { if (x.b === bi) for (const j of risultato[k].g) conta.set(N[j].pagina, (conta.get(N[j].pagina) ?? 0) + 1); });
     if (conta.size) return [...conta].sort((a, c) => c[1] - a[1])[0][0];
-    if (!PER_LEZIONE) return Math.min(b.pagina, docNuovo.pagine);
+    if (!PER_LEZIONE) return Math.min(b.pagina + SCOSTAMENTO, docNuovo.pagine);
     const tab = tabellaLezioni(docNuovo.materia), l = tab[b.lezione];
     const idx = l ? lezioniNuove.get(l) : null;
     return idx?.length ? N[idx[0]].pagina : 1;
   };
   const tabella = {
     formato: 1, vecchio: VECCHIO, nuovo: NUOVO, modo: PER_LEZIONE ? 'lezioni' : 'pagine', fonteNuovo: docNuovo.fonteSha256,
-    soglia: SOGLIA, sezioni: sezioniNuove,
+    soglia: SOGLIA, ...(SCOSTAMENTO ? { scostamento: SCOSTAMENTO } : {}), sezioni: sezioniNuove,
     vecchi: bv.map((b, bi) => [b.id, b.pagina, b.frasi.flat(), b.frasi.map(([i, f]) => al.impronta(b.testo.slice(i, f))), paginaProbabile(b, bi)]),
     nuovi: bn.map((b) => [b.id, b.sezione, b.testo.length, b.frasi.flat()]),
     mappa: risultato.map((r) => r.g.length ? [Math.round(r.s * 100), ...r.g] : [0]),
@@ -284,8 +293,8 @@ try {
   for (const o of pieni) contaPagina.set(o.x.pagina, (contaPagina.get(o.x.pagina) ?? 0) + 1);
   const righe = [
     `# Allineamento ${VECCHIO} → ${NUOVO}`, '',
-    `Generato da \`node scripts/allinea-originali.mjs ${VECCHIO} ${NUOVO}${PER_LEZIONE ? ' --per-lezione' : ''}\` (${new Date().toISOString().slice(0, 10)}).`,
-    `Documento vecchio: ${origineVecchio}. Modo: ${PER_LEZIONE ? 'per lezione (tabella migrazione.json)' : 'pagina per pagina (p-1…p+1)'}. Soglia: ${SOGLIA}.`, '',
+    `Generato da \`node scripts/allinea-originali.mjs ${VECCHIO} ${NUOVO}${STESSE_LEZIONI ? ' --stesse-lezioni' : PER_LEZIONE ? ' --per-lezione' : ''}${SCOSTAMENTO ? ` --scostamento ${SCOSTAMENTO}` : ''}\` (${new Date().toISOString().slice(0, 10)}).`,
+    `Documento vecchio: ${origineVecchio}. Modo: ${STESSE_LEZIONI ? 'per lezione (stessi id di lezione)' : PER_LEZIONE ? 'per lezione (tabella migrazione.json)' : `pagina per pagina (p-1…p+1)${SCOSTAMENTO ? `, pagine vecchie spostate di ${SCOSTAMENTO}: le pagine qui sotto sono quelle del testo nuovo` : ''}`}. Soglia: ${SOGLIA}.`, '',
     '| Misura | Valore |', '|---|---|',
     `| Blocchi / frasi vecchie | ${bv.length} / ${V.length} |`,
     `| Blocchi / frasi nuove | ${bn.length} / ${N.length} |`,
@@ -321,6 +330,7 @@ try {
 
 /** Tabella lezione vecchia → lezione nuova dalla migrazione della materia (cartella `<Materia>/05 - Contenuti`). */
 function tabellaLezioni(materia) {
+  if (STESSE_LEZIONI) return new Proxy({}, { get: (_, l) => (typeof l === 'string' ? l : undefined) });
   const slug = (s) => s.trim().toLowerCase().normalize('NFD').replace(/\p{M}+/gu, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   for (const d of readdirSync(repo)) {
     if (slug(d) !== materia) continue;

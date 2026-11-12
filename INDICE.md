@@ -26,12 +26,12 @@ node studio/scripts/validate-content.mjs "Diritto Romano /05 - Contenuti/u03.jso
 
 | Materia | Stato | Contenuti |
 |---|---|---|
-| Storia del diritto romano (Mario Bretone, *Storia del diritto romano*) | Completa | 15 unità: tutti gli appunti (pp. 1–223) più i capitoli XI e XII, che gli appunti non trattano, ricostruiti dall'indice del manuale (`u14`, `u15`) |
-| Filosofia del diritto (Incampo; Moro, *Il diritto e lo Stato*; Cotta, *Il diritto nell'esistenza*) | Completa | 14 unità sui tre testi: Incampo pp. 1–100 (`u01`–`u08`), Moro pp. 1–31 (`u09`–`u11`), Cotta pp. 1–30 (`u12`–`u14`); Quadro con 6 schemi |
-| Filosofia del diritto SSG (lezioni di Siniscalchi 2024–25; Incampo, *Sul dovere giuridico*, riassunto) | Completa | 20 unità: sbobinature pp. 1–192 (`u01`–`u17`, la `u17` fuori esame) e riassunto di Incampo pp. 1–29 (`u18`–`u20`); Quadro con 9 schemi; 1.036 domande (almeno 14 per lezione d’esame), 81 approfondimenti «oltre gli appunti» |
+| Storia del diritto romano (Mario Bretone, *Storia del diritto romano*) | Completa | 15 unità; Originale «testo IURIS» unico di 235 pagine: appunti delle lezioni pp. 1–223 e capitoli XI–XII alle pp. 224–235 (`studio/letture-src/testi/romano-iuris.txt`) |
+| Filosofia del diritto A-L (Incampo; Moro, *Il diritto e lo Stato*; Cotta, *Il diritto nell'esistenza*) | Completa | 14 unità con numerazione unica: Incampo pp. 1–100 (`u01`–`u08`), Moro pp. 101–131 (`u09`–`u11`), Cotta pp. 132–161 (`u12`–`u14`); Originale «testo IURIS» `filosofia-al-iuris.txt` |
+| Filosofia del diritto SSG (lezioni del corso 2024–25; Incampo, *Sul dovere giuridico*) | Completa | 20 unità con numerazione unica: lezioni pp. 1–192 (`u01`–`u17`, la `u17` fuori esame), Incampo pp. 193–221 (`u18`–`u20`); Originale «testo IURIS» `filosofia-ssg-iuris.txt` |
 | Diritto costituzionale (unico per LMG A-L, M-Z e SSG) | Completa | 28 unità (ordine del Martines) con i temi del percorso A-L (Bin-Pitruzzella): 116 lezioni, 2.517 domande; Originale «testo IURIS» (267 pagine scritte da noi, `studio/letture-src/testi/costituzionale-iuris.txt`); migrazione dei progressi in `migrazione.json`; piano in [`piani/costituzionale-unica.md`](piani/costituzionale-unica.md) |
 | Istituzioni di diritto privato (dispensa Petrullo–Mainieri sul Torrente–Schlesinger, 2012) | Completa | 27 unità, 98 lezioni e 1.426 domande, almeno 14 per lezione, più 333 schede inverse (pp. 1–238); Codice civile completo in `norme/`; piano in [`piani/diritto-privato.md`](piani/diritto-privato.md); precisione e stile delle unità 12–27 rivisti; Quadro con 8 schemi; 250 approfondimenti «oltre gli appunti» |
-| Filosofia del diritto M-Z (Barberis, *Giuristi e filosofi*; Schauer, *Il ragionamento giuridico*, riassunti) | Completa | 16 unità: Barberis pp. 2–56 (`u01`–`u06`), Schauer pp. 2–76 (`u10`–`u19`); 947 domande; Originali solo testo (legature corrette, senza intestazioni StuDocu) |
+| Filosofia del diritto M-Z (Barberis, *Giuristi e filosofi*; Schauer, *Il ragionamento giuridico*) | Completa | 16 unità con numerazione unica: Barberis pp. 1–56 (`u01`–`u06`), Schauer pp. 57–132 (`u10`–`u19`); Originale «testo IURIS» `filosofia-mz-iuris.txt` |
 
 ## L'app di studio
 

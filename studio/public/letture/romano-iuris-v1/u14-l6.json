@@ -3,21 +3,127 @@
   "edizione": 1,
   "id": "u14-l6",
   "titolo": "La cura per le parole",
-  "da": 175,
-  "a": 175,
+  "da": 229,
+  "a": 229,
   "lezione": "u14-l6",
   "revisionata": true,
-  "soloTitolo": true,
-  "integrazione": {
-    "documento": "romano-manuale-integrazioni-v1",
-    "sezione": "u14-l6"
-  },
   "blocchi": [
     {
-      "id": "p175-b001",
-      "pagina": 175,
+      "id": "p229-b001",
+      "pagina": 229,
       "markdown": "### 6. La cura per le parole",
       "concetti": []
+    },
+    {
+      "id": "p229-b002",
+      "pagina": 229,
+      "markdown": "Nel diritto romano le parole contano da sempre (Bretone, pp. 314–322). Nell'età arcaica la formula pronunciata crea il diritto: è il **valore performativo** della parola. In età classica il rapporto cambia, ma l'attenzione resta altissima.",
+      "concetti": [
+        "valore-performativo-della-parola"
+      ]
+    },
+    {
+      "id": "p229-b003",
+      "pagina": 229,
+      "markdown": "I giuristi interpretano le **parole della legge e dell'editto** e quelle dei **privati**, come la domanda e la risposta della *stipulatio* o le disposizioni del testamento; e scrivono a loro volta in una lingua tecnica **breve e precisa**.",
+      "concetti": []
+    },
+    {
+      "id": "p229-b004",
+      "pagina": 229,
+      "markdown": "### Parole e volontà",
+      "concetti": []
+    },
+    {
+      "id": "p229-b005",
+      "pagina": 229,
+      "markdown": "Il problema centrale è il rapporto tra ciò che si è **detto** e ciò che si è **voluto**: *verba* e *voluntas*. Il caso esemplare è la **[[causa-curiana|causa Curiana]]** (intorno al 93 a.C.).",
+      "concetti": [
+        "causa-curiana"
+      ]
+    },
+    {
+      "id": "p229-b006",
+      "pagina": 229,
+      "markdown": "Un testatore aveva istituito erede **Manio Curio** per il caso che il figlio postumo morisse prima della pubertà; il figlio non nacque affatto.",
+      "concetti": []
+    },
+    {
+      "id": "p229-b007",
+      "pagina": 229,
+      "markdown": "- **[[quinto-mucio-scevola|Quinto Mucio]]** difese le **parole** del testamento: la condizione prevista non si era verificata.\n- **[[lucio-licinio-crasso|Lucio Licinio Crasso]]** difese la **volontà** del testatore, che avrebbe certo voluto Curio erede anche in quel caso.",
+      "concetti": [
+        "quinto-mucio-scevola",
+        "lucio-licinio-crasso"
+      ]
+    },
+    {
+      "id": "p229-b008",
+      "pagina": 229,
+      "markdown": "Vinse Crasso.",
+      "concetti": [
+        "lucio-licinio-crasso"
+      ]
+    },
+    {
+      "id": "p229-b009",
+      "pagina": 229,
+      "markdown": "In età classica prevale un equilibrio: le parole sono il punto di partenza, la volontà si indaga quando sono ambigue. **Paolo** (D. 32.25.1): «*Cum in verbis nulla ambiguitas est, non debet admitti voluntatis quaestio*», cioè «quando le parole non sono ambigue, non si deve ammettere la questione della volontà». E **[[celso|Celso]]** ricorda che conoscere le leggi significa coglierne la *vis ac potestas*, non solo le parole (D. 1.3.17).",
+      "concetti": [
+        "celso"
+      ]
+    },
+    {
+      "id": "p229-b010",
+      "pagina": 229,
+      "markdown": "### Il significato delle parole",
+      "concetti": []
+    },
+    {
+      "id": "p229-b011",
+      "pagina": 229,
+      "markdown": "I giuristi si occupano espressamente del **significato dei termini giuridici**:",
+      "concetti": []
+    },
+    {
+      "id": "p229-b012",
+      "pagina": 229,
+      "markdown": "- già alla fine della Repubblica **[[elio-gallo|Gaio Elio Gallo]]** scrive un'opera *De verborum quae ad ius pertinent significatione* («sul significato delle parole che riguardano il diritto»);\n- **[[labeone|Labeone]]** coltiva la grammatica, la dialettica e le etimologie: **[[aulo-gellio|Aulo Gellio]]** riferisce, per esempio, che faceva derivare *soror* («sorella») da *seorsum* («a parte»), perché la sorella lascia la casa in cui è nata;\n- Labeone definisce anche *agere*, *gerere* e *[[contrahere|contrahere]]*: il contratto è un'obbligazione reciproca, *quod Graeci synallagma vocant* ([[de-verborum-significatione|D. 50.16]].19, riferito da Ulpiano).",
+      "concetti": [
+        "elio-gallo",
+        "labeone",
+        "aulo-gellio",
+        "contrahere",
+        "de-verborum-significatione"
+      ]
+    },
+    {
+      "id": "p229-b013",
+      "pagina": 229,
+      "markdown": "I compilatori raccolgono queste definizioni nel titolo ***De verborum significatione*** (D. 50.16, 246 frammenti), accanto alle regole di D. 50.17.",
+      "concetti": [
+        "de-verborum-significatione"
+      ]
+    },
+    {
+      "id": "p229-b014",
+      "pagina": 229,
+      "markdown": "### Uno stile",
+      "concetti": []
+    },
+    {
+      "id": "p229-b015",
+      "pagina": 229,
+      "markdown": "La lingua dei giuristi classici è **sobria, concisa, priva di ornamenti retorici**: frasi brevi, termini tecnici stabili (*actio*, *obligatio*, *dominium*), distinzioni nette tra ciò che si dice *proprie* («in senso proprio») e *improprie*.",
+      "concetti": []
+    },
+    {
+      "id": "p229-b016",
+      "pagina": 229,
+      "markdown": "Questa precisione è una delle ragioni per cui i loro testi hanno potuto essere letti, citati e riusati per secoli. **Giustiniano**, al contrario, rimprovererà ai classici l'eccessiva *[[subtilitas|subtilitas]]* e scriverà le sue costituzioni in uno stile ampio e retorico.",
+      "concetti": [
+        "subtilitas"
+      ]
     }
   ]
 }

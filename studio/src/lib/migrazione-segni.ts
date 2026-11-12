@@ -1,6 +1,6 @@
 // Segni degli Originali sostituiti da un testo riscritto (novembre 2026: Martines e Bin-Pitruzzella → testo IURIS di
 // costituzionale; poi gli appunti di Romano → testo IURIS di Romano; poi la dispensa Torrente–Schlesinger → testo IURIS
-// di privato). La tabella di allineamento frase per frase
+// di privato; poi le integrazioni dal Percorso di Romano, unità 14 e 15, → pp. 224–235 del testo IURIS). La tabella di allineamento frase per frase
 // (scripts/allinea-originali.mjs, `public/letture/<nuovo>/allineamento-<vecchio>.json`) dice dove è finita ogni frase
 // vecchia; qui ogni segno salvato sul documento vecchio diventa un segno sul documento nuovo, con lo stesso tipo e
 // colore, sulle frasi nuove corrispondenti. Sotto la soglia della tabella il segno resta «da ricollocare»: è salvato
@@ -20,7 +20,22 @@ export const SOSTITUZIONI_ORIGINALI: { vecchio: string; nuovo: string; sigla: st
   { vecchio: 'costituzionale-martines-v1', nuovo: 'costituzionale-iuris-v1', sigla: 'mt' },
   { vecchio: 'costituzionale-bin-pitruzzella-v1', nuovo: 'costituzionale-iuris-v1', sigla: 'bp' },
   { vecchio: 'romano-pennacchio-2021-22-v1', nuovo: 'romano-iuris-v1', sigla: 'rp' },
+  // Unità 14 e 15 di Romano: dal fascicolo «integrazioni dal Percorso» alle pp. 224–235 del testo IURIS (per lezione).
+  { vecchio: 'romano-manuale-integrazioni-v1', nuovo: 'romano-iuris-v1', sigla: 'ri' },
   { vecchio: 'diritto-privato-torrente-dispense-v1', nuovo: 'privato-iuris-v1', sigla: 'tp' },
+  // Filosofia M-Z: i due riassunti (solo testo) confluiti nel testo IURIS; Barberis alle stesse pagine (1–56),
+  // Schauer spostato di 56 pagine (scostamento nella tabella).
+  { vecchio: 'filosofia-mz-barberis-v1', nuovo: 'filosofia-mz-iuris-v1', sigla: 'fb' },
+  { vecchio: 'filosofia-mz-schauer-v1', nuovo: 'filosofia-mz-iuris-v1', sigla: 'fs' },
+  // Filosofia SSG: sbobinature (PDF) e riassunto di Incampo (PDF) confluiti nel testo IURIS; lezioni alle stesse
+  // pagine (1–192), Incampo spostato di 192 pagine (scostamento nella tabella).
+  { vecchio: 'filosofia-ssg-lezioni-v1', nuovo: 'filosofia-ssg-iuris-v1', sigla: 'sl' },
+  { vecchio: 'filosofia-ssg-incampo-v1', nuovo: 'filosofia-ssg-iuris-v1', sigla: 'si' },
+  // Filosofia A-L: appunti su Incampo, Moro e Cotta (PDF) confluiti nel testo IURIS; Incampo alle stesse pagine
+  // (1–100), Moro spostato di 100 pagine (101–131), Cotta di 131 (132–161), scostamento nella tabella.
+  { vecchio: 'filosofia-incampo-v1', nuovo: 'filosofia-al-iuris-v1', sigla: 'fi' },
+  { vecchio: 'filosofia-moro-v1', nuovo: 'filosofia-al-iuris-v1', sigla: 'fm' },
+  { vecchio: 'filosofia-cotta-v1', nuovo: 'filosofia-al-iuris-v1', sigla: 'fc' },
 ];
 
 export const BLOCCO_DA_RICOLLOCARE = 'ricollocare';
@@ -109,7 +124,7 @@ export function migraSegno(segno: SegnoOriginale, tab: TabellaPronta, testi: Map
     const prima = frasiVecchie.length ? tab.vecchie[frasiVecchie[0]] : null;
     const stima = (prima && tab.perBlocco.get(prima.blocco)?.paginaNuova)
       || (pezzi[0].blocco && tab.perBlocco.get(pezzi[0].blocco)?.paginaNuova)
-      || (tab.t.modo === 'pagine' ? pezzi[0].pagina : 1);
+      || (tab.t.modo === 'pagine' ? pezzi[0].pagina + (tab.t.scostamento ?? 0) : 1);
     const pagina = Math.max(1, Math.min(pagineNuove, Math.round(stima)));
     const ancora: AncoraTesto = { edizione, blocco: idRicollocare(pagina), inizio: 0, fine: citazione.length, citazione, prefisso: '', suffisso: '' };
     return { stato: 'ricollocare', punteggio, frasiVecchie, segno: { ...base, pagina, testo: citazione, ancoreTesto: [ancora] } };
@@ -261,7 +276,7 @@ async function esegui(materia?: string): Promise<ResocontoSegni[]> {
     aggiorna(doc.materia, (q) => {
       const v = q.originali?.[vecchio];
       if (!v) return q;
-      const r = applicaMigrazioneSegni(q.originali?.[nuovo], v, vecchio, esiti, tab.t.modo === 'pagine' ? Math.min(doc.pagine, v.pagina) : 1);
+      const r = applicaMigrazioneSegni(q.originali?.[nuovo], v, vecchio, esiti, tab.t.modo === 'pagine' ? Math.min(doc.pagine, v.pagina + (tab.t.scostamento ?? 0)) : 1);
       resoconto = r.resoconto;
       if (!r.lettura || r.lettura === q.originali?.[nuovo]) return q;
       return { ...q, originali: { ...q.originali, [nuovo]: r.lettura } };

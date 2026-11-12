@@ -13,6 +13,8 @@ export interface TabellaAllineamento {
   fonteNuovo: string;
   /** Punteggio (0–100) sotto il quale la corrispondenza non è sicura. */
   soglia: number;
+  /** Solo modo «pagine»: la pagina p del vecchio corrisponde alla p + scostamento del nuovo (documento confluito in coda). */
+  scostamento?: number;
   /** File delle sezioni del documento nuovo (indice usato in `nuovi`). */
   sezioni: string[];
   /** Blocchi vecchi in ordine: [id, pagina, frasi (inizio, fine, … sul textContent), impronte per frase, pagina nuova probabile]. */

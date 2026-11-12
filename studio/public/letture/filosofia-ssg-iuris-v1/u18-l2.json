@@ -1,0 +1,196 @@
+{
+  "documento": "filosofia-ssg-iuris-v1",
+  "edizione": 1,
+  "id": "u18-l2",
+  "titolo": "Politica e diritto: analogia, argomento a contrario, decisione",
+  "da": 195,
+  "a": 196,
+  "lezione": "u18-l2",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p195-b002",
+      "pagina": 195,
+      "markdown": "## Capitolo 2 · Politica e diritto",
+      "concetti": []
+    },
+    {
+      "id": "p195-b003",
+      "pagina": 195,
+      "markdown": "Se la filosofia si occupa dell'**universale**, la politica ha per oggetto il **particolare**: l'una studia la possibilità dei fenomeni, la seconda i fenomeni soltanto possibili. Eppure la politica riguarda la filosofia, perché ne è un oggetto: è un momento necessario del [[processo-giuridico|processo giuridico]]. Senza politica, insomma, **il diritto non esiste**.",
+      "concetti": [
+        "processo-giuridico"
+      ]
+    },
+    {
+      "id": "p195-b004",
+      "pagina": 195,
+      "markdown": "### Il processo giuridico",
+      "concetti": [
+        "processo-giuridico",
+        "franz-kafka"
+      ]
+    },
+    {
+      "id": "p195-b005",
+      "pagina": 195,
+      "markdown": "Ogni [[ordinamento-giuridico|ordinamento]] è un **[[sistema-dinamico|sistema dinamico]]**: è fatto di una catena infinita e sempre rinnovata di atti giuridici, legata a un processo continuo di creazione di diritto. Si distinguono:",
+      "concetti": [
+        "ordinamento-giuridico",
+        "sistema-dinamico"
+      ]
+    },
+    {
+      "id": "p195-b006",
+      "pagina": 195,
+      "markdown": "- gli **atti di legislazione**, che creano diritto in aggiunta a quello esistente, introducendo norme nuove;\n- gli **atti di giurisdizione**, che creano diritto a partire da quello esistente, ricavando nuove norme da norme già presenti.",
+      "concetti": []
+    },
+    {
+      "id": "p195-b007",
+      "pagina": 195,
+      "markdown": "La produzione di norme deve essere ininterrotta: senza di essa l'[[ordinamento-giuridico|ordinamento]] perderebbe la propria **effettività**, come mostra l'esempio della **[[repubblica-di-weimar|Repubblica di Weimar]]**.",
+      "concetti": [
+        "ordinamento-giuridico",
+        "repubblica-di-weimar"
+      ]
+    },
+    {
+      "id": "p195-b008",
+      "pagina": 195,
+      "markdown": "### Analogia e argomento a contrario",
+      "concetti": [
+        "argomento-a-contrario",
+        "analogia"
+      ]
+    },
+    {
+      "id": "p195-b009",
+      "pagina": 195,
+      "markdown": "Per colmare le **[[lacuna-del-diritto|lacune]]** della legge il giurista si serve dei due procedimenti principali della logica giuridica: l'**[[analogia|analogia]]** e l'**[[argomento-a-contrario|argomento a contrario]]**. Il suo compito non è inventare norme nuove, ma integrare il diritto partendo sempre da quello che c'è e mostrando il significato delle norme esistenti.",
+      "concetti": [
+        "lacuna-del-diritto",
+        "analogia",
+        "argomento-a-contrario"
+      ]
+    },
+    {
+      "id": "p195-b010",
+      "pagina": 195,
+      "markdown": "L'esempio classico è il cartello «è vietato l'ingresso ai cani» sulla porta della sala d'attesa di una stazione. Alla lettera colpisce tutti i cani, senza riguardo a razza o taglia.",
+      "concetti": []
+    },
+    {
+      "id": "p195-b011",
+      "pagina": 195,
+      "markdown": "- Arriva un uomo con un **orso**: il buon senso dice che il divieto vale anche per lui.\n- Arriva un poliziotto con il suo **cane**: il buon senso dice che il divieto vale per ogni cane, tranne quello del poliziotto.",
+      "concetti": []
+    },
+    {
+      "id": "p195-b012",
+      "pagina": 195,
+      "markdown": "Le due risposte corrispondono ai due procedimenti.",
+      "concetti": []
+    },
+    {
+      "id": "p195-b013",
+      "pagina": 195,
+      "markdown": "- **Analogia.** Dalla norma di partenza (N1), interpretata secondo il suo scopo, si ricava una norma più generale (NN) che vieta l'ingresso a ogni animale simile al cane per il disturbo che arreca; da NN discende la norma nuova (N2) che vieta l'ingresso agli orsi.\n- **Argomento a contrario.** Da N1, sempre in base allo scopo, si ricava una norma (NN) che esclude il divieto per gli animali che alla sala d'attesa recano un vantaggio; da essa discende N2, che non vieta, anzi permette l'ingresso al cane del poliziotto.",
+      "concetti": [
+        "argomento-a-contrario",
+        "analogia"
+      ]
+    },
+    {
+      "id": "p195-b014",
+      "pagina": 195,
+      "markdown": "Lo schema è in entrambi i casi lo stesso: **N1 → NN → N2**.",
+      "concetti": []
+    },
+    {
+      "id": "p196-b001",
+      "pagina": 196,
+      "markdown": "### L'ordinamento incompleto: penale e civile",
+      "concetti": [
+        "ordinamento-giuridico"
+      ]
+    },
+    {
+      "id": "p196-b002",
+      "pagina": 196,
+      "markdown": "Chi usa questi due procedimenti presuppone che l'[[ordinamento-giuridico|ordinamento]] **non sia completo**: ci sono casi che esso non ha previsto e non tutte le norme necessarie sono disponibili fin dall'inizio.",
+      "concetti": [
+        "ordinamento-giuridico"
+      ]
+    },
+    {
+      "id": "p196-b003",
+      "pagina": 196,
+      "markdown": "- Nel **diritto penale** l'art. 1 del Codice penale stabilisce: «Nessuno può essere punito per un fatto che non sia espressamente previsto come reato dalla legge». Per ogni caso non previsto sembra introdurre indirettamente un **permesso**; l'[[ordinamento-giuridico|ordinamento]] penale si completerebbe così da solo.\n- Nel **diritto civile** l'art. 12 delle disposizioni preliminari al codice civile dispone che, in caso di lacuna, si ricorra alle norme su casi simili o materie analoghe. Qui non vale il principio per cui il caso non previsto riceve automaticamente una qualificazione deontica (il permesso): il diritto civile **ammette le lacune** ed è perciò incompleto, sicché è inevitabile ricavare norme nuove da quelle che ci sono. Non si trovano sentenze civili che chiudano un caso non previsto richiamando una norma di permesso.",
+      "concetti": [
+        "ordinamento-giuridico",
+        "lacuna-del-diritto"
+      ]
+    },
+    {
+      "id": "p196-b004",
+      "pagina": 196,
+      "markdown": "### Interpretazione letterale e secondo lo scopo",
+      "concetti": [
+        "interpretazione-giuridica"
+      ]
+    },
+    {
+      "id": "p196-b005",
+      "pagina": 196,
+      "markdown": "I procedimenti della logica giuridica non tollerano un'[[interpretazione-giuridica|interpretazione]] **letterale**, ferma al solo senso delle parole. Richiedono la **giurisprudenza degli interessi** (*[[interessenjurisprudenz|Interessenjurisprudenz]]*): bisogna stabilire lo **scopo** della norma da cui si parte. Letta alla lettera, N1 non conduce mai a N2: vieta l'ingresso ai cani e lo consente agli orsi; e nell'argomento a contrario terrebbe fuori anche il cane del poliziotto, perché cane è. Serve dunque l'interpretazione secondo lo scopo o gli interessi, cioè **teleologica**.",
+      "concetti": [
+        "interpretazione-giuridica",
+        "interessenjurisprudenz",
+        "argomento-a-contrario"
+      ]
+    },
+    {
+      "id": "p196-b006",
+      "pagina": 196,
+      "markdown": "L'[[ordinamento-giuridico|ordinamento]] italiano, però, impone di applicare la legge guardando anzitutto al significato proprio delle parole. Poiché i procedimenti logici sono inevitabili, l'interpretazione letterale si rivela insufficiente; resta il fatto che non esiste un criterio oggettivo per preferire un tipo di interpretazione a un altro.",
+      "concetti": [
+        "ordinamento-giuridico",
+        "interpretazione-giuridica"
+      ]
+    },
+    {
+      "id": "p196-b007",
+      "pagina": 196,
+      "markdown": "Infine, ogni volta che si può applicare l'analogia è logicamente possibile applicare anche l'argomento a contrario: chi ragiona per **analogia** presuppone anche una **differenza**, per cui l'uso dell'analogia comporta ogni volta la possibilità dell'argomento a contrario.",
+      "concetti": [
+        "argomento-a-contrario",
+        "analogia"
+      ]
+    },
+    {
+      "id": "p196-b008",
+      "pagina": 196,
+      "markdown": "### La decisione giuridica: Sollen e Müssen",
+      "concetti": [
+        "sollen",
+        "muessen"
+      ]
+    },
+    {
+      "id": "p196-b009",
+      "pagina": 196,
+      "markdown": "La **decisione giuridica** è inevitabile, per due ragioni.",
+      "concetti": []
+    },
+    {
+      "id": "p196-b010",
+      "pagina": 196,
+      "markdown": "- Per un **obbligo** (*[[sollen|Sollen]]*): nelle codificazioni moderne il giudice deve decidere ogni caso. Il Codice di Napoleone, all'art. 4, gli vieta di denegare giustizia e lo rende penalmente responsabile se si rifiuta di pronunciare la sentenza.\n- Per una **necessità** (*[[muessen|Müssen]]*): anche a prescindere dall'obbligo, il giudice non può non giudicare, perché astenersi dal giudizio è già, di per sé, un giudizio.",
+      "concetti": [
+        "sollen",
+        "muessen"
+      ]
+    }
+  ]
+}

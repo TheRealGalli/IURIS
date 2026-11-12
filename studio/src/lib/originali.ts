@@ -12,7 +12,6 @@ export interface DocumentoOriginale {
   testoFonte?: string;
   /** Il testo è già in Markdown (titoli `### `, elenchi «• », tabelle): l'estrazione lo divide solo ai capoversi. */
   testoMarkdown?: boolean;
-  tipoFonte?: 'manuale-ricostruito';
 }
 
 /** Colori dei segni, nell'ordine delle scorciatoie 1–6. Non hanno un significato fisso: lo decide chi studia. */

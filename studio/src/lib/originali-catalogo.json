@@ -6,61 +6,28 @@
     "descrizione": "Testo scritto da IURIS sul programma del manuale di M. Bretone, Storia del diritto romano, comune alle tre classi (LMG A-L, LMG M-Z e SSG): stessa divisione in lezioni del Percorso.",
     "testoFonte": "testi/romano-iuris.txt",
     "testoMarkdown": true,
-    "pagine": 223,
-    "sha256": "ce26c11616e3f17b228d7c7528ffbe7bed267cee24072368fd244a21256bb2e2"
+    "pagine": 235,
+    "sha256": "9a53e7d386ac8852f3c01414e3814b11030455dd952249c90b242b0fc26e888d"
   },
   {
-    "id": "romano-manuale-integrazioni-v1",
-    "materia": "diritto-romano",
-    "titolo": "Romano · integrazioni dal Percorso",
-    "descrizione": "Le dodici lezioni delle unità 14 e 15 ricostruite nel Percorso e riferite al manuale. Raccolta integrativa rielaborata con assistenza dell’IA, con i riferimenti alle pagine del libro e le note di verifica.",
-    "tipoFonte": "manuale-ricostruito",
-    "pagine": 12
-  },
-  {
-    "id": "filosofia-incampo-v1",
+    "id": "filosofia-al-iuris-v1",
     "materia": "filosofia-del-diritto",
-    "titolo": "Incampo · appunti",
-    "descrizione": "Dispense a cura di Nicla Bianco, A.A. 2025–26, sul testo di Antonio Incampo.",
-    "file": "originali/filosofia-incampo.pdf",
-    "pagine": 100,
-    "sha256": "ad98c94e98be1dff1492f507ba82241b4e090b061bcc8fda8ccb654a149cfd30"
+    "titolo": "Filosofia del diritto · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma di Filosofia del diritto della classe LMG A-L: il dovere giuridico sul libro di A. Incampo (pp. 1–100), A. Moro, Il diritto e lo Stato (pp. 101–131) e S. Cotta, Il diritto nell’esistenza (pp. 132–161).",
+    "testoFonte": "testi/filosofia-al-iuris.txt",
+    "testoMarkdown": true,
+    "pagine": 161,
+    "sha256": "9fe7f2cedc89e4d9acf8c4789510bcb0d837a139d6eb0b177fa869f9318d3a16"
   },
   {
-    "id": "filosofia-moro-v1",
-    "materia": "filosofia-del-diritto",
-    "titolo": "Moro · Il diritto e lo Stato",
-    "descrizione": "Dispensa a cura di Nicla Bianco. Riassunto degli appunti, non il volume integrale.",
-    "file": "originali/filosofia-moro.pdf",
-    "pagine": 31,
-    "sha256": "30df3db60b9c640a3113512c3b9d63d817a1913b047905dc1cc051c0608fa1e6"
-  },
-  {
-    "id": "filosofia-cotta-v1",
-    "materia": "filosofia-del-diritto",
-    "titolo": "Cotta · Il diritto nell’esistenza",
-    "descrizione": "Riassunto del testo di Sergio Cotta. Materiale di partenza del Percorso, non il volume integrale.",
-    "file": "originali/filosofia-cotta.pdf",
-    "pagine": 30,
-    "sha256": "a46fcbed99a2e430a77c3913cd3d981ba8a9a0fec4bb4a02ef092e1cc97b9007"
-  },
-  {
-    "id": "filosofia-ssg-lezioni-v1",
+    "id": "filosofia-ssg-iuris-v1",
     "materia": "filosofia-del-diritto-ssg",
-    "titolo": "Lezioni di Siniscalchi · sbobinature",
-    "descrizione": "Sbobinature delle lezioni di Filosofia del diritto del prof. Siniscalchi, A.A. 2024–25 (dal 2 ottobre all’11 dicembre 2024). Materiale di partenza del Percorso, non un testo rivisto dal docente.",
-    "file": "originali/filosofia-ssg-lezioni.pdf",
-    "pagine": 192,
-    "sha256": "22d355731606862a55301e5acdb6bd59963da4927c8caf7ee9a81a823373b47f"
-  },
-  {
-    "id": "filosofia-ssg-incampo-v1",
-    "materia": "filosofia-del-diritto-ssg",
-    "titolo": "Incampo · Sul dovere giuridico, riassunto",
-    "descrizione": "Riassunto in dieci capitoli di A. Incampo, Sul dovere giuridico, a cura di Francesco Presicci e Luca Perrone, nel programma del prof. Siniscalchi. Materiale di partenza del Percorso, non il volume integrale.",
-    "file": "originali/filosofia-ssg-incampo.pdf",
-    "pagine": 29,
-    "sha256": "467e642e9587a109fbc025cfa1556be069ecaa0d297fe5715835f3a205f58742"
+    "titolo": "Filosofia del diritto · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma di Filosofia del diritto della classe SSG: le lezioni del corso del prof. Siniscalchi (pp. 1–192) e il dovere giuridico sul libro di A. Incampo, Sul dovere giuridico (pp. 193–221).",
+    "testoFonte": "testi/filosofia-ssg-iuris.txt",
+    "testoMarkdown": true,
+    "pagine": 221,
+    "sha256": "527437bcc243058630a1f346b09e5d98f563e8b21937d0505ee801a87c3223ee"
   },
   {
     "id": "costituzionale-iuris-v1",
@@ -83,21 +50,13 @@
     "sha256": "de9e9701e4b94d388f0e3454aa579ddcad3b4cc412cea36797599b19328171e8"
   },
   {
-    "id": "filosofia-mz-barberis-v1",
+    "id": "filosofia-mz-iuris-v1",
     "materia": "filosofia-del-diritto-mz",
-    "titolo": "Barberis · Giuristi e filosofi, riassunto",
-    "descrizione": "Riassunto di M. Barberis, Giuristi e filosofi. Una storia della filosofia del diritto, autore del riassunto non indicato. Solo il testo, ripulito: materiale di partenza del Percorso, non il volume integrale.",
-    "testoFonte": "testi/filosofia-mz-barberis.txt",
-    "pagine": 56,
-    "sha256": "257cba2b8654c54188c548b5cc4c1f4d2319951730c109d3069b9459055efbe2"
-  },
-  {
-    "id": "filosofia-mz-schauer-v1",
-    "materia": "filosofia-del-diritto-mz",
-    "titolo": "Schauer · Il ragionamento giuridico, riassunto",
-    "descrizione": "Riassunto di F. Schauer, Il ragionamento giuridico. Una nuova introduzione, autore del riassunto non indicato. Solo il testo, ripulito: materiale di partenza del Percorso, non il volume integrale.",
-    "testoFonte": "testi/filosofia-mz-schauer.txt",
-    "pagine": 76,
-    "sha256": "317545f696d4e1b5aee3893239209ec13f983e729bc10749fa8889e437b26f92"
+    "titolo": "Filosofia del diritto · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma di Filosofia del diritto della classe LMG M-Z: storia della filosofia del diritto (M. Barberis, Giuristi e filosofi) e ragionamento giuridico (F. Schauer, Il ragionamento giuridico).",
+    "testoFonte": "testi/filosofia-mz-iuris.txt",
+    "testoMarkdown": true,
+    "pagine": 132,
+    "sha256": "2231d1e5f995cec62eb39880bf69cd4ba23f081359dc05f5bfa617f4f4d83d72"
   }
 ]

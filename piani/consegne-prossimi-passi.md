@@ -610,3 +610,24 @@ manuale a scelta). Le due costituzionali sono diventate **una materia** (`Diritt
   costituzionale 28 → 15, romano 13 → 4); restano solo consigli di studio («Non confondere…»).
 - I tre Originali di romano, costituzionale e privato sono ora testi nostri: nessun riassunto di terzi pubblicato
   per queste materie. Restano da fare le filosofie e il glossario di costituzionale.
+
+
+## Un solo testo IURIS per ogni materia (12 novembre 2026)
+
+Tutte le sei materie hanno ora un solo Originale, scritto da noi e controllato con `controlla-iuris.py`; nessun PDF
+di terzi è più pubblicato (`check-build`: 0 PDF).
+
+| Materia | Testo IURIS | Pagine | Note |
+|---|---|---|---|
+| Costituzionale (unica) | `costituzionale-iuris-v1` | 267 | ordine Martines + temi A-L |
+| Privato | `privato-iuris-v1` | 238 | aggiornato al diritto vigente |
+| Romano | `romano-iuris-v1` | 235 | capitoli XI–XII alle pp. 224–235 (prima «integrazioni dal Percorso») |
+| Filosofia A-L | `filosofia-al-iuris-v1` | 161 | Incampo 1–100, Moro 101–131, Cotta 132–161 |
+| Filosofia M-Z | `filosofia-mz-iuris-v1` | 132 | Barberis 1–56, Schauer 57–132 |
+| Filosofia SSG | `filosofia-ssg-iuris-v1` | 221 | lezioni 1–192, Incampo 193–221 |
+
+Le unità delle filosofie sono rinumerate sulla pagina unica (campo `fonte` tolto). I segni fatti sui vecchi
+Originali migrano da soli (`allinea-originali.mjs`, opzione `--scostamento`): frasi con corrispondenza sicura dal
+94% (sbobinature SSG) al 99%. Verifiche a campione per ogni testo in `fase-filosofie/verifica-*.md`.
+
+Prossimo passo: la mappa personale nuova (righe per sezione, schede compatte, collegamenti al passaggio).

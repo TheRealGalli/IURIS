@@ -1,5 +1,9 @@
 // Segni degli Originali sostituiti (lib/migrazione-segni.ts): segni finti su frasi reali dei documenti vecchi
-// (Martines, Bin-Pitruzzella e la dispensa di privato dalla storia git; gli appunti di Romano quando esiste `romano-iuris-v1`) devono cadere
+// (Martines, Bin-Pitruzzella e la dispensa di privato dalla storia git; gli appunti di Romano e le integrazioni delle
+// unità 14 e 15 quando esiste `romano-iuris-v1`; i riassunti di Barberis e Schauer di Filosofia M-Z quando esiste
+// `filosofia-mz-iuris-v1`; sbobinature e riassunto di Incampo di Filosofia SSG quando esiste `filosofia-ssg-iuris-v1`;
+// gli appunti di Incampo, Moro e Cotta di Filosofia A-L quando esiste `filosofia-al-iuris-v1`)
+// devono cadere
 // sulla frase giusta del testo nuovo, con tipo e colore conservati; idempotenza; backup vecchio ripristinato; misura
 // della quota di frasi vecchie con corrispondenza sicura su un campione.
 import assert from 'node:assert/strict';
@@ -222,7 +226,7 @@ try {
 
   // ---------- 5. precisione su un campione ----------
   const misure = [];
-  async function campione(vecchio, nuovoId, sigla, quante = 300) {
+  async function campione(vecchio, nuovoId, sigla, quante = 300, scostamento = 0) {
     const doc = catalogo.find((d) => d.id === nuovoId);
     const t = JSON.parse(readFileSync(`${root}public/letture/${nuovoId}/allineamento-${vecchio}.json`, 'utf8'));
     assert.equal(t.fonteNuovo, doc.fonteSha256, `${vecchio}: tabella fatta sul testo nuovo attuale`);
@@ -238,7 +242,7 @@ try {
       const s = { id: 'c', pagina: x.b.pagina, testo, tipo: 'evidenziato', colore: 'giallo', creata: '2026-10-01T10:00:00.000Z', rettangoli: [],
         ancoreTesto: [{ edizione: 1, blocco: x.b.id, inizio: x.i, fine: x.f, citazione: testo, prefisso: '', suffisso: '' }] };
       const e = ms.migraSegno(s, tab, testi, doc.edizione, sigla, doc.pagine);
-      if (e.stato === 'migrato') { migrati++; if (Math.abs(e.segno.pagina - x.b.pagina) <= 2) vicine++; } else if (e.stato === 'ricollocare') ricollocare++;
+      if (e.stato === 'migrato') { migrati++; if (Math.abs(e.segno.pagina - x.b.pagina - scostamento) <= 2) vicine++; } else if (e.stato === 'ricollocare') ricollocare++;
     }
     misure.push({ vecchio, n: scelte.length, migrati, ricollocare, vicine });
     return { migrati, n: scelte.length };
@@ -266,6 +270,61 @@ try {
       assert(q.originali[RN].segni.every((s) => s.colore === 'verde' && s.tipo === 'evidenziato'));
       const prima = JSON.stringify(q); await ms.migraSegniOriginali('diritto-romano');
       assert.equal(storage.getItem(prog('diritto-romano')), prima, 'Romano: idempotente');
+    });
+  }
+
+  // ---------- 6b. Romano: integrazioni dal Percorso (unità 14 e 15) → pp. 224–235 del testo IURIS ----------
+  // Allineamento per lezione (stessi id): la sezione vecchia N (lezione u14-l1 … u15-l6) è la pagina 223 + N.
+  const RI = 'romano-manuale-integrazioni-v1';
+  const CASI_INTEGRAZIONI = [
+    { doc: RI, cerca: 'La continuità passa attraverso il rapporto', atteso: 'maestro–allievo' },
+    { doc: RI, cerca: 'Il caso pratico si risolve con un argomento filosofico', atteso: "argomento filosofico sull'identità" },
+    { doc: RI, cerca: 'Paolo aggiunge, citando Sabino', atteso: 'causae coniectio' },
+    { doc: RI, cerca: 'per porre fine alle', atteso: 'toglie valore alle note di Paolo e Ulpiano' },
+    { doc: RI, cerca: 'Vinse Crasso.', atteso: 'Vinse Crasso', esatto: true },
+    { doc: RI, cerca: 'il rasoio taglia la gola dello schiavo', parte: 'il rasoio taglia la gola dello schiavo', atteso: 'il rasoio taglia la gola dello schiavo', esatto: true },
+    { doc: RI, cerca: 'Per Gaio dunque lo', atteso: 'due fondamenti' },
+    { doc: RI, cerca: 'La finzione non inganna nessuno', atteso: 'La finzione non inganna nessuno' },
+    { doc: RI, cerca: 'Ne segue che non ogni deliberazione è legge', atteso: 'non ogni deliberazione è legge' },
+    { doc: RI, cerca: 'agli animali è isolata nel pensiero antico', atteso: 'isolata' },
+    { doc: RI, cerca: 'per natura è equo che nessuno si arricchisca', atteso: 'condictio indebiti', due: true },
+  ];
+  if (catalogo.some((d) => d.id === RN)) {
+    await check('Romano, unità 14 e 15', async () => {
+      assert(existsSync(`${root}public/letture/${RN}/allineamento-${RI}.json`), `manca la tabella: node scripts/allinea-originali.mjs ${RI} ${RN} --stesse-lezioni --soglia 40`);
+      assert(!catalogo.some((d) => d.id === RI), 'le integrazioni non sono più un Originale a sé');
+      const r = await campione(RI, RN, 'ri', 200);
+      assert(r.migrati / r.n >= 0.85, `Romano, unità 14 e 15: ${r.migrati}/${r.n} frasi con corrispondenza sicura`);
+      const nv = versione(RN), testi = new Map(nv.blocchi.map((b) => [b.id, b]));
+      const casiR = CASI_INTEGRAZIONI.map((c) => ({ ...c, segno: segnoSu(c) }));
+      // anche un segno sugli appunti vecchi nello stesso progresso: le due coppie convivono senza doppioni
+      const appunti = versione(RV).blocchi.find((b) => b.frasi.length && b.pagina === 40);
+      const [a0, z0] = appunti.frasi[0], t0 = appunti.testo.slice(a0, z0);
+      const segnoAppunti = { id: 'a1', pagina: appunti.pagina, testo: t0, tipo: 'sottolineato', colore: 'azzurro', creata: '2026-10-02T10:00:00.000Z', rettangoli: [],
+        ancoreTesto: [{ edizione: 1, blocco: appunti.id, inizio: a0, fine: z0, citazione: t0, prefisso: '', suffisso: '' }] };
+      storage.clear(); await apriDiNuovo();
+      storage.setItem(prog('diritto-romano'), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: { [RI]: { pagina: 7, segni: casiR.map((c) => c.segno) }, [RV]: { pagina: 40, segni: [segnoAppunti] } } }));
+      await ms.migraSegniOriginali('diritto-romano');
+      const q = leggi(prog('diritto-romano')), perId = new Map((q.originali[RN]?.segni ?? []).map((x) => [x.id, x]));
+      assert.equal(perId.size, casiR.length + 1, 'Romano: segni delle integrazioni e degli appunti sul testo nuovo');
+      assert(perId.has('rp-a1'), 'segno degli appunti migrato');
+      assert.deepEqual(Object.keys(q.originali[RN].segniMigrati).sort(), [RI, RV].sort());
+      for (const c of casiR) {
+        const x = perId.get(`ri-${c.segno.id}`);
+        assert(x, `${c.cerca}: segno nuovo presente`);
+        assert.equal(x.tipo, c.segno.tipo); assert.equal(x.colore, c.segno.colore); assert.equal(x.creata, c.segno.creata);
+        assert(!x.ancoreTesto.some((a) => a.blocco.endsWith(`-${ms.BLOCCO_DA_RICOLLOCARE}`)), `${c.cerca}: atteso sul testo nuovo, è «da ricollocare»`);
+        for (const a of x.ancoreTesto) assert.equal(testi.get(a.blocco)?.testo.slice(a.inizio, a.fine), a.citazione, 'ancora coerente con il textContent nuovo');
+        const citazione = x.ancoreTesto.map((a) => a.citazione).join(' ');
+        assert(normale(citazione).includes(normale(c.atteso)), `${c.cerca}: atteso «${c.atteso}», trovato «${citazione.slice(0, 160)}»`);
+        if (c.esatto) { assert.equal(x.ancoreTesto.length, 1); assert.equal(normale(x.ancoreTesto[0].citazione), normale(c.segno.testo), `solo il tratto: «${x.ancoreTesto[0].citazione}»`); esatti++; }
+        assert.equal(x.pagina, c.segno.pagina + 223, `${c.cerca}: la sezione ${c.segno.pagina} delle integrazioni è la p. ${c.segno.pagina + 223}`);
+        righe.push(`integrazioni sez. ${c.segno.pagina} → p. ${x.pagina} · ${citazione.slice(0, 70)}`); giusti++;
+      }
+      assert.equal(q.originali[RI].segni.length, casiR.length, 'segni vecchi conservati');
+      const prima = JSON.stringify(q); await ms.migraSegniOriginali('diritto-romano');
+      assert.equal(storage.getItem(prog('diritto-romano')), prima, 'Romano, unità 14 e 15: idempotente');
     });
   }
 
@@ -314,9 +373,224 @@ try {
     });
   }
 
+  // ---------- 8. Filosofia M-Z: riassunti di Barberis e Schauer → testo IURIS (Schauer dalla p. 57) ----------
+  const FB = 'filosofia-mz-barberis-v1', FS = 'filosofia-mz-schauer-v1', FN = 'filosofia-mz-iuris-v1', FM = 'filosofia-del-diritto-mz';
+  const SCOSTAMENTO = { [FB]: 0, [FS]: 56 };
+  const CASI_MZ = [
+    { doc: FB, cerca: 'riscoperto dopo l\'anno mille a Bologna', atteso: 'ritrovato a Bologna dopo il Mille' },
+    { doc: FB, cerca: 'noto come “Code Napoleon”', atteso: 'Code Napoléon' },
+    { doc: FB, cerca: 'L\'autore che meglio illustra la filosofia del diritto delle origini', atteso: 'Immanuel Kant' },
+    { doc: FB, cerca: 'Il terzo periodo va dalla “Teoria pura” del 1960', parte: 'Teoria generale delle norme', atteso: 'Teoria generale delle norme', esatto: true },
+    { doc: FB, cerca: 'rappresentato da Axel Hägerström e da Ross', atteso: 'Axel Hägerström e Alf Ross' },
+    { doc: FB, cerca: 'un certo Elmer Palmer', pdf: true, atteso: 'Elmer Palmer' },
+    { doc: FB, cerca: 'il maggior esponente del giusrealismo italiano', atteso: 'Giovanni Tarello' },
+    { doc: FS, cerca: 'Per Lord Coke', atteso: 'Lord Coke' },
+    { doc: FS, cerca: 'Griswold v. Connecticut, deciso nel 1965', atteso: 'Griswold v. Connecticut, del 1965' },
+    { doc: FS, cerca: 'nel caso Brandenburg v. Ohio', atteso: 'Brandenburg v. Ohio' },
+    { doc: FS, cerca: 'Con Cicerone l’aequitas', atteso: "l'aequitas servì a temperare" },
+    { doc: FS, cerca: 'Per Hutcheson e Frank questa immagine', atteso: 'Secondo Hutcheson e Frank' },
+    { doc: FS, cerca: 'Per Fuller, può succedere che la formulazione', atteso: 'Secondo Fuller' },
+    { doc: FS, cerca: 'che decide pochi casi, una visione siffatta', atteso: 'inefficace e insieme irrealistica' },
+  ];
+  if (catalogo.some((d) => d.id === FN)) {
+    await check('Filosofia M-Z', async () => {
+      assert(!catalogo.some((d) => d.id === FB || d.id === FS), 'Barberis e Schauer non sono più Originali a sé');
+      for (const v of [FB, FS]) {
+        assert(existsSync(`${root}public/letture/${FN}/allineamento-${v}.json`), `manca la tabella: node scripts/allinea-originali.mjs ${v} ${FN}${SCOSTAMENTO[v] ? ` --scostamento ${SCOSTAMENTO[v]}` : ''}`);
+        const t = JSON.parse(readFileSync(`${root}public/letture/${FN}/allineamento-${v}.json`, 'utf8'));
+        assert.equal(t.scostamento ?? 0, SCOSTAMENTO[v], `${v}: scostamento delle pagine`);
+        const r = await campione(v, FN, v === FB ? 'fb' : 'fs', 200, SCOSTAMENTO[v]);
+        assert(r.migrati / r.n >= 0.85, `${v}: ${r.migrati}/${r.n} frasi con corrispondenza sicura`);
+      }
+      const nv = versione(FN), testi = new Map(nv.blocchi.map((b) => [b.id, b]));
+      const casiF = CASI_MZ.map((c) => ({ ...c, segno: segnoSu(c) }));
+      // I due riassunti nello stesso progresso: convivono sul testo nuovo, senza doppioni.
+      storage.clear(); await apriDiNuovo();
+      storage.setItem(prog(FM), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: { [FS]: { pagina: 10, segni: casiF.filter((c) => c.doc === FS).map((c) => c.segno) },
+          [FB]: { pagina: 4, segni: casiF.filter((c) => c.doc === FB).map((c) => c.segno) } } }));
+      await ms.migraSegniOriginali(FM);
+      const q = leggi(prog(FM)), perId = new Map((q.originali[FN]?.segni ?? []).map((x) => [x.id, x]));
+      assert.equal(perId.size, casiF.length, 'Filosofia M-Z: tutti i segni sul testo nuovo');
+      assert.deepEqual(Object.keys(q.originali[FN].segniMigrati).sort(), [FB, FS].sort());
+      for (const c of casiF) {
+        const x = perId.get(`${c.doc === FB ? 'fb' : 'fs'}-${c.segno.id}`);
+        assert(x, `${c.cerca}: segno nuovo presente`);
+        assert.equal(x.tipo, c.segno.tipo); assert.equal(x.colore, c.segno.colore); assert.equal(x.creata, c.segno.creata);
+        assert(!x.ancoreTesto.some((a) => a.blocco.endsWith(`-${ms.BLOCCO_DA_RICOLLOCARE}`)), `${c.cerca}: atteso sul testo nuovo, è «da ricollocare»`);
+        for (const a of x.ancoreTesto) assert.equal(testi.get(a.blocco)?.testo.slice(a.inizio, a.fine), a.citazione, 'ancora coerente con il textContent nuovo');
+        const citazione = x.ancoreTesto.map((a) => a.citazione).join(' ');
+        assert(normale(citazione).includes(normale(c.atteso)), `${c.cerca}: atteso «${c.atteso}», trovato «${citazione.slice(0, 160)}»`);
+        if (c.esatto) { assert.equal(x.ancoreTesto.length, 1); assert.equal(normale(x.ancoreTesto[0].citazione), normale(c.segno.testo), `solo il tratto: «${x.ancoreTesto[0].citazione}»`); esatti++; }
+        assert(Math.abs(x.pagina - c.segno.pagina - SCOSTAMENTO[c.doc]) <= 1, `${c.cerca}: p. ${c.segno.pagina} del vecchio → p. ${c.segno.pagina + SCOSTAMENTO[c.doc]} (±1), trovata p. ${x.pagina}`);
+        righe.push(`${c.doc === FB ? 'Barberis' : 'Schauer'} p. ${c.segno.pagina} → p. ${x.pagina} · ${citazione.slice(0, 70)}`); giusti++;
+      }
+      assert.equal(q.originali[FB].segni.length + q.originali[FS].segni.length, casiF.length, 'segni vecchi conservati');
+      const prima = JSON.stringify(q); await ms.migraSegniOriginali(FM);
+      assert.equal(storage.getItem(prog(FM)), prima, 'Filosofia M-Z: idempotente');
+      // Solo Schauer: la pagina di lettura passa alla numerazione nuova (p. 10 → p. 66).
+      storage.clear(); await apriDiNuovo();
+      const unico = casiF.find((c) => c.doc === FS).segno;
+      storage.setItem(prog(FM), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: { [FS]: { pagina: 10, segni: [unico] } } }));
+      await ms.migraSegniOriginali(FM);
+      assert.equal(leggi(prog(FM)).originali[FN]?.pagina, 66, 'Schauer: pagina di lettura spostata di 56');
+    });
+  }
+
+  // ---------- 9. Filosofia SSG: sbobinature e riassunto di Incampo (PDF) → testo IURIS (Incampo dalla p. 193) ----------
+  const SL = 'filosofia-ssg-lezioni-v1', SI = 'filosofia-ssg-incampo-v1', SN = 'filosofia-ssg-iuris-v1', SM = 'filosofia-del-diritto-ssg';
+  const SCOST_SSG = { [SL]: 0, [SI]: 192 };
+  const CASI_SSG = [
+    { doc: SL, cerca: 'nel 1903 formalizza, invece, il ragionamento', atteso: 'dà forma rigorosa al ragionamento' },
+    { doc: SL, cerca: 'La figura di Antigone e Porzia nasce da un giurista italiano', parte: 'Tullio Ascarelli', atteso: 'Tullio Ascarelli', esatto: true },
+    { doc: SL, cerca: 'Von Jhering racconta questo episodio', atteso: 'Danubio' },
+    { doc: SL, cerca: 'due antropologi ungheresi che si recarono', atteso: 'Tonga' },
+    { doc: SL, cerca: 'Qualche anno prima della pubblicazione di sorvegliare e punire', pdf: true, atteso: 'Jacques-Alain Miller' },
+    { doc: SL, cerca: 'Tornando all’esempio del Monopoly', atteso: 'Monopoly' },
+    { doc: SL, cerca: 'nasce il termine proprio post-moderno da un libro di', atteso: 'Lyotard' },
+    { doc: SL, cerca: 'Grisù è un draghetto piccolino', atteso: 'Grisù' },
+    { doc: SI, cerca: 'Esaminiamo una tesi di Amedeo Conte', atteso: 'Conte' },
+    { doc: SI, cerca: 'Nella teoria generale del negozio giuridico di', atteso: 'Emilio Betti' },
+    { doc: SI, cerca: 'Per Reinach ciò non è possibile perché contraddittorio', atteso: 'Reinach' },
+    { doc: SI, cerca: 'chiama sintattica la parte della semiotica', atteso: 'Morris' },
+    { doc: SI, cerca: 'È significativo un argomento del diritto penale canonico', atteso: 'diritto penale canonico' },
+    { doc: SI, cerca: 'esprime una verità si analitica ma a posteriori', pdf: true, atteso: 'scritto per intero di mano dal testatore' },
+  ];
+  if (catalogo.some((d) => d.id === SN)) {
+    await check('Filosofia SSG', async () => {
+      assert(!catalogo.some((d) => d.id === SL || d.id === SI), 'sbobinature e Incampo non sono più Originali a sé');
+      for (const v of [SL, SI]) {
+        assert(existsSync(`${root}public/letture/${SN}/allineamento-${v}.json`), `manca la tabella: node scripts/allinea-originali.mjs ${v} ${SN}${SCOST_SSG[v] ? ` --scostamento ${SCOST_SSG[v]}` : ''}`);
+        const t = JSON.parse(readFileSync(`${root}public/letture/${SN}/allineamento-${v}.json`, 'utf8'));
+        assert.equal(t.scostamento ?? 0, SCOST_SSG[v], `${v}: scostamento delle pagine`);
+        const r = await campione(v, SN, v === SL ? 'sl' : 'si', 200, SCOST_SSG[v]);
+        assert(r.migrati / r.n >= 0.85, `${v}: ${r.migrati}/${r.n} frasi con corrispondenza sicura`);
+      }
+      const nv = versione(SN), testi = new Map(nv.blocchi.map((b) => [b.id, b]));
+      const casiS = CASI_SSG.map((c) => ({ ...c, segno: segnoSu(c) }));
+      // I due documenti nello stesso progresso: convivono sul testo nuovo, senza doppioni.
+      storage.clear(); await apriDiNuovo();
+      storage.setItem(prog(SM), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: { [SI]: { pagina: 12, segni: casiS.filter((c) => c.doc === SI).map((c) => c.segno) },
+          [SL]: { pagina: 40, segni: casiS.filter((c) => c.doc === SL).map((c) => c.segno) } } }));
+      await ms.migraSegniOriginali(SM);
+      const q = leggi(prog(SM)), perId = new Map((q.originali[SN]?.segni ?? []).map((x) => [x.id, x]));
+      assert.equal(perId.size, casiS.length, 'Filosofia SSG: tutti i segni sul testo nuovo');
+      assert.deepEqual(Object.keys(q.originali[SN].segniMigrati).sort(), [SL, SI].sort());
+      for (const c of casiS) {
+        const x = perId.get(`${c.doc === SL ? 'sl' : 'si'}-${c.segno.id}`);
+        assert(x, `${c.cerca}: segno nuovo presente`);
+        assert.equal(x.tipo, c.segno.tipo); assert.equal(x.colore, c.segno.colore); assert.equal(x.creata, c.segno.creata);
+        assert(!x.ancoreTesto.some((a) => a.blocco.endsWith(`-${ms.BLOCCO_DA_RICOLLOCARE}`)), `${c.cerca}: atteso sul testo nuovo, è «da ricollocare»`);
+        for (const a of x.ancoreTesto) assert.equal(testi.get(a.blocco)?.testo.slice(a.inizio, a.fine), a.citazione, 'ancora coerente con il textContent nuovo');
+        const citazione = x.ancoreTesto.map((a) => a.citazione).join(' ');
+        assert(normale(citazione).includes(normale(c.atteso)), `${c.cerca}: atteso «${c.atteso}», trovato «${citazione.slice(0, 160)}»`);
+        if (c.esatto) { assert.equal(x.ancoreTesto.length, 1); assert.equal(normale(x.ancoreTesto[0].citazione), normale(c.segno.testo), `solo il tratto: «${x.ancoreTesto[0].citazione}»`); esatti++; }
+        assert(Math.abs(x.pagina - c.segno.pagina - SCOST_SSG[c.doc]) <= 1, `${c.cerca}: p. ${c.segno.pagina} del vecchio → p. ${c.segno.pagina + SCOST_SSG[c.doc]} (±1), trovata p. ${x.pagina}`);
+        righe.push(`${c.doc === SL ? 'lezioni SSG' : 'Incampo SSG'} p. ${c.segno.pagina} → p. ${x.pagina} · ${citazione.slice(0, 70)}`); giusti++;
+      }
+      assert.equal(q.originali[SL].segni.length + q.originali[SI].segni.length, casiS.length, 'segni vecchi conservati');
+      const prima = JSON.stringify(q); await ms.migraSegniOriginali(SM);
+      assert.equal(storage.getItem(prog(SM)), prima, 'Filosofia SSG: idempotente');
+      // Solo Incampo: la pagina di lettura passa alla numerazione nuova (p. 12 → p. 204).
+      storage.clear(); await apriDiNuovo();
+      const unico = casiS.find((c) => c.doc === SI).segno;
+      storage.setItem(prog(SM), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: { [SI]: { pagina: 12, segni: [unico] } } }));
+      await ms.migraSegniOriginali(SM);
+      assert.equal(leggi(prog(SM)).originali[SN]?.pagina, 204, 'Incampo: pagina di lettura spostata di 192');
+    });
+  }
+
+  // ---------- 10. Filosofia A-L: appunti su Incampo, Moro e Cotta (PDF) → testo IURIS (Moro dalla p. 101, Cotta dalla p. 132) ----------
+  // La classe di chi usa l'app ogni giorno: oltre ai casi a mano, i segni del backup di prova (fixtures/segni-campione.json,
+  // «stress»: segni veri sul vecchio lettore di Incampo e Moro) devono arrivare quasi tutti sulla frase giusta.
+  const AI = 'filosofia-incampo-v1', AM = 'filosofia-moro-v1', AC = 'filosofia-cotta-v1', AN = 'filosofia-al-iuris-v1', AS = 'filosofia-del-diritto';
+  const SCOST_AL = { [AI]: 0, [AM]: 100, [AC]: 131 };
+  const SIGLA_AL = { [AI]: 'fi', [AM]: 'fm', [AC]: 'fc' };
+  const NOME_AL = { [AI]: 'Incampo', [AM]: 'Moro', [AC]: 'Cotta' };
+  const CASI_AL = [
+    { doc: AI, cerca: 'Gustav Radbruch cita la sentenza del tribunale di prima istanza di Wiesbaden', atteso: 'Wiesbaden' },
+    { doc: AI, cerca: 'nella Repubblica di Weimar (1923)', atteso: 'Weimar' },
+    { doc: AI, cerca: 'Georges Kalinowski, afferma', atteso: 'Kalinowski' },
+    { doc: AI, cerca: 'comunità pitagorica di Metaponto', atteso: 'Metaponto' },
+    { doc: AI, cerca: 'Francesco Mantica, nelle sue Vaticanae lucubrationes', atteso: 'Mantica' },
+    { doc: AI, cerca: 'Madonne di Lorenzo Lotto', parte: 'Lorenzo Lotto', atteso: 'Lorenzo Lotto', esatto: true },
+    { doc: AI, cerca: 'Un racconto ipotetico ambientato al Polo Nord', pdf: true, atteso: 'Polo Nord' },
+    { doc: AI, cerca: 'Tesi di Alf Ross', atteso: 'Ross' },
+    { doc: AM, cerca: 'La partecipazione di Moro all\'Assemblea Costituente', atteso: 'Assemblea Costituente' },
+    { doc: AM, cerca: 'Giuseppe Capograssi', atteso: 'Capograssi' },
+    { doc: AM, cerca: 'una comunità umana universale che gli Stati costituiscono', atteso: 'comunità umana universale' },
+    { doc: AM, cerca: 'principio della rivoluzione permanente, connaturata', pdf: true, atteso: 'rivoluzione permanente' },
+    { doc: AC, cerca: 'Von Clausewitz affermava', atteso: 'Clausewitz' },
+    { doc: AC, cerca: '“homo homini Deus”', atteso: 'homo homini Deus' },
+    { doc: AC, cerca: 'associazione a delinquere o racket', atteso: 'racket' },
+    { doc: AC, cerca: 'c.d. “legge di Hume”', atteso: 'Hume' },
+  ];
+  if (catalogo.some((d) => d.id === AN)) {
+    await check('Filosofia A-L', async () => {
+      assert(!catalogo.some((d) => [AI, AM, AC].includes(d.id)), 'Incampo, Moro e Cotta non sono più Originali a sé');
+      for (const v of [AI, AM, AC]) {
+        assert(existsSync(`${root}public/letture/${AN}/allineamento-${v}.json`), `manca la tabella: node scripts/allinea-originali.mjs ${v} ${AN}${SCOST_AL[v] ? ` --scostamento ${SCOST_AL[v]}` : ''}`);
+        const t = JSON.parse(readFileSync(`${root}public/letture/${AN}/allineamento-${v}.json`, 'utf8'));
+        assert.equal(t.scostamento ?? 0, SCOST_AL[v], `${v}: scostamento delle pagine`);
+        const r = await campione(v, AN, SIGLA_AL[v], 200, SCOST_AL[v]);
+        assert(r.migrati / r.n >= 0.9, `${v}: ${r.migrati}/${r.n} frasi con corrispondenza sicura`);
+      }
+      const nv = versione(AN), testi = new Map(nv.blocchi.map((b) => [b.id, b]));
+      const casiA = CASI_AL.map((c) => ({ ...c, segno: segnoSu(c) }));
+      // I tre documenti nello stesso progresso: convivono sul testo nuovo, senza doppioni.
+      storage.clear(); await apriDiNuovo();
+      storage.setItem(prog(AS), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: Object.fromEntries([AI, AM, AC].map((v) => [v, { pagina: 5, segni: casiA.filter((c) => c.doc === v).map((c) => c.segno) }])) }));
+      await ms.migraSegniOriginali(AS);
+      const q = leggi(prog(AS)), perId = new Map((q.originali[AN]?.segni ?? []).map((x) => [x.id, x]));
+      assert.equal(perId.size, casiA.length, 'Filosofia A-L: tutti i segni sul testo nuovo');
+      assert.deepEqual(Object.keys(q.originali[AN].segniMigrati).sort(), [AI, AM, AC].sort());
+      for (const c of casiA) {
+        const x = perId.get(`${SIGLA_AL[c.doc]}-${c.segno.id}`);
+        assert(x, `${c.cerca}: segno nuovo presente`);
+        assert.equal(x.tipo, c.segno.tipo); assert.equal(x.colore, c.segno.colore); assert.equal(x.creata, c.segno.creata);
+        assert(!x.ancoreTesto.some((a) => a.blocco.endsWith(`-${ms.BLOCCO_DA_RICOLLOCARE}`)), `${c.cerca}: atteso sul testo nuovo, è «da ricollocare»`);
+        for (const a of x.ancoreTesto) assert.equal(testi.get(a.blocco)?.testo.slice(a.inizio, a.fine), a.citazione, 'ancora coerente con il textContent nuovo');
+        const citazione = x.ancoreTesto.map((a) => a.citazione).join(' ');
+        assert(normale(citazione).includes(normale(c.atteso)), `${c.cerca}: atteso «${c.atteso}», trovato «${citazione.slice(0, 160)}»`);
+        if (c.esatto) { assert.equal(x.ancoreTesto.length, 1); assert.equal(normale(x.ancoreTesto[0].citazione), normale(c.segno.testo), `solo il tratto: «${x.ancoreTesto[0].citazione}»`); esatti++; }
+        assert(Math.abs(x.pagina - c.segno.pagina - SCOST_AL[c.doc]) <= 1, `${c.cerca}: p. ${c.segno.pagina} del vecchio → p. ${c.segno.pagina + SCOST_AL[c.doc]} (±1), trovata p. ${x.pagina}`);
+        righe.push(`${NOME_AL[c.doc]} A-L p. ${c.segno.pagina} → p. ${x.pagina} · ${citazione.slice(0, 70)}`); giusti++;
+      }
+      assert.equal([AI, AM, AC].reduce((n, v) => n + q.originali[v].segni.length, 0), casiA.length, 'segni vecchi conservati');
+      const prima = JSON.stringify(q); await ms.migraSegniOriginali(AS);
+      assert.equal(storage.getItem(prog(AS)), prima, 'Filosofia A-L: idempotente');
+      // Solo Cotta: la pagina di lettura passa alla numerazione nuova (p. 5 → p. 136).
+      storage.clear(); await apriDiNuovo();
+      storage.setItem(prog(AS), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: { [AC]: { pagina: 5, segni: [casiA.find((c) => c.doc === AC).segno] } } }));
+      await ms.migraSegniOriginali(AS);
+      assert.equal(leggi(prog(AS)).originali[AN]?.pagina, 136, 'Cotta: pagina di lettura spostata di 131');
+      // Segni del backup di prova (Incampo e Moro): quasi tutti sicuri, sulla frase che contiene il loro testo, a ±2 pagine.
+      const stress = JSON.parse(readFileSync(new URL('./fixtures/segni-vecchi-al.json', import.meta.url), 'utf8')).stress;
+      storage.clear(); await apriDiNuovo();
+      storage.setItem(prog(AS), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: { [AI]: { pagina: 10, segni: stress[AI] }, [AM]: { pagina: 3, segni: stress[AM] } } }));
+      await ms.migraSegniOriginali(AS);
+      const sq = leggi(prog(AS)).originali[AN];
+      for (const v of [AI, AM]) {
+        const nuovi = sq.segni.filter((x) => x.id.startsWith(`${SIGLA_AL[v]}-`));
+        assert.equal(nuovi.length, stress[v].length, `${v}: ogni segno del backup di prova ha il suo segno nuovo`);
+        const sicuri = nuovi.filter((x) => !x.ancoreTesto.some((a) => a.blocco.endsWith(`-${ms.BLOCCO_DA_RICOLLOCARE}`)));
+        const vicini = sicuri.filter((x) => { const s = stress[v].find((y) => `${SIGLA_AL[v]}-${y.id}` === x.id); return Math.abs(x.pagina - s.pagina - SCOST_AL[v]) <= 2; });
+        assert(sicuri.length / nuovi.length >= 0.9, `${v}: segni del backup di prova sicuri ${sicuri.length}/${nuovi.length}`);
+        assert.equal(vicini.length, sicuri.length, `${v}: segni del backup di prova entro 2 pagine`);
+        misure.push({ vecchio: `${v} (backup di prova)`, n: nuovi.length, migrati: sicuri.length, ricollocare: nuovi.length - sicuri.length, vicine: vicini.length });
+      }
+    });
+  }
+
   for (const r of righe) console.log(`  ${r}`);
   for (const m of misure) console.log(`  campione ${m.vecchio}: ${m.migrati}/${m.n} frasi con corrispondenza sicura (${(100 * m.migrati / m.n).toFixed(1)}%), ${m.ricollocare} da ricollocare; ${m.vicine} entro 2 pagine`);
-  console.log(`Segni degli Originali migrati: ${checks.length} controlli, ${giusti} casi a mano (${esatti} sul tratto esatto)${catalogo.some((d) => d.id === RN) ? ', Romano compreso' : ' (Romano: in attesa di romano-iuris-v1)'}${catalogo.some((d) => d.id === PN) ? ', Privato compreso' : ''}.`);
+  console.log(`Segni degli Originali migrati: ${checks.length} controlli, ${giusti} casi a mano (${esatti} sul tratto esatto)${catalogo.some((d) => d.id === RN) ? ', Romano compreso' : ' (Romano: in attesa di romano-iuris-v1)'}${catalogo.some((d) => d.id === PN) ? ', Privato compreso' : ''}${catalogo.some((d) => d.id === 'filosofia-mz-iuris-v1') ? ', Filosofia M-Z compresa' : ''}${catalogo.some((d) => d.id === 'filosofia-ssg-iuris-v1') ? ', Filosofia SSG compresa' : ''}${catalogo.some((d) => d.id === 'filosofia-al-iuris-v1') ? ', Filosofia A-L compresa' : ''}.`);
 } finally {
   await server?.close();
   for (const [k, d] of Object.entries(salvati)) { if (d) Object.defineProperty(globalThis, k, d); else delete globalThis[k]; }

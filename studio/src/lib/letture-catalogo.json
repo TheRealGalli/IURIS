@@ -1,1974 +1,5 @@
 [
   {
-    "id": "filosofia-incampo-v1",
-    "edizione": 1,
-    "materia": "filosofia-del-diritto",
-    "titolo": "Incampo · appunti",
-    "descrizione": "Dispense a cura di Nicla Bianco, A.A. 2025–26, sul testo di Antonio Incampo.",
-    "fonteSha256": "ad98c94e98be1dff1492f507ba82241b4e090b061bcc8fda8ccb654a149cfd30",
-    "pagine": 100,
-    "sezioni": [
-      {
-        "id": "u01-l1",
-        "titolo": "La filosofia del diritto come scienza del dovere giuridico",
-        "da": 1,
-        "a": 3,
-        "lezione": "u01-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u01-l1.json"
-      },
-      {
-        "id": "u01-l2",
-        "titolo": "L'ordinamento e la forza del dovere: norme necessarie e solo possibili",
-        "da": 4,
-        "a": 7,
-        "lezione": "u01-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u01-l2.json"
-      },
-      {
-        "id": "u01-l3",
-        "titolo": "L'oggetto del dovere: norme di condotta e norme di struttura",
-        "da": 7,
-        "a": 9,
-        "lezione": "u01-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u01-l3.json",
-        "primo": "p007-b003"
-      },
-      {
-        "id": "u01-l4",
-        "titolo": "Oltre positivismo e giusnaturalismo: diritto sovralegale e regole tecniche",
-        "da": 9,
-        "a": 10,
-        "lezione": "u01-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u01-l4.json",
-        "primo": "p009-b002"
-      },
-      {
-        "id": "u01-l5",
-        "titolo": "Diritto, universale e giustificazione",
-        "da": 11,
-        "a": 13,
-        "lezione": "u01-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u01-l5.json"
-      },
-      {
-        "id": "u02-l1",
-        "titolo": "Filosofia, politica e diritto: legislatore e giudice",
-        "da": 14,
-        "a": 16,
-        "lezione": "u02-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u02-l1.json"
-      },
-      {
-        "id": "u02-l2",
-        "titolo": "Lacune, legalismo giuridico e politicità del giudice",
-        "da": 16,
-        "a": 17,
-        "lezione": "u02-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u02-l2.json",
-        "primo": "p016-b002"
-      },
-      {
-        "id": "u02-l3",
-        "titolo": "Analogia e argomento a contrario: i limiti della logica giuridica",
-        "da": 18,
-        "a": 21,
-        "lezione": "u02-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u02-l3.json"
-      },
-      {
-        "id": "u02-l4",
-        "titolo": "Il dovere di decidere e la motivazione come limite",
-        "da": 21,
-        "a": 22,
-        "lezione": "u02-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u02-l4.json",
-        "primo": "p021-b002"
-      },
-      {
-        "id": "u03-l1",
-        "titolo": "Il diritto ha bisogno della parola",
-        "da": 23,
-        "a": 24,
-        "lezione": "u03-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u03-l1.json"
-      },
-      {
-        "id": "u03-l2",
-        "titolo": "La parola che fa: performatività e condizioni di felicità",
-        "da": 25,
-        "a": 27,
-        "lezione": "u03-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u03-l2.json"
-      },
-      {
-        "id": "u03-l3",
-        "titolo": "Thesis e rhesis: il legislatore, il giurista e la norma costitutiva",
-        "da": 27,
-        "a": 29,
-        "lezione": "u03-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u03-l3.json",
-        "primo": "p027-b002"
-      },
-      {
-        "id": "u03-l4",
-        "titolo": "Norme costitutive, norme prescrittive e critica a Kelsen",
-        "da": 29,
-        "a": 30,
-        "lezione": "u03-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u03-l4.json",
-        "primo": "p029-b002"
-      },
-      {
-        "id": "u03-l5",
-        "titolo": "Costitutivo e prescrittivo: il rapporto e i limiti",
-        "da": 31,
-        "a": 33,
-        "lezione": "u03-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u03-l5.json"
-      },
-      {
-        "id": "u04-l1",
-        "titolo": "Verità o validità? La tesi di Conte sui performativi",
-        "da": 34,
-        "a": 36,
-        "lezione": "u04-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u04-l1.json"
-      },
-      {
-        "id": "u04-l2",
-        "titolo": "Le obiezioni a Conte: verità semantica e verità ontica",
-        "da": 36,
-        "a": 39,
-        "lezione": "u04-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u04-l2.json",
-        "primo": "p036-b002"
-      },
-      {
-        "id": "u04-l3",
-        "titolo": "L'autonomia logica del diritto: contro le due tesi contrarie",
-        "da": 39,
-        "a": 41,
-        "lezione": "u04-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u04-l3.json",
-        "primo": "p039-b002"
-      },
-      {
-        "id": "u05-l1",
-        "titolo": "Le due validità pragmatiche e la promessa di cosa passata",
-        "da": 42,
-        "a": 43,
-        "lezione": "u05-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u05-l1.json"
-      },
-      {
-        "id": "u05-l2",
-        "titolo": "Struttura e funzione: segno, significato, uso",
-        "da": 44,
-        "a": 47,
-        "lezione": "u05-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u05-l2.json"
-      },
-      {
-        "id": "u05-l3",
-        "titolo": "Funzioni essenziali, conoscenza del gioco e condizioni di struttura",
-        "da": 47,
-        "a": 50,
-        "lezione": "u05-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u05-l3.json",
-        "primo": "p047-b002"
-      },
-      {
-        "id": "u05-l4",
-        "titolo": "Le regole di funzione: fiducia, adempimento, causa",
-        "da": 50,
-        "a": 53,
-        "lezione": "u05-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u05-l4.json",
-        "primo": "p050-b002"
-      },
-      {
-        "id": "u05-l5",
-        "titolo": "Giudizi sintetici a priori e limiti del diritto positivo",
-        "da": 53,
-        "a": 56,
-        "lezione": "u05-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u05-l5.json",
-        "primo": "p053-b002"
-      },
-      {
-        "id": "u05-l6",
-        "titolo": "La validità praxeonomica: accidentalia, giudizi a posteriori, istituti",
-        "da": 56,
-        "a": 58,
-        "lezione": "u05-l6",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u05-l6.json",
-        "primo": "p056-b002"
-      },
-      {
-        "id": "u06-l1",
-        "titolo": "Le norme come segni: validità sintattica e norme di struttura",
-        "da": 59,
-        "a": 62,
-        "lezione": "u06-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u06-l1.json"
-      },
-      {
-        "id": "u06-l2",
-        "titolo": "Le metaregole: norma di chiusura e Grundnorm",
-        "da": 62,
-        "a": 63,
-        "lezione": "u06-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u06-l2.json",
-        "primo": "p062-b002"
-      },
-      {
-        "id": "u06-l3",
-        "titolo": "La funzione dell'ordinamento: Chiesa e Stato davanti all'esigibilità",
-        "da": 64,
-        "a": 65,
-        "lezione": "u06-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u06-l3.json"
-      },
-      {
-        "id": "u06-l4",
-        "titolo": "Alice, Gulliver e la validità sintasseonomica",
-        "da": 66,
-        "a": 68,
-        "lezione": "u06-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u06-l4.json"
-      },
-      {
-        "id": "u06-l5",
-        "titolo": "La Norma fondamentale: esistenza, paradosso e metro campione",
-        "da": 69,
-        "a": 71,
-        "lezione": "u06-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u06-l5.json"
-      },
-      {
-        "id": "u06-l6",
-        "titolo": "Effettività e teoreticità: i due significati della Grundnorm",
-        "da": 71,
-        "a": 74,
-        "lezione": "u06-l6",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u06-l6.json",
-        "primo": "p071-b002"
-      },
-      {
-        "id": "u07-l1",
-        "titolo": "La Grundnorm come regola eidetico-costitutiva",
-        "da": 75,
-        "a": 77,
-        "lezione": "u07-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u07-l1.json"
-      },
-      {
-        "id": "u07-l2",
-        "titolo": "Eidos costitutivo di regole: doveri eidonomici ed eidologici",
-        "da": 77,
-        "a": 78,
-        "lezione": "u07-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u07-l2.json",
-        "primo": "p077-b002"
-      },
-      {
-        "id": "u07-l3",
-        "titolo": "Struttura e funzione dell'ordinamento: da Kelsen a Kant",
-        "da": 79,
-        "a": 81,
-        "lezione": "u07-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u07-l3.json"
-      },
-      {
-        "id": "u07-l4",
-        "titolo": "La pubblicità nel diritto e la formula trascendentale",
-        "da": 82,
-        "a": 83,
-        "lezione": "u07-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u07-l4.json"
-      },
-      {
-        "id": "u07-l5",
-        "titolo": "Pubblicità e giustizia: diritto, virtù, universalità",
-        "da": 84,
-        "a": 87,
-        "lezione": "u07-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u07-l5.json"
-      },
-      {
-        "id": "u07-l6",
-        "titolo": "Doveri perfetti e imperfetti; Grundnorm e Grundwert",
-        "da": 87,
-        "a": 89,
-        "lezione": "u07-l6",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u07-l6.json",
-        "primo": "p087-b003"
-      },
-      {
-        "id": "u08-l1",
-        "titolo": "Stoicismo, Scetticismo e coscienza infelice",
-        "da": 90,
-        "a": 92,
-        "lezione": "u08-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u08-l1.json"
-      },
-      {
-        "id": "u08-l2",
-        "titolo": "Che cos'è il diritto? Validità e crisi dell'ordinamento",
-        "da": 93,
-        "a": 96,
-        "lezione": "u08-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u08-l2.json"
-      },
-      {
-        "id": "u08-l3",
-        "titolo": "Nomos e terra: lex mercatoria, contratto, tecnodemocrazia",
-        "da": 96,
-        "a": 98,
-        "lezione": "u08-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u08-l3.json",
-        "primo": "p096-b002"
-      },
-      {
-        "id": "u08-l4",
-        "titolo": "Senza codice, non senza ordinamento: i diritti come mesofatti",
-        "da": 98,
-        "a": 100,
-        "lezione": "u08-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-incampo-v1/u08-l4.json",
-        "primo": "p098-b002"
-      }
-    ],
-    "fonti": [
-      {
-        "titolo": "Appunti sul testo di Antonio Incampo, a cura di Nicla Bianco, A.A. 2025–26 (fonte di partenza)"
-      },
-      {
-        "titolo": "Cartesio, Meditationes de prima philosophia, Meditatio II — Corpus Descartes, Université de Caen",
-        "url": "https://www.unicaen.fr/puc/sources/prodescartes/consult/descartes/Oeuvres/Oeuvres_Descartes/meditationes.xml/meditationes_meditations.html"
-      },
-      {
-        "titolo": "ONU, rapporto S/25704 del 3 maggio 1993, paragrafo 34: legalità e diritto consuetudinario",
-        "url": "https://documents.un.org/doc/undoc/gen/n93/248/35/pdf/n9324835.pdf"
-      }
-    ]
-  },
-  {
-    "id": "filosofia-moro-v1",
-    "edizione": 1,
-    "materia": "filosofia-del-diritto",
-    "titolo": "Moro · Il diritto e lo Stato",
-    "descrizione": "Dispensa a cura di Nicla Bianco. Riassunto degli appunti, non il volume integrale.",
-    "fonteSha256": "30df3db60b9c640a3113512c3b9d63d817a1913b047905dc1cc051c0608fa1e6",
-    "pagine": 31,
-    "sezioni": [
-      {
-        "id": "u09-l1",
-        "titolo": "Le lezioni baresi: la persona, lo Stato dal basso, la Costituzione",
-        "da": 1,
-        "a": 3,
-        "lezione": "u09-l1",
-        "file": "letture/filosofia-moro-v1/u09-l1.json",
-        "revisionata": true
-      },
-      {
-        "id": "u09-l2",
-        "titolo": "Il problema della vita: valore, legge, amore e libertà",
-        "da": 4,
-        "a": 6,
-        "lezione": "u09-l2",
-        "file": "letture/filosofia-moro-v1/u09-l2.json",
-        "revisionata": true
-      },
-      {
-        "id": "u09-l3",
-        "titolo": "L'esperienza giuridica: resistenza, forza e giustizia, crisi del diritto",
-        "da": 7,
-        "a": 9,
-        "lezione": "u09-l3",
-        "file": "letture/filosofia-moro-v1/u09-l3.json",
-        "revisionata": true
-      },
-      {
-        "id": "u10-l1",
-        "titolo": "La società: relazione, unità nella distinzione, comunione",
-        "da": 10,
-        "a": 12,
-        "lezione": "u10-l1",
-        "file": "letture/filosofia-moro-v1/u10-l1.json",
-        "revisionata": true
-      },
-      {
-        "id": "u10-l2",
-        "titolo": "I fini dello Stato: Stato assoluto, Stato di diritto, Stato etico",
-        "da": 13,
-        "a": 14,
-        "lezione": "u10-l2",
-        "file": "letture/filosofia-moro-v1/u10-l2.json",
-        "revisionata": true
-      },
-      {
-        "id": "u10-l3",
-        "titolo": "Autorità e libertà: dalla libertà fisica alla libertà etico-giuridica",
-        "da": 15,
-        "a": 17,
-        "lezione": "u10-l3",
-        "file": "letture/filosofia-moro-v1/u10-l3.json",
-        "revisionata": true
-      },
-      {
-        "id": "u10-l4",
-        "titolo": "Il momento politico umanistico: singolo, funzione politica, Amministrazione",
-        "da": 18,
-        "a": 20,
-        "lezione": "u10-l4",
-        "file": "letture/filosofia-moro-v1/u10-l4.json",
-        "revisionata": true
-      },
-      {
-        "id": "u11-l1",
-        "titolo": "Il valore dello Stato: eticità, religiosità e Stato «tutto etico»",
-        "da": 21,
-        "a": 22,
-        "lezione": "u11-l1",
-        "file": "letture/filosofia-moro-v1/u11-l1.json",
-        "revisionata": true
-      },
-      {
-        "id": "u11-l2",
-        "titolo": "Idea liberale e idea sociale dello Stato",
-        "da": 23,
-        "a": 25,
-        "lezione": "u11-l2",
-        "file": "letture/filosofia-moro-v1/u11-l2.json",
-        "revisionata": true
-      },
-      {
-        "id": "u11-l3",
-        "titolo": "La rivoluzione: permanente, pacifica e violenta",
-        "da": 26,
-        "a": 28,
-        "lezione": "u11-l3",
-        "file": "letture/filosofia-moro-v1/u11-l3.json",
-        "revisionata": true
-      },
-      {
-        "id": "u11-l4",
-        "titolo": "La pluralità degli Stati e i loro rapporti",
-        "da": 29,
-        "a": 31,
-        "lezione": "u11-l4",
-        "file": "letture/filosofia-moro-v1/u11-l4.json",
-        "revisionata": true
-      }
-    ]
-  },
-  {
-    "id": "filosofia-cotta-v1",
-    "edizione": 1,
-    "materia": "filosofia-del-diritto",
-    "titolo": "Cotta · Il diritto nell’esistenza",
-    "descrizione": "Riassunto del testo di Sergio Cotta. Materiale di partenza del Percorso, non il volume integrale.",
-    "fonteSha256": "a46fcbed99a2e430a77c3913cd3d981ba8a9a0fec4bb4a02ef092e1cc97b9007",
-    "pagine": 30,
-    "sezioni": [
-      {
-        "id": "u12-l1",
-        "titolo": "Titolo, premesse e metodo: quid ius e cur ius",
-        "da": 1,
-        "a": 3,
-        "lezione": "u12-l1",
-        "file": "letture/filosofia-cotta-v1/u12-l1.json",
-        "revisionata": true
-      },
-      {
-        "id": "u12-l2",
-        "titolo": "Senso comune e teorie giuridiche odierne (cap. II)",
-        "da": 4,
-        "a": 6,
-        "lezione": "u12-l2",
-        "file": "letture/filosofia-cotta-v1/u12-l2.json",
-        "revisionata": true
-      },
-      {
-        "id": "u12-l3",
-        "titolo": "La genesi del diritto nella coscienza (Parte II, cap. III, prima parte)",
-        "da": 6,
-        "a": 7,
-        "lezione": "u12-l3",
-        "file": "letture/filosofia-cotta-v1/u12-l3.json",
-        "revisionata": true,
-        "primo": "p006-b002"
-      },
-      {
-        "id": "u12-l4",
-        "titolo": "Dalla compossibilità alla socionomia; il fondamento ontologico dell'esistenza (capp. III–V)",
-        "da": 8,
-        "a": 10,
-        "lezione": "u12-l4",
-        "file": "letture/filosofia-cotta-v1/u12-l4.json",
-        "revisionata": true
-      },
-      {
-        "id": "u13-l1",
-        "titolo": "Coesistenza, giuridicità, amicizia e politica",
-        "da": 10,
-        "a": 13,
-        "lezione": "u13-l1",
-        "file": "letture/filosofia-cotta-v1/u13-l1.json",
-        "revisionata": true,
-        "primo": "p010-b002"
-      },
-      {
-        "id": "u13-l2",
-        "titolo": "I limiti della politica e la famiglia",
-        "da": 13,
-        "a": 15,
-        "lezione": "u13-l2",
-        "file": "letture/filosofia-cotta-v1/u13-l2.json",
-        "revisionata": true,
-        "primo": "p013-b002"
-      },
-      {
-        "id": "u13-l3",
-        "titolo": "Gioco, diritto e carità: le forme integrativo-includenti",
-        "da": 15,
-        "a": 17,
-        "lezione": "u13-l3",
-        "file": "letture/filosofia-cotta-v1/u13-l3.json",
-        "revisionata": true,
-        "primo": "p015-b002"
-      },
-      {
-        "id": "u13-l4",
-        "titolo": "La giuridicità nelle sei forme e la funzione del diritto",
-        "da": 17,
-        "a": 20,
-        "lezione": "u13-l4",
-        "file": "letture/filosofia-cotta-v1/u13-l4.json",
-        "revisionata": true,
-        "primo": "p017-b007"
-      },
-      {
-        "id": "u14-l1",
-        "titolo": "La Parte IV in sintesi e la regola giuridica: linguaggio deontico, obbligo, comando",
-        "da": 20,
-        "a": 22,
-        "lezione": "u14-l1",
-        "file": "letture/filosofia-cotta-v1/u14-l1.json",
-        "revisionata": true,
-        "primo": "p020-b002"
-      },
-      {
-        "id": "u14-l2",
-        "titolo": "Obbligo, costrizione e le tre forme della giustizia",
-        "da": 22,
-        "a": 24,
-        "lezione": "u14-l2",
-        "file": "letture/filosofia-cotta-v1/u14-l2.json",
-        "revisionata": true,
-        "primo": "p022-b003"
-      },
-      {
-        "id": "u14-l3",
-        "titolo": "La giustificazione delle norme, il diritto naturale vigente e la legalità",
-        "da": 25,
-        "a": 27,
-        "lezione": "u14-l3",
-        "file": "letture/filosofia-cotta-v1/u14-l3.json",
-        "revisionata": true
-      },
-      {
-        "id": "u14-l4",
-        "titolo": "Dal Sein al Sollen: il diritto naturale vigente e il primo sguardo sulla temporalità",
-        "da": 27,
-        "a": 28,
-        "lezione": "u14-l4",
-        "file": "letture/filosofia-cotta-v1/u14-l4.json",
-        "revisionata": true,
-        "primo": "p027-b002"
-      },
-      {
-        "id": "u14-l5",
-        "titolo": "Durata, moralità del diritto e carità; Incampo e Cotta a confronto",
-        "da": 29,
-        "a": 30,
-        "lezione": "u14-l5",
-        "file": "letture/filosofia-cotta-v1/u14-l5.json",
-        "revisionata": true
-      }
-    ]
-  },
-  {
-    "id": "filosofia-ssg-lezioni-v1",
-    "edizione": 1,
-    "materia": "filosofia-del-diritto-ssg",
-    "titolo": "Lezioni di Siniscalchi · sbobinature",
-    "descrizione": "Sbobinature delle lezioni di Filosofia del diritto del prof. Siniscalchi, A.A. 2024–25 (dal 2 ottobre all’11 dicembre 2024). Materiale di partenza del Percorso, non un testo rivisto dal docente.",
-    "fonteSha256": "22d355731606862a55301e5acdb6bd59963da4927c8caf7ee9a81a823373b47f",
-    "pagine": 192,
-    "sezioni": [
-      {
-        "id": "u01-l1",
-        "titolo": "Come sappiamo che il diritto esiste: ordine, regole e forza deontica",
-        "da": 1,
-        "a": 4,
-        "lezione": "u01-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u01-l1.json"
-      },
-      {
-        "id": "u01-l2",
-        "titolo": "Descrittive e prescrittive: la «madre di tutte le domande»",
-        "da": 4,
-        "a": 7,
-        "lezione": "u01-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u01-l2.json",
-        "primo": "p004-b015"
-      },
-      {
-        "id": "u01-l3",
-        "titolo": "Come ragiona un giusnaturalista: il sillogismo e la fallacia naturalistica",
-        "da": 8,
-        "a": 9,
-        "lezione": "u01-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u01-l3.json"
-      },
-      {
-        "id": "u01-l4",
-        "titolo": "Il positivismo giuridico: la forma, la sanzione e la validità",
-        "da": 10,
-        "a": 11,
-        "lezione": "u01-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u01-l4.json"
-      },
-      {
-        "id": "u02-l1",
-        "titolo": "La fallacia naturalistica come pars destruens: Bobbio, l'emancipazione del diritto e il prezzo della giustizia",
-        "da": 12,
-        "a": 14,
-        "lezione": "u02-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u02-l1.json"
-      },
-      {
-        "id": "u02-l2",
-        "titolo": "Validità formale e ordinamento a gradi: lo Stufenbau",
-        "da": 15,
-        "a": 18,
-        "lezione": "u02-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u02-l2.json"
-      },
-      {
-        "id": "u02-l3",
-        "titolo": "Chi valida la Costituzione? Paradossi, teoria dei tipi e norma fondamentale",
-        "da": 19,
-        "a": 20,
-        "lezione": "u02-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u02-l3.json"
-      },
-      {
-        "id": "u02-l4",
-        "titolo": "Sistemi statici e dinamici; la norma come schema di qualificazione",
-        "da": 21,
-        "a": 21,
-        "lezione": "u02-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u02-l4.json"
-      },
-      {
-        "id": "u03-l1",
-        "titolo": "La validità sintattica: condizioni a posteriori e a priori, norma di chiusura",
-        "da": 22,
-        "a": 25,
-        "lezione": "u03-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u03-l1.json"
-      },
-      {
-        "id": "u03-l2",
-        "titolo": "Che cos'è la norma giuridica: fatto, qualificazione deontica, sanzione",
-        "da": 26,
-        "a": 28,
-        "lezione": "u03-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u03-l2.json"
-      },
-      {
-        "id": "u03-l3",
-        "titolo": "Sollen e Müssen: causalità e imputazione",
-        "da": 29,
-        "a": 29,
-        "lezione": "u03-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u03-l3.json"
-      },
-      {
-        "id": "u03-l4",
-        "titolo": "Norme senza sanzione: primarie e secondarie in Kelsen",
-        "da": 30,
-        "a": 32,
-        "lezione": "u03-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u03-l4.json"
-      },
-      {
-        "id": "u04-l1",
-        "titolo": "Meriti e tre punti deboli del positivismo kelseniano",
-        "da": 33,
-        "a": 35,
-        "lezione": "u04-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u04-l1.json"
-      },
-      {
-        "id": "u04-l2",
-        "titolo": "Norme valide e ingiuste: il nazismo e l'argomento del guerriero valoroso",
-        "da": 36,
-        "a": 37,
-        "lezione": "u04-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u04-l2.json"
-      },
-      {
-        "id": "u04-l3",
-        "titolo": "Le formule di Radbruch, il calice di cristallo e la giustizia relativa di Kelsen",
-        "da": 38,
-        "a": 39,
-        "lezione": "u04-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u04-l3.json"
-      },
-      {
-        "id": "u04-l4",
-        "titolo": "Una soglia oggettiva di giustizia: pragmatica, promessa e pubblicità kantiana",
-        "da": 40,
-        "a": 43,
-        "lezione": "u04-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u04-l4.json"
-      },
-      {
-        "id": "u05-l1",
-        "titolo": "Il criterio di pubblicità come ius publicum e i limiti di ogni teoria della giustizia",
-        "da": 44,
-        "a": 45,
-        "lezione": "u05-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u05-l1.json"
-      },
-      {
-        "id": "u05-l2",
-        "titolo": "Antigone: il conflitto tragico e le letture di Hegel, Lacan e Butler",
-        "da": 46,
-        "a": 46,
-        "lezione": "u05-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u05-l2.json"
-      },
-      {
-        "id": "u05-l3",
-        "titolo": "Porzia e la giustizia moderna, formale-procedurale",
-        "da": 47,
-        "a": 48,
-        "lezione": "u05-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u05-l3.json"
-      },
-      {
-        "id": "u05-l4",
-        "titolo": "Interpretare la norma: lacune, art. 12 preleggi e l'esempio della sala d'aspetto",
-        "da": 49,
-        "a": 54,
-        "lezione": "u05-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u05-l4.json"
-      },
-      {
-        "id": "u06-l1",
-        "titolo": "Austin: fare cose con parole, la funzione performativa del linguaggio",
-        "da": 54,
-        "a": 62,
-        "lezione": "u06-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u06-l1.json",
-        "primo": "p054-b002"
-      },
-      {
-        "id": "u06-l2",
-        "titolo": "Retiche e tetiche; le norme costitutive di Carcaterra",
-        "da": 63,
-        "a": 65,
-        "lezione": "u06-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u06-l2.json"
-      },
-      {
-        "id": "u06-l3",
-        "titolo": "Le norme costitutive non sono neutre: effetti prescrittivi indiretti e funzione del diritto",
-        "da": 66,
-        "a": 68,
-        "lezione": "u06-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u06-l3.json"
-      },
-      {
-        "id": "u07-l1",
-        "titolo": "La terza critica: il soggetto. Las Meninas, osservatore e spettatore",
-        "da": 69,
-        "a": 72,
-        "lezione": "u07-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u07-l1.json"
-      },
-      {
-        "id": "u07-l2",
-        "titolo": "Punto di vista esterno e interno: oggettivo e soggettivo",
-        "da": 73,
-        "a": 77,
-        "lezione": "u07-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u07-l2.json"
-      },
-      {
-        "id": "u07-l3",
-        "titolo": "I partecipanti al gioco del diritto: osservanti e custodi dell'osservanza",
-        "da": 78,
-        "a": 80,
-        "lezione": "u07-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u07-l3.json"
-      },
-      {
-        "id": "u07-l4",
-        "titolo": "La metafora degli scacchi e il realismo di Alf Ross",
-        "da": 81,
-        "a": 83,
-        "lezione": "u07-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u07-l4.json"
-      },
-      {
-        "id": "u08-l1",
-        "titolo": "Chi accende il motore? La critica di Ross alla norma fondamentale",
-        "da": 84,
-        "a": 87,
-        "lezione": "u08-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u08-l1.json"
-      },
-      {
-        "id": "u08-l2",
-        "titolo": "Il fondamento secondo Ross: le norme di revisione costituzionale e la replica logica di Kelsen",
-        "da": 87,
-        "a": 88,
-        "lezione": "u08-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u08-l2.json",
-        "primo": "p087-b002"
-      },
-      {
-        "id": "u08-l3",
-        "titolo": "Le radici culturali: neokantismo in Kelsen, neoempirismo logico e psicoanalisi in Ross",
-        "da": 89,
-        "a": 91,
-        "lezione": "u08-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u08-l3.json"
-      },
-      {
-        "id": "u08-l4",
-        "titolo": "Dal legislatore alle corti; il VAR, la fotocellula e la strada verso Foucault",
-        "da": 92,
-        "a": 96,
-        "lezione": "u08-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u08-l4.json"
-      },
-      {
-        "id": "u09-l1",
-        "titolo": "Foucault: soggetti che non possono non seguire le regole; follia, carcere e immaginario",
-        "da": 97,
-        "a": 98,
-        "lezione": "u09-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u09-l1.json"
-      },
-      {
-        "id": "u09-l2",
-        "titolo": "Il Panopticon: il gioco degli sguardi e il disciplinamento",
-        "da": 99,
-        "a": 100,
-        "lezione": "u09-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u09-l2.json"
-      },
-      {
-        "id": "u09-l3",
-        "titolo": "La norma come normalizzazione: dispositivi, controllo contro-giuridico, efficienza",
-        "da": 101,
-        "a": 103,
-        "lezione": "u09-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u09-l3.json"
-      },
-      {
-        "id": "u09-l4",
-        "titolo": "L'occhio di Dio, l'immaginario del controllo e la domanda: chi osserva gli osservatori?",
-        "da": 103,
-        "a": 106,
-        "lezione": "u09-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u09-l4.json",
-        "primo": "p103-b002"
-      },
-      {
-        "id": "u10-l1",
-        "titolo": "Due epistemologie: sapere per prevedere, sapere per controllare",
-        "da": 107,
-        "a": 108,
-        "lezione": "u10-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u10-l1.json"
-      },
-      {
-        "id": "u10-l2",
-        "titolo": "Potere prescrittivo-sanzionatorio e potere disciplinare; il biopotere",
-        "da": 109,
-        "a": 113,
-        "lezione": "u10-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u10-l2.json"
-      },
-      {
-        "id": "u10-l3",
-        "titolo": "Legalità e legittimità, il custode anonimo, i corpi docili; lo schema dei punti di vista",
-        "da": 114,
-        "a": 114,
-        "lezione": "u10-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u10-l3.json"
-      },
-      {
-        "id": "u11-l1",
-        "titolo": "L'osservante e l'atteggiamento critico-riflessivo: il punto di vista interno di Hart",
-        "da": 115,
-        "a": 117,
-        "lezione": "u11-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u11-l1.json"
-      },
-      {
-        "id": "u11-l2",
-        "titolo": "La norma come schema a struttura semanticamente aperta",
-        "da": 118,
-        "a": 118,
-        "lezione": "u11-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u11-l2.json"
-      },
-      {
-        "id": "u11-l3",
-        "titolo": "L'ordinamento come gioco sociale e le norme di riconoscimento",
-        "da": 119,
-        "a": 121,
-        "lezione": "u11-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u11-l3.json"
-      },
-      {
-        "id": "u12-l1",
-        "titolo": "Searle: fatti bruti e fatti istituzionali, «X conta come Y in C»",
-        "da": 122,
-        "a": 123,
-        "lezione": "u12-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u12-l1.json"
-      },
-      {
-        "id": "u12-l2",
-        "titolo": "Funzioni agentive di status e intenzionalità collettiva",
-        "da": 124,
-        "a": 126,
-        "lezione": "u12-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u12-l2.json"
-      },
-      {
-        "id": "u12-l3",
-        "titolo": "Il postmoderno e le teorie postmoderne del diritto; i tre approcci di Law and Film",
-        "da": 127,
-        "a": 130,
-        "lezione": "u12-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u12-l3.json"
-      },
-      {
-        "id": "u12-l4",
-        "titolo": "Il cerchio magico del diritto, law as film e film as law",
-        "da": 130,
-        "a": 133,
-        "lezione": "u12-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u12-l4.json",
-        "primo": "p130-b002"
-      },
-      {
-        "id": "u13-l1",
-        "titolo": "L'intenzionalità collettiva e le regole costitutive",
-        "da": 134,
-        "a": 137,
-        "lezione": "u13-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u13-l1.json"
-      },
-      {
-        "id": "u13-l2",
-        "titolo": "Prima critica: la materia del fatto bruto non è indifferente",
-        "da": 137,
-        "a": 139,
-        "lezione": "u13-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u13-l2.json",
-        "primo": "p137-b002"
-      },
-      {
-        "id": "u13-l3",
-        "titolo": "Seconda critica: indicatori di status, Derrida e la documentalità",
-        "da": 140,
-        "a": 141,
-        "lezione": "u13-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u13-l3.json"
-      },
-      {
-        "id": "u13-l4",
-        "titolo": "Perché seguo le regole per Searle; i due poli delle teorie del Novecento e la loro crisi",
-        "da": 142,
-        "a": 143,
-        "lezione": "u13-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u13-l4.json"
-      },
-      {
-        "id": "u14-l1",
-        "titolo": "La crisi dell'ordinamento: postmodernità, globalizzazione, sovranità limitata, neoliberismo",
-        "da": 144,
-        "a": 145,
-        "lezione": "u14-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u14-l1.json"
-      },
-      {
-        "id": "u14-l2",
-        "titolo": "Dal fordismo al post-fordismo: costi di transazione, multinazionali, la nascita della governance",
-        "da": 146,
-        "a": 147,
-        "lezione": "u14-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u14-l2.json"
-      },
-      {
-        "id": "u14-l3",
-        "titolo": "Rizoma e piano di immanenza: la governance capovolge la piramide",
-        "da": 148,
-        "a": 150,
-        "lezione": "u14-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u14-l3.json"
-      },
-      {
-        "id": "u15-l1",
-        "titolo": "Decidere di non decidere: autolegittimazione, inclusione, efficienza",
-        "da": 151,
-        "a": 151,
-        "lezione": "u15-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u15-l1.json"
-      },
-      {
-        "id": "u15-l2",
-        "titolo": "Il potere della governance: indirizzo, pastorato, Synopticon; luci e ombre",
-        "da": 152,
-        "a": 153,
-        "lezione": "u15-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u15-l2.json"
-      },
-      {
-        "id": "u15-l3",
-        "titolo": "Le immagini del potere: il Leviatano, il triangolo di Kelsen, le pieghe di Deleuze",
-        "da": 153,
-        "a": 154,
-        "lezione": "u15-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u15-l3.json",
-        "primo": "p153-b002"
-      },
-      {
-        "id": "u15-l4",
-        "titolo": "La governance per opposizione e la nascita dello spettatore: un'epistemologia patetica",
-        "da": 155,
-        "a": 158,
-        "lezione": "u15-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u15-l4.json"
-      },
-      {
-        "id": "u16-l1",
-        "titolo": "Il diritto nasce nel teatro; lo spettatore da Platone a Debord",
-        "da": 159,
-        "a": 161,
-        "lezione": "u16-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u16-l1.json"
-      },
-      {
-        "id": "u16-l2",
-        "titolo": "Spettacolare concentrato e diffuso; carisma, populismo, nomos",
-        "da": 162,
-        "a": 164,
-        "lezione": "u16-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u16-l2.json"
-      },
-      {
-        "id": "u16-l3",
-        "titolo": "Lo spettatore acclamante: Schmitt, l'acclamazione e il Leviatano; Legendre e il management giuridico",
-        "da": 165,
-        "a": 168,
-        "lezione": "u16-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u16-l3.json"
-      },
-      {
-        "id": "u16-l4",
-        "titolo": "Lo spettatore entusiasta: Kant, la Rivoluzione francese e le sue riletture",
-        "da": 169,
-        "a": 171,
-        "lezione": "u16-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u16-l4.json"
-      },
-      {
-        "id": "u16-l5",
-        "titolo": "Come si svolge l'esame: struttura ed esempi di domande",
-        "da": 172,
-        "a": 173,
-        "lezione": "u16-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u16-l5.json"
-      },
-      {
-        "id": "u17-l1",
-        "titolo": "Il diritto come cultura: Carnelutti, White, Friedman e la cultura giuridica esterna",
-        "da": 174,
-        "a": 183,
-        "lezione": "u17-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u17-l1.json"
-      },
-      {
-        "id": "u17-l2",
-        "titolo": "Law in film: generi, stile empatico-cognitivo e critico-ideologico, le locandine dei prison movies",
-        "da": 184,
-        "a": 185,
-        "lezione": "u17-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u17-l2.json"
-      },
-      {
-        "id": "u17-l3",
-        "titolo": "Il corpo femminile nei prison movies; law as film: il giurista sceneggiatore, attore, montatore",
-        "da": 186,
-        "a": 189,
-        "lezione": "u17-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u17-l3.json"
-      },
-      {
-        "id": "u17-l4",
-        "titolo": "Film as law: lo stalking, il giudice nel cinema italiano e il poliziottesco",
-        "da": 190,
-        "a": 192,
-        "lezione": "u17-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-lezioni-v1/u17-l4.json"
-      }
-    ],
-    "fonti": [
-      {
-        "titolo": "Sbobinature delle lezioni del prof. Siniscalchi, Filosofia del diritto, A.A. 2024–25, 2 ottobre – 11 dicembre 2024 (fonte di partenza)"
-      }
-    ]
-  },
-  {
-    "id": "filosofia-ssg-incampo-v1",
-    "edizione": 1,
-    "materia": "filosofia-del-diritto-ssg",
-    "titolo": "Incampo · Sul dovere giuridico, riassunto",
-    "descrizione": "Riassunto in dieci capitoli di A. Incampo, Filosofia del dovere giuridico, per il corso del prof. Siniscalchi. Materiale di partenza del Percorso, non il volume integrale.",
-    "fonteSha256": "467e642e9587a109fbc025cfa1556be069ecaa0d297fe5715835f3a205f58742",
-    "pagine": 29,
-    "sezioni": [
-      {
-        "id": "u18-l1",
-        "titolo": "La filosofia del diritto come scienza del dovere giuridico",
-        "da": 1,
-        "a": 3,
-        "lezione": "u18-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u18-l1.json"
-      },
-      {
-        "id": "u18-l2",
-        "titolo": "Politica e diritto: processo giuridico, analogia, argomento a contrario, decisione",
-        "da": 3,
-        "a": 3,
-        "lezione": "u18-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u18-l2.json",
-        "primo": "p003-b002"
-      },
-      {
-        "id": "u18-l3",
-        "titolo": "Diritto e parola: atti linguistici, enunciazioni thetiche e rhetiche, costitutività e prescrittività",
-        "da": 4,
-        "a": 6,
-        "lezione": "u18-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u18-l3.json"
-      },
-      {
-        "id": "u18-l4",
-        "titolo": "Diritto e logica: verità degli enunciati performativi, verità ontica e semantica, logica della validità",
-        "da": 6,
-        "a": 9,
-        "lezione": "u18-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u18-l4.json",
-        "primo": "p006-b006"
-      },
-      {
-        "id": "u19-l1",
-        "titolo": "La validità praxeologica: la promessa, gli essentialia negotii, struttura e funzione",
-        "da": 10,
-        "a": 12,
-        "lezione": "u19-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u19-l1.json"
-      },
-      {
-        "id": "u19-l2",
-        "titolo": "Condizioni di struttura e di funzione: giudizi analitici e sintetici a priori, Reinach",
-        "da": 13,
-        "a": 15,
-        "lezione": "u19-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u19-l2.json"
-      },
-      {
-        "id": "u19-l3",
-        "titolo": "La validità praxeonomica: l'ergastolano, gli accidentalia, il testamento olografo",
-        "da": 15,
-        "a": 17,
-        "lezione": "u19-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u19-l3.json",
-        "primo": "p015-b002"
-      },
-      {
-        "id": "u19-l4",
-        "titolo": "I doveri sintattici: metaregole, norma di chiusura, funzione dell'ordinamento, norme iterate",
-        "da": 17,
-        "a": 19,
-        "lezione": "u19-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u19-l4.json",
-        "primo": "p017-b002"
-      },
-      {
-        "id": "u20-l1",
-        "titolo": "Il fondamento della norma fondamentale: esistenza secundum quid, effettività e teoreticità",
-        "da": 20,
-        "a": 22,
-        "lezione": "u20-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u20-l1.json"
-      },
-      {
-        "id": "u20-l2",
-        "titolo": "Regole eidetico-costitutive: nomos ed eidos",
-        "da": 22,
-        "a": 24,
-        "lezione": "u20-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u20-l2.json",
-        "primo": "p022-b002"
-      },
-      {
-        "id": "u20-l3",
-        "titolo": "Ius publicum: la funzione dell'ordinamento e la forza costitutiva della pubblicità",
-        "da": 24,
-        "a": 25,
-        "lezione": "u20-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u20-l3.json",
-        "primo": "p024-b002"
-      },
-      {
-        "id": "u20-l4",
-        "titolo": "Pubblicità, universalità e giustizia; Grundwert; la coscienza infelice",
-        "da": 26,
-        "a": 29,
-        "lezione": "u20-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-ssg-incampo-v1/u20-l4.json"
-      }
-    ],
-    "fonti": [
-      {
-        "titolo": "Riassunto di A. Incampo, Sul dovere giuridico, a cura di Francesco Presicci e Luca Perrone (fonte di partenza)"
-      }
-    ]
-  },
-  {
-    "id": "filosofia-mz-barberis-v1",
-    "edizione": 1,
-    "materia": "filosofia-del-diritto-mz",
-    "titolo": "Barberis · Giuristi e filosofi, riassunto",
-    "descrizione": "Riassunto di M. Barberis, Giuristi e filosofi. Una storia della filosofia del diritto, autore del riassunto non indicato. Solo il testo, ripulito: materiale di partenza del Percorso, non il volume integrale.",
-    "fonteSha256": "257cba2b8654c54188c548b5cc4c1f4d2319951730c109d3069b9459055efbe2",
-    "pagine": 56,
-    "sezioni": [
-      {
-        "id": "u01-l1",
-        "titolo": "Che cos'è la filosofia del diritto: due sensi e sei fasi",
-        "da": 1,
-        "a": 3,
-        "lezione": "u01-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u01-l1.json"
-      },
-      {
-        "id": "u01-l2",
-        "titolo": "Il giusnaturalismo antico: greco, romano, cristiano",
-        "da": 3,
-        "a": 4,
-        "lezione": "u01-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u01-l2.json",
-        "primo": "p003-b003"
-      },
-      {
-        "id": "u01-l3",
-        "titolo": "Il giusrazionalismo moderno e l'illuminismo giuridico",
-        "da": 5,
-        "a": 7,
-        "lezione": "u01-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u01-l3.json"
-      },
-      {
-        "id": "u01-l4",
-        "titolo": "Codificazione e positivismo giuridico",
-        "da": 7,
-        "a": 9,
-        "lezione": "u01-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u01-l4.json",
-        "primo": "p007-b005"
-      },
-      {
-        "id": "u01-l5",
-        "titolo": "I neogiusnaturalismi: sei resurrezioni del diritto naturale",
-        "da": 9,
-        "a": 10,
-        "lezione": "u01-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u01-l5.json",
-        "primo": "p009-b003"
-      },
-      {
-        "id": "u01-l6",
-        "titolo": "La teoria della giustizia di Rawls",
-        "da": 10,
-        "a": 12,
-        "lezione": "u01-l6",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u01-l6.json",
-        "primo": "p010-b006"
-      },
-      {
-        "id": "u02-l1",
-        "titolo": "Kant: le origini della filosofia del diritto",
-        "da": 12,
-        "a": 13,
-        "lezione": "u02-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u02-l1.json",
-        "primo": "p012-b002"
-      },
-      {
-        "id": "u02-l2",
-        "titolo": "Hegel e l'idealismo",
-        "da": 13,
-        "a": 14,
-        "lezione": "u02-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u02-l2.json",
-        "primo": "p013-b005"
-      },
-      {
-        "id": "u02-l3",
-        "titolo": "Il neoidealismo: neokantismo e neohegelismo",
-        "da": 14,
-        "a": 16,
-        "lezione": "u02-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u02-l3.json",
-        "primo": "p014-b005"
-      },
-      {
-        "id": "u02-l4",
-        "titolo": "L'ermeneutica, il postmodernismo e il pluralismo giuridico",
-        "da": 16,
-        "a": 19,
-        "lezione": "u02-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u02-l4.json",
-        "primo": "p016-b005"
-      },
-      {
-        "id": "u03-l1",
-        "titolo": "Jurisprudence, common law e i precursori: Hobbes e Hume",
-        "da": 19,
-        "a": 21,
-        "lezione": "u03-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u03-l1.json",
-        "primo": "p019-b003"
-      },
-      {
-        "id": "u03-l2",
-        "titolo": "Bentham e l'utilitarismo",
-        "da": 21,
-        "a": 23,
-        "lezione": "u03-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u03-l2.json",
-        "primo": "p021-b003"
-      },
-      {
-        "id": "u03-l3",
-        "titolo": "Austin e l'analytical jurisprudence",
-        "da": 23,
-        "a": 25,
-        "lezione": "u03-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u03-l3.json",
-        "primo": "p023-b003"
-      },
-      {
-        "id": "u03-l4",
-        "titolo": "Il realismo giuridico statunitense",
-        "da": 25,
-        "a": 26,
-        "lezione": "u03-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u03-l4.json",
-        "primo": "p025-b002"
-      },
-      {
-        "id": "u03-l5",
-        "titolo": "Hart e la jurisprudence analitica",
-        "da": 26,
-        "a": 28,
-        "lezione": "u03-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u03-l5.json",
-        "primo": "p026-b004"
-      },
-      {
-        "id": "u04-l1",
-        "titolo": "Savigny, la pandettistica e il formalismo giuridico",
-        "da": 28,
-        "a": 30,
-        "lezione": "u04-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u04-l1.json",
-        "primo": "p028-b003"
-      },
-      {
-        "id": "u04-l2",
-        "titolo": "I movimenti antiformalisti",
-        "da": 30,
-        "a": 31,
-        "lezione": "u04-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u04-l2.json",
-        "primo": "p030-b002"
-      },
-      {
-        "id": "u04-l3",
-        "titolo": "Istituzionalismo e decisionismo: Santi Romano e Schmitt",
-        "da": 32,
-        "a": 33,
-        "lezione": "u04-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u04-l3.json"
-      },
-      {
-        "id": "u04-l4",
-        "titolo": "Kelsen e la teoria pura del diritto",
-        "da": 33,
-        "a": 35,
-        "lezione": "u04-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u04-l4.json",
-        "primo": "p033-b004"
-      },
-      {
-        "id": "u04-l5",
-        "titolo": "Ross e il giusrealismo scandinavo",
-        "da": 35,
-        "a": 37,
-        "lezione": "u04-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u04-l5.json",
-        "primo": "p035-b003"
-      },
-      {
-        "id": "u05-l1",
-        "titolo": "La sociologia del diritto e il precursore Montesquieu",
-        "da": 37,
-        "a": 38,
-        "lezione": "u05-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u05-l1.json",
-        "primo": "p037-b002"
-      },
-      {
-        "id": "u05-l2",
-        "titolo": "La sociologia francese dell'Ottocento: Tocqueville, Comte, Durkheim",
-        "da": 39,
-        "a": 41,
-        "lezione": "u05-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u05-l2.json"
-      },
-      {
-        "id": "u05-l3",
-        "titolo": "La sociologia tedesca fra Otto e Novecento: Marx, Ehrlich, Weber",
-        "da": 41,
-        "a": 44,
-        "lezione": "u05-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u05-l3.json",
-        "primo": "p041-b005"
-      },
-      {
-        "id": "u05-l4",
-        "titolo": "Neopositivismo, neofunzionalismo e neoevoluzionismo",
-        "da": 44,
-        "a": 47,
-        "lezione": "u05-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u05-l4.json",
-        "primo": "p044-b002"
-      },
-      {
-        "id": "u05-l5",
-        "titolo": "Habermas e la teoria critica",
-        "da": 47,
-        "a": 48,
-        "lezione": "u05-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u05-l5.json",
-        "primo": "p047-b003"
-      },
-      {
-        "id": "u06-l1",
-        "titolo": "La filosofia del diritto in senso ampio e Norberto Bobbio",
-        "da": 48,
-        "a": 50,
-        "lezione": "u06-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u06-l1.json",
-        "primo": "p048-b005"
-      },
-      {
-        "id": "u06-l2",
-        "titolo": "Scarpelli e Tarello",
-        "da": 50,
-        "a": 51,
-        "lezione": "u06-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u06-l2.json",
-        "primo": "p050-b002"
-      },
-      {
-        "id": "u06-l3",
-        "titolo": "La Scuola di Buenos Aires",
-        "da": 51,
-        "a": 52,
-        "lezione": "u06-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u06-l3.json",
-        "primo": "p051-b002"
-      },
-      {
-        "id": "u06-l4",
-        "titolo": "Dworkin e la critica del giuspositivismo",
-        "da": 52,
-        "a": 53,
-        "lezione": "u06-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u06-l4.json",
-        "primo": "p052-b004"
-      },
-      {
-        "id": "u06-l5",
-        "titolo": "Il neocostituzionalismo: Ferrajoli, Alexy, Nino",
-        "da": 53,
-        "a": 55,
-        "lezione": "u06-l5",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u06-l5.json",
-        "primo": "p053-b006"
-      },
-      {
-        "id": "u06-l6",
-        "titolo": "Raz e il postpositivismo",
-        "da": 55,
-        "a": 56,
-        "lezione": "u06-l6",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-barberis-v1/u06-l6.json",
-        "primo": "p055-b005"
-      }
-    ]
-  },
-  {
-    "id": "filosofia-mz-schauer-v1",
-    "edizione": 1,
-    "materia": "filosofia-del-diritto-mz",
-    "titolo": "Schauer · Il ragionamento giuridico, riassunto",
-    "descrizione": "Riassunto di F. Schauer, Il ragionamento giuridico. Una nuova introduzione, autore del riassunto non indicato. Solo il testo, ripulito: materiale di partenza del Percorso, non il volume integrale.",
-    "fonteSha256": "317545f696d4e1b5aee3893239209ec13f983e729bc10749fa8889e437b26f92",
-    "pagine": 76,
-    "sezioni": [
-      {
-        "id": "u10-l1",
-        "titolo": "Esiste il ragionamento giuridico?",
-        "da": 1,
-        "a": 5,
-        "lezione": "u10-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u10-l1.json"
-      },
-      {
-        "id": "u10-l2",
-        "titolo": "Le regole: giustificazione, nucleo e penombra, effetto selettivo",
-        "da": 5,
-        "a": 7,
-        "lezione": "u10-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u10-l2.json",
-        "primo": "p005-b004"
-      },
-      {
-        "id": "u10-l3",
-        "titolo": "Generalità delle norme e carattere formale del diritto",
-        "da": 8,
-        "a": 10,
-        "lezione": "u10-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u10-l3.json"
-      },
-      {
-        "id": "u11-l1",
-        "titolo": "Precedente verticale e orizzontale: una strana idea",
-        "da": 10,
-        "a": 13,
-        "lezione": "u11-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u11-l1.json",
-        "primo": "p010-b006"
-      },
-      {
-        "id": "u11-l2",
-        "titolo": "Identificare il precedente: somiglianza e ratio decidendi",
-        "da": 13,
-        "a": 17,
-        "lezione": "u11-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u11-l2.json",
-        "primo": "p013-b005"
-      },
-      {
-        "id": "u11-l3",
-        "titolo": "Principio decisionale, obiter dicta e forza del precedente",
-        "da": 17,
-        "a": 19,
-        "lezione": "u11-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u11-l3.json",
-        "primo": "p017-b002"
-      },
-      {
-        "id": "u12-l1",
-        "titolo": "L'idea di autorità: l'indipendenza dal contenuto",
-        "da": 19,
-        "a": 21,
-        "lezione": "u12-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u12-l1.json",
-        "primo": "p019-b003"
-      },
-      {
-        "id": "u12-l2",
-        "titolo": "Fonti obbligatorie e fonti facoltative",
-        "da": 21,
-        "a": 25,
-        "lezione": "u12-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u12-l2.json",
-        "primo": "p021-b004"
-      },
-      {
-        "id": "u12-l3",
-        "titolo": "Fonti vietate e come una fonte diventa autoritativa",
-        "da": 25,
-        "a": 26,
-        "lezione": "u12-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u12-l3.json",
-        "primo": "p025-b002"
-      },
-      {
-        "id": "u13-l1",
-        "titolo": "Analogia e precedente: la differenza è la libertà",
-        "da": 26,
-        "a": 29,
-        "lezione": "u13-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u13-l1.json",
-        "primo": "p026-b006"
-      },
-      {
-        "id": "u13-l2",
-        "titolo": "Somiglianze rilevanti, sfida scettica e ritmo del cambiamento",
-        "da": 29,
-        "a": 32,
-        "lezione": "u13-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u13-l2.json",
-        "primo": "p029-b002"
-      },
-      {
-        "id": "u14-l1",
-        "titolo": "Common law e civil law: un diritto creato dai giudici",
-        "da": 32,
-        "a": 35,
-        "lezione": "u14-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u14-l1.json",
-        "primo": "p032-b006"
-      },
-      {
-        "id": "u14-l2",
-        "titolo": "Come cambia il common law; è diritto? L'equità",
-        "da": 36,
-        "a": 39,
-        "lezione": "u14-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u14-l2.json"
-      },
-      {
-        "id": "u15-l1",
-        "titolo": "Da Holmes ai realisti: Frank, Hutcheson, Llewellyn, Moore",
-        "da": 39,
-        "a": 43,
-        "lezione": "u15-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u15-l1.json",
-        "primo": "p039-b005"
-      },
-      {
-        "id": "u15-l2",
-        "titolo": "L'indeterminatezza delle fonti e il realismo come tesi empirica",
-        "da": 43,
-        "a": 46,
-        "lezione": "u15-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u15-l2.json",
-        "primo": "p043-b002"
-      },
-      {
-        "id": "u15-l3",
-        "titolo": "Il realismo, l'avvocato e i Critical Legal Studies",
-        "da": 46,
-        "a": 48,
-        "lezione": "u15-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u15-l3.json",
-        "primo": "p046-b003"
-      },
-      {
-        "id": "u16-l1",
-        "titolo": "Lo Stato regolatore e il ruolo del testo: Hart contro Fuller",
-        "da": 48,
-        "a": 50,
-        "lezione": "u16-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u16-l1.json",
-        "primo": "p048-b002"
-      },
-      {
-        "id": "u16-l2",
-        "titolo": "Quando il testo non fornisce alcuna soluzione",
-        "da": 51,
-        "a": 53,
-        "lezione": "u16-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u16-l2.json"
-      },
-      {
-        "id": "u16-l3",
-        "titolo": "Quando il testo dà una soluzione insoddisfacente; i canoni",
-        "da": 53,
-        "a": 56,
-        "lezione": "u16-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u16-l3.json",
-        "primo": "p053-b005"
-      },
-      {
-        "id": "u17-l1",
-        "titolo": "Cause e conseguenze delle motivazioni: sono oneste?",
-        "da": 57,
-        "a": 58,
-        "lezione": "u17-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u17-l1.json"
-      },
-      {
-        "id": "u17-l2",
-        "titolo": "Offrire ragioni, i dicta rivisitati e il declino delle decisioni motivate",
-        "da": 58,
-        "a": 61,
-        "lezione": "u17-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u17-l2.json",
-        "primo": "p058-b005"
-      },
-      {
-        "id": "u18-l1",
-        "titolo": "Regole e standard: un continuum per gestire la discrezionalità",
-        "da": 61,
-        "a": 64,
-        "lezione": "u18-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u18-l1.json",
-        "primo": "p061-b008"
-      },
-      {
-        "id": "u18-l2",
-        "titolo": "Regole e standard nelle decisioni dei giudici; ampiezza e vaghezza",
-        "da": 65,
-        "a": 66,
-        "lezione": "u18-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u18-l2.json"
-      },
-      {
-        "id": "u19-l1",
-        "titolo": "Diritto e fatti: accertare i fatti in giudizio",
-        "da": 66,
-        "a": 68,
-        "lezione": "u19-l1",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u19-l1.json",
-        "primo": "p066-b004"
-      },
-      {
-        "id": "u19-l2",
-        "titolo": "I fatti nel processo d'appello e il diritto nell'incertezza",
-        "da": 68,
-        "a": 70,
-        "lezione": "u19-l2",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u19-l2.json",
-        "primo": "p068-b005"
-      },
-      {
-        "id": "u19-l3",
-        "titolo": "L'onere della prova e le presunzioni",
-        "da": 70,
-        "a": 73,
-        "lezione": "u19-l3",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u19-l3.json",
-        "primo": "p070-b006"
-      },
-      {
-        "id": "u19-l4",
-        "titolo": "Deferenza, competenza e la scelta di accettare errori",
-        "da": 73,
-        "a": 76,
-        "lezione": "u19-l4",
-        "revisionata": true,
-        "file": "letture/filosofia-mz-schauer-v1/u19-l4.json",
-        "primo": "p073-b007"
-      }
-    ]
-  },
-  {
     "id": "costituzionale-iuris-v1",
     "edizione": 1,
     "materia": "diritto-costituzionale",
@@ -3102,8 +1133,8 @@
     "materia": "diritto-romano",
     "titolo": "Storia del diritto romano · testo IURIS",
     "descrizione": "Testo scritto da IURIS sul programma del manuale di M. Bretone, Storia del diritto romano, comune alle tre classi (LMG A-L, LMG M-Z e SSG): stessa divisione in lezioni del Percorso.",
-    "fonteSha256": "ce26c11616e3f17b228d7c7528ffbe7bed267cee24072368fd244a21256bb2e2",
-    "pagine": 223,
+    "fonteSha256": "9a53e7d386ac8852f3c01414e3814b11030455dd952249c90b242b0fc26e888d",
+    "pagine": 235,
     "sezioni": [
       {
         "id": "u01-l1",
@@ -3135,7 +1166,7 @@
       },
       {
         "id": "u01-l4",
-        "titolo": "Cronologia I: la logica del tempo e l'età repubblicana",
+        "titolo": "Cronologia: la «logica del tempo» e l'età repubblicana",
         "da": 6,
         "a": 8,
         "lezione": "u01-l4",
@@ -3145,7 +1176,7 @@
       },
       {
         "id": "u01-l5",
-        "titolo": "Cronologia II: Principato, anarchia militare e Dominato",
+        "titolo": "Cronologia: Principato, anarchia militare e Dominato",
         "da": 9,
         "a": 9,
         "lezione": "u01-l5",
@@ -3182,7 +1213,7 @@
       },
       {
         "id": "u02-l4",
-        "titolo": "Il ciclo delle costituzioni e la voce di Catone: continuità senza cesure",
+        "titolo": "Il ciclo delle costituzioni e Catone: continuità senza cesure",
         "da": 15,
         "a": 16,
         "lezione": "u02-l4",
@@ -3211,7 +1242,7 @@
       },
       {
         "id": "u02-l7",
-        "titolo": "Ricerca giuridica e filologico-antiquaria; distanza storica e abolizione della distanza",
+        "titolo": "Giuristi e antiquari: distanza storica e abolizione della distanza",
         "da": 21,
         "a": 22,
         "lezione": "u02-l7",
@@ -3265,7 +1296,7 @@
       },
       {
         "id": "u03-l6",
-        "titolo": "Le legis actiones di accertamento: sacramentum, iudicis arbitrive postulatio, condictio",
+        "titolo": "Le legis actiones di accertamento: sacramentum, postulatio, condictio",
         "da": 36,
         "a": 39,
         "lezione": "u03-l6",
@@ -3283,7 +1314,7 @@
       },
       {
         "id": "u03-l8",
-        "titolo": "Gli atti di autonomia privata: res mancipi, mancipatio, nexum, in iure cessio",
+        "titolo": "Autonomia privata: res mancipi, mancipatio, nexum, in iure cessio",
         "da": 41,
         "a": 43,
         "lezione": "u03-l8",
@@ -3339,7 +1370,7 @@
       },
       {
         "id": "u05-l1",
-        "titolo": "Da «idrofobi» ad «anfibi»: Roma scopre il mare. Contadini e mercanti",
+        "titolo": "Da «idrofobi» ad «anfibi»: Roma scopre il mare, tra contadini e mercanti",
         "da": 55,
         "a": 57,
         "lezione": "u05-l1",
@@ -3348,7 +1379,7 @@
       },
       {
         "id": "u05-l2",
-        "titolo": "Digressione: le magistrature repubblicane",
+        "titolo": "Le magistrature repubblicane: imperium, limiti e cursus honorum",
         "da": 58,
         "a": 60,
         "lezione": "u05-l2",
@@ -3357,7 +1388,7 @@
       },
       {
         "id": "u05-l3",
-        "titolo": "§ 2. Il «diritto commerciale» romano: ius gentium e nova negotia",
+        "titolo": "Il «diritto commerciale» romano: ius gentium e nova negotia",
         "da": 61,
         "a": 62,
         "lezione": "u05-l3",
@@ -3366,7 +1397,7 @@
       },
       {
         "id": "u05-l4",
-        "titolo": "§ 3. Le regole del gioco: la bona fides",
+        "titolo": "Le regole del gioco: la bona fides",
         "da": 63,
         "a": 64,
         "lezione": "u05-l4",
@@ -3375,7 +1406,7 @@
       },
       {
         "id": "u05-l5",
-        "titolo": "I contratti consensuali (1): locatio conductio, mandatum, societas",
+        "titolo": "I contratti consensuali: locatio conductio, mandatum, societas",
         "da": 65,
         "a": 66,
         "lezione": "u05-l5",
@@ -3384,7 +1415,7 @@
       },
       {
         "id": "u05-l6",
-        "titolo": "I contratti consensuali (2): emptio venditio contro mancipatio. Possesso, proprietà, usucapione",
+        "titolo": "Emptio venditio contro mancipatio; possesso, proprietà, usucapione",
         "da": 66,
         "a": 68,
         "lezione": "u05-l6",
@@ -3394,7 +1425,7 @@
       },
       {
         "id": "u05-l7",
-        "titolo": "§ 4. Il pretore e il processo formulare: origine e svolgimento",
+        "titolo": "Il pretore e il processo formulare: origine e svolgimento",
         "da": 69,
         "a": 71,
         "lezione": "u05-l7",
@@ -3432,7 +1463,7 @@
       },
       {
         "id": "u05-l11",
-        "titolo": "La funzione normativa del pretore e § 5. Lo ius honorarium",
+        "titolo": "La funzione normativa del pretore e lo ius honorarium",
         "da": 78,
         "a": 80,
         "lezione": "u05-l11",
@@ -3441,7 +1472,7 @@
       },
       {
         "id": "u05-l12",
-        "titolo": "Le azioni pretorie: actio in factum, deposito e comodato, in bonis habere, funzioni del pretore",
+        "titolo": "Azioni pretorie: actio in factum, in bonis habere, funzioni del pretore",
         "da": 80,
         "a": 83,
         "lezione": "u05-l12",
@@ -3553,7 +1584,7 @@
       },
       {
         "id": "u07-l4",
-        "titolo": "Profili metodici I: la lucerna del tavernaio e i carri sul Campidoglio",
+        "titolo": "Profili metodici: la lucerna del tavernaio e i carri sul Campidoglio",
         "da": 119,
         "a": 122,
         "lezione": "u07-l4",
@@ -3562,7 +1593,7 @@
       },
       {
         "id": "u07-l5",
-        "titolo": "Profili metodici II: la nave di Saufeio e il collegio giudicante",
+        "titolo": "Profili metodici: la nave di Saufeio e il collegio giudicante",
         "da": 122,
         "a": 124,
         "lezione": "u07-l5",
@@ -3629,7 +1660,7 @@
       },
       {
         "id": "u08-l7",
-        "titolo": "La passività: rescritti e decreti",
+        "titolo": "La «passività» del governo imperiale: rescritti e decreti",
         "da": 142,
         "a": 144,
         "lezione": "u08-l7",
@@ -3722,94 +1753,10 @@
         "id": "u10-l3",
         "titolo": "Interessi nuovi della giurisprudenza tardo-classica",
         "da": 169,
-        "a": 169,
+        "a": 175,
         "lezione": "u10-l3",
         "revisionata": true,
         "file": "letture/romano-iuris-v1/u10-l3.json"
-      },
-      {
-        "id": "u14-l1",
-        "titolo": "L'opera collettiva e i singoli attori",
-        "da": 170,
-        "a": 170,
-        "lezione": "u14-l1",
-        "revisionata": true,
-        "file": "letture/romano-iuris-v1/u14-l1.json",
-        "soloTitolo": true,
-        "integrazione": {
-          "documento": "romano-manuale-integrazioni-v1",
-          "sezione": "u14-l1"
-        }
-      },
-      {
-        "id": "u14-l2",
-        "titolo": "Strade vecchie e nuove",
-        "da": 171,
-        "a": 171,
-        "lezione": "u14-l2",
-        "revisionata": true,
-        "file": "letture/romano-iuris-v1/u14-l2.json",
-        "soloTitolo": true,
-        "integrazione": {
-          "documento": "romano-manuale-integrazioni-v1",
-          "sezione": "u14-l2"
-        }
-      },
-      {
-        "id": "u14-l3",
-        "titolo": "Il «caso» e il problema",
-        "da": 172,
-        "a": 172,
-        "lezione": "u14-l3",
-        "revisionata": true,
-        "file": "letture/romano-iuris-v1/u14-l3.json",
-        "soloTitolo": true,
-        "integrazione": {
-          "documento": "romano-manuale-integrazioni-v1",
-          "sezione": "u14-l3"
-        }
-      },
-      {
-        "id": "u14-l4",
-        "titolo": "Come si forma una regola",
-        "da": 173,
-        "a": 173,
-        "lezione": "u14-l4",
-        "revisionata": true,
-        "file": "letture/romano-iuris-v1/u14-l4.json",
-        "soloTitolo": true,
-        "integrazione": {
-          "documento": "romano-manuale-integrazioni-v1",
-          "sezione": "u14-l4"
-        }
-      },
-      {
-        "id": "u14-l5",
-        "titolo": "Dialoghi fuori del tempo",
-        "da": 174,
-        "a": 174,
-        "lezione": "u14-l5",
-        "revisionata": true,
-        "file": "letture/romano-iuris-v1/u14-l5.json",
-        "soloTitolo": true,
-        "integrazione": {
-          "documento": "romano-manuale-integrazioni-v1",
-          "sezione": "u14-l5"
-        }
-      },
-      {
-        "id": "u14-l6",
-        "titolo": "La cura per le parole",
-        "da": 175,
-        "a": 175,
-        "lezione": "u14-l6",
-        "revisionata": true,
-        "file": "letture/romano-iuris-v1/u14-l6.json",
-        "soloTitolo": true,
-        "integrazione": {
-          "documento": "romano-manuale-integrazioni-v1",
-          "sezione": "u14-l6"
-        }
       },
       {
         "id": "u11-l1",
@@ -3954,7 +1901,7 @@
       },
       {
         "id": "u13-l1",
-        "titolo": "La tradizione manoscritta del Digesto: dalla Littera Florentina ai Commentatori",
+        "titolo": "Il Digesto dopo Giustiniano: dalla Littera Florentina ai Commentatori",
         "da": 214,
         "a": 215,
         "lezione": "u13-l1",
@@ -3988,6 +1935,114 @@
         "lezione": "u13-l4",
         "revisionata": true,
         "file": "letture/romano-iuris-v1/u13-l4.json"
+      },
+      {
+        "id": "u14-l1",
+        "titolo": "L'opera collettiva e i singoli attori",
+        "da": 224,
+        "a": 224,
+        "lezione": "u14-l1",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u14-l1.json"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "Strade vecchie e nuove",
+        "da": 225,
+        "a": 225,
+        "lezione": "u14-l2",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u14-l2.json"
+      },
+      {
+        "id": "u14-l3",
+        "titolo": "Il «caso» e il problema",
+        "da": 226,
+        "a": 226,
+        "lezione": "u14-l3",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u14-l3.json"
+      },
+      {
+        "id": "u14-l4",
+        "titolo": "Come si forma una regola",
+        "da": 227,
+        "a": 227,
+        "lezione": "u14-l4",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u14-l4.json"
+      },
+      {
+        "id": "u14-l5",
+        "titolo": "Dialoghi fuori del tempo",
+        "da": 228,
+        "a": 228,
+        "lezione": "u14-l5",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u14-l5.json"
+      },
+      {
+        "id": "u14-l6",
+        "titolo": "La cura per le parole",
+        "da": 229,
+        "a": 229,
+        "lezione": "u14-l6",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u14-l6.json"
+      },
+      {
+        "id": "u15-l1",
+        "titolo": "I grandi simboli",
+        "da": 230,
+        "a": 230,
+        "lezione": "u15-l1",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u15-l1.json"
+      },
+      {
+        "id": "u15-l2",
+        "titolo": "Il consenso dei sapienti e il «consenso dei popoli»",
+        "da": 231,
+        "a": 231,
+        "lezione": "u15-l2",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u15-l2.json"
+      },
+      {
+        "id": "u15-l3",
+        "titolo": "Verità e apparenza",
+        "da": 232,
+        "a": 232,
+        "lezione": "u15-l3",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u15-l3.json"
+      },
+      {
+        "id": "u15-l4",
+        "titolo": "Aequitas civilis ed aequitas naturalis",
+        "da": 233,
+        "a": 233,
+        "lezione": "u15-l4",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u15-l4.json"
+      },
+      {
+        "id": "u15-l5",
+        "titolo": "La «legge giusta»",
+        "da": 234,
+        "a": 234,
+        "lezione": "u15-l5",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u15-l5.json"
+      },
+      {
+        "id": "u15-l6",
+        "titolo": "Il diritto oltre la comunità degli uomini",
+        "da": 235,
+        "a": 235,
+        "lezione": "u15-l6",
+        "revisionata": true,
+        "file": "letture/romano-iuris-v1/u15-l6.json"
       }
     ]
   },
@@ -4921,174 +2976,1940 @@
     ]
   },
   {
-    "id": "romano-manuale-integrazioni-v1",
+    "id": "filosofia-mz-iuris-v1",
     "edizione": 1,
-    "materia": "diritto-romano",
-    "titolo": "Integrazioni dal Percorso · tecnica e idee giusnaturalistiche",
-    "descrizione": "Le dodici lezioni delle unità 14 e 15 già presenti nel Percorso, ricostruite dall’indice del manuale e dalle fonti classiche. Non sono una trascrizione del manuale né del PDF degli appunti. Riferimenti: Bretone, Laterza, ed. 1992, pp. 287–352; controllare sul libro prima dell’esame.",
-    "tipoFonte": "manuale-ricostruito",
-    "manuale": [
-      287,
-      352
-    ],
-    "fonteSha256": "df5b6da84afa882c50a2e4a6c63ad6f1bd0f6f8e80303ce722615cb8bcc6a045",
-    "pagine": 12,
+    "materia": "filosofia-del-diritto-mz",
+    "titolo": "Filosofia del diritto · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma di Filosofia del diritto della classe LMG M-Z: storia della filosofia del diritto (M. Barberis, Giuristi e filosofi) e ragionamento giuridico (F. Schauer, Il ragionamento giuridico).",
+    "fonteSha256": "2231d1e5f995cec62eb39880bf69cd4ba23f081359dc05f5bfa617f4f4d83d72",
+    "pagine": 132,
     "sezioni": [
       {
-        "id": "u14-l1",
-        "titolo": "L'opera collettiva e i singoli attori",
+        "id": "u01-l1",
+        "titolo": "Che cos'è la filosofia del diritto: due sensi e sei fasi",
         "da": 1,
-        "a": 1,
+        "a": 3,
+        "lezione": "u01-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u01-l1.json"
+      },
+      {
+        "id": "u01-l2",
+        "titolo": "Il giusnaturalismo antico: greco, romano, cristiano",
+        "da": 3,
+        "a": 4,
+        "lezione": "u01-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u01-l2.json",
+        "primo": "p003-b003"
+      },
+      {
+        "id": "u01-l3",
+        "titolo": "Il giusrazionalismo moderno e l'illuminismo giuridico",
+        "da": 5,
+        "a": 7,
+        "lezione": "u01-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u01-l3.json"
+      },
+      {
+        "id": "u01-l4",
+        "titolo": "Codificazione e positivismo giuridico",
+        "da": 7,
+        "a": 9,
+        "lezione": "u01-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u01-l4.json",
+        "primo": "p007-b005"
+      },
+      {
+        "id": "u01-l5",
+        "titolo": "I neogiusnaturalismi: sei resurrezioni del diritto naturale",
+        "da": 9,
+        "a": 10,
+        "lezione": "u01-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u01-l5.json",
+        "primo": "p009-b003"
+      },
+      {
+        "id": "u01-l6",
+        "titolo": "La teoria della giustizia di Rawls",
+        "da": 10,
+        "a": 12,
+        "lezione": "u01-l6",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u01-l6.json",
+        "primo": "p010-b007"
+      },
+      {
+        "id": "u02-l1",
+        "titolo": "Kant: le origini della filosofia del diritto",
+        "da": 12,
+        "a": 13,
+        "lezione": "u02-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u02-l1.json",
+        "primo": "p012-b002"
+      },
+      {
+        "id": "u02-l2",
+        "titolo": "Hegel e l'idealismo",
+        "da": 13,
+        "a": 14,
+        "lezione": "u02-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u02-l2.json",
+        "primo": "p013-b005"
+      },
+      {
+        "id": "u02-l3",
+        "titolo": "Il neoidealismo: neokantismo e neohegelismo",
+        "da": 14,
+        "a": 16,
+        "lezione": "u02-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u02-l3.json",
+        "primo": "p014-b008"
+      },
+      {
+        "id": "u02-l4",
+        "titolo": "L'ermeneutica, il postmodernismo e il pluralismo giuridico",
+        "da": 16,
+        "a": 19,
+        "lezione": "u02-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u02-l4.json",
+        "primo": "p016-b009"
+      },
+      {
+        "id": "u03-l1",
+        "titolo": "Jurisprudence, common law e i precursori: Hobbes e Hume",
+        "da": 19,
+        "a": 21,
+        "lezione": "u03-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u03-l1.json",
+        "primo": "p019-b004"
+      },
+      {
+        "id": "u03-l2",
+        "titolo": "Bentham e l'utilitarismo",
+        "da": 21,
+        "a": 23,
+        "lezione": "u03-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u03-l2.json",
+        "primo": "p021-b004"
+      },
+      {
+        "id": "u03-l3",
+        "titolo": "Austin e l'analytical jurisprudence",
+        "da": 23,
+        "a": 25,
+        "lezione": "u03-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u03-l3.json",
+        "primo": "p023-b003"
+      },
+      {
+        "id": "u03-l4",
+        "titolo": "Il realismo giuridico statunitense",
+        "da": 25,
+        "a": 26,
+        "lezione": "u03-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u03-l4.json",
+        "primo": "p025-b003"
+      },
+      {
+        "id": "u03-l5",
+        "titolo": "Hart e la jurisprudence analitica",
+        "da": 26,
+        "a": 28,
+        "lezione": "u03-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u03-l5.json",
+        "primo": "p026-b005"
+      },
+      {
+        "id": "u04-l1",
+        "titolo": "Savigny, la pandettistica e il formalismo giuridico",
+        "da": 28,
+        "a": 30,
+        "lezione": "u04-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u04-l1.json",
+        "primo": "p028-b006"
+      },
+      {
+        "id": "u04-l2",
+        "titolo": "I movimenti antiformalisti",
+        "da": 30,
+        "a": 31,
+        "lezione": "u04-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u04-l2.json",
+        "primo": "p030-b002"
+      },
+      {
+        "id": "u04-l3",
+        "titolo": "Istituzionalismo e decisionismo: Santi Romano e Schmitt",
+        "da": 32,
+        "a": 33,
+        "lezione": "u04-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u04-l3.json"
+      },
+      {
+        "id": "u04-l4",
+        "titolo": "Kelsen e la teoria pura del diritto",
+        "da": 33,
+        "a": 35,
+        "lezione": "u04-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u04-l4.json",
+        "primo": "p033-b006"
+      },
+      {
+        "id": "u04-l5",
+        "titolo": "Ross e il giusrealismo scandinavo",
+        "da": 35,
+        "a": 37,
+        "lezione": "u04-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u04-l5.json",
+        "primo": "p035-b004"
+      },
+      {
+        "id": "u05-l1",
+        "titolo": "La sociologia del diritto e il precursore Montesquieu",
+        "da": 37,
+        "a": 38,
+        "lezione": "u05-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u05-l1.json",
+        "primo": "p037-b002"
+      },
+      {
+        "id": "u05-l2",
+        "titolo": "La sociologia francese dell'Ottocento: Tocqueville, Comte, Durkheim",
+        "da": 39,
+        "a": 41,
+        "lezione": "u05-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u05-l2.json"
+      },
+      {
+        "id": "u05-l3",
+        "titolo": "La sociologia tedesca fra Otto e Novecento: Marx, Ehrlich, Weber",
+        "da": 41,
+        "a": 44,
+        "lezione": "u05-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u05-l3.json",
+        "primo": "p041-b007"
+      },
+      {
+        "id": "u05-l4",
+        "titolo": "Neopositivismo, neofunzionalismo e neoevoluzionismo",
+        "da": 44,
+        "a": 47,
+        "lezione": "u05-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u05-l4.json",
+        "primo": "p044-b007"
+      },
+      {
+        "id": "u05-l5",
+        "titolo": "Habermas e la teoria critica",
+        "da": 47,
+        "a": 48,
+        "lezione": "u05-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u05-l5.json",
+        "primo": "p047-b006"
+      },
+      {
+        "id": "u06-l1",
+        "titolo": "La filosofia del diritto in senso ampio e Norberto Bobbio",
+        "da": 48,
+        "a": 50,
+        "lezione": "u06-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u06-l1.json",
+        "primo": "p048-b013"
+      },
+      {
+        "id": "u06-l2",
+        "titolo": "Scarpelli e Tarello",
+        "da": 50,
+        "a": 51,
+        "lezione": "u06-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u06-l2.json",
+        "primo": "p050-b002"
+      },
+      {
+        "id": "u06-l3",
+        "titolo": "La Scuola di Buenos Aires",
+        "da": 51,
+        "a": 52,
+        "lezione": "u06-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u06-l3.json",
+        "primo": "p051-b002"
+      },
+      {
+        "id": "u06-l4",
+        "titolo": "Dworkin e la critica del giuspositivismo",
+        "da": 52,
+        "a": 53,
+        "lezione": "u06-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u06-l4.json",
+        "primo": "p052-b008"
+      },
+      {
+        "id": "u06-l5",
+        "titolo": "Il neocostituzionalismo: Ferrajoli, Alexy, Nino",
+        "da": 53,
+        "a": 55,
+        "lezione": "u06-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u06-l5.json",
+        "primo": "p053-b012"
+      },
+      {
+        "id": "u06-l6",
+        "titolo": "Raz e il postpositivismo",
+        "da": 55,
+        "a": 56,
+        "lezione": "u06-l6",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u06-l6.json",
+        "primo": "p055-b012"
+      },
+      {
+        "id": "u10-l1",
+        "titolo": "Esiste il ragionamento giuridico?",
+        "da": 57,
+        "a": 61,
+        "lezione": "u10-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u10-l1.json"
+      },
+      {
+        "id": "u10-l2",
+        "titolo": "Le regole: giustificazione, nucleo e penombra, effetto selettivo",
+        "da": 61,
+        "a": 63,
+        "lezione": "u10-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u10-l2.json",
+        "primo": "p061-b005"
+      },
+      {
+        "id": "u10-l3",
+        "titolo": "Generalità delle norme e carattere formale del diritto",
+        "da": 63,
+        "a": 66,
+        "lezione": "u10-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u10-l3.json",
+        "primo": "p063-b008"
+      },
+      {
+        "id": "u11-l1",
+        "titolo": "Precedente verticale e orizzontale: una strana idea",
+        "da": 66,
+        "a": 69,
+        "lezione": "u11-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u11-l1.json",
+        "primo": "p066-b008"
+      },
+      {
+        "id": "u11-l2",
+        "titolo": "Identificare il precedente: somiglianza e ratio decidendi",
+        "da": 69,
+        "a": 72,
+        "lezione": "u11-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u11-l2.json",
+        "primo": "p069-b005"
+      },
+      {
+        "id": "u11-l3",
+        "titolo": "Principio decisionale, obiter dicta e forza del precedente",
+        "da": 72,
+        "a": 75,
+        "lezione": "u11-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u11-l3.json",
+        "primo": "p072-b005"
+      },
+      {
+        "id": "u12-l1",
+        "titolo": "L'idea di autorità: l'indipendenza dal contenuto",
+        "da": 75,
+        "a": 77,
+        "lezione": "u12-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u12-l1.json",
+        "primo": "p075-b003"
+      },
+      {
+        "id": "u12-l2",
+        "titolo": "Fonti obbligatorie e fonti facoltative",
+        "da": 77,
+        "a": 81,
+        "lezione": "u12-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u12-l2.json",
+        "primo": "p077-b007"
+      },
+      {
+        "id": "u12-l3",
+        "titolo": "Fonti vietate e come una fonte diventa autoritativa",
+        "da": 81,
+        "a": 82,
+        "lezione": "u12-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u12-l3.json",
+        "primo": "p081-b002"
+      },
+      {
+        "id": "u13-l1",
+        "titolo": "Analogia e precedente: la differenza è la libertà",
+        "da": 82,
+        "a": 85,
+        "lezione": "u13-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u13-l1.json",
+        "primo": "p082-b007"
+      },
+      {
+        "id": "u13-l2",
+        "titolo": "Somiglianze rilevanti, sfida scettica e ritmo del cambiamento",
+        "da": 85,
+        "a": 88,
+        "lezione": "u13-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u13-l2.json",
+        "primo": "p085-b002"
+      },
+      {
+        "id": "u14-l1",
+        "titolo": "Common law e civil law: un diritto creato dai giudici",
+        "da": 88,
+        "a": 92,
         "lezione": "u14-l1",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          287,
-          289
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l1.json"
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u14-l1.json",
+        "primo": "p088-b007"
       },
       {
         "id": "u14-l2",
-        "titolo": "Strade vecchie e nuove",
-        "da": 2,
-        "a": 2,
+        "titolo": "Come cambia il common law; è diritto? L'equità",
+        "da": 92,
+        "a": 95,
         "lezione": "u14-l2",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          290,
-          296
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l2.json"
-      },
-      {
-        "id": "u14-l3",
-        "titolo": "Il «caso» e il problema",
-        "da": 3,
-        "a": 3,
-        "lezione": "u14-l3",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          297,
-          302
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l3.json"
-      },
-      {
-        "id": "u14-l4",
-        "titolo": "Come si forma una regola",
-        "da": 4,
-        "a": 4,
-        "lezione": "u14-l4",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          303,
-          308
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l4.json"
-      },
-      {
-        "id": "u14-l5",
-        "titolo": "Dialoghi fuori del tempo",
-        "da": 5,
-        "a": 5,
-        "lezione": "u14-l5",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          309,
-          313
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l5.json"
-      },
-      {
-        "id": "u14-l6",
-        "titolo": "La cura per le parole",
-        "da": 6,
-        "a": 6,
-        "lezione": "u14-l6",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          314,
-          322
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u14-l6.json"
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u14-l2.json",
+        "primo": "p092-b003"
       },
       {
         "id": "u15-l1",
-        "titolo": "I grandi simboli",
-        "da": 7,
-        "a": 7,
+        "titolo": "Da Holmes ai realisti: Frank, Hutcheson, Llewellyn, Moore",
+        "da": 95,
+        "a": 99,
         "lezione": "u15-l1",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          323,
-          324
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l1.json"
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u15-l1.json",
+        "primo": "p095-b008"
       },
       {
         "id": "u15-l2",
-        "titolo": "Il consenso dei sapienti e il «consenso dei popoli»",
-        "da": 8,
-        "a": 8,
+        "titolo": "L'indeterminatezza delle fonti e il realismo come tesi empirica",
+        "da": 99,
+        "a": 102,
         "lezione": "u15-l2",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          325,
-          329
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l2.json"
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u15-l2.json",
+        "primo": "p099-b003"
       },
       {
         "id": "u15-l3",
-        "titolo": "Verità e apparenza",
-        "da": 9,
-        "a": 9,
+        "titolo": "Il realismo, l'avvocato e i Critical Legal Studies",
+        "da": 102,
+        "a": 104,
         "lezione": "u15-l3",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          330,
-          332
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l3.json"
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u15-l3.json",
+        "primo": "p102-b003"
+      },
+      {
+        "id": "u16-l1",
+        "titolo": "Lo Stato regolatore e il ruolo del testo: Hart contro Fuller",
+        "da": 104,
+        "a": 107,
+        "lezione": "u16-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u16-l1.json",
+        "primo": "p104-b002"
+      },
+      {
+        "id": "u16-l2",
+        "titolo": "Quando il testo non fornisce alcuna soluzione",
+        "da": 107,
+        "a": 109,
+        "lezione": "u16-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u16-l2.json",
+        "primo": "p107-b004"
+      },
+      {
+        "id": "u16-l3",
+        "titolo": "Quando il testo dà una soluzione insoddisfacente; i canoni",
+        "da": 109,
+        "a": 112,
+        "lezione": "u16-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u16-l3.json",
+        "primo": "p109-b006"
+      },
+      {
+        "id": "u17-l1",
+        "titolo": "Cause e conseguenze delle motivazioni: sono oneste?",
+        "da": 113,
+        "a": 114,
+        "lezione": "u17-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u17-l1.json"
+      },
+      {
+        "id": "u17-l2",
+        "titolo": "Offrire ragioni, i dicta rivisitati e il declino delle decisioni motivate",
+        "da": 114,
+        "a": 117,
+        "lezione": "u17-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u17-l2.json",
+        "primo": "p114-b006"
+      },
+      {
+        "id": "u18-l1",
+        "titolo": "Regole e standard: un continuum per gestire la discrezionalità",
+        "da": 118,
+        "a": 120,
+        "lezione": "u18-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u18-l1.json"
+      },
+      {
+        "id": "u18-l2",
+        "titolo": "Regole e standard nelle decisioni dei giudici; ampiezza e vaghezza",
+        "da": 121,
+        "a": 122,
+        "lezione": "u18-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u18-l2.json"
+      },
+      {
+        "id": "u19-l1",
+        "titolo": "Diritto e fatti: accertare i fatti in giudizio",
+        "da": 122,
+        "a": 125,
+        "lezione": "u19-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u19-l1.json",
+        "primo": "p122-b004"
+      },
+      {
+        "id": "u19-l2",
+        "titolo": "I fatti nel processo d'appello e il diritto nell'incertezza",
+        "da": 125,
+        "a": 126,
+        "lezione": "u19-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u19-l2.json",
+        "primo": "p125-b002"
+      },
+      {
+        "id": "u19-l3",
+        "titolo": "L'onere della prova e le presunzioni",
+        "da": 126,
+        "a": 130,
+        "lezione": "u19-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u19-l3.json",
+        "primo": "p126-b003"
+      },
+      {
+        "id": "u19-l4",
+        "titolo": "Deferenza, competenza e la scelta di accettare errori",
+        "da": 130,
+        "a": 132,
+        "lezione": "u19-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-mz-iuris-v1/u19-l4.json",
+        "primo": "p130-b006"
+      }
+    ]
+  },
+  {
+    "id": "filosofia-ssg-iuris-v1",
+    "edizione": 1,
+    "materia": "filosofia-del-diritto-ssg",
+    "titolo": "Filosofia del diritto · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma di Filosofia del diritto della classe SSG: le lezioni del corso del prof. Siniscalchi (pp. 1–192) e il dovere giuridico sul libro di A. Incampo, Sul dovere giuridico (pp. 193–221).",
+    "fonteSha256": "527437bcc243058630a1f346b09e5d98f563e8b21937d0505ee801a87c3223ee",
+    "pagine": 221,
+    "sezioni": [
+      {
+        "id": "u01-l1",
+        "titolo": "Come sappiamo che il diritto esiste: ordine, regole e forza deontica",
+        "da": 1,
+        "a": 4,
+        "lezione": "u01-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u01-l1.json"
+      },
+      {
+        "id": "u01-l2",
+        "titolo": "Descrittive e prescrittive: la «madre di tutte le domande»",
+        "da": 4,
+        "a": 7,
+        "lezione": "u01-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u01-l2.json",
+        "primo": "p004-b009"
+      },
+      {
+        "id": "u01-l3",
+        "titolo": "Come ragiona un giusnaturalista: il sillogismo e la fallacia naturalistica",
+        "da": 8,
+        "a": 10,
+        "lezione": "u01-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u01-l3.json"
+      },
+      {
+        "id": "u01-l4",
+        "titolo": "Il positivismo giuridico: la forma, la sanzione e la validità",
+        "da": 10,
+        "a": 11,
+        "lezione": "u01-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u01-l4.json",
+        "primo": "p010-b010"
+      },
+      {
+        "id": "u02-l1",
+        "titolo": "La fallacia naturalistica come pars destruens e il prezzo della giustizia",
+        "da": 12,
+        "a": 15,
+        "lezione": "u02-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u02-l1.json"
+      },
+      {
+        "id": "u02-l2",
+        "titolo": "Validità formale e ordinamento a gradi: lo Stufenbau",
+        "da": 15,
+        "a": 18,
+        "lezione": "u02-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u02-l2.json",
+        "primo": "p015-b008"
+      },
+      {
+        "id": "u02-l3",
+        "titolo": "Chi valida la Costituzione? Paradossi, teoria dei tipi e norma fondamentale",
+        "da": 19,
+        "a": 20,
+        "lezione": "u02-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u02-l3.json"
+      },
+      {
+        "id": "u02-l4",
+        "titolo": "Sistemi statici e dinamici; la norma come schema di qualificazione",
+        "da": 20,
+        "a": 21,
+        "lezione": "u02-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u02-l4.json",
+        "primo": "p020-b007"
+      },
+      {
+        "id": "u03-l1",
+        "titolo": "La validità sintattica: condizioni a posteriori e a priori, norma di chiusura",
+        "da": 22,
+        "a": 27,
+        "lezione": "u03-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u03-l1.json"
+      },
+      {
+        "id": "u03-l2",
+        "titolo": "Che cos'è la norma giuridica: fatto, qualificazione deontica, sanzione",
+        "da": 27,
+        "a": 29,
+        "lezione": "u03-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u03-l2.json",
+        "primo": "p027-b003"
+      },
+      {
+        "id": "u03-l3",
+        "titolo": "Sollen e Müssen: causalità e imputazione",
+        "da": 29,
+        "a": 31,
+        "lezione": "u03-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u03-l3.json",
+        "primo": "p029-b004"
+      },
+      {
+        "id": "u03-l4",
+        "titolo": "Norme senza sanzione: primarie e secondarie in Kelsen",
+        "da": 31,
+        "a": 32,
+        "lezione": "u03-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u03-l4.json",
+        "primo": "p031-b002"
+      },
+      {
+        "id": "u04-l1",
+        "titolo": "Meriti e tre punti deboli del positivismo kelseniano",
+        "da": 33,
+        "a": 35,
+        "lezione": "u04-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u04-l1.json"
+      },
+      {
+        "id": "u04-l2",
+        "titolo": "Norme valide e ingiuste: il nazismo e l'argomento del guerriero valoroso",
+        "da": 35,
+        "a": 37,
+        "lezione": "u04-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u04-l2.json",
+        "primo": "p035-b006"
+      },
+      {
+        "id": "u04-l3",
+        "titolo": "Le formule di Radbruch, il calice di cristallo e la giustizia di Kelsen",
+        "da": 38,
+        "a": 40,
+        "lezione": "u04-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u04-l3.json"
+      },
+      {
+        "id": "u04-l4",
+        "titolo": "Una soglia oggettiva di giustizia: pragmatica, promessa e pubblicità kantiana",
+        "da": 40,
+        "a": 43,
+        "lezione": "u04-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u04-l4.json",
+        "primo": "p040-b009"
+      },
+      {
+        "id": "u05-l1",
+        "titolo": "La pubblicità come ius publicum e i limiti di ogni teoria della giustizia",
+        "da": 44,
+        "a": 46,
+        "lezione": "u05-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u05-l1.json"
+      },
+      {
+        "id": "u05-l2",
+        "titolo": "Antigone: il conflitto tragico e le letture di Hegel, Lacan e Butler",
+        "da": 46,
+        "a": 47,
+        "lezione": "u05-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u05-l2.json",
+        "primo": "p046-b007"
+      },
+      {
+        "id": "u05-l3",
+        "titolo": "Porzia e la giustizia moderna, formale-procedurale",
+        "da": 47,
+        "a": 49,
+        "lezione": "u05-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u05-l3.json",
+        "primo": "p047-b010"
+      },
+      {
+        "id": "u05-l4",
+        "titolo": "Interpretare la norma: lacune, art. 12 preleggi, la sala d'aspetto",
+        "da": 49,
+        "a": 53,
+        "lezione": "u05-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u05-l4.json",
+        "primo": "p049-b008"
+      },
+      {
+        "id": "u06-l1",
+        "titolo": "Austin: fare cose con parole, la funzione performativa del linguaggio",
+        "da": 53,
+        "a": 62,
+        "lezione": "u06-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u06-l1.json",
+        "primo": "p053-b015"
+      },
+      {
+        "id": "u06-l2",
+        "titolo": "Retiche e tetiche; le norme costitutive di Carcaterra",
+        "da": 63,
+        "a": 65,
+        "lezione": "u06-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u06-l2.json"
+      },
+      {
+        "id": "u06-l3",
+        "titolo": "Le norme costitutive non sono neutre: effetti prescrittivi indiretti",
+        "da": 66,
+        "a": 68,
+        "lezione": "u06-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u06-l3.json"
+      },
+      {
+        "id": "u07-l1",
+        "titolo": "La terza critica, il soggetto: Las Meninas, osservatore e spettatore",
+        "da": 69,
+        "a": 72,
+        "lezione": "u07-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u07-l1.json"
+      },
+      {
+        "id": "u07-l2",
+        "titolo": "Punto di vista esterno e interno: oggettivo e soggettivo",
+        "da": 73,
+        "a": 77,
+        "lezione": "u07-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u07-l2.json"
+      },
+      {
+        "id": "u07-l3",
+        "titolo": "I partecipanti al gioco del diritto: osservanti e custodi dell'osservanza",
+        "da": 78,
+        "a": 80,
+        "lezione": "u07-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u07-l3.json"
+      },
+      {
+        "id": "u07-l4",
+        "titolo": "La metafora degli scacchi e il realismo di Alf Ross",
+        "da": 81,
+        "a": 83,
+        "lezione": "u07-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u07-l4.json"
+      },
+      {
+        "id": "u08-l1",
+        "titolo": "Chi accende il motore? La critica di Ross alla norma fondamentale",
+        "da": 84,
+        "a": 87,
+        "lezione": "u08-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u08-l1.json"
+      },
+      {
+        "id": "u08-l2",
+        "titolo": "Ross: il fondamento nelle norme di revisione e la replica di Kelsen",
+        "da": 87,
+        "a": 89,
+        "lezione": "u08-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u08-l2.json",
+        "primo": "p087-b002"
+      },
+      {
+        "id": "u08-l3",
+        "titolo": "Radici culturali: neokantismo in Kelsen, neoempirismo e psicoanalisi in Ross",
+        "da": 89,
+        "a": 91,
+        "lezione": "u08-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u08-l3.json",
+        "primo": "p089-b008"
+      },
+      {
+        "id": "u08-l4",
+        "titolo": "Dal legislatore alle corti; il VAR, la fotocellula e la strada verso Foucault",
+        "da": 92,
+        "a": 96,
+        "lezione": "u08-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u08-l4.json"
+      },
+      {
+        "id": "u09-l1",
+        "titolo": "Foucault: soggetti che non possono non seguire le regole; follia e carcere",
+        "da": 97,
+        "a": 99,
+        "lezione": "u09-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u09-l1.json"
+      },
+      {
+        "id": "u09-l2",
+        "titolo": "Il Panopticon: il gioco degli sguardi e il disciplinamento",
+        "da": 99,
+        "a": 101,
+        "lezione": "u09-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u09-l2.json",
+        "primo": "p099-b002"
+      },
+      {
+        "id": "u09-l3",
+        "titolo": "La norma come normalizzazione: controllo contro-giuridico ed efficienza",
+        "da": 101,
+        "a": 103,
+        "lezione": "u09-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u09-l3.json",
+        "primo": "p101-b009"
+      },
+      {
+        "id": "u09-l4",
+        "titolo": "L'occhio di Dio e l'immaginario del controllo: chi osserva gli osservatori?",
+        "da": 103,
+        "a": 106,
+        "lezione": "u09-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u09-l4.json",
+        "primo": "p103-b010"
+      },
+      {
+        "id": "u10-l1",
+        "titolo": "Due epistemologie: sapere per prevedere, sapere per controllare",
+        "da": 107,
+        "a": 109,
+        "lezione": "u10-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u10-l1.json"
+      },
+      {
+        "id": "u10-l2",
+        "titolo": "Potere prescrittivo-sanzionatorio e potere disciplinare; il biopotere",
+        "da": 109,
+        "a": 111,
+        "lezione": "u10-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u10-l2.json",
+        "primo": "p109-b003"
+      },
+      {
+        "id": "u10-l3",
+        "titolo": "Legalità e legittimità, il custode anonimo e i corpi docili",
+        "da": 112,
+        "a": 115,
+        "lezione": "u10-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u10-l3.json"
+      },
+      {
+        "id": "u11-l1",
+        "titolo": "Il punto di vista interno di Hart: l'atteggiamento critico-riflessivo",
+        "da": 115,
+        "a": 117,
+        "lezione": "u11-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u11-l1.json",
+        "primo": "p115-b013"
+      },
+      {
+        "id": "u11-l2",
+        "titolo": "La norma come schema a struttura semanticamente aperta",
+        "da": 118,
+        "a": 119,
+        "lezione": "u11-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u11-l2.json"
+      },
+      {
+        "id": "u11-l3",
+        "titolo": "L'ordinamento come gioco sociale e le norme di riconoscimento",
+        "da": 119,
+        "a": 121,
+        "lezione": "u11-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u11-l3.json",
+        "primo": "p119-b006"
+      },
+      {
+        "id": "u12-l1",
+        "titolo": "Searle: fatti bruti e fatti istituzionali, «X conta come Y in C»",
+        "da": 122,
+        "a": 124,
+        "lezione": "u12-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u12-l1.json"
+      },
+      {
+        "id": "u12-l2",
+        "titolo": "Funzioni agentive di status e intenzionalità collettiva",
+        "da": 124,
+        "a": 126,
+        "lezione": "u12-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u12-l2.json",
+        "primo": "p124-b008"
+      },
+      {
+        "id": "u12-l3",
+        "titolo": "Il postmoderno nel diritto e i tre approcci di Law and Film",
+        "da": 127,
+        "a": 130,
+        "lezione": "u12-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u12-l3.json"
+      },
+      {
+        "id": "u12-l4",
+        "titolo": "Il cerchio magico del diritto, law as film e film as law",
+        "da": 130,
+        "a": 133,
+        "lezione": "u12-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u12-l4.json",
+        "primo": "p130-b002"
+      },
+      {
+        "id": "u13-l1",
+        "titolo": "L'intenzionalità collettiva e le regole costitutive",
+        "da": 134,
+        "a": 136,
+        "lezione": "u13-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u13-l1.json"
+      },
+      {
+        "id": "u13-l2",
+        "titolo": "Prima critica: la materia del fatto bruto non è indifferente",
+        "da": 136,
+        "a": 139,
+        "lezione": "u13-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u13-l2.json",
+        "primo": "p136-b008"
+      },
+      {
+        "id": "u13-l3",
+        "titolo": "Seconda critica: indicatori di status, Derrida e la documentalità",
+        "da": 139,
+        "a": 141,
+        "lezione": "u13-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u13-l3.json",
+        "primo": "p139-b005"
+      },
+      {
+        "id": "u13-l4",
+        "titolo": "Perché seguo le regole per Searle; i due poli del Novecento e la crisi",
+        "da": 141,
+        "a": 143,
+        "lezione": "u13-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u13-l4.json",
+        "primo": "p141-b005"
+      },
+      {
+        "id": "u14-l1",
+        "titolo": "La crisi dell'ordinamento: globalizzazione, sovranità limitata, neoliberismo",
+        "da": 144,
+        "a": 146,
+        "lezione": "u14-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u14-l1.json"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "Dal fordismo al post-fordismo: la nascita della governance",
+        "da": 146,
+        "a": 148,
+        "lezione": "u14-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u14-l2.json",
+        "primo": "p146-b013"
+      },
+      {
+        "id": "u14-l3",
+        "titolo": "Rizoma e piano di immanenza: la governance capovolge la piramide",
+        "da": 148,
+        "a": 150,
+        "lezione": "u14-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u14-l3.json",
+        "primo": "p148-b011"
+      },
+      {
+        "id": "u15-l1",
+        "titolo": "Decidere di non decidere: autolegittimazione, inclusione, efficienza",
+        "da": 151,
+        "a": 152,
+        "lezione": "u15-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u15-l1.json"
+      },
+      {
+        "id": "u15-l2",
+        "titolo": "Il potere della governance: indirizzo, pastorato, Synopticon; luci e ombre",
+        "da": 152,
+        "a": 153,
+        "lezione": "u15-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u15-l2.json",
+        "primo": "p152-b007"
+      },
+      {
+        "id": "u15-l3",
+        "titolo": "Le immagini del potere: Leviatano, triangolo di Kelsen, pieghe di Deleuze",
+        "da": 153,
+        "a": 154,
+        "lezione": "u15-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u15-l3.json",
+        "primo": "p153-b012"
       },
       {
         "id": "u15-l4",
-        "titolo": "Aequitas civilis ed aequitas naturalis",
-        "da": 10,
-        "a": 10,
+        "titolo": "Governance per opposizione e nascita dello spettatore: epistemologia patetica",
+        "da": 155,
+        "a": 159,
         "lezione": "u15-l4",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          333,
-          340
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l4.json"
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u15-l4.json"
       },
       {
-        "id": "u15-l5",
-        "titolo": "La «legge giusta»",
-        "da": 11,
-        "a": 11,
-        "lezione": "u15-l5",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          341,
-          342
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l5.json"
+        "id": "u16-l1",
+        "titolo": "Il diritto nasce nel teatro; lo spettatore da Platone a Debord",
+        "da": 159,
+        "a": 161,
+        "lezione": "u16-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u16-l1.json",
+        "primo": "p159-b002"
       },
       {
-        "id": "u15-l6",
-        "titolo": "Il diritto oltre la comunità degli uomini",
-        "da": 12,
-        "a": 12,
-        "lezione": "u15-l6",
-        "tipoFonte": "manuale-ricostruito",
-        "manuale": [
-          343,
-          352
-        ],
-        "file": "letture/romano-manuale-integrazioni-v1/u15-l6.json"
+        "id": "u16-l2",
+        "titolo": "Spettacolare concentrato e diffuso; carisma, populismo, nomos",
+        "da": 161,
+        "a": 164,
+        "lezione": "u16-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u16-l2.json",
+        "primo": "p161-b006"
+      },
+      {
+        "id": "u16-l3",
+        "titolo": "Lo spettatore acclamante: Schmitt, il Leviatano, Legendre e il management",
+        "da": 165,
+        "a": 168,
+        "lezione": "u16-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u16-l3.json"
+      },
+      {
+        "id": "u16-l4",
+        "titolo": "Lo spettatore entusiasta: Kant, la Rivoluzione francese e le sue riletture",
+        "da": 169,
+        "a": 171,
+        "lezione": "u16-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u16-l4.json"
+      },
+      {
+        "id": "u16-l5",
+        "titolo": "Come si svolge l'esame: struttura ed esempi di domande",
+        "da": 172,
+        "a": 173,
+        "lezione": "u16-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u16-l5.json"
+      },
+      {
+        "id": "u17-l1",
+        "titolo": "Il diritto come cultura: Carnelutti, White e la cultura giuridica esterna",
+        "da": 174,
+        "a": 179,
+        "lezione": "u17-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u17-l1.json"
+      },
+      {
+        "id": "u17-l2",
+        "titolo": "Law in film: generi, stili e le locandine dei prison movies",
+        "da": 180,
+        "a": 186,
+        "lezione": "u17-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u17-l2.json"
+      },
+      {
+        "id": "u17-l3",
+        "titolo": "Il corpo femminile nei prison movies; law as film e il giurista sceneggiatore",
+        "da": 186,
+        "a": 190,
+        "lezione": "u17-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u17-l3.json",
+        "primo": "p186-b003"
+      },
+      {
+        "id": "u17-l4",
+        "titolo": "Film as law: lo stalking, il giudice nel cinema italiano e il poliziottesco",
+        "da": 190,
+        "a": 192,
+        "lezione": "u17-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u17-l4.json",
+        "primo": "p190-b013"
+      },
+      {
+        "id": "u18-l1",
+        "titolo": "La filosofia del diritto come scienza del dovere giuridico",
+        "da": 193,
+        "a": 195,
+        "lezione": "u18-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u18-l1.json"
+      },
+      {
+        "id": "u18-l2",
+        "titolo": "Politica e diritto: analogia, argomento a contrario, decisione",
+        "da": 195,
+        "a": 196,
+        "lezione": "u18-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u18-l2.json",
+        "primo": "p195-b002"
+      },
+      {
+        "id": "u18-l3",
+        "titolo": "Diritto e parola: thesis e rhesis, costitutività e prescrittività",
+        "da": 196,
+        "a": 199,
+        "lezione": "u18-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u18-l3.json",
+        "primo": "p196-b011"
+      },
+      {
+        "id": "u18-l4",
+        "titolo": "Diritto e logica: verità dei performativi e logica della validità",
+        "da": 199,
+        "a": 202,
+        "lezione": "u18-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u18-l4.json",
+        "primo": "p199-b006"
+      },
+      {
+        "id": "u19-l1",
+        "titolo": "Validità praxeologica: promessa, essentialia negotii, struttura e funzione",
+        "da": 202,
+        "a": 205,
+        "lezione": "u19-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u19-l1.json",
+        "primo": "p202-b012"
+      },
+      {
+        "id": "u19-l2",
+        "titolo": "Condizioni di struttura e di funzione: i giudizi a priori e Reinach",
+        "da": 205,
+        "a": 207,
+        "lezione": "u19-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u19-l2.json",
+        "primo": "p205-b003"
+      },
+      {
+        "id": "u19-l3",
+        "titolo": "Validità praxeonomica: ergastolano, accidentalia, testamento olografo",
+        "da": 207,
+        "a": 209,
+        "lezione": "u19-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u19-l3.json",
+        "primo": "p207-b010"
+      },
+      {
+        "id": "u19-l4",
+        "titolo": "I doveri sintattici: metaregole, norma di chiusura, norme iterate",
+        "da": 209,
+        "a": 212,
+        "lezione": "u19-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u19-l4.json",
+        "primo": "p209-b002"
+      },
+      {
+        "id": "u20-l1",
+        "titolo": "Il fondamento della norma fondamentale: effettività e teoreticità",
+        "da": 212,
+        "a": 214,
+        "lezione": "u20-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u20-l1.json",
+        "primo": "p212-b004"
+      },
+      {
+        "id": "u20-l2",
+        "titolo": "Regole eidetico-costitutive: nomos ed eidos",
+        "da": 214,
+        "a": 216,
+        "lezione": "u20-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u20-l2.json",
+        "primo": "p214-b003"
+      },
+      {
+        "id": "u20-l3",
+        "titolo": "Ius publicum: funzione dell'ordinamento e forza costitutiva della pubblicità",
+        "da": 216,
+        "a": 218,
+        "lezione": "u20-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u20-l3.json",
+        "primo": "p216-b007"
+      },
+      {
+        "id": "u20-l4",
+        "titolo": "Pubblicità, universalità e giustizia; Grundwert; la coscienza infelice",
+        "da": 218,
+        "a": 221,
+        "lezione": "u20-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-ssg-iuris-v1/u20-l4.json",
+        "primo": "p218-b005"
+      }
+    ]
+  },
+  {
+    "id": "filosofia-al-iuris-v1",
+    "edizione": 1,
+    "materia": "filosofia-del-diritto",
+    "titolo": "Filosofia del diritto · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma di Filosofia del diritto della classe LMG A-L: il dovere giuridico sul libro di A. Incampo (pp. 1–100), A. Moro, Il diritto e lo Stato (pp. 101–131) e S. Cotta, Il diritto nell’esistenza (pp. 132–161).",
+    "fonteSha256": "9fe7f2cedc89e4d9acf8c4789510bcb0d837a139d6eb0b177fa869f9318d3a16",
+    "pagine": 161,
+    "sezioni": [
+      {
+        "id": "u01-l1",
+        "titolo": "La filosofia del diritto come scienza del dovere giuridico",
+        "da": 1,
+        "a": 3,
+        "lezione": "u01-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u01-l1.json"
+      },
+      {
+        "id": "u01-l2",
+        "titolo": "L'ordinamento e la forza del dovere: norme necessarie e solo possibili",
+        "da": 3,
+        "a": 6,
+        "lezione": "u01-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u01-l2.json",
+        "primo": "p003-b014"
+      },
+      {
+        "id": "u01-l3",
+        "titolo": "L'oggetto del dovere: norme di condotta e norme di struttura",
+        "da": 6,
+        "a": 8,
+        "lezione": "u01-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u01-l3.json",
+        "primo": "p006-b010"
+      },
+      {
+        "id": "u01-l4",
+        "titolo": "Oltre positivismo e giusnaturalismo: diritto sovralegale e regole tecniche",
+        "da": 8,
+        "a": 10,
+        "lezione": "u01-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u01-l4.json",
+        "primo": "p008-b010"
+      },
+      {
+        "id": "u01-l5",
+        "titolo": "Diritto, universale e giustificazione",
+        "da": 10,
+        "a": 13,
+        "lezione": "u01-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u01-l5.json",
+        "primo": "p010-b014"
+      },
+      {
+        "id": "u02-l1",
+        "titolo": "Filosofia, politica e diritto: legislatore e giudice",
+        "da": 14,
+        "a": 15,
+        "lezione": "u02-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u02-l1.json"
+      },
+      {
+        "id": "u02-l2",
+        "titolo": "Lacune, legalismo giuridico e politicità del giudice",
+        "da": 15,
+        "a": 17,
+        "lezione": "u02-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u02-l2.json",
+        "primo": "p015-b010"
+      },
+      {
+        "id": "u02-l3",
+        "titolo": "Analogia e argomento a contrario: i limiti della logica giuridica",
+        "da": 18,
+        "a": 21,
+        "lezione": "u02-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u02-l3.json"
+      },
+      {
+        "id": "u02-l4",
+        "titolo": "Il dovere di decidere e la motivazione come limite",
+        "da": 21,
+        "a": 22,
+        "lezione": "u02-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u02-l4.json",
+        "primo": "p021-b002"
+      },
+      {
+        "id": "u03-l1",
+        "titolo": "Il diritto ha bisogno della parola",
+        "da": 23,
+        "a": 24,
+        "lezione": "u03-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u03-l1.json"
+      },
+      {
+        "id": "u03-l2",
+        "titolo": "La parola che fa: performatività e condizioni di felicità",
+        "da": 25,
+        "a": 26,
+        "lezione": "u03-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u03-l2.json"
+      },
+      {
+        "id": "u03-l3",
+        "titolo": "Thesis e rhesis: il legislatore, il giurista e la norma costitutiva",
+        "da": 27,
+        "a": 28,
+        "lezione": "u03-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u03-l3.json"
+      },
+      {
+        "id": "u03-l4",
+        "titolo": "Norme costitutive, norme prescrittive e critica a Kelsen",
+        "da": 28,
+        "a": 31,
+        "lezione": "u03-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u03-l4.json",
+        "primo": "p028-b008"
+      },
+      {
+        "id": "u03-l5",
+        "titolo": "Costitutivo e prescrittivo: il rapporto e i limiti",
+        "da": 31,
+        "a": 33,
+        "lezione": "u03-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u03-l5.json",
+        "primo": "p031-b003"
+      },
+      {
+        "id": "u04-l1",
+        "titolo": "Verità o validità? La tesi di Conte sui performativi",
+        "da": 34,
+        "a": 36,
+        "lezione": "u04-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u04-l1.json"
+      },
+      {
+        "id": "u04-l2",
+        "titolo": "Le obiezioni a Conte: verità semantica e verità ontica",
+        "da": 36,
+        "a": 38,
+        "lezione": "u04-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u04-l2.json",
+        "primo": "p036-b004"
+      },
+      {
+        "id": "u04-l3",
+        "titolo": "L'autonomia logica del diritto: contro le due tesi contrarie",
+        "da": 38,
+        "a": 41,
+        "lezione": "u04-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u04-l3.json",
+        "primo": "p038-b013"
+      },
+      {
+        "id": "u05-l1",
+        "titolo": "Le due validità pragmatiche e la promessa di cosa passata",
+        "da": 42,
+        "a": 44,
+        "lezione": "u05-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u05-l1.json"
+      },
+      {
+        "id": "u05-l2",
+        "titolo": "Struttura e funzione: segno, significato, uso",
+        "da": 44,
+        "a": 47,
+        "lezione": "u05-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u05-l2.json",
+        "primo": "p044-b002"
+      },
+      {
+        "id": "u05-l3",
+        "titolo": "Funzioni essenziali, conoscenza del gioco e condizioni di struttura",
+        "da": 47,
+        "a": 50,
+        "lezione": "u05-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u05-l3.json",
+        "primo": "p047-b002"
+      },
+      {
+        "id": "u05-l4",
+        "titolo": "Le regole di funzione: fiducia, adempimento, causa",
+        "da": 50,
+        "a": 53,
+        "lezione": "u05-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u05-l4.json",
+        "primo": "p050-b002"
+      },
+      {
+        "id": "u05-l5",
+        "titolo": "Giudizi sintetici a priori e limiti del diritto positivo",
+        "da": 53,
+        "a": 55,
+        "lezione": "u05-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u05-l5.json",
+        "primo": "p053-b003"
+      },
+      {
+        "id": "u05-l6",
+        "titolo": "La validità praxeonomica: accidentalia, giudizi a posteriori, istituti",
+        "da": 55,
+        "a": 58,
+        "lezione": "u05-l6",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u05-l6.json",
+        "primo": "p055-b010"
+      },
+      {
+        "id": "u06-l1",
+        "titolo": "Le norme come segni: validità sintattica e norme di struttura",
+        "da": 59,
+        "a": 62,
+        "lezione": "u06-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u06-l1.json"
+      },
+      {
+        "id": "u06-l2",
+        "titolo": "Le metaregole: norma di chiusura e Grundnorm",
+        "da": 62,
+        "a": 63,
+        "lezione": "u06-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u06-l2.json",
+        "primo": "p062-b002"
+      },
+      {
+        "id": "u06-l3",
+        "titolo": "La funzione dell'ordinamento: Chiesa e Stato davanti all'esigibilità",
+        "da": 64,
+        "a": 65,
+        "lezione": "u06-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u06-l3.json"
+      },
+      {
+        "id": "u06-l4",
+        "titolo": "Alice, Gulliver e la validità sintasseonomica",
+        "da": 65,
+        "a": 68,
+        "lezione": "u06-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u06-l4.json",
+        "primo": "p065-b011"
+      },
+      {
+        "id": "u06-l5",
+        "titolo": "La Norma fondamentale: esistenza, paradosso e metro campione",
+        "da": 69,
+        "a": 71,
+        "lezione": "u06-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u06-l5.json"
+      },
+      {
+        "id": "u06-l6",
+        "titolo": "Effettività e teoreticità: i due significati della Grundnorm",
+        "da": 71,
+        "a": 74,
+        "lezione": "u06-l6",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u06-l6.json",
+        "primo": "p071-b002"
+      },
+      {
+        "id": "u07-l1",
+        "titolo": "La Grundnorm come regola eidetico-costitutiva",
+        "da": 75,
+        "a": 77,
+        "lezione": "u07-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u07-l1.json"
+      },
+      {
+        "id": "u07-l2",
+        "titolo": "Eidos costitutivo di regole: doveri eidonomici ed eidologici",
+        "da": 77,
+        "a": 78,
+        "lezione": "u07-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u07-l2.json",
+        "primo": "p077-b002"
+      },
+      {
+        "id": "u07-l3",
+        "titolo": "Struttura e funzione dell'ordinamento: da Kelsen a Kant",
+        "da": 79,
+        "a": 81,
+        "lezione": "u07-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u07-l3.json"
+      },
+      {
+        "id": "u07-l4",
+        "titolo": "La pubblicità nel diritto e la formula trascendentale",
+        "da": 82,
+        "a": 83,
+        "lezione": "u07-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u07-l4.json"
+      },
+      {
+        "id": "u07-l5",
+        "titolo": "Pubblicità e giustizia: diritto, virtù, universalità",
+        "da": 84,
+        "a": 86,
+        "lezione": "u07-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u07-l5.json"
+      },
+      {
+        "id": "u07-l6",
+        "titolo": "Doveri perfetti e imperfetti; Grundnorm e Grundwert",
+        "da": 86,
+        "a": 89,
+        "lezione": "u07-l6",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u07-l6.json",
+        "primo": "p086-b013"
+      },
+      {
+        "id": "u08-l1",
+        "titolo": "Stoicismo, Scetticismo e coscienza infelice",
+        "da": 90,
+        "a": 92,
+        "lezione": "u08-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u08-l1.json"
+      },
+      {
+        "id": "u08-l2",
+        "titolo": "Che cos'è il diritto? Validità e crisi dell'ordinamento",
+        "da": 93,
+        "a": 96,
+        "lezione": "u08-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u08-l2.json"
+      },
+      {
+        "id": "u08-l3",
+        "titolo": "Nomos e terra: lex mercatoria, contratto, tecnodemocrazia",
+        "da": 96,
+        "a": 97,
+        "lezione": "u08-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u08-l3.json",
+        "primo": "p096-b002"
+      },
+      {
+        "id": "u08-l4",
+        "titolo": "Senza codice, non senza ordinamento: i diritti come mesofatti",
+        "da": 98,
+        "a": 100,
+        "lezione": "u08-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u08-l4.json"
+      },
+      {
+        "id": "u09-l1",
+        "titolo": "Le lezioni baresi: la persona, lo Stato dal basso, la Costituzione",
+        "da": 101,
+        "a": 103,
+        "lezione": "u09-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u09-l1.json"
+      },
+      {
+        "id": "u09-l2",
+        "titolo": "Il problema della vita: valore, legge, amore e libertà",
+        "da": 104,
+        "a": 106,
+        "lezione": "u09-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u09-l2.json"
+      },
+      {
+        "id": "u09-l3",
+        "titolo": "L'esperienza giuridica: resistenza, forza e giustizia, crisi del diritto",
+        "da": 107,
+        "a": 109,
+        "lezione": "u09-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u09-l3.json"
+      },
+      {
+        "id": "u10-l1",
+        "titolo": "La società: relazione, unità nella distinzione, comunione",
+        "da": 110,
+        "a": 112,
+        "lezione": "u10-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u10-l1.json"
+      },
+      {
+        "id": "u10-l2",
+        "titolo": "I fini dello Stato: Stato assoluto, Stato di diritto, Stato etico",
+        "da": 113,
+        "a": 114,
+        "lezione": "u10-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u10-l2.json"
+      },
+      {
+        "id": "u10-l3",
+        "titolo": "Autorità e libertà: dalla libertà fisica alla libertà etico-giuridica",
+        "da": 115,
+        "a": 117,
+        "lezione": "u10-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u10-l3.json"
+      },
+      {
+        "id": "u10-l4",
+        "titolo": "Il momento politico umanistico: singolo, funzione politica, Amministrazione",
+        "da": 118,
+        "a": 120,
+        "lezione": "u10-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u10-l4.json"
+      },
+      {
+        "id": "u11-l1",
+        "titolo": "Il valore dello Stato: eticità, religiosità e Stato «tutto etico»",
+        "da": 121,
+        "a": 122,
+        "lezione": "u11-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u11-l1.json"
+      },
+      {
+        "id": "u11-l2",
+        "titolo": "Idea liberale e idea sociale dello Stato",
+        "da": 123,
+        "a": 125,
+        "lezione": "u11-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u11-l2.json"
+      },
+      {
+        "id": "u11-l3",
+        "titolo": "La rivoluzione: permanente, pacifica e violenta",
+        "da": 126,
+        "a": 128,
+        "lezione": "u11-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u11-l3.json"
+      },
+      {
+        "id": "u11-l4",
+        "titolo": "La pluralità degli Stati e i loro rapporti",
+        "da": 129,
+        "a": 131,
+        "lezione": "u11-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u11-l4.json"
+      },
+      {
+        "id": "u12-l1",
+        "titolo": "Titolo, premesse e metodo: quid ius e cur ius",
+        "da": 132,
+        "a": 134,
+        "lezione": "u12-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u12-l1.json"
+      },
+      {
+        "id": "u12-l2",
+        "titolo": "Senso comune e teorie giuridiche odierne",
+        "da": 135,
+        "a": 137,
+        "lezione": "u12-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u12-l2.json"
+      },
+      {
+        "id": "u12-l3",
+        "titolo": "La genesi del diritto nella coscienza",
+        "da": 137,
+        "a": 138,
+        "lezione": "u12-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u12-l3.json",
+        "primo": "p137-b002"
+      },
+      {
+        "id": "u12-l4",
+        "titolo": "Dalla compossibilità alla socionomia; il fondamento ontologico dell'esistenza",
+        "da": 139,
+        "a": 141,
+        "lezione": "u12-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u12-l4.json"
+      },
+      {
+        "id": "u13-l1",
+        "titolo": "Coesistenza, giuridicità, amicizia e politica",
+        "da": 141,
+        "a": 144,
+        "lezione": "u13-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u13-l1.json",
+        "primo": "p141-b003"
+      },
+      {
+        "id": "u13-l2",
+        "titolo": "I limiti della politica e la famiglia",
+        "da": 144,
+        "a": 145,
+        "lezione": "u13-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u13-l2.json",
+        "primo": "p144-b004"
+      },
+      {
+        "id": "u13-l3",
+        "titolo": "Gioco, diritto e carità: le forme integrativo-includenti",
+        "da": 145,
+        "a": 149,
+        "lezione": "u13-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u13-l3.json",
+        "primo": "p145-b011"
+      },
+      {
+        "id": "u13-l4",
+        "titolo": "La giuridicità nelle sei forme e la funzione del diritto",
+        "da": 149,
+        "a": 151,
+        "lezione": "u13-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u13-l4.json",
+        "primo": "p149-b002"
+      },
+      {
+        "id": "u14-l1",
+        "titolo": "Diritto e giustizia: la regola giuridica, l'obbligo e il comando",
+        "da": 151,
+        "a": 152,
+        "lezione": "u14-l1",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u14-l1.json",
+        "primo": "p151-b002"
+      },
+      {
+        "id": "u14-l2",
+        "titolo": "Obbligo, costrizione e le tre forme della giustizia",
+        "da": 153,
+        "a": 155,
+        "lezione": "u14-l2",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u14-l2.json"
+      },
+      {
+        "id": "u14-l3",
+        "titolo": "La giustificazione delle norme, il diritto naturale vigente e la legalità",
+        "da": 156,
+        "a": 158,
+        "lezione": "u14-l3",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u14-l3.json"
+      },
+      {
+        "id": "u14-l4",
+        "titolo": "Dal Sein al Sollen: diritto naturale vigente e temporalità del diritto",
+        "da": 158,
+        "a": 159,
+        "lezione": "u14-l4",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u14-l4.json",
+        "primo": "p158-b002"
+      },
+      {
+        "id": "u14-l5",
+        "titolo": "Durata, moralità del diritto e carità; Incampo e Cotta a confronto",
+        "da": 160,
+        "a": 161,
+        "lezione": "u14-l5",
+        "revisionata": true,
+        "file": "letture/filosofia-al-iuris-v1/u14-l5.json"
       }
     ]
   }

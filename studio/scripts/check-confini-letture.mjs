@@ -11,7 +11,7 @@ const { verificati = {} } = await json('letture-src/confini-sezioni.json');
 const piano = (s) => s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, id, l) => l || id).replace(/<\/?sup>/g, '').replace(/\*\*/g, '').trim();
 const problemi = [];
 let sezioni = 0;
-for (const doc of catalogo.filter((d) => d.tipoFonte !== 'manuale-ricostruito')) {
+for (const doc of catalogo) {
   for (const [i, sec] of doc.sezioni.entries()) {
     if (sec.soloTitolo) continue;
     const { blocchi } = await json(`public/${sec.file}`); sezioni++;

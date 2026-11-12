@@ -3,22 +3,140 @@
   "edizione": 1,
   "id": "u14-l4",
   "titolo": "Come si forma una regola",
-  "da": 173,
-  "a": 173,
+  "da": 227,
+  "a": 227,
   "lezione": "u14-l4",
   "revisionata": true,
-  "soloTitolo": true,
-  "integrazione": {
-    "documento": "romano-manuale-integrazioni-v1",
-    "sezione": "u14-l4"
-  },
   "blocchi": [
     {
-      "id": "p173-b001",
-      "pagina": 173,
+      "id": "p227-b001",
+      "pagina": 227,
       "markdown": "### 4. Come si forma una regola",
       "concetti": [
         "regula-iuris"
+      ]
+    },
+    {
+      "id": "p227-b002",
+      "pagina": 227,
+      "markdown": "Da molte soluzioni concrete i giuristi ricavano formule brevi, le ***[[regula-iuris|regulae iuris]]*** (Bretone, pp. 303–308). La regola non è un assioma da cui dedurre: è il **riassunto** di un'esperienza casistica.",
+      "concetti": [
+        "regula-iuris",
+        "libri-regularum"
+      ]
+    },
+    {
+      "id": "p227-b003",
+      "pagina": 227,
+      "markdown": "Lo dice **[[paolo|Paolo]]** nel passo che apre l'ultimo titolo del [[digesto|Digesto]] ([[de-diversis-regulis-iuris-antiqui|D. 50.17]].1): «*Regula est, quae rem quae est breviter enarrat. Non ex regula ius sumatur, sed ex iure quod est regula fiat*». Cioè: «la regola è ciò che descrive brevemente la cosa com'è. Non si ricavi il diritto dalla regola, ma dal diritto che esiste si faccia la regola».",
+      "concetti": [
+        "paolo",
+        "digesto",
+        "de-diversis-regulis-iuris-antiqui",
+        "regula-iuris"
+      ]
+    },
+    {
+      "id": "p227-b004",
+      "pagina": 227,
+      "markdown": "Paolo aggiunge, citando **[[masurio-sabino|Sabino]]**, che la regola è quasi una *causae coniectio*, una sintesi del caso, e che **perde la sua funzione appena si rivela sbagliata anche in un solo punto**.",
+      "concetti": [
+        "masurio-sabino",
+        "regula-iuris",
+        "paolo"
+      ]
+    },
+    {
+      "id": "p227-b005",
+      "pagina": 227,
+      "markdown": "### La *regula Catoniana*",
+      "concetti": [
+        "regula-catoniana",
+        "regula-iuris"
+      ]
+    },
+    {
+      "id": "p227-b006",
+      "pagina": 227,
+      "markdown": "Una delle regole più antiche è la ***[[regula-catoniana|regula Catoniana]]***, attribuita a un Catone del II secolo a.C. (il Censore o il figlio): il legato che sarebbe stato invalido se il testatore fosse morto subito dopo aver fatto testamento resta invalido, in qualunque momento egli muoia (D. 34.7.1 pr., [[celso|Celso]]).",
+      "concetti": [
+        "regula-catoniana",
+        "celso",
+        "regula-iuris"
+      ]
+    },
+    {
+      "id": "p227-b007",
+      "pagina": 227,
+      "markdown": "Già **Celso** avverte però che «*quae definitio in quibusdam falsa est*», cioè «questa definizione in alcuni casi è falsa». Anche la regola più autorevole ha le sue eccezioni.",
+      "concetti": [
+        "regula-iuris",
+        "celso"
+      ]
+    },
+    {
+      "id": "p227-b008",
+      "pagina": 227,
+      "markdown": "### I libri di regole",
+      "concetti": []
+    },
+    {
+      "id": "p227-b009",
+      "pagina": 227,
+      "markdown": "Nel Principato le regole diventano un genere letterario, i ***[[libri-regularum|libri regularum]]***: ne scrivono **Nerazio**, **Pomponio**, **Gaio**, **Cervidio Scevola** e poi i severiani **Paolo**, **Ulpiano**, **Marciano**, **Modestino**. Sono opere brevi, spesso destinate all'insegnamento e alla pratica.",
+      "concetti": [
+        "libri-regularum",
+        "paolo"
+      ]
+    },
+    {
+      "id": "p227-b010",
+      "pagina": 227,
+      "markdown": "### Il titolo D. 50.17",
+      "concetti": [
+        "de-diversis-regulis-iuris-antiqui"
+      ]
+    },
+    {
+      "id": "p227-b011",
+      "pagina": 227,
+      "markdown": "I compilatori giustinianei raccolgono le regole nell'ultimo titolo del Digesto, ***De diversis regulis iuris antiqui*** (D. 50.17, 211 frammenti). Alcuni esempi:",
+      "concetti": [
+        "de-diversis-regulis-iuris-antiqui",
+        "digesto"
+      ]
+    },
+    {
+      "id": "p227-b012",
+      "pagina": 227,
+      "markdown": "- «*Nemo plus iuris ad alium transferre potest, quam ipse haberet*» (Ulpiano, D. 50.17.54): nessuno può trasferire ad altri più diritti di quanti ne abbia;\n- «*Semper in dubiis benigniora praeferenda sunt*» (Gaio, D. 50.17.56): nel dubbio si preferisce la soluzione più favorevole;\n- nessuno può morire in parte con testamento e in parte senza (Pomponio, D. 50.17.7).",
+      "concetti": [
+        "de-diversis-regulis-iuris-antiqui"
+      ]
+    },
+    {
+      "id": "p227-b013",
+      "pagina": 227,
+      "markdown": "Staccate dal loro contesto, queste frasi sembrano principi assoluti; in origine erano conclusioni riferite a casi precisi. Nel Medioevo i **glossatori** le useranno come massime generali.",
+      "concetti": []
+    },
+    {
+      "id": "p227-b014",
+      "pagina": 227,
+      "markdown": "### Regola, definizione, eccezione",
+      "concetti": [
+        "regula-iuris"
+      ]
+    },
+    {
+      "id": "p227-b015",
+      "pagina": 227,
+      "markdown": "- La **definizione** dice che cos'è una cosa; la **regola** dice come vanno di solito risolti certi casi. Entrambe sono guardate con prudenza, ma i giuristi ne fanno uso: **Papiniano** scrive anche delle *[[definitiones-di-papiniano|Definitiones]]*.\n- Quando una soluzione si allontana dalla logica generale per ragioni di utilità si parla di ***[[ius-singulare|ius singulare]]***: secondo Paolo (D. 1.3.16) è il diritto introdotto *contra tenorem rationis* («contro la coerenza del sistema») *propter aliquam utilitatem* («per una qualche utilità»).",
+      "concetti": [
+        "definitiones-di-papiniano",
+        "ius-singulare",
+        "regula-iuris",
+        "paolo"
       ]
     }
   ]

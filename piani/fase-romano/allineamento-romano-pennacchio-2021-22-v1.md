@@ -1,17 +1,17 @@
 # Allineamento romano-pennacchio-2021-22-v1 → romano-iuris-v1
 
 Generato da `node scripts/allinea-originali.mjs romano-pennacchio-2021-22-v1 romano-iuris-v1` (2026-11-12).
-Documento vecchio: storia git, commit 6f3c944. Modo: pagina per pagina (p-1…p+1). Soglia: 40.
+Documento vecchio: storia git, commit bfa7814. Modo: pagina per pagina (p-1…p+1). Soglia: 40.
 
 | Misura | Valore |
 |---|---|
 | Blocchi / frasi vecchie | 652 / 3893 |
-| Blocchi / frasi nuove | 3004 / 5608 |
+| Blocchi / frasi nuove | 3186 / 5956 |
 | Frasi vecchie con almeno 3 parole piene | 3413 |
-| … con corrispondenza sicura (≥ 40) | 3321 (97,3%) |
+| … con corrispondenza sicura (≥ 40) | 3319 (97,2%) |
 | … pesate per parole piene | 97,4% |
 | Senza alcuna corrispondenza | 4 |
-| Recuperate fuori ordine | 264 |
+| Recuperate fuori ordine | 269 |
 | Punteggio mediano | 73 |
 
 ## Frasi vecchie con punteggio basso, pagina per pagina
@@ -88,8 +88,8 @@ il punteggio e l'inizio della frase nuova più vicina (o «—»). Le pagine con
 
 ### p. 48 · 2 su 22
 
-- 35 · «Ritroviamo anche la possibilità di danneggiare una persona per mezzo di incantesimi:» → p. 48 «Le XII Tavole prevedono anche il danno arrecato con incantesimi.»
-- 20 · «Altre volte si ricorreva il potere magico delle parole come strumento punitivo:» → p. 48 «Con l'obvagulatio, chi si vedeva negare la testimonianza da una …»
+- 31 · «Ritroviamo anche la possibilità di danneggiare una persona per mezzo di incantesimi:» → p. 48 «Le XII Tavole prevedono anche il danno arrecato con incantesimi.»
+- 14 · «Altre volte si ricorreva il potere magico delle parole come strumento punitivo:» → p. 48 «Il cittadino condannato o sotto inchiesta da parte di un …»
 
 ### p. 49 · 2 su 21
 
@@ -144,7 +144,7 @@ il punteggio e l'inizio della frase nuova più vicina (o «—»). Le pagine con
 ### p. 87 · 2 su 17
 
 - 38 · «→ Possiamo individuare vari termini per delineare la figura del giurista, ciascuno dei quali, …» → p. 87 «Per indicare il giurista si usano diversi termini, ognuno dei …»
-- 32 · «Un’altra espressione è: iuris prudens = “giurisprudente”: che si riallaccia al concetto più ampio …» → p. 87 «Iuris prudens, il giurisprudente: si ricollega al concetto più ampio …»
+- 31 · «Un’altra espressione è: iuris prudens = “giurisprudente”: che si riallaccia al concetto più ampio …» → p. 87 «Iuris prudens, il giurisprudente: si ricollega al concetto più ampio …»
 
 ### p. 91 · 1 su 15
 
@@ -175,9 +175,8 @@ il punteggio e l'inizio della frase nuova più vicina (o «—»). Le pagine con
 
 - 38 · «→ Vediamo, quindi, come liberamente sta dando molta rilevanza alla produzione normativa che viene …» → p. 113 «Pomponio vuole mettere in luce la funzione normativa dell'interpretazione: i …»
 
-### p. 114 · 2 su 20
+### p. 114 · 1 su 20
 
-- 36 · «→ Leggi - Plebisciti - Senatoconsulti - Costituzioni imperiali - Editti di coloro che …» → p. 114 «editti di chi ha il potere di rivolgere al popolo …»
 - 39 · «nel momento in cui le opinioni dei giuristi su un determinato caso sono tutte …» → p. 114 «se tutti i giuristi concordano su un caso, il loro …»
 
 ### p. 115 · 1 su 10
@@ -258,8 +257,9 @@ il punteggio e l'inizio della frase nuova più vicina (o «—»). Le pagine con
 
 - 36 · «Consideriamo queste categorie una per una.» → p. 158 «libertini, coloro che sono stati affrancati da una condizione servile …»
 
-### p. 161 · 1 su 22
+### p. 161 · 2 su 22
 
+- 38 · «(Altri motivi per cui si pensa ad un contrasto\ competizione)» → p. 161 «Per spiegare la contrapposizione fra le scuole sono state proposte …»
 - 36 · «Un’altra chiave di lettura vede il contrapporsi:» → p. 161 «Un'altra lettura oppone il tradizionalismo dei sabiniani all'innovazione dei proculiani.»
 
 ### p. 165 · 2 su 26
@@ -275,6 +275,14 @@ il punteggio e l'inizio della frase nuova più vicina (o «—»). Le pagine con
 
 - 39 · «il cammino era già stato indicato da alcuni decenni.)» → p. 169 «Almeno per il diritto penale, comunque, la novità non è …»
 - 31 · «Ulpiano (Deappellationibus)ediModestino(Depoenis) sono scritti significativi.» → p. 169 «di Ulpiano, il De appellationibus;»
+
+### **p. 174** · 1 su 1
+
+- 11 · «Dialoghi fuori del tempo» → p. 176 «Anche la vecchia aristocrazia delle comunità cittadine locali e la …»
+
+### **p. 175** · 1 su 1
+
+- 15 · «La cura per le parole» → p. 177 «per la concezione pagana è un vero dio, per quella …»
 
 ### p. 178 · 1 su 23
 
@@ -298,7 +306,7 @@ il punteggio e l'inizio della frase nuova più vicina (o «—»). Le pagine con
 
 ### p. 197 · 2 su 18
 
-- 36 · «→ Lo scopo di queste compilazioni era vario:» → p. 197 «Gli scopi di queste compilazioni erano diversi:»
+- 35 · «→ Lo scopo di queste compilazioni era vario:» → p. 197 «Gli scopi di queste compilazioni erano diversi:»
 - 39 · «Altre invece furono volte a rendere più facile la gestione delle popolazioni assoggettate di …» → p. 197 «altre ancora servivano a rendere più semplice il governo delle …»
 
 ### p. 198 · 1 su 16

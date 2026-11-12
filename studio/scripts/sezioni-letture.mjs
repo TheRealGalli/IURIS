@@ -17,13 +17,12 @@ const APPENDICI = {};
 // Lezioni che cominciano sulla stessa pagina della precedente ma hanno una sezione propria, a partire da un blocco
 // preciso di quella pagina: { 'doc-v1': { 'uNN-lM': 'pNNN-bNNN' } }. Senza voce, le due lezioni condividono la sezione.
 const DIVISIONI = { 'privato-iuris-v1': { 'u26-l4': 'p228-b014' } };
-const FONTE = { 'filosofia-incampo-v1': 'incampo', 'filosofia-moro-v1': 'moro', 'filosofia-cotta-v1': 'cotta',
-  'filosofia-ssg-lezioni-v1': 'lezioni', 'filosofia-ssg-incampo-v1': 'incampo',
-  'filosofia-mz-barberis-v1': 'barberis', 'filosofia-mz-schauer-v1': 'schauer' };
+// Documenti che coprono solo le unità di una fonte (campo `fonte` delle unità): { 'doc-v1': 'fonte' }. Oggi nessuno:
+// i testi IURIS di filosofia (A-L, M-Z, SSG) coprono tutte le unità della loro materia.
+const FONTE = {};
 
 for (const doc of catalogo) {
   if (solo.length && !solo.includes(doc.id)) continue;
-  if (doc.tipoFonte === 'manuale-ricostruito') continue; // Il testo viene direttamente dal Percorso durante sync-letture.
   const corso = JSON.parse(await readFile(path.join(root, 'public/content', doc.materia, 'corso.json'), 'utf8'));
   const lezioni = corso.unita.filter((u) => !FONTE[doc.id] || u.fonte === FONTE[doc.id])
     .flatMap((u) => u.lezioni.map((l) => ({ id: l.id, titolo: l.titolo, da: l.pagine?.[0], a: l.pagine?.[1] ?? l.pagine?.[0] })))
@@ -48,17 +47,8 @@ for (const doc of catalogo) {
     const md = await readFile(path.join(source, doc.id, `${sec.id}.md`), 'utf8');
     for (const m of md.matchAll(/<!-- blocco:([^\s]+) pagina:(\d+) -->\s*\n([\s\S]*?)(?=\n\s*<!-- blocco:|$)/g)) blocchi.push({ id: m[1], pagina: Number(m[2]), testo: m[3].trim() });
   }
-  // Lezioni il cui testo completo sta in una raccolta ricostruita dal Percorso della stessa materia (Romano, u14–u15):
-  // nel documento restano solo i titoli e la sezione rimanda alla raccolta.
-  const integrazione = (s) => {
-    const prima = doc.sezioni.find((p) => p.id === s.id);
-    if (prima?.soloTitolo) return prima.integrazione;
-    const r = catalogo.find((d) => d.tipoFonte === 'manuale-ricostruito' && d.materia === doc.materia && d.sezioni.some((x) => x.lezione === s.lezione));
-    return r && s.lezioni.length === 1 ? { documento: r.id, sezione: r.sezioni.find((x) => x.lezione === s.lezione).id } : null;
-  };
   const nuove = sezioni.map((s) => ({ id: s.id, titolo: s.titolo, da: s.da, a: s.a, ...(s.lezione ? { lezione: s.lezione } : {}),
-    ...(s.lezioni.length > 1 ? { lezioni: s.lezioni } : {}), revisionata: true, file: `letture/${doc.id}/${s.id}.json`,
-    ...(integrazione(s) ? { soloTitolo: true, integrazione: integrazione(s) } : {}) }));
+    ...(s.lezioni.length > 1 ? { lezioni: s.lezioni } : {}), revisionata: true, file: `letture/${doc.id}/${s.id}.json` }));
   let usati = 0;
   // Con una divisione la pagina condivisa si spezza al blocco indicato (i blocchi sono nell'ordine del testo).
   const inizio = sezioni.map((s) => s.blocco ? blocchi.findIndex((b) => b.id === s.blocco) : blocchi.findIndex((b) => b.pagina >= s.da));

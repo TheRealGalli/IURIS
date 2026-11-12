@@ -58,6 +58,8 @@ numero libero (`u14.json`) e un `ordine` intermedio, così gli id delle altre un
 Ogni lezione ha `manuale` (il paragrafo del manuale) e, se c'è, `pagine`. La sintesi segue i paragrafi dell'indice
 e le fonti note (passi del Digesto, di Gaio, di Cicerone); non attribuisce al manuale tesi che non si possono verificare.
 L'app mostra l'avviso «ricostruita dal manuale» e le lezioni senza `pagine` non contano nelle pagine studiate.
+Oggi nessuna unità usa questo formato: le unità 14 e 15 di Romano, nate così, sono state scritte nel testo IURIS
+(pp. 224–235) e hanno pagine come le altre.
 
 ### Materie con più testi
 

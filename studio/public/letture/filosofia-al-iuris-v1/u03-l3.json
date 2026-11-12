@@ -1,0 +1,190 @@
+{
+  "documento": "filosofia-al-iuris-v1",
+  "edizione": 1,
+  "id": "u03-l3",
+  "titolo": "Thesis e rhesis: il legislatore, il giurista e la norma costitutiva",
+  "da": 27,
+  "a": 28,
+  "lezione": "u03-l3",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p027-b001",
+      "pagina": 27,
+      "markdown": "### *Thésis* e *rhêsis*",
+      "concetti": [
+        "enunciazione-thetica",
+        "enunciazione-rhetica"
+      ]
+    },
+    {
+      "id": "p027-b002",
+      "pagina": 27,
+      "markdown": "- **Enunciazioni che costituiscono [[status-deontico|status deontici]]** ([[obbligo|obblighi]], divieti, [[permesso|permessi]]). È la θέσις (*[[enunciazione-thetica|thésis]]*): la posizione, l'atto con cui si pone qualcosa. Con la *thésis* è il mondo ad adattarsi alle parole.\n- **Enunciazioni che conoscono status deontici**: appartengono a un discorso cognitivo. È la ῥῆσις (*[[enunciazione-rhetica|rhêsis]]*): il discorso, l'atto di parlare di qualcosa. Con la *rhêsis* sono le parole ad adattarsi al mondo.",
+      "concetti": [
+        "status-deontico",
+        "obbligo",
+        "permesso",
+        "enunciazione-thetica",
+        "enunciazione-rhetica"
+      ]
+    },
+    {
+      "id": "p027-b003",
+      "pagina": 27,
+      "markdown": "Nella notazione della logica deontica: **Op** = obbligo («è obbligatorio p»); **O¬p** = [[divieto|divieto]] («è obbligatorio non-p»); **¬O¬p** = [[permesso|permesso]] («non è obbligatorio non-p»). «Deontico» viene dal greco τὸ δέον, «ciò che si deve»: riguarda ciò che è doveroso, cioè [[obbligo|obblighi]], permessi, divieti e regole normative.",
+      "concetti": [
+        "divieto",
+        "permesso",
+        "obbligo",
+        "status-deontico"
+      ]
+    },
+    {
+      "id": "p027-b004",
+      "pagina": 27,
+      "markdown": "Prendiamo un enunciato d'[[obbligo|obbligo]], Op:",
+      "concetti": [
+        "obbligo"
+      ]
+    },
+    {
+      "id": "p027-b005",
+      "pagina": 27,
+      "markdown": "- **enunciazione costitutiva** (*thésis*): la pronuncia il legislatore, con la formula «Si dispone che Op» e il verbo performativo «disporre»;\n- **enunciazione cognitiva** (*rhêsis*): la pronuncia il giurista studioso, con la formula «Affermo che Op» e il verbo performativo «affermare».",
+      "concetti": [
+        "enunciazione-thetica",
+        "enunciazione-rhetica"
+      ]
+    },
+    {
+      "id": "p027-b006",
+      "pagina": 27,
+      "markdown": "L'enunciato innestato, «è obbligatorio p», è identico nei due casi; le due enunciazioni restano però profondamente diverse.",
+      "concetti": []
+    },
+    {
+      "id": "p027-b007",
+      "pagina": 27,
+      "markdown": "### Enunciazioni thetiche ed enunciazioni rhetiche (Conte)",
+      "concetti": [
+        "amedeo-g-conte"
+      ]
+    },
+    {
+      "id": "p027-b008",
+      "pagina": 27,
+      "markdown": "La distinzione è stata studiata a fondo da **[[amedeo-g-conte|Amedeo G. Conte]]**. Quella del legislatore («Si dispone che Op») si chiama **enunciazione performativa thetica**; quella del giurista studioso («Affermo che Op») **enunciazione performativa rhetica**.",
+      "concetti": [
+        "amedeo-g-conte",
+        "enunciazione-thetica",
+        "enunciazione-rhetica"
+      ]
+    },
+    {
+      "id": "p027-b009",
+      "pagina": 27,
+      "markdown": "Le enunciazioni thetiche pongono **deonticamente** la deonticità dell'enunciato che contengono.",
+      "concetti": [
+        "status-deontico"
+      ]
+    },
+    {
+      "id": "p027-b010",
+      "pagina": 27,
+      "markdown": "- **[[potere|Potere]] costitutivo.** Quando il legislatore decreta «Si dispone che \"è obbligatorio p\"», l'[[obbligo|obbligo]] di p viene davvero ad esistenza. Lo status deontico, che sia obbligo, [[divieto|divieto]] o [[permesso|permesso]], è costituito proprio dall'enunciazione del legislatore: «porre deonticamente» significa esercitare questo potere.\n- **Autoverifica.** Poiché l'obbligo di p nasce in forza dell'enunciazione «Si dispone che Op», le enunciazioni thetiche rendono vero anche l'enunciato innestato. Lo status deontico di cui parla «è obbligatorio p» sorge con l'enunciazione stessa; l'enunciato quindi si verifica da sé e non può essere che vero.",
+      "concetti": [
+        "potere",
+        "obbligo",
+        "divieto",
+        "permesso",
+        "status-deontico"
+      ]
+    },
+    {
+      "id": "p027-b011",
+      "pagina": 27,
+      "markdown": "Le enunciazioni rhetiche, all'opposto, pongono la deonticità dell'enunciato innestato solo **cognitivamente**.",
+      "concetti": [
+        "status-deontico"
+      ]
+    },
+    {
+      "id": "p027-b012",
+      "pagina": 27,
+      "markdown": "- **Funzione conoscitiva.** Quando il giurista dice «Affermo che Op», l'[[obbligo|obbligo]] di p non nasce da questa frase. Chi afferma che p è obbligatorio si limita a esprimere una conoscenza: che in un certo [[ordinamento-giuridico|ordinamento]] quell'obbligo c'è.\n- **Lo status deontico non è in gioco.** L'obbligo, se c'è, esisteva già prima dell'enunciazione del giurista e indipendentemente da essa.\n- **Possibilità di errore.** Le enunciazioni rhetiche non hanno il [[potere|potere]] di rendere vero l'enunciato innestato. Se il giurista dichiara «è obbligatorio p» (con",
+      "concetti": [
+        "obbligo",
+        "ordinamento-giuridico",
+        "potere",
+        "status-deontico"
+      ]
+    },
+    {
+      "id": "p028-b001",
+      "pagina": 28,
+      "markdown": "lo scopo di informare su quali siano le leggi dello Stato), fa un'affermazione che può anche rivelarsi falsa: «è obbligatorio p» è falso se nell'[[ordinamento-giuridico|ordinamento]] quell'[[obbligo|obbligo]] in realtà non c'è.",
+      "concetti": [
+        "ordinamento-giuridico",
+        "obbligo"
+      ]
+    },
+    {
+      "id": "p028-b002",
+      "pagina": 28,
+      "markdown": "### L'enunciazione che sta dietro ogni norma",
+      "concetti": []
+    },
+    {
+      "id": "p028-b003",
+      "pagina": 28,
+      "markdown": "Ogni [[norma-giuridica|norma giuridica]] presuppone un atto performativo che dà forma all'[[ordinamento-giuridico|ordinamento]] o lo cambia. In forma astratta: «[[enunciazione-fondamentale|Si dispone che il sistema S contenga la determinazione D]]». Ponendo una norma, il legislatore cambia l'ordinamento (il sistema S) inserendovi una determinazione D che prima mancava.",
+      "concetti": [
+        "norma-giuridica",
+        "ordinamento-giuridico",
+        "enunciazione-fondamentale"
+      ]
+    },
+    {
+      "id": "p028-b004",
+      "pagina": 28,
+      "markdown": "### Carcaterra: la norma costitutiva fondamentale",
+      "concetti": [
+        "regola-costitutiva",
+        "gaetano-carcaterra"
+      ]
+    },
+    {
+      "id": "p028-b005",
+      "pagina": 28,
+      "markdown": "Per **[[gaetano-carcaterra|Gaetano Carcaterra]]** la norma espressa da «Si dispone che il sistema S contenga la determinazione D» ha un doppio carattere:",
+      "concetti": [
+        "gaetano-carcaterra",
+        "enunciazione-fondamentale"
+      ]
+    },
+    {
+      "id": "p028-b006",
+      "pagina": 28,
+      "markdown": "- è una **[[regola-costitutiva|norma costitutiva]]**;\n- è il presupposto dell'intero [[ordinamento-giuridico|ordinamento]], perché solo per suo tramite qualunque altra norma entra a far parte del codice: occorre sempre una disposizione del legislatore del tipo «d'ora in avanti vige la norma D».",
+      "concetti": [
+        "regola-costitutiva",
+        "ordinamento-giuridico"
+      ]
+    },
+    {
+      "id": "p028-b007",
+      "pagina": 28,
+      "markdown": "In un primo tempo Carcaterra aveva sostenuto una tesi **mista**: nell'[[ordinamento-giuridico|ordinamento]] convivono [[norma-prescrittiva|norme prescrittive]] (le *Soll-Normen* di [[kelsen|Kelsen]]) e norme costitutive. In seguito approda a una tesi **unitaria**, che riconosce il primato assoluto delle norme costitutive: ogni norma, costitutiva o prescrittiva che sia, presuppone la forza costitutiva dell'enunciazione fondamentale «Si dispone che il sistema S contenga la determinazione D».",
+      "concetti": [
+        "ordinamento-giuridico",
+        "norma-prescrittiva",
+        "kelsen",
+        "enunciazione-fondamentale",
+        "regola-costitutiva",
+        "teoria-della-costitutivita",
+        "gaetano-carcaterra"
+      ]
+    }
+  ]
+}

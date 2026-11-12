@@ -24,10 +24,6 @@ const manifest = json('content/manifest.json');
 const originali = JSON.parse(fs.readFileSync(new URL('../src/lib/originali-catalogo.json', import.meta.url), 'utf8'));
 const pdfConsentiti = new Set(originali.filter((d) => d.file).map((d) => d.file));
 for (const d of originali) {
-  if (d.tipoFonte === 'manuale-ricostruito') {
-    assert(!d.file && !d.sha256, 'Le ricostruzioni non devono dichiarare un PDF originale');
-    continue;
-  }
   if (d.testoFonte) {
     // Documento solo testo (es. riassunti StuDocu con i dati di chi li ha scaricati): nessun PDF nel sito.
     assert(!d.file, `Un documento solo testo non deve dichiarare un PDF: ${d.id}`);
