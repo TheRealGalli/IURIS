@@ -79,8 +79,8 @@ export default function LezioneView({ id }: { id: string }) {
             <span className="chip">{qs.length} domande</span>
             <span className={`chip ${st === 'padroneggiata' ? 'chip-ok' : st === 'in-ripasso' ? 'chip-mid' : st === 'studiata' ? 'chip-gold' : ''}`}>{ETICHETTA_STATO[st]}</span>
             <BadgeEsame fonti={tracce.map((t) => t.fonte)} />
-            {articoli.map((n) => <a key={n} className="chip chip-accent" style={{ textDecoration: 'none' }} href={href(`/norme/${n}`)} title="Apri il testo dell'articolo">art. {n}</a>)}
           </div>
+          {articoli.length > 0 && <ArticoliLezione articoli={articoli} sigla={idx.corso.norme?.sigla} nome={idx.corso.norme?.nome ?? idx.corso.norme?.atto} />}
 
           {u.ricostruita && (
             <div className="card-flat small" style={{ background: 'var(--gold-soft)', marginBottom: 24 }}>
@@ -158,6 +158,22 @@ export default function LezioneView({ id }: { id: string }) {
           )}
         </aside>
       </div>
+    </div>
+  );
+}
+
+/** Articoli dell'atto della materia citati nella lezione: una riga di testo sotto le etichette, apribile se sono molti. */
+function ArticoliLezione({ articoli, sigla, nome }: { articoli: string[]; sigla?: string; nome?: string }) {
+  const [tutti, setTutti] = useState(false);
+  const MAX = 8;
+  const visibili = tutti ? articoli : articoli.slice(0, MAX);
+  return (
+    <div className="lezione-articoli" data-tour="articoli-lezione">
+      <span className="lezione-articoli-label">{nome ?? 'Articoli'}{articoli.length > 1 ? ` · ${articoli.length} articoli` : ''}</span>
+      <span className="lezione-articoli-elenco">
+        {visibili.map((n, i) => <span key={n}>{i > 0 && <span className="lezione-articoli-sep"> · </span>}<a href={href(`/norme/${n}`)} title="Apri il testo dell'articolo">art. {n}{sigla ? ` ${sigla}` : ''}</a></span>)}
+        {articoli.length > MAX && <button type="button" className="lezione-articoli-altri" onClick={() => setTutti((x) => !x)} aria-expanded={tutti}>{tutti ? 'mostra meno' : `+ altri ${articoli.length - MAX}`}</button>}
+      </span>
     </div>
   );
 }

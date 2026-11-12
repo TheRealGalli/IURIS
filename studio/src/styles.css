@@ -704,3 +704,11 @@ textarea.input { width: 100%; min-height: 110px; resize: vertical; line-height: 
 
 /* Barra laterale ferma: con finestre di altezza normale non scorre (solo l'elenco delle materie ha il suo scorrimento). */
 @media (min-height: 700px) { .side { overflow-y: hidden; } }
+
+/* Articoli citati nella lezione: testo arancione sotto le etichette, non etichette a pillola */
+.lezione-articoli { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: -14px 0 24px; font-size: 14px; line-height: 1.6; }
+.lezione-articoli-label { color: var(--ink-3); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.lezione-articoli-elenco a { color: var(--accent); text-decoration: none; white-space: nowrap; }
+.lezione-articoli-elenco a:hover { text-decoration: underline; }
+.lezione-articoli-sep { color: var(--ink-3); }
+.lezione-articoli-altri { margin-left: 8px; border: 0; background: none; padding: 0; font: inherit; font-size: 13px; color: var(--ink-3); cursor: pointer; text-decoration: underline; }
