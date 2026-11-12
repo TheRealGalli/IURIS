@@ -21,6 +21,9 @@ jobs:
     steps:
       - name: Scarica il progetto
         uses: actions/checkout@v6
+        with:
+          # storia completa: check-segni-migrati legge dalla storia git i vecchi Originali tolti dal repository
+          fetch-depth: 0
       - name: Prepara Node.js
         uses: actions/setup-node@v6
         with:
