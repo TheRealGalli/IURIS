@@ -6,11 +6,15 @@ import type { DocumentoLettura, IndiceSezioneLettura, SezioneLettura, BloccoLett
 
 export const DOCUMENTI_LETTURA = catalogo as DocumentoLettura[];
 export const sezioniInCache = new Map<string, Promise<SezioneLettura>>();
+/** Le stesse sezioni, già arrivate: leggibili senza attendere (riaprire la mappa la disegna al primo colpo). */
+export const sezioniArrivate = new Map<string, SezioneLettura>();
 export function caricaSezioneLettura(meta: IndiceSezioneLettura): Promise<SezioneLettura> {
   if (!sezioniInCache.has(meta.file)) {
     const richiesta = fetch(`${import.meta.env.BASE_URL}${meta.file}`, { cache: 'no-store' }).then(async (r) => {
       if (!r.ok) throw new Error('Il testo non è disponibile. Riprova con la connessione attiva.');
-      return r.json() as Promise<SezioneLettura>;
+      const sezione = await (r.json() as Promise<SezioneLettura>);
+      sezioniArrivate.set(meta.file, sezione);
+      return sezione;
     }).catch((e) => { sezioniInCache.delete(meta.file); throw e; });
     sezioniInCache.set(meta.file, richiesta);
   }
@@ -66,6 +70,22 @@ function linkArticolo(testo: string, chiave: string, titolo: string, atto?: Atto
   return link;
 }
 
+/** Articoli dell'atto della materia (e serie delle preleggi): calcolati una volta per atto, non per blocco
+ *  (il Codice civile ha migliaia di articoli e una sezione centinaia di blocchi). */
+const articoliPerAtto = new WeakMap<Norme, { noti: Set<string>; serie: Set<string> }>();
+const NESSUN_ARTICOLO = { noti: new Set<string>(), serie: new Set<string>() };
+function articoliNoti(norme?: Norme): { noti: Set<string>; serie: Set<string> } {
+  if (!norme) return NESSUN_ARTICOLO;
+  let out = articoliPerAtto.get(norme);
+  if (!out) {
+    out = { noti: new Set(norme.indice ? norme.indice.filter((r) => !r[5]).map((r) => r[0])
+      : (norme.gruppi ?? []).flatMap((g) => g.articoli).filter((a) => !a.disposizione && !a.serie).map((a) => a.n)),
+      serie: new Set((norme.indice ?? []).filter((r) => r[5]).map((r) => r[0])) };
+    articoliPerAtto.set(norme, out);
+  }
+  return out;
+}
+
 /**
  * Collega le citazioni di articoli. `norme` è l'atto della materia aperta (Codice civile o Costituzione), se ne ha uno:
  * - nella materia del Codice «art. 1321 c.c.» apre il Codice e «art. 3 Cost.» la Costituzione della materia costituzionale del corso;
@@ -79,9 +99,9 @@ function collegaArticoli(root: HTMLElement, norme?: Norme): void {
   const altraCost = !norme || civile ? atti.costituzione : undefined;
   const altroCodice = !civile ? atti.codice : undefined;
   if (!norme && !altraCost && !altroCodice) return;
-  const noti = new Set(!norme ? [] : norme.indice ? norme.indice.filter((r) => !r[5]).map((r) => r[0])
-    : (norme.gruppi ?? []).flatMap((g) => g.articoli).filter((a) => !a.disposizione && !a.serie).map((a) => a.n));
-  const serie = new Set((norme?.indice ?? []).filter((r) => r[5]).map((r) => r[0]));
+  // senza «art» nel testo non c'è nessuna citazione: niente albero da percorrere
+  if (!/art/i.test(root.textContent ?? '')) return;
+  const { noti, serie } = articoliNoti(norme);
   const walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT), nodi: Text[] = [];
   for (let n = walk.nextNode(); n; n = walk.nextNode()) if (!(n.parentElement?.closest('a,h1,h2,h3,h4,h5,h6'))) nodi.push(n as Text);
   for (const nodo of nodi) {
@@ -145,9 +165,15 @@ export function collegaArticoliHtml(html: string, norme?: Norme): string {
 /** Blocchi già pronti per sezione: tornare su una sezione (o riaprire la mappa) non rifà Markdown, pulizia e collegamenti.
  *  Vale finché non cambiano glossario, atto della materia o atti del corso (stessi oggetti). */
 const blocchiPronti = new WeakMap<SezioneLettura, { concetti: Map<string, Concetto>; norme?: Norme; atti: unknown; blocchi: BloccoPronto[] }>();
-export function preparaBlocchi(sezione: SezioneLettura, concetti: Map<string, Concetto>, norme?: Norme): BloccoPronto[] {
+/** I blocchi della sezione se sono già pronti (in cache), senza prepararli. */
+export function blocchiGiaPronti(sezione: SezioneLettura, concetti: Map<string, Concetto>, norme?: Norme): BloccoPronto[] | undefined {
   const atti = (globalThis as { __iurisAtti?: unknown }).__iurisAtti, pronti = blocchiPronti.get(sezione);
-  if (pronti && pronti.concetti === concetti && pronti.norme === norme && pronti.atti === atti) return pronti.blocchi;
+  return pronti && pronti.concetti === concetti && pronti.norme === norme && pronti.atti === atti ? pronti.blocchi : undefined;
+}
+export function preparaBlocchi(sezione: SezioneLettura, concetti: Map<string, Concetto>, norme?: Norme): BloccoPronto[] {
+  const pronti = blocchiGiaPronti(sezione, concetti, norme);
+  if (pronti) return pronti;
+  const atti = (globalThis as { __iurisAtti?: unknown }).__iurisAtti;
   const blocchi = preparaBlocchiOra(sezione, concetti, norme);
   blocchiPronti.set(sezione, { concetti, norme, atti, blocchi });
   return blocchi;

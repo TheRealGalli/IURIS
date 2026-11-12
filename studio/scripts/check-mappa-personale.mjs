@@ -100,6 +100,8 @@ const cercaScheda = (p) => p.evaluate(() => {
     ?? [...document.querySelectorAll('.mg-scheda[data-legami]:not([data-legami="0"])')].find((e) => { const r = e.getBoundingClientRect(); return r.top >= f.top + 60 && r.bottom <= Math.min(f.bottom, innerHeight) - 4; });
   if (!s) return null; const r = s.getBoundingClientRect(); return { x: r.x, y: r.y, width: r.width, height: r.height };
 });
+/** La mappa disegna subito le prime lezioni e calcola le altre dopo: si aspetta che abbia finito («Lettura…» sparito). */
+const mappaCompleta = (p) => p.waitForFunction(() => ![...document.querySelectorAll('[role=status]')].some((e) => e.textContent.includes('Lettura della struttura')), null, { timeout: 30000 });
 try {
   for (const cfg of CONFIG) {
     const browser = await cfg.motore.launch();
@@ -126,6 +128,7 @@ try {
         const selettore = SOLO_FOTO ? '.mg-nodo, .mg-scheda' : '.mg-scheda';
         await p.waitForSelector(selettore, { timeout: 30000 });
         const disegno = Date.now() - t0;
+        await mappaCompleta(p);
         await p.waitForTimeout(400);
         if (FOTO && (cfg.id === 'pc-chromium' || (cfg.id === 'ipad' && materia === 'diritto-romano') || (cfg.id === 'telefono' && materia === 'diritto-romano'))) {
           await p.screenshot({ path: path.join(FOTO, `${PREFISSO}-${cfg.id}-${materia}.png`) });
@@ -254,6 +257,7 @@ try {
         // Lezione più segnata: la si sceglie dal menu e si misura il disegno.
         await p.evaluate(() => { location.hash = '#/mappa?personale=1'; });
         await p.waitForSelector('.mg-scheda', { timeout: 30000 });
+        await mappaCompleta(p);
         const [scelta, attese] = await p.evaluate(() => { const s = document.querySelector('select[aria-label="Scegli la lezione"]'); const o = [...s.options].sort((a, b) => Number(b.textContent.split('·').pop()) - Number(a.textContent.split('·').pop()))[0]; return [o.value, Number(o.textContent.split('·').pop())]; });
         await p.evaluate(() => { window.__lunghi = 0; try { new PerformanceObserver((l) => { for (const e of l.getEntries()) window.__lunghi = Math.max(window.__lunghi, e.duration); }).observe({ type: 'longtask', buffered: false }); } catch {} });
         // Si parte da un'altra lezione: si misura il disegno della lezione densa da zero.

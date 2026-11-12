@@ -439,14 +439,18 @@ function MappaGeometrica({ sezioni, compatta = false, sezioneIniziale, onApri, t
   // Sul computer la pagina Mappa personale è una finestra come Per unità e Collegamenti: comandi a icone dentro la mappa.
   const piena = pagina && !compatta && !compact;
   const [toolsOpen, setToolsOpen] = useState(false);
-  const iniziale = sezioneIniziale && sezioni.some((s) => s.chiave === sezioneIniziale) ? sezioneIniziale : '';
+  // la lezione aperta nel lettore all'apertura del pannello (poi resta quella, anche se il lettore cambia sezione)
+  const [inizio] = useState(sezioneIniziale);
+  const iniziale = inizio && sezioni.some((s) => s.chiave === inizio) ? inizio : '';
   const prima = iniziale || sezioni[0]?.chiave || '';
-  const [scelta, setScelta] = useState(prima);
+  // la lezione scelta dall'elenco; finché non se ne sceglie una (o se sparisce) vale `prima`, che si assesta mentre
+  // le lezioni arrivano: la mappa disegna le prime prima di aver calcolato le altre
+  const [voluta, setScelta] = useState<string | null>(null);
+  const scelta = voluta && sezioni.some((s) => s.chiave === voluta) ? voluta : prima;
   const [modo, setModo] = useState<Modo>('fasce');
   const [chiusi, setChiusi] = useState<Set<string>>(new Set());
   const [significato, setSignificato] = useState(true);
   // Una lezione alla volta: se quella scelta non c'è (ancora), si parte da quella aperta nel lettore o dalla prima.
-  useEffect(() => { if (!sezioni.some((s) => s.chiave === scelta) && prima) setScelta(prima); }, [sezioni, scelta, prima]);
   const visibili = useMemo(() => sezioni.filter((s) => s.chiave === scelta), [sezioni, scelta]);
   const documenti = useMemo(() => [...new Map(sezioni.map((s) => [s.documento, s.docTitolo]))], [sezioni]);
   const alterna = useCallback((id: string) => setChiusi((c) => { const s = new Set(c); if (s.has(id)) s.delete(id); else s.add(id); return s; }), []);

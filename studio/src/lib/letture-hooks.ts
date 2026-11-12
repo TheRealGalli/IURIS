@@ -2,48 +2,92 @@ import { useEffect, useMemo, useState } from 'react';
 import { useCorso, type Indice } from './data';
 import { useProgresso } from './store';
 import { proiettaSegnoTesto, ritrovaNellaSezione, type DocumentoLettura, type SezioneLettura } from './letture';
-import { bloccoInAltraSezione, caricaSezioneLettura, DOCUMENTI_LETTURA, paginaBlocco, preparaBlocchi, sezioniPerPagina, type BloccoPronto } from './letture-client';
+import { bloccoInAltraSezione, blocchiGiaPronti, caricaSezioneLettura, DOCUMENTI_LETTURA, sezioniArrivate, paginaBlocco, preparaBlocchi, sezioniPerPagina, type BloccoPronto } from './letture-client';
 import { alberoGeometrico, daRicollocare, etichetteConcetto, semanticaGeometrica, strutturaBlocco, type NodoGeo, type SegnoGeo, type SemanticaGeo } from './mappa-geometrica';
 import type { SegnoOriginale } from './originali';
 
 /** Lavoro lungo diviso in lotti: dopo LOTTO_MS si restituisce il controllo al browser (disegno, input). */
 const LOTTO_MS = 30;
 const pausa = () => new Promise<void>((r) => setTimeout(r, 0));
+/** Dopo il prossimo disegno della pagina (fotogramma, poi un task): il lavoro di fondo non lo ritarda. */
+const dopoDisegno = () => new Promise<void>((r) => typeof requestAnimationFrame === 'function' ? requestAnimationFrame(() => setTimeout(r, 0)) : setTimeout(r, 0));
 
-/** Carica solo i capitoli che contengono annotazioni: il corpus non entra nel grafo intero. */
-export function useSezioniAnnotate() {
+/** Sezioni preparate e disegnate prima delle altre: quella aperta nel lettore (se ha segni) e le prime del testo. */
+const PRIME = 2;
+
+/**
+ * Carica solo i capitoli che contengono annotazioni: il corpus non entra nel grafo intero.
+ * In due tempi: prima le sezioni che la mappa mostra subito (`priorita`, «documento/sezione», e le prime del testo),
+ * poi tutte le altre a lotti, dopo il primo disegno.
+ */
+export function useSezioniAnnotate(priorita?: string) {
   const idx = useCorso(), slug = idx.corso.materia.slug, p = useProgresso(slug);
   const documenti = useMemo(() => DOCUMENTI_LETTURA.filter((d) => d.materia === slug), [slug]);
   const necessarie = useMemo(() => {
-    const risultato = new Map();
-    for (const d of documenti) for (const segno of p.originali?.[d.id]?.segni ?? []) {
-      const pagine = segno.ancoreTesto?.map((a) => paginaBlocco(a.blocco) ?? segno.pagina) ?? [segno.pagina];
-      for (const pagina of pagine) for (const sezione of sezioniPerPagina(d, pagina)) risultato.set(sezione.file, sezione);
-    }
-    return [...risultato.values()] as typeof documenti[number]['sezioni'];
+    const risultato = new Map<string, { chiave: string; meta: DocumentoLettura['sezioni'][number]; ordine: number }>();
+    documenti.forEach((d, i) => {
+      for (const segno of p.originali?.[d.id]?.segni ?? []) {
+        const pagine = segno.ancoreTesto?.map((a) => paginaBlocco(a.blocco) ?? segno.pagina) ?? [segno.pagina];
+        for (const pagina of pagine) for (const sezione of sezioniPerPagina(d, pagina)) {
+          risultato.set(sezione.file, { chiave: `${d.id}/${sezione.id}`, meta: sezione, ordine: i * 1e4 + d.sezioni.indexOf(sezione) });
+        }
+      }
+    });
+    // nell'ordine della mappa (documento, poi sezione): le prime sono quelle che compaiono per prime
+    return [...risultato.values()].sort((a, b) => a.ordine - b.ordine);
   }, [documenti, p.originali]);
-  const firma = necessarie.map((s) => s.file).sort().join('|');
-  const [caricate, setCaricate] = useState(new Map<string, SezioneLettura>());
-  const [caricando, setCaricando] = useState(false);
+  const firma = necessarie.map((s) => s.meta.file).join('|');
+  // Sezioni già arrivate (mappa riaperta, pannello del lettore): subito nello stato, niente giro a vuoto.
+  const [caricate, setCaricate] = useState(() => new Map(necessarie.flatMap((s) => {
+    const v = sezioniArrivate.get(s.meta.file); return v ? [[s.meta.file, v] as const] : [];
+  })));
+  // in caricamento finché una sezione non è arrivata o non è pronta
+  const daFare = () => necessarie.some((s) => { const v = sezioniArrivate.get(s.meta.file); return !v || !blocchiGiaPronti(v, idx.concettoById, idx.corso.norme); });
+  const [caricando, setCaricando] = useState(daFare);
   const [errore, setErrore] = useState(false);
+  // sale quando i lotti hanno preparato tutte le sezioni: `modelli` le prende dalla cache
+  const [preparate, setPreparate] = useState(0);
+  // le sezioni della vista iniziale: le sole che si preparano durante il disegno, se non sono già pronte
+  const prioritarie = useMemo(() => new Set(necessarie.flatMap((s, i) => i < PRIME || s.chiave === priorita ? [s.meta.file] : [])), [necessarie, priorita]);
   useEffect(() => {
     let annullato = false;
-    setCaricando(necessarie.length > 0); setErrore(false);
-    Promise.allSettled(necessarie.map(async (s) => [s.file, await caricaSezioneLettura(s)] as const)).then(async (risultati) => {
-      if (annullato) return;
+    setCaricando(daFare()); setErrore(false);
+    // tutte le richieste partono insieme (restano in cache); si aspettano prima quelle della vista iniziale
+    const richieste = necessarie.map((s) => caricaSezioneLettura(s.meta).then((v) => [s.meta.file, v] as const));
+    const subito = necessarie.flatMap((s, i) => i < PRIME || s.chiave === priorita ? [i] : []);
+    const prepara = (s: SezioneLettura) => preparaBlocchi(s, idx.concettoById, idx.corso.norme);
+    (async () => {
+      if (subito.length < necessarie.length) {
+        const prime = await Promise.allSettled(subito.map((i) => richieste[i]));
+        if (annullato) return;
+        const pronte = new Map(prime.flatMap((r) => r.status === 'fulfilled' ? [r.value] : []));
+        pronte.forEach(prepara);
+        // aggiunte a quelle già in memoria: un segno in una sezione nuova non fa sparire le altre
+        setCaricate((prima) => [...pronte].every(([f, v]) => prima.get(f) === v) ? prima : new Map([...prima, ...pronte]));
+      }
+      const risultati = await Promise.allSettled(richieste);
+      // il resto dopo il primo disegno della mappa (anche quando le sezioni sono già tutte arrivate)
+      await dopoDisegno(); if (annullato) return;
       const pronte = new Map(risultati.flatMap((r) => r.status === 'fulfilled' ? [r.value] : []));
       // Blocchi preparati a piccoli lotti (restano in cache): decine di sezioni in un colpo bloccherebbero la pagina.
       let t = performance.now();
       for (const s of pronte.values()) {
-        preparaBlocchi(s, idx.concettoById, idx.corso.norme);
+        prepara(s);
         if (performance.now() - t > LOTTO_MS) { await pausa(); if (annullato) return; t = performance.now(); }
       }
-      setCaricate(pronte);
+      // stesso contenuto: si tiene lo stesso oggetto, così la mappa non si ricalcola né si ridisegna
+      setCaricate((prima) => prima.size === pronte.size && [...pronte].every(([f, v]) => prima.get(f) === v) ? prima : pronte);
+      setPreparate((n) => n + 1);
       setErrore(risultati.some((r) => r.status === 'rejected')); setCaricando(false);
-    });
+    })();
     return () => { annullato = true; };
   }, [firma]);
-  const modelli = useMemo(() => new Map([...caricate].map(([file, s]) => [file, preparaBlocchi(s, idx.concettoById, idx.corso.norme)])), [caricate, idx]);
+  // Durante il disegno si preparano solo le sezioni della vista iniziale: le altre arrivano già pronte dai lotti
+  // (riaprendo la mappa prima che i lotti finiscano, non si preparano tutte in un colpo).
+  const modelli = useMemo(() => new Map([...caricate].flatMap(([file, s]) => {
+    const blocchi = blocchiGiaPronti(s, idx.concettoById, idx.corso.norme) ?? (prioritarie.has(file) ? preparaBlocchi(s, idx.concettoById, idx.corso.norme) : undefined);
+    return blocchi ? [[file, blocchi] as const] : [];
+  })), [caricate, idx, prioritarie, preparate]);
   return { caricando, errore, modelli, documenti, originali: p.originali };
 }
 
@@ -125,9 +169,10 @@ function alberoSezione(doc: DocumentoLettura, meta: DocumentoLettura['sezioni'][
     [...geo, ...coda.segni].map((g) => g.id));
 }
 
-/** Mappa sulla geometria del testo: per ogni lezione con segni, l'albero titoli → paragrafi → voci segnate. */
-export function useMappaGeometrica() {
-  const { modelli, documenti, caricando, errore, originali } = useSezioniAnnotate();
+/** Mappa sulla geometria del testo: per ogni lezione con segni, l'albero titoli → paragrafi → voci segnate.
+ *  `priorita` («documento/sezione»): la lezione da mostrare per prima, calcolata prima delle altre. */
+export function useMappaGeometrica(priorita?: string) {
+  const { modelli, documenti, caricando, errore, originali } = useSezioniAnnotate(priorita);
   const idx = useCorso();
   // Primo calcolo (o molte sezioni da rifare): in lotti, in un effetto; il memo usa poi i risultati in cache.
   // Poche sezioni cambiate (un segno aggiunto o tolto) si rifanno subito, senza far sparire nulla.
@@ -141,10 +186,13 @@ export function useMappaGeometrica() {
     }
     const daRifare = elenco.filter((x) => !alberoInCache(x.doc, x.meta, x.blocchi, x.segni, idx)).length;
     const subito = daRifare <= SUBITO_MAX;
+    // Altrimenti si calcolano qui solo quelle che la mappa mostra per prime (la richiesta e le prime del testo):
+    // la mappa compare subito, le altre arrivano dai lotti.
+    const prime = new Set(elenco.flatMap((x, i) => i < PRIME || `${x.doc.id}/${x.meta.id}` === priorita ? [x] : []).slice(0, SUBITO_MAX));
     const sezioni: SezioneGeo[] = [];
     let mancanti = 0;
     for (const x of elenco) {
-      const fresco = subito ? alberoSezione(x.doc, x.meta, x.blocchi, x.segni, idx) : alberoInCache(x.doc, x.meta, x.blocchi, x.segni, idx);
+      const fresco = subito || prime.has(x) ? alberoSezione(x.doc, x.meta, x.blocchi, x.segni, idx) : alberoInCache(x.doc, x.meta, x.blocchi, x.segni, idx);
       if (!fresco) mancanti++;
       // nell'attesa dei lotti resta l'albero precedente della sezione (se c'è), invece di farla sparire
       const v = fresco ?? (alberiSezione.get(x.blocchi)?.idx === idx ? alberiSezione.get(x.blocchi)!.valore : undefined);
@@ -154,11 +202,13 @@ export function useMappaGeometrica() {
     }
     return { sezioni, collegati: visti.size, mancanti };
     // `giro`: ricalcolo quando l'effetto ha riempito la cache
-  }, [documenti, originali, modelli, idx, giro]);
+  }, [documenti, originali, modelli, idx, giro, priorita]);
   useEffect(() => {
     if (!mancanti) return;
     let annullato = false;
     (async () => {
+      // prima si lascia disegnare la mappa con le lezioni già pronte
+      await dopoDisegno(); if (annullato) return;
       let t = performance.now();
       for (const doc of documenti) for (const meta of doc.sezioni) {
         const blocchi = modelli.get(meta.file);

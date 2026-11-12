@@ -36,7 +36,7 @@ const Paragrafo = memo(function Paragrafo({ blocco, segni }: { blocco: BloccoPro
 
 /** La mappa personale si calcola solo a pannello aperto: carica e proietta i segni di tutte le sezioni annotate. */
 function PannelloMappa({ chiave, onApri }: { chiave: string; onApri: (h: string) => void }) {
-  const geo = useMappaGeometrica();
+  const geo = useMappaGeometrica(chiave);
   return <MappaGeometrica compatta sezioni={geo.sezioni} totale={geo.totale} nonCollegati={geo.nonCollegati} sezioneIniziale={chiave} onApri={onApri} />;
 }
 

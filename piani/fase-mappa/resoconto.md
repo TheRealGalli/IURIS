@@ -108,3 +108,34 @@ Tutte superate:
 
 - Con segni sparsi (uno o due per titolo) molte righe hanno una sola scheda: la mappa resta lunga in verticale, anche se ogni riga è compatta. Se Carlo vuole, i gruppi `###` con una o due schede si potrebbero affiancare.
 - La prima apertura per privato (circa 1,9 s con 300 segni) dipende dalla preparazione delle sezioni, non dal layout. Si può ottimizzare a parte.
+
+## Prima apertura più veloce (12 novembre 2026)
+
+Misure con Playwright su `dist/` servito in locale (PC 1366×860, senza service worker), 300 segni di prova per testo (`scripts/lib/segni-mappa.mjs`), mediana di 3 prove in Chromium e 2 in WebKit. «Disegno» = dal cambio dell'indirizzo (o dal clic sul pulsante del pannello) al primo fotogramma con una scheda; «completa» = fino alla scomparsa di «Lettura della struttura dei testi…».
+
+| Caso | Prima: disegno | Prima: completa | Dopo: disegno | Dopo: completa |
+|---|---|---|---|---|
+| Privato, pagina Mappa, Chromium | 1.541 ms | 1.881 ms | 120 ms | 562 ms |
+| Costituzionale, pagina Mappa, Chromium | 699 ms | 898 ms | 113 ms | 635 ms |
+| Romano, pagina Mappa, Chromium | 565 ms | 876 ms | 95 ms | 511 ms |
+| Privato, pagina Mappa, WebKit | 1.598 ms | 1.890 ms | 182 ms | 685 ms |
+| Costituzionale, pagina Mappa, WebKit | 829 ms | 877 ms | 199 ms | 755 ms |
+| Romano, pagina Mappa, WebKit | 652 ms | 874 ms | 161 ms | 580 ms |
+| Privato, pannello del lettore (primo), Chromium / WebKit | 1.552 / 1.590 ms | — | 152 / 103 ms | — |
+| Costituzionale, pannello (primo), Chromium / WebKit | 731 / 822 ms | — | 153 / 135 ms | — |
+| Romano, pannello (primo), Chromium / WebKit | 580 / 679 ms | — | 132 / 118 ms | — |
+
+Aperture successive: pagina Mappa 28–38 ms (Chromium) e 55–72 ms (WebKit), come prima; pannello riaperto 68–93 ms (Chromium) e 92–116 ms (WebKit, compreso il giro del clic di Playwright; prima 105–140 ms). Nessun task oltre i 55 ms.
+
+**Dove andava il tempo** (profilo CPU di Chromium, privato):
+- 830 ms in `collegaArticoli`: per **ogni blocco** ricostruiva l'insieme degli articoli noti del Codice civile (migliaia di voci). Per questo privato era il doppio delle altre materie.
+- 220 ms nella preparazione dei blocchi (`renderMd`, pulizia dell'HTML) e 250 ms negli alberi delle sezioni (`semanticaGeometrica`, `strutturaBlocco`): la mappa compariva solo dopo aver fatto **tutte** le sezioni annotate.
+
+**Correzioni** (nessun cambiamento dei dati salvati né del risultato finale della mappa):
+- `letture-client.ts`: articoli noti calcolati una volta per atto (`articoliNoti`, in cache); `collegaArticoli` esce subito da un blocco senza «art»; `sezioniArrivate` (sezioni già scaricate, leggibili senza attesa) e `blocchiGiaPronti`.
+- `letture-hooks.ts`: caricamento in due tempi. Prima si preparano e si disegnano la lezione aperta nel lettore (`useMappaGeometrica(chiave)`) e le prime due del testo; le altre si preparano a lotti dopo il primo fotogramma, con l'avviso «Lettura della struttura dei testi…» finché non hanno finito. Nel disegno si preparano solo le sezioni della vista iniziale; riaprendo la mappa le sezioni già arrivate sono subito nello stato.
+- `MappaGeometrica.tsx`: la lezione mostrata è quella scelta dall'elenco oppure, finché non se ne sceglie una, quella aperta nel lettore all'apertura o la prima: si assesta mentre le lezioni arrivano.
+- `LettoreTesto.tsx`: il pannello passa la sezione aperta come priorità.
+- `check-mappa-personale.mjs`: prima di misurare il layout e il caso denso aspetta che la mappa sia completa.
+
+Verifiche superate: `npx tsc --noEmit -p .`, `npx vite build`, `check-mappa-personale` (969 controlli), `check-mappa-geometrica` (11 scenari), `check-mappa-corpus`, `check-segni-migrati`, `npm run check:letture`.
