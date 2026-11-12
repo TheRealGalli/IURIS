@@ -75,10 +75,12 @@ export function formatta(md) {
 }
 
 /**
- * Dispense fitte estratte da PDF con riquadri in caratteri codificati (Diritto privato): via i tratti illeggibili,
+ * Dispense fitte estratte da PDF con riquadri in caratteri codificati: via i tratti illeggibili,
  * titoletti in grassetto e capoversi lunghi spezzati a fine frase. Le parole leggibili restano quelle della fonte.
+ * Serviva alla vecchia dispensa di Diritto privato (`diritto-privato-torrente-dispense-v1`), sostituita dal testo IURIS
+ * `privato-iuris-v1` (Markdown, riquadri già scritti come capoversi «Esempio.»/«Approfondimento.»): oggi nessun documento.
  */
-const FITTI = new Set(['diritto-privato-torrente-dispense-v1']);
+const FITTI = new Set([]);
 const VUOTO = '&nbsp;';
 const NOTA_ILLEGGIBILE = '*[Riquadro di approfondimento non leggibile nel PDF.]*';
 const sospetto = (t) => /[<>=+@*]/.test(t) || /[\p{L}\d][/;:][\p{L}\d]/u.test(t) || /^[^\p{L}\d\s]{2,}$/u.test(t);

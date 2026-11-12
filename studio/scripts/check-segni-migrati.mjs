@@ -1,5 +1,5 @@
 // Segni degli Originali sostituiti (lib/migrazione-segni.ts): segni finti su frasi reali dei documenti vecchi
-// (Martines e Bin-Pitruzzella dalla storia git; gli appunti di Romano quando esiste `romano-iuris-v1`) devono cadere
+// (Martines, Bin-Pitruzzella e la dispensa di privato dalla storia git; gli appunti di Romano quando esiste `romano-iuris-v1`) devono cadere
 // sulla frase giusta del testo nuovo, con tipo e colore conservati; idempotenza; backup vecchio ripristinato; misura
 // della quota di frasi vecchie con corrispondenza sicura su un campione.
 import assert from 'node:assert/strict';
@@ -269,9 +269,54 @@ try {
     });
   }
 
+  // ---------- 7. Privato: dispensa Torrente–Schlesinger → testo IURIS ----------
+  const PV = 'diritto-privato-torrente-dispense-v1', PN = 'privato-iuris-v1', DP = 'diritto-privato';
+  // Casi controllati a mano (frase vecchia → parole che il segno nuovo deve contenere): riquadro decifrato, numeri,
+  // nomi, latino, elenco, segno del vecchio lettore PDF, tratto esatto.
+  const CASI_PRIVATO = [
+    { doc: PV, cerca: 'il cod. del 1942 non consentiva il riconoscimento dei figli adulterini', atteso: 'Nel codice del 1942' },
+    { doc: PV, cerca: 'L’assegno può essere emesso con la specifica indicazione del nome del beneficiario', atteso: 'emesso al portatore' },
+    { doc: PV, cerca: 'A differenza dell’usufruttuario, l’enfiteuta può anche mutuare la destinazione del fondo', atteso: 'cambiare la destinazione del fondo' },
+    { doc: PV, cerca: 'La legge in questione non si applica agli agenti di cambio', atteso: 'mediatori marittimi' },
+    { doc: PV, cerca: 'la rappresentazione può aver luogo soltanto quando il chiamato', atteso: 'fratello o una sorella' },
+    { doc: PV, cerca: 'Molto importante per i beni fungibili è ricordare', atteso: 'genus numquam perit' },
+    { doc: PV, cerca: 'la risoluzione ha effetto solo per le prestazioni da eseguire', atteso: 'art. 1458 c.c.' },
+    { doc: PV, cerca: 'Nell\'esempio fatto, il fornitore non potrà chiedere la risoluzione', atteso: 'aumento rilevante', pdf: true },
+    { doc: PV, cerca: 'il pescatore che fa propri i pesci caduti nella rete', atteso: 'a titolo originario' },
+  ];
+  if (catalogo.some((d) => d.id === PN)) {
+    await check('Privato', async () => {
+      assert(existsSync(`${root}public/letture/${PN}/allineamento-${PV}.json`), `manca la tabella: node scripts/allinea-originali.mjs ${PV} ${PN}`);
+      const r = await campione(PV, PN, 'tp', 300);
+      assert(r.migrati / r.n >= 0.85, `Privato: ${r.migrati}/${r.n} frasi con corrispondenza sicura`);
+      const nv = versione(PN), testi = new Map(nv.blocchi.map((b) => [b.id, b]));
+      const casiP = CASI_PRIVATO.map((c) => ({ ...c, segno: segnoSu(c) }));
+      storage.clear(); await apriDiNuovo();
+      storage.setItem(prog(DP), JSON.stringify({ versione: 1, nuovePerGiorno: 35, lezioni: {}, carte: {}, esiti: {}, giorni: {},
+        originali: { [PV]: { pagina: 3, segni: casiP.map((c) => c.segno) } } }));
+      await ms.migraSegniOriginali(DP);
+      const q = leggi(prog(DP)), perId = new Map((q.originali[PN]?.segni ?? []).map((x) => [x.id, x]));
+      assert.equal(perId.size, casiP.length, 'Privato: tutti i segni sul testo nuovo');
+      for (const c of casiP) {
+        const x = perId.get(`tp-${c.segno.id}`);
+        assert(x, `${c.cerca}: segno nuovo presente`);
+        assert.equal(x.tipo, c.segno.tipo); assert.equal(x.colore, c.segno.colore); assert.equal(x.creata, c.segno.creata);
+        assert(!x.ancoreTesto.some((a) => a.blocco.endsWith(`-${ms.BLOCCO_DA_RICOLLOCARE}`)), `${c.cerca}: atteso sul testo nuovo, è «da ricollocare»`);
+        for (const a of x.ancoreTesto) assert.equal(testi.get(a.blocco)?.testo.slice(a.inizio, a.fine), a.citazione, 'ancora coerente con il textContent nuovo');
+        const citazione = x.ancoreTesto.map((a) => a.citazione).join(' ');
+        assert(normale(citazione).includes(normale(c.atteso)), `${c.cerca}: atteso «${c.atteso}», trovato «${citazione.slice(0, 160)}»`);
+        assert(Math.abs(x.pagina - c.segno.pagina) <= 1, 'Privato: stessa numerazione (±1)');
+        righe.push(`privato p. ${c.segno.pagina} → p. ${x.pagina} · ${citazione.slice(0, 70)}`); giusti++;
+      }
+      assert.equal(q.originali[PV].segni.length, casiP.length, 'segni vecchi conservati');
+      const prima = JSON.stringify(q); await ms.migraSegniOriginali(DP);
+      assert.equal(storage.getItem(prog(DP)), prima, 'Privato: idempotente');
+    });
+  }
+
   for (const r of righe) console.log(`  ${r}`);
   for (const m of misure) console.log(`  campione ${m.vecchio}: ${m.migrati}/${m.n} frasi con corrispondenza sicura (${(100 * m.migrati / m.n).toFixed(1)}%), ${m.ricollocare} da ricollocare; ${m.vicine} entro 2 pagine`);
-  console.log(`Segni degli Originali migrati: ${checks.length} controlli, ${giusti} casi a mano (${esatti} sul tratto esatto)${catalogo.some((d) => d.id === RN) ? ', Romano compreso' : ' (Romano: in attesa di romano-iuris-v1)'}.`);
+  console.log(`Segni degli Originali migrati: ${checks.length} controlli, ${giusti} casi a mano (${esatti} sul tratto esatto)${catalogo.some((d) => d.id === RN) ? ', Romano compreso' : ' (Romano: in attesa di romano-iuris-v1)'}${catalogo.some((d) => d.id === PN) ? ', Privato compreso' : ''}.`);
 } finally {
   await server?.close();
   for (const [k, d] of Object.entries(salvati)) { if (d) Object.defineProperty(globalThis, k, d); else delete globalThis[k]; }

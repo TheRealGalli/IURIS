@@ -73,13 +73,14 @@
     "sha256": "13bfa40dbe6aad4bec67bb713ad5124b9945b02e554b6bb2451251a9127372ab"
   },
   {
-    "id": "diritto-privato-torrente-dispense-v1",
+    "id": "privato-iuris-v1",
     "materia": "diritto-privato",
-    "titolo": "Torrente–Schlesinger · dispense",
-    "descrizione": "Dispensa di Nick Petrullo e Ludovico Mainieri sul Manuale di diritto privato di A. Torrente e P. Schlesinger (2012). È datata: per la disciplina vigente fa fede il Percorso.",
-    "file": "originali/diritto-privato-torrente-dispense.pdf",
+    "titolo": "Diritto privato · testo IURIS",
+    "descrizione": "Testo scritto da IURIS sul programma comune alle tre classi (LMG A-L, LMG M-Z e SSG): segue l’ordine del manuale di A. Torrente e P. Schlesinger ed è aggiornato al diritto vigente a novembre 2026.",
+    "testoFonte": "testi/privato-iuris.txt",
+    "testoMarkdown": true,
     "pagine": 238,
-    "sha256": "1a9b5de50abded0851a6cc674976d207161b07db94a732db4f5c89a81bd25dec"
+    "sha256": "de9e9701e4b94d388f0e3454aa579ddcad3b4cc412cea36797599b19328171e8"
   },
   {
     "id": "filosofia-mz-barberis-v1",

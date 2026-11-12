@@ -1,5 +1,6 @@
 // Segni degli Originali sostituiti da un testo riscritto (novembre 2026: Martines e Bin-Pitruzzella → testo IURIS di
-// costituzionale; poi gli appunti di Romano → testo IURIS di Romano). La tabella di allineamento frase per frase
+// costituzionale; poi gli appunti di Romano → testo IURIS di Romano; poi la dispensa Torrente–Schlesinger → testo IURIS
+// di privato). La tabella di allineamento frase per frase
 // (scripts/allinea-originali.mjs, `public/letture/<nuovo>/allineamento-<vecchio>.json`) dice dove è finita ogni frase
 // vecchia; qui ogni segno salvato sul documento vecchio diventa un segno sul documento nuovo, con lo stesso tipo e
 // colore, sulle frasi nuove corrispondenti. Sotto la soglia della tabella il segno resta «da ricollocare»: è salvato
@@ -19,6 +20,7 @@ export const SOSTITUZIONI_ORIGINALI: { vecchio: string; nuovo: string; sigla: st
   { vecchio: 'costituzionale-martines-v1', nuovo: 'costituzionale-iuris-v1', sigla: 'mt' },
   { vecchio: 'costituzionale-bin-pitruzzella-v1', nuovo: 'costituzionale-iuris-v1', sigla: 'bp' },
   { vecchio: 'romano-pennacchio-2021-22-v1', nuovo: 'romano-iuris-v1', sigla: 'rp' },
+  { vecchio: 'diritto-privato-torrente-dispense-v1', nuovo: 'privato-iuris-v1', sigla: 'tp' },
 ];
 
 export const BLOCCO_DA_RICOLLOCARE = 'ricollocare';

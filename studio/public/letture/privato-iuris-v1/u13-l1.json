@@ -1,0 +1,427 @@
+{
+  "documento": "privato-iuris-v1",
+  "edizione": 1,
+  "id": "u13-l1",
+  "titolo": "Cessione, factoring e cartolarizzazione",
+  "da": 102,
+  "a": 104,
+  "lezione": "u13-l1",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p102-b001",
+      "pagina": 102,
+      "markdown": "### Capitolo 19 · La modificazione dei soggetti del rapporto obbligatorio",
+      "concetti": []
+    },
+    {
+      "id": "p102-b002",
+      "pagina": 102,
+      "markdown": "### Chi subentra nel credito o nel debito",
+      "concetti": []
+    },
+    {
+      "id": "p102-b003",
+      "pagina": 102,
+      "markdown": "Durante la vita del rapporto, al creditore o al debitore originari possono subentrare altri soggetti, oppure aggiungersene di nuovi. Il cambiamento può derivare da una **successione a titolo universale**, che investe tutti i rapporti di una persona (è il caso dell'eredità), o da una **[[successione|successione a titolo particolare]]**, che riguarda un singolo rapporto.",
+      "concetti": [
+        "successione"
+      ]
+    },
+    {
+      "id": "p102-b004",
+      "pagina": 102,
+      "markdown": "### A) Le modificazioni dal lato attivo",
+      "concetti": []
+    },
+    {
+      "id": "p102-b005",
+      "pagina": 102,
+      "markdown": "Il creditore può essere sostituito con un atto tra vivi, a titolo particolare, attraverso tre figure:",
+      "concetti": []
+    },
+    {
+      "id": "p102-b006",
+      "pagina": 102,
+      "markdown": "- la **[[cessione-del-credito|cessione del credito]]** (artt. 1260–1267 c.c.);",
+      "concetti": [
+        "cessione-del-credito"
+      ]
+    },
+    {
+      "id": "p102-b007",
+      "pagina": 102,
+      "markdown": "- la **delegazione attiva**;",
+      "concetti": []
+    },
+    {
+      "id": "p102-b008",
+      "pagina": 102,
+      "markdown": "- il **[[pagamento-con-surrogazione|pagamento con surrogazione]]** (artt. 1201–1205 c.c.), che si esamina insieme all'[[adempimento|adempimento]].",
+      "concetti": [
+        "pagamento-con-surrogazione",
+        "adempimento"
+      ]
+    },
+    {
+      "id": "p102-b009",
+      "pagina": 102,
+      "markdown": "### La cessione del credito",
+      "concetti": [
+        "cessione-del-credito"
+      ]
+    },
+    {
+      "id": "p102-b010",
+      "pagina": 102,
+      "markdown": "Il codice usa l'espressione **[[cessione-del-credito|cessione del credito]]** (art. 1260 c.c.) per indicare due cose diverse: il **[[contratto|contratto]]** con cui il creditore (cedente) si accorda con un terzo (cessionario) per trasferirgli il proprio diritto verso il debitore; e l'**effetto** di quel contratto, cioè il passaggio del credito al terzo.",
+      "concetti": [
+        "cessione-del-credito",
+        "contratto"
+      ]
+    },
+    {
+      "id": "p102-b011",
+      "pagina": 102,
+      "markdown": "Di regola ogni credito è cedibile, a titolo oneroso o gratuito. Fanno eccezione tre ipotesi:",
+      "concetti": []
+    },
+    {
+      "id": "p102-b012",
+      "pagina": 102,
+      "markdown": "- i crediti di natura **strettamente personale**, come quelli alimentari o l'assegno dovuto dopo il [[divorzio|divorzio]];",
+      "concetti": [
+        "divorzio"
+      ]
+    },
+    {
+      "id": "p102-b013",
+      "pagina": 102,
+      "markdown": "- i crediti il cui trasferimento è **vietato dalla legge**;",
+      "concetti": []
+    },
+    {
+      "id": "p102-b014",
+      "pagina": 102,
+      "markdown": "- i crediti che le parti hanno dichiarato **incedibili** con un patto. Questo patto, però, vale contro il cessionario solo se si dimostra che egli ne era al corrente quando ha acquistato il credito.",
+      "concetti": []
+    },
+    {
+      "id": "p102-b015",
+      "pagina": 102,
+      "markdown": "Possono essere ceduti anche i **crediti futuri**. La prestazione dovuta dal debitore può consistere in denaro o in altro (per esempio, si cede un credito in cambio di una partita di merci). La cessione può servire a scopi molto diversi: vendere il credito, donarlo, garantire un debito del cedente oppure **estinguere** un altro debito che il cedente ha verso il cessionario (**cessione solutoria** o in luogo dell'[[adempimento|adempimento]]). Per questa varietà di funzioni si dice che la cessione è un negozio a **causa variabile**.",
+      "concetti": [
+        "adempimento"
+      ]
+    },
+    {
+      "id": "p102-b016",
+      "pagina": 102,
+      "markdown": "Il [[contratto|contratto]] si perfeziona con l'accordo tra cedente e cessionario. Il **consenso del debitore ceduto** non serve: egli resta estraneo all'accordo, perché di solito gli è indifferente a chi pagare.",
+      "concetti": [
+        "contratto"
+      ]
+    },
+    {
+      "id": "p102-b017",
+      "pagina": 102,
+      "markdown": "### Gli effetti della cessione",
+      "concetti": []
+    },
+    {
+      "id": "p102-b018",
+      "pagina": 102,
+      "markdown": "Tra le parti il credito passa al cessionario nel momento in cui l'accordo si conclude, secondo il **principio consensualistico** (art. 1376 c.c.).",
+      "concetti": []
+    },
+    {
+      "id": "p102-b019",
+      "pagina": 102,
+      "markdown": "Verso il debitore, invece, la cessione produce effetto solo quando gli è stata **notificata** (dal cedente o dal cessionario) o quando egli l'ha **accettata** (art. 1264 c.c.). Fino ad allora il debitore, che non ha partecipato all'accordo, può credere ragionevolmente di dover ancora pagare al vecchio creditore. Perciò, se paga al cedente prima della notificazione, è liberato e non può essere costretto a pagare una seconda volta. Non è liberato soltanto se il cessionario dimostra che egli sapeva già della cessione: la buona fede del debitore si presume, e la prova contraria spetta al cessionario.",
+      "concetti": []
+    },
+    {
+      "id": "p102-b020",
+      "pagina": 102,
+      "markdown": "Notificazione e accettazione rendono la cessione efficace anche **verso i terzi**. Se il cedente ha venduto il medesimo credito a due persone, prima ad A e poi a B, prevale la cessione notificata per prima al debitore, oppure quella che egli ha accettato prima con un atto di **[[data-certa|data certa]]**, anche se è la più recente: può quindi prevalere B (art. 1265 c.c.).",
+      "concetti": [
+        "data-certa"
+      ]
+    },
+    {
+      "id": "p102-b021",
+      "pagina": 102,
+      "markdown": "Cambiato il creditore, il rapporto per il resto non muta. Insieme al credito il cessionario acquista i **privilegi**, le **garanzie** sia personali sia reali e ogni altro **accessorio**, come gli interessi; salvo patto contrario non passano però i frutti già scaduti (art. 1263 c.c.). Per la stessa ragione il debitore conserva verso il nuovo creditore le **eccezioni** che avrebbe potuto opporre al cedente: se il [[contratto|contratto]] da cui nasce il credito è annullabile per dolo, potrà farlo valere anche verso il nuovo creditore.",
+      "concetti": [
+        "contratto"
+      ]
+    },
+    {
+      "id": "p103-b001",
+      "pagina": 103,
+      "markdown": "### Rapporti tra cedente e cessionario",
+      "concetti": []
+    },
+    {
+      "id": "p103-b002",
+      "pagina": 103,
+      "markdown": "Nella cessione **a titolo oneroso** il cedente garantisce l'**esistenza** del credito al tempo della cessione: se il credito non esiste, deve restituire quanto ha ricevuto e risarcire il danno. La garanzia si può escludere con un patto, ma il cedente risponde sempre del fatto proprio (art. 1266 c.c.). Non garantisce invece la **solvenza** del debitore, cioè che il credito possa essere effettivamente riscosso.",
+      "concetti": []
+    },
+    {
+      "id": "p103-b003",
+      "pagina": 103,
+      "markdown": "Con un patto apposito il cedente può assumere anche la **garanzia della solvenza**. In tal caso, se il debitore ceduto non paga, il cedente risponde nei limiti di quanto ha ricevuto; deve inoltre gli interessi, il rimborso delle spese della cessione e di quelle sostenute dal cessionario per agire contro il debitore, e il risarcimento del danno. È inefficace ogni patto che aggravi questa responsabilità, e la garanzia viene meno se il credito non è stato riscosso per negligenza del cessionario nell'agire contro il debitore (art. 1267 c.c.).",
+      "concetti": []
+    },
+    {
+      "id": "p103-b004",
+      "pagina": 103,
+      "markdown": "In questo senso si parla di cessione **pro solvendo**, quando il cedente garantisce anche la solvenza, e di cessione **pro soluto**, quando il rischio dell'insolvenza resta interamente al cessionario e il cedente garantisce soltanto l'esistenza del credito, che è la regola.",
+      "concetti": []
+    },
+    {
+      "id": "p103-b005",
+      "pagina": 103,
+      "markdown": "Diverso è il caso della **cessione in luogo dell'[[adempimento|adempimento]]**, con cui il cedente intende soddisfare un proprio debito verso il cessionario. Qui, salvo diversa volontà delle parti, il debito originario non si estingue subito, ma solo quando il cessionario **riscuote** il credito ceduto (art. 1198 c.c.). Se le parti hanno voluto l'estinzione immediata, il rischio della mancata riscossione passa al cessionario.",
+      "concetti": [
+        "adempimento"
+      ]
+    },
+    {
+      "id": "p103-b006",
+      "pagina": 103,
+      "markdown": "Nella cessione **a titolo gratuito** il cedente garantisce l'esistenza del credito solo nei casi e nei limiti in cui il donante risponde dell'[[evizione|evizione]]; la solvenza del debitore resta esclusa, salvo patto.",
+      "concetti": [
+        "evizione"
+      ]
+    },
+    {
+      "id": "p103-b007",
+      "pagina": 103,
+      "markdown": "### La cessione dei crediti d'impresa e il factoring",
+      "concetti": [
+        "factoring"
+      ]
+    },
+    {
+      "id": "p103-b008",
+      "pagina": 103,
+      "markdown": "Il **[[factoring|factoring]]** è un [[contratto|contratto]] nato nella prassi anglosassone. Con esso un imprenditore (cedente o cliente) si impegna a cedere a un operatore professionale (il **factor**) i crediti, presenti e futuri, che derivano dalla sua attività. In cambio di una commissione, il factor offre una serie di servizi: tiene la contabilità dei crediti, li gestisce e li riscuote, può garantire il cliente contro l'[[inadempimento|inadempimento]] dei debitori e può **finanziarlo**, con prestiti o anticipandogli il valore dei crediti ceduti.",
+      "concetti": [
+        "factoring",
+        "contratto",
+        "inadempimento"
+      ]
+    },
+    {
+      "id": "p103-b009",
+      "pagina": 103,
+      "markdown": "Il trasferimento dei crediti non è quindi lo scopo dell'accordo, ma il mezzo che permette al factor di prestare i suoi servizi. In teoria i crediti affidati in gestione potrebbero anche non essere ceduti; in pratica, però, dietro il [[factoring|factoring]] c'è quasi sempre un **finanziamento** dell'impresa, perché il factor le anticipa una parte dei crediti che gestisce.",
+      "concetti": [
+        "factoring"
+      ]
+    },
+    {
+      "id": "p103-b010",
+      "pagina": 103,
+      "markdown": "La cessione al factor può essere:",
+      "concetti": []
+    },
+    {
+      "id": "p103-b011",
+      "pagina": 103,
+      "markdown": "- **pro soluto**, se il factor si accolla il rischio dell'insolvenza dei debitori ceduti e, se questi non pagano, non può chiedere al cliente la restituzione degli anticipi;",
+      "concetti": []
+    },
+    {
+      "id": "p103-b012",
+      "pagina": 103,
+      "markdown": "- **pro solvendo**, se il rischio dell'insolvenza resta al cliente.",
+      "concetti": []
+    },
+    {
+      "id": "p103-b013",
+      "pagina": 103,
+      "markdown": "Nella prassi si conoscono diverse forme:",
+      "concetti": []
+    },
+    {
+      "id": "p103-b014",
+      "pagina": 103,
+      "markdown": "- il **full [[factoring|factoring]]**, in cui il factor acquista in modo continuativo i crediti commerciali del cliente man mano che nascono, con tutti i servizi;",
+      "concetti": [
+        "factoring"
+      ]
+    },
+    {
+      "id": "p103-b015",
+      "pagina": 103,
+      "markdown": "- il **maturity [[factoring|factoring]]**, che conserva gestione e garanzia ma esclude il finanziamento: il factor paga alla scadenza e non anticipa;",
+      "concetti": [
+        "factoring"
+      ]
+    },
+    {
+      "id": "p103-b016",
+      "pagina": 103,
+      "markdown": "- l'**international [[factoring|factoring]]**, in cui cliente e debitori si trovano in Paesi diversi.",
+      "concetti": [
+        "factoring"
+      ]
+    },
+    {
+      "id": "p103-b017",
+      "pagina": 103,
+      "markdown": "### La legge 52 del 1991",
+      "concetti": []
+    },
+    {
+      "id": "p103-b018",
+      "pagina": 103,
+      "markdown": "La legge 21 febbraio 1991, n. 52, non ha dato al [[factoring|factoring]] una disciplina completa, sicché esso resta un **[[contratto|contratto]] atipico**. Si è limitata a correggere le regole del codice sulla cessione (artt. 1260 ss. c.c.) dove queste ostacolavano l'operazione: la cessione dei crediti futuri e in massa, la necessità della notificazione a ciascun debitore per l'opponibilità, l'assenza di qualunque considerazione della funzione di finanziamento.",
+      "concetti": [
+        "factoring",
+        "contratto"
+      ]
+    },
+    {
+      "id": "p103-b019",
+      "pagina": 103,
+      "markdown": "La legge si applica alle cessioni **onerose** di crediti **pecuniari** quando ricorrono tre condizioni:",
+      "concetti": []
+    },
+    {
+      "id": "p103-b020",
+      "pagina": 103,
+      "markdown": "- il cedente è un **imprenditore**;",
+      "concetti": []
+    },
+    {
+      "id": "p103-b021",
+      "pagina": 103,
+      "markdown": "- i crediti nascono da [[contratto|contratti]] stipulati dal cedente nell'esercizio dell'impresa;",
+      "concetti": [
+        "contratto"
+      ]
+    },
+    {
+      "id": "p103-b022",
+      "pagina": 103,
+      "markdown": "- il cessionario è una **banca** o un **intermediario finanziario** soggetto al Testo unico bancario (d.lgs. 385/1993), il cui oggetto sociale comprende l'acquisto di crediti d'impresa.",
+      "concetti": []
+    },
+    {
+      "id": "p103-b023",
+      "pagina": 103,
+      "markdown": "Le novità principali sono tre. Si possono cedere **in massa** anche crediti futuri, purché nascano da [[contratto|contratti]] da stipulare entro **24 mesi**. Il pagamento del corrispettivo con atto di [[data-certa|data certa]] rende la cessione **opponibile ai terzi**, senza bisogno della notificazione a ogni debitore. La funzione di finanziamento è riconosciuta con il pagamento anticipato del corrispettivo. Salvo patto contrario, il cedente garantisce la solvenza dei debitori nei limiti del corrispettivo: la cessione è quindi, di regola, **pro solvendo**.",
+      "concetti": [
+        "contratto",
+        "data-certa"
+      ]
+    },
+    {
+      "id": "p104-b001",
+      "pagina": 104,
+      "markdown": "Poiché esercitano professionalmente attività di finanziamento, le società di [[factoring|factoring]] sono soggette anche alle regole sulla **trasparenza** delle operazioni bancarie e finanziarie dettate dal Testo unico bancario (d.lgs. 385/1993).",
+      "concetti": [
+        "factoring"
+      ]
+    },
+    {
+      "id": "p104-b002",
+      "pagina": 104,
+      "markdown": "### La cartolarizzazione dei crediti",
+      "concetti": [
+        "cartolarizzazione"
+      ]
+    },
+    {
+      "id": "p104-b003",
+      "pagina": 104,
+      "markdown": "La **[[cartolarizzazione|cartolarizzazione]]** (in inglese *securitisation*), regolata dalla l. 130/1999, è l'operazione con cui un soggetto, detto **originator**, cede a titolo oneroso un insieme di crediti a una **società veicolo**, che ne finanzia l'acquisto emettendo titoli (*asset-backed securities*) collocati presso gli investitori. Le somme pagate dai debitori ceduti servono a remunerare e rimborsare chi ha sottoscritto i titoli.",
+      "concetti": [
+        "cartolarizzazione"
+      ]
+    },
+    {
+      "id": "p104-b004",
+      "pagina": 104,
+      "markdown": "Possono essere cartolarizzati crediti di ogni tipo: **regolari** (in bonis) o **in sofferenza**, **commerciali** o **finanziari**. La società veicolo, che opera come intermediario dell'operazione, deve avere caratteristiche precise:",
+      "concetti": []
+    },
+    {
+      "id": "p104-b005",
+      "pagina": 104,
+      "markdown": "- è una **società di capitali** il cui oggetto esclusivo è la realizzazione di una o più operazioni di [[cartolarizzazione|cartolarizzazione]];",
+      "concetti": [
+        "cartolarizzazione"
+      ]
+    },
+    {
+      "id": "p104-b006",
+      "pagina": 104,
+      "markdown": "- i crediti acquistati con ciascuna operazione formano un **[[patrimonio-separato|patrimonio separato]]** da quello della società e da quello delle altre operazioni, destinato al soddisfacimento dei portatori dei titoli e dei costi dell'operazione.",
+      "concetti": [
+        "patrimonio-separato"
+      ]
+    },
+    {
+      "id": "p104-b007",
+      "pagina": 104,
+      "markdown": "Sulla struttura giuridica dell'operazione si discute:",
+      "concetti": []
+    },
+    {
+      "id": "p104-b008",
+      "pagina": 104,
+      "markdown": "- secondo la **tesi dualistica**, vi sono due [[contratto|contratti]] distinti, legati da un collegamento previsto dalla legge: la cessione dei crediti dall'originator alla società veicolo e il finanziamento che la società raccoglie dagli investitori con l'emissione dei titoli;",
+      "concetti": [
+        "contratto"
+      ]
+    },
+    {
+      "id": "p104-b009",
+      "pagina": 104,
+      "markdown": "- secondo la **tesi monistica**, i due momenti sono così stretti da formare un unico negozio, con una causa unitaria di [[cartolarizzazione|cartolarizzazione]].",
+      "concetti": [
+        "cartolarizzazione"
+      ]
+    },
+    {
+      "id": "p104-b010",
+      "pagina": 104,
+      "markdown": "I titoli emessi dalla società veicolo sono titoli di debito. Il rendimento e il rischio dipendono dalla qualità dei crediti sottostanti e dalla struttura dell'operazione: un rendimento più alto di quello delle normali [[obbligazione|obbligazioni]] compensa, di solito, un rischio maggiore. I titoli possono essere destinati a investitori professionali o istituzionali e, nel rispetto delle regole sull'offerta, anche al pubblico.",
+      "concetti": [
+        "obbligazione"
+      ]
+    },
+    {
+      "id": "p104-b011",
+      "pagina": 104,
+      "markdown": "### La delegazione attiva",
+      "concetti": []
+    },
+    {
+      "id": "p104-b012",
+      "pagina": 104,
+      "markdown": "Il codice disciplina soltanto la **[[delegazione-passiva|delegazione passiva]]**. Si ritiene però che l'[[negozio-giuridico|autonomia privata]] consenta di realizzare anche una **delegazione attiva**: un accordo tra tre soggetti in cui il creditore (**delegante**) incarica il proprio debitore (**delegato**), che accetta, di pagare o di obbligarsi verso un terzo (**delegatario**).",
+      "concetti": [
+        "delegazione-passiva",
+        "negozio-giuridico"
+      ]
+    },
+    {
+      "id": "p104-b013",
+      "pagina": 104,
+      "markdown": "**Esempio.** Tizio, creditore di Caio, vuole fare un regalo al figlio Sempronio e incarica Caio di pagare a lui ciò che gli deve.",
+      "concetti": []
+    },
+    {
+      "id": "p104-b014",
+      "pagina": 104,
+      "markdown": "Il terzo si aggiunge al creditore originario senza che il diritto di quest'ultimo si estingua: se il debitore non paga, anche il primo creditore può ancora agire contro di lui (**effetto cumulativo**), salvo che l'accordo disponga diversamente. La delegazione attiva non va confusa con la cessione, che trasferisce il credito.",
+      "concetti": []
+    }
+  ]
+}

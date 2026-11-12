@@ -12,6 +12,10 @@ const campione = JSON.parse(await readFile(new URL('./fixtures/segni-campione.js
 const MINIMO_STRESS = { 'romano-iuris-v1': 287, 'filosofia-incampo-v1': 154, 'filosofia-moro-v1': 30 };
 // Documenti che devono avere segni di prova: un documento nuovo senza campione non deve passare in silenzio.
 for (const id of Object.keys(MINIMO_STRESS)) assert(campione.documenti[id]?.length && campione.stress?.[id]?.length, `${id}: segni di prova mancanti in fixtures/segni-campione.json`);
+// Privato: il testo IURIS (privato-iuris-v1) ha sostituito la dispensa, che non aveva segni di prova; campione generato
+// sul testo nuovo con le regole di genera-segni-campione.mjs (12 novembre 2026, 3.345 segni), senza backup di stress.
+const SOLO_CAMPIONE = ['privato-iuris-v1'];
+for (const id of SOLO_CAMPIONE) assert(campione.documenti[id]?.length >= 3000, `${id}: segni di prova mancanti in fixtures/segni-campione.json`);
 const pag = (s) => s.ancoreTesto?.length ? s.ancoreTesto.map((a) => Number(/^p(\d+)-/.exec(a.blocco)?.[1] ?? s.pagina)) : [s.pagina];
 let controlli = 0;
 const conti = {};

@@ -14,6 +14,9 @@ const solo = process.argv.flatMap((a, i, all) => (all[i - 1] === '--solo' ? [a] 
 const catalogo = JSON.parse(await readFile(path.join(source, 'catalogo.json'), 'utf8'));
 // Pagine in fondo a un documento che non appartengono a nessuna lezione: { 'doc-v1': [{ id, titolo, da }] }.
 const APPENDICI = {};
+// Lezioni che cominciano sulla stessa pagina della precedente ma hanno una sezione propria, a partire da un blocco
+// preciso di quella pagina: { 'doc-v1': { 'uNN-lM': 'pNNN-bNNN' } }. Senza voce, le due lezioni condividono la sezione.
+const DIVISIONI = { 'privato-iuris-v1': { 'u26-l4': 'p228-b014' } };
 const FONTE = { 'filosofia-incampo-v1': 'incampo', 'filosofia-moro-v1': 'moro', 'filosofia-cotta-v1': 'cotta',
   'filosofia-ssg-lezioni-v1': 'lezioni', 'filosofia-ssg-incampo-v1': 'incampo',
   'filosofia-mz-barberis-v1': 'barberis', 'filosofia-mz-schauer-v1': 'schauer' };
@@ -31,12 +34,14 @@ for (const doc of catalogo) {
   const sezioni = [];
   for (const l of lezioni) {
     const prec = sezioni[sezioni.length - 1];
-    if (prec && prec.da === l.da) { prec.lezioni.push(l.id); continue; }
-    sezioni.push({ id: l.id, titolo: l.titolo, da: sezioni.length ? l.da : 1, lezione: l.id, lezioni: [l.id] });
+    const blocco = DIVISIONI[doc.id]?.[l.id];
+    if (prec && prec.da === l.da && !blocco) { prec.lezioni.push(l.id); continue; }
+    if (blocco && (!prec || prec.da !== l.da || Number(blocco.slice(1, 4)) !== l.da)) throw new Error(`${doc.id}/${l.id}: divisione ${blocco} non sulla pagina condivisa`);
+    sezioni.push({ id: l.id, titolo: l.titolo, da: sezioni.length ? l.da : 1, lezione: l.id, lezioni: [l.id], ...(blocco ? { blocco } : {}) });
   }
   // Pagine in fondo al PDF che non appartengono a nessuna lezione (appendici): sezioni proprie, senza lezione.
   for (const ap of APPENDICI[doc.id] ?? []) sezioni.push({ ...ap, lezioni: [] });
-  for (let i = 0; i < sezioni.length; i++) sezioni[i].a = i < sezioni.length - 1 ? sezioni[i + 1].da - 1 : doc.pagine;
+  for (let i = 0; i < sezioni.length; i++) sezioni[i].a = i < sezioni.length - 1 ? sezioni[i + 1].da - (sezioni[i + 1].blocco ? 0 : 1) : doc.pagine;
   // Blocchi esistenti, nell'ordine dei file attuali.
   const blocchi = [];
   for (const sec of doc.sezioni) {
@@ -55,8 +60,14 @@ for (const doc of catalogo) {
     ...(s.lezioni.length > 1 ? { lezioni: s.lezioni } : {}), revisionata: true, file: `letture/${doc.id}/${s.id}.json`,
     ...(integrazione(s) ? { soloTitolo: true, integrazione: integrazione(s) } : {}) }));
   let usati = 0;
-  const testi = nuove.map((s) => {
-    const parte = blocchi.filter((b) => b.pagina >= s.da && b.pagina <= s.a); usati += parte.length;
+  // Con una divisione la pagina condivisa si spezza al blocco indicato (i blocchi sono nell'ordine del testo).
+  const inizio = sezioni.map((s) => s.blocco ? blocchi.findIndex((b) => b.id === s.blocco) : blocchi.findIndex((b) => b.pagina >= s.da));
+  for (const [i, s] of sezioni.entries()) if (s.blocco && inizio[i] < 0) throw new Error(`${doc.id}/${s.id}: blocco ${s.blocco} inesistente`);
+  const testi = nuove.map((s, i) => {
+    const parte = DIVISIONI[doc.id]
+      ? blocchi.filter((_, k) => k >= inizio[i] && (i === nuove.length - 1 || k < inizio[i + 1]) && inizio[i] >= 0)
+      : blocchi.filter((b) => b.pagina >= s.da && b.pagina <= s.a);
+    usati += parte.length;
     return `<!-- documento:${doc.id} edizione:${doc.edizione} sezione:${s.id} -->\n\n${parte.map((b) => `<!-- blocco:${b.id} pagina:${b.pagina} -->\n\n${b.testo}\n`).join('\n')}`;
   });
   if (usati !== blocchi.length) throw new Error(`Blocchi persi in ${doc.id}: ${usati}/${blocchi.length}`);

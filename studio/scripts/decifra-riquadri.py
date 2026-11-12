@@ -8,6 +8,10 @@ simboli a caso («+:<.» per «art.»). I codici però seguono l'ordine dei glif
 Lo script rilegge il PDF, decifra ogni riga in quel font, la ritrova nei blocchi di letture-src e scrive le
 sostituzioni in letture-src/revisioni.json (i file .md restano l'estrazione originale).
 
+Non più in uso: la dispensa (`diritto-privato-torrente-dispense-v1`) è stata sostituita dal testo IURIS
+`privato-iuris-v1` e tolta dal catalogo, dal PDF pubblicato e da revisioni.json; nessun controllo lo richiede.
+Resta come strumento per un altro PDF con lo stesso difetto (va ripresa la versione dalla storia git).
+
 Uso:  python3 scripts/decifra-riquadri.py            (prova: stampa quanto trova)
       python3 scripts/decifra-riquadri.py --scrivi   (aggiorna revisioni.json)
 """

@@ -91,8 +91,8 @@ for (const doc of docs) {
       assert(docs.find((d) => d.id === sec.integrazione.documento).sezioni.some((s) => s.id === sec.integrazione.sezione));
     }
     assert(data.blocchi.length > 0);
-    // Testo IURIS di romano: ogni sezione si apre con il titolo della sua lezione (confini-sezioni.json).
-    if (doc.id === 'romano-iuris-v1') assert.match(data.blocchi[0].markdown, /^#{2,3} /, `${doc.id}/${sec.id}: la sezione deve cominciare con un titolo`);
+    // Testi IURIS di romano e privato: ogni sezione si apre con il titolo della sua lezione (confini-sezioni.json).
+    if (['romano-iuris-v1', 'privato-iuris-v1'].includes(doc.id)) assert.match(data.blocchi[0].markdown, /^#{2,3} /, `${doc.id}/${sec.id}: la sezione deve cominciare con un titolo`);
     for (const b of data.blocchi) {
       assert(!seen.has(b.id), 'ID del blocco unico nel documento'); seen.add(b.id);
       assert.match(b.id, /^p\d{3}-b\d{3}$/); assert.equal(Number(b.id.slice(1, 4)), b.pagina);
@@ -141,15 +141,17 @@ for (const doc of docs) {
   assert.equal(seen.size, audit.blocchi);
   pages += doc.pagine;
 }
-assert.equal(docs.length, 11); assert.equal(pages, 1242); assert.equal(soloTesto, 4); assert.equal(integrazioni, 12); assert(pilot >= 2);
-assert.equal(originali.filter((d) => d.file).length, 6, '6 PDF pubblicati');
+assert.equal(docs.length, 11); assert.equal(pages, 1242); assert.equal(soloTesto, 5); assert.equal(integrazioni, 12); assert(pilot >= 2);
+assert.equal(originali.filter((d) => d.file).length, 5, '5 PDF pubblicati');
 // Soglie minime per testo IURIS: titoli distinti dal corpo, capoversi e voci separati, mediana breve.
 // Costituzionale: 1.297 titoli, 6 tabelle, ~4.080 capoversi e voci. Romano: vedi piani/fase-romano/originali.md.
+// Privato: vedi piani/fase-privato/originali.md.
 const SOGLIE_IURIS = {
   'costituzionale-iuris-v1': { titoli: 1200, tabelle: 5, capoversiEVoci: 3500, mediana: 80 },
   'romano-iuris-v1': { titoli: 650, tabelle: 1, capoversiEVoci: 2800, mediana: 60 },
+  'privato-iuris-v1': { titoli: 900, tabelle: 2, capoversiEVoci: 3600, mediana: 60 },
 };
-assert.deepEqual([...iuris.keys()].sort(), Object.keys(SOGLIE_IURIS).sort(), 'testi IURIS attesi: costituzionale e romano');
+assert.deepEqual([...iuris.keys()].sort(), Object.keys(SOGLIE_IURIS).sort(), 'testi IURIS attesi: costituzionale, romano e privato');
 const misureIuris = [];
 for (const [id, m] of iuris) {
   const s = SOGLIE_IURIS[id];

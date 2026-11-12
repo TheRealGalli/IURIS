@@ -1,0 +1,99 @@
+{
+  "documento": "privato-iuris-v1",
+  "edizione": 1,
+  "id": "u23-l3",
+  "titolo": "Assegno bancario e assegno circolare",
+  "da": 206,
+  "a": 206,
+  "lezione": "u23-l3",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p206-b001",
+      "pagina": 206,
+      "markdown": "### Capitolo 53 · Gli assegni",
+      "concetti": []
+    },
+    {
+      "id": "p206-b002",
+      "pagina": 206,
+      "markdown": "### Funzione e caratteri",
+      "concetti": []
+    },
+    {
+      "id": "p206-b003",
+      "pagina": 206,
+      "markdown": "L'**assegno** serve come mezzo di **pagamento**: serve a mettere subito a disposizione del portatore una somma di denaro. È sempre **pagabile a vista**, sicché il pagamento non può essere differito (l'assegno postdatato si può incassare subito), e richiede l'intervento di una banca. Le figure principali sono due: assegno **bancario** e assegno **circolare**.",
+      "concetti": [
+        "assegno-circolare",
+        "assegno-bancario"
+      ]
+    },
+    {
+      "id": "p206-b004",
+      "pagina": 206,
+      "markdown": "### L'assegno bancario",
+      "concetti": [
+        "assegno-bancario"
+      ]
+    },
+    {
+      "id": "p206-b005",
+      "pagina": 206,
+      "markdown": "Il primo, regolato dal r.d. 1736/1933 (legge assegni), ha la struttura della [[cambiale|cambiale]] tratta: è un documento con cui il **traente** dà alla **banca trattaria** l'ordine incondizionato di pagare una somma determinata al **beneficiario** indicato. A differenza della tratta, però, la banca **non può accettare** l'assegno (art. 4 legge assegni) e non diventa quindi obbligata cartolare verso il portatore. Per emettere assegni occorre l'**autorizzazione** della banca, che con la **convenzione di assegno** consegna al cliente un carnet di moduli. Il portatore deve presentarlo al pagamento entro **otto giorni** se è pagabile nello stesso comune di emissione, entro **quindici** se è pagabile in un comune diverso (art. 32 legge assegni).",
+      "concetti": [
+        "cambiale"
+      ]
+    },
+    {
+      "id": "p206-b006",
+      "pagina": 206,
+      "markdown": "Chi emette un assegno senza l'autorizzazione della banca trattaria commetteva un tempo un reato; oggi, dopo la depenalizzazione operata dal d.lgs. 507/1999, è soggetto a una **sanzione amministrativa** (l. 386/1990). L'emissione presuppone inoltre una sufficiente **provvista**, cioè fondi disponibili presso la banca con cui pagare il beneficiario. Anche l'emissione di un assegno **scoperto** non è più di per sé reato, ma un illecito amministrativo; il traente deve inoltre pagare al portatore che agisce contro di lui, oltre all'importo, una **penale del 10%** (art. 3 l. 386/1990). Le sanzioni non si applicano se il traente paga, entro **60 giorni** dalla scadenza del termine di presentazione, l'importo dell'assegno con la penale, gli interessi e le spese (art. 8 l. 386/1990).",
+      "concetti": []
+    },
+    {
+      "id": "p206-b007",
+      "pagina": 206,
+      "markdown": "Se l'assegno resta impagato e il traente non regolarizza la posizione, il suo nome è iscritto nella **Centrale d'allarme interbancaria** (CAI), gestita dalla Banca d'Italia, e scatta la **revoca di sistema**: per sei mesi nessuna banca può stipulare con lui convenzioni di assegno, e il traente deve restituire tutti i moduli ancora in suo [[possesso|possesso]]. La vecchia regola che rendeva la banca responsabile per una somma fissa (dieci milioni di lire) per ogni assegno emesso dopo la mancata revoca è superata: oggi la banca che consegna moduli in violazione del divieto risponde nei limiti stabiliti dalla l. 386/1990.",
+      "concetti": [
+        "possesso"
+      ]
+    },
+    {
+      "id": "p206-b008",
+      "pagina": 206,
+      "markdown": "L'assegno deve indicare il **beneficiario**, oppure può essere emesso **al portatore**, cioè a favore di chi lo presenterà all'incasso; può essere tratto anche a favore dello stesso traente. In linea di principio è un titolo **all'ordine**, che si trasferisce con la girata, mentre quello al portatore circola con la semplice consegna.",
+      "concetti": []
+    },
+    {
+      "id": "p206-b009",
+      "pagina": 206,
+      "markdown": "La normativa antiriciclaggio ha però ristretto molto la circolazione (art. 49 d.lgs. 231/2007). Gli [[assegno-bancario|assegni bancari]] e postali di importo pari o superiore a **1.000 euro** devono indicare il nome del beneficiario e la clausola «**non trasferibile**»; le banche consegnano i moduli già muniti di questa clausola, e quelli liberi si possono chiedere solo per iscritto e pagando un'imposta. L'assegno non trasferibile può essere pagato solo al beneficiario, o accreditato sul suo conto, e ammette soltanto la girata a una banca per l'incasso (art. 43 legge assegni).",
+      "concetti": [
+        "assegno-bancario"
+      ]
+    },
+    {
+      "id": "p206-b010",
+      "pagina": 206,
+      "markdown": "### L'assegno circolare",
+      "concetti": [
+        "assegno-circolare"
+      ]
+    },
+    {
+      "id": "p206-b011",
+      "pagina": 206,
+      "markdown": "L'**[[assegno-circolare|assegno circolare]]** può essere emesso soltanto da una **banca** autorizzata dalla Banca d'Italia. Le banche lo rilasciano su richiesta del cliente, che versa la somma corrispondente oppure se la fa addebitare sul conto: la provvista, quindi, esiste già al momento dell'emissione.",
+      "concetti": [
+        "assegno-circolare"
+      ]
+    },
+    {
+      "id": "p206-b012",
+      "pagina": 206,
+      "markdown": "Non può essere emesso al portatore, ma sempre **all'ordine** di una persona determinata: un terzo, al quale il cliente lo consegnerà dopo averlo ritirato, oppure lo stesso cliente, che intende incassarlo altrove o girarlo ad altri. La sua struttura è quella del **pagherò**: la banca promette senza condizioni di pagare a vista la somma indicata all'intestatario o al giratario. Alla circolazione e al pagamento si applicano le regole del pagherò cambiario. Va presentato al pagamento entro **trenta giorni** dall'emissione per conservare il regresso, e l'azione contro la banca emittente si prescrive in tre anni (art. 84 legge assegni).",
+      "concetti": []
+    }
+  ]
+}

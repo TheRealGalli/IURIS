@@ -58,6 +58,9 @@ try {
     assert.equal(lib.originaliMateria('diritto-costituzionale').length, 1, 'Costituzionale: testo IURIS');
     assert(lib.originaliMateria('diritto-costituzionale').every((d) => d.id === 'costituzionale-iuris-v1' && !d.file && d.testoFonte), 'Costituzionale: solo testo, nessun PDF');
     assert.equal(lib.originaliMateria('diritto-costituzionale-martines').length, 0, 'la materia Martines è confluita in diritto-costituzionale');
+    // Privato (unico per le tre classi): solo il testo scritto da IURIS, stessa numerazione della dispensa che ha sostituito.
+    assert.equal(lib.originaliMateria('diritto-privato').length, 1, 'Privato: testo IURIS');
+    assert(lib.originaliMateria('diritto-privato').every((d) => d.id === 'privato-iuris-v1' && !d.file && d.testoFonte && d.testoMarkdown && d.pagine === 238), 'Privato: testo IURIS di 238 pagine, solo testo, nessun PDF');
     // Filosofia M-Z: riassunti di Barberis e Schauer pubblicati solo come testo (i PDF portano i dati di chi li ha scaricati).
     assert.equal(lib.originaliMateria('filosofia-del-diritto-mz').length, 2, 'Filosofia M-Z: Barberis e Schauer');
     assert(lib.originaliMateria('filosofia-del-diritto-mz').every((d) => !d.file && d.testoFonte), 'Filosofia M-Z: solo testo, nessun PDF');

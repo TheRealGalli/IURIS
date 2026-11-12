@@ -1,0 +1,561 @@
+{
+  "documento": "privato-iuris-v1",
+  "edizione": 1,
+  "id": "u15-l3",
+  "titolo": "Ipoteca e pubblicità",
+  "da": 119,
+  "a": 122,
+  "lezione": "u15-l3",
+  "revisionata": true,
+  "blocchi": [
+    {
+      "id": "p119-b022",
+      "pagina": 119,
+      "markdown": "### C) L'ipoteca",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p119-b023",
+      "pagina": 119,
+      "markdown": "**Nozione.** L'**[[ipoteca|ipoteca]]** è il diritto reale di garanzia che consente al creditore (si pensi alla banca che concede un [[mutuo|mutuo]]) di far espropriare un immobile o un mobile registrato e di soddisfarsi con preferenza sul ricavato, senza che il proprietario ne perda il [[possesso|possesso]]. La disciplina è negli artt. 2808 e seguenti del [[codice-civile|codice civile]].",
+      "concetti": [
+        "ipoteca",
+        "mutuo",
+        "possesso",
+        "codice-civile"
+      ]
+    },
+    {
+      "id": "p119-b024",
+      "pagina": 119,
+      "markdown": "Dal [[pegno|pegno]] l'[[ipoteca|ipoteca]] si distingue per tre aspetti. Il primo è l'**oggetto** (art. 2810 c.c.): immobili, [[diritti-reali|diritti reali]] minori su immobili, rendite dello Stato, navi, aeromobili e autoveicoli secondo le rispettive leggi. Il secondo è la **costituzione**, che richiede una formalità particolare, l'iscrizione nei registri immobiliari. Il terzo è l'assenza di **spossessamento**: il godimento resta al proprietario.",
+      "concetti": [
+        "pegno",
+        "ipoteca",
+        "diritti-reali"
+      ]
+    },
+    {
+      "id": "p119-b025",
+      "pagina": 119,
+      "markdown": "Con il [[pegno|pegno]] condivide altri due caratteri.",
+      "concetti": [
+        "pegno"
+      ]
+    },
+    {
+      "id": "p119-b026",
+      "pagina": 119,
+      "markdown": "- **Specialità.** L'ipoteca può gravare solo su beni specificamente indicati: non esistono [[ipoteca|ipoteche]] generali. Va inoltre indicata la **somma** per cui è iscritta, così che i terzi conoscano il peso del vincolo e il debitore, se il bene vale di più, possa ottenere altro credito.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p119-b027",
+      "pagina": 119,
+      "markdown": "- **Indivisibilità.** L'[[ipoteca|ipoteca]] grava per intero su tutti i beni vincolati, su ciascuno di essi e su ogni loro parte (art. 2809 c.c.): se più beni garantiscono lo stesso credito, il creditore può far espropriare uno qualunque e soddisfarsi per l'intero. Il pagamento parziale non riduce l'ipoteca, che resta finché il credito non è estinto del tutto.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b001",
+      "pagina": 120,
+      "markdown": "Proprio perché il vincolo è così pesante, l'ipoteca vive di **pubblicità**: non esistono [[ipoteca|ipoteche]] occulte, e chiunque deve poter verificare se un bene ne è gravato prima di decidere come comportarsi.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b002",
+      "pagina": 120,
+      "markdown": "### Oggetto dell'ipoteca",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b003",
+      "pagina": 120,
+      "markdown": "Possono essere ipotecati gli immobili con le loro [[pertinenza|pertinenze]], i mobili registrati e le rendite dello Stato, e inoltre l'[[usufrutto|usufrutto]] di immobili, la superficie, la [[nuda-proprieta|nuda proprietà]] e, nell'[[enfiteusi|enfiteusi]], tanto il diritto dell'enfiteuta quanto quello del concedente. Non sono ipotecabili le **[[servitu|servitù]]**, che non possono essere espropriate separatamente dal [[fondo-dominante-e-servente|fondo dominante]], né i diritti di **uso** e di **abitazione**, che non possono circolare.",
+      "concetti": [
+        "pertinenza",
+        "usufrutto",
+        "nuda-proprieta",
+        "enfiteusi",
+        "servitu",
+        "fondo-dominante-e-servente",
+        "proprieta"
+      ]
+    },
+    {
+      "id": "p120-b004",
+      "pagina": 120,
+      "markdown": "Che cosa accade quando viene meno il diritto di godimento ipotecato?",
+      "concetti": []
+    },
+    {
+      "id": "p120-b005",
+      "pagina": 120,
+      "markdown": "- L'[[ipoteca|ipoteca]] costituita sull'**[[usufrutto|usufrutto]]** cessa con l'usufrutto; ma la rinuncia dell'usufruttuario, la [[decadenza|decadenza]] per abuso o l'acquisto della [[nuda-proprieta|nuda proprietà]] non la fanno venir meno prima del tempo a danno del creditore (art. 2814 c.c.).",
+      "concetti": [
+        "ipoteca",
+        "usufrutto",
+        "decadenza",
+        "nuda-proprieta",
+        "proprieta"
+      ]
+    },
+    {
+      "id": "p120-b006",
+      "pagina": 120,
+      "markdown": "- L'[[ipoteca|ipoteca]] costituita sulla **[[nuda-proprieta|nuda proprietà]]**, quando l'[[usufrutto|usufrutto]] si estingue, si estende alla [[proprieta|proprietà]] piena: per l'**elasticità del dominio** (consolidazione) chi l'aveva concessa diventa pieno proprietario, e la garanzia lo segue.",
+      "concetti": [
+        "ipoteca",
+        "nuda-proprieta",
+        "usufrutto",
+        "proprieta"
+      ]
+    },
+    {
+      "id": "p120-b007",
+      "pagina": 120,
+      "markdown": "Un'altra vicenda possibile è la **riduzione** dell'[[ipoteca|ipoteca]], che si chiede quando il valore dei beni è eccessivo rispetto al credito garantito (art. 2872 c.c.).",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b008",
+      "pagina": 120,
+      "markdown": "Può essere ipotecata anche la **quota** di un bene indiviso (art. 2825 c.c.). E poiché l'accessorio segue il principale, la garanzia copre anche migliorie, nuove costruzioni e ogni altra [[accessione|accessione]] del bene ipotecato (art. 2811 c.c.).",
+      "concetti": [
+        "accessione"
+      ]
+    },
+    {
+      "id": "p120-b009",
+      "pagina": 120,
+      "markdown": "### Le specie di ipoteca: legale",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b010",
+      "pagina": 120,
+      "markdown": "L'[[ipoteca|ipoteca]] può essere iscritta in base a tre titoli. Il primo è la **legge** (**ipoteca legale**), che la attribuisce, pure se il debitore non la vuole, nelle ipotesi dell'art. 2817 c.c.:",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b011",
+      "pagina": 120,
+      "markdown": "- all'**alienante** di un immobile, per gli obblighi che derivano dall'atto di alienazione, come il pagamento del prezzo;",
+      "concetti": []
+    },
+    {
+      "id": "p120-b012",
+      "pagina": 120,
+      "markdown": "- ai **coeredi**, ai soci e agli altri **condividenti**, sugli immobili assegnati a chi deve pagare un conguaglio in denaro;",
+      "concetti": []
+    },
+    {
+      "id": "p120-b013",
+      "pagina": 120,
+      "markdown": "- allo **Stato**, sui beni dell'imputato e del civilmente responsabile, secondo le leggi penali. Dal codice di procedura penale del 1988 queste somme (pene pecuniarie, spese del processo e di mantenimento in carcere) sono assicurate con il **[[sequestro-conservativo|sequestro conservativo]]** penale (art. 316 c.p.p.).",
+      "concetti": [
+        "sequestro-conservativo"
+      ]
+    },
+    {
+      "id": "p120-b014",
+      "pagina": 120,
+      "markdown": "L'[[ipoteca|ipoteca]] legale dell'alienante e del condividente presenta due tratti rilevanti:",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b015",
+      "pagina": 120,
+      "markdown": "- è **iscritta d'ufficio** dal conservatore dei registri immobiliari (oggi gli uffici di pubblicità immobiliare dell'[[agenzia|Agenzia]] delle entrate) quando trascrive l'atto di alienazione o di divisione, a meno che risulti l'[[adempimento|adempimento]] degli obblighi o la rinuncia all'[[ipoteca|ipoteca]] (art. 2834 c.c.);",
+      "concetti": [
+        "agenzia",
+        "adempimento",
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b016",
+      "pagina": 120,
+      "markdown": "- iscritta insieme alla [[trascrizione|trascrizione]] del titolo, **prevale** sulle trascrizioni e iscrizioni compiute contro l'acquirente o il condividente.",
+      "concetti": [
+        "trascrizione"
+      ]
+    },
+    {
+      "id": "p120-b017",
+      "pagina": 120,
+      "markdown": "Così, se il compratore rivende il bene prima di pagarlo, o vi costituisce [[ipoteca|ipoteche]] o diritti di godimento, il venditore resta protetto: la sua ipoteca viene prima di ogni altra formalità presa contro chi ha acquistato da lui (art. 2650, comma 3, c.c.).",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b018",
+      "pagina": 120,
+      "markdown": "### Ipoteca giudiziale",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b019",
+      "pagina": 120,
+      "markdown": "Il secondo titolo è un **provvedimento del giudice** (**[[ipoteca|ipoteca]] giudiziale**). Di norma il creditore, anche con un credito scaduto ed esigibile, non può far iscrivere da solo un'ipoteca sui beni del debitore.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b020",
+      "pagina": 120,
+      "markdown": "Può farlo, però, se ha ottenuto una **sentenza di condanna** a pagare una somma, ad adempiere un'altra [[obbligazione|obbligazione]] o a risarcire danni la cui liquidazione è rinviata, anche se la sentenza non è passata in giudicato (per esempio una pronuncia di primo grado) (art. 2818 c.c.).",
+      "concetti": [
+        "obbligazione"
+      ]
+    },
+    {
+      "id": "p120-b021",
+      "pagina": 120,
+      "markdown": "In tal caso il creditore, presentando copia autentica del provvedimento all'ufficio dei registri immobiliari, ottiene l'iscrizione su qualunque immobile del debitore, senza bisogno del suo consenso. Lo stesso vale per gli altri provvedimenti a cui la legge riconosce questo effetto, come il **decreto ingiuntivo** dichiarato esecutivo.",
+      "concetti": []
+    },
+    {
+      "id": "p120-b022",
+      "pagina": 120,
+      "markdown": "### Ipoteca volontaria",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b023",
+      "pagina": 120,
+      "markdown": "Il terzo titolo è la **volontà** del debitore o di un terzo (**[[ipoteca|ipoteca]] volontaria**), espressa:",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p120-b024",
+      "pagina": 120,
+      "markdown": "- in un **[[contratto|contratto]]** fra debitore o terzo datore e creditore;",
+      "concetti": [
+        "contratto"
+      ]
+    },
+    {
+      "id": "p120-b025",
+      "pagina": 120,
+      "markdown": "- oppure in un **atto unilaterale** tra vivi, dello stesso debitore o del terzo.",
+      "concetti": []
+    },
+    {
+      "id": "p120-b026",
+      "pagina": 120,
+      "markdown": "Non può essere concessa per **[[testamento|testamento]]** (art. 2821 c.c.). L'atto richiede, a pena di [[nullita|nullità]], l'[[atto-pubblico|atto pubblico]] o la [[scrittura-privata|scrittura privata]] (art. 2821 c.c.); per l'iscrizione la sottoscrizione della scrittura deve essere autenticata o accertata giudizialmente (art. 2835 c.c.). Nulla impedisce che il valore del bene ipotecato superi l'importo del debito.",
+      "concetti": [
+        "testamento",
+        "nullita",
+        "atto-pubblico",
+        "scrittura-privata"
+      ]
+    },
+    {
+      "id": "p120-b027",
+      "pagina": 120,
+      "markdown": "### La pubblicità ipotecaria",
+      "concetti": []
+    },
+    {
+      "id": "p120-b028",
+      "pagina": 120,
+      "markdown": "Il peso del vincolo spiega perché la pubblicità sia il cuore dell'istituto: chi pensa di acquistare un bene deve sapere se è ipotecato per valutare se gli conviene. Qui la pubblicità ha efficacia **costitutiva**: l'[[ipoteca|ipoteca]] nasce con l'**iscrizione** nei registri immobiliari.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p121-b001",
+      "pagina": 121,
+      "markdown": "Senza iscrizione, dunque, l'ipoteca non esiste. E fra più [[ipoteca|ipoteche]] sullo stesso bene l'ordine di preferenza non segue la data del titolo, ma quella in cui ciascuna è stata iscritta: l'ipoteca **prende grado** dal momento in cui è iscritta (art. 2852 c.c.), e a ciascuna iscrizione è attribuito un numero progressivo che ne stabilisce il grado (art. 2853 c.c.).",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p121-b002",
+      "pagina": 121,
+      "markdown": "### Grado e concorso",
+      "concetti": []
+    },
+    {
+      "id": "p121-b003",
+      "pagina": 121,
+      "markdown": "La regola conta anche quando più creditori chiedono contemporaneamente l'iscrizione contro la stessa persona sullo stesso immobile: le iscrizioni ricevono lo stesso numero e i creditori concorrono in proporzione dei rispettivi crediti (art. 2854 c.c.).",
+      "concetti": []
+    },
+    {
+      "id": "p121-b004",
+      "pagina": 121,
+      "markdown": "I creditori ipotecari possono scambiarsi il grado, a condizione di non danneggiare i creditori iscritti nei gradi intermedi. La surrogazione nel grado può avvenire anche per legge nei casi e con i limiti degli artt. 2856-2857 c.c.: è la **surrogazione del creditore perdente**, che subentra nell'[[ipoteca|ipoteca]] di un creditore anteriore il quale, avendo garanzia anche su altri beni, si sia soddisfatto proprio sul bene che garantiva il perdente.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p121-b005",
+      "pagina": 121,
+      "markdown": "Che la pubblicità sia costitutiva significa che senza di essa l'[[ipoteca|ipoteca]] non sorge, non che l'iscrizione rimedi ai difetti del titolo. Se l'atto che concede l'ipoteca è nullo, anche l'iscrizione resta priva di effetto.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p121-b006",
+      "pagina": 121,
+      "markdown": "### Le forme della pubblicità ipotecaria",
+      "concetti": []
+    },
+    {
+      "id": "p121-b007",
+      "pagina": 121,
+      "markdown": "La pubblicità ipotecaria si realizza con quattro formalità.",
+      "concetti": []
+    },
+    {
+      "id": "p121-b008",
+      "pagina": 121,
+      "markdown": "**a) Iscrizione** (artt. 2827-2842 c.c. e artt. 2844-2846 c.c.). È l'atto con cui l'[[ipoteca|ipoteca]] viene a esistenza; si esegue presso l'ufficio dei registri immobiliari competente per il luogo dell'immobile. Se il titolo è una [[scrittura-privata|scrittura privata]], la firma deve essere autenticata o accertata in giudizio.",
+      "concetti": [
+        "ipoteca",
+        "scrittura-privata"
+      ]
+    },
+    {
+      "id": "p121-b009",
+      "pagina": 121,
+      "markdown": "Iscritto il credito, nello stesso grado sono collocati anche (art. 2855 c.c.):",
+      "concetti": []
+    },
+    {
+      "id": "p121-b010",
+      "pagina": 121,
+      "markdown": "- le spese dell'atto di costituzione, dell'iscrizione e della rinnovazione;",
+      "concetti": []
+    },
+    {
+      "id": "p121-b011",
+      "pagina": 121,
+      "markdown": "- le spese ordinarie per intervenire nel processo di esecuzione;",
+      "concetti": []
+    },
+    {
+      "id": "p121-b012",
+      "pagina": 121,
+      "markdown": "- gli interessi, se nell'iscrizione ne è indicata la misura, limitatamente alle due annate anteriori e a quella in corso al giorno del [[pignoramento|pignoramento]]; per il tempo successivo, solo gli interessi al tasso legale fino alla vendita.",
+      "concetti": [
+        "pignoramento"
+      ]
+    },
+    {
+      "id": "p121-b013",
+      "pagina": 121,
+      "markdown": "**b) Annotazione** (art. 2843 c.c.). Rende pubblico il passaggio dell'[[ipoteca|ipoteca]] a un altro soggetto (per esempio con la [[cessione-del-credito|cessione del credito]] garantito) o la costituzione di vincoli sul credito. Si esegue a margine dell'iscrizione e anch'essa ha efficacia **costitutiva**: finché non è eseguita, il trasferimento dell'ipoteca non produce effetto. Dopo l'annotazione, l'ipoteca non può essere cancellata senza il consenso di chi vi è indicato (per esempio il creditore pignoratizio del credito ipotecario).",
+      "concetti": [
+        "ipoteca",
+        "cessione-del-credito"
+      ]
+    },
+    {
+      "id": "p121-b014",
+      "pagina": 121,
+      "markdown": "**c) Rinnovazione** (artt. 2847-2851 c.c.). L'iscrizione conserva effetto per **vent'anni** dalla sua data. Per evitare che si estingua, va rinnovata prima della scadenza; altrimenti occorre una nuova iscrizione, che prende un grado nuovo (art. 2848 c.c.).",
+      "concetti": []
+    },
+    {
+      "id": "p121-b015",
+      "pagina": 121,
+      "markdown": "Chi lascia trascorrere il ventennio corre anche un altro rischio: se nel frattempo il bene è stato acquistato da un terzo che ha trascritto il suo titolo, la nuova iscrizione non può più essere presa né contro di lui, estraneo all'[[ipoteca|ipoteca]], né contro il suo dante causa, che sul bene non ha più diritti.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p121-b016",
+      "pagina": 121,
+      "markdown": "**d) Cancellazione** (artt. 2882-2888 c.c.). Estingue l'[[ipoteca|ipoteca]] e si chiede, di regola, quando il credito è estinto.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p121-b017",
+      "pagina": 121,
+      "markdown": "Può avvenire:",
+      "concetti": []
+    },
+    {
+      "id": "p121-b018",
+      "pagina": 121,
+      "markdown": "- con il **consenso del creditore**, prestato da persona capace e nelle forme richieste per concedere l'[[ipoteca|ipoteca]] (art. 2882 c.c.);",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p121-b019",
+      "pagina": 121,
+      "markdown": "- per **ordine del giudice**, con sentenza passata in giudicato o altro provvedimento definitivo (art. 2884 c.c.).",
+      "concetti": []
+    },
+    {
+      "id": "p121-b020",
+      "pagina": 121,
+      "markdown": "Si esegue a margine dell'iscrizione. Per i [[mutuo|mutui]] bancari estinti la legge prevede una cancellazione semplificata, curata dal conservatore su comunicazione della banca, senza atto di consenso del creditore (art. 40-bis TUB).",
+      "concetti": [
+        "mutuo"
+      ]
+    },
+    {
+      "id": "p121-b021",
+      "pagina": 121,
+      "markdown": "### Il terzo acquirente del bene ipotecato",
+      "concetti": []
+    },
+    {
+      "id": "p121-b022",
+      "pagina": 121,
+      "markdown": "Per la sequela, l'[[ipoteca|ipoteca]] colpisce anche chi acquista l'immobile dopo l'iscrizione: il **terzo acquirente**. Egli non diventa debitore con tutto il suo patrimonio verso i creditori iscritti; questi possono soltanto far espropriare il bene ipotecato, anche se ormai è suo. Il terzo è esposto all'espropriazione solo perché ha acquistato un bene già gravato.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p121-b023",
+      "pagina": 121,
+      "markdown": "La legge ne tiene conto, senza sacrificare il creditore. Il terzo acquirente che ha trascritto il suo acquisto e non è obbligato personalmente può evitare l'espropriazione scegliendo una di queste vie (art. 2858 c.c.):",
+      "concetti": []
+    },
+    {
+      "id": "p121-b024",
+      "pagina": 121,
+      "markdown": "- **pagare** i creditori iscritti;",
+      "concetti": []
+    },
+    {
+      "id": "p121-b025",
+      "pagina": 121,
+      "markdown": "- **rilasciare** i beni ipotecati, così che l'espropriazione si svolga non contro di lui ma contro un amministratore nominato dal tribunale;",
+      "concetti": []
+    },
+    {
+      "id": "p122-b001",
+      "pagina": 122,
+      "markdown": "- **liberare** il bene dalle [[ipoteca|ipoteche]] con il procedimento di **purgazione** (artt. 2889 ss. c.c.), offrendo ai creditori il prezzo pagato per l'acquisto oppure, se ha acquistato a titolo gratuito, il valore da lui stesso dichiarato.",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p122-b002",
+      "pagina": 122,
+      "markdown": "### Il terzo datore di ipoteca",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p122-b003",
+      "pagina": 122,
+      "markdown": "Chi, pur estraneo al debito, ha ipotecato un proprio bene per garantirlo (il **terzo datore**) non può usare le facoltà del terzo acquirente: la sua posizione è diversa, perché è stato lui a volere la garanzia. Salvo patto contrario, non può nemmeno invocare il **beneficio di escussione**, cioè pretendere che il creditore aggredisca prima i beni del debitore (art. 2868 c.c.). Se paga i creditori iscritti o subisce l'espropriazione, ha **regresso** verso il debitore per farsi rimborsare (art. 2871 c.c.).",
+      "concetti": []
+    },
+    {
+      "id": "p122-b004",
+      "pagina": 122,
+      "markdown": "### Estinzione dell'ipoteca",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p122-b005",
+      "pagina": 122,
+      "markdown": "L'art. 2878 c.c. elenca le cause di estinzione dell'[[ipoteca|ipoteca]]:",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p122-b006",
+      "pagina": 122,
+      "markdown": "- la **cancellazione** dell'iscrizione;",
+      "concetti": []
+    },
+    {
+      "id": "p122-b007",
+      "pagina": 122,
+      "markdown": "- la mancata **rinnovazione** entro il ventennio;",
+      "concetti": []
+    },
+    {
+      "id": "p122-b008",
+      "pagina": 122,
+      "markdown": "- l'estinzione dell'**[[obbligazione|obbligazione]]** garantita;",
+      "concetti": [
+        "obbligazione"
+      ]
+    },
+    {
+      "id": "p122-b009",
+      "pagina": 122,
+      "markdown": "- il **perimento** del bene, salvo il diritto sulle indennità (art. 2742 c.c.);",
+      "concetti": []
+    },
+    {
+      "id": "p122-b010",
+      "pagina": 122,
+      "markdown": "- la **rinuncia** del creditore, che va fatta espressamente e per iscritto;",
+      "concetti": []
+    },
+    {
+      "id": "p122-b011",
+      "pagina": 122,
+      "markdown": "- la scadenza del **termine** o l'avverarsi della condizione risolutiva a cui l'[[ipoteca|ipoteca]] era stata sottoposta;",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p122-b012",
+      "pagina": 122,
+      "markdown": "- il provvedimento che, nella vendita forzata, trasferisce il bene all'acquirente e ordina la cancellazione delle [[ipoteca|ipoteche]].",
+      "concetti": [
+        "ipoteca"
+      ]
+    },
+    {
+      "id": "p122-b013",
+      "pagina": 122,
+      "markdown": "Una causa di estinzione non aggiorna da sola i registri: il conservatore non cancella d'ufficio e la cancellazione richiede sempre un titolo, il consenso del creditore o il provvedimento del giudice.",
+      "concetti": []
+    }
+  ]
+}

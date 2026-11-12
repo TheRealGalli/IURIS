@@ -597,3 +597,16 @@ manuale a scelta). Le due costituzionali sono diventate **una materia** (`Diritt
   Bin-Pitruzzella 17,5% (il testo IURIS di costituzionale segue il Martines: i segni A-L arrivano quasi tutti da ricollocare).
 - **Prossimi passi**: glossario di costituzionale (voci mancanti come «interesse individuale»); testo IURIS di privato;
   titoli negli Originali di Filosofia M-Z e capoversi delle sbobinature di Filosofia SSG.
+
+
+## Diritto privato: testo IURIS aggiornato e triangoli tolti (12 novembre 2026)
+
+- **Originale «testo IURIS»** (`privato-iuris-v1`, `studio/letture-src/testi/privato-iuris.txt`): 238 pagine scritte da
+  noi, stessa numerazione della dispensa del 2012, **diritto vigente a novembre 2026** (filiazione, unioni civili,
+  Terzo settore, Codice della crisi, Codice del consumo e d.lgs. 176/2026, riforma 2025 della riduzione delle
+  donazioni…). Istruzioni in [`fase-privato/brief.md`](fase-privato/brief.md); ~35 riferimenti verificati in rete e
+  21 pagine a campione ([`fase-privato/verifica.md`](fase-privato/verifica.md)). Segni migrati: 97,1% di frasi sicure.
+- **Triangoli «Da sapere»**: tolti quelli di aggiornamento e di correzione, ora superati dai testi IURIS (privato 26 → 7,
+  costituzionale 28 → 15, romano 13 → 4); restano solo consigli di studio («Non confondere…»).
+- I tre Originali di romano, costituzionale e privato sono ora testi nostri: nessun riassunto di terzi pubblicato
+  per queste materie. Restano da fare le filosofie e il glossario di costituzionale.
