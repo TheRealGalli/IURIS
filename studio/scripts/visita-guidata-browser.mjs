@@ -26,6 +26,11 @@ export async function verificaVisita(browser, opzioni, BASE, etichetta, { telefo
   for (let i = 0; i < 80; i++) {
     await p.waitForSelector('.tour-bubble.ready', { timeout: 30000 });
     await p.waitForTimeout(120);
+    // Il riquadro scivola nella nuova posizione (animazione e scorrimento della pagina): si misura quando è fermo.
+    await p.waitForFunction(() => new Promise((ok) => {
+      const r = () => JSON.stringify(document.querySelector('.tour-bubble')?.getBoundingClientRect());
+      const a = r(); setTimeout(() => ok(a === r()), 150);
+    }), null, { timeout: 5000 }).catch(() => {});
     const t = await p.evaluate(() => {
       const b = document.querySelector('.tour-bubble').getBoundingClientRect(), s = document.querySelector('.tour-spot')?.getBoundingClientRect();
       const inter = s ? Math.max(0, Math.min(b.right, s.right) - Math.max(b.left, s.left)) * Math.max(0, Math.min(b.bottom, s.bottom) - Math.max(b.top, s.top)) : 0;
