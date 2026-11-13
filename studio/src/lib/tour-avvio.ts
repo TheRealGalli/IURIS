@@ -1,5 +1,5 @@
-// La visita guidata parte da sola soltanto alla prima visita: niente progressi salvati e visita mai proposta.
-// Dopo si rifà, tutta, da «Demo interattiva».
+// Su desktop la visita guidata parte da sola soltanto alla prima visita: niente progressi salvati e visita mai proposta.
+// Su telefono e iPad parte solo da «Demo interattiva». Dopo, su ogni dispositivo, si rifà tutta da quel pulsante.
 import { inDemo } from './archivio';
 
 export const CHIAVE_VISITA = 'iuris:v1:tour-visto';

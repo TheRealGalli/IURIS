@@ -26,8 +26,10 @@ export default function Oggi() {
   const ultima = p.ultimaLezione ? idx.lezioneById.get(p.ultimaLezione) : undefined;
   const nRip = rip.scadute.length + rip.nuove.length;
   const [mostraDeboli, setMostraDeboli] = useState(false);
-  // Alla prima visita (nessun progresso, visita mai proposta) la visita guidata parte da sola, una volta.
-  useEffect(() => { if (primaVisita()) { segnaVisitaProposta(); vai('/demo'); } }, []);
+  const compact = useCompact();
+  // Alla prima visita su desktop (nessun progresso, visita mai proposta) la visita guidata parte da sola, una volta.
+  // Su telefono e iPad parte solo se si tocca «Demo».
+  useEffect(() => { if (!compact && primaVisita()) { segnaVisitaProposta(); vai('/demo'); } }, [compact]);
 
   const deboli = useMemo(() => idx.corso.concetti
     .map((c) => {

@@ -6,7 +6,7 @@
  * Menu c'è una tappa «ponte» che illumina il Menu in basso. Sottolineatura: prima la selezione (niente segni),
  * poi lo strumento (ancora niente segni), poi il salvataggio. Articoli: la tappa apre l'articolo della Costituzione
  * o del Codice civile e poi la visita torna nella materia di partenza. Telefono: niente Mappa nel lettore.
- * Infine: la visita parte da sola soltanto alla prima visita.
+ * Infine: su desktop la visita parte da sola soltanto alla prima visita; su telefono e iPad parte solo dal pulsante Demo.
  */
 export async function verificaVisita(browser, opzioni, BASE, etichetta, { telefono = false, touch = false, foto = '', pref = { materia: 'filosofia-del-diritto' }, primaVisita = true } = {}) {
   const errori = [];
@@ -109,16 +109,30 @@ export async function verificaVisita(browser, opzioni, BASE, etichetta, { telefo
   await ctx.close();
 
   if (!primaVisita) return { errori, controlli, tappe: tappe.length };
-  // Prima visita: parte da sola una volta (qui si simula un browser normale, senza navigator.webdriver).
+  // Prima visita in un browser normale (senza navigator.webdriver): su desktop parte da sola una volta;
+  // su telefono e iPad parte solo dal pulsante Demo.
   const nuovo = await browser.newContext({ ...opzioni, reducedMotion: 'reduce', serviceWorkers: 'block' });
   await nuovo.addInitScript(() => Object.defineProperty(Navigator.prototype, 'webdriver', { get: () => false }));
   const q = await nuovo.newPage();
   await q.goto(BASE + '#/');
-  verifica(await q.waitForSelector('.tour-bubble.ready', { timeout: 30000 }).then(() => true, () => false), 'alla prima visita la visita non parte da sola');
-  await q.locator('.tour-close').click();
-  await q.waitForFunction(() => !document.querySelector('.tour-layer'));
-  await q.reload(); await q.waitForSelector('.main .hero-main', { timeout: 20000 }); await q.waitForTimeout(800);
-  verifica(await q.locator('.tour-layer').count() === 0, 'la visita riparte da sola anche dopo la prima volta');
+  if (touch) {
+    await q.waitForSelector('.main .hero-main', { timeout: 20000 });
+    await q.waitForTimeout(800);
+    verifica(await q.locator('.tour-layer').count() === 0, 'sul touch la visita è partita da sola all’apertura');
+    await q.locator('.mobile-tabs button[aria-label="Apri menu"]').tap();
+    await q.getByRole('link', { name: 'Demo interattiva' }).tap();
+    verifica(await q.waitForSelector('.tour-bubble.ready', { timeout: 30000 }).then(() => true, () => false), 'toccando Demo la visita non parte');
+    await q.locator('.tour-close').click();
+    await q.waitForFunction(() => !document.querySelector('.tour-layer'));
+    await q.reload(); await q.waitForSelector('.main .hero-main', { timeout: 20000 }); await q.waitForTimeout(800);
+    verifica(await q.locator('.tour-layer').count() === 0, 'sul touch la visita riparte da sola dopo averla chiusa');
+  } else {
+    verifica(await q.waitForSelector('.tour-bubble.ready', { timeout: 30000 }).then(() => true, () => false), 'alla prima visita la visita non parte da sola');
+    await q.locator('.tour-close').click();
+    await q.waitForFunction(() => !document.querySelector('.tour-layer'));
+    await q.reload(); await q.waitForSelector('.main .hero-main', { timeout: 20000 }); await q.waitForTimeout(800);
+    verifica(await q.locator('.tour-layer').count() === 0, 'la visita riparte da sola anche dopo la prima volta');
+  }
   await nuovo.close();
   return { errori, controlli, tappe: tappe.length };
 }
