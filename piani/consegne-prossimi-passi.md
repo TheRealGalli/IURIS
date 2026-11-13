@@ -631,3 +631,23 @@ Originali migrano da soli (`allinea-originali.mjs`, opzione `--scostamento`): fr
 94% (sbobinature SSG) al 99%. Verifiche a campione per ogni testo in `fase-filosofie/verifica-*.md`.
 
 Prossimo passo: la mappa personale nuova (righe per sezione, schede compatte, collegamenti al passaggio).
+
+## Menu desktop e cambi rapidi di pagina (13 novembre 2026)
+
+Su segnalazione di Carlo, riuniti **Backup completo e Demo interattiva** in un piede fisso della barra laterale.
+La Demo è subito sotto il backup e non cambia posizione passando fra materie con otto o nove sezioni, né
+entrando nel lettore. Nelle finestre desktop da 720 px sono visibili tutte le sezioni, comprese Costituzione
+e Codice civile; nelle finestre più basse scorre solo Studio, lasciando sempre accessibile il piede.
+
+Riprodotti anche due difetti con una risposta di rete deliberatamente ritardata: Studio spariva durante il
+caricamento e una materia precedente poteva sostituire i dati di quella ormai selezionata. Il menu ora resta
+montato, i dati devono corrispondere alla materia scelta e le risposte dei caricamenti superati vengono ignorate.
+
+Nuovo controllo `check:navigazione`, incluso in `check:build`: **402 verifiche** su Chromium e WebKit, tre
+altezze desktop (600, 720, 900 px), Romano/Costituzionale/Privato, navigazione rapida e scaricamento lento di una
+vista. I due difetti e il taglio della Demo sono stati riscontrati prima della correzione; le prove mirate
+sono verdi dopo. Verifica manuale sulla porta 7101, con finestra bassa e con il Codice civile nel menu.
+
+Build e collaudo completo `check:build` superati: inclusi **2.453 controlli su 11 dispositivi**, 952 sulla mappa
+personale e le 402 verifiche di navigazione, oltre a backup e migrazioni. La modifica preesistente di Carlo
+a `Percorso.tsx` è rimasta intatta. Nessun commit o push.

@@ -90,7 +90,9 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
   const compact = useCompact();
   const [mobilePanel, setMobilePanel] = useState<'menu' | 'study' | null>(null);
   useEffect(() => setMobilePanel(null), [rotta.hash]);
-  const [idx, setIdx] = useState<Indice | null>(null);
+  const [indiceCaricato, setIdx] = useState<Indice | null>(null);
+  // Una materia appena scelta non deve renderizzare neppure per un fotogramma i dati della precedente.
+  const idx = indiceCaricato?.corso.materia.slug === materia.slug ? indiceCaricato : null;
   const [err, setErr] = useState<string | null>(null);
   const [palette, setPalette] = useState(false);
   const [faseDemo, setFaseDemo] = useState<'idle' | 'starting' | 'running' | 'closing'>('idle');
@@ -111,9 +113,13 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
   const chiudiDemo = (to = '/') => { setUscitaDemo(to); setFaseDemo('closing'); };
 
   useEffect(() => {
+    let attivo = true;
     setIdx(null); setErr(null);
-    if (materia.disponibile && materia.file) caricaCorso(materia.file).then(setIdx).catch((e) => setErr(String(e)));
-  }, [materia.slug]);
+    if (materia.disponibile && materia.file) caricaCorso(materia.file)
+      .then((indice) => { if (attivo) setIdx(indice); })
+      .catch((e) => { if (attivo) setErr(String(e)); });
+    return () => { attivo = false; };
+  }, [materia.slug, materia.disponibile, materia.file]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -188,14 +194,14 @@ function Guscio({ manifest, materie, corso, materia }: { manifest: Manifest; mat
           <div className="nav-label">Materie</div>
           <GrigliaMaterie corso={corso} materie={materie} selezionata={materia.slug} onSelect={scegliMateria} />
         </div>
-        {idx && <NavLaterale nav={navDi(idx)} />}
-        <nav className="nav nav-archivio" aria-label="Backup di tutte le materie">
-          <div className="nav-label">Backup</div>
-          <a href={href('/backup')} className={rotta.parti[0] === 'backup' ? 'on' : ''} aria-current={rotta.parti[0] === 'backup' ? 'page' : undefined}>
-            <Icon n="backup" /> Backup completo
-          </a>
-        </nav>
+        <div className="side-studio"><NavLaterale nav={navDi(idx)} pronto={!!idx} /></div>
         <div className="side-foot">
+          <nav className="nav nav-archivio" aria-label="Backup di tutte le materie">
+            <div className="nav-label">Backup</div>
+            <a href={href('/backup')} className={rotta.parti[0] === 'backup' ? 'on' : ''} aria-current={rotta.parti[0] === 'backup' ? 'page' : undefined}>
+              <Icon n="backup" /> Backup completo
+            </a>
+          </nav>
           <a className={`search-btn demo-link${demo ? ' on' : ''}`} href={href('/demo')}><IurisMascot active={!demo} /> Demo interattiva</a>
         </div>
       </aside>
@@ -267,16 +273,16 @@ function sezioneAttiva(parti: string[]) {
   return s;
 }
 
-function NavLaterale({ nav }: { nav: typeof NAV }) {
+function NavLaterale({ nav, pronto }: { nav: typeof NAV; pronto: boolean }) {
   const rotta = useRotta();
   const att = sezioneAttiva(rotta.parti);
   return (
-    <nav className="nav">
+    <nav className="nav" aria-label="Studio">
       <div className="nav-label">Studio</div>
       {nav.map((n) => (
         <a key={n.key} href={href(n.to)} className={att === n.key ? 'on' : ''}>
           <Icon n={n.icon} /> {n.label}
-          {n.key === 'allena' && <BadgeRipasso />}
+          {n.key === 'allena' && pronto && <BadgeRipasso />}
         </a>
       ))}
     </nav>
